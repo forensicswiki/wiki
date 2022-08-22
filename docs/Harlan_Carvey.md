@@ -1,0 +1,65 @@
+<img src="HarlanCarvey.jpg" title="HarlanCarvey.jpg" width="200"
+alt="HarlanCarvey.jpg" /> [Harlan Carvey](Harlan_Carvey "wikilink") is a
+computer forensics author, researcher and practitioner. He has written
+several books and tools focusing on [Windows](Windows "wikilink")
+systems and [incident response](Incident_Response "wikilink"). His
+[Windows Incident Response Blog](http://windowsir.blogspot.com) Harlan
+Carvey's interest in computer and information security began while he
+was an officer in the U.S. military, and a student at the Naval
+Postgraduate School, earning his MSEE. After leaving military service,
+he began working in the field of commercial and government information
+security consulting, performing vulnerability assessments and
+penetration tests. While employed at one company, he was the sole
+developer of a program for collecting security-specific information
+(i.e., Registry entries, file information, configuration settings, etc.)
+from Windows NT systems during vulnerability assessments. The purpose of
+the product was to overcome shortfalls in commercial scanning products
+and provide more valuable information to the customer. Harlan has also
+done considerable work in the area of incident response and forensics,
+performing internal and external investigations. He has also written a
+number of proof-of-concept tools for educating users in such topics as
+Windows null sessions, file signature analysis, and the retrieval of
+metadata from a variety of file formats. Harlan's experience with
+computers began in the early '80s, with a Timex-Sinclair 1000. Around
+that time, he was learning to program BASIC on an Apple IIe. From there,
+he moved on to computers such as the Epson QX-10 and the TRS-80, on
+which he programmed BASIC and learned some rudimentary PASCAL, using the
+TurboPASCAL compiler. Since then, he's worked with SunOS and Solaris
+systems, as well as various versions of DOS and Windows, OS/2, and
+Linux. Harlan has presented at a variety of computer security
+conferences, including Usenix, DefCon9, Black Hat, GMU2003/HTCIA/RCFG,
+WACCI, and PFIC2010. He has discussed various topics specific to issues
+on Windows platforms, such as data hiding, incident response, and
+forensic analysis. He has had articles published in the Information
+Security Bulletin, on the SecurityFocus web site, and in the Hakin9
+magazine. Finally, Harlan has written a number of open source programs
+(including RegRipper), which have been made available online and via
+CDs/DVDs in his books. His [Windows Incident
+Response](http://windowsir.blogspot.com/) blog is updated on a regular
+basis.
+
+## Website
+
+- [Harlan's Windows Incident Response
+  Blog](http://windowsir.blogspot.com)
+
+## Tools
+
+- [WinForensicAnalysis
+  Tools](http://code.google.com/p/winforensicaanalysis/downloads/list) -
+  Hosted on Google Code, includes files for the Windows Registry
+  Forensics book.
+
+## Books
+
+- *[Windows Registry
+  Forensics](http://http://www.syngress.com/digital-forensics/Windows-Registry-Forensics/)*
+- *[Windows Forensic
+  Analysis](http://www.syngress.com/catalog/index.cfm?pid=4235)*
+- *[Windows Forensics and Incident
+  Recovery](http://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/ref=sr_1_3?ie=UTF8&s=books&qid=1200485877&sr=1-3)*
+- *[Perl Scripting for Windows
+  Security](http://www.amazon.com/Perl-Scripting-Security-Harlan-Carvey/dp/159749173X/ref=pd_bbs_sr_2?ie=UTF8&s=books&qid=1200485877&sr=1-2)*
+- *A Study of Video Teleconferencing Traffic on a TCP/IP Network*
+
+[Category:People](Category:People "wikilink")

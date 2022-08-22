@@ -1,0 +1,10 @@
+**Enhanced Data rates for Global Evolution**, or **EDGE** is a mobile
+phone technology that enhances upon [GPRS](GPRS "wikilink").
+Thoeretically, this allows data transfers three times faster than
+standard [GPRS](GPRS "wikilink"), but is not always the case. The
+maxinmum data tranfer rate is 236 kbps but most networks runing EDGE are
+only configured for a data transfer rate of 135 kbps. It can be used on
+[GSM](GSM "wikilink") and [TDMA](TDMA "wikilink") networks including
+Cingular and T-Mobile. EDGE can be implemented with no modification to
+the core network, the base station subsytem only need a transceiver
+installed to support EDGE.

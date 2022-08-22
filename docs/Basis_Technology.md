@@ -1,0 +1,1 @@
+[Category:Vendors](Category:Vendors "wikilink")

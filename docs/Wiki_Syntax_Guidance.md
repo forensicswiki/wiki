@@ -1,0 +1,1 @@
+Mediawiki article submission guide 2222

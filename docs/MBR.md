@@ -1,0 +1,1 @@
+1.  REDIRECT [Master boot record](Master_boot_record "wikilink")

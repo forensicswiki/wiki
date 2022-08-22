@@ -1,0 +1,1 @@
+1.  REDIRECT [AFF Developers Guide](AFF_Developers_Guide "wikilink")

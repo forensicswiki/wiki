@@ -1,0 +1,1 @@
+1.  REDIRECT [FAT](FAT "wikilink")
