@@ -1,0 +1,19 @@
+site_name: Forensicswiki 
+
+nav:
+  - Home: index.md
+  - Tags: 
+    - tags.md
+      
+theme:
+  name: material 
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+plugins:
+  - search:
+      lang: en
+  - tags:
+      tags_file: tags.md
+
