@@ -2,6 +2,7 @@
 tags:
   -  Anti-Forensics
   -  Network Forensics
+  -  Encryption
 ---
 **VPN** (Virtual Private Network) is a class of technology that allows
 remote machines to interconnect by creating a virtual network layer, on

@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Systems
+  -  Operating Systems
+  -  Unix
 ---
 ZFS is a combined file system and logical volume manager designed by
 [Sun Microsystems](sun_microsystems.md).

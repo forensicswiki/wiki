@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **BlackBerry OS** is the proprietary software platform made by Research
 In Motion for their [BlackBerry](blackberry.md) line of

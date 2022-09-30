@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 Microsoft Internet Explorer (MSIE) is the default [Web
 Browser](web_browser.md) included with [Microsoft
@@ -154,5 +155,3 @@ the following Windows Registry key
 - [Forensic Analysis of ESE databases in Internet Explorer
   10](http://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf),
   by Bonnie Malmström & Philip Teveldal, June 2013
-
-[Category:Applications](category:applications.md) [Category:Web

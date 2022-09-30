@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Anti Virus
 ---
 ## Quarantine directory
 
@@ -49,5 +50,3 @@ might refer to unpacked versions of the executable.
 ## External Links
 
 - [Sophos](http://www.sophos.com/en-us.aspx)
-
-[Category:Applications](category:applications.md) [Category:Anti

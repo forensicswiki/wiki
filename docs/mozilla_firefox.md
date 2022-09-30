@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 Mozilla Firefox is a Free and Open Source [web
 browser](web_browser.md) developed by the Mozilla Foundation.
@@ -152,5 +153,3 @@ URL:
   downloads.sqlite](https://wiki.mozilla.org/images/3/3d/Downloads.sqlite.schema.pdf)
 - [Mozilla Firefox
   Releases](http://download.cdn.mozilla.net/pub/firefox/releases/)
-
-[Category:Applications](category:applications.md) [Category:Web

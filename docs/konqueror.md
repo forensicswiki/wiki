@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 ## Data directory
 
@@ -20,5 +21,3 @@ The browser history is stored in **konq_history**
 
 [Konqueror FAQ
 (Outdated)](http://www.konqueror.org/faq/#WheredoesKonquerorstoreitshistoryandhowdoIeraseit)
-
-[Category:Applications](category:applications.md) [Category:Web

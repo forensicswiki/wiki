@@ -1,6 +1,8 @@
 ---
 tags:
   -  Mac OS X
+  -  Operating Systems
+  -  Articles that need to be expanded
 ---
 Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating
 system distributed with Apple computers. It includes heavily used
@@ -344,5 +346,3 @@ Mac OS.
 - [YAA: An Obscure MacOS Compressed File
   Format](https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/),
   by nightwatchcyber, June 14, 2020
-
-[Category:Mac OS X](category:mac_os_x.md) [Category:Operating

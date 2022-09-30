@@ -1,6 +1,8 @@
 ---
 tags:
   -  Applications
+  -  Linux
+  -  Article that need to me be expanded
 ---
 GNOME is a desktop environment and graphical user interface that runs on
 top of, commonly a Linux/Unix-style, operating system.
@@ -20,5 +22,3 @@ and its content. This data is commonly found in:
 - [Wikipedia: GVFS](http://en.wikipedia.org/wiki/GVFS)
 - [Examining the
   Gnome](http://www.handmadeology.com/wp-content/uploads/2010/09/gnome.jpg)
-
-[Category:Applications](category:applications.md)

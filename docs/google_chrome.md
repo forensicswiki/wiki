@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 Google Chrome is a [web browser](web_browser.md) developed by
 Google Inc.
@@ -494,5 +495,3 @@ On Windows
 
 - [Hindsight](https://github.com/obsidianforensics/hindsight)
 - [plaso](plaso.md)
-
-[Category:Applications](category:applications.md) [Category:Web

@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 ## Data directory
 
@@ -72,5 +73,3 @@ On Windows Vista, 7
 - [Opera MBS Viewer](http://www.freeviewer.org/mbs/)
 - [Opera
   Forensics](http://www.mailxaminer.com/blog/opera-mailbox-forensics/)
-
-[Category:Applications](category:applications.md) [Category:Web

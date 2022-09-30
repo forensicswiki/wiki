@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Anti Virus
 ---
 ## Quarantine directory
 
@@ -37,5 +38,3 @@ To build run:
 
 - [hardcoded key obtained from
   mpengine.dll](https://github.com/brad-accuvant/cuckoo-modified/blob/00ad13c94cc7453c40ed6152d16009ca1c8ed6f2/lib/cuckoo/common/quarantine.py#L186)
-
-[Category:Applications](category:applications.md) [Category:Anti

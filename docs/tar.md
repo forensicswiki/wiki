@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Archive File
+  -  Archive Files
 ---
 tar (derived from tape archive) is a file format (in the form of a type
 of archive bitstream).

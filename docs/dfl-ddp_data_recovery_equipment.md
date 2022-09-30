@@ -17,4 +17,4 @@ rate.
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 
-[Tools:Data_Recovery](tools:data_recovery.md)
+[Data_Recovery](data_recovery.md)

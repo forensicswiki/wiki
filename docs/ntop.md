@@ -1,6 +1,10 @@
 ---
 tags:
   -  Network Forensics
+  -  Linux
+  -  Windows
+  -  GPL
+  -  Tools
 ---
 ## Overview
 
@@ -106,5 +110,3 @@ status.[1](http://www.ntop.org/products/ntop/)
 ## Sources
 
 [ntop.org](http://www.ntop.org/products/ntop/)
-
-[Category:Network Forensics](category:network_forensics.md)

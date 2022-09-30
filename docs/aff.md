@@ -1,6 +1,6 @@
 ---
 tags:
-  - Forensics File Format 
+  - Forensics File Formats
   - Open Source Tools
 ---
 The **Advanced Forensics Format** (**AFF**) is an extensible open format

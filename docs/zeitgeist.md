@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Linux
 ---
 Zeitgeist is a service which logs the users's activities and events,
 anywhere from files opened to websites visited and conversations.
@@ -22,5 +23,3 @@ The timestamp is formatter in milli seconds sinds POSIX epoch (Jan 1,
 - [Zeitgeist Project site](http://zeitgeist-project.com/)
 - [Wikipedia: Zeitgeist
   (framework)](http://en.wikipedia.org/wiki/Zeitgeist_(framework))
-
-[Category:Applications](category:applications.md)

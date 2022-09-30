@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Anti Virus
 ---
 ## Quarantine directory
 
@@ -40,5 +41,3 @@ On Windows 7:
 ## External Links
 
 - [Kaspersky](http://www.kaspersky.com)
-
-[Category:Applications](category:applications.md) [Category:Anti

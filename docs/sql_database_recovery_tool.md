@@ -1,6 +1,7 @@
 ---
 tags:
   -  Analysis
+  -  Tools
 ---
 *SQL Database Recovery Tool* is one of the best tools to repair &
 Recover Corrupt MS SQL database easily. A reliable Windows based
@@ -34,4 +35,3 @@ database files in no time.
 [Official
 Website](https://www.sysinfotools.com/recovery/ms-sql-database-recovery.php)
 
-[Category:Analysis](category:analysis.md) [Category:Paid

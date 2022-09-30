@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Database File Formats
+  -  Articles that need to be expanded
 ---
 SQLite databases are used by many programs including several forensics
 tools, e.g. [Autopsy](autopsy.md) 3. SQLite 3 is current and
@@ -84,6 +86,3 @@ all stored in SQLite3.
 - [SQLite Recovery](sqlite_recovery.md)
 - [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
 - [SQLite Forensics](http://www.freeviewer.org/sqlite/forensics/)
-
-[Category:File Formats](category:file_formats.md)
-[Category:Database File

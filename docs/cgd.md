@@ -1,7 +1,9 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
 ---
+
 **CGD** (Cryptographic Device Driver) - provides transparent full disk
 encryption for [NetBSD](netbsd.md).
 
@@ -10,5 +12,3 @@ encryption for [NetBSD](netbsd.md).
 - [NetBSD Official website](http://www.netbsd.org/)
 - \[<http://www.netbsd.org/docs/guide/en/chap-cgd.html>: NetBSD
   Documentation\]
-
-[Category:Encryption](category:encryption.md) [Category:Disk

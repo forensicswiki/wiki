@@ -1,6 +1,7 @@
 ---
 tags:
   -  Applications
+  -  Web Browsers
 ---
 Apple Safari is the default [web browser](web_browser.md)
 included with [Mac OS X](mac_os_x.md).
@@ -85,5 +86,3 @@ format](sqlite_database_format.md).
 - [J.A.F.A.T. Archive of Forensics Analysis
   Tools](http://jafat.sourceforge.net/) home of Safari Forensic Tools
   (SFT)
-
-[Category:Applications](category:applications.md) [Category:Web

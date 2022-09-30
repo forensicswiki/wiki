@@ -1,7 +1,9 @@
 ---
 tags:
   -  Memory Analysis
+  -  Analysis Techniques
 ---
+
 **Memory Analysis** is the science of using a [memory
 image](memory_imaging.md) to determine information about running
 programs, the [operating system](operating_system.md), and the
@@ -224,5 +226,3 @@ analysis.
 - [TrueCrypt Master Key Extraction And Volume
   Identification](http://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
   by [Michael Hale Ligh](michael_hale_ligh.md), January 14, 2014
-
-[Category:Memory Analysis](category:memory_analysis.md)
