@@ -1,1 +1,0 @@
-1.  REDIRECT [Word Document (DOC)](Word_Document_(DOC) "wikilink")

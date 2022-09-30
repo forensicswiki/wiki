@@ -1,1 +1,0 @@
-1.  REDIRECT [SHA-1](SHA-1 "wikilink")

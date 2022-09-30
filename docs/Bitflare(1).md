@@ -1,1 +1,0 @@
-1.  REDIRECT [BitFlare](BitFlare "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [Cell phones](Cell_phones "wikilink")

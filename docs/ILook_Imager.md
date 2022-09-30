@@ -1,1 +1,0 @@
-1.  redirect [IXimager](IXimager "wikilink")

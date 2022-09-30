@@ -1,1 +1,0 @@
-1.  REDIRECT [Mac OS X](Mac_OS_X "wikilink")

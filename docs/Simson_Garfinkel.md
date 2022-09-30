@@ -1,1 +1,0 @@
-1.  REDIRECT [Simson L. Garfinkel](Simson_L._Garfinkel "wikilink")

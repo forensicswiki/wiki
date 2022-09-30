@@ -1,1 +1,0 @@
-[Category:Hardware](Category:Hardware "wikilink")

@@ -1,1 +1,0 @@
-<http://binaryforay.blogspot.com/>

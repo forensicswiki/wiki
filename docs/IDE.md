@@ -1,1 +1,0 @@
-1.  REDIRECT [ATA Interface](ATA_Interface "wikilink")

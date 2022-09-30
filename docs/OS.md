@@ -1,1 +1,0 @@
-1.  REDIRECT [Operating system](Operating_system "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [Gzip](Gzip "wikilink")

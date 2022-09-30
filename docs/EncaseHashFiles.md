@@ -1,1 +1,0 @@
-1.  redirect [Encase hash files](Encase_hash_files "wikilink")

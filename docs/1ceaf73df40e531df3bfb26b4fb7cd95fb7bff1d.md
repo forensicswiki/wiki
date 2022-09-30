@@ -1,3 +1,7 @@
+---
+tags:
+  - No Category
+---
 1ceaf73df40e531df3bfb26b4fb7cd95fb7bff1d is the SHA-1 for a block of
 4096 NULL bytes:
 

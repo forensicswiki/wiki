@@ -1,1 +1,0 @@
-See: [Technology Pathways](Technology_Pathways "wikilink")

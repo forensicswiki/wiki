@@ -1,1 +1,0 @@
-1.  REDIRECT [Nickfile (NK2)](Nickfile_(NK2) "wikilink")

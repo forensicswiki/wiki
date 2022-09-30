@@ -1,1 +1,0 @@
-1.  REDIRECT [hiberfil.sys](hiberfil.sys "wikilink")

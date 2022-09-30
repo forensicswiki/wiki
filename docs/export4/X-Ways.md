@@ -1,1 +1,0 @@
-1.  REDIRECT [X-Ways AG](X-Ways_AG "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [IXimager file formats](IXimager_file_formats "wikilink")

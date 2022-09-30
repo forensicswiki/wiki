@@ -1,1 +1,0 @@
-1.  REDIRECT [Mozilla Firefox](Mozilla_Firefox "wikilink")

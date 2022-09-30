@@ -1,1 +1,0 @@
-1.  REDIRECT [SIM_Cards](SIM_Cards "wikilink")

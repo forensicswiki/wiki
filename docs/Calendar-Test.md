@@ -1,1 +1,0 @@
-<calendar name="Test Calendar"> </calendar>

@@ -1,1 +1,0 @@
-1.  redirect [Bibliography](Bibliography "wikilink")

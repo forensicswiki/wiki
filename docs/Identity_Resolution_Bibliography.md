@@ -1,1 +1,0 @@
-[Category:Bibliographies](Category:Bibliographies "wikilink")

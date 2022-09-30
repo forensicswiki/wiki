@@ -1,1 +1,0 @@
-1.  REDIRECT [Computer forensics](Computer_forensics "wikilink")
