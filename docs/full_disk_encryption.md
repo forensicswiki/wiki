@@ -1,7 +1,8 @@
 ---
 tags:
   -  Encryption
-  -  Anti-Forensics
+  -  Disk Encryption
+  -  Anti Forensics
 ---
 **Full Disk Encryption** or **Whole Disk Encryption** is a phrase that
 was coined by [Seagate](seagate.md) to describe their encrypting

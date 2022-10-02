@@ -1,8 +1,12 @@
 ---
 tags:
-  - No Category
+  -  Operating Systems
+  -  Linux
+  -  Opensource Tools
+  -  Analysis
+  -  Pentest
 ---
-A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for
+A [Linux](linux.md) [Live CD](live_cd.md) intended for
 [penetration testing](penetration_testing.md).
 
 BackTrack is based on [Ubuntu](ubuntu.md), where early versions

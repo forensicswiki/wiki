@@ -3,7 +3,7 @@ tags:
   - No Category
 ---
 The **Automated Image and Restore** or **AIR** is a GUI front-end to
-[dd](dd.md) and [dc3dd](dc3dd "wikilink") designed for easily
+[dd](dd.md) and [dc3dd](dc3dd.md) designed for easily
 creating forensic bit images.
 
 Features:

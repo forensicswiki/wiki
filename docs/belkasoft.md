@@ -1,6 +1,7 @@
 ---
 tags:
   -  Vendors
+  -  Tools
 ---
 **About Belkasoft**
 
@@ -67,6 +68,3 @@ and Ernst & Young.
 ## External Links
 
 - [Official website](https://belkasoft.com/)
-
-[category:Tools](category:tools.md)
-

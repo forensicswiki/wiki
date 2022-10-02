@@ -5,10 +5,10 @@ tags:
 The **Autopsy Forensic Browser** (**Autopsy**) is a graphical interface
 to the command line digital investigation analysis tools in [The Sleuth
 Kit](the_sleuth_kit.md). Together, they can analyze
-[Windows](windows.md) and [UNIX](UNIX "wikilink") disks and
-[file systems](file_systems.md) ([NTFS](NTFS "wikilink"),
-[FAT](fat.md), [UFS1](UFS1 "wikilink")/[UFS2](UFS2 "wikilink"),
-[Ext2](ext2.md)/[Ext3](Ext3 "wikilink")).
+[Windows](windows.md) and [UNIX](unix.md) disks and
+[file systems](file_systems.md) ([NTFS](ntfs.md),
+[FAT](fat.md), [UFS1](ufs1.md)/[UFS2](ufs2.md),
+[Ext2](ext2.md)/[Ext3](ext3.md)).
 
 The [Sleuthkit](sleuthkit.md) and Autopsy are both Open Source
 and run on UNIX platforms. As Autopsy is [HTML](html.md)-based,

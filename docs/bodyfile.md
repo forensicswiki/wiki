@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Timeline Analysis
+  -  Analysis
+  -  File Formats
+
 ---
 Bodyfile (or body file) is an output format (as far as known) introduced
 by the [SleuthKit](sleuthkit.md).

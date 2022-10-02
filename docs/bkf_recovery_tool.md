@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Windows
+  -  Paid Software
+  -  Tools
 ---
 *BKF Recovery Tool* is one of the most user-friendly tools to recover
 corrupt backup files from your system. With an advanced recovery
@@ -27,5 +30,3 @@ from your corrupt BKF files.
 
 [Official
 Website](https://www.sysinfotools.com/recovery/bkf-recovery.php)
-
-[Category:Analysis](category:analysis.md) [Category:Paid

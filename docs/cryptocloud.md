@@ -1,6 +1,7 @@
 ---
 tags:
   -  Service Provider
+  -  Organizations
 ---
 **Cryptocloud VPN** is a commercial, consumer-oriented
 [VPN](vpn.md) service provided by
@@ -15,5 +16,3 @@ keep user-detail logfiles of its customers' usage of its network
 - [Official web site](http://www.cryptocloud.net)
 - [Affiliated discussion forum used by
   Cryptocloud](http://www.cultureghost.org)
-
-[Category:Service Provider](category:service_provider.md)

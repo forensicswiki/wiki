@@ -4,8 +4,7 @@ tags:
 ---
 ***Caine (an acronym for Computer Aided Investigative Environment**') is
 a [distribution](distribution_linux.md)
-[live](live_cd.md) oriented to Computer Forensics ([computer
-forensics](computer_forensics.md) historically conceived by
+[live](live_cd.md) oriented to Computer Forensics ([computer forensics](computer_forensics.md) historically conceived by
 Giancarlo Giustini, within a project of Digital Forensics*
 Interdepartmental Research Center for Security'' (CRIS) of the
 University of Modena and Reggio Emilia see [Official

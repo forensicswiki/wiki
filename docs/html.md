@@ -2,8 +2,7 @@
 tags:
   -  File Formats
 ---
-The **Hypertext Markup Language** (**HTML**) [file
-format](file_format.md) is used to create/display web pages.
+The **Hypertext Markup Language** (**HTML**) [file format](file_format.md) is used to create/display web pages.
 
 Its main purpose is to align text, images, or links on a website in a
 specific way. Web pages with **.html** or **.htm** extensions are

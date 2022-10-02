@@ -13,10 +13,10 @@ over two million users have downloaded it. The program has been
 developed in [python](python.md) and originally only supported
 the LG VX4400 but it now supports a variety of phone manufactures
 including [Audiovox](audiovox.md),
-[Kyocera](kyocera.md), [LG](LG "wikilink"),
-[Motorola](motorola.md), [Nokia](Nokia "wikilink"),
-[Palm](palm.md), [Samsung](Samsung "wikilink"),
-[Sanyo](sanyo.md), and [Toshiba](Toshiba "wikilink").
+[Kyocera](kyocera.md), [LG](lg.md),
+[Motorola](motorola.md), [Nokia](nokia.md ),
+[Palm](palm.md), [Samsung](samsung.md),
+[Sanyo](sanyo.md), and [Toshiba](toshiba.md).
 
 In order to use the program, a data cable and it's drivers, usually
 available from the supplier/manufacturer, are required. BitPim will try

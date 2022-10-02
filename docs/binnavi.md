@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Debugging
+  -  Tools
+  -  APL A
+  -  Analysis 
 ---
 BinNavi is a binary analysis IDE - an environment that allows users to
 inspect, navigate, edit, and annotate control-flow-graphs of

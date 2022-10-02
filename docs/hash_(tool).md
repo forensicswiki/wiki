@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Anti Forensics 
 ---
 ### Background
 
@@ -29,6 +29,3 @@ Community](http://www.powerofcommunity.net) that November.
 - [PoC presentation: *Hacking
   Sucks!*](http://powerofcommunity.net/poc2007/grugq.pdf)
 - [hash-0.2.5.tar.gz](http://www.tacticalvoip.com/tools.html)
-
-[Category:Anti-forensics
-tools](category:anti-forensics_tools.md)

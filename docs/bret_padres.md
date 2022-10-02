@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  People 
 ---
 [Bret A. Padres](bret_a._padres.md) directs [Stroz
 Friedberg](stroz_friedberg.md)’s Digital Forensics Lab in

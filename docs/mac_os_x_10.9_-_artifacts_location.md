@@ -1,6 +1,7 @@
 ---
 tags:
   -  Mac OS X
+  -  Operating Systems
 ---
 The content of this page is automatically generated from the "Mac OS X
 artifacts location" of the [mac4n6
@@ -935,5 +936,3 @@ Accounts configured in Mail.app
 - [Known Networks settings moved in Big
   Sur](https://www.alansiu.net/2021/01/27/known-networks-settings-moved-in-big-sur/),
   by Alan Siu, January 27, 2021
-
-[Category:Mac OS X](category:mac_os_x.md) [Category:Operating

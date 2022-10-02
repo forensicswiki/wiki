@@ -1,6 +1,7 @@
 ---
 tags:
   -  Mac OS X
+  -  File Formats
 ---
 Binary plists are the files that Apple products use to store
 information. The easiest way to view them is to convert them to XML.

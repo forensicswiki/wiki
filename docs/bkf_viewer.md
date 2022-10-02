@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Windows
+  -  Opensource Software
+  -  Tools
 ---
 *BKF Viewer* is a freeware program built to scan and open Windows backup
 files for viewing content within
@@ -17,5 +20,3 @@ corrupt Windows .bkf files via quick and deep scan option respectively.
 ## External Links
 
 [Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free

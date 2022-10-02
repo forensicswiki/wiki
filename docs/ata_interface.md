@@ -1,6 +1,7 @@
 ---
 tags:
   -  Computer Bus
+  -  Hardware
 ---
 ATA is the AT Attachment interface, one of two major standards for
 connecting storage media devices like hard drives to personal computers
@@ -19,5 +20,3 @@ DVD, Blu-Ray.
   ATA](http://en.wikipedia.org/wiki/AT_Attachment)
 - [ATA/ATAPI-5](http://www.t10.org/t13/project/d1321r3-ATA-ATAPI-5.pdf)
   T13 Technical Specification
-
-[Category:Computer Bus](category:computer_bus.md)

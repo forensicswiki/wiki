@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Windows
+  -  Incident Response
+  -  Tools
+  -  Commerical 
 ---
 **Computer Online Forensic Evidence Extractor (COFEE)**
 

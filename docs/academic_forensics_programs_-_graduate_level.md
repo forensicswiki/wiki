@@ -88,10 +88,6 @@ tags:
 ## See Also
 
 - [AAFS](http://www.aafs.org/default.asp?section_id=resources&page_id=colleges_and_universities)
-- [Digital Forensics Association
-  List](http://www.digitalforensicsassociation.org/formal-education/)
-- [Forensics Focus
-  List](http://www.forensicfocus.com/computer-forensics-education-directory)
-- [Master's Thesis: The Development of a Standard Digital Forensics
-  Master's
-  Curriculum](http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1010&context=techmasters&sei-redir=1#search=%22katie%20strzempka%20thesis%22)
+- [Digital Forensics Association List](http://www.digitalforensicsassociation.org/formal-education/)
+- [Forensics Focus List](http://www.forensicfocus.com/computer-forensics-education-directory)
+- [Master's Thesis: The Development of a Standard Digital Forensics Master's Curriculum](http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1010&context=techmasters&sei-redir=1#search=%22katie%20strzempka%20thesis%22)

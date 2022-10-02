@@ -1369,5 +1369,3 @@ name</a></b></p></td>
 - [Registry Undelete (russian)](http://paullee.ru/regundel)
 - [Windows Registry Recovery](http://mitec.cz/wrr.html)
 - [Registry Tool](http://registrytool.com/)
-
-[Category:Windows Analysis](category:windows_analysis.md)

@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Operating Systems
+  -  Unix 
 ---
 IBM AIX (Advanced Interactive eXecutive) is a collection of Unix
 operating systems by IBM, based on UNIX System V.

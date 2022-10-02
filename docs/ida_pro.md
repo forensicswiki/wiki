@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Debugging
+  -  Disassembly
+  -  Commerical 
 ---
 IDA Pro is a Windows, Linux or Mac OS X hosted multi-processor
 disassembler and debugger. It is a useful tool for *hostile code

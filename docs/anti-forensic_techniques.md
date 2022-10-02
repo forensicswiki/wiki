@@ -2,8 +2,7 @@
 tags:
   -  Anti-Forensics
 ---
-**Anti-forensic techniques** try to frustrate [forensic
-investigators](forensic_investigator.md) and their
+**Anti-forensic techniques** try to frustrate [forensic investigators](forensic_investigator.md) and their
 [techniques](techniques.md).
 
 From [1](http://en.wikipedia.org/wiki/Anti-computer_forensics): Attempts
@@ -163,7 +162,7 @@ system, making the data “look like a partition in which unused blocks
 have recently been overwritten with random bytes using some disk wiping
 tool” (McDonald and Kuhn, 2003).
 
-[FreeOTFE](freeotfe.md) and [TrueCrypt](TrueCrypt "wikilink")
+[FreeOTFE](freeotfe.md) and [TrueCrypt](TrueCrypt.md)
 allow a second encrypted file system to be hidden within another
 encrypted file system. The goal of this filesystem-within-a-filesystem
 is to allow the users to have a “decoy” file system with data that is
@@ -241,8 +240,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 
 ## See also
 
-- [Anti-forensics tools
-  category](:category:anti-forensics_tools.md)
+- [Anti-forensics tools](antiforensics_tools.md)
 
 ## Externals Links
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  People 
 ---
 [Cindy Murphy](cindy_murphy.md) is a Detective with the City of
 Madison, WI Police Department and has been a Law Enforcement Officer

@@ -1,7 +1,8 @@
 ---
 tags:
   -  Encryption
-  -  Anti-Forensics
+  -  Disk Encryption
+  -  Anti Forensics
 ---
 **Full Volume Encryption**, or FVE, is a method for encrypting a single
 partition, either physical or virtual, on a hard drive. It is different

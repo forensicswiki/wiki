@@ -10,7 +10,7 @@ internals, reverse engineering, and malware analysis since 1994. Golden
 earned a Ph.D. in Computer Science from The Ohio State University in
 1995. He is also the Founder and Owner of Arcane Alloy, LLC, a private
 digital forensics and cybersecurity firm, the original author of the
-[Scalpel](scalpel.md) file [carving](Carving "wikilink") tool, a
+[Scalpel](scalpel.md) file [carving](carving.md) tool, a
 pioneer in applying high performance computing principles to digital
 forensics, and a professional music photographer.
 

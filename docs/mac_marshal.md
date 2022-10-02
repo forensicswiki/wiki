@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Mac OS X
+  -  Tools
+  -  Macintosh Forensics tools 
 ---
 Mac Marshal is a tool to analyze Mac OS X file system images. It scans a
 Macintosh disk image, automatically detects and displays Macintosh and
@@ -38,6 +40,3 @@ MEGA.
   (pdf)](http://www.dfrws.org/2008/proceedings/p83-joyce.pdf)
 - [www.macmarshal.com](http://www.macmarshal.com/)
 - [ATC-NY](http://www.atc-nycorp.com/)
-
-[Category:Macintosh forensics
-tools](category:macintosh_forensics_tools.md)

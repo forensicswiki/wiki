@@ -46,6 +46,3 @@ The location of the AOL PFC mail store is:
 - [AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)
 - [Digital Detective Blade®
   Professional](http://www.digital-detective.net/digital-forensic-software/blade/)
-
-[Category:Database File
-Formats](category:database_file_formats.md)

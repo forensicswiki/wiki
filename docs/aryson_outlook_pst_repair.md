@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Windows
+  -  Tools
+  -  Paid Software
 ---
 *Aryson Outlook PST Repair* is a renowned software which helps users in
 repairing, recovering and restoring corrupt Outlook PST files. MS
@@ -38,5 +41,3 @@ You can get some more information about Outlook errors and their
 solution from here:
 \[<https://www.emailskb.com/resolved-outlook-is-not-responding-error/>
 \]
-
-[Category:Analysis](category:analysis.md) [Category:Paid

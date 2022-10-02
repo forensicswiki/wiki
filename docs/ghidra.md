@@ -1,10 +1,11 @@
 ---
 tags:
-  - No Category
+  -  Reserving
+  -  Opensource Software
+
 ---
 Ghidra is a software reverse engineering (SRE) framework created and
-maintained by the [National Security Agency Research
-Directorate](national_security_agency_research_directorate.md).
+maintained by the [National Security Agency Research Directorate](national_security_agency_research_directorate.md).
 This framework includes a suite of full-featured, high-end software
 analysis tools that enable users to analyze compiled code on a variety
 of platforms including Windows, macOS, and Linux. Capabilities include

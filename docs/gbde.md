@@ -1,6 +1,8 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
+  -  Anti Forensics
 ---
 **GBDE** - GEOM Based Disk Encryption - is a
 [FreeBSD](freebsd.md) block device-layer disk encryption that
@@ -18,5 +20,3 @@ was later written later by Pawel Jakub Dawidek.
 - [FreeBSD Manpage:
   GBDE](http://www.freebsd.org/cgi/man.cgi?query=gbde&apropos=0&sektion=8&manpath=FreeBSD+6.2-RELEASE&format=html)
 - [Wikipedia: GBDE](http://en.wikipedia.org/wiki/GBDE)
-
-[Category:Encryption](category:encryption.md) [Category:Disk

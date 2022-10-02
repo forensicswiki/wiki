@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Paper
+  -  Research
+  -  Forensics 
 ---
 White paper on Cisco IOS forensics:
 

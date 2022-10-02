@@ -1,7 +1,9 @@
 ---
 tags:
   -  Metadata
-  -  Windows
+  -  Tools
+  -  Cross Platform
+  -  GPL
 ---
 **Hachoir** is a generic framework for binary file manipulation. Written
 in Python, it's operating system independent and has many text/graphic
@@ -40,5 +42,3 @@ Python egg files :
 - [hachoir-metadata](http://pypi.python.org/pypi/hachoir-metadata)
 - [hachoir-urwid](http://pypi.python.org/pypi/hachoir-urwid)
 - [hachoir-wx](http://pypi.python.org/pypi/hachoir-wx)
-
-[Category:Metadata](category:metadata.md)

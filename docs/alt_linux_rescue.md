@@ -23,16 +23,16 @@ Build profile suitable for ALT Linux `mkimage` tool is included as
 ## Tools included
 
 Most of the usual rescue suspects should be there;
-[biew](biew.md), [chntpw](chntpw "wikilink"),
-[dc3dd](dc3dd.md)/[dcfldd](dcfldd "wikilink"),
-[foremost](foremost.md), [john](john "wikilink"),
-[md5deep](md5deep.md), [nmap](nmap "wikilink"),
-[scalpel](scalpel.md), [sleuthkit](sleuthkit "wikilink"),
-[ssdeep](ssdeep.md), [wipefreespace](wipefreespace "wikilink")
+[biew](biew.md), [chntpw](chntpw.md),
+[dc3dd](dc3dd.md)/[dcfldd](dcfldd.md),
+[foremost](foremost.md), [john](john.md),
+[md5deep](md5deep.md), [nmap](nmap.md),
+[scalpel](scalpel.md), [sleuthkit](sleuthkit.md),
+[ssdeep](ssdeep.md), [wipefreespace](wipefreespace.md)
 to name a few are available either; [libevt](libevt.md),
-[libevtx](libevtx.md), [liblnk](liblnk "wikilink"),
-[libpff](libpff.md), [libregf](libregf "wikilink"),
-[libuna](libuna.md), [libvshadow](libvshadow "wikilink"),
+[libevtx](libevtx.md), [liblnk](liblnk.md),
+[libpff](libpff.md), [libregf](libregf.md),
+[libuna](libuna.md), [libvshadow](libvshadow.md),
 [libwrc](libwrc.md) tools have been added since 20140514.
 
 X11-based software is being considered for an extended version.

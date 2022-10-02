@@ -5,7 +5,7 @@ tags:
 **Code division multiple access** (**CDMA**) is a cellular frequency
 that, originally developed during World War II for military purposes,
 incorporates "spread spectrum" techniques. Unlike other cellular systems
-like [GSM](gsm.md) and [TDMA](TDMA "wikilink"), every channel on
+like [GSM](gsm.md) and [TDMA](tdma.md), every channel on
 the network uses the full available spectrum. This allows each user
 (identified by a unique [pseudonoise code](pseudonoise_code.md)
 ([pn](pn.md) to communicate over several frequencies, as
@@ -44,7 +44,7 @@ Most CDMA phones do not use [SIM Cards](sim_cards.md), so
 forensics can only be done on the phone itself, as all relevant data is
 stored directly on the phone. This information includes the
 [phonebook](phonebook.md), [call
-history](call_history.md) log, [SMS](SMS "wikilink") messages,
+history](call_history.md) log, [SMS](sms.md) messages,
 and any calendar or to-do applications the phone might have.
 
 Due to the fact that the phone must be physically connected to a

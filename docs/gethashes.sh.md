@@ -74,6 +74,3 @@ The following video describes how to use the script:
   location](https://bitbucket.org/stewdebaker/unix-hashing-script)
 - [ReadMe
   file](http://technicallysane.blogspot.com/p/unix-file-hashing-script.html)
-
-[Category:Hashing](category:hashing.md)
-[Category:Linux](category:linux.md)

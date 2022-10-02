@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Archive File Formats
+  -  Articles that need to be expanded
 ---
 Cabinet Archive Format (CAB) is largely used on the [Windows
 platform](windows.md)
@@ -14,7 +16,3 @@ platform](windows.md)
 
 - [cabextract](http://www.cabextract.org.uk/) (uses
   [libmspack](http://www.cabextract.org.uk/libmspack/))
-
-[Category:File Formats](category:file_formats.md)
-[Category:Archive File
-Formats](category:archive_file_formats.md) [Category:File

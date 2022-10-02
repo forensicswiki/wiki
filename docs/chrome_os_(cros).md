@@ -1,6 +1,8 @@
 ---
 tags:
   -  Operating systems
+  -  Linux
+  -  Opensource Software
 ---
 Chromium OS (or Chrome OS, or CrOS) is an open-source project that aims
 to build an operating system that provides a fast, simple, and more

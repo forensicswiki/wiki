@@ -1,6 +1,11 @@
 ---
 tags:
-  - No Category
+  -  Windows
+  -  Mac OS X
+  -  Linux
+  -  Analysis
+  -  Tools
+  -  Opensource Software 
 ---
 Autopsy® is an easy to use, GUI-based program that allows you to
 efficiently analyze hard drives and smart phones. It has a plug-in
@@ -9,7 +14,7 @@ modules in Java or Python.
 
 **Autopsy** uses [The Sleuth Kit](the_sleuth_kit.md) for file
 system analysis. It can analyze [Windows](windows.md),
-[MacOS](macos.md), and [UNIX](UNIX "wikilink") disks, as well as
+[MacOS](macos.md), and [UNIX](unix.md) disks, as well as
 cell phone dumps and collections of individual files. There are many
 third-party plug-in modules.
 

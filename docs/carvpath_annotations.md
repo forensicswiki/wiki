@@ -5,7 +5,7 @@ tags:
 CarvPath annotations are a simple string-wise depiction of a
 hierarchically nested designation of sub entities within parent entities
 in what basically is a flat address space. The annotations are used in
-both [CarvFs](carvfs.md) and [MattockFS](MattockFS "wikilink")
+both [CarvFs](carvfs.md) and [MattockFS](mattockfs.md)
 as a way to allow for [Zero storage
 carving](zero_storage_carving.md) by different computer forensic
 tools. Next to zero-storage carving, the annotations can also be used in

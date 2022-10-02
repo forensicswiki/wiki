@@ -1,6 +1,8 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
+  -  Anti Forensics
 ---
 **GELI** - [FreeBSD](freebsd.md) Cryptographic
 [GEOM](geom.md) class written by Pawel Jakub Dawidek. Supports
@@ -16,5 +18,3 @@ Authentification.
 - [FreeBSD Handbook - Disk
   Encryption](http://www.freebsd.org/doc/handbook/disks-encrypting.html)
 - [Wikipedia: GBDE](http://en.wikipedia.org/wiki/GBDE)
-
-[Category:Encryption](category:encryption.md) [Category:Disk

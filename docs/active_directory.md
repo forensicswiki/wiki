@@ -4,8 +4,8 @@ tags:
 ---
 ## External Links
 
-- \[<http://technet.microsoft.com/en-us/library/cc772829(WS.10>).aspx
-  Technet: How the Data Store Works\], by
+- http://technet.microsoft.com/en-us/library/cc772829(WS.10).aspx
+  Technet: How the Data Store Works, by
   [Microsoft](microsoft.md)
 - [NTDS.DIT
   Forensics](http://www.ntdsxtract.com/downloads/ntdsxtract/ntds_forensics.pdf),

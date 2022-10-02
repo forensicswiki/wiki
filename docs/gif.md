@@ -17,7 +17,7 @@ CompuServe Incorporated."
 ## Format
 
 GIF files consist of a [header](header.md), image data, optional
-[metadata](metadata.md), and a [footer](footer "wikilink"). The
+[metadata](metadata.md), and a [footer](footer.md). The
 header consists of a signature and a version, each 3 bytes long. The
 signature is `47 49 46` (hex) / `GIF` (text). The versions are either
 `38 37 61` or `38 39 61` (hex) / `87a` or `89a` (text) respectively. The

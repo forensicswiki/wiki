@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Orgnization 
 ---
 Apple Inc. is a US based, international technology company, based in
 California. They design and develop software and hardware, primarily in
