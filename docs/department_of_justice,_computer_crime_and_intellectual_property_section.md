@@ -2,7 +2,7 @@
 tags:
   -  Organizations
   -  Law Enforcement agencies
-  -  Article that need to be expanded
+  -  Articles that need to be expanded
 ---
 The **Computer Crime and Intellectual Property Section** of the **United
 States Department of Justice (CCIPS)** is responsible for implementing

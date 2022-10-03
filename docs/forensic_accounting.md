@@ -84,6 +84,3 @@ the final examination needs to be completed.
   Indiaforensic](http://www.indiaforensic.com/education)
 - [Corporate training programs offered by
   Indiaforensic](http://www.indiaforensic.com/education/corporates)
-
-[Category:Forensic Accounting
-Certifications](category:forensic_accounting_certifications.md)

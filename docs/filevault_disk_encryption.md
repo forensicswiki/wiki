@@ -1,6 +1,8 @@
 ---
 tags:
   -  Disk encryption
+  -  Mac OS X
+  -  Articles that need to be expanded
 ---
 **FileVault Disk Encryption** (FVDE) is [Full Volume
 Encryption](full_volume_encryption.md) solution by
@@ -22,5 +24,3 @@ Lion](mac_os_x.md).
 ## Tools
 
 - [libfvde](libfvde.md)
-
-[Category:Disk encryption](category:disk_encryption.md)

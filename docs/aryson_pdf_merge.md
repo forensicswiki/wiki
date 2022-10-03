@@ -3,7 +3,7 @@ tags:
   -  Analysis
   -  Windows
   -  Tools
-  -  Paid Software
+  -  Commerical Software
 ---
 Aryson PDF Merge'' is one of the best applications to combine or merge
 multiple PDF files into one. Managing multiple PDF files can be hard

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 iOS (pronounced i-O.S.) is the name of the operating system for Apple's
 mobile devices (iPhone/iPad/iPod Touch).

@@ -1,19 +1,19 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **Solaris** is a highly scalable enterprise grade
 [UNIX](unix.md) Operating System from [Sun
 Microsystems](sun_microsystems.md). Solaris is known to run on
 [SPARC](sparc.md) and x86/x86-64 architectures, although it has
 also been ported to [PowerPC](powerpc.md) and IBM
-[zSeries](zseries.md) [mainframes](mainframes "wikilink") in a
+[zSeries](zseries.md) [mainframes](mainframes.md) in a
 joint effort with [IBM](ibm.md).
 
 Commonly used filesystems and / or volume managers on the Solaris
-Operating System are [UFS](ufs.md), [ZFS](ZFS "wikilink"),
-[SAMFS](samfs.md), [QFS](QFS "wikilink"), Veritas
-[VxFS](vxfs.md) and Veritas [VxVM](VxVM "wikilink"),
+Operating System are [UFS](ufs.md), [ZFS](zfs.md),
+[SAMFS](samfs.md), [QFS](qfs.md), Veritas
+[VxFS](vxfs.md) and Veritas [VxVM](vxvm.md),
 [AVS](avs.md) as well as the Solaris Volume Manager
 ([solstice](solstice.md).
 

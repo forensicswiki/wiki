@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Linux
+  -  FreeBSD
+  -  Mac OS
+  -  Tools
+  -  Digital Forensics XML 
 ---
 fiwalk is a batch forensics analysis program written in C that uses
 SleuthKit. The program can output in XML or ARFF formats.
@@ -144,6 +148,3 @@ fiwalk can be downloaded from
 
 - [fileobject](fileobject.md)
 - [fiwalk on the DEEP website](http://domex.nps.edu/deep/Fiwalk.html)
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)

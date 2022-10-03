@@ -2,15 +2,15 @@
 tags:
   -  Tools
   -  Linux
-  -  Opensource Software
   -  Analysis
+  -  Free Software
 ---
 ## Description
 
 **Bless** is a free hex editor available on Linux platforms. It is fully
 functional and easy-to-use.
 
-![<File:capture.png>](capture.png "File:capture.png")
+![Alt text](assets/images/bless.png)
 
 Bless's website says that the following are the main features:
 

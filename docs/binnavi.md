@@ -2,7 +2,7 @@
 tags:
   -  Debugging
   -  Tools
-  -  APL A
+  -  APL
   -  Analysis 
 ---
 BinNavi is a binary analysis IDE - an environment that allows users to

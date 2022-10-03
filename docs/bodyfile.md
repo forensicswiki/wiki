@@ -2,6 +2,7 @@
 tags:
   -  Analysis
   -  File Formats
+  -  Timeline Analysis
 
 ---
 Bodyfile (or body file) is an output format (as far as known) introduced

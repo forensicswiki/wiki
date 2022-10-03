@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **Windows** is a widely-spread [operating
 system](operating_system.md) from
@@ -191,7 +191,7 @@ browser](web_browser.md) that comes with Windows is [Microsoft
 Internet Explorer](internet_explorer.md) but other common
 browsers on Windows are [Apple Safari](apple_safari.md), [Google
 Chrome](google_chrome.md), [Mozilla
-Firefox](mozilla_firefox.md) and [Opera](Opera "wikilink").
+Firefox](mozilla_firefox.md) and [Opera](opera.md).
 
 ### Search
 

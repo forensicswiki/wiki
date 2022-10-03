@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **Operating system** (commonly abbreviated OS) is the software component
 of a computer system that is responsible for the management and

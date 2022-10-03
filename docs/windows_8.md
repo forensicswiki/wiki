@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 Initially Windows 8 had a workstation and server edition. The server
 edition became Windows Server 2012.

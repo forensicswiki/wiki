@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 Linux refers to the family of Unix-like computer operating systems using
 the Linux kernel. Due to the nature of Linux it is possible for a wide
@@ -83,7 +83,7 @@ done on any machine, regardless of network connectivity.
 
 Memory forensics tools help preserve the volatile state of the system,
 and find stealthy malware. For a list of memory acquisition tools for
-Linux, see [Tools:Memory Imaging](tools:memory_imaging.md). For
+Linux, see [Memory Imaging](memory_imaging.md). For
 a list of memory analysis tools for Linux, see [Linux Memory
 Analysis](linux_memory_analysis.md).
 

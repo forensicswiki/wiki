@@ -1,6 +1,7 @@
 ---
 tags:
   -  Computer Bus
+  -  Hardware
 ---
 **Firewire** is the popular name of hardware using the **IEEE1394**
 standard for connecting to a host system. Much like
@@ -18,4 +19,4 @@ a system's memory via a firewire port.
 
 - [Wikipedia's firewire article](http://en.wikipedia.org/wiki/FireWire)
 
-[Category:Computer Bus](category:computer_bus.md)
+[Computer Bus](computer_bus.md)

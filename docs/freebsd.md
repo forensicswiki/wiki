@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **FreeBSD** is a [Unix](unix.md)-like free software [operating
 system](operating_system.md). Originally developed at UCB, and

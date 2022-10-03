@@ -1,9 +1,8 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Unix
   -  Operating Systems
-  -  Opensource Tools 
+  -  Opensource Software 
 ---
 ## External links
 

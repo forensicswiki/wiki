@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating systems
+  -  Operating Systems
 ---
 **OpenBSD** is a [Unix](unix.md)-like operating system. It is
 said to be very secure, so much so the authors can make the claim of

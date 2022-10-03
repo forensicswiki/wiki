@@ -2,9 +2,8 @@
 tags:
   -  Operating Systems
   -  Linux
-  -  Opensource Tools
+  -  Opensource Software 
   -  Analysis
-  -  Pentest
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) intended for
 [penetration testing](penetration_testing.md).

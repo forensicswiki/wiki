@@ -4,7 +4,7 @@ tags:
   - Windows
   - Incident Response
   - LGPL
-  - Articles that need to be explained
+  - Articles that need to be expanded 
 ---
 ## Description
 
