@@ -2,7 +2,7 @@
 tags:
   -  Applications
   -  Linux
-  -  Articles that need to me be expanded
+  -  Articles that need to be expanded
 ---
 GNOME is a desktop environment and graphical user interface that runs on
 top of, commonly a Linux/Unix-style, operating system.

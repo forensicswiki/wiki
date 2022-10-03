@@ -37,7 +37,8 @@ The master file table allocates a certain amount of space for each file
 record. The attributes of a file are written to the allocated space in
 the MFT. Small files and directories (typically 512 bytes or smaller),
 can entirely be contained within the master file table record.
-![<File:Mftentries.png>](Mftentries.png "File:Mftentries.png")
+
+![Alt text](assets/images/mftentries.png)
 
 #### MFT Record for a Small File or Directory
 
@@ -64,11 +65,7 @@ contained within the MFT structure.
 The \$MFT file is located under the root of each volume and can be
 extracted using FTKImager.
 
-<figure>
-<img src="FTKMFT.png" title="FTKMFT.png" width="1000"
-alt="FTKMFT.png" />
-<figcaption aria-hidden="true">FTKMFT.png</figcaption>
-</figure>
+![Alt text](assets/images/ftkmft.png)
 
 ## Also see
 

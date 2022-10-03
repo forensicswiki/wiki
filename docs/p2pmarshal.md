@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Windows 
+  -  Tools
+  -  Peer to Peer Forensics 
 ---
 P2P Marshal is a program that helps an investigator discover and analyze
 [file sharing](file_sharing.md) software on a disk.

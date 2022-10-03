@@ -32,7 +32,7 @@ supported are summarized below.
 |                  | [Safari cookies](safari.md)                                                                                           |
 |                  | [Opera cookies](opera.md)                                                                                             |
 |                  | [Mozilla/Firefox cookies](firefox.md)                                                                                 |
-|                  | [Mozilla](mozilla_firefox_history_file_format.md)/[Firefox](Mozilla_Firefox_3_History_File_Format "wikilink") history |
+|                  | [Mozilla](mozilla_firefox_history_file_format.md)/[Firefox](mozilla_firefox_3_history_file_format.md) history |
 | Logs             | [MSN](msn.md)                                                                                                         |
 |                  | WTMP                                                                                                                          |
 |                  | Console kit                                                                                                                   |
@@ -64,13 +64,9 @@ display is a list of events with the details of each event presented by
 highlighting the event.
 
 ## Screenshots
-
-<img src="Aftertime1_large.png" title="Aftertime1_large.png" width="200"
-alt="Aftertime1_large.png" />
-<img src="Aftertime2_large.png" title="Aftertime2_large.png" width="200"
-alt="Aftertime2_large.png" />
-<img src="Aftertime3_large.png" title="Aftertime3_large.png" width="200"
-alt="Aftertime3_large.png" />
+![Alt text](assets/images/400px-aftertime1_large.png "afttime1_large")
+![Alt text](assets/images/400px-aftertime2_large.png "afttime2_large")
+![Alt text](assets/images/400px-aftertime3_large.png "afttime3_large")
 
 ## Links
 

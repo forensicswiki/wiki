@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Tools
+  -  Windows
+  -  Free Software
 ---
 *OST Viewer* is an email-viewing product developed by
 [SysTools](systools.md). The utility performs examination on
@@ -91,5 +94,3 @@ functioning queries.
 [Official Website](http://www.systoolsgroup.com/)
 
 [FREE OST Viewer](http://www.freeviewer.org/ost/)
-
-[Category:Analysis](category:analysis.md) [Category:Free

@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-A [Live CD](live_cd.md) based on [Ubuntu](Ubuntu "wikilink").
+A [Live CD](live_cd.md) based on [Ubuntu](ubuntu.md).
 Includes [SMART](smart.md) and other forensic tools
 
 Older versions included a version based on

@@ -3,7 +3,7 @@ tags:
   -  Anti Forensics 
   -  Linux 
   -  Tools
-  -  Articles that need to expanded
+  -  Articles that need to be expanded
 ---
 ### Background
 
