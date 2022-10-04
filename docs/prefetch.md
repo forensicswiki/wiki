@@ -1,6 +1,7 @@
 ---
 tags:
   -  Windows
+  -  Articles that need to be expanded
 ---
 Windows Prefetch files, introduced in [Windows XP](windows.md),
 are designed to speed up the application startup process. Prefetch files
@@ -65,14 +66,13 @@ be preceded by a 4-byte format version indicator:
   2003](windows_2003.md)
 - 23 (0x00000017) for [Windows Vista](windows_vista.md),
   [Windows 2008](windows_2008.md), [Windows
-  7](windows_7.md) and [Windows 2012](Windows_2012 "wikilink")
+  7](windows_7.md) and [Windows 2012](windows_2012.md)
   (note Windows 2012 has not been confirmed)
 - 26 (0x0000001a) for [Windows 8.1](windows_8.md) (note this
   could be Windows 8 as well but has not been confirmed)
 - 30 (0x0000001e) for [Windows 10](windows_10.md)
 
-For more information about the file format see: [Windows Prefetch File
-Format](windows_prefetch_file_format.md)
+For more information about the file format see: [Windows Prefetch File Format](windows_prefetch_file_format.md)
 
 ## Metadata
 

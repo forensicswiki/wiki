@@ -1,6 +1,7 @@
 ---
 tags:
   -  Anti-Forensics
+  -  Network Forensics
 ---
 **Proxy server** is a server which services the requests of its clients
 by forwarding requests to other servers.
@@ -197,5 +198,3 @@ to proxies.
 
 - [Tor](tor.md)
 - [VPN](vpn.md)
-
-[Category:Anti-Forensics](category:anti-forensics.md)

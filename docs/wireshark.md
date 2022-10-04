@@ -13,8 +13,8 @@ Wireshark has a rich feature set which includes the following:
 - Live capture and offline analysis;
 - Standard three-pane packet browser;
 - Multi-platform: runs on [Windows](windows.md),
-  [Linux](linux.md), [Mac OS X](Mac_OS_X "wikilink"),
-  [Solaris](solaris.md), [FreeBSD](FreeBSD "wikilink"),
+  [Linux](linux.md), [Mac OS X](mac_os_x.md),
+  [Solaris](solaris.md), [FreeBSD](freebsd.md),
   [NetBSD](netbsd.md), and many others;
 - Captured network data can be browsed via a GUI, or via the TTY-mode
   TShark utility;
@@ -31,7 +31,7 @@ Wireshark has a rich feature set which includes the following:
 - Capture files compressed with gzip can be decompressed on the fly;
 - Live data can be read from [Ethernet](ethernet.md), [IEEE
   802.11](wireless_forensics.md), PPP/HDLC, ATM,
-  [Bluetooth](bluetooth.md), [USB](USB "wikilink"), Token Ring,
+  [Bluetooth](bluetooth.md), [USB](usb.md), Token Ring,
   Frame Relay, FDDI, and others (depending on your platfrom);
 - Decryption support for many protocols, including
   [IPsec](ipsec.md), ISAKMP, Kerberos, SNMPv3,

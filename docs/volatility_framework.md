@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Cross-platform
+  -  Memory Analysis
+  -  GPL
+  -  Tools 
 ---
 The **Volatility Framework** is a completely open collection of tools,
 implemented in Python under the GNU General Public License (GPL v2), for

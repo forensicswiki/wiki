@@ -1,6 +1,8 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
+  -  Anti Forensics
 ---
 **PGPDisk** was a disk encryption solution from the [PGP
 Corporation](http://www.pgp.com). It has since been rebranded as [PGP

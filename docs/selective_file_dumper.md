@@ -13,7 +13,7 @@ The [Bash](bash.md) script **SFDUMPER.SH** can recover active,
 deleted and unallocated files automatically and then it can delete the
 carved duplicate files of the deleted and active files retrieved by the
 [Sleuthkit](sleuthkit.md), thanks to the comparison of the
-[SHA256](sha256.md) [hash](hash "wikilink") codes.
+[SHA256](sha256.md) [hash](hash.md) codes.
 
 It's possible to recognize the renamed files by the data carving and
 it's possible to expand the [Foremost](foremost.md)

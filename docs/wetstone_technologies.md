@@ -5,18 +5,18 @@ tags:
 WetStone Technologies offers Digital Investigation products and
 training. Our products include:
 
-- [Gargoyle Investigator™](gargoyle_investigator™.md)
-- [LiveWire Investigator™](livewire_investigator™.md).
-- [LiveDiscover™](livediscover™.md)
-- [Stego Suite™](stego_suite™.md)
+- [Gargoyle Investigator™](gargoyle_investigator.md)
+- [LiveWire Investigator™](livewire_investigator.md).
+- [LiveDiscover™](livediscover.md)
+- [Stego Suite™](stego_suite.md)
 
 Our trainings include:
 
 - [Hacking BootCamp for
-  Investigators™](hacking_bootcamp_for_investigators™.md)
-- [Live Investigator Training™](live_investigator_training™.md).
+  Investigators™](hacking_bootcamp_for_investigators.md)
+- [Live Investigator Training™](live_investigator_training.md).
 - [Steganography Investigator
-  Training™](steganography_investigator_training™.md)
+  Training™](steganography_investigator_training.md)
 
 ## Industry Awards
 

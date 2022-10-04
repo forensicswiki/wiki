@@ -1,6 +1,7 @@
 ---
 tags:
   -  Tools
+  -  Howtos
 ---
 ## Description and Review
 
@@ -90,5 +91,3 @@ equivalent characters. Additional "-e" arguments will need to be used to
 search for Unicode characters. See
 [here](http://linux.about.com/library/cmd/blcmdl1_strings.htm) for a
 list of them.
-
-[Category:Tools](category:tools.md)

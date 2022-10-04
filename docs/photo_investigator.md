@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  Commercial
+  -  Tools 
 ---
 The **Photo Investigator** (**PI**) is a free image forensic iOS App
 distributed on the iOS App Store. It specializes in the analysis and

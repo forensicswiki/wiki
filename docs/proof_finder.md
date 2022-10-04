@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  Tools
+  -  Commercial 
 ---
 Proof Finder is a "light weight" version of [Nuix
 Desktop](nuix_desktop.md). It includes most of the features of

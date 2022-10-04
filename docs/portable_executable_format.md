@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
 ---
 The **Portable Executable Format** is used by
 [Windows](windows.md) to store executable code. The format is

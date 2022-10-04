@@ -24,7 +24,7 @@ Input images can be:
 - [raw DD](raw_image_format.md)
 - [EWF (Expert Witness Compression
   Format)](encase_image_file_format.md)
-- [AFF (advanced.md)](AFF "wikilink")
+- [Advanced Forensics Format](aff.md)
 
 In addition, xmount also supports virtual write access to the output
 files that is redirected to a cache file. This makes it possible to boot

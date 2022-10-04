@@ -46,7 +46,7 @@ different media types, including:
 - Removable devices
 - Network drives
 - Encrypted containers (e.g. [PGP](pgp.md) Desktop,
-  [TrueCrypt](truecrypt.md), [BestCrypt](BestCrypt "wikilink"))
+  [TrueCrypt](truecrypt.md), [BestCrypt](bestcrypt.md))
 
 [Windows](windows.md) Vista doesn't create thumbnails for files
 encrypted using [EFS](efs.md) unless thumbcache directory is

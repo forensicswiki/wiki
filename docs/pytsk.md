@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  Tools
+  -  APL 
 ---
 Python-bindings for the [sleuthkit](sleuthkit.md) library
 (libtsk).

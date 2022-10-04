@@ -1,6 +1,10 @@
 ---
 tags:
   -  Linux
+  -  Live CD
+  -  GPL
+  -  Tools
+  -  Operating Systems
 ---
 A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for
 [penetration testing](penetration_testing.md).

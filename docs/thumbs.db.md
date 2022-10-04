@@ -23,7 +23,7 @@ Additional resources about thumbs.db can be found in a white paper at
 
 MiTeC Windows File Analyzer [1](http://www.mitec.cz/wfa.html) is a tool
 for forensic analysis of Thumbnail Databases,
-[Prefetch](prefetch.md) files, [shortcuts](LNK "wikilink"),
+[Prefetch](prefetch.md) files, [shortcuts](lnk.md),
 IExplore Index.DAT files and Recycle Bin contents on a
 [Windows](windows.md) system. It will print a report of analyzed
 files.

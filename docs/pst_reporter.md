@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Free software
+  -  Tools
+  -  Windows
 ---
 *PST Reporter* is a forensic purpose profile detail generation tool for
 Microsoft Outlook data file. This application is a freeware reporter.
@@ -17,5 +20,3 @@ ANSI & Unicode formatted PST file support.
 ## External Links
 
 [Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free

@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Windows
+  -  Tools
+  -  Free software
 ---
 *Free PST Viewer* Free PST Viewer is a freeware application to open,
 read and view PST files without the help of MS Outlook. This freeware
@@ -18,5 +21,3 @@ Outlook. It also allows to open corrupted or inaccessible PST files
 
 [Official
 Website](https://www.sysinfotools.com/recovery/pst-file-viewer.php)
-
-[Category:Analysis](category:analysis.md) [Category:Free

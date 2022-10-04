@@ -174,8 +174,7 @@ create any kind of PDF document"
 # See Also
 
 - [Arabic PDFs](arabic_pdfs.md)
-- [Tools:Document Metadata
-  Extraction](tools:document_metadata_extraction.md)
+- [Document Metadata Extraction](document_metadata_extraction.md)
 
 ## External Links
 

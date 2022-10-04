@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Windows
+  -  Live CD
+  -  Tools 
 ---
 
 **Windows Forensic Environment** - a forensically sound bootable CD/USB

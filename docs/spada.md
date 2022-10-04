@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Deprecated Tools
+  -  Linux
+  -  GPL
+  -  Tools
+  -  Live CD 
 ---
 **SPADA**, or System Preview And Data Acquisition, is a forensic [Live
 CD](live_cd.md) base on [Knoppix](Knoppix "wikilink").

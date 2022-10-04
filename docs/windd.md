@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Deprecated tools 
+  -  Windows
+  -  Memory Imaging
+  -  GPL
+  -  Tools
 ---
 **WinDD** is actually a set of Windows physical memory dumpers for both
 32- and 64-bit [Windows](windows.md).

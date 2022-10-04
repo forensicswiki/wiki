@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk Imaging
+  -  Disk_imaging
 ---
 **Data Compass** is a hardware and software data recovery tool produced
 by [SalvationDATA](salvationdata.md). The product uses a "3+1

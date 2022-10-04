@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk Imaging
+  -  Disk_imaging
 ---
 Data Copy King is one disk image hardware,DoD data wipe hardware and
 also used as one professional forensic disk image tool.

@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Cross-platform
+  -  Tools
+  -  GPL 
 ---
 **xpdf** is an [open source](open_source.md)
 [PDF](pdf.md) viewer package for the [X Window

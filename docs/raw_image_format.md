@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Forensics File Format 
 ---
 The RAW Image Format is used to store a disk or volume image.
 
@@ -58,6 +58,3 @@ supported by most of the computer forensics applications.
 - [dcfldd](dcfldd.md)
 - [dd_rescue](dd_rescue.md)
 - [ddrescue](ddrescue.md)
-
-[Category:Forensics File
-Formats](category:forensics_file_formats.md)

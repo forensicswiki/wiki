@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded
+  -  Cross-platform
+  -  Public Domain
+  -  Tools
 ---
 <i>SQLite is a software library that implements a self-contained,
 serverless, zero-configuration, transactional SQL database engine.</i>

@@ -1,13 +1,18 @@
 ---
 tags:
-  - No Category
+  -  Deprecated tools
+  -  Linux
+  -  Web-based
+  -  Analysis
+  -  GPL
+  -  Tools 
 ---
 **PyFlag** is a web-based, database-backed *forensic and log analysis
 GUI* and [Computer forensics
 framework](computer_forensics_framework.md) written in
 [Python](python.md). PyFlag stores disk images in numerous file
 formats, including raw, [sgzip](sgzip.md),
-[AFF](aff.md), and [EnCase](EnCase "wikilink") format.
+[AFF](aff.md), and [EnCase](encase.md) format.
 
 # Features
 

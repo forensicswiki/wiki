@@ -1,6 +1,11 @@
 ---
 tags:
   -  Vendors
+  -  Mac OS X
+  -  Disk imaging
+  -  Tools
+  -  Hardware Vendor
+  -  Software Vendor
 ---
 RECON IMAGER is a forensic imaging software, developed by SUMURI for
 macOS, and is based on OS X.
@@ -30,6 +35,3 @@ maximum integrity of data stored in RAM.
 ## External Links
 
 - [Official Website](https://sumuri.com/software/recon-imager/)
-
-[Category:Vendors](category:vendors.md) [Category:Hardware
-Vendor](category:hardware_vendor.md) [Category:Software

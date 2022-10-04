@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Cross-platform
+  -  Metadata
+  -  GPL
+  -  Tools 
 ---
 **pdfinfo** is a small utility which shows (parts of) the metadata
 stored in [PDF](pdf.md) files. It is part of the

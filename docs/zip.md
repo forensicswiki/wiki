@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Archive File Formats
+  -  Articles that need to be expanded
 ---
 .ZIP is an archive file format that supports lossless data compression.
 
@@ -315,6 +317,3 @@ The value seems to be similar to stat.st_mode value.</p></td>
   PKWARE Inc., September 1, 2012
 - [Wikipedia: Zip (file
   format)](http://en.wikipedia.org/wiki/Zip_(file_format))
-
-[Category:File Formats](category:file_formats.md)
-[Category:Archive File

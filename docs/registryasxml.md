@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  Tools 
 ---
 Registryasxml is a GUI tool by Stephane Rodriguez that exports and
 imports Microsoft Registry files with a simple key/value syntax that

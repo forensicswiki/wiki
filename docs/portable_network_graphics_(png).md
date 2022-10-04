@@ -21,8 +21,7 @@ PNG files begin with the following 8-byte (hexadecimal) signature:
 
 # See Also
 
-- [Tools for extracting image
-  metadata](:tools:document_metadata_extraction#images.md)
+- [Tools for extracting image metadata](:tools:document_metadata_extraction#images.md)
 
 # External Links
 

@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Linux
+  -  Memory Analysis
+  -  Tools 
 ---
 ![<File:second_look_logo.png>](second_look_logo.png "File:second_look_logo.png")
 

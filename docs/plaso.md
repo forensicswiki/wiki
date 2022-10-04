@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  APL
+  -  Tools 
 ---
 Plaso (plaso langar að safna öllu) is the Python based back-end engine
 used by tools such as log2timeline for automatic creation of a super
@@ -190,7 +192,7 @@ Gudjonsson](kristinn_gudjonsson.md) and extended by the
 contribution of various others.
 
 Plaso builds upon the [SleuthKit](sleuthkit.md),
-[pytsk](pytsk.md), [libyal](libyal "wikilink"),
+[pytsk](pytsk.md), [libyal](libyal.md),
 [dfvfs](dfvfs.md) and various other projects.
 
 ## Related tools

@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  GPL
+  -  Tools 
 ---
 RegRipper is an open source forensic software application developed by
 [Harlan Carvey](harlan_carvey.md). RegRipper, written in Perl,

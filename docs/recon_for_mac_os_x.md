@@ -1,6 +1,13 @@
 ---
 tags:
   -  Vendors
+  -  Disk imaging
+  -  Mac OS X
+  -  Commercial
+  -  Analysis
+  -  Tools
+  -  Hardware Vendor
+  -  Software Vendor
 ---
 **RECON for Mac OS X** is a software tool developed by SUMURI to
 automate the forensic data gathering process on the Mac OS X operating
@@ -48,6 +55,3 @@ drives.
 ## External Links
 
 - [Official Website](https://sumuri.com/software/recon/)
-
-[Category:Vendors](category:vendors.md) [Category:Hardware
-Vendor](category:hardware_vendor.md) [Category:Software

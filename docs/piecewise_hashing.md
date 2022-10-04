@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 **Piecewise hashing** is a [hashing](hashing.md) technique to
 divide an input into chunks and hash each chunk separately. It was

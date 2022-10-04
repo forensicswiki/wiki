@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Secure-deletion
+  -  Secure_deletion
 ---
 CCleaner is a shareware program that implements secure deletion for
 Windows.

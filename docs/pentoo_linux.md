@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for
+A [Linux](linux.md) [Live CD](live_cd.md) intended for
 [computer forensics](computer_forensics.md) and [penetration
 testing](penetration_testing.md).
 

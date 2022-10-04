@@ -1,6 +1,9 @@
 ---
 tags:
   -  Analysis
+  -  Windows
+  -  Tools
+  -  Free software
 ---
 *OST Reporter* is a forensic purpose profile detail generation tool for
 Exchange Offline Outlook OST file. This application is a freeware
@@ -17,5 +20,3 @@ is exportable to a Comma Separated Values (CSV) file.
 ## External Links
 
 [Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free

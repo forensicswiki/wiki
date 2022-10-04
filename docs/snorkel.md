@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  Tools 
 ---
 **Snorkel** is a Java software library that is used by developers of
 forensic software. Snorkel is not a standalone forensic application, but

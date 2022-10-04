@@ -26,4 +26,4 @@ Their training courses include:
 
 - [Official Website](http://www.wetstonetech.com/)
 
-[Category:Organizations](category:organizations.md)
+[Organizations](organizations.md)

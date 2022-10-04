@@ -14,8 +14,8 @@ personal and commercial use.
 encrypted with the following algorithms:
 
 - Hash functions: [RIPEMD-160](ripemd-160.md),
-  [SHA-512](sha-512.md), [Whirlpool](Whirlpool "wikilink")
-- Ciphers: [AES](aes.md), [Serpent](Serpent "wikilink"),
+  [SHA-512](sha-512.md), [Whirlpool](whirlpool.md)
+- Ciphers: [AES](aes.md), [Serpent](serpent.md),
   [Twofish](twofish.md)
 - Encryption modes: [XTS](xts.md)
 
@@ -26,7 +26,7 @@ its password currently cannot be recovered with the **unprotect.info**
 software:
 
 - Deprecated hash functions: [SHA1](sha1.md)
-- Deprecated ciphers: [DES](des.md), [CAST](CAST "wikilink"),
+- Deprecated ciphers: [DES](des.md), [CAST](cast.md),
   [Blowfish](blowfish.md)
 - Deprecated encryption modes: [LWR](lwr.md),
   [CBC](cbc.md)

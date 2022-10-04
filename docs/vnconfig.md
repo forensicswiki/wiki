@@ -1,6 +1,7 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
 ---
 **vnconfig** is the [OpenBSD](openbsd.md) vnode disks for file
 swapping or pseudo file system configuration tool. Supports encrypting

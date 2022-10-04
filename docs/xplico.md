@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Linux
+  -  GPL
+  -  Analysis
+  -  Tools 
 ---
 The **Xplico** is a Network Forensic Analysis Tool (NFAT). The main
 scope of Xplico is to extract all application data content from a

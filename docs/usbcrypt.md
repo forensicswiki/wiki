@@ -1,6 +1,9 @@
 ---
 tags:
   -  Encryption
+  -  Windows
+  -  tools
+  -  Disk Encryption
 ---
 **USBCrypt** is a commercial (closed source) software intended primarily
 to encrypt external USB drives. (However, the encryption is not limited
@@ -66,5 +69,3 @@ the drives it encrypts.
 
 - [Official website](http://www.winability.com/usbcrypt/)
 - [USBCrypt web site](http://www.usbcrypt.com/)
-
-[Category:Encryption](category:encryption.md) [Category:Disk

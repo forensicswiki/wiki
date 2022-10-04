@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Windows
+  -  Analysis
+  -  Commercial
+  -  Tools 
 ---
 **SQLite Forensic Reporter** is a commercial
 [analysis](analysis.md) tool. A universal SQLite database

@@ -1,8 +1,12 @@
 ---
 tags:
-  - No Category
+  -  Deprecated tools 
+  -  Tools
+  -  GPL
+  -  Live CD
+  -  FreeBSD
 ---
-A [FreeBSD](freebsd.md) based [Live CD](Live_CD "wikilink") that
+A [FreeBSD](freebsd.md) based [Live CD](live_cd.md) that
 includes Autopsy and Sleuth Kit.
 
 ## External Links

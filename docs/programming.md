@@ -1,6 +1,7 @@
 ---
 tags:
   -  Programming
+  -  Articles that need to be expanded
 ---
 Although this is a wiki largely about digital forensics, understanding
 how code came to be and the challenges involved can be considered good

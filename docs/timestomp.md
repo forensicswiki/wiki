@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Anti-Forensics tools 
+  -  Articles that need to expanded
 ---
 ![](timestomp_mace.jpg "timestomp_mace.jpg") **Timestomp** is a utility
 co-authored by developers [James C. Foster](james_c._foster.md)
@@ -77,6 +78,3 @@ forensics.
   Timestomp.exe](http://metasploit.com/data/antiforensics/timestomp.exe)
 - [Presentation at Blackhat
   2005](http://www.blackhat.com/presentations/bh-usa-05/bh-us-05-foster-liu-update.pdf)
-
-[Category:Anti-forensics
-tools](category:anti-forensics_tools.md)
