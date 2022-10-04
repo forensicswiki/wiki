@@ -1,7 +1,7 @@
 ---
 tags:
   -  Encryption
-  -  Anti Forensics
+  -  Anti-Forensics
 
 ---
 **Blowfish** is a symmetric block cipher designed by [Bruce Schneier](bruce_schneier.md). It uses a 64-bit block cipher and

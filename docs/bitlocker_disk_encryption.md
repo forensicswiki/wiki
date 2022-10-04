@@ -2,7 +2,7 @@
 tags:
   -  Disk encryption
   -  Windows
-  -  Anti Forensics
+  -  Anti-Forensics
 ---
 **BitLocker Disk Encryption** (BDE) is [Full Volume
 Encryption](full_volume_encryption.md) solution by

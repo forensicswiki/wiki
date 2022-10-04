@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk imaging
+  -  Disk Imaging
 ---
 **LinEn** is a [Linux](linux.md) version of the normally
 [DOS](dos.md) based [EnCase](EnCase "wikilink") acquisition

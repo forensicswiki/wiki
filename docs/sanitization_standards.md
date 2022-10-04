@@ -1,7 +1,7 @@
 ---
 tags:
   -  Policy
-  -  Secure_deletion
+  -  Secure-deletion
 ---
 Here are some of the standards by country that we have been able to find
 regarding the disk sanitization problem:

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Secure_deletion
+  -  Secure-deletion
 ---
 Sanitizing Tools are programs that attempt to wipe all traces of a file
 or files, from any part of computer memory.
