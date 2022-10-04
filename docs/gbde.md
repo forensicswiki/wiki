@@ -2,7 +2,7 @@
 tags:
   -  Encryption
   -  Disk Encryption
-  -  Anti Forensics
+  -  Anti-Forensics
 ---
 **GBDE** - GEOM Based Disk Encryption - is a
 [FreeBSD](freebsd.md) block device-layer disk encryption that

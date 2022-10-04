@@ -2,7 +2,7 @@
 tags:
   -  Encryption
   -  Disk Encryption
-  -  Anti Forensics
+  -  Anti-Forensics
 ---
 **GELI** - [FreeBSD](freebsd.md) Cryptographic
 [GEOM](geom.md) class written by Pawel Jakub Dawidek. Supports

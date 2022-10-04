@@ -2,7 +2,7 @@
 tags:
   -  Metadata
   -  Tools
-  -  Cross Platform
+  -  Cross-Platform
   -  GPL
 ---
 **Hachoir** is a generic framework for binary file manipulation. Written
