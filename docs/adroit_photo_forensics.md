@@ -3,7 +3,7 @@ tags:
   -  Windows
   -  Analysis
   -  Tools
-  -  Commerical 
+  -  Commercial
 ---
 **Adroit Photo Forensics** (**APF**) is a commercial forensic software
 package distributed by [Digital Assembly](digital_assembly.md).

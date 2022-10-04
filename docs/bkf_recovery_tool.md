@@ -2,7 +2,7 @@
 tags:
   -  Analysis
   -  Windows
-  -  Commerical
+  -  Commercial
   -  Tools
 ---
 *BKF Recovery Tool* is one of the most user-friendly tools to recover
