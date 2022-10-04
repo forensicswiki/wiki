@@ -2,7 +2,7 @@
 tags:
   -  Vendors
   -  Mac OS X
-  -  Disk imaging
+  -  Disk Imaging
   -  Tools
   -  Hardware Vendor
   -  Software Vendor

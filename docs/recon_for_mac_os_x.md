@@ -1,7 +1,7 @@
 ---
 tags:
   -  Vendors
-  -  Disk imaging
+  -  Disk Imaging
   -  Mac OS X
   -  Commercial
   -  Analysis
