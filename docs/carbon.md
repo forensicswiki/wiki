@@ -1,7 +1,7 @@
 ---
 tags:
   -  Vendors
-  -  Winodows
+  -  Windows
   -  Tools
   -  Hardware Vendor
   -  Software Vendor
