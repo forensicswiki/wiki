@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libolecf** package contains a library and applications to read the
 [Object Linking and Embedding (OLE) Compound File

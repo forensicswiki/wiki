@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libvshadow** package contains a library and applications to read
 the [Volume Shadow Snapshot (vss)](windows_shadow_volumes.md)

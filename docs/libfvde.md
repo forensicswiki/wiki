@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libfvde** package contains a library and applications to read the
 [FileVault Disk Encryption (fvde)](filevault_disk_encryption.md)

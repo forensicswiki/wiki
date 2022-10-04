@@ -1,7 +1,7 @@
 ---
 tags:
   -  Anti-Forensics tools 
-  -  Articles that need to expanded
+  -  Articles that need to be expanded
 ---
 ![](timestomp_mace.jpg "timestomp_mace.jpg") **Timestomp** is a utility
 co-authored by developers [James C. Foster](james_c._foster.md)

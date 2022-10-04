@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libevtx** package contains a library and applications to read
 [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)

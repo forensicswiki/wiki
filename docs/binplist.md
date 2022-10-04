@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Analysis
+  -  APL
+  -  Tools 
 ---
 Python-based parser for [binary property list
 (plist)](property_list_(plist).md) files.

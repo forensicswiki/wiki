@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libvslvm** package contains a library and applications to read
 [Linux Logical Volume Manager

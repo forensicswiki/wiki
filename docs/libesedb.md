@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libesedb** package contains a library and tools to read the
 [Extensible Storage Engine (ESE) Database File

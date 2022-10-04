@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Linux
+  -  Live CD
+  -  GPL
+  -  Tools 
 ---
 **ALT Linux Rescue** is yet another sysadmin's [Live
 CD](live_cd.md) with some forensic capabilities and features.

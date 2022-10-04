@@ -275,5 +275,5 @@ See: [Journals](journals.md)
 
 # Conferences
 
-See: [Conferences](:category:conferences.md)
+See: [Conferences](conferences.md)
 

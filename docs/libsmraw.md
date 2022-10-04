@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Imaging
+  -  LGPL
+  -  Tools
 ---
 The **libsmraw** package contains a library and applications to read and
 write (split) RAW storage media bitstream copies. Libsmraw contains

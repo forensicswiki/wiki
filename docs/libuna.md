@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libuna** package contains a library and application to read and
 write the [Text File (txt)](text_file_(txt).md) format in

@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Imaging
+  -  LGPL
+  -  Tools
 ---
 The **libqcow** package contains a library and applications to read the
 [QEMU Copy-On-Write (QCOW) image](qcow_image_format.md) format.

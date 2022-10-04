@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Imaging
+  -  LGPL
+  -  Tools
 ---
 The **libvhdi** package contains a library and applications to read the
 [Virtual Hard Disk (VHD) image](virtual_hard_disk_(vhd).md)

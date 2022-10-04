@@ -1,7 +1,8 @@
 ---
 tags:
   -  Disk encryption
-  -  Howto
+  -  Howtos
+  -  Windows
 ---
 # Imaging Options
 
@@ -111,6 +112,5 @@ does not work, so it may not work for all configurations of bitlocker.
 ## See Also
 
 - [BitLocker Disk Encryption](bitlocker_disk_encryption.md)
-- [Defeating Whole Disk
-  Encryption](defeating_whole_disk_encryption.md)
+- [Defeating Whole Disk Encryption](defeating_whole_disk_encryption.md)
 

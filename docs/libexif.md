@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  LGPL
+  -  Tools 
 ---
 **libexif** is an [open source](open_source.md) library for
 reading and editing [Exif](exif.md) metadata, commonly found in

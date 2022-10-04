@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Encryption
+  -  LGPL
+  -  Tools
 ---
 The **libbde** package contains a library and applications to read the
 [BitLocker Disk Encryption (bde)](bitlocker_disk_encryption.md)

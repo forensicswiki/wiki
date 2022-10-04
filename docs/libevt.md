@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libevt** package contains a library and applications to read
 [Windows Event Log (evt)](windows_event_log_(evt).md) files.

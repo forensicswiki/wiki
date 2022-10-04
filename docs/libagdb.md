@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libagdb** package contains a library and applications to read the
 [Windows SuperFetch Format](windows_superfetch_format.md).

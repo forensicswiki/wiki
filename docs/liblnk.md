@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **liblnk** package contains a library and applications to read the
 [Windows Explorer Shortcut (lnk)](lnk.md) format.

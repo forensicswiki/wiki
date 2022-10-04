@@ -1,6 +1,11 @@
 ---
 tags:
-  - No Category
+  -  Linux 
+  -  Windows
+  -  Mac OS X
+  -  Disk Imaging
+  -  GPL
+  -  Tools 
 ---
 **dd**, sometimes called **GNU dd**, is the oldest [imaging
 tool](tools#disk_imaging_tools.md) still used. Although it is

@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Imaging
+  -  LGPL
+  -  Tools
 ---
 The **libsmdev** package contains a library and applications to read
 storage media devices.

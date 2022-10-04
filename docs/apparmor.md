@@ -1,7 +1,7 @@
 ---
 tags:
   -  Linux
-  -  Application 
+  -  Applications 
 ---
 AppArmor, found in [Suse](suse.md) and
 [Ubuntu](ubuntu.md) Linux, is a system for letting applications

@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libnsfdb** package contains a library and applications to read the
 [Notes Storage Facility (NSF)

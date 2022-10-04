@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
 ---
 ## Image structure
 

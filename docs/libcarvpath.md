@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Analysis 
+  -  GPL
+  -  LGPL
+  -  Tools
 ---
 LibCarvPath is a library designed to be used by carving and file system
 analysis tools. LibCarvPath allows fragments represented by offset and

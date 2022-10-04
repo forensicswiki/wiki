@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libpff** package contains a library and tools to read the
 [Personal Folder File (PAB, PST,

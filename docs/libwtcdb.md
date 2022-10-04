@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  Tools
+  -  LGPL
 ---
 The **libwtcdb** package contains a library and applications to read the
 [Windows Explorer Thumbnail Cache database (thumbcache.db)

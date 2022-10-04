@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libnk2** package contains a library and applications to read the
 [Nickfile (nk2)](nickfile_(nk2).md) format.

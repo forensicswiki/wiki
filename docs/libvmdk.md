@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Disk Imaging
+  -  LGPL
+  -  Tools
 ---
 The **libvmdk** package contains a library and applications to read the
 [VMWare Virtual Disk Format

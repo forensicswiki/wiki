@@ -1,6 +1,9 @@
 ---
 tags:
   -  Libyal
+  -  Analysis
+  -  LGPL
+  -  Tools
 ---
 The **libmsiecf** package contains a library and applications to read
 the [MSIE Cache File](internet_explorer_history_file_format.md)

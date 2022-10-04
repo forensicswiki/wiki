@@ -1,6 +1,8 @@
 ---
 tags:
   -  Libyal
+  -  APL
+  -  Tools
 ---
 The **libyal** project contains an
 [overview](https://github.com/libyal/libyal/wiki/Overview) of various
