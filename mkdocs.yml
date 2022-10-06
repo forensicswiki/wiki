@@ -2,8 +2,6 @@ site_name: ""
 
 nav:
   - Home: index.md
-  - Contribute:
-    -  contribute.md
   - Community:
     -  community.md  
   - Tags: 
