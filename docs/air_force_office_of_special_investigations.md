@@ -1,6 +1,7 @@
 ---
 tags:
-  - Federal investigative agency 
+  -  Organization 
+  -  Articles that need to be expanded 
 ---
 The **Air Force Office of Special Investigations** (**AFOSI**)
 investigates [felony](felony.md) level crimes affecting the US

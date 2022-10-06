@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Tools 
+  -  Linux
+  -  Disk Imaging
 ---
 **aimage** (the **advanced imager**) was an
 [imaging](imaging.md) tool that was part of

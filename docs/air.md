@@ -1,6 +1,12 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  Disk Imaging
+  -  Anti-Forensics
+
 ---
 The **Automated Image and Restore** or **AIR** is a GUI front-end to
 [dd](dd.md) and [dc3dd](dc3dd.md) designed for easily

@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Opensource Software
+  -  MacOS
+  -  Linux
 ---
 **affuse** is a Filesystem in Userspace (FUSE) implementation that
 allows [AFF](aff.md) files to appear as raw files on Linux
@@ -26,4 +29,5 @@ This raw file could then be mounted:
 
 ## External Links
 
-- [FUSE](http://fuse.sourceforge.net/) - Filesystem in User Space
+- [FUSE](http://fuse.sourceforge.net/)
+- [Ubuntu manpage](https://manpages.ubuntu.com/manpages/bionic/man1/affuse.1.html)

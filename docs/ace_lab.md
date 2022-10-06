@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Organization
 ---
 ACE is a group of companies specializing in R&D, manufacturing and
 services in the data recovery field. Under the ACE Lab trademark, ACE
@@ -21,8 +21,7 @@ carving and restoration.
 [PC-3000](pc-3000.md) products are successfully used not only by
 data recovery businesses, but also digital forensic specialists in
 government agencies and police departments in many countries of the
-world. Special [forensic
-features](http://blog.acelaboratory.com/a-brief-overview-of-pc-3000-forensic-features.html)
+world. Special [forensic features](http://blog.acelaboratory.com/a-brief-overview-of-pc-3000-forensic-features.html)
 have been implemented in PC-3000 utilities and Data Extractor software
 to cater for their needs. Here are just some of them:
 

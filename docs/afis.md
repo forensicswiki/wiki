@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded
 ---
 The **Automatic Fingerprint Identification System** (**AFIS**) is a
 system that reports if two [fingerprints](fingerprint.md) are a
@@ -11,5 +11,4 @@ technique that uses digital computers.
 
 ## External Links
 
-[AFIS explained on
-wikipedia](http://en.wikipedia.org/wiki/Automated_Fingerprint_Identification_System)
+[Wikipedia: AFIS](http://en.wikipedia.org/wiki/Automated_Fingerprint_Identification_System)

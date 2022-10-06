@@ -1,6 +1,8 @@
 ---
 tags:
+  -  Articles that need to be expanded
   -  Windows
+  -  File Formats
 ---
 In an NTFS volume the **\$MFT** metadata file keeps records of all file
 entries in the volume.

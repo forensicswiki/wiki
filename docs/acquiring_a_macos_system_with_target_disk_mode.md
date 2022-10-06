@@ -1,6 +1,7 @@
 ---
 tags:
   -  Howtos
+  -  MacOS
 ---
 Make sure to [disable the disk arbitration
 daemon](disabling_macintosh_disk_arbitration_daemon.md) on the

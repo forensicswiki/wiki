@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  MacOS
+  -  Audio Conversion
+  -  Articles that need to be expanded
+
 ---
 **afconvert** is part of the [AFF](aff.md) toolset. This program
 can interconvert between all of the different file formats that AFF
