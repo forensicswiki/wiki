@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Vendors
+  -  Tools 
+  -  Windows
+  -  Disk Analysis
+  -  Commercial Software 
 ---
 *AccessData* offers computer forensics software and training. Their
 flagship product is [Forensic Toolkit](forensic_toolkit.md), but
@@ -18,8 +21,7 @@ they offer several others including:
 
 ## Trivia
 
-In 2006, a team from AccessData won the [DC3 Digital Forensics
-Challenge](dc3_digital_forensics_challenge.md).
+In 2006, a team from AccessData won the [DC3 Digital Forensics Challenge](dc3_digital_forensics_challenge.md).
 
 ## External Links
 

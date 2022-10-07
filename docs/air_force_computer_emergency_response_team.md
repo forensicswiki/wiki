@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Organization
+  -  Articles that need to be expanded
 ---
 The **Air Force Computer Emergency Response Team** (**AFCERT**) was an
 agency of the United States Air Force. It has since been moved into the

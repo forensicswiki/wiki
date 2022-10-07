@@ -1,9 +1,12 @@
 ---
 tags:
-  -  Analysis
   -  File Formats
+  -  Linux
+  -  Windows
+  -  MacOS
   -  Timeline Analysis
-
+  -  Text
+  -  Articles that need to be expanded 
 ---
 Bodyfile (or body file) is an output format (as far as known) introduced
 by the [SleuthKit](sleuthkit.md).

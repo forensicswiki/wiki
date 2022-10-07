@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Audio
 ---
 The **Advanced Audio Coding** (**AAC**) file format is a lossy digital
 audio encoding format. Files downloaded from the [iTunes Music

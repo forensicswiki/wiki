@@ -1,6 +1,13 @@
 ---
 tags:
   -  File Formats
+  -  Archive
+  -  Linux
+  -  FreeBSD
+  -  NetBSD
+  -  OpenBSD
+  -  Solaris
+  -  Articles That need to be expanded
 ---
 ## See also
 

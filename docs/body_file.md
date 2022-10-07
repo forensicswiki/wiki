@@ -1,6 +1,12 @@
 ---
 tags:
+  -  File Formats
+  -  Linux
+  -  Windows
+  -  MacOS
   -  Timeline Analysis
+  -  Text
+  -  Articles that need to be expanded 
 ---
 Body file is a timeline format introduced by the
 [SleuthKit](sleuthkit.md).

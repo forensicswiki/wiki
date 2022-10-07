@@ -61,10 +61,7 @@ an email.
 
 **AT+CPBR=\[index\]**
 Returns the specified index.
-Returns: +CPBR: 18,"user@domain.net",128,"Contact Name"
-
-**AT+MPBF="Name"**
-Searches the phonebook for the Name or string.
+Returns: +CPBR: 18,"user@domain.net",128,"Contact Nwikipedia
 
 **AT+MPBR=?**
 Similar to above, but a more verbose result is displayed.

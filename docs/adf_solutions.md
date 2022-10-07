@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Vendors
-  -  Tools 
+  -  Organization 
 ---
 # Overview
 
@@ -208,7 +207,3 @@ ADF Solutions, Inc.
 7910 Woodmont Ave. Suite 260
 Bethesda, MD 20814
 <http://www.adfsolutions.com/>
-
-[category:ADOMEX](category:adomex.md)
-[category:Vendors](category:vendors.md)
-[category:Tools](category:tools.md)

@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Further information
+  -  Research
+  -  Blogs 
 ---
 [Computer forensics](computer_forensics.md) related resources
 like: blogs, fora, tweets, tools and challenges (and test images).

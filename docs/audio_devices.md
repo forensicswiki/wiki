@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Hardware
+  -  Articles that need to be expanded 
 ---
 **Audio devices** allow you to play or record audio, which can be
 sounds, music, speech, etc. These devices can be interesting for a

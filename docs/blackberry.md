@@ -1,8 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Organization 
 ---
-![](BlackBerry.jpg "BlackBerry.jpg")
+<img src=assets/images/300px-BlackBerry.jpg title=Blackberry align="right">)
 
 The [RIM](rim.md) **BlackBerry** is a personal wireless handheld
 device that supports e-mail, [mobile phone](mobile_phone.md)

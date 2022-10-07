@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Applications
+  -  Tools
+  -  Windows
+  -  MacOS
+  -  Commercial Software
   -  Web Browsers
 ---
 Apple Safari is the default [web browser](web_browser.md)

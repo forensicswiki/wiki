@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 The American Standard Code for Information Interchange (ASCII) is an
 encoding scheme for character or text representation in computerized

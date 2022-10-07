@@ -3,9 +3,11 @@ tags:
   -  Linux 
   -  Windows
   -  Mac OS X
+  -  FreeBSD
   -  Disk Imaging
   -  GPL
   -  Tools 
+  -  Anti-Forensics
 ---
 **dd**, sometimes called **GNU dd**, is the oldest [imaging
 tool](tools#disk_imaging_tools.md) still used. Although it is
@@ -16,8 +18,7 @@ hashing, and a user-friendly interface. dd is a command line program
 that uses several obscure command line arguments to control the imaging
 process. Because some of these flags are similar and, if confused, can
 destroy the source media the examiner is trying to duplicate, users
-should be careful when running this program. The program generates [raw
-image files](raw_image_file.md) which can be read by many other
+should be careful when running this program. The program generates [raw image files](raw_image_file.md) which can be read by many other
 programs.
 
 dd is part of the [GNU Coreutils](gnu_coreutils.md) package
@@ -158,7 +159,5 @@ home archive and will miss the srv archive.
 
 ## External Links
 
-- [LinuxJournal article about
-  dd](http://www.linuxjournal.com/article/1320)
-- [Windows Version of dd and other forensics
-  tools](http://users.erols.com/gmgarner/forensics/)
+- [LinuxJournal article about dd](http://www.linuxjournal.com/article/1320)
+- [Windows Version of dd and other forensics tools](http://users.erols.com/gmgarner/forensics/)

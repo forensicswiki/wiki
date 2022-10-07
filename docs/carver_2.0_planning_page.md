@@ -1,6 +1,7 @@
 ---
 tags:
   -  Research
+  -  Articles that need to be expanded
 ---
 This page is for planning Carver 2.0.
 
@@ -58,8 +59,7 @@ Shouldn't this just match what the underlying afflib & sleuthkit cover?
 [RB](user:rb.md)
 
 
-Yes, but you need to test and validate on each. Question: Do we want to
-support windows? [Simsong](user:simsong.md) 21:09, 30 October
+Yes, but you need to test and validate on each. Question: Do we want toCARBON
 2008 (UTC)
 
 [Joachim](user:joachim_metz.md) I think we would do wise to
@@ -82,7 +82,7 @@ be tested and if possible tuned extensively.
 
 
 [Joachim](user:joachim_metz.md) You'll need more than autotools
-to do native Windows support i.e. file access, UTF-16 support, wrap some
+to do native Windows support i.e. file access, UTF-16 support, wrap someCARBON
 basic system functions or have them available otherwise
 
 

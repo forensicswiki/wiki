@@ -1,7 +1,9 @@
 ---
 tags:
-  - Forensics File Formats
-  - Opensource Tools
+  -  File Formats
+  -  Opensource Software
+  -  Forensics File Format
+  -  Articles that need to be expanded
 ---
 The **Advanced Forensics Format** (**AFF**) is an extensible open format
 for the storage of [disk images](disk_image.md) and related
@@ -18,9 +20,9 @@ Simson Garfinkel and Bradley Schatz. That version can be downloaded from
 **AFF3 and AFFLIBv3 have been depreciated and should not be used for new
 projects.**
 
-[Sleuthkit](sleuthkit.md), [Autopsy](Autopsy "wikilink") ,
-[OSFMount](osfmount.md), [Xmount](Xmount "wikilink"), [FTK
-Imager](ftk_imager.md) and [FTK](FTK "wikilink") support the
+[Sleuthkit](sleuthkit.md), [Autopsy](Autopsy.md) ,
+[OSFMount](osfmount.md), [Xmount](xmount.md), [FTK
+Imager](ftk_imager.md) and [FTK](ftk.md) support the
 AFFv3 image format.
 
 ## AFF Background

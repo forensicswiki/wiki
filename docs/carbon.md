@@ -1,10 +1,12 @@
 ---
 tags:
-  -  Vendors
   -  Winodows
   -  Tools
-  -  Hardware Vendor
-  -  Software Vendor
+  -  Disk Imaging
+  -  Write Blocker
+  -  Data Recovery
+  -  Commercial Software
+
 ---
 CARBON is a virtualized forensic analysis tool for the Windows operating
 system, developed by SUMURI.

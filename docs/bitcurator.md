@@ -1,8 +1,10 @@
 ---
 tags:
   -  Disk Imaging
-  -  GPL
   -  Tools 
+  -  Opensource Software
+  -  Live CD
+  -  Deprecated 
 ---
 BitCurator is a suite of open source digital forensics and data analysis
 tools to help collecting institutions (libraries, archives, and museums)

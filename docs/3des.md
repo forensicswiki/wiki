@@ -1,6 +1,7 @@
 ---
 tags:
   -  Encryption
+  -  Anti-Foresnics
 ---
 **3DES** or **Triple DES** is a block cipher formed by using the Data
 Encryption Standard ([des](des.md) cipher three times.
@@ -12,11 +13,9 @@ today than it was when 3DES was first brought out.
 
 ## External Links
 
-- \[<http://en.wikipedia.org/wiki/Triple_DES>) Wikipedia article on
-  3DES\]
+- [Wikipedia: 3DES](http://en.wikipedia.org/wiki/Triple_DES)
 
 <!-- -->
 
-- [Using 3DES for Hard Drive
-  Encryption](http://secude.com/htm/805/en/White_Paper_Section%3A_Full_Disk_Encryption.htm)
+- [Using 3DES for Hard Drive Encryption](http://secude.com/htm/805/en/White_Paper_Section%3A_Full_Disk_Encryption.htm)
 

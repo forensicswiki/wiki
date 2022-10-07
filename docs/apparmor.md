@@ -1,7 +1,10 @@
 ---
 tags:
+  -  Tools
   -  Linux
-  -  Applications 
+  -  Opensource Software
+  -  Security Software
+  -  Articles that need to be expanded
 ---
 AppArmor, found in [Suse](suse.md) and
 [Ubuntu](ubuntu.md) Linux, is a system for letting applications

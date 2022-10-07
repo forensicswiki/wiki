@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded  
 ---
 The **iPhone** is a smartphone made by [Apple
 Inc.](apple_inc..md) and sold with service through AT&T. It can

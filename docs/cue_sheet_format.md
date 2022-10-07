@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Text
 ---
 The **CUE sheet** format (.cue) file is often used in combination with
 .bin or .iso file(s) to define the track and/or session layout of an

@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
 ---
 The [Windows](windows.md) file format is a
 lossless [image format](image_format.md).

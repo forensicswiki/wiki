@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Research 
+  -  Articles that need to be expanded
 ---
 ## US Programs
 
@@ -24,8 +25,7 @@ tags:
 - [John Jay
   College](http://www.jjay.cuny.edu/digital-forensics-and-cybersecurity-programs)
 - [Michigan State University](http://www.forensic.msu.edu/)
-- [Maryville
-  University](http://online.maryville.edu/cyber-security/masters/)
+- [Maryville University](http://online.maryville.edu/cyber-security/masters/)
 - Naval Postgraduate School
 - Polytechnic Institute of New York University
 - [Purdue University](http://cyberforensics.purdue.edu/)
@@ -44,7 +44,7 @@ tags:
 - [University of Rhode Island](http://forensics.cs.uri.edu/)
 - University of Texas at San Antonio
 - Utica College
-  [\[Online](http://www.onlineuticacollege.com/programs/computer-forensics-specialization.asp)\]
+  [Online](http://www.onlineuticacollege.com/programs/computer-forensics-specialization.asp)\]
 - [Center for Information Security University of
   Tulsa](http://www.cis.utulsa.edu/)
 - [West Virginia University](http://forensics.wvu.edu/)
@@ -61,10 +61,8 @@ tags:
 - University of East London
 - [University College Dublin](http://cci.ucd.ie/fcci)
 - [University of Technology, Mauritius](http://www.utm.ac.mu)
-- [University of
-  Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
-- [University of Glamorgan, Wales,
-  UK](http://www.glam.ac.uk/coursedetails/685/549)
+- [University of Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
+- [University of Glamorgan, Wales, UK](http://www.glam.ac.uk/coursedetails/685/549)
 - [University of Applied Sciences Albstadt-Sigmaringen,
   Germany](http://www.digitaleforensik.com), Master of Science, Digital
   Forensics, in cooperation with University of Mannheim and University
@@ -72,18 +70,15 @@ tags:
 
 ## Asia
 
-- [Zayed University,
-  UAE](http://www.zu.ac.ae/main/en/colleges/colleges/college_information_technology/graduate_certificate_programs/cr_invest/intro.aspx)
+- [Zayed University UAE](http://www.zu.ac.ae/main/en/colleges/colleges/college_information_technology/graduate_certificate_programs/cr_invest/intro.aspx)
 
 ## Australasia
 
-- [Edith Cowan University, Perth, Western
-  Australia](http://www.ecu.edu.au/future-students/our-courses/browse?sq_content_src=%2BdXJsPWh0dHAlM0ElMkYlMkZ3ZWJzZXJ2aWNlcy53ZWIuZWN1LmVkdS5hdSUyRmZ1dHVyZS1zdHVkZW50cyUyRmNvdXJzZS12aWV3LnBocCUzRmlkJTNEMDAwMDAwMTQ1MSUyNmxvY2F0aW9uJTNEdG9wbGV2ZWwmYWxsPTE%3D)
+- [Edith Cowan University, Perth, Western Australia](http://www.ecu.edu.au/future-students/our-courses/browse?sq_content_src=%2BdXJsPWh0dHAlM0ElMkYlMkZ3ZWJzZXJ2aWNlcy53ZWIuZWN1LmVkdS5hdSUyRmZ1dHVyZS1zdHVkZW50cyUyRmNvdXJzZS12aWV3LnBocCUzRmlkJTNEMDAwMDAwMTQ1MSUyNmxvY2F0aW9uJTNEdG9wbGV2ZWwmYWxsPTE%3D)
 
 ## Africa
 
-- [University of Cape
-  Town](http://www.commerce.uct.ac.za/InformationSystems/Courses/inf4016w/)
+- [University of Cape Town](http://www.commerce.uct.ac.za/InformationSystems/Courses/inf4016w/)
 
 ## See Also
 

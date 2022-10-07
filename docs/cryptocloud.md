@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Service Provider
+  -  Encryption
+  -  Network Encryption 
   -  Organizations
 ---
 **Cryptocloud VPN** is a commercial, consumer-oriented

@@ -1,6 +1,11 @@
 ---
 tags:
-  -  Analysis
+  -  File Formats
+  -  Linux
+  -  Windows
+  -  MacOS
+  -  File Analysis
+  -  Articles that need to be expanded
 ---
 This article is intended to give a high-level overview of analyzing
 program execution on the various operating systems. A typical operating

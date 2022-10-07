@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Organzation
 ---
 ACME Portable Computer GmbH[1](http://www.acmeportable.de) is the German
 branch of ACME Portable Machines Inc, with headquarters in Los Angeles ,

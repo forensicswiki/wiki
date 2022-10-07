@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 **From Wikipedia:** The **Background Debug Mode interface** (BDM) is an
 electronic interface that allows [debugging](debugging.md) of

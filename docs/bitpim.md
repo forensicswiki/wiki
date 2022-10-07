@@ -1,9 +1,10 @@
 ---
 tags:
-  -  Cell Phone Tools
+  -  Tools
+  -  Mobile Forensics
+  -  Opensource Software 
 ---
-BitPim is a free, [open
-source](http://www.opensource.org/docs/definition.php), cross-platform
+BitPim is a free, [open source](http://www.opensource.org/docs/definition.php), cross-platform
 program for viewing and editing data on a [CDMA](cdma.md) [cell
 phone](cell_phone.md). [Roger
 Binns](mailto:rogerb@rogerbinns.com) was the founder, project manager,
@@ -27,7 +28,7 @@ __TOC__
 
 ## Features
 
-![](screen-phonebooktab.png "screen-phonebooktab.png")
+![Alt text](assets/images/150px-bitpim.png "screen-phonebooktab.png")
 
 The program can examine the phonebook, calendar, media (e.g. sounds,
 ringers, images), memos, todo lists, SMS messages, call history, play

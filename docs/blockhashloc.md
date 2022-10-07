@@ -1,6 +1,9 @@
 ---
 tags:
-  -  File Formats
+  -  Tools
+  -  Linux
+  -  Data Recovery
+  -  Opensource Software
 ---
 BlockHashLoc (BHL) enable the recovery of files via previously made
 small files with a list of blocks hashes.
@@ -69,5 +72,3 @@ Currently the only version is 1.
 ## External Links
 
 - [BlockHashLoc GitHub](https://github.com/MarcoPon/BlockHashLoc)
-  repository
-

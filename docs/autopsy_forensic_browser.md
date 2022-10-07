@@ -1,11 +1,12 @@
 ---
 tags:
   -  Windows
-  -  Mac OS X
+  -  MacOS
   -  Linux
-  -  Analysis
+  -  Disk Analysis
   -  Tools
   -  Opensource Software 
+  -  Articles that need to be expanded
 ---
 Autopsy® is an easy to use, GUI-based program that allows you to
 efficiently analyze hard drives and smart phones. It has a plug-in

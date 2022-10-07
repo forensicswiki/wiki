@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 Aryson Technologies is a globally known brand specializing in software
 solutions. Aryson Technologies has good experience in their domain,

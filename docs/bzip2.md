@@ -1,6 +1,13 @@
 ---
 tags:
   -  File Formats
+  -  Archive
+  -  Linux
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  Solaris 
+  -  AIX
 ---
 The bzip2 (.bz2) file consists of a single bzip2 stream. The bzip2
 stream consists of:
