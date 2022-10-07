@@ -7,7 +7,7 @@ tags:
   -  Solaris
   -  Windows
   -  Secure Deletion
-  -  Commercial Softwre
+  -  Commercial Software
   -  Tools
 ---
 **BCWipe** is a secure data deletion tool for
