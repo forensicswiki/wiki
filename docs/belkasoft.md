@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Vendors
-  -  Tools
+  -  Organization 
 ---
 **About Belkasoft**
 

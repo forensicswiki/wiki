@@ -1,6 +1,7 @@
 ---
 tags:
   -  Anti-Forensics
+
 ---
 **Anti-forensic techniques** try to frustrate [forensic investigators](forensic_investigator.md) and their
 [techniques](techniques.md).
@@ -23,7 +24,7 @@ like any [tool](tools.md) they can be abused.
 
 ### Secure Data Deletion
 
-[Securely deleting](secure_data_deletion.md) data, so that it
+[Secure Deletion](secure_data_deletion.md) data, so that it
 cannot be restored with forensic methods.
 
 Overwriting programs typically operate in one of three modes:
@@ -162,7 +163,7 @@ system, making the data “look like a partition in which unused blocks
 have recently been overwritten with random bytes using some disk wiping
 tool” (McDonald and Kuhn, 2003).
 
-[FreeOTFE](freeotfe.md) and [TrueCrypt](TrueCrypt.md)
+[FreeOTFE](freeotfe.md) and [TrueCrypt](truecrypt.md)
 allow a second encrypted file system to be hidden within another
 encrypted file system. The goal of this filesystem-within-a-filesystem
 is to allow the users to have a “decoy” file system with data that is

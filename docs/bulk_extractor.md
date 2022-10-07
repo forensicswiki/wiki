@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 **Bulk Extractor** (**bulk_extractor**) is a feature extraction tool
 written in C++ for extracting features from media images. Extracted

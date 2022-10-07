@@ -1,6 +1,9 @@
 ---
 tags:
   -  File Formats
+  -  MacOS
+  -  Archive Formats
+  -  Articles that need to be expanded
 ---
 A separate file in a filesystem containing the [Apple resource
 fork](http://en.wikipedia.org/wiki/Resource_fork) for a related data

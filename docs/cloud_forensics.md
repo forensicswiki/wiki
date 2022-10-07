@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to expanded
+  -  Cloud Forensics 
 ---
 Cloud Forensics, for a lack of better term, is considered the
 intersection between [cloud

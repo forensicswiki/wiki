@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Disk Encryption
+  -  Encryption 
 ---
 Checkpoint Disk Encryption, formerly known as Pointsec, aka End Point
 Encryption is a package for encrypting Windows PC disks. See the

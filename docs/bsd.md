@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Operating Systems
+  -  Articles that need to be expanded 
 ---
 **Berkeley Software Distribution** (**BSD**) is one of the three major
 derivates of the [Unix](unix.md) [operating

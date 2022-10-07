@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Opensource Software
+  -  Commercial Software
+  -  Free Software 
+  -  Security Software
 ---
 **Antivirus software** is a program or suite of programs working in
 collaboration with each other in order to protect a device from

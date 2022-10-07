@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 **CPR Tools** is a LaBelle, FL, US company that makes a variety of
 hardware and software products for computer forensics. They specialize

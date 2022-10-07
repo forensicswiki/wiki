@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Disk encryption
+  -  Encryption
+  -  Disk Encryption
   -  Windows
   -  Anti-Forensics
 ---
@@ -102,8 +103,7 @@ opened on Windows 10 systems and later.
 ## See Also
 
 - [BitLocker: How to image](bitlocker:_how_to_image.md)
-- [Defeating Whole Disk
-  Encryption](defeating_whole_disk_encryption.md)
+- [Defeating Whole Disk Encryption](defeating_whole_disk_encryption.md)
 
 ## External Links
 
@@ -149,5 +149,3 @@ opened on Windows 10 systems and later.
   Recovery](http://www.m3datarecovery.com/bitlocker-drive-data-recovery/)
 - \[<http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx
   Manage-bde.exe\], by [Microsoft](microsoft.md)
-
-[Category:Disk encryption](category:disk_encryption.md)

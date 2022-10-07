@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Systems
+  -  MacOS
 ---
 APFS, or Apple File System, is the file system designed by [Apple
 Computer](http://www.apple.com) to supersede [HFS+](hfs+.md) and

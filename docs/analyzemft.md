@@ -1,8 +1,9 @@
 ---
 tags:
   -  Abandoned
-  -  Analysis 
   -  Tools
+  -  Windows
+  -  File Analysis
 ---
 analyzeMFT is designed to fully parse the \$MFT file system metadata
 file from an NTFS file system and present the results in multiple

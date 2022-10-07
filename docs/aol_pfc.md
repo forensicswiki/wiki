@@ -1,6 +1,9 @@
 ---
 tags:
-  - Database File Formats 
+  -  File Formats
+  -  Windows
+  -  Articles that to be expanded 
+  -  Database
 ---
 PFC files are files associated with America Online (AOL). PFC (Personal
 Filing Cabinet) is a database file that enables the users to save AOL

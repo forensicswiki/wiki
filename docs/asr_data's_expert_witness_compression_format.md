@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  File Formats 
+  -  Disk Imaging 
 ---
 <b>This page is intended to preserve the original material, including
 errors and typos. It is wiki-style formatted as closely as possible to

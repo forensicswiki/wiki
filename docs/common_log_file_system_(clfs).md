@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  File Formats
+  -  Windows 
 ---
 The **Common Log File System** (**CLFS**) is a special purpose file
 (sub)system designed for transaction logging and/or recovery. The CLFS
@@ -39,7 +40,3 @@ Windows Internals 5 by Mark E. Russinovich and David A. Solomon
 - [Common Log File System
   (CLFS)](http://code.google.com/p/libfslibs/downloads/detail?name=Common%20Log%20File%20System%20%28CLFS%29.pdf),
   by the [libfslibs project](libfslibs.md), November 2010
-
-[Category:Logical file
-systems](category:logical_file_systems.md) [Category:File
-Systems](category:file_systems.md)

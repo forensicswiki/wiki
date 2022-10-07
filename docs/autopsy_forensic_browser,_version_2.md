@@ -1,6 +1,12 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  Disk Analysis
+  -  Opensource Software
+  -  Articles that need to be expanded
 ---
 The **Autopsy Forensic Browser** (**Autopsy**) is a graphical interface
 to the command line digital investigation analysis tools in [The Sleuth
@@ -38,5 +44,4 @@ exists to fix or "hack around" these issues.
 
 ## See also
 
-- [Autopsy Forensic Browser, version
-  3](autopsy_forensic_browser.md)
+- [Autopsy Forensic Browser, version 3](autopsy_forensic_browser.md)

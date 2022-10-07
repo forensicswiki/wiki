@@ -1,5 +1,7 @@
 ---
 tags:
+  -  Mobile Operating Systems
+  -  Android
   -  Articles that need to be expanded 
 ---
 ## Versions and API levels

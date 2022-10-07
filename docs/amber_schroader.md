@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  People
 ---
 [Amber Schroader](amber_schroader.md) is the Chief Executive
 Officer (CEO) of Paraben Corporation and has been a driving force in the

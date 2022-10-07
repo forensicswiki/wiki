@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Hardware
+  -  Disk Imaging 
 ---
 [Atola Insight Forensic](http://atola.com/products/insight/) is a fast
 forensic imaging system produced by [Atola
@@ -14,8 +15,8 @@ enforcement agencies and forensic experts.
 ### The system has several key features for data capture in forensic and e-discovery cases:
 
 <figure>
-<img src="Insight.jpg" title="Insight.jpg" width="500"
-alt="Insight.jpg" />
+<img src="assets/images/500px-Atola-Insight-Foresnics.jpg" title="Insight.jpg" width="500"
+alt="Insight.jpg" align="right"/>
 <figcaption aria-hidden="true">Insight.jpg</figcaption>
 </figure>
 

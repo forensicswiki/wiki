@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Howtos
+  -  Mobile Forensics
+  -  Tools
+  -  BlackberryOS
+
 ---
 **Blackberry Forensics** is a page dedicated to the forensics world.
 This page should contain all the necessary steps to acquire data from a

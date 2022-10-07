@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
+  -  Tools
 ---
 **Bulk Extractor Viewer** (**BEViewer**) is a User Interface for
 browsing features that have been extracted via the [Bulk

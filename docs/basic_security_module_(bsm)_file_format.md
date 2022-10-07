@@ -1,6 +1,9 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
+  -  Solaris
+  -  MacOS
 ---
 The Basic Security Module (BSM) file format originates from the [Sun
 Solaris](solaris.md) operating system and has been adopted in

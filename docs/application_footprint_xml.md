@@ -1,6 +1,6 @@
 ---
 tags:
-  - Digital Forensics XML 
+  -  Articles that need to be expanded 
 ---
 The Application Footprint XML provides a means for distributing
 information about an application's distribution format, it's

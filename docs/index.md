@@ -14,8 +14,6 @@ Please see the community page if you would like to [contribute](community.md).
 
 Each page on this website is labled with <a href="tags">tags</a>.  The page could have 1 tag or multiple tags depending on the content of the site.  Tags are placed at the top of the screen:
 
-![Alt text](assets/images/index_tags.png)
-
 As you could see from the above screenshot, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content for that tag.
 
 

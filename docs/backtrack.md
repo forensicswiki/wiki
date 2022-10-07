@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Operating Systems
+  -  Tools
+  -  Live CD
   -  Linux
   -  Opensource Software 
   -  Analysis

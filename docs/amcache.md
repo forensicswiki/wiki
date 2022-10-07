@@ -1,8 +1,11 @@
 ---
 tags:
-  -  Windows Analysis
+  -  File Formats
+  -  Database
+  -  Windows 
+  -  Articles that need to be expanded
 ---
-The AMCache is an stores metadata about program installation and
+The AMCache stores metadata about program installation and
 execution on Windows.
 
 It can be found on Windows 7 and Server 2008 R2 and later.

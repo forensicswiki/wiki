@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Disk Imaging
+  -  Commercial Software
 ---
 The **Belkasoft Acquisition Tool** (**BelkaImager**) is a free forensic
 imaging utility developed by [Belkasoft](belkasoft.md). Four

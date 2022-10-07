@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Software Vendor
+  -  Organization 
+  -  Articles that need to be expanded
 ---
 **About Arsenal Recon**
 

@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Memory Imaging
+  -  Commercial Software
 ---
 The **Belkasoft Live RAM Capturer** is a free volatile memory
 acquisition tool developed by [Belkasoft](belkasoft.md). It

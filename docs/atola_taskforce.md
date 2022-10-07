@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Hardware 
+  -  Disk Imaging
 ---
 [Atola TaskForce](https://atola.com/products/taskforce/) is a forensics
 imager by [Atola Technology](https://atola.com/), designed for working
@@ -8,8 +9,8 @@ with both good and damaged media with a focus on high-performance (up to
 18 parallel imaging sessions at 15 TB/hour).
 
 <figure>
-<img src="Atola-taskforce.jpg" title="Atola-taskforce.jpg" width="500"
-alt="Atola-taskforce.jpg" />
+<img src="assets/images/500px-Atola-taskforce.jpg" title="Atola-taskforce.jpg" width="500"
+alt="Atola-taskforce.jpg" align="right"/>
 <figcaption aria-hidden="true">Atola-taskforce.jpg</figcaption>
 </figure>
 

@@ -1,14 +1,17 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Live CD
+  -  Linux
+  -  Analysis
+  -  Opensource Software
 ---
 ***Caine (an acronym for Computer Aided Investigative Environment**') is
 a [distribution](distribution_linux.md)
 [live](live_cd.md) oriented to Computer Forensics ([computer forensics](computer_forensics.md) historically conceived by
 Giancarlo Giustini, within a project of Digital Forensics*
 Interdepartmental Research Center for Security'' (CRIS) of the
-University of Modena and Reggio Emilia see [Official
-Site](http://www.caine-live.net/page4/history.html). Since the end of
+University of Modena and Reggio Emilia see [Official Site](http://www.caine-live.net/page4/history.html). Since the end of
 the **2009** and currently the project is maintained by Nanni Bassetti.
 
 ## Features
