@@ -1,6 +1,7 @@
 ---
 tags:
   -  Disk Imaging
+  -  Hardware
   -  Tools
 ---
 Data Copy King is one disk image hardware,DoD data wipe hardware and

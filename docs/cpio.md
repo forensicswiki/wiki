@@ -7,7 +7,7 @@ tags:
   -  NetBSD
   -  OpenBSD
   -  Solaris
-  -  Articles That need to be expanded
+  -  Articles that need to be expanded
 ---
 ## See also
 
