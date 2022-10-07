@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Articles that need to be expanded 
 ---
 **Sun Microsystems, Inc.** is a computer hardware and software vendor.
 

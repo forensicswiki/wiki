@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expended 
+  -  Articles that need to be expanded 
 
 ---
 **AlarmDisk™** is a freeware personal computer security monitoring

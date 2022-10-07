@@ -1,5 +1,8 @@
 ---
 tags:
+  -  Tools
+  -  Hardware
+  -  Data Recovery
   -  Disk Imaging
 ---
 **Data Compass** is a hardware and software data recovery tool produced
