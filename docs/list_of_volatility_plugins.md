@@ -2,7 +2,7 @@
 tags:
   -  Research
   -  Websites
-  -  Articles that nned to be expanded 
+  -  Articles that need to be expanded 
 ---
 The [Volatility Framework](volatility_framework.md) was designed
 to be expanded by plugins. Here is a list of the published plugins for
