@@ -1,6 +1,7 @@
 ---
 tags:
   -  Memory Analysis
+  -  Memory Imaging
 ---
 Memory imaging is the process of making a bit-by-bit copy of memory. In
 principle it is similar to [Disk Imaging](disk_imaging.md).

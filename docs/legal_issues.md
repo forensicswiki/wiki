@@ -131,5 +131,3 @@ Vontu: <http://www.vontu.com/products/default.asp>
   Research](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1113014),
   Aaron J. Burstein, University of California, Berkeley - School of Law.
   2008, UC Berkeley Public Law Research Paper No. 1113014
-
-[Category:Law](category:law.md)

@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Memory Imaging
+  -  Linux
 ---
 Rekall is the stand-alone continuation of the
 [Volatility](volatility.md) version, aka

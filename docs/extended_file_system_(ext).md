@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Systems
+  -  Linux
+  -  Articles that need to be expanded
 ---
 The Extended File System (Ext) is a family of file systems consisting
 of: ext, ext2, ext3, ext4

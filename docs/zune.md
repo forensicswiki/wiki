@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Hardware
+  -  Personal Devices 
 ---
 ## Zune
 
@@ -13,4 +14,4 @@ stations. It has the feature of wirelessly sharing selected full-length
 sample tracks, playlists, pictures, self made tracks directly from Zune
 to Zune.
 
-![Image:image001_low.jpg](image001_low.jpg "Image:image001_low.jpg")
+![Alt text](assets/images/zune.jpeg "Zune")

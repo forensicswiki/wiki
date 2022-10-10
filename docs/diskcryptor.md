@@ -1,6 +1,8 @@
 ---
 tags:
   -  Encryption
+  -  Disk Encryption
+  -  Anti-Forensics
 ---
 **DiskCryptor** is a free disk encryption solution provided under GNU
 General Public License.
@@ -18,5 +20,3 @@ software](http://diskcryptor.net/index.php/CryptoUsageRisks_en).
 ## See also
 
 - [FreeOTFE](freeotfe.md)
-
-[Category:Encryption](category:encryption.md) [Category:Disk

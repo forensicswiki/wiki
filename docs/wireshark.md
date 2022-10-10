@@ -1,9 +1,17 @@
 ---
 tags:
   -  Network Forensics
+  -  Opensource Software
+  -  Windows
+  -  Linux
+  -  Windows
+  -  Solaris
+  -  NetBSD
+  -  FreeBSD
+  -  MacOS
+  -  OpenBSD
 ---
-**Wireshark** is a popular [network protocol
-analyzer](sniffer.md).
+**Wireshark** is a popular [network protocol analyzer](sniffer.md).
 
 ## Overview
 

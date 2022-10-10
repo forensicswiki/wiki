@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Windows
+  -  Text
 ---
 The **Rich Text Format (RTF)** is a format for text and graphics
 interchange. RTF uses the American National Standards Institute (ANSI),

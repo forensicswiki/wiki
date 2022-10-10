@@ -1,6 +1,9 @@
 ---
 tags:
   -  Live CD
+  -  Linux
+  -  Opensource Software
+  -  Tools
 ---
 According to the [Linux
 documentation](https://www.kernel.org/doc/Documentation/early-userspace/README),

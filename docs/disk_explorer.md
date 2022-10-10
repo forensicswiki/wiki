@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Analysis
+  -  Commercial Software  
 ---
 DiskExplorer is a forensic tool that can be used by investigators to
 analyze file systems. The file systems supported by DiskExplorer are:

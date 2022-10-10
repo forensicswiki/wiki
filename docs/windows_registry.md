@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Windows Analysis
+  -  File Formats
+  -  Windows
+  -  Database
 ---
 ## Terminology
 

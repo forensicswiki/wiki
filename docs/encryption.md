@@ -1,6 +1,8 @@
 ---
 tags:
   -  Encryption
+  -  Anti-Forensics
+  -  Disk Encryption
 ---
 **Encryption** is a means to obfuscate data an entity wishes to protect
 to the point it will take a third party considerable time to access
@@ -11,9 +13,7 @@ cipher text.
 
 ## Also see
 
-- [Application Specific
-  Encryption](application_specific_encryption.md)
+- [Application Specific Encryption](application_specific_encryption.md)
 - [Full Disk Encryption](full_disk_encryption.md)
-- [Operating System Password
-  Encryption](operating_system_password_encryption.md)
+- [Operating System Password Encryption](operating_system_password_encryption.md)
 

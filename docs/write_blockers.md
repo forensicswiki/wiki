@@ -1,6 +1,7 @@
 ---
 tags:
   -  Disk Imaging
+  -  Hardware
 ---
 **Write blockers** are devices that allow acquisition of information on
 a [drive](hard_drive.md) without creating the possibility of

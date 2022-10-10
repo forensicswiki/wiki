@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Data Recovery
+  -  Articles that need to be expanded
 ---
 Zero storage carving, also called inline carving, is the concept of
 using techniques to enable doing [carving](carving.md) of

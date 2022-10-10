@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Windows
+  -  Database
 ---
 [Microsoft](microsoft.md) [Windows](windows.md) 95, 98
 and Me uses the **Windows 9x Registry File (CREG)** to store system and

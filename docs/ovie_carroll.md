@@ -2,7 +2,7 @@
 tags:
   -  People
 ---
-'<img src="OLC.jpg" title="OLC.jpg" width="200" alt="OLC.jpg" />*Ovie
+'<img src="assets/images/400px-OLC.jpeg" title="OLC.jpg" width="200" alt="OLC.jpg" align="right" />*Ovie
 Carroll*' is the Director for the Cybercrime Lab at the [Department of
 Justice, Computer Crime and Intellectual Property
 Section](department_of_justice,_computer_crime_and_intellectual_property_section.md)

@@ -1,6 +1,10 @@
 ---
 tags:
-  -  Analysis
+  -  Tools 
+  -  File Analysis
+  -  Free Software
+  -  Windows
+  -  Articles that need to be expanded
 ---
 *DXL Viewer* program is developed to view Lotus DXL files platform
 independently.
@@ -17,5 +21,3 @@ the application.
 ## External Links
 
 [Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free

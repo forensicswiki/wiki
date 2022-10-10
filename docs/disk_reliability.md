@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Bibliographies
+  -  Research 
 ---
 Research on disk reliability and disk failure rates is relevant to
 computer forensics for several reasons:

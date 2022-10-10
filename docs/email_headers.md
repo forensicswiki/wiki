@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Email Analysis
 ---
 **Email Headers** are lines of [metadata](metadata.md) attached
 to each [email](email.md) that contain lots of useful

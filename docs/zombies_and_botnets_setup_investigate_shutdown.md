@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Research
+  -  Training 
 ---
 **Zombies and Botnets: Setup-Investigate-Shutdown**
 [1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,25)

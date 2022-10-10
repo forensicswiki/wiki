@@ -2,7 +2,9 @@
 tags:
   -  Encryption
   -  Disk Encryption
-  -  Anti Forensics
+  -  Anti-Forensics
+  -  Tools
+  -  Windows
 ---
 **PGPDisk** was a disk encryption solution from the [PGP
 Corporation](http://www.pgp.com). It has since been rebranded as [PGP
@@ -23,5 +25,3 @@ enterprise users and was not a backdoor
 
 - [PGPDisk Official
   website](http://www.pgp.com/products/wholediskencryption/)
-
-[Category:Encryption](category:encryption.md) [Category:Disk
