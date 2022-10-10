@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Windows
 ---
 A Windows Prefetch file consists of one file header and multiple file
 sections with different content. Not all content has an obvious forensic

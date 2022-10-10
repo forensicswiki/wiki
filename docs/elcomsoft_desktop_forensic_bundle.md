@@ -2,8 +2,7 @@
 tags:
   - No Category
 ---
-**[Elcomsoft Desktop Forensic
-Bundle](https://www.elcomsoft.com/edfb.html) (EDFB)** is the complete
+**[Elcomsoft Desktop Forensic Bundle](https://www.elcomsoft.com/edfb.html) (EDFB)** is the complete
 suite of ElcomSoft password recovery tools allowing corporate and
 government customers to unprotect disks and systems and decrypt files
 and documents protected with popular applications. Based on Elcomsoft's

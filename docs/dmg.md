@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  File Formats 
+  -  MacOS
+  -  Disk Image
 ---
 **DMG** is the proprietary Apple Disk Image file recognized & primarily
 associated with the Macintosh OS X operating system used for emulating a

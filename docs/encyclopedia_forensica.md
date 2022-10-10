@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 Encyclopedia is defined as - An encyclopedia is a type of reference work
 – a compendium holding a summary of information from either all branches
@@ -35,5 +35,5 @@ and content, Please start there if you are looking to contribute)
 
 ## File Systems
 
-[FAT](fat.md) [NTFS](NTFS "wikilink") [EXT2](EXT2 "wikilink")
-[EXT3](ext3.md) [EXT4](EXT4 "wikilink") [HFS+](HFS+ "wikilink")
+[FAT](fat.md) [NTFS](ntfs.md) [EXT2](ext2.md)
+[EXT3](ext3.md) [EXT4](ext4.md) [HFS+](hfs%2B.md)

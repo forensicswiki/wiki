@@ -1,6 +1,11 @@
 ---
 tags:
-  -  VMWare Appliances
+  -  Articles that need to be expanded
+  -  Tools
+  -  Linux
+  -  Windows
+  -  MacOS
+  -  Analysis
 ---
 **The SANS SIFT Workstation** is a [VMware](vmware.md) Appliance
 that is preconfigured with all the necessary tools to perform a forensic
@@ -15,11 +20,11 @@ SIFT Workstation is based on Ubuntu.
 Software Includes:
 
 1.  [The Sleuth Kit](the_sleuth_kit.md)
-2.  [ssdeep](ssdeep.md) & [md5deep](md5deep "wikilink")
-3.  [Foremost](foremost.md)/[Scalpel](Scalpel "wikilink")
+2.  [ssdeep](ssdeep.md) & [md5deep](md5deep.md)
+3.  [Foremost](foremost.md)/[Scalpel](scalpel.md)
 4.  [Wireshark](wireshark.md)
 5.  HexEditor
-6.  [Vinetto](vinetto.md) ([thumbs.db](thumbs.db "wikilink")
+6.  [Vinetto](vinetto.md) ([thumbs.db](thumbs.db.md)
     examination)
 7.  Pasco
 8.  Rifiuti

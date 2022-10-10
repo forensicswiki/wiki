@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Memory Imaging
+  -  Opensource Software
+  -  Deprecated 
 ---
 **mdd**, also known as **[ManTech dd](mantech.md)** or **Memory
 dd**, is a command line program to acquire an image of the memory of a

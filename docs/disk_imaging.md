@@ -1,6 +1,7 @@
 ---
 tags:
   -  Disk Imaging
+  -  Articles that need to be expanded
 ---
 Disk imaging is the process of making a bit-by-bit copy of a disk.
 Imaging (in more general terms) can apply to anything that can be

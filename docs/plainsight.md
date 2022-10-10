@@ -3,8 +3,8 @@ tags:
   -  Articles that need to be expanded
   -  Linux
   -  Live CD
-  -  GPL
   -  Tools 
+  -  Opensource Tools
 ---
 A forensic [Live CD](live_cd.md) built on top of
 [Knoppix](knoppix.md).

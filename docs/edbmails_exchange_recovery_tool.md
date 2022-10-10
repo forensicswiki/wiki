@@ -2,6 +2,8 @@
 tags:
   -  Windows
   -  Tools
+  -  Opensource Software
+  -  Email Analysis
 ---
 ***EdbMails*** is an Exchange server recovery tool that helps to recover
 corrupted database that has data such as mails, calendar, contacts,
@@ -65,5 +67,3 @@ software related issue.
 EdbMails](https://www.edbmails.com/pages/video.html)
 
 [EdbMails Blog](http://blog.edbmails.com)
-
-[Category:Windows](category:windows.md)

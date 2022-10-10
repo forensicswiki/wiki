@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Memory Imaging
+  -  Commercial Software
+  -  Windows 
 ---
 **Fastdump Pro** is memory acquisition tool from
 [HBGary](hbgary.md). According to the vendor's web site, this
@@ -14,5 +17,4 @@ systems with more than 4GB of RAM.
 
 ## External Links
 
-- [Official web
-  site](https://www.hbgary.com/products-services/memory-forensics/fastdump/)
+- [Official web site](https://www.hbgary.com/products-services/memory-forensics/fastdump/)

@@ -9,8 +9,7 @@ by earlier versions of Microsoft Office.
 
 # Container Format
 
-DOCX is written in an XML format, which consists of a [ZIP
-archive](zip_archive.md) file containing [XML](XML "wikilink")
+DOCX is written in an XML format, which consists of a [ZIP archive](zip_archive.md) file containing [XML](xml.md)
 and binaries. Content can be analysed without modification by unzipping
 the file (e.g. in WinZIP) and analysing the contents of the archive.
 

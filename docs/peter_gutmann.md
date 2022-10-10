@@ -1,6 +1,7 @@
 ---
 tags:
   -  People
+  -  Articles that need to be expanded
 ---
 **Peter Gutmann** is the author of the paper [Secure Deletion of Data
 from Magnetic and Solid-State

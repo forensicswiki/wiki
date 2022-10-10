@@ -1,8 +1,9 @@
 ---
 tags:
   -  Organizations
+  -  Articles that need to be expanded
 ---
-<img src="SANS.jpg" title="SANS.jpg" width="200" alt="SANS.jpg" /> The
+<img align="right" src="assets/images/400px-SANS.jpeg">
 [SANS Institute](sans_institute.md) was established in 1989 as a
 cooperative research and education organization. Its programs now reach
 more than 165,000 security professionals around the world. A range of

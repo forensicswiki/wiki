@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Systems
+  -  Articles that need to be expanded
 ---
 EncFS provides an encrypted file system in user-space. It runs without
 any special permissions and uses the FUSE library and Linux kernel

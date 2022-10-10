@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
+  -  People 
 ---
 <http://binaryforay.blogspot.com/>

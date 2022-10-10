@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Live CD
+  -  Opensource Software
+  -  Analysis 
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) intended for
 [computer forensics](computer_forensics.md) and [penetration

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 **Dolphin Data Lab** is one world's leading data recovery tools
 manufacturer and supplier offering complete data recovery solutions,

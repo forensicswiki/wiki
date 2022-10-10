@@ -1,7 +1,15 @@
 ---
 tags:
   -  File Formats
-  -  Archive File Formats
+  -  Archive 
+  -  Windows
+  -  FreeBSD
+  -  Linux
+  -  OpenBSD
+  -  NetBSD
+  -  AIX
+  -  Solaris
+  -  MacOS
   -  Articles that need to be expanded
 ---
 .ZIP is an archive file format that supports lossless data compression.

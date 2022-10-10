@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Organization 
 ---
 The **DoD Cyber Crime Center**, or **DC3**, is a Department of Defense
 organization run by the [Air Force Office of Special
@@ -39,6 +39,3 @@ Shirley](http://www.af.mil/bios/bio.asp?bioID=8478).
 
 - [Official website](http://dc3.mil/)
 - [DoD Cyber Crime Conference website](http://www.dodcybercrime.com/)
-
-[Category: Federal investigative
-agency](category:_federal_investigative_agency.md)

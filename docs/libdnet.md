@@ -1,9 +1,15 @@
 ---
 tags:
-  -  Analysis
-  -  LGPL
+  -  Network Analysis
   -  Tools
   -  Libyal 
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  MacOS
+  -  Linux
+  -  Windows
+  -  Opensource Software
 ---
 ## Abstract
 

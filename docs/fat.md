@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Systems
+  -  Windows
 ---
 **FAT**, or File Allocation Table, is a [file
 system](file_systems.md) that is designed to keep track of

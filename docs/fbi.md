@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Organization
 ---
 **FBI** can refer to:
 

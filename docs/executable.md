@@ -1,6 +1,15 @@
 ---
 tags:
-  - No Category
+  -  File Formats
+  -  Windows
+  -  Linux
+  -  FreeBSD
+  -  NetBSD
+  -  OpenBSD
+  -  Solaris
+  -  ChromeOS
+  -  MacOS
+  -  Binary 
 ---
 An executable file is used to perform tasks according to encoded
 instructions. Executable files are sometimes also referred to as

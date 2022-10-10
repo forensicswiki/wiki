@@ -1,7 +1,9 @@
 ---
 tags:
-  - Forensics File Formats
-  - Articles that need to be expanded 
+  -  File Formats
+  -  Windows 
+  -  Articles that need to be expanded 
+  -  Text
 ---
 The [EnCase](encase.md) suite of tools can generate 'hash maps',
 or 'EnMap' files, which allow users to identify chunks of files when the

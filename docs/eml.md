@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Email
+  -  File Formats
+  -  Windows
 ---
 EML or Electronic mail is a file format primarily associated with
 Microsoft Corporation “Outlook Express” and is used by other email
@@ -60,5 +61,3 @@ built-in Mail application does not support EML.
 - Microsoft Outlook
 - Mozilla Thunderbird
 - Xena
-
-[Category:Email](category:email.md) [Category:File

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organizations 
 ---
 Paraben is a United States company that sells products for analyzing
 disk drives and portable devices like [cell

@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Email
+  -  Email Analysis
+  -  File Formats
+  -  Articles that need to be expanded
 ---
 ## Also see
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 There are various types of disk image formats. For clarity the formats
 are divided by means of their original purpose, e.g. were they intended

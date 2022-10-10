@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
+  -  Windows
 ---
 Windows Management Instrumentation (WMI) is the infrastructure for
 management data and operations on Windows-based operating systems. It is

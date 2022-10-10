@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Email
+  -  File Formats
+  -  Windows
+  -  Database
 ---
 [Microsoft](microsoft.md) [Outlook](outlook.md) uses the
 **Personal Folder File (PFF)** to store e-mails, appointments, tasks,
@@ -199,6 +201,3 @@ inaccessibility.
 - [Pst file viewer](pst_file_viewer.md)
 - PST Scanner
 - Windows Messaging
-
-[Category:Email](category:email.md) [Category:File
-Formats](category:file_formats.md) [Category:Database File

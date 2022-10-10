@@ -1,6 +1,10 @@
 ---
 tags:
-  -  Anti-forensics tools 
+  -  Anti-Forensics 
+  -  Tools
+  -  Windows
+  -  Secure Deletion
+  -  Opensource Software
 ---
 Eraser is a Windows tool that allows you to securely remove files from
 your computers hard drive and securely wipe free space so as to remove

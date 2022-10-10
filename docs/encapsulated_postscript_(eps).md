@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
 ---
 Encapsulated PostScript (EPS) is a PostScript document with additional
 restrictions to be usable as a graphics file format.

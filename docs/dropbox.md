@@ -7,7 +7,7 @@ tags:
 [Dropbox](http://www.dropbox.com) is a service with dedicated
 applications allowing people to share their files between multiple
 computers (including smartphones) and each other. It is thus similar in
-purpose to [Wuala](wuala.md), [SpiderOak](SpiderOak "wikilink")
+purpose to [Wuala](wuala.md), [SpiderOak](spideroak.md)
 and [Box.com](box.com.md).
 
 ## Security

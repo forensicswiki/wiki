@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
   -  Linux
+  -  Opensource Software
 ---
 Zeitgeist is a service which logs the users's activities and events,
 anywhere from files opened to websites visited and conversations.
