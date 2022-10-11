@@ -1,10 +1,9 @@
 ---
 tags:
-  -  Vendors
-  -  Hardware Vendor
-  -  Software Vendor
-  -  Mac OS X 
+  -  MacOS 
   -  Tools
+  -  System Analysis
+  -  Free Software
 ---
 
 **PALADIN** is a completely free forensic investigation tool kit,

@@ -1,6 +1,14 @@
 ---
 tags:
-  - No Category
+  -  File Formats
+  -  Archive
+  -  Articles that need to be expanded
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD 
 ---
 sgzip is the Seekable GZIP disk image format, used by
 [pyflag](pyflag.md).
@@ -9,6 +17,3 @@ sgzip is the Seekable GZIP disk image format, used by
 
 - [PyFlag source
   code](https://github.com/py4n6/pyflag/tree/master/src/lib/libsgzip)
-
-[Category:Forensics File
-Formats](category:forensics_file_formats.md)

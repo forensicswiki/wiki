@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to expanded
+  -  Articles that need to be expanded
   -  Cloud Forensics 
 ---
 Cloud Forensics, for a lack of better term, is considered the

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 **Research In Motion Limited** (**RIM**) is a Canadian wireless device
 company. It is best known as the developer of the

@@ -1,6 +1,14 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Opensource Software
+  -  Windows 
+  -  Log Analysis
+  -  FreeBSD
+  -  Linux
+  -  NetBSD
+  -  OpenBSD
+  -  Articles that need to be expanded 
 ---
 ScalpelCp is a simple perl script that processes the logfile of
 [scalpel](scalpel.md) run in preview mode on a CarvPath file and

@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Deprecated tools
+  -  Deprecated 
   -  Linux
-  -  Web-based
-  -  Analysis
-  -  GPL
+  -  Windows
+  -  MacOS
+  -  Disk Analysis
   -  Tools 
 ---
 **PyFlag** is a web-based, database-backed *forensic and log analysis
@@ -54,6 +54,6 @@ Can it build timelines and search by creation date?
 
 # External Links
 
-- <https://github.com/py4n6/pyflag>
+- [Github: Pyflags](https://github.com/py4n6/pyflag)
 - <https://code.google.com/p/pyflag/>
 - <http://sourceforge.net/projects/pyflag/>

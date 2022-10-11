@@ -2,6 +2,12 @@
 tags:
   -  File Formats
   -  Archive Files
+  -  Linux
+  -  MacOS
+  -  FreeBSD
+  -  NetBSD
+  -  OpenBSD 
+  -  Windows
 ---
 tar (derived from tape archive) is a file format (in the form of a type
 of archive bitstream).
@@ -15,8 +21,6 @@ of archive bitstream).
 
 ## External Links
 
-- [Basic Tar
-  Format](http://www.gnu.org/software/tar/manual/html_node/Standard.html),
+- [Basic Tar Format](http://www.gnu.org/software/tar/manual/html_node/Standard.html),
   by the GNU operating system project
-- [Wikipedia: tar
-  (computing)](http://en.wikipedia.org/wiki/Tar_(computing))
+- [Wikipedia: tar (computing)](http://en.wikipedia.org/wiki/Tar_(computing))

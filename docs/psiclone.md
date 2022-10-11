@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Data Recovery
+  -  Windows
+  -  Commercial Hardware
 ---
 **PSIClone™** is a data recovery product made by [CPR
 Tools](cpr_tools.md). It can clone and image hard drives,

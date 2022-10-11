@@ -1,7 +1,7 @@
 ---
 tags:
   -  Encryption
-  -  Anti-Foresnics
+  -  Anti-Forensics
 ---
 **3DES** or **Triple DES** is a block cipher formed by using the Data
 Encryption Standard ([des](des.md) cipher three times.

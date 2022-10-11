@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Mobile device tools
   -  Windows Mobile
+  -  Articles that need to be expanded
 ---
 <table>
 <tbody>

@@ -1,7 +1,9 @@
 ---
 tags:
-  -  Applications
+  -  Tools
   -  Linux
+  -  Opensource Software
+  -  Desktop Environments
   -  Articles that need to be expanded
 ---
 GNOME is a desktop environment and graphical user interface that runs on
@@ -20,5 +22,4 @@ and its content. This data is commonly found in:
 
 - [Wikipedia: GNOME](http://en.wikipedia.org/wiki/GNOME_desktop)
 - [Wikipedia: GVFS](http://en.wikipedia.org/wiki/GVFS)
-- [Examining the
-  Gnome](http://www.handmadeology.com/wp-content/uploads/2010/09/gnome.jpg)
+- [Examining the Gnome](http://www.handmadeology.com/wp-content/uploads/2010/09/gnome.jpg)

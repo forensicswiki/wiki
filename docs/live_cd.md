@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Live CD
+  -  Opensource Software 
+  -  Tools
+  -  Linux
 ---
 A **live CD** is a CD containing a bootable computer [operating
 system](operating_system.md). Live CDs are widely used in
@@ -26,5 +29,5 @@ response](incident_response.md).
 
 ## See Also
 
-- [Forensics Live CDs](:category:live_cd.md)
+- [Forensics Live CDs](live_cd.md)
 - [Forensic Live CD issues](forensic_live_cd_issues.md)

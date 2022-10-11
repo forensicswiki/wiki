@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Analysis
+  -  Email Analysis
   -  Tools
   -  Windows 
-  -  Commercial
+  -  Commercial Software
 ---
 *MailPro+* is a commercial application built to view and export email
 files of multiple desktop based email clients.

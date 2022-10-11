@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Windows
 ---
 Microsoft Windows Shortcut Files
 

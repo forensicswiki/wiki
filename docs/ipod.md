@@ -1,9 +1,9 @@
 ---
 tags:
-  - No Category
+  -  Hardware
+  -  Personal Device 
 ---
-![](Ipod.jpg "Ipod.jpg")
-
+<img src="assets/images/300px-Ipod.jpg"  align="right">
 The **iPod** is a brand of portable digital media player designed and
 marketed by [Apple Computer](apple_computer.md). Devices in the
 iPod family provide a simple user interface designed around a central
@@ -16,8 +16,8 @@ storage](data_storage.md) device when connected to a
 
 ## Software Capabilities
 
-The iPod can play [MP3](mp3.md), [WAV](WAV "wikilink"), [M4A/AAC
-LC](m4a/aac_lc.md), [Protected AAC](Protected_AAC "wikilink"),
+The iPod can play [MP3](mp3.md), [WAV](wav.md), [M4A/AAC
+LC](m4a/aac_lc.md), [Protected AAC](protected_aac.md),
 [AIFF](aiff.md), Audible audiobook and Apple Lossless audio file
 formats. The fifth-generation iPod can also play .m4v and .mp4
 [MPEG-4](mpeg-4.md) video file
@@ -27,7 +27,7 @@ of [iTunes](itunes.md) can transcode regular non copy-protected
 copy protection cannot be played in iTunes or be copied to an iPod.
 Reviewers have criticized the iPod's inability to play some other
 formats, in particular the [Ogg Vorbis](ogg_vorbis.md) and
-[FLAC](flac.md) formats. [MIDI](MIDI "wikilink") files cannot be
+[FLAC](flac.md) formats. [MIDI](midi.md) files cannot be
 played on iPods, but can be converted into a compatible audio file
 format by choosing the "advanced" menu on iTunes.
 

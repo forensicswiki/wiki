@@ -1,11 +1,13 @@
 ---
 tags:
-  -  Analysis
+  -  Disk Analysis
   -  Tools
-  -  Commercial 
+  -  Commercial Software
+  -  MacOS
+  -  Windows
+  -  Linux
 ---
-Proof Finder is a "light weight" version of [Nuix
-Desktop](nuix_desktop.md). It includes most of the features of
+Proof Finder is a "light weight" version of [Nuix Desktop](nuix_desktop.md). It includes most of the features of
 Nuix Desktop but is limited in the amount of data that it can ingest in
 one go (currently 15GB). All proceeds from Proof Finder go to the
 charity [Room to Read](http://www.roomtoread.org/)

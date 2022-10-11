@@ -1,8 +1,12 @@
 ---
 tags:
-  -  Analysis
+  -  Disk Analysis
   -  Tools
-  -  APL 
+  -  Opensource Software
+  -  Articles that need to be expanded
+  -  Windows
+  -  MacOS
+  -  Linux
 ---
 Python-bindings for the [sleuthkit](sleuthkit.md) library
 (libtsk).

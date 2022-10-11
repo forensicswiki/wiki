@@ -10,13 +10,15 @@ The Forensicswiki is an opensouce website,  that provides information related to
 
 Please see the community page if you would like to [contribute](community.md).  
 
-### Discover Content 
+## Discover Content 
 
-Each page on this website is labled with <a href="tags">tags</a>.  The page could have 1 tag or multiple tags depending on the content of the site.  Tags are placed at the top of the screen:
+### Tags
+Each page on this website is labled with <a href="tags">tags</a>.  The page could have 1 tag or multiple tags depending on the content of the site.  Tags are placed at the top of the screen.
 
-As you could see from the above screenshot, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content for that tag.
+As you could see from the following article, The [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content for that tag.
 
+### Notable Content
 
-###  Articles that need to be expanded
+##  Articles that need to be expanded
 
 There are a number of <a href="tags/#articles-that-need-to-be-expanded">articles</a> that could use some love.  If you want to help out please read about [contributing](community.md)

@@ -1,6 +1,13 @@
 ---
 tags:
   -  File Formats
+  -  Text
+  -  Windows
+  -  FreeBSD
+  -  Linux
+  -  OpenBSD
+  -  NetBSD
+  -  MacOS
 ---
 The **Text file (TXT)** format consist of 8-, 16- or 32-bit characters
 that use printable characters along with some control data such as tabs

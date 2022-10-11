@@ -1,6 +1,13 @@
 ---
 tags:
   -  File Formats
+  -  Photo Images
+  -  Linux
+  -  Windows
+  -  MacOS
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
 ---
 **Portable Network Graphics** (aka PNG) is an image file format
 developed to replace GIF images on the web. It uses lossless compression

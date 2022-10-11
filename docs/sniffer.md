@@ -64,7 +64,7 @@ with low IP TTL values (this TCP packet may not reach the destination
 host, but will be analysed by a network sniffer). This will break the
 resulting TCP stream.
 
-- [Encryption](encryption.md): [VPN](VPN "wikilink") tunnels,
+- [Encryption](encryption.md): [VPN](vpn.md) tunnels,
   SSH tunnels, [Tor](tor.md).
 
 <!-- -->

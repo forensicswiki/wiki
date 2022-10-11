@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Disk Image
 ---
 [QEMU](qemu.md)** files to
 store a disk image.

@@ -2,7 +2,7 @@
 tags:
   -  Computer Bus
   -  Hardware
-  -  Articles that need to expanded
+  -  Articles that need to be expanded
 ---
 A BUS is used to connect harddisks and other media's to the computer.
 The busses mainly differ in their operating conditions.

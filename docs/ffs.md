@@ -1,12 +1,16 @@
 ---
 tags:
   -  File Systems
+  -  OpenBSD
+  -  FreeBSD
+  -  NetBSD
+  -  Solaris
 ---
 **FFS** is one name given to the BSD **Fast File System**, also known as
 **UFS1** or **UFS2** (referring to different versions of the file
 system). Modern FFS implementations are used in many systems based on
 4.2BSD, 4.3BSD and 4.4BSD, including [FreeBSD](freebsd.md),
-[OpenBSD](openbsd.md), and [NetBSD](NetBSD "wikilink"). Variants
+[OpenBSD](openbsd.md), and [NetBSD](netbsd.md). Variants
 and derivative file systems are also in use on other platforms,
 including [Solaris](solaris.md). Many differences in terms of
 capabilities and metadata exist between these systems, and compatibility

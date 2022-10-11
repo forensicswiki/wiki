@@ -1,9 +1,10 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Anti-Forensics tools
-  -  Commercial
-  -  Tools 
+  -  Anti-Forensics 
+  -  Commercial Software
+  -  Tools
+  -  Windows 
 ---
 "Securely erases your computer and Internet history."
 
