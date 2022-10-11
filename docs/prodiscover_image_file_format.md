@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Forensics File Format 
+  -  File Format 
+  -  Disk Imaging
+  -  Windows
 ---
 [ProDiscover](prodiscover.md) uses its own imaging file format,
 which is well defined. It contains a header, a data header, the image

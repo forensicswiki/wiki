@@ -1,6 +1,14 @@
 ---
 tags:
   -  File Formats
+  -  Network Analysis
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  Articles that need to be expanded
 ---
 PCAP is a common term for a file containing data captured by a network
 sniffer. This format is used by such tools as tcpdump and wireshark.

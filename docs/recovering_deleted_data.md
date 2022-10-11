@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Data Recovery
+  -  Articles that need to be expanded 
 ---
 When the user requests to delete a file, most modern [operating
 systems](operating_system.md) do not erase the actual data.

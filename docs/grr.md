@@ -1,9 +1,11 @@
 ---
 tags:
-  -  Incident Response
-  -  Cross-platform
   -  Tools
-  -  APL
+  -  Opensource Software
+  -  Disk Analysis
+  -  Windows
+  -  Linux
+  -  MacOS
 ---
 GRR is an Incident Response Framework focused on Remote Live Forensics.
 

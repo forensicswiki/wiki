@@ -1,12 +1,14 @@
 ---
 tags:
   -  Libyal
-  -  Disk Imagining
-  -  LGPL
+  -  Disk Imaging
   -  Tools
+  -  Linux
+  -  Windows
+  -  MacOS
+  -  Opensource Software
 ---
-**Libewf** is a library to access the [Expert Witness Compression Format
-(ewf)](encase_image_file_format.md).
+**Libewf** is a library to access the [Expert Witness Compression Format (ewf)](encase_image_file_format.md).
 
 ## Features
 

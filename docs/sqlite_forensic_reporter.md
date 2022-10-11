@@ -1,8 +1,8 @@
 ---
 tags:
   -  Windows
-  -  Analysis
-  -  Commercial
+  -  Log Analysis
+  -  Commercial Software
   -  Tools 
 ---
 **SQLite Forensic Reporter** is a commercial

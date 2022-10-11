@@ -1,7 +1,8 @@
 ---
 tags:
-  -  APL
-  -  Analysis
+  -  Timeline Analysis
+  -  Linux
+  -  Opensource Software
   -  Tools 
 ---
 Timesketch is an open source tool for collaborative forensic timeline

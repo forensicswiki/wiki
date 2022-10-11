@@ -1,10 +1,10 @@
 ---
 tags:
-  - Tools
-  - Windows
-  - Incident Response
-  - LGPL
-  - Articles that need to be expanded 
+  -  Tools
+  -  Windows
+  -  Articles that need to be expanded 
+  -  System Analysis
+  -  Opensource Software
 ---
 ## Description
 
@@ -67,7 +67,7 @@ Contact: rapier.securitytool@gmail.com
 - System logs
 - AV logs
 - Copies of application caches (temporary internet files) –
-  [IE](internet_explorer.md), [FF](Mozilla_Firefox "wikilink"),
+  [IE](internet_explorer.md), [FF](mozilla_firefox.md),
   [Opera](opera.md)
 - Export entire registry
 - Search/retrieve files based on search criteria.

@@ -1,8 +1,12 @@
 ---
 tags:
-  -  Analysis
-  -  APL
+  -  Timeline Analysis
   -  Tools 
+  -  Opensource Software
+  -  Disk Analysis
+  -  Linux
+  -  MacOS
+  -  Windows 
 ---
 Plaso (plaso langar að safna öllu) is the Python based back-end engine
 used by tools such as log2timeline for automatic creation of a super

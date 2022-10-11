@@ -1,7 +1,9 @@
 ---
 tags:
   -  Network Forensics
-  -  Intrusion Detection
+  -  Tools
+  -  Linux
+  -  Opensource Software
 ---
 Snort® is an open source network intrusion prevention and detection
 system (IDS/IPS) developed by [Sourcefire](http://www.sourcefire.com/).
@@ -106,5 +108,5 @@ For more information and to download please visit
 [Build an IPS Virtual Appliance with
 Snort](https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/069/original/Snort-IPS-Tutorial.pdf)
 
-[Category:Network Forensics](category:network_forensics.md)
-[Category:Intrusion Detection](category:intrusion_detection.md)
+[Network Forensics](network_forensics.md)
+[Intrusion Detection](intrusion_detection.md)

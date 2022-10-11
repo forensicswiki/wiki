@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Anti-Forensics tools 
+  -  Anti-Forensics
+  -  File Analysis
   -  Articles that need to be expanded
 ---
 ![](timestomp_mace.jpg "timestomp_mace.jpg") **Timestomp** is a utility

@@ -1,8 +1,9 @@
 ---
 tags:
-  -  Deprecated tools 
+  -  Deprecated
   -  Windows
   -  Memory Imaging
+  -  Disk Imaging
   -  Tools
   -  Anti-Forensics
 ---

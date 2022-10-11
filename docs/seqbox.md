@@ -1,6 +1,7 @@
 ---
 tags:
   -  File Formats
+  -  Archive
 ---
 SeqBox (SBX) is a single file container/archive that can be
 reconstructed even after total loss of file system structures.

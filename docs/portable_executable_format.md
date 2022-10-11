@@ -11,13 +11,11 @@ Interface (MUI) strings and EventLog messages.
 ## See Also
 
 - [Windows Event Log (evt)](windows_event_log_(evt).md)
-- [Windows XML Event Log
-  (evtx)](windows_xml_event_log_(evtx).md)
+- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 
 ## External Links
 
-- [Wikipedia: Portable
-  Executable](http://en.wikipedia.org/wiki/Portable_Executable)
+- [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
 - [PE and COFF
   Specification](http://msdn.microsoft.com/en-us/library/windows/hardware/gg463119.aspx),
   by [Microsoft](microsoft.md)

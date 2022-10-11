@@ -1,8 +1,9 @@
 ---
 tags:
   -  Libyal
-  -  APL
   -  Tools
+  -  Opensource Software
+  -  File Analysis
 ---
 The **libyal** project contains an
 [overview](https://github.com/libyal/libyal/wiki/Overview) of various
@@ -30,6 +31,5 @@ Libyal was created by [Joachim Metz](joachim_metz.md) in 2012.
 ## External Links
 
 - [Project site](https://github.com/libyal/libyal/)
-- [History of the libyal projects and related
-  publications](https://github.com/libyal/libyal/wiki/History)
+- [History of the libyal projects and related publications](https://github.com/libyal/libyal/wiki/History)
 

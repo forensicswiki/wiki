@@ -2,9 +2,10 @@
 tags:
   -  Linux
   -  Windows
-  -  Mac OS X
-  -  GPL
+  -  MacOS
   -  Tools 
+  -  Opensource Software
+  -  Data Recovery
 ---
 **Scalpel** is an [open source](open_source.md) program for
 [recovering deleted data](recovering_deleted_data.md) originally

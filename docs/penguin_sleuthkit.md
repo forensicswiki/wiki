@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Deprecated tools
+  -  Deprecated 
   -  Articles that need to be expanded
   -  Linux
   -  Live CD
-  -  GPL
   -  Tools 
+  -  Opensource Softwre
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) that includes
 SleuthKit.

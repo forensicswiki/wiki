@@ -1,9 +1,10 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Analysis
-  -  Commercial
+  -  Disk Analysis
+  -  Commercial Software
   -  Tools 
+  -  Windows
 ---
 [ProDiscover](prodiscover.md) is a commercial forensic
 [tool](tools.md) made by [Technology

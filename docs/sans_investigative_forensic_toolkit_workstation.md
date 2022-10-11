@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  Windows
   -  MacOS
-  -  Analysis
+  -  Disk Analysis
 ---
 **The SANS SIFT Workstation** is a [VMware](vmware.md) Appliance
 that is preconfigured with all the necessary tools to perform a forensic

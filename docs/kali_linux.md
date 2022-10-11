@@ -2,8 +2,9 @@
 tags:
   -  Network Forensics
   -  Tools
-  -  Operating Systems
   -  Linux
+  -  Live CD
+  -  Disk Analysis
 ---
 ## About
 

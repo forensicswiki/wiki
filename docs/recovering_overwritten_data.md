@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Data Recovery
+  -  Articles that need to be expanded 
 ---
 Can data be recovered from a hard drive after that data has been written
 by 35 passes of random information? How about a single pass of zeros?

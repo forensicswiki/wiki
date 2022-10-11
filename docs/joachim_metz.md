@@ -2,8 +2,7 @@
 tags:
   -  People
 ---
-![](Joachim_Metz.jpeg "Joachim_Metz.jpeg")
-
+<img src="assets/images/Joachim_Metz.jpeg" align="right">
 Joachim Metz is a Digital researcher, IT/IS specialist.
 
 In 2006 he started working in the field of computer forensics as a
@@ -36,9 +35,9 @@ PCTOOLS.
 *Marketing alert*
 
 Some of his recent work are file format libraries like:
-[libewf](libewf.md), [liblnk](liblnk "wikilink"),
-[libmsiecf](libmsiecf.md), [libnk2](libnk2 "wikilink"),
-[libpff](libpff.md) and [libesedb](libesedb "wikilink") and the
+[libewf](libewf.md), [liblnk](liblnk.md),
+[libmsiecf](libmsiecf.md), [libnk2](libnk2.md),
+[libpff](libpff.md) and [libesedb](libesedb.md) and the
 proof-of-concept carving tool called
 [revit](reviveit_(revit).md), which keeps surprising him because
 of its versatile application even in recovering NTFS-compressed files.

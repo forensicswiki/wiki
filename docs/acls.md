@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to expanded
+  -  Articles that need to be expanded
   -  Windows
   -  Linux
   -  MacOS

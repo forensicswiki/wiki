@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Deprecated tool
+  -  Deprecated 
   -  Tools
-  -  Analysis
+  -  File Analysis
   -  Windows
   -  Articles that need to be expanded 
 ---

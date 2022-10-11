@@ -1,6 +1,7 @@
 ---
 tags:
   -  Windows
+  -  Articles that need to be expanded
 ---
 System Center Configuration Manager (SCCM) is a systems management
 software product developed by Microsoft. SCCM was formerly known as

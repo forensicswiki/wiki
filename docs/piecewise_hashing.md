@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
+  -  Hashing 
 ---
 **Piecewise hashing** is a [hashing](hashing.md) technique to
 divide an input into chunks and hash each chunk separately. It was
@@ -13,10 +14,9 @@ used to prove their integrity.
 
 ## References
 
-- [md5deep](md5deep.md), [hashdeep](hashdeep "wikilink"), etc.
+- [md5deep](md5deep.md), [hashdeep](hashdeep.md), etc.
 - [dcfldd](dcfldd.md)
 
 ## See Also
 
-- [Context Triggered Piecewise
-  Hashing](context_triggered_piecewise_hashing.md)
+- [Context Triggered Piecewise Hashing](context_triggered_piecewise_hashing.md)
