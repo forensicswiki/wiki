@@ -1,10 +1,8 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
+  -  Articles that need to be expanded
 ---
 ## External Links
 
 - [Official website](http://www.opp.ca/)
-
-[Category:Organizations](category:organizations.md)
-[Category:Law enforcement

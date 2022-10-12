@@ -1,6 +1,9 @@
 ---
 tags:
   -  Howtos
+  -  Windows
+  -  Logs Analysis
+  -  Artifact Analysis
 ---
 Microsoft [Windows](windows.md) operating systems records
 artifacts when [USB](usb.md) removable storage devices (thumb

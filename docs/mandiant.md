@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
+  -  Articles that need to be expanded
 ---
 ## List of Mandiant Products
 
@@ -12,5 +13,3 @@ tags:
 ## External Links
 
 [Official website](http://www.mandiant.com)
-
-[Category:Organizations](category:organizations.md)

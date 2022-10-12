@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
+  -  Articles that need to be expanded
 ---
 WetStone Technologies sells products and training for computer
 forensics. These products include:
@@ -25,5 +26,3 @@ Their training courses include:
 ## External Links
 
 - [Official Website](http://www.wetstonetech.com/)
-
-[Organizations](organizations.md)

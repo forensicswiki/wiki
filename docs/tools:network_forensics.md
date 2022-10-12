@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Network Forensics
+  -  Tools 
 ---
 # Network Forensics Packages and Appliances
 
@@ -51,7 +52,7 @@ Instrusion Detection System, includes session reconstruction.
 
 <!-- -->
 
-[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9 "wikilink")
+[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9.md)
 <http://www.mantaro.com/products/MNIS/collector.htm>
 
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
@@ -88,7 +89,7 @@ APIs.
 
 <!-- -->
 
-[netflow](netflow.md)/[flowtools](flowtools "wikilink")
+[netflow](netflow.md)/[flowtools](flowtools.md)
 <http://www.cisco.com/warp/public/732/Tech/nmp/netflow/index.shtml>
 
 <http://www.splintered.net/sw/flow-tools/>
@@ -185,7 +186,7 @@ professionals
 
 <!-- -->
 
-[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9 "wikilink")
+[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9.md)
 <http://www.mantaro.com/products/MNIS/collector.htm>
 
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
@@ -296,7 +297,7 @@ Linux/open-source. Based in India.
 
 <!-- -->
 
-[OmniPeek](omnipeek.md) by [WildPackets](WildPackets "wikilink")
+[OmniPeek](omnipeek.md) by [WildPackets](wildpackets.md)
 <http://www.wildpackets.com/solutions/network_forensics>
 
 <http://www.wildpackets.com/products/network_analysis/omnipeek_network_analyzer/forensics_search>

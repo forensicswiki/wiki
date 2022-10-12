@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 *SysTools Software*, is an application development firm headquartered in
 Pune and operated from the capital city with prime concentration in data

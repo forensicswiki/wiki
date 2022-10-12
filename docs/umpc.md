@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded 
 ---
 UMPC (Ultra-Mobile-PC) is a specification for a smaller version of
 tablet PC. Major uses for the device are Internet access and media

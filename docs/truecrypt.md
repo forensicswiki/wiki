@@ -1,15 +1,21 @@
 ---
 tags:
   -  Encryption
+  -  Anti-Forensics
+  -  Disk Encryption
+  -  Opensource Software
+  -  Windows
+  -  MacOS
+  -  Linux
 ---
 **TrueCrypt** is an open source program to create and mount virtual
 encrypted disks in [Windows Vista/XP/2000](windows.md) and
-[Linux](linux.md) and [OS X](Mac_OS_X "wikilink") as well as
+[Linux](linux.md) and [OS X](mac_os_x.md") as well as
 [Whole Disk Encryption](whole_disk_encryption.md) on Windows. It
 provides two levels of plausible deniability (hidden values / no
 signatures to make a distinction from random data), on the fly
 encryption and supports [AES](aes.md),
-[Serpent](serpent.md) and [Twofish](Twofish "wikilink"). As of
+[Serpent](serpent.md) and [Twofish](twofish.md). As of
 version 6.0 TrueCrypt now supports hidden Operating Systems under
 Windows only.
 
@@ -86,5 +92,3 @@ timestamps](tcp_timestamps.md).
 - [Identifying TrueCrypt Volumes For Fun (and
   Profit?)](http://brimorlabs.blogspot.com/2014/01/identifying-truecrypt-volumes-for-fun.html),
   by [Brian Moran](brian_moran.md), January 20, 2014
-
-[Category:Encryption](category:encryption.md) [Category:Disk

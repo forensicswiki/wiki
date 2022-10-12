@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
   -  Articles that need to be expanded
 ---
 <img align="right" src="assets/images/400px-SANS.jpeg">

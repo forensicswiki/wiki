@@ -1,6 +1,8 @@
 ---
 tags:
-  -  Vendors
+  -  Organization
+  -  Disk Imaging
+  -  Articles that need to be expanded 
 ---
 <http://www.wiebetech.com/>
 

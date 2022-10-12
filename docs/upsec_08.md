@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Research 
+  -  Articles that need to be expanded
 ---
 CALL FOR PAPERS
 

@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Articles that need to be expanded  
 ---
 The **UFS3-Tornado** (**U**niversal **F**lasher **Software**) is a USB
 flasher device made by \[SarasSoft\]. It offers USB data transfer from a

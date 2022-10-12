@@ -1,6 +1,12 @@
 ---
 tags:
   -  Network Forensics
+  -  Tools
+  -  FreeBSD
+  -  Linux
+  -  Windows
+  -  Solaris
+  -  NetBSD
 ---
 **TCP timestamps** are used to provide protection against wrapped
 sequence numbers. It is possible to calculate system uptime (and boot

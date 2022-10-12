@@ -1,6 +1,7 @@
 ---
 tags:
   -  Memory Analysis
+  -  Articles that need to be expanded
 ---
 Virtualization Memory Analysis can be seen as the analysis of virtual
 machines from the memory of the host system.

@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Memory Analysis 
+  -  Tools 
+  -  Articles that need to be expanded
 ---
 The following tools can be used to conduct memory analysis.
 

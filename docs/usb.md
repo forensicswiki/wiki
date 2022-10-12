@@ -1,6 +1,7 @@
 ---
 tags:
   -  Computer Bus
+  -  Hardware
 ---
 USB is an acronym for the *Universal Serial Bus*, a method for attaching
 a wide variety of devices to a host system. USB provides for hot-swap of
@@ -32,5 +33,3 @@ Linux
 - [usbmon](usbmon.md)
 - Turn on [usbfs_snoop](usbfs_snoop.md) and monitor syslog and
   the kernel buffer ring.
-
-[Category:Computer Bus](category:computer_bus.md)

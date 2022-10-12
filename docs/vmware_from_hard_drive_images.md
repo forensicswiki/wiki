@@ -1,6 +1,8 @@
 ---
 tags:
   -  Howtos
+  -  Virtual Disk
+  -  Disk Analysis
 ---
 ## Creating virtual machines from forensic images
 

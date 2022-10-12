@@ -1,6 +1,9 @@
 ---
 tags:
   -  Articles that need to be expanded 
+  -  Tools
+  -  Windows
+  -  Artifact Analysis
 ---
 Web Historian is a free tool from [Mandiant](mandiant.md) to
 parse the web browser history files from [Internet

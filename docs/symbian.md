@@ -1,14 +1,14 @@
 ---
 tags:
-  - No Category
+  -  Mobile Operating Systems 
 ---
 **Symbian** is an open operating system, designed for mobile devices,
 with associated libraries, user interface frameworks and reference
 implementations of common tools, produced by Symbian Ltd. Symbian
-evolved from [Psion](psion.md)'s [EPOC](EPOC "wikilink") in
+evolved from [Psion](psion.md)'s [EPOC](epoch.md) in
 1998. Symbian OS is currently owned by [BenQ](benq.md),
-[Ericsson](ericsson.md), [Panasonic](Panasonic "wikilink"),
-[Nokia](nokia.md), [Siemens AG](Siemens_AG "wikilink") and [Sony
+[Ericsson](ericsson.md), [Panasonic](panasonic.md),
+[Nokia](nokia.md), [Siemens AG](siemens_ag.md) and [Sony
 Ericsson](sony_ericsson.md). ![](Symbian.png "Symbian.png")
 
 ## Versions
@@ -43,7 +43,7 @@ keyboards.
 ### Quartz
 
 Quartz is a DFRD for a pen-based phone similar to the
-[Palm](palm.md) [PDAs](PDAs "wikilink"). Hardware platforms do
+[Palm](palm.md) [PDAs](pdas.md). Hardware platforms do
 not include keyboards, and the relatively large displays are
 portrait-oriented (vertical). Quartz devices are designed for consumer
 users and are geared toward information gathering.

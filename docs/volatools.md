@@ -1,6 +1,6 @@
 ---
 tags:
-  - Volatools official website 
+  -  Articles that need to be expanded
 ---
 The Volatools suite is a set of tools by [Komoku](komoku.md) for
 conducting [memory analysis](windows_memory_analysis.md). The
@@ -14,7 +14,7 @@ require the [Pykvm](pykvm.md) library that is only available for
 
 ## License
 
-The Volatools are licensed under the [GPL](:category:gpl.md).
+The Volatools are licensed under the [GPL](gpl.md).
 Some of the functionality for these tools is contained in a closed
 source library called [Pykvm](pykvm.md).
 
@@ -26,3 +26,4 @@ The professional version and an acquisition product, **Komoku
 Acquisition Suite** are scheduled to be released in 2007.
 
 ## External Links
+[Volatools official website](http://komoku.com/forensics/forensics.html)

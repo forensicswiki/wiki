@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Organizations
-  -  Law Enforcement agencies
+  -  Organization
   -  Articles that need to be expanded
 ---
 The **Computer Crime and Intellectual Property Section** of the **United

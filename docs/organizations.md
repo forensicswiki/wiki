@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
 ---
 # International Organisations
 

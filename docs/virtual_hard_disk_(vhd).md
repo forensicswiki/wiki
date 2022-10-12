@@ -1,7 +1,11 @@
 ---
 tags:
   -  File Formats
+  -  Virutal Disk
   -  Articles that need to be expanded
+  -  Windows
+  -  Linux
+  -  MacOS
 ---
 The Virtual Hard Disk (VHD) commonly uses the .vhd extension.
 

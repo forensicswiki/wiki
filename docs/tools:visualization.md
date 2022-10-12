@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Log Analysis 
 ---
 Although not strictly for forensic purposes, **visualization tools**
 such as the ones discussed here can be very useful for visualizing large
@@ -107,11 +108,11 @@ Panda#D
   Gorup](http://public.research.att.com/areas/visualization/), designed
   for drawing connected graphs of nodes and edges. Neato is a similar
   system but does layout based on a spring model. Can produce output as
-  [PostScript](postscript.md), [PNG](PNG "wikilink"),
+  [PostScript](postscript.md), [PNG](png.md),
   [GIF](gif.md), or as an annotated graph file with the
   locations of all of the objects — ideal for drawing in a GUI. Runs
   from the command line on [Unix](unix.md),
-  [Windows](windows.md) and [Mac](Mac "wikilink"), although
+  [Windows](windows.md) and [Mac](mac_os_x.md), although
   there is also a [MacOS GUI
   version](http://www.pixelglow.com/graphviz/).
 - [NodeXL](http://www.codeplex.com/nodexl) - Free/open excel add-in
@@ -157,8 +158,8 @@ Reas govisual diagram editor reas.com gdf.net
 
 - [aiSee Graph Layout Software](http://www.aisee.com/) - Supports 15
   layout algorithms, recursive graph nesting, and easy printing. Runs on
-  [Windows](windows.md), [Linux](Linux "wikilink"),
-  [Solaris](solaris.md), [NetBSD](NetBSD "wikilink"), and
+  [Windows](windows.md), [Linux](linux.md),
+  [Solaris](solaris.md), [NetBSD](netbsd.md), and
   [MacOS](macos.md). 30-day trial and free registered versions
   available. Academic pricing available.
 - [Geomantics](http://www.geomantics.com/) - Geographical, Visualization

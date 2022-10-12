@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Anti-Forensics 
+  -  Anti-Forensics
+  -  Secure Deletion
   -  Articles that need to be expanded
 ---
 Verb - The permanent and complete destruction of digital media contents,

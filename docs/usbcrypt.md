@@ -10,9 +10,9 @@ to encrypt external USB drives. (However, the encryption is not limited
 to the external drives or to the USB connection: any drive that is
 recognized by Windows as a valid drive with read-write access can be
 encrypted with USBCrypt.) USBCrypt software is [Windows 7, Vista, XP,
-2000](windows.md)-only. It supports [AES](AES "wikilink"), and
+2000](windows.md)-only. It supports [AES](aes.md), and
 [Twofish](twofish.md) encryption with the 128- and 256-bit keys,
-in the [XTS](xts.md) and [CBC](CBC "wikilink") encryption modes.
+in the [XTS](xts.md) and [CBC](cbc.md) encryption modes.
 
 ## Recognizing drives encrypted with USBCrypt
 

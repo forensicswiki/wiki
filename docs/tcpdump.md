@@ -4,7 +4,7 @@ tags:
 ---
 **tcpdump** is a common packet [sniffer](sniffer.md) for
 [Unix](unix.md)-like operating systems
-([linux](linux.md), [BSD](BSD "wikilink"), etc).
+([linux](linux.md), [BSD](bsd.md), etc).
 
 ## Overview
 
@@ -80,5 +80,3 @@ basic packet capture with tcpdump:
 ## External Links
 
 - [WinDump - tcpdump for Windows](http://www.winpcap.org/windump/)
-
-[Category:Network Forensics](category:network_forensics.md)

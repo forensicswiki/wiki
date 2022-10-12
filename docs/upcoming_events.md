@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Research 
 ---
 <b>PLEASE READ BEFORE YOU EDIT THE LISTS BELOW</b>
 When events begin the same day, events of a longer length should be

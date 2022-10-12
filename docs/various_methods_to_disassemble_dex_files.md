@@ -1,6 +1,9 @@
 ---
 tags:
   -  Howtos
+  -  Android
+  -  Reversing
+  -  Disassembly
 ---
 This how-to documents various methods and tools in disassembling DEX
 files for the Android OS. An example "Hello Android"

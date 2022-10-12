@@ -213,4 +213,4 @@ client. eMule Reader is available free of charge.
 [P2P Marshal](p2pmarshal.md)
 Tools to discover and analyze peer-to-peer files for Windows.
 
-## [NDA](nda.md) and [scoped distribution](scoped_distribution "wikilink") tools
+## [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools

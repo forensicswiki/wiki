@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organizations 
+  -  Organization 
   -  Articles that need to be expanded
 ---
 Apple Inc. is a US based, international technology company, based in

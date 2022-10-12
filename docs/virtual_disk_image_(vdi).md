@@ -1,7 +1,11 @@
 ---
 tags:
   -  File Formats
+  -  Virtual Disk
   -  Articles that need to be expanded
+  -  Windows
+  -  Linux
+  -  MacOS
 ---
 ## Image structure
 

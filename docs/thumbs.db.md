@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Database
+  -  Windows
 ---
 Thumbs.db is a file created by [Windows](windows.md) when
 [thumbnail](thumbnails.md) view is used. It is a hidden file not

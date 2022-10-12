@@ -1,7 +1,11 @@
 ---
 tags:
-  -  Applications
   -  Anti Virus
+  -  Tools
+  -  Articles that need to be expanded
+  -  Windows
+  -  Commercial Software
+  -  System Monitoring
 ---
 ## External Links
 

@@ -1,6 +1,7 @@
 ---
 tags:
   -  Tools
+  -  Memory Imaging
 ---
 ## Memory Imaging Tools
 
@@ -98,7 +99,7 @@ available at <http://www.windowsscope.com> and Android market
 allows live memory analysis of Windows computers from Android phones and
 tablets
 
-launched in 2011
+launched in 2011International Organisations
 
 <!-- -->
 
@@ -109,7 +110,7 @@ included on [Helix 2.0](http://www.e-fense.com/helix/)
 
 <!-- -->
 
-[Mdd](mdd.md) ([ManTech](ManTech "wikilink"))
+[Mdd](mdd.md) ([ManTech](mantech.md))
 <http://sourceforge.net/projects/mdd>
 
 <!-- -->
@@ -127,7 +128,7 @@ from other tools.
 
 <!-- -->
 
-[Moonsols](moonsols.md): [DumpIt](DumpIt "wikilink")
+[Moonsols](moonsols.md): [DumpIt](dumpit.md)
 This utility is used to generate a physical memory dump of Windows
 machines. It works with both x86 (32-bits) and x64 (64-bits) machines.
 
