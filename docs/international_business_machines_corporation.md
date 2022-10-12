@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded
+  -  Organization 
 ---
 **International Business Machines Corporation** (**IBM**) is a computer
 hardware and software vendor.

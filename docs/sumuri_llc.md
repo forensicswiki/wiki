@@ -1,8 +1,6 @@
 ---
 tags:
-  -  Vendors
-  -  Hardware Vendors
-  -  Software Vendors
+  -  Organization
 ---
 **SUMURI, LLC** is a company that develops advanced forensic
 investigation software and hardware. Stylized as "SUMURI", the company

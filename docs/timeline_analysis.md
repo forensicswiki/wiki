@@ -1,7 +1,8 @@
 ---
 tags:
   -  Tools
-  -  Bibliographies
+  -  Research
+  -  Papers 
 ---
 ## Timeline formats
 

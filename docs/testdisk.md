@@ -1,6 +1,14 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Data Recovery
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  Solaris
+  -  FreeBSD
+  -  NetBSD
+  -  OpenBSD 
 ---
 **TestDisk** is a free software data recovery utility licensed under the
 terms of the GNU General Public License (GPL). It was primarily designed
@@ -38,10 +46,10 @@ recovery.
 ## Supported operating systems
 
 - [DOS](dos.md);
-- [Microsoft](microsoft.md) [Windows](Windows "wikilink") (NT4,
+- [Microsoft](microsoft.md) [Windows](windows.md) (NT4,
   2000, XP, 2003, Vista);
 - [Linux](linux.md);
-- [FreeBSD](freebsd.md), [NetBSD](NetBSD "wikilink"),
+- [FreeBSD](freebsd.md), [NetBSD](netbsd.md ),
   [OpenBSD](openbsd.md);
 - SunOS and
 - [Mac OS X](mac_os_x.md)
@@ -52,13 +60,13 @@ TestDisk can find lost partitions of the following file systems:
 
 - Be File System (BeOS)
 - BSD disklabel
-  ([FreeBSD](freebsd.md)/[OpenBSD](openbsd.md)/[NetBSD](NetBSD "wikilink"))
+  ([FreeBSD](freebsd.md)/[OpenBSD](openbsd.md)/[NetBSD](netbsd.md)
 - [Cramfs](cramfs.md), Compressed File System
 - DOS/Windows [FAT](fat.md) 12, 16, and 32
 - [HFS](hfs.md), [HFS+](hfs+.md) and
   [HFSX](hfs+.md), Hierarchical File System
 - IBM Journaled File System 2 (JFS2), IBM's Journaled File System
-- [Linux](linux.md) [ext2](ext2 "wikilink") and
+- [Linux](linux.md) [ext2](ext2.md) and
   [ext3](ext3.md)
 - [Linux](linux.md) RAID
   - RAID 1: mirroring
@@ -71,7 +79,7 @@ TestDisk can find lost partitions of the following file systems:
   Volume Manager](linux_logical_volume_manager_(lvm).md)
 - Mac partition map
 - Novell Storage Services (NSS)
-- [NTFS](ntfs.md) ([Windows](Windows "wikilink")
+- [NTFS](ntfs.md) ([Windows](windows.md)
   NT/2000/XP/2003/Vista/2008)
 - [ReiserFS](reiserfs.md) 3.5, 3.6 and 4
 - Sun Solaris i386 disklabel

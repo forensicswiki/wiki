@@ -1,6 +1,13 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  Disk Analysis
+  -  Data Carving
+  -  Data Recovery 
+  -  Opensource Software
 ---
 **The Sleuth Kit** (**TSK**) is a collection of
 [UNIX](unix.md)-based command line tools that allow you to
@@ -63,7 +70,7 @@ Information about an inode number.
 
 - [NTFS](ntfs.md)
 - [FAT](fat.md)
-- [Ext2](ext2.md), [Ext3](Ext3 "wikilink"),
+- [Ext2](ext2.md), [Ext3](ext3.md),
   [Ext4](ext4.md)
 - [UFS](ufs.md)
 - ISO 9660
@@ -97,7 +104,7 @@ Note that there are numerous known issues with the
 
 ## Hash Databases
 
-- Uses [MD5](md5.md) or [SHA-1](SHA-1 "wikilink").
+- Uses [MD5](md5.md) or [SHA-1](sha-1.md).
 - Interfaces with NIST [NSRL](nsrl.md),
   [Hashkeeper](hashkeeper.md) and customer databases.
 

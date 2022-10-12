@@ -1,6 +1,12 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Windows
+  -  Linux
+  -  MacOS
+  -  Artifact Analysis
+  -  Opensource Software
+  -  Articles that need to be expanded 
 ---
 **Vinetto** is a forensics tool to examine
 [Thumbs.db](thumbs.db.md) files. It is a command line Python

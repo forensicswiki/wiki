@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Research
+  -  Training 
 ---
 This is the list of Training Providers, who offer training courses of
 interest to practitioners and researchers in the field of Digital

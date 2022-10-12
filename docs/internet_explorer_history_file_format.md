@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Windows
+  -  Data Files
 ---
 [Microsoft](microsoft.md) [Internet
 Explorer](internet_explorer.md) stores its web

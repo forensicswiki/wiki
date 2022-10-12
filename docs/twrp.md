@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Android
+  -  Data Recovery
+  -  Howtos 
+  -  Articles that need to be expanded
 ---
 # TWRP (Team Win Recovery Project)
 

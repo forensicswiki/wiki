@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Disk Imaging
-  -  Secure deletion
+  -  Tools 
 ---
 This is an **overview of available tools** for forensic
 [investigators](investigator.md). Please click on the name of
@@ -9,7 +8,7 @@ any tool for more details.
 
 **Note: This page has gotten too big and is being broken up. See:**
 
-- [:Category:Disk Imaging](:category:disk_imaging.md)
+- [Disk Imaging](disk_imaging.md)
 - [Tools:Data Recovery](tools:data_recovery.md) (including file
   [carving](carving.md)
 - [Tools:File Analysis](tools:file_analysis.md)
@@ -27,27 +26,27 @@ any tool for more details.
 
 ## Hard Drive Firmware and Diagnostics Tools
 
-[PC-3000](pc-3000.md) from [ACE Lab](ACE_Lab "wikilink")
+[PC-3000](pc-3000.md) from [ACE Lab](ace_lab.md)
 <http://www.acelaboratory.com/catalog/>
 
 ## Linux-based Tools
 
-[LINReS](linres.md) by [NII Consulting Pvt. Ltd.](NII_Consulting_Pvt._Ltd. "wikilink")
+[LINReS](linres.md) by [NII Consulting Pvt. Ltd.](NII_Consulting_Pvt._Ltd.md)
 <http://www.niiconsulting.com/innovation/linres.html>
 
 <!-- -->
 
-[SMART](smart.md) by [ASR Data](ASR_Data "wikilink")
+[SMART](smart.md) by [ASR Data](asr_data.md)
 <http://www.asrdata.com>
 
 <!-- -->
 
-[Second Look: Linux Memory Forensics](second_look:_linux_memory_forensics.md) by [Pikewerks Corporation](Pikewerks_Corporation "wikilink")
+[Second Look: Linux Memory Forensics](second_look:_linux_memory_forensics.md) by [Pikewerks Corporation](pikewerks_corporation.md)
 <http://secondlookforensics.com/>
 
 ## Macintosh-based Tools
 
-[Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md) by [Elcomsoft](Elcomsoft "wikilink")
+[Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/emfb.html>
 
 The Bundle includes macOS editions of Elcomsoft forensic tools for
@@ -55,22 +54,22 @@ mobile and cloud data extraction.
 
 <!-- -->
 
-[Macintosh Forensic Software](macintosh_forensic_software.md) by [BlackBag Technologies, Inc.](BlackBag_Technologies,_Inc. "wikilink")
+[Macintosh Forensic Software](macintosh_forensic_software.md) by [BlackBag Technologies, Inc.](blackbag_technologies_inc.md)
 <http://www.blackbagtech.com/software_mfs.html>
 
 <!-- -->
 
-[MacForensicsLab](macforensicslab.md) by [Subrosasoft](Subrosasoft "wikilink")
+[MacForensicsLab](macforensicslab.md) by [Subrosasoft](subrosasoft.md)
 [MacForensicLab-Subrosasoft](http://www.subrosasoft.com/OSXSoftware/index.php?main_page=product_info&cPath=39&products_id=114)
 
 <!-- -->
 
-[Mac Marshal](mac_marshal.md) by [ATC-NY](ATC-NY "wikilink")
+[Mac Marshal](mac_marshal.md) by [ATC-NY](ATC-NY.md)
 <http://www.macmarshal.com/>
 
 <!-- -->
 
-[Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](Sumuri,_LLC "wikilink")
+[Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
 <https://www.sumuri.com/products/recon/>
 
 ## Windows-based Tools
@@ -108,12 +107,12 @@ etc) and reporting.
 
 <!-- -->
 
-[BringBack](bringback.md) by [Tech Assist, Inc.](Tech_Assist,_Inc. "wikilink")
+[BringBack](bringback.md) by [Tech Assist, Inc.](tech_assist.md)
 <http://www.toolsthatwork.com/bringback.htm>
 
 <!-- -->
 
-[CD/DVD Inspector](cd/dvd_inspector.md) by [InfinaDyne](InfinaDyne "wikilink")
+[CD/DVD Inspector](cd/dvd_inspector.md) by [InfinaDyne](infinadyne.md)
 <http://www.infinadyne.com/cddvd_inspector.html>
 This is the only forensic-qualified tool for examinination of optical
 media. It has been around since 1999 and is in use by law enforcement,
@@ -121,12 +120,12 @@ government and data recovery companies worldwide.
 
 <!-- -->
 
-[EMail Detective - Forensic Software Tool](email_detective_-_forensic_software_tool.md) by [Hot Pepper Technology, Inc](Hot_Pepper_Technology,_Inc "wikilink")
+[EMail Detective - Forensic Software Tool](email_detective_-_forensic_software_tool.md) by [Hot Pepper Technology, Inc](hot_pepper_technology%2C_inc.md)
 <http://www.hotpepperinc.com/emd>
 
 <!-- -->
 
-[Elcomsoft Desktop Forensic Bundle](elcomsoft_desktop_forensic_bundle.md) by [Elcomsoft](Elcomsoft "wikilink")
+[Elcomsoft Desktop Forensic Bundle](elcomsoft_desktop_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/edfb.html>
 
 All password recovery tools for unlocking documents, decrypting archives
@@ -134,7 +133,7 @@ and crypto containers.
 
 <!-- -->
 
-[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](Elcomsoft "wikilink")
+[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/epfb.html>
 
 A pack of every forensic tool of Elcomsoft for data extraction from
@@ -143,7 +142,7 @@ encrypted containers, viewing and analyzing evidence.
 
 <!-- -->
 
-[EnCase](encase.md) by [Guidance Software](Guidance_Software "wikilink")
+[EnCase](encase.md) by [Guidance Software](guidance_software.md)
 <http://www.guidancesoftware.com/>
 
 <!-- -->
@@ -156,12 +155,12 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[Forensic Explorer](forensic_explorer.md) ([FEX](FEX "wikilink")) by [GetData Forensics](GetData_Forensics "wikilink")
+[Forensic Explorer](forensic_explorer.md) ([FEX](fex.md)) by [GetData Forensics](getData_forensics.md)
 <http://www.forensicexplorer.com>
 
 <!-- -->
 
-[Forensic Toolkit](forensic_toolkit.md) ([FTK](FTK "wikilink")) by [AccessData](AccessData "wikilink")
+[Forensic Toolkit](forensic_toolkit.md) ([FTK](ftk.md)) by [AccessData](accessdata.md)
 <http://www.accessdata.com/products/ftk/>
 
 <!-- -->
@@ -171,57 +170,57 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[ILook Investigator](ilook_investigator.md) by [Elliot Spencer](Elliot_Spencer "wikilink") and [U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](Internal_Revenue_Service "wikilink") (IRS)
+[ILook Investigator](ilook_investigator.md) by [Elliot Spencer](elliot_spencer.md) and [U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](internal_revenue_service.md) (IRS)
 <http://www.ilook-forensics.org/>
 
 <!-- -->
 
-[Internet Evidence Finder](internet_evidence_finder.md) ([IEF](IEF "wikilink")) by [Magnet Forensics](Magnet_Forensics "wikilink")
+[Internet Evidence Finder](internet_evidence_finder.md) ([IEF](ief.md)) by [Magnet Forensics](magnet_forensics.md)
 <http://www.magnetforensics.com/>
 
 <!-- -->
 
-[Mercury Indexer](mercury_indexer.md) by [MicroForensics, Inc.](MicroForensics,_Inc. "wikilink")
+[Mercury Indexer](mercury_indexer.md) by [MicroForensics, Inc.](microForensics_inc.md)
 <http://www.MicroForensics.com/>
 
 <!-- -->
 
-[Nuix Desktop](nuix_desktop.md) by [Nuix Pty Ltd](Nuix_Pty_Ltd "wikilink")
+[Nuix Desktop](nuix_desktop.md) by [Nuix Pty Ltd](nuix_pty_ltd.md)
 <http://www.nuix.com>
 
 <!-- -->
 
-[OnLineDFS](onlinedfs.md) by [Cyber Security Technologies](Cyber_Security_Technologies "wikilink")
+[OnLineDFS](onlinedfs.md) by [Cyber Security Technologies](Cyber_Security_Technologies.md)
 <http://www.cyberstc.com/>
 
 <!-- -->
 
-[OSForensics](osforensics.md) by [PassMark Software Pty Ltd](PassMark_Software_Pty_Ltd "wikilink")
+[OSForensics](osforensics.md) by [PassMark Software Pty Ltd](PassMark_Software_Pty_Ltd.md)
 <http://www.osforensics.com/>
 
 <!-- -->
 
-[P2 Power Pack](p2_power_pack.md) by [Paraben](Paraben "wikilink")
+[P2 Power Pack](p2_power_pack.md) by [Paraben](paraben.md)
 <https://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=187>
 
 <!-- -->
 
-[Prodiscover](prodiscover.md) by [Techpathways](Techpathways "wikilink")
+[Prodiscover](prodiscover.md) by [Techpathways](techpathways.md)
 <http://www.techpathways.com/ProDiscoverWindows.htm>
 
 <!-- -->
 
-[Proof Finder](proof_finder.md) by [Nuix Pty Ltd](Nuix_Pty_Ltd "wikilink")
+[Proof Finder](proof_finder.md) by [Nuix Pty Ltd](nuix_pty_ltd.md)
 <http://www.prooffinder.com/>
 
 <!-- -->
 
-[Safeback](safeback.md) by [NTI](NTI "wikilink") and [Armor Forensics](Armor_Forensics "wikilink")
+[Safeback](safeback.md) by [NTI](nti.md) and [Armor Forensics](armor_forensics.md)
 <http://www.forensics-intl.com/safeback.html>
 
 <!-- -->
 
-[X-Ways Forensics](x-ways_forensics.md) by [X-Ways AG](X-Ways_AG "wikilink")
+[X-Ways Forensics](x-ways_forensics.md) by [X-Ways AG](x-ways_ag.md)
 <http://www.x-ways.net/forensics/index-m.html>
 
 <!-- -->
@@ -287,7 +286,7 @@ tablets.
 
 <!-- -->
 
-[MailXaminer](mailxaminer.md) by [SysTools](SysTools "wikilink")
+[MailXaminer](mailxaminer.md) by [SysTools](systools.md)
 <http://www.mailxaminer.com/>
 
 Forensic & eDiscovery Tool to find digital email evidences from multiple
@@ -438,24 +437,24 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[The Coroner's Toolkit](the_coroner's_toolkit.md) ([TCT](TCT "wikilink"))
+[The Coroner's Toolkit](the_coroner's_toolkit.md) ([TCT](tct.md))
 <http://www.porcupine.org/forensics/tct.html>
 
-## [NDA](nda.md) and [scoped distribution](scoped_distribution "wikilink") tools
+## [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
 
 # Enterprise Tools (Proactive Forensics)
 
-[LiveWire Investigator 2008](livewire_investigator_2008.md) by [WetStone Technologies](WetStone_Technologies "wikilink")
+[LiveWire Investigator 2008](livewire_investigator_2008.md) by [WetStone Technologies](wetstone_technologies.md)
 <http://www.wetstonetech.com/f/livewire2008.html>
 
 <!-- -->
 
-[P2 Enterprise Edition](p2_enterprise_edition.md) by [Paraben](Paraben "wikilink")
+[P2 Enterprise Edition](p2_enterprise_edition.md) by [Paraben](paraben.md)
 <http://www.paraben-forensics.com/enterprise_forensics.html>
 
 <!-- -->
 
-[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](Elcomsoft "wikilink")
+[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/epfb.html>
 
 # Forensics Live CDs
@@ -475,13 +474,13 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[Paladin Forensic Suite - Live Boot Ubuntu](paladin_forensic_suite_-_live_boot_ubuntu.md) ([Sumuri, LLC](Sumuri,_LLC "wikilink"))
+[Paladin Forensic Suite - Live Boot Ubuntu](paladin_forensic_suite_-_live_boot_ubuntu.md) ([Sumuri, LLC](sumuri_llc.md))
 <https://www.sumuri.com/products/paladin/>
 
 Simplifies various forensics tasks in a forensically sound manner via
 the PALADIN Toolbox.
 
-See: [Forensics Live CDs](:category:live_cd.md)
+See: [Forensics Live CDs](live_cd.md)
 
 # Personal Digital Device Tools
 
@@ -515,7 +514,7 @@ See: [Forensics Live CDs](:category:live_cd.md)
 [Oxygen Forensic Suite 2010](oxygen_forensic_suite_2010.md)
 <http://www.oxygen-forensic.com>
 
-[Paraben's Device Seizure](paraben's_device_seizure.md) and [Paraben's Device Seizure Toolbox](Paraben's_Device_Seizure_Toolbox "wikilink")
+[Paraben's Device Seizure](paraben's_device_seizure.md) and [Paraben's Device Seizure Toolbox](paraben's_device_seizure_toolbox.md)
 <http://www.paraben-forensics.com/handheld_forensics.html>
 
 [Serial Port Monitoring](serial_port_monitoring.md)

@@ -1,6 +1,10 @@
 ---
 tags:
-  - No Category
+  -  Articles that need to be expanded
+  -  Windows
+  -  Tools
+  -  Artifact Analysis 
+  -  Opensource Software
 ---
 Parses Windows **\$UsnJrnl:\$J** files. This crate contains a library
 and a binary.

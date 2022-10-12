@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
   -  Training
 ---
 The SANS Institute was established in 1989 as a cooperative research and

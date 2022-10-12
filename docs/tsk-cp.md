@@ -1,6 +1,11 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Data Carving
+  -  Linux
+  -  Windows
+  -  MacOS
+  -  Opensource Software
 ---
 Tsk-cp is a set of [LibCarvPath](libcarvpath.md) aware versions
 of [Sleuthkit](sleuthkit.md) tools, that are for use together

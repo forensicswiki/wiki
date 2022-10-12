@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Anti-forensics tools 
+  -  Anti-Forensics
+  -  Secure Deletion
+  -  Windows
+  -  Articles that need to be expanded
 ---
 > Features & Benefits:
 >

@@ -3,6 +3,7 @@ tags:
   -  Tools
   -  Linux 
   -  Network Forensics
+  -  Opensource Software
 ---
 ## Overview
 
@@ -28,5 +29,3 @@ Tcpdstat.
 
 [Tcpdstat Overview and Build
 Instructions](http://cyberforensics.et.byu.edu/wiki/Tcpdstat)
-
-[Category:Tools](category:tools.md) [Category:Network

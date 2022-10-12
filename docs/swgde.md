@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organizations
+  -  Organization
 ---
 The Scientific Working Group on Digital Evidence (SWGDE) brings together
 organizations actively engaged in the field of digital and multimedia

@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Archive Files
+  -  Archive
   -  Linux
   -  MacOS
   -  FreeBSD

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  -  Operating Systems 
 ---
 **Unix** or **UNIX** is a general-purpose multi-user [operating
 system](operating_system.md) developed mostly by [Ken
@@ -15,10 +15,10 @@ Today UNIX has evolved into three main categories which all flavors of
 UNIX derive from: [BSD](bsd.md),
 [System V](system_v.md) Release 4, and hybrid. Some of the most
 poplar flavors of UNIX are: [IBM](ibm.md)’s
-[AIX](aix.md), [Sun Microsystems](Sun_Microsystems "wikilink")'
-[Solaris](solaris.md), [SGI](SGI "wikilink")’s
-[IRIX](irix.md), [Linux](Linux "wikilink"),
-[OpenBSD](openbsd.md), and [FreeBSD](FreeBSD "wikilink").
+[AIX](aix.md), [Sun Microsystems](sun_microsystems_inc.md)'
+[Solaris](solaris.md), [SGI](sgi.md)’s
+[IRIX](irix.md), [Linux](linux.md),
+[OpenBSD](openbsd.md), and [FreeBSD](freebsd.md).
 
 ## External Links
 

@@ -2,6 +2,7 @@
 tags:
   -  File Formats
   -  Disk Image
+  -  Articles that need to be expanded
 ---
 [QEMU](qemu.md)** files to
 store a disk image.

@@ -1,6 +1,7 @@
 ---
 tags:
   -  Anti-Forensics
+  -  Network Forensics
 ---
 **Tor** (**The Onion Router**) is an implementation of second-generation
 onion routing.
@@ -67,8 +68,3 @@ attack.
 
 - [Low-Cost Traffic Analysis of Tor (University of
   Cambridge)](http://www.cl.cam.ac.uk/~sjm217/papers/oakland05torta.pdf)
-
-[Category:Anti-Forensics](category:anti-forensics.md)
-[Category:Anti-forensics
-tools](category:anti-forensics_tools.md) [Category:Network
-Forensics](category:network_forensics.md)
