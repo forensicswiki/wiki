@@ -1,7 +1,8 @@
 ---
 tags:
-  -  Analysis
-  -  Free software
+  -  Email Analysis
+  -  File Analysis
+  -  Free Software
   -  Tools
   -  Windows
 ---

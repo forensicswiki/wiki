@@ -1,6 +1,11 @@
 ---
 tags:
-  -  Disk encryption
+  -  Disk Encryption
+  -  Anti-Forensics
+  -  Tools
+  -  Windows
+  -  Opensource SoftwareA
+  -  Articles that need to be expanded
 ---
 **DataControl** by [BitArmor](bitarmor.md) provides integrated
 and transparent file and folder encryption. The protection can be

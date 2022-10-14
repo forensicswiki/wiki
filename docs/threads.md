@@ -1,6 +1,8 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Articles that need to be expanded
+  -  Cell Phone Analysis 
 ---
 THREADS™ is a tool for analyzing cell phones. It is designed to reveal
 patterns and correlations in data found on the phone. The tool can

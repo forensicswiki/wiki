@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Articles that need to be expanded
+  -  Text
 ---
 The **Hypertext Markup Language** (**HTML**) [file format](file_format.md) is used to create/display web pages.
 

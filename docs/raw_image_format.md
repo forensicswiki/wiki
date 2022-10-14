@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Forensics File Format 
+  -  Disk Image
+  -  File Formats
 ---
 The RAW Image Format is used to store a disk or volume image.
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Federal investigative agency 
+  -  Organization 
 ---
 The Federal Bureau of Investigation (or FBI) is a US government agency
 responsible the primary role in investigation of federal crimes except
@@ -59,6 +59,3 @@ Diffie and Landau : Privacy on the Line (2007) MIT Press
 ## Other References
 
 Source <http://www.fbi.gov/cyberinvest/cyberhome.htm>
-
-[Category:Federal investigative
-agency](category:federal_investigative_agency.md)

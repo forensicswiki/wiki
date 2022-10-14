@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk encryption
+  -  Disk Encryption
   -  Howtos
   -  Windows
 ---

@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Disk encryption
+  -  Disk Encryption
+  -  Encryption
+  -  Anti-Foresnics
+  -  Windows
 ---
 Encrypted File System (EFS) is the [Cryptographic File
 System](file_systems#cryptographic_file_systems.md) that is
@@ -56,5 +59,3 @@ In this case, you should get the private key first (by running *cipher
 # Other References
 
 <http://www.beginningtoseethelight.org/efsrecovery>
-
-[Category:Disk encryption](category:disk_encryption.md)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Email
+  -  Articles that need to be expanded
 ---
 Email Examiner is a commercial product by [Paraben](paraben.md)
 for reading email archives from:

@@ -1,6 +1,12 @@
 ---
 tags:
-  -  Disk encryption
+  -  Disk Encryption
+  -  Encryption
+  -  Anti-Forensics
+  -  File Systems
+  -  MacOS
+  -  Windows
+  -  Linux
 ---
 # Conventional File Systems
 
@@ -24,14 +30,14 @@ SGI Extent File System, predecessor to XFS
 
 [FAT](fat.md)
 Originally used by [MS-DOS](ms-dos.md). Includes
-[FAT12](fat12.md), [FAT16](FAT16 "wikilink")
+[FAT12](fat12.md), [FAT16](fat16.md)
 and [FAT32](fat32.md).
 
 <!-- -->
 
 [FFS](ffs.md)
 The **Fast File System** used by some BSD versions of
-[UNIX](unix.md) and from which [UFS](UFS "wikilink") was derived
+[UNIX](unix.md) and from which [UFS](ufs.md) was derived
 supporting faster disk access and [symbolic
 links](symbolic_link.md) like ffs.
 
@@ -248,5 +254,3 @@ Originally from Sun, it is the standard in UNIX-based networks.
 - <http://en.wikipedia.org/wiki/Next3>
 - [Overwriting Hard Drive Data: The Great Wiping
   Controversy](http://www.springerlink.com/content/408263ql11460147/)
-
-[Category:Disk encryption](category:disk_encryption.md)

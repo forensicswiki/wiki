@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Disk Image
+  -  Windows
 ---
 According to \[MSDN\]: the primary purpose of the Windows Imaging File
 Format (WIM) is to store programmatic-ally captured, modified, and

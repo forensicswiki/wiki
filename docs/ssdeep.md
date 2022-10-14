@@ -1,6 +1,13 @@
 ---
 tags:
-  -  Cross-platform
+  -  Tools
+  -  Hashing
+  -  Opensource Software
+  -  Linux
+  -  Windows
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD 
 ---
 ssdeep is a program for computing and matching [Context Triggered
 Piecewise Hashing](context_triggered_piecewise_hashing.md)
