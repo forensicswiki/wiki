@@ -1,8 +1,10 @@
 ---
 tags:
-  -  Email
+  -  File Formats
+  -  Datbase
+  -  Windows
 ---
-[Lotus](lotus.md) [Notes](Notes "wikilink") and
+[Lotus](lotus.md) [Notes](notes.md) and
 [Domino](domino.md)**
 database to store e-mails, appointments, tasks, contacts, notes, etc.
 
@@ -55,5 +57,3 @@ World](http://www.ibm.com/developerworks/lotus/library/ls-Notes_Encryption/index
   by the [libnsfdb project](libnsfdb.md), February 2010
 - [Lotus Notes
   Forensics](http://www.systoolsgroup.com/forensics/lotus-notes/)
-
-[Category:Email](category:email.md) [Category:File

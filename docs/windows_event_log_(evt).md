@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Windows
+  -  Binary
 ---
 MS Windows 2000, XP and 2003 typically maintain three Event Log files:
 Application, System, and Security. They are generally found in the

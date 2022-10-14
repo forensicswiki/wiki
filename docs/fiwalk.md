@@ -2,9 +2,12 @@
 tags:
   -  Linux
   -  FreeBSD
-  -  Mac OS
+  -  MacOS
   -  Tools
-  -  Digital Forensics XML 
+  -  Windows
+  -  XML 
+  -  Disk Analysis
+  -  Data Carving
 ---
 fiwalk is a batch forensics analysis program written in C that uses
 SleuthKit. The program can output in XML or ARFF formats.

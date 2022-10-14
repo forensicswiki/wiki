@@ -1,6 +1,8 @@
 ---
 tags:
   -  File Formats
+  -  Windows
+  -  Text
 ---
 ## Overview
 

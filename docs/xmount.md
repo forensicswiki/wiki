@@ -1,6 +1,13 @@
 ---
 tags:
-  - No Category
+  -  Tools
+  -  Articles that need to be expanded
+  -  Disk Imaging
+  -  Linux
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD 
+  -  Opensource Software
 ---
 Description taken from xmount project site on Pinguin's HQ:
 

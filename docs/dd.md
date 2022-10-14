@@ -2,10 +2,9 @@
 tags:
   -  Linux 
   -  Windows
-  -  Mac OS X
+  -  MacOS
   -  FreeBSD
   -  Disk Imaging
-  -  GPL
   -  Tools 
   -  Anti-Forensics
 ---

@@ -1,9 +1,14 @@
 ---
 tags:
-  -  Cross-platform
-  -  Metadata
-  -  GPL
   -  Tools 
+  -  File Analysis
+  -  Articles that need to be expanded
+  -  Windows
+  -  Linux
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  Opensource Software
 ---
 **pdfinfo** is a small utility which shows (parts of) the metadata
 stored in [PDF](pdf.md) files. It is part of the

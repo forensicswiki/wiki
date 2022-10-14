@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Analysis
+  -  Log Analysis
+  -  Articles that need to be expanded
   -  Tools
   -  Windows
   -  Free software

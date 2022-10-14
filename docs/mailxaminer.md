@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Email
+  -  Email Analysis
+  -  Tools
+  -  Commercial Software
+  -  Windows
 ---
 MailXaminer is an email forensic investigation suite developed by
 [SysTools](systools.md). The application examines email data

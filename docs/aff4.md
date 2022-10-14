@@ -1,8 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Opensource Software
-  -  Foresnics File Format
+  -  Disk Image
   -  Articles that need to be expanded 
 ---
 # Advanced Forensic Framework 4 (AFF4)

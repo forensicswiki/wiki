@@ -1,9 +1,14 @@
 ---
 tags:
-  -  Metadata
   -  Tools
-  -  Cross Platform
-  -  GPL
+  -  Windows
+  -  Linux
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  Opensource Software
+  -  File Analysis
+  -  Articles that need to be expanded
 ---
 **Hachoir** is a generic framework for binary file manipulation. Written
 in Python, it's operating system independent and has many text/graphic

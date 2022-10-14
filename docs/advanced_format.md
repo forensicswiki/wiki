@@ -1,6 +1,7 @@
 ---
 tags:
   -  Hard Drives 
+  -  Hardware
 ---
 # The Technology
 

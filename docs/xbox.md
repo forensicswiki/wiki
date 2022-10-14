@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  -  Hardware
+  -  Gaming 
 ---
 ## History
 

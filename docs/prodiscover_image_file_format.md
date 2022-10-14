@@ -1,8 +1,9 @@
 ---
 tags:
-  -  File Format 
+  -  File Formats 
   -  Disk Imaging
   -  Windows
+  -  Articles that need to be expanded
 ---
 [ProDiscover](prodiscover.md) uses its own imaging file format,
 which is well defined. It contains a header, a data header, the image

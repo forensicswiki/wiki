@@ -1,7 +1,9 @@
 ---
 tags:
-  -  Disk encryption
-  -  Mac OS X
+  -  Disk Encryption
+  -  Encryption
+  -  MacOS
+  -  Anti-Forensics
   -  Articles that need to be expanded
 ---
 **FileVault Disk Encryption** (FVDE) is [Full Volume

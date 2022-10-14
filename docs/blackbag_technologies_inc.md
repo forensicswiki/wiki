@@ -1,8 +1,6 @@
 ---
 tags:
-  -  Vendors
-  -  Hardware Vendor
-  -  Software Vendor
+  -  Organization 
 ---
 **BlackBag Technologies, Inc.** is a company which sells forensic
 software with a focus on Apple devices.

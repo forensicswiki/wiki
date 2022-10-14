@@ -1,9 +1,17 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Cross-platform
   -  Public Domain
   -  Tools
+  -  Database
+  -  Windows
+  -  Android
+  -  Linux
+  -  Ios
+  -  FreeBSD
+  -  OpenBSD
+  -  NetBSD
+  -  Opensource Software
 ---
 <i>SQLite is a software library that implements a self-contained,
 serverless, zero-configuration, transactional SQL database engine.</i>

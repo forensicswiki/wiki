@@ -1,6 +1,7 @@
 ---
 tags:
-  - Federal investigative agency 
+  -  Organization
+  -  Articles that need to be expanded 
 ---
 The **Office of the Inspector General** (**OIG**) is the investigative
 arm of the United States **National Aeronautics and Space

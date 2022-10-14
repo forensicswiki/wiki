@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  MacOS
-  -  Archive Formats
+  -  Archive
   -  Articles that need to be expanded
 ---
 A separate file in a filesystem containing the [Apple resource

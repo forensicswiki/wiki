@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Disk encryption
+  -  Disk Encryption
+  -  Encryption
+  -  Linux
+  -  Anti-Forensics
 ---
 Linux Unified Key Setup (LUKS) is commonly used by Linux to encrypt
 storage media volumes. LUKS is implemented in the Linux kernel in
@@ -81,5 +84,3 @@ See the cryptsetup(8) man page for other operations.
 - [Practical malleability attack against CBC-Encrypted LUKS
   partitions](http://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/),
   by Jakob Lell, December 22, 2013
-
-[Category:Disk encryption](category:disk_encryption.md)

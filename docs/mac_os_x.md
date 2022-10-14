@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Mac OS X
+  -  MacOS
   -  Operating Systems
   -  Articles that need to be expanded
 ---
