@@ -2,6 +2,7 @@
 tags:
   -  File Formats
   -  Virtual Disk
+  -  Disk Analysis
   -  Articles that need to be expanded
   -  Windows
   -  Linux

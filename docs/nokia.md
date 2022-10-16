@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization
 ---
 **Nokia Corporation** is a Finnish multinational communications
 corporation, headquartered in Keilaniemi, Espoo, a city neighbouring

@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Vendors
+  -  Articles that need to be expanded
+  -  Disk Imaging  
 ---
 ## Products
 

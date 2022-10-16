@@ -2,7 +2,7 @@
 tags:
   -  Encryption
   -  Windows
-  -  tools
+  -  Tools
   -  Disk Encryption
 ---
 **USBCrypt** is a commercial (closed source) software intended primarily

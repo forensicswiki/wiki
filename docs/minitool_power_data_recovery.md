@@ -1,6 +1,9 @@
 ---
 tags:
-  -  Vendors
+  -  Data Recovery
+  -  Windows
+  -  Tools
+  -  Free Software 
 ---
 **MiniTool Power Data Recovery (Free)** is a Free Partition Recovery &
 Data Recovery Software that helps recover deleted, lost or damaged

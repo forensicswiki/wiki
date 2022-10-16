@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization  
 ---
 ![](logo_red_new_70.png "logo_red_new_70.png") Founded in 1990,
 ElcomSoft Co. Ltd. is a leading developer of digital forensics tools.

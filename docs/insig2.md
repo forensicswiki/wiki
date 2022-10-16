@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization  
 ---
 ![](INsig2_logo_prozirni.png "INsig2_logo_prozirni.png")
 

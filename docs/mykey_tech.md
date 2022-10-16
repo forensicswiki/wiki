@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Vendors
+  -  Organization
+  -  Articles that need to be expanded  
 ---
 Write Blockers
 

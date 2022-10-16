@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
+  -  Articles that need to be expanded  
 ---
 **HBGary** is a computer forensics software company based in the United
 States of America. They have developed and distribute several tools
