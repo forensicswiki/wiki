@@ -3,7 +3,7 @@ tags:
   - No Category
 ---
 **Masterkey Linux** (or simply Masterkey) is a [Live
-CD](live_cd.md) based on [Slackware](Slackware "wikilink")
+CD](live_cd.md) based on [Slackware](slackware.md)
 developed by Dr. Qin Zhou of Coventry University. It focuses on
 [incident response](incident_response.md) and [computer
 forensics](computer_forensics.md).

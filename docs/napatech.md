@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization 
 ---
 Napatech is a leading OEM supplier of multi-port 10 GbE and 1 GbE
 intelligent adapters for real-time network analysis with over 40,000

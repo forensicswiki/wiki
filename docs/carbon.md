@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Winodows
+  -  Windows
   -  Tools
   -  Disk Imaging
   -  Write Blocker

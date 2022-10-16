@@ -1,7 +1,8 @@
 ---
 tags:
   -  File Formats
-  -  Virutal Disk
+  -  Virtual Disk
+  -  Disk Analysis
   -  Articles that need to be expanded
   -  Windows
   -  Linux

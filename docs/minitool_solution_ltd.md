@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Organization  
 ---
 **MiniTool Solution Ltd.** concentrates on development of data recovery
 and disk management software.

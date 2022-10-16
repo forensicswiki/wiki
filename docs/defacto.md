@@ -1,6 +1,9 @@
 ---
 tags:
   -  Tools
+  -  Windows
+  -  Commerical Software
+  -  System Analysis 
 ---
 **Defacto** is a software inventorization tool developed by National
 Hi-Tech Crime Unit [1](http://nhtcu.ru/) (Russia).

@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Windows Analysis
+  -  Disk Analysis
+  -  Windows 
 ---
 On Windows XP the Restore Points can be found in:
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Vendors
+  -  Articles that need to be expanded
 ---
 Various Write Blockers, forensic field kits, forensics software, etc.
 

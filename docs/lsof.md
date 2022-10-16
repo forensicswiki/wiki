@@ -1,7 +1,14 @@
 ---
 tags:
-  -  Network Forensics
+  -  Network Analysis 
   -  Tools
+  -  System Analysis
+  -  Opensource Software
+  -  Linux
+  -  MacOS
+  -  NetBSD
+  -  OpenBSD
+  -  FreeBSD
 ---
 ## Overview
 
