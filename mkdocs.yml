@@ -4,6 +4,8 @@ nav:
   - Home: index.md
   - Community:
     -  community.md  
+  - Contributions:
+    -  contributions_mediawiki.md
   - Tags: 
     - tags.md
       
