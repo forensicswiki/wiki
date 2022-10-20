@@ -13,11 +13,11 @@ Please see the community page if you would like to [contribute](community.md).
 ## Discover Content 
 
 ### Tags
-Each page on this website is labled with <a href="tags">tags</a>.  The page could have 1 tag or multiple tags depending on the content of the site.  Tags are placed at the top of the screen.
+In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>.  Each page on this website is labled with <a href="tags">tags</a>.  The page could have one tag or multiple tags depending on the content of the site.  Tags are placed at the top of the article.
 
-As you could see from the following article, The [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content for that tag.
+For example, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content categorized under that tag.
 
-### Notable Content
+### Topics 
 <html>
 <head>
 <style>
@@ -47,7 +47,7 @@ As you could see from the following article, The [Full Disk Encryption](full_dis
 </html>
 
 <body>
-<table id="tags">
+<table id="Tags">
   <tr>
     <th>tags</th>
     <th>Articles</th>
@@ -74,3 +74,7 @@ As you could see from the following article, The [Full Disk Encryption](full_dis
 ##  Articles that need to be expanded
 
 There are a number of <a href="tags/#articles-that-need-to-be-expanded">articles</a> that could use some love.  If you want to help out please read about [contributing](community.md)
+
+##  Find us on Github
+
+The Forensicswiki is now on [Github](https://github.com/forensicswiki/wiki)
