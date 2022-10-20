@@ -4,7 +4,7 @@ tags:
   -  Live CD
   -  Linux
   -  Analysis
-  -  Opensource Software
+  -  Open Source Software
 ---
 ***Caine (an acronym for Computer Aided Investigative Environment**') is
 a [distribution](distribution_linux.md)

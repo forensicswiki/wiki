@@ -4,7 +4,7 @@ tags:
   -  Articles that need to be expanded
   -  Tools
   -  Windows
-  -  Opensource Software
+  -  Open Source Software
 ---
 A program to hide files within the [slack space](slack_space.md)
 of the [NTFS](ntfs.md) file system. Developed by [James C.  Foster](james_c._foster.md) and [Vincent Liu](vincent_liu.md).

@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Linux
   -  Data Recovery
-  -  Opensource Software
+  -  Open Source Software
 ---
 BlockHashLoc (BHL) enable the recovery of files via previously made
 small files with a list of blocks hashes.

@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Windows
   -  Memory Imaging
-  -  Opensource Software
+  -  Open Source Software
   -  Deprecated 
 ---
 **mdd**, also known as **[ManTech dd](mantech.md)** or **Memory

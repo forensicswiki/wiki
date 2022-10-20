@@ -3,7 +3,7 @@ tags:
   -  Debugging
   -  Tools
   -  Binary Analysis 
-  -  Opensource Software
+  -  Open Source Software
   -  Articles that need to be expanded
 ---
 BinNavi is a binary analysis IDE - an environment that allows users to

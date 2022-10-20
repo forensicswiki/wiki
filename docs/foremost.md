@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Linux 
-  -  Opensource Software
+  -  Open Source Software
   -  Data Carving 
 ---
 **Foremost** is a [Linux](linux.md) based program data for

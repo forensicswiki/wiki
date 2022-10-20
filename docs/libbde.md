@@ -3,7 +3,7 @@ tags:
   -  Libyal
   -  Disk Encryption
   -  Tools
-  -  Opensource Software
+  -  Open Source Software
 ---
 The **libbde** package contains a library and applications to read the
 [BitLocker Disk Encryption (bde)](bitlocker_disk_encryption.md)

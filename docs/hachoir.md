@@ -6,7 +6,7 @@ tags:
   -  FreeBSD
   -  OpenBSD
   -  NetBSD
-  -  Opensource Software
+  -  Open Source Software
   -  File Analysis
   -  Articles that need to be expanded
 ---

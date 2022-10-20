@@ -4,7 +4,7 @@ tags:
   -  Anti-Forensics
   -  Tools
   -  Windows
-  -  Opensource SoftwareA
+  -  Open Source Software
   -  Articles that need to be expanded
 ---
 **DataControl** by [BitArmor](bitarmor.md) provides integrated

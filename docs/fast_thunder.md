@@ -6,7 +6,7 @@ tags:
   -  MacOS
   -  Android
   -  iOS
-  -  Opensource Software
+  -  Open Source Software
 ---
 **Fast Thunder** (aka Xunlei) is a [download
 manager](download_manager.md) developed by Thunder Networking

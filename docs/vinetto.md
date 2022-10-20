@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  MacOS
   -  Artifact Analysis
-  -  Opensource Software
+  -  Open Source Software
   -  Articles that need to be expanded 
 ---
 **Vinetto** is a forensics tool to examine

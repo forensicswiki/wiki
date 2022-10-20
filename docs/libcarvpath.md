@@ -3,7 +3,7 @@ tags:
   -  File Analysis 
   -  Data Recovery
   -  Tools
-  -  Opensource Software
+  -  Open Source Software
 ---
 LibCarvPath is a library designed to be used by carving and file system
 analysis tools. LibCarvPath allows fragments represented by offset and

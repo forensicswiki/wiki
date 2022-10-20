@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  Windows
   -  MacOS
-  -  Opensource Software
+  -  Open Source Software
 ---
 Tsk-cp is a set of [LibCarvPath](libcarvpath.md) aware versions
 of [Sleuthkit](sleuthkit.md) tools, that are for use together

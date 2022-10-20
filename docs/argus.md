@@ -8,7 +8,7 @@ tags:
   -  FreeBSD
   -  OpenBSD
   -  NetBSD
-  -  Opensource Software
+  -  Open Source Software
 ---
 ## Overview
 

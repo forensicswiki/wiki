@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Linux
-  -  Opensource Software
+  -  Open Source Software
   -  Desktop Environments
   -  Articles that need to be expanded
 ---

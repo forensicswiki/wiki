@@ -4,7 +4,7 @@ tags:
   -  Linux
   -  Tools
   -  Live CD 
-  -  Opensource Software
+  -  Open Source Software
 ---
 **SPADA**, or System Preview And Data Acquisition, is a forensic [Live
 CD](live_cd.md) base on [Knoppix](knoppix.md).
