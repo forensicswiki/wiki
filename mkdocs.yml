@@ -20,4 +20,5 @@ plugins:
       lang: en
   - tags:
       tags_file: tags.md
-
+  - title-casing:
+      capitalization_type: title
