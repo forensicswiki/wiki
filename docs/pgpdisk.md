@@ -1,6 +1,5 @@
 ---
 tags:
-  -  Encryption
   -  Disk Encryption
   -  Anti-Forensics
   -  Tools

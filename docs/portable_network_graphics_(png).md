@@ -1,13 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Photo Images
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
+  -  Photo
 ---
 **Portable Network Graphics** (aka PNG) is an image file format
 developed to replace GIF images on the web. It uses lossless compression
@@ -32,7 +26,6 @@ PNG files begin with the following 8-byte (hexadecimal) signature:
 
 # External Links
 
-- [Wikipedia
-  article](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [Wikipedia article](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
 - [W3C Recommendation](http://www.w3.org/TR/2003/REC-PNG-20031110/)
 
