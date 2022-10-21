@@ -4,7 +4,7 @@ tags:
   -  Tools
   -  Windows
   -  Secure Deletion
-  -  Opensource Software
+  -  Open Source Software
 ---
 Eraser is a Windows tool that allows you to securely remove files from
 your computers hard drive and securely wipe free space so as to remove

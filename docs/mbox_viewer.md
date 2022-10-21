@@ -4,7 +4,7 @@ tags:
   -  Tools
   -  Articles that need to be expanded
   -  Windows
-  -  Opensource Software
+  -  Open Source Software
 ---
 *MBOX Viewer* is a complete application to open and view emails (along
 with attachments) without supporting email clients.

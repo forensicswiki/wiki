@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  MacOS
   -  Disk Analysis
-  -  Opensource Software
+  -  Open Source Software
   -  Articles that need to be expanded
 ---
 The **Autopsy Forensic Browser** (**Autopsy**) is a graphical interface

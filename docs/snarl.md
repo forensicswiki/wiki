@@ -5,7 +5,7 @@ tags:
   -  Live CD
   -  FreeBSD
   -  Disk Analysis
-  -  Opensource Software
+  -  Open Source Software
 ---
 A [FreeBSD](freebsd.md) based [Live CD](live_cd.md) that
 includes Autopsy and Sleuth Kit.

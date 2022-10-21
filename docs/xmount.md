@@ -7,7 +7,7 @@ tags:
   -  FreeBSD
   -  OpenBSD
   -  NetBSD 
-  -  Opensource Software
+  -  Open Source Software
 ---
 Description taken from xmount project site on Pinguin's HQ:
 

@@ -7,7 +7,7 @@ tags:
   -  OpenBSD
   -  FreeBSD
   -  Windows 
-  -  Opensource Software
+  -  Open Source Software
 ---
 Exiftool is a Perl library and a command-line tool that can be used for
 reading and writing metadata in files. In addition to exif images,

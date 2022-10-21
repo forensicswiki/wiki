@@ -8,7 +8,7 @@ tags:
   -  FreeBSD
   -  NetBSD
   -  OpenBSD
-  -  Opensource Software
+  -  Open Source Software
 ---
 **Snorkel** is a Java software library that is used by developers of
 forensic software. Snorkel is not a standalone forensic application, but

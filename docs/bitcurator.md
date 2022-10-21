@@ -2,7 +2,7 @@
 tags:
   -  Disk Imaging
   -  Tools 
-  -  Opensource Software
+  -  Open Source Software
   -  Live CD
   -  Deprecated 
 ---

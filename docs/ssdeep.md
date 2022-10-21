@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Hashing
-  -  Opensource Software
+  -  Open Source Software
   -  Linux
   -  Windows
   -  FreeBSD

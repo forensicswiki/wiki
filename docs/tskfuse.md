@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Disk Analysis
   -  Articles that need to be expanded
-  -  Opensource Software 
+  -  Open Source Software 
 ---
 tskfuse is a simple python program that uses the pyfuse layer and the
 SleuthKit Python3 bindings to allow you to browse a file system (and its

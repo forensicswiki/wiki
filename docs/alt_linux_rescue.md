@@ -3,7 +3,7 @@ tags:
   -  Tools 
   -  Linux
   -  Live CD
-  -  Opensource Software
+  -  Open Source Software
 ---
 **ALT Linux Rescue** is yet another sysadmin's [Live
 CD](live_cd.md) with some forensic capabilities and features.

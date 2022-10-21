@@ -4,7 +4,7 @@ tags:
   -  Windows
   -  MacOS
   -  Tools 
-  -  Opensource Software
+  -  Open Source Software
   -  Data Recovery
 ---
 **Scalpel** is an [open source](open_source.md) program for

@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Opensource Software
+  -  Open Source Software
   -  Disk Image
   -  Articles that need to be expanded
 ---

@@ -4,7 +4,7 @@ tags:
   -  Windows
   -  Tools
   -  Artifact Analysis 
-  -  Opensource Software
+  -  Open Source Software
 ---
 Parses Windows **\$UsnJrnl:\$J** files. This crate contains a library
 and a binary.

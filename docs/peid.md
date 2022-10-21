@@ -4,7 +4,7 @@ tags:
   -  Windows
   -  File Analysis
   -  Tools 
-  -  Opensource Software
+  -  Open Source Software
 ---
 PEiD is a GUI-based program that runs under Windows which identifies
 more than 600 different signatures in PE files. It supports external

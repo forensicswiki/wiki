@@ -2,7 +2,7 @@
 tags:
   -  Disk Analysis
   -  Tools
-  -  Opensource Software
+  -  Open Source Software
   -  Articles that need to be expanded
   -  Windows
   -  MacOS

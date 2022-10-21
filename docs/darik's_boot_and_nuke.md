@@ -4,7 +4,7 @@ tags:
   - Linux
   - Secure Deletion
   - Anti-Forensics
-  - Opensource Software
+  - Open Source Software
 ---
 **D**arik's **B**oot **a**nd **N**uke is a disk image that can create a
 bootable CD/DVD/Floppy/USB Device that can securely wipe the hard disks

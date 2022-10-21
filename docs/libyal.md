@@ -2,7 +2,7 @@
 tags:
   -  Libyal
   -  Tools
-  -  Opensource Software
+  -  Open Source Software
   -  File Analysis
 ---
 The **libyal** project contains an

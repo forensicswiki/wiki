@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Windows
-  -  Opensource Software
+  -  Open Source Software
   -  System Analysis 
 ---
 Miss Identify is a program to find Win32 applications. In its default

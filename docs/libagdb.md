@@ -3,7 +3,7 @@ tags:
   -  Libyal
   -  File Analysis
   -  Tools
-  -  Opensource Software
+  -  Open Source Software
   -  Windows
 ---
 The **libagdb** package contains a library and applications to read the

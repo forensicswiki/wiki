@@ -7,7 +7,7 @@ tags:
   -  Disk Analysis
   -  Data Carving
   -  Data Recovery 
-  -  Opensource Software
+  -  Open Source Software
 ---
 **The Sleuth Kit** (**TSK**) is a collection of
 [UNIX](unix.md)-based command line tools that allow you to
