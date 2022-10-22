@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 This topic will cover current research in wireless communication
 networks. These types of networks have been growing exponentially in the

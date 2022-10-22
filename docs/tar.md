@@ -6,7 +6,7 @@ tags:
   -  MacOS
   -  FreeBSD
   -  NetBSD
-  -  OpenBSD 
+  -  OpenBSD
   -  Windows
 ---
 tar (derived from tape archive) is a file format (in the form of a type

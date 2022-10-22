@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 <img src=assets/images/300px-BlackBerry.jpg title=Blackberry align="right">)
 

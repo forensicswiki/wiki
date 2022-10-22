@@ -1,7 +1,7 @@
 ---
 tags:
   -  Howtos
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 # Creating a VM control file from a forensic image
 

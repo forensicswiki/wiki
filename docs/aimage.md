@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools 
+  -  Tools
   -  Linux
   -  Disk Imaging
 ---

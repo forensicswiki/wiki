@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 A disk image is a full disk copy of the data making up the partition
 table, file allocation tables and data partitions without regard for

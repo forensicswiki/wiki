@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Mobile Forensics
-  -  Open Source Software 
+  -  Open Source Software
 ---
 BitPim is a free, [open source](http://www.opensource.org/docs/definition.php), cross-platform
 program for viewing and editing data on a [CDMA](cdma.md) [cell

@@ -9,7 +9,7 @@ tags:
   -  OpenBSD
   -  Solaris
   -  AIX
-  -  Open Source Software 
+  -  Open Source Software
 ---
 ## External links
 

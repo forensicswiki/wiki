@@ -1,7 +1,7 @@
 ---
 tags:
   -  Registry Analysis
-  -  Windows 
+  -  Windows
 ---
 The OpenSaveMRU key exists in the [Windows
 Registry](windows_registry.md) and tracks files that have been

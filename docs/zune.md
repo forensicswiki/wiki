@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Personal Devices 
+  -  Personal Devices
 ---
 ## Zune
 

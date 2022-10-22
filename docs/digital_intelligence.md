@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Organization 
-  -  Articles that need to be expanded  
+  -  Organization
+  -  Articles that need to be expanded
 ---
 Manufactures write Blockers, forensic field kits, etc.
 

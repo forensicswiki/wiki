@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 RAID or redundant array of inexpensive disk is a technology to combine
 multiple "physical disks" into one "logical disk". Note that the term

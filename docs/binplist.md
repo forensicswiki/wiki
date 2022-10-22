@@ -2,7 +2,7 @@
 tags:
   -  Articles that need to be expanded
   -  File Analysis
-  -  Tools 
+  -  Tools
   -  MacOS
 ---
 Python-based parser for [binary property list

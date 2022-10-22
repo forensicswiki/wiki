@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization  
+  -  Organization
 ---
 SysInfoTools Software is a global software franchise specializing in
 unique and challenging projects. The company combines its technical

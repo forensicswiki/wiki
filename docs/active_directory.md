@@ -1,7 +1,7 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Windows 
+  -  Windows
   -  Active Directory
 ---
 ## External Links

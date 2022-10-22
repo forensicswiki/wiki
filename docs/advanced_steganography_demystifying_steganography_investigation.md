@@ -1,7 +1,7 @@
 ---
 tags:
   -  Research
-  -  Training 
+  -  Training
 ---
 **Advanced Steganography Demystifying Steganography Investigation**
 [1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,23)

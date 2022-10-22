@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Anti-Forensics 
-  -  Linux 
+  -  Anti-Forensics
+  -  Linux
   -  Tools
   -  Articles that need to be expanded
 ---

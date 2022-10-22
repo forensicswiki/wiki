@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  Database
-  -  Windows 
+  -  Windows
   -  Articles that need to be expanded
 ---
 The AMCache stores metadata about program installation and

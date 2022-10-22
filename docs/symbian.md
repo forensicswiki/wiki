@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Mobile Operating Systems 
+  -  Mobile Operating Systems
 ---
 **Symbian** is an open operating system, designed for mobile devices,
 with associated libraries, user interface frameworks and reference

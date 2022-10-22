@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 `If we are a business proprietor with no online awareness, social media marketing course, or look engine presence, you're quickly losing business to your competitors. With `[`SMART LINK SERVICE`](http://implementseo.com)`, you are able to get a step before your associates through online business today. `
 

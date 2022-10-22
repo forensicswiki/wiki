@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools 
+  -  Tools
 ---
 This is an **overview of available tools** for forensic
 [investigators](investigator.md). Please click on the name of

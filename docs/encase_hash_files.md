@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  Windows
-  -  Text 
+  -  Text
 ---
 The [EnCase](encase.md) forensics suite uses a proprietary file
 format to store sets of known hashes called the **EnCase hash file

@@ -3,7 +3,7 @@ tags:
   -  Articles that need to be expanded
   -  Linux
   -  Live CD
-  -  Tools 
+  -  Tools
 ---
 Recovery Is Possible (RIP) [Linux](linux.md) rescue system is a
 [Live CD](live_cd.md) with a number of recovery applications

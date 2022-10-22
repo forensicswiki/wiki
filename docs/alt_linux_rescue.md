@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools 
+  -  Tools
   -  Linux
   -  Live CD
   -  Open Source Software

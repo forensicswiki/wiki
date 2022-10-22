@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems 
+  -  Operating Systems
 ---
 ## [Cortana](cortana.md)
 

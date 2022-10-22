@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk Imaging 
+  -  Disk Imaging
 ---
 LibAFF4 is an implementation of the AFF4 standard. It is still in a very
 early stage of development but it allows people to have a play with the

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People 
+  -  People
 ---
 [Drew Fahey](drew_fahey.md), VP of Products at Blackbag
 Technologies where oversees all product development. Drew is somewhat a

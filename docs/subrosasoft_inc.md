@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 SubRosaSoft is the developer of
 [MacForensicsLab](macforensicslab.md) and several other [OS

@@ -3,7 +3,7 @@ tags:
   -  Free Software
   -  Tools
   -  Windows
-  -  Data Recovery 
+  -  Data Recovery
 ---
 **MiniTool Partition Wizard (Free)** is the best free partition
 management software. It deletes, aligns, moves, resizes, recovers,

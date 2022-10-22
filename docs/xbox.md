@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Gaming 
+  -  Gaming
 ---
 ## History
 

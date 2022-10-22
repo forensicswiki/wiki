@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Personal Devices 
+  -  Personal Devices
 ---
 The following links provide information regarding various technologies
 and [operating systems](operating_system.md). Again, feel free

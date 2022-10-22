@@ -1,8 +1,8 @@
 ---
 tags:
   -  File Formats
-  -  Windows 
-  -  Articles that need to be expanded 
+  -  Windows
+  -  Articles that need to be expanded
   -  Text
 ---
 The [EnCase](encase.md) suite of tools can generate 'hash maps',
