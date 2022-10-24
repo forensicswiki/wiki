@@ -1,6 +1,6 @@
 ---
 tags:
-  - Anti-forensics tools 
+  - Anti-forensics tools
 ---
 > Steganos Privacy Suite: 9-fold data protection:
 >

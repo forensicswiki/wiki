@@ -3,7 +3,7 @@ tags:
   -  Articles that need to be expanded
   -  Windows
   -  Tools
-  -  Artifact Analysis 
+  -  Artifact Analysis
   -  Open Source Software
 ---
 Parses Windows **\$UsnJrnl:\$J** files. This crate contains a library

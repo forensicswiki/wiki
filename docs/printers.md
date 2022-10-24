@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Hardware 
+  -  Hardware
   -  Articles that need to be expanded
 ---
 

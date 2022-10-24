@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats 
-  -  Disk Image 
+  -  File Formats
+  -  Disk Image
 ---
 The Encase image file format is used by [EnCase](encase.md) used
 to store various types of digital evidence e.g.

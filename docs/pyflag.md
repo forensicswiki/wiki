@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Deprecated 
+  -  Deprecated
   -  Linux
   -  Windows
   -  MacOS
   -  Disk Analysis
-  -  Tools 
+  -  Tools
 ---
 **PyFlag** is a web-based, database-backed *forensic and log analysis
 GUI* and [Computer forensics

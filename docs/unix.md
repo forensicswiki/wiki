@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems 
+  -  Operating Systems
 ---
 **Unix** or **UNIX** is a general-purpose multi-user [operating
 system](operating_system.md) developed mostly by [Ken

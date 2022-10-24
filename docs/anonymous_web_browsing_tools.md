@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 Anonymous web browsing tools allow a user to mask their identity, most
 often the IP address from the final destination.

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Digital Forensics XML 
+  -  Digital Forensics XML
 ---
 1.  Garfinkel, Simson., [Automating Disk Forensic Processing with
     SleuthKit, XML and

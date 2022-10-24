@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **SMART** is a commercial forensics software package distributed by [ASR
 Data](asr_data.md).

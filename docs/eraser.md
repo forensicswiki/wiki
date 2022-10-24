@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Anti-Forensics 
+  -  Anti-Forensics
   -  Tools
   -  Windows
   -  Secure Deletion

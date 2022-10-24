@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  Disk Image
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 # Advanced Forensic Framework 4 (AFF4)
 

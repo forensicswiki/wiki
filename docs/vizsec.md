@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 VizSec is a conference for Security Visualization.
 

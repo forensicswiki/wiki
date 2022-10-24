@@ -1,7 +1,7 @@
 ---
 tags:
   -  Research
-  -  Books 
+  -  Books
 ---
 # General books about forensics
 

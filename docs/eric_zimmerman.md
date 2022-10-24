@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
-  -  People 
+  -  Articles that need to be expanded
+  -  People
 ---
 <http://binaryforay.blogspot.com/>

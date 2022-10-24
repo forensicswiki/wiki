@@ -1,16 +1,16 @@
-site_name: "" 
+site_name: ""
 
 nav:
   - Home: index.md
   - Community:
-    -  community.md  
+    -  community.md
   - Contributions:
     -  contributions_mediawiki.md
-  - Tags: 
+  - Tags:
     - tags.md
-      
+
 theme:
-  name: material 
+  name: material
   features:
     - navigation.tabs
     - navigation.sections

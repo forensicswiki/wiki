@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 **Palm** is a common term for a small-scale (hand-held) computer that
 runs Palm's [PalmOS](palmos.md) software.

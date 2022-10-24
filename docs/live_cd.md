@@ -1,7 +1,7 @@
 ---
 tags:
   -  Live CD
-  -  Open Source Software 
+  -  Open Source Software
   -  Tools
   -  Linux
 ---

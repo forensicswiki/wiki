@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Memory Imaging
   -  Commercial Software
-  -  Windows 
+  -  Windows
 ---
 **Fastdump Pro** is memory acquisition tool from
 [HBGary](hbgary.md). According to the vendor's web site, this

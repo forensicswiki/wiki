@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Windows
   -  Analysis
-  -  Commercial Software 
+  -  Commercial Software
 ---
 The **Belkasoft Evidence Center X** is a commercial forensic solution
 for acquiring, locating, extracting, and analyzing digital evidence

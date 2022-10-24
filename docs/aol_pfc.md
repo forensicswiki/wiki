@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  Windows
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
   -  Database
 ---
 PFC files are files associated with America Online (AOL). PFC (Personal

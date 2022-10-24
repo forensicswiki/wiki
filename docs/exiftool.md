@@ -6,7 +6,7 @@ tags:
   -  NetBSD
   -  OpenBSD
   -  FreeBSD
-  -  Windows 
+  -  Windows
   -  Open Source Software
 ---
 Exiftool is a Perl library and a command-line tool that can be used for

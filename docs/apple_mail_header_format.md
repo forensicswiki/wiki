@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 [Apple Mail](apple_mail.md) version 2.1 generates [email
 headers](email_headers.md) in the following format:

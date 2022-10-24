@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Live CD
   -  Open Source Software
-  -  Analysis 
+  -  Analysis
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) intended for
 [computer forensics](computer_forensics.md) and [penetration

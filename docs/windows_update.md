@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 TODO: general windows update intro.
 

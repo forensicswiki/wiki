@@ -1,7 +1,7 @@
 ---
 tags:
   -  Data Recovery
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 A [forensic investigator](forensic_investigator.md) uses
 techniques that can **recover bad data** in order to recover data from a

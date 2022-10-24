@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization  
+  -  Organization
 ---
 Founded in 1999 by a team of highly experienced telecom and mobile
 telephony professionals, Cellebrite is a global company known for its
