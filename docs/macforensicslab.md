@@ -47,7 +47,7 @@ unallocated space can be explored for evidence.
   Arbitration can be disabled at the click of a button to ensure Mac OS
   X does not try to mount (and thus alter) the suspects hard drive.
   Bootable CDs are available for both Intel and PowerPC Macintosh
-  Computers. 
+  Computers.
 - Detailed Logs - Every action taken whilst using the software is
   recorded in highly detailed logs to provide the investigator with as
   much information as possible when reporting. Freeform notes can be
@@ -60,20 +60,20 @@ unallocated space can be explored for evidence.
 - Flexible Hashing - Data Acquisition processes include
   [MD5](md5.md), [SHA1](sha1.md) and
   [SHA256](sha256.md) hashes. Hashes can be created for files
-  and folders at the click of a button. 
+  and folders at the click of a button.
 - Recovers evidence after a disk or device has been formatted - Got an
   initialized disk or other device that had files you want back?
   [MacForensicsLab™](http://www.MacForensicsLab.com) will recover your
   files, search for keywords, and allow analysis from the newly
-  initialized drive. 
+  initialized drive.
 - Recovers evidence from corrupt media - Corruption does not detain
   [MacForensicsLab™](http://www.MacForensicsLab.com). It will process
   any intact data on the disk and recover keywords and whole or partial
-  files wherever they are found. 
+  files wherever they are found.
 - Works with media from other operating systems -
   [MacForensicsLab™](http://www.MacForensicsLab.com) is able to perform
   data acquisition and analysis on drives from MS Windows, Linux, and
-  other operating systems. 
+  other operating systems.
 - Provides very quick and easy ways to bookmark evidence - with
   "Browse", [MacForensicsLab™](http://www.MacForensicsLab.com) allows
   the digital forensics investigator to sample files in native view

@@ -1,7 +1,7 @@
 ---
 tags:
   -  Organization
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 ## Products
 

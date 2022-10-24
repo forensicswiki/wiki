@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category 
+  - No Category
 ---
 **Enhanced Data rates for Global Evolution**, or **EDGE** is a mobile
 phone technology that enhances upon [GPRS](gprs.md).

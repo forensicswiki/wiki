@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **EnCase** is a family of all-in-one computer forensics suites sold by
 [Guidance Software](guidance_software.md). These products

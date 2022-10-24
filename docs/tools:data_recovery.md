@@ -1,7 +1,7 @@
 ---
 tags:
   -  Data Recovery
-  -  Tools 
+  -  Tools
 ---
 # Data Recovery
 

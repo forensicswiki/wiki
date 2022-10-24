@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 [Apple Mail](apple_mail.md) is a [mail user
 agent](mail_user_agent.md) distributed by [Apple

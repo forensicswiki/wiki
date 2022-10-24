@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 The Sony Playstation Portable (PSP) is a portable video game device and
 movie player. Released in May of 2004 in Japan and March 2005 in the US,

@@ -2,7 +2,7 @@
 tags:
   -  Articles that need to be expanded
   -  Windows
-  -  Tools 
+  -  Tools
 ---
 This closed-source library for "virtual address space translation" is
 used by other [Komoku](komoku.md) products like [Volatools

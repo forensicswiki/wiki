@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Disk Imaging 
+  -  Disk Imaging
 ---
 [Atola Insight Forensic](http://atola.com/products/insight/) is a fast
 forensic imaging system produced by [Atola

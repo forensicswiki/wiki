@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People 
+  -  People
 ---
 Andre Ross is a computer forensics researcher and practitioner. He was
 first to discover the impact of wear-levelling in NAND Flash Devices on

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos 
+  -  Howtos
 ---
 ## Guidelines
 

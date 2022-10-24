@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Hardware 
+  -  Hardware
   -  Disk Imaging
 ---
 [Atola TaskForce](https://atola.com/products/taskforce/) is a forensics

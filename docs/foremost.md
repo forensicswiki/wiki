@@ -1,9 +1,9 @@
 ---
 tags:
   -  Tools
-  -  Linux 
+  -  Linux
   -  Open Source Software
-  -  Data Carving 
+  -  Data Carving
 ---
 **Foremost** is a [Linux](linux.md) based program data for
 [recovering deleted files](recovering_deleted_data.md) and

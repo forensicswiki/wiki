@@ -3,7 +3,7 @@ tags:
   -  Windows
   -  Live CD
   -  Tools
-  -  Open Source Software 
+  -  Open Source Software
 ---
 
 **Windows Forensic Environment** - a forensically sound bootable CD/USB

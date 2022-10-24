@@ -6,7 +6,7 @@ tags:
   -  OpenBSD
   -  NetBSD
   -  Data Recovery
-  -  Network Forensics 
+  -  Network Forensics
 ---
 Inspired by [foremost](foremost.md), this tool by [Nick
 Harbour](nick_harbour.md) can recover files from network traffic

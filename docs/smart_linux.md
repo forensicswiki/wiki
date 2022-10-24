@@ -1,7 +1,7 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Live CD 
+  -  Live CD
 ---
 A [Live CD](live_cd.md) based on [Ubuntu](ubuntu.md).
 Includes [SMART](smart.md) and other forensic tools

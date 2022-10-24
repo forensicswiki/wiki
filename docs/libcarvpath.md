@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Analysis 
+  -  File Analysis
   -  Data Recovery
   -  Tools
   -  Open Source Software

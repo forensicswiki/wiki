@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats 
+  -  File Formats
   -  Archive
   -  Linux
   -  FreeBSD

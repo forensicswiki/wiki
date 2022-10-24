@@ -2,7 +2,7 @@
 tags:
   -  Linux
   -  Memory Analysis
-  -  Tools 
+  -  Tools
 ---
 ![<File:second_look_logo.png>](second_look_logo.png "File:second_look_logo.png")
 

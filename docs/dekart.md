@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 Dekart is a company headquartered in Chişinău, the capital of Moldova.
 

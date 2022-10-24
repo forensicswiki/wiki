@@ -8,7 +8,7 @@ tags:
   -  MacOS
   -  FreeBSD
   -  OpenBSD
-  -  NetBSD 
+  -  NetBSD
 ---
 sgzip is the Seekable GZIP disk image format, used by
 [pyflag](pyflag.md).

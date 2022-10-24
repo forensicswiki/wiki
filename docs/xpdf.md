@@ -8,7 +8,7 @@ tags:
   -  FreeBSD
   -  OpenBSD
   -  NetBSD
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **xpdf** is an [open source](open_source.md)
 [PDF](pdf.md) viewer package for the [X Window

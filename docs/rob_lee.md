@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People 
+  -  People
 ---
 <img align="right" src="assets/images/Roblee.jpeg">
 [Rob Lee](rob_lee.md) is an entrepreneur and consultant in the

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 Python is a high-level, general-purpose, interpreted, dynamic
 programming language. Its design philosophy emphasizes code readability,

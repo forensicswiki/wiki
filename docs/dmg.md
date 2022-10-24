@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats 
+  -  File Formats
   -  MacOS
   -  Disk Image
 ---

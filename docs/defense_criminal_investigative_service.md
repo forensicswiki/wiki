@@ -1,7 +1,7 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Organization 
+  -  Organization
 ---
 ## External Links
 

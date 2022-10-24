@@ -3,7 +3,7 @@ tags:
   -  Organization
   -  Research
   -  Training
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 WetStone Technologies offers Digital Investigation products and
 training. Our products include:

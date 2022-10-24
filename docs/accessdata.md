@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools 
+  -  Tools
   -  Windows
   -  Disk Analysis
-  -  Commercial Software 
+  -  Commercial Software
 ---
 *AccessData* offers computer forensics software and training. Their
 flagship product is [Forensic Toolkit](forensic_toolkit.md), but

@@ -5,7 +5,7 @@ tags:
   -  MacOS
   -  Tools
   -  Windows
-  -  XML 
+  -  XML
   -  Disk Analysis
   -  Data Carving
 ---

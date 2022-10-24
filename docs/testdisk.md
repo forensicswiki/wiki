@@ -8,7 +8,7 @@ tags:
   -  Solaris
   -  FreeBSD
   -  NetBSD
-  -  OpenBSD 
+  -  OpenBSD
 ---
 **TestDisk** is a free software data recovery utility licensed under the
 terms of the GNU General Public License (GPL). It was primarily designed

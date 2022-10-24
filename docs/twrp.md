@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Android
   -  Data Recovery
-  -  Howtos 
+  -  Howtos
   -  Articles that need to be expanded
 ---
 # TWRP (Team Win Recovery Project)

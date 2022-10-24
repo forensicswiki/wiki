@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **CodeSuite** is a collection of computer software analysis tools. The
 tools, which an examiner uses manually, are designed to look for similar

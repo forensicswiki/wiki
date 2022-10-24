@@ -1,7 +1,7 @@
 ---
 tags:
   -  Network Forensics
-  -  Tools 
+  -  Tools
 ---
 # Network Forensics Packages and Appliances
 

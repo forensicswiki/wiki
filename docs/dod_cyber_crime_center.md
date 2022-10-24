@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 The **DoD Cyber Crime Center**, or **DC3**, is a Department of Defense
 organization run by the [Air Force Office of Special

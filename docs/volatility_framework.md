@@ -1,7 +1,7 @@
 ---
 tags:
   -  Memory Analysis
-  -  Tools 
+  -  Tools
   -  Windows
   -  Linux
   -  MacOS

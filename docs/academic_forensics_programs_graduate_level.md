@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Research 
+  -  Research
   -  Articles that need to be expanded
 ---
 ## US Programs

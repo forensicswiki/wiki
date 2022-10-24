@@ -6,18 +6,18 @@ hide:
 # Welcome to Forensicswiki
 
 
-The Forensicswiki is an opensouce website,  that provides information related to [digital forensics](digital_forensics.md).  The articles on the website cover a wide range of information from <a href="tags/#tools">tools</a> used during investigations to <a href="tags/#papers">papers</a>, <a href="tags/#people">people</a>, and <a href="tags/#organizations">organizations</a> that contribute to the field.  
+The Forensicswiki is an opensouce website,  that provides information related to [digital forensics](digital_forensics.md).  The articles on the website cover a wide range of information from <a href="tags/#tools">tools</a> used during investigations to <a href="tags/#papers">papers</a>, <a href="tags/#people">people</a>, and <a href="tags/#organizations">organizations</a> that contribute to the field.
 
-Please see the community page if you would like to [contribute](community.md).  
+Please see the community page if you would like to [contribute](community.md).
 
-## Discover Content 
+## Discover Content
 
 ### Tags
 In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>.  Each page on this website is labled with <a href="tags">tags</a>.  The page could have one tag or multiple tags depending on the content of the site.  Tags are placed at the top of the article.
 
 For example, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content categorized under that tag.
 
-### Topics 
+### Topics
 <html>
 <head>
 <style>
@@ -53,7 +53,7 @@ For example, the [Full Disk Encryption](full_disk_encryption.md) article has thr
     <th>Articles</th>
   </tr>
   <tr>
-    <td><a href="tags/#operating-systems">Operating Systems</a></td> 
+    <td><a href="tags/#operating-systems">Operating Systems</a></td>
     <td width="1000">
     <ui><li><a href="windows">Windows</a>: <a href="windows_vista">windows_vista</a>, <a href="windows_7">windows 7</a>, <a href="windows_8">windows 8</a>, <a href="windows_10">windows 10</a></ui></li>
     <ui><li><a href="unix">Unix</a>: <a href="freebsd">freebsd</a>, <a href="netbsd">netbsd</a>, <a href="openbsd">openbsd</a>, <a href="solaris">solaris</a>, <a href="aix">aix</a></ui></li>

@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Open Source Software
   -  Commercial Software
-  -  Free Software 
+  -  Free Software
   -  Security Software
 ---
 **Antivirus software** is a program or suite of programs working in

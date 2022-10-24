@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Deprecated 
+  -  Deprecated
   -  Tools
   -  Live CD
   -  FreeBSD

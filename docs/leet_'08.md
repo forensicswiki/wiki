@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research 
-  -  Training 
+  -  Research
+  -  Training
 ---
 As the Internet has become a universal mechanism for commerce and
 communication, it has also become an attractive medium for online

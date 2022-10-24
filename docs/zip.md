@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Archive 
+  -  Archive
   -  Windows
   -  FreeBSD
   -  Linux

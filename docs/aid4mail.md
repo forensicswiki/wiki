@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
   -  Tools
   -  Commercial Software
-  -  Email Analysis 
+  -  Email Analysis
 ---
 **Aid4Mail** is a commercial email forensics product by [Fookes
 Software](fookes_software.md). It's used to collect, convert and

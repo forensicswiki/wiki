@@ -1,7 +1,7 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Research 
+  -  Research
 ---
 Follow-up Workshop for Digital Forensics Educators
 

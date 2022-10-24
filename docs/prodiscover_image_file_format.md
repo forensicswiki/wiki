@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats 
+  -  File Formats
   -  Disk Imaging
   -  Windows
   -  Articles that need to be expanded
