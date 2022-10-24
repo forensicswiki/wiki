@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  Live CD
   -  Tools
-  -  Opensource Softwre
+  -  Open Source Software
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) that includes
 SleuthKit.
