@@ -41,6 +41,7 @@ In order to make the Forensics Wiki valuable, please use the following guideline
 2.  Sections:  Appropiate sections are used to describe the topic being discussed.  
 
     For example, if you are writing an article about a tool, you might have the following headings:
+    
     - **Introduction**: This section may include history of the tool, OSes supported, and File Systems supported.
 
     - **Usage**: This section may include common command line usage and the output to expect.
