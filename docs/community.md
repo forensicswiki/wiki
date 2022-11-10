@@ -35,42 +35,19 @@ artifacts" then the name should be `forensic_artifacts.md`.
 
 ### Content Requirements
 
-In order to make the Forensicswiki valuable, the following guidelines will help ensure high quality articles get written:
+In order to make the Forensics Wiki valuable, please use the following guidelines to help write high-quality articles:
 
 1.  Introduction:  All articles should have an Introduction, which summarizes what you intend to discuss in the article.
-2.  Sections:  Appropiate sections that are used to describe the topic that is being discussed.  
+2.  Sections:  Appropiate sections are used to describe the topic being discussed.  
 
-    For example,  if you are writing an article about a tool, you might have the following headings:
-    ``` 
-    Introduction:
-
-    This section may include history of the tool, OSes supported, and File Systems supported.
-
-    Usage:
-
-    This section may include common command line usage and the output to expect.
-
-    Use:
-
-    This section may include common uses of a tool.  A tool could contain one or more common uses.
-
-    For example, The DD Unix utility could image drives as well wipe drives so data is not recoverable.
-
-    See Also:
-
-    This section may include links to articles with related content, Complementary Tools, or Forks of the Tool.
-
-    For example, If you were writing an article about the Sleuthkit tool, you may want to include a link to an article about Autopsy.
-
-    References:
-
-    Any references to backup the information you are providing.
-
-    External links:
-    
-    Any external links to the project page or Official website.
-    ```
-3.  Media:  Images are not required but if they help explain the topic they could be added.
+    For example, if you are writing an article about a tool, you might have the following headings:
+    - **Introduction**: This section may include history of the tool, OSes supported, and File Systems supported.
+    - **Usage**: This section may include common command line usage and the output to expect.
+    - **Use**: This section may include common uses of a tool. A tool could contain one or more common uses. For example, the DD Unix utility could image drives as well wipe drives so data is not recoverable.
+    - **See Also**: This section may include links to articles with related content, complementary tools, or forks of the tool. For example, if you were writing an article about The Sleuth Kit (TSK), you may want to include a link to an article about Autopsy.
+    - **References**: Any references to support the information you are providing.
+    - **External links**: Any external links, such as to the project page or official website.
+3.  Media:  Images are not required, but if they help explain the topic they could be added.
 4.  Length:  There is no requirement for length but the article should be long enough to explain the topic. 
 
 ### Tags
