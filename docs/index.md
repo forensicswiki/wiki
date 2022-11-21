@@ -3,17 +3,18 @@ hide:
   - navigation
   - title
 ---
-# Welcome to Forensicswiki
+# Welcome to the Forensics Wiki
 
+> The Forensics Wiki has transitioned to this new domain and platform; read more about it at [Transitioning Forensics Wiki to GitHub](https://osdfir.blogspot.com/2022/11/transitioning-forensics-wiki-to-github.html).
 
-The Forensicswiki is an opensouce website,  that provides information related to [digital forensics](digital_forensics.md).  The articles on the website cover a wide range of information from <a href="tags/#tools">tools</a> used during investigations to <a href="tags/#papers">papers</a>, <a href="tags/#people">people</a>, and <a href="tags/#organizations">organizations</a> that contribute to the field.  
+The Forensics Wiki is an open source website providing information related to digital forensics.  The articles on the website cover a wide range of information from <a href="tags/#tools">tools</a> used during investigations to <a href="tags/#papers">papers</a>, <a href="tags/#people">people</a>, and <a href="tags/#organizations">organizations</a> that contribute to the field.  
 
 Please see the community page if you would like to [contribute](community.md).  
 
 ## Discover Content 
 
 ### Tags
-In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>.  Each page on this website is labled with <a href="tags">tags</a>.  The page could have one tag or multiple tags depending on the content of the site.  Tags are placed at the top of the article.
+In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>.  Each page on this website is labeled with <a href="tags">tags</a>.  The page could have one tag or multiple tags depending on the content of the site.  Tags are placed at the top of the article.
 
 For example, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: <a href="tags/#encryption">Encryption</a>, <a href="tags/#disk-encrypton">Disk Encryption</a> and <a href="tags/#anti-forensics">Anti-forensics</a>.  If you clicked on anyone of the tags, it will bring you to all content categorized under that tag.
 
@@ -75,6 +76,7 @@ For example, the [Full Disk Encryption](full_disk_encryption.md) article has thr
 
 There are a number of <a href="tags/#articles-that-need-to-be-expanded">articles</a> that could use some love.  If you want to help out please read about [contributing](community.md)
 
-##  Find us on Github
+##  Contribute on to the Forensics Wiki on GitHub
 
-The Forensicswiki is now on [Github](https://github.com/forensicswiki/wiki)
+The Forensics Wiki is now on [GitHub](https://github.com/forensicswiki/wiki) and accepting content contributions from the community. Please see the [community page](community.md) for instructions if you would like to add or edit content.  
+ 
