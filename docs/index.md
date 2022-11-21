@@ -63,7 +63,7 @@ For example, the [Full Disk Encryption](full_disk_encryption.md) article has thr
   <tr>
     <td><a href="tags/#tools">Tools</a></td>
     <td width="1000">
-    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a href="bless">bless</a>, <a href="ghirda">ghirda</a>, <a href="pst_file_viewer> PST File Viewer</a><a href="hachoir">hachoir</a></ui></li>
+    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a href="bless">bless</a>, <a href="ghidra">ghidra</a>, <a href="pst_file_viewer> PST File Viewer</a><a href="hachoir">hachoir</a></ui></li>
     <ui><li><a href="tags/#timeline-analysis">Timeline Analysis</a>: <a href="timesketch">timesketch</a>, <a href="aftertime">aftertime</a>, <a href="plaso">plaso</a></ui></li>
     <ui><li><a href="tags/#disk-analysis">Disk Analysis</a>: <a href="the_sleuth_kit">sleuthkit</a>, <a href="bulk_extractor">bulk_extractor</a>, <a href="fiwalk">fiwalk</a></ui></li>
     <ui><li><a href="tags/#network-analysis">Network Analysis</a>: <a href="snort">snort</a>, <a href="tcpdump">tcpdump</a>, <a href="nmap">nmap</a></ui></li>
