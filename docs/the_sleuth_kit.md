@@ -6,7 +6,7 @@ tags:
   -  MacOS
   -  Disk Analysis
   -  Data Carving
-  -  Data Recovery 
+  -  Data Recovery
   -  Open Source Software
 ---
 **The Sleuth Kit** (**TSK**) is a collection of

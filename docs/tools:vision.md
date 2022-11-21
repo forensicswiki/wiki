@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 To make automated forensic tools, we are going to increasingly need to
 incorporate computer vision tools into our software. This page is a

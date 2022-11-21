@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 The phrase **Epoch** is commonly used to describe the date and time that
 is represented by the number "0".

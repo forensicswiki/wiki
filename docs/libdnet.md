@@ -2,7 +2,7 @@
 tags:
   -  Network Analysis
   -  Tools
-  -  Libyal 
+  -  Libyal
   -  FreeBSD
   -  OpenBSD
   -  NetBSD

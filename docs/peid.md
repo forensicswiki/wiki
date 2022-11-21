@@ -3,7 +3,7 @@ tags:
   -  Articles that need to be expanded
   -  Windows
   -  File Analysis
-  -  Tools 
+  -  Tools
   -  Open Source Software
 ---
 PEiD is a GUI-based program that runs under Windows which identifies

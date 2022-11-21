@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems 
+  -  Operating Systems
 ---
 **Palm OS** is an embedded operating system initially developed by U.S.
 Robotics' owned Palm Computing, Inc. for personal digital assistants

@@ -5,7 +5,7 @@ tags:
   -  Linux
   -  Disk Analysis
   -  Tools
-  -  Open Source Software 
+  -  Open Source Software
   -  Articles that need to be expanded
 ---
 Autopsy® is an easy to use, GUI-based program that allows you to

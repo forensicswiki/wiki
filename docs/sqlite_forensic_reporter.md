@@ -3,7 +3,7 @@ tags:
   -  Windows
   -  Log Analysis
   -  Commercial Software
-  -  Tools 
+  -  Tools
 ---
 **SQLite Forensic Reporter** is a commercial
 [analysis](analysis.md) tool. A universal SQLite database

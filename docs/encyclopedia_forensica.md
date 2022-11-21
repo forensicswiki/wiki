@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 Encyclopedia is defined as - An encyclopedia is a type of reference work
 – a compendium holding a summary of information from either all branches

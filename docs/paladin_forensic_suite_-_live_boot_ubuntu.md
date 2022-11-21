@@ -1,6 +1,6 @@
 ---
 tags:
-  -  MacOS 
+  -  MacOS
   -  Tools
   -  System Analysis
   -  Free Software

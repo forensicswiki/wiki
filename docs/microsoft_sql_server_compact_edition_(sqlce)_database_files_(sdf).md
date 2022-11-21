@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Database 
+  -  Database
   -  Windows
   -  Articles that need to be expanded
 ---

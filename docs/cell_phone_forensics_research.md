@@ -1,7 +1,7 @@
 ---
 tags:
   -  Research
-  -  Websites 
+  -  Websites
 ---
 ## Academic Publications
 

@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Linux 
+  -  Linux
   -  Windows
   -  MacOS
   -  FreeBSD
   -  Disk Imaging
-  -  Tools 
+  -  Tools
   -  Anti-Forensics
 ---
 **dd**, sometimes called **GNU dd**, is the oldest [imaging

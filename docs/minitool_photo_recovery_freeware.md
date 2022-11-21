@@ -3,7 +3,7 @@ tags:
   -  Data Recovery
   -  Tools
   -  Windows
-  -  Free Software 
+  -  Free Software
 ---
 **MiniTool Photo Recovery Freeware** is designed with free but
 outstanding photo recovery solutions, which can help recover lost photos

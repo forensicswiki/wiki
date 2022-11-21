@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
   -  Articles that need to be expanded
 ---
 **About Arsenal Recon**

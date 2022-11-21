@@ -3,7 +3,7 @@ tags:
   -  Articles that need to be expanded
   -  Tools
   -  Windows
-  -  Memory Imaging 
+  -  Memory Imaging
 ---
 **Kntdd** is a tool by [GMG Systems Inc.](gmg_systems_inc..md)
 for [imaging physical memory](memory_imaging.md) on

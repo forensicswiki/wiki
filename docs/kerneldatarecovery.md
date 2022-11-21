@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization  
+  -  Organization
 ---
 ## Kernel Data Recovery
 

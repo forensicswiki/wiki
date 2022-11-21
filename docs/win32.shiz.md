@@ -1,7 +1,7 @@
 ---
 tags:
   -  Malware
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 *Win32.Shiz* (other name: *Trojan.PWS.Ibank*) is a malicious program
 designed for online banking fraud.

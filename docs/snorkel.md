@@ -1,7 +1,7 @@
 ---
 tags:
   -  Disk Analysis
-  -  Tools 
+  -  Tools
   -  Windows
   -  Linux
   -  MacOS

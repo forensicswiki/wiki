@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Articles that need to be expanded
-  -  Disk Imaging 
+  -  Disk Imaging
 ---
 The **Logicube Forensic Quest** is a disk imager made by
 [Logicube](logicube.md).

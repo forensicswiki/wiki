@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Data Recovery 
+  -  Data Recovery
   -  Windows
   -  Commercial Software
   -  Tools

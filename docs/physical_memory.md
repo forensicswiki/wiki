@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Memory 
+  -  Memory
 ---
 **Physical memory** is the **Random Access Memory**, or **RAM**, used by
 the computer. By [imaging](tools:memory_imaging.md) the physical

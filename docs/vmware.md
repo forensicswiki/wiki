@@ -1,7 +1,7 @@
 ---
 tags:
   -  Tools
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 A program to allow the construction and operation of operating systems
 using [virtual machines](virtual_machines.md).

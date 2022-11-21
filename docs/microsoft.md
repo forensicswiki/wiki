@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
   -  Articles that need to be expanded
 ---
 This Redmond, Washington based computer makes the popular

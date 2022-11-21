@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research 
-  -  Conferences  
+  -  Research
+  -  Conferences
 ---
 This is a list of **conferences** in the [computer
 forensics](computer_forensics.md) field, and was originally

@@ -2,7 +2,7 @@
 tags:
   -  File Formats
   -  XML
-  -  Windows 
+  -  Windows
 ---
 Microsoft's .reg format for representing MS Registry entries has many
 limitations, such as the inability to represent where registry

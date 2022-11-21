@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **Video devices** allow you to play or record video. These devices can
 be interesting for a [forensic

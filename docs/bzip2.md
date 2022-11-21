@@ -6,7 +6,7 @@ tags:
   -  FreeBSD
   -  OpenBSD
   -  NetBSD
-  -  Solaris 
+  -  Solaris
   -  AIX
 ---
 The bzip2 (.bz2) file consists of a single bzip2 stream. The bzip2

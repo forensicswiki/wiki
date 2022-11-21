@@ -1,7 +1,7 @@
 ---
 tags:
   -  Tools
-  -  Log Analysis 
+  -  Log Analysis
 ---
 Although not strictly for forensic purposes, **visualization tools**
 such as the ones discussed here can be very useful for visualizing large

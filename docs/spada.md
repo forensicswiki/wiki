@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Deprecated 
+  -  Deprecated
   -  Linux
   -  Tools
-  -  Live CD 
+  -  Live CD
   -  Open Source Software
 ---
 **SPADA**, or System Preview And Data Acquisition, is a forensic [Live

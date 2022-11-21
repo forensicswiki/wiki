@@ -2,7 +2,7 @@
 tags:
   -  Articles that need to be expanded
   -  Research
-  -  Papers 
+  -  Papers
 ---
 ## Bibliography
 

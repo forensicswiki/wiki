@@ -3,7 +3,7 @@ tags:
   -  Tools
   -  Live CD
   -  Linux
-  -  Open Source Software 
+  -  Open Source Software
   -  Analysis
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) intended for

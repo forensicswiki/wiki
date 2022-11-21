@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Research
-  -  Papers 
+  -  Papers
 ---
 ## Timeline formats
 

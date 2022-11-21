@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization 
+  -  Organization
 ---
 Dekart is a company headquartered in Chişinău, the capital of Moldova.
 
@@ -9,7 +9,7 @@ in the following areas: [encryption](encryption.md),
 authentication, digital signatures and [SIM](sim.md) card
 management.
 
-The following Dekart software is described on Forensicswiki:
+The following Dekart software is described on Forensics Wiki:
 
 - [SIM Explorer](sim_explorer.md), a tool to read hidden SIM
   card data.

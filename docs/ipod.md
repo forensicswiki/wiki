@@ -1,7 +1,7 @@
 ---
 tags:
   -  Hardware
-  -  Personal Device 
+  -  Personal Device
 ---
 <img src="assets/images/300px-Ipod.jpg"  align="right">
 The **iPod** is a brand of portable digital media player designed and

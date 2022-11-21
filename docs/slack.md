@@ -1,7 +1,7 @@
 ---
 tags:
   -  Articles that need to be expanded
-  -  Anti-Forensics 
+  -  Anti-Forensics
 ---
 ## Definition
 

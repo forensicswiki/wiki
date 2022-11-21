@@ -1,7 +1,7 @@
 ---
 tags:
   -  Organization
-  -  Articles that need to be expanded 
+  -  Articles that need to be expanded
 ---
 **Tableau** develops and manufactures products geared towards the needs
 of the computer forensics community, such as hard drive [write
