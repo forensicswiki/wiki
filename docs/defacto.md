@@ -2,7 +2,7 @@
 tags:
   -  Tools
   -  Windows
-  -  Commerical Software
+  -  Commercial Software
   -  System Analysis
 ---
 **Defacto** is a software inventorization tool developed by National

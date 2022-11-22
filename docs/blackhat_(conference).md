@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Reasearch
+  -  Research
   -  Articles that need to be expanded
 ---
 ## External Links

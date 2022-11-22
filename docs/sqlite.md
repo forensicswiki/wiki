@@ -7,7 +7,7 @@ tags:
   -  Windows
   -  Android
   -  Linux
-  -  Ios
+  -  iOS
   -  FreeBSD
   -  OpenBSD
   -  NetBSD

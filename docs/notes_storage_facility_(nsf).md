@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Formats
-  -  Datbase
+  -  Database
   -  Windows
 ---
 [Lotus](lotus.md) [Notes](notes.md) and
