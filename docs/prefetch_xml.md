@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Digital Foreniscs XML
+  -  Digital Forensics XML
 ---
 A Prefetch file is used by Windows NT to improve the startup process of
 an application. Each prefetch file provides information about each ran

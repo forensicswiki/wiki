@@ -14,11 +14,7 @@ enforcement agencies and forensic experts.
 
 ### The system has several key features for data capture in forensic and e-discovery cases:
 
-<figure>
-<img src="assets/images/500px-Atola-Insight-Foresnics.jpg" title="Insight.jpg" width="500"
-alt="Insight.jpg" align="right"/>
-<figcaption aria-hidden="true">Insight.jpg</figcaption>
-</figure>
+![Insight.jpg](assets/images/500px-Atola-Insight-Foresnics.jpg)
 
 - Fastest in industry imaging speed up to 550 MB/s
 - High-performance multi-pass imaging for damaged drives

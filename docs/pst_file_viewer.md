@@ -1,7 +1,7 @@
 ---
 tags:
   -  File Analysis
-  -  Email Aanalysis
+  -  Email Analysis
   -  Windows
   -  Tools
   -  Free Software

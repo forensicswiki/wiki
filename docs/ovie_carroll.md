@@ -2,19 +2,16 @@
 tags:
   -  People
 ---
-'<img src="assets/images/400px-OLC.jpeg" title="OLC.jpg" width="200" alt="OLC.jpg" align="right" />*Ovie
+<img src="../assets/images/400px-OLC.jpeg" title="OLC.jpg" width="200" alt="OLC.jpg" align="right" />*Ovie
 Carroll*' is the Director for the Cybercrime Lab at the [Department of
 Justice, Computer Crime and Intellectual Property
-Section](department_of_justice,_computer_crime_and_intellectual_property_section.md)
+Section](department_of_justice_computer_crime_and_intellectual_property_section.md)
 (CCIPS). Mr. Carroll's career includes more than 31 years in law
 enforcement. Mr. Carroll is also a [SANS](sans.md) Principal
 Instructor and co-author
-[1](https://www.sans.org/instructors/ovie-carroll) of SANS [Forensic
-500-Windows Forensic
-Analysis](forensic_500-windows_forensic_analysis.md) course and
-is an adjunct professor at [George Washington
-University](george_washington_university.md) in the Masters of
-Forensic Science program where he teaches Internet Investigations and
+[1](https://www.sans.org/instructors/ovie-carroll) of SANS Forensic
+500-Windows Forensic Analysis course and is an adjunct professor at George Washington
+University in the Masters of Forensic Science program where he teaches Internet Investigations and
 Interview & Interrogation.
 
 Prior to joining the Department of Justice, Mr. Carroll was the Special

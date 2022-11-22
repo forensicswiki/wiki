@@ -8,11 +8,7 @@ imager by [Atola Technology](https://atola.com/), designed for working
 with both good and damaged media with a focus on high-performance (up to
 18 parallel imaging sessions at 15 TB/hour).
 
-<figure>
-<img src="assets/images/500px-Atola-taskforce.jpg" title="Atola-taskforce.jpg" width="500"
-alt="Atola-taskforce.jpg" align="right"/>
-<figcaption aria-hidden="true">Atola-taskforce.jpg</figcaption>
-</figure>
+![Atola-taskforce.jpg](assets/images/500px-Atola-taskforce.jpg)
 
 ## General Information
 
@@ -25,8 +21,7 @@ alt="Atola-taskforce.jpg" align="right"/>
 - Evidence drives can be imaged to up to 5 targets each. The targets may
   include other drives, image files (E01, RAW, img or dd) on a target
   drive or on a server, or a combination of all of the above
-- [Multi-user
-  access](https://atola.com/products/taskforce/multi-user.html) allows a
+- [Multi-user access](https://atola.com/products/taskforce/multi-user.html) allows a
   group of operators to work simultaneously on different tasks, tracking
   the progress remotely and using multitasking capabilities to the full.
 - Standalone mode for in-the-field imaging

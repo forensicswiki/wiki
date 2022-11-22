@@ -2,7 +2,7 @@
 tags:
   -  People
 ---
-<img src="assets/images/200px-AdrianSantangelo.jpg" title="AdrianSantangelo.jpg" width="200"
+<img src="../assets/images/200px-AdrianSantangelo.jpg" title="AdrianSantangelo.jpg" width="200"
 alt="AdrianSantangelo.jpg" align="right"/> Adrian Santangelo has over a decade of
 computer forensic experience which started with deep roots in
 information and network security. He has been a self-employed computer

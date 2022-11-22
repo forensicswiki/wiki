@@ -2,7 +2,7 @@
 tags:
   -  Disk Encryption
   -  Encryption
-  -  Anti-Foresnics
+  -  Anti-Forensics
   -  Windows
 ---
 Encrypted File System (EFS) is the [Cryptographic File

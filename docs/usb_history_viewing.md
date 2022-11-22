@@ -2,7 +2,7 @@
 tags:
   -  Howtos
   -  Windows
-  -  Logs Analysis
+  -  Log Analysis
   -  Artifact Analysis
 ---
 Microsoft [Windows](windows.md) operating systems records

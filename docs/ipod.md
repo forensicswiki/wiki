@@ -1,9 +1,9 @@
 ---
 tags:
   -  Hardware
-  -  Personal Device
+  -  Personal Devices
 ---
-<img src="assets/images/300px-Ipod.jpg"  align="right">
+<img src="../assets/images/300px-Ipod.jpg" align="right">
 The **iPod** is a brand of portable digital media player designed and
 marketed by [Apple Computer](apple_computer.md). Devices in the
 iPod family provide a simple user interface designed around a central
