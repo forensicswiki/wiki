@@ -1,8 +1,9 @@
 ---
 tags:
-  - No Category
+  - Mobile
+  - Sim 
 ---
-![](Simpic.jpg "Simpic.jpg")
+<img src=assets/images/300px-Simpic.jpg alt=Simpic.jpg align="right">
 
 ## SIM-Subscriber Identity Module
 

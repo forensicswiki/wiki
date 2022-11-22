@@ -1,8 +1,3 @@
----
-tags:
-  - No Category
----
-
 List of usernames that contributed to the MediaWiki version of Forensics Wiki.
 Sorted by date of first contribution.
 
