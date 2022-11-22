@@ -3,284 +3,85 @@ tags:
   -  Research
   -  Books
 ---
-# General books about forensics
 
-| Title                                                                                                                                                                                        | Author                                       | ISBN       | Publisher     | Publication Date | Comment            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|------------|---------------|------------------|--------------------|
-| [Principles and Practice of Criminalistics: The Profession of Forensic Science](http://www.amazon.com/gp/product/0849381274/)                                                                | Keith Inman and Norah Rudin                  | 0849381274 | CRC Press     | Aug 29, 2000     | Highly Recommended |
-| [Forensic Science Handbook, Volume I (2nd Edition)](http://www.amazon.com/gp/product/0130910589/)                                                                                            | Richard E. Saferstein, Ed.                   | 0130910589 | Prentice Hall | Jun 5, 2001      |                    |
-| [Forensic Science Handbook, Volume II (2nd Edition)](http://www.amazon.com/gp/product/013112434X/)                                                                                           | Richard E. Saferstein, Ed.                   | 013112434X | Prentice Hall | Oct 8, 2004      |                    |
-| [Forensic Science Handbook, Volume III](http://www.amazon.com/gp/product/0133253902/)                                                                                                        | Richard E. Saferstein, Ed.                   | 0133253902 | Prentice Hall | Apr 22, 1993     |                    |
-| [Forensic Science: An Introduction to Scientific and Investigative Techniques, Second Edition](http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=2747&parent_id=411&pc=) | Stuart James and Jon J Nordby                | 0849327474 | CRC Press     | Feb 10, 2005     |                    |
-| [Ethics in Forensic Science: Professional Standards for the Practice of Criminalistics](http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=0860&parent_id=411&pc=)        | Peter D Barnett                              | 0849308607 | CRC Press     | Jun 27, 2001     |                    |
-| [Wiley Encyclopedia of Forensic Science (Five Volume Set)](http://www.amazon.com/gp/product/0470018267)                                                                                      | Allan Jamieson (Ed) and Andre Moenssens (Ed) | 0470018267 | Wiley         | Jun 29, 2009     |                    |
-|                                                                                                                                                                                              |                                              |            |               |                  |                    |
+# Books About Forensics
 
-# Books about computer forensics
+We do our best to capture and updated list of books pertinent to digital forensics and topics in digital forensics, including books published in other languages. If you know of a great book missing from this list, please feel free to add.
 
-<table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 20%" />
-<col style="width: 10%" />
-<col style="width: 20%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Title</p></th>
-<th><p>Author</p></th>
-<th><p>ISBN</p></th>
-<th><p>Publisher</p></th>
-<th><p>Publication Date</p></th>
-<th><p>Comment</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="http://www.awprofessional.com/title/0321268172">File
-System Forensic Analysis</a></p></td>
-<td><p><a href="Brian_Carrier" title="wikilink">Brian
-Carrier</a></p></td>
-<td><p>0321268172</p></td>
-<td><p>Addison-Wesley</p></td>
-<td><p>Mar 27, 2005</p></td>
-<td><p>(Highly recommended)</p></td>
-</tr>
-<tr class="even">
-<td><p><a
-href="http://viaforensics.com/education/android-forensics-mobile-security-book/">Android
-Forensics: Investigation, Analysis and Mobile Security for Google
-Android</a></p></td>
-<td><p>Andrew Hoog</p></td>
-<td><p>1597496510</p></td>
-<td><p>Syngress</p></td>
-<td><p>June 2011</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a
-href="http://viaforensics.com/education/iphone-ios-forensics-mobile-security-book/">iPhone
-and iOS Forensics: Investigation, Analysis and Mobile Security for Apple
-iPhone, iPad and iOS Devices</a></p></td>
-<td><p>Andrew Hoog and Katie Strzempka</p></td>
-<td><p>1597496596</p></td>
-<td><p>Syngress</p></td>
-<td><p>June 2011</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="http://www.amazon.com/gp/product/020163497X">Forensic
-Discovery</a></p></td>
-<td><p>Dan Farmer and Wietse Venema</p></td>
-<td><p>0321703251</p></td>
-<td><p>Addison-Wesley</p></td>
-<td><p>Dec 28, 2009</p></td>
-<td><p><a
-href="http://www.porcupine.org/forensics/forensic-discovery/">HTML
-version</a> of the book is freely available online.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="http://www.amazon.com/gp/product/0121631044">Digital
-Evidence and Computer Crime</a> Second Edition</p></td>
-<td><p>Eoghan Casey</p></td>
-<td><p>0121631044</p></td>
-<td><p>Academic Press</p></td>
-<td><p>Mar 22, 2004</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="http://www.amazon.com/gp/product/0123742676">Handbook of
-Digital Forensics and Investigation</a></p></td>
-<td><p>Eoghan Casey</p></td>
-<td><p>0123742676</p></td>
-<td><p>Academic Press</p></td>
-<td><p>Nov 09, 2009</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a
-href="http://books.mcgraw-hill.com/getbook.php?isbn=007222696X">Incident
-Response &amp; Computer Forensics, Second Edition</a></p></td>
-<td><p>Kevin Mandia, Chris Prosise &amp; Matt Pepe</p></td>
-<td><p>007222696X</p></td>
-<td><p>McGraw-Hill/Osborne</p></td>
-<td><p>Jul 17, 2003</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a
-href="http://www.awprofessional.com/bookstore/product.asp?isbn=0321200985&amp;rl=1">Windows
-Forensics and Incident Recovery</a></p></td>
-<td><p><a href="Harlan_Carvey" title="wikilink">Harlan
-Carvey</a></p></td>
-<td><p>0321200985</p></td>
-<td><p>Addison Wesley Professional</p></td>
-<td><p>Jul 21, 2004</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="http://www.ncjrs.gov/pdffiles1/nij/199408.pdf">Forensic
-Examination of Digital Evidence: A Guide for Law
-Enforcement</a></p></td>
-<td><p>NCJ 199408</p></td>
-<td></td>
-<td><p>National Institute of Justice</p></td>
-<td><p>April 2004</p></td>
-<td><p>Special Report</p></td>
-</tr>
-<tr class="even">
-<td><p><a
-href="http://www.ncjrs.gov/pdffiles1/nij/187736.pdf">Electronic Crime
-Scene Investigation: A Guide for First Responders</a></p></td>
-<td><p>NCJ 187736</p></td>
-<td></td>
-<td><p>National Institute of Justice</p></td>
-<td><p>July 2001</p></td>
-<td><p>NIJ Guide</p></td>
-</tr>
-<tr class="odd">
-<td><p><a
-href="http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=2218&amp;parent_id=411&amp;pc=">Investigating
-Computer-Related Crime</a></p></td>
-<td><p>Peter Stephenson</p></td>
-<td><p>0849322189</p></td>
-<td><p>CRC Press</p></td>
-<td><p>Sep 28, 1999</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a
-href="http://www.crcpress.com/shopping_cart/products/product_detail.asp?id=&amp;parent_id=411&amp;sku=AU2433&amp;pc=">Investigator's
-Guide to Steganography</a></p></td>
-<td><p>Gregory Kipper</p></td>
-<td><p>0849324335</p></td>
-<td><p>Auerbach Publications</p></td>
-<td><p>Oct 27, 2003</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a
-href="http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=AU0955&amp;parent_id=411&amp;pc=">Cyber
-Forensics: A Field Manual for Collecting, Examining, and Preserving
-Evidence of Computer Crimes</a></p></td>
-<td><p>Albert J Marcella, Jr. and Robert S Greenfield</p></td>
-<td><p>0849309557</p></td>
-<td><p>Auerbach Publications</p></td>
-<td><p>Jan 23, 2002</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a
-href="http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=8158&amp;parent_id=411&amp;pc=">Investigating
-Computer Crime</a></p></td>
-<td><p>Franklin Clark and Ken Diliberto</p></td>
-<td><p>0849381584</p></td>
-<td><p>CRC Press</p></td>
-<td><p>Jul 11, 1996</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="http://www.syngress.com/catalog/?pid=4230">Windows
-Forensic Analysis</a><br />
-<a
-href="http://www.amazon.com/Windows-Forensic-Analysis-Toolkit-Second/dp/1597494224">Windows
-Forensic Analysis DVD Toolkit, Second Edition</a></p></td>
-<td><p><a href="Harlan_Carvey" title="wikilink">Harlan
-Carvey</a></p></td>
-<td><p>159749156X<br />
-1597494224</p></td>
-<td><p>Syngress (Elsevier)</p></td>
-<td><p>May 21, 2007<br />
-Jun 11, 2009</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="http://www.syngress.com/catalog/?pid=4220">CD and DVD
-Forensics</a></p></td>
-<td><p><a href="Paul_Crowley" title="wikilink">Paul Crowley</a> and <a
-href="Dave_Kleiman" title="wikilink">Dave Kleiman</a>(Technical
-Editor)</p></td>
-<td><p>1597491284</p></td>
-<td><p>Syngress</p></td>
-<td><p>Nov 8, 2006</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="http://www.amazon.com/gp/product/0470097620">Mastering
-Windows Network Forensics and Investigation</a></p></td>
-<td><p>Steven Anson and Steve Bunting</p></td>
-<td><p>0470097620</p></td>
-<td><p>Sybex</p></td>
-<td><p>April 02, 2007</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><a href="http://www.amazon.com/gp/product/0596153589">iPhone
-Forensics</a></p></td>
-<td><p>Jonathan Zdziarski</p></td>
-<td><p>0596153589</p></td>
-<td><p>O'Reilly</p></td>
-<td><p>Sep 12, 2008</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><a href="http://www.amazon.com/gp/product/1597492973">Mac OS X,
-iPod, and iPhone Forensic Analysis DVD Toolkit</a></p></td>
-<td><p>Ryan R. Kubasiak, Sean Morrissey and Jesse Varsalone (Tech.
-Ed.)</p></td>
-<td><p>1597492973</p></td>
-<td><p>Syngress</p></td>
-<td><p>Dec 08, 2008</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+All books are listed alphabetically, by title, and linked to Amazon product pages for posterity, as some publisher links are broken or websites have changed.
 
-# Books about OS architecture and design
+## General Forensics
 
-| Title                                                                                                               | Author                                                                                                                  | ISBN       | Publisher                   | Publication Date | Comment                      |
-|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------|-----------------------------|------------------|------------------------------|
-| [Windows Internals Part 1, 6ed](http://technet.microsoft.com/en-us/sysinternals/bb963901)                           | [Mark Russinovich, David A. Solomon, and Alex Ionescu](mark_russinovich,_david_a._solomon,_and_alex_ionescu.md)         |
-|                                                                                                                     |                                                                                                                         |            |                             |                  |                              |
-| [Mac OS X Internals: A Systems Approach](http://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)    | Amit Singh                                                                                                              | 0321278542 | Addison-Wesley Professional | June 29, 2006    | 2nd edition release Feb 2017 |
-| [Mac OS X and iOS Internals: To the Apple's Core](http://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651/) | Jonathan Levin                                                                                                          | 1118057651 | Wrox                        | November 6, 2012 |                              |
+| Title | Author | ISBN-13 | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Ethics in Forensic Science: Professional Standards for the Practice of Criminalistics (Protocols in Forensic Science) [1st Edition]](https://www.amazon.com/Ethics-Forensic-Science-Professional-Criminalistics/dp/0849308607) | Peter D Barnett | 9780849308604 | CRC Press | Jun 27, 2001 | |
+| [Forensic Science Handbook, Volume I [2nd Edition]](https://www.amazon.com/Forensic-Science-Handbook-1-2nd/dp/0130910589) | Richard E. Saferstein, Ed. | 9780130910585 | Pearson | Jun 15, 2001 | |
+| [Forensic Science Handbook, Volume II [2nd Revised ed. Edition]](https://www.amazon.com/Forensic-Science-Handbook-Vol-2nd/dp/013112434X) | Richard E. Saferstein, Ed. | 9780131124349 | Prentice Hall | Oct 18, 2004 | |
+| [Forensic Science Handbook, Volume III [2nd Edition]](https://www.amazon.com/Forensic-Science-Handbook-3-2nd/dp/013220715X) | Richard E. Saferstein, Ed. | 9780132207157 | Pearson | March 5, 2009 | |
+| [Forensic Science: An Introduction to Scientific and Investigative Techniques [2nd Edition]](https://www.amazon.com/Forensic-Science-Introduction-Scientific-Investigative/dp/0849327474) | Stuart James and Jon J Nordby Ph.D. | 9780849327476 | CRC Press | Feb 10, 2005 | |
+| [Principles and Practice of Criminalistics: The Profession of Forensic Science](https://www.amazon.com/Principles-Practice-Criminalistics-Profession-Protocols/dp/0849381274) | Keith Inman and Norah Rudin | 9780849381270 | CRC Press | Aug 29, 2000 | Highly Recommended |
+| [Wiley Encyclopedia of Forensic Science (Five Volume Set) [1st Edition]](https://www.amazon.com/Wiley-Encyclopedia-Forensic-Science-Set/dp/0470018267) | Allan Jamieson (Ed) and Andre Moenssens (Ed) | 9780470018262 | Wiley-Blackwell | Jun 8, 2009 | |
 
-# Books in other languages
+## Computer Forensics
+
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Android Forensics: Investigation, Analysis and Mobile Security for Google Android](https://www.amazon.com/Android-Forensics-Investigation-Analysis-Security/dp/1597496510) | Andrew Hoog | 9781597496513 | Syngress | June 29, 2011 | |
+| [CD and DVD Forensics [2nd Edition]](https://www.amazon.com/CD-DVD-Forensics-Paul-Crowley/dp/151157044X) | Paul J. Crowley and Kevin Miller | 9781511570442 | CreateSpace Independent Publishing Platform | Apr 2, 2015 | |
+| [Cyber Forensics: A Field Manual for Collecting, Examining, and Preserving Evidence of Computer Crimes](https://www.amazon.com/Cyber-Forensics-Collecting-Examining-Preserving/dp/0849309557) | Albert J Marcella, Jr.  (Ed.) and Robert S Greenfield (Ed.) | 9780849309557 | Auerbach Publications | Jan 23, 2002 | |
+| [Digital Evidence and Computer Crime [2nd Edition]](https://www.amazon.com/Digital-Evidence-Computer-Crime-Eoghan/dp/0121631044) | Eoghan Casey BS MA | 9780121631048 | Academic Press | Mar 22, 2004 | |
+| [Electronic Crime Scene Investigation: A Guide for First Responders](https://www.ojp.gov/pdffiles1/nij/219941.pdf) | NCJ 187736 | | National Institute of Justice | July 2001 | NIJ Guide |
+| [File System Forensic Analysis [1st Edition]](https://www.amazon.com/System-Forensic-Analysis-Brian-Carrier/dp/0321268172) | Brian Carrier | 9780321268174 | Addison-Wesley Professional | Mar 17, 2005 | Highly recommended |
+| [Forensic Discovery](https://www.amazon.com/Forensic-Discovery-Dan-Farmer/dp/0321703251) | Dan Farmer and Wietse Venema | 9780321703255 | Addison-Wesley Professional | Dec 30, 2004 | [HTML version](http://www.porcupine.org/forensics/forensic-discovery/) of the book is freely available online. |
+| [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](http://www.ncjrs.gov/pdffiles1/nij/199408.pdf) | NCJ 199408 | | National Institute of Justice | April 2004 | Special Report |
+| [Handbook of Digital Forensics and Investigation [1st Edition]](https://www.amazon.com/Handbook-Digital-Forensics-Investigation-Eoghan/dp/0123742676) | Eoghan Casey BS MA | 9780123742674 | Academic Press | Nov 09, 2009 | |
+| [Incident Response & Computer Forensics, Third Edition](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684) | Jason T. Luttgens, Matthew Pepe, and Kevin Mandia | 9780071798686 | McGraw Hill | August 4, 2014 | Highly Recommended |
+| [Investigating Computer-Related Crime [1st Edition]](https://www.amazon.com/Investigating-Computer-Related-Crime-Peter-Stephenson/dp/0849322189) | Peter Stephenson | 9780849322181 | CRC Press | Sep 28, 1999 | |
+| [Investigating Computer Crime](https://www.amazon.com/Investigating-Computer-Crime-Franklin-Clark/dp/0849381584) | Franklin Clark and Ken Diliberto | 9780849381584 | CRC Press | Sep 30, 1996 | |
+| [Investigator's Guide to Steganography](https://www.amazon.com/Investigators-Guide-Steganography-Gregory-Kipper/dp/0849324335) | Gregory Kipper | 9780849324338 | Auerbach Publications | Oct 27, 2003 | |
+| [iPhone and iOS Forensics: Investigation, Analysis and Mobile Security for Apple](https://www.amazon.com/iPhone-iOS-Forensics-Investigation-Analysis/dp/1597496596) | Andrew Hoog and Katie Strzempka | 9781597496599 | Syngress | June 30, 2011 | |
+| [iPhone Forensics: Recovering Evidence, Personal Data, and Corporate Assets](https://www.amazon.com/iPhone-Forensics-Recovering-Evidence-Corporate/dp/0596153589) | Jonathan Zdziarski | 9780596153588 | O'Reilly Media | Oct 7, 2008 | |
+| [Mac OS X, iPod, and iPhone Forensic Analysis DVD Toolkit](https://www.amazon.com/iPod-iPhone-Forensic-Analysis-Toolkit/dp/1597492973) | Ryan R. Kubasiak, Sean Morrissey and Jesse Varsalone (Tech. Ed.) | 9781597492973 | Syngress | Dec 23, 2008 | |
+| [Mastering Windows Network Forensics and Investigation [2nd Edition]](https://www.amazon.com/Mastering-Windows-Network-Forensics-Investigation/dp/1118163826) | Steve Anson, Steve Bunting, Ryan Johnson, and Scott Pearson | 9781118163825 | Sybex | Jun 8, 2012 | |
+| [Practical Forensic Imaging: Securing Digital Evidence with Linux Tools](https://www.amazon.com/Practical-Forensic-Imaging-Securing-Evidence/dp/1593277938) | Bruce Nikkel | 9781593277932 | No Starch Press | Dec 1, 2016 | |
+| [Practical Linux Forensics: A Guide for Digital Investigators](https://www.amazon.com/Practical-Linux-Forensics-Digital-Investigators/dp/171850196X) | Bruce Nikkel | 9781718501966 | No Starch Press | December 21, 2021 | |
+| [The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory](https://www.amazon.com/Art-Memory-Forensics-Detecting-Malware/dp/1118825098) | Michael Hale Ligh, Andrew Case, Jamie Levy, AAron Walters | 9781118825099 | Wiley | July 28, 2014 | |
+| [Windows Forensic Analysis DVD Toolkit, Second Edition](https://www.amazon.com/Windows-Forensic-Analysis-DVD-Toolkit/dp/1597494224) | Harlan Carvey | 9781597494229 | Syngress | Jun 11, 2009 | |
+| [Windows Forensics and Incident Recovery](https://www.amazon.com/Windows-Forensics-Incident-Recovery-Harlan/dp/0321200985) | Harlan Carvey | 9780321200983 | Addison-Wesley Professional | July 31, 2004 | |
+
+## OS Architecture and Design
+
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Mac OS X and iOS Internals: To the Apple's Core](https://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651) | Jonathan Levin  9781118057650 | Wrox | November 6, 2012 | |
+| [Mac OS X Internals: A Systems Approach](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541) | Amit Singh | 9780134426549 | Addison-Wesley Professional | | |
+| [Windows Internals, Part 1, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735648739 | Microsoft Press | April 8, 2012 | Windows Server 2008 R2 & Windows 7 |
+| [Windows Internals, Part 2, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735665873 | Microsoft Press | September 15, 2012 | Windows Server 2008 R2 & Windows 7 |
+| [Windows Internals, Part 1, 7th Edition (Developer Reference)](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)] | Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780735684188 | Microsoft Press | May 5, 2017 | Windows Server 2016 & Windows 10 |
+| [Windows Internals, Part 2, 7th Edition (Developer Reference](https://www.amazon.com/Windows-Internals-Part-2-7th/dp/0135462401) | Andrea Allievi, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780135462409 | Microsoft Press | October 1, 2021 | Windows Server 2016 & Windows 10 |
+
+## Other Languages
 
 ### German
 
-| Title                                                                             | Author                | ISBN       | Publisher | Publication Date | Comment                                                            |
-|-----------------------------------------------------------------------------------|-----------------------|------------|-----------|------------------|--------------------------------------------------------------------|
-| [Computer-Forensik](http://www.dpunkt.de/buecher/3-89864-379-4.html), 2nd edition | Alexander Geschonneck | 3898643794 |           | 2006             | [Errata](http://www.computer-forensik.org/) and blog of the author |
-|                                                                                   |                       |            |           |                  |                                                                    |
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Computer-Forensik [2nd Edition]](http://www.dpunkt.de/buecher/3-89864-379-4.html) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://www.computer-forensik.org/) and blog of the author |
 
 ### Italian
 
-| Title                                                                                   | Author                                  | ISBN       | Publisher | Publication Date | Comment           |
-|-----------------------------------------------------------------------------------------|-----------------------------------------|------------|-----------|------------------|-------------------|
-| [Computer Forensics](http://www.apogeonline.com/libri/88-503-2593-2/scheda) 1st edition | Andrea Ghirardini and Gabriele Faggioli | 8850325932 | Apoge     | May 17, 2007     | EAN 9788850325931 |
-|                                                                                         |                                         |            |           |                  |                   |
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Computer Forensics [1st Edition]](http://www.apogeonline.com/libri/88-503-2593-2/scheda) | Andrea Ghirardini and Gabriele Faggioli | 9788850331994 | Apoge | May 17, 2007 | |
 
 ### Portuguese
 
-| Title                                                                                                             | Author                      | ISBN       | Publisher | Publication Date | Comment |
-|-------------------------------------------------------------------------------------------------------------------|-----------------------------|------------|-----------|------------------|---------|
-| [Perícia Forense Aplicada à Informática](http://www.brasport.com.br/index.php?Escolha=8&Livro=L00194) 1st edition | Andrey Rodrigues de Freitas | 8574522260 | Brasport  | 2006             |         |
-|                                                                                                                   |                             |            |           |                  |         |
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Perícia Forense Aplicada à Informática [1st Edition]](http://www.brasport.com.br/index.php?Escolha=8&Livro=L00194) | Andrey Rodrigues de Freitas | 8574522260 | Brasport | 2006 | |
 
 ### Russian
 
-| Title                                                           | Author        | ISBN | Publisher | Publication Date | Comment |
-|-----------------------------------------------------------------|---------------|------|-----------|------------------|---------|
-| [Форензика – компьютерная криминалистика](http://forensics.ru/) | N. N. Fedotov |      |           |                  |         |
-|                                                                 |               |      |           |                  |         |
+| Title | Author | ISBN | Publisher | Publication Date | Comment |
+| - | - | - | - | - | - |
+| [Форензика – компьютерная криминалистика](http://forensics.ru/) | N. N. Fedotov | | | | |
