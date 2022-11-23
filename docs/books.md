@@ -6,7 +6,7 @@ tags:
 
 # Books About Forensics
 
-We do our best to capture and updated list of books pertinent to digital forensics and topics in digital forensics, including books published in other languages. If you know of a great book missing from this list, please feel free to add.
+We do our best to capture an updated list of books pertinent to digital forensics and topics in digital forensics, including books published in other languages. If you know of a great book missing from this list, please feel free to add.
 
 All books are listed alphabetically, by title, and linked to Amazon product pages for posterity, as some publisher links are broken or websites have changed.
 
@@ -53,7 +53,7 @@ All books are listed alphabetically, by title, and linked to Amazon product page
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
 | - | - | - | - | - | - |
-| [Mac OS X and iOS Internals: To the Apple's Core](https://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651) | Jonathan Levin  9781118057650 | Wrox | November 6, 2012 | |
+| [Mac OS X and iOS Internals: To the Apple's Core](https://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651) | Jonathan Levin | 9781118057650 | Wrox | November 6, 2012 | |
 | [Mac OS X Internals: A Systems Approach](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541) | Amit Singh | 9780134426549 | Addison-Wesley Professional | | |
 | [Windows Internals, Part 1, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735648739 | Microsoft Press | April 8, 2012 | Windows Server 2008 R2 & Windows 7 |
 | [Windows Internals, Part 2, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735665873 | Microsoft Press | September 15, 2012 | Windows Server 2008 R2 & Windows 7 |
