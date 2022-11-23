@@ -6,11 +6,12 @@ tags:
   -  Windows
 ---
 
+## Overview
 Forensic Email Collector (**FEC**) is a digital forensics software
 developed by [Metaspike](metaspike.md). FEC connects to cloud
 email providers and on-premises email servers and forensically preserves email evidence.
 
-# Features
+## Features
 
 - Connects to Microsoft Exchange servers via Exchange Web Services (EWS)
 - Supports Exchange In-place Archive, Recoverable Items Folder, and Public Folders
@@ -34,7 +35,7 @@ email providers and on-premises email servers and forensically preserves email e
 - Includes numerous built-in connection profiles for popular email
   service providers
 
-# External Links
+## External Links
 
 [Official Website](https://www.metaspike.com/forensic-email-collector/)
 
