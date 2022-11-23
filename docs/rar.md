@@ -2,12 +2,6 @@
 tags:
   -  File Formats
   -  Archive
-  -  Windows
-  -  Linux
-  -  MacOS
-  -  NetBSD
-  -  FreeBSD
-  -  OpenBSD
 ---
 RAR Archives (**R**oshal **AR**chive file format) are a proprietary
 format for storing information created by Eugene Roshal. The format is

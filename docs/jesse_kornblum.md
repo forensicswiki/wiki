@@ -9,14 +9,14 @@ current list of his papers.
 
 ## Tools
 
-[md5deep](md5deep.md) and [hashdeep](hashdeep "wikilink") -
+[md5deep](md5deep.md) and [hashdeep](hashdeep.md) -
 Cross platform recursive [hashing](hashing.md) and auditing
 programs, respectively. Computes MD5, SHA-1, SHA-256, Tiger and
 Whirlpool hashes. Can also match against sets of known hashes. The
 latter program uses [multihashing](multihashing.md) to conduct a
 computer forensics audit.
 
-[foremost](foremost.md) - File [carving](carving "wikilink")
+[foremost](foremost.md) - File [carving](file_carving.md)
 program
 
 [ssdeep](ssdeep.md) - Usually called Fuzzy Hashing, this program

@@ -3,7 +3,6 @@ tags:
   -  Network Forensics
   -  Linux
   -  Windows
-  -  GPL
   -  Tools
 ---
 ## Overview

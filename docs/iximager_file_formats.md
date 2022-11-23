@@ -28,6 +28,3 @@ The header for these image formats appears to contain the string:
   format](http://www.cfreds.nist.gov/v2/Basic_Mac_Image.html) - From the
   [Computer Forensic Reference Data
   Sets](computer_forensic_reference_data_sets.md) Project
-
-[Category:Forensics File
-Formats](category:forensics_file_formats.md)

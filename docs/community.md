@@ -17,15 +17,20 @@ if you'd like a more detailed explanation.
 1. Fork the Forensics Wiki project
 2. Clone the fork and set Forensics Wiki as the upstream
      ```
+
      $ git clone https://github.com/[your-github-user-id]/wiki.git
+
      $ cd wiki
+
      $ git remote add upstream https://github.com/forensicswiki/wiki.git
      ```
 3. Create a branch for new articles or article updates
+
      ```
      $ git checkout -b [article-branch-name]
      ```
 4. Make your changes to the Markdown file(s) and push changes to your repository.
+
      ```
      $ git push origin [article-branch-name]
      ```
