@@ -4,7 +4,7 @@ tags:
   - Sim 
 ---
 
-<img src="assets/images/600px-Simpic.jpg" title="Simpic.jpg" width="200" alt="Simpic.jpg" align="right" />
+<img src="../assets/images/600px-Simpic.jpg" title="Simpic.jpg" width="200" alt="Simpic.jpg" align="right" />
 
 ## SIM-Subscriber Identity Module
 

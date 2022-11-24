@@ -2,8 +2,8 @@
 tags:
   -  People
 ---
-![](Jim_Christy.jpg "Jim_Christy.jpg")
-<img src="assets/images/600px-Jim_Christy.jpg" title="Jim Christy working"  alt="600px-Jim_Christy.jpg" align="right" />
+
+<img src="../assets/images/600px-Jim_Christy.jpg" title="Jim Christy working"  alt="600px-Jim_Christy.jpg" align="right" />
 
 Jim Christy is the head of the Futures Exploration Division of the [DoD
 Cyber Crime Center](dod_cyber_crime_center.md) in Linthicum,
@@ -19,8 +19,6 @@ Lab](defense_computer_forensics_lab.md).
 
 ## External Links
 
-- [Wikipedia entry for Jim
-  Christy](http://en.wikipedia.org/wiki/Jim_Christy)
-- [Wired magazine article on Jim
-  Christy](http://www.wired.com/wired/archive/15.01/cybercop.html)
+- [Wikipedia entry for Jim Christy](http://en.wikipedia.org/wiki/Jim_Christy)
+- [Wired magazine article on Jim Christy](http://www.wired.com/wired/archive/15.01/cybercop.html)
 
