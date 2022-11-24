@@ -2,7 +2,6 @@
 tags:
   -  Articles that need to be expanded
   -  File Formats
-  -  Text
   -  Linux
 ---
 ## Introduction

@@ -23,5 +23,4 @@ individuals.
 ## External Links
 
 - [Official website](http://www.ilook-forensics.org/iximager.html)
-- [NIST evaluation of
-  IXimager](http://www.ojp.usdoj.gov/nij/pubs-sum/217678.htm)
+- [NIST evaluation of IXimager](http://www.ojp.usdoj.gov/nij/pubs-sum/217678.htm)

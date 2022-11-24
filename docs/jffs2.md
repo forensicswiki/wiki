@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded 
 ---
 JFFS2 is the Journaling Flash File System \\#2. It was used on the OLPC
 laptop computer and is used on some other machines.

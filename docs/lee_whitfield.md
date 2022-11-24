@@ -3,6 +3,7 @@ tags:
   -  People
 ---
 <img src="../assets/images/200px-LeeW.jpg" title="LeeW.jpg" width="200" alt="LeeW.jpg" align="right" />
+
 Before becoming involved in the field of digital forensics Lee worked
 for an international construction law company working directly under the
 director responsible for forensic construction. Lee's passion for

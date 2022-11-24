@@ -8,7 +8,7 @@ imager by [Atola Technology](https://atola.com/), designed for working
 with both good and damaged media with a focus on high-performance (up to
 18 parallel imaging sessions at 15 TB/hour).
 
-![Atola-taskforce.jpg](assets/images/500px-Atola-taskforce.jpg)
+<img src="../assets/images/1000px-Atola-taskforce.jpg" title="Atola Taskforce"  alt="1000px-Atola-taskforce.jpg" align="right" />
 
 ## General Information
 

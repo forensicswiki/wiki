@@ -1,13 +1,7 @@
 ---
 tags:
   -  Operating Systems
-  -  Linux
-  -  Windows
-  -  MacOS
   -  Os Identification
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
   -  Articles that need to be expanded
 ---
 Satori performs passive OS identification on any packets it sees. It can
