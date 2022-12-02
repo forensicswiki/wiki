@@ -17,23 +17,19 @@ GitHub has some excellent documentation on [contributing to projects](https://do
 1. Fork the Forensics Wiki project
 2. Clone the fork and set Forensics Wiki as the upstream
 
-     ```terminal
-     git clone https://github.com/[your-github-user-id]/wiki.git
-     cd wiki
-     git remote add upstream https://github.com/forensicswiki/wiki.git
-     ```
+         git clone https://github.com/[your-github-user-id]/wiki.git
+
+         cd wiki
+
+         git remote add upstream https://github.com/forensicswiki/wiki.git
 
 3. Create a branch for new articles or article updates
 
-     ```terminal
-     git checkout -b [article-branch-name]
-     ```
+         git checkout -b [article-branch-name]
 
 4. Make your changes to the Markdown file(s) and push changes to your repository.
 
-     ```terminal
-     git push origin [article-branch-name]
-     ```
+         git push origin [article-branch-name]
 
 5. Create PR for review
 
