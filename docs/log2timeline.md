@@ -1,8 +1,15 @@
 ---
 tags:
-  - No Category
+  -  Timeline Analysis
+  -  Tools
+  -  Open Source Software
+  -  Disk Analysis
+  -  Linux
+  -  MacOS
+  -  Windows
+  -  Deprecated
 ---
-log2timeline is designed as a framework for artifact timeline creation
+Log2timeline is designed as a framework for artifact timeline creation
 and analysis. The main purpose is to provide a single tool to parse
 various log files and artifacts found on suspect systems (and supporting
 systems, such as network equipment) and produce a body file that can be
@@ -15,13 +22,13 @@ The tool is written in Perl for Linux but has been tested using Mac OS X
 
 ## Description
 
-log2timeline takes a log file (or a directory) and parses it to produce
+Log2timeline takes a log file (or a directory) and parses it to produce
 a body file that can be imported into other tools for timeline analysis.
 The tool has both a modular based approach to the input file as well as
 the output file. The default behavior of the current version is to
 export the timeline in a body format readable by TSK's (The SleuthKit)
 [mactime](http://wiki.sleuthkit.org/index.php?title=Body_file) (although
-this can be easily changed). log2timeline is build as a series of
+this can be easily changed). Log2timeline is build as a series of
 scripts, this one being the front-end, which uses other scripts to
 actually parse the log files (called modules). The tool is build to be
 easily extended for anyone that wants to create a new module.
@@ -105,22 +112,16 @@ The currently supported output modules (as of version 0.51 nightly build
 
 ## Plaso - The next generation
 
-Version 0.x Log2timeline has been extremely useful but it was written in
-Perl and has performance limitations. A major effort to re-write it in
-Python, named [plaso](plaso.md) is underway and alpha releases
-have been released.
-
-For version 1.x the [plaso](plaso.md) engine has been created
-and front-ends have been written.
+Log2timeline has been superseded by [Plaso](plaso.md).
 
 ## See Also
 
-- [plaso](plaso.md)
+- [Plaso](plaso.md)
 
 ## External Links
 
 - [log2timeline web site](http://log2timeline.net)
-- [plaso web site](http://plaso.kiddaland.net)
+- [Plaso web site](https://plaso.readthedocs.io/en/stable/)
 - [SANS GCFA Gold paper about the
   tool](http://www.sans.org/reading_room/whitepapers/logging/mastering-super-timeline-log2timeline_33438)
 - [A quick run on how to create a super
