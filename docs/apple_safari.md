@@ -2,7 +2,9 @@
 tags:
   -  Tools
   -  Windows
+  -  iOS
   -  MacOS
+  -  Windows
   -  Commercial Software
   -  Web Browsers
 ---
@@ -44,28 +46,24 @@ On Windows 7
 
 ## History
 
-The browser history is stored in a [binary plist
-file](property_list.md) named **History.plist** in the user
-directory.
+The browser history is stored in a [binary plist file](property_list.md) named
+**History.plist** in the user directory.
 
-For each web site, the program records the URL visited, the date and
-time of the last visit, and the number of times the site has been
-visited.
+For each web site, the program records the URL visited, the date and time of
+the last visit, and the number of times the site has been visited.
 
 The date and time values are stored as a floating point value containing
 the number of seconds since Jan 1, 2001 00:00:00 UTC.
 
 ## Downloads
 
-The downloads history is stored in a [plist
-file](property_list.md) named **Downloads.plist** in the user
-directory.
+The downloads history is stored in a [plist file](property_list.md) named
+**Downloads.plist** in the user directory.
 
 ## Last Session
 
-The browser last session information is stored in a [plist
-file](property_list.md) named **LastSession.plist** in the user
-directory.
+The browser last session information is stored in a [plist file](property_list.md)
+named **LastSession.plist** in the user directory.
 
 ## Cache
 
@@ -83,9 +81,10 @@ format](sqlite_database_format.md).
 - [Analyzing Apple Safari
   Artifacts](http://www.appleexaminer.com/MacsAndOS/Analysis/HowTo/SafariBrowserAnalysis/SafariBrowserAnalysis.html),
   by Selena Ley
+- [iOS / macOS - Tracking Downloads from Safari Without Downloads](https://blog.d204n6.com/2021/05/ios-macos-tracking-downloads-from.html)
+  by Scott Vance, Friday, 28 May 2021
 
 ## Tools
 
 - [J.A.F.A.T. Archive of Forensics Analysis
-  Tools](http://jafat.sourceforge.net/) home of Safari Forensic Tools
-  (SFT)
+  Tools](http://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)
