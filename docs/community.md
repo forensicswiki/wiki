@@ -146,7 +146,7 @@ An article about Bitlocker should contain the following tags:
 tags:
   -  Encryption
   -  Windows
-  -  Anti-Fornesics
+  -  Anti-Forensics
 ---
 ```
 
