@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
     <fileobject>
     <filename>RAW/report02-3.pdf</filename>
@@ -24,6 +24,3 @@ tags:
       <hashdigest type='MD5'>dede94f84fb2d00dc93ed00fda272a18</hashdigest>
       <hashdigest type='SHA1'>3c078d039398c44611b6365e8afdeadeb61967d4</hashdigest>
     </fileobject>
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)

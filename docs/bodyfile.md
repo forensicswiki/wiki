@@ -1,11 +1,6 @@
 ---
 tags:
-  -  File Formats
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  Timeline Analysis
-  -  Text
+  - Redirect
 ---
 
 # Body file

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
 NSRL_Bloom XML is an XML Forensics object that is used to represent
 bloom filters encoded using the NPS NSRL Bloom Filter package.
@@ -69,6 +69,3 @@ This bloom filter holds the SHA1 codes of the ASCII numbers "0" through
     4pIA4l884Mw0oxZAclgJUqdf+TmPSL3MZiVCnHJoyTp+N4oJk+/eKyVLR6MfCSvk
     M+739ig1go1M1sZh6aWxuZ8Ouvqv3IJvM4g1pCPhFClyFlySFfP0fXurtlQ==</data>
     </nsrl_bloom>
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)

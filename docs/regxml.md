@@ -1,11 +1,10 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
-RegXML is an XML syntax analogous to [Digital Forensics
-XML](digital_forensics_xml.md). It represents the contents of a
-Windows Registry hive file, presenting key and value cells of the hive
-as file and directories of a file system.
+RegXML is an XML syntax analogous to [Digital Forensics XML](digital_forensics_xml_schema.md).
+It represents the contents of a Windows Registry hive file, presenting key and
+value cells of the hive as file and directories of a file system.
 
 ## Disambiguation
 
@@ -112,6 +111,3 @@ RegXML, a deep-hierarchy structure created by extending the
   Technology, K.-P. Chow and S. Shenoi, Eds. Springer, 2012.
 - [RegXML Extractor](https://github.com/ajnelson/regxml_extractor) (on
   github)
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)

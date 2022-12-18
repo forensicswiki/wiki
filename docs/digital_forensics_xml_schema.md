@@ -1,20 +1,18 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
 ## Schemas
 
 The schemas are somewhat in flux, in that new elements will be added as
 necessary. However, the basic structure is unlikely to change.
 
-- [fileobject schema](media:fileobject.xsd.md)
-- [filehashset schema](media:filehashset.xsd.md)
+* [fileobject schema](fileobject.md)
+* filehashset schema
 
 ## See Also
 
 We have these DFXML Examples:
 
-- [Source DFXML Example](source_dfxml_example.md)
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)
+* [Example of a DFXML fileobject tag](dfxml_example_fileobject_tag)
+* [Example of a DFXML source tag](dfxml_example_source_tag.md)
