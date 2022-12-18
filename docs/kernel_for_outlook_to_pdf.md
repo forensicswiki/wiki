@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel for Outlook to PDF is a free conversion utility to restore and
 read the data of PST files, in a secured PDF file. The utility embeds
@@ -78,6 +78,4 @@ secure from any unauthorized user access.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

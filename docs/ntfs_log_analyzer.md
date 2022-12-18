@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *NTFS Log Analyzer* is a freeware application for scanning and analyzing
 the log details for activities carried out on a NTFS based computer
@@ -19,6 +19,4 @@ Operating System to avoid failure.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.systoolsgroup.com/)

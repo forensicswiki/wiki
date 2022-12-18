@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *MSG Viewer* MSG Viewer is a freeware application to open and view
 single email file of Microsoft Outlook without platform availability.
@@ -15,8 +15,5 @@ through purchase.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
-
-[FREE MSG Viewer](http://www.freeviewer.org/msg/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.systoolsgroup.com/)
+* [FREE MSG Viewer](http://www.freeviewer.org/msg/)

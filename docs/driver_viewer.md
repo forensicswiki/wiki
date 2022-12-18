@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *Driver Viewer* is a utility available complete free of cost to scan and
 provide details regarding system drivers.
@@ -17,6 +17,4 @@ Operating System including the latest; Windows 8.1.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.systoolsgroup.com/)

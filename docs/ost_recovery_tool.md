@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *OST Recovery Tool* is one of the smartest recovery software to repair
 and restore corrupt Exchange OST files. In addition, it also lets users
@@ -22,7 +22,4 @@ and in Outlook Express DBX format.
 
 ## External Links
 
-[Official
-Website](https://www.sysinfotools.com/recovery/ost-file-recovery.php)
-
-[Category:Analysis](category:analysis.md) [Category:Paid
+* [Official Website](https://www.sysinfotools.com/recovery/ost-file-recovery.php)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel OST Viewer is a free OST viewing utility available for Windows
 users. The freeware is developed by Kernel Data Recovery to perform
@@ -99,6 +99,4 @@ detailed information on License, visit the official website.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

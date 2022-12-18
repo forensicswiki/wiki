@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel for Outlook Express Password Recovery is a professional software
 developed by Kernel Data Recovery. It's specifically programmed to
@@ -74,6 +74,4 @@ to any Kernel software.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel Hotmail MSN Password Recovery tool is developed by Kernel Data
 Recovery to recover lost or forgotten password of Hotmail MSN. This tool
@@ -52,6 +52,4 @@ and chat, which ever client demands.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

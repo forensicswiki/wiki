@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 To get a detailed report on Outlook PST files, you need to have an
 analytical tool that can devise a strategy for you to make your work
@@ -62,6 +62,4 @@ email without any hesitation.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

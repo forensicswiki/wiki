@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel Yahoo Archive reader is an instant message decoder developed by
 Kernel Data Recovery that retrieves conversation logs and contact list
@@ -60,6 +60,4 @@ via phone, email or live chat.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

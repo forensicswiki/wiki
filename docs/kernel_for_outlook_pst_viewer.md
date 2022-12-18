@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel for Outlook PST Viewer is a freeware to open and read the
 inaccessible content of Outlook offline storage table (PST files). The
@@ -98,6 +98,4 @@ Recovery.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

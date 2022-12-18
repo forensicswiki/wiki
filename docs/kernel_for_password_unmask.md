@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel Password Unmask is a password recovery freeware to reveal hidden
 passwords contained in the standard password-text-box of any Windows
@@ -50,6 +50,4 @@ official website to get more information related to Licensing.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)
