@@ -5,11 +5,10 @@ tags:
   -  Reversing
   -  Disassembly
 ---
-This how-to documents various methods and tools in disassembling DEX
-files for the Android OS. An example "Hello Android"
-[APK](apk.md) file developed from the Android SDK example is
-used to demonstrate the various tools. The various tools and methods are
-listed below in the subsections.
+This how-to documents various methods and tools in disassembling DEX files for
+the Android OS. An example "Hello Android" APK file developed from the Android
+SDK example is used to demonstrate the various tools. The various tools and
+methods are listed below in the subsections.
 
 ## Tools
 
@@ -171,4 +170,3 @@ listed below.
         setContentView(localTextView);
       }
     }
-
