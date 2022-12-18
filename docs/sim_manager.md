@@ -20,7 +20,7 @@ and Nextel [iDEN](iden.md) cards.
 ## Requirements
 
 - Any PC/SC compliant [smart card
-  reader](sim_card_forensics#hardware.md).
+  reader](sim_card_forensics.md#hardware).
 
 ## Screenshots
 

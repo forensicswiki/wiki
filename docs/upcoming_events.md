@@ -24,7 +24,7 @@ event.
 This listing is divided into three sections (described as follows):
 
 1.  <b><u>[Calls For
-    Papers](upcoming_events#calls_for_papers.md)</u></b> - Calls
+    Papers](upcoming_events.md#calls-for-papers)</u></b> - Calls
     for papers for either Journals or for Conferences, relevant to
     Digital Forensics (Name, Closing Date, URL)
 
@@ -32,7 +32,7 @@ This listing is divided into three sections (described as follows):
 
 <li>
 
-<b><u>[Conferences](upcoming_events#conferences.md)</u></b> -
+<b><u>[Conferences](upcoming_events.md#conferences)</u></b> -
 Conferences relevant for Digital Forensics (Name, Date, Location, URL)
 
 </li>

@@ -8,17 +8,16 @@ tags:
   -  Tools
   -  Anti-Forensics
 ---
-**dd**, sometimes called **GNU dd**, is the oldest [imaging
-tool](tools#disk_imaging_tools.md) still used. Although it is
-functional and requires only minimal resources to run, it lacks some of
-the useful features found in more modern imagers such as
-[metadata](metadata.md) gathering, error correction, piecewise
-hashing, and a user-friendly interface. dd is a command line program
+**dd**, sometimes called **GNU dd**, is the oldest [disk imaging
+tool](disk_imaging.md) still used. Although it is functional and requires only
+minimal resources to run, it lacks some of the useful features found in more
+modern imagers such as [metadata](metadata.md) gathering, error correction,
+piecewise hashing, and a user-friendly interface. dd is a command line program
 that uses several obscure command line arguments to control the imaging
-process. Because some of these flags are similar and, if confused, can
-destroy the source media the examiner is trying to duplicate, users
-should be careful when running this program. The program generates [raw image files](raw_image_file.md) which can be read by many other
-programs.
+process. Because some of these flags are similar and, if confused, can destroy
+the source media the examiner is trying to duplicate, users should be careful
+when running this program. The program generates [raw image
+files](raw_image_file.md) which can be read by many other programs.
 
 dd is part of the [GNU Coreutils](gnu_coreutils.md) package
 which in turn has been ported to many [operating

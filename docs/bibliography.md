@@ -20,7 +20,7 @@ tags:
   State-of-the-Art](http://www.actionfront.com/ts_whitepaper.asp),
   ActionFront Data Recovery Labs, August 2005.
 - [Secure Deletion of Data from Magnetic and Solid-State
-  Memory](recovering_overwritten_data#the_gutmann_paper.md),
+  Memory](recovering_overwritten_data.md#the-gutmann-paper),
   Peter Gutmann, Proceedings of the Sixth Usenix Security
   Symposium, 1996.
   [1](http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html)

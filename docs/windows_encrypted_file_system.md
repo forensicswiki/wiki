@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Disk Encryption
-  -  Encryption
-  -  Anti-Forensics
-  -  Windows
+  - Anti-Forensics
+  - Disk Encryption
+  - Encryption
+  - Windows
 ---
 Encrypted File System (EFS) is the [Cryptographic File
-System](file_systems#cryptographic_file_systems.md) that is
+System](file_systems.md#cryptographic-file-systems) that is
 build into Microsoft [Windows](windows.md).
 
 [Windows](windows.md) can encrypt files on an EFS volume by
@@ -41,12 +41,12 @@ desired.
 Several tools are available that can recover an EFS key or volume if the
 original encryption key (or passphrase) are lost. These include:
 
-- EFS key from Passware;
-- Advanced EFS Data Recovery from Elcomsoft
+* EFS key from Passware;
+* Advanced EFS Data Recovery from Elcomsoft
   (http://www.elcomsoft.com/aefsdr.html);
-- [EnCase](encase.md) Forensic (can perform a brute-force attack
+* [EnCase](encase.md) Forensic (can perform a brute-force attack
   on the user's passphrase);
-- WinHex Forensic (can also perform a brute-force attack on the user's
+* WinHex Forensic (can also perform a brute-force attack on the user's
   passphrase).
 
 # Linux
@@ -58,4 +58,4 @@ In this case, you should get the private key first (by running *cipher
 
 # Other References
 
-<http://www.beginningtoseethelight.org/efsrecovery>
+( <http://www.beginningtoseethelight.org/efsrecovery>

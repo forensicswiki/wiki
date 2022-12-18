@@ -104,8 +104,8 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * [Windows NT Registry File (regf)](windows_nt_registry_file_(regf).md)
   using [libregf](libregf.md)
 * [Windows Prefetch files](windows_prefetch_file_format.md)
-* [Windows $Recycle.Bin](windows#recycle_bin.md) $I file
-* [Windows Recycler](windows#recycle_bin.md) INFO2 file
+* [Windows $Recycle.Bin](windows.md#recyclebin) $I file
+* [Windows Recycler](windows.md#recycler) INFO2 file
 * Windows Restore Point log (rp.log) file
 * [Windows Scheduled Task job](windows_job_file_format.md) (also known as "at jobs")
 * [Windows Shortcut File (LNK) format](lnk.md) using [liblnk](liblnk.md)
@@ -262,7 +262,7 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * Microsoft Office MRU Registry data
 * Microsoft Outlook search MRU Registry data
 * Most Recently Used (MRU) Registry data
-* [Run and RunOnce](windows_registry#run/runonce.md) Registry data
+* [Run and RunOnce](windows_registry.md#run-keys) Registry data
 * Security Accounts Manager (SAM) users Registry data
 * Terminal Server Client Connection Registry data
 * Terminal Server Client Most Recently Used (MRU) Registry data

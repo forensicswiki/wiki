@@ -18,7 +18,7 @@ To set the Date/Time tag:
 ` exif  --tag=0x132 --set-value="1975:01:01 12:01:01" --ifd=0 filename.jpg`
 
 For tools that extract Exif meta data look here -
-[Document_Metadata_Extraction#Images](document_metadata_extraction#images.md)
+[Document_Metadata_Extraction#Images](document_metadata_extraction.md#images)
 
 ## External Links
 

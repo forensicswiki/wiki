@@ -155,7 +155,7 @@ Digital Forensics Tool Testing Image (dftt \#12)
 
 ## See also
 
-- [File Carving Tools](tools:data_recovery#carving.md)
+- [File Carving Tools](tools:data_recovery.md#carving)
 - [File Carving Bibliography](file_carving_bibliography.md)
 - [Carver 2.0 Planning Page](carver_2.0_planning_page.md)
 - [SmartCarving](file_carving:smartcarving.md)

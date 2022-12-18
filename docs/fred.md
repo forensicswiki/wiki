@@ -10,7 +10,7 @@ tags:
   response](incident_response.md) tool written by [Jesse
   Kornblum](jesse_kornblum.md).
 - [Forensic RAM Extraction
-  Device](tools:memory_imaging#x86_hardware.md), a hardware
+  Device](tools:memory_imaging.md#x86-hardware), a hardware
   memory imager for x86 systems developed by BBN.
 - [Forensic Recovery of Evidence
   Device](forensic_recovery_of_evidence_device.md) - A computer

@@ -35,8 +35,8 @@ This article focuses on the direct program execution indicators.
 
 ### Mac OS X
 
-- [Launch Agents](mac_os_x#launch_agents.md)
-- [Launch Daemons](mac_os_x#launch_daemons.md)
+- [Launch Agents](mac_os_x.md#launch-agents)
+- [Launch Daemons](mac_os_x.md#launch-daemons)
 - [Mac OS X Memory Analysis](mac_os_x_memory_analysis.md)
 
 ### Windows
@@ -61,7 +61,7 @@ This article focuses on the direct program execution indicators.
   - [ReadyBoost](readyboost.md)
   - [ReadyDrive](readydrive.md)
   - [SuperFetch](superfetch.md)
-- [Run/RunOnce Registry keys](windows_registry#run/runonce.md)
+- [Run/RunOnce Registry keys](windows_registry.md#run-keys)
   (and equivalents)
 - Windows Task Scheduler
   - [Job files](windows_job_file_format.md)

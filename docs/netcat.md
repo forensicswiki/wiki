@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Tools
+  - Network Forensics
+  - Tools
 ---
 ## Description and Review
 
@@ -115,8 +116,5 @@ Netcat to transfer data from a victim machine to a forensic machine:
 ## Other Resources
 
 Netcat can also be used to capture network traffic. See
-[here](tcpdump#using_tcpdump_with_netcat.md) for instructions on
+[here](tcpdump.md#using-tcpdump-with-netcat) for instructions on
 how to use Netcat in conjunction with Tcpdump.
-
-[Category:Tools](category:tools.md) [Category:Network
-Forensics](category:network_forensics.md)
