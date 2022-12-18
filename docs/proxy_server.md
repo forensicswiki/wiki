@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  Network Forensics
+  - Anti-Forensics
+  - Network Forensics
 ---
 **Proxy server** is a server which services the requests of its clients
 by forwarding requests to other servers.
@@ -11,7 +11,7 @@ by forwarding requests to other servers.
 Proxy servers are widely used by organizations and individuals for
 different purposes:
 
-- Internet sharing (like [NAT](network_address_translator.md);
+- Internet sharing (like NAT);
 - Traffic compression;
 - Accelerating service requests by retrieving content from cache;
 - In China, proxy servers are commonly used by individuals to get around
