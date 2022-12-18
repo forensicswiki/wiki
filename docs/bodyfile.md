@@ -10,4 +10,4 @@ tags:
 
 # Body file
 
-_See: [body file](bodyfile.md)_
+_See: [body file](body_file.md)_
