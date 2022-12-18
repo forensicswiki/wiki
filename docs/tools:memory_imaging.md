@@ -142,30 +142,6 @@ responses needs.
 
 <!-- -->
 
-[HBGary](hbgary.md): Fastdump and Fastdump Pro
-[Fastdump](fastdump.md) Can acquire
-physical memory on Windows 2000 through Windows XP 32 bit but not
-Windows 2003 or Vista.
-
-[Fastdump Pro](fastdump_pro.md) Can acquire physical memory on
-Windows 2000 through Windows 2008, all service packs. Additionally,
-Fastdump Pro supports:
-
--32 bit and 64 bit architectures
-
--Acquisitions of greater than 4GB
-
--Fast acquisitions through the use of larger page sizes (1024KB) but
-also supports a strict mode that enforces 4KB page sizes.
-
--Process probing which allows for a more complete memory image of a
-process of interest.
-
--Acquisition of the system page file during physical memory acquisition.
-This allows for a more complete memory analysis.
-
-<!-- -->
-
 [FTK Imager](ftk_imager.md): FTK Imager
 <http://accessdata.com/support/adownloads#FTKImager>
 
