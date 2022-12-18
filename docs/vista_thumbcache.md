@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Windows
 ---
 ## Overview
 
@@ -46,13 +46,11 @@ different media types, including:
 - Removable devices
 - Network drives
 - Encrypted containers (e.g. [PGP](pgp.md) Desktop,
-  [TrueCrypt](truecrypt.md), [BestCrypt](bestcrypt.md))
+  [TrueCrypt](truecrypt.md), BestCrypt)
 
-[Windows](windows.md) Vista doesn't create thumbnails for files
-encrypted using [EFS](efs.md) unless thumbcache directory is
-encrypted too; [Windows](windows.md) Vista doesn't delete
-thumbnails for files after they were encrypted using
-[EFS](efs.md).
+[Windows](windows.md) Vista doesn't create thumbnails for files encrypted using
+EFS unless thumbcache directory is encrypted too; [Windows](windows.md) Vista
+doesn't delete thumbnails for files after they were encrypted using EFS.
 
 Some programs may generate thumbnails for some file types which are
 displayed in Windows Explorer, but not stored in the thumbcache (e.g.
@@ -62,8 +60,6 @@ Ascon Kompas).
 
 ### Using Windows Indexer
 
-![](WindowsPowerShellThumbnails.jpg "WindowsPowerShellThumbnails.jpg")
-
 One way to link thumbnails with original files is to use Windows Indexer
 database, which stores association between **indexed** files and
 *ThumbnailCacheIDs* with some metadata. The windows.edb database file
@@ -72,11 +68,10 @@ Extractor](http://www.simplecarver.com/tool.php?toolname=Windows%20Search%20Inde
 
 #### Using Windows PowerShell
 
-Windows PowerShell provides easy way to access this database using SQL
-queries. Note that most forensic tools (like [FTK](ftk.md)
-display *ThumbnailCacheID* ([ftk](ftk.md) calls it *Thumbnail
-filename*) in hexadecimal, but Windows PowerShell returns the result in
-decimal.
+Windows PowerShell provides easy way to access this database using SQL queries.
+Note that most forensic tools (like [FTK](ftk.md) display *ThumbnailCacheID*
+(where FTK calls it *Thumbnail filename*) in hexadecimal, but Windows PowerShell
+returns the result in decimal.
 
 #### Using HEX editor
 
@@ -110,10 +105,8 @@ Viewer](http://www.simplecarver.com/tool.php?toolname=WPG%20Viewer)
 
 ### Non-English
 
-- [Использование централизованных баз данных эскизов для исследования
-  графических файлов на зашифрованных
-  разделах](http://itdefence.ru/content/articles/Thumbnails.Suhanov/),
-  ITDefence, 2009 ([extended
+- Использование централизованных баз данных эскизов для исследования
+  графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended
   version](http://www.securitylab.ru/analytics/370474.php))
 
 ## Tools
