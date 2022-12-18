@@ -72,15 +72,13 @@ Garner](george_garner.md) and [Robert-Jan
 Mora](robert-jan_mora.md) produced
 [KnTList](kntlist.md).
 
-At the [Blackhat Federal](blackhat_(conference).md) conference
-in March 2007, [AAron Walters](aaron_walters.md) and [Nick
-Petroni](nick_petroni.md) released a suite called
-[volatools](volatools.md). Although it only worked on [Windows
-XP](windows_xp.md) Service Pack 2 images, it was able to produce
-a number of useful data. [volatools](volatools.md) was updated
-and re-released as [Volatility](volatility.md) in August 2007,
-and is now maintained and distributed by [Volatile
-Systems](https://www.volatilesystems.com/).
+At the [Blackhat Federal](blackhat_(conference).md) conference in March 2007,
+[AAron Walters](aaron_walters.md) and [Nick Petroni](nick_petroni.md) released
+a suite called Volatools. Although it only worked on [Windows
+XP](windows_xp.md) Service Pack 2 images, it was able to produce a number of
+useful data. Volatools was updated and re-released as
+[Volatility](volatility.md) in August 2007, and is now maintained and
+distributed by [Volatile Systems](https://www.volatilesystems.com/).
 
 ## Bibliography
 

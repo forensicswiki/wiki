@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Tools
-  -  Memory Imaging
+  - Tools
+  - Memory Imaging
 ---
 ## Memory Imaging Tools
 
@@ -27,12 +27,6 @@ Inquire at <http://www.windowsscope.com>.
 
 Tribble PCI Card (research project)
 <http://www.digital-evidence.org/papers/tribble-preprint.pdf>
-
-<!-- -->
-
-CoPilot by Komoku
-Komoku was acquired by Microsoft and the card was not made publicly
-available.
 
 <!-- -->
 
@@ -324,4 +318,3 @@ non-converted dump.
 - [Linux Memory Analysis](linux_memory_analysis.md)
 - [Memory Imaging](memory_imaging.md)
 - [Windows Memory Analysis](windows_memory_analysis.md)
-
