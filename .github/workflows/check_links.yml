@@ -1,0 +1,33 @@
+name: check_links
+on:
+  pull_request:
+    branches:
+    - main
+  push:
+    branches:
+    - main
+  # TODO: make this a cron action
+  # runs every monday at 9 am
+  # schedule:
+  #   - cron: "0 9 * * 1"
+permissions: read-all
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11']
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install tox
+      run: |
+        python3 -m pip install tox
+    - name: Run tests
+      env:
+        LANG: en_US.UTF-8
+      run: |
+        tox -edocs
