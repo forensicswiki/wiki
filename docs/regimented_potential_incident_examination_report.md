@@ -1,17 +1,17 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Articles that need to be expanded
-  -  System Analysis
-  -  Open Source Software
+  - Articles that need to be expanded
+  - GPL
+  - Open Source Software
+  - System Analysis
+  - Tools
+  - Windows
 ---
 ## Description
 
-The Regimented Potential Incident Examination Report (**RPIER** or
-**RAPIER**) is script based [incident response](incident_response.md) tool released under the
-[GPL](gpl.md) by [Intel](intel.md). It is a
-modular framework.
+The Regimented Potential Incident Examination Report (**RPIER** or **RAPIER**)
+is script based [incident response](incident_response.md) tool released under
+the GPL by [Intel](intel.md). It is a modular framework.
 
 RAPIER is a [Windows](windows.md) NT based information gathering
 framework. It was designed to streamline the acquisition of information
