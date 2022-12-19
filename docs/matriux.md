@@ -1,13 +1,13 @@
 ---
 tags:
-  -  Linux
-  -  Live CD
-  -  GPL
-  -  Tools
-  -  Operating Systems
+  - Linux
+  - Live CD
+  - GPL
+  - Tools
+  - Operating Systems
 ---
-A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for
-[penetration testing](penetration_testing.md).
+A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for penetration
+testing.
 
 [Matriux](matriux.md) is a fully featured security distribution,
 based on [Ubuntu](ubuntu.md). It consists of powerful, free and
@@ -84,6 +84,3 @@ Matriux offers many forensics tools under its
 [Matriux Tutorials](http://www.chmag.in/articles/matriuxvibhag)
 
 IRC: <irc://irc.freenode.net/matriux>
-
-[Category:Linux](category:linux.md) [Category:Operating
-systems](category:operating_systems.md) [Category:Live
