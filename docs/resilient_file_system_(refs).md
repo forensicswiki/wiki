@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Systems
+  - File Systems
 ---
 The Resilient File System (ReFS) (AKA protogon) was introduced in
 [Windows 8](windows.md), with the intention of eventually
@@ -28,5 +28,3 @@ Writes by using a "Copy-On-Write" feature.
 - [Forensic Investigation of Microsoft's Resilient File System
   (ReFS)](http://resilientfilesystem.co.uk), by [Andrew
   Head](andrew_head.md), April 2015
-
-[Category:File Systems](category:file_systems.md)
