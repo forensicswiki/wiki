@@ -2,7 +2,7 @@
 tags:
   - Digital Forensics XML
 ---
-**fileobject** is an XML [Forensics XML](forensics_xml.md) tag
+**fileobject** is a [Digital Forensics XML](digital_forensics_xml_schema.md) tag
 which is used to describe information about a file.
 
 The file object can contain information about:

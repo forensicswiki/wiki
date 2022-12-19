@@ -1,11 +1,11 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
-[Digital Forensics XML](:category:digital_forensics_xml.md) can
-be used to represent the results of piecewise hashing of individual
-files. The [md5deep](md5deep.md) suite now generates piecewise
-hashing results in DFXML when the `-d` option is provided.
+[Digital Forensics XML](digital_forensics_xml_schema.md) can be used to
+represent the results of piecewise hashing of individual files. The
+[md5deep](md5deep.md) suite now generates piecewise hashing results in DFXML
+when the `-d` option is provided.
 
 Here is an example:
 
@@ -39,6 +39,3 @@ Here is an example:
     <hashdigest type='SHA256'>7a7c62947561b0b00c213d37d04edbe0c8de46282098b7216a23b25fa336f150</hashdigest>
     </fileobject>
     </md5deep>
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)

@@ -1,6 +1,5 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [DFXML Example: source
-    tag](dfxml_example:_source_tag.md)
+_See: [DFXML Example: source tag](dfxml_example_source_tag.md)_

@@ -1,6 +1,5 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Digital Forensics XML
-    Schema](digital_forensics_xml_schema.md)
+_See: [Digital Forensics XML Schema](digital_forensics_xml_schema.md)_

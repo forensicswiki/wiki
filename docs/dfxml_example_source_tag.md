@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
 The '''
 
@@ -45,10 +45,7 @@ be grouped within a **volume** tag:
         </fileobject>
       </volume>
 
-## Coding
+## Encoding
 
-Coding is assumed to be in base10, except for hash codes, which are
-assumed to be base16.
-
-[Category:Digital Forensics
-XML](category:digital_forensics_xml.md)
+Encoding is assumed to be base10, except for hash codes, which are assumed to
+be base16.

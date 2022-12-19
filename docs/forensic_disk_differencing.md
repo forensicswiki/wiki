@@ -1,24 +1,22 @@
 ---
 tags:
-  - No Category
+  - Digital Forensics XML
 ---
-Forensic Disk Differencing is the process of taking two or more disk
-images from the same computer and determining what changes in the first
-disk image might have resulted in the changes that are observed in the
-second. One common use of differencing is to determine what an attacker
-did during a break-in. To be used for this purpose, it is necessary to
-have a forensic disk image of the computer before the break-in and after
-the break-in.
+Forensic Disk Differencing is the process of taking two or more disk images
+from the same computer and determining what changes in the first disk image
+might have resulted in the changes that are observed in the second. One common
+use of differencing is to determine what an attacker did during a break-in. To
+be used for this purpose, it is necessary to have a forensic disk image of the
+computer before the break-in and after the break-in.
 
 ## Differencing Tools
 
 ### idifference.py
 
-idifference.py is part of the [Digital Forensics
-XML](digital_forensics_xml.md) Python Toolkit distributed with
-[fiwalk](fiwalk.md). This tool will compare two different disk
-images and report changes in files between the first and the second. It
-also produces a timeline of changes.
+idifference.py is part of the [Digital Forensics XML](digital_forensics_xml_schema.md)
+Python Toolkit distributed with [fiwalk](fiwalk.md). This tool will compare two
+different disk images and report changes in files between the first and the
+second. It also produces a timeline of changes.
 
 For example, using the **nps-2009-canon2** series of disk images:
 
