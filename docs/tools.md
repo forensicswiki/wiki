@@ -165,11 +165,6 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[HBGary Responder Professional](hbgary_responder_professional.md) - Windows Physical Memory Forensic Platform
-<http://www.hbgary.com>
-
-<!-- -->
-
 [ILook Investigator](ilook_investigator.md) by [Elliot Spencer](elliot_spencer.md) and [U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](internal_revenue_service.md) (IRS)
 <http://www.ilook-forensics.org/>
 
