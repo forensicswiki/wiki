@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
-**NAT detection** is the process of determining hosts running [Network
-Address Translators](network_address_translator.md).
+**NAT detection** is the process of determining hosts running Network Address
+Translators.
 
 ## Approaches
 
@@ -11,27 +11,24 @@ Address Translators](network_address_translator.md).
 
 #### Port scanning
 
-Some software [NAT](network_address_translator.md) solutions
-(such as [Kerio WinRoute
-Firewall](http://www.kerio.com/kwf_firewall.html)), as well as many
-hardware solutions, provide a control port, which allows users to
-monitor and control their server (e.g. using a web browser). These
-control ports can be easily detected by means of port scanning (see
-[Nmap](nmap.md).
+Some software NAT solutions (such as [Kerio WinRoute
+Firewall](http://www.kerio.com/kwf_firewall.html)), as well as many hardware
+solutions, provide a control port, which allows users to monitor and control
+their server (e.g. using a web browser). These control ports can be easily
+detected by means of port scanning (see [Nmap](nmap.md).
 
 #### Routing test
 
-Some improperly configured [NATs](network_address_translator.md)
-allow IP packets to be translated from an external network. Routing test
-can detect these translators by trying to contact external server (e.g.
-*forensicswiki.org:80*) with modified routing tables.
+Some improperly configured NAT allows IP packets to be translated from an
+external network. Routing test can detect these translators by trying to
+contact external server (e.g.  *forensicswiki.org:80*) with modified routing
+tables.
 
 ### Passive detection
 
 #### IP TTL
 
-[Network Address Translators](network_address_translator.md)
-decrement IP TTL values of all translated packets.
+Network Address Translators decrement IP TTL values of all translated packets.
 
 #### Leaked real IP address
 
@@ -70,8 +67,8 @@ Non-heuristic port translators (such as ICS in
 
 #### [OS fingerprinting](os_fingerprinting.md)
 
-[Network Address Translators](network_address_translator.md) can
-be detected by passively fingerprinting all transferred IP packets.
+Network Address Translators can be detected by passively fingerprinting all
+transferred IP packets.
 
 Generally, single host will not produce different OS fingerprints in a
 short period of time. However, this method can be extended to
@@ -111,4 +108,3 @@ using IP IDs and [TCP timestamps](tcp_timestamps.md).
 - [Охота на сетевых
   партизан](http://www.xakep.ru/magazine/xa/111/150/1.asp), Kris
   Kaspersky
-
