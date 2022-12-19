@@ -1,17 +1,15 @@
 ---
 tags:
-  -  Tools
-  -  Live CD
-  -  Open Source Software
+  - Live CD
+  - Open Source Software
+  - Tools
 ---
-A [Linux](linux.md) [Live CD](live_cd.md) intended for
-[computer forensics](computer_forensics.md) and [penetration
-testing](penetration_testing.md).
+A [Linux](linux.md) [Live CD](live_cd.md) intended for [computer
+forensics](computer_forensics.md) and penetration testing.
 
-Pentoo Linux built on top of [Gentoo](gentoo.md) with latest
-tools.
+Pentoo Linux built on top of Gentoo with latest tools.
 
 ## External Links
 
-- [Project site](http://pentoo.ch/)
-- [Source code and issue tracker](http://code.google.com/p/pentoo/)
+* [Project site](https://pentoo.org)
+* [Source code and issue tracker](https://github.com/pentoo)

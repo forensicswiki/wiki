@@ -1,19 +1,20 @@
 ---
 tags:
-  -  Tools
-  -  Live CD
-  -  Linux
-  -  Open Source Software
-  -  Analysis
+  - Analysis
+  - Live CD
+  - Linux
+  - Open Source Software
+  - Tools
 ---
-A [Linux](linux.md) [Live CD](live_cd.md) intended for
-[penetration testing](penetration_testing.md).
+A [Linux](linux.md) [Live CD](live_cd.md) intended for penetration testing.
 
-BackTrack is based on [Ubuntu](ubuntu.md), where early versions
-were based on [Slackware](slackware.md).
+BackTrack is based on [Ubuntu](ubuntu.md), where early versions were based on
+[Slackware](slackware.md).
 
 Recent releases come with a "forensics mode".
 
+Since 2013 BackTrack Linux has been rebranded to Kali Linux.
+
 ## External Links
 
-- [Project site](http://www.backtrack-linux.org/)
+* [Project site](http://www.backtrack-linux.org/)
