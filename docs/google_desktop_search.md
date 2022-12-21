@@ -1,9 +1,10 @@
 ---
 tags:
-  -  Desktop Search
+  - Tools
+  - End of Life 
 ---
 Google Desktop Search is an application for both
-[Windows](windows.md) and [Mac OS X](Mac_OS_X "wikilink") that
+[Windows](windows.md) and [Mac OS X](mac_os_x.md) that
 allows the user to index and then search their local hard drives. These
 applications integrate with other Google tools such as searching the web
 and [Gmail](gmail.md).

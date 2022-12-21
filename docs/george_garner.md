@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 George M. Garner jr. is the President of [GMG Systems
 Inc.](gmg_systems_inc..md) and the author of a

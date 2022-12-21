@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 ## Dealing with Virtual Machine Images
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 The **Graphics Interchange Format** (**GIF**) (SM) format is a lossless
 [image format](image_format.md). GIF images use internal
