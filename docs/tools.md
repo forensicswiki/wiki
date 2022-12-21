@@ -59,11 +59,6 @@ mobile and cloud data extraction.
 
 <!-- -->
 
-[MacForensicsLab](macforensicslab.md) by [Subrosasoft](subrosasoft.md)
-[MacForensicLab-Subrosasoft](http://www.subrosasoft.com/OSXSoftware/index.php?main_page=product_info&cPath=39&products_id=114)
-
-<!-- -->
-
 [Mac Marshal](mac_marshal.md) by [ATC-NY](ATC-NY.md)
 <http://www.macmarshal.com/>
 

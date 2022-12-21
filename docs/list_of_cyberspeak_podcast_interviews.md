@@ -210,8 +210,7 @@ below.
 
 <!-- -->
 
-- 10 May 2008: [Al Lewis](al_lewis.md) from
-  [Subrosasoft](http://subrosasoft.com/) about the [Mac
+- 10 May 2008: [Al Lewis](al_lewis.md) from Subrosasoft about the [Mac
   Lockpick](mac_lockpick.md)
 
 <!-- -->
