@@ -4,12 +4,11 @@ tags:
   -  Operating Systems
   -  Articles that need to be expanded
 ---
-Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating
-system distributed with Apple computers. It includes heavily used
-several programs by default, including [Apple
-Mail](apple_mail.md), a web browser called
-[Safari](apple_safari.md), and an [Apple Address
-Book](apple_address_book.md), and [iCal](iCal "wikilink").
+Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating system
+distributed with Apple computers. It includes heavily used several programs by
+default, including [Apple Mail](apple_mail.md), a web browser called
+[Safari](apple_safari.md), and an [Apple Address Book](apple_address_book.md),
+and iCal.
 
 ## EFI boot
 

@@ -213,7 +213,7 @@ removable media. Casper scripts will search for the root file system
 (typically [SquashFS](squashfs.md) on the local data storage
 media during the boot, mount it, and execute */sbin/init* program on
 mounted root. Most forensic Linux distributions based on
-[Ubuntu](ubuntu.md) and [Debian](Debian "wikilink") lack of
+[Ubuntu](ubuntu.md) and Debian lack of
 integrity checks of selected SquashFS images and will boot specially
 crafted images found on the hard drive (not on the CD).
 
