@@ -14,9 +14,9 @@ response](incident_response.md).
 
 - [Physical memory](physical_memory.md) of a computer can be
   imaged by performing cold boot attack without running tools on an
-  untrusted [OS](os.md);
+  untrusted operating system.
 - Acquisition over a network connection without running tools on an
-  untrusted [OS](os.md);
+  untrusted operating system.
 - No need to reconstruct [RAID](raid.md) arrays;
 - etc.
 
