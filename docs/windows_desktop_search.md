@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Desktop Search
+  - Desktop Search
 ---
 Windows Desktop Search (or Windows Search) is a 'desktop' indexer for
 Microsoft Windows. In Windows XP, Search 4.0 (or Search XP) was an
@@ -34,9 +34,8 @@ required.
 
 ## Analysis
 
-Currently there are not many
-[tools](windows_desktop_search#tools.md) which allow you to
-'forensically' analyze the Windows Search database.
+Currently there are not many [tools](#tools) which allow you to 'forensically'
+analyze the Windows Search database.
 
 ### Artifacts
 
@@ -44,10 +43,10 @@ The artifacts in the Windows Search database can be useful in forensic
 analysis of a desktop Windows system, especially Windows Vista and
 later. A few applications are:
 
-- to (partial) recover the content of indexed documents and even email
+* to (partial) recover the content of indexed documents and even email
   messages stored on a Microsoft Exchange server
-- to indicate the former existence of files
-- time-line analysis
+* to indicate the former existence of files
+* time-line analysis
 
 ### Dirty database
 
@@ -64,25 +63,22 @@ database' this is easily circumvented.
 
 ## See Also
 
-- [Google Desktop Search](google_desktop_search.md)
-- [Windows.edb file
+* [Google Desktop Search](google_desktop_search.md)
+* [Windows.edb file
   format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
 ## External Links
 
-- [Official website](http://www.microsoft.com/windows/desktopsearch/)
-- [Wikipedia entry on Windows Desktop
+* [Official website](http://www.microsoft.com/windows/desktopsearch/)
+* [Wikipedia entry on Windows Desktop
   Search](http://en.wikipedia.org/wiki/Windows_Desktop_Search)
-- [Wikipedia list of Desktop search
+* [Wikipedia list of Desktop search
   engines](http://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
-- [Forensic analysis of the Windows Search
+* [Forensic analysis of the Windows Search
   database](http://code.google.com/p/libesedb/downloads/detail?name=Forensic%20analysis%20of%20the%20Windows%20Search%20database.pdf)
 
 ## Tools
 
-- [EseDBViewer](http://www.woany.co.uk/esedbviewer/)
-- [libesedb](libesedb.md)
-- [Windows Search Index
-  Examiner](http://www.lostpassword.com/search-index-examiner.htm)
-
-[Category:Desktop Search](category:desktop_search.md)
+* [EseDBViewer](http://www.woany.co.uk/esedbviewer/)
+* [libesedb](libesedb.md)
+* [Windows Search Index Examiner](http://www.lostpassword.com/search-index-examiner.htm)

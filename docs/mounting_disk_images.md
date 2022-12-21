@@ -93,7 +93,7 @@ Windows systems.
 ## Free Tools
 
 - [Arsenal Image
-  Mounter](arsenal_recon#arsenal_image_mounter.md) - Arsenal
+  Mounter](arsenal_recon.md#arsenal-image-mounter) - Arsenal
   Image Mounter takes the contents of disk images and presents them to
   Windows as SCSI disks
 - [FTK Imager](http://accessdata.com/product-download)

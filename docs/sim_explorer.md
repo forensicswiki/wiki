@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Mobile device tools
+  - Mobile device tools
 ---
 **SIM Explorer** is an advanced SIM card analysis tool designed for
 reverse engineers, forensic detectives, or those who are learning about
@@ -16,28 +16,27 @@ human-readable form.
 
 ## Feature highlights
 
-- A scan mode that can reveal *all* the files on the SIM card, including
+* A scan mode that can reveal *all* the files on the SIM card, including
   files that are not present on standard cards.
-- Displays the *raw data* of each file and record on the SIM, as well as
+* Displays the *raw data* of each file and record on the SIM, as well as
   the *high-level* (i.e. human readable) interpretation of the raw data.
-- Edit the raw data and upload it to the card.
-- Provides an *offline analysis* capability that enables you to save a
+* Edit the raw data and upload it to the card.
+* Provides an *offline analysis* capability that enables you to save a
   SIM card to a file and use that file as if it were the card itself.
   This way SIM card images can be archived or exchanged with colleagues.
-- Can *backup and restore* individual files on the SIM as well as the
+* Can *backup and restore* individual files on the SIM as well as the
   entire SIM card.
-- Interpret and display a *SIM Toolkit Application*.
-- Interpret the ATR of a SIM card.
-- Side-by-side SIM card comparison.
-- Generate a printable SIM card report.
-- Compute the hash of a SIM card (by hashing file contents and file
+* Interpret and display a *SIM Toolkit Application*.
+* Interpret the ATR of a SIM card.
+* Side-by-side SIM card comparison.
+* Generate a printable SIM card report.
+* Compute the hash of a SIM card (by hashing file contents and file
   properties).
-- Supports Unicode SMS
+* Supports Unicode SMS
 
 ## Requirements
 
-- Any PC/SC compliant [smart card
-  reader](sim_card_forensics#hardware.md).
+* Any PC/SC compliant [smart card reader](sim_card_forensics.md#hardware).
 
 ## Screenshots
 
@@ -51,7 +50,6 @@ alt="SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG" />
 
 ## External Links
 
-- [SIM Explorer 1.2 release
+* [SIM Explorer 1.2 release
   notes](http://www.lazybit.com/index.php/2008/12/16/sim-explorer-1-2-release-notes)
-- [SIM Explorer video demo](http://www.youtube.com/watch?v=P5dJS7g1o_c)
-
+* [SIM Explorer video demo](http://www.youtube.com/watch?v=P5dJS7g1o_c)

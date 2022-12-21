@@ -22,7 +22,7 @@ sizes shall report the actual physical/logical size in words 106 and
 
 Some Western Digital drives with "Advanced Format" reportedly do not
 provide the information about physical sector size (see [External
-Links](#external_links.md).
+Links](#external-links)).
 
 # The Problem: Death of LBA 63
 

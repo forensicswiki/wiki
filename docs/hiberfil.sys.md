@@ -37,7 +37,7 @@ entry](http://www.msuiche.net/2008/04/06/few-words-about-microsoft-interoperabil
 | 2000            | LZNT1 (LZ77 variant)      |
 | Vista, 7        | Xpress (LZ77 and direct2) |
 
-[Hibernation Recon](arsenal_recon#hibernation_recon.md) is a
+[Hibernation Recon](arsenal_recon.md#hibernation-recon) is a
 commercial digital forensics tool [launched in late
 2016](https://arsenalrecon.com/apps/hibernation-recon/). In addition to
 memory reconstruction from Windows XP, Vista, 7, 8/8.1, and 10

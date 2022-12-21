@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
+  - File Formats
+  - Windows
 ---
 A Windows Prefetch file consists of one file header and multiple file
 sections with different content. Not all content has an obvious forensic
@@ -430,12 +430,11 @@ been seen. It is currently assumed that this is unused remnant data.
 
 ## See Also
 
-- [Prefetch](prefetch.md)
-- For tools see: [Prefetch#Tools](prefetch#tools.md)
+* [Prefetch](prefetch.md)
+* For tools see: [Prefetch#Tools](prefetch.md#tools)
 
 ## External Links
 
-- [Windows Prefetch File (PF)
+* [Windows Prefetch File (PF)
   format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
   by the [libssca project](libssca.md)
-

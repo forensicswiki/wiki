@@ -22,10 +22,9 @@ PNG files begin with the following 8-byte (hexadecimal) signature:
 
 # See Also
 
-- [Tools for extracting image metadata](:tools:document_metadata_extraction#images.md)
+* [Tools for extracting image metadata](:tools:document_metadata_extraction.md#images)
 
 # External Links
 
-- [Wikipedia article](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
-- [W3C Recommendation](http://www.w3.org/TR/2003/REC-PNG-20031110/)
-
+* [Wikipedia article](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+* [W3C Recommendation](http://www.w3.org/TR/2003/REC-PNG-20031110/)

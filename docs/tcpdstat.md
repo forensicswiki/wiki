@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Network Forensics
-  -  Open Source Software
+  - Linux
+  - Network Forensics
+  - Open Source Software
+  - Tools
 ---
 ## Overview
 
@@ -21,11 +21,11 @@ for next on a lower level.
 
 ## Download and Instructions
 
-See the [External Links](tcpdstat#external_links.md) section
+See the [External Links](#external-links) section
 below for a link with instructions on how to download and build
 Tcpdstat.
 
 ## External Links
 
-[Tcpdstat Overview and Build
+* [Tcpdstat Overview and Build
 Instructions](http://cyberforensics.et.byu.edu/wiki/Tcpdstat)
