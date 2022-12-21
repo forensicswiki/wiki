@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel for OLM Viewer is a advance tool that reveals its true value when
 user system is completely devoid of Outlook for Mac. In absence of Mac
@@ -75,6 +75,4 @@ through email or call as per choice of the user.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel for PST ADD is a freeware developed under Kernel Data recovery
 tools that enables addition of multiple PST files or single PST file to
@@ -60,6 +60,4 @@ email at any time, before and after download.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

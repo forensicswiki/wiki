@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *DBX Recovery Tool* is a diverse tool to recover Outlook Express DBX
 files and help users to restore them to DBX, PST, EML and RTF formats.
@@ -30,7 +30,4 @@ for any types of corruption issues and errors.
 
 ## External Links
 
-[Official
-Website](https://www.sysinfotools.com/recovery/dbx-recovery.php)
-
-[Category:Analysis](category:analysis.md) [Category:Paid
+* [Official Website](https://www.sysinfotools.com/recovery/dbx-recovery.php)

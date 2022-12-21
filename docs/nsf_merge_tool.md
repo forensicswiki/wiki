@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *NSF Merge Tool* is an innovative application For [IBM
 Notes](https://en.wikipedia.org/wiki/IBM_Notes) users. NSF Merge tool
@@ -21,7 +21,4 @@ consolidate unlimited Lotus Notes archive database files.
 
 ## External Links
 
-[Official
-Website](https://www.sysinfotools.com/recovery/merge-nsf-files.php)
-
-[Category:Analysis](category:analysis.md) [Category:Paid
+* [Official Website](https://www.sysinfotools.com/recovery/merge-nsf-files.php)

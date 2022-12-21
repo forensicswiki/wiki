@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *Free OST Viewer* is a freeware application For [Microsoft
 Outlook](microsoft_outlook.md)[1](http://forensicswiki.org/wiki/Microsoft_Outlook)
@@ -30,7 +30,4 @@ even save them in HTML format.
 
 ## External Links
 
-[Official
-Website](https://www.sysinfotools.com/recovery/ost-file-viewer.php)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](https://www.sysinfotools.com/recovery/ost-file-viewer.php)

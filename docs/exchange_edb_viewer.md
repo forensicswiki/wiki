@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *Exchange EDB Viewer* is a freeware standalone tool which can scan and
 offer preview of database file without Server environment needed.
@@ -15,8 +15,5 @@ version, however, it will still remain a standalone.
 
 ## External Links
 
-- [Exchange Database
-  Viewer](http://www.systoolsgroup.com/exchange-edb-viewer.html)
-- [Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Exchange Database Viewer](http://www.systoolsgroup.com/exchange-edb-viewer.html)
+* [Official Website](http://www.systoolsgroup.com/)

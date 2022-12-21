@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Exchange EDB Viewer provides its user a rich EDB email viewing facility.
 The solution is programmed to dynamically generate crystal-clear view of
@@ -97,6 +97,4 @@ video simulations, etc., to rectify the software-related problems.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel EML Viewer is a freeware program to provide a preview of restored
 e-mail messages that were created using Outlook Express and other
@@ -83,6 +83,4 @@ Data Recovery.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

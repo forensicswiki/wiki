@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 This picture perfect free software proves effective when one require to
 resize the bulk of images in single tone, quality and size.
@@ -19,6 +19,4 @@ user to resize imagination with bounty of colors.
 
 ## External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

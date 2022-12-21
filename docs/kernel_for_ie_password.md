@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 This utility restores and displays the user logins and passwords from
 the cache of Internet Explorer and auto complete the data strings that
@@ -17,6 +17,4 @@ remembering user’s login.
 
 ## External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)

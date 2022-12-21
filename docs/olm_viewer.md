@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *OLM Viewer* is a freeware program built to offer a preview of Mac
 Outlook OLM files on a Windows Machine
@@ -18,6 +18,4 @@ software appropriately.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.systoolsgroup.com/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 *Outlook PST Viewer* is a freeware file reader developed for data
 examination purpose by [SysTools](systools.md) Software. The
@@ -114,7 +114,5 @@ uncertainties.
 
 ## External Links
 
-- [Official Website](http://www.systoolsgroup.com/)
-- [Free PST Viewer](http://www.bitrecover.com/free/pst-viewer/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.systoolsgroup.com/)
+* [Free PST Viewer](http://www.bitrecover.com/free/pst-viewer/)

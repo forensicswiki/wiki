@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Log files are used to maintain a record of activities, e.g. activities
 of the operating system, certain applications, etc.
@@ -99,5 +99,3 @@ Breadboard BI Web Analytics
 <http://sourceforge.net/projects/web-analytics/>
 
 *"Uses open source tools to collect and distribute web analytics data."*
-
-[Category:Analysis](category:analysis.md)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Analysis
+  - Analysis
 ---
 Kernel MBOX Viewer is the standalone utility designed to view entire
 MBOX file contents in hierarchical manner. This MBOX Viewer tool
@@ -76,6 +76,4 @@ through email or call as per choice of the user.
 
 # External Links
 
-[Official Website](http://www.nucleustechnologies.com/)
-
-[Category:Analysis](category:analysis.md) [Category:Free
+* [Official Website](http://www.nucleustechnologies.com/)
