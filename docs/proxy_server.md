@@ -174,8 +174,7 @@ While [Windows](windows.md) Vista commonly uses these options:
 This means that:
 
 - User-Agent header was forged;
-- The request was sent using a proxy server with different
-  [OS](os.md).
+- The request was sent using a proxy server with different operating system.
 
 #### Other methods
 

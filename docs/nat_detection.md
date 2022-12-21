@@ -70,10 +70,10 @@ Non-heuristic port translators (such as ICS in
 Network Address Translators can be detected by passively fingerprinting all
 transferred IP packets.
 
-Generally, single host will not produce different OS fingerprints in a
-short period of time. However, this method can be extended to
-fingerprinting different hosts running the same [OS](os.md) by
-using IP IDs and [TCP timestamps](tcp_timestamps.md).
+Generally, single host will not produce different OS fingerprints in a short
+period of time. However, this method can be extended to fingerprinting
+different hosts running the same operating system by using IP IDs and
+[TCP timestamps](tcp_timestamps.md).
 
 ## Tools
 
