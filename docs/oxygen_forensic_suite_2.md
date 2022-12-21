@@ -84,21 +84,18 @@ alt="OFS2_08_MessagesExportPDF.png" /> [More screenshots
 </tr>
 </table>
 
-**Oxygen Forensic Suite 2** is a mobile forensic software for logical
-analysis of [cell phones](cell_phones.md),
-[smartphones](smartphones.md) and [PDAs](PDAs "wikilink")
-developed by [Oxygen Software](oxygen_software.md). The suite
-can extract device information, contacts, calendar events,
-[SMS](sms.md) messages, event logs, and files. In addition, the
-vendor claims the suite can extract metadata related to the above. As of
-August 2009 the suite supported more than 1,450 devices, including
-[Nokia](nokia.md), [Apple iPhone](Apple_iPhone "wikilink")
-series, [Apple iPod](apple_ipod.md) Vertu, [Sony
-Ericsson](sony_ericsson.md), Samsung, Motorola,
-[Blackberry](blackberry.md), Panasonic, Siemens, HTC, HP, E-Ten,
-Gigabyte, i-Mate and other mobile phones. The suite also supports
-devices running [Symbian OS](symbian.md) and [Windows Mobile
-5/6](microsoft_windows_mobile.md).
+**Oxygen Forensic Suite 2** is a mobile forensic software for logical analysis
+of [cell phones](cell_phones.md), [smartphones](smartphones.md) and
+[PDAs](pdas.md) developed by [Oxygen Software](oxygen_software.md). The suite
+can extract device information, contacts, calendar events, [SMS](sms.md)
+messages, event logs, and files. In addition, the vendor claims the suite can
+extract metadata related to the above. As of August 2009 the suite supported
+more than 1,450 devices, including [Nokia](nokia.md), [Apple
+iPhone](apple_iphone.md) series, [Apple iPod](apple_ipod.md) Vertu, [Sony
+Ericsson](sony_ericsson.md), Samsung, Motorola, [Blackberry](blackberry.md),
+Panasonic, Siemens, HTC, HP, E-Ten, Gigabyte, i-Mate and other mobile phones.
+The suite also supports devices running [Symbian OS](symbian.md) and [Windows
+Mobile 5/6](microsoft_windows_mobile.md).
 
 ## Forensic Soundness
 
@@ -117,6 +114,4 @@ II (Forensic Edition)".
 
 ## External Links
 
-- [Official web site](http://www.oxygen-forensic.com/)
-
-[Category:Windows Mobile](category:windows_mobile.md)
+* [Official web site](http://www.oxygen-forensic.com/)

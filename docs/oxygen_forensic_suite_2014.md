@@ -50,22 +50,19 @@ href="http://www.oxygen-forensic.com/en/screenshots/">More screenshots
 </table>
 
 **Oxygen Forensic Suite 2014** is a mobile forensic software for logical
-analysis of [cell phones](cell_phones.md),
-[smartphones](smartphones.md) and [PDAs](PDAs "wikilink")
-developed by [Oxygen Software](oxygen_software.md). The suite
-can extract device information, contacts, calendar events,
-[SMS](sms.md) messages, event logs, and files. In addition, the
-vendor claims the suite can extract metadata related to the above. As of
-December 2014 the suite supported more than 8,400 devices, including
-[Nokia](nokia.md), [Apple iPhone](Apple_iPhone "wikilink")
-series, [Apple iPod Touch](apple_ipod_touch.md), [Apple
-iPad](apple_ipad.md), Vertu, [Sony
-Ericsson](sony_ericsson.md), Samsung, Motorola,
-[Blackberry](blackberry.md), Panasonic, Siemens, HTC, HP, E-Ten,
-Gigabyte, i-Mate, Chinese (Mediatek) Phones and other mobile phones. The
-suite also supports devices running [Symbian OS](symbian.md),
-[Windows Mobile 5/6](microsoft_windows_mobile.md), Microsoft
-Windows Phone 8 and [Android OS devices](android.md).
+analysis of [cell phones](cell_phones.md), [smartphones](smartphones.md) and
+[PDAs](pdas.md) developed by [Oxygen Software](oxygen_software.md). The suite
+can extract device information, contacts, calendar events, [SMS](sms.md)
+messages, event logs, and files. In addition, the vendor claims the suite can
+extract metadata related to the above. As of December 2014 the suite supported
+more than 8,400 devices, including [Nokia](nokia.md), [Apple
+iPhone](apple_iphone.md) series, [Apple iPod Touch](apple_ipod_touch.md),
+[Apple iPad](apple_ipad.md), Vertu, [Sony Ericsson](sony_ericsson.md), Samsung,
+Motorola, [Blackberry](blackberry.md), Panasonic, Siemens, HTC, HP, E-Ten,
+Gigabyte, i-Mate, Chinese (Mediatek) Phones and other mobile phones. The suite
+also supports devices running [Symbian OS](symbian.md), [Windows Mobile
+5/6](microsoft_windows_mobile.md), Microsoft Windows Phone 8 and [Android OS
+devices](android.md).
 
 ## Forensic Soundness
 
