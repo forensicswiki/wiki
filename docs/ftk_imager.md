@@ -1,6 +1,9 @@
 ---
 tags:
-  - No Category
+  - Disk Imaging 
+  - Windows
+  - Commerical Software
+  - Tools
 ---
 The **Forensic Toolkit Imager** (**FTK Imager**) is a commercial
 forensic [imaging](imaging.md) software package distributed by

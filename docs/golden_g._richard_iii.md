@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 Golden G. Richard III is Professor of Computer Science, University
 Research Professor, and Director of the Greater New Orleans Center for

@@ -1,7 +1,9 @@
 ---
 tags:
-  -  Reserving
-  -  Open Source Software
+  - Reversing
+  - Disassembler 
+  - Tools
+  - Open Source Software
 
 ---
 Ghidra is a software reverse engineering (SRE) framework created and
