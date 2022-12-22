@@ -17,15 +17,13 @@ integrity](file_integrity.md).
 ## Advantages
 
 One important advantage that separates Paraben’s Cell Seizure from other
-similar products is the fact that it is designed not to change the data
-stored on the [SIM card](sim_card.md) or [cell
-phone](cell_phone.md). In other words, all of the data can be
-examined while keeping the process undetected. Most commercial or free
-software for cell phones is designed do not only view data but to upload
-data to cell phones. This is not a safe way to perform a forensic
-evaluation of cell phone data. In fact, even some forensic software
-warns of possible data loss. Cell Seizure does not allow data to be
-changed on the phone.
+similar products is the fact that it is designed not to change the data stored
+on the [SIM card](sim_card.md) or cell phone. In other words, all of the data
+can be examined while keeping the process undetected. Most commercial or free
+software for cell phones is designed do not only view data but to upload data
+to cell phones. This is not a safe way to perform a forensic evaluation of cell
+phone data. In fact, even some forensic software warns of possible data loss.
+Cell Seizure does not allow data to be changed on the phone.
 
 ## Disadvantages
 

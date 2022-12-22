@@ -28,8 +28,8 @@ approximately three times faster.
 
 GPRS provides the ability to make use many different mobile services and
 capabilities, for example e-mail, web browsing, games, calendar
-funcionality, using the [cell phone](cell_phone.md) as modem for
-laptops. instant messaging and lots more.
+funcionality, using the cell phone as modem for laptops. instant messaging
+and lots more.
 
 For a more complete list, see [Nokia: What You Can Do With
 GPRS](http://www.nokia.be/uk/Phones/Technologies/gprs/benefits.html).
