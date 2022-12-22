@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Systems
+  - File Systems
 ---
 The **New Technology File System** (**NTFS**) is a [file
 system](file_system.md) developed and introduced by
@@ -49,8 +49,7 @@ The **NTFS** file system includes a feature referred to as Alternate
 Data Streams (ADSs). This feature has also been referred to as "multiple
 data streams", "alternative data streams", etc. ADSs were included in
 **NTFS** in order to support the resource forks employed by the
-Hierarchal File System ([hfs](hfs.md) employed by Macintosh
-systems.
+Hierarchal File System (HFS) employed by Macintosh systems.
 
 As of [Windows XP](windows_xp.md) SP2, files downloaded via
 Internet Explorer, Outlook, and Windows Messenger were automatically
@@ -213,4 +212,3 @@ TxF uses the [Common Log File System
 ### USN change journal (UsnJrnl)
 
 - [Wikipedia: USN Journal](https://en.wikipedia.org/wiki/USN_Journal)
-

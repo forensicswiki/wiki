@@ -10,7 +10,7 @@ mobile devices (iPhone/iPad/iPod Touch).
 ## File System
 
 iOS runs a reduced variant of [OSX](mac_os_x.md) and
-[HFSX](hfs.md) as a file system.
+[HFSX](hfs+.md) as a file system.
 
 A majority of the useful information is stored in /private/var2/mobile/
 However there is other useful information stored in the keychains and db
@@ -42,30 +42,29 @@ Podcasts, Recordings and Pictures/Videos taken
 There are several tools available to extract information out of iOS
 operating systems (listed alphabetically):
 
-- Aceso by Radio Tactics
+* Aceso by Radio Tactics
   [1](http://www.radio-tactics.com/products/law/aceso-kiosk)
-- Blacklight by Black Bag Technology [2](https://www.blackbagtech.com/)
-- Lantern by Katana Forensics [3](http://katanaforensics.com/)
-- [Nuix Desktop](nuix_desktop.md) and [Proof
-  Finder](proof_finder.md) by [Nuix](Nuix "wikilink").
-- Oxygen Forensic Suite by Oxygen Software
+* Blacklight by Black Bag Technology [2](https://www.blackbagtech.com/)
+* Lantern by Katana Forensics [3](http://katanaforensics.com/)
+* [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) by
+  [Nuix](nuix.md).
+* Oxygen Forensic Suite by Oxygen Software
   [4](http://www.oxygen-forensic.com/en/)
-- UFED and Physical Analyzer by Cellebrite
+* UFED and Physical Analyzer by Cellebrite
   [5](http://www.cellebrite.com/)
-- XRY by Micro Systemation [6](http://www.msab.com/)
+* XRY by Micro Systemation [6](http://www.msab.com/)
 
 ## See Also
 
-- [IOS security](ios_security.md)
-- [Cell Phone Forensics](cell_phone_forensics.md)
+* [IOS security](ios_security.md)
+* [Cell Phone Forensics](cell_phone_forensics.md)
 
 ## External Links
 
-- [The Future of Mobile
+* [The Future of Mobile
   Forensics](http://belkasoft.com/en/future-of-mobile-forensics),
   article by [Belkasoft](belkasoft.md)
-- [Database Parsing
+* [Database Parsing
   Tools](http://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
-- [iOS (iPhone OS)
+* [iOS (iPhone OS)
   Forensics](http://www.systoolsgroup.com/forensics/sqlite/ios.html)
-

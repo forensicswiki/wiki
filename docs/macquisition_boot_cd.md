@@ -1,10 +1,9 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-The **MacQuisition Boot CD** is a forensic [Boot
-CD](boot_cd.md)/[Live CD](Live_CD "wikilink") built for imaging
-[Mac OS X](mac_os_x.md) systems.
+The **MacQuisition Boot CD** is a forensic [Boot CD](boot_cd.md)/[Live
+CD](live_cd.md) built for imaging [Mac OS X](mac_os_x.md) systems.
 
 # Features
 

@@ -63,11 +63,10 @@ TestDisk can find lost partitions of the following file systems:
   ([FreeBSD](freebsd.md)/[OpenBSD](openbsd.md)/[NetBSD](netbsd.md)
 - [Cramfs](cramfs.md), Compressed File System
 - DOS/Windows [FAT](fat.md) 12, 16, and 32
-- [HFS](hfs.md), [HFS+](hfs+.md) and
-  [HFSX](hfs+.md), Hierarchical File System
+- (Traditional) HFS, [HFS+](hfs+.md) and [HFSX](hfs+.md), Hierarchical File
+  System
 - IBM Journaled File System 2 (JFS2), IBM's Journaled File System
-- [Linux](linux.md) [ext2](ext2.md) and
-  [ext3](ext3.md)
+- [Linux](linux.md) [ext2](ext2.md) and [ext3](ext3.md)
 - [Linux](linux.md) RAID
   - RAID 1: mirroring
   - RAID 4: striped array with parity device

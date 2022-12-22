@@ -1,8 +1,8 @@
 ---
 tags:
-  -  MacOS
-  -  Operating Systems
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - MacOS
+  - Operating Systems
 ---
 Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating system
 distributed with Apple computers. It includes heavily used several programs by
@@ -246,7 +246,7 @@ Mac OS.
 - [Basic Security Module (BSM) file
   format](basic_security_module_(bsm)_file_format.md)
 - [DMG](dmg.md)
-- [Hierarchical File System (HFS) format](hfs.md)
+- [Hierarchical File System Plus (HFS+) format](hfs+.md)
 - [Property list (plist)](property_list_(plist).md)
 
 ## External Links
