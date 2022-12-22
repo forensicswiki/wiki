@@ -29,9 +29,9 @@ Software Includes:
 7.  Pasco
 8.  Rifiuti
 9.  [Volatility Framework](volatility_framework.md)
-10. DFLabs PTK (GUI Front-End for [Sleuthkit](sleuthkit.md)
+10. DFLabs PTK (GUI Front-End for [The Sleuth Kit](the_sleuth_kit.md)
 11. [Autopsy](autopsy.md) (GUI Front-End for
-    [Sleuthkit](sleuthkit.md)
+    [The Sleuth Kit](the_sleuth_kit.md)
 
 The SIFT Workstation will allow evidence to be viewed from a Windows
 workstation. The /images directory and the evidence mount point, the
@@ -40,6 +40,4 @@ system.
 
 ## Links
 
-- [Computer Forensics and e-Discovery
-  downloads](http://forensics.sans.org/community/downloads/)
-
+* [Computer Forensics and e-Discovery downloads](http://forensics.sans.org/community/downloads/)

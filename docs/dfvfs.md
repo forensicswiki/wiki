@@ -41,7 +41,7 @@ The information below is based of version 20221207.
 
 ### Volume systems
 
-* [Apple Partition Map](apm.md) or APM using [sleuthkit](sleuthkit.md) and
+* [Apple Partition Map](apm.md) or APM using [The Sleuth Kit](the_sleuth_kit.md) and
   [pytsk](pytsk.md)
 * Apple File System or APFS container version 2 using [libfsapfs](libfsapfs.md)
 * [BitLocker Disk Encryption](bitlocker_disk_encryption.md) or BDE using
@@ -50,13 +50,13 @@ The information below is based of version 20221207.
   Encryption](filevault_disk_encryption.md) or FVDE, or FileVault 2 using
   [libfvde](libfvde.md)
 * [GPT](gpt.md) using [libvsgpt](libvsgpt) with fallback to
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) or
   Linux LVM using [libvslvm](libvslvm.md)
   * At the moment only single physical volume LVM support
 * [Linux Unified Key Setup](linux_unified_key_setup_(luks).md) or LUKS using
   [libluksde](libluksde.md)
-* [MBR](mbr.md) using [sleuthkit](sleuthkit.md) and
+* [MBR](mbr.md) using [The Sleuth Kit](the_sleuth_kit.md) and
   [pytsk](pytsk.md)
 * [Windows Shadow Volumes](windows_shadow_volumes.md) or VSS using
   [libvshadow](libvshadow.md)
@@ -66,18 +66,18 @@ The information below is based of version 20221207.
 * Apple File System or APFS version 2 using [libfsapfs](libfsapfs.md)
 * [Extended File System (ext)](extended_file_system_(ext).md) version 2, 3, 4
   using [libfsext](libfsext.md) with fallback to
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [FAT-12](fat.md), FAT-16, FAT-32 and exFAT using
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md) with
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md) with
   fallback to [libfsfat](libfsfat.md)
 * [HFS+, HFSX](hfs+.md) using [libfshfs](libfshfs.md) with fallback to
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
-* ISO-9660 version 1 using [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
+* ISO-9660 version 1 using [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [New Technology File System](new_technology_file_system_(ntfs).md) or NTFS
   version 3 using [libfsntfs](libfsntfs.md) with fallback to
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [Unix File System](unix_file_system_(ufs).md) or UFS version 1, 2 using
-  [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+  [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * XFS version 4, 5 using [libfsxfs](libfsxfs.md)
 
 ## History

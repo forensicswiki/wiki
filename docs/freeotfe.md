@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Encryption
+  - Encryption
+  - Open Source Software
 ---
 **FreeOTFE** is an open source program to create and mount virtual
 encrypted disks in [Windows Vista/XP/2000](windows.md) and
@@ -8,8 +9,7 @@ encrypted disks in [Windows Vista/XP/2000](windows.md) and
 deniability (hidden containers and no signatures to make differentiate
 containers from random data), on the fly encryption and supports
 numerous encryption algorithms (including [AES](aes.md),
-[Blowfish](blowfish.md), [Serpent](Serpent "wikilink") and
-[Twofish](twofish.md).
+[Blowfish](blowfish.md), [Serpent](serpent.md) and [Twofish](twofish.md).
 
 ## Hidden volumes
 
@@ -19,13 +19,8 @@ prove whether there is a hidden volume or not.
 
 When a hidden volume is mounted, the operating system and third-party
 applications may write to non-hidden volumes information about the data
-stored in the hidden volume (e.g. most recently used
-([mru](mru.md).
+stored in the hidden volume (e.g. most recently used [mru](mru.md)).
 
 ## External Links
 
-- [Official website](http://www.FreeOTFE.org/)
-
-[Category:Encryption](category:encryption.md) [Category:Disk
-encryption](category:disk_encryption.md) [Category:Free
-software](category:free_software.md) [Category:Open source
+* [Official website](http://www.FreeOTFE.org/)

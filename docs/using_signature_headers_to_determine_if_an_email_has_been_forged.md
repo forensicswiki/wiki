@@ -36,7 +36,7 @@ public keys are distributed via [DNS](domain_name_system.md).
 ## Signed mail
 
 Some other programs can be used by the sender to sign an email message.
-Programs such as [PGP](pgp.md), [GnuPG](GnuPG "wikilink").
+Programs such as [PGP](pgp.md), [GnuPG](gnupg.md).
 
 ### PGP Messages
 

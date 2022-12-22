@@ -11,7 +11,7 @@ tags:
 similar to what the popular [top](top.md)
 [Unix](unix.md) command does. ntop is based on libpcap and it
 has been written in a portable way in order to virtually run on every
-[Unix](unix.md) platform and on [Win32](Windows "wikilink") as
+[Unix](unix.md) platform and on [Win32](windows.md) as
 well.
 
 ntop users can use a a web browser to navigate through ntop (that acts

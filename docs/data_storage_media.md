@@ -9,20 +9,19 @@ investigation](forensic_investigation.md).
 ## Media
 
 - [Caches](cache.md)
-- [RAM](ram.md), [ROM](ROM "wikilink"),
+- [RAM](ram.md), ROM,
   [Flash](flash.md), ...
 - [Floppy Disks](floppy_disk.md)
-- [CDs](cd.md), [DVDs](DVD "wikilink"),
+- [CDs](cd.md), DVDs,
   [CD-RWs](cd-rw.md), ...
 - [Hard drives](hard_drive.md)
 - [USB thumb drives](usb_thumb_drive.md)
 - [Memory cards](memory_card.md),
-  [Smartcards](smartcard.md), [SIM cards](SIM_Cards "wikilink"),
+  [Smartcards](smartcard.md), [SIM cards](sim_cards.md),
   [RFID](rfid.md) tags...
 - [Tapes](tape.md)
 - [SSD](solid_state_drives.md)
 
 ## External Links
 
-- [Wikipedia: Computer
-  storage](http://en.wikipedia.org/wiki/Computer_storage)
+* [Wikipedia: Computer storage](http://en.wikipedia.org/wiki/Computer_storage)

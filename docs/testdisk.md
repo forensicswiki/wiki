@@ -66,7 +66,7 @@ TestDisk can find lost partitions of the following file systems:
 - (Traditional) HFS, [HFS+](hfs+.md) and [HFSX](hfs+.md), Hierarchical File
   System
 - IBM Journaled File System 2 (JFS2), IBM's Journaled File System
-- [Linux](linux.md) [ext2](ext2.md) and [ext3](ext3.md)
+- [Linux](linux.md) [ext2 and ext3](extended_file_system_(ext).md)
 - [Linux](linux.md) RAID
   - RAID 1: mirroring
   - RAID 4: striped array with parity device

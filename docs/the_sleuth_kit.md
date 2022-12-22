@@ -21,12 +21,10 @@ browser-based access to the TSK tools.
 # Features
 
 The Sleuth Kit is arranged in layers. There is a *data layer* which is
-concerned with how information is stored on a disk and a *metadata
-layer* which is considered with information such as
-[inodes](inode.md) and [directories](directory "wikilink"). The
-commands that deal with the data layer are prefixed with the letter *d*,
-which the commands that deal with the metadata layer are prefixed with
-the letter *i*.
+concerned with how information is stored on a disk and a *metadata layer* which
+is considered with information such as [inodes](inode.md) and directories. The
+commands that deal with the data layer are prefixed with the letter *d*, which
+the commands that deal with the metadata layer are prefixed with the letter *i*.
 
 Some of the commands in Sleuth Kit are:
 
