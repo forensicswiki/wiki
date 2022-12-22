@@ -23,7 +23,7 @@ mounted encrypted file systems (except
 ## KDE & GNOME
 
 KDE and GNOME are popular desktop environments for
-[Linux](linux.md) and [UNIX](UNIX "wikilink") platforms. They
+[Linux](linux.md) and [UNIX](unix.md) platforms. They
 are storing thumbnails in *\~/.thumbnails*.
 
 Example thumbnail in GNOME:

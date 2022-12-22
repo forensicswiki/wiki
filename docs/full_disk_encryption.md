@@ -84,8 +84,8 @@ beCrypt
 
 <!-- -->
 
-[BitArmor](bitarmor.md) [DataControl](DataControl "wikilink")
-FDE tool that protects fixed and removable media.
+[BitArmor](bitarmor.md) [DataControl](datacontrol.md) FDE tool that protects
+fixed and removable media.
 
 <!-- -->
 
@@ -235,11 +235,10 @@ Securstar DriveCrypt
 
 [TrueCrypt](truecrypt.md)
 Transparent full disk encryption for [Linux](linux.md) and
-[Windows](windows.md). Supports [AES](aes.md) (256 bit),
-[Serpent](serpent.md) and [Twofish](Twofish "wikilink").
+[Windows](windows.md). Supports [AES](aes.md) (256 bit), [Serpent](serpent.md)
+and [Twofish](twofish.md).
 
-Supports hidden volumes within TrueCrypt volumes (plausible
-deniability).
+Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 
 <http://www.truecrypt.org/>
 

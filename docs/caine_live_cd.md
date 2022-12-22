@@ -51,9 +51,9 @@ or duplicate:
 - Mounter and RBFstab: mounting devices in a simple and via graphical
   interface.
 
-[RBFstab](rbfstab.md) is set to treat [EXT3](ext3.md) as
-a [EXT4](ext4.md)*noload with the option* to avoid automatic
-recovery of any corrupt Journal of '[EXT3](ext3.md);
+[RBFstab](rbfstab.md) is set to treat an ext3 file system as
+an ext4 file system *noload with the option* to avoid automatic
+recovery of any corrupt Journal of ext3;
 
 - Swap file off: patch that avoids modifying the file
   [swap](swap.md) in systems with limited memory

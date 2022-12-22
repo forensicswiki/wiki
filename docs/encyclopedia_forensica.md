@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 Encyclopedia is defined as - An encyclopedia is a type of reference work
 – a compendium holding a summary of information from either all branches
@@ -19,21 +19,17 @@ and content, Please start there if you are looking to contribute)
 
 ## Operating Systems:
 
-[Windows 95](windows_95.md)
-
-[Windows 98](windows_98.md)
-
-[Windows XP](windows_xp.md)
-
-[Windows Vista](windows_vista.md)
-
-[Windows 7](windows_7.md)
-
-[Windows 8](windows_8.md)
-
-[OSX 10.8](osx_10.8.md)
+* [Windows 95](windows_95.md)
+* [Windows 98](windows_98.md)
+* [Windows XP](windows_xp.md)
+* [Windows Vista](windows_vista.md)
+* [Windows 7](windows_7.md)
+* [Windows 8](windows_8.md)
+* [Mac OS X 10.8](osx_10.8.md)
 
 ## File Systems
 
-[FAT](fat.md) [NTFS](ntfs.md) [EXT2](ext2.md)
-[EXT3](ext3.md) [EXT4](ext4.md) [HFS+](hfs%2B.md)
+* [ext2, ext3, ext4](extended_file_system_(ext).md)
+* [FAT](fat.md)
+* [HFS+](hfs+.md)
+* [NTFS](ntfs.md)

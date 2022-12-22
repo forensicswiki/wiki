@@ -14,7 +14,7 @@ Kit](the_sleuth_kit.md). Together, they can analyze
 [Windows](windows.md) and [UNIX](unix.md) disks and
 [file systems](file_systems.md) ([NTFS](ntfs.md),
 [FAT](fat.md), [UFS1](ufs1.md)/[UFS2](ufs2.md),
-[Ext2](ext2.md)/[Ext3](ext3.md)).
+[Ext2/Ext3](extended_file_system_(ext).md).
 
 The [Sleuthkit](sleuthkit.md) and Autopsy are both Open Source
 and run on UNIX platforms. As Autopsy is [HTML](html.md)-based,
@@ -44,4 +44,4 @@ exists to fix or "hack around" these issues.
 
 ## See also
 
-- [Autopsy Forensic Browser, version 3](autopsy_forensic_browser.md)
+* [Autopsy Forensic Browser, version 3](autopsy_forensic_browser.md)

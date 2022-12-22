@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools
+  - Tools
 ---
 The program "Forensic Assistant" was designed for computer forensic
 experts that work for state institutions and institutions performing
@@ -34,9 +34,8 @@ the programs, logs and files as follows:*
     \*.[lnk](lnk.md) - addresses of
     the files that were opened, etc.;
 7.  OS [Windows registry](windows_registry.md) files;
-8.  Service files of browser programs ([Internet
-    Explorer](internet_explorer.md), [Opera](Opera "wikilink"),
-    [Firefox](firefox.md);
+8.  Service files of browser programs ([Internet Explorer](internet_explorer.md),
+    [Opera](opera.md), [Firefox](firefox.md);
 9.  Documents made in OLE2 format (including metadata extraction and
     description). "Forensic Assistant" is one of few programs subjected
     to low level analysis. This program is able to display real dates of
@@ -93,5 +92,4 @@ reduce the time that is necessary for the process of examination.
 
 ## External Links
 
-- ["Forensic Assistant" ("0xFA")](http://nhtcu.ru/0xFA_eng.html)
-
+* ["Forensic Assistant" ("0xFA")](http://nhtcu.ru/0xFA_eng.html)

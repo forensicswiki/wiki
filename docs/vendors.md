@@ -14,7 +14,7 @@ tags:
 
 <!-- -->
 
-[ASR Data](asr_data.md) - [SMART](SMART "wikilink")
+[ASR Data](asr_data.md) - [SMART](smart.md)
 <http://www.asrdata.com/SMART/>
 
 <!-- -->

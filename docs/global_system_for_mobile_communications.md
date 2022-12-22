@@ -27,11 +27,10 @@ utilize GSM technology for their cellular networks.
 
 ## Network Principles
 
-GSM is considered to be 2G and uses digital data for both signaling and
-voice purposes. GSM uses a time division multiple access
-([tdma](tdma.md) protocol to transmit information. Aside from
-voice, [GPRS](gprs.md) and [EDGE](EDGE "wikilink") allow for
-data transmissions across a GSM network.
+GSM is considered to be 2G and uses digital data for both signaling and voice
+purposes. GSM uses a time division multiple access ([tdma](tdma.md) protocol to
+transmit information. Aside from voice, [GPRS](gprs.md) and [EDGE](edge.md)
+allow for data transmissions across a GSM network.
 
 ## Radio Communication
 
