@@ -366,11 +366,10 @@ deleted*.
 <!-- -->
 
 [Hachoir](hachoir.md)
-A generic framework for binary file manipulation, it supports
-[FAT12](fat12.md), [FAT16](FAT16 "wikilink"),
-[FAT32](fat32.md), [ext2/ext3](ext2 "wikilink"), Linux swap,
-MSDOS partition header, etc. Recognize file type. Able to find subfiles
-(hachoir-subfile).
+A generic framework for binary file manipulation, it supports [FAT12](fat.md),
+[FAT16](fat.md), [FAT32](fat.md), [ext2/ext3](extended_file_system_(ext).md),
+Linux swap, MSDOS partition header, etc. Recognize file type. Able to find
+subfiles (hachoir-subfile).
 
 <!-- -->
 

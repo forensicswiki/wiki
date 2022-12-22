@@ -45,8 +45,7 @@ Windows side can be used to scan for pictures on a live system.
 
 ## Forensic Issues
 
-- Helix3 will automount [Ext3](ext3.md) /
-  [Ext4](ext4.md) file systems during the boot process and
+- Helix3 will automount ext3 and ext4 file systems during the boot process and
   recover them if required (bug in *initrd* scripts);
 - Helix3 can automount some storage devices like firewire devices and
   MMC in read/write mode;

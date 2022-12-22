@@ -4,7 +4,7 @@ tags:
 ---
 **Hashing** is a method for reducing large inputs to a smaller fixed
 size output. When doing forensics, typically cryptographic hashing
-algorithms like [MD5](md5.md) and [SHA-1](SHA-1 "wikilink") are
+algorithms like [MD5](md5.md) and [SHA-1](sha-1.md) are
 used. These functions have a few properties useful to forensics. Other
 types of hashing, such as [Context Triggered Piecewise
 Hashing](context_triggered_piecewise_hashing.md) can also be
@@ -15,8 +15,8 @@ used.
 There are literally hundreds of hashing programs out there, but a few
 related to forensics are:
 
-- [md5sum](md5sum.md) - Part of the [GNU](GNU "wikilink")
-  coreutils suite, this program is standard on many computers.
+- [md5sum](md5sum.md) - Part of the GNU coreutils suite, this program is
+  standard on many computers.
 - [md5deep](md5deep.md) - Computes hashes, recursively if
   desired, and can compare the results to known values.
 - [ssdeep](ssdeep.md) - Computes and matches [Context Triggered

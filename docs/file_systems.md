@@ -29,9 +29,8 @@ SGI Extent File System, predecessor to XFS
 <!-- -->
 
 [FAT](fat.md)
-Originally used by [MS-DOS](ms-dos.md). Includes
-[FAT12](fat12.md), [FAT16](fat16.md)
-and [FAT32](fat32.md).
+Originally used by [MS-DOS](ms-dos.md). Includes [FAT12](fat.md),
+[FAT16](fat.md) and [FAT32](fat.md).
 
 <!-- -->
 
