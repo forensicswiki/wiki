@@ -17,8 +17,8 @@ Common file extensions are .jpg, .jpeg, .JPG, .JPE, and .jfif.
 # Metadata
 
 JPEG files can contain lots of [metadata](metadata.md) in
-several formats: [Exif](exif.md), [IPTC](IPTC "wikilink"), GPS,
-[Camera Raw](camera_raw.md), etc. The [exif](exif "wikilink")
+several formats: [Exif](exif.md), IPTC, GPS,
+[Camera Raw](camera_raw.md), etc. The [exif](exif.md)
 and [jhead](jhead.md) command tools can extract and manipulate
 some of that metadata. [Adroit Photo
 Forensics](adroit_photo_forensics.md) can be used to extract,

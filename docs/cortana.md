@@ -67,13 +67,10 @@ and when a reminder was finalised. This is particularly invasive, but
 can provide a wealth of information useful for pinning someone to a time
 and place.
 
---[Bsmuir](user:bsmuir.md) ([talk](User_talk:Bsmuir "wikilink"))
+--Bsmuir
 11:56, 23 August 2015 (UTC)
 
 ## External Links
 
-Microsoft (2015), [What is
-Cortana](http://windows.microsoft.com/en-us/windows-10/getstarted-what-is-cortana)
-
-Muir, B. (2015), [Windows 10 - Cortana & Notification Center
-Forensics](http://bsmuir.kinja.com/windows-10-cortana-notification-center-forenics-1724511442)
+* Microsoft (2015), [What is Cortana](http://windows.microsoft.com/en-us/windows-10/getstarted-what-is-cortana)
+* Muir, B. (2015), [Windows 10 - Cortana & Notification Center Forensics](http://bsmuir.kinja.com/windows-10-cortana-notification-center-forenics-1724511442)

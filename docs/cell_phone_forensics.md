@@ -62,7 +62,7 @@ Process:
     specifications.
 3.  Research the [Cell Phone](cell_phone.md) for forensic
     information.
-4.  Based on phone type [GSM](gsm.md), [CDMA](CDMA "wikilink"),
+4.  Based on phone type [GSM](gsm.md), [CDMA](cdma.md),
     [iDEN](iden.md), or [Pay As You
     Go](pay_as_you_go.md) determine acquisition tools
 
