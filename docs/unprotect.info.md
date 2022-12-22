@@ -25,7 +25,7 @@ If an encrypted volume was created with one of the following options,
 its password currently cannot be recovered with the **unprotect.info**
 software:
 
-- Deprecated hash functions: [SHA1](sha1.md)
+- Deprecated hash functions: [SHA1](sha-1.md)
 - Deprecated ciphers: [DES](des.md), [CAST](cast.md),
   [Blowfish](blowfish.md)
 - Deprecated encryption modes: [LWR](lwr.md),
@@ -38,4 +38,3 @@ software:
 
 - [unprotect.info](http://unprotect.info/) - Official website
 - [truecrypt.org](http://www.truecrypt.org/) - Official website
-

@@ -6,14 +6,12 @@ tags:
 
 1.  If on, switch it off. If off, leave off.
 
-\#\* Note only under exceptional circumstances should the handset be
-left switched on and in any case every precaution to prevent the handset
-connecting with the Communication Service Provider should be made.
-Consider use of one of many [wireless
-preservation](wireless_preservation.md) or [RF
-isolation](rf_isolation.md) techniques. Note that the slightest
-signal leakage will allow an overwriting text message through even if a
-phone call can't get through.
+\#\* Note only under exceptional circumstances should the handset be left
+switched on and in any case every precaution to prevent the handset connecting
+with the Communication Service Provider should be made. Consider use of one of
+many wireless preservation or RF isolation techniques. Note that the slightest
+signal leakage will allow an overwriting text message through even if a phone
+call can't get through.
 
 \#\* Instead of switching off, it may be better to remove the battery.
 Phones run a different part of their program when they are turned off.
@@ -31,14 +29,12 @@ introduce a handset unlock code upon powering the device on.
 
 1.  Plug the phone in, preferably in the evidence room, as soon as
     possible.
-2.  Retain [search warrant](search_warrant.md) (if necessary -
-    [LE](le.md).
+2.  Retain search warrant (if necessary - Law Enforcement).
 3.  Return device to forensic lab if able.
-4.  Use [forensically sound](forensically_sound.md) tools for
-    processing. However, also remember ACPO Principle 2 says: In
-    exceptional circumstances, where a person finds it necessary to
-    access original data held on a computer or on storage media, that
-    person must be competent to do so and be able to give evidence
+4.  Use forensically sound tools for processing. However, also remember ACPO
+    Principle 2 says: In exceptional circumstances, where a person finds it
+    necessary to access original data held on a computer or on storage media,
+    that person must be competent to do so and be able to give evidence
     explaining the relevance and the implications of their actions.
 
 ## Notes
@@ -46,25 +42,22 @@ introduce a handset unlock code upon powering the device on.
 Expand on as to what to collect:
 
 - [ESN](esn.md),
-- [IMEI](imei.md),
-- [Carrier](carrier.md),
+- IMEI,
+- Carrier,
 - Manufacturer,
 - Model Number,
 - Color, and
-- Other information related to [Cell Phone](cell_phone.md) and
+- Other information related to Cell Phone and
   [SIM Card](sim_card.md)...
 
 Process:
 
-1.  Photograph the [Cell Phone](cell_phone.md) screen during
-    power up.
-2.  Research the [Cell Phone](cell_phone.md) for technical
-    specifications.
-3.  Research the [Cell Phone](cell_phone.md) for forensic
-    information.
+1.  Photograph the Cell Phone screen during power up.
+2.  Research the Cell Phone for technical specifications.
+3.  Research the Cell Phone for forensic information.
 4.  Based on phone type [GSM](gsm.md), [CDMA](cdma.md),
-    [iDEN](iden.md), or [Pay As You
-    Go](pay_as_you_go.md) determine acquisition tools
+    [iDEN](iden.md), or [Pay As You Go](pay_as_you_go.md) determine
+    acquisition tools
 
 GSM:
 

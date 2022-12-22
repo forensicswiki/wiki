@@ -17,5 +17,4 @@ hash of a file or devices.
 
 ## External Links
 
-- [RFC 3174](ftp://ftp.rfc-editor.org/in-notes/rfc3174.txt)
-
+* [RFC 3174](ftp://ftp.rfc-editor.org/in-notes/rfc3174.txt)

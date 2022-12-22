@@ -5,8 +5,7 @@ tags:
   -  Open Source Software
 ---
 BitPim is a free, [open source](http://www.opensource.org/docs/definition.php), cross-platform
-program for viewing and editing data on a [CDMA](cdma.md) [cell
-phone](cell_phone.md). [Roger
+program for viewing and editing data on a [CDMA](cdma.md) cell phone. [Roger
 Binns](mailto:rogerb@rogerbinns.com) was the founder, project manager,
 and lead developer of the project, first releasing it on March 1st,
 2003. Since then leadership has been handed over to another party and
@@ -65,5 +64,4 @@ BitPIM runs on Windows, Linux, and MacOS.
 
 ## External Links
 
-[Official web site](http://www.bitpim.org/)
-
+* [Official web site](http://www.bitpim.org/)
