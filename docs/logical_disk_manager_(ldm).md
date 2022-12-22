@@ -28,7 +28,7 @@ disk.
 
 ## Also see
 
-- [File Systems](https://forensics.wiki/tags/#file-systems)
+- [File Systems](tags/#file-systems)
 
 ## External Links
 
