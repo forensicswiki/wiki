@@ -105,9 +105,8 @@ Various types of encryption keys can be extracted during memory
 analysis.
 
 - [AESKeyFinder](aeskeyfinder.md) extracts 128-bit and 256-bit
-  [AES](aes.md) keys and [RSAKeyFinder](RSAKeyFinder "wikilink")
-  and private and public [RSA](rsa.md) keys from a memory dump
-  [10](http://citp.princeton.edu/memory/code/).
+  [AES](aes.md) keys and RSAKeyFinder and private and public [RSA](rsa.md)
+  keys from a memory dump [10](http://citp.princeton.edu/memory/code/).
 - [cryptoscan.py](http://jessekornblum.com/tools/volatility/cryptoscan.py),
   which is a [plugin for the Volatility
   framework](list_of_volatility_plugins.md), scans a memory

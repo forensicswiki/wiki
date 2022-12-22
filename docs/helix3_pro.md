@@ -10,7 +10,7 @@ forensics](computer_forensics.md).
 ## Tools Included
 
 - Live side for [Mac OS X](mac_os_x.md),
-  [Windows](windows.md) and [Linux](Linux "wikilink")
+  [Windows](windows.md) and [Linux](linux.md)
 - A bootable forensically sound environment based on
   [Ubuntu](ubuntu.md)
 

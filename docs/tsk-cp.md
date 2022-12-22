@@ -8,7 +8,7 @@ tags:
   -  Open Source Software
 ---
 Tsk-cp is a set of [LibCarvPath](libcarvpath.md) aware versions
-of [Sleuthkit](sleuthkit.md) tools, that are for use together
+of [The Sleuth Kit](the_sleuth_kit.md) tools, that are for use together
 with the normal versions of the other sleuthkit tools in the process of
 doing [zero storage carving](zero_storage_carving.md).
 

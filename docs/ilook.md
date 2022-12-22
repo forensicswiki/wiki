@@ -1,13 +1,14 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Linux
-  -  FreeBSD
-  -  NetBSD
-  -  OpenBSD
-  -  Solaris
-  -  AIX
+  - Commercial Software
+  - Tools
+  - Windows
+  - Linux
+  - FreeBSD
+  - NetBSD
+  - OpenBSD
+  - Solaris
+  - AIX
 ---
 ILooK was the digital forensic analysis tool used in the investigation
 of the 9/11 attacks. Originally available only for law enforcement, the
@@ -17,8 +18,8 @@ ILooKIX v9 for commercial use in two versions, Standard and Advanced.
 ILooKIX can support a wide variety of file systems, including
 [FAT](fat.md) 12/16/32, [NTFS](ntfs.md), [NTFS
 Compressed](ntfs_compressed.md), (Traditional) HFS,
-[HFS+](hfs+.md), [Ext2](ext2.md),
-[Ext3](ext3.md), [ReiserFS](reiserfs.md) 1, 2, and 3,
+[HFS+](hfs+.md), [ext2, ext3](extended_file_system_(ext).md),
+[ReiserFS](reiserfs.md) 1, 2, and 3,
 [SysV-AFS](sysv-afs.md), [SysV-EAFS](sysv-eafs.md),
 [SysV-HTFS](sysv-htfs.md), [NWFS](NWFS.md), [NWFS
 Compressed](nwfs_compressed.md), [VMWare Drive Mount Disk
@@ -94,4 +95,4 @@ library](hash_library.md) using [MD5](md5.md) and [FIPS
 
 ## External links
 
-- [Official website](http://www.xtremeforensics.com/)
+* [Official website](http://www.xtremeforensics.com/)

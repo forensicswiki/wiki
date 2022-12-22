@@ -12,7 +12,7 @@ very fast way.
 The [Bash](bash.md) script **SFDUMPER.SH** can recover active,
 deleted and unallocated files automatically and then it can delete the
 carved duplicate files of the deleted and active files retrieved by the
-[Sleuthkit](sleuthkit.md), thanks to the comparison of the
+[The Sleuth Kit](the_sleuth_kit.md), thanks to the comparison of the
 [SHA256](sha-2.md) [hash](hash.md) codes.
 
 It's possible to recognize the renamed files by the data carving and
@@ -20,7 +20,7 @@ it's possible to expand the [Foremost](foremost.md)
 configuration file inside the script, for adding new extensions.
 
 Finally, it is possible to do a [keywords](keywords.md) search
-on the set of files extracted by the [Sleuthkit](sleuthkit.md)
+on the set of files extracted by the [The Sleuth Kit](the_sleuth_kit.md)
 and [Foremost](foremost.md).
 
 The script can work on the partition chosen from an image file or
@@ -44,7 +44,7 @@ directly from the device (eg. /dev/sdb).
 ## Requirements
 
 - [Linux](linux.md)
-- [Sleuthkit](sleuthkit.md)
+- [The Sleuth Kit](the_sleuth_kit.md)
 - [Foremost](foremost.md)
 - [md5deep](md5deep.md)
 - [grep](grep.md)

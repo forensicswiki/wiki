@@ -421,7 +421,7 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[Sleuthkit](sleuthkit.md)
+[The Sleuth Kit](the_sleuth_kit.md)
 <http://www.sleuthkit.org/>
 
 <!-- -->

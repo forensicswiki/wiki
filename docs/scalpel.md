@@ -17,7 +17,7 @@ III](golden_g._richard_iii.md) and presented at the
 to recover filetypes from a piece of media. Scalpel is maintained by
 [Golden G. Richard III](golden_g._richard_iii.md) and [Lodovico
 Marziale](lodovico_marziale.md). Currently, Scalpel is being
-incorporated into the [Sleuthkit](sleuthkit.md) and is now
+incorporated into the [The Sleuth Kit](the_sleuth_kit.md) and is now
 hosted on GitHub.
 
 ## External Links

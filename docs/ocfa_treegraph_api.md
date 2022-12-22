@@ -23,7 +23,7 @@ storage resources.
 
 An example of a treegraph module for OCFA is included in the 2.2 release
 of OCFA. This example is the OCFA mmls module. The ocfa mmls module
-reproduces the functionality of the [sleuthkit](sleuthkit.md)
+reproduces the functionality of the [The Sleuth Kit](the_sleuth_kit.md)
 mmls tool. It does this using the OCFA treegraph library, the
 [LibCarvPath](libcarvpath.md) library, and the
-[sleuthkit](sleuthkit.md) library.
+[The Sleuth Kit](the_sleuth_kit.md) library.

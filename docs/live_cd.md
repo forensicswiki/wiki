@@ -24,7 +24,7 @@ response](incident_response.md).
 
 - Out-of-date software;
 - No simple way to reconfigure Live CD: you cannot easily rebuild *foo*
-  to support *bar* (e.g. rebuild [Sleuthkit](sleuthkit.md) to
+  to support *bar* (e.g. rebuild [The Sleuth Kit](the_sleuth_kit.md) to
   support [AFF](aff.md).
 
 ## See Also

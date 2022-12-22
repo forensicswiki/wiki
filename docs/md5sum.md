@@ -1,8 +1,8 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
-This [MD5](md5.md) [hashing](hashing "wikilink") tool, part of
+This [MD5](md5.md) [hashing](hashing.md) tool, part of
 the GNU Coreutils suite, has been a standard in the computer forensics
 community for some time. It is intended for \*nix systems, but has been
 ported to the [Windows](windows.md) platform. It should be noted

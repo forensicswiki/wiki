@@ -26,7 +26,7 @@ Many carving programs have an option to only look at or near sector
 boundaries where headers are found. However, searching the entire input
 can find files that have been embedded into other files, such as
 [JPEGs](jpeg.md) being embedded into
-[Microsoft](microsoft.md) [Word documents](DOC "wikilink"). This
+[Microsoft](microsoft.md) [Word documents](ole_compound_file.md). This
 may be considered an advantage or a disadvantage, depending on the
 circumstances.
 
@@ -39,11 +39,11 @@ contiguous on the media (in other words files that are not fragmented).
 of outlook, 17% of jpegs and 16% of MS-Word files are fragmented and,
 therefore, appear corrupted or missing to a user using traditional data
 carving. The first set of file carving programs that can handle
-fragmented files automatically have finally arrived. [A.
-Pal](user:pashapal.md), [N. Memon](User:NasirMemon "wikilink").
-T. Sencar and K. Shanmugasundaram have introduced a technique called
-[SmartCarving](file_carving:smartcarving.md) that can recover
-fragmented files.
+fragmented files automatically have finally arrived.
+
+A. Pal, Nasir Memon, T. Sencar and K. Shanmugasundaram have introduced
+a technique called [SmartCarving](file_carving:smartcarving.md) that can
+recover fragmented files.
 
 ## File Carving Taxonomy
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems
+  - Operating Systems
 ---
 Linux refers to the family of Unix-like computer operating systems using
 the Linux kernel. Due to the nature of Linux it is possible for a wide
@@ -8,8 +8,7 @@ range of high penetration forensic tools.
 
 The wide variety of useful Linux utilities exist for desktop computers
 can also be used on Linux-based PDAs. These utilities can often be used
-as a part of the [forensics
-investigation](forensics_investigation.md) process.
+as a part of the [forensics investigation](forensics_investigation.md) process.
 
 Software for Linux systems are not only targets at personal computers,
 desktops, laptops etc, but also server based tools exist for both
@@ -89,21 +88,20 @@ Analysis](linux_memory_analysis.md).
 
 # External Links
 
-- <http://en.wikipedia.org/wiki/Linux>
-- <http://en.wikipedia.org/wiki/Android_(mobile_device_platform)>
+* <http://en.wikipedia.org/wiki/Linux>
+* <http://en.wikipedia.org/wiki/Android_(mobile_device_platform)>
 
 ## Activity tracking
 
-- [Tracking user actions with the Linux audit
+* [Tracking user actions with the Linux audit
   subsystem](http://civilfritz.net/tracking-user-actions-with-the-linux-audit-subsystem/)
 
 ## Control groups (cgroups)
 
-- [Wikipedia: Cgroups](http://en.wikipedia.org/wiki/Cgroups)
-- [⁠Chapter 1. Introduction to Control Groups
+* [Wikipedia: Cgroups](http://en.wikipedia.org/wiki/Cgroups)
+* [⁠Chapter 1. Introduction to Control Groups
   (Cgroups)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Resource_Management_Guide/ch01.html)
 
 ## Initrd, Initramfs
 
-- <https://www.kernel.org/doc/Documentation/early-userspace/buffer-format.txt>
-
+* <https://www.kernel.org/doc/Documentation/early-userspace/buffer-format.txt>

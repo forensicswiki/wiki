@@ -52,7 +52,7 @@ location information, textual descriptions, and copyright information.
 
 <!-- -->
 
-[ID3](id3.md) ([MP3](MP3 "wikilink") files)
+[ID3](id3.md) ([MP3](mp3.md) files)
 Implemented as a small block of data stored at the end of MP3 files.
 [ID3v1](id3v1.md) is a 128-byte block in a specified format
 allowing 30 bytes for song, artist and album, 4 bytes for year, 30 bytes
@@ -68,7 +68,7 @@ structure. For more information, see [1](http://www.id3.org/).
 
 <!-- -->
 
-[Microsoft](microsoft.md) [OLE Compound File](OLE_Compound_File "wikilink")
+[Microsoft](microsoft.md) [OLE Compound File](ole_compound_file.md)
 Microsoft Office document files contain a huge amount of metadata. They
 are created as OLE Compound Files and mainly stored in the so called
 property set streams. Here are some tools for processing them:
@@ -102,7 +102,7 @@ allows one or more images to be bundled in a single file. Multiple
 
 # See Also
 
-[Document_Metadata_Extraction](document_metadata_extraction.md)
+* [Document_Metadata_Extraction](document_metadata_extraction.md)
 
 # External links
 

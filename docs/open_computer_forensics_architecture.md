@@ -25,7 +25,7 @@ Modules in OCFA for reasons of fault tolerance are processes. The basic
 easy to build an OCFA module out of any data processing library or tool.
 OCFA comes with numerous such modules that are mostly wrappers around
 libraries like [libmagic](libmagic.md) or tools such as those
-found in the [Sleuthkit](sleuthkit.md).
+found in the [The Sleuth Kit](the_sleuth_kit.md).
 
 The 2.2 version of OCFA (released April 2009) makes the previously
 internal [OCFA treegraph API](ocfa_treegraph_api.md) available

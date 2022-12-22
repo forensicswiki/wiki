@@ -87,7 +87,7 @@ The individual volume devices are now available in:
     /dev/mapper/$VOLUMEGROUP-$VOLUMENAME
 
 These now can be analyzed with e.g. a tool like the
-[Sleuthkit](sleuthkit.md) or loop-back mounted.
+[The Sleuth Kit](the_sleuth_kit.md) or loop-back mounted.
 
 To read-only loop-back mount an individual volume:
 
@@ -123,4 +123,3 @@ To read-only loop-back mount an individual volume:
 ## Tools
 
 - [libvslvm](libvslvm.md)
-

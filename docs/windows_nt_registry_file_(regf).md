@@ -2,7 +2,7 @@
 tags:
   -  File Formats
 ---
-[Microsoft](microsoft.md) [Windows](Windows "wikilink") NT 4
+[Microsoft](microsoft.md) [Windows](windows.md) NT 4
 (and later) uses the **Windows NT Registry File (REGF)** to store system
 and application related data, e.g. configurations, most recently used
 (MRU) files.

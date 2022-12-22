@@ -19,7 +19,7 @@ On most [Unix](unix.md) systems the tools [digest](digest.md), md5 (BSD) or
 Recently some cryptographic weaknesses have been found in MD5. Tool developers
 should avoid using MD5 in new products in favor of other hash functions like
 [RIPEMD-160](ripemd-160.md), [Tiger](tiger.md), WHIRLPOOL,
-[SHA-256](sha-256.md) or [SHA-512](sha-512.md). Host Intrusion Detection
+[SHA-256](sha-2.md) or [SHA-512](sha-2.md). Host Intrusion Detection
 systems and hash databases should also use multiple hash algorithms.
 
 ## External Links

@@ -298,7 +298,7 @@ Plaso is a Python-based rewrite of the Perl-based
 Gudjonsson](kristinn_gudjonsson.md) and extended by the
 contribution of various others.
 
-Plaso builds upon the [SleuthKit](sleuthkit.md), [pytsk](pytsk.md),
+Plaso builds upon the [The Sleuth Kit](the_sleuth_kit.md), [pytsk](pytsk.md),
 [libyal](libyal.md), [dfVFS](dfvfs.md) and various other projects.
 
 ## Related tools
