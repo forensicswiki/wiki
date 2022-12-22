@@ -106,7 +106,7 @@ Inside contains the following software.
 Analysis
 
 - Autopsy
-- [The SleuthKit](the_sleuthkit.md)
+- [The Sleuth Kit](the_sleuth_kit.md)
 - [Sfdumper 2.2](selective_file_dumper.md)
 - Fundl 2.0
 - Scalpel

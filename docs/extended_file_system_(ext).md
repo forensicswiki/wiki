@@ -47,7 +47,7 @@ the file system after an unclean shutdown.
 Tools that can be used to perform recovery of data from an EXT2 file
 system
 
-- [Sleuthkit](sleuthkit.md)
+- [The Sleuth Kit](the_sleuth_kit.md)
 - [R-Studio](r-studio.md)
 
 Data carving tools that support the ext2 file system:
@@ -58,4 +58,3 @@ Data carving tools that support the ext2 file system:
 
 <b>Note that it is unclear what is meant with "support" here this needs
 some elaboration.</b>
-

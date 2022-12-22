@@ -123,7 +123,7 @@ tags:
 
 <!-- -->
 
-[sorter](sorter.md) - [Sleuthkit](Sleuthkit "wikilink")'s [MAC times](MAC_times "wikilink") sorting program.
+[sorter](sorter.md) - [The Sleuth Kit](the_sleuth_kit.md)'s [mactime](mactime.md) sorting program.
 
 <!-- -->
 

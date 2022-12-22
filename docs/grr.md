@@ -10,7 +10,7 @@ tags:
 GRR is an Incident Response Framework focused on Remote Live Forensics.
 
 The disk and file system analysis capabilities of GRR are provided by
-the [sleuthkit](sleuthkit.md) and [pytsk](pytsk.md)
+the [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 projects.
 
 The memory analysis and acquisition capabilities of GRR are provided by
@@ -20,7 +20,7 @@ the [yara](yara.md) project.
 
 - [pytsk](pytsk.md)
 - [yara](yara.md)
-- [sleuthkit](sleuthkit.md)
+- [The Sleuth Kit](the_sleuth_kit.md)
 
 # External Links
 

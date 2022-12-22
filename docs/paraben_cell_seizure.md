@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 [Paraben](paraben.md) **Cell Seizure** is a piece of software
 that serves the main purpose of collection and examining data pulled
@@ -34,11 +34,11 @@ models of cell phones. As with most mobile device forensics software,
 Cell Seizure is frequently updated with support for new devices as they
 proliferate in the consumer market. However, this application can
 acquire information from most models made by the following companies:
-[Nokia](nokia.md), [LG](LG "wikilink"),
-[Samsung](samsung.md), [Siemens](Siemens "wikilink"),
+[Nokia](nokia.md), LG,
+[Samsung](samsung.md), Siemens,
 [Motorola](motorola.md),
 [Sony-Ericcson](sony-ericcson.md), and can also acquire
-[GSM](gsm.md) [SIM Cards](SIM_Cards "wikilink").
+[GSM](gsm.md) [SIM Cards](sim_cards.md).
 
 Another disadvantage would be that the format of acquired data can
 sometimes be confusing. The data is not organized nice and neat and
@@ -48,7 +48,7 @@ has been acquired.
 
 ## Features
 
-- Supports [GSM](gsm.md), [TDMA](TDMA "wikilink"), and
+- Supports [GSM](gsm.md), [TDMA](tdma.md), and
   [CDMA](cdma.md) [cell phones](cell_phones.md)
 - Acquires [text messages](sms.md), address books, call logs,
   etc.
@@ -62,6 +62,5 @@ has been acquired.
 
 ## External Links
 
-- [Paraben Forensics Tools: Cell Seizure - Advanced Mobile Phone
-  Forensics
+* [Paraben Forensics Tools: Cell Seizure - Advanced Mobile Phone Forensics
   Tool](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=311)

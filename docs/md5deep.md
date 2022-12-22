@@ -10,24 +10,22 @@ structures, use a variety of algorithms, and use files of known hashes
 to perform both positive and negative matching. Another program in the
 suite [hashdeep](hashdeep.md) can conduct a computer forensics
 audit. The programs runs on [Microsoft](microsoft.md)
-[Windows](windows.md), [Mac OS X](Mac_OS_X "wikilink"),
-[Linux](linux.md), [FreeBSD](FreeBSD "wikilink"),
-[Solaris](solaris.md), and most other [\*nix](Unix "wikilink")
+[Windows](windows.md), [Mac OS X](mac_os_x.md),
+[Linux](linux.md), [FreeBSD](freebsd.md),
+[Solaris](solaris.md), and most other [\*nix](unix.md)
 [operating systems](operating_system.md). It has been included
-in the [Fink](fink.md) and [FreeBSD
-Ports](freebsd_ports.md) projects.
+in the [Fink](fink.md) and [FreeBSD Ports](freebsd_ports.md) projects.
 
 ## Algorithms Supported
 
-md5deep currently supports [MD5](md5.md),
-[SHA-1](sha-1.md), [SHA-256](SHA-256 "wikilink"),
-[Tiger](tiger.md), and [Whirlpool](Whirlpool "wikilink").
+md5deep currently supports [MD5](md5.md), [SHA-1](sha-1.md),
+[SHA-256](sha-2.md), [Tiger](tiger.md), and Whirlpool.
 
 ## File Formats
 
 The md5deep suite can handle a wide variety of input and output file
-formats. It can use [md5sum](md5sum.md), [BSD](BSD "wikilink")
-md5, [Hashkeeper](hashkeeper.md), [iLook](iLook "wikilink"), and
+formats. It can use [md5sum](md5sum.md), [BSD](bsd.md)
+md5, [Hashkeeper](hashkeeper.md), [iLook](ilook.md), and
 [NSRL](national_software_reference_library.md) files as sources
 for known hashes. The suite does not support [Encase hash
 files](encase_hash_files.md).
@@ -140,5 +138,5 @@ Here is an example:
 
 ## External Links
 
-- [Official website](http://md5deep.sourceforge.net/)
-- [Wikipedia entry on md5deep](http://en.wikipedia.org/wiki/Md5deep)
+* [Official website](http://md5deep.sourceforge.net/)
+* [Wikipedia entry on md5deep](http://en.wikipedia.org/wiki/Md5deep)

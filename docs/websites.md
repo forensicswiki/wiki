@@ -191,8 +191,8 @@ Forensics Sciences Conference and Exhibition
 NIST Image Group
 [NIST Image Group](http://fingerprint.nist.gov/)
 
-Many reports, including the [NIST](nist.md) report on
-[AFIS](afis.md) [fingerprint](fingerprint "wikilink") testing.
+Many reports, including the [NIST](nist.md) report on [AFIS](afis.md)
+fingerprint testing.
 
 # Wikis
 

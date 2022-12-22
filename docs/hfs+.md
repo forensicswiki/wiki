@@ -376,8 +376,7 @@ HFS+ stores U+2400 as U+0
 
 ## Tools
 
-- [sleuthkit](sleuthkit.md) - partially supports HFS+/HSX, does
+- [The Sleuth Kit](the_sleuth_kit.md) - partially supports HFS+/HSX, does
   not support (classic) HFS
   [3](https://wiki.sleuthkit.org/index.php?title=HFS)
 - [HFSExplorer](http://www.catacombae.org/hfsexplorer/)
-

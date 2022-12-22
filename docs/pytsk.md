@@ -8,13 +8,12 @@ tags:
   -  MacOS
   -  Linux
 ---
-Python-bindings for the [sleuthkit](sleuthkit.md) library
-(libtsk).
+Python-bindings for the [The Sleuth Kit](the_sleuth_kit.md) library (libtsk).
 
 ## See Also
 
-- [sleuthkit](sleuthkit.md)
+* [The Sleuth Kit](the_sleuth_kit.md)
 
 ## External Links
 
-- [Project site](https://github.com/py4n6/pytsk/)
+* [Project site](https://github.com/py4n6/pytsk/)

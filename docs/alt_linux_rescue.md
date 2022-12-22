@@ -30,7 +30,7 @@ Most of the usual rescue suspects should be there;
 [dc3dd](dc3dd.md)/[dcfldd](dcfldd.md),
 [foremost](foremost.md), [john](john.md),
 [md5deep](md5deep.md), [nmap](nmap.md),
-[scalpel](scalpel.md), [sleuthkit](sleuthkit.md),
+[scalpel](scalpel.md), [The Sleuth Kit](the_sleuth_kit.md),
 [ssdeep](ssdeep.md), [wipefreespace](wipefreespace.md)
 to name a few are available either; [libevt](libevt.md),
 [libevtx](libevtx.md), [liblnk](liblnk.md),

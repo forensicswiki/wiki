@@ -6,8 +6,7 @@ tags:
   - Tools
   - Operating Systems
 ---
-A [Linux](linux.md) [Live CD](Live_CD "wikilink") intended for penetration
-testing.
+A [Linux](linux.md) [Live CD](live_cd.md) intended for penetration testing.
 
 [Matriux](matriux.md) is a fully featured security distribution,
 based on [Ubuntu](ubuntu.md). It consists of powerful, free and

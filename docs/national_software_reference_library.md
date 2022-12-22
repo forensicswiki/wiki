@@ -43,7 +43,7 @@ Each RDS consists of several files, but the hashes are stored in
 The header denotes the columns in each file. (See the External Links for
 the complete specification). RDS files can be used directly with
 programs like [md5deep](md5deep.md),
-[FTK](forensic_toolkit.md), and [EnCase](EnCase "wikilink").
+[FTK](forensic_toolkit.md), and [EnCase](encase.md).
 
 The file format has changed slightly over time. Releases occur four
 times per year. The latest version was dated 1 Mar 2013:
