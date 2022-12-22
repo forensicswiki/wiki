@@ -43,7 +43,7 @@ links](symbolic_link.md) like ffs.
 
 <!-- -->
 
-[HFS](hfs.md)
+(Traditional) HFS
 Hierarchical File System used by [Apple](apple.md) systems, it
 has been succeed by [HFS+](hfs+.md).
 
@@ -170,7 +170,7 @@ on an optical disc (though the exceptional nature of DVD-RAM must be
 remembered -- you *can* create a FAT DVD-RAM), you will find the systems
 listed below.
 
-[HFS](hfs.md) and [HFS+](hfs+.md)
+(Traditional) HFS and [HFS+](hfs+.md)
 These file systems are defined by Apple and only limited support is available for them outside of the Macintosh world. These are the identical implementations for hard disk file systems on MacOS operating systems.
 
 <!-- -->

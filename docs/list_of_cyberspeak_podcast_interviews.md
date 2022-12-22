@@ -11,7 +11,7 @@ below.
 - 18 Dec 2005: [Nick Harbour](nick_harbour.md), author of
   [dcfldd](dcfldd.md)
 - 31 Dec 2005: [Jesse Kornblum](jesse_kornblum.md), author of
-  [foremost](foremost.md) and [md5deep](md5deep "wikilink")
+  [foremost](foremost.md) and [md5deep](md5deep.md)
 
 ### 2006
 
@@ -35,7 +35,7 @@ below.
 - 4 Mar 2006: [Dave Merkel](dave_merkel.md)
 - 11 Mar 2006: [James Wiebe](james_wiebe.md) of [Wiebe
   Tech](wiebe_tech.md). Also [Todd
-  Bellows](todd_bellows.md) of [LogiCube](LogiCube "wikilink")
+  Bellows](todd_bellows.md) of [LogiCube](logicube.md)
   about [CellDek](celldek.md)
 - 18 Mar 2006: [Kris Kendall](kris_kendall.md)
 - 25 Mar 2006: (No interview)
@@ -124,7 +124,7 @@ below.
 
 - 11 Feb 2007: [Scott Moulton](scott_moulton.md)
 - 18 Feb 2007: [Phil Zimmerman](phil_zimmerman.md), creator of
-  [PGP](pgp.md) discussing his new [Zfone](Zfone "wikilink")
+  [PGP](pgp.md) discussing his new Zfone
 - 25 Feb 2007: [Mark Menz](mark_menz.md) and [Jeff
   Moss](jeff_moss.md)
 
@@ -134,8 +134,7 @@ below.
 - 12 Mar 2007: [Trevor Fairchild](trevor_fairchild.md) of
   [Ontario Provincial Police
   Department](ontario_provincial_police_department.md)
-  discussing [C4P](c4p.md) and [C4M](C4M "wikilink"), both
-  add-ons to [EnCase](encase.md)
+  discussing C4P and C4M, both add-ons to [EnCase](encase.md)
 - 18 Mar 2007: [Tony Hogeveen](tony_hogeveen.md) of
   [DeepSpar](deepspar.md) Date Recovery Systems
 - 25 Mar 2007: Shmoocon broadcast

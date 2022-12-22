@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Windows
-  -  File Analysis
-  -  Tools
-  -  Commercial Software
-  -  Data Recovery
+  - File Analysis
+  - Data Recovery
+  - Commercial Software
+  - Tools
+  - Windows
 ---
 **Adroit Photo Forensics** (**APF**) is a commercial forensic software
 package distributed by [Digital Assembly](digital_assembly.md).
@@ -13,9 +13,8 @@ It specializes in the recovery and analysis of digital photographs.
 # Features
 
 Adroit Photo Forensics can parse a number of filesystems, including
-[FAT](fat.md) 12/16/32, [NTFS](ntfs.md),
-[HFS](hfs.md), and [HFS+](hfs%2B.md). It can read from
-[EnCase](encase.md) as well as
+[FAT](fat.md) 12/16/32, [NTFS](ntfs.md), (Traditional) HFS, and
+[HFS+](hfs+.md). It can read from [EnCase](encase.md) as well as
 [raw/dd](raw_image_format.md) images.
 
 It is best known for implementing the
@@ -37,5 +36,4 @@ APF also include grouping and sorting options that are photo relevant.
 
 ## External Links
 
-- [Adroit Photo Forensics Product
-  Information](http://digital-assembly.com/products/adroit-photo-forensics/)
+* [Adroit Photo Forensics Product Information](http://digital-assembly.com/products/adroit-photo-forensics/)

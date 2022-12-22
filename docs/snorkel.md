@@ -45,9 +45,9 @@ below.
 |                      | Apple                                                                         |
 |                      | GPT                                                                           |
 |                      | BSD                                                                           |
-| File systems         | Windows ([fat](fat.md), [NTFS](NTFS "wikilink"))                      |
-|                      | Apple ([mfs](mfs.md), [HFS](HFS "wikilink"), [HFS+](HFS+ "wikilink")) |
-|                      | Linux ([ext](ext3.md), [Reiser](Reiserfs "wikilink"))                 |
+| File systems         | Windows ([fat](fat.md), [NTFS](ntfs.md))                      |
+|                      | Apple ([mfs](mfs.md), (Traditional) HFS, [HFS+](hfs+.md)) |
+|                      | Linux ([ext](ext3.md), [Reiser](reiserfs.md))                 |
 |                      | Solaris, BSD ([ufs](ufs.md)                                          |
 |                      | CD ([iso9660](iso9660.md)                                    |
 | File Formats         | Windows registry (Win 9x, NT)                                                 |

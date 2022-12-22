@@ -148,16 +148,15 @@ options.
 
 ### Digital Camera Images with GPS Information
 
-Some recent digital cameras have built-in GPS receivers (or external
-modules you can connect to the camera). This makes it possible for the
-camera to record where exactly a photo was taken. This positioning
-information (latitude, longitude) can be stored in the
-[Exif](exif.md) [metadata](metadata "wikilink") header of
-[JPEG](jpeg.md) files. Tools such as [jhead](jhead "wikilink")
-can display the GPS information in the [Exif](exif.md) headers.
-In iOS, the [Photo Investigator](photo_investigator.md) can
-extract, view, and remove metadata from all images, as well as easily
-identify images with GPS metadata while scrolling through the images.
+Some recent digital cameras have built-in GPS receivers (or external modules
+you can connect to the camera). This makes it possible for the camera to record
+where exactly a photo was taken. This positioning information (latitude,
+longitude) can be stored in the [Exif](exif.md) [metadata](metadata.md) header
+of [JPEG](jpeg.md) files. Tools such as [jhead](jhead.md) can display the GPS
+information in the [Exif](exif.md) headers.  In iOS, the [Photo
+Investigator](photo_investigator.md) can extract, view, and remove metadata
+from all images, as well as easily identify images with GPS metadata while
+scrolling through the images.
 
 ### Cell Phones with GPS
 
