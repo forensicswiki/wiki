@@ -36,7 +36,7 @@ software independent.
 # Hardware Write Blockers
 
 **Hardware write blockers** can be either [IDE](ide.md)-to-IDE
-or [Firewire](firewire.md)/[USB](USB "wikilink")-to-IDE. Simson
+or [Firewire](firewire.md)/[USB](usb.md)-to-IDE. Simson
 prefers the IDE-to-IDE because they deal better with errors on the drive
 and make it easier to access special information that is only accessible
 over the IDE interface. You may feel differently.

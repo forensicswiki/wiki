@@ -84,7 +84,7 @@ AFFLIB support unless AFFLIB is installed on your system.
     support.
 2.  Download and install [AFFLIB](afflib.md) from
     <http://www.afflib.org/>
-3.  Download and install [SleuthKit](sleuthkit.md) from
+3.  Download and install [The Sleuth Kit](the_sleuth_kit.md) from
     <http://www.sleuthkit.org/>
 4.  Download and install [fiwalk](fiwalk.md) from
     <http://www.afflib.org/>

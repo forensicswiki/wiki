@@ -109,7 +109,7 @@ At [CanSec West 05](cansec_west_05.md), [Michael
 Becher](michael_becher.md), [Maximillian
 Dornseif](maximillian_dornseif.md), and [Christian N.
 Klein](christian_n._klein.md) discussed an
-[exploit](exploit.md) which uses [DMA](DMA "wikilink") to read
+[exploit](exploit.md) which uses Direct Memory Access (DMA) to read
 arbitrary memory locations of a [firewire](firewire.md)-enabled
 system. The
 [paper](http://md.hudora.de/presentations/firewire/2005-firewire-cansecwest.pdf)

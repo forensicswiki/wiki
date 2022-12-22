@@ -16,7 +16,7 @@ Kit](the_sleuth_kit.md). Together, they can analyze
 [FAT](fat.md), [UFS1](ufs1.md)/[UFS2](ufs2.md),
 [Ext2](ext2.md)/[Ext3](ext3.md)).
 
-The [Sleuthkit](sleuthkit.md) and Autopsy are both Open Source
+The [The Sleuth Kit](the_sleuth_kit.md) and Autopsy are both Open Source
 and run on UNIX platforms. As Autopsy is [HTML](html.md)-based,
 you can connect to the Autopsy server from any platform using a web
 browser. Autopsy provides a "File Manager"-like interface and shows
@@ -27,7 +27,7 @@ details about deleted data and file system structures.
 As of 2014, Autopsy 2.24 is the last version of Autopsy that supports
 non-Windows platforms. Since Autopsy 2.24 was released in 2010, it
 cannot support all features introduced in latest
-[Sleuthkit](sleuthkit.md) versions. Various modifications
+[The Sleuth Kit](the_sleuth_kit.md) versions. Various modifications
 introduced in Sleuthkit since 2010 break Autopsy 2.24.
 
 There are several known conflicts between Autopsy 2.24 and Sleuthkit

@@ -15,7 +15,7 @@ _Body file may also be referred to as "bodyfile", however official
 documentation refers to it as body file (two separate words)._
 
 The **body file** format is a delimiter-separated output timeline format (as
-far as known) introduced by the [Sleuth Kit](sleuthkit.md). Body files are pipe
+far as known) introduced by the [The Sleuth Kit](the_sleuth_kit.md). Body files are pipe
 (`|`) delimited and are referred to as an "intermediate file", as they are not
 sorted chronologically and are often staged for post-processing. Subsequent
 timeline sorting is done via the [mactime](mactime.md) tool.
@@ -52,7 +52,7 @@ NOTE: Nov/Dec 2022, validate if each is still an issue -->
 Known shortcomings with body file format are:
 
 * Undocumented granularity of timestamp, current implementation by
-  [The Sleuth Kit](sleuthkit.md) appears to be seconds. See [here](https://github.com/sleuthkit/sleuthkit/issues/1810).
+  [The Sleuth Kit](the_sleuth_kit.md) appears to be seconds. See [here](https://github.com/sleuthkit/sleuthkit/issues/1810).
 * Undocumented extended file mode of `-/-rrwxrwxrwx`. Characters `-/-` are appended to the body file entry and `r` file entry type indication, presumably to indicate a "regular file".
 * Undocumented and inconsistent application of TSK metadata addresses. See [here](https://github.com/sleuthkit/sleuthkit/issues/1809)
 * Undocumented and inconsistent application of owner identifier (UID). See [here](https://github.com/sleuthkit/sleuthkit/issues/1830).

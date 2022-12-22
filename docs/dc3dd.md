@@ -14,8 +14,8 @@ The following features are available in dc3dd that are *not* found in
 [GNU dd](dd.md):
 
 - On the fly [hashing](hashing.md) with multiple algorithms
-  ([md5](md5.md), [SHA-1](SHA-1 "wikilink"),
-  [SHA-256](sha-256.md), and [SHA-512](SHA-512 "wikilink")) with
+  ([md5](md5.md), [SHA-1](sha-1.md),
+  [SHA-256](sha-2.md), and [SHA-512](sha-2.md)) with
   variable sized [piecewise hashing](piecewise_hashing.md)
 - Able to write errors directly to a file
 - Combined error log. Groups errors together (e.g.

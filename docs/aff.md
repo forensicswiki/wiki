@@ -20,7 +20,7 @@ Simson Garfinkel and Bradley Schatz. That version can be downloaded from
 **AFF3 and AFFLIBv3 have been depreciated and should not be used for new
 projects.**
 
-[Sleuthkit](sleuthkit.md), [Autopsy](Autopsy.md) ,
+[The Sleuth Kit](the_sleuth_kit.md), [Autopsy](Autopsy.md),
 [OSFMount](osfmount.md), [Xmount](xmount.md), [FTK
 Imager](ftk_imager.md) and [FTK](ftk.md) support the
 AFFv3 image format.

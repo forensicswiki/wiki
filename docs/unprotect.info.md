@@ -14,7 +14,7 @@ personal and commercial use.
 encrypted with the following algorithms:
 
 - Hash functions: [RIPEMD-160](ripemd-160.md),
-  [SHA-512](sha-512.md), [Whirlpool](whirlpool.md)
+  [SHA-512](sha-2.md), [Whirlpool](whirlpool.md)
 - Ciphers: [AES](aes.md), [Serpent](serpent.md),
   [Twofish](twofish.md)
 - Encryption modes: [XTS](xts.md)

@@ -10,7 +10,7 @@ CD](live_cd.md) based on Knoppix.
 
 ### Forensics
 
-- [Sleuthkit](sleuthkit.md) 1.66 : extensions to The Coroner's
+- [The Sleuth Kit](the_sleuth_kit.md) 1.66 : extensions to The Coroner's
   Toolkit forensic toolbox.
 - autopsy 1.75 : Web front-end to TASK. Evidence Locker defaults to
   /mnt/evidence
