@@ -123,10 +123,9 @@ below.
 <!-- -->
 
 - 11 Feb 2007: [Scott Moulton](scott_moulton.md)
-- 18 Feb 2007: [Phil Zimmerman](phil_zimmerman.md), creator of
-  [PGP](pgp.md) discussing his new Zfone
-- 25 Feb 2007: [Mark Menz](mark_menz.md) and [Jeff
-  Moss](jeff_moss.md)
+- 18 Feb 2007: [Phil Zimmerman](phil_zimmerman.md), creator of PGP discussing
+  his new Zfone
+- 25 Feb 2007: [Mark Menz](mark_menz.md) and [Jeff Moss](jeff_moss.md)
 
 <!-- -->
 

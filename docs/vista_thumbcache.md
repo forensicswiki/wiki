@@ -11,10 +11,10 @@ tags:
 
 This directory contains following files:
 
-- thumbcache_idx.db
-- thumbcache_32.db, thumbcache_96.db, thumbcache_256.db, and
+* thumbcache_idx.db
+* thumbcache_32.db, thumbcache_96.db, thumbcache_256.db, and
   thumbcache_1024.db
-- thumbcache_sr.db
+* thumbcache_sr.db
 
 Thumbnails are stored in *thumbcache_NN.db* files in different formats.
 There are several tools that can work with Vista thumbcache database
@@ -43,10 +43,9 @@ represented as Unicode string of HEX encoding.
 [Windows](windows.md) Vista creates thumbnails for files on
 different media types, including:
 
-- Removable devices
-- Network drives
-- Encrypted containers (e.g. [PGP](pgp.md) Desktop,
-  [TrueCrypt](truecrypt.md), BestCrypt)
+* Removable devices
+* Network drives
+* Encrypted containers (e.g. PGP Desktop, [TrueCrypt](truecrypt.md), BestCrypt)
 
 [Windows](windows.md) Vista doesn't create thumbnails for files encrypted using
 EFS unless thumbcache directory is encrypted too; [Windows](windows.md) Vista
@@ -90,29 +89,29 @@ Viewer](http://www.simplecarver.com/tool.php?toolname=WPG%20Viewer)
 
 ## External Links
 
-- [Forensic Implications of Windows Vista, Barrie Stewart,
+* [Forensic Implications of Windows Vista, Barrie Stewart,
   2007](http://www.whereisyourdata.co.uk/data/modules/wfdownloads/visit.php?cid=4&lid=9)
-- [Windows Explorer Thumbnail Cache database (thumbcache.db)
+* [Windows Explorer Thumbnail Cache database (thumbcache.db)
   format](http://code.google.com/p/libwtcdb/downloads/detail?name=Windows%20Explorer%20Thumbnail%20Cache%20database%20format.pdf),
   by the [libwtcdb project](libwtcdb.md)
 
 ### ThumbnailCacheId
 
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/bb787580(v=vs.85>).aspx
+* \[<http://msdn.microsoft.com/en-us/library/windows/desktop/bb787580(v=vs.85>).aspx
   System.ThumbnailCacheId\]
-- \[<http://msdn.microsoft.com/en-us/library/bb774628(VS.85>).aspx
+* \[<http://msdn.microsoft.com/en-us/library/bb774628(VS.85>).aspx
   IThumbnailCache interface\]
 
 ### Non-English
 
-- Использование централизованных баз данных эскизов для исследования
+* Использование централизованных баз данных эскизов для исследования
   графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended
   version](http://www.securitylab.ru/analytics/370474.php))
 
 ## Tools
 
-- [dmThumbs](http://www.dmthumbs.com/)
-- [FTK](ftk.md)
-- [Thumbs.db Viewer](http://www.janusware.com/fetch.php?page=412,2)
-- [Thumbcache-viewer](http://code.google.com/p/thumbcache-viewer/)
-- [WinThumbs](http://www.simplecarver.com/tool.php?toolname=WinThumbs%20Extractor)
+* [dmThumbs](http://www.dmthumbs.com/)
+* [FTK](ftk.md)
+* [Thumbs.db Viewer](http://www.janusware.com/fetch.php?page=412,2)
+* [Thumbcache-viewer](http://code.google.com/p/thumbcache-viewer/)
+* [WinThumbs](http://www.simplecarver.com/tool.php?toolname=WinThumbs%20Extractor)

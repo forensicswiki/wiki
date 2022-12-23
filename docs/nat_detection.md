@@ -11,11 +11,10 @@ Translators.
 
 #### Port scanning
 
-Some software NAT solutions (such as [Kerio WinRoute
-Firewall](http://www.kerio.com/kwf_firewall.html)), as well as many hardware
-solutions, provide a control port, which allows users to monitor and control
-their server (e.g. using a web browser). These control ports can be easily
-detected by means of port scanning (see [Nmap](nmap.md).
+Some software NAT solutions (such as Kerio WinRoute Firewall), as well as many
+hardware solutions, provide a control port, which allows users to monitor and
+control their server (e.g. using a web browser). These control ports can be
+easily detected by means of port scanning (see [Nmap](nmap.md).
 
 #### Routing test
 
@@ -84,27 +83,13 @@ different hosts running the same operating system by using IP IDs and
 
 <!-- -->
 
-- [AntiNAT](http://itdefence.ru/content/pages/antinat/) (GPLv2):
-  performs NAT detection based on:
-
-<!-- -->
-
 - - SMTP HELO/EHLO commands;
   - Oscar direct connections;
   - DNS reverse lookup requests;
   - NTP time synchronization;
   - Routing test.
 
-## Links
+## External Links
 
-- [TCP Timestamp to count hosts behind
-  NAT](http://phrack.org/issues.html?issue=63&id=3#article), Phrack
-
-### Non-English
-
-- [Обнаружение NAT и
-  proxy](http://itdefence.ru/content/articles/obnaruzhenie_nat_i_proxy/),
-  ITDefence, 2007
-- [Охота на сетевых
-  партизан](http://www.xakep.ru/magazine/xa/111/150/1.asp), Kris
-  Kaspersky
+* [TCP Timestamp to count hosts behind NAT](http://phrack.org/issues.html?issue=63&id=3#article),
+  Phrack

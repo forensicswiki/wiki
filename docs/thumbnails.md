@@ -65,10 +65,3 @@ Example thumbnail in KDE:
     - Endian: Big endian
 
 ## External Links
-
-### Non-English
-
-- [Использование централизованных баз данных эскизов для исследования
-  графических файлов на зашифрованных
-  разделах](http://itdefence.ru/content/articles/Thumbnails.Suhanov/),
-  ITDefence, 2009
