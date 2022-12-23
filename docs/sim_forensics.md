@@ -1,15 +1,16 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Mobile
 ---
 *Under Construction*
 
-The [SIM Card](sim_card.md) is the basic memory device inside of
+The [SIM Card](sim_cards.md) is the basic memory device inside of
 many mobile phones in use today. This small piece of hardware has been
 key to solving many cases in the world of [SIM Card
 Forensics](sim_card_forensics.md). However, without the proper
 knowledge of the SIM card's filesystem, the user will be missing out on
-all the valuable information the [SIM Card](sim_card.md) holds.
+all the valuable information the SIM Card holds.
 
 ## Getting Started
 
@@ -25,13 +26,8 @@ their information:
 1.  [Windows](windows.md) operating system
 2.  [SIMCon](simcon.md)[1](http://www.simcon.no/)
     - Program used to read SIM Cards
-3.  [SIM Cards](sim_cards.md)
+3.  SIM Cards
 4.  SIM Card Reader
-
-
-
-
-
 
 ## Quick Guide for SIMCon
 
