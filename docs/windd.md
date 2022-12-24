@@ -10,7 +10,7 @@ tags:
 **WinDD** is actually a set of Windows physical memory dumpers for both
 32- and 64-bit [Windows](windows.md).
 
-Win32dd is included on the [Helix Live CD](helix.md) response
+Win32dd is included on the [Helix Live CD](helix3.md) response
 tool.
 
 WinDD has be deprecated in favor of [MoonSols Windows Memory

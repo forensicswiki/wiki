@@ -37,7 +37,7 @@ Responders](http://dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf)*,
 that included the FRED script.
 
 A version of the FRED script was later incorporated into the
-[Helix](helix.md) disk.
+[Helix](helix3.md) disk.
 
 There was a proposal for a program to process the audit files into
 [HTML](html.md), but this never came to fruition.

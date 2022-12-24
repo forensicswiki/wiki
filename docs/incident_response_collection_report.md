@@ -6,7 +6,7 @@ The **Incident Response Collection Report (IRCR)** is a script based
 incident response tool by [John McLeod](john_mcleod.md).
 
 The latest release was version 2.3 and was intended to work with
-[Helix](helix.md) version 1.8.
+[Helix](helix3.md) version 1.8.
 
 ## See Also
 

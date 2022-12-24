@@ -15,8 +15,7 @@ below.
 
 ### 2006
 
-- 7 Jan 2006: [Drew Fahey](drew_fahey.md), author of
-  [Helix](helix.md)
+- 7 Jan 2006: [Drew Fahey](drew_fahey.md), author of [Helix](helix3.md)
 - 18 Jan 2006: [Simple Nomad](simple_nomad.md)
 - 21 Jan 2006: [Johnny Long](johnny_long.md)
 - 28 Jan 2006: [Kevin Mandia](kevin_mandia.md)
@@ -25,18 +24,15 @@ below.
 
 - 4 Feb 2006: [Brian Carrier](brian_carrier.md)
 - 11 Feb 2006: [Jesse Kornblum](jesse_kornblum.md)
-- 18 Feb 2006: [Bruce Potter](bruce_potter.md) of the Shmoo
-  Group
-- 25 Feb 2006: [Kris Kendall](kris_kendall.md) speaks about
-  malware analysis
+- 18 Feb 2006: [Bruce Potter](bruce_potter.md) of the Shmoo Group
+- 25 Feb 2006: [Kris Kendall](kris_kendall.md) speaks about malware analysis
 
 <!-- -->
 
 - 4 Mar 2006: [Dave Merkel](dave_merkel.md)
-- 11 Mar 2006: [James Wiebe](james_wiebe.md) of [Wiebe
-  Tech](wiebe_tech.md). Also [Todd
-  Bellows](todd_bellows.md) of [LogiCube](logicube.md)
-  about [CellDek](celldek.md)
+- 11 Mar 2006: [James Wiebe](james_wiebe.md) of [Wiebe Tech](wiebe_tech.md).
+  Also [Todd Bellows](todd_bellows.md) of [LogiCube](logicube.md) about
+  [CellDek](celldek.md)
 - 18 Mar 2006: [Kris Kendall](kris_kendall.md)
 - 25 Mar 2006: (No interview)
 

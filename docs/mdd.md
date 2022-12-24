@@ -9,7 +9,7 @@ tags:
 **mdd**, also known as **[ManTech dd](mantech.md)** or **Memory
 dd**, is a command line program to acquire an image of the memory of a
 running [Windows](windows.md) computer. The program has been
-included in the [Helix](helix.md) incident response tool.
+included in the [Helix](helix3.md) incident response tool.
 
 ## Status
 
