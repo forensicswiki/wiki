@@ -48,21 +48,12 @@ Outlook 2013 include: -
 
 ## See Also
 
-- [Microsoft Office](microsoft_office.md)
-- [Personal Folder File (PAB, PST,
-  OST)](personal_folder_file_(pab,_pst,_ost).md)
+* [Microsoft Office](microsoft_office.md)
+* [Personal Folder File (PAB, PST, OST)](personal_folder_file_(pab,_pst,_ost).md)
 
 ## External Links
 
-- [How can I recover items that I have "hard deleted" in
-  Outlook?](http://support.microsoft.com/kb/246153), by
-  [Microsoft](microsoft.md)
-- [Personal Folder File (PFF) forensics - Analyzing the horrible
-  reference file
-  format](https://googledrive.com/host/0B3fBvzttpiiScU9qcG5ScEZKZE0/PFF%20Forensics%20-%20analyzing%20the%20horrible%20reference%20file%20format.pdf),
+* [Personal Folder File (PFF) forensics - Analyzing the horrible reference file format](https://github.com/libyal/documentation/blob/main/PFF%20Forensics%20-%20analyzing%20the%20horrible%20reference%20file%20format.pdf),
   by [Joachim Metz](joachim_metz.md), March 11, 2009
-- [E-mail and appointment falsification analysis - Analysis of e-mail
-  and appointment falsification on Microsoft
-  Outlook/Exchange](https://googledrive.com/host/0B3fBvzttpiiScU9qcG5ScEZKZE0/PFF%20forensics%20-%20e-mail%20and%20appoinment%20falsification%20analysis.pdf),
+* [E-mail and appointment falsification analysis - Analysis of e-mail and appointment falsification on Microsoft Outlook/Exchange](https://github.com/libyal/documentation/blob/main/PFF%20forensics%20-%20e-mail%20and%20appoinment%20falsification%20analysis.pdf),
   by [Joachim Metz](joachim_metz.md), August 17, 2009
-
