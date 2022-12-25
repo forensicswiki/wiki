@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Law
+  - Law
 ---
 A grab-bag collection of citations on legal issues.
 
@@ -114,16 +114,13 @@ The following forensic tools, which can capture forensic images remotely
 over a network, may raise interesting legal questions under these and
 other statutes.
 
-Paraben Enterprise and Shuttle: <http://www.paraben-enterprise.com/>
+Paraben Enterprise and Shuttle: <http://www.paraben.com/>
 
-WetStone LiveWire Investigator:
-<http://www.000.shoppingcartsplus.com/catalog/item/4170630/4050602.htm>
+WetStone LiveWire Investigator: <https://www.wetstonetech.com/>
 
-ProDiscover IR: <http://www.techpathways.com/ProDiscoverIR.htm>
+ProDiscover IR: <https://prodiscover.com/>
 
 EnCase Enterprise: <http://www.encase.com/products/ee_index.asp>
-
-Vontu: <http://www.vontu.com/products/default.asp>
 
 # Cybersecurity Research
 
