@@ -75,7 +75,6 @@ systems during the boot:
 | SMART Linux (Ubuntu)            | 2010-01-20 |
 | FCCU GNU/Linux Forensic Boot CD | 12.1       |
 | SPADA                           | 4          |
-| DEFT Linux                      | 7          |
 
 ### Orphan inodes deletion
 
@@ -118,7 +117,6 @@ List of Ubuntu-based distributions that allow root file system spoofing:
 | Helix3                          | 2009R1     |
 | Helix3 Pro                      | 2009R3     |
 | CAINE                           | 1.5        |
-| DEFT Linux                      | 5          |
 | Raptor                          | 2.0        |
 | BackTrack                       | 4          |
 | SMART Linux (Ubuntu)            | 2010-01-20 |
