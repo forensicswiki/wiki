@@ -467,12 +467,12 @@ same tree-graph loadable modules.
   used [foremost](foremost.md) for it with some success.
   [Vinetto](vinetto.md) has some critical bugs :(
   [.FUF](user:.fuf.md)
-- Extracting/carving executable binaries, dlls etc
-  [Volatility](volatility.md), JE.
+- Extracting/carving executable binaries, dlls etc.
+  [Volatility](volatility_framework.md), JE.
 
 ## Recursive Carving
 
-[Joachim](user:joachim_metz.md) do we want to support (let's
+[Joachim](joachim_metz.md) do we want to support (let's
 call it) 'recursive in file carving' (for now) this is different from
 embedded files because there is a file system structure in the file and
 not just another file structure

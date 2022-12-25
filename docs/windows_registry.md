@@ -1160,14 +1160,14 @@ name</a></b></p></td>
   Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
 - [The Windows NT Registry File
   Format](http://www.sentinelchicken.com/research/registry_format/), by
-  [Timothy Morgan](timothy_morgan.md), June 9, 2009
+  Timothy Morgan, June 9, 2009
 - [The Internal Structure of the Windows
   Registry](http://amnesia.gtisc.gatech.edu/~moyix/suzibandit.ltd.uk/MSc/),
   by Peter Norris, February 2009
 - [Recovering Deleted Data From the Windows
   Registry](http://www.dfrws.org/2008/proceedings/p33-morgan.pdf) and
   [slides](http://www.dfrws.org/2008/proceedings/p33-morgan_pres.pdf),
-  by [Timothy Morgan](timothy_morgan.md), DFRWS 2008
+  by Timothy Morgan, DFRWS 2008
 - [Forensic Analysis of the Windows Registry in
   Memory](http://dfrws.org/2008/proceedings/p26-dolan-gavitt.pdf) and
   [slides](http://dfrws.org/2008/proceedings/p26-dolan-gavitt_pres.pdf),
@@ -1263,7 +1263,7 @@ name</a></b></p></td>
   by Scott Langendorf, September 24, 2013
 - [Volatility autoruns
   plugin](https://github.com/tomchop/volatility-autoruns/blob/master/README.md),
-  by the [Volatility project](volatility.md), April 14, 2015
+  by the [Volatility project](volatility_framework.md), April 14, 2015
 
 ### User Assist
 
@@ -1293,7 +1293,7 @@ name</a></b></p></td>
   by Dan (@4n6k), Tuesday, May 14, 2013
 - [Daily Blog \#45: Understanding the artifacts: User
   Assist](http://hackingexposedcomputerforensicsblog.blogspot.ch/2013/08/daily-blog-45-understanding-artifacts.html),
-  by [David Cowen](david_cowen.md), Wednesday, August 7, 2013
+  by David Cowen, Wednesday, August 7, 2013
 
 ## Tools
 
@@ -1301,7 +1301,7 @@ name</a></b></p></td>
 
 - [Forensic Registry EDitor (fred)](https://www.pinguin.lu/index.php) -
   "Forensic Registry EDitor (fred) is a cross-platform M\$ registry hive
-  editor" by [Daniel Gillen](daniel_gillen.md)
+  editor" by Daniel Gillen
 - [libregfi](http://projects.sentinelchicken.org/data/doc/reglookup/regfi/) -
   The regfi library is a read-only NT registry library which serves as
   the main engine behind the reglookup tool
@@ -1314,24 +1314,24 @@ name</a></b></p></td>
   tool for registry analysis in forensics examinations."
 - [Parse::Win32Registry](http://search.cpan.org/~jmacfarla/Parse-Win32Registry-0.51/lib/Parse/Win32Registry.pm)
   Perl module.
-- [python-registry](http://www.williballenthin.com/registry/index.html)
+- [python-registry](https://github.com/williballenthin/python-registry)
   Python module.
-- [Registry Decoder](http://code.google.com/p/registrydecoder/) offline
-  analysis component, by [Andrew Case](andrew_case.md)
-- [RegDecoderLive](http://code.google.com/p/registrydecoder/) live hive
-  acquisition component, by [Andrew Case](andrew_case.md)
 - [libregf](libregf.md) - Library and tools to access the
   Windows NT Registry File (REGF) format
 - [Registryasxml](registryasxml.md) - Tool to import/export
   registry sections as XML
 - [kregedit](http://samba.org/~jelmer/kregedit/) - a KDE utility for
   viewing and editing registry files.
-- [ntreg](http://www.bindview.com/Services/RAZOR/Utilities/Unix_Linux/ntreg_readme.cfm)
-  a file system driver for linux, which understands the NT registry file
-  format.
 - [Registry](https://github.com/EricZimmerman/Registry) Full featured,
   offline Registry hive parser written in C#. Supports deleted item
   recovery, full searching, and more by @EricZimmerman
+
+#### Discontinued
+
+- [ntreg](https://packetstormsecurity.com/files/10450/ntreg.tar.gz.html)
+  a file system driver for linux, which understands the NT registry file format.
+- [Registry Decoder](https://github.com/504ensicslabs/registrydecoder) live hive
+  acquisition and offline analysis component, by Andrew Case
 
 ### Freeware
 

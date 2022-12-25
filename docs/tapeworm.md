@@ -17,7 +17,7 @@ automate the following open source tools:
 - [bulk_extractor](bulk_extractor.md)
 - [regripper](regripper.md)
 - [exiftool](exiftool.md)
-- [volatility](volatility.md)
+- [volatility](volatility_framework.md)
 - Anti-Virus Scanning
 - Find Files of Interest
 

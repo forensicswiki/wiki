@@ -86,7 +86,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Guidance Software Blog](http://www.guidancesoftware.com/blog)
 - [Gustavo Duarte Blog](http://duartes.org/gustavo/blog/)
 - [Hacking Exposed - Computer Forensics blog](http://www.hecfblog.com/),
-  by [David Cowen](david_cowen.md)
+  by David Cowen
 - [HeX-OR Forensics](http://nicoleibrahim.com/), by [Nicole
   Ibrahim](nicole_ibrahim.md)
 - [int for(ensic){blog;}](http://computer.forensikblog.de/en/), by
