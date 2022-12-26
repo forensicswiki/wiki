@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 I was recently asked about shipping drives for forensic analysis, and
 since I've seen this done successfully and seen failures, I thought I
@@ -42,10 +42,8 @@ image. If you must ship disks, here are some instructions:
     interface is plugged into something that can move. Not a good idea.
     Take the drives out of the enclosure (if there is one - if you've
     followed my advice above, you're working with images on bare
-    drives). Then get either a [hard drive shipping
-    kit](http://www.aquaphoenix.com/misc/sale/hdd_box/), if you are
-    shipping multiple drives, or a [single drive
-    case](http://www.amazon.com/Hard-Drive-Transporter/dp/B002IY6B9U).
+    drives). Then get either a hard drive shipping kit, if you are
+    shipping multiple drives, or a single drive case.
     If you can't do this, wrap the drive in foam sheeting or bubble wrap
     (three times is good), and tape up the wrapped drive. If you don't
     have access to any other packing material, then use towels or other
@@ -65,4 +63,3 @@ media and data.
 
 NB 2: This does NOT take account of chain-of-evidence issues, obviously.
 This is about imaging and packing ONLY.
-

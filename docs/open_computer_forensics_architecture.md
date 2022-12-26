@@ -36,14 +36,12 @@ dissectors that are programed to be [CarvFs](carvfs.md) aware to
 use [zero storage carving](zero_storage_carving.md).
 
 Communication between modules within OCFA is governed by a two layered
-communication infrastructure as provided by OCFA. At the lowest layer is
-a messaging system with at is center the OCFA
-[AnyCast-relay](anycast-relay.md). The Anycast Relay provides
-the facilities of module crash resistance, distributed processing load
-balancing and flow control. At a higher level of communication, the OCFA
-XML Router provides for the routing of individual pieces of evidence
-through the most appropriate tool chain for its particular type of
-content.
+communication infrastructure as provided by OCFA. At the lowest layer is a
+messaging system with at is center the OCFA AnyCast-relay. The Anycast Relay
+provides the facilities of module crash resistance, distributed processing load
+balancing and flow control. At a higher level of communication, the OCFA XML
+Router provides for the routing of individual pieces of evidence through the
+most appropriate tool chain for its particular type of content.
 
 Although OCFA contains a rudimentary user interface, most of its power
 is in the backend architecture. The last and final module in the tool

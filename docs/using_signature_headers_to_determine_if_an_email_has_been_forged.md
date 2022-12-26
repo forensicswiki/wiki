@@ -30,8 +30,8 @@ message, so the email in question may be forged.
 ## DomainKeys Identified Mail
 
 These headers, included by the mail server, provide a signature of each
-message. See [Gmail Header Format](gmail_header_format.md). The
-public keys are distributed via [DNS](domain_name_system.md).
+message. See [Gmail Header Format](gmail_header_format.md). The public keys are
+distributed via DNS.
 
 ## Signed mail
 

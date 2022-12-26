@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Windows
-  -  Tools
-  -  Commercial Software
-  -  Live Forensics
+  - Commercial Software
+  - Live Forensics
+  - Tools
+  - Windows
 ---
 **Computer Online Forensic Evidence Extractor (COFEE)**
 
@@ -25,10 +25,5 @@ University and University College Dublin to continue the research and
 development that will help ensure that COFEE serves the needs of law
 enforcement, even as technology evolves.
 
-Law enforcement can get COFEE from NW3C at www.nw3c.org or by contacting
-INTERPOL at COFEE@interpol.int.
-
-## External Links
-
-- [Official web
-  site](http://www.microsoft.com/industry/government/solutions/cofee/default.aspx)
+Law enforcement can get COFEE from NW3C at https://www.nw3c.org/ or by
+contacting INTERPOL at COFEE@interpol.int.
