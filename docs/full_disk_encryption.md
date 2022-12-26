@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Encryption
-  -  Disk Encryption
-  -  Anti-Forensics
+  - Anti-Forensics
+  - Disk Encryption
+  - Encryption
 ---
 **Full Disk Encryption** or **Whole Disk Encryption** is a phrase that
 was coined by [Seagate](seagate.md) to describe their encrypting
@@ -270,24 +270,20 @@ the encryption software, as noted in the table below:
 |                                                  |
 |--------------------------------------------------|
 | Solution                                         |
-| [EnCase Forensics v6](encase.md)         |
-| [EnCase Forensics v7](encase.md)         |
-| [EnCase Forensics v8](encase.md)         |
-| [AccessData FTK v6](forensic_toolkit.md) |
-| [X-Ways](x-ways.md)                      |
+| [EnCase Forensics v6](encase.md)                 |
+| [EnCase Forensics v7](encase.md)                 |
+| [EnCase Forensics v8](encase.md)                 |
+| [AccessData FTK v6](forensic_toolkit.md)         |
+| [X-Ways](x-ways_ag.md.md)                        |
 | Other Applications                               |
 
 ## See Also
 
-[Full Volume Encryption](full_volume_encryption.md)
-
-[BitLocker Disk Encryption](bitlocker_disk_encryption.md)
+* [BitLocker Disk Encryption](bitlocker_disk_encryption.md)
+* [Full Volume Encryption](full_volume_encryption.md)
 
 ## External Links
 
-- [Wiki page for FDE on
-  Thinkpads](http://www.thinkwiki.org/wiki/Full_Disk_Encryption_(FDE))
-- [Bypassing SelfEncrypting Drives (SED) in Enterprise
-  Environments](https://www.blackhat.com/docs/eu-15/materials/eu-15-Boteanu-Bypassing-Self-Encrypting-Drives-SED-In-Enterprise-Environments.pdf),
+* [Wiki page for FDE on Thinkpads](http://www.thinkwiki.org/wiki/Full_Disk_Encryption_(FDE))
+* [Bypassing SelfEncrypting Drives (SED) in Enterprise Environments](https://www.blackhat.com/docs/eu-15/materials/eu-15-Boteanu-Bypassing-Self-Encrypting-Drives-SED-In-Enterprise-Environments.pdf),
   by Daniel Boteanu and Kevvie Fowler, November 12, 2015
-

@@ -183,8 +183,7 @@ drives.
 solutions for data recovery from physically and logically damaged HDD,
 SSD, RAID, Flash storage devices. PC-3000 software runs on Windows OS
 
-- [PC INSPECTOR File
-  Recovery](http://www.pcinspector.de/Default.htm?language=1)
+- [PC INSPECTOR File Recovery](https://pcinspector.de/)
 
 
 PC INSPECTOR File Recovery is a freeware windows program that is able to
@@ -228,10 +227,7 @@ formatted/damaged/corrupted/lost/deleted drive.
 
 ## External Links
 
-- [Wikipedia: Data
-  recovery](https://en.wikipedia.org/wiki/Data_recovery)
-- [DMOZ: Data
-  Recovery](https://www.dmoz.org/Computers/Hardware/Storage/Data_Recovery/)
+- [Wikipedia: Data recovery](https://en.wikipedia.org/wiki/Data_recovery)
 
 # Partition Recovery
 
@@ -306,7 +302,7 @@ Recover deleted or lost partitions
 DiskInternals NTFS Recovery is a fully automatic utility that recovers
 data from damaged or formatted disks.
 
-- [gpart](http://www.stud.uni-hannover.de/user/76201/gpart/)
+- [gpart](https://github.com/baruch/gpart)
 
 
 Gpart is a tool which tries to guess the primary partition table of a
@@ -387,17 +383,6 @@ reports in common formats, which are acceptable in courts.
 Recycle Bin recovery tool designed to carve data from emptied recycle on
 Windows 10, 8.1, 8, 7, 2000, Vista, XP etc.
 
-- [Multimedia File
-  Carver](http://www.digitalforensics.at/wordpress/?page_id=162&lang=en)
-
-
-File carver that is specialized on the recovery of digital movies.
-Recovery is possible from fragmented files. Current status of this
-(open-source) program is a proof-of-concept that is suitable for smaller
-images. In the future much more improved performance can be expected.
-Further this carver will be extended to support the recovery of
-fragmented digital images.
-
 - [CnW Recovery](http://www.cnwrecovery.com/)
 
 
@@ -405,12 +390,6 @@ Data carving tools and will recover most know file types. For some
 formats the files are verified and intelligent names added based on file
 metadata. Several video formats can be reconstructed from isolated
 fragments.
-
-- [DataLifter® - File Extractor
-  Pro](http://www.datalifter.com/products.htm)
-
-
-Data carving runs on multiple threads to make use of modern processors
 
 - [NFI Defraser](http://sourceforge.net/projects/defraser/)
 
@@ -477,7 +456,7 @@ A successor to [CarvFs](carvfs.md) that includes a message bus
 and other features aimed specifically at effective use by computer
 forensic framework.
 
-- [midi-carver](http://greg-kennedy.com/nwserver/?p=10)
+- [midi-carver](https://greg-kennedy.com/wordpress/2010/12/16/midi-carver-a-data-carver-for-midi-files/)
 
 
 midi-carver is a data carver for MIDI files.
@@ -499,14 +478,14 @@ unerase and recover pictures and files lost on corrupted, erased or
 damaged compact flash (CF) cards, SD Cards, Memory Sticks, SmartMedia
 and XD cards.
 
-- [ReviveIt](http://sourceforge.net/projects/revit/)
+- [ReviveIt](https://github.com/libyal/reviveit)
 
 
 Revive It (RevIt) is an experimental carving tool, initially developed
 for the DFRWS 2006 carving challenge. It uses 'file structure based
 carving'. Note that RevIt currently is a work in progress.
 
-- [Magic Rescue](http://jbj.rapanden.dk/magicrescue/)
+- [Magic Rescue](https://github.com/jbj/magicrescue)
 
 
 Magic Rescue is a file carving tool that uses "magic bytes" in a file
@@ -517,7 +496,7 @@ contents to recover data.
 
 FTK includes some file carvers
 
-- [X-Ways](x-ways.md)
+- [X-Ways](x-ways_ag.md)
 
 
 X-Ways Forensic provides a robust list of file types as well as the
@@ -541,11 +520,9 @@ emails, chats, browser histories, system files (registries, event logs,
 jumplists, thumbnails), etc. Smart carving helps defragment data inside
 Live RAM dumps.
 
-- [Digital Detective
-  Blade](http://www.digital-detective.net/digital-forensic-software/blade/blade-feature-comparison/)
+- [Digital Detective Blade](http://www.digital-detective.net/digital-forensic-software/blade/blade-feature-comparison/)
 
 
-Blade from [Digital Detective](digital_detective.md) will carve
-different categories of files such as archives, documents, graphics,
-audio, and video files. User defined carving based on header +
-footer/length is available as well.
+Blade from Digital Detective will carve different categories of files such as
+archives, documents, graphics, audio, and video files. User defined carving
+based on header + footer/length is available as well.

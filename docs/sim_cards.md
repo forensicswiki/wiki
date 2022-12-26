@@ -25,11 +25,9 @@ Early versions of the UICC used full-size smart cards (85mm x 54mm x
 0.76mm). The card has since been shrunk to the standard size of 25mm x
 15mm x 0.76mm.
 
-Although UICC cards traditionally held just 16 to 64KB of memory, the
-recent trend has been to produce SIM cards with larger storage
-capacities, ranging from 512MB up to
-[M-Systems'](http://www.m-systems.com/site/en-US/) 1GB SIM Card slated
-for release in late 2006.
+Although UICC cards traditionally held just 16 to 64KB of memory, the recent
+trend has been to produce SIM cards with larger storage capacities, ranging
+from 512MB up to M-Systems' 1GB SIM Card slated for release in late 2006.
 
 ## ICCID
 
@@ -44,28 +42,28 @@ successive digits. This digit was calculated using the Luhn algorithm.
 A typical SIM (19 digits) example 89 91 10 1200 00 320451 0, provide
 several details as follows:
 
-- The first two digits (89 in the example) refers to the Major Industry
+* The first two digits (89 in the example) refers to the Major Industry
   Identifier.
-- The next two digits (91 in the example) refers to the country code
+* The next two digits (91 in the example) refers to the country code
   (91-India).
-- The next two digits (10 in the example) refers to the issuer
+* The next two digits (10 in the example) refers to the issuer
   identifier number.
-- The next four digits (1200 in the example) refers to the month and
+* The next four digits (1200 in the example) refers to the month and
   year of manufacturing.
-- The next two digits (00 in the example) refers to the switch
+* The next two digits (00 in the example) refers to the switch
   configuration code.
-- The next six digits (320451 in the example) refers to the SIM number.
-- The last digit which is separated from the rest is called the checksum
+* The next six digits (320451 in the example) refers to the SIM number.
+* The last digit which is separated from the rest is called the checksum
   digit.
 
 These digits can be further grouped for additional information:
 
-- The major Industry Identifier, Country Code, and Issuer Identifier
+* The major Industry Identifier, Country Code, and Issuer Identifier
   Number make up the Issuer Identification Number (IIN) which is a
   maximum of 7 digits.
-- The next several digits (variable length) represent the Individual
+* The next several digits (variable length) represent the Individual
   Account Identification Number
-- The final digit is a checksum digit
+* The final digit is a checksum digit
 
 ## Location Area Identity
 
@@ -111,10 +109,10 @@ be investigated.
 
 In general, some of this data can help an investigator determine:
 
-- Phone numbers of calls made/received
-- Contacts
-- [SMS](sms.md)
-- SMS text (the message itself)
+* Phone numbers of calls made/received
+* Contacts
+* [SMS](sms.md)
+* SMS text (the message itself)
 
 There are many software solutions that can help the examiner to acquire
 the information from the SIM card. Several products include 3GForensics
@@ -125,57 +123,57 @@ Seizure](http://www.paraben-forensics.com/catalog/product_info.php?products_id=2
 
 The SIM file system is hierarchical in nature consisting of 3 parts:
 
-- Master File (MF) - root of the file system that contains
+* Master File (MF) - root of the file system that contains
 
 DF’s and EF’s
 
-- Dedicated File (DF)
-- Elementary Files (EF)
+* Dedicated File (DF)
+* Elementary Files (EF)
 
 ### Data Acquisition
 
 These software titles can extract such technical data from the SIM card
 as:
 
-- **International Mobile Subscriber Identity (IMSI)**: A unique
+* **International Mobile Subscriber Identity (IMSI)**: A unique
   identifying number that identifies the phone/subscription to the
   [GSM](gsm.md) network
-- **Mobile Country Code (MCC)**: A three-digit code that represents the
+* **Mobile Country Code (MCC)**: A three-digit code that represents the
   SIM card's country of origin
-- **Mobile Network Code (MNC)**: A two-digit code that represents the
+* **Mobile Network Code (MNC)**: A two-digit code that represents the
   SIM card's home network
-- **Mobile Subscriber Identification Number (MSIN)**: A unique ten-digit
+* **Mobile Subscriber Identification Number (MSIN)**: A unique ten-digit
   identifying number that identifies the specific subscriber to the GSM
   network
-- **Mobile Subscriber International ISDN Number (MSISDN)**: A number
+* **Mobile Subscriber International ISDN Number (MSISDN)**: A number
   that identifies the phone number used by the headset
-- **Abbreviated Dialing Numbers (ADN)**: Telephone numbers stored in
+* **Abbreviated Dialing Numbers (ADN)**: Telephone numbers stored in
   sims memory
-- **Last Dialed Numbers (LDN)**
-- **Short Message Service (SMS)**: Text Messages
-- **Public Land Mobile Network (PLMN) selector**
-- **Forbidden PLMNs**
-- **Location Information (LOCI)**
-- **General Packet Radio Service (GPRS) location**
-- **Integrated Circuit Card Identifier (ICCID)**
-- **Service Provider Name (SPN)**
-- **Phase Identification**
-- **SIM Service Table (SST)**
-- **Language Preference (LP)**
-- **Card Holder Verification (CHV1) and (CHV2)**
-- **Broadcast Control Channels (BCCH)**
-- **Ciphering Key (Kc)**
-- **Ciphering Key Sequence Number**
-- **Emergency Call Code**
-- **Fixed Dialing Numbers (FDN)**
-- **Forbidden PLMNs**
-- **Local Area Identitity (LAI)**
-- **Own Dialing Number**
-- **Temporary Mobile Subscriber Identity (TMSI)**
-- **Routing Area Identifier (RIA) netowrk code**
-- **Service Dialing Numbers (SDNs)**
-- **Service Provider Name**
-- **Depersonalizatoin Keys**
+* **Last Dialed Numbers (LDN)**
+* **Short Message Service (SMS)**: Text Messages
+* **Public Land Mobile Network (PLMN) selector**
+* **Forbidden PLMNs**
+* **Location Information (LOCI)**
+* **General Packet Radio Service (GPRS) location**
+* **Integrated Circuit Card Identifier (ICCID)**
+* **Service Provider Name (SPN)**
+* **Phase Identification**
+* **SIM Service Table (SST)**
+* **Language Preference (LP)**
+* **Card Holder Verification (CHV1) and (CHV2)**
+* **Broadcast Control Channels (BCCH)**
+* **Ciphering Key (Kc)**
+* **Ciphering Key Sequence Number**
+* **Emergency Call Code**
+* **Fixed Dialing Numbers (FDN)**
+* **Forbidden PLMNs**
+* **Local Area Identitity (LAI)**
+* **Own Dialing Number**
+* **Temporary Mobile Subscriber Identity (TMSI)**
+* **Routing Area Identifier (RIA) netowrk code**
+* **Service Dialing Numbers (SDNs)**
+* **Service Provider Name**
+* **Depersonalizatoin Keys**
 
 This information can be used to contact the service provider to obtain
 even more information than is stored on the SIM card.
@@ -212,14 +210,14 @@ device.
 
 Some additional information the service provider might store:
 
-- A customer database
-- [Call Detail Records](call_detail_record.md)
-- [Home Location Register](home_location_register.md)
+* A customer database
+* Call Detail Records
+* Home Location Register
 
 ## Service Providers that use SIM Cards in the United States
 
-- T-Mobile
-- Cingular/AT&T
+* T-Mobile
+* Cingular/AT&T
 
 ## Sim Card Text Encoding
 
@@ -228,13 +226,12 @@ Originally the middle-European [GSM](gsm.md) network used only a
 However as GSM spread worldwide it was concluded that more characters,
 such as the major characters of all living languages, should be able to
 be represented on GSM phones. Thus, there was a movement towards a
-16-bit code known as [UCS-2](ucs-2.md) which is now the standard
+16-bit code known as UCS-2 which is now the standard
 in GSM text encoding. This change in encoding can make it more difficult
 to accurately obtain data form [SIM cards](sim_cards.md) of the
 older generation which use the 7-bit encoding. This encoding is used to
 compress the hexadecimal size of certain elements of the SIMs data,
-particularly in [SMS](sms.md) and [Abbreviated Dialing
-Numbers](abbreviated_dialing_numbers.md).
+particularly in [SMS](sms.md) and Abbreviated Dialing Numbers.
 
 ## Authentication Key (Ki)
 
@@ -249,20 +246,14 @@ from the SIM card, and essentially SIM card duplication.
 
 ## See also
 
-- [SIM Card Forensics](sim_card_forensics.md)
+* [SIM Card Forensics](sim_card_forensics.md)
 
 ## References
 
-- [SIMCon](http://www.simcon.no/)
-- [SIM Explorer](sim_explorer.md)
-- [Sector
-  Forensics](http://www.sectorforensics.co.uk/sim-examination.shtml)
-- [IJDE Spring 2003 Volume 2, Issue
-  1](http://www.utica.edu/academic/institutes/ecii/ijde/articles.cfm?action=issue&id=5):
-  [Forensics and the GSM Mobile Telephone
-  System](http://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
-  (PDF)
-- <http://en.wikipedia.org/wiki/Subscriber_Identity_Module>
-- [Forensics and SIM cards: an
-  Overview](http://www.utica.edu/academic/institutes/ecii/publications/articles/EFE3EDD5-0AD1-6086-28804D3C49D798A0.pdf)
-  (PDF)
+* [SIMCon](http://www.simcon.no/)
+* [SIM Explorer](sim_explorer.md)
+* [Sector Forensics](http://www.sectorforensics.co.uk/sim-examination.shtml)
+* [IJDE Spring 2003 Volume 2, Issue 1](http://www.utica.edu/academic/institutes/ecii/ijde/articles.cfm?action=issue&id=5):
+  [Forensics and the GSM Mobile Telephone System](http://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
+* <http://en.wikipedia.org/wiki/Subscriber_Identity_Module>
+* [Forensics and SIM cards: an Overview](http://www.utica.edu/academic/institutes/ecii/publications/articles/EFE3EDD5-0AD1-6086-28804D3C49D798A0.pdf)

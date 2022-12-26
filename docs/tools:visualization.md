@@ -211,7 +211,6 @@ Reas govisual diagram editor reas.com gdf.net
   Java](http://www.manageability.org/blog/stuff/open-source-graph-network-visualization-in-java/view)
 - [INSNA's web page of Computer Programs for Social Network
   Analysis](http://www.insna.org/INSNA/soft_inf.html)
-- <http://www.dmoz.org/Science/Math/Combinatorics/Software/Graph_Drawing/>
 - <http://www.ontopia.net/omnigator/models/index.jsp>
 - <http://visant.bu.edu/>
 - <http://sourceforge.net/projects/touchgraph/>
