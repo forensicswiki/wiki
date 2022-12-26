@@ -62,7 +62,7 @@ from the multiple levels of slack space within them.
   by [Jesse Kornblum](jesse_kornblum.md), August 18, 2009
 - [Microsoft Hibernation
   Files](http://code.google.com/p/volatility/wiki/HiberAddressSpace), by
-  [the Volatility project](volatility.md)
+  [the Volatility project](volatility_framework.md)
 - [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
 - [Parsing hibernation slack
   space](https://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/)

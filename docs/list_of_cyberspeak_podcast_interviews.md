@@ -333,9 +333,8 @@ below.
 
 <!-- -->
 
-- 26 Sep 2011: [Andrew Case](andrew_case.md), one of the
-  developers of Registry Decoder, a National Institute of Justice
-  sponsored application.
+- 26 Sep 2011: Andrew Case, one of the developers of Registry Decoder,
+  a National Institute of Justice sponsored application.
 
 <!-- -->
 
