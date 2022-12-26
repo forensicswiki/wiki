@@ -8,7 +8,11 @@ hide:
 
 > The Forensics Wiki has transitioned to this new domain and platform; read more about it at [Transitioning Forensics Wiki to GitHub](https://osdfir.blogspot.com/2022/11/transitioning-forensics-wiki-to-github.html).
 
-The Forensics Wiki is an open source website providing information related to digital forensics.  The articles on the website cover a wide range of information from [tools](tags/#tools) used during investigations to [papers](tags/#papers) [people](tags/#people, and [organizations](tags/#organization that contribute to the field.  
+The Forensics Wiki is an open source website providing information related to
+digital forensics. The articles on the website cover a wide range of
+information from [tools](tags/#tools) used during investigations to
+[papers](tags/#papers) [people](tags/#people) and
+[organizations](tags/#organization) that contribute to the field.
 
 Please see the community page if you would like to [contribute](community.md).
 
