@@ -1,12 +1,11 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
-Algorithms and data structures that are useful for implementing forensic
-tools:
+Algorithms and data structures that are useful for implementing forensic tools:
 
-- [Bloom Filters](bloom_filters.md)
-- [Lossy Counting](lossy_counting.md)
-- [Hashing](hashing.md)
-- [Rabin Fingerprint](rabin_fingerprint.md)
-- [Fourier Transformation](fourier_transformation.md)
+* [Bloom Filters](bloom_filters.md)
+* [Fourier Transformation](fourier_transformation.md)
+* [Hashing](hashing.md)
+* [Lossy Counting](lossy_counting.md)
+* Rabin Fingerprint

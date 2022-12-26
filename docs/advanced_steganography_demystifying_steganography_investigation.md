@@ -1,12 +1,9 @@
 ---
 tags:
-  -  Research
-  -  Training
+  - Research
+  - Training
 ---
 **Advanced Steganography Demystifying Steganography Investigation**
-[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,23)
-
-##
 
 During this 2 day advanced class, students will participate in hands on
 experiments with stego’d images, multimedia files, advanced network
@@ -31,10 +28,10 @@ in this analysis.
 
 **Who Should Attend?**
 
-`▫ Forensic Investigators`
-`▫ Local, state and federal law enforcement`
-`▫ Private investigators`
-`▫ IT security professionals`
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
 
 Our trainers take you inside the minds of today’s criminals and students
 completeing the class will be able to execute a full investigation in
@@ -47,4 +44,4 @@ will be tested with certification exams.
 
 1-877-WETSTONE ext 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

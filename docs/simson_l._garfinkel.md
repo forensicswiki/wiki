@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 **Simson L. Garfinkel** joined the [National Institute of Standards and
 Technology](national_institute_of_standards_and_technology.md)
@@ -43,17 +43,15 @@ the Internet at <http://www.simson.net/cv>.
 
 **Simson L. Garfinkel** is the author of the following forensic tools:
 
-- [AFFLIB](afflib.md)
-- [Bulk Extractor](bulk_extractor.md)
-- [fiwalk](fiwalk.md)
-- [frag_find](frag_find.md)
+* [AFFLIB](aff.md)
+* [Bulk Extractor](bulk_extractor.md)
+* [fiwalk](fiwalk.md)
+* [frag_find](frag_find.md)
 
-On this wiki, Garfinkel is known as
-[User:Simsong](user:simsong.md).
+On the MediaWiki version of Forensics Wiki, Garfinkel was known as simsong.
 
 ## See Also
 
-- [Simson Garfinkel's home page](http://simson.net/)
-- [Simson Garfinkel on
-  Wikipedia](http://en.wikipedia.org/wiki/Simson_Garfinkel)
+* [Simson Garfinkel's home page](http://simson.net/)
+* [Simson Garfinkel on Wikipedia](http://en.wikipedia.org/wiki/Simson_Garfinkel)
 

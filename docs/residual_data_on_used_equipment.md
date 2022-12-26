@@ -26,7 +26,6 @@ even on the street.
   contain sensitive Australian government data, according to a study
   Patryk Szewczyk and Krishnun Sansurooah, of the Security Research
   Institute at Perth's Edith Cowan University.
-  <http://www.theaustralian.com.au/technology/government-data-found-on-memory-sticks/story-e6frgakx-1226773129880>
 
 ## Hard Drives
 
@@ -77,7 +76,7 @@ order.
 
 <!-- -->
 
-- **2007-02-06**: [Fulcrum Inquiry](http://www.fulcruminquiry.com), a
+- **2007-02-06**: [Fulcrum Inquiry](https://www.fulcrum.com/), a
   Los Angeles litigation support firm, purchased 70 used hard drives
   from 14 firms and discovered confidential information on 2/3rds of the
   drives.
@@ -98,13 +97,12 @@ order.
 
 <!-- -->
 
-- **2008-01-28**: Gregory Evans, a security consultant in Marina Del
-  Ray, Calif., bought a \$500 computer at a swap meet from a former
-  mortgage company. It contained credit reports on 300 people in a
-  deleted file, according to an article published in [The New York Daily
-  NEws](http://www.nydailynews.com/money/2008/01/28/2008-01-28_sensitive_info_lives_on_in_old_computers.html).
-  The security consultant was also able to recover the usernames and
-  passwords of the mortgage company's former employees.
+- **2008-01-28**: Gregory Evans, a security consultant in Marina Del Ray,
+  Calif., bought a \$500 computer at a swap meet from a former mortgage company.
+  It contained credit reports on 300 people in a deleted file, according to an
+  article published in The New York Daily News. The security consultant was also
+  able to recover the usernames and passwords of the mortgage company's former
+  employees.
 
 <!-- -->
 
@@ -142,8 +140,7 @@ order.
   of Defense issues a report about the widespread sale and return of
   equipment containing sensitive information. [Report No. D-2009-104
   September 21, 2009 Sanitization and Disposal of Excess Information
-  Technology
-  Equipment](http://www.dodig.mil/Audit/reports/fy09/09-104.pdf).
+  Technology Equipment](https://nsi.org/ReferenceLibrary/756.pdf).
 
 <!-- -->
 
@@ -155,28 +152,23 @@ order.
 
 <!-- -->
 
-- **2012-04-25**: A report published by the [UK Information
-  Commissioner's Office](http://www.ico.gov.uk/) finds that 1 in 10 hard
-  drives sold on the secondary market contains highly sensitive
-  information, based on a "mystery shopper" study in which an
-  organization purchased 200 hard drives on the Internet and at used
-  computer fairs. [Sophie Curtis, "InfoSec 2012: One in 10 second-hand
-  hard drives contain personal data, April
-  2012](http://news.techworld.com/security/3353817/infosec-2012-one-in-10-second-hand-hard-drives-contain-personal-data/).
+- **2012-04-25**: A report published by the UK Information Commissioner's
+  Office finds that 1 in 10 hard drives sold on the secondary market contains
+  highly sensitive information, based on a "mystery shopper" study in which an
+  organization purchased 200 hard drives on the Internet and at used computer
+  fairs. Sophie Curtis, "InfoSec 2012: One in 10 second-hand hard drives
+  contain personal data, April 2012.
 
 <!-- -->
 
-- **2013-07-14**: [UK's National Health Service Surrey was fined a
-  £200,000
-  (\$300,000)](http://news.techworld.com/security/3457470/hospital-fined-200000-after-hard-drive-full-of-patient-data-bought-on-ebay/)
-  after it sold a hard drive that contained 3,000 patient records (2,000
-  children and 900 adults). Apparently the drives were provided to a PC
-  recycler on the grounds that they be destroyed. The recycler provided
-  a destruction certificate, then sold the drives on eBay. A member of
-  the public bought the drive, discovered what they had, and alerted the
-  authorities. \[Source: Hospital fined £200,000 after hard drive full
-  of patient data bought on eBay, By John E Dunn, Techworld, 14 July
-  2013\]
+- **2013-07-14**: UK's National Health Service Surrey was fined a £200,000
+  (\$300,000) after it sold a hard drive that contained 3,000 patient records
+  (2,000 children and 900 adults). Apparently the drives were provided to a PC
+  recycler on the grounds that they be destroyed. The recycler provided a
+  destruction certificate, then sold the drives on eBay. A member of the public
+  bought the drive, discovered what they had, and alerted the authorities.
+  \[Source: Hospital fined £200,000 after hard drive full of patient data bought
+  on eBay, By John E Dunn, Techworld, 14 July 2013\]
 
 ## Cell Phones
 
@@ -200,8 +192,7 @@ order.
 
 ## Network Equipment
 
-- [Council sells security hole on
-  Ebay](http://www.pcpro.co.uk/news/227190/council-sells-security-hole-on-ebay.html),
+- [Council sells security hole on Ebay](http://www.pcpro.co.uk/news/227190/council-sells-security-hole-on-ebay.html),
   Matthew Sparkes, PC Pro, September 29, 2008 - Kirkless Council (UK)
   sells a Cisco [VPN](vpn.md) 3002 Concentrator on Ebay for 99
   pence. The device is purchased by Andrew Mason, a security consultant,
@@ -211,8 +202,7 @@ order.
 
 ## MP3 Players
 
-- [NZ man's MP3 player holds US military
-  files](http://news.yahoo.com/s/ap/20090127/ap_on_re_as/as_new_zealand_us_military_files),
+- NZ man's MP3 player holds US military files,
   Associated Press, Jan 27, 2009. A man from New Zealand bought an MP3
   player at a thrift shop in Oklahoma that had 60 US military files,
   "including names and telephone numbers for American soldiers."
@@ -296,14 +286,11 @@ sourced from within France.
 },
 
 `   issn = {1901-8401},`
-`   url = {`[`http://www.jiclt.com/index.php/jiclt/article/view/80/79`](http://www.jiclt.com/index.php/jiclt/article/view/80/79)`}`
 
 } </bibtex>
 
 # See Also
 
-- [Residual Data](residual_data.md)
-- [Residual Data in Document
-  Files](residual_data_in_document_files.md)
-- [Privacy Rights Clearinghouse Chronology of Data
-  Breaches](http://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=desc)
+* [Residual Data](residual_data.md)
+* [Residual Data in Document Files](residual_data_in_document_files.md)
+* [Privacy Rights Clearinghouse Chronology of Data Breaches](http://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=desc)

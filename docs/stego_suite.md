@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 **Stego Suite™**
-[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,1)
-
-##
 
 Stego Suite is comprised of four specialized products: Stego Hunter™,
 Stego Watch™, Stego Analyst™, and Stego Break™. This comprehensive suite
@@ -44,4 +41,4 @@ licenses are available upon request
 
 1-877-WETSTONE ext 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

@@ -21,8 +21,7 @@ What you need to dump the eMMC:
 1.  An ATF Turbo Flasher [1](http://www.advance-box.com/index.php)
 2.  Soldering skills and ultra-fine tip soldering iron.
 3.  A hot air re-work station. The hot air re-work station used for this
-    was an [LF-852D Hot Air
-    Station](http://www.howardelectronics.com/xytronic/LF-852D.html%7CXytronic).
+    was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
 
 ### eMMC Dump Procedure
 

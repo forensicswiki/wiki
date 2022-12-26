@@ -14,5 +14,5 @@ necessary. However, the basic structure is unlikely to change.
 
 We have these DFXML Examples:
 
-* [Example of a DFXML fileobject tag](dfxml_example_fileobject_tag)
+* [Example of a DFXML fileobject tag](dfxml_example_fileobject_tag.md)
 * [Example of a DFXML source tag](dfxml_example_source_tag.md)

@@ -4,9 +4,8 @@ tags:
   -  Windows
   -  Database
 ---
-[Microsoft](microsoft.md) [Outlook](outlook.md) uses the
-**Personal Folder File (PFF)** to store e-mails, appointments, tasks,
-contacts, notes, etc.
+[Microsoft Outlook](microsoft_outlook.md) uses the **Personal Folder File
+(PFF)** to store e-mails, appointments, tasks, contacts, notes, etc.
 
 Three different types of the PFF are known:
 
@@ -51,10 +50,8 @@ file signature but can be identified by the version in the file header.
 
 ## Contents
 
-The PFF basically contains a hierarchy of items. The attributes of these
-items are defined by the [Microsoft](microsoft.md)
-[Outlook](outlook.md) [Message API
-(mapi)](message_api_(mapi).md).
+The PFF basically contains a hierarchy of items. The attributes of these items
+are defined by the [Microsoft Outlook](microsoft_outlook.md) Message API (MAPI).
 
 ## Encryption
 
