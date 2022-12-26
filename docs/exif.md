@@ -2,9 +2,8 @@
 tags:
   - No Category
 ---
-The **Exchangeable image file format** (Exif) is an image [file
-format](file_format.md) which adds lots of
-[metadata](metadata.md) to existing image formats, mainly
+The **Exchangeable image file format** (Exif) is an image [file format](file_formats.md)
+which adds lots of [metadata](metadata.md) to existing image formats, mainly
 [JPEG](jpeg.md).
 
 To read the Date/Time tag do:
@@ -22,6 +21,6 @@ For tools that extract Exif meta data look here -
 
 ## External Links
 
-- [exif.org](http://exif.org/)
-- [Exif 2.2 specification](media:exif2-2.pdf.md)
-- [Exif](http://en.wikipedia.org/wiki/Exif) article in the Wikipedia.
+* [exif.org](http://exif.org/)
+* [Exif 2.2 specification](media:exif2-2.pdf.md)
+* [Exif](http://en.wikipedia.org/wiki/Exif) article in the Wikipedia.

@@ -25,16 +25,7 @@ how to start.
 
 1.  Review the proceedings from the past few years of the IEEE/SADFE
     (Systematic Approaches to Digital Forensics Engineering) workshops.
-    The papers do not appear on the website, but you can generally find
-    them with Google by searching for the title in quotes
-    - [SADFE 2011
-      Program](http://conf.ncku.edu.tw/sadfe/sadfe11/program.html)
-    - [SADFE 2010
-      Program](http://conf.ncku.edu.tw/sadfe/sadfe10/program.html)
-    - [SADFE 2009
-      Program](http://conf.ncku.edu.tw/sadfe/sadfe09/program.html)
-    - [SADFE 2008
-      Program](http://conf.ncku.edu.tw/sadfe/sadfe08/program.html)
+    The papers do not appear on the website.
 2.  Review the [IFIP Working Group 11.9 on Digital
     Forensics](http://www.ifip119.org/) website and look at the
     proceedings from the past conferences (unfortunately, you can't

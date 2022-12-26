@@ -146,8 +146,7 @@ Draft](http://ncfs.org/craiger.forensics.methods.procedures.final.pdf).
 
 The project Caine was also the subject of a scientific paper accepted
 and published inside the first Workshop on Computer & Network Forensics
-held in Milan September 10th 2008 -
-[OSSCoNF](http://conferenze.dei.polimi.it/ossconf/schedule.php).
+held in Milan September 10th 2008 - OSSCoNF.
 
 In followed all close collaboration with Denis Frati (spilled by the
 project at end 2009) and Nanni Bassetti, prominent figures in the
@@ -168,13 +167,8 @@ the project Caine since the 1.0 release to date that has arrived at
 version 4.0 (18-March-2013) and achieving praise from law enforcements
 of several foreign nations.
 
-24/11/2012 The Caine 3.0 was presented at '[Opens Source Day
-2012](http://www.opensourceday.org/2012/?mid=20)' at the University of
-Udine.
-
-## Notes
-
-<references />
+November 24, 2012 The Caine 3.0 was presented at the [Opens Source Day 2012](http://www.opensourceday.org/2012/?mid=20)
+at the University of Udine.
 
 ## Bibliography
 
@@ -194,24 +188,18 @@ Udine.
 
 ## External links
 
-- [Presente nel training CHFI
-  Ec-Council](http://www.careeracademy.com/browseproducts/CHFI-Training-CBT-Boot-Camp--EC-Council-Computer-Hacking-Forensic-Investigator.HTML)
+- [Presente nel training CHFI Ec-Council](http://www.careeracademy.com/browseproducts/CHFI-Training-CBT-Boot-Camp--EC-Council-Computer-Hacking-Forensic-Investigator.HTML)
   International certificatione
-- [Open Source Live Distributions for Computer Forensics- by
-  Springer](http://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
-- [OSSConf 2008](http://conferenze.dei.polimi.it/ossconf/schedule.php)
-- [Google
-  books](http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQ)
-- [and Forensics: A Digital Forensic Investigator's Guide to Virtual
-  Environment](http://www.amazon.com/Virtualization-Forensics-Forensic-Investigators-Environments/dp/1597495573Virtualization)
+- [Open Source Live Distributions for Computer Forensics- by Springer](http://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
+- [Google books](http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQ)
+- [and Forensics: A Digital Forensic Investigator's Guide to Virtual Environment](http://www.amazon.com/Virtualization-Forensics-Forensic-Investigators-Environments/dp/1597495573Virtualization)
 - [Linux-Mazin.de](http://www.linux-magazin.de/Ausgaben/2010/12/Italienische-Aufklaerung)
 - [Linux-Magazine.com](http://www.linux-magazine.com/Issues/2011/122/Caine)
 - [Opens Source Day 2012](http://www.opensourceday.org/2012/?mid=20)
 - [TechTarget.it](http://searchsecurity.techtarget.it/articoli/0,1254,18_ART_103282,00.html)
 - [Programmazione.it](http://programmazione.it/index.php?entity=eitem&idItem=41687)
 - [Linuxtoday.com](http://www.linuxtoday.com/upload/caine-3.0-review-121009195504.html)
-- [Linuxtoday.com
-  2](http://www.linuxtoday.com/infrastructure/2010122801535SCSW)
+- [Linuxtoday.com 2](http://www.linuxtoday.com/infrastructure/2010122801535SCSW)
 - [Softpedia](http://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
 - [hackingzone.in](http://hackingzones.in/?p=2726)
 - [gustavopimental.com.ar](http://www.gustavopimentel.com.ar/)
@@ -219,8 +207,7 @@ Udine.
 - [e-linux.it](http://www.e-linux.it/news_detail/caine-15)
 - [ilsoftware.it](http://www.ilsoftware.it/articoli.asp?tag=CAINE-progetto-italiano-per-la-computer-forensics_5656)
 - [dragonjar.org](http://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
-- [Attestato Marenostrum
-  V.F.F.](http://www.nannibassetti.com/dblog/articolo.asp?articolo=156)
+- [Attestato Marenostrum V.F.F.](http://www.nannibassetti.com/dblog/articolo.asp?articolo=156)
 - [LinuxFormat](http://www.linuxformat.com/archives?issue=151)
 - [TechRepublic](http://www.techrepublic.com/blog/10things/10-obscure-linux-distributions-and-why-you-should-know-about-them/2334)
 - [Forensics Wiki](http://www.forensicswiki.org/wiki/CAINE_Live_CD)

@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Database
+  - Database
+  - File Formats
+  - Windows
 ---
 [Microsoft](microsoft.md) [Outlook](outlook.md) uses the
 **Personal Folder File (PFF)** to store e-mails, appointments, tasks,
@@ -31,8 +31,7 @@ actual name is unknown but has been dubbed the **Personal Folder File
 ## MIME types
 
 The actual mime type of the PFF format is unspecified however some
-sources claim the following [MIME types](mime_types.md) apply to
-this [file format](file_format.md):
+sources claim the following MIME types apply to this [file format](file_formats.md):
 
 - application/vnd.ms-outlook (for PST files)
 
