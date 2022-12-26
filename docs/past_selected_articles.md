@@ -642,12 +642,11 @@ documents a woman's affair while her husband was serving in Iraq.
 <small>2008-Nov-18</small>
 
 [Data Acquisition from Cell Phone using Logical Approach](http://www.waset.org/pwaset/v26/v26-6.pdf), Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
-This article discusses three approaches for acquiring data from cell
-phones: physically removing the flash RAM chips and reading them
-directly; reading the data out using the [JTAG](jtag.md)
-interface, and running software on the cell phone to extract the files
-at a logical level. The authors have built a logical extraction system
-and are working on a system based on JTAG.
+This article discusses three approaches for acquiring data from cell phones:
+physically removing the flash RAM chips and reading them directly; reading the
+data out using the JTAG interface, and running software on the cell phone to
+extract the files at a logical level. The authors have built a logical
+extraction system and are working on a system based on JTAG.
 
 <small>2008-Oct-30</small>
 

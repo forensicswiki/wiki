@@ -3,7 +3,7 @@ tags:
   -  Anti-Forensics
 
 ---
-**Anti-forensic techniques** try to frustrate [forensic investigators](forensic_investigator.md) and their
+**Anti-forensic techniques** try to frustrate forensic investigators and their
 [techniques](techniques.md).
 
 From [1](http://en.wikipedia.org/wiki/Anti-computer_forensics): Attempts

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Websites
+  - Research
+  - Websites
 ---
 ## Academic Publications
 
@@ -16,12 +16,11 @@ forensics with the right mix of methods, techniques, and tools.
 <!-- -->
 
 [Data Acquisition from Cell Phone using Logical Approach](http://www.waset.org/pwaset/v26/v26-6.pdf), Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
-This article discusses three approaches for acquiring data from cell
-phones: physically removing the flash RAM chips and reading them
-directly; reading the data out using the [JTAG](jtag.md)
-interface, and running software on the cell phone to extract the files
-at a logical level. The authors have built a logical extraction system
-and are working on a system based on JTAG.
+This article discusses three approaches for acquiring data from cell phones:
+physically removing the flash RAM chips and reading them directly; reading the
+data out using the JTAG interface, and running software on the cell phone to
+extract the files at a logical level. The authors have built a logical
+extraction system and are working on a system based on JTAG.
 
 <!-- -->
 
@@ -36,4 +35,3 @@ and are working on a system based on JTAG.
 [Guidelines on Cell Phone Forensics](http://csrc.nist.gov/publications/nistpubs/800-101/SP800-101.pdf) (NIST SP 800-101), May 2007
 [Cell Phone Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7250.pdf) (NISTIR 7250)
 [PDA Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7100-PDAForensics.pdf) (NISTIR 7100)
-
