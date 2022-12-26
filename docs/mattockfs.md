@@ -6,9 +6,7 @@ MattockFS is a computer forensics actor-framework component, computer
 forensic data-repository and message-bus implemented as
 [Fuse](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) based user
 space file system. It is based partially on [CarvFs](carvfs.md)
-and the [AnyCast-relay](anycast-relay.md) from the [Open
-Computer Forensics
-Architecture](open_computer_forensics_architecture.md).
+and the AnyCast-relay from the [Open Computer Forensics Architecture](open_computer_forensics_architecture.md).
 MattockFS uses [CarvPath annotations](carvpath_annotations.md)
 to designate frozen repository data in the same way that
 [CarvFs](carvfs.md) does. MattockFS was designed to address some
@@ -65,7 +63,7 @@ computer forensic frameworks:
   Architecture](open_computer_forensics_architecture.md) a
   stateless router process was responsible for dynamic toolchain-path
   routing based on meta-data extracted from the evidence data. Later,
-  the [FIVES](fives.md) project created an alternative router
+  the FIVES project created an alternative router
   process. This router carried state regarding the current location
   within a routing rule-list over to the next time the same data was
   processed by a router process. MattockFS provides a simple hook for

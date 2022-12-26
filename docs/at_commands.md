@@ -32,7 +32,7 @@ To use these AT commands:
 After following these steps, you can continue with any of the commands
 below.
 
-## **Phonebook**
+## Phonebook
 
 **AT+CPBS=?**
 Lists the phonebooks that the phone contains. (Choose phonebook
@@ -82,7 +82,7 @@ Returns: +MPBR:
 Returns: +MPBR: 18,"user@domain.net",128,"Contact
 Name",6,0,255,0,0,1,255,255,0,"",0,0,"","","","","","","",""
 
-## **SMS Messages**
+## SMS Messages
 
 **AT+CMGF=1**
 This tells the phone to display the entries as text rather than binary.
@@ -109,7 +109,7 @@ must be in this mode.
 Returns the parameters to obtain text messages (Samsung).
 Returns: \#PSRMR: (0-349)
 
-## **Misc. Information**
+## Misc. Information
 
 **AT&F**
 Controls local echo which enables the user to see the text they are
@@ -187,42 +187,18 @@ This returns the phone to simple AT command mode.
 **AT#PBDYN?**
 This returns the phone number (Samsung).
 
-## **Reference Links**
+## External links
 
-[Motorola AT Commands
-Reference](http://jpirog.com/MOTO_AT_Commands_Reference.pdf)
-
-[AT+C Command Set of
-GSM](http://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
-
-[Alexander Traud's GSM pages](http://www.traud.de/gsm/atex.htm)
-
-[AT Test Commands](http://www.anotherurl.com/library/at_test.htm)
-
-[AT Commands to Access the
-Motorola](http://www.csparks.com/MotoBackup/MotorolaAT.xhtml)
-
-[Gammu Phone Protocols](http://wammu.eu/docs/manual/protocol/index.html)
-
-[ETSI-3GPP
-Standards](http://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&GSMSpecPart2=007)
-
-[Nokia AT Commands](http://wiki.forum.nokia.com/index.php/AT_Commands)
-
-[Support Guide for the Nokia Phones and AT
-Commands](http://www.parallax.com/Portals/0/Education/custapps/Nokia_AThelp.pdf)
-
-[Nokia 30 GSM Connectivity Terminal AT Command
-Guide](http://www.daimi.au.dk/~jones/sms/packed/Nokia_30_AT_Command_Guide_2_0.pdf)
-
-[Nokia PremiCell List of AT
-Commands](http://nds1.nokia.com/phones/files/guides/at_commands.pdf)
-
-[Samsung AT
-Commands](http://webpages.charter.net/hideo_a310/downs/TechNotes/a310_atcommands.txt)
-
-[More Samsung AT
-Commands](http://ns.gentoogeek.org/portage-overlay/app-mobilephone/bitpim/bitpim-1.0.7/examples/vga1000notes.txt)
-
-[Even more Samsung AT
-Commands](http://gatling.ikk.sztaki.hu/~kissg/gsm/atscan/unprocessed/SamsungS105v1_6h.txt)
+* [AT+C Command Set of GSM](http://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
+* [Alexander Traud's GSM pages](http://www.traud.de/gsm/atex.htm)
+* [AT Test Commands](http://www.anotherurl.com/library/at_test.htm)
+* [AT Commands to Access the Motorola](http://www.csparks.com/MotoBackup/MotorolaAT.xhtml)
+* [Gammu Phone Protocols](http://wammu.eu/docs/manual/protocol/index.html)
+* [ETSI-3GPP Standards](http://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&GSMSpecPart2=007)
+* [Nokia AT Commands](http://wiki.forum.nokia.com/index.php/AT_Commands)
+* [Support Guide for the Nokia Phones and AT Commands](http://www.parallax.com/Portals/0/Education/custapps/Nokia_AThelp.pdf)
+* [Nokia 30 GSM Connectivity Terminal AT Command Guide](http://www.daimi.au.dk/~jones/sms/packed/Nokia_30_AT_Command_Guide_2_0.pdf)
+* [Nokia PremiCell List of AT Commands](http://nds1.nokia.com/phones/files/guides/at_commands.pdf)
+* [Samsung AT Commands](http://webpages.charter.net/hideo_a310/downs/TechNotes/a310_atcommands.txt)
+* [More Samsung AT Commands](http://ns.gentoogeek.org/portage-overlay/app-mobilephone/bitpim/bitpim-1.0.7/examples/vga1000notes.txt)
+* [Even more Samsung AT Commands](http://gatling.ikk.sztaki.hu/~kissg/gsm/atscan/unprocessed/SamsungS105v1_6h.txt)

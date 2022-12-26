@@ -1,23 +1,22 @@
 ---
 tags:
-  -  Disk Imaging
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Disk Imaging
 ---
 Disk imaging is the process of making a bit-by-bit copy of a disk.
 Imaging (in more general terms) can apply to anything that can be
 considered as a bit-stream, e.g. a physical or logical volumes, network
 streams, etc.
 
-The most straight-forward disk imaging method is reading a disk from
-start to end and writing the data to a [Forensics image
-format](:category:forensics_file_formats.md). This can be a time
-consuming process especially for disks with a large capacity.
+The most straight-forward disk imaging method is reading a disk from start to
+end and writing the data to a [Forensics image format](tags/#disk-image). This
+can be a time consuming process especially for disks with a large capacity.
 
 The process of disk imaging is also referred to as disk duplication.
 
 ## Disk Imaging Solutions
 
-See: [Disk Imaging Solutions](:category:disk_imaging.md)
+See: [Disk Imaging Solutions](tags/#disk-imaging)
 
 ## Common practice
 
@@ -43,19 +42,19 @@ data was altered, e.g. due to corruption. The integrity hash does not
 indicate where in the data the alteration has occurred. Therefore some
 image tools and/or formats provide for additional integrity checks like:
 
-- A checksum
-- Parity data
-- [Piecewise hashing](piecewise_hashing.md)
+* A checksum
+* Parity data
+* [Piecewise hashing](piecewise_hashing.md)
 
 ## Smart imaging
 
 Smart imaging is a combination of techniques to make the imaging process
 more intelligent.
 
-- Compressed storage
-- Deduplication
-- Selective imaging
-- Decryption while imaging
+* Compressed storage
+* Deduplication
+* Selective imaging
+* Decryption while imaging
 
 ### Compressed storage
 
@@ -104,25 +103,20 @@ rare since the non-encrypted data is what undergoes analysis.
 
 ## Also see
 
-- [Forensics File Formats](:category:forensics_file_formats.md)
-- [Write Blockers](write_blockers.md)
-- [Piecewise hashing](piecewise_hashing.md)
-- [Memory Imaging](memory_imaging.md)
-- [Imager NG Ideas](imager_ng_ideas.md)
+* [Forensics File Formats](tags/#disk-image)
+* [Write Blockers](write_blockers.md)
+* [Piecewise hashing](piecewise_hashing.md)
+* [Memory Imaging](memory_imaging.md)
+* [Imager NG Ideas](imager_ng_ideas.md)
 
 ## External Links
 
-- [Benchmarking Hard Disk Duplication Performance in Forensic
-  Applications](http://www.tableau.com/pdf/en/Tableau_Forensic_Disk_Perf.pdf),
+* [Benchmarking Hard Disk Duplication Performance in Forensic Applications](http://www.tableau.com/pdf/en/Tableau_Forensic_Disk_Perf.pdf),
   by [Robert Botchek](robert_botchek.md)
-- [Feeling odd - Using new OS and CPU features to speed up large file
-  copying](http://stealth.openwall.net/papers/odd.pdf), by [Sebastian
-  Krahmer](sebastian_krahmer.md), June 2012
+* [Feeling odd - Using new OS and CPU features to speed up large file copying](http://stealth.openwall.net/papers/odd.pdf),
+  by [Sebastian Krahmer](sebastian_krahmer.md), June 2012
 
 ### Hash based imaging
 
-- [Hash based disk imaging using
-  AFF4](http://www.dfrws.org/2010/proceedings/2010-314.pdf), by [Michael
-  Cohen](michael_cohen.md), [Bradley
-  Schatz](bradley_schatz.md)
-
+* [Hash based disk imaging using AFF4](http://www.dfrws.org/2010/proceedings/2010-314.pdf),
+  by [Michael Cohen](michael_cohen.md), [Bradley Schatz](bradley_schatz.md)
