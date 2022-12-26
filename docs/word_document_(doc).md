@@ -1,36 +1,35 @@
 ---
 tags:
-  -  File Formats
+  * File Formats
 ---
 The **Word Document (DOC) file format** has the **.doc** extension. This
 file type originates from [Microsoft Word](microsoft_word.md).
 However, other word processing software can be used to display these
 files as well. These include:
 
-- [WordPad](wordpad.md)
-- [WordPerfect](wordperfect.md)
-- [OpenOffice](openoffice.md)
-- [AbiWord](abiword.md)
-- [LibreOffice](libreoffice.md)
+* [WordPad](wordpad.md)
+* [WordPerfect](wordperfect.md)
+* OpenOffice
+* [AbiWord](abiword.md)
+* [LibreOffice](libreoffice.md)
 
-The Word DOC file format should not be confused with
-[DOCX](docx.md).
+The Word DOC file format should not be confused with [DOCX](docx.md).
 
 ## MIME types
 
 The following [MIME types](mime_types.md) apply to this [file
 format](file_format.md):
 
-- application/msword
-- application/doc
-- appl/text
-- application/vnd.msword
-- application/vnd.ms-word
-- application/winword
-- application/word
-- application/x-msw6
-- application/x-msword
-- zz-application/zz-winassoc-doc
+* application/msword
+* application/doc
+* appl/text
+* application/vnd.msword
+* application/vnd.ms-word
+* application/winword
+* application/word
+* application/x-msw6
+* application/x-msword
+* zz-application/zz-winassoc-doc
 
 ## File signature
 
@@ -46,9 +45,9 @@ string "Word.Document" with some version.
 The Word Binary File format is stored in the OLECF using multiple
 streams:
 
-- WordDocument stream
-- Table stream (0Table, 1Table)
-- Data stream
+* WordDocument stream
+* Table stream (0Table, 1Table)
+* Data stream
 
 ## Encryption
 
@@ -79,6 +78,4 @@ sophisticated tools instead.
 
 ## External Links
 
-- [Word 97-2007 Binary File Format by
-  Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Word97-2007BinaryFileFormat(doc)Specification.pdf)
-
+* [Word 97-2007 Binary File Format by Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Word97-2007BinaryFileFormat(doc)Specification.pdf)

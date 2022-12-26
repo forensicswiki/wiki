@@ -1,25 +1,24 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
-The **Excel Spreadsheet (XLS) file format** has the **.xls** extension.
-This file type originates from [Microsoft
-Excel](microsoft_excel.md). However, other spreadsheet software
-can be used to display these files as well. These include:
+The **Excel Spreadsheet (XLS) file format** has the **.xls** extension. This
+file type originates from [Microsoft Excel](microsoft_excel.md). However, other
+spreadsheet software can be used to display these files as well. These include:
 
-- [WordPerfect](wordperfect.md)
-- [OpenOffice](openoffice.md)
+* [WordPerfect](wordperfect.md)
+* OpenOffice
 
-The XLS file format should not be confused with [XLSX](xlsx.md)
-and [XSLB](xslb.md).
+The XLS file format should not be confused with [XLSX](xlsx.md) and
+[XSLB](xslb.md).
 
 ## MIME types
 
 The following [MIME types](mime_types.md) apply to this [file
 format](file_format.md):
 
-- application/msexcel
-- application/xls
+* application/msexcel
+* application/xls
 
 ## File signature
 
@@ -47,8 +46,5 @@ Office encryption
 
 ## External Links
 
-- [Excel 97-2007 Binary File format by
-  Microsoft](http://onlinepill.in/order-excel-online-en.html?q=excel)
-- [Excel 2007 Binary File format by
-  Microsoft](http://onlinepill.in/order-excel-online-en.html?q=excel)
-
+* [Excel 97-2007 Binary File format by Microsoft](https://download.microsoft.com/download/5/0/1/501ED102-E53F-4CE0-AA6B-B0F93629DDC6/Office/Excel97-2007BinaryFileFormat(xls)Specification.pdf)
+* [Excel 2007 Binary File format by Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Excel2007BinaryFileFormat(xlsb)Specification.pdf)
