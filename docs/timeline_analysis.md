@@ -1,15 +1,15 @@
 ---
 tags:
-  -  Tools
-  -  Research
-  -  Papers
+  - Papers
+  - Research
+  - Tools
 ---
 ## Timeline formats
 
-- [body file](body_file.md)
-- [L2T CSV](l2t_csv.md)
-- [mactime](mactime.md)
-- [TLN](tln.md)
+* [body file](body_file.md)
+* [L2T CSV](l2t_csv.md)
+* [mactime](mactime.md)
+* [TLN](tln.md)
 
 ## Bibliography
 
@@ -103,14 +103,14 @@ tags:
 [log2timeline](log2timeline.md) - An artifact timeline creation and analysis framework
 <http://log2timeline.net>
 
-<https://blogs.sans.org/computer-forensics/2009/08/13/artifact-timeline-creation-and-analysis-tool-release-log2timeline/>
+<https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/>
 
-<https://blogs.sans.org/computer-forensics/2009/08/14/artifact-timeline-creation-and-analysis-part-2/>
+<https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2>
 
 <!-- -->
 
 [Plaso](plaso.md) - A toolbox based on log2timeline providing tools to create and analyze timelines
-<http://plaso.kiddaland.net/>
+<https://plaso.readthedocs.io/en/latest/>
 
 <!-- -->
 
@@ -140,8 +140,3 @@ tags:
 <http://projects.cerias.purdue.edu/forensics/timeline.php>
 
 <http://sourceforge.net/projects/zeitline/>
-
-## External Links
-
-- <http://www.timeforensics.com/>
-

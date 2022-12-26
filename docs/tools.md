@@ -191,7 +191,7 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[P2 Power Pack](p2_power_pack.md) by [Paraben](paraben.md)
+[P2 Power Pack](p2_power_pack.md) by [Paraben](paraben_forensics.md)
 <https://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=187>
 
 <!-- -->
@@ -439,7 +439,7 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[P2 Enterprise Edition](p2_enterprise_edition.md) by [Paraben](paraben.md)
+[P2 Enterprise Edition](p2_enterprise_edition.md) by [Paraben](paraben_forensics.md)
 <http://www.paraben-forensics.com/enterprise_forensics.html>
 
 <!-- -->

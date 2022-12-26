@@ -10,7 +10,7 @@ the [iPhone](iphone.md), although the amount of data acquired
 from the iPhone plug-in can vary depending on the version of the
 operating system and whether the phone has been unlocked using
 Jailbreaking software. The tool also supports GSM SIM cards with use of
-a SIM card reader. [Paraben](paraben.md) also sells such
+a SIM card reader. [Paraben](paraben_forensics.md) also sells such
 products.
 
 The tool also supports PDAs running Palm OS, Windows CE, Pocket PC, and

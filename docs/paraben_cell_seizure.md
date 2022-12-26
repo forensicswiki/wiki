@@ -3,7 +3,7 @@ tags:
   - Commercial Software
   - Mobile
 ---
-[Paraben](paraben.md) **Cell Seizure** is a piece of software
+[Paraben](paraben_forensics.md) **Cell Seizure** is a piece of software
 that serves the main purpose of collection and examining data pulled
 from various types of [cell phones](cell_phones.md). It is part
 of Paraben’s collection of forensics tools.

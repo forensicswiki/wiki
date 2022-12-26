@@ -99,7 +99,7 @@ Windows systems.
 - [FTK Imager](http://accessdata.com/product-download)
 - [ImDisk](http://www.ltr-data.se/opencode.html#ImDisk) - also on
   [WikiPedia](http://en.wikipedia.org/wiki/ImDisk)
-- [Paraben](paraben.md) P2X
+- [Paraben](paraben_forensics.md) P2X
 - [VDKWin](http://www.vmxbuilder.com/vdk-gui/), requires
   [VDK](http://chitchat.at.infoseek.co.jp/vmware/vdk.html)
 - [vhdtool](http://archive.msdn.microsoft.com/vhdtool) - an unsupported

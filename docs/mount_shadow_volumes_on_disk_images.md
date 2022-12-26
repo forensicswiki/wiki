@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 Windows Shadow Volumes when created are automatically mounted at the
 file system root by Windows. Unfortunately this is invisible to the user
@@ -22,10 +22,9 @@ the necessary tools are not bundled with other versions.
 
 ## Mounting the Disk Image
 
-The first step is to mount the VHD. If you have a RAW image or another
-similar format these can be converted to VHD using a tool such as
-qemu-img (http://wiki.qemu.org/Main_Page) or vmToolkit's Vmdk2Vhd
-utility (http://vmtoolkit.com/).
+The first step is to mount the VHD. If you have a RAW image or another similar
+format these can be converted to VHD using a tool such as qemu-img
+(https://wiki.qemu.org/Main_Page) or vmToolkit's Vmdk2Vhd utility.
 
 - To mount the VHD bring up the Start menu in Windows.
 
@@ -33,20 +32,18 @@ utility (http://vmtoolkit.com/).
 
 - Right click on "Computer" and click "Manage". This will bring up a
 
-window titled "Computer Management". ![](manage.png "manage.png")
+window titled "Computer Management".
 
 - Now double click on "Storage" in the center pane.
-  ![](storage.png "storage.png")
 
 <!-- -->
 
 - Next double click the "Manage Storage" in the center pane.
-  ![](disk_management.png "disk_management.png")
 
 <!-- -->
 
 - Now click the "More Actions" menu in the right most pane and select
-  "Attach VHD". ![](attach_vhd.png "attach_vhd.png")
+  "Attach VHD".
 
 <!-- -->
 
@@ -103,7 +100,6 @@ drive image you can add an optional /FOR=\<DriveLetter:\\\> where
 DriveLetter is the drive letter that the drive image is mounted on.
 
 `C:\> vssadmin list shadows /for=E:\`
-![](vssadmin_list.png "vssadmin_list.png")
 
 - Now that we have a list of the Shadow Volumes we can mount them using
   the mklink tool. To do this, on the command line type:
@@ -124,9 +120,8 @@ trying to access the directory.
 `symbolic link created for `<some directory>` <<===>> \\?GLOBALROOT\Device\HarddiskVolumeShadowCopy1\`
 
 You can now browse the files contained in the Shadow Volume just like
-any other files in your file system! ![](success.png "success.png")
+any other files in your file system!
 
 ## Also See
 
-- [Windows Shadow Volumes](windows_shadow_volumes.md)
-
+* [Windows Shadow Volumes](windows_shadow_volumes.md)

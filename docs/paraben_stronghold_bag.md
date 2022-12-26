@@ -2,9 +2,9 @@
 tags:
   - No Category
 ---
-[Paraben](paraben.md)'s **Wireless StrongHold Bag** is an "evidence bag" for
-wireless radio frequency devices, for [PDAs](pdas.md), [Cell
-Phones](cell_phones.md), and [SmartPhones](smartphones.md).
+[Paraben](paraben_forensics.md)'s **Wireless StrongHold Bag** is an "evidence
+bag" for wireless radio frequency devices, for [PDAs](pdas.md),
+[Cell Phones](cell_phones.md), and [SmartPhones](smartphones.md).
 
 In order to prevent a wireless device from connecting to the network, the
 device (e.g. a Cell Phone) can be placed inside of a RF Isolation bag or

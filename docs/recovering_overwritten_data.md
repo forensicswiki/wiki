@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Data Recovery
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Data Recovery
 ---
 Can data be recovered from a hard drive after that data has been written
 by 35 passes of random information? How about a single pass of zeros?
@@ -64,10 +64,10 @@ presented a
 ICISS2008, which purpose was "*a categorical settlement to the
 controversy surrounding the misconceptions involving the belief that
 data can be recovered following a wipe procedure*"
-[4](http://blogs.sans.org/computer-forensics/2009/01/15/overwriting-hard-drive-data/).
+[4](https://www.sans.org/blog/overwriting-hard-drive-data/).
 
 # See also
 
-- [Remnant Data](remnant_data.md)
-- [Recovering deleted data](recovering_deleted_data.md)
-- [Recovering bad data](recovering_bad_data.md)
+* [Remnant Data](remnant_data.md)
+* [Recovering deleted data](recovering_deleted_data.md)
+* [Recovering bad data](recovering_bad_data.md)
