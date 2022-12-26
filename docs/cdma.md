@@ -66,7 +66,7 @@ Software for acquiring a CDMA-based phone includes:
 
 - [BitPIM](bitpim.md)
 - [DataPilot Secure View](datapilot_secure_view.md)
-- [Oxygen Forensic Suite 2010](oxygen_forensic_suite_2010.md)
+- [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 - [Paraben Cell Seizure](paraben_cell_seizure.md)
 
 Software for acquiring CDMA RUIM data includes:

@@ -92,7 +92,7 @@ tags:
 - [iDEN Phonebook Manager](iden_phonebook_manager.md)
 - [MicroSystemation .XRY](.xry.md)
 - [MOBILedit!](mobiledit!.md)
-- [Oxygen Forensic Suite 2010](oxygen_forensic_suite_2010.md)
+- [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 - [Paraben Device Seizure](paraben_device_seizure.md)
 - [Paraben SIM Seizure](paraben_sim_seizure.md)
 - [Pandora's Box](pandora's_box.md)
