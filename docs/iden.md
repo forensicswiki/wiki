@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 The **Integrated Digital Enhanced Network** (**iDEN**) is a proprietary
 mobile communications technology from [Motorola](motorola.md).
@@ -15,11 +15,10 @@ Bluetooth, location-based services, [MOTOTalk](mototalk.md) and support for
 expandable memory ([Micro SD](micro_sd.md). [Sprint Nextel](sprint_nextel.md)
 is the largest U.S. retailer of iDEN services.
 
-Newer iDEN phones use a [SIM card](sim_card.md) that is
-compatible with [GSM](gsm.md) phones for overseas roaming but
-iDEN is a very different standard from GSM. iDEN phones are not
-compatible with GSM networks and GSM phones are not compatible with iDEN
-networks.
+Newer iDEN phones use a [SIM card](sim_cards.md) that is compatible with
+[GSM](gsm.md) phones for overseas roaming but iDEN is a very different standard
+from GSM. iDEN phones are not compatible with GSM networks and GSM phones are
+not compatible with iDEN networks.
 
 ## History
 
@@ -35,17 +34,15 @@ of 96 kbit/s.
 
 Software for acquiring a iDEN data includes:
 
-- [iDEN Companion Pro](iden_companion_pro.md)
-- [iDEN Media Downloader](iden_media_downloader.md)
-- [iDEN Phonebook Manager](iden_phonebook_manager.md)
-- [SIMiFOR](simifor.md)
-- [SIM Explorer](sim_explorer.md)
+* [iDEN Companion Pro](iden_companion_pro.md)
+* [iDEN Media Downloader](iden_media_downloader.md)
+* [iDEN Phonebook Manager](iden_phonebook_manager.md)
+* [SIMiFOR](simifor.md)
+* [SIM Explorer](sim_explorer.md)
 
 ## External Links
 
-- [Motorola: The iDEN
-  Solution](http://idenphones.motorola.com/idenHome/common/what_is_iden.jsp)
-- [iDEN Home](http://idenphones.motorola.com/iden/iden_home.jsp)
-- [Motorola i580 iDEN](http://www.phoneyworld.com/newspage.aspx?n=1907)
-- [Wikipedia: Integrated Digital Enhanced
-  Network](http://en.wikipedia.org/wiki/Integrated_Digital_Enhanced_Network)
+* [Motorola: The iDEN Solution](http://idenphones.motorola.com/idenHome/common/what_is_iden.jsp)
+* [iDEN Home](http://idenphones.motorola.com/iden/iden_home.jsp)
+* [Motorola i580 iDEN](http://www.phoneyworld.com/newspage.aspx?n=1907)
+* [Wikipedia: Integrated Digital Enhanced Network](http://en.wikipedia.org/wiki/Integrated_Digital_Enhanced_Network)

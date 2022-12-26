@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 **Code division multiple access** (**CDMA**) is a cellular frequency
 that, originally developed during World War II for military purposes,
@@ -55,27 +55,26 @@ correct data cable must be obtained to connect the phone to the
 workstation ([susteen](susteen.md) provides a kit that includes
 many cables for the most popular phones).
 
-[RUIM](ruim.md) cards are the CDMA equivalent of a [SIM
-Card](sim_card.md), and have been in use in china since 2002.
-The technology has spread to other countries throughout Asia, although
-are yet to be release in America.
+[RUIM](ruim.md) cards are the CDMA equivalent of a SIM Card, and have been in
+use in China since 2002. The technology has spread to other countries
+throughout Asia, although are yet to be release in America.
 
 ### Software
 
 Software for acquiring a CDMA-based phone includes:
 
-- [BitPIM](bitpim.md)
-- [DataPilot Secure View](datapilot_secure_view.md)
-- [Oxygen Forensic Suite](oxygen_forensic_suite.md)
-- [Paraben Cell Seizure](paraben_cell_seizure.md)
+* [BitPIM](bitpim.md)
+* [DataPilot Secure View](datapilot_secure_view.md)
+* [Oxygen Forensic Suite 2010](oxygen_forensic_suite_2010.md)
+* [Paraben Cell Seizure](paraben_cell_seizure.md)
 
 Software for acquiring CDMA RUIM data includes:
 
-- [SIMiFOR](simifor.md)
+* [SIMiFOR](simifor.md)
 
 ## External Links
 
-- [Wikipedia: CDMA](http://en.wikipedia.org/wiki/Cdma)
-- [BitPIM](http://www.bitpim.org)
-- [DataPilot Secure View](http://www.susteen.com)
-- [Paraben Device Seizure](http://www.paraben-forensics.com)
+* [Wikipedia: CDMA](http://en.wikipedia.org/wiki/Cdma)
+* [BitPIM](http://www.bitpim.org)
+* [DataPilot Secure View](http://www.susteen.com)
+* [Paraben Device Seizure](http://www.paraben-forensics.com)

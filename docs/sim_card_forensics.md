@@ -1,10 +1,10 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## Procedures
 
-Acquire [SIM Card](sim_card.md) and analyze the following:
+Acquire [SIM Card](sim_cards.md) and analyze the following:
 
 - ICCID - Integrated Circuit Card Identification
 - MSISDN - Subscriber phone number
@@ -48,8 +48,7 @@ Acquire [SIM Card](sim_card.md) and analyze the following:
 - [ACR 38T](acr_38t.md)
 - [SCR3311](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr3311.html)
 - [SCR335](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr335.html)
-- [Dekart SIM Card
-  reader](http://www.dekart.com/products/hardware/sim_card_reader/)
+- [Dekart SIM Card reader](http://www.dekart.com/products/hardware/sim_card_reader/)
 
 ## Software
 
@@ -66,38 +65,27 @@ External Links
 - [SIMiFOR](http://www.forensicts.co.uk)
 - [SIMcon](http://www.simcon.no/)
 - [USIM Detective](http://www.quantaq.com/usimdetective.htm)
-- [SIM
-  Explorer](http://www.dekart.com/products/card_management/sim_explorer/),
-  [video demo of SIM
-  Explorer](http://www.youtube.com/watch?v=P5dJS7g1o_c)
+- [SIM Explorer](http://www.dekart.com/products/card_management/sim_explorer/),
+  [video demo of SIM Explorer](http://www.youtube.com/watch?v=P5dJS7g1o_c)
 - [Pro Data Doctor](http://www.data-recovery-mobile-phone.com/)
-- [Forensic Card Reader (FCR) -
-  German](http://www.becker-partner.de/index.php?id=17)
+- [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
 - [SIM Manager](http://www.txsystems.com/sim-manager.html)
 - [SIMQuery](http://vidstrom.net/otools/simquery/)
 - [SimScan](http://users.net.yu/~dejan/)
 - [SIMSpy](http://www.nobbi.com/download.htm)
 - [UnDeleteSMS](http://vidstrom.net/stools/undeletesms/)
 - [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)
-- [Dekart SIM
-  Manager](http://www.dekart.com/products/card_management/sim_manager/),
-  [video tutorial on how to recover a deleted
-  SMS](http://www.youtube.com/watch?v=VaBaqZiNW4U)
-- [Cell Phone SIM Card
-  Spy](http://www.brickhousesecurity.com/cellphone-spy-simcardreader.html)
-- [SIM Card
-  Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
-- [Sim Card Reader
-  Software](http://www.download3000.com/download_46892.html)
-- [Sim Card
-  Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
-- [Sim Recovery
-  Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
+- [Dekart SIM Manager](http://www.dekart.com/products/card_management/sim_manager/),
+  [video tutorial on how to recover a deleted SMS](http://www.youtube.com/watch?v=VaBaqZiNW4U)
+- [Cell Phone SIM Card Spy](http://www.brickhousesecurity.com/cellphone-spy-simcardreader.html)
+- [SIM Card Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
+- [Sim Card Reader Software](http://www.download3000.com/download_46892.html)
+- [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
+- [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
 
 ## Recovering SIM Card Data
 
-- [Damaged SIM Card Data
-  Recovery](damaged_sim_card_data_recovery.md)
+* [Damaged SIM Card Data Recovery](damaged_sim_card_data_recovery.md)
 
 ## Security
 
@@ -118,21 +106,16 @@ card.
 
 ## See also
 
-- [SIM Cards](sim_cards.md)
-- [Troubleshooting the installation of a PC/SC smart card reader (video
-  tutorial)](http://www.youtube.com/watch?v=w_tcwmzUH6o)
+* [SIM Cards](sim_cards.md)
+* [Troubleshooting the installation of a PC/SC smart card reader (video tutorial)](http://www.youtube.com/watch?v=w_tcwmzUH6o)
 
 ## External Links
 
-- E-evidence Info - <http://www.e-evidence.info/cellular.html>
-- Purdue Phone Phorensics Knowledge Base -
-  <http://mobileforensicsworld.com/p3/>
-- [SIM Forensics: Part
-  1](http://www.forensicmag.com/articles/2011/04/sim-forensics-part-1),
+* [E-evidence Info](http://www.e-evidence.info/cellular.html)
+* [Purdue Phone Phorensics Knowledge Base](http://mobileforensicsworld.com/p3/)
+* [SIM Forensics: Part 1](http://www.forensicmag.com/articles/2011/04/sim-forensics-part-1),
   by John J. Barbara, April 25, 2011
-- [SIM Forensics: Part
-  2](http://www.forensicmag.com/articles/2011/06/sim-forensics-part-2),
+* [SIM Forensics: Part 2](http://www.forensicmag.com/articles/2011/06/sim-forensics-part-2),
   by John J. Barbara, June 15, 2011
-- [SIM Forensics: Part
-  3](http://www.forensicmag.com/articles/2011/08/sim-forensics-part-3),
+* [SIM Forensics: Part 3](http://www.forensicmag.com/articles/2011/08/sim-forensics-part-3),
   by John J. Barbara, August 5, 2011

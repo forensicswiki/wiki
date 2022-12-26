@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
+  - Mobile
 ---
 ## Guidelines
 
@@ -41,23 +42,21 @@ introduce a handset unlock code upon powering the device on.
 
 Expand on as to what to collect:
 
-- [ESN](esn.md),
-- IMEI,
-- Carrier,
-- Manufacturer,
-- Model Number,
-- Color, and
-- Other information related to Cell Phone and
-  [SIM Card](sim_card.md)...
+- [ESN](esn.md)
+- IMEI
+- Carrier
+- Manufacturer
+- Model Number
+- Color
+- Other information related to Cell Phone and [SIM Card](sim_cards.md)
 
 Process:
 
 1.  Photograph the Cell Phone screen during power up.
 2.  Research the Cell Phone for technical specifications.
 3.  Research the Cell Phone for forensic information.
-4.  Based on phone type [GSM](gsm.md), [CDMA](cdma.md),
-    [iDEN](iden.md), or [Pay As You Go](pay_as_you_go.md) determine
-    acquisition tools
+4.  Based on phone type [GSM](gsm.md), [CDMA](cdma.md), [iDEN](iden.md), or Pay
+    As You Go determine acquisition tools
 
 GSM:
 
@@ -84,23 +83,10 @@ Pay As You Go:
 
 Articles and Reference Materials
 
-- [E-Evidence.Info Articles, Papers, Presentations,
-  etc.](http://www.e-evidence.info/cellarticles.html)
-- [How to unlock remote Cell
-  Phone](http://www.flexihub.com/remote-cell-phone-unlock.html)
-- [Forensic Analysis of Mobile
-  Phones](http://esm.cis.unisa.edu.au/new_esml/resources/publications/forensic%20analysis%20of%20mobile%20phones.pdf)
-- [Forensics and the GSM Mobile Telephone
-  System](http://www.ijde.org/docs/03_spring_art1.pdf)
-- [Law Enforcement, Forensics and Mobile
-  Communications](http://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
-- [Mobile Phone Forensics & PDA Forensics
-  Links](http://www.forensics.nl/mobile-pda-forensics)
-- [Netherlands Forensic Institute: Mobile Phone Forensics Examination -
-  Basic Workflow and
-  Preservation](http://www.holmes.nl/MPF/FlowChartForensicMobilePhoneExamination.htm)
-- [U.S. National Institute of Standards and Technology
-  Documents](http://csrc.nist.gov/mobilesecurity/publications.html#MF)
+- [Law Enforcement, Forensics and Mobile Communications](http://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
+- [Mobile Phone Forensics & PDA Forensics Links](http://www.forensics.nl/mobile-pda-forensics)
+- [Netherlands Forensic Institute: Mobile Phone Forensics Examination - Basic Workflow and Preservation](http://www.holmes.nl/MPF/FlowChartForensicMobilePhoneExamination.htm)
+- [U.S. National Institute of Standards and Technology Documents](http://csrc.nist.gov/mobilesecurity/publications.html#MF)
 
 Conferences
 
@@ -108,54 +94,31 @@ Conferences
 
 Investigative Support
 
-- [Creating a Cell Phone Investigation Toolkit: Basic Hardware and
-  Software
-  Specifications](http://www.search.org/files/pdf/CellphoneInvestToolkit-0806.pdf)
-- [E-Evidence.Info Mobile Forensic
-  Tools](http://www.e-evidence.info/cellular.html)
+- [Creating a Cell Phone Investigation Toolkit: Basic Hardware and Software Specifications](http://www.search.org/files/pdf/CellphoneInvestToolkit-0806.pdf)
+- [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
 - [ForensicFocus.com(Practitioners Forum)](http://www.forensicfocus.com)
-- [Hex-Dump.com(Advanced Forum for Hex Dump and Memory
-  Analysis)](http://www.hex-dump.com)
-- [Mobile-Examiner.com (Forum for
-  Practitioners)](http://www.Mobile-Examiner.com)
-- [Mobile-Forensics.com (Research Forum for Mobile Device
-  Forensics)](http://www.Mobile-Forensics.com)
-- [Mobile Forensics Training Forum (Mobile Device Investigative Support
-  and Training)](http://www.mfi-training.com)
-- [SmartPhoneForensics.com (Mobile Device Forensics Training and
-  Investigative Support)](http://www.SmartPhoneForensics.com)
-- [Phone-Forensics.com (Advanced Forum for
-  Practitioners)](http://www.Phone-Forensics.com)
-- [TREW Mobile Telephone Evidence (Mobile Telephone Evidence
-  Practitioner Site)](http://trewmte.blogspot.com)
+- [Hex-Dump.com(Advanced Forum for Hex Dump and Memory Analysis)](http://www.hex-dump.com)
+- [Mobile-Examiner.com (Forum for Practitioners)](http://www.Mobile-Examiner.com)
+- [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
+- [Mobile Forensics Training Forum (Mobile Device Investigative Support and Training)](http://www.mfi-training.com)
+- [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](http://www.SmartPhoneForensics.com)
+- [Phone-Forensics.com (Advanced Forum for Practitioners)](http://www.Phone-Forensics.com)
+- [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
 Phone Research
 
-- [GSMArena.com (Technical information regarding GSM Cell
-  Phones)](http://www.GSMArena.com)
-- [MobileForensicsCentral.com (Information regarding Cell Phone Forensic
-  Applications)](http://www.MobileForensicsCentral.com)
-- [PhoneScoop.com (Technical information regarding all Cell
-  Phones)](http://www.PhoneScoop.com)
-- [Small Scale Digital Device Forensics
-  Information](http://www.ssddforensics.com/)
+- [GSMArena.com (Technical information regarding GSM Cell Phones)](http://www.GSMArena.com)
+- [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.MobileForensicsCentral.com)
+- [PhoneScoop.com (Technical information regarding all Cell Phones)](http://www.PhoneScoop.com)
+- [Small Scale Digital Device Forensics Information](http://www.ssddforensics.com/)
 
 Training
 
-- [SANS Advanced Smartphone Mobile Device Forensics class (GIAC GASF
-  certification option
-  available)](https://www.sans.org/course/advanced-smartphone-mobile-device-forensics)
-- [Teel Technologies Smartphone
-  training](http://www.teeltech.com/mobile-device-forensics-training/)
-- [Mobile-Forensics.com (Research Forum for Mobile Device
-  Forensics)](http://www.Mobile-Forensics.com)
-- [Mobile Forensics World
-  Training](http://www.MobileForensicsWorld.com/Training.aspx)
-- [Mobile Forensics Training (Mobile Forensics Inc. Training Class
-  site)](http://www.mobileforensicstraining.com)
-- [Paraben-Forensics.com (Paraben's Handheld Forensic Training
-  Classes)](http://www.paraben-training.com/training.html)
-- [SmartPhoneForensics.com (Mobile Device Forensics Training and
-  Investigative Support)](http://www.SmartPhoneForensics.com)
-- [Micro Systemation Training (Mobile Forensics
-  Training)](http://www.msab.com/training/schedule)
+- [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
+- [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)
+- [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
+- [Mobile Forensics World Training](http://www.MobileForensicsWorld.com/Training.aspx)
+- [Mobile Forensics Training (Mobile Forensics Inc. Training Class site)](http://www.mobileforensicstraining.com)
+- [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](http://www.paraben-training.com/training.html)
+- [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](http://www.SmartPhoneForensics.com)
+- [Micro Systemation Training (Mobile Forensics Training)](http://www.msab.com/training/schedule)
