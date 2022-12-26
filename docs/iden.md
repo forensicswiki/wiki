@@ -11,11 +11,9 @@ and a two-way radio known as [push-to-talk](push-to-talk.md)
 ([ptt](ptt.md).
 
 Motorola’s iDEN technology phones support many other features including
-[Bluetooth](bluetooth.md), location-based services,
-[MOTOTalk](mototalk.md) and support for expandable memory
-([Micro SD](micro_sd.md). [Sprint
-Nextel](sprint_nextel.md) is the largest U.S. retailer of iDEN
-services.
+Bluetooth, location-based services, [MOTOTalk](mototalk.md) and support for
+expandable memory ([Micro SD](micro_sd.md). [Sprint Nextel](sprint_nextel.md)
+is the largest U.S. retailer of iDEN services.
 
 Newer iDEN phones use a [SIM card](sim_card.md) that is
 compatible with [GSM](gsm.md) phones for overseas roaming but

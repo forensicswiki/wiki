@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 Email signatures, designed for authentication, non-repudiation, and spam
 control, can also be used to determine if an email has been forged. In
@@ -36,7 +36,7 @@ public keys are distributed via [DNS](domain_name_system.md).
 ## Signed mail
 
 Some other programs can be used by the sender to sign an email message.
-Programs such as [PGP](pgp.md), [GnuPG](gnupg.md).
+Programs such as PGP and [GnuPG](gnupg.md).
 
 ### PGP Messages
 
@@ -66,6 +66,4 @@ characters.
 
 ## See Also
 
-- [Using message id headers to determine if an email has been
-  forged](using_message_id_headers_to_determine_if_an_email_has_been_forged.md)
-
+* [Using message id headers to determine if an email has been forged](using_message_id_headers_to_determine_if_an_email_has_been_forged.md)

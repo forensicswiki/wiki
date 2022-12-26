@@ -37,10 +37,10 @@ Wireshark has a rich feature set which includes the following:
   Visual UpTime, WildPackets EtherPeek/TokenPeek/AiroPeek, and many
   others;
 - Capture files compressed with gzip can be decompressed on the fly;
-- Live data can be read from [Ethernet](ethernet.md), [IEEE
-  802.11](wireless_forensics.md), PPP/HDLC, ATM,
-  [Bluetooth](bluetooth.md), [USB](usb.md), Token Ring,
-  Frame Relay, FDDI, and others (depending on your platfrom);
+- Live data can be read from [Ethernet](ethernet.md),
+  [IEEE 802.11](wireless_forensics.md), PPP/HDLC, ATM, Bluetooth,
+  [USB](usb.md), Token Ring, Frame Relay, FDDI, and others (depending on your
+  platfrom);
 - Decryption support for many protocols, including
   [IPsec](ipsec.md), ISAKMP, Kerberos, SNMPv3,
   [SSL/TLS](ssl_forensics.md), [WEP, and

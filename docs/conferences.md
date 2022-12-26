@@ -14,8 +14,7 @@ this Wiki.
 For Dates and Locations of upcoming conferences and training events, see
 the pages titled<b> [Upcoming events](upcoming_events.md)</b>
 <i>(Calls for papers, Conferences and On-Demand Training)</i> and
-<b>[Scheduled Training
-Courses](scheduled_training_courses.md)</b> <i>(Training
+<b>Scheduled Training Courses</b> <i>(Training
 Classes/Courses scheduled for specific dates/locations)</i>.
 
 # Research Conferences and Workshops
