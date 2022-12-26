@@ -23,7 +23,7 @@ the programs, logs and files as follows:*
     correspondence;
 2.  message exchange logs (NetSpeakerPhone, Counter-Strike) - users'
     correspondence;
-3.  bases of e-mail programs ([outlook](outlook.md) -
+3.  bases of e-mail programs ([outlook](microsoft_outlook.md) -
     deleted and explicit email messages;
 4.  OS [Windows](windows.md) - analysis
     of all file areas including LEAK blocks;

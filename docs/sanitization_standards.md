@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Secure Deletion
-  -  Research
-  -  Papers
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Papers
+  - Research
+  - Secure Deletion
 ---
 Here are some of the standards by country that we have been able to find
 regarding the disk sanitization problem:
@@ -42,7 +42,7 @@ regarding the disk sanitization problem:
   ([pdf](http://jya.com/afssi5020.htm)): USAF Data Sanitization
   Standard.
 - [NIST 800-88](nist_800-88.md)
-  ([pdf](http://csrc.nist.gov/publications/nistpubs/800-88/NISTSP800-88_rev1.pdf)):
+  ([pdf](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)):
   Guidelines for Data Sanitation, Sept 2006.
 - [DoD Destruction](dod_destruction.md)
   ([pdf](http://www.simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf)):
@@ -71,4 +71,3 @@ regarding the disk sanitization problem:
   characters followed by five passes of Pseudo Random Data. Published by
   [Bruce Schneier](bruce_schneier.md) in [Applied
   Cryptography](http://www.schneier.com/book-applied.html), 1996
-

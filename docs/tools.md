@@ -160,7 +160,8 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[ILook Investigator](ilook_investigator.md) by [Elliot Spencer](elliot_spencer.md) and [U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](internal_revenue_service.md) (IRS)
+[ILook Investigator](ilook.md) by [Elliot Spencer](elliot_spencer.md) and
+[U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](internal_revenue_service.md) (IRS)
 <http://www.ilook-forensics.org/>
 
 <!-- -->

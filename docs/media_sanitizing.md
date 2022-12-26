@@ -21,28 +21,22 @@ overwrite multiple times is regarded as a myth by some who point out
 that this is only possible with extremly expensive laboratory equipment
 and that there is no software recovery technique which will recover data
 overwritten even once (if it is in fact overwritten). See [Joukov
-Papaxenopoulos & Zadok
-(2006)](http://doi.acm.org/10.1145/1179559.1179571) on "Secure deletion
-myths, issues, and solutions"
+Papaxenopoulos & Zadok (2006)](http://doi.acm.org/10.1145/1179559.1179571)
+on "Secure deletion myths, issues, and solutions"
 
-Detailed instructions on media sanitization have been published by [NIST
-as Special Publication 800-88
-(2006)](http://csrc.nist.gov/publications/nistpubs/800-88/NISTSP800-88_rev1.pdf)
+Detailed instructions on media sanitization have been published by
+[NIST as Special Publication 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)
 
-# See also
+## Also see
 
-## ForensicWiki
+* [Recovering deleted data](recovering_deleted_data.md)
+* [Epilogue to Gutmann's 1996 paper](epilogue_to_gutmann's_1996_paper.md)
+* [Sanitizing Tools](sanitizing_tools.md)
 
-- [Recovering deleted data](recovering_deleted_data.md)
-- [Epilogue to Gutmann's 1996
-  paper](epilogue_to_gutmann's_1996_paper.md)
-- [Sanitizing Tools](sanitizing_tools.md)
+## External Links
 
-## External
-
-- [NIST Special Publication 800-88
-  (2006)](http://csrc.nist.gov/publications/nistpubs/800-88/NISTSP800-88_rev1.pdf)
+* [NIST as Special Publication 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)
   Guidelines for Media Sanitization
-- [Joukov Papaxenopoulos & Zadok
-  (2006)](http://doi.acm.org/10.1145/1179559.1179571) Secure Deletion
-  Myths, Issues, and Solutions (subscription is necessary for full text)
+* [Joukov Papaxenopoulos & Zadok (2006)](http://doi.acm.org/10.1145/1179559.1179571)
+  Secure Deletion Myths, Issues, and Solutions (subscription is necessary for
+  full text)
