@@ -22,8 +22,7 @@ What you need to dump the NAND:
     supply used for this was an [U8002A DC Power
     Supply](http://www.home.agilent.com/agilent/product.jspx?pn=u8002a&cc=CA&lc=eng%7CAgilent).
 4.  A hot air re-work station. The hot air re-work station used for this
-    was an [LF-852D Hot Air
-    Station](http://www.howardelectronics.com/xytronic/LF-852D.html%7CXytronic).
+    was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
 
 ### NAND Dump Procedure
 

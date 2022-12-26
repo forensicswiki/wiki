@@ -80,10 +80,8 @@ FreeBSD 6.2 will be installed. Now you need to configure it.
 Note that the order you do this matters: SleuthKit won't compile with
 AFFLIB support unless AFFLIB is installed on your system.
 
-1.  Download and install [libewf](libewf.md) if you want EnCase
-    support.
-2.  Download and install [AFFLIB](afflib.md) from
-    <http://www.afflib.org/>
+1.  Download and install [libewf](libewf.md) if you want EnCase support.
+2.  Download and install [AFFLIB](aff.md) from <http://www.afflib.org/>
 3.  Download and install [The Sleuth Kit](the_sleuth_kit.md) from
     <http://www.sleuthkit.org/>
 4.  Download and install [fiwalk](fiwalk.md) from

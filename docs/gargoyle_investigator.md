@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 **Gargoyle Investigator™ Forensic Pro Edition**
-[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,2)
-
-##
 
 Gargoyle Investigator Forensic Pro Edition is our most advanced malware
 detection software package for rapid in depth forensic investigations.
@@ -37,8 +34,7 @@ Pentium® III 1GHz processor
 **License:**
 
 Single user license, To Simultaneously scan suspects up to 100 systems
-please view Gargoyle Investigator™ Enterprise
-Module[2](https://www.wetstonetech.com/cgi/shop.cgi?view,3)
+please view Gargoyle Investigator™ Enterprise Module.
 
 ------------------------------------------------------------------------
 
@@ -46,4 +42,4 @@ Module[2](https://www.wetstonetech.com/cgi/shop.cgi?view,3)
 
 1-877-WETSTONE ext. 2
 
-www.wetstonetech.com [3](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

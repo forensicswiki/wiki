@@ -1,12 +1,9 @@
 ---
 tags:
-  -  Research
-  -  Training
+  - Research
+  - Training
 ---
 **Zombies and Botnets: Setup-Investigate-Shutdown**
-[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,25)
-
-##
 
 WetStone has created this one-day advanced module to their Hacking
 Bootcamp focusing exclusively on Zombies and Botnets. Students will have
@@ -36,9 +33,9 @@ connected to the internet have become a part of a Botnet.
 Upon completion of the course, students will have gained advanced
 knowledge in the fundamentals of Zombies and Botnets
 
-`▫ Offensive planning of Zombies and Botnets`
-`▫ Investigative considerations when faced with these weapons`
-`▫ Learn the art of isolation and termination of  Botnets.`
+* Offensive planning of Zombies and Botnets
+* Investigative considerations when faced with these weapons
+* Learn the art of isolation and termination of Botnets.
 
 Our trainers take you inside the minds of today’s criminals and students
 completeing the class will be able to execute a full investigation in
@@ -51,4 +48,4 @@ will be tested with certification exams.
 
 1-877-WETSTONE ext 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Training
 ---
-**The Art of
-Keylogging**[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,32)
-
-##
+**The Art of Keylogging**
 
 WetStone has created a unique virtualized cyber-safe environment where
 investigators and information technology professionals can experiment
@@ -30,11 +27,11 @@ massive amounts of identity theft and corporate leakage of data.
 
 **Who Should Attend?**
 
-`▫ Forensic Investigators`
-`▫ Local, state and federal law enforcement`
-`▫ Private investigators`
-`▫ IT security professionals`
-`▫ Security auditors`
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
+* Security auditors
 
 Our trainers take you inside the minds of today’s criminals and students
 completeing the class will be able to execute a full investigation in
@@ -47,4 +44,4 @@ will be tested with certification exams.
 
 1-877-WETSTONE ext 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

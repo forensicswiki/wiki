@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Training
 ---
-**Introduction to Steganography: Steganography and Data
-Exfiltration**[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,22)
-
-##
+**Introduction to Steganography: Steganography and Data Exfiltration**
 
 This virtual one-day class will introduce you to the latest
 methods,techniques and threats posed by steganography. Students will
@@ -25,19 +22,19 @@ When Steganogpraphy is used in conjunction with the internet, it becomes
 a globally effective tool for command control communication and
 intelligence.
 
-Criminals are armed with the ability to…
+Criminals are armed with the ability to:
 
-`▫ Conceal incriminating information`
-`▫ Covertly communicate with accomplices`
-`▫ Innocuously share large amounts of potentially dangerous information`
+* Conceal incriminating information
+* Covertly communicate with accomplices
+* Innocuously share large amounts of potentially dangerous information
 
 **Who Should Attend?**
 
-`▫ Forensic Investigators`
-`▫ Local, state and federal law enforcement`
-`▫ Private investigators`
-`▫ IT security professionals`
-`▫ Security auditors`
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
+* Security auditors
 
 Our trainers take you inside the minds of today’s criminals and students
 completeing the class will be able to execute a full investigation in
@@ -50,4 +47,4 @@ will be tested with certification exams.
 
 1-877-WETSTONE ext 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

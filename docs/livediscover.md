@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 **LiveDiscover™ Forensic Edition**
-[1](http://www.wetstonetech.com/cgi-bin/shop.cgi?view,4)
-
-##
 
 LiveDiscover Forensic Edition (FE) is the premier tool for rapid full
 distributed network assessment and mapping, which is a critical first
@@ -41,4 +38,4 @@ Single user license, Site licenses are available upon request
 
 1-877-WETSTONE ext. 2
 
-www.wetstonetech.com [2](https://www.wetstonetech.com/index.html)
+[www.wetstonetech.com](https://www.wetstonetech.com/)

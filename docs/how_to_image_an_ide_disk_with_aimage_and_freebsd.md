@@ -54,7 +54,7 @@ Key elements of the disk imaging system:
 
 - *[aimage](aimage.md)* may not be installed. If you get the
   error message "aimage: command not found" then you need to install
-  [AFFLIB](afflib.md) and then make sure that the *aimage*
+  [AFFLIB](aff.md) and then make sure that the *aimage*
   command (usually installed in */usr/local/bin*) is in your *PATH*. You
   can check this out by running */usr/local/bin/aimage* instead of
   *aimage*;

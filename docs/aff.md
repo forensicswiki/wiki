@@ -1,9 +1,9 @@
 ---
 tags:
-  -  File Formats
-  -  Open Source Software
-  -  Disk Image
-  -  Articles that need to be expanded
+  - File Formats
+  - Open Source Software
+  - Disk Image
+  - Articles that need to be expanded
 ---
 The **Advanced Forensics Format** (**AFF**) is an extensible open format
 for the storage of [disk images](disk_image.md) and related
@@ -97,14 +97,12 @@ encrypted images.
 
 # See Also
 
-- [AFF Developers Guide](aff_developers_guide.md) --- A guide
+* [AFF Developers Guide](aff_developers_guide.md) --- A guide
   for programmers on how to use the AFF
-- [AFF Development Task List](aff_development_task_list.md) ---
+* [AFF Development Task List](aff_development_task_list.md) ---
   Want to help with AFF? Here is a list of things that need to be done.
 
 ## External Links
 
-- [Basis Technology's AFF
-  website](http://www.basistech.com/digital-forensics/aff.html)
-- [OSFMount - 3rd party tool for mounting AFF disk images with a drive
-  letter](http://www.osforensics.com/tools/mount-disk-images.html)
+* [Basis Technology's AFF website](http://www.basistech.com/digital-forensics/aff.html)
+* [OSFMount - 3rd party tool for mounting AFF disk images with a drive letter](http://www.osforensics.com/tools/mount-disk-images.html)
