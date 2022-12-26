@@ -481,7 +481,7 @@ outperforms the software implementation by a significant margin.
 
 <small>December-2009</small>
 
-**[What happens when you overwrite data?](http://blogs.sans.org/computer-forensics/2009/02/04/what-happens-when-you-overwrite-data/)**.
+**[What happens when you overwrite data?](https://www.sans.org/blog/what-happens-when-you-overwrite-data/)**.
 
 Data recovery Craig S. Wright explores what happens when you try to
 cover overwritten data using high-quality scientific equipment. His

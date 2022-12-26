@@ -195,8 +195,7 @@ and VBR data.
 
 <!-- -->
 
-- [USB Drive Enclosure
-  Guide](http://blogs.sans.org/computer-forensics/files/2009/09/USB_Drive_Enclosure-Guide.pdf)
+- [USB Key Analysis vs. USB Drive Enclosure Analysis](https://www.sans.org/blog/usb-key-analysis-vs-usb-drive-enclosure-analysis/)
   for Windows XP, Vista, and Windows 7.
 
 <!-- -->

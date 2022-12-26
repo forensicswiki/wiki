@@ -1,19 +1,18 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
-Email Examiner is a commercial product by [Paraben](paraben.md)
+Email Examiner is a commercial product by [Paraben](paraben_forensics.md)
 for reading email archives from:
 
-- Outlook (PST)
-- Outlook Express (DBX)
-- AOL 6,7,8,9 (PFC)
-- [MBox](mbox.md)
-- Eudora
-- Mozilla Mail
-- Fox Mail
-- Juno
-- Calypso
-- MSN Mail
-- USENET newsgroups
-
+* AOL 6,7,8,9 (PFC)
+* Calypso
+* Eudora
+* Fox Mail
+* Juno
+* [MBox](mbox.md)
+* Mozilla Mail
+* MSN Mail
+* Outlook Express (DBX)
+* Outlook (PST)
+* USENET newsgroups

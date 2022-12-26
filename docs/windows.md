@@ -524,35 +524,24 @@ value:
 
 #### Side-by-side (WinSxS)
 
-- [Wikipedia: Side-by-side
-  assembly](http://en.wikipedia.org/wiki/Side-by-side_assembly)
-- [Assembly Searching
-  Sequence](http://msdn.microsoft.com/en-us/library/aa374224.aspx)
-- [RT_MANIFEST resource, and
-  ISOLATION_AWARE_ENABLED](http://blogs.msdn.com/b/junfeng/archive/2007/06/26/rt-manifest-resource-and-isolation-aware-enabled.aspx)
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/dd408052(v=vs.85>).aspx
-  Isolated Applications and Side-by-side Assemblies\]
-- [DotLocal (.local) Dll
-  Redirection](http://blogs.msdn.com/b/junfeng/archive/2006/01/24/517221.aspx#531208),
+- [Wikipedia: Side-by-side assembly](http://en.wikipedia.org/wiki/Side-by-side_assembly)
+- [Assembly Searching Sequence](http://msdn.microsoft.com/en-us/library/aa374224.aspx)
+- [RT_MANIFEST resource, and ISOLATION_AWARE_ENABLED](http://blogs.msdn.com/b/junfeng/archive/2007/06/26/rt-manifest-resource-and-isolation-aware-enabled.aspx)
+- [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/en-us/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
+- [DotLocal (.local) Dll Redirection](http://blogs.msdn.com/b/junfeng/archive/2006/01/24/517221.aspx#531208),
   by [Junfeng Zhang](junfeng_zhang.md), January 24, 2006
-- [Diagnosing SideBySide
-  failures](http://blogs.msdn.com/b/junfeng/archive/2006/04/14/576314.aspx),
+- [Diagnosing SideBySide failures](http://blogs.msdn.com/b/junfeng/archive/2006/04/14/576314.aspx),
   by [Junfeng Zhang](junfeng_zhang.md), April 14, 2006
-- [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT
-  WINSXS](http://omnicognate.wordpress.com/2009/10/05/winsxs/)
-- [DLL Side-loading: A Thorn in the Side of the Anti-Virus
-  Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
+- [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](http://omnicognate.wordpress.com/2009/10/05/winsxs/)
+- [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
   by Amanda Stewart, April 2014
 
 #### Crash dumps
 
-- [Technet: Drwtsn32 on Windows Vista/Windows Server 2008/Windows
-  7/Windows Server 2008
-  R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
+- [Technet: Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
   by Yong Rhee, December 29, 2010
-- [MSDN: How to read the small memory dump file that is created by
-  Windows if a crash occurs](http://support.microsoft.com/kb/315263), by
-  [Microsoft](microsoft.md)
+- [MSDN: How to read the small memory dump file that is created by Windows if a crash occurs](http://support.microsoft.com/kb/315263),
+   by [Microsoft](microsoft.md)
 - <https://medium.com/dfir-dudes/amcache-is-not-alone-using-wer-files-to-hunt-evil-86bdfdb216d7>
 - <https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps>
 - <https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz>
@@ -593,55 +582,41 @@ value:
 
 #### Windows Event Logs
 
-- [Exploring the Program Inventory Event
-  Log](http://journeyintoir.blogspot.ch/2014/03/exploring-program-inventory-event-log.html),
+- [Exploring the Program Inventory Event Log](http://journeyintoir.blogspot.ch/2014/03/exploring-program-inventory-event-log.html),
   by [Corey Harrell](corey_harrell.md), March 24, 2014
-- [Mute Sysmon - Silence Sysmon via event manifest
-  tampering](https://securityjosh.github.io/2020/04/23/Mute-Sysmon.html),
+- [Mute Sysmon - Silence Sysmon via event manifest tampering](https://securityjosh.github.io/2020/04/23/Mute-Sysmon.html),
   by SecurityJosh, April 23, 2020
-- [Common misconceptions about Windows
-  EventLogs](https://osdfir.blogspot.com/2021/10/common-misconceptions-about-windows.html),
+- [Common misconceptions about Windows EventLogs](https://osdfir.blogspot.com/2021/10/common-misconceptions-about-windows.html),
   by Joachim Metz, October 30, 2021
 
 #### Windows Scripting Host
 
-- [Going To Ground with The Windows Scripting Host
-  (WSH)](https://www.mandiant.com/blog/ground-windows-scripting-host-wsh/),
+- [Going To Ground with The Windows Scripting Host (WSH)](https://www.mandiant.com/blog/ground-windows-scripting-host-wsh/),
   by Devon Kerr, February 19, 2014
 
 #### USB
 
-- [USBKEY
-  Guide](https://blogs.sans.org/computer-forensics/files/2009/09/USBKEY-Guide.pdf),
-  by [SANS Institute - Digital Forensics and Incident
-  Response](sans.md), September 2009
-- [USB Drive Enclosure
-  Guide](https://blogs.sans.org/computer-forensics/files/2009/09/USB_Drive_Enclosure-Guide.pdf),
-  by [SANS Institute - Digital Forensics and Incident
-  Response](sans.md), September 2009
+- [USB Key Analysis vs. USB Drive Enclosure Analysis](https://www.sans.org/blog/usb-key-analysis-vs-usb-drive-enclosure-analysis/)
+  by Rob Lee, September 9, 2000
+- [Computer Forensic Guide To Profiling USB Device Thumbdrives on Win7, Vista, and XP](https://www.sans.org/blog/computer-forensic-guide-to-profiling-usb-device-thumbdrives-on-win7-vista-and-xp/)
+  by Rob Lee, September 9, 2009
 
 #### Windows Error Reporting (WER)
 
-- [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows
-  Server 2008
-  R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
+- [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
   by Yong Rhee, December 29, 2010
-- [Exploring Windows Error
-  Reporting](http://journeyintoir.blogspot.ch/2014/02/exploring-windows-error-reporting.html),
+- [Exploring Windows Error Reporting](http://journeyintoir.blogspot.ch/2014/02/exploring-windows-error-reporting.html),
   by [Corey Harrell](corey_harrell.md), February 24, 2014
 
 #### Windows Event Viewer
 
-- [Windows Event Viewer created Scheduled Task of
-  VBScript](http://www.intramortem.com/2015/12/windows-event-viewer-created-scheduled.html),
+- [Windows Event Viewer created Scheduled Task of VBScript](http://www.intramortem.com/2015/12/windows-event-viewer-created-scheduled.html),
   by Eric John, December 23, 2015
 
 #### Windows Firewall
 
-- [Wikipedia: Windows
-  Firewall](http://en.wikipedia.org/wiki/Windows_Firewall)
-- \[<http://technet.microsoft.com/en-us/library/cc737845(v=ws.10>).aspx#BKMK_log
-  Windows Firewall Tools and Settings\]
+- [Wikipedia: Windows Firewall](http://en.wikipedia.org/wiki/Windows_Firewall)
+- [Windows Firewall Tools and Settings](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737845(v=ws.10))
 
 #### Windows 32-bit on Windows 64-bit (WoW64)
 
@@ -654,37 +629,28 @@ value:
 
 ### Windows Scheduler
 
-- [Windows Scheduler (at job)
-  Forensics](http://digital-forensics.sans.org/blog/2009/09/16/windows-scheduler-at-job-forensics),
+- [Windows Scheduler (at job) Forensics](http://digital-forensics.sans.org/blog/2009/09/16/windows-scheduler-at-job-forensics),
   by johnmccash, September 16, 2009
 
 ### Windows Vault
 
-- [Windows
-  ReVaulting](http://blog.digital-forensics.it/2016/01/windows-revaulting.html?m=1),
+- [Windows ReVaulting](http://blog.digital-forensics.it/2016/01/windows-revaulting.html?m=1),
   by Francesco Picasso, January 27, 2016
 
 ### IPC
 
-- [Offensive Windows IPC Internals 1: Named
-  Pipes](https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html),
+- [Offensive Windows IPC Internals 1: Named Pipes](https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html),
   by Carsten Sandker, January 10, 2021
 
 ### AMCache.hve
 
 ### SysCache.hve
 
-- [Daily Blog \#579: The meaning of
-  Syscache.hve](https://www.hecfblog.com/2018/12/daily-blog-579-meaning-of-syscachehve.html),
+- [Daily Blog \#579: The meaning of Syscache.hve](https://www.hecfblog.com/2018/12/daily-blog-579-meaning-of-syscachehve.html),
   by David Cowen, December 26, 2018
 
 ### RDP Bitmap Cache
 
 - [BMC-Tools by ANSSI-FR](https://github.com/ANSSI-FR/bmc-tools)
-- [RDP Cached Bitmap Extractor by OpenText
-  Security](https://security.opentext.com/appDetails/RDP-Cached-Bitmap-Extractor)
-- [RDP Cache Stitcher by Bundesamt fuer Sicherheit in der
-  Informationstechnik
-  (BSI)](https://github.com/BSI-Bund/RdpCacheStitcher)
-
-[Category:Operating systems](category:operating_systems.md)
+- [RDP Cached Bitmap Extractor by OpenText Security](https://security.opentext.com/appDetails/RDP-Cached-Bitmap-Extractor)
+- [RDP Cache Stitcher by Bundesamt fuer Sicherheit in der Informationstechnik (BSI)](https://github.com/BSI-Bund/RdpCacheStitcher)

@@ -166,6 +166,4 @@ and lower it to 9MHz (or lower) which can stabilize the read.
 
 ## References
 
-- <http://android-forensics.com/android-forensics-study-of-password-and-pattern-lock-protection/143>
-- <http://forensics.spreitzenbarth.de/2012/02/>
-- <http://www.ccl-forensics.com/Software/other-software-a-scripts.html>
+* <http://forensics.spreitzenbarth.de/2012/02/>
