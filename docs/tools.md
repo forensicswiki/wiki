@@ -602,14 +602,6 @@ can run 'headless', i.e. everything in background.
 
 <!-- -->
 
-Webtracer
-<http://www.forensictracer.com>
-
-Software for forensic analysis of internet resources (IP address, e-mail
-address, domain name, URL, e-mail headers, log files...)
-
-<!-- -->
-
 Recon for MAC OS X
 <https://www.sumuri.com/products/recon/>
 
