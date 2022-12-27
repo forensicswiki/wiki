@@ -163,16 +163,6 @@ supports output to STDOUT for piping the dump through tools like netcat
 or ssh. WinPmem can be used together with the Volatility Technology
 Preview to analyse a live windows system for live response and triaging.
 
-<!-- -->
-
-[Windows Memory Reader](http://cybermarshal.atc-nycorp.com/index.php/cyber-marshal-utilities/windows-memory-reader)
-Windows Memory Reader is a simple command-line utility to capture the
-contents of physical RAM. Results are stored in a Windows crash dump or
-raw binary file. Researchers can also use Windows Memory Reader to
-capture memory-mapped device data, such as shared video memory. Windows
-Memory Reader supports Windows XP through Windows 8, both 32-bit and
-64-bit versions, and is available free of charge.
-
 ### Linux
 
 [LiME](http://code.google.com/p/lime-forensics/)
@@ -234,15 +224,6 @@ connection. It then automatically extracts the current user login
 password and any open AOL Instant Messenger conversation fragments that
 may be available. Please see [1](http://digitalfire.ucd.ie/?page_id=430)
 for more information.
-
-<!-- -->
-
-[Mac Memory Reader](http://cybermarshal.atc-nycorp.com/index.php/cyber-marshal-utilities/mac-memory-reader)
-Mac Memory Reader is a simple command-line utility to capture the
-contents of physical RAM. Results are stored in a Mach-O binary or raw
-data file. Mac Memory Reader is available free of charge. It executes
-directly on 32- and 64-bit target machines running Mac OS X 10.4 through
-10.7 and requires a PowerPC G4 or newer, or any Intel processor.
 
 <!-- -->
 

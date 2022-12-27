@@ -506,8 +506,8 @@ available for carving, identification and filtering.
 
 Adroit Photo Forensics supports data carving of popular image formats.
 Also supports fragmented carving using
-[SmartCarving](file_carving:smartcarving.md) and
-[GuidedCarving](file_carving:guidedcarving.md).
+[SmartCarving](file_carving_smartcarving.md) and
+[GuidedCarving](file_carving_guidedcarving.md).
 
 - [Belkasoft Evidence Center](http://belkasoft.com/ec)
 

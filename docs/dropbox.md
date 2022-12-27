@@ -7,7 +7,7 @@ tags:
 [Dropbox](http://www.dropbox.com) is a service with dedicated applications
 allowing people to share their files between multiple computers (including
 smartphones) and each other. It is thus similar in purpose to
-[Wuala](wuala.md), [SpiderOak](spideroak.md) and [Box.com](box.com).
+[Wuala](wuala.md), [SpiderOak](spideroak.md) and Box.com.
 
 ## Security
 
@@ -83,20 +83,11 @@ United States."
 ## External Links
 
 - [Dropbox](http://www.dropbox.com)
-- [Digital Forensics:
-  Dropbox](https://digital-forensics.sans.org/blog/2011/06/17/digital-forensics-rain-drop-keeps-falling-on-my-box),
+- [Digital Forensics: Dropbox](https://digital-forensics.sans.org/blog/2011/06/17/digital-forensics-rain-drop-keeps-falling-on-my-box),
   by Frank McClain, June 17, 2011
 - [Dropbox Forensics](http://www.forensicfocus.com/dropbox-forensics),
   by Frank McClain
-- [Decrypting More Dropbox Files:
-  config.dbx](http://www.magnetforensics.com/decrypting-the-config-dbx-file/),
+- [Decrypting More Dropbox Files: config.dbx](http://www.magnetforensics.com/decrypting-the-config-dbx-file/),
   Magnet Forensics, November 20, 2013
-- [Cloud Storage
-  Forensics](https://digital-forensics.sans.org/summit-archives/Prague_Summit/Cloud_Storage_Forensics_Mattia_Eppifani.pdf),
+- [Cloud Storage Forensics](https://digital-forensics.sans.org/summit-archives/Prague_Summit/Cloud_Storage_Forensics_Mattia_Eppifani.pdf),
   by Mattia Epifani, October 7, 2013
-
-## Tools
-
-- [Dropbox
-  Reader](http://www.cybermarshal.com/index.php/cyber-marshal-utilities/dropbox-reader)
-

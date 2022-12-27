@@ -17,10 +17,9 @@ Adroit Photo Forensics can parse a number of filesystems, including
 [HFS+](hfs+.md). It can read from [EnCase](encase.md) as well as
 [raw/dd](raw_image_format.md) images.
 
-It is best known for implementing the
-[SmartCarving](file_carving:smartcarving.md) and
-[GuidedCarving](file_carving:guidedcarving.md) algorithms to
-recover fragmented photos.
+It is best known for implementing the [SmartCarving](file_carving_smartcarving.md)
+and [GuidedCarving](file_carving_guidedcarving.md) algorithms to recover
+fragmented photos.
 
 ## Exif
 
