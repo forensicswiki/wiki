@@ -41,7 +41,7 @@ Other objects can be embedded in a **fileobject** object:
           <atime>1258876800</atime>
           <crtime>1258916900</crtime>
           <byte_runs>
-           <run[:Category:Operating systems](:Category:Operating_systems "wikilink") file_offset='0' fs_offset='37376' img_offset='37888' len='43'/>
+            <run file_offset='0' fs_offset='37376' img_offset='37888' len='43'/>
           </byte_runs>
           <hashdigest type='md5'>2bbe5c3b554b14ff710a0a2e77ce8c4d</hashdigest>
           <hashdigest type='sha1'>b3ccdbe2db1c568e817c25bf516e3bf976a1dea6</hashdigest>
