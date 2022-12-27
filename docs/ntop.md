@@ -1,18 +1,16 @@
 ---
 tags:
-  -  Network Forensics
-  -  Linux
-  -  Windows
-  -  Tools
+  - Linux
+  - Network Forensics
+  - Tools
+  - Windows
 ---
 ## Overview
 
-**ntop** is a network traffic probe that shows the network usage,
-similar to what the popular [top](top.md)
-[Unix](unix.md) command does. ntop is based on libpcap and it
-has been written in a portable way in order to virtually run on every
-[Unix](unix.md) platform and on [Win32](windows.md) as
-well.
+**ntop** is a network traffic probe that shows the network usage, similar to
+what the popular top [Unix](unix.md) command does. ntop is based on libpcap and
+it has been written in a portable way in order to virtually run on every
+[Unix](unix.md) platform and on [Win32](windows.md) as well.
 
 ntop users can use a a web browser to navigate through ntop (that acts
 as a web server) traffic information and get a dump of the network
@@ -104,8 +102,8 @@ status.[1](http://www.ntop.org/products/ntop/)
 
 ## External Links
 
-- [Get ntop](http://www.ntop.org/get-started/download/)
+* [Get ntop](http://www.ntop.org/get-started/download/)
 
 ## Sources
 
-[ntop.org](http://www.ntop.org/products/ntop/)
+* [ntop.org](http://www.ntop.org/products/ntop/)

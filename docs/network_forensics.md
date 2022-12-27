@@ -130,8 +130,6 @@ available.
 - [InfoWatch Traffic Monitor](http://www.infowatch.com)
 - Mera Systems [NetBeholder](http://netbeholder.com/)
 - MFI Soft [SORMovich](http://sormovich.ru/) (in Russian)
-- Solera Networks - Provider of full packet capture network forensics
-  appliances [Solera Networks](http://www.soleranetworks.com/)
 - NETRESEC [NetworkMiner Professional (portable network forensic
   analysis tool for
   Windows)](http://www.netresec.com/?page=NetworkMiner)
