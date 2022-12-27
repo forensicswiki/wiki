@@ -1,9 +1,10 @@
 ---
 tags:
-  -  Tools
-  -  Hardware
-  -  Data Recovery
-  -  Disk Imaging
+  - Commercial Software
+  - Data Recovery
+  - Disk Imaging
+  - Hardware
+  - Tools
 ---
 **Data Compass** is a hardware and software data recovery tool produced
 by [SalvationDATA](salvationdata.md). The product uses a "3+1
@@ -18,5 +19,4 @@ filesystem repair.
 
 ## External Links
 
-[Official web site](http://www.salvationdata.com)
-
+* [Official web site](http://www.salvationdata.com)

@@ -1,24 +1,22 @@
 ---
 tags:
-  * File Formats
+  - File Formats
 ---
-The **Word Document (DOC) file format** has the **.doc** extension. This
-file type originates from [Microsoft Word](microsoft_word.md).
-However, other word processing software can be used to display these
-files as well. These include:
+The **Word Document (DOC) file format** has the **.doc** extension. This file
+type originates from [Microsoft Word](microsoft_word.md). However, other word
+processing software can be used to display these files as well. These include:
 
-* [WordPad](wordpad.md)
-* [WordPerfect](wordperfect.md)
-* OpenOffice
 * [AbiWord](abiword.md)
 * [LibreOffice](libreoffice.md)
+* OpenOffice
+* [WordPad](wordpad.md)
+* WordPerfect
 
 The Word DOC file format should not be confused with [DOCX](docx.md).
 
 ## MIME types
 
-The following [MIME types](mime_types.md) apply to this [file
-format](file_format.md):
+The following MIME types apply to this [file format](file_formats.md):
 
 * application/msword
 * application/doc

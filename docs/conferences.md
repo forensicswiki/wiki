@@ -1,39 +1,25 @@
 ---
 tags:
-  -  Research
-  -  Conferences
+  - Conferences
+  - Research
 ---
-This is a list of **conferences** in the [computer
-forensics](computer_forensics.md) field, and was originally
-taken from [Brian Carrier](brian_carrier.md)'s list of
-conferences and journals at
-<http://www.digital-evidence.org/publish/index.html> and used with his
-permission. Brian no longer maintains those listings and points back to
-this Wiki.
+This is a list of **conferences** in the [computer forensics](computer_forensics.md)
+field, and was originally taken from [Brian Carrier](brian_carrier.md)'s list
+of conferences and journals at <http://www.digital-evidence.org/publish/index.html>
+and used with his permission. Brian no longer maintains those listings and
+points back to this Wiki.
 
-For Dates and Locations of upcoming conferences and training events, see
-the pages titled<b> [Upcoming events](upcoming_events.md)</b>
-<i>(Calls for papers, Conferences and On-Demand Training)</i> and
-<b>Scheduled Training Courses</b> <i>(Training
-Classes/Courses scheduled for specific dates/locations)</i>.
+For Dates and Locations of upcoming conferences and training events, see the
+pages titled<b> [Upcoming events](upcoming_events.md)</b> <i>(Calls for papers,
+Conferences and On-Demand Training)</i> and <b>Scheduled Training Courses</b>
+<i>(Training Classes/Courses scheduled for specific dates/locations)</i>.
 
 # Research Conferences and Workshops
 
-Research conferences that are related to digital investigation and
-forensics.
+Research conferences that are related to digital investigation and forensics.
 
 American Academy of Forensic Science
-<http://www.aafs.org/meetings/future-past-aafs-meetings/>
-
-<!-- -->
-
-Australian Digital Forensics Conference
-<http://scissec.scis.ecu.edu.au/>
-
-<!-- -->
-
-BlackHat Japan Briefings & Training
-<http://japan.blackhat.com/>
+<https://www.aafs.org/>
 
 <!-- -->
 
@@ -86,19 +72,8 @@ e-Forensics (Last found in 2010)
 
 <!-- -->
 
-E-Crime and Computer Evidence (NOTE - Can't find any since 2006)
-<http://www.ecce-conference.com>
-
-<!-- -->
-
-EuSecWest
-<http://eusecwest.com/>
-
-<!-- -->
-
 EuroForensics Forensics Sciences, Cyber Security and Surveillance Technologies Conference and Exhibition (With ending of FSS, this seems to be a trade show now)
-<http://www.euroforensics.com/(dead)> New Link
-<http://www.forensicseuropeexpo.com/index.cfm>
+<https://forensicseuropeexpo.com/>
 
 <!-- -->
 
@@ -133,17 +108,12 @@ Information Hiding Conference
 <!-- -->
 
 International Conference on Availability, Reliability and Security
-<http://www.ares-conference.eu/conf/>
+<https://www.ares-conference.eu/>
 
 <!-- -->
 
 International Conference on Digital Forensics and Cyber Crime (ICDF2C)
 <http://d-forensics.org/>
-
-<!-- -->
-
-International Conference on Information and Communication Technologies in Forensics (ICTinForensics) (Last Seen in 2011)
-<http://www.ICTinForensics.org>
 
 <!-- -->
 
@@ -157,23 +127,13 @@ International Symposium on Recent Advances in Intrusion Detection
 
 <!-- -->
 
-International Workshop on Digital Forensics
-<http://www.ares-conference.eu/conf/index.php?option=com_content&view=article&id=49&Itemid=95>
-
-<!-- -->
-
 Open Source Software for Computer and Network Forensics (Last seen in 2008)
-<http://conferenze.dei.polimi.it/ossconf/index.php>
+<https://conferenze.dei.polimi.it/>
 
 <!-- -->
 
 Open Web Application Security Project
 <http://www.owasp.org/index.php/Main_Page>
-
-<!-- -->
-
-PacSec Conference
-<http://pacsec.jp/>
 
 <!-- -->
 
@@ -184,16 +144,6 @@ Security OPUS Information Security Conference (Last seen 2010)
 
 Sleuthkit and Open Source Digital Forensics Conference (OSDFCon)
 <http://www.osdfcon.org/>
-
-<!-- -->
-
-Systematic Approaches to Digital Forensic Engineering (SADFE)
-<http://conf.ncku.edu.tw/sadfe/>
-
-<!-- -->
-
-U.S. Cyber Crime Conference
-<http://www.usacybercrime.com/main/>
 
 <!-- -->
 
@@ -233,17 +183,12 @@ HTCIA International Training Conference and Expo
 <!-- -->
 
 IACIS Computer Forensic Training Event
-<http://www.iacis.com/event>
-
-<!-- -->
-
-Mobile Forensics Conference
-<http://www.mobileforensicsconference.com/>
+<https://www.iacis.com/>
 
 <!-- -->
 
 PFIC (Parabin Corporation)
-<http://www.pfic-conference.com/index.html>
+<https://pfic-conference.com/>
 
 <!-- -->
 
@@ -257,15 +202,10 @@ SANS Digital Forensics & Incident Response Summit & Training
 
 <!-- -->
 
-Techno Forensics Conference
-<http://www.technoforensicsconference.com/>
-
-<!-- -->
-
 Techno-Security Conference
 <http://www.techsec.com/>
 
 # See also
 
-- [Upcoming events](upcoming_events.md)
-- [Journals](journals.md)
+* [Upcoming events](upcoming_events.md)
+* [Journals](journals.md)

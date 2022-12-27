@@ -3,8 +3,8 @@ tags:
   - File Formats
 ---
 The **Excel Spreadsheet (XLSB) file format** has the **.xlsb** extension. This
-file type originates from [Microsoft Excel](microsoft_excel.md). However, other
-spreadsheet software can be used to display these files as well. These include:
+file type originates from Microsoft Excel. However, other spreadsheet software
+can be used to display these files as well. These include:
 
 * OpenOffice
 
@@ -12,9 +12,9 @@ spreadsheet software can be used to display these files as well. These include:
 
 ## File signature
 
-[Microsoft Excel](microsoft_excel.md) spreadsheets of version 2007 are stored
-in a [ZIP archive](zip_archive.md) file. These files therefore have the ZIP
-file signature
+Microsoft Excel spreadsheets of version 2007 are stored in a
+[ZIP archive](zip_archive.md) file. These files therefore have the ZIP file
+signature.
 
 ## See Also
 
