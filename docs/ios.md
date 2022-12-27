@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Operating Systems
+  - Mobile
+  - Operating Systems
 ---
 iOS (pronounced i-O.S.) is the name of the operating system for Apple's
 mobile devices (iPhone/iPad/iPod Touch).
@@ -52,7 +53,7 @@ operating systems (listed alphabetically):
   [4](http://www.oxygen-forensic.com/en/)
 * UFED and Physical Analyzer by Cellebrite
   [5](http://www.cellebrite.com/)
-* XRY by Micro Systemation [6](http://www.msab.com/)
+* XRY by [Micro Systemation](https://www.msab.com/)
 
 ## See Also
 
@@ -61,10 +62,7 @@ operating systems (listed alphabetically):
 
 ## External Links
 
-* [The Future of Mobile
-  Forensics](http://belkasoft.com/en/future-of-mobile-forensics),
+* [The Future of Mobile Forensics](http://belkasoft.com/en/future-of-mobile-forensics),
   article by [Belkasoft](belkasoft.md)
-* [Database Parsing
-  Tools](http://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
-* [iOS (iPhone OS)
-  Forensics](http://www.systoolsgroup.com/forensics/sqlite/ios.html)
+* [Database Parsing Tools](http://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
+* [iOS (iPhone OS) Forensics](http://www.systoolsgroup.com/forensics/sqlite/ios.html)

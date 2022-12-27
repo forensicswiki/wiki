@@ -1,14 +1,13 @@
 ---
 tags:
-  -  Disk Analysis
-  -  Tools
-  -  Windows
-  -  Linux
-  -  MacOS
-  -  FreeBSD
-  -  NetBSD
-  -  OpenBSD
-  -  Open Source Software
+  - Disk Analysis
+  - Tools
+  - Windows
+  - Linux
+  - MacOS
+  - FreeBSD
+  - NetBSD
+  - OpenBSD
 ---
 **Snorkel** is a Java software library that is used by developers of
 forensic software. Snorkel is not a standalone forensic application, but
@@ -60,6 +59,4 @@ from the website.
 
 # External Links
 
-- [the Netherlands Forensic
-  Institute](http://www.forensischinstituut.nl/)
-- [Snorkel website](http://www.holmes.nl/NFIlabs/Snorkel)
+* [the Netherlands Forensic Institute](http://www.forensischinstituut.nl/)
