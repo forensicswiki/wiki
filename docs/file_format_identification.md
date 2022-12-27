@@ -62,13 +62,6 @@ See:
 - Proprietary but free demo.
 - <http://www.oracle.com/technology/products/content-management/oit/oit_all.html>
 
-## [Forensic Assistant](forensic_assistant.md)
-
-- Proprietary.
-- Provides detection of password protected archives, some files of
-  cryptographic programs, Pinch/Zeus binary reports, etc.
-- <http://nhtcu.ru/0xFA_eng.html>
-
 ## Toolsley File Identifier
 
 - Free
