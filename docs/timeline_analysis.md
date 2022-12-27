@@ -95,11 +95,6 @@ tags:
 
 ## Tools
 
-[Aftertime](aftertime.md) - Java based application for creating timelines
-<http://www.holmes.nl/NFIlabs/Aftertime/index.html>
-
-<!-- -->
-
 [log2timeline](log2timeline.md) - An artifact timeline creation and analysis framework
 <http://log2timeline.net>
 
