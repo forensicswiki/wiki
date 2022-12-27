@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Commercial Software
-  -  System Analysis
+  - Tools
+  - Windows
+  - Commercial Software
+  - System Analysis
 ---
 **Defacto** is a software inventorization tool developed by National
-Hi-Tech Crime Unit [1](http://nhtcu.ru/) (Russia).
+Hi-Tech Crime Unit (Russia).
 
 ## Overview
 
@@ -31,5 +31,4 @@ detect cracked software.
 
 ## External Links
 
-- [Official website](http://www.defacto-com.ru/)
-
+* [Official website](http://www.defacto-com.ru/)

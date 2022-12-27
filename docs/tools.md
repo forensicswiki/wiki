@@ -9,18 +9,16 @@ any tool for more details.
 **Note: This page has gotten too big and is being broken up. See:**
 
 - [Disk Imaging](disk_imaging.md)
-- [Tools:Data Recovery](tools:data_recovery.md) (including file
-  [carving](carving.md)
-- [Tools:File Analysis](tools:file_analysis.md)
-- [Tools:Document Metadata
-  Extraction](tools:document_metadata_extraction.md)
-- [Tools:Memory Imaging](tools:memory_imaging.md)
-- [Tools:Memory Analysis](tools:memory_analysis.md)
-- [Tools:Network Forensics](tools:network_forensics.md)
+- [Data Recovery](tools:data_recovery.md)
+  (including [file carving](file_carving.md))
+- [File Analysis](tools:file_analysis.md)
+- [Document Metadata Extraction](tools:document_metadata_extraction.md)
+- [Memory Imaging](tools:memory_imaging.md)
+- [Memory Analysis](tools:memory_analysis.md)
+- [Network Forensics](tools:network_forensics.md)
 - [Tools:Logfile Analysis](tools:logfile_analysis.md)
-- [:Category:Anti-forensics
-  tools](:category:anti-forensics_tools.md)
-- [:Category:Secure deletion](:category:secure_deletion.md)
+- [Anti-forensics tools](:category:anti-forensics_tools.md)
+- [Secure deletion](:category:secure_deletion.md)
 
 # Disk Analysis Tools
 
@@ -678,7 +676,7 @@ view. Low-level data editing for extra leverage.
 
 [WinHex](winhex.md)
 Computer forensics software, data recovery software, hex editor, and
-disk editor from [X-Ways](x-ways.md).
+disk editor from [X-Ways](x-ways_ag.md).
 
 <http://www.x-ways.net/winhex>
 

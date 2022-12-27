@@ -3,7 +3,7 @@ tags:
   -  People
 ---
 Kris Kendall is a computer security consultant and software engineer. He
-co-authored the [carving](carving.md) tool
+co-authored the [carving](file_carving.md) tool
 [foremost](foremost.md) with [Jesse
 Kornblum](jesse_kornblum.md), and is currently interested in
 [malware analysis](malware_analysis.md) and more effective

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Data Recovery
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Data Recovery
 ---
 When the user requests to delete a file, most modern [operating
 systems](operating_system.md) do not erase the actual data.
@@ -14,7 +14,7 @@ directory entry itself is easily recovered. In these cases the files can
 be recovered using an *undelete* program. In other cases, however, the
 directory entry is not available — perhaps because it was overwritten.
 In these cases the only way that the file can be recovered is through
-the use of [File Carving](carving.md).
+the use of [File Carving](file_carving.md).
 
 Using an undelete function on FAT32 can be very dangerous if any files
 are fragmented. Deleting the file also removes the FAT entry and so the
@@ -23,4 +23,4 @@ making any changes to a disk is 'not allowed'.
 
 # See Also
 
-[Carving](carving.md)
+* [Carving](file_carving.md)

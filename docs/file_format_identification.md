@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools
+  - Tools
 ---
 File Format Identification is the process of figuring out the format of
 a sequence of bytes. Operating systems typically do this by file
@@ -33,10 +33,9 @@ SourgeForge.
 See:
 
 - [PRONOM](http://www.nationalarchives.gov.uk/PRONOM/Default.aspx)
-- [JHOVE](http://hul.harvard.edu/jhove/)
-- [JHOVE2](https://wiki.ucop.edu/display/JHOVE2Info/Home)
+- [JHOVE](https://jhove.openpreservation.org/)
 - [GDFR](http://www.gdfr.info/)
-- [UDFR](http://www.udfr.org/)
+- [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
 - [DROID download](http://droid.sourceforge.net)
 
 ## TrID - File Identifier
@@ -55,12 +54,11 @@ See:
 - Identifies 3,000+ file types, using multiple methods to maintain high
   accuracy.
 - Extracts metadata for many of the supported file types.
-- <http://www.forensicinnovations.com/fitools.html>
 
 ## Stellent/Oracle Outside-In
 
 - Proprietary but free demo.
-- <http://www.oracle.com/technology/products/content-management/oit/oit_all.html>
+- <https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html>
 
 ## Toolsley File Identifier
 
@@ -86,8 +84,6 @@ See:
   over a thousand different file types
 - <http://tika.apache.org/>
 
-
-
 # Data Sets
 
 If you are working in the field of file format identification, please
@@ -96,15 +92,9 @@ publicly available data sets:
 
 - NPS govdocs1m - a corpus of 1 million files that can be redistributed
   without concern of copyright or PII. Download from
-  <http://domex.nps.edu/corp/files/govdocs1/>
+  <https://digitalcorpora.org/corpora/files/>
 - The NPS Disk Corpus - a corpus of realistic disk images that contain
   no PII. Information is at: <http://digitalcorpora.org/?s=nps>
-
-# Comparisons/Evaluations
-
-- Comparison of Apache Tika, DROID and 'file' on 1TB, \~3 million files
-  from govdocs1 and a sample of Common Crawl, April 2016.
-  <http://162.242.228.174/mimes/mime_comparisons.html>
 
 # Bibliography
 
@@ -122,7 +112,7 @@ bibliography is in chronological order!**
 2003
 
 - [Content Based File Type Detection
-  Algorithms](http://www2.computer.org/portal/web/csdl/abs/proceedings/hicss/2003/1874/09/187490332a.pdf), M.
+  Algorithms](https://ieeexplore.ieee.org/document/1174905), M.
   McDaniel and M.H. Heydari, 36th Annual Hawaii International Conference
   on System Sciences (HICSS'03) - Track 9, 2003.
 
@@ -130,9 +120,8 @@ bibliography is in chronological order!**
 
 - Fileprints: identifying file types by n-gram analysis, LiWei-Jen, Wang
   Ke, Stolfo SJ, Herzog B.., Proceeding of the 2005 IEEE workshop on
-  information assurance, 2005. ([Presentation
-  Slides](http://www.itoc.usma.edu/workshop/2005/Papers/Follow%20ups/FilePrintPresentation-final.pdf))
-  ([PDF](http://www1.cs.columbia.edu/ids/publications/FilePrintPaper-revised.pdf))
+  information assurance, 2005.
+  ([PDF](https://academiccommons.columbia.edu/doi/10.7916/D86M3DJC))
 
 <!-- -->
 
@@ -146,15 +135,14 @@ bibliography is in chronological order!**
   their binary
   structure.](http://ieeexplore.ieee.org/iel5/10992/34632/01652088.pdf),
   Proceedings of the IEEE workshop on information assurance, pp.140–147,
-  2006.([Presentation
-  Slides](http://www.itoc.usma.edu/workshop/2006/Program/Presentations/IAW2006-07-3.pdf))
+  2006.
 
 <!-- -->
 
 - G.A. Hall, Sliding Window Measurement for File Type Identification,
   Computer Forensics and Intrusion Analysis Group, ManTech Security and
   Mission Assurance, 2006.
-  ([PDF](http://www.mantechcfia.com/SlidingWindowMeasurementforFileTypeIdentification.pdf))
+  ([PDF](https://www.researchgate.net/publication/237601448_Sliding_Window_Measurement_for_File_Type_Identification))
 
 <!-- -->
 
@@ -219,7 +207,7 @@ bibliography is in chronological order!**
 
 - I. Ahmed, K.-S. Lhee, H. Shin and M. Hong, [On Improving the Accuracy
   and Performance of Content-based File Type
-  Identification](http://www.springerlink.com/content/g2655k2044615q75/),
+  Identification](https://link.springer.com/chapter/10.1007/978-3-642-02620-1_4),
   Proceedings of the 14th Australasian Conference on Information
   Security and Privacy (ACISP 2009), pp.44-59, LNCS (Springer),
   Brisbane, Australia, July 2009.
@@ -235,7 +223,7 @@ bibliography is in chronological order!**
 
 - I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, [Content-based File-type
   Identification Using Cosine Similarity and a Divide-and-Conquer
-  Approach](http://cs.uno.edu/~irfan/Publications/IETE-2010.pdf), IETE
+  Approach](https://www.researchgate.net/publication/50257973_Content-based_File-type_Identification_Using_Cosine_Similarity_and_a_Divide-and-Conquer_Approach), IETE
   Technical Review, 27(6), 2010.
 
 2011
@@ -255,9 +243,6 @@ bibliography is in chronological order!**
 2013
 
 - M.C. Amirani, M. Toorani, and S. Mihandoost, [Feature‐based Type
-  Identification of File Fragments](http://dx.doi.org/10.1002/sec.553),
+  Identification of File Fragments](https://www.researchgate.net/publication/262239216_Feature-based_Type_Identification_of_File_Fragments),
   Journal of Security and Communications Networks, Vol.6, No.1, pp.
   115–128, 2013.
-  ([PDF](http://onlinelibrary.wiley.com/doi/10.1002/sec.553/pdf))
-
-[Category:Tools](category:tools.md)

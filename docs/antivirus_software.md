@@ -49,12 +49,5 @@ jailbroken or rooted.
 
 ## External Links and Resources
 
-[Open Directory - Computers: Security: Malicious Software: Viruses:
-Detection and Removal
-Tools](http://www.dmoz.org/Computers/Security/Malicious_Software/Viruses/Detection_and_Removal_Tools/)
-
-[How effective is antivirus software on smartphones? -
-TechRepublic](http://www.techrepublic.com/blog/security/how-effective-is-antivirus-software-on-smartphones/7629)
-
-[Wikipedia entry regarding antivirus
-software](http://en.wikipedia.org/wiki/Antivirus)
+* [How effective is antivirus software on smartphones? - TechRepublic](http://www.techrepublic.com/blog/security/how-effective-is-antivirus-software-on-smartphones/7629)
+* [Wikipedia entry regarding antivirus software](http://en.wikipedia.org/wiki/Antivirus)

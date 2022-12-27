@@ -23,7 +23,7 @@ examiner can hope for.
 
 Sadly, the most productive method to date for analyzing paging files is
 searching for [strings](strings.md). It is possible to [carve
-out files](carving.md), but as noted, the examiner is unlikely
+out files](file_carving.md), but as noted, the examiner is unlikely
 to find anything larger than 4KB. Also, bulk-extractor can be used to
 extract streams from the page file.
 
