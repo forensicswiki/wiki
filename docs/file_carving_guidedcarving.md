@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Data Carving 
+  - Data Recovery 
 ---
 **GuidedCarving** is a [File Carving](file_carving.md) technique
 to recover fragmented files introduced in [Adroit Photo

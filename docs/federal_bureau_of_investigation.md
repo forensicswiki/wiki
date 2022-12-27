@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 The Federal Bureau of Investigation (or FBI) is a US government agency
 responsible the primary role in investigation of federal crimes except

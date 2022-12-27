@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Data Carving
+  - Data Recovery
 ---
 **SmartCarving** is a [file carving](file_carving.md) technique
 to recover fragmented files first proposed by [A.
