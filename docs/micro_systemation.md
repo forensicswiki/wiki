@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 Micro Systemation (MSAB) is a public company based in Stockholm, Sweden
 who specialize in producing a mobile forensics product called XRY.
@@ -27,5 +27,7 @@ May 2011 they supplied over 95% of Police Forces in the United Kingdom
 with XRY.
 
 The company is listed on the Swedish Stock Exchange.
-[1](http://www.msab.com)
 
+## External Links
+
+* [Micro Systemation (MSAB)](https://www.msab.com/)

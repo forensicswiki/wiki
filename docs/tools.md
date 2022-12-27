@@ -475,12 +475,12 @@ See: [Forensics Live CDs](live_cd.md)
 ## GPS Forensics
 
 [Blackthorn GPS Forensics](blackthorn_gps_forensics.md)
-[.XRY](.xry.md)
+[.XRY](https://www.msab.com/)
 
 ## PDA Forensics
 
 [Cellebrite UFED](cellebrite_ufed.md)
-[.XRY](.xry.md)
+[.XRY](https://www.msab.com/)
 [Paraben PDA Seizure](paraben_pda_seizure.md)
 [Paraben PDA Seizure Toolbox](paraben_pda_seizure_toolbox.md)
 [PDD](pdd.md)
@@ -492,8 +492,7 @@ See: [Forensics Live CDs](live_cd.md)
 [Cellebrite UFED](cellebrite_ufed.md)
 [DataPilot Secure View](datapilot_secure_view.md)
 [Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md)
-[.XRY](.xry.md)
-<http://www.msab.com/index>
+[.XRY](https://www.msab.com/)
 
 [Fernico ZRT](fernico_zrt.md)
 [ForensicMobile](forensicmobile.md)
@@ -511,7 +510,7 @@ See: [Forensics Live CDs](live_cd.md)
 ## SIM Card Forensics
 
 [Cellebrite UFED](cellebrite_ufed.md)
-[.XRY](.xry.md)
+[.XRY](https://www.msab.com/)
 [ForensicSIM](forensicsim.md)
 [Paraben's SIM Card Seizure](paraben's_sim_card_seizure.md)
 <http://www.paraben-forensics.com/handheld_forensics.html>
