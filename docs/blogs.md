@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Blogs
+  - Blogs
+  - Research
 ---
 [Computer forensics](computer_forensics.md) related resources
 like: blogs, fora, tweets, tools and challenges (and test images).
@@ -66,41 +66,34 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Forense nella Nebbia](http://forensenellanebbia.blogspot.com/), by
   Gabriele Zambelli
 - [Forensic Incident Response](http://forensicir.blogspot.com/)
-- [Forensic Methods](http://forensicmethods.com/), by [Chad
-  Tilbury](chad_tilbury.md)
+- [Forensic Methods](http://forensicmethods.com/), by Chad Tilbury
 - [Forensicaliente](http://forensicaliente.blogspot.com/)
-- [ForensicKB: Computer Forensics, Malware Analysis, & Digital
-  Investigations](http://www.forensickb.com/), by [Lance
-  Mueller](lance_mueller.md)
-- [Forensics from the sausage
-  factory](http://forensicsfromthesausagefactory.blogspot.com), by
+- [ForensicKB: Computer Forensics, Malware Analysis, & Digital Investigations](http://www.forensickb.com/),
+  by [Lance Mueller](lance_mueller.md)
+- [Forensics from the sausage factory](http://forensicsfromthesausagefactory.blogspot.com), by
   Richard Drinkwater
 - [ForensicZone](http://forensiczone.blogspot.com/)
 - [Forensium Blog](http://www.forensium.com/Web_log)
 - [Ghetto Forensics](http://www.ghettoforensics.com/), by Brian Baskin
-- [Gillware Digital Forensics
-  Blog](http://www.gillware.com/forensics/blog), by [Cindy
-  Murphy](cindy_murphy.md)
-- [Grand Street Dreams](http://grandstreamdreams.blogspot.com/), by
-  Claus Valca
+- [Gillware Digital Forensics Blog](http://www.gillware.com/forensics/blog),
+  by [Cindy Murphy](cindy_murphy.md)
+- [Grand Street Dreams](http://grandstreamdreams.blogspot.com/),
+  by Claus Valca
 - [Guidance Software Blog](http://www.guidancesoftware.com/blog)
 - [Gustavo Duarte Blog](http://duartes.org/gustavo/blog/)
 - [Hacking Exposed - Computer Forensics blog](http://www.hecfblog.com/),
   by David Cowen
-- [HeX-OR Forensics](http://nicoleibrahim.com/), by [Nicole
-  Ibrahim](nicole_ibrahim.md)
+- [HeX-OR Forensics](http://nicoleibrahim.com/),
+  by [Nicole Ibrahim](nicole_ibrahim.md)
 - [int for(ensic){blog;}](http://computer.forensikblog.de/en/), by
   [Andreas Schuster](andreas_schuster.md)
 - [Irongeek](http://www.irongeek.com/), by Adrian Crenshaw
 - [JL's stuff](http://gleeda.blogspot.com/)
 - [Jonathan Zdziarski Blog](http://www.zdziarski.com/blog/)
-- [Journey into Incident Response
-  Blog](https://journeyintoir.blogspot.com/), by [Corey
-  Harrell](corey_harrell.md)
-- [JustAskWeg](http://justaskweg.com/), by [Jimmy
-  Weg](jimmy_weg.md)
-- [Mac4n6](http://www.mac4n6.com/), by [Sarah
-  Edwards](sarah_edwards.md)
+- [Journey into Incident Response Blog](https://journeyintoir.blogspot.com/),
+  by Corey Harrell
+- [JustAskWeg](http://justaskweg.com/), by [Jimmy Weg](jimmy_weg.md)
+- [Mac4n6](http://www.mac4n6.com/), by [Sarah Edwards](sarah_edwards.md)
 - [Mash That Key](http://www.mashthatkey.com/), by Carlos Cajigas
 - [Magnet Forensics Blog](http://www.magnetforensics.com/blog/)
 - [Meridian Discovery Blog](https://www.meridiandiscovery.com/blog/)
@@ -139,9 +132,8 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Windows Incident Response Blog](http://windowsir.blogspot.com/), by
   [Harlan Carvey](harlan_carvey.md)
 - [XMedius Security Blog](https://www.xmedius.com/en/blog/security/)
-- [Yogesh Khatri's forensic blog - Swift
-  Forensics](http://www.swiftforensics.com), by [Yogesh
-  Khatri](yogesh_khatri.md)
+- [Yogesh Khatri's forensic blog - Swift Forensics](http://www.swiftforensics.com),
+  by Yogesh Khatri
 - [Zena Forensics](http://blog.digital-forensics.it/)
 
 ### News Aggregate Blogs
@@ -277,4 +269,3 @@ See: [Journals](journals.md)
 # Conferences
 
 See: [Conferences](conferences.md)
-

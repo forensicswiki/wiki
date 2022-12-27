@@ -127,10 +127,8 @@ the following Windows Registry key
 
 ### Recovery store
 
-- [Internet Explorer RecoveryStore (aka Travelog) as evidence of
-  Internet Browsing
-  activity](http://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
-  by [Yogesh Khatri](yogesh_khatri.md), September 29, 2011
+- [Internet Explorer RecoveryStore (aka Travelog) as evidence of Internet Browsing activity](http://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
+  by Yogesh Khatri, September 29, 2011
 
 ### Typed URLS
 

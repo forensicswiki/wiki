@@ -7,8 +7,7 @@ system](file_system.md) developed and introduced by
 [Microsoft](microsoft.md) in 1995 with
 [Windows](windows.md) NT. As a replacement for the
 [FAT](fat.md) file system, it quickly became the standard for
-[Windows 2000](windows_2000.md), [Windows
-XP](windows_xp.md) and [Windows Server
+[Windows 2000](windows_2000.md), Windows XP and [Windows Server
 2003](windows_server_2003.md).
 
 The features of NTFS include:
@@ -51,11 +50,10 @@ data streams", "alternative data streams", etc. ADSs were included in
 **NTFS** in order to support the resource forks employed by the
 Hierarchal File System (HFS) employed by Macintosh systems.
 
-As of [Windows XP](windows_xp.md) SP2, files downloaded via
-Internet Explorer, Outlook, and Windows Messenger were automatically
-given specific "zoneid" ADSs. The [Windows](windows.md) Explorer
-shell would then display a warning when the user attempted to execute
-these files (by double-clicking them).
+As of Windows XP SP2, files downloaded via Internet Explorer, Outlook, and
+Windows Messenger were automatically given specific "zoneid" ADSs. The
+[Windows](windows.md) Explorer shell would then display a warning when the user
+attempted to execute these files (by double-clicking them).
 
 Sysadmins should be aware that prior to Vista, there are no tools native
 to the [Windows](windows.md) platform that would allow you to

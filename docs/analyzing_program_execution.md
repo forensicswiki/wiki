@@ -59,7 +59,7 @@ This article focuses on the direct program execution indicators.
   - [Prefetch](prefetch.md)
   - [ReadyBoot](readyboot.md)
   - [ReadyBoost](readyboost.md)
-  - [ReadyDrive](readydrive.md)
+  - ReadyDrive
   - [SuperFetch](superfetch.md)
 - [Run/RunOnce Registry keys](windows_registry.md#run-keys)
   (and equivalents)
@@ -79,13 +79,9 @@ will vary per product.
 
 ### Windows
 
-- [HowTo: Determine Program
-  Execution](http://windowsir.blogspot.com/2013/07/howto-determine-program-execution.html),
+- [HowTo: Determine Program Execution](http://windowsir.blogspot.com/2013/07/howto-determine-program-execution.html),
   by [Harlan Carvey](harlan_carvey.md), July 06, 2013
-- [It Is All About Program
-  Execution](http://journeyintoir.blogspot.com/2014/01/it-is-all-about-program-execution.html),
-  by [Corey Harrell](corey_harrell.md), January 14, 2014
-- [Know your Windows Processes or Die
-  Trying](http://sysforensics.org/2014/01/know-your-windows-processes.html),
+- [It Is All About Program Execution](http://journeyintoir.blogspot.com/2014/01/it-is-all-about-program-execution.html),
+  by Corey Harrell, January 14, 2014
+- [Know your Windows Processes or Die Trying](http://sysforensics.org/2014/01/know-your-windows-processes.html),
   by [Patrick Olsen](patrick_olsen.md), January 18, 2014
-

@@ -107,10 +107,7 @@ allows one or more images to be bundled in a single file. Multiple
 # External links
 
 - [Wikipedia: Metadata](http://en.wikipedia.org/wiki/Metadata)
-- [Automated Metadata
-  Extraction](http://theses.nps.navy.mil/08Jun_Migletz.pdf),James
-  Migletz, Master's Thesis, Naval Postgraduate School, June 2008
-- [Why is Microsoft Office metadata what it
-  is](https://journeyintoir.blogspot.com/2011/06/why-is-it-what-it-is.html),
-  [Corey Harrell](corey_harrell.md), Journey Into Incident
-  Response
+- [Automated Metadata Extraction](http://theses.nps.navy.mil/08Jun_Migletz.pdf),
+  by James Migletz, June 2008
+- [Why is Microsoft Office metadata what it is](https://journeyintoir.blogspot.com/2011/06/why-is-it-what-it-is.html),
+  by Corey Harrell

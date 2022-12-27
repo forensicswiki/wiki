@@ -32,8 +32,7 @@ introduced on Windows 7 (and also available on Windows 8).
 
 ## [Prefetch](prefetch.md)
 
-The prefetch hash function is similar to [Windows
-2008](windows_2008.md).
+The prefetch hash function is similar to Windows 2008.
 
 ## Registry
 
