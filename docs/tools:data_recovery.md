@@ -74,15 +74,13 @@ physically damaged hard drives.
 
 Freemium data recovery software for Windows and Mac OS X
 
-- [HD Doctor
-  Suite](http://www.salvationdata.com/data-recovery-equipment/hd-doctor.htm)
+- [HD Doctor Suite](https://www.salvationdata.com/)
 
 
 HD Doctor Suite is a set of professional tools used to fix firmware
 problem.
 
-- [Hetman Partition
-  Recovery](http://hetmanrecovery.com/hard_drive_recovery/software.htm)
+- [Hetman Partition Recovery](https://hetmanrecovery.com/)
 
 
 Hetman Partition Recovery combines the functionality of several disk
@@ -189,7 +187,7 @@ SSD, RAID, Flash storage devices. PC-3000 software runs on Windows OS
 PC INSPECTOR File Recovery is a freeware windows program that is able to
 recover files from FAT12/16/32 and NTFS file systems.
 
-- [SalvationDATA](http://www.salvationdata.com)
+- [SalvationDATA](https://www.salvationdata.com/)
 
 
 Claims to have a program that can read the "bad blocks" of Maxtor drives

@@ -1,18 +1,18 @@
 ---
 tags:
-  - No Category
+  - Mobile
+  - SIM 
 ---
 ## Summary
 
-A prerequisite for the use of SIMIS, is that the SIM card must be
-functional. A physically damaged, broken or dirty SIM may not function
-correctly, resulting in the recovery of corrupted data, or no data at
-all. In the forensic data recovery environment, SIM's will be presented
-in a variety of different conditions, ranging from good, but lightly
-soiled, through blood soaked to physically broken. Lightly soiled and
-blood soaked SIM's may be cleaned using appropriate methods, ensuring
-that the SIM is not further damaged taking care to preserve surface
-printing where possible.
+A prerequisite for the use of [SIMIS](http://www.3gforensics.co.uk/), is that
+the SIM card must be functional. A physically damaged, broken or dirty SIM may
+not function correctly, resulting in the recovery of corrupted data, or no data
+at all. In the forensic data recovery environment, SIM's will be presented in a
+variety of different conditions, ranging from good, but lightly soiled, through
+blood soaked to physically broken. Lightly soiled and blood soaked SIM's may be
+cleaned using appropriate methods, ensuring that the SIM is not further damaged
+taking care to preserve surface printing where possible.
 
 However, physically damaged or broken SIM's require more specialised
 processing to produce a viable SIM for data recovery purposes. Crownhill
@@ -71,8 +71,6 @@ from the preceding Physical, Optical and Electrical tests. X-ray
 examination is only undertaken where the integrity of the silicon die is
 thought to be uncompromised.
 
-## References
+## See Also
 
-1\. <http://www.3gforensics.co.uk/sim-card-data-recovery.htm>
-
-Back to [SIM Card Forensics](sim_card_forensics.md)
+* [SIM Card Forensics](sim_card_forensics.md)

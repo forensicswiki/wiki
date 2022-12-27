@@ -22,8 +22,8 @@ F0 AD BA 0A 00 00 00
 ## Contents
 
 The NK2 basically contains a list of items. The attributes of these
-items are defined by the [Microsoft Outlook](microsoft_outlook.md)
-[Message API (mapi)](message_api_(mapi).md).
+items are defined by the [Microsoft Outlook](microsoft_outlook.md) Message
+API (MAPI).
 
 ## External Links
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - Mobile
-  - Sim 
+  - SIM 
 ---
 
 <img src="../assets/images/600px-Simpic.jpg" title="Simpic.jpg" width="200" alt="Simpic.jpg" align="right" />
@@ -115,11 +115,12 @@ In general, some of this data can help an investigator determine:
 * SMS text (the message itself)
 
 There are many software solutions that can help the examiner to acquire
-the information from the SIM card. Several products include 3GForensics
-SIMIS [1](http://www.3gforensics.co.uk/products.htm), Inside Out's
-[SIMCon](http://simcon.no/), or SIM Content Controller, and Paraben
-Forensics' [SIM Card
-Seizure](http://www.paraben-forensics.com/catalog/product_info.php?products_id=289).
+the information from the SIM card. Several products include:
+
+* [3GForensics SIMIS](http://www.3gforensics.co.uk/)
+* Inside Out's [SIMCon](http://simcon.no/)
+* SIM Content Controller
+* Paraben Forensics' [SIM Card Seizure](http://www.paraben-forensics.com/catalog/product_info.php?products_id=289)
 
 The SIM file system is hierarchical in nature consisting of 3 parts:
 
@@ -235,25 +236,24 @@ particularly in [SMS](sms.md) and Abbreviated Dialing Numbers.
 
 ## Authentication Key (Ki)
 
-The authentication key or Ki is a 128 bit key used in the authentication
-and cipher key generation process. In a nutshell, the key is used to
-authenticate the SIM on the GSM network. Each SIM contains this key
-which is assigned to it by the operator during the personalization
-process. The SIM card is specially designed so the Ki can't be
-compromised using a smart-card interface. However, flaws in the GSM
-cryptography have been discovered that do allow the extraction of the Ki
-from the SIM card, and essentially SIM card duplication.
+The authentication key or Ki is a 128 bit key used in the authentication and
+cipher key generation process. In a nutshell, the key is used to authenticate
+the SIM on the GSM network. Each SIM contains this key which is assigned to it
+by the operator during the personalization process. The SIM card is specially
+designed so the Ki can't be compromised using a smart-card interface. However,
+flaws in the GSM cryptography have been discovered that do allow the extraction
+of the Ki from the SIM card, and essentially SIM card duplication.
 
 ## See also
 
 * [SIM Card Forensics](sim_card_forensics.md)
+* [SIM Explorer](sim_explorer.md)
 
-## References
+## External Links
 
 * [SIMCon](http://www.simcon.no/)
-* [SIM Explorer](sim_explorer.md)
 * [Sector Forensics](http://www.sectorforensics.co.uk/sim-examination.shtml)
-* [IJDE Spring 2003 Volume 2, Issue 1](http://www.utica.edu/academic/institutes/ecii/ijde/articles.cfm?action=issue&id=5):
+* [IJDE Spring 2003 Volume 2, Issue 1](http://www.utica.edu/academic/institutes/ecii/ijde/articles.cfm?action=issue&id=5)
   [Forensics and the GSM Mobile Telephone System](http://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
-* <http://en.wikipedia.org/wiki/Subscriber_Identity_Module>
+* [Wikipedia: SIM card](https://en.wikipedia.org/wiki/SIM_card)
 * [Forensics and SIM cards: an Overview](http://www.utica.edu/academic/institutes/ecii/publications/articles/EFE3EDD5-0AD1-6086-28804D3C49D798A0.pdf)

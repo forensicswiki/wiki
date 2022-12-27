@@ -1,22 +1,17 @@
 ---
 tags:
-  -  Deprecated
-  -  Windows
-  -  Memory Imaging
-  -  Disk Imaging
-  -  Tools
-  -  Anti-Forensics
+  - Deprecated
+  - Disk Imaging
+  - Memory Imaging
+  - Open Source Software
+  - Tools
+  - Windows
 ---
-**WinDD** is actually a set of Windows physical memory dumpers for both
-32- and 64-bit [Windows](windows.md).
+**WinDD** is actually a set of Windows physical memory dumpers for both 32-bit
+and 64-bit [Windows](windows.md).
 
-Win32dd is included on the [Helix Live CD](helix3.md) response
-tool.
+WinDD was deprecated in favor of MoonSols Windows Memory Toolkit.
 
-WinDD has be deprecated in favor of [MoonSols Windows Memory
-Toolkit](http://www.moonsols.com/windows-memory-toolkit/) as the project
-site indicates "Win32dd is so 2008 !".
+## External Links
 
-## External Linkes
-
-- [WinDD project site](http://windd.msuiche.net/)
+* [WinDD project site](https://sourceforge.net/projects/windd/)
