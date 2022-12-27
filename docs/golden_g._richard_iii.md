@@ -19,11 +19,9 @@ be found on Twitter at @nolaforensix.
 
 ## See Also
 
-[Forensics on GPUs](forensics_on_gpus.md)
+* [Forensics on GPUs](forensics_on_gpus.md)
 
 ## External Links
 
-- [Official website](http://www.cs.uno.edu/~golden)
-- [Arcane Alloy, LLC](http://www.arcanealloy.com)
-- [Outlook Purple](http://outlookpurple.blogspot.com)
-- [High ISO Music](http://www.highisomusic.com)
+* [Arcane Alloy, LLC](http://www.arcanealloy.com)
+* [Outlook Purple](http://outlookpurple.blogspot.com)

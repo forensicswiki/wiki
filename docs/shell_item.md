@@ -1,15 +1,14 @@
 ---
 tags:
-  -  Data Formats
+  - Data Formats
 ---
-The Windows Shell uses Shell Items (or Shell Item list) to identify
-items within the Windows Folder Hierarchy. A Shell Item list is much
-like a "path", and is unique to its parent folder. The format of the
-Shell Item is undocumented and varies between Windows versions.
+The Windows Shell uses Shell Items (or Shell Item list) to identify items
+within the Windows Folder Hierarchy. A Shell Item list is much like a "path",
+and is unique to its parent folder. The format of the Shell Item is
+undocumented and varies between Windows versions.
 
-The Shell Item is used in [Windows Shortcut (lnk)](lnk.md) file
-and the ShellBags key in the [Windows
-Registry](windows_registry.md).
+The Shell Item is used in [Windows Shortcut (lnk)](lnk.md) file and the
+ShellBags key in the [Windows Registry](windows_registry.md).
 
 ## Format
 
@@ -96,55 +95,35 @@ An example of a shell item list taken from **Calculator.lnk**
 
 ## External Links
 
-- [MSDN: Extending the Windows Explorer with Name Space
-  Extensions](http://www.microsoft.com/msj/archive/S332.aspx), by David
-  Campbell, July 1996
+- [MSDN: Extending the Windows Explorer with Name Space Extensions](http://www.microsoft.com/msj/archive/S332.aspx),
+  by David Campbell, July 1996
 - \[<http://msdn.microsoft.com/en-us/library/windows/desktop/cc144090(v=vs.85>).aspx
   MSDN: Introduction to the Shell Namespace (Windows)\]
 - \[<https://msdn.microsoft.com/en-us/library/windows/desktop/cc144093(v=vs.85>).aspx
   Implementing the Basic Folder Object Interfaces\]
-- [Fundamental Shell
-  Concepts](http://netez.com/2xExplorer/shellFAQ/bg_shell.html)
-- [MiTeC Registry
-  Analyser](http://mysite.verizon.net/hartsec/files/WRA_Guidance.pdf),
+- [Fundamental Shell Concepts](http://netez.com/2xExplorer/shellFAQ/bg_shell.html)
+- [MiTeC Registry Analyser](http://mysite.verizon.net/hartsec/files/WRA_Guidance.pdf),
   by [Allan S Hay](allan_hay.md), December 2004
-- [ShellBags Registry
-  Forensics](http://computer-forensics.sans.org/blog/2008/10/31/shellbags-registry-forensics/),
+- [ShellBags Registry Forensics](http://computer-forensics.sans.org/blog/2008/10/31/shellbags-registry-forensics/),
   by johnmccash, October 2008
-- [Shell Bag Format Analysis](http://42llc.net/?p=385), by [Yogesh
-  Khatri](yogesh_khatri.md), October 2009 (appears to be no
-  longer available)
-- [Using shellbag information to reconstruct user
-  activities](http://www.dfrws.org/2009/proceedings/p69-zhu.pdf), by
-  Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
-- [Windows Shell Item
-  format](https://github.com/libyal/libfwsi/blob/master/documentation/Windows%20Shell%20Item%20format.asciidoc),
-  by the [libfwsi project](libfwsi.md), July 2010 (work in
-  progress)
-- [Computer Forensic Artifacts: Windows 7
-  Shellbags](http://computer-forensics.sans.org/blog/2011/07/05/shellbags),
+- [Shell Bag Format Analysis](http://42llc.net/?p=385), by Yogesh Khatri,
+  October 2009 (appears to be no longer available)
+- [Using shellbag information to reconstruct user activities](http://www.dfrws.org/2009/proceedings/p69-zhu.pdf),
+  by Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
+- [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/master/documentation/Windows%20Shell%20Item%20format.asciidoc),
+  by the [libfwsi project](libfwsi.md), July 2010 (work in progress)
+- [Computer Forensic Artifacts: Windows 7 Shellbags](http://computer-forensics.sans.org/blog/2011/07/05/shellbags),
   Chad Tilbury, July 5, 2011
-- [Windows shellbag
-  forensics](http://www.williballenthin.com/forensics/shellbags/index.html),
+- [Windows shellbag forensics](http://www.williballenthin.com/forensics/shellbags/index.html),
   by [Willi Ballenthin](willi_ballenthin.md)
-- [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt
-  Volumes](http://volatility-labs.blogspot.ca/2012/09/movp-32-shellbags-in-memory-setregtime.html),
+- [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](http://volatility-labs.blogspot.ca/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   [Jamie Levy](jamie_levy.md), September 2012
-- [Shellbag Analysis, Revisited...Some
-  Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
+- [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
-- [Shellbag
-  research](http://tech.groups.yahoo.com/group/win4n6/message/7623), by
-  [Sebastien Bourdon-Richard](sebastien_bourdon-richard.md),
-  October 2012
-- [Shellbags Forensics: Addressing a Misconception (interpretation,
-  step-by-step testing, new findings, and
-  more)](http://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
+- [Shellbag research](http://tech.groups.yahoo.com/group/win4n6/message/7623),
+  by [Sebastien Bourdon-Richard](sebastien_bourdon-richard.md), October 2012
+- [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](http://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)
-- [Part 5: USB Device Research – Directory Traversal Artifacts (Shell
-  bagMRU
-  Entries)](http://nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
+- [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
   by Nicole Ibrahim, December 31, 2013
-- [ReactOS: Shell
-  Documentation](https://reactos.org/wiki/Shell_Documentation)
-
+- [ReactOS: Shell Documentation](https://reactos.org/wiki/Shell_Documentation)

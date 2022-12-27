@@ -294,8 +294,7 @@ below.
 
 ### 2011
 
-- 16 Jan 2011: [Mark Wade](mark_wade.md) about prefetch
-  forensics
+- 16 Jan 2011: Mark Wade about Prefetch forensics
 
 <!-- -->
 
@@ -343,5 +342,4 @@ below.
 
 ### 2012
 
-- 6 May 2012: [Corey Harrell](corey_harrell.md) discussed Volume
-  Shadow Copies.
+- 6 May 2012: Corey Harrell discussed Volume Shadow Copies.

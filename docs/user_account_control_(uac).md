@@ -19,18 +19,12 @@ Related EventLogs:
 
 ## External Links
 
-- [Wikipedia: User Account
-  Control](http://en.wikipedia.org/wiki/User_Account_Control)
-- [Vista UAC: The Definitive
-  Guide](http://www.codeproject.com/Articles/19165/Vista-UAC-The-Definitive-Guide),
+- [Wikipedia: User Account Control](http://en.wikipedia.org/wiki/User_Account_Control)
+- [Vista UAC: The Definitive Guide](http://www.codeproject.com/Articles/19165/Vista-UAC-The-Definitive-Guide),
   by Thomas Hruska, March 21, 2008
-- [The deal with
-  LUAFV.SYS](http://blogs.msdn.com/b/alexcarp/archive/2009/06/25/the-deal-with-luafv-sys.aspx),
+- [The deal with LUAFV.SYS](http://blogs.msdn.com/b/alexcarp/archive/2009/06/25/the-deal-with-luafv-sys.aspx),
   by Alex Carp, June 25, 2009
-- [You Are Not Admin with
-  UAC](http://journeyintoir.blogspot.ch/2012/10/you-are-not-admin-with-uac.html),
-  by [Corey Harrell](corey_harrell.md), October 8, 2012
-- [UAC Impact on
-  Malware](http://journeyintoir.blogspot.ch/2013/03/uac-impact-on-malware.html),
-  by [Corey Harrell](corey_harrell.md), March 4, 2013
-
+- [You Are Not Admin with UAC](http://journeyintoir.blogspot.ch/2012/10/you-are-not-admin-with-uac.html),
+  by Corey Harrell, October 8, 2012
+- [UAC Impact on Malware](http://journeyintoir.blogspot.ch/2013/03/uac-impact-on-malware.html),
+  by Corey Harrell, March 4, 2013

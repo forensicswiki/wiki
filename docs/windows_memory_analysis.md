@@ -74,11 +74,10 @@ Mora](robert-jan_mora.md) produced
 
 At the [Blackhat Federal](blackhat_(conference).md) conference in March 2007,
 [AAron Walters](aaron_walters.md) and [Nick Petroni](nick_petroni.md) released
-a suite called Volatools. Although it only worked on [Windows
-XP](windows_xp.md) Service Pack 2 images, it was able to produce a number of
-useful data. Volatools was updated and re-released as
-[Volatility](docs/windows_memory_analysis.md) in August 2007, and is now
-maintained and distributed by [Volatile Systems](https://www.volatilesystems.com/).
+a suite called Volatools. Although it only worked on Windows XP Service Pack 2
+images, it was able to produce a number of useful data. Volatools was updated
+and re-released as [Volatility](docs/windows_memory_analysis.md) in August
+2007, and is now maintained and distributed by [Volatile Systems](https://www.volatilesystems.com/).
 
 ## Bibliography
 

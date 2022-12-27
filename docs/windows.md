@@ -476,9 +476,8 @@ value:
 
 ### Malware/Rootkits
 
-- [Inside Windows
-  Rootkits](http://forensicmethods.com/inside-windows-rootkits), by
-  [Chad Tilbury](chad_tilbury.md), September 4, 2013
+- [Inside Windows Rootkits](http://forensicmethods.com/inside-windows-rootkits),
+  by Chad Tilbury, September 4, 2013
 
 ### Tracking removable media
 
@@ -583,7 +582,7 @@ value:
 #### Windows Event Logs
 
 - [Exploring the Program Inventory Event Log](http://journeyintoir.blogspot.ch/2014/03/exploring-program-inventory-event-log.html),
-  by [Corey Harrell](corey_harrell.md), March 24, 2014
+  by Corey Harrell, March 24, 2014
 - [Mute Sysmon - Silence Sysmon via event manifest tampering](https://securityjosh.github.io/2020/04/23/Mute-Sysmon.html),
   by SecurityJosh, April 23, 2020
 - [Common misconceptions about Windows EventLogs](https://osdfir.blogspot.com/2021/10/common-misconceptions-about-windows.html),
@@ -606,7 +605,7 @@ value:
 - [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
   by Yong Rhee, December 29, 2010
 - [Exploring Windows Error Reporting](http://journeyintoir.blogspot.ch/2014/02/exploring-windows-error-reporting.html),
-  by [Corey Harrell](corey_harrell.md), February 24, 2014
+  by Corey Harrell, February 24, 2014
 
 #### Windows Event Viewer
 

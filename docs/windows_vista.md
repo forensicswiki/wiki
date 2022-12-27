@@ -35,8 +35,7 @@ Note that this feature has been around since as early as Windows 2000
 
 ## [Prefetch](prefetch.md)
 
-Note that the prefetch hash function is different then that of [Windows
-XP](windows_xp.md).
+Note that the prefetch hash function is different then that of Windows XP.
 
 The [Windows Prefetch File
 Format](windows_prefetch_file_format.md) was changed to version
