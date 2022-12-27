@@ -3,11 +3,11 @@ tags:
   - Commercial Software
   - Mobile
 ---
-**SIMCon** is a program that securely images all files on a [GSM](gsm.md) [SIM
-Card](sim_cards.md) with a standard PC-SC [smart card](smart_card.md) reader,
-either [serial](serial.md) or [USB](usb.md). After imaging, the forensic
-investigator can then analyze the contents of the card.  Specific information
-regarding stored numbers, call history, and text messages are available.
+**SIMCon** is a program that securely images all files on a [GSM](gsm.md)
+[SIM Card](sim_cards.md) with a standard PC-SC smart card reader, either serial
+or [USB](usb.md). After imaging, the forensic investigator can then analyze the
+contents of the card. Specific information regarding stored numbers, call
+history, and text messages are available.
 
 SIMCon is now Paraben's SIM Card Seizure
 
@@ -134,9 +134,7 @@ free.
   multiple cards in the same session of the program. These issues
   include the appearance of random characters in both the contacts list
   and in the [SMS](sms.md). These complications are outlined in
-  the paper [Running head: SIM CARD FORENSICS WITH SIMCON
-  SOFTWARE](:image:huser_timothy_simcon_paper.doc.md) by
-  [Timothy D. Huser](user:thuser.md).
+  the paper SIM CARD FORENSICS WITH SIMCON SOFTWARE by Timothy D. Huser.
 
 <!-- -->
 

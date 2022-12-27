@@ -1,15 +1,20 @@
 ---
 tags:
-  -  Mobile Operating Systems
+  - Mobile Operating Systems
 ---
-**Symbian** is an open operating system, designed for mobile devices,
-with associated libraries, user interface frameworks and reference
-implementations of common tools, produced by Symbian Ltd. Symbian
-evolved from [Psion](psion.md)'s [EPOC](epoch.md) in
-1998. Symbian OS is currently owned by [BenQ](benq.md),
-[Ericsson](ericsson.md), [Panasonic](panasonic.md),
-[Nokia](nokia.md), [Siemens AG](siemens_ag.md) and [Sony
-Ericsson](sony_ericsson.md). ![](Symbian.png "Symbian.png")
+**Symbian** is an open operating system, designed for mobile devices, with
+associated libraries, user interface frameworks and reference implementations
+of common tools, produced by Symbian Ltd. Symbian evolved from Psion's
+[EPOC](epoch.md) in 1998.
+
+Symbian OS is currently owned by:
+
+* BenQ
+* Ericsson
+* [Nokia](nokia.md)
+* Panasonic
+* Siemens AG
+* [Sony Ericsson](sony_ericsson.md).
 
 ## Versions
 
@@ -35,10 +40,9 @@ business users who need a lot of information.
 
 ### Pearl
 
-Pearl is a DFRD for a Symbian [smart phone](smart_phone.md).
-Hardware platforms typically look like standard [cell
-phones](cell_phones.md) with small displays and limited
-keyboards.
+Pearl is a DFRD for a Symbian [smart phone](smartphones.md). Hardware platforms
+typically look like standard [cell phones](cell_phones.md) with small displays
+and limited keyboards.
 
 ### Quartz
 
@@ -55,7 +59,6 @@ Matsushita, and Psion that became independent in June 1998. Symbian was
 established by leaders in the computing and mobile industries to enable
 the mass market of communicators and smart phones. Here is a brief
 overview of the milestones in the history of Symbian.
-![](Piechart.png "Piechart.png")
 
 - In 1980, Psion Software was founded by David Potter.
 - 1990-1998 Psion releases devices using the EPOC16 OS, also known as
@@ -83,12 +86,3 @@ overview of the milestones in the history of Symbian.
 - Wide industry support and commitment
 - Applications that can be designed once and run on multiple devices
 - Diversity of devices for consumers
-
-## External links
-
-- [Symbian homepage](http://www.symbian.com/)
-- [Symbian Developer Network](http://developer.symbian.com/)
-- [Symbian Freeware](http://www.symbianfreeware.org/)
-- [All About Symbian](http://www.allaboutsymbian.com/)
-- [Symbian OS and Smartphone Information
-  Center](http://my-symbian.com/main/index.php)
