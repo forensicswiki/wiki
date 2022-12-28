@@ -38,11 +38,9 @@ shouldn't be overlooked.
 
 ## External Links
 
-<http://nintendo.about.com/od/faqmoddingyourgamecube/f/whatmoddo.htm>
-<http://en.wikipedia.org/wiki/Xbox>
+* [Wikipedia: Xbox](https://en.wikipedia.org/wiki/Xbox)
 
 ## Bibliography
 
-- [XFT: a forensic toolkit for the original Xbox game
-  console](http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=or),
+- [XFT: a forensic toolkit for the original Xbox game console](http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=or),
   by David Collins

@@ -19,7 +19,7 @@ CodeSuite also includes FileCount and FileIsolate for counting file
 attributes and quickly copying or deleting entire file trees. Both are
 free utilities.
 
-<http://www.safe-corp.biz>
+<http://www.safe-corp.com/>
 
 ## Open Source Tools
 

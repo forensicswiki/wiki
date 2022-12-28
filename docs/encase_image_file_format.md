@@ -125,21 +125,12 @@ products.
 
 ## External Links
 
-- [Sample image in EnCase, iLook, and dd
-  format](http://www.cfreds.nist.gov/v2/Basic_Mac_Image.html) - From the [Computer Forensic Reference Data Sets](computer_forensic_reference_data_sets.md) Project, the
-  E01 sample image dates from January 2005
-- [Expert Witness Compression Format
-  (EWF)](https://googledrive.com/host/0B3fBvzttpiiSMTdoaVExWWNsRjg/Expert%20Witness%20Compression%20Format%20(EWF).pdf),
+- [Sample image in EnCase, iLook, and dd format](https://cfreds.nist.gov/all/NIST/BasicMacImage) -
+  From the Computer Forensic Reference Data Sets Project, the E01 sample image
+  dates from January 2005
+- [Expert Witness Compression Format (EWF)](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%20(EWF).asciidoc),
   by the [libewf project](libewf.md), March 2006
-- Requires registration: [EnCase Evidence File Format Version
-  2](https://www.guidancesoftware.com/resources/Pages/doclib/Document-Library/EnCase-Evidence-File-Format-Version-2.aspx),
-  Guidance Software, January 2012
-- [ex01
-  Example](http://www.guidancesoftware.com/Document.aspx?did=1000019161),
-  by [Guidance Software](guidance_software.md), March 2012
-- [Expert Witness Compression Format (EWF) version
-  2](https://googledrive.com/host/0B3fBvzttpiiSMTdoaVExWWNsRjg/Expert%20Witness%20Compression%20Format%202%20(EWF2).pdf),
+- [Expert Witness Compression Format (EWF) version 2](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%202%20(EWF2).asciidoc),
   by the [libewf project](libewf.md), July 2012
-- [Validation of forensic images for assurance of digital evidence
-  integrity](http://researchrepository.murdoch.edu.au/24962/1/whole.pdf),
+- [Validation of forensic images for assurance of digital evidence integrity](https://researchrepository.murdoch.edu.au/id/eprint/24962/1/whole.pdf),
   by James Michael McCutcheon, November, 2014
