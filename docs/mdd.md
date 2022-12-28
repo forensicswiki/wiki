@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Memory Imaging
-  -  Open Source Software
-  -  Deprecated
+  - Deprecated
+  - Memory Imaging
+  - Open Source Software
+  - Tools
+  - Windows
 ---
 **mdd**, also known as **[ManTech dd](mantech.md)** or **Memory
 dd**, is a command line program to acquire an image of the memory of a
@@ -56,8 +56,7 @@ utility does.
 
     signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
 
-Also see: [Digital Signatures for Kernel Modules on
-Windows](http://www.microsoft.com/whdc/winlogo/drvsign/kmsigning.mspx)
+Also see: [SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
 
 ## Usage
 

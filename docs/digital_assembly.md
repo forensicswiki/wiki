@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 **Digital Assembly** offers computer forensics and data recovery
 software. Their products include:
@@ -15,14 +15,11 @@ software. Their products include:
 
 ## Notes
 
-The founders of Digital Assembly, won the best paper award at DFRWS 2008
-for their research work in
-[SmartCarving](file_carving:smartcarving.md).
-[SmartCarving](file_carving:smartcarving.md) is a [file
-carving](file_carving.md) technique used to recover fragmented
-files.
+The founders of Digital Assembly, won the best paper award at DFRWS 2008 for
+their research work in [SmartCarving](file_carving_smartcarving.md).
+SmartCarving is a [file carving](file_carving.md) technique used to recover
+fragmented files.
 
 ## External Links
 
-[Official Website](http://www.digital-assembly.com/)
-
+* [Official Website](http://www.digital-assembly.com/)

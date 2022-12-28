@@ -43,7 +43,7 @@ carving. The first set of file carving programs that can handle
 fragmented files automatically have finally arrived.
 
 A. Pal, Nasir Memon, T. Sencar and K. Shanmugasundaram have introduced
-a technique called [SmartCarving](file_carving:smartcarving.md) that can
+a technique called [SmartCarving](file_carving_smartcarving.md) that can
 recover fragmented files.
 
 ## File Carving Taxonomy
@@ -142,34 +142,28 @@ utility.
 [FAT Undelete Test \#1](http://dftt.sourceforge.net/test6/index.html) -
 Digital Forensics Tool Testing Image (dftt \#6)
 
-[NTFS Undelete (and leap year) Test
-\#1](http://dftt.sourceforge.net/test7/index.html) - Digital Forensics
-Tool Testing Image (dftt \#7)
+[NTFS Undelete (and leap year) Test \#1](http://dftt.sourceforge.net/test7/index.html) -
+Digital Forensics Tool Testing Image (dftt \#7)
 
-[Basic Data Carving Test -
-fat32](http://dftt.sourceforge.net/test11/index.html), Nick Mikus -
-Digital Forensics Tool Testing Image (dftt \#11)
+[Basic Data Carving Test - fat32](http://dftt.sourceforge.net/test11/index.html),
+by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#11)
 
-[Basic Data Carving Test -
-ext2](http://dftt.sourceforge.net/test12/index.html), Nick Mikus -
-Digital Forensics Tool Testing Image (dftt \#12)
+[Basic Data Carving Test - ext2](http://dftt.sourceforge.net/test12/index.html),
+by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#12)
 
 ## See also
 
-- [File Carving Tools](tools:data_recovery.md#carving)
-- [File Carving Bibliography](file_carving_bibliography.md)
-- [Carver 2.0 Planning Page](carver_2.0_planning_page.md)
-- [SmartCarving](file_carving:smartcarving.md)
+* [File Carving Tools](tools:data_recovery.md#carving)
+* [File Carving Bibliography](file_carving_bibliography.md)
+* [Carver 2.0 Planning Page](carver_2.0_planning_page.md)
+* [SmartCarving](file_carving_smartcarving.md)
 
 # Memory Carving
 
 ## External Links
 
-- [Measuring and Improving the Quality of File Carving
-  Methods](http://sourceforge.net/projects/revit/files/Documentation/Master%20Thesis%20-%20Advanced%20File%20Carving/),
-  by [Bas Kloet](bas_kloet.md), October 2007
-- [Advanced File Carving Approaches for Multimedia
-  Files](http://isyou.info/jowua/abstracts/jowua-v2n4-3.htm)
-  ([pdf](http://isyou.info/jowua/papers/jowua-v2n4-3.pdf)), by [Rainer
-  Poisel](mailto:rainer.poisel@gmail.com), Simon Tjoa, and Paul
-  Tavolato, December 2011
+* [Measuring and Improving the Quality of File Carving Methods](https://github.com/libyal/documentation/blob/main/Thesis%20-%20Measuring%20and%20Improving%20the%20Quality%20of%20File%20Carving%20Methods.pdf),
+  by Bas Kloet, October 2007
+* [Advanced File Carving Approaches for Multimedia Files](http://isyou.info/jowua/abstracts/jowua-v2n4-3.htm)
+  ([pdf](http://isyou.info/jowua/papers/jowua-v2n4-3.pdf)),
+  by Rainer Poisel, Simon Tjoa, and Paul Tavolato, December 2011

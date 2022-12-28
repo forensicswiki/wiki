@@ -205,12 +205,5 @@ forensic data for proof-of-integrity.
 
 ## File Sharing Analysis Tools
 
-[eMule Reader](http://cybermarshal.atc-nycorp.com/index.php/cyber-marshal-utilities/emule-reader)
-eMule Reader is a suite of command-line executables for parsing and
-printing configuration and log files associated with the eMule P2P
-client. eMule Reader is available free of charge.
-
 [P2P Marshal](p2pmarshal.md)
 Tools to discover and analyze peer-to-peer files for Windows.
-
-## [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools

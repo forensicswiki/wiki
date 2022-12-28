@@ -1,13 +1,8 @@
 ---
 tags:
-  -  People
+  - People
 ---
-## See Also
-
-- [Maresware](maresware.md)
 
 ## External Links
 
-- [Biography of Mares at
-  maresware.com](http://www.maresware.com/maresware/about_danmares.htm)
-
+* [Mares and Company](http://www.maresware.com/maresware/about_danmares.htm)
