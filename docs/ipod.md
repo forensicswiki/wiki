@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Hardware
-  -  Personal Devices
+  - Hardware
+  - Personal Devices
 ---
 <img src="../assets/images/300px-Ipod.jpg" align="right">
 The **iPod** is a brand of portable digital media player designed and
@@ -44,7 +44,7 @@ computer because of legality issues, although there are third party
 programs that circumvent Apple's protection.
 
 In addition to playing music and storing files, the iPod has limited
-[PDA](pda.md) functionality. Since January 2003, Mac users have
+PDA functionality. Since January 2003, Mac users have
 been able to synchronize their contacts and schedules Address Book and
 [iCal](ical.md) to their iPods through
 [iSync](isync.md). With the 2005 release of iTunes 5.0, Apple

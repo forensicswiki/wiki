@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 **Research In Motion Limited** (**RIM**) is a Canadian wireless device
 company. It is best known as the developer of the
@@ -20,8 +20,5 @@ components.
   BlackBerry OS.
 - [BlackBerry.com](http://www.blackberry.com/), the BlackBerry OS main
   site.
-- [BlackBerry Freeware Directory](http://www.blackberryfreeware.org/),
-  community-driven free software collection
 - [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
   Largest collaboration of Answers to Questions for BlackBerry
-

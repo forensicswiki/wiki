@@ -33,11 +33,15 @@ models of cell phones. As with most mobile device forensics software,
 Cell Seizure is frequently updated with support for new devices as they
 proliferate in the consumer market. However, this application can
 acquire information from most models made by the following companies:
-[Nokia](nokia.md), LG,
-[Samsung](samsung.md), Siemens,
-[Motorola](motorola.md),
-[Sony-Ericcson](sony-ericcson.md), and can also acquire
-[GSM](gsm.md) SIM Cards.
+
+* LG
+* Motorola
+* [Nokia](nokia.md)
+* Samsung
+* Siemens
+* [Sony-Ericcson](sony-ericcson.md)
+
+Also can acquire [GSM](gsm.md) SIM Cards.
 
 Another disadvantage would be that the format of acquired data can
 sometimes be confusing. The data is not organized nice and neat and
@@ -60,5 +64,4 @@ has been acquired.
 
 ## External Links
 
-* [Paraben Forensics Tools: Cell Seizure - Advanced Mobile Phone Forensics
-  Tool](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=311)
+* [Paraben Forensics Tools: Cell Seizure - Advanced Mobile Phone Forensics Tool](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=311)

@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 <img src="../assets/images/300px-BlackBerry.jpg" title=Blackberry align="right">)
 
-The [RIM](rim.md) **BlackBerry** is a personal wireless handheld
+The RIM **BlackBerry** is a personal wireless handheld
 device that supports e-mail, [mobile phone](mobile_phone.md)
 capabilities, text messaging, web browsing, and other wireless
 information services. It is most commonly utilized for business
@@ -13,8 +13,7 @@ purposes.
 ## History
 
 The BlackBerry was first introduced in 1999 by a company called
-[Research In Motion](research_in_motion.md)
-([RIM](rim.md)).
+[Research In Motion (RIM)](research_in_motion_limited.md).
 
 ## Operating System
 
@@ -47,7 +46,7 @@ composing messages are much more convenient by providing auto text.
 
 [Forensics on the RIM platform](blackberry_forensics.md) is
 complicated by the fact that this is a "push" device --- the RIM server
-will push device to the [PDA](pda.md) whenever the PDA's radio
+will push device to the PDA whenever the PDA's radio
 is on and there is data available.
 
 RIM devices also feature a remote self-destruct feature. This feature
@@ -61,17 +60,7 @@ times will wipe the device.
 
 ## References
 
-- [BlackBerry.com](http://www.blackberry.com/), the BlackBerry main
-  site.
-- [Research In Motion](http://www.rim.com/), the manufacturer of the
-  BlackBerry.
-- [BlackBerry Freeware Directory](http://www.blackberryfreeware.org/),
-  community-driven free software collection
+- [BlackBerry.com](http://www.blackberry.com/), the BlackBerry main site.
 - [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
   Largest collaboration of Answers to Questions for BlackBerry
-- [What is a
-  BlackBerry?](http://www.oreillynet.com/pub/a/wireless/2005/09/15/what-is-blackberry.html)
-- [Forensic Examination of a RIM (BlackBerry) Wireless
-  Device](http://www.rh-law.com/ediscovery/Blackberry.pdf)
-- [Wireless Stronghold
-  Bag](http://www.paraben-forensics.com/catalog/product_info.php?cPath=26&products_id=173&osCsid=cf1086f4531222932094533fe4420d74)
+- [Forensic Examination of a RIM (BlackBerry) Wireless Device](https://www.yumpu.com/en/document/view/8792468/forensic-examination-of-a-rim-blackberry-wireless-device)

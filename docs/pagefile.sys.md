@@ -38,10 +38,9 @@ extract streams from the page file.
 ## External Links
 
 * [Acquisition and Analysis of Windows Memory](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=72fcd62f512c0a484a2514d06c86c8693c5a379c),
-  by [Nicholas Maclean](nicholas_maclean.md) in 2006. Thesis on
-  [Windows memory analysis](windows_memory_analysis.md) and discusses the paging
-  file.
-* [Using Every Part of the Buffalo in Windows Memory Analysis](http://jessekornblum.com/publications/di07.pdf),
+  by Nicholas Maclean, 2006. Thesis on [Windows memory analysis](windows_memory_analysis.md)
+  and discusses the paging file.
+* [Using Every Part of the Buffalo in Windows Memory Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1742287607000047),
   by [Jesse Kornblum](jesse_kornblum.md) in 2006. A paper discussing the
   different states of memory including where to find data in the paging file.
 
