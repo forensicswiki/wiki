@@ -21,9 +21,7 @@ skill is required to alter or otherwise manipulate it.
 
 Some kinds of metadata that are interesting in computer forensics:
 
-- [File system](file_system.md) metadata (e.g. [MAC
-  times](mac_times.md), [access control
-  lists](access_control_lists.md)
+- File system metadata (e.g. [MAC times](mac_times.md), [access control lists](access_control_lists.md)
 - Digital image metadata. Although information such as the image size
   and number of colors are technically metadata, [JPEG](jpeg.md)
   and other file formats store additional data about the photo or the
@@ -75,19 +73,16 @@ property set streams. Here are some tools for processing them:
 
 - [Jakarta POI](http://jakarta.apache.org/poi/index.html) Open Source
   implementation in Java.
-- [Payne Consulting Metadata
-  Assistant](http://www.thepaynegroup.com/products/metadata/) Metadata
+- [Payne Consulting Metadata Assistant](http://www.thepaynegroup.com/products/metadata/) Metadata
   Analysis and cleanup.
 - [Inforenz Forager](http://www.inforenz.com/software/forager.html)
   Inforenz Forager
 - [OleDeconstruct](http://sandersonforensics.com/forum/content.php?120-OleDeconstruct)
   Free utility from Sanderson Forensics.
-- [SquirrelGripper Perl
-  script](https://cheeky4n6monkey.blogspot.com/2012/05/perl-script-plays-matchmaker-with.html)
+- [SquirrelGripper Perl script](https://cheeky4n6monkey.blogspot.com/2012/05/perl-script-plays-matchmaker-with.html)
   Extract fields into SQLite Database.
-- [FOCA - Eleven
-  Paths](https://www.elevenpaths.com/labstools/foca/index.html) Scan and
-  group metadata information.
+- [FOCA - Eleven Paths](https://www.elevenpaths.com/labstools/foca/index.html)
+  Scan and group metadata information.
 
 <!-- -->
 

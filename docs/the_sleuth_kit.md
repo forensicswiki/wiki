@@ -1,41 +1,39 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Linux
-  -  MacOS
-  -  Disk Analysis
-  -  Data Carving
-  -  Data Recovery
-  -  Open Source Software
+  - Data Carving
+  - Data Recovery
+  - Disk Analysis
+  - Linux
+  - MacOS
+  - Open Source Software
+  - Tools
+  - Windows
 ---
-**The Sleuth Kit** (**TSK**) is a collection of
-[UNIX](unix.md)-based command line tools that allow you to
-investigate a computer. The current focus of the tools is the file and
-volume systems and TSK supports multiple [file
-systems](file_system.md).
+**The Sleuth Kit** (**TSK**) is a collection of [UNIX](unix.md)-based command
+line tools that allow you to investigate a computer. The current focus of the
+tools is the file and volume systems and TSK supports multiple file systems.
 
-[Autopsy](autopsy.md) is a front-end for TSK which allows
-browser-based access to the TSK tools.
+Autopsy is a front-end for TSK which allows browser-based access to the TSK
+tools.
 
 # Features
 
 The Sleuth Kit is arranged in layers. There is a *data layer* which is
 concerned with how information is stored on a disk and a *metadata layer* which
-is considered with information such as [inodes](inode.md) and directories. The
-commands that deal with the data layer are prefixed with the letter *d*, which
-the commands that deal with the metadata layer are prefixed with the letter *i*.
+is considered with information such as inodes and directories. The commands
+that deal with the data layer are prefixed with the letter *d*, which the
+commands that deal with the metadata layer are prefixed with the letter *i*.
 
 Some of the commands in Sleuth Kit are:
 
 blkcat
-Views the contents of a [block](block.md).
+Views the contents of a block.
 
 <!-- -->
 
 blkls
-Lists [unallocated blocks](unallocated_block.md). Makes keyword
-searches more efficient. Gets a list of unallocated blocks.
+Lists unallocated blocks. Makes keyword searches more efficient. Gets a list of
+unallocated blocks.
 
 <!-- -->
 
@@ -50,9 +48,8 @@ Details about a given block.
 <!-- -->
 
 icat
-View contents of a file given its inode value or [cluster
-number](cluster_number.md). Doesn't list directories, lists the
-contents.
+View contents of a file given its inode value or cluster number. Doesn't list
+directories, lists the contents.
 
 <!-- -->
 
@@ -69,7 +66,7 @@ Information about an inode number.
 - [NTFS](ntfs.md)
 - [FAT-12, FAT-16, FAT-32](fat.md), exFAT
 - [ext2, ext3, ext4](extended_file_system_(ext).md)
-- [UFS](ufs.md)
+- UFS
 - ISO 9660 version 1
 - [HFS+, HFSX](hfs+.md)
 - [Yaffs](yaffs.md)
@@ -102,8 +99,7 @@ Note that there are numerous known issues with the
 ## Hash Databases
 
 - Uses [MD5](md5.md) or [SHA-1](sha-1.md).
-- Interfaces with NIST [NSRL](nsrl.md),
-  [Hashkeeper](hashkeeper.md) and customer databases.
+- Interfaces with NIST NSRL, [Hashkeeper](hashkeeper.md) and customer databases.
 
 ## Evidence Collection Features
 
@@ -120,12 +116,10 @@ Common Public License version 1.0. For more information see:
 
 ## Ext4 support
 
-In 2011 [Willi Ballenthin](willi_ballenthin.md) provided
-[patches](http://www.williballenthin.com/ext4/) for the SleutKit to add
-ext4 support. These patches were integrated by [Kevin
-Fairbanks](kevin_fairbanks.md) into a separate [fork of the
-SleuthKit](https://github.com/kfairbanks/sleuthkit/tree/Ext4_Dev). This
-fork was integrated in the 4.1.0 version.
+In 2011 Willi Ballenthin provided patches for the SleutKit to add ext4 support.
+These patches were integrated by [Kevin Fairbanks](kevin_fairbanks.md) into a
+separate [fork of the SleuthKit](https://github.com/kfairbanks/sleuthkit/tree/Ext4_Dev).
+This fork was integrated in the 4.1.0 version.
 
 Note that ext4 format features introduced after SleutKit 4.1.0 might not
 be supported and SleutKit tools might incorrectly represent these
@@ -133,14 +127,11 @@ be supported and SleutKit tools might incorrectly represent these
 
 # See Also
 
-- [The Sleuth Kit How-To](the_sleuth_kit_how-to.md)
-- [Bodyfile](bodyfile.md)
-- [tsk-cp](tsk-cp.md)
-- The mmls [OCFA treegraph API](ocfa_treegraph_api.md) example
-  module.
+* [The Sleuth Kit How-To](the_sleuth_kit_how-to.md)
+* [Bodyfile](bodyfile.md)
+* [tsk-cp](tsk-cp.md)
+* The mmls [OCFA treegraph API](ocfa_treegraph_api.md) example module.
 
 # External Links
 
-- [Autopsy website](http://www.sleuthkit.org/autopsy/desc.php)
-
-## External Reviews
+* [Autopsy website](http://www.sleuthkit.org/autopsy/desc.php)

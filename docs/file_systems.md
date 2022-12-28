@@ -35,10 +35,9 @@ Originally used by [MS-DOS](ms-dos.md). Includes [FAT12](fat.md),
 <!-- -->
 
 [FFS](ffs.md)
-The **Fast File System** used by some BSD versions of
-[UNIX](unix.md) and from which [UFS](ufs.md) was derived
-supporting faster disk access and [symbolic
-links](symbolic_link.md) like ffs.
+The **Fast File System** used by some BSD versions of [UNIX](unix.md) and from
+which UFS was derived supporting faster disk access and [symbolic links](symbolic_link.md)
+like ffs.
 
 <!-- -->
 
@@ -70,7 +69,7 @@ File system introduced by [Microsoft](microsoft.md) with
 
 <!-- -->
 
-[UFS](ufs.md)
+UFS
 The **Unix File System**, introduced with [UNIX](unix.md).
 
 <!-- -->

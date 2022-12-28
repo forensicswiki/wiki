@@ -24,7 +24,7 @@ following specialised tools in the Masterkey Linux distribution:
 AIR is a GUI front-end to dd/dcfldd designed for easily creating
 forensic bit images.
 
-- **[Autopsy](autopsy.md)** 2.21
+- **Autopsy** 2.21
 
 The Autopsy Forensic Browser is a graphical interface to the command
 line digital investigation tools in The Sleuth Kit.
