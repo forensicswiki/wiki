@@ -307,7 +307,7 @@ formats is ongoing.
 
 <!-- -->
 
-[Autopsy](autopsy.md)
+Autopsy
 <http://www.sleuthkit.org/autopsy/desc.php>
 
 <!-- -->

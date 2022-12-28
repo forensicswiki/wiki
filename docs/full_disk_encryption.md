@@ -170,20 +170,17 @@ Jetico BestCrypt
 <!-- -->
 
 [loop-AES](loop-aes.md)
-Transparent [file system](file_system.md) and
-[swap](swap.md) encryption for [Linux](linux.md) using
-the loopback device and [AES](aes.md).
+Transparent file system and [swap](swap.md) encryption for [Linux](linux.md)
+using the loopback device and [AES](aes.md).
 
 <http://sourceforge.net/projects/loop-aes/>
 
 <!-- -->
 
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md) or [dm-crypt](dm-crypt.md)
-Transparent [file system](file_system.md) and
-[swap](swap.md) encryption for [Linux](linux.md) using
-the Linux 2.6 device mapper. Supports various
-[ciphers](ciphers.md) and [Linux Unified Key Setup
-(LUKS)](linux_unified_key_setup_(luks).md).
+Transparent file system and [swap](swap.md) encryption for [Linux](linux.md)
+using the Linux 2.6 device mapper. Supports various [ciphers](ciphers.md) and
+[Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 
 <http://www.saout.de/misc/dm-crypt/>
 

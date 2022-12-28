@@ -1,8 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Binary
+  - File Formats
+  - Windows
 ---
 MS Windows 2000, XP and 2003 typically maintain three Event Log files:
 Application, System, and Security. They are generally found in the
@@ -124,16 +123,14 @@ be careful to keep these issues in mind when analyzing EVT logs.
 
 ## See Also
 
-- [Windows XML Event Log
-  (evtx)](windows_xml_event_log_(evtx).md)
+- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 - [Windows](windows.md)
 
 ## External Links
 
 ### File Format
 
-- [Windows Event Log (EVT)
-  format](http://code.google.com/p/libevt/downloads/detail?name=Windows%20Event%20Log%20%28EVT%29.pdf),
+- [Windows Event Log (EVT) format](https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc),
   by the [libevt project](libevt.md)
 
 ### Event identifiers
@@ -155,16 +152,13 @@ be careful to keep these issues in mind when analyzing EVT logs.
 - [<File::ReadEVT>](http://www.cpan.org/modules/by-authors/id/H/HC/HCARVEY/)
   is a Perl module that parses event log files for the purpose of
   forensics.
-- [Windows Eventlog
-  Viewer](http://www.tzworks.net/prototype_page.php?proto_id=4) Free
-  tool that can be run on Windows, Linux or Mac OS-X. Parses Windows XP,
+- [Windows Eventlog Viewer](http://www.tzworks.net/prototype_page.php?proto_id=4)
+  Free tool that can be run on Windows, Linux or Mac OS-X. Parses Windows XP,
   Vista and Windows 7 eventlogs.
 - [evtwalk](http://www.tzworks.net/prototype_page.php?proto_id=25)
   Command line tool to pull events and generate reports (password
   changes, logons, clock changes, system start/stop, and credential
   changes) from Windows event logs.
 - [libevt](libevt.md)
-- [lfle.py](https://github.com/williballenthin/LfLe), by [Willi
-  Ballenthin](willi_ballenthin.md)
+- [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin
 - [evtkit - fix broken evt files](https://github.com/yarox24/evtkit)
-

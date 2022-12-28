@@ -2,20 +2,18 @@
 tags:
   - File Systems
 ---
-The **New Technology File System** (**NTFS**) is a [file
-system](file_system.md) developed and introduced by
-[Microsoft](microsoft.md) in 1995 with
-[Windows](windows.md) NT. As a replacement for the
-[FAT](fat.md) file system, it quickly became the standard for
-[Windows 2000](windows_2000.md), Windows XP and [Windows Server
-2003](windows_server_2003.md).
+The **New Technology File System** (**NTFS**) is a file system developed and
+introduced by [Microsoft](microsoft.md) in 1995 with [Windows](windows.md) NT.
+As a replacement for the [FAT](fat.md) file system, it quickly became the
+standard for [Windows 2000](windows_2000.md), Windows XP and
+[Windows Server 2003](windows_server_2003.md).
 
 The features of NTFS include:
 
-- [Hard-links](hard-links.md)
-- Improved performance, reliability and disk space utilization
-- Security [access control lists](access_control_lists.md)
-- File system journaling
+* [Hard-links](hard-links.md)
+* Improved performance, reliability and disk space utilization
+* Security [access control lists](access_control_lists.md)
+* File system journaling
 
 ## Time Stamps
 
@@ -139,74 +137,51 @@ TxF uses the [Common Log File System
 
 ## Also see
 
-- [\$MFT]($mft.md)
+* [\$MFT]($mft.md)
 
 ## External links
 
-- [Technet: How NTFS
-  Works](http://technet.microsoft.com/en-us/library/cc781134%28WS.10%29.aspx),
+* [Technet: How NTFS Works](http://technet.microsoft.com/en-us/library/cc781134%28WS.10%29.aspx),
   by [Microsoft](microsoft.md)
-- \[<http://msdn.microsoft.com/en-us/library/bb470206(v=vs.85>).aspx
-  Master File Table\], by [Microsoft](microsoft.md)
-- [MS-FSCC - Known Alternate Stream
-  Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx), by
-  [Microsoft](microsoft.md)
-- [Wikipedia: NTFS](http://en.wikipedia.org/wiki/NTFS)
-- [Wikipedia: NTFS Reparse
-  point](http://en.wikipedia.org/wiki/NTFS_reparse_point)
-- [MSDN: Transactional
-  NTFS](http://msdn.microsoft.com/en-us/library/bb968806%28v=VS.85%29.aspx)
-- [Wikipedia: Transactional
-  NTFS](http://en.wikipedia.org/wiki/Transactional_NTFS)
-- [Windows NTFS Metadata Extractor
-  Utility](http://www.tzworks.net/prototype_page.php?proto_id=12) Free
-  tool that can be run on Windows, Linux or Mac OS-X
-- [Graphic Engine for NTFS Analysis
-  (gena)](http://www.tzworks.net/prototype_page.php?proto_id=28) (GUI to
-  view NTFS internals/extract data on live systems)
-- [Linux-ntfs
-  Documentation](http://sourceforge.net/projects/linux-ntfs/files/NTFS%20Documentation/)
-  Detailed documentation of the NTFS format by the Linux-NTFS driver
-  creators.
-- [Default cluster size for NTFS, FAT, and
-  exFAT](http://support.microsoft.com/kb/140365)
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx
-  Distributed Link Tracking and Object Identifiers\]
-- [New Technologies File System
-  (NTFS)](https://github.com/libyal/libfsntfs/blob/master/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
+* [Master File Table](http://msdn.microsoft.com/en-us/library/bb470206(v=vs.85>).aspx)
+* [MS-FSCC - Known Alternate Stream Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx),
+  by [Microsoft](microsoft.md)
+* [Wikipedia: NTFS](http://en.wikipedia.org/wiki/NTFS)
+* [Wikipedia: NTFS Reparse point](http://en.wikipedia.org/wiki/NTFS_reparse_point)
+* [MSDN: Transactional NTFS](http://msdn.microsoft.com/en-us/library/bb968806%28v=VS.85%29.aspx)
+* [Wikipedia: Transactional NTFS](http://en.wikipedia.org/wiki/Transactional_NTFS)
+* [Windows NTFS Metadata Extractor Utility](http://www.tzworks.net/prototype_page.php?proto_id=12)
+  Free tool that can be run on Windows, Linux or Mac OS-X
+* [Graphic Engine for NTFS Analysis (gena)](http://www.tzworks.net/prototype_page.php?proto_id=28)
+  (GUI to view NTFS internals/extract data on live systems)
+* [Linux-ntfs Documentation](http://sourceforge.net/projects/linux-ntfs/files/NTFS%20Documentation/)
+  Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
+* [Default cluster size for NTFS, FAT, and exFAT](http://support.microsoft.com/kb/140365)
+* [Distributed Link Tracking and Object Identifiers](http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx)
+* [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/master/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
   by the [libfsntfs project](libfsntfs.md), August 2009
-- [The Four Stages of NTFS File
-  Growth](http://blogs.technet.com/b/askcore/archive/2009/10/16/the-four-stages-of-ntfs-file-growth.aspx),
+* [The Four Stages of NTFS File Growth](http://blogs.technet.com/b/askcore/archive/2009/10/16/the-four-stages-of-ntfs-file-growth.aspx),
   by Jeff Hughes, October 16, 2009
-- [Incident Response with NTFS INDX Buffers – Part 1: Extracting an INDX
-  Attribute](https://www.mandiant.com/blog/striking-gold-incident-response-ntfs-indx-buffers-part-1-extracting-indx/),
+* [Incident Response with NTFS INDX Buffers – Part 1: Extracting an INDX Attribute](https://www.mandiant.com/blog/striking-gold-incident-response-ntfs-indx-buffers-part-1-extracting-indx/),
   by William Ballenthin, September 18, 2012
-- [Incident Response with NTFS INDX Buffers – Part 2: The Internal
-  Structures of a File Name
-  Attribute](https://www.mandiant.com/blog/incident-response-ntfs-indx-buffers-part-2-internal-structures-file-attribute/),
+* [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/blog/incident-response-ntfs-indx-buffers-part-2-internal-structures-file-attribute/),
   by Jeff Hamm, September 26, 2012
-- [Analysis of hidden data in the NTFS file
-  system](http://www.forensicfocus.com/hidden-data-analysis-ntfs), by
-  Cheong Kai Wee
-- [The Four Stages of NTFS File Growth, Part
-  2](http://blogs.technet.com/b/askcore/archive/2015/03/12/the-four-stages-of-ntfs-file-growth-part-2.aspx),
+* [Analysis of hidden data in the NTFS file system](http://www.forensicfocus.com/hidden-data-analysis-ntfs),
+  by Cheong Kai Wee
+* [The Four Stages of NTFS File Growth, Part 2](http://blogs.technet.com/b/askcore/archive/2015/03/12/the-four-stages-of-ntfs-file-growth-part-2.aspx),
   by John Marlin, March 12, 2015
-- [A Tale of Two File
-  Names](https://usn.pw/blog/gen/2015/06/09/filenames/), by Thomas
-  Galvin, June 9, 2015
-- [Parsing the \$MFT NTFS metadata
-  file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
+* [A Tale of Two File Names](https://usn.pw/blog/gen/2015/06/09/filenames/),
+  by Thomas Galvin, June 9, 2015
+* [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020
-- [Windows Container
-  Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
+* [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
   by Jonathan Greig, July 13, 2021
 
 ### Alternate Data Stream (ADS)
 
-- [MS-FSCC: Known Alternate Stream
-  Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx), by
-  [Microsoft](microsoft.md)
+* [MS-FSCC: Known Alternate Stream Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx),
+  by [Microsoft](microsoft.md)
 
 ### USN change journal (UsnJrnl)
 
-- [Wikipedia: USN Journal](https://en.wikipedia.org/wiki/USN_Journal)
+* [Wikipedia: USN Journal](https://en.wikipedia.org/wiki/USN_Journal)

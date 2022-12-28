@@ -115,7 +115,7 @@ An example of a shell item list taken from **Calculator.lnk**
 - [Computer Forensic Artifacts: Windows 7 Shellbags](http://computer-forensics.sans.org/blog/2011/07/05/shellbags),
   Chad Tilbury, July 5, 2011
 - [Windows shellbag forensics](http://www.williballenthin.com/forensics/shellbags/index.html),
-  by [Willi Ballenthin](willi_ballenthin.md)
+  by Willi Ballenthin
 - [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](http://volatility-labs.blogspot.ca/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   [Jamie Levy](jamie_levy.md), September 2012
 - [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
