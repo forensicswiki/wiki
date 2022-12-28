@@ -3,7 +3,7 @@ tags:
   - Mobile
 ---
 The **Integrated Digital Enhanced Network** (**iDEN**) is a proprietary
-mobile communications technology from [Motorola](motorola.md).
+mobile communications technology from Motorola.
 It is a [TDMA](tdma.md) based digital wireless standard that
 operates in the 800 MHz, 900MHz, and 1.5 GHz bands. It combines the
 capabilities of a [digital cellular telephone](cell_phones.md)

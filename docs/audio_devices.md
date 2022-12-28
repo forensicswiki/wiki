@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Hardware
-  -  Articles that need to be expanded
+  - Hardware
+  - Articles that need to be expanded
 ---
 **Audio devices** allow you to play or record audio, which can be
 sounds, music, speech, etc. These devices can be interesting for a
@@ -11,5 +11,5 @@ contain not only audio files, but also text documents, images and so on.
 ## Audio Devices
 
 - Apple [iPod](ipod.md)
-- iRiver [iRiver](iriver.md)
+- iRiver
 - Zune [Zune](zune.md)

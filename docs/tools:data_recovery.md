@@ -80,7 +80,7 @@ Freemium data recovery software for Windows and Mac OS X
 HD Doctor Suite is a set of professional tools used to fix firmware
 problem.
 
-- [Hetman Partition Recovery](https://hetmanrecovery.com/)
+- [Hetman Partition Recovery](https://en.wikipedia.org/wiki/Hetman_Partition_Recovery)
 
 
 Hetman Partition Recovery combines the functionality of several disk

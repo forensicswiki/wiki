@@ -67,23 +67,20 @@ There are 2 main branches of Windows:
 
 - [File History](windows_file_history.md)
 - [Storage Spaces](windows_storage_spaces.md)
-- [Search Charm History](search_charm_history.md)
-- [Resilient File System
-  (refs)](resilient_file_system_(refs).md); Was initially
+- Search Charm History
+- [Resilient File System (refs)](resilient_file_system_(refs).md); Was initially
   available in the Windows 8 server edition.
 
 ### Introduced in Windows Server 2012
 
-- [Resilient File System
-  (refs)](resilient_file_system_(refs).md)
+- [Resilient File System (refs)](resilient_file_system_(refs).md)
 
 ### Introduced in [Windows 10](windows_10.md)
 
 - [Cortana](cortana.md)
-- [Microsoft Edge](microsoft_edge.md) Web Browser
-- [Notification Center](notification_center.md)
-- [WofCompressedData](wofcompresseddata.md), WofCompressed
-  streams
+- Microsoft Edge Web Browser
+- Notification Center
+- WofCompressedData, WofCompressed streams
 
 ## Forensics
 
@@ -405,19 +402,16 @@ value:
 
 ## See Also
 
-- [Event Tracing for Windows
-  (etw)](event_tracing_for_windows_(etw).md)
+- [Event Tracing for Windows (etw)](event_tracing_for_windows_(etw).md)
 - [Prefetch](prefetch.md)
 - [PowerShell](powershell.md)
 - [Setup API Logs](setup_api_logs.md)
 - [SuperFetch](superfetch.md)
-- [Windows Application
-  Compatibility](windows_application_compatibility.md)
+- [Windows Application Compatibility](windows_application_compatibility.md)
 - [Windows Desktop Search](windows_desktop_search.md)
 - [Windows Event Log (evt)](windows_event_log_(evt).md)
 - [Windows Job File Format](windows_job_file_format.md)
-- [Windows XML Event Log
-  (evtx)](windows_xml_event_log_(evtx).md)
+- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 - [Windows Update](windows_update.md)
 - [Windows Vista](windows_vista.md)
 - [Windows 7](windows_7.md)
@@ -427,37 +421,25 @@ value:
 
 ## External Links
 
-- [Wikipedia: Microsoft
-  Windows](http://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Windows 8 File History
-  Forensics](http://www.dataforensics.org/windows-8-file-history-forensics/)
-- [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file
-  locations](http://support.microsoft.com/kb/927521)
-- [Windows Hardware Dev Center
-  Archive](https://msdn.microsoft.com/en-US/library/windows/hardware/dn550976)
-- \[<https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx
-  Windows Data Types\]
-- [The Forensic Analysis of the Microsoft Windows Vista Recycle
-  Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
-  by [Mitchell Machor](mitchell_machor.md), 2008
-- [Microsoft Windows File System
-  Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
-  by [Eric Huber](eric_huber.md), February 24, 2013
-- [Spotting the Adversary with Windows Event Log
-  Monitoring](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf),
-  by National Security Agency/Central Security Service, February 28,
-  2013
-- [Search history on Windows 8 and
-  8.1](http://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
-  by [Yogesh Khatri's](yogesh_khatri's.md), April 1, 2014
-- [Search history on windows 8.1 - Part
-  2](http://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
-  by [Yogesh Khatri's](yogesh_khatri's.md), April 21, 2014
+- [Wikipedia: Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows)
+- [Windows 8 File History Forensics](http://www.dataforensics.org/windows-8-file-history-forensics/)
+- [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](http://support.microsoft.com/kb/927521)
+- [Windows Hardware Dev Center Archive](https://msdn.microsoft.com/en-US/library/windows/hardware/dn550976)
+- [Windows Data Type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx)
+- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+  by Mitchell Machor, 2008
+- [Microsoft Windows File System Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
+  by Eric Huber, February 24, 2013
+- [Spotting the Adversary with Windows Event Log Monitoring](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf),
+  by National Security Agency/Central Security Service, February 28, 2013
+- [Search history on Windows 8 and 8.1](http://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
+  by Yogesh Khatri, April 1, 2014
+- [Search history on windows 8.1 - Part 2](http://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
+  by Yogesh Khatri, April 21, 2014
 - [Estoteric Hooks](http://www.alex-ionescu.com/Estoteric%20Hooks.pdf)
   by Alex Ionescu, February 16, 2016
   ([presentation](https://www.youtube.com/watch?v=pHyWyH804xE))
-- [A brief look at Windows telemetry: CIT aka Customer Interaction
-  Tracker](https://research.nccgroup.com/2022/04/12/a-brief-look-at-windows-telemetry-cit-aka-customer-interaction-tracker/),
+- [A brief look at Windows telemetry: CIT aka Customer Interaction Tracker](https://research.nccgroup.com/2022/04/12/a-brief-look-at-windows-telemetry-cit-aka-customer-interaction-tracker/),
   by Erik Schamper, April 12, 2022
 
 ### Client/Server Runtime Subsystem (CSRSS)
@@ -467,11 +449,9 @@ value:
 
 ### Recycle Bin
 
-- [Lesson 3 – The Recycle
-  Bin](http://www.cybersecurityinstitute.biz/downloads/INFO2.pdf), by
-  Steve Hailey
-- [The Forensic Analysis of the Microsoft Windows Vista Recycle
-  Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+- [Lesson 3 – The Recycle Bin](http://www.cybersecurityinstitute.biz/downloads/INFO2.pdf),
+  by Steve Hailey
+- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, January 22, 2008
 
 ### Malware/Rootkits
@@ -481,44 +461,32 @@ value:
 
 ### Tracking removable media
 
-- [Tracking USB First insertion in Event
-  logs](http://www.swiftforensics.com/2012/08/tracking-usb-first-insertion-in-event.html),
+- [Tracking USB First insertion in Event logs](http://www.swiftforensics.com/2012/08/tracking-usb-first-insertion-in-event.html),
   by Yogesh Khatri, August 18, 2012
 
 ### Under the hood
 
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/aa366533(v=vs.85>).aspx
-  MSDN: Comparing Memory Allocation Methods\], by
-  [Microsoft](microsoft.md)
-- [How Windows Starts Up (Part the
-  second)](http://blogs.msdn.com/b/ntdebugging/archive/2007/06/28/how-windows-starts-up-part-the-second.aspx)
-- [DLL/COM
-  Redirection](http://msdn.microsoft.com/en-us/library/aa375142.aspx)
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85>).aspx
-  Dynamic-Link Library Search Order\]
-- [Image File Execution
-  Options](http://blogs.msdn.com/b/junfeng/archive/2004/04/28/121871.aspx)
-- [Load Library
-  Safely](http://blogs.technet.com/b/srd/archive/2014/05/13/load-library-safely.aspx),
+- [MSDN: Comparing Memory Allocation Methods](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366533(v=vs.85>).aspx)
+  by [Microsoft](microsoft.md)
+- [How Windows Starts Up (Part the second)](http://blogs.msdn.com/b/ntdebugging/archive/2007/06/28/how-windows-starts-up-part-the-second.aspx)
+- [DLL/COM Redirection](http://msdn.microsoft.com/en-us/library/aa375142.aspx)
+- [Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85>).aspx)
+- [Image File Execution Options](http://blogs.msdn.com/b/junfeng/archive/2004/04/28/121871.aspx)
+- [Load Library Safely](http://blogs.technet.com/b/srd/archive/2014/05/13/load-library-safely.aspx),
   by Swamy Shivaganga Nagaraju, 13 May 2014
-- [Happy
-  DPAPI!](http://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),
-  by [Francesco Picasso](francesco_picasso.md), January 13, 2015
+- [Happy DPAPI!](http://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),
+  by Francesco Picasso, January 13, 2015
 
 #### Windows File Protection (WFP)
 
-- [Description of the Windows File Protection
-  feature](http://support.microsoft.com/kb/222193/EN-US)
-- [Description of Windows XP and Windows Server 2003 System File Checker
-  (Sfc.exe)](http://support.microsoft.com/?kbid=310747)
+- [Description of the Windows File Protection feature](http://support.microsoft.com/kb/222193/EN-US)
+- [Description of Windows XP and Windows Server 2003 System File Checker (Sfc.exe)](http://support.microsoft.com/?kbid=310747)
 
 #### MSI
 
-- [Changes to Package Caching in Windows Installer
-  5.0](http://blogs.msdn.com/b/heaths/archive/2009/02/02/changes-to-package-caching-in-windows-installer-5-0.aspx?Redirected=true),
+- [Changes to Package Caching in Windows Installer 5.0](http://blogs.msdn.com/b/heaths/archive/2009/02/02/changes-to-package-caching-in-windows-installer-5-0.aspx?Redirected=true),
   by Heath Stewart, February 2, 2009
-- [MSI: The Case Of The Invalid
-  Signature](http://blog.didierstevens.com/2013/07/26/msi-the-case-of-the-invalid-signature/),
+- [MSI: The Case Of The Invalid Signature](http://blog.didierstevens.com/2013/07/26/msi-the-case-of-the-invalid-signature/),
   by Didier Stevens, July 26, 2013
 
 #### Side-by-side (WinSxS)
@@ -528,9 +496,9 @@ value:
 - [RT_MANIFEST resource, and ISOLATION_AWARE_ENABLED](http://blogs.msdn.com/b/junfeng/archive/2007/06/26/rt-manifest-resource-and-isolation-aware-enabled.aspx)
 - [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/en-us/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
 - [DotLocal (.local) Dll Redirection](http://blogs.msdn.com/b/junfeng/archive/2006/01/24/517221.aspx#531208),
-  by [Junfeng Zhang](junfeng_zhang.md), January 24, 2006
+  by Junfeng Zhang, January 24, 2006
 - [Diagnosing SideBySide failures](http://blogs.msdn.com/b/junfeng/archive/2006/04/14/576314.aspx),
-  by [Junfeng Zhang](junfeng_zhang.md), April 14, 2006
+  by Junfeng Zhang, April 14, 2006
 - [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](http://omnicognate.wordpress.com/2009/10/05/winsxs/)
 - [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
   by Amanda Stewart, April 2014
@@ -547,36 +515,28 @@ value:
 
 #### Kerberos
 
-- [Protection from Kerberos Golden Ticket - Mitigating pass the ticket
-  on Active
-  Directory](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf),
+- [Protection from Kerberos Golden Ticket - Mitigating pass the ticket on Active Directory](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf),
   CERT-EU, July 2014
-- [Abusing Microsoft Kerberos - Sorry you guys don't get
-  it](http://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it),
+- [Abusing Microsoft Kerberos - Sorry you guys don't get it](http://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it),
   by Benjamin Delpy, August 13, 2014
 
 #### Reliability Monitoring
 
-- [Stability Index and
-  Reliability](http://secureartisan.wordpress.com/2011/01/17/stability-index-and-reliability/),
+- [Stability Index and Reliability](http://secureartisan.wordpress.com/2011/01/17/stability-index-and-reliability/),
   by Paul Bobby, January 17, 2011
-- [Windows 7 Reliability Monitor Forensic
-  Artifacts](http://phx4n6.wordpress.com/2014/01/03/windows-7-reliability-monitor-forensic-artifacts/),
+- [Windows 7 Reliability Monitor Forensic Artifacts](http://phx4n6.wordpress.com/2014/01/03/windows-7-reliability-monitor-forensic-artifacts/),
   by phx4n6, January 3, 2014
 
 #### RPC
 
-- [RPC to Go
-  v.1](http://blogs.technet.com/b/networking/archive/2008/10/24/rpc-to-go-v-1.aspx),
+- [RPC to Go v.1](http://blogs.technet.com/b/networking/archive/2008/10/24/rpc-to-go-v-1.aspx),
   by Michael Platts, October 24, 2008
-- [RPC to Go
-  v.2](http://blogs.technet.com/b/networking/archive/2008/12/04/rpc-to-go-v-2.aspx),
+- [RPC to Go v.2](http://blogs.technet.com/b/networking/archive/2008/12/04/rpc-to-go-v-2.aspx),
   by Michael Platts, December 4, 2008
 
 #### User Account Control (UAC)
 
-- [User Account Control – What Penetration Testers Should
-  Know](http://blog.strategiccyber.com/2014/03/20/user-account-control-what-penetration-testers-should-know/),
+- [User Account Control – What Penetration Testers Should Know](http://blog.strategiccyber.com/2014/03/20/user-account-control-what-penetration-testers-should-know/),
   by Raphael Mudge, March 20, 2014
 
 #### Windows Event Logs
@@ -623,8 +583,7 @@ value:
 
 ### Windows XP
 
-- [Description of Windows XP System Information (Msinfo32.exe)
-  Tool](http://support.microsoft.com/kb/q308549)
+- [Description of Windows XP System Information (Msinfo32.exe) Tool](http://support.microsoft.com/kb/q308549)
 
 ### Windows Scheduler
 

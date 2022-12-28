@@ -11,7 +11,7 @@ The following new features were introduced in Windows 8:
 
 - [File History](windows_file_history.md)
 - [Storage Spaces](windows_storage_spaces.md)
-- [Search Charm History](search_charm_history.md)
+- Search Charm History
 
 ## File System
 

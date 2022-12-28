@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Research
+  - Articles that need to be expanded
+  - Research
 ---
 There are lots of web sites that can provide valuable information for
-forensic investigators. (This page will probably be broken into
-categories eventually...)
+forensic investigators.
 
 ## WHOIS Queries
 
@@ -12,11 +12,7 @@ The WHOIS Service can be used to find the owner of a domain. Sometimes
 this is only sufficient to find the registrar for a domain, but even
 that is a start.
 
-- [WHOIS-Search.com](http://whois-search.com/)
-
-The SamSpade web site also offers several WHOIS related searches
-
-- [Sam Spade](http://www.samspade.org/)
+- [WHOIS-Search.com](https://whois-search.com/)
 
 ## Web Page Archives
 

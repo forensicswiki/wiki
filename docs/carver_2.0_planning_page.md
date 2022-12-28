@@ -33,10 +33,6 @@ implemented:
 - Support for Multi-Processing during the reassembly phase (ffmpeg)
 - Support for The Sleuth Kit (TSK) to identify unallocated blocks
 
-Feel free to contact me if you need any further information, if you want
-to contribute, or if you need help to get it running: [Rainer
-Poisel](mailto:rainer.poisel@gmail.com).
-
 # License
 
 BSD-3.
