@@ -46,14 +46,6 @@ Data Recovery, Data Security and Development Tools
 
 <!-- -->
 
-[Direct Hit Systems - THREADS](direct_hit_systems_-_threads.md)
-<http://www.directhitinc.com/>
-
-Investigation software for cell forensics, call records, and organized
-criminal activity.
-
-<!-- -->
-
 [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com>
 
