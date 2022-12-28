@@ -42,15 +42,14 @@ blame.
 
 A former Georgia teacher blames computer viruses for altering his Web
 sites and uploading child porn images. Guilty charge upheld.
-<http://news.zdnet.com/2100-1009_22-6130218.html>
 
 Odd spin on the issue, where a hacker used a Trojan to gain access to
 potential pedophile’s computers.
-<http://www.darkreading.com/document.asp?doc_id=118157>
 
 Bandy’s defense attorney asserted that a “virus” or “trojan” must have
 downloaded the child pornography to Bandy’s computer without his
-knowledge. <http://www.foxnews.com/story/0,2933,247903,00.html>
+knowledge.
+<https://www.cnet.com/tech/tech-industry/police-blotter-child-porn-blamed-on-computer-virus/>
 
 A man found with more than 1,700 indecent images of children on his
 computer claimed a virus was to blame, a court heard. But Mark Craney,
@@ -61,20 +60,17 @@ computer.
 
 More links from previous research.
 
-\[1\]
-<http://www.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html>
+\[1\] <http://www.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html>
 
 \[2\] <http://news.com.com/2100-7349_3-5092781.html>
 
-\[3\]<http://www.fedlawyerguy.org/2003/11/the_trojan_defense.html>
+\[3\]<http://www.theregister.co.uk/2003/04/24/trojan_defence_clears_man/>
 
-\[4\]<http://www.theregister.co.uk/2003/04/24/trojan_defence_clears_man/>
+\[4\]<http://www.austlii.edu.au/au/cases/cth/high_ct/2006/39.html>
 
-\[5\]<http://www.austlii.edu.au/au/cases/cth/high_ct/2006/39.html>
+\[5\]<http://www.castlecops.com/modules.php?name=News&file=print&sid=2946>
 
-\[6\]<http://www.castlecops.com/modules.php?name=News&file=print&sid=2946>
-
-\[7\]<http://direct.bl.uk/bld/PlaceOrder.do?UIN=161932125&ETOC=RN&from=searchengine>
+\[6\]<http://direct.bl.uk/bld/PlaceOrder.do?UIN=161932125&ETOC=RN&from=searchengine>
 
 ## Connecticut v. Amero
 
@@ -86,45 +82,26 @@ minor, or impairing the morals of a child, as the result of a computer
 that was infected with spyware and DNS hijacking software; the
 conviction was vacated on appeal.
 
-- [Wikipedia: Connecticut v.
-  Amero](http://en.wikipedia.org/wiki/Connecticut_v._Amero)
-- [Technical review of the Trial Testimony State of Connecticut vs.
-  Julie
-  Amero](http://dfir.com.br/wp-content/uploads/2014/02/julieamerosummary.pdf),
+* [Wikipedia: Connecticut v.  Amero](http://en.wikipedia.org/wiki/Connecticut_v._Amero)
+* [Technical review of the Trial Testimony State of Connecticut vs.  Julie Amero](http://dfir.com.br/wp-content/uploads/2014/02/julieamerosummary.pdf),
   March 21, 2007
 
 ## External Links
 
-- [THE TROJAN HORSE DEFENSE IN CYBERCRIME
-  CASES](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2005-15.pdf),
+* [THE TROJAN HORSE DEFENSE IN CYBERCRIME CASES](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2005-15.pdf),
   by Susan W. Brenner, Brian Carrier, and Jef Henninger, in 2004
-- [The "Tools Proven in Court"
-  Question](http://www.cybersecurityinstitute.biz/tpicq.htm)
-- [When is an Expert Opinion Allowed in
-  Law?](https://www.elvidence.com.au/expert-opinion-in-law/), October
-  24, 2014
+* [The "Tools Proven in Court" Question](http://www.cybersecurityinstitute.biz/tpicq.htm)
+* [When is an Expert Opinion Allowed in Law?](https://www.elvidence.com.au/expert-opinion-in-law/),
+  October 24, 2014
 
-# Privacy and Surveillance Laws
+## Privacy and Surveillance Laws
 
 18 USC 2510 et seq., 18 USC 2701 et. seq., 18 USC 1030 and other
 statutes regulate the information private entities and law enforcement
 can access over a computer network.
 
-The following forensic tools, which can capture forensic images remotely
-over a network, may raise interesting legal questions under these and
-other statutes.
+## Cybersecurity Research
 
-Paraben Enterprise and Shuttle: <http://www.paraben.com/>
-
-WetStone LiveWire Investigator: <https://www.wetstonetech.com/>
-
-ProDiscover IR: <https://prodiscover.com/>
-
-EnCase Enterprise: <http://www.encase.com/products/ee_index.asp>
-
-# Cybersecurity Research
-
-- [Toward a Culture of Cybersecurity
-  Research](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1113014),
+* [Toward a Culture of Cybersecurity Research](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1113014),
   Aaron J. Burstein, University of California, Berkeley - School of Law.
   2008, UC Berkeley Public Law Research Paper No. 1113014

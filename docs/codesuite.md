@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Commercial Software
 ---
 **CodeSuite** is a collection of computer software analysis tools. The
 tools, which an examiner uses manually, are designed to look for similar
@@ -9,4 +10,4 @@ theft, or just track the changes to a piece of software over time.
 
 ## External Links
 
-- [Official web site](http://www.safe-corp.biz/)
+* [Official web site](http://www.safe-corp.com/)

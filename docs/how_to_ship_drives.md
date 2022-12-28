@@ -12,13 +12,13 @@ image. If you must ship disks, here are some instructions:
 
 1.  Never ship the original drive (unless necessary for legal reasons).
     Regardless of the ultimate disposition of the original drive, always
-    start by shipping an [image](:category:disk_imaging.md).
+    start by shipping an [image](disk_imaging.md).
 2.  Use one of the [Write Blockers](write_blockers.md) mentioned
     on this page. The write blocker goes on the original drive to ensure
     that nothing is changed on the drive by the host OS of the imaging
     workstation.
 3.  A drive can be imaged by a number of free software
-    [tools](:category:disk_imaging.md), such as [FTK
+    [tools](disk_imaging.md), such as [FTK
     Imager](ftk_imager.md). Some of these tools compress and/or
     encrypt data; I recommend both, as you don't want someone getting
     their hands on your data, and if you have multiple images to send,

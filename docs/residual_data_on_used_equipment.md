@@ -71,15 +71,14 @@ order.
 - **2006-08-15**: Simson Garfinkel presents results of a study of 1000
   hard drives (750 working) at the 2006 Workshop on Digital Forensics.
   Results of the study show that information can be correlated across
-  hard drives using Garfinkel's [Cross Drive
-  Analysis](cross_drive_analysis.md) approach.
+  hard drives using Garfinkel's [Cross Drive Analysis](cross_drive_analysis.md)
+  approach.
 
 <!-- -->
 
-- **2007-02-06**: [Fulcrum Inquiry](https://www.fulcrum.com/), a
-  Los Angeles litigation support firm, purchased 70 used hard drives
-  from 14 firms and discovered confidential information on 2/3rds of the
-  drives.
+- **2007-02-06**: Fulcrum Inquiry, a Los Angeles litigation support firm,
+  purchased 70 used hard drives from 14 firms and discovered confidential
+  information on 2/3rds of the drives.
 
 <!-- -->
 
@@ -92,8 +91,7 @@ order.
   Pryor and US Representatives Marion Berry, Mike Ross and Vic Snyder.
   It also included talking points to guide the candidate as he called
   influential people whose support he sought," states an article
-  published in [The
-  Register](http://www.theregister.co.uk/2007/08/30/governors_data_sold_on_ebay/).
+  published in [The Register](http://www.theregister.co.uk/2007/08/30/governors_data_sold_on_ebay/).
 
 <!-- -->
 

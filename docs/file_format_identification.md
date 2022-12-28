@@ -131,18 +131,15 @@ bibliography is in chronological order!**
 
 2006
 
-- K. Martin, N. Shahmehri [File type identification of data fragments by
-  their binary
-  structure.](http://ieeexplore.ieee.org/iel5/10992/34632/01652088.pdf),
-  Proceedings of the IEEE workshop on information assurance, pp.140–147,
-  2006.
+- K. Martin, N. Shahmehri, File type identification of data fragments by their
+  binary structure, Proceedings of the IEEE workshop on information assurance,
+  pp.140–147, 2006. ([link](https://ieeexplore.ieee.org/document/1652088))
 
 <!-- -->
 
 - G.A. Hall, Sliding Window Measurement for File Type Identification,
   Computer Forensics and Intrusion Analysis Group, ManTech Security and
   Mission Assurance, 2006.
-  ([PDF](https://www.researchgate.net/publication/237601448_Sliding_Window_Measurement_for_File_Type_Identification))
 
 <!-- -->
 
@@ -181,10 +178,8 @@ bibliography is in chronological order!**
 
 <!-- -->
 
-- S.J. Moody and R.F. Erbacher, [SÁDI – Statistical Analysis for Data
-  type
-  Identification](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=04545366),
-  3rd International Workshop on Systematic Approaches to Digital
+- S.J. Moody and R.F. Erbacher, SÁDI – Statistical Analysis for Data type
+  Identification, 3rd International Workshop on Systematic Approaches to Digital
   Forensic Engineering, 2008.
 
 2008
@@ -221,10 +216,9 @@ bibliography is in chronological order!**
 
 <!-- -->
 
-- I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, [Content-based File-type
+- I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, Content-based File-type
   Identification Using Cosine Similarity and a Divide-and-Conquer
-  Approach](https://www.researchgate.net/publication/50257973_Content-based_File-type_Identification_Using_Cosine_Similarity_and_a_Divide-and-Conquer_Approach), IETE
-  Technical Review, 27(6), 2010.
+  Approach, IETE Technical Review, 27(6), 2010.
 
 2011
 
@@ -236,13 +230,11 @@ bibliography is in chronological order!**
 
 <!-- -->
 
-- C. Mattmann and J. Zitting, [Tika in
-  Action](https://www.manning.com/books/tika-in-action), Manning
-  Publications. December, 2011.
+- C. Mattmann and J. Zitting, [Tika in Action](https://www.manning.com/books/tika-in-action),
+  Manning Publications. December, 2011.
 
 2013
 
-- M.C. Amirani, M. Toorani, and S. Mihandoost, [Feature‐based Type
-  Identification of File Fragments](https://www.researchgate.net/publication/262239216_Feature-based_Type_Identification_of_File_Fragments),
-  Journal of Security and Communications Networks, Vol.6, No.1, pp.
-  115–128, 2013.
+- M.C. Amirani, M. Toorani, and S. Mihandoost, Feature‐based Type
+  Identification of File Fragments, Journal of Security and Communications
+  Networks, Vol.6, No.1, pp. 115–128, 2013.

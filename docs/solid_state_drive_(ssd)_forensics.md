@@ -75,7 +75,7 @@ drive, with the following features:
 `volume=5,`
 `issue=3,`
 `year=2011,`
-`url={`[`http://www.jdfsl.org/subscriptions/JDFSL-V5N3-Bell.pdf`](http://www.jdfsl.org/subscriptions/JDFSL-V5N3-Bell.pdf)`}`
+`url={`[`https://researchrepository.murdoch.edu.au/id/eprint/3714/1/solid_state_drives.pdf`](https://researchrepository.murdoch.edu.au/id/eprint/3714/1/solid_state_drives.pdf)`}`
 
 } </bibtex> <bibtex> @inproceedings{Billard:2010:MSU:1774088.1774426,
 
@@ -104,7 +104,7 @@ drive, with the following features:
 ` date=Sep,`
 ` year=2009,`
 ` pages=86,`
-` url="`[`http://handle.dtic.mil/100.2/ADA509258`](http://handle.dtic.mil/100.2/ADA509258)`"`
+` url="`[`https://archive.org/details/theforensicpoten109454629`](https://archive.org/details/theforensicpoten109454629)`"`
 
 } </bibtex> <bibtex> @inproceedings{Phillips:2008:RDU:1363217.1363243,
 
@@ -128,35 +128,24 @@ drive, with the following features:
 
 ## External Links
 
-- [Recovering Evidence from SSD Drives in 2014: Understanding
-  TRIM](http://articles.forensicfocus.com/2014/09/23/recovering-evidence-from-ssd-drives-in-2014-understanding-trim-garbage-collection-and-exclusions/),
+- [Recovering Evidence from SSD Drives in 2014: Understanding TRIM](https://www.forensicfocus.com/articles/recovering-evidence-from-ssd-drives-in-2014-understanding-trim-garbage-collection-and-exclusions/),
   by [Belkasoft](belkasoft.md), September 23, 2014
 
 ### Presentations
 
-- [Milan Broz's blog - TRIM & dm-crypt ...
-  problems?](http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html)
-- [ATA Trim / Delete Notification Support in Windows
-  7](http://www.snia.org/events/storage-developer2009/presentations/thursday/NealChristiansen_ATA_TrimDeleteNotification_Windows7.pdf),
+- [Milan Broz's blog - TRIM & dm-crypt ...  problems?](http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html)
+- [ATA Trim / Delete Notification Support in Windows 7](https://www.snia.org/sites/default/orig/sdc_archives/2009_presentations/thursday/NealChristiansen_ATA_TrimDeleteNotification_Windows7.pdf),
   Neal Christiansen, Storage Developer 2009
-- [Challenges of SSD Forensic
-  Analysis](http://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis),
+- [Challenges of SSD Forensic Analysis](http://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis),
   Digital Assembly,
-- [Solid State Drives: Ruining
-  Forensics](http://www.youtube.com/watch?v=WcO7xn0wJ2I), by Scott
+- [Solid State Drives: Ruining Forensics](http://www.youtube.com/watch?v=WcO7xn0wJ2I), by Scott
   Moulton, DEFCON 16 (2008)
 - Scott Moulton, Shmoocon 20008, SSD drives vs. Hard Drives.
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    1](http://www.youtube.com/watch?v=l4hbdZFWGog)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    2](http://www.youtube.com/watch?v=mglEnIPnzjo)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    3](http://www.youtube.com/watch?v=3psy_d-pyNg)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    4](http://www.youtube.com/watch?v=pKeZvhDd5c4)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    5](http://www.youtube.com/watch?v=9XMBdDypSO4)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part
-    6](http://www.youtube.com/watch?v=LY36SWbfQg0)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 1](http://www.youtube.com/watch?v=l4hbdZFWGog)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 2](http://www.youtube.com/watch?v=mglEnIPnzjo)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 3](http://www.youtube.com/watch?v=3psy_d-pyNg)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 4](http://www.youtube.com/watch?v=pKeZvhDd5c4)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 5](http://www.youtube.com/watch?v=9XMBdDypSO4)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 6](http://www.youtube.com/watch?v=LY36SWbfQg0)
 - [Risky Business \#185](http://risky.biz/RB185), Peter Gutmann talks
   SSD forensics, March 4, 2011 (Radio Show)
