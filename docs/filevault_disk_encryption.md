@@ -8,7 +8,7 @@ tags:
 ---
 **FileVault Disk Encryption** (FVDE) is [Full Volume
 Encryption](full_volume_encryption.md) solution by
-[Apple](apple.md) first included in [Mac OS X
+[Apple](apple_inc.md) first included in [Mac OS X
 Lion](mac_os_x.md).
 
 ## See Also

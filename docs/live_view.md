@@ -3,7 +3,7 @@ tags:
   - No Category
 ---
 Live View is a Java-based graphical forensics tool that creates a VMware
-virtual machine out of a [raw image file](raw_image_file.md) or
+virtual machine out of a [raw image file](raw_image_format.md) or
 physical disk. This allows a forensic examiner to "boot up" the image or
 disk and gain an interactive, user-level perspective of the environment,
 all without modifying the underlying image or disk. Because all changes
@@ -35,6 +35,5 @@ Live View is developed by CERT, Software Engineering Institute
 
 ## External Links
 
-- [Official website](http://liveview.sourceforge.net/)
-- [CERT, Software Engineering Institute
-  homepage](http://www.sei.cmu.edu/)
+* [Official website](http://liveview.sourceforge.net/)
+* [CERT, Software Engineering Institute homepage](http://www.sei.cmu.edu/)

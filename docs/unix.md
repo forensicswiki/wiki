@@ -17,7 +17,7 @@ poplar flavors of UNIX are:
 
 * [IBM](ibm.md)’s [AIX](aix.md)
 * [Sun Microsystems](sun_microsystems_inc.md)' [Solaris](solaris.md)
-* [SGI](sgi.md)’s [IRIX](irix.md)
+* SGI’s IRIX
 * [Linux](linux.md)
 * [OpenBSD](openbsd.md)
 * [FreeBSD](freebsd.md)

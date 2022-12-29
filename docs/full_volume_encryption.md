@@ -18,7 +18,7 @@ Included with certain versions of [Microsoft](microsoft.md)
 <!-- -->
 
 [FileVault Disk Encryption](filevault_disk_encryption.md)
-Included with certain versions of [Apple](apple.md) [Mac OS
+Included with certain versions of [Apple](apple_inc.md) [Mac OS
 X](mac_os_x.md).
 
 <!-- -->

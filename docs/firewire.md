@@ -9,7 +9,7 @@ standard for connecting to a host system. Much like
 devices and other external media. Firewire connectivity is available for
 a large variety of systems, and is frequently included by default in
 many [Sun Microsystems](sun_microsystems.md) and
-[Apple](apple.md) workstation computers.
+[Apple](apple_inc.md) workstation computers.
 
 Some recent controversy centered around the development of a tool,
 [here](http://www.storm.net.nz/projects/16) which is capable of dumping

@@ -225,7 +225,6 @@ This makes it usable natively on [Windows](windows.md) systems.
 - [dcfldd](dcfldd.md)
 - [dd](dd.md)
 - [dd_rescue](dd_rescue.md)
-- [sdd](sdd.md)
 
 ## Other Resources
 

@@ -1,5 +1,8 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  redirect [Raw image file](raw_image_file.md)
+
+## Raw image files
+
+_See: [Raw image format](raw_image_format)_

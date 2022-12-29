@@ -17,18 +17,19 @@ that uses several obscure command line arguments to control the imaging
 process. Because some of these flags are similar and, if confused, can destroy
 the source media the examiner is trying to duplicate, users should be careful
 when running this program. The program generates [raw image
-files](raw_image_file.md) which can be read by many other programs.
+files](raw_image_format.md) which can be read by many other programs.
 
-dd is part of the [GNU Coreutils](gnu_coreutils.md) package
-which in turn has been ported to many [operating
-systems](operating_system.md).
+dd is part of the GNU Coreutils package which in turn has been ported to many
+[operating systems](operating_system.md).
 
-There are a few forks of dd for forensic purposes including
-[dcfldd](dcfldd.md), [sdd](sdd.md),
-[dd_rescue](dd_rescue.md), [ddrescue](ddrescue.md),
-[dccidd](dccidd.md), and a [Microsoft
-Windows](windows.md) version that supports reading [physical
-memory](physical_memory.md).
+There are a few forks of dd for forensic purposes including:
+
+* [dcfldd](dcfldd.md)
+* sdd
+* [dd_rescue](dd_rescue.md)
+* [ddrescue](ddrescue.md)
+* [dccidd](dccidd.md), including a [Microsoft Windows](windows.md) version
+   that supports reading [physical memory](physical_memory.md)
 
 ## Example
 
@@ -69,7 +70,7 @@ For all of the above
 `/dev/zero      => in linux, this is an infinite source of nulls`
 `of             => output file`
 `mybigfile.img  => The name of the image file you are creating`
-`bs             => `[`blocksize`](blocksize.md)
+`bs             => blocksize`
 `65536          => 64K  (I normally use 4K in linux.  That is what the linux kernel uses as a page size.)`
 `noerror        => don't die if you have a read error from the source drive`
 `sync           => if there is an error, null fill the rest of the block.`
@@ -150,8 +151,6 @@ home archive and will miss the srv archive.
 - [dcfldd](dcfldd.md)
 - [dd_rescue](dd_rescue.md)
 - [ddrescue](ddrescue.md)
-- [sdd](sdd.md)
-- [sg_dd](sg_dd.md)
 - [mdd](mdd.md)
 - [Raw Image Format](raw_image_format.md)
 
