@@ -39,7 +39,7 @@ CanSecWest
 <!-- -->
 
 Computer Technology Investigators Network (CTIN) Digital Forensics Conference
-<http://ctin.org/2017-ctin-conference/>
+<https://ctin.org/>
 
 <!-- -->
 

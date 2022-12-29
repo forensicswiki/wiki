@@ -43,8 +43,7 @@ Source
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -66,8 +65,7 @@ Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -89,8 +87,7 @@ b0459de4674aab56
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -273,8 +270,7 @@ Adobe Reader 9 x64
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -319,8 +315,7 @@ Control Panel (?)
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -410,8 +405,7 @@ Internet Explorer x64
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -433,8 +427,7 @@ iTunes 10
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -456,8 +449,7 @@ Microsoft Office Access 2010 x86
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -479,8 +471,7 @@ Microsoft Office Excel 2007
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -592,8 +583,7 @@ Microsoft Office InfoPath 2010 x86
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -615,8 +605,7 @@ Microsoft Office InfoPath 2010 x86
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -638,8 +627,7 @@ Microsoft Office OneNote 2010 x86
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -683,8 +671,7 @@ Microsoft Office Outlook x86
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -750,8 +737,7 @@ Microsoft Office PowerPoint 2007
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -998,8 +984,7 @@ Microsoft Paint 6.1
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1179,8 +1164,7 @@ PGP Desktop 10
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1224,8 +1208,7 @@ Python (.pyc)
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1247,8 +1230,7 @@ Python (.pyw)
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1270,8 +1252,7 @@ Remote Desktop
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1315,8 +1296,7 @@ TrueCrypt 7.0a
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1360,8 +1340,7 @@ VMware Player 3.1.4
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4910)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1496,8 +1475,7 @@ Windows Media Center x64
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1656,8 +1634,7 @@ WinRar x64
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1679,8 +1656,7 @@ WinZip
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4930)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1702,8 +1678,7 @@ XPS Viewer
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>
@@ -1725,8 +1700,7 @@ Zune x64
 </td>
 <td>
 
-[Win4n6 List
-Serv](http://tech.groups.yahoo.com/group/win4n6/message/4907)
+Win4n6 List Serv
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ Unicode and extended character support across multiple formats
 ([gsm](gsm.md), [iDEN](iden.md), [UMTS](umts.md), [CDMA](cdma.md) etc.).
 
 SIMiFOR currently extracts data from [SIM](sim.md),
-[USIM](usim.md) and [RUIM](ruim.md) (CSIM) cards.
+USIM and [RUIM](ruim.md) (CSIM) cards.
 
 ## External Links
 

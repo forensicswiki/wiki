@@ -105,10 +105,7 @@ integrity.
 
 # External Links
 
-- [How to Create a Virtual Machine from a Raw Hard Drive
-  Image](http://www.myfixlog.com/fix.php?fid=35)
-- [Get from e01 to live virtual machine with no image
-  conversion](http://cyb3rdaw6.harpermountain.net/2011/06/12/get-from-e01-to-live-virtual-machine-with-no-image-conversion/)
+- [Get from e01 to live virtual machine with no image conversion](http://cyb3rdaw6.harpermountain.net/2011/06/12/get-from-e01-to-live-virtual-machine-with-no-image-conversion/)
 
 ## Jimmy Weg's blog
 
@@ -116,10 +113,8 @@ Jimmy Weg has talked extensively about using VM with forensic images on
 his blog. These are detailed tutorials that manually create the VMDK
 file!
 
-- [Creating a VMware Virtual Machine from a Raw Image
-  File](http://justaskweg.com/?p=7)
+- [Creating a VMware Virtual Machine from a Raw Image File](http://justaskweg.com/?p=7)
 - [Creating a VM from E01 Images](http://justaskweg.com/?p=653)
 - [What About an XP VM?](http://justaskweg.com/?p=851)
 - [How Do I Handle Really\* Big Disks?](http://justaskweg.com/?p=999)
-- [Mounted Images – Breaking the 2TB
-  Barrier](http://justaskweg.com/?p=1024)
+- [Mounted Images – Breaking the 2TB Barrier](http://justaskweg.com/?p=1024)

@@ -14,8 +14,6 @@ allow the retrieval of damaged or corrupted sectors as it would
 invariably cause a system (OS) failure. For data recovery purposes
 however, it is important to be able to access any available data.
 
-![](DeepSpardiskimager.jpg "DeepSpardiskimager.jpg")
-
 Additionally, the DeepSpar Disk Imager controls the power input of the
 source drive so that it can, if required, re-power the source without
 rebooting the system. (This is significant with highly unstable drives

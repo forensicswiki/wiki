@@ -44,9 +44,7 @@ Guidance Software is working on an update. This will not include:
 - encrypted Ex01
 - Lx01
 
-So in contrast to other claims
-[4](http://tech.groups.yahoo.com/group/linux_forensics/message/3555)
-both versions of the EWF file format are:
+So in contrast to other claims both versions of the EWF file format are:
 
 - proprietary
 - partially open specification

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Windows
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Windows
 ---
 SuperFetch is a performance enhancement introduced in
 [Microsoft](microsoft.md) [Windows Vista](windows.md) to
@@ -87,7 +87,6 @@ Because SuperFetch appears to leave a system with no available memory,
 some users turn it off to create the appearance of having more free
 memory. The feature can be configured by changing the
 [Registry](registry.md) value
-[1](http://www.codinghorror.com/blog/archives/000688.html):
 
     Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
     Value: EnableSuperfetch
@@ -95,7 +94,7 @@ memory. The feature can be configured by changing the
 A value of zero disables SuperFetch, one enables it for booting only,
 two for applications, and three for both applications and boot. This
 setting can also be changed using the Services console, `services.msc`
-[2](http://tiredblogger.wordpress.com/2007/03/27/superfetch-not-so-super-for-gaming/).
+[1](http://tiredblogger.wordpress.com/2007/03/27/superfetch-not-so-super-for-gaming/).
 
 ## File Formats
 
@@ -103,21 +102,21 @@ Data for SuperFetch is gathered by the
 `%SystemRoot%\System32\Sysmain.dll`, part of the Service Host process,
 `%SystemRoot%\System32\Svchost.exe`, and stored in a series of files in
 the `%SystemRoot%\Prefetch` directory
-[3](http://www.microsoft.com/technet/technetmag/issues/2007/03/VistaKernel/).
+[2](http://www.microsoft.com/technet/technetmag/issues/2007/03/VistaKernel/).
 These files appear to start with the prefix `Ag` and have a `.db`
 extension. Note that there are likely more SuperFetch database files
 named differently, presumably all using the .db extension.
 
 The format of the SuperFetch database files is not fully known, there is
 available unofficial partial specification
-[4](http://blog.rewolf.pl/blog/?p=214) and open source (GPL) dumper for
-.db files [5](http://code.google.com/p/rewolf-superfetch-dumper/). For
+[3](http://blog.rewolf.pl/blog/?p=214) and open source (GPL) dumper for
+.db files [4](http://code.google.com/p/rewolf-superfetch-dumper/). For
 more information see [SuperFetch
 Format](windows_superfetch_format.md).
 
 The SuperFetch feature is seeded with some basic usage patterns when the
 operating system is installed
-[6](http://channel9.msdn.com/showpost.aspx?postid=242429).
+[5](http://channel9.msdn.com/showpost.aspx?postid=242429).
 
 The SuperFetch service is managed by the File Information FS MiniFilter
 service. It appears that most of the SuperFetch database files are
@@ -126,38 +125,28 @@ written when the service starts.
 
 ## See Also
 
-- [Prefetch](prefetch.md)
-- [ReadyBoost](readyboost.md)
-- [ReadyBoot](readyboot.md)
-- [SuperFetch Format](windows_superfetch_format.md)
-- [Windows](windows.md)
+* [Prefetch](prefetch.md)
+* [ReadyBoost](readyboost.md)
+* [ReadyBoot](readyboot.md)
+* [SuperFetch Format](windows_superfetch_format.md)
+* [Windows](windows.md)
 
 ## External Links
 
-- [Inside the Windows Vista Kernel: Part
-  2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
+* [Inside the Windows Vista Kernel: Part 2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
   by [Mark Russinovich](mark_russinovich.md), March 2007
-- [Performance Testing Guide
-  for Windows](http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/Win7Perf.docx),
+* [Performance Testing Guide for Windows](http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/Win7Perf.docx),
   by [Microsoft](microsoft.md), August 18, 2009 
-- [Performance
-  Scenarios](http://msdn.microsoft.com/en-us/library/windows/hardware/hh162965.aspx),
+* [Performance Scenarios](http://msdn.microsoft.com/en-us/library/windows/hardware/hh162965.aspx),
   by [Microsoft](microsoft.md), October 20, 2013
-- [Wikipedia: Windows Vista I/O technologies -
-  SuperFetch](http://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch)
-- [Channel 9 Interview with Michael Fortin of Microsoft on
-  SuperFetch](http://channel9.msdn.com/showpost.aspx?postid=242429)
-- [Microsoft Predicts The Future With Vista's
-  SuperFetch](http://www.informationweek.com/news/showArticle.jhtml?articleID=196902178)
+* [Wikipedia: Windows Vista I/O technologies - SuperFetch](http://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch)
+* [Channel 9 Interview with Michael Fortin of Microsoft on SuperFetch](http://channel9.msdn.com/showpost.aspx?postid=242429)
+* [Microsoft Predicts The Future With Vista's SuperFetch](http://www.informationweek.com/news/showArticle.jhtml?articleID=196902178)
   from Information Week
-- [DC3 Presentation: My You Look
-  SuperFetching](http://jessekornblum.com/presentations/dodcc08-2.pdf),
-  by Jesse Kornblum
 
 ## Tools
 
 ### Open Source
 
-- [rewolf-superfetch-dumper](https://code.google.com/p/rewolf-superfetch-dumper/)
-- [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
-
+* [rewolf-superfetch-dumper](https://code.google.com/p/rewolf-superfetch-dumper/)
+* [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
