@@ -120,8 +120,6 @@ An example of a shell item list taken from **Calculator.lnk**
   [Jamie Levy](jamie_levy.md), September 2012
 - [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
-- [Shellbag research](http://tech.groups.yahoo.com/group/win4n6/message/7623),
-  by [Sebastien Bourdon-Richard](sebastien_bourdon-richard.md), October 2012
 - [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](http://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)
 - [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),

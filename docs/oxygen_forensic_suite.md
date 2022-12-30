@@ -36,13 +36,13 @@ The suite can extract device information, contacts, calendar events,
 the suite can extract metadata related to the above.
 
 As of December 2014 the suite supported more than 8,400 devices, including
-[Nokia](nokia.md), [Apple iPhone](apple_iphone.md) series, [Apple iPod
-Touch](apple_ipod_touch.md), [Apple iPad](apple_ipad.md), Vertu, [Sony
-Ericsson](sony_ericsson.md), Samsung, Motorola, [Blackberry](blackberry.md),
-Panasonic, Siemens, HTC, HP, E-Ten, Gigabyte, i-Mate, Chinese (Mediatek) Phones
-and other mobile phones. The suite also supports devices running [Symbian
-OS](symbian.md), [Windows Mobile 5/6](microsoft_windows_mobile.md), Microsoft
-Windows Phone 8 and [Android OS devices](android.md).
+[Nokia](nokia.md), [Apple iPhone](apple_iphone.md) series, Apple iPod Touch,
+Apple iPad, Vertu, [Sony Ericsson](sony_ericsson.md), Samsung, Motorola,
+[Blackberry](blackberry.md), Panasonic, Siemens, HTC, HP, E-Ten, Gigabyte,
+i-Mate, Chinese (Mediatek) Phones and other mobile phones. The suite also
+supports devices running [Symbian OS](symbian.md), [Windows Mobile
+5/6](microsoft_windows_mobile.md), Microsoft Windows Phone 8 and [Android OS
+devices](android.md).
 
 ## Forensic Soundness
 

@@ -218,22 +218,15 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 - [Forensic Focus](http://forensicfocus.com/)
 - [DFIR Slack Channel](http://go.demisto.com/join-our-slack-community)
-- [log2timeline Discussion
-  Group](https://groups.google.com/forum/#!forum/log2timeline-discuss)
-- [Reddit Computer
-  Forensics](https://www.reddit.com/r/computerforensics/)
-- [Volatility Users
-  List](http://lists.volatilesystems.com/pipermail/vol-users/)
-- [Yahoo! groups: win4n6 · Windows Forensic
-  Analysis](http://tech.groups.yahoo.com/group/win4n6)
+- [log2timeline Discussion Group](https://groups.google.com/forum/#!forum/log2timeline-discuss)
+- [Reddit Computer Forensics](https://www.reddit.com/r/computerforensics/)
+- [Volatility Users List](http://lists.volatilesystems.com/pipermail/vol-users/)
 
 # Podcasts/Webcasts
 
 - [CyberSpeak's Podcast](http://cyberspeak.libsyn.com/)
-- [Digital Forensic Survival
-  Podcast](http://digitalforensicsurvivalpodcast.com/)
-- [Forensic Lunch / Learn
-  Forensics](https://www.youtube.com/user/LearnForensics) with [David Cohen](david_cohen.md)
+- [Digital Forensic Survival Podcast](http://digitalforensicsurvivalpodcast.com/)
+- [Forensic Lunch / Learn Forensics](https://www.youtube.com/user/LearnForensics) with [David Cohen](david_cohen.md)
 
 # Tweets
 
@@ -247,24 +240,19 @@ See: [Journals](journals.md)
 # Tools
 
 - [Open Source Digital Forensics](http://www2.opensourceforensics.org/)
-- [Free computer forensic
-  tools](http://forensiccontrol.com/resources/free-software/)
-- [Yet another library library (and
-  tools)](http://code.google.com/p/libyal/)
+- [Free computer forensic tools](http://forensiccontrol.com/resources/free-software/)
+- [Yet another library library (and tools)](http://code.google.com/p/libyal/)
 
 # Challenges (and test images)
 
 - [DC3 Challenges](http://www.dc3.mil/challenge/)
 - [Digital Forensics Test Images](http://testimages.wordpress.com/)
-- [Forensic Focus - Test Images and Forensic
-  Challenges](http://www.forensicfocus.com/images-and-challenges)
+- [Forensic Focus - Test Images and Forensic Challenges](http://www.forensicfocus.com/images-and-challenges)
 - [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
 - [Digital Forensic Test Images](http://testimages.wordpress.com/)
-- [Second Look - Linux Memory
-  Images](http://secondlookforensics.com/linux-memory-images/)
+- [Second Look - Linux Memory Images](http://secondlookforensics.com/linux-memory-images/)
 - [NullconCTF2014](http://sourceforge.net/projects/nullconctf2014/)
-- [Daily Blog \#277: Sample Forensic
-  Images](http://hackingexposedcomputerforensicsblog.blogspot.com/2014/03/daily-blog-277-sample-forensic-images.html)
+- [Daily Blog \#277: Sample Forensic Images](http://hackingexposedcomputerforensicsblog.blogspot.com/2014/03/daily-blog-277-sample-forensic-images.html)
 
 # Conferences
 

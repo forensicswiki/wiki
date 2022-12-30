@@ -39,9 +39,6 @@ not all-inclusive.
 - [Digital Forensic Science Mailing
   List](http://www.dfrws.org/dfsci.shtml) (**dfsci@dfrws.org**) - The
   archive is only available to list members.
-- [Forensic Audio](http://tech.groups.yahoo.com/group/ForensicAudio/)
-  (**ForensicAudio@yahoogroups.com**) - Subscription requires moderator
-  approval. The archive is only available to list members.
 - [Forensic Video
   Analysis](http://lists.umanitoba.ca/mailman/listinfo/fva-list)
   (**fva-list@lists.umanitoba.ca**) - Subscription requires moderator
@@ -53,10 +50,6 @@ not all-inclusive.
   application must include an email of reference from an officer of
   executive rank at the agency to which they provides services. These
   references must be sent from a Government e-mail domain.
-- [Hashkeeper List](http://tech.groups.yahoo.com/group/hashkeeper/)
-  (**hashkeeper@yahoogroups.com**) - Subscription requires moderator
-  approval. The archive is only available to list members. (VERY low
-  volume)
 - [High Technology Crime Consortium Mailing
   List](http://www.hightechcrimecops.org/membership.html) - The HTCC
   mailing list is for members only. The archive is only available to

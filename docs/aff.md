@@ -84,16 +84,16 @@ encrypted images.
 ### AFFLIBv3 Tools
 
 - [aimage](aimage.md)
-- [ident](ident.md)
-- [afcat](afcat.md)
-- [afcompare](afcompare.md)
+- ident
+- afcat
+- afcompare
 - [afconvert](afconvert.md)
-- [affix](affix.md)
+- affix
 - [affuse](affuse.md)
-- [afinfo](afinfo.md)
-- [afstats](afstats.md)
+- afinfo
+- afstats
 - [afxml](afxml.md)
-- [afsegment](afsegment.md)
+- afsegment
 
 # See Also
 

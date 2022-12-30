@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Hashing
+  - Hashing
 ---
 Run by the National Drug Intelligence Center, part of the U.S.
 Department of Justice.
@@ -41,7 +41,4 @@ Act](http://www.usdoj.gov/ndic/foia.htm) request to NDIC.
 
 ## External Links
 
-- [Official NDIC website](http://www.usdoj.gov/ndic/about.htm)
-- [Hashkeeper mailing
-  list](http://tech.groups.yahoo.com/group/hashkeeper/)
-
+* [Official NDIC website](http://www.usdoj.gov/ndic/about.htm)

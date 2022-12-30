@@ -22,17 +22,17 @@ AFFLIB has been depreciated. As a result, this page is now obsolete.
 
 - Create man pages and/or documentation for AFF toolkit. To wit:
 
-`* `[`aimage`](aimage.md)
-`* `[`ident`](ident.md)
-`* `[`afcat`](afcat.md)
-`* `[`afcompare`](afcompare.md)
-`* `[`afconvert`](afconvert.md)
-`* `[`affix`](affix.md)
-`* `[`affuse`](affuse.md)
-`* `[`afinfo`](afinfo.md)
-`* `[`afstats`](afstats.md)
-`* `[`afxml`](afxml.md)
-`* `[`afsegment`](afsegment.md)
+* [aimage](aimage.md)
+* ident
+* afcat
+* afcompare
+* [afconvert](afconvert.md)
+* affix
+* [affuse](affuse.md)
+* afinfo
+* afstats
+* [afxml](afxml.md)
+* afsegment
 
 - Add a usage description to [afcat](afcat.md). When run with no
   arguments the output should say what the program does.
