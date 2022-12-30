@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-[Pine](pine.md) composes headers in the following format:
+Pine composes headers in the following format:
 
     Date: Tue, 6 Mar 2007 11:10:36 -0500 (EST)
     From: Sender Name <sender@host.com>
@@ -30,6 +30,6 @@ sending machine. The fields are
 Note that the timestamp in the Message-Id may not necessarily match the
 `Date` line.
 
-The hostname can be [ROT-13](rot-13.md) encrypted on some
+The hostname can be ROT-13 encrypted on some
 configurations. If the hostname is not defined, the value `huh` will be
 used.

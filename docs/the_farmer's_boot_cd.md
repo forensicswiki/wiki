@@ -2,16 +2,14 @@
 tags:
   - No Category
 ---
-**THE FARMER'S BOOT CD** (**FBCD**) is a [Linux](linux.md) [boot
-CD](boot_cd.md) developed by [Thomas
-Rude](thomas_rude.md).
+**THE FARMER'S BOOT CD** (**FBCD**) is a [Linux](linux.md) bootable CD
+developed by Thomas Rude.
 
-Taking a different approach than other [Live CDs](live_cds.md),
+Taking a different approach than other [Live CDs](live_cd.md),
 this CD was designed and optimized for previewing systems before
 acquiring. It contains a number of programs forensic practitioners can
 utilize to preview both [Windows](windows.md) and
-[Linux](linux.md) systems in a [forensically
-sound](forensically_sound.md) manner.
+[Linux](linux.md) systems in a forensically sound manner.
 
 ## Preview Capabilities
 
@@ -52,9 +50,7 @@ this CD;
 
 ## External Links
 
-- [THE FARMER'S BOOT CD screen
-  shots](http://www.forensicbootcd.com/site/view.html) - Screen Shots
-  for Delve Preview Program on the FBCD.
-- [Preview Data in Under Twenty
-  Minutes](http://www.forensicfocus.com/farmers-boot-cd) - Paper on
-  previewing data quickly at <http://www.forensicfocus.com>.
+- [THE FARMER'S BOOT CD screen shots](http://www.forensicbootcd.com/site/view.html) -
+  Screen Shots for Delve Preview Program on the FBCD.
+- [Preview Data in Under Twenty Minutes](http://www.forensicfocus.com/farmers-boot-cd) -
+  Paper on previewing data quickly at <http://www.forensicfocus.com>.

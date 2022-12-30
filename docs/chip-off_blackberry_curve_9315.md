@@ -1,11 +1,10 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 The hardware used in the BlackBerry 9315's and 9320's are almost
 identical. The following link describes the differences between the
 models.
-<http://worldwide.blackberry.com/blackberrycurve/9220-9310-9320/specifications.jsp>
 
 ## Tear Down
 

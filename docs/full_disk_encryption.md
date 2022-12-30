@@ -189,7 +189,7 @@ using the Linux 2.6 device mapper. Supports various [ciphers](ciphers.md) and
 [PGPDisk](pgpdisk.md)
 Pretty Good Privacy Whole Disk Encryption provides transparent whole
 disk encryption with Pre-Boot authentification for
-[Windows](windows.md). Also supports [MacOS](macos.md) X
+[Windows](windows.md). Also supports [Mac OS X](mac_os_x.md)
 10.4 (non-boot disks only).
 
 Can use OpenPGP RFC 2440 keys and X.509 keys for authentification.
@@ -244,7 +244,7 @@ Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 [VeraCrypt](veracrypt.md)
 Fork of [TrueCrypt](truecrypt.md) project. Support for for
 [Linux](linux.md), [Windows](windows.md), and
-[MacOS](macos.md).
+[MacOS](mac_os_x.md).
 
 <http://veracrypt.codeplex.com/>
 

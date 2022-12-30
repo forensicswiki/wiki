@@ -79,35 +79,25 @@ MS-SHLLINK\] binary format segments.
 
 ## External Links
 
-- [Windows 7 Goodies in C++: Jump
-  Lists](http://www.codeproject.com/Articles/36561/Windows-7-Goodies-in-C-Jump-Lists),
-  by [Michael Dunn](michael_dunn.md), May 19, 2009
-- [Jump Lists in Windows 7 and Possible Forensic
-  Implementations](http://mikeahrendt.blogspot.ch/2011/04/jump-lists-in-windows-7-and-possible.html),
-  by [Mike Ahrendt](mike_ahrendt.md), April 3, 2011
-- [The Forensic Value of the Windows 7 Jump
-  List](http://www.alexbarnett.com/jumplistforensics.pdf), by [Alexander
-  G Barnett](alexander_g_barnett.md), April 18, 2011
-- [Forensic Examination of Windows 7 Jump
-  Lists](http://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
-  by [Troy Larson](troy_larson.md), June 6, 2011
-- [Jump List
-  Analysis](http://windowsir.blogspot.ch/2011/08/jump-list-analysis.html),
+- [Windows 7 Goodies in C++: Jump Lists](http://www.codeproject.com/Articles/36561/Windows-7-Goodies-in-C-Jump-Lists),
+  by Michael Dunn, May 19, 2009
+- [Jump Lists in Windows 7 and Possible Forensic Implementations](http://mikeahrendt.blogspot.ch/2011/04/jump-lists-in-windows-7-and-possible.html),
+  by Mike Ahrendt, April 3, 2011
+- [The Forensic Value of the Windows 7 Jump List](http://www.alexbarnett.com/jumplistforensics.pdf),
+  by Alexander G Barnett, April 18, 2011
+- [Forensic Examination of Windows 7 Jump Lists](http://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
+  by Troy Larson, June 6, 2011
+- [Jump List Analysis](http://windowsir.blogspot.ch/2011/08/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), August 17, 2011
-- [Jump List Analysis, pt
-  II](http://windowsir.blogspot.ch/2011/08/jump-list-analysis-pt-ii.html),
+- [Jump List Analysis, pt II](http://windowsir.blogspot.ch/2011/08/jump-list-analysis-pt-ii.html),
   by [Harlan Carvey](harlan_carvey.md), August 24, 2011
-- [Jump List
-  Analysis](http://windowsir.blogspot.ch/2011/12/jump-list-analysis.html),
+- [Jump List Analysis](http://windowsir.blogspot.ch/2011/12/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), December 28, 2011
-- [Forensic Analysis of Windows 7 Jump
-  Lists](http://articles.forensicfocus.com/2012/10/30/forensic-analysis-of-windows-7-jump-lists/),
-  by [Rob Lyness](rob_lyness.md), October 2012
-- [Jump lists
-  format](https://github.com/libyal/assorted/blob/master/documentation/Jump%20lists%20format.asciidoc),
+- [Forensic Analysis of Windows 7 Jump Lists](http://articles.forensicfocus.com/2012/10/30/forensic-analysis-of-windows-7-jump-lists/),
+  by Rob Lyness, October 2012
+- [Jump lists format](https://github.com/libyal/dtformats/blob/main/documentation/Jump%20lists%20format.asciidoc),
   by the [libyal project](libyal.md), July 2014
-- [Jump lists in depth (includes changes from Windows
-  10)](http://binaryforay.blogspot.com/2016/02/jump-lists-in-depth-understand-format.html),
+- [Jump lists in depth (includes changes from Windows 10)](http://binaryforay.blogspot.com/2016/02/jump-lists-in-depth-understand-format.html),
   by [Eric Zimmerman](eric_zimmerman.md), Feb 2016
 
 ## Tools
@@ -116,8 +106,7 @@ MS-SHLLINK\] binary format segments.
   of functions of this tool is search (including carving) and analysis
   of jumplists. A wide list of applications is supported (Jump list
   IDs).
-- [TZWorks LLC: Windows Jump List Parser
-  (jmp)](http://tzworks.net/prototype_page.php?proto_id=20). Also has a
+- TZWorks LLC: Windows Jump List Parser (jmp). Also has a
   tool that can parse both the custom and automatic Destinations type
   files. For automaticDestinations it associates the MRU/MFU metadata
   with that of the SHLLINK metadata. There are versions of the tool that

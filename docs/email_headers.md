@@ -12,8 +12,8 @@ be used as the only source of information.
 There is no single way to make sense of email headers. Some examiners
 favor reading from the bottom up, some favor reading from the top down.
 Because information in the headers can be put there by the user's
-[MUA](mail_user_agent.md), a server in transit, or the
-recipient's [MUA](mail_user_agent.md), it can be difficult to
+Mail User Agent (MUA), a server in transit, or the
+recipient's MUA, it can be difficult to
 determine when a line was added.
 
 ### Sender's IP Address
@@ -23,7 +23,7 @@ message headers. Some do not.
 
 ### Mail User Agents
 
-Every [MUA](mail_user_agent.md) sets up the headers for a
+Every MUA sets up the headers for a
 message slightly differently. Although some headers are required under
 the applicable [RFC](http://www.faqs.org/rfcs/rfc2822.html), their
 format and ordering can vary by client. Almost all clients, however, add

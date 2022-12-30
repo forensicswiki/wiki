@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Computer Bus
-  -  Hardware
+  - Computer Bus
+  - Hardware
 ---
 USB is an acronym for the *Universal Serial Bus*, a method for attaching
 a wide variety of devices to a host system. USB provides for hot-swap of
@@ -25,11 +25,10 @@ exfiltration was conducted, for example.
 
 Windows:
 
-- [usbsnoop](usbsnoop.md)
+- usbsnoop
 
 Linux
 
 - enable CONFIG_USB_STORAGE_DEBUG and monitor syslog
-- [usbmon](usbmon.md)
-- Turn on [usbfs_snoop](usbfs_snoop.md) and monitor syslog and
-  the kernel buffer ring.
+- usbmon
+- Turn on usbfs_snoop and monitor syslog and the kernel buffer ring.
