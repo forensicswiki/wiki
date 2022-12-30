@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## JTAG Huawei TracFone M865C (Ascend II)
 
@@ -133,4 +133,3 @@ approximately 30 minutes to download.
 ### References
 
 - <http://www.phonescoop.com/phones/phone.php?p=3308>
-- <http://www.riffbox.org/>

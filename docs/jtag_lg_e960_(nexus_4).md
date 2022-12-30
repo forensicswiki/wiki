@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## JTAG LG Nexus 4
 
@@ -15,13 +15,12 @@ via JTAG, reassembled.
 
 What you need to dump the NAND:
 
-1.  A RIFF Box [Box](http://www.riffbox.org/%7CRIFF)
+1.  A [RIFF Box](https://www.riffbox.org/)
 2.  Soldering skills and fine tip soldering iron (a JTAG jig is
     available for this device).
 3.  Optional: JTAG Molex Adapter Set by MOORC.
 4.  A DC Power supply capable of supplying 3.8V/2.1A output. The power
-    supply used for this was an [U8002A DC Power
-    Supply](http://www.home.agilent.com/agilent/product.jspx?pn=u8002a&cc=CA&lc=eng%7CAgilent).
+    supply used for this was an U8002A DC Power Supply.
 
 ### NAND Dump Procedure
 

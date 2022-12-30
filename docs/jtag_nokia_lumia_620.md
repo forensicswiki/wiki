@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## JTAG Nokia Lumia 620
 
@@ -15,12 +15,11 @@ JTAG, and reassembled.
 
 What you need to dump the NAND:
 
-1.  A Riff Box [Box](http://www.riffbox.org/%7CRIFF)
+1.  A [RIFF Box](https://www.riffbox.org/)
 2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
     be available).
 3.  A DC Power supply capable of supplying 3.7V/1.30A output. The power
-    supply used for this was an [U8002A DC Power
-    Supply](http://www.home.agilent.com/agilent/product.jspx?pn=u8002a&cc=CA&lc=eng%7CAgilent).
+    supply used for this was an U8002A DC Power Supply.
 4.  A hot air re-work station. The hot air re-work station used for this
     was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Commercial Hardware
 ---
 **Azimuth’s RadioProof Enclosures** provide an RF-interference free
 environment in which to test wireless devices. RadioProof enclosures
@@ -17,4 +17,4 @@ provide up to 50V power to the device under test
 
 ## References
 
-<http://www.azimuthsystems.com>
+* [Official website](https://www.azimuthtechnologies.com/)
