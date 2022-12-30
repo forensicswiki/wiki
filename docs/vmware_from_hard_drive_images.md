@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Howtos
-  -  Virtual Disk
-  -  Disk Analysis
+  - Disk Analysis
+  - Howtos
+  - Virtual Disk
 ---
 ## Creating virtual machines from forensic images
 
@@ -10,11 +10,11 @@ After having no success with raw2vmdk, the Live View method has worked.
 
 [Live View](http://liveview.sourceforge.net/index.html) requires:
 
--Java JRE
+- Java JRE
 
--VMWare Workstation 5.5+ or Server
+- VMWare Workstation 5.5+ or Server
 
--VMWare VDDK ([download](http://www.vmware.com/support/developer/vddk))
+- VMWare VDDK ([download](http://www.vmware.com/support/developer/vddk))
 
 ## Install
 
@@ -23,8 +23,6 @@ for pre-reqs).
 
 *Tested: Win7-64 with VMWare Workstation 7.12, Live View 0.7b, and
 VMWare VDDK 5.0*
-
-![<File:LiveView.png>](LiveView.png "File:LiveView.png")
 
 ## VMX Creation
 
@@ -36,6 +34,3 @@ errors otherwise)*
 
 3\. Click "Start". *(The screenshot error relates to maximums exceeded
 based on client machine.)*
-
-![<File:VMWareWorkstation.png>](VMWareWorkstation.png "File:VMWareWorkstation.png")
-

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Photo
+  - File Formats
+  - Photo
 ---
 **Portable Network Graphics** (aka PNG) is an image file format
 developed to replace GIF images on the web. It uses lossless compression
@@ -22,7 +22,7 @@ PNG files begin with the following 8-byte (hexadecimal) signature:
 
 # See Also
 
-* [Tools for extracting image metadata](:tools:document_metadata_extraction.md#images)
+* [Tools for extracting image metadata](document_metadata_extraction.md)
 
 # External Links
 

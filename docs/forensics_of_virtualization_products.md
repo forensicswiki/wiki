@@ -32,9 +32,6 @@ To undo:
 1.  \>sudo umount /mnt
 2.  \>qemu-nbd -d /dev/nbd0
 
-\[<http://bethesignal.org/blog/2011/01/05/how-to-mount-virtualbox-vdi-image/>\|
-Source Blog\]
-
 #### Convert
 
 Conversion requires the Virtual Box tool kit, if you don't already have
@@ -46,6 +43,3 @@ it.
     infile.vdi outfile.img
 3.  Inspect the raw image as per usual, either with TSK, EnCase, or
     mount
-
-### VMWare
-

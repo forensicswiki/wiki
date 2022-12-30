@@ -160,7 +160,7 @@ Reas govisual diagram editor reas.com gdf.net
   layout algorithms, recursive graph nesting, and easy printing. Runs on
   [Windows](windows.md), [Linux](linux.md),
   [Solaris](solaris.md), [NetBSD](netbsd.md), and
-  [MacOS](macos.md). 30-day trial and free registered versions
+  [MacOS](mac_os_x.md). 30-day trial and free registered versions
   available. Academic pricing available.
 - [Geomantics](http://www.geomantics.com/) - Geographical, Visualization
   and Graphics software. Runs on [Windows](windows.md).

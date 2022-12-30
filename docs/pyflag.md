@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Deprecated
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  Disk Analysis
-  -  Tools
+  - Deprecated
+  - Disk Analysis
+  - Linux
+  - MacOS
+  - Tools
+  - Windows
 ---
 **PyFlag** is a web-based, database-backed *forensic and log analysis
 GUI* and [Computer forensics
@@ -48,8 +48,7 @@ Can it build timelines and search by creation date?
 
 # History
 
-- Originally started by the [Australian Department of
-  Defence](australian_department_of_defence.md) and was open
+- Originally started by the Australian Department of Defence and was open
   sourced
 
 # External Links

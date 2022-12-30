@@ -21,9 +21,8 @@ thus potentially every user's files to be exposed to the world.
 ## Client Application
 
 The Dropbox client running on windows was analyzed and shown to leave a
-significant amount of data debris behind when deleted. An overview of
-the report is
-[here](http://computer-forensics.sans.org/blog/2011/06/17/digital-forensics-rain-drop-keeps-falling-on-my-box).
+significant amount of data debris behind when deleted.
+
 Even after deletion of the application, this would allow a forensic
 analyst to detect that Dropbox has been in use, potentially identify
 other computers linked to the same account, and potentially recover
@@ -75,19 +74,19 @@ account. It contains:
 
 ## Server Side
 
-According to [online help](https://www.dropbox.com/help/7), "All files
-stored online by Dropbox are encrypted and kept securely on Amazon's
-Simple Storage Service (S3) in multiple data centers located across the
-United States."
+Per [Where is my data stored?](https://help.dropbox.com/security/physical-location-data-storage)
+
+```
+All files stored online by Dropbox are encrypted and kept in secure storage
+servers. Storage servers are located in data centers across the United States.
+Additionally, storage servers are available in Australia, the European Union,
+Japan, and the United Kingdom for eligible Dropbox business users
+```
 
 ## External Links
 
-- [Dropbox](http://www.dropbox.com)
-- [Digital Forensics: Dropbox](https://digital-forensics.sans.org/blog/2011/06/17/digital-forensics-rain-drop-keeps-falling-on-my-box),
-  by Frank McClain, June 17, 2011
-- [Dropbox Forensics](http://www.forensicfocus.com/dropbox-forensics),
-  by Frank McClain
+- [Product site](https://www.dropbox.com/)
+- [Dropbox Forensics](https://www.forensicfocus.com/articles/dropbox-forensics/)
+  by Frank McClain, July 24, 2011
 - [Decrypting More Dropbox Files: config.dbx](http://www.magnetforensics.com/decrypting-the-config-dbx-file/),
   Magnet Forensics, November 20, 2013
-- [Cloud Storage Forensics](https://digital-forensics.sans.org/summit-archives/Prague_Summit/Cloud_Storage_Forensics_Mattia_Eppifani.pdf),
-  by Mattia Epifani, October 7, 2013

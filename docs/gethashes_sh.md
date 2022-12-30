@@ -40,8 +40,6 @@ in the same directory as a collection of text files containing the
 output of commands run on the victim machine, transferred to a forensic
 workstation using [Netcat](netcat.md).
 
-![<File:getHashesExample1.png>](getHashesExample1.png "File:getHashesExample1.png")
-
 Next, open up terminal into the directory with the *getHashes.sh* script
 and execute the script.
 
@@ -50,8 +48,6 @@ script, you likely need to run the following command in terminal to make
 the script executable:
 
 ` chmod a+x getHashes.sh`
-
-![<File:getHashesExample2.png>](getHashesExample2.png "File:getHashesExample2.png")
 
 As you can see in the screenshot above, the script created MD5 and SHA1
 directories because they didn't yet exist in that directory. These new
@@ -70,7 +66,5 @@ The following video describes how to use the script:
 
 ## External Links
 
-- [Download
-  location](https://bitbucket.org/stewdebaker/unix-hashing-script)
-- [ReadMe
-  file](http://technicallysane.blogspot.com/p/unix-file-hashing-script.html)
+* [Download location](https://bitbucket.org/stewdebaker/unix-hashing-script)
+* [ReadMe file](http://technicallysane.blogspot.com/p/unix-file-hashing-script.html)
