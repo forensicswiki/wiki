@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems
+  - Operating Systems
 ---
 ## New Features
 
@@ -14,9 +14,8 @@ The file system used by Windows 7 is primarily [NTFS](ntfs.md).
 
 ## SSD
 
-Per MS [KB2727880](http://support.microsoft.com/kb/2727880), when
-Windows 7 is installed on a system with an SSD drive, automatic
-defragmentation and SuperFetch/prefetching are disabled.
+Per MS KB2727880, when Windows 7 is installed on a system with an SSD drive,
+automatic defragmentation and SuperFetch/prefetching are disabled.
 
 Further, [this TechNet
 post](http://technet.microsoft.com/en-us/magazine/ff356869.aspx) states:
@@ -170,8 +169,6 @@ component of the Windows 7 operating system.
 
 ## External Links
 
-- [The Windows 7 Event Log and USB Device
-  Tracking](http://dfstream.blogspot.ch/2014/01/the-windows-7-event-log-and-usb-device.html),
-  by [Jason Hale](jason_hale.md), January 2, 2014
+- [The Windows 7 Event Log and USB Device Tracking](http://dfstream.blogspot.ch/2014/01/the-windows-7-event-log-and-usb-device.html),
+  by Jason Hale, January 2, 2014
 - [Windows 7 DLL File Information](http://www.win7dll.info/)
-

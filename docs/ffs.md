@@ -1,10 +1,10 @@
 ---
 tags:
-  -  File Systems
-  -  OpenBSD
-  -  FreeBSD
-  -  NetBSD
-  -  Solaris
+  - File Systems
+  - FreeBSD
+  - NetBSD
+  - OpenBSD
+  - Solaris
 ---
 **FFS** is one name given to the BSD **Fast File System**, also known as
 **UFS1** or **UFS2** (referring to different versions of the file
@@ -17,18 +17,12 @@ capabilities and metadata exist between these systems, and compatibility
 is not guaranteed.
 
 *Note: This article refers to the BSD Fast File System. For information
-on the Amiga Fast File System, please see [Ffs
-(amiga)](ffs_(amiga).md).*
+on the Amiga Fast File System, please see FFS Amiga.*
 
 ## More Information
 
-- More information regarding super-block metadata structures can be
-  gleaned from the
-  [fs(5)](http://threads.seas.gwu.edu/cgi-bin/man2web?program=fs&section=5)
-  manual page in FreeBSD.
-- An email list, *freebsd-fs*, exists and can be viewed online [via
-  Google
-  Groups](http://groups.google.com/group/mailing.freebsd.fs/topics?lnk=rgh).
-- [Wikipedia's
-  article](http://en.wikipedia.org/wiki/Berkeley_Fast_File_System).
-
+* More information regarding super-block metadata structures can be
+  gleaned from the fs(5) manual page in FreeBSD.
+* An email list, *freebsd-fs*, exists and can be viewed online via
+  [Google Groups](http://groups.google.com/group/mailing.freebsd.fs/topics?lnk=rgh).
+* [Wikipedia's article](http://en.wikipedia.org/wiki/Berkeley_Fast_File_System).

@@ -1,13 +1,12 @@
 ---
 tags:
-  -  Windows Mobile
+  - Mobile
+  - Windows
 ---
 **Windows Mobile** is an operating system that has both a look-and-feel
 and a programmer API that are similar to Microsoft Windows but which
 runs in a dramatically reduced footprint. Windows Mobile is the
 successor operating system to Windows CE.
-
-![](Windows-Mobile-6-Professional.jpg‎ "Windows-Mobile-6-Professional.jpg‎")
 
 ## Windows Mobile Versions
 
@@ -66,10 +65,5 @@ Center Mobile Device Manager 2008, a product to manage mobile devices.
 
 ## External Links
 
-- [Official site of Windows
-  Mobile](http://www.microsoft.com/windowsmobile/default.mspx)
-- [Free software for Windows Mobile
-  Smartphones](http://www.smartphone-freeware.org/)
-- [Free software for Windows Mobile Pocket
-  PCs](http://www.pocketpcfreeware.org/)
-
+- [Official site of Windows Mobile](http://www.microsoft.com/windowsmobile/default.mspx)
+- [Free software for Windows Mobile Smartphones](http://www.smartphone-freeware.org/)

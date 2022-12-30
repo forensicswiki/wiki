@@ -192,7 +192,6 @@ This returns the phone number (Samsung).
 * [AT+C Command Set of GSM](http://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
 * [Alexander Traud's GSM pages](http://www.traud.de/gsm/atex.htm)
 * [AT Test Commands](http://www.anotherurl.com/library/at_test.htm)
-* [AT Commands to Access the Motorola](http://www.csparks.com/MotoBackup/MotorolaAT.xhtml)
 * [Gammu Phone Protocols](http://wammu.eu/docs/manual/protocol/index.html)
 * [ETSI-3GPP Standards](http://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&GSMSpecPart2=007)
 * [Nokia AT Commands](http://wiki.forum.nokia.com/index.php/AT_Commands)

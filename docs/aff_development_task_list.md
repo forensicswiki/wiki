@@ -34,7 +34,7 @@ AFFLIB has been depreciated. As a result, this page is now obsolete.
 `* `[`afxml`](afxml.md)
 `* `[`afsegment`](afsegment.md)
 
-- Add a usage description to [afcat](afcat.md). When run with no
+- Add a usage description to afcat. When run with no
   arguments the output should say what the program does.
 
 <!-- -->
