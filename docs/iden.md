@@ -7,8 +7,7 @@ mobile communications technology from Motorola.
 It is a [TDMA](tdma.md) based digital wireless standard that
 operates in the 800 MHz, 900MHz, and 1.5 GHz bands. It combines the
 capabilities of a [digital cellular telephone](cell_phones.md)
-and a two-way radio known as [push-to-talk](push-to-talk.md)
-([ptt](ptt.md).
+and a two-way radio known as push-to-talk (ptt).
 
 Motorola’s iDEN technology phones support many other features including
 Bluetooth, location-based services, [MOTOTalk](mototalk.md) and support for

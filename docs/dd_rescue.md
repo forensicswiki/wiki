@@ -5,7 +5,7 @@ tags:
 **dd_rescue**, is an an advanced evolution of [dd](dd.md), a
 command line program that has been ported only for UNIX/Linux. The
 program uses a complex series of flags to allow the user to image or
-write data from and to [raw image files](raw_image_file.md).
+write data from and to [raw image files](raw_image_format.md).
 Like [dcfldd](dcfldd.md), the program makes an effort to keep
 the user apprised of the status of the current operation.
 
@@ -51,4 +51,3 @@ line arguments `if` or `of`.
 - [dcfldd](dcfldd.md)
 - [dd](dd.md)
 - [ddrescue](ddrescue.md)
-- [sdd](sdd.md)

@@ -50,8 +50,8 @@ been able to synchronize their contacts and schedules Address Book and
 [iSync](isync.md). With the 2005 release of iTunes 5.0, Apple
 integrated contact/schedule syncing into iTunes and added the ability
 for Windows users to synchronize their contacts and schedules from
-[Microsoft Outlook](microsoft_outlook.md) and [Outlook
-Express](outlook_express.md). Although Mozilla Calendar and
+[Microsoft Outlook](microsoft_outlook.md) and Outlook
+Express. Although Mozilla Calendar and
 Mozilla Sunbird iCalendar have the same file format used by iCal and the
 iPod, there is no way to automatically sync schedules among these
 programs. However the files can be manually dragged and dropped into the

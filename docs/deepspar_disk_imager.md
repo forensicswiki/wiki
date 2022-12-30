@@ -44,7 +44,7 @@ previous read correctly. It also allows the imager run imaging passes to
 target specific sector errors.
 
 Unlike forensics tools, the DeepSpar Disk Imager does not create an
-[image file](raw_image_file.md). Instead, it uses commands and
+[image file](raw_image_format.md). Instead, it uses commands and
 techniques to image all sectors on the source drive directly to the
 destination drive. The image drive can then be used by any data
 retrieval or forensics software for file recovery or forensics

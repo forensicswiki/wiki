@@ -1,17 +1,17 @@
 ---
 tags:
-  -  Disk Encryption
-  -  Encryption
-  -  Anti-Forensics
-  -  File Systems
-  -  MacOS
-  -  Windows
-  -  Linux
+  - Anti-Forensics
+  - Disk Encryption
+  - Encryption
+  - File Systems
+  - Linux
+  - MacOS
+  - Windows
 ---
 # Conventional File Systems
 
 [Apple File System (apfs)](apple_file_system_(apfs).md)
-A file system for [Apple](apple.md) systems optimized for
+A file system for [Apple](apple_inc.md) systems optimized for
 flash/SSD media.
 
 <!-- -->
@@ -29,25 +29,25 @@ SGI Extent File System, predecessor to XFS
 <!-- -->
 
 [FAT](fat.md)
-Originally used by [MS-DOS](ms-dos.md). Includes [FAT12](fat.md),
+Originally used by MS-DOS. Includes [FAT12](fat.md),
 [FAT16](fat.md) and [FAT32](fat.md).
 
 <!-- -->
 
 [FFS](ffs.md)
 The **Fast File System** used by some BSD versions of [UNIX](unix.md) and from
-which UFS was derived supporting faster disk access and [symbolic links](symbolic_link.md)
+which UFS was derived supporting faster disk access and symbolic links
 like ffs.
 
 <!-- -->
 
 (Traditional) HFS
-Hierarchical File System used by [Apple](apple.md) systems, it
+Hierarchical File System used by [Apple](apple_inc.md) systems, it
 has been succeed by [HFS+](hfs+.md).
 
 <!-- -->
 
-[JFS](jfs.md)
+JFS
 IBM's Journaled File System introduced with their flavor of UNIX (AIX)
 
 <!-- -->
@@ -75,10 +75,10 @@ The **Unix File System**, introduced with [UNIX](unix.md).
 <!-- -->
 
 [XFS](xfs.md)
-[SGI](sgi.md)’s high performance journaling file system that
-originated on their [IRIX](irix.md) (flavor of
+SGI’s high performance journaling file system that
+originated on their IRIX (flavor of
 [UNIX](unix.md)) platform. XFS supports variable blocking sizes,
-is extent based, and makes extensive use of [Btrees](btree.md)
+is extent based, and makes extensive use of Btrees
 to facilitate both performance and scalability. Additionally, support is
 also provided for real-time environments.
 
@@ -90,7 +90,7 @@ smartphones and was build for NAND and NOR flash.
 
 <!-- -->
 
-[Next3](next3.md)
+Next3
 An open-source file system based on the Ext3 file system, for the
 purpose of supporting enterprise-grade snapshot capabilities.
 
@@ -103,20 +103,18 @@ device drivers, which are then used to store some of the file systems
 discussed above.
 
 [File Vault](file_vault.md)
-A clever user interface to [Apple](apple.md)'s encrypted disk
+A clever user interface to [Apple](apple_inc.md)'s encrypted disk
 images. Uses the ".sparseimage" extension on disk files.
 
 <!-- -->
 
-[CFS](cfs.md)
+CFS
 Matt Blaze's **Cryptographic File System** for [Unix](unix.md).
 
-[Key Management in an Encrypting File
-System](http://www.crypto.com/papers/cfskey.pdf), Matt Blaze, USENIX
+Key Management in an Encrypting File System, Matt Blaze, USENIX
 Summer 1994 Technical Conference, Boston, MA, June 1994.
 
-[A Cryptographic File System for
-Unix](http://www.crypto.com/papers/cfs.pdf), Matt Blaze, Proceedings of
+A Cryptographic File System for Unix, Matt Blaze, Proceedings of
 the First ACM Conference on Computer and Communications Security,
 Fairfax, VA, November 1993.
 
@@ -128,7 +126,7 @@ Windows.
 
 <!-- -->
 
-[NCryptfs](ncryptfs.md)
+NCryptfs
 [NCryptfs: A Secure and Convenient Cryptographic File
 System](http://www.fsl.cs.sunysb.edu/docs/ncryptfs/ncryptfs.pdf),
 Charles P. Wright, Michael C. Martino, and Erez Zadok, Stony Brook
@@ -136,7 +134,7 @@ University, USENIX 2003 Annual Technical Conference.
 
 <!-- -->
 
-[TCFS](tcfs.md)
+TCFS
 **Transparent Cryptographic File System**.
 
 <http://www.tcfs.it/>
@@ -145,7 +143,7 @@ University, USENIX 2003 Annual Technical Conference.
 
 <!-- -->
 
-[SFS](sfs.md)
+SFS
 **Secure File System**.
 
 <http://atrey.karlin.mff.cuni.cz/~rebel/sfs/>
@@ -153,7 +151,6 @@ University, USENIX 2003 Annual Technical Conference.
 <!-- -->
 
 [ZFS](zfs.md)
-<http://hub.opensolaris.org/bin/view/Project+zfs-crypto/WebHome>
 
 See also [Full Disk Encryption](full_disk_encryption.md), which
 are disk- or applicance-based cryptographic file systems.
@@ -181,7 +178,7 @@ of a file system for CDs.
 
 <!-- -->
 
-[Joliet](joliet.md)
+Joliet
 This is a Microsoft defined extension to ISO 9660 to support Unicode and
 64-character file names. It was introduced with Windows 95. It has
 gained some support for Linux and MacOS file systems but remains

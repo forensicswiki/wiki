@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-Version 6 of [Outlook Express](outlook_express.md) running on
+Version 6 of Outlook Express running on
 [Microsoft Windows](microsoft_windows.md) generates headers in
 the format:
 

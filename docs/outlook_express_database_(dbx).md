@@ -2,7 +2,7 @@
 tags:
   -  File Formats
 ---
-[Outlook Express](outlook_express.md) uses the **Outlook
+Outlook Express uses the **Outlook
 Express Database (DBX)** database to store emails, folders, etc. The DBX
 was introduced in version 5. Earlier versions of OE use different file
 formats.
@@ -31,13 +31,8 @@ The contents of a DBX file is dependent on the content CLSID.
 
 ## External Links
 
-- [Outlook Express
-  Wikipedia](http://en.wikipedia.org/wiki/Outlook_Express)
-- [Outlook Express dbx file format by Arne
-  Schloh](http://oedbx.aroh.de/)
-- [Outlook Express Version 5.0 file
-  format](http://www.fpns.net/willy/DBX-FMT.HTM)
-- [libdbx](http://sourceforge.net/projects/ol2mbox/), see FILE-FORMAT in
+* [Outlook Express Wikipedia](http://en.wikipedia.org/wiki/Outlook_Express)
+* [Outlook Express dbx file format by Arne Schloh](http://oedbx.aroh.de/)
+* [Outlook Express Version 5.0 file format](http://www.fpns.net/willy/DBX-FMT.HTM)
+* [libdbx](http://sourceforge.net/projects/ol2mbox/), see FILE-FORMAT in
   the package.
-
-[Category:File Formats](category:file_formats.md)

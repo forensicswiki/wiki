@@ -16,7 +16,7 @@ features for forensic [investigators](investigator.md) such as:
 - The output can be split into multiple files.
 - Logs and data can be piped into external applications.
 
-The program only produces [raw image files](raw_image_file.md).
+The program only produces [raw image files](raw_image_format.md).
 
 ## Example
 
