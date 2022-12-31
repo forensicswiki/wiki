@@ -15,7 +15,7 @@ identify file types by content.
 - Rules in /usr/share/file/magic and compiled at runtime.
 - Powers the Unix “file” command, but you can also call the library
   directly from a C program.
-- <http://sourceforge.net/projects/libmagic>
+- <https://sourceforge.net/projects/libmagic>
 
 ## Digital Preservation Efforts
 

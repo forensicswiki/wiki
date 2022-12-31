@@ -32,7 +32,7 @@ pretty well.
 - [Verifia NetGeo (commercial)](http://www.netgeo.com/index.htm)
 - [ActiveTarget (commercial)](http://www.activetarget.com/)
 - [Java IP (InetAddress) Locator (free lookup library with
-  database)](http://sourceforge.net/projects/javainetlocator/)
+  database)](https://sourceforge.net/projects/javainetlocator/)
 - [CountryWhois DB
   (commercial)](http://www.tamos.com/products/ip-location-database)
 - [CountryWhois](http://www.countrywhois.com/online-demo.php)

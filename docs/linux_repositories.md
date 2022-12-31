@@ -68,7 +68,7 @@ version 3.2.5
 | [IXimager](iximager.md)            | N/A                   | ?          | N/A                       | ?          | A law enforcement only imager                          | used in conjunction with ILook Investigator                                                          |
 | [LinEn](linen.md)                  | N/A                   | ?          | N/A                       | ?          | a proprietary imaging tool to create ewf format images | included on the Helix boot CD                                                                        |
 | [guymager](guymager.md)            | N/A                   | ?          | Squeeze/0.4.2 Sid/0.5.9-3 | ?          | a imaging tool to create aff format images             | Guymager is an open source forensic imager. It focuses on user friendliness and high speed.          |
-| [rdd](http://sourceforge.net/projects/rdd) | N/A                   | ?          | 2.0.7-2                   | ?          | a dd-like tool, with forensic imaging features         | Rdd is robust with respect to read errors                                                            |
+| [rdd](https://sourceforge.net/projects/rdd) | N/A                   | ?          | 2.0.7-2                   | ?          | a dd-like tool, with forensic imaging features         | Rdd is robust with respect to read errors                                                            |
 | [sdd](ftp://ftp.berlios.de/pub/sdd/)       | Archiving:Backup/1.52 | ?          | lenny/1.52 deprecated     | ?          | a dd-like tool                                         | Designed to work well when IBS != OBS. Working with tape is an example.                              |
 
 - package will appear in the base release with the next full

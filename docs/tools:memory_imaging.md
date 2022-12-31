@@ -105,7 +105,7 @@ included on [Helix 2.0](http://www.e-fense.com/helix/)
 <!-- -->
 
 [Mdd](mdd.md) ([ManTech](mantech.md))
-<http://sourceforge.net/projects/mdd>
+<https://sourceforge.net/projects/mdd>
 
 <!-- -->
 

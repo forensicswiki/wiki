@@ -8,4 +8,4 @@ Harbour](nick_harbour.md).
 
 ## External Links
 
-- [Official website](http://sourceforge.net/projects/fatback/)
+- [Official website](https://sourceforge.net/projects/fatback/)

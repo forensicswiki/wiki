@@ -16,9 +16,9 @@ encoded data on magnetic tape.
 
 ## Links
 
-- [Microsoft Tape format reader](http://sourceforge.net/projects/mtf/)
+- [Microsoft Tape format reader](https://sourceforge.net/projects/mtf/)
 - [MTF Format specification](http://laytongraphics.com/mtf/MTF_100a.PDF)
 - [Linux MTF tape parsing
   tool](http://www.laytongraphics.com/mtf/mtf-0.2.1.tgz)
-- \[<http://sourceforge.net/projects/jmtf/> Java Parser for MTF Tape
+- \[<https://sourceforge.net/projects/jmtf/> Java Parser for MTF Tape
   format.

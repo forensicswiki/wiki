@@ -4,4 +4,4 @@ tags:
 ---
 ## External Links
 
-- [Project site](http://sourceforge.net/projects/windowsir/)
+- [Project site](https://sourceforge.net/projects/windowsir/)

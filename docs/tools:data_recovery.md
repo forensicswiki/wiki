@@ -168,7 +168,7 @@ exchange servers and other virtual and hardware machines. All the
 products are user oriented and embedded with QFSCI algorithm to provide
 accurate solutions quickly.
 
-- [FreeRecover](http://sourceforge.net/projects/freerecover/)
+- [FreeRecover](https://sourceforge.net/projects/freerecover/)
 
 
 FreeRecover is a small program that can recover deleted files from NTFS
@@ -389,7 +389,7 @@ formats the files are verified and intelligent names added based on file
 metadata. Several video formats can be reconstructed from isolated
 fragments.
 
-- [NFI Defraser](http://sourceforge.net/projects/defraser/)
+- [NFI Defraser](https://sourceforge.net/projects/defraser/)
 
 
 "Defraser is a forensic analysis application that can be used to detect

@@ -28,4 +28,4 @@ for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
 
 ## External Links
 
-* [Project site](http://github.com/libyal/libesedb/)
+* [Project site](https://github.com/libyal/libesedb/)

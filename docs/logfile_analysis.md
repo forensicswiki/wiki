@@ -96,6 +96,6 @@ Open Web Analytics
 <!-- -->
 
 Breadboard BI Web Analytics
-<http://sourceforge.net/projects/web-analytics/>
+<https://sourceforge.net/projects/web-analytics/>
 
 *"Uses open source tools to collect and distribute web analytics data."*

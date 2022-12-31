@@ -10,4 +10,4 @@ vision toolkits that would be useful in forensics.
 # Vision Toolkits
 
 - [Intel Open Computer Vision Library
-  (OpenCV)](http://sourceforge.net/projects/opencvlibrary/)
+  (OpenCV)](https://sourceforge.net/projects/opencvlibrary/)

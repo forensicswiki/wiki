@@ -129,7 +129,7 @@ Examines [Thumbs.db](thumbs.db.md) files.
 <!-- -->
 
 [libexif](libexif.md)
-<http://sourceforge.net/projects/libexif> EXIF tag Parsing Library
+<https://sourceforge.net/projects/libexif> EXIF tag Parsing Library
 
 <!-- -->
 
@@ -186,7 +186,7 @@ Debian based distributions.
 <!-- -->
 
 pngmeta
-<http://sourceforge.net/projects/pmt/files/>
+<https://sourceforge.net/projects/pmt/files/>
 
 Open source command line tool that extracts metadata from
 [PNG](png.md) images. Found in many Debian based distributions.

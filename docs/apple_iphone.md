@@ -12,7 +12,7 @@ products can process iPhones, see Tools section.
 In December 2009, Nicolas Seriot presented a paper
 [1](http://seriot.ch/resources/talks_papers/iPhonePrivacy.pdf) in
 combination with a harvesting application named
-[SpyPhone](http://github.com/nst/spyphone). This application grabs data
+[SpyPhone](https://github.com/nst/spyphone). This application grabs data
 as sensitive as location data and a cache of keyboard words. It neither
 requires jailbreaking nor makes Private API calls (which Apple's App
 Store does not allow in any application it distributes).
@@ -53,7 +53,7 @@ Store does not allow in any application it distributes).
   from iOS and iPhones and can directly ingest HFSX dd images.
 - [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 - Paraben Device Seizure
-- [SpyPhone](http://github.com/nst/spyphone)
+- [SpyPhone](https://github.com/nst/spyphone)
 
 ## Publications
 

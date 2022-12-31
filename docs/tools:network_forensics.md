@@ -206,7 +206,7 @@ supports a live sniffing mode, silently identifying and fingerprinting
 devices without needing to send any traffic onto a network.
 
 [NetworkMiner](networkminer.md)
-<http://sourceforge.net/projects/networkminer/>
+<https://sourceforge.net/projects/networkminer/>
 
 <http://www.netresec.com/?page=NetworkMiner>
 
@@ -226,7 +226,7 @@ enforcement. NetworkMiner is today used by companies and organizations
 all over the world.
 
 NetworkMiner is available both as a [free open source
-tool](http://sourceforge.net/projects/networkminer/) and as a
+tool](https://sourceforge.net/projects/networkminer/) and as a
 [commercial network forensics
 tool](http://www.netresec.com/?page=NetworkMiner).
 

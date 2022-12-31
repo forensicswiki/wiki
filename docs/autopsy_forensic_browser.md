@@ -23,4 +23,4 @@ third-party plug-in modules.
 
 * [Autopsy Forensic Browser, version 2](autopsy_forensic_browser,_version_2.md)
 * [Search Autopsy Addon Modules](https://sleuthkit.github.io/autopsy_addon_modules/)
-* [Carlos Lannister's catalog of Autopsy Modules](http://github.com/CarlosLannister/awesome-autopsy-plugins)
+* [Carlos Lannister's catalog of Autopsy Modules](https://github.com/CarlosLannister/awesome-autopsy-plugins)

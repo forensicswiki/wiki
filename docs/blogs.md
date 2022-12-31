@@ -251,7 +251,7 @@ See: [Journals](journals.md)
 - [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
 - [Digital Forensic Test Images](http://testimages.wordpress.com/)
 - [Second Look - Linux Memory Images](http://secondlookforensics.com/linux-memory-images/)
-- [NullconCTF2014](http://sourceforge.net/projects/nullconctf2014/)
+- [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)
 - [Daily Blog \#277: Sample Forensic Images](http://hackingexposedcomputerforensicsblog.blogspot.com/2014/03/daily-blog-277-sample-forensic-images.html)
 
 # Conferences
