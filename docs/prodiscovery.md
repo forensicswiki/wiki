@@ -1,13 +1,11 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 # ProDiscovery
 
 This tool from Tech Pathways will gather data from most major file
 systems and perform some analysis.
-
-[website](http://www.techpathways.com/ProDiscoverDFT.htm)
 
 # Features
 
@@ -56,6 +54,4 @@ available for ProDiscover®."
 
 # External Links
 
-[website](http://www.techpathways.com/ProDiscoverDFT.htm)
-
-## External Reviews
+* [website](https://prodiscover.com/)

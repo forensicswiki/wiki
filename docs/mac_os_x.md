@@ -297,51 +297,36 @@ Mac OS.
 
 ### EFI
 
-- [The Intel Mac boot
-  process](http://refit.sourceforge.net/info/boot_process.html), by the
-  [rEFIt project](refit.md)
-- [Carving up EFI fat
-  binaries](http://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/), by
-  snare, February 24, 2012
+- [The Intel Mac boot process](http://refit.sourceforge.net/info/boot_process.html), by the
+  [rEFIt project](refit.md) - [Carving up EFI fat binaries](http://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/),
+  by snare, February 24, 2012
 
 ### iCloud
 
-- [iCloud: iCloud security and privacy
-  overview](http://support.apple.com/kb/HT4865?viewlocale=en_US&locale=en_US)
+- [iCloud: iCloud security and privacy overview](http://support.apple.com/kb/HT4865?viewlocale=en_US&locale=en_US)
 
 ### ColorSync
 
-- [Technical Note TN2035 - ColorSync on Mac OS
-  X](https://developer.apple.com/library/mac/technotes/tn2035/_index.html)
-- [Internet Archive: Managing Color With
-  ColorSync](https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html)
-- [ICC.1:2004-10 - Image technology colour management - Architecture,
-  profile format, and data structure](http://www.color.org/icc1v42.pdf),
+- [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/mac/technotes/tn2035/_index.html)
+- [Internet Archive: Managing Color With ColorSync](https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html)
+- [ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure](http://www.color.org/icc1v42.pdf),
   by International Color Consortium (ICC)
 - [ICC Profile Format Specification](http://www.color.org/icc32.pdf), by
   International Color Consortium (ICC), November 20, 1995
 - [ICC profiles](http://www.color.org/profiles2.xalter)
-- [ICC_Profile
-  Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/ICC_Profile.html)
+- [ICC_Profile Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/ICC_Profile.html)
 - [Adobe XMP Developer Center](http://www.adobe.com/devnet/xmp.html)
 
 ### Quarantine event database
 
-- [Quarantine event
-  database](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
+- [Quarantine event database](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
 
 ### Unified logging
 
-- [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified
-  Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
+- [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
   by [Sarah Edwards](sarah_edwards.md), November 13, 2016
-- [Accessing Unified Logs From an
-  Image](https://www.blackbagtech.com/blog/2017/09/22/accessing-unified-logs-image/),
-  by [BlackBag Technologies,
-  Inc.](blackbag_technologies,_inc..md), Sepember 22, 2017
 
 ### Yet Another Assembler (YAA)
 
-- [YAA: An Obscure MacOS Compressed File
-  Format](https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/),
+- [YAA: An Obscure MacOS Compressed File Format](https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/),
   by nightwatchcyber, June 14, 2020

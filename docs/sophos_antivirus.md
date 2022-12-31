@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
-  -  Anti Virus
+  - Applications
+  - Anti Virus
 ---
 ## Quarantine directory
 
@@ -42,11 +42,10 @@ The Sophos logs sometimes contain the following notation:
     ...\file.exe\FILE:0000
 
 These are not an NTFS ADS, but seems to be related to "running" files
-[1](http://www.sophos.com/support/knowledgebase/article/58269.html)
 
 These entries also surface when scanning a packed executable. So they
 might refer to unpacked versions of the executable.
 
 ## External Links
 
-- [Sophos](http://www.sophos.com/en-us.aspx)
+* [Sophos](https://www.sophos.com/en-us)

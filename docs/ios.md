@@ -45,7 +45,6 @@ operating systems (listed alphabetically):
 
 * Aceso by Radio Tactics
   [1](http://www.radio-tactics.com/products/law/aceso-kiosk)
-* Blacklight by Black Bag Technology [2](https://www.blackbagtech.com/)
 * Lantern by Katana Forensics [3](http://katanaforensics.com/)
 * [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) by
   [Nuix](nuix.md).

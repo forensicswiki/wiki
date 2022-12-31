@@ -12,50 +12,47 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 - [4n6ir by John Lukach](http://blog.4n6ir.com/)
 - [4n6k](http://4n6k.blogspot.com/)
-- [A Fistful of Dongles](http://www.afodblog.com), by Eric Huber
-- [A Geek Raised by Wolves](http://jessekornblum.livejournal.com/), by
-  [Jesse Kornblum](jesse_kornblum.md)
-- [All things time related....](http://blog.kiddaland.net/), by the
-  [plaso project](plaso.md), [Kristinn
-  Gudjonsson](kristinn_gudjonsson.md) and others
-- [Another Forensics Blog](http://az4n6.blogspot.com/), by [Mari
-  DeGrazia](mari_degrazia.md)
+- [A Fistful of Dongles](http://www.afodblog.com),
+  by Eric Huber
+- [A Geek Raised by Wolves](http://jessekornblum.livejournal.com/),
+  by [Jesse Kornblum](jesse_kornblum.md)
+- [All things time related....](http://blog.kiddaland.net/),
+  by [Kristinn Gudjonsson](kristinn_gudjonsson.md) and others
+- [Another Forensics Blog](http://az4n6.blogspot.com/),
+  by [Mari DeGrazia](mari_degrazia.md)
 - [Apple Examiner](http://www.appleexaminer.com/)
-- [Avairy Solutions](https://avairysolutions.com/blog/), by Kevin DeLong
-- [Binary Foray](http://binaryforay.blogspot.com/), by [Eric
-  Zimmerman](eric_zimmerman.md)
-- [BlackBag: Mac, iPad, and iPhone
-  Forensics](http://www.blackbagtech.com/blog/)
+- [Avairy Solutions](https://avairysolutions.com/blog/),
+  by Kevin DeLong
+- [Binary Foray](http://binaryforay.blogspot.com/),
+  by [Eric Zimmerman](eric_zimmerman.md)
 - [Brett Shavers Blog](http://brettshavers.cc/index.php/brettsblog)
 - [BriMor Labs Blog](http://www.brimorlabsblog.com/)
-- [c-skills](http://c-skills.blogspot.ch/), by [Sebastian
-  Krahmer](sebastian_krahmer.md)
-- [Champlain College Computer & Digital Forensics
-  Blog](http://computerforensicsblog.champlain.edu/)
-- [Checkmate - e-zine on Digital Forensics and Incident
-  Response](http://www.niiconsulting.com/checkmate/)
-- [Computer Forensics Blog](http://geschonneck.com/), by [Alexander
-  Geschonneck](alexander_geschonneck.md)
-- [Computer Forensics Blog](http://integriography.wordpress.com), by
-  [David Kovar](david_kovar.md)
-- [Computer Forensics Blog](http://forensicblog.org/), by [Michael
-  Murr](michael_murr.md)
-- [Count Upon Security](http://countuponsecurity.com/), by Luis Rocha
-- [DFIR and Threat Hunting](http://findingbad.blogspot.com/), by [Jack
-  Crook](jack_crook.md)
+- [c-skills](http://c-skills.blogspot.ch/),
+  by [Sebastian Krahmer](sebastian_krahmer.md)
+- [Champlain College Computer & Digital Forensics Blog](http://computerforensicsblog.champlain.edu/)
+- [Checkmate - e-zine on Digital Forensics and Incident Response](http://www.niiconsulting.com/checkmate/)
+- [Computer Forensics Blog](http://geschonneck.com/),
+  by [Alexander Geschonneck](alexander_geschonneck.md)
+- [Computer Forensics Blog](http://integriography.wordpress.com),
+  by [David Kovar](david_kovar.md)
+- [Computer Forensics Blog](http://forensicblog.org/),
+  by [Michael Murr](michael_murr.md)
+- [Count Upon Security](http://countuponsecurity.com/),
+  by Luis Rocha
+- [DFIR and Threat Hunting](http://findingbad.blogspot.com/),
+  by [Jack Crook](jack_crook.md)
 - [Didier Stevens Blog](http://blog.didierstevens.com/)
 - [Digital Forensic Source](http://www.digitalforensicsource.com)
-- [Digital Forensics Blog](http://digiforensics.blogspot.com/), by Ken
-  Pryor
-- [Digital Forensics Stream](http://dfstream.blogspot.com/), by Jason
-  Hale
-- [Digital Forensics Tips](http://digitalforensicstips.com/), by Matt
-  Edmondson
-- [Digital Forensics with a Focus on
-  EnCase](http://secureartisan.wordpress.com/), by [Paul
-  Bobby](paul_bobby.md)
-- [Dlog](http://dan3lmi.blogspot.pt/), by [Daniela
-  Elmi](daniela_elmi.md)
+- [Digital Forensics Blog](http://digiforensics.blogspot.com/),
+  by Ken Pryor
+- [Digital Forensics Stream](http://dfstream.blogspot.com/),
+  by Jason Hale
+- [Digital Forensics Tips](http://digitalforensicstips.com/),
+  by Matt Edmondson
+- [Digital Forensics with a Focus on EnCase](http://secureartisan.wordpress.com/),
+  by [Paul Bobby](paul_bobby.md)
+- [Dlog](http://dan3lmi.blogspot.pt/),
+  by [Daniela Elmi](daniela_elmi.md)
 - [eForensics Magazine blog](http://eforensicsmag.com/category/news/)
 - [Elcomsoft Blog](https://blog.elcomsoft.com)
 - [Elvidence Computer Forensics Blog](http://www.elvidence.com.au/blog),
