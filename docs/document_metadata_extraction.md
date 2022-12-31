@@ -179,17 +179,16 @@ distribution
 pngtools
 <http://www.stillhq.com/pngtools/>
 
-Open source suite of commands (pnginfo, pngchunks, pngchunksdesc) that
-reads metadata found in [PNG](png.md) files. Found in many
-Debian based distributions.
+Open source suite of commands (pnginfo, pngchunks, pngchunksdesc) that reads
+metadata found in PNG files. Found in many Debian based distributions.
 
 <!-- -->
 
 pngmeta
 <http://sourceforge.net/projects/pmt/files/>
 
-Open source command line tool that extracts metadata from
-[PNG](png.md) images. Found in many Debian based distributions.
+Open source command line tool that extracts metadata from PNG images. Found in
+many Debian based distributions.
 
 # General
 

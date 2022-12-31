@@ -14,14 +14,10 @@ The following tools can be used to conduct memory analysis.
   Comprehensive toolkit for the capture and analysis of Windows physical
   and virtual memory targeting cyber analysis, forensics/incident
   response, and education. Software and hardware based acquisition with
-  [CaptureGUARD PCIe and
-  ExpressCard](http://www.windowsscope.com/index.php?option=com_virtuemart&Itemid=34).
+  [CaptureGUARD PCIe and ExpressCard](http://www.windowsscope.com/index.php?option=com_virtuemart&Itemid=34).
 - [WindowsSCOPE Live](http://www.windowsscope.com) live fetch and
   analysis of Windows computers on a network from Android smartphones
   and tablets.
-- [Second Look](second_look.md) from [Raytheon Pikewerks
-  Corporation](http://www.pikewerks.com) - provides Linux memory
-  forensics, including acquisition and analysis.
 
 ## Browser Email Memory Tool
 
@@ -45,11 +41,6 @@ hardware updates.
   NetBSD. inVtero.net is based on interpreting low-level hardware
   defined constructs which change little over time. See github for
   details.
-- [Forensics MemDump
-  Extractor](http://www.techipick.com/forensics-memdump-extractor), is a
-  tool by Gem George which can extract any kind of files residing in
-  memory dump based on file signature. For example, if we put signature
-  of a JPG file, it will extract all JPGs residing in memory dump.
 
 ## Analysis support libraries/tools
 

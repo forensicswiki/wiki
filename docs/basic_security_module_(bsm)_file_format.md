@@ -1,25 +1,21 @@
 ---
 tags:
-  -  File Formats
-  -  Articles that need to be expanded
-  -  Solaris
-  -  MacOS
+  - Articles that need to be expanded
+  - File Formats
+  - MacOS
+  - Solaris
 ---
-The Basic Security Module (BSM) file format originates from the [Sun
-Solaris](solaris.md) operating system and has been adopted in
+The Basic Security Module (BSM) file format originates from the
+[Sun Solaris](solaris.md) operating system and has been adopted in
 various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
 
 ## External Links
 
 - [Wikipedia: OpenBSM](http://en.wikipedia.org/wiki/OpenBSM)
-- [audit -- Basic Security Module (BSM) file
-  format](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/audit.log.5.html),
-  Mac Developer Library
 - [audit_bsm_token.c](http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/security/audit/audit_bsm_token.c?txt),
   Apple Open Source
-- [Solaris Basic Security Mode (BSM)
-  Auditing](http://www.deer-run.com/~hal/sysadmin/SolarisBSMAuditing.html),
-  by [Hal Pomeranz](hal_pomeranz.md)
+- [Solaris Basic Security Mode (BSM) Auditing](http://www.deer-run.com/~hal/sysadmin/SolarisBSMAuditing.html),
+  by Hal Pomeranz
 
 ## Tools
 
@@ -35,4 +31,3 @@ various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
   better security and keep an eye on system activities.
 - [linuxopenbsm](https://code.google.com/p/linuxopenbsm/), Linux Basic
   Security Module
-

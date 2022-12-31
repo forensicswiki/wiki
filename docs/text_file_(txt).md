@@ -1,13 +1,13 @@
 ---
 tags:
-  -  File Formats
-  -  Text
-  -  Windows
-  -  FreeBSD
-  -  Linux
-  -  OpenBSD
-  -  NetBSD
-  -  MacOS
+  - File Formats
+  - FreeBSD
+  - Linux
+  - MacOS
+  - NetBSD
+  - OpenBSD
+  - Text
+  - Windows
 ---
 The **Text file (TXT)** format consist of 8-, 16- or 32-bit characters
 that use printable characters along with some control data such as tabs
@@ -29,15 +29,14 @@ are split into several major types:
 - EBCIDIC used char(15) for a new line.
   [2](http://en.wikipedia.org/wiki/EBCDIC)
 
-They are usually [ASCII](ascii.md) encoded, although other
-encodings are possible to allow various language scripts to be used.
-Other encodings include EBCIDIC from the old IBM mainframe. Text files
-can have the [MIME type](mime_type.md) "text/plain", often with
-suffixes indicating an encoding (e.g. "text/plain;charset=UTF-8".) Any
-basic text reader can be used to view the contents of a simple text
-file, however some (notably Notepad) have issues with certain less
-popular encodings. Wordpad is included with
-[Windows](windows.md) and may display the files properly.
+They are usually [ASCII](ascii.md) encoded, although other encodings are
+possible to allow various language scripts to be used. Other encodings include
+EBCIDIC from the old IBM mainframe. Text files can have the MIME type
+"text/plain", often with suffixes indicating an encoding (e.g.
+"text/plain;charset=UTF-8".) Any basic text reader can be used to view the
+contents of a simple text file, however some (notably Notepad) have issues with
+certain less popular encodings. Wordpad is included with [Windows](windows.md)
+and may display the files properly.
 
 Translation of a DOS/Windows text file to Unix is performed by removing
 the Carriage Return from the end of the line. The reverse is simply the
@@ -50,5 +49,4 @@ is actually "text files", but bear different extensions. For example is
 web documents ([html](html.md) text files but is written
 with a specific syntax so the applications the files are designed to
 work with can read i correctly. Other kinds of files that can be seen as
-text files are source code files, xml, etc.
-
+text files are source code files, XML, etc.
