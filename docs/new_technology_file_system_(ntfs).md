@@ -166,7 +166,7 @@ TxF uses the [Common Log File System
   by William Ballenthin, September 18, 2012
 * [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/blog/incident-response-ntfs-indx-buffers-part-2-internal-structures-file-attribute/),
   by Jeff Hamm, September 26, 2012
-* [Analysis of hidden data in the NTFS file system](http://www.forensicfocus.com/hidden-data-analysis-ntfs),
+* [Analysis of hidden data in the NTFS file system](https://www.forensicfocus.com/hidden-data-analysis-ntfs),
   by Cheong Kai Wee
 * [The Four Stages of NTFS File Growth, Part 2](http://blogs.technet.com/b/askcore/archive/2015/03/12/the-four-stages-of-ntfs-file-growth-part-2.aspx),
   by John Marlin, March 12, 2015

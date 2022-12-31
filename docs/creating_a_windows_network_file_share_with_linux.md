@@ -49,8 +49,6 @@ username on your machine that you want to use (e.g., root)):
 You should be prompted to enter a password for the user. The prompts
 should look similar to those in the screenshot below:
 
-![<File:smbExample1.png>](smbExample1.png "File:smbExample1.png")
-
 Next, create a directory to share (replace <share> with whatever you
 want the shared directory to be named):
 
@@ -80,8 +78,6 @@ above):
 After adding the text listed above, the bottom of the *smb.conf* file
 should look something like this:
 
-![<File:smbExample2.png>](smbExample2.png "File:smbExample2.png")
-
 Save the changes you've made to the smb.conf file.
 
 Next, the Samba service needs to be restarted in order to reflect these
@@ -103,4 +99,3 @@ If you have set things up correctly, you should be prompted for the
 Samba username and password you created above. Once, the network file
 share has been established, you can access and copy information to it
 using the drive letter you specified in the "net use" command above.
-

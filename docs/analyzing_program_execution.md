@@ -37,7 +37,6 @@ This article focuses on the direct program execution indicators.
 
 - [Launch Agents](mac_os_x.md#launch-agents)
 - [Launch Daemons](mac_os_x.md#launch-daemons)
-- [Mac OS X Memory Analysis](mac_os_x_memory_analysis.md)
 
 ### Windows
 

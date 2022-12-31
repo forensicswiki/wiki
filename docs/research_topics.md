@@ -125,7 +125,7 @@ These are research areas that could easily grow into a PhD thesis.
   Guan, Iowa State University, Dec. 4,
   2007](http://itsecurity.uiowa.edu/securityday/documents/guan.pdf)
 - [Forensic Focus: Project Ideas for Digital Forensics
-  Students](http://www.forensicfocus.com/project-ideas)
+  Students](https://www.forensicfocus.com/project-ideas)
 
 __NOTOC__
 

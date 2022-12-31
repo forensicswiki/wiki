@@ -88,8 +88,7 @@ below.
 
 <!-- -->
 
-- 1 Oct 2006: [Brian Kaplan](brian_kaplan.md), author of
-  [LiveView](liveview.md)
+- 1 Oct 2006: Brian Kaplan, author of [LiveView](liveview.md)
 - 8 Oct 2006: [Tom Gallagher](tom_gallagher.md) discusses his
   book *Hunting Security Bugs*
 - 15 Oct 2006: (No Interview)

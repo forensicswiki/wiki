@@ -1189,7 +1189,7 @@ name</a></b></p></td>
   Examiner](http://eptuners.com/forensics/A%20Windows%20Registry%20Quick%20Reference.pdf),
   by Derrick Farmer, Burlington, VT.
 - [Forensic Analysis of the Windows
-  Registry](http://www.forensicfocus.com/downloads/forensic-analysis-windows-registry.pdf),
+  Registry](https://www.forensicfocus.com/downloads/forensic-analysis-windows-registry.pdf),
   by Lih Wern Wong , School of Computer and Information Science, Edith
   Cowan University
 
