@@ -75,8 +75,7 @@ below.
 
 - 10 Aug 2006: [Brian Contos](brian_contos.md) discusses his
   book *Insider Threat: Enemy at the Watercooler*
-- 13 Aug 2006: [Richard Bejtlich](richard_bejtlich.md) discusses
-  his book *Real Digital Forensics*
+- 13 Aug 2006: Richard Bejtlich discusses his book *Real Digital Forensics*
 - 27 Aug 2006: [David Farquhar](david_farquhar.md)
 
 <!-- -->

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Forensic Live CD
-    issues](forensic_live_cd_issues.md)
+
+_See: [Forensic Live CD issues](forensic_live_cd_issues.md)_

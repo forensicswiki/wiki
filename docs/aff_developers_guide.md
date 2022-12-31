@@ -13,8 +13,6 @@ explains the tools included with the library. The default imager,
 aimage, is covered in this guide.
 
 This version of documentation reflections version 2.3.0 of the library.
-You can always get the latest version of the documentation at
-<http://www.forensicswiki.org/wiki/AFF_Developers_Guide>.
 
 # Introduction
 

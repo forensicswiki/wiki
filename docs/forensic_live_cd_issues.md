@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Live CD
+  - Live CD
 ---
 ## The problem
 
@@ -194,13 +194,6 @@ doesn't write block anything by default).
 
 ## External links
 
-- [Linux for computer forensic investigators: problems of booting
-  trusted operating
-  system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
-- [Linux for computer forensic investigators: «pitfalls» of mounting
-  file
-  systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
-- [Testing the forensic soundness of forensic examination environments
-  on bootable
-  media](http://www.dfrws.org/2014/proceedings/DFRWS2014-3.pdf)
-
+- [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
+- [Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
+- [Testing the forensic soundness of forensic examination environments on bootable media](http://www.dfrws.org/2014/proceedings/DFRWS2014-3.pdf)

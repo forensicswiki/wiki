@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Linux
-  -  Tools
+  - Linux
+  - Tools
 ---
 Gruls is a bash script and is short for grep urls :
 
@@ -30,10 +30,10 @@ Once saved in /usr/local/bin/gurls and made ​​executable, gurls can be
 used like this :
 
 `root@forensic# gurls a.file an.other.file`
-[`http://www.forensicswiki.org`](http://www.forensicswiki.org)
+[`https://forensics.wiki`](https://forensics.wiki)
 
 `root@forensic# strings /mnt/forensic/partition/pagefile.sys | gurls | sort | uniq -c | sort -n`
-`     10 `[`http://www.forensicswiki.org`](http://www.forensicswiki.org)
+`     10 `[`https://forensics.wiki`](https://forensics.wiki)
 
 `root@forensic# strings /dev/sdb1 | gurls > /tmp/urls`
 
@@ -42,4 +42,3 @@ used like this :
 - [bulk_extractor](bulk_extractor.md) provides similar
   functionality but on a much larger scale. Still, scripts like *gurls*
   are good for quickly searching through data.
-

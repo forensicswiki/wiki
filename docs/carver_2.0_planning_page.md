@@ -354,7 +354,7 @@ section be merged with the carving algorithm section?
 
 
 
-[Mark](user:mark_stam.md) I really like the fact carved files
+Mark Stam: I really like the fact carved files
 are named after the physical or logical sector in which the file is
 found (photorec)
 
@@ -368,7 +368,7 @@ files from non sector aligned file systems.
   export embedded files?
 - [Joachim](user:joachim_metz.md) Should the tool allow to
   export fragments separately?
-- [Mark](user:mark_stam.md) I personally use photorec often for
+- Mark Stam: I personally use photorec often for
   carving files in the whole volume (not only unallocated clusters), so
   I can store information about all potential interesting files in MySQL
 
@@ -380,7 +380,7 @@ recovery process, i.e. recovered fragments could be part of allocated
 files. Do we want to be able to extract them? Or could we rebuild the
 file from the fragments and the allocated files.
 
-- [Mark](user:mark_stam.md) It would also be nice if the files
+- Mark Stam: It would also be nice if the files
   can be hashed immediately (MD5) so looking for them in other tools
   (for example Encase) is a snap
 
@@ -590,7 +590,7 @@ ourselves making translators due to the design of these non-open tools.
 be integrated into libraries, but I would not opt integrating tool
 functionality into a library
 
-- [Mark](user:mark_stam.md) I think it would be very handy to
+- Mark Stam: I think it would be very handy to
   have a CSV, TSV, XML or other delimited output (log)file with
   information about carved files. This output file can then be stored in
   a database or Excel sheet (report function)

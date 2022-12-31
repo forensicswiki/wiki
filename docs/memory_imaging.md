@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Memory Analysis
-  -  Memory Imaging
+  - Memory Analysis
+  - Memory Imaging
 ---
 Memory imaging is the process of making a bit-by-bit copy of memory. In
 principle it is similar to [Disk Imaging](disk_imaging.md).
@@ -9,10 +9,8 @@ principle it is similar to [Disk Imaging](disk_imaging.md).
 For physical memory it is common to have sections that are not
 accessible, e.g. because of memory-mapped I/O
 
-The resulting copy is stored in a [Forensics image
-format](:category:forensics_file_formats.md). Some of these
-formats have means to differentiate between an image of memory and e.g.
-that of a disk.
+The resulting copy is stored in a Forensics image format. Some of these formats
+have means to differentiate between an image of memory and e.g. that of a disk.
 
 ## Introduction
 
@@ -61,9 +59,8 @@ Crash Dumps
 When configured to create a full memory dump,
 [Windows](windows.md) operating systems will automatically save
 an image of physical memory when a bugcheck (aka blue screen or kernel
-panic) occurs. [Andreas Schuster](andreas_schuster.md) has a
-[blog
-post](http://computer.forensikblog.de/en/2005/10/acquisition_2_crashdump.html)
+panic) occurs. Andreas Schuster has a
+[blog post](http://computer.forensikblog.de/en/2005/10/acquisition_2_crashdump.html)
 describing this technique.
 
 LiveKd Dumps
@@ -157,33 +154,22 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
 
 ## Also see
 
-- [Memory analysis](memory_analysis.md)
-- [Memory Imaging Tools](:tools:memory_imaging.md)
+* [Memory analysis](memory_analysis.md)
+* [Memory Imaging Tools](:tools:memory_imaging.md)
 
 ## External Links
 
-- [Wikipedia article on Memory-mapped
-  I/O](http://en.wikipedia.org/wiki/Memory-mapped_I/O)
-- [RedTeam: FireWire
-  round-up](http://web.archive.org/web/20101210223853/http://blogs.23.nu/RedTeam/0000/00/antville-5201)
-- [FireWire Memory Dump of a Windows XP Computer: A Forensic
-  Approach](http://www.friendsglobal.com/papers/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
+* [Wikipedia article on Memory-mapped I/O](http://en.wikipedia.org/wiki/Memory-mapped_I/O)
+* [RedTeam: FireWire round-up](http://web.archive.org/web/20101210223853/http://blogs.23.nu/RedTeam/0000/00/antville-5201)
+* [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](http://www.friendsglobal.com/papers/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
   by [Antonio Martin](antonio_martin.md), 2007
-- [Catching the ghost: how to discover ephemeral evidence with Live RAM
-  analysis](http://forensic.belkasoft.com/en/live-ram-forensics) by Oleg
-  Afonin and Yuri Gubanov, May 2013
-- [Anti-forensic resilient memory
-  acquisition](http://www.dfrws.org/2013/proceedings/DFRWS2013-13.pdf),
-  by [Johannes Stuettgen](johannes_stuettgen.md), [Michael
-  Cohen](michael_cohen.md), August 2013
-- [64bit Big Sized RAM Image Acquisition
-  Problem](http://takahiroharuyama.github.io/blog/2014/01/07/64bit-big-size-ram-acquisition-problem/),
+* [Catching the ghost: how to discover ephemeral evidence with Live RAM analysis](http://forensic.belkasoft.com/en/live-ram-forensics),
+  by Oleg Afonin and Yuri Gubanov, May 2013
+* [Anti-forensic resilient memory acquisition](http://www.dfrws.org/2013/proceedings/DFRWS2013-13.pdf),
+  by [Johannes Stuettgen](johannes_stuettgen.md), [Michael Cohen](michael_cohen.md), August 2013
+* [64bit Big Sized RAM Image Acquisition Problem](http://takahiroharuyama.github.io/blog/2014/01/07/64bit-big-size-ram-acquisition-problem/),
   by [Takahiro haruyama](takahiro_haruyama.md), January 7, 2014
-- [All memory dumping tools are not the
-  same](http://brimorlabs.blogspot.com/2014/01/all-memory-dumping-tools-are-not-same.html),
+* [All memory dumping tools are not the same](http://brimorlabs.blogspot.com/2014/01/all-memory-dumping-tools-are-not-same.html),
   by [Brian Moran](brian_moran.md), January 14, 2014
-- [Robust Linux memory acquisition with minimal target
-  impact](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2014EU.html),
-  [Johannes Stüttgen](johannes_stüttgen.md) [Michael
-  Cohen](michael_cohen.md), May 2014
-
+* [Robust Linux memory acquisition with minimal target impact](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2014EU.html),
+  by [Johannes Stüttgen](johannes_stüttgen.md) [Michael Cohen](michael_cohen.md), May 2014

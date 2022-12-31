@@ -17,34 +17,24 @@ computer users.
 <!-- -->
 
 
-Garfinkel, S. and Shelat, A., ["Remembrance of Data Passed: A Study of
-Disk Sanitization
-Practices,"](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)
+Garfinkel, S. and Shelat, A., [Remembrance of Data Passed: A Study of Disk Sanitization Practices](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf),
 IEEE Security and Privacy, January/February 2003.
 
 <!-- -->
 
-The Honeynet Project Forensic Challenge.
+The Honeynet Project: Challenges.
 In 2001 the Honeynet project distributed a set of disk images and asked
 participants to conduct a forensic analysis of a compromised computer.
 Entries were judged and posted for all to see. The drive and writeups
 are still available online.
 
-<http://www.honeynet.org/challenge/index.html> (now available via
-Archive.org Wayback at
-<https://web.archive.org/web/20190716094835/http://old.honeynet.org/challenge/>):
+[The Honeynet Project: Challenges](https://www.honeynet.org/challenges/)
 
 Other challenges were released in 2010 and 2011, and two contained
 partial disk images.
 
-[Challenge 7: Compromised
-Server](https://www.honeynet.org/challenges/2011_7_compromised_server)
-(now available via Archive.org Wayback at
-<https://web.archive.org/web/20190621170821/http://honeynet.org/challenges/2011_7_compromised_server>)
-
-[Challenge 9: Mobile Malware](https://www.honeynet.org/node/751) (now
-available via Archive.org Wayback at
-<https://web.archive.org/web/20190613135528/http://honeynet.org/node/751>)
+* [Challenge 7: Compromised Server](https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/)
+* [Challenge 9: Mobile Malware](https://www.honeynet.org/challenges/forensic-challenge-9-mobile-malware/)
 
 <!-- -->
 

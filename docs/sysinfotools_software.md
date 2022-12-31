@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 SysInfoTools Software is a global software franchise specializing in
 unique and challenging projects. The company combines its technical
@@ -54,28 +54,24 @@ recovery, these software products are so designed that they are feasible
 and easily adaptable to all range of our elite customers to easily
 operate and enjoy the benefits from them.
 
-- [NSF Merge Tool](http://forensicswiki.org/wiki/NSF_Merge_Tool) An
+- [NSF Merge Tool](nsf_merge_tool.md) An
   outstanding tool to merge two NSF files into a single file
-- [PST File Viewer](http://forensicswiki.org/wiki/Pst_file_viewer) PST
+- [PST File Viewer](pst_file_viewer.md) PST
   File Viewer is a freeware tool to read, view and open MS Outlook PST
   files without even using Microsoft Outlook
-- [OST File Viewer](http://forensicswiki.org/wiki/OST_File_Viewer) This
+- [OST File Viewer](ost_file_viewer.md) This
   freeware tool helps to read, view and open corrupt OST files.
-- [DBX Recovery Tool](http://forensicswiki.org/wiki/DBX_Recovery_Tool) A
+- [DBX Recovery Tool](dbx_recovery_tool.md) A
   diverse tool to recover and restore corrupt, impaired and inaccessible
   Outlook Express DBX files seamlessly
-- [DBX To PST
-  Converter](http://forensicswiki.org/wiki/DBX_To_PST_Converter) A
+- [DBX To PST Converter](dbx_to_pst_converter.md) A
   conversion tool which let users to import their Outlook Express DBX
   files to MS Outlook PST format
-- [SQL Database Recovery
-  Tool](http://forensicswiki.org/wiki/SQL_Database_Recovery_Tool) Repair
+- [SQL Database Recovery Tool](sql_database_recovery_tool.md) Repair
   cum Recovery Tool to repair, recover and restore corrupt SQL Database
-  files
+  files.
 
-.
-
-## Servi[Link titleces](link_title.md)
+## Services
 
 SysInfoTools Software has core specialties in the area of data recovery
 from corrupted files, email management and email migration. Email
@@ -109,5 +105,4 @@ does not meet the satisfactory output.
 
 ## External Links
 
-[Official Website](http://www.sysinfotools.com/)
-
+* [Official Website](http://www.sysinfotools.com/)

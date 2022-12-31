@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 SuperFetch, is a memory management scheme that enhances the
 least-recently accessed approach with historical information and
@@ -25,16 +25,16 @@ The `Ag*.db` files are of the SuperFetch file format. E.g.
 The SuperFetch DB files can be stored in uncompressed or compressed
 form, where different version of Windows use different compressed forms:
 
-- Compressed SuperFetch DB - MEMO file format; Windows Vista
-- Compressed SuperFetch DB - MEM0 file format; Windows 7
-- Compressed SuperFetch DB - MAM file format; Windows 8
+* Compressed SuperFetch DB - MEMO file format; Windows Vista
+* Compressed SuperFetch DB - MEM0 file format; Windows 7
+* Compressed SuperFetch DB - MAM file format; Windows 8
 
 ### Compressed SuperFetch DB - MEMO file format
 
 The MEM file consists of:
 
-- file header
-- compressed blocks
+* file header
+* compressed blocks
 
 This format uses the LZNT1 compression method
 
@@ -61,8 +61,8 @@ uncompressed data size for the last block.
 
 The MEM file consists of:
 
-- file header
-- compressed blocks
+* file header
+* compressed blocks
 
 This format uses the LZXPRESS Huffman compression method
 
@@ -93,8 +93,8 @@ uncompressed data size for the last block.
 
 The MAM file consists of:
 
-- file header
-- compressed blocks
+* file header
+* compressed blocks
 
 This format uses the LZXPRESS Huffman compression method.
 
@@ -161,14 +161,11 @@ The file header is variable of size and consists of:
 
 ## See Also
 
-- [SuperFetch](superfetch.md)
+* [SuperFetch](superfetch.md)
 
 ## External Links
 
-- [Windows SuperFetch file format – partial
-  specification](http://blog.rewolf.pl/blog/?p=214), by ReWolf, October
-  5, 2011
-- [Windows SuperFetch database
-  format](https://googledrive.com/host/0B3fBvzttpiiSWFFkSTBOUHdjOVU/Windows%20SuperFetch%20(DB)%20format.pdf),
+* [Windows SuperFetch file format – partial specification](http://blog.rewolf.pl/blog/?p=214),
+  by ReWolf, October 5, 2011
+* [Windows SuperFetch database format](https://github.com/libyal/libagdb/blob/main/documentation/Windows%20SuperFetch%20(DB)%20format.asciidoc),
   by the [libagdb project](libagdb.md), April 2014
-

@@ -70,8 +70,7 @@ Inactive Open Source and Research Projects:
 - [Challenge SSTIC 2010](http://communaute.sstic.org/ChallengeSSTIC2010)
   (French) dealt with analysis of physical memory from a mobile device
   running Android.
-- [Challenge 7 of the Honeynet Project's Forensic Challenge
-  2011](http://www.honeynet.org/challenges/2011_7_compromised_server)
+- [Challenge 7 of the Honeynet Project's Forensic Challenge 2011](https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/)
   included forensic analysis of a memory image from a potentially
   compromised Linux server.
 
