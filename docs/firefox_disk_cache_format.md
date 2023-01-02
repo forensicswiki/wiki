@@ -1,20 +1,20 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 There are multiple versions of the Firefox Disk Cache format:
 
-- Cache version 1
-- Cache version 2 - default as of firefox 32
+* Cache version 1
+* Cache version 2 - default as of firefox 32
   [1](http://www.janbambas.cz/new-firefox-http-cache-enabled/)
 
 ## Cache version 1
 
 The Cache directory contains the multiple type of cache files:
 
-- Cache Map File
-- Cache Block File
-- Cache Data File
+* Cache Map File
+* Cache Block File
+* Cache Data File
 
 ### Cache Map file
 
@@ -22,8 +22,8 @@ File named _CACHE_MAP_
 
 Contains:
 
-- Cache Map file header
-- An array of Cache Map buckets
+* Cache Map file header
+* An array of Cache Map buckets
 
 There are 32 buckets in the Cache map file. Within each bucket, there
 are 256 records inside each bucket, hence the Cache Map file contains
@@ -32,10 +32,10 @@ are 256 records inside each bucket, hence the Cache Map file contains
 Each record contains the information for one instance of cache data. A
 record contains four 32-bit integers:
 
-- A Hash Number
-- An Eviction Rank
-- The Data Location
-- The Metadata Location
+* A Hash Number
+* An Eviction Rank
+* The Data Location
+* The Metadata Location
 
 ### Cache Block file
 
@@ -58,19 +58,13 @@ the corresponding values.
 
 ## See Also
 
-- [Mozilla Firefox](mozilla_firefox.md)
-- [gzip](gzip.md)
+* [Mozilla Firefox](mozilla_firefox.md)
+* [gzip](gzip.md)
 
 ## External Links
 
-- [nsDiskCacheMap.h](http://people.mozilla.org/~chofmann/l10n/tree/mozilla/netwerk/cache/src/nsDiskCacheMap.h)
-- [Web Browser Forensics, Part
-  2](http://www.symantec.com/connect/articles/web-browser-forensics-part-2),
+* [Mozilla wiki: Necko/Cache](https://wiki.mozilla.org/Necko/Cache)
+* [Web Browser Forensics, Part 2](http://www.symantec.com/connect/articles/web-browser-forensics-part-2),
   by Keith J. Jones, Rohyt Belani, May 10, 2005
-- [Firefox Cache Format and
-  Extraction](http://articles.forensicfocus.com/2012/03/09/firefox-cache-format-and-extraction/),
+* [Firefox Cache Format and Extraction](https://www.forensicfocus.com/articles/firefox-cache-format-and-extraction/),
   by John Ritchie, March 9, 2012
-- [Firefox Cache2 Storage
-  Breakdown](http://encase-forensic-blog.guidancesoftware.com/2015/02/firefox-cache2-storage-breakdown.html),
-  by James Habben, February 10, 2015
-

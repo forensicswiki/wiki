@@ -127,7 +127,7 @@ combines both approaches with multiple layers of encryption, so that no
 intermediary knows both ends of the communication and the plaintext
 content.
 
-*More information: [Tor](tor.md) and [VPN](vpn.md).*
+*More information: Tor and [VPN](vpn.md).*
 
 ### Program Packers
 

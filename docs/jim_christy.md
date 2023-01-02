@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 
 <img src="../assets/images/600px-Jim_Christy.jpg" title="Jim Christy working"  alt="600px-Jim_Christy.jpg" align="right" />
@@ -15,10 +15,9 @@ Lab](defense_computer_forensics_lab.md).
 
 ## See Also
 
-- [DoD Cyber Crime Center](dod_cyber_crime_center.md)
+* [DoD Cyber Crime Center](dod_cyber_crime_center.md)
 
 ## External Links
 
-- [Wikipedia entry for Jim Christy](http://en.wikipedia.org/wiki/Jim_Christy)
-- [Wired magazine article on Jim Christy](http://www.wired.com/wired/archive/15.01/cybercop.html)
-
+* [Wikipedia entry for Jim Christy](https://en.wikipedia.org/wiki/Jim_Christy)
+* [Wired magazine article on Jim Christy](https://www.wired.com/2007/01/cybercop/)

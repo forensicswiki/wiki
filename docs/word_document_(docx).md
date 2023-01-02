@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 DOCX is the file format for Microsoft Office 2007 and later.
 
@@ -9,9 +9,10 @@ by earlier versions of Microsoft Office.
 
 # Container Format
 
-DOCX is written in an XML format, which consists of a [ZIP archive](zip_archive.md) file containing [XML](xml.md)
-and binaries. Content can be analysed without modification by unzipping
-the file (e.g. in WinZIP) and analysing the contents of the archive.
+DOCX is written in an XML format, which consists of a [ZIP archive](zip.md)
+file containing [XML](xml.md) and binaries. Content can be analysed without
+modification by unzipping the file (e.g. in WinZIP) and analysing the contents
+of the archive.
 
 The file _rels/.rels contains information about the structure of the
 document. It contains paths to the metadata information as well as the
@@ -146,24 +147,10 @@ Other relationship files:
 
 # External Links
 
-- [Introducing the Office (2007) Open XML File
-  Formats](http://msdn.microsoft.com/en-us/library/aa338205.aspx), by
-  [Microsoft](microsoft.md), May 2006
-- [DCMI Metadata
-  Terms](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=elements#)
-- [The new XML Office Document Files: Implications For
-  Forensics](http://www.simson.net/clips/academic/2009.IEEE.DOCX.pdf),
-  [Simson L. Garfinkel](simson_l._garfinkel.md) and James
-  Migletz
-- [Perl script that displays metadata information that is extracted from
-  an OpenXML
-  document](http://blog.kiddaland.net/2009/06/office-2007-metadata/), by
-  [Kristinn Gudjonsson](kristinn_gudjonsson.md), June 2009
-- [Perl script that displays the content of a Docx document, similar to
-  Antiword](http://blog.kiddaland.net/2009/07/antiword-for-office-2007/),
-  by [Kristinn Gudjonsson](kristinn_gudjonsson.md), July 2009
-- [Office 2007
-  Metadata](http://computer-forensics.sans.org/blog/2009/07/10/office-2007-metadata/),
-  by [Kristinn Gudjonsson](kristinn_gudjonsson.md), July 10,
-  2009
-
+* [Introducing the Office (2007) Open XML File Formats](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338205(v=office.12)),
+  by [Microsoft](microsoft.md), May 2006
+* [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/)
+* [The new XML Office Document Files: Implications For Forensics](https://simson.net/clips/academic/2009.IEEE.DOCX.pdf),
+  [Simson L. Garfinkel](simson_l._garfinkel.md) and James Migletz
+* [Office 2007 Metadata](https://www.sans.org/blog/office-2007-metadata/),
+  by [Kristinn Gudjonsson](kristinn_gudjonsson.md), July 10, 2009

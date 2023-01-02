@@ -29,4 +29,4 @@ from your corrupt BKF files.
 ## External Links
 
 [Official
-Website](https://www.sysinfotools.com/recovery/bkf-recovery.php)
+Website](https://sysinfotools.com/recovery/bkf-recovery.php)

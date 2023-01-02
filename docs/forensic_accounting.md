@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Organization
 ---
 **Certified [Forensic
 Accounting](http://www.indiaforensic.com/definition.htm) Professional**
@@ -11,8 +11,7 @@ Accounting](http://www.indiaforensic.com/definition.htm) Professional**
 (CFAP)is a designation awarded by [Indiaforensic Center of
 Studies](http://www.indiaforensic.com) and moderated by the Forensic
 Accounting Research Foundation. The Forensic Accounting Research
-Foundation is a member-based Indian
-[organisation](professional_body.md) dedicated to providing
+Foundation is a member-based Indian organisation dedicated to providing
 forensic accounting and forensic auditing education and training with
 presence in more than 7 countries including Nigeria, Oman, Qatar, UAE,
 Uganda and others
@@ -63,24 +62,8 @@ questions and single paper on forensic accounting. The exams are
 computer based and the self assessment test needs to be completed before
 the final examination needs to be completed.
 
-## References
-
-- [Times of India Article on
-  CFAP](http://epaper.timesofindia.com/Repository/ml.asp?Ref=VE9JQkcvMjAwOS8wNS8wNCNBcjAzMjAx)
-- [CFAP Information
-  Powerpoint](http://www.slideshare.net/indiaforensic/certified-forensic-accounting-professional)
-- [Education
-  Times](http://blogs.educationtimes.com/author/Abhijeet%20Mehendale.aspx)
-- [Accountancy
-  Age](http://www.accountancyage.com/accountancyage/news/2235676/india-expecting-boom-forensic)
-- [Indian
-  Express](http://www.expressbuzz.com/edition/story.aspx?Title=Forensic+accountants+to+check+fraud&artid=tlzPDE44RsM=)
-- [Frequently Asked Questions on
-  CFAP](http://www.riskpro.co.in/index.php/indiaforensic/certifications)
-
 ## External links
 
-- [Certification programs offered by
-  Indiaforensic](http://www.indiaforensic.com/education)
-- [Corporate training programs offered by
-  Indiaforensic](http://www.indiaforensic.com/education/corporates)
+- [Times of India Article on CFAP](http://epaper.timesofindia.com/Repository/ml.asp?Ref=VE9JQkcvMjAwOS8wNS8wNCNBcjAzMjAx)
+- [CFAP Information Powerpoint](http://www.slideshare.net/indiaforensic/certified-forensic-accounting-professional)
+- [Certification programs offered by Indiaforensic](http://www.indiaforensic.com/education)

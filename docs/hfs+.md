@@ -1,9 +1,10 @@
 ---
 tags:
-  -  File Systems
+  - File Systems
+  - MacOS
 ---
 HFS+, or Hierarchical File System Plus, is the file system designed by
-[Apple Computer](http://www.apple.com) to supersede HFS.
+[Apple](apple_inc.md) to supersede (classic) HFS.
 
 HFS+ was first introduced with Mac OS 8.1, one of the biggest
 differences was the lower allocation block size of 4 KiB (4096 bytes),
@@ -354,25 +355,19 @@ HFS+ stores U+2400 as U+0
 
 ## External Links
 
-- [Insided Macintosh: Files - Data Organization on
-  Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
+- [Insided Macintosh: Files - Data Organization on Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
   by Apple 1996
-- Internet Archive Copy of: [Technical Note
-  TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html),
+- Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html),
   original location:
   <http://developer.apple.com/technotes/tn/tn1121.html#HFSPlus>
-- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume
-  format](http://web.archive.org/web/20090214212148/http://developer.apple.com/technotes/tn/tn1150.html),
+- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20090214212148/http://developer.apple.com/technotes/tn/tn1150.html),
   original location:
   <http://developer.apple.com/technotes/tn/tn1150.html>
-- Copy of: [Mac Forensics: Mac OS X and the HFS+ File
-  System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
+- Copy of: [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
   by P. Craiger, November 2005, original location:
   <http://www2.tech.purdue.edu/cit/Courses/cit556/readings/MacForensicsCraiger.pdf>
-- [Using the HFSD journal for deleted ﬁle
-  recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf), by
-  [Aaron Burghardt](aaron_burghardt.md), [Adam
-  Feldman](adam_feldman.md), DRFWS 2008
+- [Using the HFSD journal for deleted ﬁle recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf),
+  by [Aaron Burghardt](aaron_burghardt.md), [Adam Feldman](adam_feldman.md), DRFWS 2008
 
 ## Tools
 

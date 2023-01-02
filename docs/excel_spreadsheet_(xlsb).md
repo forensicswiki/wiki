@@ -12,9 +12,8 @@ can be used to display these files as well. These include:
 
 ## File signature
 
-Microsoft Excel spreadsheets of version 2007 are stored in a
-[ZIP archive](zip_archive.md) file. These files therefore have the ZIP file
-signature.
+Microsoft Excel spreadsheets of version 2007 are stored in a [ZIP archive](zip.md)
+file. These files therefore have the ZIP file signature.
 
 ## See Also
 

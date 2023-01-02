@@ -1,27 +1,25 @@
 ---
 tags:
-  -  Tools
-  -  Live CD
-  -  Linux
-  -  Analysis
-  -  Open Source Software
+  - Analysis
+  - Linux
+  - Live CD
+  - Open Source Software
+  - Tools
 ---
-***Caine (an acronym for Computer Aided Investigative Environment**') is
-a [distribution](distribution_linux.md)
-[live](live_cd.md) oriented to Computer Forensics ([computer forensics](computer_forensics.md) historically conceived by
-Giancarlo Giustini, within a project of Digital Forensics*
-Interdepartmental Research Center for Security'' (CRIS) of the
-University of Modena and Reggio Emilia see [Official Site](http://www.caine-live.net/page4/history.html). Since the end of
-the **2009** and currently the project is maintained by Nanni Bassetti.
+Caine (an acronym for Computer Aided Investigative Environment) is a
+distribution [live](live_cd.md) oriented to [computer forensics](computer_forensics.md)
+historically conceived by Giancarlo Giustini, within a project of Digital
+Forensics* Interdepartmental Research Center for Security'' (CRIS) of the
+University of Modena and Reggio Emilia see [Official Site](http://www.caine-live.net/page4/history.html).
+Since the end of the **2009** and currently the project is maintained by Nanni
+Bassetti.
 
 ## Features
 
-The latest version of Caine is based on the [Ubuntu
-Linux](ubuntu_linux.md) 12.04 LTS, MATE and LightDM. Compared to
+The latest version of Caine is based on the [Ubuntu](ubuntu.md) 12.04 LTS, MATE and LightDM. Compared to
 its original version, the current version has been modified to meet the
 standards forensic reliability and safety standards laid down by the
-[NIST](nist.md) View [the methodologies of
-Nist](Http://www.cftt.nist.gov/Methodology_Overview.htm).
+[NIST](nist.md) View [the methodologies of Nist](Http://www.cftt.nist.gov/Methodology_Overview.htm).
 
 Caine includes:
 
@@ -32,8 +30,7 @@ Caine includes:
   document easily editable and exportable with a summary of the
   activities;
 - Adherence to the investigative procedure defined recently by Italian
-  Law 48/2008, [Law
-  48/2008,](Http://www.parlamento.it/parlam/leggi/08048l.htm).
+  Law 48/2008, [Law 48/2008,](Http://www.parlamento.it/parlam/leggi/08048l.htm).
 
 In addition, Caine is the first distribution to include forensic
 Forensics inside the Caja/Nautilus Scripts and all the patches of
@@ -46,20 +43,16 @@ or duplicate:
 - Root file system spoofing: patch that prevents tampering with the
   source device;
 - No automatic recovery corrupted Journal patch: patch that prevents
-  tampering with the device source, through the recovery of the
-  [Journal](journal.md);
+  tampering with the device source, through the recovery of the Journal;
 - Mounter and RBFstab: mounting devices in a simple and via graphical
   interface.
 
-[RBFstab](rbfstab.md) is set to treat an ext3 file system as
-an ext4 file system *noload with the option* to avoid automatic
-recovery of any corrupt Journal of ext3;
+RBFstab is set to treat an ext3 file system as an ext4 file system *noload with
+the option* to avoid automatic recovery of any corrupt Journal of ext3;
 
-- Swap file off: patch that avoids modifying the file
-  [swap](swap.md) in systems with limited memory
-  [RAM](ram.md), avoiding the alteration of the original
-  artifact computer and overwrite data useful for the purposes of
-  investigation.
+- Swap file off: patch that avoids modifying the file swap in systems with
+  limited memory [RAM](ram.md), avoiding the alteration of the original
+  artifact computer and overwrite data useful for the purposes of investigation.
 
 Caine and Open Source == == Patches and technical solutions are and have
 been all made in collaboration with people (Professionals, hobbyists,
@@ -133,16 +126,10 @@ The Project Caine == ==
 
 The project was initially inserted into the priorities of the CRIS
 (Centre for Research Interdepartmental Security) Research Centre
-Interpardimentale Security - University of Modena
-[site](http://cris.unimore.it/cris/node/54), in this way the
+Interpardimentale Security - University of Modena, in this way the
 distribution has benefited from essential contributions on the technical
 computing, together to the latest "best practices" legal investigation
-digital see [Security University of
-Salerno](http://www.dia.unisa.it/~ads/ads/Sicurezza_files/Tesina%20Live%20Forensics.pdf)
-see [U.S. Secret Service
-document](http://www.forwardedge2.com/pdf/bestpractices.pdf) see
-[CraigeR's
-Draft](http://ncfs.org/craiger.forensics.methods.procedures.final.pdf).
+digital.
 
 The project Caine was also the subject of a scientific paper accepted
 and published inside the first Workshop on Computer & Network Forensics
@@ -188,23 +175,15 @@ at the University of Udine.
 
 ## External links
 
-- [Presente nel training CHFI Ec-Council](http://www.careeracademy.com/browseproducts/CHFI-Training-CBT-Boot-Camp--EC-Council-Computer-Hacking-Forensic-Investigator.HTML)
-  International certificatione
 - [Open Source Live Distributions for Computer Forensics- by Springer](http://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
 - [Google books](http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQ)
-- [and Forensics: A Digital Forensic Investigator's Guide to Virtual Environment](http://www.amazon.com/Virtualization-Forensics-Forensic-Investigators-Environments/dp/1597495573Virtualization)
 - [Linux-Mazin.de](http://www.linux-magazin.de/Ausgaben/2010/12/Italienische-Aufklaerung)
 - [Linux-Magazine.com](http://www.linux-magazine.com/Issues/2011/122/Caine)
 - [Opens Source Day 2012](http://www.opensourceday.org/2012/?mid=20)
 - [TechTarget.it](http://searchsecurity.techtarget.it/articoli/0,1254,18_ART_103282,00.html)
-- [Programmazione.it](http://programmazione.it/index.php?entity=eitem&idItem=41687)
-- [Linuxtoday.com](http://www.linuxtoday.com/upload/caine-3.0-review-121009195504.html)
-- [Linuxtoday.com 2](http://www.linuxtoday.com/infrastructure/2010122801535SCSW)
-- [Softpedia](http://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
-- [hackingzone.in](http://hackingzones.in/?p=2726)
+- [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
 - [gustavopimental.com.ar](http://www.gustavopimentel.com.ar/)
 - [concise-courses.com](http://www.concise-courses.com/security/top-ten-distros/#)
-- [e-linux.it](http://www.e-linux.it/news_detail/caine-15)
 - [ilsoftware.it](http://www.ilsoftware.it/articoli.asp?tag=CAINE-progetto-italiano-per-la-computer-forensics_5656)
 - [dragonjar.org](http://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
 - [Attestato Marenostrum V.F.F.](http://www.nannibassetti.com/dblog/articolo.asp?articolo=156)
@@ -212,4 +191,3 @@ at the University of Udine.
 - [TechRepublic](http://www.techrepublic.com/blog/10things/10-obscure-linux-distributions-and-why-you-should-know-about-them/2334)
 - [Forensics Wiki](http://www.forensicswiki.org/wiki/CAINE_Live_CD)
 - [Sito ufficiale](http://www.caine-live.net)
-- [Sito del CRIS](http://cris.unimore.it/cris/node/54) dedicato a Caine
