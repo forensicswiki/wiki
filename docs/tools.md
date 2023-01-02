@@ -473,9 +473,8 @@ See: [Forensics Live CDs](live_cd.md)
 
 [Cellebrite UFED](cellebrite_ufed.md)
 [.XRY](https://www.msab.com/)
-[Paraben PDA Seizure](paraben_pda_seizure.md)
-[Paraben PDA Seizure Toolbox](paraben_pda_seizure_toolbox.md)
-[PDD](pdd.md)
+[Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+PDD
 
 ## Cell Phone Forensics
 
@@ -491,10 +490,8 @@ See: [Forensics Live CDs](live_cd.md)
 [LogiCube CellDEK](logicube_celldek.md)
 [MOBILedit!](mobiledit!.md)
 [Oxygen Forensic Suite](oxygen_forensic_suite.md)
-<http://www.oxygen-forensic.com>
 
-[Paraben's Device Seizure](paraben's_device_seizure.md) and [Paraben's Device Seizure Toolbox](paraben's_device_seizure_toolbox.md)
-<http://www.paraben-forensics.com/handheld_forensics.html>
+[Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
 
 [Serial Port Monitoring](serial_port_monitoring.md)
 [TULP2G](tulp2g.md)
@@ -504,8 +501,7 @@ See: [Forensics Live CDs](live_cd.md)
 [Cellebrite UFED](cellebrite_ufed.md)
 [.XRY](https://www.msab.com/)
 [ForensicSIM](forensicsim.md)
-[Paraben's SIM Card Seizure](paraben's_sim_card_seizure.md)
-<http://www.paraben-forensics.com/handheld_forensics.html>
+[Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
 
 [SIMCon](simcon.md)
 
@@ -516,8 +512,7 @@ See: [Forensics Live CDs](live_cd.md)
 
 # Other Tools
 
-Chat Sniper
-<http://www.alexbarnett.com/chatsniper.htm>
+[Chat Sniper](http://www.alexbarnett.com/chatsniper.htm)
 
 A forensic software tool designed to simplify the process of on-scene
 evidence acquisition and analysis of logs and data left by the use of

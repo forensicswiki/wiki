@@ -26,10 +26,8 @@ string "ID3".
 
 ## External Links
 
-- [ID3 Standard Homepage](http://www.id3.org)
 - [id3lib](http://id3lib.sourceforge.net/), a widely-used open source
   C/C++ ID3 implementation.
-- [Java library MP3](http://www.vdheide.de/projects.html)
 - [MP3::Info](http://search.cpan.org/dist/MP3-Info/) (Perl)
 - [MPEG::ID3v2Tag](http://search.cpan.org/dist/MPEG-ID3v2Tag/) (Perl)
 - [getID3() - The PHP media file parser](http://getid3.sourceforge.net/)

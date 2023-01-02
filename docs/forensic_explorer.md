@@ -12,8 +12,8 @@ use image files created by [AFF](aff.md), [DD](dd.md), [EnCase](encase.md),
 [NUIX](nuix.md), [Safeback](safeback.md), [SMART](smart.md) and
 [XWAYS](x-ways_ag.md).
 
-FEX includes modules for Keyword search, [Drive indexing](drive_indexing.md)
-(using [dtSearch](dtsearch.md), Registry analysis, Email analysis, Bookmarking,
+FEX includes modules for Keyword search, Drive indexing (using
+[dtSearch](dtsearch.md), Registry analysis, Email analysis, Bookmarking,
 Reporting, and Scripting.
 
 ## Virtual Forensics

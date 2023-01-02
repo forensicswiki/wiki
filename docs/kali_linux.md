@@ -8,13 +8,11 @@ tags:
 ---
 ## About
 
-Kali Linux is an open source project that is maintained and funded by
-[Offensive Security](offensive_security.md), a provider of
-world-class information security training and penetration testing
-services. In addition to [Kali Linux](kali_linux.md), [Offensive
-Security](offensive_security.md) also maintains the [Exploit
-Database](exploit_database.md) and the free online course,
-[Metasploit Unleashed](metasploit_unleashed.md).
+Kali Linux is an open source project that is maintained and funded by Offensive
+Security, a provider of world-class information security training and
+penetration testing services. In addition to [Kali Linux](kali_linux.md),
+Offensive Security also maintains the Exploit Database and the free online
+course, Metasploit Unleashed.
 
 ## Features
 

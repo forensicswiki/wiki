@@ -1,17 +1,15 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
-![](logo_red_new_70.png "logo_red_new_70.png") Founded in 1990,
-ElcomSoft Co. Ltd. is a leading developer of digital forensics tools.
-The company offers state-of-the-art solutions for businesses, forensic
-and law enforcement specialists, provides training and consulting
-services on mobile and computer forensics. ElcomSoft forensic products
-and tools are used for criminal investigations by the law enforcement.
-Today, the company offers the complete range of
-[mobile](https://www.elcomsoft.com/emfb.html) and [computer forensic
-tools](https://www.elcomsoft.com/eprb.html), corporate security
-solutions and tools for IT security audits.
+Founded in 1990, ElcomSoft Co. Ltd. is a leading developer of digital forensics
+tools.  The company offers state-of-the-art solutions for businesses, forensic
+and law enforcement specialists, provides training and consulting services on
+mobile and computer forensics. ElcomSoft forensic products and tools are used
+for criminal investigations by the law enforcement.  Today, the company offers
+the complete range of [mobile](https://www.elcomsoft.com/emfb.html) and
+[computer forensic tools](https://www.elcomsoft.com/eprb.html), corporate
+security solutions and tools for IT security audits.
 
 ##### ElcomSoft Desktop and Mobile Forensic Solutions
 

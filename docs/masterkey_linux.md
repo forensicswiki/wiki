@@ -1,12 +1,10 @@
 ---
 tags:
-  - No Category
+  - Live CD
 ---
-**Masterkey Linux** (or simply Masterkey) is a [Live
-CD](live_cd.md) based on [Slackware](slackware.md)
-developed by Dr. Qin Zhou of Coventry University. It focuses on
-[incident response](incident_response.md) and [computer
-forensics](computer_forensics.md).
+**Masterkey Linux** (or simply Masterkey) is a [Live CD](live_cd.md) based on
+Slackware developed by Dr. Qin Zhou of Coventry University. It focuses on
+[incident response](incident_response.md) and [computer forensics](computer_forensics.md).
 
 Whilst designed for use by students entering the field of Computer
 Forensics, Masterkey contains a diverse range of free and open source
@@ -136,6 +134,6 @@ Wireshark is a network protocol analyzer.
 
 ## External Links
 
-- [Masterkey Web Site](http://masterkeylinux.com)
-- [Masterkey Community Forum](http://masterkeylinux.com/community)
-- [Live Forensic Toolkit](http://masterkeylinux.com/index.php/lft)
+* [Masterkey Web Site](http://masterkeylinux.com)
+* [Masterkey Community Forum](http://masterkeylinux.com/community)
+* [Live Forensic Toolkit](http://masterkeylinux.com/index.php/lft)

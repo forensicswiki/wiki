@@ -1,16 +1,9 @@
 ---
 tags:
-  -  File Formats
-  -  Audio
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  FreeBSD
-  -  NetBSD
-  -  OpenBSD
+  - Audio
+  - File Formats
 ---
-The **MPEG-1 Audio Layer 3** format is a commonly-used lossy [music
-format](music_format.md).
+The **MPEG-1 Audio Layer 3** format is a commonly-used lossy music format.
 
 ## Format
 
@@ -31,5 +24,4 @@ used as a base for steganographic content.
 
 ## Externals Links
 
-- [Wikipedia: MP3](http://en.wikipedia.org/wiki/Mp3)
-
+* [Wikipedia: MP3](http://en.wikipedia.org/wiki/Mp3)

@@ -11,7 +11,7 @@ the disk are left unencrypted.
 
 ## Implementations
 
-[BitLocker](bitlocker.md)
+[BitLocker](bitlocker_disk_encryption.md)
 Included with certain versions of [Microsoft](microsoft.md)
 [Windows](windows.md) as of Vista.
 

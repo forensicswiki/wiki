@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## JTAG HTC Wildfire S
 
@@ -85,12 +85,6 @@ rubber band in these pictures).
 |                                                                         |
 
 Now we can start the RIFF Box JTAG Manager software and configure it.
-See the picture for more detail.
-
-|                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------|
-| ![<File:riff-box-settings-annotated.png>](riff-box-settings-annotated.png "File:riff-box-settings-annotated.png") |
-|                                                                                                                   |
 
 Connect the PCB battery terminal connections to the DC power supply. The
 negative (-) connection is the innermost PIN and the positive (+) pin is

@@ -1,13 +1,11 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Data Files
+  - Data Files
+  - File Formats
+  - Windows
 ---
-[Microsoft](microsoft.md) [Internet
-Explorer](internet_explorer.md) stores its web
-browsing history in files named <b>index.dat</b> as of version 4 up to
-version 9.
+[Microsoft Internet Explorer](internet_explorer.md) stores its web browsing
+history in files named **index.dat** as of version 4 up to version 9.
 
 ## Overview
 
@@ -21,8 +19,8 @@ By design these index.dat files are cache files but are used to:
 Regardless of the information stored in the file, the file is named
 index.dat.
 
-<b>Note that not every file named index.dat is a MSIE History (Cache)
-file.</b>
+**Note that not every file named index.dat is a MSIE History (Cache)
+file.**
 
 The file format of MSIE 4 is slightly different then that of MSIE 5 up
 to 9. Most of the information on this page applies to the format used by
@@ -116,10 +114,10 @@ The blocks that make up a record can have slack space.
 
 Currently 4 types of records are known:
 
-- URL
-- REDR
-- HASH
-- LEAK
+* URL
+* REDR
+* HASH
+* LEAK
 
 Note that the location and filename strings are stored in the local
 codepage, normally these strings will only use the ASCII character set.
@@ -201,50 +199,37 @@ deleted.
 
 ## See Also
 
-- [Internet Explorer](internet_explorer.md)
+* [Internet Explorer](internet_explorer.md)
 
 ## External Links
 
-- [What is in Index.dat
-  files](http://www.milincorporated.com/a3_index.dat.html)
-- [MSIE Cache File (index.dat) format
-  specification](http://code.google.com/p/libmsiecf/downloads/detail?name=MSIE%20Cache%20File%20%28index.dat%29%20format.pdf),
+* [What is in Index.dat files](http://www.milincorporated.com/a3_index.dat.html)
+* [MSIE Cache File (index.dat) format specification](https://github.com/libyal/libmsiecf/blob/main/documentation/MSIE%20Cache%20File%20(index.dat)%20format.asciidoc),
   by the [libmsiecf project](libmsiecf.md)
-- [Digital Detective Knowledge Base: Internet
-  Explorer](http://kb.digital-detective.co.uk/display/NetAnalysis1/Internet+Explorer)
-- [Understanding index.dat Files - Part
-  1](http://web.archive.org/web/20090605202325/http://128.175.24.251/forensics/index_dat1.htm),
+* [Digital Detective Knowledge Base: Internet Explorer](http://kb.digital-detective.co.uk/display/NetAnalysis1/Internet+Explorer)
+* [Understanding index.dat Files - Part 1](http://web.archive.org/web/20090605202325/http://128.175.24.251/forensics/index_dat1.htm),
   by Stephen M. Bunting
-- [Understanding index.dat Files - Part
-  2](http://web.archive.org/web/20090605200839/http://128.175.24.251/forensics/index_dat2.htm),
+* [Understanding index.dat Files - Part 2](http://web.archive.org/web/20090605200839/http://128.175.24.251/forensics/index_dat2.htm),
   by Stephen M. Bunting
-- [Detailed analysis of index.dat file
-  format](http://web.archive.org/web/20090824054415/http://www.foundstone.com/us/pdf/wp_index_dat.pdf),
+* [Detailed analysis of index.dat file format](http://web.archive.org/web/20090824054415/http://www.foundstone.com/us/pdf/wp_index_dat.pdf),
   by Keith J. Jones, March 19, 2003
-- [The Meaning of LEAK
-  records](http://www.forensicblog.org/2009/09/10/the-meaning-of-leak-records/),
+* [The Meaning of LEAK records](http://www.forensicblog.org/2009/09/10/the-meaning-of-leak-records/),
   [Mike Murr](mike_murr.md), September 10, 2009
-- [Microsoft Internet Explorer PrivacIE
-  Entries](http://blog.digital-detective.co.uk/2010/04/microsoft-internet-explorer-privacie.html),
+* [Microsoft Internet Explorer PrivacIE Entries](http://blog.digital-detective.co.uk/2010/04/microsoft-internet-explorer-privacie.html),
   by Digital Detective, April 29, 2010
-- [The INDEX.DAT File
-  Format](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/indexdat.htm?tx=20,78,83,84,88,89),
+* [The INDEX.DAT File Format](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/indexdat.htm?tx=20,78,83,84,88,89),
   by [Geoff Chappell](geoff_chappell.md), September 13, 2010
-- [The Hash Algorithm for URL
-  Caching](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
+* [The Hash Algorithm for URL Caching](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
   by [Geoff Chappell](geoff_chappell.md), September 20, 2010
-- [A Primer on Temporary Internet
-  Files](http://blogs.msdn.com/b/ieinternals/archive/2011/03/19/wininet-temporary-internet-files-cache-and-explorer-folder-view.aspx),
+* [A Primer on Temporary Internet Files](http://blogs.msdn.com/b/ieinternals/archive/2011/03/19/wininet-temporary-internet-files-cache-and-explorer-folder-view.aspx),
   by Eric Law, March 19, 2011
 
 ## Tools
 
-- [IEHist](http://www.cqure.net/wp/iehist/)
-- [libmsiecf](libmsiecf.md)
-- [pacso](https://sourceforge.net/projects/odessa/), note this tool has
+* [IEHist](http://www.cqure.net/wp/iehist/)
+* [libmsiecf](libmsiecf.md)
+* [pasco](https://sourceforge.net/projects/odessa/), note this tool has
   not been updated since 2004 and is considered deprecated
-- [pasco2](https://sourceforge.net/projects/pasco2/)
-- [Windows 'index.dat' Parser
-  (id)](http://www.tzworks.net/prototype_page.php?proto_id=6), by
-  [TZWorks LLC](tzworks_llc.md)
-
+* [pasco2](https://sourceforge.net/projects/pasco2/)
+* [Windows 'index.dat' Parser (id)](http://www.tzworks.net/prototype_page.php?proto_id=6),
+  by [TZWorks LLC](tzworks_llc.md)

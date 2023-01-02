@@ -1,10 +1,9 @@
 ---
 tags:
-  -  File Formats
-  -  Articles that need to be expanded
+  - File Formats
+  - Articles that need to be expanded
 ---
-The [Windows](windows.md) file format is a
-lossless [image format](image_format.md).
+The [Windows](windows.md) file format is a lossless image format.
 
 Each file consists of a [header](header.md), an information
 block, and then the image data. Note that the image data is given in
@@ -17,5 +16,4 @@ extract, view, and remove BMP metadata.
 
 ## External Links
 
-- [Wikipedia: BMP](http://en.wikipedia.org/wiki/Windows_bitmap)
-
+* [Wikipedia: BMP](http://en.wikipedia.org/wiki/Windows_bitmap)

@@ -2,11 +2,10 @@
 tags:
   - No Category
 ---
-**BitFlare** is a Software-as-a-Service offering from [SunBlock
-Systems](sunblock_systems.md) that allows non-experts to perform
-computer forensics, electronic evidence discovery, and data
-preservation. The software loads its own operating system on to a
-suspect computer, essentially utilizing the suspect machine itself a
+**BitFlare** is a Software-as-a-Service offering from SunBlock Systems that
+allows non-experts to perform computer forensics, electronic evidence
+discovery, and data preservation. The software loads its own operating system
+on to a suspect computer, essentially utilizing the suspect machine itself a
 forensic platform.
 
 ## Capabilities
@@ -51,5 +50,4 @@ this model.
 
 ## External Links
 
-- [Official BitFlare Website](http://www.bitflare.com)
-- [SunBlock Systems](http://www.sunblocksystems.com)
+* [Official Website](http://www.bitflare.com/)
