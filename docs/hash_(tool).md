@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  Linux
-  -  Tools
-  -  Articles that need to be expanded
+  - Anti-Forensics
+  - Articles that need to be expanded
+  - Linux
+  - Tools
 ---
 ### Background
 
@@ -29,6 +29,4 @@ Community](http://www.powerofcommunity.net) that November.
 
 ### External Links
 
-- [PoC presentation: *Hacking
-  Sucks!*](http://powerofcommunity.net/poc2007/grugq.pdf)
-- [hash-0.2.5.tar.gz](http://www.tacticalvoip.com/tools.html)
+- [PoC presentation: Hacking Sucks! Why hash makes the hurting stop](http://powerofcommunity.net/poc2007/grugq.pdf)

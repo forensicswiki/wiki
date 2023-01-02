@@ -489,7 +489,7 @@ carving'. Note that RevIt currently is a work in progress.
 Magic Rescue is a file carving tool that uses "magic bytes" in a file
 contents to recover data.
 
-- [FTK](ftk.md)
+- [FTK](forensic_toolkit.md)
 
 
 FTK includes some file carvers

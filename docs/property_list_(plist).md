@@ -18,7 +18,6 @@ There are multiple format variations of plists:
 * [CFBinaryPList.c](http://opensource.apple.com/source/CF/CF-550/CFBinaryPList.c)
   by Apple
 * [Old-Style ASCII Property Lists](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/PropertyLists/OldStylePlists/OldStylePLists.html)
-* [Apple have documented the binary plist format](http://explanatorygap.net/2009/10/30/apple-have-documented-the-binary-plist-format/)
 * [Python Module for dealing with Binary Property Lists (bplists)](http://digitalinvestigation.wordpress.com/2012/03/08/free-python-module/)
   Documentation
 

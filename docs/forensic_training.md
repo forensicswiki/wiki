@@ -15,7 +15,6 @@ This page lists vendors that offer various kinds of forensic training.
 * [Computer Forensics Training Center On-Line](http://www.cftco.com/)
 * [e-fense Inc](http://www.e-fense.com/training.html)
 * [FBI Screencast Training](http://www.nuix.com.au/screencasts.html)
-* [For-Sec Vendor classes, Cellphone/PDA seizure, and CFR 26 rules classes](http://www.for-sec.com/p38.htm)
 * [Guidance Software (EnCase) Training](http://www.guidancesoftware.com/training/index.aspx)
 * [InfoSec Institute](http://www.infosecinstitute.com/courses/security_training_courses.html)
 * [Linux Data Forensics Training](http://www.crazytrain.com/training.html)

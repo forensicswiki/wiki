@@ -45,7 +45,7 @@ below.
 |                      | GPT                                                                           |
 |                      | BSD                                                                           |
 | File systems         | Windows ([fat](fat.md), [NTFS](ntfs.md))                                      |
-|                      | Apple ([mfs](mfs.md), (Traditional) HFS, [HFS+](hfs+.md))                     |
+|                      | Apple ([mfs](mfs.md), (Classic) HFS, [HFS+](hfs+.md))                         |
 |                      | Linux ([ext](extended_file_system_(ext).md), [Reiser](reiserfs.md))           |
 |                      | Solaris, BSD (ufs)                                                            |
 |                      | CD ([iso9660](iso9660.md))                                                    |

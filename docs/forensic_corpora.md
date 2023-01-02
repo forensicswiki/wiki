@@ -296,8 +296,7 @@ meeting recordings.
 
 # External Links
 
-- [ForGe – Computer Forensic Test Image
-  Generator](http://articles.forensicfocus.com/2013/10/18/forge-computer-forensic-test-image-generator/),
+- [ForGe – Computer Forensic Test Image Generator](https://www.forensicfocus.com/articles/forge-computer-forensic-test-image-generator/),
   by Hunnu Visti, October 18, 2013
 
 ## CTF images

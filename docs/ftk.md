@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Forensic Toolkit](forensic_toolkit.md)
+
+_See: [Forensic Toolkit](forensic_toolkit.md)_

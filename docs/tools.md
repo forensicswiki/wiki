@@ -153,7 +153,7 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[Forensic Toolkit](forensic_toolkit.md) ([FTK](ftk.md)) by [AccessData](accessdata.md)
+[Forensic Toolkit (FTK)](forensic_toolkit.md) by [AccessData](accessdata.md)
 <http://www.accessdata.com/products/ftk/>
 
 <!-- -->
