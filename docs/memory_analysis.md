@@ -11,7 +11,6 @@ overall state of a computer. Because the analysis is highly dependent on
 the operating system, it has been divided into the following pages:
 
 - [Linux Memory Analysis](linux_memory_analysis.md)
-- [Mac OS X Memory Analysis](mac_os_x_memory_analysis.md)
 - [Windows Memory Analysis](windows_memory_analysis.md)
 
 ## Data types
@@ -104,9 +103,8 @@ plugins that replicated this analysis.
 Various types of encryption keys can be extracted during memory
 analysis.
 
-- [AESKeyFinder](aeskeyfinder.md) extracts 128-bit and 256-bit
-  [AES](aes.md) keys and RSAKeyFinder and private and public [RSA](rsa.md)
-  keys from a memory dump [10](http://citp.princeton.edu/memory/code/).
+- AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder
+  and private and public RSA keys from a memory dump [10](http://citp.princeton.edu/memory/code/).
 - [cryptoscan.py](http://jessekornblum.com/tools/volatility/cryptoscan.py),
   which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
   scans a memory image for [TrueCrypt](truecrypt.md) passphrases
@@ -114,10 +112,9 @@ analysis.
 ## See Also
 
 - [Memory Imaging](memory_imaging.md)
-- [Memory Imaging Tools](:tools:memory_imaging.md)
-- [Memory Analysis Tools](:tools:memory_analysis.md)
+- [Memory Imaging Tools](tools:memory_imaging.md)
+- [Memory Analysis Tools](tools:memory_analysis.md)
 - [Linux Memory Analysis](linux_memory_analysis.md)
-- [Mac OS X Memory Analysis](mac_os_x_memory_analysis.md)
 - [Virtualization Memory Analysis](virtualization_memory_analysis.md)
 - [Windows Memory Analysis](windows_memory_analysis.md)
 
@@ -127,11 +124,9 @@ analysis.
 
 ## External Links
 
-- [Forensics MemDump Extractor: Tool to extract different files from memory](http://www.techipick.com/forensics-memdump-extractor),
-  by Gem George, Nov 2015
 - [YobiWiki: RAM analysis](http://wiki.yobi.be/wiki/RAM_analysis)
 - [RAM is Key - Extracting Disk Encryption Keys From Volatile Memory](http://cryptome.org/0003/RAMisKey.pdf),
-  by [Brian Kaplan](brian_kaplan.md), May 2007
+  by Brian Kaplan, May 2007
 - [Forensics Examination of Volatile System Data Using Virtual Introspection](http://www.cse.unt.edu/~song/csce5933-003/readings/HayOSR08.pdf),
   by Brian Hay and Kara Nance, 2008
 - [Discovering ephemeral evidence with Live RAM analysis](http://belkasoft.com/download/info/Live_RAM_Analysis_in_Digital_Forensics.pdf)

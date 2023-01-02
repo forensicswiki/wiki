@@ -13,7 +13,7 @@ have expanded their capabilities and features as the technology has
 improved. Some of the most popular GPS devices today are made by
 [TomTom](http://www.TomTom.com). Some of the other GPS manufacturers
 include [Garmin](http://www.garmin.com) and
-[Magellan](www.magellangps.com).
+[Magellan](https://www.magellangps.com/).
 
 ### TomTom
 

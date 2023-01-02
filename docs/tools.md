@@ -486,7 +486,7 @@ PDD
 [.XRY](https://www.msab.com/)
 
 [Fernico ZRT](fernico_zrt.md)
-[ForensicMobile](forensicmobile.md)
+ForensicMobile
 LogiCube CellDEK
 [MOBILedit!](mobiledit!.md)
 [Oxygen Forensic Suite](oxygen_forensic_suite.md)
@@ -494,13 +494,13 @@ LogiCube CellDEK
 [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
 
 [Serial Port Monitoring](serial_port_monitoring.md)
-[TULP2G](tulp2g.md)
+TULP2G
 
 ## SIM Card Forensics
 
 [Cellebrite UFED](cellebrite_ufed.md)
 [.XRY](https://www.msab.com/)
-[ForensicSIM](forensicsim.md)
+ForensicSIM
 [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
 
 [SIMCon](simcon.md)

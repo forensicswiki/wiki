@@ -21,4 +21,4 @@ Their training courses include:
 
 ## External Links
 
-* [Official Website](http://www.wetstonetech.com/)
+* [Official Website](https://www.wetstonetech.com/)

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Windows
-  -  Disk Analysis
+  - Disk Analysis
+  - Windows
 ---
 ## Volume Shadow Copy Service
 
@@ -114,104 +114,95 @@ information.
 
 ## Also see
 
-- [Windows](windows.md)
-- [File History](windows_file_history.md)
-- How to: [Mount shadow volumes on disk
-  images](mount_shadow_volumes_on_disk_images.md)
+* [Windows](windows.md)
+* [File History](windows_file_history.md)
+* How to: [Mount shadow volumes on disk images](mount_shadow_volumes_on_disk_images.md)
 
 ## External Links
 
 ### How to analyze Shadow Volumes
 
-- [VISTA and Windows 7 Shadow Volume
-  Forensics](http://computer-forensics.sans.org/blog/2008/10/10/shadow-forensics/),
+* [VISTA and Windows 7 Shadow Volume Forensics](http://computer-forensics.sans.org/blog/2008/10/10/shadow-forensics/),
   by [Rob Lee](rob_lee.md), October 2008
-- [Accessing Volume Shadow
-  Copies](http://windowsir.blogspot.ch/2011/01/accessing-volume-shadow-copies.html),
+* [Accessing Volume Shadow Copies](http://windowsir.blogspot.ch/2011/01/accessing-volume-shadow-copies.html),
   by [Harlan Carvey](harlan_carvey.md), January 2011
-- [More VSCs](http://windowsir.blogspot.ch/2011/01/more-vscs.html), by
+* [More VSCs](http://windowsir.blogspot.ch/2011/01/more-vscs.html), by
   [Harlan Carvey](harlan_carvey.md), January 2011
-- [A Little Help with Volume Shadow Copies](http://journeyintoir.blogspot.ch/2011/04/little-help-with-volume-shadow-copies.html),
+* [A Little Help with Volume Shadow Copies](http://journeyintoir.blogspot.ch/2011/04/little-help-with-volume-shadow-copies.html),
   by Corey Harrell, April 2011
-- [Volume Shadow Copy with
-  ProDiscover](http://toorcon.techpathways.com/uploads/VolumeShadowCopyWithProDiscover-0511.pdf),
-  May 2011
-- [HowTo: Mount and Access
-  VSCs](http://windowsir.blogspot.ch/2011/09/howto-mount-and-access-vscs.html),
+* [HowTo: Mount and Access VSCs](http://windowsir.blogspot.ch/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
-- [Shadow Timelines And Other VolumeShadowCopy Digital Forensics
-  Techniques with the Sleuthkit on
-  Windows](http://computer-forensics.sans.org/blog/2011/09/16/shadow-timelines-and-other-shadowvolumecopy-digital-forensics-techniques-with-the-sleuthkit-on-windows/),
+* [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](http://computer-forensics.sans.org/blog/2011/09/16/shadow-timelines-and-other-shadowvolumecopy-digital-forensics-techniques-with-the-sleuthkit-on-windows/),
   by [Rob Lee](rob_lee.md), September 2011
-- [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.ch/2012/01/ripping-volume-shadow-copies.html),
+* [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.ch/2012/01/ripping-volume-shadow-copies.html),
   by Corey Harrell, January 2012
-- [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-method.html),
+* [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-method.html),
   by Corey Harrell, February 2012
-- [Ripping VSCs – Practitioner Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-examples.html),
+* [Ripping VSCs – Practitioner Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-examples.html),
   by Corey Harrell, February 2012
-- [Ripping VSCs – Developer Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-method.html),
+* [Ripping VSCs – Developer Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-method.html),
   by Corey Harrell, February 2012
-- [Ripping VSCs – Developer Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-examples.html),
+* [Ripping VSCs – Developer Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-examples.html),
   by Corey Harrell, February 2012
-- [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.ch/2012/02/examining-vscs-with-gui-tools.html),
+* [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.ch/2012/02/examining-vscs-with-gui-tools.html),
   by Corey Harrell, February 2012
-- [VSC Toolset: A GUI Tool for Shadow Copies](http://dfstream.blogspot.ch/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
+* [VSC Toolset: A GUI Tool for Shadow Copies](http://dfstream.blogspot.ch/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
   by Jason Hale, March 2012
-- [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
+* [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by [Simon Key](simon_key.md), June 2012
-- [Getting Ready for a Shadow Volume Exam](http://justaskweg.com/?p=351),
-  by [Jimmy Weg](jimmy_weg.md), June 2012
-- [Mounting Shadow Volumes](http://justaskweg.com/?p=466),
-  by [Jimmy Weg](jimmy_weg.md), July 2012
-- [Examining the Shadow Volumes with X-Ways Forensics](http://justaskweg.com/?p=518),
-  by [Jimmy Weg](jimmy_weg.md), July 2012
-- [“Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?”](http://justaskweg.com/?p=710),
-  by [Jimmy Weg](jimmy_weg.md), August 2012
-- ["Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3"](http://sandersonforensics.com/forum/content.php?168-Reconnoitre),
+* [Getting Ready for a Shadow Volume Exam](http://justaskweg.com/?p=351),
+  by Jimmy Weg, June 2012
+* [Mounting Shadow Volumes](http://justaskweg.com/?p=466),
+  by Jimmy Weg, July 2012
+* [Examining the Shadow Volumes with X-Ways Forensics](http://justaskweg.com/?p=518),
+  by Jimmy Weg, July 2012
+* [Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?](http://justaskweg.com/?p=710),
+  by Jimmy Weg, August 2012
+* [Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3](http://sandersonforensics.com/forum/content.php?168-Reconnoitre),
   by [Paul Sanderson](paul_sanderson.md), January 2013
 
 <!-- -->
 
-- [Volume Shadow Copy Part 2](http://computerforensicsblog.champlain.edu/2014/02/05/volume-shadow-copy-part-2/),
+* [Volume Shadow Copy Part 2](http://computerforensicsblog.champlain.edu/2014/02/05/volume-shadow-copy-part-2/),
   by Ryan Montelbano, Scott Barrett, Jacob Blend, February 5, 2014
-- [Volume Shadow Copy Part 3](http://computerforensicsblog.champlain.edu/2014/02/26/volume-shadow-copy-part-3/),
+* [Volume Shadow Copy Part 3](http://computerforensicsblog.champlain.edu/2014/02/26/volume-shadow-copy-part-3/),
   by Scott Barrett, February 26, 2014
-- [Volume Shadow Copy Part 4](http://computerforensicsblog.champlain.edu/2014/03/26/volume-shadow-copy-part-4/),
+* [Volume Shadow Copy Part 4](http://computerforensicsblog.champlain.edu/2014/03/26/volume-shadow-copy-part-4/),
   by Ryan Montelbano, March 26, 2014
 
 ### Shadow Volumes in depth
 
-- [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
+* [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
   by [James Crabtree](james_crabtree.md) and [Gary Evans](gary_evans.md), 2010
-- [Into The Shadows](http://forensic4cast.com/2010/04/19/into-the-shadows/) and
+* [Into The Shadows](http://forensic4cast.com/2010/04/19/into-the-shadows/) and
   [Presentation](http://www.forensic4cast.com/2010/04/presentation-into-the-shadows/),
   by [Lee Whitfield](lee_whitfield.md), April 2010
-- [Volume Shadow Snapshot format](https://github.com/libyal/libvshadow/blob/main/documentation/Volume%20Shadow%20Snapshot%20(VSS)%20format.asciidoc),
+* [Volume Shadow Snapshot format](https://github.com/libyal/libvshadow/blob/main/documentation/Volume%20Shadow%20Snapshot%20(VSS)%20format.asciidoc),
   by the [libvshadow project](libvshadow.md), March 2011
-- [Windowless Shadow Snapshots - Analyzing Volume Shadow Snapshots (VSS) without using Windows](https://github.com/libyal/documentation/blob/main/Paper%20-%20Windowless%20Shadow%20Snapshots.pdf)
+* [Windowless Shadow Snapshots - Analyzing Volume Shadow Snapshots (VSS) without using Windows](https://github.com/libyal/documentation/blob/main/Paper%20-%20Windowless%20Shadow%20Snapshots.pdf)
   and [OSDFC 2012 Slides](https://github.com/libyal/documentation/blob/main/Slides%20-%20Windowless%20Shadow%20Snapshots.pdf),
   by [Joachim Metz](joachim_metz.md), October 2012
 
 ### Other
 
-- [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
-- [Volume Shadow Copies - The Lost Post](http://pauldotcom.com/2012/10/volume-shadow-copies---the-los.html),
+* [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
+* [Volume Shadow Copies - The Lost Post](http://pauldotcom.com/2012/10/volume-shadow-copies---the-los.html),
   [Mark Baggett](mark_baggett.md), October 2012
 
 ## Tools
 
-- [EnCase](encase.md) with VSS Examiner Enscript (available from
+* [EnCase](encase.md) with VSS Examiner Enscript (available from
   the downloads section of the GSI Support Portal)
-- [libvshadow](libvshadow.md)
-- [ProDiscover](prodiscover.md)
-- [ShadowExplorer](http://www.shadowexplorer.com/)
-- [VSC Toolset](http://dfstream.blogspot.ch/p/vsc-toolset.html)
-- [X-Ways Forensics](x-ways_ag.md)
-- [Reconnoitre](http://sandersonforensics.com/forum/content.php?168-Reconnoitre)
-- Vssadmin - Command Line utility included in Windows XP and later,
+* [libvshadow](libvshadow.md)
+* [ProDiscover](prodiscover.md)
+* [ShadowExplorer](http://www.shadowexplorer.com/)
+* [VSC Toolset](http://dfstream.blogspot.ch/p/vsc-toolset.html)
+* [X-Ways Forensics](x-ways_ag.md)
+* [Reconnoitre](http://sandersonforensics.com/forum/content.php?168-Reconnoitre)
+* Vssadmin - Command Line utility included in Windows XP and later,
   which can list, create, or delete volume shadow copies. This utility
   will also list the installed shadow copy writers and providers.
-- [Forensic Tool Kit](forensic_toolkit.md)
+* [Forensic Tool Kit](forensic_toolkit.md)
 
 ## Sources
 

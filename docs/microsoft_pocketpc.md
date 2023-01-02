@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Windows Mobile
+  - Mobile
+  - Windows
 ---
 **Microsoft Pocket PC**, sometimes referred to as P/PC or PPC, is based
 upon the Windows CE framework. Variants of this operating system include
@@ -77,29 +78,28 @@ and other issues in the original release.
 
 ### Windows Mobile Versions
 
-Please see [Microsoft Windows
-Mobile](microsoft_windows_mobile.md) for more information on
-these Operating Systems.
+Please see [Microsoft Windows Mobile](microsoft_windows_mobile.md) for more
+information on these Operating Systems.
 
 ## Pocket PC Devices
 
 In recent years, a number of manufacturers have elected to produce
 Pocket PC devices. Some of these makers include companies such as:
 
-- Acer
-- Asus
-- Audiovox
-- Dell
-- HP
-- HTC
-- Mitac
-- Motorola
-- MWg
-- Samsung
-- Siemens
-- Sony Ericsson
-- Symbol
-- Treo
+* Acer
+* Asus
+* Audiovox
+* Dell
+* HP
+* HTC
+* Mitac
+* Motorola
+* MWg
+* Samsung
+* Siemens
+* Sony Ericsson
+* Symbol
+* Treo
 
 Because different manufacturers are targeted at different segments of
 the market, such as business and consumers, the features and
@@ -110,6 +110,4 @@ barcode scanners.
 
 ## References
 
-- [Windows Mobile Homepage](http://www.microsoft.com/windowsmobile/default.mspx)
-- [The History of Microsoft Windows CE](http://www.hpcfactor.com/support/windowsce/)
-- [Gartner: Windows CE ties Palm](http://www.windowsfordevices.com/news/NS8063885791.html)
+* [The History of Microsoft Windows CE: Introduction](https://www.hpcfactor.com/support/windowsce/)

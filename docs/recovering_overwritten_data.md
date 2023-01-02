@@ -39,8 +39,7 @@ disk drives.
 
 ## ActionFront's Drive Independent Data Recovery 2005
 
-In August 2005 [ActionFront Data Recovery
-Labs](actionfront_data_recovery_labs.md) presented a detailed
+In August 2005 ActionFront Data Recovery Labs presented a detailed
 paper at the [IEEE 16th Annual Magnetic Recording
 Conference](http://tmrc.nanointernational.org) in which they discussed
 the current state-of-the-art of recovering information from hard drives
@@ -60,7 +59,7 @@ that will work on multiple drives.
 
 In December 2008 Craig Wright, Dave Kleiman, and Shyaam Sundhar R.S.
 presented a
-[paper](http://www.springerlink.com/content/408263ql11460147/) at
+[paper](http://tracedigital.be/pdf/overwriting_hard_drive_data.pdf/) at
 ICISS2008, which purpose was "*a categorical settlement to the
 controversy surrounding the misconceptions involving the belief that
 data can be recovered following a wipe procedure*"

@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Database
+  - Database
+  - File Formats
+  - Windows
 ---
 ## Terminology
 
@@ -26,39 +26,38 @@ The Windows Registry is stored in multiple files.
 
 ### Windows NT 4
 
-In Windows NT 4 (and later) the Registry is stored in the [Windows NT
-Registry File (regf)](windows_nt_registry_file_(regf).md)
+In Windows NT 4 (and later) the Registry is stored in the [Windows NT Registry File (regf)](windows_nt_registry_file_(regf).md)
 format.
 
 Basically the following Registry hives are stored in the corresponding
 files:
 
-- HKEY_USERS: \Documents and Setting\User Profile\NTUSER.DAT
-- HKEY_USERS\DEFAULT: C:\Windows\system32\config\default
-- HKEY_LOCAL_MACHINE\SAM: C:\Windows\system32\config\SAM
-- HKEY_LOCAL_MACHINE\SECURITY: C:\Windows\system32\config\SECURITY
-- HKEY_LOCAL_MACHINE\SOFTWARE: C:\Windows\system32\config\software
-- HKEY_LOCAL_MACHINE\SYSTEM: C:\Windows\system32\config\system
+* HKEY_USERS: \Documents and Setting\User Profile\NTUSER.DAT
+* HKEY_USERS\DEFAULT: C:\Windows\system32\config\default
+* HKEY_LOCAL_MACHINE\SAM: C:\Windows\system32\config\SAM
+* HKEY_LOCAL_MACHINE\SECURITY: C:\Windows\system32\config\SECURITY
+* HKEY_LOCAL_MACHINE\SOFTWARE: C:\Windows\system32\config\software
+* HKEY_LOCAL_MACHINE\SYSTEM: C:\Windows\system32\config\system
 
 ### Windows 9x/ME
 
-In Windows 95, 98, Me the Registry is stored in the [Windows 9x Registry
-File (creg)](windows_9x_registry_file_(creg).md) format.
+In Windows 95, 98, Me the Registry is stored in the [Windows 9x Registry File (creg)](windows_9x_registry_file_(creg).md)
+format.
 
-- \Windows\user.dat
-- \Windows\system.dat
-- \Windows\profiles\user profile\user.dat
+* \Windows\user.dat
+* \Windows\system.dat
+* \Windows\profiles\user profile\user.dat
 
 ## Special cases
 
 The Windows Registry has several special case scenarios, mainly
 concerning key and value name, that are easy to fail to account for:
 
-- special characters in key and value names
-- duplicate key and value names
-- the names when stored in extended ASCII (ANSI string) use a codepage
+* special characters in key and value names
+* duplicate key and value names
+* the names when stored in extended ASCII (ANSI string) use a codepage
   that is dependent on the system settings
-- unreconciled data
+* unreconciled data
 
 ### Special characters in key and value names
 
@@ -117,10 +116,10 @@ primary file (also known as a normal or data file) will be intact. A
 kernel will sync a primary file after one of the following conditions
 has occurred:
 
-- an hour has elapsed since the latest write to a primary file;
-- a power management subsystem reports that all users (local and remote)
+* an hour has elapsed since the latest write to a primary file;
+* a power management subsystem reports that all users (local and remote)
   are inactive;
-- the operating system is shutting down (hive is unloading).
+* the operating system is shutting down (hive is unloading).
 
 In order to correctly handle unreconciled data (e.g. when dealing with
 an image taken from a live system), one needs to parse transaction log
@@ -130,9 +129,8 @@ files along with primary files.
 
 The following lists are loosely based of:
 
-- [Silent
-  Runners.vbs](http://www.silentrunners.org/Silent%20Runners.vbs)
-- [Forensic Artifacts](artifacts.md)
+* [Silent Runners.vbs](http://www.silentrunners.org/Silent%20Runners.vbs)
+* [Forensic Artifacts](artifacts.md)
 
 <b>Note that in the lists below HKEY_CURRENT_USER is a subset of
 HKEY_USERS</b>
@@ -479,13 +477,13 @@ Manager\WOW</p></td>
 
 ### Service Control Manager
 
-|                                              |                                                     |
-|----------------------------------------------|-----------------------------------------------------|
-| <b>Description</b>                           | Service Control Manager extension                   |
+|                                      |                                                     |
+|--------------------------------------|-----------------------------------------------------|
+| <b>Description</b>                   | Service Control Manager extension                   |
 | <b>[Artifact name](artifacts.md)</b> | WindowsServiceControlManagerExtension               |
-| <b>Key path(s)</b>                           | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control |
-| <b>Value name(s)</b>                         | ServiceControlManagerExtension                      |
-| <b>Additional information</b>                |                                                     |
+| <b>Key path(s)</b>                   | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control |
+| <b>Value name(s)</b>                 | ServiceControlManagerExtension                      |
+| <b>Additional information</b>        |                                                     |
 
 ### Windows shell (explorer.exe)
 
@@ -1155,219 +1153,175 @@ name</a></b></p></td>
 
 ## Bibliography
 
-- [Using ShellBag Information to Reconstruct User
-  Activities](http://www.dfrws.org/2009/proceedings/p69-zhu.pdf), by
+* [Using ShellBag Information to Reconstruct User Activities](http://www.dfrws.org/2009/proceedings/p69-zhu.pdf), by
   Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
-- [The Windows NT Registry File
-  Format](http://www.sentinelchicken.com/research/registry_format/), by
+* [The Windows NT Registry File Format](http://www.sentinelchicken.com/research/registry_format/), by
   Timothy Morgan, June 9, 2009
-- [The Internal Structure of the Windows
-  Registry](http://amnesia.gtisc.gatech.edu/~moyix/suzibandit.ltd.uk/MSc/),
-  by Peter Norris, February 2009
-- [Recovering Deleted Data From the Windows
-  Registry](http://www.dfrws.org/2008/proceedings/p33-morgan.pdf) and
+* [Recovering Deleted Data From the Windows Registry](http://www.dfrws.org/2008/proceedings/p33-morgan.pdf) and
   [slides](http://www.dfrws.org/2008/proceedings/p33-morgan_pres.pdf),
   by Timothy Morgan, DFRWS 2008
-- [Forensic Analysis of the Windows Registry in
-  Memory](http://dfrws.org/2008/proceedings/p26-dolan-gavitt.pdf) and
+* [Forensic Analysis of the Windows Registry in Memory](http://dfrws.org/2008/proceedings/p26-dolan-gavitt.pdf) and
   [slides](http://dfrws.org/2008/proceedings/p26-dolan-gavitt_pres.pdf),
   by Brendan Dolan-Gavitt, DFRWS 2008
-- [Forensic analysis of unallocated space in Windows Registry Hive
-  files](http://www.sentinelchicken.com/data/JolantaThomassenDISSERTATION.pdf),
+* [Forensic analysis of unallocated space in Windows Registry Hive files](http://www.sentinelchicken.com/data/JolantaThomassenDISSERTATION.pdf),
   by Jolanta Thomassen, March 11, 2008
-- [The Windows Registry as a forensic
-  resource](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B7CW4-4GX1J3B-1&_user=3326500&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000060280&_version=1&_urlVersion=0&_userid=3326500&md5=ab887593e7be6d5257696707886978f1),
+* [The Windows Registry as a forensic resource](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B7CW4-4GX1J3B-1&_user=3326500&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000060280&_version=1&_urlVersion=0&_userid=3326500&md5=ab887593e7be6d5257696707886978f1),
   Digital Investigation, Volume 2, Issue 3, September 2005, Pages
   201--205.
-- [Windows registry file format
-  specification](https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md),
+* [Windows registry file format specification](https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md),
   by Maxim Suhanov, 2015-2016
 
 ### Undated
 
-- [A Windows Registry Quick Reference: For the Everyday
-  Examiner](http://eptuners.com/forensics/A%20Windows%20Registry%20Quick%20Reference.pdf),
+* [A Windows Registry Quick Reference: For the Everyday Examiner](http://eptuners.com/forensics/A%20Windows%20Registry%20Quick%20Reference.pdf),
   by Derrick Farmer, Burlington, VT.
-- [Forensic Analysis of the Windows
-  Registry](https://www.forensicfocus.com/downloads/forensic-analysis-windows-registry.pdf),
+* [Forensic Analysis of the Windows Registry](https://www.forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
   by Lih Wern Wong , School of Computer and Information Science, Edith
   Cowan University
 
 ## Also see
 
-- [Boot Configuration Data](windows_boot_configuration_data.md)
+* [Boot Configuration Data](windows_boot_configuration_data.md)
 
 ## External Links
 
-- [Wikipedia: Windows
-  Registry](http://en.wikipedia.org/wiki/Windows_Registry)
-- [Windows Incident Response Articles on
-  Registry](http://windowsir.blogspot.com/search/label/Registry)
-- [Windows Registry
-  Information](http://www.answers.com/topic/win-registry)
-- [Push the Red Button](http://moyix.blogspot.com/search/label/registry)
-  — Articles on Registry
-- [Security Accounts
-  Manager](http://www.beginningtoseethelight.org/ntsecurity/)
-- [Registry MRU Locations](http://windowsxp.mvps.org/RegistryMRU.htm)
-- [Exporting registry hives from a live
-  system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
+* [Wikipedia: Windows Registry](http://en.wikipedia.org/wiki/Windows_Registry)
+* [Windows Incident Response Articles on Registry](http://windowsir.blogspot.com/search/label/Registry)
+* [Windows Registry Information](http://www.answers.com/topic/win-registry)
+* [Push the Red Button](http://moyix.blogspot.com/search/label/registry)
+* [Security Accounts Manager](http://www.beginningtoseethelight.org/ntsecurity/)
+* [Registry MRU Locations](http://windowsxp.mvps.org/RegistryMRU.htm)
+* [Exporting registry hives from a live system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
   by Maxim Suhanov, October 3, 2020
 
 ### Windows 32-bit on Windows 64-bit (WoW64)
 
-- \[<https://msdn.microsoft.com/en-us/library/aa384253(v=vs.85>).aspx
-  Registry Keys Affected by WOW64\], by
-  [Microsoft](microsoft.md)
-- \[<https://msdn.microsoft.com/en-us/library/aa384232(VS.85>).aspx
-  Registry Redirector\], by [Microsoft](microsoft.md)
-- \[<https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85>).aspx
-  Registry Keys Affected by WOW64\], by
-  [Microsoft](microsoft.md)
-- [32-bit and 64-bit Application Data in the
-  Registry](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724072%28v=vs.85%29.aspx),
+* [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/aa384253(v=vs.85>).aspx),
+  by [Microsoft](microsoft.md)
+* [Registry Redirector](https://msdn.microsoft.com/en-us/library/aa384232(VS.85>).aspx),
+  by [Microsoft](microsoft.md)
+* [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85>).aspx),
+  by [Microsoft](microsoft.md)
+* [32-bit and 64-bit Application Data in the Registry](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724072%28v=vs.85%29.aspx),
   by [Microsoft](microsoft.md)
 
 ### Cached Credentials
 
-- [Cached
-  Credentials](http://juggernaut.wikidot.com/cached-credentials), by
-  Juggernaut
+* [Cached Credentials](http://juggernaut.wikidot.com/cached-credentials),
+  by Juggernaut
 
 ### Mounted Devices
 
-- [Registry Analysis (Windows Forensic Analysis) Part
-  6](http://what-when-how.com/windows-forensic-analysis/registry-analysis-windows-forensic-analysis-part-6/),
+* [Registry Analysis (Windows Forensic Analysis) Part 6](http://what-when-how.com/windows-forensic-analysis/registry-analysis-windows-forensic-analysis-part-6/),
   September 2011
 
 ### Persistence keys
 
-- [Understand and Control Startup Apps with the System Configuration
-  Utility](https://technet.microsoft.com/en-us/magazine/ee851671.aspx),
+* [Understand and Control Startup Apps with the System Configuration Utility](https://technet.microsoft.com/en-us/magazine/ee851671.aspx),
   by [Microsoft Technet](microsoft.md)
-- [Silent Runners](http://www.silentrunners.org/), by Andrew Aronoff
-- [Digital Forensics: Persistence Registry
-  keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),
+* [Silent Runners](http://www.silentrunners.org/), by Andrew Aronoff
+* [Digital Forensics: Persistence Registry keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),
   Dave Hull, October 20, 2010
-- [Beyond good ol’ Run
-  key](http://www.hexacorn.com/blog/2012/07/23/beyond-good-ol-run-key/),
+* [Beyond good ol’ Run key](http://www.hexacorn.com/blog/2012/07/23/beyond-good-ol-run-key/),
   Hexacorn blog, July 23, 2012
-- [Plugins: soft_run
-  user_run](http://journeyintoir.blogspot.ch/2013_04_01_archive.html),
+* [Plugins: soft_run user_run](http://journeyintoir.blogspot.ch/2013_04_01_archive.html),
   by Corey Harrell, April 17, 2013
-- [Auto-Start Extensibility Points
-  (ASEPs)](https://code.google.com/p/regripper/wiki/ASEPs), by the
-  [RegRipper project](regripper.md), April 29, 2013
-- [Windows Registry Persistence, Part 2: The Run Keys and
-  Search-Order](http://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order),
+* [Auto-Start Extensibility Points (ASEPs)](https://code.google.com/p/regripper/wiki/ASEPs),
+  by the [RegRipper project](regripper.md), April 29, 2013
+* [Windows Registry Persistence, Part 2: The Run Keys and Search-Order](http://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order),
   by Scott Langendorf, September 24, 2013
-- [Volatility autoruns
-  plugin](https://github.com/tomchop/volatility-autoruns/blob/master/README.md),
+* [Volatility autoruns plugin](https://github.com/tomchop/volatility-autoruns/blob/master/README.md),
   by the [Volatility project](volatility_framework.md), April 14, 2015
 
 ### User Assist
 
-- [UserAssist](http://blog.didierstevens.com/programs/userassist/), by
+* [UserAssist](http://blog.didierstevens.com/programs/userassist/), by
   Didier Stevens
-- [UserAssist
-  V2.3.0](http://blog.didierstevens.com/2007/07/17/userassist-v230/), by
+* [UserAssist V2.3.0](http://blog.didierstevens.com/2007/07/17/userassist-v230/), by
   Didier Stevens, Tuesday 17 July 2007
-- [More on (the) UserAssist
-  keys](http://windowsir.blogspot.ch/2007/09/more-on-userassist-keys.html),
+* [More on (the) UserAssist keys](http://windowsir.blogspot.ch/2007/09/more-on-userassist-keys.html),
   by [Harlan Carvey](harlan_carvey.md), Monday, September 03,
   2007
-- [Windows 7 Beta: ROT13 Replaced With Vigenère? Great
-  Joke!](http://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
+* [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](http://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
   by Didier Stevens, January 18, 2009
-- [Prefetch and User
-  Assist](http://forensicsfromthesausagefactory.blogspot.ch/2010/05/prefetch-and-user-assist.html),
+* [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.ch/2010/05/prefetch-and-user-assist.html),
   by DC174, Thursday, 27 May 2010
-- [Forensic Artifact:
-  UserAssist](http://forensicartifacts.com/2010/07/userassist/), July
+* [Forensic Artifact: UserAssist](http://forensicartifacts.com/2010/07/userassist/), July
   2010
-- [SANS Forensic Artifact 6:
-  UserAssist](http://sploited.blogspot.ch/2012/12/sans-forensic-artifact-6-userassist.html),
+* [SANS Forensic Artifact 6: UserAssist](http://sploited.blogspot.ch/2012/12/sans-forensic-artifact-6-userassist.html),
   by Sploited, Thursday, 27 December 2012
-- [UserAssist Forensics (timelines, interpretation, testing, &
-  more)](http://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
+* [UserAssist Forensics (timelines, interpretation, testing, & more)](http://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
   by Dan (@4n6k), Tuesday, May 14, 2013
-- [Daily Blog \#45: Understanding the artifacts: User
-  Assist](http://hackingexposedcomputerforensicsblog.blogspot.ch/2013/08/daily-blog-45-understanding-artifacts.html),
+* [Daily Blog \#45: Understanding the artifacts: User Assist](http://hackingexposedcomputerforensicsblog.blogspot.ch/2013/08/daily-blog-45-understanding-artifacts.html),
   by David Cowen, Wednesday, August 7, 2013
 
 ## Tools
 
 ### Open Source
 
-- [Forensic Registry EDitor (fred)](https://www.pinguin.lu/index.php) -
+* [Forensic Registry EDitor (fred)](https://www.pinguin.lu/index.php) -
   "Forensic Registry EDitor (fred) is a cross-platform M\$ registry hive
   editor" by Daniel Gillen
-- [libregfi](http://projects.sentinelchicken.org/data/doc/reglookup/regfi/) -
+* [libregfi](http://projects.sentinelchicken.org/data/doc/reglookup/regfi/) -
   The regfi library is a read-only NT registry library which serves as
   the main engine behind the reglookup tool
-- [reglookup](http://projects.sentinelchicken.org/reglookup/) — "small
+* [reglookup](http://projects.sentinelchicken.org/reglookup/) — "small
   command line utility for reading and querying Windows NT-based
   registries."
-- [regviewer](https://sourceforge.net/projects/regviewer/) — a tool for
+* [regviewer](https://sourceforge.net/projects/regviewer/) — a tool for
   looking at the registry.
-- [RegRipper](regripper.md) — "the fastest, easiest, and best
+* [RegRipper](regripper.md) — "the fastest, easiest, and best
   tool for registry analysis in forensics examinations."
-- [Parse::Win32Registry](http://search.cpan.org/~jmacfarla/Parse-Win32Registry-0.51/lib/Parse/Win32Registry.pm)
+* [Parse::Win32Registry](http://search.cpan.org/~jmacfarla/Parse-Win32Registry-0.51/lib/Parse/Win32Registry.pm)
   Perl module.
-- [python-registry](https://github.com/williballenthin/python-registry)
+* [python-registry](https://github.com/williballenthin/python-registry)
   Python module.
-- [libregf](libregf.md) - Library and tools to access the
+* [libregf](libregf.md) - Library and tools to access the
   Windows NT Registry File (REGF) format
-- [Registryasxml](registryasxml.md) - Tool to import/export
+* [Registryasxml](registryasxml.md) - Tool to import/export
   registry sections as XML
-- [kregedit](http://samba.org/~jelmer/kregedit/) - a KDE utility for
+* [kregedit](http://samba.org/~jelmer/kregedit/) - a KDE utility for
   viewing and editing registry files.
-- [Registry](https://github.com/EricZimmerman/Registry) Full featured,
+* [Registry](https://github.com/EricZimmerman/Registry) Full featured,
   offline Registry hive parser written in C#. Supports deleted item
   recovery, full searching, and more by @EricZimmerman
 
 #### Discontinued
 
-- [ntreg](https://packetstormsecurity.com/files/10450/ntreg.tar.gz.html)
+* [ntreg](https://packetstormsecurity.com/files/10450/ntreg.tar.gz.html)
   a file system driver for linux, which understands the NT registry file format.
-- [Registry Decoder](https://github.com/504ensicslabs/registrydecoder) live hive
+* [Registry Decoder](https://github.com/504ensicslabs/registrydecoder) live hive
   acquisition and offline analysis component, by Andrew Case
 
 ### Freeware
 
-- [Registry Explorer](http://binaryforay.blogspot.com/p/software.html)
+* [Registry Explorer](http://binaryforay.blogspot.com/p/software.html)
   Registry Explorer and RECmd allow unrivaled access to Registry hives
   and contain bookmarks for common registry keys by @EricZimmerman
 
 ### Commercial
 
-- [Yet Another Registry Utility
-  (yaru)](http://www.tzworks.net/prototype_page.php?proto_id=3) Free
-  tool that can be run on Windows, Linux or Mac OS-X. If run in admin
+* [Yet Another Registry Utility (yaru)](http://www.tzworks.net/prototype_page.php?proto_id=3)
+  Free tool that can be run on Windows, Linux or Mac OS-X. If run in admin
   mode, allows viewing of registry hives on live system.
 
 <!-- -->
 
-- [Windows ShellBag
-  Parser](http://www.tzworks.net/prototype_page.php?proto_id=14) Free
-  tool that can be run on Windows, Linux or Mac OS-X.
+* [Windows ShellBag Parser](http://www.tzworks.net/prototype_page.php?proto_id=14)
+  Free tool that can be run on Windows, Linux or Mac OS-X.
 
 <!-- -->
 
-- [*cafae*](http://tzworks.net/prototype_page.php?proto_id=19) -
+* [cafae](http://tzworks.net/prototype_page.php?proto_id=19) -
   Computer Account Forensic Artifact Extractor. Free tool that can be
   run on Windows, Linux or Mac OS-X to parse ntuser.dat hives.
-- [Regisry
-  Manager](http://www.stellarinfo.com/windows-tools/registry-cleaner.php)
-- [Abexo Free Regisry
-  Cleaner](http://www.abexo.com/free-registry-cleaner.htm)
-- [Auslogics Registry Defrag](http://www.auslogics.com/registry-defrag)
-- [Alien Registry Viewer](http://lastbit.com/arv/)
-- [NT Registry
-  Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
-- [iExpert Software-Free Registry
-  Defrag](http://www.registry-clean.net/free-registry-defrag.htm)
-- [Registry Recon](http://arsenalrecon.com/apps)
-- [Registry Undelete (russian)](http://paullee.ru/regundel)
-- [Windows Registry Recovery](http://mitec.cz/wrr.html)
-- [Registry Tool](http://registrytool.com/)
+* [Regisry Manager](http://www.stellarinfo.com/windows-tools/registry-cleaner.php)
+* [Abexo Free Regisry Cleaner](http://www.abexo.com/free-registry-cleaner.htm)
+* [Auslogics Registry Defrag](http://www.auslogics.com/registry-defrag)
+* [Alien Registry Viewer](http://lastbit.com/arv/)
+* [NT Registry Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
+* [iExpert Software-Free Registry Defrag](http://www.registry-clean.net/free-registry-defrag.htm)
+* [Registry Recon](http://arsenalrecon.com/apps)
+* [Registry Undelete (russian)](http://paullee.ru/regundel)
+* [Windows Registry Recovery](http://mitec.cz/wrr.html)
+* [Registry Tool](http://registrytool.com/)

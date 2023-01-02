@@ -172,7 +172,7 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 
 | Title                                                                                        | Website                                                                  | Limitation |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------|
-| BerlaCorp iOS and GPS Forensics Training                                                     | <http://www.berlacorp.com/training.html>                                 |            |
+| BerlaCorp Vehicle System Forensics Training Program                                          | <https://www.berla.co/training/>                                         |            |
 | Computer Forensic Training Center Online (CFTCO)                                             | <http://www.cftco.com/>                                                  |            |
 | CCE Bootcamp                                                                                 | <http://www.cce-bootcamp.com/>                                           |            |
 | Cyber Security Academy                                                                       | <http://www.cybersecurityacademy.com/>                                   |            |
@@ -180,23 +180,19 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 | e-fense Training                                                                             | <http://www.e-fense.com/training/index.php>                              |            |
 | eForensics Magazine                                                                          | <http://eforensicsmag.com/all-courses/>                                  |            |
 | Elvidence (Computer Forensics & Decryption - Law Enforcement Only)                           | <https://www.elvidence.com.au/>                                          |            |
-| H-11 Digital Forensics                                                                       | <http://www.h11-digital-forensics.com/training/viewclasses.php>          |            |
 | High Tech Crime Institute                                                                    | <http://www.gohtci.com>                                                  |            |
 | Infosec Institute                                                                            | <http://www.infosecinstitute.com/courses/security_training_courses.html> |            |
 | Intense School (a subsidiary of Infosec Institute)                                           | <http://www.intenseschool.com/schedules>                                 |            |
 | MD5 Group (Computer Forensics and E-Discovery courses)(Dallas, TX)                           | <http://www.md5group.com>                                                |            |
-| Mile 2 (Security and Forensics Certification Training)                                       | <https://www.mile2.com/mile2-online-estore/classess.html>                |            |
+| Mile 2 (Security and Forensics Certification Training)                                       | <https://mile2.com/training/>                                            |            |
 | Mobile Forensics, Inc                                                                        | <http://mobileforensicsinc.com/>                                         |            |
-| NetSecurity                                                                                  | <http://www.netsecurity.com/training/registration_schedule.html>         |            |
-| NID Forensics Academy (Certified Digital Forensic Investigator - CDFI Program)               | <http://www.nidforensics.com.br/>                                        |            |
+| NetSecurity                                                                                  | <https://www.netsecurity.com/cyber-security-and-forensics-training/>     |            |
 | NTI (an Armor Forensics Company) APPEARS DEFUNCT                                             | <http://www.forensics-intl.com/training.html>                            |            |
 | Security University                                                                          | <http://www.securityuniversity.net/classes.php>                          |            |
-| Steganography Analysis and Research Center (SARC)                                            | <http://www.sarc-wv.com/training>                                        |            |
 | Sumuri, LLC - Mac, Digital Forensics, Encryption, Mobile Forensics, Recon, Passware, Paladin | <https://www.sumuri.com/training/>                                       |            |
 | SysAdmin, Audit, Network, Security Institute (SANS)                                          | <http://computer-forensics.sans.org/courses/>                            |            |
 | SysTools, INC. (Digital Forensics Training)                                                  | <https://www.systoolsgroup.com/training/>                                |            |
 | Teel Technologies Canada/Europe Mobile/Comp/Video Forensics Training                         | <http://teeltechcanada.com/training/>                                    |            |
-| Teel Technologies Mobile Device Forensics Training                                           | <http://www.teeltech.com/tt3/training.asp>                               |            |
-| viaForensics Advanced Mobile Forensics Training                                              | <http://viaforensics.com/education/calendar/>                            |            |
-| Zeidman Consulting (MCLE)                                                                    | <http://www.zeidmanconsulting.com/speaking.htm>                          |            |
+| Teel Technologies Mobile Device Forensics Training                                           | <https://teeltech.com/mobile-device-forensics-training/>                 |            |
+| Zeidman Consulting (MCLE)                                                                    | <https://www.zeidmanconsulting.com/speaking.htm>                         |            |
 |                                                                                              |                                                                          |            |

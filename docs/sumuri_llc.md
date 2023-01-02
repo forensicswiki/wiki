@@ -10,24 +10,24 @@ is based in Camden, Delaware, USA.
 
 #### Free Tools
 
-- [PALADIN](paladin_forensic_suite_-_live_boot_ubuntu.md) -
+* [PALADIN](paladin_forensic_suite_-_live_boot_ubuntu.md) -
   completely free forensics toolkit. Includes over 100 forensic tools,
   and also includes Autopsy by Basis Technology.
 
 ### Software
 
-- [RECON IMAGER](recon_imager.md) - macOS
+* [RECON IMAGER](recon_imager.md) - macOS
   imager capable of forensic imaging of all Intel Based Macs. Based on
   OS X.
-- [RECON for Mac OS X](recon_for_mac_os_x.md) - automated
+* [RECON for Mac OS X](recon_for_mac_os_x.md) - automated
   forensics toolkit for Mac OS X.
-- [CARBON](carbon.md) - complete virtual forensics suite.
+* [CARBON](carbon.md) - complete virtual forensics suite.
 
 ### Hardware
 
-- TALINO Forensic Workstations - high-end computer systems developed to
+* TALINO Forensic Workstations - high-end computer systems developed to
   run specialized forensic discovery processes.
 
 ## External Links
 
-- [Official Website](http://www.sumuri.com/)
+* [Official Website](https://sumuri.com/)

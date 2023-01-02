@@ -54,7 +54,7 @@ Determining the version of Windows from file version information -
 locate the file %WinDir%\system32\ntoskrnl.exe and review the file
 version information/strings from the resource section of the PE file.
 You can view this information with a hex editor, or extract it using a
-variety of means. There is a Perl module (Win32::<File::VersionInfo>)
+variety of means. There is a Perl module (`Win32::File::VersionInfo`)
 that will allow you to extract this information, and the Perl script
 [kern.pl](https://sourceforge.net/project/showfiles.php?group_id=164158&package_id=203967)
 illustrates a platform independent means of examining the PE header and

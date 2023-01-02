@@ -187,16 +187,14 @@ performance impact of this approach would be? It might be wise to do a
 proof of concept for this approach first.
 
 
-[Rob J Meijer](user:capibara.md) It would I think depend greatly
-on behavior of the carving lib/tool. Small 512 byte reads are relatively
-very expensive, 128kb reads have negligible impact. Here are some
-numbers from ntfs-3g:
-<http://article.gmane.org/gmane.comp.file-systems.fuse.devel/6397/match=ntfs+3g+performance+ext3>
-that might be relevant. More relevant than performance might be library
-footprint. For example, using OCFA, we often would want to keep e few
-hundred images that total to tens of TB of projected storage size fuse
-mounted. If libewf/libaff have a big combined memory footprint in such
-cases, this can be a major issue for this approach.
+[Rob J Meijer](user:capibara.md) It would I think depend greatly on behavior of
+the carving lib/tool. Small 512 byte reads are relatively very expensive, 128kb
+reads have negligible impact. There are some numbers from ntfs-3g that might be
+relevant. More relevant than performance might be library footprint. For
+example, using OCFA, we often would want to keep e few hundred images that
+total to tens of TB of projected storage size fuse mounted. If libewf/libaff
+have a big combined memory footprint in such cases, this can be a major issue
+for this approach.
 
 [Joachim](user:joachim_metz.md) this layer should support multi
 threaded decompression of compressed image types, this speeds up IO
@@ -291,7 +289,7 @@ between file format validators and content validators
     (xls)](excel_spreadsheet_(xls).md) file format support
   - [PDF](pdf.md)
   - Open Office and Microsoft Office 2007 [ZIP
-    archive](zip_archive.md) based file formats
+    archive](zip.md) based file formats
 
 
 
@@ -306,7 +304,7 @@ binary file format which is also a ZIP-ed data [Excel Spreadsheet
 (xlsb)](excel_spreadsheet_(xlsb).md)
 
 - Archive files
-- [ZIP archive](zip_archive.md) file format
+- [ZIP archive](zip.md) file format
   - 7z
   - tar, gzip, bzip2
   - RAR
@@ -702,11 +700,9 @@ is no need to count and join different structures.
 [Joachim](user:joachim_metz.md) This was probably me is the text
 back in it's original form?
 
-I started it by moving your Revit07 comment to the validator/plugin
-section in [this
-edit](http://www.forensicswiki.org/index.php?title=Carver_2.0_Planning_Page&diff=prev&oldid=7583),
-since I was still at that point thinking operational configuration for
-that section, not parser configurations. [RB](user:rb.md)
+I started it by moving your Revit07 comment to the validator/plugin section
+since I was still at that point thinking operational configuration for that
+section, not parser configurations. [RB](user:rb.md)
 
 [Joachim](user:joachim_metz.md) I renamed the title to format
 syntax, clarity is important ;-)
@@ -802,8 +798,7 @@ sizes?
 
 
 [Joachim](user:joachim_metz.md) Carving NTFS-compressed (lznt1)
-files
-(https://sourceforge.net/projects/revit/files/Documentation/Carving%20NTFS-compressed%20data/Carving%20for%20NTFS%20compressed%20files.pdf/download)
+files: https://github.com/libyal/documentation/blob/main/Carving%20for%20NTFS%20compressed%20files.pdf
 
 - Carve just the sectors that are not in allocated files.
 
@@ -917,7 +912,7 @@ Carvers
 
 - DFRWS2006/2007 carving challenge results
 - photorec (http://www.cgsecurity.org/wiki/PhotoRec)
-- revit06 and revit07 (https://sourceforge.net/projects/revit/)
+- revit06 and revit07 (https://github.com/libyal/reviveit)
 - s3/scarve
 
 Possible file structure validator libraries
@@ -972,7 +967,6 @@ POLA
 - AppArmor
 - iptables/ipfw
 - minorfs ( <http://polacanthus.net/minorfs.html> )
-- plash ( <http://plash.beasts.org/wiki/> )
 
 # Implementation Timeline
 

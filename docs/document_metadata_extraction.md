@@ -40,9 +40,8 @@ The tool can visualize pictures embedded in a document.
 [wvWare](wvware.md)
 <http://wvware.sourceforge.net/>
 
-Extracts metadata from various [Microsoft](microsoft.md) Word
-files ([doc](doc.md). Can also convert doc files to other
-formats such as HTML or plain text.
+Extracts metadata from various [Microsoft Word](microsoft_office.md) (doc)
+files. Can also convert doc files to other formats such as HTML or plain text.
 
 <!-- -->
 

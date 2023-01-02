@@ -45,9 +45,8 @@ recovery.
 
 ## Supported operating systems
 
-- [DOS](dos.md);
-- [Microsoft](microsoft.md) [Windows](windows.md) (NT4,
-  2000, XP, 2003, Vista);
+- DOS;
+- [Microsoft Windows](windows.md) (NT4, 2000, XP, 2003, Vista);
 - [Linux](linux.md);
 - [FreeBSD](freebsd.md), [NetBSD](netbsd.md ),
   [OpenBSD](openbsd.md);

@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Disk Imaging
+  - Disk Imaging
 ---
 **LinEn** is a [Linux](linux.md) version of the normally
-[DOS](dos.md) based [EnCase](encase.md) acquisition
+DOS based [EnCase](encase.md) acquisition
 tool. It has roughly the same functionality as the DOS version.
 
 # Features
@@ -41,10 +41,4 @@ the freely downloadable [Helix](http://www.e-fense.com/helix/) live CD.
 
 # External Links
 
-- [Official
-  website](http://www.digitalintelligence.com/software/guidancesoftware/encase/)
-- [EnCase Forensic Software](http://www.guidancesoftware.com/forensic)
-  by [Guidance Software](guidance_software.md)
-
-## External Reviews
-
+- [Official website](https://www.opentext.com/)

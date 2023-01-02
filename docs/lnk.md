@@ -73,7 +73,7 @@ Windows Shell commands:
 - [MS-SHLLINK](http://msdn.microsoft.com/en-us/library/dd871305%28PROT.13%29.aspx)
 - [Windows Shortcut File (LNK) format](https://github.com/libyal/liblnk/blob/master/documentation/Windows%20Shortcut%20File%20(LNK)%20format.asciidoc),
   by the [liblnk project](liblnk.md)
-- [Evidentiary Value of Link Files](http://www.forensicfocus.com/link-file-evidentiary-value), by
+- [Evidentiary Value of Link Files](https://www.forensicfocus.com/link-file-evidentiary-value), by
   Nathan Weilbacher
 - [LNK Parsing: You’re doing it wrong (I)](http://blog.0x01000000.org/2010/08/10/lnk-parsing-youre-doing-it-wrong-i/),
   by Jordi Sánchez López, August 10, 2010
