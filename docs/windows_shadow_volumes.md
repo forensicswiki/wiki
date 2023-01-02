@@ -156,7 +156,7 @@ information.
 - [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.ch/2012/02/examining-vscs-with-gui-tools.html),
   by Corey Harrell, February 2012
 - [VSC Toolset: A GUI Tool for Shadow Copies](http://dfstream.blogspot.ch/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
-  by [Jason Hale](jason_hale.md), March 2012
+  by Jason Hale, March 2012
 - [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by [Simon Key](simon_key.md), June 2012
 - [Getting Ready for a Shadow Volume Exam](http://justaskweg.com/?p=351),

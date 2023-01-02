@@ -58,10 +58,6 @@ command that we are about to run on the victim machine (e.g.,
 date.txt)). The file will be saved to the current working directory of
 the shell you are running Netcat in.
 
-After running the command listed above, you should see a screen that
-looks like the following on your forensic workstation:
-![<File:netcat1.png>](netcat1.png "File:netcat1.png")
-
 Next, on the victim machine, run a command such as the following in the
 terminal or command line:
 
@@ -82,9 +78,6 @@ the differences between streams), add the following text just after your
 command: **2\>&1**). Make sure you replace "2222" with whatever port you
 specified for Netcat to use on your forensic workstation above.
 
-The victim machine screen should look something like this:
-![<File:netcat2.png>](netcat2.png "File:netcat2.png")
-
 If the command is taking longer to run that it should, try pressing the
 "CTRL" and "C" keys simultaneously on the forensic workstation to
 force-stop Netcat from listening.
@@ -96,7 +89,6 @@ machine, which is why the "from" name and IP address match our forensic
 workstation). Then we used the "cat" command to view the contents of the
 *date.txt* file that was created by Netcat, which contained the output
 from the "date" command that we ran on the victim machine.
-![<File:netcat3.png>](netcat3.png "File:netcat3.png")
 
 When using Netcat to transfer file contents and binary files to your
 forensic workstation, commands such as the following can instead be used

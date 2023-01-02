@@ -1,13 +1,12 @@
 ---
 tags:
-  - Reversing
   - Disassembler 
-  - Tools
   - Open Source Software
-
+  - Reversing
+  - Tools
 ---
 Ghidra is a software reverse engineering (SRE) framework created and
-maintained by the [National Security Agency Research Directorate](national_security_agency_research_directorate.md).
+maintained by the National Security Agency Research Directorate.
 This framework includes a suite of full-featured, high-end software
 analysis tools that enable users to analyze compiled code on a variety
 of platforms including Windows, macOS, and Linux. Capabilities include
@@ -34,8 +33,4 @@ project.
 
 ## Source Code
 
-GitHub = <https://github.com/NationalSecurityAgency/ghidra>
-
-## Precautions
-
-Unknown
+* [Project site](https://github.com/NationalSecurityAgency/ghidra)

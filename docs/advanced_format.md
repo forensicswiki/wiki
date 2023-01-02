@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Hard Drives
-  -  Hardware
+  - Hard Drives
+  - Hardware
 ---
 # The Technology
 
@@ -11,7 +11,7 @@ signal-to-noise ratio improves, and less space is needed for error
 correction. Long-term improvements in speed, density, and overall
 capacity. Western Digital has started releasing drives with 4KB sectors
 under the name "Advanced Format" (not to be confused with the [Advanced
-Forensics Format](advanced_forensics_format.md).
+Forensics Format](aff.md).
 
 # The Standard
 
@@ -48,20 +48,13 @@ drives hit the marketplace.
 To format one of these drives properly for Windows XP, use the following
 utility (this applies only to drives from Western Digital):
 
-[Western Digital Advanced Drive Format
-Utility](http://www.wdc.com/en/products/advancedformat/)
+[Western Digital Advanced Drive Format Utility](http://www.wdc.com/en/products/advancedformat/)
 
 # External Links
 
-- [A Good Overview at
-  AnandTech](http://www.anandtech.com/storage/showdoc.aspx?i=3691)
-- [PDF White
-  Paper](http://www.wdc.com/wdproducts/library/WhitePapers/ENG/2579-771430.pdf)
-- [A Tom's Hardware Review of the WD Caviar Green
-  Drives](http://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
-- [ATA 4 KiB sector issues (good summary from Linux ATA
-  wiki)](https://ata.wiki.kernel.org/index.php/ATA_4_KiB_sector_issues)
-- [4K-sector drives and Linux
-  (LWN.net)](http://lwn.net/Articles/377895/)
-- [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools
-  ticket)](http://sourceforge.net/apps/trac/smartmontools/ticket/62)
+* [A Good Overview at AnandTech](http://www.anandtech.com/storage/showdoc.aspx?i=3691)
+* [PDF White Paper](http://www.wdc.com/wdproducts/library/WhitePapers/ENG/2579-771430.pdf)
+* [A Tom's Hardware Review of the WD Caviar Green Drives](http://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
+* [ATA 4 KiB sector issues (good summary from Linux ATA wiki)](https://ata.wiki.kernel.org/index.php/ATA_4_KiB_sector_issues)
+* [4K-sector drives and Linux (LWN.net)](http://lwn.net/Articles/377895/)
+* [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools ticket)](http://sourceforge.net/apps/trac/smartmontools/ticket/62)

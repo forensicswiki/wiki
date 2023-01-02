@@ -9,15 +9,12 @@ versions such as Pocket PC 2000, Pocket PC 2002, Windows Mobile
 [Smartphones](smartphones.md), such as Windows Mobile 2003
 Smartphone edition.
 
-__TOC__
-
 ## Benefits
 
-![](Pocketpc.jpg "Pocketpc.jpg") One of the key benefits of Microsoft's
-Windows Mobile platform is file format compatibility with the desktop
-versions of the company's productivity software. Mobile versions of
-Microsoft software, such as Pocket Word, Pocket Excel, and Pocket
-PowerPoint, allow individuals to view and edit these files outside of
+One of the key benefits of Microsoft's Windows Mobile platform is file format
+compatibility with the desktop versions of the company's productivity software.
+Mobile versions of Microsoft software, such as Pocket Word, Pocket Excel, and
+Pocket PowerPoint, allow individuals to view and edit these files outside of
 the home and office.
 
 Another benefit is integration with Microsoft's cross-platform solution,
@@ -113,13 +110,6 @@ barcode scanners.
 
 ## References
 
-- [Windows Mobile
-  Homepage](http://www.microsoft.com/windowsmobile/default.mspx)
-- [Free Pocket PC Software](http://www.pocketpcfreeware.org/)
-- [The History of Microsoft Windows
-  CE](http://www.hpcfactor.com/support/windowsce/)
-- [Palm vs. Pocket PC-The Great
-  Debate](http://palmtops.about.com/cs/pdafacts/a/Palm_Pocket_PC.htm)
-- [Gartner: Windows CE ties
-  Palm](http://www.windowsfordevices.com/news/NS8063885791.html)
-
+- [Windows Mobile Homepage](http://www.microsoft.com/windowsmobile/default.mspx)
+- [The History of Microsoft Windows CE](http://www.hpcfactor.com/support/windowsce/)
+- [Gartner: Windows CE ties Palm](http://www.windowsfordevices.com/news/NS8063885791.html)
