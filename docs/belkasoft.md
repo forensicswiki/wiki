@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 **About Belkasoft**
 
@@ -66,4 +66,4 @@ and Ernst & Young.
 
 ## External Links
 
-- [Official website](https://belkasoft.com/)
+* [Official website](https://belkasoft.com/)

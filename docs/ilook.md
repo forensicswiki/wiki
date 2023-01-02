@@ -16,18 +16,12 @@ application is now being supported by XtremeForensics who have released
 ILooKIX v9 for commercial use in two versions, Standard and Advanced.
 
 ILooKIX can support a wide variety of file systems, including
-[FAT](fat.md) 12/16/32, [NTFS](ntfs.md), [NTFS
-Compressed](ntfs_compressed.md), (Traditional) HFS,
+[FAT](fat.md) 12/16/32, [NTFS](ntfs.md), NTFS Compressed, (Classic) HFS,
 [HFS+](hfs+.md), [ext2, ext3](extended_file_system_(ext).md),
 [ReiserFS](reiserfs.md) 1, 2, and 3,
-[SysV-AFS](sysv-afs.md), [SysV-EAFS](sysv-eafs.md),
-[SysV-HTFS](sysv-htfs.md), [NWFS](NWFS.md), [NWFS
-Compressed](nwfs_compressed.md), [VMWare Drive Mount Disk
-Drives](vmware_drive_mount_disk_drives.md),
-[Microsoft](microsoft.md) [Virtual PC](virtual_pc.md)
-disks. It can also process CDs in [CDFS](cdfs.md), [ISO
-9660](iso_9660.md), [ISO 9660](iso_9660.md), and
-[UDF](udf.md).
+SysV-AFS, SysV-EAFS, SysV-HTFS, NWFS, NWFS Compressed, VMWare Drive Mount Disk Drives,
+Microsoft Virtual PC disks. It can also process CDs in CDFS, ISO 9660, and
+UDF.
 
 Over the past few years ILooKIX has undergone a huge amount of
 development, particularly in relation to Apple file systems, and Version
@@ -86,11 +80,9 @@ host.
 ## Hash Databases
 
 Hashes and compares using custom hash sets as well as the
-[Hashkeeper](hashkeeper.md) [hash
-database](hash_database.md) and
-[NIST](national_software_reference_library.md) [hash
-library](hash_library.md) using [MD5](md5.md) and [FIPS
-180-2](fips_180-2.md) compliant algorithms (e.g.
+[Hashkeeper hash database](hashkeeper.md) and
+[NIST hash library](national_software_reference_library.md)
+using [MD5](md5.md) and FIPS 180-2 compliant algorithms (e.g.
 [SHA-1](sha-1.md).
 
 ## External links

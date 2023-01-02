@@ -93,7 +93,7 @@ MS-SHLLINK\] binary format segments.
   by [Harlan Carvey](harlan_carvey.md), August 24, 2011
 - [Jump List Analysis](http://windowsir.blogspot.ch/2011/12/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), December 28, 2011
-- [Forensic Analysis of Windows 7 Jump Lists](http://articles.forensicfocus.com/2012/10/30/forensic-analysis-of-windows-7-jump-lists/),
+- [Forensic Analysis of Windows 7 Jump Lists](https://www.forensicfocus.com/articles/forensic-analysis-of-windows-7-jump-lists/),
   by Rob Lyness, October 2012
 - [Jump lists format](https://github.com/libyal/dtformats/blob/main/documentation/Jump%20lists%20format.asciidoc),
   by the [libyal project](libyal.md), July 2014

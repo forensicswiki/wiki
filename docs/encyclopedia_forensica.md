@@ -19,12 +19,10 @@ and content, Please start there if you are looking to contribute)
 
 ## Operating Systems:
 
-* [Windows 95](windows_95.md)
-* [Windows 98](windows_98.md)
 * [Windows Vista](windows_vista.md)
 * [Windows 7](windows_7.md)
 * [Windows 8](windows_8.md)
-* [Mac OS X 10.8](osx_10.8.md)
+* [Mac OS X](mac_os_x.md)
 
 ## File Systems
 

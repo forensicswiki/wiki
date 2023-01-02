@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 The Grugq has spent several years researching anti-forensic techniques
 and is the author of [Hash](hash_(tool).md) (**ha**cker
@@ -12,7 +12,6 @@ and is the author of [Hash](hash_(tool).md) (**ha**cker
 
 - HiTB: The Art of Defiling: Defeating Forensic Analysis on Unix File
   Systems
-  ([video](http://video.google.com/videoplay?docid=-4786019601683862711&q=%22the+grugq%22&ei=Mp9uSI_TA5KkjALp5vGrDw))
   ([pdf](http://www.packetstormsecurity.org/hitb04/hitb04-grugq.pdf))
 
 **2005**
@@ -24,7 +23,4 @@ and is the author of [Hash](hash_(tool).md) (**ha**cker
 
 ### External Links
 
-- [TacticalVoIP.com](http://www.tacticalvoip.com/)
-- [CSO Online interview with The
-  Grugq](http://www.csoonline.com/article/216370/Where_Is_Hacking_Now_A_Chat_with_Grugq)
-
+- [CSO Online interview with The Grugq](http://www.csoonline.com/article/216370/Where_Is_Hacking_Now_A_Chat_with_Grugq)

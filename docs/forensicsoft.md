@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 *ForensicSoft Inc* ForensicSoft's System Acquisition Forensic
 Environment (SAFE) products use innovative thinking to bring the speed,
@@ -20,5 +20,4 @@ built in NTFS support, driver availability, and built in write blocking.
 
 ## External Links
 
-[Official Website](http://www.ForensicSoft.com/)
-
+* [Official Website](http://www.ForensicSoft.com/)

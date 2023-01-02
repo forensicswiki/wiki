@@ -12,7 +12,7 @@ The features of NTFS include:
 
 * [Hard-links](hard-links.md)
 * Improved performance, reliability and disk space utilization
-* Security [access control lists](access_control_lists.md)
+* Security access control lists
 * File system journaling
 
 ## Time Stamps

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Disk Imaging
+  - Disk Imaging
 ---
 LibAFF4 is an implementation of the AFF4 standard. It is still in a very
 early stage of development but it allows people to have a play with the
@@ -8,35 +8,7 @@ new standard. This page documents it.
 
 ## Installing LibAFF4
 
-The source code is currently kept under version control on Google code (
-<http://code.google.com/p/aff4/> ). It can be obtained using the
-Mercurial Source Control Management (SCM) tools. To create a new copy of
-the AFF4 source tree.
-
-`hg clone `[`https://aff4.googlecode.com/hg/`](https://aff4.googlecode.com/hg/)` aff4`
-
-Once the AFF4 source tree is downloaded in the aff4 directory, it can be
-build and installed as following:
-
-- First check and edit **config.py**.
-- Make sure you have the necessary access privileges for the
-  installation location then run:
-
-`./scon install`
-
-Check **INSTALL** in the aff4 directory for more information.
-
-AFF4 requires the following packages:
-
-- OpenSSL development package (Debian: openssl-dev, Fedora:
-  openssl-devel)
-- UUID development package (Debian: uuid-dev, Fedora (recent version):
-  libuuid-devel)
-
-The following are optional but recommended packages:
-
-- libcurl4-openssl-dev
-- libfuse-dev
+See: [c-aff4: INSTALL](https://github.com/Velocidex/c-aff4/blob/master/INSTALL)
 
 ## Taking an image
 

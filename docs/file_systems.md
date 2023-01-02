@@ -41,7 +41,7 @@ like ffs.
 
 <!-- -->
 
-(Traditional) HFS
+(Classic) HFS
 Hierarchical File System used by [Apple](apple_inc.md) systems, it
 has been succeed by [HFS+](hfs+.md).
 
@@ -165,12 +165,12 @@ on an optical disc (though the exceptional nature of DVD-RAM must be
 remembered -- you *can* create a FAT DVD-RAM), you will find the systems
 listed below.
 
-(Traditional) HFS and [HFS+](hfs+.md)
+(Classic) HFS and [HFS+](hfs+.md)
 These file systems are defined by Apple and only limited support is available for them outside of the Macintosh world. These are the identical implementations for hard disk file systems on MacOS operating systems.
 
 <!-- -->
 
-[ISO 9660](iso_9660.md)
+ISO 9660
 This is the most basic file system and the foundation for a number of
 extensions which have been made to it. It was originally defined in 1989
 and was an outgrowth of the previous HSG (High Sierra Group) definition
@@ -203,7 +203,7 @@ operating systems.
 
 <!-- -->
 
-[UDF](udf.md)
+UDF
 UDF is the acronym for Universal Disk Format which was defined by the
 Optical Storage Technology Association as an implementable subset of
 ISO 13346. It is part of the definition for DVD Video and DVD Audio
