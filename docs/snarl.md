@@ -12,4 +12,4 @@ includes Autopsy and Sleuth Kit.
 
 ## External Links
 
-- [Project site](http://sourceforge.net/projects/snarl/)
+- [Project site](https://sourceforge.net/projects/snarl/)

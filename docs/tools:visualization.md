@@ -137,7 +137,7 @@ Panda#D
 - [Pajek](http://pajek.imfm.si/doku.php) - Windows program for drawing
   large networks.
 - [Social Network Image Animator
-  (SoNIA)](http://sourceforge.net/projects/sonia/) - Originally
+  (SoNIA)](https://sourceforge.net/projects/sonia/) - Originally
   developed at Stanford. Written in Java. Makes movies.
 - [Walrus](http://www.caida.org/tools/visualization/walrus/) - A 3-d
   graph network exploration tool. Employs 3D hyperbolic displays and
@@ -213,7 +213,7 @@ Reas govisual diagram editor reas.com gdf.net
   Analysis](http://www.insna.org/INSNA/soft_inf.html)
 - <http://www.ontopia.net/omnigator/models/index.jsp>
 - <http://visant.bu.edu/>
-- <http://sourceforge.net/projects/touchgraph/>
+- <https://sourceforge.net/projects/touchgraph/>
 - [Christian Tominski](http://www.informatik.uni-rostock.de/~ct/)
 
 CAIDA has 15+ years of work visualizing Internet topologies. You may

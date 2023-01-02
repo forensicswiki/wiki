@@ -59,7 +59,7 @@ and within the Cygwin environment under Windows.
 Because all of these tools build upon one another, it is important to
 compile and install them in the order specified below.
 
-1.  Download a copy of [libewf](http://sourceforge.net/projects/libewf/)
+1.  Download a copy of [libewf](https://sourceforge.net/projects/libewf/)
     and install it on your computer. This will allow your forensic tools
     to read and process EnCase [E01](e01.md) disk images.
 2.  Download a copy of [Sleuthkit](http://www.sleuthkit.org/sleuthkit/)

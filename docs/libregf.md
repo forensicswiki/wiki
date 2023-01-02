@@ -30,5 +30,5 @@ while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
 
 ## External Links
 
-- [Project site](http://github.com/libyal/libregf/)
+- [Project site](https://github.com/libyal/libregf/)
 

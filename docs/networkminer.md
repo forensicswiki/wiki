@@ -4,7 +4,7 @@ tags:
 ---
 [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) is a Network
 Forensic Analysis Tool (NFAT) for Windows.
-[NetworkMiner](http://sourceforge.net/apps/mediawiki/networkminer/index.php?title=NetworkMiner)
+[NetworkMiner](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=NetworkMiner)
 can be used as a passive network [sniffer](sniffer.md)/packet
 capturing tool in order to detect operating systems, sessions,
 hostnames, open ports etc. without putting any traffic on the network.
@@ -33,7 +33,7 @@ NetworkMiner can extract files and certificates transferred over the
 network by parsing a PCAP file or by sniffing traffic directly from the
 network. This is a neat function that can be used to extract and [save
 media
-files](http://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Save_media_files)
+files](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Save_media_files)
 (such as audio or video files) which are streamed across a network.
 Supported protocols for file extraction are FTP, HTTP and SMB.
 
@@ -44,13 +44,13 @@ public.
 
 Another very useful feature is that the user can [search sniffed or
 stored data for
-keywords](http://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Keyword_Search).
+keywords](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Keyword_Search).
 NetworkMiner allows the user to insert arbitrary string or byte-patterns
 that shall be searched for with the keyword search functionality.
 
 Version 0.84 (and newer) of NetworkMiner support [sniffing and parsing
 of WLAN (IEEE 802.11)
-traffic](http://sourceforge.net/apps/mediawiki/networkminer/index.php?title=WiFi_Sniffing).
+traffic](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=WiFi_Sniffing).
 NetworkMiner does however currently only support WiFi sniffing with
 AirPcap adapters.
 

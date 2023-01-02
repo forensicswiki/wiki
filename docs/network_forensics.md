@@ -97,7 +97,7 @@ available.
   [6](https://pypi.python.org/pypi/netgrep/)
 - [NetworkMiner](networkminer.md) is [an open source Network
   Forensics Tool available at
-  SourceForge](http://sourceforge.net/apps/mediawiki/networkminer/index.php?title=NetworkMiner)
+  SourceForge](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=NetworkMiner)
 - [OSSEC](ossec.md)
 - [Plaso](plaso.md) is the Python
   based back-end engine used by tools such as log2timeline for automatic

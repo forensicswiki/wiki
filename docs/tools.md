@@ -365,7 +365,7 @@ subfiles (hachoir-subfile).
 <!-- -->
 
 [hashdb](hashdb.md)
-<http://github.com/simsong/hashdb/wiki>
+<https://github.com/simsong/hashdb/wiki>
 
 A tool for finding previously identified blocks of data in media such as
 disk images.

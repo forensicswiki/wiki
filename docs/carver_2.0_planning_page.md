@@ -803,7 +803,7 @@ sizes?
 
 [Joachim](user:joachim_metz.md) Carving NTFS-compressed (lznt1)
 files
-(http://sourceforge.net/projects/revit/files/Documentation/Carving%20NTFS-compressed%20data/Carving%20for%20NTFS%20compressed%20files.pdf/download)
+(https://sourceforge.net/projects/revit/files/Documentation/Carving%20NTFS-compressed%20data/Carving%20for%20NTFS%20compressed%20files.pdf/download)
 
 - Carve just the sectors that are not in allocated files.
 
@@ -917,7 +917,7 @@ Carvers
 
 - DFRWS2006/2007 carving challenge results
 - photorec (http://www.cgsecurity.org/wiki/PhotoRec)
-- revit06 and revit07 (http://sourceforge.net/projects/revit/)
+- revit06 and revit07 (https://sourceforge.net/projects/revit/)
 - s3/scarve
 
 Possible file structure validator libraries
@@ -952,16 +952,16 @@ Content support
 Zero storage support
 
 - libcarvpath (
-  <http://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210704>
+  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210704>
   )
 - carvfs (
-  <http://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210954>
+  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210954>
   )
 - tsk-cp (
-  <http://sourceforge.net/project/showfiles.php?group_id=170249&package_id=267227>
+  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=267227>
   )
 - carvfsmodewf
-  (http://sourceforge.net/project/showfiles.php?group_id=170249&package_id=268256
+  (https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=268256
   )
 
 POLA

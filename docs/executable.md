@@ -73,7 +73,7 @@ There are multiple families of executable files:
 - [Microsoft Symbol and Type Information](http://pierrelib.pagesperso-orange.fr/exec_formats/MS_Symbol_Type_v1.0.pdf)
 - [Stream Descriptions](https://code.google.com/p/pdbparse/wiki/StreamDescriptions),
   [pdbparse project](https://code.google.com/p/pdbparse/)
-- [libmsdebug](http://sourceforge.net/p/mingw-w64/code/HEAD/tree/experimental/tools/libmsdebug/),
+- [libmsdebug](https://sourceforge.net/p/mingw-w64/code/HEAD/tree/experimental/tools/libmsdebug/),
   by the [MinGW project](mingw.md)
 - [The Types Stream](http://moyix.blogspot.com/2007/10/types-stream.html),
   by Brendan Dolan-Gavitt, October 4, 2007

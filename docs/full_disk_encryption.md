@@ -173,7 +173,7 @@ Jetico BestCrypt
 Transparent file system and [swap](swap.md) encryption for [Linux](linux.md)
 using the loopback device and [AES](aes.md).
 
-<http://sourceforge.net/projects/loop-aes/>
+<https://sourceforge.net/projects/loop-aes/>
 
 <!-- -->
 

@@ -68,7 +68,7 @@ Library call tracer.
 [strace](strace.md)
 System Call Tracer.
 
-<http://sourceforge.net/projects/strace/>
+<https://sourceforge.net/projects/strace/>
 
 <!-- -->
 
@@ -77,7 +77,7 @@ eXtended trace utility, similar to strace, ptrace, truss, but with
 extended functionality and unique features, such as dumping function
 calls (dynamically or statically linked), dumping call stack and more.
 
-<http://sourceforge.net/projects/xtrace/>
+<https://sourceforge.net/projects/xtrace/>
 
 <!-- -->
 

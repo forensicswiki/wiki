@@ -24,4 +24,4 @@ bundled with [Eraser](eraser.md)
 ## External Links
 
 - [Official website](http://dban.sourceforge.net/)
-- [Support Forum](http://sourceforge.net/forum/forum.php?forum_id=208932)
+- [Support Forum](https://sourceforge.net/forum/forum.php?forum_id=208932)

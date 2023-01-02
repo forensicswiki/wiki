@@ -55,4 +55,4 @@ Can it build timelines and search by creation date?
 
 - [Github: Pyflags](https://github.com/py4n6/pyflag)
 - <https://code.google.com/p/pyflag/>
-- <http://sourceforge.net/projects/pyflag/>
+- <https://sourceforge.net/projects/pyflag/>

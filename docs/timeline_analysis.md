@@ -109,4 +109,4 @@ TimeFlow - Visual timelines for investigation - source freely available
 Zeitline - Forensic timeline editor
 <http://projects.cerias.purdue.edu/forensics/timeline.php>
 
-<http://sourceforge.net/projects/zeitline/>
+<https://sourceforge.net/projects/zeitline/>

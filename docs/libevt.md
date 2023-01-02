@@ -21,7 +21,7 @@ Libevt was created by [Joachim Metz](joachim_metz.md) in 2011.
 
 ## External Links
 
-- [Project site](http://github.com/libyal/libevt/)
+- [Project site](https://github.com/libyal/libevt/)
 - [How to export the EventLog with full messages from EVT
-  files](http://github.com/libyal/libevt/wiki/evttools)
+  files](https://github.com/libyal/libevt/wiki/evttools)
 

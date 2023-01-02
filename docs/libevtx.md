@@ -22,5 +22,5 @@ Libevtx was created by [Joachim Metz](joachim_metz.md) in 2011.
 
 ## External Links
 
-- [Project site](http://github.com/libyal/libevtx/)
+- [Project site](https://github.com/libyal/libevtx/)
 

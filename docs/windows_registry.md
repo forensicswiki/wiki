@@ -1308,7 +1308,7 @@ name</a></b></p></td>
 - [reglookup](http://projects.sentinelchicken.org/reglookup/) — "small
   command line utility for reading and querying Windows NT-based
   registries."
-- [regviewer](http://sourceforge.net/projects/regviewer/) — a tool for
+- [regviewer](https://sourceforge.net/projects/regviewer/) — a tool for
   looking at the registry.
 - [RegRipper](regripper.md) — "the fastest, easiest, and best
   tool for registry analysis in forensics examinations."

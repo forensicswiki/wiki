@@ -17,7 +17,7 @@ format that [Microsoft Office](microsoft_office.md) uses.
 
 There is a forensic open source application developed at sourceforge
 called [vinetto](vinetto.md) at
-<http://sourceforge.net/projects/vinetto> that can extract them. It does
+<https://sourceforge.net/projects/vinetto> that can extract them. It does
 require a python environment. Additionally, there are several other Java
 solutions based around the Jakarta project that is apart of Apache.
 Additional resources about thumbs.db can be found in a white paper at

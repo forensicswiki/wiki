@@ -27,10 +27,10 @@ various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
 
 - [OpenBSM](http://www.trustedbsd.org/openbsm.html), Open Source Basic
   Security Module (BSM) Audit Implementation
-- [linuxbsm](http://sourceforge.net/projects/linuxbsm/), The Linux Basic
+- [linuxbsm](https://sourceforge.net/projects/linuxbsm/), The Linux Basic
   Security Module; The Linux BSM is an auditing tool that aims to bring
   the capabilities of Sun's Solaris Basic Security Module to Linux.
-- [linuxbsm2](http://sourceforge.net/projects/linuxbsm2/), LinuxBSM-2;
+- [linuxbsm2](https://sourceforge.net/projects/linuxbsm2/), LinuxBSM-2;
   LinuxBSM-2 introduces auditing features in Linux kernel to achieve
   better security and keep an eye on system activities.
 - [linuxopenbsm](https://code.google.com/p/linuxopenbsm/), Linux Basic

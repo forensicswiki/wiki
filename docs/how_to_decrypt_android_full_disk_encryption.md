@@ -52,7 +52,7 @@ You will need the following tools before you get started:
 
 Optional:
 
-- crunch (http://sourceforge.net/projects/crunch-wordlist/)
+- crunch (https://sourceforge.net/projects/crunch-wordlist/)
 
 #### Locating the Encryption Key
 

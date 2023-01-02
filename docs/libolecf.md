@@ -23,5 +23,5 @@ The **libolecf** package contains the following tools:
 
 ## External Links
 
-- [libolecf project site](http://github.com/libyal/libolecf/)
+- [libolecf project site](https://github.com/libyal/libolecf/)
 

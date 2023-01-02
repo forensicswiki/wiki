@@ -158,7 +158,7 @@ Will encrypt and decrypt PDF files.
 <!-- -->
 
 QPDF
-<http://sourceforge.net/projects/qpdf/>
+<https://sourceforge.net/projects/qpdf/>
 
 Open source, cross-platform library and set of programs to inspect and
 manipulate PDF files. Packaged in recent Debian based distributions.
