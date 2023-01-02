@@ -12,8 +12,7 @@ The main goal of Cell Seizure is to organize and report various types of
 files. Following the same guidelines as other Paraben products, Cell
 Seizure is able to generate comprehensive [HTML](html.md)
 reports of acquired data. Moreover the software is able to retrieve
-[deleted files](deleted_files.md) and check for [file
-integrity](file_integrity.md).
+deleted files and check for file integrity.
 
 ## Advantages
 
@@ -39,7 +38,7 @@ acquire information from most models made by the following companies:
 * [Nokia](nokia.md)
 * Samsung
 * Siemens
-* [Sony-Ericcson](sony-ericcson.md)
+* [Sony-Ericcson](sony_ericsson.md)
 
 Also can acquire [GSM](gsm.md) SIM Cards.
 

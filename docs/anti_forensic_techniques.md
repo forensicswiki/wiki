@@ -11,7 +11,7 @@ to negatively affect the existence, amount and/or quality of evidence
 from a crime scene, or make the analysis and examination of evidence
 difficult or impossible to conduct
 
-This can include refusing to run when [debugging](debugging.md)
+This can include refusing to run when debugging
 mode is enabled, refusing to run when running inside of a [virtual
 machine](virtual_machine.md), or deliberately overwriting data.
 Although some anti-forensic tools have legitimate purposes, such as

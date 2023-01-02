@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Disk Imaging
-  -  Hardware
-  -  Tools
+  - Disk Imaging
+  - Commercial Hardware
+  - Tools
 ---
-Data Copy King is one disk image hardware,DoD data wipe hardware and
+Data Copy King is one disk image hardware, DoD data wipe hardware and
 also used as one professional forensic disk image tool.
 
 Data Copy King has build-in IDE and SATA ports and supports USB data
@@ -43,37 +43,23 @@ data copy solution but also strong disk wipe solution to wipe data on
 the unstbale sectors and slightly scratched drives. That's why Universal
 hard drive duplicators need also an add-on for disk wipe solutions.
 
-![](Hard_drive_duplicator_data_copy_king.jpg "Hard_drive_duplicator_data_copy_king.jpg")
-
 ## Universal hard drive duplicator
 
-1, 'Universal' indicates the storage medias from hard drives to flash
+1. 'Universal' indicates the storage medias from hard drives to flash
 drives, from good storage medias to storage medias with defects such as
 a lot of bad sectors, unstable heads or motor after head or platter
 swap, clicking drives but still detected in the bios or other kind of
 logical failure with detected status;
 
-2, 'Universal' suggests a combination of multiple Data Copy related
+2. 'Universal' suggests a combination of multiple Data Copy related
 solutions such as drive health checking, data clean or data destruction;
 
-3, 'Universal' means the wide use among different fields like data
+3. 'Universal' means the wide use among different fields like data
 recovery field, IT after sale field, Education and training field,
 Government and miliary field, computer forensics field, Financial
 department field etc;
 
-4, One important thing to mention about the 'Universal' here is the
+4. One important thing to mention about the 'Universal' here is the
 green concept used, no backdoor design, physical read only, 0 training
 required, friendly and nice interface, Energy-saving, cost effective,
 etc.
-
-## External Links
-
-- [Official website](http://www.disk-imager.com/)
-- [Product data
-  sheet](http://www.disk-imager.com/documents/DCK-hd-duplicator-datasheet.pdf)
-- [Review of the Data Copy
-  King](http://www.datatoolsreview.com/2010/03/data-copy-king/) by
-  DataToolsReview.
-- *[Universal Data Copy: An innovative imaging solution in disk
-  image](http://en.wikipedia.org/wiki/Universal_Data_Copy)*, Wikipedia
-  reference

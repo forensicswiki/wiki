@@ -69,7 +69,7 @@ Manager [click here](blackberry_forensics_backup_file_old.md).
 ## Opening Blackberry Backup Files (.ipd)\*
 
 The IPD file can be read using several commercial utilities, including
-the [MagicBerry IPD Reader](magicberry_ipd_reader.md) and the
+the MagicBerry IPD Reader and the
 [Amber Blackberry Converter](amber_blackberry_converter.md). The
 example below was created using version 6.7 of the latter.
 

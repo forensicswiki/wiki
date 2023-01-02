@@ -3,7 +3,7 @@ tags:
   - Commercial Software
 ---
 Forensic Explorer (**FEX**) is a commercial forensic software package
-distributed by [GetData Forensics](getdata_forensics.md).
+distributed by GetData Forensics.
 
 # Features
 
@@ -24,4 +24,4 @@ VMWare.
 
 ## External Links
 
-* [Forensic Explorer](http://www.forensicexplorer.com)
+* [Official Website](https://getdataforensics.com/product/forensic-explorer-fex/)

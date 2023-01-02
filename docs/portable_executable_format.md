@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - File Formats
 ---
 The **Portable Executable Format** is used by
 [Windows](windows.md) to store executable code. The format is
@@ -10,29 +10,25 @@ Interface (MUI) strings and EventLog messages.
 
 ## See Also
 
-- [Windows Event Log (evt)](windows_event_log_(evt).md)
-- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
+* [Windows Event Log (evt)](windows_event_log_(evt).md)
+* [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 
 ## External Links
 
-- [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
-- [PE and COFF
-  Specification](http://msdn.microsoft.com/en-us/library/windows/hardware/gg463119.aspx),
+* [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
+* [PE and COFF Specification](http://msdn.microsoft.com/en-us/library/windows/hardware/gg463119.aspx),
   by [Microsoft](microsoft.md)
-- [Blog about pefile](http://blog.dkbza.org/search/label/pefile), by
+* [Blog about pefile](http://blog.dkbza.org/search/label/pefile), by
   [Ero Carrera](ero_carrera.md)
-- [Executable (EXE) file
-  format](http://code.google.com/p/libexe/downloads/detail?name=Executable%20%28EXE%29%20file%20format.pdf),
-  by the [libexe project](libexe.md), October 2011
+* [Executable (EXE) file format](https://github.com/libyal/libexe/blob/main/documentation/Executable%20(EXE)%20file%20format.asciidoc),
+  by the libexe project, October 2011
 
 ## Tools
 
-- [pefile is a Python module to read and work with PE (Portable
-  Executable) files](http://code.google.com/p/pefile/), by [Ero
-  Carrera](ero_carrera.md)
+* [pefile is a Python module to read and work with PE (Portable Executable) files](https://github.com/erocarrera/pefile),
+  by [Ero Carrera](ero_carrera.md)
 
 ### Resources
 
-- [Resource Hacker](http://www.angusj.com/resourcehacker/), by [Angus
-  Johnson](angus_johnson.md)
-
+* [Resource Hacker](http://www.angusj.com/resourcehacker/),
+  by [Angus Johnson](angus_johnson.md)

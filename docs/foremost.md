@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Open Source Software
-  -  Data Carving
+  - Data Carving
+  - Linux
+  - Open Source Software
+  - Tools
 ---
 **Foremost** is a [Linux](linux.md) based program data for
 [recovering deleted files](recovering_deleted_data.md) and
@@ -30,12 +30,10 @@ Mikus](nick_mikus.md) joined the project.
 
 ## Spinoffs
 
-Foremost served as the basis for [Golden G. Richard
-III's](golden_g._richard_iii.md) [Scalpel](scalpel.md),
-a significantly faster program to also recover [deleted
-files](deleted_files.md). It has also inspired
-[tcpxtract](tcpxtract.md), a program for extracting file from
-network traffic.
+Foremost served as the basis for [Golden G. Richard III's](golden_g._richard_iii.md)
+[Scalpel](scalpel.md), a significantly faster program to also recover deleted
+files. It has also inspired [tcpxtract](tcpxtract.md), a program for extracting
+file from network traffic.
 
 Foremost's authors have recommended that practitioners use
 [Scalpel](scalpel.md) instead of Foremost.
@@ -47,5 +45,4 @@ smaller than 2GB.
 
 ## External Links
 
-- [SysAdmin Magazine article about
-  Foremost](http://www.samag.com/documents/s=8859/sam0309a/sam0309a.htm)
+* [SysAdmin Magazine article about Foremost](http://www.samag.com/documents/s=8859/sam0309a/sam0309a.htm)
