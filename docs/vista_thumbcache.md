@@ -110,7 +110,6 @@ Viewer](http://www.simplecarver.com/tool.php?toolname=WPG%20Viewer)
 
 ## Tools
 
-* [dmThumbs](http://www.dmthumbs.com/)
 * [FTK](ftk.md)
 * [Thumbs.db Viewer](http://www.janusware.com/fetch.php?page=412,2)
 * [Thumbcache-viewer](http://code.google.com/p/thumbcache-viewer/)

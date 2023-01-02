@@ -21,9 +21,9 @@ different purposes:
   connections. (User A connects to website Z through proxy server P; the
   packets appear to come from P, and not A).
 
-[Tor](tor.md) presents a SOCKS proxy interface to applications,
+Tor presents a SOCKS proxy interface to applications,
 so any application that supports SOCKS (versions 4, 4a and 5) can be
-anonymized using [Tor](tor.md).
+anonymized using Tor.
 
 ### HTTP proxies
 
@@ -195,5 +195,5 @@ to proxies.
 
 ## See Also
 
-- [Tor](tor.md)
+- Tor
 - [VPN](vpn.md)

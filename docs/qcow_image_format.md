@@ -1,11 +1,10 @@
 ---
 tags:
-  -  File Formats
-  -  Disk Image
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Disk Image
+  - File Formats
 ---
-[QEMU](qemu.md)** files to
-store a disk image.
+QEMU files to store a disk image.
 
 ## MIME types
 
@@ -25,14 +24,14 @@ The QCOW format is used to store storage media data, e.g. disk images.
 
 The QCOW image file consists of:
 
-- the file header
-- the L1 table (cluster aligned)
-- the reference count table (cluster aligned)
-- reference count blocks
-- snapshot headers (8-byte aligned on cluster boundary)
-- clusters containing:
-  - L2 tables
-  - storage media data
+* the file header
+* the L1 table (cluster aligned)
+* the reference count table (cluster aligned)
+* reference count blocks
+* snapshot headers (8-byte aligned on cluster boundary)
+* clusters containing:
+  * L2 tables
+  * storage media data
 
 The clusters are 512 bytes of size
 
@@ -42,24 +41,19 @@ The QCOW2 format supports optional AES encryption
 
 ## See Also
 
-- [Disk Images](disk_images.md)
+* [Disk Images](disk_images.md)
 
 ## External Links
 
-- [The QCOW Image
-  Format](http://people.gnome.org/~markmc/qcow-image-format-version-1.html),
-  by [Mark McLoughlin](mark_mcloughlin.md), June 2006
-- [The QCOW2 Image
-  Format](http://people.gnome.org/~markmc/qcow-image-format.html), by
-  [Mark McLoughlin](mark_mcloughlin.md), September 2008
-- [QEMU Copy-On-Write file
-  format](https://github.com/libyal/libqcow/blob/master/documentation/QEMU%20Copy-On-Write%20file%20format.asciidoc),
+* [The QCOW Image Format](http://www.burtonsys.com/qcow-image-format-version-1.html),
+  by Mark McLoughlin, June 2006
+* [The QCOW2 Image Format](http://www.burtonsys.com/qcow-image-format.html),
+  by Mark McLoughlin, September 2008
+* [QEMU Copy-On-Write file format](https://github.com/libyal/libqcow/blob/master/documentation/QEMU%20Copy-On-Write%20file%20format.asciidoc),
   by the [libqcow project](libqcow.md), December 2010
 
 ## Tools
 
-- [libqcow](libqcow.md)
-- [QCOW Data
-  Recovery](http://www.bitrecover.com/virtual-drive-recovery-software/) -
+* [libqcow](libqcow.md)
+* [QCOW Data Recovery](http://www.bitrecover.com/virtual-drive-recovery-software/) -
   Recover data from corrupt or crashed QCOW, QCOW2 virtual image files.
-

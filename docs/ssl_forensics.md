@@ -29,10 +29,8 @@ systems can perform such an attack:
 - Mera Systems [Sleek
   Buster](http://netbeholder.com/en/products/lawful_interception.html)
   (supports signed by a trusted CA forged certificates)
-- [E-Detective HTTPS/SSL Network Packet Forensics
-  Device](http://www.edecision4u.com/edecision4u/Products.html)
-- Expert Team [3i Tactical
-  System](http://www.expert-team.net/Products.html)
+- [E-Detective HTTPS/SSL Network Packet Forensics Device](https://www.edecision4u.com/PRODUCTS.html)
+- Expert Team [3i Tactical System](http://expert-team.net/home/product/)
 
 As well as some open-source tools:
 
@@ -53,9 +51,9 @@ The TLS protocol also leaks some significant information:
 
 ## [The Onion Router](the_onion_router.md)
 
-[Tor](tor.md) tunnels application data through TLS connections
+Tor tunnels application data through TLS connections
 and it is not possible to decrypt such connections by performing
-traditional *man-in-the-middle* attack. [Tor](tor.md) also sends
+traditional *man-in-the-middle* attack. Tor also sends
 application data in chunks to make it harder to guess exactly how many
 bytes users are communicating.
 

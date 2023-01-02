@@ -123,8 +123,7 @@ available.
   Appliance](http://www.codegreennetworks.com) - Passive monitoring and
   mandatory proxy mode. Easy to use Web GUI. Linux platform. Uses
   Stellent Outside In to access document content and metadata.
-- E-Detective [9](http://www.edecision4u.com/)
-  [10](http://www.digi-forensics.com/home.html)
+- E-Detective [9](https://www.edecision4u.com/)
 - [InfoWatch Traffic Monitor](http://www.infowatch.com)
 - Mera Systems [NetBeholder](http://netbeholder.com/)
 - MFI Soft [SORMovich](http://sormovich.ru/) (in Russian)
@@ -145,7 +144,7 @@ available.
   [13](http://www.wildpackets.com/solutions/it_solutions/network_forensics)
   [14](http://www.wildpackets.com/products/distributed_network_analysis/omnipeek_network_analyzer/forensics_search)
 - [Xplico](xplico.md) [15](http://www.xplico.org/)
-- Expert Team - 3i System [16](http://www.expert-team.net/)
+- Expert Team - 3i System [16](http://expert-team.net/home/)
 
 #### Flow-Based Systems
 

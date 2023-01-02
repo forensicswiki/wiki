@@ -19,8 +19,6 @@ components:
   interface (API) that enables developers to write applications
 - The software interface capabilities to support hardware add-ons
 
-(http://www.palm.com/us/company/pr/2000/092000.html, 2000)
-
 ## History
 
 Palm Computing was founded by Jeff Hawkins, Donna Dubinsky and Ed

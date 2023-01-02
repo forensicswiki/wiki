@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Commercial Hardware
+  - Mobile
 ---
 The Device Seizure Toolbox was designed as a collection of the items
 that would be needed in different scenarios for Device Seizure. The

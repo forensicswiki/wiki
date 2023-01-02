@@ -21,4 +21,4 @@ consolidate unlimited Lotus Notes archive database files.
 
 ## External Links
 
-* [Official Website](https://www.sysinfotools.com/recovery/merge-nsf-files.php)
+* [Official Website](https://sysinfotools.com/recovery/merge-nsf-files.php)
