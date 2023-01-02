@@ -51,7 +51,6 @@ Passive fingerprinters:
 
 - [NetworkMiner](networkminer.md)
 - [p0f](p0f.md)
-- [Satori](satori.md)
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 The Forensic Toolkit for SQLite includes three comprehensive software
 applications, The Forensic Browser for SQLite, Forensic Recovery for
@@ -8,8 +8,7 @@ SQLite and SQLite Forensic Explorer, which make recovering SQLite
 records from disk, image and database simpler and more intuitive. These
 tools are an invaluable addition to any investigators tool box.
 
-[Forensic Toolkit for
-SQLite](http://sandersonforensics.com/forum/content.php?195-Forensic-Toolkit-for-SQLite)
+[Forensic Toolkit for SQLite](https://sqliteforensictoolkit.com/sqlite-forensic-toolkit/)
 
 **The Forensic Browser for SQLite**
 
@@ -28,8 +27,6 @@ blobs) or can be used to decode files to 'import' the data in the the
 Browser (the latest extension decodes and imports tables from Microsoft
 ESE/EDB/JetBlue databases)
 
-[image:Kik_attachment_join.gif](image:kik_attachment_join.gif.md)
-
 **SQLite Forensic Explorer**
 
 SQLite Forensic Explorer is an investigative tool designed to show every
@@ -44,8 +41,6 @@ forensic investigators looking for deleted data (or a corrupt database)
 or to those who simply want to know more about the structure of a
 database
 
-[800px](image:sqlite_forensic_explorer.jpg.md)
-
 **SQLite Forensic Recovery**
 
 SQLite Recovery is a forensic tool to aid in the recovery of SQLite
@@ -53,5 +48,3 @@ databases, tables and records. SQLite Recovery can search a disk,
 volume, image or file for deleted SQLite databases. You can search for
 specific databases and tables 'described' by a signature or you can let
 SQLFR search for all databases (known and unknown) on a volume.
-
-[image:sqlite_recovery.jpg](image:sqlite_recovery.jpg.md)

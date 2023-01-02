@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Tools
-  -  Log Analysis
+  - Log Analysis
+  - Tools
 ---
 Although not strictly for forensic purposes, **visualization tools**
 such as the ones discussed here can be very useful for visualizing large
@@ -21,27 +21,21 @@ Advantage: Portable and lots of good documentation out there.
 Disadvantage: Programs are a bit verbose, and only offers about 1/2 the
 performance of C
 
-- [Graph Interface Library
-  (GINY)](http://csbi.sourceforge.net/index.html) - Java
+- [Graph Interface Library (GINY)](http://csbi.sourceforge.net/index.html) - Java
 - [HyperGraph](http://hypergraph.sourceforge.net/) - Hyperbolic trees,
   in Java. Check out the home page. Try clicking on the logo...
 - [InfoViz Toolkit](http://ivtk.sourceforge.net/) - Java, originally
-  developed at [INRA](inra.md).
-- [Jdigrah](https://jdigraph.dev.java.net/) - Java Directed Graphs.
-- [JGraphT](http://jgrapht.sourceforge.net/) - A Java visualization kit
+  developed at INRA.
+- [JGraphT](https://jgrapht.org/) - A Java visualization kit
   designed to be simple and extensible.
 - [Perfuse](http://prefuse.sourceforge.net/) - A Java-based toolkit for
   building interactive information visualization applications
 - [VisAD](http://www.ssec.wisc.edu/~billh/visad.html#intro) - A Java
   component library for interactive and collaborative visualization.
-- [Linguine
-  Maps](http://www.softwaresecretweapons.com/jspwiki/Wiki.jsp?page=LinguineMaps) -
+- [Linguine Maps](https://github.com/psimakov/linguine-maps) -
   An open-source Java-based system for visualizing software call maps.
-- [Zoomable Visual Transformation
-  Machine](http://zvtm.sourceforge.net/index.html) - Java. Originally
-  started at Xerox Research Europe.
-- [OpenMap](http://openmap.bbn.com/) A Java-based Geographical
-  Information System framework, from [BBN](bbn.md).
+- [Zoomable Visual Transformation Machine](https://zvtm.sourceforge.net/index.html) -
+  Java. Originally started at Xerox Research Europe.
 
 ### Python
 
@@ -53,7 +47,7 @@ doesn't work well with big data sets.
 - Python with Tk
 - Python with matplotlib
 - Python with wxWidgets (not installed by default)
-- [NetworkX](http://networkx.lanl.gov/), a pure Python network layout
+- [NetworkX](https://networkx.org/), a pure Python network layout
   program which uses matplotlib to do the actual graphing.
 
 ### Processing.org
@@ -72,8 +66,8 @@ systems built on JavaScript. Check out:
 
 - [processingjs.org](http://processingjs.org)
 - [Highcharts JS](http://highcharts.com/)
-- [D3 - Data Driven Documents](http://mbostock.github.com/d3/) - A
-  visualization library for the Web.
+- [D3 - Data Driven Documents](https://d3js.org/) - A visualization library for
+  the Web.
 - [KeyLines](http://key-lines.com) - Commercially licensed visualization
   library for networks/graphs.
 
@@ -104,17 +98,14 @@ Panda#D
   software platform for visualizing complex networks and integrating
   these with any type of attribute data.
 - [Graphviz](http://www.graphviz.org/) - Originally developed by the
-  [AT&T Information Visualization
-  Gorup](http://public.research.att.com/areas/visualization/), designed
+  AT&T Information Visualization Group, designed
   for drawing connected graphs of nodes and edges. Neato is a similar
   system but does layout based on a spring model. Can produce output as
-  [PostScript](postscript.md), [PNG](png.md),
-  [GIF](gif.md), or as an annotated graph file with the
-  locations of all of the objects — ideal for drawing in a GUI. Runs
+  PostScript, PNG, [GIF](gif.md), or as an annotated graph file with
+  the locations of all of the objects — ideal for drawing in a GUI. Runs
   from the command line on [Unix](unix.md),
   [Windows](windows.md) and [Mac](mac_os_x.md), although
-  there is also a [MacOS GUI
-  version](http://www.pixelglow.com/graphviz/).
+  there is also a [MacOS GUI version](http://www.pixelglow.com/graphviz/).
 - [NodeXL](http://www.codeplex.com/nodexl) - Free/open excel add-in
   extends the spreadsheet with network metrics and visualizations. (Only
   runs on Windows)
@@ -124,10 +115,9 @@ Panda#D
 
 <!-- -->
 
-- <http://projects.skewed.de/graph-tool/> - graph-tool is an efficient
-  python module for manipulation and statistical analysis of graphs
-  (a.k.a. networks).
-- <http://igraph.sourceforge.net/> - Integrates with R.
+- [graph-tool](https://graph-tool.skewed.de/) is an efficient Python module for
+   manipulation and statistical analysis of graphs (a.k.a. networks).
+- <https://igraph.org/> - Integrates with R.
 - <http://socnetv.sourceforge.net/> - "Social Networks Visualizer
   (SocNetV) is a flexible and user-friendly tool for the analysis and
   visualization of Social Networks."

@@ -19,18 +19,13 @@ modules:
   Repair](dfl-srp_usb3.0_for_seagate_firmware_repair.md)
 - [DFL-SRP USB3.0 For WD Firmware
   Repair](dfl-srp_usb3.0_for_wd_firmware_repair.md)
-- [DFL-SRP USB3.0 For Hitachi/IBM Firmware
-  Repair](dfl-srp_usb3.0_for_hitachi/ibm_firmware_repair.md)
 - [DFL-SRP USB3.0 For Samsung Firmware
   Repair](dfl-srp_usb3.0_for_samsung_firmware_repair.md)
-- [DFL-SRP USB3.0 For Toshiba/Fujitsu Firmware
-  Repair](dfl-srp_usb3.0_for_toshiba/fujitsu_firmware_repair.md)
+
+## See Also
+
+- [Dolphin_Data_Lab](dolphin_data_lab.md)
 
 ## External Links
 
-- [DFL-SRP All-In-One USB3.0 Data Recovery
-  Equipment](http://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Tools:Data_Recovery](tools:data_recovery.md)
+- [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](http://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)

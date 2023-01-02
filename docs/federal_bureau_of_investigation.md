@@ -11,7 +11,7 @@ Disambiguation on the
 
 Relevant to computer forensics are the current Primary National
 Priorities include Counterintelligence, Counterterrorism and Cyber Crime
-[FBI role in Cyber Crime](http://www.fbi.gov/cyberinvest/cyberhome.htm).
+[FBI role in Cyber Crime](https://www.fbi.gov/investigate/cyber).
 
 Ongoing missions include Public Corruption, Civil rights, White Collar
 Crime, Organized Crime, and Major thefts and Violent Crime.
@@ -55,7 +55,3 @@ and the [Foreign Intelligence Surveillance Act of 1978 or FISA (USC
 ## Books
 
 Diffie and Landau : Privacy on the Line (2007) MIT Press
-
-## Other References
-
-Source <http://www.fbi.gov/cyberinvest/cyberhome.htm>

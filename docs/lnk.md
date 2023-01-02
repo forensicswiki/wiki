@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
+  - File Formats
+  - Windows
 ---
 Microsoft Windows Shortcut Files
 
@@ -19,8 +19,7 @@ Understanding this file format can be extremely useful for an analyst,
 as not only are shortcut files employed from (at least) Windows 95
 through Windows 10, but the binary format is also used in the numbered
 streams within \*.automaticDestinations-ms and \*.customDestinations-ms
-[Jump Lists](jump_lists.md) files on [Windows
-7](windows_7.md) and later.
+[Jump Lists](jump_lists.md) files on [Windows 7](windows_7.md) and later.
 
 ## Metadata
 
@@ -69,32 +68,24 @@ Windows Shell commands:
 
 ## External Links
 
-- [The Meaning of Linkfiles In Forensic
-  Examinations](http://computerforensics.parsonage.co.uk/downloads/TheMeaningofLIFE.pdf),
+- [The Meaning of Linkfiles In Forensic Examinations](http://computerforensics.parsonage.co.uk/downloads/TheMeaningofLIFE.pdf),
   by [Harry Parsonage](harry_parsonage.md), September 2008
 - [MS-SHLLINK](http://msdn.microsoft.com/en-us/library/dd871305%28PROT.13%29.aspx)
-- [Windows Shortcut File (LNK)
-  format](https://github.com/libyal/liblnk/blob/master/documentation/Windows%20Shortcut%20File%20(LNK)%20format.asciidoc),
+- [Windows Shortcut File (LNK) format](https://github.com/libyal/liblnk/blob/master/documentation/Windows%20Shortcut%20File%20(LNK)%20format.asciidoc),
   by the [liblnk project](liblnk.md)
-- [Evidentiary Value of Link
-  Files](http://www.forensicfocus.com/link-file-evidentiary-value), by
+- [Evidentiary Value of Link Files](http://www.forensicfocus.com/link-file-evidentiary-value), by
   Nathan Weilbacher
-- [LNK Parsing: You’re doing it wrong
-  (I)](http://blog.0x01000000.org/2010/08/10/lnk-parsing-youre-doing-it-wrong-i/),
-  by [Jordi Sánchez López](jordi_sánchez_lópez.md), August 10,
-  2010
-- [LNK Parsing: You’re doing it wrong
-  (II)](http://blog.0x01000000.org/2010/08/13/lnk-parsing-youre-doing-it-wrong-ii/),
-  by [Jordi Sánchez López](jordi_sánchez_lópez.md), August 13,
-  2010
+- [LNK Parsing: You’re doing it wrong (I)](http://blog.0x01000000.org/2010/08/10/lnk-parsing-youre-doing-it-wrong-i/),
+  by Jordi Sánchez López, August 10, 2010
+- [LNK Parsing: You’re doing it wrong (II)](http://blog.0x01000000.org/2010/08/13/lnk-parsing-youre-doing-it-wrong-ii/),
+  by Jordi Sánchez López, August 13, 2010
 
 ## Tools
 
 ## Commercial tools
 
-- [Windows LNK Parsing Utility
-  (lp)](http://www.tzworks.net/prototype_page.php?proto_id=11), \$210.00
-  tool that can be run on Windows, Linux or Mac OS-X
+- [Windows LNK Parsing Utility (lp)](http://www.tzworks.net/prototype_page.php?proto_id=11),
+  \$210.00 tool that can be run on Windows, Linux or Mac OS-X
 
 ## Free (Non Open Source)
 
@@ -107,7 +98,5 @@ Windows Shell commands:
   that is capable of reading and reporting on Windows shortcut files
 - [liblnk](liblnk.md)
 - [lnk-parser](http://code.google.com/p/lnk-parser/)
-- [lnk parser in C# that parses all
-  structures](https://github.com/EricZimmerman/Lnk/)
+- [lnk parser in C# that parses all structures](https://github.com/EricZimmerman/Lnk/)
 - [LECmd command line tool](https://github.com/EricZimmerman/LECmd/)
-

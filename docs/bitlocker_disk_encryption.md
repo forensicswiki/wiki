@@ -103,49 +103,32 @@ opened on Windows 10 systems and later.
 ## See Also
 
 - [BitLocker: How to image](bitlocker:_how_to_image.md)
-- [Defeating Whole Disk Encryption](defeating_whole_disk_encryption.md)
 
 ## External Links
 
-- [Wikipedia entry on
-  BitLocker](http://en.wikipedia.org/wiki/BitLocker_Drive_Encryption)
-- [Accessing Bitlocker volumes from
-  linux](http://www.nvlabs.in/nvbit_bitlocker_white_paper.pdf), by Nitin
-  Kumar and Vipin Kumar, 2008
-- [Implementing BitLocker for Forensic
-  Analysis](http://jessekornblum.com/publications/di09.html), *Digital
-  Investigation*, by Jesse D. Kornblum, 2009
-- [BitLocker Drive Encryption (BDE) format
-  specification](https://github.com/libyal/libbde/blob/master/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
+- [Wikipedia entry on BitLocker](http://en.wikipedia.org/wiki/BitLocker_Drive_Encryption)
+- [Accessing Bitlocker volumes from linux](http://www.nvlabs.in/nvbit_bitlocker_white_paper.pdf),
+  by Nitin Kumar and Vipin Kumar, 2008
+- [Implementing BitLocker for Forensic Analysis](http://jessekornblum.com/publications/di09.html),
+  *Digital Investigation*, by Jesse D. Kornblum, 2009
+- [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/master/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
   by the [libbde project](libbde.md), March 2011
-- [Microsoft's Step by Step
-  Guide](http://technet2.microsoft.com/WindowsVista/en/library/c61f2a12-8ae6-4957-b031-97b4d762cf311033.mspx?mfr=true)
-- [Microsoft Technical
-  Overview](http://technet.microsoft.com/en-us/windowsvista/aa906017.aspx)
-- [An Introduction to Security in Windows
-  7](http://technet.microsoft.com/en-us/magazine/2009.05.win7.aspx)
-- [Microsoft
-  FAQ](http://www.microsoft.com/whdc/system/platform/hwsecurity/BitLockerFAQ.mspx)
-- [Microsoft Description of the Encryption
-  Algorithm](http://www.microsoft.com/downloads/details.aspx?FamilyID=131dae03-39ae-48be-a8d6-8b0034c92555&DisplayLang=en)
-- [Cold Boot Attacks, Full Disk Encryption, and
-  BitLocker](http://secude.com/htm/801/en/White_Paper%3A_Cold_Boot_Attacks.htm)
-- [What's New in
-  BitLocker](http://technet.microsoft.com/en-us/library/hh831412.aspx)
+- [Microsoft's Step by Step Guide](http://technet2.microsoft.com/WindowsVista/en/library/c61f2a12-8ae6-4957-b031-97b4d762cf311033.mspx?mfr=true)
+- [Microsoft Technical Overview](http://technet.microsoft.com/en-us/windowsvista/aa906017.aspx)
+- [An Introduction to Security in Windows 7](http://technet.microsoft.com/en-us/magazine/2009.05.win7.aspx)
+- [Microsoft FAQ](http://www.microsoft.com/whdc/system/platform/hwsecurity/BitLockerFAQ.mspx)
+- [Microsoft Description of the Encryption Algorithm](http://www.microsoft.com/downloads/details.aspx?FamilyID=131dae03-39ae-48be-a8d6-8b0034c92555&DisplayLang=en)
+- [Cold Boot Attacks, Full Disk Encryption, and BitLocker](http://secude.com/htm/801/en/White_Paper%3A_Cold_Boot_Attacks.htm)
+- [What's New in BitLocker](http://technet.microsoft.com/en-us/library/hh831412.aspx)
   in Windows 8
-- [Windows 10 Version 1511 gets new XTS-AES BitLocker encryption
-  algorithm](http://www.winbeta.org/news/windows-10-version-1511-gets-new-xts-aes-bitlocker-encryption-algorithm)
-- [What's new in
-  BitLocker](https://technet.microsoft.com/en-us/itpro/windows/whats-new/bitlocker)
+- [Windows 10 Version 1511 gets new XTS-AES BitLocker encryption algorithm](http://www.winbeta.org/news/windows-10-version-1511-gets-new-xts-aes-bitlocker-encryption-algorithm)
+- [What's new in BitLocker](https://technet.microsoft.com/en-us/itpro/windows/whats-new/bitlocker)
   Windows 10
 
 ## Tools
 
 - [dislocker](http://www.hsc.fr/ressources/outils/dislocker/)
 - [libbde](libbde.md)
-- [M3 Bitlocker Loader for
-  Mac](http://www.m3datarecovery.com/mac-bitlocker/)
-- [M3 Bitlocker
-  Recovery](http://www.m3datarecovery.com/bitlocker-drive-data-recovery/)
-- \[<http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx
-  Manage-bde.exe\], by [Microsoft](microsoft.md)
+- [M3 Bitlocker Loader for Mac](http://www.m3datarecovery.com/mac-bitlocker/)
+- [M3 Bitlocker Recovery](http://www.m3datarecovery.com/bitlocker-drive-data-recovery/)
+- [Manage-bde.exe](http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx)
