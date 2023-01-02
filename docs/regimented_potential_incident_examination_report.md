@@ -1,6 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Incident Response
   - GPL
   - Open Source Software
   - System Analysis
@@ -71,10 +72,6 @@ Contact: rapier.securitytool@gmail.com
   [Opera](opera.md)
 * Export entire registry
 * Search/retrieve files based on search criteria.
-
-## See Also
-
-* [List of Script Based Incident Response Tools](list_of_script_based_incident_response_tools.md)
 
 ## External Links
 

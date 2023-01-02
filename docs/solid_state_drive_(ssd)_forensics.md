@@ -64,7 +64,7 @@ drive, with the following features:
 ` year = 2011,`
 ` keywords = {erasing flash security ssd},`
 ` added-at = {2011-02-22T09:22:03.000+0100},`
-` url={`[`http://cseweb.ucsd.edu/users/m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](http://cseweb.ucsd.edu/users/m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
+` url={`[`https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
 ` biburl = {`[`http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
 
 } </bibtex> <bibtex> @article{bell2011,

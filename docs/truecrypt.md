@@ -89,6 +89,5 @@ timestamps](tcp_timestamps.md).
 
 - [Official website](http://www.truecrypt.org/)
 - [Version history](http://www.truecrypt.org/docs/?s=version-history)
-- [Identifying TrueCrypt Volumes For Fun (and
-  Profit?)](http://brimorlabs.blogspot.com/2014/01/identifying-truecrypt-volumes-for-fun.html),
-  by [Brian Moran](brian_moran.md), January 20, 2014
+- [Identifying TrueCrypt Volumes For Fun (and Profit?)](http://brimorlabs.blogspot.com/2014/01/identifying-truecrypt-volumes-for-fun.html),
+  by Brian Moran, January 20, 2014

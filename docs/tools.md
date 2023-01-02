@@ -432,7 +432,7 @@ program originally based on [foremost](foremost.md).
 
 # Enterprise Tools (Proactive Forensics)
 
-[LiveWire Investigator 2008](livewire_investigator_2008.md) by [WetStone Technologies](wetstone_technologies.md)
+[LiveWire Investigator 2008](livewire_investigator_2008.md) by [WetStone Technologies](wetstone_technologies_inc.md)
 <http://www.wetstonetech.com/f/livewire2008.html>
 
 <!-- -->
@@ -496,7 +496,7 @@ See: [Forensics Live CDs](live_cd.md)
 
 [Fernico ZRT](fernico_zrt.md)
 [ForensicMobile](forensicmobile.md)
-[LogiCube CellDEK](logicube_celldek.md)
+LogiCube CellDEK
 [MOBILedit!](mobiledit!.md)
 [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 <http://www.oxygen-forensic.com>

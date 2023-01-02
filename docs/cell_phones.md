@@ -53,7 +53,7 @@ investigators.
 
 * [Azimuth RadioProof™ Enclosures](azimuth_radioproof™_enclosures.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
-* [LogiCube CellDEK](logicube_celldek.md)
+* LogiCube CellDEK
 * [LogiCube CellDEK TEK](logicube_celldek_tek.md)
 * [\| Micro Systemation Field Version](https://www.msab.com/)
 * [Network Security Solutions Secure Tents](network_security_solutions_secure_tents.md)

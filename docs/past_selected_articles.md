@@ -365,11 +365,12 @@ information and a growing bibliography. One of the first entries is:
 ` year = 2011,`
 ` keywords = {erasing flash security ssd},`
 ` added-at = {2011-02-22T09:22:03.000+0100},`
-` url={`[`http://cseweb.ucsd.edu/users/m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](http://cseweb.ucsd.edu/users/m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
+` url={`[`https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
 ` biburl = {`[`http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
 
-} </bibtex> (Past selected articles [are archived
-here](past_selected_articles.md)
+} </bibtex>
+
+(Past selected articles [are archived here](past_selected_articles.md)
 
 </div>
 
@@ -384,26 +385,19 @@ Forensics Conference are now available online:
 
 Highlights include:
 
-- [The Sleuth Kit Overview and Automated Scanning
-  Features](http://www.basistech.com/conference/2010/osdf-slides/Carrier-SleuthKitOverview.pdf)
+- [The Sleuth Kit Overview and Automated Scanning Features](http://www.basistech.com/conference/2010/osdf-slides/Carrier-SleuthKitOverview.pdf)
   (Brian Carrier)
-- [Faster Response with Sleuth Kit and Other Open Source
-  Technologies](http://www.basistech.com/conference/2010/osdf-slides/Butler-Schiffer-Mandiant-Open-Source-Digital-Forensics.pdf)
+- [Faster Response with Sleuth Kit and Other Open Source Technologies](http://www.basistech.com/conference/2010/osdf-slides/Butler-Schiffer-Mandiant-Open-Source-Digital-Forensics.pdf)
   (Jamie Butler and Jason Shiffer)
-- [PTK Forensics after Two years: Past, Present and
-  Future](http://www.basistech.com/conference/2010/osdf-slides/Forte-PTK-Forensics.pdf)
+- [PTK Forensics after Two years: Past, Present and Future](http://www.basistech.com/conference/2010/osdf-slides/Forte-PTK-Forensics.pdf)
   (Dario Forte)
-- [Mac Forensic Tools Using Sleuth
-  Kit](http://www.basistech.com/conference/2010/osdf-slides/Joyce-Mac-Forensics-SleuthKit.pdf)
+- [Mac Forensic Tools Using Sleuth Kit](http://www.basistech.com/conference/2010/osdf-slides/Joyce-Mac-Forensics-SleuthKit.pdf)
   (Rob Joyce)
-- [Commando Forensics: What
-  Dongle?](http://www.basistech.com/conference/2010/osdf-slides/Altheide-Commando-Forensics.pdf)
+- [Commando Forensics: What Dongle?](http://www.basistech.com/conference/2010/osdf-slides/Altheide-Commando-Forensics.pdf)
   (Cory Altheide)
-- [AFF and AFF4: Where we are, where we are going, and why it matters to
-  you.](http://www.basistech.com/conference/2010/osdf-slides/Garfinkel-AFFLIB.pdf)
+- [AFF and AFF4: Where we are, where we are going, and why it matters to you.](http://www.basistech.com/conference/2010/osdf-slides/Garfinkel-AFFLIB.pdf)
   (Simson Garfinkel)
-- [Timeline Creation using Open-Source
-  Tools](http://www.basistech.com/conference/2010/osdf-slides/Carvey-Timelines.pdf)
+- [Timeline Creation using Open-Source Tools](http://www.basistech.com/conference/2010/osdf-slides/Carvey-Timelines.pdf)
   (Harlan Carvey)
 
 <small>MARCH-2010</small>

@@ -16,5 +16,4 @@ tags:
 
 ## External Links
 
-- <https://www.steganos.com/us/products/home-office/privacy-suite/overview/>
-- <https://www.steganos.com/us/products/home-office/privacy-suite/features/>
+- [Official website](https://www.steganos.com/en/)
