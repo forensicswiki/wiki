@@ -66,7 +66,7 @@ A common location for Amcache.hve is:
   by [Amanda C. F. Thomson](amanda_thomson.md), 2012
 - [Forensic Focus: Windows 8 Forensics - A First Look](http://forensicfocus.com/Forums/viewtopic/t=9604/),
   [Presentation](http://www.youtube.com/watch?v=uhCooEz9FQs&feature=youtu.be),
-  [Slides](http://www.forensicfocus.com/downloads/windows-8-forensics-josh-brunty.pdf),
+  [Slides](https://www.forensicfocus.com/downloads/windows-8-forensics-josh-brunty.pdf),
   by [Josh Brunty](josh_brunty.md), August 2012
 - [Windows 8: Tracking Opened Photos](http://dfstream.blogspot.ch/2013/03/windows-8-tracking-opened-photos.html),
   by Jason Hale, March 8, 2013

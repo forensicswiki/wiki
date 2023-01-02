@@ -19,22 +19,18 @@ belonging to the organization that owns the computer.
 
 # How it works
 
-The first time EFS is used [Windows](windows.md) creates a
-symmetric File Encryption Key (FEK). [Windows](windows.md) then
-creates an [RSA](rsa.md) public/private key pair that is used to
-encrypt the FEK. The private key is then encrypted with a hash of the
-user's passphrase and username. The FEK can also be encrypted with the
-organization's public key. Microsoft calls this second key a "Recovery
-Agent".
+The first time EFS is used Windows creates a symmetric File Encryption Key
+(FEK). Windows then creates an RSA public/private key pair that is used to
+encrypt the FEK. The private key is then encrypted with a hash of the user's
+passphrase and username. The FEK can also be encrypted with the organization's
+public key. Microsoft calls this second key a "Recovery Agent".
 
-In [Windows](windows.md) 2000 the computer's administrator is
-the default recovery agent and can decrypt all files encrypted with EFS.
+In Windows 2000 the computer's administrator is the default recovery agent and
+can decrypt all files encrypted with EFS.
 
-In [Windows](windows.md) XP and beyond there is no default
-recovery agent.
+In Windows XP and beyond there is no default recovery agent.
 
-EFS can be used in conjunction with [BitLocker](bitlocker.md) if
-desired.
+EFS can be used in conjunction with [BitLocker](bitlocker.md) if desired.
 
 # Recovering an EFS Key
 
@@ -58,4 +54,4 @@ In this case, you should get the private key first (by running *cipher
 
 # Other References
 
-( <http://www.beginningtoseethelight.org/efsrecovery>
+* <http://www.beginningtoseethelight.org/efsrecovery>

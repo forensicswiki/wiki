@@ -426,7 +426,7 @@ value:
 - [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](http://support.microsoft.com/kb/927521)
 - [Windows Hardware Dev Center Archive](https://msdn.microsoft.com/en-US/library/windows/hardware/dn550976)
 - [Windows Data Type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx)
-- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, 2008
 - [Microsoft Windows File System Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
   by Eric Huber, February 24, 2013
@@ -451,7 +451,7 @@ value:
 
 - [Lesson 3 – The Recycle Bin](http://www.cybersecurityinstitute.biz/downloads/INFO2.pdf),
   by Steve Hailey
-- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](http://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+- [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, January 22, 2008
 
 ### Malware/Rootkits

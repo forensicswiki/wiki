@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Bibliographies
+  - Bibliographies
 ---
 Named Entity Recognition (NER) is the process of identifying and
 extracted named entities such as People, Places, Things and Time from
@@ -23,15 +23,10 @@ NER that are relevant to current forensics practice and research.
 
 ## See Also
 
-- [Wikipedia's article on Named entity
-  recognition](http://en.wikipedia.org/wiki/Named_entity_recognition)
+- [Wikipedia's article on Named entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
 - US Patent 7299180 - Name entity extraction using language models
-- [NYU's Name/Entity Extraction Engine](http://nlp.cs.nyu.edu/ene)
+- [NYU's Name/Entity Extraction Engine](https://nlp.cs.nyu.edu/ene/)
 - DARPA's Global Autonomous Language Exploitation (GALE) program
-- [GATE - A General Architecture for Text
-  Engineering](http://gate.ac.uk/)
-  - [Information Extraction with GATE
-    (slides)](http://www.iula.upf.edu/materials/070919bontcheva.pdf)
-- [LingPipe - A Java libraries for linguistic analysis of human
-  language](http://alias-i.com/lingpipe/)
-
+- [GATE - A General Architecture for Text Engineering](http://gate.ac.uk/)
+- [Information Extraction with GATE (slides)](http://www.iula.upf.edu/materials/070919bontcheva.pdf)
+- [LingPipe - A Java libraries for linguistic analysis of human language](http://alias-i.com/lingpipe/)

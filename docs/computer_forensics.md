@@ -58,7 +58,7 @@ Equivalent or other perspectives on forensic profession:
 - [ACFEI - The Forensic Examiner
   Creed](http://www.acfei.com/about_acfei/creed/)
 - [Forensic Focus Webinar: Being Your Own Expert
-  Witness](http://www.forensicfocus.com/c/aid=103/webinars/2015/being-your-own-expert-witness/)
+  Witness](https://www.forensicfocus.com/c/aid=103/webinars/2015/being-your-own-expert-witness/)
 
 ## Terminology
 
