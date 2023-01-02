@@ -74,9 +74,6 @@ Network Appliance (Decru)
 
 <http://www.netapp.com/us/products/storage-security-systems/>
 
-<http://www.forensicswiki.org/images/6/6f/Securing_Storage_White_Paper.pdf>
-(Decru white paper)
-
 ## Software Solutions
 
 beCrypt
@@ -89,7 +86,7 @@ fixed and removable media.
 
 <!-- -->
 
-[BitLocker](bitlocker.md)
+[BitLocker](bitlocker_disk_encryption.md)
 Part of Windows Vista that uses [AES](aes.md) 128 or 256 bit
 encryption
 
@@ -170,7 +167,7 @@ Jetico BestCrypt
 <!-- -->
 
 [loop-AES](loop-aes.md)
-Transparent file system and [swap](swap.md) encryption for [Linux](linux.md)
+Transparent file system and swap encryption for [Linux](linux.md)
 using the loopback device and [AES](aes.md).
 
 <https://sourceforge.net/projects/loop-aes/>
@@ -178,7 +175,7 @@ using the loopback device and [AES](aes.md).
 <!-- -->
 
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md) or [dm-crypt](dm-crypt.md)
-Transparent file system and [swap](swap.md) encryption for [Linux](linux.md)
+Transparent file system and swap encryption for [Linux](linux.md)
 using the Linux 2.6 device mapper. Supports various [ciphers](ciphers.md) and
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 

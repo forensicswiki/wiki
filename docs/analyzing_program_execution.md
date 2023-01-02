@@ -83,4 +83,4 @@ will vary per product.
 - [It Is All About Program Execution](http://journeyintoir.blogspot.com/2014/01/it-is-all-about-program-execution.html),
   by Corey Harrell, January 14, 2014
 - [Know your Windows Processes or Die Trying](http://sysforensics.org/2014/01/know-your-windows-processes.html),
-  by [Patrick Olsen](patrick_olsen.md), January 18, 2014
+  by Patrick Olsen, January 18, 2014

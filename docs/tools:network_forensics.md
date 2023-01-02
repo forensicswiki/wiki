@@ -1,26 +1,21 @@
 ---
 tags:
-  -  Network Forensics
-  -  Tools
+  - Network Forensics
+  - Tools
 ---
 # Network Forensics Packages and Appliances
 
-[E-Detective](e-detective.md)
-<http://www.edecision4u.com/>
-
-<http://www.digi-forensics.com/home.html>
+[E-Detective](https://www.edecision4u.com/)
 
 <!-- -->
 
-[Burst](burst.md)
-<http://www.burstmedia.com/release/advertisers/geo_faq.htm>
+[Burst](http://www.burstmedia.com/release/advertisers/geo_faq.htm)
 
 Expensive [IP geolocation](ip_geolocation.md) service.
 
 <!-- -->
 
-[CapAnalysis](capanalysis.md)
-<http://www.capanalysis.net>
+[CapAnalysis](http://www.capanalysis.net)
 
 DEMO: <http://pcap.capanalysis.net>
 
@@ -368,8 +363,7 @@ G722, G729, G723, G726 and MSRTA
 
 <!-- -->
 
-[Expert Team - 3i System](expert_team_-_3i_system.md)
-<http://www.expert-team.net>
+[Expert Team - 3i System](http://expert-team.net/home/)
 
 Expert Team 3i System provides real-time data traffic reconstruction
 which allows raw data packet stream to be decoded, reassemble and

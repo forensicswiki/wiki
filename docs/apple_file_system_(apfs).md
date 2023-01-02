@@ -1,21 +1,18 @@
 ---
 tags:
-  -  File Systems
-  -  MacOS
+  - File Systems
+  - MacOS
 ---
-APFS, or Apple File System, is the file system designed by [Apple
-Computer](http://www.apple.com) to supersede [HFS+](hfs+.md) and
-take advantage of flash/SSD storage and native encryption support. APFS
-also introduced file system snapshots, support for sparse files, and
-greater time stamp granularity.
+APFS, or Apple File System, is the file system designed by [Apple](apple_inc.md)
+to supersede [HFS+](hfs+.md) and take advantage of flash/SSD storage and native
+encryption support. APFS also introduced file system snapshots, support for
+sparse files, and greater time stamp granularity.
 
 It was announced at the Apple Worldwide Developer Conference (WWDC) in
 2016 and is meant to be used with watchOS, iOS, tvOS, and macOS. A
 Developer Preview version was first released with macOS Sierra 10.12.
 APFS became the default file system with the release of macOS High
 Sierra 10.13 released to the public on September 25, 2017.
-
-
 
 ## Features
 
@@ -29,8 +26,6 @@ Max file size of 2<sup>63</sup> bytes was mantinted from
 - Sparse file support (more efficient empty space representation)
 - Fast directory sizing (more efficient total space computation of a
   directory)
-
-
 
 <CENTER>
 <TABLE Border=1 cellpadding=2 cellspacing=0 width=75%>
@@ -156,16 +151,9 @@ Yes (native)
 </table>
 </CENTER>
 
-
-
 ## External Links
 
-- [Apple File System Guide -
-  Introduction](https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html)
-- [Introducing Apple File
-  System](http://devstreaming.apple.com/videos/wwdc/2016/701q0pnn0ietcautcrv/701/701_introducing_apple_file_system.pdf)
-- [Slides from filesystem talk at MacSysAdmin 2016 by Rich
-  Trouton](https://derflounder.wordpress.com/2016/10/05/slides-from-the-whats-new-in-file-system-session-at-macsysadmin-2016/)
-- [Creating APFS volumes by Howard
-  Oakley](https://eclecticlight.co/2017/04/08/how-to-make-your-own-apfs-volume/)
-
+* [Apple File System Guide - Introduction](https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html)
+* [Introducing Apple File System](http://devstreaming.apple.com/videos/wwdc/2016/701q0pnn0ietcautcrv/701/701_introducing_apple_file_system.pdf)
+* [Slides from filesystem talk at MacSysAdmin 2016 by Rich Trouton](https://derflounder.wordpress.com/2016/10/05/slides-from-the-whats-new-in-file-system-session-at-macsysadmin-2016/)
+* [Creating APFS volumes by Howard Oakley](https://eclecticlight.co/2017/04/08/how-to-make-your-own-apfs-volume/)

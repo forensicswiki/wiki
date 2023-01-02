@@ -194,7 +194,7 @@ Claims to have a program that can read the "bad blocks" of Maxtor drives
 with proprietary commands.
 
 - [SysInfoTools Data
-  Recovery](https://www.sysinfotools.com/recovery/windows-data-recovery.php)
+  Recovery](https://sysinfotools.com/recovery/windows-data-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) provides best
@@ -251,7 +251,7 @@ lost, deleted or damaged partitions from drives on Windows OS.
 MiniTool Partition Recovery Freeware helps recover deleted, lost or
 damaged partitions logical drives and partitions on Windows.
 
-- [FAT Recovery](https://www.sysinfotools.com/recovery/fat-recovery.php)
+- [FAT Recovery](https://sysinfotools.com/recovery/fat-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) FAT Partition
@@ -260,7 +260,7 @@ partitions. It can successfully restore all types of data and files
 which you've lost due to accidental deletion/formatting and corruption.
 
 - [NTFS
-  Recovery](https://www.sysinfotools.com/recovery/ntfs-recovery.php)
+  Recovery](https://sysinfotools.com/recovery/ntfs-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) NTFS Partition
@@ -421,7 +421,7 @@ device files. Scalpel is filesystem-independent and will carve files
 from FATx, NTFS, ext2/3, or raw partitions.
 
 - [Photo
-  Recovery](https://www.sysinfotools.com/recovery/photo-recovery.php)
+  Recovery](https://sysinfotools.com/recovery/photo-recovery.php)
 
 
 SysInfotool Photo Recovery tool can recover lost and deleted images,
@@ -454,10 +454,6 @@ A successor to [CarvFs](carvfs.md) that includes a message bus
 and other features aimed specifically at effective use by computer
 forensic framework.
 
-- [midi-carver](https://greg-kennedy.com/wordpress/2010/12/16/midi-carver-a-data-carver-for-midi-files/)
-
-
-midi-carver is a data carver for MIDI files.
 
 - [PhotoRec](http://www.cgsecurity.org/wiki/PhotoRec)
 

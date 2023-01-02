@@ -1,12 +1,9 @@
 ---
 tags:
-  -  Papers
-  -  Research
+  - Papers
+  - Research
 ---
-White paper on Cisco IOS forensics:
+## Cisco IOS forensics
 
-- <http://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf>
-
-Slides:
-
-- <http://www.slideshare.net/tsudohnimh/fxs-cisco-ios-forensics-pdf-presentation>
+* [Developments in Cisco IOS Forensics](https://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf)
+  by Felix ‘FX’ Lindner, January 2008 

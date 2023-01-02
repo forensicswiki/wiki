@@ -29,4 +29,4 @@ attachments, internet headers and allow to save them in a new PST file.
 
 ## External Links
 
-* [Official Website](https://www.sysinfotools.com/recovery/dbx-to-pst-converter.php)
+* [Official Website](https://sysinfotools.com/recovery/dbx-to-pst-converter.php)

@@ -292,19 +292,15 @@ Value in bytes.</p></td>
 
 ## See Also
 
-- [bzip2](bzip2.md)
-- [cpio](cpio.md)
-- [tar](tar.md)
-- [xz](xz.md)
+* [bzip2](bzip2.md)
+* [cpio](cpio.md)
+* [tar](tar.md)
+* [xz](xz.md)
 
 ## External Links
 
-- [The gzip file format](http://www.gzip.org/format.txt), by the [gzip
-  project](http://www.gzip.org/)
-- [The gzip compression algorithm](http://www.gzip.org/algorithm.txt),
-  by the [gzip project](http://www.gzip.org/)
-- [RFC1952: GZIP file format
-  specification](http://tools.ietf.org/html/rfc1952), by
-  [IETF](ietf.md)
-- [Wikipedia: gzip](http://en.wikipedia.org/wiki/Gzip)
-
+* [GNU Gzip: documentation](https://www.gnu.org/software/gzip/manual/gzip.html),
+  by the [gzip project](https://www.gzip.org/)
+* [RFC1952: GZIP file format specification](https://www.ietf.org/rfc/rfc1952.txt),
+  by IETF
+* [Wikipedia: gzip](https://en.wikipedia.org/wiki/Gzip)
