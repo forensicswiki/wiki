@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - File Formats
 ---
 **hiberfil.sys** is the file used by default by Microsoft Windows to
 save the machine's state as part of the
@@ -46,35 +46,20 @@ from the multiple levels of slack space within them.
 
 ## External Links
 
-- [Sandman
-  Project](http://sandman.msuiche.net/docs/SandMan_Project.pdf), by
-  [Matthieu Suiche](matthieu_suiche.md), February 2008
-- [Windows hibernation file for fun &
-  profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
+* [Sandman Project](http://sandman.msuiche.net/docs/SandMan_Project.pdf),
+  by [Matthieu Suiche](matthieu_suiche.md), February 2008
+* [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
   by [Matthieu Suiche](matthieu_suiche.md)
-- [Enter SandMan](http://www.msuiche.net/pres/PacSec07-slides-0.4.pdf),
-  by [Nicolas Ruff](nicolas_ruff.md), [Matthieu
-  Suiche](matthieu_suiche.md)
-- [Hibernation File
-  Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
+* [Enter SandMan](http://www.msuiche.net/pres/PacSec07-slides-0.4.pdf),
+  by [Nicolas Ruff](nicolas_ruff.md), [Matthieu Suiche](matthieu_suiche.md)
+* [Hibernation File Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
   by [Peter Kleissner](peter_kleissner.md), 2009
-- [<http://jessekornblum.livejournal.com/254105.html>](http://jessekornblum.livejournal.com/254105.html),
-  by [Jesse Kornblum](jesse_kornblum.md), August 18, 2009
-- [Microsoft Hibernation
-  Files](http://code.google.com/p/volatility/wiki/HiberAddressSpace), by
+* [Microsoft Hibernation Files](http://code.google.com/p/volatility/wiki/HiberAddressSpace), by
   [the Volatility project](volatility_framework.md)
-- [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
-- [Parsing hibernation slack
-  space](https://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/)
+* [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
+* [Parsing hibernation slack space](https://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/)
 
 ### LZ XPRESS
 
-- [DIRECT2 Encoding
-  Algorithm](http://msdn.microsoft.com/en-us/library/ee441458.aspx), by
-  [Microsoft](microsoft.md)
-- [Few words about Microsofts interoperability
-  initiative](http://www.msuiche.net/2008/04/06/few-words-about-microsoft-interoperability-initiative/),
-  by [Matthieu Suiche](matthieu_suiche.md)
-- [C implementation of LZ
-  XPRESS](http://www.msuiche.net/codes/xpress.c.txt), by [Matthieu
-  Suiche](matthieu_suiche.md)
+* [DIRECT2 Encoding Algorithm](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-drsr/07815956-1375-4148-b33e-39c31f988ec8),
+  by [Microsoft](microsoft.md)

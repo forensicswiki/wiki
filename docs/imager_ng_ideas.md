@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Research
+  - Research
 ---
 This page is for discussing ideas regarding next-generation (NG) imaging
 tools.
@@ -90,7 +90,3 @@ Implied features for an image format
 - [Disk Imaging](disk_imaging.md)
 - [Memory Imaging](memory_imaging.md)
 - [Piecewise hashing](piecewise_hashing.md)
-- [Forensics File Formats](:category:forensics_file_formats.md)
-
-# External Links
-

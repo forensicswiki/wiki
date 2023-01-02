@@ -114,7 +114,7 @@ rare since the non-encrypted data is what undergoes analysis.
 * [Benchmarking Hard Disk Duplication Performance in Forensic Applications](http://www.tableau.com/pdf/en/Tableau_Forensic_Disk_Perf.pdf),
   by [Robert Botchek](robert_botchek.md)
 * [Feeling odd - Using new OS and CPU features to speed up large file copying](http://stealth.openwall.net/papers/odd.pdf),
-  by [Sebastian Krahmer](sebastian_krahmer.md), June 2012
+  by Sebastian Krahmer, June 2012
 
 ### Hash based imaging
 

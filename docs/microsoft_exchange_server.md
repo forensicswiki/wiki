@@ -53,10 +53,8 @@ various features that make Exchange Server an indispensable product are:
 
 ## Reference Links
 
-- [Extensible Storage Engine (ESE) Database File (EDB)
-  format](http://forensicswiki.org/wiki/Extensible_Storage_Engine_(ESE)_Database_File_(EDB)_format)
+- [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
 ## External Links
 
-- [Wikipedia on Microsoft Exchange
-  Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server)
+- [Wikipedia on Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server)

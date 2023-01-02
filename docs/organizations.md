@@ -15,8 +15,7 @@ tags:
 * [National Institute of Justice](http://www.ojp.usdoj.gov/nij/)
 * [National Center for Forensic Science](http://ncfs.ucf.edu/)
 * [National Institute of Standards and Technology, Computer Forensic Tool Testing](http://www.cftt.nist.gov/)
-* [Department of Defense Cyber Crime Center](http://www.dc3.mil/)
-* Department of [Defense Cybercrime Center](defense_cybercrime_center.md)
+* [Department of Defense Cyber Crime Center](defense_cybercrime_center.md)
 * [FBI Regional Computer Forensic Laboratory Program](http://www.rcfl.gov/)
 * [Air Force Office of Special Investigations](http://www.osi.af.mil/)
 

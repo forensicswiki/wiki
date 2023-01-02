@@ -65,7 +65,7 @@ documented 4-byte change to non-user created data. This modification
 exists for non-Windows OS disks, where Windows (FE) will write a Windows
 drive signature to the disk, although it is not shown to be consistent.
 Various issues with Linux Boot CDs can be compared
-[9](http://www.forensicswiki.org/wiki/Forensic_Linux_Live_CD_issues) ).
+[9](forensic_live_cd_issues.md) ).
 
 ## Resources:
 

@@ -117,11 +117,6 @@ from other tools.
 
 <!-- -->
 
-[Kntdd](kntdd.md)
-<http://www.gmgsystemsinc.com/knttools/>
-
-<!-- -->
-
 [Moonsols](moonsols.md): [DumpIt](dumpit.md)
 This utility is used to generate a physical memory dump of Windows
 machines. It works with both x86 (32-bits) and x64 (64-bits) machines.

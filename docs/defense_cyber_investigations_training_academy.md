@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Organization
 ---
 The **Defense Cyber Investigations Training Academy**, or **DCITA**, is
 the training division of the [Defense Cyber Crime
@@ -30,5 +30,4 @@ Conference.
 
 ## External Links
 
-- [Official website](http://www.dc3.mil/dcita/dcitaAbout.php)
-- [Course Listing](http://www.dc3.mil/dcita/dcitaCourseList.php)
+* [Official website](https://www.dc3.mil/)

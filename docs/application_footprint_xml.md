@@ -9,7 +9,7 @@ drive after it has been installed.
 
     <?xml version='1.0' encoding='ISO-8859-1'?>
     <application_footprint>
-    <metadata ns='http://forensicswiki.org/app_print/'
+    <metadata ns='https://forensics.wiki/app_print/'
               xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
               xmlns:dc='http://purl.org/dc/elements/1.1/'>
     <dc:creator>Your Organization Here</dc:creator>

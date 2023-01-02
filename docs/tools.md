@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools
+  - Tools
 ---
 This is an **overview of available tools** for forensic
 [investigators](investigator.md). Please click on the name of
@@ -17,8 +17,6 @@ any tool for more details.
 - [Memory Analysis](tools:memory_analysis.md)
 - [Network Forensics](tools:network_forensics.md)
 - [Tools:Logfile Analysis](tools:logfile_analysis.md)
-- [Anti-forensics tools](:category:anti-forensics_tools.md)
-- [Secure deletion](:category:secure_deletion.md)
 
 # Disk Analysis Tools
 
