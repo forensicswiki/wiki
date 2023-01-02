@@ -42,16 +42,14 @@ popular Linux distributions and Windows
 ### Windows
 
 Note to Windows users: If you’re downloading Snort binaries the only
-requirements are [WinPcap](winpcap.md) and
-[Barnyard](barnyard.md).
+requirements are WinPcap and Barnyard.
 
 ### \*nix
 
-[Libpcap](libpcap.md) In the field of computer network
-administration, [pcap](pcap.md) consists of an
-application programming interface (API) for capturing network traffic.
-Unix-like systems implement pcap in the libpcap library; Windows uses a
-port of libpcap known as [WinPcap](winpcap.md).
+Libpcap In the field of computer network administration, [pcap](pcap.md)
+consists of an application programming interface (API) for capturing network
+traffic. Unix-like systems implement pcap in the libpcap library; Windows uses
+a port of libpcap known as WinPcap.
 
 Monitoring software may use libpcap and/or WinPcap to capture packets
 traveling over a network. libpcap and WinPcap also support saving
@@ -61,7 +59,7 @@ Snort uses these files to read network traffic and analyze it.
 For more information and to download please visit
 [tcpdump](http://www.tcpdump.org/)
 
-#### [PCRE](pcre.md)
+#### PCRE
 
 Perl Compatible Regular Expressions (PCRE) is a regular expression C
 library inspired by Perl’s external interface, written by Philip Hazel.
@@ -69,16 +67,14 @@ The PCRE library is incorporated into a number of prominent open-source
 programs such as the Apache HTTP Server, the PHP and R scripting
 languages, and Snort.
 
-For more information and to download please visit
-[PCRE](http://www/pcre.org/)
+For more information and to download please visit [PCRE](http://www.pcre.org/).
 
 #### [Libdnet](libdnet.md)
 
 Libdnet is a generic networking API that provides access to several
 protocols.
 
-For more information and to download please visit
-[libdnet](http://www.libdnet.sourceforge.net/)
+For more information and to download please visit [libdnet](https://github.com/ofalk/libdnet)
 
 #### [Barnyard2](barnyard2.md)
 
@@ -91,22 +87,19 @@ stores them when the database temporarily cannot accept connections.
 For more information and to download please visit
 [barnyard2](http://www.securixlive.com/barnyard2/download.php/)
 
-#### [DAQ](daq.md)
+#### DAQ
 
 DAQ is the Data-Acquisition API that is necessary to use Snort version
 2.9.0 and above.
 
-For more information and to download please visit
-[DAQ](http://www.snort.org/snort-downloads)
+For more information and to download please visit [DAQ](https://snort.org/downloads)
+
+## See Also
+
+* [Network Forensics](network_forensics.md)
 
 ## External Links
 
-[Offical Snort Website](https://snort.org/)
-
-[Snort Documentation](https://snort.org/documents)
-
-[Build an IPS Virtual Appliance with
-Snort](https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/069/original/Snort-IPS-Tutorial.pdf)
-
-[Network Forensics](network_forensics.md)
-[Intrusion Detection](intrusion_detection.md)
+* [Offical Snort Website](https://snort.org/)
+* [Snort Documentation](https://snort.org/documents)
+* [Build an IPS Virtual Appliance with Snort](https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/069/original/Snort-IPS-Tutorial.pdf)

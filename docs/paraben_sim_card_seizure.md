@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
+  - Mobile
 ---
 Paraben has acquired SIMCon and has integrated it into SIM Card Seizure
 and Device Seizure. Recover deleted sms/text messages and perform

@@ -65,7 +65,7 @@ host, but will be analysed by a network sniffer). This will break the
 resulting TCP stream.
 
 - [Encryption](encryption.md): [VPN](vpn.md) tunnels,
-  SSH tunnels, [Tor](tor.md).
+  SSH tunnels, Tor.
 
 <!-- -->
 

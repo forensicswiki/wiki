@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
+  - Mobile
 ---
 Paraben's Device Seizure is a handheld forensics tool that provides
 deleted data recovery, full data dumps of certain cell phone models,

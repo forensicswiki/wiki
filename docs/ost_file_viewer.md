@@ -30,4 +30,4 @@ even save them in HTML format.
 
 ## External Links
 
-* [Official Website](https://www.sysinfotools.com/recovery/ost-file-viewer.php)
+* [Official Website](https://sysinfotools.com/recovery/ost-file-viewer.php)

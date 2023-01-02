@@ -20,21 +20,18 @@ files from the Microsoft .CAB, .MSI and .ZIP files, Unix/Linux .RPM and
 operating systems and packages are installed in virtual machines to
 facilitate collection of metadata and hashes from those installations.
 
-The RDS is typically used for [data
-reduction](data_reduction.md). That is, the set of hash codes is
-used as a filter to eliminate or highlight files from examination. Most
-frequently the RDS used as a list of *known goods* that can be safely
-suppressed. *This is an incorrect usage of the RDS and should be
-discouraged,* because the RDS does not indicate if a file is known good
-or bad, only that it is known. Indeed, the RDS has many files that were
-once throught to be good, but are now thought to be bad---for example,
-versions of Adobe Flash with known security vulnerabilities. Categories
-such as "Steganography" or "Keylogger" are assigned to allow filtering
-by need.
+The RDS is typically used for [data reduction](data_reduction.md). That is, the
+set of hash codes is used as a filter to eliminate or highlight files from
+examination. Most frequently the RDS used as a list of *known goods* that can
+be safely suppressed. *This is an incorrect usage of the RDS and should be
+discouraged,* because the RDS does not indicate if a file is known good or bad,
+only that it is known. Indeed, the RDS has many files that were once throught
+to be good, but are now thought to be bad---for example, versions of Adobe
+Flash with known security vulnerabilities. Categories such as "Steganography"
+or "Keylogger" are assigned to allow filtering by need.
 
-The NSRL is distributed online can be downloaded from the [NSRL
-website](http://www.nsrl.nist.gov/Downloads.htm). The most recent
-release was version 2.40 in March 2013.
+The NSRL is distributed online can be downloaded from the
+[NSRL website](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl/nsrl-download).
 
 ## RDS File Format
 
@@ -51,7 +48,7 @@ times per year. The latest version was dated 1 Mar 2013:
 ### Version 2.0
 
 Starting in version 2.0, the NSRL moved the hashes to the start of each
-line and dropped the [MD4](md4.md) hash. The file header:
+line and dropped the MD4 hash. The file header:
 
     "SHA-1","MD5","CRC32","FileName","FileSize","ProductCode","OpSystemCode","SpecialCode"
 

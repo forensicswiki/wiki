@@ -4,7 +4,7 @@ tags:
   - Data Recovery
 ---
 A forensic investigator uses techniques that can **recover bad data** in order 
-to recover data from a [disk drive](disk_drive.md) that is malfunctioning.
+to recover data from a [disk drive](hard_drive.md) that is malfunctioning.
 
 One popular program for recovering bad data is
 [SpinRite](spinrite.md). This program works by turning off the

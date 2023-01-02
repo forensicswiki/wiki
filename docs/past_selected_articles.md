@@ -349,7 +349,6 @@ objectives such as malware analysis.</i>
 `author="Gary Craig Kessler",`
 `year=2010,`
 `institution="Graduate School of Computer and Information Sciences Nova Southeastern University",`
-`url="`[`http://www.forensicswiki.org/wiki/File:Kessler_judges%26de.pdf`](http://www.forensicswiki.org/wiki/File:Kessler_judges%26de.pdf)`"`
 
 } </bibtex>
 
@@ -529,12 +528,12 @@ directions."
 
 <small>July-2009</small>
 
-**[Android Forensics](http://viaforensics.com/wpinstall/wp-content/uploads/2009/08/Android-Forensics-Andrew-Hoog-viaForensics.pdf)**
-Presentation on [Android Forensics](http://viaforensics.com/android) by
-Andrew Hoog, Mobile Forensics World 2009. Presentation gives an overview
-of Android, explains how to root phones, and extract data from a phone
-once you have superuser access. One of the complications is that Android
-phones (like the T-Mobile G1) use YAFFS2, a flash-specific file system.
+**Android Forensics**
+Presentation on Android Forensics by Andrew Hoog, Mobile Forensics World 2009.
+Presentation gives an overview of Android, explains how to root phones, and
+extract data from a phone once you have superuser access. One of the
+complications is that Android phones (like the T-Mobile G1) use YAFFS2, a
+flash-specific file system.
 
 <small>2009-June</small>
 

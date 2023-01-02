@@ -22,4 +22,4 @@ and in Outlook Express DBX format.
 
 ## External Links
 
-* [Official Website](https://www.sysinfotools.com/recovery/ost-file-recovery.php)
+* [Official Website](https://sysinfotools.com/recovery/ost-file-recovery.php)

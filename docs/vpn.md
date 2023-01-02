@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  Network Forensics
-  -  Encryption
+  - Anti-Forensics
+  - Encryption
+  - Network Forensics
 ---
 **VPN** (Virtual Private Network) is a class of technology that allows
 remote machines to interconnect by creating a virtual network layer, on
@@ -25,8 +25,7 @@ for different purposes:
 - Securing general Internet traffic in particularly insecure network
   usage settings (e.g. open wireless networks);
 - Encrypting all internet traffic to and from a home connection, to
-  prevent ISP packet shaping and/or surveillance (i.e. [Torrentfreedom
-  Privacy](http://www.torrentfreedom.net)).
+  prevent ISP packet shaping and/or surveillance.
 
 When used for Internet connectivity, VPN service also acts as a form of
 proxy and protects the user's real IP address from public display. As a
@@ -39,8 +38,7 @@ for ordinary internet users and criminals.
   used to track the activities of the user of those services, after the
   fact. However some commercial consumer-oriented VPN services
   specifically configure their servers not to retain any logfile
-  information of this type. Example are [Cryptocloud
-  VPN](cryptocloud_vpn.md) or [iVPN](ivpn.md).
+  information of this type. Example are Cryptocloud VPN or [iVPN](ivpn.md).
 
 <!-- -->
 
@@ -53,8 +51,5 @@ for ordinary internet users and criminals.
 
 ## See Also
 
-- [iVPN](ivpn.md)
-- [Cryptocloud VPN](cryptocloud_vpn.md)
-- [Tor](tor.md)
-- [Proxy server](proxy_server.md)
-
+* [iVPN](ivpn.md)
+* [Proxy server](proxy_server.md)
