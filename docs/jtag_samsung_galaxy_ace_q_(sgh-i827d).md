@@ -19,8 +19,7 @@ What you need to dump the NAND:
 2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
     be available).
 3.  A DC Power supply capable of supplying 3.8V/1.83A output. The power
-    supply used for this was an [U8002A DC Power
-    Supply](http://www.home.agilent.com/agilent/product.jspx?pn=u8002a&cc=CA&lc=eng%7CAgilent).
+    supply used for this was an U8002A DC Power Supply.
 
 ### NAND Dump Procedure
 

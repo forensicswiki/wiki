@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ## Samsung Galaxy Centura SCH-S738C
 
@@ -156,7 +156,3 @@ approximately 24 hours to download. This takes much longer the normal
 because the direct access plugin functions at a much slower speed then
 normal JTAG methods. Test have found using shorter large wires and no
 intermediate PCB board increases performance.
-
-### References
-
-- <http://www.riffbox.org/>

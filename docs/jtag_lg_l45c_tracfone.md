@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 ### LG - L45C -Optimus 2
 
@@ -107,4 +107,3 @@ approximately 30 minutes to download.
 ### References
 
 - <http://www.phonescoop.com/phones/phone.php?p=3308>
-- <http://www.riffbox.org/>

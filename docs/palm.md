@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 **Palm** is a common term for a small-scale (hand-held) computer that
 runs Palm's [PalmOS](palmos.md) software.
@@ -418,11 +418,4 @@ information easily and quickly.
 
 # References
 
-- <http://www.answers.com/topic/palm-os>
-- <http://www.palm.com/us/>
-- <http://www.palm-freeware.org/>
-- <http://en.wikipedia.org/wiki/Palm_(PDA)>
-- <http://www.encase.com>
-- <http://www.paraben.com>
-- <http://www.etech4sale.com/products/partinfo-id-116929.html>
-- <http://www.noodlebug.demon.co.uk/goingmob/orpilot.htm>
+* [Wikipedia: Palm (PDA)](https://en.wikipedia.org/wiki/Palm_(PDA))
