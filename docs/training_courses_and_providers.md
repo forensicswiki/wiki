@@ -131,38 +131,19 @@ Brunswick, GA</p></td>
 <td><p><a
 href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 </tr>
-<tr class="odd">
-<td><p>Free Training - Mobilyze Tool Training (MTT) Self-Paced</p></td>
-<td><p>Date and Location at your convenience.</p></td>
-<td><p><a
-href="https://www.blackbagtech.com/training/courses/mobilyze-tool-training.html">https://www.blackbagtech.com/training/courses/mobilyze-tool-training.html</a></p></td>
-</tr>
-<tr class="even">
-<td><p>Free Training - BlackLight Tool Training (BTT)</p></td>
-<td><p>Date and Locations listed at BlackBag Technologies, Inc.</p></td>
-<td><p><a
-href="https://www.blackbagtech.com/training/courses/blacklight-tool-training.html">https://www.blackbagtech.com/training/courses/blacklight-tool-training.html</a></p></td>
-</tr>
-<tr class="odd">
-<td><p>Essential Forensic Techniques (EFT) I and II Training</p></td>
-<td><p>Date and Locations listed at BlackBag Technologies, Inc.</p></td>
-<td><p>EFT I - <a
-href="https://www.blackbagtech.com/training/courses/essential-forensic-techniques-i-triage-and-analysis.html">https://www.blackbagtech.com/training/courses/essential-forensic-techniques-i-triage-and-analysis.html</a></p></td>
-</tr>
 </tbody>
 </table>
 
 ## Non-Commercial Training
 
-| Title                                                 | Website                                                                               | Limitation                                                                                                  |
-|-------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Defense Cyber Investigations Training Academy (DCITA) | <http://www.dc3.mil/dcita/dcitaAbout.php>                                             | Limited To Certain Roles within US Government Agencies[(1)](http://www.dc3.mil/dcita/dcitaRegistration.php) |
-| Federal Law Enforcement Training Center               | <https://www.fletc.gov/training-program/seized-computer-evidence-recovery-specialist> | Limited To Law Enforcement                                                                                  |
-| MSU National Forensics Training Center                | <http://www.security.cse.msstate.edu/ftc>                                             | Limited To Law Enforcement                                                                                  |
-| IACIS                                                 | <https://www.iacis.com/>                                                              | Limited To Law Enforcement and Affiliate Members of IACIS                                                   |
-| SEARCH                                                | <http://www.search.org/programs/hightech/courses/>                                    | Limited To Law Enforcement                                                                                  |
-| National White Collar Crime Center                    | <https://www.nw3c.org/>                                                               | Limited To Law Enforcement                                                                                  |
-|                                                       |                                                                                       |                                                                                                             |
+| Title                                                 | Website                                                                               | Limitation                                                 |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Defense Cyber Investigations Training Academy (DCITA) | <https://www.dc3.mil/Missions/Cyber-Training/DC3-Cyber-Training-Academy-CTA/>         | Limited To Certain Roles within US Government Agencies     | 
+| Federal Law Enforcement Training Center               | <https://www.fletc.gov/training-program/seized-computer-evidence-recovery-specialist> | Limited To Law Enforcement                                 |
+| IACIS                                                 | <https://www.iacis.com/>                                                              | Limited To Law Enforcement and Affiliate Members of IACIS  |
+| SEARCH                                                | <https://www.search.org/resources/cybercrime-investigative-resources/>                | Limited To Law Enforcement                                 |
+| National White Collar Crime Center                    | <https://www.nw3c.org/>                                                               | Limited To Law Enforcement                                 |
+|                                                       |                                                                                       |                                                            |
 
 ## Tool Vendor Training
 
@@ -171,24 +152,19 @@ href="https://www.blackbagtech.com/training/courses/essential-forensic-technique
 | AccessData (Forensic Tool Kit FTK)                                                                                 | <http://accessdata.com/training>                                                                            |            |
 | Amped Software (Image & Video forensics - FIVE; Authenticate)                                                      | <http://ampedsoftware.com/training>                                                                         |            |
 | ASR Data (SMART)                                                                                                   | <http://www.asrdata.com/forensic-training/overview/>                                                        |            |
-| ATC-NY (P2P Marshal, Mac Marshal)                                                                                  | <http://p2pmarshal.atc-nycorp.com/index.php/training> <http://macmarshal.atc-nycorp.com/index.php/training> |            |
-| BlackBag Technologies (Mac, Windows and Android Forensic Tools - BlackLight, MacQuisition, Mobilyze and SoftBlock) | <https://www.blackbagtech.com/training.html>                                                                |            |
-| Cellebrite (UFED)                                                                                                  | <http://www.cellebrite.com/mobile-forensic-training.html>                                                   |            |
+| Cellebrite (UFED)                                                                                                  | <https://cellebrite.com/en/academy-overview/>                                                               |            |
 | CPR Tools (Data Recovery)                                                                                          | <http://www.cprtools.net/training.php>                                                                      |            |
 | Digital Intelligence (FRED Forensics Platform)                                                                     | <http://www.digitalintelligence.com/forensictraining.php>                                                   |            |
 | e-fense, Inc. (Helix3 Pro)                                                                                         | <http://www.e-fense.com/training/index.php>                                                                 |            |
 | ElcomSoft Co.Ltd. (desktop, mobile and cloud forensics)                                                            | <https://www.elcomsoft.com/elcomsoft_trainings.html>                                                        |            |
-| Forward Discovery (Cellebrite, EnCase, Mac Forensics)                                                              | <http://www.forwarddiscovery.com/training>                                                                  |            |
-| Guidance Software (EnCase)                                                                                         | <http://www.guidancesoftware.com/computer-forensics-training-courses.htm>                                   |            |
-| Micro Systemation (XRY)                                                                                            | <http://www.msab.com/training/schedule>                                                                     |            |
-| Nuix (eDiscovery)                                                                                                  | <http://www.nuix.com.au/training>                                                                           |            |
+| OpenText (Guidance Software) (EnCase)                                                                              | <https://www.opentext.com/learning-services>                                                                |            |
+| Micro Systemation (XRY)                                                                                            | <https://www.msab.com/extract-courses/>                                                                     |            |
+| Nuix (eDiscovery)                                                                                                  | <https://www.nuix.com/training>                                                                             |            |
 | MailXaminer (Email Forensics Tool)                                                                                 | <http://www.mailxaminer.com/training.html>                                                                  |            |
 | Paraben (Paraben Suite)                                                                                            | <https://paraben.com/dfir-training-3/>                                                                      |            |
-| Software Analysis & Forensic Engineering (CodeSuite)                                                               | <http://www.safe-corp.com/>                                                                                 |            |
-| Sumuri, LLC. (Recon for MAC OS X)                                                                                  | <https://www.sumuri.com/training/recon-official-training-certification/>                                    |            |
-| Technology Pathways(ProDiscover)                                                                                   | <http://www.techpathways.com/DesktopDefault.aspx?tabindex=6&tabid=9>                                        |            |
+| Software Analysis & Forensic Engineering (CodeSuite)                                                               | <https://www.safe-corp.com/>                                                                                |            |
+| Sumuri, LLC. (Recon for MAC OS X)                                                                                  | <https://sumuri.com/mac-training/>                                                                          |            |
 | Volatility Labs (Volatility Framework)                                                                             | <http://volatility-labs.blogspot.com/search/label/training>                                                 |            |
-| WetStone Technologies (Gargoyle, Stego Suite, LiveWire Investigator)                                               | <https://www.wetstonetech.com/trainings.html>                                                               |            |
 | X-Ways Forensics (X-Ways Forensics)                                                                                | <http://www.x-ways.net/training/>                                                                           |            |
 |                                                                                                                    |                                                                                                             |            |
 
@@ -196,9 +172,7 @@ href="https://www.blackbagtech.com/training/courses/essential-forensic-technique
 
 | Title                                                                                        | Website                                                                  | Limitation |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------|
-| Applied Security (Digital Forensics Training)                                                | <http://www.appliedsec.com/forensics/training.html>                      |            |
 | BerlaCorp iOS and GPS Forensics Training                                                     | <http://www.berlacorp.com/training.html>                                 |            |
-| BlackBag Technologies, Inc. (Mac, Windows and Android Forensic Training)                     | <https://www.blackbagtech.com/training.html>                             |            |
 | Computer Forensic Training Center Online (CFTCO)                                             | <http://www.cftco.com/>                                                  |            |
 | CCE Bootcamp                                                                                 | <http://www.cce-bootcamp.com/>                                           |            |
 | Cyber Security Academy                                                                       | <http://www.cybersecurityacademy.com/>                                   |            |
@@ -206,7 +180,6 @@ href="https://www.blackbagtech.com/training/courses/essential-forensic-technique
 | e-fense Training                                                                             | <http://www.e-fense.com/training/index.php>                              |            |
 | eForensics Magazine                                                                          | <http://eforensicsmag.com/all-courses/>                                  |            |
 | Elvidence (Computer Forensics & Decryption - Law Enforcement Only)                           | <https://www.elvidence.com.au/>                                          |            |
-| Forward Discovery, Inc.                                                                      | <http://www.forwarddiscovery.com>                                        |            |
 | H-11 Digital Forensics                                                                       | <http://www.h11-digital-forensics.com/training/viewclasses.php>          |            |
 | High Tech Crime Institute                                                                    | <http://www.gohtci.com>                                                  |            |
 | Infosec Institute                                                                            | <http://www.infosecinstitute.com/courses/security_training_courses.html> |            |

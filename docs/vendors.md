@@ -24,11 +24,6 @@ tags:
 
 <!-- -->
 
-[BlackBag Technologies](blackbag_technologies.md)
-<http://www.blackbagtech.com/products/software.htm>
-
-<!-- -->
-
 [Computer Forensic Analysis](computer_forensic_analysis.md)
 <http://www.porcupine.org/forensics/>
 
@@ -118,13 +113,12 @@ SAFE Boot Disk - Forensically sound Windows boot disk
 
 <!-- -->
 
-[Tech Assist, Inc.](tech_assist,_inc..md)
+Tech Assist, Inc.
 <http://www.toolsthatwork.com/>
 
 <!-- -->
 
-[Technology Pathways](technology_pathways.md) - [Pro Discover](pro_discover.md)
-<http://www.techpathways.com/>
+[ProDiscover](prodiscover.md)
 
 <!-- -->
 

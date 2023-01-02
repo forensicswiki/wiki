@@ -229,7 +229,3 @@ This makes it usable natively on [Windows](windows.md) systems.
 ## Other Resources
 
 \[<http://pfuender.net/?p=80>\| Useful code-snippets for DDrescue\]
-
-\[<http://www.myfixlog.com/fix.php?fid=21>\| Tutorial for beginners that
-guides through the process of imaging a hard drive with DDrescue and
-mounting it in Windows, using free software.\]

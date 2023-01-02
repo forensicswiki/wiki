@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Malware
-  -  Articles that need to be expanded
+  - Malware
+  - Articles that need to be expanded
 ---
 *Win32.Shiz* (other name: *Trojan.PWS.Ibank*) is a malicious program
 designed for online banking fraud.
@@ -16,16 +16,3 @@ Flash drives or hard disk drives), URLs used to access online banking
 system and certificates stored in web-browsers. If online banking system
 uses access control lists based on IP addresses then Win32.Shiz can set
 up a SOCKS proxy-server on a compromised computer.
-
-## Links
-
-### In Russian
-
-- [Attacks on online banking
-  systems](http://www.nobunkum.ru/issue003/banker-attacks/)
-
-### English
-
-- [ThreatExpert
-  Report](http://www.threatexpert.com/report.aspx?md5=826c855b440611a944e25f072a533ea3)
-

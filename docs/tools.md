@@ -52,11 +52,6 @@ mobile and cloud data extraction.
 
 <!-- -->
 
-[Macintosh Forensic Software](macintosh_forensic_software.md) by [BlackBag Technologies, Inc.](blackbag_technologies_inc.md)
-<http://www.blackbagtech.com/software_mfs.html>
-
-<!-- -->
-
 [Mac Marshal](mac_marshal.md) by [ATC-NY](ATC-NY.md)
 <http://www.macmarshal.com/>
 
@@ -194,8 +189,7 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[Prodiscover](prodiscover.md) by [Techpathways](techpathways.md)
-<http://www.techpathways.com/ProDiscoverWindows.htm>
+[Prodiscover](prodiscover.md)
 
 <!-- -->
 
