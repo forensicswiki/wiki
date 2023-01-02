@@ -2,8 +2,7 @@
 tags:
   - No Category
 ---
-![](EPFB.png "EPFB.png") **[Elcomsoft Premium Forensic
-Bundle](https://www.elcomsoft.com/epfb.html) (EPFB)** is a pack of every
+**Elcomsoft Premium Forensic Bundle (EPFB)** is a pack of every
 forensic tool by [Elcomsoft](elcomsoft.md).
 [EPFB](https://www.elcomsoft.com/epfb.html) allows extracting data from
 mobile devices, unlocking documents, decrypting archives, breaking into
@@ -36,8 +35,7 @@ password recovery without requiring expensive hardware. We were the
 first to extract iOS backups from Apple iCloud, and the first to mix AMD
 and NVIDIA video cards for even faster attacks.
 
-[Elcomsoft Premium Forensic Bundle](https://www.elcomsoft.com/epfb.html)
-allows forensic and law enforcement officials to gain access to various
+EPFB allows forensic and law enforcement officials to gain access to various
 password-protected documents. The password recovery suite features the
 latest and most advanced cryptanalysis algorithms developed by ElcomSoft
 Research department. The mobile forensic tools included in the pack

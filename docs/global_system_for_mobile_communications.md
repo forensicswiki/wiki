@@ -6,21 +6,20 @@ The **Global Systems for Mobile Communications** (**GSM**), is a radio-based
 technology that allows [mobile phones](mobile_phones.md) to communicate. GSM is
 considered to be the world's most ubiquitous radio-based cellular technology,
 with 1.7 billion users as of March 2006. In the United States, carriers such as
-[T-Mobile](t-mobile.md) and [Cingular](cingular.md) utilize GSM technology for
-their cellular networks.
+T-Mobile and Cingular utilize GSM technology for their cellular networks.
 
 # GSM Cell Phone Providers
 
 ## USA
 
-* [Cingular](cingular.md)
-* [T-Mobile](t-mobile.md)
+* Cingular
+* T-Mobile
 
 ## Other
 
-* [T-Mobile](t-mobile.md)
-* [Vodafone](vodafone.md)
-* [O2](o2.md)
+* T-Mobile
+* Vodafone
+* O2
 
 # Operational Characteristics
 
@@ -40,11 +39,6 @@ four major bands, can only be used in certain parts of the world. More
 common are "tri-band" phones, which usually operate on 900/1800MHz and
 1900MHz. "Quad-band" phones support all four frequencies and can be used
 in all parts of the world.
-
-## Security and Encryption
-
-* [Security Standards](security_standards.md)
-* [Authentication Standards](authentication_standards.md)
 
 # GSM Forensics
 

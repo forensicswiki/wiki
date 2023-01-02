@@ -2,13 +2,11 @@
 tags:
   - File Formats
 ---
-The **Graphics Interchange Format** (**GIF**) (SM) format is a lossless
-[image format](image_format.md). GIF images use internal
-[LZW](lzw.md) compression to reduce file size. CompuServe
-created this format, which is a bitmap image format allowing 256
-different colors to be selected from a 24-bit color palette (RGB). GIF
-also allows for animations by sequencing through multiple GIF image data
-inside a single file.
+The **Graphics Interchange Format** (**GIF**) (SM) format is a lossless image
+format. GIF images use internal LZW compression to reduce file size. CompuServe
+created this format, which is a bitmap image format allowing 256 different
+colors to be selected from a 24-bit color palette (RGB). GIF also allows for
+animations by sequencing through multiple GIF image data inside a single file.
 
 "The Graphics Interchange Format(c) is the Copyright property of
 CompuServe Incorporated. GIF(sm) is a Service Mark property of
@@ -28,11 +26,10 @@ Common file extensions are .gif and .GIF
 
 ## Metadata
 
-GIF89a files can contain [metadata](metadata.md) in
-[text](text.md) format. GIF metadata is contained in sections
-identified as a Comment Extension, a Plain Text Extension, and an
-Application Extension. All extension sections begin with the Extension
-Introducer `21` (hex).
+GIF89a files can contain [metadata](metadata.md) in text format. GIF metadata
+is contained in sections identified as a Comment Extension, a Plain Text
+Extension, and an Application Extension. All extension sections begin with the
+Extension Introducer `21` (hex).
 
 Comment Extensions are optional and more than one may be present. They
 were designed to allow including comments about the graphic, credits,

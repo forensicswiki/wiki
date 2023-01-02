@@ -9,7 +9,7 @@ tags:
 A [Linux](linux.md) [Live CD](live_cd.md) intended for penetration testing.
 
 BackTrack is based on [Ubuntu](ubuntu.md), where early versions were based on
-[Slackware](slackware.md).
+Slackware.
 
 Recent releases come with a "forensics mode".
 
