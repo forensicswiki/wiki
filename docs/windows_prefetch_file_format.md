@@ -20,12 +20,12 @@ format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Pr
 
 ## Characteristics
 
-|                   |                                                                                                              |
-|-------------------|--------------------------------------------------------------------------------------------------------------|
-| <b>Integers</b>   | stored in little-endian                                                                                      |
-| <b>Strings</b>    | Stored as [UTF-16 little-endian](http://en.wikipedia.org/wiki/UTF-16/UCS-2) without a byte-order-mark (BOM). |
-| <b>Timestamps</b> | Stored as [Windows FILETIME](http://msdn2.microsoft.com/en-us/library/ms724284.aspx) in UTC.                 |
-|                   |                                                                                                              |
+|                |                                                                                                                             |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Integers**   | stored in little-endian                                                                                                     |
+| **Strings**    | Stored as [UTF-16 little-endian](http://en.wikipedia.org/wiki/UTF-16/UCS-2) without a byte-order-mark (BOM).                |
+| **Timestamps** | Stored as [Windows FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) in UTC. |
+|                |                                                                                                                             |
 
 ## File header
 
@@ -409,8 +409,7 @@ volume information – version 23.
 
 This sub section can contain NTFS file references.
 
-For more information see [Windows Prefetch File (PF)
-format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
+For more information see [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
 
 ### Sub section F - Directory strings
 
@@ -435,6 +434,5 @@ been seen. It is currently assumed that this is unused remnant data.
 
 ## External Links
 
-* [Windows Prefetch File (PF)
-  format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
-  by the [libssca project](libssca.md)
+* [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
+  by the libssca project

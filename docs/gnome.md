@@ -1,25 +1,24 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Open Source Software
-  -  Desktop Environments
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Desktop Environments
+  - Linux
+  - Open Source Software
+  - Tools
 ---
 GNOME is a desktop environment and graphical user interface that runs on
 top of, commonly a Linux/Unix-style, operating system.
 
-## GVFS
+## GVfs
 
-GVFS is the virtual file system for the GNOME desktop.
+GVfs is the virtual file system for the GNOME desktop.
 
-The GVFS metadata can be analyzed to determine connected removable media
+The GVfs metadata can be analyzed to determine connected removable media
 and its content. This data is commonly found in:
 
     .local/share/gvfs-metadata/
 
 ## External Links
 
-- [Wikipedia: GNOME](http://en.wikipedia.org/wiki/GNOME_desktop)
-- [Wikipedia: GVFS](http://en.wikipedia.org/wiki/GVFS)
-- [Examining the Gnome](http://www.handmadeology.com/wp-content/uploads/2010/09/gnome.jpg)
+* [Wikipedia: GNOME](https://en.wikipedia.org/wiki/GNOME)
+* [Wikipedia: GVfs](https://en.wikipedia.org/wiki/GVfs)

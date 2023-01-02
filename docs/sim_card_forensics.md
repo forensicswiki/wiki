@@ -54,7 +54,6 @@ Acquire [SIM Card](sim_cards.md) and analyze the following:
 
 Wiki Links
 
-- [ForensicSIM](forensicsim.md)
 - [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
 - [SIMiFOR](simifor.md)
 - [SIMIS](simis.md)
