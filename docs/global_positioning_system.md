@@ -13,7 +13,7 @@ have expanded their capabilities and features as the technology has
 improved. Some of the most popular GPS devices today are made by
 [TomTom](http://www.TomTom.com). Some of the other GPS manufacturers
 include [Garmin](http://www.garmin.com) and
-[Magellan](http://www.magellangps.com).
+[Magellan](www.magellangps.com).
 
 ### TomTom
 
@@ -105,15 +105,12 @@ had 16 days of trip data stored to memory.
 
 ### Magellan
 
-Magellan GPS units also connect to a PC via a USB cable. The [Magellan
-Roadmate
-1400](http://www.magellangps.com/products/product.asp?segID=354&prodID=2053)
-unit tested runs a version of Windows CE. The operating system did not
-appear to be tailored to the specific unit and had options included in
-the menus that were not available (e.g. backup and restore functionality
-via a SD memory card slot that did not exist). Upon connecting the unit
-to a PC, it will mount as a Mass Storage Unit when and if it is
-recognized.
+Magellan GPS units also connect to a PC via a USB cable. The Magellan Roadmate
+1400 unit tested runs a version of Windows CE. The operating system did not
+appear to be tailored to the specific unit and had options included in the
+menus that were not available (e.g. backup and restore functionality via a SD
+memory card slot that did not exist). Upon connecting the unit to a PC, it will
+mount as a Mass Storage Unit when and if it is recognized.
 
 Files that may contain useful information when opened in a text editor:
 
@@ -135,16 +132,12 @@ Files that may contain useful information when opened in a text editor:
     TGUSERA.dat, there is little structure here. Unfortunately, only
     City and State may be listed here.
 
-Magellan provides
-[VantagePoint](http://www.magellangps.com/products/map.asp?PRODID=1903)
-software to view map and waypoint data. In order to use this software,
-the Magellan unit must be powered on prior to connecting it to a PC. It
-is unknown how useful the VantagePoint software is in collecting data as
-the software would not recognize the Roadmate 1400 unit. VantagePoint
-also did not support the .dat or .cfg files stored on the unit. [Google
-Earth](http://earth.google.com/) also supports Magellan units via its
-import feature. Earth lists Explorist and Serial as available import
-options.
+Magellan provides VantagePoint software to view map and waypoint data. In order
+to use this software, the Magellan unit must be powered on prior to connecting
+it to a PC. It is unknown how useful the VantagePoint software is in collecting
+data as the software would not recognize the Roadmate 1400 unit. VantagePoint
+also did not support the .dat or .cfg files stored on the unit. [Google Earth](https://earth.google.com/web/)
+also supports Magellan units via its import feature. Earth lists Explorist and Serial as available import options.
 
 ### Digital Camera Images with GPS Information
 
@@ -160,32 +153,15 @@ scrolling through the images.
 
 ### Cell Phones with GPS
 
-Some recent cell phones (e.g. a [Motorola EZX
-phone](http://wiki.openezx.org) such as the Motorola A780) have a
-built-in GPS receiver and navigation software. This software might
-record the paths travelled (and the date/time), which can be very useful
-in forensic investigations.
+Some recent cell phones (e.g. a [Motorola EZX phone](http://wiki.openezx.org)
+such as the Motorola A780) have a built-in GPS receiver and navigation
+software. This software might record the paths travelled (and the date/time),
+which can be very useful in forensic investigations.
+
+## See Also
+
+* [Parabens Device Seizure](paraben_device_seizure.md)
 
 ## External Links
 
-- [GPSForensics.org - A communitiy dedicated to GPS device
-  forensics](http://www.gpsforensics.org)
-
-<!-- -->
-
-- [Wikipedia:
-  GPS](http://en.wikipedia.org/wiki/Global_Positioning_System)
-
-<!-- -->
-
-- [Paraben's Device
-  Seizure](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=405)
-
-<!-- -->
-
-- [TomTology2 by Forensic Navigation](http://www.forensicnavigation.com)
-
-<!-- -->
-
-- [Blackthorn \| GPS
-  Forensics](http://www.berlacorp.com/blackthorn.html)
+* [Wikipedia: Global Positioning System](https://en.wikipedia.org/wiki/Global_Positioning_System)

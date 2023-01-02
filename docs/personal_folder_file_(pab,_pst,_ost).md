@@ -9,19 +9,18 @@ tags:
 
 Three different types of the PFF are known:
 
-- The **Personal Address Book (PAB)**, which contains the address book
+* The **Personal Address Book (PAB)**, which contains the address book
   of contacts. These files have the extension **.pab**.
-- The **Personal Storage Table (PST)**, which contains items like
+* The **Personal Storage Table (PST)**, which contains items like
   e-mails, appointments, tasks, notes, etc. and is used as current and
   archived mailbox files. These files have the extension **.pst**. The
   PST format is also referred to as the **Personal Folder File (PFF)**
   format.
-- The **Offline Storage Table (OST)**, which contains items like
+* The **Offline Storage Table (OST)**, which contains items like
   e-mails, appointments, tasks, notes, etc. and is used as off line
-  mailbox files in conjunction with [Microsoft](microsoft.md)
-  [Exchange](exchange.md). These files have the extension
-  **.ost**. The OST format is also referred to as the **Offline Folder
-  File (OFF)** format.
+  mailbox files in conjunction with [Microsoft Exchange](microsoft_exchange_server.md).
+  These files have the extension **.ost**. The OST format is also referred to
+  as the **Offline Folder File (OFF)** format.
 
 The underlying file format of these files is the same of which the
 actual name is unknown but has been dubbed the **Personal Folder File
@@ -32,7 +31,7 @@ actual name is unknown but has been dubbed the **Personal Folder File
 The actual mime type of the PFF format is unspecified however some
 sources claim the following MIME types apply to this [file format](file_formats.md):
 
-- application/vnd.ms-outlook (for PST files)
+* application/vnd.ms-outlook (for PST files)
 
 ## File signature
 
@@ -163,37 +162,33 @@ inaccessibility.
 
 ## Also see
 
-- [libpff](libpff.md)
-- [libpst](libpst.md)
+* [libpff](libpff.md)
+* [libpst](libpst.md)
 
 ## External Links
 
-- [outlook.pst — format of MS Outlook .pst
-  file](http://www.five-ten-sg.com/libpst/rn01re05.html), by the [libpst
-  project](libpst.md)
-- [Personal Folder File format
-  specifications](https://googledrive.com/host/0B3fBvzttpiiScU9qcG5ScEZKZE0/Personal%20Folder%20File%20(PFF)%20format.pdf),
+* [outlook.pst — format of MS Outlook .pst file](http://www.five-ten-sg.com/libpst/rn01re05.html),
+  by the [libpst project](libpst.md)
+* [Personal Folder File format specifications](https://github.com/libyal/libpff/blob/main/documentation/Personal%20Folder%20File%20(PFF)%20format.asciidoc),
   by the [libpff project](libpff.md)
-- [MAPI
-  definitions](https://googledrive.com/host/0B3fBvzttpiiSRlR1QkU5Vk43ZWs/MAPI%20definitions.pdf),
-  by the [libpff project](libpff.md)
-- \[<http://msdn.microsoft.com/en-us/library/ff385210(v=office.12>).aspx
-  MS-PST: Outlook Personal Folders (.pst) File Format\], by
-  [Microsoft](microsoft.md)
+* [MAPI definitions](https://github.com/libyal/libfmapi/blob/main/documentation/MAPI%20definitions.asciidoc),
+  by the libfmapi project
+* [MS-PST: Outlook Personal Folders (.pst) File Format](http://msdn.microsoft.com/en-us/library/ff385210(v=office.12>).aspx),
+  by [Microsoft](microsoft.md)
 
 ### Tools
 
-- [Aid4Mail](aid4mail.md)
-- [libpff](libpff.md)
-- [libpst](libpst.md)
-- Microsoft Exchange Client
-- Microsoft Outlook
-- [Free OST File Viewer](http://datahelp.in/ost/viewer.html)
-- [Free PST File Viewer](http://datahelp.in/pst/viewer.html)
-- [Free PST Email Viewer](http://www.bitrecover.com/free/pst-viewer/)
-- MVCOM
-- [MailXaminer](mailxaminer.md)
-- [Outlook PST Viewer](outlook_pst_viewer.md)
-- [Pst file viewer](pst_file_viewer.md)
-- PST Scanner
-- Windows Messaging
+* [Aid4Mail](aid4mail.md)
+* [libpff](libpff.md)
+* [libpst](libpst.md)
+* Microsoft Exchange Client
+* Microsoft Outlook
+* [Free OST File Viewer](http://datahelp.in/ost/viewer.html)
+* [Free PST File Viewer](http://datahelp.in/pst/viewer.html)
+* [Free PST Email Viewer](http://www.bitrecover.com/free/pst-viewer/)
+* MVCOM
+* [MailXaminer](mailxaminer.md)
+* [Outlook PST Viewer](outlook_pst_viewer.md)
+* [Pst file viewer](pst_file_viewer.md)
+* PST Scanner
+* Windows Messaging

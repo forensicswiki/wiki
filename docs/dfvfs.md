@@ -23,11 +23,11 @@ The information below is based of version 20221207.
 
 * [Encase image file format](encase_image_file_format.md) or EWF (EWF-E01,
   EWF-Ex01, EWF-S01) using [libewf](libewf.md)
-* Mac OS disk image using [libmodi](libmodi.md)
+* Mac OS disk image using libmod
   * Sparse bundle disk image
   * Sparse disk image
   * Universal Disk Image Format (UDIF) image
-* Parallels Hard Disk image format version 2 using [libphdi](libphdi.md)
+* Parallels Hard Disk image format version 2 using libphdi
 * [QCOW Image Format](qcow_image_format.md) or QCOW using
   [libqcow](libqcow.md)
   * currently no differential image support
@@ -43,13 +43,13 @@ The information below is based of version 20221207.
 
 * [Apple Partition Map](apm.md) or APM using [The Sleuth Kit](the_sleuth_kit.md) and
   [pytsk](pytsk.md)
-* Apple File System or APFS container version 2 using [libfsapfs](libfsapfs.md)
+* Apple File System or APFS container version 2 using libfsapfs
 * [BitLocker Disk Encryption](bitlocker_disk_encryption.md) or BDE using
   [libbde](libbde.md)
 * Core Storage (CS) including [FileVault Disk
   Encryption](filevault_disk_encryption.md) or FVDE, or FileVault 2 using
   [libfvde](libfvde.md)
-* [GPT](gpt.md) using [libvsgpt](libvsgpt) with fallback to
+* [GPT](gpt.md) using libvsgpt with fallback to
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) or
   Linux LVM using [libvslvm](libvslvm.md)
@@ -63,14 +63,14 @@ The information below is based of version 20221207.
 
 ### File systems
 
-* Apple File System or APFS version 2 using [libfsapfs](libfsapfs.md)
+* Apple File System or APFS version 2 using libfsapfs
 * [Extended File System (ext)](extended_file_system_(ext).md) version 2, 3, 4
-  using [libfsext](libfsext.md) with fallback to
+  using libfsext with fallback to
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [FAT-12](fat.md), FAT-16, FAT-32 and exFAT using
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md) with
-  fallback to [libfsfat](libfsfat.md)
-* [HFS+, HFSX](hfs+.md) using [libfshfs](libfshfs.md) with fallback to
+  fallback to libfsfat
+* [HFS+, HFSX](hfs+.md) using libfshfs with fallback to
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * ISO-9660 version 1 using [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [New Technology File System](new_technology_file_system_(ntfs).md) or NTFS
@@ -78,7 +78,7 @@ The information below is based of version 20221207.
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [Unix File System](unix_file_system_(ufs).md) or UFS version 1, 2 using
   [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
-* XFS version 4, 5 using [libfsxfs](libfsxfs.md)
+* XFS version 4, 5 using libfsxfs
 
 ## History
 

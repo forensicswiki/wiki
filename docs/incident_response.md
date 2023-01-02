@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Incident Response
+  - Incident Response
 ---
 Incident Response is a set of procedures for an investigator to examine
 a computer security incident. This process involves figuring out what
@@ -35,74 +35,52 @@ install the program on multiple computers, gather data from all of them,
 and then view the results in the aggregate. Finding the victim or
 victims can be easier if they stand out from the crowd.
 
-## See Also
-
-- Obsolete: [List of Script Based Incident Response
-  Tools](list_of_script_based_incident_response_tools.md)
-
 ## External Links
 
-- [Preservation of Fragile Digital Evidence by First
-  Responders](http://dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
+* [Preservation of Fragile Digital Evidence by First Responders](http://dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
   by [Jesse Kornblum](jesse_kornblum.md), DFRWS 2002
-- [Journey to the Centre of the
-  Breach](https://labs.mwrinfosecurity.com/system/assets/131/original/Journey-to-the-Centre-of-the-Breach.pdf),
+* [Journey to the Centre of the Breach](https://labs.mwrinfosecurity.com/system/assets/131/original/Journey-to-the-Centre-of-the-Breach.pdf),
   by Ben Downton, June 2, 2010
-- [Keeping Focus During an
-  Incident](http://blog.handlerdiaries.com/?p=325), by jackcr, January
+* [Keeping Focus During an Incident](http://blog.handlerdiaries.com/?p=325), by jackcr, January
   17, 2014
 
 ### Emergency Response
 
-- [Addressing emergency response provider fatigue in emergency response
-  preparedness, management, policy making, and
-  research](http://www.mdchhs.com/sites/default/files/JEM-9-5-02-CHHS.pdf),
+* [Addressing emergency response provider fatigue in emergency response preparedness, management, policy making, and research](http://www.mdchhs.com/sites/default/files/JEM-9-5-02-CHHS.pdf),
   Clark J. Lee, JD, September 2011
 
 ### Kill Chain
 
-- [Intelligence-Driven Computer Network Defense Informed by Analysis of
-  Adversary Campaigns and Intrusion Kill
-  Chains](http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf),
+* [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf),
   by Eric M. Hutchins, Michael J. Clopperty, Rohan M. Amin, March 2011
-- [Stalking the kill
-  chain](http://www.emc.com/collateral/hardware/solution-overview/h11154-stalking-the-kill-chain-so.pdf),
+* [Stalking the kill chain](http://www.emc.com/collateral/hardware/solution-overview/h11154-stalking-the-kill-chain-so.pdf),
   by RSA
-- [APT Kill chain - Part 1 :
-  Definition](http://blog.cassidiancybersecurity.com/post/2014/04/APT-Kill-chain-Part-1-%3A-Definition-Reconnaissance-phase),
+* [APT Kill chain - Part 1 : Definition](http://blog.cassidiancybersecurity.com/post/2014/04/APT-Kill-chain-Part-1-%3A-Definition-Reconnaissance-phase),
   by Cedric Pernet, April 28, 2014
-- [APT Kill chain - Part 2 : Global
-  view](http://blog.cassidiancybersecurity.com/post/2014/04/APT-Kill-chain-Part-2-%3A-Global-view),
+* [APT Kill chain - Part 2 : Global view](http://blog.cassidiancybersecurity.com/post/2014/04/APT-Kill-chain-Part-2-%3A-Global-view),
   by Cedric Pernet, May 7, 2014
-- [APT Kill chain - Part 3:
-  Reconnaissance](http://blog.cassidiancybersecurity.com/post/2014/05/APT-Kill-chain-Part-3-%3A-Reconnaissance),
+* [APT Kill chain - Part 3: Reconnaissance](http://blog.cassidiancybersecurity.com/post/2014/05/APT-Kill-chain-Part-3-%3A-Reconnaissance),
   by Cedric Pernet, May 23, 2014
-- [APT Kill chain - Part 4 : Initial
-  compromise](http://blog.cassidiancybersecurity.com/post/2014/06/APT-Kill-chain-Part-4-%3A-Initial-compromise),
+* [APT Kill chain - Part 4 : Initial compromise](http://blog.cassidiancybersecurity.com/post/2014/06/APT-Kill-chain-Part-4-%3A-Initial-compromise),
   by Cedric Pernet, June 20, 2014
-- [APT Kill chain - Part 5 : Access Strenghtening and lateral
-  movements](http://blog.airbuscybersecurity.com/post/2014/11/APT-Kill-chain-Part-5-%3A-Access-Strenghtening-and-lateral-movements),
+* [APT Kill chain - Part 5 : Access Strenghtening and lateral movements](http://blog.airbuscybersecurity.com/post/2014/11/APT-Kill-chain-Part-5-%3A-Access-Strenghtening-and-lateral-movements),
   by Cedric Pernet, December 2, 2014
 
 ### Incident Lifecycle
 
-- [Expanding the Expanded Incident
-  Lifecycle](http://www.itsmsolutions.com/newsletters/DITYvol5iss7.htm),
+* [Expanding the Expanded Incident Lifecycle](http://www.itsmsolutions.com/newsletters/DITYvol5iss7.htm),
   by Janet Kuhn, February 18, 2009
-- [Incident
-  lifecycle](https://www.enisa.europa.eu/activities/cert/support/incident-management/browsable/workflows/incident-lifecycle),
+* [Incident lifecycle](https://www.enisa.europa.eu/activities/cert/support/incident-management/browsable/workflows/incident-lifecycle),
   by [ENISA](enisa.md)
 
 ### Intrusion Analysis
 
-- [The Diamond Model of Intrusion
-  Analysis](http://www.threatconnect.com/files/uploaded_files/The_Diamond_Model_of_Intrusion_Analysis.pdf),
+* [The Diamond Model of Intrusion Analysis](http://www.threatconnect.com/files/uploaded_files/The_Diamond_Model_of_Intrusion_Analysis.pdf),
   by Sergio Caltagirone, Andrew Pendergast, Christopher Betz
 
 ### Product related
 
-- [Palantir: A Framework for Collaborative Incident Response and
-  Investigation](http://middleware.internet2.edu/idtrust/2009/papers/05-khurana-palantir.pdf),
+* [Palantir: A Framework for Collaborative Incident Response and Investigation](http://middleware.internet2.edu/idtrust/2009/papers/05-khurana-palantir.pdf),
   Himanshu Khurana, Jim Basney, Mehedi Bakht, Mike Freemon, Von Welch,
   Randy Butler, April 2009
 
@@ -110,22 +88,19 @@ victims can be easier if they stand out from the crowd.
 
 ### Individual Tools
 
-- [Sysinternals
-  Suite](http://technet.microsoft.com/en-us/sysinternals/0e18b180-9b7a-4c49-8120-c47c5a693683.aspx)
+* [Sysinternals Suite](http://technet.microsoft.com/en-us/sysinternals/0e18b180-9b7a-4c49-8120-c47c5a693683.aspx)
 
 ### Script Based Tools
 
-- [First Responder's Evidence Disk
-  (fred)](first_responder's_evidence_disk.md)
-- [Microsoft COFEE](cofee.md)
-- [Windows Forensic Toolchest
-  (wft)](windows_forensic_toolchest.md)
-- [RAPIER](regimented_potential_incident_examination_report.md)
+* [First Responder's Evidence Disk (fred)](first_responder's_evidence_disk.md)
+* [Microsoft COFEE](cofee.md)
+* [Windows Forensic Toolchest (wft)](windows_forensic_toolchest.md)
+* [RAPIER](regimented_potential_incident_examination_report.md)
 
 ### Agent Based Tools
 
-- [GRR](grr.md)
-- [Mandiant First Response](first_response.md)
+* [GRR](grr.md)
+* Mandiant First Response (FIR), supersceded by FireEye agent
 
 ## Books
 
@@ -134,4 +109,3 @@ There are several books available that discuss incident response. For
 Recovery](http://www.windows-ir.com/)* by [Harlan
 Carvey](harlan_carvey.md) is an excellent introduction to
 possible scenarios and how to respond to them.
-
