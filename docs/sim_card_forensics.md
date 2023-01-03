@@ -6,81 +6,81 @@ tags:
 
 Acquire [SIM Card](sim_cards.md) and analyze the following:
 
-- ICCID - Integrated Circuit Card Identification
-- MSISDN - Subscriber phone number
-- IMSI - International Mobile Subscriber Identity
-- LND - Last Dialed numbers
-- [LOCI](loci.md) - Location Information
-- LAI - Location Area Identifier
-- ADN - Abbreviated Dialing Numbers (Contacts)
-- FDN - Fixed Dialing Numbers (Provider entered Numbers)
-- SMS - (Short Messages)
-- SMSP - Text Message parameters
-- SMSS - Text message status
-- Phase - Phase ID
-- SST - SIM Service table
-- LP - Preferred languages variable
-- SPN - Service Provider name
-- EXT1 - Dialing Extension
-- EXT2 - Dialing Extension
-- GID1 - Groups
-- GID2 - Groups
-- CBMI - Preferred network messages
-- PUCT - Calls per unit
-- ACM - Accumulated Call Meter
-- ACMmax - Call Limit
-- HPLMNSP - HPLMN search period
-- PLMNsel - PLMN selector
-- FPLMN - Forbidden PLMNs
-- CCP - Capability configuration parameter
-- ACC - Access control class
-- BCCH - Broadcast control channels
-- Kc - Ciphering Key
+* ICCID - Integrated Circuit Card Identification
+* MSISDN - Subscriber phone number
+* IMSI - International Mobile Subscriber Identity
+* LND - Last Dialed numbers
+* [LOCI](loci.md) - Location Information
+* LAI - Location Area Identifier
+* ADN - Abbreviated Dialing Numbers (Contacts)
+* FDN - Fixed Dialing Numbers (Provider entered Numbers)
+* SMS - (Short Messages)
+* SMSP - Text Message parameters
+* SMSS - Text message status
+* Phase - Phase ID
+* SST - SIM Service table
+* LP - Preferred languages variable
+* SPN - Service Provider name
+* EXT1 - Dialing Extension
+* EXT2 - Dialing Extension
+* GID1 - Groups
+* GID2 - Groups
+* CBMI - Preferred network messages
+* PUCT - Calls per unit
+* ACM - Accumulated Call Meter
+* ACMmax - Call Limit
+* HPLMNSP - HPLMN search period
+* PLMNsel - PLMN selector
+* FPLMN - Forbidden PLMNs
+* CCP - Capability configuration parameter
+* ACC - Access control class
+* BCCH - Broadcast control channels
+* Kc - Ciphering Key
 
 ## Hardware
 
 ### Serial
 
-- [MicroDrive 120](microdrive_120.md) with SmartCard Adapter
+* [MicroDrive 120](microdrive_120.md) with SmartCard Adapter
 
 ### USB
 
-- [ACR 38T](acr_38t.md)
-- [SCR3311](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr3311.html)
-- [SCR335](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr335.html)
-- [Dekart SIM Card reader](http://www.dekart.com/products/hardware/sim_card_reader/)
+* [ACR 38T](acr_38t.md)
+* [SCR3311](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr3311.html)
+* [SCR335](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr335.html)
+* [Dekart SIM Card reader](https://www.dekart.com/buy_sim_reader)
 
 ## Software
 
 Wiki Links
 
-- [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
-- [SIMiFOR](simifor.md)
-- [SIMIS](simis.md)
-- [SIM Explorer](sim_explorer.md)
+* [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
+* [SIMiFOR](simifor.md)
+* [SIMIS](simis.md)
+* [SIM Explorer](sim_explorer.md)
 
 External Links
 
-- [SIMiFOR](http://www.forensicts.co.uk)
-- [SIMcon](http://www.simcon.no/)
-- [USIM Detective](http://www.quantaq.com/usimdetective.htm)
-- [SIM Explorer](http://www.dekart.com/products/card_management/sim_explorer/),
+* [SIMiFOR](http://www.forensicts.co.uk)
+* [SIMcon](http://www.simcon.no/)
+* [USIM Detective](http://www.quantaq.com/usimdetective.htm)
+* [Pro Data Doctor](http://www.data-recovery-mobile-phone.com/)
+* [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
+* [SIM Manager](http://www.txsystems.com/sim-manager.html)
+* [SIMQuery](http://vidstrom.net/otools/simquery/)
+* [SimScan](http://users.net.yu/~dejan/)
+* [SIMSpy](http://www.nobbi.com/download.htm)
+* [UnDeleteSMS](http://vidstrom.net/stools/undeletesms/)
+* [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)
+* [Dekart SIM Explorer](https://www.dekart.com/products/card_management/sim_explorer),
   [video demo of SIM Explorer](http://www.youtube.com/watch?v=P5dJS7g1o_c)
-- [Pro Data Doctor](http://www.data-recovery-mobile-phone.com/)
-- [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
-- [SIM Manager](http://www.txsystems.com/sim-manager.html)
-- [SIMQuery](http://vidstrom.net/otools/simquery/)
-- [SimScan](http://users.net.yu/~dejan/)
-- [SIMSpy](http://www.nobbi.com/download.htm)
-- [UnDeleteSMS](http://vidstrom.net/stools/undeletesms/)
-- [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)
-- [Dekart SIM Manager](http://www.dekart.com/products/card_management/sim_manager/),
+* [Dekart SIM Manager](https://www.dekart.com/products/card_management/sim_manager),
   [video tutorial on how to recover a deleted SMS](http://www.youtube.com/watch?v=VaBaqZiNW4U)
-- [Cell Phone SIM Card Spy](http://www.brickhousesecurity.com/cellphone-spy-simcardreader.html)
-- [SIM Card Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
-- [Sim Card Reader Software](http://www.download3000.com/download_46892.html)
-- [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
-- [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
+* [Cell Phone SIM Card Spy](http://www.brickhousesecurity.com/cellphone-spy-simcardreader.html)
+* [SIM Card Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
+* [Sim Card Reader Software](http://www.download3000.com/download_46892.html)
+* [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
+* [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
 
 ## Recovering SIM Card Data
 

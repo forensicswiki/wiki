@@ -38,10 +38,10 @@ There are multiple families of executable files:
 ### MZ, PE/COFF
 
 * [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
-* [Microsoft PE and COFF Specification](http://msdn.microsoft.com/en-us/windows/hardware/gg463119.aspx)
-* [Peering Inside the PE: A Tour of the Win32 Portable Executable File Format](http://msdn.microsoft.com/en-us/magazine/ms809762.aspx),
+* [Microsoft PE and COFF Specification](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
+* [Peering Inside the PE: A Tour of the Win32 Portable Executable File Format](https://learn.microsoft.com/en-us/previous-versions/ms809762(v=msdn.10)),
   by Matt Pietrek, March 1994
-* [An In-Depth Look into the Win32 Portable Executable File Format](http://msdn.microsoft.com/en-us/magazine/cc301805.aspx),
+* [An In-Depth Look into the Win32 Portable Executable File Format](https://learn.microsoft.com/en-us/archive/msdn-magazine/2002/february/inside-windows-win32-portable-executable-file-format-in-detail),
   by Matt Pietrek, February 2002
 * [MZ, PE-COFF executable file format (EXE)](https://github.com/libyal/libexe/blob/main/documentation/Executable%20(EXE)%20file%20format.asciidoc),
   by the libexe project, October 2011
@@ -53,9 +53,9 @@ There are multiple families of executable files:
 * [Wikipedia: Program database](http://en.wikipedia.org/wiki/Program_database)
 * [Matching Debug Information](http://www.debuginfo.com/articles/debuginfomatch.html),
   by debuginfo.com
-* [Public and Private Symbols](http://msdn.microsoft.com/en-us/library/ff553493(v=vs.85>).aspx),
+* [Public and Private Symbols](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/public-and-private-symbols),
   by [Microsoft](microsoft.md)
-* [DbgHelp Structures](http://msdn.microsoft.com/en-us/library/windows/desktop/ms679293(v=vs.85>).aspx),
+* [DbgHelp Structures](https://learn.microsoft.com/en-us/windows/win32/debug/dbghelp-structures),
   by [Microsoft](microsoft.md)
 * [Internet Archive: Microsoft Symbol and Type Information](http://web.archive.org/web/20070915060650/http://www.x86.org/ftp/manuals/tools/sym.pdf),
   by [Microsoft](microsoft.md)
@@ -69,7 +69,7 @@ There are multiple families of executable files:
 
 ### Minidump
 
-* [MSDN: MINIDUMP_HEADER structure](http://msdn.microsoft.com/en-us/library/windows/desktop/ms680378(v=vs.85>).aspx)
+* [MSDN: MINIDUMP_HEADER structure](https://learn.microsoft.com/en-us/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_header)
 * [minidump_format.h](https://chromium.googlesource.com/breakpad/breakpad/+/master/src/google_breakpad/common/minidump_format.h),
   by Google, 2006
 * [Parsing Windows Minidumps](http://moyix.blogspot.com/2008/05/parsing-windows-minidumps.html),

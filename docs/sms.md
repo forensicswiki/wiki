@@ -41,6 +41,6 @@ will be overwritten with the contents of the new message.
 
 ## External Links
 
-- [An entry level tutorial that explains the details behind the SMS recovery process](http://www.dekart.com/howto/howto_sim_reader/how_to_recover_a_deleted_sms/)
+- [An entry level tutorial that explains the details behind the SMS recovery process](https://www.dekart.com/howto/howto_sim_reader/how_to_recover_sms)
 - [A video tutorial that shows how an SMS can be recovered](http://www.youtube.com/watch?v=VaBaqZiNW4U),
   but does not go into the low-level details of the process.

@@ -11,27 +11,27 @@ There are several places where GPS information can found. It can be very
 useful for forensic investigations in certain situations. GPS devices
 have expanded their capabilities and features as the technology has
 improved. Some of the most popular GPS devices today are made by
-[TomTom](http://www.TomTom.com). Some of the other GPS manufacturers
-include [Garmin](http://www.garmin.com) and
-[Magellan](https://www.magellangps.com/).
+[TomTom](https://www.tomtom.com/).
+
+Some of the other GPS manufacturers include:
+
+* [Garmin](https://www.garmin.com/)
+* [Magellan](https://www.magellangps.com/)
 
 ### TomTom
 
-TomTom provides a wide range of devices for biking, hiking, and car
-navigation. Depending on the capabilities of the model, several
-different types of digital evidence can be located on these devices. For
-instance, the [TomTom
-910](http://www.tomtom.com/products/product.php?ID=212&Category=0&Lid=1)
-is basically a 20GB external harddrive. This model can be docked with a
-personal computer via a USB cable or through the use of Bluetooth
-technology. The listed features include the ability to store pictures,
-play MP3 music files, and connect to certain cell phones via bluetooth
-technology. Data commonly found on cell phones could easily be found on
-the TomTom910. Via the Bluetooth, the TomTom can transfer the entire
-contact list from your phone. The GPS unit also records your call logs
-and SMS messages. Research needs to be done to see if the TomTom stores
-actual trips conducted with the unit. This would include routes, times,
-and travel speeds.
+TomTom provides a wide range of devices for biking, hiking, and car navigation.
+Depending on the capabilities of the model, several different types of digital
+evidence can be located on these devices. For instance, the TomTom 910 is
+basically a 20GB external harddrive. This model can be docked with a personal
+computer via a USB cable or through the use of Bluetooth technology. The listed
+features include the ability to store pictures, play MP3 music files, and
+connect to certain cell phones via bluetooth technology. Data commonly found on
+cell phones could easily be found on the TomTom910. Via the Bluetooth, the
+TomTom can transfer the entire contact list from your phone. The GPS unit also
+records your call logs and SMS messages. Research needs to be done to see if
+the TomTom stores actual trips conducted with the unit. This would include
+routes, times, and travel speeds.
 
 The TomTom unit connects to a computer via a USB base station. An
 examiner should be able to acquire the image of the harddrive through a
