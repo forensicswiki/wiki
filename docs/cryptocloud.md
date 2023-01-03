@@ -14,6 +14,6 @@ keep user-detail logfiles of its customers' usage of its network
 
 ## External Links
 
-- [Official web site](http://www.cryptocloud.net)
+- [Official website](http://www.cryptocloud.net)
 - [Affiliated discussion forum used by
   Cryptocloud](http://www.cultureghost.org)

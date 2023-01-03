@@ -134,6 +134,6 @@ Wireshark is a network protocol analyzer.
 
 ## External Links
 
-* [Masterkey Web Site](http://masterkeylinux.com)
+* [Masterkey website](http://masterkeylinux.com)
 * [Masterkey Community Forum](http://masterkeylinux.com/community)
 * [Live Forensic Toolkit](http://masterkeylinux.com/index.php/lft)

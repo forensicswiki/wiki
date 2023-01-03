@@ -19,7 +19,7 @@ partition table).
 
 [Forensics usage of TestDisk and
 PhotoRec](http://www.cgsecurity.org/wiki/TestDisk_%26_PhotoRec_in_various_digital_forensics_testcase)
-is described on the web site.
+is described on the website.
 
 ## Summary
 

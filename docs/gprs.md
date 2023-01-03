@@ -8,7 +8,7 @@ a similar access speed to a dial-up modem.
 
 It permits continuous connection to the Internet for [mobile
 phones](mobile_phone.md) and higher data rates allow for the use
-of multimedia applications such as web sites viewing on mobile
+of multimedia applications such as websites viewing on mobile
 [handheld](handheld.md) devices. Other features provided through
 the use of GPRS are e-mail, video streaming, multimedia messages and
 location-based services. GPRS is based on [Global System for

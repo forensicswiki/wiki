@@ -68,4 +68,4 @@ BitPIM runs on Windows, Linux, and MacOS.
 
 ## External Links
 
-* [Official web site](http://www.bitpim.org/)
+* [Official website](http://www.bitpim.org/)

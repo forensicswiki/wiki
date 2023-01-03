@@ -4,4 +4,4 @@ tags:
 ---
 ## External Links
 
-- [Official web site](http://mbrwizard.com/)
+- [Official website](http://mbrwizard.com/)

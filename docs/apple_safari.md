@@ -49,7 +49,7 @@ On Windows 7
 The browser history is stored in a [binary plist file](property_list.md) named
 **History.plist** in the user directory.
 
-For each web site, the program records the URL visited, the date and time of
+For each website, the program records the URL visited, the date and time of
 the last visit, and the number of times the site has been visited.
 
 The date and time values are stored as a floating point value containing

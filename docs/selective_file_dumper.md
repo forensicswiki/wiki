@@ -63,6 +63,6 @@ or
 
 *./sfdumper.sh*
 
-## Official web site
+## Official website
 
 - <https://sfdumper.sourceforge.net/>

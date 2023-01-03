@@ -10,4 +10,4 @@ calendar year.
 
 ## External Links
 
-* [Official web site](https://www.cprtools.com/)
+* [Official website](https://www.cprtools.com/)
