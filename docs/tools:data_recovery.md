@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Data Recovery
-  -  Tools
+  - Data Recovery
+  - Tools
 ---
 # Data Recovery
 
@@ -21,8 +21,7 @@ IsoBuster opens a wide range of image files, both optical or otherwise
 such as VHD, VHDX, VDI, VMDK, DSK, ISO, IMG, DD, MDS, CUE and more, so
 that the same functions can be performed on the image file content.
 
-- [BitRecover Data Recovery
-  Software](http://www.bitrecover.com/data-recovery-software/)
+- [BitRecover Data Recovery Software](http://www.bitrecover.com/data-recovery-software/)
 
 
 Do-it-yourself data recovery software for all version of Windows such as
@@ -31,21 +30,13 @@ all major data storage media devices such as SSD, Hard disk, Pen drives,
 Memory cards, SD cards, External hard drives etc and also recovers over
 100+ file types of Documents, Spreadsheets, Audio, Photos & Videos etc.
 
-- [BitRecover Virtual Drive Data Recovery
-  Software](http://www.bitrecover.com/virtual-drive-recovery-software/)
+- [BitRecover Virtual Drive Data Recovery Software](http://www.bitrecover.com/virtual-drive-recovery-software/)
 
 
 Supports data recovery from Virtual hard drives or Virtual machine drive
 images saved as .vhd, .vmdk. Allows you to recover data from Virtual
 machines created with VMware, Hyper-V, Virtual Server, Virtual PC,
 Virtualbox etc.
-
-- [BringBack](http://www.toolsthatwork.com/bringback.htm)
-
-
-BringBack offers easy to use, inexpensive, and highly successful data
-recovery for Windows and Linux (ext2) operating systems and digital
-images stored on memory cards, etc.
 
 - [CnW Recovery](http://www.cnwrecovery.com/)
 
@@ -55,8 +46,7 @@ formatted, repartitioned and deleted files. Fragmented videos from
 camera memory chips. RAID option and tools for HP MediaVault. Optional
 forensic logging.
 
-- [Deleted File
-  Recovery](http://www.recoverbits.com/deleted-file-recovery.html)
+- [Deleted File Recovery](http://www.recoverbits.com/deleted-file-recovery.html)
 
 
 Software tool to recover deleted files from Windows drives. Supports

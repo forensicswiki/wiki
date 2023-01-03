@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Commercial Software
 ---
 **EnCase** is a family of all-in-one computer forensics suites sold by
 [Guidance Software](guidance_software.md). These products
@@ -31,13 +32,12 @@ from the [NSRL](national_software_reference_library.md),
 
 ## See Also
 
-- [Encase image file format](encase_image_file_format.md)
-- [EnScripts](enscripts.md)
-- [LinEn](linen.md)
-- WinEn
+* [Encase image file format](encase_image_file_format.md)
+* [EnScripts](enscripts.md)
+* [LinEn](linen.md)
+* WinEn
 
 ## External Links
 
-- [Guidance Software](http://www.guidancesoftware.com)
-- [Breaking Encase with FILE0 and
-  Winhex](https://web.archive.org/web/20070310192503/http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)
+* [Guidance Software](http://www.guidancesoftware.com)
+* [Breaking Encase with FILE0 and Winhex](https://web.archive.org/web/20070310192503/http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)

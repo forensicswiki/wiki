@@ -1,13 +1,8 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
-**Safeback** is a forensic tool suite distributed by [Armor
-Forensics](armor_forensics.md).
-
-# Features
-
-## File Systems Understood
+**Safeback** is a forensic tool suite distributed by Armor Forensics.
 
 ## File Search Facilities
 
@@ -32,11 +27,8 @@ Can it build timelines and search by creation date?
 
 ## Evidence Collection Features
 
-- A tool called [NTI Secure Toolkit](nti_secure_toolkit.md) will
-  encrypt files and build self-extracting packages that just require the
-  right password.
-
-# History
+- A tool called NTI Secure Toolkit will encrypt files and build self-extracting
+  packages that just require the right password.
 
 ## License Notes
 
@@ -45,6 +37,6 @@ Can it build timelines and search by creation date?
   of the website hint at large discounts or site licenses. No prices are
   quoted publicly.
 
-# External Links
+## External Links
 
-## External Reviews
+* [Introduction to SafeBack 3.0](http://www.forensics-intl.com/safeback.html)
