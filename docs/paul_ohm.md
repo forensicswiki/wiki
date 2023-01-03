@@ -10,5 +10,5 @@ written several papers related to the law and computer forensics.
 
 ## External Links
 
-- [Official web site](http://paulohm.com/)
+- [Official website](http://paulohm.com/)
 

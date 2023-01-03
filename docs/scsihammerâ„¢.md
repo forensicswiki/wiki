@@ -8,4 +8,4 @@ when attached to external arrays/shelves/controllers.
 
 ## External Links
 
-- [Official web site](http://www.scsihammer.com/)
+- [Official website](http://www.scsihammer.com/)

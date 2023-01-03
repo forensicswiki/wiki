@@ -35,7 +35,7 @@ conferences, including Usenix, DefCon9, Black Hat, GMU2003/HTCIA/RCFG,
 WACCI, and PFIC2010. He has discussed various topics specific to issues
 on Windows platforms, such as data hiding, incident response, and
 forensic analysis. He has had articles published in the Information
-Security Bulletin, on the SecurityFocus web site, and in the Hakin9
+Security Bulletin, on the SecurityFocus website, and in the Hakin9
 magazine. Finally, Harlan has written a number of open source programs
 (including RegRipper), which have been made available online and via
 CDs/DVDs in his books. His [Windows Incident

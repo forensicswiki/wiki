@@ -26,7 +26,7 @@ or
 
 ## External Links
 
-- [Official web site](http://www.gnu.org/software/coreutils/) for GNU
+- [Official website](http://www.gnu.org/software/coreutils/) for GNU
   Coreutils
 - [Wikipedia entry on md5sum](http://en.wikipedia.org/wiki/Md5sum)
 - [md5sum for Windows](http://www.etree.org/md5com.html)

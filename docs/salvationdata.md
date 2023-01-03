@@ -61,4 +61,4 @@ encrypted or destroyed CCTV DVRs.
 
 ## External Links
 
-* [Official web site](http://www.salvationdata.com/)
+* [Official website](http://www.salvationdata.com/)

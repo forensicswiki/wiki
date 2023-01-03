@@ -23,4 +23,4 @@ videos stored on the phone), and time and date stamps.
 
 ## External Links
 
-- [Official web site](https://www.cellebrite.com/UFED-Standard-Kit.html)
+- [Official website](https://www.cellebrite.com/UFED-Standard-Kit.html)

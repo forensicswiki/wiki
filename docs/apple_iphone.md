@@ -59,7 +59,7 @@ Store does not allow in any application it distributes).
 
 ## External Links
 
-- [Official web site](http://www.apple.com/iphone/)
+- [Official website](http://www.apple.com/iphone/)
 - [Wikipedia: iPhone](http://en.wikipedia.org/wiki/IPhone)
 - [Wikipedia: IOS jailbraking](http://en.wikipedia.org/wiki/IOS_jailbreaking)
 - [The iPhone Wiki](http://theiphonewiki.com/wiki/Main_Page)

@@ -10,8 +10,8 @@ Office of Special
 Investigations](air_force_office_of_special_investigations.md),
 since 4 Dec 2005. The show usually features at least one interview,
 although some shows do not have any. The hosts also discuss current
-issues in the field and give links to new or interesting web sites. A
-set of detailed show notes are usually posted to a separate web site,
+issues in the field and give links to new or interesting websites. A
+set of detailed show notes are usually posted to a separate website,
 although the link is given on the [show's official
 website](http://cyberspeak.libsyn.com/).
 

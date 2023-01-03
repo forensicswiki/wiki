@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Research
 ---
-There are lots of web sites that can provide valuable information for
+There are lots of websites that can provide valuable information for
 forensic investigators.
 
 ## WHOIS Queries
@@ -22,7 +22,7 @@ cache](http://www.google.com/help/features.html#cached), but here are
 some others:
 
 - [The Internet Archive's WayBack Machine](http://web.archive.org) can
-  produce a nicely formatted page showing how a web site looked on
+  produce a nicely formatted page showing how a website looked on
   certain dates. For example, [the history of yahoo.com's
   homepage](http://web.archive.org/web/*/http://www.yahoo.com/) gives a
   nice history lesson. The machine records both main pages and subpages.

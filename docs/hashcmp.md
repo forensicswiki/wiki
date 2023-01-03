@@ -7,4 +7,4 @@ computed by [hash](hash_(maresware).md).
 
 ## External Links
 
-* [Official web site](http://www.maresware.com/maresware/html/hashcmp.htm)
+* [Official website](http://www.maresware.com/maresware/html/hashcmp.htm)

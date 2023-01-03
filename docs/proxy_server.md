@@ -85,7 +85,7 @@ transparently use the services of a network firewall.
 
 ### Web proxies (CGI proxies)
 
-These are web sites that allow a user to access a site through them.
+These are websites that allow a user to access a site through them.
 They generally use PHP or CGI to implement the proxy functionality.
 
 Example GET request from [Anonymouse](http://anonymouse.ws/) (to a web

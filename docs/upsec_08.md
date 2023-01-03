@@ -112,8 +112,7 @@ pages, including figures, tables, and references.
 All submissions should offer new contributions that have not been
 published elsewhere. Author names and affiliations should appear on the
 title page. Submissions must be in PDF and must be submitted via the
-form on the Usability, Psychology, and Security 2008 Call for Papers Web
-site:
+form on the Usability, Psychology, and Security 2008 Call for Papers website:
 
 <http://www.usenix.org/upsec08/cfp>
 
@@ -143,6 +142,6 @@ should contact the Program Chairs, upsec08chairs@usenix.org, or the
 USENIX office, submissionspolicy@usenix.org.
 
 HISTORY This workshop evolved from Usable Security (USEC'07). The
-USEC'07 program and papers are available on the workshop Web site:
+USEC'07 program and papers are available on the workshop website:
 
 <http://www.usablesecurity.org/>

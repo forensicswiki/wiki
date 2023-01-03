@@ -21,6 +21,6 @@ a strong computer investigative program that is quite adept with
 
 ## External Links
 
-* [Official web site](https://oig.nasa.gov/)
+* [Official website](https://oig.nasa.gov/)
 * [The Law Enforcement and Forensic Examiner's Introduction to Linux](https://linuxleo.com/),
   by SA Barry Grundy

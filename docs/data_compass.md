@@ -19,4 +19,4 @@ filesystem repair.
 
 ## External Links
 
-* [Official web site](http://www.salvationdata.com)
+* [Official website](http://www.salvationdata.com)

@@ -8,5 +8,5 @@ tags:
 
 ## External Links
 
-- [Official web site](http://www.maresware.com/maresware/html/hash.htm)
+- [Official website](http://www.maresware.com/maresware/html/hash.htm)
 

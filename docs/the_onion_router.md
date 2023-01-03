@@ -23,7 +23,7 @@ of the communications channel.
 - DNS leaks
 
 Some applications do name resolution directly (bypassing Tor proxy). In
-this case lookup requests leak significant information (e.g. web site
+this case lookup requests leak significant information (e.g. website
 being visited).
 
 - Web browsers

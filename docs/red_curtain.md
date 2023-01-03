@@ -8,4 +8,4 @@ detection product.
 
 ## External Links
 
-- [Official web site](http://www.mandiant.com/mrc)
+- [Official website](http://www.mandiant.com/mrc)

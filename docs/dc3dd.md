@@ -53,5 +53,5 @@ wiping output files with random patterns, and is supported on the
 
 ## External Links
 
-- [Official web site](http://dc3dd.sf.net/)
+- [Official website](http://dc3dd.sf.net/)
 - [Sourceforge project page](https://sourceforge.net/projects/dc3dd/)

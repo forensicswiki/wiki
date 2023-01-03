@@ -4,5 +4,5 @@ tags:
 ---
 ## External Links
 
-- [Official web site](http://en.hoffmannbv.nl/)
+- [Official website](http://en.hoffmannbv.nl/)
 

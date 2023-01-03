@@ -5,5 +5,5 @@ tags:
 ---
 ## External Links
 
-- [Official web site](http://www.fernico.com/)
+- [Official website](http://www.fernico.com/)
 

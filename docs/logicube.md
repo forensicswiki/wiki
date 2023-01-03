@@ -10,4 +10,4 @@ tags:
 
 ## External Links
 
-* [Official web site](http://www.logicubeforensics.com/)
+* [Official website](http://www.logicubeforensics.com/)

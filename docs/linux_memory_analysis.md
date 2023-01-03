@@ -77,7 +77,7 @@ Inactive Open Source and Research Projects:
 ## Linux Memory Images
 
 Aside from those in the challenges referenced above, sample Linux memory
-images can also be found on the Second Look web site at
+images can also be found on the Second Look website at
 <http://secondlookforensics.com/images.html>.
 
 ## Linux Memory Analysis Bibliography

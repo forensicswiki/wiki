@@ -3,7 +3,7 @@ tags:
   -  People
 ---
 Jesse Kornblum is a computer forensics author, researcher and engineer.
-You can read his [official web site](http://jessekornblum.com/). His
+You can read his [official website](http://jessekornblum.com/). His
 [Curriculum Vitae](http://jessekornblum.com/kornblum-cv.pdf) has a
 current list of his papers.
 

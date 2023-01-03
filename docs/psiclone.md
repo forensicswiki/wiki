@@ -11,4 +11,4 @@ is part of the [CPR Toolboox](cpr_toolboox.md), sold separately.
 
 ## External Links
 
-* [Official web site](http://www.thepsiclone.com/)
+* [Official website](http://www.thepsiclone.com/)

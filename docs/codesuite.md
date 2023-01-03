@@ -10,4 +10,4 @@ theft, or just track the changes to a piece of software over time.
 
 ## External Links
 
-* [Official web site](http://www.safe-corp.com/)
+* [Official website](http://www.safe-corp.com/)
