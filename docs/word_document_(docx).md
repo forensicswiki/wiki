@@ -4,7 +4,7 @@ tags:
 ---
 DOCX is the file format for Microsoft Office 2007 and later.
 
-DOCX should not be confused with [DOC](doc.md), the format used
+DOCX should not be confused with [DOC](word_document_(doc).md), the format used
 by earlier versions of Microsoft Office.
 
 # Container Format

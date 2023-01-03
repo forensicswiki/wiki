@@ -30,7 +30,8 @@ can decrypt all files encrypted with EFS.
 
 In Windows XP and beyond there is no default recovery agent.
 
-EFS can be used in conjunction with [BitLocker](bitlocker.md) if desired.
+EFS can be used in conjunction with [BitLocker](bitlocker_disk_encryption.md)
+if desired.
 
 # Recovering an EFS Key
 
@@ -47,9 +48,8 @@ original encryption key (or passphrase) are lost. These include:
 
 # Linux
 
-It is possible to decrypt files using
-[ntfsdecrypt](http://www.linux-ntfs.org/doku.php?id=ntfsdecrypt) tool.
-In this case, you should get the private key first (by running *cipher
+It is possible to decrypt files using [ntfsdecrypt](https://github.com/nats/ntfsprogs/blob/master/ntfsprogs/ntfsdecrypt.c)
+tool.  In this case, you should get the private key first (by running *cipher
 /x filename.pfx* on a [Windows](windows.md) system).
 
 # Other References

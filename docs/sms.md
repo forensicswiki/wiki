@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 **Short Message Service** (**SMS**) is a service that [digital
 phones](cell_phones.md) can use to send short messages between
@@ -33,7 +33,7 @@ will be overwritten with the contents of the new message.
 
 ## SMS Recovery Tools
 
-- [pySIM](http://twhiteman.netfirms.com/pySIM.html), a "SIM card
+- [pySIM](https://github.com/osmocom/pysim), a "SIM card
   management tool, capable of creating, editing, deleting, backup and
   restore operations on your SIM Phonebook and SMS records."
 - [adafruit industries](http://www.adafruit.com/category/27) has a
@@ -41,9 +41,6 @@ will be overwritten with the contents of the new message.
 
 ## External Links
 
-- [An entry level tutorial that explains the details behind the SMS
-  recovery
-  process](http://www.dekart.com/howto/howto_sim_reader/how_to_recover_a_deleted_sms/)
-- [A video tutorial that shows how an SMS can be
-  recovered](http://www.youtube.com/watch?v=VaBaqZiNW4U) (but does not
-  go into the low-level details of the process)
+- [An entry level tutorial that explains the details behind the SMS recovery process](http://www.dekart.com/howto/howto_sim_reader/how_to_recover_a_deleted_sms/)
+- [A video tutorial that shows how an SMS can be recovered](http://www.youtube.com/watch?v=VaBaqZiNW4U),
+  but does not go into the low-level details of the process.

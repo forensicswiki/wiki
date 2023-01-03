@@ -1,9 +1,9 @@
 ---
 tags:
-  -  MacOS
-  -  Tools
-  -  Disk Analysis
-  -  Commercial Software
+  - Commercial Software
+  - Disk Analysis
+  - MacOS
+  - Tools
 ---
 Mac Marshal is a tool to analyze Mac OS X file system images. It scans a
 Macintosh disk image, automatically detects and displays Macintosh and
@@ -37,7 +37,5 @@ MEGA.
 
 # External Links
 
-- [DFRWS'08 Mac Marshal paper
-  (pdf)](http://www.dfrws.org/2008/proceedings/p83-joyce.pdf)
-- [www.macmarshal.com](http://www.macmarshal.com/)
-- [ATC-NY](http://www.atc-nycorp.com/)
+- [DFRWS'08 Mac Marshal paper (pdf)](http://old.dfrws.org/2008/proceedings/p83-joyce.pdf)
+- [Architecture Technology Corporation](https://www.atcorp.com/)

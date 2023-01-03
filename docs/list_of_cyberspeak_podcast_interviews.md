@@ -16,23 +16,22 @@ below.
 ### 2006
 
 - 7 Jan 2006: [Drew Fahey](drew_fahey.md), author of [Helix](helix3.md)
-- 18 Jan 2006: [Simple Nomad](simple_nomad.md)
-- 21 Jan 2006: [Johnny Long](johnny_long.md)
+- 18 Jan 2006: Simple Nomad
+- 21 Jan 2006: Johnny Long
 - 28 Jan 2006: [Kevin Mandia](kevin_mandia.md)
 
 <!-- -->
 
 - 4 Feb 2006: [Brian Carrier](brian_carrier.md)
 - 11 Feb 2006: [Jesse Kornblum](jesse_kornblum.md)
-- 18 Feb 2006: [Bruce Potter](bruce_potter.md) of the Shmoo Group
+- 18 Feb 2006: Bruce Potter of the Shmoo Group
 - 25 Feb 2006: [Kris Kendall](kris_kendall.md) speaks about malware analysis
 
 <!-- -->
 
-- 4 Mar 2006: [Dave Merkel](dave_merkel.md)
-- 11 Mar 2006: [James Wiebe](james_wiebe.md) of [Wiebe Tech](wiebe_tech.md).
-  Also [Todd Bellows](todd_bellows.md) of [LogiCube](logicube.md) about
-  [CellDek](celldek.md)
+- 4 Mar 2006: Dave Merkel
+- 11 Mar 2006: James Wiebe of Wiebe Tech
+  Also Todd Bellows of [LogiCube](logicube.md) about CellDek
 - 18 Mar 2006: [Kris Kendall](kris_kendall.md)
 - 25 Mar 2006: (No interview)
 
@@ -41,42 +40,36 @@ below.
 - 1 Apr 2006: [Harlan Carvey](harlan_carvey.md), creator of the
   [Forensic Server Project](forensic_server_project.md)
 - 8 Apr 2006: (No interview)
-- 15 Apr 2006: (No interview), but first to mention the [Forensics
-  Wiki](main_page.md)!
-- 22 Apr 2006: [Jaime Florence](jaime_florence.md) about
-  [Mercury](mercury.md), a text indexing product
+- 15 Apr 2006: (No interview), but first to mention the [ForensicsWiki](index.md)!
+- 22 Apr 2006: Jaime Florence about Mercury, a text indexing product
 
 <!-- -->
 
-- 6 May 2006: [Mark Rache](mark_rache.md) and [Dave
-  Merkel](dave_merkel.md)
-- 13 May 2006: [Steve Bunting](steve_bunting.md)
-- 21 May 2006: [Mike Younger](mike_younger.md)
-- 29 May 2006: [Mike Younger](mike_younger.md)
+- 6 May 2006: Mark Rache and Dave Merkel
+- 13 May 2006: Steve Bunting
+- 21 May 2006: Mike Younger
+- 29 May 2006: Mike Younger
 
 <!-- -->
 
-- 3 Jun 2006: [Jesse Kornblum](jesse_kornblum.md) about [Windows
-  Memory Analysis](windows_memory_analysis.md)
+- 3 Jun 2006: [Jesse Kornblum](jesse_kornblum.md) about [Windows Memory Analysis](windows_memory_analysis.md)
 - 10 Jun 2006: (No interview)
-- 17 Jun 2006: [Mike Younger](mike_younger.md)
+- 17 Jun 2006: Mike Younger
 - 24 Jun 2006: (No interview)
 
 <!-- -->
 
 - 1 Jul 2006: (No interview)
-- 9 Jul 2006: [Johnny Long](johnny_long.md)
-- 18 Jul 2006: [Dark Tangent](dark_tangent.md)
+- 9 Jul 2006: Johnny Long
+- 18 Jul 2006: Dark Tangent
 - 30 Jul 2006: [Jesse Kornblum](jesse_kornblum.md) about
-  [ssdeep](ssdeep.md) and [Fuzzy
-  Hashing](context_triggered_piecewise_hashing.md)
+  [ssdeep](ssdeep.md) and [Fuzzy Hashing](context_triggered_piecewise_hashing.md)
 
 <!-- -->
 
-- 10 Aug 2006: [Brian Contos](brian_contos.md) discusses his
-  book *Insider Threat: Enemy at the Watercooler*
+- 10 Aug 2006: Brian Contos discusses his book *Insider Threat: Enemy at the Watercooler*
 - 13 Aug 2006: Richard Bejtlich discusses his book *Real Digital Forensics*
-- 27 Aug 2006: [David Farquhar](david_farquhar.md)
+- 27 Aug 2006: David Farquhar
 
 <!-- -->
 
@@ -88,8 +81,7 @@ below.
 <!-- -->
 
 - 1 Oct 2006: Brian Kaplan, author of [LiveView](liveview.md)
-- 8 Oct 2006: [Tom Gallagher](tom_gallagher.md) discusses his
-  book *Hunting Security Bugs*
+- 8 Oct 2006: Tom Gallagher discusses his book *Hunting Security Bugs*
 - 15 Oct 2006: (No Interview)
 - 29 Oct 2006: (No Interview)
 
@@ -103,49 +95,45 @@ below.
 
 <!-- -->
 
-- 3 Dec 2006: [Brian Dykstra](brian_dykstra.md)
-- 10 Dec 2006: [Mike Younger](mike_younger.md)
-- 17 Dec 2006: [Mike Younger](mike_younger.md) and [Geoff
-  Michelli](geoff_michelli.md)
+- 3 Dec 2006: Brian Dykstra
+- 10 Dec 2006: Mike Younger
+- 17 Dec 2006: Mike Younger and Geoff Michelli
 
 ### 2007
 
-- 7 Jan 2007: [Jamie Butler](jamie_butler.md)
-- 17 Jan 2007: [Chad McMillan](chad_mcmillan.md)
+- 7 Jan 2007: Jamie Butler
+- 17 Jan 2007: Chad McMillan
 - 28 Jan 2007: [Jesse Kornblum](jesse_kornblum.md)
 
 <!-- -->
 
 - 11 Feb 2007: [Scott Moulton](scott_moulton.md)
-- 18 Feb 2007: [Phil Zimmerman](phil_zimmerman.md), creator of PGP discussing
+- 18 Feb 2007: Phil Zimmerman, creator of PGP discussing
   his new Zfone
-- 25 Feb 2007: [Mark Menz](mark_menz.md) and [Jeff Moss](jeff_moss.md)
+- 25 Feb 2007: Mark Menz and Jeff Moss
 
 <!-- -->
 
 - 4 Mar 2007: No show due to technical difficulties
-- 12 Mar 2007: [Trevor Fairchild](trevor_fairchild.md) of
-  [Ontario Provincial Police
-  Department](ontario_provincial_police_department.md)
+- 12 Mar 2007: Trevor Fairchild of
+  [Ontario Provincial Police Department](ontario_provincial_police_department.md)
   discussing C4P and C4M, both add-ons to [EnCase](encase.md)
-- 18 Mar 2007: [Tony Hogeveen](tony_hogeveen.md) of
-  [DeepSpar](deepspar.md) Date Recovery Systems
+- 18 Mar 2007: Tony Hogeveen of [DeepSpar](deepspar.md) Date Recovery Systems
 - 25 Mar 2007: Shmoocon broadcast
 
 <!-- -->
 
-- 1 Apr 2007: [Kevin Smith](kevin_smith.md) from LTU
-  Technologies about [Image Seeker](image_seeker.md)
-- 15 Apr 2007: [Jim Christy](jim_christy.md) from the [Defense
-  Cyber Crime Center](defense_cyber_crime_center.md)
+- 1 Apr 2007: Kevin Smith from LTU Technologies about Image Seeker
+- 15 Apr 2007: [Jim Christy](jim_christy.md) from the
+  [Defense Cyber Crime Center](defense_cyber_crime_center.md)
 - 22 Apr 2007: [Jesse Kornblum](jesse_kornblum.md) all about the
-  [Forensics Wiki](main_page.md)!
+  [Forensics Wiki](index.md)!
 - 29 Apr 2007: [Harlan Carvey](harlan_carvey.md) discusses his
   new book
 
 <!-- -->
 
-- 13 May 2007: [Russell Yawn](russell_yawn.md)
+- 13 May 2007: Russell Yawn
 - 20 May 2007: No interview
 
 <!-- -->
@@ -158,8 +146,8 @@ below.
 <!-- -->
 
 - 1 July 2007: No interview
-- 22 July 2007: [Didier Stevens](didier_stevens.md) about the
-  [UserAssist](userassist.md) registry parser
+- 22 July 2007: Didier Stevens about the UserAssist Windows
+  Registry key parser
 - 29 July 2007: No interview
 
 <!-- -->
@@ -202,14 +190,12 @@ below.
 
 <!-- -->
 
-- 10 May 2008: [Al Lewis](al_lewis.md) from Subrosasoft about the [Mac
-  Lockpick](mac_lockpick.md)
+- 10 May 2008: Al Lewis from Subrosasoft about the Mac Lockpick
 
 <!-- -->
 
-- 1 Jun 2008: [Mark McKinnon](mark_mckinnon.md) from [Red Wolf
-  Computer Forensics](http://redwolfcomputerforensics.com/) about his
-  [CSC Parser](csc_parser.md).
+- 1 Jun 2008: Mark McKinnon from Red Wolf Computer Forensics about his CSC
+  Parser.
 - 15 Jun 2008: No interview
 - 28 Jun 2008: No interview
 
@@ -231,40 +217,38 @@ below.
 
 <!-- -->
 
-- 17 Jan 2010: [Didier Stevens](didier_stevens.md) about some of
-  his recent [forensic tools and
-  research](http://blog.didierstevens.com/), including the changes to
-  the UserAssist registry keys in Windows 7 and his malicious PDF tools.
+- 17 Jan 2010: Didier Stevens about some of his recent
+  [forensic tools and research](http://blog.didierstevens.com/), including
+  the changes to the UserAssist registry keys in Windows 7 and his malicious
+  PDF tools.
 
 <!-- -->
 
-- 31 Jan 2010: [Robert Botcheck](robert_botcheck.md), founder
-  and owner of [Tableau](http://www.tableau.com/) talks about new
-  Tableau Imager (TIM)
+- 31 Jan 2010: Robert Botcheck, founder and owner of [Tableau](http://www.tableau.com/)
+  talks about new Tableau Imager (TIM)
 
 <!-- -->
 
-- 28 Feb 2010: [Christa Miller](christa_miller.md)
-  <http://www.christammiller.com/> about the need for law enforcement
-  and digital forensics specialists to manage their online resumes.
+- 28 Feb 2010: Christa Miller about the need for law enforcement and digital
+  forensics specialists to manage their online resumes.
 
 <!-- -->
 
-- 21 Mar 2010: [Joe Seanor](joe_seanor.md), a former Senior AOL
-  Investigator. Joe has developed the [Internet Predator
-  Tracker](http://www.internetpredatortracker.com/) software.
+- 21 Mar 2010: Joe Seanor, a former Senior AOL Investigator. Joe has developed
+  the [Internet Predator Tracker](http://www.internetpredatortracker.com/)
+  software.
 
 <!-- -->
 
 - 4 Apr 2010: [Kristinn Gudjonsson](kristinn_gudjonsson.md)
   update on Timeline Analysis and
   [Log2Timeline](http://log2timeline.net/)
-- 19 Apr 2010: [Nick Ferneau](nick_ferneau.md), developer of
+- 19 Apr 2010: Nick Ferneau, developer of
   Skypx, a free utility that recovers Skype artifacts from RAM images.
 
 <!-- -->
 
-- 24 May 2010: [Sam Guttman](sam_guttman.md) President of the
+- 24 May 2010: Sam Guttman President of the
   [Digital Forensics Certification Board](http://www.ncfs.org/dfcb), an
   international vendor neutral computer forensic certification
   authority.
@@ -276,19 +260,16 @@ below.
 
 <!-- -->
 
-- 25 Oct 2010: [Sean Morrisey](sean_morrisey.md) about iOS
-  forensics and [Katana Forensics](http://www.katanaforensics.com/)
+- 25 Oct 2010: Sean Morrisey about iOS forensics and [Katana Forensics](http://www.katanaforensics.com/)
 
 <!-- -->
 
-- 16 Nov 2010: [Jeff Nash](jeff_nash.md) about LACE image and
-  video categorization software and [BlueBear Law Enforcement
-  Services](http://www.bb-les.com/)
+- 16 Nov 2010: Jeff Nash about LACE image and video categorization software and
+  [BlueBear Law Enforcement Services](http://www.bb-les.com/)
 
 <!-- -->
 
-- 1 Nov 2010: [Raphael Bousquet](raphael_bousquet.md) about [ADF
-  Triage](http://www.adfsolutions.com/index.php?option=com_content&view=article&id=65&Itemid=72)
+- 1 Nov 2010: Raphael Bousquet about [ADF Triage](https://www.adfsolutions.com/triage-investigator)
 
 ### 2011
 
@@ -301,17 +282,15 @@ below.
 
 <!-- -->
 
-- 26 Jun 2011: [Josh Goldfoot](josh_goldfoot.md) about [The
-  Physical Computer and the 4th
-  Amendment](http://www.bjcl.org/current/16_1/3_Goldfoot_draft1.pdf) \*
-  30 Jun 2011: [Cindy Murphy](cindy_murphy.md): about the launch
+- 26 Jun 2011: [Josh Goldfoot](josh_goldfoot.md) about The Physical Computer
+  and the 4th Amendment
+- 30 Jun 2011: [Cindy Murphy](cindy_murphy.md): about the launch
   of the CDFS
 
 <!-- -->
 
-- 18 Jul 2011: [George Starcher](george_starcher.md) about
-  password cracking using Access Data’s DNA and Amazon’s Elastic Compute
-  Cloud.
+- 18 Jul 2011: George Starcher about password cracking using Access Data’s
+  DNA and Amazon’s Elastic Compute Cloud.
 
 <!-- -->
 
@@ -325,8 +304,7 @@ below.
 
 <!-- -->
 
-- 28 Aug 2011: [Chris Pogue](chris_pogue.md) also known as Mr.
-  Sniper Forensics
+- 28 Aug 2011: Chris Pogue also known as Mr. Sniper Forensics
 
 <!-- -->
 

@@ -26,9 +26,7 @@ A Restore Point data sub directory contains:
 * [Wikipedia: System Restore](http://en.wikipedia.org/wiki/System_Restore)
 * [MSDN: Legacy System Restore Reference](https://msdn.microsoft.com/en-us/library/windows/desktop/bb395209(v=vs.85>).aspx)
 * [Restore Point Forensics](http://www.stevebunting.org/udpd4n6/forensics/restorepoints.htm),
-  by [Steve Bunting](steve_bunting.md)
-* [Forensic Analysis of System Restore Points in Microsoft Windows XP](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.4474&rep=rep1&type=pdf),
-  by Kris Harms, July 2006
+  by Steve Bunting
 * [Restore Point Forensics](http://windowsir.blogspot.ch/2006/10/restore-point-forensics.html),
   by [Harlan Carvey](harlan_carvey.md), October 20, 2006
 * [Restore Point Analysis](http://windowsir.blogspot.ch/2007/06/restore-point-analysis.html),

@@ -4,8 +4,8 @@ tags:
 ---
 ## Overview
 
-[Windows](windows.md) Vista stores
-[thumbnails](thumbnails.md) in the following directory:
+[Windows Vista](windows_vista.md) stores [thumbnails](thumbnails.md) in the
+following directory:
 
     \Users\%username%\AppData\Local\Microsoft\Windows\Explorer
 
@@ -34,7 +34,7 @@ variables. First variable (sometimes called *Unique ID*, *Secret*, *File
 ID*) associates data in file *thumbcache_idx.db* with thumbnail data in
 *thumbcache_NN.db* files; the purpose of this variable is unclear.
 Another variable is *Thumbnail Cache ID* (sometimes called *Thumbnail
-filename* (in [FTK](ftk.md) is used to link
+filename* (in [FTK](forensic_toolkit.md) is used to link
 thumbnails with original files. Actually, *Thumbnail Cache ID* is
 represented as Unicode string of HEX encoding.
 
@@ -68,7 +68,7 @@ Extractor](http://www.simplecarver.com/tool.php?toolname=Windows%20Search%20Inde
 #### Using Windows PowerShell
 
 Windows PowerShell provides easy way to access this database using SQL queries.
-Note that most forensic tools (like [FTK](ftk.md) display *ThumbnailCacheID*
+Note that most forensic tools (like FTK display *ThumbnailCacheID*
 (where FTK calls it *Thumbnail filename*) in hexadecimal, but Windows PowerShell
 returns the result in decimal.
 
@@ -84,33 +84,27 @@ Photo Gallery (the LIVE edition may also be installed by the user). Both
 of these programs create the files *pictures.pd4* and *pictures.pd5*
 respectively containing the *ThumbnailCacheID* and file path information
 of previewed pictures and videos. The contents of the pictures.pd4 and
-pictures.pd5 can be extracted using [WPG
-Viewer](http://www.simplecarver.com/tool.php?toolname=WPG%20Viewer)
+pictures.pd5 can be extracted using [WPG Viewer](http://www.simplecarver.com/tool.php?toolname=WPG%20Viewer)
 
 ## External Links
 
-* [Forensic Implications of Windows Vista, Barrie Stewart,
-  2007](http://www.whereisyourdata.co.uk/data/modules/wfdownloads/visit.php?cid=4&lid=9)
-* [Windows Explorer Thumbnail Cache database (thumbcache.db)
-  format](http://code.google.com/p/libwtcdb/downloads/detail?name=Windows%20Explorer%20Thumbnail%20Cache%20database%20format.pdf),
+* [Forensic Implications of Windows Vista, Barrie Stewart, 2007](http://www.whereisyourdata.co.uk/data/modules/wfdownloads/visit.php?cid=4&lid=9)
+* [Windows Explorer Thumbnail Cache database (thumbcache.db) format](https://github.com/libyal/libwtcdb/blob/main/documentation/Windows%20Explorer%20Thumbnail%20Cache%20database%20format.asciidoc),
   by the [libwtcdb project](libwtcdb.md)
 
 ### ThumbnailCacheId
 
-* \[<http://msdn.microsoft.com/en-us/library/windows/desktop/bb787580(v=vs.85>).aspx
-  System.ThumbnailCacheId\]
-* \[<http://msdn.microsoft.com/en-us/library/bb774628(VS.85>).aspx
-  IThumbnailCache interface\]
+* [System.ThumbnailCacheId](http://msdn.microsoft.com/en-us/library/windows/desktop/bb787580(v=vs.85>).aspx)
+* [IThumbnailCache interface](http://msdn.microsoft.com/en-us/library/bb774628(VS.85>).aspx)
 
 ### Non-English
 
 * Использование централизованных баз данных эскизов для исследования
-  графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended
-  version](http://www.securitylab.ru/analytics/370474.php))
+  графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended version](http://www.securitylab.ru/analytics/370474.php))
 
 ## Tools
 
-* [FTK](ftk.md)
+* [FTK](forensic_toolkit.md)
 * [Thumbs.db Viewer](http://www.janusware.com/fetch.php?page=412,2)
 * [Thumbcache-viewer](http://code.google.com/p/thumbcache-viewer/)
 * [WinThumbs](http://www.simplecarver.com/tool.php?toolname=WinThumbs%20Extractor)

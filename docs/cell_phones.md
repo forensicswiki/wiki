@@ -37,7 +37,6 @@ investigators.
 
 * [Cell Phone Forensics](cell_phone_forensics.md)
 * [SIM Card Forensics](sim_card_forensics.md)
-* [External Memory Card Forensics](external_memory_card_forensics.md)
 * [Blackberry Forensics](blackberry_forensics.md)
 * [JTAG Forensics](jtag_forensics.md)
 * [Chip-Off Forensics](chip-off_forensics.md)
@@ -51,51 +50,37 @@ investigators.
 
 **Hardware**
 
-* [Azimuth RadioProof™ Enclosures](azimuth_radioproof™_enclosures.md)
+* [Azimuth RadioProof™ Enclosures](azimuth_radioproof_enclosures.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
-* LogiCube CellDEK
-* [LogiCube CellDEK TEK](logicube_celldek_tek.md)
+* LogiCube CellDEK and * LogiCube CellDEK TEK
 * [\| Micro Systemation Field Version](https://www.msab.com/)
-* [Network Security Solutions Secure Tents](network_security_solutions_secure_tents.md)
-* [Network Security Solutions Seizure Bags for Cell Phones/PDAs/Laptops](network_security_solutions_seizure_bags_for_cell_phones/pdas/laptops.md)
-* [Paraben CSI Stick](paraben_csi_stick.md)
+* Network Security Solutions Secure Tents and Seizure Bags for Cell Phones/PDAs/Laptops
+* Paraben CSI Stick
 * [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
-* [Paraben Handheld First Responder Kit](paraben_handheld_first_responder_kit.md)
+* Paraben Handheld First Responder Kit
 * [Paraben StrongHold Bag](paraben_stronghold_bag.md)
 * [Radio Frequency (RF) Jammers](radio_frequency_(rf)_jammers.md)
-* [Radio Tactics Acesso](radio_tactics_acesso.md)
-* [Radio Tactics Apollo](radio_tactics_apollo.md)
-* [Radio Tactics Athena](radio_tactics_athena.md)
-* [SIM Card Readers](sim_card_readers.md)
+* Radio Tactics Acesso, Apollo and Athena
 
 **Software**
 
 * [Belkasoft](belkasoft.md) Evidence Center
 * [BitPIM](bitpim.md)
-* [BK Forensics Cell Phone Analyzer](bk_forensics_cell_phone_analyzer.md)
-* [FloAt's Mobile Agent](float's_mobile_agent.md)
-* [ForensicMobile](forensicmobile.md)
-* [ForensicSIM](forensicsim.md)
-* [Guidance Software Neutrino](guidance_software_neutrino.md)
+* BK Forensics Cell Phone Analyzer
+* FloAt's Mobile Agent
+* ForensicMobile
+* ForensicSIM
+* Guidance Software Neutrino
 * [iDEN Companion Pro](iden_companion_pro.md)
 * [iDEN Phonebook Manager](iden_phonebook_manager.md)
-* [MicroSystemation .XRY](.xry.md)
-* [MOBILedit!](mobiledit!.md)
+* MicroSystemation .XRY
+* [MOBILedit!](mobiledit.md)
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 * [Paraben Device Seizure](paraben_device_seizure.md)
-* [Paraben SIM Seizure](paraben_sim_seizure.md)
-* [Pandora's Box](pandora's_box.md)
-* [Quantaq USIMdetective](quantaq_usimdetective.md)
-* [Quantaq USIMcommander](quantaq_usimcommander.md)
-* [Quantaq USIMdetective](quantaq_usimdetective.md)
-* [Quantaq USIMexplorer](quantaq_usimexplorer.md)
-* [Quantaq USIMprofiler](quantaq_usimprofiler.md)
-* [Quantaq USIMregistrar](quantaq_usimregistrar.md)
+* Paraben SIM Seizure
+* Pandora's Box
+* Quantaq USIMdetective, USIMcommander, USIMexplorer, USIMprofiler and USIMregistrar
 * [SIMiFOR](simifor.md)
-* [Susteen Secure View](susteen_secure_view.md)
-* [TULP2G](tulp2g.md)
-* [WOLF](wolf.md)
-
-## See Also
-
-* [Cell phone forensics bibliography](cell_phone_forensics_bibliography.md)
+* Susteen Secure View
+* TULP2G
+* WOLF

@@ -14,13 +14,11 @@ have means to differentiate between an image of memory and e.g. that of a disk.
 
 ## Introduction
 
-The [physical memory](physical_memory.md) of computers can be
-imaged and analyzed using a variety of tools. Because the procedure for
-accessing physical memory varies between [operating
-systems](operating_systems.md), these tools are listed by
-operating system. Once memory has been imaged, it is subjected to
-[memory analysis](memory_analysis.md) to ascertain the state of
-the system, extract artifacts, and so on.
+The [physical memory](physical_memory.md) of computers can be imaged and
+analyzed using a variety of tools. Because the procedure for accessing physical
+memory varies between operating systems, these tools are listed by operating
+system. Once memory has been imaged, it is subjected to [memory analysis](memory_analysis.md)
+to ascertain the state of the system, extract artifacts, and so on.
 
 One of the most vexing problems for memory imaging is verifying that the
 image has been created correctly. That is, verifying that it reflects
@@ -64,15 +62,13 @@ panic) occurs. Andreas Schuster has a
 describing this technique.
 
 LiveKd Dumps
-The [Sysinternals](sysinternals.md) tool
-[LiveKd](http://www.microsoft.com/technet/sysinternals/SystemInformation/LiveKd.mspx)
-can be used to create an image of physical memory on a live machine in
-crash dump format. Once livekd is started, use the command ".dump -f
-\[output file\]"
+The Sysinternals tool LiveKd can be used to create an image of physical memory
+on a live machine in crash dump format. Once livekd is started, use the command
+".dump -f \[output file\]"
 
 Hibernation Files
 [Windows](windows.md) 98, 2000, XP, 2003, and Vista support a
-feature called [hibernation](hibernation.md) that saves the
+feature called hibernation that saves the
 machine's state to the disk when the computer is powered off. When the
 machine is turned on again, the state is restored and the user can
 return to the exact point where they left off. The machine's state,
@@ -81,8 +77,7 @@ memory](physical_memory.md), is written to the disk on the
 system drive, usually C:, as [hiberfil.sys](hiberfil.sys.md).
 This file can be parsed and decompressed to obtain the memory image.
 Once [hiberfil.sys](hiberfil.sys.md) has been obtained,
-[Sandman](http://sandman.msuiche.net/) can be used to convert it to a dd
-image.
+Sandman can be used to convert it to a dd image.
 
 [Mac OS X](mac_os_x.md) very kindly creates a file called
 **/var/vm/sleepimage** on any laptop that is suspended. This file is NOT
@@ -102,20 +97,14 @@ Firewire controllers and on other can cause system crashes. The
 technology holds promise for future development, in general should be
 avoided for now.
 
-At [CanSec West 05](cansec_west_05.md), [Michael
-Becher](michael_becher.md), [Maximillian
-Dornseif](maximillian_dornseif.md), and [Christian N.
-Klein](christian_n._klein.md) discussed an
-[exploit](exploit.md) which uses Direct Memory Access (DMA) to read
-arbitrary memory locations of a [firewire](firewire.md)-enabled
-system. The
-[paper](http://md.hudora.de/presentations/firewire/2005-firewire-cansecwest.pdf)
-lists more details. The exploit is run on an [iPod running
-Linux](http://ipodlinux.org/Main_Page). This can be used to grab screen
-contents.
+At CanSec West 05, Michael Becher, Maximillian Dornseif, and Christian N.
+Klein discussed an exploit which uses Direct Memory Access (DMA) to read
+arbitrary memory locations of a [firewire](firewire.md)-enabled system. The
+[paper](https://simson.net/ref/2005/2005-firewire-cansecwest.pdf)
+lists more details. The exploit is run on an [iPod running Linux](http://ipodlinux.org/Main_Page).
+This can be used to grab screen contents.
 
-This technique has been turned into a tool that you can download from:
-<http://www.storm.net.nz/projects/16>
+This technique has been turned into a tool.
 
 The [Goldfish](http://digitalfire.ucd.ie/?page_id=430) tool automates
 this exploit for investigators needing to analyze the memory of a Mac.
@@ -127,13 +116,12 @@ is retained depend on BIOS-es that do or do not clear the RAM during
 their initialisation of the motherboards. Warm reboots refer to reboot
 methods in which power is never removed from the memory module. Tools
 like
-[msramdump](http://mcgrewsecurity.com/oldsite/projects/msramdmp.1.html)
+[msramdump](https://github.com/dbrant/msramdmp)
 or
 [afterlife](http://www.sei.cmu.edu/digitalintelligence/tools/afterlife/)
 act like minimal OS-es with a memory footprint around a few 100k that
 can save memory to disk (Nowadays often only upto 4G afaik). When the
-RAM is cleared by the standard BIOS, [replacing the
-bios](https://ohm2013.org/wiki/Village:Garrison#Lecture:_RAM_Memory_acquisition_using_live-BIOS_modification)
+RAM is cleared by the standard BIOS, replacing the BIOS
 can be an option. Depending on the motherboard this method works fine.
 [Cold boot](http://en.wikipedia.org/wiki/Cold_boot_attack) refers to the
 cooling of RAM te increase the time the RAM module will retain data
@@ -155,21 +143,22 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
 ## Also see
 
 * [Memory analysis](memory_analysis.md)
-* [Memory Imaging Tools](:tools:memory_imaging.md)
+* [Memory analysis tools](tools:memory_analysis.md)
+* [Memory imaging tools](tools:memory_imaging.md)
 
 ## External Links
 
 * [Wikipedia article on Memory-mapped I/O](http://en.wikipedia.org/wiki/Memory-mapped_I/O)
 * [RedTeam: FireWire round-up](http://web.archive.org/web/20101210223853/http://blogs.23.nu/RedTeam/0000/00/antville-5201)
-* [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](http://www.friendsglobal.com/papers/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
-  by [Antonio Martin](antonio_martin.md), 2007
+* [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](https://files.hddguru.com/download/Software/Research%20%20Development/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
+  by Antonio Martin, 2007
 * [Catching the ghost: how to discover ephemeral evidence with Live RAM analysis](http://forensic.belkasoft.com/en/live-ram-forensics),
   by Oleg Afonin and Yuri Gubanov, May 2013
-* [Anti-forensic resilient memory acquisition](http://www.dfrws.org/2013/proceedings/DFRWS2013-13.pdf),
-  by [Johannes Stuettgen](johannes_stuettgen.md), [Michael Cohen](michael_cohen.md), August 2013
+* [Anti-forensic resilient memory acquisition](https://dfrws.org/presentation/anti-forensic-resilient-memory-acquisition/),
+  by Johannes Stuettgen and [Michael Cohen](michael_cohen.md), August 2013
 * [64bit Big Sized RAM Image Acquisition Problem](http://takahiroharuyama.github.io/blog/2014/01/07/64bit-big-size-ram-acquisition-problem/),
-  by [Takahiro haruyama](takahiro_haruyama.md), January 7, 2014
+  by Takahiro haruyama, January 7, 2014
 * [All memory dumping tools are not the same](http://brimorlabs.blogspot.com/2014/01/all-memory-dumping-tools-are-not-same.html),
-  by [Brian Moran](brian_moran.md), January 14, 2014
-* [Robust Linux memory acquisition with minimal target impact](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2014EU.html),
-  by [Johannes Stüttgen](johannes_stüttgen.md) [Michael Cohen](michael_cohen.md), May 2014
+  by Brian Moran, January 14, 2014
+* [Robust Linux memory acquisition with minimal target impact](http://old.dfrws.org/2014eu/proceedings/DFRWS-EU-2014-14p.pdf),
+  by Johannes Stüttgen and [Michael Cohen](michael_cohen.md), May 2014

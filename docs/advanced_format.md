@@ -57,4 +57,4 @@ utility (this applies only to drives from Western Digital):
 * [A Tom's Hardware Review of the WD Caviar Green Drives](http://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
 * [ATA 4 KiB sector issues (good summary from Linux ATA wiki)](https://ata.wiki.kernel.org/index.php/ATA_4_KiB_sector_issues)
 * [4K-sector drives and Linux (LWN.net)](http://lwn.net/Articles/377895/)
-* [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools ticket)](http://sourceforge.net/apps/trac/smartmontools/ticket/62)
+* [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools ticket)](https://sourceforge.net/apps/trac/smartmontools/ticket/62)

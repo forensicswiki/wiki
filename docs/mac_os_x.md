@@ -55,12 +55,10 @@ which can be found in:
 Mac OS X has support for various disk image types built-in, some of
 which are:
 
-- read-write disk image (.dmg), which can be stored in [Raw Image
-  Format](raw_image_format.md) or [Universal Disk Image Format
-  (udif)](dmg.md)
-- [Sparse disk image (.spareimage)](sparse_image_format.md)
-- [Sparse bundle disk image
-  (.sparsebundle)](sparse_bundle_image_format.md)
+* read-write disk image (.dmg), which can be stored in [Raw Image Format](raw_image_format.md)
+  or [Universal Disk Image Format (udif)](dmg.md)
+* [Sparse disk image (.spareimage)](sparse_image_format.md)
+* [Sparse bundle disk image (.sparsebundle)](sparse_bundle_image_format.md)
 
 ## Burn Folder
 
@@ -232,101 +230,87 @@ Mac OS.
 
 ## Also see
 
-- [MacOS Process Monitoring](macos_process_monitoring.md)
-- [Acquiring a MacOS System with Target Disk
-  Mode](acquiring_a_macos_system_with_target_disk_mode.md)
-- [Converting Binary Plists](converting_binary_plists.md)
-- [FileVault Disk Encryption](filevault_disk_encryption.md)
-- [File Vault](file_vault.md)
+* [MacOS Process Monitoring](macos_process_monitoring.md)
+* [Acquiring a MacOS System with Target Disk Mode](acquiring_a_macos_system_with_target_disk_mode.md)
+* [Converting Binary Plists](converting_binary_plists.md)
+* [FileVault Disk Encryption](filevault_disk_encryption.md)
+* [File Vault](file_vault.md)
 
 ### Formats
 
-- [Apple File System (apfs)](apple_file_system_(apfs).md)
-- [Apple Partition Map (apm)](apm.md)
-- [Basic Security Module (BSM) file
-  format](basic_security_module_(bsm)_file_format.md)
-- [DMG](dmg.md)
-- [Hierarchical File System Plus (HFS+) format](hfs+.md)
-- [Property list (plist)](property_list_(plist).md)
+* [Apple File System (apfs)](apple_file_system_(apfs).md)
+* [Apple Partition Map (apm)](apm.md)
+* [Basic Security Module (BSM) file format](basic_security_module_(bsm)_file_format.md)
+* [DMG](dmg.md)
+* [Hierarchical File System Plus (HFS+) format](hfs+.md)
+* [Property list (plist)](property_list_(plist).md)
 
 ## External Links
 
-- [Official website](http://www.apple.com/macosx/)
-- [Wikipedia entry on OS X](http://en.wikipedia.org/wiki/OS_X)
-- [Inside
-  Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
+* [Official website](http://www.apple.com/macosx/)
+* [Wikipedia entry on OS X](http://en.wikipedia.org/wiki/OS_X)
+* [Inside Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
   by Apple Computer, Inc., 1993
-- [What is Mac OS
-  X?](http://osxbook.com/book/bonus/ancient/whatismacosx/whatismacosx.pdf),
+* [What is Mac OS X?](http://osxbook.com/book/bonus/ancient/whatismacosx/whatismacosx.pdf),
   by Amit Singh, 1994
-- [Mac OS X Directory Services Integration including Active
-  Directory](http://web.me.com/driley/iWeb/Previous_files/Directory_Services_Overview.pdf)
-- [NSKeyedArchiver files – what are they, and how can I use
-  them?](http://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
-- [Command Line ALF on Mac OS
-  X](http://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
-- [mac-security-tips](https://code.google.com/p/mac-security-tips/wiki/ALL_THE_TIPS)
-- [Mac OS X
-  Forensics](https://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-8.pdf),
+* [Mac OS X Directory Services Integration including Active Directory](http://web.me.com/driley/iWeb/Previous_files/Directory_Services_Overview.pdf)
+* [NSKeyedArchiver files – what are they, and how can I use them?](http://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
+* [Command Line ALF on Mac OS X](http://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
+* [mac-security-tips](https://code.google.com/p/mac-security-tips/wiki/ALL_THE_TIPS)
+* [Mac OS X Forensics](https://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-8.pdf),
   by Joaquin Moreno Garijo, March 4, 2015
-- [Hidden backdoor API to root privileges in Apple OS
-  X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
+* [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
   by Emil Kvarnhammar, April 9, 2015
-- [Max OS X Internals book (1st
-  ed)](http://newosxbook.com/1stEdIsFree.html) by Jonathan Levin PDF
+* [Max OS X Internals book (1st ed)](http://newosxbook.com/1stEdIsFree.html) by Jonathan Levin PDF
   download
-- [The Boot
-  Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
+* [The Boot Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
   by Apple
 
 ### Alias
 
-- [Reversing Mac Alias v3 Data
+* [Reversing Mac Alias v3 Data
   Objects](https://sysforensics.org/2016/08/mac-alias-data-objects/), by
   Patrick Olsen, August 15, 2016
 
 ### Apple Examiner
 
-- [The Apple Examiner](http://www.appleexaminer.com/)
-- [USB Entries on OS
-  X](http://www.appleexaminer.com/MacsAndOS/Analysis/USBOSX/USBOSX.html)
-- [Macintosh Forensics - A Guide for the Forensically Sound Examination
-  of a Macintosh
-  Computer](http://www.appleexaminer.com/Downloads/MacForensics.pdf) by
-  Ryan R. Kubasiak
+* [The Apple Examiner](http://www.appleexaminer.com/)
+* [USB Entries on OS X](http://www.appleexaminer.com/MacsAndOS/Analysis/USBOSX/USBOSX.html)
+* [Macintosh Forensics - A Guide for the Forensically Sound Examination of a Macintosh Computer](http://www.appleexaminer.com/Downloads/MacForensics.pdf),
+  by Ryan R. Kubasiak
 
 ### EFI
 
-- [The Intel Mac boot process](http://refit.sourceforge.net/info/boot_process.html), by the
+* [The Intel Mac boot process](http://refit.sourceforge.net/info/boot_process.html), by the
   [rEFIt project](refit.md) - [Carving up EFI fat binaries](http://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/),
   by snare, February 24, 2012
 
 ### iCloud
 
-- [iCloud: iCloud security and privacy overview](http://support.apple.com/kb/HT4865?viewlocale=en_US&locale=en_US)
+* [iCloud: iCloud security and privacy overview](http://support.apple.com/kb/HT4865?viewlocale=en_US&locale=en_US)
 
 ### ColorSync
 
-- [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/mac/technotes/tn2035/_index.html)
-- [Internet Archive: Managing Color With ColorSync](https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html)
-- [ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure](http://www.color.org/icc1v42.pdf),
+* [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/mac/technotes/tn2035/_index.html)
+* [Internet Archive: Managing Color With ColorSync](https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html)
+* [ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure](http://www.color.org/icc1v42.pdf),
   by International Color Consortium (ICC)
-- [ICC Profile Format Specification](http://www.color.org/icc32.pdf), by
+* [ICC Profile Format Specification](http://www.color.org/icc32.pdf), by
   International Color Consortium (ICC), November 20, 1995
-- [ICC profiles](http://www.color.org/profiles2.xalter)
-- [ICC_Profile Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/ICC_Profile.html)
-- [Adobe XMP Developer Center](http://www.adobe.com/devnet/xmp.html)
+* [ICC profiles](http://www.color.org/profiles2.xalter)
+* [ICC_Profile Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/ICC_Profile.html)
+* [Adobe XMP Developer Center](http://www.adobe.com/devnet/xmp.html)
 
 ### Quarantine event database
 
-- [Quarantine event database](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
+* [Quarantine event database](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
 
 ### Unified logging
 
-- [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
-  by [Sarah Edwards](sarah_edwards.md), November 13, 2016
+* [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
+  by Sarah Edwards, November 13, 2016
 
 ### Yet Another Assembler (YAA)
 
-- [YAA: An Obscure MacOS Compressed File Format](https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/),
+* [YAA: An Obscure MacOS Compressed File Format](https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/),
   by nightwatchcyber, June 14, 2020

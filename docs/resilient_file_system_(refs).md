@@ -12,8 +12,6 @@ Writes by using a "Copy-On-Write" feature.
 ## External Links
 
 * [Resilient File System overview](http://msdn.microsoft.com/en-us/library/hh831724.aspx)
-* [The Microsoft ReFS On-Disk Layout](http://www.williballenthin.com/forensics/refs/index.html),
-  by Willi Ballenthin
 * [Resilient File System (ReFS)](https://github.com/libyal/libfsrefs/blob/main/documentation/Resilient%20File%20System%20(ReFS).pdf),
   by the [libfsrefs project](https://github.com/libyal/libfsrefs), May 2012
 * [Forensic Investigation of Microsoft's Resilient File System (ReFS)](http://resilientfilesystem.co.uk),

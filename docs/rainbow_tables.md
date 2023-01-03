@@ -23,7 +23,7 @@ if the following conditions are true:
 
 * <http://www.renderlab.net/projects/WPA-tables/> (only for top 1000 SSID list)
 
-### [DOC](doc.md), [PDF](pdf.md), etc
+### DOC, [PDF](pdf.md), etc
 
 ## See Also
 

@@ -4,7 +4,7 @@ tags:
 ---
 **hiberfil.sys** is the file used by default by Microsoft Windows to
 save the machine's state as part of the
-[hibernation](hibernation.md) process. The operating system also
+hibernation process. The operating system also
 keeps an open file handle to this file, so no user, including the
 Administrator, can read the file while the system is running.
 
@@ -18,7 +18,7 @@ including some of the various compression methods used.
 The Xpress compression was reverse engineered by [Matthieu
 Suiche](matthieu_suiche.md). He created with [Nicolas
 Ruff](nicolas_ruff.md) a project called
-[Sandman](http://sandman.msuiche.net/) is the only open-source tool that
+Sandman is the only open-source tool that
 can read and write the Windows Vista and 7 hibernation files.
 
 In early 2008, as part of the [Windows Server Protocol
@@ -46,8 +46,6 @@ from the multiple levels of slack space within them.
 
 ## External Links
 
-* [Sandman Project](http://sandman.msuiche.net/docs/SandMan_Project.pdf),
-  by [Matthieu Suiche](matthieu_suiche.md), February 2008
 * [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
   by [Matthieu Suiche](matthieu_suiche.md)
 * [Enter SandMan](http://www.msuiche.net/pres/PacSec07-slides-0.4.pdf),

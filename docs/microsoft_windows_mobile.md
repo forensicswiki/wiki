@@ -62,8 +62,3 @@ on Windows Mobile Standard edition. Several other improvements such as
 threaded SMS, full page zooming in IE and 'Domain Enroll' have also been
 added. Domain Enroll is functionality to connect the device to System
 Center Mobile Device Manager 2008, a product to manage mobile devices.
-
-## External Links
-
-- [Official site of Windows Mobile](http://www.microsoft.com/windowsmobile/default.mspx)
-- [Free software for Windows Mobile Smartphones](http://www.smartphone-freeware.org/)
