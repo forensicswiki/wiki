@@ -189,8 +189,7 @@ This returns the phone number (Samsung).
 
 ## External links
 
-* [AT+C Command Set of GSM](http://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
-* [Alexander Traud's GSM pages](http://www.traud.de/gsm/atex.htm)
-* [AT Test Commands](http://www.anotherurl.com/library/at_test.htm)
-* [ETSI-3GPP Standards](http://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&GSMSpecPart2=007)
-* [Even more Samsung AT Commands](http://gatling.ikk.sztaki.hu/~kissg/gsm/atscan/unprocessed/SamsungS105v1_6h.txt)
+* [AT+C Command Set of GSM](https://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
+* [Alexander Traud's GSM pages](https://www.traud.de/gsm/atex.htm)
+* [ETSI-3GPP Standards](https://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&GSMSpecPart2=007)
+* [Even more Samsung AT Commands](https://gatling.ikk.sztaki.hu/~kissg/gsm/atscan/unprocessed/SamsungS105v1_6h.txt)

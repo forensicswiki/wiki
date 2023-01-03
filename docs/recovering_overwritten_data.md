@@ -59,7 +59,7 @@ that will work on multiple drives.
 
 In December 2008 Craig Wright, Dave Kleiman, and Shyaam Sundhar R.S.
 presented a
-[paper](http://tracedigital.be/pdf/overwriting_hard_drive_data.pdf/) at
+[paper](http://tracedigital.be/pdf/overwriting_hard_drive_data.pdf) at
 ICISS2008, which purpose was "*a categorical settlement to the
 controversy surrounding the misconceptions involving the belief that
 data can be recovered following a wipe procedure*"
