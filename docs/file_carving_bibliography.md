@@ -1,54 +1,44 @@
 ---
 tags:
-  -  Bibliographies
+  - Bibliographies
 ---
 **In chronological order, oldest to most recent**
 
 ### Basic Techniques
 
-[An analysis of disc carving
-techniques](http://handle.dtic.mil/100.2/ADA432468), Mikus, Nicholas A.
-" Master's Thesis, Naval Postgraduate School. March 2005.
+[An analysis of disc carving techniques](https://apps.dtic.mil/sti/citations/ADA432468),
+by Mikus, Nicholas A., Master's Thesis, Naval Postgraduate School. March 2005.
 
-[Scalpel: A Frugal, High Performance File
-Carver](http://www.dfrws.org/2005/proceedings/richard_scalpel.pdf),
-Golden G. Richard and Vassil Roussev, DFRWS 2005
+[Scalpel: A Frugal, High Performance File Carver](https://dfrws.org/sites/default/files/session-files/2005_USA_paper-scalpel_-_a_frugal_high_performance_file_carver.pdf),
+by Golden G. Richard and Vassil Roussev, DFRWS 2005
 
-[Massive threading: Using GPUs to increase the performance of digital
-forensics
-tools](http://www.dfrws.org/2007/proceedings/p73-marziale.pdf), Lodovico
-Marziale, Golden G. Richard III\*, Vassil Roussev, DFRWS 2007.
+[Massive threading: Using GPUs to increase the performance of digital forensics tools](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-massive_threading_-_using_gpus_to_increase_the_performance_of_digital_forensics_tools.pdf),
+by Lodovico Marziale, Golden G. Richard III\*, Vassil Roussev, DFRWS 2007.
 
 ### Fragment Recovery Carving
 
 Automatic Reassembly of Document Fragments via Data Compression, Kulesh
 Shanmugasundaram and Nasir Memon, Presented at DFRWS, 2002.
 
-[Automatic Reassembly of Document Fragments via Context Based
-Statistical
-Models](http://digital-assembly.com/technology/research/pubs/acsac-2003.pdf)
-Kulesh Shanmugasundaram and Nasir Memon, Annual Computer Security
+[Automatic Reassembly of Document Fragments via Context Based Statistical Models](http://digital-assembly.com/technology/research/pubs/acsac-2003.pdf),
+by Kulesh Shanmugasundaram and Nasir Memon, Annual Computer Security
 Applications Conference, 2003.
 
-[Automated Reassembly of Fragmented
-Images](http://isis.poly.edu/kulesh/research/pubs/icassp-2003.pdf),
-Anandabrata Pal, Kulesh Shanmugasundaram, Nasir Memon, Proceedings of
+[Automated Reassembly of Fragmented Images](https://ieeexplore.ieee.org/document/1202747),
+by Anandabrata Pal, Kulesh Shanmugasundaram, Nasir Memon, Proceedings of
 the IEEE International Conference on Acoustics, Speech, and Signal
 Processing, 2003.
 
-[Carving Contiguous and Fragmented Files with Fast Object
-Validation](http://www.simson.net/clips/academic/2007.DFRWS.pdf), Simson
-Garfinkel, Digital Forensics Workshop (DFRWS 2007), Pittsburgh, PA,
+[Carving Contiguous and Fragmented Files with Fast Object Validation](http://www.simson.net/clips/academic/2007.DFRWS.pdf),
+by Simson Garfinkel, Digital Forensics Workshop (DFRWS 2007), Pittsburgh, PA,
 August 2007.
 
-[Automated Reassembly of File Fragmented Images Using Greedy
-Algorithms](http://digital-assembly.com/technology/research/pubs/ieee-trans-2006.pdf),
-Anandabrata Pal and Nasir Memon, IEEE Trans. Image Processing, Feb.
+[Automated Reassembly of File Fragmented Images Using Greedy Algorithms](http://digital-assembly.com/technology/research/pubs/ieee-trans-2006.pdf),
+by Anandabrata Pal and Nasir Memon, IEEE Trans. Image Processing, Feb.
 2006.
 
-[In-Place File
-Carving](http://www.cs.uno.edu/~golden/Stuff/ifip2007-final.pdf), Golden
-G. Richard III, Vassil Roussev, and Lodovico Marziale, IFIP WG 11.9,
+[In-Place File Carving](https://dl.ifip.org/db/conf/ifip11-9/df2007/RichardRM07.pdf),
+by Golden G. Richard III, Vassil Roussev, and Lodovico Marziale, IFIP WG 11.9,
 Advances in Digital Forensics, 2007.
 
 Reassembly of Fragmented JPEG Images Containing Restart Markers, Martin
@@ -60,18 +50,15 @@ Completing the Picture: Fragments and Back Again, Martin Karresand,
 Linköping : Linköpings universitet, 2008, 111 s. Linköping studies in
 science and technology. Thesis, ISBN: 978-91-7393-915-7
 
-[Detecting File Fragmentation Point Using Sequential Hypothesis
-Testing](http://www.dfrws.org/2008/proceedings/p2-pal.pdf). Anandabrata
-Pal, Husrev Sencar, Nasir Memon, DFRWS, 2008.
-[\[slides](http://www.dfrws.org/2008/proceedings/p2-pal_pres.pdf)\]
+[Detecting File Fragmentation Point Using Sequential Hypothesis Testing](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-detecting_file_fragmentation_point_using_sequential_hypothesis_testing.pdf),
+by Anandabrata Pal, Husrev Sencar, Nasir Memon, DFRWS, 2008.
+[slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-detecting_file_fragmentation_point_using_sequential_hypothesis_testing.pdf)
 
-[Identification and Recovery of JPEG Files with Missing
-Fragments](http://www.dfrws.org/2009/proceedings/p88-sencar.pdf). Husrev
-Sencar and Nasir Memon. DFRWS, 2009.
+https://dfrws.org/sites/default/files/session-files/2009_USA_paper-identification_and_recovery_of_jpeg_files_with_missing_fragments.pdf),
+by Husrev Sencar and Nasir Memon. DFRWS, 2009.
 
-[The Evolution of File
-Carving](http://digital-assembly.com/technology/research/pubs/ieee-spm-2009.pdf).
-Anandabrata Pal and Nasir Memon. IEEE Signal Processing Magazine,
+[The Evolution of File Carving](http://digital-assembly.com/technology/research/pubs/ieee-spm-2009.pdf),
+by Anandabrata Pal and Nasir Memon. IEEE Signal Processing Magazine,
 Volume: 26, Issue 2. March 2009.
 
 ### Sector Discrimination
@@ -101,7 +88,7 @@ capacities. CRC64 provides a good compromise between number of
 collisions and storage capacity required for practical implementations
 of sector-scanning forensic tools.",
 
-` url="`[`http://www.informaworld.com/10.1080/15567280802050436`](http://www.informaworld.com/10.1080/15567280802050436)`"`
+` url="`[`https://www.tandfonline.com/doi/abs/10.1080/15567280802050436`](https://www.tandfonline.com/doi/abs/10.1080/15567280802050436)`"`
 
 } </bibtex>
 

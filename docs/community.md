@@ -1,8 +1,11 @@
 # How to Contribute
 
-The Forensics Wiki has moved to GitHub, which has required some changes in the contributing process.
+The Forensics Wiki has moved to GitHub, which has required some changes in the
+contributing process.
 
-In order to add or update a page, you will need to create or edit a [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) file. You can do this in multiple ways, but the general flow is to:
+In order to add or update a page, you will need to create or edit a
+[Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+file. You can do this in multiple ways, but the general flow is to:
 
 - Copy ("fork") the [Forensics Wiki GitHub project](https://github.com/forensicswiki/wiki)
   - You can then download ("clone") this copy to your computer to work on, or edit
@@ -10,7 +13,8 @@ In order to add or update a page, you will need to create or edit a [Markdown](h
 - Send your changes back to the main Forensics Wiki project for review (submit a "pull request")
 - A maintainer will review your changes, request edits if necessary, and once everything looks good, add it to the site ("merge" it)
 
-GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) if you'd like a more detailed explanation.
+GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+if you'd like a more detailed explanation.
 
 ## Example Using the Command Line
 
@@ -39,11 +43,15 @@ GitHub has some excellent documentation on [contributing to projects](https://do
 
 ### Naming Convention
 
-The file name of the article should be in all lowercase and use underscores to connect words.  For example, if you write an article around "forensics" then the name should be `forensics.md`.  If you are writing an article about "forensic artifacts" then the name should be `forensic_artifacts.md`.
+The file name of the article should be in all lowercase and use underscores to
+connect words.  For example, if you write an article around "forensics" then
+the name should be `forensics.md`.  If you are writing an article about
+"forensic artifacts" then the name should be `forensic_artifacts.md`.
 
 ### Content Requirements
 
-In order to make the Forensics Wiki valuable, please use the following guidelines to help write high-quality articles:
+In order to make the Forensics Wiki valuable, please use the following
+guidelines to help write high-quality articles:
 
 1. _Introduction:_  All articles should have an Introduction, which summarizes what you intend to discuss in the article.
 2. _Sections:_  Appropiate sections are used to describe the topic being discussed.  
@@ -85,7 +93,12 @@ tags:
 
 ### Tag Guidelines
 
-Tags should describe the content of the article and should be applied uniformly across all the content.  This will help users discover the content more easily.  The table below has topics along with possible tags for each topic.  Multiple topics could apply to one article.  For example, a page tagged with `Tool` would also likely benefit from a tag denoting the appropriate Operating System, Software type, and Analysis type.
+Tags should describe the content of the article and should be applied uniformly
+across all the content.  This will help users discover the content more easily.
+ The table below has topics along with possible tags for each topic.  Multiple
+topics could apply to one article.  For example, a page tagged with `Tool`
+would also likely benefit from a tag denoting the appropriate Operating System,
+Software type, and Analysis type.
 
 See examples below the table.
 
@@ -117,8 +130,8 @@ An article about the Windows operating system in general.
 ```text
 ---
 tags:
-  -  Operating System
-  -  Windows
+  - Operating System
+  - Windows
 ---
 ```
 
@@ -129,11 +142,11 @@ An article about tools should contain the OSes that it supports (Linux and macOS
 ```text
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  macOS
-  -  Log Analysis
-  -  Open Source Software
+  - Linux
+  - Log Analysis
+  - MacOS
+  - Open Source Software
+  - Tools
 ---
 ```
 
@@ -144,9 +157,9 @@ An article about Bitlocker should contain the following tags:
 ```text
 ---
 tags:
-  -  Encryption
-  -  Windows
-  -  Anti-Forensics
+  - Anti-Forensics
+  - Encryption
+  - Windows
 ---
 ```
 
@@ -159,8 +172,8 @@ File Types are tagged with File Format and the file type.  In this case, Zip fil
 ```text
 ---
 tags:
-  -  File Format
-  -  Archive
+  - Archive
+  - File Format
 ---
 ```
 
@@ -171,11 +184,13 @@ Windows System Restore Points are part of the operating system (`OS Component`) 
 ```text
 ---
 tags:
-  -  OS Component
-  -  Windows
+  - OS Component
+  - Windows
 ---
 ```
 
 ### Suggesting New Tags
 
-There might be an article that does not fit well within these tagging guidelines. If you want to suggest a new tag, please open a [GitHub Issue](https://github.com/forensicswiki/wiki/issues).
+There might be an article that does not fit well within these tagging
+guidelines. If you want to suggest a new tag, please open a
+[GitHub Issue](https://github.com/forensicswiki/wiki/issues).

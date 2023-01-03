@@ -27,8 +27,7 @@ any tool for more details.
 
 ## Linux-based Tools
 
-[LINReS](linres.md) by [NII Consulting Pvt. Ltd.](NII_Consulting_Pvt._Ltd.md)
-<http://www.niiconsulting.com/innovation/linres.html>
+[LINReS](https://sourceforge.net/projects/linres/) by [NII Consulting Pvt. Ltd.](https://www.niiconsulting.com/)
 
 <!-- -->
 
@@ -37,8 +36,7 @@ any tool for more details.
 
 <!-- -->
 
-[Second Look: Linux Memory Forensics](second_look:_linux_memory_forensics.md) by [Pikewerks Corporation](pikewerks_corporation.md)
-<http://secondlookforensics.com/>
+[Second Look: Linux Memory Forensics](second_look.md) by Pikewerks Corporation
 
 ## Macintosh-based Tools
 
@@ -50,8 +48,7 @@ mobile and cloud data extraction.
 
 <!-- -->
 
-[Mac Marshal](mac_marshal.md) by [ATC-NY](ATC-NY.md)
-<http://www.macmarshal.com/>
+[Mac Marshal](mac_marshal.md) by [ATC-NY](https://www.atcorp.com/)
 
 <!-- -->
 
@@ -68,8 +65,7 @@ files.
 
 <!-- -->
 
-Belkasoft Acquisition Tool by [Belkasoft](belkasoft.md)
-<https://belkasoft.com/bat>
+[Belkasoft Acquisition Tool](https://belkasoft.com/bat) by [Belkasoft](belkasoft.md)
 BAT is a free utility to acquire a wide range of data sources: hard
 drives, running computers RAM memory, modern smartphones, and various
 types of clouds. The output can be analyzed with both Belkasoft and
@@ -77,8 +73,7 @@ third-party tools.
 
 <!-- -->
 
-Belkasoft Evidence Center by [Belkasoft](belkasoft.md)
-<https://belkasoft.com/ec>
+[Belkasoft Evidence Center](https://belkasoft.com/ec) by [Belkasoft](belkasoft.md)
 BEC allows an investigator to perform all investigation steps:
 acquisition (aquire hard and removable drives, image smartphones and
 download cloud data), extraction of evidence (searches and carves more
@@ -88,26 +83,14 @@ etc) and reporting.
 
 <!-- -->
 
-[Blackthorn GPS Forensics](blackthorn_gps_forensics.md)
-<http://www.blackthorngps.com>
-
-<!-- -->
-
-[BringBack](bringback.md) by [Tech Assist, Inc.](tech_assist.md)
-<http://www.toolsthatwork.com/bringback.htm>
-
-<!-- -->
-
-[CD/DVD Inspector](cd/dvd_inspector.md) by [InfinaDyne](infinadyne.md)
-<http://www.infinadyne.com/cddvd_inspector.html>
+[CD/DVD Inspector](http://www.infinadyne.com/cddvd_inspector.html) by [InfinaDyne](infinadyne.md)
 This is the only forensic-qualified tool for examinination of optical
 media. It has been around since 1999 and is in use by law enforcement,
 government and data recovery companies worldwide.
 
 <!-- -->
 
-[EMail Detective - Forensic Software Tool](email_detective_-_forensic_software_tool.md) by [Hot Pepper Technology, Inc](hot_pepper_technology%2C_inc.md)
-<http://www.hotpepperinc.com/emd>
+[EMail Detective - Forensic Software Tool](email_detective_forensic_software_tool.md) by [Hot Pepper Technology, Inc](hot_pepper_technology_inc.md)
 
 <!-- -->
 
@@ -129,41 +112,34 @@ encrypted containers, viewing and analyzing evidence.
 <!-- -->
 
 [EnCase](encase.md) by [Guidance Software](guidance_software.md)
-<http://www.guidancesoftware.com/>
 
 <!-- -->
 
-Facebook Forensic Toolkit (FFT) by [Afentis_forensics](afentis_forensics.md)
-<http://www.facebookforensics.com>
+[Facebook Forensic Toolkit (FFT)](http://www.facebookforensics.com) by [Afentis_forensics](afentis_forensics.md)
 eDiscovery toolkit to identify and clone full profiles; including wall
 posts, private messages, uploaded photos/tags, group details,
 graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[Forensic Explorer](forensic_explorer.md) ([FEX](fex.md)) by [GetData Forensics](getData_forensics.md)
-<http://www.forensicexplorer.com>
+[Forensic Explorer (FEX)](forensic_explorer.md) by GetData Forensics
 
 <!-- -->
 
 [Forensic Toolkit (FTK)](forensic_toolkit.md) by [AccessData](accessdata.md)
-<http://www.accessdata.com/products/ftk/>
 
 <!-- -->
 
-[ILook Investigator](ilook.md) by [Elliot Spencer](elliot_spencer.md) and
-[U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation](internal_revenue_service.md) (IRS)
-<http://www.ilook-forensics.org/>
+[ILook Investigator](ilook.md) by Elliot Spencer and
+U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation (IRS)
 
 <!-- -->
 
-[Internet Evidence Finder](internet_evidence_finder.md) ([IEF](ief.md)) by [Magnet Forensics](magnet_forensics.md)
-<http://www.magnetforensics.com/>
+Internet Evidence Finder (IEF) by [Magnet Forensics](https://www.magnetforensics.com/)
 
 <!-- -->
 
-[Mercury Indexer](mercury_indexer.md) by [MicroForensics, Inc.](microForensics_inc.md)
-<http://www.MicroForensics.com/>
+Mercury Indexer by [MicroForensics, Inc.](http://www.microforensics.com/)
 
 <!-- -->
 
@@ -172,18 +148,11 @@ graphically illustrate friend links, and generate expert reports.
 
 <!-- -->
 
-[OnLineDFS](onlinedfs.md) by [Cyber Security Technologies](Cyber_Security_Technologies.md)
-<http://www.cyberstc.com/>
+[OSForensics](https://www.osforensics.com/) by PassMark Software Pty Ltd
 
 <!-- -->
 
-[OSForensics](osforensics.md) by [PassMark Software Pty Ltd](PassMark_Software_Pty_Ltd.md)
-<http://www.osforensics.com/>
-
-<!-- -->
-
-[P2 Power Pack](p2_power_pack.md) by [Paraben](paraben_forensics.md)
-<https://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=187>
+P2 Power Pack by [Paraben](paraben_forensics.md)
 
 <!-- -->
 
@@ -192,22 +161,18 @@ graphically illustrate friend links, and generate expert reports.
 <!-- -->
 
 [Proof Finder](proof_finder.md) by [Nuix Pty Ltd](nuix_pty_ltd.md)
-<http://www.prooffinder.com/>
 
 <!-- -->
 
-[Safeback](safeback.md) by [NTI](nti.md) and [Armor Forensics](armor_forensics.md)
-<http://www.forensics-intl.com/safeback.html>
+[Safeback](safeback.md) by NTI and Armor Forensics
 
 <!-- -->
 
-[X-Ways Forensics](x-ways_forensics.md) by [X-Ways AG](x-ways_ag.md)
-<http://www.x-ways.net/forensics/index-m.html>
+[X-Ways Forensics](http://www.x-ways.net/forensics/index-m.html) by [X-Ways AG](x-ways_ag.md)
 
 <!-- -->
 
 [DateDecoder](datedecoder.md) by [Live-Forensics](live-forensics.md)
-<http://www.live-forensics.com/dl/DateDecoder.zip>
 
 A command line tool that decodes most encoded time/date stamps found on
 a windows system, and outputs the time/date in a human readable format.
@@ -215,7 +180,6 @@ a windows system, and outputs the time/date in a human readable format.
 <!-- -->
 
 [RecycleReader](recyclereader.md) by [Live-Forensics](live-forensics.md)
-<http://www.live-forensics.com/dl/RecycleReader.zip>
 
 A command line tool that outputs the contents of the recycle bin on XP,
 Vista and 7.
@@ -223,7 +187,6 @@ Vista and 7.
 <!-- -->
 
 [Dstrings](dstrings.md) by [Live-Forensics](live-forensics.md)
-<http://www.live-forensics.com/dl/Dstrings.zip>
 
 A command line tool that searches for strings in a given file. It has
 the ability to compare the output of those strings against a dictionary
@@ -234,7 +197,6 @@ IP Addresses and URLs/Email Addresses.
 <!-- -->
 
 [Unique](unique.md) by [Live-Forensics](live-forensics.md)
-<http://www.live-forensics.com/dl/Unique.zip>
 
 A command line tool similar to the Unix uniq. Allows for unique string
 counts, as well as various sorting options.
@@ -242,7 +204,6 @@ counts, as well as various sorting options.
 <!-- -->
 
 [HashUtil](hashutil.md) by [Live-Forensics](live-forensics.md)
-<http://www.live-forensics.com/dl/HashUtil.zip>
 
 HashUtil.exe will calculate MD5, SHA1, SHA256 and SHA512 hashes. It has
 an option that will attempt to match the hash against the NIST/ISC MD5
@@ -290,17 +251,16 @@ videos, data mine across comments, and generate expert reports.
 
 ## Open Source Tools
 
-[AFFLIB](afflib.md)
+[AFFLIB](https://github.com/sshock/AFFLIBv3)
 A library for working with [disk images](disk_image.md).
 Currently AFFLIB supports raw, [AFF](aff.md),
-[AFD](afd.md), and [EnCase](encase.md) file formats.
+AFD, and [EnCase](encase.md) file formats.
 Work to support segmented raw, [iLook](ilook.md), and other
 formats is ongoing.
 
 <!-- -->
 
-Autopsy
-<http://www.sleuthkit.org/autopsy/desc.php>
+[Autopsy](https://www.sleuthkit.org/autopsy/desc.php)
 
 <!-- -->
 
@@ -313,7 +273,6 @@ digital media.
 <!-- -->
 
 [Bulk Extractor Viewer](bulk_extractor_viewer.md)
-<https://github.com/simsong/bulk_extractor/wiki/BEViewer>
 
 Bulk Extractor Viewer is a browser UI for viewing Feature data extracted
 using [Bulk Extractor](bulk_extractor.md).
@@ -348,7 +307,6 @@ FTimes is a system baselining and evidence collection tool.
 <!-- -->
 
 [gpart](gpart.md)
-<http://www.stud.uni-hannover.de/user/76201/gpart/>
 
 Tries to *guess the primary partition table of a PC-type hard disk in
 case the primary partition table in sector 0 is damaged, incorrect or
@@ -372,8 +330,7 @@ disk images.
 
 <!-- -->
 
-[IPED](iped.md)
-<https://github.com/lfcnassif/IPED>
+[IPED](https://github.com/lfcnassif/IPED)
 
 An open source software that can be used to process and analyze digital
 evidence, often seized at crime scenes by law enforcement or in a
@@ -381,8 +338,7 @@ corporate investigation by private examiners.
 
 <!-- -->
 
-[magicrescue](magicrescue.md)
-<http://jbj.rapanden.dk/magicrescue/>
+[magicrescue](https://github.com/jbj/magicrescue)
 
 <!-- -->
 
@@ -407,18 +363,15 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[scrounge-ntfs](scrounge-ntfs.md)
-<http://memberwebs.com/nielsen/software/scrounge/>
+[scrounge-ntfs](https://github.com/lcorbasson/scrounge-ntfs)
 
 <!-- -->
 
 [The Sleuth Kit](the_sleuth_kit.md)
-<http://www.sleuthkit.org/>
 
 <!-- -->
 
-[The Coroner's Toolkit](the_coroner's_toolkit.md) ([TCT](tct.md))
-<http://www.porcupine.org/forensics/tct.html>
+[The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
 
 ## [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
 
@@ -466,15 +419,15 @@ See: [Forensics Live CDs](live_cd.md)
 
 ## GPS Forensics
 
-[Blackthorn GPS Forensics](blackthorn_gps_forensics.md)
-[.XRY](https://www.msab.com/)
+* Blackthorn GPS Forensics
+* [.XRY](https://www.msab.com/)
 
 ## PDA Forensics
 
-[Cellebrite UFED](cellebrite_ufed.md)
-[.XRY](https://www.msab.com/)
-[Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
-PDD
+* [Cellebrite UFED](cellebrite_ufed.md)
+* [.XRY](https://www.msab.com/)
+* [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* PDD
 
 ## Cell Phone Forensics
 
@@ -672,16 +625,12 @@ A Multi-OS supported, open sourced, hex and disk editor.
 
 <!-- -->
 
-[HexReader](hexreader.md)
-[Live-Forensics](live-forensics.md) software that reads windows
+HexReader [Live-Forensics](live-forensics.md) software that reads Windows
 files at specified offset and length and outputs results to the console.
-
-<http://www.live-forensics.com/dl/HexReader.zip>
 
 # Telephone Scanners/War Dialers
 
-PhoneSweep
-<http://www.sandstorm.net/products/phonesweep/>
+[PhoneSweep](http://www.sandstorm.net/products/phonesweep/)
 
 PhoneSweep is a commercial grade multi-line wardialer used by many
 security auditors to run telephone line scans in their organizations.
@@ -690,8 +639,7 @@ organizations that need to run scans remotely.
 
 <!-- -->
 
-TeleSweep
-<http://www.securelogix.com/modemscanner/>
+[TeleSweep](http://www.securelogix.com/modemscanner/)
 
 SecureLogix is currently offering no-cost downloads of our award-winning
 TeleSweep Secure® modem-vulnerability scanner. This free modem scanning
@@ -702,10 +650,7 @@ free however.
 
 <!-- -->
 
-WarVox
-<https://github.com/rapid7/warvox>
+[WarVox](https://github.com/rapid7/warvox)
 
 WarVOX is a free, open-source VOIP-based war dialing tool for exploring,
 classifying, and auditing phone systems.
-
-<!-- -->
