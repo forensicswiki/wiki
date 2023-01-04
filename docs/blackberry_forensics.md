@@ -37,42 +37,33 @@ and hopefully get them to disclose the password.
 `* Version 4.6 was used in this example`
 
 Prerequisites:
-Download and install Blackberry Desktop Manager.
-Use the following link to select and download the install file that fits
-your system or version.
-<https://www.blackberry.com/Downloads/entry.do?code=A8BAA56554F96369AB93E4F3BB068C22>
+
+* Download and install Blackberry Desktop Manager.
 
 Once Desktop Manager is installed:
+
 1. Open Blackberry’s Desktop Manager.
+
 2. Click “Options” then “Connection Settings”
 
-4. If the Desktop Manager hasn't already done so, select “USB-PIN:
+3. If the Desktop Manager hasn't already done so, select “USB-PIN:
 Device \#” for connection type. Your device \# may not be the same as
 the image below.
-5. Click "OK" to return to the main menu.
 
-6. Click “Backup and Restore”.
+4. Click "OK" to return to the main menu.
 
-7. Click the "Back up" button for a full backup of the device or use the
+5. Click “Backup and Restore”.
+
+6. Click the "Back up" button for a full backup of the device or use the
 Advanced section for specific data.
 
-8. Select your destination and save the ".ipd" file.
+7. Select your destination and save the ".ipd" file.
 
-### Using Older Versions of Desktop Manager
+## Opening Blackberry Backup Files (.ipd)
 
-Visit the archived instructions for use with older versions of Desktop
-Manager [click here](blackberry_forensics_backup_file_old.md).
-
-
-
-
-## Opening Blackberry Backup Files (.ipd)\*
-
-The IPD file can be read using several commercial utilities, including
-the MagicBerry IPD Reader and the
-[Amber Blackberry Converter](amber_blackberry_converter.md). The
-example below was created using version 6.7 of the latter.
-
+The IPD file can be read using several commercial utilities, including the
+MagicBerry IPD Reader and the Amber Blackberry Converter. The example below was
+created using version 6.7 of the latter.
 
 1. Use File \| Open and point the program to the BlackBerry backup file
 (.ipd).
@@ -84,8 +75,10 @@ the left and/or top.
 
 You may also export each subsection of acquired data to different file
 types such as pdf, txt, and html, etc.
+
 1. Select the appropriate content from the navigation items on the
 left.
+
 2. Either select an individual row or click "Select All" to export all
 rows.
 
@@ -213,13 +206,6 @@ transfer across a USB port.
   Converter
 - [BlackBerry Simulator](https://www.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477),
   Simulator Download website
-- [Desktop Manager](https://www.blackberry.com/Downloads/entry.do?code=A8BAA56554F96369AB93E4F3BB068C22),
-  BlackBerry Desktop Manager Download website
 - [IPD](http://na.blackberry.com/eng/devjournals/resources/journals/jan_2006/ipd_file_format.jsp),
   IPD File Format
-- [Older Desktop Manager Versions](blackberry_forensics_backup_file_old.md), Using
-  older versions of BlackBerry Desktop
-- [Paraben](http://www.paraben-forensics.com/catalog/index.php), Paraben
-  Corporation website
 - [Blackberry Protocol](http://www.off.net/cassis/protocol-description.html)
-- [Forensic Examination of a RIM (BlackBerry) Wireless Device](http://www.rh-law.com/ediscovery/Blackberry.pdf)

@@ -120,7 +120,7 @@ the information from the SIM card. Several products include:
 * [3GForensics SIMIS](http://www.3gforensics.co.uk/)
 * Inside Out's [SIMCon](http://simcon.no/)
 * SIM Content Controller
-* Paraben Forensics' [SIM Card Seizure](http://www.paraben-forensics.com/catalog/product_info.php?products_id=289)
+* Paraben Forensics' [SIM Card Seizure](https://paraben-sticks.com/index.php/product/sim-card-seizure/)
 
 The SIM file system is hierarchical in nature consisting of 3 parts:
 

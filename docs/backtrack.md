@@ -17,4 +17,4 @@ Since 2013 BackTrack Linux has been rebranded to Kali Linux.
 
 ## External Links
 
-* [Project site](http://www.backtrack-linux.org/)
+* [Project site](https://www.backtrack-linux.org/)

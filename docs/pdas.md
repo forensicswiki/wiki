@@ -36,7 +36,6 @@ are no published methods for analyzing the resulting data.
 
 ## Links
 
-* [Paraben's PDA Seizure](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=107)
 * [PDA FAQ,News,Reviews,Devices,Software,Freeware](http://www.mypocketpcmobile.com)
 * [Jansen, Ayers Guidelines on PDA Forensics](http://csrc.nist.gov/publications/nistpubs/800-72/sp800-72.pdf)
 * [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7100-PDAForensics.pdf)

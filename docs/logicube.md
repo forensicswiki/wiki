@@ -5,9 +5,8 @@ tags:
 ---
 ## Products
 
-* Logicube Talon
-* [Logicube Forensic Quest](logicube_forensic_quest.md)
+* [Hard Drive Duplicators](https://www.logicube.com/shop/category/hdd-duplication/)
 
 ## External Links
 
-* [Official website](http://www.logicubeforensics.com/)
+* [Official website](https://www.logicube.com/)

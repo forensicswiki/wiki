@@ -377,13 +377,11 @@ program originally based on [foremost](foremost.md).
 
 # Enterprise Tools (Proactive Forensics)
 
-[LiveWire Investigator 2008](livewire_investigator_2008.md) by [WetStone Technologies](wetstone_technologies_inc.md)
-<http://www.wetstonetech.com/f/livewire2008.html>
+[LiveWire Investigator 2008](livewire_investigator.md) by [WetStone Technologies](wetstone_technologies_inc.md)
 
 <!-- -->
 
-[P2 Enterprise Edition](p2_enterprise_edition.md) by [Paraben](paraben_forensics.md)
-<http://www.paraben-forensics.com/enterprise_forensics.html>
+P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 
 <!-- -->
 
@@ -402,8 +400,7 @@ program originally based on [foremost](foremost.md).
 
 <!-- -->
 
-[BackTrack Linux](backtrack_linux.md)
-[<http://www.backtrack-linux.org/>](http://www.backtrack-linux.org/)
+[BackTrack Linux](backtrack.md)
 
 <!-- -->
 
@@ -441,7 +438,7 @@ See: [Forensics Live CDs](live_cd.md)
 [Fernico ZRT](fernico_zrt.md)
 ForensicMobile
 LogiCube CellDEK
-[MOBILedit!](mobiledit!.md)
+[MOBILedit!](mobiledit.md)
 [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 
 [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
@@ -461,7 +458,7 @@ ForensicSIM
 ## Preservation Tools
 
 [Paraben StrongHold Bag](paraben_stronghold_bag.md)
-[Paraben StrongHold Tent](paraben_stronghold_tent.md)
+Paraben StrongHold Tent
 
 # Other Tools
 
@@ -473,24 +470,13 @@ AOL, MSN (Live), or Yahoo instant messenger.
 
 <!-- -->
 
-Serial Port Analyzer
-<http://www.eltima.com/how-to-analyze-serial-port-activity/>
+[Serial Port Analyzer](https://www.serial-port-communication.com/how-to-analyze-serial-port-activity/)
 
 The tool to analyze serial port and device activity.
 
 <!-- -->
 
-Computer Forensics Toolkit
-<http://computer-forensics.privacyresources.org>
-
-This is a collection of resources, most of which are informational,
-designed specifically to guide the beginner, often in a procedural
-sense.
-
-<!-- -->
-
-Live View
-<http://liveview.sourceforge.net/>
+[Live View](https://liveview.sourceforge.net/)
 
 Live View is a graphical forensics tool that creates a
 [VMware](vmware.md) [virtual
@@ -499,10 +485,7 @@ disk.
 
 <!-- -->
 
-Parallels VM
-<http://www.parallels.com/>
-
-<http://en.wikipedia.org/wiki/Parallels_Workstation>
+[Parallels VM](https://www.parallels.com/)
 
 <!-- -->
 
@@ -513,17 +496,11 @@ Share and access serial and USB ports over Ethernet
 
 <!-- -->
 
-Microsoft Virtual PC
-<http://www.microsoft.com/windows/products/winfamily/virtualpc/default.mspx>
-
-<http://en.wikipedia.org/wiki/Virtual_PC>
+[Microsoft Virtual PC](https://support.microsoft.com/en-us/topic/description-of-windows-virtual-pc-262c8961-90e5-1125-654f-d87cd5ba16f8)
 
 <!-- -->
 
-[VMware](vmware.md) Player
-<http://www.vmware.com/products/player/>
-
-<http://en.wikipedia.org/wiki/VMware#VMware_Workstation>
+[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)
 
 A free player for [VMware](vmware.md) [virtual
 machines](virtual_machine.md) that will allow them to "play" on
@@ -532,8 +509,7 @@ systems.
 
 <!-- -->
 
-[VMware](vmware.md) Server
-<http://www.vmware.com/products/server/>
+[vSphere](https://www.vmware.com/products/vsphere.html)
 
 The free server product, for setting up/configuring/running
 [VMware](vmware.md) [virtual
@@ -542,8 +518,7 @@ can run 'headless', i.e. everything in background.
 
 <!-- -->
 
-Recon for MAC OS X
-<https://www.sumuri.com/products/recon/>
+[Recon for MAC OS X](https://sumuri.com/)
 
 RECON for Mac OS X is simply the fastest way to conduct Mac Forensics,
 automates what an experienced examiner would need weeks to accomplish in
@@ -553,75 +528,45 @@ so much more.
 
 ## Hex Editors
 
-[biew](biew.md)
-<http://biew.sourceforge.net/en/biew.html>
-
-<!-- -->
-
 [bless](bless.md)
-<http://home.gna.org/bless/>
 
 <!-- -->
 
-[Okteta](okteta.md)
+[Okteta](https://apps.kde.org/okteta/)
 KDE's new cross-platform hex editor with features such as
 signature-matching
 
-<http://utils.kde.org/projects/okteta/>
+<!-- -->
+
+[HexFiend](https://hexfiend.com/)
+A hex editor for MacOS
 
 <!-- -->
 
-[hexdump](hexdump.md)
-...
+Hex Workshop
+A hex editor from [BreakPoint Software Inc.](http://www.bpsoft.com)
 
 <!-- -->
 
-[HexFiend](hexfiend.md)
-A hex editor for Apple OS X
-
-<http://ridiculousfish.com/hexfiend/>
+[khexedit](https://docs.kde.org/stable/en/kdeutils/khexedit/index.html)
 
 <!-- -->
 
-[Hex Workshop](hex_workshop.md)
-A hex editor from [BreakPoint Software,
-Inc.](breakpoint_software,_inc..md)
-
-<http://www.bpsoft.com>
-
-<!-- -->
-
-[khexedit](khexedit.md)
-<http://docs.kde.org/stable/en/kdeutils/khexedit/index.html>
-
-<!-- -->
-
-ReclaiMe Pro
+[ReclaiMe Pro](https://www.reclaime-pro.com/)
 The built-in disk editor visualizes most known partition and filesystem
 objects: boot sectors, superblocks, partition headers in structured
 view. Low-level data editing for extra leverage.
 
-<http://www.ReclaiMe-Pro.com>
-
 <!-- -->
 
-[WinHex](winhex.md)
+[WinHex](https://www.x-ways.net/winhex/)
 Computer forensics software, data recovery software, hex editor, and
 disk editor from [X-Ways](x-ways_ag.md).
 
-<http://www.x-ways.net/winhex>
-
 <!-- -->
 
-[wxHexEditor](wxhexeditor.md)
+[wxHexEditor](https://www.wxhexeditor.org/)
 A Multi-OS supported, open sourced, hex and disk editor.
-
-<http://www.wxhexeditor.org>
-
-<!-- -->
-
-[xxd](xxd.md)
-...
 
 <!-- -->
 
@@ -630,7 +575,7 @@ files at specified offset and length and outputs results to the console.
 
 # Telephone Scanners/War Dialers
 
-[PhoneSweep](http://www.sandstorm.net/products/phonesweep/)
+[PhoneSweep](https://www.sandstorm.net/)
 
 PhoneSweep is a commercial grade multi-line wardialer used by many
 security auditors to run telephone line scans in their organizations.
