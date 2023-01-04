@@ -63,4 +63,4 @@ has been acquired.
 
 ## External Links
 
-* [Paraben Forensics Tools: Cell Seizure - Advanced Mobile Phone Forensics Tool](http://www.paraben-forensics.com/catalog/product_info.php?cPath=25&products_id=311)
+* [Paraben](https://paraben.com/smartphone-forensic-tools/)

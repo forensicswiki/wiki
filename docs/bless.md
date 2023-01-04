@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  File Analysis
-  -  Open Source Software
+  - File Analysis
+  - Linux
+  - Open Source Software
+  - Tools
 ---
 ## Description
 
@@ -30,10 +30,4 @@ Bless's website says that the following are the main features:
 
 ## Installation Instructions
 
-Bless can be installed by using the command: *sudo apt-get install
-bless*
-
-## External Links
-
-- [Official website](http://home.gna.org/bless/index.html)
-
+Bless can be installed by using the command: *sudo apt-get install bless*

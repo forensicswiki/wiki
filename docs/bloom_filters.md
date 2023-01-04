@@ -31,4 +31,4 @@ tags:
 - [Privacy-Enhanced Searches Using Encrypted Bloom Filters](https://mice.cs.columbia.edu:443/getTechreport.php?techreportID=483),
   Bellovin and Cheswick, Columbia Univerisity Technical Report
   CUCS-034-07, 2004
-  [DIMACS 2004 slides](http://dimacs.rutgers.edu/Workshops/Privacy/slides/bellovin.pdf>)
+  [DIMACS 2004 slides](http://archive.dimacs.rutgers.edu/Workshops/Privacy/slides/bellovin.pdf)

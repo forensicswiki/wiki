@@ -255,9 +255,6 @@ the public.
 
 :\*\* Considered the root model of subsequent formats.
 
-:\*\* A detailed list of information can be found
-[here](http://www.win-rar.com/index.php?id=24&kb_article_id=162).
-
 :\* 2.0
 
 :\*\* Utilizes a proprietary compression method that is not available to
@@ -343,7 +340,6 @@ due to redundancy.
 
 ## See Also
 
-- [Wikipedia: RAR](http://en.wikipedia.org/wiki/RAR)
+- [Wikipedia: RAR (file format)](https://en.wikipedia.org/wiki/RAR_(file_format))
 - [RAR File Format Information](http://acritum.com/winrar/rar-format)
-- RAR File Format Technical Information for Version 4.11
-  ![<File:RARFileStructure.txt>](RARFileStructure.txt "File:RARFileStructure.txt")
+- [RAR Archive File Format, Version 4](https://www.loc.gov/preservation/digital/formats/fdd/fdd000458.shtml)

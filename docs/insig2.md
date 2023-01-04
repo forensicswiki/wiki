@@ -1,12 +1,11 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
-![](INsig2_logo_prozirni.png "INsig2_logo_prozirni.png")
 
 ## OVERVIEW
 
-[<span style="color:red">**INsig2**</span>](https://www.insig2.com/en/category/digital-forensics)
+[INsig2](https://www.insig2.com/en/category/digital-forensics)
 was founded in 2004 and its main focus is on digital forensics. Since
 the very first day of business activity, INsig2 has been working with
 digital evidence and digital forensics. Moreover, INsig2 recognized
@@ -250,8 +249,7 @@ level.
 
 ### INsig2 DataFocus
 
-![](INsig2_DataFocus_logo.png "INsig2_DataFocus_logo.png")[<span style="color:red">INsig2
-DataFocus</span>](https://www.insig2.com/datafocus-archive) is an annual
+[INsig2 DataFocus](https://www.insig2.com/datafocus-archive) is an annual
 international conference on digital evidence that has been organized
 successively since 2012 by INsig2. The conference is aimed mostly at law
 enforcement investigators, prosecutors, judges, and forensic experts.
@@ -288,4 +286,3 @@ Follow INsig2 on:
 Email: training@insig2.com
 
 Tel: +385 (1) 6386 600
-

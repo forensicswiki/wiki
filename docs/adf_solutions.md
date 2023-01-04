@@ -4,11 +4,10 @@ tags:
 ---
 # Overview
 
-[Advanced Digital Forensic Solutions,
-Inc.](http://www.adfsolutions.com)(ADF Solutions, Inc., or ADF
-Solutions) is a privately held, minority-owned small business based in
-Bethesda, Maryland. The company was founded in 2005 by J.J. Wallia and
-Raphael Bousquet.
+[Advanced Digital Forensic Solutions Inc.](https://www.adfsolutions.com/)
+(ADF Solutions, Inc., or ADF Solutions) is a privately held, minority-owned
+small business based in Bethesda, Maryland. The company was founded in 2005 by
+J.J. Wallia and Raphael Bousquet.
 
 ADF Solutions develops tools for media exploitation (MEDEX) and [digital
 forensics](digital_forensics.md) triage. These tools scan
@@ -37,7 +36,7 @@ Triage-G2 is used by several U.S. defense and intelligence agencies.
 [Triage-Examiner](http://www.adfsolutions.com/products/triage-examiner)
 is used by forensic examiners to scan suspect computers and prioritize
 the computers for full forensic examinations. Triage-Examiner is used by
-[Law Enforcement](law_enforcement.md) agencies worldwide.
+Law Enforcement agencies worldwide.
 Triage-Examiner Lab Add-On is an additional software component that
 works with Triage-Examiner for examiners who need to run the software on
 their laptops or forensic workstations to scan drive images, physical
@@ -136,46 +135,7 @@ specifically for first responders and nontechnical investigators
 Digital forensic triage and/or ADF Solutions has been described or
 highlighted in many different publications:
 
-• ["NPIA Pilot Program Is a Major
-Success"](http://www.adfsolutions.com/about/driving-efficiencies-npia-pilot-program-is-a-major-success-describes-article)
-• [Success of NPIA e-Forensics pilot set to help forces bring more
-offenders to justice quicker (NPIA Press
-Release)](http://www.adfsolutions.com/about/success-of-npia-eforensics-pilot-set-to-help-forces-bring-more-offenders-to-justice-quicker)
-• [SC Magazine Issues 5-Star Rating of Triage-Examiner
-3.3](http://www.scmagazine.com/adf-solutions-triage-examiner/review/3645/)
-• [Insights into Digital Forensics: Interview with Harry
-Parsonage](http://f-interviews.com/2012/03/01/interview-with-harry-parsonage/)
-• [Digital Forensic Triage Gets Tangible Results, Secures
-Convictions](http://www.nottinghamshire.police.uk/newsandevents/news/2012/february/13/software_helps_capture_online_paedophiles/)
-• [Police to speed up e-forensics to bring offenders to
-justice](http://www.publicservice.co.uk/news_story.asp?id=18041)
-• [Popular Mechanics: The Special Operations Forensic Tool
-Kit](http://www.popularmechanics.com/technology/military/news/the-special-operations-forensic-tool-kit-metal-tec-1400#slide-10)
-• [New software to help police catch web paedophiles (Nottingham
-Post)](http://www.thisisnottingham.co.uk/New-software-help-police-catch-web-paedophiles/story-12264526-detail/story.html)
-• [ADF on CyberSpeak’s
-Podcast](http://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
-• [DFI News: Parameters for Selecting a Triage
-Tool](http://www.dfinews.com/article/parameters-selecting-triage-tool)
-• [Graduates Find Incubators Help Breed
-Success](http://www.adfsolutions.com/about/graduates-find-incubators-help-breed-success)
-• [UK force has cut huge backlog using new Triage-ID scanning
-software](http://www.adfsolutions.com/about/uk-force-has-cut-huge-backlog-using-new-triage-id-scanning-software)
-• [UK police: ‘We need crime breathalysers for
-PCs’](http://www.adfsolutions.com/about/uk-police-we-need-crime-breathalysers-for-pcs)
-• [Smart software helps secure quick
-conviction](http://www.adfsolutions.com/about/smart-software-helps-secure-quick-conviction)
-• [Notts Police Lead UK in Child Porn
-Fight](http://www.adfsolutions.com/wp/wp-content/uploads/notts-police-leads-uk-in-chil1.pdf)
-• [Child porn scanner averts cop
-burnout](http://www.adfsolutions.com/wp/wp-content/uploads/times-colonist-digital-times-colonist-23-apr-2007.pdf)
-• [Finalists Selected for 2006 Maryland Incubator Company of the Year
-Awards](http://www.adfsolutions.com/wp/wp-content/uploads/ICYA2006Finalists.pdf)
-• [Washington Post – Start-Up
-section](http://www.washingtonpost.com/wp-dyn/content/article/2006/03/26/AR2006032600808.html)
-• [New Cancer Test, Arthritis Treatment, Digital Forensic Tool Among 14
-Announced University of Maryland MIPS Research
-Projects](http://www.adfsolutions.com/wp/wp-content/uploads/mips_r37_release1.pdf)
+* [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
 
 # Social Media and other Websites
 
@@ -188,8 +148,7 @@ Social media
 [Facebook](http://www.facebook.com/adfsolutions)
 [Twitter](https://twitter.com/adfsolutions)
 [LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)
-[You Tube](http://www.youtube.com/user/ADFSolutionsInc)
-[Google+](https://plus.google.com/u/0/116499277699076435840/posts)
+[YouTube](http://www.youtube.com/user/ADFSolutionsInc)
 
 <H4>
 

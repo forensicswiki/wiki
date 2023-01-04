@@ -42,10 +42,6 @@ data from formatted or scratched CD/DVD.
 
 ## External Links
 
-- [Download
-  Link](http://download.cnet.com/MiniTool-Power-Data-Recovery-Free-Edition/3000-2094_4-10561431.html?part=dl-&subj=dl&tag=button)
-- [MiniTool Power Data
-  Recovery](http://www.minitool-partitionrecovery.com/minitool-power-data-recovery.html)
+- [MiniTool website](http://www.minitool-partitionrecovery.com/)
 
 [MiniTool Solution Ltd](minitool_solution_ltd.md)
-

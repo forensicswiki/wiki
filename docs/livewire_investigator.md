@@ -1,11 +1,8 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 **LiveWire Investigator™**
-[1](https://www.wetstonetech.com/cgi/shop.cgi?view,14)
-
-##
 
 LiveWire Investigator is the ultimate tool for incident response,
 vulnerability assessment, compliance audits and criminal investigations.
@@ -32,14 +29,12 @@ Pentium® 2 GHz processor or better
 
 **Currently Supported Targets:**
 
-Microsoft® Windows® XP Professional, Microsoft® Windows® 2000
-Professional, Microsoft® Windows® NT4, Microsoft® Windows® Server 2003,
-Microsoft® Windows® Vista
+* Microsoft® Windows® NT4
+* Microsoft® Windows® 2000 Professional
+* Microsoft® Windows® XP Professional
+* Microsoft® Windows® Server 2003
+* Microsoft® Windows® Vista
 
-------------------------------------------------------------------------
+## External Links
 
-Contact Information:
-
-1-877-WETSTONE ext. 2
-
-www.wetstonetech.com[2](https://www.wetstonetech.com/index.html)
+* [Official website](https://www.wetstonetech.com/)

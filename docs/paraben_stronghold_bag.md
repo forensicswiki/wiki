@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Commercial Hardware
+  - Mobile
 ---
 [Paraben](paraben_forensics.md)'s **Wireless StrongHold Bag** is an "evidence
 bag" for wireless radio frequency devices, for [PDAs](pdas.md),
@@ -28,4 +29,4 @@ introduction to actual digital evidence.
 
 ## External Links
 
-* [Paraben's Wireless StrongHold Bag](http://www.paraben-forensics.com/catalog/product_info.php?cPath=26&products_id=173)
+* [Paraben](https://paraben.com/wireless-device-protection/)

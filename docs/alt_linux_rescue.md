@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Live CD
-  -  Open Source Software
+  - Linux
+  - Live CD
+  - Open Source Software
+  - Tools
 ---
-**ALT Linux Rescue** is yet another sysadmin's [Live
-CD](live_cd.md) with some forensic capabilities and features.
+**ALT Linux Rescue** is yet another sysadmin's [Live CD](live_cd.md) with some
+forensic capabilities and features.
 
 ## Intro
 
@@ -26,7 +26,7 @@ Build profile suitable for ALT Linux `mkimage` tool is included as
 ## Tools included
 
 Most of the usual rescue suspects should be there;
-[biew](biew.md), [chntpw](chntpw.md),
+biew, [chntpw](chntpw.md),
 [dc3dd](dc3dd.md)/[dcfldd](dcfldd.md),
 [foremost](foremost.md), [john](john.md),
 [md5deep](md5deep.md), [nmap](nmap.md),
