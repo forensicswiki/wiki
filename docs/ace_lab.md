@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 ACE is a group of companies specializing in R&D, manufacturing and
 services in the data recovery field. Under the ACE Lab trademark, ACE
@@ -9,12 +9,11 @@ with the most comprehensive and reliable professional data recovery
 tools on the market through its PC-3000 product line. The company has
 served over 15 000 customers in 110 countries worldwide.
 
-The company offers a range of drive repair and data recovery products
-for HDD, SSD, SAS/SCSI, RAID arrays and Flash devices. The Data
-Extractor software, used in conjunction with [PC-3000
-Express/UDMA/Portable/Flash](http://www.acelaboratory.com/catalog/), is
-a universal data recovery solution for drive imaging, cloning, file
-carving and restoration.
+The company offers a range of drive repair and data recovery products for HDD,
+SSD, SAS/SCSI, RAID arrays and Flash devices. The Data Extractor software, used
+in conjunction with [PC-3000 Express/UDMA/Portable/Flash](http://www.acelaboratory.com/catalog/),
+is a universal data recovery solution for drive imaging, cloning, file carving
+and restoration.
 
 ## Forensic Use
 
@@ -43,16 +42,10 @@ most complicated cases when all other methods and tools fail.
 
 ## Data Recovery Solutions
 
-[PC-3000 Express](pc-3000_express.md)
-
-[PC-3000 UDMA](pc-3000_udma.md)
-
-[PC-3000 SAS/SCSI](pc-3000_sas/scsi.md)
-
-[PC-3000 Portable](pc-3000_portable.md)
-
-[PC-3000 Flash](pc-3000_flash.md)
-
-[Data Extractor](data_extractor.md)
-
-[PC-3000 Easy Mode](pc-3000_easy_mode.md)
+* Data Extractor
+* PC-3000 Easy Mode
+* PC-3000 Express
+* PC-3000 Flash
+* PC-3000 Portable
+* PC-3000 SAS/SCSI
+* PC-3000 UDMA
