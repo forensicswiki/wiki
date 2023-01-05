@@ -6,15 +6,13 @@ tags:
 communication service that transfers data at a rate of up to 40-50Kbps,
 a similar access speed to a dial-up modem.
 
-It permits continuous connection to the Internet for [mobile
-phones](mobile_phone.md) and higher data rates allow for the use
-of multimedia applications such as websites viewing on mobile
-[handheld](handheld.md) devices. Other features provided through
+It permits continuous connection to the Internet for [mobile phones](mobile_phone.md)
+and higher data rates allow for the use of multimedia applications such as
+websites viewing on mobile handheld devices. Other features provided through
 the use of GPRS are e-mail, video streaming, multimedia messages and
-location-based services. GPRS is based on [Global System for
-Mobile](global_system_for_mobile.md) communication, which
-runs at speeds of up to 9.6 kilobits, and is available on almost all GSM
-networks.
+location-based services. GPRS is based on Global System for Mobile
+communication, which runs at speeds of up to 9.6 kilobits, and is available on
+almost all GSM networks.
 
 GPRS is an efficient way of sending and receiving small bursts of data,
 such as e-mail and web browsing, in addition to receiving large volumes

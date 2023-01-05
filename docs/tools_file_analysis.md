@@ -30,21 +30,19 @@ that, it uses a magic configuration file that identifies filetypes.
 
 <!-- -->
 
-[ldd](ldd.md)
+[ldd](https://linux.die.net/man/1/ldd)
 List dynamic dependencies of executable files.
 
 <!-- -->
 
-[truss](truss.md)
+[truss](https://docs.oracle.com/cd/E88353_01/html/E37839/truss-1.html)
 Solaris tool used to trace the system/library calls (not user calls) and
 signals made/received by a new or existing process. It sends the output
 to stderr.
 
-<http://docs.sun.com/app/docs/doc/819-2239/truss-1?l=en&a=view&q=truss>
-
 <!-- -->
 
-[PDF Miner](pdf_miner.md)
+[PDF Miner](http://www.unixuser.org/~euske/python/pdfminer/index.html)
 "...suite of programs that aims to help analyzing text data from PDF
 documents. It includes a PDF parser, a PDF renderer (though only
 rendering text is supported for now), and a couple of nice tools to
@@ -54,56 +52,42 @@ such as font size or font name, which could be useful for analyzing the
 document. It also infers text running within a page by using clustering
 technique."
 
-<http://www.unixuser.org/~euske/python/pdfminer/index.html>
-
 <!-- -->
 
-[ltrace](ltrace.md)
+[ltrace](http://linux.die.net/man/1/ltrace)
 Library call tracer.
 
-<http://linux.die.net/man/1/ltrace>
-
 <!-- -->
 
-[strace](strace.md)
+[strace](https://sourceforge.net/projects/strace/)
 System Call Tracer.
 
-<https://sourceforge.net/projects/strace/>
-
 <!-- -->
 
-[xtrace](xtrace.md)
+[xtrace](https://sourceforge.net/projects/xtrace/)
 eXtended trace utility, similar to strace, ptrace, truss, but with
 extended functionality and unique features, such as dumping function
 calls (dynamically or statically linked), dumping call stack and more.
 
-<https://sourceforge.net/projects/xtrace/>
-
 <!-- -->
 
-[ktrace](ktrace.md)
+[ktrace](http://www.openbsd.org/cgi-bin/man.cgi?query=ktrace&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html)
 Enables kernel process tracing on OpenBSD.
 
-<http://www.openbsd.org/cgi-bin/man.cgi?query=ktrace&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html>
-
 <!-- -->
 
-[Valgrind](valgrind.md)
+[Valgrind](http://valgrind.org/)
 Executes a program under emulation, performing analysis according to one
 of the many plug-in modules as desired. You can write your own plug-in
 module as desired.
 
-<http://valgrind.org/>
-
 <!-- -->
 
-[DTrace](dtrace.md)
+[DTrace](http://www.sun.com/bigadmin/content/dtrace/)
 Comprehensive dynamic tracing framework for Solaris (also ported to
 MacOS X - XRays and FreeBSD). DTrace provides a powerful infrastructure
 to permit investigation of the behavior of the operating system and user
 programs.
-
-<http://www.sun.com/bigadmin/content/dtrace/>
 
 <!-- -->
 
@@ -120,45 +104,33 @@ The [Open Computer Forensics Architecture](open_computer_forensics_architecture.
 
 <!-- -->
 
-[Rifiuti](rifiuti.md)
+[Rifiuti](http://www.foundstone.com/us/resources/proddesc/rifiuti.htm)
 Examines the INFO2 file in the Recycle Bin.
 
-<http://www.foundstone.com/us/resources/proddesc/rifiuti.htm>
-
 <!-- -->
 
-[Pasco](pasco.md)
+[Pasco](http://www.foundstone.com/us/resources/proddesc/pasco.htm)
 Parses *index.dat* files.
 
-<http://www.foundstone.com/us/resources/proddesc/pasco.htm>
-
 <!-- -->
 
-[Galleta](galleta.md)
+[Galleta](http://www.foundstone.com/us/resources/proddesc/galleta.htm)
 Parses cookie files.
 
-<http://www.foundstone.com/us/resources/proddesc/galleta.htm>
-
 <!-- -->
 
-dumpster_dive.pl
+[dumpster_dive.pl](http://jafat.sourceforge.net/files.html)
 MS Windows Recycle Bin INFO2 parser
 
-<http://jafat.sourceforge.net/files.html>
-
 <!-- -->
 
-cookie_cruncher.pl
+[cookie_cruncher.pl](http://jafat.sourceforge.net/files.html)
 MS IE cookie file parser
 
-<http://jafat.sourceforge.net/files.html>
-
 <!-- -->
 
-[yim2text](yim2text.md)
+[yim2text](http://www.1vs0.com/tools.html)
 Extracts the 'encrypted' info in Yahoo Instant Messenger log files.
-
-<http://www.1vs0.com/tools.html>
 
 <!-- -->
 
@@ -170,35 +142,30 @@ more than 60 file formats.
 <!-- -->
 
 [Cygwin](cygwin.md)
-<http://www.cygwin.com/>
 
 Linux like environment for Windows.
 
 <!-- -->
 
-[UnxUtils](unxutils.md)
-<http://unxutils.sourceforge.net/>
+[UnxUtils](http://unxutils.sourceforge.net/)
 
 Common unix utilities compiled for a Windows environment.
 
 <!-- -->
 
-[GnuWin32](gnuwin32.md)
-<http://gnuwin32.sourceforge.net/>
+[GnuWin32](http://gnuwin32.sourceforge.net/)
 
 Common GNU utilities compiled for a Windows Environment.
 
 <!-- -->
 
-[SUA](sua.md)
-<http://www.microsoft.com/windowsserver2003/R2/unixcomponents/webinstall.mspx>
+[SUA](http://www.microsoft.com/windowsserver2003/R2/unixcomponents/webinstall.mspx)
 
 Microsoft Subsystem for UNIX-based Applications.
 
 <!-- -->
 
-[GetHashes.sh](gethashes.sh.md)
-<https://bitbucket.org/stewdebaker/unix-hashing-script>
+[GetHashes.sh](https://bitbucket.org/stewdebaker/unix-hashing-script)
 
 Utility to hash all files in a folder. Useful for hashing gathered
 forensic data for proof-of-integrity.

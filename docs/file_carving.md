@@ -14,7 +14,7 @@ structures are unknown or have been overwritten.
 
 Most file carvers operate by looking for file headers and/or footers,
 and then "carving out" the blocks between these two boundaries.
-[Semantic Carving](semantic_carving.md) performs carving based
+Semantic Carving performs carving based
 on an analysis of the contents of the proposed files.
 
 File carving should be done on a [disk image](disk_image.md),
@@ -126,7 +126,7 @@ the original file or object. Garfinkel previously called this approach
 Repackaging Carving
 A carving method that modifies the extracted data by adding new headers,
 footers, or other information so that it can be viewed with standard
-utilities. For example, Garfinkel's [ZIP Carver](zip_carver.md)
+utilities. For example, Garfinkel's ZIP Carver
 looks for individual components of a ZIP file and repackages them with a
 new Central Directory so that they can be opened with a standard unzip
 utility.

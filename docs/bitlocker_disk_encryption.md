@@ -102,7 +102,7 @@ opened on Windows 10 systems and later.
 
 ## See Also
 
-- [BitLocker: How to image](bitlocker:_how_to_image.md)
+- [BitLocker: How to image](bitlocker_how_to_image.md)
 
 ## External Links
 

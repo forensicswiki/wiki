@@ -1,17 +1,17 @@
 ---
 tags:
-  -  Computer Bus
-  -  Hardware
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Computer Bus
+  - Hardware
 ---
 A BUS is used to connect harddisks and other media's to the computer.
 The busses mainly differ in their operating conditions.
 
 ## Internal drives (Home users)
 
-- [IDE](ide.md) / [ATA Interface](ata_interface.md)
+- IDE / [ATA Interface](ata_interface.md)
   (parallel ATA)
-- [SATA](sata.md)
+- SATA
 
 ## Internal drives (Server environment)
 

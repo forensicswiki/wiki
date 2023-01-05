@@ -3,22 +3,17 @@ tags:
   - No Category
 ---
 There are many forms of **data storage media** out there, all with
-different properties regarding [forensic
-investigation](forensic_investigation.md).
+different properties regarding forensic investigation.
 
 ## Media
 
 - [Caches](cache.md)
-- [RAM](ram.md), ROM,
-  [Flash](flash.md), ...
-- [Floppy Disks](floppy_disk.md)
-- [CDs](cd.md), DVDs,
-  [CD-RWs](cd-rw.md), ...
+- RAM, ROM, Flash
+- Floppy Disks
+- Optical media: CDs, DVDs, CD-RWs, ...
 - [Hard drives](hard_drive.md)
-- [USB thumb drives](usb_thumb_drive.md)
-- [Memory cards](memory_card.md),
-  [Smartcards](smartcard.md), [SIM cards](sim_cards.md),
-  [RFID](rfid.md) tags...
+- USB thumb drives
+- Memory cards, Smartcards, [SIM cards](sim_cards.md), [RFID tags](rfid.md), ...
 - [Tapes](tape.md)
 - [SSD](solid_state_drives.md)
 

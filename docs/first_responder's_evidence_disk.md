@@ -8,7 +8,7 @@ to capture volatile information from a computer system for later
 analysis without modifying anything on the victim. It consists of a
 batch file used to execute a set of known good tools that gather the
 state of a victim computer system. It was similar to the
-[IRCR](ircr.md) program and has been widely imitated by other
+IRCR program and has been widely imitated by other
 tools. Many other incident response tools used names similar to FRED.
 
 ## Usage
@@ -58,7 +58,6 @@ inspired the development of [md5deep](md5deep.md).
 
 ## See Also
 
-- [IRCR](ircr.md)
 - [COFEE](cofee.md)
 
 ## External Links
