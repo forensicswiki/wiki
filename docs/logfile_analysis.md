@@ -15,13 +15,11 @@ divided in the following categories:
 ## Binary formats
 
 - [Windows Event Log (evt)](windows_event_log_(evt).md)
-- [Windows XML Event Log
-  (evtx)](windows_xml_event_log_(evtx).md)
+- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 
 ## Text-based formats
 
-- [Apache HTTP Server access log
-  format](http://httpd.apache.org/docs/1.3/logs.html#accesslog)
+- [Apache HTTP Server access log format](http://httpd.apache.org/docs/1.3/logs.html#accesslog)
 
 ## Tools
 

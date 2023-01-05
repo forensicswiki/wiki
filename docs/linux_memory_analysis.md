@@ -3,7 +3,7 @@ tags:
   -  Memory Analysis
 ---
 The output of a [memory acquisition
-tool](tools:memory_imaging.md) is a memory image which contains
+tool](tools_memory_imaging.md) is a memory image which contains
 the raw physical memory of a system. A wide variety of tools can be used
 to search for strings or other patterns in a memory image, but to
 extract higher-level information about the state of the system a memory

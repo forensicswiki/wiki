@@ -16,4 +16,4 @@ USB hardware design for all DFL firmware repair tools.
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 
-[Tools:Data_Recovery](tools:data_recovery.md)
+[Tools:Data_Recovery](tools_data_recovery.md)

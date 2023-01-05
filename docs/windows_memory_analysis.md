@@ -44,7 +44,7 @@ images to practice with.
 ## See Also
 
 * [Memory analysis](memory_analysis.md)
-* [Tools:Memory Imaging](tools:memory_imaging.md)
+* [Tools:Memory Imaging](tools_memory_imaging.md)
 * [Pagefile.sys](pagefile.sys.md)
 * [Memory Limits for Windows
   Releases](http://msdn.microsoft.com/en-us/library/aa366778%28VS.85%29.aspx),
@@ -53,7 +53,7 @@ images to practice with.
 ## History
 
 During the 1990s, it became a [best practice](best_practice.md)
-to capture a [memory image](tools:memory_imaging.md) during
+to capture a [memory image](tools_memory_imaging.md) during
 [incident response](incident_response.md). At the time, the only
 way to analyze such memory images was using
 [strings](strings.md). Although this method could reveal

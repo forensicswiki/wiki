@@ -21,7 +21,7 @@ File carving should be done on a [disk image](disk_image.md),
 rather than on the original disk.
 
 File carving tools are listed on the
-[Tools:Data_Recovery](tools:data_recovery.md) wiki page.
+[Tools:Data_Recovery](tools_data_recovery.md) wiki page.
 
 Many carving programs have an option to only look at or near sector
 boundaries where headers are found. However, searching the entire input
@@ -153,7 +153,7 @@ by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#12)
 
 ## See also
 
-* [File Carving Tools](tools:data_recovery.md#carving)
+* [File Carving Tools](tools_data_recovery.md#carving)
 * [File Carving Bibliography](file_carving_bibliography.md)
 * [Carver 2.0 Planning Page](carver_2.0_planning_page.md)
 * [SmartCarving](file_carving_smartcarving.md)

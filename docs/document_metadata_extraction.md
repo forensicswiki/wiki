@@ -4,7 +4,7 @@ tags:
 ---
 Here are tools that will extract metadata from document files.
 
-# Office Files
+## Tools
 
 [antiword](antiword.md)
 <http://www.winfield.demon.nl/>
