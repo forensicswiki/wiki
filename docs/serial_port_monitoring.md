@@ -34,8 +34,8 @@ investigation.
 **Tools** Here are some tools used to monitor the data transfer between
 COM devices.
 
-[Serial Port Monitoring tool](http://www.eltima.com/monitor-com-port/)
+[Serial Port Monitoring tool](https://www.com-port-monitoring.com/)
 
 [HHD USB/Serial Port Monitoing Software](http://www.hhdsoftware.com)
 
-[AGGSoftware](http://www.aggsoft.com)
+[AGGSoftware](https://www.aggsoft.com/)

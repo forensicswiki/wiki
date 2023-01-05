@@ -24,4 +24,4 @@ investigation](forensic_investigation.md).
 
 ## External Links
 
-* [Wikipedia: Computer storage](http://en.wikipedia.org/wiki/Computer_storage)
+* [Wikipedia: Computer storage](https://en.wikipedia.org/wiki/Computer_storage)

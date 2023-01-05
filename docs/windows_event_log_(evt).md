@@ -22,7 +22,7 @@ empty, slack and padding.
 ## Header Record
 
 The Header Record defined as
-[ELF_LOGFILE_HEADER](http://msdn.microsoft.com/en-us/library/bb309024%28VS.85%29.aspx)
+[ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)?redirectedfrom=MSDN)
 on MSDN consists of:
 
 1.  uint32 length of record in bytes, fixed 0x30
@@ -70,7 +70,7 @@ Filesize is updated only during some recovery operations.
 
 Details of the Event record can be found in Microsoft's MSDN library
 under
-[EVENTLOGRECORD](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/eventlog/base/eventlogrecord_str.asp).
+[EVENTLOGRECORD](https://learn.microsoft.com/en-us/docs/).
 
 ## Padding
 

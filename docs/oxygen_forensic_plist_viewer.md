@@ -24,5 +24,5 @@ image, or play a sound automatically.
 ## External Links
 
 - [Product
-  page](http://www.oxygen-forensic.com/en/features/plistviewer/)
+  page](https://www.oxygen-forensic.com/en/features/plistviewer/)
 - [Publisher site](http://www.oxygen-forensic.com/en/)

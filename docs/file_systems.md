@@ -128,7 +128,7 @@ Windows.
 
 NCryptfs
 [NCryptfs: A Secure and Convenient Cryptographic File
-System](http://www.fsl.cs.sunysb.edu/docs/ncryptfs/ncryptfs.pdf),
+System](https://www.fsl.cs.sunysb.edu/docs/ncryptfs/ncryptfs.pdf),
 Charles P. Wright, Michael C. Martino, and Erez Zadok, Stony Brook
 University, USENIX 2003 Annual Technical Conference.
 
@@ -137,9 +137,9 @@ University, USENIX 2003 Annual Technical Conference.
 TCFS
 **Transparent Cryptographic File System**.
 
-<http://www.tcfs.it/>
+<https://www.tcfs.it/>
 
-<http://www.tcfs.it/docs/tcfs.ps>
+<https://www.tcfs.it/docs/tcfs.ps>
 
 <!-- -->
 
@@ -242,10 +242,10 @@ Originally from Sun, it is the standard in UNIX-based networks.
 
 # External Links
 
-- <http://en.wikipedia.org/wiki/File_system>
-- <http://en.wikipedia.org/wiki/List_of_file_systems>
-- <http://en.wikipedia.org/wiki/Comparison_of_file_systems>
-- <http://www.ctera.com/home/next3.html>
-- <http://en.wikipedia.org/wiki/Next3>
+- <https://en.wikipedia.org/wiki/File_system>
+- <https://en.wikipedia.org/wiki/List_of_file_systems>
+- <https://en.wikipedia.org/wiki/Comparison_of_file_systems>
+- <https://www.ctera.com/product/ctera-portal/>
+- <https://en.wikipedia.org/wiki/Next3>
 - [Overwriting Hard Drive Data: The Great Wiping
   Controversy](http://www.springerlink.com/content/408263ql11460147/)

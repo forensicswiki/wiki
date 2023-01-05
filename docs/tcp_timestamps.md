@@ -51,5 +51,5 @@ Following tools can automate this process:
 ## Links
 
 - [RFC 1323](http://rfc.net/rfc1323.html)
-- <http://uptime.netcraft.com/>
+- <https://uptime.netcraft.com/>
 

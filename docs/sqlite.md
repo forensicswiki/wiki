@@ -18,7 +18,7 @@ serverless, zero-configuration, transactional SQL database engine.</i>
 --SQLite project definition
 
 More details about the software and general use are available from the
-[project site](http://sqlite.org/).
+[project site](https://sqlite.org/index.html).
 
 ## See Also
 
@@ -26,4 +26,4 @@ More details about the software and general use are available from the
 
 ## External Links
 
-- [Project site](http://sqlite.org/)
+- [Project site](https://sqlite.org/index.html)

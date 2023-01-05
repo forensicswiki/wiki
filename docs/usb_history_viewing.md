@@ -137,7 +137,7 @@ Registry entry and can be modified).
 
 Security Log Audit Plug and Play Activity
 
-[6416](https://docs.microsoft.com/en-us/windows/device-security/auditing/event-6416):
+[6416](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6419):
 A new external device was recognized by the System.
 
 6419: A request was made to disable a device.
@@ -173,7 +173,7 @@ and VBR data.
 
 <!-- -->
 
-- [UVCView](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream/avstream-testing-and-debugging)
+- [UVCView](https://learn.microsoft.com/en-us/windows-hardware/drivers/stream/avstream-testing-and-debugging)
   or the USB Video Class descriptor viewer is a tool in the
   [Windows](windows.md) Driver Kit (WDK) that allows you to view
   the descriptors of any attached USB device. It runs on most recent
@@ -182,7 +182,7 @@ and VBR data.
 <!-- -->
 
 - [Thesycon USB Descriptor
-  Dumper](http://www.thesycon.de/eng/usb_descriptordumper.shtml) is a
+  Dumper](https://www.thesycon.de/eng/usb_descriptordumper.shtml) is a
   free tool to display USB descriptors using Windows systems.
 
 <!-- -->
@@ -201,7 +201,7 @@ and VBR data.
 <!-- -->
 
 - [USB Forensic
-  Tracker](http://orionforensics.com/w_en_page/USB_forensic_tracker.php)
+  Tracker](http://www.orionforensics.com/forensics-tools/usb-forensic-tracker/)
   has 32bit and 64bit Windows versions. Allows the parsing of Windows
   and Apple OSX USB activity. Able to parse from the following sources :
   Registry, Windows event logs, setupapi.log files and OSX system logs
@@ -209,7 +209,7 @@ and VBR data.
 <!-- -->
 
 - [Hacking Exposed Computer Forensics Blog
-  Entry](http://www.hecfblog.com/2017/04/windows-now-built-in-anti-forensics.html)
+  Entry](https://www.hecfblog.com/2017/04/windows-now-built-in-anti-forensics.html)
   Considerations with Windows 10 USB attachments.
 
 <!-- -->

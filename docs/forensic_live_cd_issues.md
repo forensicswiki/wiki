@@ -59,7 +59,7 @@ As described above, this may result in data writes to evidentiary media.
 For example, several Ubuntu-based forensic Live CD distributions mount
 and recover damaged Ext3/4 file systems on fixed media (e.g. hard
 drives) during execution of
-[*initrd*](http://en.wikipedia.org/wiki/Initrd) scripts (these scripts
+[*initrd*](https://en.wikipedia.org/wiki/Initrd) scripts (these scripts
 mount every supported file system type on every supported media type
 using only "-o ro" flag in order to find a root file system image).
 

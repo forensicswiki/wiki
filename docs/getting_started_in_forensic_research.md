@@ -8,20 +8,20 @@ how to start.
 ## Recommended Reading
 
 1.  Read the proceedings for the past four years of the
-    [DFRWS](http://www.dfrws.org) conference. If a specific article
+    [DFRWS](https://dfrws.org/) conference. If a specific article
     looks interesting, download it and read it!
 
-\#\*[DFRWS 2011 Program](http://www.dfrws.org/2011/program.shtml)
+\#\*[DFRWS 2011 Program](https://dfrws.org//2011/program.shtml)
 
-\#\*[DFRWS 2010 Program](http://www.dfrws.org/2010/program.shtml)
+\#\*[DFRWS 2010 Program](https://dfrws.org//2010/program.shtml)
 
-\#\*[DFRWS 2009 Program](http://www.dfrws.org/2009/program.shtml)
+\#\*[DFRWS 2009 Program](https://dfrws.org//2009/program.shtml)
 
-\#\*[DFRWS 2008 Program](http://www.dfrws.org/2008/program.shtml)
+\#\*[DFRWS 2008 Program](https://dfrws.org//2008/program.shtml)
 
-\#\*[DFRWS 2007 Program](http://www.dfrws.org/2007/program.shtml)
+\#\*[DFRWS 2007 Program](https://dfrws.org//2007/program.shtml)
 
-\#\*[DFRWS 2006 Program](http://www.dfrws.org/2006/program.shtml)
+\#\*[DFRWS 2006 Program](https://dfrws.org//2006/program.shtml)
 
 1.  Review the proceedings from the past few years of the IEEE/SADFE
     (Systematic Approaches to Digital Forensics Engineering) workshops.
@@ -36,8 +36,8 @@ how to start.
     students and faculty as part of the school subscription)
     - [IFIP WG 11.9 publications](http://www.ifip119.org/Publications/)
 3.  Search for interesting forensic terms at the [ACM Digital
-    Library](http://portal.acm.org/dl.cfm) and
-    [CiteSeer](http://citeseer.ist.psu.edu/)
+    Library](https://dl.acm.org/) and
+    [CiteSeer](https://citeseer.ist.psu.edu/)
 4.  Review the [Sleuth Kit Website](http://www.sleuthkit.org/). In
     particular, review the issues of [The Sleuth Kit
     Informer](http://www.sleuthkit.org/informer/index.php) and download
@@ -45,9 +45,9 @@ how to start.
 
 ## Recommended Mailing Lists
 
-- [sleuthkit-users](https://lists.sourceforge.net/lists/listinfo/sleuthkit-users)
-- [linux_forensics](http://groups.yahoo.com/group/linux_forensics/join)
-- [cftt](http://groups.yahoo.com/group/cftt/join) (computer forensic
+- [sleuthkit-users](https://sourceforge.net/projects/sleuthkit/lists/sleuthkit-users)
+- [linux_forensics](https://www.yahoo.com/)
+- [cftt](https://www.yahoo.com/) (computer forensic
   tool testing)
 
 ## Setting up a C++ development environment
@@ -71,8 +71,8 @@ If you are interested in doing file recovery, you may also wish to
 explore:
 
 - SleuthKit, above
-- [PhotoRec](http://www.cgsecurity.org/wiki/PhotoRec), a file carver.
-- [Adroit Photo Recovery](http://digital-assembly.com/), a commercial
+- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec), a file carver.
+- [Adroit Photo Recovery](https://www.werecoverdata.com), a commercial
   photo recovery tool that's pretty amazing.
 
 If you want to experiment with automated computer forensics research,

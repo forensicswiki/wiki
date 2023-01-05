@@ -42,5 +42,5 @@ Mac OS X.
 
 ## Links
 
-- [KisMAC official page](http://kismac-ng.org/)
+- [KisMAC official page](https://kismac-ng.org/)
 

@@ -15,4 +15,4 @@ Python-based parser for [binary property list
 ## External Links
 
 - [Project site](https://github.com/google/binplist)
-- [old project site](https://code.google.com/p/binplist)
+- [old project site](https://github.com/google/binplist)

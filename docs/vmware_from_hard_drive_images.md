@@ -8,13 +8,13 @@ tags:
 
 After having no success with raw2vmdk, the Live View method has worked.
 
-[Live View](http://liveview.sourceforge.net/index.html) requires:
+[Live View](https://liveview.sourceforge.net/index.html) requires:
 
 - Java JRE
 
 - VMWare Workstation 5.5+ or Server
 
-- VMWare VDDK ([download](http://www.vmware.com/support/developer/vddk))
+- VMWare VDDK ([download](https://developer.vmware.com/home))
 
 ## Install
 

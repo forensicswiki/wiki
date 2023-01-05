@@ -45,7 +45,7 @@ regarding the disk sanitization problem:
   ([pdf](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)):
   Guidelines for Data Sanitation, Sept 2006.
 - [DoD Destruction](dod_destruction.md)
-  ([pdf](http://www.simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf)):
+  ([pdf](http://simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf)):
   Disposition of Unclassified DoD Computer Hard Drives, Assistant
   Secretary of Defence, June 4, 2001.
 - [DoD 5200.28-STD](dod_5200.28-std.md)
@@ -53,7 +53,7 @@ regarding the disk sanitization problem:
   Defence Trusted Computer System Evaluation Criteria\], December 26,
   1985.
 - [DoD 5220.22-M](dod_5220.22-m.md)
-  ([pdf](http://www.simson.net/ref/2001/DoD_5220.22-M.pdf)): National
+  ([pdf](http://simson.net/ref/2001/DoD_5220.22-M.pdf)): National
   Industrial Security Program Operating Manual\], January 1995,
   incorporating Change One (July 1997) and Change Two (February 2001).
 - [NAVSO P-5239-26](navso_p-5239-26.md): US Navy standards for
@@ -70,4 +70,4 @@ regarding the disk sanitization problem:
 - [Schneier Wipe](schneier_wipe.md): Two pass of specific
   characters followed by five passes of Pseudo Random Data. Published by
   [Bruce Schneier](bruce_schneier.md) in [Applied
-  Cryptography](http://www.schneier.com/book-applied.html), 1996
+  Cryptography](https://www.schneier.com/books/applied-cryptography), 1996

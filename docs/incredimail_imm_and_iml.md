@@ -48,4 +48,4 @@ information related to all the emails such as *Return-Path*,
 ## Tools
 
 [Incredimail
-Converter](http://www.pcvare.com/incredimail-converter.html)
+Converter](https://www.pcvare.com/incredimail-converter.html)

@@ -76,7 +76,7 @@ different hosts running the same operating system by using IP IDs and
 
 ## Tools
 
-- [p0f](http://lcamtuf.coredump.cx/p0f.shtml) can do NAT detection using
+- [p0f](https://lcamtuf.coredump.cx/p0f3/) can do NAT detection using
   passive [OS fingerprinting](os_fingerprinting.md). It uses a
   variety of identifiers to create a score on the confidence level of
   device doing NAT.
@@ -91,5 +91,5 @@ different hosts running the same operating system by using IP IDs and
 
 ## External Links
 
-* [TCP Timestamp to count hosts behind NAT](http://phrack.org/issues.html?issue=63&id=3#article),
+* [TCP Timestamp to count hosts behind NAT](http://phrack.org/issues/63/3.html#article),
   Phrack

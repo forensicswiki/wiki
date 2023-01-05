@@ -28,9 +28,9 @@ In Windows 2003 and later:
 
 ## External Links
 
-- \[<http://technet.microsoft.com/en-us/library/dd837644(v=ws.10>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   Technet: Understanding Shims\], by [Microsoft](microsoft.md)
-- \[<http://msdn.microsoft.com/en-us/library/bb432182(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   MSDN: Application Compatibility Database\], by [Microsoft](microsoft.md)
 - [Secrets of the Application Compatilibity Database (SDB) – Part 1](http://www.alex-ionescu.com/?p=39),
   by [Alex Ionescu](alex_ionescu.md), May 20, 2007
@@ -56,7 +56,7 @@ In Windows 2003 and later:
 - [Using Application Compatibility
   Shims](http://subt0x10.blogspot.ch/2017/05/using-application-compatibility-shims.html)
 - [To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for
-  Persistence](https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html)
+  Persistence](https://www.mandiant.com/resources/blog/fin7-shim-databases-persistence)
 
 ### RecentFileCache
 

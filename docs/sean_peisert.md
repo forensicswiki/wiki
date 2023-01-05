@@ -3,8 +3,8 @@ tags:
   - People
 ---
 Sean Peisert is jointly appointed as an assistant adjunct professor at
-[UC Davis](http://seclab.cs.ucdavis.edu/) and a research scientist at
-[Lawrence Berkeley National Laboratory](http://www.lbl.gov/) where he
+[UC Davis](https://seclab.cs.ucdavis.edu/) and a research scientist at
+[Lawrence Berkeley National Laboratory](https://www.lbl.gov/) where he
 does research in computer security. He is particularly interested in
 computer forensic analysis, intrusion detection, vulnerability analysis,
 security policy modeling, electronic voting, and empirical studies of

@@ -8,7 +8,7 @@ tags:
 ![Image:Superblock.png](Superblock.png "Image:Superblock.png")
 
 Note: These are in
-[little-endian](http://en.wikipedia.org/wiki/Little_endian) format.
+[little-endian](https://en.wikipedia.org/wiki/Little_endian) format.
 [Pmow](user:pmow.md)
 
 <table border="0">
@@ -443,7 +443,7 @@ Inode generation: 21212
 
 ## External Links
 
-- [ReiserFS on Wikipedia](http://en.wikipedia.org/wiki/Reiserfs)
+- [ReiserFS on Wikipedia](https://en.wikipedia.org/wiki/Reiserfs)
 - [The structure of the Reiser file
   system](http://homes.cerias.purdue.edu/~florian/reiser/reiserfs.php)
 

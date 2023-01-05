@@ -8,5 +8,5 @@ tags:
 ---
 ## External Links
 
-- [Wikipedia Entry on Knoppix](http://en.wikipedia.org/wiki/Knoppix)
+- [Wikipedia Entry on Knoppix](https://en.wikipedia.org/wiki/Knoppix)
 

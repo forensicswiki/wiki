@@ -42,10 +42,10 @@ a separate project, the drivers can now be found as part of the
 
 - [Official website](https://code.google.com/p/volatility/)
 - [Code
-  repository](http://code.google.com/p/volatility/source/checkout),
+  repository](https://code.google.com/archive/p/volatility/source),
   direct link to
-  [source](http://code.google.com/p/volatility/source/browse/)
-- [Volatility Documentation](http://code.google.com/p/volatility/w/list)
+  [source](https://code.google.com/archive/p/volatility/source)
+- [Volatility Documentation](https://code.google.com/archive/p/volatility)
 
 ### Third party documentation
 
@@ -56,6 +56,6 @@ a separate project, the drivers can now be found as part of the
   Preview)](https://docs.google.com/presentation/d/1KsZGF6cQ-N8ngABFGCZf8pTQQ5CZ19VoAHq5cO5ZPdE/edit),
   by [Michael Cohen](michael_cohen.md), October 2012
 - [Using Volatility: Suspicious Process
-  (1/2)](http://www.youtube.com/watch?v=8HsZLge0wWc)
+  (1/2)](https://www.youtube.com/watch?v=8HsZLge0wWc)
 - [Using Volatility: Suspicious Process
-  (2/2)](http://www.youtube.com/watch?v=XTZPNk-Esok)
+  (2/2)](https://www.youtube.com/watch?v=XTZPNk-Esok)

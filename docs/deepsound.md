@@ -20,7 +20,7 @@ encryption.
 
 ## External Links
 
-- [Official Site](http://jpinsoft.net/deepsound)
+- [Official Site](https://jpinsoft.net/deepsound)
 
 ## See Also
 

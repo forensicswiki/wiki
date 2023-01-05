@@ -16,7 +16,7 @@ available plugins or by users writing plugins to suit specific needs.
 ## Technical Background and Forensic Soundness
 
 RegRipper uses James McFarlane’s Parse::Win32Registry module
-[1](http://search.cpan.org/~jmacfarla/Parse-Win32Registry-0.40/) to
+[1](https://metacpan.org/release/JMACFARLA/Parse-Win32Registry-0.40) to
 access a Windows Registry hive file in an object-oriented manner,
 bypassing the Win32API. This module is used to locate and access
 Registry key nodes within the hive file, as well as value nodes and
@@ -34,8 +34,8 @@ something readable.
 
 - [Using RegRipper](http://windowsir.blogspot.com/2011/03/using-regripper.html)
 - [RegRipper2.8 GitHub Repo](https://github.com/keydet89/RegRipper2.8)
-- [RegRipper Blog](http://www.regripper.wordpress.com)
-- [Windows Forensics Analysis](http://code.google.com/p/winforensicaanalysis/)
-- [RegRipper Supplemental Plugins](http://code.google.com/p/regripperplugins/)
+- [RegRipper Blog](https://regripper.wordpress.com/)
+- [Windows Forensics Analysis](https://code.google.com/archive/p/winforensicaanalysis)
+- [RegRipper Supplemental Plugins](https://code.google.com/archive/p/regripperplugins)
 - [Developers blog (Windows Incident Response)](http://windowsir.blogspot.com/)
-- [RegRipper Google Code](http://code.google.com/p/regripper/)
+- [RegRipper Google Code](https://code.google.com/archive/p/regripper)

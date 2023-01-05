@@ -42,14 +42,14 @@ In [Windows](windows.md) the Physical Memory Object,
 \\\Device\PhysicalMemory, can be used the access physical memory. Since
 Windows 2003 SP1 user-mode access to this device-object is no longer
 permitted
-\[<http://technet.microsoft.com/en-en/library/cc787565(v=ws.10>).aspx\].
+\[<https://learn.microsoft.com/en-us/>).aspx\].
 A kernel-mode process is still allowed to read from this device-object.
 
 ### MmMapIoSpace
 
 The MmMapIoSpace function (or routine) is kernel-mode function to map a
 physical address range to non-paged system space
-\[<http://msdn.microsoft.com/en-us/library/windows/hardware/ff554618(v=vs.85>).aspx\].
+\[<https://learn.microsoft.com/en-us/>).aspx\].
 
 ## Memory Imaging Techniques
 
@@ -101,7 +101,7 @@ At CanSec West 05, Michael Becher, Maximillian Dornseif, and Christian N.
 Klein discussed an exploit which uses Direct Memory Access (DMA) to read
 arbitrary memory locations of a [firewire](firewire.md)-enabled system. The
 [paper](https://simson.net/ref/2005/2005-firewire-cansecwest.pdf)
-lists more details. The exploit is run on an [iPod running Linux](http://ipodlinux.org/Main_Page).
+lists more details. The exploit is run on an [iPod running Linux](http://www.ipodlinux.org/).
 This can be used to grab screen contents.
 
 This technique has been turned into a tool.
@@ -118,16 +118,16 @@ methods in which power is never removed from the memory module. Tools
 like
 [msramdump](https://github.com/dbrant/msramdmp)
 or
-[afterlife](http://www.sei.cmu.edu/digitalintelligence/tools/afterlife/)
+[afterlife](https://www.sei.cmu.edu/digitalintelligence/tools/afterlife/)
 act like minimal OS-es with a memory footprint around a few 100k that
 can save memory to disk (Nowadays often only upto 4G afaik). When the
 RAM is cleared by the standard BIOS, replacing the BIOS
 can be an option. Depending on the motherboard this method works fine.
-[Cold boot](http://en.wikipedia.org/wiki/Cold_boot_attack) refers to the
+[Cold boot](https://en.wikipedia.org/wiki/Cold_boot_attack) refers to the
 cooling of RAM te increase the time the RAM module will retain data
 without power. Opinions on how practical cold boot is are discussed in
 "[On the Practicability of Cold Boot
-Attacks](http://www1.cs.fau.de/filepool/projects/coldboot/fares_coldboot.pdf)".
+Attacks](https://faui1-files.cs.fau.de/filepool/projects/coldboot/fares_coldboot.pdf)".
 
 Virtual Machine Imaging
 There are numerous popular virtual machines that are in wide use such as
@@ -138,7 +138,7 @@ system and then collect the resulting memory image file, this has the
 disadvantage of taking the machine offline during the suspend time.
 Alternatively most of these systems support live dumping of a memory
 image. [Qemu](http://www.qemu.org) supports the pmemsave function,
-[Xen](http://www.xen.org) has the xm dump-core command.
+[Xen](https://xenproject.org/) has the xm dump-core command.
 
 ## Also see
 
@@ -148,7 +148,7 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
 
 ## External Links
 
-* [Wikipedia article on Memory-mapped I/O](http://en.wikipedia.org/wiki/Memory-mapped_I/O)
+* [Wikipedia article on Memory-mapped I/O](https://en.wikipedia.org/wiki/Memory-mapped_I/O)
 * [RedTeam: FireWire round-up](http://web.archive.org/web/20101210223853/http://blogs.23.nu/RedTeam/0000/00/antville-5201)
 * [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](https://files.hddguru.com/download/Software/Research%20%20Development/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
   by Antonio Martin, 2007
@@ -158,7 +158,7 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
   by Johannes Stuettgen and [Michael Cohen](michael_cohen.md), August 2013
 * [64bit Big Sized RAM Image Acquisition Problem](http://takahiroharuyama.github.io/blog/2014/01/07/64bit-big-size-ram-acquisition-problem/),
   by Takahiro haruyama, January 7, 2014
-* [All memory dumping tools are not the same](http://brimorlabs.blogspot.com/2014/01/all-memory-dumping-tools-are-not-same.html),
+* [All memory dumping tools are not the same](https://www.brimorlabsblog.com/2014/01/all-memory-dumping-tools-are-not-same.html),
   by Brian Moran, January 14, 2014
 * [Robust Linux memory acquisition with minimal target impact](http://old.dfrws.org/2014eu/proceedings/DFRWS-EU-2014-14p.pdf),
   by Johannes Stüttgen and [Michael Cohen](michael_cohen.md), May 2014

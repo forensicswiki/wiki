@@ -13,7 +13,7 @@ By default, the Mac version caches content that can be recovered even
 after the original has been deleted.
 
 Google Desktop will be discontinued as of September 14 2011
-[1](http://googleblog.blogspot.com/2011/09/fall-spring-clean.html)
+[1](https://googleblog.blogspot.com/2011/09/fall-spring-clean.html)
 
 ## See Also
 
@@ -23,7 +23,7 @@ Google Desktop will be discontinued as of September 14 2011
 
 - [Official website](http://desktop.google.com/)
 - [Wikipedia entry on Google
-  Desktop](http://en.wikipedia.org/wiki/Google_Desktop)
+  Desktop](https://en.wikipedia.org/wiki/Google_Desktop)
 - [Wikipedia list of Desktop search
-  engines](http://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
+  engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
 

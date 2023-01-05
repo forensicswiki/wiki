@@ -21,7 +21,7 @@ poplar flavors of UNIX are:
 
 ## External Links
 
-* [Wikipedia: Time Line of UNIX](http://upload.wikimedia.org/wikipedia/commons/5/50/Unix_history-simple.png)
+* [Wikipedia: Time Line of UNIX](https://upload.wikimedia.org/wikipedia/commons/5/50/Unix_history-simple.png)
 * [The Single UNIX Specification, Version 4](http://www.unix.org/version4/)
 
 ### File permissions

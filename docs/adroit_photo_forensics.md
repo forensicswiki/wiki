@@ -35,4 +35,4 @@ APF also include grouping and sorting options that are photo relevant.
 
 ## External Links
 
-* [Adroit Photo Forensics Product Information](http://digital-assembly.com/products/adroit-photo-forensics/)
+* [Adroit Photo Forensics Product Information](https://www.werecoverdata.com)

@@ -6,4 +6,4 @@ tags:
 
 ## External Links
 
-- [Official Website](http://www.ossec.net/)
+- [Official Website](https://www.ossec.net/)

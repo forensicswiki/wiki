@@ -30,7 +30,7 @@ hash values of "known to be good" files.
 HashKeeper is available, free-of-charge, to law enforcement, military
 and other government agencies throughout the world. It is available to
 the public by sending a [Freedom of Information
-Act](http://www.usdoj.gov/ndic/foia.htm) request to NDIC.
+Act](https://www.justice.gov/archive/ndic/ndic-moved.html) request to NDIC.
 
 ## Tools
 
@@ -41,4 +41,4 @@ Act](http://www.usdoj.gov/ndic/foia.htm) request to NDIC.
 
 ## External Links
 
-* [Official NDIC website](http://www.usdoj.gov/ndic/about.htm)
+* [Official NDIC website](https://www.justice.gov/archive/ndic/ndic-moved.html)

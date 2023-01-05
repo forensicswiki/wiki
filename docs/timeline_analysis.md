@@ -25,7 +25,7 @@ tags:
 - ["Analysis of Time Information for Digital Investigation"](http://forensic.korea.ac.kr/research/Conference/Analysis_of_Time_Information_for_Digital_Investigation.pdf),
   by Jewan Bang, BY Yoo, JS Kim, SJ Lee, NCM 2009, 5th International Joint
   Conference on INC, IMS, IDC, August 2009
-- ["A Model Based Approach to Timestamp Evidence Interpretation"](http://www.igi-global.com/articles/details.asp?ID=33298),
+- ["A Model Based Approach to Timestamp Evidence Interpretation"](https://www.igi-global.com/articles/details.asp?ID=33298),
   by S. Willassen, International Journal of Digital Crime and Forensics, 1:2,
   2009
 - [Digital Evidence with an Emphasis on Time](http://www.bth.se/fou/cuppsats.nsf/bbb56322b274389dc1256608004f052b/2e5256fe7d0e57d5c12574bd0072d894!OpenDocument),
@@ -52,13 +52,13 @@ tags:
   Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007
 - ["A correlation method for establishing provenance of timestamps in digital evidence"](http://www.dfrws.org/2006/proceedings/13-%20Schatz.pdf),
   by B. Schatz, G. Mohay, A. Clark, Digital Investigation 2006:3S
-- ["Formalizing Event Time Bouding in Digital Investigation"](http://www.utica.edu/academic/institutes/ecii/publications/articles/B4A90270-B5A9-6380-68863F61C2F7603D.pdf),
+- ["Formalizing Event Time Bouding in Digital Investigation"](https://www.utica.edu/academic/institutes/ecii/publications/articles/B4A90270-B5A9-6380-68863F61C2F7603D.pdf),
   by P. Gladyshev, A. Patel, International Journal of Digital Evidence, vol
   4:2, 2005 - C. Boyd, P. Forster, "Time and Date issues in forensic
   computing - a case study", Digital Investigation 2004:1
 - "Unification of relative time frames for digital forensics",
   by M.W. Stevens, Digital Investigation 2004:1
-- ["Dynamic Time & Date Stamp Analysis"](http://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
+- ["Dynamic Time & Date Stamp Analysis"](https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
   M .C. Weil, International Journal of Digital Evidence, vol 1:2, 2002
 
 <!-- -->

@@ -39,5 +39,5 @@ deleted partition and recover lost partition.
 
 ## External Links
 
-- [M3 Data Recovery Official Website](http://www.m3datarecovery.com/)
-- [Download Link](http://www.m3datarecovery.com/download/)
+- [M3 Data Recovery Official Website](https://www.m3datarecovery.com/)
+- [Download Link](https://www.m3datarecovery.com/download/)

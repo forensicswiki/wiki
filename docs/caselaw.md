@@ -49,7 +49,7 @@ other forms of electronic communications.
 **State v. Rivas, 2007 Ohio App. LEXIS 3299 (Ohio Ct. App. Jul. 13,
 2007)**
 The court overturned the conviction of the defendant due to the fact
-that an *[in camera](http://en.wikipedia.org/wiki/In_camera)* review of
+that an *[in camera](https://en.wikipedia.org/wiki/In_camera)* review of
 the police department's computer was not performed, which would have
 verified that accuracy of the transcripts that were recorded from a chat
 room and subsequently used against the defendant.

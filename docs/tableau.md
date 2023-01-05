@@ -11,6 +11,6 @@ brand of Guidance Software, Inc (makers of [EnCase](encase.md).
 ## External Links
 
 - [Tableau official website](http://www.tableau.com/)
-- [Guidance Software](http://www.guidancesoftware.com//)
+- [Guidance Software](https://www.opentext.com/products/security-cloud)
 - [EnCase Forensic](http://www.guidancesoftware.com/forensic.htm)
 

@@ -2,14 +2,14 @@
 tags:
   -  People
 ---
-[Bradley Schatz](http://www.schatzforensic.com.au/about/) is the
-Director of [Schatz Forensic](http://www.schatzforensic.com.au/), a
+[Bradley Schatz](https://schatzforensic.com/about/) is the
+Director of [Schatz Forensic](https://schatzforensic.com/), a
 computer forensics firm based in Brisbane, Australia. Dr. Schatz
 received his Ph.D. in Computer Forensics at the [Queensland University
 of Technology](http://www.qut.adu.au/) (QUT) in 2007. The primary
 subject of his doctorate, which was titled "[Digital Evidence:
 Representation and
-assurance](http://www.schatzforensic.com.au/publications/#digital-evidence-representation-and-assurance-thesis)",
+assurance](https://schatzforensic.com/publications/#digital-evidence-representation-and-assurance-thesis)",
 was the role of representation in computer foresics.
 
 In addition to being an active practitioner, Dr. Schatz is an adjunct

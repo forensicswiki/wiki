@@ -20,7 +20,7 @@ made like the CDTEXT and IsoBuster extensions.
 ## See also
 
 - [Wikipedia on CUE
-  sheet](http://en.wikipedia.org/wiki/Cue_sheet_%28computing%29)
+  sheet](https://en.wikipedia.org/wiki/Cue_sheet_%28computing%29)
 - [CUE sheet
-  format](http://code.google.com/p/libodraw/downloads/detail?name=CUE%20sheet%20format.pdf)
+  format](https://code.google.com/archive/p/libodraw/downloads)
 

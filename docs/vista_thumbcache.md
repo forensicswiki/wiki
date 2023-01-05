@@ -27,7 +27,7 @@ with original files is to use the contents of the [Windows Search
 
 ## Thumbcache Format
 
-*Thumbcache format is described [here](http://www.noxa.org/blog/?p=5).*
+*Thumbcache format is described [here](http://www.noxa.org/blog/2008/02/02/vista-thumbnail-cache/).*
 
 In general, every thumbnail in cache is associated with two 64-bit
 variables. First variable (sometimes called *Unique ID*, *Secret*, *File
@@ -100,11 +100,11 @@ pictures.pd5 can be extracted using [WPG Viewer](http://www.simplecarver.com/too
 ### Non-English
 
 * Использование централизованных баз данных эскизов для исследования
-  графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended version](http://www.securitylab.ru/analytics/370474.php))
+  графических файлов на зашифрованных разделах, ITDefence, 2009 ([extended version](https://www.securitylab.ru/analytics/370474.php))
 
 ## Tools
 
 * [FTK](forensic_toolkit.md)
 * [Thumbs.db Viewer](http://www.janusware.com/fetch.php?page=412,2)
-* [Thumbcache-viewer](http://code.google.com/p/thumbcache-viewer/)
+* [Thumbcache-viewer](https://code.google.com/archive/p/thumbcache-viewer)
 * [WinThumbs](http://www.simplecarver.com/tool.php?toolname=WinThumbs%20Extractor)

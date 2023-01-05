@@ -22,17 +22,17 @@ Windows Registry:
 - [RegXML](regxml.md) is also a Windows command-line utility
   that exports sections of the Windows Registry as XML-formatted files.
 - [hivexml](hivexml.md) is a command-line utility that is part
-  of Red Hat's [libguestfs](http://libguestfs.org/) that converts
+  of Red Hat's [libguestfs](https://libguestfs.org/) that converts
   Registry hives to XML.
 - [Tracking Computer Use with the Windows® Registry
-  Dataset](http://www.nsrl.nist.gov/Documents/aafs2008/dw-1-AAFS-2008-wired.pdf),
+  Dataset](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl),
   Doug White, NIST.
 - [The complete set of code and and a WiReD XML difference set for
   steganographic
-  applications](http://www.nsrl.nist.gov/WIRED/WIRED-060511.iso).
+  applications](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl).
 
 There is one commercial program that we have found:
 
-- [ComponentSource](http://www.componentsource.com/products/componentspace-registry-toolkit-component/prices.html)
+- [ComponentSource](https://www.componentsource.com/product/componentspace-registry-toolkit-component/prices)
   has a \$195 .NET too that allows management, importing and exporting
   of the registry via XML.

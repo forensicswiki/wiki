@@ -27,4 +27,4 @@ Features:
 
 ## External Links
 
-- [Official website](http://air-imager.sourceforge.net/)
+- [Official website](https://sourceforge.net/projects/air-imager/)

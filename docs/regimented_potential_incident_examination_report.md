@@ -75,6 +75,6 @@ Contact: rapier.securitytool@gmail.com
 
 ## External Links
 
-* [Official website](http://code.google.com/p/rapier/)
+* [Official website](https://code.google.com/archive/p/rapier)
 * [Google Discussion Group](http://groups.google.com/group/rapier-development?hl=en)
-* [Presentation at FIRST Conference 2006](http://www.first.org/conference/2006/program/rapier_-_a_1st_responders_info_collection_tool.html)
+* [Presentation at FIRST Conference 2006](https://www.first.org/conference/2006/program/rapier_-_a_1st_responders_info_collection_tool.html)

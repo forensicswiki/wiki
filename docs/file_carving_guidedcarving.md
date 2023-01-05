@@ -22,5 +22,5 @@ recover using [SmartCarving](file_carving_smartcarving.md).
 
 ## External links
 
-* [Link to SmartCarving Technology and Research](http://digital-assembly.com/technology/)
-* [Digital Assembly](http://digital-assembly.com)
+* [Link to SmartCarving Technology and Research](https://www.werecoverdata.com/technology/)
+* [Digital Assembly](https://www.werecoverdata.com)

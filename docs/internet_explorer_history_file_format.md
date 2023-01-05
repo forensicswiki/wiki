@@ -206,20 +206,20 @@ deleted.
 * [What is in Index.dat files](http://www.milincorporated.com/a3_index.dat.html)
 * [MSIE Cache File (index.dat) format specification](https://github.com/libyal/libmsiecf/blob/main/documentation/MSIE%20Cache%20File%20(index.dat)%20format.asciidoc),
   by the [libmsiecf project](libmsiecf.md)
-* [Digital Detective Knowledge Base: Internet Explorer](http://kb.digital-detective.co.uk/display/NetAnalysis1/Internet+Explorer)
+* [Digital Detective Knowledge Base: Internet Explorer](https://kb.digital-detective.net/display/BF/Internet+Explorer)
 * [Understanding index.dat Files - Part 1](http://web.archive.org/web/20090605202325/http://128.175.24.251/forensics/index_dat1.htm),
   by Stephen M. Bunting
 * [Understanding index.dat Files - Part 2](http://web.archive.org/web/20090605200839/http://128.175.24.251/forensics/index_dat2.htm),
   by Stephen M. Bunting
 * [Detailed analysis of index.dat file format](http://web.archive.org/web/20090824054415/http://www.foundstone.com/us/pdf/wp_index_dat.pdf),
   by Keith J. Jones, March 19, 2003
-* [The Meaning of LEAK records](http://www.forensicblog.org/2009/09/10/the-meaning-of-leak-records/),
+* [The Meaning of LEAK records](https://forensicblog.org/the-meaning-of-leak-records/),
   [Mike Murr](mike_murr.md), September 10, 2009
-* [Microsoft Internet Explorer PrivacIE Entries](http://blog.digital-detective.co.uk/2010/04/microsoft-internet-explorer-privacie.html),
+* [Microsoft Internet Explorer PrivacIE Entries](https://www.digital-detective.net/microsoft-internet-explorer-privacie-entries/),
   by Digital Detective, April 29, 2010
-* [The INDEX.DAT File Format](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/indexdat.htm?tx=20,78,83,84,88,89),
+* [The INDEX.DAT File Format](https://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/indexdat.htm?tx=20,78,83,84,88,89),
   by [Geoff Chappell](geoff_chappell.md), September 13, 2010
-* [The Hash Algorithm for URL Caching](http://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
+* [The Hash Algorithm for URL Caching](https://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
   by [Geoff Chappell](geoff_chappell.md), September 20, 2010
 * [A Primer on Temporary Internet Files](http://blogs.msdn.com/b/ieinternals/archive/2011/03/19/wininet-temporary-internet-files-cache-and-explorer-folder-view.aspx),
   by Eric Law, March 19, 2011

@@ -19,4 +19,4 @@ standards such as:
 ## External Links
 
 - [Project site](http://django-mantis.readthedocs.org/en/latest/)
-- [Source repository](https://github.com/siemens/django-mantis)
+- [Source repository](https://github.com/bgro/django-mantis)

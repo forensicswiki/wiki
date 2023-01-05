@@ -229,7 +229,7 @@ disk.
 **RBF – What happens, when opening for write, if the file already
 exists?** **RBF – Which parts of the header are written by default?**
 
-See [open(3)](http://linux.die.net/man/3/open)
+See [open(3)](https://linux.die.net/man/3/open)
 
 ### af_open_stdin
 
@@ -244,7 +244,7 @@ MinGW you can set:
 
 ` int _CRT_fmode = _O_BINARY;`
 
-somewhere in your code. See <http://gnuwin32.sf.net/compile.html> for
+somewhere in your code. See <https://gnuwin32.sourceforge.net/compile.html> for
 more
 
 ### af_popen
@@ -255,7 +255,7 @@ This function is currently on supported on UNIX variants,
 [Cygwin](cygwin.md) and MinGW (which are really both Unix
 variants).
 
-See [popen(3)](http://linux.die.net/man/3/popen)
+See [popen(3)](https://linux.die.net/man/3/popen)
 
 ### af_close
 
@@ -278,7 +278,7 @@ size_t defines the maximum data segment size on the current platform.
 **RBF - This function is supposed to read a `size_t` number of bytes.
 Should it also return a `size_t`?**
 
-See also [read(3)](http://linux.die.net/man/3/read)
+See also [read(3)](https://linux.die.net/man/3/read)
 
 ### af_seek
 
@@ -300,8 +300,8 @@ af_popen)
 EINVAL: The `whence` argument was not one of SEEK_SET, SEEK_CUR, or
 SEEK_END.
 
-See also [fseek(3)](http://linux.die.net/man/3/fseek) and
-[fseeko(3)](http://linux.die.net/man/3/fseeko)
+See also [fseek(3)](https://linux.die.net/man/3/fseek) and
+[fseeko(3)](https://linux.die.net/man/3/fseeko)
 
 ### af_tell
 
@@ -311,8 +311,8 @@ Similar to ftello, this function returns the current value of the file
 position indicator for the file pointed to by `af`. On an error, this
 function returns -1 and sets errno appropriately.
 
-See also [ftell(3)](http://linux.die.net/man/3/ftell) and
-[ftello(3)](http://linux.die.net/man/3/ftello)
+See also [ftell(3)](https://linux.die.net/man/3/ftell) and
+[ftello(3)](https://linux.die.net/man/3/ftello)
 
 ### af_eof
 

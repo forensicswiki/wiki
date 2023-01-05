@@ -40,13 +40,13 @@ In order to build Argus/Ra 3.0.8 on your UNIX machine follow these
 commands/steps:
 
 - sudo apt-get install libpcap0.8 libpcap0.8-dev flex bison rrdtool
-- wget <http://qosient.com/argus/src/argus-3.0.8.tar.gz>
+- wget <https://qosient.com/argus//src/argus-3.0.8.tar.gz>
 - tar -xzvf argus-3.0.8.tar.gz
 - cd argus-3.0.8
 - ./configure
 - make && make install
 - cd ..
-- wget <http://qosient.com/argus/src/argus-clients-3.0.8.tar.gz>
+- wget <https://qosient.com/argus//src/argus-clients-3.0.8.tar.gz>
 - tar -xzvf argus-clients-3.0.8.tar.gz
 - cd argus-clients-3.0.8
 - ./configure
@@ -95,7 +95,7 @@ transactions:
 
 ## External Links
 
-- [Argus website](http://qosient.com/argus)
+- [Argus website](https://qosient.com/argus/)
 - [Argus Wiki](http://nsmwiki.org/index.php?title=Argus)
 
 ## See Also

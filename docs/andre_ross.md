@@ -14,5 +14,5 @@ regional computer forensic practises. Andre has Masters Degree in
 Information Systems Security and multitude of IT industry
 certifications.
 
-He writes on his Digfor blog [2](http://digfor.blogspot.com.au), on
+He writes on his Digfor blog [2](https://digfor.blogspot.com/), on
 various topics related to forensic analysis and digital evidence.

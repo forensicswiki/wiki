@@ -14,4 +14,4 @@ and [Apple Safari](apple_safari.md).
 
 ## External Links
 
-- [Official website](http://www.mandiant.com/webhistorian.htm)
+- [Official website](https://www.mandiant.com/)

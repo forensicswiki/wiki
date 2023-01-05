@@ -48,18 +48,18 @@ challenges.
 
 <!-- -->
 
-The [Computer Forensic Reference Data Sets](http://www.cfreds.nist.gov/) project from [NIST](national_institute_of_standards_and_technology.md) hosts a few sample cases that may be useful for examiners to practice with:
-<http://www.cfreds.nist.gov/Hacking_Case.html>
+The [Computer Forensic Reference Data Sets](https://cfreds.nist.gov/) project from [NIST](national_institute_of_standards_and_technology.md) hosts a few sample cases that may be useful for examiners to practice with:
+<https://cfreds.nist.gov/Hacking_Case.html>
 
 <!-- -->
 
 Digital Forensics Tool Testing Images can be downloaded from Sourceforge
-<http://dftt.sourceforge.net/>
+<https://dftt.sourceforge.net/>
 
 <!-- -->
 
 Shortinfosec: computer forensics competition
-<http://www.shortinfosec.net/2008/07/competition-computer-forensic.html>
+<https://www.shortinfosec.net/2008/07/competition-computer-forensic.html>
 
 In the competition, you will have to analyze a submitted disk image for
 incriminating evidence.
@@ -75,12 +75,12 @@ Lance Mueller has created some disk images; they can be downloaded from his blog
 <!-- -->
 
 Barry Grundy created some disk images as parts of a Linux-based forensics tutorial
-<http://linuxleo.com>
+<https://linuxleo.com/>
 
 <!-- -->
 
 The PyFlag standard test image set
-<http://pyflag.sourceforge.net/Documentation/tutorials/howtos/test_image.html>
+<https://pyflag.sourceforge.net/Documentation/tutorials/howtos/test_image.html>
 
 <!-- -->
 
@@ -89,7 +89,7 @@ Several of the Rodeos and Challenges from DFRWS released their data and
 scenario writeups. The following had disk images as parts of their
 scenario:
 
-- [2005 Rodeo](http://www.cfreds.nist.gov/dfrws/Rhino_Hunt.html) (Hosted
+- [2005 Rodeo](https://cfreds.nist.gov/dfrws/Rhino_Hunt.html) (Hosted
   on CFReDS)
 - [2008 Rodeo](http://dfrws.org/2008/rodeo.shtml)
 - [2009 Rodeo](http://dfrws.org/2009/rodeo.shtml)
@@ -140,7 +140,7 @@ are scrambled by a modified version of [tcpdpriv](tcpdpriv.md).
 The open source Wireshark project (formerly known as Ethereal) has a
 website with many network packet captures:
 
-- <http://wiki.wireshark.org/SampleCaptures>
+- <https://wiki.wireshark.org/SampleCaptures>
 
 ## NFS Packets
 
@@ -168,11 +168,11 @@ Energy Regulatory Commission during its investigation of Enron.
 The NIST **TextREtrieval Conference 2007** has released a public Spam
 corpus:
 
-- <http://plg.uwaterloo.ca/~gvcormac/spam/>
+- <https://plg.uwaterloo.ca/~gvcormac/spam/>
 
 Email Messages Corpus Parsed from W3C Lists (for TRECENT 2005)
 
-- <http://tides.umiacs.umd.edu/webtrec/trecent/parsed_w3c_corpus.html>
+- <https://tides.umiacs.umd.edu/webtrec/trecent/parsed_w3c_corpus.html>
 
 # Text Files
 
@@ -183,7 +183,7 @@ archive for wireless data.
 
 [CAIDA](http://www.caida.org/data/) collects a wide variety of data.
 
-[DShield](http://www.dshield.org/howto.html) asks users to submit
+[DShield](https://www.dshield.org/howto.html) asks users to submit
 firewall logs.
 
 ## Text for Text Retrieval
@@ -217,7 +217,7 @@ IEEE Visual Analytics Science & Technology Challenges
 
 # Images
 
-[1](http://www.cs.washington.edu/research/imagedatabase) UW Image Database
+[1](http://imagedatabase.cs.washington.edu) UW Image Database
 A set of freely redistributable images from all over the world, used for
 content-based image retrieval.
 
@@ -261,7 +261,7 @@ meeting recordings.
 <!-- -->
 
 - The [UMass Trace
-  Repository](http://traces.cs.umass.edu/index.php/Main/HomePage)
+  Repository](https://traces.cs.umass.edu/index.php/Main/HomePage)
   provides network, storage, and other traces to the research community
   for analysis. The UMass Trace Repository is supported by grant
   \#CNS-323597 from the National Science Foundation.
@@ -269,7 +269,7 @@ meeting recordings.
 <!-- -->
 
 - [Sony has made 60TB of Everquest 2 logs available to
-  researchers.](http://arstechnica.com/science/news/2009/02/aaas-60tb-of-behavioral-data-the-everquest-2-server-logs.ars)
+  researchers.](https://arstechnica.com/gaming/2009/02/aaas-60tb-of-behavioral-data-the-everquest-2-server-logs/)
   What's there? "everything."
 
 <!-- -->

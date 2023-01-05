@@ -182,7 +182,7 @@ other) information.
 ## External Links
 
 - [Tracing and
-  Logging](http://docs.oracle.com/javase/6/docs/technotes/guides/deployment/deployment-guide/tracing_logging.html),
+  Logging](https://docs.oracle.com/javase/6/docs/technotes/guides/deployment/deployment-guide/tracing_logging.html),
   by [Oracle](oracle.md)
 - [Java Forensics using TLN
   Timelines](http://sploited.blogspot.ch/2012/08/java-forensics-using-tln-timelines.html)
@@ -194,13 +194,13 @@ other) information.
   Specification](https://github.com/woanware/javaidx/blob/master/Documents/Java.IDX.Format.pdf),
   by [Mark Woan](mark_woan.md), January 2013
 - [Java Malware - Identification and
-  Analysis](http://www.ghettoforensics.com/2013/04/java-malware-identification-and-analysis.html),
+  Analysis](https://www.ghettoforensics.com/2013/04/java-malware-identification-and-analysis.html),
   by [Brian Baskin](brian_baskin.md), January 12, 2013
 - [Java Web Vulnerability Mitigation on
   Windows](http://tojoswalls.blogspot.ch/2013/05/java-web-vulnerability-mitigation-on.html),
   by Tim Johnson, May 23, 2013
 - [The State of Java Reversing
-  Tools](http://www.ghettoforensics.com/2013/09/malware-analysis-state-of-java-analysis.html),
+  Tools](https://www.ghettoforensics.com/2013/09/malware-analysis-state-of-java-analysis.html),
   by [Brian Baskin](brian_baskin.md), September 3, 2013
 
 ### Java source code

@@ -312,7 +312,7 @@ of a crash or power outage. According to Apple, "The purpose of the
 journal is to ensure that when a group of related changes are being
 made, that either all of those changes are actually made, or none of
 them are made."
-[2](http://developer.apple.com/technotes/tn/tn1150.html#Journal)
+[2](https://developer.apple.com/documentation/technotes#Journal)
 
 ## Date and time values
 
@@ -326,7 +326,7 @@ every year that is evenly divisible by four. This is sufficient given
 that the range of representable dates does not contain 1900 or 2100,
 neither of which have leap days. Also see: [Technical Note TN1150 - HFS
 Plus Volume
-Format](http://web.archive.org/web/20090214212148/http://developer.apple.com/technotes/tn/tn1150.html)
+Format](http://web.archive.org/web/20090214212148/https://developer.apple.com/documentation/technotes)
 
 Converting HFS/HFS+ date and time values with Python:
 
@@ -360,9 +360,9 @@ HFS+ stores U+2400 as U+0
 - Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html),
   original location:
   <http://developer.apple.com/technotes/tn/tn1121.html#HFSPlus>
-- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20090214212148/http://developer.apple.com/technotes/tn/tn1150.html),
+- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20090214212148/https://developer.apple.com/documentation/technotes),
   original location:
-  <http://developer.apple.com/technotes/tn/tn1150.html>
+  <https://developer.apple.com/documentation/technotes>
 - Copy of: [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
   by P. Craiger, November 2005, original location:
   <http://www2.tech.purdue.edu/cit/Courses/cit556/readings/MacForensicsCraiger.pdf>

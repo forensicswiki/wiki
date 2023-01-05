@@ -41,7 +41,7 @@ disk drives.
 
 In August 2005 ActionFront Data Recovery Labs presented a detailed
 paper at the [IEEE 16th Annual Magnetic Recording
-Conference](http://tmrc.nanointernational.org) in which they discussed
+Conference](https://nanoandthepoor.org/) in which they discussed
 the current state-of-the-art of recovering information from hard drives
 without using the drive's own read/write heads
 [3](http://www.actionfront.com/ts_whitepaper.asp).

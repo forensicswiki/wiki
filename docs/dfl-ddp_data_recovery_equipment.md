@@ -13,7 +13,7 @@ rate.
 ## External Links
 
 - [DFL-DDP Data Recovery
-  Equipment](http://www.dolphindatalab.com/product/dfl-data-dr-pro-usb-3-data-recovery-equipment/)
+  Equipment](https://www.dolphindatalab.com/product/dfl-data-dr-pro-usb-3-data-recovery-equipment/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

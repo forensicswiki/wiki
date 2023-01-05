@@ -8,6 +8,6 @@ ZFS is a combined file system and logical volume manager designed by
 
 ## External Links
 
-* [Wikipedia: ZFS](http://en.wikipedia.org/wiki/ZFS)
-* [ZFS Forensics - Recovering Files From a Destroyed Zpool](http://www.joyent.com/blog/zfs-forensics-recovering-files-from-a-destroyed-zpool)
+* [Wikipedia: ZFS](https://en.wikipedia.org/wiki/ZFS)
+* [ZFS Forensics - Recovering Files From a Destroyed Zpool](https://tritondatacenter.com/blog/zfs-forensics-recovering-files-from-a-destroyed-zpool)
   by M. Bruning, August 12, 2013

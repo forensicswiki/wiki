@@ -6,7 +6,7 @@ tags:
 **Anti-forensic techniques** try to frustrate forensic investigators and their
 [techniques](techniques.md).
 
-From [1](http://en.wikipedia.org/wiki/Anti-computer_forensics): Attempts
+From [1](https://en.wikipedia.org/wiki/Anti-computer_forensics): Attempts
 to negatively affect the existence, amount and/or quality of evidence
 from a crime scene, or make the analysis and examination of evidence
 difficult or impossible to conduct
@@ -219,7 +219,7 @@ crafted images found on the hard drive (not on the CD).
 
 ### STARFisH - Structured Testing Approach for Resilience of Forensic Soft- and Hardware
 
-[STARFisH](http://www.digitrace.de/de/forschung/starfish) was a B.Sc.
+[STARFisH](https://www.digitrace.de/forschung/starfish) was a B.Sc.
 project by Phil Knüfer, which dealt with using a structured testing
 approach to improve the resilience of IT forensic software (and
 hardware). To this end, a test schema was designed and test cases were
@@ -246,7 +246,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 ## Externals Links
 
 - [Anti-Forensics: The Next Step in Digital Forensics Tool
-  Testing](http://www.digitrace.de/de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
+  Testing](https://www.digitrace.de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
   in: IT Security Incident Management and IT Forensics (IMF): 2013
   Seventh International Conference on, Date 12-14 March 2013, IEEE, S.
   83 – 97
@@ -257,7 +257,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 - [Anti Forensics: making computer forensics
   hard](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
 - [PTK Forensic Local Command Execution Vulnerability (fixed in 1.0.1,
-  see CHANGELOG)](http://seclists.org/bugtraq/2008/Nov/0038.html)
+  see CHANGELOG)](https://seclists.org/bugtraq/2008/Nov/38)
 - [Anti-Forensics
   Class](http://www.irongeek.com/i.php?page=videos/anti-forensics-occult-computing)
   Little over 3hr of video on the subject of anti-forensic techniques
@@ -265,7 +265,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
   trusted operating
   system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
 - [Low Down and Dirty: Anti-forensic
-  Rootkits](http://www.blackhat.com/presentations/bh-jp-06/BH-JP-06-Bilby-up.pdf),
+  Rootkits](https://www.blackhat.com/presentations/bh-jp-06/BH-JP-06-Bilby-up.pdf),
   by [Darren Bilby](darren_bilby.md), Blackhat Japan 2006
 - [One-byte Modification for Breaking Memory Forensic
   Analysis](https://media.blackhat.com/bh-eu-12/Haruyama/bh-eu-12-Haruyama-Memory_Forensic-Slides.pdf),
@@ -274,17 +274,17 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 ### Mitigation
 
 - [Mitigating Anti-Forensics: A Schema-based
-  Approach](http://starfish.digitrace.de/media/thesis.pdf), by Phil
+  Approach](https://starfish.digitrace.de/media/thesis.pdf), by Phil
   Knüfer, January 5, 2014
 
 ### Windows
 
-- \[<http://msdn.microsoft.com/en-us/library/windows/hardware/ff557671(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   NtSetInformationFile function\]
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/aa365539(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   SetFileInformationByHandle function\]
-- \[<http://msdn.microsoft.com/en-us/library/windows/desktop/ms724933(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   SetFileTime function\]
-- \[<http://msdn.microsoft.com/en-us/library/windows/hardware/ff567096(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   ZwSetInformationFile function\]
 

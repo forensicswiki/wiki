@@ -41,8 +41,8 @@ and TIFF image files, as well as RIFF WAVE audio
 files. Information includes date and time information, camera settings,
 location information, textual descriptions, and copyright information.
 
-- [LibExif](http://libexif.sourceforge.net/) (C)
-- [Metadata extraction in Java](http://www.drewnoakes.com/code/exif/)
+- [LibExif](https://libexif.sourceforge.net/) (C)
+- [Metadata extraction in Java](https://drewnoakes.com/code/exif/)
 - [Adroit Photo Forensics](http://digital-assembly.com/products/adroit-photo-forensics/)
 
 <!-- -->
@@ -65,7 +65,7 @@ Microsoft Office document files contain a huge amount of metadata. They
 are created as OLE Compound Files and mainly stored in the so called
 property set streams. Here are some tools for processing them:
 
-- [Jakarta POI](http://jakarta.apache.org/poi/index.html) Open Source
+- [Jakarta POI](https://poi.apache.org/index.html) Open Source
   implementation in Java.
 - [SquirrelGripper Perl script](https://cheeky4n6monkey.blogspot.com/2012/05/perl-script-plays-matchmaker-with.html)
   Extract fields into SQLite Database.
@@ -80,7 +80,7 @@ single file. Multiple [compression](compression.md) formats are supported.
 [EXIF](exif.md) files can be stored inside TIFFs.
 
 - [LibTIFF](http://www.libtiff.org/)
-- [TIFF FAQ](http://www.awaresystems.be/imaging/tiff/faq.html)
+- [TIFF FAQ](https://www.awaresystems.be/imaging/tiff/faq.html)
 
 # See Also
 
@@ -88,7 +88,7 @@ single file. Multiple [compression](compression.md) formats are supported.
 
 # External links
 
-- [Wikipedia: Metadata](http://en.wikipedia.org/wiki/Metadata)
+- [Wikipedia: Metadata](https://en.wikipedia.org/wiki/Metadata)
 - [Automated Metadata Extraction](https://simson.net/clips/students/08Jun_Migletz.pdf),
   by James Migletz, June 2008
 - [Why is Microsoft Office metadata what it is](https://journeyintoir.blogspot.com/2011/06/why-is-it-what-it-is.html),

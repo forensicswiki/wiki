@@ -139,7 +139,7 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 | Title                                                 | Website                                                                               | Limitation                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Defense Cyber Investigations Training Academy (DCITA) | <https://www.dc3.mil/Missions/Cyber-Training/DC3-Cyber-Training-Academy-CTA/>         | Limited To Certain Roles within US Government Agencies     | 
-| Federal Law Enforcement Training Center               | <https://www.fletc.gov/training-program/seized-computer-evidence-recovery-specialist> | Limited To Law Enforcement                                 |
+| Federal Law Enforcement Training Center               | <https://www.fletc.gov/seized-computer-evidence-recovery-specialist> | Limited To Law Enforcement                                 |
 | IACIS                                                 | <https://www.iacis.com/>                                                              | Limited To Law Enforcement and Affiliate Members of IACIS  |
 | SEARCH                                                | <https://www.search.org/resources/cybercrime-investigative-resources/>                | Limited To Law Enforcement                                 |
 | National White Collar Crime Center                    | <https://www.nw3c.org/>                                                               | Limited To Law Enforcement                                 |
@@ -149,22 +149,22 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 
 | Title                                                                                                              | Website                                                                                                     | Limitation |
 |--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------------|
-| AccessData (Forensic Tool Kit FTK)                                                                                 | <http://accessdata.com/training>                                                                            |            |
+| AccessData (Forensic Tool Kit FTK)                                                                                 | <https://training.exterro.com>                                                                            |            |
 | Amped Software (Image & Video forensics - FIVE; Authenticate)                                                      | <http://ampedsoftware.com/training>                                                                         |            |
 | ASR Data (SMART)                                                                                                   | <http://www.asrdata.com/forensic-training/overview/>                                                        |            |
 | Cellebrite (UFED)                                                                                                  | <https://cellebrite.com/en/academy-overview/>                                                               |            |
 | CPR Tools (Data Recovery)                                                                                          | <http://www.cprtools.net/training.php>                                                                      |            |
-| Digital Intelligence (FRED Forensics Platform)                                                                     | <http://www.digitalintelligence.com/forensictraining.php>                                                   |            |
+| Digital Intelligence (FRED Forensics Platform)                                                                     | <https://digitalintelligence.com/training/overview>                                                   |            |
 | e-fense, Inc. (Helix3 Pro)                                                                                         | <http://www.e-fense.com/training/index.php>                                                                 |            |
 | ElcomSoft Co.Ltd. (desktop, mobile and cloud forensics)                                                            | <https://www.elcomsoft.com/elcomsoft_trainings.html>                                                        |            |
 | OpenText (Guidance Software) (EnCase)                                                                              | <https://www.opentext.com/learning-services>                                                                |            |
 | Micro Systemation (XRY)                                                                                            | <https://www.msab.com/extract-courses/>                                                                     |            |
 | Nuix (eDiscovery)                                                                                                  | <https://www.nuix.com/training>                                                                             |            |
-| MailXaminer (Email Forensics Tool)                                                                                 | <http://www.mailxaminer.com/training.html>                                                                  |            |
+| MailXaminer (Email Forensics Tool)                                                                                 | <https://www.mailxaminer.com/training.html>                                                                  |            |
 | Paraben (Paraben Suite)                                                                                            | <https://paraben.com/dfir-training-3/>                                                                      |            |
 | Software Analysis & Forensic Engineering (CodeSuite)                                                               | <https://www.safe-corp.com/>                                                                                |            |
 | Sumuri, LLC. (Recon for MAC OS X)                                                                                  | <https://sumuri.com/mac-training/>                                                                          |            |
-| Volatility Labs (Volatility Framework)                                                                             | <http://volatility-labs.blogspot.com/search/label/training>                                                 |            |
+| Volatility Labs (Volatility Framework)                                                                             | <https://volatility-labs.blogspot.com/search/label/training>                                                 |            |
 | X-Ways Forensics (X-Ways Forensics)                                                                                | <http://www.x-ways.net/training/>                                                                           |            |
 |                                                                                                                    |                                                                                                             |            |
 
@@ -175,10 +175,10 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 | BerlaCorp Vehicle System Forensics Training Program                                          | <https://www.berla.co/training/>                                         |            |
 | Computer Forensic Training Center Online (CFTCO)                                             | <http://www.cftco.com/>                                                  |            |
 | CCE Bootcamp                                                                                 | <http://www.cce-bootcamp.com/>                                           |            |
-| Cyber Security Academy                                                                       | <http://www.cybersecurityacademy.com/>                                   |            |
+| Cyber Security Academy                                                                       | <http://cybersecurityacademy.com/>                                   |            |
 | Dera Forensics Group                                                                         | <http://www.deraforensicgroup.com/courses.htm>                           |            |
 | e-fense Training                                                                             | <http://www.e-fense.com/training/index.php>                              |            |
-| eForensics Magazine                                                                          | <http://eforensicsmag.com/all-courses/>                                  |            |
+| eForensics Magazine                                                                          | <https://eforensicsmag.com/register-in-wplms/>                                  |            |
 | Elvidence (Computer Forensics & Decryption - Law Enforcement Only)                           | <https://www.elvidence.com.au/>                                          |            |
 | High Tech Crime Institute                                                                    | <http://www.gohtci.com>                                                  |            |
 | Infosec Institute                                                                            | <http://www.infosecinstitute.com/courses/security_training_courses.html> |            |
@@ -189,10 +189,10 @@ href="http://www.internetcrimes.net">http://www.internetcrimes.net</a></p></td>
 | NetSecurity                                                                                  | <https://www.netsecurity.com/cyber-security-and-forensics-training/>     |            |
 | NTI (an Armor Forensics Company) APPEARS DEFUNCT                                             | <http://www.forensics-intl.com/training.html>                            |            |
 | Security University                                                                          | <http://www.securityuniversity.net/classes.php>                          |            |
-| Sumuri, LLC - Mac, Digital Forensics, Encryption, Mobile Forensics, Recon, Passware, Paladin | <https://www.sumuri.com/training/>                                       |            |
-| SysAdmin, Audit, Network, Security Institute (SANS)                                          | <http://computer-forensics.sans.org/courses/>                            |            |
+| Sumuri, LLC - Mac, Digital Forensics, Encryption, Mobile Forensics, Recon, Passware, Paladin | <https://sumuri.com/training-courses/>                                       |            |
+| SysAdmin, Audit, Network, Security Institute (SANS)                                          | <https://www.sans.org/digital-forensics-incident-response/>                            |            |
 | SysTools, INC. (Digital Forensics Training)                                                  | <https://www.systoolsgroup.com/training/>                                |            |
-| Teel Technologies Canada/Europe Mobile/Comp/Video Forensics Training                         | <http://teeltechcanada.com/training/>                                    |            |
+| Teel Technologies Canada/Europe Mobile/Comp/Video Forensics Training                         | <https://teeltechcanada.com/digital-forensic-training/>                                    |            |
 | Teel Technologies Mobile Device Forensics Training                                           | <https://teeltech.com/mobile-device-forensics-training/>                 |            |
 | Zeidman Consulting (MCLE)                                                                    | <https://www.zeidmanconsulting.com/speaking.htm>                         |            |
 |                                                                                              |                                                                          |            |

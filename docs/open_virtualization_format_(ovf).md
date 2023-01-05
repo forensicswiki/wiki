@@ -14,7 +14,7 @@ Standardization (ISO) as ISO 17203.
 
 ## External Links
 
-- [Open Virtualization Format](http://www.dmtf.org/standards/ovf)
+- [Open Virtualization Format](https://www.dmtf.org/standards/ovf)
 - [Wikipedia: Open Virtualization
   Format](https://en.wikipedia.org/wiki/Open_Virtualization_Format)
 

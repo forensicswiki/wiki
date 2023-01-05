@@ -33,7 +33,7 @@ Windows Forensic Environment include:
 - AccessData FTK Imager [4](http://www.accessdata.com),
 - Guidance Software Encase [5](http://www.guidancesoftware.com),
 - ProDiscover [6](http://www.techpathways.net),
-- RegRipper [7](http://www.RegRipper.wordpress.com).
+- RegRipper [7](https://regripper.wordpress.com/).
 
 A write protection tool developed by Colin Ramsden was released in 2012
 that provides a GUI for disk toggling [8](http://www.ramsdens.org.uk/).
@@ -70,14 +70,14 @@ Various issues with Linux Boot CDs can be compared
 ## Resources:
 
 - Windows Forensic Environment blog:
-  [10](http://www.winfe.wordpress.com)
-- Article on Win FE in Hakin9 magazine 2009-06 [11](http://hakin9.org)
+  [10](https://winfe.wordpress.com/)
+- Article on Win FE in Hakin9 magazine 2009-06 [11](https://hakin9.org/)
 - step-by-step Video to create a Win FE CD
   [12](http://www.youtube.com/v/J3T5wnPiObI)
 - WinPE Technical Reference:
-  \[<http://technet.microsoft.com/en-us/library/dd744322(WS.10>).aspx\]
+  \[<https://learn.microsoft.com/en-us/>).aspx\]
 - Windows Automated Installation Kit:
-  [13](http://www.microsoft.com/downloads/details.aspx?familyid=696DD665-9F76-4177-A811-39C26D3B3B34&displaylang=en)
+  [13](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
 - WinFE Write Protect tool [14](http://www.ramsdens.org.uk/)
 - WinFE Online Training course
   [15](http://courses.dfironlinetraining.com/windows-forensic-environment)

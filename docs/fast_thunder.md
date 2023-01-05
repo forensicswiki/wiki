@@ -66,4 +66,4 @@ To get an overview of the tasks:
 ## External Links
 
 - [Wikipedia article on Fast Thunder
-  (Xunlei)](http://en.wikipedia.org/wiki/Xunlei)
+  (Xunlei)](https://en.wikipedia.org/wiki/Xunlei)

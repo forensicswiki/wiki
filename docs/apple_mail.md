@@ -12,4 +12,4 @@ versions of the program.
 
 ## External Links
 
-* [Official website](http://www.apple.com/macosx/features/mail/)
+* [Official website](https://www.apple.com/macos/ventura/)

@@ -108,6 +108,6 @@ February 7, 2006 includes:
 
 ## External Links
 
-- [Official website](http://www.apple.com/ipod/)
-- [iPodLinux project website](http://ipodlinux.org) - Contains lots of
+- [Official website](https://support.apple.com/ipod-touch)
+- [iPodLinux project website](http://www.ipodlinux.org/) - Contains lots of
   useful information about the iPod hardware and software.

@@ -36,7 +36,7 @@ will be overwritten with the contents of the new message.
 - [pySIM](https://github.com/osmocom/pysim), a "SIM card
   management tool, capable of creating, editing, deleting, backup and
   restore operations on your SIM Phonebook and SMS records."
-- [adafruit industries](http://www.adafruit.com/category/27) has a
+- [adafruit industries](https://www.adafruit.com/category/27) has a
   low-cost SIM reader kit that you can get from their website.
 
 ## External Links

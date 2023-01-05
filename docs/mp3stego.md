@@ -8,4 +8,4 @@ files using [steganography](steganography.md).
 ## External Links
 
 [MP3Stego
-homepage](http://www.petitcolas.net/fabien/steganography/mp3stego/)
+homepage](https://www.petitcolas.net/fabien/steganography/mp3stego/)

@@ -22,4 +22,4 @@ The timestamp is formatter in milli seconds sinds POSIX epoch (Jan 1,
 
 - [Zeitgeist Project site](http://zeitgeist-project.com/)
 - [Wikipedia: Zeitgeist
-  (framework)](http://en.wikipedia.org/wiki/Zeitgeist_(framework))
+  (framework)](https://en.wikipedia.org/wiki/Zeitgeist_(framework))

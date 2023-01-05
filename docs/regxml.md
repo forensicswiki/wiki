@@ -16,10 +16,10 @@ separate effort from RegXML otherwise mentioned in this article.
 ## Sample XML
 
 This RegXML is a sample of the System hive from the [M57-Patents
-scenario](http://digitalcorpora.org/corpora/scenarios/m57-patents-scenario),
+scenario](https://digitalcorpora.org/corpora/scenarios/m57-patents-scenario/),
 image Charlie 2009-11-16. Its structure is of the first version of
 RegXML, a deep-hierarchy structure created by extending the
-[Hivexml](http://libguestfs.org/hivexml.1.html) utility.
+[Hivexml](https://libguestfs.org/hivexml.1.html) utility.
 
     <?xml version="1.0" encoding="UTF-8"?>
     <hive>

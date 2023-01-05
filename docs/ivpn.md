@@ -14,6 +14,6 @@ to their customers activities.
 
 ## External Links
 
-- [Official website](http://www.ivpn.net)
+- [Official website](https://www.ivpn.net/)
 - [Comparison of VPN
-  protocols](http://www.ivpn.net/pptp-vs-lt2p-vs-openvpn.php)
+  protocols](https://www.ivpn.net//pptp-vs-lt2p-vs-openvpn.php)

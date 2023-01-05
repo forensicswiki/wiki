@@ -31,7 +31,7 @@ is 'classes.dex'. The various tools listed below will use this file.
 
 ### dedexer
 
-A disassembler (available at <http://dedexer.sourceforge.net/>) to turn
+A disassembler (available at <https://dedexer.sourceforge.net/>) to turn
 the DEX format into an "assembly-like format". The format uses Jasmin
 like syntax and various Dalvik opcodes. The command used to disassemble
 the classes.dex file is:
@@ -82,7 +82,7 @@ file is below.
 ### baksmali
 
 The baksmali disassembler (available at
-<http://code.google.com/p/smali/>) disassembles the DEX file into a
+<https://code.google.com/archive/p/smali>) disassembles the DEX file into a
 format loosely based on the Jasmin's/dedexer's syntax. The command used
 in this analysis to generate the disassembly is:
 
@@ -144,7 +144,7 @@ files. The procedure for performing this task is to take the Dalvik
 opcodes to the Java byte codes (JAR file). The next step is to take a
 Java decompiler, which will produce several java files. The two tools
 used in the section are dex2jar (available at
-<http://code.google.com/p/dex2jar/>) and a java decompiler of choice.
+<https://github.com/pxb1988/dex2jar>) and a java decompiler of choice.
 The steps performed to complete this transformation are:
 
 1.  $ ./dex2jar.bat classes.dex

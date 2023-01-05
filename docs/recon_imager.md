@@ -32,4 +32,4 @@ maximum integrity of data stored in RAM.
 
 ## External Links
 
-- [Official Website](https://sumuri.com/software/recon-imager/)
+- [Official Website](https://sumuri.com/updates/recon-imager/)

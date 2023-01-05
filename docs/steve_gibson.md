@@ -19,5 +19,5 @@ security.
 
 # External Links
 
-[Gibson Research Corporation](http://www.grc.com)
+[Gibson Research Corporation](https://www.grc.com/intro.htm)
 

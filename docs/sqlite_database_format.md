@@ -60,13 +60,13 @@ and credentials are all stored in SQLite3.
 - [Forensic Examination of Rollback journals](http://sandersonforensics.com/forum/content.php?208-Dealing-with-records-found-in-SQLite-Rollback-Journals)
 - [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](http://belkasoft.com/sqlite-analysis),
   article by [Belkasoft](belkasoft.md)
-- [The SQLite Database File Format](http://sqlite.org/fileformat2.html),
+- [The SQLite Database File Format](https://sqlite.org/fileformat2.html),
   by the [SQLite project](sqlite.md)
-- [Write-Ahead Logging](http://sqlite.org/wal.html),
+- [Write-Ahead Logging](https://sqlite.org/wal.html),
   by the [SQLite project](sqlite.md)
 - [Carving SQLite databases from unallocated clusters](http://forensicsfromthesausagefactory.blogspot.com/2011/04/carving-sqlite-databases-from.html),
   by Richard Drinkwater, April 27, 2011
-- [Recovering Data from Deleted SQLite Records: Redux](http://linuxsleuthing.blogspot.ch/2013/09/recovering-data-from-deleted-sqlite.html),
+- [Recovering Data from Deleted SQLite Records: Redux](https://linuxsleuthing.blogspot.com/2013/09/recovering-data-from-deleted-sqlite.html),
   by [John Lehr](john_lehr.md), September 13, 2013
 
 ## Tools
@@ -77,4 +77,4 @@ and credentials are all stored in SQLite3.
 - [SQLite](sqlite.md)
 - [SQLite Recovery](sqlite_recovery.md)
 - [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
-- [SQLite Forensics](http://www.freeviewer.org/sqlite/forensics/)
+- [SQLite Forensics](https://www.freeviewer.org/sqlite/forensics/)

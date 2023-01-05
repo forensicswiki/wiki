@@ -74,7 +74,7 @@ format](sqlite_database_format.md).
 
 ## External Links
 
-- [Official website](http://www.apple.com/macosx/features/safari/)
+- [Official website](https://www.apple.com/macos/ventura/)
 - [Safari Cache
   Revisited](http://www.appleexaminer.com/files/Safari_Cache.db_Revisited.pdf)
   by Sean Cavanaugh
@@ -87,4 +87,4 @@ format](sqlite_database_format.md).
 ## Tools
 
 - [J.A.F.A.T. Archive of Forensics Analysis
-  Tools](http://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)
+  Tools](https://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)

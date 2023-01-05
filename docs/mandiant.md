@@ -33,4 +33,4 @@ Since its inception, Mandiant has significant contributions to the DFIR communit
 
 ## External Links
 
-[Official website](http://www.mandiant.com)
+[Official website](https://www.mandiant.com/)

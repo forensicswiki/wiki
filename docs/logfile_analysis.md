@@ -74,7 +74,7 @@ logfiles)
 <!-- -->
 
 AWStats
-<http://awstats.sourceforge.net/>
+<https://awstats.sourceforge.io/>
 
 *"Free powerful and featureful tool that generates advanced web,
 streaming, ftp or mail server statistics, graphically."*

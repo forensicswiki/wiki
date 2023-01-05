@@ -20,4 +20,4 @@ built in NTFS support, driver availability, and built in write blocking.
 
 ## External Links
 
-* [Official Website](http://www.ForensicSoft.com/)
+* [Official Website](https://www.forensicsoft.com/)

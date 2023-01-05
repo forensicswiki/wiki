@@ -88,7 +88,7 @@ transparently use the services of a network firewall.
 These are websites that allow a user to access a site through them.
 They generally use PHP or CGI to implement the proxy functionality.
 
-Example GET request from [Anonymouse](http://anonymouse.ws/) (to a web
+Example GET request from [Anonymouse](https://anonymouse.ws/) (to a web
 server):
 
     GET / HTTP/1.0

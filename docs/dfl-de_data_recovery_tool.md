@@ -11,7 +11,7 @@ damaged hard drives with common firmware failures.
 ## External Links
 
 - [DFL-DE Data Recovery
-  Hardware](http://www.dolphindatalab.com/product/data-extractor-dfl-de/)
+  Hardware](https://www.dolphindatalab.com/product/data-extractor-dfl-de/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

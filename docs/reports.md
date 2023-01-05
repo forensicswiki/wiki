@@ -4,7 +4,7 @@ tags:
 ---
 - *Electronic Crime Needs Assessment for State and Local Law
   Enforcement,* National Institute of Justice, March 2002.
-  - [NCJ 186276](http://www.simson.net/ref/2001/NIJ-icove.pdf)
+  - [NCJ 186276](http://simson.net/ref/2001/NIJ-icove.pdf)
 
 <!-- -->
 
@@ -12,8 +12,8 @@ tags:
   Attacks," Institute for Security and Technology Studies, Dartmouth
   University. June 2002.
   - [National Needs
-    Assessment](http://www.simson.net/ref/2002/ISTS1-Dartmouth.pdf)
-  - [Gap Analysis](http://www.simson.net/ref/2004/ISTS2-Dartmouth.pdf)
+    Assessment](http://simson.net/ref/2002/ISTS1-Dartmouth.pdf)
+  - [Gap Analysis](http://simson.net/ref/2004/ISTS2-Dartmouth.pdf)
 
 <!-- -->
 

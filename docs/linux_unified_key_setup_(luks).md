@@ -70,7 +70,7 @@ See the cryptsetup(8) man page for other operations.
 ## External Links
 
 - [New Methods in Hard Disk
-  Encryption](http://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf), by
+  Encryption](https://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf), by
   Clemens Fruhwirth, July 18, 2005
 - [LUKS On-Disk Format Specification - Version
   1.2.1](http://wiki.cryptsetup.googlecode.com/git/LUKS-standard/on-disk-format.pdf),
@@ -82,5 +82,5 @@ See the cryptsetup(8) man page for other operations.
   specification](https://googledrive.com/host/0B3fBvzttpiiSNUVYSFF1TmRONmc/Linux%20Unified%20Key%20Setup%20(LUKS)%20Disk%20Encryption%20format.pdf),
   by the [libluksde project](libluksde.md), July 2013
 - [Practical malleability attack against CBC-Encrypted LUKS
-  partitions](http://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/),
+  partitions](https://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/),
   by Jakob Lell, December 22, 2013

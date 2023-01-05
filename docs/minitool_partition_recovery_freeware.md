@@ -47,7 +47,7 @@ simple quick scan.
 ## External Links
 
 - [Download
-  Link](http://download.cnet.com/MiniTool-Partition-Recovery/3000-2248_4-75206486.html)
+  Link](https://download.cnet.com/utilities/)
 - [MiniTool Partition Recovery
   Freeware](http://www.minitool-partitionrecovery.com/)
 

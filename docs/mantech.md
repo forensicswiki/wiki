@@ -15,5 +15,5 @@ and practice computer forensics in the real world.
 
 ## External Links
 
-* [Official website](http://www.mantech.com/)
-* [Wikipedia entry on ManTech International](http://en.wikipedia.org/wiki/Mantech_International)
+* [Official website](https://www.mantech.com/)
+* [Wikipedia entry on ManTech International](https://en.wikipedia.org/wiki/Mantech_International)

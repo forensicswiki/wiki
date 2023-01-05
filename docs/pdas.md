@@ -27,7 +27,7 @@ executable programs to perform such an acquisition. Unfortunately there
 are no published methods for analyzing the resulting data.
 
 * [Original paper by Grand](https://simson.net/ref/2005/csci_e-170/ref/pdd_palm_forensics.pdf)
-* [Actual tool](http://packetstormsecurity.org/palm/)
+* [Actual tool](https://packetstormsecurity.com/palm/)
 
 <!-- -->
 
@@ -36,6 +36,6 @@ are no published methods for analyzing the resulting data.
 
 ## Links
 
-* [PDA FAQ,News,Reviews,Devices,Software,Freeware](http://www.mypocketpcmobile.com)
-* [Jansen, Ayers Guidelines on PDA Forensics](http://csrc.nist.gov/publications/nistpubs/800-72/sp800-72.pdf)
+* [PDA FAQ,News,Reviews,Devices,Software,Freeware](https://68.183.185.118/)
+* [Jansen, Ayers Guidelines on PDA Forensics](https://csrc.nist.gov/publications/detail/sp/800-72/final)
 * [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7100-PDAForensics.pdf)

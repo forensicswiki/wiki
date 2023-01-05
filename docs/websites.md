@@ -22,7 +22,7 @@ Digital Forensic Solution Provider Website
 <!-- -->
 
 Certfied Computer Examiner Website
-[Certfied Computer Examiner Website](http://www.isfce.com/)
+[Certfied Computer Examiner Website](https://www.isfce.com/)
 
 Open certification process for digital forensics.
 
@@ -56,7 +56,7 @@ and test hardware.
 <!-- -->
 
 Computer Forensics World
-<http://www.computerforensicsworld.com/>
+<https://www.computerforensicsworld.com/>
 
 Website with online discussion forums relating to computer forensics.
 
@@ -118,7 +118,7 @@ interested in digital forensics.
 
 International Association of Computer Investigative Specialists
 [International Association of Computer Investigative
-Specialists](http://www.iacis.info/)
+Specialists](https://iacis.info/)
 
 Volunteer non-profit corporation composed of law enforcement
 professionals.
@@ -142,7 +142,7 @@ analysis site.
 <!-- -->
 
 NIST: Secure Hashing
-[NIST: Secure Hashing](http://csrc.nist.gov/CryptoToolkit/tkhash.html)
+[NIST: Secure Hashing](https://csrc.nist.gov/projects/hash-functions)
 
 The Computer Security Division's (CSD) Security Technology Group (STG)
 is involved in the development, maintenance, and promotion of a number
@@ -177,7 +177,7 @@ Computer Forensics Lab Resource Site.
 <!-- -->
 
 \[University of Rhode Island\] Digital Forensics Center
-[University of Rhode Island](http://dfc.cs.uri.edu/)
+[University of Rhode Island](https://web.uri.edu/cs/dfcsc/)
 
 Computer Forensics Lab Resource Site.
 

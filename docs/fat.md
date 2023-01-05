@@ -246,16 +246,16 @@ Later, and Windows 7. Features include:
 Although Microsoft has published some information on exFAT, there are
 more technical specifications available from third parties. For example,
 here is a [detailed presentation on
-exFAT](http://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf).
+exFAT](https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf).
 
 Another published technical paper that goes in the internals in great
 detail is in the SANS Reading Room at: [Reverse Engineering the
 Microsoft exFAT File
-System](http://www.sans.org/reading_room/whitepapers/forensics/rss/reverse_engineering_the_microsoft_exfat_file_system_33274)
+System](https://www.sans.org/white-papers/33274/)
 
 ### Comparison of FAT Versions
 
-See the table at <http://en.wikipedia.org/wiki/File_Allocation_Table>
+See the table at <https://en.wikipedia.org/wiki/File_Allocation_Table>
 for more detailed information about the various versions of FAT.
 
 ## Uses
@@ -315,7 +315,7 @@ the file and goes to the end of that sector. Residual slack then starts
 at the next sector and goes to the end of the cluster allocated for the
 file. File slack is a helpful tool when analyzing a hard drive because
 the old data that is not overwritten by the new file is still in tact.
-Go to <http://www.pcguide.com/ref/hdd/file/partSizes-c.html> for
+Go to <https://www.pcguide.com/hdd/> for
 examples.
 
 <table border="1" cellspacing="2" bordercolor="#000000" cellpadding="4" width="468" bordercolorlight="#C0C0C0">
@@ -682,7 +682,7 @@ object.
   FAT12](https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf),
   by Archana Chidanandan, 2004
 - [exFAT file system
-  specification](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification),
+  specification](https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-specification),
   by Microsoft, 2019-08-27
 
 ### Volume serial number
@@ -693,16 +693,16 @@ object.
 
 ### ExFAT
 
-- [Wikipedia: ExFAT](http://en.wikipedia.org/wiki/ExFAT)
+- [Wikipedia: ExFAT](https://en.wikipedia.org/wiki/ExFAT)
 - [exFAT File System](http://www.active-undelete.com/xfat_volume.htm)
 - [Reverse Engineering the Microsoft exFAT File
-  System](http://www.sans.org/reading-room/whitepapers/forensics/reverse-engineering-microsoft-exfat-file-system-33274),
+  System](https://www.sans.org/white-papers/33274/),
   by [Robert Shullich](robert_shullich.md), December 1, 2009
 - [Extended FAT file
-  system](http://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf),
+  system](https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf),
   by [Jeff Hamm](jeff_hamm.md), December 2009
 - [Demystifying the Microsoft Extended FAT File System
-  (exFAT)](http://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
+  (exFAT)](https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
   by [Robert Shullich](robert_shullich.md), September 20, 2010
 - [Windows Phone 7 : Implications For Digital Forensic
   Investigators](http://aut.researchgateway.ac.nz/bitstream/handle/10292/4123/LeY.pdf),
@@ -710,7 +710,7 @@ object.
 
 ### textFAT
 
-- \[<http://msdn.microsoft.com/en-us/library/ee490643(v=winembedded.60>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   TexFAT Overview (Windows Embedded CE 6.0)\], by
   [Microsoft](microsoft.md)
 - [TexFAT Padding Directory

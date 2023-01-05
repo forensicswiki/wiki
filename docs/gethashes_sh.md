@@ -11,7 +11,7 @@ hashes of the files you gather during your investigation (whether they
 be script output or actual binaries) is a great way to prove that your
 collected evidence hasn't been tampered with. Because of the risk of
 [hash
-collisions](http://en.wikipedia.org/wiki/Collision_%28computer_science%29),
+collisions](https://en.wikipedia.org/wiki/Collision_%28computer_science%29),
 it is important to use multiple hashing algorithms for each file (e.g.,
 MD5 and SHA1).
 

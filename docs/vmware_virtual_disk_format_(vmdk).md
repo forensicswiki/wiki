@@ -38,7 +38,7 @@ state** (or uncleanShutdown).
 
 ## External Links
 
-* [Virtual Disk Format 5.0](http://www.vmware.com/support/developer/vddk/vmdk_50_technote.pdf?src=vmdk),
+* [Virtual Disk Format 5.0](https://developer.vmware.com/?src=vmdk),
   by [VMWare](vmware.md)
 * [VMware Virtual Disk (VMDK) format specification](https://github.com/libyal/libvmdk/blob/main/documentation/VMWare%20Virtual%20Disk%20Format%20(VMDK).asciidoc),
   by the [libvmdk project](libvmdk.md)
@@ -46,6 +46,6 @@ state** (or uncleanShutdown).
 ## Tools
 
 * [libvmdk](libvmdk.md)
-* [VMWare VMDK Data Recovery](http://www.bitrecover.com/vmdk-recovery-software/) -
+* [VMWare VMDK Data Recovery](https://www.bitrecover.com/vmdk-recovery-software/) -
   Allows you to recover data from corrupt and crashed VMDK VMware virtual
   machine disk image files.

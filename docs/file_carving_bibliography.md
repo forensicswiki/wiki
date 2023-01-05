@@ -20,7 +20,7 @@ by Lodovico Marziale, Golden G. Richard III\*, Vassil Roussev, DFRWS 2007.
 Automatic Reassembly of Document Fragments via Data Compression, Kulesh
 Shanmugasundaram and Nasir Memon, Presented at DFRWS, 2002.
 
-[Automatic Reassembly of Document Fragments via Context Based Statistical Models](http://digital-assembly.com/technology/research/pubs/acsac-2003.pdf),
+[Automatic Reassembly of Document Fragments via Context Based Statistical Models](https://www.werecoverdata.com),
 by Kulesh Shanmugasundaram and Nasir Memon, Annual Computer Security
 Applications Conference, 2003.
 
@@ -33,7 +33,7 @@ Processing, 2003.
 by Simson Garfinkel, Digital Forensics Workshop (DFRWS 2007), Pittsburgh, PA,
 August 2007.
 
-[Automated Reassembly of File Fragmented Images Using Greedy Algorithms](http://digital-assembly.com/technology/research/pubs/ieee-trans-2006.pdf),
+[Automated Reassembly of File Fragmented Images Using Greedy Algorithms](https://www.werecoverdata.com),
 by Anandabrata Pal and Nasir Memon, IEEE Trans. Image Processing, Feb.
 2006.
 
@@ -57,7 +57,7 @@ by Anandabrata Pal, Husrev Sencar, Nasir Memon, DFRWS, 2008.
 https://dfrws.org/sites/default/files/session-files/2009_USA_paper-identification_and_recovery_of_jpeg_files_with_missing_fragments.pdf),
 by Husrev Sencar and Nasir Memon. DFRWS, 2009.
 
-[The Evolution of File Carving](http://digital-assembly.com/technology/research/pubs/ieee-spm-2009.pdf),
+[The Evolution of File Carving](https://www.werecoverdata.com),
 by Anandabrata Pal and Nasir Memon. IEEE Signal Processing Magazine,
 Volume: 26, Issue 2. March 2009.
 

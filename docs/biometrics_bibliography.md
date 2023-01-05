@@ -11,10 +11,10 @@ tags:
 `isbn = {1-58113-630-7},`
 `pages = {153--160},`
 `location = {Ft. Lauderdale, Florida, USA},`
-`doi = {`[`http://doi.acm.org/10.1145/642611.642639`](http://doi.acm.org/10.1145/642611.642639)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/642611.642639`](http://doi.acm.org/10.1145/642611.642639)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
-`url="`[`http://portal.acm.org/citation.cfm?id=642611.642639`](http://portal.acm.org/citation.cfm?id=642611.642639)`",`
+`url="`[`https://dl.acm.org/doi/10.1145/642611.642639`](http://portal.acm.org/citation.cfm?id=642611.642639)`",`
 `abstract="This paper describes some of the consumer-driven usability research conducted by NCR Self Service Strategic Solutions in the development of an understanding of usability and user acceptance of leading-edge biometrics verification techniques. We discuss biometric techniques in general and focus upon the usability phases and issues, associated with iris verification technology at the Automated Teller Machine (ATM) user interface. The paper concludes with a review of some of the major research issues encountered, and an outline of future work in the area."`
 `}`
 
@@ -47,7 +47,7 @@ tags:
 `year = {2007},`
 `issn = {1540-7993},`
 `pages = {78--81},`
-`doi = {`[`http://dx.doi.org/10.1109/MSP.2007.69`](http://dx.doi.org/10.1109/MSP.2007.69)`},`
+`doi = {`[`https://ieeexplore.ieee.org/document/4218559/`](http://dx.doi.org/10.1109/MSP.2007.69)`},`
 `publisher = {IEEE Educational Activities Department},`
 `address = {Piscataway, NJ, USA},`
 `abstract = {The author examines user interaction with biometric systems at airports, and emphasizes usability's importance in successfully operating biometric systems.}`
@@ -174,7 +174,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {January},`
 `year = {2004},`
 `pages = {21--30},`
-`doi = {`[`http://dx.doi.org/10.1109/TCSVT.2003.818350`](http://dx.doi.org/10.1109/TCSVT.2003.818350)`},`
+`doi = {`[`https://ieeexplore.ieee.org/document/1262028/`](http://dx.doi.org/10.1109/TCSVT.2003.818350)`},`
 `url = {`[`http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1262028`](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1262028)`},`
 
 `abstract = {Algorithms developed by the author for recognizing persons by their iris patterns have now been tested in many field and laboratory trials, producing no false matches in several million comparison tests. The recognition principle is the failure of a test of statistical independence on iris phase structure encoded by multi-scale quadrature wavelets. The combinatorial complexity of this phase information across different persons spans about 249 degrees of freedom and generates a discrimination entropy of about 3.2 b/mm/sup 2/ over the iris, enabling real-time decisions about personal identity with extremely high confidence. The high confidence levels are important because they allow very large databases to be searched exhaustively (one-to-many "identification mode") without making false matches, despite so many chances. Biometrics that lack this property can only survive one-to-one ("verification") or few comparisons. The paper explains the iris recognition algorithms and presents results of 9.1 million comparisons among eye images from trials in Britain, the USA, Japan, and Korea. }`
@@ -192,7 +192,7 @@ journal = {Optics and Lasers in Engineering },
 `year = {2000},`
 `issn = {0001-0782},`
 `pages = {90--98},`
-`doi = {`[`http://doi.acm.org/10.1145/328236.328110`](http://doi.acm.org/10.1145/328236.328110)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/328236.328110`](http://doi.acm.org/10.1145/328236.328110)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -227,7 +227,7 @@ Evaluation (ICE) 2006
 <bibtex> @report {ORC_PATUBITGPS}, title = {Public Attitudes Toward the
 Uses of Biometric Identification Technologies by Government and the
 Private Sector}, year = {2002}, url =
-{<http://dematerialisedid.com/PDFs/Biometricsurveyfindings.pdf>}
+{<https://www.dematerialisedid.com/PDFs/Biometricsurveyfindings.pdf>}
 </bibtex>
 
 <bibtex> @article{simon001,

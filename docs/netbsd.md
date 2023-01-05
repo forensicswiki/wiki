@@ -10,5 +10,5 @@ and 386BSD releases. It is available on many platforms.
 ## External Links
 
 - [Official website](http://www.netbsd.org/)
-- [Wikipedia: NetBSD](http://en.wikipedia.org/wiki/NetBSD)
+- [Wikipedia: NetBSD](https://en.wikipedia.org/wiki/NetBSD)
 

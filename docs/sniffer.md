@@ -78,9 +78,9 @@ resulting TCP stream.
 - [Xplico](xplico.md)
 - [NetworkMiner](networkminer.md)
 - [Cain & Abel](http://www.oxid.it/cain.html)
-- [ettercap](http://ettercap.sourceforge.net/) (unsupported, last
+- [ettercap](https://ettercap.sourceforge.net/) (unsupported, last
   version - 2005/05/29)
-- [dsniff](http://monkey.org/~dugsong/dsniff/) (obsolete, last stable
+- [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable
   version - 2000/12/17)
 - [justniffer](http://justniffer.sourceforge.net/)
 

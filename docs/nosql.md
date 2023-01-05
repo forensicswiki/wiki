@@ -10,7 +10,7 @@ without the SQL query load.
 Several have argued that it may be intersting to use NoSQL databases for
 forensic purposes. Specific databases to consider and their reasons are:
 
-- [MongoDB](http://www.mongodb.org/)
-- [CouchDB](http://couchdb.apache.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [CouchDB](https://couchdb.apache.org/)
 
 ## Forensics of Nosql Databases

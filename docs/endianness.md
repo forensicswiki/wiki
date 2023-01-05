@@ -34,4 +34,4 @@ Network endian (big endian).
 
 ## External Links
 
-- [Wikipedia: Endianness](http://en.wikipedia.org/wiki/Endianness)
+- [Wikipedia: Endianness](https://en.wikipedia.org/wiki/Endianness)

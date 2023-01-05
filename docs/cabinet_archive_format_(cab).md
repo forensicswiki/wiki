@@ -10,9 +10,9 @@ platform](windows.md)
 
 ## External Links
 
-- [Wikipedia: Cabinet (file format)](http://en.wikipedia.org/wiki/Cabinet_(file_format))
+- [Wikipedia: Cabinet (file format)](https://en.wikipedia.org/wiki/Cabinet_(file_format))
 
 ## Tools
 
-- [cabextract](http://www.cabextract.org.uk/) (uses
-  [libmspack](http://www.cabextract.org.uk/libmspack/))
+- [cabextract](https://www.cabextract.org.uk/) (uses
+  [libmspack](https://www.cabextract.org.uk/libmspack/))

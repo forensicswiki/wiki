@@ -18,7 +18,7 @@ certain types of viruses or human error (such as accidentally erasing a
 partition table).
 
 [Forensics usage of TestDisk and
-PhotoRec](http://www.cgsecurity.org/wiki/TestDisk_%26_PhotoRec_in_various_digital_forensics_testcase)
+PhotoRec](https://www.cgsecurity.org/wiki/TestDisk_%26_PhotoRec_in_various_digital_forensics_testcase)
 is described on the website.
 
 ## Summary
@@ -91,6 +91,6 @@ TestDisk can find lost partitions of the following file systems:
 
 ## External links
 
-- [TestDisk Wiki](http://www.cgsecurity.org/wiki/TestDisk)
+- [TestDisk Wiki](https://www.cgsecurity.org/wiki/TestDisk)
 - [TestDisk main functions
-  review](http://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)
+  review](https://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)

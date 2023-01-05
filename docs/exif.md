@@ -23,4 +23,4 @@ For tools that extract Exif meta data look here -
 
 * [exif.org](http://exif.org/)
 * [Exif 2.2 specification](media:exif2-2.pdf.md)
-* [Exif](http://en.wikipedia.org/wiki/Exif) article in the Wikipedia.
+* [Exif](https://en.wikipedia.org/wiki/Exif) article in the Wikipedia.

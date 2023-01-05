@@ -51,7 +51,7 @@ images, macros, and the like.
 
 An important caveat in the structure of the ZIP file is that the first
 file must be the "mimetype" file and it must not be compressed.
-[1](http://www.jejik.com/articles/2010/03/how_to_correctly_create_odf_documents_using_zip/)
+[1](https://www.jejik.com/articles/2010/03/how_to_correctly_create_odf_documents_using_zip/)
 The string "mimetype" should appear at position 30 and the actual MIME
 type at position 38. This adaptation makes it possible for operating
 systems to determine the MIME type of a file without relying on the file

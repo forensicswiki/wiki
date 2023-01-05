@@ -38,7 +38,7 @@ solutions;
 ## External Links
 
 - [DFL-URE USB Device Recovery
-  Equipment](http://www.dolphindatalab.com/product/dfl-ure-usb-device-recovery-equipment/)
+  Equipment](https://www.dolphindatalab.com/product/dfl-ure-usb-device-recovery-equipment/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

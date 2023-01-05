@@ -44,12 +44,12 @@ There are several tools available to extract information out of iOS
 operating systems (listed alphabetically):
 
 * Aceso by Radio Tactics
-  [1](http://www.radio-tactics.com/products/law/aceso-kiosk)
-* Lantern by Katana Forensics [3](http://katanaforensics.com/)
+  [1](https://radio-tactics.com)
+* Lantern by Katana Forensics [3](https://katanaforensics.com/)
 * [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) by
   [Nuix](nuix.md).
 * Oxygen Forensic Suite by Oxygen Software
-  [4](http://www.oxygen-forensic.com/en/)
+  [4](https://www.oxygen-forensic.com/en/)
 * UFED and Physical Analyzer by Cellebrite
   [5](https://www.cellebrite.com/)
 * XRY by [Micro Systemation](https://www.msab.com/)
@@ -63,5 +63,5 @@ operating systems (listed alphabetically):
 
 * [The Future of Mobile Forensics](http://belkasoft.com/en/future-of-mobile-forensics),
   article by [Belkasoft](belkasoft.md)
-* [Database Parsing Tools](http://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
+* [Database Parsing Tools](https://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
 * [iOS (iPhone OS) Forensics](http://www.systoolsgroup.com/forensics/sqlite/ios.html)

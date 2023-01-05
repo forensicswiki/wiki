@@ -28,14 +28,14 @@ and remove metadata from all images.
 
 # Externals Links
 
-- [Wikipedia: JPEG](http://en.wikipedia.org/wiki/JPEG)
-- [ISO/IEC 10918-1](http://www.w3.org/Graphics/JPEG/itu-t81.pdf),
+- [Wikipedia: JPEG](https://en.wikipedia.org/wiki/JPEG)
+- [ISO/IEC 10918-1](https://www.w3.org/Graphics/JPEG/itu-t81.pdf),
   Section: Annex B contains a detailed description of the JPEG file
   structure.
-- [JPEG File Interchange Format Version 1.02](http://www.w3.org/Graphics/JPEG/jfif3.pdf)
+- [JPEG File Interchange Format Version 1.02](https://www.w3.org/Graphics/JPEG/jfif3.pdf)
 - [EXIF Specifications](http://www.exif.org/specifications.html)
 - [Exchangeable image file format for digital still cameras: Exif Version 2.2](http://www.exif.org/Exif2-2.PDF)
-- [Extensible Metadata Platform (XMP)](http://www.adobe.com/products/xmp/related.html)
+- [Extensible Metadata Platform (XMP)](https://www.adobe.com/products/xmp.html)
 - [Adobe - XMP Specification](http://partners.adobe.com/public/developer/en/xmp/sdk/XMPspecification.pdf)
-- [FlashPix Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/FlashPix.html)
-- [Wikipedia: ICC profile](http://en.wikipedia.org/wiki/ICC_profile)
+- [FlashPix Tags](https://exiftool.org/TagNames/FlashPix.html)
+- [Wikipedia: ICC profile](https://en.wikipedia.org/wiki/ICC_profile)

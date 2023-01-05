@@ -966,7 +966,7 @@ POLA
 - the E language ( <http://www.erights.org/> )
 - AppArmor
 - iptables/ipfw
-- minorfs ( <http://polacanthus.net/minorfs.html> )
+- minorfs ( <https://www.the-essays.com/> )
 
 # Implementation Timeline
 

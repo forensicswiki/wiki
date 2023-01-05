@@ -9,7 +9,7 @@ software. Their products include:
   advanced data carving and analyis tool for photos, capable of
   recovering fragmented photos as well.
 - [Adroit Photo
-  Recovery](http://digital-assembly.com/products/adroit-photo-recovery/),
+  Recovery](https://www.werecoverdata.com),
   a consumer oriented photo recovery tool capable of recovering
   fragmented photos.
 
@@ -22,4 +22,4 @@ fragmented files.
 
 ## External Links
 
-* [Official Website](http://www.digital-assembly.com/)
+* [Official Website](https://www.werecoverdata.com)

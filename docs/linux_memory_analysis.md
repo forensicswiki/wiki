@@ -17,7 +17,7 @@ Active Open Source Projects:
   Framework](https://www.volatilesystems.com/default/volatility) is a
   collection of tools, implemented in Python, for the extraction of
   digital artifacts from volatile memory (RAM) samples. See the
-  [LinuxMemoryForensics](http://code.google.com/p/volatility/wiki/LinuxMemoryForensics)
+  [LinuxMemoryForensics](https://code.google.com/archive/p/volatility/wikis/LinuxMemoryForensics.wiki)
   page on the Volatility wiki. (Availability/License: GNU GPL)
 - [Rekall](http://www.rekall-forensic.com/) includes a Python-based
   analysis framework which forked from Volatility and has since added a
@@ -52,9 +52,9 @@ Inactive Open Source and Research Projects:
   of information such as the process and modules lists from a RAM image
   using logical relations between OS structures. (Availability/License:
   GNU GPL)
-- [Draugr](http://code.google.com/p/draugr/) is a Linux memory forensics
+- [Draugr](https://code.google.com/archive/p/draugr) is a Linux memory forensics
   tool written in Python. (Availability/License: GNU GPL)
-- [Volatilitux](http://code.google.com/p/volatilitux/) is another Linux
+- [Volatilitux](https://code.google.com/archive/p/volatilitux) is another Linux
   memory forensics tool written in Python. (Availability/License: GNU
   GPL)
 - Idetect (Linux) <http://forensic.seccure.net/> is an older
@@ -67,7 +67,7 @@ Inactive Open Source and Research Projects:
   Forensics Challenge](http://dfrws.org/2008/challenge/index.shtml)
   focused on the development of Linux memory analysis techniques and the
   fusion of evidence from memory, hard disk, and network.
-- [Challenge SSTIC 2010](http://communaute.sstic.org/ChallengeSSTIC2010)
+- [Challenge SSTIC 2010](https://www.sstic.org/2010/challenge/)
   (French) dealt with analysis of physical memory from a mobile device
   running Android.
 - [Challenge 7 of the Honeynet Project's Forensic Challenge 2011](https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/)
@@ -78,7 +78,7 @@ Inactive Open Source and Research Projects:
 
 Aside from those in the challenges referenced above, sample Linux memory
 images can also be found on the Second Look website at
-<http://secondlookforensics.com/images.html>.
+<https://secondlookforensics.com/images.html>.
 
 ## Linux Memory Analysis Bibliography
 
@@ -112,9 +112,9 @@ images can also be found on the Second Look website at
   Digital Investigation, Volume 7, Supplement 1, The Proceedings of the
   Tenth Annual DFRWS Conference, August 2010.
   [(Presentation)](http://www.dfrws.org/2010/proceedings/richard2.pdf)
-- [Second Look Web Page](http://secondlookforensics.com/)
+- [Second Look Web Page](https://secondlookforensics.com/)
 - [De-Anonymizing Live CDs through Physical Memory
-  Analysis](http://blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case)
+  Analysis](https://blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case)
   ([Whitepaper](https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing_Live_CDs-wp.pdf))
   ([Slides](https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing%20Live%20CDs-Slides.pdf))
   Andrew Case; Blackhat DC 2011.
@@ -122,15 +122,15 @@ images can also be found on the Second Look website at
   Volatility](http://dfsforensics.blogspot.com/2011/03/bringing-linux-support-to-volatility.html),
   Andrew Case; Digital Forensics Solutions Blog, 2011.
 - [Workshop - Linux Memory Analysis with
-  Volatility](http://blackhat.com/html/bh-us-11/bh-us-11-briefings.html#Case)
-  ([Slides](http://www.digitalforensicssolutions.com/papers/blackhat-workshop-full-presentation.pdf))
+  Volatility](https://blackhat.com/html/bh-us-11/bh-us-11-briefings.html#Case)
+  ([Slides](https://gotdfs.com/))
   Andrew Case; Blackhat Vegas 2011.
 - [Forcepoint Security Labs Blog: "Horse Pill Rootkit vs. Forcepoint
   Threat Protection for Linux" (Second
-  Look)](https://blogs.forcepoint.com/security-labs/horse-pill-rootkit-vs-forcepoint-threat-protection-linux)
+  Look)](https://www.forcepoint.com/blog/x-labs/horse-pill-rootkit-vs-forcepoint-threat-protection-linux)
 - [Forcepoint Security Labs Blog: "Detecting Register-Hooking Linux
   Rootkits with Forcepoint Second
-  Look"](https://blogs.forcepoint.com/security-labs/detecting-register-hooking-linux-rootkits-forcepoint-second-look)
+  Look"](https://www.forcepoint.com/blog/x-labs/detecting-register-hooking-linux-rootkits-forcepoint-second-look)
 
 Volatility Mailing List Threads on Support for Linux:
 

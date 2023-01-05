@@ -7,4 +7,4 @@ available for Intel-based macs.
 
 ## See Also
 
-- <http://refit.sourceforge.net/>
+- <https://refit.sourceforge.net/>

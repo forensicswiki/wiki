@@ -95,4 +95,4 @@ request:
 
 # See Also
 
-- <http://www.macdevcenter.com/pub/a/mac/2002/08/23/jaguar_server.html?page=4>
+- <https://www.oreilly.com/radar/?page=4>

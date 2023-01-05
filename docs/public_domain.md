@@ -8,4 +8,4 @@ restrictions.
 
 ## External Links
 
-- [Wikipedia: Public Domain](http://en.wikipedia.org/wiki/Public_domain)
+- [Wikipedia: Public Domain](https://en.wikipedia.org/wiki/Public_domain)

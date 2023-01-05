@@ -33,5 +33,5 @@ database files in no time.
 ## External Links
 
 [Official
-Website](https://sysinfotools.com/recovery/ms-sql-database-recovery.php)
+Website](https://www.sysinfotools.com/recovery/ms-sql-database-recovery.php)
 

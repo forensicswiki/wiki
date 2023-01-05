@@ -35,4 +35,4 @@ WPA/WPA2-PSK cracking-only solutions with [GPU acceleration](forensics_on_gpus.m
 (15-100 times faster than in CPU-only mode):
 
 * [ElcomSoft Distributed Password Recovery](http://www.elcomsoft.com/edpr.html)
-* [Pyrit](http://code.google.com/p/pyrit/)
+* [Pyrit](https://code.google.com/archive/p/pyrit)

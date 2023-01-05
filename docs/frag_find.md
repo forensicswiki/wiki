@@ -56,5 +56,5 @@ file.
 
 ## AVAILABILITY
 
-- Download: <http://digitalcorpora.org/downloads/frag_find>
+- Download: <https://downloads.digitalcorpora.org/downloads/frag_find>
 - github: <https://github.com/simsong/frag_find>

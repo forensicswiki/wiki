@@ -20,5 +20,5 @@ software for [Windows](windows.md) computers.
 
 ## External Links
 
-- [Official Website](http://www.fookes.com/)
+- [Official Website](https://www.fookes.com/)
 

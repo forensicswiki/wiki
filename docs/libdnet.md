@@ -41,29 +41,29 @@ tags:
 
 ## External Links
 
-- [Net::Libdnet](http://search.cpan.org/~vman/Net-Libdnet-0.01/) - Perl
+- [Net::Libdnet](https://metacpan.org/release/VMAN/Net-Libdnet-0.01) - Perl
   interface to libdnet
 - [dnet.rb](http://www.shmoo.com/~bmc/software/ruby/ruby-dnet/) - Ruby
   interface to libdnet
-- [libpcap](http://www.tcpdump.org/) - portable packet capture library
+- [libpcap](https://www.tcpdump.org/) - portable packet capture library
 - [winpcap](http://winpcap.polito.it/) - libpcap for Windows
 - [pypcap](http://monkey.org/~dugsong/pypcap/) - libpcap Python module
-- [dpkt](http://monkey.org/~dugsong/dpkt/) - fast, simple packet
+- [dpkt](https://github.com/kbandla/dpkt) - fast, simple packet
   creation and parsing in Python
 - [libnet](http://www.packetfactory.net/projects/libnet/) - packet
   construction library
-- [PktFilter](http://www.hsc.fr/ressources/outils/pktfilter/index.html.en) -
+- [PktFilter](https://www.hsc.fr/securite-internet/) -
   win32 service to configure the IPv4 filtering driver in Windows
   2000/XP/Server 2003
-- [Universal TUN/TAP driver](http://vtun.sourceforge.net/tun/) - virtual
+- [Universal TUN/TAP driver](https://vtun.sourceforge.net/tun/) - virtual
   point-to-point network tunnel device
 - [TUN/TAP driver for MacOS
   X](http://www-user.rhrk.uni-kl.de/~nissler/tuntap/)
 - [Tunnel driver for Solaris 8
-  (sparc64)](http://libdnet.sourceforge.net/tun-1.1-sol80.sparc64.gz)
+  (sparc64)](https://libdnet.sourceforge.net/tun-1.1-sol80.sparc64.gz)
 
 ## References
 
 All information on this page can be found at
-[libdnet.sourceforge.net](http://libdnet.sourceforge.net/) and is
+[libdnet.sourceforge.net](https://libdnet.sourceforge.net/) and is
 credited to Dug Song - dugsong+libdnet@monkey.org

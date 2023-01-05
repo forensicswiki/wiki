@@ -69,7 +69,7 @@ User preference key
 ## Command line options
 
 MSIE supports various command line options, see:
-\[<http://msdn.microsoft.com/en-us/library/ie/hh826025(v=vs.85>).aspx\]
+\[<https://learn.microsoft.com/en-us/>).aspx\]
 and
 [1](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/)
 
@@ -101,18 +101,18 @@ the following Windows Registry key
 ## External Links
 
 - [Internet Explorer
-  Cache](http://kb.digital-detective.co.uk/display/NetAnalysis1/Internet+Explorer+Cache)
+  Cache](https://kb.digital-detective.net/display/BF/Internet+Explorer+Cache)
 - [Internet Explorer security zones registry entries for advanced
-  users](http://support.microsoft.com/kb/182569), by
+  users](https://learn.microsoft.com/en-US/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries), by
   [Microsoft](microsoft.md)
 - [Troubleshooting Automatic
-  Detection](http://technet.microsoft.com/en-us/library/cc302643.aspx),
+  Detection](https://learn.microsoft.com/en-us/previous-versions/tn-archive/cc302643(v=technet.10)?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 - [Windows Virtual PC VHDs for testing websites with different Internet
   Explorer
   versions](http://www.microsoft.com/en-us/download/details.aspx?id=11575),
   by [Microsoft](microsoft.md)
-- \[<http://msdn.microsoft.com/en-us/library/ie/hh826025(v=vs.85>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   IE Command-Line Options\], by [Microsoft](microsoft.md),
   January, 2011
 - [Little-known browser commands and
@@ -122,7 +122,7 @@ the following Windows Registry key
   Windows](http://tojoswalls.blogspot.com/2013/05/java-web-vulnerability-mitigation-on.html),
   by Tim Johnson, May 23, 2013
 - [Internet Explorer EPM Sandbox Escape
-  CVE-2014-6350](http://googleprojectzero.blogspot.co.uk/2014/12/internet-explorer-epm-sandbox-escape.html),
+  CVE-2014-6350](https://googleprojectzero.blogspot.com/2014/12/internet-explorer-epm-sandbox-escape.html),
   by James Forshaw, December 1, 2014
 
 ### Recovery store
@@ -148,7 +148,7 @@ the following Windows Registry key
 ### Internet Explorer 10
 
 - [Windows 8 Forensics: Internet History
-  Cache](http://cyberarms.wordpress.com/2012/08/21/windows-8-forensics-internet-cache-history/),
+  Cache](https://cyberarms.wordpress.com/2012/08/21/windows-8-forensics-internet-cache-history/),
   by Ethan Fleisher, August 21, 2012
 - [Forensic Analysis of ESE databases in Internet Explorer
   10](http://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf),

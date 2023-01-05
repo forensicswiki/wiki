@@ -24,4 +24,4 @@ even a novice user can use it without any technical help.
 
 ## External Links
 
-[Official Website](http://www.arysontechnologies.com/pdf-merge.html)
+[Official Website](https://www.arysontechnologies.com/pdf-merge.html)

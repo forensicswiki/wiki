@@ -6,7 +6,7 @@ tags:
 Mozilla Firefox is a Free and Open Source [web
 browser](web_browser.md) developed by the Mozilla Foundation.
 
-It can have many [add-ons](http://addons.mozilla.org) which give it
+It can have many [add-ons](https://addons.mozilla.org/en-US/firefox/) which give it
 extra capabilities.
 
 ## Anonymous Browsing
@@ -15,7 +15,7 @@ Mozilla Firefox can be used in anonymous browsing (see [The Onion
 Router](the_onion_router.md). However, it is known that Firefox
 reveals computer's uptime in TLS (SSL) "Client Hello" packets allowing
 investigator correlate anonymous and non-anonymous traffic
-[1](http://archives.seul.org/or/talk/Apr-2008/msg00050.html).
+[1](https://archives.seul.org/or/talk/Apr-2008/msg00050.html).
 
 This bug affects Firefox 2 (all versions) and Firefox 3 Beta3.
 

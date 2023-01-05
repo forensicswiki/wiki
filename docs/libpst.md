@@ -9,7 +9,7 @@ libpst is an open source program that can decode the email messages stored in a
 
 There appear to be two versions of libpst available.
 
-* <http://www.five-ten-sg.com/libpst/> which is actively being developed
+* <https://www.five-ten-sg.com/libpst/> which is actively being developed
 
 ## See Also
 
@@ -17,4 +17,4 @@ There appear to be two versions of libpst available.
 
 ## External Links
 
-* [Project site](http://www.five-ten-sg.com/libpst/)
+* [Project site](https://www.five-ten-sg.com/libpst/)

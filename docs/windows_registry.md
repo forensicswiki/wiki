@@ -9,7 +9,7 @@ tags:
 ### Hive
 
 According to
-[1](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724877%28v=vs.85%29.aspx)
+[1](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-hives?redirectedfrom=MSDN)
 
     A hive is a logical group of keys, subkeys, and values in the Windows Registry that has a set of supporting files containing backups of its data.
 
@@ -77,7 +77,7 @@ examples of which are:
     Value: SchemaFile
 
 Also, null bytes may be present in key values in order to hide data
-[3](http://binaryforay.blogspot.com/2016/01/registry-values-starting-with-null.html).
+[3](https://binaryforay.blogspot.com/2016/01/registry-values-starting-with-null.html).
 
 ### Codepaged ASCII strings
 
@@ -1185,10 +1185,10 @@ name</a></b></p></td>
 
 ## External Links
 
-* [Wikipedia: Windows Registry](http://en.wikipedia.org/wiki/Windows_Registry)
+* [Wikipedia: Windows Registry](https://en.wikipedia.org/wiki/Windows_Registry)
 * [Windows Incident Response Articles on Registry](http://windowsir.blogspot.com/search/label/Registry)
 * [Windows Registry Information](http://www.answers.com/topic/win-registry)
-* [Push the Red Button](http://moyix.blogspot.com/search/label/registry)
+* [Push the Red Button](https://moyix.blogspot.com/search/label/registry)
 * [Security Accounts Manager](http://www.beginningtoseethelight.org/ntsecurity/)
 * [Registry MRU Locations](http://windowsxp.mvps.org/RegistryMRU.htm)
 * [Exporting registry hives from a live system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
@@ -1202,7 +1202,7 @@ name</a></b></p></td>
   by [Microsoft](microsoft.md)
 * [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85>).aspx),
   by [Microsoft](microsoft.md)
-* [32-bit and 64-bit Application Data in the Registry](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724072%28v=vs.85%29.aspx),
+* [32-bit and 64-bit Application Data in the Registry](https://learn.microsoft.com/en-us/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 
 ### Cached Credentials
@@ -1217,7 +1217,7 @@ name</a></b></p></td>
 
 ### Persistence keys
 
-* [Understand and Control Startup Apps with the System Configuration Utility](https://technet.microsoft.com/en-us/magazine/ee851671.aspx),
+* [Understand and Control Startup Apps with the System Configuration Utility](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ee851671(v=msdn.10)?redirectedfrom=MSDN),
   by [Microsoft Technet](microsoft.md)
 * [Silent Runners](http://www.silentrunners.org/), by Andrew Aronoff
 * [Digital Forensics: Persistence Registry keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),
@@ -1226,7 +1226,7 @@ name</a></b></p></td>
   Hexacorn blog, July 23, 2012
 * [Plugins: soft_run user_run](http://journeyintoir.blogspot.ch/2013_04_01_archive.html),
   by Corey Harrell, April 17, 2013
-* [Auto-Start Extensibility Points (ASEPs)](https://code.google.com/p/regripper/wiki/ASEPs),
+* [Auto-Start Extensibility Points (ASEPs)](https://code.google.com/archive/p/regripper/wikis/ASEPs.wiki),
   by the [RegRipper project](regripper.md), April 29, 2013
 * [Windows Registry Persistence, Part 2: The Run Keys and Search-Order](http://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order),
   by Scott Langendorf, September 24, 2013
@@ -1235,14 +1235,14 @@ name</a></b></p></td>
 
 ### User Assist
 
-* [UserAssist](http://blog.didierstevens.com/programs/userassist/), by
+* [UserAssist](https://blog.didierstevens.com/programs/userassist/), by
   Didier Stevens
-* [UserAssist V2.3.0](http://blog.didierstevens.com/2007/07/17/userassist-v230/), by
+* [UserAssist V2.3.0](https://blog.didierstevens.com/2007/07/17/userassist-v230/), by
   Didier Stevens, Tuesday 17 July 2007
 * [More on (the) UserAssist keys](http://windowsir.blogspot.ch/2007/09/more-on-userassist-keys.html),
   by [Harlan Carvey](harlan_carvey.md), Monday, September 03,
   2007
-* [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](http://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
+* [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](https://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
   by Didier Stevens, January 18, 2009
 * [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.ch/2010/05/prefetch-and-user-assist.html),
   by DC174, Thursday, 27 May 2010
@@ -1250,9 +1250,9 @@ name</a></b></p></td>
   2010
 * [SANS Forensic Artifact 6: UserAssist](http://sploited.blogspot.ch/2012/12/sans-forensic-artifact-6-userassist.html),
   by Sploited, Thursday, 27 December 2012
-* [UserAssist Forensics (timelines, interpretation, testing, & more)](http://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
+* [UserAssist Forensics (timelines, interpretation, testing, & more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
   by Dan (@4n6k), Tuesday, May 14, 2013
-* [Daily Blog \#45: Understanding the artifacts: User Assist](http://hackingexposedcomputerforensicsblog.blogspot.ch/2013/08/daily-blog-45-understanding-artifacts.html),
+* [Daily Blog \#45: Understanding the artifacts: User Assist](https://www.hecfblog.com/2013/08/daily-blog-45-understanding-artifacts.html),
   by David Cowen, Wednesday, August 7, 2013
 
 ## Tools
@@ -1272,7 +1272,7 @@ name</a></b></p></td>
   looking at the registry.
 * [RegRipper](regripper.md) — "the fastest, easiest, and best
   tool for registry analysis in forensics examinations."
-* [Parse::Win32Registry](http://search.cpan.org/~jmacfarla/Parse-Win32Registry-0.51/lib/Parse/Win32Registry.pm)
+* [Parse::Win32Registry](https://metacpan.org/release/JMACFARLA/Parse-Win32Registry-0.51/view/lib/Parse/Win32Registry.pm)
   Perl module.
 * [python-registry](https://github.com/williballenthin/python-registry)
   Python module.
@@ -1280,7 +1280,7 @@ name</a></b></p></td>
   Windows NT Registry File (REGF) format
 * [Registryasxml](registryasxml.md) - Tool to import/export
   registry sections as XML
-* [kregedit](http://samba.org/~jelmer/kregedit/) - a KDE utility for
+* [kregedit](https://www.samba.org/~jelmer/kregedit/) - a KDE utility for
   viewing and editing registry files.
 * [Registry](https://github.com/EricZimmerman/Registry) Full featured,
   offline Registry hive parser written in C#. Supports deleted item
@@ -1295,7 +1295,7 @@ name</a></b></p></td>
 
 ### Freeware
 
-* [Registry Explorer](http://binaryforay.blogspot.com/p/software.html)
+* [Registry Explorer](https://binaryforay.blogspot.com/p/software.html)
   Registry Explorer and RECmd allow unrivaled access to Registry hives
   and contain bookmarks for common registry keys by @EricZimmerman
 
@@ -1317,10 +1317,10 @@ name</a></b></p></td>
   run on Windows, Linux or Mac OS-X to parse ntuser.dat hives.
 * [Regisry Manager](http://www.stellarinfo.com/windows-tools/registry-cleaner.php)
 * [Abexo Free Regisry Cleaner](http://www.abexo.com/free-registry-cleaner.htm)
-* [Auslogics Registry Defrag](http://www.auslogics.com/registry-defrag)
-* [Alien Registry Viewer](http://lastbit.com/arv/)
+* [Auslogics Registry Defrag](https://www.auslogics.com/en/software/registry-defrag/)
+* [Alien Registry Viewer](http://lastbit.com/arv/default.asp)
 * [NT Registry Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
-* [iExpert Software-Free Registry Defrag](http://www.registry-clean.net/free-registry-defrag.htm)
+* [iExpert Software-Free Registry Defrag](https://cumdiner.com/categories/)
 * [Registry Recon](http://arsenalrecon.com/apps)
 * [Registry Undelete (russian)](http://paullee.ru/regundel)
 * [Windows Registry Recovery](http://mitec.cz/wrr.html)

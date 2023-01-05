@@ -10,16 +10,16 @@ from crime scene to court.
 Produce a number of eDiscovery and digital evidence software tools,
 including:
 
-[Facebook Forensic Toolkit](http://www.facebookforensics.com/)
+[Facebook Forensic Toolkit](http://www.google.com)
 
-[YouTube Forensic Toolkit](http://www.youtubeforensics.com/)
+[YouTube Forensic Toolkit](http://www.afentis.com/forensic-software/)
 
 [Twitter Forensic Toolkit](http://www.twitterforensics.com/)
 
-[LinkedIn Forensic Toolkit](http://www.linkedinforensics.com/)
+[LinkedIn Forensic Toolkit](http://www.afentis.com/forensic-software/)
 
-[Tumblr Forensic Toolkit](http://www.tumblrforensics.com/)
+[Tumblr Forensic Toolkit](http://www.afentis.com/forensic-software/)
 
 ## External Link
 
-[Official Website](http://www.afentis.com/)
+[Official Website](https://www.afentis.com/)

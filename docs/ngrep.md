@@ -30,5 +30,5 @@ string that is broken across two or more packets.
 ## Patches
 
 - [IPv4 and IPv6 fragment reassembly
-  patch](https://sourceforge.net/tracker/index.php?func=detail&aid=1738954&group_id=10752&atid=310752)
+  patch](https://sourceforge.net/p/ngrep/patches/31/)
 

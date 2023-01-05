@@ -36,8 +36,8 @@ Garfinkel received three Bachelor of Science degrees from MIT in 1987, a
 Master's of Science in Journalism from Columbia University in 1988, and
 a Ph.D. in Computer Science from MIT in 2005.
 
-Garfinkel's home page is <http://www.simson.net>. His CV is located on
-the Internet at <http://www.simson.net/cv>.
+Garfinkel's home page is <https://simson.net/page/Main_Page>. His CV is located on
+the Internet at <https://simson.net/page/Main_Page/cv>.
 
 # Forensics
 
@@ -53,5 +53,5 @@ On the MediaWiki version of Forensics Wiki, Garfinkel was known as simsong.
 ## See Also
 
 * [Simson Garfinkel's home page](http://simson.net/)
-* [Simson Garfinkel on Wikipedia](http://en.wikipedia.org/wiki/Simson_Garfinkel)
+* [Simson Garfinkel on Wikipedia](https://en.wikipedia.org/wiki/Simson_Garfinkel)
 

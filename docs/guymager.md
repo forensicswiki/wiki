@@ -10,4 +10,4 @@ for the [imaging process](disk_imaging.md).
 
 ## External Links
 
-- [guymager homepage](http://guymager.sourceforge.net/)
+- [guymager homepage](https://guymager.sourceforge.io/)

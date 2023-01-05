@@ -12,9 +12,9 @@ too small.
 ## External Links
 
 - [Wikipedia article on
-  DES](http://en.wikipedia.org/wiki/Data_Encryption_Standard)
+  DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
 - [A FPGA-based Codebreaker for DES and other
-  Ciphers](http://www.copacobana.org/)
+  Ciphers](https://www.copacobana.org/)
 - [DEEP Crack - Hardware DES
-  cracking](http://www.cryptography.com/resources/whitepapers/DES-photos.html)
+  cracking](https://www.rambus.com/des-key-search/)
 

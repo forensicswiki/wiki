@@ -39,4 +39,4 @@ looks like this:
 
 ## External Links
 
-- <http://www.codeproject.com/KB/system/registryasxml.aspx>
+- <https://www.codeproject.com/Articles/3105/Import-Export-Registry-Sections-as-XML>

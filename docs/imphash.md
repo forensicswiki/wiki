@@ -8,5 +8,5 @@ specific order within an executable.
 ## External Links
 
 - [Tracking Malware with Import
-  Hashing](https://www.mandiant.com/resources/tracking-malware-import-hashing),
+  Hashing](https://www.mandiant.com/resources/blog/tracking-malware-import-hashing),
   by Mandiant, January 24, 2014

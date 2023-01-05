@@ -5,7 +5,7 @@ tags:
 ---
 This is a list of **conferences** in the [computer forensics](computer_forensics.md)
 field, and was originally taken from [Brian Carrier](brian_carrier.md)'s list
-of conferences and journals at <http://www.digital-evidence.org/publish/index.html>
+of conferences and journals at <https://digital-evidence.org/publish/index.html>
 and used with his permission. Brian no longer maintains those listings and
 points back to this Wiki.
 
@@ -24,7 +24,7 @@ American Academy of Forensic Science
 <!-- -->
 
 BlackHat Federal Briefings & Training
-<http://www.blackhat.com/html/bh-link/briefings.html>
+<https://www.blackhat.com/html/bh-link/briefings.html>
 
 <!-- -->
 
@@ -34,7 +34,7 @@ BSides Security (various locations)
 <!-- -->
 
 CanSecWest
-<http://cansecwest.com/>
+<https://www.secwest.net/>
 
 <!-- -->
 
@@ -58,12 +58,12 @@ Department of Defense CyberCrime Conference (Discontinued - now US Cyber Crime C
 <!-- -->
 
 Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)
-<http://www.dimva.org/>
+<https://www.dimva.org/>
 
 <!-- -->
 
 Digital Forensics Research Conference (DFRWS)
-<http://www.dfrws.org/>
+<https://dfrws.org/>
 
 <!-- -->
 
@@ -78,7 +78,7 @@ EuroForensics Forensics Sciences, Cyber Security and Surveillance Technologies C
 <!-- -->
 
 FIRST Conference
-<http://www.first.org/conference>
+<https://www.first.org/conference/>
 
 <!-- -->
 
@@ -88,12 +88,12 @@ French-Speaking Days on Digital Investigations - Journées Francophones de l'Inv
 <!-- -->
 
 IEEE Workshop on Information Forensics and Security
-<http://www.wifs2017.org/>
+<https://project.inria.fr/wifs2017/>
 
 <!-- -->
 
 IFIP International Information Security Conference
-<http://www.ifipsec.org/>
+<https://www.ifipsec.org/>
 
 <!-- -->
 
@@ -118,12 +118,12 @@ International Conference on Digital Forensics and Cyber Crime (ICDF2C)
 <!-- -->
 
 International Conference on IT-Incident Management & IT-Forensics
-<http://www.imf-conference.org>
+<https://www.imf-conference.org/>
 
 <!-- -->
 
 International Symposium on Recent Advances in Intrusion Detection
-<http://www.raid2014.eu/>
+<https://www.raid2014.eu/>
 
 <!-- -->
 
@@ -133,7 +133,7 @@ Open Source Software for Computer and Network Forensics (Last seen in 2008)
 <!-- -->
 
 Open Web Application Security Project
-<http://www.owasp.org/index.php/Main_Page>
+<https://owasp.org/>
 
 <!-- -->
 
@@ -143,17 +143,17 @@ Security OPUS Information Security Conference (Last seen 2010)
 <!-- -->
 
 Sleuthkit and Open Source Digital Forensics Conference (OSDFCon)
-<http://www.osdfcon.org/>
+<https://www.osdfcon.org/>
 
 <!-- -->
 
 USENIX Annual Technical Conference
-<http://www.usenix.org/events/>
+<https://www.usenix.org/conferences>
 
 <!-- -->
 
 USENIX Security Symposium
-<http://www.usenix.org/events/>
+<https://www.usenix.org/conferences>
 
 <!-- -->
 
@@ -173,12 +173,12 @@ Enfuse Conference - formerly Computer and Enterprise Investigations Conference (
 <!-- -->
 
 The First Forensic Forum (F3)
-<http://www.f3.org.uk>
+<https://f3.org.uk/>
 
 <!-- -->
 
 HTCIA International Training Conference and Expo
-<http://www.htciaconference.org/>
+<https://www.htciaconference.org/>
 
 <!-- -->
 
@@ -203,7 +203,7 @@ SANS Digital Forensics & Incident Response Summit & Training
 <!-- -->
 
 Techno-Security Conference
-<http://www.techsec.com/>
+<https://techsec.com/>
 
 # See also
 

@@ -28,7 +28,7 @@ device](https://help.ubuntu.com/community/Installation/FromUSBStick#dd_image_of_
 as well as by exporting files from ISO 9660 image to an existing file
 system on USB device and setting up a bootloader on this device), early
 userspace should locate a root file system first. A root file system can
-be stored in a [SquashFS](http://en.wikipedia.org/wiki/SquashFS) image
+be stored in a [SquashFS](https://en.wikipedia.org/wiki/SquashFS) image
 file, a [raw image](raw_image_format.md) file, a partition with
 a file system, a device without a partition table (but with a file
 system), or even in a set of directories in unpacked form (although

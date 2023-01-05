@@ -19,12 +19,12 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 8800GTX it is possible to reach 265 millions passwords per second.
 
 - [ElcomSoft Distributed Password
-  Recovery](http://www.elcomsoft.com/edpr.html)
+  Recovery](https://www.elcomsoft.com/edpr.html)
 - [ElcomSoft Password Recovery
-  Bundle](http://www.elcomsoft.com/eprb.html)
+  Bundle](https://www.elcomsoft.com/edfb.html)
 - [Extreme GPU Bruteforcer](http://www.insidepro.com/eng/egb.shtml)
 - [Passware Kit
-  Forensic](http://www.lostpassword.com/hardware-acceleration.htm)
+  Forensic](https://www.passware.com/)
 - [Passcovery
   Suite](https://passcovery.com/products/passcoverysuite.htm)
 
@@ -51,7 +51,7 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 `doi = {`[`http://dx.doi.org/10.1109/ACSAC.2006.35`](http://dx.doi.org/10.1109/ACSAC.2006.35)`},`
 `publisher = {IEEE Computer Society},`
 `address = {Washington, DC, USA},`
-` url="`[`http://www.acsac.org/2006/papers/74.pdf`](http://www.acsac.org/2006/papers/74.pdf)`"`
+` url="`[`https://www.acsac.org/2006/papers/74.pdf`](http://www.acsac.org/2006/papers/74.pdf)`"`
 `}`
 
 </bibtex>

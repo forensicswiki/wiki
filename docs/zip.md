@@ -321,7 +321,7 @@ The value seems to be similar to stat.st_mode value.</p></td>
 ## External Links
 
 - [.ZIP File Format
-  Specification](http://www.pkware.com/documents/casestudies/APPNOTE.TXT),
+  Specification](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.3.9.TXT),
   PKWARE Inc., September 1, 2012
 - [Wikipedia: Zip (file
-  format)](http://en.wikipedia.org/wiki/Zip_(file_format))
+  format)](https://en.wikipedia.org/wiki/Zip_(file_format))

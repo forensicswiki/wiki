@@ -52,7 +52,7 @@ from two different locations on the drive (i.e. the user runs
 `C:\md5deep.exe` and then `C:\Apps\Hashing\md5deep.exe`), there will be
 two different prefetch files in the Prefetch folder. According to MSDN
 up to 128 Prefetch files can be stored in the Prefetch directory
-[2](http://blogs.msdn.com/ryanmy/archive/2005/05/25/421882.aspx).
+[2](https://learn.microsoft.com/en-us/archive/blogs/ryanmy/).
 
 ### File format
 
@@ -194,24 +194,24 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 
 ## External Links
 
-* [Wikipedia Prefetcher](http://en.wikipedia.org/wiki/Prefetcher)
+* [Wikipedia Prefetcher](https://en.wikipedia.org/wiki/Prefetcher)
 * [MSDN: Disabling Prefetch](http://msdn.microsoft.com/en-us/library/ms940847(v=winembedded.5>).aspx)
-* [Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS](http://msdn.microsoft.com/en-us/magazine/cc302206.aspx),
+* [Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS](https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/december/windows-xp-kernel-improvements-create-a-more-robust-powerful-and-scalable-os),
   by [Mark Russinovich](mark_russinovich.md), David Solomon, December 2001
 * [Prefetch file metadata](http://windowsir.blogspot.ch/2005/07/prefetch-file-metadata.html),
   by [Harlan Carvey](harlan_carvey.md), July 13, 2005
 * [Prefetch files, revisited](http://windowsir.blogspot.ch/2006/04/prefetch-files-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), April 13, 2006
-* [Windows Memory Management](http://www.codeproject.com/Articles/29449/Windows-Memory-Management),
+* [Windows Memory Management](https://www.codeproject.com/Articles/29449/Windows-Memory-Management),
   by logicchild, September 17, 2008
-* [Windows Memory Management - Part 2](http://www.codeproject.com/Articles/29692/Windows-Memory-Management-Part),
+* [Windows Memory Management - Part 2](https://www.codeproject.com/Articles/29692/Windows-Memory-Management-Part-2),
   by logicchild, September 25, 2008
-* [De-mystifying Defrag: Identifying When Defrag Has Been Used for Anti-Forensics (Part 1 - Windows XP)](http://computer-forensics.sans.org/blog/2009/08/05/de-mystifying-defrag-identifying-when-defrag-has-been-used-for-anti-forensics-part-1-windows-xp/),
+* [De-mystifying Defrag: Identifying When Defrag Has Been Used for Anti-Forensics (Part 1 - Windows XP)](https://www.sans.org/digital-forensics-incident-response/),
   by Chad Tilbury, August 5, 2009
 * [Windows Prefetch File (old blog entry from 42 LLC)](http://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html),
   by Yogesh Khatri, April 14, 2010
 * [Windows PC Accelerators](http://msdn.microsoft.com/en-us/library/windows/hardware/dn653317(v=vs.85>).aspx)
-* [Decoding Prefetch Files for Forensic Purposes: Part 1](http://www.dfinews.com/articles/2010/12/decoding-prefetch-files-forensic-purposes-part-1),
+* [Decoding Prefetch Files for Forensic Purposes: Part 1](https://dfinews.com),
   by Mark Wade, December 8, 2010
 * [Prefetch Files at Face Value](https://crucialsecurity.wordpress.com/2011/04/11/prefetch-files-at-face-value/),
   by Mark Wade, April 11, 2011
@@ -234,13 +234,13 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Jared Atkinson, September 21, 2013
 * [Windows Prefetch (.PF) files](http://www.swiftforensics.com/2013/10/windows-prefetch-pf-files.html?m=1),
   by Yogesh Khatri, October 21, 2013
-* [Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files](http://resources.infosecinstitute.com/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/),
+* [Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files](https://resources.infosecinstitute.com/topic/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/),
   by Ivan Dimov, November 21, 2013
-* [Prefetch 101 - a Windows 8 Prefetch file walkthrough](http://i.imgur.com/riuljsK.jpg),
+* [Prefetch 101 - a Windows 8 Prefetch file walkthrough](https://i.imgur.com/riuljsK.jpg),
   by Jared Atkinson, 2014
-* [Forensic examination and analysis of the Prefetch files on the banking Trojan malware incidents](http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adf),
+* [Forensic examination and analysis of the Prefetch files on the banking Trojan malware incidents](https://ro.ecu.edu.au/cgi/viewcontent.cgi?referer=http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfhttpsredir=1http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfarticle=1132http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfcontext=adf),
   by Andri P. Heriyanto, 2014
-* [A first look at Windows 10 prefetch files](http://blog.digital-forensics.it/2015/06/a-first-look-at-windows-10-prefetch.html),
+* [A first look at Windows 10 prefetch files](https://blog.digital-forensics.it/2015/06/a-first-look-at-windows-10-prefetch.html),
   by Francesco Picasso, June 22, 2015
 
 ## Tools
@@ -255,7 +255,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 ### Open Source
 
 * [libscca](libscca.md)
-* [prefetch-tool](https://code.google.com/p/prefetch-tool/), Script to
+* [prefetch-tool](https://code.google.com/archive/p/prefetch-tool), Script to
   extract information from windows prefetch folder
 * [Plaso](plaso.md)
 * [PECmd](https://github.com/EricZimmerman/PECmd), Prefetch command line

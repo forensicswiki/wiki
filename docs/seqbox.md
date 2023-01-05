@@ -68,12 +68,12 @@ Byte order: Big Endian
 | FNM | filename (utf-8)                                                         |
 | SNM | sbx filename (utf-8)                                                     |
 | FSZ | filesize (8 bytes)                                                       |
-| HSH | crypto hash (SHA256, using [Multihash](http://multiformats.io) protocol) |
+| HSH | crypto hash (SHA256, using [Multihash](https://multiformats.io/) protocol) |
 
 ## External Links
 
 - [SeqBox GitHub](https://github.com/MarcoPon/SeqBox) repository with
   encoder, decoder and recovery tools
-- [SeqBox page](http://mark0.net/soft-seqbox-e.html) at Marco Pontello's
+- [SeqBox page](https://mark0.net/soft-seqbox-e.html) at Marco Pontello's
   Home
 

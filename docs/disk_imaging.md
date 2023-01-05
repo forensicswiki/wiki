@@ -31,7 +31,7 @@ Also see: [Device Configuration Overlay (DCO) and Host Protected Area
 ## Integrity
 
 Often when creating a disk image a [cryptographic
-hash](http://en.wikipedia.org/wiki/Cryptographic_hash_function) is
+hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function) is
 calculated of the entire disk. Commonly used cryptographic hashes are
 MD5, SHA1 and/or SHA256.
 
@@ -60,7 +60,7 @@ more intelligent.
 
 A common technique to reduce the size of an image file is to compress
 the data. Where the compression method should be
-[lossless](http://en.wikipedia.org/wiki/Lossless_data_compression). On
+[lossless](https://en.wikipedia.org/wiki/Lossless_data_compression). On
 modern computers, with multiple cores, the compression can be done in
 parallel reducing the output without prolonging the imaging process.
 Since the write speed of the target disk can be a bottleneck in imaging
@@ -69,7 +69,7 @@ process. [Guymager](guymager.md) was one of the first imaging
 tools to implement the concept of multi-process compression for the
 [Encase image file format](encase_image_file_format.md). This
 technique is now used by various imaging tools including [Tableau Imager
-(TIM)](http://www.tableau.com/index.php?pageid=products&model=TSW-TIM)
+(TIM)](https://www.tableau.com/?pageid=productshttp://www.tableau.com/index.php?pageid=products&model=TSW-TIMmodel=TSW-TIM)
 
 Other techniques like storing the data sparse, using **empty-block
 compression** or **pattern fill**, can reduce the total time of the

@@ -60,7 +60,7 @@ times will wipe the device.
 
 ## References
 
-- [BlackBerry.com](http://www.blackberry.com/), the BlackBerry main site.
+- [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry main site.
 - [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
   Largest collaboration of Answers to Questions for BlackBerry
 - [Forensic Examination of a RIM (BlackBerry) Wireless Device](https://www.yumpu.com/en/document/view/8792468/forensic-examination-of-a-rim-blackberry-wireless-device)

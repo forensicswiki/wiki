@@ -14,17 +14,17 @@ There are multiple format variations of plists:
 
 ## External Links
 
-* [Wikipedia article on Property list](http://en.wikipedia.org/wiki/Property_list)
+* [Wikipedia article on Property list](https://en.wikipedia.org/wiki/Property_list)
 * [CFBinaryPList.c](http://opensource.apple.com/source/CF/CF-550/CFBinaryPList.c)
   by Apple
-* [Old-Style ASCII Property Lists](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/PropertyLists/OldStylePlists/OldStylePLists.html)
-* [Python Module for dealing with Binary Property Lists (bplists)](http://digitalinvestigation.wordpress.com/2012/03/08/free-python-module/)
+* [Old-Style ASCII Property Lists](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/OldStylePlists/OldStylePLists.html)
+* [Python Module for dealing with Binary Property Lists (bplists)](https://digitalinvestigation.wordpress.com/2012/03/08/free-python-module/)
   Documentation
 
 ## Tools
 
 * [binplist](binplist.md)
-* [Python Module for dealing with Binary Property Lists (bplists)](http://code.google.com/p/ccl-bplist/)
+* [Python Module for dealing with Binary Property Lists (bplists)](https://code.google.com/archive/p/ccl-bplist)
 * [libplist](https://github.com/JonathanBeck/libplist)
 * [munki - Managed software installation for OS X](http://code.google.com/p/munki/)
   comes with code to handle binary plists

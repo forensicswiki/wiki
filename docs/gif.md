@@ -56,7 +56,7 @@ extract, view, and remove GIF metadata.
 
 ## External Links
 
-- [Wikipedia: GIF](http://en.wikipedia.org/wiki/GIF)
+- [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF)
 - [W3.Org: GRAPHICS INTERCHANGE FORMAT
-  SPECIFICATION](http://www.w3.org/Graphics/GIF/spec-gif89a.txt)
+  SPECIFICATION](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)
 

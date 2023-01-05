@@ -25,7 +25,7 @@ corresponding file named:
     LocaleMetaData\%FILENAME%_%LCID%.MTA
 
 Where LCID is the "locale identifier"
-[1](http://msdn.microsoft.com/en-us/goglobal/bb964664.aspx).
+[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c?redirectedfrom=MSDN).
 
 ## Location
 
@@ -45,7 +45,7 @@ Where LCID is the "locale identifier"
 
 * [EventLog Remoting Protocol Version 6.0 Specification](http://msdn.microsoft.com/en-us/library/cc231282(v=prot.10>).aspx)
   by [Microsoft](microsoft.md)
-* [Simple BinXml Example](http://msdn.microsoft.com/en-us/library/cc231354.aspx),
+* [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 * [int for(ensic){blog;} - results tagged Evtx](http://computer.forensikblog.de/mt/mt-search.cgi?IncludeBlogs=3&tag=Evtx&limit=20),
   by Andreas Schuster
@@ -66,15 +66,15 @@ Where LCID is the "locale identifier"
 
 ### Windows 7
 
-* [Core OS Events in Windows 7, Part 1](http://msdn.microsoft.com/en-us/magazine/ee412263.aspx)
-* [Core Instrumentation Events in Windows 7, Part 2](http://msdn.microsoft.com/en-us/magazine/ee358703.aspx)
+* [Core OS Events in Windows 7, Part 1](https://learn.microsoft.com/en-us/)
+* [Core Instrumentation Events in Windows 7, Part 2](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/october/core-instrumentation-events-in-windows-7-part-2)
 
 ## Tools
 
 * [Evtx Parser](http://computer.forensikblog.de/files/evtx/Parse-Evtx-current.zip)
 * [libevtx](libevtx.md)
 * [log2timeline](log2timeline.md)
-* [wevtutil](http://technet.microsoft.com/en-us/library/cc749339.aspx)
+* [wevtutil](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749339(v=ws.11)?redirectedfrom=MSDN)
 * [LogParser](http://www.microsoft.com/en-us/download/details.aspx?id=24659)
 * [python-evtx](http://www.williballenthin.com/evtx/)
 * [winlast](https://github.com/pch3/winlast)

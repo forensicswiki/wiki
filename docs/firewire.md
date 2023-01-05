@@ -17,4 +17,4 @@ a system's memory via a firewire port.
 
 ## Other information
 
-* [Wikipedia's firewire article](http://en.wikipedia.org/wiki/FireWire)
+* [Wikipedia's firewire article](https://en.wikipedia.org/wiki/FireWire)

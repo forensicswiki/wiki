@@ -38,10 +38,10 @@ communication between hosts.
 ## External Links
 
 - [Wikipedia: Covert
-  channel](http://en.wikipedia.org/wiki/Covert_channel)
+  channel](https://en.wikipedia.org/wiki/Covert_channel)
 - [Unusual firewall bypassing techniques, network and computer
   security](http://gray-world.net/)
 - [SANS InfoSec Reading Room - Covert
-  Channels](http://www.sans.org/reading_room/whitepapers/covert/)
+  Channels](https://www.sans.org/white-papers/)
 
 [Category:Network Forensics](category:network_forensics.md)

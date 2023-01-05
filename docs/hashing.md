@@ -88,7 +88,7 @@ Others:
 
 ## Online Malware Hash Lookups
 
-<http://www.team-cymru.org/Services/MHR/>
+<https://www.team-cymru.com/>
 Malware Hash Registry by Team Cymru.
 
 Utilizes a DNS query interface to lookup MD5 or SHA-1 Hashes for malware

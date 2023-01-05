@@ -153,7 +153,7 @@ Yes (native)
 
 ## External Links
 
-* [Apple File System Guide - Introduction](https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html)
+* [Apple File System Guide - Introduction](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html)
 * [Introducing Apple File System](http://devstreaming.apple.com/videos/wwdc/2016/701q0pnn0ietcautcrv/701/701_introducing_apple_file_system.pdf)
 * [Slides from filesystem talk at MacSysAdmin 2016 by Rich Trouton](https://derflounder.wordpress.com/2016/10/05/slides-from-the-whats-new-in-file-system-session-at-macsysadmin-2016/)
 * [Creating APFS volumes by Howard Oakley](https://eclecticlight.co/2017/04/08/how-to-make-your-own-apfs-volume/)

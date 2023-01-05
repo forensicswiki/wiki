@@ -49,5 +49,5 @@ jailbroken or rooted.
 
 ## External Links and Resources
 
-* [How effective is antivirus software on smartphones? - TechRepublic](http://www.techrepublic.com/blog/security/how-effective-is-antivirus-software-on-smartphones/7629)
-* [Wikipedia entry regarding antivirus software](http://en.wikipedia.org/wiki/Antivirus)
+* [How effective is antivirus software on smartphones? - TechRepublic](https://www.techrepublic.com/article/how-effective-is-antivirus-software-on-smartphones/)
+* [Wikipedia entry regarding antivirus software](https://en.wikipedia.org/wiki/Antivirus)

@@ -13,7 +13,7 @@ sometimes marketed as 3GSM, emphasizing the combination of the 3G nature
 of the technology and the GSM standard which it was designed to succeed.
 
 For a more complete definition, see
-[1](http://en.wikipedia.org/wiki/Universal_Mobile_Telecommunications_System).
+[1](https://en.wikipedia.org/wiki/Universal_Mobile_Telecommunications_System).
 
 ## Real-world Implementations
 

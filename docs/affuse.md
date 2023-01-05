@@ -29,5 +29,5 @@ This raw file could then be mounted:
 
 ## External Links
 
-- [FUSE](http://fuse.sourceforge.net/)
+- [FUSE](https://github.com/libfuse/libfuse)
 - [Ubuntu manpage](https://manpages.ubuntu.com/manpages/bionic/man1/affuse.1.html)

@@ -35,13 +35,13 @@ and physical address of the Verizon subscriber to whom that IP address
 had been assigned. It was Scott William Tyree.
 
 - [article on the
-  abduction](http://www.covenanteyes.com/2012/01/13/caught-by-a-predator-10-years-after-her-abduction/)
+  abduction](https://www.covenanteyes.com/2012/01/13/caught-by-a-predator-10-years-after-her-abduction/)
 - [Popular Mechanics
-  article](http://www.popularmechanics.com/technology/how-to/computer-security/2672751)
+  article](https://www.popularmechanics.com/technology/security/how-to/a630/2672751/)
 - [Congressional testimony of Alicia
   Kozakiewicz](http://notonemorechild.org/map/9)
 
-### 2005 [Dennis Rader](http://en.wikipedia.org/wiki/Dennis_Rader) --- The "BTK" Serial Killer
+### 2005 [Dennis Rader](https://en.wikipedia.org/wiki/Dennis_Rader) --- The "BTK" Serial Killer
 
 After eluding police for more than 30 years, a serial killer in Kansas
 re-emerged, took another victim, and then sent police a floppy disk with
@@ -64,8 +64,8 @@ that some of the viruses kept re-attaching themselves to movies. When
 the squad looked at the videos they determined that they were child
 pornography and contacted the police.
 
-- <http://www.forbes.com/sites/kashmirhill/2010/10/12/the-geek-squad-becomes-the-porn-squad/>
-- <http://law.justia.com/cases/alabama/court-of-appeals-criminal/2010/08-1767.html>
+- <https://www.forbes.com/sites/kashmirhill/2010/10/12/the-geek-squad-becomes-the-porn-squad/>
+- <https://law.justia.com/cases/alabama/court-of-appeals-criminal/2010/08-1767.html>
 
 ### 2007 James Kent
 
@@ -88,9 +88,9 @@ that Kent did not know that viewing child pornography online made a copy
 of the pornography in his web browser's cache.
 
 - <http://www.dailyfreeman.com/articles/2010/10/20/blotter/doc4cbe74442fd0d812453451.txt>
-- <http://usnews.nbcnews.com/_news/2012/05/08/11602955-viewing-child-porn-on-the-web-legal-in-new-york-state-appeals-court-finds?lite>
+- <https://www.nbcnews.com/us-news?lite>
 - [Opinion](http://msnbcmedia.msn.com/i/MSNBC/Sections/NEWS/120508_NY_ChildPorn_Ruling.pdf)
-- <http://www.forbes.com/sites/kashmirhill/2010/10/15/i-was-doing-academic-research-not-an-adequate-defense-for-child-porn-possession/>
+- <https://www.forbes.com/sites/kashmirhill/2010/10/15/i-was-doing-academic-research-not-an-adequate-defense-for-child-porn-possession/>
 
 ### 2008 Brad Cooper
 
@@ -138,7 +138,7 @@ topics....In one of those conversations, the person identified himself
 as a married 45-year-old man with a daughter, a description that fits
 Mr. Cameron."
 
-- <http://www.pressherald.com/news/Cameron-sentenced-to-16-years-in-prison.html>
+- <https://www.pressherald.com/2011/03/10/cameron-sentenced-to-16-years-in-prison/>
 - <http://www.mahalo.com/james-m-cameron/>
 
 ## See Also
@@ -147,9 +147,9 @@ Mr. Cameron."
   virus](http://groups.google.com/group/alt.comp.virus/browse_frm/thread/f5d9d7c71c6fb540/e0e9a7986d4df76b?tvc=1) -
   Usenet discussion which revealed lots of information about the author
   of the [Melissa
-  worm/virus](http://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
+  worm/virus](https://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
 - [IDS Logs in Forensics Investigations: An Analysis of a Compromised
-  Honeypot](http://www.securityfocus.com/infocus/1676)
+  Honeypot](https://bugtraq.securityfocus.com/infocus/1676)
 
 [Category:Investigations](category:investigations.md)
 [Category:Law](category:law.md)

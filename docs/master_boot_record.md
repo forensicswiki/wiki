@@ -8,7 +8,7 @@ hard drive. It should contain information necessary to boot a computer.
 ## External Links
 
 - [Wikipedia: Master Boot
-  Record](http://en.wikipedia.org/wiki/Master_boot_record)
+  Record](https://en.wikipedia.org/wiki/Master_boot_record)
 
 <!-- -->
 

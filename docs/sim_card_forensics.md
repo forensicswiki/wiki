@@ -62,23 +62,23 @@ Wiki Links
 External Links
 
 * [SIMiFOR](http://www.forensicts.co.uk)
-* [SIMcon](http://www.simcon.no/)
+* [SIMcon](https://www.simcon.no/)
 * [USIM Detective](http://www.quantaq.com/usimdetective.htm)
-* [Pro Data Doctor](http://www.data-recovery-mobile-phone.com/)
+* [Pro Data Doctor](https://www.data-recovery-mobile-phone.com/)
 * [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
 * [SIM Manager](http://www.txsystems.com/sim-manager.html)
 * [SIMQuery](http://vidstrom.net/otools/simquery/)
 * [SimScan](http://users.net.yu/~dejan/)
 * [SIMSpy](http://www.nobbi.com/download.htm)
-* [UnDeleteSMS](http://vidstrom.net/stools/undeletesms/)
+* [UnDeleteSMS](https://vidstromlabs.com/freetools/undeletesms/)
 * [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)
 * [Dekart SIM Explorer](https://www.dekart.com/products/card_management/sim_explorer),
-  [video demo of SIM Explorer](http://www.youtube.com/watch?v=P5dJS7g1o_c)
+  [video demo of SIM Explorer](https://www.youtube.com/watch?v=P5dJS7g1o_c)
 * [Dekart SIM Manager](https://www.dekart.com/products/card_management/sim_manager),
-  [video tutorial on how to recover a deleted SMS](http://www.youtube.com/watch?v=VaBaqZiNW4U)
-* [Cell Phone SIM Card Spy](http://www.brickhousesecurity.com/cellphone-spy-simcardreader.html)
+  [video tutorial on how to recover a deleted SMS](https://www.youtube.com/watch?v=VaBaqZiNW4U)
+* [Cell Phone SIM Card Spy](https://www.brickhousesecurity.com/counter-surveillance/)
 * [SIM Card Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
-* [Sim Card Reader Software](http://www.download3000.com/download_46892.html)
+* [Sim Card Reader Software](https://sim-card-reader-software.download3000.com)
 * [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
 * [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
 
@@ -106,7 +106,7 @@ card.
 ## See also
 
 * [SIM Cards](sim_cards.md)
-* [Troubleshooting the installation of a PC/SC smart card reader (video tutorial)](http://www.youtube.com/watch?v=w_tcwmzUH6o)
+* [Troubleshooting the installation of a PC/SC smart card reader (video tutorial)](https://www.youtube.com/watch?v=w_tcwmzUH6o)
 
 ## External Links
 

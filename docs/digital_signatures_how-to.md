@@ -173,6 +173,6 @@ used for server authentication.
 ## References
 
 - <http://pages.cs.wisc.edu/~zmiller/ca-howto/>
-- <http://serverfault.com/questions/103263/can-i-create-my-own-s-mime-certificate-for-email-encryption>
-- <http://publib.boulder.ibm.com/infocenter/rsthelp/v8r0m0/index.jsp?topic=%2Fcom.ibm.rational.test.lt.doc%2Ftopics%2Ftcreatecertopenssl.html>
-- <http://security.stackexchange.com/questions/17583/how-do-i-create-a-valid-email-certificate-for-outlook-s-mime-with-openssl>
+- <https://serverfault.com/questions/103263/can-i-create-my-own-s-mime-certificate-for-email-encryption>
+- <https://www.ibm.com/docs/en/products?topic=%2Fcom.ibm.rational.test.lt.doc%2Ftopics%2Ftcreatecertopenssl.html>
+- <https://security.stackexchange.com/questions/17583/how-do-i-create-a-valid-email-certificate-for-outlook-s-mime-with-openssl>

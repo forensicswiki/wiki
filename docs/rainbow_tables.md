@@ -17,11 +17,11 @@ if the following conditions are true:
 
 ### Windows XP & Vista passwords (LM & NT hashes)
 
-* <http://ophcrack.sourceforge.net/tables.php>
+* <https://ophcrack.sourceforge.io/tables.php>
 
 ### WPA/WPA2-PSK passwords
 
-* <http://www.renderlab.net/projects/WPA-tables/> (only for top 1000 SSID list)
+* <https://www.renderlab.net/projects/WPA-tables/> (only for top 1000 SSID list)
 
 ### DOC, [PDF](pdf.md), etc
 
@@ -31,4 +31,4 @@ if the following conditions are true:
 
 # References
 
-* [Wikipedia's Rainbow table entry](http://en.wikipedia.org/wiki/Rainbow_table)
+* [Wikipedia's Rainbow table entry](https://en.wikipedia.org/wiki/Rainbow_table)

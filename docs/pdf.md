@@ -83,7 +83,7 @@ PDF. Unfortunately, this option can be quite cumbersome.
 These tools are useful for analyzing PDF files:
 
 Belkasoft Evidence Center
-<http://belkasoft.com/ec>
+<https://belkasoft.com/x>
 
 A powerful digital forensic product by
 [Belkasoft](belkasoft.md), in particular allowing for searching
@@ -114,10 +114,10 @@ parsing and exploring pdf files and graphically browsing its contents.
 <!-- -->
 
 PDF Tools
-<http://blog.didierstevens.com/programs/pdf-tools/>
+<https://blog.didierstevens.com/programs/pdf-tools/>
 
 Didier Stevens'
-[pdf-parse](http://blog.didierstevens.com/2008/10/30/pdf-parserpy/) and
+[pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/) and
 pdfid, written in Python
 
 <!-- -->
@@ -139,7 +139,7 @@ Retrieves previous versions of PDF files that have changes appended with
 <!-- -->
 
 PDFMiner
-<http://www.unixuser.org/~euske/python/pdfminer/index.html>
+<https://www.unixuser.org/~euske/python/pdfminer/index.html>
 
 "Python PDF parser and analyzer"
 
@@ -149,7 +149,7 @@ files, and **dumppdf.py** for dumping PDF objects.
 <!-- -->
 
 pyPdf
-<http://pybrary.net/pyPdf/>
+<https://pybrary.net/pyPdf/>
 
 "A Pure-Python library built as a PDF toolkit."
 
@@ -180,7 +180,7 @@ create any kind of PDF document"
 
 - [Adobe PDF
   Reference](http://partners.adobe.com/public/developer/pdf/index_reference.html)
-- [Wikipedia: PDF](http://en.wikipedia.org/wiki/PDF)
+- [Wikipedia: PDF](https://en.wikipedia.org/wiki/PDF)
 - [Portable Document Format: An Introduction for
   Programmers](http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/),
   MacTech Magazine, Volume 15, (1999), Issue 9
@@ -189,6 +189,6 @@ create any kind of PDF document"
 - [Patent
   Licenses](http://partners.adobe.com/public/developer/support/topic_legal_notices.html)
 - [Quickpost: About the Physical and Logical Structure of PDF
-  Files](http://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/),
+  Files](https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/),
   by Didier Stevens, April 9, 2008
 

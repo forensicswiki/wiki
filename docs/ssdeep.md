@@ -13,14 +13,14 @@ ssdeep is a program for computing and matching [Context Triggered
 Piecewise Hashing](context_triggered_piecewise_hashing.md)
 values. It is based on a spam detector called
 [spamsum](http://samba.org/ftp/unpacked/junkcode/spamsum/) by [Andrews
-Trigdell](http://en.wikipedia.org/wiki/Andrew_Tridgell).
+Trigdell](https://en.wikipedia.org/wiki/Andrew_Tridgell).
 
 ## File Format
 
 The program uses an ASCII text file to record fuzzy hashes. The format
 changed slightly in version 2.6 in Sep 2010. Hashes created by the
 version 2.6 or later of the program cannot be used in earlier versions
-<sup>[ref](http://ssdeep.svn.sourceforge.net/viewvc/ssdeep/tags/release-2.6/FILEFORMAT?revision=107&view=markup)</sup>.
+<sup>[ref](https://sourceforge.net/projects/ssdeep/)</sup>.
 The contains a header followed by one hash per line. The current header
 is:
 
@@ -110,5 +110,5 @@ flag instead of `-d`.
 
 ## External Links
 
-- [Official website](http://ssdeep.sourceforge.net/)
+- [Official website](https://ssdeep-project.github.io/ssdeep/)
 

@@ -22,7 +22,7 @@ Sandman is the only open-source tool that
 can read and write the Windows Vista and 7 hibernation files.
 
 In early 2008, as part of the [Windows Server Protocol
-Program](http://msdn.microsoft.com/en-us/library/cc197979.aspx),
+Program](https://learn.microsoft.com/en-us/),
 Microsoft released documentation on the Xpress compression algorithm in
 the [Directory Replication Service (DRS) Remote
 Protocol](http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-DRSR%5D.pdf)
@@ -52,7 +52,7 @@ from the multiple levels of slack space within them.
   by [Nicolas Ruff](nicolas_ruff.md), [Matthieu Suiche](matthieu_suiche.md)
 * [Hibernation File Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
   by [Peter Kleissner](peter_kleissner.md), 2009
-* [Microsoft Hibernation Files](http://code.google.com/p/volatility/wiki/HiberAddressSpace), by
+* [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki), by
   [the Volatility project](volatility_framework.md)
 * [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
 * [Parsing hibernation slack space](https://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/)

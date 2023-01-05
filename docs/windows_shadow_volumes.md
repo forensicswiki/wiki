@@ -122,7 +122,7 @@ information.
 
 ### How to analyze Shadow Volumes
 
-* [VISTA and Windows 7 Shadow Volume Forensics](http://computer-forensics.sans.org/blog/2008/10/10/shadow-forensics/),
+* [VISTA and Windows 7 Shadow Volume Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), October 2008
 * [Accessing Volume Shadow Copies](http://windowsir.blogspot.ch/2011/01/accessing-volume-shadow-copies.html),
   by [Harlan Carvey](harlan_carvey.md), January 2011
@@ -132,7 +132,7 @@ information.
   by Corey Harrell, April 2011
 * [HowTo: Mount and Access VSCs](http://windowsir.blogspot.ch/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
-* [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](http://computer-forensics.sans.org/blog/2011/09/16/shadow-timelines-and-other-shadowvolumecopy-digital-forensics-techniques-with-the-sleuthkit-on-windows/),
+* [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), September 2011
 * [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.ch/2012/01/ripping-volume-shadow-copies.html),
   by Corey Harrell, January 2012
@@ -146,7 +146,7 @@ information.
   by Corey Harrell, February 2012
 * [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.ch/2012/02/examining-vscs-with-gui-tools.html),
   by Corey Harrell, February 2012
-* [VSC Toolset: A GUI Tool for Shadow Copies](http://dfstream.blogspot.ch/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
+* [VSC Toolset: A GUI Tool for Shadow Copies](https://dfstream.blogspot.com/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
   by Jason Hale, March 2012
 * [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by [Simon Key](simon_key.md), June 2012
@@ -163,19 +163,19 @@ information.
 
 <!-- -->
 
-* [Volume Shadow Copy Part 2](http://computerforensicsblog.champlain.edu/2014/02/05/volume-shadow-copy-part-2/),
+* [Volume Shadow Copy Part 2](https://leahycenterblog.champlain.edu/),
   by Ryan Montelbano, Scott Barrett, Jacob Blend, February 5, 2014
-* [Volume Shadow Copy Part 3](http://computerforensicsblog.champlain.edu/2014/02/26/volume-shadow-copy-part-3/),
+* [Volume Shadow Copy Part 3](https://leahycenterblog.champlain.edu/),
   by Scott Barrett, February 26, 2014
-* [Volume Shadow Copy Part 4](http://computerforensicsblog.champlain.edu/2014/03/26/volume-shadow-copy-part-4/),
+* [Volume Shadow Copy Part 4](https://leahycenterblog.champlain.edu/),
   by Ryan Montelbano, March 26, 2014
 
 ### Shadow Volumes in depth
 
 * [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
   by [James Crabtree](james_crabtree.md) and [Gary Evans](gary_evans.md), 2010
-* [Into The Shadows](http://forensic4cast.com/2010/04/19/into-the-shadows/) and
-  [Presentation](http://www.forensic4cast.com/2010/04/presentation-into-the-shadows/),
+* [Into The Shadows](https://forensic4cast.com/2010/04/into-the-shadows/) and
+  [Presentation](https://forensic4cast.com/2010/04/presentation-into-the-shadows/),
   by [Lee Whitfield](lee_whitfield.md), April 2010
 * [Volume Shadow Snapshot format](https://github.com/libyal/libvshadow/blob/main/documentation/Volume%20Shadow%20Snapshot%20(VSS)%20format.asciidoc),
   by the [libvshadow project](libvshadow.md), March 2011
@@ -195,8 +195,8 @@ information.
   the downloads section of the GSI Support Portal)
 * [libvshadow](libvshadow.md)
 * [ProDiscover](prodiscover.md)
-* [ShadowExplorer](http://www.shadowexplorer.com/)
-* [VSC Toolset](http://dfstream.blogspot.ch/p/vsc-toolset.html)
+* [ShadowExplorer](https://www.shadowexplorer.com/)
+* [VSC Toolset](https://dfstream.blogspot.com/p/vsc-toolset.html)
 * [X-Ways Forensics](x-ways_ag.md)
 * [Reconnoitre](http://sandersonforensics.com/forum/content.php?168-Reconnoitre)
 * Vssadmin - Command Line utility included in Windows XP and later,
@@ -206,5 +206,5 @@ information.
 
 ## Sources
 
-[1](http://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
-\[<https://msdn.microsoft.com/en-us/library/windows/desktop/aa378910(v=vs.85>).aspx\]
+[1](https://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
+\[<https://learn.microsoft.com/en-us/>).aspx\]

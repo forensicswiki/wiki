@@ -58,7 +58,7 @@ conferences that would be appropriate for forensic research.
 | width="30%\|Title                                                   | Due Date                | Notification Date | Website                                                                                         |
 |---------------------------------------------------------------------|-------------------------|-------------------|-------------------------------------------------------------------------------------------------|
 | IFIP WG 11.9 International Conference on Digital Forensics          | Oct 14, 2016 (extended) | Nov 11, 2016      | <http://www.ifip119.org/Conferences/WG11-9-CFP-2017.pdf>                                        |
-| 2017 International Conference on Audio Forensics                    | Feb 01, 2017            | Mar 07, 2017      | <http://www.aes.org/conferences/2017/forensics/downloads/2017forensicsCallForContributions.pdf> |
+| 2017 International Conference on Audio Forensics                    | Feb 01, 2017            | Mar 07, 2017      | <https://www.aes.org/conferences/2017/forensics/downloads/2017forensicsCallForContributions.pdf> |
 | The 3rd IEEE International Workshop on Cloud Security and Forensics | May 03, 2017 (extended) | May 24, 2017      | <https://www.forensicsandsecurity.com/workshop.php>                                             |
 |                                                                     |                         |                   |                                                                                                 |
 | 2017 IEEE Workshop on Information Forensics and Security            | Jun 19, 2017            | Sep 18, 2017      | <http://www.wifs2017.org/>                                                                      |
@@ -181,8 +181,8 @@ href="http://www.wifs2017.org/">http://www.wifs2017.org/</a></p></td>
 ## References
 
 - [Computer Security Conference Ranking and
-  Statistic](http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm)
+  Statistic](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm)
 - [Meetings and Conferences in Data Mining and
-  Discovery](http://www.kdnuggets.com/meetings/)
-- <http://www.conferencealerts.com/data.htm> Data Mining Conferences
+  Discovery](https://www.kdnuggets.com/meetings/)
+- <https://conferencealerts.com/topic-listing?topic=Data%20Mining> Data Mining Conferences
   World-Wide\]

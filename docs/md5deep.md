@@ -47,7 +47,7 @@ The line terminator can be changed to a \0, or NULL character, using the
 
 The md5deep suite can be cross-compiled for Windows (both 32-bit and
 64-bit) using the Fedora Core Linux Distribution. The
-[CONFIGURE_FC.sh](https://md5deep.svn.sourceforge.net/svnroot/md5deep/branches/version4/CONFIGURE_FC.sh)
+[CONFIGURE_FC.sh](https://sourceforge.net/projects/md5deep/)
 script distributed with the distribution will configure a newly
 installed FC release for the mingw32 and mingw64 cross-compilers,
 download all necessary libraries, download the md5deep source-code
@@ -55,7 +55,7 @@ distribution from the SVN repository, and compile everything. Thus, a
 complete cross-compile can be performed on a new install with these
 commands:
 
-    wget https://md5deep.svn.sourceforge.net/svnroot/md5deep/branches/version4/CONFIGURE_FC.sh
+    wget https://sourceforge.net/projects/md5deep/
     sudo sh CONFIGURE_FC.sh
 
 ## Digital Forensics XML
@@ -76,7 +76,7 @@ Here is an example:
     <?xml version='1.0' encoding='UTF-8'?>
     <dfxml xmloutputversion='1.0'>
       <metadata
-      ns='http://md5deep.sourceforge.net/md5deep/'
+      ns='https://md5deep.sourceforge.net/md5deep/'
       xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
       xmlns:dc='http://purl.org/dc/elements/1.1/'>
         <dc:type>Hash List</dc:type>
@@ -138,5 +138,5 @@ Here is an example:
 
 ## External Links
 
-* [Official website](http://md5deep.sourceforge.net/)
-* [Wikipedia entry on md5deep](http://en.wikipedia.org/wiki/Md5deep)
+* [Official website](https://md5deep.sourceforge.net/)
+* [Wikipedia entry on md5deep](https://en.wikipedia.org/wiki/Md5deep)

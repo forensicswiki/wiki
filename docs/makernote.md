@@ -11,5 +11,5 @@ MakerNote (tag 0x927c), rather than in the standard Exif information.
 # References
 
 - [Makernote Formats and
-  Specifications](http://www.exiv2.org/makernote.html)
-- [Canon MakerNote Tags](http://www.exiv2.org/tags-canon.html)
+  Specifications](https://exiv2.org/makernote.html)
+- [Canon MakerNote Tags](https://exiv2.org/tags-canon.html)

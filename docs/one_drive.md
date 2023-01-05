@@ -16,4 +16,4 @@ Microsoft.
 
 ## External Links
 
-* [Product site](https://onedrive.live.com/about/en-us/)
+* [Product site](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)

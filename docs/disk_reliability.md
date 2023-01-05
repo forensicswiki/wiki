@@ -15,7 +15,7 @@ computer forensics for several reasons:
 - An analysis of latent sector errors in disk drives, Lakshmi N.
   Bairavasundaram, Garth R. Goodson, Shankar Pasupathy, Jiri Schindler,
   SIGMETRICS '07. [(ACM
-  DL)](http://portal.acm.org/citation.cfm?id=1269899.1254917)
+  DL)](https://dl.acm.org/doi/10.1145/1269899.1254917)
 
 <!-- -->
 

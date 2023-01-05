@@ -18,8 +18,8 @@ back-end of [Paraben's Email Examiner](paraben's_email_examiner.md).
 
 ## Supported File Formats
 
-See [Supported Email Formats](http://www.aid4mail.com/supported-email-formats)
+See [Supported Email Formats](http://www.aid4mail.com/email-conversion)
 
 ## External Links
 
-* [Aid4Mail](http://aid4mail.com)
+* [Aid4Mail](https://www.aid4mail.com/)

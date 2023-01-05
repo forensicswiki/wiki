@@ -44,4 +44,4 @@ definitions.
 - [Project site](https://github.com/ForensicArtifacts/artifacts)
 - [Knowledge Base
   site](https://github.com/ForensicArtifacts/artifacts-kb)
-- [pypi site](https://pypi.python.org/pypi/artifacts)
+- [pypi site](https://pypi.org/project/artifacts/)

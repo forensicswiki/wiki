@@ -25,6 +25,6 @@ Server 2008, Windows Server 2012.
 
 ## External Links
 
-- [Download Link](http://partition-recovery.en.softonic.com/)
+- [Download Link](https://en.softonic.com/windows/utilities-tools)
 - [M3 Partition
-  Recovery](http://www.m3datarecovery.com/partition-recovery/)
+  Recovery](https://www.m3datarecovery.com/data-recovery/partition-recovery.html)

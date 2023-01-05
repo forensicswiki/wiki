@@ -11,26 +11,26 @@ tags:
 
 * [National Computer Forensic Institute](national_computer_forensic_institute.md)
 * [Computer Crime and Intellectual Property Section of the Department of Justice](http://cybercrime.gov/)
-* [Computer Technology Investigators Network](http://www.ctin.org)
-* [National Institute of Justice](http://www.ojp.usdoj.gov/nij/)
+* [Computer Technology Investigators Network](https://www.ctin.org/)
+* [National Institute of Justice](https://www.ojp.gov/about/offices/national-institute-justice-nij)
 * [National Center for Forensic Science](http://ncfs.ucf.edu/)
-* [National Institute of Standards and Technology, Computer Forensic Tool Testing](http://www.cftt.nist.gov/)
+* [National Institute of Standards and Technology, Computer Forensic Tool Testing](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)
 * [Department of Defense Cyber Crime Center](defense_cybercrime_center.md)
-* [FBI Regional Computer Forensic Laboratory Program](http://www.rcfl.gov/)
-* [Air Force Office of Special Investigations](http://www.osi.af.mil/)
+* [FBI Regional Computer Forensic Laboratory Program](https://www.rcfl.gov/)
+* [Air Force Office of Special Investigations](https://www.osi.af.mil/)
 
 # Trade Organizations
 
-* [National Association for Information Destruction](http://www.naidonline.org/)
+* [National Association for Information Destruction](https://isigmaonline.org/)
 
 # Professional Organizations
 
 * [The SANS Institute](http://www.sans.org/)
-* [High Technology Crime Investigation Association](http://www.htcia.org/)
+* [High Technology Crime Investigation Association](https://www.htcia.org/)
 * [International Association of Computer Investigative Specialists](https://www.iacis.com/)
 * [Regional Computer Forensic Group](http://www.rcfg.org/)
 * [High Tech Crime Network](http://www.htcn.org/)
-* [American Academy of Forensic Science](http://www.aafs.org/) The AAFS
+* [American Academy of Forensic Science](https://www.aafs.org/) The AAFS
   Board of Directors has approved the creation of the Digital and
   Multi-media section, which will be voted upon during the AAFS business
   meeting (during the annual meeting) in Feb 2008.

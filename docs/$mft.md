@@ -77,7 +77,7 @@ extracted using FTKImager.
 ## External Links
 
 - [Master File Table (Local File
-  Systems)](https://docs.microsoft.com/en-us/windows/win32/fileio/master-file-table),
+  Systems)](https://learn.microsoft.com/en-us/windows/win32/fileio/master-file-table),
   by Microsoft
 - [NTFS Master File Table (MFT)](http://www.ntfs.com/ntfs-mft.htm), by
   Ntfs.com

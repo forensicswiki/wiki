@@ -23,5 +23,5 @@ be found on Twitter at @nolaforensix.
 
 ## External Links
 
-* [Arcane Alloy, LLC](http://www.arcanealloy.com)
+* [Arcane Alloy, LLC](https://arcanealloy.com/)
 * [Outlook Purple](http://outlookpurple.blogspot.com)

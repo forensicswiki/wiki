@@ -38,4 +38,4 @@ To search for all executables in an unusual place:
 
 ## External Links
 
-- [Official website](http://missidentify.sourceforge.net/)
+- [Official website](https://missidentify.sourceforge.net/)

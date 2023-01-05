@@ -33,5 +33,5 @@ Other common options for the exif command:
 
 ## External Links
 
-* [libexif project documentation](http://libexif.sourceforge.net/docs.html)
-* [man page for exif command line tool](http://libexif.sourceforge.net/man/exif.html)
+* [libexif project documentation](https://libexif.sourceforge.net/docs.html)
+* [man page for exif command line tool](https://libexif.sourceforge.net/man/exif.html)

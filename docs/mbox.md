@@ -90,11 +90,11 @@ Operating System as well i.e. the supported email application(s).
 
 ## External Links
 
-- [Wikipedia: Mbox](http://en.wikipedia.org/wiki/Mbox)
+- [Wikipedia: Mbox](https://en.wikipedia.org/wiki/Mbox)
 - [RFC 4155: The application/mbox Media
-  Type](http://tools.ietf.org/html/rfc4155), by E. Hall, September 2005
+  Type](https://www.rfc-editor.org/rfc/rfc4155), by E. Hall, September 2005
 - [RFC 2822: Internet Message
-  Format](http://tools.ietf.org/html/rfc2822), by P. Resnick, April 2001
+  Format](https://www.rfc-editor.org/rfc/rfc2822), by P. Resnick, April 2001
 
 ## Tools
 
@@ -103,14 +103,14 @@ Operating System as well i.e. the supported email application(s).
   perform search inside MBOX emails to locate a particular evidence.
 - [Aid4Mail](aid4mail.md)
 - [mbox-extract-attachments.py](https://raw.githubusercontent.com/PabloCastellano/pablog-scripts/master/mbox-extract-attachments.py)
-- [Windows MBOX Converter](http://www.bitrecover.com/mbox-converter/)
+- [Windows MBOX Converter](https://www.bitrecover.com/mbox-converter/)
   Converts mbox email messages from Thunderbird, Postbox, Netscape,
   Evolution, SeaMonkey, Sylpheed, Mulberry, GyazMail, Claws Mail, Gnu,
   Sparrow, the Bat, Apple Mail, Entourage, PowerMail, PocoMail, Eudora,
   Spicebird, WebMail or Opera Email client into PDF, PST, EML, MSG,
   EMLX, RTF, HTML.
-- [MBOX File Viewer](http://datahelp.in/mbox/viewer.html)
-- [FREE MBox Viewer](http://www.freeviewer.org/mbox/)
+- [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
+- [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
 - [MBOX Viewer](mbox_viewer.md)
 - [Paraben's Email Examiner](paraben's_email_examiner.md)
 

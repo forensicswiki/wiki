@@ -16,9 +16,9 @@ pretty well.
 
 - [Digital
   Element](http://www.digital-element.net/ip_intelligence/ip_intelligence.html)
-- [IP2Location](http://www.ip2location.com/?AfID=23224) (free query: 20
+- [IP2Location](https://www.ip2location.com/?AfID=23224) (free query: 20
   lookups/day)
-- [MaxMind](http://www.maxmind.com/app/ip-location) (free service:
+- [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases) (free service:
   GeoLite Country, GeoLite City; free query: 25 lookups/day at
   <http://www.maxmind.com/app/locate_ip>)
 - [Geobytes Commercial](http://www.geobytes.com)
@@ -27,7 +27,7 @@ pretty well.
 
 - [Software 77](http://software77.net/cgi-bin/ip-country/geo-ip.pl)
 - [Geobytes (commercial)](http://www.geobytes.com)
-- [Quova (commercial)](http://www.quova.com)
+- [Quova (commercial)](https://neustarsecurityservices.com/)
 - [CountryHawk (commercial)](http://www.cyscape.com/products/chawk)
 - [Verifia NetGeo (commercial)](http://www.netgeo.com/index.htm)
 - [ActiveTarget (commercial)](http://www.activetarget.com/)
@@ -36,7 +36,7 @@ pretty well.
 - [CountryWhois DB
   (commercial)](http://www.tamos.com/products/ip-location-database)
 - [CountryWhois](http://www.countrywhois.com/online-demo.php)
-- [IPAddressGuide](http://www.IPAddressGuide.com/)
+- [IPAddressGuide](https://www.ipaddressguide.com/)
 - [Dots IP Address Validation
   (commercial)](http://www.serviceobjects.com/products/dots_ipgeo.asp?zut=GGL1004&bhcp=1)
 - [Dots Demo](http://www.serviceobjects.com/demos/geopinpointdemo.asp)

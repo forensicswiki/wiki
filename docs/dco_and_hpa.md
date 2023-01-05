@@ -63,13 +63,13 @@ above)
 
 ## Other Tools
 
-- [TAFT (The ATA Forensics Tool)](http://www.vidstrom.net/stools/taft/)
+- [TAFT (The ATA Forensics Tool)](https://vidstromlabs.com/freetools/taft/)
   claims the ability to look at and change the HPA and DCO settings.
-- [SAFE-Block](http://www.softpedia.com/get/Security/Security-Related/SAFE-Block.shtml),
+- [SAFE-Block](https://www.softpedia.com/get/Security/Security-Related/SAFE-Block.shtml),
   claims the ability to temporarily remove the HPA and remove the DCO
   and later return it to its original state.
 - [HDD Capacity
-  Restore](http://hddguru.com/content/en/software/2007.07.20-HDD-Capacity-Restore-Tool/),
+  Restore](http://hddguru.com/software/2007.07.20-HDD-Capacity-Restore-Tool/),
   a reportedly Free utility that removed the DCO (to give you more
   storage for your hard drive!)
 - [Tableau
@@ -88,16 +88,16 @@ above)
   Mark Bedford, Digital Investigation, Volume 2, Issue 4, December 2005,
   Pages 268-275
 - [Hidden Disk Areas: HPA and
-  DCO](http://www.utica.edu/academic/institutes/ecii/publications/articles/EFE36584-D13F-2962-67BEB146864A2671.pdf),
+  DCO](https://www.utica.edu/academic/institutes/ecii/publications/articles/EFE36584-D13F-2962-67BEB146864A2671.pdf),
   Mayank R. Gupta, Michael D. Hoeschele, Marcus K. Rogers, International
   Journal of Digital Evidence, Fall 2006, Volume 5, Issue 1
 - [REMOVING HOST PROTECTED AREAS (HPA) IN
   LINUX](http://www.sleuthkit.org/informer/sleuthkit-informer-20.txt),
   Brian Carrier, SleuthKit Informer \#20
 - [Wikipedia article on Device Configuration
-  Overlay](http://en.wikipedia.org/wiki/Device_configuration_overlay)
+  Overlay](https://en.wikipedia.org/wiki/Device_configuration_overlay)
 - [Wikipedia article on Host Proteced
-  Area](http://en.wikipedia.org/wiki/Host_protected_area)
+  Area](https://en.wikipedia.org/wiki/Host_protected_area)
 - [Hiding Data in Hard-Drive’s Service
   Areas](http://www.recover.co.il/SA-cover/SA-cover.pdf), by [Ariel
   Berkman](ariel_berkman.md), February 14, 2013

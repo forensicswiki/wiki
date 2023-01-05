@@ -65,8 +65,8 @@ blank value here. An `M` in this field denotes a malicious file.
 
 ## External Links
 
-- [NSRL website](http://www.nsrl.nist.gov/)
+- [NSRL website](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl)
 - [NSRL RDS Data File
-  Format](http://www.nsrl.nist.gov/documents/Data-Formats-of-the-NSRL-Reference-Data-Set-14.pdf) -
+  Format](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrldocuments/Data-Formats-of-the-NSRL-Reference-Data-Set-14.pdf) -
   Describes the format of the hash files
 

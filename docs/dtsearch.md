@@ -7,4 +7,4 @@ and [searching](searching.md) through large amounts of text.
 
 ## External Links
 
-- [Official website](http://www.dtsearch.com/)
+- [Official website](https://www.dtsearch.com/)

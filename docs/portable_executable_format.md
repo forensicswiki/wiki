@@ -16,7 +16,7 @@ Interface (MUI) strings and EventLog messages.
 ## External Links
 
 * [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
-* [PE and COFF Specification](http://msdn.microsoft.com/en-us/library/windows/hardware/gg463119.aspx),
+* [PE and COFF Specification](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 * [Blog about pefile](http://blog.dkbza.org/search/label/pefile), by
   [Ero Carrera](ero_carrera.md)

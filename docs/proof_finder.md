@@ -25,5 +25,5 @@ Features:
 
 ## External Links
 
-* [Official website](http://www.prooffinder.com/)
-* [Proof Finder overview in 3 minutes](http://www.youtube.com/watch?v=h3QOsCFd0CY)
+* [Official website](https://prooffinder.com/)
+* [Proof Finder overview in 3 minutes](https://www.youtube.com/watch?v=h3QOsCFd0CY)

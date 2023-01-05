@@ -13,5 +13,5 @@ the NIST Special Database 28 [National Software Reference Library](national_soft
 
 ## External Links
 
-* [NIST Homepage](http://www.nist.gov)
+* [NIST Homepage](https://www.nist.gov/)
 * [NIST Special Publication 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf)

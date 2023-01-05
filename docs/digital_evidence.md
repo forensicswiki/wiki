@@ -101,19 +101,19 @@ Computer evidence needs to be:
 
 ### Hearsay
 
-- [Wikipedia: Hearsay](http://en.wikipedia.org/wiki/Hearsay)
+- [Wikipedia: Hearsay](https://en.wikipedia.org/wiki/Hearsay)
 
 ### Reasoning
 
 - [Wikipedia: Thesis, antithesis,
-  synthesis](http://en.wikipedia.org/wiki/Thesis,_antithesis,_synthesis)
+  synthesis](https://en.wikipedia.org/wiki/Thesis,_antithesis,_synthesis)
 - [Wikipedia: Reasoning - Logical reasoning methods and
-  argumentation](http://en.wikipedia.org/wiki/Reasoning#Logical_reasoning_methods_and_argumentation)
+  argumentation](https://en.wikipedia.org/wiki/Reasoning#Logical_reasoning_methods_and_argumentation)
 - [Wikipedia: Deductive
-  reasoning](http://en.wikipedia.org/wiki/Deductive_reasoning)
+  reasoning](https://en.wikipedia.org/wiki/Deductive_reasoning)
 - [Wikipedia: Inductive
-  reasoning](http://en.wikipedia.org/wiki/Inductive_reasoning)
-- [Wikipedia: Five Ws](http://en.wikipedia.org/wiki/Five_Ws)
+  reasoning](https://en.wikipedia.org/wiki/Inductive_reasoning)
+- [Wikipedia: Five Ws](https://en.wikipedia.org/wiki/Five_Ws)
 
 ### Standards and best practices
 

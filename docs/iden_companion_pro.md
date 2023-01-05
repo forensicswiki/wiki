@@ -8,7 +8,7 @@ software has been released.
 
 Download the latest version now before they take it off the website...
 Motorola bloatware at 91MB:
-<http://idenphones.motorola.com/iden/support/software/companion_pro.jsp>
+<https://motorola-global-en-roe.custhelp.com/app/home>
 
 You can still use the new Phonebook Manager, if you don't care about
 speed dial ordering (like holding "1" to call home, etc.), or

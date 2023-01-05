@@ -18,7 +18,7 @@ Per MS KB2727880, when Windows 7 is installed on a system with an SSD drive,
 automatic defragmentation and SuperFetch/prefetching are disabled.
 
 Further, [this TechNet
-post](http://technet.microsoft.com/en-us/magazine/ff356869.aspx) states:
+post](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ff356869(v=msdn.10)?redirectedfrom=MSDN) states:
 
 > Since ReadyBoost will not provide a performance gain when the primary
 > disk is an SSD, Windows 7 disables ReadyBoost when reading from an SSD
@@ -169,6 +169,6 @@ component of the Windows 7 operating system.
 
 ## External Links
 
-- [The Windows 7 Event Log and USB Device Tracking](http://dfstream.blogspot.ch/2014/01/the-windows-7-event-log-and-usb-device.html),
+- [The Windows 7 Event Log and USB Device Tracking](https://dfstream.blogspot.com/2014/01/the-windows-7-event-log-and-usb-device.html),
   by Jason Hale, January 2, 2014
 - [Windows 7 DLL File Information](http://www.win7dll.info/)

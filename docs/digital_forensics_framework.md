@@ -8,5 +8,5 @@ Programming Interface (API).
 
 ## External Links
 
-- [Official website](http://www.digital-forensic.org/)
+- [Official website](http://digital-forensic.org/)
 

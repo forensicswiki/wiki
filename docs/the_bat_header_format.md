@@ -23,7 +23,7 @@ The Bat! v3
 - [Aid4Mail](aid4mail.md) - convert The Bat! email messages to
   other formats
 - [The Bat! Viewer &
-  Converter](http://www.bitrecover.com/bat-converter/) View and convert
+  Converter](https://www.bitrecover.com/bat-converter/) View and convert
   your The Bat! tbb email messages stored in messages.tbb
 - [The Bat! MailXaminer
   support](https://www.mailxaminer.com/blog/the-bat-mailbox-forensic-analysis/)

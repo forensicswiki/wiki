@@ -46,4 +46,4 @@ accessing OLM files in Windows machine.
 - Free Mac Mail Email Extractor
 - Microsoft Outlook 2011 For Mac
 - [OLM Viewer](olm_viewer.md)
-- [OLK14\* Viewer](http://www.systoolsgroup.com/olk/viewer)
+- [OLK14\* Viewer](https://www.systoolsgroup.com/olk/viewer/)
