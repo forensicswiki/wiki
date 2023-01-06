@@ -21,16 +21,17 @@ Force Office of Special
 Investigations](air_force_office_of_special_investigations.md).
 Originally designed to imitate the [Defense Computer Forensics
 Lab's](defense_computer_forensics_lab.md)
-**[carvthis](carvthis.md)** program, it gained popularity among
+
+**carvthis** program, it gained popularity among
 Air Force investigators and was eventually distributed to the general
 public.
 
-First published in 2000, a major update was released in 2005 when [Nick
-Mikus](nick_mikus.md) joined the project.
+First published in 2000, a major update was released in 2005 when Nick
+Mikus joined the project.
 
 ## Spinoffs
 
-Foremost served as the basis for [Golden G. Richard III's](golden_g._richard_iii.md)
+Foremost served as the basis for [Golden G. Richard III's](golden_g_richard_iii.md)
 [Scalpel](scalpel.md), a significantly faster program to also recover deleted
 files. It has also inspired [tcpxtract](tcpxtract.md), a program for extracting
 file from network traffic.

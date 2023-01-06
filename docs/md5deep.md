@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-**md5deep** is a suite of [cross platform](cross_platform.md)
+**md5deep** is a suite of cross platform
 tools to compute and audit [hashes](hashing.md) for any number
 of input files. Although similar to other hashing programs like
 [md5sum](md5sum.md), it can also recursively traverse directory
@@ -14,12 +14,12 @@ audit. The programs runs on [Microsoft](microsoft.md)
 [Linux](linux.md), [FreeBSD](freebsd.md),
 [Solaris](solaris.md), and most other [\*nix](unix.md)
 [operating systems](operating_system.md). It has been included
-in the [Fink](fink.md) and [FreeBSD Ports](freebsd_ports.md) projects.
+in the Fink and FreeBSD Ports projects.
 
 ## Algorithms Supported
 
 md5deep currently supports [MD5](md5.md), [SHA-1](sha-1.md),
-[SHA-256](sha-2.md), [Tiger](tiger.md), and Whirlpool.
+[SHA-256](sha-2.md), Tiger, and Whirlpool.
 
 ## File Formats
 

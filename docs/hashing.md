@@ -19,8 +19,8 @@ related to forensics are:
   standard on many computers.
 - [md5deep](md5deep.md) - Computes hashes, recursively if
   desired, and can compare the results to known values.
-- [ssdeep](ssdeep.md) - Computes and matches [Context Triggered
-  Piecewise Hashes](context_triggered_piecewise_hashes.md).
+- [ssdeep](ssdeep.md) - Computes and matches Context Triggered
+  Piecewise Hashes.
 
 ## Hash Databases
 

@@ -11,7 +11,7 @@ Its main purpose is to align text, images, or links on a website in a
 specific way. Web pages with **.html** or **.htm** extensions are
 examples of static website files. Any server or database technologies
 require another language on top of HTML to create dynamic features in a
-website. HTML files are mere [plain text files](txt.md) whose
+website. HTML files are mere plain text files whose
 contents follow certain rules.
 
 HTML files are usually viewed using a [web browser](web_browser.md), but can

@@ -35,9 +35,9 @@ Response and forensic techniques.
 - [FTK Imager](ftk_imager.md)
 - [mdd](mdd.md)
 - [win32dd](windd.md)
-- [winen](winen.md)
-- [WFT](wft.md)
-- [IRCR](ircr.md)
+- winen
+- WFT
+- IRCR
 
 *and others.*
 

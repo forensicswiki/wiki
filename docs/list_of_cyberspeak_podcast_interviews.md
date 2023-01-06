@@ -240,7 +240,7 @@ below.
 
 <!-- -->
 
-- 4 Apr 2010: [Kristinn Gudjonsson](kristinn_gudjonsson.md)
+- 4 Apr 2010: [Kristinn Guðjónsson](kristinn_gudjonsson.md)
   update on Timeline Analysis and
   [Log2Timeline](http://log2timeline.net/)
 - 19 Apr 2010: Nick Ferneau, developer of
@@ -255,7 +255,7 @@ below.
 
 <!-- -->
 
-- 18 Jul 2010: [Kristinn Gudjonsson](kristinn_gudjonsson.md)
+- 18 Jul 2010: [Kristinn Guðjónsson](kristinn_gudjonsson.md)
   about Timeline Analysis and [Log2Timeline](http://log2timeline.net/)
 
 <!-- -->

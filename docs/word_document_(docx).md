@@ -153,4 +153,4 @@ Other relationship files:
 * [The new XML Office Document Files: Implications For Forensics](https://simson.net/clips/academic/2009.IEEE.DOCX.pdf),
   [Simson L. Garfinkel](simson_l._garfinkel.md) and James Migletz
 * [Office 2007 Metadata](https://www.sans.org/blog/office-2007-metadata/),
-  by [Kristinn Gudjonsson](kristinn_gudjonsson.md), July 10, 2009
+  by [Kristinn Guðjónsson](kristinn_gudjonsson.md), July 10, 2009

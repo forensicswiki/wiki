@@ -2,8 +2,8 @@
 tags:
   -  People
 ---
-Jessica Fridrich is an Associate Professor at [SUNY
-Binghamton](suny_binghamton.md). She works in information hiding
+Jessica Fridrich is an Associate Professor at SUNY
+Binghamton. She works in information hiding
 in digital imagery, watermarking, steganography, and forensic analysis
 of digital images. She holds a patent on [Lossless embedding of data in
 digital

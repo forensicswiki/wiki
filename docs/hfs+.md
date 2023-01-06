@@ -367,7 +367,7 @@ HFS+ stores U+2400 as U+0
   by P. Craiger, November 2005, original location:
   <http://www2.tech.purdue.edu/cit/Courses/cit556/readings/MacForensicsCraiger.pdf>
 - [Using the HFSD journal for deleted ﬁle recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf),
-  by [Aaron Burghardt](aaron_burghardt.md), [Adam Feldman](adam_feldman.md), DRFWS 2008
+  by Aaron Burghardt, Adam Feldman, DRFWS 2008
 
 ## Tools
 

@@ -6,7 +6,7 @@ tags:
   - Tools
 ---
 The **Forensic Toolkit Imager** (**FTK Imager**) is a commercial
-forensic [imaging](imaging.md) software package distributed by
+forensic imaging software package distributed by
 [AccessData](accessdata.md).
 
 FTK Imager supports storage of disk images in EnCase's or

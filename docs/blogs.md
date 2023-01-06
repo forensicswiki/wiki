@@ -15,7 +15,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [A Fistful of Dongles](https://www.afodblog.com/),
   by Eric Huber
 - [All things time related....](http://blog.kiddaland.net/),
-  by [Kristinn Gudjonsson](kristinn_gudjonsson.md) and others
+  by [Kristinn Guðjónsson](kristinn_gudjonsson.md) and others
 - [Another Forensics Blog](https://az4n6.blogspot.com/),
   by Mari DeGrazia
 - [Apple Examiner](http://www.appleexaminer.com/)
@@ -182,7 +182,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Inventor of NORA discusses privacy and all things digital](https://jeffjonas.typepad.com/),
   by Jeff Jonas
 - [Digital Forensics, Coffee, Benevolent Hacking](https://outlookpurple.blogspot.com/),
-  by [Golden G. Richard III](golden_g._richard_iii.md)
+  by [Golden G. Richard III](golden_g_richard_iii.md)
 
 # Circles/Fora/Groups
 

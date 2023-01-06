@@ -1,14 +1,8 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Organization
 ---
 This Redmond, Washington based computer makes the popular
 [Windows](windows.md) operating system and many application
 programs.
-
-## See Also
-
-[Microsoft Compound Document File
-Format](media:compdocfileformat.pdf.md)
-
