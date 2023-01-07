@@ -15,9 +15,9 @@ The data structures required to parse the file format are available in
 the [Microsoft Windows](microsoft_windows.md) debug symbols,
 including some of the various compression methods used.
 
-The Xpress compression was reverse engineered by [Matthieu
-Suiche](matthieu_suiche.md). He created with [Nicolas
-Ruff](nicolas_ruff.md) a project called
+The Xpress compression was reverse engineered by Matthieu
+Suiche. He created with Nicolas
+Ruff a project called
 Sandman is the only open-source tool that
 can read and write the Windows Vista and 7 hibernation files.
 
@@ -27,8 +27,8 @@ Microsoft released documentation on the Xpress compression algorithm in
 the [Directory Replication Service (DRS) Remote
 Protocol](http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-DRSR%5D.pdf)
 specification (section 4.1.10.6.15, "DecompressWin2k3"). However, the
-pseudocode given contains numerous errors, as documented by [Matthieu
-Suiche](matthieu_suiche.md) in a [blog
+pseudocode given contains numerous errors, as documented by Matthieu
+Suiche in a [blog
 entry](http://www.msuiche.net/2008/04/06/few-words-about-microsoft-interoperability-initiative/).
 
 | Windows Version | Compression               |
@@ -47,11 +47,11 @@ from the multiple levels of slack space within them.
 ## External Links
 
 * [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
-  by [Matthieu Suiche](matthieu_suiche.md)
+  by Matthieu Suiche
 * [Enter SandMan](http://www.msuiche.net/pres/PacSec07-slides-0.4.pdf),
-  by [Nicolas Ruff](nicolas_ruff.md), [Matthieu Suiche](matthieu_suiche.md)
+  by Nicolas Ruff, Matthieu Suiche
 * [Hibernation File Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
-  by [Peter Kleissner](peter_kleissner.md), 2009
+  by Peter Kleissner, 2009
 * [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki), by
   [the Volatility project](volatility_framework.md)
 * [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)

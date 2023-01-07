@@ -144,9 +144,9 @@ Google Chrome uses multiple caches, from
         PNACL_CACHE, // Backing store the PNaCl translation cache
     };
 
-<b>Note that \$PROFILE (or %PROFILE%) the paths below is the profile
+**Note that \$PROFILE (or %PROFILE%) the paths below is the profile
 dependent subdirectory which is normally Default but also could be
-Profile1, Profile2, etc.</b>
+Profile1, Profile2, etc.**
 
 The Google Chrome disk cache uses the [Chrome Disk Cache
 Format](chrome_disk_cache_format.md) and can be found in:
@@ -177,7 +177,7 @@ On MacOS-X
     /Users/$USER/Library/Caches/Chromium/$PROFILE/Cache
     /Users/$USER/Library/Caches/Google/Chrome/$PROFILE/Cache
 
-<b>TODO confirm the following paths</b>
+**TODO confirm the following paths**
 
     /Users/$USER/Caches/Chromium/$PROFILE/Cache/
     /Users/$USER/Caches/Google/Chrome/$PROFILE/Cache/
@@ -196,7 +196,7 @@ On MacOS-X
 
 On Windows XP
 
-<b>TODO confirm the following paths</b>
+**TODO confirm the following paths**
 
     C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Chromium\User Data\Cache\
     C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Google\Chrome\User Data\Cache\
@@ -453,37 +453,24 @@ On Windows
 
 ## External Links
 
-- [Wikipedia article on Google
-  Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
-- [The Chromium Projects - User Data
-  Directory](https://www.chromium.org/user-experience/user-data-directory/)
-- [Chrome Disk
-  Cache](http://www.chromium.org/developers/design-documents/network-stack/disk-cache)
-- [Chrome support forum article random 10 character hostnames on
-  startup](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en)
-- [Chrome User Agent
-  strings](https://www.useragentstring.com/pages/Chrome/)
-- [Google Chrome
-  Forensics](https://www.sans.org/digital-forensics-incident-response/)
-  by [Kristinn Guðjónsson](kristinn_guðjónsson.md), January 21,
-  2010
-- [Cashing in on the Google Chrome
-  Cache](https://linuxsleuthing.blogspot.com/2013/02/cashing-in-on-google-chrome-cache.html?m=1),
-  [John Lehr](john_lehr.md), February 24, 2013
-- [History Index files removed from Chrome
-  v30](https://dfir.blog/history-index-files-removed-from-chrome-v30/),
+- [Wikipedia article on Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+- [The Chromium Projects - User Data Directory](https://www.chromium.org/user-experience/user-data-directory/)
+- [Chrome Disk Cache](http://www.chromium.org/developers/design-documents/network-stack/disk-cache)
+- [Chrome support forum article random 10 character hostnames on startup](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en)
+- [Chrome User Agent strings](https://www.useragentstring.com/pages/Chrome/)
+- [Google Chrome Forensics](https://www.sans.org/digital-forensics-incident-response/),
+  by [Kristinn Guðjónsson](kristinn_gudjonsson.md), January 21, 2010
+- [Cashing in on the Google Chrome Cache](https://linuxsleuthing.blogspot.com/2013/02/cashing-in-on-google-chrome-cache.html?m=1),
+  John Lehr, February 24, 2013
+- [History Index files removed from Chrome v30](https://dfir.blog/history-index-files-removed-from-chrome-v30/),
   by Ryan Benson, October 2, 2013
-- [The Chrome history was cleared! Now
-  what?](https://dfir.blog/the-chrome-history-was-cleared-now-what-part-0/),
+- [The Chrome history was cleared! Now what?](https://dfir.blog/the-chrome-history-was-cleared-now-what-part-0/),
   by Ryan Benson, May 1, 2015
-- [Evolution of Chrome
-  Databases](https://dfir.blog/evolution-of-chrome-databases-reference-chart/),
+- [Evolution of Chrome Databases](https://dfir.blog/evolution-of-chrome-databases-reference-chart/),
   by Ryan Benson, November 12, 2013
-- [Chromebook
-  Forensics](https://www.dataforensics.org/google-chromebook-forensics/),
+- [Chromebook Forensics](https://www.dataforensics.org/google-chromebook-forensics/),
   by Dexter Morgan, April 30, 2015
-- [The Chromium Projects - Configuring Other
-  Preferences](https://www.chromium.org/administrators/configuring-other-preferences/)
+- [The Chromium Projects - Configuring Other Preferences](https://www.chromium.org/administrators/configuring-other-preferences/)
 
 ## Tools
 
@@ -494,4 +481,4 @@ On Windows
 ### Open Source
 
 - [Hindsight](https://github.com/obsidianforensics/hindsight)
-- [plaso](plaso.md)
+- [Plaso](plaso.md)

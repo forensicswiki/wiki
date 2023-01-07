@@ -3,8 +3,8 @@ tags:
   - Articles that need to be expanded
   - Mobile
 ---
-The **iPhone** is a smartphone made by [Apple Inc.](apple_inc..md) and sold
-with service through AT&T. It can be used to send/receive [email](email.md)
+The **iPhone** is a smartphone made by [Apple Inc.](apple_inc.md) and sold
+with service through AT&T. It can be used to send/receive email
 (see [IPhone Mail Header Format](iphone_mail_header_format.md), keep schedules,
 surf the web, and view videos from YouTube. A large number of forensic products
 can process iPhones, see Tools section.
@@ -33,7 +33,7 @@ Store does not allow in any application it distributes).
 - [iphone-dataprotection](https://code.google.com/archive/p/iphone-dataprotection);
   a set of tools that can image and decrypt an iPhone. The tools can
   even brute-force the iPhone's 4-digit numerical password.
-- [iOS Forensic Research](http://www.iosresearch.org). [Jonathan Zdziarski](jonathan_zdziarski.md) has released tools that will
+- [iOS Forensic Research](http://www.iosresearch.org). Jonathan Zdziarski has released tools that will
   image iPhones, iPads and iPod Touch. (law enforcement only).
 - [Katana Forensics Lantern](http://katanaforensics.com/products/)
 - [libimobiledevice](https://libimobiledevice.org/) is a library with
@@ -43,7 +43,7 @@ Store does not allow in any application it distributes).
   **libimobiledevice-utils**.
 - Logicube CellDEK
 - MacLock Pick
-- [Micro Systemation .XRY](.xry.md)
+- Micro Systemation .XRY
 - Mobile Sync Browser
 - [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) can detect and analyse many databases
   from iOS and iPhones and can directly ingest HFSX dd images.
@@ -66,10 +66,10 @@ Store does not allow in any application it distributes).
 - [Slashdot: Malware Could Grab Data From Stock iPhones](https://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rsshttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_source=feedburnerhttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_medium=feedhttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29)
 - [Apple iOS Privacy](http://seriot.ch/resources/talks_papers/iPhonePrivacy.pdf),
   [slides hash days presentation](http://seriot.ch/resources/talks_papers/ios_privacy_hashdays.pdf),
-  by [Nicolas Seriot](nicolas_seriot.md), in November 2010.
+  by Nicolas Seriot, in November 2010.
 - [Evolution of iOS Data Protection and iPhone Forensics: from iPhone OS to iOS 5](http://media.blackhat.com/bh-ad-11/Belenko/bh-ad-11-Belenko-iOS_Data_Protection.pdf),
-  by [Andrey Belenko](andrey_belenko.md) and [Dmitry Sklyarov](dmitry_sklyarov.md), 2011
+  by Andrey Belenko and Dmitry Sklyarov, 2011
 - [Forensic analysis of iPhone backups](http://www.exploit-db.com/wp-content/themes/exploit/docs/19767.pdf),
   by Satish B, 2012
 - [Forensic Analysis on iOS Devices](https://www.sans.org/white-papers/34092/),
-  by [Tim Proffitt](tim_proffitt.md), November 5, 2012
+  by Tim Proffitt, November 5, 2012

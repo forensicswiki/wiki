@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Systems
-  -  Linux
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - File Systems
+  - Linux
 ---
 The Extended File System (Ext) is a family of file systems consisting
 of: ext, ext2, ext3, ext4
@@ -29,18 +29,14 @@ the file system after an unclean shutdown.
 ### Ext2
 
 - [Wikipedia article on EXT2](https://en.wikipedia.org/wiki/Ext2)
-- [Layout of the EXT2
-  Filesystem](http://www.nongnu.org./ext2-doc/ext2.html)
-- [Linux Ext2fs Undeletion
-  mini-HOWTO](http://fedora.linuxsir.org/doc/ext2undelete/Ext2fs-Undeletion.html)
-- [Using ext2 on other
-  systems](http://blog.boreas.ro/2007/11/ext2-filesystem-for-linux-and-solaris.html)
+- [Layout of the EXT2 Filesystem](http://www.nongnu.org./ext2-doc/ext2.html)
+- [Linux Ext2fs Undeletion mini-HOWTO](http://fedora.linuxsir.org/doc/ext2undelete/Ext2fs-Undeletion.html)
+- [Using ext2 on other systems](http://blog.boreas.ro/2007/11/ext2-filesystem-for-linux-and-solaris.html)
 
 ### Ext3
 
 - [Wikipedia article on EXT3](https://en.wikipedia.org/wiki/Ext3)
-- [Why Recovering a Deleted Ext3 File Is Difficult (by Brian
-  Carrier)](http://linux.sys-con.com/node/117909)
+- [Why Recovering a Deleted Ext3 File Is Difficult (by Brian Carrier)](http://linux.sys-con.com/node/117909)
 
 ## Tools
 
@@ -48,7 +44,7 @@ Tools that can be used to perform recovery of data from an EXT2 file
 system
 
 - [The Sleuth Kit](the_sleuth_kit.md)
-- [R-Studio](r-studio.md)
+- R-Studio
 
 Data carving tools that support the ext2 file system:
 
@@ -56,5 +52,5 @@ Data carving tools that support the ext2 file system:
 - [Foremost](foremost.md)
 - [Scalpel](scalpel.md)
 
-<b>Note that it is unclear what is meant with "support" here this needs
-some elaboration.</b>
+**Note that it is unclear what is meant with "support" here this needs some
+elaboration.**

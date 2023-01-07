@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Database File Formats
+  - Database File Formats
+  - File Formats
 ---
 [Microsoft](microsoft.md) Exchange Server database uses
 Extensible Storage Engine (ESE) which is designed for single
@@ -93,45 +93,33 @@ such as:
 - Key Management service (KMS)
 - Instant Messaging
 - Windows (Vista) Mail
-- [Content Indexing/Windows (Desktop)
-  Search](windows_desktop_search.md)
+- [Content Indexing/Windows (Desktop) Search](windows_desktop_search.md)
 
 ## External Links
 
-- [Extensible Storage Engine (ESE) Database File (EDB)
-  format](https://github.com/libyal/libesedb/blob/master/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
+- [Extensible Storage Engine (ESE) Database File (EDB) format](https://github.com/libyal/libesedb/blob/master/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
   by the [libesedb project](libesedb.md)
-- [Wikipedia on Extensible Storage
-  Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
-- [Exchange .EDB File
-  Extension](https://www.whatisfileextension.com/edb/)
-- [Forensic examination of Windows Live Messenger 2009 Extensible
-  Storage
-  Engine](https://www.os3.nl/_media/2008-2009/students/willem_toorop/wlm2009_ese_fin.pdf),
-  by [Wouter van Dongen](wouter_van_dongen.md), [Willem
-  Toorop](willem_toorop.md), [Joeri
-  Blokhuis](joeri_blokhuis.md), May 2009
+- [Wikipedia on Extensible Storage Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
+- [Exchange .EDB File Extension](https://www.whatisfileextension.com/edb/)
+- [Forensic examination of Windows Live Messenger 2009 Extensible Storage Engine](https://www.os3.nl/_media/2008-2009/students/willem_toorop/wlm2009_ese_fin.pdf),
+  by Wouter van Dongen, Willem Toorop, Joeri Blokhuis, May 2009
 
 ### Tile Data Layer database
 
-- [Management of Start Menu and Tiles on Windows 10 and Server 2016,
-  part
-  \#2](https://james-rankin.com/articles/management-of-start-menu-and-tiles-on-windows-10-and-server-2016-part-2/),
+- [Management of Start Menu and Tiles on Windows 10 and Server 2016, part \#2](https://james-rankin.com/articles/management-of-start-menu-and-tiles-on-windows-10-and-server-2016-part-2/),
   by James Rankin, August 30, 2018
 
 ## Tools
 
 - [EsEDbViewer](https://github.com/woanware)
-- [ESE Database
-  Viewer](http://www.systoolsgroup.com/ese-database-viewer/)
+- [ESE Database Viewer](http://www.systoolsgroup.com/ese-database-viewer/)
 - [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
 - [libesedb](libesedb.md)
 - [Logpresso Mini](https://github.com/logpresso/community)
 
 Tools that are provided with the ESE engine:
 
-- **eseutil** (comes with [Microsoft Exchange
-  Server](microsoft_exchange_server.md) or **esentutl** (comes
+- **eseutil** (comes with [Microsoft Exchange Server](microsoft_exchange_server.md) or **esentutl** (comes
   with a [Windows NT](windows.md) variant which has the ESE
   engine)
 

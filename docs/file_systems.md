@@ -186,7 +186,7 @@ something that is used primarily in the Windows environment.
 
 <!-- -->
 
-[Red Book](red_book.md)
+Red Book
 The original definition of audio CDs was distributed with a red cover,
 hence the term "Red Book". This is not properly a file system as it does
 not define files, file names or any metadata. It is the definition by
@@ -194,7 +194,7 @@ which music discs are created.
 
 <!-- -->
 
-[Rock Ridge](rock_ridge.md)
+Rock Ridge
 Rock Ridge is a set of extensions based on the System Use Sharing
 Protocol or SUSP definition. It is a method by which POSIX file
 attributes, including very long file names, can be applied to optical
@@ -228,12 +228,12 @@ OracleFS
 
 AndrewFS
 
-[HDFS](hadoop_distributed_file_system.md)
+Hadoop Distributed File System (HDFS)
 The GoogleFS clone, built from a cluster of data nodes.
 
 <!-- -->
 
-[NFS](network_file_system.md)
+Network File System (NFS)
 Originally from Sun, it is the standard in UNIX-based networks.
 
 # Also see
@@ -247,5 +247,4 @@ Originally from Sun, it is the standard in UNIX-based networks.
 - <https://en.wikipedia.org/wiki/Comparison_of_file_systems>
 - <https://www.ctera.com/product/ctera-portal/>
 - <https://en.wikipedia.org/wiki/Next3>
-- [Overwriting Hard Drive Data: The Great Wiping
-  Controversy](http://www.springerlink.com/content/408263ql11460147/)
+- [Overwriting Hard Drive Data: The Great Wiping Controversy](http://www.springerlink.com/content/408263ql11460147/)

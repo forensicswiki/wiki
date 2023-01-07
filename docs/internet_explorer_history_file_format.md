@@ -214,13 +214,13 @@ deleted.
 * [Detailed analysis of index.dat file format](http://web.archive.org/web/20090824054415/http://www.foundstone.com/us/pdf/wp_index_dat.pdf),
   by Keith J. Jones, March 19, 2003
 * [The Meaning of LEAK records](https://forensicblog.org/the-meaning-of-leak-records/),
-  [Mike Murr](mike_murr.md), September 10, 2009
+  Mike Murr, September 10, 2009
 * [Microsoft Internet Explorer PrivacIE Entries](https://www.digital-detective.net/microsoft-internet-explorer-privacie-entries/),
   by Digital Detective, April 29, 2010
 * [The INDEX.DAT File Format](https://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/indexdat.htm?tx=20,78,83,84,88,89),
-  by [Geoff Chappell](geoff_chappell.md), September 13, 2010
+  by Geoff Chappell, September 13, 2010
 * [The Hash Algorithm for URL Caching](https://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
-  by [Geoff Chappell](geoff_chappell.md), September 20, 2010
+  by Geoff Chappell, September 20, 2010
 * [A Primer on Temporary Internet Files](http://blogs.msdn.com/b/ieinternals/archive/2011/03/19/wininet-temporary-internet-files-cache-and-explorer-folder-view.aspx),
   by Eric Law, March 19, 2011
 
@@ -232,4 +232,4 @@ deleted.
   not been updated since 2004 and is considered deprecated
 * [pasco2](https://sourceforge.net/projects/pasco2/)
 * [Windows 'index.dat' Parser (id)](http://www.tzworks.net/prototype_page.php?proto_id=6),
-  by [TZWorks LLC](tzworks_llc.md)
+  by TZWorks LLC

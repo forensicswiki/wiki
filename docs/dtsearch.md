@@ -1,10 +1,11 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Commercial Software
 ---
-dtSearch is a powerful set of tools for [indexing](indexing.md)
-and [searching](searching.md) through large amounts of text.
+dtSearch is a powerful set of tools for indexing and searching through large
+amounts of text.
 
 ## External Links
 
-- [Official website](https://www.dtsearch.com/)
+* [Official website](https://www.dtsearch.com/)

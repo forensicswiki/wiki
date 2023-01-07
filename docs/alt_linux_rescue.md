@@ -25,13 +25,13 @@ Build profile suitable for ALT Linux `mkimage` tool is included as
 
 ## Tools included
 
-Most of the usual rescue suspects should be there;
-biew, [chntpw](chntpw.md),
-[dc3dd](dc3dd.md)/[dcfldd](dcfldd.md),
-[foremost](foremost.md), [john](john.md),
+Most of the usual rescue suspects should be there, such as:
+biew, chntpw, [dc3dd](dc3dd.md)/[dcfldd](dcfldd.md),
+[foremost](foremost.md), john,
 [md5deep](md5deep.md), [nmap](nmap.md),
 [scalpel](scalpel.md), [The Sleuth Kit](the_sleuth_kit.md),
-[ssdeep](ssdeep.md), [wipefreespace](wipefreespace.md)
+[ssdeep](ssdeep.md), wipefreespace
+
 to name a few are available either; [libevt](libevt.md),
 [libevtx](libevtx.md), [liblnk](liblnk.md),
 [libpff](libpff.md), [libregf](libregf.md),
@@ -66,18 +66,11 @@ mount options (as of 20140423).
 
 Physical device write blocking hasn't been considered so far.
 
-## Credits
-
-- [User:.FUF](user:.fuf.md) for [Forensic Live CD
-  issues](forensic_live_cd_issues.md) page, sound advice and
-  early userspace patch
-
 ## External Links
 
 - [Project site](https://en.altlinux.org/Rescue) (also available in
   [Russian](https://www.altlinux.org/Rescue))
 - Part of [Regular Builds](https://en.altlinux.org/Regular) based on ALT
   Linux Sisyphus
-- Rescue image within [ALT Linux
-  Starterkits](https://en.altlinux.org/Starterkits) based on stable
+- Rescue image within [ALT Linux Starterkits](https://en.altlinux.org/Starterkits) based on stable
   branch has gained the same features as of 20140612

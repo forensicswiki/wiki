@@ -137,11 +137,11 @@ analysis.
 ### Anti-forensics
 
 - [Integrating Volatile Memory Forensics into the Digital Investigation Process](https://www.blackhat.com/presentations/bh-dc-07/Walters/Paper/bh-dc-07-Walters-WP.pdf),
-  by [AAron Walter](aaron_walter.md), [Nick Petroni](nick_petroni.md), Blackhat 2007
+  by [AAron Walters](aaron_walters.md), [Nick Petroni](nick_petroni.md), Blackhat 2007
 - [Forensic Analysis of Anti-Forensic Activities](http://blog.handlerdiaries.com/?p=363),
   by Jack Crook, January 29, 2014
 - [ADD: The Next Big Threat To Memory Forensics....Or Not](https://volatility-labs.blogspot.com/2014/02/add-next-big-threat-to-memory.html),
-  by [Michael Hale Ligh](michael_hale_ligh.md), February 3, 2014
+  by Michael Hale Ligh, February 3, 2014
 - [Anti-forensics and memory analysis](http://scudette.blogspot.com/2014/02/anti-forensics-and-memory-analysis.html),
   by [Michael Cohen](michael_cohen.md), February 7, 2014
 - [Memory Forensics: Still Aborted](http://takahiroharuyama.github.io/blog/2014/04/21/memory-forensics-still-aborted/),
@@ -182,4 +182,4 @@ analysis.
 - [MoVP for Volatility 2.2 and OMFW 2012 Wrap-Up](https://volatility-labs.blogspot.com/2012/10/movp-for-volatility-22-and-omfw-2012.html)
 - [Reverse Engineering Poison Ivy's Injected Code Fragments](https://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html)
 - [TrueCrypt Master Key Extraction And Volume Identification](https://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
-  by [Michael Hale Ligh](michael_hale_ligh.md), January 14, 2014
+  by Michael Hale Ligh, January 14, 2014

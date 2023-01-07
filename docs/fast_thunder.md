@@ -8,9 +8,8 @@ tags:
   -  iOS
   -  Open Source Software
 ---
-**Fast Thunder** (aka Xunlei) is a [download
-manager](download_manager.md) developed by Thunder Networking
-Technologies.
+**Fast Thunder** (aka Xunlei) is a download manager developed by Thunder
+Networking Technologies.
 
 ## SuperDownload database
 
@@ -65,5 +64,4 @@ To get an overview of the tasks:
 
 ## External Links
 
-- [Wikipedia article on Fast Thunder
-  (Xunlei)](https://en.wikipedia.org/wiki/Xunlei)
+- [Wikipedia article on Fast Thunder (Xunlei)](https://en.wikipedia.org/wiki/Xunlei)
