@@ -55,7 +55,7 @@ The OLECF is used to store:
 * [Compound Binary File Specification](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/WindowsCompoundBinaryFileFormatSpecification.pdf),
   by [Microsoft](microsoft.md). Be warned this file contains at least one
   error: the directory entry name length is a size in bytes not in characters.
-* [MS-CFB: Compound File Binary File Format](http://msdn.microsoft.com/en-us/library/dd942138.aspx),
+* [MS-CFB: Compound File Binary File Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 * [Microsoft Compound Document File Format](http://www.openoffice.org/sc/compdocfileformat.pdf),
   by OpenOffice.org
@@ -64,7 +64,7 @@ The OLECF is used to store:
 
 ### Office VBA
 
-* \[<https://msdn.microsoft.com/en-us/library/cc313094(v=office.12>).aspx
+* \[<https://learn.microsoft.com/en-us/>).aspx
   MS-OVBA: Office VBA File Format Structure\], by
   [Microsoft](microsoft.md)
 

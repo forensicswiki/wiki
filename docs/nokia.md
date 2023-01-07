@@ -25,11 +25,11 @@ phone boots.
 
 ## External links
 
-- [Official Nokia portal](http://www.nokia.com/)
+- [Official Nokia portal](https://www.nokia.com/)
 - [Complete Nokia Product History (PDF
   179kb)](http://www.gsmsolutionsltd.com/download/Nokia_Product_History.pdf)
 - [Yahoo! – Nokia Corporation Company
-  Profile](http://biz.yahoo.com/ic/41/41820.html)
+  Profile](https://finance.yahoo.com/)
 - [Nokia Organization Chart](http://www.cogmap.com/chart/nokia)
 - [Symbian Freeware for Nokia](http://www.symbianfreeware.org/)
 

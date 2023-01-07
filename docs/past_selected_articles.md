@@ -47,7 +47,7 @@ folder-names and timestamps.
 `location = {Rio de Janeiro, Brazil},`
 `pages = {631--642},`
 `numpages = {12},`
-`url = {`[`http://dl.acm.org/citation.cfm?id=2488388.2488444`](http://dl.acm.org/citation.cfm?id=2488388.2488444)`},`
+`url = {`[`https://dl.acm.org/doi/10.1145/2488388.2488444`](http://dl.acm.org/citation.cfm?id=2488388.2488444)`},`
 `acmid = {2488444},`
 `publisher = {International World Wide Web Conferences Steering Committee},`
 `address = {Republic and Canton of Geneva, Switzerland},`
@@ -216,8 +216,8 @@ discuss how these assumptions limit the impact of contributions.
 `location = {Chicago, Illinois, USA},`
 `pages = {109--120},`
 `numpages = {12},`
-`url = {`[`http://doi.acm.org/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
-`doi = {`[`http://doi.acm.org/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
+`url = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
 `acmid = {1866320},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
@@ -337,7 +337,7 @@ objectives such as malware analysis.</i>
 `title="Theory and practice of flash memory mobile forensics",`
 `year=2009,`
 `author="Salvatore Florillio",`
-` url="`[`http://ro.ecu.edu.au/adf/67/`](http://ro.ecu.edu.au/adf/67/)`",`
+` url="`[`https://ro.ecu.edu.au/adf/67/`](http://ro.ecu.edu.au/adf/67/)`",`
 `publisher="School of Computer and Information Science, Edith Cowan University, Perth, Western Australia",`
 `abstract="This paper is an introduction to flash memory forensics with a special focus on completeness of evidence acquired from mobile phones. Moving through academic papers and industrial documents will be introduced the particular nature of non-volatile memories present in nowadays mobile phones; how they really work and which challenges they pose to forensic investigators. Then will be presented an advanced test in which some brand new flash memories have been used to hide data in man-made bad blocks: the aim is to verify if forensic software tools are able to acquire data from such blocks, and to evaluate the possibility to hide data at analysts’ eyes."`
 
@@ -365,7 +365,7 @@ information and a growing bibliography. One of the first entries is:
 ` keywords = {erasing flash security ssd},`
 ` added-at = {2011-02-22T09:22:03.000+0100},`
 ` url={`[`https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
-` biburl = {`[`http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
+` biburl = {`[`https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
 
 } </bibtex>
 
@@ -380,28 +380,28 @@ Sleuth Kit and Open Source Digital Forensics Conference
 The slides from the first ever Sleuth Kit and Open Source Digital
 Forensics Conference are now available online:
 
-- <http://www.basistech.com/conference/2010/digital-forensics-agenda.html>
+- <https://www.osdfcon.org/>
 
 Highlights include:
 
-- [The Sleuth Kit Overview and Automated Scanning Features](http://www.basistech.com/conference/2010/osdf-slides/Carrier-SleuthKitOverview.pdf)
+- [The Sleuth Kit Overview and Automated Scanning Features](https://www.basistech.com/about/events/)
   (Brian Carrier)
-- [Faster Response with Sleuth Kit and Other Open Source Technologies](http://www.basistech.com/conference/2010/osdf-slides/Butler-Schiffer-Mandiant-Open-Source-Digital-Forensics.pdf)
+- [Faster Response with Sleuth Kit and Other Open Source Technologies](https://www.basistech.com/about/events/)
   (Jamie Butler and Jason Shiffer)
-- [PTK Forensics after Two years: Past, Present and Future](http://www.basistech.com/conference/2010/osdf-slides/Forte-PTK-Forensics.pdf)
+- [PTK Forensics after Two years: Past, Present and Future](https://www.basistech.com/about/events/)
   (Dario Forte)
-- [Mac Forensic Tools Using Sleuth Kit](http://www.basistech.com/conference/2010/osdf-slides/Joyce-Mac-Forensics-SleuthKit.pdf)
+- [Mac Forensic Tools Using Sleuth Kit](https://www.basistech.com/about/events/)
   (Rob Joyce)
-- [Commando Forensics: What Dongle?](http://www.basistech.com/conference/2010/osdf-slides/Altheide-Commando-Forensics.pdf)
+- [Commando Forensics: What Dongle?](https://www.basistech.com/about/events/)
   (Cory Altheide)
-- [AFF and AFF4: Where we are, where we are going, and why it matters to you.](http://www.basistech.com/conference/2010/osdf-slides/Garfinkel-AFFLIB.pdf)
+- [AFF and AFF4: Where we are, where we are going, and why it matters to you.](https://www.basistech.com/about/events/)
   (Simson Garfinkel)
-- [Timeline Creation using Open-Source Tools](http://www.basistech.com/conference/2010/osdf-slides/Carvey-Timelines.pdf)
+- [Timeline Creation using Open-Source Tools](https://www.basistech.com/about/events/)
   (Harlan Carvey)
 
 <small>MARCH-2010</small>
 
-[Internet geolocation: Evasion and counterevasion](http://portal.acm.org/citation.cfm?id=1592451.1592455)
+[Internet geolocation: Evasion and counterevasion](https://dl.acm.org/doi/10.1145/1592451.1592455)
 ACM Computing Surveys (CSUR), Volume 42 , Issue 1 (December 2009)
 
 > Internet geolocation technology aims to determine the physical
@@ -427,7 +427,7 @@ ACM Computing Surveys (CSUR), Volume 42 , Issue 1 (December 2009)
 > Tor anonymizing network.
 
 <small>FEB-2010</small> [The 'CSI Effect': Does It Really
-Exist?](http://www.ojp.usdoj.gov/nij/journals/259/csi-effect.htm), by
+Exist?](https://nij.ojp.gov/topics/articles/csi-effect-does-it-really-exist), by
 The Honorable Donald E. Shelton
 
 Crime and courtroom proceedings have long been fodder for film and
@@ -503,7 +503,7 @@ bug found in Casper scripts.
 
 <small>September-2009</small>
 
-**[Cisco IOS Forensics](http://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf)**
+**[Cisco IOS Forensics](https://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf)**
 
 "Cisco System’s routers running Cisco IOS are still the prevalent
 routing platform on the Internet and corporate networks. Their huge
@@ -606,7 +606,7 @@ on investment.
 
 <small>2009-Feb-08</small>
 
-[The impact of full disk encryption on digital forensics](http://portal.acm.org/citation.cfm?doid=1368506.1368519), ACM SIGOPS Operating Systems Review archive, Volume 42 , Issue 3 (April 2008) , Pages 93-98
+[The impact of full disk encryption on digital forensics](https://dl.acm.org/doi/10.1145/1368506.1368519), ACM SIGOPS Operating Systems Review archive, Volume 42 , Issue 3 (April 2008) , Pages 93-98
 The integration of strong encryption into operating systems is creating
 challenges for forensic examiners, potentially preventing us from
 recovering any digital evidence from a computer. Because strong
@@ -654,7 +654,7 @@ last 20 years or so of the field. Highly recommended.
 
 <small>2008-Oct-24</small>
 
-[Advanced JPEG carving](http://portal.acm.org/citation.cfm?id=1363239), Michael I. Cohen, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop
+[Advanced JPEG carving](https://dl.acm.org/doi/10.5555/1363217.1363239), Michael I. Cohen, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop
 Michael I. Cohen presents a fully automated carver which can carve
 fragmented JPEGs using typical fragmentation patterns. (Cohen argues the
 the DFRWS carving challenges do not represent typical fragmentation
@@ -726,14 +726,14 @@ network is well-understood before the IDS is deployed.
 
 <small>2008-July-20</small>
 
-The [International Journal of Digital Evidence](http://www.utica.edu/academic/institutes/ecii/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](http://www.utica.edu/academic/institutes/ecii/) at Utica College. Current and previous issues are available online.
+The [International Journal of Digital Evidence](https://ecci.utica.edu/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](http://www.utica.edu/academic/institutes/ecii/) at Utica College. Current and previous issues are available online.
 
 <!-- -->
 
 
 The current Fall 2007 issue has an interesting article [Mobile Phone
 Forensics Tool Testing: A Database Drive
-Approach](http://www.utica.edu/academic/institutes/ecii/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf)
+Approach](https://ecci.utica.edu/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf)
 by Baggili, Mislan, and Rogers at Purdue University. Given that phones
 are increasingly a primary source of forensic information in many cases,
 we need to be sure that the tools that are used for forensic analysis
@@ -745,7 +745,7 @@ on the market and the forensic tools lag far behind the market.
 Driven Approach", author="Ibrahim M. Baggili and Richard Mislan and
 Marcus Rogers", journal="International Journal of Digital Evidence",
 year=2007, volume=6, issue=2,
-url="<http://www.utica.edu/academic/institutes/ecii/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf>",
+url="<https://ecci.utica.edu/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf>",
 abstract="The Daubert process used in the admissibility of evidence
 contains major guidelines applied in assessing forensic procedures, two
 of which are testing and error rates. The Digital Forensic Science (DFS)
@@ -783,7 +783,7 @@ fragmented test-sets of DFRWS 2006 and 2007 show that the method can be
 effectively used in recovery of fragmented ﬁles. clear that recovery of
 fragmented ﬁles is a critical problem in forensics. ",
 
-` url="`[`http://www.digital-assembly.com/technology/research/pubs/dfrws2008.pdf`](http://www.digital-assembly.com/technology/research/pubs/dfrws2008.pdf)`"`
+` url="`[`https://www.werecoverdata.com`](http://www.digital-assembly.com/technology/research/pubs/dfrws2008.pdf)`"`
 
 } </bibtex>
 
@@ -831,7 +831,7 @@ capacities. CRC64 provides a good compromise between number of
 collisions and storage capacity required for practical implementations
 of sector-scanning forensic tools.",
 
-` url="`[`http://www.informaworld.com/10.1080/15567280802050436`](http://www.informaworld.com/10.1080/15567280802050436)`"`
+` url="`[`https://taylorandfrancis.com`](http://www.informaworld.com/10.1080/15567280802050436)`"`
 
 } </bibtex>
 

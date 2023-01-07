@@ -265,8 +265,8 @@ the public.
 :\* 3.0
 
 :\*\* Utilizes the
-[PPMII](http://en.wikipedia.org/wiki/Prediction_by_Partial_Matching) and
-[Lempel-Ziv (LZSS)](http://en.wikipedia.org/wiki/LZ77_and_LZ78)\]
+[PPMII](https://en.wikipedia.org/wiki/Prediction_by_Partial_Matching) and
+[Lempel-Ziv (LZSS)](https://en.wikipedia.org/wiki/LZ77_and_LZ78)\]
 algorithms.
 
 :\*\* Encryption now uses cipher block chaining (CBC) instead of
@@ -277,7 +277,7 @@ Advanced Encryption Standard (AES).
 ## Software
 
 This only way to create a RAR file is using the [Winrar
-software](http://www.rarlab.com/). There are several implementations of
+software](https://www.rarlab.com/). There are several implementations of
 the process to open a RAR file (commonly known as the "unrar" process).
 Some of them are:
 
@@ -289,7 +289,7 @@ unrarLib
 
 :\* Only works with RAR files up to version 2.0
 
-:\* [Information Link](http://www.unrarlib.org/)
+:\* [Information Link](https://www.unrarlib.org/)
 
 WinRAR
 
@@ -299,7 +299,7 @@ WinRAR
 
 :\* Works with all versions of RAR files
 
-:\* [WinRAR executable for Windows](http://www.rarlab.com/download.htm)
+:\* [WinRAR executable for Windows](https://www.rarlab.com/download.htm)
 
 UnRAR
 
@@ -314,7 +314,7 @@ opening RAR files
 :\* Additionally, implementations of UnRAR are available for a plethora
 of operating systems
 
-:\* [Download Link](http://www.rarlab.com/rar_add.htm)
+:\* [Download Link](https://www.rarlab.com/rar_add.htm)
 
 The Unarchiver
 
@@ -324,16 +324,16 @@ files
 :\* Very handy for dealing with multiple file types
 
 :\* [Source Code
-Download](http://code.google.com/p/theunarchiver/downloads/list)
+Download](https://code.google.com/archive/p/theunarchiver/downloads)
 
-:\* [Information Website](http://unarchiver.c3.cx/)
+:\* [Information Website](https://theunarchiver.com/)
 
 7-Zip
 
 :\* Utility made for Windows applications to open a multitude of files,
 including RAR files
 
-:\* [Download Link](http://www.7-zip.org/download.html)
+:\* [Download Link](https://7-zip.org/download.html)
 
 There is a lot more software to open RAR files, but have been omitted
 due to redundancy.

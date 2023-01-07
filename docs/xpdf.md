@@ -18,5 +18,5 @@ PDF files.
 
 ## External Links
 
-- [Wikipedia: Xpdf](http://en.wikipedia.org/wiki/Xpdf)
+- [Wikipedia: Xpdf](https://en.wikipedia.org/wiki/Xpdf)
 - [xpdf package download](http://www.foolabs.com/xpdf)

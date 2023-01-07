@@ -48,13 +48,13 @@ drives hit the marketplace.
 To format one of these drives properly for Windows XP, use the following
 utility (this applies only to drives from Western Digital):
 
-[Western Digital Advanced Drive Format Utility](http://www.wdc.com/en/products/advancedformat/)
+[Western Digital Advanced Drive Format Utility](https://www.westerndigital.com/products)
 
 # External Links
 
-* [A Good Overview at AnandTech](http://www.anandtech.com/storage/showdoc.aspx?i=3691)
+* [A Good Overview at AnandTech](https://www.anandtech.com/show/2888)
 * [PDF White Paper](http://www.wdc.com/wdproducts/library/WhitePapers/ENG/2579-771430.pdf)
-* [A Tom's Hardware Review of the WD Caviar Green Drives](http://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
+* [A Tom's Hardware Review of the WD Caviar Green Drives](https://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
 * [ATA 4 KiB sector issues (good summary from Linux ATA wiki)](https://ata.wiki.kernel.org/index.php/ATA_4_KiB_sector_issues)
-* [4K-sector drives and Linux (LWN.net)](http://lwn.net/Articles/377895/)
-* [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools ticket)](https://sourceforge.net/apps/trac/smartmontools/ticket/62)
+* [4K-sector drives and Linux (LWN.net)](https://lwn.net/Articles/377895/)
+* [WD6400AARS-00Y5B1 does not provide sector size info (smartmontools ticket)](https://sourceforge.net/projects/smartmontools/)

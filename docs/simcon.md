@@ -27,7 +27,7 @@ SIMCon is now Paraben's SIM Card Seizure
 
 ## Data Acquisition
 
-[SIMCon](http://www.simcon.no) is also capable of aquiring the following
+[SIMCon](https://www.simcon.no/) is also capable of aquiring the following
 data from a SIM Card:
 
 - Abbreviated Dialing Numbers (ADN),
@@ -59,7 +59,7 @@ data from a SIM Card:
 - Depersonalizatoin Keys
 
 All [GSM](gsm.md) cell phones today have a subscriber identity module (SIM) to
-identify the phone onto the network. [SIMCon](http://www.simcon.no) is an
+identify the phone onto the network. [SIMCon](https://www.simcon.no/) is an
 application to acquire all of the information from the SIM Card.
 
 The SIM Card provides secure storing of the key identifying a mobile phone
@@ -70,23 +70,23 @@ search for the LAI that it was in, rather than having to search all frequencies
 that the phone operates in. This saves time when trying to log on to the
 network. (Subscriber, 2006, para. 1)
 
-By using [SIMCon](http://www.simcon.no) and a smart card reader, all of
+By using [SIMCon](https://www.simcon.no/) and a smart card reader, all of
 the above information and more can be pulled off of the card without
 knowing the PIN or the PUK of the card. The PIN and the PUK are ways to
 keep the information on the card secure. They also can be used as a
 security feature on the phone, not allowing anyone to use a phone to
 access the SIM Card without knowing the codes.
 
-[SIMCon](http://www.simcon.no) is an application developed by Inside Out
+[SIMCon](https://www.simcon.no/) is an application developed by Inside Out
 Forensics in Norway. It is designed for use by the law enforcement
 community, and it can be obtained free of charge by emailing
-[SIMCon](http://www.simcon.no) and identifying the officers and unit.
+[SIMCon](https://www.simcon.no/) and identifying the officers and unit.
 However, for anyone outside the law enforcement community, it is not
 free.
 
 ## Review
 
-- [SIMCon](http://www.simcon.no) makes the acquisition of data very easy,
+- [SIMCon](https://www.simcon.no/) makes the acquisition of data very easy,
   simply inserting the SIM Card to the appropriate SIM Card reader, and clicking
   acquire is all that is needed to start analyzing evidence. After the
   acquisition of the data is complete SimCon will show the user a screen with
@@ -105,12 +105,12 @@ free.
 
 - SIMCon also comes with two more handy features that are key to an
   investigation and in a court of law. The first is
-  [SIMCon](http://www.simcon.no)s' feature that allows the printing of a
-  report. [SIMCon](http://www.simcon.no) will format and populate a
+  [SIMCon](https://www.simcon.no/)s' feature that allows the printing of a
+  report. [SIMCon](https://www.simcon.no/) will format and populate a
   report with the contents of the users’ choosing. This can list all the
   key pieces to an investigation and is an excellent piece of evidence
   to be used in a court of law. The second feature is the exportation of
-  the acquired data. [SIMCon](http://www.simcon.no) allows the
+  the acquired data. [SIMCon](https://www.simcon.no/) allows the
   exportation of all SMS messages and also of all contacts. When these
   exported files are opened in a program such as Microsoft Excel the
   data can be read, sorted, and analyzed in a format of the users
@@ -118,11 +118,11 @@ free.
 
 <!-- -->
 
-- When SMS messages are exported [SIMCon](http://www.simcon.no)
+- When SMS messages are exported [SIMCon](https://www.simcon.no/)
   automatically adds the following information about every message:
   file, item, status, service center, message type, number, time stamp,
   and text. When the contacts are exported
-  [SIMCon](http://www.simcon.no) automatically adds the following
+  [SIMCon](https://www.simcon.no/) automatically adds the following
   information about every contact: file, item, identifier, and number.
   For reference a report of an acquired SIM Card is enclosed as well as
   a document that tells what information is added into an exported file
@@ -130,7 +130,7 @@ free.
 
 <!-- -->
 
-- [SIMCon](http://www.simcon.no) is known to have issues while imaging
+- [SIMCon](https://www.simcon.no/) is known to have issues while imaging
   multiple cards in the same session of the program. These issues
   include the appearance of random characters in both the contacts list
   and in the [SMS](sms.md). These complications are outlined in
@@ -147,5 +147,5 @@ free.
 
 ## External Links
 
-* [Wikipedia: Subscriber Identity Module](http://en.wikipedia.org/wiki/Subscriber_Identity_Module)
-* [InsideOut Forensics](http://www.simcon.no/)
+* [Wikipedia: Subscriber Identity Module](https://en.wikipedia.org/wiki/Subscriber_Identity_Module)
+* [InsideOut Forensics](https://www.simcon.no//)

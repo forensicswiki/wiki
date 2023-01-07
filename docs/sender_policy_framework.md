@@ -18,5 +18,5 @@ well.
 ## External Links
 
 * [Sender Policy Framework - Project Overview](http://www.open-spf.org/)
-* [RFC 4408 - "Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1"](http://www.ietf.org/rfc/rfc4408.txt)
-* [Wikipedia entry on Sender Policy Framework](http://en.wikipedia.org/wiki/Sender_Policy_Framework)
+* [RFC 4408 - "Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1"](https://www.ietf.org/rfc/rfc4408.txt)
+* [Wikipedia entry on Sender Policy Framework](https://en.wikipedia.org/wiki/Sender_Policy_Framework)

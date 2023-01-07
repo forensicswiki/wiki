@@ -15,12 +15,12 @@ environment.
 
 ## External links
 
-- [MSDN](http://msdn.microsoft.com/en-us/library/dd861280.aspx)
+- [MSDN](https://learn.microsoft.com/en-us/previous-versions/msdn10/dd861280(v=msdn.10))
 - [Windows Imaging File Format (WIM) white
   paper](http://go.microsoft.com/fwlink/?LinkId=92227)
 
 ### Tools
 
-- \[<https://technet.microsoft.com/en-us/library/cc722145(v=ws.10>).aspx
+- \[<https://learn.microsoft.com/en-us/>).aspx
   ImageX\]
 

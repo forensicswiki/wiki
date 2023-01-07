@@ -74,10 +74,10 @@ Physical device write blocking hasn't been considered so far.
 
 ## External Links
 
-- [Project site](http://en.altlinux.org/Rescue) (also available in
-  [Russian](http://www.altlinux.org/Rescue))
-- Part of [Regular Builds](http://en.altlinux.org/Regular) based on ALT
+- [Project site](https://en.altlinux.org/Rescue) (also available in
+  [Russian](https://www.altlinux.org/Rescue))
+- Part of [Regular Builds](https://en.altlinux.org/Regular) based on ALT
   Linux Sisyphus
 - Rescue image within [ALT Linux
-  Starterkits](http://en.altlinux.org/Starterkits) based on stable
+  Starterkits](https://en.altlinux.org/Starterkits) based on stable
   branch has gained the same features as of 20140612

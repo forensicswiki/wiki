@@ -729,7 +729,7 @@ implementation:
 ## External Links
 
 - [Disk
-  Cache](http://www.chromium.org/developers/design-documents/network-stack/disk-cache),
+  Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
   The Chromium Projects
 - [Chrome Cache file
   format](https://e366e647f8637dd31e0a13f75e5469341a9ab0ee.googledrive.com/host/0B30H7z4S52FleW5vUHBnblJfcjg/Docs/Chrome%20Cache%20file%20format.pdf),

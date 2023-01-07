@@ -145,7 +145,7 @@ identifiable information is leaked if the DFXML file is distributed.
 ## Availability
 
 fiwalk can be downloaded from
-<http://digitalcorpora.org/downloads/fiwalk>
+<https://downloads.digitalcorpora.org/downloads/fiwalk>
 
 ## See Also
 

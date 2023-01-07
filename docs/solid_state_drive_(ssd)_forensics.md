@@ -88,8 +88,8 @@ drive, with the following features:
 `location = {Sierre, Switzerland},`
 `pages = {1579--1583},`
 `numpages = {5},`
-`url = {`[`http://doi.acm.org/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
-`doi = {`[`http://doi.acm.org/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
+`url = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
 `acmid = {1774426},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
@@ -118,7 +118,7 @@ drive, with the following features:
 `pages = {19:1--19:6},`
 `articleno = {19},`
 `numpages = {6},`
-`url = {`[`http://portal.acm.org/citation.cfm?id=1363217.1363243`](http://portal.acm.org/citation.cfm?id=1363217.1363243)`},`
+`url = {`[`https://dl.acm.org/doi/10.5555/1363217.1363243`](http://portal.acm.org/citation.cfm?id=1363217.1363243)`},`
 `acmid = {1363243},`
 `publisher = {ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering)},`
 `address = {ICST, Brussels, Belgium, Belgium},`
@@ -136,16 +136,16 @@ drive, with the following features:
 - [Milan Broz's blog - TRIM & dm-crypt ...  problems?](http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html)
 - [ATA Trim / Delete Notification Support in Windows 7](https://www.snia.org/sites/default/orig/sdc_archives/2009_presentations/thursday/NealChristiansen_ATA_TrimDeleteNotification_Windows7.pdf),
   Neal Christiansen, Storage Developer 2009
-- [Challenges of SSD Forensic Analysis](http://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis),
+- [Challenges of SSD Forensic Analysis](https://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis),
   Digital Assembly,
-- [Solid State Drives: Ruining Forensics](http://www.youtube.com/watch?v=WcO7xn0wJ2I), by Scott
+- [Solid State Drives: Ruining Forensics](https://www.youtube.com/watch?v=WcO7xn0wJ2I), by Scott
   Moulton, DEFCON 16 (2008)
 - Scott Moulton, Shmoocon 20008, SSD drives vs. Hard Drives.
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 1](http://www.youtube.com/watch?v=l4hbdZFWGog)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 2](http://www.youtube.com/watch?v=mglEnIPnzjo)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 3](http://www.youtube.com/watch?v=3psy_d-pyNg)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 4](http://www.youtube.com/watch?v=pKeZvhDd5c4)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 5](http://www.youtube.com/watch?v=9XMBdDypSO4)
-  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 6](http://www.youtube.com/watch?v=LY36SWbfQg0)
-- [Risky Business \#185](http://risky.biz/RB185), Peter Gutmann talks
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 1](https://www.youtube.com/watch?v=l4hbdZFWGog)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 2](https://www.youtube.com/watch?v=mglEnIPnzjo)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 3](https://www.youtube.com/watch?v=3psy_d-pyNg)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 4](https://www.youtube.com/watch?v=pKeZvhDd5c4)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 5](https://www.youtube.com/watch?v=9XMBdDypSO4)
+  - [SSD Flash Hard Drives - Shmoocon 2008 - Part 6](https://www.youtube.com/watch?v=LY36SWbfQg0)
+- [Risky Business \#185](https://risky.biz/RB185/), Peter Gutmann talks
   SSD forensics, March 4, 2011 (Radio Show)

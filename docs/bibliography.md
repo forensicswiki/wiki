@@ -17,7 +17,7 @@ tags:
   many issues that cause data loss / irretrievable data in the data
   recovery imaging process and how to overcome them.
 - [Drive-Independent Data Recovery: The Current
-  State-of-the-Art](http://www.actionfront.com/ts_whitepaper.asp),
+  State-of-the-Art](https://www.seagate.com/de/de/contacts/),
   ActionFront Data Recovery Labs, August 2005.
 - [Secure Deletion of Data from Magnetic and Solid-State
   Memory](recovering_overwritten_data.md#the-gutmann-paper),
@@ -127,7 +127,7 @@ Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
 
 - [A Model for When Disclosure Helps Security: What is Different About
   Computer and Network
-  Security?](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=531782),
+  Security?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=531782),
   Peter P. Swire, Moritz College of Law of the Ohio State University,
   Journal on Telecommunications and High Technology Law, Vol. 2, 2004.
 

@@ -24,5 +24,5 @@ that at least the following information is contained:
 
 ## External Links
 
-- [Wikipedia: AAC](http://en.wikipedia.org/wiki/Advanced_Audio_Coding)
+- [Wikipedia: AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)
 

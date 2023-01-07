@@ -51,7 +51,7 @@ victims can be easier if they stand out from the crowd.
 
 ### Kill Chain
 
-* [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf),
+* [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf),
   by Eric M. Hutchins, Michael J. Clopperty, Rohan M. Amin, March 2011
 * [Stalking the kill chain](http://www.emc.com/collateral/hardware/solution-overview/h11154-stalking-the-kill-chain-so.pdf),
   by RSA
@@ -88,7 +88,7 @@ victims can be easier if they stand out from the crowd.
 
 ### Individual Tools
 
-* [Sysinternals Suite](http://technet.microsoft.com/en-us/sysinternals/0e18b180-9b7a-4c49-8120-c47c5a693683.aspx)
+* [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
 
 ### Script Based Tools
 
@@ -106,6 +106,6 @@ victims can be easier if they stand out from the crowd.
 
 There are several books available that discuss incident response. For
 [Windows](windows.md), *[Windows Forensics and Incident
-Recovery](http://www.windows-ir.com/)* by [Harlan
+Recovery](https://www.windows-ir.com/)* by [Harlan
 Carvey](harlan_carvey.md) is an excellent introduction to
 possible scenarios and how to respond to them.

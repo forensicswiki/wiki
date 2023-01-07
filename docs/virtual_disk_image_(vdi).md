@@ -38,6 +38,6 @@ the same way:
 
 - [libvhdi](libvhdi.md)
 - [VDI Data
-  Recovery](http://www.bitrecover.com/vdi-recovery-software/) - Data
+  Recovery](https://www.bitrecover.com/vdi-recovery-software/) - Data
   recovery software for VDI (Virtual Disk Image) files.
 

@@ -7,5 +7,5 @@ tags:
 
 ## External Links
 
-* [Official website](http://www.sun.com)
-* [Wikipedia: Sun Microsystems](http://en.wikipedia.org/wiki/Sun_Microsystems)
+* [Official website](https://www.oracle.com/it-infrastructure/)
+* [Wikipedia: Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)

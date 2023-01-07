@@ -12,7 +12,7 @@ consent.
 
 ## See Also
 
-- [Wikipedia entry on spyware](http://en.wikipedia.org/wiki/Spyware)
+- [Wikipedia entry on spyware](https://en.wikipedia.org/wiki/Spyware)
 
 <!-- -->
 

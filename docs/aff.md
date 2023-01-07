@@ -15,7 +15,7 @@ found on [github](https://github.com/simsong/AFFLIBv3).
 [AFF4](aff4.md) builds upon many of the concepts developed in
 AFF. AFF4 was developed by [Michael Cohen](michael_cohen.md),
 Simson Garfinkel and Bradley Schatz. That version can be downloaded from
-[Google Code](https://code.google.com/p/aff4/).
+[Google Code](https://code.google.com/archive/p/aff4).
 
 **AFF3 and AFFLIBv3 have been depreciated and should not be used for new
 projects.**
@@ -104,5 +104,5 @@ encrypted images.
 
 ## External Links
 
-* [Basis Technology's AFF website](http://www.basistech.com/digital-forensics/aff.html)
-* [OSFMount - 3rd party tool for mounting AFF disk images with a drive letter](http://www.osforensics.com/tools/mount-disk-images.html)
+* [Basis Technology's AFF website](https://www.basistech.com/solutions/digital-forensics/)
+* [OSFMount - 3rd party tool for mounting AFF disk images with a drive letter](https://www.osforensics.com/tools/mount-disk-images.html)

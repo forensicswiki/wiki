@@ -118,7 +118,7 @@ There are many software solutions that can help the examiner to acquire
 the information from the SIM card. Several products include:
 
 * [3GForensics SIMIS](http://www.3gforensics.co.uk/)
-* Inside Out's [SIMCon](http://simcon.no/)
+* Inside Out's [SIMCon](https://www.simcon.no/)
 * SIM Content Controller
 * Paraben Forensics' [SIM Card Seizure](https://paraben-sticks.com/index.php/product/sim-card-seizure/)
 
@@ -252,8 +252,8 @@ of the Ki from the SIM card, and essentially SIM card duplication.
 ## External Links
 
 * [SIMCon](http://www.simcon.no/)
-* [Sector Forensics](http://www.sectorforensics.co.uk/sim-examination.shtml)
-* [IJDE Spring 2003 Volume 2, Issue 1](http://www.utica.edu/academic/institutes/ecii/ijde/articles.cfm?action=issue&id=5)
-  [Forensics and the GSM Mobile Telephone System](http://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
+* [Sector Forensics](https://www.sectorforensics.london/)
+* [IJDE Spring 2003 Volume 2, Issue 1](https://ecci.utica.edu/)
+  [Forensics and the GSM Mobile Telephone System](https://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
 * [Wikipedia: SIM card](https://en.wikipedia.org/wiki/SIM_card)
-* [Forensics and SIM cards: an Overview](http://www.utica.edu/academic/institutes/ecii/publications/articles/EFE3EDD5-0AD1-6086-28804D3C49D798A0.pdf)
+* [Forensics and SIM cards: an Overview](https://www.utica.edu/academic/institutes/ecii/publications/articles/EFE3EDD5-0AD1-6086-28804D3C49D798A0.pdf)

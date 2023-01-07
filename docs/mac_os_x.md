@@ -23,10 +23,10 @@ E.g. to print all of the firmware variables.
     nvram -p
 
 Additional boot arguments can be provided via the "boot-args" value
-[2](http://www.cnet.com/news/boot-argument-options-in-os-x/).
+[2](https://www.cnet.com/tech/computing/boot-argument-options-in-os-x/).
 
 Mac OS X extends EFI with a read-only HFS+ driver. According to
-[3](http://refit.sourceforge.net/info/boot_process.html) HFS+ volume
+[3](https://refit.sourceforge.net/info/boot_process.html) HFS+ volume
 header fields are used to point to a "blessed file" to be loaded as an
 EFI application. Though it is not clear which header field the source is
 referring to but likely related to the "bless" utility
@@ -138,7 +138,7 @@ Per user:
 ## Quarantine event database
 
 See
-[6](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
+[6](https://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
 
 Snow Leopard and earlier
 
@@ -156,7 +156,7 @@ This file is similar to the hibernation file on Windows.
 
     /private/var/vm/sleepimage
 
-Also see: [7](http://osxdaily.com/2010/10/11/sleepimage-mac/)
+Also see: [7](https://osxdaily.com/2010/10/11/sleepimage-mac/)
 
 ## Last shutdown logs
 
@@ -166,7 +166,7 @@ Also see: [7](http://osxdaily.com/2010/10/11/sleepimage-mac/)
 ## Package Files (.PKG)
 
 Package Files (.PKG) are XAR archives
-[8](http://en.wikipedia.org/wiki/Xar_(archiver)) that contain a [cpio
+[8](https://en.wikipedia.org/wiki/Xar_(archiver)) that contain a [cpio
 archive](cpio_archive.md) and metadata
 [9](http://s.sudre.free.fr/Stuff/Ivanhoe/FLAT.html).
 
@@ -247,16 +247,16 @@ Mac OS.
 
 ## External Links
 
-* [Official website](http://www.apple.com/macosx/)
-* [Wikipedia entry on OS X](http://en.wikipedia.org/wiki/OS_X)
+* [Official website](https://www.apple.com/macos/ventura/)
+* [Wikipedia entry on OS X](https://en.wikipedia.org/wiki/OS_X)
 * [Inside Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
   by Apple Computer, Inc., 1993
 * [What is Mac OS X?](http://osxbook.com/book/bonus/ancient/whatismacosx/whatismacosx.pdf),
   by Amit Singh, 1994
 * [Mac OS X Directory Services Integration including Active Directory](http://web.me.com/driley/iWeb/Previous_files/Directory_Services_Overview.pdf)
-* [NSKeyedArchiver files – what are they, and how can I use them?](http://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
-* [Command Line ALF on Mac OS X](http://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
-* [mac-security-tips](https://code.google.com/p/mac-security-tips/wiki/ALL_THE_TIPS)
+* [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
+* [Command Line ALF on Mac OS X](https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
+* [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
 * [Mac OS X Forensics](https://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-8.pdf),
   by Joaquin Moreno Garijo, March 4, 2015
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
@@ -281,29 +281,29 @@ Mac OS.
 
 ### EFI
 
-* [The Intel Mac boot process](http://refit.sourceforge.net/info/boot_process.html), by the
+* [The Intel Mac boot process](https://refit.sourceforge.net/info/boot_process.html), by the
   [rEFIt project](refit.md) - [Carving up EFI fat binaries](http://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/),
   by snare, February 24, 2012
 
 ### iCloud
 
-* [iCloud: iCloud security and privacy overview](http://support.apple.com/kb/HT4865?viewlocale=en_US&locale=en_US)
+* [iCloud: iCloud security and privacy overview](https://support.apple.com/en-us/HT202303)
 
 ### ColorSync
 
-* [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/mac/technotes/tn2035/_index.html)
+* [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/archive/technotes/tn2035/_index.html)
 * [Internet Archive: Managing Color With ColorSync](https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html)
-* [ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure](http://www.color.org/icc1v42.pdf),
+* [ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure](https://www.color.org/icc1v42.pdf),
   by International Color Consortium (ICC)
-* [ICC Profile Format Specification](http://www.color.org/icc32.pdf), by
+* [ICC Profile Format Specification](https://www.color.org/icc32.pdf), by
   International Color Consortium (ICC), November 20, 1995
-* [ICC profiles](http://www.color.org/profiles2.xalter)
-* [ICC_Profile Tags](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/ICC_Profile.html)
-* [Adobe XMP Developer Center](http://www.adobe.com/devnet/xmp.html)
+* [ICC profiles](https://www.color.org/profiles2.xalter)
+* [ICC_Profile Tags](https://exiftool.org/TagNames/ICC_Profile.html)
+* [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html)
 
 ### Quarantine event database
 
-* [Quarantine event database](http://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
+* [Quarantine event database](https://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
 
 ### Unified logging
 

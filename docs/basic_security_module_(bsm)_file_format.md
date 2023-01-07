@@ -11,7 +11,7 @@ various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
 
 ## External Links
 
-- [Wikipedia: OpenBSM](http://en.wikipedia.org/wiki/OpenBSM)
+- [Wikipedia: OpenBSM](https://en.wikipedia.org/wiki/OpenBSM)
 - [audit_bsm_token.c](http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/security/audit/audit_bsm_token.c?txt),
   Apple Open Source
 - [Solaris Basic Security Mode (BSM) Auditing](http://www.deer-run.com/~hal/sysadmin/SolarisBSMAuditing.html),
@@ -29,5 +29,5 @@ various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
 - [linuxbsm2](https://sourceforge.net/projects/linuxbsm2/), LinuxBSM-2;
   LinuxBSM-2 introduces auditing features in Linux kernel to achieve
   better security and keep an eye on system activities.
-- [linuxopenbsm](https://code.google.com/p/linuxopenbsm/), Linux Basic
+- [linuxopenbsm](https://code.google.com/archive/p/linuxopenbsm), Linux Basic
   Security Module

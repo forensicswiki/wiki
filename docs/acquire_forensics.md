@@ -17,7 +17,7 @@ forensics services.
 
 One of the best Software of to Recover Data from Corrupt SQLite Database
 file given by Acquire Forensics is \[SQLITE FORENSICS
-EXPLORER\]<http://www.acquireforensics.com/products/sqlite-forensic-explorer/>.
+EXPLORER\]<https://www.acquireforensics.com/products/sqlite-forensic-explorer/>.
 This Tool can turn the investigation and helps the professional expert
 to find any forged to the database file.
 

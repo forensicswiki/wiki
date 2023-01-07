@@ -4,7 +4,7 @@ tags:
 ---
 ## Overview
 
-[Dropbox](http://www.dropbox.com) is a service with dedicated applications
+[Dropbox](https://www.dropbox.com/) is a service with dedicated applications
 allowing people to share their files between multiple computers (including
 smartphones) and each other. It is thus similar in purpose to
 [Wuala](wuala.md), [SpiderOak](spideroak.md) and Box.com.
@@ -88,5 +88,5 @@ Japan, and the United Kingdom for eligible Dropbox business users
 - [Product site](https://www.dropbox.com/)
 - [Dropbox Forensics](https://www.forensicfocus.com/articles/dropbox-forensics/)
   by Frank McClain, July 24, 2011
-- [Decrypting More Dropbox Files: config.dbx](http://www.magnetforensics.com/decrypting-the-config-dbx-file/),
+- [Decrypting More Dropbox Files: config.dbx](https://www.magnetforensics.com/resources/),
   Magnet Forensics, November 20, 2013

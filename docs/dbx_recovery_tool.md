@@ -30,4 +30,4 @@ for any types of corruption issues and errors.
 
 ## External Links
 
-* [Official Website](https://sysinfotools.com/recovery/dbx-recovery.php)
+* [Official Website](https://www.sysinfotools.com/recovery/dbx-recovery.php)

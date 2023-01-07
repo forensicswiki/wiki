@@ -82,14 +82,14 @@ their information:
     administration or by a recognized operating agency (ROA) for the
     specific purpose of providing land mobile telecommunications
     services to the public.
-    [2](http://en.wikipedia.org/wiki/Public_land_mobile_network)
+    [2](https://en.wikipedia.org/wiki/Public_land_mobile_network)
 
 ### LAI
 
 - Location Area Identity
   - Each location area of a public land mobile network (PLMN) has its
     own unique identifier which is known as Location Area Identity
-    (LAI). [3](http://en.wikipedia.org/wiki/Location_Area_Identity)
+    (LAI). [3](https://en.wikipedia.org/wiki/Location_Area_Identity)
 
 ## Filesystem
 
@@ -120,16 +120,16 @@ alt="Ef_iccid.png" />
 #### EF_IMSI
 
 - International Mobile Subscriber Identity
-  (IMSI)[4](http://en.wikipedia.org/wiki/IMSI)
+  (IMSI)[4](https://en.wikipedia.org/wiki/IMSI)
 - 310 - 260 - 653235860
 - MCC - MNC - MSIN
-  - MCC[5](http://en.wikipedia.org/wiki/List_of_mobile_country_codes) (3
+  - MCC[5](https://en.wikipedia.org/wiki/List_of_mobile_country_codes) (3
     Digits)
     - Mobile Country Code
-  - MNC[6](http://en.wikipedia.org/wiki/Mobile_Network_Code) (2 Digits
+  - MNC[6](https://en.wikipedia.org/wiki/Mobile_Network_Code) (2 Digits
     EU / 3 Digits NA)
     - Mobile Network Code
-  - MSIN[7](http://en.wikipedia.org/wiki/MSIN) (Remaining Digits)
+  - MSIN[7](https://en.wikipedia.org/wiki/MSIN) (Remaining Digits)
     - Mobile Subscription Identification Number
     - Within the network's customer base
 

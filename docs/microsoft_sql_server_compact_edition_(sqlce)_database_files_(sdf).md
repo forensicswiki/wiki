@@ -13,4 +13,4 @@ extension and is used for (at least):
 
 ## External Links
 
-* [Wikipedia: SQL Server Compact](http://en.wikipedia.org/wiki/SQL_Server_Compact)
+* [Wikipedia: SQL Server Compact](https://en.wikipedia.org/wiki/SQL_Server_Compact)

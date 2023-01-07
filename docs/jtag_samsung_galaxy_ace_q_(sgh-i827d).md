@@ -15,7 +15,7 @@ disassembled, read via JTAG, and reassembled.
 
 What you need to dump the NAND:
 
-1.  A Octoplus Box [1](http://www.octoplusbox.com/)
+1.  A Octoplus Box [1](https://octoplusbox.com/)
 2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
     be available).
 3.  A DC Power supply capable of supplying 3.8V/1.83A output. The power

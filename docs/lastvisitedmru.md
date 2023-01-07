@@ -4,13 +4,13 @@ tags:
 ---
 The LastVisitedMRU Windows Registry key records recently used
 applications and the last path those applications used to open a file
-[1](http://computer-forensics.sans.org/blog/2010/04/02/openrunsavemru-lastvisitedmru).
+[1](https://www.sans.org/digital-forensics-incident-response/).
 It is used by the Windows operating system to store common paths used to
 open or save files and provide auto-complete services to the user within
 the Windows Common Dialog. The Common Dialog libraries can be used by
 any Windows application and Microsoft highly recommends that developers
 use them instead of creating novel user interface elements
-[2](http://msdn.microsoft.com/en-us/library/windows/desktop/aa511274.aspx).
+[2](https://learn.microsoft.com/en-us/).
 A wide variety of applications use the Common Dialog, including
 encryption products like TrueCrypt, media players, and document viewers.
 

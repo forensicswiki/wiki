@@ -31,7 +31,7 @@ The contents of a DBX file is dependent on the content CLSID.
 
 ## External Links
 
-* [Outlook Express Wikipedia](http://en.wikipedia.org/wiki/Outlook_Express)
+* [Outlook Express Wikipedia](https://en.wikipedia.org/wiki/Outlook_Express)
 * [Outlook Express dbx file format by Arne Schloh](http://oedbx.aroh.de/)
 * [Outlook Express Version 5.0 file format](http://www.fpns.net/willy/DBX-FMT.HTM)
 * [libdbx](https://sourceforge.net/projects/ol2mbox/), see FILE-FORMAT in

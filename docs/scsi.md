@@ -6,4 +6,4 @@ tags:
 ---
 # Other Information
 
-[Specifications of SCSI](http://www.t10.org/scsi-3.htm)
+[Specifications of SCSI](https://www.t10.org/scsi-3.htm)

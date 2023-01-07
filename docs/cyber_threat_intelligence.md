@@ -4,7 +4,7 @@ tags:
 ---
 Note that the term cyber is arguably misused in the context of "Cyber
 Threat Intelligence"
-[1](http://en.wikipedia.org/wiki/Internet-related_prefixes) and should
+[1](https://en.wikipedia.org/wiki/Internet-related_prefixes) and should
 be considered more as an equivalent for "Digital Threat Intelligence" or
 "Internet Threat Intelligence".
 
@@ -59,17 +59,17 @@ Cons:
 ## External Links
 
 - [Driving a Collectively Stronger Security Community with Microsoft
-  Interflow](http://blogs.technet.com/b/msrc/archive/2014/06/23/announcing-microsoft-interflow.aspx),
+  Interflow](https://learn.microsoft.com/en-us/archive/blogs/),
   by Jerry Bryant, June 23, 2014
 - [NIST Special Publication 800-150 (Draft) - Guide to Cyber Threat 6
   Information Sharing
-  (Draft)](http://csrc.nist.gov/publications/drafts/800-150/sp800_150_draft.pdf),
+  (Draft)](https://csrc.nist.gov/csrc/media/publications/sp/800-150/archive/2016-04-21/documents/sp800_150_draft.pdf),
   [NIST](nist.md)
 
 ### Feeds (or equivalent)
 
 - [IOC Bucket](https://www.iocbucket.com/)
-- [Cyber Campaigns](http://cybercampaigns.net/)
+- [Cyber Campaigns](http://www.cybercampaigns.net/)
 
 ### CAPEC
 
@@ -79,18 +79,18 @@ Cons:
 ### IODEF
 
 - [RFC 5070 - The Incident Object Description Exchange
-  Format](http://tools.ietf.org/html/rfc5070)
+  Format](https://www.rfc-editor.org/rfc/rfc5070)
 
 ### OpenIOC
 
-- [The OpenIOC framework](http://www.openioc.org/)
+- [The OpenIOC framework](https://fireeye.market)
 
 ### Stix/Cybox/MAEC
 
-- [Cyber Observable eXpression](http://cybox.mitre.org/)
-- [Structured Threat Information eXpression](https://stix.mitre.org/)
+- [Cyber Observable eXpression](https://cyboxproject.github.io)
+- [Structured Threat Information eXpression](https://stixproject.github.io)
 - [Malware Attribute Enumeration and Characterization
-  (MAEC)](http://maec.mitre.org/)
+  (MAEC)](https://maecproject.github.io)
 - [Standardizing Cyber Threat Intelligence Information with the
   Structured Threat Information eXpression
   (STIX™)](https://msm.mitre.org/docs/STIX-Whitepaper.pdf), by Sean

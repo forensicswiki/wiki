@@ -48,5 +48,5 @@ acquired harddisk images using QEMU, KVM, VirtualBox, VmWare or alike.
   installation using xmount and
   OpenGates](https://files.pinguin.lu/HOWTO-BootingAcquiredWindows.pdf).
 - [Xmount: When "Changing" the Evidence isn't so
-  Bad](http://linuxsleuthing.blogspot.ch/2013/03/xmount-when-changing-evidence-isnt-so.html),
+  Bad](https://linuxsleuthing.blogspot.com/2013/03/xmount-when-changing-evidence-isnt-so.html),
   by [John Lehr](john_lehr.md), March 21, 2013

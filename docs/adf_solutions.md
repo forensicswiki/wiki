@@ -20,10 +20,10 @@ security, and other government agencies worldwide.
 # ADF Products
 
 ADF offers [three main
-products](http://http://www.adfsolutions.com/products/): Triage-G2,
+products](http://https://www.adfsolutions.com//products/): Triage-G2,
 Triage-Examiner, and Triage-Responder.
 
-[Triage-G2](http://www.adfsolutions.com/products/triage-g2) is a media
+[Triage-G2](https://www.adfsolutions.com//products/triage-g2) is a media
 exploitation ([medex](medex.md) tool used by field operatives
 to extract intelligence from computers and peripheral devices. Triage-G2
 was specifically designed to be used by nontechnical operators and
@@ -33,7 +33,7 @@ deployment. The keys can be prepared in advance at the base or in the
 field by using one click to select mission-specific search criteria.
 Triage-G2 is used by several U.S. defense and intelligence agencies.
 
-[Triage-Examiner](http://www.adfsolutions.com/products/triage-examiner)
+[Triage-Examiner](https://www.adfsolutions.com//products/triage-examiner)
 is used by forensic examiners to scan suspect computers and prioritize
 the computers for full forensic examinations. Triage-Examiner is used by
 Law Enforcement agencies worldwide.
@@ -43,7 +43,7 @@ their laptops or forensic workstations to scan drive images, physical
 drives, DVDs, CDs, and other removable media that are connected to the
 workstation.
 
-[Triage-Responder](http://www.adfsolutions.com/products/triage-responder)is
+[Triage-Responder](https://www.adfsolutions.com//products/triage-responder)is
 designed for nontechnical law enforcement investigators in the field to
 scan suspect computers for evidence of a crime. This tool also uses
 lightweight USB deployment and provides detailed field reporting
@@ -145,7 +145,7 @@ Social media
 
 </H4>
 
-[Facebook](http://www.facebook.com/adfsolutions)
+[Facebook](https://www.facebook.com/adfsolutions)
 [Twitter](https://twitter.com/adfsolutions)
 [LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)
 [YouTube](http://www.youtube.com/user/ADFSolutionsInc)
@@ -156,13 +156,13 @@ Other Websites
 
 </H4>
 
-[ADF Solutions](http://www.adfsolutions.com)
-[Forensic Triage](http://www.forensictriage.com)
-[Media Exploitation](http://www.mediaexploitation.com)
+[ADF Solutions](https://www.adfsolutions.com/)
+[Forensic Triage](https://www.adfsolutions.com/free-trial-forensic-triage)
+[Media Exploitation](https://www.adfsolutions.com/free-trial-forensic-triage)
 
 # Contact
 
 ADF Solutions, Inc.
 7910 Woodmont Ave. Suite 260
 Bethesda, MD 20814
-<http://www.adfsolutions.com/>
+<https://www.adfsolutions.com//>

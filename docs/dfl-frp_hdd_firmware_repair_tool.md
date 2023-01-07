@@ -12,7 +12,7 @@ USB hardware design for all DFL firmware repair tools.
 ## External Links
 
 - [DFL-FRP HDD Firmware Repair
-  Tool](http://www.dolphindatalab.com/product/dfl-frp-hdd-firmware-repair-tool/)
+  Tool](https://www.dolphindatalab.com/product/dfl-frp-hdd-firmware-repair-tool/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

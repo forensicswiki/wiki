@@ -5,7 +5,7 @@ tags:
 ---
 The [Linux](linux.md) Logical Volume Manager, is commonly
 abbreviated to LVM. Although LVM can used for other [Logical Volume
-Management](http://en.wikipedia.org/wiki/Logical_Volume_Management)
+Management](https://en.wikipedia.org/wiki/Logical_Volume_Management)
 variants as well.
 
 Not all forensic tools have support for Linux Logical Volume Manager
@@ -100,12 +100,12 @@ To read-only loop-back mount an individual volume:
 ## External Links
 
 - [Wikipedia article on Logical Volume
-  Manager](http://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)
-- [LVM Howto](http://www.tldp.org/HOWTO/LVM-HOWTO/), by [The Linux
-  Documentation Project](http://www.tldp.org/)
+  Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)
+- [LVM Howto](https://tldp.org/HOWTO/LVM-HOWTO/), by [The Linux
+  Documentation Project](https://tldp.org/)
 - [LVM2 Resource Page](http://www.sourceware.org/lvm2/)
 - [The Linux Logical Volume
-  Manager](http://www.redhat.com/magazine/009jul05/features/lvm2/), by
+  Manager](https://opensource.com), by
   Heinz Mauelshagen and Matthew O'Keefe
 - [LVM
   cheatsheet](http://www.datadisk.co.uk/html_docs/redhat/rh_lvm.htm), by

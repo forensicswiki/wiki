@@ -59,7 +59,7 @@ worrying about the format.
 
 ### EtherApe
 
-[EtherApe](http://etherape.sourceforge.net/)is a free program built on
+[EtherApe](https://etherape.sourceforge.io/)is a free program built on
 the structure of Etherman. It is designed as a high level wide range
 network monitoring tool which provides a graphical display to the user
 illustrating packet information. Although EtherApe might be seen as a
@@ -88,8 +88,8 @@ Analysis](linux_memory_analysis.md).
 
 # External Links
 
-* <http://en.wikipedia.org/wiki/Linux>
-* <http://en.wikipedia.org/wiki/Android_(mobile_device_platform)>
+* <https://en.wikipedia.org/wiki/Linux>
+* <https://en.wikipedia.org/wiki/Android_(mobile_device_platform)>
 
 ## Activity tracking
 
@@ -98,9 +98,9 @@ Analysis](linux_memory_analysis.md).
 
 ## Control groups (cgroups)
 
-* [Wikipedia: Cgroups](http://en.wikipedia.org/wiki/Cgroups)
+* [Wikipedia: Cgroups](https://en.wikipedia.org/wiki/Cgroups)
 * [⁠Chapter 1. Introduction to Control Groups
-  (Cgroups)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Resource_Management_Guide/ch01.html)
+  (Cgroups)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)
 
 ## Initrd, Initramfs
 

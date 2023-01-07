@@ -19,8 +19,8 @@ Related EventLogs:
 
 ## External Links
 
-- [Wikipedia: User Account Control](http://en.wikipedia.org/wiki/User_Account_Control)
-- [Vista UAC: The Definitive Guide](http://www.codeproject.com/Articles/19165/Vista-UAC-The-Definitive-Guide),
+- [Wikipedia: User Account Control](https://en.wikipedia.org/wiki/User_Account_Control)
+- [Vista UAC: The Definitive Guide](https://www.codeproject.com/Articles/19165/Vista-UAC-The-Definitive-Guide),
   by Thomas Hruska, March 21, 2008
 - [The deal with LUAFV.SYS](http://blogs.msdn.com/b/alexcarp/archive/2009/06/25/the-deal-with-luafv-sys.aspx),
   by Alex Carp, June 25, 2009

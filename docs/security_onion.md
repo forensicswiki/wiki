@@ -13,13 +13,13 @@ mainly intended for IDS and NSM, it does provide a useful platform for
 performing forensics, as it comes with many forensics tools installed.
 
 The image can be downloaded at:
-<http://blog.securityonion.net/p/securityonion.html>
+<https://blog.securityonion.net/p/securityonion.html>
 
 ## List of Installed Tools
 
 The following is the list of tools included on the Security Onion
 distro, as listed at
-<https://code.google.com/p/security-onion/wiki/Tools>:
+<https://github.com/security-onion-solutions/security-onion>:
 
 - abcip
 - argus
@@ -91,5 +91,5 @@ usage of Security Onion:
 
 ## External Links
 
-- [Official Website](http://blog.securityonion.net/p/securityonion.html)
+- [Official Website](https://blog.securityonion.net/p/securityonion.html)
 

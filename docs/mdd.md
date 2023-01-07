@@ -38,7 +38,7 @@ utility does.
 - Make sure the WDK is installed, you need that for the signing.
 - Get the right cross certificate file, see [Cross-Certificates for
   Kernel Mode Code
-  Signing](http://msdn.microsoft.com/en-us/windows/hardware/gg487315)
+  Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
 - Convert the key you have to pfx, if its cert + key you want:
   - setup a secure spot to put the private key, this should not be on
     corp or unprotected at any time

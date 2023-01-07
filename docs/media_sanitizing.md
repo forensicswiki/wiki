@@ -21,7 +21,7 @@ overwrite multiple times is regarded as a myth by some who point out
 that this is only possible with extremly expensive laboratory equipment
 and that there is no software recovery technique which will recover data
 overwritten even once (if it is in fact overwritten). See [Joukov
-Papaxenopoulos & Zadok (2006)](http://doi.acm.org/10.1145/1179559.1179571)
+Papaxenopoulos & Zadok (2006)](https://dl.acm.org/doi/10.1145/1179559.1179571)
 on "Secure deletion myths, issues, and solutions"
 
 Detailed instructions on media sanitization have been published by
@@ -37,6 +37,6 @@ Detailed instructions on media sanitization have been published by
 
 * [NIST as Special Publication 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)
   Guidelines for Media Sanitization
-* [Joukov Papaxenopoulos & Zadok (2006)](http://doi.acm.org/10.1145/1179559.1179571)
+* [Joukov Papaxenopoulos & Zadok (2006)](https://dl.acm.org/doi/10.1145/1179559.1179571)
   Secure Deletion Myths, Issues, and Solutions (subscription is necessary for
   full text)

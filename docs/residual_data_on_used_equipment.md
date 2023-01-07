@@ -18,7 +18,7 @@ even on the street.
   Intelius.com and personal ID theft expert, buys an ATM machine for
   \$750 from a bar in Boston. The machine comes with more than 1000
   credit and ATM card numbers.
-  <http://www.theregister.co.uk/2009/11/18/second_hand_atm_fraud_risk/>
+  <https://www.theregister.com/2009/11/18/second_hand_atm_fraud_risk/>
 
 ## Memory Sticks
 
@@ -91,7 +91,7 @@ order.
   Pryor and US Representatives Marion Berry, Mike Ross and Vic Snyder.
   It also included talking points to guide the candidate as he called
   influential people whose support he sought," states an article
-  published in [The Register](http://www.theregister.co.uk/2007/08/30/governors_data_sold_on_ebay/).
+  published in [The Register](https://www.theregister.com/2007/08/30/governors_data_sold_on_ebay/).
 
 <!-- -->
 
@@ -146,7 +146,7 @@ order.
   "failed tests to verify data had been destroyed.''' The drives turn up
   in a dumpster with sensitive information regarding the Space Shuttle.
   [Reported By Dan Goodin in San Francisco, The Register, 8th December
-  2010](http://www.theregister.co.uk/2010/12/08/nasa_disk_wiping_failure/)
+  2010](https://www.theregister.com/2010/12/08/nasa_disk_wiping_failure/)
 
 <!-- -->
 
@@ -171,26 +171,26 @@ order.
 ## Cell Phones
 
 - [BlackBerry Reveals Bank's
-  Secrets](http://www.wired.com/techbiz/media/news/2003/08/60052),
+  Secrets](https://www.wired.com/2003/08/blackberry-reveals-banks-secrets/),
   Wired, August 8, 2005.
 - [Who has your old phone's
-  data](http://www.taipeitimes.com/News/feat/archives/2008/09/28/2003424400),
+  data](https://www.taipeitimes.com/News/feat/archives/2008/09/28/2003424400),
   Pete Warren, The Guardian, London, Sept. 28, 2008, page 13.
 - [McCain Campaign Sells Info-Loaded Blackberry to FOX 5
-  Reporter](http://www.myfoxdc.com/myfox/pages/News/Detail?contentId=8055902&version=1&locale=EN-US&layoutCode=TSTY&pageId=3.2.1),
+  Reporter](https://www.fox5dc.com),
   by Tisha Thompson and Rick Yarborough, FOX 5 Investigative Unit, 11
   December 2008. (See also
-  [2](http://www.theregister.co.uk/2008/12/12/mccain_blackberry/))
+  [2](https://www.theregister.com/2008/12/12/mccain_blackberry/))
 
 ## Cameras
 
 - [Camera sold on eBay contained MI6
-  files](http://www.telegraph.co.uk/news/uknews/3107003/Camera-sold-on-eBay-contained-MI6-files.html),
+  files](https://www.telegraph.co.uk/news/uknews/3107003/Camera-sold-on-eBay-contained-MI6-files.html),
   Jessica Salter, Telegraph, September 30, 2008.
 
 ## Network Equipment
 
-- [Council sells security hole on Ebay](http://www.pcpro.co.uk/news/227190/council-sells-security-hole-on-ebay.html),
+- [Council sells security hole on Ebay](https://subscribe.pcpro.co.uk),
   Matthew Sparkes, PC Pro, September 29, 2008 - Kirkless Council (UK)
   sells a Cisco [VPN](vpn.md) 3002 Concentrator on Ebay for 99
   pence. The device is purchased by Andrew Mason, a security consultant,
@@ -291,4 +291,4 @@ sourced from within France.
 
 * [Residual Data](residual_data.md)
 * [Residual Data in Document Files](residual_data_in_document_files.md)
-* [Privacy Rights Clearinghouse Chronology of Data Breaches](http://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=desc)
+* [Privacy Rights Clearinghouse Chronology of Data Breaches](https://privacyrights.org/data-breaches?order=field_breach_total_valuehttp://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=descsort=desc)

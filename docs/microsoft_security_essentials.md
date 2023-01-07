@@ -28,13 +28,13 @@ To build run:
 ## External Links
 
 - [Microsoft Security
-  Essentials](http://windows.microsoft.com/en-us/windows/security-essentials-download),
+  Essentials](https://support.microsoft.com/en-us/windows/what-is-microsoft-security-essentials-c25ad47a-7d15-8072-1438-b07dffcbbb20),
   by [Microsoft](microsoft.md)
 - [Endpoint
-  Protection](http://technet.microsoft.com/en-us/library/hh508836.aspx),
+  Protection](https://learn.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh508836(v=technet.10)?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 
 ### Quarantined files
 
 - [hardcoded key obtained from
-  mpengine.dll](https://github.com/brad-accuvant/cuckoo-modified/blob/00ad13c94cc7453c40ed6152d16009ca1c8ed6f2/lib/cuckoo/common/quarantine.py#L186)
+  mpengine.dll](https://github.com/brad-sp/cuckoo-modified/blob/00ad13c94cc7453c40ed6152d16009ca1c8ed6f2/lib/cuckoo/common/quarantine.py#L186)

@@ -117,7 +117,7 @@ The currently supported output modules (as of version 0.51 nightly build
 ## External Links
 
 * [log2timeline website](http://log2timeline.net)
-* [SANS GCFA Gold paper about the tool](http://www.sans.org/reading_room/whitepapers/logging/mastering-super-timeline-log2timeline_33438)
+* [SANS GCFA Gold paper about the tool](https://www.sans.org/white-papers/33438/)
 * [Digital Forensic SIFTing: SUPER Timeline Creation using log2timeline](https://www.sans.org/blog/digital-forensic-sifting-super-timeline-creation-using-log2timeline/)
   December 7, 2011, by Rob Lee
 * [Blog posts about the tool](http://blog.kiddaland.net/?s=log2timeline)

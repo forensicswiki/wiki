@@ -16,4 +16,4 @@ through purchase.
 ## External Links
 
 * [Official Website](http://www.systoolsgroup.com/)
-* [FREE MSG Viewer](http://www.freeviewer.org/msg/)
+* [FREE MSG Viewer](https://www.freeviewer.org/msg/)

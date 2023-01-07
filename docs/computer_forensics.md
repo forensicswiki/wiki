@@ -24,13 +24,13 @@ information about the past. The word forensic comes from the Latin
 forēnsis, meaning "of or before the forum." In modern use, the term
 forensics in the place of forensic science can be considered correct, as
 the term forensic is effectively a synonym for legal or related to
-courts. [1](http://en.wikipedia.org/wiki/Forensic_science).
+courts. [1](https://en.wikipedia.org/wiki/Forensic_science).
 
 Most legal systems apply a form of a legal burden of proof. A legal
 burden of proof is the imperative on a party in a trial to produce the
 evidence that will shift the conclusion away from the default position
 to one's own position.
-[2](http://en.wikipedia.org/wiki/Legal_burden_of_proof)
+[2](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
 
 ## Forensics examinations
 
@@ -69,10 +69,10 @@ forensics, though there is no official definition of this term.
 
 The definition closest to the meaning of the word within computer
 forensics is that of the word artifact within archaeology
-[3](http://en.wikipedia.org/wiki/Artifact_(archaeology)). The term
+[3](https://en.wikipedia.org/wiki/Artifact_(archaeology)). The term
 should not be confused with the word artifact used within software
 development
-[4](http://en.wikipedia.org/wiki/Artifact_(software_development)).
+[4](https://en.wikipedia.org/wiki/Artifact_(software_development)).
 
 If archaeology defines an artifact as:
 
@@ -95,13 +95,13 @@ without the forensic (legal) context.
 ## External Links
 
 - [Wikipedia: Computer
-  forensics](http://en.wikipedia.org/wiki/Computer_forensics)
+  forensics](https://en.wikipedia.org/wiki/Computer_forensics)
 - [Wikipedia: Forensic
-  science](http://en.wikipedia.org/wiki/Forensic_science)
+  science](https://en.wikipedia.org/wiki/Forensic_science)
 - [Wikipedia: Legal burden of
-  proof](http://en.wikipedia.org/wiki/Legal_burden_of_proof)
+  proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
 - [Computer Forensics: Digital Forensic Analysis
-  Methodology](http://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
+  Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
   from Computer Forensics issue: January 2008 Volume 56 Number 1
 - [Computer Forensics Part 2: Best
   Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
@@ -110,7 +110,7 @@ without the forensic (legal) context.
   Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
   cepogue, June 27, 2009
 - [When Computer Forensics Grows Up: Digital Forensics
-  Explained](http://online.maryville.edu/resources/mscs/infographics/digital-forensics/),
+  Explained](https://online.maryville.edu/blog/digital-forensics/),
   by Maryville University
 - [Validation and verification of computer forensic software tools -
   Searching

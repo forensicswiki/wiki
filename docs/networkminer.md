@@ -33,7 +33,7 @@ NetworkMiner can extract files and certificates transferred over the
 network by parsing a PCAP file or by sniffing traffic directly from the
 network. This is a neat function that can be used to extract and [save
 media
-files](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Save_media_files)
+files](https://sourceforge.net/projects/networkminer/)
 (such as audio or video files) which are streamed across a network.
 Supported protocols for file extraction are FTP, HTTP and SMB.
 
@@ -44,13 +44,13 @@ public.
 
 Another very useful feature is that the user can [search sniffed or
 stored data for
-keywords](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=Keyword_Search).
+keywords](https://sourceforge.net/projects/networkminer/).
 NetworkMiner allows the user to insert arbitrary string or byte-patterns
 that shall be searched for with the keyword search functionality.
 
 Version 0.84 (and newer) of NetworkMiner support [sniffing and parsing
 of WLAN (IEEE 802.11)
-traffic](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=WiFi_Sniffing).
+traffic](https://sourceforge.net/projects/networkminer/).
 NetworkMiner does however currently only support WiFi sniffing with
 AirPcap adapters.
 

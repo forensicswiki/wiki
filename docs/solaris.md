@@ -21,8 +21,8 @@ Operating System are:
 
 ## External Links
 
-* [Sun Solaris homepage](http://www.sun.com/solaris)
-* [Sun Blueprints - Using Computer Forensics When Investigating System Attacks](http://www.sun.com/blueprints/0405/819-2262.pdf)
+* [Sun Solaris homepage](https://www.oracle.com/it-infrastructure/)
+* [Sun Blueprints - Using Computer Forensics When Investigating System Attacks](https://www.oracle.com/it-infrastructure/)
 * [The OpenSolaris project](http://www.opensolaris.org)
-* [Solaris Internals - The UFS File System - specifications, on disk layout](http://www.phptr.com/content/images/0131482092/samplechapter/mcdougall_ch15.pdf)
+* [Solaris Internals - The UFS File System - specifications, on disk layout](https://www.savvas.com/)
 * [Solaris Internals - Getting to know the Solaris filesystems](http://www.solarisinternals.com/si/reading/sunworldonline/swol-05-1999/swol-05-filesystem.html)

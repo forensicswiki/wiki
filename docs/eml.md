@@ -51,7 +51,7 @@ built-in Mail application does not support EML.
 
 ## Tools
 
-- [Free EML Viewer](http://www.bitrecover.com/free/eml-viewer/)
+- [Free EML Viewer](https://www.bitrecover.com/free/eml-viewer/)
 - [Aid4Mail](aid4mail.md)
 - Apple Mail
 - Emailchemy

@@ -13,7 +13,7 @@ date or time of day. This differs from the
 which preloads data into memory without analyzing usage patterns.
 
 From
-\[<http://msdn.microsoft.com/en-us/library/windows/hardware/dn653317(v=vs.85>).aspx\]:
+\[<https://learn.microsoft.com/en-us/>).aspx\]:
 SuperFetch prioritizes the following kinds of pages to remain in memory:
 
 - Pages of applications that are used most frequently overall.
@@ -93,7 +93,7 @@ feature can be configured by changing the [Registry](windows_registry.md) value:
 A value of zero disables SuperFetch, one enables it for booting only,
 two for applications, and three for both applications and boot. This
 setting can also be changed using the Services console, `services.msc`
-[1](http://tiredblogger.wordpress.com/2007/03/27/superfetch-not-so-super-for-gaming/).
+[1](https://tiredblogger.wordpress.com/2007/03/27/superfetch-not-so-super-for-gaming/).
 
 ## File Formats
 
@@ -101,7 +101,7 @@ Data for SuperFetch is gathered by the
 `%SystemRoot%\System32\Sysmain.dll`, part of the Service Host process,
 `%SystemRoot%\System32\Svchost.exe`, and stored in a series of files in
 the `%SystemRoot%\Prefetch` directory
-[2](http://www.microsoft.com/technet/technetmag/issues/2007/03/VistaKernel/).
+[2](https://learn.microsoft.com/en-us/).
 These files appear to start with the prefix `Ag` and have a `.db`
 extension. Note that there are likely more SuperFetch database files
 named differently, presumably all using the .db extension.
@@ -109,13 +109,13 @@ named differently, presumably all using the .db extension.
 The format of the SuperFetch database files is not fully known, there is
 available unofficial partial specification
 [3](http://blog.rewolf.pl/blog/?p=214) and open source (GPL) dumper for
-.db files [4](http://code.google.com/p/rewolf-superfetch-dumper/). For
+.db files [4](https://github.com/rwfpl/rewolf-superfetch-dumper). For
 more information see [SuperFetch
 Format](windows_superfetch_format.md).
 
 The SuperFetch feature is seeded with some basic usage patterns when the
 operating system is installed
-[5](http://channel9.msdn.com/showpost.aspx?postid=242429).
+[5](https://learn.microsoft.com/en-us/shows/).
 
 The SuperFetch service is managed by the File Information FS MiniFilter
 service. It appears that most of the SuperFetch database files are
@@ -132,14 +132,14 @@ written when the service starts.
 
 ## External Links
 
-* [Inside the Windows Vista Kernel: Part 2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
+* [Inside the Windows Vista Kernel: Part 2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),
   by [Mark Russinovich](mark_russinovich.md), March 2007
 * [Performance Testing Guide for Windows](http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/Win7Perf.docx),
   by [Microsoft](microsoft.md), August 18, 2009 
-* [Performance Scenarios](http://msdn.microsoft.com/en-us/library/windows/hardware/hh162965.aspx),
+* [Performance Scenarios](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-8.1-and-8/hh162965(v=win.10)?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md), October 20, 2013
-* [Wikipedia: Windows Vista I/O technologies - SuperFetch](http://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch)
-* [Channel 9 Interview with Michael Fortin of Microsoft on SuperFetch](http://channel9.msdn.com/showpost.aspx?postid=242429)
+* [Wikipedia: Windows Vista I/O technologies - SuperFetch](https://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch)
+* [Channel 9 Interview with Michael Fortin of Microsoft on SuperFetch](https://learn.microsoft.com/en-us/shows/)
 * [Microsoft Predicts The Future With Vista's SuperFetch](http://www.informationweek.com/news/showArticle.jhtml?articleID=196902178)
   from Information Week
 
@@ -147,5 +147,5 @@ written when the service starts.
 
 ### Open Source
 
-* [rewolf-superfetch-dumper](https://code.google.com/p/rewolf-superfetch-dumper/)
+* [rewolf-superfetch-dumper](https://github.com/rwfpl/rewolf-superfetch-dumper)
 * [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)

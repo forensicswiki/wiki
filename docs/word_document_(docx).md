@@ -39,7 +39,7 @@ ISO/IEC 29500:2008. Microsoft intended to use the OOXML standard for its
 Office suite. However, Office does not support the standard that the ISO
 approved, it only supports the standard that was originally rejected by
 the
-ISO[1](http://arstechnica.com/microsoft/news/2010/04/iso-ooxml-convener-microsofts-format-heading-for-failure.ars).
+ISO[1](https://arstechnica.com/information-technology/2010/04/iso-ooxml-convener-microsofts-format-heading-for-failure/).
 As of Office 2010, Microsoft has still not brought its software into
 compliance with the standard.
 

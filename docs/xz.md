@@ -12,6 +12,6 @@ tags:
 
 ## External Links
 
-- [The .xz File Format](http://tukaani.org/xz/xz-file-format.txt),
+- [The .xz File Format](https://tukaani.org/xz/xz-file-format.txt),
   2009-08-27
 

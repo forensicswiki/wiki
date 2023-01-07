@@ -39,5 +39,5 @@ from the [NSRL](national_software_reference_library.md),
 
 ## External Links
 
-* [Guidance Software](http://www.guidancesoftware.com)
+* [Guidance Software](https://www.opentext.com/products/security-cloud)
 * [Breaking Encase with FILE0 and Winhex](https://web.archive.org/web/20070310192503/http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)

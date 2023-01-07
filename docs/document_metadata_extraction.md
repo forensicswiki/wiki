@@ -33,12 +33,12 @@ The tool can visualize pictures embedded in a document.
 <!-- -->
 
 [word2x](word2x.md)
-<http://word2x.sourceforge.net/>
+<https://word2x.sourceforge.net/>
 
 <!-- -->
 
 [wvWare](wvware.md)
-<http://wvware.sourceforge.net/>
+<https://wvware.sourceforge.net/>
 
 Extracts metadata from various [Microsoft Word](microsoft_office.md) (doc)
 files. Can also convert doc files to other formats such as HTML or plain text.
@@ -53,7 +53,7 @@ Originally developed by Stellant, supports hundreds of file types.
 <!-- -->
 
 [FI Tools](fi_tools.md)
-<http://forensicinnovations.com/>
+<https://www.fid3.com/>
 
 More than 100 file types.
 
@@ -62,14 +62,14 @@ More than 100 file types.
 StickyNotes Parser
 
 Windows 7 StickyNotes follow the [MS Compound Document binary
-format](http://msdn.microsoft.com/en-us/library/dd942138%28v=prot.13%29.aspx);
+format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b?redirectedfrom=MSDN);
 the StickyNotes Parser extracts metadata (time stamps) from the OLE
 format, including the text content (not the RTF contents) of the notes
 themselves. Sn.exe also extracts the modified time of the Root Entry to
 the Compound Document; all times are displayed in UTC format
 
 
-<http://code.google.com/p/winforensicaanalysis/downloads/list>
+<https://code.google.com/archive/p/winforensicaanalysis/downloads>
 
 # PDF Files
 
@@ -83,7 +83,7 @@ the tool can visualize them all right in its user interface.
 <!-- -->
 
 [xpdf](xpdf.md)
-<http://www.foolabs.com/xpdf/>
+<http://www.xpdfreader.com/>
 
 [pdfinfo](pdfinfo.md) (part of the [xpdf](xpdf.md)
 package) displays some metadata of [PDF](pdf.md) files.
@@ -105,7 +105,7 @@ Cache as well as carve deleted thumbnails.
 <!-- -->
 
 [Exiftool](exiftool.md)
-<http://www.sno.phy.queensu.ca/~phil/exiftool/>
+<https://exiftool.org/>
 
 Free, cross-platform tool to extract metadata from many different file
 formats. Also supports writing
@@ -121,7 +121,7 @@ Displays or modifies [Exif](exif.md) data in
 <!-- -->
 
 [vinetto](vinetto.md)
-<http://vinetto.sourceforge.net/>
+<https://vinetto.sourceforge.net/>
 
 Examines [Thumbs.db](thumbs.db.md) files.
 
@@ -158,7 +158,7 @@ distributions.
 <!-- -->
 
 exifprobe
-<http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html>
+<https://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html>
 
 Open source utility that reads [exif](exif.md) data in
 [JPEG](jpeg.md) and some "RAW" image formats. Found in many
@@ -167,7 +167,7 @@ Debian based distributions.
 <!-- -->
 
 Exiv2
-<http://www.exiv2.org>
+<https://exiv2.org/>
 
 Open source C++ library and command line tool for reading and writing
 metadata in various image formats. Found in almost every GNU/Linux
@@ -199,7 +199,7 @@ programs fail, but they generally provide less detailed information.
 and converts documents in Microsoft Outlook, Web Access email, tablets
 and smartphones, as well as desktop-based documents."
 
-<http://www.litera.com/Products/Metadact-e.aspx>
+<https://www.litera.com/products/legal/>
 
 <!-- -->
 
@@ -209,7 +209,7 @@ extract preservation metadata from a range of file formats like PDF
 documents, image files, sound files Microsoft office documents, and many
 others."
 
-<http://meta-extractor.sourceforge.net/>
+<https://meta-extractor.sourceforge.net/>
 
 <!-- -->
 
@@ -229,7 +229,7 @@ The UNIX **file** program can extract some metadata
 <!-- -->
 
 [GNU libextractor](gnu_libextractor.md)
-<http://gnunet.org/libextractor/> The libextractor library is a plugable
+<https://www.gnunet.org/en/> The libextractor library is a plugable
 system for extracting metadata
 
 <!-- -->
@@ -253,7 +253,7 @@ completely customize the visual look of the output. Filter on file name,
 date, size or attributes can be applied so it is possible to limit the
 files listed.
 
-<http://www.krksoft.com>
+<https://www.krksoft.com/>
 
 <!-- -->
 
@@ -270,8 +270,8 @@ from XMP to allow identification of uuids and ancestor uuids. Tika can
 run in batch mode from input directory to output directory, and we
 recommend the RecursiveParserWrapper (-J -t options in the commandline
 app or /rmeta endpoint in
-[tika-server](https://wiki.apache.org/tika/TikaJAXRS)) to capture
+[tika-server](https://cwiki.apache.org/confluence/display/tika/TikaJAXRS)) to capture
 metadata from embedded documents.
 
-<http://tika.apache.org/>
+<https://tika.apache.org/>
 

@@ -29,7 +29,7 @@ complexity of creating a network file share between Windows and Linux, I
 have included instructions below (these instructions could easily be
 adapted to create a network file share between two Linux machines,
 assuming that the victim machine was already running Samba (see
-[here](http://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/)
+[here](https://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/)
 for additional instructions) (be wary whenever relying on the victim
 machine's potentially-compromised built-in programs/services for your
 forensic investigation)):

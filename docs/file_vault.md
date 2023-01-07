@@ -27,14 +27,14 @@ In Mac OS X 10.7 (Lion) a full volume encryption variant was introduced.
 
 ## External Links
 
-* [Design Principles and Patterns for Computer Systems That Are Simultaneously Secure and Usable](http://www.simson.net/thesis),
+* [Design Principles and Patterns for Computer Systems That Are Simultaneously Secure and Usable](https://simson.net/thesis/),
   by [Simson Garfinkel](simson_garfinkel.md), May 2005. PhD thesis
   that discusses of File Vault's usability shortcomings.
-* [Unlocking FileVault](http://events.ccc.de/congress/2006/Fahrplan/track/Hacking/1642.en.html)
+* [Unlocking FileVault](https://fahrplan.events.ccc.de/congress/2006/Fahrplan/track/Hacking/1642.en.html)
   talk at 23rd Chaos Communication Congress (23c3), by Jacob Appelbaum and
   Ralf-Philipp Weinmann, December 2006
-  * [slides](http://events.ccc.de/congress/2006/Fahrplan/attachments/1244-23C3VileFault.pdf)
+  * [slides](https://fahrplan.events.ccc.de/congress/2006/Fahrplan/attachments/1244-23C3VileFault.pdf)
 
 ## Tools
 
-* [VileFault](https://code.google.com/p/vilefault)
+* [VileFault](https://code.google.com/archive/p/vilefault)

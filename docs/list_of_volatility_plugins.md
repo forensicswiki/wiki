@@ -11,14 +11,14 @@ on the wiki, but all on external sites. **The latest release of the
 [Volatility Framework](volatility_framework.md) is 2.2**. These
 plugins are **not compatible with the latest version** of the framework
 and information about compatible plugins can be found on the
-[wiki](http://code.google.com/p/volatility/wiki/VolatilityIntroduction?tm=6)
-on the [project Googlecode site](http://code.google.com/p/volatility).
+[wiki](https://code.google.com/archive/p/volatility/wiki/VolatilityIntroduction?tm=6)
+on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 
 ## Command Shell
 
-- [volshell](http://moyix.blogspot.com/2008/08/indroducing-volshell.html)
+- [volshell](https://moyix.blogspot.com/2008/08/indroducing-volshell.html)
   (By
-  [Moyix](http://moyix.blogspot.com/2008/08/indroducing-volshell.html))-
+  [Moyix](https://moyix.blogspot.com/2008/08/indroducing-volshell.html))-
   Creates a python shell can be used with the framework.
 
 ## Malware Detection
@@ -65,35 +65,35 @@ on the [project Googlecode site](http://code.google.com/p/volatility).
 - [cryptoscan](http://jessekornblum.com/tools/volatility/cryptoscan.py)
   (By [Jesse Kornblum](jesse_kornblum.md) - Finds
   [TrueCrypt](truecrypt.md) passphrases
-- [moddump](http://moyix.blogspot.com/2008/10/plugin-post-moddump.html)
+- [moddump](https://moyix.blogspot.com/2008/10/plugin-post-moddump.html)
   (By
-  [Moyix](http://moyix.blogspot.com/2008/10/plugin-post-moddump.html)) -
+  [Moyix](https://moyix.blogspot.com/2008/10/plugin-post-moddump.html)) -
   Dump out a kernel module (aka driver)
 - [Registry
-  tools](http://www.cc.gatech.edu/%7Ebrendan/volatility/dl/volreg-0.6.tar.gz)
+  tools](https://sites.cc.gatech.edu/~brendan/volatility/dl/volreg-0.6.tar.gz)
   (By
-  [Moyix](http://moyix.blogspot.com/2009/01/memory-registry-tools.html)) -
+  [Moyix](https://moyix.blogspot.com/2009/01/memory-registry-tools.html)) -
   A suite of plugins for accessing data from the registry, including
   password hashes, LSA secrets, and arbitrary registry keys.
 - [Modified Regripper & Glue
-  Code](http://www.cc.gatech.edu/%7Ebrendan/volatility/dl/volrip-0.1.tar.gz)
+  Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
   (By
-  [Moyix](http://moyix.blogspot.com/2009/03/regripper-and-volatility-prototype.html)) -
+  [Moyix](https://moyix.blogspot.com/2009/03/regripper-and-volatility-prototype.html)) -
   Code to run a modified RegRipper against the registry hives embedded
   in a memory dump. Note that due to a dependency on Inline::Python,
   this only works on Linux.
-- [getsids](http://moyix.blogspot.com/2008/08/linking-processes-to-users.html)
+- [getsids](https://moyix.blogspot.com/2008/08/linking-processes-to-users.html)
   (By
-  [Moyix](http://moyix.blogspot.com/2008/08/linking-processes-to-users.html)) -
+  [Moyix](https://moyix.blogspot.com/2008/08/linking-processes-to-users.html)) -
   Get information about what user (SID) started a process.
-- [ssdt](http://moyix.blogspot.com/2008/08/auditing-system-call-table.html)
+- [ssdt](https://moyix.blogspot.com/2008/08/auditing-system-call-table.html)
   (By
-  [Moyix](http://moyix.blogspot.com/2008/08/auditing-system-call-table.html)) -
+  [Moyix](https://moyix.blogspot.com/2008/08/auditing-system-call-table.html)) -
   List entries in the system call table. Can be used to detect certain
   rootkits that hook system calls by replacing entries in this table.
 - [threadqueues](http://kurtz.cs.wesleyan.edu/%7Ebdolangavitt/memory/threadqueues.py)
   (By
-  [Moyix](http://moyix.blogspot.com/2008/09/window-messages-as-forensic-resource.html)) -
+  [Moyix](https://moyix.blogspot.com/2008/09/window-messages-as-forensic-resource.html)) -
   Enumerates window messages pending for each thread on the system.
   Window messages are the mechanism used to send things like button
   presses, mouse clicks, and other events to GUI programs.

@@ -29,7 +29,7 @@ listening port on your machine, the use of Netcat can present a
 significant security risk if used improperly. Be sure not to leave
 Netcat running when not in use, and avoid using switches (such as -e)
 that allow commands received by Netcat to be run on your machine. See
-[here](http://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf)
+[here](https://www.sans.org/security-resources/)
 for a list of Netcat switches.
 
 ## Usage Instructions
@@ -68,12 +68,12 @@ machine (e,g., "date", "ifconfig", etc.). Replace "<forensicWS IP>" with
 the IP address of your forensic workstation (this can be identified by
 running the "ifconfig" command on UNIX-like systems and the "ipconfig"
 on Windows systems). The "\|" tells the shell to
-["pipe"](http://en.wikipedia.org/wiki/Pipeline_(computing)) the standard
+["pipe"](https://en.wikipedia.org/wiki/Pipeline_(computing)) the standard
 output from the command as input to Netcat. Netcat will then send this
 information to the IP address and port specified (**NOTE:** by default
 only the "standard output" stream will be piped to Netcat. If you need
 the "standard error" stream piped to Netcat as well (see
-[here](http://en.wikipedia.org/wiki/Standard_streams) for a refresher on
+[here](https://en.wikipedia.org/wiki/Standard_streams) for a refresher on
 the differences between streams), add the following text just after your
 command: **2\>&1**). Make sure you replace "2222" with whatever port you
 specified for Netcat to use on your forensic workstation above.

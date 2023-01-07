@@ -45,7 +45,7 @@ The location of the AOL PFC mail store is:
 ## Tools
 
 - [Free AOL PFC Viewer](http://www.systoolsgroup.com/aol-pfc-viewer/)
-- [PFC File Viewer](http://datahelp.in/pfc/viewer.html)
+- [PFC File Viewer](https://datahelp.in/pfc/viewer.html)
 - [AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)
 - [Digital Detective Blade®
-  Professional](http://www.digital-detective.net/digital-forensic-software/blade/)
+  Professional](https://www.digital-detective.net/digital-forensic-software/blade-forensic-data-recovery/)

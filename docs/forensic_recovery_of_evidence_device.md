@@ -4,4 +4,4 @@ tags:
 ---
 ## External Links
 
-[Official website](http://www.digitalintelligence.com/products/fred/)
+[Official website](https://digitalintelligence.com/products/fred/)

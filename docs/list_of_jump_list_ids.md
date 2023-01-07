@@ -110,7 +110,7 @@ Adobe Acrobat 9 Pro Extended (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Adobe Dreamweaver CS5 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Adobe Flash CS5 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Adobe Illustrator CS5 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Adobe Photoshop CS5 (64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ Adobe Premiere Pro CS5 (64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ Adobe Reader 9.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -293,7 +293,7 @@ Adobe Soundbooth CS5 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -338,7 +338,7 @@ Firefox 3.6.13 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -383,7 +383,7 @@ Internet Explorer 8 / 9 / 10 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -494,7 +494,7 @@ Microsoft Office Excel 2010 x86
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -538,7 +538,7 @@ Microsoft Office Excel 2013 x86
 </td>
 <td>
 
-[Russ Taylor](http://hatsoffsecurity.com)
+[Russ Taylor](https://hatsoffsecurity.com/)
 
 </td>
 </tr>
@@ -760,7 +760,7 @@ Microsoft Office PowerPoint 2010 x86
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -828,7 +828,7 @@ Microsoft Office Word 2003 Pinned and Recent.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -851,7 +851,7 @@ Microsoft Office Word 2007 Pinned and Recent.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -874,7 +874,7 @@ Microsoft Office Word 2010 x86
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1073,7 +1073,7 @@ Notepad++ 5.6.8 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1096,7 +1096,7 @@ Notepad (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1119,7 +1119,7 @@ Notepad (64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1142,7 +1142,7 @@ Paint Shop Pro Pinned and Recent.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1186,7 +1186,7 @@ Powershell Windows 10
 </td>
 <td>
 
-[Ovie Carroll](http://cyberspeak.libsyn.com)
+[Ovie Carroll](https://cyberspeak.libsyn.com/)
 
 </td>
 </tr>
@@ -1385,7 +1385,7 @@ Windows Command Processor - cmd.exe (64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1408,7 +1408,7 @@ Windows Explorer Pinned and Recent.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1430,7 +1430,7 @@ Windows Explorer Windows 8.1.
 </td>
 <td>
 
-[Russ Taylor](http://hatsoffsecurity.com/2014/09/06/jump-lists/)
+[Russ Taylor](https://hatsoffsecurity.com//2014/09/06/jump-lists/)
 
 </td>
 </tr>
@@ -1453,7 +1453,7 @@ Windows Live Mail Pinned and Recent.
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1498,7 +1498,7 @@ Windows Media Player Classic Home Cinema 1.3 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1521,7 +1521,7 @@ Windows Media Player 12 (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1544,7 +1544,7 @@ Windows Script Host - wscript.exe (32-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1567,7 +1567,7 @@ Windows Script Host - wscript.exe (64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1590,7 +1590,7 @@ Windows Virtual PC - vmwindow.exe (32- and 64-bit)
 <td>
 
 [Microsoft Windows 7
-Forum](http://social.technet.microsoft.com/Forums/en/w7itprogeneral/thread/92b90228-2f08-4558-9c4d-6e66e103a5cf)
+Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 
 </td>
 </tr>
@@ -1748,7 +1748,7 @@ Adobe Reader 7.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1771,7 +1771,7 @@ Adobe Reader 8.1.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1794,7 +1794,7 @@ Adobe Acrobat 9.4.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1817,7 +1817,7 @@ Adobe Reader X 10.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1863,7 +1863,7 @@ EyeBrowse 2.7
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1886,7 +1886,7 @@ Image AXS Pro 4.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1909,7 +1909,7 @@ ACDSee Pro 8.1.99
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1932,7 +1932,7 @@ ACDSee Photo Manager 10 (Build 219)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1955,7 +1955,7 @@ ACDSee Photo Manager 2009 (v11.0 Build 113)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -1978,7 +1978,7 @@ ACDSee Photo Manager 12 (Build 344)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2001,7 +2001,7 @@ Paint 6.1 (build 7601: SP1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2024,7 +2024,7 @@ CDisplay 1.8.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2047,7 +2047,7 @@ Windows Photo Viewer
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2070,7 +2070,7 @@ digiKam 1.7.0 (KDE 4.4.4)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2093,7 +2093,7 @@ FastPictureViewer Professional 1.6 (Build 211)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2116,7 +2116,7 @@ FastStone Image Viewer 4.6
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2161,7 +2161,7 @@ HoneyView3 \#5834
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2184,7 +2184,7 @@ Imagine Image and Animation Viewer 1.0.7
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2207,7 +2207,7 @@ IMatch 3.6.0.113
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2230,7 +2230,7 @@ imgSeek 0.8.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2253,7 +2253,7 @@ IrfanView 3.10 / 4.30
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2276,7 +2276,7 @@ IrfanView Thumbnails
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2299,7 +2299,7 @@ Konvertor 4.06 (Build 10)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2322,7 +2322,7 @@ Paint.NET 2.72 / 3.5.8.4081.24580
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2345,7 +2345,7 @@ Picasa 2.2.0 (Build 28.08, 0)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2368,7 +2368,7 @@ Picasa 3.8.0 (Build 117.43, 0)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2391,7 +2391,7 @@ Prizm Viewer
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2414,7 +2414,7 @@ Scientific and Technical Document Viewer 1.6.2 Portable (STDU)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2437,7 +2437,7 @@ XnView 1.98.2 Small / 1.98.2 Standard
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2460,7 +2460,7 @@ Zoner PhotoStudio 13 (Build 7)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2508,7 +2508,7 @@ Chrome 9.0.597.84 / 12.0.742.100 / 13.0.785.215 / 26
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2531,7 +2531,7 @@ Mozilla 0.9.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2554,7 +2554,7 @@ Firefox 1.0 / 2.0 / 3.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2577,7 +2577,7 @@ Firefox 4.0.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2600,7 +2600,7 @@ Firefox 5.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2623,7 +2623,7 @@ Firefox 6.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2646,7 +2646,7 @@ Internet Explorer 8 / 9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2669,7 +2669,7 @@ Opera 8.54 build 7730 / 9.64 build 10487 / 11.50 build 1074
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2692,7 +2692,7 @@ Safari 3.2.3 (525.29)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2715,7 +2715,7 @@ Safari 4.0.5 (531.22.7) / 5.1 (7534.50)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -2737,7 +2737,7 @@ Edge Browser
 </td>
 <td>
 
-[1](http://cyberspeak.libsyn.com) Ovie Carroll
+[1](https://cyberspeak.libsyn.com/) Ovie Carroll
 
 </td>
 </tr>
@@ -2759,7 +2759,7 @@ TOR Browser 6.0.2
 </td>
 <td>
 
-[2](http://cyberspeak.libsyn.com) Ovie Carroll
+[2](https://cyberspeak.libsyn.com/) Ovie Carroll
 
 </td>
 </tr>
@@ -2807,7 +2807,7 @@ imule 1.4.5 (rev. 749)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2830,7 +2830,7 @@ AirDC++ 2.10
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2853,7 +2853,7 @@ aMule 2.2.6
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2876,7 +2876,7 @@ ApexDC++ 1.4.3.957
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2899,7 +2899,7 @@ Ares (Galaxy) 1.8.4 / 1.9.8 / 2.1.0 / 2.1.7.3041
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2922,7 +2922,7 @@ Azureus 0.9.0 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2945,7 +2945,7 @@ Azureus 2.0.8.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2968,7 +2968,7 @@ Azureus 2.5.0.4 / Vuze 3.0.5.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -2991,7 +2991,7 @@ BearShare Lite 5.2.5.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3014,7 +3014,7 @@ BearShare 6.0.0.22717 / 8.1.0.70928 / 10.0.0.112380
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3037,7 +3037,7 @@ BitComet 0.39 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3060,7 +3060,7 @@ BitComet 0.49 / 0.59 / 0.69 / 0.79 / 0.89 / 0.99 / 1.07 / 1.28
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3083,7 +3083,7 @@ BitLord 1.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3106,7 +3106,7 @@ BitLord 1.2.0-66
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3130,7 +3130,7 @@ BitSpirit 1.2.0.228 / 2.0 / 2.6.3.168 / 2.7.2.239 / 2.8.0.072 /
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3153,7 +3153,7 @@ BitTornado T-0.3.17
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3176,7 +3176,7 @@ BitTorrent 5.0.0 / 6.0.0 / 7.2.1 (Build 25548)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3199,7 +3199,7 @@ Blubster 3.1.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3222,7 +3222,7 @@ broolzShare
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3245,7 +3245,7 @@ Cabos 0.8.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3268,7 +3268,7 @@ CzDC 0.699 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3291,7 +3291,7 @@ Datawire 1.3 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3314,7 +3314,7 @@ DC++ 0.181 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3337,7 +3337,7 @@ DC++ 0.261 / 0.698 / 0.782 (r2402.1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3360,7 +3360,7 @@ DCSharpHub 2.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3383,7 +3383,7 @@ Deluge 1.3.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3405,7 +3405,7 @@ Dropbox App 5.4.24
 </td>
 <td>
 
-[Ovie Carroll](http://Cyberspeak.libsyn.com)
+[Ovie Carroll](https://cyberspeak.libsyn.com/)
 
 </td>
 </tr>
@@ -3428,7 +3428,7 @@ Dtella 1.2.5 (Purdue network only)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3451,7 +3451,7 @@ EiskaltDC++ 2.2.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3474,7 +3474,7 @@ eMule 0.50a
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3497,7 +3497,7 @@ ExoSee 1.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3520,7 +3520,7 @@ FlylinkDC++ r405 (Build 7358)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3543,7 +3543,7 @@ Free Download Manager 3.0 (Build 852)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3566,7 +3566,7 @@ Freenet (default install dir is C:\Users\\\$user\\...)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3589,7 +3589,7 @@ Frost 2011-03-05 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3612,7 +3612,7 @@ FrostWire 4.20.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3635,7 +3635,7 @@ FrostWire 5.1.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3658,7 +3658,7 @@ fulDC 6.78
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3681,7 +3681,7 @@ Gnucleus 1.8.6.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3704,7 +3704,7 @@ GNUnet 0.8.1a
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3727,7 +3727,7 @@ gtk-gnutella 0.97
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3750,7 +3750,7 @@ HeXHub 5.07
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3773,7 +3773,7 @@ I2P 0.8.8 (restartable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3796,7 +3796,7 @@ I2P 0.8.8 (no window)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3819,7 +3819,7 @@ Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3842,7 +3842,7 @@ f1a4c04eebef2906
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3865,7 +3865,7 @@ Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3888,7 +3888,7 @@ iMesh 6.5.0.16898
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3911,7 +3911,7 @@ iMesh 11.0.0.112351
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3934,7 +3934,7 @@ Java Binary
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3957,7 +3957,7 @@ Jucy DC 0.85.0.201008281346 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -3980,7 +3980,7 @@ Kazaa Lite 1.7.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4003,7 +4003,7 @@ Kazaa Lite Tools K++ 2.7.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4026,7 +4026,7 @@ KCeasy 0.19-rc1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4049,7 +4049,7 @@ Kommute (Calypso) 0.24
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4072,7 +4072,7 @@ LamaHub 0.0.5.5 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4095,7 +4095,7 @@ LimeWire 5.2.13
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4118,7 +4118,7 @@ Lphant 3.51
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4141,7 +4141,7 @@ Lphant 7.0.0.112351
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4164,7 +4164,7 @@ Manolito 3.1.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4187,7 +4187,7 @@ mldonkey 3.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4210,7 +4210,7 @@ Morpheus 3.0.3.6
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4233,7 +4233,7 @@ MUTE File Sharing 0.5.1 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4256,7 +4256,7 @@ Nodezilla Agent 0.5.15 - built in Java
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4279,7 +4279,7 @@ Perfect Dark 0.883 / 0.940 / 1.06 / 1.07 (all portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4302,7 +4302,7 @@ Phex 3.4.2 (Build 116) - built in Java
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4325,7 +4325,7 @@ Piolet 3.1.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4348,7 +4348,7 @@ RetroShare 0.5.2a (Build 4550)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4371,7 +4371,7 @@ RevConnect 0.674p (based on DC++)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4394,7 +4394,7 @@ PtokaX DC Hub 0.4.1.2 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4417,7 +4417,7 @@ RSX++ 1.21 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4440,7 +4440,7 @@ Scour Exchange 0.0.0.228
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4463,7 +4463,7 @@ StrongDC++ 2.42 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4486,7 +4486,7 @@ TkDC++ 1.3 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4509,7 +4509,7 @@ Shareaza 2.0.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4532,7 +4532,7 @@ Shareaza 8.0.0.112300
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4555,7 +4555,7 @@ SoMud 1.3.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4578,7 +4578,7 @@ SoulSeek 156c
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4601,7 +4601,7 @@ StealthNet 0.8.7.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4624,7 +4624,7 @@ TrustyFiles 3.1.0.22
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4647,7 +4647,7 @@ uTorrent 1.1.1-dev (Build 110) / 1.3.0 / 1.5.0 (all portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4671,7 +4671,7 @@ uTorrent 1.7.7 (Build 8179) / 1.8.5 / 2.0 / 2.21 (Build 25113) / 3.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4693,7 +4693,7 @@ uTorrent 3.4.7
 </td>
 <td>
 
-[3](http://cyberspeak.libsyn.com) Ovie Carroll
+[3](https://cyberspeak.libsyn.com/) Ovie Carroll
 
 </td>
 </tr>
@@ -4716,7 +4716,7 @@ WinMX 3.53
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4739,7 +4739,7 @@ WinMX 4.9.3.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4762,7 +4762,7 @@ Winny 2.0b7.1 - all languages (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4785,7 +4785,7 @@ xHub 0.2.6.7 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4808,7 +4808,7 @@ YnHub 1.036.152 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4831,7 +4831,7 @@ Vuze 4.6.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4879,7 +4879,7 @@ d28ee773b2cea9b2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4902,7 +4902,7 @@ AbsoluteTelnet 9.18 Lite
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4925,7 +4925,7 @@ ALFTP 5.20.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4948,7 +4948,7 @@ BitKinex 3.2.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4971,7 +4971,7 @@ Bullet Proof FTP 1.26
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -4994,7 +4994,7 @@ Bullet Proof FTP 2.4.0 (Build 31)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5017,7 +5017,7 @@ Bullet Proof FTP 2010.75.0.75
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5040,7 +5040,7 @@ Classic FTP Plus 2.15
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5063,7 +5063,7 @@ CoffeeCup Free FTP 3.5.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5086,7 +5086,7 @@ CoffeeCup Free FTP 4.4 (Build 1904)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5109,7 +5109,7 @@ FTP Commander 8.02
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5132,7 +5132,7 @@ Core FTP LE 1.3c (Build 1437) / 2.2 (Build 1689)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5155,7 +5155,7 @@ CrossFTP 1.75a
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5178,7 +5178,7 @@ CuteFTP 5.0 (Build 50.6.10.2)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5201,7 +5201,7 @@ CuteFTP 7.1 (Build 06.06.2005.1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5224,7 +5224,7 @@ CuteFTP 8.3 (Build 8.3.4.0007)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5247,7 +5247,7 @@ CuteFTP 8.3 Lite (Build 8.3.4.0007)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5270,7 +5270,7 @@ CuteFTP 8.3 Professional (Build 8.3.4.0007)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5293,7 +5293,7 @@ Cyberduck 4.1.2 (Build 8999)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5316,7 +5316,7 @@ Directory Opus 10.0.2.0.4269 (JL tasks supported)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5339,7 +5339,7 @@ ExpanDrive 2.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5362,7 +5362,7 @@ Far Manager 2.0.1807
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5385,7 +5385,7 @@ FileZilla Server 0.9.39 beta
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5408,7 +5408,7 @@ FileZilla 2.2.32
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5431,7 +5431,7 @@ FileZilla 3.5.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5454,7 +5454,7 @@ FlashFXP 4.0.0 (Build 1548)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5477,7 +5477,7 @@ Fling File Transfer Plus 2.24
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5500,7 +5500,7 @@ pbFTPClient 6.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5523,7 +5523,7 @@ FTPRush 1.1.3 / 2.15
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5546,7 +5546,7 @@ FTP Voyager 15.2.0.17
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5569,7 +5569,7 @@ FTP Explorer 10.5.19 (Build 001)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5592,7 +5592,7 @@ LeechFTP 1.3 (Build 207)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5615,7 +5615,7 @@ Robo-FTP 3.7.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5638,7 +5638,7 @@ Robo-FTP 3.7.9 CronMaker
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5661,7 +5661,7 @@ Robo-FTP Server 3.2.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5684,7 +5684,7 @@ Secure FTP 2.6.1 (Build 20101209.1254)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5707,7 +5707,7 @@ SmartFTP 4.0.1214.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5730,7 +5730,7 @@ Swish
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5753,7 +5753,7 @@ Sysax FTP Automation 5.15
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5776,7 +5776,7 @@ Titan FTP Server 8.40 (Build 1338)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5799,7 +5799,7 @@ Total Commander 7.56a (Build 16.12.2010)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5822,7 +5822,7 @@ UploadFTP 2.0.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5845,7 +5845,7 @@ WinSCP 2.3.0 (Build 146)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5868,7 +5868,7 @@ WinSCP 3.2.1 (Build 174) / 3.8.0 (Build 312)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5891,7 +5891,7 @@ WinSCP 4.3.4 (Build 1428)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5914,7 +5914,7 @@ WiseFTP 4.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5937,7 +5937,7 @@ WiseFTP 5.5.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5960,7 +5960,7 @@ WiseFTP 6.1.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -5983,7 +5983,7 @@ WiseFTP 7.3.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6006,7 +6006,7 @@ WS_FTP
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6054,7 +6054,7 @@ Bersirc 2.2.14
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6077,7 +6077,7 @@ ClicksAndWhistles 2.7.146
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6100,7 +6100,7 @@ DMDirc 0.6.5 (Profile store: C:\Users\\\$user\AppData\Roaming\DMDirc\\)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6123,7 +6123,7 @@ HydraIRC 0.3.165
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6146,7 +6146,7 @@ IceChat 7.70 20101031
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6169,7 +6169,7 @@ IceChat 9 RC2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6192,7 +6192,7 @@ KVIrc 3.4.2.1 / 4.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6215,7 +6215,7 @@ LimeChat 2.39
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6238,7 +6238,7 @@ mIRC 4.72 / 5.61
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6261,7 +6261,7 @@ mIRC 6.35 / 7.19
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6284,7 +6284,7 @@ Neebly 1.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6307,7 +6307,7 @@ Nettalk 6.7.12
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6330,7 +6330,7 @@ PIRCH98 1.0.1.1190
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6353,7 +6353,7 @@ Quassel IRC 0.7.1 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6376,7 +6376,7 @@ Smuxi 0.8.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6399,7 +6399,7 @@ X-Chat 2 2.8.6-2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6447,7 +6447,7 @@ AIM 4.8.2616
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6470,7 +6470,7 @@ AIM 5.9.3857
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6493,7 +6493,7 @@ AIM 6.2.14.2 / 6.5.3.12 / 6.9.17.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6516,7 +6516,7 @@ AIM 7.5.11.9 (custom AppID + JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6539,7 +6539,7 @@ aMSN 0.98.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6562,7 +6562,7 @@ BitWise IM 1.7.3a
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6585,7 +6585,7 @@ Bopup Messenger 5.6.2.9178 (all languages: en;du;fr;ger;rus;es)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6608,7 +6608,7 @@ Brosix Communicator 3.1.3 (Build 110719 nid 1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6631,7 +6631,7 @@ Camfrog 4.0.47 / 5.5.0 / 6.1 (build 146) (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6654,7 +6654,7 @@ Carrier 2.5.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6677,7 +6677,7 @@ Coccinella Messenger 0.96.20 (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6700,7 +6700,7 @@ Digsby (Build 30140) (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6723,7 +6723,7 @@ eM Client 3.0.10206.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6746,7 +6746,7 @@ emesene 2.11.7
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6769,7 +6769,7 @@ Exodus 0.10.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6792,7 +6792,7 @@ Gadu-Gadu 10.5.2.13164
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6815,7 +6815,7 @@ Gaim 1.5.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6838,7 +6838,7 @@ Gajim 0.14.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6861,7 +6861,7 @@ GCN 2.9.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6884,7 +6884,7 @@ GOIM 1.1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6907,7 +6907,7 @@ Google Talk 1.0.0.104
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6930,7 +6930,7 @@ ICQ 5.1 / ICQLite Build 1068
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6953,7 +6953,7 @@ ICQ 6.5 (Build 2024)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6976,7 +6976,7 @@ ICQ 7.6 (Build 5617)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -6999,7 +6999,7 @@ inSpeak 7.2.0.540
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7022,7 +7022,7 @@ IMVU 465.8.0.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7045,7 +7045,7 @@ Instantbird 1.0 (20110623121653) (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7068,7 +7068,7 @@ Instan-t 5.2 (Build 2824)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7091,7 +7091,7 @@ Kadu 0.10.0 / 0.6.5.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7114,7 +7114,7 @@ Mail.Ru Agent 5.8 (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7137,7 +7137,7 @@ Meca Messenger 5.3.0.52
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7160,7 +7160,7 @@ Mercury Messenger (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7183,7 +7183,7 @@ Miranda IM 0.6.8 / 0.7.6 / 0.8.27 / 0.9.9 / 0.9.29 (ANSI + Unicode)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7206,7 +7206,7 @@ Microsoft Lync 4.0.7577.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7229,7 +7229,7 @@ MSN Messenger 6.2.0137 / 7.0.0820
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7252,7 +7252,7 @@ MSNPSharp (portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7275,7 +7275,7 @@ MySpaceIM 1.0.823.0 Beta
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7298,7 +7298,7 @@ Nimbuzz 2.0.0 (rev 6266)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7321,7 +7321,7 @@ ooVoo 3.0.7.21
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7344,7 +7344,7 @@ Paltalk Messenger 10.0 (Build 409)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7367,7 +7367,7 @@ Palringo 2.6.3 (r45983)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7390,7 +7390,7 @@ Pandion 2.6.106
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7412,7 +7412,7 @@ Photos Microsoft 16.526.11220.0 (Windows 10)
 </td>
 <td>
 
-[Ovie Carroll](http://Cyberspeak.libsyn.com)
+[Ovie Carroll](https://cyberspeak.libsyn.com/)
 
 </td>
 </tr>
@@ -7435,7 +7435,7 @@ Pidgin 2.0.0 / 2.10.0 / 2.7.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7458,7 +7458,7 @@ PLAYXPERT 1.0.140.2822
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7481,7 +7481,7 @@ PopNote 5.21
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7504,7 +7504,7 @@ Psi 0.14
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7527,7 +7527,7 @@ QQ International 1.1 (2042)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7550,7 +7550,7 @@ QuteCom 2.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7573,7 +7573,7 @@ qutIM 0.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7596,7 +7596,7 @@ qutIM 0.2.80.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7619,7 +7619,7 @@ RealTimeQuery 3.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7643,7 +7643,7 @@ Skype 1.4.0.84 / 2.5.0.154 / 3.8.0.139 / 4.2.0.187 / Skype 5.3.0.120 /
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7665,7 +7665,7 @@ Skype 7.24.0.104
 </td>
 <td>
 
-[Ovie Carroll](http://cyberspeak.libsyn.com)
+[Ovie Carroll](https://cyberspeak.libsyn.com/)
 
 </td>
 </tr>
@@ -7688,7 +7688,7 @@ Sococo 1.5.0.2274
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7711,7 +7711,7 @@ Tkabber 0.11.1
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7734,7 +7734,7 @@ Trillian 0.74 / 3.1 / 4.2.0.25 / 5.0.0.35 (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7757,7 +7757,7 @@ uTalk 2.6.4 r47692
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7780,7 +7780,7 @@ Vovox 2.5.3.4250
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7803,7 +7803,7 @@ VZOchat 6.3.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7826,7 +7826,7 @@ WTW 0.8.18.2852 / 0.8.19.2940
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7849,7 +7849,7 @@ X-Chat 1.8.10 / 2.6.9 / 2.8.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7872,7 +7872,7 @@ Xfire 1.138 (Build 44507)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7895,7 +7895,7 @@ Yahoo Messenger 5.0.0.1226 / 6.0.0.1922
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7918,7 +7918,7 @@ Yahoo Messenger 7.5.0.647 / 8.1.0.421 / 9.0.0.2162 / 10.0.0.1270
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7941,7 +7941,7 @@ Yahoo Messenger 11.0.0.2014-us
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7964,7 +7964,7 @@ Windows Live Messenger 8.5.1235.0517 BETA
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -7987,7 +7987,7 @@ Windows Live Messenger 2011
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8035,7 +8035,7 @@ ALLPlayer 4.7
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8058,7 +8058,7 @@ Crystal Player 1.98
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8081,7 +8081,7 @@ DSPlayer 0.889 Lite
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8104,7 +8104,7 @@ GOM Player 2.0.12.3375 / 2.1.28.5039
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8127,7 +8127,7 @@ iTunes 7.6.0.29 / 8.0.0.35
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8151,7 +8151,7 @@ capability)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8175,7 +8175,7 @@ Basic
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8198,7 +8198,7 @@ JetVideo 8.0.2.200 Basic
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8221,7 +8221,7 @@ J. River Media Center 16.0.149
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8244,7 +8244,7 @@ Media Go 1.8 (Build 121)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8267,7 +8267,7 @@ MediaPortal 1.1.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8290,7 +8290,7 @@ Media Player Classic 6.4.8.9 (is portable)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8314,7 +8314,7 @@ Media Player Classic - Home Cinema 1.5.2.3456 (default install is
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8338,7 +8338,7 @@ used, tracks played, total time used)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8361,7 +8361,7 @@ QuickTime Alternative 1.9.5 (Media Player Classic 6.4.9.1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8384,7 +8384,7 @@ QuickTime Player 6.5.1 / 7.0.3 / 7.5.5 (Build 249.13)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8407,7 +8407,7 @@ RealPlayer 6.0.6.99 / 7 / 8 / 10.5
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8430,7 +8430,7 @@ RealPlayer SP 12
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8453,7 +8453,7 @@ RealPlayer 14.0.6.666
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8476,7 +8476,7 @@ Real Player Alternative 1.25 (Media Player Classic 6.4.8.2 / 6.4.9.0)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8499,7 +8499,7 @@ SM Player 0.6.9 r3447
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8522,7 +8522,7 @@ Songbird 1.9.3 (Build 1959)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8545,7 +8545,7 @@ The KMPlayer 2.9.4.1434
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8568,7 +8568,7 @@ VLC 0.3.0 / 0.4.6
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8591,7 +8591,7 @@ VLC 0.5.3 / 0.8.6i / 0.9.7 / 1.1.11
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8614,7 +8614,7 @@ VLC 0.6.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8637,7 +8637,7 @@ VLC 0.7.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8660,7 +8660,7 @@ Winamp 2.95 / 5.1 / 5.621
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8683,7 +8683,7 @@ Winamp 3.0d (Build 488)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8706,7 +8706,7 @@ Windows Media Player 12.0.7601.17514
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8801,7 +8801,7 @@ CCleaner 1.32.345 / 1.41.544 / 2.36.1233 / 3.10.1525
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8824,7 +8824,7 @@ WindowWasher 6.6.1.18
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -8872,7 +8872,7 @@ ace8715529916d31
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8895,7 +8895,7 @@ AllPicturez 1.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8918,7 +8918,7 @@ Alt.Binz 0.25.0 (Build 27.09.2007)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8941,7 +8941,7 @@ Android Newsgroup Downloader 6.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8964,7 +8964,7 @@ Another File 2.03 (Build 2/7/2004)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -8987,7 +8987,7 @@ AutoPix 5.3.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9010,7 +9010,7 @@ BinaryBoy 1.97 (Build 55)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9033,7 +9033,7 @@ Binary News Reaper 2 (Beta 0.14.7.448)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9056,7 +9056,7 @@ Binary Vortex 5.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9079,7 +9079,7 @@ Binbot 2.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9102,7 +9102,7 @@ Binjet 3.0.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9125,7 +9125,7 @@ Binreader 1.0 (Beta 1)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9148,7 +9148,7 @@ BinTube 3.7.1.0 (requires VLC 10.5!)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9171,7 +9171,7 @@ Digibin 1.31
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9194,7 +9194,7 @@ Easy Post 3.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9217,7 +9217,7 @@ Express NewsPictures 2.41 (Build 08.05.07.0)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9240,7 +9240,7 @@ Forte Agent 6.00 (Build 32.1186)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9263,7 +9263,7 @@ FotoVac 1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9286,7 +9286,7 @@ Gravity 3.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9309,7 +9309,7 @@ Messenger Pro 2.66.6.3353
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9333,7 +9333,7 @@ Grabit 1.5.3 Beta (Build 909) / 1.6.2 (Build 940) / 1.7.2 Beta 4 (Build
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9356,7 +9356,7 @@ GroupsAloud 1.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9379,7 +9379,7 @@ News File Grabber 4.6.0.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9402,7 +9402,7 @@ Newsbin Pro 6.00 (Build 1019) (JL support)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9425,7 +9425,7 @@ Newsgroup Commander Pro 9.05
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9448,7 +9448,7 @@ NewsGrabber 3.0.36
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9471,7 +9471,7 @@ Newsgroup Image Collector
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9494,7 +9494,7 @@ NewsLeecher 4.0 / 5.0 Beta 6
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9517,7 +9517,7 @@ NewsMan Pro 3.0.5.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9540,7 +9540,7 @@ News Reactor 20100224.16
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9563,7 +9563,7 @@ NewsRover 17.0 (Rev.0)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9586,7 +9586,7 @@ NewsShark 2.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9609,7 +9609,7 @@ NewsWolf 1.41
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9632,7 +9632,7 @@ NewsWolf NSListGen
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9655,7 +9655,7 @@ Newz Crawler 1.9.0 (Build 4100)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9678,7 +9678,7 @@ NiouzeFire 0.8.7.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9701,7 +9701,7 @@ Noworyta News Reader 2.9
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9724,7 +9724,7 @@ NNTPGrab 0.6.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9747,7 +9747,7 @@ NNTPGrab 0.6.2 Server
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9770,7 +9770,7 @@ Nomad News 1.43
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9793,7 +9793,7 @@ Ozum 6.07 (Build 6070)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9816,7 +9816,7 @@ QuadSucker/News 5.0
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9839,7 +9839,7 @@ sabnzbd 0.6.8
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9862,7 +9862,7 @@ SeaMonkey 2.3.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9885,7 +9885,7 @@ Spotnet 1.7.4
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9908,7 +9908,7 @@ Stream Reactor 1.0 Beta 9 (uses VLC!)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9931,7 +9931,7 @@ Slypheed 3.1.2 (Build 1120)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9954,7 +9954,7 @@ Thunderbird 1.0.6 (20050716) / 3.0.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -9977,7 +9977,7 @@ Thunderbird 6.0.2
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10000,7 +10000,7 @@ TIFNY 5.0.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10023,7 +10023,7 @@ TLNews Newsreader 2.2.0 (Build 2430)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10046,7 +10046,7 @@ UltraLeeacher 1.7.0.2969 / 1.8 Beta (Build 3490)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10069,7 +10069,7 @@ Unzbin 2.6.8
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10092,7 +10092,7 @@ Usenet Explorer 3.3 (pay)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10115,7 +10115,7 @@ Xnews 5.04.25
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-2.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html)
 
 </td>
 </tr>
@@ -10163,7 +10163,7 @@ Source
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10186,7 +10186,7 @@ Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10209,7 +10209,7 @@ BCWipe 5.02.2 Task Manager 3.02.3
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10276,7 +10276,7 @@ Sticky Notes
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10298,7 +10298,7 @@ Sticky Notes (Windows 10)
 </td>
 <td>
 
-[Ovie Carroll](http://Cyberspeak.libsyn.com)
+[Ovie Carroll](https://cyberspeak.libsyn.com/)
 
 </td>
 </tr>
@@ -10321,7 +10321,7 @@ WinRAR 2.90 / 3.60 / 4.01
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10344,7 +10344,7 @@ WinZip 9.0 SR-1 (6224) / 10.0 (6667)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10367,7 +10367,7 @@ WinZip 15.5 (9468)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>
@@ -10390,7 +10390,7 @@ Windows Command Processor - cmd.exe (32-bit)
 <td>
 
 [4n6k
-Blog](http://4n6k.blogspot.com/2011/09/jump-list-forensics-appids-part-1.html)
+Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 
 </td>
 </tr>

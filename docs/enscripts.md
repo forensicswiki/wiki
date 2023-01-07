@@ -12,4 +12,4 @@ functional applications."
 
 ## External Links
 
-- [Guidance Software](http://www.guidancesoftware.com/)
+- [Guidance Software](https://www.opentext.com/products/security-cloud)

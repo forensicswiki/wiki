@@ -24,4 +24,4 @@ used as a base for steganographic content.
 
 ## Externals Links
 
-* [Wikipedia: MP3](http://en.wikipedia.org/wiki/Mp3)
+* [Wikipedia: MP3](https://en.wikipedia.org/wiki/Mp3)

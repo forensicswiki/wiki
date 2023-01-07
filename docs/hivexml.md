@@ -29,5 +29,5 @@ semantics of the file.
 
 ## See also
 
-- <http://rwmj.wordpress.com/2009/10/29/hivexget-get-values-from-a-windows-registry-hive/>
+- <https://rwmj.wordpress.com/2009/10/29/hivexget-get-values-from-a-windows-registry-hive/>
   for information on how to extract individual entries.

@@ -11,4 +11,4 @@ uses digital computers.
 
 ## External Links
 
-* [Wikipedia: AFIS](http://en.wikipedia.org/wiki/Automated_Fingerprint_Identification_System)
+* [Wikipedia: AFIS](https://en.wikipedia.org/wiki/Automated_Fingerprint_Identification_System)

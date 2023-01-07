@@ -9,9 +9,9 @@ devices, and network-like communications that allow for additional ports
 to be added to a system by way of internal or external hubs, often
 mitigating the need to physically open a host system in order to add
 more device capacity. There also exist some ways to [redirect
-USB](http://www.eltima.com/usb-redirector/), which was already plugged
+USB](https://www.eltima.com/usb-redirector/), which was already plugged
 to PC. Software solutions and additional steps may help to make [USB
-device accessible over IP](http://www.eltima.com/share-usb-over-ip/).
+device accessible over IP](https://www.eltima.com/share-usb-over-ip/).
 
 ## History of Past Devices
 

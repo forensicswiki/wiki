@@ -98,4 +98,4 @@ offers the source codes of their drivers.
 
 ## Links
 
-[Official website](http://www.mobiledit.com/)
+[Official website](https://www.mobiledit.com/)

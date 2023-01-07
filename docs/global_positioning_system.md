@@ -63,7 +63,7 @@ replacement for TomTomHome). They cannot currently by examined
 forensically.
 
 Another tool for forensically analysing TomToms is
-[TomTology](http://www.forensicnavigation.com). This will retrieve all
+[TomTology](https://www.forensicnavigation.com/). This will retrieve all
 journey details from both live and unallocated space. It will tell you
 which is the home, favourites and recent destinations and will also tell
 you the last journey that was plotted and where the TomTom last had a
@@ -86,7 +86,7 @@ Raw trip data including waypoints, date & time stamps, latitude &
 longitude coordinates and elevations can be extracted from the
 Current.gpx file located in the \Garmin\GPX\\ folder. It can be viewed
 by opening the file with a text editor such as
-[Notepad++](http://notepad-plus.sourceforge.net/). All recent trips are
+[Notepad++](https://notepad-plus-plus.org/). All recent trips are
 stored in this file.
 
 Data can also be easily viewed via [Google

@@ -454,21 +454,21 @@ On Windows
 ## External Links
 
 - [Wikipedia article on Google
-  Chrome](http://en.wikipedia.org/wiki/Google_Chrome)
+  Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
 - [The Chromium Projects - User Data
-  Directory](http://www.chromium.org/user-experience/user-data-directory)
+  Directory](https://www.chromium.org/user-experience/user-data-directory/)
 - [Chrome Disk
   Cache](http://www.chromium.org/developers/design-documents/network-stack/disk-cache)
 - [Chrome support forum article random 10 character hostnames on
   startup](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en)
 - [Chrome User Agent
-  strings](http://www.useragentstring.com/pages/Chrome/)
+  strings](https://www.useragentstring.com/pages/Chrome/)
 - [Google Chrome
-  Forensics](http://computer-forensics.sans.org/blog/2010/01/21/google-chrome-forensics/)
+  Forensics](https://www.sans.org/digital-forensics-incident-response/)
   by [Kristinn Guðjónsson](kristinn_guðjónsson.md), January 21,
   2010
 - [Cashing in on the Google Chrome
-  Cache](http://linuxsleuthing.blogspot.ch/2013/02/cashing-in-on-google-chrome-cache.html?m=1),
+  Cache](https://linuxsleuthing.blogspot.com/2013/02/cashing-in-on-google-chrome-cache.html?m=1),
   [John Lehr](john_lehr.md), February 24, 2013
 - [History Index files removed from Chrome
   v30](https://dfir.blog/history-index-files-removed-from-chrome-v30/),
@@ -480,10 +480,10 @@ On Windows
   Databases](https://dfir.blog/evolution-of-chrome-databases-reference-chart/),
   by Ryan Benson, November 12, 2013
 - [Chromebook
-  Forensics](http://www.dataforensics.org/google-chromebook-forensics/),
+  Forensics](https://www.dataforensics.org/google-chromebook-forensics/),
   by Dexter Morgan, April 30, 2015
 - [The Chromium Projects - Configuring Other
-  Preferences](http://www.chromium.org/administrators/configuring-other-preferences)
+  Preferences](https://www.chromium.org/administrators/configuring-other-preferences/)
 
 ## Tools
 

@@ -40,4 +40,4 @@ On Windows 7:
 
 ## External Links
 
-- [Kaspersky](http://www.kaspersky.com)
+- [Kaspersky](https://www.kaspersky.com/)

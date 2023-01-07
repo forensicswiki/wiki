@@ -8,8 +8,8 @@ machines from the memory of the host system.
 
 ## External Links
 
-* [Wikipedia: Virtualization](http://en.wikipedia.org/wiki/Platform_virtualization)
-* [Wikipedia: Hypervisor](http://en.wikipedia.org/wiki/Hypervisor)
+* [Wikipedia: Virtualization](https://en.wikipedia.org/wiki/Platform_virtualization)
+* [Wikipedia: Hypervisor](https://en.wikipedia.org/wiki/Hypervisor)
 * [Hypervisor Memory Forensics](http://www.syssec-project.eu/m/page-media/3/raid13_graziano.pdf),
   by Mariano Graziano, Andrea Lanzi, and Davide Balzarotti
 * [VM discovery and introspection with Rekall](http://blog.rekall-forensic.com/2014/10/vm-discovery-and-introspection-with.html),
@@ -21,7 +21,7 @@ machines from the memory of the host system.
 
 ### Hyper-V
 
-* [Wikipedia: Hyper-V](http://en.wikipedia.org/wiki/Hyper-v)
+* [Wikipedia: Hyper-V](https://en.wikipedia.org/wiki/Hyper-v)
 * [Analyzing Hyper-V Saved State files in Volatility](http://www.wyattroersma.com/?p=77),
   by Wyatt Roersma, October 17, 2013
 * [Hyper-V 2012 and 2012 R2 live virtual machine memory acquisition and analysis](http://www.wyattroersma.com/?p=87),

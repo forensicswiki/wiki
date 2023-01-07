@@ -9,9 +9,9 @@ tags:
 corrupted database that has data such as mails, calendar, contacts,
 journals, notes, attachments etc. It has options to preview content
 before exporting from an edb file to
-pst[1](http://en.wikipedia.org/wiki/Personal_Storage_Table) file,
-Office365[2](http://en.wikipedia.org/wiki/Office_365), Live Exchange
-Server[3](http://en.wikipedia.org/wiki/Microsoft_Exchange_Server).
+pst[1](https://en.wikipedia.org/wiki/Personal_Storage_Table) file,
+Office365[2](https://en.wikipedia.org/wiki/Office_365), Live Exchange
+Server[3](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server).
 
 ## **Overview**
 
@@ -51,7 +51,7 @@ to live Exchange server using *EdbMails* application.
 ## **License Information**
 
 For software’s license related information, visit our website [Licence
-agreement](http://www.edbmails.com/pages/terms-of-use.html)
+agreement](https://www.edbmails.com/pages/terms-of-use.html)
 
 ## **Technical Support**
 
@@ -61,7 +61,7 @@ software related issue.
 
 ## **External links**
 
-[Official Website](http://edbmails.com/)
+[Official Website](https://www.edbmails.com/)
 
 [Video tutorials for
 EdbMails](https://www.edbmails.com/pages/video.html)

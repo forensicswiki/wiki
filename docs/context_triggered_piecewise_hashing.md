@@ -24,5 +24,5 @@ Hashing](http://dfrws.org/2006/proceedings/12-Kornblum.pdf).
 
 ## External Links
 
-- [SpamSum](http://samba.org/ftp/unpacked/junkcode/spamsum/)
+- [SpamSum](https://www.samba.org/ftp/unpacked/junkcode/spamsum/)
 

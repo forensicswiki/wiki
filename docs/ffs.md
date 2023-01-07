@@ -25,4 +25,4 @@ on the Amiga Fast File System, please see FFS Amiga.*
   gleaned from the fs(5) manual page in FreeBSD.
 * An email list, *freebsd-fs*, exists and can be viewed online via
   [Google Groups](http://groups.google.com/group/mailing.freebsd.fs/topics?lnk=rgh).
-* [Wikipedia's article](http://en.wikipedia.org/wiki/Berkeley_Fast_File_System).
+* [Wikipedia's article](https://en.wikipedia.org/wiki/Berkeley_Fast_File_System).

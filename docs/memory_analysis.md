@@ -19,9 +19,9 @@ Different programming languages provide different primitive data types,
 e.g. in C it is common to have "char", "int", "long", "float", "double".
 The size of these primitive data types is dependent on multiple factors
 like the CPU, the programming language, the compiler, etc.
-[1](http://en.wikipedia.org/wiki/Integer_(computer_science)) e.g. on
+[1](https://en.wikipedia.org/wiki/Integer_(computer_science)) e.g. on
 64-bit system the size of an "int" can vary based on the data-model
-[2](http://en.wikipedia.org/wiki/64-bit_computing).
+[2](https://en.wikipedia.org/wiki/64-bit_computing).
 
 <b>Note that some memory analysis resources and tools are known to
 completely disregard this aspect of 64-bit computing and claim
@@ -36,7 +36,7 @@ Composite data types (also referred to as data structures) consists of
 primitive and/or composite data types.
 
 When reading data structures from memory note that data structure
-alignment [4](http://en.wikipedia.org/wiki/Data_structure_alignment) can
+alignment [4](https://en.wikipedia.org/wiki/Data_structure_alignment) can
 be applied.
 
 ### Character and string data types
@@ -47,17 +47,17 @@ character and string data types.
 
 A programming language can distinguish between Unicode, non-Unicode and
 binary strings
-[5](http://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings).
+[5](https://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings).
 
 - Unicode strings typically are stored in a Tranform format
-  [6](http://en.wikipedia.org/wiki/UTF)
+  [6](https://en.wikipedia.org/wiki/UTF)
   - There are multiple versions of Unicode
   - A predecessor to Unicode is Universal Character Set (UCS)
-    [7](http://en.wikipedia.org/wiki/Universal_Character_Set)
+    [7](https://en.wikipedia.org/wiki/Universal_Character_Set)
 - non-Unicode strings can be stored in various encodings e.g. ASCII
-  [8](http://en.wikipedia.org/wiki/Character_encoding)
+  [8](https://en.wikipedia.org/wiki/Character_encoding)
   - typical the encoding is identified by a codepage e.g. for CP1252 for
-    Windows [9](http://en.wikipedia.org/wiki/Windows_code_page)
+    Windows [9](https://en.wikipedia.org/wiki/Windows_code_page)
   - In Windows the supported set of non-Unicode strings is referred to
     as ANSI-strings, which is technically incorrect but a too widely
     used term to be ignored.
@@ -90,7 +90,7 @@ of size on Windows with MSC.
 
 At the IEEE Security and Privacy conference in May 2011, Brendan
 Dolan-Gavitt presented a novel system,
-[Virtuoso](http://www.cc.gatech.edu/~brendan/Virtuoso_Oakland.pdf), that
+[Virtuoso](https://sites.cc.gatech.edu/~brendan/Virtuoso_Oakland.pdf), that
 was able to perform operating-system independent memory analysis. Using
 virtual machine introspection accompanied by a number of formal program
 analysis techniques, his system was able to monitor the machine-level
@@ -104,7 +104,7 @@ Various types of encryption keys can be extracted during memory
 analysis.
 
 - AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder
-  and private and public RSA keys from a memory dump [10](http://citp.princeton.edu/memory/code/).
+  and private and public RSA keys from a memory dump [10](https://citp.princeton.edu/our-work/memory/code/).
 - [cryptoscan.py](http://jessekornblum.com/tools/volatility/cryptoscan.py),
   which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
   scans a memory image for [TrueCrypt](truecrypt.md) passphrases
@@ -124,8 +124,8 @@ analysis.
 
 ## External Links
 
-- [YobiWiki: RAM analysis](http://wiki.yobi.be/wiki/RAM_analysis)
-- [RAM is Key - Extracting Disk Encryption Keys From Volatile Memory](http://cryptome.org/0003/RAMisKey.pdf),
+- [YobiWiki: RAM analysis](https://wiki.yobi.be/index.php/Main_Page)
+- [RAM is Key - Extracting Disk Encryption Keys From Volatile Memory](https://cryptome.org/0003/RAMisKey.pdf),
   by Brian Kaplan, May 2007
 - [Forensics Examination of Volatile System Data Using Virtual Introspection](http://www.cse.unt.edu/~song/csce5933-003/readings/HayOSR08.pdf),
   by Brian Hay and Kara Nance, 2008
@@ -140,7 +140,7 @@ analysis.
   by [AAron Walter](aaron_walter.md), [Nick Petroni](nick_petroni.md), Blackhat 2007
 - [Forensic Analysis of Anti-Forensic Activities](http://blog.handlerdiaries.com/?p=363),
   by Jack Crook, January 29, 2014
-- [ADD: The Next Big Threat To Memory Forensics....Or Not](http://volatility-labs.blogspot.com/2014/02/add-next-big-threat-to-memory.html),
+- [ADD: The Next Big Threat To Memory Forensics....Or Not](https://volatility-labs.blogspot.com/2014/02/add-next-big-threat-to-memory.html),
   by [Michael Hale Ligh](michael_hale_ligh.md), February 3, 2014
 - [Anti-forensics and memory analysis](http://scudette.blogspot.com/2014/02/anti-forensics-and-memory-analysis.html),
   by [Michael Cohen](michael_cohen.md), February 7, 2014
@@ -149,7 +149,7 @@ analysis.
 
 ### Computer architecture
 
-- [Wikipedia: 64-bit computing](http://en.wikipedia.org/wiki/64-bit_computing)
+- [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
 - [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture](http://download.intel.com/design/processor/manuals/253665.pdf),
   by Intel, May 2011
 - [64-Bit Programming Models: Why LP64?](http://www.unix.org/version2/whatsnew/lp64_wp.html),
@@ -157,29 +157,29 @@ analysis.
 
 ### Data types
 
-- [Wikipedia: Primitive data type](http://en.wikipedia.org/wiki/Primitive_data_type)
-- [Wikipedia: Integer](http://en.wikipedia.org/wiki/Integer_(computer_science))
-- [Wikipedia: 64-bit computing](http://en.wikipedia.org/wiki/64-bit_computing)
+- [Wikipedia: Primitive data type](https://en.wikipedia.org/wiki/Primitive_data_type)
+- [Wikipedia: Integer](https://en.wikipedia.org/wiki/Integer_(computer_science))
+- [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
 - [Wikipedia: Endianness](http://en.wikipedia.org/wiki/Endianness)
 - [Chapter 4. Programming with Cygwin](https://cygwin.com/cygwin-ug-net/programming.html)
-- [Wikipedia: Data structure alignment](http://en.wikipedia.org/wiki/Data_structure_alignment)
+- [Wikipedia: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
 - [Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf),
   by Luca Cardelli
 
-### [Volatility Labs](http://volatility-labs.blogspot.com/)
+### [Volatility Labs](https://volatility-labs.blogspot.com/)
 
-- [MoVP 1.4 Average Coder Rootkit, Bash History, and Elevated Processes](http://volatility-labs.blogspot.com/2012/09/movp-14-average-coder-rootkit-bash.html)
-- [MoVP 1.5 KBeast Rootkit, Detecting Hidden Modules, and sysfs](http://volatility-labs.blogspot.com/2012/09/movp-15-kbeast-rootkit-detecting-hidden.html)
-- [MoVP 2.4 Analyzing the Jynx rootkit and LD_PRELOAD](http://volatility-labs.blogspot.com/2012/09/movp-24-analyzing-jynx-rootkit-and.html)
-- [MoVP 2.5: Investigating In-Memory Network Data with Volatility](http://volatility-labs.blogspot.com/2012/09/movp-25-investigating-in-memory-network.html)
-- [MoVP 3.5: Analyzing the 2008 DFRWS Challenge with Volatility](http://volatility-labs.blogspot.com/2012/09/movp-35-analyzing-2008-dfrws-challenge.html)
-- [MoVP 4.2 Taking Screenshots from Memory Dumps](http://volatility-labs.blogspot.com/2012/10/movp-43-taking-screenshots-from-memory.html)
-- [MoVP 4.3 Recovering Master Boot Records (MBRs) from Memory](http://volatility-labs.blogspot.com/2012/10/movp-43-recovering-master-boot-records.html)
-- [Phalanx 2 Revealed: Using Volatility to Analyze an Advanced Linux Rootkit](http://volatility-labs.blogspot.com/2012/10/phalanx-2-revealed-using-volatility-to.html)
-- [Solving the GrrCon Network Forensics Challenge with Volatility](http://volatility-labs.blogspot.com/2012/10/solving-grrcon-network-forensics.html)
-- [OMFW 2012: Analyzing Linux Kernel Rootkits with Volatility](http://volatility-labs.blogspot.com/2012/10/omfw-2012-analyzing-linux-kernel.html)
-- [OMFW 2012: Datalore: Android Memory Analysis](http://volatility-labs.blogspot.com/2012/10/omfw-2012-datalore-android-memory.html)
-- [MoVP for Volatility 2.2 and OMFW 2012 Wrap-Up](http://volatility-labs.blogspot.com/2012/10/movp-for-volatility-22-and-omfw-2012.html)
-- [Reverse Engineering Poison Ivy's Injected Code Fragments](http://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html)
-- [TrueCrypt Master Key Extraction And Volume Identification](http://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
+- [MoVP 1.4 Average Coder Rootkit, Bash History, and Elevated Processes](https://volatility-labs.blogspot.com/2012/09/movp-14-average-coder-rootkit-bash.html)
+- [MoVP 1.5 KBeast Rootkit, Detecting Hidden Modules, and sysfs](https://volatility-labs.blogspot.com/2012/09/movp-15-kbeast-rootkit-detecting-hidden.html)
+- [MoVP 2.4 Analyzing the Jynx rootkit and LD_PRELOAD](https://volatility-labs.blogspot.com/2012/09/movp-24-analyzing-jynx-rootkit-and.html)
+- [MoVP 2.5: Investigating In-Memory Network Data with Volatility](https://volatility-labs.blogspot.com/2012/09/movp-25-investigating-in-memory-network.html)
+- [MoVP 3.5: Analyzing the 2008 DFRWS Challenge with Volatility](https://volatility-labs.blogspot.com/2012/09/movp-35-analyzing-2008-dfrws-challenge.html)
+- [MoVP 4.2 Taking Screenshots from Memory Dumps](https://volatility-labs.blogspot.com/2012/10/movp-43-taking-screenshots-from-memory.html)
+- [MoVP 4.3 Recovering Master Boot Records (MBRs) from Memory](https://volatility-labs.blogspot.com/2012/10/movp-43-recovering-master-boot-records.html)
+- [Phalanx 2 Revealed: Using Volatility to Analyze an Advanced Linux Rootkit](https://volatility-labs.blogspot.com/2012/10/phalanx-2-revealed-using-volatility-to.html)
+- [Solving the GrrCon Network Forensics Challenge with Volatility](https://volatility-labs.blogspot.com/2012/10/solving-grrcon-network-forensics.html)
+- [OMFW 2012: Analyzing Linux Kernel Rootkits with Volatility](https://volatility-labs.blogspot.com/2012/10/omfw-2012-analyzing-linux-kernel.html)
+- [OMFW 2012: Datalore: Android Memory Analysis](https://volatility-labs.blogspot.com/2012/10/omfw-2012-datalore-android-memory.html)
+- [MoVP for Volatility 2.2 and OMFW 2012 Wrap-Up](https://volatility-labs.blogspot.com/2012/10/movp-for-volatility-22-and-omfw-2012.html)
+- [Reverse Engineering Poison Ivy's Injected Code Fragments](https://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html)
+- [TrueCrypt Master Key Extraction And Volume Identification](https://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
   by [Michael Hale Ligh](michael_hale_ligh.md), January 14, 2014

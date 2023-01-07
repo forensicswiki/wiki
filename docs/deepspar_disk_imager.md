@@ -20,7 +20,7 @@ rebooting the system. (This is significant with highly unstable drives
 that will continually “hang.”)
 
 To control and pre-configure the source drive, the DeepSpar Disk Imager
-makes use of specific ATA commands [1](http://www.t13.org) as well as
+makes use of specific ATA commands [1](https://www.t13.org/) as well as
 some vendor specific commands. This includes the ability to read sectors
 while ignoring [ECC errors](error_correction_code.md) as well as
 the ability to send software and hardware reset commands to the drive
@@ -60,5 +60,5 @@ investigation.
   Recovery](http://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,
   a whitepaper on the product
 - [Interview on the
-  imager](http://cyberspeak.libsyn.com/index.php?post_id=193897) on the
+  imager](https://cyberspeak.libsyn.com/index.php?post_id=193897) on the
   [Cyberspeak podcast](cyberspeak_podcast.md)

@@ -32,7 +32,7 @@ them.
 
 ## External Links
 
-- [Dolphin Data Lab Official Website](http://www.dolphindatalab.com/)
+- [Dolphin Data Lab Official Website](https://www.dolphindatalab.com/)
 - [Dolphin Data Lab
   Youtube](http://www.youtube.com/user/datarecoverytools)
 - [Dolphin Data Lab

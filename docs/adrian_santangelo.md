@@ -31,12 +31,12 @@ Santangelo](user:adrian_santangelo.md).
 
 ## External Links
 
-- [ISC Unlimited (no longer maintained)](http://www.ISC-Unlimited.com/)
-- [Interpreting Technology](http://www.InterpretingTech.com/)
+- [ISC Unlimited (no longer maintained)](https://www.interpretingtech.com/)
+- [Interpreting Technology](https://www.interpretingtech.com/)
 - [Skagit County Sheriff's
   Department](http://www.skagitcounty.net/Common/asp/default.asp?d=Sheriff&c=General&p=main.htm)
-- [LinkedIn Profile](http://www.LinkedIn.com/in/AdrianSantangelo/)
-- [Business Facebook Page](http://www.facebook.com/InterpretingTech)
+- [LinkedIn Profile](https://www.linkedin.com/in/AdrianSantangelo/)
+- [Business Facebook Page](https://www.facebook.com/InterpretingTech)
 - [Personal Facebook Page](http://www.facebook.com/Adrian.Santangelo)
-- [BrandYourself Profile](http://adriansantangelo.brandyourself.com/)
+- [BrandYourself Profile](https://adriansantangelo.brandyourself.com/)
 

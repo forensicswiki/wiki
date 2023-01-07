@@ -11,7 +11,7 @@ remnant data can be recovered from modern hard drives.
 ## References
 
 - [Detection of Digital Information From Erased Magnetic
-  Discs](http://www.ifp.uiuc.edu/~vvv/veeravalli_ms_thesis.pdf),
+  Discs](http://www.ifp.illinois.edu/~vvv/veeravalli_ms_thesis.pdf),
   Venugopal V. Veeravalli , Master's Thesis, Carnegie Mellon University,
   1987
 

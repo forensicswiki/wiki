@@ -8,7 +8,7 @@ law can also be applied to (forensic) analysis or investigations.
 ## Subsidiarity
 
 According to Wikipedia
-[1](http://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)):
+[1](https://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)):
 
 > Subsidiarity is an organizing principle that matters ought to be
 > handled by the smallest, lowest or least centralized competent
@@ -23,8 +23,8 @@ According to Wikipedia
 ## External Links
 
 - [Wikipedia article on
-  Subsidiarity](http://en.wikipedia.org/wiki/Subsidiarity)
+  Subsidiarity](https://en.wikipedia.org/wiki/Subsidiarity)
 - [Wikipedia article on Proportionality in
-  law](http://en.wikipedia.org/wiki/Proportionality_(law))
+  law](https://en.wikipedia.org/wiki/Proportionality_(law))
 
 [Category:Law](category:law.md)

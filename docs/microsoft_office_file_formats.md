@@ -52,17 +52,17 @@ tags:
 
 ### Microsoft.com links
 
-* [Introducing the Office (2007) Open XML File Formats](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
-* [Microsoft Office Binary File Format Documents](http://msdn.microsoft.com/en-us/library/cc313105.aspx)
+* [Introducing the Office (2007) Open XML File Formats](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338205(v=office.12)?redirectedfrom=MSDN)
+* [Microsoft Office Binary File Format Documents](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-offfflp/6ae2fd93-51fc-4e75-a54a-1b175c627b51?redirectedfrom=MSDN)
 * [Microsoft Office Binary (doc, xls, ppt) File Formats](http://www.microsoft.com/interop/docs/OfficeBinaryFormats.mspx)
-* [Ecma Office Open XML File Formats overview](http://office.microsoft.com/en-us/products/ha102058151033.aspx)
-* [Introduction to new file name extensions and Open XML Formats](http://office.microsoft.com/en-us/help/HA100069351033.aspx)
+* [Ecma Office Open XML File Formats overview](https://support.microsoft.com/en-us?correlationid=8874a39e-e6b4-4052-af52-2530adef62dchttp://office.microsoft.com/en-us/products/ha102058151033.aspxui=en-ushttp://office.microsoft.com/en-us/products/ha102058151033.aspxrs=en-ushttp://office.microsoft.com/en-us/products/ha102058151033.aspxad=us)
+* [Introduction to new file name extensions and Open XML Formats](https://support.microsoft.com/en-us?correlationid=c0173323-f60d-4c42-b64c-41c19154348chttp://office.microsoft.com/en-us/help/HA100069351033.aspxui=en-ushttp://office.microsoft.com/en-us/help/HA100069351033.aspxrs=en-ushttp://office.microsoft.com/en-us/help/HA100069351033.aspxad=us)
 
 ### Evaluations
 
-* [Why are the Microsoft Office file formats so complicated? (And some workarounds)](http://www.joelonsoftware.com/items/2008/02/19.html)
+* [Why are the Microsoft Office file formats so complicated? (And some workarounds)](https://www.joelonsoftware.com/2008/02/19/why-are-the-microsoft-office-file-formats-so-complicated-and-some-workarounds/)
 
 ### Wikipedia
 
-* [Wikipedia article on Microsoft Word](http://en.wikipedia.org/wiki/Microsoft_Word)
-* [Wikipedia article on OLE](http://en.wikipedia.org/wiki/Object_Linking_and_Embedding)
+* [Wikipedia article on Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)
+* [Wikipedia article on OLE](https://en.wikipedia.org/wiki/Object_Linking_and_Embedding)

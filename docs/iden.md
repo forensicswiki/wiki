@@ -37,6 +37,6 @@ Software for acquiring a iDEN data includes:
 
 ## External Links
 
-* [Motorola: The iDEN Solution](http://idenphones.motorola.com/idenHome/common/what_is_iden.jsp)
-* [iDEN Home](http://idenphones.motorola.com/iden/iden_home.jsp)
-* [Wikipedia: Integrated Digital Enhanced Network](http://en.wikipedia.org/wiki/Integrated_Digital_Enhanced_Network)
+* [Motorola: The iDEN Solution](https://www.motorola.com/us/error)
+* [iDEN Home](https://www.motorola.com/us/error)
+* [Wikipedia: Integrated Digital Enhanced Network](https://en.wikipedia.org/wiki/Integrated_Digital_Enhanced_Network)

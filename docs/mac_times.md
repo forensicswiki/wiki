@@ -37,7 +37,7 @@ On [FAT](fat.md):
 - the creation time has a resolution of 10 milliseconds,
 - the last written time has a resolution of 2 seconds,
 - and the access time has a resolution of 1
-  day.[1](http://msdn.microsoft.com/en-us/library/ms724284.aspx)
+  day.[1](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime?redirectedfrom=MSDN)
 
 On NTFS file system:
 
@@ -46,11 +46,11 @@ On NTFS file system:
 - the access time also has a resolution of 100 nanoseconds, but updates
   to access time could be held in memory by up to an hour before being
   flushed to the
-  disk.[2](https://msdn.microsoft.com/en-us/library/ms724290.aspx)
+  disk.[2](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times?redirectedfrom=MSDN)
 
 Tampering of filetimes can usually be detected by an absence of
 sub-second resolution on any of the
-timestamps.[3](http://www.meridiandiscovery.com/articles/date-forgery-analysis-timestamp-resolution/)
+timestamps.[3](https://www.meridiandiscovery.com/articles/date-forgery-analysis-timestamp-resolution/)
 
 ## Access Time Update
 
@@ -71,7 +71,7 @@ Windows Vista onwards, the default value is 1 (disabled).
 
 Note that in Windows 10 “Redstone 4” (April 2018 Update) the behavior of
 this setting was extended
-[1](https://dfir.ru/2018/12/08/the-last-access-updates-are-almost-back/amp/)
+[1](https://dfir.ru/2018/12/08/the-last-access-updates-are-almost-back/)
 
 When disabled, the access time is usually initialized to the time the
 file was first written to the disk, following the rules seen below:
@@ -98,9 +98,9 @@ should be disabled.
 
 ## External Links
 
-- [Wikipedia: MAC times](http://en.wikipedia.org/wiki/MAC_times)
+- [Wikipedia: MAC times](https://en.wikipedia.org/wiki/MAC_times)
 - [What Are
-  MACtimes?](http://www.drdobbs.com/what-are-mactimes/184404275), by Dan
+  MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275), by Dan
   Farmer, Oct 2000
 
 ### NTFS

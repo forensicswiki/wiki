@@ -20,11 +20,11 @@ prosecutors. It has raised the need for the CPS to do more to explain
 complex technical issues in simple terms to judges and juries, says
 George.” (Esther George is the policy adviser at the Crown Protection
 Services)
-<http://www.computerweekly.com/Articles/2007/01/27/221526/high-tech-crime-is-put-on-trial.htm>
+<https://www.computerweekly.com/indepth>
 
 US man, Eugene Pitts, found not-guilty of tax evasion after blaming a
 computer virus. Avoids \~\$900,000 in fines.
-<http://www.sophos.com/pressoffice/news/articles/2003/08/va_virustax.html>
+<https://www.sophos.com/en-us/press-office/press-releases/2003/08/va_virustax>
 
 United States v. Michael McCourt U.S. Court of Appeals Case 1/24/06
 Western District of Missouri. Guilty charge upheld.
@@ -38,7 +38,7 @@ the 14 depraved images off the internet without his knowledge.
 Julian Green, 45, of Torquay, Devon was cleared in court in July of 13
 charges of making indecent images, claiming computer malware was to
 blame.
-<http://www.sophos.com/pressoffice/news/articles/2003/08/va_porntrojan.html>
+<https://www.sophos.com/en-us/press-office/press-releases/2003/08/va_porntrojan>
 
 A former Georgia teacher blames computer viruses for altering his Web
 sites and uploading child porn images. Guilty charge upheld.
@@ -64,7 +64,7 @@ More links from previous research.
 
 \[2\] <http://news.com.com/2100-7349_3-5092781.html>
 
-\[3\]<http://www.theregister.co.uk/2003/04/24/trojan_defence_clears_man/>
+\[3\]<https://www.theregister.com/2003/04/24/trojan_defence_clears_man/>
 
 \[4\]<http://www.austlii.edu.au/au/cases/cth/high_ct/2006/39.html>
 
@@ -74,7 +74,7 @@ More links from previous research.
 
 ## Connecticut v. Amero
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Connecticut_v._Amero):
+From [Wikipedia](https://en.wikipedia.org/wiki/Connecticut_v._Amero):
 
 The defendant in the case, Julie Amero (born 1967), a substitute
 teacher, was previously convicted of four counts of risk of injury to a
@@ -82,7 +82,7 @@ minor, or impairing the morals of a child, as the result of a computer
 that was infected with spyware and DNS hijacking software; the
 conviction was vacated on appeal.
 
-* [Wikipedia: Connecticut v.  Amero](http://en.wikipedia.org/wiki/Connecticut_v._Amero)
+* [Wikipedia: Connecticut v.  Amero](https://en.wikipedia.org/wiki/Connecticut_v._Amero)
 * [Technical review of the Trial Testimony State of Connecticut vs.  Julie Amero](http://dfir.com.br/wp-content/uploads/2014/02/julieamerosummary.pdf),
   March 21, 2007
 
@@ -90,7 +90,7 @@ conviction was vacated on appeal.
 
 * [THE TROJAN HORSE DEFENSE IN CYBERCRIME CASES](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2005-15.pdf),
   by Susan W. Brenner, Brian Carrier, and Jef Henninger, in 2004
-* [The "Tools Proven in Court" Question](http://www.cybersecurityinstitute.biz/tpicq.htm)
+* [The "Tools Proven in Court" Question](https://www.cybersecurityinstitute.biz)
 * [When is an Expert Opinion Allowed in Law?](https://www.elvidence.com.au/expert-opinion-in-law/),
   October 24, 2014
 
@@ -102,6 +102,6 @@ can access over a computer network.
 
 ## Cybersecurity Research
 
-* [Toward a Culture of Cybersecurity Research](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1113014),
+* [Toward a Culture of Cybersecurity Research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1113014),
   Aaron J. Burstein, University of California, Berkeley - School of Law.
   2008, UC Berkeley Public Law Research Paper No. 1113014

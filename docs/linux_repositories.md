@@ -42,7 +42,7 @@ page](http://packages.debian.org/search)
 
 ## altlinux
 
-[ALT Linux packages](http://packages.altlinux.org/) (interesting things
+[ALT Linux packages](https://packages.altlinux.org/en/sisyphus/) (interesting things
 from autoimports tend to be integrated into main repository)
 
 # Computer Forensic Tools

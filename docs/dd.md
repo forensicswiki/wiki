@@ -156,5 +156,5 @@ home archive and will miss the srv archive.
 
 ## External Links
 
-- [LinuxJournal article about dd](http://www.linuxjournal.com/article/1320)
+- [LinuxJournal article about dd](https://www.linuxjournal.com/article/1320)
 - [Windows Version of dd and other forensics tools](http://users.erols.com/gmgarner/forensics/)

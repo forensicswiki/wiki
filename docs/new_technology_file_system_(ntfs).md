@@ -26,7 +26,7 @@ each MFT record may also contain timestamps that are of forensic value.
 Additional information on how NTFS timestamps work when files are moved
 or copied is available here: [Microsoft KB
 299648](http://support.microsoft.com/kb/299648) [SANS
-poster](https://www.sans.org/security-resources/posters/windows-forensic-analysis/170/download)
+poster](https://www.sans.org/posters/windows-forensic-analysis/)
 
 ### Changes in Windows Vista
 
@@ -38,7 +38,7 @@ Registry key:
     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
 
 Note that this feature has been around since as early as Windows 2000
-[1](http://technet.microsoft.com/en-us/library/cc959914.aspx).
+[1](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959914(v=technet.10)?redirectedfrom=MSDN).
 
 ## Alternate Data Streams
 
@@ -66,7 +66,7 @@ Microsoft FSRM (File System Resource Manager) also uses ADS as part of
 
 Examiners should be aware that most forensic analysis applications,
 including [FTK
-Imager](https://accessdata.com/products-services/forensic-toolkit-ftk/ftkimager),[encase](encase.md)
+Imager](https://www.exterro.com/ftk-imager),[encase](encase.md)
 and ProDiscover, will display ADSs found in acquired images in red.
 
 <figure>
@@ -141,34 +141,34 @@ TxF uses the [Common Log File System
 
 ## External links
 
-* [Technet: How NTFS Works](http://technet.microsoft.com/en-us/library/cc781134%28WS.10%29.aspx),
+* [Technet: How NTFS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781134(v=ws.10)?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 * [Master File Table](http://msdn.microsoft.com/en-us/library/bb470206(v=vs.85>).aspx)
-* [MS-FSCC - Known Alternate Stream Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx),
+* [MS-FSCC - Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
-* [Wikipedia: NTFS](http://en.wikipedia.org/wiki/NTFS)
-* [Wikipedia: NTFS Reparse point](http://en.wikipedia.org/wiki/NTFS_reparse_point)
-* [MSDN: Transactional NTFS](http://msdn.microsoft.com/en-us/library/bb968806%28v=VS.85%29.aspx)
-* [Wikipedia: Transactional NTFS](http://en.wikipedia.org/wiki/Transactional_NTFS)
+* [Wikipedia: NTFS](https://en.wikipedia.org/wiki/NTFS)
+* [Wikipedia: NTFS Reparse point](https://en.wikipedia.org/wiki/NTFS_reparse_point)
+* [MSDN: Transactional NTFS](https://learn.microsoft.com/en-us/windows/win32/fileio/transactional-ntfs-portal?redirectedfrom=MSDN)
+* [Wikipedia: Transactional NTFS](https://en.wikipedia.org/wiki/Transactional_NTFS)
 * [Windows NTFS Metadata Extractor Utility](http://www.tzworks.net/prototype_page.php?proto_id=12)
   Free tool that can be run on Windows, Linux or Mac OS-X
 * [Graphic Engine for NTFS Analysis (gena)](http://www.tzworks.net/prototype_page.php?proto_id=28)
   (GUI to view NTFS internals/extract data on live systems)
 * [Linux-ntfs Documentation](https://sourceforge.net/projects/linux-ntfs/files/NTFS%20Documentation/)
   Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
-* [Default cluster size for NTFS, FAT, and exFAT](http://support.microsoft.com/kb/140365)
+* [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
 * [Distributed Link Tracking and Object Identifiers](http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx)
 * [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/master/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
   by the [libfsntfs project](libfsntfs.md), August 2009
-* [The Four Stages of NTFS File Growth](http://blogs.technet.com/b/askcore/archive/2009/10/16/the-four-stages-of-ntfs-file-growth.aspx),
+* [The Four Stages of NTFS File Growth](https://learn.microsoft.com/en-us/archive/blogs/),
   by Jeff Hughes, October 16, 2009
-* [Incident Response with NTFS INDX Buffers – Part 1: Extracting an INDX Attribute](https://www.mandiant.com/blog/striking-gold-incident-response-ntfs-indx-buffers-part-1-extracting-indx/),
+* [Incident Response with NTFS INDX Buffers – Part 1: Extracting an INDX Attribute](https://www.mandiant.com/resources/blog),
   by William Ballenthin, September 18, 2012
-* [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/blog/incident-response-ntfs-indx-buffers-part-2-internal-structures-file-attribute/),
+* [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/resources/blog),
   by Jeff Hamm, September 26, 2012
 * [Analysis of hidden data in the NTFS file system](https://www.forensicfocus.com/hidden-data-analysis-ntfs),
   by Cheong Kai Wee
-* [The Four Stages of NTFS File Growth, Part 2](http://blogs.technet.com/b/askcore/archive/2015/03/12/the-four-stages-of-ntfs-file-growth-part-2.aspx),
+* [The Four Stages of NTFS File Growth, Part 2](https://learn.microsoft.com/en-us/archive/blogs/),
   by John Marlin, March 12, 2015
 * [A Tale of Two File Names](https://usn.pw/blog/gen/2015/06/09/filenames/),
   by Thomas Galvin, June 9, 2015
@@ -179,7 +179,7 @@ TxF uses the [Common Log File System
 
 ### Alternate Data Stream (ADS)
 
-* [MS-FSCC: Known Alternate Stream Names](https://msdn.microsoft.com/en-us/library/dn365326.aspx),
+* [MS-FSCC: Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
 
 ### USN change journal (UsnJrnl)

@@ -14,7 +14,7 @@ have a higher success rate and stay more competitive.
 ## External Links
 
 - [DFL-SRP For WD Firmware Repair
-  Tool](http://www.dolphindatalab.com/product/dfl-srp-for-wd-firmware-repair-tool/)
+  Tool](https://www.dolphindatalab.com/product/dfl-srp-for-wd-firmware-repair-tool/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

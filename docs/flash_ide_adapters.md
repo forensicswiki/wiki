@@ -11,4 +11,4 @@ a flash to USB adapter.
 
 ## Sources
 
-- [logicsupply.com](http://www.logicsupply.com/default.php/cPath/47_67)
+- [logicsupply.com](https://www.onlogic.com)

@@ -26,9 +26,9 @@ image. If you must ship disks, here are some instructions:
 4.  Image to a bare (internal) hard drive, such as [these internal hard
     drives](http://www.google.com/products?q=1tb+internal+hard+drive&aq=0&oq=1tb+inter).
 5.  To write to the image drive use either a [Firewire/USB2/eSATA
-    docks](http://eshop.macsales.com/item/Newer%20Technology/FWU2ES2HDK/)
+    docks](https://eshop.macsales.com/item/Newer%20Technology/FWU2ES2HDK/)
     or [USB2/eSATA
-    docks](http://eshop.macsales.com/item/Newer%20Technology/U2ES2HDK/).
+    docks](https://eshop.macsales.com/item/Newer%20Technology/U2ES2HDK/).
     I recommend getting two of these.
 6.  Keep the original drive safe and intact (and unshipped) until you
     verify that the image has been received intact.
@@ -52,9 +52,9 @@ image. If you must ship disks, here are some instructions:
 9.  Make sure you properly unmount the drive from the imaging station
     before you disconnect it. If you don't know how
     - [Ejecting Media on a
-      Mac](http://macs.about.com/od/faq1/f/ejectcddvd.htm)
+      Mac](https://www.lifewire.com/how-do-i-eject-cd-from-mac-2260195)
     - [Ejecting Media on
-      Windows](http://ask-leo.com/safely_remove_hardware_where_did_the_icon_go_how_do_i_safely_remove_hardware_without_it.html)
+      Windows](https://askleo.com/safely_remove_hardware_where_did_the_icon_go_how_do_i_safely_remove_hardware_without_it/)
     - [Ejecting Media on
       Linux](http://www.scottklarr.com/topic/133/how-to-mount-and-unmount-a-drive-in-linux/)
 

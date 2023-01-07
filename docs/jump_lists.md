@@ -68,7 +68,7 @@ Files: \*.customDestinations-ms
 
 CustomDestinations Jump List files reportedly follow a structure of
 sequential
-\[<http://msdn.microsoft.com/en-us/library/dd871305%28v=prot.13%29.aspx>:
+\[<https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-shllink/16cb4ca1-9339-4d0c-a68d-bf1d6cc0f943?redirectedfrom=MSDN>:
 MS-SHLLINK\] binary format segments.
 
 ## See also
@@ -79,13 +79,13 @@ MS-SHLLINK\] binary format segments.
 
 ## External Links
 
-- [Windows 7 Goodies in C++: Jump Lists](http://www.codeproject.com/Articles/36561/Windows-7-Goodies-in-C-Jump-Lists),
+- [Windows 7 Goodies in C++: Jump Lists](https://www.codeproject.com/Articles/36561/Windows-7-Goodies-in-C-Jump-Lists),
   by Michael Dunn, May 19, 2009
 - [Jump Lists in Windows 7 and Possible Forensic Implementations](http://mikeahrendt.blogspot.ch/2011/04/jump-lists-in-windows-7-and-possible.html),
   by Mike Ahrendt, April 3, 2011
 - [The Forensic Value of the Windows 7 Jump List](http://www.alexbarnett.com/jumplistforensics.pdf),
   by Alexander G Barnett, April 18, 2011
-- [Forensic Examination of Windows 7 Jump Lists](http://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
+- [Forensic Examination of Windows 7 Jump Lists](https://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
   by Troy Larson, June 6, 2011
 - [Jump List Analysis](http://windowsir.blogspot.ch/2011/08/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), August 17, 2011
@@ -97,7 +97,7 @@ MS-SHLLINK\] binary format segments.
   by Rob Lyness, October 2012
 - [Jump lists format](https://github.com/libyal/dtformats/blob/main/documentation/Jump%20lists%20format.asciidoc),
   by the [libyal project](libyal.md), July 2014
-- [Jump lists in depth (includes changes from Windows 10)](http://binaryforay.blogspot.com/2016/02/jump-lists-in-depth-understand-format.html),
+- [Jump lists in depth (includes changes from Windows 10)](https://binaryforay.blogspot.com/2016/02/jump-lists-in-depth-understand-format.html),
   by [Eric Zimmerman](eric_zimmerman.md), Feb 2016
 
 ## Tools
@@ -111,7 +111,7 @@ MS-SHLLINK\] binary format segments.
   files. For automaticDestinations it associates the MRU/MFU metadata
   with that of the SHLLINK metadata. There are versions of the tool that
   can run in Windows, Linux or Mac OS-X.
-- [Woanware: JumpLister](http://www.woanware.co.uk/?p=265). Tool to view
+- [Woanware: JumpLister](https://github.com/woanware). Tool to view
   the information within the numbered streams of each autodest file.
 - [plaso](plaso.md)
 - [JumpList](https://github.com/EricZimmerman/JumpList). Parser written

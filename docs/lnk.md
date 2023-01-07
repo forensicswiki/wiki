@@ -64,13 +64,13 @@ Windows Shell commands:
 
     %windir%\explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}
 
-<http://docs.rainmeter.net/tips/launching-windows-special-folders>
+<https://docs.rainmeter.net/tips/launching-windows-special-folders/>
 
 ## External Links
 
 - [The Meaning of Linkfiles In Forensic Examinations](http://computerforensics.parsonage.co.uk/downloads/TheMeaningofLIFE.pdf),
   by [Harry Parsonage](harry_parsonage.md), September 2008
-- [MS-SHLLINK](http://msdn.microsoft.com/en-us/library/dd871305%28PROT.13%29.aspx)
+- [MS-SHLLINK](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-shllink/16cb4ca1-9339-4d0c-a68d-bf1d6cc0f943?redirectedfrom=MSDN)
 - [Windows Shortcut File (LNK) format](https://github.com/libyal/liblnk/blob/master/documentation/Windows%20Shortcut%20File%20(LNK)%20format.asciidoc),
   by the [liblnk project](liblnk.md)
 - [Evidentiary Value of Link Files](https://www.forensicfocus.com/link-file-evidentiary-value), by
@@ -94,9 +94,9 @@ Windows Shell commands:
 
 ## Open Source
 
-- [jafat](http://jafat.sourceforge.net/files.html), free tool (in PERL)
+- [jafat](https://jafat.sourceforge.net/files.html), free tool (in PERL)
   that is capable of reading and reporting on Windows shortcut files
 - [liblnk](liblnk.md)
-- [lnk-parser](http://code.google.com/p/lnk-parser/)
+- [lnk-parser](https://code.google.com/archive/p/lnk-parser)
 - [lnk parser in C# that parses all structures](https://github.com/EricZimmerman/Lnk/)
 - [LECmd command line tool](https://github.com/EricZimmerman/LECmd/)

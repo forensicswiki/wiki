@@ -23,7 +23,7 @@ A Restore Point data sub directory contains:
 
 ## External Links
 
-* [Wikipedia: System Restore](http://en.wikipedia.org/wiki/System_Restore)
+* [Wikipedia: System Restore](https://en.wikipedia.org/wiki/System_Restore)
 * [MSDN: Legacy System Restore Reference](https://msdn.microsoft.com/en-us/library/windows/desktop/bb395209(v=vs.85>).aspx)
 * [Restore Point Forensics](http://www.stevebunting.org/udpd4n6/forensics/restorepoints.htm),
   by Steve Bunting

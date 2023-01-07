@@ -9,5 +9,5 @@ Blowfish is not subject to patents and is freely available for use.
 
 ## External Links
 
-* [The Blowfish Encryption Algorithm](http://www.schneier.com/blowfish.html)
+* [The Blowfish Encryption Algorithm](https://www.schneier.com/academic/blowfish/)
 * [Wikipedia: Blowfish (cipher)](https://en.wikipedia.org/wiki/Blowfish_(cipher))

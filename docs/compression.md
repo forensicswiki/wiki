@@ -26,7 +26,7 @@ Used in:
 
 ### LZSS
 
-* [Wikipedia: Lempel–Ziv–Storer–Szymanski](http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski)
+* [Wikipedia: Lempel–Ziv–Storer–Szymanski](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski)
 
 ### LZX
 
@@ -66,15 +66,15 @@ Used in:
 
 ## External Links
 
-* [Wikipedia: Lempel-Ziv](http://en.wikipedia.org/wiki/Lempel-Ziv)
-* [Microsoft Compression Formats](http://www.coderforlife.com/microsoft-compression-formats/)
+* [Wikipedia: Lempel-Ziv](https://en.wikipedia.org/wiki/Lempel-Ziv)
+* [Microsoft Compression Formats](https://www.coderforlife.com/microsoft-compression-formats/)
 
 ### Deflate/Inflate
 
-* [Wikipedia: DEFLATE](http://en.wikipedia.org/wiki/DEFLATE)
-* [RFC1950 - ZLIB Compressed Data Format Specification](https://tools.ietf.org/html/rfc1950),
+* [Wikipedia: DEFLATE](https://en.wikipedia.org/wiki/DEFLATE)
+* [RFC1950 - ZLIB Compressed Data Format Specification](https://www.rfc-editor.org/rfc/rfc1950),
   by IETF
-* [RFC1951 - DEFLATE Compressed Data Format Specification](https://tools.ietf.org/html/rfc1951),
+* [RFC1951 - DEFLATE Compressed Data Format Specification](https://www.rfc-editor.org/rfc/rfc1951),
   by IETF
 
 ### LZ1

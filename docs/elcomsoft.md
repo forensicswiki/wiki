@@ -8,7 +8,7 @@ and law enforcement specialists, provides training and consulting services on
 mobile and computer forensics. ElcomSoft forensic products and tools are used
 for criminal investigations by the law enforcement.  Today, the company offers
 the complete range of [mobile](https://www.elcomsoft.com/emfb.html) and
-[computer forensic tools](https://www.elcomsoft.com/eprb.html), corporate
+[computer forensic tools](https://www.elcomsoft.com/edfb.html), corporate
 security solutions and tools for IT security audits.
 
 ##### ElcomSoft Desktop and Mobile Forensic Solutions
@@ -28,7 +28,7 @@ BitLocker, FileVault 2, PGP Disk and TrueCrypt successors' containers.
 ##### ElcomSoft Password Recovery Tools
 
 ElcomSoft is best known for its extensive range of [password recovery
-tools](https://www.elcomsoft.com/eprb.html), allowing government,
+tools](https://www.elcomsoft.com/edfb.html), allowing government,
 corporate and private customers unlock valuable information protected
 with lost and forgotten passwords. ElcomSoft offers a range of consumer
 and enterprise-grade tools allowing its customers to gain information to
@@ -44,7 +44,7 @@ attempt to guess the right password.
 
 ElcomSoft pioneered many password recovery and information security
 technologies and algorithms. Its [GPU acceleration
-technology](https://www.elcomsoft.com/gpu_acceleration.html) offers an
+technology](https://support.elcomsoft.com/index.php?/Knowledgebase/Article/View/20/4/gpu-acceleration-in-elcomsoft-products) offers an
 orders of magnitude increase of password recovery speed on supported
 video cards. This technology was awarded a patent by the U.S. Copyright
 Office, and delivers supercomputer-like performance on ordinary PCs.

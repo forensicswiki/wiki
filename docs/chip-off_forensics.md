@@ -5,7 +5,7 @@ tags:
 ## Definition
 
 Wikipedia on [Forensic
-desoldering](http://en.wikipedia.org/wiki/Mobile_device_forensics#Forensic_desoldering)
+desoldering](https://en.wikipedia.org/wiki/Mobile_device_forensics#Forensic_desoldering)
 
 > The process is commonly referred to as a "chip-off" technique. The
 > procedure is often the last and often most intrusive method to acquire
@@ -46,5 +46,5 @@ state post-IC removal, is difficult.
 ## External links
 
 - [Understanding surface
-  mount](http://hackaday.com/2015/09/07/understanding-surface-mount/),
+  mount](https://hackaday.com/2015/09/07/understanding-surface-mount/),
   by Al Williams, September 7, 2015

@@ -44,7 +44,7 @@ From the [ddrescue](ddrescue.md) info pages:
 ### Bootable CD
 
 ddrescue is available on bootable rescue cds such as SystemRescueCd
-<http://www.sysresccd.org/Main_Page>.
+<https://www.system-rescue.org/>.
 
 ### Debian and Ubuntu
 
@@ -214,7 +214,7 @@ etc...
 
 As of release 1.4-rc1, it can be compiled directly in
 [Cygwin](cygwin.md) [Out of the
-Box](http://en.wikipedia.org/wiki/Out_of_the_box). Precompiled packages
+Box](https://en.wikipedia.org/wiki/Out_of_the_box). Precompiled packages
 are available in the [Cygwin distribution](http://cygwin.com/packages/).
 This makes it usable natively on [Windows](windows.md) systems.
 
@@ -228,4 +228,4 @@ This makes it usable natively on [Windows](windows.md) systems.
 
 ## Other Resources
 
-\[<http://pfuender.net/?p=80>\| Useful code-snippets for DDrescue\]
+\[<http://blog.pfuender.net/?p=80>\| Useful code-snippets for DDrescue\]

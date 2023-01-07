@@ -16,7 +16,7 @@ success rate and stay more competitive.
 ## External Links
 
 - [DFL-SRP For Seagate Firmware Repair
-  Tool](http://www.dolphindatalab.com/product/dfl-srp-for-seagate-firmware-repair-tool/)
+  Tool](https://www.dolphindatalab.com/product/dfl-srp-for-seagate-firmware-repair-tool/)
 
 [Dolphin_Data_Lab](dolphin_data_lab.md)
 

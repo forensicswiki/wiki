@@ -28,7 +28,7 @@ Below you will find some of the Tcpdump switches most useful in typical
 digital forensic investigations, including the ability to transfer
 Tcpdump output in binary form (which creates a PCAP file) to a forensic
 workstation using Netcat. See
-[here](http://www.tcpdump.org/manpages/tcpdump.1.html) for a complete
+[here](https://www.tcpdump.org/manpages/tcpdump.1.html) for a complete
 list of Tcpdump switches, along with other information on the Tcpdump
 manpage.
 
@@ -79,4 +79,4 @@ basic packet capture with tcpdump:
 
 ## External Links
 
-- [WinDump - tcpdump for Windows](http://www.winpcap.org/windump/)
+- [WinDump - tcpdump for Windows](https://www.winpcap.org/windump/)

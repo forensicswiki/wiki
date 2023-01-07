@@ -32,9 +32,9 @@ SourgeForge.
 
 See:
 
-- [PRONOM](http://www.nationalarchives.gov.uk/PRONOM/Default.aspx)
+- [PRONOM](https://www.nationalarchives.gov.uk/PRONOM/Default.aspx)
 - [JHOVE](https://jhove.openpreservation.org/)
-- [GDFR](http://www.gdfr.info/)
+- [GDFR](https://www.gdfr.info/)
 - [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
 - [DROID download](http://droid.sourceforge.net)
 
@@ -45,7 +45,7 @@ See:
 - New filetypes can be added in an automated way, simply scanning a
   group of files
 - Win32, Linux/x86 & x86-64; closed source; free for non-commercial use
-- <http://mark0.net/soft-trid-e.html>
+- <https://mark0.net/soft-trid-e.html>
 
 ## Forensic Innovations File Investigator TOOLS
 
@@ -65,7 +65,7 @@ See:
 - Free
 - Runs in the browser
 - HTML5/JS port of the UNIX "file" tool and libmagic
-- <http://www.toolsley.com/file.html>
+- <https://www.toolsley.com/file.html>
 
 ## Falstaff
 
@@ -73,7 +73,7 @@ See:
 - Online
 - Based on machine learning techniques, uses multiple file features
 - Uses novel signatures computed from file format samples
-- Identifications are linked to <http://fileformats.archiveteam.org>
+- Identifications are linked to <http://fileformats.archiveteam.org/wiki/Main_Page>
   ontology
 - <http://ec2-52-37-126-112.us-west-2.compute.amazonaws.com/falstaff>
 
@@ -189,7 +189,7 @@ bibliography is in chronological order!**
   Detection](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4625611),
   Proceedings of the 13th IEEE Symposium on Computers and Communications
   (ISCC'08), pp.1103-1108, July 2008.
-  ([PDF](http://arxiv.org/ftp/arxiv/papers/1002/1002.3174.pdf))
+  ([PDF](https://arxiv.org/ftp/arxiv/papers/1002/1002.3174.pdf))
 
 2009
 

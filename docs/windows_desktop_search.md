@@ -71,14 +71,14 @@ database' this is easily circumvented.
 
 * [Official website](http://www.microsoft.com/windows/desktopsearch/)
 * [Wikipedia entry on Windows Desktop
-  Search](http://en.wikipedia.org/wiki/Windows_Desktop_Search)
+  Search](https://en.wikipedia.org/wiki/Windows_Desktop_Search)
 * [Wikipedia list of Desktop search
   engines](http://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
 * [Forensic analysis of the Windows Search
-  database](http://code.google.com/p/libesedb/downloads/detail?name=Forensic%20analysis%20of%20the%20Windows%20Search%20database.pdf)
+  database](https://code.google.com/archive/p/libesedb/downloads)
 
 ## Tools
 
 * [EseDBViewer](http://www.woany.co.uk/esedbviewer/)
 * [libesedb](libesedb.md)
-* [Windows Search Index Examiner](http://www.lostpassword.com/search-index-examiner.htm)
+* [Windows Search Index Examiner](https://www.passware.com/products/)

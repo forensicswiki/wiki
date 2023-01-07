@@ -66,16 +66,16 @@ with applications at higher level/permission.
   Analysis](https://www.symantec.com/avcenter/reference/Vista_Network_Attack_Surface_RTM.pdf),
   James Hoagland, Matt Conover, Tim Newsham, Ollie Whitehouse
 - [Inside the Windows Vista Kernel: Part
-  1](http://technet.microsoft.com/en-us/magazine/2007.02.vistakernel.aspx),
+  1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)?redirectedfrom=MSDN),
   by [Mark Russinovich](mark_russinovich.md), February 2007
 - [Inside the Windows Vista Kernel: Part
   2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
   by [Mark Russinovich](mark_russinovich.md), March 2007
 - [Inside the Windows Vista Kernel: Part
-  3](http://technet.microsoft.com/en-us/magazine/2007.04.vistakernel.aspx),
+  3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)?redirectedfrom=MSDN),
   by [Mark Russinovich](mark_russinovich.md), April 2007
 - [Forensic Implications of Windows
-  Vista](http://whereismydata.files.wordpress.com/2009/09/forensic-implications-of-windows-vista.pdf),
+  Vista](https://whereismydata.files.wordpress.com/2009/09/forensic-implications-of-windows-vista.pdf),
   by Barrie Stewart, September 2007
 - [What is User Interface Privilege Isolation (UIPI) on
   Vista](http://blogs.msdn.com/b/vishalsi/archive/2006/11/30/what-is-user-interface-privilege-isolation-uipi-on-vista.aspx),

@@ -24,4 +24,4 @@ processing many different formats including:
 
 ## External Links
 
-- [Official website](http://www.nuix.com/)
+- [Official website](https://www.nuix.com/)

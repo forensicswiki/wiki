@@ -32,5 +32,5 @@ Other features:
 
 ## External Links
 
-- [nmap.org](http://nmap.org/)
+- [nmap.org](https://nmap.org/)
 

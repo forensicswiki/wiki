@@ -6,7 +6,7 @@ tags:
 
 * [Making iris recognition more reliable and spoof resistant](http://spie.org/x14548.xml),
   by Adam Czajka, Przemek Strzelczyk, and Andrzej Pacut, SPIE 2007.
-- [Biometric Technology Today](http://www.sciencedirect.com/science/journal/09694765)
+- [Biometric Technology Today](https://www.sciencedirect.com/journal/biometric-technology-today)
   has many articles on iris identification.
 - [Introduction to Iris Recognition](http://www.cl.cam.ac.uk/~jgd1000/iris_recognition.html)
   by John Daugman

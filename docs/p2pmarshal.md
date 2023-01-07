@@ -47,5 +47,5 @@ Justice (NIJ) grant. The project was originally named File Marshal.
 
 - [DFRWS'07 File Marshal paper
   (pdf)](http://dfrws.org/2007/proceedings/p43-adelstein_pres.pdf)
-- [p2pmarshal.com](http://www.p2pmarshal.com/)
-- [ATC-NY](http://atc-nycorp.com)
+- [p2pmarshal.com](https://www.atcorp.com/)
+- [ATC-NY](https://www.atcorp.com/)

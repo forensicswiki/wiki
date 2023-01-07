@@ -22,7 +22,7 @@ Hitachi *Bulk Data Encryption* ("BDE")
 
 - FIPS 197 (Federal Information Processing Standard 197 certification
   issued by NIST)
-- [AES-128](http://csrc.nist.gov/groups/STM/cavp/documents/aes/aesval.html)
+- [AES-128](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search)
 
 Seagate *Full Disk Encryption* ("FDE")
 <http://www.seagate.com/docs/pdf/marketing/PO-Momentus-FDE.pdf>
@@ -70,9 +70,9 @@ iStorage DiskCrypt Mobile
 <!-- -->
 
 Network Appliance (Decru)
-<http://www.netapp.com/ftp/decru-fileshredding.pdf>
+<https://www.netapp.com/ftp/decru-fileshredding.pdf>
 
-<http://www.netapp.com/us/products/storage-security-systems/>
+<https://www.netapp.com/us/products/storage-security-systems/>
 
 ## Software Solutions
 
@@ -107,7 +107,7 @@ keys) and [3DES](3des.md) (uses a 64 bit blocksize and accepts
 <!-- -->
 
 [Checkpoint Full Disk Encryption](checkpoint_full_disk_encryption.md)
-<http://www.checkpoint.com/products/datasecurity/pc/>
+<https://www.checkpoint.com/quantum/data-loss-prevention/>
 
 <!-- -->
 
@@ -162,7 +162,7 @@ Supports hidden volumes and Pre-Boot Authentification.
 <!-- -->
 
 Jetico BestCrypt
-<http://www.jetico.com/>
+<https://www.jetico.com/>
 
 <!-- -->
 
@@ -179,7 +179,7 @@ Transparent file system and swap encryption for [Linux](linux.md)
 using the Linux 2.6 device mapper. Supports various [ciphers](ciphers.md) and
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 
-<http://www.saout.de/misc/dm-crypt/>
+<https://www.saout.de/misc/dm-crypt/>
 
 <!-- -->
 
@@ -210,7 +210,7 @@ and [IDEA](idea.md)
 Provides complete [hard drive](hard_drive.md) encryption
 including the boot disk.
 
-<http://www.utimaco.us/products>
+<https://utimaco.com/products>
 
 <!-- -->
 
@@ -218,7 +218,7 @@ including the boot disk.
 [SECUDE](secude.md) provides a software and hardware solution
 for full disk encryption.
 
-<http://www.secude.com>
+<https://secude.com/>
 
 <!-- -->
 
@@ -234,7 +234,7 @@ and [Twofish](twofish.md).
 
 Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 
-<http://www.truecrypt.org/>
+<https://truecrypt.sourceforge.net/>
 
 <!-- -->
 
@@ -278,6 +278,6 @@ the encryption software, as noted in the table below:
 
 ## External Links
 
-* [Wiki page for FDE on Thinkpads](http://www.thinkwiki.org/wiki/Full_Disk_Encryption_(FDE))
+* [Wiki page for FDE on Thinkpads](https://www.thinkwiki.org/wiki/Full_Disk_Encryption_(FDE))
 * [Bypassing SelfEncrypting Drives (SED) in Enterprise Environments](https://www.blackhat.com/docs/eu-15/materials/eu-15-Boteanu-Bypassing-Self-Encrypting-Drives-SED-In-Enterprise-Environments.pdf),
   by Daniel Boteanu and Kevvie Fowler, November 12, 2015

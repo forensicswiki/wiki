@@ -19,7 +19,7 @@ also be opened with a variety of other programs (i.e., notepad, hex editors,
 etc).
 
 HTML can trace its development from SGML as a text-based markup language.
-[1](http://en.wikipedia.org/wiki/SGML)
+[1](https://en.wikipedia.org/wiki/SGML)
 
 ## XHTML
 
@@ -28,8 +28,8 @@ nature to HTML, but has a stricter [XML](xml.md)-based syntax.
 
 ## External Links
 
-* [Wikipedia: HTML](http://en.wikipedia.org/wiki/Html)
-* [Wikipedia: XHTML](http://en.wikipedia.org/wiki/Xhtml)
-* [Wikipedia: SGML](http://en.wikipedia.org/wiki/SGML)
-* [HTML 4.01 Specification](http://www.w3.org/TR/html401/)
-* [XHTML 1.1 Specification](http://www.w3.org/TR/xhtml11/)
+* [Wikipedia: HTML](https://en.wikipedia.org/wiki/Html)
+* [Wikipedia: XHTML](https://en.wikipedia.org/wiki/Xhtml)
+* [Wikipedia: SGML](https://en.wikipedia.org/wiki/SGML)
+* [HTML 4.01 Specification](https://www.w3.org/TR/html401/)
+* [XHTML 1.1 Specification](https://www.w3.org/TR/xhtml11/)

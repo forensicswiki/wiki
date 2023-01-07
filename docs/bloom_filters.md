@@ -5,19 +5,19 @@ tags:
 ---
 # References
 
-- [Network Applications of Bloom Filters: A Survey](http://www.internetmathematics.org/volumes/1/4/Broder.pdf),
+- [Network Applications of Bloom Filters: A Survey](https://www.tandfonline.com/toc/uinm20/current),
   Andrei Broder and Michael Mitzenmacher, Internet Mathematics Vol. 1,
   No 4: 485--509
 
 <!-- -->
 
-- [Beyond bloom filters: from approximate membership checks to approximate state machines](http://portal.acm.org/citation.cfm?id=1151659.1159950),
+- [Beyond bloom filters: from approximate membership checks to approximate state machines](https://dl.acm.org/doi/10.1145/1151659.1159950),
   Bonomi et all, ACM SIGCOMM Computer Communication Review archive,
   Volume 36 , Issue 4 (October 2006)
 
 <!-- -->
 
-- Burton H. Bloom, [Space/time trade-offs in hash coding with allowable errors](http://portal.acm.org/citation.cfm?id=362692&dl=GUIDE&coll=GUIDE&CFID=59101912&CFTOKEN=60283506),
+- Burton H. Bloom, [Space/time trade-offs in hash coding with allowable errors](https://dl.acm.org/doi/10.1145/362686.362692),
   Communications of the ACM, v.13 n.7, p.422-426, July 1970
 
 <!-- -->

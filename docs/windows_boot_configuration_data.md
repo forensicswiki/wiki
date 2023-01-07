@@ -41,11 +41,11 @@ boot into safe mode.
   Update](http://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Boot_Modifications.doc),
   by [Microsoft](microsoft.md)
 - [BCD System Store Settings for
-  UEFI](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/bcd-system-store-settings-for-uefi?view=windows-11),
+  UEFI](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/bcd-system-store-settings-for-uefi?view=windows-11),
   by [Microsoft](microsoft.md), October 8, 2021
 
 ### Malware analysis
 
 - [Sodinokibi ransomware exploits WebLogic Server
-  vulnerability](https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html),
+  vulnerability](https://blog.talosintelligence.com/sodinokibi-ransomware-exploits-weblogic/),
   by Talos Intelligence, April 30, 2019

@@ -44,7 +44,7 @@ and etc.
 ## External Links
 
 - [Download
-  Link](http://download.cnet.com/MiniTool-Partition-Wizard-Free/3000-2094_4-10962200.html?part=dl-&subj=dl&tag=button)
+  Link](https://download.cnet.com/MiniTool-Partition-Wizard-Free-Edition/3000-2094_4-10962200.html?part=dl-http://download.cnet.com/MiniTool-Partition-Wizard-Free/3000-2094_4-10962200.html?part=dl-&subj=dl&tag=buttonsubj=dlhttp://download.cnet.com/MiniTool-Partition-Wizard-Free/3000-2094_4-10962200.html?part=dl-&subj=dl&tag=buttontag=button)
 - [MiniTool Partition Wizard
   (Free)](http://www.minitool-partitionrecovery.com/minitool-partition-wizard.html)
 - [MiniTool Solution Ltd. Official

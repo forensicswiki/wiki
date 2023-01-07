@@ -26,5 +26,5 @@ PNG files begin with the following 8-byte (hexadecimal) signature:
 
 # External Links
 
-* [Wikipedia article](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
-* [W3C Recommendation](http://www.w3.org/TR/2003/REC-PNG-20031110/)
+* [Wikipedia article](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+* [W3C Recommendation](https://www.w3.org/TR/2003/REC-PNG-20031110/)

@@ -89,5 +89,5 @@ The compressed blocks are bit-aligned and no padding occurs.
 
 ## External Links
 
-- [Wikipedia: bzip2](http://en.wikipedia.org/wiki/Bzip2)
+- [Wikipedia: bzip2](https://en.wikipedia.org/wiki/Bzip2)
 

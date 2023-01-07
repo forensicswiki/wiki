@@ -10,7 +10,7 @@ Caine (an acronym for Computer Aided Investigative Environment) is a
 distribution [live](live_cd.md) oriented to [computer forensics](computer_forensics.md)
 historically conceived by Giancarlo Giustini, within a project of Digital
 Forensics* Interdepartmental Research Center for Security'' (CRIS) of the
-University of Modena and Reggio Emilia see [Official Site](http://www.caine-live.net/page4/history.html).
+University of Modena and Reggio Emilia see [Official Site](https://www.caine-live.net//page4/history.html).
 Since the end of the **2009** and currently the project is maintained by Nanni
 Bassetti.
 
@@ -154,7 +154,7 @@ the project Caine since the 1.0 release to date that has arrived at
 version 4.0 (18-March-2013) and achieving praise from law enforcements
 of several foreign nations.
 
-November 24, 2012 The Caine 3.0 was presented at the [Opens Source Day 2012](http://www.opensourceday.org/2012/?mid=20)
+November 24, 2012 The Caine 3.0 was presented at the [Opens Source Day 2012](https://www.opensourceday.org/2012/?mid=20)
 at the University of Udine.
 
 ## Bibliography
@@ -177,16 +177,16 @@ at the University of Udine.
 
 - [Open Source Live Distributions for Computer Forensics- by Springer](http://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
 - [Google books](http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQ)
-- [Linux-Mazin.de](http://www.linux-magazin.de/Ausgaben/2010/12/Italienische-Aufklaerung)
+- [Linux-Mazin.de](https://www.linux-magazin.de/ausgaben/2010/12/italienische-aufklaerung/)
 - [Linux-Magazine.com](http://www.linux-magazine.com/Issues/2011/122/Caine)
-- [Opens Source Day 2012](http://www.opensourceday.org/2012/?mid=20)
-- [TechTarget.it](http://searchsecurity.techtarget.it/articoli/0,1254,18_ART_103282,00.html)
+- [Opens Source Day 2012](https://www.opensourceday.org/2012/?mid=20)
+- [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
 - [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
-- [gustavopimental.com.ar](http://www.gustavopimentel.com.ar/)
+- [gustavopimental.com.ar](http://gustavopimentel.com.ar/)
 - [concise-courses.com](http://www.concise-courses.com/security/top-ten-distros/#)
-- [ilsoftware.it](http://www.ilsoftware.it/articoli.asp?tag=CAINE-progetto-italiano-per-la-computer-forensics_5656)
-- [dragonjar.org](http://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
-- [Attestato Marenostrum V.F.F.](http://www.nannibassetti.com/dblog/articolo.asp?articolo=156)
-- [LinuxFormat](http://www.linuxformat.com/archives?issue=151)
-- [TechRepublic](http://www.techrepublic.com/blog/10things/10-obscure-linux-distributions-and-why-you-should-know-about-them/2334)
-- [Sito ufficiale](http://www.caine-live.net)
+- [ilsoftware.it](https://www.ilsoftware.it/articoli.asp?tag=CAINE-progetto-italiano-per-la-computer-forensics_5656)
+- [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
+- [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)
+- [LinuxFormat](https://www.linuxformat.com/archives?issue=151)
+- [TechRepublic](https://www.techrepublic.com/article/10-obscure-linux-distributions-and-why-you-should-know-about-them/)
+- [Sito ufficiale](https://www.caine-live.net/)

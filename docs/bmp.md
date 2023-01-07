@@ -16,4 +16,4 @@ extract, view, and remove BMP metadata.
 
 ## External Links
 
-* [Wikipedia: BMP](http://en.wikipedia.org/wiki/Windows_bitmap)
+* [Wikipedia: BMP](https://en.wikipedia.org/wiki/Windows_bitmap)

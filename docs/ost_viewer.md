@@ -89,8 +89,8 @@ functioning queries.
 ## External Links
 
 [Portable OST Viewer for Windows
-&Mac](http://www.bitrecover.com/free/ost-viewer/)
+&Mac](https://www.bitrecover.com/free/ost-viewer/)
 
 [Official Website](http://www.systoolsgroup.com/)
 
-[FREE OST Viewer](http://www.freeviewer.org/ost/)
+[FREE OST Viewer](https://www.freeviewer.org/ost/)

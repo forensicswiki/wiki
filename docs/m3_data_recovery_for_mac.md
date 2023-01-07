@@ -37,6 +37,6 @@ M3 Data Recovery for Mac supports Mac OS X 10.10 (Yosemite), 10.9
 ## External Links
 
 - [Download
-  Link](http://free-mac-data-recovery-software.en.softonic.com/mac)
+  Link](https://free-mac-data-recovery-software.en.softonic.com/mac)
 - [M3 Data Recovery for
-  Mac](http://www.m3datarecovery.com/mac-data-recovery/)
+  Mac](https://iboysoft.com/mac-data-recovery/free-mac-data-recovery.html)

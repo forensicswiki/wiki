@@ -33,7 +33,7 @@ All books are listed alphabetically, by title, and linked to Amazon product page
 | [Electronic Crime Scene Investigation: A Guide for First Responders](https://www.ojp.gov/pdffiles1/nij/219941.pdf) | NCJ 187736 | | National Institute of Justice | July 2001 | NIJ Guide |
 | [File System Forensic Analysis [1st Edition]](https://www.amazon.com/System-Forensic-Analysis-Brian-Carrier/dp/0321268172) | Brian Carrier | 9780321268174 | Addison-Wesley Professional | Mar 17, 2005 | Highly recommended |
 | [Forensic Discovery](https://www.amazon.com/Forensic-Discovery-Dan-Farmer/dp/0321703251) | Dan Farmer and Wietse Venema | 9780321703255 | Addison-Wesley Professional | Dec 30, 2004 | [HTML version](http://www.porcupine.org/forensics/forensic-discovery/) of the book is freely available online. |
-| [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](http://www.ncjrs.gov/pdffiles1/nij/199408.pdf) | NCJ 199408 | | National Institute of Justice | April 2004 | Special Report |
+| [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](https://www.ojp.gov/pdffiles1/nij/199408.pdf) | NCJ 199408 | | National Institute of Justice | April 2004 | Special Report |
 | [Handbook of Digital Forensics and Investigation [1st Edition]](https://www.amazon.com/Handbook-Digital-Forensics-Investigation-Eoghan/dp/0123742676) | Eoghan Casey BS MA | 9780123742674 | Academic Press | Nov 09, 2009 | |
 | [Incident Response & Computer Forensics, Third Edition](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684) | Jason T. Luttgens, Matthew Pepe, and Kevin Mandia | 9780071798686 | McGraw Hill | August 4, 2014 | Highly Recommended |
 | [Investigating Computer-Related Crime [1st Edition]](https://www.amazon.com/Investigating-Computer-Related-Crime-Peter-Stephenson/dp/0849322189) | Peter Stephenson | 9780849322181 | CRC Press | Sep 28, 1999 | |
@@ -66,13 +66,13 @@ All books are listed alphabetically, by title, and linked to Amazon product page
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
 | - | - | - | - | - | - |
-| [Computer-Forensik [2nd Edition]](http://www.dpunkt.de/buecher/3-89864-379-4.html) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://www.computer-forensik.org/) and blog of the author |
+| [Computer-Forensik [2nd Edition]](http://www.dpunkt.de/buecher/3-89864-379-4.html) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://computer-forensik.org/) and blog of the author |
 
 ### Italian
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
 | - | - | - | - | - | - |
-| [Computer Forensics [1st Edition]](http://www.apogeonline.com/libri/88-503-2593-2/scheda) | Andrea Ghirardini and Gabriele Faggioli | 9788850331994 | Apoge | May 17, 2007 | |
+| [Computer Forensics [1st Edition]](https://www.apogeonline.com/libri/digital-forensics-andrea-ghirardini-gabriele-faggioli/) | Andrea Ghirardini and Gabriele Faggioli | 9788850331994 | Apoge | May 17, 2007 | |
 
 ### Portuguese
 

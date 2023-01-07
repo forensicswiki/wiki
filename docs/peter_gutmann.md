@@ -11,5 +11,5 @@ Memory](http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html).
 
 - [Peter Gutmann's homepage](http://www.cs.auckland.ac.nz/~pgut001/)
 - [Wikipedia article on Peter
-  Gutmann](http://en.wikipedia.org/wiki/Peter_Gutmann)
+  Gutmann](https://en.wikipedia.org/wiki/Peter_Gutmann)
 

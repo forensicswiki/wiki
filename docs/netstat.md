@@ -44,9 +44,9 @@ which the computer is listening. The -n parameter tells netstat to show
 all the TCP connections but to not resolve the host-name, this will
 greatly increase the speed of the command. The -p parameter shows which
 processes are using which sockets. (see
-[here](http://pcsupport.about.com/od/commandlinereference/p/netstat-command.htm)
+[here](https://www.lifewire.com/netstat-command-2618098)
 for detailed explanations of Netstat switches on Windows systems, and
-[here](http://crybit.com/netstat-command-switches/) for detailed
+[here](https://www.crybit.com/netstat-command-switches/) for detailed
 explanations of Netstat switches on UNIX systems).
 
 Below is an example of an excerpt from the Netstat output (taken from a

@@ -16,4 +16,4 @@ X](mac_os_x.md) and [Cygwin](cygwin.md) (win32).
 ## External Links
 
 - [Vinetto review and
-  test](http://vinetto.sourceforge.net/test_JF_Beckers/vinetto.html)
+  test](https://vinetto.sourceforge.net/test_JF_Beckers/vinetto.html)

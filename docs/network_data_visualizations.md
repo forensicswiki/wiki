@@ -15,7 +15,7 @@ Examination of congestion control strategy with xplot visualization:
 
 Very cool video visualization of TCP flows:
 <https://github.com/aristus/packet-flight/tree/master/packet_flight/js>
-(facebook example: <http://vimeo.com/17248120>)
+(facebook example: <https://vimeo.com/17248120>)
 
 Software project that visualizes TCP flows:
 <http://research.protocollabs.com/captcp/>

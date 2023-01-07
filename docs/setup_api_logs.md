@@ -9,7 +9,7 @@ Windows XP
     \Windows\setupapi.log
     \Windows\setupapi.log.old
 
-\[<https://technet.microsoft.com/en-us/library/ee851579(v=ws.10>).aspx
+\[<https://learn.microsoft.com/en-us/>).aspx
 Windows 7\] and up include
 
     \Windows\inf\setupapi.app.log

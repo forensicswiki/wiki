@@ -122,7 +122,7 @@ For more information see:
 
 - [Project site](http://www.rekall-forensic.com/)
 - [Project documentation](http://www.rekall-forensic.com/docs.html)
-- [Rekall Memory Forensics blog](http://rekall-forensic.blogspot.com/)
+- [Rekall Memory Forensics blog](http://blog.rekall-forensic.com/)
 - [Anti-forensic resilient memory acquisition](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2013.html)\]
   by Johannes Stüttgen and [Michael Cohen](michael_cohen.md), August 2013
 - [Robust Linux memory acquisition with minimal target impact](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2014EU.html),

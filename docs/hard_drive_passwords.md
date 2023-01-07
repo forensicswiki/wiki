@@ -28,7 +28,7 @@ encryption key must be cracked or discovered through another means.
 <!-- -->
 
 - [Seagate HDD Service Device for 2,5" drives BASIC
-  Kit](http://www.hdd.profesjonalnie.pl/to.php): The tool works with
+  Kit](https://www.aftermarket.pl/domena/profesjonalnie.pl/?_track=338ea8753367abd836c902c3c11bec5c): The tool works with
   2,5" drives of Seagate. Main functionality - ATA PASSWORD removal from
   2,5" drives.
 

@@ -17,7 +17,7 @@ and to verify the any defence alibi evidence.
 ## External Links
 
 [Introduction to Cell Site
-Analysis](http://afentis.com/telephone-evidence/cell-site-analysis/)
+Analysis](https://www.afentis.com/cell-site-analysis/)
 
 [Cell Site Analysis Hardware & Survey
 Toolkit](http://www.cellanalyst.com/)

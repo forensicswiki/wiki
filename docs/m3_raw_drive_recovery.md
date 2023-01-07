@@ -36,6 +36,6 @@ Server 2008, Windows Server 2012.
 
 ## External Links
 
-- [Download Link](http://raw-drive-recovery.en.softonic.com/)
+- [Download Link](https://raw-drive-recovery.en.softonic.com/)
 - [M3 RAW Drive
-  Recovery](http://www.m3datarecovery.com/raw-drive-recovery/)
+  Recovery](https://iboysoft.com/raw-drives-recovery/)

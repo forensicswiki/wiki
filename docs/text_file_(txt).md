@@ -11,7 +11,7 @@ tags:
 ---
 The **Text file (TXT)** format consist of 8-, 16- or 32-bit characters
 that use printable characters along with some control data such as tabs
-and line feeds. [1](http://en.wikipedia.org/wiki/Text_file) Text files
+and line feeds. [1](https://en.wikipedia.org/wiki/Text_file) Text files
 are split into several major types:
 
 - DOS/Windows format ends each line using Carriage Return (CR) or
@@ -27,7 +27,7 @@ are split into several major types:
   UTF-32. Earlier equivalent encodings are respectively UCS-1, UCS-2 and
   USC-4
 - EBCIDIC used char(15) for a new line.
-  [2](http://en.wikipedia.org/wiki/EBCDIC)
+  [2](https://en.wikipedia.org/wiki/EBCDIC)
 
 They are usually [ASCII](ascii.md) encoded, although other encodings are
 possible to allow various language scripts to be used. Other encodings include

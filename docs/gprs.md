@@ -32,7 +32,7 @@ funcionality, using the cell phone as modem for laptops. instant messaging
 and lots more.
 
 For a more complete list, see [Nokia: What You Can Do With
-GPRS](http://www.nokia.be/uk/Phones/Technologies/gprs/benefits.html).
+GPRS](https://www.nokia.com/).
 
 ## GPRS Classes
 
@@ -74,5 +74,5 @@ of transfer.
 
 - <http://www.gsmworld.com/technology/gprs/class.shtml>
 - <http://www.kochar.com/gprs/classtypes.html>
-- <http://www.nokia.be/uk/Phones/Technologies/gprs/benefits.html>
-- [Wikipedia: GPRS](http://en.wikipedia.org/wiki/GPRS)
+- <https://www.nokia.com/>
+- [Wikipedia: GPRS](https://en.wikipedia.org/wiki/GPRS)

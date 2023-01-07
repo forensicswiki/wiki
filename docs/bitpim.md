@@ -4,7 +4,7 @@ tags:
   - Open Source Software
   - Tools
 ---
-BitPim is a free, [open source](http://www.opensource.org/docs/definition.php), cross-platform
+BitPim is a free, [open source](https://opensource.org/docs/definition.php), cross-platform
 program for viewing and editing data on a [CDMA](cdma.md) cell phone.
 Roger Binns was the founder, project manager,
 and lead developer of the project, first releasing it on March 1st,

@@ -60,11 +60,11 @@ attack.
 
 - [Official website](https://www.torproject.org/)
 - [Article in
-  Wikipedia](http://en.wikipedia.org/wiki/Tor_(anonymity_network))
+  Wikipedia](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
 - [Tor Unreliable Datagram Extension
   Proposal](https://www.torproject.org/svn/trunk/doc/spec/proposals/100-tor-spec-udp.txt)
 
 <!-- -->
 
 - [Low-Cost Traffic Analysis of Tor (University of
-  Cambridge)](http://www.cl.cam.ac.uk/~sjm217/papers/oakland05torta.pdf)
+  Cambridge)](https://murdoch.is/papers/oakland05torta.pdf)

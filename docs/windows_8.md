@@ -57,7 +57,7 @@ A common location for Amcache.hve is:
 
 ## External Links
 
-- [Features new to Windows 8](http://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
+- [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
 - [Windows 8 Forensics - part 1](http://computerforensics.champlain.edu/blog/windows-8-forensics)
 - [Windows 8 Forensics - part 2](http://computerforensics.champlain.edu/blog/windows-8-forensics-part-2)
 - [Windows 8 Forensics - part 3](http://computerforensics.champlain.edu/blog/windows-8-forensics-part-3)
@@ -65,12 +65,12 @@ A common location for Amcache.hve is:
 - [Windows 8 Forensic Guide](http://propellerheadforensics.files.wordpress.com/2012/05/thomson_windows-8-forensic-guide2.pdf),
   by [Amanda C. F. Thomson](amanda_thomson.md), 2012
 - [Forensic Focus: Windows 8 Forensics - A First Look](https://www.forensicfocus.com/Forums/viewtopic/t=9604/),
-  [Presentation](http://www.youtube.com/watch?v=uhCooEz9FQs&feature=youtu.be),
+  [Presentation](https://www.youtube.com/watch?v=uhCooEz9FQshttp://www.youtube.com/watch?v=uhCooEz9FQs&feature=youtu.befeature=youtu.be),
   [Slides](https://www.forensicfocus.com/downloads/windows-8-forensics-josh-brunty.pdf),
   by [Josh Brunty](josh_brunty.md), August 2012
-- [Windows 8: Tracking Opened Photos](http://dfstream.blogspot.ch/2013/03/windows-8-tracking-opened-photos.html),
+- [Windows 8: Tracking Opened Photos](https://dfstream.blogspot.com/2013/03/windows-8-tracking-opened-photos.html),
   by Jason Hale, March 8, 2013
-- [Windows 8 and 8.1: Search Charm History](http://dfstream.blogspot.com/2013/09/windows-8-and-81-search-charm-history.html),
+- [Windows 8 and 8.1: Search Charm History](https://dfstream.blogspot.com/2013/09/windows-8-and-81-search-charm-history.html),
   by Jason Hale, September 9, 2013
 - [Amcache.hve in Windows 8 - Goldmine for malware hunters](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html),
   by Yogesh Khatri, December 4, 2013

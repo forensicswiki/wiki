@@ -24,4 +24,4 @@ you're analyzing behaves in a certain way.
 
 ### C/C++ Program validation
 
-- [AddressSanitizer: a fast memory error detector](https://code.google.com/p/address-sanitizer/)
+- [AddressSanitizer: a fast memory error detector](https://github.com/google/sanitizers)

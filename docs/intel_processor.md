@@ -24,13 +24,13 @@ tags:
 # External links
 
 - [Wikipedia: List of Intel
-  microprocessors](http://en.wikipedia.org/wiki/List_of_Intel_microprocessors)
+  microprocessors](https://en.wikipedia.org/wiki/List_of_Intel_microprocessors)
 - [Wikipedia: Memory
-  address](http://en.wikipedia.org/wiki/Memory_address)
+  address](https://en.wikipedia.org/wiki/Memory_address)
 - [Wikipedia: Intel Memory
-  Model](http://en.wikipedia.org/wiki/Intel_Memory_Model)
+  Model](https://en.wikipedia.org/wiki/Intel_Memory_Model)
 - [Intel® 64 and IA-32 Architectures Software Developer’s Manual
   Combined Volumes: 1, 2A, 2B, 2C, 3A, 3B and
-  3C](http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf)
+  3C](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
 [Category:Micro processor](category:micro_processor.md)

@@ -23,7 +23,7 @@ format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Pr
 |                |                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|
 | **Integers**   | stored in little-endian                                                                                                     |
-| **Strings**    | Stored as [UTF-16 little-endian](http://en.wikipedia.org/wiki/UTF-16/UCS-2) without a byte-order-mark (BOM).                |
+| **Strings**    | Stored as [UTF-16 little-endian](https://en.wikipedia.org/wiki/UTF-16/UCS-2) without a byte-order-mark (BOM).                |
 | **Timestamps** | Stored as [Windows FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) in UTC. |
 |                |                                                                                                                             |
 

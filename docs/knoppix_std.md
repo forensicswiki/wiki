@@ -45,5 +45,5 @@ CD](live_cd.md) based on Knoppix.
 
 ## External Links
 
-- [Official Site](http://s-t-d.org/)
+- [Official Site](https://s-t-d.org/)
 - [Support Forum](http://forum.s-t-d.org/)

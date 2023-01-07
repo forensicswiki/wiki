@@ -11,5 +11,5 @@ Windows.
 
 # References
 
-[Cleaner website](http://www.ccleaner.com/)
+[Cleaner website](https://www.ccleaner.com/)
 

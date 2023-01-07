@@ -52,7 +52,7 @@ This tool is not suitable for imaging faulty drives:
   and this kind of bug (wrong offset calculation when seeking over a bad
   block) was fixed for [dd](dd.md) in 2003 ([see the fix in the
   mailing
-  list](http://lists.gnu.org/archive/html/bug-coreutils/2003-10/msg00071.html));
+  list](https://lists.gnu.org/archive/html/bug-coreutils/2003-10/msg00071.html));
 - similarly, dcfldd can enter an infinite loop when a faulty sector is
   encountered on the source drive, thus writing to the image over and
   over again until there is no free space left.

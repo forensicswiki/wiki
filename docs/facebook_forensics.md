@@ -23,12 +23,12 @@ you parse them.
 ### Residual Data
 
 - ["Facebook
-  Forensics"](http://computer-forensics.sans.org/blog/2009/06/11/facebook-forensics/),
+  Forensics"](https://www.sans.org/digital-forensics-incident-response/),
   SANS Computer Forensics and Incident Response Blog Entry, June
   11, 2009. A few musings and links (that are reported above). Mostly
   with tracking photos to facebook.
 - ["Facebook Memory
-  Forensics"](http://computer-forensics.sans.org/blog/2009/11/20/facebook-memory-forensics/),
+  Forensics"](https://www.sans.org/digital-forensics-incident-response/),
   SANS Computer Forensics Incident Response Log, Nov. 20, 2009.
   Discussion about facebook details left in memory.
 - [Facebook Chat
@@ -49,7 +49,7 @@ you parse them.
 
 ### Tools
 
-- [Facebook Forensic Toolkit](http://facebookforensics.com) eDiscovery
+- [Facebook Forensic Toolkit](http://www.google.com) eDiscovery
   toolkit to identify and clone full profiles; including wall posts,
   private messages, uploaded photos/tags, group details, graphically
   illustrate friend links, and generate expert reports.
@@ -57,7 +57,7 @@ you parse them.
   Facebook data such as chats, wall posts and photos from Live RAM
   dumps, hibernation and pagefiles.
 - [Belkasoft Facebook Profile
-  Saver](http://forensic.belkasoft.com/facebook_profile_saver) is a free
+  Saver](https://belkasoft.com/x) is a free
   utility to download Facebook wall posts and photoalbums to a local
   computer.
 - [WebPreserver](https://webpreserver.com/facebook-forensics/) captures

@@ -29,7 +29,7 @@ in [Timeline Analysis](timeline_analysis.md).
 ### Notes
 
 From
-<https://docs.microsoft.com/en-us/windows/win32/shell/nse-implement#interpreting-pidls>
+<https://learn.microsoft.com/en-us/windows/win32/shell/nse-implement#interpreting-pidls>
 
     Some methods, such as IShellFolder::GetUIObjectOf, use PIDLs that are relative to the parent folder and are straightforward to interpret.
 
@@ -97,7 +97,7 @@ An example of a shell item list taken from **Calculator.lnk**
 
 - [MSDN: Introduction to the Shell Namespace (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/cc144090(v=vs.85>).aspx)
 - [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/windows/desktop/cc144093(v=vs.85>).aspx)
-- [ShellBags Registry Forensics](http://computer-forensics.sans.org/blog/2008/10/31/shellbags-registry-forensics/),
+- [ShellBags Registry Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by johnmccash, October 2008
 - [Shell Bag Format Analysis](http://42llc.net/?p=385), by Yogesh Khatri,
   October 2009 (appears to be no longer available)
@@ -105,14 +105,14 @@ An example of a shell item list taken from **Calculator.lnk**
   by Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
 - [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/master/documentation/Windows%20Shell%20Item%20format.asciidoc),
   by the libfwsi project, July 2010 (work in progress)
-- [Computer Forensic Artifacts: Windows 7 Shellbags](http://computer-forensics.sans.org/blog/2011/07/05/shellbags),
+- [Computer Forensic Artifacts: Windows 7 Shellbags](https://www.sans.org/digital-forensics-incident-response/),
   Chad Tilbury, July 5, 2011
-- [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](http://volatility-labs.blogspot.ca/2012/09/movp-32-shellbags-in-memory-setregtime.html),
+- [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](https://volatility-labs.blogspot.com/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   by Jamie Levy, September 2012
 - [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
-- [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](http://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
+- [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)
-- [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
+- [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://www.nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
   by Nicole Ibrahim, December 31, 2013
 - [ReactOS: Shell Documentation](https://reactos.org/wiki/Shell_Documentation)

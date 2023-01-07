@@ -17,4 +17,4 @@ practices adopted from the digital forensics community.
 
 - [Project site](http://www.bitcurator.net/bitcurator/)
 - [Wiki](http://wiki.bitcurator.net/index.php?title=Main_Page)
-- [Source](https://github.com/kamwoods/bitcurator)
+- [Source](https://github.com/BitCurator/bitcurator-distro-main)

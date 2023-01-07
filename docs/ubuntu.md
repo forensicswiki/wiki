@@ -17,4 +17,4 @@ workstations on top of it.
 # External links
 
 * [Wikipedia: Ubuntu](https://en.wikipedia.org/wiki/Ubuntu)
-* [SIFT: Download Page](http://digital-forensics.sans.org/community/downloads)
+* [SIFT: Download Page](https://www.sans.org/tools/sift-workstation/)

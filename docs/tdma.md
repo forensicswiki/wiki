@@ -23,7 +23,7 @@ as well as bandwidth intensive apps. TDMA allows the mobile device to
 have extended battery life, since the cellular device is only
 transmitting a portion of the time during sessions. In addition, TDMA is
 the most cost effective technology for upgrading an analog system to
-digital [1](http://www.iec.org/online/tutorials/tdma/topic04.html). TDMA
+digital [1](https://www.iec.org/online/tutorials/tdma/topic04.html). TDMA
 also enables some vital features for system operation in an advanced
 cellular or PCS environment.
 
@@ -40,4 +40,4 @@ synchronized timed. For instance, if there are four people: Jan, Tom,
 Bill, and Bob making calls, each would be assigned a time slot on a
 single channel. However, if Bob was no longer using his phone, his time
 slot would still be used, wasting bandwidth.
-[2](http://www.iec.org/online/tutorials/tdma/topic04.html).
+[2](https://www.iec.org/online/tutorials/tdma/topic04.html).

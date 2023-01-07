@@ -199,7 +199,7 @@ See [Windows Desktop Search](windows_desktop_search.md)
 Windows Vista introduced several new [Setup API Log
 files](setup_api_logs.md).
 
-Also see [1](http://support.microsoft.com/kb/927521).
+Also see [1](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deployment/windows-setup-log-file-locations).
 
 ### Scheduled Tasks
 
@@ -269,7 +269,7 @@ extensible storage engine (ESE) databases ("Current.mdb",
 
 References:
 
-- <https://docs.microsoft.com/en-us/windows-server/administration/user-access-logging/manage-user-access-logging>
+- <https://learn.microsoft.com/en-us/windows-server/administration/user-access-logging/manage-user-access-logging>
 - <https://advisory.kpmg.us/blog/2021/digital-forensics-incident-response.html>
 - <https://github.com/brimorlabs/KStrike>
 - <https://www.crowdstrike.com/blog/user-access-logging-ual-overview/>
@@ -339,7 +339,7 @@ details \[4\]:
 References:
 
 1.  <https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/>
-2.  <https://www.fireeye.com/blog/threat-research/2016/12/do_you_see_what_icc.html>
+2.  <https://www.trellix.com/en-us/about/newsroom/stories/research.html>
 3.  <https://social.technet.microsoft.com/Forums/en-US/fa8fd68e-588b-4cdf-8d6d-8b8c8fe72719/ccmrecentlyusedapps-wmi-class-empty-on-several-thousand-pcs>
 4.  <https://github.com/davehull/Kansa/blob/261bd40ac2ae547855313f777273184a759f01d2/Modules/Process/Get-WMIRecentApps.ps1#L54>
 
@@ -364,7 +364,7 @@ The locations on disk:
 References:
 
 - <https://u0041.co/blog/post/3>
-- <https://thinkdfir.com/2020/07/30/certutil-download-artefacts/amp/>
+- <https://thinkdfir.com/2020/07/30/certutil-download-artefacts/>
 - <https://blog.menasec.net/2019/03/initial-access-execution-evidences-for.html>
 - <https://github.com/Velocidex/velociraptor/blob/32ff014a4504e95c2650fe4770bfda550d998884/artifacts/definitions/Windows/Forensics/CertUtil.yaml>
 
@@ -421,10 +421,10 @@ value:
 
 ## External Links
 
-- [Wikipedia: Microsoft Windows](http://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Windows 8 File History Forensics](http://www.dataforensics.org/windows-8-file-history-forensics/)
-- [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](http://support.microsoft.com/kb/927521)
-- [Windows Hardware Dev Center Archive](https://msdn.microsoft.com/en-US/library/windows/hardware/dn550976)
+- [Wikipedia: Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
+- [Windows 8 File History Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
+- [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deployment/windows-setup-log-file-locations)
+- [Windows Hardware Dev Center Archive](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/download/dn550976(v=vs.85)?redirectedfrom=MSDN)
 - [Windows Data Type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx)
 - [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, 2008
@@ -445,18 +445,18 @@ value:
 ### Client/Server Runtime Subsystem (CSRSS)
 
 - [Windows CSRSS Write Up: the basics (part
-  1/1)](http://j00ru.vexillium.org/?p=492), by j00ru, July 8, 2010
+  1/1)](https://j00ru.vexillium.org/2010/07/windows-csrss-write-up-the-basics/), by j00ru, July 8, 2010
 
 ### Recycle Bin
 
-- [Lesson 3 – The Recycle Bin](http://www.cybersecurityinstitute.biz/downloads/INFO2.pdf),
+- [Lesson 3 – The Recycle Bin](https://www.cybersecurityinstitute.biz),
   by Steve Hailey
 - [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, January 22, 2008
 
 ### Malware/Rootkits
 
-- [Inside Windows Rootkits](http://forensicmethods.com/inside-windows-rootkits),
+- [Inside Windows Rootkits](https://www.forensicmethods.com/),
   by Chad Tilbury, September 4, 2013
 
 ### Tracking removable media
@@ -469,74 +469,74 @@ value:
 - [MSDN: Comparing Memory Allocation Methods](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366533(v=vs.85>).aspx)
   by [Microsoft](microsoft.md)
 - [How Windows Starts Up (Part the second)](http://blogs.msdn.com/b/ntdebugging/archive/2007/06/28/how-windows-starts-up-part-the-second.aspx)
-- [DLL/COM Redirection](http://msdn.microsoft.com/en-us/library/aa375142.aspx)
+- [DLL/COM Redirection](https://learn.microsoft.com/en-us/windows/win32/sbscs/dll-com-redirection-on-windows?redirectedfrom=MSDN)
 - [Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85>).aspx)
 - [Image File Execution Options](http://blogs.msdn.com/b/junfeng/archive/2004/04/28/121871.aspx)
-- [Load Library Safely](http://blogs.technet.com/b/srd/archive/2014/05/13/load-library-safely.aspx),
+- [Load Library Safely](https://learn.microsoft.com/en-us/archive/blogs/),
   by Swamy Shivaganga Nagaraju, 13 May 2014
-- [Happy DPAPI!](http://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),
+- [Happy DPAPI!](https://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),
   by Francesco Picasso, January 13, 2015
 
 #### Windows File Protection (WFP)
 
-- [Description of the Windows File Protection feature](http://support.microsoft.com/kb/222193/EN-US)
-- [Description of Windows XP and Windows Server 2003 System File Checker (Sfc.exe)](http://support.microsoft.com/?kbid=310747)
+- [Description of the Windows File Protection feature](https://support.microsoft.com/en-us/topic/description-of-the-windows-file-protection-feature-db28f515-6512-63d1-6178-982ed2022ffb)
+- [Description of Windows XP and Windows Server 2003 System File Checker (Sfc.exe)](https://support.microsoft.com/en-US)
 
 #### MSI
 
 - [Changes to Package Caching in Windows Installer 5.0](http://blogs.msdn.com/b/heaths/archive/2009/02/02/changes-to-package-caching-in-windows-installer-5-0.aspx?Redirected=true),
   by Heath Stewart, February 2, 2009
-- [MSI: The Case Of The Invalid Signature](http://blog.didierstevens.com/2013/07/26/msi-the-case-of-the-invalid-signature/),
+- [MSI: The Case Of The Invalid Signature](https://blog.didierstevens.com/2013/07/26/msi-the-case-of-the-invalid-signature/),
   by Didier Stevens, July 26, 2013
 
 #### Side-by-side (WinSxS)
 
-- [Wikipedia: Side-by-side assembly](http://en.wikipedia.org/wiki/Side-by-side_assembly)
-- [Assembly Searching Sequence](http://msdn.microsoft.com/en-us/library/aa374224.aspx)
+- [Wikipedia: Side-by-side assembly](https://en.wikipedia.org/wiki/Side-by-side_assembly)
+- [Assembly Searching Sequence](https://learn.microsoft.com/en-us/windows/win32/sbscs/assembly-searching-sequence?redirectedfrom=MSDN)
 - [RT_MANIFEST resource, and ISOLATION_AWARE_ENABLED](http://blogs.msdn.com/b/junfeng/archive/2007/06/26/rt-manifest-resource-and-isolation-aware-enabled.aspx)
 - [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/en-us/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
 - [DotLocal (.local) Dll Redirection](http://blogs.msdn.com/b/junfeng/archive/2006/01/24/517221.aspx#531208),
   by Junfeng Zhang, January 24, 2006
 - [Diagnosing SideBySide failures](http://blogs.msdn.com/b/junfeng/archive/2006/04/14/576314.aspx),
   by Junfeng Zhang, April 14, 2006
-- [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](http://omnicognate.wordpress.com/2009/10/05/winsxs/)
+- [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](https://omnicognate.wordpress.com/2009/10/05/winsxs/)
 - [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
   by Amanda Stewart, April 2014
 
 #### Crash dumps
 
-- [Technet: Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
+- [Technet: Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](https://learn.microsoft.com/en-us/archive/blogs/),
   by Yong Rhee, December 29, 2010
-- [MSDN: How to read the small memory dump file that is created by Windows if a crash occurs](http://support.microsoft.com/kb/315263),
+- [MSDN: How to read the small memory dump file that is created by Windows if a crash occurs](https://learn.microsoft.com/en-US/troubleshoot/windows-client/performance/read-small-memory-dump-file),
    by [Microsoft](microsoft.md)
 - <https://medium.com/dfir-dudes/amcache-is-not-alone-using-wer-files-to-hunt-evil-86bdfdb216d7>
-- <https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps>
+- <https://learn.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps>
 - <https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz>
 
 #### Kerberos
 
 - [Protection from Kerberos Golden Ticket - Mitigating pass the ticket on Active Directory](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf),
   CERT-EU, July 2014
-- [Abusing Microsoft Kerberos - Sorry you guys don't get it](http://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it),
+- [Abusing Microsoft Kerberos - Sorry you guys don't get it](https://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it),
   by Benjamin Delpy, August 13, 2014
 
 #### Reliability Monitoring
 
-- [Stability Index and Reliability](http://secureartisan.wordpress.com/2011/01/17/stability-index-and-reliability/),
+- [Stability Index and Reliability](https://secureartisan.wordpress.com/2011/01/17/stability-index-and-reliability/),
   by Paul Bobby, January 17, 2011
-- [Windows 7 Reliability Monitor Forensic Artifacts](http://phx4n6.wordpress.com/2014/01/03/windows-7-reliability-monitor-forensic-artifacts/),
+- [Windows 7 Reliability Monitor Forensic Artifacts](https://phx4n6.wordpress.com/2014/01/03/windows-7-reliability-monitor-forensic-artifacts/),
   by phx4n6, January 3, 2014
 
 #### RPC
 
-- [RPC to Go v.1](http://blogs.technet.com/b/networking/archive/2008/10/24/rpc-to-go-v-1.aspx),
+- [RPC to Go v.1](https://learn.microsoft.com/en-us/archive/blogs/),
   by Michael Platts, October 24, 2008
-- [RPC to Go v.2](http://blogs.technet.com/b/networking/archive/2008/12/04/rpc-to-go-v-2.aspx),
+- [RPC to Go v.2](https://learn.microsoft.com/en-us/archive/blogs/),
   by Michael Platts, December 4, 2008
 
 #### User Account Control (UAC)
 
-- [User Account Control – What Penetration Testers Should Know](http://blog.strategiccyber.com/2014/03/20/user-account-control-what-penetration-testers-should-know/),
+- [User Account Control – What Penetration Testers Should Know](https://www.cobaltstrike.com/),
   by Raphael Mudge, March 20, 2014
 
 #### Windows Event Logs
@@ -550,7 +550,7 @@ value:
 
 #### Windows Scripting Host
 
-- [Going To Ground with The Windows Scripting Host (WSH)](https://www.mandiant.com/blog/ground-windows-scripting-host-wsh/),
+- [Going To Ground with The Windows Scripting Host (WSH)](https://www.mandiant.com/resources/blog),
   by Devon Kerr, February 19, 2014
 
 #### USB
@@ -562,28 +562,28 @@ value:
 
 #### Windows Error Reporting (WER)
 
-- [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](http://blogs.technet.com/b/yongrhee/archive/2010/12/29/drwtsn32-on-windows-vista-windows-server-2008-windows-7-windows-server-2008-r2.aspx),
+- [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](https://learn.microsoft.com/en-us/archive/blogs/),
   by Yong Rhee, December 29, 2010
 - [Exploring Windows Error Reporting](http://journeyintoir.blogspot.ch/2014/02/exploring-windows-error-reporting.html),
   by Corey Harrell, February 24, 2014
 
 #### Windows Event Viewer
 
-- [Windows Event Viewer created Scheduled Task of VBScript](http://www.intramortem.com/2015/12/windows-event-viewer-created-scheduled.html),
+- [Windows Event Viewer created Scheduled Task of VBScript](https://www.intramortem.com/2015/12/windows-event-viewer-created-scheduled.html),
   by Eric John, December 23, 2015
 
 #### Windows Firewall
 
-- [Wikipedia: Windows Firewall](http://en.wikipedia.org/wiki/Windows_Firewall)
+- [Wikipedia: Windows Firewall](https://en.wikipedia.org/wiki/Windows_Firewall)
 - [Windows Firewall Tools and Settings](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737845(v=ws.10))
 
 #### Windows 32-bit on Windows 64-bit (WoW64)
 
-- [Wikipedia: WoW64](http://en.wikipedia.org/wiki/WoW64)
+- [Wikipedia: WoW64](https://en.wikipedia.org/wiki/WoW64)
 
 ### Windows XP
 
-- [Description of Windows XP System Information (Msinfo32.exe) Tool](http://support.microsoft.com/kb/q308549)
+- [Description of Windows XP System Information (Msinfo32.exe) Tool](https://support.microsoft.com/en-us/windows)
 
 ### Windows Scheduler
 
@@ -592,7 +592,7 @@ value:
 
 ### Windows Vault
 
-- [Windows ReVaulting](http://blog.digital-forensics.it/2016/01/windows-revaulting.html?m=1),
+- [Windows ReVaulting](https://blog.digital-forensics.it/2016/01/windows-revaulting.html?m=1),
   by Francesco Picasso, January 27, 2016
 
 ### IPC

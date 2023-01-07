@@ -8,5 +8,5 @@ hardware and software vendor.
 
 ## External Links
 
-- [Official website](http://www.ibm.com)
-- [Wikipedia: IBM](http://en.wikipedia.org/wiki/IBM)
+- [Official website](https://www.ibm.com/ch-de)
+- [Wikipedia: IBM](https://en.wikipedia.org/wiki/IBM)

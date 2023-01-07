@@ -12,10 +12,10 @@ tags:
   Web](http://www.swdsi.org/swdsi06/Proceedings06/Papers/IBT04.pdf),
   Milam W. Aiken, SWDSI 2006
 - [Me Translate Pretty One
-  Day](http://www.wired.com/wired/archive/14.12/translate.html), Issue
+  Day](https://www.wired.com/2006/12/translate/), Issue
   14.12 - December 2006
 - [Dispelling the myths of machine
-  translation](http://www.tcworld.info/index.php?id=91),By Uwe Muegge
+  translation](https://www.tcworld.info/index.php?id=91),By Uwe Muegge
   August 2008
 - [Evaluation of Translation
   Technology](http://www.lans-tts.be/docs/lans8-2009-intro.pdf), Walter

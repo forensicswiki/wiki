@@ -10,4 +10,4 @@ cryptosystem involved, such attacks are impractical.
 ## External Links
 
 - [Official website](http://www.gnupg.org/)
-- [Wikipedia entry on GnuPG](http://en.wikipedia.org/wiki/Gnupg)
+- [Wikipedia entry on GnuPG](https://en.wikipedia.org/wiki/Gnupg)

@@ -22,4 +22,4 @@ tags:
 
 ## External Links
 
-- <http://www.webroot.com/En_US/consumer-products-windowwasher.html>
+- <https://www.webroot.com/us/en/home/products-spysweeper>

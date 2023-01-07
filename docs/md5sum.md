@@ -28,7 +28,7 @@ or
 
 - [Official website](http://www.gnu.org/software/coreutils/) for GNU
   Coreutils
-- [Wikipedia entry on md5sum](http://en.wikipedia.org/wiki/Md5sum)
+- [Wikipedia entry on md5sum](https://en.wikipedia.org/wiki/Md5sum)
 - [md5sum for Windows](http://www.etree.org/md5com.html)
 - [A slew of ported tools for Windows include
-  md5sum](http://unxutils.sourceforge.net/)
+  md5sum](https://unxutils.sourceforge.net/)

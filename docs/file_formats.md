@@ -24,11 +24,11 @@ of it.
 
 ## External Links
 
-- [Wikipedia: File format](http://en.wikipedia.org/wiki/File_format)
+- [Wikipedia: File format](https://en.wikipedia.org/wiki/File_format)
 - [Wikipedia: Proprietary
-  format](http://en.wikipedia.org/wiki/Proprietary_format)
+  format](https://en.wikipedia.org/wiki/Proprietary_format)
 - [Digital preservation: alphabetical
-  list](http://www.digitalpreservation.gov/formats/fdd/browse_list.shtml)
+  list](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
 - [Funky File
   Formats](https://speakerdeck.com/ange/funky-file-formats-31c3), by
   Ange Albertini, December 29, 2014

@@ -212,7 +212,7 @@ below.
 ### 2010
 
 - 3 Jan 2010: [Amber Schroader](amber_schroader.md) about
-  [Paraben](http://www.paraben.com/) and what we have to look forward
+  [Paraben](https://paraben.com/) and what we have to look forward
   to!
 
 <!-- -->
@@ -224,7 +224,7 @@ below.
 
 <!-- -->
 
-- 31 Jan 2010: Robert Botcheck, founder and owner of [Tableau](http://www.tableau.com/)
+- 31 Jan 2010: Robert Botcheck, founder and owner of [Tableau](https://www.tableau.com/)
   talks about new Tableau Imager (TIM)
 
 <!-- -->
@@ -249,7 +249,7 @@ below.
 <!-- -->
 
 - 24 May 2010: Sam Guttman President of the
-  [Digital Forensics Certification Board](http://www.ncfs.org/dfcb), an
+  [Digital Forensics Certification Board](https://www.ncfs.org/), an
   international vendor neutral computer forensic certification
   authority.
 
@@ -260,12 +260,12 @@ below.
 
 <!-- -->
 
-- 25 Oct 2010: Sean Morrisey about iOS forensics and [Katana Forensics](http://www.katanaforensics.com/)
+- 25 Oct 2010: Sean Morrisey about iOS forensics and [Katana Forensics](https://katanaforensics.com/)
 
 <!-- -->
 
 - 16 Nov 2010: Jeff Nash about LACE image and video categorization software and
-  [BlueBear Law Enforcement Services](http://www.bb-les.com/)
+  [BlueBear Law Enforcement Services](https://bb-les.ca/)
 
 <!-- -->
 

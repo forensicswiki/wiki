@@ -24,7 +24,7 @@ extraction system and are working on a system based on JTAG.
 
 <!-- -->
 
-[Forensics for Korean cell phone](http://portal.acm.org/citation.cfm?id=1363257), Keonwoo Kim, Dowon Hong and Kyoil Chung, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop, Adelaide, Australia, 2008.
+[Forensics for Korean cell phone](https://dl.acm.org/doi/10.5555/1363217.1363257), Keonwoo Kim, Dowon Hong and Kyoil Chung, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop, Adelaide, Australia, 2008.
 
 <!-- -->
 
@@ -32,6 +32,6 @@ extraction system and are working on a system based on JTAG.
 
 ## US Government Publications
 
-[Guidelines on Cell Phone Forensics](http://csrc.nist.gov/publications/nistpubs/800-101/SP800-101.pdf) (NIST SP 800-101), May 2007
-[Cell Phone Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7250.pdf) (NISTIR 7250)
-[PDA Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7100-PDAForensics.pdf) (NISTIR 7100)
+[Guidelines on Cell Phone Forensics](https://csrc.nist.gov/publications/detail/sp/800-101/archive/2007-05-30) (NIST SP 800-101), May 2007
+[Cell Phone Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7250/final) (NISTIR 7250)
+[PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7100/final) (NISTIR 7100)

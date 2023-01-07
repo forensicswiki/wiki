@@ -53,7 +53,7 @@ mobile and cloud data extraction.
 <!-- -->
 
 [Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
-<https://www.sumuri.com/products/recon/>
+<https://sumuri.com/wp-content/uploads/2019/04/recon.jpg>
 
 ## Windows-based Tools
 
@@ -65,7 +65,7 @@ files.
 
 <!-- -->
 
-[Belkasoft Acquisition Tool](https://belkasoft.com/bat) by [Belkasoft](belkasoft.md)
+[Belkasoft Acquisition Tool](https://belkasoft.com/x) by [Belkasoft](belkasoft.md)
 BAT is a free utility to acquire a wide range of data sources: hard
 drives, running computers RAM memory, modern smartphones, and various
 types of clouds. The output can be analyzed with both Belkasoft and
@@ -115,7 +115,7 @@ encrypted containers, viewing and analyzing evidence.
 
 <!-- -->
 
-[Facebook Forensic Toolkit (FFT)](http://www.facebookforensics.com) by [Afentis_forensics](afentis_forensics.md)
+[Facebook Forensic Toolkit (FFT)](http://www.google.com) by [Afentis_forensics](afentis_forensics.md)
 eDiscovery toolkit to identify and clone full profiles; including wall
 posts, private messages, uploaded photos/tags, group details,
 graphically illustrate friend links, and generate expert reports.
@@ -144,7 +144,7 @@ Mercury Indexer by [MicroForensics, Inc.](http://www.microforensics.com/)
 <!-- -->
 
 [Nuix Desktop](nuix_desktop.md) by [Nuix Pty Ltd](nuix_pty_ltd.md)
-<http://www.nuix.com>
+<https://www.nuix.com/>
 
 <!-- -->
 
@@ -211,25 +211,25 @@ hash databases.
 
 <!-- -->
 
-[WindowsSCOPE Pro, Ultimate, Live](http://www.windowsscope.com)
+[WindowsSCOPE Pro, Ultimate, Live](https://www.windowsscope.com/)
 Comprehensive Windows Memory Forensics and Cyber Analysis, Incident
 Response, and Education support.
 
 Software and hardware based acquisition with [CaptureGUARD PCIe and
-ExpressCard](http://www.windowsscope.com/index.php?option=com_virtuemart&Itemid=34)
+ExpressCard](https://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34)
 
 Hardware based acquisition of memory on a locked computer via
 [CaptureGUARD
-Gateway](http://www.windowsscope.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=1&option=com_virtuemart&Itemid=34)
+Gateway](https://www.windowsscope.com//index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=1&option=com_virtuemart&Itemid=34)
 
-[WindowsSCOPE](http://www.windowsscope.com) Live provides memory
+[WindowsSCOPE](https://www.windowsscope.com/) Live provides memory
 analysis of Windows computers on a network from Android phones and
 tablets.
 
 <!-- -->
 
 [MailXaminer](mailxaminer.md) by [SysTools](systools.md)
-<http://www.mailxaminer.com/>
+<https://www.mailxaminer.com/>
 
 Forensic & eDiscovery Tool to find digital email evidences from multiple
 email platform through its powerful Search mechanism.
@@ -245,7 +245,7 @@ expert reports.
 <!-- -->
 
 YouTube Forensic Toolkit (YFT) by [Afentis_forensics](afentis_forensics.md)
-<http://www.youtubeforensics.com>
+<http://www.afentis.com/forensic-software/>
 eDiscovery toolkit to identify relevant online media, download/convert
 videos, data mine across comments, and generate expert reports.
 
@@ -283,19 +283,19 @@ using [Bulk Extractor](bulk_extractor.md).
 DFF is cross-platform and open-source, user and developers oriented. It
 provide many features and is very modular. Our goal is to provide a
 powerful framework to the forensic community, so people can use only one
-tool during the analysis. <http://www.digital-forensic.org>
+tool during the analysis. <http://digital-forensic.org/>
 
 <!-- -->
 
 [foremost](foremost.md)
-<http://foremost.sf.net/>
+<https://foremost.sourceforge.net/>
 
 [Linux](linux.md) based file carving program
 
 <!-- -->
 
 [FTimes](ftimes.md)
-<http://ftimes.sourceforge.net/FTimes/index.shtml>
+<https://ftimes.sourceforge.net/FTimes/index.shtml>
 
 FTimes is a system baselining and evidence collection tool.
 
@@ -330,7 +330,7 @@ disk images.
 
 <!-- -->
 
-[IPED](https://github.com/lfcnassif/IPED)
+[IPED](https://github.com/sepinf-inc/IPED)
 
 An open source software that can be used to process and analyze digital
 evidence, often seized at crime scenes by law enforcement or in a
@@ -343,7 +343,7 @@ corporate investigation by private examiners.
 <!-- -->
 
 The [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)
-<http://ocfa.sourceforge.net/>
+<https://ocfa.sourceforge.net/>
 
 <!-- -->
 
@@ -356,7 +356,7 @@ Python.
 <!-- -->
 
 [Scalpel](scalpel.md)
-<http://www.digitalforensicssolutions.com/Scalpel/>
+<https://gotdfs.com/>
 
 [Linux](linux.md) and [Windows](windows.md) file carving
 program originally based on [foremost](foremost.md).
@@ -391,7 +391,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 # Forensics Live CDs
 
 [Kali Linux](kali_linux.md)
-[<http://www.kali.org/>](http://www.kali.org/)
+[<https://www.kali.org/>](http://www.kali.org/)
 
 <!-- -->
 
@@ -405,7 +405,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 <!-- -->
 
 [Paladin Forensic Suite - Live Boot Ubuntu](paladin_forensic_suite_-_live_boot_ubuntu.md) ([Sumuri, LLC](sumuri_llc.md))
-<https://www.sumuri.com/products/paladin/>
+<https://sumuri.com>
 
 Simplifies various forensics tasks in a forensically sound manner via
 the PALADIN Toolbox.
@@ -490,7 +490,7 @@ disk.
 <!-- -->
 
 Serial and USB ports sharing
-<http://www.flexihub.com/serial-over-ethernet.html>
+<https://www.flexihub.com/serial-to-ethernet-overview/>
 
 Share and access serial and USB ports over Ethernet
 
@@ -584,7 +584,7 @@ organizations that need to run scans remotely.
 
 <!-- -->
 
-[TeleSweep](http://www.securelogix.com/modemscanner/)
+[TeleSweep](https://securelogix.com)
 
 SecureLogix is currently offering no-cost downloads of our award-winning
 TeleSweep Secure® modem-vulnerability scanner. This free modem scanning

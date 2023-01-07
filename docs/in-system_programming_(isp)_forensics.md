@@ -29,7 +29,7 @@ function normally.
 
 |                                                                                                                                                                                                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Default BGA 169 eMMC pinout taken from: (\[<http://forum.gsmhosting.com/vbb/f672/guide-how-find-direct-emmc-pinout-step-step-pictures-1724774/%7Cgsmhosting>: How to find direct eMMC pinout\]) |
+| Default BGA 169 eMMC pinout taken from: (\[<https://forum.gsmhosting.com/vbb/>: How to find direct eMMC pinout\]) |
 | <figure>
  <img src="Default-BGA169-eMMC-pinout.jpg"
  title="Default-BGA169-eMMC-pinout.jpg" width="450"

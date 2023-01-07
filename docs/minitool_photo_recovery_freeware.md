@@ -30,9 +30,9 @@ provides free photo recovery service.
 ## External Links
 
 - [MiniTool Photo Recovery for
-  Windows](http://www.minitool.com/photo-recovery-software/windows-photo-recovery.html)
+  Windows](https://www.minitool.com/photo-recovery-software/windows-photo-recovery.html)
 - [MiniTool Photo Recovery for
-  Mac](http://www.minitool.com/photo-recovery-software/mac-photo-recovery.html)
+  Mac](https://www.minitool.com/photo-recovery-software/mac-photo-recovery.html)
 
 [MiniTool Solution Ltd](minitool_solution_ltd.md)
 

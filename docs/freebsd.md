@@ -14,6 +14,6 @@ popular and modern system.
 
 ## External Links
 
-- [Official website](http://www.freebsd.org)
-- [Wikipedia: FreeBSD](http://en.wikipedia.org/wiki/FreeBSD)
+- [Official website](https://www.freebsd.org/)
+- [Wikipedia: FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
 

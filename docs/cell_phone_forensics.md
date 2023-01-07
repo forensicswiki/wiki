@@ -96,15 +96,15 @@ Investigative Support
 * [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
 * [ForensicFocus.com(Practitioners Forum)](http://www.forensicfocus.com)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
-* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](http://www.SmartPhoneForensics.com)
+* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Phone-Forensics.com (Advanced Forum for Practitioners)](http://www.Phone-Forensics.com)
 * [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
 Phone Research
 
-* [GSMArena.com (Technical information regarding GSM Cell Phones)](http://www.GSMArena.com)
+* [GSMArena.com (Technical information regarding GSM Cell Phones)](https://www.gsmarena.com/)
 * [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.MobileForensicsCentral.com)
-* [PhoneScoop.com (Technical information regarding all Cell Phones)](http://www.PhoneScoop.com)
+* [PhoneScoop.com (Technical information regarding all Cell Phones)](https://www.phonescoop.com/)
 
 Training
 
@@ -113,5 +113,5 @@ Training
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
 * [Mobile Forensics World Training](http://www.MobileForensicsWorld.com/Training.aspx)
 * [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/dfir-training-3/)
-* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](http://www.SmartPhoneForensics.com)
+* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Micro Systemation Training (Mobile Forensics Training)](https://www.msab.com/)

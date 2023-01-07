@@ -15,8 +15,8 @@ platform.
 
 ## External Links
 
-- [The FTimes Project Homepage](http://ftimes.sourceforge.net/)
+- [The FTimes Project Homepage](https://ftimes.sourceforge.net/)
 - [Building FTimes on Windows using Visual
-  Studio](http://unixsadm.blogspot.com/2007/11/building-ftimes-on-windows-using-visual.html)
+  Studio](http://blog.boreas.ro/2007/11/building-ftimes-on-windows-using-visual.html)
 - [DFRWS 2006 File Carving Challenge - using
   FTimes](http://www.korelogic.com/Resources/Projects/dfrws_challenge_2006/)

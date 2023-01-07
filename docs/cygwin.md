@@ -5,4 +5,4 @@ tags:
 ## External Links
 
 - [Official website](http://www.cygwin.com/)
-- [Wikipedia entry on Cygwin](http://en.wikipedia.org/wiki/Cygwin)
+- [Wikipedia entry on Cygwin](https://en.wikipedia.org/wiki/Cygwin)

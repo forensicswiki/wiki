@@ -50,4 +50,4 @@ drives.
 
 ## External Links
 
-- [Official Website](https://sumuri.com/software/recon/)
+- [Official Website](https://sumuri.com/wp-content/uploads/2019/04/recon.jpg)

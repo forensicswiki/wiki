@@ -139,7 +139,7 @@ systems is available on the bulk extractor website.
 The current version of **bulk_extractor** is 1.5.5.
 
 - Downloads for Windows and Linux/Unix systems are available at:
-  <http://downloads.digitalcorpora.org/downloads/bulk_extractor/>
+  <https://downloads.digitalcorpora.org/downloads/bulk_extractor/>
 
 Version 2.0 is under development.
 
@@ -163,17 +163,17 @@ Version 2.0 is under development.
 ### YouTube
 
 **[search
-YouTube](http://www.youtube.com/results?search_query=bulk_extractor) for
+YouTube](https://www.youtube.com/results?search_query=bulk_extractor) for
 bulk_extractor videos**
 
 - [Simson Garfinkel speaking at CERIAS about
-  bulk_extractor](http://www.youtube.com/watch?v=odvDTGA7rYI)
+  bulk_extractor](https://www.youtube.com/watch?v=odvDTGA7rYI)
 - [BackTrack 5 with
-  bulk_extractor](http://www.youtube.com/watch?v=wTBHM9DeLq4)
+  bulk_extractor](https://www.youtube.com/watch?v=wTBHM9DeLq4)
 - [Ubuntu 12.04 forensics with
-  bulk_extractor](http://www.youtube.com/watch?v=QVfYOvhrugg)
+  bulk_extractor](https://www.youtube.com/watch?v=QVfYOvhrugg)
 - [Social Network forensics with
-  bulk_extractor](http://www.youtube.com/watch?v=57RWdYhNvq8)
+  bulk_extractor](https://www.youtube.com/watch?v=57RWdYhNvq8)
 
 ### Tutorials
 

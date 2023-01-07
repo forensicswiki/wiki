@@ -28,7 +28,7 @@ On Windows Vista, 7
 The file **global_history.dat** is a text file.
 
     Welcome to Opera
-    http://www.opera.com/portal/upgrade/
+    https://www.opera.com:443/portal/upgrade/
     1319089117
     -1
 
@@ -68,8 +68,8 @@ On Windows Vista, 7
 
 ## External Links
 
-- [Official website](http://www.opera.com/)
-- [Opera: Files used by Opera](http://www.opera.com/docs/operafiles/)
-- [Opera MBS Viewer](http://www.freeviewer.org/mbs/)
+- [Official website](https://www.opera.com:443/)
+- [Opera: Files used by Opera](https://www.opera.com:443/docs/operafiles/)
+- [Opera MBS Viewer](https://www.freeviewer.org/mbs/)
 - [Opera
-  Forensics](http://www.mailxaminer.com/blog/opera-mailbox-forensics/)
+  Forensics](https://www.mailxaminer.com/blog/opera-mailbox-forensics/)

@@ -117,7 +117,7 @@ utilizing.
 
 [Wikipedia: MAB](https://en.wikipedia.org/wiki/Mork_(file_format))
 
-[What is MAB File Extension](http://www.whatisfileextension.com/mab/)
+[What is MAB File Extension](https://www.whatisfileextension.com/mab/)
 
 [Thunderbird Address
 Book](http://kb.mozillazine.org/Profile_folder_-_Thunderbird)

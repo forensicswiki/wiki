@@ -21,6 +21,6 @@ We can thus retrieve the Gmail key with:
 
 ## External Links
 
-* [Official website](http://www.dkim.org/)
-* [Wikipedia entry on DKIM](http://en.wikipedia.org/wiki/DomainKeys_Identified_Mail)
+* [Official website](https://www.dkim.org/)
+* [Wikipedia entry on DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail)
 * [Dan Kegel's mini-howto on checking a DKIM signature](http://kegel.com/validating-email-with-dkim.html)

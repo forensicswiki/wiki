@@ -41,6 +41,6 @@ specifically the function `msg_generate_message_id` in
 
 ## Tools
 
-- [Thunderbird MSF Viewer](http://www.bitrecover.com/free/thunderbird-viewer/) to view
+- [Thunderbird MSF Viewer](https://www.bitrecover.com/free/thunderbird-viewer/) to view
   Thunderbird email messages header, message body along-with
   attachments.

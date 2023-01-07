@@ -23,5 +23,5 @@ Interviews](list_of_cyberspeak_podcast_interviews.md)
 ## External Links
 
 - [Official CyberSpeak Website](http://cyberspeak.libsyn.com/)
-- <https://www.facebook.com/pages/CyberSpeak/216382432081> CyberSpeak
+- <https://www.facebook.com/people/CyberSpeak/100070321485277/> CyberSpeak
   Facebook Page

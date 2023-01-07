@@ -24,7 +24,7 @@ Exiftool is free and open source release under the same terms as Perl.
 # Supported Files
 
 The Exiftool
-[website](http://www.sno.phy.queensu.ca/~phil/exiftool/#supported) has a
+[website](https://exiftool.org/#supported) has a
 comprehensive list of the supported file types, and indicates if
 Exiftool supports reading, writing, and/or creating metadata for each
 file type. Exiftool's specialty is image file formats. It can extract

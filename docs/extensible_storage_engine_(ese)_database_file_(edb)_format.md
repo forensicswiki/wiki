@@ -102,9 +102,9 @@ such as:
   format](https://github.com/libyal/libesedb/blob/master/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
   by the [libesedb project](libesedb.md)
 - [Wikipedia on Extensible Storage
-  Engine](http://en.wikipedia.org/wiki/Extensible_Storage_Engine)
+  Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
 - [Exchange .EDB File
-  Extension](http://www.whatisfileextension.com/edb/)
+  Extension](https://www.whatisfileextension.com/edb/)
 - [Forensic examination of Windows Live Messenger 2009 Extensible
   Storage
   Engine](https://www.os3.nl/_media/2008-2009/students/willem_toorop/wlm2009_ese_fin.pdf),
@@ -121,10 +121,10 @@ such as:
 
 ## Tools
 
-- [EsEDbViewer](http://www.woanware.co.uk/?page_id=89)
+- [EsEDbViewer](https://github.com/woanware)
 - [ESE Database
   Viewer](http://www.systoolsgroup.com/ese-database-viewer/)
-- [Free EDB Viewer](http://datahelp.in/edb/viewer.html)
+- [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
 - [libesedb](libesedb.md)
 - [Logpresso Mini](https://github.com/logpresso/community)
 

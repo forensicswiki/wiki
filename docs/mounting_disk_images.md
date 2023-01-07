@@ -96,7 +96,7 @@ Windows systems.
   Mounter](arsenal_recon.md#arsenal-image-mounter) - Arsenal
   Image Mounter takes the contents of disk images and presents them to
   Windows as SCSI disks
-- [FTK Imager](http://accessdata.com/product-download)
+- [FTK Imager](https://accessdata.com/product-download-page)
 - [ImDisk](http://www.ltr-data.se/opencode.html#ImDisk) - also on
   [WikiPedia](http://en.wikipedia.org/wiki/ImDisk)
 - [Paraben](paraben_forensics.md) P2X
@@ -109,6 +109,6 @@ Windows systems.
 ## Commercial Tools
 
 - [SmartMount](http://www.asrdata.com/SmartMount/)
-- [Mount Image Pro](http://www.mountimage.com/) - has a 14-day trial
+- [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) - has a 14-day trial
   version
 

@@ -19,5 +19,5 @@ tags:
 ## External Links
 
 - [cpio -- format of cpio archive
-  files](http://people.freebsd.org/~kientzle/libarchive/man/cpio.5.txt)
+  files](https://people.freebsd.org/~kientzle/libarchive/man/cpio.5.txt)
 

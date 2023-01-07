@@ -102,7 +102,7 @@ integer representing the number of microseconds since midnight
 of precision may be more than what is required for a forensic
 application, but the PRTime format can easily be converted into CTime
 format by dividing by 1,000,000. The
-[datetime](http://www.sqlite.org/lang_datefunc.html) function in SQLite
+[datetime](https://www.sqlite.org/index.htmllang_datefunc.html) function in SQLite
 can be used to convert CTime to human readable format, as demonstrated
 in the example below.
 
@@ -252,10 +252,10 @@ query:
 ## External Links
 
 - [Firefox 3 Extractor](http://www.firefoxforensics.com/f3e.shtml)
-- [FoxAnalysis](http://forensic-software.co.uk/foxanalysis.aspx)
+- [FoxAnalysis](https://www.foxtonforensics.com/browser-history-examiner/)
 - [FireFox Forensics (F3)
   tool](http://www.machor-software.com/firefox_forensics)
-- [SQLite](http://www.sqlite.org/)
+- [SQLite](https://www.sqlite.org/index.html)
 - [ff3histview](http://blog.kiddaland.net/2009/07/firefox-3-history-revisited/)
 - [log2timeline](http://log2timeline.net/)
 

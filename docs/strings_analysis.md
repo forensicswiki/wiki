@@ -89,5 +89,5 @@ and simpler to gather the data I needed and react accordingly.
 **NOTE:** By default, Strings will only analyze the file for ASCII and
 equivalent characters. Additional "-e" arguments will need to be used to
 search for Unicode characters. See
-[here](http://linux.about.com/library/cmd/blcmdl1_strings.htm) for a
+[here](https://www.lifewire.com/11-free-file-search-tools-1356644) for a
 list of them.

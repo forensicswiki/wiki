@@ -28,4 +28,4 @@ modules:
 
 ## External Links
 
-- [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](http://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)
+- [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](https://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)

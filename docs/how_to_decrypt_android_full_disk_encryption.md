@@ -17,7 +17,7 @@ CBC-ESSIV-AES encyption using brute force. The current version at the
 time of this writing is oclHashcat v1.3.0 which includes GPU accelerated
 4-digit PIN brute forcing. See:
 
-- <https://hashcat.net>
+- <https://hashcat.net/hashcat/>
 
 ## Decrypting Samsung Full Disk Encryption (FDE)
 
@@ -28,7 +28,7 @@ DerbyCon 2013 talk given by LÃ¡szlÃ³ TÃ³th and Ferenc Spala which covers
 the technical details. Without their research and effort this document
 would not be possible!
 
-- <http://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf>
+- <https://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf>
 - <https://www.youtube.com/watch?v=dUFl2tkyVyo>
 
 The process for decrypting Samsung FDE is as follows:

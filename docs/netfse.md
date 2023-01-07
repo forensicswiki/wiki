@@ -33,5 +33,5 @@ information center for Net/FSE users.
 
 ## External Links
 
-- [Project site](https://code.google.com/p/netfse/)
+- [Project site](https://code.google.com/archive/p/netfse)
 

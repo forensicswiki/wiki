@@ -35,5 +35,5 @@ Live View is developed by CERT, Software Engineering Institute
 
 ## External Links
 
-* [Official website](http://liveview.sourceforge.net/)
-* [CERT, Software Engineering Institute homepage](http://www.sei.cmu.edu/)
+* [Official website](https://liveview.sourceforge.net/)
+* [CERT, Software Engineering Institute homepage](https://www.sei.cmu.edu/)

@@ -139,16 +139,16 @@ utility.
 [File Carving Challenge](http://www.dfrws.org/2007/challenge/) -
 [DFRWS](digital_forensic_research_workshop.md) 2007
 
-[FAT Undelete Test \#1](http://dftt.sourceforge.net/test6/index.html) -
+[FAT Undelete Test \#1](https://dftt.sourceforge.net/test6/index.html) -
 Digital Forensics Tool Testing Image (dftt \#6)
 
-[NTFS Undelete (and leap year) Test \#1](http://dftt.sourceforge.net/test7/index.html) -
+[NTFS Undelete (and leap year) Test \#1](https://dftt.sourceforge.net/test7/index.html) -
 Digital Forensics Tool Testing Image (dftt \#7)
 
-[Basic Data Carving Test - fat32](http://dftt.sourceforge.net/test11/index.html),
+[Basic Data Carving Test - fat32](https://dftt.sourceforge.net/test11/index.html),
 by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#11)
 
-[Basic Data Carving Test - ext2](http://dftt.sourceforge.net/test12/index.html),
+[Basic Data Carving Test - ext2](https://dftt.sourceforge.net/test12/index.html),
 by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#12)
 
 ## See also

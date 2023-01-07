@@ -5,7 +5,7 @@ tags:
 # Source Code
 
 - [A Probabilistic Approach to Source Code Authorship
-  Identification](http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/4151644/4151645/04151691.pdf?tp=&isnumber=&arnumber=4151691),
+  Identification](https://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/4151644/4151645/04151691.pdf?tp=http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/4151644/4151645/04151691.pdf?tp=&isnumber=&arnumber=4151691isnumber=http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/4151644/4151645/04151691.pdf?tp=&isnumber=&arnumber=4151691arnumber=4151691),
   Kothari, Jay; Shevertalov, Maxim; Stehle, Edward; Mancoridis, Spiros
 
 Information Technology, 2007.

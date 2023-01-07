@@ -23,4 +23,4 @@ of archive bitstream).
 
 - [Basic Tar Format](http://www.gnu.org/software/tar/manual/html_node/Standard.html),
   by the GNU operating system project
-- [Wikipedia: tar (computing)](http://en.wikipedia.org/wiki/Tar_(computing))
+- [Wikipedia: tar (computing)](https://en.wikipedia.org/wiki/Tar_(computing))

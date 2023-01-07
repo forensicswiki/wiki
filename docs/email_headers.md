@@ -103,5 +103,5 @@ This is an (incomplete) excerpt from an email header:
 
 ### Tools
 
-- [MailXaminer product page](http://www.mailxaminer.com/product/)
+- [MailXaminer product page](https://www.mailxaminer.com/product/)
 - [Wikipedia: MailXaminer](https://en.wikipedia.org/wiki/MailXaminer)

@@ -22,9 +22,9 @@ set to represent a "C" character.
 What you need to extract the lock from the device:
 
 1.  A RIFF Box with the latest JTAG Manager software. The RIFF Box used
-    for this was purchased from <http://www.multi-com.pl>.
+    for this was purchased from <https://multi-com.pl/>.
 2.  HTC Wildfire S JTAG adapter (or soldering skillz). The adapter used
-    for this was purchased from <http://www.multi-com.pl>.
+    for this was purchased from <https://multi-com.pl/>.
 3.  A DC Power supply capable of supplying 3.7V/1.3A output. The power
     supply used for this was an Agilent U8002A DC Power Supply.
 4.  PatternLockScripts from CCL Forensics
@@ -115,4 +115,4 @@ following:
 
 ## References
 
-* <http://forensics.spreitzenbarth.de/2012/02/>
+* <https://forensics.spreitzenbarth.de/2012/02/>

@@ -102,6 +102,6 @@ kernels and the most commonly used Linux distributions. As of March
 ## External Links
 
 - [Product Home
-  Page](https://www.forcepoint.com/product/security-cloud/threat-protection-linux)
+  Page](https://www.forcepoint.com/products)
 - [Demo Video](https://www.youtube.com/watch?v=m3KbNsd2kvI)
 - [Another Demo Video](https://www.youtube.com/watch?v=EIiNgiqr0s0)

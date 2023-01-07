@@ -60,7 +60,7 @@ Further there is one open-source solution under development:
   in IEEE Transactions on Image processing, February 2006, pp 385­393
 - A. Pal, T. Sencar and N. Memon, ["Detecting File Fragmentation Point
   Using Sequential Hypothesis
-  Testing"](http://digital-assembly.com/technology/research/pubs/dfrws2008.pdf),
+  Testing"](https://www.werecoverdata.com),
   Digital Investigations, Fall 2008
 
 ## External links

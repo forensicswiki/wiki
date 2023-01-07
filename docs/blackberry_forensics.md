@@ -95,7 +95,7 @@ export and click "OK"
 For a more advanced and in depth look at the file format of (.ipd)
 backup files visit the following site.
 
-<http://na.blackberry.com/eng/devjournals/resources/journals/jan_2006/ipd_file_format.jsp>
+<https://www.blackberry.com/us/en>
 
 ## Blackberry BBB File Format (Mac OS X) (.bbb)
 
@@ -104,7 +104,7 @@ these are simply .zip compressed files containing a standard .ipd file.
 
 ## Acquisition with Paraben's Device Seizure
 
-`* You may purchase a copy of Device Seizure on Paraben's Website `[`here`](http://www.paraben.com/device-seizure.html)`.`
+`* You may purchase a copy of Device Seizure on Paraben's Website `[`here`](https://paraben.com/paraben-for-mobile-forensics/)`.`
 
 As an alternative to acquiring the Blackberry through Amber Blackberry
 Converter, Paraben's Device Seizure is a simple and effective method to
@@ -201,11 +201,11 @@ transfer across a USB port.
 
 ## References
 
-- [phoneMiner](http://www.amraksoftware.com/), phoneMiner
+- [phoneMiner](https://www.amraksoftware.com/), phoneMiner
 - [ABC](http://www.processtext.com/abcblackberry.html), Amber BlackBerry
   Converter
 - [BlackBerry Simulator](https://www.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477),
   Simulator Download website
-- [IPD](http://na.blackberry.com/eng/devjournals/resources/journals/jan_2006/ipd_file_format.jsp),
+- [IPD](https://www.blackberry.com/us/en),
   IPD File Format
 - [Blackberry Protocol](http://www.off.net/cassis/protocol-description.html)

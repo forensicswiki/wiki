@@ -7,5 +7,5 @@ devices.
 
 ## External Link
 
-- [GPX home page](http://www.topografix.com/gpx.asp)
+- [GPX home page](https://www.topografix.com/gpx.asp)
 

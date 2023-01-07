@@ -42,7 +42,7 @@ and make it easier to access special information that is only accessible
 over the IDE interface. You may feel differently.
 
 NIST test results are here:
-<http://www.cftt.nist.gov/hardware_write_block.htm>
+<https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-technical/hardware>
 
 ## Commercial
 
@@ -65,12 +65,12 @@ types - NIST Ver. 2 accepted
 <!-- -->
 
 WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
-<http://www.cru-inc.com/products/wiebetech/> NIST Ver. 1 accepted
+<https://wiebetech.com/products/> NIST Ver. 1 accepted
 
 <!-- -->
 
 EPOS WriteProtector
-<http://www.epos.ua/view.php/en/products_epos_write_protector>
+<https://www.epos.ua/view.php/en/products_epos_write_protector>
 
 # Software Write Blockers
 
@@ -91,4 +91,4 @@ SAFE Block XP is a software-based write blocker designed for the Windows
 XP Operating System. It comes in both 32 and 64 bit options. NIST Ver.
 1.2 accepted
 
-<http://www.forensicsoft.com/>
+<https://www.forensicsoft.com/>
