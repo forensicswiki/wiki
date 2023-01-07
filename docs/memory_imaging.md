@@ -143,8 +143,8 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
 ## Also see
 
 * [Memory analysis](memory_analysis.md)
-* [Memory analysis tools](tools:memory_analysis.md)
-* [Memory imaging tools](tools:memory_imaging.md)
+* [Memory analysis tools](tools_memory_analysis.md)
+* [Memory imaging tools](tools_memory_imaging.md)
 
 ## External Links
 

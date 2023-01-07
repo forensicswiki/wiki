@@ -9,14 +9,14 @@ any tool for more details.
 **Note: This page has gotten too big and is being broken up. See:**
 
 - [Disk Imaging](disk_imaging.md)
-- [Data Recovery](tools:data_recovery.md)
+- [Data Recovery](tools_data_recovery.md)
   (including [file carving](file_carving.md))
-- [File Analysis](tools:file_analysis.md)
-- [Document Metadata Extraction](tools:document_metadata_extraction.md)
-- [Memory Imaging](tools:memory_imaging.md)
-- [Memory Analysis](tools:memory_analysis.md)
-- [Network Forensics](tools:network_forensics.md)
-- [Tools:Logfile Analysis](tools:logfile_analysis.md)
+- [File Analysis](tools_file_analysis.md)
+- [Document Metadata Extraction](document_metadata_extraction.md#tools)
+- [Memory Imaging](tools_memory_imaging.md)
+- [Memory Analysis](tools_memory_analysis.md)
+- [Network Forensics](tools_network_forensics.md)
+- [Logfile Analysis](logfile_analysis.md#tools)
 
 # Disk Analysis Tools
 

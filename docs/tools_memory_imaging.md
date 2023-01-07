@@ -170,7 +170,7 @@ memory either to the file system of the device or over the network.
 a tool to create Linux Volatility profiles and dump memory (using LiME)
 from an USB Key, without installation on local HDD. Very useful
 
-[Tools:Memory_Imaging//dev/crash](tools:memory_imaging/dev/crash.md)
+/dev/crash
 On Red Hat systems (and those running related distros such as Fedora or
 CentOS), the crash driver can be loaded to create pseudo-device
 /dev/crash for raw physical memory access (via command "modprobe
@@ -183,10 +183,10 @@ Care must be taken to avoid addresses that are not RAM-backed. On Linux,
 /proc/iomem exposes the correct address ranges to image, marked with
 "System RAM".
 
-[Tools:Memory_Imaging//dev/mem](tools:memory_imaging/dev/mem.md)
+/dev/mem
 On older Linux systems, the program [dd](dd.md) can be used to
 read the contents of [physical memory](physical_memory.md) from
-the device file `/dev/mem`. On recent Linux systems, however, /dev/mem
+the device file /dev/mem. On recent Linux systems, however, /dev/mem
 provides access only to a restricted range of addresses, rather than the
 full physical memory of a system. On other systems it may not be
 available at all. Throughout the 2.6 series of the Linux kernel, the

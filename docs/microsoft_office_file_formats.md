@@ -45,7 +45,7 @@ tags:
 
 ## See Also
 
-* [Tools:Document Metadata Extraction](tools:document_metadata_extraction.md)
+* [Tools:Document Metadata Extraction](document_metadata_extraction.md#tools)
 * [Microsoft Compound Document File Format](media:compdocfileformat.pdf.md)
 
 ## External Links
