@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Windows
-  -  Live CD
-  -  Tools
-  -  Open Source Software
+  - Live CD
+  - Open Source Software
+  - Tools
+  - Windows
 ---
 
 **Windows Forensic Environment** - a forensically sound bootable CD/USB
@@ -69,15 +69,10 @@ Various issues with Linux Boot CDs can be compared
 
 ## Resources:
 
-- Windows Forensic Environment blog:
-  [10](https://winfe.wordpress.com/)
-- Article on Win FE in Hakin9 magazine 2009-06 [11](https://hakin9.org/)
-- step-by-step Video to create a Win FE CD
-  [12](http://www.youtube.com/v/J3T5wnPiObI)
-- WinPE Technical Reference:
-  \[<https://learn.microsoft.com/en-us/>).aspx\]
-- Windows Automated Installation Kit:
-  [13](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
-- WinFE Write Protect tool [14](http://www.ramsdens.org.uk/)
-- WinFE Online Training course
-  [15](http://courses.dfironlinetraining.com/windows-forensic-environment)
+* [Windows Forensic Environment blog](https://winfe.wordpress.com/)
+* [Article on Win FE in Hakin9 magazine 2009-06](https://hakin9.org/)
+* [step-by-step Video to create a Win FE CD](http://www.youtube.com/v/J3T5wnPiObI)
+* [WinPE Technical Reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11)
+* [Windows Automated Installation Kit](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
+* [WinFE Write Protect tool](http://www.ramsdens.org.uk/)
+* [WinFE Online Training course](http://courses.dfironlinetraining.com/windows-forensic-environment)

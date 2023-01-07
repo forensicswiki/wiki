@@ -5,25 +5,21 @@ tags:
   - Disk Image
   - Articles that need to be expanded
 ---
-The **Advanced Forensics Format** (**AFF**) is an extensible open format
-for the storage of [disk images](disk_image.md) and related
-forensic [metadata](metadata.md). It was originally developed by
-[Simson Garfinkel](simson_garfinkel.md) and [Basis
-Technology](basis_technology.md). The last version of AFF is
-implemented in the [AFFLIBv3](afflibv3.md) library, which can be
-found on [github](https://github.com/simsong/AFFLIBv3).
-[AFF4](aff4.md) builds upon many of the concepts developed in
-AFF. AFF4 was developed by [Michael Cohen](michael_cohen.md),
-Simson Garfinkel and Bradley Schatz. That version can be downloaded from
-[Google Code](https://code.google.com/archive/p/aff4).
+The **Advanced Forensics Format** (**AFF**) is an extensible open format for
+the storage of [disk images](disk_image.md) and related forensic
+[metadata](metadata.md). It was originally developed by [Simson Garfinkel](simson_garfinkel.md)
+and Basis Technology. The last version of AFF is implemented in the
+AFFLIBv3 library, which can be found on [GitHub](https://github.com/simsong/AFFLIBv3).
+
+[AFF4](aff4.md) builds upon many of the concepts developed in AFF. AFF4 was
+developed by [Michael Cohen](michael_cohen.md), Simson Garfinkel and Bradley
+Schatz. That version can be downloaded from [GitHub](https://github.com/Velocidex/c-aff4).
 
 **AFF3 and AFFLIBv3 have been depreciated and should not be used for new
 projects.**
 
-[The Sleuth Kit](the_sleuth_kit.md), [Autopsy](Autopsy.md),
-[OSFMount](osfmount.md), [Xmount](xmount.md), [FTK
-Imager](ftk_imager.md) and [FTK](ftk.md) support the
-AFFv3 image format.
+[The Sleuth Kit](the_sleuth_kit.md), Autopsy, OSFMount, [Xmount](xmount.md),
+[FTK Imager](ftk_imager.md) and [FTK](ftk.md) support the AFFv3 image format.
 
 ## AFF Background
 

@@ -6,8 +6,7 @@ Here are tools that will extract metadata from document files.
 
 ## Tools
 
-[antiword](antiword.md)
-<http://www.winfield.demon.nl/>
+[antiword](http://www.winfield.demon.nl/)
 
 <!-- -->
 
@@ -22,38 +21,32 @@ The tool can visualize pictures embedded in a document.
 
 <!-- -->
 
-[catdoc](catdoc.md)
-<http://www.45.free.net/~vitus/software/catdoc/>
+[catdoc](http://www.45.free.net/~vitus/software/catdoc/)
 
 <!-- -->
 
-[laola](laola.md)
-<http://user.cs.tu-berlin.de/~schwartz/pmh/index.html>
+[laola](http://user.cs.tu-berlin.de/~schwartz/pmh/index.html)
 
 <!-- -->
 
-[word2x](word2x.md)
-<https://word2x.sourceforge.net/>
+[word2x](https://word2x.sourceforge.net/)
 
 <!-- -->
 
-[wvWare](wvware.md)
-<https://wvware.sourceforge.net/>
+[wvWare](https://wvware.sourceforge.net/)
 
 Extracts metadata from various [Microsoft Word](microsoft_office.md) (doc)
 files. Can also convert doc files to other formats such as HTML or plain text.
 
 <!-- -->
 
-[Outside In](outside_in.md)
-<http://www.oracle.com/technology/products/content-management/oit/oit_all.html>
+[Outside In](http://www.oracle.com/technology/products/content-management/oit/oit_all.html)
 
 Originally developed by Stellant, supports hundreds of file types.
 
 <!-- -->
 
-[FI Tools](fi_tools.md)
-<https://www.fid3.com/>
+[FI Tools](https://www.fid3.com/)
 
 More than 100 file types.
 
@@ -62,7 +55,7 @@ More than 100 file types.
 StickyNotes Parser
 
 Windows 7 StickyNotes follow the [MS Compound Document binary
-format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b?redirectedfrom=MSDN);
+format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b);
 the StickyNotes Parser extracts metadata (time stamps) from the OLE
 format, including the text content (not the RTF contents) of the notes
 themselves. Sn.exe also extracts the modified time of the Root Entry to
@@ -194,27 +187,22 @@ many Debian based distributions.
 These general-purpose programs frequently work when the special-purpose
 programs fail, but they generally provide less detailed information.
 
-[Metadact-e](metadact-e.md)
+[Metadact-e](https://www.litera.com/products/legal/metadact/)
 "Patented server-based metadata cleaning software that previews, cleans
 and converts documents in Microsoft Outlook, Web Access email, tablets
 and smartphones, as well as desktop-based documents."
 
-<https://www.litera.com/products/legal/>
-
 <!-- -->
 
-[Metadata Extraction Tool](metadata_extraction_tool.md)
+[Metadata Extraction Tool](https://meta-extractor.sourceforge.net/)
 "Developed by the National Library of New Zealand to programmatically
 extract preservation metadata from a range of file formats like PDF
 documents, image files, sound files Microsoft office documents, and many
 others."
 
-<https://meta-extractor.sourceforge.net/>
-
 <!-- -->
 
-[Metadata Assistant](metadata_assistant.md)
-<http://www.thepaynegroup.com/products/metadata/>
+[Metadata Assistant](http://www.thepaynegroup.com/products/metadata/)
 
 <!-- -->
 
@@ -228,13 +216,12 @@ The UNIX **file** program can extract some metadata
 
 <!-- -->
 
-[GNU libextractor](gnu_libextractor.md)
-<https://www.gnunet.org/en/> The libextractor library is a plugable
-system for extracting metadata
+[GNU libextractor](https://www.gnunet.org/en/)
+The libextractor library is a plugable system for extracting metadata
 
 <!-- -->
 
-[Directory Lister Pro](directory_lister_pro.md)
+[Directory Lister Pro](https://www.krksoft.com/)
 Directory Lister Pro is a Windows tool which creates listings of files
 from selected directories on hard disks, CD-ROMs, DVD-ROMs, floppies,
 USB storages and network shares. Listing can be in HTML, text or CSV
@@ -253,11 +240,9 @@ completely customize the visual look of the output. Filter on file name,
 date, size or attributes can be applied so it is possible to limit the
 files listed.
 
-<https://www.krksoft.com/>
-
 <!-- -->
 
-[Apache Tika](apache_tika.md)
+[Apache Tika](https://tika.apache.org/)
 Apache Tika extracts metadata from a wide range of file formats and
 normalizes metadata keys to Dublin Core when possible. In recent
 versions of Tika, we have focused on extracting more information about
@@ -272,6 +257,3 @@ recommend the RecursiveParserWrapper (-J -t options in the commandline
 app or /rmeta endpoint in
 [tika-server](https://cwiki.apache.org/confluence/display/tika/TikaJAXRS)) to capture
 metadata from embedded documents.
-
-<https://tika.apache.org/>
-

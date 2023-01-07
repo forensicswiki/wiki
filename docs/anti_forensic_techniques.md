@@ -245,46 +245,31 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 
 ## Externals Links
 
-- [Anti-Forensics: The Next Step in Digital Forensics Tool
-  Testing](https://www.digitrace.de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
+* [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.digitrace.de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
   in: IT Security Incident Management and IT Forensics (IMF): 2013
   Seventh International Conference on, Date 12-14 March 2013, IEEE, S.
   83 – 97
-- [Talk on Anti-Forensics, on
-  28C3](https://www.youtube.com/watch?v=OP9k-G2yq9I) (in German)
-- [Breaking Encase with FILE0 and
-  Winhex](http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)
-- [Anti Forensics: making computer forensics
-  hard](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
-- [PTK Forensic Local Command Execution Vulnerability (fixed in 1.0.1,
-  see CHANGELOG)](https://seclists.org/bugtraq/2008/Nov/38)
-- [Anti-Forensics
-  Class](http://www.irongeek.com/i.php?page=videos/anti-forensics-occult-computing)
+* [Talk on Anti-Forensics, on 28C3](https://www.youtube.com/watch?v=OP9k-G2yq9I),
+  in German
+* [Breaking Encase with FILE0 and Winhex](http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)
+* [Anti Forensics: making computer forensics hard](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
+* [PTK Forensic Local Command Execution Vulnerability (fixed in 1.0.1, see CHANGELOG)](https://seclists.org/bugtraq/2008/Nov/38)
+* [Anti-Forensics Class](http://www.irongeek.com/i.php?page=videos/anti-forensics-occult-computing)
   Little over 3hr of video on the subject of anti-forensic techniques
-- [Linux for computer forensic investigators: problems of booting
-  trusted operating
-  system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
-- [Low Down and Dirty: Anti-forensic
-  Rootkits](https://www.blackhat.com/presentations/bh-jp-06/BH-JP-06-Bilby-up.pdf),
+* [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
+* [Low Down and Dirty: Anti-forensic Rootkits](https://www.blackhat.com/presentations/bh-jp-06/BH-JP-06-Bilby-up.pdf),
   by [Darren Bilby](darren_bilby.md), Blackhat Japan 2006
-- [One-byte Modification for Breaking Memory Forensic
-  Analysis](https://media.blackhat.com/bh-eu-12/Haruyama/bh-eu-12-Haruyama-Memory_Forensic-Slides.pdf),
+* [One-byte Modification for Breaking Memory Forensic Analysis](https://media.blackhat.com/bh-eu-12/Haruyama/bh-eu-12-Haruyama-Memory_Forensic-Slides.pdf),
   by Takahiro Haruyama, Hiroshi Suzuki, March 14-16, 2012
 
 ### Mitigation
 
-- [Mitigating Anti-Forensics: A Schema-based
-  Approach](https://starfish.digitrace.de/media/thesis.pdf), by Phil
-  Knüfer, January 5, 2014
+* [Mitigating Anti-Forensics: A Schema-based Approach](https://starfish.digitrace.de/media/thesis.pdf),
+  by Phil Knüfer, January 5, 2014
 
 ### Windows
 
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  NtSetInformationFile function\]
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  SetFileInformationByHandle function\]
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  SetFileTime function\]
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  ZwSetInformationFile function\]
-
+* [NtSetInformationFile function](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+* [SetFileInformationByHandle function](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-setfileinformationbyhandle)
+* [SetFileTime function](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-setfiletime)
+* [ZwSetInformationFile function](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile)

@@ -1,8 +1,6 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Text
+  - File Formats
 ---
 The [EnCase](encase.md) forensics suite uses a proprietary file
 format to store sets of known hashes called the **EnCase hash file
@@ -79,7 +77,4 @@ The file ends with the last hash entry.
 
 ## See also
 
-- [EnCase](encase.md)
-
-[Category:Forensics File
-Formats](category:forensics_file_formats.md)
+* [EnCase](encase.md)

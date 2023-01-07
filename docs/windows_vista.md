@@ -66,13 +66,13 @@ with applications at higher level/permission.
   Analysis](https://www.symantec.com/avcenter/reference/Vista_Network_Attack_Surface_RTM.pdf),
   James Hoagland, Matt Conover, Tim Newsham, Ollie Whitehouse
 - [Inside the Windows Vista Kernel: Part
-  1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)?redirectedfrom=MSDN),
+  1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), February 2007
 - [Inside the Windows Vista Kernel: Part
   2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
   by [Mark Russinovich](mark_russinovich.md), March 2007
 - [Inside the Windows Vista Kernel: Part
-  3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)?redirectedfrom=MSDN),
+  3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), April 2007
 - [Forensic Implications of Windows
   Vista](https://whereismydata.files.wordpress.com/2009/09/forensic-implications-of-windows-vista.pdf),

@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Tools
+  - Network Analysis
+  - Tools
 ---
 ## Description and Review
 
@@ -87,5 +88,3 @@ This is an example output from the internal route table:
 `   0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33`
 `   169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33`
 `   172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33`
-
-[Category:Tools](category:tools.md) [Category:Network

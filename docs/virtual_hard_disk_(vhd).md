@@ -51,7 +51,7 @@ differential images of the previous snapshot.
 - [VHD (file format)](https://en.wikipedia.org/wiki/VHD_(file_format)),
   by Wikipedia
 - [Virtual Hard Disk Image Format
-  Specification](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt169373(v=ws.11)?redirectedfrom=MSDN),
+  Specification](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt169373(v=ws.11)),
   by Microsoft, October 2006
 - [Overview of VHD & VHDX Virtual Hard
   Drive](https://www.bitrecover.com/blog/what-is-virtual-hard-disk/) An

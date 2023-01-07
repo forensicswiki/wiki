@@ -1,26 +1,22 @@
 ---
 tags:
-  -  Applications
-  -  Web Browsers
+  - Applications
+  - Web Browsers
 ---
-Microsoft Internet Explorer (MSIE) is the default [Web
-Browser](web_browser.md) included with [Microsoft
-Windows](microsoft_windows.md).
+Microsoft Internet Explorer (MSIE) is the default [Web Browser](web_browser.md)
+included with [Microsoft Windows](microsoft_windows.md).
 
 ## MSIE 4 to 9
 
-MSIE 4 to 9 uses the [Internet Explorer History File
-Format](internet_explorer_history_file_format.md) (or MSIE 4-9
-Cache File format). The Cache Files commonly named index.dat are used to
-store both cache and historical information.
+MSIE 4 to 9 uses the [Internet Explorer History File Format](internet_explorer_history_file_format.md)
+(or MSIE 4-9 Cache File format). The Cache Files commonly named index.dat are
+used to store both cache and historical information.
 
 ## MSIE 10
 
     C:\Users\%USER%\AppData\Local\Microsoft\Windows\WebCache\
 
-The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible
-Storage Engine (ESE) Database File (EDB)
-format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
+The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
 ## Configuration
 
@@ -64,20 +60,17 @@ User preference key
 
 ### WPAD
 
-<b>TODO add some text</b>
+**TODO add some text**
 
 ## Command line options
 
-MSIE supports various command line options, see:
-\[<https://learn.microsoft.com/en-us/>).aspx\]
-and
-[1](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/)
+MSIE supports various command line options, see: [IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85))
 
 ## Artifacts
 
 ### Recovery store
 
-<b>TODO add some text</b>
+**TODO add some text**
 
 On Windows Vista and later:
 
@@ -86,70 +79,52 @@ On Windows Vista and later:
 ### Typed URLs
 
 Internet Explorer stores the cached History (or Address box) entries in
-the following Windows Registry key
-[2](http://support.microsoft.com/kb/157729).
+the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
 
     HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs
 
 ## See Also
 
-- [Extensible Storage Engine (ESE) Database File (EDB)
-  format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
-- [Internet Explorer 4-9 Cache File
-  Format](internet_explorer_history_file_format.md)
+* [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
+* [Internet Explorer 4-9 Cache File Format](internet_explorer_history_file_format.md)
 
 ## External Links
 
-- [Internet Explorer
-  Cache](https://kb.digital-detective.net/display/BF/Internet+Explorer+Cache)
-- [Internet Explorer security zones registry entries for advanced
-  users](https://learn.microsoft.com/en-US/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries), by
-  [Microsoft](microsoft.md)
-- [Troubleshooting Automatic
-  Detection](https://learn.microsoft.com/en-us/previous-versions/tn-archive/cc302643(v=technet.10)?redirectedfrom=MSDN),
+* [Internet Explorer Cache](https://kb.digital-detective.net/display/BF/Internet+Explorer+Cache)
+* [Internet Explorer security zones registry entries for advanced users](https://learn.microsoft.com/en-US/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries),
   by [Microsoft](microsoft.md)
-- [Windows Virtual PC VHDs for testing websites with different Internet
-  Explorer
-  versions](http://www.microsoft.com/en-us/download/details.aspx?id=11575),
+* [Troubleshooting Automatic Detection](https://learn.microsoft.com/en-us/previous-versions/tn-archive/cc302643(v=technet.10)),
   by [Microsoft](microsoft.md)
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  IE Command-Line Options\], by [Microsoft](microsoft.md),
-  January, 2011
-- [Little-known browser commands and
-  functions](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/),
+* [Windows Virtual PC VHDs for testing websites with different Internet Explorer versions](http://www.microsoft.com/en-us/download/details.aspx?id=11575),
+  by [Microsoft](microsoft.md)
+* [IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85)),
+  by [Microsoft](microsoft.md), January, 2011
+* [Little-known browser commands and functions](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/),
   by Fred Langa, June 21, 2012
-- [Java Web Vulnerability Mitigation on
-  Windows](http://tojoswalls.blogspot.com/2013/05/java-web-vulnerability-mitigation-on.html),
+* [Java Web Vulnerability Mitigation on Windows](http://tojoswalls.blogspot.com/2013/05/java-web-vulnerability-mitigation-on.html),
   by Tim Johnson, May 23, 2013
-- [Internet Explorer EPM Sandbox Escape
-  CVE-2014-6350](https://googleprojectzero.blogspot.com/2014/12/internet-explorer-epm-sandbox-escape.html),
+* [Internet Explorer EPM Sandbox Escape CVE-2014-6350](https://googleprojectzero.blogspot.com/2014/12/internet-explorer-epm-sandbox-escape.html),
   by James Forshaw, December 1, 2014
 
 ### Recovery store
 
-- [Internet Explorer RecoveryStore (aka Travelog) as evidence of Internet Browsing activity](http://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
+* [Internet Explorer RecoveryStore (aka Travelog) as evidence of Internet Browsing activity](http://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
   by Yogesh Khatri, September 29, 2011
 
 ### Typed URLS
 
-- [TypedURLs (Part
-  1)](http://crucialsecurityblog.harris.com/2011/03/14/typedurls-part-1/),
+* [TypedURLs (Part 1)](http://crucialsecurityblog.harris.com/2011/03/14/typedurls-part-1/),
   by Paul Nichols, March 14, 2011
-- [TypedURLs (Part
-  2)](http://crucialsecurityblog.harris.com/2011/03/23/typedurls-part-2/),
+* [TypedURLs (Part 2)](http://crucialsecurityblog.harris.com/2011/03/23/typedurls-part-2/),
   by Paul Nichols, March 23, 2011
-- [The Trouble with
-  TypedUrlsTime](http://randomthoughtsofforensics.blogspot.co.uk/2012/07/trouble-with-typedurlstime.html),
+* [The Trouble with TypedUrlsTime](http://randomthoughtsofforensics.blogspot.co.uk/2012/07/trouble-with-typedurlstime.html),
   by Ken Johnson, July 4, 2012
-- [TypedURLs Registry
-  Key](http://sketchymoose.blogspot.ch/2014/02/typedurls-registry-key.html),
+* [TypedURLs Registry Key](http://sketchymoose.blogspot.ch/2014/02/typedurls-registry-key.html),
   Sketchymoose's Blog, February 18, 2014
 
 ### Internet Explorer 10
 
-- [Windows 8 Forensics: Internet History
-  Cache](https://cyberarms.wordpress.com/2012/08/21/windows-8-forensics-internet-cache-history/),
+* [Windows 8 Forensics: Internet History Cache](https://cyberarms.wordpress.com/2012/08/21/windows-8-forensics-internet-cache-history/),
   by Ethan Fleisher, August 21, 2012
-- [Forensic Analysis of ESE databases in Internet Explorer
-  10](http://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf),
+* [Forensic Analysis of ESE databases in Internet Explorer 10](http://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf),
   by Bonnie Malmström & Philip Teveldal, June 2013

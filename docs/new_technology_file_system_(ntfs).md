@@ -38,7 +38,7 @@ Registry key:
     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
 
 Note that this feature has been around since as early as Windows 2000
-[1](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959914(v=technet.10)?redirectedfrom=MSDN).
+[1](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959914(v=technet.10)).
 
 ## Alternate Data Streams
 
@@ -141,14 +141,14 @@ TxF uses the [Common Log File System
 
 ## External links
 
-* [Technet: How NTFS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781134(v=ws.10)?redirectedfrom=MSDN),
+* [Technet: How NTFS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781134(v=ws.10)),
   by [Microsoft](microsoft.md)
 * [Master File Table](http://msdn.microsoft.com/en-us/library/bb470206(v=vs.85>).aspx)
-* [MS-FSCC - Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0?redirectedfrom=MSDN),
+* [MS-FSCC - Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0),
   by [Microsoft](microsoft.md)
 * [Wikipedia: NTFS](https://en.wikipedia.org/wiki/NTFS)
 * [Wikipedia: NTFS Reparse point](https://en.wikipedia.org/wiki/NTFS_reparse_point)
-* [MSDN: Transactional NTFS](https://learn.microsoft.com/en-us/windows/win32/fileio/transactional-ntfs-portal?redirectedfrom=MSDN)
+* [MSDN: Transactional NTFS](https://learn.microsoft.com/en-us/windows/win32/fileio/transactional-ntfs-portal)
 * [Wikipedia: Transactional NTFS](https://en.wikipedia.org/wiki/Transactional_NTFS)
 * [Windows NTFS Metadata Extractor Utility](http://www.tzworks.net/prototype_page.php?proto_id=12)
   Free tool that can be run on Windows, Linux or Mac OS-X
@@ -179,7 +179,7 @@ TxF uses the [Common Log File System
 
 ### Alternate Data Stream (ADS)
 
-* [MS-FSCC: Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0?redirectedfrom=MSDN),
+* [MS-FSCC: Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0),
   by [Microsoft](microsoft.md)
 
 ### USN change journal (UsnJrnl)

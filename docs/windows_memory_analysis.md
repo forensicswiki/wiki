@@ -10,7 +10,7 @@ holds great promise.
 ## Data types
 
 Data types typical to the WINAPI are documented by Microsoft in MS-DTYP
-[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2?redirectedfrom=MSDN).
+[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2).
 
 ## Sample Memory Images
 
@@ -47,7 +47,7 @@ images to practice with.
 * [Tools:Memory Imaging](tools_memory_imaging.md)
 * [Pagefile.sys](pagefile.sys.md)
 * [Memory Limits for Windows
-  Releases](https://learn.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases?redirectedfrom=MSDN),
+  Releases](https://learn.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases),
   Microsoft MSDN.
 
 ## History
@@ -139,7 +139,7 @@ and re-released as [Volatility](docs/windows_memory_analysis.md) in August
 ## External Links
 
 * [NTAPI Undocumented Functions](http://undocumented.ntinternals.net/)
-* [MS-DTYP: Windows Data Types](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2?redirectedfrom=MSDN)
+* [MS-DTYP: Windows Data Types](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2)
 * [Catalog of key Windows kernel data structures](http://www.codemachine.com/article_kernelstruct.html)
 * [Jesse Kornblum Memory Analysis discussion on Cyberspeak](https://cyberspeak.libsyn.com/index.php?post_id=98104)
 * [Fatkit: Links](http://www.4tphi.net/fatkit/#links)

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Systems
-  -  Windows
+  - File Systems
+  - Windows
 ---
 **FAT**, or File Allocation Table, is a [file
 system](file_systems.md) that is designed to keep track of
@@ -172,46 +172,46 @@ are probably: FAT12, FAT16, and FAT32.
 
 ### FAT12
 
-- FAT12 is a type of FAT that uses a 12 bit file allocation table entry.
-- FAT12 can hold a max of 4,084 clusters (which is 2<sup>12</sup>
+* FAT12 is a type of FAT that uses a 12 bit file allocation table entry.
+* FAT12 can hold a max of 4,084 clusters (which is 2<sup>12</sup>
   clusters minus a few values that are reserved for values used in the
   FAT).
-- It is used for floppy disks and hard drive partitions that are smaller
+* It is used for floppy disks and hard drive partitions that are smaller
   than 16 MB.
-- All 1.44 MB 3.5" floppy disks are formatted using FAT12.
-- Cluster size that is used is between 0.5 KB to 4 KB.
+* All 1.44 MB 3.5" floppy disks are formatted using FAT12.
+* Cluster size that is used is between 0.5 KB to 4 KB.
 
 ### FAT16
 
-- It is called FAT16 because all entries are 16 bit.
-- FAT16 can hold a max of 65,524 addressable units
-- It is used for small and moderate sized hard disk volumes.
+* It is called FAT16 because all entries are 16 bit.
+* FAT16 can hold a max of 65,524 addressable units
+* It is used for small and moderate sized hard disk volumes.
 
 ### FAT32
 
 FAT32 is the enhanced version of the FAT system implemented beginning
 with Windows 95 OSR2, Windows 98, and Windows Me. Features include:
 
-- Drives of up to 2 terabytes are supported
+* Drives of up to 2 terabytes are supported
   ([windows](windows.md)
-- Since FAT32 uses smaller clusters (of 4 kilobytes each), it uses hard
+* Since FAT32 uses smaller clusters (of 4 kilobytes each), it uses hard
   drive space more efficiently. This is a 10 to 15 percent improvement
   over FAT or FAT16.
-- The limitations of FAT or FAT 16 on the number of root folder entries
+* The limitations of FAT or FAT 16 on the number of root folder entries
   have been eliminated. In FAT32, the root folder is an ordinary cluster
   chain, and can be located anywhere on the drive.
-- File allocation mirroring can be disabled in FAT32. This allows a
+* File allocation mirroring can be disabled in FAT32. This allows a
   different copy of the file allocation table then the default to be
   active.
 
 #### Limitations with [Windows](windows.md) 2000 & [Windows](windows.md) XP
 
-- Clusters cannot be 64KB or larger.
-- Cannot decrease cluster size that will result in the the FAT being
+* Clusters cannot be 64KB or larger.
+* Cannot decrease cluster size that will result in the the FAT being
   larger than 16 MB minus 64KB in size.
-- Cannot contain fewer than 65,527 clusters.
-- Maximum of 32KB per cluster.
-- *[Windows](windows.md) XP*: The Windows XP installation
+* Cannot contain fewer than 65,527 clusters.
+* Maximum of 32KB per cluster.
+* *[Windows](windows.md) XP*: The Windows XP installation
   program will not allow a user to format a drive of more than 32GB
   using the FAT32 file system. Using the installation program, the only
   way to format a disk greater than 32GB in size is to use NTFS. A disk
@@ -226,21 +226,21 @@ Microsoft's latest version of FAT and works with Windows Embedded CE
 6.0, Windows XP/Server 2003 (with a KB patch, Vista/Server 2008 SP 1 &
 Later, and Windows 7. Features include:
 
-- Largest file size is 2<sup>64</sup> bytes (16 exabytes) vs. FAT32's
+* Largest file size is 2<sup>64</sup> bytes (16 exabytes) vs. FAT32's
   maximum file size of 4GB.
-- Has transaction support using Transaction-Safe Extended FAT File
+* Has transaction support using Transaction-Safe Extended FAT File
   System (TexFAT). (Not released yet in Desktop/Server OS)
-- Speeds up storage allocation processes by using free space bitmaps.
-- Support UTC timestamps (Vista/Server 2008 SP1 does not support UTC,
+* Speeds up storage allocation processes by using free space bitmaps.
+* Support UTC timestamps (Vista/Server 2008 SP1 does not support UTC,
   UTC support came out with SP2)
-- Maximum Cluster size of 32MB (Fat32 is 32KB)
-- Sector sizes from 512 bytes to 4096 bytes in size
-- Maximum FAT supportable volume size of 128PB
-- Maximum Subdirectory size of 256MB which can support up to over 2
+* Maximum Cluster size of 32MB (Fat32 is 32KB)
+* Sector sizes from 512 bytes to 4096 bytes in size
+* Maximum FAT supportable volume size of 128PB
+* Maximum Subdirectory size of 256MB which can support up to over 2
   million files in a single subdirectory
-- Uses a Bitmap for cluster allocation
-- Supports File Permissions (Not released yet in Desktop/Server OS)
-- Has been selected as the exclusive file system of the SDXC memory card
+* Uses a Bitmap for cluster allocation
+* Supports File Permissions (Not released yet in Desktop/Server OS)
+* Has been selected as the exclusive file system of the SDXC memory card
   by the SD Association
 
 Although Microsoft has published some information on exFAT, there are
@@ -268,15 +268,15 @@ used in electronic devices with miniature hard drives.
 
 Examples of devices in which FAT is utilized include:
 
-- [USB](usb.md) thumb drives
-- [Digital cameras](digital_camera.md)
-- Digital camcorders
-- Portable audio and video players
-- Multifunction [printers](printers.md)
-- Electronic photo frames
-- Electronic musical instruments
-- Standard televisions
-- [PDAs](pdas.md)
+* [USB](usb.md) thumb drives
+* [Digital cameras](digital_camera.md)
+* Digital camcorders
+* Portable audio and video players
+* Multifunction [printers](printers.md)
+* Electronic photo frames
+* Electronic musical instruments
+* Standard televisions
+* [PDAs](pdas.md)
 
 ## Data Recovery
 
@@ -577,29 +577,29 @@ use smaller cluster sizes whenever possible.
 
 ## FAT Advantages
 
-- Files available to multiple operating systems on the same computer
-- Easier to switch from FAT to [NTFS](ntfs.md) than vice versa
-- Performs faster on smaller volumes (\< 10GB)
-- Does not index files, which causes slightly higher performance
-- Performs better with small cache sizes (\< 96MB)
-- More space-efficient on small volumes (\< 4GB)
-- Performs better with slow disks (\< 5400RPM)
+* Files available to multiple operating systems on the same computer
+* Easier to switch from FAT to [NTFS](ntfs.md) than vice versa
+* Performs faster on smaller volumes (\< 10GB)
+* Does not index files, which causes slightly higher performance
+* Performs better with small cache sizes (\< 96MB)
+* More space-efficient on small volumes (\< 4GB)
+* Performs better with slow disks (\< 5400RPM)
 
 ## FAT Disadvantages
 
-- FAT has a fixed maximum number of clusters per partition, which means
+* FAT has a fixed maximum number of clusters per partition, which means
   as the hard disk gets bigger the size of each cluster must increase,
   creating more slack space
-- Doesn't natively support many abilities of [NTFS](ntfs.md)
+* Doesn't natively support many abilities of [NTFS](ntfs.md)
   such as on-the-fly compression, [encryption](encryption.md),
   or advanced security using access control lists
-- [NTFS](ntfs.md) recommended by
+* [NTFS](ntfs.md) recommended by
   [Microsoft](microsoft.md) for volumes larger than 32GB
-- FAT slows down as the number of files on the disk increases
-- FAT usually fragments files more
-- FAT does not allow for indexing of files for faster searching
-- FAT does not support user quotas
-- FAT has minimal security features including no access control list
+* FAT slows down as the number of files on the disk increases
+* FAT usually fragments files more
+* FAT does not allow for indexing of files for faster searching
+* FAT does not support user quotas
+* FAT has minimal security features including no access control list
   (ACL) capability.
 
 ## FAT date and time values
@@ -651,75 +651,56 @@ object.
 
 ## External links
 
-- [Wikipedia: File Allocation
-  Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
-- [Wikipedia: Design of the FAT file
-  system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
-- <http://www.microsoft.com>
-- <http://www.ntfs.com>
-- <http://www.ntfs.com/ntfs_vs_fat.htm>
-- <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
-- <http://www.dewassoc.com/kbase/hard_drives/boot_sector.htm>
-- <http://home.teleport.com/~brainy/fat32.htm>
-- <http://www2.tech.purdue.edu/cpt/courses/cpt499s/>
-- <http://home.no.net/tkos/info/fat.html>
-- <http://web.ukonline.co.uk/cook/fat32.htm>
-- <http://www.ntfs.com/fat-systems.htm>
-- <http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx>
-- <http://support.microsoft.com/kb/q140418>
+* [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
+* [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
+* <http://www.microsoft.com>
+* <http://www.ntfs.com>
+* <http://www.ntfs.com/ntfs_vs_fat.htm>
+* <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
+* <http://www.dewassoc.com/kbase/hard_drives/boot_sector.htm>
+* <http://home.teleport.com/~brainy/fat32.htm>
+* <http://www2.tech.purdue.edu/cpt/courses/cpt499s/>
+* <http://home.no.net/tkos/info/fat.html>
+* <http://web.ukonline.co.uk/cook/fat32.htm>
+* <http://www.ntfs.com/fat-systems.htm>
+* <http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx>
+* <http://support.microsoft.com/kb/q140418>
 
 ### Format documentation
 
-- [ECMA-107: Volume and File Structure of Disk Cartridges for
-  Information
-  Interchange](https://www.ecma-international.org/wp-content/uploads/ECMA-107_2nd_edition_june_1995.pdf),
+* [ECMA-107: Volume and File Structure of Disk Cartridges for Information Interchange](https://www.ecma-international.org/wp-content/uploads/ECMA-107_2nd_edition_june_1995.pdf),
   2nd Edition - June 1995
-- [Microsoft Extensible Firmware Initiative FAT32 File System
-  Specification - FAT: General Overview of On-Disk
-  Format](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
+* [Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview of On-Disk Format](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
   by Microsoft, December 6, 2000
-- [An overview of
-  FAT12](https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf),
+* [An overview of FAT12](https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf),
   by Archana Chidanandan, 2004
-- [exFAT file system
-  specification](https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-specification),
+* [exFAT file system specification](https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-specification),
   by Microsoft, 2019-08-27
 
 ### Volume serial number
 
-- [Volume Serial Numbers and Format Date/Time
-  Verification](https://www.digital-detective.net/documents/Volume%20Serial%20Numbers.pdf),
+* [Volume Serial Numbers and Format Date/Time Verification](https://www.digital-detective.net/documents/Volume%20Serial%20Numbers.pdf),
   by Craig Wilson, October 2003 (updated June 2005)
 
 ### ExFAT
 
-- [Wikipedia: ExFAT](https://en.wikipedia.org/wiki/ExFAT)
-- [exFAT File System](http://www.active-undelete.com/xfat_volume.htm)
-- [Reverse Engineering the Microsoft exFAT File
-  System](https://www.sans.org/white-papers/33274/),
+* [Wikipedia: ExFAT](https://en.wikipedia.org/wiki/ExFAT)
+* [exFAT File System](http://www.active-undelete.com/xfat_volume.htm)
+* [Reverse Engineering the Microsoft exFAT File System](https://www.sans.org/white-papers/33274/),
   by [Robert Shullich](robert_shullich.md), December 1, 2009
-- [Extended FAT file
-  system](https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf),
+* [Extended FAT file system](https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf),
   by [Jeff Hamm](jeff_hamm.md), December 2009
-- [Demystifying the Microsoft Extended FAT File System
-  (exFAT)](https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
+* [Demystifying the Microsoft Extended FAT File System (exFAT)](https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
   by [Robert Shullich](robert_shullich.md), September 20, 2010
-- [Windows Phone 7 : Implications For Digital Forensic
-  Investigators](http://aut.researchgateway.ac.nz/bitstream/handle/10292/4123/LeY.pdf),
+* [Windows Phone 7 : Implications For Digital Forensic Investigators](http://aut.researchgateway.ac.nz/bitstream/handle/10292/4123/LeY.pdf),
   by [Yung Anh Le](yung_anh_le.md), 2012
 
 ### textFAT
 
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  TexFAT Overview (Windows Embedded CE 6.0)\], by
-  [Microsoft](microsoft.md)
-- [TexFAT Padding Directory
-  Entry](http://www.ntfs.com/exfat-textFAT-padding.htm)
+* [TexFAT Padding Directory Entry](http://www.ntfs.com/exfat-textFAT-padding.htm)
 
 ## Tools
 
 ### exFAT
 
-- [Open Source exFAT file system
-  implementation](https://github.com/relan/exfat)
-
+* [Open Source exFAT file system implementation](https://github.com/relan/exfat)

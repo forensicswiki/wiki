@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 **ddrescue** is a raw disk imaging tool that "copies data from one file
 or block device to another, trying hard to rescue data in case of read
@@ -220,12 +220,8 @@ This makes it usable natively on [Windows](windows.md) systems.
 
 ## See also
 
-- [aimage](aimage.md)
-- [Blackbag](blackbag.md)
-- [dcfldd](dcfldd.md)
-- [dd](dd.md)
-- [dd_rescue](dd_rescue.md)
-
-## Other Resources
-
-\[<http://blog.pfuender.net/?p=80>\| Useful code-snippets for DDrescue\]
+* [aimage](aimage.md)
+* [Blackbag](blackbag.md)
+* [dcfldd](dcfldd.md)
+* [dd](dd.md)
+* [dd_rescue](dd_rescue.md)

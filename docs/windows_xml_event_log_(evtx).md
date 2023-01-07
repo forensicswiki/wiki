@@ -25,7 +25,7 @@ corresponding file named:
     LocaleMetaData\%FILENAME%_%LCID%.MTA
 
 Where LCID is the "locale identifier"
-[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c?redirectedfrom=MSDN).
+[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 ## Location
 
@@ -45,7 +45,7 @@ Where LCID is the "locale identifier"
 
 * [EventLog Remoting Protocol Version 6.0 Specification](http://msdn.microsoft.com/en-us/library/cc231282(v=prot.10>).aspx)
   by [Microsoft](microsoft.md)
-* [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358?redirectedfrom=MSDN),
+* [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358),
   by [Microsoft](microsoft.md)
 * [int for(ensic){blog;} - results tagged Evtx](http://computer.forensikblog.de/mt/mt-search.cgi?IncludeBlogs=3&tag=Evtx&limit=20),
   by Andreas Schuster
@@ -74,7 +74,7 @@ Where LCID is the "locale identifier"
 * [Evtx Parser](http://computer.forensikblog.de/files/evtx/Parse-Evtx-current.zip)
 * [libevtx](libevtx.md)
 * [log2timeline](log2timeline.md)
-* [wevtutil](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749339(v=ws.11)?redirectedfrom=MSDN)
+* [wevtutil](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749339(v=ws.11))
 * [LogParser](http://www.microsoft.com/en-us/download/details.aspx?id=24659)
 * [python-evtx](http://www.williballenthin.com/evtx/)
 * [winlast](https://github.com/pch3/winlast)
