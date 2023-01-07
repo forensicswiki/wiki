@@ -1,19 +1,17 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Disk Imaging
+  - Disk Imaging
+  - Linux
+  - Tools
 ---
-**aimage** (the **advanced imager**) was an
-[imaging](imaging.md) tool that was part of
+**aimage** (the **advanced imager**) was an imaging tool that was part of
 [AFF](aff.md).
 
-**aimage** can create files in raw, AFF, AFD, or AFM formats. AFF and
-AFD formats can be compressed or uncompressed.
-[aimage](aimage.md) can optionally compress and calculate
-[MD5](md5.md) or [SHA-1](sha.md) hash residues while
-the data is being copied. It had intelligent error recovery, similar to
-what is in [ddrescue](ddrescue.md).
+**aimage** can create files in raw, AFF, AFD, or AFM formats. AFF and AFD
+formats can be compressed or uncompressed.  [aimage](aimage.md) can optionally
+compress and calculate [MD5](md5.md) or [SHA-1](sha-1.md) hash residues while
+the data is being copied. It had intelligent error recovery, similar to what is
+in [ddrescue](ddrescue.md).
 
 *'aimage* was withdrawn from support (December 25, 2010)
 

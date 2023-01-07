@@ -1,16 +1,15 @@
 ---
 tags:
-  -  File Formats
-  -  Disk Image
   -  Articles that need to be expanded
+  -  Disk Image
+  -  File Formats
 ---
 # Advanced Forensic Framework 4 (AFF4)
 
-AFF4 was developed by [Michael Cohen](michael_cohen.md), [Simson
-Garfinkel](simson_garfinkel.md) and [Bradley
-Schatz](bradley_schatz.md). This page describes the basic
-design. See [LibAFF4](libaff4.md) for a description of how to
-use the sample implementation, library and tools.
+AFF4 was developed by [Michael Cohen](michael_cohen.md),
+[Simson Garfinkel](simson_garfinkel.md) and [Bradley Schatz](bradley_schatz.md).
+This page describes the basic design. See [LibAFF4](libaff4.md) for a
+description of how to use the sample implementation, library and tools.
 
 ## Why did we want to design yet another forensic file format?
 
@@ -63,7 +62,7 @@ scalable to huge evidence corpuses the AFF4 universe is infinite. All
 objects are addressable by their name which is unique in the universe.
 For example an AFF4 object might have a name of:
 
-`   `[`urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2`](urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2)
+`   urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2`
 
 This is a standard URN notation object. The URN is unique. There will
 never be another object created anywhere in the universe with the same
@@ -222,10 +221,10 @@ scheme: URN_OF_IMAGE_STREAM/0000000, URN_OF_IMAGE_STREAM/0000001 etc.
 The offset of each chunk within the bevy is stored in an index segment
 (with a. idx extension). Here is an example:
 
-`    `[`urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000`](urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000)
-`    `[`urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000.idx`](urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000.idx)
-`    `[`urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001`](urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001)
-`    `[`urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001.idx`](urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001.idx)
+`    urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000`
+`    urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000.idx`
+`    urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001`
+`    urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001.idx`
 
 Here is a short python program to unpack an Image stream:
 
@@ -313,17 +312,12 @@ We do this by setting attributes on the map objects:
 
 ## See Also
 
-- [Extending the Advanced Forensic Format to accommodate Multiple Data
-  Sources, Logical Evidence, Arbitrary Information and Forensic
-  Workflow](http://simson.net/clips/academic/2009.DFRWS.AFF4.pdf),
+- [Extending the Advanced Forensic Format to accommodate Multiple Data Sources, Logical Evidence, Arbitrary Information and Forensic Workflow](http://simson.net/clips/academic/2009.DFRWS.AFF4.pdf),
   by M. I. Cohen, Simson Garfinkel and Bradley Schatz, DFRWS 2009,
   Montreal, Canada.
-- [Wirespeed: Extending the AFF4 forensic container format for scalable
-  acquisition and live
-  analysis](http://www.dfrws.org/2015/proceedings/DFRWS2015-16.pdf), by
-  [Bradley L. Schatz](bradley_l._schatz.md), DFRWS US 2015
+- [Wirespeed: Extending the AFF4 forensic container format for scalable acquisition and live analysis](http://www.dfrws.org/2015/proceedings/DFRWS2015-16.pdf),
+  by [Bradley L. Schatz](bradley_schatz.md), DFRWS US 2015
 
 ### Tools
 
-- <https://github.com/google/aff4>
-- <https://github.com/py4n6/aff4> - deprecated
+- <https://github.com/Velocidex/c-aff4>

@@ -21,8 +21,7 @@ sizes shall report the actual physical/logical size in words 106 and
 117-118 of the ATA IDENTIFY data.
 
 Some Western Digital drives with "Advanced Format" reportedly do not
-provide the information about physical sector size (see [External
-Links](#external-links)).
+provide the information about physical sector size.
 
 # The Problem: Death of LBA 63
 
