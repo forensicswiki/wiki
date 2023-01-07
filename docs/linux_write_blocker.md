@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Linux
+  - Open Source Software
 ---
 **Linux write blocker** is the small kernel patch to enable Linux
 software write blocking. The patch utilizes the existing facility of
@@ -10,4 +11,5 @@ are available in the repository.
 
 ## External links
 
-- [ReadMe](https://github.com/msuhanov/Linux-write-blocker/blob/master/README.md)
+* [Project site](https://github.com/msuhanov/Linux-write-blocker)
+* [ReadMe](https://github.com/msuhanov/Linux-write-blocker/blob/master/README.md)

@@ -69,18 +69,18 @@ UNIX; see the INSTALL file for details.
   [Slackware](http://kaneda.bohater.net/slackware/packages/) contributed
   by [Kanedaaa](http://kaneda.bohater.net)
 - [Debian package](http://packages.debian.org/testing/tcpflow) by
-  [Robert McQueen](robert_mcqueen.md)
-- [Fedora
-  Package](https://admin.fedoraproject.org/pkgdb/acls/name/tcpflow) by
+  Robert McQueen
+- [Fedora Package](https://admin.fedoraproject.org/pkgdb/acls/name/tcpflow) by
   [Terje Røsten](http://koji.fedoraproject.org/koji/userinfo?userID=278)
-- [FreeBSD
-  Port](ftp://ftp5.freebsd.org/pub/FreeBSD/branches/-current/ports/net/tcpflow)
-  by [Jose M. Alcaide](jose_m._alcaide.md)
+- [FreeBSD Port](ftp://ftp5.freebsd.org/pub/FreeBSD/branches/-current/ports/net/tcpflow)
+  by Jose M. Alcaide
 - [OpenBSD Package](http://www.openbsd.org/ports.html) (it’s in there
   somewhere)
-- [Solaris 8 SPARC
-  Binary](ftp://ftp.sunfreeware.com/pub/freeware/sparc/8/tcpflow-0.12-sol8-sparc-local.gz)
+- [Solaris 8 SPARC Binary](ftp://ftp.sunfreeware.com/pub/freeware/sparc/8/tcpflow-0.12-sol8-sparc-local.gz)
   for v0.12 from [SunFreeware.com](http://www.sunfreeware.com)
-- [Mac OS X package](http://www.entropy.ch/software/macosx/#tcpflow) by
-  [Marc Liyanage](marc_liyanage.md)
+- [Mac OS X package](http://www.entropy.ch/software/macosx/#tcpflow)
+  by Marc Liyanage
 
+## External Links
+
+* [Project page](https://www.circlemud.org/jelson/software/tcpflow/)

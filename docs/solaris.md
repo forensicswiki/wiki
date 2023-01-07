@@ -4,9 +4,8 @@ tags:
 ---
 **Solaris** is a highly scalable enterprise grade [UNIX](unix.md) Operating
 System from [Sun Microsystems](sun_microsystems_inc.md). Solaris is known to run on
-[SPARC](sparc.md) and x86/x86-64 architectures, although it has also been
-ported to [PowerPC](powerpc.md) and IBM [zSeries](zseries.md)
-[mainframes](mainframes.md) in a joint effort with [IBM](ibm.md).
+SPARC and x86/x86-64 architectures, although it has also been
+ported to PowerPC and IBM zSeries mainframes in a joint effort with IBM.
 
 Commonly used filesystems and / or volume managers on the Solaris
 Operating System are:

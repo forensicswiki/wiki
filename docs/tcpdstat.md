@@ -19,13 +19,6 @@ if quite a few packets show up for a protocol/port that isn’t normally
 used on the victim machine, you've already been clued in on what to look
 for next on a lower level.
 
-## Download and Instructions
-
-See the [External Links](#external-links) section
-below for a link with instructions on how to download and build
-Tcpdstat.
-
 ## External Links
 
-* [Tcpdstat Overview and Build
-Instructions](http://cyberforensics.et.byu.edu/wiki/Tcpdstat)
+* [Tcpdstat Overview and Build Instructions](http://cyberforensics.et.byu.edu/wiki/Tcpdstat)

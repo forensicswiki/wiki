@@ -7,8 +7,7 @@ Technology](national_institute_of_standards_and_technology.md)
 in Gaithersberg, Maryland, in January 2015 as Senior Advisor,
 Information Access Division. His current research includes privacy and
 data de-identification.Garfinkel was formerly an Associate Professor at
-the [Naval Postgraduate School](naval_postgraduate_school.md) in
-[Monterey, California](monterey,_california.md) from 2006 to
+the Naval Postgraduate School in Monterey, California from 2006 to
 January 2015. He lives in Arlington, VA
 
 Dr. Garfinkel has research interests in computer forensics, the emerging

@@ -30,26 +30,21 @@ connections.
 
 <!-- -->
 
-[chkrootkit](chkrootkit.md)
-<http://www.chkrootkit.org>
+[chkrootkit](http://www.chkrootkit.org)
 
 <!-- -->
 
-[cryptcat](cryptcat.md)
-<http://farm9.org/Cryptcat/>
+[cryptcat](http://farm9.org/Cryptcat/)
 
 <!-- -->
 
-[Enterasys Dragon](enterasys_dragon.md)
-<http://www.enterasys.com/products/advanced-security-apps/index.aspx>
+[Enterasys Dragon](http://www.enterasys.com/products/advanced-security-apps/index.aspx)
 
 Instrusion Detection System, includes session reconstruction.
 
 <!-- -->
 
-[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9.md)
-<http://www.mantaro.com/products/MNIS/collector.htm>
-
+[MNIS Collector](http://www.mantaro.com/products/MNIS/collector.htm)
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
 It was designed to be used with the MNIS Exporter, which is a Deep
 Packet Inspection probe that can be used to decode 300+ protocols on up
@@ -57,8 +52,7 @@ to 20 Gbps and report the information in IPFIX.
 
 <!-- -->
 
-[Mantaro Network Intelligence Solutions (mnis)](mantaro_network_intelligence_solutions_(mnis).md)
-<http://www.mantaro.com/products/MNIS/index.htm>
+[Mantaro Network Intelligence Solutions (mnis)](http://www.mantaro.com/products/MNIS/index.htm)
 
 MNIS is a comprehensive and scalable network intelligence platform for
 network forensics and various other applications. It is built on high
@@ -70,8 +64,7 @@ environments to 20 Gbps service provider networks.
 
 <!-- -->
 
-[MaxMind](maxmind.md)
-<http://www.maxmind.com>
+[MaxMind](http://www.maxmind.com)
 
 [IP geolocation](ip_geolocation.md) services and data provider
 for offline geotagging. Free GeoLite country database. Programmable
@@ -80,12 +73,10 @@ APIs.
 <!-- -->
 
 [netcat](netcat.md)
-<http://netcat.sourceforge.net/>
 
 <!-- -->
 
-[netflow](netflow.md)/[flowtools](flowtools.md)
-<http://www.cisco.com/warp/public/732/Tech/nmp/netflow/index.shtml>
+[netflow/flowtools](http://www.cisco.com/warp/public/732/Tech/nmp/netflow/index.shtml)
 
 <http://www.splintered.net/sw/flow-tools/>
 
@@ -96,8 +87,7 @@ APIs.
 
 <!-- -->
 
-[NetDetector](netdetector.md)
-<http://www.niksun.com/product.php?id=4>
+[NetDetector](http://www.niksun.com/product.php?id=4)
 
 NetDetector is a full-featured appliance for network security
 surveillance, signature-based anomaly detection, analytics and
@@ -108,8 +98,7 @@ mission-critical network services and infrastructure
 
 <!-- -->
 
-[NetIntercept](netintercept.md)
-<http://www.sandstorm.net/products/netintercept>
+[NetIntercept](http://www.sandstorm.net/products/netintercept)
 
 NetIntercept captures whole packets and reassembles up to 999,999 TCP
 connections at once, reconstructing files that were sent over your
@@ -123,8 +112,7 @@ multimedia, email, and IM.
 
 <!-- -->
 
-[NetVCR](netvcr.md)
-<http://www.niksun.com/product.php?id=3>
+[NetVCR](http://www.niksun.com/product.php?id=3)
 
 NetVCR delivers comprehensive real-time network, service and application
 performance management. It is an integrated, single-point solution that
@@ -135,8 +123,7 @@ and WAN requirements
 
 <!-- -->
 
-[NIKSUN Full Function Appliance](niksun_full_function_appliance.md)
-<http://www.niksun.com/product.php?id=11>
+[NIKSUN Full Function Appliance](http://www.niksun.com/product.php?id=11)
 
 NIKSUN’s Full-Function Appliance combines the value of both NetDetector
 and NetVCR for complete network performance and security surveillance.
@@ -152,8 +139,7 @@ slowdown, etc.
 
 <!-- -->
 
-[NetOmni](netomni.md)
-<http://www.niksun.com/product.php?id=1>
+[NetOmni](http://www.niksun.com/product.php?id=1)
 
 NetOmni provides global visibility across the network so IT
 professionals can manage multiple products and vendors from one central
@@ -164,8 +150,7 @@ opportunities.
 
 <!-- -->
 
-[NISUN Puma Portable](nisun_puma_portable.md)
-<http://www.niksun.com/product.php?id=15>
+[NISUN Puma Portable](http://www.niksun.com/product.php?id=15)
 
 NIKSUN's Puma, a portable network monitoring appliance, allows customers
 to leverage the state-of-the-art network performance, security and
@@ -181,18 +166,7 @@ professionals
 
 <!-- -->
 
-[ipfix](ipfix.md)/[netflow v5/9](netflow_v5/9.md)
-<http://www.mantaro.com/products/MNIS/collector.htm>
-
-MNIS Collector is an IPFIX collector which also supports legacy Netflow.
-It was designed to be used with the MNIS Exporter, which is a Deep
-Packet Inspection probe that can be used to decode 300+ protocols on up
-to 20 Gbps and report the information in IPFIX.
-
-[NetSleuth](netsleuth.md)
-
-
-<http://www.netgrab.co.uk/>
+[NetSleuth](http://www.netgrab.co.uk/)
 
 NetSleuth is a free network analysis tool released under the GPL.
 NetSleuth can be used to analyse and fingerprint hosts from pcap files,
@@ -200,10 +174,9 @@ designed for post event incident response and network forensics. It also
 supports a live sniffing mode, silently identifying and fingerprinting
 devices without needing to send any traffic onto a network.
 
-[NetworkMiner](networkminer.md)
-<https://sourceforge.net/projects/networkminer/>
+<!-- -->
 
-<http://www.netresec.com/?page=NetworkMiner>
+NetworkMiner
 
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows.
 NetworkMiner can be used as a passive network sniffer/packet capturing
@@ -227,8 +200,7 @@ tool](http://www.netresec.com/?page=NetworkMiner).
 
 <!-- -->
 
-[pcap2wav](pcap2wav.md)
-<http://pcap2wav.xplico.org/>
+[pcap2wav](http://pcap2wav.xplico.org/)
 
 VoIP/RTP decoder. pcap2wav is part (a sub-project) of
 [Xplico](xplico.md) and it supports and decodes the following
@@ -237,56 +209,46 @@ audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
 
 <!-- -->
 
-[rkhunter](rkhunter.md)
-<http://rkhunter.sourceforge.net/>
+[rkhunter](http://rkhunter.sourceforge.net/)
 
 <!-- -->
 
 [ngrep](ngrep.md)
-<http://ngrep.sourceforge.net/>
 
 <!-- -->
 
-[nslookup](nslookup.md)
-<http://en.wikipedia.org/wiki/Nslookup>
+[nslookup](http://en.wikipedia.org/wiki/Nslookup)
 
 Name Server Lookup command line tool used to find IP address from domain
 name.
 
 <!-- -->
 
-[Sguil](sguil.md)
-<http://sguil.sourceforge.net/>
+[Sguil](http://sguil.sourceforge.net/)
 
 <!-- -->
 
 [Snort](snort.md)
-<http://www.snort.org/>
 
 <!-- -->
 
-[ssldump](ssldump.md)
-<http://ssldump.sourceforge.net/>
+[ssldump](http://ssldump.sourceforge.net/)
 
 <!-- -->
 
 [tcpdump](tcpdump.md)
-<http://www.tcpdump.org>
 
 <!-- -->
 
 [tcpxtract](tcpxtract.md)
-<http://tcpxtract.sourceforge.net/>
 
 <!-- -->
 
 [tcpflow](tcpflow.md)
-<http://www.circlemud.org/~jelson/software/tcpflow/>
 
 <!-- -->
 
-[truewitness](truewitness.md)
-<http://www.nature-soft.com/forensic.html>
+[truewitness](http://www.nature-soft.com/forensic.html)
 
 Linux/open-source. Based in India.
 
@@ -302,17 +264,17 @@ historical network traffic.
 
 <!-- -->
 
-[Whois](whois.md)
-<http://en.wikipedia.org/wiki/WHOIS> Web service and command line tool
-to look up registry information for internet domain.
+[Whois](http://en.wikipedia.org/wiki/WHOIS)
 
-<http://www.arin.net/registration/agreements/bulkwhois.pdf> Bulk WHOIS
-data request from ARIN
+Web service and command line tool to look up registry information for internet
+domain.
+
+[Bulk WHOIS data request](http://www.arin.net/registration/agreements/bulkwhois.pdf)
+from ARIN
 
 <!-- -->
 
-[IP Regional Registries](ip_regional_registries.md)
-<http://www.arin.net/community/rirs.html>
+[IP Regional Registries](http://www.arin.net/community/rirs.html)
 
 <http://www.arin.net/index.shtml> American Registry for Internet Numbers
 (ARIN)
@@ -375,8 +337,7 @@ Upload and Download, Instant Messaging, VoIP etc....
 
 <!-- -->
 
-[fmadio 10G Packet Capture](fmadio_10g_packet_capture.md)
-<http://fmad.io>
+[fmadio 10G Packet Capture](http://fmad.io)
 
 Cost effective full line rate 10G packet capture to disk appliance.
 Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
@@ -386,29 +347,30 @@ small independent vendor.
 
 # Command-line tools
 
-[arp](arp.md) - view the contents of your ARP cache
+arp- view the contents of your ARP cache
 
-[ifconfig](ifconfig.md) - view your mac and IP address
+ifconfig - view your mac and IP address
 
-[ping](ping.md) - send packets to probe remote machines
+ping - send packets to probe remote machines
 
-[SplitCap](splitcap.md) <http://splitcap.sourceforge.net/> -
+[SplitCap](http://splitcap.sourceforge.net/)
+
 SplitCap is a free open source pcap file splitter.
 
 [tcpdump](tcpdump.md) - capture packets
 
-[snoop](snoop.md) - captures packets from the network and
+snoop - captures packets from the network and
 displays their contents ([solaris](solaris.md)
 
-[nemesis](nemesis.md) - create arbitrary packets
+nemesis - create arbitrary packets
 
-[tcpreplay](tcpreplay.md) - replay captured packets
+tcpreplay - replay captured packets
 
-[traceroute](traceroute.md) - view a network path
+traceroute - view a network path
 
-[gnetcast](gnetcast.md) - GNU rewrite of netcat
+gnetcast - GNU rewrite of netcat
 
-[packit](packit.md) - packet generator
+packit - packet generator
 
 [nmap](nmap.md) - utility for network exploration and security
 auditing
@@ -416,57 +378,56 @@ auditing
 [Xplico](xplico.md) Open Source Network Forensic Analysis Tool
 (NFAT)
 
-[pcap_latency_analyzer](pcap_latency_analyzer.md)
-<https://github.com/fmadio/pcap_latency_analyzer> - Analyze packet
-latency between 2 PCAP\`s or between 2 MAC\`s or any packets with the
-same payloads.
+[pcap_latency_analyzer](https://github.com/fmadio/pcap_latency_analyzer)
+Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
+packets with the same payloads.
 
 ## ARP and Ethernet MAC Tools
 
-[arping](arping.md) - transmit ARP traffic
+arping - transmit ARP traffic
 
-[arpdig](arpdig.md) - probe LAN for MAC addresses
+arpdig - probe LAN for MAC addresses
 
-[arpwatch](arpwatch.md) - watch ARP changes
+arpwatch - watch ARP changes
 
-[arp-sk](arp-sk.md) - perform denial of service attacks
+arp-sk - perform denial of service attacks
 
-[macof](macof.md) - CAM table attacks
+macof - CAM table attacks
 
-[ettercap](ettercap.md) - performs various low-level Ethernet
+ettercap - performs various low-level Ethernet
 network attacks
 
 ## CISCO Discovery Protocol Tools
 
-[cdpd](cdpd.md) - transmit and receive CDP announcements;
+cdpd - transmit and receive CDP announcements;
 provides forgery capabilities
 
 ## ICMP Layer Tests and Attacks
 
-[icmp-reset](icmp-reset.md)
+icmp-reset
 
-[icmp-quench](icmp-quench.md)
+icmp-quench
 
-[icmp-mtu](icmp-mtu.md)
+icmp-mtu
 
-[ish](ish.md)
+ish
 
-[isnprober](isnprober.md)
+isnprober
 
 ## IP Layer Tests
 
-[iperf](iperf.md) - IP multicast test
+iperf - IP multicast test
 
-[fragtest](fragtest.md) - IP fragment reassembly test
+fragtest - IP fragment reassembly test
 
 ## UDP Layer Tests
 
-[udpcast](udpcast.md) - includes UDP-receiver and UDP-sender
+udpcast - includes UDP-receiver and UDP-sender
 
 ## TCP Layer
 
-[lft](lft.md) <http://pwhois.org/lft> - TCP tracing
+[lft](http://pwhois.org/lft) - TCP tracing
 
-[etrace](etrace.md) <http://www.bindshell.net/tools/etrace>
+[etrace](http://www.bindshell.net/tools/etrace)
 
-[firewalk](firewalk.md) <http://www.packetfactory.net>
+[firewalk](http://www.packetfactory.net)

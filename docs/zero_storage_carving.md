@@ -17,6 +17,6 @@ Tools with support or facilities for zero storage carving include:
 * [LibCarvPath](libcarvpath.md)
 * [MattockFS](mattockfs.md)
 * [OCFA treegraph API](ocfa_treegraph_api.md)
-* [PhotoRec](photorec.md)
+* PhotoRec
 * [scalpel](scalpel.md)
 * [tsk-cp](tsk-cp.md)

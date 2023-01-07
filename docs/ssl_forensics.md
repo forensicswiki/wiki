@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
 **SSL (TLS) forensics** is the process of capturing information
 exchanged through SSL (TLS) connections and trying to make sense of it
@@ -44,8 +44,7 @@ As well as some open-source tools:
 The TLS protocol also leaks some significant information:
 
 - Current date and time on a TLS client and server (old versions of
-  [Firefox](firefox.md) and
-  [Thunderbird](thunderbird.md);
+  Firefox and Thunderbird;
 - Hostname being accessed ("server_name" extension);
 - Original data size.
 
@@ -61,4 +60,3 @@ bytes users are communicating.
 
 - [RFC 2246 (TLS 1.0)](http://rfc.net/rfc2246.html)
 - [RFC 4346 (TLS 1.1)](http://rfc.net/rfc4346.html)
-

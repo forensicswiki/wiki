@@ -109,15 +109,13 @@ included on [Helix 2.0](http://www.e-fense.com/helix/)
 
 <!-- -->
 
-MANDIANT Memoryze
+MANDIANT [Memoryze](http://www.mandiant.com/software/memoryze.htm)
 Can capture and analyze memory. Supports reading dumps (raw/dd format)
 from other tools.
 
-<http://www.mandiant.com/software/memoryze.htm>
-
 <!-- -->
 
-[Moonsols](moonsols.md): [DumpIt](dumpit.md)
+Moonsols: [DumpIt](http://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7)
 This utility is used to generate a physical memory dump of Windows
 machines. It works with both x86 (32-bits) and x64 (64-bits) machines.
 
@@ -127,9 +125,6 @@ confirmation question is prompted before starting.
 Perfect to deploy the executable on USB keys, for quick incident
 responses needs.
 
-<http://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7>
-
-<!-- -->
 
 [FTK Imager](ftk_imager.md): FTK Imager
 <http://accessdata.com/support/adownloads#FTKImager>
@@ -139,8 +134,7 @@ systems.
 
 <!-- -->
 
-[OSForensics](osforensics.md): OSForensics
-<http://www.osforensics.com/>
+[OSForensics](http://www.osforensics.com/)
 
 OSForensics can acquire live memory on 32bit and 64bit systems. A dump
 of an individual process's memory space or physical memory dump can be

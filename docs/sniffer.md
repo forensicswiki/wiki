@@ -33,7 +33,7 @@ Some sniffing programs do automatic reverse DNS lookups on the IP
 addresses they see. It is possible to detect such programs by
 correlating network traffic and reverse DNS lookup requests.
 
-- Detecting network sniffers using a [honeypot](honeypot.md)
+- Detecting network sniffers using a honeypot
   (monitoring connections to fake accounts)
 
 ### Active sniffing
