@@ -39,12 +39,12 @@ BSD-3.
 
 
 
-[Joachim](user:joachim_metz.md) library based validators could
+Joachim library based validators could
 require other licenses
 
 
 Make the other libraries plug-able. If you them, you use them.
-[Simsong](user:simsong.md)
+Simsong
 
 # OS
 
@@ -52,13 +52,13 @@ Linux/FreeBSD/MacOS
 
 
 Shouldn't this just match what the underlying afflib & sleuthkit cover?
-[RB](user:rb.md)
+RB
 
 
 Yes, but you need to test and validate on each. Question: Do we want toCARBON
 2008 (UTC)
 
-[Joachim](user:joachim_metz.md) I think we would do wise to
+Joachim I think we would do wise to
 design with windows support from the start this will improve the
 platform independence from the start
 
@@ -66,10 +66,10 @@ platform independence from the start
 
 Agreed; I would even settle at first for being able to run against
 Cygwin. Note that I don't even own or use a copy of Windows, but the
-vast majority of forensic investigators do. [RB](user:rb.md)
+vast majority of forensic investigators do. RB
 14:01, 31 October 2008 (UTC)
 
-[Rob J Meijer](user:capibara.md) Leaning heavily on the
+Rob J Meijer Leaning heavily on the
 autotools might be the way to go. I do however feel that support
 requirements for windows would not be essential. Being able to run from
 a virtual machine with the main storage mounted over cifs should however
@@ -77,13 +77,13 @@ be tested and if possible tuned extensively.
 
 
 
-[Joachim](user:joachim_metz.md) You'll need more than autotools
+Joachim You'll need more than autotools
 to do native Windows support i.e. file access, UTF-16 support, wrap someCARBON
 basic system functions or have them available otherwise
 
 
 
-[Rob J Meijer](user:capibara.md) That´s exactly my point,
+Rob J Meijer That´s exactly my point,
 windows support as in being able to build and run on windows natively is
 much more trouble than its worth. Better make for a lean and mean
 autotools based build with little dependencies and no or little
@@ -92,47 +92,44 @@ systems than on supporting building and running on non POSIX systems.
 
 # Name tooling
 
-- [Joachim](user:joachim_metz.md) A name for the tooling I
+- Joachim A name for the tooling I
   propose coldcut
 
 
 
-How about 'butcher'? ;) [RB](user:rb.md) 14:20, 31 October 2008
+How about 'butcher'? ;) RB 14:20, 31 October 2008
 (UTC)
 
-[Joachim](user:joachim_metz.md) cleaver ( scalpel on steroids
-;-) )
+Joachim cleaver ( scalpel on steroids ;-) )
 
-- I would like to propose Gouge or Chisel :-) [Rob J
-  Meijer](user:capibara.md)
+- I would like to propose Gouge or Chisel :-) Rob J Meijer
 
 # Requirements
 
-[Joachim](user:joachim_metz.md) Could we do a MoSCoW evaluation
+Joachim Could we do a MoSCoW evaluation
 of these.
 
 - AFF and EWF file images supported from scratch.
-  ([Joachim](user:joachim_metz.md) I would like to have
+  (Joachim I would like to have
   raw/split raw and device access as well)
 
 
 
 If we base our image i/o on afflib, we get all three with one interface.
-[RB](user:rb.md) Instead of letting the tools use afflib, better
+RB Instead of letting the tools use afflib, better
 to write an afflib module for carvfs, and update the libewf module. The
-tool could than be oblivious of the file format. [Rob J
-Meijer](user:capibara.md)
+tool could than be oblivious of the file format. Rob J Meijer
 
 
 
-[Simsong](user:simsong.md) 06:29, 3 November 2008 (UTC) The
+Simsong 06:29, 3 November 2008 (UTC) The
 problem with using carvfs is that this adds another dependency. Do you
 really want to require that people install carvfs in order to run the
 carver? What about having the thing ported to Windows?
 
 
 
-[Rob J Meijer](user:capibara.md) I would support adding one
+Rob J Meijer I would support adding one
 build dependency (libcarvpath) and removing two (libewf/libaff) by
 moving them to a layer more suited for them (carvfs) that would possibly
 allow some form of file handle (as cap) based POLA design. I am a
@@ -182,12 +179,12 @@ supported image formats to raw images, and that libewf/libaff should be
 abstracted at the Fuse level or below and not at the tool level.
 
 
-[Joachim](user:joachim_metz.md) do you have an idea what the
+Joachim do you have an idea what the
 performance impact of this approach would be? It might be wise to do a
 proof of concept for this approach first.
 
 
-[Rob J Meijer](user:capibara.md) It would I think depend greatly on behavior of
+Rob J Meijer It would I think depend greatly on behavior of
 the carving lib/tool. Small 512 byte reads are relatively very expensive, 128kb
 reads have negligible impact. There are some numbers from ntfs-3g that might be
 relevant. More relevant than performance might be library footprint. For
@@ -196,21 +193,21 @@ total to tens of TB of projected storage size fuse mounted. If libewf/libaff
 have a big combined memory footprint in such cases, this can be a major issue
 for this approach.
 
-[Joachim](user:joachim_metz.md) this layer should support multi
+Joachim this layer should support multi
 threaded decompression of compressed image types, this speeds up IO
 
-- [Joachim](user:joachim_metz.md) volume/partition aware layer
+- Joachim volume/partition aware layer
   (what about carving unpartioned space)
 - File system aware layer. This could be or make use of tsk-cp.
   - By default, files are not carved. (clarify: only identified?
-    [RB](user:rb.md); I guess that it operates like [Selective
+    RB; I guess that it operates like [Selective
     file dumper](selective_file_dumper.md)
-    [.FUF](user:.fuf.md).
+    .FUF.
     Alternatively, the tool could use libcarvpath and output carvpaths
     or create a directory with symlinks to carvpaths that point into a
-    carvfs mountpoint [Rob J Meijer](user:capibara.md).
+    carvfs mountpoint Rob J Meijer.
 - Plug-in architecture for identification/validation.
-  - [Joachim](user:joachim_metz.md) support for multiple types
+  - Joachim support for multiple types
     of validators
     - dedicated validator
     - validator based on file library (i.e. we could specify/implement a
@@ -218,7 +215,7 @@ threaded decompression of compressed image types, this speeds up IO
     - configuration based validator (Can handle config files,like
       Revit07, to enter different file formats used by the carver.)
 
-[Joachim](user:joachim_metz.md) Moderator: Could we limit the
+Joachim Moderator: Could we limit the
 requirements for prototype version 1 of the tool to get a working
 version up and running ASAP? And keep discussing future options?
 
@@ -267,7 +264,7 @@ Ship with validators for
 
 
 
-[Joachim](user:joachim_metz.md) I think we should distinguish
+Joachim I think we should distinguish
 between file format validators and content validators
 
 - Grapical Images
@@ -275,7 +272,7 @@ between file format validators and content validators
 
 
 
-[Joachim](user:joachim_metz.md) How different is JPEG 2000?
+Joachim How different is JPEG 2000?
 
 - - PNG
   - GIF
@@ -297,9 +294,9 @@ Extension validation? AFAIK, MS Office 2007 [Word Document
 (docx)](word_document_(docx).md) format uses plain ZIP (or
 not?), and carved files will (or not?) have .zip extension instead of
 DOCX. Is there any way to fix this (may be using the file list in zip)?
-[.FUF](user:.fuf.md)
+.FUF
 
-[Joachim](user:joachim_metz.md) Addition: Office 2007 also has a
+Joachim Addition: Office 2007 also has a
 binary file format which is also a ZIP-ed data [Excel Spreadsheet
 (xlsb)](excel_spreadsheet_(xlsb).md)
 
@@ -331,22 +328,22 @@ binary file format which is also a ZIP-ed data [Excel Spreadsheet
 
 ## Carving Strategies
 
-[Joachim](user:joachim_metz.md) Note to moderator could this
+Joachim Note to moderator could this
 section be merged with the carving algorithm section?
 
 - Simple fragment recovery carving using gap carving.
-  - [Joachim](user:joachim_metz.md) have hook in for more
+  - Joachim have hook in for more
     advanced fragment recovery?
 - Recovering of individual ZIP sections and JPEG icons that are not
   sector aligned.
-  - [Joachim](user:joachim_metz.md) I would propose a generic
+  - Joachim I would propose a generic
     fragment detection and recovery
 - Autonomous operation (some mode of operation should be completely
   non-interactive, requiring no human intervention to complete
-  [RB](user:rb.md))
-  - [Joachim](user:joachim_metz.md) as much as possible, but
+  RB)
+  - Joachim as much as possible, but
     allow to be overwritten by user
-- [Joachim](user:joachim_metz.md) When the tool output files the
+- Joachim When the tool output files the
   filenames should contain the offset in the input data (in
   hexadecimal?)
 
@@ -358,13 +355,13 @@ found (photorec)
 
 
 
-[Joachim](user:joachim_metz.md) This naming schema might cause
+Joachim This naming schema might cause
 duplicate name problem for extracting embedded files and extracting
 files from non sector aligned file systems.
 
-- [Joachim](user:joachim_metz.md) Should the tool allow to
+- Joachim Should the tool allow to
   export embedded files?
-- [Joachim](user:joachim_metz.md) Should the tool allow to
+- Joachim Should the tool allow to
   export fragments separately?
 - Mark Stam: I personally use photorec often for
   carving files in the whole volume (not only unallocated clusters), so
@@ -372,7 +369,7 @@ files from non sector aligned file systems.
 
 
 
-[Joachim](user:joachim_metz.md) interesting, Bas Kloet and me
+Joachim interesting, Bas Kloet and me
 have been discussing to use information about allocated files in the
 recovery process, i.e. recovered fragments could be part of allocated
 files. Do we want to be able to extract them? Or could we rebuild the
@@ -387,22 +384,22 @@ file from the fragments and the allocated files.
 - Tested on 500GB-sized images. Should be able to carve a 500GB image in
   roughly 50% longer than it takes to read the image.
   - Perhaps allocate a percentage budget per-validator (i.e. each
-    validator adds N% to the carving time) [RB](user:rb.md)
-  - [Joachim](user:joachim_metz.md) have multiple carving phases
+    validator adds N% to the carving time) RB
+  - Joachim have multiple carving phases
     for precision/speed trade off?
 - Parallelizable
-  - [Joachim](user:joachim_metz.md) tunable for different
+  - Joachim tunable for different
     architectures
 - Configuration:
   - Capability to parse some existing carvers' configuration files,
     either on-the-fly or as a one-way converter.
   - Disengage internal configuration structure from configuration files,
     create parsers that present the expected structure
-  - [Joachim](user:joachim_metz.md) The validator should deal
+  - Joachim The validator should deal
     with the file structure the carving algorithm should not know
     anything about the file structure (as in revit07 design)
   - Either extend Scalpel/Foremost syntaxes for extended features or use
-    a tertiary syntax ([Joachim](user:joachim_metz.md) I would
+    a tertiary syntax (Joachim I would
     prefer a derivative of the revit07 configuration syntax which
     already has encountered some problems of dealing with defining file
     structure in a configuration file)
@@ -410,27 +407,27 @@ file from the fragments and the allocated files.
 ## Output
 
 - Can output audit.txt file.
-- [Joachim](user:joachim_metz.md) Can output database with
+- Joachim Can output database with
   offset analysis values i.e. for visualization tooling
-- [Joachim](user:joachim_metz.md) Can output debug log for
+- Joachim Can output debug log for
   debugging the algorithm/validation
 - Easy integration into ascription software.
 
 
 
-[Joachim](user:joachim_metz.md) I'm no native speaker what do
+Joachim I'm no native speaker what do
 you mean with "ascription software"?
 
 
 I think this was another non-native requesting easy scriptability.
-[RB](user:rb.md) 14:20, 31 October 2008 (UTC)
+RB 14:20, 31 October 2008 (UTC)
 
 
-[Joachim](user:joachim_metz.md) that makes sense ;-)
+Joachim that makes sense ;-)
 
 
 Incorrect. Ascription software is software that determines who the owner
-of a file is. [Simsong](user:simsong.md) 06:36, 3 November 2008
+of a file is. Simsong 06:36, 3 November 2008
 (UTC)
 
 # Ideas
@@ -440,14 +437,14 @@ of a file is. [Simsong](user:simsong.md) 06:36, 3 November 2008
 
 
 
-[Joachim](user:joachim_metz.md) using TSK as much as possible
+Joachim using TSK as much as possible
 would not allow to add your own file system support (i.e. mobile phones,
 memory structures, cap files) I would propose wrapping TSK and using it
 as much as possible but allow to integrate own FS implementations.
 
 
 
-[Rob J Meijer](user:capibara.md) I'm currently working on
+Rob J Meijer I'm currently working on
 wrapping TSK filesystem as several loadable modules for OCFA. In OCFA a
 loadable (tree-graph) module implements the OCFA tree-graph API that
 basically states 'everything is a tree-graph node'. Possibly you could
@@ -460,7 +457,7 @@ same tree-graph loadable modules.
 - Extracting/carving data from [Thumbs.db](thumbs.db.md)? I've
   used [foremost](foremost.md) for it with some success.
   [Vinetto](vinetto.md) has some critical bugs :(
-  [.FUF](user:.fuf.md)
+  .FUF
 - Extracting/carving executable binaries, dlls etc.
   [Volatility](volatility_framework.md), JE.
 
@@ -487,34 +484,34 @@ not just another file structure
     carver, but...
 
 
---[RB](user:rb.md) 18:45, 2 November 2008 (UTC)
+--RB 18:45, 2 November 2008 (UTC)
 
 
-[Simsong](user:simsong.md) 06:30, 3 November 2008 (UTC) pyflag
+Simsong 06:30, 3 November 2008 (UTC) pyflag
 already does recursive carving. Are we just going to reimplement pyflag
 as a single executable?
 
 
-[Joachim](user:joachim_metz.md) that could be useful ;-)
+Joachim that could be useful ;-)
 
 ## Library Dependencies
 
-[Rob J Meijer](user:capibara.md) :
+Rob J Meijer :
 
 - Use libcarvpath whenever possible and by default to avoid high storage
   requirements.
 
 
 
-[Joachim](user:joachim_metz.md) For easy deployment I would not
+Joachim For easy deployment I would not
 opt for making an integral part of the tool solely dependant on a single
 external library or the library must be integrated in the package
 
-[Rob J Meijer](user:capibara.md) Integrating libraries
+Rob J Meijer Integrating libraries
 (libtsk,libaff.libewf,libcarvpath etc) is bad practice, autotools are
 your friend IMO.
 
-[Joachim](user:joachim_metz.md) I'm not talking about
+Joachim I'm not talking about
 integrating (shared) libraries. I'm talking about that an integral part
 of a tool should be part of it's package. Why can't the tool package
 contain shared or static libraries for local use? A far worse thing to
@@ -524,10 +521,10 @@ necessary code. afflib/libewf support could be detected by the autotools
 a neat separation of functionality.
 
 
-From a packager's standpoint, [Joachim](user:joachim_metz.md)'s
+From a packager's standpoint, Joachim's
 other libraries do a really good job of this, carrying around what they
 need but using a system-global version if available.
-[RB](user:rb.md)
+RB
 
 - libtsk
 - libaff ? : possibly the discussion in the requirements section should
@@ -550,7 +547,7 @@ need but using a system-global version if available.
 
 
 
-[Joachim](user:joachim_metz.md) What your saying is that dealing
+Joachim What your saying is that dealing
 with file system fragments should be part of the carving algorithm
 
 - Allow use where filesystem based carving is done by other tool, and
@@ -559,17 +556,17 @@ with file system fragments should be part of the carving algorithm
 
 
 
-[Joachim](user:joachim_metz.md) I would not opt for this. The
+Joachim I would not opt for this. The
 tool would be dependent on other tools and their data format, which
 makes the tool difficult to maintain. I would opt to integrate the
 functionality of having multiple recovery phases (stages) and allow the
 tooling to run the phases after one and other or separately.
 
-[Rob J Meijer](user:capibara.md) More generically, I feel a way
+Rob J Meijer More generically, I feel a way
 should exist to communicate the 'left overs' a previous (non open, for
 example LE-only) tool left.
 
-[Joachim](user:joachim_metz.md) I guess if the tool is designed
+Joachim I guess if the tool is designed
 to handle multiple phases it should store its data somewhere. So it
 should be possible to convert results of such non open tooling to the
 format required. However I would opt to design the recovery
@@ -584,7 +581,7 @@ ourselves making translators due to the design of these non-open tools.
 
 
 
-[Joachim](user:joachim_metz.md) I guess most of the code could
+Joachim I guess most of the code could
 be integrated into libraries, but I would not opt integrating tool
 functionality into a library
 
@@ -611,12 +608,12 @@ functionality into a library
 
 
 
-[Joachim](user:joachim_metz.md) Could you give an example of how
+Joachim Could you give an example of how
 you see this in action?
 
 
 
-[Rob J Meijer](user:capibara.md) I see two layers where using
+Rob J Meijer I see two layers where using
 POLA could be applied. The best one would require one of the folowing as
 prerequisites:
 
@@ -650,7 +647,7 @@ those sufficient thinking hours yet.
   port \> 1024, dest port = 80). This will extract all data matching the
   pattern and write a file with other fields. Another example is carving
   INFO2 structures and URL activity records from index.dat
-  [.FUF](user:.fuf.md)
+  .FUF
   - This has the opportunity to be extended to the concept of "point at
     blob FOO and interpret it as BAR"
 
@@ -678,9 +675,9 @@ Opinion: Simple pattern identification like that may not suffice, I
 think Simson's original intent was not only to identify but to allow for
 validation routines (plugins, as the original wording was). As such, the
 format syntax would need to implement a large chunk of some programming
-language in order to be sufficiently flexible. [RB](user:rb.md)
+language in order to be sufficiently flexible. RB
 
-[Joachim](user:joachim_metz.md) In my option your example is too
+Joachim In my option your example is too
 limited. Making the revit configuration I learned you'll need a near
 programming language to specify some file formats. A simple descriptive
 language is too limiting. I would also go for 2 bytes with endianess
@@ -693,18 +690,18 @@ cardinality, required and optional structures.
 This is simply data structures carving, see ideas above. Somebody (I
 cannot track so many changes per day) separated the original text. There
 is no need to count and join different structures.
-[.FUF](user:.fuf.md)
+.FUF
 
 
 
-[Joachim](user:joachim_metz.md) This was probably me is the text
+Joachim This was probably me is the text
 back in it's original form?
 
 I started it by moving your Revit07 comment to the validator/plugin section
 since I was still at that point thinking operational configuration for that
-section, not parser configurations. [RB](user:rb.md)
+section, not parser configurations. RB
 
-[Joachim](user:joachim_metz.md) I renamed the title to format
+Joachim I renamed the title to format
 syntax, clarity is important ;-)
 
 Please take a look at the revit07 format syntax specification
@@ -717,7 +714,7 @@ currently missing:
 
 # Caving algorithm
 
-[Joachim](user:joachim_metz.md)
+Joachim
 
 - should we allow for multiple carving phases (runs/stages)?
 
@@ -765,7 +762,7 @@ I opt that at least the validator uses this information
 
 ## Caving scenarios
 
-[Joachim](user:joachim_metz.md)
+Joachim
 
 - normal file (file structure, loose text based structure (more a
   content structure?))
@@ -788,7 +785,7 @@ Advantages of being FS aware:
 
 
 
-[Joachim](user:joachim_metz.md) do you mean file system block
+Joachim do you mean file system block
 sizes?
 
 - Some file systems may store things off sector boundaries. (ReiserFS
@@ -797,14 +794,14 @@ sizes?
 
 
 
-[Joachim](user:joachim_metz.md) Carving NTFS-compressed (lznt1)
+Joachim Carving NTFS-compressed (lznt1)
 files: https://github.com/libyal/documentation/blob/main/Carving%20for%20NTFS%20compressed%20files.pdf
 
 - Carve just the sectors that are not in allocated files.
 
 
 
-[Joachim](user:joachim_metz.md) sparse (file system) blocks e.g.
+Joachim sparse (file system) blocks e.g.
 NTFS cluster blocks
 
 ## Tasks that would be required
@@ -817,7 +814,7 @@ As noted above, TSK should be utilized as much as possible, particularly
 the filesystem-aware portion. If we want to identify filesystems outside
 of its supported set, it would be more worth our time to work on
 implementing them there than in the carver itself.
-[RB](user:rb.md)
+RB
 
 <!-- -->
 
@@ -829,7 +826,7 @@ ways (or not?). Recovering files by using carving can recover files in
 situations where sleuthkit does nothing (e.g. file on NTFS was deleted
 using ntfs-3g, or filesystem was destroyed or just unknown). And we
 should build the list of filesystems supported by carver, not by TSK.
-[.FUF](user:.fuf.md)
+.FUF
 
 <!-- -->
 
@@ -844,24 +841,24 @@ foolish to create yet another standalone, incompatible implementation of
 filesystem(foo) when time would be better spent improving those in TSK,
 aiding other methods of analysis as well. This is the same reason
 individuals that have implemented several other carvers are
-participating: de-duplication of effort. [RB](user:rb.md)
+participating: de-duplication of effort. RB
 
 <!-- -->
 
 
 
-[Joachim](user:joachim_metz.md) A design problem might be that
+Joachim A design problem might be that
 TSK currently is a single library operating on multiple layers (storage
 media IO, volume/partition analysis and file system analysis). I'm not
 aware how easily the parts can be used separately. But I estimate that
 for the carver we want to use these 3 layers differently than TSK
 currently does.
 
-[Joachim](user:joachim_metz.md) I would like to have the carver
+Joachim I would like to have the carver
 (recovery tool) also do recovery using file allocation data or
 remainders of file allocation data.
 
-[Joachim](user:joachim_metz.md) I would go as far to ask you all
+Joachim I would go as far to ask you all
 to look beyond the carver as a tool and look from the perspective of the
 carver as part of the forensic investigation process. In my eyes certain
 information needed/acquired by the carver could be also very useful
@@ -870,7 +867,7 @@ sectors.
 
 # Supportive tooling
 
-[Joachim](user:joachim_metz.md)
+Joachim
 
 - validator (definitions) tester (detest in revit07)
 - tool to make configuration based definitions
@@ -880,7 +877,7 @@ sectors.
 
 # Testing
 
-[Joachim](user:joachim_metz.md)
+Joachim
 
 - automated testing
 - test data
@@ -890,18 +887,18 @@ sectors.
 Options:
 
 - Write validators in C/C++
-  - [Joachim](user:joachim_metz.md) you mean dedicated
+  - Joachim you mean dedicated
     validators
 - Have a scripting language for writing them (python? Perl?) our own?
-  - [Joachim](user:joachim_metz.md) use easy to embed
+  - Joachim use easy to embed
     programming languages i.e. Phyton or Lua
 - Use existing programs (libjpeg?) as plug-in validators?
-  - [Joachim](user:joachim_metz.md) define a file structure api
+  - Joachim define a file structure api
     for this
 
 # Existing Code that we have
 
-[Joachim](user:joachim_metz.md) Please add any missing links
+Joachim Please add any missing links
 
 Documentation/Articles
 
@@ -992,15 +989,15 @@ POLA
     1.  Implement simple file carving with validation.
     2.  Implement gap carving
 5.  Initial Release
-6.  Implement the *threaded carving* that [.FUF](user:.fuf.md)
+6.  Implement the *threaded carving* that .FUF
     is describing above.
 
-[Joachim](user:joachim_metz.md) Shouldn't multi threaded carving
+Joachim Shouldn't multi threaded carving
 (MTC) not be part of the 1st version? The MT approach makes for
 different design decisions
 
 
 It is virtually impossible to turn a non-MT application into an MT
-application .[Simsong](user:simsong.md) 06:37, 3 November 2008
+application .Simsong 06:37, 3 November 2008
 (UTC)
 

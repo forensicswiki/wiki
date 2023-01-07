@@ -63,7 +63,7 @@ mail user agent:
 
 <!-- -->
 
-- [The Bat! Header Format](the_bat!_header_format.md)
+- [The Bat! Header Format](the_bat_header_format.md)
 
 <!-- -->
 

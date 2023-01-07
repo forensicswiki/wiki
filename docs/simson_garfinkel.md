@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Simson L. Garfinkel](simson_l._garfinkel.md)
+
+_See: [Simson L. Garfinkel](simson_l_garfinkel.md)_

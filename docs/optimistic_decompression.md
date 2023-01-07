@@ -15,8 +15,4 @@ produced by [file carving](file_carving.md). The approach can
 also be used for fragment reassembly carving by attempting to combine
 different combinations of fragments, looking for a combination that
 produces neither decompression errors nor visual discontinuities. This
-is the approach used by the [Adroit](adroit.md) file carver.
-
-## See Also
-
-- <http://cloud.github.com/downloads/simsong/bulk_extractor/bulk_extractor.pdf>
+is the approach used by the [Adroit](adroit_photo_forensics.md) file carver.

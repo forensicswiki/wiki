@@ -42,7 +42,7 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 
 * Android usage history (usage-history.xml) file
 * Apple Spotlight store database (store.db) file
-* [Apple System Log (asl)](apple_system_log_(asl).md) file
+* Apple System Log (asl) file
 * AWS CloudTrail Log
 * Azure Activity Log
 * Azure Application Gateway access log

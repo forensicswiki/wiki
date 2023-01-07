@@ -20,27 +20,20 @@ Residual data appears at all levels of modern computer systems:
 
 # Papers
 
-Byers, Simon. [Scalable Exploitation of, and Responses to Information
-Leakage Through Hidden Data in Published
-Documents](media:scalable_exploitation.pdf.md), AT&T Research,
-April 2003
+Scalable Exploitation of, and Responses to Information Leakage Through Hidden
+Data in Published Documents, by Byers, Simon, AT&T Research, April 2003
 
-Chow, J., B. Pfaff, T. Garfinkel, K. Christopher, M. Rosenblum,
-[Understanding Data Lifetime via Whole System
-Simulation](media:tainbochs.pdf.md), Proceedings of the 13th
-USENIX Security Symposium, 2004.
+Understanding Data Lifetime via Whole System Simulation, by Chow, J., B. Pfaff,
+T. Garfinkel, K. Christopher, M. Rosenblum, Proceedings of the 13th USENIX
+Security Symposium, 2004.
 
-Garfinkel, S. and Shelat, A., "Remembrance of Data Passed: A Study of
-Disk Sanitization Practices," IEEE Security and Privacy,
-January/February 2003.
+Garfinkel, S. and Shelat, A., "Remembrance of Data Passed: A Study of Disk
+Sanitization Practices," IEEE Security and Privacy, January/February 2003.
 
 # See Also
 
-- [Residual Data on Used
-  Equipment](residual_data_on_used_equipment.md)
-- [Residual Data in Document
-  Files](residual_data_in_document_files.md)
+- [Residual Data on Used Equipment](residual_data_on_used_equipment.md)
+- [Residual Data in Document Files](residual_data_in_document_files.md)
 - [Sanitizing Tools](sanitizing_tools.md)
 - [Remnant Data](remnant_data.md)
-- [Residual data on
-  iPhones](http://www.iphoneatlas.com/2008/05/19/refurbished-iphones-may-contain-other-users-personal-data/)
+- [Residual data on iPhones](http://www.iphoneatlas.com/2008/05/19/refurbished-iphones-may-contain-other-users-personal-data/)

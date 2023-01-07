@@ -105,15 +105,13 @@ bibliography is in chronological order!**
 
 2001
 
-- M. McDaniel, [Automatic File Type Detection
-  Algorithm](media:mcdaniel01.pdf.md), Masters Thesis, James
-  Madison University,2001
+- Automatic File Type Detection Algorithm,
+  by M. McDaniel, Masters Thesis, James Madison University, 2001
 
 2003
 
-- [Content Based File Type Detection
-  Algorithms](https://ieeexplore.ieee.org/document/1174905), M.
-  McDaniel and M.H. Heydari, 36th Annual Hawaii International Conference
+- [Content Based File Type Detection Algorithms](https://ieeexplore.ieee.org/document/1174905),
+  by M.  McDaniel and M.H. Heydari, 36th Annual Hawaii International Conference
   on System Sciences (HICSS'03) - Track 9, 2003.
 
 2005

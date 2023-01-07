@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [SIM_Forensics](sim_forensics.md)
+
+_See: [SIM_Forensics](sim_forensics.md)_
