@@ -152,7 +152,7 @@ Consists of a SYSTEMTIME</p></td>
 
 #### Flags
 
-See: [Flags](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/3b4cd410-105a-48be-8379-81c84bfcafbe?redirectedfrom=MSDN)
+See: [Flags](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/3b4cd410-105a-48be-8379-81c84bfcafbe)
 
 #### SYSTEMTIME
 
@@ -358,6 +358,6 @@ size is set, is should be 8 and the Reserved Data consists of:
 ## External Links
 
 - [.JOB File
-  Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/96446df7-7683-40e0-a713-b01933b93b18?redirectedfrom=MSDN), by
+  Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/96446df7-7683-40e0-a713-b01933b93b18), by
   [Microsoft](microsoft.md)
 

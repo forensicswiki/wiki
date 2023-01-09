@@ -187,7 +187,7 @@ information.
 
 * [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
 * [Volume Shadow Copies - The Lost Post](http://pauldotcom.com/2012/10/volume-shadow-copies---the-los.html),
-  [Mark Baggett](mark_baggett.md), October 2012
+  by [Mark Baggett](mark_baggett.md), October 2012
 
 ## Tools
 
@@ -206,5 +206,5 @@ information.
 
 ## Sources
 
-[1](https://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
-\[<https://learn.microsoft.com/en-us/>).aspx\]
+* [What you should know about Volume Shadow Copy/System Restore in Windows 7 & Vista (FAQ)](https://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
+* [Restore points](https://learn.microsoft.com/en-us/windows/win32/sr/restore-points)

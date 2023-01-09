@@ -14,7 +14,7 @@ it has been written in a portable way in order to virtually run on every
 
 ntop users can use a a web browser to navigate through ntop (that acts
 as a web server) traffic information and get a dump of the network
-status.[1](https://www.ntop.org/products/traffic-analysis/ntop/)
+status [1](https://www.ntop.org/products/traffic-analysis/ntop/).
 
 ## What ntop can do for me?
 

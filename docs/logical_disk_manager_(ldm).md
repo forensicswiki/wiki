@@ -7,8 +7,7 @@ abbreviated to LDM.
 
 ## On-disk structures
 
-According to
-[TECHNET](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737048(v=ws.10)?redirectedfrom=MSDN):
+According to [TECHNET](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737048(v=ws.10)):
 
 The location of the database is determined by the partition style of the
 disk.
@@ -32,13 +31,10 @@ disk.
 
 ## External Links
 
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  Basic and Dynamic Disks\], by Microsoft
-- [What Are Dynamic Disks and
-  Volumes?](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737048(v=ws.10)?redirectedfrom=MSDN),
+- [Basic and Dynamic Disks](https://learn.microsoft.com/en-us/windows/win32/fileio/basic-and-dynamic-disks),
+  by Microsoft
+- [What Are Dynamic Disks and Volumes?](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc737048(v=ws.10)),
   by Microsoft, March 2003
-- [Dynamic disks and
-  volumes](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc757696(v=ws.10)?redirectedfrom=MSDN), by
-  Microsoft, January 2005
+- [Dynamic disks and volumes](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc757696(v=ws.10)),
+  by Microsoft, January 2005
 - [Logical Disk Manager documentation](http://www.ntfs.com/ldm.htm)
-

@@ -27,22 +27,9 @@ without having to resort to a chip-off procedure which is destructive.
 Once completed, the phone or device can be re-assembled and should
 function normally.
 
-|                                                                                                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Default BGA 169 eMMC pinout taken from: (\[<https://forum.gsmhosting.com/vbb/>: How to find direct eMMC pinout\]) |
-| <figure>
- <img src="Default-BGA169-eMMC-pinout.jpg"
- title="Default-BGA169-eMMC-pinout.jpg" width="450"
- alt="Default-BGA169-eMMC-pinout.jpg" />
- <figcaption
- aria-hidden="true">Default-BGA169-eMMC-pinout.jpg</figcaption>
- </figure>                                                                                                                                                                                        |
-|                                                                                                                                                                                                 |
-
 ## Tools and Equipment
 
-- [JTAG and Chip-Off Tools and
-  Equipment](jtag_and_chip-off_tools_and_equipment.md)
+- [JTAG and Chip-Off Tools and Equipment](jtag_and_chip-off_tools_and_equipment.md)
 
 ## Procedures
 

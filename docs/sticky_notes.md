@@ -29,7 +29,7 @@ modification time associated with it, and each of the storage streams
 the contain the sticky notes will have creation and modification times
 (M and B of the MACB times) associated with them. These times are
 maintained in the
-[FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime?redirectedfrom=MSDN)
+[FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime)
 format, and can be included in a timeline of system activity in order to
 demonstrate user activity on the system.
 

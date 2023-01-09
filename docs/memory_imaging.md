@@ -41,15 +41,14 @@ was taken.
 In [Windows](windows.md) the Physical Memory Object,
 \\\Device\PhysicalMemory, can be used the access physical memory. Since
 Windows 2003 SP1 user-mode access to this device-object is no longer
-permitted
-\[<https://learn.microsoft.com/en-us/>).aspx\].
+permitted.
+
 A kernel-mode process is still allowed to read from this device-object.
 
 ### MmMapIoSpace
 
 The MmMapIoSpace function (or routine) is kernel-mode function to map a
-physical address range to non-paged system space
-\[<https://learn.microsoft.com/en-us/>).aspx\].
+physical address range to non-paged system space.
 
 ## Memory Imaging Techniques
 

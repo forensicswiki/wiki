@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Investigations
-  -  Law
+  - Investigations
+  - Law
 ---
 ### 2000 Michelle Theer
 
@@ -143,14 +143,7 @@ Mr. Cameron."
 
 ## See Also
 
-- [Tracking down the author of the Melissa
-  virus](http://groups.google.com/group/alt.comp.virus/browse_frm/thread/f5d9d7c71c6fb540/e0e9a7986d4df76b?tvc=1) -
+- [Tracking down the author of the Melissa virus](http://groups.google.com/group/alt.comp.virus/browse_frm/thread/f5d9d7c71c6fb540/e0e9a7986d4df76b?tvc=1) -
   Usenet discussion which revealed lots of information about the author
-  of the [Melissa
-  worm/virus](https://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
-- [IDS Logs in Forensics Investigations: An Analysis of a Compromised
-  Honeypot](https://bugtraq.securityfocus.com/infocus/1676)
-
-[Category:Investigations](category:investigations.md)
-[Category:Law](category:law.md)
-
+  of the [Melissa worm/virus](https://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
+- [IDS Logs in Forensics Investigations: An Analysis of a Compromised Honeypot](https://bugtraq.securityfocus.com/infocus/1676)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Anti-Forensics
 ---
 It's not really clear what this program does.
 
@@ -19,6 +19,3 @@ product page.
 - <http://www.evidence-eliminator.com/>
 - <http://www.evidence-eliminator.com/dis-information.d2w>
 - <http://www.evidence-eliminator.com/fact-sheet.d2w>
-
-[Category:Anti-forensics
-tools](category:anti-forensics_tools.md)

@@ -9,6 +9,5 @@ encryption for [NetBSD](netbsd.md).
 
 ## External Links
 
-- [NetBSD Official website](http://www.netbsd.org/)
-- \[<http://www.netbsd.org/docs/guide/en/chap-cgd.html>: NetBSD
-  Documentation\]
+* [NetBSD Official website](http://www.netbsd.org/)
+* [NetBSD Documentation](http://www.netbsd.org/docs/guide/en/chap-cgd.html)

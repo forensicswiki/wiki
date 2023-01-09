@@ -1,15 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Text
-  -  Linux
-  -  FreeBSD
-  -  OpenBSD
-  -  MacOS
-  -  NetBSD
-  -  AIX
-  -  Solaris
-
+  - File Formats
+  - Text
 ---
 MBOX is a generic name to the family of related files that holds a
 collection of email messages in a single file. MBOX files are simple
@@ -113,5 +105,3 @@ Operating System as well i.e. the supported email application(s).
 - [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
 - [MBOX Viewer](mbox_viewer.md)
 - [Paraben's Email Examiner](paraben's_email_examiner.md)
-
-[Category:Email](category:email.md) [Category:File

@@ -9,7 +9,7 @@ tags:
 ### Hive
 
 According to
-[1](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-hives?redirectedfrom=MSDN)
+[1](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-hives)
 
     A hive is a logical group of keys, subkeys, and values in the Windows Registry that has a set of supporting files containing backups of its data.
 
@@ -1202,7 +1202,7 @@ name</a></b></p></td>
   by [Microsoft](microsoft.md)
 * [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85>).aspx),
   by [Microsoft](microsoft.md)
-* [32-bit and 64-bit Application Data in the Registry](https://learn.microsoft.com/en-us/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry?redirectedfrom=MSDN),
+* [32-bit and 64-bit Application Data in the Registry](https://learn.microsoft.com/en-us/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry),
   by [Microsoft](microsoft.md)
 
 ### Cached Credentials
@@ -1217,7 +1217,7 @@ name</a></b></p></td>
 
 ### Persistence keys
 
-* [Understand and Control Startup Apps with the System Configuration Utility](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ee851671(v=msdn.10)?redirectedfrom=MSDN),
+* [Understand and Control Startup Apps with the System Configuration Utility](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ee851671(v=msdn.10)),
   by [Microsoft Technet](microsoft.md)
 * [Silent Runners](http://www.silentrunners.org/), by Andrew Aronoff
 * [Digital Forensics: Persistence Registry keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),

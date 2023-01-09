@@ -11,16 +11,13 @@ environment.
 
 ## See Also
 
-- [Disk Images](disk_images.md)
+* [Disk Images](disk_images.md)
 
 ## External links
 
-- [MSDN](https://learn.microsoft.com/en-us/previous-versions/msdn10/dd861280(v=msdn.10))
-- [Windows Imaging File Format (WIM) white
-  paper](http://go.microsoft.com/fwlink/?LinkId=92227)
+* [MSDN](https://learn.microsoft.com/en-us/previous-versions/msdn10/dd861280(v=msdn.10))
+* [Windows Imaging File Format (WIM) white paper](http://go.microsoft.com/fwlink/?LinkId=92227)
 
 ### Tools
 
-- \[<https://learn.microsoft.com/en-us/>).aspx
-  ImageX\]
-
+* [What is ImageX?](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc722145(v=ws.10))

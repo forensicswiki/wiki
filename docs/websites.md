@@ -1,42 +1,34 @@
 ---
 tags:
-  -  Research
-  -  Websites
+  - Websites
 ---
 **Websites** about [digital forensics](digital_forensics.md) and
 related topics.
 
 # Digital Forensics
 
-Bruce Nikkel's Computer Forensics Homepage
-[Bruce Nikkel's Computer Forensics
-Homepage](http://digitalforensics.ch/)
+[Bruce Nikkel's Computer Forensics Homepage](http://digitalforensics.ch/)
 
 Presentations, links, references
 
 <!-- -->
 
-Digital Forensic Solution Provider Website
-[Forensic People Website](http://forensicpeople.com/)
+[Digital Forensic Solution Provider Website](http://forensicpeople.com/)
 
 <!-- -->
 
-Certfied Computer Examiner Website
 [Certfied Computer Examiner Website](https://www.isfce.com/)
 
 Open certification process for digital forensics.
 
 <!-- -->
 
-Computer Forensics and Investigations
-[project “COMPUTER FORENSICS AND
-INVESTIGATIONS”](http://computer-forensics-lab.org/)
+[Computer Forensics and Investigations](http://computer-forensics-lab.org/)
 
 Computer Forensics articles, and website of Igor Michailov
 
 <!-- -->
 
-Computer Forensics Tool Catalog
 [Computer Forensics Tool Catalog](http://toolcatalog.nist.gov/)
 
 The Computer Forensics Tool Catalog provides an easily searchable
@@ -45,8 +37,7 @@ meet their specific technical needs.
 
 <!-- -->
 
-Computer Forensics Tool Testing (CFTT) project
-[Computer Forensics Tool Testing project](http://www.cftt.nist.gov/)
+[Computer Forensics Tool Testing (CFTT) project](http://www.cftt.nist.gov/)
 
 The Computer Forensic Tool Testing (CFTT) project establishes
 methodologies for testing computer forensic tools by development of
@@ -55,8 +46,7 @@ and test hardware.
 
 <!-- -->
 
-Computer Forensics World
-<https://www.computerforensicsworld.com/>
+[Computer Forensics World](https://www.computerforensicsworld.com/)
 
 Website with online discussion forums relating to computer forensics.
 
@@ -69,25 +59,20 @@ Computer forensics, network security, and computer crime podcast.
 
 <!-- -->
 
-Digital Forensics Discussion Forum
-[Digital Forensics Discussion
-Forum](http://www.multimediaforensics.com/)
+[Digital Forensics Discussion Forum](http://www.multimediaforensics.com/)
 
 A forum for the discussion of computer and digital forensics
 examinations, certified and non-certified investigators welcome
 
 <!-- -->
 
-Digital Forensic Research Workshop (DFRWS)
-[Official Website for Digital Forensic Research
-Workshop](http://www.dfrws.org/)
+[Digital Forensic Research Workshop (DFRWS)](http://www.dfrws.org/)
 
 Open forum for research in digital forensic issues, hosting annual
 meeting and annual forensics challenge.
 
 <!-- -->
 
-E-Evidence Information Centre
 [E-Evidence Information Centre](http://www.e-evidence.info/)
 
 An online digital forensics bibliography, updated monthly
@@ -108,32 +93,26 @@ Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
 <!-- -->
 
-Forensic Focus
-<https://www.forensicfocus.com/>
+[Forensic Focus](https://www.forensicfocus.com/)
 
 News, blog, forums, and other resources for folks engaged in or
 interested in digital forensics.
 
 <!-- -->
 
-International Association of Computer Investigative Specialists
-[International Association of Computer Investigative
-Specialists](https://iacis.info/)
+[International Association of Computer Investigative Specialists](https://iacis.info/)
 
 Volunteer non-profit corporation composed of law enforcement
 professionals.
 
 <!-- -->
 
-Litilaw Computer Forensics
-[Litilaw Computer
-Forensics](http://computer-forensics-litilaw.lexbe.com/)
+[Litilaw Computer Forensics](http://computer-forensics-litilaw.lexbe.com/)
 
 Computer forensics article collection.
 
 <!-- -->
 
-MySecured.com
 [MySecured.com](http://www.MySecured.com/)
 
 Mobile phone forensics, cellphone related investigation and data
@@ -141,7 +120,6 @@ analysis site.
 
 <!-- -->
 
-NIST: Secure Hashing
 [NIST: Secure Hashing](https://csrc.nist.gov/projects/hash-functions)
 
 The Computer Security Division's (CSD) Security Technology Group (STG)
@@ -151,8 +129,7 @@ technology.
 
 <!-- -->
 
-National Software Reference Library (NSRL)
-[National Software Reference Library](http://www.nsrl.nist.gov/)
+[National Software Reference Library (NSRL)](http://www.nsrl.nist.gov/)
 
 The National Software Reference Library (NSRL) collects software from
 various sources and incorporates file profiles computed from this
@@ -160,45 +137,23 @@ software into a Reference Data Set (RDS) of information.
 
 <!-- -->
 
-Open Source Digital Forensics
-[“OpenSourceForensics.org”](http://www.opensourceforensics.org)
-
-The Open Source Digital Forensics site is a reference for the use of
-open source software in digital investigations (a.k.a. digital
-forensics, computer forensics, incident response).
-
-<!-- -->
-
-\[University of Delaware\] Computer Forensics Lab
-[University of Delaware](http://128.175.24.251/forensics/default.htm)
+[University of Delaware Computer Forensics Lab](http://128.175.24.251/forensics/default.htm)
 
 Computer Forensics Lab Resource Site.
 
 <!-- -->
 
-\[University of Rhode Island\] Digital Forensics Center
-[University of Rhode Island](https://web.uri.edu/cs/dfcsc/)
+[University of Rhode Island Digital Forensics Center](https://web.uri.edu/cs/dfcsc/) 
 
 Computer Forensics Lab Resource Site.
 
 <!-- -->
 
-Forensics Sciences Conference and Exhibition
-\[<http://http://euroforensics.com/%5DEuroforensics>
+[Forensics Sciences Conference and Exhibition](http://http://euroforensics.com/%5DEuroforensics)
 
 # Non-Digital Forensics
 
-NIST Image Group
 [NIST Image Group](http://fingerprint.nist.gov/)
 
 Many reports, including the [NIST](nist.md) report on [AFIS](afis.md)
 fingerprint testing.
-
-# Wikis
-
-Forensics Wiki (Russian Language)
-[Forensics Wiki in Russian](http://www.computer-forensics-lab.org/wiki/)
-
-# [Blogs](blogs.md)
-
-# [Journals](journals.md)

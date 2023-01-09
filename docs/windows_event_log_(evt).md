@@ -22,7 +22,7 @@ empty, slack and padding.
 ## Header Record
 
 The Header Record defined as
-[ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)?redirectedfrom=MSDN)
+[ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
 on MSDN consists of:
 
 1.  uint32 length of record in bytes, fixed 0x30

@@ -12,8 +12,8 @@ date or time of day. This differs from the
 [Prefetch](prefetch.md) technique used in Microsoft Windows XP,
 which preloads data into memory without analyzing usage patterns.
 
-From
-\[<https://learn.microsoft.com/en-us/>).aspx\]:
+From [Windows ReadyBoost](https://download.microsoft.com/download/3/0/2/3027d574-c433-412a-a8b6-5e0a75d5b237/perfaccel.docx):
+
 SuperFetch prioritizes the following kinds of pages to remain in memory:
 
 - Pages of applications that are used most frequently overall.
@@ -132,11 +132,11 @@ written when the service starts.
 
 ## External Links
 
-* [Inside the Windows Vista Kernel: Part 2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),
+* [Inside the Windows Vista Kernel: Part 2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), March 2007
 * [Performance Testing Guide for Windows](http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/Win7Perf.docx),
   by [Microsoft](microsoft.md), August 18, 2009 
-* [Performance Scenarios](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-8.1-and-8/hh162965(v=win.10)?redirectedfrom=MSDN),
+* [Performance Scenarios](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-8.1-and-8/hh162965(v=win.10)),
   by [Microsoft](microsoft.md), October 20, 2013
 * [Wikipedia: Windows Vista I/O technologies - SuperFetch](https://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch)
 * [Channel 9 Interview with Michael Fortin of Microsoft on SuperFetch](https://learn.microsoft.com/en-us/shows/)

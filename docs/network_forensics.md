@@ -47,13 +47,12 @@ available.
 <!-- -->
 
 - [IP geolocation](ip_geolocation.md)
-- [Tools:Network Forensics](tools:network_forensics.md)
-- [Tools:Logfile Analysis](tools:logfile_analysis.md)
+- [Tools: Network Forensics](tools_network_forensics.md)
+- [Tools: Logfile Analysis](logfile_analysis.md#tools)
 
 ## External links
 
-- [Default Time To Live (TTL)
-  values](http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/)
+- [Default Time To Live (TTL) values](http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/)
 - [http2 explained](https://daniel.haxx.se/http2/), by Daniel Stenberg,
   February 18, 2015
 
