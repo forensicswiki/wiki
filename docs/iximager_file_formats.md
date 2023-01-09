@@ -24,7 +24,5 @@ The header for these image formats appears to contain the string:
 
 ## External Links
 
-- [Sample image in EnCase, iLook, and dd
-  format](https://cfreds.nist.gov/v2/Basic_Mac_Image.html) - From the
-  [Computer Forensic Reference Data
-  Sets](computer_forensic_reference_data_sets.md) Project
+- [Sample image in EnCase, iLook, and dd format](https://cfreds.nist.gov/v2/Basic_Mac_Image.html) -
+  From the Computer Forensic Reference Data Sets Project

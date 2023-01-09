@@ -181,27 +181,19 @@ other) information.
 
 ## External Links
 
-- [Tracing and
-  Logging](https://docs.oracle.com/javase/6/docs/technotes/guides/deployment/deployment-guide/tracing_logging.html),
-  by [Oracle](oracle.md)
-- [Java Forensics using TLN
-  Timelines](http://sploited.blogspot.ch/2012/08/java-forensics-using-tln-timelines.html)
-- [Almost Cooked UP Some
-  Java](http://journeyintoir.blogspot.com/2011/02/almost-cooked-up-some-java.html)
-- [Finding Initial Infection
-  Vector](http://journeyintoir.blogspot.com/2011/11/finding-initial-infection-vector.html)
-- [Java IDX Format
-  Specification](https://github.com/woanware/javaidx/blob/master/Documents/Java.IDX.Format.pdf),
-  by [Mark Woan](mark_woan.md), January 2013
-- [Java Malware - Identification and
-  Analysis](https://www.ghettoforensics.com/2013/04/java-malware-identification-and-analysis.html),
-  by [Brian Baskin](brian_baskin.md), January 12, 2013
-- [Java Web Vulnerability Mitigation on
-  Windows](http://tojoswalls.blogspot.ch/2013/05/java-web-vulnerability-mitigation-on.html),
+- [Tracing and Logging](https://docs.oracle.com/javase/6/docs/technotes/guides/deployment/deployment-guide/tracing_logging.html),
+  by Oracle
+- [Java Forensics using TLN Timelines](http://sploited.blogspot.ch/2012/08/java-forensics-using-tln-timelines.html)
+- [Almost Cooked UP Some Java](http://journeyintoir.blogspot.com/2011/02/almost-cooked-up-some-java.html)
+- [Finding Initial Infection Vector](http://journeyintoir.blogspot.com/2011/11/finding-initial-infection-vector.html)
+- [Java IDX Format Specification](https://github.com/woanware/javaidx/blob/master/Documents/Java.IDX.Format.pdf),
+  by Mark Woan, January 2013
+- [Java Malware - Identification and Analysis](https://www.ghettoforensics.com/2013/04/java-malware-identification-and-analysis.html),
+  by Brian Baskin, January 12, 2013
+- [Java Web Vulnerability Mitigation on Windows](http://tojoswalls.blogspot.ch/2013/05/java-web-vulnerability-mitigation-on.html),
   by Tim Johnson, May 23, 2013
-- [The State of Java Reversing
-  Tools](https://www.ghettoforensics.com/2013/09/malware-analysis-state-of-java-analysis.html),
-  by [Brian Baskin](brian_baskin.md), September 3, 2013
+- [The State of Java Reversing Tools](https://www.ghettoforensics.com/2013/09/malware-analysis-state-of-java-analysis.html),
+  by Brian Baskin, September 3, 2013
 
 ### Java source code
 

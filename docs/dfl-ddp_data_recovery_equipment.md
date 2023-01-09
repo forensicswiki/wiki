@@ -10,11 +10,11 @@ drives, DFL-DDP is able to quickly repair many common firmware damaged
 drives of Seagate, WD, Samsung, Toshiba, Hitachi, etc at high success
 rate.
 
+## See Also
+
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Tools: Data Recovery](tools_data_recovery.md)
+
 ## External Links
 
-- [DFL-DDP Data Recovery
-  Equipment](https://www.dolphindatalab.com/product/dfl-data-dr-pro-usb-3-data-recovery-equipment/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Data_Recovery](data_recovery.md)
+* [DFL-DDP Data Recovery Equipment](https://www.dolphindatalab.com/product/dfl-data-dr-pro-usb-3-data-recovery-equipment/)

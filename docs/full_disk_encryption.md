@@ -5,7 +5,7 @@ tags:
   - Encryption
 ---
 **Full Disk Encryption** or **Whole Disk Encryption** is a phrase that
-was coined by [Seagate](seagate.md) to describe their encrypting
+was coined by Seagate to describe their encrypting
 [hard drive](hard_drive.md). Under such a system, the entire
 contents of a hard drive are encrypted. This is different from [Full
 Volume Encryption](full_volume_encryption.md) where only certain
@@ -81,7 +81,7 @@ beCrypt
 
 <!-- -->
 
-[BitArmor](bitarmor.md) [DataControl](datacontrol.md) FDE tool that protects
+BitArmor by [DataControl](datacontrol.md) FDE tool that protects
 fixed and removable media.
 
 <!-- -->
@@ -96,7 +96,7 @@ encryption
 Cryptographic Device Driver. Provides transparent full disk encryption
 for [NetBSD](netbsd.md).
 
-Supports various [ciphers](ciphers.md): [AES](aes.md)
+Supports various ciphers: [AES](aes.md)
 (128 bit blocksize and accepts 128, 192 or 256 bit keys),
 [Blowfish](blowfish.md) (64 bit blocksize and accepts 128 bit
 keys) and [3DES](3des.md) (uses a 64 bit blocksize and accepts
@@ -122,7 +122,7 @@ Free solution provided under GNU General Public License.
 Transparent on the fly encryption for [MS Windows](windows.md)
 and [Windows Mobile](microsoft_windows_mobile.md) PDAs. Also
 supports mounting [Linux](linux.md)
-[dm-crypt](dm-crypt.md) and
+dm-crypt and
 [LUKS](linux_unified_key_setup_(luks).md) volumes
 
 <http://www.FreeOTFE.org/>
@@ -130,9 +130,9 @@ supports mounting [Linux](linux.md)
 <!-- -->
 
 [GBDE](gbde.md)
-[GEOM](geom.md) Based Disk Encryption. Provides transparent full
+GEOM Based Disk Encryption. Provides transparent full
 disk and swap encryption for [FreeBSD](freebsd.md). Supported
-[ciphers](ciphers.md): [AES](aes.md) (128 bit).
+ciphers: [AES](aes.md) (128 bit).
 
 Supports hidden volumes and Pre-Boot Authentification.
 
@@ -146,9 +146,9 @@ instead of GBDE.
 <!-- -->
 
 [GELI](geli.md)
-Cryptographic [GEOM](geom.md) class. Provides transparent full
+Cryptographic GEOM class. Provides transparent full
 disk encryption for [FreeBSD](freebsd.md). Supports various
-[ciphers](ciphers.md): [AES](aes.md),
+ciphers: [AES](aes.md),
 [Blowfish](blowfish.md) and [3DES](3des.md).
 
 Supports hidden volumes and Pre-Boot Authentification.
@@ -161,22 +161,19 @@ Supports hidden volumes and Pre-Boot Authentification.
 
 <!-- -->
 
-Jetico BestCrypt
-<https://www.jetico.com/>
+[Jetico BestCrypt](https://www.jetico.com/)
 
 <!-- -->
 
-[loop-AES](loop-aes.md)
+[loop-AES](https://sourceforge.net/projects/loop-aes/)
 Transparent file system and swap encryption for [Linux](linux.md)
 using the loopback device and [AES](aes.md).
 
-<https://sourceforge.net/projects/loop-aes/>
-
 <!-- -->
 
-[Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md) or [dm-crypt](dm-crypt.md)
+[Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md) or dm-crypt
 Transparent file system and swap encryption for [Linux](linux.md)
-using the Linux 2.6 device mapper. Supports various [ciphers](ciphers.md) and
+using the Linux 2.6 device mapper. Supports various ciphers and
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 
 <https://www.saout.de/misc/dm-crypt/>
@@ -193,19 +190,19 @@ Can use OpenPGP RFC 2440 keys and X.509 keys for authentification.
 
 Supports USB Tokens for authentification.
 
-Supported [ciphers](ciphers.md): [AES](aes.md) (256 bit
+Supported ciphers: [AES](aes.md) (256 bit
 keys).
 
 <http://www.pgp.com/products/wholediskencryption/>
 
 <!-- -->
 
-[SafeGuard Easy](safeguard_easy.md)
-Certified according to [Common Criteria](common_criteria.md)
+SafeGuard Easy
+Certified according to Common Criteria
 EAL3 and FIPS 140-2
 
 Encryption algorithms supported: [AES](aes.md) (128 and 256 bit)
-and [IDEA](idea.md)
+and IDEA
 
 Provides complete [hard drive](hard_drive.md) encryption
 including the boot disk.
@@ -214,16 +211,13 @@ including the boot disk.
 
 <!-- -->
 
-[SECUDE](secude.md)
-[SECUDE](secude.md) provides a software and hardware solution
+[SECUDE](https://secude.com/)
+SECUDE provides a software and hardware solution
 for full disk encryption.
-
-<https://secude.com/>
 
 <!-- -->
 
-Securstar DriveCrypt
-<http://www.securstar.com/products_drivecryptpp.php>
+[Securstar DriveCrypt](http://www.securstar.com/products_drivecryptpp.php)
 
 <!-- -->
 
@@ -238,19 +232,17 @@ Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 
 <!-- -->
 
-[VeraCrypt](veracrypt.md)
+[VeraCrypt](http://veracrypt.codeplex.com/)
 Fork of [TrueCrypt](truecrypt.md) project. Support for for
 [Linux](linux.md), [Windows](windows.md), and
 [MacOS](mac_os_x.md).
-
-<http://veracrypt.codeplex.com/>
 
 <!-- -->
 
 [vnconfig](vnconfig.md)
 The -K option of [OpenBSD](openbsd.md) associates
 and encryption key with the svnd device. Supports saltfiles. Supported
-[ciphers](ciphers.md): [Blowfish](blowfish.md).
+ciphers: [Blowfish](blowfish.md).
 
 <http://www.openbsd.org/cgi-bin/man.cgi?query=vnconfig&sektion=8>
 
@@ -264,11 +256,9 @@ the encryption software, as noted in the table below:
 |                                                  |
 |--------------------------------------------------|
 | Solution                                         |
-| [EnCase Forensics v6](encase.md)                 |
-| [EnCase Forensics v7](encase.md)                 |
-| [EnCase Forensics v8](encase.md)                 |
+| [EnCase Forensics](encase.md)                    |
 | [AccessData FTK v6](forensic_toolkit.md)         |
-| [X-Ways](x-ways_ag.md.md)                        |
+| [X-Ways](x-ways_ag.md)                           |
 | Other Applications                               |
 
 ## See Also

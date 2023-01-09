@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Micro processor
+  - Micro processor
 ---
 From [Wikipedia](https://en.wikipedia.org/wiki/Microcode):
 
@@ -20,20 +20,16 @@ e.g.
     kernel/x86/microcode/GenuineIntel.bin
     kernel/x86/microcode/AuthenticAMD.bin
 
-The initrd is a (compressed) [cpio archive](cpio_archive.md).
+The initrd is a (compressed) cpio archive.
 
 ## External Links
 
-- [Wikipedia: Microcode](https://en.wikipedia.org/wiki/Microcode)
-- [Early load
-  microcode](https://www.kernel.org/doc/Documentation/x86/early-microcode.txt),
+* [Wikipedia: Microcode](https://en.wikipedia.org/wiki/Microcode)
+* [Early load microcode](https://www.kernel.org/doc/Documentation/x86/early-microcode.txt),
   by Fenghua Yu
-- [Security Analysis of x86 Processor
-  microcode](https://www.dcddcc.com/docs/2014_paper_microcode.pdf), by
-  Daming D. Chen, Gail-Joon Ahn, December 11, 2014
+* [Security Analysis of x86 Processor microcode](https://www.dcddcc.com/docs/2014_paper_microcode.pdf),
+  by Daming D. Chen, Gail-Joon Ahn, December 11, 2014
 
 ### Intel microcode
 
-- [Linux\* Processor Microcode Data
-  File](https://www.intel.com/content/www/us/en/download-center/home.html)
-
+* [Linux\* Processor Microcode Data File](https://www.intel.com/content/www/us/en/download-center/home.html)
