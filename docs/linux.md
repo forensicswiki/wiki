@@ -8,7 +8,7 @@ range of high penetration forensic tools.
 
 The wide variety of useful Linux utilities exist for desktop computers
 can also be used on Linux-based PDAs. These utilities can often be used
-as a part of the [forensics investigation](forensics_investigation.md) process.
+as a part of the forensics investigation process.
 
 Software for Linux systems are not only targets at personal computers,
 desktops, laptops etc, but also server based tools exist for both
@@ -35,17 +35,14 @@ attached to.
 
 ### dd
 
-**[dd](dd.md)**, or duplicate disk, is a Unix and Linux utility
-that allows the user to create a bitstream image of a disk or device.
-Once the Linux-based PDA is connected to another device and the dd
-utility is run, the mirror image can be uploaded onto [memory
-cards](memory_card.md) or even an external desktop workstation
-connected via a network. Images created by dd are readable by [forensics
-software](forensics_software.md) tools such as
-[EnCase](encase.md) and [Forensic
-Toolkit](forensic_toolkit.md). Since the device uses a Linux
-[filesystem](filesystem.md), the image may also be mounted and
-examined on a Linux workstation.
+**[dd](dd.md)**, or duplicate disk, is a Unix and Linux utility that allows the
+user to create a bitstream image of a disk or device. Once the Linux-based PDA
+is connected to another device and the dd utility is run, the mirror image can
+be uploaded onto memory cards or even an external desktop workstation connected
+via a network. Images created by dd are readable by forensics software tools
+such as [EnCase](encase.md) and [Forensic Toolkit](forensic_toolkit.md). Since
+the device uses a Linux filesystem, the image may also be mounted and examined
+on a Linux workstation.
 
 ### foremost
 

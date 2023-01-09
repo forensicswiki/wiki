@@ -89,7 +89,7 @@ timestamps. The output of these commands can be inputted into
 timestamps.
 
 Note that there are numerous known issues with the
-[Bodyfile](bodyfile.md) format used by **fls** and **ils**.
+[Body file](body_file.md) format used by **fls** and **ils**.
 
 ## Searching Abilities
 
@@ -117,7 +117,7 @@ Common Public License version 1.0. For more information see:
 ## Ext4 support
 
 In 2011 Willi Ballenthin provided patches for the SleutKit to add ext4 support.
-These patches were integrated by [Kevin Fairbanks](kevin_fairbanks.md) into a
+These patches were integrated by Kevin Fairbanks into a
 separate [fork of the SleuthKit](https://github.com/kfairbanks/sleuthkit/tree/Ext4_Dev).
 This fork was integrated in the 4.1.0 version.
 
@@ -127,8 +127,8 @@ be supported and SleutKit tools might incorrectly represent these
 
 # See Also
 
-* [The Sleuth Kit How-To](the_sleuth_kit_how-to.md)
-* [Bodyfile](bodyfile.md)
+* [The Sleuth Kit How-To](the_sleuth_kit_howto.md)
+* [Body file](body_file.md)
 * [tsk-cp](tsk-cp.md)
 * The mmls [OCFA treegraph API](ocfa_treegraph_api.md) example module.
 

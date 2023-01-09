@@ -10,8 +10,8 @@ tags:
 ---
 **TrueCrypt** is an open source program to create and mount virtual
 encrypted disks in [Windows Vista/XP/2000](windows.md) and
-[Linux](linux.md) and [OS X](mac_os_x.md") as well as
-[Whole Disk Encryption](whole_disk_encryption.md) on Windows. It
+[Linux](linux.md) and [OS X](mac_os_x.md) as well as
+[Full Disk Encryption](full_disk_encryption.md) on Windows. It
 provides two levels of plausible deniability (hidden values / no
 signatures to make a distinction from random data), on the fly
 encryption and supports [AES](aes.md),
@@ -44,9 +44,9 @@ user's password. You may also need an additional datafile.
 
 The only option for acquiring the content of a dismounted TrueCrypt
 drive is to do a brute-force password guessing attack.
-[AccessData's](accessdata.md) [Password Recovery
-Toolkit](password_recovery_toolkit.md) and Distributed Network
-Attack ([dna](dna.md) can both perform such an attack, but DNA
+[AccessData's](accessdata.md) Password Recovery
+Toolkit and Distributed Network
+Attack ([dna](dna.md)) can both perform such an attack, but DNA
 is faster. Another solution is
 [unprotect.info](unprotect.info.md) that can brute-force
 password to the file-based encrypted volumes.

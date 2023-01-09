@@ -4,7 +4,7 @@ tags:
 ---
 The **Open Computer Forensics Architecture** (**OCFA**) is a modular
 [computer forensics framework](computer_forensics_framework.md)
-built by the [Dutch National Police Agency](klpd.md). The main
+built by the Dutch National Police Agency. The main
 goal is to automate the digital forensic process to speed up the
 investigation and give tactical [investigators](investigator.md)
 direct access to the seized data through an easy to use search and
@@ -24,7 +24,7 @@ Modules in OCFA for reasons of fault tolerance are processes. The basic
 [OcfaLib API](ocfalib_api.md) makes it possible and relatively
 easy to build an OCFA module out of any data processing library or tool.
 OCFA comes with numerous such modules that are mostly wrappers around
-libraries like [libmagic](libmagic.md) or tools such as those
+libraries like libmagic or tools such as those
 found in the [The Sleuth Kit](the_sleuth_kit.md).
 
 The 2.2 version of OCFA (released April 2009) makes the previously

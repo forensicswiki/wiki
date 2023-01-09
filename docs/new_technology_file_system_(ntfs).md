@@ -5,12 +5,11 @@ tags:
 The **New Technology File System** (**NTFS**) is a file system developed and
 introduced by [Microsoft](microsoft.md) in 1995 with [Windows](windows.md) NT.
 As a replacement for the [FAT](fat.md) file system, it quickly became the
-standard for [Windows 2000](windows_2000.md), Windows XP and
-[Windows Server 2003](windows_server_2003.md).
+standard for Windows 2000, Windows XP and Windows Server 2003.
 
 The features of NTFS include:
 
-* [Hard-links](hard-links.md)
+* Hard-links
 * Improved performance, reliability and disk space utilization
 * Security access control lists
 * File system journaling

@@ -35,7 +35,7 @@ software independent.
 
 # Hardware Write Blockers
 
-**Hardware write blockers** can be either [IDE](ide.md)-to-IDE
+**Hardware write blockers** can be either IDE-to-IDE
 or [Firewire](firewire.md)/[USB](usb.md)-to-IDE. Simson
 prefers the IDE-to-IDE because they deal better with errors on the drive
 and make it easier to access special information that is only accessible
@@ -46,16 +46,13 @@ NIST test results are here:
 
 ## Commercial
 
-[ICS Drive Lock](ics_drive_lock.md)
-<http://www.ics-iq.com/Super-DriveLock-Write-Blocker-Write-Protector-p/f.gr-0028-0000.htm>
+[ICS Drive Lock](http://www.ics-iq.com/Super-DriveLock-Write-Blocker-Write-Protector-p/f.gr-0028-0000.htm)
 
 <!-- -->
 
-MyKey Technology, Inc. NoWrite FPU and FlashBlock II
+[MyKey Technology, Inc.](http://www.mykeytech.com/) NoWrite FPU and FlashBlock II
 1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
 types - NIST Ver. 2 accepted
-
-<http://www.mykeytech.com/>
 
 <!-- -->
 
@@ -81,8 +78,7 @@ open up the case, and speed since they do not become a bottle neck.
 
 ## Open Source
 
-[Linux software write blocker](linux_software_write_blocker.md)
-<https://github.com/msuhanov/Linux-write-blocker>
+[Linux software write blocker](linux_write_blocker.md)
 
 ## Commercial
 

@@ -1,15 +1,15 @@
 ---
 tags:
-  -  Cell Phone Tools
+  - Cell Phone Tools
 ---
 ## Features
 
-[Media:Example.ogg](media:example.ogg.md)===Modes===
+### Modes
 
 - Hyndai HWT /HWP-110/120/220
 - Hyndai HGC-310e, HGC-600e
 - LG
-- Qualcomm[Media:Example.ogg](media:example.ogg.md)
+- Qualcomm
 - Samsung SPH-A460
 - Samsung (general)
 - Samsung SCH-X127/X250/X350/…
@@ -75,4 +75,3 @@ following procedures may be followed:
 - Connect to LG cellphone on correct COM port at 115200 bits per second
 - Place LG cellphone into DM mode by typing "AT\$QCDMG"
 - Close Hyperterminal
-

@@ -110,3 +110,7 @@ Netcat to transfer data from a victim machine to a forensic machine:
 Netcat can also be used to capture network traffic. See
 [here](tcpdump.md#using-tcpdump-with-netcat) for instructions on
 how to use Netcat in conjunction with Tcpdump.
+
+## External Links
+
+* [Project page](http://netcat.sourceforge.net/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 **SMART** is a commercial forensics software package distributed by [ASR
 Data](asr_data.md).
@@ -14,7 +14,7 @@ Data](asr_data.md).
 - Lists allocated and unallocated files.
 - Sorts files by type.
 - Searches for keywords and regex.
-- [Registry viewer](registry_viewer.md).
+- Registry viewer.
 
 ## Historical Reconstruction
 
@@ -26,9 +26,9 @@ Can it build timelines and search by creation date?
 
 ## Hash Databases
 
-- [SHA](sha.md)
+- [SHA-1](sha-1.md)
 - [MD5](md5.md)
-- [CRC](crc.md)
+- CRC
 
 ## Evidence Collection Features
 
@@ -41,7 +41,3 @@ Can it build timelines and search by creation date?
 
 SMART is a commercial product with seperate pricing for law enforcement
 and commercial users.
-
-# External Links
-
-## External Reviews
