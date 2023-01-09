@@ -151,6 +151,6 @@ Other relationship files:
   by [Microsoft](microsoft.md), May 2006
 * [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/)
 * [The new XML Office Document Files: Implications For Forensics](https://simson.net/clips/academic/2009.IEEE.DOCX.pdf),
-  [Simson L. Garfinkel](simson_l._garfinkel.md) and James Migletz
+  [Simson L. Garfinkel](simson_l_garfinkel.md) and James Migletz
 * [Office 2007 Metadata](https://www.sans.org/blog/office-2007-metadata/),
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md), July 10, 2009

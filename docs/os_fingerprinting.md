@@ -50,7 +50,7 @@ Active fingerprinters:
 Passive fingerprinters:
 
 - [NetworkMiner](networkminer.md)
-- [p0f](p0f.md)
+- p0f
 
 ## See Also
 

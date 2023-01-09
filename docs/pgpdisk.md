@@ -1,13 +1,13 @@
 ---
 tags:
-  -  Disk Encryption
-  -  Anti-Forensics
-  -  Tools
-  -  Windows
+  - Anti-Forensics
+  - Disk Encryption
+  - Tools
+  - Windows
 ---
 **PGPDisk** was a disk encryption solution from the [PGP
-Corporation](http://www.pgp.com). It has since been rebranded as [PGP
-Whole Disk Encryption](pgp_whole_disk_encryption.md).
+Corporation](http://www.pgp.com). It has since been rebranded as PGP
+Whole Disk Encryption.
 
 It provides transparent whole disk encryption with Pre-Boot
 authentification for Windows. Also supports MacOS X 10.4 (non-boot disks
@@ -22,5 +22,4 @@ enterprise users and was not a backdoor
 
 ## External Links
 
-- [PGPDisk Official
-  website](http://www.pgp.com/products/wholediskencryption/)
+- [PGPDisk Official website](http://www.pgp.com/products/wholediskencryption/)

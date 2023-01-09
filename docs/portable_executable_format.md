@@ -18,17 +18,17 @@ Interface (MUI) strings and EventLog messages.
 * [Wikipedia: Portable Executable](http://en.wikipedia.org/wiki/Portable_Executable)
 * [PE and COFF Specification](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format?redirectedfrom=MSDN),
   by [Microsoft](microsoft.md)
-* [Blog about pefile](http://blog.dkbza.org/search/label/pefile), by
-  [Ero Carrera](ero_carrera.md)
+* [Blog about pefile](http://blog.dkbza.org/search/label/pefile),
+  by Ero Carrera
 * [Executable (EXE) file format](https://github.com/libyal/libexe/blob/main/documentation/Executable%20(EXE)%20file%20format.asciidoc),
   by the libexe project, October 2011
 
 ## Tools
 
 * [pefile is a Python module to read and work with PE (Portable Executable) files](https://github.com/erocarrera/pefile),
-  by [Ero Carrera](ero_carrera.md)
+  by Ero Carrera
 
 ### Resources
 
 * [Resource Hacker](http://www.angusj.com/resourcehacker/),
-  by [Angus Johnson](angus_johnson.md)
+  by Angus Johnson

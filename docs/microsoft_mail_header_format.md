@@ -1,10 +1,10 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Windows
 ---
-Microsoft Mail is a [Mail User Agent](mua.md) program included
-with all versions of [Microsoft](microsoft.md) [Windows
-Vista](windows_vista.md).
+Microsoft Mail is a Mail User Agent program included
+with all versions of [Windows Vista](windows_vista.md).
 
     Message-ID: <8A1F11BBD7D7413EAE9E2792741BC6A4@hostname>
     From: "Username" <username@sendinghost.com>

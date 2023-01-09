@@ -178,7 +178,7 @@ below.
 
 <!-- -->
 
-- 8 Mar 2008: [Dr. Simson Garfinkel](simson_l._garfinkel.md)
+- 8 Mar 2008: [Dr. Simson Garfinkel](simson_l_garfinkel.md)
   about the [Advanced Forensic Format](aff.md)
 - 16 Mar 2008: No interview
 - 31 Mar 2008: No interview

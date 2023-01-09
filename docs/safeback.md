@@ -18,10 +18,8 @@ Can it build timelines and search by creation date?
 
 - Can use basic keyword searching.
 - Offers full-text indexing.
-- If you're interested in the Internet history, one tool,
-  [GetHTML](gethtml.md), assembles HTML from data. Also
-  [NTAStealth](ntastealth.md) is a program that peruses this
-  history.
+- If you're interested in the Internet history, one tool, GetHTML, assembles
+  HTML from data. Also NTAStealth is a program that peruses this history.
 
 ## Hash Databases
 

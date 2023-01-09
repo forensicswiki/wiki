@@ -1,15 +1,14 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
-The **Portable Document Format** (**PDF**) is a document format from
-[Adobe](adobe.md) Inc. It is widely available on the web.
-Originally developed as a propriety format, version 1.7 was released as
-an open standard in 2008. The standard is published as ISO/IEC
-32000-1:2008. Although an open standard, Adobe still owns patents and
-copyrights related to the PDF standard. Adobe has granted a worldwide
-royalty-free license to produce PDF software, but only if the software
-complies with the PDF standard.
+The **Portable Document Format** (**PDF**) is a document format from Adobe Inc.
+It is widely available on the web.  Originally developed as a propriety format,
+version 1.7 was released as an open standard in 2008. The standard is published
+as ISO/IEC 32000-1:2008. Although an open standard, Adobe still owns patents
+and copyrights related to the PDF standard. Adobe has granted a worldwide
+royalty-free license to produce PDF software, but only if the software complies
+with the PDF standard.
 
 ## Format
 
@@ -50,10 +49,9 @@ The metadata (or parts of it) can be extracted with
 ## Embedded Objects
 
 The PDF standard supports embedding many types of files such as images.
-Embedded files may contain their own metadata. You can use
-[pdfimages](pdfimages.md), part of the [xpdf](xpdf.md),
-to extract all of the images out of a PDF file and put each in its own
-file.
+Embedded files may contain their own metadata. You can use pdfimages, part of
+the [xpdf](xpdf.md), to extract all of the images out of a PDF file and put
+each in its own file.
 
 ## Subformats
 

@@ -153,7 +153,7 @@ alt="Ef_imsi.png" />
 #### EF_PLMNSEL
 
 - List of all PLMN's (see
-  [Sim_Filesystem#PLMN](sim_filesystem.md#plmn)
+  [Sim_Filesystem#PLMN](sim_forensics.md#plmn)
 
 <figure>
 <img src="Plmnsel.png" title="Plmnsel.png" width="350"
@@ -176,10 +176,10 @@ alt="Plmnsel.png" />
 
 - Location Information
   - Contains Location Area Identity (see
-    [Sim_Filesystem#LAI](sim_filesystem.md#lai)
+    [Sim_Filesystem#LAI](sim_forensics.md#lai)
     - LAI Network Code (see
-      [Sim_Filesystem#PLMN](sim_filesystem.md#plmn) /
-      [Sim_Filesystem#LAI](sim_filesystem.md#lai)
+      [Sim_Filesystem#PLMN](sim_forensics.md#plmn) /
+      [Sim_Filesystem#LAI](sim_forensics.md#lai)
 
 <figure>
 <img src="Ef_loci.png" title="Ef_loci.png" width="350"

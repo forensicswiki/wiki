@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Research
+  - Research
 ---
 Interested in doing research in computer forensics? Looking for a
 master's topic, or just some ideas for a research paper? Here is our
@@ -54,9 +54,8 @@ research area.
   already does this.)
 - Figure out what information is most useful to forensic investigators,
   and how to present that information?
-- Concentrate on multimedia applications, such as [Multimedia File
-  Carver](https://github.com/rpoisel/mmc), which allows for the
-  reassembly of multimedia fragmented files.
+- Concentrate on multimedia applications, such as [Multimedia File Carver](https://github.com/rpoisel/mmc),
+  which allows for the reassembly of multimedia fragmented files.
 
 ### Correlation Engine
 
@@ -85,16 +84,14 @@ research area.
 
 ### Volume/File System analysis
 
-- Analysis of inter snapshot changes in [Windows Shadow
-  Volumes](windows_shadow_volumes.md)
+- Analysis of inter snapshot changes in [Windows Shadow Volumes](windows_shadow_volumes.md)
 - Modify SleuthKit's NTFS implementation to support NTFS encrypted files
   (EFS)
 - Extend SleuthKit's implementation of NTFS to cover Transaction NTFS
-  (TxF) (see [NTFS](ntfs.md)
+  (TxF) (see [NTFS](ntfs.md))
 - Physical layer access to flash storage (requires reverse-engineering
   proprietary APIs for flash USB and SSD storage.)
-- Add support to SleuthKit for
-  [ReFS](resilient_file_system_(refs).md).
+- Add support to SleuthKit for [ReFS](resilient_file_system_(refs).md).
 
 ## Error Rates
 
@@ -103,8 +100,7 @@ research area.
   data).
 - Quantify the error rate of different forensic tools and processes. Are
   these rates theoretical or implementation dependent? What is the
-  interaction of the error rates and the [Daubert](daubert.md)
-  standard?
+  interaction of the error rates and the Daubert standard?
 
 ## Research Areas
 
@@ -121,11 +117,5 @@ These are research areas that could easily grow into a PhD thesis.
 
 ## See Also
 
-- [Digital Forensics: Research Challenges and Open Problems, Dr. Yong
-  Guan, Iowa State University, Dec. 4,
-  2007](http://itsecurity.uiowa.edu/securityday/documents/guan.pdf)
-- [Forensic Focus: Project Ideas for Digital Forensics
-  Students](https://www.forensicfocus.com/project-ideas)
-
-__NOTOC__
-
+- [Digital Forensics: Research Challenges and Open Problems, Dr. Yong Guan, Iowa State University, Dec. 4, 2007](http://itsecurity.uiowa.edu/securityday/documents/guan.pdf)
+- [Forensic Focus: Project Ideas for Digital Forensics Students](https://www.forensicfocus.com/project-ideas)
