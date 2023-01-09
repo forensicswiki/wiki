@@ -49,7 +49,7 @@ files.
 
 ### Mobile OS
 
-[Google Android](google_android.md) and [Apple iOS](apple_ios.md) use SQLite3
+[Google Android](android.md) and [Apple iOS](ios.md) use SQLite3
 databases for many system applications. Phone data including calls, messages,
 and credentials are all stored in SQLite3.
 
@@ -67,7 +67,7 @@ and credentials are all stored in SQLite3.
 - [Carving SQLite databases from unallocated clusters](http://forensicsfromthesausagefactory.blogspot.com/2011/04/carving-sqlite-databases-from.html),
   by Richard Drinkwater, April 27, 2011
 - [Recovering Data from Deleted SQLite Records: Redux](https://linuxsleuthing.blogspot.com/2013/09/recovering-data-from-deleted-sqlite.html),
-  by [John Lehr](john_lehr.md), September 13, 2013
+  by John Lehr, September 13, 2013
 
 ## Tools
 

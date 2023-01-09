@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Volume Systems
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Volume Systems
 ---
 The [Linux](linux.md) Logical Volume Manager, is commonly
 abbreviated to LVM. Although LVM can used for other [Logical Volume
@@ -29,8 +29,7 @@ If you have an image mount the LVM read-only on a loopback device (e.g.
 Note that the offset is in bytes.
 
 If you need to write to the image, e.g. for recovery, use
-[xmount](xmount.md) to write the changes to a [shadow
-file](shadow_file.md).
+[xmount](xmount.md) to write the changes to a shadow file.
 
     sudo xmount --in dd --cache sda.shadow sda.raw image/
 
@@ -95,31 +94,25 @@ To read-only loop-back mount an individual volume:
 
 ## Also see
 
-- [File Systems](file_systems.md)
+* [File Systems](file_systems.md)
 
 ## External Links
 
-- [Wikipedia article on Logical Volume
-  Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)
-- [LVM Howto](https://tldp.org/HOWTO/LVM-HOWTO/), by [The Linux
-  Documentation Project](https://tldp.org/)
-- [LVM2 Resource Page](http://www.sourceware.org/lvm2/)
-- [The Linux Logical Volume
-  Manager](https://opensource.com), by
-  Heinz Mauelshagen and Matthew O'Keefe
-- [LVM
-  cheatsheet](http://www.datadisk.co.uk/html_docs/redhat/rh_lvm.htm), by
-  [RedHat](redhat.md)
-- [Unix/Linux Administration Logical Volume Management
-  Guide](http://content.hccfl.edu/pollock/aunix1/lvm.htm), by Wayne
-  Pollock, 2005
-- [LVM2 – data
-  recovery](http://lvb.sti.fce.vutbr.cz/public/LinuxAlt_2009/2009_11_08_LA_04_LVM/2009_11_08_LA_04_LVM.pdf),
+* [Wikipedia article on Logical Volume Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)
+* [LVM Howto](https://tldp.org/HOWTO/LVM-HOWTO/),
+  by [The Linux Documentation Project](https://tldp.org/)
+* [LVM2 Resource Page](http://www.sourceware.org/lvm2/)
+* [The Linux Logical Volume Manager](https://opensource.com),
+  by Heinz Mauelshagen and Matthew O'Keefe
+* [LVM cheatsheet](http://www.datadisk.co.uk/html_docs/redhat/rh_lvm.htm),
+  by RedHat
+* [Unix/Linux Administration Logical Volume Management Guide](http://content.hccfl.edu/pollock/aunix1/lvm.htm),
+  by Wayne Pollock, 2005
+* [LVM2 – data recovery](http://lvb.sti.fce.vutbr.cz/public/LinuxAlt_2009/2009_11_08_LA_04_LVM/2009_11_08_LA_04_LVM.pdf),
   by Milan Brož, LinuxAlt 2009
-- [Logical Volume Manager ‐ Software
-  RAID](http://forensic-proof.com/wp-content/uploads/2010/03/FP_Logical_Volume_Manager.pdf),
+* [Logical Volume Manager ‐ Software RAID](http://forensic-proof.com/wp-content/uploads/2010/03/FP_Logical_Volume_Manager.pdf),
   by Proneer, March 30, 2010
 
 ## Tools
 
-- [libvslvm](libvslvm.md)
+* [libvslvm](libvslvm.md)

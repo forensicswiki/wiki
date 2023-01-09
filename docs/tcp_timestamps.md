@@ -1,22 +1,21 @@
 ---
 tags:
-  -  Network Forensics
-  -  Tools
-  -  FreeBSD
-  -  Linux
-  -  Windows
-  -  Solaris
-  -  NetBSD
+  - FreeBSD
+  - Linux
+  - NetBSD
+  - Network Forensics
+  - Solaris
+  - Tools
+  - Windows
 ---
 **TCP timestamps** are used to provide protection against wrapped
 sequence numbers. It is possible to calculate system uptime (and boot
 time) by analyzing TCP timestamps (see below).
 
 These calculated uptimes (and boot times) can help in detecting hidden
-network-enabled operating systems (see
-[TrueCrypt](truecrypt.md), linking spoofed [IP](ip.md)
-and [MAC](mac.md) addresses together, linking
-[IP](ip.md) addresses with Ad-Hoc wireless APs, etc.
+network-enabled operating systems (see [TrueCrypt](truecrypt.md), linking
+spoofed IP and MAC addresses together, linking IP addresses with Ad-Hoc
+wireless APs, etc.
 
 ## Supported Operating Systems
 
@@ -52,4 +51,3 @@ Following tools can automate this process:
 
 - [RFC 1323](http://rfc.net/rfc1323.html)
 - <https://uptime.netcraft.com/>
-

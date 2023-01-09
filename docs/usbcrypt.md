@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Encryption
-  -  Windows
-  -  Tools
-  -  Disk Encryption
+  - Encryption
+  - Windows
+  - Tools
+  - Disk Encryption
 ---
 **USBCrypt** is a commercial (closed source) software intended primarily
 to encrypt external USB drives. (However, the encryption is not limited
@@ -12,23 +12,21 @@ recognized by Windows as a valid drive with read-write access can be
 encrypted with USBCrypt.) USBCrypt software is [Windows 7, Vista, XP,
 2000](windows.md)-only. It supports [AES](aes.md), and
 [Twofish](twofish.md) encryption with the 128- and 256-bit keys,
-in the [XTS](xts.md) and [CBC](cbc.md) encryption modes.
+in the XTS and CBC encryption modes.
 
 ## Recognizing drives encrypted with USBCrypt
 
-USBCrypt encrypts drives by creating the file-based Virtual Encrypted
-Disks on them. In addition to one or more files that contain the
-encrypted data, USBCrypt also puts a portable software on the drive, to
-enable its use on other computers. While the encrypted data files
-contain no identifying information (and thus support [plausible
-deniability](plausible_deniability.md), the presence of other
-supporting files makes it easy to identify the drives encrypted with
-USBCrypt: the root folder of the encrypted drive contains the file
-USBCrypt.exe as well as a folder named USBCrypt-system. The latter
-contains the encrypted data files as well as USBCrypt software files
-(DLL and SYS). The file USBCrypt.ini is a text-only file that contains
-settings as well as license information (including the name of the
-person or business who has purchased the software).
+USBCrypt encrypts drives by creating the file-based Virtual Encrypted Disks on
+them. In addition to one or more files that contain the encrypted data,
+USBCrypt also puts a portable software on the drive, to enable its use on other
+computers. While the encrypted data files contain no identifying information
+(and thus support plausible deniability, the presence of other supporting files
+makes it easy to identify the drives encrypted with USBCrypt: the root folder
+of the encrypted drive contains the file USBCrypt.exe as well as a folder named
+USBCrypt-system. The latter contains the encrypted data files as well as
+USBCrypt software files (DLL and SYS). The file USBCrypt.ini is a text-only
+file that contains settings as well as license information (including the name
+of the person or business who has purchased the software).
 
 ## Spare-key file
 
