@@ -3,7 +3,7 @@ tags:
   - Email Analysis
 ---
 **Email Headers** are lines of [metadata](metadata.md) attached to each
-[email](email.md) that contain lots of useful information for a forensic
+email that contain lots of useful information for a forensic
 investigator. However, email headers can be easily forged, so they should never
 be used as the only source of information.
 

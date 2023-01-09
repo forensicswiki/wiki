@@ -58,7 +58,7 @@ The leading similarity systems in use are are:
 
 The leading text similarity system is:
 
-- [sdtext](sdtext.md), developed by Clay Sheilds.
+- sdtext, developed by Clay Sheilds.
 
 ## Similarity Bibliography
 

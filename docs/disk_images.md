@@ -27,7 +27,7 @@ Forensics File Formats
 ## Virtualization Disk Image formats
 
 * [Open Virtualization Format (ovf)](open_virtualization_format_(ovf).md)
-* [Parallels Virtual Hard Disk Format](parallels_virtual_hard_disk_format.md)
+* [Parallels Virtual Hard Disk Format](https://github.com/libyal/libphdi/blob/main/documentation/Parallels%20Hard%20Disk%20image%20format.asciidoc)
 * [QCOW Image Format](qcow_image_format.md)
 * [Virtual Disk Image (vdi)](virtual_disk_image_(vdi).md)
 * [Virtual Hard Disk (vhd)](virtual_hard_disk_(vhd).md)
@@ -40,8 +40,8 @@ build-in, some of which are:
 
 * read-write disk image (.dmg): [raw](raw_image_format.md),
   [UDIF](http://newosxbook.com/DMG.html), NDIF
-* [Sparse disk image (.spareimage)](sparse_image_format.md)
-* [Sparse bundle disk image (.sparsebundle)](sparse_bundle_image_format.md)
+* [Sparse disk image (.spareimage)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc#3-sparse-disk-image-sparseimage-format)
+* [Sparse bundle disk image (.sparsebundle)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc#4-sparse-bundle-disk-image-sparsebundle-format)
 
 [Windows](windows.md)
 

@@ -17,11 +17,8 @@ Lion](mac_os_x.md).
 
 ## External Links
 
-- [Infiltrate the Vault: Security Analysis and Decryption of Lion Full
-  Disk Encryption](http://eprint.iacr.org/2012/374.pdf), by [Omar
-  Choudary](omar_choudary.md), [Felix
-  Grobert](felix_grobert.md), [Joachim
-  Metz](joachim_metz.md), July 2012
+- [Infiltrate the Vault: Security Analysis and Decryption of Lion Full Disk Encryption](http://eprint.iacr.org/2012/374.pdf),
+  by Omar Choudary, Felix Grobert, [Joachim Metz](joachim_metz.md), July 2012
 
 ## Tools
 

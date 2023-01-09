@@ -1,8 +1,9 @@
 ---
 tags:
-  - No Category
+  - Open Source Software
+  - Tools
 ---
-CarvFs is a modular [Fuse](fuse.md) based user space file system
+CarvFs is a modular Fuse based user space file system
 on top of [LibCarvPath](libcarvpath.md). CarvFS makes CarvPath
 style annotations as used by LibCarvPath available as files. Using
 CarvFs makes it possible to process carved entities using [zero storage

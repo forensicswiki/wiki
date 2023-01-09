@@ -112,7 +112,7 @@ rare since the non-encrypted data is what undergoes analysis.
 ## External Links
 
 * [Benchmarking Hard Disk Duplication Performance in Forensic Applications](http://www.tableau.com/pdf/en/Tableau_Forensic_Disk_Perf.pdf),
-  by [Robert Botchek](robert_botchek.md)
+  by Robert Botchek
 * [Feeling odd - Using new OS and CPU features to speed up large file copying](http://stealth.openwall.net/papers/odd.pdf),
   by Sebastian Krahmer, June 2012
 

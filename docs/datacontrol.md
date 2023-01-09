@@ -7,7 +7,7 @@ tags:
   -  Open Source Software
   -  Articles that need to be expanded
 ---
-**DataControl** by [BitArmor](bitarmor.md) provides integrated
+**DataControl** by BitArmor provides integrated
 and transparent file and folder encryption. The protection can be
 extended to both fixed and removable media, including the boot disk.
 Users can be required to authenticate either before or after booting to
@@ -16,6 +16,4 @@ access the protected data. The tool uses 128, 192, or 256-bit
 
 ## External Links
 
-- [Official web
-  site](http://www.bitarmor.com/datacontrol/diskencryption)
-
+- [Official web site](http://www.bitarmor.com/datacontrol/diskencryption)

@@ -2,9 +2,8 @@
 tags:
   - No Category
 ---
-[Mozilla Thunderbird](mozilla_thunderbird.md) version 1.0
-running on [Microsoft Windows](windows.md) generates
-[headers](email_headers.md) in the following format:
+Mozilla Thunderbird version 1.0 running on [Microsoft Windows](windows.md)
+generates [headers](email_headers.md) in the following format:
 
     Message-ID: <41B5F981.5040504@sendinghost.com>
     Date: Tue, 07 Dec 2004 13:42:09 -0500

@@ -8,7 +8,7 @@ tags:
 device-layer disk encryption that uses 128-bit [AES](aes.md) designed and
 implemented by Poul-Henning Kamp and Network Associates Inc.
 
-A more efficient implementation of [FreeBSD](freebsd.md) [GEOM](geom.md) based
+A more efficient implementation of [FreeBSD](freebsd.md) GEOM based
 Disk Encryption. [GELI](geli.md) was later written later by Pawel Jakub Dawidek.
 
 ## External Links
