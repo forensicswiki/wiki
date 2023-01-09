@@ -122,6 +122,6 @@ The currently supported output modules (as of version 0.51 nightly build
   December 7, 2011, by Rob Lee
 * [Blog posts about the tool](http://blog.kiddaland.net/?s=log2timeline)
 * [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/)
-  August 13, 2009, by Kristinn Guðjónsson
+  August 13, 2009, by [Kristinn Guðjónsson](kristinn_gudjonsson.md)
 * [Artifact Timeline Creation and Analysis - part 2](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2/)
-  August 14, 2009, by Kristinn Guðjónsson
+  August 14, 2009, by [Kristinn Guðjónsson](kristinn_gudjonsson.md)

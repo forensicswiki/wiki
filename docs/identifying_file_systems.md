@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Systems
+  - File Systems
 ---
 There are many ways to identify a file system inside a partition.
 
@@ -10,9 +10,9 @@ ID from the partition table.
 There are several tools that can identify the partition from the data it
 contains, including:
 
-- [blkid](blkid.md)
+- blkid
 - [file](file.md)
-- [parted](parted.md)
+- parted
 - [testdisk](testdisk.md)
 
 In general you should not rely on the partition record for determining

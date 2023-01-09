@@ -7,11 +7,11 @@ tags:
 digital forensic products. Their [EnCase](encase.md) suite of
 products include:
 
-* [EnCase Forensic](encase_forensic.md)
-* [EnCase Portable](encase_portable.md)
-* [EnCase Enterprise](encase_enterprise.md)
-* [EnCase eDiscovery](encase_ediscovery.md)
-* [EnCase Cybersecurity](encase_cybersecurity.md)
+* EnCase Forensic
+* EnCase Portable
+* EnCase Enterprise
+* EnCase eDiscovery
+* EnCase Cybersecurity
 
 ## External Links
 

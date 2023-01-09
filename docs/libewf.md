@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Libyal
-  -  Disk Imaging
-  -  Tools
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  Open Source Software
+  - Libyal
+  - Disk Imaging
+  - Tools
+  - Linux
+  - Windows
+  - MacOS
+  - Open Source Software
 ---
 **Libewf** is a library to access the [Expert Witness Compression Format (ewf)](encase_image_file_format.md).
 
@@ -48,8 +48,7 @@ The **libewf** package contains the following tools:
 The **libewf** package also contains the following bindings:
 
 - **ewf.net**, bindings for .Net
-- **pyewf**, bindings for Python contributed by [David
-  Collett](david_collett.md) in 2008
+- **pyewf**, bindings for Python contributed by David Collett in 2008
 
 ### Contributions
 
@@ -57,13 +56,12 @@ Tools that have been contributed to the project are provided as separate
 tools on the sourceforge libewf project site. These are:
 
 - **mount_ewf.py**, which allows the storage media data in a EWF files
-  to be mounted, contributed by [David
-  Loveall](david_loveall.md) in 2007.
+  to be mounted, contributed by David Loveall in 2007.
 - **libewf-java**, Java (JNA) bindings were contributed by [Bradley
   Schatz](bradley_schatz.md) in 2009.
 - **delphi imdisk proxy**, Borland Delphi imdisk proxy, as an
-  alternative to mount_ewf.py for Windows, contributed by [Brendan
-  Berney](brendan_berney.md) in 2010. In 2014 this was updated
+  alternative to mount_ewf.py for Windows, contributed by Brendan
+  Berney in 2010. In 2014 this was updated
   by Erwan L and is currently maintained as a separate project
   [here](http://labalec.fr/erwan/?p=1235).
 - **jlibewf**, native Java EWF reader contributed by [Bruce
@@ -71,14 +69,12 @@ tools on the sourceforge libewf project site. These are:
 - **libewfcs**, native C# EWF reader contributed by [Bruce
   Allen](bruce_allen.md) in 2011.
 
-A menu based interface for ewfacquirestream called pyEWF, contributed by
-[Dennis Schreiber](dennis_schreiber.md), was originally also
-available on the uitwisselplatform project site. However this is
-currently no longer maintained and was not moved to the sourceforge
-project size. The uitwisselplatform no longer exists. The name pyewf was
-reused for the libewf Python bindings created by [David
-Collett](david_collett.md) which is now included in the libewf
-package.
+A menu based interface for ewfacquirestream called pyEWF, contributed by Dennis
+Schreiber, was originally also available on the uitwisselplatform project site.
+However this is currently no longer maintained and was not moved to the
+sourceforge project size. The uitwisselplatform no longer exists. The name
+pyewf was reused for the libewf Python bindings created by David Collett which
+is now included in the libewf package.
 
 ### Examples
 
@@ -151,17 +147,17 @@ while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
 
 Libewf is a rewrite of earlier work on the EnCase 4 file format by
 [Michael Cohen](michael_cohen.md) part of
-[PyFlag](pyflag.md) and the [Expert Witness Compression
-Format](:file:asr_data's_expert_witness_compression_format.pdf.md)
-Specification by [Andrew Rosen](andrew_rosen.md). It has been
+[PyFlag](pyflag.md) and the [ASR Data's Expert Witness Compression
+Format](encase_image_file_format.md)
+Specification by Andrew Rosen. It has been
 updated to read and write EnCase version 1 to 7 .E01 files, EnCase 5 to
 7 .L01 files, EnCase 7 .Ex01 and .Lx01 files and SMART .s01 files.
 Libewf has initiated an Extended EWF (EWF-X) specifications to bypass
 limitations on the format imposed by the EnCase .E01 format.
 
-In 2007 [David Loveall](david_loveall.md) contributed
+In 2007 David Loveall contributed
 mount_ewf.py to the libewf project. This application allows a
-[fuse](fuse.md) based mount of the storage media data in the EWF
+fuse based mount of the storage media data in the EWF
 files to be mounted. Due to repeated issues with Python and the fuse
 Python-bindings on [Mac OS X](mac_os_x.md) part of the
 functionality of these scripts has been rewritten into **ewfmount**.
@@ -171,12 +167,8 @@ added.
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libewf/)
-- [Building libewf and tools from
-  source](https://github.com/libyal/libewf/wiki/Building)
-- [Mounting a set of EWF
-  file(s)](https://github.com/libyal/libewf/wiki/Mounting)
+- [Project site](https://github.com/libyal/libewf/) -
+  [Building libewf and tools from source](https://github.com/libyal/libewf/wiki/Building)
+- [Mounting a set of EWF file(s)](https://github.com/libyal/libewf/wiki/Mounting)
 - [Old project site](http://libewf.sourceforge.net)
-- [Build a dynamic Libewf dll, using MinGW or Borland C++
-  5.5](https://www.isobuster.com/tips/build_libewf_dll_for_isobuster)
-
+- [Build a dynamic Libewf dll, using MinGW or Borland C++ 5.5](https://www.isobuster.com/tips/build_libewf_dll_for_isobuster)

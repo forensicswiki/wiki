@@ -6,8 +6,9 @@ tags:
   - MacOS
   - Tools
   - Windows
+  - Open Source Software
 ---
-**libexif** is an [open source](open_source.md) library for reading and editing
+**libexif** is an open source library for reading and editing
 [Exif](exif.md) metadata, commonly found in digital pictures. It is written in
 C and released under the LGPL. The library runs under GNU/Linux, BSD, MacOS,
 and Windows. The library is developed by the "libexif project." The project

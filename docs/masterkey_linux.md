@@ -27,15 +27,15 @@ forensic bit images.
 The Autopsy Forensic Browser is a graphical interface to the command
 line digital investigation tools in The Sleuth Kit.
 
-- **[ClamAV](clamav.md)** for Unix 0.91.2
+- **ClamAV** for Unix 0.91.2
 
 Clam AntiVirus is an anti-virus toolkit for UNIX
 
-- **[chkrootkit](chkrootkit.md)** 0.47
+- **chkrootkit** 0.47
 
 chkrootkit is a tool to locally check for signs of a rootkit.
 
-- **[chntpw](chntpw.md)** 070923
+- **chntpw** 070923
 
 chntpw is an Offline password and Registry Editor
 
@@ -49,7 +49,7 @@ distribution) with features useful for forensics and security
 dd_rescue copies data from one file or block device to another. It is
 intended for error recovery.
 
-- **[GParted](gparted.md)** 0.3.3
+- **GParted** 0.3.3
 
 GParted is the Gnome Partition Editor application
 
@@ -58,7 +58,7 @@ GParted is the Gnome Partition Editor application
 Foremost is a console program to recover files based on their headers,
 footers, and internal data structures. It is a data carving tool.
 
-- **[mac-robber](mac-robber.md)** 1.00
+- **mac-robber** 1.00
 
 mac-robber is a digital investigation tool that collects data from
 allocated files in a mounted file system.
@@ -69,11 +69,11 @@ md5deep is a cross-platform set of programs to compute MD5, SHA-1,
 SHA-256, Tiger, or Whirlpool message digests on an arbitrary number of
 files.
 
-- **[memdump](memdump.md)** 1.01
+- **memdump** 1.01
 
 memory dumper for UNIX-like systems
 
-- **[Rootkit Hunter](rootkit_hunter.md)** 1.3.0
+- **Rootkit Hunter** 1.3.0
 
 Rootkit Hunter is a rootkit scanner.
 
@@ -88,7 +88,7 @@ device files.
 The Sleuth Kit (previously known as TASK) is a collection of UNIX-based
 command line file and volume system forensic analysis tools.
 
-- **[Stegdetect](stegdetect.md)** 0.6-4
+- **Stegdetect** 0.6-4
 
 Stegdetect is an automated tool for detecting steganographic content in
 images.

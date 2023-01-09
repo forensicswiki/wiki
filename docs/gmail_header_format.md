@@ -2,8 +2,7 @@
 tags:
   - No Category
 ---
-Because [Gmail](gmail.md) is a [web based
-application](web_based_application.md) and can be changed at any
+Because Gmail is a web based application and can be changed at any
 time, the information in this article may not reflect the current state
 of Gmail headers. In general Gmail headers have a [DomainKeys Identified
 Mail](domainkeys_identified_mail.md) signature line that

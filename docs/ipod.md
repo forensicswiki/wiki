@@ -16,18 +16,18 @@ storage](data_storage.md) device when connected to a
 
 ## Software Capabilities
 
-The iPod can play [MP3](mp3.md), [WAV](wav.md), [M4A/AAC
-LC](m4a/aac_lc.md), [Protected AAC](protected_aac.md),
-[AIFF](aiff.md), Audible audiobook and Apple Lossless audio file
+The iPod can play [MP3](mp3.md), WAV, M4A/AAC
+LC, Protected AAC,
+AIFF, Audible audiobook and Apple Lossless audio file
 formats. The fifth-generation iPod can also play .m4v and .mp4
-[MPEG-4](mpeg-4.md) video file
+MPEG-4 video file
 formats. The [Microsoft Windows](microsoft_windows.md) version
-of [iTunes](itunes.md) can transcode regular non copy-protected
-[WMA](wma.md) files to an iPod supported format. WMA files with
+of iTunes can transcode regular non copy-protected
+WMA files to an iPod supported format. WMA files with
 copy protection cannot be played in iTunes or be copied to an iPod.
 Reviewers have criticized the iPod's inability to play some other
-formats, in particular the [Ogg Vorbis](ogg_vorbis.md) and
-[FLAC](flac.md) formats. [MIDI](midi.md) files cannot be
+formats, in particular the Ogg Vorbis and
+FLAC formats. MIDI files cannot be
 played on iPods, but can be converted into a compatible audio file
 format by choosing the "advanced" menu on iTunes.
 
@@ -46,8 +46,8 @@ programs that circumvent Apple's protection.
 In addition to playing music and storing files, the iPod has limited
 PDA functionality. Since January 2003, Mac users have
 been able to synchronize their contacts and schedules Address Book and
-[iCal](ical.md) to their iPods through
-[iSync](isync.md). With the 2005 release of iTunes 5.0, Apple
+iCal to their iPods through
+iSync. With the 2005 release of iTunes 5.0, Apple
 integrated contact/schedule syncing into iTunes and added the ability
 for Windows users to synchronize their contacts and schedules from
 [Microsoft Outlook](microsoft_outlook.md) and Outlook

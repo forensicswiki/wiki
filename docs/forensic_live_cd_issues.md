@@ -152,7 +152,7 @@ searching for available block devices (*/dev/?d?* instead of
 ### Incorrect write blocking approach
 
 Some forensic Linux Live CD distributions rely on
-[hdparm](hdparm.md) and [blockdev](blockdev.md) programs
+hdparm and blockdev programs
 to mount file systems in read-only mode (by setting the underlying block
 device to read-only mode). Unfortunately, setting a block device to
 read-only mode does not guarantee that [no write commands will be passed
@@ -167,8 +167,8 @@ userspace, while kernel and its modules still can write anything to the
 block device, regardless of the read-only mode).
 
 Analysis of the source code for the "write blocking" functionality
-utilized by [hdparm](hdparm.md) and
-[blockdev](blockdev.md) demonstrates that these tools use the
+utilized by hdparm and
+blockdev demonstrates that these tools use the
 same system call to alter a kernel flag which is checked in the file
 system layer. This flag (when set) disables generic write operations on
 a file within a file system and many internal write operations of the
