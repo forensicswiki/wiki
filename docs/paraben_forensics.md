@@ -12,4 +12,4 @@ drives and portable devices like [cell phones](cell_phones.md) and
 
 ## External Links
 
-* [Official website](http://www.paraben.com/)
+* [Official website](https://paraben.com/)

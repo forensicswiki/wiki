@@ -15,7 +15,7 @@ etc, etc.
 
 ## Blog
 
-[integriography.wordpress.com](http://integriography.wordpress.com)
+[integriography.wordpress.com](https://integriography.wordpress.com/)
 
 ## Tools
 

@@ -30,8 +30,8 @@ Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
 
 - X-Ways Forensics [3](http://www.x-ways.net),
-- AccessData FTK Imager [4](http://www.accessdata.com),
-- Guidance Software Encase [5](http://www.guidancesoftware.com),
+- AccessData FTK Imager [4](https://www.exterro.com),
+- Guidance Software Encase [5](https://www.opentext.com/products/security-cloud),
 - ProDiscover [6](http://www.techpathways.net),
 - RegRipper [7](https://regripper.wordpress.com/).
 

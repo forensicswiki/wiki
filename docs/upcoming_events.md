@@ -61,7 +61,7 @@ conferences that would be appropriate for forensic research.
 | 2017 International Conference on Audio Forensics                    | Feb 01, 2017            | Mar 07, 2017      | <https://www.aes.org/conferences/2017/forensics/downloads/2017forensicsCallForContributions.pdf> |
 | The 3rd IEEE International Workshop on Cloud Security and Forensics | May 03, 2017 (extended) | May 24, 2017      | <https://www.forensicsandsecurity.com/workshop.php>                                             |
 |                                                                     |                         |                   |                                                                                                 |
-| 2017 IEEE Workshop on Information Forensics and Security            | Jun 19, 2017            | Sep 18, 2017      | <http://www.wifs2017.org/>                                                                      |
+| 2017 IEEE Workshop on Information Forensics and Security            | Jun 19, 2017            | Sep 18, 2017      | <https://project.inria.fr/wifs2017/>                                                                      |
 |                                                                     |                         |                   |                                                                                                 |
 
 See also [WikiCFP
@@ -163,7 +163,7 @@ href="https://www.usenix.org/conferences">https://www.usenix.org/conferences</a>
 <td><p>Dec 4-7<br />
 Rennes, France</p></td>
 <td><p><a
-href="http://www.wifs2017.org/">http://www.wifs2017.org/</a></p></td>
+href="https://project.inria.fr/wifs2017/">http://www.wifs2017.org/</a></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -183,6 +183,6 @@ href="http://www.wifs2017.org/">http://www.wifs2017.org/</a></p></td>
 - [Computer Security Conference Ranking and
   Statistic](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm)
 - [Meetings and Conferences in Data Mining and
-  Discovery](https://www.kdnuggets.com/meetings/)
+  Discovery](https://www.kdnuggets.com/meetings/index.html)
 - <https://conferencealerts.com/topic-listing?topic=Data%20Mining> Data Mining Conferences
   World-Wide\]

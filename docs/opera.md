@@ -69,7 +69,7 @@ On Windows Vista, 7
 ## External Links
 
 - [Official website](https://www.opera.com:443/)
-- [Opera: Files used by Opera](https://www.opera.com:443/docs/operafiles/)
+- [Opera: Files used by Opera](https://help.opera.com/en/latest/)
 - [Opera MBS Viewer](https://www.freeviewer.org/mbs/)
 - [Opera
   Forensics](https://www.mailxaminer.com/blog/opera-mailbox-forensics/)

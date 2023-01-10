@@ -5,7 +5,7 @@ tags:
 SuperFetch, is a memory management scheme that enhances the
 least-recently accessed approach with historical information and
 proactive memory management.
-[1](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx)
+[1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN)
 
 <b>Note that the following format specification are incomplete.</b>
 

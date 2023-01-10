@@ -51,7 +51,7 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 `doi = {`[`http://dx.doi.org/10.1109/ACSAC.2006.35`](http://dx.doi.org/10.1109/ACSAC.2006.35)`},`
 `publisher = {IEEE Computer Society},`
 `address = {Washington, DC, USA},`
-` url="`[`https://www.acsac.org/2006/papers/74.pdf`](http://www.acsac.org/2006/papers/74.pdf)`"`
+` url="`[`https://www.acsac.org/2006/papers/74.pdf`](https://www.acsac.org/2006/papers/74.pdf)`"`
 `}`
 
 </bibtex>

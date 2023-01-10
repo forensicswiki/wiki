@@ -15,4 +15,4 @@ products include:
 
 ## External Links
 
-* [Official Website](http://www.guidancesoftware.com/)
+* [Official Website](https://www.opentext.com/products/security-cloud)

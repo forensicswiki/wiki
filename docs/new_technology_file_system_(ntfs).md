@@ -153,7 +153,7 @@ TxF uses the [Common Log File System
   Free tool that can be run on Windows, Linux or Mac OS-X
 * [Graphic Engine for NTFS Analysis (gena)](http://www.tzworks.net/prototype_page.php?proto_id=28)
   (GUI to view NTFS internals/extract data on live systems)
-* [Linux-ntfs Documentation](https://sourceforge.net/projects/linux-ntfs/files/NTFS%20Documentation/)
+* [Linux-ntfs Documentation](https://sourceforge.net/directory/file-systems/)
   Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
 * [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
 * [Distributed Link Tracking and Object Identifiers](http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx)

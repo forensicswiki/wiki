@@ -26,7 +26,7 @@ Inquire at <http://www.windowsscope.com>.
 <!-- -->
 
 Tribble PCI Card (research project)
-<http://www.digital-evidence.org/papers/tribble-preprint.pdf>
+<https://digital-evidence.org/papers/tribble-preprint.pdf>
 
 <!-- -->
 
@@ -109,13 +109,13 @@ included on [Helix 2.0](http://www.e-fense.com/helix/)
 
 <!-- -->
 
-MANDIANT [Memoryze](http://www.mandiant.com/software/memoryze.htm)
+MANDIANT [Memoryze](https://www.mandiant.com)
 Can capture and analyze memory. Supports reading dumps (raw/dd format)
 from other tools.
 
 <!-- -->
 
-Moonsols: [DumpIt](http://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7)
+Moonsols: [DumpIt](https://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7)
 This utility is used to generate a physical memory dump of Windows
 machines. It works with both x86 (32-bits) and x64 (64-bits) machines.
 
@@ -134,7 +134,7 @@ systems.
 
 <!-- -->
 
-[OSForensics](http://www.osforensics.com/)
+[OSForensics](https://www.osforensics.com/)
 
 OSForensics can acquire live memory on 32bit and 64bit systems. A dump
 of an individual process's memory space or physical memory dump can be
@@ -154,7 +154,7 @@ Preview to analyse a live windows system for live response and triaging.
 
 ### Linux
 
-[LiME](http://code.google.com/p/lime-forensics/)
+[LiME](https://github.com/504ensicslabs/lime)
 Linux Memory Extractor (LiME) is a Loadable Kernel Module (LKM), which
 allows the acquisition of volatile memory from Linux and Linux-based
 devices, such as those powered by Android. The tool supports dumping
@@ -186,9 +186,9 @@ full physical memory of a system. On other systems it may not be
 available at all. Throughout the 2.6 series of the Linux kernel, the
 trend was to reduce direct access to memory via pseudo-device files.
 See, for example, the message accompanying this patch:
-<http://lwn.net/Articles/267427/>.
+<https://lwn.net/Articles/267427/>.
 
-[Second Look: Linux Memory Forensics](http://secondlookforensics.com)
+[Second Look: Linux Memory Forensics](https://secondlookforensics.com/)
 This commercial memory forensics product ships with a modified version
 of the crash driver and a script for safely dumping memory using the
 original or modified driver on any given Linux system.

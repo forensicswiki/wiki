@@ -13,7 +13,7 @@ although some shows do not have any. The hosts also discuss current
 issues in the field and give links to new or interesting websites. A
 set of detailed show notes are usually posted to a separate website,
 although the link is given on the [show's official
-website](http://cyberspeak.libsyn.com/).
+website](https://cyberspeak.libsyn.com/).
 
 ## See Also
 
@@ -22,6 +22,6 @@ Interviews](list_of_cyberspeak_podcast_interviews.md)
 
 ## External Links
 
-- [Official CyberSpeak Website](http://cyberspeak.libsyn.com/)
+- [Official CyberSpeak Website](https://cyberspeak.libsyn.com/)
 - <https://www.facebook.com/people/CyberSpeak/100070321485277/> CyberSpeak
   Facebook Page

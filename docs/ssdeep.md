@@ -12,7 +12,7 @@ tags:
 ssdeep is a program for computing and matching [Context Triggered
 Piecewise Hashing](context_triggered_piecewise_hashing.md)
 values. It is based on a spam detector called
-[spamsum](http://samba.org/ftp/unpacked/junkcode/spamsum/) by [Andrews
+[spamsum](https://www.samba.org/ftp/unpacked/junkcode/spamsum/) by [Andrews
 Trigdell](https://en.wikipedia.org/wiki/Andrew_Tridgell).
 
 ## File Format

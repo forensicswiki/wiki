@@ -26,7 +26,7 @@ There are multiple format variations of plists:
 * [binplist](binplist.md)
 * [Python Module for dealing with Binary Property Lists (bplists)](https://code.google.com/archive/p/ccl-bplist)
 * [libplist](https://github.com/JonathanBeck/libplist)
-* [munki - Managed software installation for OS X](http://code.google.com/p/munki/)
+* [munki - Managed software installation for OS X](https://code.google.com/archive/p/munki)
   comes with code to handle binary plists
 * [Oxygen Forensic Plist Viewer](oxygen_forensic_plist_viewer.md)
 * [plutil.pl](http://scw.us/iPhone/plutil/)

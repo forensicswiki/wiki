@@ -113,4 +113,4 @@ how to use Netcat in conjunction with Tcpdump.
 
 ## External Links
 
-* [Project page](http://netcat.sourceforge.net/)
+* [Project page](https://netcat.sourceforge.net/)

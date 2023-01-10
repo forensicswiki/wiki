@@ -34,7 +34,7 @@ device before you started the process.*
 
 The process of using TWRP is as follows:
 
-`* Download the newest version of Odin from `[`https://odindownload.com/`](http://odindownload.com/)`.`
+`* Download the newest version of Odin from `[`https://odindownload.com/`](https://odindownload.com/)`.`
 `* Download a TWRP recovery image in .tar format from `[`http://teamw.in/Devices/`](http://teamw.in/Devices/)`. They are specific to your device.`
 `* Remove any removable media as TWRP could install to an SD card if one is inserted.`
 `* Place the phone in download mode (varies per phone - commonly Vol Down+Home+Power.`
@@ -111,7 +111,7 @@ range of phones.
 Restart the phone in the regular boot mode, and see if it will boot past
 the loop. If not, you will have to flash a stock image to the phone.
 
-`* Download a stock ROM image for the phone. `[`https://www.sammobile.com/`](http://www.sammobile.com)` provides firmware images for every kind of Samsung phone, Android version, and even cell carrier. `
+`* Download a stock ROM image for the phone. `[`https://www.sammobile.com/`](https://www.sammobile.com/)` provides firmware images for every kind of Samsung phone, Android version, and even cell carrier. `
 `* Put the phone back into download mode and connect to your computer.`
 `* Use ODIN to push the ROM to the phone using the same process as TWRP. Enable Auto Reboot. This process will take a significantly longer time as a ROM is around 1 GB depending on the OS.`
 

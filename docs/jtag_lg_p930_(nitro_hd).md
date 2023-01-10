@@ -170,4 +170,4 @@ particular phone.
 
 ## References
 
-* <http://forensics.spreitzenbarth.de/2012/02/>
+* <https://forensics.spreitzenbarth.de/2012/02/>

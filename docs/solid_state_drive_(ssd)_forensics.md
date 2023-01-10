@@ -88,8 +88,8 @@ drive, with the following features:
 `location = {Sierre, Switzerland},`
 `pages = {1579--1583},`
 `numpages = {5},`
-`url = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](http://doi.acm.org/10.1145/1774088.1774426)`},`
+`url = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](https://dl.acm.org/doi/10.1145/1774088.1774426)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1774088.1774426`](https://dl.acm.org/doi/10.1145/1774088.1774426)`},`
 `acmid = {1774426},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
@@ -118,7 +118,7 @@ drive, with the following features:
 `pages = {19:1--19:6},`
 `articleno = {19},`
 `numpages = {6},`
-`url = {`[`https://dl.acm.org/doi/10.5555/1363217.1363243`](http://portal.acm.org/citation.cfm?id=1363217.1363243)`},`
+`url = {`[`https://dl.acm.org/doi/10.5555/1363217.1363243`](https://dl.acm.org/doi/10.5555/1363217.1363243)`},`
 `acmid = {1363243},`
 `publisher = {ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering)},`
 `address = {ICST, Brussels, Belgium, Belgium},`

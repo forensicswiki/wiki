@@ -30,7 +30,7 @@ size of the integer is operating system dependent.</b>
 
 When reading primitive data types from a byte stream the endianness
 specifies how the least and most significant parts of the data are
-stored [3](http://en.wikipedia.org/wiki/Endianness).
+stored [3](https://en.wikipedia.org/wiki/Endianness).
 
 Composite data types (also referred to as data structures) consists of
 primitive and/or composite data types.
@@ -160,7 +160,7 @@ analysis.
 - [Wikipedia: Primitive data type](https://en.wikipedia.org/wiki/Primitive_data_type)
 - [Wikipedia: Integer](https://en.wikipedia.org/wiki/Integer_(computer_science))
 - [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
-- [Wikipedia: Endianness](http://en.wikipedia.org/wiki/Endianness)
+- [Wikipedia: Endianness](https://en.wikipedia.org/wiki/Endianness)
 - [Chapter 4. Programming with Cygwin](https://cygwin.com/cygwin-ug-net/programming.html)
 - [Wikipedia: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
 - [Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf),

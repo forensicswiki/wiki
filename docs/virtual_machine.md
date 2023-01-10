@@ -57,7 +57,7 @@ Paladin 4 (free) can create VMDK files for DD and E01 images.
 
 ### Live View
 
-[Live View](http://liveview.sourceforge.net/) (opensource) is reported
+[Live View](https://liveview.sourceforge.net/) (opensource) is reported
 as not reliable, but it does work with some images.
 
 ### VMware Standalone Converter

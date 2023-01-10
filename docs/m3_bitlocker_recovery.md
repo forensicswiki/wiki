@@ -43,4 +43,4 @@ Server 2008, Windows Server 2012.
 
 - [Download Link](https://bitlocker-recovery-free.en.softonic.com/)
 - [M3 Bitlocker
-  Recovery](http://www.m3datarecovery.com/bitlocker-drive-data-recovery/)
+  Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)

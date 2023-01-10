@@ -31,7 +31,7 @@ NtfsDisableLastAccessUpdate value to '0' in the Registry key:
     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
 
 Note that this feature has been around since as early as Windows 2000
-[1](http://technet.microsoft.com/en-us/library/cc959914.aspx).
+[1](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959914(v=technet.10)?redirectedfrom=MSDN).
 
 ## [Prefetch](prefetch.md)
 

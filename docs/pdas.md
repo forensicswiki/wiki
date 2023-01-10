@@ -38,4 +38,4 @@ are no published methods for analyzing the resulting data.
 
 * [PDA FAQ,News,Reviews,Devices,Software,Freeware](https://68.183.185.118/)
 * [Jansen, Ayers Guidelines on PDA Forensics](https://csrc.nist.gov/publications/detail/sp/800-72/final)
-* [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](http://csrc.nist.gov/publications/nistir/nistir-7100-PDAForensics.pdf)
+* [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7100/final)

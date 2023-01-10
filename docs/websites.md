@@ -37,7 +37,7 @@ meet their specific technical needs.
 
 <!-- -->
 
-[Computer Forensics Tool Testing (CFTT) project](http://www.cftt.nist.gov/)
+[Computer Forensics Tool Testing (CFTT) project](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)
 
 The Computer Forensic Tool Testing (CFTT) project establishes
 methodologies for testing computer forensic tools by development of
@@ -129,7 +129,7 @@ technology.
 
 <!-- -->
 
-[National Software Reference Library (NSRL)](http://www.nsrl.nist.gov/)
+[National Software Reference Library (NSRL)](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl)
 
 The National Software Reference Library (NSRL) collects software from
 various sources and incorporates file profiles computed from this

@@ -4,7 +4,7 @@ tags:
 ---
 [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) is a Network
 Forensic Analysis Tool (NFAT) for Windows.
-[NetworkMiner](https://sourceforge.net/apps/mediawiki/networkminer/index.php?title=NetworkMiner)
+[NetworkMiner](https://sourceforge.net/projects/networkminer/)
 can be used as a passive network [sniffer](sniffer.md)/packet
 capturing tool in order to detect operating systems, sessions,
 hostnames, open ports etc. without putting any traffic on the network.

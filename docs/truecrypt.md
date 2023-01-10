@@ -87,7 +87,7 @@ timestamps](tcp_timestamps.md).
 
 ## External Links
 
-- [Official website](http://www.truecrypt.org/)
+- [Official website](https://truecrypt.sourceforge.net/)
 - [Version history](https://truecrypt.sourceforge.net/)
 - [Identifying TrueCrypt Volumes For Fun (and Profit?)](https://www.brimorlabsblog.com/2014/01/identifying-truecrypt-volumes-for-fun.html),
   by Brian Moran, January 20, 2014

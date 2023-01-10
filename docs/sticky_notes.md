@@ -12,7 +12,7 @@ location and size of the sticky notes, but not much else.
 Sticky Notes are maintained in a single file (stickynotes.snt) located
 in the user's profile ("%UserProfile%\AppData\Roaming\Microsoft\Sticky
 Notes"). This file is based on the MS [OLE/compound
-file](http://msdn.microsoft.com/en-us/library/dd942138%28v=prot.13%29.aspx)
+file](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b?redirectedfrom=MSDN)
 binary format. The .snt file can be opened and viewed using the [MiTec
 Structured Storage Viewer](http://www.mitec.cz/ssv.html).
 

@@ -15,9 +15,9 @@ Expensive [IP geolocation](ip_geolocation.md) service.
 
 <!-- -->
 
-[CapAnalysis](http://www.capanalysis.net)
+[CapAnalysis](https://www.capanalysis.net/ca/)
 
-DEMO: <http://pcap.capanalysis.net>
+DEMO: <https://pcap.capanalysis.net/>
 
 **Open Source** web visual tool for information security specialists,
 system administrators and everyone who needs to analyze large amounts of
@@ -38,13 +38,13 @@ connections.
 
 <!-- -->
 
-[Enterasys Dragon](http://www.enterasys.com/products/advanced-security-apps/index.aspx)
+[Enterasys Dragon](https://www.extremenetworks.com/)
 
 Instrusion Detection System, includes session reconstruction.
 
 <!-- -->
 
-[MNIS Collector](http://www.mantaro.com/products/MNIS/collector.htm)
+[MNIS Collector](https://www.mantaro.com)
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
 It was designed to be used with the MNIS Exporter, which is a Deep
 Packet Inspection probe that can be used to decode 300+ protocols on up
@@ -52,7 +52,7 @@ to 20 Gbps and report the information in IPFIX.
 
 <!-- -->
 
-[Mantaro Network Intelligence Solutions (mnis)](http://www.mantaro.com/products/MNIS/index.htm)
+[Mantaro Network Intelligence Solutions (mnis)](https://www.mantaro.com)
 
 MNIS is a comprehensive and scalable network intelligence platform for
 network forensics and various other applications. It is built on high
@@ -80,7 +80,7 @@ APIs.
 
 <http://www.splintered.net/sw/flow-tools/>
 
-<http://silktools.sourceforge.net/>
+<https://silktools.sourceforge.net/>
 
 <http://www.vmware.com/vmtn/appliances/directory/293> Netflow Appliance
 (VMWare)
@@ -200,7 +200,7 @@ tool](http://www.netresec.com/?page=NetworkMiner).
 
 <!-- -->
 
-[pcap2wav](http://pcap2wav.xplico.org/)
+[pcap2wav](https://pcap2wav.xplico.org/)
 
 VoIP/RTP decoder. pcap2wav is part (a sub-project) of
 [Xplico](xplico.md) and it supports and decodes the following
@@ -209,7 +209,7 @@ audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
 
 <!-- -->
 
-[rkhunter](http://rkhunter.sourceforge.net/)
+[rkhunter](https://rkhunter.sourceforge.net/)
 
 <!-- -->
 
@@ -217,7 +217,7 @@ audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
 
 <!-- -->
 
-[nslookup](http://en.wikipedia.org/wiki/Nslookup)
+[nslookup](https://en.wikipedia.org/wiki/Nslookup)
 
 Name Server Lookup command line tool used to find IP address from domain
 name.
@@ -232,7 +232,7 @@ name.
 
 <!-- -->
 
-[ssldump](http://ssldump.sourceforge.net/)
+[ssldump](https://ssldump.sourceforge.net/)
 
 <!-- -->
 
@@ -264,7 +264,7 @@ historical network traffic.
 
 <!-- -->
 
-[Whois](http://en.wikipedia.org/wiki/WHOIS)
+[Whois](https://en.wikipedia.org/wiki/WHOIS)
 
 Web service and command line tool to look up registry information for internet
 domain.
@@ -279,26 +279,26 @@ from ARIN
 <http://www.arin.net/index.shtml> American Registry for Internet Numbers
 (ARIN)
 
-<http://www.afrinic.net/> African Network Information Center (AfriNIC)
+<https://www.afrinic.net/> African Network Information Center (AfriNIC)
 
-<http://www.apnic.net/> Asia Pacific Network Information Centre (APNIC)
+<https://www.apnic.net/> Asia Pacific Network Information Centre (APNIC)
 
 <http://www.lacnic.net/en/> Latin American and Caribbean IP Address
 Regional Registry (LACNIC)
 
-<http://www.ripe.net/> RIPE Network Coordination Centre (RIPE NCC)
+<https://www.ripe.net/> RIPE Network Coordination Centre (RIPE NCC)
 
 <!-- -->
 
 [Wireshark](wireshark.md) / Ethereal
-<http://www.wireshark.org/>
+<https://www.wireshark.org/>
 
 Open Source protocol analyzer previously known as ethereal.
 
 <!-- -->
 
 [Kismet](kismet.md)
-<http://www.kismetwireless.net/>
+<https://www.kismetwireless.net/>
 
 Kismet is an 802.11 layer2 wireless network detector, sniffer, and
 intrusion detection system.
@@ -314,11 +314,11 @@ X.
 <!-- -->
 
 [Xplico](xplico.md)
-<http://www.xplico.org/>
+<https://www.xplico.org/>
 
 Open Source Network Forensic Analysis Tool (NFAT). Protocols supported:
 [HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4, IPv6,
-...](http://www.xplico.org/status)
+...](https://www.xplico.org/status)
 
 VoIP sniffer and decoder. Audio codec supported: G711ulaw, G711alaw,
 G722, G729, G723, G726 and MSRTA
@@ -337,7 +337,7 @@ Upload and Download, Instant Messaging, VoIP etc....
 
 <!-- -->
 
-[fmadio 10G Packet Capture](http://fmad.io)
+[fmadio 10G Packet Capture](https://www.fmad.io/)
 
 Cost effective full line rate 10G packet capture to disk appliance.
 Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
@@ -426,7 +426,7 @@ udpcast - includes UDP-receiver and UDP-sender
 
 ## TCP Layer
 
-[lft](http://pwhois.org/lft) - TCP tracing
+[lft](https://pwhois.org/lft/) - TCP tracing
 
 [etrace](http://www.bindshell.net/tools/etrace)
 

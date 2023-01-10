@@ -455,7 +455,7 @@ On Windows
 
 - [Wikipedia article on Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
 - [The Chromium Projects - User Data Directory](https://www.chromium.org/user-experience/user-data-directory/)
-- [Chrome Disk Cache](http://www.chromium.org/developers/design-documents/network-stack/disk-cache)
+- [Chrome Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/)
 - [Chrome support forum article random 10 character hostnames on startup](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en)
 - [Chrome User Agent strings](https://www.useragentstring.com/pages/Chrome/)
 - [Google Chrome Forensics](https://www.sans.org/digital-forensics-incident-response/),

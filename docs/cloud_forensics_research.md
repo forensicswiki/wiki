@@ -50,7 +50,7 @@ location="Monterey, CA",
 ` author={Keyun Ruan},`
 ` year={2013},`
 ` publisher={IGI Global},`
-` url = {`[`https://www.igi-global.com/book/cybercrime-cloud-forensics/69206`](http://www.igi-global.com/book/cybercrime-cloud-forensics/69206)`}`
+` url = {`[`https://www.igi-global.com/book/cybercrime-cloud-forensics/69206`](https://www.igi-global.com/book/cybercrime-cloud-forensics/69206)`}`
 
 } </bibtex>
 
@@ -177,7 +177,7 @@ location="Monterey, CA",
 ` number = {3},`
 ` year = {2011},`
 ` pages = {4--10},`
-` url="`[`https://www.whieb.com/download.jsp?address=/upload%2Fdoc%2F20110415%2Fforensic+investigation+of+cloud+computing+systems.pdf`](http://www.whieb.com/download.jsp?address=/upload%2Fdoc%2F20110415%2Fforensic+investigation+of+cloud+computing+systems.pdf)`"`
+` url="`[`https://www.whieb.com/download.jsp?address=/upload%2Fdoc%2F20110415%2Fforensic+investigation+of+cloud+computing+systems.pdf`](https://www.whieb.com/download.jsp?address=/upload%2Fdoc%2F20110415%2Fforensic+investigation+of+cloud+computing+systems.pdf)`"`
 
 }
 
@@ -204,7 +204,7 @@ location="Monterey, CA",
 ` journal={Duke Law and Technology Review},`
 ` volume = {8},`
 ` year = {2011},`
-` url="`[`https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltr`](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltr)`"`
+` url="`[`https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltr`](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltr)`"`
 
 } </bibtex>
 
@@ -217,7 +217,7 @@ location="Monterey, CA",
 ` number = {2},`
 ` year = {2010},`
 ` pages = {2--12},`
-` url="`[`https://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf`](http://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf)`"`
+` url="`[`https://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf`](https://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf)`"`
 
 } </bibtex>
 

@@ -73,7 +73,7 @@ third-party tools.
 
 <!-- -->
 
-[Belkasoft Evidence Center](https://belkasoft.com/ec) by [Belkasoft](belkasoft.md)
+[Belkasoft Evidence Center](https://belkasoft.com/x) by [Belkasoft](belkasoft.md)
 BEC allows an investigator to perform all investigation steps:
 acquisition (aquire hard and removable drives, image smartphones and
 download cloud data), extraction of evidence (searches and carves more
@@ -216,7 +216,7 @@ Comprehensive Windows Memory Forensics and Cyber Analysis, Incident
 Response, and Education support.
 
 Software and hardware based acquisition with [CaptureGUARD PCIe and
-ExpressCard](https://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34)
+ExpressCard](https://www.windowsscope.com/?option=com_virtuemarthttps://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34Itemid=34)
 
 Hardware based acquisition of memory on a locked computer via
 [CaptureGUARD
@@ -348,7 +348,7 @@ The [Open Computer Forensics Architecture](open_computer_forensics_architecture.
 <!-- -->
 
 [pyflag](pyflag.md)
-<http://code.google.com/p/pyflag/>
+<https://code.google.com/archive/p/pyflag>
 
 Web-based, database-backed forensic and log analysis GUI written in
 Python.
@@ -391,7 +391,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 # Forensics Live CDs
 
 [Kali Linux](kali_linux.md)
-[<https://www.kali.org/>](http://www.kali.org/)
+[<https://www.kali.org/>](https://www.kali.org/)
 
 <!-- -->
 
@@ -428,7 +428,7 @@ See: [Forensics Live CDs](live_cd.md)
 
 ## Cell Phone Forensics
 
-[Belkasoft Evidence Center](https://belkasoft.com/ec)
+[Belkasoft Evidence Center](https://belkasoft.com/x)
 [BitPIM](bitpim.md)
 [Cellebrite UFED](cellebrite_ufed.md)
 [DataPilot Secure View](datapilot_secure_view.md)

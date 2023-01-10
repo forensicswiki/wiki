@@ -4,7 +4,7 @@ tags:
 ---
 ## Definition
 
-### From Wikipedia ([<https://en.wikipedia.org/wiki/Joint_Test_Action_Group>](http://en.wikipedia.org/wiki/Joint_Test_Action_Group)):
+### From Wikipedia ([<https://en.wikipedia.org/wiki/Joint_Test_Action_Group>](https://en.wikipedia.org/wiki/Joint_Test_Action_Group)):
 
 Joint Test Action Group (JTAG) is the common name for what was later
 standardized as the IEEE 1149.1 Standard Test Access Port and

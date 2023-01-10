@@ -34,9 +34,9 @@ systems can perform such an attack:
 
 As well as some open-source tools:
 
-- [ettercap](http://ettercap.sourceforge.net/) (unsupported, last
+- [ettercap](https://ettercap.sourceforge.net/) (unsupported, last
   version - 2005/05/29)
-- [dsniff](http://monkey.org/~dugsong/dsniff/) (obsolete, last stable
+- [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable
   version - 2000/12/17)
 
 ## Other information

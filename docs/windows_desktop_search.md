@@ -73,7 +73,7 @@ database' this is easily circumvented.
 * [Wikipedia entry on Windows Desktop
   Search](https://en.wikipedia.org/wiki/Windows_Desktop_Search)
 * [Wikipedia list of Desktop search
-  engines](http://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
+  engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
 * [Forensic analysis of the Windows Search
   database](https://code.google.com/archive/p/libesedb/downloads)
 

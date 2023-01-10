@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Bibliographies
+  - Bibliographies
 ---
 Bibliographic references for those working on the carved data ascription
 problem:
@@ -27,7 +27,7 @@ problem:
 `year = {2006},`
 `issn = {0001-0782},`
 `pages = {85--87},`
-`doi = {`[`http://doi.acm.org/10.1145/1113034.1113076`](http://doi.acm.org/10.1145/1113034.1113076)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1113034.1113076`](http://doi.acm.org/10.1145/1113034.1113076)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -43,7 +43,7 @@ problem:
 `isbn = {0-89791-592-5},`
 `pages = {207--216},`
 `location = {Washington, D.C., United States},`
-`doi = {`[`http://doi.acm.org/10.1145/170035.170072`](http://doi.acm.org/10.1145/170035.170072)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/170036.170072`](http://doi.acm.org/10.1145/170035.170072)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -60,7 +60,7 @@ problem:
 `year = {2001},`
 `issn = {0360-0300},`
 `pages = {322--373},`
-`doi = {`[`http://doi.acm.org/10.1145/502807.502809`](http://doi.acm.org/10.1145/502807.502809)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/502807.502809`](http://doi.acm.org/10.1145/502807.502809)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -77,7 +77,7 @@ problem:
 `year = {2002},`
 `issn = {0163-5808},`
 `pages = {66--68},`
-`doi = {`[`http://doi.acm.org/10.1145/565117.565130`](http://doi.acm.org/10.1145/565117.565130)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/565117.565130`](http://doi.acm.org/10.1145/565117.565130)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -138,10 +138,9 @@ problem:
 `isbn = {1-58113-964-0},`
 `pages = {1049--1053},`
 `location = {Santa Fe, New Mexico},`
-`doi = {`[`http://doi.acm.org/10.1145/1066677.1066917`](http://doi.acm.org/10.1145/1066677.1066917)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1066677.1066917`](http://doi.acm.org/10.1145/1066677.1066917)`},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
 `}`
 
 </bibtex>
-

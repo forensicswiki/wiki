@@ -52,5 +52,5 @@ On the MediaWiki version of Forensics Wiki, Garfinkel was known as simsong.
 
 ## See Also
 
-* [Simson Garfinkel's home page](http://simson.net/)
+* [Simson Garfinkel's home page](https://simson.net/page/Main_Page)
 * [Simson Garfinkel on Wikipedia](https://en.wikipedia.org/wiki/Simson_Garfinkel)

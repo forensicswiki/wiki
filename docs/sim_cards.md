@@ -251,7 +251,7 @@ of the Ki from the SIM card, and essentially SIM card duplication.
 
 ## External Links
 
-* [SIMCon](http://www.simcon.no/)
+* [SIMCon](https://www.simcon.no/)
 * [Sector Forensics](https://www.sectorforensics.london/)
 * [IJDE Spring 2003 Volume 2, Issue 1](https://ecci.utica.edu/)
   [Forensics and the GSM Mobile Telephone System](https://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)
