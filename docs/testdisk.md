@@ -1,14 +1,14 @@
 ---
 tags:
-  -  Tools
-  -  Data Recovery
-  -  Windows
-  -  Linux
-  -  MacOS
-  -  Solaris
-  -  FreeBSD
-  -  NetBSD
-  -  OpenBSD
+  - Data Recovery
+  - FreeBSD
+  - Linux
+  - MacOS
+  - NetBSD
+  - OpenBSD
+  - Solaris
+  - Tools
+  - Windows
 ---
 **TestDisk** is a free software data recovery utility licensed under the
 terms of the GNU General Public License (GPL). It was primarily designed
@@ -60,7 +60,7 @@ TestDisk can find lost partitions of the following file systems:
 - Be File System (BeOS)
 - BSD disklabel
   ([FreeBSD](freebsd.md)/[OpenBSD](openbsd.md)/[NetBSD](netbsd.md)
-- [Cramfs](cramfs.md), Compressed File System
+- Cramfs, Compressed File System
 - DOS/Windows [FAT](fat.md) 12, 16, and 32
 - (Classic) HFS, [HFS+](hfs+.md) and [HFSX](hfs+.md), Hierarchical File
   System
@@ -72,25 +72,17 @@ TestDisk can find lost partitions of the following file systems:
   - RAID 5: striped array with distributed parity information
   - RAID 6: striped array with distributed dual redundancy information
 - Linux Swap (versions 1 and 2)
-- [LVM](linux_logical_volume_manager_(lvm).md) and
-  [LVM2](linux_logical_volume_manager_(lvm).md), [Linux Logical
-  Volume Manager](linux_logical_volume_manager_(lvm).md)
+- [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) (LVM and LVM2)
 - Mac partition map
 - Novell Storage Services (NSS)
 - [NTFS](ntfs.md) ([Windows](windows.md)
   NT/2000/XP/2003/Vista/2008)
 - [ReiserFS](reiserfs.md) 3.5, 3.6 and 4
 - Sun Solaris i386 disklabel
-- Unix File System: [UFS](unix_file_system.md) and
-  [UFS2](unix_file_system.md) (Sun/BSD/...)
+- Unix File System: [UFS and UFS2](unix_file_system_(ufs).md) (Sun/BSD/...)
 - XFS, SGI's Journaled File System
-
-## See also
-
-- [PhotoRec](photorec.md)
 
 ## External links
 
 - [TestDisk Wiki](https://www.cgsecurity.org/wiki/TestDisk)
-- [TestDisk main functions
-  review](https://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)
+- [TestDisk main functions review](https://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)

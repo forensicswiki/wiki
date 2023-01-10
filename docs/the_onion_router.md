@@ -34,9 +34,7 @@ being visited).
 
 <!-- -->
 
-- Direct connections in [Instant
-  Messaging](instant_messaging.md) also leak
-  real IP address
+- Direct connections in Instant Messaging also leak real IP address
 
 **TLS attacks**
 

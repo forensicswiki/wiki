@@ -7,7 +7,7 @@ tags:
 Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating system
 distributed with Apple computers. It includes heavily used several programs by
 default, including [Apple Mail](apple_mail.md), a web browser called
-[Safari](apple_safari.md), and an [Apple Address Book](apple_address_book.md),
+[Safari](apple_safari.md), and an Apple Address Book,
 and iCal.
 
 ## EFI boot
@@ -57,8 +57,8 @@ which are:
 
 * read-write disk image (.dmg), which can be stored in [Raw Image Format](raw_image_format.md)
   or [Universal Disk Image Format (udif)](dmg.md)
-* [Sparse disk image (.spareimage)](sparse_image_format.md)
-* [Sparse bundle disk image (.sparsebundle)](sparse_bundle_image_format.md)
+* Sparse disk image (.spareimage)
+* Sparse bundle disk image (.sparsebundle)
 
 ## Burn Folder
 
@@ -66,14 +66,12 @@ Mac OS X Burn Folder:
 
     $NAME.fpbf
 
-This folder normally contains [alias
-files](mac_os_x_alias_files.md) (similar to LNK files under
+This folder normally contains alias files (similar to LNK files under
 Windows). Which should have the following signature.
 
     00000000  62 6f 6f 6b 00 00 00 00  6d 61 72 6b 00 00 00 00  |book....mark....|
 
-These [alias files](mac_os_x_alias_files.md) contain additional
-date and time values.
+These alias files contain additional date and time values.
 
 Also check the following files for references to deleted .fpbf paths:
 
@@ -165,9 +163,8 @@ Also see: [7](https://osxdaily.com/2010/10/11/sleepimage-mac/)
 
 ## Package Files (.PKG)
 
-Package Files (.PKG) are XAR archives
-[8](https://en.wikipedia.org/wiki/Xar_(archiver)) that contain a [cpio
-archive](cpio_archive.md) and metadata
+Package Files (.PKG) are [XAR archives](https://en.wikipedia.org/wiki/Xar_(archiver)) that contain a cpio
+archive and metadata
 [9](http://s.sudre.free.fr/Stuff/Ivanhoe/FLAT.html).
 
 ## Encodings / Codepages

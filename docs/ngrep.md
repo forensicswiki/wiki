@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
-**Ngrep** is a tool that provides GNU [grep](grep.md)'s features
+**Ngrep** is a tool that provides GNU grep's features
 applying them to the network layer.
 
 ## Overview
@@ -27,8 +27,7 @@ ngrep -qI out.pcap '^(GET\|POST\|HEAD\|CONNECT)' 'tcp'
 Ngrep cannot reconstruct data streams, it has no ability to match a
 string that is broken across two or more packets.
 
-## Patches
+## External Links
 
-- [IPv4 and IPv6 fragment reassembly
-  patch](https://sourceforge.net/p/ngrep/patches/31/)
-
+* [Project page](http://ngrep.sourceforge.net/)
+* [IPv4 and IPv6 fragment reassembly patch](https://sourceforge.net/p/ngrep/patches/31/)
