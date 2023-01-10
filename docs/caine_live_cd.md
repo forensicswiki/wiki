@@ -19,7 +19,7 @@ Bassetti.
 The latest version of Caine is based on the [Ubuntu](ubuntu.md) 12.04 LTS, MATE and LightDM. Compared to
 its original version, the current version has been modified to meet the
 standards forensic reliability and safety standards laid down by the
-[NIST](nist.md) View [the methodologies of Nist](Http://www.cftt.nist.gov/Methodology_Overview.htm).
+[NIST](nist.md) View [the methodologies of NIST](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-general-0)
 
 Caine includes:
 
@@ -30,7 +30,7 @@ Caine includes:
   document easily editable and exportable with a summary of the
   activities;
 - Adherence to the investigative procedure defined recently by Italian
-  Law 48/2008, [Law 48/2008,](Http://www.parlamento.it/parlam/leggi/08048l.htm).
+  Law 48/2008, [Law 48/2008](https://www.parlamento.it/parlam/leggi/08048l.htm).
 
 In addition, Caine is the first distribution to include forensic
 Forensics inside the Caja/Nautilus Scripts and all the patches of

@@ -109,7 +109,7 @@ Note that there are numerous known issues with the
 
 ## License Notes
 
-The SleuthKit uses a mix of various licenses. Its core library, libtsk,
+The Sleuth Kit uses a mix of various licenses. Its core library, libtsk,
 is predominantly licensed under IBM Public License version 1.0 and
 Common Public License version 1.0. For more information see:
 <https://github.com/sleuthkit/sleuthkit/blob/develop/licenses/README.md>
@@ -118,7 +118,7 @@ Common Public License version 1.0. For more information see:
 
 In 2011 Willi Ballenthin provided patches for the SleutKit to add ext4 support.
 These patches were integrated by Kevin Fairbanks into a
-separate [fork of the SleuthKit](https://github.com/kfairbanks/sleuthkit/tree/Ext4_Dev).
+separate [fork of the Sleuth Kit](https://github.com/kfairbanks/sleuthkit/tree/Ext4_Dev).
 This fork was integrated in the 4.1.0 version.
 
 Note that ext4 format features introduced after SleutKit 4.1.0 might not

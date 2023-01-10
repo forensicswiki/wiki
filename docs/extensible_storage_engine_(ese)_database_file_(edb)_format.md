@@ -101,7 +101,7 @@ such as:
   by the [libesedb project](libesedb.md)
 - [Wikipedia on Extensible Storage Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
 - [Exchange .EDB File Extension](https://www.whatisfileextension.com/edb/)
-- [Forensic examination of Windows Live Messenger 2009 Extensible Storage Engine](https://www.os3.nl/_media/2008-2009/students/willem_toorop/wlm2009_ese_fin.pdf),
+- [Forensic examination of Windows Live Messenger 2009 Extensible Storage Engine](https://www.nlnetlabs.nl/~willem/wlm2009_ese_fin.pdf),
   by Wouter van Dongen, Willem Toorop, Joeri Blokhuis, May 2009
 
 ### Tile Data Layer database

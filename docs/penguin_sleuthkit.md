@@ -8,7 +8,7 @@ tags:
   -  Open Source Software
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) that includes
-SleuthKit.
+Sleuth Kit.
 
 ## External Links
 

@@ -91,7 +91,7 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * [Property list (plist) format](property_list_(plist).md) using
   [binplist](binplist.md)
 * Safari Binary Cookie file
-* [SleuthKit version 3 bodyfile](mactime.md)
+* [Sleuth Kit version 3 bodyfile](mactime.md)
 * [SQLite database format](sqlite_database_format.md) using [SQLite](sqlite.md)
 * Symantec AV Corporate Edition and Endpoint Protection log file
 * Systemd journal file

@@ -7,4 +7,4 @@ Mactime is a timeline format introduced by mactime tool part of the
 
 ## External Links
 
-* [Mactime output - SleuthKit](http://wiki.sleuthkit.org/index.php?title=Mactime_output)
+* [Mactime output - Sleuth Kit](http://wiki.sleuthkit.org/index.php?title=Mactime_output)

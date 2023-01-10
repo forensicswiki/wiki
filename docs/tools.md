@@ -172,13 +172,6 @@ P2 Power Pack by [Paraben](paraben_forensics.md)
 
 <!-- -->
 
-[DateDecoder](datedecoder.md) by [Live-Forensics](live-forensics.md)
-
-A command line tool that decodes most encoded time/date stamps found on
-a windows system, and outputs the time/date in a human readable format.
-
-<!-- -->
-
 [RecycleReader](recyclereader.md) by [Live-Forensics](live-forensics.md)
 
 A command line tool that outputs the contents of the recycle bin on XP,

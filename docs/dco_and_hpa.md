@@ -86,7 +86,7 @@ above)
   Mayank R. Gupta, Michael D. Hoeschele, Marcus K. Rogers, International
   Journal of Digital Evidence, Fall 2006, Volume 5, Issue 1
 - [REMOVING HOST PROTECTED AREAS (HPA) IN LINUX](http://www.sleuthkit.org/informer/sleuthkit-informer-20.txt),
-  Brian Carrier, SleuthKit Informer \#20
+  Brian Carrier, Sleuth Kit Informer \#20
 - [Wikipedia article on Device Configuration Overlay](https://en.wikipedia.org/wiki/Device_configuration_overlay)
 - [Wikipedia article on Host Proteced Area](https://en.wikipedia.org/wiki/Host_protected_area)
 - [Hiding Data in Hard-Drive’s Service Areas](http://www.recover.co.il/SA-cover/SA-cover.pdf),

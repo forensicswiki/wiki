@@ -10,16 +10,16 @@ tags:
   - Data Carving
 ---
 fiwalk is a batch forensics analysis program written in C that uses
-SleuthKit. The program can output in XML or ARFF formats.
+Sleuth Kit. The program can output in XML or ARFF formats.
 
 ## Temporary Distribution Point
 
-fiwalk has been integrated with SleuthKit and can be downloaded from
+fiwalk has been integrated with Sleuth Kit and can be downloaded from
 Github at <https://github.com/sleuthkit/sleuthkit>.
 
 ## Legacy Distribution
 
-**fiwalk** is a program that processes a disk image using the SleuthKit
+**fiwalk** is a program that processes a disk image using the Sleuth Kit
 library and outputs its results in Digital Forensics XML, the Attribute
 Relationship File Format (ARFF) format used by the Weka Datamining
 Toolkit, or an easy-to-read textual format.
