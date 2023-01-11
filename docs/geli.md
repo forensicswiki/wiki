@@ -17,4 +17,4 @@ Authentification.
   GELI](https://www.freebsd.org/cgi/man.cgi?query=gelihttp://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8sektion=8)
 - [FreeBSD Handbook - Disk
   Encryption](https://docs.freebsd.org/en/books/handbook/disks/#disks-encrypting)
-- [Wikipedia: GBDE](http://en.wikipedia.org/wiki/GBDE)
+- [Wikipedia: GBDE](https://en.wikipedia.org/wiki/GBDE)

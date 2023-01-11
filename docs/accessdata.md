@@ -23,4 +23,4 @@ In 2006, a team from AccessData won the DC3 Digital Forensics Challenge.
 
 ## External Links
 
-* [Official Website](http://www.accessdata.com/)
+* [Official Website](https://www.exterro.com)

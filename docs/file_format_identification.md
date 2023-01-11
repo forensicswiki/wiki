@@ -82,7 +82,7 @@ See:
 - Free (Apache v2.0 License)
 - The Apache Tika™ toolkit detects and extracts metadata and text from
   over a thousand different file types
-- <http://tika.apache.org/>
+- <https://tika.apache.org/>
 
 # Data Sets
 

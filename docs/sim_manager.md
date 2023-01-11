@@ -33,5 +33,5 @@ alt="SIM_Manager_SIM_card_propertiest.png" />
 ## External Links
 
 - [How to recover a deleted SMS using SIM
-  Manager](http://www.youtube.com/watch?v=VaBaqZiNW4U) (video tutorial)
+  Manager](https://www.youtube.com/watch?v=VaBaqZiNW4U) (video tutorial)
 

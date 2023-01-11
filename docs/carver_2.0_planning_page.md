@@ -958,7 +958,7 @@ Zero storage support
 
 POLA
 
-- joe-e (java) ( <http://code.google.com/p/joe-e/> )
+- joe-e (java) ( <https://code.google.com/archive/p/joe-e> )
 - Emily (ocaml) ( <http://erights.org/download/emily/> )
 - the E language ( <http://www.erights.org/> )
 - AppArmor

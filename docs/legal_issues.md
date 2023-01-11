@@ -56,7 +56,7 @@ computer claimed a virus was to blame, a court heard. But Mark Craney,
 33, from Knowle, was found guilty at Warwick Crown Court on 16 charges
 of making indecent images of children by downloading them onto his
 computer.
-[7](http://icbirmingham.icnetwork.co.uk/0100news/0100localnews/tm_objectid=15104065&method=full&siteid=50002&headline=man-blamed-net-virus-for-child-porn-name_page.html)
+[7](https://www.birminghammail.co.uk/)
 
 More links from previous research.
 

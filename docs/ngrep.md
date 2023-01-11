@@ -29,5 +29,5 @@ string that is broken across two or more packets.
 
 ## External Links
 
-* [Project page](http://ngrep.sourceforge.net/)
+* [Project page](https://ngrep.sourceforge.net/)
 * [IPv4 and IPv6 fragment reassembly patch](https://sourceforge.net/p/ngrep/patches/31/)

@@ -5,7 +5,7 @@ tags:
 ## Image Analysis
 
 [SurfRecon LE rapid image analysis tool](surfrecon_le_rapid_image_analysis_tool.md) by SurfRecon, Inc.
-<http://www.surfrecon.com>
+<https://www.surfrecon.com/>
 
 ## Software Forensics
 
@@ -42,7 +42,7 @@ to stderr.
 
 <!-- -->
 
-[PDF Miner](http://www.unixuser.org/~euske/python/pdfminer/index.html)
+[PDF Miner](https://www.unixuser.org/~euske/python/pdfminer/index.html)
 "...suite of programs that aims to help analyzing text data from PDF
 documents. It includes a PDF parser, a PDF renderer (though only
 rendering text is supported for now), and a couple of nice tools to
@@ -54,7 +54,7 @@ technique."
 
 <!-- -->
 
-[ltrace](http://linux.die.net/man/1/ltrace)
+[ltrace](https://linux.die.net/man/1/ltrace)
 Library call tracer.
 
 <!-- -->
@@ -76,14 +76,14 @@ Enables kernel process tracing on OpenBSD.
 
 <!-- -->
 
-[Valgrind](http://valgrind.org/)
+[Valgrind](https://valgrind.org/)
 Executes a program under emulation, performing analysis according to one
 of the many plug-in modules as desired. You can write your own plug-in
 module as desired.
 
 <!-- -->
 
-[DTrace](http://www.sun.com/bigadmin/content/dtrace/)
+[DTrace](https://www.oracle.com/it-infrastructure/)
 Comprehensive dynamic tracing framework for Solaris (also ported to
 MacOS X - XRays and FreeBSD). DTrace provides a powerful infrastructure
 to permit investigation of the behavior of the operating system and user
@@ -100,7 +100,7 @@ filenames, keywords etc.
 <!-- -->
 
 The [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)
-<http://ocfa.sourceforge.net/>
+<https://ocfa.sourceforge.net/>
 
 <!-- -->
 
@@ -119,12 +119,12 @@ Parses cookie files.
 
 <!-- -->
 
-[dumpster_dive.pl](http://jafat.sourceforge.net/files.html)
+[dumpster_dive.pl](https://jafat.sourceforge.net/files.html)
 MS Windows Recycle Bin INFO2 parser
 
 <!-- -->
 
-[cookie_cruncher.pl](http://jafat.sourceforge.net/files.html)
+[cookie_cruncher.pl](https://jafat.sourceforge.net/files.html)
 MS IE cookie file parser
 
 <!-- -->
@@ -147,13 +147,13 @@ Linux like environment for Windows.
 
 <!-- -->
 
-[UnxUtils](http://unxutils.sourceforge.net/)
+[UnxUtils](https://unxutils.sourceforge.net/)
 
 Common unix utilities compiled for a Windows environment.
 
 <!-- -->
 
-[GnuWin32](http://gnuwin32.sourceforge.net/)
+[GnuWin32](https://gnuwin32.sourceforge.net/)
 
 Common GNU utilities compiled for a Windows Environment.
 

@@ -25,4 +25,4 @@ image, or play a sound automatically.
 
 - [Product
   page](https://www.oxygen-forensic.com/en/features/plistviewer/)
-- [Publisher site](http://www.oxygen-forensic.com/en/)
+- [Publisher site](https://www.oxygen-forensic.com/en/)

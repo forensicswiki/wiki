@@ -21,5 +21,5 @@ cases involving child abuse, rape, attempted murder, fraud, intellectual
 property theft, burglary, and so on. Lee is a SANS Community Instructor,
 teach the FOR408 Windows Forensics class. Lee is also the creator of the
 [Forensic 4cast](https://forensic4cast.com/) podcast and the [Forensic
-4cast Awards](https://forensic4cast.com//forensic-4cast-awards/).
+4cast Awards](https://forensic4cast.com/forensic-4cast-awards/).
 

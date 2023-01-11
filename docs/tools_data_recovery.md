@@ -9,7 +9,7 @@ The term "Data Recovery" is frequently used to mean forensic recovery,
 but the term really should be used for recovering data from damaged
 media.
 
-- [IsoBuster](http://www.isobuster.com/)
+- [IsoBuster](https://www.isobuster.com//)
 
 
 Data recovery software for all types of media, ranging from optical (CD,
@@ -21,7 +21,7 @@ IsoBuster opens a wide range of image files, both optical or otherwise
 such as VHD, VHDX, VDI, VMDK, DSK, ISO, IMG, DD, MDS, CUE and more, so
 that the same functions can be performed on the image file content.
 
-- [BitRecover Data Recovery Software](http://www.bitrecover.com/data-recovery-software/)
+- [BitRecover Data Recovery Software](https://www.bitrecover.com/data-recovery-software/)
 
 
 Do-it-yourself data recovery software for all version of Windows such as
@@ -30,7 +30,7 @@ all major data storage media devices such as SSD, Hard disk, Pen drives,
 Memory cards, SD cards, External hard drives etc and also recovers over
 100+ file types of Documents, Spreadsheets, Audio, Photos & Videos etc.
 
-- [BitRecover Virtual Drive Data Recovery Software](http://www.bitrecover.com/virtual-drive-recovery-software/)
+- [BitRecover Virtual Drive Data Recovery Software](https://www.bitrecover.com/virtual-drive-recovery-software/)
 
 
 Supports data recovery from Virtual hard drives or Virtual machine drive
@@ -53,13 +53,13 @@ Software tool to recover deleted files from Windows drives. Supports
 recovery of permanently deleted files and files emptied from Recycle Bin
 too.
 
-- [DDL Data Recovery Tools](http://www.dolphindatalab.com/)
+- [DDL Data Recovery Tools](https://www.dolphindatalab.com/)
 
 
 Advanced data recovery tools for recovering data from logically and
 physically damaged hard drives.
 
-- [Disk Drill](http://www.cleverfiles.com/)
+- [Disk Drill](https://www.cleverfiles.com/)
 
 
 Freemium data recovery software for Windows and Mac OS X
@@ -91,7 +91,7 @@ logs all the fragments and hashes the video file.
 Runtime Software's RAID Reconstructor will reconstruct RAID Level 0
 (Striping) and RAID Level 5 drives.
 
-- [ReclaiMe Pro](http://www.ReclaiMe-Pro.com)
+- [ReclaiMe Pro](https://www.reclaime-pro.com/)
 
 
 ReclaiMe Pro is an all-in one data recovery toolkit for
@@ -103,32 +103,32 @@ filesystem/partition/RAID/NAS recovery.
 Erol allows you to recover through the internet files erased by mistake.
 Recover your files online for free.
 
-- [Recuva](http://www.recuva.com/)
+- [Recuva](https://www.ccleaner.com/recuva)
 
 
 Recuva is a freeware Windows tool that will recover accidentally deleted
 files.
 
-- [Stellar Data Recovery](http://www.stellarinfo.com/)
+- [Stellar Data Recovery](https://www.stellarinfo.com:443/)
 
 
 Data recovery software services & tools to recover lost data from hard
 drive.
 
-- [Restoration](http://www.snapfiles.com/get/restoration.html)
+- [Restoration](https://www.snapfiles.com/get/restoration.html)
 
 
 Restoration is a freeware Windows software that will allow you to
 recover deleted files
 
-- [Undelete Plus](http://www.undelete-plus.com/)
+- [Undelete Plus](https://www.undeleteplus.com/)
 
 
 Undelete Plus is a free deleted file recovery tool that works for all
 versions of Windows (95-Vista), FAT12/16/32, NTFS and NTFS5 filesystems
 and can perform recovery on various solid state devices.
 
-- [R-Studio](http://www.data-recovery-software.net/)
+- [R-Studio](https://www.r-studio.com/data-recovery-software/)
 
 
 R-Studio is a data recovery software suite that can recover files from
@@ -149,7 +149,7 @@ Adroit Photo Recovery is a photo recovery tool that uses validated
 carving and is able to recover fragmented photos. Adroit Photo Recovery
 is able to recover high definition RAW images from Canon, Nikon etc.
 
-- [Kernel Data Recovery](http://www.kerneldatarecovery.com/)
+- [Kernel Data Recovery](https://www.kerneldatarecovery.com/)
 
 
 Kernel Data Recovery offers a wide range of data recovery products to
@@ -184,7 +184,7 @@ Claims to have a program that can read the "bad blocks" of Maxtor drives
 with proprietary commands.
 
 - [SysInfoTools Data
-  Recovery](https://sysinfotools.com/recovery/windows-data-recovery.php)
+  Recovery](https://www.sysinfotools.com/recovery/windows-data-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) provides best
@@ -206,7 +206,7 @@ Easy simple free data recovery software for windows, recover
 deleted/damaged/lost/formatted files from HDs, SD card and USB storage
 device.
 
-- [M3 Data Recovery](http://www.m3datarecovery.com)
+- [M3 Data Recovery](https://www.m3datarecovery.com/)
 
 
 Easy-to-use & free data recovery software for Windows and Mac to
@@ -219,7 +219,7 @@ formatted/damaged/corrupted/lost/deleted drive.
 
 # Partition Recovery
 
-- [IsoBuster](http://www.isobuster.com/)
+- [IsoBuster](https://www.isobuster.com//)
 
 
 IsoBuster immediately shows the entire partition / session layout. You
@@ -241,7 +241,7 @@ lost, deleted or damaged partitions from drives on Windows OS.
 MiniTool Partition Recovery Freeware helps recover deleted, lost or
 damaged partitions logical drives and partitions on Windows.
 
-- [FAT Recovery](https://sysinfotools.com/recovery/fat-recovery.php)
+- [FAT Recovery](https://www.sysinfotools.com/recovery/fat-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) FAT Partition
@@ -250,7 +250,7 @@ partitions. It can successfully restore all types of data and files
 which you've lost due to accidental deletion/formatting and corruption.
 
 - [NTFS
-  Recovery](https://sysinfotools.com/recovery/ntfs-recovery.php)
+  Recovery](https://www.sysinfotools.com/recovery/ntfs-recovery.php)
 
 
 [SysInfoTools Software](sysinfotools_software.md) NTFS Partition
@@ -258,14 +258,14 @@ Recovery tool can restore files, folders, photos, videos, office
 documents and much more from NTFS partitions.
 
 - [NTFS Partition
-  Recovery](http://www.stellarinfo.com/recover-windows-nt.htm)
+  Recovery](https://www.stellarinfo.com:443/recover-windows-nt.htm)
 
 
 Stellar NTFS Data Recovery Software to recover data from Windows based
 NTFS/NTFS5 file systems
 
 - [Windows Data
-  Recovery](http://www.nucleustechnologies.com/Windows-Data-Recovery-Software.html)
+  Recovery](https://www.nucleustechnologies.com/Windows-Data-Recovery-Software.html)
 
 
 Kernel for Windows Data Recovery Software to recover data from the lost,
@@ -278,13 +278,13 @@ Recover data and video from CDs/DVDs/Blu-Ray. This is specifically not
 for forensic purposes but for data recovery. A different tool called
 CD/DVD Inspector is for forensic examination of optical media.
 
-- [Partition Table Doctor](http://www.ptdd.com/index.htm)
+- [Partition Table Doctor](https://www.easeus.com/data-recovery-software/)
 
 
 Recover deleted or lost partitions
 (FAT16/FAT32/NTFS/NTFS5/EXT2/EXT3/SWAP).
 
-- [NTFS Recovery](http://www.diskinternals.com/ntfs-recovery/)
+- [NTFS Recovery](https://www.diskinternals.com/ntfs-recovery/)
 
 
 DiskInternals NTFS Recovery is a fully automatic utility that recovers
@@ -297,14 +297,14 @@ Gpart is a tool which tries to guess the primary partition table of a
 PC-type hard disk in case the primary partition table in sector 0 is
 damaged, incorrect or deleted.
 
-- [TestDisk](http://www.cgsecurity.org/wiki/TestDisk)
+- [TestDisk](https://www.cgsecurity.org/wiki/TestDisk)
 
 
 [TestDisk](testdisk.md) is an OpenSource software and is
 licensed under the GNU Public License (GPL).
 
 - [Partition Recovery
-  Software](http://www.stellarinfo.com/partition-recovery.htm)
+  Software](https://www.stellarinfo.com:443/partition-recovery.htm)
 
 
 Partition Recovery software for NTFS & FAT system that examines lost
@@ -318,7 +318,7 @@ Recover lost/damaged/formatted partition & examine the different
 scenario of corruption of Partition Data.
 
 - [M3 RAW Drive
-  Recovery](http://www.m3datarecovery.com/raw-drive-recovery/)
+  Recovery](https://www.m3datarecovery.com//raw-drive-recovery/)
 
 
 RAW partition recovery software to recover RAW drive, fix RAW drive &
@@ -327,7 +327,7 @@ RAW file system, change RAW to NTFS/FAT32 without data loss.
 ## See Also
 
 - [Using Norton Disk Edit to Backup Your Master Boot
-  Record](http://support.microsoft.com/?kbid=166997)
+  Record](https://support.microsoft.com/en-US)
 
 ## Notes
 
@@ -343,7 +343,7 @@ RAW file system, change RAW to NTFS/FAT32 without data loss.
 
 # Carving
 
-- [IsoBuster](http://www.isobuster.com)
+- [IsoBuster](https://www.isobuster.com/)
 
 
 IsoBuster supports (file) data carving per partition, session, the
@@ -396,13 +396,13 @@ eDiscovery. The suite was originally designed for data recovery and has
 since expanded to include unique file decoding, file identification and
 file classification.
 
-- [Foremost](http://foremost.sourceforge.net/)
+- [Foremost](https://foremost.sourceforge.net/)
 
 
 Foremost is a console program to recover files based on their headers,
 footers, and internal data structures.
 
-- [Scalpel](http://www.digitalforensicssolutions.com/Scalpel/)
+- [Scalpel](https://gotdfs.com/)
 
 
 Scalpel is a fast file carver that reads a database of header and footer
@@ -411,7 +411,7 @@ device files. Scalpel is filesystem-independent and will carve files
 from FATx, NTFS, ext2/3, or raw partitions.
 
 - [Photo
-  Recovery](https://sysinfotools.com/recovery/photo-recovery.php)
+  Recovery](https://www.sysinfotools.com/recovery/photo-recovery.php)
 
 
 SysInfotool Photo Recovery tool can recover lost and deleted images,
@@ -445,7 +445,7 @@ and other features aimed specifically at effective use by computer
 forensic framework.
 
 
-- [PhotoRec](http://www.cgsecurity.org/wiki/PhotoRec)
+- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)
 
 
 PhotoRec is file data recovery software designed to recover lost files
@@ -495,7 +495,7 @@ Also supports fragmented carving using
 [SmartCarving](file_carving_smartcarving.md) and
 [GuidedCarving](file_carving_guidedcarving.md).
 
-- [Belkasoft Evidence Center](http://belkasoft.com/ec)
+- [Belkasoft Evidence Center](https://belkasoft.com/x)
 
 
 [Belkasoft Evidence Center](belkasoft.md) supports data carving
@@ -504,7 +504,7 @@ emails, chats, browser histories, system files (registries, event logs,
 jumplists, thumbnails), etc. Smart carving helps defragment data inside
 Live RAM dumps.
 
-- [Digital Detective Blade](http://www.digital-detective.net/digital-forensic-software/blade/blade-feature-comparison/)
+- [Digital Detective Blade](https://www.digital-detective.net/digital-forensic-software/blade-forensic-data-recovery/blade-feature-comparison/)
 
 
 Blade from Digital Detective will carve different categories of files such as

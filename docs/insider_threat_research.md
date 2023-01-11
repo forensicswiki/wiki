@@ -41,4 +41,4 @@ tags:
 - [Defense Personnel and Security Research Center
   (PERSEREC)](https://www.dhra.mil/perserec/)
   - [Insider Threat
-    Page](https://www.dhra.mil/perserec/osg/t1threat/insider-threat.htm)
+    Page](https://www.dhra.mil/PERSEREC/OSG/t1threat/insider-threat/)

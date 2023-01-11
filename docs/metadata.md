@@ -53,10 +53,10 @@ Implemented as a small block of data stored at the end of MP3 files. ID3v1 is a
 album, 4 bytes for year, 30 bytes for comment, and 1 byte for genre. ID3v1.1
 adds a track number. ID3v2 is a general container structure.
 
-- [id3lib](http://id3lib.sourceforge.net/), a widely-used open source
+- [id3lib](https://id3lib.sourceforge.net/), a widely-used open source
   C/C++ ID3 implementation.
-- [MP3::Info](http://search.cpan.org/dist/MP3-Info/) (Perl)
-- [MPEG::ID3v2Tag](http://search.cpan.org/dist/MPEG-ID3v2Tag/) (Perl)
+- [MP3::Info](https://metacpan.org/dist/MP3-Info) (Perl)
+- [MPEG::ID3v2Tag](https://metacpan.org/dist/MPEG-ID3v2Tag) (Perl)
 
 <!-- -->
 

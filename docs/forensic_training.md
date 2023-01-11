@@ -6,7 +6,7 @@ This page lists vendors that offer various kinds of forensic training.
 
 ## Open for everyone
 
-* [AccessData Training](http://www.accessdata.com/training/)
+* [AccessData Training](https://www.exterro.com)
 * [Armor Forensics (NTI - Forensics International)](http://www.forensics-intl.com/training.html)
 * [ASR Data Training](http://www.asrdata.com/training/)
 * [Certified Computer Examiner BootCamp](http://www.cce-bootcamp.com/)
@@ -19,7 +19,7 @@ This page lists vendors that offer various kinds of forensic training.
 * [Linux Data Forensics Training](http://www.crazytrain.com/training.html)
 * [Maresware Training](http://www.maresware.com/maresware/training/maresware.htm)
 * [Paraben Forensics Training](https://paraben.com/dfir-training-3/)
-* [SmartPhoneForensics.com (Smart Phone Forensics)](http://www.SmartPhoneForensics.com)
+* [SmartPhoneForensics.com (Smart Phone Forensics)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Vigilar](http://www.vigilar.com/training.html)
 * [WetStone Technologies Investigator Training](https://www.wetstonetech.com/trainings.html)
 * [NetSecurity Hands-On How-To Training Courses](http://netsecurity.com/forensics/digital_computer_forensics_training.html)

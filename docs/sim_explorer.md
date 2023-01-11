@@ -51,4 +51,4 @@ alt="SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG" />
 
 * [SIM Explorer 1.2 release
   notes](http://www.lazybit.com/index.php/2008/12/16/sim-explorer-1-2-release-notes)
-* [SIM Explorer video demo](http://www.youtube.com/watch?v=P5dJS7g1o_c)
+* [SIM Explorer video demo](https://www.youtube.com/watch?v=P5dJS7g1o_c)

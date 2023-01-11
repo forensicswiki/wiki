@@ -216,8 +216,8 @@ discuss how these assumptions limit the impact of contributions.
 `location = {Chicago, Illinois, USA},`
 `pages = {109--120},`
 `numpages = {12},`
-`url = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](http://doi.acm.org/10.1145/1866307.1866320)`},`
+`url = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](https://dl.acm.org/doi/10.1145/1866307.1866320)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1866307.1866320`](https://dl.acm.org/doi/10.1145/1866307.1866320)`},`
 `acmid = {1866320},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
@@ -337,7 +337,7 @@ objectives such as malware analysis.</i>
 `title="Theory and practice of flash memory mobile forensics",`
 `year=2009,`
 `author="Salvatore Florillio",`
-` url="`[`https://ro.ecu.edu.au/adf/67/`](http://ro.ecu.edu.au/adf/67/)`",`
+` url="`[`https://ro.ecu.edu.au/adf/67/`](https://ro.ecu.edu.au/adf/67/)`",`
 `publisher="School of Computer and Information Science, Edith Cowan University, Perth, Western Australia",`
 `abstract="This paper is an introduction to flash memory forensics with a special focus on completeness of evidence acquired from mobile phones. Moving through academic papers and industrial documents will be introduced the particular nature of non-volatile memories present in nowadays mobile phones; how they really work and which challenges they pose to forensic investigators. Then will be presented an advanced test in which some brand new flash memories have been used to hide data in man-made bad blocks: the aim is to verify if forensic software tools are able to acquire data from such blocks, and to evaluate the possibility to hide data at analysts’ eyes."`
 
@@ -365,7 +365,7 @@ information and a growing bibliography. One of the first entries is:
 ` keywords = {erasing flash security ssd},`
 ` added-at = {2011-02-22T09:22:03.000+0100},`
 ` url={`[`https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
-` biburl = {`[`https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
+` biburl = {`[`https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
 
 } </bibtex>
 
@@ -729,7 +729,7 @@ network is well-understood before the IDS is deployed.
 
 <small>2008-July-20</small>
 
-The [International Journal of Digital Evidence](https://ecci.utica.edu/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](http://www.utica.edu/academic/institutes/ecii/) at Utica College. Current and previous issues are available online.
+The [International Journal of Digital Evidence](https://ecci.utica.edu/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](https://ecci.utica.edu/) at Utica College. Current and previous issues are available online.
 
 <!-- -->
 
@@ -786,7 +786,7 @@ fragmented test-sets of DFRWS 2006 and 2007 show that the method can be
 effectively used in recovery of fragmented ﬁles. clear that recovery of
 fragmented ﬁles is a critical problem in forensics. ",
 
-` url="`[`https://www.werecoverdata.com`](http://www.digital-assembly.com/technology/research/pubs/dfrws2008.pdf)`"`
+` url="`[`https://www.werecoverdata.com`](https://www.werecoverdata.com)`"`
 
 } </bibtex>
 
@@ -834,7 +834,7 @@ capacities. CRC64 provides a good compromise between number of
 collisions and storage capacity required for practical implementations
 of sector-scanning forensic tools.",
 
-` url="`[`https://taylorandfrancis.com`](http://www.informaworld.com/10.1080/15567280802050436)`"`
+` url="`[`https://taylorandfrancis.com`](https://taylorandfrancis.com)`"`
 
 } </bibtex>
 

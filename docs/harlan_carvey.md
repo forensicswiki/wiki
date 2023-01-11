@@ -50,7 +50,7 @@ basis.
 ## Tools
 
 - [WinForensicAnalysis
-  Tools](http://code.google.com/p/winforensicaanalysis/downloads/list) -
+  Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
   Hosted on Google Code, includes files for the Windows Registry
   Forensics book.
 
@@ -63,6 +63,6 @@ basis.
 - *[Windows Forensics and Incident
   Recovery](http://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/ref=sr_1_3?ie=UTF8&s=books&qid=1200485877&sr=1-3)*
 - *[Perl Scripting for Windows
-  Security](http://www.amazon.com/Perl-Scripting-Security-Harlan-Carvey/dp/159749173X/ref=pd_bbs_sr_2?ie=UTF8&s=books&qid=1200485877&sr=1-2)*
+  Security](https://www.amazon.com/Perl-Scripting-Windows-Security-Monitoring/dp/159749173X)*
 - *A Study of Video Teleconferencing Traffic on a TCP/IP Network*
 

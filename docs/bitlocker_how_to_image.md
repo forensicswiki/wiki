@@ -21,7 +21,7 @@ Multiple options to offline decrypt the information, provided the
 password or recovery password is available, are available. Some of which
 are:
 
-- [dislocker](http://www.hsc.fr/ressources/outils/dislocker/)
+- [dislocker](https://www.hsc.fr/securite-internet/)
 - [EnCase](encase.md)
   encryption module
 - [libbde](libbde.md)

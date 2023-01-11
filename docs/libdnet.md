@@ -47,7 +47,7 @@ tags:
   interface to libdnet
 - [libpcap](https://www.tcpdump.org/) - portable packet capture library
 - [winpcap](http://winpcap.polito.it/) - libpcap for Windows
-- [pypcap](http://monkey.org/~dugsong/pypcap/) - libpcap Python module
+- [pypcap](https://github.com/dugsong/pypcap) - libpcap Python module
 - [dpkt](https://github.com/kbandla/dpkt) - fast, simple packet
   creation and parsing in Python
 - [libnet](http://www.packetfactory.net/projects/libnet/) - packet

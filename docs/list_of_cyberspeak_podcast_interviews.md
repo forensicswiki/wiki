@@ -218,7 +218,7 @@ below.
 <!-- -->
 
 - 17 Jan 2010: Didier Stevens about some of his recent
-  [forensic tools and research](http://blog.didierstevens.com/), including
+  [forensic tools and research](https://blog.didierstevens.com/), including
   the changes to the UserAssist registry keys in Windows 7 and his malicious
   PDF tools.
 

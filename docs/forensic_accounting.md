@@ -19,7 +19,7 @@ Uganda and others
 Indiaforensic Center of Studies offers three certifications viz.
 
 - Certified [Forensic
-  Accounting](https://www.indiaforensic.com/education//CFAP) Professional
+  Accounting](https://www.indiaforensic.com/education/CFAP/) Professional
 - Certified
   [Anti-Moneylaundering](https://www.indiaforensic.com/education//mfa/overview.htm)
   Expert

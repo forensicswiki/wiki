@@ -23,7 +23,7 @@ ADF offers [three main
 products](http://https://www.adfsolutions.com//products/): Triage-G2,
 Triage-Examiner, and Triage-Responder.
 
-[Triage-G2](https://www.adfsolutions.com//products/triage-g2) is a media
+[Triage-G2](https://www.adfsolutions.com/triage-g2) is a media
 exploitation ([medex](medex.md) tool used by field operatives
 to extract intelligence from computers and peripheral devices. Triage-G2
 was specifically designed to be used by nontechnical operators and
@@ -33,7 +33,7 @@ deployment. The keys can be prepared in advance at the base or in the
 field by using one click to select mission-specific search criteria.
 Triage-G2 is used by several U.S. defense and intelligence agencies.
 
-[Triage-Examiner](https://www.adfsolutions.com//products/triage-examiner)
+[Triage-Examiner](https://www.adfsolutions.com/triage-investigator)
 is used by forensic examiners to scan suspect computers and prioritize
 the computers for full forensic examinations. Triage-Examiner is used by
 Law Enforcement agencies worldwide.
@@ -43,7 +43,7 @@ their laptops or forensic workstations to scan drive images, physical
 drives, DVDs, CDs, and other removable media that are connected to the
 workstation.
 
-[Triage-Responder](https://www.adfsolutions.com//products/triage-responder)is
+[Triage-Responder](https://www.adfsolutions.com/triage-investigator) is
 designed for nontechnical law enforcement investigators in the field to
 scan suspect computers for evidence of a crime. This tool also uses
 lightweight USB deployment and provides detailed field reporting

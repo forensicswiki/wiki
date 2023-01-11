@@ -1430,7 +1430,7 @@ Windows Explorer Windows 8.1.
 </td>
 <td>
 
-[Russ Taylor](https://hatsoffsecurity.com//2014/09/06/jump-lists/)
+[Russ Taylor](https://hatsoffsecurity.com/2014/09/06/jump-lists/)
 
 </td>
 </tr>

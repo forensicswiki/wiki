@@ -21,7 +21,7 @@ called [vinetto](vinetto.md) at
 require a python environment. Additionally, there are several other Java
 solutions based around the Jakarta project that is apart of Apache.
 Additional resources about thumbs.db can be found in a white paper at
-<http://www.accessdata.com/media/en_US/print/papers/wp.Thumbs_DB_Files.en_us.pdf>.
+<https://www.exterro.com>.
 
 MiTeC Windows File Analyzer [1](http://www.mitec.cz/wfa.html) is a tool
 for forensic analysis of Thumbnail Databases,

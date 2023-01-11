@@ -44,7 +44,7 @@ paper at the [IEEE 16th Annual Magnetic Recording
 Conference](https://nanoandthepoor.org/) in which they discussed
 the current state-of-the-art of recovering information from hard drives
 without using the drive's own read/write heads
-[3](http://www.actionfront.com/ts_whitepaper.asp).
+[3](https://www.seagate.com/de/de/contacts/).
 
 One of the key points that the paper makes is that there is a high
 degree of variability between individual modern hard drives.

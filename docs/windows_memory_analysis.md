@@ -24,7 +24,7 @@ images to practice with.
 
 <!-- -->
 
-* The [Digital Forensics Tool Testing](http://dftt.sourceforge.net/)
+* The [Digital Forensics Tool Testing](https://dftt.sourceforge.net/)
   project has published a few [Windows memory
   images](https://dftt.sourceforge.net/test13/index.html).
 
@@ -166,7 +166,7 @@ and re-released as [Volatility](docs/windows_memory_analysis.md) in August
 * [Do we need the Kernel Debugging Block?](http://blog.rekall-forensic.com/2014/02/do-we-need-kernel-debugging-block.html),
   by Michael Cohen, February 21, 2014
 
-### [Volatility Labs](http://volatility-labs.blogspot.com/)
+### [Volatility Labs](https://volatility-labs.blogspot.com/)
 
 * [MoVP 1.1 Logon Sessions, Processes, and Images](https://volatility-labs.blogspot.com/2012/09/movp-11-logon-sessions-processes-and.html)
 * [MoVP 1.2 Window Stations and Clipboard Malware](https://volatility-labs.blogspot.com/2012/09/movp-12-window-stations-and-clipboard.html)
@@ -180,7 +180,7 @@ and re-released as [Volatility](docs/windows_memory_analysis.md) in August
 * [MoVP 3.3 Analyzing USER Handles and the Win32k.sys Gahti](https://volatility-labs.blogspot.com/2012/09/movp-33-analyzing-user-handles-and.html)
 * [MoVP 3.4: Recovering tagCLIPDATA: What's In Your Clipboard?](https://volatility-labs.blogspot.com/2012/09/movp-34-recovering-tagclipdata-whats-in.html)
 * [MoVP 4.1 Detecting Malware with GDI Timers and Callbacks](https://volatility-labs.blogspot.com/2012/10/movp-41-detecting-malware-with-gdi.html)
-* [MoVP 4.2 Taking Screenshots from Memory Dumps](http://volatility-labs.blogspot.com/2012/10/movp-43-taking-screenshots-from-memory.html)
+* [MoVP 4.2 Taking Screenshots from Memory Dumps](https://volatility-labs.blogspot.com/2012/10/movp-43-taking-screenshots-from-memory.html)
 * [MoVP 4.4 Cache Rules Everything Around Me(mory)](https://volatility-labs.blogspot.com/2012/10/movp-44-cache-rules-everything-around.html)
 * [OMFW 2012: Malware In the Windows GUI Subsystem](https://volatility-labs.blogspot.com/2012/10/omfw-2012-malware-in-windows-gui.html)
 * [OMFW 2012: Reconstructing the MBR and MFT from Memory](https://volatility-labs.blogspot.com/2012/10/omfw-2012-reconstructing-mbr-and-mft.html)

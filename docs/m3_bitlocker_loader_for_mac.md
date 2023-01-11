@@ -31,4 +31,4 @@ M3 Bitlocker Loader for Mac supports Mac OS X 10.10 (Yosemite), 10.9
 
 - [Download Link](https://bitlocker-mac.en.softonic.com/mac)
 - [M3 Bitlocker Loader for
-  Mac](http://www.m3datarecovery.com/mac-bitlocker/)
+  Mac](https://www.m3datarecovery.com/mac-bitlocker/)

@@ -172,6 +172,6 @@ it is actually just beta OS version 4.5.0.81 repackaged.</li>
 
 - [Research In Motion](http://www.rim.com/), the manufacturer of the
   BlackBerry OS.
-- [BlackBerry.com](http://www.blackberry.com/), the BlackBerry OS main site.
+- [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry OS main site.
 - [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com/), Largest collaboration of
   Answers to Questions for BlackBerry

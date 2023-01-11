@@ -85,7 +85,7 @@ in the following locations:
 ### Evidence of File Execution
 
 - [Do You See What I
-  CCM?](https://www.fireeye.com/blog/threat-research/2016/12/do_you_see_what_icc.html),
+  CCM?](https://www.trellix.com/en-us/about/newsroom/stories/research.html),
   by David Pany, Fred House, December 15, 2016
 - [Secret Archives of Execution Evidence:
   CCM_RecentlyUsedApps](https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/),
