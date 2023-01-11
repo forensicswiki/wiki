@@ -29,15 +29,8 @@ hash values of "known to be good" files.
 
 HashKeeper is available, free-of-charge, to law enforcement, military
 and other government agencies throughout the world. It is available to
-the public by sending a [Freedom of Information
-Act](https://www.justice.gov/archive/ndic/ndic-moved.html) request to NDIC.
-
-## Tools
-
-- Example script
-  ([media:hashkeeper.txt](media:hashkeeper.txt.md) to produce a
-  pair of **Hashkeeper** format files for a given set of target files
-  (can be imported into [EnCase](encase.md).
+the public by sending a [Freedom of Information Act](https://www.justice.gov/archive/ndic/ndic-moved.html)
+request to NDIC.
 
 ## External Links
 

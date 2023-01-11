@@ -258,8 +258,7 @@ Reader\5.0\AVGeneral\cRecentFiles
 
 
 HKEY_CURRENT_USER\Software\Adobe\Adobe
-Acrobat\8.0\AVGeneral\cRecentFiles [Pmow](user:pmow.md) 16:14,
-23 July 2008 (UTC)
+Acrobat\8.0\AVGeneral\cRecentFiles
 
 ## Windows Explorer
 

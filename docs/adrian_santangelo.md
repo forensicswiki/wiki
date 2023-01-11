@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 <img src="../assets/images/200px-AdrianSantangelo.jpg" title="AdrianSantangelo.jpg" width="200"
 alt="AdrianSantangelo.jpg" align="right"/> Adrian Santangelo has over a decade of
@@ -26,17 +26,15 @@ locally for his network security and computer repair talents. Currently
 held (or close to acquiring) certifications include: MCP, MNE, A+,
 Security+, Network+, MCSE, CCNA, CEH, CISSP, CFCE, CCE, and CHFI.
 
-On this wiki, Adrian Santangelo is known as [User:Adrian
-Santangelo](user:adrian_santangelo.md).
+On the MediaWiki version of Forensics Wiki, Adrian was known as
+adrian_santangelo.
 
 ## External Links
 
-- [ISC Unlimited (no longer maintained)](https://www.interpretingtech.com/)
-- [Interpreting Technology](https://www.interpretingtech.com/)
-- [Skagit County Sheriff's
-  Department](http://www.skagitcounty.net/Common/asp/default.asp?d=Sheriff&c=General&p=main.htm)
-- [LinkedIn Profile](https://www.linkedin.com/in/AdrianSantangelo/)
-- [Business Facebook Page](https://www.facebook.com/InterpretingTech)
-- [Personal Facebook Page](http://www.facebook.com/Adrian.Santangelo)
-- [BrandYourself Profile](https://adriansantangelo.brandyourself.com/)
-
+* [ISC Unlimited (no longer maintained)](https://www.interpretingtech.com/)
+* [Interpreting Technology](https://www.interpretingtech.com/)
+* [Skagit County Sheriff's Department](http://www.skagitcounty.net/Common/asp/default.asp?d=Sheriff&c=General&p=main.htm)
+* [LinkedIn Profile](https://www.linkedin.com/in/AdrianSantangelo/)
+* [Business Facebook Page](https://www.facebook.com/InterpretingTech)
+* [Personal Facebook Page](http://www.facebook.com/Adrian.Santangelo)
+* [BrandYourself Profile](https://adriansantangelo.brandyourself.com/)

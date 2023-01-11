@@ -1,14 +1,14 @@
 ---
 tags:
-  -  Windows
-  -  Tools
-  -  Disk Analysis
-  -  Articles that need to be expanded
-  -  Windows
-  -  Commercial Software
+  - Articles that need to be expanded
+  - Commercial Software
+  - Disk Analysis
+  - Tools
+  - Windows
+  - Windows
 ---
 P2P Marshal is a program that helps an investigator discover and analyze
-[file sharing](file_sharing.md) software on a disk.
+file sharing software on a disk.
 
 The Forensic Edition of P2P Marshal operates on a logically mounted
 drive (i.e., a restored image of a disk, mounted as D:, E:, etc. or with
@@ -45,7 +45,6 @@ Justice (NIJ) grant. The project was originally named File Marshal.
 
 # External Links
 
-- [DFRWS'07 File Marshal paper
-  (pdf)](http://dfrws.org/2007/proceedings/p43-adelstein_pres.pdf)
+- [DFRWS'07 File Marshal paper (pdf)](http://dfrws.org/2007/proceedings/p43-adelstein_pres.pdf)
 - [p2pmarshal.com](https://www.atcorp.com/)
 - [ATC-NY](https://www.atcorp.com/)

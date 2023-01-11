@@ -12,7 +12,7 @@ tags:
 `booktitle = {Lecture Notes in Informatics},`
 `volume="P-228",`
 `year=2014,`
-`url = {`[`http://subs.emis.de/LNI/Proceedings/Proceedings228/331.pdf`](http://subs.emis.de/LNI/Proceedings/Proceedings228/331.pdf)`},`
+`url = {http://subs.emis.de/LNI/Proceedings/Proceedings228/331.pdf},`
 
 } </bibtex>
 
@@ -47,7 +47,7 @@ folder-names and timestamps.
 `location = {Rio de Janeiro, Brazil},`
 `pages = {631--642},`
 `numpages = {12},`
-`url = {`[`https://dl.acm.org/doi/10.1145/2488388.2488444`](http://dl.acm.org/citation.cfm?id=2488388.2488444)`},`
+`url = {http://dl.acm.org/citation.cfm?id=2488388.2488444)},`
 `acmid = {2488444},`
 `publisher = {International World Wide Web Conferences Steering Committee},`
 `address = {Republic and Canton of Geneva, Switzerland},`
@@ -566,7 +566,10 @@ opportunity for the digital forensic discipline.
 
 <small>2009-May</small>
 
-[Overcoming Impediments to Cell Phone Forensics](media:jensencellphones.pdf.md), Wayne Jansen, Aurelien Delaitre, and Ludovic Moenner, Proceedings of the 41st Hawaii International Conference on System Sciences - 2008
+Overcoming Impediments to Cell Phone Forensics, by Wayne Jansen, Aurelien
+Delaitre, and Ludovic Moenner, Proceedings of the 41st Hawaii International
+Conference on System Sciences - 2008
+
 Cell phones are an emerging but rapidly growing area of computer
 forensics. While cell phones are becoming more like desktop computers
 functionally, their organization and operation are quite different in
@@ -643,7 +646,7 @@ extraction system and are working on a system based on JTAG.
 
 <small>2008-Oct-30</small>
 
-[Semi-Supervised Named Entity Recognition](media:thesis-david-nadeau.pdf.md): Learning to Recognize 100 Entity Types with Little Supervision, David Nadeau, PhD Thesis, University of Ottawa, 2007.
+Semi-Supervised Named Entity Recognition: Learning to Recognize 100 Entity Types with Little Supervision, David Nadeau, PhD Thesis, University of Ottawa, 2007.
 Named Entity Recognition is the process of analyzing text documents and
 automatically identifying the Who, What, Where and Whens. David Nadeau's
 thesis presents a novel approach which bootstraps a named entity

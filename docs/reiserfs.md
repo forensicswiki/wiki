@@ -1,15 +1,11 @@
 ---
 tags:
-  -  File Systems
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - File Systems
 ---
 ## Detecting ReiserFS in a forensics environment
 
-![Image:Superblock.png](Superblock.png "Image:Superblock.png")
-
-Note: These are in
-[little-endian](https://en.wikipedia.org/wiki/Little_endian) format.
-[Pmow](user:pmow.md)
+Note: These are in little-endian format.
 
 <table border="0">
 <tr>
@@ -443,7 +439,4 @@ Inode generation: 21212
 
 ## External Links
 
-- [ReiserFS on Wikipedia](https://en.wikipedia.org/wiki/Reiserfs)
-- [The structure of the Reiser file
-  system](http://homes.cerias.purdue.edu/~florian/reiser/reiserfs.php)
-
+- [Wikipedia: ReiserFS](https://en.wikipedia.org/wiki/Reiserfs)
