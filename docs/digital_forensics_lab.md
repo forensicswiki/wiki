@@ -20,7 +20,7 @@ tags:
 
 ### Open Source Software
 
-- SleuthKit
+- Sleuth Kit
 
 ### Commercial Software
 

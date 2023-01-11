@@ -19,11 +19,11 @@ tcpflow:
   implementation's *prune* works differently when caching is enabled
   then when it is disabled
 
-SleuthKit
+Sleuth Kit
 
-- Write a FUSE-based mounter for SleuthKit, so that disk images can be
+- Write a FUSE-based mounter for Sleuth Kit, so that disk images can be
   forensically mounted using TSK.
-- Modify SleuthKit's API so that the physical location on disk of
+- Modify Sleuth Kit's API so that the physical location on disk of
   compressed files can be learned.
 
 # Digital Forensics Education
@@ -85,13 +85,13 @@ research area.
 ### Volume/File System analysis
 
 - Analysis of inter snapshot changes in [Windows Shadow Volumes](windows_shadow_volumes.md)
-- Modify SleuthKit's NTFS implementation to support NTFS encrypted files
+- Modify Sleuth Kit's NTFS implementation to support NTFS encrypted files
   (EFS)
-- Extend SleuthKit's implementation of NTFS to cover Transaction NTFS
+- Extend Sleuth Kit's implementation of NTFS to cover Transaction NTFS
   (TxF) (see [NTFS](ntfs.md))
 - Physical layer access to flash storage (requires reverse-engineering
   proprietary APIs for flash USB and SSD storage.)
-- Add support to SleuthKit for [ReFS](resilient_file_system_(refs).md).
+- Add support to Sleuth Kit for [ReFS](resilient_file_system_(refs).md).
 
 ## Error Rates
 

@@ -163,5 +163,5 @@ _Note that due to an issue within The Sleuth Kit, NTFS metadata addresses for `$
 
 ## External Links
 
-* [Body file - SleuthKitWiki](http://wiki.sleuthkit.org/index.php?title=Body_file)
+* [Body file - Sleuth KitWiki](http://wiki.sleuthkit.org/index.php?title=Body_file)
 * [Bodyfile format](https://dfimagetools.readthedocs.io/en/latest/sources/Bodyfile-format.html), by dfImageTools project

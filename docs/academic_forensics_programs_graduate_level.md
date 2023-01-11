@@ -1,29 +1,22 @@
 ---
 tags:
-  -  Research
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Research
 ---
 ## US Programs
 
-- [American InterContinental
-  University](https://www.aiuniv.edu/degrees/criminal-justice/bachelors-forensic-science)
-- [Arizona State
-  University](https://globalsecurity.asu.edu/cybersecurity/information-assurance-education)
-  & [ASU
-  Online](https://asuonline.asu.edu/online-degree-programs/technology)
-- [Boston
-  University](https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/)
+- [American InterContinental University](https://www.aiuniv.edu/degrees/criminal-justice/bachelors-forensic-science)
+- [Arizona State University](https://globalsecurity.asu.edu/cybersecurity/information-assurance-education)
+  & [ASU Online](https://asuonline.asu.edu/online-degree-programs/technology)
+- [Boston University](https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/)
   & [Boston University Online](http://cisonline.bu.edu/)
 - California Sciences Institute
-- [Carnegie Mellon
-  University](https://www.csd.cs.cmu.edu/academics/masters/overview)
-- [Champlain
-  College](https://online.champlain.edu/degrees-certificates/masters-digital-forensic-science)
+- [Carnegie Mellon University](https://www.csd.cs.cmu.edu/academics/masters/overview)
+- [Champlain College](https://online.champlain.edu/degrees-certificates/masters-digital-forensic-science)
 - Dartmouth College
 - George Mason University
 - George Washington University
-- [John Jay
-  College](http://www.jjay.cuny.edu/master-science-digital-forensics-and-cybersecurity)
+- [John Jay College](http://www.jjay.cuny.edu/master-science-digital-forensics-and-cybersecurity)
 - [Michigan State University](https://cj.msu.edu/graduates/forensic-science/forensic-home.html)
 - [Maryville University](https://online.maryville.edu/online-masters-degrees/cyber-security/)
 - Naval Postgraduate School
@@ -32,12 +25,9 @@ tags:
 - Sam Houston State University
 - Stevenson University
 - Texas State University
-- [University of
-  Alabama-Birmingham](https://businessdegrees.uab.edu/mis-degree-masters/)
-- [University of
-  Albany-SUNY](https://www.albany.edu/business/programs/bs-digital-forensics)
-- [University of Central
-  Florida](https://www.ucf.edu/online/degree/digital-forensics-m-s/)
+- [University of Alabama-Birmingham](https://businessdegrees.uab.edu/mis-degree-masters/)
+- [University of Albany-SUNY](https://www.albany.edu/business/programs/bs-digital-forensics)
+- [University of Central Florida](https://www.ucf.edu/online/degree/digital-forensics-m-s/)
 - University of Massachusetts, Amherst
 - University of New Haven
 - [University of New Orleans](https://www.uno.edu/academics/cos/computer-science)
@@ -45,28 +35,23 @@ tags:
 - University of Texas at San Antonio
 - Utica College
   [Online](http://www.onlineuticacollege.com/programs/computer-forensics-specialization.asp)\]
-- [Center for Information Security University of
-  Tulsa](http://www.cis.utulsa.edu/)
+- [Center for Information Security University of Tulsa](http://www.cis.utulsa.edu/)
 - [West Virginia University](https://forensics.wvu.edu/)
 
 ## Europe
 
-- [Cranfield University,
-  UK](http://www.cranfield.ac.uk/cds/postgraduatestudy/forensiccomputing/index.jsp)
-- [Limerick Institute of
-  Technology](http://www.lit.ie/departments/IT/MSC_Computing.html)
-- [University of
-  Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
+- [Cranfield University, UK](http://www.cranfield.ac.uk/cds/postgraduatestudy/forensiccomputing/index.jsp)
+- [Limerick Institute of Technology](http://www.lit.ie/departments/IT/MSC_Computing.html)
+- [University of Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
 - University of Bradford
 - University of East London
 - [University College Dublin](http://cci.ucd.ie/fcci)
 - [University of Technology, Mauritius](https://www.utm.ac.mu/)
 - [University of Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
 - [University of Glamorgan, Wales, UK](http://www.glam.ac.uk/coursedetails/685/549)
-- [University of Applied Sciences Albstadt-Sigmaringen,
-  Germany](http://www.digitaleforensik.com), Master of Science, Digital
-  Forensics, in cooperation with University of Mannheim and University
-  of Tübingen, Germany
+- [University of Applied Sciences Albstadt-Sigmaringen, Germany](http://www.digitaleforensik.com),
+  Master of Science, Digital Forensics, in cooperation with University of
+  Mannheim and University of Tübingen, Germany
 
 ## Asia
 

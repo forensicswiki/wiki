@@ -77,7 +77,7 @@ FreeBSD 6.2 will be installed. Now you need to configure it.
 
 # Getting Your Forensics Software Working for local analysis
 
-Note that the order you do this matters: SleuthKit won't compile with
+Note that the order you do this matters: Sleuth Kit won't compile with
 AFFLIB support unless AFFLIB is installed on your system.
 
 1.  Download and install [libewf](libewf.md) if you want EnCase support.

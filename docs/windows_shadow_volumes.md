@@ -163,13 +163,6 @@ information.
 
 <!-- -->
 
-* [Volume Shadow Copy Part 2](https://leahycenterblog.champlain.edu/),
-  by Ryan Montelbano, Scott Barrett, Jacob Blend, February 5, 2014
-* [Volume Shadow Copy Part 3](https://leahycenterblog.champlain.edu/),
-  by Scott Barrett, February 26, 2014
-* [Volume Shadow Copy Part 4](https://leahycenterblog.champlain.edu/),
-  by Ryan Montelbano, March 26, 2014
-
 ### Shadow Volumes in depth
 
 * [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
