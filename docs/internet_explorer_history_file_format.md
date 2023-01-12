@@ -231,5 +231,3 @@ deleted.
 * [pasco](https://sourceforge.net/projects/odessa/), note this tool has
   not been updated since 2004 and is considered deprecated
 * [pasco2](https://sourceforge.net/projects/pasco2/)
-* [Windows 'index.dat' Parser (id)](http://www.tzworks.net/prototype_page.php?proto_id=6),
-  by TZWorks LLC

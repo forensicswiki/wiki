@@ -82,11 +82,6 @@ Windows Shell commands:
 
 ## Tools
 
-## Commercial tools
-
-- [Windows LNK Parsing Utility (lp)](http://www.tzworks.net/prototype_page.php?proto_id=11),
-  \$210.00 tool that can be run on Windows, Linux or Mac OS-X
-
 ## Free (Non Open Source)
 
 - [Windows File Analyzer](http://mitec.cz/wfa.html), free tool that is

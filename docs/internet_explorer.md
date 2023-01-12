@@ -95,8 +95,6 @@ the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
   by [Microsoft](microsoft.md)
 * [Troubleshooting Automatic Detection](https://learn.microsoft.com/en-us/previous-versions/tn-archive/cc302643(v=technet.10)),
   by [Microsoft](microsoft.md)
-* [Windows Virtual PC VHDs for testing websites with different Internet Explorer versions](http://www.microsoft.com/en-us/download/details.aspx?id=11575),
-  by [Microsoft](microsoft.md)
 * [IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85)),
   by [Microsoft](microsoft.md), January, 2011
 * [Little-known browser commands and functions](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/),

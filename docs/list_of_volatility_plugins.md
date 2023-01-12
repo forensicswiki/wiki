@@ -97,36 +97,24 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   Enumerates window messages pending for each thread on the system.
   Window messages are the mechanism used to send things like button
   presses, mouse clicks, and other events to GUI programs.
-- [objtypescan](http://computer.forensikblog.de/files/volatility_plugins/volatility_objtypescan-current.zip)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/scanning_for_file_objects.html)) -
+- objtypescan, by Andreas Schuster -
   Enumerates Windows kernel object types. (Note: If running the SVN
   version of Volatility, just install the plugin file from this archive)
-- [keyboardbuffer](http://computer.forensikblog.de/files/volatility_plugins/keyboardbuffer.py)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/read_password_from_keyboard_buffer.html#more)) -
+- keyboardbuffer, by Andreas Schuster -
   Extracts keyboard buffer used by the BIOS, which may contain BIOS or
   disk encryption passwords.
-- [mutantscan](http://computer.forensikblog.de/files/volatility_plugins/volatility_mutantscan-current.zip)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/searching_for_mutants.html#more)) -
+- mutantscan, by Andreas Schuster -
   Extracts mutexes from the Windows kernel.(Note: If running the SVN
   version of Volatility, just install the plugin file from this
   archive.)
-- [symlinkobjscan](http://computer.forensikblog.de/files/volatility_plugins/volatility_symlinkobjscan-current.zip)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/symbolic_link_objects.html#more)) -
+- symlinkobjscan, by Andreas Schuster -
   Extracts symbolic link objects from the Windows kernel.(Note: If
   running the SVN version of Volatility, just install the plugin file
   from this archive.)
-- [driverscan](http://computer.forensikblog.de/files/volatility_plugins/volatility_driverscan-current.zip)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/scanning_for_drivers.html#more)) -
+- driverscan, by Andreas Schuster -
   Scan for kernel _DRIVER_OBJECTs. (Note: If running the SVN version of
   Volatility, just install the plugin file from this archive.)
-- [fileobjscan](http://computer.forensikblog.de/files/volatility_plugins/volatility_fileobjscan-current.zip)
-  (By [Andreas
-  Schuster](http://computer.forensikblog.de/en/2009/04/linking_file_objects_to_processes.html#more)) -
+- fileobjscan, by Andreas Schuster -
   File object -\> process linkage, including hidden files. (Note: If
   running the SVN version of Volatility, just install the plugin file
   from this archive.)

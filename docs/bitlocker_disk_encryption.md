@@ -116,7 +116,6 @@ opened on Windows 10 systems and later.
 - [Microsoft's Step by Step Guide](http://technet2.microsoft.com/WindowsVista/en/library/c61f2a12-8ae6-4957-b031-97b4d762cf311033.mspx?mfr=true)
 - [Microsoft Technical Overview](https://learn.microsoft.com/en-us/)
 - [An Introduction to Security in Windows 7](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/dd630640(v=msdn.10))
-- [Microsoft FAQ](http://www.microsoft.com/whdc/system/platform/hwsecurity/BitLockerFAQ.mspx)
 - [Microsoft Description of the Encryption Algorithm](https://www.microsoft.com/en-us/download/details.aspx?id=13866)
 - [Cold Boot Attacks, Full Disk Encryption, and BitLocker](http://secude.com/htm/801/en/White_Paper%3A_Cold_Boot_Attacks.htm)
 - [What's New in BitLocker](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831412(v=ws.11))

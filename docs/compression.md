@@ -77,10 +77,6 @@ Used in:
 * [RFC1951 - DEFLATE Compressed Data Format Specification](https://www.rfc-editor.org/rfc/rfc1951),
   by IETF
 
-### LZ1
-
-* [LZ1](http://andyh.org/LZ1.html)
-
 ### LZXpress
 
 * [MS-XCA: Xpress Compression Algorithm](https://msdn.microsoft.com/library/hh554002(v=prot.10>).aspx),

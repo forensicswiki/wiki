@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools
+  - Tools
 ---
 Here are tools that will extract metadata from document files.
 
@@ -11,7 +11,6 @@ Here are tools that will extract metadata from document files.
 <!-- -->
 
 [Belkasoft](belkasoft.md) Evidence Center
-<http://belkasoft.com/>
 
 Extracts metadata from various [Microsoft](microsoft.md) Office
 files (both 97-2003 and 2007-2013 formats), as well as Open Office
@@ -50,24 +49,9 @@ Originally developed by Stellant, supports hundreds of file types.
 
 More than 100 file types.
 
-# StickyNotes
-
-StickyNotes Parser
-
-Windows 7 StickyNotes follow the [MS Compound Document binary
-format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b);
-the StickyNotes Parser extracts metadata (time stamps) from the OLE
-format, including the text content (not the RTF contents) of the notes
-themselves. Sn.exe also extracts the modified time of the Root Entry to
-the Compound Document; all times are displayed in UTC format
-
-
-<https://code.google.com/archive/p/winforensicaanalysis/downloads>
-
 # PDF Files
 
 [Belkasoft](belkasoft.md) Evidence Center
-<http://belkasoft.com/>
 
 Extracts metadata from [PDF](pdf.md) files. Besides, can extract
 texts and embedded objects. For pictures, embedded into a PDF document,
@@ -75,18 +59,14 @@ the tool can visualize them all right in its user interface.
 
 <!-- -->
 
-[xpdf](xpdf.md)
-<http://www.xpdfreader.com/>
-
 [pdfinfo](pdfinfo.md) (part of the [xpdf](xpdf.md)
 package) displays some metadata of [PDF](pdf.md) files.
 
-(See [PDF](pdf.md))
+[XpdfReader](https://www.xpdfreader.com/index.html)
 
 # Images
 
 [Belkasoft](belkasoft.md) Evidence Center
-<http://belkasoft.com/>
 
 Extracts [EXIF](exif.md) metadata from [JPEG](jpeg.md)
 files as well as many digital camera raw files. The tool allows a user
@@ -98,7 +78,6 @@ Cache as well as carve deleted thumbnails.
 <!-- -->
 
 [Exiftool](exiftool.md)
-<https://exiftool.org/>
 
 Free, cross-platform tool to extract metadata from many different file
 formats. Also supports writing
@@ -133,16 +112,7 @@ timelines etc.
 
 <!-- -->
 
-Exif Viewer
-<http://araskin.webs.com/exif/exif.html>
-
-Add-on for Firefox and Thunderbird that displays various
-[JPEG](jpeg.md)/JPG metadata in local and remote images.
-
-<!-- -->
-
-exiftags
-<http://johnst.org/sw/exiftags/>
+[exiftags](https://johnst.org/sw/exiftags/)
 
 open source utility to parse and edit [exif](exif.md) data in
 [JPEG](jpeg.md) images. Found in many Debian based
@@ -150,8 +120,7 @@ distributions.
 
 <!-- -->
 
-exifprobe
-<https://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html>
+[exifprobe](https://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html)
 
 Open source utility that reads [exif](exif.md) data in
 [JPEG](jpeg.md) and some "RAW" image formats. Found in many
@@ -159,8 +128,7 @@ Debian based distributions.
 
 <!-- -->
 
-Exiv2
-<https://exiv2.org/>
+[Exiv2](https://exiv2.org/)
 
 Open source C++ library and command line tool for reading and writing
 metadata in various image formats. Found in almost every GNU/Linux
@@ -168,16 +136,14 @@ distribution
 
 <!-- -->
 
-pngtools
-<http://www.stillhq.com/pngtools/>
+[pngtools](http://www.stillhq.com/pngtools/)
 
 Open source suite of commands (pnginfo, pngchunks, pngchunksdesc) that reads
 metadata found in PNG files. Found in many Debian based distributions.
 
 <!-- -->
 
-pngmeta
-<https://sourceforge.net/projects/pmt/files/>
+[pngmeta](https://sourceforge.net/projects/pmt/files/)
 
 Open source command line tool that extracts metadata from PNG images. Found in
 many Debian based distributions.

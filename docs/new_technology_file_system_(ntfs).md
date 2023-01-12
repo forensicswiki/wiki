@@ -90,7 +90,6 @@ and other NTFS objects are added, deleted, and modified, NTFS enters
 records into the USN change journal, one for each volume on the
 computer. Each record indicates the type of change and the object
 changed. New records are appended to the end of the stream.
-[2](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/fsutil_usn.mspx?mfr=true)
 
     fsutil usn ...
 
@@ -104,8 +103,7 @@ file-system-metadata directory: \\\$Extend\\\$RmMetadata\\. TxF also
 uses the MFT attribute \$LOGGING_UTILITY_STREAM with the name
 \$TXF_DATA.
 
-TxF uses the [Common Log File System
-(clfs)](common_log_file_system_(clfs).md)
+TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 
 ## FILETIME date and time values
 
@@ -149,10 +147,6 @@ TxF uses the [Common Log File System
 * [Wikipedia: NTFS Reparse point](https://en.wikipedia.org/wiki/NTFS_reparse_point)
 * [MSDN: Transactional NTFS](https://learn.microsoft.com/en-us/windows/win32/fileio/transactional-ntfs-portal)
 * [Wikipedia: Transactional NTFS](https://en.wikipedia.org/wiki/Transactional_NTFS)
-* [Windows NTFS Metadata Extractor Utility](http://www.tzworks.net/prototype_page.php?proto_id=12)
-  Free tool that can be run on Windows, Linux or Mac OS-X
-* [Graphic Engine for NTFS Analysis (gena)](http://www.tzworks.net/prototype_page.php?proto_id=28)
-  (GUI to view NTFS internals/extract data on live systems)
 * [Linux-ntfs Documentation](https://sourceforge.net/directory/file-systems/)
   Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
 * [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)

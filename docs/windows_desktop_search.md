@@ -25,8 +25,7 @@ E.g. on Windows 7
     C:\ProgramData\Microsoft\Search\Data\Applications\Windows\
 
 The search index is stored in a file named **Windows.edb**. This file is
-an [Extensible Storage Engine Database
-(edb)](extensible_storage_engine_(ese)_database_file_(edb)_format.md).
+an [Extensible Storage Engine Database (edb)](extensible_storage_engine_(ese)_database_file_(edb)_format.md).
 
 To access the Windows.edb file (on a live system) the the Windows Search
 service needs to be deactivated and the necessary access rights are
@@ -69,13 +68,9 @@ database' this is easily circumvented.
 
 ## External Links
 
-* [Official website](http://www.microsoft.com/windows/desktopsearch/)
-* [Wikipedia entry on Windows Desktop
-  Search](https://en.wikipedia.org/wiki/Windows_Desktop_Search)
-* [Wikipedia list of Desktop search
-  engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
-* [Forensic analysis of the Windows Search
-  database](https://code.google.com/archive/p/libesedb/downloads)
+* [Wikipedia entry on Windows Desktop Search](https://en.wikipedia.org/wiki/Windows_Desktop_Search)
+* [Wikipedia list of Desktop search engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
+* [Forensic analysis of the Windows Search database](https://code.google.com/archive/p/libesedb/downloads)
 
 ## Tools
 

@@ -56,9 +56,7 @@ Crash Dumps
 When configured to create a full memory dump,
 [Windows](windows.md) operating systems will automatically save
 an image of physical memory when a bugcheck (aka blue screen or kernel
-panic) occurs. Andreas Schuster has a
-[blog post](http://computer.forensikblog.de/en/2005/10/acquisition_2_crashdump.html)
-describing this technique.
+panic) occurs.
 
 LiveKd Dumps
 The Sysinternals tool LiveKd can be used to create an image of physical memory
