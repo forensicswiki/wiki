@@ -125,11 +125,8 @@ List of Ubuntu-based distributions that allow root file system spoofing:
 Vulnerable Knoppix-based distributions include: SPADA, LinEn Boot CD,
 BitFlare.
 
-[Anti-Forensics.Ru project](http://anti-forensics.ru/) [released several
-ISO 9660 images](http://digitalcorpora.org/corp/aor/drives/) used to
-test various Linux Live CD distributions for root file system spoofing
-(description for all images is
-[here](http://anti-forensics.ru/casper/)).
+Anti-Forensics.Ru project released several [ISO 9660 images](https://downloads.digitalcorpora.org/corpora/drives/2009-aor/)
+used to test various Linux Live CD distributions for root file system spoofing.
 
 ### Swap space activation
 

@@ -47,12 +47,8 @@ Where LCID is the "locale identifier"
   by [Microsoft](microsoft.md)
 * [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358),
   by [Microsoft](microsoft.md)
-* [int for(ensic){blog;} - results tagged Evtx](http://computer.forensikblog.de/mt/mt-search.cgi?IncludeBlogs=3&tag=Evtx&limit=20),
-  by Andreas Schuster
 * [Introducing the Microsoft Vista Event Log File Format](http://www.dfrws.org/2007/proceedings/p65-schuster_pres.pdf),
   by Andreas Schuster, in 2007
-* [Linking Event Messages and Resource DLLs](http://computer.forensikblog.de/en/2010/10/linking-event-messages-and-resource-dlls.html),
-  by Andreas Schuster, in 2010
 * [Windows XML Event Log (EVTX) format](https://github.com/libyal/libevtx/blob/main/documentation/Windows%20XML%20Event%20Log%20(EVTX).asciidoc),
   by the [libevtx project](libevtx.md)
 
@@ -71,11 +67,10 @@ Where LCID is the "locale identifier"
 
 ## Tools
 
-* [Evtx Parser](http://computer.forensikblog.de/files/evtx/Parse-Evtx-current.zip)
 * [libevtx](libevtx.md)
 * [log2timeline](log2timeline.md)
 * [wevtutil](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749339(v=ws.11))
-* [LogParser](http://www.microsoft.com/en-us/download/details.aspx?id=24659)
+* [LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
 * [python-evtx](http://www.williballenthin.com/evtx/)
 * [winlast](https://github.com/pch3/winlast)
 * [Event log explorer](https://eventlogxp.com/)

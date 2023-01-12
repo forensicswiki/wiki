@@ -159,12 +159,6 @@ Common GNU utilities compiled for a Windows Environment.
 
 <!-- -->
 
-[SUA](http://www.microsoft.com/windowsserver2003/R2/unixcomponents/webinstall.mspx)
-
-Microsoft Subsystem for UNIX-based Applications.
-
-<!-- -->
-
 [GetHashes.sh](https://bitbucket.org/stewdebaker/unix-hashing-script)
 
 Utility to hash all files in a folder. Useful for hashing gathered

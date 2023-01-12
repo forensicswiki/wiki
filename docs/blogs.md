@@ -75,8 +75,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by David Cowen
 - [HeX-OR Forensics](http://www.nicoleibrahim.com/),
   by Nicole Ibrahim
-- [int for(ensic){blog;}](http://computer.forensikblog.de/en/),
-  by Andreas Schuster
 - [Irongeek](http://www.irongeek.com/),
   by Adrian Crenshaw
 - [JL's stuff](https://gleeda.blogspot.com/)
@@ -148,8 +146,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 ## German
 
-- [Computer Forensik Blog Gesamtausgabe](http://computer.forensikblog.de/),
-  by Andreas Schuster) ([English version](http://computer.forensikblog.de/en/))
 - [computer-forensik.org](http://computer-forensik.org),
   by [Alexander Geschonneck](alexander_geschonneck.md)
 - [Digitale Beweisführung](https://henrikbecker.blogspot.com),

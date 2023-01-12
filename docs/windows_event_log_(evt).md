@@ -152,13 +152,6 @@ be careful to keep these issues in mind when analyzing EVT logs.
 - [<File::ReadEVT>](http://www.cpan.org/modules/by-authors/id/H/HC/HCARVEY/)
   is a Perl module that parses event log files for the purpose of
   forensics.
-- [Windows Eventlog Viewer](http://www.tzworks.net/prototype_page.php?proto_id=4)
-  Free tool that can be run on Windows, Linux or Mac OS-X. Parses Windows XP,
-  Vista and Windows 7 eventlogs.
-- [evtwalk](http://www.tzworks.net/prototype_page.php?proto_id=25)
-  Command line tool to pull events and generate reports (password
-  changes, logons, clock changes, system start/stop, and credential
-  changes) from Windows event logs.
 - [libevt](libevt.md)
 - [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin
 - [evtkit - fix broken evt files](https://github.com/yarox24/evtkit)

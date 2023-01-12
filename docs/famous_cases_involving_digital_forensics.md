@@ -101,15 +101,6 @@ by repeatedly entering incorrect SIM lock codes and PUK codes. The
 defense team argued that an "inept" police investigation ignored and
 destroyed important evidence that would have shown Cooper's innocence.
 
-- <http://www.newsobserver.com/2011/03/30/1092850/detective-in-cooper-trial-accidentally.html>
-- <http://www.newsobserver.com/2011/04/07/1111094/coopers-phone-use-under-scrutiny.html>
-- <http://www.newsobserver.com/2011/04/13/1127823/investigator-brad-cooper.html>
-- <http://www.newsobserver.com/2011/04/14/1128603/computer-shows-where-body-found.html>
-- <http://www.newsobserver.com/2011/04/14/1130231/brad-coopers-lawyers-challenge.html>
-- <http://www.newsobserver.com/2011/04/15/1130823/computer-time-at-issue-in-cooper.html>
-- <http://www.newsobserver.com/2011/04/21/1144184/focus-falls-on-coopers-laptop.html>
-- <http://www.newsobserver.com/2011/04/25/1153613/coopers-defense-witnesses-question.html>
-
 ### 2009 James M. Cameron
 
 *Assistant attorney general for Maine caught up in child pornography*

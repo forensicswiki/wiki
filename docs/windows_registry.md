@@ -1301,17 +1301,6 @@ name</a></b></p></td>
 
 ### Commercial
 
-* [Yet Another Registry Utility (yaru)](http://www.tzworks.net/prototype_page.php?proto_id=3)
-  Free tool that can be run on Windows, Linux or Mac OS-X. If run in admin
-  mode, allows viewing of registry hives on live system.
-
-<!-- -->
-
-* [Windows ShellBag Parser](http://www.tzworks.net/prototype_page.php?proto_id=14)
-  Free tool that can be run on Windows, Linux or Mac OS-X.
-
-<!-- -->
-
 * [cafae](http://tzworks.net/prototype_page.php?proto_id=19) -
   Computer Account Forensic Artifact Extractor. Free tool that can be
   run on Windows, Linux or Mac OS-X to parse ntuser.dat hives.

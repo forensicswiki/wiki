@@ -653,7 +653,6 @@ object.
 
 * [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
 * [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
-* <http://www.microsoft.com>
 * <http://www.ntfs.com>
 * <http://www.ntfs.com/ntfs_vs_fat.htm>
 * <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
@@ -663,7 +662,6 @@ object.
 * <http://home.no.net/tkos/info/fat.html>
 * <http://web.ukonline.co.uk/cook/fat32.htm>
 * <http://www.ntfs.com/fat-systems.htm>
-* <http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx>
 * <http://support.microsoft.com/kb/q140418>
 
 ### Format documentation
