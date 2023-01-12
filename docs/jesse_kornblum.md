@@ -1,11 +1,8 @@
 ---
 tags:
-  -  People
+  - People
 ---
 Jesse Kornblum is a computer forensics author, researcher and engineer.
-You can read his [official website](http://jessekornblum.com/). His
-[Curriculum Vitae](http://jessekornblum.com/kornblum-cv.pdf) has a
-current list of his papers.
 
 ## Tools
 
@@ -32,4 +29,3 @@ dd](dd.md)
 [Miss Identify](miss_identify.md) - Program to identify Win32
 executables that don't have an executable extension. Can also identify
 all executables.
-

@@ -1,8 +1,8 @@
 ---
+  - Articles that need to be expanded
 tags:
-  -  Research
-  -  Websites
-  -  Articles that need to be expanded
+  - Research
+  - Websites
 ---
 The [Volatility Framework](volatility_framework.md) was designed
 to be expanded by plugins. Here is a list of the published plugins for
@@ -62,9 +62,8 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 
 ## Data Recovery
 
-- [cryptoscan](http://jessekornblum.com/tools/volatility/cryptoscan.py)
-  (By [Jesse Kornblum](jesse_kornblum.md) - Finds
-  [TrueCrypt](truecrypt.md) passphrases
+- cryptoscan, by Jesse Kornblum -
+  Finds [TrueCrypt](truecrypt.md) passphrases
 - [moddump](https://moyix.blogspot.com/2008/10/plugin-post-moddump.html)
   (By
   [Moyix](https://moyix.blogspot.com/2008/10/plugin-post-moddump.html)) -
@@ -121,11 +120,10 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 
 ## Process Enumeration
 
-- [suspicious](http://jessekornblum.com/tools/volatility/suspicious.py)
-  (By [Jesse Kornblum](jesse_kornblum.md) - Identify
-  "suspicious" processes. This version counts any command line running
-  [TrueCrypt](truecrypt.md) or any command line that starts with
-  a lower case drive letter as suspicious.
+- suspicious, by Jesse Kornblum -
+  Identify "suspicious" processes. This version counts any command line running
+  [TrueCrypt](truecrypt.md) or any command line that starts with a lower case
+  drive letter as suspicious.
 
 ## Output Formatting
 
@@ -148,15 +146,9 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 Though these are not actual plugins they are helpful tools for obtaining
 output from the [Volatility Framework](volatility_framework.md).
 
-- [VolReport(win)](http://volatility.googlecode.com/files/vol-Report%28win%29.zip)
-  (By
-  [SAL](http://volatility.googlecode.com/files/VolReport%28win%29_%20Simple%20Aggregation%20for%20Volatility%20Output.pdf))
-- [Volatility Batch File
-  Maker](http://forensiczone.blogspot.com/2009/10/volatility-batch-file-maker.html)
-  (By [Richard
-  McQuown](http://forensiczone.blogspot.com/2009/10/walk-through-volatility-batch-file.html))
+- VolReport(win), by SAL
+- [Volatility Batch File Maker](http://forensiczone.blogspot.com/2009/10/volatility-batch-file-maker.html)
+  (By [Richard McQuown](http://forensiczone.blogspot.com/2009/10/walk-through-volatility-batch-file.html))
 - [Volscript](https://docs.google.com/leaf?id=0Bz2rZ4S-yK8AZDYzNDU3ZjktYTBhMS00NGQ3LTg2MGItYWM2YTFjYWE3YmQ3&sort=name&layout=list&num=50)
   Windows based Volatility batch script that runs a number of Volatility
-  commands to produce a report (By [Christopher
-  Bentley](http://active-security.blogspot.com/2011/05/volatility-script-for-windows.html))
-
+  commands to produce a report (By [Christopher Bentley](http://active-security.blogspot.com/2011/05/volatility-script-for-windows.html))

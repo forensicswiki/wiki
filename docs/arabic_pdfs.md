@@ -61,8 +61,3 @@ Microsoft’s True Type Open, the precursor of today's OpenType.
 Arabic Presentation Forms should never be encoded, such a practice
 amounts to reverting to Font Pages, whose very proliferation caused the
 development of a more intelligent alternative: Unicode.
-
-## References
-
-- <http://www.river-valley.tv/conferences/arabic_typography_2008/>
-- <http://www.river-valley.tv/conferences/non_latintypefacedesign/>

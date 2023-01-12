@@ -158,7 +158,7 @@ information.
   by Jimmy Weg, July 2012
 * [Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?](http://justaskweg.com/?p=710),
   by Jimmy Weg, August 2012
-* [Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3](http://sandersonforensics.com/forum/content.php?168-Reconnoitre),
+* Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013
 
 <!-- -->
@@ -191,7 +191,6 @@ information.
 * [ShadowExplorer](https://www.shadowexplorer.com/)
 * [VSC Toolset](https://dfstream.blogspot.com/p/vsc-toolset.html)
 * [X-Ways Forensics](x-ways_ag.md)
-* [Reconnoitre](http://sandersonforensics.com/forum/content.php?168-Reconnoitre)
 * Vssadmin - Command Line utility included in Windows XP and later,
   which can list, create, or delete volume shadow copies. This utility
   will also list the installed shadow copy writers and providers.

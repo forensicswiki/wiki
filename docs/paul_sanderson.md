@@ -1,8 +1,7 @@
 ---
 tags:
-  - No Category
+  - People
 ---
 Paul Sanderson
 
-[Sanderson Forensics - computer forensic
-investigations](http://www.sandersonforensics.com)
+[Sanderson Forensics](https://sqliteforensictoolkit.com/)

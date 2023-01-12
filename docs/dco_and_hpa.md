@@ -71,8 +71,7 @@ above)
 - [HDD Capacity Restore](http://hddguru.com/software/2007.07.20-HDD-Capacity-Restore-Tool/),
   a reportedly Free utility that removed the DCO (to give you more
   storage for your hard drive!)
-- [Tableau TD1](http://www.tableau.com/pdf/en/Tableau_TD1_Product_Brief.pdf) can
-  remove the HPA and DCO.
+- Tableau TD1 can remove the HPA and DCO.
 - [Blancco-Pro 4.5](http://www.mp3cdsoftware.com/blancco---pro-download-292.htm)
   reportedly removes the HPA and DCO to completely obliterate all of
   that pesky information which might get in the way.

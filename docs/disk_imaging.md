@@ -68,8 +68,8 @@ process, parallel compression can reduce the total time of the imaging
 process. [Guymager](guymager.md) was one of the first imaging
 tools to implement the concept of multi-process compression for the
 [Encase image file format](encase_image_file_format.md). This
-technique is now used by various imaging tools including [Tableau Imager
-(TIM)](https://www.tableau.com/?pageid=productshttp://www.tableau.com/index.php?pageid=products&model=TSW-TIMmodel=TSW-TIM)
+technique is now used by various imaging tools including Tableau Imager
+(TIM)
 
 Other techniques like storing the data sparse, using **empty-block
 compression** or **pattern fill**, can reduce the total time of the
@@ -111,7 +111,7 @@ rare since the non-encrypted data is what undergoes analysis.
 
 ## External Links
 
-* [Benchmarking Hard Disk Duplication Performance in Forensic Applications](http://www.tableau.com/pdf/en/Tableau_Forensic_Disk_Perf.pdf),
+* Benchmarking Hard Disk Duplication Performance in Forensic Applications,
   by Robert Botchek
 * [Feeling odd - Using new OS and CPU features to speed up large file copying](http://stealth.openwall.net/papers/odd.pdf),
   by Sebastian Krahmer, June 2012

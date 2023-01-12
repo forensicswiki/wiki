@@ -128,11 +128,6 @@ available.
 - Network Instruments [11](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
 - NIKSUN's NetDetector
 - PacketMotion [12](https://www.vmware.com/company/acquisitions.html)
-- Sandstorm's
-  [NetIntercept](http://www.sandstorm.net/products/netintercept/) -
-  Passive monitoring appliance. Qt/X11 GUI. FreeBSD platform. Uses
-  forensic parsers written by Sandstorm to access document content and
-  metadata.
 - WildPackets [OmniPeek](omnipeek.md)
   [13](http://www.wildpackets.com/solutions/it_solutions/network_forensics)
   [14](http://www.wildpackets.com/products/distributed_network_analysis/omnipeek_network_analyzer/forensics_search)

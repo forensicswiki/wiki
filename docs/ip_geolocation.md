@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Network Analysis
 ---
 IP geolocation is the process of turning an IP address into a physical
 location. It cannot be done with 100% accuracy, but there are a growing
@@ -14,8 +14,7 @@ pretty well.
 
 ## Commercial Geolocation services
 
-- [Digital
-  Element](http://www.digital-element.net/ip_intelligence/ip_intelligence.html)
+- [Digital Element](http://www.digital-element.net/ip_intelligence/ip_intelligence.html)
 - [IP2Location](https://www.ip2location.com/?AfID=23224) (free query: 20
   lookups/day)
 - [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases) (free service:
@@ -31,17 +30,10 @@ pretty well.
 - [CountryHawk (commercial)](http://www.cyscape.com/products/chawk)
 - [Verifia NetGeo (commercial)](http://www.netgeo.com/index.htm)
 - [ActiveTarget (commercial)](http://www.activetarget.com/)
-- [Java IP (InetAddress) Locator (free lookup library with
-  database)](https://sourceforge.net/projects/javainetlocator/)
-- [CountryWhois DB
-  (commercial)](http://www.tamos.com/products/ip-location-database)
+- [Java IP (InetAddress) Locator (free lookup library with database)](https://sourceforge.net/projects/javainetlocator/)
+- [CountryWhois DB (commercial)](http://www.tamos.com/products/ip-location-database)
 - [CountryWhois](http://www.countrywhois.com/online-demo.php)
 - [IPAddressGuide](https://www.ipaddressguide.com/)
-- [Dots IP Address Validation
-  (commercial)](http://www.serviceobjects.com/products/dots_ipgeo.asp?zut=GGL1004&bhcp=1)
-- [Dots Demo](http://www.serviceobjects.com/demos/geopinpointdemo.asp)
-  (free online lookups (10 per day))
 - [GeoCate (commercial)](http://www.geocate.com/index.htm)
-- [Jgsoft IP Address Geolocation (commercial w/free limited online
-  lookups)](http://www.ip2country.net/)
+- [Jgsoft IP Address Geolocation (commercial w/free limited online lookups)](http://www.ip2country.net/)
 - [Nami Media (commercial)](http://www.namimedia.com/geo.htm)

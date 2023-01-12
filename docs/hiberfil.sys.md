@@ -26,10 +26,7 @@ Program](https://learn.microsoft.com/en-us/),
 Microsoft released documentation on the Xpress compression algorithm in
 the [Directory Replication Service (DRS) Remote
 Protocol](http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-DRSR%5D.pdf)
-specification (section 4.1.10.6.15, "DecompressWin2k3"). However, the
-pseudocode given contains numerous errors, as documented by Matthieu
-Suiche in a [blog
-entry](http://www.msuiche.net/2008/04/06/few-words-about-microsoft-interoperability-initiative/).
+specification (section 4.1.10.6.15, "DecompressWin2k3").
 
 | Windows Version | Compression               |
 |-----------------|---------------------------|
@@ -48,8 +45,6 @@ from the multiple levels of slack space within them.
 
 * [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
   by Matthieu Suiche
-* [Enter SandMan](http://www.msuiche.net/pres/PacSec07-slides-0.4.pdf),
-  by Nicolas Ruff, Matthieu Suiche
 * [Hibernation File Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
   by Peter Kleissner, 2009
 * [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki), by

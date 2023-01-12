@@ -107,9 +107,9 @@ opened on Windows 10 systems and later.
 ## External Links
 
 - [Wikipedia entry on BitLocker](https://en.wikipedia.org/wiki/BitLocker_Drive_Encryption)
-- [Accessing Bitlocker volumes from linux](http://www.nvlabs.in/nvbit_bitlocker_white_paper.pdf),
+- Accessing Bitlocker volumes from Linux,
   by Nitin Kumar and Vipin Kumar, 2008
-- [Implementing BitLocker for Forensic Analysis](http://jessekornblum.com/publications/di09.html),
+- [Implementing BitLocker for Forensic Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1742287609000024),
   *Digital Investigation*, by Jesse D. Kornblum, 2009
 - [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/master/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
   by the [libbde project](libbde.md), March 2011
