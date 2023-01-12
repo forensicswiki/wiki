@@ -30,9 +30,8 @@ images to practice with.
 
 <!-- -->
 
-* The [CFReDS Project](cfreds_project.md) has created some
-  [downloadable memory
-  images](https://cfreds.nist.gov/mem/memory-images.rar).
+* The CFReDS Project has created some
+  [downloadable memory images](https://cfreds.nist.gov/mem/memory-images.rar).
 
 <!-- -->
 
@@ -46,13 +45,12 @@ images to practice with.
 * [Memory analysis](memory_analysis.md)
 * [Tools:Memory Imaging](tools_memory_imaging.md)
 * [Pagefile.sys](pagefile.sys.md)
-* [Memory Limits for Windows
-  Releases](https://learn.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases),
+* [Memory Limits for Windows Releases](https://learn.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases),
   Microsoft MSDN.
 
 ## History
 
-During the 1990s, it became a [best practice](best_practice.md)
+During the 1990s, it became a best practice
 to capture a [memory image](tools_memory_imaging.md) during
 [incident response](incident_response.md). At the time, the only
 way to analyze such memory images was using
@@ -63,15 +61,15 @@ associate what data came from what program, let alone what user.
 In the summer 2005 the [Digital Forensic Research Workshop](digital_forensic_research_workshop.md)
 published a *Memory Analysis Challenge*. They distributed two memory images and
 asked researchers to answer a number of questions about a security incident.
-The challenge produced two seminal works. The first, by [Chris Betz](chris_betz.md),
-introduced a tool called [memparser](memparser.md). The second, by [George Garner](george_garner.md)
-and [Robert-Jan Mora](robert-jan_mora.md) produced KnTList.
+The challenge produced two seminal works. The first, by Chris Betz,
+introduced a tool called memparser. The second, by [George Garner](george_garner.md)
+and Robert-Jan Mora produced KnTList.
 
 At the [Blackhat Federal](blackhat_(conference).md) conference in March 2007,
 [AAron Walters](aaron_walters.md) and [Nick Petroni](nick_petroni.md) released
 a suite called Volatools. Although it only worked on Windows XP Service Pack 2
 images, it was able to produce a number of useful data. Volatools was updated
-and re-released as [Volatility](docs/windows_memory_analysis.md) in August
+and re-released as Volatility in August
 2007, and is now maintained and distributed by [Volatile Systems](https://www.volatilesystems.com/).
 
 ## Bibliography
@@ -190,15 +188,15 @@ and re-released as [Volatility](docs/windows_memory_analysis.md) in August
 ### WinDBG
 
 * [Getting Started with WinDBG - Part 1](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-1.html),
-  by [Brad Antoniewicz](brad_antoniewicz.md), December 17, 2013
+  by Brad Antoniewicz, December 17, 2013
 * [Getting Started with WinDBG - Part 2](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-2.html),
-  by [Brad Antoniewicz](brad_antoniewicz.md), December 24, 2013
+  by Brad Antoniewicz, December 24, 2013
 * [Getting Started with WinDBG - Part 3](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-3.html),
-  by [Brad Antoniewicz](brad_antoniewicz.md), December 31, 2013
+  by Brad Antoniewicz, December 31, 2013
 * [Developing WinDbg ExtEngCpp Extension in C++ – Introduction – Part 1](http://www.msuiche.net/2014/01/12/extengcpp-part-1/),
-  by [Matt Suiche](matt_suiche.md), January 12, 2014
+  by Matt Suiche, January 12, 2014
 * [Developing WinDbg ExtEngCpp Extension in C++ – COM Interface – Part 2](http://www.msuiche.net/2014/01/15/developing-windbg-extengcpp-extension-in-c-com-interface/),
-  by [Matt Suiche](matt_suiche.md), January 15, 2014
+  by Matt Suiche, January 15, 2014
 * [Developing WinDbg ExtEngCpp Extension in C++ – Memory & Debugger Markup Language (DML) – Part 3](http://www.msuiche.net/2014/01/20/developing-windbg-extengcpp-extension-in-c-memory-debugger-markup-language-dml-part-3/),
-  by [Matt Suiche](matt_suiche.md), January 20, 2014
+  by Matt Suiche, January 20, 2014
 * [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/comaeio/SwishDbgExt)

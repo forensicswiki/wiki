@@ -1,7 +1,7 @@
 ---
 tags:
-  - Tools
   - Memory Imaging
+  - Tools
 ---
 ## Memory Imaging Tools
 
@@ -12,8 +12,6 @@ Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
 
-Inquire at <http://www.windowsscope.com>.
-
 <!-- -->
 
 [WindowsSCOPE](http://www.windowsscope.com) CaptureGUARD ExpressCard (commercial) - laptop applications
@@ -21,17 +19,9 @@ Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
 
-Inquire at <http://www.windowsscope.com>.
-
 <!-- -->
 
-Tribble PCI Card (research project)
-<https://digital-evidence.org/papers/tribble-preprint.pdf>
-
-<!-- -->
-
-Forensic RAM Extraction Device (FRED) by BBN
-Not publicly available. <http://www.ir.bbn.com/~vkawadia/>
+[Tribble PCI Card](https://digital-evidence.org/papers/tribble-preprint.pdf) (research project)
 
 ### [Windows](windows.md) Software
 
@@ -52,7 +42,6 @@ tools.
 
 <!-- -->
 
-
 Designed specifically for computer forensics. Fully portable, runs off a
 flash drive, produces uncompressed raw binary output of the computer’s
 volatile memory. Includes kernel-mode drivers for all Windows OS’es
@@ -61,19 +50,19 @@ are included.
 
 <!-- -->
 
-
-<http://forensic.belkasoft.com/en/ram-capturer>
+[Belkasoft Live RAM Capturer](https://belkasoft.com/ram-capturer)
 
 <!-- -->
 
-WindowsSCOPE Pro and Ultimate, available at <http://www.windowsscope.com>
+[WindowsSCOPE Pro and Ultimate](http://www.windowsscope.com)
+
 Can capture, analyze, graph in depth physical and virtual memory codes
 and structures
 
 Proprietary and standard formats (windd), snapshot repository, snapshot
 comparison
 
-All Windows OSs (Xp, Vista, 7), 32 and 64 bit supported
+All Windows OSs (Xp, Vista, 7), 32-bit and 64-bit supported
 
 Phantom Probe USB based fetch
 
@@ -83,17 +72,12 @@ acquisition
 CaptureGUARD Gateway for hardware-assisted DRAM acquisition of locked
 computers
 
-launched in 2011
-
 <!-- -->
 
-WindowsSCOPE Live
-available at <http://www.windowsscope.com> and Android market
+[WindowsSCOPE Live](http://www.windowsscope.com)
 
 allows live memory analysis of Windows computers from Android phones and
 tablets
-
-launched in 2011International Organisations
 
 <!-- -->
 
@@ -117,7 +101,7 @@ from other tools.
 
 Moonsols: [DumpIt](https://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7)
 This utility is used to generate a physical memory dump of Windows
-machines. It works with both x86 (32-bits) and x64 (64-bits) machines.
+machines. It works with both x86 (32-bit) and x64 (64-bit) machines.
 
 The raw memory dump is generated in the current directory, only a
 confirmation question is prompted before starting.
@@ -126,17 +110,16 @@ Perfect to deploy the executable on USB keys, for quick incident
 responses needs.
 
 
-[FTK Imager](ftk_imager.md): FTK Imager
-<http://accessdata.com/support/adownloads#FTKImager>
+[FTK Imager](ftk_imager.md)
 
-FTK Imager can acquire live memory and paging file on 32bit and 64bit
+FTK Imager can acquire live memory and paging file on 32-bit and 64-bit
 systems.
 
 <!-- -->
 
 [OSForensics](https://www.osforensics.com/)
 
-OSForensics can acquire live memory on 32bit and 64bit systems. A dump
+OSForensics can acquire live memory on 32-bit and 64-bit systems. A dump
 of an individual process's memory space or physical memory dump can be
 done. Output can be a straight dump or a Microsoft crash dump file, for
 use with Micrsoft's WinDbg debugger.
@@ -185,8 +168,7 @@ provides access only to a restricted range of addresses, rather than the
 full physical memory of a system. On other systems it may not be
 available at all. Throughout the 2.6 series of the Linux kernel, the
 trend was to reduce direct access to memory via pseudo-device files.
-See, for example, the message accompanying this patch:
-<https://lwn.net/Articles/267427/>.
+See, for example, the message accompanying this [patch](https://lwn.net/Articles/267427/).
 
 [Second Look: Linux Memory Forensics](https://secondlookforensics.com/)
 This commercial memory forensics product ships with a modified version

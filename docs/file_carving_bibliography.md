@@ -94,7 +94,7 @@ of sector-scanning forensic tools.",
 
 ## Evaluations
 
-* [Measuring and Improving the Quality of File Carving Methods](media:kloet_2007.pdf.md),
+* [Measuring and Improving the Quality of File Carving Methods](https://github.com/libyal/documentation/blob/main/Thesis%20-%20Measuring%20and%20Improving%20the%20Quality%20of%20File%20Carving%20Methods.pdf)
   by S.J.J. Kloet , Master's thesis, Eindhoven University of Technology, August 2007
 
 ## See also

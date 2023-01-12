@@ -58,9 +58,6 @@ A common location for Amcache.hve is:
 ## External Links
 
 - [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
-- [Windows 8 Forensics - part 1](http://computerforensics.champlain.edu/blog/windows-8-forensics)
-- [Windows 8 Forensics - part 2](http://computerforensics.champlain.edu/blog/windows-8-forensics-part-2)
-- [Windows 8 Forensics - part 3](http://computerforensics.champlain.edu/blog/windows-8-forensics-part-3)
 - [Windows 8 Registry Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
 - [Windows 8 Forensic Guide](http://propellerheadforensics.files.wordpress.com/2012/05/thomson_windows-8-forensic-guide2.pdf),
   by Amanda C. F. Thomson, 2012

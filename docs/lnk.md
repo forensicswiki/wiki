@@ -69,7 +69,7 @@ Windows Shell commands:
 ## External Links
 
 - [The Meaning of Linkfiles In Forensic Examinations](http://computerforensics.parsonage.co.uk/downloads/TheMeaningofLIFE.pdf),
-  by [Harry Parsonage](harry_parsonage.md), September 2008
+  by Harry Parsonage, September 2008
 - [MS-SHLLINK](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-shllink/16cb4ca1-9339-4d0c-a68d-bf1d6cc0f943)
 - [Windows Shortcut File (LNK) format](https://github.com/libyal/liblnk/blob/master/documentation/Windows%20Shortcut%20File%20(LNK)%20format.asciidoc),
   by the [liblnk project](liblnk.md)
