@@ -233,7 +233,7 @@ Garfinkel, S., Anti-Forensics: Techniques, Detection and
 Countermeasures, The 2nd International Conference on i-Warfare and
 Security (ICIW), Naval Postgraduate School, Monterey, CA, March 8-9,
 2007.
-[2](http://www.simson.net/clips/academic/2007.ICIW.AntiForensics.pdf)
+[2](https://simson.net/clips/academic/2007.ICIW.AntiForensics.pdf)
 
 Henrique, G. Wendel, Anti Forensics: Making computer forensics hard,
 Code Breakers III, São Paulo, Brazil, Setember 2006.

@@ -85,7 +85,7 @@ plugin, Barnyard2 manages the sending of events to the database and
 stores them when the database temporarily cannot accept connections.
 
 For more information and to download please visit
-[barnyard2](http://www.securixlive.com/barnyard2/download.php/)
+[barnyard2](https://firnsy.com/)
 
 #### DAQ
 

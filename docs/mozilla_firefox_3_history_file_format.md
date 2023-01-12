@@ -251,7 +251,7 @@ query:
 
 ## External Links
 
-- [Firefox 3 Extractor](http://www.firefoxforensics.com/f3e.shtml)
+- [Firefox 3 Extractor](http://ww38.firefoxforensics.com/f3e.shtml)
 - [FoxAnalysis](https://www.foxtonforensics.com/browser-history-examiner/)
 - [FireFox Forensics (F3)
   tool](http://www.machor-software.com/firefox_forensics)

@@ -14,7 +14,7 @@ strings in the binary data are not directly visible.
 The program **plutil** is native to [Mac OS X](mac_os_x.md) (as
 of 10.2), however it is also included when iTunes is installed on a
 Windows PC. On linux libplist
-[1](http://cgit.sukimashita.com/libplist.git) also provides an
+[1](https://cgit.sukimashita.com/libplist.git) also provides an
 equivalent of **plutil**.
 
 plutil on a Windows PC is stored in:
@@ -42,5 +42,5 @@ Or with libplist
 - [Apple plutil man
   page](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/plutil.1.html)
 - [A library to handle Apple Property List format in binary or
-  XML](http://cgit.sukimashita.com/libplist.git/)
+  XML](https://cgit.sukimashita.com/libplist.git/)
 

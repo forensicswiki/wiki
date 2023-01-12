@@ -58,7 +58,7 @@ Implementation (NSDI '08), which will take place April 16-18, 2008.
 
 The submissions deadline is 11:59 p.m. EST on Monday, February 11, 2008.
 Submissions guidelines can be found at
-<http://www.usenix.org/leet08/cfpb>
+<https://www.usenix.org/legacy/leet08/cfpb/>
 
 We look forward to your submissions.
 

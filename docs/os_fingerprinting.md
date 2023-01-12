@@ -60,6 +60,6 @@ Passive fingerprinters:
 
 - [Remote OS detection paper](https://nmap.org/book/osdetect.html)
 - [Passive OS
-  Fingerprinting](http://www.netresec.com/?page=Blog&month=2011-11&post=Passive-OS-Fingerprinting)
+  Fingerprinting](https://www.netresec.com/?page=Bloghttp://www.netresec.com/?page=Blog&month=2011-11&post=Passive-OS-Fingerprintingmonth=2011-11http://www.netresec.com/?page=Blog&month=2011-11&post=Passive-OS-Fingerprintingpost=Passive-OS-Fingerprinting)
   (good walkthrough)
 

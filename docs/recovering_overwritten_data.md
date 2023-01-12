@@ -17,7 +17,7 @@ The most widely known paper in this area is [Peter
 Gutmann](peter_gutmann.md)'s 1996 classic, *Secure Deletion of
 Data from Magnetic and Solid-State Memory*, Proceedings of the Sixth
 Usenix Security Symposium
-[1](http://www.usenix.org/publications/library/proceedings/sec96/gutmann.html).
+[1](https://www.usenix.org/legacy/publications/library/proceedings/sec96/gutmann.html).
 An extended version of the paper appears on Peter Gutmann's website
 [2](http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html).
 

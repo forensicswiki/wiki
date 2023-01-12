@@ -266,14 +266,14 @@ Mac OS.
 ### Alias
 
 * [Reversing Mac Alias v3 Data
-  Objects](https://sysforensics.org/2016/08/mac-alias-data-objects/), by
+  Objects](http://survey-smiles.com), by
   Patrick Olsen, August 15, 2016
 
 ### Apple Examiner
 
 * [The Apple Examiner](http://www.appleexaminer.com/)
-* [USB Entries on OS X](http://www.appleexaminer.com/MacsAndOS/Analysis/USBOSX/USBOSX.html)
-* [Macintosh Forensics - A Guide for the Forensically Sound Examination of a Macintosh Computer](http://www.appleexaminer.com/Downloads/MacForensics.pdf),
+* [USB Entries on OS X](http://www.appleexaminer.com)
+* [Macintosh Forensics - A Guide for the Forensically Sound Examination of a Macintosh Computer](http://www.appleexaminer.com),
   by Ryan R. Kubasiak
 
 ### EFI

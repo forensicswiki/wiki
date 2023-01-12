@@ -106,7 +106,7 @@ formats. Also supports writing
 <!-- -->
 
 [jhead](jhead.md)
-<http://www.sentex.net/~mwandel/jhead/>
+<https://www.sentex.ca/~mwandel/jhead/>
 
 Displays or modifies [Exif](exif.md) data in
 [JPEG](jpeg.md) files.

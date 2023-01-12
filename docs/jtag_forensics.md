@@ -49,5 +49,5 @@ other means.
 
 ## References
 
-* [Analyzing Windows Phone 8.1 JTAG and UFED Dumps](http://belkasoft.com/en/jtag-analysis),
+* [Analyzing Windows Phone 8.1 JTAG and UFED Dumps](https://belkasoft.com/jtag-analysis),
   article by [Belkasoft](belkasoft.md)

@@ -129,7 +129,7 @@ files along with primary files.
 
 The following lists are loosely based of:
 
-* [Silent Runners.vbs](http://www.silentrunners.org/Silent%20Runners.vbs)
+* [Silent Runners.vbs](https://www.silentrunners.org/Silent%20Runners.vbs)
 * [Forensic Artifacts](artifacts.md)
 
 <b>Note that in the lists below HKEY_CURRENT_USER is a subset of
@@ -1187,9 +1187,9 @@ name</a></b></p></td>
 
 * [Wikipedia: Windows Registry](https://en.wikipedia.org/wiki/Windows_Registry)
 * [Windows Incident Response Articles on Registry](http://windowsir.blogspot.com/search/label/Registry)
-* [Windows Registry Information](http://www.answers.com/topic/win-registry)
+* [Windows Registry Information](https://www.answers.com/redirectSearch?query=win-registry)
 * [Push the Red Button](https://moyix.blogspot.com/search/label/registry)
-* [Security Accounts Manager](http://www.beginningtoseethelight.org/ntsecurity/)
+* [Security Accounts Manager](http://survey-smiles.com)
 * [Registry MRU Locations](http://windowsxp.mvps.org/RegistryMRU.htm)
 * [Exporting registry hives from a live system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
   by Maxim Suhanov, October 3, 2020
@@ -1219,12 +1219,12 @@ name</a></b></p></td>
 
 * [Understand and Control Startup Apps with the System Configuration Utility](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ee851671(v=msdn.10)),
   by [Microsoft Technet](microsoft.md)
-* [Silent Runners](http://www.silentrunners.org/), by Andrew Aronoff
+* [Silent Runners](https://www.silentrunners.org/), by Andrew Aronoff
 * [Digital Forensics: Persistence Registry keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),
   Dave Hull, October 20, 2010
 * [Beyond good ol’ Run key](http://www.hexacorn.com/blog/2012/07/23/beyond-good-ol-run-key/),
   Hexacorn blog, July 23, 2012
-* [Plugins: soft_run user_run](http://journeyintoir.blogspot.ch/2013_04_01_archive.html),
+* [Plugins: soft_run user_run](http://journeyintoir.blogspot.com/2013_04_01_archive.html),
   by Corey Harrell, April 17, 2013
 * [Auto-Start Extensibility Points (ASEPs)](https://code.google.com/archive/p/regripper/wikis/ASEPs.wiki),
   by the [RegRipper project](regripper.md), April 29, 2013
@@ -1239,16 +1239,16 @@ name</a></b></p></td>
   Didier Stevens
 * [UserAssist V2.3.0](https://blog.didierstevens.com/2007/07/17/userassist-v230/), by
   Didier Stevens, Tuesday 17 July 2007
-* [More on (the) UserAssist keys](http://windowsir.blogspot.ch/2007/09/more-on-userassist-keys.html),
+* [More on (the) UserAssist keys](http://windowsir.blogspot.com/2007/09/more-on-userassist-keys.html),
   by [Harlan Carvey](harlan_carvey.md), Monday, September 03,
   2007
 * [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](https://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
   by Didier Stevens, January 18, 2009
-* [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.ch/2010/05/prefetch-and-user-assist.html),
+* [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.com/2010/05/prefetch-and-user-assist.html),
   by DC174, Thursday, 27 May 2010
 * [Forensic Artifact: UserAssist](http://forensicartifacts.com/2010/07/userassist/), July
   2010
-* [SANS Forensic Artifact 6: UserAssist](http://sploited.blogspot.ch/2012/12/sans-forensic-artifact-6-userassist.html),
+* [SANS Forensic Artifact 6: UserAssist](http://sploited.blogspot.com/2012/12/sans-forensic-artifact-6-userassist.html),
   by Sploited, Thursday, 27 December 2012
 * [UserAssist Forensics (timelines, interpretation, testing, & more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
   by Dan (@4n6k), Tuesday, May 14, 2013

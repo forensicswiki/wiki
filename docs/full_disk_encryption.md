@@ -33,7 +33,7 @@ management). There is a proprietary Windows-only API, but it is not
 available to the public.
 
 - [FIPS
-  140-2](http://www.seagate.com/ww/v/index.jsp?name=st9500422as-momentus-7200-fde-fips-140-2-sata-500gb-hd&vgnextoid=0be9f080d2c55210VgnVCM1000001a48090aRCRD&locale=en-US&pf=1)
+  140-2](https://www.seagate.com/de/de/)
   (Federal Information Processing Standard 140-2 certification issued by
   NIST)
 
@@ -77,7 +77,7 @@ Network Appliance (Decru)
 ## Software Solutions
 
 beCrypt
-<http://www.becrypt.com/our_products/disk_protect.php>
+<https://www.becrypt.com/uk/>
 
 <!-- -->
 

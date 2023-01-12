@@ -15,4 +15,4 @@ of sorting the good from the bad/harmful
 
 - [Project site](http://fileinfo.prevx.com/) - no longer works
 - [Project site - archived
-  version](http://archive.today/fileinfo.prevx.com)
+  version](https://archive.ph/fileinfo.prevx.com)

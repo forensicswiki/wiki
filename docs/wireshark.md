@@ -79,7 +79,7 @@ hover over "follow", then click on "TCP STREAM".
 
 ## External Links
 
-- [Wireshark Wiki](http://wiki.wireshark.org/)
+- [Wireshark Wiki](https://wiki.wireshark.org/Home)
 
 ## See Also
 

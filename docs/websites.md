@@ -7,13 +7,13 @@ related topics.
 
 # Digital Forensics
 
-[Bruce Nikkel's Computer Forensics Homepage](http://digitalforensics.ch/)
+[Bruce Nikkel's Computer Forensics Homepage](https://digitalforensics.ch/)
 
 Presentations, links, references
 
 <!-- -->
 
-[Digital Forensic Solution Provider Website](http://forensicpeople.com/)
+[Digital Forensic Solution Provider Website](https://www.afternic.com:443/forsale/forensicpeople.com?utm_source=TDFS_DASLNChttp://forensicpeople.com/utm_medium=DASLNChttp://forensicpeople.com/utm_campaign=TDFS_DASLNChttp://forensicpeople.com/traffic_type=TDFS_DASLNChttp://forensicpeople.com/traffic_id=daslnchttp://forensicpeople.com/)
 
 <!-- -->
 
@@ -29,7 +29,7 @@ Computer Forensics articles, and website of Igor Michailov
 
 <!-- -->
 
-[Computer Forensics Tool Catalog](http://toolcatalog.nist.gov/)
+[Computer Forensics Tool Catalog](https://toolcatalog.nist.gov/)
 
 The Computer Forensics Tool Catalog provides an easily searchable
 catalog of forensic tools to enable practitioners to find tools that
@@ -53,7 +53,7 @@ Website with online discussion forums relating to computer forensics.
 <!-- -->
 
 [Cyberspeak podcast](cyberspeak_podcast.md)
-[Cyberspeak Podcast](http://cyberspeak.libsyn.com/)
+[Cyberspeak Podcast](https://cyberspeak.libsyn.com/)
 
 Computer forensics, network security, and computer crime podcast.
 
@@ -66,7 +66,7 @@ examinations, certified and non-certified investigators welcome
 
 <!-- -->
 
-[Digital Forensic Research Workshop (DFRWS)](http://www.dfrws.org/)
+[Digital Forensic Research Workshop (DFRWS)](https://dfrws.org/)
 
 Open forum for research in digital forensic issues, hosting annual
 meeting and annual forensics challenge.
@@ -80,7 +80,7 @@ An online digital forensics bibliography, updated monthly
 <!-- -->
 
 [eForensics Magazine](eforensics_magazine.md)
-[eForensics Magazine website](http://eforensicsmag.com/)
+[eForensics Magazine website](https://eforensicsmag.com/)
 
 Magazine, blog, online courses, community.
 
@@ -113,7 +113,7 @@ Computer forensics article collection.
 
 <!-- -->
 
-[MySecured.com](http://www.MySecured.com/)
+[MySecured.com](http://www.marwan.com)
 
 Mobile phone forensics, cellphone related investigation and data
 analysis site.
@@ -153,7 +153,7 @@ Computer Forensics Lab Resource Site.
 
 # Non-Digital Forensics
 
-[NIST Image Group](http://fingerprint.nist.gov/)
+[NIST Image Group](https://fingerprint.nist.gov/)
 
 Many reports, including the [NIST](nist.md) report on [AFIS](afis.md)
 fingerprint testing.

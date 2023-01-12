@@ -46,4 +46,4 @@ Office encryption
 ## External Links
 
 * [Excel 97-2007 Binary File format by Microsoft](https://download.microsoft.com/download/5/0/1/501ED102-E53F-4CE0-AA6B-B0F93629DDC6/Office/Excel97-2007BinaryFileFormat(xls)Specification.pdf)
-* [Excel 2007 Binary File format by Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Excel2007BinaryFileFormat(xlsb)Specification.pdf)
+* [Excel 2007 Binary File format by Microsoft](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Excel2007BinaryFileFormat(xlsb)Specification.pdf)

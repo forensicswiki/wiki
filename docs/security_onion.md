@@ -82,14 +82,6 @@ distro, as listed at
 - xprobe2
 - Zenmap
 
-## Video Demonstration
-
-The following YouTube channel provides videos on the installation and
-usage of Security Onion:
-
-<https://www.youtube.com/channel/UCEt-VQX8pxvDPuB7fip5b0g>
-
 ## External Links
 
 - [Official Website](https://blog.securityonion.net/p/securityonion.html)
-

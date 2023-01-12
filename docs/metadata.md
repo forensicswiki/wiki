@@ -43,7 +43,7 @@ location information, textual descriptions, and copyright information.
 
 - [LibExif](https://libexif.sourceforge.net/) (C)
 - [Metadata extraction in Java](https://drewnoakes.com/code/exif/)
-- [Adroit Photo Forensics](http://digital-assembly.com/products/adroit-photo-forensics/)
+- [Adroit Photo Forensics](https://www.werecoverdata.com)
 
 <!-- -->
 

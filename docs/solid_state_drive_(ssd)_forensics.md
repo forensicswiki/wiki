@@ -52,7 +52,7 @@ drive, with the following features:
 ` year = 2012,`
 ` keywords = {ssd forensics},`
 ` added-at = {2012-09-01T09:00:00.000+0100},`
-` url={`[`http://forensic.belkasoft.com/en/why-ssd-destroy-court-evidence`](http://forensic.belkasoft.com/en/why-ssd-destroy-court-evidence)`}`
+` url={`[`https://belkasoft.com/why-ssd-destroy-court-evidence`](http://forensic.belkasoft.com/en/why-ssd-destroy-court-evidence)`}`
 
 } </bibtex>
 
@@ -65,7 +65,7 @@ drive, with the following features:
 ` keywords = {erasing flash security ssd},`
 ` added-at = {2011-02-22T09:22:03.000+0100},`
 ` url={`[`https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf`](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf)`},`
-` biburl = {`[`http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
+` biburl = {`[`https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2`](http://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2)`}`
 
 } </bibtex> <bibtex> @article{bell2011,
 

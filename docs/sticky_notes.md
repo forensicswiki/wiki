@@ -48,7 +48,7 @@ files include (but are not limited to):
 [MiTeC Structured Storage Viewer](http://www.mitec.cz/ssv.html)
 
 Sticky Notes Parser (found at this [Google
-Code](http://code.google.com/p/winforensicaanalysis/downloads/list)
+Code](https://code.google.com/archive/p/winforensicaanalysis/downloads)
 site; Win32 binary command line tool, all times are displayed in UTC
 format. Output formats include a listing of the available notes, CSV,
 and TLN format (for inclusion in a timeline). Also displays the

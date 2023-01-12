@@ -97,4 +97,4 @@ name conflicted with another project.
 * [Project site](https://github.com/log2timeline/dfvfs/)
 * [Project documentation](https://github.com/log2timeline/dfvfs/wiki)
 * [Developing Python code using
-  dfvfs](https://github.com/log2timeline/dfvfs/wiki/Development)
+  dfvfs](https://github.com/log2timeline/dfvfs/wiki/)

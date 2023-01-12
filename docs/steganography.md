@@ -15,7 +15,7 @@ encoded packages is called **[steganalysis](steganalysis.md)**.
 
 ### Algorithms and Tools
 
-- [StegoArchive.com](http://www.stegoarchive.com) An excellent resource
+- [StegoArchive.com](http://ww17.stegoarchive.com/) An excellent resource
   for freeware/shareware steganography application downloads.
 
 <!-- -->

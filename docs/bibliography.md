@@ -4,11 +4,11 @@ tags:
 ---
 # Disk Disposal and Data Recovery
 
-- [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection and Exclusions](http://belkasoft.com/ssd-2014),
+- [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection and Exclusions](https://belkasoft.com/ssd-2014),
   by Yuri Gubanov and Oleg Afonin, 2014
 - [Why SSD Drives Destroy Court Evidence, and What Can Be Done About It](http://forensic.belkasoft.com/download/info/SSD%20Forensics%202012.pdf),
   by Oleg Afonin and Yuri Gubanov, 2012
-- [Disk Imaging: A Vital Step in Data Recovery](http://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf),
+- [Disk Imaging: A Vital Step in Data Recovery](https://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf),
   DeepSpar Data Recovery Systems, November 2006. An in depth look at the
   many issues that cause data loss / irretrievable data in the data
   recovery imaging process and how to overcome them.
@@ -17,7 +17,7 @@ tags:
 - [Secure Deletion of Data from Magnetic and Solid-State Memory](recovering_overwritten_data.md#the-gutmann-paper),
   Peter Gutmann, Proceedings of the Sixth Usenix Security
   Symposium, 1996.
-  [1](http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html)
+  [1](https://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html)
 - [Hard Drive Disposal: The Overlooked Confidentiality Exposure](http://www-03.ibm.com/financing/pdf/us/recovery/igf4-a032.pdf),
   FInancial Perspectives, IBM White Paper, November 2003.
 
@@ -30,7 +30,7 @@ tags:
 ` publisher =    "IEEE",`
 ` year      =         "2002",`
 ` month     = Jan,`
-` url="`[`http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf`](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)`"`
+` url="`[`https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf`](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)`"`
 
 } </bibtex>
 
@@ -101,7 +101,7 @@ Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 ` number    = {5},`
 ` year      = {2003},`
 ` pages     = {44-48},`
-` url       = {`[`http://doi.ieeecomputersociety.org/10.1109/MSECP.2003.1236234`](http://doi.ieeecomputersociety.org/10.1109/MSECP.2003.1236234)`},`
+` url       = {`[`https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg`](http://doi.ieeecomputersociety.org/10.1109/MSECP.2003.1236234)`},`
 ` abstract="Digital evidence is inherently weak. New evidence-gathering technologies-digital black boxes-must be developed and deployed to support investigations of irreproducible events such as digitally signing a document."`
 
 } </bibtex>
@@ -110,7 +110,7 @@ Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 **A Hypothesis-Based Approach to Digital Forensic Investigations,**
 Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
-<https://www.cerias.purdue.edu/tools_and_resources/bibtex_archive/archive/2006-06.pdf>
+<https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2006-06.pdf>
 
 # Other Papers
 

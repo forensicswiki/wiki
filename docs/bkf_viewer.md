@@ -19,4 +19,4 @@ corrupt Windows .bkf files via quick and deep scan option respectively.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)

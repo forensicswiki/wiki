@@ -56,7 +56,7 @@ image. If you must ship disks, here are some instructions:
     - [Ejecting Media on
       Windows](https://askleo.com/safely_remove_hardware_where_did_the_icon_go_how_do_i_safely_remove_hardware_without_it/)
     - [Ejecting Media on
-      Linux](http://www.scottklarr.com/topic/133/how-to-mount-and-unmount-a-drive-in-linux/)
+      Linux](https://www.scottklarr.com/)
 
 NB 1: This is advice, not a set of rules. Do what you can to secure your
 media and data.

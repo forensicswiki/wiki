@@ -41,7 +41,7 @@ victims can be easier if they stand out from the crowd.
   by [Jesse Kornblum](jesse_kornblum.md), DFRWS 2002
 * [Journey to the Centre of the Breach](https://labs.mwrinfosecurity.com/system/assets/131/original/Journey-to-the-Centre-of-the-Breach.pdf),
   by Ben Downton, June 2, 2010
-* [Keeping Focus During an Incident](http://blog.handlerdiaries.com/?p=325), by jackcr, January
+* [Keeping Focus During an Incident](https://www.hugedomains.com/domain_profile.cfm?d=handlerdiaries.com), by jackcr, January
   17, 2014
 
 ### Emergency Response

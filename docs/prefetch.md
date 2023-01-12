@@ -198,9 +198,9 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 * [MSDN: Disabling Prefetch](http://msdn.microsoft.com/en-us/library/ms940847(v=winembedded.5>).aspx)
 * [Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS](https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/december/windows-xp-kernel-improvements-create-a-more-robust-powerful-and-scalable-os),
   by [Mark Russinovich](mark_russinovich.md), David Solomon, December 2001
-* [Prefetch file metadata](http://windowsir.blogspot.ch/2005/07/prefetch-file-metadata.html),
+* [Prefetch file metadata](http://windowsir.blogspot.com/2005/07/prefetch-file-metadata.html),
   by [Harlan Carvey](harlan_carvey.md), July 13, 2005
-* [Prefetch files, revisited](http://windowsir.blogspot.ch/2006/04/prefetch-files-revisited.html),
+* [Prefetch files, revisited](http://windowsir.blogspot.com/2006/04/prefetch-files-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), April 13, 2006
 * [Windows Memory Management](https://www.codeproject.com/Articles/29449/Windows-Memory-Management),
   by logicchild, September 17, 2008
@@ -215,20 +215,20 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Mark Wade, December 8, 2010
 * [Prefetch Files at Face Value](https://crucialsecurity.wordpress.com/2011/04/11/prefetch-files-at-face-value/),
   by Mark Wade, April 11, 2011
-* [Windows Logical Prefetcher](http://kitrap08.blogspot.hk/2011/07/windows-logical-prefetcher.html),
+* [Windows Logical Prefetcher](http://kitrap08.blogspot.com/2011/07/windows-logical-prefetcher.html),
   TTS blog, July 30, 2011 (article is in Russian)
 * [Prefetch i niedokładny licznik](http://labit.in/pliki-prefetch-w-windows/) by Paweł
   Hałdrzyński, August 20, 2011 (article in Polish; uncertain about the
   year of publication)
-* [Prefetch Analysis, Revisited](http://windowsir.blogspot.ch/2012/03/prefetch-analysis-revisited.html),
+* [Prefetch Analysis, Revisited](http://windowsir.blogspot.com/2012/03/prefetch-analysis-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), March 8, 2012
-* [Prefetch Analysis, Revisited...Again...](http://windowsir.blogspot.ch/2012/03/prefetch-analysis-revisitedagain.html),
+* [Prefetch Analysis, Revisited...Again...](http://windowsir.blogspot.com/2012/03/prefetch-analysis-revisitedagain.html),
   by [Harlan Carvey](harlan_carvey.md), March 15, 2012
 * [Prefetch Hash Calculator + a hash lookup table xp/vista/w7/w2k3/w2k8](http://www.hexacorn.com/blog/2012/06/13/prefetch-hash-calculator-a-hash-lookup-table-xpvistaw7w2k3w2k8/),
   Hexacorn blog, June 13, 2012
 * [Prefetch file names and UNC paths](http://www.hexacorn.com/blog/2012/10/29/prefetch-file-names-and-unc-paths/),
   Hexacorn blog, October 29, 2012
-* [NTOSBOOT Prefetch File](http://journeyintoir.blogspot.ch/2012/12/ntosboot-prefetch-file.html),
+* [NTOSBOOT Prefetch File](http://journeyintoir.blogspot.com/2012/12/ntosboot-prefetch-file.html),
   by Corey Harrell, December 5, 2012
 * [What's New in the Prefetch for Windows 8??](http://www.invoke-ir.com/2013/09/whats-new-in-prefetch-for-windows-8.html),
   by Jared Atkinson, September 21, 2013

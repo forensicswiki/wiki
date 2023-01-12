@@ -148,15 +148,15 @@ Version 2.0 is under development.
 ### Academic Publications
 
 1.  Garfinkel, Simson, [Digital media triage with bulk data analysis and
-    bulk_extractor](http://simson.net/clips/academic/2013.COSE.bulk_extractor.pdf).
+    bulk_extractor](https://simson.net/clips/academic/2013.COSE.bulk_extractor.pdf).
     Computers and Security 32: 56-72 (2013)
 2.  Beverly, Robert, Simson Garfinkel and Greg Cardwell, ["Forensic
     Carving of Network Packets and Associated Data
-    Structures"](http://simson.net/clips/academic/2011.DFRWS.ipcarving.pdf),
+    Structures"](https://simson.net/clips/academic/2011.DFRWS.ipcarving.pdf),
     DFRWS 2011, Aug. 1-3, 2011, New Orleans, LA. BEST PAPER AWARD
     (Acceptance rate: 23%, 14/62)
 3.  Garfinkel, S., [Forensic Feature Extraction and Cross-Drive
-    Analysis,](http://simson.net/clips/academic/2006.DFRWS.pdf)The 6th
+    Analysis,](https://simson.net/clips/academic/2006.DFRWS.pdf)The 6th
     Annual Digital Forensic Research Workshop Lafayette, Indiana, August
     14-16, 2006. (Acceptance rate: 43%, 16/37)
 

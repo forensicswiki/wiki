@@ -60,7 +60,7 @@ computer.
 
 More links from previous research.
 
-* [8](http://www.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
+* [8](http://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
 * [9](http://news.com.com/2100-7349_3-5092781.html)
 * [10](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
 * [11](http://www.austlii.edu.au/au/cases/cth/high_ct/2006/39.html)

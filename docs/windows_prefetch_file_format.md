@@ -16,7 +16,7 @@ compression as used by the [Windows SuperFetch
 Format](windows_superfetch_format.md). Preliminary findings
 regarding Windows 10 Prefetch files are described in [Windows Prefetch
 File (PF)
-format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
+format](https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
 
 ## Characteristics
 
@@ -409,7 +409,7 @@ volume information – version 23.
 
 This sub section can contain NTFS file references.
 
-For more information see [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
+For more information see [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc).
 
 ### Sub section F - Directory strings
 
@@ -434,5 +434,5 @@ been seen. It is currently assumed that this is unused remnant data.
 
 ## External Links
 
-* [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/master/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
+* [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
   by the libssca project

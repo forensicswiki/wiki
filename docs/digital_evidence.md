@@ -126,14 +126,14 @@ Computer evidence needs to be:
 - [ISO/IEC 27037:2012 - Information technology -- Security techniques --
   Guidelines for identification, collection, acquisition and
   preservation of digital
-  evidence](http://www.iso.org/iso/catalogue_detail?csnumber=44381), by
+  evidence](https://www.iso.org/standard/44381.html), by
   International Organization for Standardization (ISO)
 - [ISO/IEC DIS 27041 - Information technology -- Security techniques --
   Guidance on assuring suitability and adequacy of incident
   investigative
-  methods](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=44405),
+  methods](https://www.iso.org/standard/44405.html),
   by International Organization for Standardization (ISO)
 - [ISO/IEC DIS 27042 - Information technology -- Security techniques --
   Guidelines for the analysis and interpretation of digital
-  evidence](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=44406),
+  evidence](https://www.iso.org/standard/44406.html),
   by International Organization for Standardization (ISO)

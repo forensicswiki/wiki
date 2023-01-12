@@ -18,5 +18,5 @@ standards such as:
 
 ## External Links
 
-- [Project site](http://django-mantis.readthedocs.org/en/latest/)
+- [Project site](https://django-mantis.readthedocs.io/en/latest/)
 - [Source repository](https://github.com/bgro/django-mantis)

@@ -33,5 +33,5 @@ software:
 
 ## External Links
 
-- [unprotect.info](http://unprotect.info/) - Official website
-- [truecrypt.org](http://www.truecrypt.org/) - Official website
+- [unprotect.info](https://www.squadhelp.com/name/unprotect.info?lp=d) - Official website
+- [truecrypt.org](https://truecrypt.sourceforge.net/) - Official website

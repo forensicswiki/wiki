@@ -22,4 +22,4 @@ for [Apple Mail emails](apple_mail_header_format.md).
 - [Wikipedia entry on
   UUIDs](https://en.wikipedia.org/wiki/Universally_Unique_Identifier)
 - [What is an UUID /
-  GUID?](http://www.famkruithof.net/guid-uuid-info.html)
+  GUID?](https://www.famkruithof.net/guid-uuid-info.html)

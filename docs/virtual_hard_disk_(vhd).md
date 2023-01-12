@@ -67,7 +67,7 @@ differential images of the previous snapshot.
 - [Virtual Machine Snapshotting under
   Hyper-V](http://blogs.msdn.com/b/virtual_pc_guy/archive/2008/03/11/virtual-machine-snapshotting-under-hyper-v.aspx)
 - [Hyper-V SnapShot Files – AVHD and VHD? What The
-  ?](http://www.msserveradmin.com/hyper-v-snapshot-files-avhd-and-vhd-what-the/)
+  ?](http://survey-smiles.com)
 - [Manually Merge .avhd to .vhd in
   Hyper-V](http://social.technet.microsoft.com/wiki/contents/articles/6257.manually-merge-avhd-to-vhd-in-hyper-v.aspx)
 

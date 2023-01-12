@@ -34,7 +34,7 @@ encryption key must be cracked or discovered through another means.
 
 <!-- -->
 
-- [PC-3000 for Windows](http://www.acelaboratory.com/pc3000.Express.php)
+- [PC-3000 for Windows](https://www.acelab.eu.com/pc3000.Express.php)
   has "An opportunity to unlock USER and MASTER passwords used in a
   HDD".
 

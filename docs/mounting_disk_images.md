@@ -100,7 +100,7 @@ Windows systems.
 - [ImDisk](http://www.ltr-data.se/opencode.html#ImDisk) - also on
   [WikiPedia](http://en.wikipedia.org/wiki/ImDisk)
 - [Paraben](paraben_forensics.md) P2X
-- [VDKWin](http://www.vmxbuilder.com/vdk-gui/), requires
+- [VDKWin](http://ww25.vmxbuilder.com/vdk-gui/?subid1=20230112-2004-3681-88fa-1aacf0426fa4), requires
   [VDK](http://chitchat.at.infoseek.co.jp/vmware/vdk.html)
 - [vhdtool](http://archive.msdn.microsoft.com/vhdtool) - an unsupported
   MS tool that you can use to convert a raw/dd image to a VHD file and
@@ -108,7 +108,7 @@ Windows systems.
 
 ## Commercial Tools
 
-- [SmartMount](http://www.asrdata.com/SmartMount/)
+- [SmartMount](http://www.asrdata.com/forensic-software/smartmount/)
 - [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) - has a 14-day trial
   version
 

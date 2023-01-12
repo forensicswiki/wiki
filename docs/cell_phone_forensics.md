@@ -83,12 +83,12 @@ Pay As You Go:
 
 Articles and Reference Materials
 
-* [Law Enforcement, Forensics and Mobile Communications](http://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
+* [Law Enforcement, Forensics and Mobile Communications](https://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
 * [U.S. National Institute of Standards and Technology Documents](http://csrc.nist.gov/mobilesecurity/publications.html#MF)
 
 Conferences
 
-* [Mobile Forensics World](http://www.MobileForensicsWorld.com/)
+* [Mobile Forensics World](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.com)
 
 Investigative Support
 
@@ -103,7 +103,7 @@ Investigative Support
 Phone Research
 
 * [GSMArena.com (Technical information regarding GSM Cell Phones)](https://www.gsmarena.com/)
-* [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.MobileForensicsCentral.com)
+* [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.mobileforensicscentral.com/mfc/)
 * [PhoneScoop.com (Technical information regarding all Cell Phones)](https://www.phonescoop.com/)
 
 Training
@@ -111,7 +111,7 @@ Training
 * [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
 * [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
-* [Mobile Forensics World Training](http://www.MobileForensicsWorld.com/Training.aspx)
+* [Mobile Forensics World Training](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.comTraining.aspx)
 * [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/dfir-training-3/)
 * [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Micro Systemation Training (Mobile Forensics Training)](https://www.msab.com/)

@@ -143,4 +143,4 @@ file. The long-familiar licensed cross platform utilities are:
 
 ### Tools
 
-- [DMG Viewer](http://www.systoolsgroup.com/dmg-viewer/)
+- [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)

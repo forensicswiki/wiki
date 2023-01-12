@@ -5,7 +5,7 @@ tags:
 ## See Also
 
 Very basic visualization with no discrimination between packet types:
-<http://research.swtch.com/tcpviz>
+<https://research.swtch.com/tcpviz>
 
 Manual for Cisco commercial product with broad range of visualizations:
 <https://www.cisco.com/en/US/docs/net_mgmt/application_analysis_solution/1.0/tutorials_and_examples/tut_ace.pdf>

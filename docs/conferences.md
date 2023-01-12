@@ -44,12 +44,12 @@ Computer Technology Investigators Network (CTIN) Digital Forensics Conference
 <!-- -->
 
 Conference on Digital Forensics, Security and Law
-<http://www.digitalforensics-conference.org/>
+<https://www.digitalforensics-conference.org/>
 
 <!-- -->
 
 CyberCrime Summit (Last found in 2010)
-<http://www.cybercrimesummit.com/index.htm>
+<https://www.hugedomains.com/domain_profile.cfm?d=cybercrimesummit.com>
 
 <!-- -->
 
@@ -68,7 +68,7 @@ Digital Forensics Research Conference (DFRWS)
 <!-- -->
 
 e-Forensics (Last found in 2010)
-<http://www.e-forensics.eu/>
+<http://ww82.e-forensics.eu>
 
 <!-- -->
 
@@ -158,7 +158,7 @@ USENIX Security Symposium
 <!-- -->
 
 Virus Bulletin Conference
-<http://www.virusbtn.com/conference/index>
+<https://www.virusbulletin.com/conference/vb2022/>
 
 <!-- -->
 
@@ -168,7 +168,7 @@ International Workshop on Cyber Forensics and Advanced Threat Investigations
 # Training Conferences
 
 Enfuse Conference - formerly Computer and Enterprise Investigations Conference (CEIC)
-<http://www.guidancesoftware.com/enfuse-conference/>
+<https://blogs.opentext.com/otbus/>
 
 <!-- -->
 
@@ -198,7 +198,7 @@ Regional Computer Forensics Group Conference (RCFG)
 <!-- -->
 
 SANS Digital Forensics & Incident Response Summit & Training
-<http://digital-forensics.sans.org/training/summits/>
+<https://www.sans.org/cyber-security-summit/>
 
 <!-- -->
 

@@ -20,6 +20,6 @@ tags:
 - *Strengthening Forensic Science in the United States: A Path Forward,*
   National Research Council, The National Academies Press, 2009.
   - [Strengthening Forensic Science NAP
-    Page](https://www.nap.edu/catalog/12589/strengthening-forensic-science-in-the-united-states-a-path-forward)
+    Page](https://nap.nationalacademies.org/catalog/12589/strengthening-forensic-science-in-the-united-states-a-path-forward)
   - [Digital and Multimedia
     Analysis](https://www.nap.edu/read/12589/chapter/7#179)

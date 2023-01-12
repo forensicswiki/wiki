@@ -157,7 +157,7 @@ TxF uses the [Common Log File System
   Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
 * [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
 * [Distributed Link Tracking and Object Identifiers](http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx)
-* [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/master/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
+* [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/main/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
   by the [libfsntfs project](libfsntfs.md), August 2009
 * [The Four Stages of NTFS File Growth](https://learn.microsoft.com/en-us/archive/blogs/),
   by Jeff Hughes, October 16, 2009
@@ -169,7 +169,7 @@ TxF uses the [Common Log File System
   by Cheong Kai Wee
 * [The Four Stages of NTFS File Growth, Part 2](https://learn.microsoft.com/en-us/archive/blogs/),
   by John Marlin, March 12, 2015
-* [A Tale of Two File Names](https://usn.pw/blog/gen/2015/06/09/filenames/),
+* [A Tale of Two File Names](http://ww25.usn.pw/blog/gen/2015/06/09/filenames/?subid1=20230112-2010-56ad-8978-6554bc03a9e7),
   by Thomas Galvin, June 9, 2015
 * [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020

@@ -54,4 +54,4 @@ tool.  In this case, you should get the private key first (by running *cipher
 
 # Other References
 
-* <http://www.beginningtoseethelight.org/efsrecovery>
+* <http://survey-smiles.com>

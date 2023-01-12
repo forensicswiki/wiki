@@ -64,7 +64,7 @@ environments to 20 Gbps service provider networks.
 
 <!-- -->
 
-[MaxMind](http://www.maxmind.com)
+[MaxMind](https://www.maxmind.com/en/home)
 
 [IP geolocation](ip_geolocation.md) services and data provider
 for offline geotagging. Free GeoLite country database. Programmable
@@ -224,7 +224,7 @@ name.
 
 <!-- -->
 
-[Sguil](http://sguil.sourceforge.net/)
+[Sguil](http://bammv.github.io/sguil/index.html)
 
 <!-- -->
 
@@ -353,7 +353,7 @@ ifconfig - view your mac and IP address
 
 ping - send packets to probe remote machines
 
-[SplitCap](http://splitcap.sourceforge.net/)
+[SplitCap](https://www.netresec.com/?page=SplitCap)
 
 SplitCap is a free open source pcap file splitter.
 

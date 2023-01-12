@@ -26,4 +26,4 @@ tags:
 
 [Product page](https://www.oxygen-forensic.com/en/features/sqliteviewer/)
 
-[Publisher site](http://www.oxygen-forensic.com/en/)
+[Publisher site](https://www.oxygen-forensic.com/en/)

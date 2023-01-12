@@ -65,5 +65,5 @@ the drives it encrypts.
 
 ## External Links
 
-- [Official website](http://www.winability.com/usbcrypt/)
+- [Official website](https://www.winability.com/usbcrypt/)
 - [USBCrypt website](https://www.usbcrypt.com/)

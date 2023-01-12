@@ -36,7 +36,7 @@ See:
 - [JHOVE](https://jhove.openpreservation.org/)
 - [GDFR](https://www.gdfr.info/)
 - [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
-- [DROID download](http://droid.sourceforge.net)
+- [DROID download](https://sourceforge.net/projects/droid/)
 
 ## TrID - File Identifier
 
@@ -94,7 +94,7 @@ publicly available data sets:
   without concern of copyright or PII. Download from
   <https://digitalcorpora.org/corpora/files/>
 - The NPS Disk Corpus - a corpus of realistic disk images that contain
-  no PII. Information is at: <http://digitalcorpora.org/?s=nps>
+  no PII. Information is at: <https://digitalcorpora.org/?s=nps>
 
 # Bibliography
 
@@ -156,7 +156,7 @@ bibliography is in chronological order!**
 
 - M. Karresand, N. Shahmehri, [Oscar: File Type Identification of Binary
   Data in Disk Clusters and RAM
-  Pages](http://dx.doi.org/10.1007/0-387-33406-8_35), Proceedings of
+  Pages](https://link.springer.com/chapter/10.1007/0-387-33406-8_35), Proceedings of
   IFIP International Information Security Conference: Security and
   Privacy in Dynamic Environments (SEC2006), Springer, ISBN
   0-387-33405-x, pp.413-424, Karlstad, Sweden, May 2006.
@@ -172,7 +172,7 @@ bibliography is in chronological order!**
 
 - R.M. Harris, "Using Artificial Neural Networks for Forensic File Type
   Identification," Master's Thesis, Purdue University, May 2007.
-  ([PDF](https://www.cerias.purdue.edu/tools_and_resources/bibtex_archive/archive/2007-19.pdf))
+  ([PDF](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2007-19.pdf))
 
 <!-- -->
 
@@ -184,7 +184,7 @@ bibliography is in chronological order!**
 
 - M.C. Amirani, M. Toorani, and A. Beheshti, [A New Approach to
   Content-based File Type
-  Detection](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4625611),
+  Detection](https://ieeexplore.ieee.org/document/4625611/;jsessionid=e9ClJYNu5ZPnylpkSj7LoQM5s2LCfErdPPJo0lC0MGmzs9la-7Ld!1844383281),
   Proceedings of the 13th IEEE Symposium on Computers and Communications
   (ISCC'08), pp.1103-1108, July 2008.
   ([PDF](https://arxiv.org/ftp/arxiv/papers/1002/1002.3174.pdf))
@@ -194,7 +194,7 @@ bibliography is in chronological order!**
 - V. Roussev, and S. Garfinkel, "File Classification Fragment-The Case
   for Specialized Approaches," Systematic Approaches to Digital
   Forensics Engineering (IEEE/SADFE 2009), Oakland, California.
-  ([PDF](http://simson.net/clips/academic/2009.SADFE.Fragments.pdf))
+  ([PDF](https://simson.net/clips/academic/2009.SADFE.Fragments.pdf))
 
 <!-- -->
 
@@ -222,7 +222,7 @@ bibliography is in chronological order!**
 
 - I. Ahmed, K.-S. Lhee, H.-J. Shin, M.-P. Hong, [Fast Content-Based File
   Type
-  Identification](http://link.springer.com/chapter/10.1007/978-3-642-24212-0_5),
+  Identification](https://link.springer.com/chapter/10.1007/978-3-642-24212-0_5),
   Proceedings of the 7th Annual IFIP WG 11.9 International Conference on
   Digital Forensics, Orlando, FL, USA, February, 2011
 

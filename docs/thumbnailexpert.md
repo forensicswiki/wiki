@@ -87,5 +87,5 @@ caches of many programs.
 
 ## Links
 
-- [Demo Version](http://www.thumbnailexpert.com/ThumbnailExpertEn.zip)
+- [Demo Version](http://thumbnailexpert.com/ThumbnailExpertEn.zip)
 

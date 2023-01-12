@@ -80,17 +80,17 @@ binary format segments.
 
 * [Windows 7 Goodies in C++: Jump Lists](https://www.codeproject.com/Articles/36561/Windows-7-Goodies-in-C-Jump-Lists),
   by Michael Dunn, May 19, 2009
-* [Jump Lists in Windows 7 and Possible Forensic Implementations](http://mikeahrendt.blogspot.ch/2011/04/jump-lists-in-windows-7-and-possible.html),
+* [Jump Lists in Windows 7 and Possible Forensic Implementations](http://mikeahrendt.blogspot.com/2011/04/jump-lists-in-windows-7-and-possible.html),
   by Mike Ahrendt, April 3, 2011
 * [The Forensic Value of the Windows 7 Jump List](http://www.alexbarnett.com/jumplistforensics.pdf),
   by Alexander G Barnett, April 18, 2011
 * [Forensic Examination of Windows 7 Jump Lists](https://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
   by Troy Larson, June 6, 2011
-* [Jump List Analysis](http://windowsir.blogspot.ch/2011/08/jump-list-analysis.html),
+* [Jump List Analysis](http://windowsir.blogspot.com/2011/08/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), August 17, 2011
-* [Jump List Analysis, pt II](http://windowsir.blogspot.ch/2011/08/jump-list-analysis-pt-ii.html),
+* [Jump List Analysis, pt II](http://windowsir.blogspot.com/2011/08/jump-list-analysis-pt-ii.html),
   by [Harlan Carvey](harlan_carvey.md), August 24, 2011
-* [Jump List Analysis](http://windowsir.blogspot.ch/2011/12/jump-list-analysis.html),
+* [Jump List Analysis](http://windowsir.blogspot.com/2011/12/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), December 28, 2011
 * [Forensic Analysis of Windows 7 Jump Lists](https://www.forensicfocus.com/articles/forensic-analysis-of-windows-7-jump-lists/),
   by Rob Lyness, October 2012

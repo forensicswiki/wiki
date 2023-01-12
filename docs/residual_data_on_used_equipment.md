@@ -109,7 +109,7 @@ order.
   vast majority of them Serial ATA" from eBay over the course of 6
   months. The drives ranged in size from 400GB to 300GB. 40% of the
   drives were found to contain sensitive data.
-  [1](http://www.computerworld.com/action/article.do?command=viewArticleBasic&taxonomyName=storage&articleId=9127717&taxonomyId=19&intsrc=kc_top)
+  [1](https://www.computerworld.com/)
 
 <!-- -->
 
@@ -130,7 +130,7 @@ order.
   with the Defense Intelligence Agency. The hard drive was not
   encrypted. [Reporters find Northrop Grumman data in Ghana market,
   Robert McMillan, IT World, June 24,
-  2009](http://itworld.com/security/69758/reporters-find-northrop-grumman-data-ghana-market)
+  2009](https://www.computerworld.com)
 
 <!-- -->
 

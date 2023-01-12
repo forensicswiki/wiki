@@ -113,8 +113,8 @@ Jimmy Weg has talked extensively about using VM with forensic images on
 his blog. These are detailed tutorials that manually create the VMDK
 file!
 
-- [Creating a VMware Virtual Machine from a Raw Image File](http://justaskweg.com/?p=7)
-- [Creating a VM from E01 Images](http://justaskweg.com/?p=653)
-- [What About an XP VM?](http://justaskweg.com/?p=851)
-- [How Do I Handle Really\* Big Disks?](http://justaskweg.com/?p=999)
-- [Mounted Images – Breaking the 2TB Barrier](http://justaskweg.com/?p=1024)
+- [Creating a VMware Virtual Machine from a Raw Image File](http://ww38.justaskweg.com/?p=7http://justaskweg.com/?p=7subid1=20230112-1943-3921-b76f-00e6367d3c0d)
+- [Creating a VM from E01 Images](http://ww38.justaskweg.com/?p=653http://justaskweg.com/?p=653subid1=20230112-1943-38de-a92e-7a0b3fa20ed0)
+- [What About an XP VM?](http://ww38.justaskweg.com/?p=851http://justaskweg.com/?p=851subid1=20230112-1943-407d-b577-d4428ce2ee74)
+- [How Do I Handle Really\* Big Disks?](http://ww38.justaskweg.com/?p=999http://justaskweg.com/?p=999subid1=20230112-1943-4116-9f75-2fa45290d116)
+- [Mounted Images – Breaking the 2TB Barrier](http://ww38.justaskweg.com/?p=1024http://justaskweg.com/?p=1024subid1=20230112-1943-36b0-9f2b-ab849fcad449)

@@ -326,7 +326,7 @@ every year that is evenly divisible by four. This is sufficient given
 that the range of representable dates does not contain 1900 or 2100,
 neither of which have leap days. Also see: [Technical Note TN1150 - HFS
 Plus Volume
-Format](http://web.archive.org/web/20090214212148/https://developer.apple.com/documentation/technotes)
+Format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes)
 
 Converting HFS/HFS+ date and time values with Python:
 
@@ -360,7 +360,7 @@ HFS+ stores U+2400 as U+0
 - Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html),
   original location:
   <http://developer.apple.com/technotes/tn/tn1121.html#HFSPlus>
-- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20090214212148/https://developer.apple.com/documentation/technotes),
+- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes),
   original location:
   <https://developer.apple.com/documentation/technotes>
 - Copy of: [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)

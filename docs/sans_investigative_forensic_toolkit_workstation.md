@@ -36,4 +36,4 @@ directory, can be viewed from the local Windows operating system.
 
 ## Links
 
-* [Computer Forensics and e-Discovery downloads](http://forensics.sans.org/community/downloads/)
+* [Computer Forensics and e-Discovery downloads](https://www.sans.org/cyber-security-events/emea/)

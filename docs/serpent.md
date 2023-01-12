@@ -19,5 +19,5 @@ Serpent is available as public domain, and can be freely used by anyone.
 
 ## External Links
 
-* [Serpent Cipher Homepage](http://www.cl.cam.ac.uk/~rja14/serpent.html)
+* [Serpent Cipher Homepage](https://www.cl.cam.ac.uk/~rja14/serpent.html)
 * [Wikipedia: Serpent (cipher)](https://en.wikipedia.org/wiki/Serpent_(cipher))

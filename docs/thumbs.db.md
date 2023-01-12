@@ -61,7 +61,7 @@ same as Windows 7 thumbs.db.
 ## External Links
 
 - [Windows thumbnail cache
-  (thumbs.db)](http://www.thumbnailexpert.com/en/formats/windows-thumbnail-cache/)
+  (thumbs.db)](http://thumbnailexpert.com/en/formats/windows-thumbnail-cache/)
 - [Windows 7 generated
   Thumbs.db](http://www.swiftforensics.com/2012/07/windows-7-generated-thumbsdb.html)
 - [Windows 8 Thumbs.db

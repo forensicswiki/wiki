@@ -84,7 +84,7 @@ Others:
 
 <http://www.md5this.com/>
 <http://www.csthis.com/md5/>
-<http://md5.rednoize.com/>
+<https://hashtoolkit.com/>
 
 ## Online Malware Hash Lookups
 

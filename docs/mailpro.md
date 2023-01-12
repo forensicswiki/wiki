@@ -23,4 +23,4 @@ regardless of its version.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/mail-pro-plus.html)
+[Official Website](https://www.systoolsgroup.com/mail-pro-plus.html)

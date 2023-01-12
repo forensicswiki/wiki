@@ -136,7 +136,7 @@ obtaining a memory image. The common method is to pause/suspend/stop the
 system and then collect the resulting memory image file, this has the
 disadvantage of taking the machine offline during the suspend time.
 Alternatively most of these systems support live dumping of a memory
-image. [Qemu](http://www.qemu.org) supports the pmemsave function,
+image. [Qemu](https://www.qemu.org/) supports the pmemsave function,
 [Xen](https://xenproject.org/) has the xm dump-core command.
 
 ## Also see
@@ -151,7 +151,7 @@ image. [Qemu](http://www.qemu.org) supports the pmemsave function,
 * [RedTeam: FireWire round-up](http://web.archive.org/web/20101210223853/http://blogs.23.nu/RedTeam/0000/00/antville-5201)
 * [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](https://files.hddguru.com/download/Software/Research%20%20Development/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
   by Antonio Martin, 2007
-* [Catching the ghost: how to discover ephemeral evidence with Live RAM analysis](http://forensic.belkasoft.com/en/live-ram-forensics),
+* [Catching the ghost: how to discover ephemeral evidence with Live RAM analysis](https://belkasoft.com/live-ram-forensics),
   by Oleg Afonin and Yuri Gubanov, May 2013
 * [Anti-forensic resilient memory acquisition](https://dfrws.org/presentation/anti-forensic-resilient-memory-acquisition/),
   by Johannes Stuettgen and [Michael Cohen](michael_cohen.md), August 2013

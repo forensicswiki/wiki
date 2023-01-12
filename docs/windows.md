@@ -537,7 +537,7 @@ value:
 
 #### Windows Event Logs
 
-* [Exploring the Program Inventory Event Log](http://journeyintoir.blogspot.ch/2014/03/exploring-program-inventory-event-log.html),
+* [Exploring the Program Inventory Event Log](http://journeyintoir.blogspot.com/2014/03/exploring-program-inventory-event-log.html),
   by Corey Harrell, March 24, 2014
 * [Mute Sysmon - Silence Sysmon via event manifest tampering](https://securityjosh.github.io/2020/04/23/Mute-Sysmon.html),
   by SecurityJosh, April 23, 2020
@@ -560,7 +560,7 @@ value:
 
 * [Drwtsn32 on Windows Vista/Windows Server 2008/Windows 7/Windows Server 2008 R2](https://learn.microsoft.com/en-us/archive/blogs/),
   by Yong Rhee, December 29, 2010
-* [Exploring Windows Error Reporting](http://journeyintoir.blogspot.ch/2014/02/exploring-windows-error-reporting.html),
+* [Exploring Windows Error Reporting](http://journeyintoir.blogspot.com/2014/02/exploring-windows-error-reporting.html),
   by Corey Harrell, February 24, 2014
 
 #### Windows Event Viewer

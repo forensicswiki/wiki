@@ -53,6 +53,6 @@ be in Google's local time, US Pacific Time.
 
 ## External Links
 
-- [Gmail](https://mail.google.com/)
+- [Gmail](https://accounts.google.com/v3/signin/identifier?dsh=S570551614%3A1673514500997332https://mail.google.com/continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2Fhttps://mail.google.com/emr=1https://mail.google.com/followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2Fhttps://mail.google.com/osid=1https://mail.google.com/passive=1209600https://mail.google.com/service=mailhttps://mail.google.com/flowName=WebLiteSignInhttps://mail.google.com/flowEntry=ServiceLoginhttps://mail.google.com/ifkv=AeAAQh4u6Wyj_fNpG9_BEKlSwjJkAUjFNnjvZ71-_z_NIWRzDoNYFPzN0Klu3HfaD-jhpUiBuCAsTQ)
 - [DKIM
   Signatures](http://www.elandsys.com/resources/sendmail/dkim.html)

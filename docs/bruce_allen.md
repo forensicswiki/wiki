@@ -3,7 +3,7 @@ tags:
   - No Category
 ---
 Bruce Allen is a Faculty Associate - Research at the [Naval Postgraduate
-School](http://www.nps.edu) in Monterey, California.
+School](https://www.nps.edu/) in Monterey, California.
 
 Interests include Software architecture, computer languages, parallel
 computing, parallel processor architectures, and supporting open-source

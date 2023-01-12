@@ -114,7 +114,7 @@ published elsewhere. Author names and affiliations should appear on the
 title page. Submissions must be in PDF and must be submitted via the
 form on the Usability, Psychology, and Security 2008 Call for Papers website:
 
-<http://www.usenix.org/upsec08/cfp>
+<https://www.usenix.org/legacy/upsec08/cfp/>
 
 Papers accompanied by nondisclosure agreement forms will not be
 considered. All submissions will be treated as confidential prior to
