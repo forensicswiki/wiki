@@ -7,7 +7,7 @@ different properties regarding forensic investigation.
 
 ## Media
 
-- [Caches](cache.md)
+- Caches
 - RAM, ROM, Flash
 - Floppy Disks
 - Optical media: CDs, DVDs, CD-RWs, ...

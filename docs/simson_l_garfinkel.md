@@ -7,8 +7,7 @@ Technology](national_institute_of_standards_and_technology.md)
 in Gaithersberg, Maryland, in January 2015 as Senior Advisor,
 Information Access Division. His current research includes privacy and
 data de-identification.Garfinkel was formerly an Associate Professor at
-the [Naval Postgraduate School](naval_postgraduate_school.md) in
-[Monterey, California](monterey,_california.md) from 2006 to
+the Naval Postgraduate School in Monterey, California from 2006 to
 January 2015. He lives in Arlington, VA
 
 Dr. Garfinkel has research interests in computer forensics, the emerging
@@ -36,8 +35,8 @@ Garfinkel received three Bachelor of Science degrees from MIT in 1987, a
 Master's of Science in Journalism from Columbia University in 1988, and
 a Ph.D. in Computer Science from MIT in 2005.
 
-Garfinkel's home page is <http://www.simson.net>. His CV is located on
-the Internet at <http://www.simson.net/cv>.
+Garfinkel's home page is <https://simson.net/page/Main_Page>. His CV is located on
+the Internet at <https://simson.net/page/Main_Page/cv>.
 
 # Forensics
 

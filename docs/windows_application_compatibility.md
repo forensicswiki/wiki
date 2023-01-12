@@ -33,17 +33,17 @@ In Windows 2003 and later:
 * [Application Compatibility Database](https://learn.microsoft.com/en-us/windows/win32/devnotes/application-compatibility-database),
   by [Microsoft](microsoft.md)
 * [Secrets of the Application Compatilibity Database (SDB) – Part 1](http://www.alex-ionescu.com/?p=39),
-  by [Alex Ionescu](alex_ionescu.md), May 20, 2007
+  by Alex Ionescu, May 20, 2007
 * [Secrets of the Application Compatilibity Database (SDB) – Part 2](http://www.alex-ionescu.com/?p=40),
-  by [Alex Ionescu](alex_ionescu.md), May 21, 2007
+  by Alex Ionescu, May 21, 2007
 * [Secrets of the Application Compatilibity Database (SDB) – Part 3](http://www.alex-ionescu.com/?p=41),
-  by [Alex Ionescu](alex_ionescu.md), May 26, 2007
+  by Alex Ionescu, May 26, 2007
 * [Windows AppCompat Research Notes - Part 1](http://recxltd.blogspot.com/2012/04/windows-appcompat-research-notes-part-1.html),
   by Ollie, 28 April 2012
 * [Windows AppCompat Research Notes - Part 2](http://recxltd.blogspot.com/2012/05/windows-appcompat-research-notes-part-2.html),
   by Ollie, 4 May 2012
 * [Leveraging the Application Compatibility Cache in Forensic Investigations](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf),
-  by [Andrew Davis](andrew_davis.md), May 4, 2012
+  by Andrew Davis, May 4, 2012
 * [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.ch/2013/12/revealing-program-compatibility.html),
   by Corey Harrell, December 17, 2013
 * [Persist It Using and Abusing Microsoft’s Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf),

@@ -149,7 +149,7 @@ information.
 * [VSC Toolset: A GUI Tool for Shadow Copies](https://dfstream.blogspot.com/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
   by Jason Hale, March 2012
 * [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
-  by [Simon Key](simon_key.md), June 2012
+  by Simon Key, June 2012
 * [Getting Ready for a Shadow Volume Exam](http://justaskweg.com/?p=351),
   by Jimmy Weg, June 2012
 * [Mounting Shadow Volumes](http://justaskweg.com/?p=466),
@@ -166,7 +166,7 @@ information.
 ### Shadow Volumes in depth
 
 * [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
-  by [James Crabtree](james_crabtree.md) and [Gary Evans](gary_evans.md), 2010
+  by James Crabtree and Gary Evans, 2010
 * [Into The Shadows](https://forensic4cast.com/2010/04/into-the-shadows/) and
   [Presentation](https://forensic4cast.com/2010/04/presentation-into-the-shadows/),
   by [Lee Whitfield](lee_whitfield.md), April 2010
@@ -180,7 +180,7 @@ information.
 
 * [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
 * [Volume Shadow Copies - The Lost Post](http://pauldotcom.com/2012/10/volume-shadow-copies---the-los.html),
-  by [Mark Baggett](mark_baggett.md), October 2012
+  by Mark Baggett, October 2012
 
 ## Tools
 

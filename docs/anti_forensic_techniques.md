@@ -24,8 +24,7 @@ like any [tool](tools.md) they can be abused.
 
 ### Secure Data Deletion
 
-[Secure Deletion](secure_data_deletion.md) data, so that it
-cannot be restored with forensic methods.
+Secure Deletion data, so that it cannot be restored with forensic methods.
 
 Overwriting programs typically operate in one of three modes:
 
@@ -75,11 +74,10 @@ could not be reliably constructed.
 
 For example, [Timestomp](timestomp.md) will overwrite
 [NTFS](ntfs.md) “create,” “modify,” “access,” and “change”
-timestamps ([metasploit](metasploi.md). [The Defiler’s
-Toolkit](the_defiler’s_toolkit.md) can overwrite inode
+timestamps (metasploit). The Defiler’s Toolkit can overwrite inode
 timestamps and deleted directory entries on many Unix systems;
 timestamps on allocated files can also be modified using the Unix touch
-command ([The Grugq](the_grugq.md).
+command ([The Grugq](the_grugq.md)).
 
 ### Preventing Data Creation
 
@@ -206,11 +204,11 @@ to that by destroying evidence, for example.
 
 ### Casper
 
-![](Grml.png "Grml.png") mounted root file system on the [hard drive](hard_drive.md)
+Grml mounted root file system on the [hard drive](hard_drive.md)
 [Casper](http://bromavilleherald.com/index.php/Casper_boot_process) is a
 set of scripts used to enable Linux-based distributions to boot from
 removable media. Casper scripts will search for the root file system
-(typically [SquashFS](squashfs.md) on the local data storage
+(typically SquashFS on the local data storage
 media during the boot, mount it, and execute */sbin/init* program on
 mounted root. Most forensic Linux distributions based on
 [Ubuntu](ubuntu.md) and Debian lack of
@@ -239,10 +237,6 @@ Henrique, G. Wendel, Anti Forensics: Making computer forensics hard,
 Code Breakers III, São Paulo, Brazil, Setember 2006.
 [3](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
 
-## See also
-
-- [Anti-forensics tools](antiforensics_tools.md)
-
 ## Externals Links
 
 * [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.digitrace.de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
@@ -258,7 +252,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
   Little over 3hr of video on the subject of anti-forensic techniques
 * [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
 * [Low Down and Dirty: Anti-forensic Rootkits](https://www.blackhat.com/presentations/bh-jp-06/BH-JP-06-Bilby-up.pdf),
-  by [Darren Bilby](darren_bilby.md), Blackhat Japan 2006
+  by Darren Bilby, Blackhat Japan 2006
 * [One-byte Modification for Breaking Memory Forensic Analysis](https://media.blackhat.com/bh-eu-12/Haruyama/bh-eu-12-Haruyama-Memory_Forensic-Slides.pdf),
   by Takahiro Haruyama, Hiroshi Suzuki, March 14-16, 2012
 

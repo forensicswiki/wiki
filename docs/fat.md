@@ -269,7 +269,7 @@ used in electronic devices with miniature hard drives.
 Examples of devices in which FAT is utilized include:
 
 * [USB](usb.md) thumb drives
-* [Digital cameras](digital_camera.md)
+* Digital cameras
 * Digital camcorders
 * Portable audio and video players
 * Multifunction [printers](printers.md)
@@ -687,13 +687,13 @@ object.
 * [Wikipedia: ExFAT](https://en.wikipedia.org/wiki/ExFAT)
 * [exFAT File System](http://www.active-undelete.com/xfat_volume.htm)
 * [Reverse Engineering the Microsoft exFAT File System](https://www.sans.org/white-papers/33274/),
-  by [Robert Shullich](robert_shullich.md), December 1, 2009
+  by Robert Shullich, December 1, 2009
 * [Extended FAT file system](https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf),
-  by [Jeff Hamm](jeff_hamm.md), December 2009
+  by Jeff Hamm, December 2009
 * [Demystifying the Microsoft Extended FAT File System (exFAT)](https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
-  by [Robert Shullich](robert_shullich.md), September 20, 2010
+  by Robert Shullich, September 20, 2010
 * [Windows Phone 7 : Implications For Digital Forensic Investigators](http://aut.researchgateway.ac.nz/bitstream/handle/10292/4123/LeY.pdf),
-  by [Yung Anh Le](yung_anh_le.md), 2012
+  by Yung Anh Le, 2012
 
 ### textFAT
 
