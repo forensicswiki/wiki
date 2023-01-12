@@ -55,11 +55,10 @@ and credentials are all stored in SQLite3.
 
 ## External Links
 
-- [Recovering Deleted Records from an SQLite database](http://sandersonforensics.com/forum/content.php?222-Recovering-deleted-records-from-an-SQLite-database)
-- [Forensic examination of WAL files](http://sandersonforensics.com/forum/content.php?197-Forensic-examination-of-SQLite-Write-Ahead-Log-%28WAL%29-files)
-- [Forensic Examination of Rollback journals](http://sandersonforensics.com/forum/content.php?208-Dealing-with-records-found-in-SQLite-Rollback-Journals)
+- [Recovering Deleted Records from an SQLite database](https://sqliteforensictoolkit.com/recovering-deleted-records-from-an-sqlite-database/)
+- [Forensic examination of WAL files](https://sqliteforensictoolkit.com/forensic-examination-of-sqlite-write-ahead-log-wal-files/)
 - [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](http://belkasoft.com/sqlite-analysis),
-  article by [Belkasoft](belkasoft.md)
+  by [Belkasoft](belkasoft.md)
 - [The SQLite Database File Format](https://sqlite.org/fileformat2.html),
   by the [SQLite project](sqlite.md)
 - [Write-Ahead Logging](https://sqlite.org/wal.html),

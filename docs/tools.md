@@ -568,15 +568,6 @@ files at specified offset and length and outputs results to the console.
 
 # Telephone Scanners/War Dialers
 
-[PhoneSweep](https://www.sandstorm.net/)
-
-PhoneSweep is a commercial grade multi-line wardialer used by many
-security auditors to run telephone line scans in their organizations.
-PhoneSweep Gold is the distributed-access add-on for PhoneSweep, for
-organizations that need to run scans remotely.
-
-<!-- -->
-
 [TeleSweep](https://securelogix.com)
 
 SecureLogix is currently offering no-cost downloads of our award-winning

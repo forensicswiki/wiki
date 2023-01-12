@@ -46,8 +46,8 @@ Acquire [SIM Card](sim_cards.md) and analyze the following:
 ### USB
 
 * ACR 38T
-* [SCR3311](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr3311.html)
-* [SCR335](http://www.scmmicro.com/products-services/smart-card-readers-terminals/smart-card-reader/scr335.html)
+* SCR3311
+* SCR335
 * [Dekart SIM Card reader](https://www.dekart.com/buy_sim_reader)
 
 ## Software

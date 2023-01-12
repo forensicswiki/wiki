@@ -224,7 +224,7 @@ below.
 
 <!-- -->
 
-- 31 Jan 2010: Robert Botcheck, founder and owner of [Tableau](https://www.tableau.com/)
+- 31 Jan 2010: Robert Botcheck, founder and owner of Tableau
   talks about new Tableau Imager (TIM)
 
 <!-- -->

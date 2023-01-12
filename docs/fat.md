@@ -659,7 +659,6 @@ object.
 * <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
 * <http://www.dewassoc.com/kbase/hard_drives/boot_sector.htm>
 * <http://home.teleport.com/~brainy/fat32.htm>
-* <http://www2.tech.purdue.edu/cpt/courses/cpt499s/>
 * <http://home.no.net/tkos/info/fat.html>
 * <http://web.ukonline.co.uk/cook/fat32.htm>
 * <http://www.ntfs.com/fat-systems.htm>

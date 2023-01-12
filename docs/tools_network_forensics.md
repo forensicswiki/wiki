@@ -98,16 +98,6 @@ mission-critical network services and infrastructure
 
 <!-- -->
 
-[NetIntercept](http://www.sandstorm.net/products/netintercept)
-
-NetIntercept captures whole packets and reassembles up to 999,999 TCP
-connections at once, reconstructing files that were sent over your
-network and creating a database of its findings. It recognizes over 100
-types of network protocols and file types, including web traffic,
-multimedia, email, and IM.
-
-<!-- -->
-
 [Netstat](netstat.md)
 
 <!-- -->

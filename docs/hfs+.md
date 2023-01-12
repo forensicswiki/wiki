@@ -363,9 +363,8 @@ HFS+ stores U+2400 as U+0
 - Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20090214212148/https://developer.apple.com/documentation/technotes),
   original location:
   <https://developer.apple.com/documentation/technotes>
-- Copy of: [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
-  by P. Craiger, November 2005, original location:
-  <http://www2.tech.purdue.edu/cit/Courses/cit556/readings/MacForensicsCraiger.pdf>
+- [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
+  by P. Craiger, November 2005
 - [Using the HFSD journal for deleted ﬁle recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf),
   by Aaron Burghardt, Adam Feldman, DRFWS 2008
 

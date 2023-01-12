@@ -105,8 +105,7 @@ analysis.
 
 - AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder
   and private and public RSA keys from a memory dump [10](https://citp.princeton.edu/our-work/memory/code/).
-- [cryptoscan.py](http://jessekornblum.com/tools/volatility/cryptoscan.py),
-  which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
+- cryptoscan.py which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
   scans a memory image for [TrueCrypt](truecrypt.md) passphrases
 
 ## See Also
