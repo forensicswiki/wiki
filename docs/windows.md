@@ -422,7 +422,7 @@ value:
 * [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deployment/windows-setup-log-file-locations)
 * [Windows Hardware Dev Center Archive](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/download/dn550976(v=vs.85))
 * [Windows Data Type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx)
-* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, 2008
 * [Microsoft Windows File System Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
   by Eric Huber, February 24, 2013
@@ -447,7 +447,7 @@ value:
 
 * [Lesson 3 – The Recycle Bin](https://www.cybersecurityinstitute.biz),
   by Steve Hailey
-* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, January 22, 2008
 
 ### Malware/Rootkits
@@ -464,10 +464,8 @@ value:
 
 * [MSDN: Comparing Memory Allocation Methods](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366533(v=vs.85>).aspx)
   by [Microsoft](microsoft.md)
-* [How Windows Starts Up (Part the second)](http://blogs.msdn.com/b/ntdebugging/archive/2007/06/28/how-windows-starts-up-part-the-second.aspx)
 * [DLL/COM Redirection](https://learn.microsoft.com/en-us/windows/win32/sbscs/dll-com-redirection-on-windows)
 * [Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85>).aspx)
-* [Image File Execution Options](http://blogs.msdn.com/b/junfeng/archive/2004/04/28/121871.aspx)
 * [Load Library Safely](https://learn.microsoft.com/en-us/archive/blogs/),
   by Swamy Shivaganga Nagaraju, 13 May 2014
 * [Happy DPAPI!](https://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),
@@ -480,8 +478,6 @@ value:
 
 #### MSI
 
-* [Changes to Package Caching in Windows Installer 5.0](http://blogs.msdn.com/b/heaths/archive/2009/02/02/changes-to-package-caching-in-windows-installer-5-0.aspx?Redirected=true),
-  by Heath Stewart, February 2, 2009
 * [MSI: The Case Of The Invalid Signature](https://blog.didierstevens.com/2013/07/26/msi-the-case-of-the-invalid-signature/),
   by Didier Stevens, July 26, 2013
 
@@ -489,12 +485,7 @@ value:
 
 * [Wikipedia: Side-by-side assembly](https://en.wikipedia.org/wiki/Side-by-side_assembly)
 * [Assembly Searching Sequence](https://learn.microsoft.com/en-us/windows/win32/sbscs/assembly-searching-sequence)
-* [RT_MANIFEST resource, and ISOLATION_AWARE_ENABLED](http://blogs.msdn.com/b/junfeng/archive/2007/06/26/rt-manifest-resource-and-isolation-aware-enabled.aspx)
 * [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/en-us/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
-* [DotLocal (.local) Dll Redirection](http://blogs.msdn.com/b/junfeng/archive/2006/01/24/517221.aspx#531208),
-  by Junfeng Zhang, January 24, 2006
-* [Diagnosing SideBySide failures](http://blogs.msdn.com/b/junfeng/archive/2006/04/14/576314.aspx),
-  by Junfeng Zhang, April 14, 2006
 * [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](https://omnicognate.wordpress.com/2009/10/05/winsxs/)
 * [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
   by Amanda Stewart, April 2014

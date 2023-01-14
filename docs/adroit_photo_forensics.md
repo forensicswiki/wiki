@@ -32,7 +32,3 @@ and file system date stamps.
 
 Adroit Photo Forensics interface is optimized for the display of photos.
 APF also include grouping and sorting options that are photo relevant.
-
-## External Links
-
-* [Adroit Photo Forensics Product Information](https://www.werecoverdata.com)

@@ -31,9 +31,9 @@ tags:
 - [Digital Evidence with an Emphasis on Time](http://www.bth.se/fou/cuppsats.nsf/bbb56322b274389dc1256608004f052b/2e5256fe7d0e57d5c12574bd0072d894!OpenDocument),
   by Olsson, Jens Master's Thesis, Blekinge Institute of Technology, September
   2008.
-- [The Use of File Timestamps in Digital Forensics](http://icsa.cs.up.ac.za/issa/2008/Proceedings/Full/43.pdf),
+- [The Use of File Timestamps in Digital Forensics](https://digifors.cs.up.ac.za/issa/2008/Proceedings/Full/43.pdf),
   by R. Koen, M. Olivier, ISSA 2008, Johannesburg, South Africa, July 2008
-- [Methods for Enhancement of Timestamp Evidence in Digital Investigations](http://www.diva-portal.org/ntnu/abstract.xsql?dbid=2145),
+- [Methods for Enhancement of Timestamp Evidence in Digital Investigations](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/261472),
 - by S. Willassen, PhD Dissertation, Norwegian University of Science and
   Technology, 2008
 - [Finding Evidence of Antedating in Digital Investigations](https://ieeexplore.ieee.org/document/4529317),
@@ -47,7 +47,7 @@ tags:
   by F. Buchholz, JMU-INFOSEC-TR-2007-001, James Madison University
 - [A brief study of time](http://www.dfrws.org/2007/proceedings/p31-buchholz.pdf),
   by F. Buchholz, B. Tjaden, Digital Investigation 2007:4S
-- [The Rules of Time on NTFS File System](http://i.cs.hku.hk/~cisc/forensics/papers/RuleOfTime.pdf),
+- [The Rules of Time on NTFS File System](https://i.cs.hku.hk/~cisc/forensics/papers/RuleOfTime.pdf),
   by K. Chow, F. Law, M. Kwan, P. Lai, 2nd International Workshop on Systematic
   Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007
 - [A correlation method for establishing provenance of timestamps in digital evidence](http://www.dfrws.org/2006/proceedings/13-%20Schatz.pdf),
@@ -103,11 +103,11 @@ TimeFlow - Visual timelines for investigation - source freely available
 <!-- -->
 
 [Timesketch](timesketch.md) - tool for collaborative forensic timeline analysis
-<http://www.timesketch.org/>
+<https://timesketch.org>
 
 <!-- -->
 
 Zeitline - Forensic timeline editor
-<http://projects.cerias.purdue.edu/forensics/timeline.php>
+<https://projects.cerias.purdue.edu/forensics/timeline.php>
 
 <https://sourceforge.net/projects/zeitline/>

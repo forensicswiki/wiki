@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 <img src="HarlanCarvey.jpg" title="HarlanCarvey.jpg" width="200"
 alt="HarlanCarvey.jpg" /> [Harlan Carvey](harlan_carvey.md) is a
@@ -44,25 +44,18 @@ basis.
 
 ## Website
 
-- [Harlan's Windows Incident Response
-  Blog](http://windowsir.blogspot.com)
+- [Harlan's Windows Incident Response Blog](http://windowsir.blogspot.com)
 
 ## Tools
 
-- [WinForensicAnalysis
-  Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
+- [WinForensicAnalysis Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
   Hosted on Google Code, includes files for the Windows Registry
   Forensics book.
 
 ## Books
 
-- *[Windows Registry
-  Forensics](http://http://www.syngress.com/digital-forensics/Windows-Registry-Forensics/)*
-- *[Windows Forensic
-  Analysis](http://www.syngress.com/catalog/index.cfm?pid=4235)*
-- *[Windows Forensics and Incident
-  Recovery](http://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/ref=sr_1_3?ie=UTF8&s=books&qid=1200485877&sr=1-3)*
-- *[Perl Scripting for Windows
-  Security](https://www.amazon.com/Perl-Scripting-Windows-Security-Monitoring/dp/159749173X)*
+- *[Windows Registry Forensics](http://www.syngress.com/digital-forensics/Windows-Registry-Forensics/)*
+- *[Windows Forensic Analysis](http://www.syngress.com/catalog/index.cfm?pid=4235)*
+- *[Windows Forensics and Incident Recovery](http://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/ref=sr_1_3?ie=UTF8&s=books&qid=1200485877&sr=1-3)*
+- *[Perl Scripting for Windows Security](https://www.amazon.com/Perl-Scripting-Windows-Security-Monitoring/dp/159749173X)*
 - *A Study of Video Teleconferencing Traffic on a TCP/IP Network*
-

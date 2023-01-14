@@ -66,5 +66,5 @@ the corresponding values.
 * [Mozilla wiki: Necko/Cache](https://wiki.mozilla.org/Necko/Cache)
 * [Web Browser Forensics, Part 2](http://www.symantec.com/connect/articles/web-browser-forensics-part-2),
   by Keith J. Jones, Rohyt Belani, May 10, 2005
-* [Firefox Cache Format and Extraction](https://www.forensicfocus.com/articles/firefox-cache-format-and-extraction/),
+* [Firefox Cache Format and Extraction](https://forensicfocus.com/articles/firefox-cache-format-and-extraction/),
   by John Ritchie, March 9, 2012

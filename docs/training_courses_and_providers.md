@@ -58,7 +58,7 @@ National White Collar Crime Center | https://www.nw3c.org/ | Limited To Law Enfo
 Title | Website | Limitation
 --- | --- | ---
 AccessData (Forensic Tool Kit FTK) | <https://training.exterro.com> |
-Amped Software (Image & Video forensics - FIVE; Authenticate) | <http://ampedsoftware.com/training> |
+Amped Software (Image & Video forensics - FIVE; Authenticate) | <https://ampedsoftware.com/training> |
 ASR Data (SMART) | <http://www.asrdata.com/forensic-training/overview/> |
 Cellebrite (UFED) | <https://cellebrite.com/en/academy-overview/> |
 CPR Tools (Data Recovery) | <https://www.cprtools.com/training/> |
@@ -73,7 +73,7 @@ Paraben (Paraben Suite) | <https://paraben.com/dfir-training-3/> |
 Software Analysis & Forensic Engineering (CodeSuite) | <https://www.safe-corp.com/> |
 Sumuri, LLC. (Recon for MAC OS X) | <https://sumuri.com/mac-training/> |
 Volatility Labs (Volatility Framework) | <https://volatility-labs.blogspot.com/search/label/training> |
-X-Ways Forensics (X-Ways Forensics) | <http://www.x-ways.net/training/> |
+X-Ways Forensics (X-Ways Forensics) | <https://www.x-ways.net/training/> |
 
 ## Commercial Training (Non-Tool Vendor)
 
@@ -99,6 +99,5 @@ Security University | <http://www.securityuniversity.net/classes.php> |
 Sumuri, LLC - Mac, Digital Forensics, Encryption, Mobile Forensics, Recon, Passware, Paladin | <https://sumuri.com/training-courses/> |
 SysAdmin, Audit, Network, Security Institute (SANS) | <https://www.sans.org/digital-forensics-incident-response/> |
 SysTools, INC. (Digital Forensics Training) | <https://www.systoolsgroup.com/training/> |
-Teel Technologies Canada/Europe Mobile/Comp/Video Forensics Training | <https://teeltechcanada.com/digital-forensic-training/> |
 Teel Technologies Mobile Device Forensics Training | <https://teeltech.com/mobile-device-forensics-training/> |
 Zeidman Consulting (MCLE) | <https://www.zeidmanconsulting.com/speaking.htm> |

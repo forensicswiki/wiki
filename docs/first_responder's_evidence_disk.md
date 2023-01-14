@@ -58,8 +58,4 @@ inspired the development of [md5deep](md5deep.md).
 
 ## See Also
 
-- [COFEE](cofee.md)
-
-## External Links
-
-- [Project site](http://darkparticlelabs.com/projects)
+* [COFEE](cofee.md)

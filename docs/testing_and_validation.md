@@ -19,7 +19,7 @@ Testing and validation are 2 important elements for forensics.
   by Crown, 2020
 * [Testing digital forensic data processing tools](https://osdfir.blogspot.com/2020/09/testing-digital-forensic-data.html),
   by Joachim Metz, September 25, 2020
-* [25 Days, 25 Questions: Part 4 – Lab And Tool Standards](https://www.forensicfocus.com/articles/25-days-25-questions-part-4-lab-and-tool-standards/),
+* [25 Days, 25 Questions: Part 4 – Lab And Tool Standards](https://forensicfocus.com/articles/25-days-25-questions-part-4-lab-and-tool-standards/),
   by Forensic Focus, November 2, 2020
 
 ### Standards

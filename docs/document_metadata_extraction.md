@@ -105,7 +105,6 @@ Examines [Thumbs.db](thumbs.db.md) files.
 <!-- -->
 
 [Adroit Photo Forensics](adroit_photo_forensics.md)
-<https://www.werecoverdata.com>
 
 Displays meta data and uses date and camera meta-data for grouping,
 timelines etc.

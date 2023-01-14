@@ -125,7 +125,7 @@ with Twitter accounts. To the best of our knowledge, this study is the
 first to identify individuals and create social cliques solely based on
 information derived from document metadata. Our study raises major
 concerns about the risks involved in privacy leakage due to document
-metadata. <http://cis.poly.edu/~gessiou/reports/metadata.pdf>
+metadata.
 
 <small>Jan 2013</small> <bibtex> @article{young:distinct,
 
@@ -785,8 +785,6 @@ fragmentation points. The performance results obtained from the
 fragmented test-sets of DFRWS 2006 and 2007 show that the method can be
 effectively used in recovery of fragmented ﬁles. clear that recovery of
 fragmented ﬁles is a critical problem in forensics. ",
-
-` url="`[`https://www.werecoverdata.com`](https://www.werecoverdata.com)`"`
 
 } </bibtex>
 

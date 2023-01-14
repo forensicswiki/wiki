@@ -57,7 +57,7 @@ and credentials are all stored in SQLite3.
 
 - [Recovering Deleted Records from an SQLite database](https://sqliteforensictoolkit.com/recovering-deleted-records-from-an-sqlite-database/)
 - [Forensic examination of WAL files](https://sqliteforensictoolkit.com/forensic-examination-of-sqlite-write-ahead-log-wal-files/)
-- [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](http://belkasoft.com/sqlite-analysis),
+- [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](https://belkasoft.com/sqlite-analysis),
   by [Belkasoft](belkasoft.md)
 - [The SQLite Database File Format](https://sqlite.org/fileformat2.html),
   by the [SQLite project](sqlite.md)

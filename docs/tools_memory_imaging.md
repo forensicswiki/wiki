@@ -7,14 +7,14 @@ tags:
 
 ### x86 Hardware
 
-[WindowsSCOPE](http://www.windowsscope.com) CaptureGUARD PCIe card (commercial) - desktops, servers
+[WindowsSCOPE](https://www.windowsscope.com/) CaptureGUARD PCIe card (commercial) - desktops, servers
 Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
 
 <!-- -->
 
-[WindowsSCOPE](http://www.windowsscope.com) CaptureGUARD ExpressCard (commercial) - laptop applications
+[WindowsSCOPE](https://www.windowsscope.com/) CaptureGUARD ExpressCard (commercial) - laptop applications
 Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
@@ -54,7 +54,7 @@ are included.
 
 <!-- -->
 
-[WindowsSCOPE Pro and Ultimate](http://www.windowsscope.com)
+[WindowsSCOPE Pro and Ultimate](https://www.windowsscope.com/)
 
 Can capture, analyze, graph in depth physical and virtual memory codes
 and structures
@@ -74,7 +74,7 @@ computers
 
 <!-- -->
 
-[WindowsSCOPE Live](http://www.windowsscope.com)
+[WindowsSCOPE Live](https://www.windowsscope.com/)
 
 allows live memory analysis of Windows computers from Android phones and
 tablets

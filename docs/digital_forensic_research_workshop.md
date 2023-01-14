@@ -1,6 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Conference
 ---
 The **Digital Forensic Research Workshop** (**DFRWS**) was initiated in
 August 2001 to bring academic researchers and digital forensic

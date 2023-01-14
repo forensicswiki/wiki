@@ -111,10 +111,6 @@ the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
 
 ### Typed URLS
 
-* [TypedURLs (Part 1)](http://crucialsecurityblog.harris.com/2011/03/14/typedurls-part-1/),
-  by Paul Nichols, March 14, 2011
-* [TypedURLs (Part 2)](http://crucialsecurityblog.harris.com/2011/03/23/typedurls-part-2/),
-  by Paul Nichols, March 23, 2011
 * [The Trouble with TypedUrlsTime](http://randomthoughtsofforensics.blogspot.co.uk/2012/07/trouble-with-typedurlstime.html),
   by Ken Johnson, July 4, 2012
 * [TypedURLs Registry Key](http://sketchymoose.blogspot.ch/2014/02/typedurls-registry-key.html),

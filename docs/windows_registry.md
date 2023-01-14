@@ -16,9 +16,7 @@ According to
 However in common usage the term hive often does not imply the
 supporting files.
 
-According to
-[2](http://blogs.msdn.com/b/oldnewthing/archive/2003/08/08/54618.aspx)
-the origin of the term is bee hives.
+According to MSDN the origin of the term is bee hives.
 
 ## File Locations
 
@@ -1175,7 +1173,7 @@ name</a></b></p></td>
 
 * [A Windows Registry Quick Reference: For the Everyday Examiner](http://eptuners.com/forensics/A%20Windows%20Registry%20Quick%20Reference.pdf),
   by Derrick Farmer, Burlington, VT.
-* [Forensic Analysis of the Windows Registry](https://www.forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
+* [Forensic Analysis of the Windows Registry](https://forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
   by Lih Wern Wong , School of Computer and Information Science, Edith
   Cowan University
 
@@ -1228,8 +1226,6 @@ name</a></b></p></td>
   by Corey Harrell, April 17, 2013
 * [Auto-Start Extensibility Points (ASEPs)](https://code.google.com/archive/p/regripper/wikis/ASEPs.wiki),
   by the [RegRipper project](regripper.md), April 29, 2013
-* [Windows Registry Persistence, Part 2: The Run Keys and Search-Order](http://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order),
-  by Scott Langendorf, September 24, 2013
 * [Volatility autoruns plugin](https://github.com/tomchop/volatility-autoruns/blob/master/README.md),
   by the [Volatility project](volatility_framework.md), April 14, 2015
 
@@ -1310,7 +1306,6 @@ name</a></b></p></td>
 * [Alien Registry Viewer](http://lastbit.com/arv/default.asp)
 * [NT Registry Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
 * [iExpert Software-Free Registry Defrag](https://cumdiner.com/categories/)
-* [Registry Recon](http://arsenalrecon.com/apps)
 * [Registry Undelete (russian)](http://paullee.ru/regundel)
 * [Windows Registry Recovery](http://mitec.cz/wrr.html)
 * [Registry Tool](http://registrytool.com/)

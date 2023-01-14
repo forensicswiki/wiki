@@ -221,8 +221,6 @@ deleted.
   by Geoff Chappell, September 13, 2010
 * [The Hash Algorithm for URL Caching](https://www.geoffchappell.com/studies/windows/ie/wininet/api/urlcache/hashkey.htm?tx=20,78,83,84,88),
   by Geoff Chappell, September 20, 2010
-* [A Primer on Temporary Internet Files](http://blogs.msdn.com/b/ieinternals/archive/2011/03/19/wininet-temporary-internet-files-cache-and-explorer-folder-view.aspx),
-  by Eric Law, March 19, 2011
 
 ## Tools
 

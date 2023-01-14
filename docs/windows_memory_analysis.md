@@ -140,7 +140,6 @@ and re-released as Volatility in August
 * [MS-DTYP: Windows Data Types](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2)
 * [Catalog of key Windows kernel data structures](http://www.codemachine.com/article_kernelstruct.html)
 * [Jesse Kornblum Memory Analysis discussion on Cyberspeak](https://cyberspeak.libsyn.com/index.php?post_id=98104)
-* [Fatkit: Links](http://www.4tphi.net/fatkit/#links)
 * [Kernel Debugging with WinDbg](http://www.cmlab.csie.ntu.edu.tw/~cathyp/eBooks/WindowsNT/Driver/kernel_debugging_tutorial.pdf)
 * [Attacking the Windows kernel](https://www.blackhat.com/presentations/bh-usa-07/Lindsay/Whitepaper/bh-usa-07-lindsay-WP.pdf),
   by Jonathan Lindsay, BlackHat 2007
@@ -193,10 +192,4 @@ and re-released as Volatility in August
   by Brad Antoniewicz, December 24, 2013
 * [Getting Started with WinDBG - Part 3](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-3.html),
   by Brad Antoniewicz, December 31, 2013
-* [Developing WinDbg ExtEngCpp Extension in C++ – Introduction – Part 1](http://www.msuiche.net/2014/01/12/extengcpp-part-1/),
-  by Matt Suiche, January 12, 2014
-* [Developing WinDbg ExtEngCpp Extension in C++ – COM Interface – Part 2](http://www.msuiche.net/2014/01/15/developing-windbg-extengcpp-extension-in-c-com-interface/),
-  by Matt Suiche, January 15, 2014
-* [Developing WinDbg ExtEngCpp Extension in C++ – Memory & Debugger Markup Language (DML) – Part 3](http://www.msuiche.net/2014/01/20/developing-windbg-extengcpp-extension-in-c-memory-debugger-markup-language-dml-part-3/),
-  by Matt Suiche, January 20, 2014
 * [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/comaeio/SwishDbgExt)

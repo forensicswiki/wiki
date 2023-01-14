@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  Articles that need to be expanded
-  -  Cache
+  - File Formats
+  - Articles that need to be expanded
+  - Cache
 ---
 ## Cache files
 
@@ -728,10 +728,7 @@ implementation:
 
 ## External Links
 
-- [Disk
-  Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
+- [Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
   The Chromium Projects
-- [Chrome Cache file
-  format](https://e366e647f8637dd31e0a13f75e5469341a9ab0ee.googledrive.com/host/0B30H7z4S52FleW5vUHBnblJfcjg/Docs/Chrome%20Cache%20file%20format.pdf),
-  by the [plaso project](plaso.md), April 2014
-
+- [Chrome Cache file format](https://github.com/libyal/dtformats/blob/main/documentation/Chrome%20Cache%20file%20format.asciidoc),
+  orignally by the [Plaso project](plaso.md) transitioned to the dtFormats project, April 2014

@@ -52,5 +52,5 @@ this CD;
 
 - [THE FARMER'S BOOT CD screen shots](http://www.forensicbootcd.com/site/view.html) -
   Screen Shots for Delve Preview Program on the FBCD.
-- [Preview Data in Under Twenty Minutes](https://www.forensicfocus.com/farmers-boot-cd) -
-  Paper on previewing data quickly at <http://www.forensicfocus.com>.
+- [Preview Data in Under Twenty Minutes](https://forensicfocus.com/farmers-boot-cd) -
+  Paper on previewing data quickly at <https://forensicfocus.com>.
