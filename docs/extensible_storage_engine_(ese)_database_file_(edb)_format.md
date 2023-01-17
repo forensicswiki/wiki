@@ -97,7 +97,7 @@ such as:
 
 ## External Links
 
-- [Extensible Storage Engine (ESE) Database File (EDB) format](https://github.com/libyal/libesedb/blob/master/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
+- [Extensible Storage Engine (ESE) Database File (EDB) format](https://github.com/libyal/libesedb/blob/main/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
   by the [libesedb project](libesedb.md)
 - [Wikipedia on Extensible Storage Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
 - [Exchange .EDB File Extension](https://www.whatisfileextension.com/edb/)
@@ -112,7 +112,7 @@ such as:
 ## Tools
 
 - [EsEDbViewer](https://github.com/woanware)
-- [ESE Database Viewer](http://www.systoolsgroup.com/ese-database-viewer/)
+- [ESE Database Viewer](https://www.systoolsgroup.com/ese-database-viewer/)
 - [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
 - [libesedb](libesedb.md)
 - [Logpresso Mini](https://github.com/logpresso/community)

@@ -164,7 +164,7 @@ manipulate PDF files. Packaged in recent Debian based distributions.
 These tools are useful for manipulating and generating PDF files:
 
 ReportLab Open Source PDF Library
-<http://www.reportlab.com/software/opensource/>
+<https://docs.reportlab.com/>
 
 "our proven, industry-strength PDF generating software. Programmatically
 create any kind of PDF document"
@@ -183,7 +183,7 @@ create any kind of PDF document"
   Programmers](http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/),
   MacTech Magazine, Volume 15, (1999), Issue 9
 - [ISO
-  Standard](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=51502)
+  Standard](https://www.iso.org/standard/51502.html)
 - [Patent
   Licenses](http://partners.adobe.com/public/developer/support/topic_legal_notices.html)
 - [Quickpost: About the Physical and Logical Structure of PDF

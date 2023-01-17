@@ -146,14 +146,14 @@ and re-released as Volatility in August
   by Jonathan Lindsay, BlackHat 2007
 * [The VAD tree: A process-eye view of physical memory](http://dfrws.org/2007/proceedings/p62-dolan-gavitt.pdf),
   by Brendan Dolan-Gavitt, DFRWS 2007
-* [Malware Analysis Tutorial 7: Exploring Kernel Data Structure](http://fumalwareanalysis.blogspot.ch/2011/12/malware-analysis-tutorial-7-exploring.html),
+* [Malware Analysis Tutorial 7: Exploring Kernel Data Structure](http://fumalwareanalysis.blogspot.com/2011/12/malware-analysis-tutorial-7-exploring.html),
   by Dr. Fu, December 14, 2011
 * [Windows Virtual Address Translation and the Pagefile](http://blog.rekall-forensic.com/2014/10/windows-virtual-address-translation-and.html),
   by [Michael Cohen](michael_cohen.md), October 31, 2014
 
 ### Kernel debugging
 
-* [Advanced Windows Debugging](http://advancedwindowsdebugging.com/book/contents.htm), by
+* [Advanced Windows Debugging](http://survey-smiles.com), by
   Mario Hewardt, Daniel Pravat, November 8, 2007
 * [Advanced Windows Debugging: Memory Corruption Part II—Heaps](https://www.informit.com/articles/article.aspx?p=1081496), by
   Daniel Pravat and Mario Hewardt, November 9, 2007

@@ -19,7 +19,7 @@ Preferences**. The purpose of the file is so that the browser can
 compare the saved profile to a "good copy" (the **Secure Preferences**
 file), and if the two do not match then the browser will reset the
 settings when it is restarted, as [explained
-here](https://superuser.com/a/1276934)).
+here](https://superuser.com/questions/1173339/what-is-the-difference-between-preference-and-secure-preference-file-in-google-c/1276934#1276934)).
 
 On Linux
 
@@ -132,7 +132,7 @@ This is used to determine if your ISP is hijacking NXDOMAIN results
 ## Disk Cache
 
 Google Chrome uses multiple caches, from
-[3](http://src.chromium.org/viewvc/chrome/trunk/src/net/base/cache_type.h?view=markup):
+[3](https://src.chromium.org/viewvc/chrome/trunk/src/net/base/cache_type.h?view=markup):
 
     // The types of caches that can be created.
     enum CacheType {
@@ -337,7 +337,7 @@ On Windows Vista and later
 ### Extension Activity database
 
 Chrome, presumably as of version 29
-[4](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/extensions/activity_log/activity_database.cc?view=log),
+[4](https://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/extensions/activity_log/activity_database.cc?view=log),
 stores exension activity in a file named **Extension Activity**. This
 file uses the [SQLite database
 format](sqlite_database_format.md).

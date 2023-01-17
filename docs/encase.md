@@ -16,7 +16,7 @@ Expert Witness (for Windows) was the original name for EnCase (dating
 back to 1998). More info about this can be found on the Internet Archive
 [1](http://web.archive.org/web/19980504153628/http://guidancesoftware.com/)
 including a demo of the original software
-[2](http://web.archive.org/web/19980504153759/http://guidancesoftware.com/data/ewsetup.exe).
+[2](http://web.archive.org/web/19980504153952/http://guidancesoftware.com/data/ewsetup.exe).
 
 ## File Format
 

@@ -86,7 +86,7 @@ images can also be found on the Second Look website at
   Memory](http://forensic.seccure.net/pdf/mburdach_digital_forensics_of_physical_memory.pdf) M.
   Burdach, March 2005.
 - [Linux Physical Memory
-  Analysis](http://www.usenix.org/events/usenix05/tech/freenix/full_papers/movall/movall.pdf),
+  Analysis](https://www.usenix.org/legacy/events/usenix05/tech/freenix/full_papers/movall/movall.pdf),
   Paul Movall, Ward Nelson, Shaun Wetzstein; Usenix, 2005.
 - [An Analysis Of Linux RAM
   Forensics](http://cisr.nps.edu/downloads/theses/06thesis_urrea.pdf),
@@ -104,7 +104,7 @@ images can also be found on the Second Look website at
   a presentation by Desnos Anthony describing the implementation of
   draugr, 2009.
 - [Forensic RAM Dump Image
-  Analyzer](http://is.cuni.cz/studium/dipl_st/index.php?doo=detail&did=48540)
+  Analyzer](https://is.cuni.cz/studium/dipl_st/index.php?doo=detailhttp://is.cuni.cz/studium/dipl_st/index.php?doo=detail&did=48540did=48540)
   by Ivor Kollar, describing the implementation of foriana, 2009.
 - [Treasure and tragedy in kmem_cache mining for live forensics
   investigation](http://www.dfrws.org/2010/proceedings/2010-305.pdf) by

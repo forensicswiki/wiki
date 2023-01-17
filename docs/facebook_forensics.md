@@ -43,7 +43,7 @@ you parse them.
 
 ### Network Forensics
 
-- [Netresec](http://www.netresec.com/?page=Blog&month=2011-01&post=Facebook-SSL-and-Network-Forensics),
+- [Netresec](https://www.netresec.com/?page=Bloghttp://www.netresec.com/?page=Blog&month=2011-01&post=Facebook-SSL-and-Network-Forensicsmonth=2011-01http://www.netresec.com/?page=Blog&month=2011-01&post=Facebook-SSL-and-Network-Forensicspost=Facebook-SSL-and-Network-Forensics),
   January 30, 2011, thoughts about the impact of Facebook's SSL decision
   on network forensics.
 
@@ -53,7 +53,7 @@ you parse them.
   toolkit to identify and clone full profiles; including wall posts,
   private messages, uploaded photos/tags, group details, graphically
   illustrate friend links, and generate expert reports.
-- [Belkasoft Evidence Center](http://belkasoft.com) allows for carving
+- [Belkasoft Evidence Center](https://belkasoft.com/) allows for carving
   Facebook data such as chats, wall posts and photos from Live RAM
   dumps, hibernation and pagefiles.
 - [Belkasoft Facebook Profile

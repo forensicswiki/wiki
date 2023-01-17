@@ -47,5 +47,5 @@ removing the [SIM Card](sim_cards.md).
 
 # External Links
 
-* [GSM World](http://www.gsmworld.com/index.shtml)
+* [GSM World](https://www.gsma.com)
 * [Wikipedia: GSM](https://en.wikipedia.org/wiki/Gsm)

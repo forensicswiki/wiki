@@ -8,7 +8,7 @@ tags:
 One of the most difficult things for new investigators is finding sample
 cases to work on.
 
-- The <http://digitalcorpora.org/> website has more than 5 terabytes of
+- The <https://digitalcorpora.org/> website has more than 5 terabytes of
   realistic computer forensics data, including disk images, memory
   dumps, and packet captures. Also available are instructor's packets
   and answer keys.

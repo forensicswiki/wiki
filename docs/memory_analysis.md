@@ -137,7 +137,7 @@ analysis.
 
 - [Integrating Volatile Memory Forensics into the Digital Investigation Process](https://www.blackhat.com/presentations/bh-dc-07/Walters/Paper/bh-dc-07-Walters-WP.pdf),
   by [AAron Walters](aaron_walters.md), [Nick Petroni](nick_petroni.md), Blackhat 2007
-- [Forensic Analysis of Anti-Forensic Activities](http://blog.handlerdiaries.com/?p=363),
+- [Forensic Analysis of Anti-Forensic Activities](https://www.hugedomains.com/domain_profile.cfm?d=handlerdiaries.com),
   by Jack Crook, January 29, 2014
 - [ADD: The Next Big Threat To Memory Forensics....Or Not](https://volatility-labs.blogspot.com/2014/02/add-next-big-threat-to-memory.html),
   by Michael Hale Ligh, February 3, 2014

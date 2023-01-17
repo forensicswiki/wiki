@@ -9,4 +9,4 @@ log file.
 ## External Links
 
 - [A description of the journal file
-  format](http://www.freedesktop.org/wiki/Software/systemd/journal-files/)
+  format](https://www.freedesktop.org/wiki/Software/systemd/journal-files/)

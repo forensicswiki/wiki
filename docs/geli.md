@@ -12,9 +12,9 @@ Authentification.
 
 ## External Links
 
-- [FreeBSD official website](http://www.freebsd.org)
+- [FreeBSD official website](https://www.freebsd.org/)
 - [FreeBSD Manpage:
-  GELI](https://www.freebsd.org/cgi/man.cgi?query=gelihttp://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8sektion=8)
+  GELI](https://www.freebsd.org/cgi/man.cgi?query=gelihttps://www.freebsd.org//cgi/man.cgi?query=geli&sektion=8sektion=8)
 - [FreeBSD Handbook - Disk
   Encryption](https://docs.freebsd.org/en/books/handbook/disks/#disks-encrypting)
 - [Wikipedia: GBDE](https://en.wikipedia.org/wiki/GBDE)

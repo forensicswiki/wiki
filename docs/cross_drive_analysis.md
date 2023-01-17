@@ -12,8 +12,8 @@ performing anomaly detection.
 Garfinkel, S., "Forensic Feature Extraction and Cross-Drive Analysis,"
 The 6th Annual Digital Forensic Research Workshop Lafayette, Indiana,
 August 14-16, 2006.
-<http://www.simson.net/clips/academic/2006.DFRWS.pdf>
+<https://simson.net/clips/academic/2006.DFRWS.pdf>
 
 NSF Award 0730389, EXP-SA: Prediction and Detection of Network
 Membership through Automated Hard Drive Analysis.
-<http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0730389>
+<https://www.nsf.gov/awardsearch/showAward?AWD_ID=0730389>

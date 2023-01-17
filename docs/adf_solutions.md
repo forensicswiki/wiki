@@ -148,7 +148,6 @@ Social media
 [Facebook](https://www.facebook.com/adfsolutions)
 [Twitter](https://twitter.com/adfsolutions)
 [LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)
-[YouTube](http://www.youtube.com/user/ADFSolutionsInc)
 
 <H4>
 

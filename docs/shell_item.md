@@ -103,13 +103,13 @@ An example of a shell item list taken from **Calculator.lnk**
   October 2009 (appears to be no longer available)
 - [Using shellbag information to reconstruct user activities](http://old.dfrws.org/2009/proceedings/p69-zhu.pdf),
   by Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
-- [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/master/documentation/Windows%20Shell%20Item%20format.asciidoc),
+- [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/main/documentation/Windows%20Shell%20Item%20format.asciidoc),
   by the libfwsi project, July 2010 (work in progress)
 - [Computer Forensic Artifacts: Windows 7 Shellbags](https://www.sans.org/digital-forensics-incident-response/),
   Chad Tilbury, July 5, 2011
 - [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](https://volatility-labs.blogspot.com/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   by Jamie Levy, September 2012
-- [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.ch/2012/10/shellbag-analysis-revisitedsome-testing.html),
+- [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.com/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
 - [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)

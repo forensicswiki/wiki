@@ -10,7 +10,7 @@ tags:
 of the OpenVPN toolset to provide TCP-and UDP-based VPN connectivity to
 customers worldwide. Cryptocloud has publicly stated that it does not
 keep user-detail logfiles of its customers' usage of its network
-[1](https://www.cryptocloud.com/privacypolicy.php).
+[1](http://ww25.cryptocloud.com/privacypolicy.php?subid1=20230112-2011-50f7-855b-31255d59b9de).
 
 ## External Links
 

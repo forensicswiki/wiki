@@ -76,10 +76,10 @@ format](sqlite_database_format.md).
 
 - [Official website](https://www.apple.com/macos/ventura/)
 - [Safari Cache
-  Revisited](http://www.appleexaminer.com/files/Safari_Cache.db_Revisited.pdf)
+  Revisited](http://www.appleexaminer.com)
   by Sean Cavanaugh
 - [Analyzing Apple Safari
-  Artifacts](http://www.appleexaminer.com/MacsAndOS/Analysis/HowTo/SafariBrowserAnalysis/SafariBrowserAnalysis.html),
+  Artifacts](http://www.appleexaminer.com),
   by Selena Ley
 - [iOS / macOS - Tracking Downloads from Safari Without Downloads](https://blog.d204n6.com/2021/05/ios-macos-tracking-downloads-from.html)
   by Scott Vance, Friday, 28 May 2021

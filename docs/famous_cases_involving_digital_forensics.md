@@ -89,7 +89,7 @@ of the pornography in his web browser's cache.
 
 - <http://www.dailyfreeman.com/articles/2010/10/20/blotter/doc4cbe74442fd0d812453451.txt>
 - <https://www.nbcnews.com/us-news?lite>
-- [Opinion](http://msnbcmedia.msn.com/i/MSNBC/Sections/NEWS/120508_NY_ChildPorn_Ruling.pdf)
+- [Opinion](http://www.msn.com/de-ch/)
 - <https://www.forbes.com/sites/kashmirhill/2010/10/15/i-was-doing-academic-research-not-an-adequate-defense-for-child-porn-possession/>
 
 ### 2008 Brad Cooper
@@ -134,7 +134,7 @@ Mr. Cameron."
 
 ## See Also
 
-- [Tracking down the author of the Melissa virus](http://groups.google.com/group/alt.comp.virus/browse_frm/thread/f5d9d7c71c6fb540/e0e9a7986d4df76b?tvc=1) -
+- [Tracking down the author of the Melissa virus](https://groups.google.com/g/alt.comp.virus/c/9dnXxxxvtUA) -
   Usenet discussion which revealed lots of information about the author
   of the [Melissa worm/virus](https://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
 - [IDS Logs in Forensics Investigations: An Analysis of a Compromised Honeypot](https://bugtraq.securityfocus.com/infocus/1676)

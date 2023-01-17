@@ -82,5 +82,5 @@ resulting TCP stream.
   version - 2005/05/29)
 - [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable
   version - 2000/12/17)
-- [justniffer](http://justniffer.sourceforge.net/)
+- [justniffer](https://onotelli.github.io/justniffer/)
 

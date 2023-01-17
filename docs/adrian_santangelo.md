@@ -33,8 +33,7 @@ adrian_santangelo.
 
 * [ISC Unlimited (no longer maintained)](https://www.interpretingtech.com/)
 * [Interpreting Technology](https://www.interpretingtech.com/)
-* [Skagit County Sheriff's Department](http://www.skagitcounty.net/Common/asp/default.asp?d=Sheriff&c=General&p=main.htm)
 * [LinkedIn Profile](https://www.linkedin.com/in/AdrianSantangelo/)
 * [Business Facebook Page](https://www.facebook.com/InterpretingTech)
-* [Personal Facebook Page](http://www.facebook.com/Adrian.Santangelo)
+* [Personal Facebook Page](https://www.facebook.com/adrian.santangelo/)
 * [BrandYourself Profile](https://adriansantangelo.brandyourself.com/)

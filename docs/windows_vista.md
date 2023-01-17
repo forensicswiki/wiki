@@ -69,7 +69,7 @@ with applications at higher level/permission.
   1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), February 2007
 - [Inside the Windows Vista Kernel: Part
-  2](http://technet.microsoft.com/en-us/magazine/2007.03.vistakernel.aspx),
+  2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),
   by [Mark Russinovich](mark_russinovich.md), March 2007
 - [Inside the Windows Vista Kernel: Part
   3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)),

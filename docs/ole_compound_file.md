@@ -52,7 +52,7 @@ The OLECF is used to store:
 
 ## External Links
 
-* [Compound Binary File Specification](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/WindowsCompoundBinaryFileFormatSpecification.pdf),
+* [Compound Binary File Specification](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/WindowsCompoundBinaryFileFormatSpecification.pdf),
   by [Microsoft](microsoft.md). Be warned this file contains at least one
   error: the directory entry name length is a size in bytes not in characters.
 * [MS-CFB: Compound File Binary File Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/53989ce4-7b05-4f8d-829b-d08d6148375b),

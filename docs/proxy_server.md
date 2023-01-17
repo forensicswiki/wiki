@@ -96,7 +96,7 @@ server):
     User-Agent: http://Anonymouse.org/ (Unix)
     Connection: keep-alive
 
-Example GET request from [HideMyAss.com](http://www.hidemyass.com/):
+Example GET request from [HideMyAss.com](https://www.hidemyass.com/de-ch/index):
 
     GET / HTTP/1.0
     Host: [scrubbed server host]:8080

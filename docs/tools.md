@@ -83,7 +83,7 @@ etc) and reporting.
 
 <!-- -->
 
-[CD/DVD Inspector](http://www.infinadyne.com/cddvd_inspector.html) by [InfinaDyne](infinadyne.md)
+[CD/DVD Inspector](https://www.infinadyne.com/cddvd_inspector.html) by [InfinaDyne](infinadyne.md)
 This is the only forensic-qualified tool for examinination of optical
 media. It has been around since 1999 and is in use by law enforcement,
 government and data recovery companies worldwide.
@@ -209,7 +209,7 @@ Comprehensive Windows Memory Forensics and Cyber Analysis, Incident
 Response, and Education support.
 
 Software and hardware based acquisition with [CaptureGUARD PCIe and
-ExpressCard](https://www.windowsscope.com/?option=com_virtuemarthttps://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34Itemid=34)
+ExpressCard](https://www.windowsscope.com/?option=com_virtuemarthttps%3A%2F%2Fwww.windowsscope.com%2F%2Findex.php%3Foption%3Dcom_virtuemarthttps://www.windowsscope.com/?option=com_virtuemarthttps://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34Itemid=34Itemid=34Itemid%3D34)
 
 Hardware based acquisition of memory on a locked computer via
 [CaptureGUARD

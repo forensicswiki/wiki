@@ -279,7 +279,6 @@ Follow INsig2 on:
 
 [<span style="color:red">LinkedIn</span>](https://www.linkedin.com/company/insig2)
 [<span style="color:red">Twitter</span>](https://twitter.com/INsig2_Ltd)
-[<span style="color:red">YouTube</span>](https://www.youtube.com/channel/UCYcm_mkn-q7FATBdiZmpE4A)
 
 ## CONTACT DETAILS
 

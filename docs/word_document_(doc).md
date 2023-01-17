@@ -76,4 +76,4 @@ sophisticated tools instead.
 
 ## External Links
 
-* [Word 97-2007 Binary File Format by Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Word97-2007BinaryFileFormat(doc)Specification.pdf)
+* [Word 97-2007 Binary File Format by Microsoft](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Word97-2007BinaryFileFormat(doc)Specification.pdf)

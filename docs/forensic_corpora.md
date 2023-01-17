@@ -123,8 +123,8 @@ for the purpose of the evaluation.
 
 ## WIDE
 
-*The [MAWI Working Group](http://www.wide.ad.jp/project/wg/mawi.html) of
-the [WIDE Project](http://www.wide.ad.jp/)* maintains a [Traffic
+*The [MAWI Working Group](https://www.wide.ad.jp/project/wg/mawi.html) of
+the [WIDE Project](https://www.wide.ad.jp/)* maintains a [Traffic
 Archive](http://tracer.csl.sony.co.jp/mawi/). In it you will find:
 
 - daily trace of a trans-Pacific T1 line;
@@ -181,16 +181,16 @@ Email Messages Corpus Parsed from W3C Lists (for TRECENT 2005)
 [CRAWDAD](http://crawdad.cs.dartmouth.edu/index.php) is a community
 archive for wireless data.
 
-[CAIDA](http://www.caida.org/data/) collects a wide variety of data.
+[CAIDA](https://catalog.caida.org/) collects a wide variety of data.
 
 [DShield](https://www.dshield.org/howto.html) asks users to submit
 firewall logs.
 
 ## Text for Text Retrieval
 
-The [Text REtrieval Conference (TREC)](http://trec.nist.gov) has made
+The [Text REtrieval Conference (TREC)](https://trec.nist.gov/) has made
 available a series of [text
-collections](http://trec.nist.gov/data.html).
+collections](https://trec.nist.gov//data.html).
 
 ## American National Corpus
 
@@ -245,13 +245,13 @@ meeting recordings.
 
 - Under an NSF grant, Kam Woods and [Simson
   Garfinkel](simson_garfinkel.md) created a website for digital
-  corpora [2](http://digitalcorpora.org). The site includes a complete
+  corpora [2](https://digitalcorpora.org/). The site includes a complete
   training scenario, including disk images, packet captures and
   exercises.
 
 <!-- -->
 
-- The [Canterbury Corpus](http://corpus.canterbury.ac.nz/) is a set of
+- The [Canterbury Corpus](https://corpus.canterbury.ac.nz/) is a set of
   files used for testing lossless compression algorithms. The corpus
   consists of 11 natural files, 4 artificial files, 3 large files, and a
   file with the first million digits of pi. You can also find a copyof
@@ -282,7 +282,7 @@ meeting recordings.
 <!-- -->
 
 - [UT San Antonio Digital
-  Corpora](http://digitalcorpora.org/corp/nps/files/filetypes1/)
+  Corpora](https://digitalcorpora.org//corp/nps/files/filetypes1/)
 
 # External Links
 

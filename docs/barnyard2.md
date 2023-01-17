@@ -72,4 +72,4 @@ Parsing of the new unified2 log files.
 ## Sources
 
 - [Github About page](https://github.com/firnsy/barnyard2/)
-- [securixlive.com](http://www.securixlive.com/barnyard2/about.php)
+- [securixlive.com](https://firnsy.com/)

@@ -24,7 +24,7 @@ This is a list of items to get you started on reading SIM Cards and
 their information:
 
 1.  [Windows](windows.md) operating system
-2.  [SIMCon](simcon.md)[1](http://www.simcon.no/)
+2.  [SIMCon](simcon.md)[1](https://www.simcon.no/)
     - Program used to read SIM Cards
 3.  SIM Cards
 4.  SIM Card Reader

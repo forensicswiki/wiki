@@ -10,7 +10,7 @@ Testing and validation are 2 important elements for forensics.
 * [Computer Forensics Tool Testing Program (CFTT)](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt),
   by NIST
 * [Working Group on Digital Evidence (SWGDE)](https://www.swgde.org/home)
-* [Evaluating Digital Forensic Tools (DFTs)](https://www.napier.ac.uk/~/media/worktribe/output-178532/flandrinpdf.pdf),
+* [Evaluating Digital Forensic Tools (DFTs)](https://www.napier.ac.uk/page-not-found),
   by Flavien Flandrin, Prof William J. Buchanan, Richard Macfarlane,
   Bruce Ramsay, Adrian Smales,
 * [Validation and verification of computer forensic software tools — Searching Function](https://www.sciencedirect.com/science/article/pii/S1742287609000358),

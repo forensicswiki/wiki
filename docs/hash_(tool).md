@@ -29,4 +29,4 @@ Community](http://www.powerofcommunity.net) that November.
 
 ### External Links
 
-- [PoC presentation: Hacking Sucks! Why hash makes the hurting stop](http://powerofcommunity.net/poc2007/grugq.pdf)
+- [PoC presentation: Hacking Sucks! Why hash makes the hurting stop](https://powerofcommunity.net/poc2007/grugq.pdf)

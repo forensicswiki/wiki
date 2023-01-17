@@ -17,7 +17,7 @@ postdoc and lecturer in the Computer Science and Engineering department at
 UCSD, was a computer security researcher at the San Diego Supercomputer Center
 (SDSC), and co-founded a software company.
 
-Peisert's home page is <http://www.cs.ucdavis.edu/~peisert/>
+Peisert's home page is <https://www.cs.ucdavis.edu/~peisert/>
 
 He gave the keynote address at IEEE/SADFE-2008 and was Program Committee
 Co-Chair of IEEE/SADFE-2009. His interests in forensics also extend to e-voting

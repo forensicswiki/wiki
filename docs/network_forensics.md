@@ -94,7 +94,7 @@ available.
 - [OSSEC](ossec.md)
 - [Plaso](plaso.md) is the Python
   based back-end engine used by tools such as log2timeline for automatic
-  creation of a super timelines [7](http://plaso.kiddaland.net/)
+  creation of a super timelines [7](https://plaso.readthedocs.io/en/latest/)
 
 <!-- -->
 
@@ -122,7 +122,7 @@ available.
 - MFI Soft [SORMovich](http://sormovich.ru/) (in Russian)
 - NETRESEC [NetworkMiner Professional (portable network forensic
   analysis tool for
-  Windows)](http://www.netresec.com/?page=NetworkMiner)
+  Windows)](https://www.netresec.com/?page=NetworkMiner)
 - NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
   Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)
 - Network Instruments [11](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)

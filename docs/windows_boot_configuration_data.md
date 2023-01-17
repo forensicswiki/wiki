@@ -38,7 +38,7 @@ boot into safe mode.
 ## External Links
 
 - [Modifications to Microsoft Boot Components:
-  Update](http://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Boot_Modifications.doc),
+  Update](https://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Boot_Modifications.doc),
   by [Microsoft](microsoft.md)
 - [BCD System Store Settings for
   UEFI](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/bcd-system-store-settings-for-uefi?view=windows-11),

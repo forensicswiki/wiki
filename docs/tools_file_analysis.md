@@ -104,17 +104,17 @@ The [Open Computer Forensics Architecture](open_computer_forensics_architecture.
 
 <!-- -->
 
-[Rifiuti](http://www.foundstone.com/us/resources/proddesc/rifiuti.htm)
+[Rifiuti](https://www.mcafee.com/)
 Examines the INFO2 file in the Recycle Bin.
 
 <!-- -->
 
-[Pasco](http://www.foundstone.com/us/resources/proddesc/pasco.htm)
+[Pasco](https://www.mcafee.com/)
 Parses *index.dat* files.
 
 <!-- -->
 
-[Galleta](http://www.foundstone.com/us/resources/proddesc/galleta.htm)
+[Galleta](https://www.mcafee.com/)
 Parses cookie files.
 
 <!-- -->

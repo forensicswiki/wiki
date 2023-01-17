@@ -11,7 +11,7 @@ forensics with the right mix of methods, techniques, and tools.
 
 <!-- -->
 
-[The Future of Mobile Forensics](http://belkasoft.com/future-of-mobile-forensics), Oleg Afonin, Danil Nikolaev, Yuri Gubanov by [Belkasoft](belkasoft.md) Research, June 2015
+[The Future of Mobile Forensics](https://belkasoft.com/future-of-mobile-forensics), Oleg Afonin, Danil Nikolaev, Yuri Gubanov by [Belkasoft](belkasoft.md) Research, June 2015
 
 <!-- -->
 

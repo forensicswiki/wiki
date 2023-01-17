@@ -70,7 +70,7 @@ of transfer.
 
 ## External Links
 
-- <http://www.gsmworld.com/technology/gprs/class.shtml>
+- <https://www.gsma.com>
 - <http://www.kochar.com/gprs/classtypes.html>
 - <https://www.nokia.com/>
 - [Wikipedia: GPRS](https://en.wikipedia.org/wiki/GPRS)

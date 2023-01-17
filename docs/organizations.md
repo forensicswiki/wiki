@@ -10,10 +10,10 @@ tags:
 # US Government
 
 * [National Computer Forensic Institute](national_computer_forensic_institute.md)
-* [Computer Crime and Intellectual Property Section of the Department of Justice](http://cybercrime.gov/)
+* [Computer Crime and Intellectual Property Section of the Department of Justice](https://www.justice.gov/criminal-ccips)
 * [Computer Technology Investigators Network](https://www.ctin.org/)
 * [National Institute of Justice](https://www.ojp.gov/about/offices/national-institute-justice-nij)
-* [National Center for Forensic Science](http://ncfs.ucf.edu/)
+* [National Center for Forensic Science](https://ncfs.ucf.edu/)
 * [National Institute of Standards and Technology, Computer Forensic Tool Testing](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)
 * [Department of Defense Cyber Crime Center](defense_cybercrime_center.md)
 * [FBI Regional Computer Forensic Laboratory Program](https://www.rcfl.gov/)
@@ -25,7 +25,7 @@ tags:
 
 # Professional Organizations
 
-* [The SANS Institute](http://www.sans.org/)
+* [The SANS Institute](https://www.sans.org/emea/)
 * [High Technology Crime Investigation Association](https://www.htcia.org/)
 * [International Association of Computer Investigative Specialists](https://www.iacis.com/)
 * [Regional Computer Forensic Group](http://www.rcfg.org/)

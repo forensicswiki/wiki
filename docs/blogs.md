@@ -21,7 +21,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Apple Examiner](http://www.appleexaminer.com/)
   by [Eric Zimmerman](eric_zimmerman.md)
 - [BriMor Labs Blog](https://www.brimorlabsblog.com/)
-- [c-skills](https://c-skills.blogspot.ch/),
+- [c-skills](https://c-skills.blogspot.com/),
   by Sebastian Krahmer
 - [Champlain College Computer & Digital Forensics Blog](https://leahycenterblog.champlain.edu/)
 - [Checkmate - e-zine on Digital Forensics and Incident Response](https://niiconsulting.com/checkmate/)
@@ -45,7 +45,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by Matt Edmondson
 - [Digital Forensics with a Focus on EnCase](https://secureartisan.wordpress.com/),
   by Paul Bobby
-- [Dlog](https://dan3lmi.blogspot.pt/),
+- [Dlog](https://dan3lmi.blogspot.com/),
   by Daniela Elmi
 - [eForensics Magazine blog](https://eforensicsmag.com/category/news/)
 - [Elcomsoft Blog](https://blog.elcomsoft.com)
@@ -81,7 +81,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Jonathan Zdziarski Blog](http://www.zdziarski.com/blog/)
 - [Journey into Incident Response Blog](https://journeyintoir.blogspot.com/),
   by Corey Harrell
-- [JustAskWeg](http://justaskweg.com/),
+- [JustAskWeg](http://ww38.justaskweg.com/?subid1=20230112-1943-35a7-af7e-da28e0b29996),
   by Jimmy Weg
 - [Mac4n6](http://www.mac4n6.com/),
   by Sarah Edwards
@@ -101,8 +101,8 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [SecureArtisan Blog](https://secureartisan.wordpress.com/),
   by Paul Bobby
 - [Security Ripcord: Cutaway Security Blog and Projects](https://www.cutawaysecurity.com/),
-  by Don C. Weber - [Sketchymoose's Blog](https://sketchymoose.blogspot.ch/)
-- [System Forensics](http://sysforensics.org/),
+  by Don C. Weber - [Sketchymoose's Blog](https://sketchymoose.blogspot.com/)
+- [System Forensics](http://survey-smiles.com),
   by Patrick Olsen
 - [TaoSecurity](https://taosecurity.blogspot.com),
   by Richard Bejtlich
@@ -114,17 +114,17 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Unstructured Blog](https://www.nuix.com/news-and-events),
   by Nuix
 - [Various Authors - Intrusions and Malware Analysis](https://intrusions.blogspot.com/)
-- [Volatility Blog](http://volatility.tumblr.com/)
+- [Volatility Blog](https://www.tumblr.com/volatility)
 - [Windows Incident Response Blog](https://windowsir.blogspot.com/),
   by [Harlan Carvey](harlan_carvey.md)
-- [XMedius Security Blog](https://www.xmedius.com/en/blog/security/)
+- [XMedius Security Blog](https://www.opentext.com/about/brands/xmedius)
 - [Yogesh Khatri's forensic blog - Swift Forensics](https://www.swiftforensics.com/),
   by Yogesh Khatri
 - [Zena Forensics](https://blog.digital-forensics.it/)
 
 ### News Aggregate Blogs
 
-- [Digital Forensic Insider](http://www.forensicmag.com/topics/digital-forensic-insider)
+- [Digital Forensic Insider](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/topics/digital-forensic-insider)
 - [Digital Forensics Corporation Blog](https://www.digitalforensics.com)
 - [Digital Forensics Magazine Blogs](https://digitalforensicsmagazine.com/blogs/)
 - [Mobile Forensics Weekly from Teel Tech](https://paper.li/teeltech/1366225992)
@@ -191,7 +191,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 - [CyberSpeak's Podcast](https://cyberspeak.libsyn.com/)
 - [Digital Forensic Survival Podcast](https://digitalforensicsurvivalpodcast.com/)
-- [Forensic Lunch / Learn Forensics](https://www.youtube.com/user/LearnForensics) with David Cohen
+- Forensic Lunch / Learn Forensics with David Cohen
 
 # Tweets
 

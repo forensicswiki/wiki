@@ -52,9 +52,9 @@ investigation.
 
 - [Official website](http://www.driveimager.com/)
 - [Product data
-  sheet](http://www.deepspar.com/pdf/DeepSparDiskImager.pdf)
+  sheet](https://www.deepspar.com/pdf/DeepSparDiskImager.pdf)
 - [Review of the DeepSpar Disk
-  Imager](http://www.deepspar.com/mjm-ds-disk-imager.html) by Mike
+  Imager](https://www.deepspar.com/mjm-ds-disk-imager.html) by Mike
   Montgomery of MJM Data Recovery in the UK.
 - *[Disk Imaging: A Vital Step in Data
   Recovery](http://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,

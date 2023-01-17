@@ -27,7 +27,7 @@ problem:
 `year = {2006},`
 `issn = {0001-0782},`
 `pages = {85--87},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/1113034.1113076`](http://doi.acm.org/10.1145/1113034.1113076)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1113034.1113076`](https://dl.acm.org/doi/10.1145/1113034.1113076)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -43,7 +43,7 @@ problem:
 `isbn = {0-89791-592-5},`
 `pages = {207--216},`
 `location = {Washington, D.C., United States},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/170036.170072`](http://doi.acm.org/10.1145/170035.170072)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/170036.170072`](https://dl.acm.org/doi/10.1145/170035.170072)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -60,7 +60,7 @@ problem:
 `year = {2001},`
 `issn = {0360-0300},`
 `pages = {322--373},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/502807.502809`](http://doi.acm.org/10.1145/502807.502809)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/502807.502809`](https://dl.acm.org/doi/10.1145/502807.502809)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -77,7 +77,7 @@ problem:
 `year = {2002},`
 `issn = {0163-5808},`
 `pages = {66--68},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/565117.565130`](http://doi.acm.org/10.1145/565117.565130)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/565117.565130`](https://dl.acm.org/doi/10.1145/565117.565130)`},`
 `publisher = {ACM Press},`
 `address = {New York, NY, USA},`
 `}`
@@ -112,7 +112,7 @@ problem:
 ` bibsource =   "DBLP,`
 `        `[`http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06`](http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06)`",`
 ` pages =   "71--81",`
-` URL =     "`[`http://dx.doi.org/10.1016/j.diin.2006.06.007`](http://dx.doi.org/10.1016/j.diin.2006.06.007)`",`
+` URL =     "`[`https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697`](http://dx.doi.org/10.1016/j.diin.2006.06.007)`",`
 
 } </bibtex>
 
@@ -122,7 +122,7 @@ problem:
 ` title =   "Decomposing file data into discernible items",`
 ` year =    "2006",`
 ` month =   aug,`
-` URL =     "`[`http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf`](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf)`",`
+` URL =     "`[`https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf`](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf)`",`
 ` institution =  "University of Cambridge, Computer Laboratory",`
 ` ISSN =    "1476-2986",`
 ` number =  "UCAM-CL-TR-672",`
@@ -138,7 +138,7 @@ problem:
 `isbn = {1-58113-964-0},`
 `pages = {1049--1053},`
 `location = {Santa Fe, New Mexico},`
-`doi = {`[`https://dl.acm.org/doi/10.1145/1066677.1066917`](http://doi.acm.org/10.1145/1066677.1066917)`},`
+`doi = {`[`https://dl.acm.org/doi/10.1145/1066677.1066917`](https://dl.acm.org/doi/10.1145/1066677.1066917)`},`
 `publisher = {ACM},`
 `address = {New York, NY, USA},`
 `}`

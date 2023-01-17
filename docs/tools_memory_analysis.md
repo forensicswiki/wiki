@@ -14,7 +14,7 @@ The following tools can be used to conduct memory analysis.
   Comprehensive toolkit for the capture and analysis of Windows physical
   and virtual memory targeting cyber analysis, forensics/incident
   response, and education. Software and hardware based acquisition with
-  [CaptureGUARD PCIe and ExpressCard](https://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34).
+  [CaptureGUARD PCIe and ExpressCard](https://www.windowsscope.com/?option=com_virtuemarthttps://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34Itemid=34).
 - [WindowsSCOPE Live](https://www.windowsscope.com/) live fetch and
   analysis of Windows computers on a network from Android smartphones
   and tablets.

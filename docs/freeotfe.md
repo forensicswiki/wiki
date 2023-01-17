@@ -23,4 +23,4 @@ stored in the hidden volume (e.g. most recently used [mru](mru.md)).
 
 ## External Links
 
-* [Official website](http://www.FreeOTFE.org/)
+* [Official website](http://ww38.freeotfe.org/)

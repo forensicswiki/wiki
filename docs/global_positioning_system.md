@@ -15,7 +15,7 @@ improved. Some of the most popular GPS devices today are made by
 
 Some of the other GPS manufacturers include:
 
-* [Garmin](https://www.garmin.com/)
+* [Garmin](https://www.garmin.com/de-CH/)
 * [Magellan](https://www.magellangps.com/)
 
 ### TomTom
@@ -90,7 +90,7 @@ by opening the file with a text editor such as
 stored in this file.
 
 Data can also be easily viewed via [Google
-Earth](http://earth.google.com/)'s import feature. If available, Google
+Earth](https://earth.google.com/web/)'s import feature. If available, Google
 Earth will import waypoints, tracks and routes from the unit. A slider
 bar in the program will show saved routes by date and time. When a
 specific waypoint is selected, a window will open that shows Lat/Long

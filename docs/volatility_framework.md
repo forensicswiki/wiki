@@ -40,7 +40,7 @@ a separate project, the drivers can now be found as part of the
 
 ## External Links
 
-- [Official website](https://code.google.com/p/volatility/)
+- [Official website](https://code.google.com/archive/p/volatility)
 - [Code
   repository](https://code.google.com/archive/p/volatility/source),
   direct link to

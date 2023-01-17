@@ -116,7 +116,7 @@ The currently supported output modules (as of version 0.51 nightly build
 
 ## External Links
 
-* [log2timeline website](http://log2timeline.net)
+* [log2timeline website](https://plaso.readthedocs.io/en/latest/)
 * [SANS GCFA Gold paper about the tool](https://www.sans.org/white-papers/33438/)
 * [Digital Forensic SIFTing: SUPER Timeline Creation using log2timeline](https://www.sans.org/blog/digital-forensic-sifting-super-timeline-creation-using-log2timeline/)
   December 7, 2011, by Rob Lee

@@ -11,7 +11,7 @@ Expert Witness File Format Specification
 
 Revised: April 7, 2002
 
-Original URL: <http://www.asrdata.com/SMART/whitepaper.html>
+Original URL: <http://www.asrdata.com/whitepaper-html/>
 
 Redistributed with permission
 

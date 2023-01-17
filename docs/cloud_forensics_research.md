@@ -15,7 +15,7 @@ tags:
 `   Pages = {186-229},`
 `   Publisher = {IGI Global},`
 `   Year = {2013},`
-`       url = {`[`http://ssrn.com/abstract=2197978`](http://ssrn.com/abstract=2197978)`}}`
+`       url = {`[`https://www.ssrn.com/abstract=2197978`](http://ssrn.com/abstract=2197978)`}}`
 
 </bibtex>
 
@@ -62,7 +62,7 @@ location="Monterey, CA",
 `volume = {19},`
 `issue = {1},`
 `year = {2012},`
-` url="`[`http://www.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf`](http://www.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf)`"`
+` url="`[`https://redirect.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf`](http://www.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf)`"`
 
 </bibtex>
 
@@ -85,7 +85,7 @@ location="Monterey, CA",
 `volume = {4},,`
 `issue = {2},`
 `year = {2012},`
-` url="`[`http://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf`](http://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf)`"`
+` url="`[`https://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf`](http://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf)`"`
 
 </bibtex>
 
@@ -204,7 +204,7 @@ location="Monterey, CA",
 ` journal={Duke Law and Technology Review},`
 ` volume = {8},`
 ` year = {2011},`
-` url="`[`https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltr`](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltr)`"`
+` url="`[`https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltr`](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltr)`"`
 
 } </bibtex>
 

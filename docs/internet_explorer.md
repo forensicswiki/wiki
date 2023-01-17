@@ -97,7 +97,7 @@ the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
   by [Microsoft](microsoft.md)
 * [IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85)),
   by [Microsoft](microsoft.md), January, 2011
-* [Little-known browser commands and functions](http://windowssecrets.com/top-story/little-known-browser-commands-and-functions/),
+* [Little-known browser commands and functions](https://www.askwoody.com),
   by Fred Langa, June 21, 2012
 * [Java Web Vulnerability Mitigation on Windows](http://tojoswalls.blogspot.com/2013/05/java-web-vulnerability-mitigation-on.html),
   by Tim Johnson, May 23, 2013
@@ -117,7 +117,7 @@ the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
   by Paul Nichols, March 23, 2011
 * [The Trouble with TypedUrlsTime](http://randomthoughtsofforensics.blogspot.co.uk/2012/07/trouble-with-typedurlstime.html),
   by Ken Johnson, July 4, 2012
-* [TypedURLs Registry Key](http://sketchymoose.blogspot.ch/2014/02/typedurls-registry-key.html),
+* [TypedURLs Registry Key](http://sketchymoose.blogspot.com/2014/02/typedurls-registry-key.html),
   Sketchymoose's Blog, February 18, 2014
 
 ### Internet Explorer 10

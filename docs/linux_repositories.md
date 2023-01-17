@@ -36,7 +36,7 @@ repository with a large number of DFIR applications.
 ## debian
 
 You can search for debian packages at [debian's search
-page](http://packages.debian.org/search)
+page](https://packages.debian.org/search?keywords=search)
 
 ## ubuntu
 

@@ -11,7 +11,7 @@ served over 15 000 customers in 110 countries worldwide.
 
 The company offers a range of drive repair and data recovery products for HDD,
 SSD, SAS/SCSI, RAID arrays and Flash devices. The Data Extractor software, used
-in conjunction with [PC-3000 Express/UDMA/Portable/Flash](http://www.acelaboratory.com/catalog/),
+in conjunction with [PC-3000 Express/UDMA/Portable/Flash](https://www.acelab.eu.com/catalog/),
 is a universal data recovery solution for drive imaging, cloning, file carving
 and restoration.
 

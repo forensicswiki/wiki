@@ -61,7 +61,7 @@ operating systems (listed alphabetically):
 
 ## External Links
 
-* [The Future of Mobile Forensics](http://belkasoft.com/en/future-of-mobile-forensics),
+* [The Future of Mobile Forensics](https://belkasoft.com/future-of-mobile-forensics),
   article by [Belkasoft](belkasoft.md)
 * [Database Parsing Tools](https://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
-* [iOS (iPhone OS) Forensics](http://www.systoolsgroup.com/forensics/sqlite/ios.html)
+* [iOS (iPhone OS) Forensics](https://www.systoolsgroup.com/forensics/sqlite/ios.html)

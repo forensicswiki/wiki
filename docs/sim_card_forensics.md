@@ -77,7 +77,7 @@ External Links
 * [Dekart SIM Manager](https://www.dekart.com/products/card_management/sim_manager),
   [video tutorial on how to recover a deleted SMS](https://www.youtube.com/watch?v=VaBaqZiNW4U)
 * [Cell Phone SIM Card Spy](https://www.brickhousesecurity.com/counter-surveillance/)
-* [SIM Card Reader](http://www.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
+* [SIM Card Reader](http://ww38.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
 * [Sim Card Reader Software](https://sim-card-reader-software.download3000.com)
 * [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
 * [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
@@ -111,10 +111,10 @@ card.
 ## External Links
 
 * [E-evidence Info](http://www.e-evidence.info/cellular.html)
-* [Purdue Phone Phorensics Knowledge Base](http://mobileforensicsworld.com/p3/)
-* [SIM Forensics: Part 1](http://www.forensicmag.com/articles/2011/04/sim-forensics-part-1),
+* [Purdue Phone Phorensics Knowledge Base](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.com)
+* [SIM Forensics: Part 1](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/04/sim-forensics-part-1),
   by John J. Barbara, April 25, 2011
-* [SIM Forensics: Part 2](http://www.forensicmag.com/articles/2011/06/sim-forensics-part-2),
+* [SIM Forensics: Part 2](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/06/sim-forensics-part-2),
   by John J. Barbara, June 15, 2011
-* [SIM Forensics: Part 3](http://www.forensicmag.com/articles/2011/08/sim-forensics-part-3),
+* [SIM Forensics: Part 3](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/08/sim-forensics-part-3),
   by John J. Barbara, August 5, 2011

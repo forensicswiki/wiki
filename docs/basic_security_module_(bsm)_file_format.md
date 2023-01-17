@@ -12,9 +12,9 @@ various forms by BSD Unix, [Mac OS X](mac_os_x.md) included.
 ## External Links
 
 - [Wikipedia: OpenBSM](https://en.wikipedia.org/wiki/OpenBSM)
-- [audit_bsm_token.c](http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/security/audit/audit_bsm_token.c?txt),
+- [audit_bsm_token.c](https://opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/security/audit/audit_bsm_token.c?txt),
   Apple Open Source
-- [Solaris Basic Security Mode (BSM) Auditing](http://www.deer-run.com/~hal/sysadmin/SolarisBSMAuditing.html),
+- [Solaris Basic Security Mode (BSM) Auditing](https://deer-run.com/users/hal/sysadmin/SolarisBSMAuditing.html),
   by Hal Pomeranz
 
 ## Tools

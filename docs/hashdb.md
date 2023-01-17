@@ -20,4 +20,4 @@ media such as disk images. **hashdb** provides the following:
 
 ## External Links
 
-- [Official website](https://github.com/simsong/hashdb/wiki)
+- [Official website](https://github.com/simsong/hashdb)

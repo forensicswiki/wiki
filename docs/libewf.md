@@ -170,5 +170,5 @@ added.
 - [Project site](https://github.com/libyal/libewf/) -
   [Building libewf and tools from source](https://github.com/libyal/libewf/wiki/Building)
 - [Mounting a set of EWF file(s)](https://github.com/libyal/libewf/wiki/Mounting)
-- [Old project site](http://libewf.sourceforge.net)
+- [Old project site](https://sourceforge.net/projects/libewf/)
 - [Build a dynamic Libewf dll, using MinGW or Borland C++ 5.5](https://www.isobuster.com/tips/build_libewf_dll_for_isobuster)

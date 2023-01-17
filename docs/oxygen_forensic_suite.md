@@ -59,4 +59,4 @@ Oxygen Forensic Suite was previously marketed as "Oxygen Phone Manager II
 
 ## External Links
 
-* [Official website](http://www.oxygen-forensic.com/)
+* [Official website](https://www.oxygen-forensic.com/en/)

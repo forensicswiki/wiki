@@ -17,7 +17,7 @@ configure a computer system to further the investigation from a remote
 location.
 
 According to the [FBI's own web
-page](http://foia.fbi.gov/foiaindex/bboperations.htm), the term "black
+page](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-informationprivacy-act), the term "black
 bag" is coined from a practice used by that agency between 1942 and
 1967. During that time, the [FBI](fbi.md) illegally obtained
 evidence against several individuals/organizations by entering their

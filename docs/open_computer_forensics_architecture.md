@@ -66,7 +66,7 @@ Police [Github](https://github.com/DNPA) page.
 
 - [Project site](https://sourceforge.net/projects/ocfa/)
 - [Linux Magazine article on
-  OCFA](http://www.linux-magazine.com/Issues/2008/93/OCFA)
+  OCFA](https://www.linux-magazine.com/Issues/2008/93/OCFA)
 - [Open Computer Forensic Architecture a Way to Process Terabytes of
   Forensic Disk
   Images](https://www.researchgate.net/publication/226554617_Open_Computer_Forensic_Architecture_a_Way_to_Process_Terabytes_of_Forensic_Disk_Images)

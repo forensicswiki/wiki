@@ -38,7 +38,7 @@ images saved as .vhd, .vmdk. Allows you to recover data from Virtual
 machines created with VMware, Hyper-V, Virtual Server, Virtual PC,
 Virtualbox etc.
 
-- [CnW Recovery](http://www.cnwrecovery.com/)
+- [CnW Recovery](https://www.cnwrecovery.com)
 
 
 Data recovery software for all file and media types. Recovers corrupted,
@@ -46,7 +46,7 @@ formatted, repartitioned and deleted files. Fragmented videos from
 camera memory chips. RAID option and tools for HP MediaVault. Optional
 forensic logging.
 
-- [Deleted File Recovery](http://www.recoverbits.com/deleted-file-recovery.html)
+- [Deleted File Recovery](https://www.bitrecover.com/blog/how-to-recover-deleted-files/)
 
 
 Software tool to recover deleted files from Windows drives. Supports
@@ -78,7 +78,7 @@ recovery tools in one convenient package. This data recovery tool can be
 used to restore damaged and inaccessible storages back into full
 operation completely automatically.
 
-- [GoPro Recovery](http://www.recovergopro.com/)
+- [GoPro Recovery](https://www.recovergopro.com)
 
 
 A program to specifically recover the fragmented, interleaved data
@@ -142,7 +142,7 @@ DeepSpar Disk Imager is a dedicated disk imaging device built to handle
 disk-level problems and to recover bad sectors on a hard drive.
 
 - [Adroit Photo
-  Recovery](http://digital-assembly.com/products/adroit-photo-recovery/)
+  Recovery](https://www.werecoverdata.com)
 
 
 Adroit Photo Recovery is a photo recovery tool that uses validated
@@ -193,7 +193,7 @@ both internal and external hard drive containing FAT and NTFS file
 systems.
 
 - [SysTools Data
-  Recovery](http://www.systoolsgroup.com/data-recovery.html)
+  Recovery](https://www.systoolsgroup.com/data-recovery.html)
 
 
 SysTools Data Recovery, Windows based programs for recovering &
@@ -228,7 +228,7 @@ work, in what partition to scan for missing files, in what file system
 to search for deleted files and folders etc.
 
 - [RecoverBits Partition Data
-  Recovery](http://www.recoverbits.com/partition-data-recovery.html)
+  Recovery](https://www.bitrecover.com/data-recovery-software/)
 
 
 RecoverBits Partition Data Recovery software helps you recover data from
@@ -258,7 +258,7 @@ Recovery tool can restore files, folders, photos, videos, office
 documents and much more from NTFS partitions.
 
 - [NTFS Partition
-  Recovery](https://www.stellarinfo.com:443/recover-windows-nt.htm)
+  Recovery](https://www.stellarinfo.com/ntfs-data-recovery.php?_route_=recover-windows-nt.htm)
 
 
 Stellar NTFS Data Recovery Software to recover data from Windows based
@@ -271,7 +271,7 @@ NTFS/NTFS5 file systems
 Kernel for Windows Data Recovery Software to recover data from the lost,
 corrupt, or formatted ntfs partitions
 
-- [CD/DVD Diagnostic](http://www.infinadyne.com/cddvd_diagnostic.html)
+- [CD/DVD Diagnostic](https://www.infinadyne.com/cddvd_diagnostic.html)
 
 
 Recover data and video from CDs/DVDs/Blu-Ray. This is specifically not
@@ -304,21 +304,21 @@ damaged, incorrect or deleted.
 licensed under the GNU Public License (GPL).
 
 - [Partition Recovery
-  Software](https://www.stellarinfo.com:443/partition-recovery.htm)
+  Software](https://www.stellarinfo.com/partition-recovery-software.php)
 
 
 Partition Recovery software for NTFS & FAT system that examines lost
 windows partition of damaged and corrupted hard drive.
 
 - [Partition Data
-  Recovery](http://www.systoolsgroup.com/partition-recovery.html)
+  Recovery](https://www.systoolsgroup.com/partition-recovery.html)
 
 
 Recover lost/damaged/formatted partition & examine the different
 scenario of corruption of Partition Data.
 
 - [M3 RAW Drive
-  Recovery](https://www.m3datarecovery.com//raw-drive-recovery/)
+  Recovery](https://iboysoft.com/raw-drives-recovery/)
 
 
 RAW partition recovery software to recover RAW drive, fix RAW drive &
@@ -357,7 +357,7 @@ hardware can be used to try and complete the image file. IsoBuster
 features powerful tools to work on these type image files.
 
 - [Email Forensic
-  Carver](http://www.systoolsgroup.com/email-forensics.html)
+  Carver](https://www.systoolsgroup.com/email-forensics.html)
 
 
 Email carving tool to carve e-mail messages from corrupt or orphan
@@ -365,13 +365,13 @@ mailboxes. Also helpful in email forensics and forensic search. Export
 reports in common formats, which are acceptable in courts.
 
 - [Recycle Bin Data
-  Carver](http://www.recoverbits.com/recycle-bin-recovery.html)
+  Carver](https://www.bitrecover.com/blog/recycle-bin-data-recovery/)
 
 
 Recycle Bin recovery tool designed to carve data from emptied recycle on
 Windows 10, 8.1, 8, 7, 2000, Vista, XP etc.
 
-- [CnW Recovery](http://www.cnwrecovery.com/)
+- [CnW Recovery](https://www.cnwrecovery.com)
 
 
 Data carving tools and will recover most know file types. For some

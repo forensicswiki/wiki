@@ -165,4 +165,4 @@ and lower it to 9MHz (or lower) which can stabilize the read.
 
 ## References
 
-* <http://forensics.spreitzenbarth.de/2012/02/>
+* <https://forensics.spreitzenbarth.de/2012/02/>

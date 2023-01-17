@@ -30,7 +30,7 @@ performance of C
   designed to be simple and extensible.
 * [Perfuse](https://blokt.com/) - A Java-based toolkit for
   building interactive information visualization applications
-* [VisAD](http://www.ssec.wisc.edu/~billh/visad.html#intro) - A Java
+* [VisAD](https://www.ssec.wisc.edu/~billh/visad.html#intro) - A Java
   component library for interactive and collaborative visualization.
 * [Linguine Maps](https://github.com/psimakov/linguine-maps) -
   An open-source Java-based system for visualizing software call maps.
@@ -73,7 +73,7 @@ systems built on JavaScript. Check out:
 
 ### C/C++
 
-* [The Visualization Toolkit](http://www.vtk.org/) - C++ multi-platform
+* [The Visualization Toolkit](https://vtk.org/) - C++ multi-platform
   with interfaces available for Tcl/Tk, Java and Python.
 
 ## Applications

@@ -2,7 +2,7 @@
 tags:
   -  Network Forensics
 ---
-[NetworkMiner](http://www.netresec.com/?page=NetworkMiner) is a Network
+[NetworkMiner](https://www.netresec.com/?page=NetworkMiner) is a Network
 Forensic Analysis Tool (NFAT) for Windows.
 [NetworkMiner](https://sourceforge.net/projects/networkminer/)
 can be used as a passive network [sniffer](sniffer.md)/packet
@@ -55,8 +55,8 @@ NetworkMiner does however currently only support WiFi sniffing with
 AirPcap adapters.
 
 There is also a commercial version available of NetworkMiner from
-[Netresec](http://www.netresec.com/). The commercial version is called
-[NetworkMiner Professional](http://www.netresec.com/?page=NetworkMiner)
+[Netresec](https://www.netresec.com/). The commercial version is called
+[NetworkMiner Professional](https://www.netresec.com/?page=NetworkMiner)
 and has additional features such as:
 
 - Port Independent Protocol Identification (PIPI)

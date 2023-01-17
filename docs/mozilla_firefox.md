@@ -146,7 +146,7 @@ URL:
 
 ## External Links
 
-- [Official website](http://www.mozilla.com/firefox/)
+- [Official website](https://www.mozilla.org/en-US/firefox/)
 - [Profile folder -
   Firefox](http://kb.mozillazine.org/Profile_folder_-_Firefox)
 - [Firefox 3 –

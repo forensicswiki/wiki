@@ -111,7 +111,7 @@ opened on Windows 10 systems and later.
   by Nitin Kumar and Vipin Kumar, 2008
 - [Implementing BitLocker for Forensic Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1742287609000024),
   *Digital Investigation*, by Jesse D. Kornblum, 2009
-- [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/master/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
+- [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/main/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
   by the [libbde project](libbde.md), March 2011
 - [Microsoft's Step by Step Guide](http://technet2.microsoft.com/WindowsVista/en/library/c61f2a12-8ae6-4957-b031-97b4d762cf311033.mspx?mfr=true)
 - [Microsoft Technical Overview](https://learn.microsoft.com/en-us/)

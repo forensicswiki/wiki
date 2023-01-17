@@ -11,5 +11,5 @@ environment based on WinHex.
 
 ## External links
 
-- [WinHex](http://www.winhex.com/winhex/) Website
+- [WinHex](https://www.x-ways.net/winhex/) Website
 

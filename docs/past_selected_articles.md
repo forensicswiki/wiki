@@ -256,7 +256,7 @@ Forensics Evidence Reconstruction System for Complex and Obscure
 Fragmented File Carving}, journal ={Computational Intelligence and
 Security, International Conference on}, volume = {0}, isbn =
 {978-0-7695-4584-4}, year = {2011}, pages = {793-797}, doi =
-{<http://doi.ieeecomputersociety.org/10.1109/CIS.2011.180>}, publisher =
+{<https://www.computer.org/csdl/proceedings-article/cis/2011/4584a793/12OmNyQGS02>}, publisher =
 {IEEE Computer Society}, address = {Los Alamitos, CA, USA}, } </bibtex>
 
 <small>Dec 2011</small>
@@ -450,7 +450,7 @@ notwithstanding the jury's guilty verdict....
 
 <small>JAN-2010</small> [Using Graphics Processors for Parallelizing
 Hash-based Data
-Carving](http://hal.archives-ouvertes.fr/docs/00/35/09/62/PDF/ColDanDauDef09.pdf),
+Carving](https://hal.science/file/index/docid/350962/filename/ColDanDauDef09.pdf),
 by Sylvain Collange, Marc Daumas, Yoginder S. Dandass, and David Defour,
 Proceedings of the 42nd Hawaii International Conference on System
 Sciences - 2009.
@@ -531,7 +531,7 @@ flash-specific file system.
 
 <small>2009-June</small>
 
-[Recovery of Damaged Compressed Files for Digital Forensic Purposes](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671), Bora Park Savoldi, A. Gubian, P. Jungheum Park Seok Hee Lee Sangjin Lee
+[Recovery of Damaged Compressed Files for Digital Forensic Purposes](https://ieeexplore.ieee.org/document/4505751/?tp=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671arnumber=4505751http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671isnumber=4505671), Bora Park Savoldi, A. Gubian, P. Jungheum Park Seok Hee Lee Sangjin Lee
 
 Korea Univ., Seoul, International Conference on Multimedia and
 Ubiquitous Engineering, 2008. MUE 2008/
@@ -589,7 +589,7 @@ the correct functioning of forensic tools
 
 <small>2009-Apr</small>
 
-[A Framework for Automated Digital Forensic Reporting](http://www.simson.net/clips/students/09_Farrell.pdf), Lt. Paul Farrell, Master's Thesis, Naval Postgraduate School, Monterey, CA, March 2009
+[A Framework for Automated Digital Forensic Reporting](https://simson.net/clips/students/09_Farrell.pdf), Lt. Paul Farrell, Master's Thesis, Naval Postgraduate School, Monterey, CA, March 2009
 Forensic analysis is the science of finding, examining and analyzing
 evidence in support of law enforcement, regulatory compliance or
 information gathering. Today, almost all digital forensic analysis is
@@ -681,7 +681,7 @@ clean delete, but InnoDB does not. Very much worth reading.
 
 <small>2008-Aug-13</small>
 
-[Lest We Remember: Cold Boot Attacks on Encryption Keys](http://www.usenix.org/events/sec08/tech/halderman.html)
+[Lest We Remember: Cold Boot Attacks on Encryption Keys](https://www.usenix.org/legacy/events/sec08/tech/halderman.html)
 J. Alex Halderman, Princeton University; Seth D. Schoen, Electronic
 Frontier Foundation; Nadia Heninger and William Clarkson, Princeton
 University; William Paul, Wind River Systems; Joseph A. Calandrino and
@@ -689,7 +689,7 @@ Ariel J. Feldman, Princeton University; Jacob Appelbaum; Edward W.
 Felten, Princeton University
 
 [USENIX Security '08 Refereed
-Paper](http://www.usenix.org/events/sec08/)
+Paper](https://www.usenix.org/legacy/events/sec08/)
 
 Awarded Best Student Paper
 

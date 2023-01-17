@@ -29,7 +29,7 @@ utilities such as WinBuilder [2](http://reboot.pro).
 Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
 
-- X-Ways Forensics [3](http://www.x-ways.net),
+- X-Ways Forensics [3](https://www.x-ways.net/),
 - AccessData FTK Imager [4](https://www.exterro.com),
 - Guidance Software Encase [5](https://www.opentext.com/products/security-cloud),
 - ProDiscover [6](http://www.techpathways.net),
@@ -71,7 +71,6 @@ Various issues with Linux Boot CDs can be compared
 
 * [Windows Forensic Environment blog](https://winfe.wordpress.com/)
 * [Article on Win FE in Hakin9 magazine 2009-06](https://hakin9.org/)
-* [step-by-step Video to create a Win FE CD](http://www.youtube.com/v/J3T5wnPiObI)
 * [WinPE Technical Reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11)
 * [Windows Automated Installation Kit](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
 * [WinFE Write Protect tool](http://www.ramsdens.org.uk/)

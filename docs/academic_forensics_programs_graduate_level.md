@@ -7,11 +7,10 @@ tags:
 
 - [American InterContinental University](https://www.aiuniv.edu/degrees/criminal-justice/bachelors-forensic-science)
 - [Arizona State University](https://globalsecurity.asu.edu/cybersecurity/information-assurance-education)
-  & [ASU Online](https://asuonline.asu.edu/online-degree-programs/technology)
 - [Boston University](https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/)
   & [Boston University Online](http://cisonline.bu.edu/)
 - California Sciences Institute
-- [Carnegie Mellon University](https://www.csd.cs.cmu.edu/academics/masters/overview)
+- [Carnegie Mellon University](https://csd.cmu.edu/academics/masters/overview)
 - [Champlain College](https://online.champlain.edu/degrees-certificates/masters-digital-forensic-science)
 - Dartmouth College
 - George Mason University

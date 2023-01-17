@@ -18,7 +18,7 @@ same network and can exchange packets with each other.
 ### Server configuration
 
 Make sure that your server has
-[*vblade*](http://packages.debian.org/en/lenny/vblade) tool installed.
+[*vblade*](https://packages.debian.org/en/lenny/vblade) tool installed.
 Then run the following command:
 
 `# vblade 0 0 eth0 /dev/sda`
@@ -31,7 +31,7 @@ Where:
 ### Client configuration
 
 Make sure that your Linux client has [*aoe
-tools*](http://packages.debian.org/en/lenny/aoetools) installed. Then
+tools*](https://packages.debian.org/en/lenny/aoetools) installed. Then
 run the following command:
 
 `# modprobe aoe`

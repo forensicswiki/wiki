@@ -16,7 +16,7 @@ environment.
 ## External links
 
 * [MSDN](https://learn.microsoft.com/en-us/previous-versions/msdn10/dd861280(v=msdn.10))
-* [Windows Imaging File Format (WIM) white paper](http://go.microsoft.com/fwlink/?LinkId=92227)
+* [Windows Imaging File Format (WIM) white paper](https://www.microsoft.com/en-us/download/details.aspx?id=13096)
 
 ### Tools
 

@@ -49,7 +49,7 @@ The QCOW2 format supports optional AES encryption
   by Mark McLoughlin, June 2006
 * [The QCOW2 Image Format](http://www.burtonsys.com/qcow-image-format.html),
   by Mark McLoughlin, September 2008
-* [QEMU Copy-On-Write file format](https://github.com/libyal/libqcow/blob/master/documentation/QEMU%20Copy-On-Write%20file%20format.asciidoc),
+* [QEMU Copy-On-Write file format](https://github.com/libyal/libqcow/blob/main/documentation/QEMU%20Copy-On-Write%20file%20format.asciidoc),
   by the [libqcow project](libqcow.md), December 2010
 
 ## Tools

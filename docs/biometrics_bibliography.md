@@ -64,7 +64,7 @@ tags:
 `number = {11},`
 `year = {2006},`
 `pages = {2149--2156},`
-`doi = {`[`http://dx.doi.org/10.1016/j.physletb.2003.10.071`](http://dx.doi.org/10.1016/j.physletb.2003.10.071)`},`
+`doi = {`[`https://linkinghub.elsevier.com/retrieve/pii/S0370269303016769`](http://dx.doi.org/10.1016/j.physletb.2003.10.071)`},`
 `publisher = {Elsevier B.V},`
 
 `abstract = {Automatic biometric systems based on human characteristics for personal identification have attracted great attention. Their performance highly depends on the distinctive information in the biometrics. Identical twins having the closest genetics-based relationship are expected to have maximum similarity in their biometrics. Classifying identical twins is a challenging problem for some automatic biometric systems. Palmprint has been studied for personal identification for over seven years. Most of the previous research concentrates on algorithm development. In this paper, we systemically examine palmprints from the same DNA for automatic personal identification and to uncover the genetically related palmprint features. The experimental results show that the three principal lines and some portions of weak lines are genetically related features but our palms still contain rich genetically unrelated features for classifying identical twins.}`
@@ -84,7 +84,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {January},`
 `year = {2006},`
 `pages = {1--24},`
-`doi = {`[`http://dx.doi.org/10.1016/j.optlaseng.2005.03.010`](http://dx.doi.org/10.1016/j.optlaseng.2005.03.010)` },`
+`doi = {`[`https://linkinghub.elsevier.com/retrieve/pii/S014381660500062X`](http://dx.doi.org/10.1016/j.optlaseng.2005.03.010)` },`
 `publisher = {Elsevier B.V},`
 
 `abstract = {Iris recognition as a biometric technique for personal identification and verification is examined. The motivation for this stems from the observation that the human iris provides a unique structure suitable for non-invasive biometric assessment. In particular the irises are as distinct as fingerprints or patterns of retinal blood vessels and the appearance of the iris is amenable to remote examination. In this paper we have used a database of iris images of more than 100 people, which was used in the implementation of the iris recognition software. The software developed uses a novel technique of localization, alignment, pattern matching of the irises and finally the decision regarding the degree of match. }`
@@ -102,7 +102,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {September},`
 `year = {2003},`
 `pages = {2115--2125},`
-`doi = {`[`http://dx.doi.org/10.1016/S0167-8655(03)00079-5`](http://dx.doi.org/10.1016/S0167-8655(03)00079-5)`  },`
+`doi = {`[`https://linkinghub.elsevier.com/retrieve/pii/S0167865503000795`](http://dx.doi.org/10.1016/S0167-8655(03)00079-5)`  },`
 `publisher = {Elsevier B.V},`
 
 `abstract = {Reliable and accurate verification of people is extremely important in a number of business transactions as well as access to privileged information. Automatic verification methods based on physical biometric characteristics such as fingerprint or iris can provide positive verification with a very high accuracy. However, the biometrics-based methods assume that the physical characteristics of an individual (as captured by a sensor) used for verification are sufficiently unique to distinguish one person from another. Identical twins have the closest genetics-based relationship and, therefore, the maximum similarity between fingerprints is expected to be found among identical twins. We show that a state-of-the-art automatic fingerprint verification system can successfully distinguish identical twins though with a slightly lower accuracy than nontwins. }`
@@ -120,7 +120,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {December},`
 `year = {2002},`
 `pages = {49--55},`
-`doi = {`[`http://dx.doi.org/10.1016/S1363-4127(02)00406-5`](http://dx.doi.org/10.1016/S1363-4127(02)00406-5)`  },`
+`doi = {`[`https://linkinghub.elsevier.com/retrieve/pii/S1363412702004065`](http://dx.doi.org/10.1016/S1363-4127(02)00406-5)`  },`
 `publisher = {Elsevier Science Ltd},`
 
 `abstract = {As biometric systems are deployed within security systems, or as part of identification programs, implementation issues relating to security and privacy need to be considered. The role of a biometric system is to recognize (or not) an individual through specific physiological or behavioral traits. The use of the word ‘recognize’ is significant — defined in the Oxford Dictionary as “identify as already known”. In other words, a biometric system does not establish the identity of an individual in any way, it merely recognizes that they are who they say they are (in a verification or a ‘positive identification’ system), or that they were not previously known to the system (in a ‘negative identification’ system, for example, to avoid double enrollment in a welfare system). This tie between the actual identity of an individual and the use of biometrics is subtle and provokes much debate, particularly relating to privacy and other societal issues. This paper seeks to clarify come of these issues by providing a framework, and by distinguishing between technology and societal issues.  }`
@@ -138,7 +138,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {November},`
 `year = {2002},`
 `pages = {2653--2663},`
-`doi = {`[`http://dx.doi.org/10.1016/S0031-3203(01)00218-7`](http://dx.doi.org/10.1016/S0031-3203(01)00218-7)` },`
+`doi = {`[`https://linkinghub.elsevier.com/retrieve/pii/S0031320301002187`](http://dx.doi.org/10.1016/S0031-3203(01)00218-7)` },`
 `publisher = {Elsevier B.V.},`
 
 `abstract = {Reliable and accurate verification of people is extremely important in a number of business transactions as well as access to privileged information. Automatic verification methods based on physical biometric characteristics such as fingerprint or iris can provide positive verification with a very high accuracy. However, the biometrics-based methods assume that the physical characteristics of an individual (as captured by a sensor) used for verification are sufficiently unique to distinguish one person from another. Identical twins have the closest genetics-based relationship and, therefore, the maximum similarity between fingerprints is expected to be found among identical twins. We show that a state-of-the-art automatic fingerprint verification system can successfully distinguish identical twins though with a slightly lower accuracy than nontwins.  }`
@@ -175,7 +175,7 @@ journal = {Optics and Lasers in Engineering },
 `year = {2004},`
 `pages = {21--30},`
 `doi = {`[`https://ieeexplore.ieee.org/document/1262028/`](https://ieeexplore.ieee.org/document/1262028/)`},`
-`url = {`[`http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1262028`](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1262028)`},`
+`url = {`[`https://ieeexplore.ieee.org/document/1262028/?arnumber=1262028`](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1262028)`},`
 
 `abstract = {Algorithms developed by the author for recognizing persons by their iris patterns have now been tested in many field and laboratory trials, producing no false matches in several million comparison tests. The recognition principle is the failure of a test of statistical independence on iris phase structure encoded by multi-scale quadrature wavelets. The combinatorial complexity of this phase information across different persons spans about 249 degrees of freedom and generates a discrimination entropy of about 3.2 b/mm/sup 2/ over the iris, enabling real-time decisions about personal identity with extremely high confidence. The high confidence levels are important because they allow very large databases to be searched exhaustively (one-to-many "identification mode") without making false matches, despite so many chances. Biometrics that lack this property can only survive one-to-one ("verification") or few comparisons. The paper explains the iris recognition algorithms and presents results of 9.1 million comparisons among eye images from trials in Britain, the USA, Japan, and Korea. }`
 `}`
@@ -209,8 +209,8 @@ journal = {Optics and Lasers in Engineering },
 `month = {November},`
 `year = {1993},`
 `pages = {1148--1161},`
-`doi = {`[`http://doi.ieeecomputersociety.org/10.1109/34.244676`](http://doi.ieeecomputersociety.org/10.1109/34.244676)` }`
-`url = {`[`http://ieeexplore.ieee.org/iel1/34/6282/00244676.pdf?tp=&arnumber=244676&isnumber=6282`](http://ieeexplore.ieee.org/iel1/34/6282/00244676.pdf?tp=&arnumber=244676&isnumber=6282)`},`
+`doi = {`[`https://www.computer.org/csdl/journal/tp/1993/11/i1148/13rRUIJcWm8`](http://doi.ieeecomputersociety.org/10.1109/34.244676)` }`
+`url = {`[`https://ieeexplore.ieee.org/document/244676/`](http://ieeexplore.ieee.org/iel1/34/6282/00244676.pdf?tp=&arnumber=244676&isnumber=6282)`},`
 
 `abstract = {A method for rapid visual recognition of personal identity is described, based on the failure of a statistical test of independence. The most unique phenotypic feature visible in a person's face is the detailed texture of each eye's iris. The visible texture of a person's iris in a real-time video image is encoded into a compact sequence of multi-scale quadrature 2-D Gabor wavelet coefficients, whose most-significant bits comprise a 256-byte “iris code”. Statistical decision theory generates identification decisions from Exclusive-OR comparisons of complete iris codes at the rate of 4000 per second, including calculation of decision confidence levels. The distributions observed empirically in such comparisons imply a theoretical “cross-over” error rate of one in 131000 when a decision criterion is adopted that would equalize the false accept and false reject error rates. In the typical recognition case, given the mean observed degree of iris code agreement, the decision confidence levels correspond formally to a conditional false accept probability of one in about `$10^31$` }`
 `}`

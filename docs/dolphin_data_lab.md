@@ -33,10 +33,5 @@ them.
 ## External Links
 
 - [Dolphin Data Lab Official Website](https://www.dolphindatalab.com/)
-- [Dolphin Data Lab
-  Youtube](http://www.youtube.com/user/datarecoverytools)
-- [Dolphin Data Lab
-  Facebook](https://www.facebook.com/datarecoverytools)
+- [Dolphin Data Lab Facebook](https://www.facebook.com/datarecoverytools)
 - [Dolphin Data Lab Twitter](https://twitter.com/dolphindatalab)
-- [Dolphin Data Lab Google+](https://plus.google.com/+DolphinDataLab)
-
