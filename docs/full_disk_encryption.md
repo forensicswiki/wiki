@@ -139,10 +139,6 @@ Supports hidden volumes and Pre-Boot Authentification.
 Since data loss can occur on unexpected shutdowns, GELI is recommended
 instead of GBDE.
 
-<http://www.freebsd.org/cgi/man.cgi?query=gbde&apropos=0&sektion=8&manpath=FreeBSD+6.2-RELEASE&format=html>
-
-<http://phk.freebsd.dk/pubs/bsdcon-03.gbde.paper.pdf>
-
 <!-- -->
 
 [GELI](geli.md)
@@ -152,8 +148,6 @@ ciphers: [AES](aes.md),
 [Blowfish](blowfish.md) and [3DES](3des.md).
 
 Supports hidden volumes and Pre-Boot Authentification.
-
-<http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8>
 
 <!-- -->
 
@@ -208,12 +202,6 @@ Provides complete [hard drive](hard_drive.md) encryption
 including the boot disk.
 
 <https://utimaco.com/products>
-
-<!-- -->
-
-[SECUDE](https://secude.com/)
-SECUDE provides a software and hardware solution
-for full disk encryption.
 
 <!-- -->
 

@@ -163,8 +163,7 @@ A Python implementation of the SCCA 2008 hash function:
 
 ### /prefetch flag
 
-From: [Misinformation and the The Prefetch
-Flag](https://web.archive.org/web/20160714134633/https://blogs.msdn.microsoft.com/ryanmy/2005/05/25/misinformation-and-the-the-prefetch-flag/)
+From: [Misinformation and the The Prefetch Flag](https://web.archive.org/web/20160714134633/https://blogs.msdn.microsoft.com/ryanmy/2005/05/25/misinformation-and-the-the-prefetch-flag/)
 
     The /prefetch:# flag is looked at by the OS when we create the process — however, it has one (and only one) purpose.  We add the passed number to the hash.
 
@@ -195,7 +194,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 ## External Links
 
 * [Wikipedia Prefetcher](https://en.wikipedia.org/wiki/Prefetcher)
-* [MSDN: Disabling Prefetch](http://msdn.microsoft.com/en-us/library/ms940847(v=winembedded.5>).aspx)
+* [MSDN: Disabling Prefetch](https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms940847(v=winembedded.5))
 * [Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS](https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/december/windows-xp-kernel-improvements-create-a-more-robust-powerful-and-scalable-os),
   by [Mark Russinovich](mark_russinovich.md), David Solomon, December 2001
 * [Prefetch file metadata](http://windowsir.blogspot.com/2005/07/prefetch-file-metadata.html),
@@ -210,7 +209,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Chad Tilbury, August 5, 2009
 * [Windows Prefetch File (old blog entry from 42 LLC)](http://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html),
   by Yogesh Khatri, April 14, 2010
-* [Windows PC Accelerators](http://msdn.microsoft.com/en-us/library/windows/hardware/dn653317(v=vs.85>).aspx)
+* [Windows PC Accelerators](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653317(v=vs.85))
 * [Decoding Prefetch Files for Forensic Purposes: Part 1](https://dfinews.com),
   by Mark Wade, December 8, 2010
 * [Prefetch Files at Face Value](https://crucialsecurity.wordpress.com/2011/04/11/prefetch-files-at-face-value/),

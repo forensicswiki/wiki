@@ -141,8 +141,7 @@ Ext2/Ext3 (Linux) and so on.
 DeepSpar Disk Imager is a dedicated disk imaging device built to handle
 disk-level problems and to recover bad sectors on a hard drive.
 
-- [Adroit Photo
-  Recovery](https://www.werecoverdata.com)
+- [Adroit Photo Recovery](adroit_photo_forensics.md)
 
 
 Adroit Photo Recovery is a photo recovery tool that uses validated

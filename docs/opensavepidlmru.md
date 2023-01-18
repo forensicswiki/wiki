@@ -1,10 +1,9 @@
 ---
 tags:
-  - No Category
+  - Windows
 ---
 The [OpenSaveMRU](opensavemru.md) Windows registry key was
 renamed starting in Windows Vista to OpenSavePidlMRU
-[1](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2012/04/windows-7-registry-forensics-part-4).
 
 ## Notable Changes from Windows XP
 

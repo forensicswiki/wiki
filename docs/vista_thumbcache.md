@@ -94,8 +94,8 @@ pictures.pd5 can be extracted using [WPG Viewer](http://www.simplecarver.com/too
 
 ### ThumbnailCacheId
 
-* [System.ThumbnailCacheId](http://msdn.microsoft.com/en-us/library/windows/desktop/bb787580(v=vs.85>).aspx)
-* [IThumbnailCache interface](http://msdn.microsoft.com/en-us/library/bb774628(VS.85>).aspx)
+* [System.ThumbnailCacheId](https://learn.microsoft.com/en-us/windows/win32/properties/props-system-thumbnailcacheid)
+* [IThumbnailCache interface](https://learn.microsoft.com/en-us/windows/win32/api/thumbcache/nn-thumbcache-ithumbnailcache)
 
 ### Non-English
 

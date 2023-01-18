@@ -43,7 +43,7 @@ Where LCID is the "locale identifier"
 
 ### File Format
 
-* [EventLog Remoting Protocol Version 6.0 Specification](http://msdn.microsoft.com/en-us/library/cc231282(v=prot.10>).aspx)
+* [EventLog Remoting Protocol Version 6.0 Specification](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/18000371-ae6d-45f7-95f3-249cbe2be39b),
   by [Microsoft](microsoft.md)
 * [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358),
   by [Microsoft](microsoft.md)

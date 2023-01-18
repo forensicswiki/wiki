@@ -20,7 +20,7 @@ security, and other government agencies worldwide.
 # ADF Products
 
 ADF offers [three main
-products](http://https://www.adfsolutions.com//products/): Triage-G2,
+products](https://www.adfsolutions.com//products/): Triage-G2,
 Triage-Examiner, and Triage-Responder.
 
 [Triage-G2](https://www.adfsolutions.com/triage-g2) is a media

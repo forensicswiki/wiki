@@ -117,7 +117,6 @@ opened on Windows 10 systems and later.
 - [Microsoft Technical Overview](https://learn.microsoft.com/en-us/)
 - [An Introduction to Security in Windows 7](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/dd630640(v=msdn.10))
 - [Microsoft Description of the Encryption Algorithm](https://www.microsoft.com/en-us/download/details.aspx?id=13866)
-- [Cold Boot Attacks, Full Disk Encryption, and BitLocker](http://secude.com/htm/801/en/White_Paper%3A_Cold_Boot_Attacks.htm)
 - [What's New in BitLocker](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831412(v=ws.11))
   in Windows 8
 - [Windows 10 Version 1511 gets new XTS-AES BitLocker encryption algorithm](https://www.onmsft.com/news/windows-10-version-1511-gets-new-xts-aes-bitlocker-encryption-algorithm/)

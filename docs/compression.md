@@ -32,7 +32,7 @@ Used in:
 
 Used in:
 
-* [Microsoft Cabinet Format](http://msdn.microsoft.com/library/bb417343.aspx#lzxdatacompressionformat)
+* [Microsoft Cabinet Format](https://learn.microsoft.com/en-us/previous-versions/bb417343(v=msdn.10))
 
 The Windows implementation of LZX can be found in lz32.dll and is used
 by the WINAPI LZ functions e.g. LZOpenFile.
@@ -79,5 +79,5 @@ Used in:
 
 ### LZXpress
 
-* [MS-XCA: Xpress Compression Algorithm](https://msdn.microsoft.com/library/hh554002(v=prot.10>).aspx),
+* [MS-XCA: Xpress Compression Algorithm](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-xca/a8b7cb0a-92a6-4187-a23b-5e14273b96f8),
   by Microsoft

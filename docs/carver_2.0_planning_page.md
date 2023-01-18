@@ -943,18 +943,10 @@ Content support
 
 Zero storage support
 
-- libcarvpath (
-  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210704>
-  )
-- carvfs (
-  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=210954>
-  )
-- tsk-cp (
-  <https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=267227>
-  )
+- libcarvpath
+- carvfs
+- tsk-cp
 - carvfsmodewf
-  (https://sourceforge.net/project/showfiles.php?group_id=170249&package_id=268256
-  )
 
 POLA
 

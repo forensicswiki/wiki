@@ -112,9 +112,3 @@ card.
 
 * [E-evidence Info](http://www.e-evidence.info/cellular.html)
 * [Purdue Phone Phorensics Knowledge Base](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.com)
-* [SIM Forensics: Part 1](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/04/sim-forensics-part-1),
-  by John J. Barbara, April 25, 2011
-* [SIM Forensics: Part 2](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/06/sim-forensics-part-2),
-  by John J. Barbara, June 15, 2011
-* [SIM Forensics: Part 3](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/articles/2011/08/sim-forensics-part-3),
-  by John J. Barbara, August 5, 2011

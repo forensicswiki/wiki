@@ -124,7 +124,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 ### News Aggregate Blogs
 
-- [Digital Forensic Insider](https://www.forensicmag.com/Media/Default/ErrorPages/InternalServerError.htm?aspxerrorpath=/topics/digital-forensic-insider)
 - [Digital Forensics Corporation Blog](https://www.digitalforensics.com)
 - [Digital Forensics Magazine Blogs](https://digitalforensicsmagazine.com/blogs/)
 - [Mobile Forensics Weekly from Teel Tech](https://paper.li/teeltech/1366225992)
@@ -182,7 +181,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 # Circles/Fora/Groups
 
-- [Forensic Focus](https://www.forensicfocus.com/)
+- [Forensic Focus](https://forensicfocus.com/)
 - [DFIR Slack Channel](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
 - [log2timeline Discussion Group](https://groups.google.com/forum/#!forum/log2timeline-discuss)
 - [Reddit Computer Forensics](https://www.reddit.com/r/computerforensics/)
@@ -208,7 +207,7 @@ See: [Journals](journals.md)
 
 # Challenges (and test images)
 
-- [Forensic Focus - Test Images and Forensic Challenges](https://www.forensicfocus.com/images-and-challenges)
+- [Forensic Focus - Test Images and Forensic Challenges](https://forensicfocus.com/images-and-challenges)
 - [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
 - [Second Look - Linux Memory Images](https://secondlookforensics.com/linux-memory-images/)
 - [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)

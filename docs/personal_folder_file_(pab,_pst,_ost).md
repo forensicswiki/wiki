@@ -173,7 +173,7 @@ inaccessibility.
   by the [libpff project](libpff.md)
 * [MAPI definitions](https://github.com/libyal/libfmapi/blob/main/documentation/MAPI%20definitions.asciidoc),
   by the libfmapi project
-* [MS-PST: Outlook Personal Folders (.pst) File Format](http://msdn.microsoft.com/en-us/library/ff385210(v=office.12>).aspx),
+* [MS-PST: Outlook Personal Folders (.pst) File Format](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546),
   by [Microsoft](microsoft.md)
 
 ### Tools

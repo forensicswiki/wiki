@@ -1,12 +1,12 @@
 ---
 tags:
-  -  File Formats
-  -  Virtual Disk
-  -  Disk Analysis
-  -  Articles that need to be expanded
-  -  Windows
-  -  Linux
-  -  MacOS
+  - File Formats
+  - Virtual Disk
+  - Disk Analysis
+  - Articles that need to be expanded
+  - Windows
+  - Linux
+  - MacOS
 ---
 The Virtual Hard Disk (VHD) commonly uses the .vhd extension.
 
@@ -50,26 +50,18 @@ differential images of the previous snapshot.
 
 - [VHD (file format)](https://en.wikipedia.org/wiki/VHD_(file_format)),
   by Wikipedia
-- [Virtual Hard Disk Image Format
-  Specification](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt169373(v=ws.11)),
+- [Virtual Hard Disk Image Format Specification](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt169373(v=ws.11)),
   by Microsoft, October 2006
-- [Overview of VHD & VHDX Virtual Hard
-  Drive](https://www.bitrecover.com/blog/what-is-virtual-hard-disk/) An
+- [Overview of VHD & VHDX Virtual Hard Drive](https://www.bitrecover.com/blog/what-is-virtual-hard-disk/) An
   overview of virtual hard drive image files
-- [Virtual Hard Disk (VHD) image
-  format](https://googledrive.com/host/0B3fBvzttpiiSY250RjRzRXQ0bDg/Virtual%20Hard%20Disk%20(VHD)%20image%20format.pdf),
+- [Virtual Hard Disk (VHD) image format](https://github.com/libyal/libvhdi/blob/main/documentation/Virtual%20Hard%20Disk%20(VHD)%20image%20format.asciidoc),
   by the [libvhdi project](libvhdi.md), September 2012
 
 ### Snapshots
 
-- [Hyper-V Concepts -
-  Snapshots](http://social.technet.microsoft.com/wiki/contents/articles/670.hyper-v-concepts-snapshots.aspx)
-- [Virtual Machine Snapshotting under
-  Hyper-V](http://blogs.msdn.com/b/virtual_pc_guy/archive/2008/03/11/virtual-machine-snapshotting-under-hyper-v.aspx)
-- [Hyper-V SnapShot Files – AVHD and VHD? What The
-  ?](http://survey-smiles.com)
-- [Manually Merge .avhd to .vhd in
-  Hyper-V](http://social.technet.microsoft.com/wiki/contents/articles/6257.manually-merge-avhd-to-vhd-in-hyper-v.aspx)
+- [Hyper-V Concepts - Snapshots](http://social.technet.microsoft.com/wiki/contents/articles/670.hyper-v-concepts-snapshots.aspx)
+- [Hyper-V SnapShot Files – AVHD and VHD? What The ?](http://survey-smiles.com)
+- [Manually Merge .avhd to .vhd in Hyper-V](http://social.technet.microsoft.com/wiki/contents/articles/6257.manually-merge-avhd-to-vhd-in-hyper-v.aspx)
 
 ## Tools
 
@@ -78,4 +70,3 @@ differential images of the previous snapshot.
   Help you recover & extract your files from a corrupt or damaged .vhd /
   .vhdx files. Supports Microsoft Hyper-V, Microsoft Virtual PC,
   Microsoft Virtual Server virtual machine drive images.
-
