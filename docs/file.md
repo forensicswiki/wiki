@@ -1,7 +1,7 @@
 ---
 tags:
   - Open Source Software
-  - Tool
+  - Tools
 ---
 File is a command-line tool that attempts to identify the type of data and
 format within the file. It has three tests: filesystem, magic number, and
