@@ -94,7 +94,7 @@ Investigative Support
 
 * [Creating a Cell Phone Investigation Toolkit: Basic Hardware and Software Specifications](http://www.search.org/files/pdf/CellphoneInvestToolkit-0806.pdf)
 * [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
-* [ForensicFocus.com(Practitioners Forum)](http://www.forensicfocus.com)
+* [ForensicFocus.com(Practitioners Forum)](https://forensicfocus.com)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
 * [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Phone-Forensics.com (Advanced Forum for Practitioners)](http://www.Phone-Forensics.com)

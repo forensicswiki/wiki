@@ -44,7 +44,7 @@ Commercial Products:
 
 Inactive Open Source and Research Projects:
 
-- The [Forensic Analysis Toolkit (FATKit)](http://4tphi.net/fatkit/) is
+- The Forensic Analysis Toolkit (FATKit) is
   a cross-platform, modular, and extensible digital investigation
   framework for analyzing volatile system memory. (Publication Date:
   2006; Availability/License: not available)

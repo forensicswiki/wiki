@@ -159,7 +159,7 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
   by William Ballenthin, September 18, 2012
 * [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/resources/blog),
   by Jeff Hamm, September 26, 2012
-* [Analysis of hidden data in the NTFS file system](https://www.forensicfocus.com/hidden-data-analysis-ntfs),
+* [Analysis of hidden data in the NTFS file system](https://forensicfocus.com/hidden-data-analysis-ntfs),
   by Cheong Kai Wee
 * [The Four Stages of NTFS File Growth, Part 2](https://learn.microsoft.com/en-us/archive/blogs/),
   by John Marlin, March 12, 2015

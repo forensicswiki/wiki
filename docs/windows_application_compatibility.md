@@ -44,7 +44,7 @@ In Windows 2003 and later:
   by Ollie, 4 May 2012
 * [Leveraging the Application Compatibility Cache in Forensic Investigations](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf),
   by Andrew Davis, May 4, 2012
-* [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.ch/2013/12/revealing-program-compatibility.html),
+* [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.com/2013/12/revealing-program-compatibility.html),
   by Corey Harrell, December 17, 2013
 * [Persist It Using and Abusing Microsoft’s Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf),
   by Jon Erickson, BlackHat Asia 2014
@@ -56,7 +56,7 @@ In Windows 2003 and later:
 
 ### RecentFileCache
 
-* [Revealing the RecentFileCache.bcf File](http://journeyintoir.blogspot.ch/2013/12/revealing-recentfilecachebcf-file.html),
+* [Revealing the RecentFileCache.bcf File](http://journeyintoir.blogspot.com/2013/12/revealing-recentfilecachebcf-file.html),
   by Corey Harrell, December 2, 2013
-* [Triaging with the RecentFileCache.bcf File](http://journeyintoir.blogspot.ch/2014/04/triaging-with-recentfilecachebcf-file.html),
+* [Triaging with the RecentFileCache.bcf File](http://journeyintoir.blogspot.com/2014/04/triaging-with-recentfilecachebcf-file.html),
   by Corey Harrell, April 21, 2014

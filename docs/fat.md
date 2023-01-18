@@ -19,7 +19,7 @@ branding as PC-DOS and later, MS-DOS.
 FAT is described by Microsoft in [Microsoft Extensible Firmware
 Initiative FAT32 File System Specification - FAT: General Overview of
 On-Disk
-Format](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc).
+Format](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc).
 Despite the name, the document includes descriptions of FAT12 and FAT16.
 
 Closely related standards are: ECMA 107 and ISO/EIC 9293, which only
@@ -653,21 +653,21 @@ object.
 
 * [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
 * [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
-* <http://www.ntfs.com>
-* <http://www.ntfs.com/ntfs_vs_fat.htm>
+* <https://www.ntfs.com/index.html>
+* <https://www.ntfs.com/index.html/ntfs_vs_fat.htm>
 * <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
 * <http://www.dewassoc.com/kbase/hard_drives/boot_sector.htm>
 * <http://home.teleport.com/~brainy/fat32.htm>
 * <http://home.no.net/tkos/info/fat.html>
 * <http://web.ukonline.co.uk/cook/fat32.htm>
-* <http://www.ntfs.com/fat-systems.htm>
+* <https://www.ntfs.com/index.html/fat-systems.htm>
 * <http://support.microsoft.com/kb/q140418>
 
 ### Format documentation
 
 * [ECMA-107: Volume and File Structure of Disk Cartridges for Information Interchange](https://www.ecma-international.org/wp-content/uploads/ECMA-107_2nd_edition_june_1995.pdf),
   2nd Edition - June 1995
-* [Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview of On-Disk Format](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
+* [Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview of On-Disk Format](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
   by Microsoft, December 6, 2000
 * [An overview of FAT12](https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf),
   by Archana Chidanandan, 2004
@@ -689,12 +689,12 @@ object.
   by Jeff Hamm, December 2009
 * [Demystifying the Microsoft Extended FAT File System (exFAT)](https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat),
   by Robert Shullich, September 20, 2010
-* [Windows Phone 7 : Implications For Digital Forensic Investigators](http://aut.researchgateway.ac.nz/bitstream/handle/10292/4123/LeY.pdf),
+* [Windows Phone 7 : Implications For Digital Forensic Investigators](https://core.ac.uk/download/pdf/56363117.pdf),
   by Yung Anh Le, 2012
 
 ### textFAT
 
-* [TexFAT Padding Directory Entry](http://www.ntfs.com/exfat-textFAT-padding.htm)
+* [TexFAT Padding Directory Entry](https://www.ntfs.com/index.html/exfat-textFAT-padding.htm)
 
 ## Tools
 

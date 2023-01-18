@@ -52,7 +52,7 @@ explore:
 
 - Sleuth Kit, above
 - [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec), a file carver.
-- [Adroit Photo Recovery](https://www.werecoverdata.com), a commercial
+- [Adroit Photo Recovery](adroit_photo_forensics.md), a commercial
   photo recovery tool that's pretty amazing.
 
 If you want to experiment with automated computer forensics research,

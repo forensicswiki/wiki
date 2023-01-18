@@ -127,15 +127,13 @@ Windows.
 <!-- -->
 
 NCryptfs
-[NCryptfs: A Secure and Convenient Cryptographic File
-System](https://www.fsl.cs.sunysb.edu/docs/ncryptfs/ncryptfs.pdf),
-Charles P. Wright, Michael C. Martino, and Erez Zadok, Stony Brook
+[NCryptfs: A Secure and Convenient Cryptographic File System](https://www.fsl.cs.sunysb.edu/docs/ncryptfs/ncryptfs.pdf),
+by Charles P. Wright, Michael C. Martino, and Erez Zadok, Stony Brook
 University, USENIX 2003 Annual Technical Conference.
 
 <!-- -->
 
-TCFS
-**Transparent Cryptographic File System**.
+**Transparent Cryptographic File System (TCFS)**.
 
 <https://www.tcfs.it/>
 
@@ -143,10 +141,7 @@ TCFS
 
 <!-- -->
 
-SFS
-**Secure File System**.
-
-<http://atrey.karlin.mff.cuni.cz/~rebel/sfs/>
+**Secure File System (SFS)**.
 
 <!-- -->
 

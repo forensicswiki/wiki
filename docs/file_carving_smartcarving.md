@@ -51,14 +51,7 @@ Further there is one open-source solution under development:
 
 ## References
 
-* [Automated reassembly of file fragmented images using greedy algorithms](https://www.werecoverdata.com/technology/research/pubs/ieee-trans-2006.pdf)
+* Automated reassembly of file fragmented images using greedy algorithms,
   by A. Pal and N. Memon, in IEEE Transactions on Image processing, February 2006, pp 385­393
-* [Detecting File Fragmentation Point Using Sequential Hypothesis Testing](https://www.werecoverdata.com),
+* Detecting File Fragmentation Point Using Sequential Hypothesis Testing,
   by A. Pal, T. Sencar and N. Memon, Digital Investigations, Fall 2008
-
-## External links
-
-* [Adroit Photo Recovery](https://www.werecoverdata.com/products/adroit-photo-recovery/)
-* [Adroit Photo Forensics](https://www.werecoverdata.com/products/adroit-photo-forensics/)
-* [Link to SmartCarving Technology and Research](https://www.werecoverdata.com/technology/)
-* [Digital Assembly](https://www.werecoverdata.com)

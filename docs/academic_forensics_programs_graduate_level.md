@@ -8,7 +8,6 @@ tags:
 - [American InterContinental University](https://www.aiuniv.edu/degrees/criminal-justice/bachelors-forensic-science)
 - [Arizona State University](https://globalsecurity.asu.edu/cybersecurity/information-assurance-education)
 - [Boston University](https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/)
-  & [Boston University Online](http://cisonline.bu.edu/)
 - California Sciences Institute
 - [Carnegie Mellon University](https://csd.cmu.edu/academics/masters/overview)
 - [Champlain College](https://online.champlain.edu/degrees-certificates/masters-digital-forensic-science)
@@ -68,5 +67,5 @@ tags:
 
 - [AAFS](http://www.aafs.org/default.asp?section_id=resources&page_id=colleges_and_universities)
 - [Digital Forensics Association List](http://www.digitalforensicsassociation.org/formal-education/)
-- [Forensics Focus List](https://www.forensicfocus.com/computer-forensics-education-directory)
+- [Forensics Focus List](https://forensicfocus.com/computer-forensics-education-directory)
 - [Master's Thesis: The Development of a Standard Digital Forensics Master's Curriculum](http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1010&context=techmasters&sei-redir=1#search=%22katie%20strzempka%20thesis%22)

@@ -19,8 +19,3 @@ recover using [SmartCarving](file_carving_smartcarving.md).
   block.
 * User can then choose to either manually build the rest of the file or allow
   SmartCarving to take over again.
-
-## External links
-
-* [Link to SmartCarving Technology and Research](https://www.werecoverdata.com/technology/)
-* [Digital Assembly](https://www.werecoverdata.com)

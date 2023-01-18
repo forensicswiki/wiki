@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Registry Analysis
-  -  Tools
-  -  Windows
-  -  Open Source Software
+  - Open Source Software
+  - Registry Analysis
+  - Tools
+  - Windows
 ---
 RegRipper is an open source forensic software application developed by
 [Harlan Carvey](harlan_carvey.md). RegRipper, written in Perl,
@@ -33,7 +33,7 @@ something readable.
 ## External Links
 
 - [Using RegRipper](http://windowsir.blogspot.com/2011/03/using-regripper.html)
-- [RegRipper2.8 GitHub Repo](https://github.com/keydet89/RegRipper2.8)
+- [RegRipper GitHub Repo](https://github.com/keydet89/RegRipper3.0)
 - [RegRipper Blog](https://regripper.wordpress.com/)
 - [Windows Forensics Analysis](https://code.google.com/archive/p/winforensicaanalysis)
 - [RegRipper Supplemental Plugins](https://code.google.com/archive/p/regripperplugins)

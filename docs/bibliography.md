@@ -36,9 +36,7 @@ tags:
 
 # Evidence Gathering
 
-- [Discovering ephemeral evidence with Live RAM analysis](http://belkasoft.com/download/info/Live_RAM_Analysis_in_Digital_Forensics.pdf),
-  by Oleg Afonin and Yuri Gubanov, 2013
-- [Retrieving Digital Evidence: Methods, Techniques and Issues](http://belkasoft.com/download/info/Retrieving%20Digital%20Evidence%20-%20Methods,%20Techniques%20and%20Issues.pdf),
+- [Retrieving Digital Evidence: Methods, Techniques and Issues](https://belkasoft.com/retrieving-digital-evidence-methods-techniques-and-issues),
   by Yuri Gubanov, 2012
 - [Byteprints: A Tool to Gather Digital Evidence](http://utdallas.edu/~sxs018540/index/docs/byteprints_itcc05.pdf),
   Sriranjani Sitaraman, Srinivasan Krishnamurthy and S. Venkatesan,

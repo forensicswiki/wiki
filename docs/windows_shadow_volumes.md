@@ -124,39 +124,39 @@ information.
 
 * [VISTA and Windows 7 Shadow Volume Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), October 2008
-* [Accessing Volume Shadow Copies](http://windowsir.blogspot.ch/2011/01/accessing-volume-shadow-copies.html),
+* [Accessing Volume Shadow Copies](http://windowsir.blogspot.com/2011/01/accessing-volume-shadow-copies.html),
   by [Harlan Carvey](harlan_carvey.md), January 2011
-* [More VSCs](http://windowsir.blogspot.ch/2011/01/more-vscs.html), by
+* [More VSCs](http://windowsir.blogspot.com/2011/01/more-vscs.html), by
   [Harlan Carvey](harlan_carvey.md), January 2011
-* [A Little Help with Volume Shadow Copies](http://journeyintoir.blogspot.ch/2011/04/little-help-with-volume-shadow-copies.html),
+* [A Little Help with Volume Shadow Copies](http://journeyintoir.blogspot.com/2011/04/little-help-with-volume-shadow-copies.html),
   by Corey Harrell, April 2011
-* [HowTo: Mount and Access VSCs](http://windowsir.blogspot.ch/2011/09/howto-mount-and-access-vscs.html),
+* [HowTo: Mount and Access VSCs](http://windowsir.blogspot.com/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
 * [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), September 2011
-* [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.ch/2012/01/ripping-volume-shadow-copies.html),
+* [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.com/2012/01/ripping-volume-shadow-copies.html),
   by Corey Harrell, January 2012
-* [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-method.html),
+* [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-method.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Practitioner Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-practitioner-examples.html),
+* [Ripping VSCs – Practitioner Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-examples.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Developer Method](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-method.html),
+* [Ripping VSCs – Developer Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-method.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Developer Examples](http://journeyintoir.blogspot.ch/2012/02/ripping-vscs-developer-examples.html),
+* [Ripping VSCs – Developer Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-examples.html),
   by Corey Harrell, February 2012
-* [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.ch/2012/02/examining-vscs-with-gui-tools.html),
+* [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.com/2012/02/examining-vscs-with-gui-tools.html),
   by Corey Harrell, February 2012
 * [VSC Toolset: A GUI Tool for Shadow Copies](https://dfstream.blogspot.com/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
   by Jason Hale, March 2012
 * [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by Simon Key, June 2012
-* [Getting Ready for a Shadow Volume Exam](http://justaskweg.com/?p=351),
+* [Getting Ready for a Shadow Volume Exam](http://ww38.justaskweg.com/?p=351http://justaskweg.com/?p=351subid1=20230112-1943-3728-b377-6cdbda646c59),
   by Jimmy Weg, June 2012
-* [Mounting Shadow Volumes](http://justaskweg.com/?p=466),
+* [Mounting Shadow Volumes](http://ww38.justaskweg.com/?p=466http://justaskweg.com/?p=466subid1=20230112-1943-37a1-971d-554fc678486c),
   by Jimmy Weg, July 2012
-* [Examining the Shadow Volumes with X-Ways Forensics](http://justaskweg.com/?p=518),
+* [Examining the Shadow Volumes with X-Ways Forensics](http://ww38.justaskweg.com/?p=518http://justaskweg.com/?p=518subid1=20230112-1943-387b-b094-990d65a72323),
   by Jimmy Weg, July 2012
-* [Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?](http://justaskweg.com/?p=710),
+* [Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?](http://ww38.justaskweg.com/?p=710http://justaskweg.com/?p=710subid1=20230112-1943-40ce-83da-4d05506fa18e),
   by Jimmy Weg, August 2012
 * Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013
@@ -179,7 +179,7 @@ information.
 ### Other
 
 * [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
-* [Volume Shadow Copies - The Lost Post](http://pauldotcom.com/2012/10/volume-shadow-copies---the-los.html),
+* [Volume Shadow Copies - The Lost Post](https://www.scmagazine.com/security-weekly),
   by Mark Baggett, October 2012
 
 ## Tools

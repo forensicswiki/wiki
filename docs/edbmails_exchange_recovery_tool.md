@@ -1,26 +1,24 @@
 ---
 tags:
-  -  Windows
-  -  Tools
-  -  Open Source Software
-  -  Email Analysis
+  - Commercial Software
+  - Email Analysis
+  - Tools
 ---
 ***EdbMails*** is an Exchange server recovery tool that helps to recover
 corrupted database that has data such as mails, calendar, contacts,
 journals, notes, attachments etc. It has options to preview content
 before exporting from an edb file to
-pst[1](https://en.wikipedia.org/wiki/Personal_Storage_Table) file,
-Office365[2](https://en.wikipedia.org/wiki/Office_365), Live Exchange
-Server[3](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server).
+[pst](personal_folder_file_(pab,_pst,_ost).md) file,
+[Office 365](office_365.md), Live [Exchange Server](microsoft_exchange_server.md).
 
-## **Overview**
+## Overview
 
 *EdbMails* application is the unique solution to view, read and export
 email items of the offline EDB files. It support all major Exchange
 server versions. Also, using *EdbMails* you can migrate mailboxes to
 Office365 user accounts and Live exchange server directly.
 
-## **Features**
+## Features
 
 **Extract Mailboxes from Corrupted EDB files:** *EdbMails* Application
 is engineered with best programming methodologies that enables the
@@ -48,22 +46,19 @@ mailboxes data to appropriate Office365 user mailbox.
 **Migrate EDB to Live Exchange server:** Migrate your mailboxes from EDB
 to live Exchange server using *EdbMails* application.
 
-## **License Information**
+## License Information
 
 For software’s license related information, visit our website [Licence
 agreement](https://www.edbmails.com/pages/terms-of-use.html)
 
-## **Technical Support**
+## Technical Support
 
 24/7 technical support services is offered through modes, i.e. live
 chat, voice messaging, telephone, email support to assist with any
 software related issue.
 
-## **External links**
+## External links
 
-[Official Website](https://www.edbmails.com/)
-
-[Video tutorials for
-EdbMails](https://www.edbmails.com/pages/video.html)
-
-[EdbMails Blog](http://blog.edbmails.com)
+* [Official Website](https://www.edbmails.com/)
+* [Video tutorials for EdbMails](https://www.edbmails.com/pages/video.html)
+* [Blog](http://blog.edbmails.com/)
