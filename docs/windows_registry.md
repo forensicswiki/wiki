@@ -2,6 +2,7 @@
 tags:
   - Database
   - File Formats
+  - Registry Analysis
   - Windows
 ---
 ## Terminology
@@ -196,9 +197,7 @@ NT\CurrentVersion\AeDebug</li>
 </tr>
 <tr class="odd">
 <td><p><b>Additional information</b></p></td>
-<td><p>[<a
-href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb204634(v=vs.85">https://msdn.microsoft.com/en-us/library/windows/desktop/bb204634(v=vs.85</a>).aspx
-Configuring Automatic Debugging]</p></td>
+<td><p><a href="https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging">https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging</a>Configuring Automatic Debugging]</p></td>
 </tr>
 </tbody>
 </table>
@@ -1194,11 +1193,11 @@ name</a></b></p></td>
 
 ### Windows 32-bit on Windows 64-bit (WoW64)
 
-* [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/aa384253(v=vs.85>).aspx),
+* [Registry Keys Affected by WOW64](https://learn.microsoft.com/en-us/windows/win32/winprog64/shared-registry-keys),
   by [Microsoft](microsoft.md)
-* [Registry Redirector](https://msdn.microsoft.com/en-us/library/aa384232(VS.85>).aspx),
+* [Registry Redirector](https://learn.microsoft.com/en-us/windows/win32/winprog64/registry-redirector),
   by [Microsoft](microsoft.md)
-* [Registry Keys Affected by WOW64](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384253(v=vs.85>).aspx),
+* [Registry Keys Affected by WOW64](https://learn.microsoft.com/en-us/windows/win32/winprog64/shared-registry-keys),
   by [Microsoft](microsoft.md)
 * [32-bit and 64-bit Application Data in the Registry](https://learn.microsoft.com/en-us/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry),
   by [Microsoft](microsoft.md)

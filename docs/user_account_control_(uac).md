@@ -22,8 +22,6 @@ Related EventLogs:
 - [Wikipedia: User Account Control](https://en.wikipedia.org/wiki/User_Account_Control)
 - [Vista UAC: The Definitive Guide](https://www.codeproject.com/Articles/19165/Vista-UAC-The-Definitive-Guide),
   by Thomas Hruska, March 21, 2008
-- [The deal with LUAFV.SYS](http://blogs.msdn.com/b/alexcarp/archive/2009/06/25/the-deal-with-luafv-sys.aspx),
-  by Alex Carp, June 25, 2009
 - [You Are Not Admin with UAC](http://journeyintoir.blogspot.com/2012/10/you-are-not-admin-with-uac.html),
   by Corey Harrell, October 8, 2012
 - [UAC Impact on Malware](http://journeyintoir.blogspot.com/2013/03/uac-impact-on-malware.html),

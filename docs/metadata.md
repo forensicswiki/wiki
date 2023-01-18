@@ -41,9 +41,9 @@ and TIFF image files, as well as RIFF WAVE audio
 files. Information includes date and time information, camera settings,
 location information, textual descriptions, and copyright information.
 
-- [LibExif](https://libexif.sourceforge.net/) (C)
+- [LibExif](libexif.md)
 - [Metadata extraction in Java](https://drewnoakes.com/code/exif/)
-- [Adroit Photo Forensics](https://www.werecoverdata.com)
+- [Adroit Photo Forensics](adroit_photo_forensics.md)
 
 <!-- -->
 

@@ -140,7 +140,7 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 
 * [Technet: How NTFS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781134(v=ws.10)),
   by [Microsoft](microsoft.md)
-* [Master File Table](http://msdn.microsoft.com/en-us/library/bb470206(v=vs.85>).aspx)
+* [Master File Table](https://learn.microsoft.com/en-us/windows/win32/devnotes/master-file-table)
 * [MS-FSCC - Known Alternate Stream Names](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/4f3837c4-2f96-40d7-b0bf-80dd1d0b0da0),
   by [Microsoft](microsoft.md)
 * [Wikipedia: NTFS](https://en.wikipedia.org/wiki/NTFS)
@@ -150,7 +150,7 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 * [Linux-ntfs Documentation](https://sourceforge.net/directory/file-systems/)
   Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
 * [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
-* [Distributed Link Tracking and Object Identifiers](http://msdn.microsoft.com/en-us/library/windows/desktop/aa363997(v=vs.85>).aspx)
+* [Distributed Link Tracking and Object Identifiers](https://learn.microsoft.com/en-us/windows/win32/fileio/distributed-link-tracking-and-object-identifiers)
 * [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/main/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),
   by the [libfsntfs project](libfsntfs.md), August 2009
 * [The Four Stages of NTFS File Growth](https://learn.microsoft.com/en-us/archive/blogs/),

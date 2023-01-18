@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Operating Systems
+  - Operating Systems
+  - Windows
 ---
 ## New Features
 
@@ -10,13 +11,11 @@ tags:
 - [ReadyBoost](readyboost.md)
 - [SuperFetch](superfetch.md)
 - [Transactional NTFS (txf)](ntfs.md)
-- [Transactional Registry
-  (txr)](windows_nt_registry_file_(regf).md)
+- [Transactional Registry (txr)](windows_nt_registry_file_(regf).md)
 - [Shadow Volumes](windows_shadow_volumes.md); the volume-based
   storage of the Volume Shadow Copy data
 - \$Recycle.Bin
-- [Windows XML Event Log
-  (evtx)](windows_xml_event_log_(evtx).md)
+- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 - [User Account Control (uac)](user_account_control_(uac).md)
 
 ## File System
@@ -37,14 +36,13 @@ Note that this feature has been around since as early as Windows 2000
 
 Note that the prefetch hash function is different then that of Windows XP.
 
-The [Windows Prefetch File
-Format](windows_prefetch_file_format.md) was changed to version
-23.
+The [Windows Prefetch File Format](windows_prefetch_file_format.md) was changed
+to version 23.
 
 ## Registry
 
-The [Windows Registry](windows_registry.md) remains a central
-component of the Windows Vista operating system.
+The [Windows Registry](windows_registry.md) remains a central component of the
+Windows Vista operating system.
 
 ## User Interface Privilege Isolation (UIPI)
 
@@ -62,22 +60,13 @@ with applications at higher level/permission.
 
 ## External Links
 
-- [Windows Vista Network Attack Surface
-  Analysis](https://www.symantec.com/avcenter/reference/Vista_Network_Attack_Surface_RTM.pdf),
+- [Windows Vista Network Attack Surface Analysis](https://www.symantec.com/avcenter/reference/Vista_Network_Attack_Surface_RTM.pdf),
   James Hoagland, Matt Conover, Tim Newsham, Ollie Whitehouse
-- [Inside the Windows Vista Kernel: Part
-  1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)),
+- [Inside the Windows Vista Kernel: Part 1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), February 2007
-- [Inside the Windows Vista Kernel: Part
-  2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),
+- [Inside the Windows Vista Kernel: Part 2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),
   by [Mark Russinovich](mark_russinovich.md), March 2007
-- [Inside the Windows Vista Kernel: Part
-  3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)),
+- [Inside the Windows Vista Kernel: Part 3](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162458(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), April 2007
-- [Forensic Implications of Windows
-  Vista](https://whereismydata.files.wordpress.com/2009/09/forensic-implications-of-windows-vista.pdf),
+- [Forensic Implications of Windows Vista](https://whereismydata.files.wordpress.com/2009/09/forensic-implications-of-windows-vista.pdf),
   by Barrie Stewart, September 2007
-- [What is User Interface Privilege Isolation (UIPI) on
-  Vista](http://blogs.msdn.com/b/vishalsi/archive/2006/11/30/what-is-user-interface-privilege-isolation-uipi-on-vista.aspx),
-  VishalSi, November 30, 2006
-

@@ -4,8 +4,7 @@ tags:
 ---
 ## Also see
 
-- [Getting Started in Forensic
-  Research](getting_started_in_forensic_research.md)
+- [Getting Started in Forensic Research](getting_started_in_forensic_research.md)
 
 ### External links
 

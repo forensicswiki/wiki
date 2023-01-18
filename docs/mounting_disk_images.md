@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 # FreeBSD
 
@@ -81,8 +81,7 @@ Don't forget the switch ***-o ro*** !
 
 ## Mounting Images Using Alternate Superblocks
 
-- [Mounting Images Using Alternate
-  Superblocks](http://sansforensics.wordpress.com/2008/12/18/mounting-images-using-alternate-superblocks/)
+- [Mounting Images Using Alternate Superblocks](http://sansforensics.wordpress.com/2008/12/18/mounting-images-using-alternate-superblocks/)
 
 # Windows
 
@@ -92,23 +91,16 @@ Windows systems.
 
 ## Free Tools
 
-- [Arsenal Image
-  Mounter](arsenal_recon.md#arsenal-image-mounter) - Arsenal
-  Image Mounter takes the contents of disk images and presents them to
+- [Arsenal Image Mounter](arsenal_recon.md#arsenal-image-mounter) -
+  Arsenal Image Mounter takes the contents of disk images and presents them to
   Windows as SCSI disks
 - [FTK Imager](https://www.exterro.com/ftk-product-downloads)
 - [ImDisk](http://www.ltr-data.se/opencode.html#ImDisk) - also on
   [WikiPedia](http://en.wikipedia.org/wiki/ImDisk)
 - [Paraben](paraben_forensics.md) P2X
-- [VDKWin](http://ww25.vmxbuilder.com/vdk-gui/?subid1=20230112-2004-3681-88fa-1aacf0426fa4), requires
-  [VDK](http://chitchat.at.infoseek.co.jp/vmware/vdk.html)
-- [vhdtool](http://archive.msdn.microsoft.com/vhdtool) - an unsupported
-  MS tool that you can use to convert a raw/dd image to a VHD file and
-  mount as a read-only volume via Disk Manager
 
 ## Commercial Tools
 
 - [SmartMount](http://www.asrdata.com/forensic-software/smartmount/)
-- [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) - has a 14-day trial
-  version
-
+- [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) -
+  has a 14-day trial version

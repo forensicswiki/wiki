@@ -204,7 +204,6 @@ location="Monterey, CA",
 ` journal={Duke Law and Technology Review},`
 ` volume = {8},`
 ` year = {2011},`
-` url="`[`https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltrhttpsredir=1http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrarticle=1222http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltrcontext=dltr`](http://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1222&context=dltr)`"`
 
 } </bibtex>
 

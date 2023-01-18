@@ -95,8 +95,8 @@ An example of a shell item list taken from **Calculator.lnk**
 
 ## External Links
 
-- [MSDN: Introduction to the Shell Namespace (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/cc144090(v=vs.85>).aspx)
-- [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/windows/desktop/cc144093(v=vs.85>).aspx)
+- [MSDN: Introduction to the Shell Namespace (Windows)](https://learn.microsoft.com/en-us/windows/win32/shell/namespace-intro)
+- [Implementing the Basic Folder Object Interfaces](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/cc144093(v=vs.85))
 - [ShellBags Registry Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by johnmccash, October 2008
 - [Shell Bag Format Analysis](http://42llc.net/?p=385), by Yogesh Khatri,

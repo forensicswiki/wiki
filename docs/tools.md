@@ -208,12 +208,9 @@ hash databases.
 Comprehensive Windows Memory Forensics and Cyber Analysis, Incident
 Response, and Education support.
 
-Software and hardware based acquisition with [CaptureGUARD PCIe and
-ExpressCard](https://www.windowsscope.com/?option=com_virtuemarthttps%3A%2F%2Fwww.windowsscope.com%2F%2Findex.php%3Foption%3Dcom_virtuemarthttps://www.windowsscope.com/?option=com_virtuemarthttps://www.windowsscope.com//index.php?option=com_virtuemart&Itemid=34Itemid=34Itemid=34Itemid%3D34)
+Software and hardware based acquisition with CaptureGUARD PCIe and ExpressCard
 
-Hardware based acquisition of memory on a locked computer via
-[CaptureGUARD
-Gateway](https://www.windowsscope.com//index.php?page=shop.product_details&flypage=flypage.tpl&product_id=30&category_id=1&option=com_virtuemart&Itemid=34)
+Hardware based acquisition of memory on a locked computer via CaptureGUARD Gateway
 
 [WindowsSCOPE](https://www.windowsscope.com/) Live provides memory
 analysis of Windows computers on a network from Android phones and
@@ -230,7 +227,6 @@ email platform through its powerful Search mechanism.
 <!-- -->
 
 Twitter Forensic Toolkit (TFT) by [Afentis_forensics](afentis_forensics.md)
-<http://www.twitterforensics.com>
 eDiscovery toolkit to identify relevant Tweets, clone full profiles,
 download all tweets/media, data mine across comments, and generate
 expert reports.

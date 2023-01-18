@@ -421,7 +421,7 @@ value:
 * [Windows 8 File History Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
 * [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deployment/windows-setup-log-file-locations)
 * [Windows Hardware Dev Center Archive](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/download/dn550976(v=vs.85))
-* [Windows Data Type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85>).aspx)
+* [Windows Data Type](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 * [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, 2008
 * [Microsoft Windows File System Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
@@ -462,10 +462,10 @@ value:
 
 ### Under the hood
 
-* [MSDN: Comparing Memory Allocation Methods](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366533(v=vs.85>).aspx)
+* [MSDN: Comparing Memory Allocation Methods](https://learn.microsoft.com/en-us/windows/win32/memory/comparing-memory-allocation-methods),
   by [Microsoft](microsoft.md)
 * [DLL/COM Redirection](https://learn.microsoft.com/en-us/windows/win32/sbscs/dll-com-redirection-on-windows)
-* [Dynamic-Link Library Search Order](http://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85>).aspx)
+* [Dynamic-Link Library Search Order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order)
 * [Load Library Safely](https://learn.microsoft.com/en-us/archive/blogs/),
   by Swamy Shivaganga Nagaraju, 13 May 2014
 * [Happy DPAPI!](https://blog.digital-forensics.it/2015/01/happy-dpapi.html?m=1),

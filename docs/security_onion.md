@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Network Forensics
-  -  Linux
-  -  Tools
-  -  Open Source Software
+  - Network Forensics
+  - Linux
+  - Tools
+  - Open Source Software
 ---
 ## Description
 

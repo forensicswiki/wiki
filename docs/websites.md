@@ -13,10 +13,6 @@ Presentations, links, references
 
 <!-- -->
 
-[Digital Forensic Solution Provider Website](https://www.afternic.com:443/forsale/forensicpeople.com?utm_source=TDFS_DASLNChttp://forensicpeople.com/utm_medium=DASLNChttp://forensicpeople.com/utm_campaign=TDFS_DASLNChttp://forensicpeople.com/traffic_type=TDFS_DASLNChttp://forensicpeople.com/traffic_id=daslnchttp://forensicpeople.com/)
-
-<!-- -->
-
 [Certfied Computer Examiner Website](https://www.isfce.com/)
 
 Open certification process for digital forensics.
@@ -93,7 +89,7 @@ Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
 <!-- -->
 
-[Forensic Focus](https://www.forensicfocus.com/)
+[Forensic Focus](https://forensicfocus.com/)
 
 News, blog, forums, and other resources for folks engaged in or
 interested in digital forensics.
@@ -149,7 +145,7 @@ Computer Forensics Lab Resource Site.
 
 <!-- -->
 
-[Forensics Sciences Conference and Exhibition](http://http://euroforensics.com/%5DEuroforensics)
+[Forensics Sciences Conference and Exhibition](http://euroforensics.com/%5DEuroforensics)
 
 # Non-Digital Forensics
 
