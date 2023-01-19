@@ -2,7 +2,7 @@
 tags:
   - Disk Imaging
   - Windows
-  - Commerical Software
+  - Commercial Software
   - Tools
 ---
 The **Forensic Toolkit Imager** (**FTK Imager**) is a commercial

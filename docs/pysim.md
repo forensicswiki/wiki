@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Mobile Forensics 
 ---
 ![](PySIM.JPG "PySIM.JPG")
 
@@ -13,13 +14,13 @@ that accomplishes the following tasks:
 
 ## Requirements
 
-\- Windows 98 or later
+- Windows 98 or later
 - Smart Card Base Components if using Win98, ME & NT 4.0
 - GSM SIM Card Reader
 
 ## Benefits
 
-\- Cost of Ownership: Since pySIM is freeware it is not cost
+- Cost of Ownership: Since pySIM is freeware it is not cost
 prohibitive
 - Ease of use: The simplicity of pySIM enables novice investigators to
 acquire data
