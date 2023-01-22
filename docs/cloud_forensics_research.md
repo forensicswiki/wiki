@@ -151,7 +151,6 @@ location="Monterey, CA",
 ` author={Keyun Ruan and Joe Carthy and Tahar Kechadi and Mark Crosbie},`
 ` booktitle={Advances in Digital Forensics VII},`
 ` year={2011},`
-` url="`[`http://cloudforensicsresearch.org/publication/Cloud_Forensics_An_Overview_7th_IFIP.pdf`](http://cloudforensicsresearch.org/publication/Cloud_Forensics_An_Overview_7th_IFIP.pdf)`"`
 
 }
 
@@ -164,7 +163,6 @@ location="Monterey, CA",
 ` booktitle={Proceedings of the 2011 ADFSL Conference on Digital Forensics, Security and Law},`
 ` year={2011},`
 ` organization={ADFSL},`
-` url="`[`http://www.cloudforensicsresearch.org/publication/Survey_on_Cloud_Forensics_and_Critical_Criteria_for_Cloud_Forensic_Capability_6th_ADFSL.pdf`](http://www.cloudforensicsresearch.org/publication/Survey_on_Cloud_Forensics_and_Critical_Criteria_for_Cloud_Forensic_Capability_6th_ADFSL.pdf)`"`
 
 } </bibtex>
 
@@ -191,7 +189,6 @@ location="Monterey, CA",
 ` year={2011},`
 ` organization={IEEE},`
 ` address = {Oakland, CA, USA},`
-` url="`[`http://code-foundation.de/stuff/2011-birk-cloud-forensics.pdf`](http://code-foundation.de/stuff/2011-birk-cloud-forensics.pdf)`"`
 
 }
 

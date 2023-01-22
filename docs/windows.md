@@ -502,8 +502,6 @@ value:
 
 #### Kerberos
 
-* [Protection from Kerberos Golden Ticket - Mitigating pass the ticket on Active Directory](http://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf),
-  CERT-EU, July 2014
 * [Abusing Microsoft Kerberos - Sorry you guys don't get it](https://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it),
   by Benjamin Delpy, August 13, 2014
 

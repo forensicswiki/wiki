@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 ATA over Ethernet (*AoE*) is a network protocol designed for accessing
 ATA storage devices over Ethernet networks.
@@ -17,9 +17,8 @@ same network and can exchange packets with each other.
 
 ### Server configuration
 
-Make sure that your server has
-[*vblade*](https://packages.debian.org/en/lenny/vblade) tool installed.
-Then run the following command:
+Make sure that your server has [vblade](https://packages.debian.org/en/lenny/vblade)
+tool installed.  Then run the following command:
 
 `# vblade 0 0 eth0 /dev/sda`
 
@@ -30,9 +29,8 @@ Where:
 
 ### Client configuration
 
-Make sure that your Linux client has [*aoe
-tools*](https://packages.debian.org/en/lenny/aoetools) installed. Then
-run the following command:
+Make sure that your Linux client has [aoe tools](https://packages.debian.org/en/lenny/aoetools)
+installed. Then run the following command:
 
 `# modprobe aoe`
 
@@ -57,14 +55,3 @@ on *eth0*. You can apply the following display filter to analyse AoE
 packets only:
 
 `eth.type == 0x88a2`
-
-Here is a screenshot of [grml](grml.md) client running in
-VirtualBox:
-
-![](Ataoe.png "Ataoe.png") to capture ATA commands\]\]
-
-## External Links
-
-- [Vblade - ATA over
-  Ethernet](http://buffalo.nas-central.org/index.php/Vblade_-_ATA_over_Ethernet)
-

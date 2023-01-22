@@ -73,4 +73,3 @@ and place.
 ## External Links
 
 * Microsoft (2015), [What is Cortana](https://support.microsoft.com/en-us/topic/what-is-cortana-953e648d-5668-e017-1341-7f26f7d0f825)
-* Muir, B. (2015), [Windows 10 - Cortana & Notification Center Forensics](http://bsmuir.kinja.com/windows-10-cortana-notification-center-forenics-1724511442)

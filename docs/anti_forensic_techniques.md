@@ -205,7 +205,7 @@ to that by destroying evidence, for example.
 ### Casper
 
 Grml mounted root file system on the [hard drive](hard_drive.md)
-[Casper](http://bromavilleherald.com/index.php/Casper_boot_process) is a
+Casper is a
 set of scripts used to enable Linux-based distributions to boot from
 removable media. Casper scripts will search for the root file system
 (typically SquashFS on the local data storage

@@ -99,8 +99,7 @@ and re-released as Volatility in August
 
 2008
 
-* [Lest We Remember: Cold Boot Attacks on Encryption Keys](https://citp.princeton.edu/our-work/memory/)
-  ([PDF](http://citp.princeton.edu.nyud.net/pub/coldboot.pdf)),
+* [Lest We Remember: Cold Boot Attacks on Encryption Keys](https://citp.princeton.edu/our-work/memory/),
   Usenix Security 2008 (Best student paper)
 * [Pushing the Limits of Windows: Physical Memory](https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/),
   by Mark Russinovich, Technet Blogs, July 21, 2008
