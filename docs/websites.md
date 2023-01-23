@@ -103,12 +103,6 @@ professionals.
 
 <!-- -->
 
-[Litilaw Computer Forensics](http://computer-forensics-litilaw.lexbe.com/)
-
-Computer forensics article collection.
-
-<!-- -->
-
 [MySecured.com](http://www.marwan.com)
 
 Mobile phone forensics, cellphone related investigation and data

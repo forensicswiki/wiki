@@ -48,11 +48,6 @@ Conference on Digital Forensics, Security and Law
 
 <!-- -->
 
-CyberCrime Summit (Last found in 2010)
-<https://www.hugedomains.com/domain_profile.cfm?d=cybercrimesummit.com>
-
-<!-- -->
-
 Department of Defense CyberCrime Conference (Discontinued - now US Cyber Crime Conference)
 
 <!-- -->

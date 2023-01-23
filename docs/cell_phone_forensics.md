@@ -84,11 +84,6 @@ Pay As You Go:
 Articles and Reference Materials
 
 * [Law Enforcement, Forensics and Mobile Communications](https://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
-* [U.S. National Institute of Standards and Technology Documents](http://csrc.nist.gov/mobilesecurity/publications.html#MF)
-
-Conferences
-
-* [Mobile Forensics World](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.com)
 
 Investigative Support
 
@@ -96,7 +91,6 @@ Investigative Support
 * [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
 * [ForensicFocus.com(Practitioners Forum)](https://forensicfocus.com)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
-* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Phone-Forensics.com (Advanced Forum for Practitioners)](http://www.Phone-Forensics.com)
 * [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
@@ -111,7 +105,5 @@ Training
 * [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
 * [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
-* [Mobile Forensics World Training](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.comTraining.aspx)
 * [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/dfir-training-3/)
-* [SmartPhoneForensics.com (Mobile Device Forensics Training and Investigative Support)](https://www.buydomains.com/lander/smartphoneforensics.com?domain=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_source=smartphoneforensics.comhttp://www.SmartPhoneForensics.comutm_medium=clickhttp://www.SmartPhoneForensics.comutm_campaign=tdfs-AprTesthttp://www.SmartPhoneForensics.comtraffic_id=AprTesthttp://www.SmartPhoneForensics.comtraffic_type=tdfshttp://www.SmartPhoneForensics.comredirect=ono-redirect)
 * [Micro Systemation Training (Mobile Forensics Training)](https://www.msab.com/)

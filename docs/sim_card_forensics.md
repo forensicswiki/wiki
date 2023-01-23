@@ -111,4 +111,3 @@ card.
 ## External Links
 
 * [E-evidence Info](http://www.e-evidence.info/cellular.html)
-* [Purdue Phone Phorensics Knowledge Base](https://www.hugedomains.com/domain_profile.cfm?d=mobileforensicsworld.com)

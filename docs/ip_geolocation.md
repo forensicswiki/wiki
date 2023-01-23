@@ -34,6 +34,5 @@ pretty well.
 - [CountryWhois DB (commercial)](http://www.tamos.com/products/ip-location-database)
 - [CountryWhois](http://www.countrywhois.com/online-demo.php)
 - [IPAddressGuide](https://www.ipaddressguide.com/)
-- [GeoCate (commercial)](https://www.hugedomains.com/domain_profile.cfm?d=geocate.com)
 - [Jgsoft IP Address Geolocation (commercial w/free limited online lookups)](http://www.ip2country.net/)
 - [Nami Media (commercial)](http://www.namimedia.com/geo.htm)
