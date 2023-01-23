@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Disk Imaging
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Disk Imaging
+  - LGPL
+  - Tools
 ---
 The **libsmraw** package contains a library and applications to read and
 write (split) RAW storage media bitstream copies. Libsmraw contains
@@ -12,7 +12,7 @@ supports for multiple (split) RAW naming schemes.
 ## History
 
 Libsmraw was created by [Joachim Metz](joachim_metz.md) in 2010,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 Libsmraw is a rewrite of earlier work for the proof-of-concept
 multi-threaded imager: GNOME Forensic Imager.
 
@@ -43,4 +43,3 @@ Or:
 ## External Links
 
 - [Project site](https://github.com/libyal/libsmraw/)
-

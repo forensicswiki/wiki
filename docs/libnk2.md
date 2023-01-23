@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Analysis
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Analysis
+  - LGPL
+  - Tools
 ---
 The **libnk2** package contains a library and applications to read the
 [Nickfile (nk2)](nickfile_(nk2).md) format.
@@ -18,7 +18,7 @@ The **libnk2** package contains the following tools:
 ## History
 
 Libnk2 was created by [Joachim Metz](joachim_metz.md) in 2009,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 
 ## See Also
 
@@ -27,4 +27,3 @@ while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
 ## External Links
 
 - [Project site](https://github.com/libyal/libnk2/)
-

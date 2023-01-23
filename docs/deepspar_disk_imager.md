@@ -57,7 +57,7 @@ investigation.
   Imager](https://www.deepspar.com/mjm-ds-disk-imager.html) by Mike
   Montgomery of MJM Data Recovery in the UK.
 - *[Disk Imaging: A Vital Step in Data
-  Recovery](http://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,
+  Recovery](https://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,
   a whitepaper on the product
 - [Interview on the
   imager](https://cyberspeak.libsyn.com/index.php?post_id=193897) on the

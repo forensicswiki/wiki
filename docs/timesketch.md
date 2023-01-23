@@ -16,5 +16,5 @@ your raw data with rich annotations, comments, tags and stars.
 
 ## External Links
 
-- [Project site](http://www.timesketch.org/)
+- [Project site](https://timesketch.org)
 - [Demo site](https://timesketch.org)

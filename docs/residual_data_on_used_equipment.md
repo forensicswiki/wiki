@@ -60,7 +60,7 @@ order.
 <!-- -->
 
 - **2006-08-14**: [BBC
-  News](http://news.bbc.co.uk/2/hi/business/4790293.stm) reports on bank
+  News](http://news.bbc.co.uk/1/hi/business/4790293.stm) reports on bank
   account information recovered from used PC hard drives and being sold
   in Nigeria for £20 each. The PCs had apparently come from recycling
   points run by UK town councils that are then "recycled" by being sent

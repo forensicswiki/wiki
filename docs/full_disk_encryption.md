@@ -125,8 +125,6 @@ supports mounting [Linux](linux.md)
 dm-crypt and
 [LUKS](linux_unified_key_setup_(luks).md) volumes
 
-<http://www.FreeOTFE.org/>
-
 <!-- -->
 
 [GBDE](gbde.md)

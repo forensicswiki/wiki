@@ -135,7 +135,7 @@ R-Studio is a data recovery software suite that can recover files from
 FAT(12-32), NTFS, NTFS 5, HFS/HFS+, FFS, UFS/UFS2 (\*BSD, Solaris),
 Ext2/Ext3 (Linux) and so on.
 
-- [DeepSpar Disk Imager](http://www.deepspar.com/)
+- [DeepSpar Disk Imager](https://www.deepspar.com/)
 
 
 DeepSpar Disk Imager is a dedicated disk imaging device built to handle

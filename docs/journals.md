@@ -26,12 +26,8 @@ subject of digital forensics:
 | International Journal of Cyber Criminology                                  | n/a                                      | n/a                                | n/a                                 | <https://cybercrimejournal.com/>                                                 | Web Journal created, published and maintained by K. Jaishankar                                                                  | Online            | Electronic       | Open Access, No submission fee                                                                                                                                                                                   |
 | International Journal of Cyber Forensics and Advanced Threat Investigations | n/a                                      | n/a                                | n/a                                 | <https://conceptechint.net/index.php/CFATI>                                         | Journal created and maintained by Association of Cyber Forensics and Threat Investigators, published by Concept Tech Publishing | United Kingdom    | Electronic/Print | Open Access, No submission fee                                                                                                                                                                                   |
 
-- Impact factors cited on 11/03/2013 from 2011 data provided by [Impact
-  Factor Search](http://www.impactfactorsearch.com/).
-- H-Index cited on 11/03/2013 from [SCImago Journal and Country
-  Rank](https://www.scimagojr.com/).
-- H5-Index cited on 12/03/2013 from [Google Scholar
-  Metrics](https://scholar.google.com/citations?view_op=top_venueshttp://scholar.google.com/citations?view_op=top_venues&hl=enhl=en).
+- Impact factors cited on 11/03/2013 from 2011 data provided by [Impact Factor Search](http://www.impactfactorsearch.com/).
+- H-Index cited on 11/03/2013 from [SCImago Journal and Country Rank](https://www.scimagojr.com/).
 
 ## Dead Journals
 
@@ -66,8 +62,7 @@ field of Small Scale Digital Device Forensics. Ended 2011.
 
 # Notes
 
-This list was originally taken from [Brian
-Carrier](brian_carrier.md)'s list of conferences and journals at
-<https://digital-evidence.org/publish/index.html> and used with his
-permission. Brian no longer maintains those listings and points back to
-this Wiki.
+This list was originally taken from [Brian Carrier](brian_carrier.md)'s list
+of conferences and journals at <https://digital-evidence.org/publish/index.html>
+and used with his permission. Brian no longer maintains those listings and
+points back to this Wiki.

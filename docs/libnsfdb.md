@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Analysis
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Analysis
+  - LGPL
+  - Tools
 ---
 The **libnsfdb** package contains a library and applications to read the
 [Notes Storage Facility (NSF)
@@ -18,9 +18,8 @@ The **libnsfdb** package contains the following tools:
 ## History
 
 Libnsfdb was created by [Joachim Metz](joachim_metz.md) in 2010,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 
 ## External Links
 
 - [Project site](https://github.com/libyal/libnsfdb/)
-

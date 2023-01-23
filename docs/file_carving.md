@@ -164,6 +164,6 @@ by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#12)
 
 * [Measuring and Improving the Quality of File Carving Methods](https://github.com/libyal/documentation/blob/main/Thesis%20-%20Measuring%20and%20Improving%20the%20Quality%20of%20File%20Carving%20Methods.pdf),
   by Bas Kloet, October 2007
-* [Advanced File Carving Approaches for Multimedia Files](http://isyou.info/jowua/abstracts/jowua-v2n4-3.htm)
-  ([pdf](http://isyou.info/jowua/papers/jowua-v2n4-3.pdf)),
+* [Advanced File Carving Approaches for Multimedia Files](https://isyou.info/jowua/abstracts/jowua-v2n4-3.htm)
+  ([pdf](https://isyou.info/jowua/papers/jowua-v2n4-3.pdf)),
   by Rainer Poisel, Simon Tjoa, and Paul Tavolato, December 2011

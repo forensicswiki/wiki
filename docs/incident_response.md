@@ -39,7 +39,7 @@ victims can be easier if they stand out from the crowd.
 
 * [Preservation of Fragile Digital Evidence by First Responders](http://dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
   by [Jesse Kornblum](jesse_kornblum.md), DFRWS 2002
-* [Journey to the Centre of the Breach](https://labs.mwrinfosecurity.com/system/assets/131/original/Journey-to-the-Centre-of-the-Breach.pdf),
+* [Journey to the Centre of the Breach](https://labs.withsecure.com/error/404),
   by Ben Downton, June 2, 2010
 * [Keeping Focus During an Incident](https://www.hugedomains.com/domain_profile.cfm?d=handlerdiaries.com), by jackcr, January
   17, 2014

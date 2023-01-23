@@ -30,7 +30,7 @@ tags:
 ` publisher =    "IEEE",`
 ` year      =         "2002",`
 ` month     = Jan,`
-` url="`[`https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf`](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)`"`
+` url="`[`https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf`](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)`"`
 
 } </bibtex>
 
@@ -99,7 +99,7 @@ Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 ` number    = {5},`
 ` year      = {2003},`
 ` pages     = {44-48},`
-` url       = {`[`https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg`](http://doi.ieeecomputersociety.org/10.1109/MSECP.2003.1236234)`},`
+` url       = {`[`https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg`](https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg)`},`
 ` abstract="Digital evidence is inherently weak. New evidence-gathering technologies-digital black boxes-must be developed and deployed to support investigations of irreproducible events such as digitally signing a document."`
 
 } </bibtex>

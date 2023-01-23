@@ -33,8 +33,7 @@ Exporting an index.dat from a Chinese Windows installation:
 ## History
 
 Libmsiecf was created by [Joachim Metz](joachim_metz.md) in
-2009, while working for [Hoffmann
-Investigations](http://en.hoffmannbv.nl/).
+2009, while working for Hoffmann Investigations.
 
 Libmsiecf is a rewrite of
 [pasco](https://sourceforge.net/projects/odessa/) with support for more

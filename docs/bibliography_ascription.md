@@ -112,7 +112,7 @@ problem:
 ` bibsource =   "DBLP,`
 `        `[`http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06`](http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06)`",`
 ` pages =   "71--81",`
-` URL =     "`[`https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697`](http://dx.doi.org/10.1016/j.diin.2006.06.007)`",`
+` URL =     "`[`https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697`](https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697)`",`
 
 } </bibtex>
 
@@ -122,7 +122,7 @@ problem:
 ` title =   "Decomposing file data into discernible items",`
 ` year =    "2006",`
 ` month =   aug,`
-` URL =     "`[`https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf`](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf)`",`
+` URL =     "`[`https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf`](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-672.pdf)`",`
 ` institution =  "University of Cambridge, Computer Laboratory",`
 ` ISSN =    "1476-2986",`
 ` number =  "UCAM-CL-TR-672",`

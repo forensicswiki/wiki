@@ -143,7 +143,7 @@ On Mac OS X you can run hdiutil on a mounted EWF file set:
 ## History
 
 Libewf was created by [Joachim Metz](joachim_metz.md) in 2006,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 
 Libewf is a rewrite of earlier work on the EnCase 4 file format by
 [Michael Cohen](michael_cohen.md) part of

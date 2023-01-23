@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Analysis
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Analysis
+  - LGPL
+  - Tools
 ---
 The **libolecf** package contains a library and applications to read the
 [Object Linking and Embedding (OLE) Compound File
@@ -12,7 +12,7 @@ The **libolecf** package contains a library and applications to read the
 ## History
 
 Libolecf was created by [Joachim Metz](joachim_metz.md) in 2008,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 
 ## Tools
 
@@ -24,4 +24,3 @@ The **libolecf** package contains the following tools:
 ## External Links
 
 - [libolecf project site](https://github.com/libyal/libolecf/)
-

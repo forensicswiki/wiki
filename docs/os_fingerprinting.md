@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
 **OS fingerprinting** is the process of determining the [operating
 system](operating_system.md) used by a host on a network.
@@ -59,7 +59,3 @@ Passive fingerprinters:
 ## Links
 
 - [Remote OS detection paper](https://nmap.org/book/osdetect.html)
-- [Passive OS
-  Fingerprinting](https://www.netresec.com/?page=Bloghttp://www.netresec.com/?page=Blog&month=2011-11&post=Passive-OS-Fingerprintingmonth=2011-11http://www.netresec.com/?page=Blog&month=2011-11&post=Passive-OS-Fingerprintingpost=Passive-OS-Fingerprinting)
-  (good walkthrough)
-
