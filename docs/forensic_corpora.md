@@ -178,9 +178,6 @@ Email Messages Corpus Parsed from W3C Lists (for TRECENT 2005)
 
 ## Log files
 
-[CRAWDAD](http://crawdad.cs.dartmouth.edu/index.php) is a community
-archive for wireless data.
-
 [CAIDA](https://catalog.caida.org/) collects a wide variety of data.
 
 [DShield](https://www.dshield.org/howto.html) asks users to submit
@@ -189,8 +186,7 @@ firewall logs.
 ## Text for Text Retrieval
 
 The [Text REtrieval Conference (TREC)](https://trec.nist.gov/) has made
-available a series of [text
-collections](https://trec.nist.gov//data.html).
+available a series of [text collections](https://trec.nist.gov//data.html).
 
 ## American National Corpus
 
@@ -238,8 +234,8 @@ NIH grant.
 
 ## Augmented Multi-Party Interaction Corpus
 
-The [AMI Meeting Corpus](http://corpus.amiproject.org/) has 100 hours of
-meeting recordings.
+The [AMI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/corpus/) has 100 hours
+of meeting recordings.
 
 ## Other Corpora
 

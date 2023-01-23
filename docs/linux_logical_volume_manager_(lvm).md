@@ -106,7 +106,7 @@ To read-only loop-back mount an individual volume:
   by Heinz Mauelshagen and Matthew O'Keefe
 * [LVM cheatsheet](http://www.datadisk.co.uk/html_docs/redhat/rh_lvm.htm),
   by RedHat
-* [Unix/Linux Administration Logical Volume Management Guide](http://content.hccfl.edu/pollock/aunix1/lvm.htm),
+* [Unix/Linux Administration Logical Volume Management Guide](https://wpollock.com/AUnix1/LVM.htm),
   by Wayne Pollock, 2005
 * [LVM2 – data recovery](http://lvb.sti.fce.vutbr.cz/public/LinuxAlt_2009/2009_11_08_LA_04_LVM/2009_11_08_LA_04_LVM.pdf),
   by Milan Brož, LinuxAlt 2009

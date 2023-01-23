@@ -74,4 +74,3 @@ Various issues with Linux Boot CDs can be compared
 * [WinPE Technical Reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11)
 * [Windows Automated Installation Kit](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
 * [WinFE Write Protect tool](http://www.ramsdens.org.uk/)
-* [WinFE Online Training course](http://courses.dfironlinetraining.com/windows-forensic-environment)

@@ -9,5 +9,4 @@ This claim is something very few operating systems can testify to.
 
 ## External Links
 
-* [Official website](http://www.openbsd.org)
-* [OpenBSD](http://blog.eukhost.com/2006/12/02/openbsd)
+* [Official website](https://www.openbsd.org/)
