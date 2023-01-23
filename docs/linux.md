@@ -85,19 +85,13 @@ Analysis](linux_memory_analysis.md).
 
 # External Links
 
-* <https://en.wikipedia.org/wiki/Linux>
+* [Wikipedia: Linux](https://en.wikipedia.org/wiki/Linux)
 * <https://en.wikipedia.org/wiki/Android_(mobile_device_platform)>
-
-## Activity tracking
-
-* [Tracking user actions with the Linux audit
-  subsystem](http://civilfritz.net/tracking-user-actions-with-the-linux-audit-subsystem/)
 
 ## Control groups (cgroups)
 
 * [Wikipedia: Cgroups](https://en.wikipedia.org/wiki/Cgroups)
-* [⁠Chapter 1. Introduction to Control Groups
-  (Cgroups)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)
+* [Chapter 1. Introduction to Control Groups (Cgroups)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)
 
 ## Initrd, Initramfs
 
