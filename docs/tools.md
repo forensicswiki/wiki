@@ -23,7 +23,7 @@ any tool for more details.
 ## Hard Drive Firmware and Diagnostics Tools
 
 [PC-3000](pc-3000.md) from [ACE Lab](ace_lab.md)
-<http://www.acelaboratory.com/catalog/>
+<https://www.acelab.eu.com/catalog/>
 
 ## Linux-based Tools
 
@@ -312,7 +312,7 @@ subfiles (hachoir-subfile).
 <!-- -->
 
 [hashdb](hashdb.md)
-<https://github.com/simsong/hashdb/wiki>
+<https://github.com/simsong/hashdb>
 
 A tool for finding previously identified blocks of data in media such as
 disk images.

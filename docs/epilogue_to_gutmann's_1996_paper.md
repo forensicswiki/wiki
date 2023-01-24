@@ -32,4 +32,4 @@ got 10KB of sensitive data on a drive and can't erase it with 100%
 certainty, the chances of an adversary being able to find the erased
 traces of that 10KB in 80GB of other erased traces are close to zero.*''
 
-<http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html>
+<https://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html>

@@ -19,4 +19,4 @@ file. These files therefore have the ZIP file signature.
 
 * [Excel Spreadsheet (xls)](excel_spreadsheet_(xls).md)
 * [Excel Spreadsheet (xlsx)](excel_spreadsheet_(xlsx).md)
-* [Excel 2007 Binary File format by Microsoft](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Excel2007BinaryFileFormat(xlsb)Specification.pdf)
+* [Excel 2007 Binary File format by Microsoft](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/Excel2007BinaryFileFormat(xlsb)Specification.pdf)

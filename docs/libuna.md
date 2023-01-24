@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Analysis
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Analysis
+  - LGPL
+  - Tools
 ---
 The **libuna** package contains a library and application to read and
 write the [Text File (txt)](text_file_(txt).md) format in
@@ -22,7 +22,7 @@ Libuna currently supports:
 ## History
 
 Libuna was created by [Joachim Metz](joachim_metz.md) in 2008,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 
 The codepages are based on
 [libiconv](http://www.gnu.org/software/libiconv/) and documentation
@@ -49,4 +49,3 @@ The **libuna** package contains the following tools:
 ## External Links
 
 - [project site](https://github.com/libyal/libuna/)
-

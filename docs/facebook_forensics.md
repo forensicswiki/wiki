@@ -22,30 +22,25 @@ you parse them.
 
 ### Residual Data
 
-- ["Facebook
-  Forensics"](https://www.sans.org/digital-forensics-incident-response/),
+- [Facebook Forensics](https://www.sans.org/digital-forensics-incident-response/),
   SANS Computer Forensics and Incident Response Blog Entry, June
   11, 2009. A few musings and links (that are reported above). Mostly
   with tracking photos to facebook.
-- ["Facebook Memory
-  Forensics"](https://www.sans.org/digital-forensics-incident-response/),
+- [Facebook Memory Forensics](https://www.sans.org/digital-forensics-incident-response/),
   SANS Computer Forensics Incident Response Log, Nov. 20, 2009.
   Discussion about facebook details left in memory.
-- [Facebook Chat
-  Forensics](http://forensicsfromthesausagefactory.blogspot.com/2009/03/facebook-chat-forensics.html),
+- [Facebook Chat Forensics](http://forensicsfromthesausagefactory.blogspot.com/2009/03/facebook-chat-forensics.html),
   March 20, 2009, details of how to recover chat from the JavaScript and
   JSON entries.
-- ["Facebook
-  Forensics"](https://sites.google.com/site/valkyriexsecurityresearch/announcements/facebookforensicspaperpublished),
+- [Facebook Forensics](https://sites.google.com/site/valkyriexsecurityresearch/announcements/facebookforensicspaperpublished),
   Valkyrie-X Security Research Group, July 5, 2011. Notes the groups
   successes and failures in recovering Facebook artifacts from RAM and
   storage.
 
 ### Network Forensics
 
-- [Netresec](https://www.netresec.com/?page=Bloghttp://www.netresec.com/?page=Blog&month=2011-01&post=Facebook-SSL-and-Network-Forensicsmonth=2011-01http://www.netresec.com/?page=Blog&month=2011-01&post=Facebook-SSL-and-Network-Forensicspost=Facebook-SSL-and-Network-Forensics),
-  January 30, 2011, thoughts about the impact of Facebook's SSL decision
-  on network forensics.
+- Thoughts about the impact of Facebook's SSL decision on network forensics,
+  by Netresec, January 30, 2011
 
 ### Tools
 
@@ -56,10 +51,6 @@ you parse them.
 - [Belkasoft Evidence Center](https://belkasoft.com/) allows for carving
   Facebook data such as chats, wall posts and photos from Live RAM
   dumps, hibernation and pagefiles.
-- [Belkasoft Facebook Profile
-  Saver](https://belkasoft.com/x) is a free
-  utility to download Facebook wall posts and photoalbums to a local
-  computer.
 - [WebPreserver](https://webpreserver.com/facebook-forensics/) captures
   Facebook wall posts and about information as well as metadata in a
   legally authenticated manner.

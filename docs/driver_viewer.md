@@ -17,4 +17,4 @@ Operating System including the latest; Windows 8.1.
 
 ## External Links
 
-* [Official Website](http://www.systoolsgroup.com/)
+* [Official Website](https://www.systoolsgroup.com/)

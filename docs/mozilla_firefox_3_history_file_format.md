@@ -257,5 +257,5 @@ query:
   tool](http://www.machor-software.com/firefox_forensics)
 - [SQLite](https://www.sqlite.org/index.html)
 - [ff3histview](http://blog.kiddaland.net/2009/07/firefox-3-history-revisited/)
-- [log2timeline](http://log2timeline.net/)
+- [log2timeline](https://plaso.readthedocs.io/en/latest/)
 

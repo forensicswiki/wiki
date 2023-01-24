@@ -88,5 +88,5 @@ Japan, and the United Kingdom for eligible Dropbox business users
 - [Product site](https://www.dropbox.com/)
 - [Dropbox Forensics](https://forensicfocus.com/articles/dropbox-forensics/)
   by Frank McClain, July 24, 2011
-- [Decrypting More Dropbox Files: config.dbx](https://www.magnetforensics.com/resources/),
-  Magnet Forensics, November 20, 2013
+- Decrypting More Dropbox Files: config.dbx,
+  by Magnet Forensics, November 20, 2013

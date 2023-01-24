@@ -137,10 +137,6 @@ Computer Forensics Lab Resource Site.
 
 Computer Forensics Lab Resource Site.
 
-<!-- -->
-
-[Forensics Sciences Conference and Exhibition](http://euroforensics.com/%5DEuroforensics)
-
 # Non-Digital Forensics
 
 [NIST Image Group](https://fingerprint.nist.gov/)

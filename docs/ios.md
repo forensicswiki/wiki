@@ -51,7 +51,7 @@ operating systems (listed alphabetically):
 * Oxygen Forensic Suite by Oxygen Software
   [4](https://www.oxygen-forensic.com/en/)
 * UFED and Physical Analyzer by Cellebrite
-  [5](https://www.cellebrite.com/)
+  [5](https://cellebrite.com/en/home/)
 * XRY by [Micro Systemation](https://www.msab.com/)
 
 ## See Also

@@ -48,7 +48,7 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 `year = {2006},`
 `isbn = {0-7695-2716-7},`
 `pages = {371--380},`
-`doi = {`[`https://ieeexplore.ieee.org/document/4041182/`](http://dx.doi.org/10.1109/ACSAC.2006.35)`},`
+`doi = {`[`https://ieeexplore.ieee.org/document/4041182/`](https://ieeexplore.ieee.org/document/4041182/)`},`
 `publisher = {IEEE Computer Society},`
 `address = {Washington, DC, USA},`
 ` url="`[`https://www.acsac.org/2006/papers/74.pdf`](https://www.acsac.org/2006/papers/74.pdf)`"`

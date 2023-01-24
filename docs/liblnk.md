@@ -109,7 +109,7 @@ Requesting the information in a LNK file:
 ## History
 
 Liblnk was created by [Joachim Metz](joachim_metz.md) in 2009, while working
-for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+for Hoffmann Investigations.
 
 ## See Also
 

@@ -1,8 +1,7 @@
 ---
 tags:
-  -  Service Provider
+  - Organization
 ---
 ## External Links
 
-- [Official website](https://facilicom.cloud.intracto.com/)
-
+- [Official website](https://hoffmann.nl/)

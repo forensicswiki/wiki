@@ -125,7 +125,7 @@ bibliography is in chronological order!**
 
 - D.J. Hickok, D.R.Lesniak, M.C. Rowe, File Type Detection Technology,
   2005 Midwest Instruction and Computing
-  Symposium.([PDF](http://www.micsymposium.org/mics_2005/papers/paper7.pdf))
+  Symposium.([PDF](https://www.micsymposium.org/mics_2005/papers/paper7.pdf))
 
 2006
 

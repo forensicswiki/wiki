@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Libyal
-  -  Disk Imaging
-  -  Tools
+  - Libyal
+  - Disk Imaging
+  - Tools
 ---
 The **libsmdev** package contains a library and applications to read
 storage media devices.
@@ -10,7 +10,7 @@ storage media devices.
 ## History
 
 Libsmdev was created by [Joachim Metz](joachim_metz.md) in 2010,
-while working for [Hoffmann Investigations](http://en.hoffmannbv.nl/).
+while working for Hoffmann Investigations.
 Libsmdev is a rewrite of earlier work for the proof-of-concept
 multi-threaded imager: GNOME Forensic Imager.
 
@@ -27,4 +27,3 @@ The **libsmdev** package also contains the following bindings:
 ## External Links
 
 - [Project site](https://github.com/libyal/libsmdev/)
-

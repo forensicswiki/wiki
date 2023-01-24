@@ -87,7 +87,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by Sarah Edwards
 - [Mash That Key](http://www.mashthatkey.com/),
   by Carlos Cajigas
-- [Magnet Forensics Blog](https://www.magnetforensics.com:443/resources/)
 - [Meridian Discovery Blog](https://www.meridiandiscovery.com/blog/)
 - [Metaspike Blog](https://www.metaspike.com/blog/)
 - [Push the Red Button](https://moyix.blogspot.com/),

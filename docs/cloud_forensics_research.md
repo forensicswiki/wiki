@@ -15,7 +15,7 @@ tags:
 `   Pages = {186-229},`
 `   Publisher = {IGI Global},`
 `   Year = {2013},`
-`       url = {`[`https://www.ssrn.com/abstract=2197978`](http://ssrn.com/abstract=2197978)`}}`
+`       url = {`[`https://www.ssrn.com/abstract=2197978`](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2197978)`}}`
 
 </bibtex>
 
@@ -62,7 +62,7 @@ location="Monterey, CA",
 `volume = {19},`
 `issue = {1},`
 `year = {2012},`
-` url="`[`https://redirect.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf`](http://www.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf)`"`
+` url="`[`https://redirect.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf`](https://redirect.cs.umbc.edu/~dykstra/Final-Dykstra-Riehl-1.pdf)`"`
 
 </bibtex>
 
@@ -85,7 +85,7 @@ location="Monterey, CA",
 `volume = {4},,`
 `issue = {2},`
 `year = {2012},`
-` url="`[`https://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf`](http://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf)`"`
+` url="`[`https://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf`](https://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf)`"`
 
 </bibtex>
 

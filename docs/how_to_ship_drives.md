@@ -26,9 +26,9 @@ image. If you must ship disks, here are some instructions:
 4.  Image to a bare (internal) hard drive, such as [these internal hard
     drives](http://www.google.com/products?q=1tb+internal+hard+drive&aq=0&oq=1tb+inter).
 5.  To write to the image drive use either a [Firewire/USB2/eSATA
-    docks](https://eshop.macsales.com/item/Newer%20Technology/FWU2ES2HDK/)
+    docks](https://eshop.macsales.com/item/NewerTech/FWU2ES2HDK/)
     or [USB2/eSATA
-    docks](https://eshop.macsales.com/item/Newer%20Technology/U2ES2HDK/).
+    docks](https://eshop.macsales.com/item/NewerTech/U2ES2HDK/).
     I recommend getting two of these.
 6.  Keep the original drive safe and intact (and unshipped) until you
     verify that the image has been received intact.

@@ -186,7 +186,7 @@ all over the world.
 NetworkMiner is available both as a [free open source
 tool](https://sourceforge.net/projects/networkminer/) and as a
 [commercial network forensics
-tool](http://www.netresec.com/?page=NetworkMiner).
+tool](https://www.netresec.com/?page=NetworkMiner).
 
 <!-- -->
 

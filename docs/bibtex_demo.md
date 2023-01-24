@@ -19,7 +19,7 @@ in <bibtex> tags, like this:
 `   year=2007,`
 `   month=Aug,`
 `   location="Pittsburgh, PA",`
-`   url="`[`https://simson.net/clips/academic/2007.DFRWS.pdf`](http://www.simson.net/clips/academic/2007.DFRWS.pdf)`"`
+`   url="`[`https://simson.net/clips/academic/2007.DFRWS.pdf`](https://simson.net/clips/academic/2007.DFRWS.pdf)`"`
 ` }`
 ` `</bibtex>
 
@@ -34,7 +34,7 @@ This produces:
 ` year=2007,`
 ` month=Aug,`
 ` location="Pittsburgh, PA",`
-`   url="`[`https://simson.net/clips/academic/2007.DFRWS.pdf`](http://www.simson.net/clips/academic/2007.DFRWS.pdf)`"`
+`   url="`[`https://simson.net/clips/academic/2007.DFRWS.pdf`](https://simson.net/clips/academic/2007.DFRWS.pdf)`"`
 
 } </bibtex>
 
