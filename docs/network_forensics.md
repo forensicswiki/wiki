@@ -92,9 +92,10 @@ available.
   particular country or Autonomous Network (AS)
 - [NetworkMiner](networkminer.md) is an open source Network Forensics Tool available at [SourceForge](https://sourceforge.net/projects/networkminer/)
 - [OSSEC](ossec.md)
-- [Plaso](plaso.md) is the Python
-  based back-end engine used by tools such as log2timeline for automatic
-  creation of a super timelines [7](https://plaso.readthedocs.io/en/latest/)
+- [Plaso](plaso.md)  (Plaso Langar Að Safna Öllu), or super timeline all the
+  things, is a Python-based engine used by several tools for automatic creation
+  of timelines. Plaso default behavior is to create super timelines but it also
+  supports creating more targeted timelines.
 
 <!-- -->
 

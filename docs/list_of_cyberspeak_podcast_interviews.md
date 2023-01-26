@@ -241,8 +241,7 @@ below.
 <!-- -->
 
 - 4 Apr 2010: [Kristinn Guðjónsson](kristinn_gudjonsson.md)
-  update on Timeline Analysis and
-  [Log2Timeline](https://plaso.readthedocs.io/en/latest/)
+  update on Timeline Analysis and [Log2Timeline](log2timeline.md)
 - 19 Apr 2010: Nick Ferneau, developer of
   Skypx, a free utility that recovers Skype artifacts from RAM images.
 
@@ -256,7 +255,7 @@ below.
 <!-- -->
 
 - 18 Jul 2010: [Kristinn Guðjónsson](kristinn_gudjonsson.md)
-  about Timeline Analysis and [Log2Timeline](https://plaso.readthedocs.io/en/latest/)
+  about Timeline Analysis and [Log2Timeline](log2timeline.md)
 
 <!-- -->
 

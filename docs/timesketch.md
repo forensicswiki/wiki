@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Timeline Analysis
-  -  Linux
-  -  Open Source Software
-  -  Tools
+  - Linux
+  - Open Source Software
+  - Timeline Analysis
+  - Tools
 ---
 Timesketch is an open source tool for collaborative forensic timeline
 analysis. Using sketches you and your collaborators can easily organize
@@ -12,9 +12,9 @@ your raw data with rich annotations, comments, tags and stars.
 
 ## See Also
 
-- [plaso](plaso.md)
+* [Plaso](plaso.md)
 
 ## External Links
 
-- [Project site](https://timesketch.org)
-- [Demo site](https://timesketch.org)
+* [Project site](https://timesketch.org)
+* [Demo site](https://timesketch.org)

@@ -107,8 +107,7 @@ International Conference on Availability, Reliability and Security
 
 <!-- -->
 
-International Conference on Digital Forensics and Cyber Crime (ICDF2C)
-<http://d-forensics.org/>
+[International Conference on Digital Forensics and Cyber Crime (ICDF2C)](https://d-forensics.eai-conferences.org/)
 
 <!-- -->
 

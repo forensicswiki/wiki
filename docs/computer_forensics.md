@@ -94,25 +94,16 @@ without the forensic (legal) context.
 
 ## External Links
 
-- [Wikipedia: Computer
-  forensics](https://en.wikipedia.org/wiki/Computer_forensics)
-- [Wikipedia: Forensic
-  science](https://en.wikipedia.org/wiki/Forensic_science)
-- [Wikipedia: Legal burden of
-  proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
-- [Computer Forensics: Digital Forensic Analysis
-  Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
+- [Wikipedia: Computer forensics](https://en.wikipedia.org/wiki/Computer_forensics)
+- [Wikipedia: Forensic science](https://en.wikipedia.org/wiki/Forensic_science)
+- [Wikipedia: Legal burden of proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
+- [Computer Forensics: Digital Forensic Analysis Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
   from Computer Forensics issue: January 2008 Volume 56 Number 1
-- [Computer Forensics Part 2: Best
-  Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
+- [Computer Forensics Part 2: Best Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
   by Information Security and Forensics Society (ISFS), August 2009
-- [The Alexiou
-  Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
+- [The Alexiou Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
   cepogue, June 27, 2009
-- [When Computer Forensics Grows Up: Digital Forensics
-  Explained](https://online.maryville.edu/blog/digital-forensics/),
+- [When Computer Forensics Grows Up: Digital Forensics Explained](https://online.maryville.edu/blog/digital-forensics/),
   by Maryville University
-- [Validation and verification of computer forensic software tools -
-  Searching
-  Function](http://www.dfrws.org/2009/proceedings/p12-guo.pdf), by
-  Yinghua Guo, Jill Slay, Jason Beckett, DFRWS 2009
+- Validation and verification of computer forensic software tools - Searching Function
+  by Yinghua Guo, Jill Slay, Jason Beckett, DFRWS 2009

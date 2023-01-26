@@ -110,7 +110,7 @@ problem:
 ` volume =  "3",`
 ` bibdate = "2007-01-24",`
 ` bibsource =   "DBLP,`
-`        `[`http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06`](http://dblp.uni-trier.de/db/journals/di/di3.html#Garfinkel06)`",`
+`        `[`https://dblp.uni-trier.de/db/journals/di/di3.html`](https://dblp.uni-trier.de/db/journals/di/di3.html)`",`
 ` pages =   "71--81",`
 ` URL =     "`[`https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697`](https://linkinghub.elsevier.com/retrieve/pii/S1742287606000697)`",`
 

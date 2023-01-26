@@ -150,13 +150,13 @@ information.
   by Jason Hale, March 2012
 * [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by Simon Key, June 2012
-* [Getting Ready for a Shadow Volume Exam](http://ww38.justaskweg.com/?p=351http://justaskweg.com/?p=351subid1=20230112-1943-3728-b377-6cdbda646c59),
+* Getting Ready for a Shadow Volume Exam,
   by Jimmy Weg, June 2012
-* [Mounting Shadow Volumes](http://ww38.justaskweg.com/?p=466http://justaskweg.com/?p=466subid1=20230112-1943-37a1-971d-554fc678486c),
+* Mounting Shadow Volumes,
   by Jimmy Weg, July 2012
-* [Examining the Shadow Volumes with X-Ways Forensics](http://ww38.justaskweg.com/?p=518http://justaskweg.com/?p=518subid1=20230112-1943-387b-b094-990d65a72323),
+* Examining the Shadow Volumes with X-Ways Forensics,
   by Jimmy Weg, July 2012
-* [Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?](http://ww38.justaskweg.com/?p=710http://justaskweg.com/?p=710subid1=20230112-1943-40ce-83da-4d05506fa18e),
+* Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?,
   by Jimmy Weg, August 2012
 * Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013
