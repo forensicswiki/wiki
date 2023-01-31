@@ -178,8 +178,7 @@ This means that:
 
 #### Other methods
 
-- Active detection: see [Metasploit Decloaking
-  Engine](http://decloak.net/);
+- Active detection: see Metasploit Decloaking Engine;
 - Comparing source IP address with a list of known proxy servers.
 
 ### On the way to proxy server

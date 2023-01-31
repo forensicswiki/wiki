@@ -81,8 +81,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 - [Jonathan Zdziarski Blog](http://www.zdziarski.com/blog/)
 - [Journey into Incident Response Blog](https://journeyintoir.blogspot.com/),
   by Corey Harrell
-- [JustAskWeg](http://ww38.justaskweg.com/?subid1=20230112-1943-35a7-af7e-da28e0b29996),
-  by Jimmy Weg
 - [Mac4n6](http://www.mac4n6.com/),
   by Sarah Edwards
 - [Mash That Key](http://www.mashthatkey.com/),

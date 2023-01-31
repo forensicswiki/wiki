@@ -63,16 +63,15 @@ Extracted Features
 ` journal="Digital Investigation",`
 ` year=2006,`
 ` month=Aug,`
-` url="`[`http://www.dfrws.org/2006/proceedings/10-Garfinkel.pdf`](http://www.dfrws.org/2006/proceedings/10-Garfinkel.pdf)`",`
+` url="`[`https://simson.net/ref/2006/drives-crcs.pdf`](https://simson.net/ref/2006/drives-crcs.pdf)`",`
 ` location="Lafayette, Indiana"`
 
 } </bibtex>
 
 # Text Mining
 
-**Computer Forensic Text Analysis with Open Source Software,** Christian
-Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
-<http://www.fukt.bth.se/~uncle/papers/master/thesis.pdf>
+[Computer Forensic Text Analysis with Open Source Software](http://www.fukt.bth.se/~uncle/papers/master/thesis.pdf),
+by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 # Signed Evidence
 
@@ -106,9 +105,8 @@ Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 # Theory
 
-**A Hypothesis-Based Approach to Digital Forensic Investigations,**
-Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
-<https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2006-06.pdf>
+[A Hypothesis-Based Approach to Digital Forensic Investigations](https://www.cerias.purdue.edu/tools_and_resources/bibtex_archive/archive/2006-06.pdf),
+by Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
 
 # Other Papers
 

@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Timeline Analysis
-  -  Tools
-  -  Open Source Software
-  -  Disk Analysis
-  -  Linux
-  -  MacOS
-  -  Windows
+  - Disk Analysis
+  - Linux
+  - MacOS
+  - Open Source Software
+  - Timeline Analysis
+  - Tools
+  - Windows
 ---
 Plaso (Plaso langar að safna öllu) is the Python based back-end engine
 used by tools such as log2timeline for automatic creation of a super
@@ -17,13 +17,11 @@ single correlated timeline. This timeline can then be easily analysed by
 forensic investigators/analysts, speeding up investigations by
 correlating the vast amount of information found on an average computer
 system. Plaso is intended to be applied for creating super timelines but
-also supports creating [targeted
-timelines](http://blog.kiddaland.net/2013/02/targeted-timelines-part-i.html).
+also supports creating [targeted timelines](http://blog.kiddaland.net/2013/02/targeted-timelines-part-i.html).
 
 ## Supported Formats
 
-The information below is based of version 20221212. See [Plaso
-documentation](https://plaso.readthedocs.io/en/latest/sources/Supported-formats.html)
+The information below is based of version 20221212. See [Plaso documentation](https://plaso.readthedocs.io/en/latest/sources/Supported-formats.html)
 for the most up to date information.
 
 ### Storage Media Image File Formats
@@ -314,13 +312,13 @@ timeline output:
 
 ## See Also
 
-- [dfVFS](dfvfs.md)
-- [dfwinreg](dfwinreg.md)
-- [log2timeline](log2timeline.md)
-- [Timesketch](timesketch.md)
+* [dfVFS](dfvfs.md)
+* [dfwinreg](dfwinreg.md)
+* [log2timeline](log2timeline.md)
+* [Timesketch](timesketch.md)
 
 ## External Links
 
-- [Project site](https://github.com/log2timeline/plaso/)
-- [Project documentation](https://plaso.readthedocs.io/en/latest/)
-- [Project blog](https://osdfir.blogspot.com/search/label/plaso)
+* [Project site](https://github.com/log2timeline/plaso/)
+* [Project documentation](https://plaso.readthedocs.io/en/latest/)
+* [Project blog](https://osdfir.blogspot.com/search/label/plaso)

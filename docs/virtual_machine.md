@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Howtos
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Howtos
 ---
 # Creating a VM control file from a forensic image
 
@@ -102,19 +102,3 @@ disk for the virtual machine. I prefer to use VMware Workstation because
 it has a non persistent mode which allows you to write changes to a
 cache file rather than the forensic image itself thus maintaining
 integrity.
-
-# External Links
-
-- [Get from e01 to live virtual machine with no image conversion](http://cyb3rdaw6.harpermountain.net/2011/06/12/get-from-e01-to-live-virtual-machine-with-no-image-conversion/)
-
-## Jimmy Weg's blog
-
-Jimmy Weg has talked extensively about using VM with forensic images on
-his blog. These are detailed tutorials that manually create the VMDK
-file!
-
-- [Creating a VMware Virtual Machine from a Raw Image File](http://ww38.justaskweg.com/?p=7http://justaskweg.com/?p=7subid1=20230112-1943-3921-b76f-00e6367d3c0d)
-- [Creating a VM from E01 Images](http://ww38.justaskweg.com/?p=653http://justaskweg.com/?p=653subid1=20230112-1943-38de-a92e-7a0b3fa20ed0)
-- [What About an XP VM?](http://ww38.justaskweg.com/?p=851http://justaskweg.com/?p=851subid1=20230112-1943-407d-b577-d4428ce2ee74)
-- [How Do I Handle Really\* Big Disks?](http://ww38.justaskweg.com/?p=999http://justaskweg.com/?p=999subid1=20230112-1943-4116-9f75-2fa45290d116)
-- [Mounted Images – Breaking the 2TB Barrier](http://ww38.justaskweg.com/?p=1024http://justaskweg.com/?p=1024subid1=20230112-1943-36b0-9f2b-ab849fcad449)

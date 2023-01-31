@@ -116,12 +116,12 @@ The currently supported output modules (as of version 0.51 nightly build
 
 ## External Links
 
-* [log2timeline website](https://plaso.readthedocs.io/en/latest/)
+* [log2timeline website](https://code.google.com/archive/p/log2timeline/)
 * [SANS GCFA Gold paper about the tool](https://www.sans.org/white-papers/33438/)
-* [Digital Forensic SIFTing: SUPER Timeline Creation using log2timeline](https://www.sans.org/blog/digital-forensic-sifting-super-timeline-creation-using-log2timeline/)
-  December 7, 2011, by Rob Lee
+* [Digital Forensic SIFTing: SUPER Timeline Creation using log2timeline](https://www.sans.org/blog/digital-forensic-sifting-super-timeline-creation-using-log2timeline/),
+  by Rob Lee, ecember 7, 2011
 * [Blog posts about the tool](http://blog.kiddaland.net/?s=log2timeline)
-* [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/)
-  August 13, 2009, by [Kristinn Guðjónsson](kristinn_gudjonsson.md)
-* [Artifact Timeline Creation and Analysis - part 2](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2/)
-  August 14, 2009, by [Kristinn Guðjónsson](kristinn_gudjonsson.md)
+* [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/),
+  by [Kristinn Guðjónsson](kristinn_gudjonsson.md), August 13, 2009
+* [Artifact Timeline Creation and Analysis - part 2](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2/),
+  by [Kristinn Guðjónsson](kristinn_gudjonsson.md), August 14, 2009

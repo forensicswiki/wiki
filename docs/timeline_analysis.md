@@ -81,29 +81,28 @@ framework. Log2timeline has been superseded by Plaso.
 
 <!-- -->
 
-[Plaso](plaso.md) - A toolbox based on log2timeline providing tools to create
-and analyze timelines.
-<https://plaso.readthedocs.io/en/latest/>
+[Plaso](plaso.md) - (Plaso Langar Að Safna Öllu), or super timeline all the
+things, is a Python-based engine used by several tools for automatic creation
+of timelines. Plaso default behavior is to create super timelines but it also
+supports creating more targeted timelines.
 
 <!-- -->
 
-Simile Timeline and Timeplot
-<https://github.com/simile-widgets/ancient-simile-widgets>
+[Simile Timeline and Timeplot](https://github.com/simile-widgets/ancient-simile-widgets)
 
 <!-- -->
 
-sorter - [The Sleuth Kit](the_sleuth_kit.md)'s [mactime](mactime.md) sorting program.
+sorter - [The Sleuth Kit](the_sleuth_kit.md)'s [mactime](mactime.md) sorting
+program.
 
 <!-- -->
 
-TimeFlow - Visual timelines for investigation - source freely available
-
-<https://github.com/FlowingMedia/TimeFlow/wiki/>
+[TimeFlow](https://github.com/FlowingMedia/TimeFlow/wiki/) - Visual timelines
+for investigation - source freely available
 
 <!-- -->
 
 [Timesketch](timesketch.md) - tool for collaborative forensic timeline analysis
-<https://timesketch.org>
 
 <!-- -->
 

@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Research
-  -  Websites
-  -  Cloud Forensics
+  - Cloud Forensics
+  - Research
+  - Websites
 ---
 **In chronological order, most recent to oldest**
 
@@ -36,7 +36,7 @@ tags:
 `year=2013,`
 `author="Josiah Dykstra and Alan T. Sherman",`
 `booktitle="DFRWS 2013",`
-`url="`[`http://www.dfrws.org/2013/proceedings/DFRWS2013-9.pdf`](http://www.dfrws.org/2013/proceedings/DFRWS2013-9.pdf)`",`
+`url="`[`https://dfrws.org/sites/default/files/session-files/2013_USA_paper-design_and_implementation_of_frost_-_digital_forensic_tools_for_the_openstack_cloud_computing_platform.pdf`](https://dfrws.org/sites/default/files/session-files/2013_USA_paper-design_and_implementation_of_frost_-_digital_forensic_tools_for_the_openstack_cloud_computing_platform.pdf)`",`
 
 location="Monterey, CA",
 

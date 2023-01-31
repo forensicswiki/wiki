@@ -28,7 +28,7 @@ being visited).
 
 - Web browsers
   - Enabled scripts: Java and Flash applets may leak real IP address
-    (see [Metasploit Decloaking Engine](http://decloak.net/));
+    (see Metasploit Decloaking Engine);
   - Enabled cookies: web server can identify clients using unique
     cookies.
 
