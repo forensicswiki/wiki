@@ -6,7 +6,7 @@ tags:
 ## US Programs
 
 - [American InterContinental University](https://www.aiuniv.edu/degrees/criminal-justice/bachelors-forensic-science)
-- [Arizona State University](https://globalsecurity.asu.edu/cybersecurity/information-assurance-education)
+- [Arizona State University](https://globalsecurity.asu.edu/expertise/cybersecurity-and-trusted-foundations/)
 - [Boston University](https://www.bu.edu/met/degrees-certificates/digital-forensics-graduate-certificate/)
 - California Sciences Institute
 - [Carnegie Mellon University](https://csd.cmu.edu/academics/masters/overview)

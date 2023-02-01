@@ -268,7 +268,7 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * Windows boot verification Registry data
 * Windows drivers and services Registry data
 * Windows Explorer mount points Registry data
-* [Windows Explorer Programs Cache](https://github.com/libyal/winreg-kb/blob/master/documentation/Programs%20Cache%20values.asciidoc)
+* [Windows Explorer Programs Cache](https://winreg-kb.readthedocs.io/en/latest/sources/explorer-keys/Program-cache.html)
   Registry data
 * Windows Explorer typed URLs Registry data
 * Windows last shutdown Registry data

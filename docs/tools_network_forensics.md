@@ -17,8 +17,6 @@ Expensive [IP geolocation](ip_geolocation.md) service.
 
 [CapAnalysis](https://www.capanalysis.net/ca/)
 
-DEMO: <https://pcap.capanalysis.net/>
-
 **Open Source** web visual tool for information security specialists,
 system administrators and everyone who needs to analyze large amounts of
 captured network traffic.
@@ -27,6 +25,8 @@ CapAnalysis performs indexing of data set of PCAP files and presents
 their contents in many forms, starting from a list of TCP, UDP or ESP
 streams/flows, passing to the geo-graphical representation of the
 connections.
+
+[Demo](https://pcap.capanalysis.net/)
 
 <!-- -->
 
@@ -60,8 +60,6 @@ speed Deep Packet Inspection and metadata alerting. It can be used to
 understand network events before and after an event. It scales from LAN
 environments to 20 Gbps service provider networks.
 
-<http://www.mantaro.com/products/MNIS/network_intelligence_applications.htm#network_forensics>
-
 <!-- -->
 
 [MaxMind](https://www.maxmind.com/en/home)
@@ -76,14 +74,7 @@ APIs.
 
 <!-- -->
 
-[netflow/flowtools](http://www.cisco.com/warp/public/732/Tech/nmp/netflow/index.shtml)
-
-<http://www.splintered.net/sw/flow-tools/>
-
-<https://silktools.sourceforge.net/>
-
-<http://www.vmware.com/vmtn/appliances/directory/293> Netflow Appliance
-(VMWare)
+[SiLK](https://tools.netsa.cert.org/silk/index.html)
 
 <!-- -->
 
@@ -245,9 +236,6 @@ Linux/open-source. Based in India.
 <!-- -->
 
 [OmniPeek](omnipeek.md) by [WildPackets](wildpackets.md)
-<http://www.wildpackets.com/solutions/network_forensics>
-
-<http://www.wildpackets.com/products/network_analysis/omnipeek_network_analyzer/forensics_search>
 
 OmniPeek is a network forensics tool used to capture, store, and analyze
 historical network traffic.
@@ -266,29 +254,25 @@ from ARIN
 
 [IP Regional Registries](http://www.arin.net/community/rirs.html)
 
-<http://www.arin.net/index.shtml> American Registry for Internet Numbers
-(ARIN)
+[American Registry for Internet Numbers (ARIN)](http://www.arin.net/index.shtml)
 
-<https://www.afrinic.net/> African Network Information Center (AfriNIC)
+[African Network Information Center (AfriNIC)](https://www.afrinic.net/)
 
-<https://www.apnic.net/> Asia Pacific Network Information Centre (APNIC)
+[Asia Pacific Network Information Centre (APNIC)](https://www.apnic.net/)
 
-<http://www.lacnic.net/en/> Latin American and Caribbean IP Address
-Regional Registry (LACNIC)
+[Latin American and Caribbean IP Address Regional Registry (LACNIC)](http://www.lacnic.net/en/)
 
-<https://www.ripe.net/> RIPE Network Coordination Centre (RIPE NCC)
+[RIPE Network Coordination Centre (RIPE NCC)](https://www.ripe.net/)
 
 <!-- -->
 
 [Wireshark](wireshark.md) / Ethereal
-<https://www.wireshark.org/>
 
 Open Source protocol analyzer previously known as ethereal.
 
 <!-- -->
 
 [Kismet](kismet.md)
-<https://www.kismetwireless.net/>
 
 Kismet is an 802.11 layer2 wireless network detector, sniffer, and
 intrusion detection system.
@@ -296,7 +280,6 @@ intrusion detection system.
 <!-- -->
 
 [kisMAC](kismac.md)
-<http://www.http://kismac-ng.org/>
 
 KisMAC is an open-source and free sniffer/scanner application for Mac OS
 X.
@@ -304,11 +287,9 @@ X.
 <!-- -->
 
 [Xplico](xplico.md)
-<https://www.xplico.org/>
 
 Open Source Network Forensic Analysis Tool (NFAT). Protocols supported:
-[HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4, IPv6,
-...](https://www.xplico.org/status)
+HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4, IPv6, ...
 
 VoIP sniffer and decoder. Audio codec supported: G711ulaw, G711alaw,
 G722, G729, G723, G726 and MSRTA

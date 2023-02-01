@@ -20,7 +20,6 @@ This page lists vendors that offer various kinds of forensic training.
 * [Maresware Training](http://www.maresware.com/maresware/training/maresware.htm)
 * [Paraben Forensics Training](https://paraben.com/dfir-training-3/)
 * [Vigilar](http://www.vigilar.com/training.html)
-* [WetStone Technologies Investigator Training](https://www.wetstonetech.com/trainings.html)
 * [NetSecurity Hands-On How-To Training Courses](http://netsecurity.com/forensics/digital_computer_forensics_training.html)
 
 ## Law enforcement only

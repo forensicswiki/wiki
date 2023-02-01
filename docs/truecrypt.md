@@ -47,9 +47,7 @@ drive is to do a brute-force password guessing attack.
 [AccessData's](accessdata.md) Password Recovery
 Toolkit and Distributed Network
 Attack ([dna](dna.md)) can both perform such an attack, but DNA
-is faster. Another solution is
-[unprotect.info](unprotect.info.md) that can brute-force
-password to the file-based encrypted volumes.
+is faster.
 
 TrueCrypt also supports keyfiles (it uses the first 1024 kilobytes of
 any file, but can also use it's PRNG to generate such keys). It is

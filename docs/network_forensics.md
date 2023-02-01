@@ -60,13 +60,12 @@ available.
 
 - [Argus](argus.md)
 - [Bulk Extractor](bulk_extractor.md)
-  [1](https://github.com/simsong/bulk_extractor)
 - [Chaosreader](chaosreader.md) is a session reconstruction tool
   (supports both live or captured network traffic)
 - [FlowGREP](https://www.monkey.org/~jose/software/flowgrep/) is a basic IDS/IPS tool written in
   Python
 - [KisMAC](kismac.md) is a free, open source wireless stumbling
-  and security tool for Mac OS X. [3](https://kismac-ng.org/)
+  and security tool for Mac OS X.
 - [Kismet](kismet.md)
 - [logstash](http://logstash.net/) is a tool for managing events and
   logs. You can use it to collect logs, parse them, and store them for
@@ -80,7 +79,6 @@ available.
   tool to parse various log files and artifacts found on suspect systems
   (and supporting systems, such as network equipment) and produce a
   timeline that can be analysed by forensic investigators/analysts.
-  [5](https://code.google.com/archive/p/log2timeline)
 - [NetFSE](netfse.md) is a web-based search and analysis
   application for high-volume network data [available at
   NetFSE.org](http://www.netfse.org)
@@ -102,51 +100,43 @@ available.
 - [RegRipper](regripper.md) is an open source tool, written in
   Perl, for extracting/parsing information (keys, values, data) from the
   Registry and presenting it for analysis
-  [8](https://regripper.wordpress.com/)
 - [Snort](snort.md)
 - [Wireshark](wireshark.md)
 - [Xplico](xplico.md).
-  Protocols supported: [HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4,
-  IPv6, ...](https://www.xplico.org/status.html)
 
 ### Commercial Network Forensics
 
 #### Deep-Analysis Systems
 
-- Code Green Networks [Content Inspection
-  Appliance](http://www.codegreennetworks.com) - Passive monitoring and
-  mandatory proxy mode. Easy to use Web GUI. Linux platform. Uses
-  Stellent Outside In to access document content and metadata.
-- E-Detective [9](https://www.edecision4u.com/)
+- Code Green Networks [Content Inspection Appliance](http://www.codegreennetworks.com) -
+  Passive monitoring and mandatory proxy mode. Easy to use Web GUI. Linux
+  platform. Uses Stellent Outside In to access document content and metadata.
+- [E-Detective](https://www.edecision4u.com/)
 - [InfoWatch Traffic Monitor](https://infowatch.com/)
 - Mera Systems [NetBeholder](https://videonadzor.net/)
 - MFI Soft [SORMovich](http://sormovich.ru/) (in Russian)
-- NETRESEC [NetworkMiner Professional (portable network forensic
-  analysis tool for
-  Windows)](https://www.netresec.com/?page=NetworkMiner)
+- NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
 - NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
   Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)
-- Network Instruments [11](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
+- [Network Instruments](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
 - NIKSUN's NetDetector
-- PacketMotion [12](https://www.vmware.com/company/acquisitions.html)
+- [PacketMotion](https://www.vmware.com/company/acquisitions.html)
 - WildPackets [OmniPeek](omnipeek.md)
-  [13](http://www.wildpackets.com/solutions/it_solutions/network_forensics)
-  [14](http://www.wildpackets.com/products/distributed_network_analysis/omnipeek_network_analyzer/forensics_search)
-- [Xplico](xplico.md) [15](https://www.xplico.org/)
-- Expert Team - 3i System [16](http://expert-team.net/home/)
+- [Xplico](xplico.md)
+- [Expert Team - 3i System](http://expert-team.net/home/)
 
 #### Flow-Based Systems
 
 * Arbor Networks
-* CapAnalysis [17](https://www.capanalysis.net/ca/)
+* [CapAnalysis](https://www.capanalysis.net/ca/)
 * GraniteEdge Networks
-* Lancope <https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html>
-* Mantaro Product Development Services <https://www.mantaro.com>
-* Mazu Networks <https://www.riverbed.com/en-gb>
+* [Lancope](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
+* [Mantaro Product Development Services](https://www.mantaro.com)
+* [Mazu Networks](https://www.riverbed.com/en-gb)
 
 #### Hybrid Systems
 
 These systems combine flow analysis, deep analysis, and security event
 monitoring and reporting.
 
-* Q1 Labs <http://www.q1labs.com/>
+* [Q1 Labs](http://www.q1labs.com/)
