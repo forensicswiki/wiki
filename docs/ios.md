@@ -56,7 +56,6 @@ operating systems (listed alphabetically):
 
 ## See Also
 
-* [IOS security](ios_security.md)
 * [Cell Phone Forensics](cell_phone_forensics.md)
 
 ## External Links

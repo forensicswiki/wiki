@@ -96,7 +96,7 @@ The place_id column of the moz_historyvisits table corresponds to the id
 column of the moz_places table.
 
 The visit_date column keeps time in
-[PRTime](http://developer.mozilla.org/en/docs/PRTime) format, a 64-bit
+[PRTime](https://firefox-source-docs.mozilla.org/nspr/reference/prtime.html) format, a 64-bit
 integer representing the number of microseconds since midnight
 (00:00:00) 1 January 1970 Coordinated Universal Time (UTC). This level
 of precision may be more than what is required for a forensic

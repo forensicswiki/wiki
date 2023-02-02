@@ -20,5 +20,5 @@ and is now hosted on GitHub.
 
 ## External Links
 
-- [Scalpel: A frugal, high-performance file carver](http://dfrws.org/2005/proceedings/richard_scalpel.pdf)
+- [Scalpel: A frugal, high-performance file carver](https://dfrws.org/sites/default/files/session-files/2005_USA_paper-scalpel_-_a_frugal_high_performance_file_carver.pdf)
   from the Proceedings of the 2005 [Digital Forensic Research Workshop](digital_forensic_research_workshop.md)

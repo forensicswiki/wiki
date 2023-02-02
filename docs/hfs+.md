@@ -14,11 +14,7 @@ encoding formats) for naming files. HFSX is a variant of HSF+ that is
 case sensitive.
 
 Mac OS X 10.6, dropped support for formatting or writing (classic) HFS
-and macOS 10.15 can no longer read (classic) HFS
-[1](https://en.wikipedia.org/wiki/Hierarchical_File_System).
-
-Apple technical notes are available for the HFS+ file system from their
-[website](http://developer.apple.com/cgi-bin/search.pl?q=HFS+&num=10&site=default_collection).
+and macOS 10.15 can no longer read [(classic) HFS](https://en.wikipedia.org/wiki/Hierarchical_File_System).
 
 ## Features
 
@@ -324,9 +320,7 @@ representable date is February 6, 2040 at 06:28:15 UTC (GMT). The date
 values do not account for leap seconds. They do include a leap day in
 every year that is evenly divisible by four. This is sufficient given
 that the range of representable dates does not contain 1900 or 2100,
-neither of which have leap days. Also see: [Technical Note TN1150 - HFS
-Plus Volume
-Format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes)
+neither of which have leap days. Also see: [Technical Note TN1150 - HFS Plus Volume Format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes)
 
 Converting HFS/HFS+ date and time values with Python:
 
@@ -351,26 +345,21 @@ HFS+ stores U+2400 as U+0
 
 ## Also see
 
-- [Apple File System (apfs)](apple_file_system_(apfs).md)
+* [Apple File System (apfs)](apple_file_system_(apfs).md)
 
 ## External Links
 
-- [Insided Macintosh: Files - Data Organization on Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
+* [Insided Macintosh: Files - Data Organization on Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
   by Apple 1996
-- Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html),
-  original location:
-  <http://developer.apple.com/technotes/tn/tn1121.html#HFSPlus>
-- Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes),
-  original location:
-  <https://developer.apple.com/documentation/technotes>
-- [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
+* Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html)
+* Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes)
+* [Mac Forensics: Mac OS X and the HFS+ File System](http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf)
   by P. Craiger, November 2005
-- [Using the HFSD journal for deleted ﬁle recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf),
+* [Using the HFSD journal for deleted ﬁle recovery](http://www.dfrws.org/2008/proceedings/p76-burghardt.pdf),
   by Aaron Burghardt, Adam Feldman, DRFWS 2008
 
 ## Tools
 
-- [The Sleuth Kit](the_sleuth_kit.md) - partially supports HFS+/HSX, does
-  not support (classic) HFS
-  [3](https://wiki.sleuthkit.org/index.php?title=HFS)
-- [HFSExplorer](http://www.catacombae.org/hfsexplorer/)
+* [The Sleuth Kit](the_sleuth_kit.md) - partially supports HFS+/HSX, does
+  not support [(classic) HFS](https://wiki.sleuthkit.org/index.php?title=HFS)
+* [HFSExplorer](http://www.catacombae.org/hfsexplorer/)

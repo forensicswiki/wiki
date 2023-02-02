@@ -121,7 +121,7 @@ and re-released as Volatility in August
   by Ali Reza Arasteh and Mourad Debbabi, DFRWS 2007
 * [BodySnatcher: Towards Reliable Volatile Memory Acquisition by Software](http://www.dfrws.org/2007/proceedings/p126-schatz.pdf),
   by Bradley Schatz, DFRWS 2007
-* [The VAD Tree: A Process-Eye View of Physical Memory](http://www.dfrws.org/2007/proceedings/p62-dolan-gavitt.pdf),
+* [The VAD Tree: A Process-Eye View of Physical Memory](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-the_vad_tree_-_a_process-eye_view_of_physical_memory.pdf),
   by Brendan F Dolan-Gavitt, DFRWS 2007
 * [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](http://www.friendsglobal.com/papers/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
   by Antonio Martin, 2007
@@ -142,8 +142,6 @@ and re-released as Volatility in August
 * [Kernel Debugging with WinDbg](http://www.cmlab.csie.ntu.edu.tw/~cathyp/eBooks/WindowsNT/Driver/kernel_debugging_tutorial.pdf)
 * [Attacking the Windows kernel](https://www.blackhat.com/presentations/bh-usa-07/Lindsay/Whitepaper/bh-usa-07-lindsay-WP.pdf),
   by Jonathan Lindsay, BlackHat 2007
-* [The VAD tree: A process-eye view of physical memory](http://dfrws.org/2007/proceedings/p62-dolan-gavitt.pdf),
-  by Brendan Dolan-Gavitt, DFRWS 2007
 * [Malware Analysis Tutorial 7: Exploring Kernel Data Structure](http://fumalwareanalysis.blogspot.com/2011/12/malware-analysis-tutorial-7-exploring.html),
   by Dr. Fu, December 14, 2011
 * [Windows Virtual Address Translation and the Pagefile](http://blog.rekall-forensic.com/2014/10/windows-virtual-address-translation-and.html),

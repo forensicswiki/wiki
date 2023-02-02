@@ -61,4 +61,4 @@ software related issue.
 
 * [Official Website](https://www.edbmails.com/)
 * [Video tutorials for EdbMails](https://www.edbmails.com/pages/video.html)
-* [Blog](http://blog.edbmails.com/)
+* [Blog](https://blog.edbmails.com/)
