@@ -1157,8 +1157,8 @@ name</a></b></p></td>
 * [Recovering Deleted Data From the Windows Registry](http://www.dfrws.org/2008/proceedings/p33-morgan.pdf) and
   [slides](http://www.dfrws.org/2008/proceedings/p33-morgan_pres.pdf),
   by Timothy Morgan, DFRWS 2008
-* [Forensic Analysis of the Windows Registry in Memory](http://dfrws.org/2008/proceedings/p26-dolan-gavitt.pdf) and
-  [slides](http://dfrws.org/2008/proceedings/p26-dolan-gavitt_pres.pdf),
+* [Forensic Analysis of the Windows Registry in Memory](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-forensic_analysis_of_the_windows_registry_in_memory.pdf) and
+  [slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-forensic_analysis_of_the_windows_registry_in_memory.pdf),
   by Brendan Dolan-Gavitt, DFRWS 2008
 * [Forensic analysis of unallocated space in Windows Registry Hive files](http://www.sentinelchicken.com/data/JolantaThomassenDISSERTATION.pdf),
   by Jolanta Thomassen, March 11, 2008

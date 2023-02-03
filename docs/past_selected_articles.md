@@ -486,7 +486,7 @@ render any recovered data worthless."
 
 <small>November-2009</small>
 
-**[Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf) [(Russian version)](http://computer-forensics-lab.org/lib/?cid=174), Suhanov Maxim, 2009**
+**[Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf), by Suhanov Maxim, 2009**
 
 The paper opens discussion about building forensically sound Live CD
 distributions based on Linux. Problems described:
@@ -497,8 +497,7 @@ distributions based on Linux. Problems described:
   media.
 
 Denis Frati ([caine](caine_live_cd.md) wrote an
-[excellent review
-(Italian)](http://www.denisfrati.it/pdf/Suhanov_Maxim_bug.pdf) of the
+[review (Italian)](http://www.denisfrati.it/pdf/Suhanov_Maxim_bug.pdf) of the
 bug found in Casper scripts.
 
 <small>September-2009</small>

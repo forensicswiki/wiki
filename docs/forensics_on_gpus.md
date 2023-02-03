@@ -18,15 +18,11 @@ For example, password recovering speed for [MD5](md5.md) hash
 using Core2 Duo is about 4,7 millions passwords per second. By using
 8800GTX it is possible to reach 265 millions passwords per second.
 
-- [ElcomSoft Distributed Password
-  Recovery](https://www.elcomsoft.com/edpr.html)
-- [ElcomSoft Password Recovery
-  Bundle](https://www.elcomsoft.com/edfb.html)
+- [ElcomSoft Distributed Password Recovery](https://www.elcomsoft.com/edpr.html)
+- [ElcomSoft Password Recovery Bundle](https://www.elcomsoft.com/edfb.html)
 - [Extreme GPU Bruteforcer](http://www.insidepro.com/eng/egb.shtml)
-- [Passware Kit
-  Forensic](https://www.passware.com/)
-- [Passcovery
-  Suite](https://passcovery.com/products/passcoverysuite.htm)
+- [Passware Kit Forensic](https://www.passware.com/)
+- [Passcovery Suite](https://passcovery.com/products/passcoverysuite.htm)
 
 ## Bibliography
 
@@ -36,7 +32,7 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 ` title="Massive Threading: Using GPUs to Increase the Performance of Digital Forensics Tools",`
 ` booktitle="DFRWS: Proceedings of the 7th Annual Digital Forensics Research Workshop",`
 ` year=2007,`
-` url="`[`http://dfrws.org/2007/proceedings/p73-marziale.pdf`](http://dfrws.org/2007/proceedings/p73-marziale.pdf)`"`
+` url="`[`http://old.dfrws.org/2007/proceedings/p73-marziale_pres.pdf`](http://old.dfrws.org/2007/proceedings/p73-marziale_pres.pdf)`"`
 
 } </bibtex>
 

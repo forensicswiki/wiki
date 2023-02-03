@@ -14,5 +14,4 @@ actually a zero byte file. The URL is instead stored in the
 `._News.webloc` file in a field with resource type '`url`'.
 
 The contents of this resource file are visible with the Apple Developer
-Tool
-[DeRez](http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/DeRez.1.html)
+Tool [DeRez](https://keith.github.io/xcode-man-pages/DeRez.1.html)
