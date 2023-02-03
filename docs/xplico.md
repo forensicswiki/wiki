@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Linux
-  -  GPL
-  -  Analysis
-  -  Tools
+  - Analysis
+  - GPL
+  - Linux
+  - Tools
 ---
 The **Xplico** is a Network Forensic Analysis Tool (NFAT). The main
 scope of Xplico is to extract all application data content from a
@@ -11,14 +11,10 @@ network capture (pcap file or real-time acquisition). For example,
 Xplico is able to extract all e-mails carried by the POP and SMTP
 protocols, and all content carried by HTTP protocol from a pcap file.
 
-<h2>
-
-Features
-
-</h2>
+## Features
 
 - Protocols supported: [HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4,
-  IPv6, ...](http://www.xplico.org/status);
+  IPv6, ...;
 - VoIP audio codecs supported: G711ulaw, G711alaw, G722, G729, G723,
   G726 and MSRTA (x-msrta:Real Time Audio)
 - Port Independent Protocol Identification (PIPI) for each application
@@ -39,12 +35,12 @@ Features
 - No size limit on data entry or the number of files entrance (the only
   limit is HD size).
 
-<h2>
+## Demo and Cloud computing
 
-Demo and Cloud computing
-
-</h2>
-
-- Demo with full features: [Demo](http://demo.xplico.org)
-- VoIP decoding, from pcap to wav file:
+* Demo with full features: [Demo](https://demo.xplico.org/)
+* VoIP decoding, from pcap to wav file:
   [pcap2wav](https://pcap2wav.xplico.org/)
+
+## External links
+
+* [Official website](https://www.xplico.org/)

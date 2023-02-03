@@ -237,8 +237,6 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Ivan Dimov, November 21, 2013
 * [Prefetch 101 - a Windows 8 Prefetch file walkthrough](https://i.imgur.com/riuljsK.jpg),
   by Jared Atkinson, 2014
-* [Forensic examination and analysis of the Prefetch files on the banking Trojan malware incidents](https://ro.ecu.edu.au/cgi/viewcontent.cgi?referer=http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfhttpsredir=1http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfarticle=1132http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1132&context=adfcontext=adf),
-  by Andri P. Heriyanto, 2014
 * [A first look at Windows 10 prefetch files](https://blog.digital-forensics.it/2015/06/a-first-look-at-windows-10-prefetch.html),
   by Francesco Picasso, June 22, 2015
 

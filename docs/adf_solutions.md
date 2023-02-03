@@ -4,10 +4,10 @@ tags:
 ---
 # Overview
 
-[Advanced Digital Forensic Solutions Inc.](https://www.adfsolutions.com/)
-(ADF Solutions, Inc., or ADF Solutions) is a privately held, minority-owned
-small business based in Bethesda, Maryland. The company was founded in 2005 by
-J.J. Wallia and Raphael Bousquet.
+Advanced Digital Forensic Solutions Inc. (ADF Solutions, Inc., or ADF
+Solutions) is a privately held, minority-owned small business based in
+Bethesda, Maryland. The company was founded in 2005 by J.J. Wallia and Raphael
+Bousquet.
 
 ADF Solutions develops tools for media exploitation (MEDEX) and [digital
 forensics](digital_forensics.md) triage. These tools scan
@@ -19,9 +19,7 @@ security, and other government agencies worldwide.
 
 # ADF Products
 
-ADF offers [three main
-products](https://www.adfsolutions.com//products/): Triage-G2,
-Triage-Examiner, and Triage-Responder.
+ADF offers three main products: Triage-G2, Triage-Examiner, and Triage-Responder.
 
 [Triage-G2](https://www.adfsolutions.com/triage-g2) is a media
 exploitation ([medex](medex.md) tool used by field operatives
@@ -137,31 +135,9 @@ highlighted in many different publications:
 
 * [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
 
-# Social Media and other Websites
+# External Links
 
-<H4>
-
-Social media
-
-</H4>
-
-[Facebook](https://www.facebook.com/adfsolutions)
-[Twitter](https://twitter.com/adfsolutions)
-[LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)
-
-<H4>
-
-Other Websites
-
-</H4>
-
-[ADF Solutions](https://www.adfsolutions.com/)
-[Forensic Triage](https://www.adfsolutions.com/free-trial-forensic-triage)
-[Media Exploitation](https://www.adfsolutions.com/free-trial-forensic-triage)
-
-# Contact
-
-ADF Solutions, Inc.
-7910 Woodmont Ave. Suite 260
-Bethesda, MD 20814
-<https://www.adfsolutions.com//>
+* [Official website](https://www.adfsolutions.com/)
+* [Facebook](https://www.facebook.com/adfsolutions)
+* [Twitter](https://twitter.com/adfsolutions)
+* [LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)
