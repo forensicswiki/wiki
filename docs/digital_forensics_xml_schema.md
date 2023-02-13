@@ -16,3 +16,7 @@ We have these DFXML Examples:
 
 * [Example of a DFXML fileobject tag](dfxml_example_fileobject_tag.md)
 * [Example of a DFXML source tag](dfxml_example_source_tag.md)
+
+## External links
+
+* [Project site](https://github.com/dfxml-working-group/dfxml_schema)
