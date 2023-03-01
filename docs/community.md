@@ -189,6 +189,34 @@ tags:
 ---
 ```
 
+### Check Content Formatting
+
+There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs render Markdown.  What this means is that when creating a page in Forensicswiki, some content looks fine in VS code but then once committed to Github the content is not displaying properly.  To ensure content is formatted correctly, you could use a local mkdocs install which has a built in development server.
+
+#### Install mkdocs
+
+Install mkdocs on your system.
+```
+$ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
+```
+
+#### Run mkdocs
+
+Next, we want mkdocs to load all of the pages of the Forensics Wiki.  Mkdocs needs two things to be able to run and load the Forensics Wiki pages.  
+
+-  It will need a `docs` directory which holds all of Forensics Wiki pages.
+-  It will the `mkdocs.yml` configuration file.  This is the configuration that tells mkdocs how to structure the site such as the structure of the menus.  
+
+Both of the previous items are located in the root directory of the repository.  To run mkdocs development server follow the steps below:
+
+1.  Change to the root of the repository.  For example, if you cloned the repository to your home directory.
+
+          cd ~/wiki
+
+2.  mkdocs serve
+
+3.  Open your browser and visit http://127.0.0.1:8000/your_doc_name
+
 ### Suggesting New Tags
 
 There might be an article that does not fit well within these tagging
