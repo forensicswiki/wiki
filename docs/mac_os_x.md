@@ -306,6 +306,8 @@ Mac OS.
 
 * [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
   by Sarah Edwards, November 13, 2016
+* [Reviewing macOS Unified Logs](https://www.mandiant.com/resources/blog/reviewing-macos-unified-logs),
+  by Alexander Holcomb, August 31, 2022
 
 ### Yet Another Assembler (YAA)
 
