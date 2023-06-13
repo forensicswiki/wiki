@@ -237,7 +237,29 @@ Set when the transition is a download.
 </td>
 </tr>
 </table>
+  
+### Insertable Visit Types
+  
+This allows you to join against the defined visit types to select the actual name or description
 
+```sql
+CREATE TABLE IF NOT EXISTS history_visit_types (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    description TEXT
+);
+
+INSERT INTO history_visit_types (id, name, description)
+VALUES
+    (1, 'TRANSITION_LINK', 'This transition type means the user followed a link and got a new toplevel window.'),
+    (2, 'TRANSITION_TYPED', 'This transition type means that the user typed the page''s URL in the URL bar or selected it from URL bar autocomplete results, clicked on it from a history query (from the History sidebar, History menu, or history query in the personal toolbar or Places organizer.'),
+    (3, 'TRANSITION_BOOKMARK', 'This transition is set when the user followed a bookmark to get to the page.'),
+    (4, 'TRANSITION_EMBED', 'This transition type is set when some inner content is loaded. This is true of all images on a page, and the contents of the iframe. It is also true of any content in a frame, regardless of whether or not the user clicked something to get there.'),
+    (5, 'TRANSITION_REDIRECT_PERMANENT', 'Set when the transition was a permanent redirect.'),
+    (6, 'TRANSITION_REDIRECT_TEMPORARY', 'Set when the transition was a temporary redirect.'),
+    (7, 'TRANSITION_DOWNLOAD', 'Set when the transition is a download.');
+```
+  
 ## Gathering browser history
 
 Live browser history for Firefox 3 can be gathered by connecting to the
@@ -248,6 +270,25 @@ query:
     SELECT datetime(moz_historyvisits.visit_date/1000000,'unixepoch'), moz_places.url
     FROM moz_places, moz_historyvisits
     WHERE moz_places.id = moz_historyvisits.place_id
+  
+  
+Another exmaple that joins against the `history_visit_types` table
+
+```sql
+SELECT
+    history.id,
+    places.id as place_id,
+    datetime(history.visit_date/1000000,'unixepoch') as visit_date,
+    rank() OVER (PARTITION BY place_id ORDER BY visit_date) as visit_number,
+    places.visit_count as total_visits,
+    visit_types.name as visit_type,
+    places.url,
+    places.description
+FROM moz_historyvisits as history
+JOIN moz_places as places ON history.place_id = places.id
+LEFT JOIN history_visit_types visit_types ON history.visit_type = visit_types.id
+ORDER BY visit_date;
+```
 
 ## External Links
 
