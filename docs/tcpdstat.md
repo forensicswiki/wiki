@@ -21,4 +21,4 @@ for next on a lower level.
 
 ## External Links
 
-* [Tcpdstat Overview and Build Instructions](http://cyberforensics.et.byu.edu/wiki/Tcpdstat)
+* [Unofficial fork](https://github.com/netik/tcpdstat)

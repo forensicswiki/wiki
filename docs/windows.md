@@ -570,11 +570,6 @@ value:
 
 * [Description of Windows XP System Information (Msinfo32.exe) Tool](https://support.microsoft.com/en-us/windows)
 
-### Windows Scheduler
-
-* [Windows Scheduler (at job) Forensics](http://digital-forensics.sans.org/blog/2009/09/16/windows-scheduler-at-job-forensics),
-  by johnmccash, September 16, 2009
-
 ### Windows Vault
 
 * [Windows ReVaulting](https://blog.digital-forensics.it/2016/01/windows-revaulting.html?m=1),

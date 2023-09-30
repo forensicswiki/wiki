@@ -207,10 +207,6 @@ deleted.
 * [MSIE Cache File (index.dat) format specification](https://github.com/libyal/libmsiecf/blob/main/documentation/MSIE%20Cache%20File%20(index.dat)%20format.asciidoc),
   by the [libmsiecf project](libmsiecf.md)
 * [Digital Detective Knowledge Base: Internet Explorer](https://kb.digital-detective.net/display/BF/Internet+Explorer)
-* [Understanding index.dat Files - Part 1](http://web.archive.org/web/20090605202325/http://128.175.24.251/forensics/index_dat1.htm),
-  by Stephen M. Bunting
-* [Understanding index.dat Files - Part 2](http://web.archive.org/web/20090605200839/http://128.175.24.251/forensics/index_dat2.htm),
-  by Stephen M. Bunting
 * [Detailed analysis of index.dat file format](http://web.archive.org/web/20090824054415/http://www.foundstone.com/us/pdf/wp_index_dat.pdf),
   by Keith J. Jones, March 19, 2003
 * [The Meaning of LEAK records](https://forensicblog.org/the-meaning-of-leak-records/),

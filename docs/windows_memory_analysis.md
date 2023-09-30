@@ -183,10 +183,4 @@ and re-released as Volatility in August
 
 ### WinDBG
 
-* [Getting Started with WinDBG - Part 1](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-1.html),
-  by Brad Antoniewicz, December 17, 2013
-* [Getting Started with WinDBG - Part 2](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-2.html),
-  by Brad Antoniewicz, December 24, 2013
-* [Getting Started with WinDBG - Part 3](http://blog.opensecurityresearch.com/2013/12/getting-started-with-windbg-part-3.html),
-  by Brad Antoniewicz, December 31, 2013
 * [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/comaeio/SwishDbgExt)

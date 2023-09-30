@@ -1217,8 +1217,6 @@ name</a></b></p></td>
 * [Understand and Control Startup Apps with the System Configuration Utility](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/ee851671(v=msdn.10)),
   by [Microsoft Technet](microsoft.md)
 * [Silent Runners](https://www.silentrunners.org/), by Andrew Aronoff
-* [Digital Forensics: Persistence Registry keys](https://digital-forensics.sans.org/blog/2010/10/20/digital-forensics-autorun-registry-keys),
-  Dave Hull, October 20, 2010
 * [Beyond good ol’ Run key](http://www.hexacorn.com/blog/2012/07/23/beyond-good-ol-run-key/),
   Hexacorn blog, July 23, 2012
 * [Plugins: soft_run user_run](http://journeyintoir.blogspot.com/2013_04_01_archive.html),

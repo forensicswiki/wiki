@@ -13,10 +13,6 @@ format and encryption algorithm (AES-256 in LRW mode). The compatibility
 was dropped since DiskCryptor 0.5 in order to make use of a more
 advanced partition format.
 
-The project also provides information about [some basic risks of using
-cryptographic
-software](http://diskcryptor.net/index.php/CryptoUsageRisks_en).
-
 ## See also
 
 - [FreeOTFE](freeotfe.md)

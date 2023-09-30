@@ -114,7 +114,7 @@ keys) and [3DES](3des.md) (uses a 64 bit blocksize and accepts
 [DiskCryptor](diskcryptor.md)
 Free solution provided under GNU General Public License.
 
-<http://diskcryptor.net/index.php/DiskCryptor_en>
+<https://diskcryptor.org/>
 
 <!-- -->
 
