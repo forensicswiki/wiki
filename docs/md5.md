@@ -25,5 +25,4 @@ systems and hash databases should also use multiple hash algorithms.
 ## External Links
 
 * [Wikipedia: MD5](https://en.wikipedia.org/wiki/MD5)
-* [Is the MD5 hash unreliable?](http://deepbyte.com/blog/2006/02/is_the_md5_hash_unreliable.html)
 * [Collection of exploits and weaknesses in MD5](http://blog.boreas.ro/2007/11/exploiting-md5-and-other-hashing.html)

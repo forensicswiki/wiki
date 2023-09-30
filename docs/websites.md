@@ -127,12 +127,6 @@ software into a Reference Data Set (RDS) of information.
 
 <!-- -->
 
-[University of Delaware Computer Forensics Lab](http://128.175.24.251/forensics/default.htm)
-
-Computer Forensics Lab Resource Site.
-
-<!-- -->
-
 [University of Rhode Island Digital Forensics Center](https://web.uri.edu/cs/dfcsc/) 
 
 Computer Forensics Lab Resource Site.

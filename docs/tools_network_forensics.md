@@ -34,7 +34,7 @@ connections.
 
 <!-- -->
 
-[cryptcat](http://farm9.org/Cryptcat/)
+[cryptcat](https://farm9.org/Cryptcat/)
 
 <!-- -->
 
