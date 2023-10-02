@@ -1,10 +1,10 @@
 ---
 tags:
-  -  MacOS
-  -  File Formats
-  -  Articles that need to be expanded
-  -  Tools
-  -  Binary
+  - MacOS
+  - File Formats
+  - Articles that need to be expanded
+  - Tools
+  - Binary
 ---
 Binary plists are the files that Apple products use to store
 information. The easiest way to view them is to convert them to XML.
@@ -39,8 +39,4 @@ Or with libplist
 
 ## External Links
 
-- [Apple plutil man
-  page](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/plutil.1.html)
-- [A library to handle Apple Property List format in binary or
-  XML](https://cgit.sukimashita.com/libplist.git/)
-
+* [A library to handle Apple Property List format in binary or XML](https://cgit.sukimashita.com/libplist.git/)
