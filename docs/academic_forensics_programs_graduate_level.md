@@ -19,7 +19,7 @@ tags:
 - [Maryville University](https://online.maryville.edu/online-masters-degrees/cyber-security/)
 - Naval Postgraduate School
 - Polytechnic Institute of New York University
-- [Purdue University](http://cyberforensics.purdue.edu/)
+- Purdue University
 - Sam Houston State University
 - Stevenson University
 - Texas State University

@@ -67,8 +67,7 @@ try these:
 
 ## Exercises for the Reader
 
-1. Download the file
-   [nps-2009-canon2-gen6.raw](http://digitalcorpora.org/corp/images/nps/nps-2009-canon2/nps-2009-canon2-gen6.raw)
+1. Download [nps-2009-canon2-gen6](https://downloads.digitalcorpora.org/corpora/drives/nps-2009-canon2)
    from the Digital Corpora website and try to recover as many files as
    you can. Some of the JPEGs can only be found using file carving, and
    some can only be found with fragment recovery file carving.
@@ -79,7 +78,5 @@ try these:
 
 <!-- -->
 
-1. Download the file
-   [usbnist1.gen3.aff](http://digitalcorpora.org/corp/images/nps/nps-2009-ubnist1/ubnist1.gen3.aff)
-   and find the government documents that were stored on the USB
-   device.
+1. Download [nps-2009-ubnist1](https://downloads.digitalcorpora.org/corpora/drives/nps-2009-ubnist1)
+   and find the government documents that were stored on the USB device.

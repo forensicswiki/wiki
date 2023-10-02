@@ -86,7 +86,7 @@ and re-released as Volatility in August
 
 2010
 
-* [Extracting Windows Command Line Details from Physical Memory](http://dfrws.org/2010/proceedings/2010-307.pdf),
+* [Extracting Windows Command Line Details from Physical Memory](https://www.sciencedirect.com/science/article/pii/S1742287610000356),
   by Richard Stevens and Eoghan Casey, DFRWS
 
 2009

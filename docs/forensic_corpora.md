@@ -89,18 +89,16 @@ Several of the Rodeos and Challenges from DFRWS released their data and
 scenario writeups. The following had disk images as parts of their
 scenario:
 
-- [2005 Rodeo](https://cfreds.nist.gov/dfrws/Rhino_Hunt.html) (Hosted
-  on CFReDS)
-- [2008 Rodeo](http://dfrws.org/2008/rodeo.shtml)
-- [2009 Rodeo](http://dfrws.org/2009/rodeo.shtml)
-- [2009 Challenge](http://dfrws.org/2009/challenge/index.shtml)
-- [2011 Challenge](http://dfrws.org/2011/challenge/index.shtml)
+- 2005 Rodeo, hosted on [CFReDS](https://cfreds.nist.gov/dfrws/Rhino_Hunt.html)
+- 2008 Rodeo
+- 2009 Rodeo
+- 2009 Challenge
+- 2011 Challenge
 
 # Memory Images
 
 The [Volatility](https://www.volatilesystems.com/default/volatility) FAQ
-provides a listing of openly-available [memory
-images](https://code.google.com/p/volatility/wiki/FAQ#Are_there_any_public_memory_samples_available_that_I_can_use_for).
+provides a listing of openly-available [memory images](https://code.google.com/p/volatility/wiki/FAQ#Are_there_any_public_memory_samples_available_that_I_can_use_for).
 
 # Network Packets and Traces
 

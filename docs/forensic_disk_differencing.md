@@ -61,5 +61,4 @@ Here are some more examples:
 
 ## See Also
 
-- [A general strategy for differential forensic
-  analysis](http://dfrws.org/2012/proceedings/DFRWS2012-6.pdf)
+* [A general strategy for differential forensic analysis](https://www.sciencedirect.com/science/article/pii/S174228761200028X)

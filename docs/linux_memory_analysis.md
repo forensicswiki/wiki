@@ -60,9 +60,8 @@ Inactive Open Source and Research Projects:
 ## Linux Memory Analysis Challenges
 
 - The [Digital Forensic Research Workshop](digital_forensic_research_workshop.md)
- [2008 Forensics Challenge](http://dfrws.org/2008/challenge/index.shtml)
-  focused on the development of Linux memory analysis techniques and the
-  fusion of evidence from memory, hard disk, and network.
+  2008 Forensics Challenge focused on the development of Linux memory analysis
+  techniques and the fusion of evidence from memory, hard disk, and network.
 - [Challenge SSTIC 2010](https://www.sstic.org/2010/challenge/)
   (French) dealt with analysis of physical memory from a mobile device
   running Android.
@@ -86,19 +85,18 @@ images can also be found on the Second Look website at
   J.M. Urrea, Masters Thesis, Naval Postgraduate School, 2006.
 - [Linux Memory Forensics for DFRWS Challenge 2008 using Volatility, Crash, and PyFlag](http://volatilesystems.blogspot.com/2008/07/linux-memory-analysis-one-of-major.html),
   by AAron Walters on the Volatile Systems Blog.
-- [FACE: Automated digital evidence discovery and correlation](http://www.dfrws.org/2008/proceedings/p65-case.pdf),
-  Andrew Case, Andrew Cristina, Lodovico Marziale, Golden G. Richard,
+- [FACE: Automated digital evidence discovery and correlation](https://www.sciencedirect.com/science/article/pii/S1742287608000340),
+  by Andrew Case, Andrew Cristina, Lodovico Marziale, Golden G. Richard,
   Vassil Roussev, DFRWS 2008
 - [Linux Live Memory Forensics](http://esiea-recherche.eu/~desnos/papers/slidesdraugr.pdf),
   a presentation by Desnos Anthony describing the implementation of
   draugr, 2009.
 - [Forensic RAM Dump Image Analyzer](https://is.cuni.cz/studium/dipl_st/index.php?doo=detailhttp://is.cuni.cz/studium/dipl_st/index.php?doo=detail&did=48540did=48540)
   by Ivor Kollar, describing the implementation of foriana, 2009.
-- [Treasure and tragedy in kmem_cache mining for live forensics investigation](http://www.dfrws.org/2010/proceedings/2010-305.pdf) by
-  Andrew Case, Lodovico Marziale, Cris Neckar, Golden G. Richard III;
+- [Treasure and tragedy in kmem_cache mining for live forensics investigation](https://www.sciencedirect.com/science/article/pii/S1742287610000332),
+  by Andrew Case, Lodovico Marziale, Cris Neckar, Golden G. Richard III;
   Digital Investigation, Volume 7, Supplement 1, The Proceedings of the
   Tenth Annual DFRWS Conference, August 2010.
-  [(Presentation)](http://www.dfrws.org/2010/proceedings/richard2.pdf)
 - [Second Look Web Page](https://secondlookforensics.com/)
 - [De-Anonymizing Live CDs through Physical Memory Analysis](https://blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case)
   ([Whitepaper](https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing_Live_CDs-wp.pdf))
