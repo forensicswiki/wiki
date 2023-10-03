@@ -412,7 +412,9 @@ partition on an Intel based system:
     00000030 08 00 02 00 52 65 49 73 45 72 32 46 73 00 00 00  ....ReIsEr2Fs...
     00000040 03 00 00 00 04 00 03 00 02 00 00 00 dc 52 00 00  ............ÜR..
 
-![Image:superblock_example.png](superblock_example.png "Image:superblock_example.png")
+<img src="../assets/images/Superblock_example.png"
+title="superblock_example" width="550"
+alt="superblock_example" />
 
 
 Block count: 65638

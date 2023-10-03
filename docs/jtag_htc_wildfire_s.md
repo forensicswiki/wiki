@@ -56,33 +56,23 @@ the PC. See the pictures for more detail. Note: The JTAG adapter
 indicates pin 1 on the top of the PCB with a small dot (covered by the
 rubber band in these pictures).
 
-|                                                                         |                                                                         |
-|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| <figure>
- <img src="riff-to-htc-wildfire-s-connection-1.png"
+ <img src="../assets/images/riff-to-htc-wildfire-s-connection-1.png"
  title="riff-to-htc-wildfire-s-connection-1.png" width="550"
  alt="riff-to-htc-wildfire-s-connection-1.png" />
  <figcaption
  aria-hidden="true">riff-to-htc-wildfire-s-connection-1.png</figcaption>
- </figure>                                                                | <figure>
-                                                                           <img src="riff-to-htc-wildfire-s-connection-2.png"
-                                                                           title="riff-to-htc-wildfire-s-connection-2.png" width="550"
-                                                                           alt="riff-to-htc-wildfire-s-connection-2.png" />
-                                                                           <figcaption
-                                                                           aria-hidden="true">riff-to-htc-wildfire-s-connection-2.png</figcaption>
-                                                                           </figure>                                                                |
-|                                                                         |                                                                         |
 
-|                                                                         |
-|-------------------------------------------------------------------------|
-| <figure>
- <img src="riff-to-htc-wildfire-s-connection-3.png"
+<img src="../assets/images/riff-to-htc-wildfire-s-connection-2.png"
+title="riff-to-htc-wildfire-s-connection-2.png" width="550"
+alt="riff-to-htc-wildfire-s-connection-2.png" />
+<figcaption
+aria-hidden="true">riff-to-htc-wildfire-s-connection-2.png</figcaption>
+ 
+ <img src="../assets/images/riff-to-htc-wildfire-s-connection-3.png"
  title="riff-to-htc-wildfire-s-connection-3.png" width="800"
  alt="riff-to-htc-wildfire-s-connection-3.png" />
  <figcaption
  aria-hidden="true">riff-to-htc-wildfire-s-connection-3.png</figcaption>
- </figure>                                                                |
-|                                                                         |
 
 Now we can start the RIFF Box JTAG Manager software and configure it.
 

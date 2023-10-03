@@ -63,7 +63,9 @@ The places.sqlite file is essentially a database with multiple tables:
     moz_keywords
     moz_places
 
-![Image:Firefox3_places_relationship_schema.png](Firefox3_places_relationship_schema.png "Image:Firefox3_places_relationship_schema.png")
+<img src="../assets/images/Firefox3_places_relationship_schema.png"
+title="firefox3_places_relationship" width="550"
+alt="fire3_places_relationship" />
 
 ## moz_places
 

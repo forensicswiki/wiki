@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile 
 ---
 ## JTAG Samsung Galaxy Ace Q (SGH-I827D)
 
@@ -39,66 +39,45 @@ summarized as follows:
 `* Remove the 8 x Phillips screws.`
 `* Split the phone case using a case opening tool (guitar pick).`
 
-|                                                                  |                                                                         |
-|------------------------------------------------------------------|-------------------------------------------------------------------------|
-| <figure>
- <img src="1-AceQ-Phone.jpg" title="1-AceQ-Phone.jpg" width="450"
+ <img src="../assets/images/1-AceQ-Phone.jpg" title="1-AceQ-Phone.jpg" width="450"
  alt="1-AceQ-Phone.jpg" />
  <figcaption aria-hidden="true">1-AceQ-Phone.jpg</figcaption>
- </figure>                                                         | <figure>
-                                                                    <img src="3-AceQ-RemoveScrews.jpg" title="3-AceQ-RemoveScrews.jpg"
-                                                                    width="450" alt="3-AceQ-RemoveScrews.jpg" />
-                                                                    <figcaption aria-hidden="true">3-AceQ-RemoveScrews.jpg</figcaption>
-                                                                    </figure>                                                                |
-| <figure>
- <img src="2-AceQ-Phone.jpg" title="2-AceQ-Phone.jpg" width="450"
- alt="2-AceQ-Phone.jpg" />
- <figcaption aria-hidden="true">2-AceQ-Phone.jpg</figcaption>
- </figure>                                                         | <figure>
-                                                                    <img src="4-AceQ-RemoveHeatsheild.jpg"
-                                                                    title="4-AceQ-RemoveHeatsheild.jpg" width="450"
-                                                                    alt="4-AceQ-RemoveHeatsheild.jpg" />
-                                                                    <figcaption aria-hidden="true">4-AceQ-RemoveHeatsheild.jpg</figcaption>
-                                                                    </figure>                                                                |
-|                                                                  |                                                                         |
+
+<img src="../assets/images/3-AceQ-RemoveScrews.jpg" title="3-AceQ-RemoveScrews.jpg"
+width="450" alt="3-AceQ-RemoveScrews.jpg" />
+<figcaption aria-hidden="true">3-AceQ-RemoveScrews.jpg</figcaption>
+ 
+<img src="../assets/images/2-AceQ-Phone.jpg" title="2-AceQ-Phone.jpg" width="450"
+alt="2-AceQ-Phone.jpg" />
+<figcaption aria-hidden="true">2-AceQ-Phone.jpg</figcaption>
+
+<img src="../assets/images/4-AceQ-RemoveHeatsheild.jpg"
+title="4-AceQ-RemoveHeatsheild.jpg" width="450"
+alt="4-AceQ-RemoveHeatsheild.jpg" />
+<figcaption aria-hidden="true">4-AceQ-RemoveHeatsheild.jpg</figcaption>
 
 `* Remove the metal shield.`
 `* Disconnect the LCD display connector, and remove the battery mount.`
 `* Separate main-board from the device. The JTAG port is located on the opposite side to the left of the keypad.`
 
-|                                                                |
-|----------------------------------------------------------------|
-| <figure>
- <img src="5-AceQ-JTAG.jpg" title="5-AceQ-JTAG.jpg" width="500"
+ <img src="../assets/images/5-AceQ-JTAG.jpg" title="5-AceQ-JTAG.jpg" width="500"
  alt="5-AceQ-JTAG.jpg" />
  <figcaption aria-hidden="true">5-AceQ-JTAG.jpg</figcaption>
- </figure>                                                       |
-|                                                                |
 
 `* Solder the JTAG connector to the JTAG port as follows. I used 0.040 gauge magnet wire to connected an adapter that was inserted into the 20 pin ribbon cable supplied with the RIFF box.`
 
-|                                                                      |
-|----------------------------------------------------------------------|
-| <figure>
- <img src="6-AceQ-Pinouts.jpg" title="6-AceQ-Pinouts.jpg" width="800"
+ <img src="../assets/images/6-AceQ-Pinouts.jpg" title="6-AceQ-Pinouts.jpg" width="800"
  alt="6-AceQ-Pinouts.jpg" />
  <figcaption aria-hidden="true">6-AceQ-Pinouts.jpg</figcaption>
- </figure>                                                             |
-|                                                                      |
 
 `* Re-connect the LCD display connector to the mainboard.`
 `* Connect the PCB battery terminal connections to the DC power supply. The positive (+) connection is the outermost pin (1) and the negative (-) pin is the outermost pin (3). You can configure your power supply to match the battery specifications which in this case is 3.8V and 1.80A but do not apply power at this time.`
 
 `* Now we can start the Octoplus JTAG software and configure it, and connect the phone to the Octoplus box. See the picture for more detail.`
 
-|                                                                        |
-|------------------------------------------------------------------------|
-| <figure>
- <img src="7-AceQ-Octoplus.jpg" title="7-AceQ-Octoplus.jpg" width="800"
+ <img src="../assets/images/7-AceQ-Octoplus.jpg" title="7-AceQ-Octoplus.jpg" width="800"
  alt="7-AceQ-Octoplus.jpg" />
  <figcaption aria-hidden="true">7-AceQ-Octoplus.jpg</figcaption>
- </figure>                                                               |
-|                                                                        |
 
 Apply power to the DC power supply and turn the phone on using the
 button on the side of the PCB. After powering the phone on, select

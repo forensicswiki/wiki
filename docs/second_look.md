@@ -4,7 +4,9 @@ tags:
   -  Memory Analysis
   -  Tools
 ---
-![<File:second_look_logo.png>](second_look_logo.png "File:second_look_logo.png")
+<img src="../assets/images/Second_look_logo.png"
+title="Second_look_logo" width="550"
+alt="Second_look_logo" />
 
 Forcepoint Linux Security (Second Look) is a Linux security product that
 performs Memory Integrity scans. It uses memory forensics and integrity
@@ -101,7 +103,6 @@ kernels and the most commonly used Linux distributions. As of March
 
 ## External Links
 
-- [Product Home
-  Page](https://www.forcepoint.com/products)
+- [Product Home Page](https://www.forcepoint.com/products)
 - [Demo Video](https://www.youtube.com/watch?v=m3KbNsd2kvI)
 - [Another Demo Video](https://www.youtube.com/watch?v=EIiNgiqr0s0)

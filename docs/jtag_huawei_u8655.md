@@ -8,19 +8,14 @@ This phone is supported by the At&t network. This uses a Qualcomm 7225A
 800 MHz Processor and comes standard with Android version 2.3. This
 phone is unsupported by RIFF Box for the JTAG process for resurrector.
 The phone has 4gb Samsung KMSJS000KM-B308 MoviNAND flash memory.
-
-|                                                                    |                                                                   |
-|--------------------------------------------------------------------|-------------------------------------------------------------------|
-| <figure>
- <img src="huawei-u8655-front.jpg" title="huawei-u8655-front.jpg"
+ 
+ <img src="../assets/images/Huawei-u8655-front.jpg" title="huawei-u8655-front.jpg"
  width="200" alt="huawei-u8655-front.jpg" />
  <figcaption aria-hidden="true">huawei-u8655-front.jpg</figcaption>
- </figure>                                                           | <figure>
-                                                                      <img src="huawei-u8655-back.jpg" title="huawei-u8655-back.jpg"
-                                                                      width="200" alt="huawei-u8655-back.jpg" />
-                                                                      <figcaption aria-hidden="true">huawei-u8655-back.jpg</figcaption>
-                                                                      </figure>                                                          |
-|                                                                    |                                                                   |
+
+<img src="../assets/images/Huawei-u8655-back.jpg" title="huawei-u8655-back.jpg"
+width="200" alt="huawei-u8655-back.jpg" />
+<figcaption aria-hidden="true">huawei-u8655-back.jpg</figcaption>
 
 ### Getting Started
 
@@ -55,14 +50,9 @@ The TAPS order is as follows:
 8.  8=TRST
 9.  9=NRST
 
-|                                                                   |
-|-------------------------------------------------------------------|
-| <figure>
- <img src="Huawei_u8665_taps.JPG" title="Huawei_u8665_taps.JPG"
+ <img src="../assets/images/Huawei_u8665_taps.JPG" title="Huawei_u8665_taps.JPG"
  width="600" alt="Huawei_u8665_taps.JPG" />
  <figcaption aria-hidden="true">Huawei_u8665_taps.JPG</figcaption>
- </figure>                                                          |
-|                                                                   |
 
 After the wires are connected to the board, the phone is powered by the
 USB connection. Plug the Micro USB into the USB connection on the device
@@ -75,26 +65,16 @@ Launch the Riff Box JTAG Manager and use the following settings:
 - Resurrector Settings= Huawei U8815
 - Auto FullFlash size
 
-|                                                                      |
-|----------------------------------------------------------------------|
-| <figure>
- <img src="Huawei_U8665_setting.JPG" title="Huawei_U8665_setting.JPG"
+ <img src="../assets/images/Huawei_U8665_setting.JPG" title="Huawei_U8665_setting.JPG"
  width="800" alt="Huawei_U8665_setting.JPG" />
  <figcaption aria-hidden="true">Huawei_U8665_setting.JPG</figcaption>
- </figure>                                                             |
-|                                                                      |
 
 Advanced Settings:
 
 - Ignore Target IDCODE during Resurrection and DCC Loader operations
 
-|                                                                          |
-|--------------------------------------------------------------------------|
-| <figure>
- <img src="IDCODE.JPG" title="IDCODE.JPG" width="600" alt="IDCODE.JPG" />
+ <img src="../assets/images/IDCODE.JPG" title="IDCODE.JPG" width="600" alt="IDCODE.JPG" />
  <figcaption aria-hidden="true">IDCODE.JPG</figcaption>
- </figure>                                                                 |
-|                                                                          |
 
 Then connect and get the ID, you should receive the dead body signal.
 Then read the memory. JTAG complete.

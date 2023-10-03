@@ -39,57 +39,41 @@ summarized as follows:
 - Remove the 9 x Phillips screws.
 - Split the phone case using a case opening tool (guitar pick).
 
-|                                                                   |                                                                        |
-|-------------------------------------------------------------------|------------------------------------------------------------------------|
-| <figure>
- <img src="1-S4-Phone.jpg" title="1-S4-Phone.jpg" width="350"
+ <img src="../assets/images/1-S4-Phone.jpg" title="1-S4-Phone.jpg" width="350"
  alt="1-S4-Phone.jpg" />
  <figcaption aria-hidden="true">1-S4-Phone.jpg</figcaption>
- </figure>                                                          | <figure>
-                                                                     <img src="2-S4-BackCoverRemoved.jpg" title="2-S4-BackCoverRemoved.jpg"
-                                                                     width="550" alt="2-S4-BackCoverRemoved.jpg" />
-                                                                     <figcaption aria-hidden="true">2-S4-BackCoverRemoved.jpg</figcaption>
-                                                                     </figure>                                                               |
-| <figure>
- <img src="3-S4-RemoveScrews.jpg" title="3-S4-RemoveScrews.jpg"
+
+<img src="../assets/images/2-S4-BackCoverRemoved.jpg" title="2-S4-BackCoverRemoved.jpg"
+width="550" alt="2-S4-BackCoverRemoved.jpg" />
+<figcaption aria-hidden="true">2-S4-BackCoverRemoved.jpg</figcaption>
+ 
+ <img src="../assets/images/3-S4-RemoveScrews.jpg" title="3-S4-RemoveScrews.jpg"
  width="450" alt="3-S4-RemoveScrews.jpg" />
  <figcaption aria-hidden="true">3-S4-RemoveScrews.jpg</figcaption>
- </figure>                                                          | <figure>
-                                                                     <img src="4-S4-RemoveBackPlate.jpg" title="4-S4-RemoveBackPlate.jpg"
-                                                                     width="450" alt="4-S4-RemoveBackPlate.jpg" />
-                                                                     <figcaption aria-hidden="true">4-S4-RemoveBackPlate.jpg</figcaption>
-                                                                     </figure>                                                               |
-|                                                                   |                                                                        |
+
+<img src="../assets/images/4-S4-RemoveBackPlate.jpg" title="4-S4-RemoveBackPlate.jpg"
+width="450" alt="4-S4-RemoveBackPlate.jpg" />
+<figcaption aria-hidden="true">4-S4-RemoveBackPlate.jpg</figcaption>
 
 - Once the phone has been disassembled, you can see the JTAG connection
   port located right about the power button. This JTAG port is in a
   great spot which makes it handy for soldering.
 
-|                                                                        |
-|------------------------------------------------------------------------|
-| <figure>
- <img src="5-S4-BackPlateRemoved.jpg" title="5-S4-BackPlateRemoved.jpg"
+ <img src="../assets/images/5-S4-BackPlateRemoved.jpg" title="5-S4-BackPlateRemoved.jpg"
  width="1000" alt="5-S4-BackPlateRemoved.jpg" />
  <figcaption aria-hidden="true">5-S4-BackPlateRemoved.jpg</figcaption>
- </figure>                                                               |
-|                                                                        |
 
 - Solder the JTAG connector to the JTAG port as follows. I used 0.040
   gauge magnet wire to connected an adapter that was inserted into the
   20 pin ribbon cable supplied with the RIFF box.
 
-|                                                                          |                                                                    |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------|
-| <figure>
- <img src="6-S4-JTAGpinouts.jpg" title="6-S4-JTAGpinouts.jpg" width="500"
+ <img src="../assets/images/6-S4-JTAGpinouts.jpg" title="6-S4-JTAGpinouts.jpg" width="500"
  alt="6-S4-JTAGpinouts.jpg" />
  <figcaption aria-hidden="true">6-S4-JTAGpinouts.jpg</figcaption>
- </figure>                                                                 | <figure>
-                                                                            <img src="7-S4-Soldered.jpg" title="7-S4-Soldered.jpg" width="500"
-                                                                            alt="7-S4-Soldered.jpg" />
-                                                                            <figcaption aria-hidden="true">7-S4-Soldered.jpg</figcaption>
-                                                                            </figure>                                                           |
-|                                                                          |                                                                    |
+
+<img src="../assets/images/7-S4-Soldered.jpg" title="7-S4-Soldered.jpg" width="500"
+alt="7-S4-Soldered.jpg" />
+<figcaption aria-hidden="true">7-S4-Soldered.jpg</figcaption>
 
 - Connect the PCB battery terminal connections to the DC power supply.
   The positive (+) connection is the outermost pin (1) and the negative
@@ -101,26 +85,16 @@ summarized as follows:
 the battery and USB port displayed inconsistent results. This is why we
 opted to use the DC power supply.
 
-|                                                                     |
-|---------------------------------------------------------------------|
-| <figure>
- <img src="8-S4-NANDdump.jpg" title="8-S4-NANDdump.jpg" width="1000"
+ <img src="../assets/images/8-S4-NANDdump.jpg" title="8-S4-NANDdump.jpg" width="1000"
  alt="8-S4-NANDdump.jpg" />
  <figcaption aria-hidden="true">8-S4-NANDdump.jpg</figcaption>
- </figure>                                                            |
-|                                                                     |
 
 - Now we can start the RIFF JTAG software and configure it, and connect
   the phone to the RIFF box. See the picture for more detail.
 
-|                                                                   |
-|-------------------------------------------------------------------|
-| <figure>
- <img src="9-S4-RiffBox.jpg" title="9-S4-RiffBox.jpg" width="1000"
+ <img src="../assets/images/9-S4-RiffBox.jpg" title="9-S4-RiffBox.jpg" width="1000"
  alt="9-S4-RiffBox.jpg" />
  <figcaption aria-hidden="true">9-S4-RiffBox.jpg</figcaption>
- </figure>                                                          |
-|                                                                   |
 
 - Apply power to the DC power supply and turn the phone on using the
   button on the side of the PCB. After powering the phone on, select

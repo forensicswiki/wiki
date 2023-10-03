@@ -9,18 +9,13 @@ MSM8225 1GHz Processor and comes standard with Android version 4.1. This
 phone is unsupported by RIFF Box for the JTAG process for resurrector.
 The phone has 4GB MoviNAND flash memory.
 
-|                                                                    |                                                                  |
-|--------------------------------------------------------------------|------------------------------------------------------------------|
-| <figure>
- <img src="Y301-A1_front.JPG" title="Y301-A1_front.JPG" width="200"
+ <img src="../assets/images/Y301-A1_front.JPG" title="Y301-A1_front.JPG" width="200"
  alt="Y301-A1_front.JPG" />
  <figcaption aria-hidden="true">Y301-A1_front.JPG</figcaption>
- </figure>                                                           | <figure>
-                                                                      <img src="Y301-A1_back.JPG" title="Y301-A1_back.JPG" width="200"
-                                                                      alt="Y301-A1_back.JPG" />
-                                                                      <figcaption aria-hidden="true">Y301-A1_back.JPG</figcaption>
-                                                                      </figure>                                                         |
-|                                                                    |                                                                  |
+
+<img src="../assets/images/Y301-A1_back.JPG" title="Y301-A1_back.JPG" width="200"
+alt="Y301-A1_back.JPG" />
+<figcaption aria-hidden="true">Y301-A1_back.JPG</figcaption>
 
 ### Getting Started
 
