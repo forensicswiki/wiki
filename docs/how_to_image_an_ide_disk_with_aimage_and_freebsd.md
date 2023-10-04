@@ -4,11 +4,9 @@ tags:
 ---
 Here is a photo of my disk imaging system:
 
-<figure>
-<img src="ImagingStationx4.jpg" title="ImagingStationx4.jpg" width="320"
+<img src="../assets/images/ImagingStationx4.jpg" title="ImagingStationx4.jpg" width="320"
 alt="ImagingStationx4.jpg" />
 <figcaption aria-hidden="true">ImagingStationx4.jpg</figcaption>
-</figure>
 
 Key elements of the disk imaging system:
 

@@ -69,7 +69,7 @@ Imager](https://www.exterro.com/ftk-imager),[encase](encase.md)
 and ProDiscover, will display ADSs found in acquired images in red.
 
 <figure>
-<img src="Alternate_data_stream_explore_with_FTKImager.jpg"
+<img src="../assets/images/Alternate_data_stream_explore_with_FTKImager.jpg"
 title="Alternate_data_stream_explore_with_FTKImager.jpg" width="1000"
 alt="Alternate_data_stream_explore_with_FTKImager.jpg" />
 <figcaption

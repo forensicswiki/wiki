@@ -50,14 +50,9 @@ The TAPS order is as follows:
 8.  8=TRST
 9.  9=NRST
 
-|                                                                  |
-|------------------------------------------------------------------|
-| <figure>
- <img src="Y301-A1_taps.jpg" title="Y301-A1_taps.jpg" width="600"
+ <img src="../assets/images/Y301-A1_taps.jpg" title="Y301-A1_taps.jpg" width="600"
  alt="Y301-A1_taps.jpg" />
  <figcaption aria-hidden="true">Y301-A1_taps.jpg</figcaption>
- </figure>                                                         |
-|                                                                  |
 
 After the wires are connected to the board, the phone is powered by the
 USB connection. Plug the Micro USB into the USB connection on the device
@@ -71,28 +66,18 @@ Launch the Riff Box JTAG Manager and use the following settings:
 - Resurrector Settings= Huawei U8815
 - Select the Data Length 4gb or 0x000100000000
 
-|                                                                         |
-|-------------------------------------------------------------------------|
-| <figure>
- <img src="Huawei-Y301-A1_settings.JPG"
+ <img src="../assets/images/Huawei-Y301-A1_settings.JPG"
  title="Huawei-Y301-A1_settings.JPG" width="800"
  alt="Huawei-Y301-A1_settings.JPG" />
  <figcaption aria-hidden="true">Huawei-Y301-A1_settings.JPG</figcaption>
- </figure>                                                                |
-|                                                                         |
 
 Advanced Settings:
 
 - Ignore Target IDCODE during Resurrection and DCC Loader operations
 
-|                                                                    |
-|--------------------------------------------------------------------|
-| <figure>
- <img src="RIFF_Settings.JPG" title="RIFF_Settings.JPG" width="600"
+ <img src="../assets/images/RIFF_Settings.JPG" title="RIFF_Settings.JPG" width="600"
  alt="RIFF_Settings.JPG" />
  <figcaption aria-hidden="true">RIFF_Settings.JPG</figcaption>
- </figure>                                                           |
-|                                                                    |
 
 Then connect and get the ID, you should receive the dead body signal.
 Then read the memory. JTAG complete.
