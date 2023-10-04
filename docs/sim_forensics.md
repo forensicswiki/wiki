@@ -14,11 +14,9 @@ all the valuable information the SIM Card holds.
 
 ## Getting Started
 
-<figure>
-<img src="What_you_need.jpg" title="What_you_need.jpg" width="250"
+<img src="../assets/images/What_you_need.jpg" title="What_you_need.jpg" width="250"
 alt="What_you_need.jpg" />
 <figcaption aria-hidden="true">What_you_need.jpg</figcaption>
-</figure>
 
 This is a list of items to get you started on reading SIM Cards and
 their information:
@@ -34,8 +32,10 @@ their information:
 1.  Make sure the SIM Card Reader with SIM Card is connected
 2.  Open [SIMCon](simcon.md)
 3.  Click File \> Read SIM or Click
-    ![<File:Simcon.png>](Simcon.png "File:Simcon.png") in the upper left
-    corner of [SIMCon](simcon.md)
+    <img src="../assets/images/Simcon.png"
+    title="simcon" width="150"
+    alt="simcon" /> in the upper left corner of [SIMCon](simcon.md)
+
 4.  Click OK when the next dialog box pops up
     - **Note**, some SIM cards are locked. This is where the PIN needs
       to be entered if known.
@@ -98,11 +98,9 @@ their information:
 This displays the ID or Card Identity of the SIM Card, this can also be
 found on the SIM card itself.
 
-<figure>
-<img src="Ef_iccid.png" title="Ef_iccid.png" width="350"
+<img src="../assets/images/Ef_iccid.png" title="Ef_iccid.png" width="350"
 alt="Ef_iccid.png" />
 <figcaption aria-hidden="true">Ef_iccid.png</figcaption>
-</figure>
 
 
 
@@ -134,7 +132,7 @@ alt="Ef_iccid.png" />
     - Within the network's customer base
 
 <figure>
-<img src="Ef_imsi.png" title="Ef_imsi.png" width="350"
+<img src="../assets/images/Ef_imsi.png" title="Ef_imsi.png" width="350"
 alt="Ef_imsi.png" />
 <figcaption aria-hidden="true">Ef_imsi.png</figcaption>
 </figure>
@@ -152,11 +150,11 @@ alt="Ef_imsi.png" />
 
 #### EF_PLMNSEL
 
-- List of all PLMN's (see
+- List of all PLMN's 
   [Sim_Filesystem#PLMN](sim_forensics.md#plmn)
 
 <figure>
-<img src="Plmnsel.png" title="Plmnsel.png" width="350"
+<img src="../assets/images/Plmnsel.png" title="Plmnsel.png" width="350"
 alt="Plmnsel.png" />
 <figcaption aria-hidden="true">Plmnsel.png</figcaption>
 </figure>
@@ -175,14 +173,14 @@ alt="Plmnsel.png" />
 #### EF_LOCI
 
 - Location Information
-  - Contains Location Area Identity (see
+  - Contains Location Area Identity
     [Sim_Filesystem#LAI](sim_forensics.md#lai)
-    - LAI Network Code (see
+    - LAI Network Code
       [Sim_Filesystem#PLMN](sim_forensics.md#plmn) /
       [Sim_Filesystem#LAI](sim_forensics.md#lai)
 
 <figure>
-<img src="Ef_loci.png" title="Ef_loci.png" width="350"
+<img src="../assets/images/Ef_loci.png" title="Ef_loci.png" width="350"
 alt="Ef_loci.png" />
 <figcaption aria-hidden="true">Ef_loci.png</figcaption>
 </figure>
@@ -202,10 +200,8 @@ alt="Ef_loci.png" />
 
 #### EF_ADN
 
-<figure>
-<img src="EF_adn.png" title="EF_adn.png" width="350" alt="EF_adn.png" />
+<img src="../assets/images/EF_adn.png" title="EF_adn.png" width="350" alt="EF_adn.png" />
 <figcaption aria-hidden="true">EF_adn.png</figcaption>
-</figure>
 
 
 

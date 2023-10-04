@@ -9,14 +9,9 @@ Processor and comes standard with Android version 2.3 and has internal
 storage of 512 MB. This phone is unsupported by RIFF Box for the JTAG
 process for resurrector. RIFF does support the Qualcomm 7627 processor.
 
-|                                                                    |
-|--------------------------------------------------------------------|
-| <figure>
- <img src="LG-L45C-front.PNG" title="LG-L45C-front.PNG" width="600"
+ <img src="../assets/images/LG-L45C-front.PNG" title="LG-L45C-front.PNG" width="600"
  alt="LG-L45C-front.PNG" />
  <figcaption aria-hidden="true">LG-L45C-front.PNG</figcaption>
- </figure>                                                           |
-|                                                                    |
 
 ### Getting Started
 
@@ -40,23 +35,13 @@ The Taps are located under the white LG sticker. The easiest way to
 access the TAPS is to remove the back cover of the phone. first remove
 the 7 screws (small Philips) and then the metal cover over the board.
 
-|                                                                  |
-|------------------------------------------------------------------|
-| <figure>
- <img src="LG-L45C-TAPS.PNG" title="LG-L45C-TAPS.PNG" width="630"
+ <img src="../assets/images/LG-L45C-TAPS.PNG" title="LG-L45C-TAPS.PNG" width="630"
  alt="LG-L45C-TAPS.PNG" />
  <figcaption aria-hidden="true">LG-L45C-TAPS.PNG</figcaption>
- </figure>                                                         |
-|                                                                  |
 
-|                                                                    |
-|--------------------------------------------------------------------|
-| <figure>
- <img src="LG-L45C-TAPS-order.PNG" title="LG-L45C-TAPS-order.PNG"
+ <img src="../assets/images/LG-L45C-TAPS-order.PNG" title="LG-L45C-TAPS-order.PNG"
  width="400" alt="LG-L45C-TAPS-order.PNG" />
  <figcaption aria-hidden="true">LG-L45C-TAPS-order.PNG</figcaption>
- </figure>                                                           |
-|                                                                    |
 
 The TAPS order is as follows:
 
@@ -87,14 +72,9 @@ Launch the Riff Box JTAG Manager and use the following settings:
 - Resurrector Settings= Qualcomm MSM 7XXX L41 D04 NAND
 - Auto FullFlash size
 
-|                                                                   |
-|-------------------------------------------------------------------|
-| <figure>
- <img src="JTAG_Mang_Setting.JPG" title="JTAG_Mang_Setting.JPG"
+ <img src="../assets/images/JTAG_Mang_Setting.JPG" title="JTAG_Mang_Setting.JPG"
  width="800" alt="JTAG_Mang_Setting.JPG" />
  <figcaption aria-hidden="true">JTAG_Mang_Setting.JPG</figcaption>
- </figure>                                                          |
-|                                                                   |
 
 Then connect and get the ID, you should receive the dead body signal.
 Then read the memory.

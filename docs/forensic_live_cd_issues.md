@@ -63,8 +63,10 @@ drives) during execution of
 mount every supported file system type on every supported media type
 using only "-o ro" flag in order to find a root file system image).
 
-![](ext3_recovery.png "ext3_recovery.png"): damaged Ext3 recovery during
-the boot\]\]
+<img src="../assets/images/Ext3_recovery.png"
+title="ext_recovery" width="550"
+alt="ext_recovery" /> 
+damaged Ext3 recovery during the boot
 
 List of distributions that recover Ext3 (and sometimes Ext4) file
 systems during the boot:
@@ -99,8 +101,10 @@ forensics requirements and is responsible for damaged Ext3/4 file
 systems recovery during the boot (see above) and root file system
 spoofing.
 
-![](Grml.png "Grml.png") mounted root file system from the [hard
-drive](hard_drive.md)\]\]
+<img src="../assets/images/Grml.png"
+title="grml" width="550"
+alt="grml" /> 
+mounted root file system from the [hard drive](hard_drive.md)
 
 Currently, Casper may select fake root file system image on evidentiary
 media (e.g. [HDD](hard_drive.md), because there are no

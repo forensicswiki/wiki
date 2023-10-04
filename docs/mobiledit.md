@@ -8,7 +8,9 @@ productivity and communication by allowing input using the computer to
 be downloaded into the phone. It it used to send photos, SMS messages,
 documents, and other important data to and from a cell phone.
 
-![](Mobileditscreen.jpg "Mobileditscreen.jpg")
+<img src="../assets/images/Mobileditscreen.jpg"
+title="mobileditscreen.jpg" width="550"
+alt="mobileditscreen" />
 
 ## Versions
 

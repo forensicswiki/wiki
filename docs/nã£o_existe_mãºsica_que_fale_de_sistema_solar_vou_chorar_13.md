@@ -2,7 +2,10 @@
 tags:
   - No Category
 ---
-![](Solar_Panels_1365.jpg "Solar_Panels_1365.jpg")
+
+<img src="../assets/images/Solar_Panels_1365.jpg"
+title="solar_panels" width="550"
+alt="solar_panels" />
 
 Someone remessageed me. Am I supposed to thank them? newtosocial media
 80s Awesomeness with the Corys'! (watching The Lost Boys Guilty or not,
