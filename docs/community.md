@@ -73,6 +73,16 @@ guidelines to help write high-quality articles:
 3. _Media:_ Images are not required, but if they help explain the topic they could be added.
 4. _Length:_ There is no requirement for length but the article should be long enough to explain the topic.
 
+### Images
+
+In order to add images to your document, you must places any images in the `/docs/assets/images` directory.  The following code is the simplest way to add an image to your document using HTML:
+
+```
+<img src="../assets/images/myimage.jpg"
+title="myimage.jpg" width="200"
+alt=myimage.jpg" />
+```
+
 ### Tags
 
 We are using tags in order to help make content more discoverable.  Tags will appear at the top of the page and should help the user know what the content is related to.  Tags are searchable and clickable, so you could easily see other articles that have the same tag.
@@ -191,11 +201,24 @@ tags:
 
 ### Check Content Formatting
 
-There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs render Markdown.  What this means is that when creating a page in Forensicswiki, some content looks fine in VS code but then once committed to Github the content is not displaying properly.  To ensure content is formatted correctly, you could use a local mkdocs install which has a built in development server.
+There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs render Markdown.  What this means is that when creating a page in Forensicswiki, some content looks fine in VS code but then once committed to Github the content is not displaying properly.  To ensure content is formatted correctly, you could use a local mkdocs install which has a built in development server.  Follow the steps below to install mkdocs.  Steps 1 and 2 are optional.
 
 #### Install mkdocs
 
-Install mkdocs on your system.
+1. Setup a Python environment 
+
+```
+$ python3 -m venv mkdocs
+```
+
+2. Activate Python environment
+
+```
+$ source mkdocs/bin/activate
+```
+
+3. Install mkdocs on your system.
+
 ```
 $ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
 ```
@@ -211,9 +234,15 @@ Both of the previous items are located in the root directory of the repository. 
 
 1.  Change to the root of the repository.  For example, if you cloned the repository to your home directory.
 
-          cd ~/wiki
+    ```
+    cd ~/wiki
+    ```
 
-2.  mkdocs serve
+2.  Start local mkdocs server
+
+    ```
+    mkdocs serve
+    ```
 
 3.  Open your browser and visit http://127.0.0.1:8000/your_doc_name
 
