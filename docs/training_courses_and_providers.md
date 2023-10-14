@@ -37,7 +37,7 @@ SANS On-Demand Training | Distance Learning Format | http://www.sans.org/ondeman
 Cybrary - Free and Open Source Learning for Cyber Security, IT and more | Online / Distance Learning Format | https://www.cybrary.it/catalog/
 National Center for Media Forensics | Distance and Concentrated Audio/Video/Image Forensics | http://cam.ucdenver.edu/ncmf
 University College Dublin - MSc Digital Investigation &amp; Forensic Computing (for computer science graduates) | Online / Distance Learning Format with annual exams in Ireland | http://www.ucd.ie/cci/education/prospective_students/msc_difc.html
-University College Dublin - Forensic Computing and Cybercrime Investigation programme (law enforcement only) | Online / Distance Learning Format with annual exams in USA, Ireland or Netherlands | http://www.ucd.ie/cci/education/prospective_students/fcci_programmes.html
+University College Dublin - Forensic Computing and Cybercrime Investigation programme (law enforcement only) | Online / Distance Learning Format with annual exams in USA, Ireland or Netherlands |
 RECURRING TRAINING | |
 Evidence Recovery for Windows 7® operating system | First full week every month, Brunswick, GA | http://www.internetcrimes.net
 Evidence Recovery for Windows 8® | Second full week every month, Brunswick, GA | http://www.internetcrimes.net

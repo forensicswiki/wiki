@@ -63,6 +63,5 @@ Matriux offers many forensics tools under its
 * [Official website](http://www.matriux.com/)
 * [Download Matriux OS](http://www.matriux.com/index.php?page=download)
 * [Matriux sourceforge](https://sourceforge.net/projects/matriux/)
-* [Support](http://forum.matriux.com)
 * [Artworks](http://matriux.com/index.php?page=art-de-matriux)
 * IRC: <irc://irc.freenode.net/matriux>

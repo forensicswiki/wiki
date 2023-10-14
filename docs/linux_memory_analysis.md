@@ -45,10 +45,9 @@ Inactive Open Source and Research Projects:
   a cross-platform, modular, and extensible digital investigation
   framework for analyzing volatile system memory. (Publication Date:
   2006; Availability/License: not available)
-- [Foriana](http://hysteria.sk/~niekt0/foriana/) is tool for extraction
-  of information such as the process and modules lists from a RAM image
-  using logical relations between OS structures. (Availability/License:
-  GNU GPL)
+- Foriana is tool for extraction of information such as the process and modules
+  lists from a RAM image using logical relations between OS structures.
+  (Availability/License: GNU GPL)
 - [Draugr](https://code.google.com/archive/p/draugr) is a Linux memory forensics
   tool written in Python. (Availability/License: GNU GPL)
 - [Volatilitux](https://code.google.com/archive/p/volatilitux) is another Linux

@@ -10,8 +10,8 @@ maintain additional Event Logs (DNS Server.evt, Directory Service.evt,
 File Replication Service.evt) depending upon the functionality of the
 server.
 
-Note that Windows Vista and later use the [Windows XML Event Log
-(evtx)](windows_xml_event_log_(evtx).md) format.
+Note that Windows Vista and later use the [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
+format.
 
 Each log file consists of a Header record and the Body. The body again
 consists of Event records, the Cursor record and unused space. The body
@@ -21,8 +21,7 @@ empty, slack and padding.
 
 ## Header Record
 
-The Header Record defined as
-[ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
+The Header Record defined as [ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
 on MSDN consists of:
 
 1.  uint32 length of record in bytes, fixed 0x30
@@ -46,13 +45,13 @@ Filesize is updated only during some recovery operations.
 
 ### Flags
 
-- 0x0001 DIRTY if set, flag is set after first first write after an open
+* 0x0001 DIRTY if set, flag is set after first first write after an open
   operation.
-- 0x0002 WRAPPED is set, flag is set if the log wrapped around.
-- 0x0004 FULL if set, flag is set if an event record could not be
+* 0x0002 WRAPPED is set, flag is set if the log wrapped around.
+* 0x0004 FULL if set, flag is set if an event record could not be
   written because of size limitations and the retention policy in
   effect.
-- 0x0008 PRIMARY if set, BACKUP if unset. This flag possibly depends on
+* 0x0008 PRIMARY if set, BACKUP if unset. This flag possibly depends on
   the origin of a log file, usage seems change between earlier (pre SP1)
   and later versions (SP4) of Windows 2000.
 
@@ -76,17 +75,17 @@ under
 
 If
 
-- a log file has reached its configured size limit
-- and the retention policy allows wrapping
-- and the remaining size is larger than 0x38 but smaller than the event
+* a log file has reached its configured size limit
+* and the retention policy allows wrapping
+* and the remaining size is larger than 0x38 but smaller than the event
   record to be written,
 
 then
 
-- the event log service writes the first part of the event record (to
+* the event log service writes the first part of the event record (to
   record offset 0x38)
-- fills the remaining space with a padding of 0x0027
-- continues to write the second part of the event record (starting at
+* fills the remaining space with a padding of 0x0027
+* continues to write the second part of the event record (starting at
   record offset 0x38) at the top of the body (immediately after the
   header, that is at file offset 0x30).
 
@@ -123,35 +122,26 @@ be careful to keep these issues in mind when analyzing EVT logs.
 
 ## See Also
 
-- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
-- [Windows](windows.md)
+* [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
+* [Windows](windows.md)
 
 ## External Links
 
 ### File Format
 
-- [Windows Event Log (EVT) format](https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc),
+* [Windows Event Log (EVT) format](https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc),
   by the [libevt project](libevt.md)
-
-### Event identifiers
-
-- [EventID.net](http://eventid.net/)
-
-### Windows 2000
-
-- [Correlation of Windows Process Tracking
-  Events](http://www.eventreporter.com/common/en/securityreference/win-eventcorrelation-processtracking.php)
 
 ## Tools
 
-- [GrokEVT](http://projects.sentinelchicken.org/grokevt) is a set of
+* [GrokEVT](http://projects.sentinelchicken.org/grokevt) is a set of
   forensics scripts designed to make sense of EVT logs for
   investigations. Along with RegLookup, it is able to combine registry
   information and event log templates to place EVT data in context.
   (UN\*X platforms only.)
-- [<File::ReadEVT>](http://www.cpan.org/modules/by-authors/id/H/HC/HCARVEY/)
+* [File::ReadEVT](http://www.cpan.org/modules/by-authors/id/H/HC/HCARVEY/)
   is a Perl module that parses event log files for the purpose of
   forensics.
-- [libevt](libevt.md)
-- [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin
-- [evtkit - fix broken evt files](https://github.com/yarox24/evtkit)
+* [libevt](libevt.md)
+* [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin
+* [evtkit - fix broken evt files](https://github.com/yarox24/evtkit)

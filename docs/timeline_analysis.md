@@ -64,7 +64,7 @@ tags:
 
 <!-- -->
 
-- [ThemeRiver: In Search of Trends, Patterns, and Relationships](http://infoviz.pnl.gov/pdf/themeriver99.pdf),
+- ThemeRiver: In Search of Trends, Patterns, and Relationships,
   by Susan Havre, Beth Hetzler, and Lucy Nowell, Battelle Pacific Northwest
   Division, Richland, Washington, 1999
 - [Timeline Visualization of Research Fronts](http://www.conceptsymbols.com/web/publications/2003_timelines.pdf),

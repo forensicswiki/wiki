@@ -95,8 +95,7 @@ Windows systems.
   Arsenal Image Mounter takes the contents of disk images and presents them to
   Windows as SCSI disks
 - [FTK Imager](https://www.exterro.com/ftk-product-downloads)
-- [ImDisk](http://www.ltr-data.se/opencode.html#ImDisk) - also on
-  [WikiPedia](http://en.wikipedia.org/wiki/ImDisk)
+- [ImDisk Virtual Disk Driver](http://www.ltr-data.se/opencode.html#ImDisk)
 - [Paraben](paraben_forensics.md) P2X
 
 ## Commercial Tools
