@@ -35,7 +35,6 @@ Store does not allow in any application it distributes).
   even brute-force the iPhone's 4-digit numerical password.
 - [iOS Forensic Research](http://www.iosresearch.org). Jonathan Zdziarski has released tools that will
   image iPhones, iPads and iPod Touch. (law enforcement only).
-- [Katana Forensics Lantern](http://katanaforensics.com/products/)
 - [libimobiledevice](https://libimobiledevice.org/) is a library with
   utilities for backing up iPhones. The output format is an iTunes-style
   backup that can be examined with traditional tools. They are available
