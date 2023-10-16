@@ -109,8 +109,3 @@ images can also be found on the Second Look website at
   Andrew Case; Blackhat Vegas 2011.
 - [Forcepoint Security Labs Blog: "Horse Pill Rootkit vs. Forcepoint Threat Protection for Linux" (Second Look)](https://www.forcepoint.com/blog/x-labs/horse-pill-rootkit-vs-forcepoint-threat-protection-linux)
 - [Forcepoint Security Labs Blog: "Detecting Register-Hooking Linux Rootkits with Forcepoint Second Look"](https://www.forcepoint.com/blog/x-labs/detecting-register-hooking-linux-rootkits-forcepoint-second-look)
-
-Volatility Mailing List Threads on Support for Linux:
-
-- <http://lists.volatilesystems.com/pipermail/vol-users/2010-January/thread.html#143>
-- <http://lists.volatilesystems.com/pipermail/vol-dev/2010-September/thread.html#112>

@@ -259,7 +259,7 @@ below.
 
 <!-- -->
 
-- 25 Oct 2010: Sean Morrisey about iOS forensics and [Katana Forensics](https://katanaforensics.com/)
+- 25 Oct 2010: Sean Morrisey about iOS forensics and Katana Forensics
 
 <!-- -->
 

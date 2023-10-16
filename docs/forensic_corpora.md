@@ -202,18 +202,13 @@ of sources.
 
 ## IEEE VAST Challenges
 
-IEEE Visual Analytics Science & Technology Challenges
-
-- [2009 Challenge](http://hcil.cs.umd.edu/localphp/hcil/vast/index.php)
-- [2010
-  Challenge](http://hcil.cs.umd.edu/localphp/hcil/vast10/index.php)
-- [2011 Challenge](http://hcil.cs.umd.edu/localphp/hcil/vast11/)
+IEEE Visual Analytics Science & Technology (VAST) Challenges
 
 # Images
 
-[1](http://imagedatabase.cs.washington.edu) UW Image Database
-A set of freely redistributable images from all over the world, used for
-content-based image retrieval.
+[Object and Concept Recognition for Content-Based Image Retrieval](http://imagedatabase.cs.washington.edu)
+UW Image Database. A set of freely redistributable images from all over
+the world, used for content-based image retrieval.
 
 # Voice
 

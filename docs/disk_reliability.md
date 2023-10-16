@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Research
+  - Research
 ---
 Research on disk reliability and disk failure rates is relevant to
 computer forensics for several reasons:
@@ -14,14 +14,11 @@ computer forensics for several reasons:
 
 - An analysis of latent sector errors in disk drives, Lakshmi N.
   Bairavasundaram, Garth R. Goodson, Shankar Pasupathy, Jiri Schindler,
-  SIGMETRICS '07. [(ACM
-  DL)](https://dl.acm.org/doi/10.1145/1269899.1254917)
+  SIGMETRICS '07. [(ACM DL)](https://dl.acm.org/doi/10.1145/1269899.1254917)
 
 <!-- -->
 
-- [Failure Trends in a Large Disk Drive
-  Population](http://labs.google.com/papers/disk_failures.pdf), Eduardo
-  Pinheiro, Wolf-Dietrich Weber and Luiz Andre Barroso, Proceedings of
-  the 5th USENIX Conference on File and Storage Technologies (FAST’07),
+- [Failure Trends in a Large Disk Drive Population](https://static.googleusercontent.com/media/research.google.com/en//archive/disk_failures.pdf),
+  by Eduardo Pinheiro, Wolf-Dietrich Weber and Luiz Andre Barroso, Proceedings
+  of the 5th USENIX Conference on File and Storage Technologies (FAST’07),
   February 2007
-

@@ -45,7 +45,6 @@ operating systems (listed alphabetically):
 
 * Aceso by Radio Tactics
   [1](https://radio-tactics.com)
-* Lantern by Katana Forensics [3](https://katanaforensics.com/)
 * [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) by
   [Nuix](nuix.md).
 * Oxygen Forensic Suite by Oxygen Software

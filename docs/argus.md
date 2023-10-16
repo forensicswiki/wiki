@@ -1,14 +1,14 @@
 ---
 tags:
-  -  Network Forensics
-  -  Tools
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
-  -  Open Source Software
+  - Network Forensics
+  - Tools
+  - Linux
+  - Windows
+  - MacOS
+  - FreeBSD
+  - OpenBSD
+  - NetBSD
+  - Open Source Software
 ---
 ## Overview
 
@@ -95,10 +95,8 @@ transactions:
 
 ## External Links
 
-- [Argus website](https://qosient.com/argus/)
-- [Argus Wiki](http://nsmwiki.org/index.php?title=Argus)
+* [Argus website](https://qosient.com/argus/)
 
 ## See Also
 
-- [tcpdump](tcpdump.md)
-
+* [tcpdump](tcpdump.md)

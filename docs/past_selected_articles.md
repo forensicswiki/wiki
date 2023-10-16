@@ -171,20 +171,16 @@ discovered that part of the user data was left unencrypted.
 
 <small>Mar 2012</small>
 
-<bibtex> @inproceedings{Walls:2011a, Audio_Url =
-{<http://prisms.cs.umass.edu/brian/pubs/Walls.hotsec.2011.mp3>}, Author
+<bibtex> @inproceedings{Walls:2011a, Author
 = { Robert J. Walls and Brian Neil Levine and Marc Liberatore and Clay
 Shields}, Booktitle = {Proc.\\ USENIX Workshop on Hot Topics in Security
 (HotSec)}, Keywords = {forensics; security}, Month = {August},
 Slides_Url =
-{<http://prisms.cs.umass.edu/brian/pubs/rjwalls.hotsec.2011.slides.pdf>},
+{<http://www.usenix.org/events/hotsec11/tech/slides/walls.pdf>},
 Sponsors = {CNS-1018615, CNS-0905349, DUE-0830876, 2008-CE-CXK005},
 Title = , Url =
-{<http://prisms.cs.umass.edu/brian/pubs/Walls.hotsec.2011.pdf>},
-Video_Url =
-{<http://prisms.cs.umass.edu/brian/pubs/Walls.hotsec.2011.mp4>}, Year =
-{2011}, Bdsk-Url-1 =
-{<http://prisms.cs.umass.edu/brian/pubs/Walls.hotsec.2011.pdf>}}
+{<http://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf>},
+Year = {2011}}
 </bibtex> Many technical mechanisms across computer security for
 attribution, identiﬁcation, and classiﬁcation are neither sufﬁcient nor
 necessary for forensically valid digital investigations; yet they are
@@ -199,10 +195,9 @@ investigators that set the ﬁeld apart. We point out the assumptions,
 often limited or incorrect, made about forensics in past work, and
 discuss how these assumptions limit the impact of contributions.
 
-- [Usenix
-  Presentation](https://www.usenix.org/conference/hotsec11/effective-digital-forensics-research-investigator-centric)
-- [Slides](http://prisms.cs.umass.edu/brian/pubs/rjwalls.hotsec.2011.slides.pdf)
-- [paper](http://prisms.cs.umass.edu/brian/pubs/Walls.hotsec.2011.pdf)
+- [Usenix Presentation](https://www.usenix.org/conference/hotsec11/effective-digital-forensics-research-investigator-centric)
+- [Slides](http://www.usenix.org/events/hotsec11/tech/slides/walls.pdf)
+- [paper](http://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
 
 <small>March 2012</small> <bibtex>
 @inproceedings{Balasubramaniyan:2010:PUS:1866307.1866320,

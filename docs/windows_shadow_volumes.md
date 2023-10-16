@@ -178,7 +178,6 @@ information.
 
 ### Other
 
-* [Lurking in the Shadows – Hack3rcon II](http://lanmaster53.com/talks/#hack3rcon2)
 * [Volume Shadow Copies - The Lost Post](https://www.scmagazine.com/security-weekly),
   by Mark Baggett, October 2012
 
