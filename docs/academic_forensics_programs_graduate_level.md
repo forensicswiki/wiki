@@ -43,7 +43,7 @@ tags:
 - [University of Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
 - University of Bradford
 - University of East London
-- [University College Dublin](http://cci.ucd.ie/fcci)
+- University College Dublin
 - [University of Technology, Mauritius](https://www.utm.ac.mu/)
 - [University of Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
 - [University of Glamorgan, Wales, UK](http://www.glam.ac.uk/coursedetails/685/549)

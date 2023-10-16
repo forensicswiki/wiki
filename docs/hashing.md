@@ -34,15 +34,6 @@ National Drug Intelligence Center
 Solaris Fingerprint Database lookup for files distributed by Sun
 Microsystems
 
-## Online NSRL Lookup
-
-<http://ionrift.ath.cx/nsrl/>
-Allows searching of NSRL 2.17 by MD5 or SHA1. Reportedly the dataset
-contains 43,103,492 files.
-
-(Infrequently available, and likely only when the site owner (Jason
-Spashett) needs to use it himself.)
-
 ## MD5 Reverse Hash Services
 
 There are several online services that allow you to enter a hash code
@@ -61,11 +52,6 @@ interface.
 <http://www.hashcrack.com/>
 Reverse hash lookup of MD5, SHA1, MySQL, NTLM, and Lanman hashes. Claims
 75 million hashes of 13.2 million unique words.
-
-<!-- -->
-
-<http://gdataonline.com/seekhash.php>
-MD5 reverse lookup with approximately 1 million entries.
 
 <!-- -->
 

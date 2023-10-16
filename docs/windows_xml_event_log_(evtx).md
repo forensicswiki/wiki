@@ -52,10 +52,6 @@ Where LCID is the "locale identifier"
 * [Windows XML Event Log (EVTX) format](https://github.com/libyal/libevtx/blob/main/documentation/Windows%20XML%20Event%20Log%20(EVTX).asciidoc),
   by the [libevtx project](libevtx.md)
 
-### Event Identifiers
-
-* [EventID.net](http://eventid.net/)
-
 ### Windows Vista/2008
 
 * [Description of security events in Windows Vista and in Windows Server 2008](http://support.microsoft.com/kb/947226)

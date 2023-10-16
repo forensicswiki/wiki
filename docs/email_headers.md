@@ -98,8 +98,7 @@ This is an (incomplete) excerpt from an email header:
 
 ## External Links
 
-- [Wikipedia entry on email
-  headers](http://en.wikipedia.org/wiki/E-mail#Header)
+- [Wikipedia: E-mail](http://en.wikipedia.org/wiki/E-mail)
 
 ### Tools
 

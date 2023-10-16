@@ -175,7 +175,7 @@ This commercial memory forensics product ships with a modified version
 of the crash driver and a script for safely dumping memory using the
 original or modified driver on any given Linux system.
 
-[fmem](http://hysteria.sk/~niekt0/foriana/fmem_current.tgz)
+fmem
 fmem is kernel module that creates device /dev/fmem, similar to /dev/mem
 but without limitations. This device (physical RAM) can be copied using
 dd or other tool. Works on 2.6 Linux kernels. Under GNU GPL.

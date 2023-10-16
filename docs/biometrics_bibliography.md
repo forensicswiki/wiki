@@ -30,7 +30,7 @@ tags:
 `year = {2006},`
 `issn = {0953-5438},`
 `pages = {1101--1122},`
-`doi = {`[`http://dx.doi.org/10.1016/j.intcom.2006.01.004`](http://dx.doi.org/10.1016/j.intcom.2006.01.004)`},`
+`doi = {`[`https://academic.oup.com/iwc/article-abstract/18/5/1101/900661`](https://academic.oup.com/iwc/article-abstract/18/5/1101/900661)`},`
 `publisher = {Elsevier Science Inc.},`
 `address = {New York, NY, USA},`
 `}`
@@ -156,7 +156,7 @@ journal = {Optics and Lasers in Engineering },
 `month = {September},`
 `year = {2006},`
 `pages = {1101--1122},`
-`doi = {`[`http://dx.doi.org/10.1016/j.intcom.2006.01.004`](http://dx.doi.org/10.1016/j.intcom.2006.01.004)` },`
+`doi = {`[`https://academic.oup.com/iwc/article-abstract/18/5/1101/900661`](https://academic.oup.com/iwc/article-abstract/18/5/1101/900661)`},`
 `publisher = {Elsevier B.V.},`
 
 `abstract = {As a result of the evolution in the field of biometrics, a new breed of techniques and methods for user identity recognition and verification has appeared based on the recognition and verification of several biometric features considered unique to each individual. Signature and voice characteristics, facial features, and iris and fingerprint patterns have all been used to identify a person or just to verify that the person is who he/she claims to be. Although still relatively new, these new technologies have already reached a level of development that allows its commercialization. However, there is a lack of studies devoted to the evaluation of these technologies from a user-centered perspective. This paper is intended to promote user-centered design and evaluation of biometric technologies. Towards this end, we have developed a platform to perform empirical evaluations of commercial biometric identity verification systems, including fingerprint, voice and signature verification. In this article, we present an initial empirical study in which we evaluate, compare and try to get insights into the factors that are crucial for the usability of these systems.   }`
