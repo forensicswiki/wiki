@@ -22,10 +22,9 @@ Active Open Source Projects:
   number of features, as well as its own acquisition tools. It is usable
   as a library and is used as such in the GRR remote live forensics
   project.
-- The [Red Hat Crash Utility](http://people.redhat.com/anderson/) is an
-  extensible Linux kernel core dump analysis program. Although designed
-  as a debugging tool, it also has been utilized for memory forensics.
-  See, for example, the [2008 DFRWS challenge write-up by AAron Walters](http://volatilesystems.blogspot.com/2008/07/linux-memory-analysis-one-of-major.html).
+- The Red Hat Crash Utility is an extensible Linux kernel core dump analysis
+  program. Although designed as a debugging tool, it also has been utilized for
+  memory forensics. See, for example, the [2008 DFRWS challenge write-up by AAron Walters](http://volatilesystems.blogspot.com/2008/07/linux-memory-analysis-one-of-major.html).
   (Availability/License: GNU GPL)
 
 Commercial Products:
@@ -53,8 +52,7 @@ Inactive Open Source and Research Projects:
 - [Volatilitux](https://code.google.com/archive/p/volatilitux) is another Linux
   memory forensics tool written in Python. (Availability/License: GNU
   GPL)
-- Idetect (Linux) <http://forensic.seccure.net/> is an older
-  implementation of Linux memory analysis.
+- Idetect is an older implementation of Linux memory analysis.
 
 ## Linux Memory Analysis Challenges
 
@@ -67,12 +65,6 @@ Inactive Open Source and Research Projects:
 - [Challenge 7 of the Honeynet Project's Forensic Challenge 2011](https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/)
   included forensic analysis of a memory image from a potentially
   compromised Linux server.
-
-## Linux Memory Images
-
-Aside from those in the challenges referenced above, sample Linux memory
-images can also be found on the Second Look website at
-<https://secondlookforensics.com/images.html>.
 
 ## Linux Memory Analysis Bibliography
 

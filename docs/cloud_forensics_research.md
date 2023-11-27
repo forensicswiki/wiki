@@ -235,7 +235,7 @@ location="Monterey, CA",
 ` year={2010},`
 ` address={New York, NY, USA},`
 ` organization={ACM},`
-` url="`[`http://bbcr.uwaterloo.ca/~rxlu/paper/asiaccs185-lu.pdf`](http://bbcr.uwaterloo.ca/~rxlu/paper/asiaccs185-lu.pdf)`"`
+` url="`[`https://dl.acm.org/doi/10.1145/1755688.1755723`](https://dl.acm.org/doi/10.1145/1755688.1755723)`"`
 
 }
 

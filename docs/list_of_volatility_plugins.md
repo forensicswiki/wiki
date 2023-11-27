@@ -51,14 +51,12 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   (By
   [Moyix](https://moyix.blogspot.com/2008/10/plugin-post-moddump.html)) -
   Dump out a kernel module (aka driver)
-- [Registry
-  tools](https://sites.cc.gatech.edu/~brendan/volatility/dl/volreg-0.6.tar.gz)
+- [Registry tools](https://sites.cc.gatech.edu/~brendan/volatility/dl/volreg-0.6.tar.gz)
   (By
   [Moyix](https://moyix.blogspot.com/2009/01/memory-registry-tools.html)) -
   A suite of plugins for accessing data from the registry, including
   password hashes, LSA secrets, and arbitrary registry keys.
-- [Modified Regripper & Glue
-  Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
+- [Modified Regripper & Glue Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
   (By
   [Moyix](https://moyix.blogspot.com/2009/03/regripper-and-volatility-prototype.html)) -
   Code to run a modified RegRipper against the registry hives embedded
@@ -115,13 +113,11 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   [Scudette](http://scudette.blogspot.com/2008/10/pstree-volatility-plugin.html)) -
   Produces a tree-style listing of processes
 - [vol2html](http://gleeda.blogspot.com/2009/03/briefly-vol2html-update.html)
-  (By [Jamie Levy AKA
-  Gleeda](http://gleeda.blogspot.com/2008/11/vol2html-perl-script.html)) -
+  (By [Jamie Levy AKA Gleeda](http://gleeda.blogspot.com/2008/11/vol2html-perl-script.html)) -
   Converts volatility output to HTML. Not technically a plugin, but
   useful nonetheless.
-- [SQLite](http://jls-scripts.googlecode.com/files/vol_sql-0.2.tgz) (By
-  [Jamie Levy AKA
-  Gleeda](http://gleeda.blogspot.com/2010/01/volatilitys-output-rendering-functions.html)) -
+- SQLite,
+  by [Jamie Levy AKA Gleeda](http://gleeda.blogspot.com/2010/01/volatilitys-output-rendering-functions.html) -
   Allows one to place Volatility output into a SQLite3 Database
 
 ## Other Helper Tools

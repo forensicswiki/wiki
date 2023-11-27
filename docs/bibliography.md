@@ -6,7 +6,7 @@ tags:
 
 - [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection and Exclusions](https://belkasoft.com/ssd-2014),
   by Yuri Gubanov and Oleg Afonin, 2014
-- [Why SSD Drives Destroy Court Evidence, and What Can Be Done About It](http://forensic.belkasoft.com/download/info/SSD%20Forensics%202012.pdf),
+- [Why SSD Drives Destroy Court Evidence, and What Can Be Done About It](https://belkasoft.com/why-ssd-destroy-court-evidence),
   by Oleg Afonin and Yuri Gubanov, 2012
 - [Disk Imaging: A Vital Step in Data Recovery](https://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf),
   DeepSpar Data Recovery Systems, November 2006. An in depth look at the

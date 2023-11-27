@@ -31,8 +31,6 @@ adrian_santangelo.
 
 ## External Links
 
-* [ISC Unlimited (no longer maintained)](https://www.interpretingtech.com/)
-* [Interpreting Technology](https://www.interpretingtech.com/)
 * [LinkedIn Profile](https://www.linkedin.com/in/AdrianSantangelo/)
 * [Business Facebook Page](https://www.facebook.com/InterpretingTech)
 * [Personal Facebook Page](https://www.facebook.com/adrian.santangelo/)

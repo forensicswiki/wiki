@@ -18,7 +18,7 @@ relationship between Theer and Diamond, and messages documenting the
 conspiracy to murder Theer's husband. Theer was found guilty on December
 3, 2004 of murder and conspiracy and sentenced to life in prison[^2].
 
-### 2002 [Scott Tyree](http://en.wikipedia.org/wiki/Scott_Tyree)
+### 2002 Scott Tyree
 
 *Postings on Yahoo reveal a kidnapping*
 
@@ -34,12 +34,9 @@ who had used the screen name, then contacted Verizon to learn the name
 and physical address of the Verizon subscriber to whom that IP address
 had been assigned. It was Scott William Tyree.
 
-- [article on the
-  abduction](https://www.covenanteyes.com/2012/01/13/caught-by-a-predator-10-years-after-her-abduction/)
-- [Popular Mechanics
-  article](https://www.popularmechanics.com/technology/security/how-to/a630/2672751/)
-- [Congressional testimony of Alicia
-  Kozakiewicz](http://notonemorechild.org/map/9)
+* [article on the abduction](https://www.covenanteyes.com/2012/01/13/caught-by-a-predator-10-years-after-her-abduction/)
+* [Popular Mechanics article](https://www.popularmechanics.com/technology/security/how-to/a630/2672751/)
+* [Congressional testimony of Alicia Kozakiewicz](http://notonemorechild.org/map/9)
 
 ### 2005 [Dennis Rader](https://en.wikipedia.org/wiki/Dennis_Rader) --- The "BTK" Serial Killer
 

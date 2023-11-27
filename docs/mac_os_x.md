@@ -252,8 +252,6 @@ Mac OS.
 * [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
 * [Command Line ALF on Mac OS X](https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
 * [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
-* [Mac OS X Forensics](https://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-8.pdf),
-  by Joaquin Moreno Garijo, March 4, 2015
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
   by Emil Kvarnhammar, April 9, 2015
 * [Max OS X Internals book (1st ed)](http://newosxbook.com/1stEdIsFree.html) by Jonathan Levin PDF

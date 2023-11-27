@@ -12,14 +12,10 @@ Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
 
-<!-- -->
-
 [WindowsSCOPE](https://www.windowsscope.com/) CaptureGUARD ExpressCard (commercial) - laptop applications
 Publicly available, supports all Windows OS; windd and other formats.
 
 CaptureGUARD Gateway performs DRAM acquisition even on locked computers
-
-<!-- -->
 
 [Tribble PCI Card](https://digital-evidence.org/papers/tribble-preprint.pdf) (research project)
 
@@ -40,19 +36,13 @@ applications such as online games and intrusion detection systems.
 Kernel-mode operation yields more reliable results compared to user-mode
 tools.
 
-<!-- -->
-
 Designed specifically for computer forensics. Fully portable, runs off a
 flash drive, produces uncompressed raw binary output of the computer’s
 volatile memory. Includes kernel-mode drivers for all Windows OS’es
 including XP, Vista, 7, 8, 2003 and 2008 Server. 32 and 64-bit drivers
 are included.
 
-<!-- -->
-
 [Belkasoft Live RAM Capturer](https://belkasoft.com/ram-capturer)
-
-<!-- -->
 
 [WindowsSCOPE Pro and Ultimate](https://www.windowsscope.com/)
 
@@ -72,32 +62,22 @@ acquisition
 CaptureGUARD Gateway for hardware-assisted DRAM acquisition of locked
 computers
 
-<!-- -->
-
 [WindowsSCOPE Live](https://www.windowsscope.com/)
 
 allows live memory analysis of Windows computers from Android phones and
 tablets
-
-<!-- -->
 
 winen.exe (Guidance Software - included with Encase 6.11 and higher)
 included on [Helix 2.0](http://www.e-fense.com/helix/)
 
 <http://forensiczone.blogspot.com/2008/06/winenexe-ram-imaging-tool-included-in.html>
 
-<!-- -->
-
 [Mdd](mdd.md) ([ManTech](mantech.md))
 <https://sourceforge.net/projects/mdd>
-
-<!-- -->
 
 MANDIANT [Memoryze](https://www.mandiant.com)
 Can capture and analyze memory. Supports reading dumps (raw/dd format)
 from other tools.
-
-<!-- -->
 
 Moonsols: [DumpIt](https://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7)
 This utility is used to generate a physical memory dump of Windows
@@ -109,13 +89,10 @@ confirmation question is prompted before starting.
 Perfect to deploy the executable on USB keys, for quick incident
 responses needs.
 
-
 [FTK Imager](ftk_imager.md)
 
 FTK Imager can acquire live memory and paging file on 32-bit and 64-bit
 systems.
-
-<!-- -->
 
 [OSForensics](https://www.osforensics.com/)
 
@@ -123,8 +100,6 @@ OSForensics can acquire live memory on 32-bit and 64-bit systems. A dump
 of an individual process's memory space or physical memory dump can be
 done. Output can be a straight dump or a Microsoft crash dump file, for
 use with Micrsoft's WinDbg debugger.
-
-<!-- -->
 
 [WinPmem](rekall.md)
 WinPmem is a free, actively developed, opensource forensic memory
@@ -170,7 +145,7 @@ available at all. Throughout the 2.6 series of the Linux kernel, the
 trend was to reduce direct access to memory via pseudo-device files.
 See, for example, the message accompanying this [patch](https://lwn.net/Articles/267427/).
 
-[Second Look: Linux Memory Forensics](https://secondlookforensics.com/)
+Second Look: Linux Memory Forensics
 This commercial memory forensics product ships with a modified version
 of the crash driver and a script for safely dumping memory using the
 original or modified driver on any given Linux system.
@@ -187,16 +162,13 @@ having to build a pmem kernel module for every different kernel version.
 
 ### Mac OS X
 
-[Goldfish](http://digitalfire.ucd.ie/?page_id=430)
+Goldfish
 Goldfish is a [Mac OS X](mac_os_x.md) live forensic tool. Its
 main purpose is to provide an easy to use interface to dump the system
 RAM of a target machine via a [Firewire](firewire.md)
 connection. It then automatically extracts the current user login
 password and any open AOL Instant Messenger conversation fragments that
-may be available. Please see [1](http://digitalfire.ucd.ie/?page_id=430)
-for more information.
-
-<!-- -->
+may be available.
 
 [OSXPMem](rekall.md)
 The OSX Memory Imager is an open source tool to acquire physical memory
