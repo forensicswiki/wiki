@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 There are a number of mailing lists of interest to Digital Forensics
 Practitioners. Below is a listing of some more well known lists. It is
@@ -22,7 +22,7 @@ not all-inclusive.
   forensic products (exceptions to this are personnel who retire and
   then offer their utility suites commercially). For subscription
   information, send request to jnj AT infobin.org
-- [Computer Forensics Tool Testing](https://www.yahoo.com/)
+- Computer Forensics Tool Testing
   (**cftt@yahoogroups.com**) - Subscription requires moderator approval.
   The archive is only available to list members.
 - [High Technology Crime Consortium Mailing List](http://www.hightechcrimecops.org/membership.html) -
@@ -31,22 +31,6 @@ not all-inclusive.
 - [High Technology Crime Investigation Association Mailing List](https://www.htcia.org/) -
   The HTCIA mailing list is for members only. The archive is only available to
   list members.
-- [MacIntosh OS: Forensics](https://www.yahoo.com/)
+- MacIntosh OS: Forensics
   (**macos_forensics@yahoogroups.com**) - The archive is only available
   to list members.
-- [SecurityFocus: Forensics](https://bugtraq.securityfocus.com/archive/104)
-  (**forensics@securityfocus.com**)
-- [SecurityFocus: LogAnalysis](https://bugtraq.securityfocus.com/archive/116)
-  (**loganalysis@securityfocus.com**)
-- [SecurityFocus: Honeypots](https://bugtraq.securityfocus.com/archive/119)
-  (**honeypots@securityfocus.com**)
-- [SecurityFocus: Phishing and Botnets](https://bugtraq.securityfocus.com/archive/135)
-  (**phishing@securityfocus.com**)
-- [SecurityFocus: Real Cases](https://bugtraq.securityfocus.com/archive/136)
-  (**realcases@securityfocus.com**)
-- [SecurityFocus: Binary Analysis](https://bugtraq.securityfocus.com/archive/138)
-  (**binaryanalysis@securityfocus.com**)
-- [SecurityFocus: Incidents](https://bugtraq.securityfocus.com/archive/75)
-  (**incidents@securityfocus.com**)
-- [SecurityFocus: Forensics in Spanish](https://bugtraq.securityfocus.com/archive/128)
-  (**forensics-es@securityfocus.com**)

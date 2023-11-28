@@ -65,7 +65,6 @@ More links from previous research.
 * [10](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
 * [11](http://www.austlii.edu.au/au/cases/cth/high_ct/2006/39.html)
 * [12](http://www.castlecops.com/modules.php?name=News&file=print&sid=2946)
-* [13](http://direct.bl.uk/bld/PlaceOrder.do?UIN=161932125&ETOC=RN&from=searchengine)
 
 ## Connecticut v. Amero
 

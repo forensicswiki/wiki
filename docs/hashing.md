@@ -1,25 +1,24 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-**Hashing** is a method for reducing large inputs to a smaller fixed
-size output. When doing forensics, typically cryptographic hashing
-algorithms like [MD5](md5.md) and [SHA-1](sha-1.md) are
-used. These functions have a few properties useful to forensics. Other
-types of hashing, such as [Context Triggered Piecewise
-Hashing](context_triggered_piecewise_hashing.md) can also be
-used.
+**Hashing** is a method for reducing large inputs to a smaller fixed size
+output. When doing forensics, typically cryptographic hashing algorithms like
+[MD5](md5.md) and [SHA-1](sha-1.md) are used. These functions have a few
+properties useful to forensics. Other types of hashing, such as
+[Context Triggered Piecewise Hashing](context_triggered_piecewise_hashing.md)
+can also be used.
 
 ## Tools
 
 There are literally hundreds of hashing programs out there, but a few
 related to forensics are:
 
-- [md5sum](md5sum.md) - Part of the GNU coreutils suite, this program is
+* [md5sum](md5sum.md) - Part of the GNU coreutils suite, this program is
   standard on many computers.
-- [md5deep](md5deep.md) - Computes hashes, recursively if
+* [md5deep](md5deep.md) - Computes hashes, recursively if
   desired, and can compare the results to known values.
-- [ssdeep](ssdeep.md) - Computes and matches Context Triggered
+* [ssdeep](ssdeep.md) - Computes and matches Context Triggered
   Piecewise Hashes.
 
 ## Hash Databases
@@ -30,10 +29,6 @@ The largest hash database.
 [Hashkeeper](hashkeeper.md)
 National Drug Intelligence Center
 
-<http://sunsolve.sun.com/fileFingerprints.do>
-Solaris Fingerprint Database lookup for files distributed by Sun
-Microsystems
-
 ## MD5 Reverse Hash Services
 
 There are several online services that allow you to enter a hash code
@@ -43,45 +38,15 @@ the null string).
 
 Here are some services that we have been able to find:
 
-<http://md5.benramsey.com>
-A nice forward and reverse demonstration system, with an XML and AJAX
-interface.
-
-<!-- -->
-
-<http://www.hashcrack.com/>
-Reverse hash lookup of MD5, SHA1, MySQL, NTLM, and Lanman hashes. Claims
-75 million hashes of 13.2 million unique words.
-
-<!-- -->
-
-<http://hash.insidepro.com/>
-Hash database from InsidePro (MD5, NTLM).
-
-<!-- -->
-
-<http://www.xmd5.cn/index_en.htm>
-<http://www.xmd5.org/index_en.htm>
+[XMD5](http://www.xmd5.org/index_en.htm)
 This site is another simple MD5 reverse lookup. It claims a database
-with "billions" of entries. Mostly for password cracking. (Who uses
-straight MD5s for passwords?)
+with "billions" of entries. Mostly for password cracking.
 
-Others:
-
-<http://www.md5this.com/>
-<http://www.csthis.com/md5/>
-<https://hashtoolkit.com/>
+[Hash Toolkit](https://hashtoolkit.com/)
 
 ## Online Malware Hash Lookups
 
-<https://www.team-cymru.com/>
-Malware Hash Registry by Team Cymru.
-
-Utilizes a DNS query interface to lookup MD5 or SHA-1 Hashes for malware
-
-<http://www.virustotal.com/buscaHash.html>
-VirusTotal.com Online hash lookup no api/automation yet like Team Cymru
-but does frequently have hashes for current new malware
+[VirusTotal](https://www.virustotal.com/gui/home/search)
 
 ## Segmented Hashing
 
@@ -93,11 +58,11 @@ hash, start LBA, end LBA
 
 When Segmented hashing is useful
 
-- Segmented hashes support multi-pass imaging and handling of bad
+* Segmented hashes support multi-pass imaging and handling of bad
   sectors: Hashes are calculated only for the imaged regions, while all
   bad sectors are excluded from calculation. This allows to validate a
   hash even when the source drive is damaged.
-- Better resiliency against data corruption: If an acquired image gets
+* Better resiliency against data corruption: If an acquired image gets
   damaged later, regular hash is invalid upon verification making the
   entire image useless. With segmented hashing, only a single hash value
   becomes invalid, while the rest of the image can still be validated.
@@ -105,3 +70,7 @@ When Segmented hashing is useful
 [Seghash on GitHub](https://github.com/atola-technology/seghash) is a
 free open-source tool for both calculating and validating segmented
 hashes.
+
+## Tooling
+
+* [hashR](https://github.com/google/hashr) build your own hash sets based on your data sources

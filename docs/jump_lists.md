@@ -86,11 +86,11 @@ binary format segments.
   by Alexander G Barnett, April 18, 2011
 * [Forensic Examination of Windows 7 Jump Lists](https://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
   by Troy Larson, June 6, 2011
-* [Jump List Analysis](http://windowsir.blogspot.com/2011/08/jump-list-analysis.html),
+* [Jump List Analysis](https://windowsir.blogspot.com/2011/08/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), August 17, 2011
-* [Jump List Analysis, pt II](http://windowsir.blogspot.com/2011/08/jump-list-analysis-pt-ii.html),
+* [Jump List Analysis, pt II](https://windowsir.blogspot.com/2011/08/jump-list-analysis-pt-ii.html),
   by [Harlan Carvey](harlan_carvey.md), August 24, 2011
-* [Jump List Analysis](http://windowsir.blogspot.com/2011/12/jump-list-analysis.html),
+* [Jump List Analysis](https://windowsir.blogspot.com/2011/12/jump-list-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), December 28, 2011
 * [Forensic Analysis of Windows 7 Jump Lists](https://forensicfocus.com/articles/forensic-analysis-of-windows-7-jump-lists/),
   by Rob Lyness, October 2012

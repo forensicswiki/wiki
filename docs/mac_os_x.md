@@ -277,7 +277,7 @@ Mac OS.
 ### EFI
 
 * [The Intel Mac boot process](https://refit.sourceforge.net/info/boot_process.html), by the
-  [rEFIt project](refit.md) - [Carving up EFI fat binaries](http://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/),
+  [rEFIt project](refit.md) - [Carving up EFI fat binaries](https://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/),
   by snare, February 24, 2012
 
 ### iCloud

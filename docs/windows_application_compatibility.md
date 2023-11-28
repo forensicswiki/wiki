@@ -38,10 +38,6 @@ In Windows 2003 and later:
   by Alex Ionescu, May 21, 2007
 * [Secrets of the Application Compatilibity Database (SDB) – Part 3](http://www.alex-ionescu.com/?p=41),
   by Alex Ionescu, May 26, 2007
-* [Windows AppCompat Research Notes - Part 1](http://recxltd.blogspot.com/2012/04/windows-appcompat-research-notes-part-1.html),
-  by Ollie, 28 April 2012
-* [Windows AppCompat Research Notes - Part 2](http://recxltd.blogspot.com/2012/05/windows-appcompat-research-notes-part-2.html),
-  by Ollie, 4 May 2012
 * [Leveraging the Application Compatibility Cache in Forensic Investigations](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf),
   by Andrew Davis, May 4, 2012
 * [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.com/2013/12/revealing-program-compatibility.html),
@@ -51,7 +47,6 @@ In Windows 2003 and later:
 * [Shim Shady: Live Investigations of the Application Compatibility Cache](https://www.fireeye.com/blog/threat-research/2015/10/shim_shady_live_inv.html),
   by Fred House, Claudiu Teodorescu, Andrew Davis, October 27, 2015
 * [Shim Shady Part 2](https://www.fireeye.com/blog/threat-research/2015/10/shim_shady_live_inv/shim-shady-part-2.html)
-* [Using Application Compatibility Shims](http://subt0x10.blogspot.ch/2017/05/using-application-compatibility-shims.html)
 * [To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for Persistence](https://www.mandiant.com/resources/blog/fin7-shim-databases-persistence)
 
 ### RecentFileCache

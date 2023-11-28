@@ -32,10 +32,10 @@ something readable.
 
 ## External Links
 
-- [Using RegRipper](http://windowsir.blogspot.com/2011/03/using-regripper.html)
+- [Using RegRipper](https://windowsir.blogspot.com/2011/03/using-regripper.html)
 - [RegRipper GitHub Repo](https://github.com/keydet89/RegRipper3.0)
 - [RegRipper Blog](https://regripper.wordpress.com/)
 - [Windows Forensics Analysis](https://code.google.com/archive/p/winforensicaanalysis)
 - [RegRipper Supplemental Plugins](https://code.google.com/archive/p/regripperplugins)
-- [Developers blog (Windows Incident Response)](http://windowsir.blogspot.com/)
+- [Developers blog (Windows Incident Response)](https://windowsir.blogspot.com/)
 - [RegRipper Google Code](https://code.google.com/archive/p/regripper)

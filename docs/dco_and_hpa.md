@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Device Configuration Overlay (DCO) and Host Protected Area (HPA).
 
@@ -63,30 +63,25 @@ above)
 
 ## Other Tools
 
-- [TAFT (The ATA Forensics Tool)](https://vidstromlabs.com/freetools/taft/)
+* [TAFT (The ATA Forensics Tool)](https://vidstromlabs.com/freetools/taft/),
   claims the ability to look at and change the HPA and DCO settings.
-- [SAFE-Block](https://www.softpedia.com/get/Security/Security-Related/SAFE-Block.shtml),
+* [SAFE-Block](https://www.softpedia.com/get/Security/Security-Related/SAFE-Block.shtml),
   claims the ability to temporarily remove the HPA and remove the DCO
   and later return it to its original state.
-- [HDD Capacity Restore](http://hddguru.com/software/2007.07.20-HDD-Capacity-Restore-Tool/),
+* [HDD Capacity Restore](https://hddguru.com/software/2007.07.20-HDD-Capacity-Restore-Tool/),
   a reportedly Free utility that removed the DCO (to give you more
   storage for your hard drive!)
-- Tableau TD1 can remove the HPA and DCO.
-- [Blancco-Pro 4.5](http://www.mp3cdsoftware.com/blancco---pro-download-292.htm)
-  reportedly removes the HPA and DCO to completely obliterate all of
-  that pesky information which might get in the way.
+* Tableau TD1 can remove the HPA and DCO.
 
 ## External Links
 
-- [Methods of discovery and exploitation of Host Protected Areas on IDE storage devices that conform to ATAPI-4](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B7CW4-4HR72JM-2&_user=3326500&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000060280&_version=1&_urlVersion=0&_userid=3326500&md5=030e6e2928779b385c76658736d11b98),
+* [Methods of discovery and exploitation of Host Protected Areas on IDE storage devices that conform to ATAPI-4](https://www.sciencedirect.com/science/article/abs/pii/S1742287605000939),
   Mark Bedford, Digital Investigation, Volume 2, Issue 4, December 2005,
   Pages 268-275
-- [Hidden Disk Areas: HPA and DCO](https://www.utica.edu/academic/institutes/ecii/publications/articles/EFE36584-D13F-2962-67BEB146864A2671.pdf),
+* [Hidden Disk Areas: HPA and DCO](https://www.utica.edu/academic/institutes/ecii/publications/articles/EFE36584-D13F-2962-67BEB146864A2671.pdf),
   Mayank R. Gupta, Michael D. Hoeschele, Marcus K. Rogers, International
   Journal of Digital Evidence, Fall 2006, Volume 5, Issue 1
-- [REMOVING HOST PROTECTED AREAS (HPA) IN LINUX](http://www.sleuthkit.org/informer/sleuthkit-informer-20.txt),
+* [Removing host protected areas (HPA) in Linux](https://www.sleuthkit.org/informer/sleuthkit-informer-20.txt),
   Brian Carrier, Sleuth Kit Informer \#20
-- [Wikipedia article on Device Configuration Overlay](https://en.wikipedia.org/wiki/Device_configuration_overlay)
-- [Wikipedia article on Host Proteced Area](https://en.wikipedia.org/wiki/Host_protected_area)
-- [Hiding Data in Hard-Drive’s Service Areas](http://www.recover.co.il/SA-cover/SA-cover.pdf),
-  by Ariel Berkman, February 14, 2013
+* [Wikipedia: Device Configuration Overlay](https://en.wikipedia.org/wiki/Device_configuration_overlay)
+* [Wikipedia: Host Proteced Area](https://en.wikipedia.org/wiki/Host_protected_area)

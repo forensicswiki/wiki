@@ -46,7 +46,7 @@ Mail servers can add lines onto email headers, usually in the form of
 
 ## Message Id Field
 
-. According to the current guidelines for email
+According to the current guidelines for email
 [1](http://www.faqs.org/rfcs/rfc2822.html), every message should have a
 Message-ID field. These id fields can be used to determine if a message
 has been forged. It is harder, but sometimes possible, to show that a
@@ -56,51 +56,52 @@ pages for those programs](list_of_mua_header_formats.md).
 
 ## Signature Fields
 
-. Some email programs allow users to sign messages. This gives the
-recipient some assurance that the sender given in the message really
-sent the message. Obviously these headers can be used by an examiner for
-the same purpose.
+Some email programs allow users to sign messages. This gives the recipient some
+assurance that the sender given in the message really sent the message.
+Obviously these headers can be used by an examiner for the same purpose.
 
 ## Sample Header
 
 This is an (incomplete) excerpt from an email header:
 
-`Received: from lists.securityfocus.com (lists.securityfocus.com [205.206.231.19])`
-`        by outgoing2.securityfocus.com (Postfix) with QMQP`
-`        id 7E9971460C9; Mon,  9 Jan 2006 08:01:36 -0700 (MST)`
-`Mailing-List: contact forensics-help@securityfocus.com; run by ezmlm`
-`Precedence: bulk`
-`List-Id: <forensics.list-id.securityfocus.com>`
-`List-Post: <`[`mailto:forensics@securityfocus.com`](mailto:forensics@securityfocus.com)`>`
-`List-Help: <`[`mailto:forensics-help@securityfocus.com`](mailto:forensics-help@securityfocus.com)`>`
-`List-Unsubscribe: <`[`mailto:forensics-unsubscribe@securityfocus.com`](mailto:forensics-unsubscribe@securityfocus.com)`>`
-`List-Subscribe: <`[`mailto:forensics-subscribe@securityfocus.com`](mailto:forensics-subscribe@securityfocus.com)`>`
-`Delivered-To: mailing list forensics@securityfocus.com`
-`Delivered-To: moderator for forensics@securityfocus.com`
-`Received: (qmail 20564 invoked from network); 5 Jan 2006 16:11:57 -0000`
-`From: YJesus <yjesus@security-projects.com>`
-`To: forensics@securityfocus.com`
-`Subject: New Tool : Unhide`
-`User-Agent: KMail/1.9`
-`MIME-Version: 1.0`
-`Content-Disposition: inline`
-`Date: Thu, 5 Jan 2006 16:41:30 +0100`
-`Content-Type: text/plain;`
-`  charset="iso-8859-1"`
-`Content-Transfer-Encoding: quoted-printable`
-`Message-Id: <200601051641.31830.yjesus@security-projects.com>`
-`X-HE-Spam-Level: /`
-`X-HE-Spam-Score: 0.0`
-`X-HE-Virus-Scanned: yes`
-`Status: RO`
-`Content-Length: 586`
-`Lines: 26`
+```
+Received: from lists.securityfocus.com (lists.securityfocus.com [205.206.231.19])
+        by outgoing2.securityfocus.com (Postfix) with QMQP
+        id 7E9971460C9; Mon,  9 Jan 2006 08:01:36 -0700 (MST)
+Mailing-List: contact forensics-help@securityfocus.com; run by ezmlm
+Precedence: bulk
+List-Id: <forensics.list-id.securityfocus.com>
+List-Post: <mailto:forensics@securityfocus.com>
+List-Help: <mailto:forensics-help@securityfocus.com>
+List-Unsubscribe: <mailto:forensics-unsubscribe@securityfocus.com>
+List-Subscribe: <mailto:forensics-subscribe@securityfocus.com>
+Delivered-To: mailing list forensics@securityfocus.com
+Delivered-To: moderator for forensics@securityfocus.com
+Received: (qmail 20564 invoked from network); 5 Jan 2006 16:11:57 -0000
+From: YJesus <yjesus@security-projects.com>
+To: forensics@securityfocus.com
+Subject: New Tool : Unhide
+User-Agent: KMail/1.9
+MIME-Version: 1.0
+Content-Disposition: inline
+Date: Thu, 5 Jan 2006 16:41:30 +0100
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <200601051641.31830.yjesus@security-projects.com>
+X-HE-Spam-Level: /
+X-HE-Spam-Score: 0.0
+X-HE-Virus-Scanned: yes
+Status: RO
+Content-Length: 586
+Lines: 26
+```
 
 ## External Links
 
-- [Wikipedia: E-mail](http://en.wikipedia.org/wiki/E-mail)
+* [Wikipedia: E-mail](https://en.wikipedia.org/wiki/E-mail)
 
 ### Tools
 
-- [MailXaminer product page](https://www.mailxaminer.com/product/)
-- [Wikipedia: MailXaminer](https://en.wikipedia.org/wiki/MailXaminer)
+* [MailXaminer product page](https://www.mailxaminer.com/product/)
+* [Wikipedia: MailXaminer](https://en.wikipedia.org/wiki/MailXaminer)
