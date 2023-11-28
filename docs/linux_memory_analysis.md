@@ -87,9 +87,6 @@ images can also be found on the Second Look website at
 - [FACE: Automated digital evidence discovery and correlation](https://www.sciencedirect.com/science/article/pii/S1742287608000340),
   by Andrew Case, Andrew Cristina, Lodovico Marziale, Golden G. Richard,
   Vassil Roussev, DFRWS 2008
-- [Linux Live Memory Forensics](http://esiea-recherche.eu/~desnos/papers/slidesdraugr.pdf),
-  a presentation by Desnos Anthony describing the implementation of
-  draugr, 2009.
 - [Forensic RAM Dump Image Analyzer](https://is.cuni.cz/studium/dipl_st/index.php?doo=detailhttp://is.cuni.cz/studium/dipl_st/index.php?doo=detail&did=48540did=48540)
   by Ivor Kollar, describing the implementation of foriana, 2009.
 - [Treasure and tragedy in kmem_cache mining for live forensics investigation](https://www.sciencedirect.com/science/article/pii/S1742287610000332),

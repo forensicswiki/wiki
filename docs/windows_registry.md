@@ -1170,7 +1170,7 @@ name</a></b></p></td>
 
 ### Undated
 
-* [A Windows Registry Quick Reference: For the Everyday Examiner](http://eptuners.com/forensics/A%20Windows%20Registry%20Quick%20Reference.pdf),
+* [A Windows Registry Quick Reference: For the Everyday Examiner](https://www.iapsonline.com/sites/default/files/A%20Windows%20Registry%20Quick%20Reference-%20For%20the%20Everyday%20Examiner%20-%20By%20Derrick%20J.%20Farmer.pdf),
   by Derrick Farmer, Burlington, VT.
 * [Forensic Analysis of the Windows Registry](https://forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
   by Lih Wern Wong , School of Computer and Information Science, Edith
@@ -1183,7 +1183,7 @@ name</a></b></p></td>
 ## External Links
 
 * [Wikipedia: Windows Registry](https://en.wikipedia.org/wiki/Windows_Registry)
-* [Windows Incident Response Articles on Registry](http://windowsir.blogspot.com/search/label/Registry)
+* [Windows Incident Response Articles on Registry](https://windowsir.blogspot.com/search/label/Registry)
 * [Windows Registry Information](https://www.answers.com/redirectSearch?query=win-registry)
 * [Push the Red Button](https://moyix.blogspot.com/search/label/registry)
 * [Security Accounts Manager](http://survey-smiles.com)
@@ -1232,17 +1232,13 @@ name</a></b></p></td>
   Didier Stevens
 * [UserAssist V2.3.0](https://blog.didierstevens.com/2007/07/17/userassist-v230/), by
   Didier Stevens, Tuesday 17 July 2007
-* [More on (the) UserAssist keys](http://windowsir.blogspot.com/2007/09/more-on-userassist-keys.html),
+* [More on (the) UserAssist keys](https://windowsir.blogspot.com/2007/09/more-on-userassist-keys.html),
   by [Harlan Carvey](harlan_carvey.md), Monday, September 03,
   2007
 * [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](https://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
   by Didier Stevens, January 18, 2009
 * [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.com/2010/05/prefetch-and-user-assist.html),
   by DC174, Thursday, 27 May 2010
-* [Forensic Artifact: UserAssist](http://forensicartifacts.com/2010/07/userassist/), July
-  2010
-* [SANS Forensic Artifact 6: UserAssist](http://sploited.blogspot.com/2012/12/sans-forensic-artifact-6-userassist.html),
-  by Sploited, Thursday, 27 December 2012
 * [UserAssist Forensics (timelines, interpretation, testing, & more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
   by Dan (@4n6k), Tuesday, May 14, 2013
 * [Daily Blog \#45: Understanding the artifacts: User Assist](https://www.hecfblog.com/2013/08/daily-blog-45-understanding-artifacts.html),

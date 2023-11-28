@@ -3,7 +3,7 @@ tags:
   -  Timeline Analysis
 ---
 TLN is a timeline format (as far known) introduced in a [blog
-post](http://windowsir.blogspot.com/2009/02/timeline-analysis-pt-iii.html)
+post](https://windowsir.blogspot.com/2009/02/timeline-analysis-pt-iii.html)
 by [Harlan Carvey](harlan_carvey.md).
 
 He specifies the following 5 \| separated fields:
@@ -80,9 +80,9 @@ Known variants of TLN are:
 ## External Links
 
 - [TimeLine Analysis, pt
-  III](http://windowsir.blogspot.com/2009/02/timeline-analysis-pt-iii.html),
+  III](https://windowsir.blogspot.com/2009/02/timeline-analysis-pt-iii.html),
   by [Harlan Carvey](harlan_carvey.md), February 28, 2009
 - [Timeline Analysis...do we need a
-  standard?](http://windowsir.blogspot.com/2010/02/timeline-analysisdo-we-need-standard.html),
+  standard?](https://windowsir.blogspot.com/2010/02/timeline-analysisdo-we-need-standard.html),
   by [Harlan Carvey](harlan_carvey.md), February 08, 2010
 

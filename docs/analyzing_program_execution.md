@@ -78,7 +78,7 @@ will vary per product.
 
 ### Windows
 
-- [HowTo: Determine Program Execution](http://windowsir.blogspot.com/2013/07/howto-determine-program-execution.html),
+- [HowTo: Determine Program Execution](https://windowsir.blogspot.com/2013/07/howto-determine-program-execution.html),
   by [Harlan Carvey](harlan_carvey.md), July 06, 2013
 - [It Is All About Program Execution](http://journeyintoir.blogspot.com/2014/01/it-is-all-about-program-execution.html),
   by Corey Harrell, January 14, 2014

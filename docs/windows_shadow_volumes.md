@@ -124,13 +124,13 @@ information.
 
 * [VISTA and Windows 7 Shadow Volume Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), October 2008
-* [Accessing Volume Shadow Copies](http://windowsir.blogspot.com/2011/01/accessing-volume-shadow-copies.html),
+* [Accessing Volume Shadow Copies](https://windowsir.blogspot.com/2011/01/accessing-volume-shadow-copies.html),
   by [Harlan Carvey](harlan_carvey.md), January 2011
-* [More VSCs](http://windowsir.blogspot.com/2011/01/more-vscs.html), by
-  [Harlan Carvey](harlan_carvey.md), January 2011
+* [More VSCs](https://windowsir.blogspot.com/2011/01/more-vscs.html),
+  by [Harlan Carvey](harlan_carvey.md), January 2011
 * [A Little Help with Volume Shadow Copies](http://journeyintoir.blogspot.com/2011/04/little-help-with-volume-shadow-copies.html),
   by Corey Harrell, April 2011
-* [HowTo: Mount and Access VSCs](http://windowsir.blogspot.com/2011/09/howto-mount-and-access-vscs.html),
+* [HowTo: Mount and Access VSCs](https://windowsir.blogspot.com/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
 * [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](https://www.sans.org/digital-forensics-incident-response/),
   by [Rob Lee](rob_lee.md), September 2011

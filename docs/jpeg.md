@@ -16,15 +16,18 @@ Common file extensions are .jpg, .jpeg, .JPG, .JPE, and .jfif.
 
 # Metadata
 
-JPEG files can contain lots of [metadata](metadata.md) in
-several formats: [Exif](exif.md), IPTC, GPS,
-Camera Raw, etc. The [exif](exif.md)
-and [jhead](jhead.md) command tools can extract and manipulate
-some of that metadata. [Adroit Photo
-Forensics](adroit_photo_forensics.md) can be used to extract,
-view and group metadata from jpeg and camera Raw files. In iOS, the
-[Photo Investigator](photo_investigator.md) can extract, view,
-and remove metadata from all images.
+JPEG files can contain lots of [metadata](metadata.md) in several formats, such
+as Exif, IPTC, GPS, or Camera Raw.
+
+The [exif](exif.md) and [jhead](jhead.md) command tools can extract and
+manipulate some of that metadata. [Adroit Photo Forensics](adroit_photo_forensics.md)
+can be used to extract, view and group metadata from jpeg and camera Raw files.
+In iOS, the [Photo Investigator](photo_investigator.md) can extract, view, and
+remove metadata from all images.
+
+# Also see
+
+* [exif](exif.md)
 
 # Externals Links
 
@@ -33,8 +36,6 @@ and remove metadata from all images.
   Section: Annex B contains a detailed description of the JPEG file
   structure.
 - [JPEG File Interchange Format Version 1.02](https://www.w3.org/Graphics/JPEG/jfif3.pdf)
-- [EXIF Specifications](http://www.exif.org/specifications.html)
-- [Exchangeable image file format for digital still cameras: Exif Version 2.2](http://www.exif.org/Exif2-2.PDF)
 - [Extensible Metadata Platform (XMP)](https://www.adobe.com/products/xmp.html)
 - [Adobe - XMP Specification](http://partners.adobe.com/public/developer/en/xmp/sdk/XMPspecification.pdf)
 - [FlashPix Tags](https://exiftool.org/TagNames/FlashPix.html)

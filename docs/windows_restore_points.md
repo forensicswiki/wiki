@@ -27,9 +27,9 @@ A Restore Point data sub directory contains:
 * [MSDN: Legacy System Restore Reference](https://learn.microsoft.com/en-us/windows/win32/sr/legacy-system-restore-reference)
 * [Restore Point Forensics](http://www.stevebunting.org/udpd4n6/forensics/restorepoints.htm),
   by Steve Bunting
-* [Restore Point Forensics](http://windowsir.blogspot.com/2006/10/restore-point-forensics.html),
+* [Restore Point Forensics](https://windowsir.blogspot.com/2006/10/restore-point-forensics.html),
   by [Harlan Carvey](harlan_carvey.md), October 20, 2006
-* [Restore Point Analysis](http://windowsir.blogspot.com/2007/06/restore-point-analysis.html),
+* [Restore Point Analysis](https://windowsir.blogspot.com/2007/06/restore-point-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), June 16, 2007
 * [Enscript Tutorial 1 - Parse XP System Restore Logs](http://www.swiftforensics.com/2012/03/enscript-tutorial-1-parse-xp-system.html),
   by Yogesh Khatri, March 2, 2012

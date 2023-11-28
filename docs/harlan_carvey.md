@@ -7,7 +7,7 @@ alt="HarlanCarvey.jpg" /> [Harlan Carvey](harlan_carvey.md) is a
 computer forensics author, researcher and practitioner. He has written
 several books and tools focusing on [Windows](windows.md)
 systems and [incident response](incident_response.md). His
-[Windows Incident Response Blog](http://windowsir.blogspot.com) Harlan
+[Windows Incident Response Blog](https://windowsir.blogspot.com) Harlan
 Carvey's interest in computer and information security began while he
 was an officer in the U.S. military, and a student at the Naval
 Postgraduate School, earning his MSEE. After leaving military service,
@@ -39,12 +39,12 @@ Security Bulletin, on the SecurityFocus website, and in the Hakin9
 magazine. Finally, Harlan has written a number of open source programs
 (including RegRipper), which have been made available online and via
 CDs/DVDs in his books. His [Windows Incident
-Response](http://windowsir.blogspot.com/) blog is updated on a regular
+Response](https://windowsir.blogspot.com/) blog is updated on a regular
 basis.
 
 ## Website
 
-- [Harlan's Windows Incident Response Blog](http://windowsir.blogspot.com)
+- [Harlan's Windows Incident Response Blog](https://windowsir.blogspot.com)
 
 ## Tools
 

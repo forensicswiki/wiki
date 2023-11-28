@@ -197,9 +197,9 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 * [MSDN: Disabling Prefetch](https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms940847(v=winembedded.5))
 * [Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS](https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/december/windows-xp-kernel-improvements-create-a-more-robust-powerful-and-scalable-os),
   by [Mark Russinovich](mark_russinovich.md), David Solomon, December 2001
-* [Prefetch file metadata](http://windowsir.blogspot.com/2005/07/prefetch-file-metadata.html),
+* [Prefetch file metadata](https://windowsir.blogspot.com/2005/07/prefetch-file-metadata.html),
   by [Harlan Carvey](harlan_carvey.md), July 13, 2005
-* [Prefetch files, revisited](http://windowsir.blogspot.com/2006/04/prefetch-files-revisited.html),
+* [Prefetch files, revisited](https://windowsir.blogspot.com/2006/04/prefetch-files-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), April 13, 2006
 * [Windows Memory Management](https://www.codeproject.com/Articles/29449/Windows-Memory-Management),
   by logicchild, September 17, 2008
@@ -219,9 +219,9 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 * [Prefetch i niedokładny licznik](http://labit.in/pliki-prefetch-w-windows/) by Paweł
   Hałdrzyński, August 20, 2011 (article in Polish; uncertain about the
   year of publication)
-* [Prefetch Analysis, Revisited](http://windowsir.blogspot.com/2012/03/prefetch-analysis-revisited.html),
+* [Prefetch Analysis, Revisited](https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), March 8, 2012
-* [Prefetch Analysis, Revisited...Again...](http://windowsir.blogspot.com/2012/03/prefetch-analysis-revisitedagain.html),
+* [Prefetch Analysis, Revisited...Again...](https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisitedagain.html),
   by [Harlan Carvey](harlan_carvey.md), March 15, 2012
 * [Prefetch Hash Calculator + a hash lookup table xp/vista/w7/w2k3/w2k8](http://www.hexacorn.com/blog/2012/06/13/prefetch-hash-calculator-a-hash-lookup-table-xpvistaw7w2k3w2k8/),
   Hexacorn blog, June 13, 2012
