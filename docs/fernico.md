@@ -1,9 +1,8 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Organization
+  - Articles that need to be expanded
 ---
 ## External Links
 
-- [Official website](https://www.fernico.com/)
-
+* [Official website](https://www.fernico.us/)

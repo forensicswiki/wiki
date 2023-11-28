@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Software
 ---
 **iVPN.net** is a commercial VPN service focused on multihop
 [VPN](vpn.md) connections. Traffic is routed via multiple
@@ -14,6 +14,4 @@ to their customers activities.
 
 ## External Links
 
-- [Official website](https://www.ivpn.net/)
-- [Comparison of VPN
-  protocols](https://www.ivpn.net//pptp-vs-lt2p-vs-openvpn.php)
+* [Official website](https://www.ivpn.net)

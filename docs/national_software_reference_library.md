@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Hashing
+  - Hashing
 ---
 The **National Software Reference Library** (NSRL) is the National
 Institute of Standards and Technology's National Software Reference
@@ -39,8 +39,8 @@ Each RDS consists of several files, but the hashes are stored in
 `NSRLFile.txt`. These files have a header followed by many hash records.
 The header denotes the columns in each file. (See the External Links for
 the complete specification). RDS files can be used directly with
-programs like [md5deep](md5deep.md),
-[FTK](forensic_toolkit.md), and [EnCase](encase.md).
+programs like [md5deep](md5deep.md), [FTK](forensic_toolkit.md), and
+[EnCase](encase.md).
 
 The file format has changed slightly over time. Releases occur four
 times per year. The latest version was dated 1 Mar 2013:
@@ -50,14 +50,18 @@ times per year. The latest version was dated 1 Mar 2013:
 Starting in version 2.0, the NSRL moved the hashes to the start of each
 line and dropped the MD4 hash. The file header:
 
-    "SHA-1","MD5","CRC32","FileName","FileSize","ProductCode","OpSystemCode","SpecialCode"
+```
+"SHA-1","MD5","CRC32","FileName","FileSize","ProductCode","OpSystemCode","SpecialCode"
+```
 
 ### Version 1.5
 
 Information on the older header version is kept here so that programs
 can read older files. The file header:
 
-    "SHA-1","FileName","FileSize","ProductCode","OpSystemCode","MD4","MD5","CRC32","SpecialCode"
+```
+"SHA-1","FileName","FileSize","ProductCode","OpSystemCode","MD4","MD5","CRC32","SpecialCode"
+```
 
 `OpSystemCode` refers to the operating system code. The `SpecialCode` is
 a single character that can be used to mark records. A normal file has a
@@ -65,8 +69,5 @@ blank value here. An `M` in this field denotes a malicious file.
 
 ## External Links
 
-- [NSRL website](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl)
-- [NSRL RDS Data File
-  Format](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrldocuments/Data-Formats-of-the-NSRL-Reference-Data-Set-14.pdf) -
-  Describes the format of the hash files
-
+* [NSRL website](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl)
+* [Data Formats of the NSRL Reference Data Set (RDS) Distribution](https://www.nist.gov/system/files/data-formats-of-the-nsrl-reference-data-set-16.pdf)

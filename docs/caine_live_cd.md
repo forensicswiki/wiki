@@ -184,7 +184,7 @@ at the University of Udine.
 - [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
 - [gustavopimental.com.ar](http://gustavopimentel.com.ar/)
 - [concise-courses.com](https://www.concise-courses.com/hacking-tools/top-ten/)
-- [ilsoftware.it](https://www.ilsoftware.it/articoli.asp?tag=CAINE-progetto-italiano-per-la-computer-forensics_5656)
+- [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
 - [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
 - [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)
 - [LinuxFormat](https://www.linuxformat.com/archives?issue=151)
