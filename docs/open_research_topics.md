@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Research Topics](research_topics.md)
+
+_See: [Research Topics](research_topics.md)_

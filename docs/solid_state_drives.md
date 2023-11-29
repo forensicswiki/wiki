@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Solid State Drive (SSD)
-    Forensics](solid_state_drive_(ssd)_forensics.md)
+
+_See: [Solid State Drive (SSD) Forensics](solid_state_drive_(ssd)_forensics.md)_

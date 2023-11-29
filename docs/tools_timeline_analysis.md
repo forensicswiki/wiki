@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Timeline Analysis
-    Bibliography](timeline_analysis_bibliography.md)
+
+_See: [Timeline Analysis](timeline_analysis.md)_

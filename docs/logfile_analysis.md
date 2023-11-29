@@ -33,8 +33,6 @@ and CSV, as well as Windows Event Log, Registry, and Active Directory
 Also see: Microsoft Log Parser Toolkit, by Gabriele Giuseppini, Mark
 Burnett, ISBN: 1-93226-652-6
 
-<!-- -->
-
 [Logpresso Mini](https://github.com/logpresso/community)
 
 From Logpresso, claims to parse a variety of log files, including CSV,
@@ -50,13 +48,9 @@ website. It can also be used for analysis of webserver logfiles.
 
 Claims to be *"the most popular logfile analyser in the world"*
 
-<!-- -->
-
 [Webalizer](http://www.mrunix.net/webalizer/)
 
 *"A fast, free web server log file analysis program"*
-
-<!-- -->
 
 [phpMyVisites](http://www.phpmyvisites.us/)
 
@@ -64,26 +58,18 @@ New "clicks heatmap" shows where people are clicking on your website;
 depends on JavaScript. (on the other hand, doesn't need access to your
 logfiles)
 
-<!-- -->
-
 [AWStats](https://awstats.sourceforge.io/)
 
 *"Free powerful and featureful tool that generates advanced web,
 streaming, ftp or mail server statistics, graphically."*
 
-<!-- -->
-
-[JasperReports](http://jasperforge.org/sf/projects/jasperreports)
+[JasperReports](https://community.jaspersoft.com/)
 
 Java reporting tool.
-
-<!-- -->
 
 [Open Web Analytics](http://wiki.openwebanalytics.com/index.php?title=Main_Page)
 
 *"An open source web analytics framework written in PHP."*
-
-<!-- -->
 
 [Breadboard BI Web Analytics](https://sourceforge.net/projects/web-analytics/)
 

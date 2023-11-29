@@ -107,7 +107,7 @@ An example of a shell item list taken from **Calculator.lnk**
   Chad Tilbury, July 5, 2011
 * [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](https://volatility-labs.blogspot.com/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   by Jamie Levy, September 2012
-* [Shellbag Analysis, Revisited...Some Testing](http://windowsir.blogspot.com/2012/10/shellbag-analysis-revisitedsome-testing.html),
+* [Shellbag Analysis, Revisited...Some Testing](https://windowsir.blogspot.com/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
 * [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)

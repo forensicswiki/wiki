@@ -73,9 +73,8 @@ See:
 - Online
 - Based on machine learning techniques, uses multiple file features
 - Uses novel signatures computed from file format samples
-- Identifications are linked to <http://fileformats.archiveteam.org/wiki/Main_Page>
+- Identifications are linked to the [file formats archive](http://fileformats.archiveteam.org/wiki/Main_Page)
   ontology
-- <http://ec2-52-37-126-112.us-west-2.compute.amazonaws.com/falstaff>
 
 ## Apache Tika
 

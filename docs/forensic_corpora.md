@@ -188,9 +188,8 @@ available a series of [text collections](https://trec.nist.gov//data.html).
 
 ## American National Corpus
 
-The [American National Corpus (ANC)
-project](http://www.americannationalcorpus.org/) is creating a massive
-collection of American english from 1990 onward. The goal is to create a
+The [American National Corpus (ANC) project](https://anc.org/) is creating
+a collection of American english from 1990 onward. The goal is to create a
 corpus of at least 100 million words that is comparable to the British
 National Corpus.
 

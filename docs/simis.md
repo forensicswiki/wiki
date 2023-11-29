@@ -1,9 +1,8 @@
 ---
 tags:
-  - No Category
+  - Abandoned
+  - Tools
 ---
-Back to [SIM Card Forensics](sim_card_forensics.md)
-
 SIMIS is a range of products developed for forensic examination of GSM
 SIM Cards.
 
@@ -132,8 +131,6 @@ the use of the engine or the sale of any product that may compete with
 our own. Regular updates are made to the SIMIS engine and provide the
 licensee with updates as required.
 
-## References
+## Also see
 
-1\. <http://www.3gforensics.co.uk/simis.htm>
-
-Back to [SIM Card Forensics](sim_card_forensics.md)
+* [SIM Card Forensics](sim_card_forensics.md)

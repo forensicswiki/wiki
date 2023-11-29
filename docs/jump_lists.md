@@ -82,8 +82,6 @@ binary format segments.
   by Michael Dunn, May 19, 2009
 * [Jump Lists in Windows 7 and Possible Forensic Implementations](http://mikeahrendt.blogspot.com/2011/04/jump-lists-in-windows-7-and-possible.html),
   by Mike Ahrendt, April 3, 2011
-* [The Forensic Value of the Windows 7 Jump List](http://www.alexbarnett.com/jumplistforensics.pdf),
-  by Alexander G Barnett, April 18, 2011
 * [Forensic Examination of Windows 7 Jump Lists](https://www.slideshare.net/ctin/windows-7-forensics-jump-listsrv3public),
   by Troy Larson, June 6, 2011
 * [Jump List Analysis](https://windowsir.blogspot.com/2011/08/jump-list-analysis.html),

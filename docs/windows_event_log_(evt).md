@@ -134,14 +134,11 @@ be careful to keep these issues in mind when analyzing EVT logs.
 
 ## Tools
 
-* [GrokEVT](http://projects.sentinelchicken.org/grokevt) is a set of
-  forensics scripts designed to make sense of EVT logs for
-  investigations. Along with RegLookup, it is able to combine registry
-  information and event log templates to place EVT data in context.
-  (UN\*X platforms only.)
 * [File::ReadEVT](http://www.cpan.org/modules/by-authors/id/H/HC/HCARVEY/)
-  is a Perl module that parses event log files for the purpose of
-  forensics.
+  is a Perl module that parses event log files for the purpose of forensics.
+  This tool appears to be abandoned.
+* [evtkit - fix broken evt files](https://github.com/yarox24/evtkit). This tool
+  appears to be abandoned.
+* [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin.
+  This tool appears to be abandoned.
 * [libevt](libevt.md)
-* [lfle.py](https://github.com/williballenthin/LfLe), by Willi Ballenthin
-* [evtkit - fix broken evt files](https://github.com/yarox24/evtkit)
