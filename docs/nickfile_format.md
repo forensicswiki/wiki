@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Nickfile (nk2)](nickfile_(nk2).md)
+
+_See: [Nickfile (nk2)](nickfile_(nk2).md)_

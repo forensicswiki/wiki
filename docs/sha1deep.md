@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [md5deep](md5deep.md)
+
+_See: [md5deep](md5deep.md)_

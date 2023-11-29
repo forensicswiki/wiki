@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [BlackBerry](blackberry.md)
+
+_See: [BlackBerry](blackberry.md)_

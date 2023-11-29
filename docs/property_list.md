@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Property list (plist)](property_list_(plist).md)
+
+_See: [Property list (plist)](property_list_(plist).md)_
