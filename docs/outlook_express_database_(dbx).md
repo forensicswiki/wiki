@@ -1,11 +1,10 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
-Outlook Express uses the **Outlook
-Express Database (DBX)** database to store emails, folders, etc. The DBX
-was introduced in version 5. Earlier versions of OE use different file
-formats.
+Outlook Express uses the **Outlook Express Database (DBX)** database to store
+emails, folders, etc. The DBX was introduced in version 5. Earlier versions of
+Outlook Express use different file formats.
 
 ## MIME types
 
@@ -24,15 +23,13 @@ until now it is unknown how it affects the file type.
 
 The contents of a DBX file is dependent on the content CLSID.
 
-- Message Database (CLSID: 6F74FDC5-E366-11d1-9A4E-00C04FA309D4)
-- Folder Database (CLSID: 6F74FDC6-E366-11d1-9A4E-00C04FA309D4)
+* Message Database (CLSID: 6F74FDC5-E366-11d1-9A4E-00C04FA309D4)
+* Folder Database (CLSID: 6F74FDC6-E366-11d1-9A4E-00C04FA309D4)
 
 ## Encryption
 
 ## External Links
 
-* [Outlook Express Wikipedia](https://en.wikipedia.org/wiki/Outlook_Express)
-* [Outlook Express dbx file format by Arne Schloh](http://oedbx.aroh.de/)
-* [Outlook Express Version 5.0 file format](http://www.fpns.net/willy/DBX-FMT.HTM)
+* [Wikipedia: Outlook Express Wikipedia](https://en.wikipedia.org/wiki/Outlook_Express)
 * [libdbx](https://sourceforge.net/projects/ol2mbox/), see FILE-FORMAT in
   the package.

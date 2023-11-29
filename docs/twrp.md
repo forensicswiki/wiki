@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Tools
-  -  Android
-  -  Data Recovery
-  -  Howtos
-  -  Articles that need to be expanded
+  - Android
+  - Articles that need to be expanded
+  - Data Recovery
+  - Howtos
+  - Tools
 ---
 # TWRP (Team Win Recovery Project)
 
@@ -35,7 +35,7 @@ device before you started the process.*
 The process of using TWRP is as follows:
 
 `* Download the newest version of Odin from `[`https://odindownload.com/`](https://odindownload.com/)`.`
-`* Download a TWRP recovery image in .tar format from `[`http://teamw.in/Devices/`](http://teamw.in/Devices/)`. They are specific to your device.`
+`* Download a TWRP recovery image in .tar format. They are specific to your device.`
 `* Remove any removable media as TWRP could install to an SD card if one is inserted.`
 `* Place the phone in download mode (varies per phone - commonly Vol Down+Home+Power.`
 `* Connect the phone to your PC.`
@@ -119,3 +119,7 @@ The phone will reboot and take a minute or two to fully boot. It should
 now be like factory new. If the phone still goes into a bootloop, try a
 different image. If the phone appears frozen on a splash screen, give it
 a good half hour before re-trying the process.
+
+## External links
+
+* [TeamWin - TWRP](https://twrp.me/)

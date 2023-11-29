@@ -1,8 +1,8 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-For now, see "File Signatures" here:
 
-`- `[`https://en.wikipedia.org/wiki/List_of_file_signatures`](https://en.wikipedia.org/wiki/List_of_file_signatures)
-`- `[`http://filesignatures.net/index.php?page=all`](http://filesignatures.net/index.php?page=all)
+## External Links
+
+* [Wikipedia: List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)

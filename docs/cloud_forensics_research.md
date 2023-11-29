@@ -97,7 +97,7 @@ location="Monterey, CA",
 `volume = {9},`
 `year = {2012},`
 `pages = {S90--S98},`
-` url="`[`http://ww.cs.umbc.edu/~dykstra/DFRWS_Dykstra.pdf`](http://ww.cs.umbc.edu/~dykstra/DFRWS_Dykstra.pdf)`"`
+` url="`[`https://www.sciencedirect.com/science/article/pii/S1742287612000266`](https://www.sciencedirect.com/science/article/pii/S1742287612000266)`"`
 
 </bibtex>
 

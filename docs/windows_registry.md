@@ -1251,12 +1251,6 @@ name</a></b></p></td>
 * [Forensic Registry EDitor (fred)](https://www.pinguin.lu/index.php) -
   "Forensic Registry EDitor (fred) is a cross-platform M\$ registry hive
   editor" by Daniel Gillen
-* [libregfi](http://projects.sentinelchicken.org/data/doc/reglookup/regfi/) -
-  The regfi library is a read-only NT registry library which serves as
-  the main engine behind the reglookup tool
-* [reglookup](http://projects.sentinelchicken.org/reglookup/) — "small
-  command line utility for reading and querying Windows NT-based
-  registries."
 * [regviewer](https://sourceforge.net/projects/regviewer/) — a tool for
   looking at the registry.
 * [RegRipper](regripper.md) — "the fastest, easiest, and best
@@ -1299,6 +1293,5 @@ name</a></b></p></td>
 * [Alien Registry Viewer](http://lastbit.com/arv/default.asp)
 * [NT Registry Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
 * [iExpert Software-Free Registry Defrag](https://cumdiner.com/categories/)
-* [Registry Undelete (russian)](http://paullee.ru/regundel)
 * [Windows Registry Recovery](http://mitec.cz/wrr.html)
 * [Registry Tool](http://registrytool.com/)

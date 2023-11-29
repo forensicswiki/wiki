@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [SIM Cards](sim_cards.md)
+
+_See: [SIM Cards](sim_cards.md)_

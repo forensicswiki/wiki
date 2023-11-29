@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Timeline Analysis](timeline_analysis.md)
+
+_See: [Timeline Analysis](timeline_analysis.md)_

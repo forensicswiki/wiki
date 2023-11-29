@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Open Research Topics](open_research_topics.md)
+
+_See: [Research Topics](research_topics.md)_

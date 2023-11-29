@@ -90,7 +90,7 @@ Investigative Support
 * [Creating a Cell Phone Investigation Toolkit: Basic Hardware and Software Specifications](http://www.search.org/files/pdf/CellphoneInvestToolkit-0806.pdf)
 * [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
 * [ForensicFocus.com(Practitioners Forum)](https://forensicfocus.com)
-* [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
+* [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.mobile-forensics.com/)
 * [Phone-Forensics.com (Advanced Forum for Practitioners)](http://www.Phone-Forensics.com)
 * [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
@@ -104,6 +104,6 @@ Training
 
 * [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
 * [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)
-* [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.Mobile-Forensics.com)
+* [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.mobile-forensics.com/)
 * [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/dfir-training-3/)
 * [Micro Systemation Training (Mobile Forensics Training)](https://www.msab.com/)

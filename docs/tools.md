@@ -337,12 +337,6 @@ Paraben StrongHold Tent
 
 # Other Tools
 
-[Chat Sniper](http://www.alexbarnett.com/chatsniper.htm)
-
-A forensic software tool designed to simplify the process of on-scene
-evidence acquisition and analysis of logs and data left by the use of
-AOL, MSN (Live), or Yahoo instant messenger.
-
 [Serial Port Analyzer](https://www.serial-port-communication.com/how-to-analyze-serial-port-activity/)
 
 The tool to analyze serial port and device activity.

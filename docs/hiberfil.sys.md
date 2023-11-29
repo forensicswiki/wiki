@@ -42,8 +42,6 @@ from the multiple levels of slack space within them.
 
 * [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
   by Matthieu Suiche
-* [Hibernation File Format](http://web17.webbpro.de/downloads/Hibernation%20File%20Attack/Hibernation%20File%20Format.pdf),
-  by Peter Kleissner, 2009
 * [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki), by
   [the Volatility project](volatility_framework.md)
 * [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
