@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Physical memory](physical_memory.md)
+
+_See: [Physical memory](physical_memory.md)_

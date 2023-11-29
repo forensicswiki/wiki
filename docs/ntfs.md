@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [New Technology File System
-    (ntfs)](new_technology_file_system_(ntfs).md)
+
+_See: [New Technology File System (ntfs)](new_technology_file_system_(ntfs).md)_

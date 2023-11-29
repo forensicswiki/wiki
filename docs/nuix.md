@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Nuix Pty Ltd](nuix_pty_ltd.md)
+
+_See: [Nuix Pty Ltd](nuix_pty_ltd.md)_

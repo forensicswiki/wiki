@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Cell_phones](cell_phones.md)
+
+_See: [Cell phones](cell_phones.md)_

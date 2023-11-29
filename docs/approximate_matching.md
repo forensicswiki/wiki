@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 *Approximate matching* is a term used in computer forensics to mean that
 two objects have similar contents but are not identically the same. It
@@ -8,15 +8,11 @@ replaced the previously used terms *similarity* and *fuzzy hashing.*
 
 The following two paragraphs are clearly similar but not identical:
 
-
 **We the People** of the United States, in Order to form a more perfect
 Union, establish Justice, insure domestic Tranquility, provide for the
 common defence, promote the general Welfare, and secure the Blessings of
 Liberty to ourselves and our Posterity, do ordain and establish this
 Constitution for the United States of America.
-
-<!-- -->
-
 
 **We the People** of the United States, in Order to form a more perfect
 Union, establish Justice, insure domestic Tranquility, provide for the
@@ -28,11 +24,11 @@ Constitution for the United States of America.
 
 In forensics there are several kinds of similarity that are of interest:
 
-1.  Binary Similarity
-2.  Textual Similarity
-3.  Visual Similarity
-4.  Audible Similarity
-5.  Algorithmic (code) Similarity
+1. Binary Similarity
+2. Textual Similarity
+3. Visual Similarity
+4. Audible Similarity
+5. Algorithmic (code) Similarity
 
 ### Binary Similarity
 
@@ -44,8 +40,8 @@ have the commutative property. That is, BS(a,b) may not equal BS(b,a).
 
 There are several applications for a binary similarity function:
 
-1.  Determining that a master object is embedded in the target object.
-2.  Determining if the target object is derived from the target object.
+1. Determining that a master object is embedded in the target object.
+2. Determining if the target object is derived from the target object.
 
 The leading similarity systems in use are are:
 

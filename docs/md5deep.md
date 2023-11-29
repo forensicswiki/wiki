@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 **md5deep** is a suite of cross platform
 tools to compute and audit [hashes](hashing.md) for any number
@@ -139,4 +139,4 @@ Here is an example:
 ## External Links
 
 * [Official website](https://md5deep.sourceforge.net/)
-* [Wikipedia entry on md5deep](https://en.wikipedia.org/wiki/Md5deep)
+* [Wikipedia: md5deep](https://en.wikipedia.org/wiki/Md5deep)

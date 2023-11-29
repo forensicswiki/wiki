@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Approximate Matching](approximate_matching.md)
+
+_See: [Approximate Matching](approximate_matching.md)_
