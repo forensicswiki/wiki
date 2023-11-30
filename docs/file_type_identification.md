@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [File Format
-    Identification](file_format_identification.md)
+
+_See: [File Format Identification](file_format_identification.md)_

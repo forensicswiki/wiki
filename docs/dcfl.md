@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Defense Computer Forensics
-    Lab](defense_computer_forensics_lab.md)
+
+_See: [Defense Computer Forensics Lab](defense_computer_forensics_lab.md)_

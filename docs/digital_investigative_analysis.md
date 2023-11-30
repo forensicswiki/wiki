@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Computer forensics](computer_forensics.md)
+
+_See: [Computer forensics](computer_forensics.md)_

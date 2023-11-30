@@ -194,9 +194,3 @@ other) information.
   by Tim Johnson, May 23, 2013
 - [The State of Java Reversing Tools](https://www.ghettoforensics.com/2013/09/malware-analysis-state-of-java-analysis.html),
   by Brian Baskin, September 3, 2013
-
-### Java source code
-
-- [Cache.java](http://jdk-source-code.googlecode.com/svn/trunk/jdk6u21_src/deploy/src/common/share/classes/com/sun/deploy/cache/Cache.java)
-- [CacheEntry.java](http://jdk-source-code.googlecode.com/svn/trunk/jdk6u21_src/deploy/src/common/share/classes/com/sun/deploy/cache/CacheEntry.java)
-

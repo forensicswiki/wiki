@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [hiberfil.sys](hiberfil.sys.md)
+
+_See: [hiberfil.sys](hiberfil.sys.md)_

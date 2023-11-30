@@ -254,16 +254,15 @@ Mac OS.
 * [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
   by Emil Kvarnhammar, April 9, 2015
-* [Max OS X Internals book (1st ed)](http://newosxbook.com/1stEdIsFree.html) by Jonathan Levin PDF
-  download
+* [Max OS X Internals book (1st ed)](https://newosxbook.com/1stEdIsFree.html)
+  by Jonathan Levin
 * [The Boot Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
   by Apple
 
 ### Alias
 
-* [Reversing Mac Alias v3 Data
-  Objects](http://survey-smiles.com), by
-  Patrick Olsen, August 15, 2016
+* [Reversing Mac Alias v3 Data Objects](http://survey-smiles.com),
+  by Patrick Olsen, August 15, 2016
 
 ### Apple Examiner
 

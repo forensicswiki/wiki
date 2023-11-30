@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 Endianness refers to the way that a computer processor or file format
 stores numbers.
@@ -34,4 +34,4 @@ Network endian (big endian).
 
 ## External Links
 
-- [Wikipedia: Endianness](https://en.wikipedia.org/wiki/Endianness)
+* [Wikipedia: Endianness](https://en.wikipedia.org/wiki/Endianness)

@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  MacOS
-  -  Disk Image
+  - Disk Image
+  - File Formats
+  - MacOS
 ---
 **DMG** is the proprietary Apple Disk Image file recognized & primarily
 associated with the Macintosh OS X operating system used for emulating a
@@ -135,12 +135,11 @@ file. The long-familiar licensed cross platform utilities are:
 
 ## External Links
 
-- [Demystifying the DMG File Format](http://newosxbook.com/DMG.html), by
-  Jonathan Levin, June 2013
-- [Mac OS disk image
-  types](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc),
+* [Demystifying the DMG File Format](https://newosxbook.com/DMG.html),
+  by Jonathan Levin, June 2013
+* [Mac OS disk image types](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc),
   by the libmodi project
 
 ### Tools
 
-- [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)
+* [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)

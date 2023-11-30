@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Master boot record](master_boot_record.md)
+
+_See: [Master boot record](master_boot_record.md)_

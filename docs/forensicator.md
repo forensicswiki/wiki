@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Investigator](investigator.md)
+
+_See: [Investigator](investigator.md)_

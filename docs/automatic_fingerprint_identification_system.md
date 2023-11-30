@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [AFIS](afis.md)
+
+_See: [AFIS](afis.md)_

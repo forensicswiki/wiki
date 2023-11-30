@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  File Analysis
-  -  Articles that need to be expanded
+  - Anti-Forensics
+  - Articles that need to be expanded
+  - File Analysis
 ---
 
 <img src="../assets/images/Timestomp_mace.jpg" title="Timestomp_mace.jpg"
@@ -83,7 +83,4 @@ forensics.
 
 ## External Links
 
-- [Download
-  Timestomp.exe](http://metasploit.com/data/antiforensics/timestomp.exe)
-- [Presentation at Blackhat
-  2005](https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-foster-liu-update.pdf)
+- [Presentation at Blackhat 2005](https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-foster-liu-update.pdf)

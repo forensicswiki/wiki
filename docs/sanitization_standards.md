@@ -34,7 +34,6 @@ regarding the disk sanitization problem:
 
 ### USA
 
-- [AFSSI-5020](http://jya.com/afssi5020.htm): USAF Data Sanitization Standard.
 - [NIST 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final):
   Guidelines for Data Sanitation, Sept 2006.
 - [DoD Destruction](http://simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf):

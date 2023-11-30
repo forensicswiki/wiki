@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [IXimager](iximager.md)
+
+_See: [IXimager](iximager.md)_

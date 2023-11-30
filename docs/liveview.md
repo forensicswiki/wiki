@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Live_view](live_view.md)
+
+_See: [Live_view](live_view.md)_

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Datamining for
-    Forensics](datamining_for_forensics.md)
+
+_See: [Datamining for Forensics](datamining_for_forensics.md)_

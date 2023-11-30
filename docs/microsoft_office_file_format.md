@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Microsoft Office File
-    formats](microsoft_office_file_formats.md)
+
+_See: [Microsoft Office File formats](microsoft_office_file_formats.md)_
