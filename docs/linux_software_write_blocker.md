@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Linux write blocker](linux_write_blocker.md)
+
+_See: [Linux write blocker](linux_write_blocker.md)_

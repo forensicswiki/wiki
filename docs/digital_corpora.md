@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Forensic corpora](forensic_corpora.md)
+
+_See: [Forensic corpora](forensic_corpora.md)_

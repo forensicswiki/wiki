@@ -1,10 +1,10 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Tools
 ---
-The **IXimager** imager application is external to the
-[Windows](windows.md) [operating
-systems](operating_system.md).
+The **IXimager** imager application is external to the [Windows](windows.md)
+[operating systems](operating_system.md).
 
 It is based on [Linux](linux.md) and is used in conjunction with
 [ILook Investigator](ilook.md) to perform the specific tasks. The program can

@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Endianness](endianness.md)
+
+_See: [Endianness](endianness.md)_

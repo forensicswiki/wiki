@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [Global System for Mobile
-    Communications](global_system_for_mobile_communications.md)
+
+_See: [Global System for Mobile Communications](global_system_for_mobile_communications.md)_

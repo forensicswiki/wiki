@@ -1,5 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
-1.  REDIRECT [DoD Cyber Crime Center](dod_cyber_crime_center.md)
+
+_See: [DoD Cyber Crime Center](dod_cyber_crime_center.md)_
