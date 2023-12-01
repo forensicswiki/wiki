@@ -40,11 +40,8 @@ from the multiple levels of slack space within them.
 
 ## External Links
 
-* [Windows hibernation file for fun & profit](http://msuiche.net/con/bhusa2008/Windows_hibernation_file_for_fun_%27n%27_profit-0.6.pdf),
-  by Matthieu Suiche
-* [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki), by
-  [the Volatility project](volatility_framework.md)
-* [Hibernation Recon](https://arsenalrecon.com/apps/hibernation-recon/)
+* [Microsoft Hibernation Files](https://code.google.com/archive/p/volatility/wikis/HiberAddressSpace.wiki),
+  by [the Volatility project](volatility_framework.md)
 * [Parsing hibernation slack space](https://diablohorn.com/2014/12/10/parsing-the-hiberfil-sys-searching-for-slack-space/)
 
 ### LZ XPRESS

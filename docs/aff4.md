@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Disk Image
-  -  File Formats
+  - Articles that need to be expanded
+  - Disk Image
+  - File Formats
 ---
 # Advanced Forensic Framework 4 (AFF4)
 
@@ -16,27 +16,18 @@ description of how to use the sample implementation, library and tools.
 Traditional forensic file formats have a number of limitations which
 have been exposed over the years:
 
-- Proprietary formats like EWF are difficult to implement and explain.
+* Proprietary formats like EWF are difficult to implement and explain.
   EWF is a fairly complex file format. Most of the details are reverse
   engineered. Recovery from damaged EWF files is difficult as detailed
   knowledge of the file format is required.
-
-<!-- -->
-
-- Simple file formats like dd are very large since they are
+* Simple file formats like dd are very large since they are
   uncompressed. They also dont store metadata, signatures or have
   cryptographic support.
-
-<!-- -->
-
-- Traditional file formats are designed to store a single stream. Often
+* Traditional file formats are designed to store a single stream. Often
   in an investigation, however, multiple source of data need to be
   acquired (sometimes simultaneously) and stored in the same evidence
   volumes.
-
-<!-- -->
-
-- Traditional file formats just deal with data - there is no attempt to
+* Traditional file formats just deal with data - there is no attempt to
   build a universal evidence management system integrated within the
   file specification.
 
@@ -78,17 +69,17 @@ object of the form:
 
 For example:
 
-` `
-`  ******** Object urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2 ***********`
-`    aff4:stored = urn:aff4:4bdbf8bc-d8a5-40cb-9af0-fd7e4d0e2c9e`
-`    aff4:type = image`
-`    aff4:interface = stream`
-`    aff4:timestamp = 0x49E9DEC3`
-`    aff4:chunk_size = 32k`
-`    aff4:compression = 8`
-`    aff4:chunks_in_segment = 2048`
-`    aff4:size = 10485760`
-`  `
+```
+  ******** Object urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2 ***********
+    aff4:stored = urn:aff4:4bdbf8bc-d8a5-40cb-9af0-fd7e4d0e2c9e
+    aff4:type = image
+    aff4:interface = stream
+    aff4:timestamp = 0x49E9DEC3
+    aff4:chunk_size = 32k
+    aff4:compression = 8
+    aff4:chunks_in_segment = 2048
+    aff4:size = 10485760
+```
 
 This shows that the object named (the Subject) has all these attributes
 and their values. We call these *relations* or *facts*. The entire AFF4
@@ -124,7 +115,7 @@ regular directory on the filesystem. This is really useful if we want to
 image to a FAT filesystem since each segment is really small and we will
 not exceed the file size limitations. Its also possible to root the
 directory on a http url (i.e. the directory starts with
-<http://somehost/url/>). This allows us to use the image directly from
+`http://somehost/url/`). This allows us to use the image directly from
 the web - no need to download the whole thing.
 
 Directory objects use FileLikeObjects (see below) to actually store the
@@ -142,8 +133,8 @@ ZipFile volume uses a FileLikeObject to actually store the zip file.
 This means that its possible to write a ZipFile volume directly onto a
 HTTP server and use the image directly from the server as well.
 
-Example: <http://www.pyflag.net/images/test.zip> is an example of a
-small (about 1mb) AFF4 image.
+Example: `http://www.pyflag.net/images/test.zip` is an example of a
+small (about 1 MB) AFF4 image.
 
 Directory and ZipFile volumes can be easily converted from one to the
 other (i.e. unzip the ZipFile into a directory to create a Directory
@@ -166,7 +157,7 @@ some of the specific implementations of streams.
 The FileBacked object is a stream which stores data in an actual file on
 the filesystem. The location of the file is determined from the file's
 URN. Since a URN is a superset of URLs, URLs are also valid URNs. This
-means that something like <file:///somedirectory/filename> is a valid
+means that something like `file:///somedirectory/filename` is a valid
 location for a FileBackedObject.
 
 ### HTTPObject
@@ -320,4 +311,4 @@ We do this by setting attributes on the map objects:
 
 ### Tools
 
-- <https://github.com/Velocidex/c-aff4>
+* <https://github.com/Velocidex/c-aff4>

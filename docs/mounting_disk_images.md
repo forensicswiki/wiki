@@ -79,10 +79,6 @@ Don't forget the switch ***-o ro*** !
 
 `# umount /mnt`
 
-## Mounting Images Using Alternate Superblocks
-
-- [Mounting Images Using Alternate Superblocks](http://sansforensics.wordpress.com/2008/12/18/mounting-images-using-alternate-superblocks/)
-
 # Windows
 
 MS Windows does not include a native means for mounting acquired images.

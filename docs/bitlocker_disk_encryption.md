@@ -1,9 +1,7 @@
 ---
 tags:
-  -  Encryption
-  -  Disk Encryption
-  -  Windows
-  -  Anti-Forensics
+  - Disk Encryption
+  - Windows
 ---
 **BitLocker Disk Encryption** (BDE) is [Full Volume
 Encryption](full_volume_encryption.md) solution by
@@ -27,12 +25,12 @@ also stored in the metadata. Each copy of the VMK is encrypted using
 another key, also know as key-protector key. Some of the key-protectors
 are:
 
-- TPM (Trusted Platform Module)
-- Smart card
-- recovery password
-- start-up key
-- clear key; this key-protector provides no protection
-- user password
+* TPM (Trusted Platform Module)
+* Smart card
+* recovery password
+* start-up key
+* clear key; this key-protector provides no protection
+* user password
 
 BitLocker has support for partial encrypted volumes.
 
@@ -63,8 +61,8 @@ A hexdump of the start of the volume should look similar to:
 
 These volumes can also be identified by a GUID:
 
-- for BitLocker: 4967d63b-2e29-4ad8-8399-f6a339e3d00
-- for BitLocker ToGo: 4967d63b-2e29-4ad8-8399-f6a339e3d01
+* for BitLocker: 4967d63b-2e29-4ad8-8399-f6a339e3d00
+* for BitLocker ToGo: 4967d63b-2e29-4ad8-8399-f6a339e3d01
 
 Which in a hexdump of the start of the volume should look similar to:
 
@@ -102,31 +100,30 @@ opened on Windows 10 systems and later.
 
 ## See Also
 
-- [BitLocker: How to image](bitlocker_how_to_image.md)
+* [BitLocker: How to image](bitlocker_how_to_image.md)
 
 ## External Links
 
-- [Wikipedia entry on BitLocker](https://en.wikipedia.org/wiki/BitLocker_Drive_Encryption)
-- Accessing Bitlocker volumes from Linux,
+* [Wikipedia entry on BitLocker](https://en.wikipedia.org/wiki/BitLocker_Drive_Encryption)
+* Accessing Bitlocker volumes from Linux,
   by Nitin Kumar and Vipin Kumar, 2008
-- [Implementing BitLocker for Forensic Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1742287609000024),
+* [Implementing BitLocker for Forensic Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1742287609000024),
   *Digital Investigation*, by Jesse D. Kornblum, 2009
-- [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/main/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
+* [BitLocker Drive Encryption (BDE) format specification](https://github.com/libyal/libbde/blob/main/documentation/BitLocker%20Drive%20Encryption%20(BDE)%20format.asciidoc),
   by the [libbde project](libbde.md), March 2011
-- [Microsoft's Step by Step Guide](http://technet2.microsoft.com/WindowsVista/en/library/c61f2a12-8ae6-4957-b031-97b4d762cf311033.mspx?mfr=true)
-- [Microsoft Technical Overview](https://learn.microsoft.com/en-us/)
-- [An Introduction to Security in Windows 7](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/dd630640(v=msdn.10))
-- [Microsoft Description of the Encryption Algorithm](https://www.microsoft.com/en-us/download/details.aspx?id=13866)
-- [What's New in BitLocker](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831412(v=ws.11))
+* [Microsoft Technical Overview](https://learn.microsoft.com/en-us/)
+* [An Introduction to Security in Windows 7](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/dd630640(v=msdn.10))
+* [Microsoft Description of the Encryption Algorithm](https://www.microsoft.com/en-us/download/details.aspx?id=13866)
+* [What's New in BitLocker](https://learn.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831412(v=ws.11))
   in Windows 8
-- [Windows 10 Version 1511 gets new XTS-AES BitLocker encryption algorithm](https://www.onmsft.com/news/windows-10-version-1511-gets-new-xts-aes-bitlocker-encryption-algorithm/)
-- [What's new in BitLocker](https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-10-version-1507-and-1511)
+* [Windows 10 Version 1511 gets new XTS-AES BitLocker encryption algorithm](https://www.onmsft.com/news/windows-10-version-1511-gets-new-xts-aes-bitlocker-encryption-algorithm/)
+* [What's new in BitLocker](https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-10-version-1507-and-1511)
   Windows 10
 
 ## Tools
 
-- [dislocker](https://www.hsc.fr/securite-internet/)
-- [libbde](libbde.md)
-- [M3 Bitlocker Loader for Mac](https://www.m3datarecovery.com/mac-bitlocker/)
-- [M3 Bitlocker Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)
-- [Manage-bde.exe](http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx)
+* [dislocker](https://www.hsc.fr/securite-internet/)
+* [libbde](libbde.md)
+* [M3 Bitlocker Loader for Mac](https://www.m3datarecovery.com/mac-bitlocker/)
+* [M3 Bitlocker Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)
+* [Manage-bde.exe](http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx)

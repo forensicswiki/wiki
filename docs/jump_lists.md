@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Windows
+  - Windows
 ---
 **Jump Lists** are a feature found in Windows 7.
 
@@ -27,9 +27,8 @@ Files: \*.automaticDestinations-ms
 
 #### Structure
 
-The AutomaticDestinations Jump List files are [OLE Compound
-Files](ole_compound_file.md) containing multiple streams of
-which:
+The AutomaticDestinations Jump List files are [OLE Compound Files](ole_compound_file.md)
+containing multiple streams of which:
 
 * hexadecimal numbered, e.g. "1a"
 * DestList
@@ -49,7 +48,7 @@ following information at the corresponding offsets:
 |--------|----------|-----------------------------------------------------------------------------------------------------------------|
 | 0x48   | 16 bytes | NetBIOS name of the system; padded with zeros to 16 bytes                                                       |
 | 0x58   | 8 bytes  | Stream number; corresponds to the numbered stream within the jump list                                          |
-| 0x64   | 8 bytes  | Last modification time, contains a [FILETIME](http://msdn2.microsoft.com/en-us/library/ms724284.aspx) structure |
+| 0x64   | 8 bytes  | Last modification time, contains a [FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure |
 | 0x70   | 2 bytes  | Path string size, the number of characters (UTF-16 words) of the path string                                    |
 | 0x72   | ...      | Path string                                                                                                     |
 |        |          |                                                                                                                 |
@@ -111,8 +110,6 @@ binary format segments.
 * [Woanware: JumpLister](https://github.com/woanware). Tool to view
   the information within the numbered streams of each autodest file.
 * [plaso](plaso.md)
-* [JumpList](https://github.com/EricZimmerman/JumpList). Parser written
-  in C# with support thru Windows 10 jump lists
-* [JLECmd](https://github.com/EricZimmerman/JLECmd). Command line tool
-  using the above parser
-
+* [JLECmd](https://github.com/EricZimmerman/JLECmd). Command line tool using the
+  [JumpList](https://github.com/EricZimmerman/JumpList), a parser written in C#
+  with support thru Windows 10 jump lists.

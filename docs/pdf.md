@@ -58,12 +58,12 @@ each in its own file.
 Several related standards exist that contain subsets or supersets of the
 PDF standard features. These standards include
 
-- PDF/A a simpler set of features for archiving documents, allowing for
+* PDF/A a simpler set of features for archiving documents, allowing for
   long-term reproducibility. Some scanning software saves documents in
   PDF/A by default.
-- PDF/X for graphic arts.
-- PDF/UA for universal accessibility.
-- PDF/E for engineering drawings.
+* PDF/X for graphic arts.
+* PDF/UA for universal accessibility.
+* PDF/E for engineering drawings.
 
 ## PDF Software
 
@@ -89,8 +89,6 @@ and carving documents, including PDF files. The product can show PDF
 preview, plain text, metadata and extract embedded objects (including
 batch extraction from all found PDF files).
 
-<!-- -->
-
 JEB2 PDF Analysis Plugin
 <https://www.pnfsoftware.com/jeb2/pdfplugin>
 
@@ -101,15 +99,11 @@ Strong parsing for malicious files. Reports notifications on
 malformations and anomalies. API can also be used for tool/scanner
 integration.
 
-<!-- -->
-
 Origami
 <http://security-labs.org/origami/>
 
 A powerful open source framework and GUI written in Ruby. It allows for
 parsing and exploring pdf files and graphically browsing its contents.
-
-<!-- -->
 
 PDF Tools
 <https://blog.didierstevens.com/programs/pdf-tools/>
@@ -118,23 +112,17 @@ Didier Stevens'
 [pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/) and
 pdfid, written in Python
 
-<!-- -->
-
 PDF Stream Dumper
 <http://sandsprite.com/blogs/index.php?uid=7&pid=57>
 
 Free tool for the analysis of malicious PDF documents by David Zimmer.
 ([GitHub](https://github.com/dzzie/pdfstreamdumper))
 
-<!-- -->
-
 pdfresurrect
 <http://www.757labs.com/projects/pdfresurrect/#downloads>
 
 Retrieves previous versions of PDF files that have changes appended with
 "incremental updates"
-
-<!-- -->
 
 PDFMiner
 <https://www.unixuser.org/~euske/python/pdfminer/index.html>
@@ -144,8 +132,6 @@ PDFMiner
 Includes **pdf2txt.py** command-line tool for extracting text from PDF
 files, and **dumppdf.py** for dumping PDF objects.
 
-<!-- -->
-
 pyPdf
 <https://pybrary.net/pyPdf/>
 
@@ -153,40 +139,29 @@ pyPdf
 
 Will encrypt and decrypt PDF files.
 
-<!-- -->
-
-QPDF
-<https://sourceforge.net/projects/qpdf/>
+[QPDF](https://sourceforge.net/projects/qpdf/)
 
 Open source, cross-platform library and set of programs to inspect and
 manipulate PDF files. Packaged in recent Debian based distributions.
 
 These tools are useful for manipulating and generating PDF files:
 
-ReportLab Open Source PDF Library
-<https://docs.reportlab.com/>
+[ReportLab](https://docs.reportlab.com/) Open Source PDF Library
 
 "our proven, industry-strength PDF generating software. Programmatically
 create any kind of PDF document"
 
 # See Also
 
-- [Arabic PDFs](arabic_pdfs.md)
-- [Document Metadata Extraction](document_metadata_extraction.md)
+* [Arabic PDFs](arabic_pdfs.md)
+* [Document Metadata Extraction](document_metadata_extraction.md)
 
 ## External Links
 
-- [Adobe PDF
-  Reference](http://partners.adobe.com/public/developer/pdf/index_reference.html)
-- [Wikipedia: PDF](https://en.wikipedia.org/wiki/PDF)
-- [Portable Document Format: An Introduction for
-  Programmers](http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/),
+* [Adobe PDF Reference 1.7](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf)
+* [Wikipedia: PDF](https://en.wikipedia.org/wiki/PDF)
+* [Portable Document Format: An Introduction for Programmers](http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/),
   MacTech Magazine, Volume 15, (1999), Issue 9
-- [ISO
-  Standard](https://www.iso.org/standard/51502.html)
-- [Patent
-  Licenses](http://partners.adobe.com/public/developer/support/topic_legal_notices.html)
-- [Quickpost: About the Physical and Logical Structure of PDF
-  Files](https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/),
+* [ISO Standard](https://www.iso.org/standard/51502.html)
+* [Quickpost: About the Physical and Logical Structure of PDF Files](https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/),
   by Didier Stevens, April 9, 2008
-

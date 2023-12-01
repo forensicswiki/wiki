@@ -152,18 +152,16 @@ searching for available block devices (*/dev/?d?* instead of
 
 ### Incorrect write blocking approach
 
-Some forensic Linux Live CD distributions rely on
-hdparm and blockdev programs
-to mount file systems in read-only mode (by setting the underlying block
-device to read-only mode). Unfortunately, setting a block device to
-read-only mode does not guarantee that [no write commands will be passed
-to the drive](http://oss.sgi.com/archives/xfs/2009-07/msg00213.html).
-There were several other bugs related to writing on a read-only block
-device in the past (like [Ext3/4 orphan inodes
-deletion](https://lkml.org/lkml/2007/2/6/1)). At present (Linux 3.14.2),
-kernel code still disregards read-only mode set on block devices in many
-places (it should be noted that setting a block device to read-only mode
-will efficiently write-protect the drive from programs running in
+Some forensic Linux Live CD distributions rely on hdparm and blockdev programs
+to mount file systems in read-only mode (by setting the underlying block device
+to read-only mode). Unfortunately, setting a block device to read-only mode does
+not guarantee that no write commands will be passed to the drive.
+
+There were several other bugs related to writing on a read-only block device in
+the past (like [Ext3/4 orphan inodes deletion](https://lkml.org/lkml/2007/2/6/1)).
+At present (Linux 3.14.2), kernel code still disregards read-only mode set on
+block devices in many places (it should be noted that setting a block device to
+read-only mode will efficiently write-protect the drive from programs running in
 userspace, while kernel and its modules still can write anything to the
 block device, regardless of the read-only mode).
 
@@ -189,6 +187,6 @@ almost the same, except it doesn't write block anything by default).
 
 ## External links
 
-- [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
-- [Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
-- [Testing the forensic soundness of forensic examination environments on bootable media](http://www.dfrws.org/2014/proceedings/DFRWS2014-3.pdf)
+* [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
+* [Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
+* [Testing the forensic soundness of forensic examination environments on bootable media](http://www.dfrws.org/2014/proceedings/DFRWS2014-3.pdf)

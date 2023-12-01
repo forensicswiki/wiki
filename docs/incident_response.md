@@ -79,7 +79,7 @@ victims can be easier if they stand out from the crowd.
 
 ### Product related
 
-* [Palantir: A Framework for Collaborative Incident Response and Investigation](http://middleware.internet2.edu/idtrust/2009/papers/05-khurana-palantir.pdf),
+* [Palantir: A Framework for Collaborative Incident Response and Investigation](https://www.researchgate.net/publication/221190732_Palantir_A_framework_for_collaborative_incident_response_and_investigation),
   Himanshu Khurana, Jim Basney, Mehedi Bakht, Mike Freemon, Von Welch,
   Randy Butler, April 2009
 
@@ -103,8 +103,6 @@ victims can be easier if they stand out from the crowd.
 
 ## Books
 
-There are several books available that discuss incident response. For
-[Windows](windows.md), *[Windows Forensics and Incident
-Recovery](https://www.windows-ir.com/)* by [Harlan
-Carvey](harlan_carvey.md) is an excellent introduction to
-possible scenarios and how to respond to them.
+There are several books available that discuss incident response. For [Windows](windows.md),
+*[Windows Forensics and Incident Recovery](https://www.windows-ir.com/)* by [Harlan Carvey](harlan_carvey.md)
+is an introduction to possible scenarios and how to respond to them.

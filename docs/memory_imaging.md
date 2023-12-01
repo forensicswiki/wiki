@@ -52,18 +52,18 @@ physical address range to non-paged system space.
 
 ## Memory Imaging Techniques
 
-Crash Dumps
+### Crash Dumps
 When configured to create a full memory dump,
 [Windows](windows.md) operating systems will automatically save
 an image of physical memory when a bugcheck (aka blue screen or kernel
 panic) occurs.
 
-LiveKd Dumps
+### LiveKd Dumps
 The Sysinternals tool LiveKd can be used to create an image of physical memory
 on a live machine in crash dump format. Once livekd is started, use the command
 ".dump -f \[output file\]"
 
-Hibernation Files
+### Hibernation Files
 [Windows](windows.md) 98, 2000, XP, 2003, and Vista support a
 feature called hibernation that saves the
 machine's state to the disk when the computer is powered off. When the
@@ -83,7 +83,7 @@ turns on [File Vault](file_vault.md) and enables Secure Virtual
 Memory.
 [1](http://pc-eye.blogspot.com/2008/08/live-memory-dump-on-mac-laptops.html).
 
-Firewire
+### Firewire
 It is possible for [Firewire](firewire.md) or IEEE1394 devices
 to directly access the memory of a computer. Using this capability has
 been suggested as a method for acquiring memory images for forensic
@@ -103,10 +103,10 @@ This can be used to grab screen contents.
 
 This technique has been turned into a tool.
 
-The [Goldfish](http://digitalfire.ucd.ie/?page_id=430) tool automates
-this exploit for investigators needing to analyze the memory of a Mac.
+The Goldfish tool automates this exploit for investigators needing to analyze
+the memory of a Mac.
 
-Cold and Warm reboots
+### Cold and Warm reboots
 Typical RAM-modules retain memory during reboots as long as power is
 provided. The modules typically support a self-refresh. Whether the data
 is retained depend on BIOS-es that do or do not clear the RAM during
@@ -126,7 +126,7 @@ without power. Opinions on how practical cold boot is are discussed in
 "[On the Practicability of Cold Boot
 Attacks](https://faui1-files.cs.fau.de/filepool/projects/coldboot/fares_coldboot.pdf)".
 
-Virtual Machine Imaging
+### Virtual Machine Imaging
 There are numerous popular virtual machines that are in wide use such as
 xen, qemu or vmware. If the memory image is for a machine running in
 this kind of virtual environment, there are usually two methods for

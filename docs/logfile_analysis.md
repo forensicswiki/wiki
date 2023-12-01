@@ -8,18 +8,18 @@ of the operating system, certain applications, etc.
 Log files come in various formats, in general these formats can be
 divided in the following categories:
 
-- Binary formats
-- Text-based formats
-- in-database
+* Binary formats
+* Text-based formats
+* in-database
 
 ## Binary formats
 
-- [Windows Event Log (evt)](windows_event_log_(evt).md)
-- [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
+* [Windows Event Log (evt)](windows_event_log_(evt).md)
+* [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 
 ## Text-based formats
 
-- [Apache HTTP Server access log format](http://httpd.apache.org/docs/1.3/logs.html#accesslog)
+* [Apache HTTP Server access log format](https://httpd.apache.org/docs/2.4/logs.html#accesslog)
 
 ## Tools
 
@@ -59,7 +59,7 @@ streaming, ftp or mail server statistics, graphically."*
 
 Java reporting tool.
 
-[Open Web Analytics](http://wiki.openwebanalytics.com/index.php?title=Main_Page)
+[Open Web Analytics](https://www.openwebanalytics.com/)
 
 *"An open source web analytics framework written in PHP."*
 

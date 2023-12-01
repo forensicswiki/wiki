@@ -41,9 +41,6 @@ available.
 
 - [Wireless forensics](wireless_forensics.md)
 - [SSL forensics](ssl_forensics.md)
-
-<!-- -->
-
 - [IP geolocation](ip_geolocation.md)
 - [Tools: Network Forensics](tools_network_forensics.md)
 - [Tools: Logfile Analysis](logfile_analysis.md#tools)
@@ -67,21 +64,17 @@ available.
 - [KisMAC](kismac.md) is a free, open source wireless stumbling
   and security tool for Mac OS X.
 - [Kismet](kismet.md)
-- [logstash](http://logstash.net/) is a tool for managing events and
+- [logstash](https://www.elastic.co/logstash) is a tool for managing events and
   logs. You can use it to collect logs, parse them, and store them for
   later use (like, for searching). Speaking of searching, logstash comes
   with a web interface for searching and drilling into all of your logs.
-
-<!-- -->
-
 - [log2Timeline](log2timeline.md) a framework for automatic
   creation of a super timeline. The main purpose is to provide a single
   tool to parse various log files and artifacts found on suspect systems
   (and supporting systems, such as network equipment) and produce a
   timeline that can be analysed by forensic investigators/analysts.
-- [NetFSE](netfse.md) is a web-based search and analysis
-  application for high-volume network data [available at
-  NetFSE.org](http://www.netfse.org)
+- [NetFSE](netfse.md) is a web-based search and analysis application for
+   high-volume network data.
 - [NetSleuth](http://www.netgrab.co.uk) is a live and retrospective
   network analysis and triage tool.
 - [ntop](ntop.md)
@@ -94,9 +87,6 @@ available.
   things, is a Python-based engine used by several tools for automatic creation
   of timelines. Plaso default behavior is to create super timelines but it also
   supports creating more targeted timelines.
-
-<!-- -->
-
 - [RegRipper](regripper.md) is an open source tool, written in
   Perl, for extracting/parsing information (keys, values, data) from the
   Registry and presenting it for analysis
