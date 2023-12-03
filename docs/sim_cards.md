@@ -117,7 +117,6 @@ In general, some of this data can help an investigator determine:
 There are many software solutions that can help the examiner to acquire
 the information from the SIM card. Several products include:
 
-* [3GForensics SIMIS](http://www.3gforensics.co.uk/)
 * Inside Out's [SIMCon](https://www.simcon.no/)
 * SIM Content Controller
 * Paraben Forensics' [SIM Card Seizure](https://paraben-sticks.com/index.php/product/sim-card-seizure/)

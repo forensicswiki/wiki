@@ -61,8 +61,8 @@ that some of the viruses kept re-attaching themselves to movies. When
 the squad looked at the videos they determined that they were child
 pornography and contacted the police.
 
-- <https://www.forbes.com/sites/kashmirhill/2010/10/12/the-geek-squad-becomes-the-porn-squad/>
-- <https://law.justia.com/cases/alabama/court-of-appeals-criminal/2010/08-1767.html>
+- [The Geek Squad Becomes the Porn Squad](https://www.forbes.com/sites/kashmirhill/2010/10/12/the-geek-squad-becomes-the-porn-squad/)
+- [Corey Beantee Melton v. State of Alabama](https://law.justia.com/cases/alabama/court-of-appeals-criminal/2010/08-1767.html)
 
 ### 2007 James Kent
 
@@ -84,10 +84,7 @@ child pornography. In the appeal the court throws out one count, arguing
 that Kent did not know that viewing child pornography online made a copy
 of the pornography in his web browser's cache.
 
-- <http://www.dailyfreeman.com/articles/2010/10/20/blotter/doc4cbe74442fd0d812453451.txt>
-- <https://www.nbcnews.com/us-news?lite>
-- [Opinion](http://www.msn.com/de-ch/)
-- <https://www.forbes.com/sites/kashmirhill/2010/10/15/i-was-doing-academic-research-not-an-adequate-defense-for-child-porn-possession/>
+- ['I Was Doing Academic Research' Not an Adequate Defense for Child Porn Possession](https://www.forbes.com/sites/kashmirhill/2010/10/15/i-was-doing-academic-research-not-an-adequate-defense-for-child-porn-possession/)
 
 ### 2008 Brad Cooper
 
@@ -126,8 +123,7 @@ topics....In one of those conversations, the person identified himself
 as a married 45-year-old man with a daughter, a description that fits
 Mr. Cameron."
 
-- <https://www.pressherald.com/2011/03/10/cameron-sentenced-to-16-years-in-prison/>
-- <http://www.mahalo.com/james-m-cameron/>
+- [Cameron sentenced to 16 years in prison](https://www.pressherald.com/2011/03/10/cameron-sentenced-to-16-years-in-prison/)
 
 ## See Also
 

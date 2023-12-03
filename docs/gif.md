@@ -51,12 +51,7 @@ applications to insert application specific data inside a GIF. The
 beginning of this block has the Extension Introducer and an Application
 Extension Label `FF` (hex).
 
-In iOS, the [Photo Investigator](photo_investigator.md) can
-extract, view, and remove GIF metadata.
-
 ## External Links
 
 - [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF)
-- [W3.Org: GRAPHICS INTERCHANGE FORMAT
-  SPECIFICATION](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)
-
+- [W3.Org: GRAPHICS INTERCHANGE FORMAT SPECIFICATION](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)

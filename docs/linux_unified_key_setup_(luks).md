@@ -71,7 +71,7 @@ See the cryptsetup(8) man page for other operations.
 
 - [New Methods in Hard Disk Encryption](https://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf),
   by Clemens Fruhwirth, July 18, 2005
-- [LUKS On-Disk Format Specification - Version 1.2.1](http://wiki.cryptsetup.googlecode.com/git/LUKS-standard/on-disk-format.pdf),
+- [LUKS On-Disk Format Specification - Version 1.2.3](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf),
   by Clemens Fruhwirth, October 16, 2011
 - [LUKS Disk Encryption](https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sect-Security_Guide-LUKS_Disk_Encryption.html),
   by RedHat

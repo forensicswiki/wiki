@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Hardware
 ---
 ## Serial Port Monitoring
 
@@ -34,8 +34,6 @@ investigation.
 **Tools** Here are some tools used to monitor the data transfer between
 COM devices.
 
-[Serial Port Monitoring tool](https://www.com-port-monitoring.com/)
-
-[HHD USB/Serial Port Monitoing Software](http://www.hhdsoftware.com)
-
-[AGGSoftware](https://www.aggsoft.com/)
+* [AGGSoftware](https://www.aggsoft.com/)
+* [HHD USB/Serial Port Monitoing Software](https://www.hhdsoftware.com/)
+* [Serial Port Monitoring tool](https://www.com-port-monitoring.com/)

@@ -28,7 +28,7 @@ tags:
   by R. Carbone, C. Bean, August 2012
 * [Generating computer forensic supertimelines under Linux: A comprehensive guide for Windows-based disk images](https://apps.dtic.mil/dtic/tr/fulltext/u2/1003976.pdf),
   October 2011
-* [Computer forensic timeline visualization tool](http://www.dfrws.org/2009/proceedings/p78-olsson.pdf),
+* [Computer forensic timeline visualization tool](https://dfrws.org/presentation/computer-forensic-timeline-visualization-tool/),
   by J. Olsson, M. Boldt, ScienceDirect Digital Investigation, Volume 6,
   September 2009
 * [Analysis of Time Information for Digital Investigation](https://ieeexplore.ieee.org/document/5331448),
@@ -54,12 +54,12 @@ tags:
   by S. Willassen, E-Forensics 2008, Adelaide, Australia, January 2008
 * [An Improved Clock Model for Translating Timestamps](http://www.infosec.jmu.edu/reports/jmu-infosec-tr-2007-001.pdf),
   by F. Buchholz, JMU-INFOSEC-TR-2007-001, James Madison University
-* [A brief study of time](http://www.dfrws.org/2007/proceedings/p31-buchholz.pdf),
+* [A brief study of time](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-a_brief_study_of_time.pdf),
   by F. Buchholz, B. Tjaden, Digital Investigation 2007:4S
 * [The Rules of Time on NTFS File System](https://i.cs.hku.hk/~cisc/forensics/papers/RuleOfTime.pdf),
   by K. Chow, F. Law, M. Kwan, P. Lai, 2nd International Workshop on Systematic
   Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007
-* [A correlation method for establishing provenance of timestamps in digital evidence](http://www.dfrws.org/2006/proceedings/13-%20Schatz.pdf),
+* [A correlation method for establishing provenance of timestamps in digital evidence](https://dfrws.org/presentation/a-correlation-method-for-establishing-provenance-of-timestamps-in-digital-evidence/),
   by B. Schatz, G. Mohay, A. Clark, Digital Investigation 2006:3S
 * [Formalizing Event Time Bouding in Digital Investigation](https://www.utica.edu/academic/institutes/ecii/publications/articles/B4A90270-B5A9-6380-68863F61C2F7603D.pdf),
   by P. Gladyshev, A. Patel, International Journal of Digital Evidence, vol

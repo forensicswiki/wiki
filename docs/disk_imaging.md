@@ -118,5 +118,5 @@ rare since the non-encrypted data is what undergoes analysis.
 
 ### Hash based imaging
 
-* [Hash based disk imaging using AFF4](http://www.dfrws.org/2010/proceedings/2010-314.pdf),
+* [Hash based disk imaging using AFF4](https://dfrws.org/sites/default/files/session-files/2010_USA_pres-hash_based_disk_imaging_using_aff4.pdf),
   by [Michael Cohen](michael_cohen.md), [Bradley Schatz](bradley_schatz.md)

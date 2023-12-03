@@ -32,8 +32,6 @@ Store does not allow in any application it distributes).
 - [iphone-dataprotection](https://code.google.com/archive/p/iphone-dataprotection);
   a set of tools that can image and decrypt an iPhone. The tools can
   even brute-force the iPhone's 4-digit numerical password.
-- [iOS Forensic Research](http://www.iosresearch.org). Jonathan Zdziarski has released tools that will
-  image iPhones, iPads and iPod Touch. (law enforcement only).
 - [libimobiledevice](https://libimobiledevice.org/) is a library with
   utilities for backing up iPhones. The output format is an iTunes-style
   backup that can be examined with traditional tools. They are available
@@ -61,7 +59,7 @@ Store does not allow in any application it distributes).
 - [Wikipedia: iPhone](https://en.wikipedia.org/wiki/IPhone)
 - [Wikipedia: IOS jailbraking](https://en.wikipedia.org/wiki/IOS_jailbreaking)
 - [The iPhone Wiki](https://www.theiphonewiki.com/wiki/Main_Page)
-- [Slashdot: Malware Could Grab Data From Stock iPhones](https://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rsshttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_source=feedburnerhttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_medium=feedhttp://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones?from=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29)
+- [Slashdot: Malware Could Grab Data From Stock iPhones](https://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones)
 - [Apple iOS Privacy](http://seriot.ch/resources/talks_papers/iPhonePrivacy.pdf),
   [slides hash days presentation](http://seriot.ch/resources/talks_papers/ios_privacy_hashdays.pdf),
   by Nicolas Seriot, in November 2010.

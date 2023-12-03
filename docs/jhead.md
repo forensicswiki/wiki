@@ -30,9 +30,3 @@ Metering Mode: center weight
 Exposure Mode: Manual
 Exposure Mode: Auto bracketing
 ```
-
-## Externals Links
-
-* Article about removing [hidden data in JPEG
-  files](http://netzreport.googlepages.com/hidden_data_in_jpeg_files.html)
-  with jhead

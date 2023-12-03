@@ -9,11 +9,6 @@ of conferences and journals at <https://digital-evidence.org/publish/index.html>
 and used with his permission. Brian no longer maintains those listings and
 points back to this Wiki.
 
-For Dates and Locations of upcoming conferences and training events, see the
-pages titled<b> [Upcoming events](upcoming_events.md)</b> <i>(Calls for papers,
-Conferences and On-Demand Training)</i> and <b>Scheduled Training Courses</b>
-<i>(Training Classes/Courses scheduled for specific dates/locations)</i>.
-
 # Research Conferences and Workshops
 
 Research conferences that are related to digital investigation and forensics.
@@ -129,4 +124,3 @@ Techno-Security Conference
 # See also
 
 * [Journals](journals.md)
-* [Upcoming events](upcoming_events.md)

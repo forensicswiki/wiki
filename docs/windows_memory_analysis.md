@@ -17,24 +17,13 @@ Data types typical to the WINAPI are documented by Microsoft in MS-DTYP
 Getting started with memory analysis can be difficult without some known
 images to practice with.
 
-* The 2005 [Digital Forensic Research Workshop](digital_forensic_research_workshop.md)
-  [Memory Analysis Challenge](http://www.dfrws.org/2005/challenge/) published
-  two Windows 2000 Service Pack 1 memory images with some [malware](malware.md)
+* The 2005 [DFRWS: Memory Analysis Challenge](https://github.com/dfrws/dfrws2005-challenge)
+  published two Windows 2000 Service Pack 1 memory images with some malware
   installed.
-
-<!-- -->
-
 * The [Digital Forensics Tool Testing](https://dftt.sourceforge.net/)
-  project has published a few [Windows memory
-  images](https://dftt.sourceforge.net/test13/index.html).
-
-<!-- -->
-
+  project has published a few [Windows memory images](https://dftt.sourceforge.net/test13/index.html).
 * The CFReDS Project has created some
   [downloadable memory images](https://cfreds.nist.gov/mem/memory-images.rar).
-
-<!-- -->
-
 * A number of RAM images can be downloaded from
   <https://belkasoft.com/x>. Images include
   ones with Gmail emails, Skype activity, Paltalk chats, browser URLs
@@ -103,23 +92,22 @@ and re-released as Volatility in August
   Usenix Security 2008 (Best student paper)
 * [Pushing the Limits of Windows: Physical Memory](https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/),
   by Mark Russinovich, Technet Blogs, July 21, 2008
-* [The impact of Microsoft Windows pool allocation strategies on memory forensics](http://www.dfrws.org/2008/proceedings/p58-schuster.pdf),
+* [The impact of Microsoft Windows pool allocation strategies on memory forensics](https://dfrws.org/presentation/the-impact-of-microsoft-windows-pool-allocation-strategies-on-memory-forensics/),
   by Andreas Schuster, DFRWS 2008
-  [slides](http://www.dfrws.org/2008/proceedings/p58-schuster_pres.pdf)
 * [Finding Digital Evidence In Physical Memory](https://www.blackhat.com/presentations/bh-federal-06/BH-Fed-06-Burdach/bh-fed-06-burdach-up.pdf),
   by Mariusz Burdach, Black Hat Federal, 2008
-* [Forensic Memory Analysis: Files mapped in memory](http://www.dfrws.org/2008/proceedings/p52-vanBaar.pdf),
-  by Ruud van Baar, DFRWS 2008, [slides](http://www.dfrws.org/2008/proceedings/p52-vanBaar_pres.pdf)
-* [Forensic Analysis of the Windows Registry in Memory](http://www.dfrws.org/2008/proceedings/p26-dolan-gavitt.pdf),
-  by Brendan Dolan-Gavitt, DFRWS 2008, [slides](http://www.dfrws.org/2008/proceedings/p26-dolan-gavitt_pres.pdf)
+* [Forensic Memory Analysis: Files mapped in memory](https://dfrws.org/presentation/forensic-memory-analysis-files-mapped-in-memory/),
+  by Ruud van Baar, DFRWS 2008
+* [Forensic Analysis of the Windows Registry in Memory](https://dfrws.org/presentation/forensic-analysis-of-the-windows-registry-in-memory/),
+  by Brendan Dolan-Gavitt, DFRWS 2008
 
 2007
 
 * [Beyond The CPU: Defeating Hardware Based RAM Acquisition (part I: AMD case)](https://www.first.org/conference/2007/papers/rutkowska-joanna-slides.pdf),
   by Joanna Rutkowska COSEINC Advanced Malware Labs
-* [Forensic Memory Analysis: From Stack and Code to Execution History](http://www.dfrws.org/2007/proceedings/p114-arasteh.pdf),
+* [Forensic Memory Analysis: From Stack and Code to Execution History](https://www.sciencedirect.com/science/article/pii/S1742287607000485),
   by Ali Reza Arasteh and Mourad Debbabi, DFRWS 2007
-* [BodySnatcher: Towards Reliable Volatile Memory Acquisition by Software](http://www.dfrws.org/2007/proceedings/p126-schatz.pdf),
+* [BodySnatcher: Towards Reliable Volatile Memory Acquisition by Software](https://www.sciencedirect.com/science/article/pii/S1742287607000497),
   by Bradley Schatz, DFRWS 2007
 * [The VAD Tree: A Process-Eye View of Physical Memory](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-the_vad_tree_-_a_process-eye_view_of_physical_memory.pdf),
   by Brendan F Dolan-Gavitt, DFRWS 2007
@@ -128,9 +116,9 @@ and re-released as Volatility in August
 
 2006
 
-* [Searching for Processes and Threads in Microsoft Windows Memory Dumps](http://www.dfrws.org/2006/proceedings/2-Schuster.pdf),
+* [Searching for Processes and Threads in Microsoft Windows Memory Dumps](https://dfrws.org/sites/default/files/session-files/2006_USA_pres-searching_for_processes_and_threads_in_microsoft_windows_memory_dumps.pdf),
   by Andreas Schuster, Deutsche Telekom AG, Germany, DFRWS 2006
-* Using every part of the buffalo in Windows memory,
+* [Using every part of the buffalo in Windows memory](https://www.sciencedirect.com/science/article/abs/pii/S1742287607000047),
   by Jesse D.  Kornblum, DFRWS 2006
 
 ## External Links

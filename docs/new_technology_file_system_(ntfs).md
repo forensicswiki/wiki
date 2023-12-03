@@ -23,9 +23,7 @@ commonly abbreviated as the 'MACE' values. Note that other attributes in
 each MFT record may also contain timestamps that are of forensic value.
 
 Additional information on how NTFS timestamps work when files are moved
-or copied is available here: [Microsoft KB
-299648](http://support.microsoft.com/kb/299648) [SANS
-poster](https://www.sans.org/posters/windows-forensic-analysis/)
+or copied is available here: [Microsoft KB 299648](https://mskb.pkisolutions.com/kb/299648)
 
 ### Changes in Windows Vista
 
@@ -163,8 +161,6 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
   by Cheong Kai Wee
 * [The Four Stages of NTFS File Growth, Part 2](https://learn.microsoft.com/en-us/archive/blogs/),
   by John Marlin, March 12, 2015
-* [A Tale of Two File Names](http://ww25.usn.pw/blog/gen/2015/06/09/filenames/?subid1=20230112-2010-56ad-8978-6554bc03a9e7),
-  by Thomas Galvin, June 9, 2015
 * [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020
 * [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),

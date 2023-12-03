@@ -6,7 +6,6 @@ Testing and validation are 2 important elements for forensics.
 
 ## External Links
 
-* [Forensics Basics: Weighing the Evidence \> Reliability](http://www.forensicbasics.org/?page_id=501#.X3bvX3UzauU)
 * [Computer Forensics Tool Testing Program (CFTT)](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt),
   by NIST
 * [Working Group on Digital Evidence (SWGDE)](https://www.swgde.org/home)
