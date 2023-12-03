@@ -71,12 +71,10 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   [Moyix](https://moyix.blogspot.com/2008/08/auditing-system-call-table.html)) -
   List entries in the system call table. Can be used to detect certain
   rootkits that hook system calls by replacing entries in this table.
-- [threadqueues](http://kurtz.cs.wesleyan.edu/%7Ebdolangavitt/memory/threadqueues.py)
-  (By
-  [Moyix](https://moyix.blogspot.com/2008/09/window-messages-as-forensic-resource.html)) -
-  Enumerates window messages pending for each thread on the system.
-  Window messages are the mechanism used to send things like button
+- threadqueues - Enumerates window messages pending for each thread on the
+  system.  Window messages are the mechanism used to send things like button
   presses, mouse clicks, and other events to GUI programs.
+  By [Moyix](https://moyix.blogspot.com/2008/09/window-messages-as-forensic-resource.html))
 - objtypescan, by Andreas Schuster -
   Enumerates Windows kernel object types. (Note: If running the SVN
   version of Volatility, just install the plugin file from this archive)

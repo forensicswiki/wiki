@@ -1284,9 +1284,6 @@ name</a></b></p></td>
 
 ### Commercial
 
-* [cafae](http://tzworks.net/prototype_page.php?proto_id=19) -
-  Computer Account Forensic Artifact Extractor. Free tool that can be
-  run on Windows, Linux or Mac OS-X to parse ntuser.dat hives.
 * [Regisry Manager](http://www.stellarinfo.com/windows-tools/registry-cleaner.php)
 * [Abexo Free Regisry Cleaner](http://www.abexo.com/free-registry-cleaner.htm)
 * [Auslogics Registry Defrag](https://www.auslogics.com/en/software/registry-defrag/)

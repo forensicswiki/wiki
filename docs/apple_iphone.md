@@ -27,7 +27,6 @@ Store does not allow in any application it distributes).
 - [Elcomsoft Mobile Forensic Bundle](https://www.elcomsoft.com/emfb.html) performs physical,
   logical and over-the-air acquisition.
 - EnCase Neutrino
-- [FTS iXAM](http://www.ixam-forensics.com/)
 - Internet Evidence Finder by Magnet Forensics
 - iPhone Analyzer
 - [iphone-dataprotection](https://code.google.com/archive/p/iphone-dataprotection);

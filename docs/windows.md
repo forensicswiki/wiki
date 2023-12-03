@@ -428,9 +428,9 @@ value:
   by Eric Huber, February 24, 2013
 * [Spotting the Adversary with Windows Event Log Monitoring](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf),
   by National Security Agency/Central Security Service, February 28, 2013
-* [Search history on Windows 8 and 8.1](http://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
+* [Search history on Windows 8 and 8.1](https://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
   by Yogesh Khatri, April 1, 2014
-* [Search history on windows 8.1 - Part 2](http://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
+* [Search history on windows 8.1 - Part 2](https://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
   by Yogesh Khatri, April 21, 2014
 * [Estoteric Hooks](http://www.alex-ionescu.com/Estoteric%20Hooks.pdf)
   by Alex Ionescu, February 16, 2016
@@ -457,7 +457,7 @@ value:
 
 ### Tracking removable media
 
-* [Tracking USB First insertion in Event logs](http://www.swiftforensics.com/2012/08/tracking-usb-first-insertion-in-event.html),
+* [Tracking USB First insertion in Event logs](https://www.swiftforensics.com/2012/08/tracking-usb-first-insertion-in-event.html),
   by Yogesh Khatri, August 18, 2012
 
 ### Under the hood

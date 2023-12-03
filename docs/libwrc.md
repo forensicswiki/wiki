@@ -7,7 +7,8 @@ tags:
   - Tools
 ---
 The **libwrc** package contains a library and applications to read the
-[Windows Resource Compiler (WRC) format](https://github.com/libyal/libexe/blob/main/documentation/Executable%20(EXE)%20file%20format.asciidoc#5-resource-section-data)
+[Windows Resource Compiler (WRC) format](https://github.com/libyal/libexe/blob/main/documentation/Executable%20(EXE)%20file%20format.asciidoc).
+
 This format is used in the .rsrc section of PE/COFF executables.
 
 ## Tools

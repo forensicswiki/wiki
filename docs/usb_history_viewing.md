@@ -161,7 +161,7 @@ and VBR data.
 
 ## Resources
 
-- [New Device Timestamps](http://www.swiftforensics.com/2013/11/windows-8-new-registry-artifacts-part-1.html)
+- [New Device Timestamps](https://www.swiftforensics.com/2013/11/windows-8-new-registry-artifacts-part-1.html)
 
 ## External Links
 

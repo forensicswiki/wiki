@@ -44,14 +44,6 @@ Web logfile analytics software can process a log file and print a
 report. Normally this software is used by organizations that host the
 website. It can also be used for analysis of webserver logfiles.
 
-[Analog](http://www.analog.cx/)
-
-Claims to be *"the most popular logfile analyser in the world"*
-
-[Webalizer](http://www.mrunix.net/webalizer/)
-
-*"A fast, free web server log file analysis program"*
-
 [phpMyVisites](http://www.phpmyvisites.us/)
 
 New "clicks heatmap" shows where people are clicking on your website;

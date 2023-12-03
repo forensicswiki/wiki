@@ -38,7 +38,7 @@ tags:
 
 - [Retrieving Digital Evidence: Methods, Techniques and Issues](https://belkasoft.com/retrieving-digital-evidence-methods-techniques-and-issues),
   by Yuri Gubanov, 2012
-- [Byteprints: A Tool to Gather Digital Evidence](http://utdallas.edu/~sxs018540/index/docs/byteprints_itcc05.pdf),
+- [Byteprints: A Tool to Gather Digital Evidence](https://ieeexplore.ieee.org/document/1428548),
   Sriranjani Sitaraman, Srinivasan Krishnamurthy and S. Venkatesan,
   Proceedings of the International Conference on Information Technology
   (ITCC 2005), Las Vegas, Nevada, USA, April 4 - 6, 2005

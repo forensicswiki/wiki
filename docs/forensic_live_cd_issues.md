@@ -167,29 +167,23 @@ will efficiently write-protect the drive from programs running in
 userspace, while kernel and its modules still can write anything to the
 block device, regardless of the read-only mode).
 
-Analysis of the source code for the "write blocking" functionality
-utilized by hdparm and
-blockdev demonstrates that these tools use the
-same system call to alter a kernel flag which is checked in the file
-system layer. This flag (when set) disables generic write operations on
-a file within a file system and many internal write operations of the
-file system layer (like journaling, recovering a file system after a
-crash, superblock modifications, etc.). File system drivers use the
-interface to the [block device
-layer](http://researcher.watson.ibm.com/researcher/files/il-AVISHAY/01-block_io-v1.3.pdf)
-to perform internal write operations, and the block device layer is
-ignoring (not checking) the read-only flag set by hdparm or blockdev on
-a block device, therefore it's up to a file system driver to refuse
-writing to a block device in read-only mode (and there is nothing
-stopping write operations issued by a file system driver not adhering
-the read-only mode of a block device due to the lack of read-only flag
-checks). [A patch has been
-implemented](https://github.com/Schramp/linux-writeblock/wiki) to add
-the write blocking functionality to the IO scheduler / block device
+Analysis of the source code for the "write blocking" functionality utilized by
+hdparm and blockdev demonstrates that these tools use the same system call to
+alter a kernel flag which is checked in the file system layer. This flag (when
+set) disables generic write operations on a file within a file system and many
+internal write operations of the file system layer (like journaling, recovering
+a file system after a crash, superblock modifications, etc.). File system
+drivers use the interface to the block device layer to perform internal write
+operations, and the block device layer is ignoring (not checking) the read-only
+flag set by hdparm or blockdev on a block device, therefore it's up to a file
+system driver to refuse writing to a block device in read-only mode (and there
+is nothing stopping write operations issued by a file system driver not
+adhering the read-only mode of a block device due to the lack of read-only flag
+checks). [A patch has been implemented](https://github.com/Schramp/linux-writeblock/wiki)
+to add the write blocking functionality to the IO scheduler / block device
 layer as well, and make it the default to block all write IO issued to a
-read-only block device ([Linux write
-blocker](linux_write_blocker.md) does almost the same, except it
-doesn't write block anything by default).
+read-only block device ([Linux write blocker](linux_write_blocker.md) does
+almost the same, except it doesn't write block anything by default).
 
 ### TRIM aka discard command
 

@@ -39,8 +39,8 @@ Forensics File Formats
 build-in, some of which are:
 
 * read-write disk image (.dmg): [raw](raw_image_format.md), [UDIF](dmg.md), NDIF
-* [Sparse disk image (.spareimage)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc#3-sparse-disk-image-sparseimage-format)
-* [Sparse bundle disk image (.sparsebundle)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc#4-sparse-bundle-disk-image-sparsebundle-format)
+* [Sparse disk image (.spareimage)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc)
+* [Sparse bundle disk image (.sparsebundle)](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc)
 
 [Windows](windows.md)
 
