@@ -48,15 +48,12 @@ recover fragmented files.
 
 ## File Carving Taxonomy
 
-[Simson Garfinkel](simson_garfinkel.md) and [Joachim
-Metz](joachim_metz.md) have proposed the following file carving
-taxonomy:
+[Simson Garfinkel](simson_garfinkel.md) and [Joachim Metz](joachim_metz.md) have
+proposed the following file carving taxonomy:
 
 Carving
 General term for extracting data (files) out of undifferentiated blocks
 (raw data), like "carving" a sculpture out of soap stone.
-
-<!-- -->
 
 Block-Based Carving
 Any carving method (algorithm) that analyzes the input on block-by-block
@@ -64,20 +61,14 @@ basis to determine if a block is part of a possible output file. This
 method assumes that each block can only be part of a single file (or
 embedded file).
 
-<!-- -->
-
 Statistical Carving
 Any carving method (algorithm) that analyzes the input on characteristic
 or statistic for example, entropy) to determine if the input is part of
 a possible output file.
 
-<!-- -->
-
 Header/Footer Carving
 A method for carving files out of raw data using a distinct header
 (start of file marker) and footer (end of file marker).
-
-<!-- -->
 
 Header/Maximum (file) size Carving
 A method for carving files out of raw data using a distinct header
@@ -85,21 +76,15 @@ A method for carving files out of raw data using a distinct header
 because many file formats (e.g. JPEG, MP3) do not care if additional
 junk is appended to the end of a valid file.
 
-<!-- -->
-
 Header/Embedded Length Carving
 A method for carving files out of raw data using a distinct header and a
 file length (size) which is embedded in the file format
-
-<!-- -->
 
 File structure based Carving
 A method for carving files out of raw data using a certain level of
 knowledge of the internal structure of file types. Garfinkel called this
 approach "Semantic Carving" in his DFRWS2006 carving challenge
 submission, while Metz and Mora called the approach "Deep Carving."
-
-<!-- -->
 
 Semantic Carving
 A method for carving files based on a linguistic analysis of the file's
@@ -108,20 +93,14 @@ of french in the middle of a long HTML file written in English is a
 fragment left from a previous allocated file, and not from the
 English-language HTML file.
 
-<!-- -->
-
 Carving with Validation
 A method for carving files out of raw data where the carved files are
 validated using a file type specific validator.
-
-<!-- -->
 
 Fragment Recovery Carving
 A carving method in which two or more fragments are reassembled to form
 the original file or object. Garfinkel previously called this approach
 "Split Carving."
-
-<!-- -->
 
 Repackaging Carving
 A carving method that modifies the extracted data by adding new headers,
@@ -133,11 +112,9 @@ utility.
 
 ## File Carving challenges and test images
 
-[File Carving Challenge](http://www.dfrws.org/2006/challenge/) -
-[DFRWS](digital_forensic_research_workshop.md) 2006
+[DFRWS: File Carving Challenge](https://github.com/dfrws/dfrws2006-challenge)
 
-[File Carving Challenge](http://www.dfrws.org/2007/challenge/) -
-[DFRWS](digital_forensic_research_workshop.md) 2007
+[DFRWS: File Carving Challenge](https://github.com/dfrws/dfrws2007-challenge)
 
 [FAT Undelete Test \#1](https://dftt.sourceforge.net/test6/index.html) -
 Digital Forensics Tool Testing Image (dftt \#6)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Mobile
 ---
 **General Packet Radio Services (GPRS)** is a wireless data
 communication service that transfers data at a rate of up to 40-50Kbps,
@@ -41,14 +41,10 @@ There are three GPRS classes which help indicate the capabilities of a
 Mobile phones of this class can be connected to both GPRS and
 [GSM](gsm.md) services simultaneously.
 
-<!-- -->
-
 **Class B**
 Mobile phones of this class can be attached to both GPRS and GSM
 services, but using only one service at a time. Switching between them
 (suspend/resume) is done automatically.
-
-<!-- -->
 
 **Class C**
 Mobile phones of this class are attached to either GPRS or GSM voice
@@ -70,7 +66,4 @@ of transfer.
 
 ## External Links
 
-- <https://www.gsma.com>
-- <http://www.kochar.com/gprs/classtypes.html>
-- <https://www.nokia.com/>
 - [Wikipedia: GPRS](https://en.wikipedia.org/wiki/GPRS)

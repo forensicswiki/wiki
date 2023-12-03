@@ -4,8 +4,7 @@ tags:
 ---
 This is the list of Training Providers, who offer training courses of
 interest to practitioners and researchers in the field of Digital
-Forensics. Conferences which may include training are located on the
-[upcoming events](upcoming_events.md) page.
+Forensics.
 
 **PLEASE READ BEFORE YOU EDIT THE LIST BELOW**
 Some training providers offer on-going training courses that are

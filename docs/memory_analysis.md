@@ -130,8 +130,8 @@ analysis.
   by Brian Hay and Kara Nance, 2008
 - [Discovering ephemeral evidence with Live RAM analysis](https://belkasoft.com/download/info/Live_RAM_Analysis_in_Digital_Forensics.pdf)
   by Oleg Afonin and Yuri Gubanov, 2013
-- [An Evaluation Platform for Forensic Memory Acquisition Software](http://www.dfrws.org/2013/proceedings/DFRWS2013-11.pdf) by
-  Stefan Voemel and Johannes Stuettgen, DFRWS 2013
+- [An Evaluation Platform for Forensic Memory Acquisition Software](https://dfrws.org/presentation/an-evaluation-platform-for-forensic-memory-acquisition-software/),
+  by Stefan Voemel and Johannes Stuettgen, DFRWS 2013
 
 ### Anti-forensics
 

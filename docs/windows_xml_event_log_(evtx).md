@@ -47,7 +47,7 @@ Where LCID is the "locale identifier"
   by [Microsoft](microsoft.md)
 * [Simple BinXml Example](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-even6/7cdd0c95-2181-4794-a094-55c78b389358),
   by [Microsoft](microsoft.md)
-* [Introducing the Microsoft Vista Event Log File Format](http://www.dfrws.org/2007/proceedings/p65-schuster_pres.pdf),
+* [Introducing the Microsoft Vista Event Log File Format](https://www.sciencedirect.com/science/article/pii/S1742287607000424),
   by Andreas Schuster, in 2007
 * [Windows XML Event Log (EVTX) format](https://github.com/libyal/libevtx/blob/main/documentation/Windows%20XML%20Event%20Log%20(EVTX).asciidoc),
   by the [libevtx project](libevtx.md)

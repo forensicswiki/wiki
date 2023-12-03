@@ -57,10 +57,7 @@ tags:
   2000/XP/Server 2003
 - [Universal TUN/TAP driver](https://vtun.sourceforge.net/tun/) - virtual
   point-to-point network tunnel device
-- [TUN/TAP driver for MacOS
-  X](http://www-user.rhrk.uni-kl.de/~nissler/tuntap/)
-- [Tunnel driver for Solaris 8
-  (sparc64)](https://libdnet.sourceforge.net/tun-1.1-sol80.sparc64.gz)
+- [Tunnel driver for Solaris 8 (sparc64)](https://libdnet.sourceforge.net/tun-1.1-sol80.sparc64.gz)
 
 ## References
 

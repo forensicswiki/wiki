@@ -1,6 +1,5 @@
 ---
 tags:
-  - Anti-Forensics
   - Articles that need to be expanded
 ---
 ## Definition
@@ -29,7 +28,3 @@ hibernation file.
 ## See Also
 
 * [FAT#File_Slack](fat.md#file-slack)
-
-## External Links
-
-* <http://www.forensics-intl.com/def6.html>

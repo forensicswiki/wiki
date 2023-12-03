@@ -21,9 +21,7 @@ as Exif, IPTC, GPS, or Camera Raw.
 
 The [exif](exif.md) and [jhead](jhead.md) command tools can extract and
 manipulate some of that metadata. [Adroit Photo Forensics](adroit_photo_forensics.md)
-can be used to extract, view and group metadata from jpeg and camera Raw files.
-In iOS, the [Photo Investigator](photo_investigator.md) can extract, view, and
-remove metadata from all images.
+can be used to extract, view and group metadata from JPEG and camera Raw files.
 
 # Also see
 
