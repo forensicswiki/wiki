@@ -7,13 +7,9 @@ tags:
 
 [E-Detective](https://www.edecision4u.com/)
 
-<!-- -->
-
 [Burst](http://www.burstmedia.com/release/advertisers/geo_faq.htm)
 
 Expensive [IP geolocation](ip_geolocation.md) service.
-
-<!-- -->
 
 [CapAnalysis](https://www.capanalysis.net/ca/)
 
@@ -28,29 +24,19 @@ connections.
 
 [Demo](https://pcap.capanalysis.net/)
 
-<!-- -->
-
 [chkrootkit](http://www.chkrootkit.org)
 
-<!-- -->
-
 [cryptcat](https://farm9.org/Cryptcat/)
-
-<!-- -->
 
 [Enterasys Dragon](https://www.extremenetworks.com/)
 
 Instrusion Detection System, includes session reconstruction.
-
-<!-- -->
 
 [MNIS Collector](https://www.mantaro.com)
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
 It was designed to be used with the MNIS Exporter, which is a Deep
 Packet Inspection probe that can be used to decode 300+ protocols on up
 to 20 Gbps and report the information in IPFIX.
-
-<!-- -->
 
 [Mantaro Network Intelligence Solutions (mnis)](https://www.mantaro.com)
 
@@ -60,92 +46,17 @@ speed Deep Packet Inspection and metadata alerting. It can be used to
 understand network events before and after an event. It scales from LAN
 environments to 20 Gbps service provider networks.
 
-<!-- -->
-
 [MaxMind](https://www.maxmind.com/en/home)
 
 [IP geolocation](ip_geolocation.md) services and data provider
 for offline geotagging. Free GeoLite country database. Programmable
 APIs.
 
-<!-- -->
-
 [netcat](netcat.md)
-
-<!-- -->
 
 [SiLK](https://tools.netsa.cert.org/silk/index.html)
 
-<!-- -->
-
-[NetDetector](http://www.niksun.com/product.php?id=4)
-
-NetDetector is a full-featured appliance for network security
-surveillance, signature-based anomaly detection, analytics and
-forensics. It complements existing network security tools, such as
-firewalls, intrusion detection/prevention systems and switches/routers,
-to help provide comprehensive defense of hosted intellectual property,
-mission-critical network services and infrastructure
-
-<!-- -->
-
 [Netstat](netstat.md)
-
-<!-- -->
-
-[NetVCR](http://www.niksun.com/product.php?id=3)
-
-NetVCR delivers comprehensive real-time network, service and application
-performance management. It is an integrated, single-point solution that
-decisively replaces multiple network performance monitoring and
-troubleshooting systems. NetVCR’s scalable architecture easily adapts to
-data centers, core networks, remote branches or central offices for LAN
-and WAN requirements
-
-<!-- -->
-
-[NIKSUN Full Function Appliance](http://www.niksun.com/product.php?id=11)
-
-NIKSUN’s Full-Function Appliance combines the value of both NetDetector
-and NetVCR for complete network performance and security surveillance.
-This plug-and-play appliance offers customers a complete range of
-network security and performance monitoring solutions that identify,
-capture and analyze the root-cause of any security or network incident
-the first time! The unique enterprise-wide network visibility provided
-by this product is extremely attractive to large enterprises requiring
-an integrated and proactive solution to combat the constant barrage of
-security and network incidents such as worms, viruses, Trojan-horse
-attacks, Denial of Service (DoS) attacks, outages, overload and service
-slowdown, etc.
-
-<!-- -->
-
-[NetOmni](http://www.niksun.com/product.php?id=1)
-
-NetOmni provides global visibility across the network so IT
-professionals can manage multiple products and vendors from one central
-location. NetOmni streamlines the network management process in a manner
-conducive to a “best-practices” model that ensures Service Level
-Agreements (SLA), Quality of Services (QoS) and maximum revenue
-opportunities.
-
-<!-- -->
-
-[NISUN Puma Portable](http://www.niksun.com/product.php?id=15)
-
-NIKSUN's Puma, a portable network monitoring appliance, allows customers
-to leverage the state-of-the-art network performance, security and
-compliance monitoring technology as a robust luggable appliance that can
-be conveniently used in the field. Deployed in a few short steps, Puma
-offers with exceptional functionality of NIKSUN's renowned performance
-and security monitoring technology within minutes to field personnel.
-Puma, is now capable of monitoring networks at 10G speeds. The
-incorporation of real-time 10G monitoring to the Puma feature-set
-enhances the already excellent value that Puma provides to customers,
-making it the go-to portable monitoring and forensics tool for network
-professionals
-
-<!-- -->
 
 [NetSleuth](http://www.netgrab.co.uk/)
 
@@ -154,8 +65,6 @@ NetSleuth can be used to analyse and fingerprint hosts from pcap files,
 designed for post event incident response and network forensics. It also
 supports a live sniffing mode, silently identifying and fingerprinting
 devices without needing to send any traffic onto a network.
-
-<!-- -->
 
 NetworkMiner
 
@@ -179,8 +88,6 @@ tool](https://sourceforge.net/projects/networkminer/) and as a
 [commercial network forensics
 tool](https://www.netresec.com/?page=NetworkMiner).
 
-<!-- -->
-
 [pcap2wav](https://pcap2wav.xplico.org/)
 
 VoIP/RTP decoder. pcap2wav is part (a sub-project) of
@@ -188,59 +95,35 @@ VoIP/RTP decoder. pcap2wav is part (a sub-project) of
 audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
 (x-msrta: Real Time Audio).
 
-<!-- -->
-
 [rkhunter](https://rkhunter.sourceforge.net/)
 
-<!-- -->
-
 [ngrep](ngrep.md)
-
-<!-- -->
 
 [nslookup](https://en.wikipedia.org/wiki/Nslookup)
 
 Name Server Lookup command line tool used to find IP address from domain
 name.
 
-<!-- -->
-
 [Sguil](http://bammv.github.io/sguil/index.html)
-
-<!-- -->
 
 [Snort](snort.md)
 
-<!-- -->
-
 [ssldump](https://ssldump.sourceforge.net/)
-
-<!-- -->
 
 [tcpdump](tcpdump.md)
 
-<!-- -->
-
 [tcpxtract](tcpxtract.md)
 
-<!-- -->
-
 [tcpflow](tcpflow.md)
-
-<!-- -->
 
 [truewitness](http://www.nature-soft.com/forensic.html)
 
 Linux/open-source. Based in India.
 
-<!-- -->
-
 [OmniPeek](omnipeek.md) by [WildPackets](wildpackets.md)
 
 OmniPeek is a network forensics tool used to capture, store, and analyze
 historical network traffic.
-
-<!-- -->
 
 [Whois](https://en.wikipedia.org/wiki/WHOIS)
 
@@ -249,8 +132,6 @@ domain.
 
 [Bulk WHOIS data request](http://www.arin.net/registration/agreements/bulkwhois.pdf)
 from ARIN
-
-<!-- -->
 
 [IP Regional Registries](http://www.arin.net/community/rirs.html)
 
@@ -264,27 +145,19 @@ from ARIN
 
 [RIPE Network Coordination Centre (RIPE NCC)](https://www.ripe.net/)
 
-<!-- -->
-
 [Wireshark](wireshark.md) / Ethereal
 
 Open Source protocol analyzer previously known as ethereal.
-
-<!-- -->
 
 [Kismet](kismet.md)
 
 Kismet is an 802.11 layer2 wireless network detector, sniffer, and
 intrusion detection system.
 
-<!-- -->
-
 [kisMAC](kismac.md)
 
 KisMAC is an open-source and free sniffer/scanner application for Mac OS
 X.
-
-<!-- -->
 
 [Xplico](xplico.md)
 
@@ -293,8 +166,6 @@ HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4, IPv6, ...
 
 VoIP sniffer and decoder. Audio codec supported: G711ulaw, G711alaw,
 G722, G729, G723, G726 and MSRTA
-
-<!-- -->
 
 [Expert Team - 3i System](http://expert-team.net/home/)
 
@@ -305,8 +176,6 @@ the target users. Supported layer 7 protocols and applications include
 HTTP (Web URL and Content, Web Video, Web File Upload and Download,
 Email - POP3, IMAP, SMTP, Webmail, Social Networking Sites, FTP File
 Upload and Download, Instant Messaging, VoIP etc....
-
-<!-- -->
 
 [fmadio 10G Packet Capture](https://www.fmad.io/)
 

@@ -207,7 +207,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by logicchild, September 25, 2008
 * [De-mystifying Defrag: Identifying When Defrag Has Been Used for Anti-Forensics (Part 1 - Windows XP)](https://www.sans.org/digital-forensics-incident-response/),
   by Chad Tilbury, August 5, 2009
-* [Windows Prefetch File (old blog entry from 42 LLC)](http://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html),
+* [Windows Prefetch File (old blog entry from 42 LLC)](https://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html),
   by Yogesh Khatri, April 14, 2010
 * [Windows PC Accelerators](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653317(v=vs.85))
 * [Decoding Prefetch Files for Forensic Purposes: Part 1](https://dfinews.com),
@@ -231,7 +231,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Corey Harrell, December 5, 2012
 * [What's New in the Prefetch for Windows 8??](http://www.invoke-ir.com/2013/09/whats-new-in-prefetch-for-windows-8.html),
   by Jared Atkinson, September 21, 2013
-* [Windows Prefetch (.PF) files](http://www.swiftforensics.com/2013/10/windows-prefetch-pf-files.html?m=1),
+* [Windows Prefetch (.PF) files](https://www.swiftforensics.com/2013/10/windows-prefetch-pf-files.html?m=1),
   by Yogesh Khatri, October 21, 2013
 * [Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files](https://resources.infosecinstitute.com/topic/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/),
   by Ivan Dimov, November 21, 2013

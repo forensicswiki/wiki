@@ -54,7 +54,7 @@ Where LCID is the "locale identifier"
 
 ### Windows Vista/2008
 
-* [Description of security events in Windows Vista and in Windows Server 2008](http://support.microsoft.com/kb/947226)
+* [Description of security events in Windows Vista and in Windows Server 2008](https://mskb.pkisolutions.com/kb/947226)
 
 ### Windows 7
 

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Hashing
-  -  Linux
+  - Hashing
+  - Linux
 ---
 ## General Usage
 
@@ -66,5 +66,4 @@ The following video describes how to use the script:
 
 ## External Links
 
-* [Download location](https://bitbucket.org/stewdebaker/unix-hashing-script)
 * [ReadMe file](http://technicallysane.blogspot.com/p/unix-file-hashing-script.html)

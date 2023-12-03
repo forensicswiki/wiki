@@ -169,10 +169,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 # Related blogs
 
-- [Emergent Chaos](http://www.emergentchaos.com/),
-  by Adam Shostack
-- [Inventor of NORA discusses privacy and all things digital](https://jeffjonas.typepad.com/),
-  by Jeff Jonas
 - [Digital Forensics, Coffee, Benevolent Hacking](https://outlookpurple.blogspot.com/),
   by [Golden G. Richard III](golden_g_richard_iii.md)
 

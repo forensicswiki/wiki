@@ -118,7 +118,7 @@ order.
   procedures for the THAAD (Terminal High Altitude Area Defence)
   ground-to-air missile defence system. [Missile data found on hard
   drives, BBC News, May 7,
-  2009](http://news.bbc.co.uk/2/hi/uk_news/wales/8036324.stm)
+  2009](http://news.bbc.co.uk/1/hi/wales/8036324.stm)
 
 <!-- -->
 

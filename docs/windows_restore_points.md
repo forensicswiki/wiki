@@ -31,7 +31,7 @@ A Restore Point data sub directory contains:
   by [Harlan Carvey](harlan_carvey.md), October 20, 2006
 * [Restore Point Analysis](https://windowsir.blogspot.com/2007/06/restore-point-analysis.html),
   by [Harlan Carvey](harlan_carvey.md), June 16, 2007
-* [Enscript Tutorial 1 - Parse XP System Restore Logs](http://www.swiftforensics.com/2012/03/enscript-tutorial-1-parse-xp-system.html),
+* [Enscript Tutorial 1 - Parse XP System Restore Logs](https://www.swiftforensics.com/2012/03/enscript-tutorial-1-parse-xp-system.html),
   by Yogesh Khatri, March 2, 2012
 * [The Windows Restore Point formats](https://github.com/libyal/dtformats/blob/main/documentation/Restore%20point%20formats.asciidoc),
   by [Joachim Metz](joachim_metz.md), April 2015

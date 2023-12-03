@@ -36,7 +36,7 @@ had been assigned. It was Scott William Tyree.
 
 * [article on the abduction](https://www.covenanteyes.com/2012/01/13/caught-by-a-predator-10-years-after-her-abduction/)
 * [Popular Mechanics article](https://www.popularmechanics.com/technology/security/how-to/a630/2672751/)
-* [Congressional testimony of Alicia Kozakiewicz](http://notonemorechild.org/map/9)
+* [Congressional testimony of Alicia Kozakiewicz](https://notonemorechild.org)
 
 ### 2005 [Dennis Rader](https://en.wikipedia.org/wiki/Dennis_Rader) --- The "BTK" Serial Killer
 

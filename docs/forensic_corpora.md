@@ -119,20 +119,6 @@ for the purpose of the evaluation.
 - [2000 DARPA Intrusion Detection Scenario
   Specific](http://www.ll.mit.edu/IST/ideval/data/2000/2000_data_index.html)
 
-## WIDE
-
-*The [MAWI Working Group](https://www.wide.ad.jp/project/wg/mawi.html) of
-the [WIDE Project](https://www.wide.ad.jp/)* maintains a [Traffic
-Archive](http://tracer.csl.sony.co.jp/mawi/). In it you will find:
-
-- daily trace of a trans-Pacific T1 line;
-- daily trace at an IPv6 line connected to 6Bone;
-- daily trace at another trans-Pacific line (100Mbps link) in operation
-  since 2006/07/01.
-
-Traffic traces are made by tcpdump, and then, IP addresses in the traces
-are scrambled by a modified version of [tcpdpriv](tcpdpriv.md).
-
 ## Wireshark
 
 The open source Wireshark project (formerly known as Ethereal) has a

@@ -79,7 +79,7 @@ On Windows Vista and later:
 ### Typed URLs
 
 Internet Explorer stores the cached History (or Address box) entries in
-the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
+the following Windows Registry key:
 
     HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs
 
@@ -106,13 +106,11 @@ the following Windows Registry key [2](http://support.microsoft.com/kb/157729).
 
 ### Recovery store
 
-* [Internet Explorer RecoveryStore (aka Travelog) as evidence of Internet Browsing activity](http://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
+* [Internet Explorer RecoveryStore (aka Travelog) as evidence of Internet Browsing activity](https://www.swiftforensics.com/2011/09/internet-explorer-recoverystore-aka.html),
   by Yogesh Khatri, September 29, 2011
 
 ### Typed URLS
 
-* [The Trouble with TypedUrlsTime](http://randomthoughtsofforensics.blogspot.co.uk/2012/07/trouble-with-typedurlstime.html),
-  by Ken Johnson, July 4, 2012
 * [TypedURLs Registry Key](http://sketchymoose.blogspot.com/2014/02/typedurls-registry-key.html),
   Sketchymoose's Blog, February 18, 2014
 

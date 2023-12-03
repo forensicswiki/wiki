@@ -82,7 +82,7 @@ Known shortcomings with body file format are:
 ### HFS+ and HFSX
 
 * On HFS+ and HFSX the `/` character in a file name will be replaced by `:`, which
-  corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c#L110).
+  corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c).
 * For hard links on HFS+ the Catalog Node Identifier (CNID) of the link target (indirect node) file record is used instead as the `inode` value instead of the CNID of the (hard link) file record itself. This matches the behavior of Mac OS (file) stat as described [here](https://developer.apple.com/library/archive/technotes/tn/tn1150.html), in the section "Hard Links".
 * For HFS+ the MD5 calculation of `fls` includes:
   * Regular files

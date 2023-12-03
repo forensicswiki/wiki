@@ -80,7 +80,7 @@ tags:
   by Steven A. Morris2, G. Yen, Zheng Wu, Benyam Asnake , School of Electrical
   and Computer Engineering, Oklahoma State University, Stillwater, Oklahoma.
   2003
-* [Visualizing gaps in time-based lists](http://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists),
+* [Visualizing gaps in time-based lists](https://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists),
   by Moritz Stefaner, November 6, 2000
 
 ## Tools

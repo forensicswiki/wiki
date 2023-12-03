@@ -99,13 +99,11 @@ should be disabled.
 ## External Links
 
 - [Wikipedia: MAC times](https://en.wikipedia.org/wiki/MAC_times)
-- [What Are
-  MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275), by Dan
-  Farmer, Oct 2000
+- [What Are MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275),
+  by Dan Farmer, Oct 2000
 
 ### NTFS
 
 - [Disable the NTFS Last Access Time
   Stamp](http://www.winguides.com/registry/display.php/50/)
-- [Microsoft KB 299648: Description of NTFS date and time stamps for
-  files and folders](http://support.microsoft.com/kb/299648)
+- [Microsoft KB 299648: Description of NTFS date and time stamps for files and folders](https://mskb.pkisolutions.com/kb/299648)

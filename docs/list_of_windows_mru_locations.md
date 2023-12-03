@@ -301,5 +301,4 @@ USERNAME\software\microsoft\windows\currentversion\applets\regedit
 ## External Links
 
 * [Registry MRU Locations](https://www.daniweb.com/digital-media/ui-ux-design/tutorials/66079/forms-styling-text-fields-with-css-and-html)
-* [How to Clear the Windows Explorer MRU Lists](http://support.microsoft.com/kb/142298)
 * [Removing MRU List from Mapped Network Drives](https://www.windowsbbs.com/threads/removing-mru-list-from-mapped-network-drives.47519/)
