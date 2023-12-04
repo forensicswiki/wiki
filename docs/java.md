@@ -183,7 +183,6 @@ other) information.
 
 - [Tracing and Logging](https://docs.oracle.com/javase/6/docs/technotes/guides/deployment/deployment-guide/tracing_logging.html),
   by Oracle
-- [Java Forensics using TLN Timelines](http://sploited.blogspot.com/2012/08/java-forensics-using-tln-timelines.html)
 - [Almost Cooked UP Some Java](http://journeyintoir.blogspot.com/2011/02/almost-cooked-up-some-java.html)
 - [Finding Initial Infection Vector](http://journeyintoir.blogspot.com/2011/11/finding-initial-infection-vector.html)
 - [Java IDX Format Specification](https://github.com/woanware/javaidx/blob/master/Documents/Java.IDX.Format.pdf),

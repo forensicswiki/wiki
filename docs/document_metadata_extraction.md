@@ -16,7 +16,7 @@ documents. Besides, can extract plain texts (combining all texts from
 all XLS/XLSX/ODS pages and PPT/PPTX/ODP slides) and embedded objects.
 The tool can visualize pictures embedded in a document.
 
-[catdoc](http://www.45.free.net/~vitus/software/catdoc/)
+[catdoc](https://github.com/petewarden/catdoc)
 
 [laola](http://user.cs.tu-berlin.de/~schwartz/pmh/index.html)
 

@@ -68,7 +68,6 @@ External Links
 * [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
 * [SIM Manager](http://www.txsystems.com/sim-manager.html)
 * [SIMQuery](http://vidstrom.net/otools/simquery/)
-* [SimScan](http://users.net.yu/~dejan/)
 * [SIMSpy](http://www.nobbi.com/download.htm)
 * [UnDeleteSMS](https://vidstromlabs.com/freetools/undeletesms/)
 * [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)

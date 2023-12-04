@@ -132,7 +132,6 @@ The Storage Networking Industry Association has a set of network file
 system traces that can be downloaded from:
 
 - <http://iotta.snia.org/traces>
-- <http://tesla.hpl.hp.com/public_software/>
 
 ## Other
 

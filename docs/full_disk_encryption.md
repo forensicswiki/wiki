@@ -1,8 +1,6 @@
 ---
 tags:
-  - Anti-Forensics
   - Disk Encryption
-  - Encryption
 ---
 **Full Disk Encryption** or **Whole Disk Encryption** is a phrase that
 was coined by Seagate to describe their encrypting
@@ -32,8 +30,7 @@ provides no software to utilize encrypted drive features (such as key
 management). There is a proprietary Windows-only API, but it is not
 available to the public.
 
-- [FIPS
-  140-2](https://www.seagate.com/de/de/)
+- [FIPS 140-2](https://www.seagate.com/de/de/)
   (Federal Information Processing Standard 140-2 certification issued by
   NIST)
 
@@ -218,7 +215,7 @@ Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 
 <!-- -->
 
-[VeraCrypt](http://veracrypt.codeplex.com/)
+[VeraCrypt](https://www.veracrypt.fr/)
 Fork of [TrueCrypt](truecrypt.md) project. Support for for
 [Linux](linux.md), [Windows](windows.md), and
 [MacOS](mac_os_x.md).

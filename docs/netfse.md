@@ -1,6 +1,7 @@
 ---
 tags:
-  -  Network Forensics
+  - Abandoned
+  - Network Forensics
 ---
 # Net/FSE: Network Forensic Search Engine
 
@@ -26,12 +27,10 @@ capabilities with minimal coding.
 
 # Project Status
 
-In June 2009 version 0.2 of the open source Net/FSE was released at
-[NetFSE.org](http://www.netfse.org). The 0.3 release is in the works and
-will be available in August 2010. NetFSE.org is the user community and
-information center for Net/FSE users.
+In June 2009 version 0.2 of the open source Net/FSE was initially published on
+NetFSE.org. The 0.3 release was targeted for August 2010. The project appears
+to have been abandoned.
 
 ## External Links
 
-- [Project site](https://code.google.com/archive/p/netfse)
-
+* [Project site](https://code.google.com/archive/p/netfse)

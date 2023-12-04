@@ -9,18 +9,17 @@ edition became Windows Server 2012.
 
 The following new features were introduced in Windows 8:
 
-- [File History](windows_file_history.md)
-- [Storage Spaces](windows_storage_spaces.md)
-- Search Charm History
+* [File History](windows_file_history.md)
+* [Storage Spaces](windows_storage_spaces.md)
+* Search Charm History
 
 ## File System
 
 The file system used by Windows 8 is primarily [NTFS](ntfs.md).
 
-The [Resilient File System
-(refs)](resilient_file_system_(refs).md) was initially available
-in the Windows 8 server edition but became part of Windows 2012 server
-edition.
+The [Resilient File System (refs)](resilient_file_system_(refs).md) was
+initially available in the Windows 8 server edition but became part of
+Windows 2012 server edition.
 
 ## Jump Lists
 
@@ -51,27 +50,27 @@ A common location for Amcache.hve is:
 
 ## See Also
 
-- [Windows](windows.md)
-- [Windows Vista](windows_vista.md)
-- [Windows 7](windows_7.md)
+* [Windows](windows.md)
+* [Windows Vista](windows_vista.md)
+* [Windows 7](windows_7.md)
 
 ## External Links
 
-- [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
-- [Windows 8 Registry Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
-- [Windows 8 Forensic Guide](http://propellerheadforensics.files.wordpress.com/2012/05/thomson_windows-8-forensic-guide2.pdf),
+* [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
+* [Windows 8 Registry Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
+* [Windows 8 Forensic Guide](https://elhacker.info/manuales/An%C3%A1lisis%20forense/thomson_windows-8-forensic-guide2.pdf),
   by Amanda C. F. Thomson, 2012
-- [Forensic Focus: Windows 8 Forensics - A First Look](https://forensicfocus.com/Forums/viewtopic/t=9604/),
+* [Forensic Focus: Windows 8 Forensics - A First Look](https://forensicfocus.com/Forums/viewtopic/t=9604/),
   [Presentation](https://www.youtube.com/watch?v=uhCooEz9FQshttp://www.youtube.com/watch?v=uhCooEz9FQs&feature=youtu.befeature=youtu.be),
   [Slides](https://forensicfocus.com/downloads/windows-8-forensics-josh-brunty.pdf),
   by Josh Brunty, August 2012
-- [Windows 8: Tracking Opened Photos](https://dfstream.blogspot.com/2013/03/windows-8-tracking-opened-photos.html),
+* [Windows 8: Tracking Opened Photos](https://dfstream.blogspot.com/2013/03/windows-8-tracking-opened-photos.html),
   by Jason Hale, March 8, 2013
-- [Windows 8 and 8.1: Search Charm History](https://dfstream.blogspot.com/2013/09/windows-8-and-81-search-charm-history.html),
+* [Windows 8 and 8.1: Search Charm History](https://dfstream.blogspot.com/2013/09/windows-8-and-81-search-charm-history.html),
   by Jason Hale, September 9, 2013
-- [Amcache.hve in Windows 8 - Goldmine for malware hunters](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html),
+* [Amcache.hve in Windows 8 - Goldmine for malware hunters](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html),
   by Yogesh Khatri, December 4, 2013
-- [Amcache.hve - Part 2](http://www.swiftforensics.com/2013/12/amcachehve-part-2.html), by
+* [Amcache.hve - Part 2](http://www.swiftforensics.com/2013/12/amcachehve-part-2.html), by
   Yogesh Khatri, December 16, 2013
-- [SRUM forensics](https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2015/PDFs/Windows8SRUMForensicsYogeshKhatri.pdf),
+* [SRUM forensics](https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2015/PDFs/Windows8SRUMForensicsYogeshKhatri.pdf),
   by Yogesh Khatri

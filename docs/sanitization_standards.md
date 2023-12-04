@@ -39,7 +39,7 @@ regarding the disk sanitization problem:
 - [DoD Destruction](http://simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf):
   Disposition of Unclassified DoD Computer Hard Drives, Assistant
   Secretary of Defence, June 4, 2001.
-- [DoD 5200.28-STD](http://security.isu.edu/pdf/d520028.pdf):
+- [DoD 5200.28-STD](https://irp.fas.org/nsa/rainbow/std001.htm):
   Department of Defence Trusted Computer System Evaluation Criteria,
   December 26, 1985.
 - [DoD 5220.22-M](http://simson.net/ref/2001/DoD_5220.22-M.pdf):

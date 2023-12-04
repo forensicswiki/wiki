@@ -8,7 +8,7 @@ fragmented files first proposed by A.  Pal, T. Sencar and N. Memon in DFRWS
 2008.
 
 The term **smart carving** was already proposed in 2006 in
-[Analysis of 2006 DFRWS forensic carving challenge - A smart carving approach](http://sandbox.dfrws.org/2006/mora/dfrws2006.pdf).
+[Analysis of 2006 DFRWS forensic carving challenge - A smart carving approach](https://github.com/libyal/documentation/blob/main/dfrws2006_carving_challenge.pdf).
 
 SmartCarving utilizes a combination of structure based validation along
 with validation of each file's unique content. Results for the
@@ -40,12 +40,12 @@ be done in parallel for many files.
 There are currently two commercial applications available that utilize
 SmartCarving, both produced by Digital Assembly:
 
-- [Adroit Photo Forensics](adroit_photo_forensics.md)
-- Adroit Photo Recovery
+* [Adroit Photo Forensics](adroit_photo_forensics.md)
+* Adroit Photo Recovery
 
 Further there is one open-source solution under development:
 
-- [Multimedia File Carver](https://github.com/rpoisel/mmc) -
+* [Multimedia File Carver](https://github.com/rpoisel/mmc) -
   Implementation that focuses on the recovery of fragmented movies and
   images (JPEG)
 

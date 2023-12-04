@@ -46,7 +46,7 @@ tags:
 - [dnet.rb](http://www.shmoo.com/~bmc/software/ruby/ruby-dnet/) - Ruby
   interface to libdnet
 - [libpcap](https://www.tcpdump.org/) - portable packet capture library
-- [winpcap](http://winpcap.polito.it/) - libpcap for Windows
+- [winpcap](https://www.winpcap.org/) - libpcap for Windows
 - [pypcap](https://github.com/dugsong/pypcap) - libpcap Python module
 - [dpkt](https://github.com/kbandla/dpkt) - fast, simple packet
   creation and parsing in Python
