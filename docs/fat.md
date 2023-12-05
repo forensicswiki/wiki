@@ -653,13 +653,8 @@ object.
 
 * [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
 * [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
-* <https://www.ntfs.com/index.html>
-* <https://www.ntfs.com/index.html/ntfs_vs_fat.htm>
-* <http://support.microsoft.com/kb/q154997/#XSLTH3126121123120121120120>
-* <http://www.dewassoc.com/kbase/hard_drives/boot_sector.htm>
-* <http://home.teleport.com/~brainy/fat32.htm>
-* <https://www.ntfs.com/index.html/fat-systems.htm>
-* <http://support.microsoft.com/kb/q140418>
+* [NTFS — New Technology File System for Windows](https://www.ntfs.com/index.html)
+* [exFAT file system specification](https://learn.microsoft.com/en-US/windows/win32/fileio/exfat-specification)
 
 ### Format documentation
 

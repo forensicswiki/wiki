@@ -32,11 +32,11 @@ In Windows 2003 and later:
   by [Microsoft](microsoft.md)
 * [Application Compatibility Database](https://learn.microsoft.com/en-us/windows/win32/devnotes/application-compatibility-database),
   by [Microsoft](microsoft.md)
-* [Secrets of the Application Compatilibity Database (SDB) – Part 1](http://www.alex-ionescu.com/?p=39),
+* [Secrets of the Application Compatilibity Database (SDB) – Part 1](https://www.alex-ionescu.com/?p=39),
   by Alex Ionescu, May 20, 2007
-* [Secrets of the Application Compatilibity Database (SDB) – Part 2](http://www.alex-ionescu.com/?p=40),
+* [Secrets of the Application Compatilibity Database (SDB) – Part 2](https://www.alex-ionescu.com/?p=40),
   by Alex Ionescu, May 21, 2007
-* [Secrets of the Application Compatilibity Database (SDB) – Part 3](http://www.alex-ionescu.com/?p=41),
+* [Secrets of the Application Compatilibity Database (SDB) – Part 3](https://www.alex-ionescu.com/?p=41),
   by Alex Ionescu, May 26, 2007
 * [Leveraging the Application Compatibility Cache in Forensic Investigations](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf),
   by Andrew Davis, May 4, 2012

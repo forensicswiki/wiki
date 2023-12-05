@@ -14,13 +14,8 @@ proven invaluable in performing a range of studies such as the
 developing of new forensic techniques and the sanitization practices of
 computer users.
 
-<!-- -->
-
-
 Garfinkel, S. and Shelat, A., [Remembrance of Data Passed: A Study of Disk Sanitization Practices](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf),
 IEEE Security and Privacy, January/February 2003.
-
-<!-- -->
 
 The Honeynet Project: Challenges.
 In 2001 the Honeynet project distributed a set of disk images and asked
@@ -36,8 +31,6 @@ partial disk images.
 * [Challenge 7: Compromised Server](https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/)
 * [Challenge 9: Mobile Malware](https://www.honeynet.org/challenges/forensic-challenge-9-mobile-malware/)
 
-<!-- -->
-
 Honeynet Project Scans of the Month
 The Honeynet Project provided network scans in the majority of its Scan
 of the Month challenges. Some of the challenges provided disk images
@@ -46,17 +39,11 @@ challenges.
 
 <http://wiki.sleuthkit.org/index.php?title=Case_Studies>
 
-<!-- -->
-
 The [Computer Forensic Reference Data Sets](https://cfreds.nist.gov/) project from [NIST](national_institute_of_standards_and_technology.md) hosts a few sample cases that may be useful for examiners to practice with:
 <https://cfreds.nist.gov/Hacking_Case.html>
 
-<!-- -->
-
 Digital Forensics Tool Testing Images can be downloaded from Sourceforge
 <https://dftt.sourceforge.net/>
-
-<!-- -->
 
 Shortinfosec: computer forensics competition
 <https://www.shortinfosec.net/2008/07/competition-computer-forensic.html>
@@ -67,22 +54,11 @@ incriminating evidence.
 (Note: Unfortunately, when checked in October, 2011, the disk image
 seemed unavailable.)
 
-<!-- -->
-
 Lance Mueller has created some disk images; they can be downloaded from his blog
 <http://www.forensickb.com/search?q=practical>
 
-<!-- -->
-
 Barry Grundy created some disk images as parts of a Linux-based forensics tutorial
 <https://linuxleo.com/>
-
-<!-- -->
-
-The PyFlag standard test image set
-<https://pyflag.sourceforge.net/Documentation/tutorials/howtos/test_image.html>
-
-<!-- -->
 
 The Digital Forensic Research Workshop's Rodeos and Challenges
 Several of the Rodeos and Challenges from DFRWS released their data and
@@ -222,8 +198,6 @@ of meeting recordings.
   training scenario, including disk images, packet captures and
   exercises.
 
-<!-- -->
-
 - The [Canterbury Corpus](https://corpus.canterbury.ac.nz/) is a set of
   files used for testing lossless compression algorithms. The corpus
   consists of 11 natural files, 4 artificial files, 3 large files, and a
@@ -231,28 +205,20 @@ of meeting recordings.
   the Calgaruy Corpus at the website, which was the defacto standard for
   testing lossless compression algorithms in the 1990s.
 
-<!-- -->
-
 - The [UMass Trace
   Repository](https://traces.cs.umass.edu/index.php/Main/HomePage)
   provides network, storage, and other traces to the research community
   for analysis. The UMass Trace Repository is supported by grant
   \#CNS-323597 from the National Science Foundation.
 
-<!-- -->
-
 - [Sony has made 60TB of Everquest 2 logs available to
   researchers.](https://arstechnica.com/gaming/2009/02/aaas-60tb-of-behavioral-data-the-everquest-2-server-logs/)
   What's there? "everything."
-
-<!-- -->
 
 - UCI's [Network Data
   Repository](http://networkdata.ics.uci.edu/resources.php) provides
   data sets of a diverse set of networks. Some of the networks are
   related to computers, some aren't.
-
-<!-- -->
 
 - [UT San Antonio Digital
   Corpora](https://digitalcorpora.org//corp/nps/files/filetypes1/)

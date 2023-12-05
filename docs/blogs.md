@@ -123,7 +123,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 - [Digital Forensics Corporation Blog](https://www.digitalforensics.com)
 - [Digital Forensics Magazine Blogs](https://digitalforensicsmagazine.com/blogs/)
-- [Mobile Forensics Weekly from Teel Tech](https://paper.li/teeltech/1366225992)
 - [This Week in 4n6](https://thisweekin4n6.com/)
 
 ### Blog Lists

@@ -104,6 +104,5 @@ should be disabled.
 
 ### NTFS
 
-- [Disable the NTFS Last Access Time
-  Stamp](http://www.winguides.com/registry/display.php/50/)
+- [Disable the NTFS Last Access Time Stamp](http://www.winguides.com/registry/display.php/50/)
 - [Microsoft KB 299648: Description of NTFS date and time stamps for files and folders](https://mskb.pkisolutions.com/kb/299648)

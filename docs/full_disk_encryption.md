@@ -36,35 +36,22 @@ available to the public.
 
 Toshiba *Self-Encrypting Drives* ("SED")
 
-- [AES-256](http://sdd.toshiba.com/main.aspx?Path=ServicesSupport/Self-EncryptingDrives)
-  (certification issued by NIST)
-
 ### Supplemental Hardware / External Chassis
 
 Addonics product lines
 <http://www.addonics.com/products/cipher/CPD256U.asp>
 
-<!-- -->
-
 Apricorn product lines
 <http://www.apricorn.com/products.php?cat_id=72>
-
-<!-- -->
 
 DigiSafe
 <http://www.digisafe.com/products/products_DiskCryptMobile.htm>
 
-<!-- -->
-
 Eracom Technology DiskProtect
 <http://www.eracom-tech.com/drive_encryption.0.html>
 
-<!-- -->
-
 iStorage DiskCrypt Mobile
 <http://www.istorage-uk.com/diskcryptmobile.php>
-
-<!-- -->
 
 Network Appliance (Decru)
 <https://www.netapp.com/ftp/decru-fileshredding.pdf>
@@ -76,18 +63,12 @@ Network Appliance (Decru)
 beCrypt
 <https://www.becrypt.com/uk/>
 
-<!-- -->
-
 BitArmor by [DataControl](datacontrol.md) FDE tool that protects
 fixed and removable media.
-
-<!-- -->
 
 [BitLocker](bitlocker_disk_encryption.md)
 Part of Windows Vista that uses [AES](aes.md) 128 or 256 bit
 encryption
-
-<!-- -->
 
 [CGD](cgd.md)
 Cryptographic Device Driver. Provides transparent full disk encryption
@@ -101,19 +82,13 @@ keys) and [3DES](3des.md) (uses a 64 bit blocksize and accepts
 
 <http://www.netbsd.org/docs/guide/en/chap-cgd.html>
 
-<!-- -->
-
 [Checkpoint Full Disk Encryption](checkpoint_full_disk_encryption.md)
 <https://www.checkpoint.com/quantum/data-loss-prevention/>
-
-<!-- -->
 
 [DiskCryptor](diskcryptor.md)
 Free solution provided under GNU General Public License.
 
 <https://diskcryptor.org/>
-
-<!-- -->
 
 [FreeOTFE](freeotfe.md)
 Transparent on the fly encryption for [MS Windows](windows.md)
@@ -121,8 +96,6 @@ and [Windows Mobile](microsoft_windows_mobile.md) PDAs. Also
 supports mounting [Linux](linux.md)
 dm-crypt and
 [LUKS](linux_unified_key_setup_(luks).md) volumes
-
-<!-- -->
 
 [GBDE](gbde.md)
 GEOM Based Disk Encryption. Provides transparent full
@@ -134,8 +107,6 @@ Supports hidden volumes and Pre-Boot Authentification.
 Since data loss can occur on unexpected shutdowns, GELI is recommended
 instead of GBDE.
 
-<!-- -->
-
 [GELI](geli.md)
 Cryptographic GEOM class. Provides transparent full
 disk encryption for [FreeBSD](freebsd.md). Supports various
@@ -144,21 +115,13 @@ ciphers: [AES](aes.md),
 
 Supports hidden volumes and Pre-Boot Authentification.
 
-<!-- -->
-
 [FileVault Disk Encryption](filevault_disk_encryption.md)
 
-<!-- -->
-
 [Jetico BestCrypt](https://www.jetico.com/)
-
-<!-- -->
 
 [loop-AES](https://sourceforge.net/projects/loop-aes/)
 Transparent file system and swap encryption for [Linux](linux.md)
 using the loopback device and [AES](aes.md).
-
-<!-- -->
 
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md) or dm-crypt
 Transparent file system and swap encryption for [Linux](linux.md)
@@ -166,8 +129,6 @@ using the Linux 2.6 device mapper. Supports various ciphers and
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 
 <https://www.saout.de/misc/dm-crypt/>
-
-<!-- -->
 
 [PGPDisk](pgpdisk.md)
 Pretty Good Privacy Whole Disk Encryption provides transparent whole
@@ -184,8 +145,6 @@ keys).
 
 <http://www.pgp.com/products/wholediskencryption/>
 
-<!-- -->
-
 SafeGuard Easy
 Certified according to Common Criteria
 EAL3 and FIPS 140-2
@@ -198,11 +157,7 @@ including the boot disk.
 
 <https://utimaco.com/products>
 
-<!-- -->
-
 [Securstar DriveCrypt](http://www.securstar.com/products_drivecryptpp.php)
-
-<!-- -->
 
 [TrueCrypt](truecrypt.md)
 Transparent full disk encryption for [Linux](linux.md) and
@@ -213,14 +168,10 @@ Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 
 <https://truecrypt.sourceforge.net/>
 
-<!-- -->
-
 [VeraCrypt](https://www.veracrypt.fr/)
 Fork of [TrueCrypt](truecrypt.md) project. Support for for
 [Linux](linux.md), [Windows](windows.md), and
 [MacOS](mac_os_x.md).
-
-<!-- -->
 
 [vnconfig](vnconfig.md)
 The -K option of [OpenBSD](openbsd.md) associates

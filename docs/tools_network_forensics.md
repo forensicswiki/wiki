@@ -7,10 +7,6 @@ tags:
 
 [E-Detective](https://www.edecision4u.com/)
 
-[Burst](http://www.burstmedia.com/release/advertisers/geo_faq.htm)
-
-Expensive [IP geolocation](ip_geolocation.md) service.
-
 [CapAnalysis](https://www.capanalysis.net/ca/)
 
 **Open Source** web visual tool for information security specialists,
