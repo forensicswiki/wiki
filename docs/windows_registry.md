@@ -1150,12 +1150,11 @@ name</a></b></p></td>
 
 ## Bibliography
 
-* [Using ShellBag Information to Reconstruct User Activities](http://www.dfrws.org/2009/proceedings/p69-zhu.pdf), by
-  Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
+* [Using ShellBag Information to Reconstruct User Activities](https://dfrws.org/presentation/using-shellbag-information-to-reconstruct-user-activities/),
+  by Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
 * [The Windows NT Registry File Format](http://www.sentinelchicken.com/research/registry_format/), by
   Timothy Morgan, June 9, 2009
-* [Recovering Deleted Data From the Windows Registry](http://www.dfrws.org/2008/proceedings/p33-morgan.pdf) and
-  [slides](http://www.dfrws.org/2008/proceedings/p33-morgan_pres.pdf),
+* [Recovering Deleted Data From the Windows Registry](https://dfrws.org/presentation/recovering-deleted-data-from-the-windows-registry/),
   by Timothy Morgan, DFRWS 2008
 * [Forensic Analysis of the Windows Registry in Memory](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-forensic_analysis_of_the_windows_registry_in_memory.pdf) and
   [slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-forensic_analysis_of_the_windows_registry_in_memory.pdf),
@@ -1187,7 +1186,6 @@ name</a></b></p></td>
 * [Windows Registry Information](https://www.answers.com/redirectSearch?query=win-registry)
 * [Push the Red Button](https://moyix.blogspot.com/search/label/registry)
 * [Security Accounts Manager](http://survey-smiles.com)
-* [Registry MRU Locations](http://windowsxp.mvps.org/RegistryMRU.htm)
 * [Exporting registry hives from a live system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
   by Maxim Suhanov, October 3, 2020
 
@@ -1228,21 +1226,20 @@ name</a></b></p></td>
 
 ### User Assist
 
-* [UserAssist](https://blog.didierstevens.com/programs/userassist/), by
-  Didier Stevens
-* [UserAssist V2.3.0](https://blog.didierstevens.com/2007/07/17/userassist-v230/), by
-  Didier Stevens, Tuesday 17 July 2007
+* [UserAssist](https://blog.didierstevens.com/programs/userassist/),
+  by Didier Stevens
+* [UserAssist V2.3.0](https://blog.didierstevens.com/2007/07/17/userassist-v230/),
+  by Didier Stevens, July 17, 2007
 * [More on (the) UserAssist keys](https://windowsir.blogspot.com/2007/09/more-on-userassist-keys.html),
-  by [Harlan Carvey](harlan_carvey.md), Monday, September 03,
-  2007
+  by [Harlan Carvey](harlan_carvey.md), Monday, September 03, 2007
 * [Windows 7 Beta: ROT13 Replaced With Vigenère? Great Joke!](https://blog.didierstevens.com/2009/01/18/quickpost-windows-7-beta-rot13-replaced-with-vigenere-great-joke/),
   by Didier Stevens, January 18, 2009
 * [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.com/2010/05/prefetch-and-user-assist.html),
-  by DC174, Thursday, 27 May 2010
+  by DC174, May 27, 2010
 * [UserAssist Forensics (timelines, interpretation, testing, & more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
-  by Dan (@4n6k), Tuesday, May 14, 2013
+  by Dan (@4n6k), May 14, 2013
 * [Daily Blog \#45: Understanding the artifacts: User Assist](https://www.hecfblog.com/2013/08/daily-blog-45-understanding-artifacts.html),
-  by David Cowen, Wednesday, August 7, 2013
+  by David Cowen, August 7, 2013
 
 ## Tools
 
@@ -1284,11 +1281,6 @@ name</a></b></p></td>
 
 ### Commercial
 
-* [Regisry Manager](http://www.stellarinfo.com/windows-tools/registry-cleaner.php)
-* [Abexo Free Regisry Cleaner](http://www.abexo.com/free-registry-cleaner.htm)
-* [Auslogics Registry Defrag](https://www.auslogics.com/en/software/registry-defrag/)
 * [Alien Registry Viewer](http://lastbit.com/arv/default.asp)
-* [NT Registry Optimizer](http://www.larshederer.homepage.t-online.de/erunt/index.htm)
-* [iExpert Software-Free Registry Defrag](https://cumdiner.com/categories/)
 * [Windows Registry Recovery](http://mitec.cz/wrr.html)
 * [Registry Tool](http://registrytool.com/)

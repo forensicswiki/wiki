@@ -133,7 +133,7 @@ is important to know that:
 
 \$UserCredential = Get-Credential \$Session = New-PSSession
 –ConfigurtionName Microsoft.Exchange –ConnectionUri
-<https://outlook.office365.com/powershell-liveid/> -Credential
+`https://outlook.office365.com/powershell-liveid/` -Credential
 \$UserCredential –Authentication Basic –AllowRedirection
 Import-PSSession \$Session Get-Mailbox
 
@@ -160,6 +160,5 @@ Import-PSSession \$Session Get-Mailbox
 
 ## External Links
 
-- [Backup Office 365
-  Mailbox](https://www.systoolsgroup.com/office365-backup/), by the
-  [SysTools](systools.md)
+- [Backup Office 365 Mailbox](https://www.systoolsgroup.com/office365-backup/),
+  by [SysTools](systools.md)

@@ -15,6 +15,6 @@ people doing forensic data mining and machine learning.
   hosting many open source machine learning tools and libraries.
 * [Apache Mahout](https://mahout.apache.org//): goal is to "build
   scalable, Apache licensed machine learning libraries" (java). also
-  includes a focus on using [hadoop](http://hadoop.apache.org/).
+  includes a focus on using [hadoop](https://hadoop.apache.org/).
 * The [Journal of Machine Learning](https://jmlr.csail.mit.edu/)
   maintains an [archive of non-trivial machine learning algorithms, toolboxes, and languages](https://jmlr.csail.mit.edu/mloss/).

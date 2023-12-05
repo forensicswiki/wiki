@@ -68,9 +68,7 @@ A common location for Amcache.hve is:
   by Jason Hale, March 8, 2013
 * [Windows 8 and 8.1: Search Charm History](https://dfstream.blogspot.com/2013/09/windows-8-and-81-search-charm-history.html),
   by Jason Hale, September 9, 2013
-* [Amcache.hve in Windows 8 - Goldmine for malware hunters](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html),
+* [Amcache.hve in Windows 8 - Goldmine for malware hunters](https://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html),
   by Yogesh Khatri, December 4, 2013
-* [Amcache.hve - Part 2](http://www.swiftforensics.com/2013/12/amcachehve-part-2.html), by
-  Yogesh Khatri, December 16, 2013
-* [SRUM forensics](https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2015/PDFs/Windows8SRUMForensicsYogeshKhatri.pdf),
-  by Yogesh Khatri
+* [Amcache.hve - Part 2](https://www.swiftforensics.com/2013/12/amcachehve-part-2.html),
+  by Yogesh Khatri, December 16, 2013

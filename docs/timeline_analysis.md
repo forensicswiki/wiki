@@ -37,7 +37,7 @@ tags:
 * [A Model Based Approach to Timestamp Evidence Interpretation](https://www.igi-global.com/articles/details.asp?ID=33298),
   by S. Willassen, International Journal of Digital Crime and Forensics, 1:2,
   2009
-* [Digital Evidence with an Emphasis on Time](http://www.bth.se/fou/cuppsats.nsf/bbb56322b274389dc1256608004f052b/2e5256fe7d0e57d5c12574bd0072d894!OpenDocument),
+* [Digital Evidence with an Emphasis on Time](https://www.diva-portal.org/smash/get/diva2:831086/FULLTEXT01.pdf),
   by Olsson, Jens Master's Thesis, Blekinge Institute of Technology, September
   2008.
 * [The Use of File Timestamps in Digital Forensics](https://digifors.cs.up.ac.za/issa/2008/Proceedings/Full/43.pdf),

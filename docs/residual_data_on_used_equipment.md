@@ -59,8 +59,7 @@ order.
 
 <!-- -->
 
-- **2006-08-14**: [BBC
-  News](http://news.bbc.co.uk/1/hi/business/4790293.stm) reports on bank
+- **2006-08-14**: [BBC News](http://news.bbc.co.uk/2/hi/business/4790293.stm) reports on bank
   account information recovered from used PC hard drives and being sold
   in Nigeria for £20 each. The PCs had apparently come from recycling
   points run by UK town councils that are then "recycled" by being sent
@@ -117,8 +116,7 @@ order.
   survey of used hard drives and found "Details of test launch
   procedures for the THAAD (Terminal High Altitude Area Defence)
   ground-to-air missile defence system. [Missile data found on hard
-  drives, BBC News, May 7,
-  2009](http://news.bbc.co.uk/1/hi/wales/8036324.stm)
+  drives, BBC News, May 7, 2009](http://news.bbc.co.uk/2/hi/uk_news/wales/8036324.stm)
 
 <!-- -->
 

@@ -112,11 +112,7 @@ Didier Stevens'
 [pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/) and
 pdfid, written in Python
 
-PDF Stream Dumper
-<http://sandsprite.com/blogs/index.php?uid=7&pid=57>
-
-Free tool for the analysis of malicious PDF documents by David Zimmer.
-([GitHub](https://github.com/dzzie/pdfstreamdumper))
+[PDF Stream Dumper](http://sandsprite.com/blogs/index.php?uid=7&pid=57)
 
 pdfresurrect
 <http://www.757labs.com/projects/pdfresurrect/#downloads>

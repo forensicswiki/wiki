@@ -67,10 +67,8 @@ External Links
 * [Pro Data Doctor](https://www.data-recovery-mobile-phone.com/)
 * [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
 * [SIM Manager](http://www.txsystems.com/sim-manager.html)
-* [SIMQuery](http://vidstrom.net/otools/simquery/)
 * [SIMSpy](http://www.nobbi.com/download.htm)
 * [UnDeleteSMS](https://vidstromlabs.com/freetools/undeletesms/)
-* [Forensic SIM Card Reader](http://www.bkforensics.com/FCR.html)
 * [Dekart SIM Explorer](https://www.dekart.com/products/card_management/sim_explorer),
   [video demo of SIM Explorer](https://www.youtube.com/watch?v=P5dJS7g1o_c)
 * [Dekart SIM Manager](https://www.dekart.com/products/card_management/sim_manager),

@@ -432,7 +432,7 @@ value:
   by Yogesh Khatri, April 1, 2014
 * [Search history on windows 8.1 - Part 2](https://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
   by Yogesh Khatri, April 21, 2014
-* [Estoteric Hooks](http://www.alex-ionescu.com/Estoteric%20Hooks.pdf)
+* [Estoteric Hooks](https://www.alex-ionescu.com/Estoteric%20Hooks.pdf)
   by Alex Ionescu, February 16, 2016
   ([presentation](https://www.youtube.com/watch?v=pHyWyH804xE))
 * [A brief look at Windows telemetry: CIT aka Customer Interaction Tracker](https://research.nccgroup.com/2022/04/12/a-brief-look-at-windows-telemetry-cit-aka-customer-interaction-tracker/),

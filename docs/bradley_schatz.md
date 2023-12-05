@@ -2,7 +2,7 @@
 tags:
   - People
 ---
-Bradley Schatz is the Director of [Schatz Forensic](https://schatzforensic.com/),
+Bradley Schatz was the Director of Schatz Forensic,
 a computer forensics firm based in Brisbane, Australia. Dr. Schatz received his
 Ph.D. in Computer Forensics at the [Queensland University of Technology (QUT)](http://www.qut.adu.au/)
 in 2007. The primary subject of his doctorate, which was titled "Digital
