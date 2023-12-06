@@ -220,7 +220,6 @@ deleted.
 
 ## Tools
 
-* [IEHist](http://www.cqure.net/wp/iehist/)
 * [libmsiecf](libmsiecf.md)
 * [pasco](https://sourceforge.net/projects/odessa/), note this tool has
   not been updated since 2004 and is considered deprecated

@@ -45,8 +45,8 @@ EuroForensics Forensics Sciences, Cyber Security and Surveillance Technologies C
 FIRST Conference
 <https://www.first.org/conference/>
 
-French-Speaking Days on Digital Investigations - Journées Francophones de l'Investigation Numérique
-<http://www.afsin.org/>
+[AFSIN: Association francophone des spécialistes de l’investigation numérique](https://new.afsin.org/)
+French-Speaking Days on Digital Investigations
 
 IEEE Workshop on Information Forensics and Security
 <https://project.inria.fr/wifs2017/>

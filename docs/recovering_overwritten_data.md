@@ -19,7 +19,7 @@ Data from Magnetic and Solid-State Memory*, Proceedings of the Sixth
 Usenix Security Symposium
 [1](https://www.usenix.org/legacy/publications/library/proceedings/sec96/gutmann.html).
 An extended version of the paper appears on Peter Gutmann's website
-[2](http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html).
+[2](https://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html).
 
 In this paper, Gutmann discusses techniques using an electron microscope
 that might work for recovering overwritten data. He then proposes a

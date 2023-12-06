@@ -30,5 +30,5 @@ Interface (MUI) strings and EventLog messages.
 
 ### Resources
 
-* [Resource Hacker](http://www.angusj.com/resourcehacker/),
+* [Resource Hacker](https://www.angusj.com/resourcehacker/),
   by Angus Johnson

@@ -18,8 +18,6 @@ The tool can visualize pictures embedded in a document.
 
 [catdoc](https://github.com/petewarden/catdoc)
 
-[laola](http://user.cs.tu-berlin.de/~schwartz/pmh/index.html)
-
 [word2x](https://word2x.sourceforge.net/)
 
 [wvWare](https://wvware.sourceforge.net/)

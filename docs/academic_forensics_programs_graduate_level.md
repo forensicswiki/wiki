@@ -38,7 +38,7 @@ tags:
 
 ## Europe
 
-* [Cranfield University, UK](http://www.cranfield.ac.uk/cds/postgraduatestudy/forensiccomputing/index.jsp)
+* Cranfield University, UK
 * [Limerick Institute of Technology](http://www.lit.ie/departments/IT/MSC_Computing.html)
 * [University of Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
 * University of Bradford
@@ -61,11 +61,11 @@ tags:
 
 ## Africa
 
-* [University of Cape Town](http://www.commerce.uct.ac.za/InformationSystems/Courses/inf4016w/)
+* University of Cape Town
 
 ## See Also
 
-* [AAFS](http://www.aafs.org/default.asp?section_id=resources&page_id=colleges_and_universities)
+* [American Academy of Forensic Sciences (AAFS)](https://www.aafs.org/)
 * [Digital Forensics Association List](http://www.digitalforensicsassociation.org/formal-education/)
 * [Forensics Focus List](https://forensicfocus.com/computer-forensics-education-directory)
 * [Master's Thesis: The Development of a Standard Digital Forensics Master's Curriculum](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1010&context=techmasters&sei-redir=1#search=%22katie%20strzempka%20thesis%22)

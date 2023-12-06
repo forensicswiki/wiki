@@ -12,7 +12,7 @@ TLS (*Transport Layer Security*) provides authentication and
 [encryption](encryption.md) for many network protocols, such as:
 *POP*, *IMAP*, *SMTP*, *HTTP*. However, it is possible to tunnel almost
 every TCP-based protocol through TLS using such tools as
-[stunnel](http://stunnel.mirt.net/).
+[stunnel](https://www.stunnel.org/).
 
 Generally, many TLS realizations require only server to be authenticated
 using signed certificate.
@@ -26,27 +26,26 @@ and provide new certificates (with attacker's encryption keys).
 Some commercial [network forensics](network_forensics.md)
 systems can perform such an attack:
 
-- Mera Systems [Sleek
-  Buster](https://videonadzor.net/)
+* Mera Systems [Sleek Buster](https://videonadzor.net/)
   (supports signed by a trusted CA forged certificates)
-- [E-Detective HTTPS/SSL Network Packet Forensics Device](https://www.edecision4u.com/PRODUCTS.html)
-- Expert Team [3i Tactical System](http://expert-team.net/home/product/)
+* [E-Detective HTTPS/SSL Network Packet Forensics Device](https://www.edecision4u.com/PRODUCTS.html)
+* Expert Team [3i Tactical System](http://expert-team.net/home/product/)
 
 As well as some open-source tools:
 
-- [ettercap](https://ettercap.sourceforge.net/) (unsupported, last
+* [ettercap](https://ettercap.sourceforge.net/) (unsupported, last
   version - 2005/05/29)
-- [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable
+* [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable
   version - 2000/12/17)
 
 ## Other information
 
 The TLS protocol also leaks some significant information:
 
-- Current date and time on a TLS client and server (old versions of
+* Current date and time on a TLS client and server (old versions of
   Firefox and Thunderbird;
-- Hostname being accessed ("server_name" extension);
-- Original data size.
+* Hostname being accessed ("server_name" extension);
+* Original data size.
 
 ## [The Onion Router](the_onion_router.md)
 
@@ -58,5 +57,5 @@ bytes users are communicating.
 
 ## Links
 
-- [RFC 2246 (TLS 1.0)](http://rfc.net/rfc2246.html)
-- [RFC 4346 (TLS 1.1)](http://rfc.net/rfc4346.html)
+* [RFC 2246 (TLS 1.0)](http://rfc.net/rfc2246.html)
+* [RFC 4346 (TLS 1.1)](http://rfc.net/rfc4346.html)

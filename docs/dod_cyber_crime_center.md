@@ -26,10 +26,6 @@ The DC3 was formed in 2001 when the newly created DCCI was merged with
 the existing DCFL and DCITA (at the time called the Defense Computer
 Investigations Training Program (DCITP).
 
-## Leadership
-
-The Executive Director of the DC3 is [Mr. Steven Shirley](http://www.af.mil/bios/bio.asp?bioID=8478).
-
 ## External Links
 
 * [Official website](https://www.dc3.mil/)

@@ -248,7 +248,6 @@ Mac OS.
 * [Wikipedia entry on OS X](https://en.wikipedia.org/wiki/OS_X)
 * [Inside Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
   by Apple Computer, Inc., 1993
-* [Mac OS X Directory Services Integration including Active Directory](http://web.me.com/driley/iWeb/Previous_files/Directory_Services_Overview.pdf)
 * [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
 * [Command Line ALF on Mac OS X](https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
 * [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
