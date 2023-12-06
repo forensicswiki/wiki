@@ -80,8 +80,7 @@ PDF. Unfortunately, this option can be quite cumbersome.
 
 These tools are useful for analyzing PDF files:
 
-Belkasoft Evidence Center
-<https://belkasoft.com/x>
+[Belkasoft Evidence Center](https://belkasoft.com/x)
 
 A powerful digital forensic product by
 [Belkasoft](belkasoft.md), in particular allowing for searching
@@ -89,8 +88,7 @@ and carving documents, including PDF files. The product can show PDF
 preview, plain text, metadata and extract embedded objects (including
 batch extraction from all found PDF files).
 
-JEB2 PDF Analysis Plugin
-<https://www.pnfsoftware.com/jeb2/pdfplugin>
+[JEB2 PDF Analysis Plugin](https://www.pnfsoftware.com/jeb2/pdfplugin)
 
 Module for commercial versions of PNF Software's JEB2. Robust stream
 extraction, decoding, tree/table visualizations, etc. The official
@@ -99,37 +97,21 @@ Strong parsing for malicious files. Reports notifications on
 malformations and anomalies. API can also be used for tool/scanner
 integration.
 
-Origami
-<http://security-labs.org/origami/>
+[PDF Tools](https://blog.didierstevens.com/programs/pdf-tools/)
 
-A powerful open source framework and GUI written in Ruby. It allows for
-parsing and exploring pdf files and graphically browsing its contents.
-
-PDF Tools
-<https://blog.didierstevens.com/programs/pdf-tools/>
-
-Didier Stevens'
-[pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/) and
-pdfid, written in Python
+Didier Stevens' [pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/)
+and pdfid, written in Python
 
 [PDF Stream Dumper](http://sandsprite.com/blogs/index.php?uid=7&pid=57)
 
-pdfresurrect
-<http://www.757labs.com/projects/pdfresurrect/#downloads>
-
-Retrieves previous versions of PDF files that have changes appended with
-"incremental updates"
-
-PDFMiner
-<https://www.unixuser.org/~euske/python/pdfminer/index.html>
+[PDFMiner](https://www.unixuser.org/~euske/python/pdfminer/index.html)
 
 "Python PDF parser and analyzer"
 
 Includes **pdf2txt.py** command-line tool for extracting text from PDF
 files, and **dumppdf.py** for dumping PDF objects.
 
-pyPdf
-<https://pybrary.net/pyPdf/>
+[pyPdf](https://pybrary.net/pyPdf/)
 
 "A Pure-Python library built as a PDF toolkit."
 

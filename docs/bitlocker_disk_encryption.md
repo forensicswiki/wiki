@@ -126,4 +126,4 @@ opened on Windows 10 systems and later.
 * [libbde](libbde.md)
 * [M3 Bitlocker Loader for Mac](https://www.m3datarecovery.com/mac-bitlocker/)
 * [M3 Bitlocker Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)
-* [Manage-bde.exe](http://technet.microsoft.com/en-us/library/dd875513(v=ws.10>).aspx)
+* [Manage-bde.exe](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd875513(v=ws.10))

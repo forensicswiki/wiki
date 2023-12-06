@@ -95,8 +95,7 @@ Computer evidence needs to be:
 
 ## External Links
 
-- [Principles of Evidence - Fifth
-  edition](http://www.lexisnexis.com/supp/lawschool/study/texts/pdf/2011RevisedTM3562.pdf),
+- [Principles of Evidence - Fifth edition](http://www.lexisnexis.com/supp/lawschool/study/texts/pdf/2011RevisedTM3562.pdf),
   by Irving Younger, Michael Goldsmith, David A. Sonenshein, 2011
 
 ### Hearsay
@@ -105,35 +104,19 @@ Computer evidence needs to be:
 
 ### Reasoning
 
-- [Wikipedia: Thesis, antithesis,
-  synthesis](https://en.wikipedia.org/wiki/Thesis,_antithesis,_synthesis)
-- [Wikipedia: Reasoning - Logical reasoning methods and
-  argumentation](https://en.wikipedia.org/wiki/Reasoning#Logical_reasoning_methods_and_argumentation)
-- [Wikipedia: Deductive
-  reasoning](https://en.wikipedia.org/wiki/Deductive_reasoning)
-- [Wikipedia: Inductive
-  reasoning](https://en.wikipedia.org/wiki/Inductive_reasoning)
+- [Wikipedia: Thesis, antithesis, synthesis](https://en.wikipedia.org/wiki/Thesis,_antithesis,_synthesis)
+- [Wikipedia: Reasoning - Logical reasoning methods and argumentation](https://en.wikipedia.org/wiki/Reasoning#Logical_reasoning_methods_and_argumentation)
+- [Wikipedia: Deductive reasoning](https://en.wikipedia.org/wiki/Deductive_reasoning)
+- [Wikipedia: Inductive reasoning](https://en.wikipedia.org/wiki/Inductive_reasoning)
 - [Wikipedia: Five Ws](https://en.wikipedia.org/wiki/Five_Ws)
 
 ### Standards and best practices
 
-- [IETF RFC 3227, Guidelines for evidence collection and
-  archiving](https://www.ietf.org/rfc/rfc3227.txt), by The Internet
-  Society, 2002
-- [ACPO Good Practice Guide for Digital
-  Evidence](http://www.acpo.police.uk/documents/crime/2011/201110-cba-digital-evidence-v5.pdf),
-  by ACPO, 2012
-- [ISO/IEC 27037:2012 - Information technology -- Security techniques --
-  Guidelines for identification, collection, acquisition and
-  preservation of digital
-  evidence](https://www.iso.org/standard/44381.html), by
-  International Organization for Standardization (ISO)
-- [ISO/IEC DIS 27041 - Information technology -- Security techniques --
-  Guidance on assuring suitability and adequacy of incident
-  investigative
-  methods](https://www.iso.org/standard/44405.html),
+- [IETF RFC 3227, Guidelines for evidence collection and archiving](https://www.ietf.org/rfc/rfc3227.txt),
+  by The Internet Society, 2002
+- [ISO/IEC 27037:2012 - Information technology -- Security techniques -- Guidelines for identification, collection, acquisition and preservation of digital evidence](https://www.iso.org/standard/44381.html),
   by International Organization for Standardization (ISO)
-- [ISO/IEC DIS 27042 - Information technology -- Security techniques --
-  Guidelines for the analysis and interpretation of digital
-  evidence](https://www.iso.org/standard/44406.html),
+- [ISO/IEC DIS 27041 - Information technology -- Security techniques -- Guidance on assuring suitability and adequacy of incident investigative methods](https://www.iso.org/standard/44405.html),
+  by International Organization for Standardization (ISO)
+- [ISO/IEC DIS 27042 - Information technology -- Security techniques -- Guidelines for the analysis and interpretation of digital evidence](https://www.iso.org/standard/44406.html),
   by International Organization for Standardization (ISO)

@@ -46,19 +46,16 @@ Four things are key to all forensics examinations; the:
 All professionals involved in a forensics examination have both an
 ethical and a professional responsibility to:
 
-- Maintain their objectivity.
-- Present facts accurately and
-- Not withhold any findings as such actions may distort or misrepresent
+* Maintain their objectivity.
+* Present facts accurately and
+* Not withhold any findings as such actions may distort or misrepresent
   the facts
-- Render opinions only on the basis of what can be reasonably
+* Render opinions only on the basis of what can be reasonably
   demonstrated.
 
 Equivalent or other perspectives on forensic profession:
 
-- [ACFEI - The Forensic Examiner
-  Creed](http://www.acfei.com/about_acfei/creed/)
-- [Forensic Focus Webinar: Being Your Own Expert
-  Witness](https://forensicfocus.com/c/aid=103/webinars/2015/being-your-own-expert-witness/)
+* [Forensic Focus Webinar: Being Your Own Expert Witness](https://forensicfocus.com/c/aid=103/webinars/2015/being-your-own-expert-witness/)
 
 ## Terminology
 
@@ -87,23 +84,23 @@ without the forensic (legal) context.
 
 ## See Also
 
-- [Digital evidence](digital_evidence.md)
-- [File Analysis](file_analysis.md)
-- [Malware analysis](malware_analysis.md)
-- [Memory analysis](memory_analysis.md)
+* [Digital evidence](digital_evidence.md)
+* [File Analysis](file_analysis.md)
+* [Malware analysis](malware_analysis.md)
+* [Memory analysis](memory_analysis.md)
 
 ## External Links
 
-- [Wikipedia: Computer forensics](https://en.wikipedia.org/wiki/Computer_forensics)
-- [Wikipedia: Forensic science](https://en.wikipedia.org/wiki/Forensic_science)
-- [Wikipedia: Legal burden of proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
-- [Computer Forensics: Digital Forensic Analysis Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
+* [Wikipedia: Computer forensics](https://en.wikipedia.org/wiki/Computer_forensics)
+* [Wikipedia: Forensic science](https://en.wikipedia.org/wiki/Forensic_science)
+* [Wikipedia: Legal burden of proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
+* [Computer Forensics: Digital Forensic Analysis Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
   from Computer Forensics issue: January 2008 Volume 56 Number 1
-- [Computer Forensics Part 2: Best Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
+* [Computer Forensics Part 2: Best Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
   by Information Security and Forensics Society (ISFS), August 2009
-- [The Alexiou Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
+* [The Alexiou Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
   cepogue, June 27, 2009
-- [When Computer Forensics Grows Up: Digital Forensics Explained](https://online.maryville.edu/blog/digital-forensics/),
+* [When Computer Forensics Grows Up: Digital Forensics Explained](https://online.maryville.edu/blog/digital-forensics/),
   by Maryville University
-- Validation and verification of computer forensic software tools - Searching Function
+* Validation and verification of computer forensic software tools - Searching Function
   by Yinghua Guo, Jill Slay, Jason Beckett, DFRWS 2009

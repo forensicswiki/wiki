@@ -188,11 +188,3 @@ Reas govisual diagram editor reas.com gdf.net
 * [Omnigator](https://ontopia.net/omnigator/models/index.jsp)
 * [VisANT](http://visant.bu.edu/)
 * [TouchGraph](https://sourceforge.net/projects/touchgraph/)
-
-CAIDA has 15+ years of work visualizing Internet topologies. You may
-find their tools to be useful:
-
-* <http://www.caida.org/tools/visualization/>
-* <https://www.caida.org/catalog/media/visualizations/>
-* <https://www.caida.org/catalog/software/walrus/gallery1/>
-* <https://www.caida.org/projects/as-core/>

@@ -36,32 +36,9 @@ available to the public.
 
 Toshiba *Self-Encrypting Drives* ("SED")
 
-### Supplemental Hardware / External Chassis
-
-Addonics product lines
-<http://www.addonics.com/products/cipher/CPD256U.asp>
-
-Apricorn product lines
-<http://www.apricorn.com/products.php?cat_id=72>
-
-DigiSafe
-<http://www.digisafe.com/products/products_DiskCryptMobile.htm>
-
-Eracom Technology DiskProtect
-<http://www.eracom-tech.com/drive_encryption.0.html>
-
-iStorage DiskCrypt Mobile
-<http://www.istorage-uk.com/diskcryptmobile.php>
-
-Network Appliance (Decru)
-<https://www.netapp.com/ftp/decru-fileshredding.pdf>
-
-<https://www.netapp.com/us/products/storage-security-systems/>
-
 ## Software Solutions
 
-beCrypt
-<https://www.becrypt.com/uk/>
+[beCrypt](https://www.becrypt.com/)
 
 BitArmor by [DataControl](datacontrol.md) FDE tool that protects
 fixed and removable media.

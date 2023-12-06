@@ -32,7 +32,6 @@ pretty well.
 - [ActiveTarget (commercial)](http://www.activetarget.com/)
 - [Java IP (InetAddress) Locator (free lookup library with database)](https://sourceforge.net/projects/javainetlocator/)
 - [CountryWhois DB (commercial)](http://www.tamos.com/products/ip-location-database)
-- [CountryWhois](http://www.countrywhois.com/online-demo.php)
 - [IPAddressGuide](https://www.ipaddressguide.com/)
 - [Jgsoft IP Address Geolocation (commercial w/free limited online lookups)](http://www.ip2country.net/)
 - [Nami Media (commercial)](http://www.namimedia.com/geo.htm)

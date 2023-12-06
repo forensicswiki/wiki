@@ -95,9 +95,6 @@ MS Windows Recycle Bin INFO2 parser
 [cookie_cruncher.pl](https://jafat.sourceforge.net/files.html)
 MS IE cookie file parser
 
-[yim2text](http://www.1vs0.com/tools.html)
-Extracts the 'encrypted' info in Yahoo Instant Messenger log files.
-
 [Hachoir](hachoir.md)
 Determines the file type using file header/footer (hachoir-metadata
 --type), able to list strings in Unicode (hachoir-grep), etc. Support

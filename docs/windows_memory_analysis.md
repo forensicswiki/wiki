@@ -127,7 +127,6 @@ and re-released as Volatility in August
 * [MS-DTYP: Windows Data Types](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2)
 * [Catalog of key Windows kernel data structures](http://www.codemachine.com/article_kernelstruct.html)
 * [Jesse Kornblum Memory Analysis discussion on Cyberspeak](https://cyberspeak.libsyn.com/index.php?post_id=98104)
-* [Kernel Debugging with WinDbg](http://www.cmlab.csie.ntu.edu.tw/~cathyp/eBooks/WindowsNT/Driver/kernel_debugging_tutorial.pdf)
 * [Attacking the Windows kernel](https://www.blackhat.com/presentations/bh-usa-07/Lindsay/Whitepaper/bh-usa-07-lindsay-WP.pdf),
   by Jonathan Lindsay, BlackHat 2007
 * [Malware Analysis Tutorial 7: Exploring Kernel Data Structure](http://fumalwareanalysis.blogspot.com/2011/12/malware-analysis-tutorial-7-exploring.html),

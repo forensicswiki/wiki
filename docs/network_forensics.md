@@ -98,9 +98,6 @@ available.
 
 #### Deep-Analysis Systems
 
-- Code Green Networks [Content Inspection Appliance](http://www.codegreennetworks.com) -
-  Passive monitoring and mandatory proxy mode. Easy to use Web GUI. Linux
-  platform. Uses Stellent Outside In to access document content and metadata.
 - [E-Detective](https://www.edecision4u.com/)
 - [InfoWatch Traffic Monitor](https://infowatch.com/)
 - Mera Systems [NetBeholder](https://videonadzor.net/)

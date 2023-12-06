@@ -20,7 +20,7 @@ connections.
 
 [Demo](https://pcap.capanalysis.net/)
 
-[chkrootkit](http://www.chkrootkit.org)
+[chkrootkit](https://www.chkrootkit.org/)
 
 [cryptcat](https://farm9.org/Cryptcat/)
 
@@ -126,12 +126,7 @@ historical network traffic.
 Web service and command line tool to look up registry information for internet
 domain.
 
-[Bulk WHOIS data request](http://www.arin.net/registration/agreements/bulkwhois.pdf)
-from ARIN
-
-[IP Regional Registries](http://www.arin.net/community/rirs.html)
-
-[American Registry for Internet Numbers (ARIN)](http://www.arin.net/index.shtml)
+[American Registry for Internet Numbers (ARIN)](https://www.arin.net/)
 
 [African Network Information Center (AfriNIC)](https://www.afrinic.net/)
 
@@ -263,7 +258,5 @@ udpcast - includes UDP-receiver and UDP-sender
 ## TCP Layer
 
 [lft](https://pwhois.org/lft/) - TCP tracing
-
-[etrace](http://www.bindshell.net/tools/etrace)
 
 [firewalk](http://www.packetfactory.net)

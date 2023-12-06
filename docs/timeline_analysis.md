@@ -76,10 +76,6 @@ tags:
 * ThemeRiver: In Search of Trends, Patterns, and Relationships,
   by Susan Havre, Beth Hetzler, and Lucy Nowell, Battelle Pacific Northwest
   Division, Richland, Washington, 1999
-* [Timeline Visualization of Research Fronts](http://www.conceptsymbols.com/web/publications/2003_timelines.pdf),
-  by Steven A. Morris2, G. Yen, Zheng Wu, Benyam Asnake , School of Electrical
-  and Computer Engineering, Oklahoma State University, Stillwater, Oklahoma.
-  2003
 * [Visualizing gaps in time-based lists](https://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists),
   by Moritz Stefaner, November 6, 2000
 
