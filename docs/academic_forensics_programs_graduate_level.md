@@ -57,7 +57,7 @@ tags:
 
 ## Australasia
 
-* [Edith Cowan University, Perth, Western Australia](http://www.ecu.edu.au/future-students/our-courses/browse?sq_content_src=%2BdXJsPWh0dHAlM0ElMkYlMkZ3ZWJzZXJ2aWNlcy53ZWIuZWN1LmVkdS5hdSUyRmZ1dHVyZS1zdHVkZW50cyUyRmNvdXJzZS12aWV3LnBocCUzRmlkJTNEMDAwMDAwMTQ1MSUyNmxvY2F0aW9uJTNEdG9wbGV2ZWwmYWxsPTE%3D)
+* [Edith Cowan University, Perth, Western Australia](https://www.ecu.edu.au/)
 
 ## Africa
 

@@ -15,9 +15,8 @@ that encryption key is itself encrypted with the user's login password.
 There are no known attacks against File Vault other than a brute force
 attack on the user's password.
 
-As part of the [security enhancements](http://www.apple.com/macosx/features/300.html#security)
-in OS X 10.5 (Leopard) Apple have moved from AES-128 to AES-256 for the
-encryption used in the disk image.
+As part of the security enhancements in OS X 10.5 (Leopard) Apple have moved
+from AES-128 to AES-256 for the encryption used in the disk image.
 
 In Mac OS X 10.7 (Lion) a full volume encryption variant was introduced.
 

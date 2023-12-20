@@ -14,7 +14,6 @@ pretty well.
 
 ## Commercial Geolocation services
 
-- [Digital Element](http://www.digital-element.net/ip_intelligence/ip_intelligence.html)
 - [IP2Location](https://www.ip2location.com/?AfID=23224) (free query: 20
   lookups/day)
 - [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases) (free service:

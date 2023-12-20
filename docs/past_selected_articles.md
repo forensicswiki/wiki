@@ -491,10 +491,6 @@ distributions based on Linux. Problems described:
 - Bugs in many forensic Live CDs that alter the data on evidentiary
   media.
 
-Denis Frati ([caine](caine_live_cd.md) wrote an
-[review (Italian)](http://www.denisfrati.it/pdf/Suhanov_Maxim_bug.pdf) of the
-bug found in Casper scripts.
-
 <small>September-2009</small>
 
 **[Cisco IOS Forensics](https://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf)**
@@ -659,7 +655,7 @@ patterns.)
 
 <small>2008-Oct-18</small>
 
-[Threats to Privacy in the Forensic Analysis of Database Systems](http://www.cs.umass.edu/~miklau/pubs/sigmod2007LMS/stahlberg07forensicDB.pdf)
+[Threats to Privacy in the Forensic Analysis of Database Systems](https://people.cs.umass.edu/~miklau/assets/pubs/sigmod2007LMS/stahlberg07forensicDB.pdf)
 Patrick Stahlberg, Gerome Miklau, and Brian Neil Levine
 
 Proceedings of the 2007 ACM SIGMOD international conference on

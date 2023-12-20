@@ -126,7 +126,7 @@ analysis.
 - [YobiWiki: RAM analysis](https://wiki.yobi.be/index.php/Main_Page)
 - [RAM is Key - Extracting Disk Encryption Keys From Volatile Memory](https://cryptome.org/0003/RAMisKey.pdf),
   by Brian Kaplan, May 2007
-- [Forensics Examination of Volatile System Data Using Virtual Introspection](http://www.cse.unt.edu/~song/csce5933-003/readings/HayOSR08.pdf),
+- [Forensics Examination of Volatile System Data Using Virtual Introspection](https://dl.acm.org/doi/10.1145/1368506.1368517),
   by Brian Hay and Kara Nance, 2008
 - [Discovering ephemeral evidence with Live RAM analysis](https://belkasoft.com/download/info/Live_RAM_Analysis_in_Digital_Forensics.pdf)
   by Oleg Afonin and Yuri Gubanov, 2013

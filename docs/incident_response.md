@@ -52,7 +52,7 @@ victims can be easier if they stand out from the crowd.
 
 * [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf),
   by Eric M. Hutchins, Michael J. Clopperty, Rohan M. Amin, March 2011
-* [Stalking the kill chain](http://www.emc.com/collateral/hardware/solution-overview/h11154-stalking-the-kill-chain-so.pdf),
+* Stalking the kill chain,
   by RSA
 * [APT Kill chain - Part 1 : Definition](https://www.cyber.airbus.com/cassidian-cybersecurity-blog-apt-kill-chain-part-1-definition/),
   by Cedric Pernet, April 28, 2014

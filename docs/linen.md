@@ -37,7 +37,7 @@ Can it sign files? Does it keep an audit log?
 ## License Notes
 
 Linen is released under a proprietary license. It is included as part of
-the freely downloadable [Helix](http://www.e-fense.com/helix/) live CD.
+the freely downloadable [Helix live CD](helix3.md).
 
 # External Links
 

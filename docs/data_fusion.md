@@ -19,7 +19,4 @@ Java. GPL.
 
 ## External Links
 
-- [State and Local Fusion
-  Centers](http://www.dhs.gov/xinfoshare/programs/gc_1156877184684.shtm),
-  DHS Website.
-- [Data Fusion @ Wikipedia](https://en.wikipedia.org/wiki/Data_fusion)
+* [Wikipedia: Data fusion](https://en.wikipedia.org/wiki/Data_fusion)

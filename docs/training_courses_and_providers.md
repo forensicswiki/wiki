@@ -53,7 +53,7 @@ Amped Software (Image & Video forensics - FIVE; Authenticate) | <https://ampedso
 ASR Data (SMART) | <http://www.asrdata.com/forensic-training/overview/> |
 Cellebrite (UFED) | <https://cellebrite.com/en/academy-overview/> |
 Digital Intelligence (FRED Forensics Platform) | <https://digitalintelligence.com/training/overview> |
-e-fense, Inc. (Helix3 Pro) | <http://www.e-fense.com/training/index.php> |
+e-fense, Inc. (Helix3 Pro) | <https://www.e-fense.com/> |
 ElcomSoft Co.Ltd. (desktop, mobile and cloud forensics) | <https://www.elcomsoft.com/elcomsoft_trainings.html> |
 OpenText (Guidance Software) (EnCase) | <https://www.opentext.com/learning-services> |
 Micro Systemation (XRY) | <https://www.msab.com/extract-courses/> |
