@@ -126,8 +126,7 @@ consists of a 10 random characters, E.g.
     bxjhgftsyu.mydomain.com
     yokjbjiagd.mydomain.com
 
-This is used to determine if your ISP is hijacking NXDOMAIN results
-[2](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en).
+This is used to determine if your ISP is hijacking NXDOMAIN results.
 
 ## Disk Cache
 
@@ -456,7 +455,6 @@ On Windows
 - [Wikipedia article on Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
 - [The Chromium Projects - User Data Directory](https://www.chromium.org/user-experience/user-data-directory/)
 - [Chrome Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/)
-- [Chrome support forum article random 10 character hostnames on startup](http://www.google.com/support/forum/p/Chrome/thread?tid=3511015c72a7b314&hl=en)
 - [Chrome User Agent strings](https://www.useragentstring.com/pages/Chrome/)
 - [Google Chrome Forensics](https://www.sans.org/digital-forensics-incident-response/),
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md), January 21, 2010

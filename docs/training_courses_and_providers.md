@@ -79,7 +79,7 @@ eForensics Magazine | <https://eforensicsmag.com/register-in-wplms/> |
 Elvidence (Computer Forensics & Decryption - Law Enforcement Only) | <https://www.elvidence.com.au/> |
 High Tech Crime Institute | <http://www.gohtci.com> |
 Infosec Institute | <https://www.infosecinstitute.com/skills/content-library/> |
-Intense School (a subsidiary of Infosec Institute) | <http://www.intenseschool.com/schedules> |
+Intense School (a subsidiary of Infosec Institute) | <https://www.infosecinstitute.com/> |
 MD5 Group (Computer Forensics and E-Discovery courses)(Dallas, TX) | <http://www.md5group.com> |
 Mile 2 (Security and Forensics Certification Training) | <https://mile2.com/training/> |
 NetSecurity | <https://www.netsecurity.com/cyber-security-and-forensics-training/> |

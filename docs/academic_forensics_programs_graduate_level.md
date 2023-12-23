@@ -14,7 +14,7 @@ tags:
 * Dartmouth College
 * George Mason University
 * George Washington University
-* [John Jay College](http://www.jjay.cuny.edu/master-science-digital-forensics-and-cybersecurity)
+* John Jay College
 * [Michigan State University](https://cj.msu.edu/graduates/forensic-science/forensic-home.html)
 * [Maryville University](https://online.maryville.edu/online-masters-degrees/cyber-security/)
 * Naval Postgraduate School
@@ -39,14 +39,14 @@ tags:
 ## Europe
 
 * Cranfield University, UK
-* [Limerick Institute of Technology](http://www.lit.ie/departments/IT/MSC_Computing.html)
+* Limerick Institute of Technology
 * [University of Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
 * University of Bradford
 * University of East London
 * University College Dublin
 * [University of Technology, Mauritius](https://www.utm.ac.mu/)
 * [University of Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
-* [University of Glamorgan, Wales, UK](http://www.glam.ac.uk/coursedetails/685/549)
+* University of Glamorgan, Wales, UK
 * [University of Applied Sciences Albstadt-Sigmaringen, Germany](http://www.digitaleforensik.com),
   Master of Science, Digital Forensics, in cooperation with University of
   Mannheim and University of Tübingen, Germany

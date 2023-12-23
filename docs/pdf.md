@@ -138,7 +138,7 @@ create any kind of PDF document"
 
 * [Adobe PDF Reference 1.7](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf)
 * [Wikipedia: PDF](https://en.wikipedia.org/wiki/PDF)
-* [Portable Document Format: An Introduction for Programmers](http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/),
+* [Portable Document Format: An Introduction for Programmers](http://preserve.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/index.html),
   MacTech Magazine, Volume 15, (1999), Issue 9
 * [ISO Standard](https://www.iso.org/standard/51502.html)
 * [Quickpost: About the Physical and Logical Structure of PDF Files](https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/),

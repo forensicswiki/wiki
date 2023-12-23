@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Open Source Software
 ---
 **FTimes**, short for **File Topography and Integrity Monitoring on an
 Enterprise Scale** is a system baselining and evidence collection tool
@@ -10,13 +10,9 @@ and computer forensics.
 
 ## Limitations
 
-FTimes does not collect all possible attributes on every supported
-platform.
+FTimes does not collect all possible attributes on every supported platform.
 
 ## External Links
 
-- [The FTimes Project Homepage](https://ftimes.sourceforge.net/)
-- [Building FTimes on Windows using Visual
-  Studio](http://blog.boreas.ro/2007/11/building-ftimes-on-windows-using-visual.html)
-- [DFRWS 2006 File Carving Challenge - using
-  FTimes](http://www.korelogic.com/Resources/Projects/dfrws_challenge_2006/)
+* [The FTimes Project Homepage](https://ftimes.sourceforge.net/)
+* [Building FTimes on Windows using Visual Studio](http://blog.boreas.ro/2007/11/building-ftimes-on-windows-using-visual.html)

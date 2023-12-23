@@ -95,9 +95,6 @@ Computer evidence needs to be:
 
 ## External Links
 
-- [Principles of Evidence - Fifth edition](http://www.lexisnexis.com/supp/lawschool/study/texts/pdf/2011RevisedTM3562.pdf),
-  by Irving Younger, Michael Goldsmith, David A. Sonenshein, 2011
-
 ### Hearsay
 
 - [Wikipedia: Hearsay](https://en.wikipedia.org/wiki/Hearsay)

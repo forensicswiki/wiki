@@ -42,6 +42,4 @@ data from formatted or scratched CD/DVD.
 
 ## External Links
 
-- [MiniTool website](http://www.minitool-partitionrecovery.com/)
-
-[MiniTool Solution Ltd](minitool_solution_ltd.md)
+- [MiniTool: Data Recovery Software](https://www.minitool.com/data-recovery-software/)

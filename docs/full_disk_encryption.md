@@ -15,9 +15,6 @@ Some examples of full disk encryption:
 
 ### Embedded into internal HDD
 
-Hitachi *Bulk Data Encryption* ("BDE")
-<http://www.hitachigst.com/tech/techlib.nsf/techdocs/74D8260832F2F75E862572D7004AE077/$file/bulk_encryption_white_paper.pdf>
-
 - FIPS 197 (Federal Information Processing Standard 197 certification
   issued by NIST)
 - [AES-128](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search)

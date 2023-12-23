@@ -34,7 +34,6 @@ tags:
   Board of Directors has approved the creation of the Digital and
   Multi-media section, which will be voted upon during the AAFS business
   meeting (during the annual meeting) in Feb 2008.
-* [Infoperitos - Computer Expert Witness Group from the Spanish Computer Engineers Association](http://www.infoperitos.com/)
 
 # Non-profit
 
