@@ -1,11 +1,9 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **Hash** can refer to:
 
 - The process of [hashing](hashing.md)
-- [A program for computing hashes by Dan
-  Mares](hash_(maresware).md)
-- [Hash (tool)](hash_(tool).md) - a program for intruding onto
-  other computers
+- [hash](https://www.maresware.com/maresware/html/hash.htm) - a program for computing hashes by Dan Mares
+- hacker shell - a program for intruding onto other computers

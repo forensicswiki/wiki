@@ -37,14 +37,8 @@ and test hardware.
 Website with online discussion forums relating to computer forensics.
 
 [Cyberspeak podcast](cyberspeak_podcast.md)
-[Cyberspeak Podcast](https://cyberspeak.libsyn.com/)
 
 Computer forensics, network security, and computer crime podcast.
-
-[Digital Forensics Discussion Forum](http://www.multimediaforensics.com/)
-
-A forum for the discussion of computer and digital forensics
-examinations, certified and non-certified investigators welcome
 
 [Digital Forensic Research Workshop (DFRWS)](https://dfrws.org/)
 

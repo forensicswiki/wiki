@@ -63,11 +63,10 @@ External Links
 
 * [SIMiFOR](http://www.forensicts.co.uk)
 * [SIMcon](https://www.simcon.no/)
-* [USIM Detective](http://www.quantaq.com/usimdetective.htm)
 * [Pro Data Doctor](https://www.data-recovery-mobile-phone.com/)
 * [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
 * [SIM Manager](http://www.txsystems.com/sim-manager.html)
-* [SIMSpy](http://www.nobbi.com/download.htm)
+* [SIMSpy](http://www.nobbi.com/download.php)
 * [UnDeleteSMS](https://vidstromlabs.com/freetools/undeletesms/)
 * [Dekart SIM Explorer](https://www.dekart.com/products/card_management/sim_explorer),
   [video demo of SIM Explorer](https://www.youtube.com/watch?v=P5dJS7g1o_c)

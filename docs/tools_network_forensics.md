@@ -54,14 +54,6 @@ APIs.
 
 [Netstat](netstat.md)
 
-[NetSleuth](http://www.netgrab.co.uk/)
-
-NetSleuth is a free network analysis tool released under the GPL.
-NetSleuth can be used to analyse and fingerprint hosts from pcap files,
-designed for post event incident response and network forensics. It also
-supports a live sniffing mode, silently identifying and fingerprinting
-devices without needing to send any traffic onto a network.
-
 NetworkMiner
 
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows.
@@ -257,6 +249,4 @@ udpcast - includes UDP-receiver and UDP-sender
 
 ## TCP Layer
 
-[lft](https://pwhois.org/lft/) - TCP tracing
-
-[firewalk](http://www.packetfactory.net)
+[Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP tracing

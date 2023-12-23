@@ -75,8 +75,6 @@ available.
   timeline that can be analysed by forensic investigators/analysts.
 - [NetFSE](netfse.md) is a web-based search and analysis application for
    high-volume network data.
-- [NetSleuth](http://www.netgrab.co.uk) is a live and retrospective
-  network analysis and triage tool.
 - [ntop](ntop.md)
 - [NetGREP](https://pypi.org/project/netgrep/) is a command line tool which tells you
   which lines in a text file contain network resources related to a
@@ -125,5 +123,3 @@ available.
 
 These systems combine flow analysis, deep analysis, and security event
 monitoring and reporting.
-
-* [Q1 Labs](http://www.q1labs.com/)

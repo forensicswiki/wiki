@@ -206,8 +206,7 @@ bibliography is in chronological order!**
 
 2010
 
-- I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, [Fast File-type
-  Identification](http://www.alphaminers.net/sub05/sub05_03.php?swf_pn=5&swf_sn=3&swf_pn2=3),
+- I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, [Fast File-type Identification](https://www.researchgate.net/publication/228451843_Fast_file-type_identification),
   Proceedings of the 25th ACM Symposium on Applied Computing (ACM SAC
   2010), ACM, Sierre, Switzerland, March 2010.
 

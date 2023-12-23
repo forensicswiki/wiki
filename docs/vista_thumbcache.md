@@ -27,8 +27,6 @@ with original files is to use the contents of the [Windows Search
 
 ## Thumbcache Format
 
-*Thumbcache format is described [here](http://www.noxa.org/blog/2008/02/02/vista-thumbnail-cache/).*
-
 In general, every thumbnail in cache is associated with two 64-bit
 variables. First variable (sometimes called *Unique ID*, *Secret*, *File
 ID*) associates data in file *thumbcache_idx.db* with thumbnail data in

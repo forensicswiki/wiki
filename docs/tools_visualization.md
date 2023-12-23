@@ -161,7 +161,7 @@ Reas govisual diagram editor reas.com gdf.net
 * [Tom Sawyer Software](https://www.tomsawyer.com/) Analysis,
   Visualizaiton, and Layout programs. - Heavy support for drawing
   graphs. Beautiful gallery. ActiveX, Java, C++ and .NET editions.
-* [NetMiner](http://www.netminer.com/) - A comprehensive tool for Social
+* [NetMiner](https://www.netminer.com/kr/index.php) - A comprehensive tool for Social
   Network Analysis. Runs on Windows, with a Linux version under
   development. \$35 for "Express" student version, \$250 for
   "Professional" student version, \$950 for "Normal" "Professional"

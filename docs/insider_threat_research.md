@@ -6,8 +6,6 @@ tags:
 
 ### US Government Reports
 
-- [Predictive Modeling for Insider Threat Mitigation](http://www.pnl.gov/coginformatics/media/pdf/tr-pacman-65204.pdf),
-  PNNL-SA-65204, April 2009
 - [Insider Risk Evaluation and Audit](https://www.dhra.mil/perserec/reports.html#TR0902),
   PERSEREC TR 09-02, August 2009
 - [Ten Tales of Betrayal: The Threat to Corporate Infrastructures by Information Technology Insiders Analysis and Observations](https://www.dhra.mil/perserec/reports.html#TR0513),
@@ -16,12 +14,6 @@ tags:
   PERSEREC TR 05-10 May 2005
 - [Changes in Espionage by Americans: 1947-2007](https://sgp.fas.org/library/changes.pdf),
   by Katherine L.  Herbig, PERSEREC TR 08-05, March 2008.
-
-### Presentations
-
-- [Insider Threats: Hidden Risks](http://www.bus.lsu.edu/fraud/2010/barbee.pdf),
-  by Russell Barbee (DHS), 2010 Fraud and Forensic Accounting Conference,
-  Louisiana State University
 
 ## External Links
 

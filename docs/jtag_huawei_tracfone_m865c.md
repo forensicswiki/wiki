@@ -107,4 +107,4 @@ approximately 30 minutes to download.
 
 ### References
 
-- <https://www.phonescoop.com/phones/phone.php?p=3308>
+- [Huawei Ascend II](https://www.phonescoop.com/phones/phone.php?p=3308)

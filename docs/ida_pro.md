@@ -12,4 +12,4 @@ protection*.
 
 ## External Links
 
-- [Official website](http://www.hex-rays.com/idapro/)
+- [Official website](https://hex-rays.com/ida-pro/)

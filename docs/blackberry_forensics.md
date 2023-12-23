@@ -202,8 +202,6 @@ transfer across a USB port.
 ## References
 
 - [phoneMiner](https://www.amraksoftware.com/), phoneMiner
-- [ABC](http://www.processtext.com/abcblackberry.html), Amber BlackBerry
-  Converter
 - [BlackBerry Simulator](https://www.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477),
   Simulator Download website
 - [IPD](https://www.blackberry.com/us/en),
