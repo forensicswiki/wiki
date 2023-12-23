@@ -74,16 +74,15 @@ Computer Forensic Training Center Online (CFTCO) | <http://www.cftco.com/> |
 CCE Bootcamp | <https://www.cce-bootcamp.com/> |
 Cyber Security Academy | <http://cybersecurityacademy.com/> |
 Dera Forensics Group | <http://www.deraforensicgroup.com/courses.htm> |
-e-fense Training | <http://www.e-fense.com/training/index.php> |
+e-fense Training | <https://www.e-fense.com> |
 eForensics Magazine | <https://eforensicsmag.com/register-in-wplms/> |
 Elvidence (Computer Forensics & Decryption - Law Enforcement Only) | <https://www.elvidence.com.au/> |
-High Tech Crime Institute | <http://www.gohtci.com> |
+High Tech Crime Institute | <https://www.gohtci.com/> |
 Infosec Institute | <https://www.infosecinstitute.com/skills/content-library/> |
 Intense School (a subsidiary of Infosec Institute) | <http://www.intenseschool.com/schedules> |
 MD5 Group (Computer Forensics and E-Discovery courses)(Dallas, TX) | <http://www.md5group.com> |
 Mile 2 (Security and Forensics Certification Training) | <https://mile2.com/training/> |
 NetSecurity | <https://www.netsecurity.com/cyber-security-and-forensics-training/> |
-NTI (an Armor Forensics Company) APPEARS DEFUNCT | <http://www.forensics-intl.com/training.html> |
 Security University | <http://www.securityuniversity.net/classes.php> |
 Sumuri, LLC - Mac, Digital Forensics, Encryption, Mobile Forensics, Recon, Passware, Paladin | <https://sumuri.com/training-courses/> |
 SysAdmin, Audit, Network, Security Institute (SANS) | <https://www.sans.org/digital-forensics-incident-response/> |

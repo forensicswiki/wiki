@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Software Vendors
 ---
 **About Belkasoft**
 
@@ -32,13 +32,11 @@ incident response tool developed specifically for a quick analysis of a
 live computer and making a partial image of important data. The product
 is designed to assist in situations when an investigator or a first
 responder is at the scene of incident and needs to quickly identify and
-obtain specific digital evidence stored on a Windows machine. More
-detail: <https://belkasoft.com/t>
+obtain specific digital evidence stored on a Windows machine.
 
 **[Belkasoft Remote Acquisition](belkasoft_r.md)** is a digital
 forensic and incident response tool developed specifically for
-forensically sound remote acquisition and extraction. More detail:
-<https://belkasoft.com/r>
+forensically sound remote acquisition and extraction.
 
 In addition to commercial products, Belkasoft offers a range of free
 forensic tools.

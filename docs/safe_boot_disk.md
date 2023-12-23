@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
 ---
 The **System Acquisition Forensic Environment (SAFE) Boot Disk** is the
 first and only commercially available forensically sound Windows Boot
@@ -35,4 +35,4 @@ viewing, and simple forensics functions.
 
 ## External Links
 
-- [Download site](http://www.forensicsoft.com/safe.php)
+* [Download site](https://www.forensicsoft.com/products/safe-block)

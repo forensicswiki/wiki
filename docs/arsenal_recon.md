@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Software Vendors
 ---
 **About Arsenal Recon**
 
@@ -38,5 +37,4 @@ often exist within them.
 
 ## External Links
 
-- [Arsenal Recon Official Website](https://ArsenalRecon.com/)
-
+* [Arsenal Recon Official Website](https://arsenalrecon.com/)

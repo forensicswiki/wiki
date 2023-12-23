@@ -176,17 +176,18 @@ at the University of Udine.
 ## External links
 
 - [Open Source Live Distributions for Computer Forensics- by Springer](https://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
-- [Google books](https://books.google.it/books?id=jQVgWaF3pJwChttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQpg=PT304http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQlpg=PT304http://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQdq=Andrea+Ghirardini%3B+Gabriele+Faggioli,+Computer+Forensics+cainehttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQsource=blhttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQots=mf8-Def6uFhttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQsig=88ydFgTv05M2Q45B4FSvwqhBXKkhttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQhl=ithttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQsa=Xhttp://books.google.it/books?id=jQVgWaF3pJwC&pg=PT304&lpg=PT304&dq=Andrea+Ghirardini;+Gabriele+Faggioli,+Computer+Forensics+caine&source=bl&ots=mf8-Def6uF&sig=88ydFgTv05M2Q45B4FSvwqhBXKk&hl=it&sa=X&ei=W2voUOD3Lcrk4QSVlIDoDQ&ved=0CEMQ6AEwAQei=W2voUOD3Lcrk4QSVlIDoDQ)
-- [Linux-Mazin.de](https://www.linux-magazin.de/ausgaben/2010/12/italienische-aufklaerung/)
 - [Linux-Magazine.com](https://www.linux-magazine.com/Issues/2011/122/Caine)
-- [Opens Source Day 2012](https://www.opensourceday.org/2012/?mid=20)
-- [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
 - [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
-- [gustavopimental.com.ar](http://gustavopimentel.com.ar/)
-- [concise-courses.com](https://www.concise-courses.com/hacking-tools/top-ten/)
-- [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
-- [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
-- [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)
 - [LinuxFormat](https://www.linuxformat.com/archives?issue=151)
-- [TechRepublic](https://www.techrepublic.com/article/10-obscure-linux-distributions-and-why-you-should-know-about-them/)
 - [Sito ufficiale](https://www.caine-live.net/)
+
+### German
+
+- [Linux-Mazin.de](https://www.linux-magazin.de/ausgaben/2010/12/italienische-aufklaerung/)
+
+### Italian
+
+- [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
+- [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
+- [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
+- [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)

@@ -12,5 +12,5 @@ and [3DES](3des.md). Supports hidden volumes and Pre-Boot Authentification.
 
 * [FreeBSD official website](https://www.freebsd.org/)
 * [FreeBSD Handbook - Disk Encryption](https://docs.freebsd.org/en/books/handbook/disks/#disks-encrypting)
+* [man page: geli(8)](https://man.freebsd.org/cgi/man.cgi?query=geli)
 * [Wikipedia: GBDE](https://en.wikipedia.org/wiki/GBDE)
-* [man page: geli(8)](https://www.freebsd.org/cgi/man.cgi?query=geli)

@@ -68,9 +68,9 @@ allows live memory analysis of Windows computers from Android phones and
 tablets
 
 winen.exe (Guidance Software - included with Encase 6.11 and higher)
-included on [Helix 2.0](http://www.e-fense.com/helix/)
+included on [Helix](helix3.md).
 
-<http://forensiczone.blogspot.com/2008/06/winenexe-ram-imaging-tool-included-in.html>
+[Winen.exe - RAM Imaging Tool Included in New Version of Encase](https://forensiczone.blogspot.com/2008/06/winenexe-ram-imaging-tool-included-in.html)
 
 [Mdd](mdd.md) ([ManTech](mantech.md))
 <https://sourceforge.net/projects/mdd>

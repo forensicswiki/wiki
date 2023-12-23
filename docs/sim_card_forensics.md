@@ -76,7 +76,7 @@ External Links
 * [Cell Phone SIM Card Spy](https://www.brickhousesecurity.com/counter-surveillance/)
 * [SIM Card Reader](http://ww38.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
 * [Sim Card Reader Software](https://sim-card-reader-software.download3000.com)
-* [Sim Card Recovery](http://www.freedownloadscenter.com/Utilities/Backup_and_Copy_Utilities/Sim_Card_Recovery.html)
+* [Sim Card Recovery](https://sim-card-recovery.freedownloadscenter.com/windows/)
 * [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
 
 ## Recovering SIM Card Data

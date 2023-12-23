@@ -14,7 +14,7 @@ Disk Encryption. [GELI](geli.md) was later written later by Pawel Jakub Dawidek.
 ## External Links
 
 * [FreeBSD official website](https://www.freebsd.org/)
-* [Wikipedia: GBDE](https://en.wikipedia.org/wiki/GBDE)
-* [man page: gbde(8)](https://www.freebsd.org/cgi/man.cgi?query=gbde)
-* [GBDE - GEOM Based Disk Encryption](http://phk.freebsd.dk/pubs/bsdcon-03.gbde.paper.pdf),
+* [GBDE - GEOM Based Disk Encryption](https://phk.freebsd.dk/pubs/bsdcon-03.gbde.paper.pdf),
   by Poul-Henning Kamp
+* [man page: gbde(8)](https://man.freebsd.org/cgi/man.cgi?query=gbde)
+* [Wikipedia: GBDE](https://en.wikipedia.org/wiki/GBDE)

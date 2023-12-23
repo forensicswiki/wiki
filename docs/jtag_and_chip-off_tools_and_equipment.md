@@ -139,7 +139,7 @@ made for equivalent tools and equipment.*
 | Item                                          | Info                                                                                                    | Estimated Cost (CAD)                       |
 |:----------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Wagner HT1000 Heat Gun                        | <http://www.wagnerspraytech.com/portal/ht1000_en_spray,362096,358970.html>                              | \$30                                       |
-| Heat Gun stand                                | <http://www.ibreakityoufixit.com/shop/air-gun-holder>                                                   | \$60                                       |
+| Heat Gun stand                                | | |
 | UP-828 Programmer                             | <https://www.fonefunshop.com/>                                | Approx. £1,400                             |
 | UP-828 Adapter VBGA529                        | Galaxy Note 4 - <https://www.fonefunshop.com/>           | Approx. £470                               |
 | UP-828 Adapter BGA110                         | <https://www.fonefunshop.com/>                            | Approx. £260                               |
