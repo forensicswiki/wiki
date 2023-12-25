@@ -19,4 +19,4 @@ is exportable to a Comma Separated Values (CSV) file.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)

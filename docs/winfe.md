@@ -11,16 +11,14 @@ to acquire electronic media or conduct forensic analysis.
 
 ## Windows Forensic Environment ("WinFE")
 
-WinFE was developed and researched in 2008 by Troy Larson, Sr Forensic
-Examiner and Research at Microsoft
-[1](http://www.twine.com/item/113421dk0-g99/windows-fe). WinFE is based
-off the Windows Pre-installation Environment of media being Read Only by
-default. It works similar to Linux forensic CDs that are configured not
-to mount media upon booting. However, unlike Linux boot CDs, with Win FE
-one can use Windows based software. Thus it is possible to include
-various forensic software and general portable utilities. WinFE can also
-be configured to boot from a USB device, should the evidence computer
-have the ability to boot to USB.
+WinFE was developed and researched in 2008 by Troy Larson, Sr Forensic Examiner
+and Research at Microsoft. WinFE is based off the Windows Pre-installation
+Environment of media being Read Only by default. It works similar to Linux
+forensic CDs that are configured not to mount media upon booting. However,
+unlike Linux boot CDs, with Win FE one can use Windows based software. Thus it
+is possible to include various forensic software and general portable
+utilities. WinFE can also be configured to boot from a USB device, should the
+evidence computer have the ability to boot to USB.
 
 WinFE can be customized to the examiner's needs through batch files
 using the Windows Automated Install Kit (WAIK) or through 3rd party
@@ -29,14 +27,14 @@ utilities such as WinBuilder [2](http://reboot.pro).
 Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
 
-- X-Ways Forensics [3](https://www.x-ways.net/),
-- AccessData FTK Imager [4](https://www.exterro.com),
-- Guidance Software Encase [5](https://www.opentext.com/products/security-cloud),
-- ProDiscover [6](http://www.techpathways.net),
-- RegRipper [7](https://regripper.wordpress.com/).
+- [AccessData FTK Imager](https://www.exterro.com),
+- [Guidance Software Encase](https://www.opentext.com/products/security-cloud),
+- ProDiscover
+- [RegRipper](https://regripper.wordpress.com/).
+- [X-Ways Forensics](https://www.x-ways.net/),
 
 A write protection tool developed by Colin Ramsden was released in 2012
-that provides a GUI for disk toggling [8](http://www.ramsdens.org.uk/).
+that provides a GUI for disk toggling [3](http://www.ramsdens.org.uk/).
 Colin Ramsden's write protect tool effectively replaces the command line
 to toggle disks on/offline or readonly/readwrite.
 
@@ -65,7 +63,7 @@ documented 4-byte change to non-user created data. This modification
 exists for non-Windows OS disks, where Windows (FE) will write a Windows
 drive signature to the disk, although it is not shown to be consistent.
 Various issues with Linux Boot CDs can be compared
-[9](forensic_live_cd_issues.md) ).
+[4](forensic_live_cd_issues.md) ).
 
 ## Resources:
 

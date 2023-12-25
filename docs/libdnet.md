@@ -43,8 +43,6 @@ tags:
 
 - [Net::Libdnet](https://metacpan.org/release/VMAN/Net-Libdnet-0.01) - Perl
   interface to libdnet
-- [dnet.rb](http://www.shmoo.com/~bmc/software/ruby/ruby-dnet/) - Ruby
-  interface to libdnet
 - [libpcap](https://www.tcpdump.org/) - portable packet capture library
 - [winpcap](https://www.winpcap.org/) - libpcap for Windows
 - [pypcap](https://github.com/dugsong/pypcap) - libpcap Python module

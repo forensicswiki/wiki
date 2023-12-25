@@ -114,6 +114,7 @@ analysis.
 - [Memory Imaging Tools](tools_memory_imaging.md)
 - [Memory Analysis Tools](tools_memory_analysis.md)
 - [Linux Memory Analysis](linux_memory_analysis.md)
+- [Storage-class memory](storage_class_memory.md)
 - [Virtualization Memory Analysis](virtualization_memory_analysis.md)
 - [Windows Memory Analysis](windows_memory_analysis.md)
 

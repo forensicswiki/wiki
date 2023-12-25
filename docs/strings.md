@@ -15,7 +15,3 @@ a strings program included.
 There is a [Windows](windows.md) version of strings by [Mark Russinovich](mark_russinovich.md).
 Note that the Windows version prints an output header and searches for both
 ASCII and Unicode strings by default.
-
-## External Links
-
-* [Manual page for BSD version of strings](http://www.openbsd.org/cgi-bin/man.cgi?query=strings)

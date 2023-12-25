@@ -16,7 +16,6 @@ DVD, Blu-Ray.
 
 ## References
 
-- [Wikipedia Article Parallel
-  ATA](https://en.wikipedia.org/wiki/AT_Attachment)
-- [ATA/ATAPI-5](http://www.t10.org/t13/project/d1321r3-ATA-ATAPI-5.pdf)
+- [Wikipedia: Parallel ATA](https://en.wikipedia.org/wiki/AT_Attachment)
+- [ATA/ATAPI-5](https://hddguru.com/download/documentation/ATA-ATAPI-standard-5/ATA-ATAPI-5.pdf)
   T13 Technical Specification

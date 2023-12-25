@@ -21,4 +21,4 @@ convenience to end user.
 
 [Portable MBOX Viewer](https://www.bitrecover.com/free/mbox-viewer/)
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)

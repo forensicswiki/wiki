@@ -99,11 +99,6 @@ Open source C++ library and command line tool for reading and writing
 metadata in various image formats. Found in almost every GNU/Linux
 distribution
 
-[pngtools](http://www.stillhq.com/pngtools/)
-
-Open source suite of commands (pnginfo, pngchunks, pngchunksdesc) that reads
-metadata found in PNG files. Found in many Debian based distributions.
-
 [pngmeta](https://sourceforge.net/projects/pmt/files/)
 
 Open source command line tool that extracts metadata from PNG images. Found in
@@ -124,8 +119,6 @@ and smartphones, as well as desktop-based documents."
 extract preservation metadata from a range of file formats like PDF
 documents, image files, sound files Microsoft office documents, and many
 others."
-
-[Metadata Assistant](http://www.thepaynegroup.com/products/metadata/)
 
 [hachoir-metadata](hachoir.md)
 Extraction tool, part of **[Hachoir](hachoir.md)** project

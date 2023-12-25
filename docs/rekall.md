@@ -7,8 +7,7 @@ Rekall is the stand-alone continuation of the [Volatility](volatility_framework.
 version, aka the scudette branch.
 
 One of Rekalls goals is to provide better integration with [GRR](grr.md) by
-improved modularity of the framework and having memory acquisition capability
-[1](http://www.rekall-forensic.com/about.html).
+improved modularity of the framework and having memory acquisition capability.
 
 ## Memory acquisition drivers
 
@@ -121,9 +120,4 @@ For more information see:
 ## External Links
 
 - [Project site](http://www.rekall-forensic.com/)
-- [Project documentation](http://www.rekall-forensic.com/docs.html)
 - [Rekall Memory Forensics blog](http://blog.rekall-forensic.com/)
-- [Anti-forensic resilient memory acquisition](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2013.html)\]
-  by Johannes Stüttgen and [Michael Cohen](michael_cohen.md), August 2013
-- [Robust Linux memory acquisition with minimal target impact](http://www.rekall-forensic.com/docs/References/Papers/DFRWS2014EU.html),
-  Johannes Stüttgen and [Michael Cohen](michael_cohen.md), May 2014

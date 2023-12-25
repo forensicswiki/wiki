@@ -11,4 +11,4 @@ is part of the CPR Toolboox, sold separately.
 
 ## External Links
 
-* [Official website](http://www.thepsiclone.com/)
+* [SpecSheet](https://www.cprtools.net/specs/specs/archive/CPRTools.PSIClone.SpecSheet.pdf)

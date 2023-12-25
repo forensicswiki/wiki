@@ -74,7 +74,7 @@ victims can be easier if they stand out from the crowd.
 
 ### Intrusion Analysis
 
-* [The Diamond Model of Intrusion Analysis](http://www.threatconnect.com/files/uploaded_files/The_Diamond_Model_of_Intrusion_Analysis.pdf),
+* [The Diamond Model of Intrusion Analysis](https://www.threatintel.academy/wp-content/uploads/2020/07/diamond_summary.pdf),
   by Sergio Caltagirone, Andrew Pendergast, Christopher Betz
 
 ### Product related

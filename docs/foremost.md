@@ -43,7 +43,3 @@ Foremost's authors have recommended that practitioners use
 
 Due to programming difficulties, foremost is limited to processing files
 smaller than 2GB.
-
-## External Links
-
-* [SysAdmin Magazine article about Foremost](http://www.samag.com/documents/s=8859/sam0309a/sam0309a.htm)

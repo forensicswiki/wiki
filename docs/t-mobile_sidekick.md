@@ -20,7 +20,5 @@ The Sidekick is used by many people with hearing disabilities, as it has
 a full QWERTY keyboard for text messaging, email, and web browsing. It
 is also popular among teenagers for this same reason.
 
-The Sidekick 3 can be customized via [Sidekick
-Themes](http://www.sk3-themes.com), which can change the background
-image, application icons, and sounds.
-
+The Sidekick 3 can be customized via Sidekick Themes, which can change the
+background image, application icons, and sounds.

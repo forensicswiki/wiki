@@ -57,7 +57,7 @@ eXtended trace utility, similar to strace, ptrace, truss, but with
 extended functionality and unique features, such as dumping function
 calls (dynamically or statically linked), dumping call stack and more.
 
-[ktrace](http://www.openbsd.org/cgi-bin/man.cgi?query=ktrace&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html)
+ktrace
 Enables kernel process tracing on OpenBSD.
 
 [Valgrind](https://valgrind.org/)

@@ -20,7 +20,7 @@ BlackHat Federal Briefings & Training
 <https://www.blackhat.com/html/bh-link/briefings.html>
 
 BSides Security (various locations)
-<http://www.securitybsides.com/>
+<http://www.securitybsides.com/w/page/12194156/FrontPage>
 
 CanSecWest
 <https://www.secwest.net/>
