@@ -128,8 +128,6 @@ analysis.
   by Brian Kaplan, May 2007
 - [Forensics Examination of Volatile System Data Using Virtual Introspection](http://www.cse.unt.edu/~song/csce5933-003/readings/HayOSR08.pdf),
   by Brian Hay and Kara Nance, 2008
-- [Discovering ephemeral evidence with Live RAM analysis](https://belkasoft.com/download/info/Live_RAM_Analysis_in_Digital_Forensics.pdf)
-  by Oleg Afonin and Yuri Gubanov, 2013
 - [An Evaluation Platform for Forensic Memory Acquisition Software](https://dfrws.org/presentation/an-evaluation-platform-for-forensic-memory-acquisition-software/),
   by Stefan Voemel and Johannes Stuettgen, DFRWS 2013
 
@@ -151,7 +149,7 @@ analysis.
 - [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
 - [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture](https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html),
   by Intel, May 2011
-- [64-Bit Programming Models: Why LP64?](http://www.unix.org/version2/whatsnew/lp64_wp.html),
+- [64-Bit Programming Models: Why LP64?](https://unix.org/version2/whatsnew/lp64_wp.html),
   The Open Group, 1997
 
 ### Data types

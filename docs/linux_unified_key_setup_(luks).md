@@ -11,15 +11,15 @@ dm-crypt (dm = Device Mapper) and the user-space component cryptsetup.
 
 LUKS supports various encryption methods, like:
 
-- [Alleged RC4 (arc4)](rc4.md)
-- [AES](aes.md)
-- Anubis
-- [BlowFish](blowfish.md)
-- Cast5
-- Cast6
-- [Serpent](serpent.md)
-- Tnepres a reversed variant of [Serpent](serpent.md)
-- [TwoFish](twofish.md)
+* [Alleged RC4 (arc4)](rc4.md)
+* [AES](aes.md)
+* Anubis
+* [BlowFish](blowfish.md)
+* Cast5
+* Cast6
+* [Serpent](serpent.md)
+* Tnepres a reversed variant of [Serpent](serpent.md)
+* [TwoFish](twofish.md)
 
 These encryption methods can be used in various chaining modes and with
 various initialization vector modes.
@@ -69,13 +69,11 @@ See the cryptsetup(8) man page for other operations.
 
 ## External Links
 
-- [New Methods in Hard Disk Encryption](https://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf),
+* [New Methods in Hard Disk Encryption](https://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf),
   by Clemens Fruhwirth, July 18, 2005
-- [LUKS On-Disk Format Specification - Version 1.2.3](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf),
+* [LUKS On-Disk Format Specification - Version 1.2.3](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf),
   by Clemens Fruhwirth, October 16, 2011
-- [LUKS Disk Encryption](https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sect-Security_Guide-LUKS_Disk_Encryption.html),
-  by RedHat
-- [LUKS Disk Encryption format specification](https://github.com/libyal/libluksde/blob/main/documentation/Linux%20Unified%20Key%20Setup%20(LUKS)%20Disk%20Encryption%20format.asciidoc),
+* [LUKS Disk Encryption format specification](https://github.com/libyal/libluksde/blob/main/documentation/Linux%20Unified%20Key%20Setup%20(LUKS)%20Disk%20Encryption%20format.asciidoc),
   by the [libluksde project](libluksde.md), July 2013
-- [Practical malleability attack against CBC-Encrypted LUKS partitions](https://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/),
+* [Practical malleability attack against CBC-Encrypted LUKS partitions](https://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/),
   by Jakob Lell, December 22, 2013

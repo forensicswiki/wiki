@@ -38,7 +38,7 @@ In Windows 2003 and later:
   by Alex Ionescu, May 21, 2007
 * [Secrets of the Application Compatilibity Database (SDB) – Part 3](https://www.alex-ionescu.com/?p=41),
   by Alex Ionescu, May 26, 2007
-* [Leveraging the Application Compatibility Cache in Forensic Investigations](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf),
+* Leveraging the Application Compatibility Cache in Forensic Investigations
   by Andrew Davis, May 4, 2012
 * [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.com/2013/12/revealing-program-compatibility.html),
   by Corey Harrell, December 17, 2013

@@ -308,7 +308,6 @@ of a crash or power outage. According to Apple, "The purpose of the
 journal is to ensure that when a group of related changes are being
 made, that either all of those changes are actually made, or none of
 them are made."
-[2](https://developer.apple.com/documentation/technotes#Journal)
 
 ## Date and time values
 

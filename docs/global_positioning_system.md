@@ -96,12 +96,10 @@ bar in the program will show saved routes by date and time. When a
 specific waypoint is selected, a window will open that shows Lat/Long
 Coordinates, Altitude, Speed, Heading and Date/Time (Zulu).
 
-With this data, raw or when viewed in Google Earth, entire trips can
-easily be reproduced giving exact time and locations for the GPS unit.
-It is unknown how many trips the unit is capable of storing or will
-store by default, but the [Garmin Nuvi
-260W](https://buy.garmin.com/shop/shop.do?pID=37418#nuvi260w) test unit
-had 16 days of trip data stored to memory.
+With this data, raw or when viewed in Google Earth, entire trips can easily be
+reproduced giving exact time and locations for the GPS unit. It is unknown how
+many trips the unit is capable of storing or will store by default, but the
+Garmin Nuvi 260W test unit had 16 days of trip data stored to memory.
 
 ### Magellan
 

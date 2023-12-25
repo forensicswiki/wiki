@@ -126,6 +126,6 @@ output from the [Volatility Framework](volatility_framework.md).
 - VolReport(win), by SAL
 - [Volatility Batch File Maker](http://forensiczone.blogspot.com/2009/10/volatility-batch-file-maker.html)
   (By [Richard McQuown](http://forensiczone.blogspot.com/2009/10/walk-through-volatility-batch-file.html))
-- [Volscript](https://docs.google.com/leaf?id=0Bz2rZ4S-yK8AZDYzNDU3ZjktYTBhMS00NGQ3LTg2MGItYWM2YTFjYWE3YmQ3&sort=name&layout=list&num=50)
+- [Volscript](https://drive.google.com/file/d/0Bz2rZ4S-yK8AZDYzNDU3ZjktYTBhMS00NGQ3LTg2MGItYWM2YTFjYWE3YmQ3/view)
   Windows based Volatility batch script that runs a number of Volatility
   commands to produce a report (By [Christopher Bentley](http://active-security.blogspot.com/2011/05/volatility-script-for-windows.html))
