@@ -1171,7 +1171,7 @@ name</a></b></p></td>
 
 * [A Windows Registry Quick Reference: For the Everyday Examiner](https://www.iapsonline.com/sites/default/files/A%20Windows%20Registry%20Quick%20Reference-%20For%20the%20Everyday%20Examiner%20-%20By%20Derrick%20J.%20Farmer.pdf),
   by Derrick Farmer, Burlington, VT.
-* [Forensic Analysis of the Windows Registry](https://forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
+* [Forensic Analysis of the Windows Registry](https://www.forensicfocus.com/articles/forensic-analysis-of-the-windows-registry/),
   by Lih Wern Wong , School of Computer and Information Science, Edith
   Cowan University
 

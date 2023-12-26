@@ -65,7 +65,7 @@ FCCU GNU/Linux Forensic Boot CD
 
 Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
-[Forensic Focus](https://forensicfocus.com/)
+[Forensic Focus](https://www.forensicfocus.com/)
 
 News, blog, forums, and other resources for folks engaged in or
 interested in digital forensics.

@@ -71,7 +71,6 @@ investigators.
 * ForensicMobile
 * ForensicSIM
 * Guidance Software Neutrino
-* [iDEN Companion Pro](iden_companion_pro.md)
 * [iDEN Phonebook Manager](iden_phonebook_manager.md)
 * MicroSystemation .XRY
 * [MOBILedit!](mobiledit.md)

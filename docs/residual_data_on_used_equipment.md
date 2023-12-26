@@ -39,14 +39,10 @@ order.
   which documents large amount of personal and business-sensitive
   information found on 150 drives purchased on the secondary market.
 
-<!-- -->
-
 - **2006-06**: A man buys a family's hard drive at a fleamarket in
   Chicago after the family's hard drive is upgraded by Best Buy.
   Apparently somebody at Best Buy violated company policy and instead of
   destroying the hard drive, they sold it.
-
-<!-- -->
 
 - **2006-08-10**: The University of Glamorgan in Wales purchased 317
   used hard drives from the UK, Australia, Germany, and the US. 25% of
@@ -57,15 +53,11 @@ order.
   many had pornography, and 2 had to be referred to the police for
   suspected child pornography.
 
-<!-- -->
-
-- **2006-08-14**: [BBC News](http://news.bbc.co.uk/2/hi/business/4790293.stm) reports on bank
-  account information recovered from used PC hard drives and being sold
-  in Nigeria for £20 each. The PCs had apparently come from recycling
-  points run by UK town councils that are then "recycled" by being sent
-  to Africa.
-
-<!-- -->
+- **2006-08-14**: [BBC News](http://news.bbc.co.uk/2/hi/business/4790293.stm)
+  reports on bank account information recovered from used PC hard drives and
+  being sold in Nigeria for £20 each. The PCs had apparently come from
+  recycling points run by UK town councils that are then "recycled" by being
+  sent to Africa.
 
 - **2006-08-15**: Simson Garfinkel presents results of a study of 1000
   hard drives (750 working) at the 2006 Workshop on Digital Forensics.
@@ -73,13 +65,9 @@ order.
   hard drives using Garfinkel's [Cross Drive Analysis](cross_drive_analysis.md)
   approach.
 
-<!-- -->
-
 - **2007-02-06**: Fulcrum Inquiry, a Los Angeles litigation support firm,
   purchased 70 used hard drives from 14 firms and discovered confidential
   information on 2/3rds of the drives.
-
-<!-- -->
 
 - **2007-08-30**: Bill Ries-Kinght, an IT consultant, purchases a 120GB
   Seagate hard drive on eBay for \$69. Although the drive was advertised
@@ -92,16 +80,12 @@ order.
   influential people whose support he sought," states an article
   published in [The Register](https://www.theregister.com/2007/08/30/governors_data_sold_on_ebay/).
 
-<!-- -->
-
 - **2008-01-28**: Gregory Evans, a security consultant in Marina Del Ray,
   Calif., bought a \$500 computer at a swap meet from a former mortgage company.
   It contained credit reports on 300 people in a deleted file, according to an
   article published in The New York Daily News. The security consultant was also
   able to recover the usernames and passwords of the mortgage company's former
   employees.
-
-<!-- -->
 
 - **2009-02-10**: Michael Kessler, CEO of Kessler International, a New
   York City forensics firm, bought 100 "relatively modern drives, the
@@ -110,15 +94,11 @@ order.
   drives were found to contain sensitive data.
   [1](https://www.computerworld.com/)
 
-<!-- -->
-
 - **2009-05-07**: University of Glamorgan bought disks in its annual
   survey of used hard drives and found "Details of test launch
   procedures for the THAAD (Terminal High Altitude Area Defence)
   ground-to-air missile defence system. [Missile data found on hard
   drives, BBC News, May 7, 2009](http://news.bbc.co.uk/2/hi/uk_news/wales/8036324.stm)
-
-<!-- -->
 
 - **2009-07-30**: Reporters working for the PBS show Frontline on an
   article about electronic waste find hard drives in Ghana that contain
@@ -130,15 +110,11 @@ order.
   Robert McMillan, IT World, June 24,
   2009](https://www.computerworld.com)
 
-<!-- -->
-
 - **2009-09-23**: The Inspector General of the United States Department
   of Defense issues a report about the widespread sale and return of
   equipment containing sensitive information. [Report No. D-2009-104
   September 21, 2009 Sanitization and Disposal of Excess Information
   Technology Equipment](https://nsi.org/ReferenceLibrary/756.pdf).
-
-<!-- -->
 
 - **2010-12-08**: NSAS decomissions 14 computers with hard drives that
   "failed tests to verify data had been destroyed.''' The drives turn up
@@ -146,16 +122,12 @@ order.
   [Reported By Dan Goodin in San Francisco, The Register, 8th December
   2010](https://www.theregister.com/2010/12/08/nasa_disk_wiping_failure/)
 
-<!-- -->
-
 - **2012-04-25**: A report published by the UK Information Commissioner's
   Office finds that 1 in 10 hard drives sold on the secondary market contains
   highly sensitive information, based on a "mystery shopper" study in which an
   organization purchased 200 hard drives on the Internet and at used computer
   fairs. Sophie Curtis, "InfoSec 2012: One in 10 second-hand hard drives
   contain personal data, April 2012.
-
-<!-- -->
 
 - **2013-07-14**: UK's National Health Service Surrey was fined a £200,000
   (\$300,000) after it sold a hard drive that contained 3,000 patient records

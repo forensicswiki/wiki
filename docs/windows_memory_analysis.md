@@ -170,4 +170,4 @@ and re-released as Volatility in August
 
 ### WinDBG
 
-* [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/comaeio/SwishDbgExt)
+* [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/MagnetForensics/SwishDbgExt)

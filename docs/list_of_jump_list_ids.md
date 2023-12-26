@@ -29,7 +29,7 @@ cdf30b95c55fd785 | Microsoft Office Excel 2007 | 2011-08-22 | Win4n6 List Serv
 9839aec31243a928 | Microsoft Office Excel 2010 x86 | 2011-08-22 | [Microsoft Windows 7 Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 6e855c85de07bc6a | Microsoft Office Excel 2010 x64 | 2013-06-07 | Chad Tilbury
 f0275e8685d95486 | Microsoft Office Excel 2013 x86 | 3/4/2015 | [Russ Taylor](https://hatsoffsecurity.com/)
-b8ab77100df80ab2 | Microsoft Office Excel x64 | 4/25/2017 | [4n6k GitHub](https://github.com/4n6k/Jump_List_AppIDs/blob/master/4n6k_AppID_Master_List.md)
+b8ab77100df80ab2 | Microsoft Office Excel x64 | 4/25/2017 | 4n6k GitHub
 b8c29862d9f95832 | Microsoft Office InfoPath 2010 x86 | 2011-08-22 | Win4n6 List Serv
 d64d36b238c843a3 | Microsoft Office InfoPath 2010 x86 | 2011-08-22 | Win4n6 List Serv
 3094cdb43bf5e9c2 | Microsoft Office OneNote 2010 x86 | 2011-08-22 | Win4n6 List Serv
@@ -40,7 +40,7 @@ be71009ff8bb02a2 | Microsoft Office Outlook x86 | 2011-08-22 | Win4n6 List Serv
 f5ac5390b9115fdb | Microsoft Office PowerPoint 2007 | 2011-08-22 | Win4n6 List Serv
 9c7cc110ff56d1bd | Microsoft Office PowerPoint 2010 x86 | 2011-08-22 | [Microsoft Windows 7 Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 5f6e7bc0fb699772 | Microsoft Office PowerPoint 2010 x64 | 6/7/2013 | Chad Tilbury
-d00655d2aa12ff6d | Microsoft Office PowerPoint x64 | 4/25/2017 | [4n6k GitHub](https://github.com/4n6k/Jump_List_AppIDs/blob/master/4n6k_AppID_Master_List.md)
+d00655d2aa12ff6d | Microsoft Office PowerPoint x64 | 4/25/2017 | 4n6k GitHub
 a8c43ef36da523b1 | Microsoft Office Word 2003 Pinned and Recent | 2011-08-22 | [Microsoft Windows 7 Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 adecfb853d77462a | Microsoft Office Word 2007 Pinned and Recent | 2011-08-22 | [Microsoft Windows 7 Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
 a7bd71699cd38d1c | Microsoft Office Word 2010 x86 | 2011-08-22 | [Microsoft Windows 7 Forum](https://social.technet.microsoft.com/Forums/en-US/92b90228-2f08-4558-9c4d-6e66e103a5cf/jump-list-history-location?forum=w7itprogeneral)
@@ -90,7 +90,7 @@ f0468ce1ae57883d | Adobe Reader 7.1.0 | 2011-09-08 | [4n6k Blog](https://www.4n6
 c2d349a0e756411b | Adobe Reader 8.1.2 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 23646679aaccfae0 | Adobe Acrobat 9.4.0 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 ee462c3b81abb6f6 | Adobe Reader X 10.1.0 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
-de48a32edcbe79e4 | Acrobat Reader 15.x | 4/25/2017 | [4n6k GitHub](https://github.com/4n6k/Jump_List_AppIDs/blob/master/4n6k_AppID_Master_List.md)
+de48a32edcbe79e4 | Acrobat Reader 15.x | 4/25/2017 | 4n6k GitHub
 386a2f6aa7967f36 | EyeBrowse 2.7 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 e31a6a8a7506f733 | Image AXS Pro 4.1 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 b39c5f226977725d | ACDSee Pro 8.1.99 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)

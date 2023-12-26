@@ -30,7 +30,6 @@ a much higher download speed of 96 kbit/s.
 
 Software for acquiring a iDEN data includes:
 
-* [iDEN Companion Pro](iden_companion_pro.md)
 * [iDEN Phonebook Manager](iden_phonebook_manager.md)
 * [SIMiFOR](simifor.md)
 * [SIM Explorer](sim_explorer.md)

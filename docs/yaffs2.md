@@ -11,7 +11,4 @@ are not well-specified in the standard.
 
 ## More Information
 
-- A technical report about the basics of YAFFS2 and its wear-leveling
-  technique and garbage collection can be found here:
-  [1](https://opus4.kobv.de/opus4-fau/home).
 - The official YAFFS2 website: [2](https://yaffs.net/)

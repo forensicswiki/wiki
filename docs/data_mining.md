@@ -11,8 +11,6 @@ people doing forensic data mining and machine learning.
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/) data mining toolkit -
   java, has programmatic and GUI interface.
 * Ping He has created an [Open Source C4.5 implementation in C](https://code.google.com/archive/p/fc45)
-* [Machine Learning Open Source Software](https://mloss.org) - a page
-  hosting many open source machine learning tools and libraries.
 * [Apache Mahout](https://mahout.apache.org//): goal is to "build
   scalable, Apache licensed machine learning libraries" (java). also
   includes a focus on using [hadoop](https://hadoop.apache.org/).

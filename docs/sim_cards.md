@@ -117,9 +117,9 @@ In general, some of this data can help an investigator determine:
 There are many software solutions that can help the examiner to acquire
 the information from the SIM card. Several products include:
 
-* Inside Out's [SIMCon](https://www.simcon.no/)
+* Inside Out's [SIMCon](simcon.md)
 * SIM Content Controller
-* Paraben Forensics' [SIM Card Seizure](https://paraben-sticks.com/index.php/product/sim-card-seizure/)
+* Paraben Forensics' [SIM Card Seizure](paraben_sim_card_seizure.md)
 
 The SIM file system is hierarchical in nature consisting of 3 parts:
 
@@ -246,11 +246,11 @@ of the Ki from the SIM card, and essentially SIM card duplication.
 ## See also
 
 * [SIM Card Forensics](sim_card_forensics.md)
+* [SIMCon](simcon.md)
 * [SIM Explorer](sim_explorer.md)
 
 ## External Links
 
-* [SIMCon](https://www.simcon.no/)
 * [Sector Forensics](https://www.sectorforensics.london/)
 * [IJDE Spring 2003 Volume 2, Issue 1](https://ecci.utica.edu/)
   [Forensics and the GSM Mobile Telephone System](https://www.utica.edu/academic/institutes/ecii/publications/articles/A0658858-BFF6-C537-7CF86A78D6DE746D.pdf)

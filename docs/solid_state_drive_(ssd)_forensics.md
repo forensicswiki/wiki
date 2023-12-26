@@ -128,7 +128,7 @@ drive, with the following features:
 
 ## External Links
 
-- [Recovering Evidence from SSD Drives in 2014: Understanding TRIM](https://forensicfocus.com/articles/recovering-evidence-from-ssd-drives-in-2014-understanding-trim-garbage-collection-and-exclusions/),
+- [Recovering Evidence from SSD Drives in 2014: Understanding TRIM](https://www.forensicfocus.com/articles/recovering-evidence-from-ssd-drives-in-2014-understanding-trim-garbage-collection-and-exclusions/),
   by [Belkasoft](belkasoft.md), September 23, 2014
 
 ### Presentations

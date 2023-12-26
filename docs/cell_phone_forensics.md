@@ -89,7 +89,6 @@ Investigative Support
 
 * [Creating a Cell Phone Investigation Toolkit: Basic Hardware and Software Specifications](http://www.search.org/files/pdf/CellphoneInvestToolkit-0806.pdf)
 * [E-Evidence.Info Mobile Forensic Tools](http://www.e-evidence.info/cellular.html)
-* [ForensicFocus.com(Practitioners Forum)](https://forensicfocus.com)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.mobile-forensics.com/)
 * [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
