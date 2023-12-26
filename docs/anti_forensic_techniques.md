@@ -239,7 +239,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 
 ## Externals Links
 
-* [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.digitrace.de/veroeffentlichung-2/fachliteratur/84-anti-forensics-the-next-step-in-digital-forensics-tool-testing),
+* [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.researchgate.net/publication/261038911_Anti-Forensics_The_Next_Step_in_Digital_Forensics_Tool_Testing),
   in: IT Security Incident Management and IT Forensics (IMF): 2013
   Seventh International Conference on, Date 12-14 March 2013, IEEE, S.
   83 – 97

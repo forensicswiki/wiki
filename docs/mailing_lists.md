@@ -6,7 +6,7 @@ There are a number of mailing lists of interest to Digital Forensics
 Practitioners. Below is a listing of some more well known lists. It is
 not all-inclusive.
 
-- [American Academy of Forensic Science, Digital and Multimedia Sciences Section](https://www.aafs.org/digital-multimedia-sciences) -
+- [American Academy of Forensic Science, Digital and Multimedia Sciences Section](https://www.aafs.org/membership/digital-multimedia-sciences) -
   Subscription requires moderator approval. The archive is only
   available to list members. This list supports the Digital and
   Multimedia Sciences section in the AAFS. Subscribe by sending an email

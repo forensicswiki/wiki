@@ -25,8 +25,7 @@ BSides Security (various locations)
 CanSecWest
 <https://www.secwest.net/>
 
-Computer Technology Investigators Network (CTIN) Digital Forensics Conference
-<https://ctin.org/>
+[Computer Technology Investigators Network (CTIN)](https://ctin.org/) Digital Forensics Conference
 
 Conference on Digital Forensics, Security and Law
 <https://www.digitalforensics-conference.org/>

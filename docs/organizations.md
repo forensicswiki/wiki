@@ -11,7 +11,7 @@ tags:
 
 * [National Computer Forensic Institute](national_computer_forensic_institute.md)
 * [Computer Crime and Intellectual Property Section of the Department of Justice](https://www.justice.gov/criminal-ccips)
-* [Computer Technology Investigators Network](https://www.ctin.org/)
+* [Computer Technology Investigators Network](https://ctin.org/)
 * [National Institute of Justice](https://www.ojp.gov/about/offices/national-institute-justice-nij)
 * [National Center for Forensic Science](https://ncfs.ucf.edu/)
 * [National Institute of Standards and Technology, Computer Forensic Tool Testing](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)

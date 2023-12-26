@@ -63,4 +63,4 @@ has been acquired.
 
 ## External Links
 
-* [Paraben](https://paraben.com/smartphone-forensic-tools/)
+* [Product website](https://paraben.com/e3-mobile-smartphone-forensics/)

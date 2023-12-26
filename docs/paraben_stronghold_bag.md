@@ -27,4 +27,4 @@ evidence.
 
 ## External Links
 
-* [Paraben](https://paraben.com/wireless-device-protection/)
+* [Product website](https://paraben.com/stronghold-faraday-protection/)

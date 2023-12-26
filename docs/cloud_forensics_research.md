@@ -213,7 +213,6 @@ location="Monterey, CA",
 ` number = {2},`
 ` year = {2010},`
 ` pages = {2--12},`
-` url="`[`https://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf`](https://www.crowell.com/documents/E-Discovery-and-Cloud-Computing-Control-of-ESI-in-the-Cloud.pdf)`"`
 
 } </bibtex>
 

@@ -101,5 +101,5 @@ Training
 * [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
 * [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.mobile-forensics.com/)
-* [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/dfir-training-3/)
+* [Paraben-Forensics.com (Paraben's Handheld Forensic Training Classes)](https://paraben.com/digital-investigation-training-courses/)
 * [Micro Systemation Training (Mobile Forensics Training)](https://www.msab.com/)

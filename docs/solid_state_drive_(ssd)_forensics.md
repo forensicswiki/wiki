@@ -75,7 +75,7 @@ drive, with the following features:
 `volume=5,`
 `issue=3,`
 `year=2011,`
-`url={`[`https://researchrepository.murdoch.edu.au/id/eprint/3714/1/solid_state_drives.pdf`](https://researchrepository.murdoch.edu.au/id/eprint/3714/1/solid_state_drives.pdf)`}`
+`url={`[`https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Solid-State-Drives-The-Beginning-of/991005543502107891`](https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Solid-State-Drives-The-Beginning-of/991005543502107891)`}`
 
 } </bibtex> <bibtex> @inproceedings{Billard:2010:MSU:1774088.1774426,
 

@@ -9,7 +9,3 @@ system](operating_system.md). The latest version is 1.2 and was released in
 
 The [Apple Mail Header Format](apple_mail_header_format.md) is known for some
 versions of the program.
-
-## External Links
-
-* [Official website](https://www.apple.com/macos/ventura/)

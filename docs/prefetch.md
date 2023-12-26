@@ -233,7 +233,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Jared Atkinson, September 21, 2013
 * [Windows Prefetch (.PF) files](https://www.swiftforensics.com/2013/10/windows-prefetch-pf-files.html?m=1),
   by Yogesh Khatri, October 21, 2013
-* [Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files](https://resources.infosecinstitute.com/topic/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/),
+* [Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files](https://resources.infosecinstitute.com/topics/digital-forensics/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/),
   by Ivan Dimov, November 21, 2013
 * [Prefetch 101 - a Windows 8 Prefetch file walkthrough](https://i.imgur.com/riuljsK.jpg),
   by Jared Atkinson, 2014

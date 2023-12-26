@@ -47,12 +47,9 @@ This tool is not suitable for imaging faulty drives:
 
 - dcfldd is based on an extremely old version of [dd](dd.md):
   it's known that dcfldd will misalign the data in the image after a
-  faulty sector is encountered on the source drive ([see the NIST
-  report](https://www.cyberfetch.org/groups/community/test-results-digital-data-acquisition-tool-dcfldd-134-1)),
+  faulty sector is encountered on the source drive ([see the NIST report](https://www.dhs.gov/sites/default/files/publications/DCFLDD%201%203%204-1%20Test%20Report_updated.pdf)),
   and this kind of bug (wrong offset calculation when seeking over a bad
-  block) was fixed for [dd](dd.md) in 2003 ([see the fix in the
-  mailing
-  list](https://lists.gnu.org/archive/html/bug-coreutils/2003-10/msg00071.html));
+  block) was fixed for [dd](dd.md) in 2003 ([see the fix in the mailing list](https://lists.gnu.org/archive/html/bug-coreutils/2003-10/msg00071.html));
 - similarly, dcfldd can enter an infinite loop when a faulty sector is
   encountered on the source drive, thus writing to the image over and
   over again until there is no free space left.
