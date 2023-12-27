@@ -154,7 +154,7 @@ the project Caine since the 1.0 release to date that has arrived at
 version 4.0 (18-March-2013) and achieving praise from law enforcements
 of several foreign nations.
 
-November 24, 2012 The Caine 3.0 was presented at the [Opens Source Day 2012](https://www.opensourceday.org/2012/?mid=20)
+November 24, 2012 The Caine 3.0 was presented at the Opens Source Day 2012
 at the University of Udine.
 
 ## Bibliography

@@ -81,9 +81,7 @@ Note that the order you do this matters: Sleuth Kit won't compile with
 AFFLIB support unless AFFLIB is installed on your system.
 
 1.  Download and install [libewf](libewf.md) if you want EnCase support.
-2.  Download and install [AFFLIB](aff.md) from <https://www.afflib.org/>
+2.  Download and install [AFFLIB](aff.md
 3.  Download and install [The Sleuth Kit](the_sleuth_kit.md) from
     <http://www.sleuthkit.org/>
-4.  Download and install [fiwalk](fiwalk.md) from
-    <https://www.afflib.org/>
-
+4.  Download and install [fiwalk](fiwalk.md)

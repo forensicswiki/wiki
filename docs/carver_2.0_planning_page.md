@@ -921,9 +921,10 @@ Possible file structure validator libraries
 
 Input support
 
-- AFF (http://www.afflib.org/)
+- [AFF](aff.md)
 - [libewf](libewf.md)
-- TSK device & raw & split raw (http://www.sleuthkit.org/)
+- raw and split raw
+- device
 
 Volume/Partition support
 

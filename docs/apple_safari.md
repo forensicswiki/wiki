@@ -69,22 +69,17 @@ named **LastSession.plist** in the user directory.
 
 The Safari cache is stored in **Cache.db** in the cache directory.
 
-This file uses the [SQLite database
-format](sqlite_database_format.md).
+This file uses the [SQLite database format](sqlite_database_format.md).
 
 ## External Links
 
-- [Official website](https://www.apple.com/macos/ventura/)
-- [Safari Cache
-  Revisited](http://www.appleexaminer.com)
+* [Safari Cache Revisited](http://www.appleexaminer.com)
   by Sean Cavanaugh
-- [Analyzing Apple Safari
-  Artifacts](http://www.appleexaminer.com),
+* [Analyzing Apple Safari Artifacts](http://www.appleexaminer.com),
   by Selena Ley
-- [iOS / macOS - Tracking Downloads from Safari Without Downloads](https://blog.d204n6.com/2021/05/ios-macos-tracking-downloads-from.html)
+* [iOS / macOS - Tracking Downloads from Safari Without Downloads](https://blog.d204n6.com/2021/05/ios-macos-tracking-downloads-from.html)
   by Scott Vance, Friday, 28 May 2021
 
 ## Tools
 
-- [J.A.F.A.T. Archive of Forensics Analysis
-  Tools](https://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)
+* [J.A.F.A.T. Archive of Forensics Analysis Tools](https://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)

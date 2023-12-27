@@ -10,7 +10,7 @@ machines from the memory of the host system.
 
 * [Wikipedia: Virtualization](https://en.wikipedia.org/wiki/Platform_virtualization)
 * [Wikipedia: Hypervisor](https://en.wikipedia.org/wiki/Hypervisor)
-* [Hypervisor Memory Forensics](https://www.syssec-project.eu/m/page-media/3/raid13_graziano.pdf),
+* [Hypervisor Memory Forensics](https://www.s3.eurecom.fr/docs/raid13_graziano.pdf),
   by Mariano Graziano, Andrea Lanzi, and Davide Balzarotti
 * [VM discovery and introspection with Rekall](http://blog.rekall-forensic.com/2014/10/vm-discovery-and-introspection-with.html),
   by Jordi Sánchez López, October 3, 2014

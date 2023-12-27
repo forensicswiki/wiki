@@ -67,7 +67,7 @@ Where LCID is the "locale identifier"
 * [log2timeline](log2timeline.md)
 * [wevtutil](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749339(v=ws.11))
 * [LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
-* [python-evtx](http://www.williballenthin.com/evtx/)
+* [python-evtx](https://github.com/williballenthin/python-evtx)
 * [winlast](https://github.com/pch3/winlast)
 * [Event log explorer](https://eventlogxp.com/)
 * [Event-Log Hunting tools collection by Renzon](https://twitter.com/r3nzsec/status/1463018324086988801)

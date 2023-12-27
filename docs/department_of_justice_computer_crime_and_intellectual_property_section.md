@@ -45,4 +45,4 @@ protected by copyright, trademark, or trade-secret designation.
 
 ## External Links
 
-- [Official website](https://www.justice.gov/criminal-ccips)
+- [Official website](https://www.justice.gov/criminal/criminal-ccips)

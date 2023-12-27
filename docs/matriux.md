@@ -60,7 +60,7 @@ Matriux offers many forensics tools under its
 
 ## External Links
 
-* [Official website](http://www.matriux.com/)
+* [Official website](http://www.matriux.com/index.php)
 * [Download Matriux OS](http://www.matriux.com/index.php?page=download)
 * [Matriux sourceforge](https://sourceforge.net/projects/matriux/)
 * [Artworks](http://matriux.com/index.php?page=art-de-matriux)

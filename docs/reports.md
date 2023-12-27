@@ -11,15 +11,12 @@ tags:
 - ''Law Enforcement Tools and Technologies for Investigating Cyber
   Attacks," Institute for Security and Technology Studies, Dartmouth
   University. June 2002.
-  - [National Needs
-    Assessment](http://simson.net/ref/2002/ISTS1-Dartmouth.pdf)
+  - [National Needs Assessment](http://simson.net/ref/2002/ISTS1-Dartmouth.pdf)
   - [Gap Analysis](http://simson.net/ref/2004/ISTS2-Dartmouth.pdf)
 
 <!-- -->
 
 - *Strengthening Forensic Science in the United States: A Path Forward,*
   National Research Council, The National Academies Press, 2009.
-  - [Strengthening Forensic Science NAP
-    Page](https://nap.nationalacademies.org/catalog/12589/strengthening-forensic-science-in-the-united-states-a-path-forward)
-  - [Digital and Multimedia
-    Analysis](https://www.nap.edu/read/12589/chapter/7#179)
+  - [Strengthening Forensic Science NAP Page](https://nap.nationalacademies.org/catalog/12589/strengthening-forensic-science-in-the-united-states-a-path-forward)
+  - [Digital and Multimedia Analysis](https://nap.nationalacademies.org/read/12589/chapter/7#179)
