@@ -193,7 +193,7 @@ systems.
 SysTools Data Recovery, Windows based programs for recovering &
 repairing any file type & file systems.
 
-* [MiniTool Power Data Recovery](http://www.powerdatarecovery.com)
+* [MiniTool Data Recovery](minitool_data_recovery.md)
 
 
 Easy simple free data recovery software for windows, recover
@@ -226,12 +226,6 @@ to search for deleted files and folders etc.
 
 RecoverBits Partition Data Recovery software helps you recover data from
 lost, deleted or damaged partitions from drives on Windows OS.
-
-* [MiniTool Partition Recovery Freeware](http://www.minitool-partitionrecovery.com/)
-
-
-MiniTool Partition Recovery Freeware helps recover deleted, lost or
-damaged partitions logical drives and partitions on Windows.
 
 * [FAT Recovery](https://www.sysinfotools.com/recovery/fat-recovery.php)
 

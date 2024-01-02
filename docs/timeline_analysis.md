@@ -48,12 +48,11 @@ tags:
 * [Finding Evidence of Antedating in Digital Investigations](https://ieeexplore.ieee.org/document/4529317),
   by S. Willassen, ARES 2008, Barcelona, Spain, March 2008
 * Hypothesis Based Investigation of Digital Timestamp,
-  by S. Willassen, 4th IFIP WG 11.9 Workskop on Digital Evidence, Kyoto,
-  Japan, January 2008
+  by S. Willassen, January 2008
 * Timestamp Evidence Correlation by model based clock hypothesis testing,
-  by S. Willassen, E-Forensics 2008, Adelaide, Australia, January 2008
-* [An Improved Clock Model for Translating Timestamps](http://www.infosec.jmu.edu/reports/jmu-infosec-tr-2007-001.pdf),
-  by F. Buchholz, JMU-INFOSEC-TR-2007-001, James Madison University
+  by S. Willassen, January 2008
+* An Improved Clock Model for Translating Timestamps,
+  by F. Buchholz
 * [A brief study of time](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-a_brief_study_of_time.pdf),
   by F. Buchholz, B. Tjaden, Digital Investigation 2007:4S
 * [The Rules of Time on NTFS File System](https://i.cs.hku.hk/~cisc/forensics/papers/RuleOfTime.pdf),
@@ -81,37 +80,16 @@ tags:
 
 ## Tools
 
-[log2timeline](log2timeline.md) - An artifact timeline creation and analysis
+* [log2timeline](log2timeline.md) - An artifact timeline creation and analysis
 framework. Log2timeline has been superseded by Plaso.
-
-<!-- -->
-
-[Plaso](plaso.md) - (Plaso Langar Að Safna Öllu), or super timeline all the
-things, is a Python-based engine used by several tools for automatic creation
-of timelines. Plaso default behavior is to create super timelines but it also
-supports creating more targeted timelines.
-
-<!-- -->
-
-[Simile Timeline and Timeplot](https://github.com/simile-widgets/ancient-simile-widgets)
-
-<!-- -->
-
-sorter - [The Sleuth Kit](the_sleuth_kit.md)'s [mactime](mactime.md) sorting
-program.
-
-<!-- -->
-
-[TimeFlow](https://github.com/FlowingMedia/TimeFlow/wiki/) - Visual timelines
-for investigation - source freely available
-
-<!-- -->
-
-[Timesketch](timesketch.md) - tool for collaborative forensic timeline analysis
-
-<!-- -->
-
-Zeitline - Forensic timeline editor
-<https://projects.cerias.purdue.edu/forensics/timeline.php>
-
-<https://sourceforge.net/projects/zeitline/>
+* [Plaso](plaso.md) - (Plaso Langar Að Safna Öllu), or super timeline all the
+  things, is a Python-based engine used by several tools for automatic creation
+  of timelines. Plaso default behavior is to create super timelines but it also
+  supports creating more targeted timelines.
+* [Simile Timeline and Timeplot](https://github.com/simile-widgets/ancient-simile-widgets)
+  sorter - [The Sleuth Kit](the_sleuth_kit.md)'s [mactime](mactime.md) sorting
+  program.
+* [TimeFlow](https://github.com/FlowingMedia/TimeFlow/wiki/) - Visual timelines
+  for investigation - source freely available
+* [Timesketch](timesketch.md) - tool for collaborative forensic timeline analysis
+* [Zeitline - Forensic timeline editor](https://sourceforge.net/projects/zeitline/)

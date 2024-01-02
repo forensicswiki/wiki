@@ -88,12 +88,9 @@ systems on the network were then “attacked” by simulated hackers. Some
 of the attacks were well-known at the time, while others were developed
 for the purpose of the evaluation.
 
-- [1998 DARPA Intrusion Detection
-  Evaluation](http://www.ll.mit.edu/IST/ideval/data/1998/1998_data_index.html)
-- [1999 DARPA Intrusion Detection
-  Evaluation](http://www.ll.mit.edu/IST/ideval/data/1999/1999_data_index.html)
-- [2000 DARPA Intrusion Detection Scenario
-  Specific](http://www.ll.mit.edu/IST/ideval/data/2000/2000_data_index.html)
+- [1998 DARPA Intrusion Detection Evaluation](https://www.ll.mit.edu/r-d/datasets/1998-darpa-intrusion-detection-evaluation-dataset)
+- [1999 DARPA Intrusion Detection Evaluation](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
+- [2000 DARPA Intrusion Detection Scenario Specific](https://www.ll.mit.edu/r-d/datasets/2000-darpa-intrusion-detection-scenario-specific-datasets)
 
 ## Wireshark
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ### References
 
@@ -12,8 +12,6 @@ tags:
   14.12 - December 2006
 - [Dispelling the myths of machine translation](https://www.tcworld.info/index.php?id=91),By Uwe Muegge
   August 2008
-- [Evaluation of Translation Technology](http://www.lans-tts.be/docs/lans8-2009-intro.pdf), Walter
-  Daelemans, University of Antwerp, 2009
 - [Empirical Machine Translation and its Evaluation](http://www.sepln.org/monografiasSEPLN/monografia-jgimenez-sepln.pdf)
   Jesús Ángel Giménez Linares,
 - [Evaluation of a Machine Translation System for Low Resource Languages: METIS-II](http://www.lrec-conf.org/proceedings/lrec2008/pdf/116_paper.pdf),

@@ -132,7 +132,7 @@ domain.
 
 [Asia Pacific Network Information Centre (APNIC)](https://www.apnic.net/)
 
-[Latin American and Caribbean IP Address Regional Registry (LACNIC)](http://www.lacnic.net/en/)
+[Latin American and Caribbean IP Address Regional Registry (LACNIC)](https://www.lacnic.net/)
 
 [RIPE Network Coordination Centre (RIPE NCC)](https://www.ripe.net/)
 

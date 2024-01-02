@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
-  -  Web Browsers
+  - Articles that need to be expanded
+  - Web Browsers
 ---
 ## Data directory
 
@@ -14,10 +14,3 @@ On Linux:
 ## History
 
 The browser history is stored in **konq_history**
-
-## Cache
-
-## External Links
-
-[Konqueror FAQ
-(Outdated)](http://www.konqueror.org/faq/#WheredoesKonquerorstoreitshistoryandhowdoIeraseit)

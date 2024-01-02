@@ -138,6 +138,3 @@ highlighted in many different publications:
 # External Links
 
 * [Official website](https://www.adfsolutions.com/)
-* [Facebook](https://www.facebook.com/adfsolutions)
-* [Twitter](https://twitter.com/adfsolutions)
-* [LinkedIn](http://www.linkedin.com/company/247174?goback=%2Efcs_GLHD_adf+solutions_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits)

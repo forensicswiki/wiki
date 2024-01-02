@@ -1,10 +1,9 @@
 ---
 tags:
-  - No Category
+  - Hashing
 ---
-A program by [Dan Mares](dan_mares.md) of Maresware to compare hash sets
-computed by [hash](hash_(maresware).md).
+A program by Dan Mares of Maresware to compare hash sets computed by [hash](https://www.maresware.com/maresware/html/hash.htm).
 
 ## External Links
 
-* [Official website](http://www.maresware.com/maresware/html/hashcmp.htm)
+* [Official website](https://www.maresware.com/maresware/html/hashcmp.htm)

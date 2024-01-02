@@ -60,9 +60,6 @@ An online digital forensics bibliography, updated monthly
 
 Magazine, blog, online courses, community.
 
-FCCU GNU/Linux Forensic Boot CD
-[Belgian Computer Forensic Website](http://www.lnx4n6.be/)
-
 Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
 [Forensic Focus](https://forensicfocus.com/)
@@ -74,11 +71,6 @@ interested in digital forensics.
 
 Volunteer non-profit corporation composed of law enforcement
 professionals.
-
-[MySecured.com](http://www.marwan.com)
-
-Mobile phone forensics, cellphone related investigation and data
-analysis site.
 
 [NIST: Secure Hashing](https://csrc.nist.gov/projects/hash-functions)
 

@@ -45,7 +45,7 @@ victims can be easier if they stand out from the crowd.
 
 ### Emergency Response
 
-* [Addressing emergency response provider fatigue in emergency response preparedness, management, policy making, and research](http://www.mdchhs.com/sites/default/files/JEM-9-5-02-CHHS.pdf),
+* [Addressing emergency response provider fatigue in emergency response preparedness, management, policy making, and research](https://wmpllc.org/ojs/index.php/jem/article/view/1390),
   Clark J. Lee, JD, September 2011
 
 ### Kill Chain
