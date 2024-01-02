@@ -94,6 +94,4 @@ Inactive Open Source and Research Projects:
   Andrew Case; Digital Forensics Solutions Blog, 2011.
 - [Workshop - Linux Memory Analysis with Volatility](https://blackhat.com/html/bh-us-11/bh-us-11-briefings.html#Case)
   ([Slides](https://gotdfs.com/))
-  Andrew Case; Blackhat Vegas 2011.
-- [Forcepoint Security Labs Blog: "Horse Pill Rootkit vs. Forcepoint Threat Protection for Linux" (Second Look)](https://www.forcepoint.com/blog/x-labs/horse-pill-rootkit-vs-forcepoint-threat-protection-linux)
-- [Forcepoint Security Labs Blog: "Detecting Register-Hooking Linux Rootkits with Forcepoint Second Look"](https://www.forcepoint.com/blog/x-labs/detecting-register-hooking-linux-rootkits-forcepoint-second-look)
+  by Andrew Case; Blackhat Vegas 2011.

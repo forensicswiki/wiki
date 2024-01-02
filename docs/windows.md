@@ -424,8 +424,6 @@ value:
 * [Windows Data Type](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 * [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
   by Mitchell Machor, 2008
-* [Microsoft Windows File System Tunneling](http://www.ericjhuber.com/2013/02/microsoft-file-system-tunneling.html?m=1),
-  by Eric Huber, February 24, 2013
 * [Spotting the Adversary with Windows Event Log Monitoring](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf),
   by National Security Agency/Central Security Service, February 28, 2013
 * [Search history on Windows 8 and 8.1](https://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
@@ -487,7 +485,7 @@ value:
 * [Assembly Searching Sequence](https://learn.microsoft.com/en-us/windows/win32/sbscs/assembly-searching-sequence)
 * [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/en-us/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
 * [EVERYTHING YOU NEVER WANTED TO KNOW ABOUT WINSXS](https://omnicognate.wordpress.com/2009/10/05/winsxs/)
-* [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](http://www.fireeye.com/resources/pdfs/fireeye-dll-sideloading.pdf),
+* [DLL Side-loading: A Thorn in the Side of the Anti-Virus Industry](https://www.mandiant.com/resources/reports/dll-side-loading-thorn-side-anti-virus-industry),
   by Amanda Stewart, April 2014
 
 #### Crash dumps
@@ -496,9 +494,11 @@ value:
   by Yong Rhee, December 29, 2010
 * [MSDN: How to read the small memory dump file that is created by Windows if a crash occurs](https://learn.microsoft.com/en-US/troubleshoot/windows-client/performance/read-small-memory-dump-file),
    by [Microsoft](microsoft.md)
-* <https://medium.com/dfir-dudes/amcache-is-not-alone-using-wer-files-to-hunt-evil-86bdfdb216d7>
-* <https://learn.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps>
-* <https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz>
+* [AmCache is not alone; Using .WER files to hunt evil](https://medium.com/dfir-dudes/amcache-is-not-alone-using-wer-files-to-hunt-evil-86bdfdb216d7),
+  by Martin Korman, June 26, 2019
+* [Collecting User-Mode Dumps](https://learn.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps),
+  by Microsoft, April 2, 2022
+* [Dumping Lsass Without Mimikatz](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz)
 
 #### Kerberos
 

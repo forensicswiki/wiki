@@ -68,7 +68,6 @@ Software for acquiring a CDMA-based phone includes:
 Software for acquiring CDMA RUIM data includes:
 
 * [Paraben Device Seizure](paraben_device_seizure.md)
-* [SIMiFOR](simifor.md)
 
 ## External Links
 

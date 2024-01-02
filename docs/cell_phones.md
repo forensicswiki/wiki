@@ -80,7 +80,6 @@ investigators.
 * Paraben SIM Seizure
 * Pandora's Box
 * Quantaq USIMdetective, USIMcommander, USIMexplorer, USIMprofiler and USIMregistrar
-* [SIMiFOR](simifor.md)
 * Susteen Secure View
 * TULP2G
 * WOLF

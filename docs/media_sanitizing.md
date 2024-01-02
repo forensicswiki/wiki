@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Secure Deletion
 ---
 Media Sanitizing is the process of removing data, or removing the
 ability to extract data, from the media on which it is stored. The two

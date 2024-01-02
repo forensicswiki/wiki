@@ -55,13 +55,11 @@ Acquire [SIM Card](sim_cards.md) and analyze the following:
 Wiki Links
 
 * [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
-* [SIMiFOR](simifor.md)
 * [SIMIS](simis.md)
 * [SIM Explorer](sim_explorer.md)
 
 External Links
 
-* [SIMiFOR](http://www.forensicts.co.uk)
 * [SIMcon](https://www.simcon.no/)
 * [USIM Detective](http://www.quantaq.com/usimdetective.htm)
 * [Pro Data Doctor](https://www.data-recovery-mobile-phone.com/)

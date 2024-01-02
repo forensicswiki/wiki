@@ -18,7 +18,7 @@ accessing, monitoring and analysing servers.
 
 ### Helix
 
-[Helix](http://www.e-fense.com/h3-enterprise.php) is a live Linux CD
+[Helix](https://www.e-fense.com/h3-enterprise.php) is a live Linux CD
 designed for live incident response. Helix is targeted towards the more
 experienced users and forensic investigators.
 

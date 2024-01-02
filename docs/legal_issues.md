@@ -59,7 +59,6 @@ More links from previous research.
 * [7](http://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
 * [8](http://news.com.com/2100-7349_3-5092781.html)
 * [9](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
-* [10](http://www.castlecops.com/modules.php?name=News&file=print&sid=2946)
 
 ## Connecticut v. Amero
 

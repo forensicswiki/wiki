@@ -66,7 +66,7 @@ All books are listed alphabetically, by title, and linked to Amazon product page
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
 | - | - | - | - | - | - |
-| [Computer-Forensik [2nd Edition]](http://www.dpunkt.de/buecher/3-89864-379-4.html) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://computer-forensik.org/) and blog of the author |
+| Computer-Forensik (2nd Edition) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://computer-forensik.org/) and blog of the author |
 
 ### Italian
 

@@ -80,7 +80,7 @@ by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 ` journal="Forensic Science Communications",`
 ` volume=6,`
 ` number=4,`
-` url="`[`http://www.fbi.gov/hq/lab/fsc/backissu/oct2004/research/2004_10_research01.htm`](http://www.fbi.gov/hq/lab/fsc/backissu/oct2004/research/2004_10_research01.htm)`"`
+` url="`[`https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01`](https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01)`"`
 
 }
 

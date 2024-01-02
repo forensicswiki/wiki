@@ -44,9 +44,6 @@ In Windows 2003 and later:
   by Corey Harrell, December 17, 2013
 * [Persist It Using and Abusing Microsoft’s Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf),
   by Jon Erickson, BlackHat Asia 2014
-* [Shim Shady: Live Investigations of the Application Compatibility Cache](https://www.fireeye.com/blog/threat-research/2015/10/shim_shady_live_inv.html),
-  by Fred House, Claudiu Teodorescu, Andrew Davis, October 27, 2015
-* [Shim Shady Part 2](https://www.fireeye.com/blog/threat-research/2015/10/shim_shady_live_inv/shim-shady-part-2.html)
 * [To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for Persistence](https://www.mandiant.com/resources/blog/fin7-shim-databases-persistence)
 
 ### RecentFileCache

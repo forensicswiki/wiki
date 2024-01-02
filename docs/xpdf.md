@@ -17,4 +17,3 @@ extract metadata from PDF files.
 ## External Links
 
 * [Wikipedia: Xpdf](https://en.wikipedia.org/wiki/Xpdf)
-* [xpdf package download](http://www.foolabs.com/xpdf)

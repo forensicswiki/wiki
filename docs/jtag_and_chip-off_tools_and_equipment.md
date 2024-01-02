@@ -19,16 +19,16 @@ made for equivalent tools and equipment.*
 | iSeasamo Phone Opening Tool                                  | <https://www.fonefunshop.com/>                                                                                               | £6                   |
 | Carton SPZT-50PG Microscope (optional: w/trinocular)         |                                                                                                                                                                           | \$1200               |
 | Xytronic 988D Solder Rework Station                          | <https://www.howardelectronics.com/>                                                                                                                                      | \$300                |
-| Weller WES51 Solder Station                                  | sourced locally (Electronics shop)                                                                                                                                        | \$100                |
+| Weller WES51 Solder Station                                  | | |
 | Xytronic LF-852D Hot Air Station                             | <https://www.howardelectronics.com/>                                                                                                                                      | \$225                |
-| Amprobe 35XP Multimeter                                      | sourced locally (Electronics shop)                                                                                                                                        | \$120                |
+| Amprobe 35XP Multimeter                                      | | |
 | Magnifying Desk Lamp                                         | <https://www.fonefunshop.com/>                                                                       | £40                  |
 | Circuit board holder                                         | <https://www.fonefunshop.com/>                                                                                                         | £5                   |
-| Chip Epoxy Glue Remover                                      | <http://www.ebay.com/itm/BGA-IC-30ml-IC-BGA-CPU-Chip-Epoxy-Glue-Remover-Adhesive-Solution-Solvent-Liquid-/321012736931?pt=Digital_Camera_Accessories&hash=item4abdd9a3a3> | \$10                 |
-| 0.040 gauge transformer winding wire                         | sourced locally (Electronics shop)                                                                                                                                        | \$15                 |
-| Kester 44 rosin flux solder                                  | sourced locally (Electronics shop)                                                                                                                                        | \$50                 |
-| Xcelite Hobby Knives                                         | sourced locally (Electronics shop)                                                                                                                                        | \$15                 |
-| Terra Dexterity PVC foam gloves                              | sourced locally (Costco)                                                                                                                                                  | \$10                 |
+| Chip Epoxy Glue Remover | | |
+| 0.040 gauge transformer winding wire | | |
+| Kester 44 rosin flux solder | | |
+| Xcelite Hobby Knives | | |
+| Terra Dexterity PVC foam gloves | | |
 | Richard 13321 blades                                         | sourced <https://www.grainger.ca/AGIPortalWeb/WebSource/ProductDisplay/globalProductDetailDisplay.do?item_code=RCH13321>                                         | \~\$10               |
 | HAKKO Omnivise C1390C Handle                                 | <https://multi-com.eu/,details,id_pr,21790,key,hakko-omnivise-c1390c-handle,smenu,service_tools.html?utm_source=forensicwikihttps://multi-com.eu/shrt-DOuv7ERkAutm_medium=linkhttps://multi-com.eu/shrt-DOuv7ERkAutm_campaign=std-act>                                                                                                                                     | 59 EUR               |
 | eMMC SCP-6 Platform                                          | <https://multi-com.eu/,details,id_pr,21704,key,emmc-scp-6-platform,smenu,service_tools.html?utm_source=forensicwikihttps://multi-com.eu/shrt-9VO20fDxutm_medium=linkhttps://multi-com.eu/shrt-9VO20fDxutm_campaign=std-act>                                                                                                                                      | 22 EUR               |
@@ -56,7 +56,7 @@ made for equivalent tools and equipment.*
 | Solder Fume Extractor ZD-153                                 | <https://multi-com.eu/,details,id_pr,21697,key,solder-fume-extractor-zd-153,smenu,service_tools.html?utm_source=forensicwikihttps://multi-com.eu/shrt-jJKs1dJykutm_medium=linkhttps://multi-com.eu/shrt-jJKs1dJykutm_campaign=std-act>                                                                                                                                     | 22 EUR               |
 | Quick 6101 Fume Extractor                                    | <https://multi-com.eu/,details,id_pr,21597,key,quick-6101-fume-extractor,smenu,service_tools.html?utm_source=forensicwikihttps://multi-com.eu/shrt-Ykqc8076putm_medium=linkhttps://multi-com.eu/shrt-Ykqc8076putm_campaign=std-act>                                                                                                                                     | 479 EUR              |
 | Air Ionizer Dr. Schneider SL-001                             | <https://multi-com.eu/,details,id_pr,21613,key,air-ionizer-dr-schneider-sl-001,smenu,service_tools.html?utm_source=forensicwikihttps://multi-com.eu/shrt-J4MuEP1cMutm_medium=linkhttps://multi-com.eu/shrt-J4MuEP1cMutm_campaign=std-act>                                                                                                                                     | 105 EUR              |
-| 8" x 8" x 3/8" steel plate                                   | sourced locally (Steel fabrication shop)                                                                                                                                  | free                 |
+| 8" x 8" x 3/8" steel plate                                   | | |
 
 **JTAG Specific Equipment List**
 
