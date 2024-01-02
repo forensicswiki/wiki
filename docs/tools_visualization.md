@@ -52,12 +52,10 @@ doesn't work well with big data sets.
 
 ### Processing.org
 
+[processing.org](https://processing.org/)
+
 Advantage: Programming language specifically developed for
 visualization; compiles to java byte code
-
-Disadvantage: Very oddball
-
-* [processing.org](https://processing.org/) and
 
 ### JavaScript
 
@@ -78,13 +76,7 @@ systems built on JavaScript. Check out:
 
 ## Applications
 
-Most of these applications can be used to do visualization
-
-Crystal Space 3D
-
-<!-- -->
-
-Panda#D
+Most of the following applications can be used to do visualization.
 
 ### Data Plotting Applications
 
@@ -97,7 +89,7 @@ Panda#D
 * [Cytoscape](https://cytoscape.org/) - Cytoscape is an open source
   software platform for visualizing complex networks and integrating
   these with any type of attribute data.
-* [Graphviz](http://www.graphviz.org/) - Originally developed by the
+* [Graphviz](https://www.graphviz.org/) - Originally developed by the
   AT&T Information Visualization Group, designed
   for drawing connected graphs of nodes and edges. Neato is a similar
   system but does layout based on a spring model. Can produce output as
@@ -111,9 +103,6 @@ Panda#D
 * [Gephi](https://gephi.org/) -Gephi is an interactive visualization and
   exploration platform for all kinds of networks and complex systems,
   dynamic and hierarchical graphs
-
-<!-- -->
-
 * [graph-tool](https://graph-tool.skewed.de/) is an efficient Python module for
    manipulation and statistical analysis of graphs (a.k.a. networks).
 * <https://igraph.org/> - Integrates with R.
@@ -136,11 +125,6 @@ Panda#D
 * <https://tulip.labri.fr/site/> - Tulip is an information
   visualization framework dedicated to the analysis and visualization of
   relational data.
-
-See also:
-<https://en.wikipedia.org/wiki/Social_network_analysis_software>
-
-Reas govisual diagram editor reas.com gdf.net
 
 ### Commercial Graphic Applications and Tools
 

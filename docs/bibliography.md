@@ -67,7 +67,7 @@ Extracted Features
 
 # Text Mining
 
-[Computer Forensic Text Analysis with Open Source Software](http://www.fukt.bth.se/~uncle/papers/master/thesis.pdf),
+[Computer Forensic Text Analysis with Open Source Software](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e30b3ff28981220e27d95391cd0984175e3ba5ef),
 by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 # Signed Evidence

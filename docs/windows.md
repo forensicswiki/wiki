@@ -361,7 +361,6 @@ References:
 
 * <https://u0041.co/blog/post/3>
 * <https://thinkdfir.com/2020/07/30/certutil-download-artefacts/>
-* <https://blog.menasec.net/2019/03/initial-access-execution-evidences-for.html>
 * <https://github.com/Velocidex/velociraptor/blob/32ff014a4504e95c2650fe4770bfda550d998884/artifacts/definitions/Windows/Forensics/CertUtil.yaml>
 
 ### Startup info

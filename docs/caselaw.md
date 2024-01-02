@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Law
+  - Law
 ---
 The legal information below is not legal advice. You should consult a
 lawyer if you want professional assurance that this information, and
@@ -89,31 +89,16 @@ transport \[the defendants'\] data, \[and use of\] multiple USB devices
 \[to\] intend to destroy evidence." Summary judgment against plaintiff
 for interfering with the discovery process.
 
-## Further Information
+## External links
 
-- [<http://www.setecinvestigations.com/resources/casesummaries.php>](http://www.setecinvestigations.com/resources/casesummaries.php)
-- [<http://www.iediscovery.com/resources/lawlibrary>](http://www.iediscovery.com/resources/lawlibrary)
-- [<https://extranet1.klgates.com/ediscovery/Search.aspx>](https://extranet1.klgates.com/ediscovery/Search.aspx)
-
-<!-- -->
-
-- [How to Evaluate a Digital Forensic Report – Part 1: A Brief History
-  of Digital
-  Forensics](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-1-4/),
+- [SETEC Investigations: Case Summaries](http://www.setecinvestigations.com/resources/casesummaries.php)
+- [How to Evaluate a Digital Forensic Report – Part 1: A Brief History of Digital Forensics](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-1-4/),
   by Daniel B. Garrie, January 31, 2014
-- [How to Evaluate a Digital Forensic Report – Part 2:
-  Daubert](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-2-4/),
+- [How to Evaluate a Digital Forensic Report – Part 2: Daubert](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-2-4/),
   by Daniel B. Garrie, February 4, 2014
-- [How to Evaluate a Digital Forensic Report – Part 3:
-  Experts](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-3-4/),
+- [How to Evaluate a Digital Forensic Report – Part 3: Experts](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-3-4/),
   by Daniel B. Garrie, February 10, 2014
-- [How to Evaluate a Digital Forensic Report – Part 4 &
-  Conclusion](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-4-4/),
+- [How to Evaluate a Digital Forensic Report – Part 4 & Conclusion](http://www.lawandforensics.com/evaluate-digital-forensic-report-part-4-4/),
   by Daniel B. Garrie, February 14, 2014
-
-<!-- -->
-
-- [The Laptop, Slack Space and Child
-  Pornography](http://cyb3rcrim3.blogspot.com/2015/08/the-laptop-slack-space-and-child.html),
+- [The Laptop, Slack Space and Child Pornography](http://cyb3rcrim3.blogspot.com/2015/08/the-laptop-slack-space-and-child.html),
   by Susan Brenner, August 03, 2015
-

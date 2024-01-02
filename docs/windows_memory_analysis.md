@@ -111,8 +111,6 @@ and re-released as Volatility in August
   by Bradley Schatz, DFRWS 2007
 * [The VAD Tree: A Process-Eye View of Physical Memory](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-the_vad_tree_-_a_process-eye_view_of_physical_memory.pdf),
   by Brendan F Dolan-Gavitt, DFRWS 2007
-* [FireWire Memory Dump of a Windows XP Computer: A Forensic Approach](http://www.friendsglobal.com/papers/FireWire%20Memory%20Dump%20of%20Windows%20XP.pdf),
-  by Antonio Martin, 2007
 
 2006
 

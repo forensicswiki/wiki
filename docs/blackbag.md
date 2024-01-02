@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 With regards to computer forensics, "**black bag**" operations usually
 consist of the acquisition of [digital
@@ -16,10 +16,9 @@ type of operation, it is also possible to install applications and
 configure a computer system to further the investigation from a remote
 location.
 
-According to the [FBI's own web
-page](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-informationprivacy-act), the term "black
-bag" is coined from a practice used by that agency between 1942 and
-1967. During that time, the [FBI](fbi.md) illegally obtained
-evidence against several individuals/organizations by entering their
-offices and obtaining photographs of information found in their records.
-The practice was ordered to be discontinued by then FBI Director Hoover.
+According to the [FBI's web page](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act),
+the term "black bag" is coined from a practice used by that agency between 1942
+and 1967. During that time, the [FBI](fbi.md) illegally obtained evidence
+against several individuals/organizations by entering their offices and
+obtaining photographs of information found in their records. The practice was
+ordered to be discontinued by then FBI Director Hoover.

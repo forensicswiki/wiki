@@ -49,25 +49,21 @@ mobile and cloud data extraction.
 
 ## Windows-based Tools
 
-Arsenal Recon Weapons by [Arsenal Recon](arsenal_recon.md)
-<https://ArsenalRecon.com/>
-Arsenal Recon offers unique and powerful tools to mount Windows disk
-images, reconstruct Windows Registries, and process Windows hibernation
-files.
+Arsenal Recon Weapons by [Arsenal Recon](arsenal_recon.md) offers unique and
+powerful tools to mount Windows disk images, reconstruct Windows Registry and
+process Windows hibernation files.
 
-[Belkasoft Acquisition Tool](https://belkasoft.com/x) by [Belkasoft](belkasoft.md)
-BAT is a free utility to acquire a wide range of data sources: hard
-drives, running computers RAM memory, modern smartphones, and various
-types of clouds. The output can be analyzed with both Belkasoft and
-third-party tools.
+[Belkasoft Acquisition Tool (BAT)](belkasoft.md) is a free utility to acquire a
+wide range of data sources: hard drives, running computers RAM memory, modern
+smartphones, and various types of clouds. The output can be analyzed with both
+Belkasoft and third-party tools.
 
-[Belkasoft Evidence Center](https://belkasoft.com/x) by [Belkasoft](belkasoft.md)
-BEC allows an investigator to perform all investigation steps:
-acquisition (aquire hard and removable drives, image smartphones and
-download cloud data), extraction of evidence (searches and carves more
-than 700 formats of various files and applications data), analysis (hex
-viewer, SQLite viewer, social graph building with communities detection
-etc) and reporting.
+[Belkasoft Evidence Center (BEC)](belkasoft.md) allows an investigator to
+perform all investigation steps: acquisition (aquire hard and removable drives,
+image smartphones and download cloud data), extraction of evidence (searches
+and carves more than 700 formats of various files and applications data),
+analysis (hex viewer, SQLite viewer, social graph building with communities
+detection etc) and reporting.
 
 [CD/DVD Inspector](https://www.infinadyne.com/cddvd_inspector.html) by [InfinaDyne](infinadyne.md)
 This is the only forensic-qualified tool for examinination of optical

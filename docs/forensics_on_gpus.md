@@ -20,7 +20,6 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 
 - [ElcomSoft Distributed Password Recovery](https://www.elcomsoft.com/edpr.html)
 - [ElcomSoft Password Recovery Bundle](https://www.elcomsoft.com/edfb.html)
-- [Extreme GPU Bruteforcer](http://www.insidepro.com/eng/egb.shtml)
 - [Passware Kit Forensic](https://www.passware.com/)
 - [Passcovery Suite](https://passcovery.com/products/passcoverysuite.htm)
 

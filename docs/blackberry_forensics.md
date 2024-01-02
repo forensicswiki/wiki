@@ -192,8 +192,6 @@ information on how to backup a physical BlackBerry.
 
 ## Blackberry Protocol
 
-<http://www.off.net/cassis/protocol-description.html>
-
 Here is a useful link to the Blackberry Protocol as documented by Phil
 Schwan, Mike Shaver, and Ian Goldberg. The article goes into great
 description of packet sniffing and the protocol as it relates to data
@@ -208,4 +206,3 @@ transfer across a USB port.
   Simulator Download website
 - [IPD](https://www.blackberry.com/us/en),
   IPD File Format
-- [Blackberry Protocol](http://www.off.net/cassis/protocol-description.html)

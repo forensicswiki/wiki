@@ -5,4 +5,4 @@ tags:
 ---
 ## External Links
 
-* [Official website](https://www.fernico.us/)
+* [Official website](https://fernico.us/)

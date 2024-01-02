@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Disk Imaging
-  -  Hardware
+  - Disk Imaging
+  - Hardware
 ---
 **Write blockers** are devices that allow acquisition of information on
 a [drive](hard_drive.md) without creating the possibility of
@@ -48,26 +48,17 @@ NIST test results are here:
 
 [ICS Drive Lock](http://www.ics-iq.com/Super-DriveLock-Write-Blocker-Write-Protector-p/f.gr-0028-0000.htm)
 
-<!-- -->
-
 [MyKey Technology, Inc.](http://www.mykeytech.com/) NoWrite FPU and FlashBlock II
 1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
 types - NIST Ver. 2 accepted
 
-<!-- -->
-
 [Tableau](tableau.md) write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
 <https://www.guidancesoftware.com/products/Pages/tableau/overview.aspx>
-
-<!-- -->
 
 WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
 <https://wiebetech.com/products/> NIST Ver. 1 accepted
 
-<!-- -->
-
-EPOS WriteProtector
-<https://www.epos.ua/view.php/en/products_epos_write_protector>
+[EPOS WriteProtector](https://epos.ua/nashi-rozrobky/)
 
 # Software Write Blockers
 
