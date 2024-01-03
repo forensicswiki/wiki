@@ -17,7 +17,5 @@ forensics](computer_forensics.md).
 
 ## Tools
 
-- [Hachoir](hachoir.md) — Python framework for binary file
-  manipulation
-- [Prevx](prevx.md)
-
+* [Hachoir](hachoir.md) — Python framework for binary file manipulation
+* [Wikipedia: prevx](https://en.wikipedia.org/wiki/Prevx)

@@ -6,7 +6,7 @@ Here are tools that will extract metadata from document files.
 
 ## Tools
 
-[antiword](http://www.winfield.demon.nl/)
+[antiword](https://en.wikipedia.org/wiki/Antiword)
 
 [Belkasoft](belkasoft.md) Evidence Center
 

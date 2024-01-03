@@ -44,19 +44,14 @@ tags:
 
 ## Also see
 
-- [How To Decrypt Android Full Disk
-  Encryption](how_to_decrypt_android_full_disk_encryption.md)
+- [How To Decrypt Android Full Disk Encryption](how_to_decrypt_android_full_disk_encryption.md)
 - [Extended File System (ext)](extended_file_system_(ext).md)
 - [YAFFS](yaffs.md)
 
 ## External links
 
-- [Android developers: SDK Platform release
-  notes](https://developer.android.com/studio/releases/platforms)
-- [Android File Hierarchy : System Structure Architecture
-  Layout](https://www.cnblogs.com/shangdawei/p/4513604.html)
-- [Explore The Android File System Hierarchy
-  In-Depth](https://thesecmaster.com/explore-the-android-file-system-hierarchy-in-depth/)
-- [Practical android phone
-  forensics](https://resources.infosecinstitute.com/topic/practical-android-phone-forensics/),
+- [Android developers: SDK Platform release notes](https://developer.android.com/tools/releases/platforms)
+- [Android File Hierarchy : System Structure Architecture Layout](https://www.cnblogs.com/shangdawei/p/4513604.html)
+- [Explore The Android File System Hierarchy In-Depth](https://thesecmaster.com/explore-the-android-file-system-hierarchy-in-depth/)
+- [Practical android phone forensics](https://resources.infosecinstitute.com/topic/practical-android-phone-forensics/),
   by Hashim Shaikh, July 21, 2017

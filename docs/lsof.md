@@ -109,12 +109,11 @@ To view all the files opened by a process
 
 `     `**`Lsof -p pid`**
 
+## Also see
+
+* [netstat](netstat.md)
+
 ## External Links
 
-- [Useful lsof Primer](https://danielmiessler.com/study/lsof/)
-- [Developer’s website for lsof](https://people.freebsd.org/~abe/)
-
-## See Also
-
-- [netstat](netstat.md)
-
+* [An lsof Primer](https://danielmiessler.com/p/lsof/)
+* [Vic Abell's Home Page](https://people.freebsd.org/~abe/), developer of lsof

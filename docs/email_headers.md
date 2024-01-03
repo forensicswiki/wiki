@@ -104,4 +104,3 @@ Lines: 26
 ### Tools
 
 * [MailXaminer product page](https://www.mailxaminer.com/product/)
-* [Wikipedia: MailXaminer](https://en.wikipedia.org/wiki/MailXaminer)

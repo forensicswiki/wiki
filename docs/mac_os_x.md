@@ -16,8 +16,7 @@ The firmware is responsible for initializing the hardware and performing
 a POST (Power-On Self Test).
 
 The default boot volume is stored in NVRAM and can be configured through
-the "Startup Disk" preference pane or the nvram command line utility
-[1](https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man8/nvram.8.html).
+the "Startup Disk" preference pane or the nvram command line utility.
 E.g. to print all of the firmware variables.
 
     nvram -p
@@ -30,7 +29,6 @@ Mac OS X extends EFI with a read-only HFS+ driver. According to
 header fields are used to point to a "blessed file" to be loaded as an
 EFI application. Though it is not clear which header field the source is
 referring to but likely related to the "bless" utility
-[4](https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man8/bless.8.html).
 
 The firmware starts the Mac OS X boot loader (boot.efi). The bootloader
 displays a dark grey Apple logo on the screen and loads the Darwin
@@ -43,9 +41,7 @@ The bootloader can be eithe a MZ-PE/COFF or EFI fat binary type
     /System/Library/CoreServices/boot.efi
     /usr/standalone/i386/boot.efi
 
-The behavior of the bootloader can be configured in the
-com.apple.Boot.plist
-[5](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/com.apple.Boot.plist.5.html)
+The behavior of the bootloader can be configured in the com.apple.Boot.plist
 which can be found in:
 
     /Library/Preferences/SystemConfiguration/

@@ -42,15 +42,14 @@ tags:
 
 # Fake Information
 
-* [Automatic Detection of Fake File Systems](https://analysis.mitre.org/proceedings/Final_Papers_Files/84_Camera_Ready_Paper.pdf),
+* [Automatic Detection of Fake File Systems](https://faculty.nps.edu/ncrowe/fakeintel.htm),
   Neil C. Rowe, International Conference on Intelligence Analysis
   Methods and Tools, McLean, Virginia, May 2005.
 
 # Feature Extraction and Data Fusion
 
-Computer Location Determination Through Geoparsing and Geocoding of
-Extracted Features
-<http://www2.chadsteel.com:8080/Publications/drive_location2.doc>
+Computer Location Determination Through Geoparsing and Geocoding of Extracted Features
+<http://www.chadsteel.com/pubs/Geolocation.pdf>
 <bibtex> @inproceedings{garfinkel:cda,
 
 ` title="Forensic feature extraction and cross-drive analysis",`

@@ -17,4 +17,4 @@ frameworks such as Sarbanes Oxley and HIPAA.
 
 ## External Links
 
-- [Official website](http://www.wildpackets.com/)
+- [Official website](https://www.wildpackets.com/)

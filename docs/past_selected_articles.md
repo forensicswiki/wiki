@@ -176,10 +176,10 @@ discovered that part of the user data was left unencrypted.
 Shields}, Booktitle = {Proc.\\ USENIX Workshop on Hot Topics in Security
 (HotSec)}, Keywords = {forensics; security}, Month = {August},
 Slides_Url =
-{<http://www.usenix.org/events/hotsec11/tech/slides/walls.pdf>},
+{<https://www.usenix.org/legacy/events/hotsec11/tech/slides/walls.pdf>},
 Sponsors = {CNS-1018615, CNS-0905349, DUE-0830876, 2008-CE-CXK005},
 Title = , Url =
-{<http://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf>},
+{<https://www.usenix.org/legacy/events/hotsec11/tech/final_files/Walls.pdf>},
 Year = {2011}}
 </bibtex> Many technical mechanisms across computer security for
 attribution, identiﬁcation, and classiﬁcation are neither sufﬁcient nor
@@ -196,8 +196,8 @@ often limited or incorrect, made about forensics in past work, and
 discuss how these assumptions limit the impact of contributions.
 
 - [Usenix Presentation](https://www.usenix.org/conference/hotsec11/effective-digital-forensics-research-investigator-centric)
-- [Slides](http://www.usenix.org/events/hotsec11/tech/slides/walls.pdf)
-- [paper](http://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
+- [Slides](https://www.usenix.org/events/hotsec11/tech/slides/walls.pdf)
+- [paper](https://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
 
 <small>March 2012</small> <bibtex>
 @inproceedings{Balasubramaniyan:2010:PUS:1866307.1866320,
@@ -719,12 +719,10 @@ network is well-understood before the IDS is deployed.
 
 <small>2008-July-20</small>
 
-The [International Journal of Digital Evidence](https://ecci.utica.edu/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](https://ecci.utica.edu/) at Utica College. Current and previous issues are available online.
+The International Journal of Digital Evidence is one of two publications by the [Electronic Crime Institute (ECI)](https://ecci.utica.edu/) at Utica College. Current and previous issues are available online.
 
 
-The current Fall 2007 issue has an interesting article [Mobile Phone
-Forensics Tool Testing: A Database Drive
-Approach](https://ecci.utica.edu/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf)
+The current Fall 2007 issue has an interesting article [Mobile Phone Forensics Tool Testing: A Database Drive Approach](https://www.utica.edu/academic/institutes/ecii/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf)
 by Baggili, Mislan, and Rogers at Purdue University. Given that phones
 are increasingly a primary source of forensic information in many cases,
 we need to be sure that the tools that are used for forensic analysis
@@ -736,7 +734,7 @@ on the market and the forensic tools lag far behind the market.
 Driven Approach", author="Ibrahim M. Baggili and Richard Mislan and
 Marcus Rogers", journal="International Journal of Digital Evidence",
 year=2007, volume=6, issue=2,
-url="<https://ecci.utica.edu/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf>",
+url="<https://www.utica.edu/academic/institutes/ecii/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf>",
 abstract="The Daubert process used in the admissibility of evidence
 contains major guidelines applied in assessing forensic procedures, two
 of which are testing and error rates. The Digital Forensic Science (DFS)

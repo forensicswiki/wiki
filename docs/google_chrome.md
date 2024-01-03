@@ -96,7 +96,6 @@ This file contains several useful details about the installed extensions
   profile
 - "state": The current state of the extension from this Chrome Profile's
   perspective.
-  [1](https://code.google.com/p/chromium/codesearch#chromium/src/extensions/common/extension.h&l=63)
   - 0: DISABLED
   - 1: ENABLED
   - 2: EXTERNAL_EXTENSION_UNINSTALLED

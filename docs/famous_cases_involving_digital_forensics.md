@@ -130,4 +130,3 @@ Mr. Cameron."
 - [Tracking down the author of the Melissa virus](https://groups.google.com/g/alt.comp.virus/c/9dnXxxxvtUA) -
   Usenet discussion which revealed lots of information about the author
   of the [Melissa worm/virus](https://en.wikipedia.org/wiki/Melissa_%28computer_worm%29).
-- [IDS Logs in Forensics Investigations: An Analysis of a Compromised Honeypot](https://bugtraq.securityfocus.com/infocus/1676)

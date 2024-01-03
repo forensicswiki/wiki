@@ -74,6 +74,5 @@ database' this is easily circumvented.
 
 ## Tools
 
-* [EseDBViewer](http://www.woany.co.uk/esedbviewer/)
 * [libesedb](libesedb.md)
 * [Windows Search Index Examiner](https://www.passware.com/products/)

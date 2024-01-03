@@ -13,7 +13,7 @@ file. You can do this in multiple ways, but the general flow is to:
 - Send your changes back to the main Forensics Wiki project for review (submit a "pull request")
 - A maintainer will review your changes, request edits if necessary, and once everything looks good, add it to the site ("merge" it)
 
-GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 if you'd like a more detailed explanation.
 
 ## Example Using the Command Line

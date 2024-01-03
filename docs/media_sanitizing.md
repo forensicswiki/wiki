@@ -25,8 +25,8 @@ overwritten even once (if it is in fact overwritten). See [Joukov
 Papaxenopoulos & Zadok (2006)](https://dl.acm.org/doi/10.1145/1179559.1179571)
 on "Secure deletion myths, issues, and solutions"
 
-Detailed instructions on media sanitization have been published by
-[NIST as Special Publication 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)
+Detailed instructions on media sanitization have been published by NIST as
+Special Publication 800-88.
 
 ## Also see
 
@@ -36,7 +36,7 @@ Detailed instructions on media sanitization have been published by
 
 ## External Links
 
-* [NIST as Special Publication 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final)
+* [NIST as Special Publication 800-88](https://csrc.nist.gov/pubs/sp/800/88/r1/final)
   Guidelines for Media Sanitization
 * [Joukov Papaxenopoulos & Zadok (2006)](https://dl.acm.org/doi/10.1145/1179559.1179571)
   Secure Deletion Myths, Issues, and Solutions (subscription is necessary for

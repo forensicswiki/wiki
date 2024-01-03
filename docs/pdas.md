@@ -17,10 +17,6 @@ They can be used to access the Internet usually through Wi-Fi.
 
 ## PDA Forensics
 
-[Cellebrite UFED](cellebrite_ufed.md)
-
-<!-- -->
-
 PDD (pdd) is a forensic tool for capturing the contents off early Palm
 devices. Originally developed by Joe Grand it was one of the first Win32
 executable programs to perform such an acquisition. Unfortunately there
@@ -29,13 +25,13 @@ are no published methods for analyzing the resulting data.
 * [Original paper by Grand](https://simson.net/ref/2005/csci_e-170/ref/pdd_palm_forensics.pdf)
 * [Actual tool](https://packetstormsecurity.com/palm/)
 
-<!-- -->
+## Also see
 
-[Paraben Device Seizure](paraben_device_seizure.md)
-[Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* [Cellebrite UFED](cellebrite_ufed.md)
+* [Paraben Device Seizure](paraben_device_seizure.md)
+* [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
 
-## Links
+## External Links
 
-* [PDA FAQ,News,Reviews,Devices,Software,Freeware](https://68.183.185.118/)
-* [Jansen, Ayers Guidelines on PDA Forensics](https://csrc.nist.gov/publications/detail/sp/800-72/final)
-* [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7100/final)
+* [Jansen, Ayers Guidelines on PDA Forensics](https://csrc.nist.gov/pubs/sp/800/72/final)
+* [Ayers, Jansen PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/pubs/ir/7100/final)

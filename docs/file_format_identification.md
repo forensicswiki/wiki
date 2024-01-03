@@ -90,8 +90,7 @@ consider reporting the results of your algorithm with one of these
 publicly available data sets:
 
 - NPS govdocs1m - a corpus of 1 million files that can be redistributed
-  without concern of copyright or PII. Download from
-  <https://digitalcorpora.org/corpora/files/>
+  without concern of copyright or PII. Download from the [Digital Coprora website](https://digitalcorpora.org/corpora/file-corpora/files/)
 - The NPS Disk Corpus - a corpus of realistic disk images that contain
   no PII. Information is at: <https://digitalcorpora.org/?s=nps>
 
