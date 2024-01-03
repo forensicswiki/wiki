@@ -50,4 +50,4 @@ official website to get more information related to Licensing.
 
 # External Links
 
-* [Official Website](http://www.nucleustechnologies.com/)
+* [Official Website](https://www.nucleustechnologies.com/)

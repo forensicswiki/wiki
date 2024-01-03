@@ -4,7 +4,7 @@ tags:
 ---
 Bradley Schatz was the Director of Schatz Forensic,
 a computer forensics firm based in Brisbane, Australia. Dr. Schatz received his
-Ph.D. in Computer Forensics at the [Queensland University of Technology (QUT)](http://www.qut.adu.au/)
+Ph.D. in Computer Forensics at the Queensland University of Technology (QUT)
 in 2007. The primary subject of his doctorate, which was titled "Digital
 Evidence: Representation and assurance", was the role of representation in
 computer foresics.

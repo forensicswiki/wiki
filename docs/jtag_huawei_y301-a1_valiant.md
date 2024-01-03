@@ -86,7 +86,3 @@ Then read the memory. JTAG complete.
 
 The phone has a 4Gb Movi flash memory chip which should take
 approximately 2 hours to download.
-
-### References
-
-- <http://www.phonescoop.com/phones/phone.php?p=3308>

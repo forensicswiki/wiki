@@ -25,10 +25,6 @@ The tool can visualize pictures embedded in a document.
 Extracts metadata from various [Microsoft Word](microsoft_office.md) (doc)
 files. Can also convert doc files to other formats such as HTML or plain text.
 
-[Outside In](http://www.oracle.com/technology/products/content-management/oit/oit_all.html)
-
-Originally developed by Stellant, supports hundreds of file types.
-
 [FI Tools](https://www.fid3.com/)
 
 More than 100 file types.

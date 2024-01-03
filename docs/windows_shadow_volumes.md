@@ -165,8 +165,6 @@ information.
 
 ### Shadow Volumes in depth
 
-* [Reliably recovering evidential data from Volume Shadow Copies in Windows Vista and Windows 7](http://www.qccis.com/docs/publications/WP-VSS.pdf),
-  by James Crabtree and Gary Evans, 2010
 * [Into The Shadows](https://forensic4cast.com/2010/04/into-the-shadows/) and
   [Presentation](https://forensic4cast.com/2010/04/presentation-into-the-shadows/),
   by [Lee Whitfield](lee_whitfield.md), April 2010

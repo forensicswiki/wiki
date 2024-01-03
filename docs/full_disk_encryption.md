@@ -37,9 +37,6 @@ Toshiba *Self-Encrypting Drives* ("SED")
 
 [beCrypt](https://www.becrypt.com/)
 
-BitArmor by [DataControl](datacontrol.md) FDE tool that protects
-fixed and removable media.
-
 [BitLocker](bitlocker_disk_encryption.md)
 Part of Windows Vista that uses [AES](aes.md) 128 or 256 bit
 encryption
@@ -103,21 +100,6 @@ using the Linux 2.6 device mapper. Supports various ciphers and
 [Linux Unified Key Setup (LUKS)](linux_unified_key_setup_(luks).md).
 
 <https://www.saout.de/misc/dm-crypt/>
-
-[PGPDisk](pgpdisk.md)
-Pretty Good Privacy Whole Disk Encryption provides transparent whole
-disk encryption with Pre-Boot authentification for
-[Windows](windows.md). Also supports [Mac OS X](mac_os_x.md)
-10.4 (non-boot disks only).
-
-Can use OpenPGP RFC 2440 keys and X.509 keys for authentification.
-
-Supports USB Tokens for authentification.
-
-Supported ciphers: [AES](aes.md) (256 bit
-keys).
-
-<http://www.pgp.com/products/wholediskencryption/>
 
 SafeGuard Easy
 Certified according to Common Criteria

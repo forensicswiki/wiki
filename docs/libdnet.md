@@ -50,8 +50,6 @@ tags:
 - [pypcap](https://github.com/dugsong/pypcap) - libpcap Python module
 - [dpkt](https://github.com/kbandla/dpkt) - fast, simple packet
   creation and parsing in Python
-- [libnet](http://www.packetfactory.net/projects/libnet/) - packet
-  construction library
 - [PktFilter](https://www.hsc.fr/securite-internet/) -
   win32 service to configure the IPv4 filtering driver in Windows
   2000/XP/Server 2003

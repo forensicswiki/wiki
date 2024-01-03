@@ -97,7 +97,6 @@ Phone Research
 
 * [GSMArena.com (Technical information regarding GSM Cell Phones)](https://www.gsmarena.com/)
 * [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.mobileforensicscentral.com/mfc/)
-* [PhoneScoop.com (Technical information regarding all Cell Phones)](https://www.phonescoop.com/)
 
 Training
 

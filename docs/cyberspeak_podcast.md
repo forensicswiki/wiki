@@ -17,11 +17,8 @@ website](https://cyberspeak.libsyn.com/).
 
 ## See Also
 
-[List of Cyberspeak Podcast
-Interviews](list_of_cyberspeak_podcast_interviews.md)
+* [List of Cyberspeak Podcast Interviews](list_of_cyberspeak_podcast_interviews.md)
 
 ## External Links
 
-- [Official CyberSpeak Website](https://cyberspeak.libsyn.com/)
-- <https://www.facebook.com/people/CyberSpeak/100070321485277/> CyberSpeak
-  Facebook Page
+* [Official website](https://cyberspeak.libsyn.com/)
