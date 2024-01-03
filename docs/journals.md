@@ -37,17 +37,10 @@ Journal of Digital Forensic Practice
 
 Print journal from Taylor and Francis.
 
-<!-- -->
-
 International Journal of Digital Evidence (IJDE)
 <http://www.ijde.org>
 
 Electronic journal that started in 2002 until 2007
-
-<!-- -->
-
-Small Scale Digital Device Forensics Journal
-<http://www.ssddfj.org/>
 
 Online journal for academics and practitioners to publish articles
 regarding the theory, research, and practice in the rapidly changing

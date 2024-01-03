@@ -22,4 +22,4 @@ data has not been overwritten.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)

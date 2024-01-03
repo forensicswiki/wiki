@@ -11,10 +11,6 @@ a large variety of systems, and is frequently included by default in
 many [Sun Microsystems](sun_microsystems_inc.md) and
 [Apple](apple_inc.md) workstation computers.
 
-Some recent controversy centered around the development of a tool,
-[here](http://www.storm.net.nz/projects/16) which is capable of dumping
-a system's memory via a firewire port.
-
 ## Other information
 
 * [Wikipedia's firewire article](https://en.wikipedia.org/wiki/FireWire)

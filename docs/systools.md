@@ -105,5 +105,5 @@ put an end on the catastrophic consequences.
 
 ## External Links
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)
 

@@ -83,8 +83,6 @@ and re-released as Volatility in August
 * [Robust Signatures for Kernel Data Structures](https://sites.cc.gatech.edu/~brendan/ccs09_siggen.pdf)
   by B.  Dolan-Gavitt, et al., ACM Conference on Computer and Communications
   Security
-* [Win32dd : Challenges of Windows physical memory acquisition and exploitation](http://www.shakacon.org/talks/NFI-Shakacon-win32dd0.3.pdf),
-  by Matthieu Suiche, Netherlands Forensics Institute, Shakacon - June 2009
 
 2008
 

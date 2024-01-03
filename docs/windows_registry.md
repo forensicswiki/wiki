@@ -1152,16 +1152,12 @@ name</a></b></p></td>
 
 * [Using ShellBag Information to Reconstruct User Activities](https://dfrws.org/presentation/using-shellbag-information-to-reconstruct-user-activities/),
   by Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
-* [The Windows NT Registry File Format](http://www.sentinelchicken.com/research/registry_format/), by
-  Timothy Morgan, June 9, 2009
 * [Recovering Deleted Data From the Windows Registry](https://dfrws.org/presentation/recovering-deleted-data-from-the-windows-registry/),
   by Timothy Morgan, DFRWS 2008
 * [Forensic Analysis of the Windows Registry in Memory](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-forensic_analysis_of_the_windows_registry_in_memory.pdf) and
   [slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-forensic_analysis_of_the_windows_registry_in_memory.pdf),
   by Brendan Dolan-Gavitt, DFRWS 2008
-* [Forensic analysis of unallocated space in Windows Registry Hive files](http://www.sentinelchicken.com/data/JolantaThomassenDISSERTATION.pdf),
-  by Jolanta Thomassen, March 11, 2008
-* [The Windows Registry as a forensic resource](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B7CW4-4GX1J3B-1&_user=3326500&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000060280&_version=1&_urlVersion=0&_userid=3326500&md5=ab887593e7be6d5257696707886978f1),
+* [The Windows Registry as a forensic resource](https://www.sciencedirect.com/science/article/abs/pii/S1742287605000587),
   Digital Investigation, Volume 2, Issue 3, September 2005, Pages
   201--205.
 * [Windows registry file format specification](https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md),

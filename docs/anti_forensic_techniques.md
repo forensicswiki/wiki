@@ -245,7 +245,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
   83 – 97
 * [Talk on Anti-Forensics, on 28C3](https://www.youtube.com/watch?v=OP9k-G2yq9I),
   in German
-* [Breaking Encase with FILE0 and Winhex](http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)
+* [Breaking Encase with FILE0 and Winhex](https://web.archive.org/web/20070310192503/http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)
 * [Anti Forensics: making computer forensics hard](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
 * [PTK Forensic Local Command Execution Vulnerability (fixed in 1.0.1, see CHANGELOG)](https://seclists.org/bugtraq/2008/Nov/38)
 * [Anti-Forensics Class](http://www.irongeek.com/i.php?page=videos/anti-forensics-occult-computing)

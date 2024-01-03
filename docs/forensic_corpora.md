@@ -14,7 +14,7 @@ proven invaluable in performing a range of studies such as the
 developing of new forensic techniques and the sanitization practices of
 computer users.
 
-Garfinkel, S. and Shelat, A., [Remembrance of Data Passed: A Study of Disk Sanitization Practices](http://www.simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf),
+Garfinkel, S. and Shelat, A., [Remembrance of Data Passed: A Study of Disk Sanitization Practices](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf),
 IEEE Security and Privacy, January/February 2003.
 
 The Honeynet Project: Challenges.

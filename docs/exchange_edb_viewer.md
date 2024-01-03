@@ -16,4 +16,4 @@ version, however, it will still remain a standalone.
 ## External Links
 
 * [Exchange Database Viewer](https://www.systoolsgroup.com/exchange-edb-viewer.html)
-* [Official Website](http://www.systoolsgroup.com/)
+* [Official Website](https://www.systoolsgroup.com/)

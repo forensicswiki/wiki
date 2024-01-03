@@ -91,6 +91,6 @@ functioning queries.
 [Portable OST Viewer for Windows
 &Mac](https://www.bitrecover.com/free/ost-viewer/)
 
-[Official Website](http://www.systoolsgroup.com/)
+[Official Website](https://www.systoolsgroup.com/)
 
 [FREE OST Viewer](https://www.freeviewer.org/ost/)

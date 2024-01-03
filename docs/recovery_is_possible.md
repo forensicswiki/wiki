@@ -11,5 +11,4 @@ PhotoRec, etc.
 
 ## External Links
 
-* [Project site](http://www.tux.org/pub/people/kent-robotti/looplinux/rip/)
-* [Linux Recovery Tool for Windows](https://www.stellarinfo.com/?_route_=linux-data-recovery.htm)
+* [Project site](https://sourceforge.net/projects/riplinuxmeta4s/)

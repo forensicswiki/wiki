@@ -29,7 +29,7 @@ by Anandabrata Pal, Kulesh Shanmugasundaram, Nasir Memon, Proceedings of
 the IEEE International Conference on Acoustics, Speech, and Signal
 Processing, 2003.
 
-[Carving Contiguous and Fragmented Files with Fast Object Validation](http://www.simson.net/clips/academic/2007.DFRWS.pdf),
+[Carving Contiguous and Fragmented Files with Fast Object Validation](https://simson.net/clips/academic/2007.DFRWS.pdf),
 by Simson Garfinkel, Digital Forensics Workshop (DFRWS 2007), Pittsburgh, PA,
 August 2007.
 

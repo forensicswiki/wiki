@@ -397,7 +397,7 @@ Highlights include:
 <small>MARCH-2010</small>
 
 [Internet geolocation: Evasion and counterevasion](https://dl.acm.org/doi/10.1145/1592451.1592455)
-ACM Computing Surveys (CSUR), Volume 42 , Issue 1 (December 2009)
+ACM Computing Surveys (CSUR), Volume 42, Issue 1 (December 2009)
 
 > Internet geolocation technology aims to determine the physical
 > (geographic) location of Internet users and devices. It is currently
@@ -421,9 +421,8 @@ ACM Computing Surveys (CSUR), Volume 42 , Issue 1 (December 2009)
 > might expect. We give a demonstration of this for users of the popular
 > Tor anonymizing network.
 
-<small>FEB-2010</small> [The 'CSI Effect': Does It Really
-Exist?](https://nij.ojp.gov/topics/articles/csi-effect-does-it-really-exist), by
-The Honorable Donald E. Shelton
+<small>FEB-2010</small> [The 'CSI Effect': Does It Really Exist?](https://nij.ojp.gov/topics/articles/csi-effect-does-it-really-exist),
+by The Honorable Donald E. Shelton
 
 Crime and courtroom proceedings have long been fodder for film and
 television scriptwriters. In recent years, however, the media's use of
@@ -443,9 +442,7 @@ the 2-week trial; the program, however, was ultimately edited to a
 1-hour episode that suggested the crime remained a "mystery" . . .
 notwithstanding the jury's guilty verdict....
 
-<small>JAN-2010</small> [Using Graphics Processors for Parallelizing
-Hash-based Data
-Carving](https://hal.science/file/index/docid/350962/filename/ColDanDauDef09.pdf),
+<small>JAN-2010</small> [Using Graphics Processors for Parallelizing Hash-based Data Carving](https://hal.science/file/index/docid/350962/filename/ColDanDauDef09.pdf),
 by Sylvain Collange, Marc Daumas, Yoginder S. Dandass, and David Defour,
 Proceedings of the 42nd Hawaii International Conference on System
 Sciences - 2009.
@@ -521,7 +518,8 @@ flash-specific file system.
 
 <small>2009-June</small>
 
-[Recovery of Damaged Compressed Files for Digital Forensic Purposes](https://ieeexplore.ieee.org/document/4505751/?tp=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671arnumber=4505751http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671isnumber=4505671), Bora Park Savoldi, A. Gubian, P. Jungheum Park Seok Hee Lee Sangjin Lee
+[Recovery of Damaged Compressed Files for Digital Forensic Purposes](https://ieeexplore.ieee.org/document/4505751/?tp=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671arnumber=4505751http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?tp=&arnumber=4505751&isnumber=4505671isnumber=4505671),
+by Bora Park Savoldi, A. Gubian, P. Jungheum Park Seok Hee Lee Sangjin Lee
 
 Korea Univ., Seoul, International Conference on Multimedia and
 Ubiquitous Engineering, 2008. MUE 2008/
@@ -579,7 +577,8 @@ the correct functioning of forensic tools
 
 <small>2009-Apr</small>
 
-[A Framework for Automated Digital Forensic Reporting](https://simson.net/clips/students/09_Farrell.pdf), Lt. Paul Farrell, Master's Thesis, Naval Postgraduate School, Monterey, CA, March 2009
+[A Framework for Automated Digital Forensic Reporting](https://simson.net/clips/students/09_Farrell.pdf),
+by Lt. Paul Farrell, Master's Thesis, Naval Postgraduate School, Monterey, CA, March 2009
 Forensic analysis is the science of finding, examining and analyzing
 evidence in support of law enforcement, regulatory compliance or
 information gathering. Today, almost all digital forensic analysis is
@@ -599,7 +598,8 @@ on investment.
 
 <small>2009-Feb-08</small>
 
-[The impact of full disk encryption on digital forensics](https://dl.acm.org/doi/10.1145/1368506.1368519), ACM SIGOPS Operating Systems Review archive, Volume 42 , Issue 3 (April 2008) , Pages 93-98
+[The impact of full disk encryption on digital forensics](https://dl.acm.org/doi/10.1145/1368506.1368519),
+ACM SIGOPS Operating Systems Review archive, Volume 42, Issue 3 (April 2008), Pages 93-98
 The integration of strong encryption into operating systems is creating
 challenges for forensic examiners, potentially preventing us from
 recovering any digital evidence from a computer. Because strong
@@ -617,7 +617,8 @@ evidence that would otherwise be inaccessible.
 
 <small>2009-JAN-01</small>
 
-[Forensic Investigation of the Nintendo Wii: A First Glance](http://www.ssddfj.org/papers/SSDDFJ_V2_1_Turnbull.pdf), Dr. Benjamin Turnbull, SMALL SCALE DIGITAL DEVICE FORENSICS JOURNAL, VOL. 2, NO. 1, JUNE 2008 ISSN# 1941-6164
+[Forensic Investigation of the Nintendo Wii: A First Glance](https://www.researchgate.net/publication/253436253_Forensic_Investigation_of_the_Nintendo_Wii_A_First_Glance),
+by Dr. Benjamin Turnbull, SMALL SCALE DIGITAL DEVICE FORENSICS JOURNAL, VOL. 2, NO. 1, JUNE 2008 ISSN# 1941-6164
 The closed nature of the Wii makes it a challenging game console for
 forensic analysis. This article takes a first look at the platform,
 discussing the various places where forensically interesting information
@@ -627,7 +628,8 @@ documents a woman's affair while her husband was serving in Iraq.
 
 <small>2008-Nov-18</small>
 
-[Data Acquisition from Cell Phone using Logical Approach](http://www.waset.org/pwaset/v26/v26-6.pdf), Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
+[Data Acquisition from Cell Phone using Logical Approach](http://www.waset.org/pwaset/v26/v26-6.pdf),
+by Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
 This article discusses three approaches for acquiring data from cell phones:
 physically removing the flash RAM chips and reading them directly; reading the
 data out using the JTAG interface, and running software on the cell phone to
@@ -647,7 +649,8 @@ last 20 years or so of the field. Highly recommended.
 
 <small>2008-Oct-24</small>
 
-[Advanced JPEG carving](https://dl.acm.org/doi/10.5555/1363217.1363239), Michael I. Cohen, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop
+[Advanced JPEG carving](https://dl.acm.org/doi/10.5555/1363217.1363239),
+by Michael I. Cohen, Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop
 Michael I. Cohen presents a fully automated carver which can carve
 fragmented JPEGs using typical fragmentation patterns. (Cohen argues the
 the DFRWS carving challenges do not represent typical fragmentation
@@ -683,8 +686,6 @@ Paper](https://www.usenix.org/legacy/events/sec08/)
 
 Awarded Best Student Paper
 
-<!-- -->
-
 
 Increasingly memory analysis is of interest in forensic research---both
 because new malware only resides in memory, and because memory analysis
@@ -705,9 +706,8 @@ keys, and then allows access to the cleartext information on the disk.
 
 <small>2008-July-27</small>
 
-The [Symposium on Usable Privacy and Security (2008)](http://cups.cs.cmu.edu/soups/2008) concluded this past week in Pittsburgh, PA. One paper that appeared which is interesting to the network forensics crowd is [The Challenges of Using an Intrusion Detection System: Is It Worth the Effort?](http://cups.cs.cmu.edu/soups/2008/proceedings/p107Werlinger.pdf), by Rodrigo Werlinger, Kirstie Hawkey, Kasia Muldner, Pooya Jaferian and Konstantin Beznosov. [slides](http://cups.cs.cmu.edu/soups/2008/slides/hawkey_soups.ppt)
-
-<!-- -->
+The [Symposium on Usable Privacy and Security (2008)](http://cups.cs.cmu.edu/soups/2008) concluded this past week in Pittsburgh, PA. One paper that appeared which is interesting to the network forensics crowd is [The Challenges of Using an Intrusion Detection System: Is It Worth the Effort?](http://cups.cs.cmu.edu/soups/2008/proceedings/p107Werlinger.pdf),
+by Rodrigo Werlinger, Kirstie Hawkey, Kasia Muldner, Pooya Jaferian and Konstantin Beznosov. [slides](http://cups.cs.cmu.edu/soups/2008/slides/hawkey_soups.ppt)
 
 
 In this article, the authors conducted interviews with 9 IT security
@@ -720,8 +720,6 @@ network is well-understood before the IDS is deployed.
 <small>2008-July-20</small>
 
 The [International Journal of Digital Evidence](https://ecci.utica.edu/ijde/) is one of two publications by the [Electronic Crime Institute (ECI)](https://ecci.utica.edu/) at Utica College. Current and previous issues are available online.
-
-<!-- -->
 
 
 The current Fall 2007 issue has an interesting article [Mobile Phone

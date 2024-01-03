@@ -1,9 +1,9 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Articles that need to be expanded
-  -  Database
+  - Articles that need to be expanded
+  - Database
+  - File Formats
+  - Windows
 ---
 PFC files are files associated with America Online (AOL). PFC (Personal
 Filing Cabinet) is a database file that enables the users to save AOL
@@ -44,8 +44,6 @@ The location of the AOL PFC mail store is:
 
 ## Tools
 
-- [Free AOL PFC Viewer](https://www.systoolsgroup.com/aol-pfc-viewer/)
-- [PFC File Viewer](https://datahelp.in/pfc/viewer.html)
-- [AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)
-- [Digital Detective Blade®
-  Professional](https://www.digital-detective.net/digital-forensic-software/blade-forensic-data-recovery/)
+- [AOL PFC Viewer](https://datahelp.in/pfc/viewer.html)
+- [SysTools AOL PFC Viewer](https://www.systoolsgroup.com/aol-pfc-viewer/)
+- [SysTools AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)

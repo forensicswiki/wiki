@@ -72,5 +72,3 @@ Software for acquiring CDMA RUIM data includes:
 ## External Links
 
 * [Wikipedia: CDMA](https://en.wikipedia.org/wiki/Cdma)
-* [BitPIM](http://www.bitpim.org)
-* [DataPilot Secure View](https://www.susteen.com/)

@@ -114,5 +114,5 @@ uncertainties.
 
 ## External Links
 
-* [Official Website](http://www.systoolsgroup.com/)
+* [Official Website](https://www.systoolsgroup.com/)
 * [Free PST Viewer](https://www.bitrecover.com/free/pst-viewer/)

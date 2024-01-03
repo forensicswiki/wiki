@@ -69,8 +69,6 @@ The on-disk format itself contains several artifacts:
 
 ## External Links
 
-* [The Windows NT Registry File Format](http://www.sentinelchicken.com/research/registry_format/), by
-  Timothy Morgan
 * [Windows NT Registry File (REGF) format](https://github.com/libyal/libregf/blob/main/documentation/Windows%20NT%20Registry%20File%20(REGF)%20format.asciidoc),
   by the [libregf project](libregf.md)
 * [Windows registry file format specification](https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md),
