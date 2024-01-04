@@ -173,7 +173,7 @@ like: blogs, fora, tweets, tools and challenges (and test images).
 
 # Circles/Fora/Groups
 
-- [Forensic Focus](https://forensicfocus.com/)
+- [Forensic Focus](https://www.forensicfocus.com/)
 - [DFIR Slack Channel](https://www.paloaltonetworks.com/cortex/cortex-xsoar)
 - [log2timeline Discussion Group](https://groups.google.com/forum/#!forum/log2timeline-discuss)
 - [Reddit Computer Forensics](https://www.reddit.com/r/computerforensics/)
@@ -199,11 +199,7 @@ See: [Journals](journals.md)
 
 # Challenges (and test images)
 
-- [Forensic Focus - Test Images and Forensic Challenges](https://forensicfocus.com/images-and-challenges)
-- [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
-- [Second Look - Linux Memory Images](https://secondlookforensics.com/linux-memory-images/)
-- [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)
-- [Daily Blog \#277: Sample Forensic Images](https://www.hecfblog.com/2014/03/daily-blog-277-sample-forensic-images.html)
+See: [Forensic Corpora](forensic_corpora.md_
 
 # Conferences
 

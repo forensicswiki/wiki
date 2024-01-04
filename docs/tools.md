@@ -199,17 +199,14 @@ powerful framework to the forensic community, so people can use only one
 tool during the analysis. <http://digital-forensic.org/>
 
 [foremost](foremost.md)
-<https://foremost.sourceforge.net/>
 
-[Linux](linux.md) based file carving program
+Linux based file carving program
 
 [FTimes](ftimes.md)
-<https://ftimes.sourceforge.net/FTimes/index.shtml>
 
 FTimes is a system baselining and evidence collection tool.
 
 [gfzip](gfzip.md)
-<http://www.nongnu.org/gfzip/>
 
 [gpart](gpart.md)
 
@@ -224,7 +221,6 @@ Linux swap, MSDOS partition header, etc. Recognize file type. Able to find
 subfiles (hachoir-subfile).
 
 [hashdb](hashdb.md)
-<https://github.com/simsong/hashdb>
 
 A tool for finding previously identified blocks of data in media such as
 disk images.
@@ -238,16 +234,13 @@ corporate investigation by private examiners.
 [magicrescue](https://github.com/jbj/magicrescue)
 
 The [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)
-<https://ocfa.sourceforge.net/>
 
 [pyflag](pyflag.md)
-<https://code.google.com/archive/p/pyflag>
 
 Web-based, database-backed forensic and log analysis GUI written in
 Python.
 
 [Scalpel](scalpel.md)
-<https://gotdfs.com/>
 
 [Linux](linux.md) and [Windows](windows.md) file carving
 program originally based on [foremost](foremost.md).

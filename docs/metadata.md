@@ -42,10 +42,7 @@ files. Information includes date and time information, camera settings,
 location information, textual descriptions, and copyright information.
 
 - [LibExif](libexif.md)
-- [Metadata extraction in Java](https://drewnoakes.com/code/exif/)
 - [Adroit Photo Forensics](adroit_photo_forensics.md)
-
-<!-- -->
 
 [ID3](id3.md) ([MP3](mp3.md) files)
 Implemented as a small block of data stored at the end of MP3 files. ID3v1 is a
@@ -58,8 +55,6 @@ adds a track number. ID3v2 is a general container structure.
 - [MP3::Info](https://metacpan.org/dist/MP3-Info) (Perl)
 - [MPEG::ID3v2Tag](https://metacpan.org/dist/MPEG-ID3v2Tag) (Perl)
 
-<!-- -->
-
 [Microsoft](microsoft.md) [OLE Compound File](ole_compound_file.md)
 Microsoft Office document files contain a huge amount of metadata. They
 are created as OLE Compound Files and mainly stored in the so called
@@ -71,8 +66,6 @@ property set streams. Here are some tools for processing them:
   Extract fields into SQLite Database.
 - [FOCA - Eleven Paths](https://www.elevenpaths.com/labstools/foca/index.html)
   Scan and group metadata information.
-
-<!-- -->
 
 [TIFF](tiff.md)
 The Tagged Image File Format allows one or more images to be bundled in a

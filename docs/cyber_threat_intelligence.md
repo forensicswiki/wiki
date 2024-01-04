@@ -15,7 +15,7 @@ be considered more as an equivalent for "Digital Threat Intelligence" or
 Cyber Threat Indicator: A set of cyber observables combined with
 contextual information intended to represent artifacts and/or behaviors
 of interest within a cyber security
-context.[2](https://msm.mitre.org/docs/STIX-Whitepaper.pdf)
+context. [2](https://stixproject.github.io/about/STIX_Whitepaper_v1.1.pdf)
 
 ### TTP
 
@@ -27,7 +27,7 @@ TTPs are representations of the behavior or modus operandi of cyber
 adversaries. It is a term taken from the traditional military sphere and
 is used to characterize what an adversary does and how they do it in
 increasing levels of
-detail.[3](https://msm.mitre.org/docs/STIX-Whitepaper.pdf)
+detail. [3](https://stixproject.github.io/about/STIX_Whitepaper_v1.1.pdf)
 
 Note that the abbreviation TTP is highly ambiguous, e.g. in another
 context it can mean Trusted Third Party.

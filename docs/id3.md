@@ -30,4 +30,4 @@ string "ID3".
   C/C++ ID3 implementation.
 - [MP3::Info](https://metacpan.org/dist/MP3-Info) (Perl)
 - [MPEG::ID3v2Tag](https://metacpan.org/dist/MPEG-ID3v2Tag) (Perl)
-- [getID3() - The PHP media file parser](https://getid3.sourceforge.net/)
+- [getID3() - The PHP media file parser](https://www.getid3.org/)

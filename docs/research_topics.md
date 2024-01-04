@@ -119,4 +119,3 @@ These are research areas that could easily grow into a PhD thesis.
 
 - [Digital Forensics: Research Challenges and Open Problems](https://docplayer.net/2378794-Digital-forensics-research-challenges-and-open-problems.html),
   by Dr. Yong Guan, Iowa State University, Dec. 4, 2007
-- [Forensic Focus: Project Ideas for Digital Forensics Students](https://forensicfocus.com/project-ideas)
