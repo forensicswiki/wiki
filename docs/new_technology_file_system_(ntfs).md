@@ -145,8 +145,6 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 * [Wikipedia: NTFS Reparse point](https://en.wikipedia.org/wiki/NTFS_reparse_point)
 * [MSDN: Transactional NTFS](https://learn.microsoft.com/en-us/windows/win32/fileio/transactional-ntfs-portal)
 * [Wikipedia: Transactional NTFS](https://en.wikipedia.org/wiki/Transactional_NTFS)
-* [Linux-ntfs Documentation](https://sourceforge.net/directory/file-systems/)
-  Detailed documentation of the NTFS format by the Linux-NTFS driver creators.
 * [Default cluster size for NTFS, FAT, and exFAT](https://support.microsoft.com/en-us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
 * [Distributed Link Tracking and Object Identifiers](https://learn.microsoft.com/en-us/windows/win32/fileio/distributed-link-tracking-and-object-identifiers)
 * [New Technologies File System (NTFS)](https://github.com/libyal/libfsntfs/blob/main/documentation/New%20Technologies%20File%20System%20(NTFS).asciidoc),

@@ -51,6 +51,3 @@ you parse them.
 - [Belkasoft Evidence Center](https://belkasoft.com/) allows for carving
   Facebook data such as chats, wall posts and photos from Live RAM
   dumps, hibernation and pagefiles.
-- [WebPreserver](https://webpreserver.com/facebook-forensics/) captures
-  Facebook wall posts and about information as well as metadata in a
-  legally authenticated manner.

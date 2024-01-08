@@ -69,8 +69,6 @@ victims can be easier if they stand out from the crowd.
 
 * [Expanding the Expanded Incident Lifecycle](http://www.itsmsolutions.com/newsletters/DITYvol5iss7.htm),
   by Janet Kuhn, February 18, 2009
-* [Incident lifecycle](https://www.enisa.europa.eu/activities/cert/support/incident-management/browsable/workflows/incident-lifecycle),
-  by [ENISA](enisa.md)
 
 ### Intrusion Analysis
 

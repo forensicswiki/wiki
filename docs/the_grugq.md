@@ -23,4 +23,5 @@ and is the author of [Hash](hash_(tool).md) (**ha**cker
 
 ### External Links
 
-- [CSO Online interview with The Grugq](https://www.csoonline.com/article/2121184/where-is-hacking-now--a-chat-with-grugq.html)
+* [Where Is Hacking Now? A Chat with Grugq](https://www.csoonline.com/article/519514/network-security-where-is-hacking-now-a-chat-with-grugq.html),
+  March 12, 2007

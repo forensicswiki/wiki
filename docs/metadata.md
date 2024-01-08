@@ -64,7 +64,7 @@ property set streams. Here are some tools for processing them:
   implementation in Java.
 - [SquirrelGripper Perl script](https://cheeky4n6monkey.blogspot.com/2012/05/perl-script-plays-matchmaker-with.html)
   Extract fields into SQLite Database.
-- [FOCA - Eleven Paths](https://www.elevenpaths.com/labstools/foca/index.html)
+- [FOCA - Eleven Paths](https://cybersecuritycloud.telefonicatech.com/en/innovation-labs/innovation-technologies/foca)
   Scan and group metadata information.
 
 [TIFF](tiff.md)

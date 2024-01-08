@@ -45,12 +45,11 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by Matt Edmondson
 - [Digital Forensics with a Focus on EnCase](https://secureartisan.wordpress.com/),
   by Paul Bobby
+- [Digital Forensics Notes](https://digfor.blogspot.com/)
 - [Dlog](https://dan3lmi.blogspot.com/),
   by Daniela Elmi
 - [eForensics Magazine blog](https://eforensicsmag.com/category/news/)
 - [Elcomsoft Blog](https://blog.elcomsoft.com)
-- [Elvidence Computer Forensics Blog](https://www.elvidence.com.au/blog),
-  see also [Digital Forensics Notes](https://digfor.blogspot.com/)
 - [FireEye Blogs](https://www.trellix.com/en-us/about/newsroom/stories.html)
 - [Forense nella Nebbia](https://forensenellanebbia.blogspot.com/),
   by Gabriele Zambelli

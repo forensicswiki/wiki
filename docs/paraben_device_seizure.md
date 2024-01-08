@@ -40,3 +40,7 @@ Paraben's Device Seizure also supports the following types of GPS
 Devices with more manufacturers to follow:
 
 - Garmin
+
+## External links
+
+* [Product website](https://paraben.com/e3-mobile-smartphone-forensics/)

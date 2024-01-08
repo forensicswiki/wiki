@@ -2,20 +2,14 @@
 tags:
   - No Category
 ---
-## See Also
+## External links
 
-Very basic visualization with no discrimination between packet types:
-<https://research.swtch.com/tcpviz>
+* [Visualizing TCP congestion avoidance algorithm](http://marc.herbert.free.fr/TCP/congestion/),
+  by Marc Herbert, October 25, 2002
+* [Visualizing TCP](https://research.swtch.com/tcpviz),
+  by Russ Cox, December 13, 2010
 
-Manual for Cisco commercial product with broad range of visualizations:
-<https://www.cisco.com/en/US/docs/net_mgmt/application_analysis_solution/1.0/tutorials_and_examples/tut_ace.pdf>
+## Tools
 
-Examination of congestion control strategy with xplot visualization:
-<http://marc.herbert.free.fr/TCP/congestion/>
-
-Very cool video visualization of TCP flows:
-<https://github.com/aristus/packet-flight/tree/master/packet_flight/js>
-(facebook example: <https://vimeo.com/17248120>)
-
-Software project that visualizes TCP flows:
-<http://research.protocollabs.com/captcp/>
+* [Captcp](http://research.protocollabs.com/captcp/)
+* [packet-flight](https://github.com/aristus/packet-flight/tree/master)

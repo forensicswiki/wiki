@@ -101,7 +101,7 @@ by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 # Theory
 
-[A Hypothesis-Based Approach to Digital Forensic Investigations](https://www.cerias.purdue.edu/tools_and_resources/bibtex_archive/archive/2006-06.pdf),
+[A Hypothesis-Based Approach to Digital Forensic Investigations](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2006-06.pdf),
 by Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
 
 # Other Papers

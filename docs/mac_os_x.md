@@ -274,7 +274,7 @@ Mac OS.
 
 ### iCloud
 
-* [iCloud: iCloud security and privacy overview](https://support.apple.com/en-us/HT202303)
+* [iCloud: iCloud security and privacy overview](https://support.apple.com/en-us/102651)
 
 ### ColorSync
 

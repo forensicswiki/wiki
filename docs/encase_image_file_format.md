@@ -130,5 +130,5 @@ products.
   by the [libewf project](libewf.md), March 2006
 - [Expert Witness Compression Format (EWF) version 2](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%202%20(EWF2).asciidoc),
   by the [libewf project](libewf.md), July 2012
-- [Validation of forensic images for assurance of digital evidence integrity](https://researchrepository.murdoch.edu.au/id/eprint/24962/1/whole.pdf),
+- [Validation of forensic images for assurance of digital evidence integrity](https://researchportal.murdoch.edu.au/esploro/outputs/graduate/Validation-of-forensic-images-for-assurance/991005544234707891),
   by James Michael McCutcheon, November, 2014

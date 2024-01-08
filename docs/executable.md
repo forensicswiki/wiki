@@ -59,7 +59,6 @@ There are multiple families of executable files:
   by [Microsoft](microsoft.md)
 * [Internet Archive: Microsoft Symbol and Type Information](http://web.archive.org/web/20070915060650/http://www.x86.org/ftp/manuals/tools/sym.pdf),
   by [Microsoft](microsoft.md)
-* [Microsoft Symbol and Type Information](https://pierrelib.pagesperso-orange.fr/exec_formats/MS_Symbol_Type_v1.0.pdf)
 * [Stream Descriptions](https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki),
   [pdbparse project](https://github.com/moyix/pdbparse/)
 * [libmsdebug](https://sourceforge.net/p/mingw-w64/code/HEAD/tree/experimental/tools/libmsdebug/),
