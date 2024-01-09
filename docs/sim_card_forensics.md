@@ -55,15 +55,14 @@ Acquire [SIM Card](sim_cards.md) and analyze the following:
 Wiki Links
 
 * [Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
-* [SIMIS](simis.md)
 * [SIM Explorer](sim_explorer.md)
+* [SIMcon](simcon.md)
+* [SIMIS](simis.md)
 
 External Links
 
-* [SIMcon](https://www.simcon.no/)
 * [Pro Data Doctor](https://www.data-recovery-mobile-phone.com/)
 * [Forensic Card Reader (FCR) - German](http://www.becker-partner.de/index.php?id=17)
-* [SIM Manager](http://www.txsystems.com/sim-manager.html)
 * [SIMSpy](http://www.nobbi.com/download.php)
 * [UnDeleteSMS](https://vidstromlabs.com/freetools/undeletesms/)
 * [Dekart SIM Explorer](https://www.dekart.com/products/card_management/sim_explorer),
@@ -74,7 +73,6 @@ External Links
 * [SIM Card Reader](http://ww38.mobile-t-mobile.com/mobile-network/SIM-card-reader.html)
 * [Sim Card Reader Software](https://sim-card-reader-software.download3000.com)
 * [Sim Card Recovery](https://sim-card-recovery.freedownloadscenter.com/windows/)
-* [Sim Recovery Pro](http://www.spytechs.com/phone-recorders/sims-card-reader.htm)
 
 ## Recovering SIM Card Data
 
@@ -101,7 +99,3 @@ card.
 
 * [SIM Cards](sim_cards.md)
 * [Troubleshooting the installation of a PC/SC smart card reader (video tutorial)](https://www.youtube.com/watch?v=w_tcwmzUH6o)
-
-## External Links
-
-* [E-evidence Info](http://www.e-evidence.info/cellular.html)

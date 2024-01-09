@@ -55,7 +55,7 @@ ethical and a professional responsibility to:
 
 Equivalent or other perspectives on forensic profession:
 
-* [Forensic Focus Webinar: Being Your Own Expert Witness](https://www.forensicfocus.com/c/aid=103/webinars/2015/being-your-own-expert-witness/)
+* [Forensic Focus Webinar: Being Your Own Expert Witness](https://www.forensicfocus.com/webinars/being-your-own-expert-witness/)
 
 ## Terminology
 

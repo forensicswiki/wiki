@@ -75,11 +75,7 @@ UNIX; see the INSTALL file for details.
   by [Kanedaaa](http://kaneda.bohater.net)
 * [Debian package](https://packages.debian.org/testing/tcpflow)
   by Robert McQueen
-* [Fedora package](https://admin.fedoraproject.org/pkgdb/acls/name/tcpflow)
-  by [Terje Røsten](https://koji.fedoraproject.org/koji/userinfo?userID=278)
 * [FreeBSD port](ftp://ftp5.freebsd.org/pub/FreeBSD/branches/-current/ports/net/tcpflow)
   by Jose M. Alcaide
-* [OpenBSD Package](http://www.openbsd.org/ports.html) (it’s in there
-  somewhere)
 * [Solaris 8 SPARC Binary](ftp://ftp.sunfreeware.com/pub/freeware/sparc/8/tcpflow-0.12-sol8-sparc-local.gz)
   for v0.12 from [SunFreeware.com](http://www.sunfreeware.com/introduction.html)

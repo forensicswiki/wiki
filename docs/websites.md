@@ -45,12 +45,7 @@ Computer forensics, network security, and computer crime podcast.
 Open forum for research in digital forensic issues, hosting annual
 meeting and annual forensics challenge.
 
-[E-Evidence Information Centre](http://www.e-evidence.info/)
-
-An online digital forensics bibliography, updated monthly
-
 [eForensics Magazine](eforensics_magazine.md)
-[eForensics Magazine website](https://eforensicsmag.com/)
 
 Magazine, blog, online courses, community.
 
@@ -60,11 +55,6 @@ Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
 News, blog, forums, and other resources for folks engaged in or
 interested in digital forensics.
-
-[International Association of Computer Investigative Specialists](https://iacis.info/)
-
-Volunteer non-profit corporation composed of law enforcement
-professionals.
 
 [NIST: Secure Hashing](https://csrc.nist.gov/projects/hash-functions)
 

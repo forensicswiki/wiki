@@ -16,8 +16,7 @@ regarding the disk sanitization problem:
 
 ### Canada
 
-* [RCMP TSSIT OPS-II](http://www.rcmp-grc.gc.ca/tsb/pubs/it_sec/g2-003_e.pdf):
-  8 pass wipe.
+* RCMP TSSIT OPS-II: 8 pass wipe.
 
 ### Germany
 
@@ -25,8 +24,7 @@ regarding the disk sanitization problem:
 
 ### Russia
 
-* [Gostechcommission management directive](http://www.internet-law.ru/standarts/safety/gtk009.doc):
-  2 pass with random data.
+* Gostechcommission management directive, 2 pass with random data.
 
 ### UK
 
@@ -34,7 +32,7 @@ regarding the disk sanitization problem:
 
 ### USA
 
-* [NIST 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final):
+* [NIST 800-88](https://csrc.nist.gov/pubs/sp/800/88/r1/final):
   Guidelines for Data Sanitation, Sept 2006.
 * [DoD Destruction](http://simson.net/ref/2001/ASD_HD_Disposition_memo060401.pdf):
   Disposition of Unclassified DoD Computer Hard Drives, Assistant

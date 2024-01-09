@@ -15,21 +15,18 @@ Some examples of full disk encryption:
 
 ### Embedded into internal HDD
 
+- FIPS 140-2 (Federal Information Processing Standard 140-2 certification
+  issued by NIST)
 - FIPS 197 (Federal Information Processing Standard 197 certification
   issued by NIST)
 - [AES-128](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search)
 
 Seagate *Full Disk Encryption* ("FDE")
-<http://www.seagate.com/docs/pdf/marketing/PO-Momentus-FDE.pdf>
 
 Seagate's encrypted drives are only available as OEM products. Seagate
 provides no software to utilize encrypted drive features (such as key
 management). There is a proprietary Windows-only API, but it is not
 available to the public.
-
-- [FIPS 140-2](https://www.seagate.com/de/de/)
-  (Federal Information Processing Standard 140-2 certification issued by
-  NIST)
 
 Toshiba *Self-Encrypting Drives* ("SED")
 
@@ -111,10 +108,6 @@ and IDEA
 Provides complete [hard drive](hard_drive.md) encryption
 including the boot disk.
 
-<https://utimaco.com/products>
-
-[Securstar DriveCrypt](http://www.securstar.com/products_drivecryptpp.php)
-
 [TrueCrypt](truecrypt.md)
 Transparent full disk encryption for [Linux](linux.md) and
 [Windows](windows.md). Supports [AES](aes.md) (256 bit), [Serpent](serpent.md)
@@ -133,8 +126,6 @@ Fork of [TrueCrypt](truecrypt.md) project. Support for for
 The -K option of [OpenBSD](openbsd.md) associates
 and encryption key with the svnd device. Supports saltfiles. Supported
 ciphers: [Blowfish](blowfish.md).
-
-<http://www.openbsd.org/cgi-bin/man.cgi?query=vnconfig&sektion=8>
 
 ## Full Disk Encryption Analysis Tools
 

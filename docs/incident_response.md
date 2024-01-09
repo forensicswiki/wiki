@@ -102,5 +102,5 @@ victims can be easier if they stand out from the crowd.
 ## Books
 
 There are several books available that discuss incident response. For [Windows](windows.md),
-*[Windows Forensics and Incident Recovery](https://www.windows-ir.com/)* by [Harlan Carvey](harlan_carvey.md)
+Windows Forensics and Incident Recovery by [Harlan Carvey](harlan_carvey.md)
 is an introduction to possible scenarios and how to respond to them.

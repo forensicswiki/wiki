@@ -23,7 +23,7 @@ Store does not allow in any application it distributes).
   by [Belkasoft](belkasoft.md) can make iPhone logical acquisition and analyze
   iOS backups and dumps.
 * Cellebrite BlackBag Technology Mobilyze
-* [Cellebrite UFED](https://www.cellebrite.com/forensic-solutions/ios-forensics.html)
+* [Cellebrite UFED](cellebrite_ufed.md)
 * [Elcomsoft Mobile Forensic Bundle](https://www.elcomsoft.com/emfb.html) performs physical,
   logical and over-the-air acquisition.
 * EnCase Neutrino
