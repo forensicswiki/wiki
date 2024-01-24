@@ -56,13 +56,6 @@ attack.
 
 ## External Links
 
-- [Official website](https://www.torproject.org/)
-- [Article in
-  Wikipedia](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
-- [Tor Unreliable Datagram Extension
-  Proposal](https://www.torproject.org/svn/trunk/doc/spec/proposals/100-tor-spec-udp.txt)
-
-<!-- -->
-
-- [Low-Cost Traffic Analysis of Tor (University of
-  Cambridge)](https://murdoch.is/papers/oakland05torta.pdf)
+* [Official website](https://www.torproject.org/)
+* [Wikipedia: Tor (network)](https://en.wikipedia.org/wiki/Tor_(network))
+* [Low-Cost Traffic Analysis of Tor (University of Cambridge)](https://murdoch.is/papers/oakland05torta.pdf)

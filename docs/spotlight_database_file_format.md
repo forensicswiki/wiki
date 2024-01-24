@@ -19,8 +19,6 @@ MacOS has several command line tools to query a Spotlight database
   by Tajvinder Singh Atwal, Mark Scanlon, Nhien-An Le-Khac, October 2018
 * [The user spotlight database](https://www.swiftforensics.com/2018/10/the-user-spotlight-database.html),
   by Yogesh Khatri, October 16, 2018
-* [Shedding Light on the macOS Spotlight Desktop Search Service](https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1564171500.pdf),
-  by Vico Marizale, 2019
 
 ## Tools
 

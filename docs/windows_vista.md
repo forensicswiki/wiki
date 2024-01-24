@@ -60,8 +60,8 @@ with applications at higher level/permission.
 
 ## External Links
 
-- [Windows Vista Network Attack Surface Analysis](https://www.symantec.com/avcenter/reference/Vista_Network_Attack_Surface_RTM.pdf),
-  James Hoagland, Matt Conover, Tim Newsham, Ollie Whitehouse
+- [Windows Vista Network Attack Surface Analysis](https://www.grc.com/sn/files/atr-vistaattacksurface.pdf),
+  by Tim Newsham, James Hoagland
 - [Inside the Windows Vista Kernel: Part 1](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162494(v=msdn.10)),
   by [Mark Russinovich](mark_russinovich.md), February 2007
 - [Inside the Windows Vista Kernel: Part 2](https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc162480(v=msdn.10)?redirectedfrom=MSDN),

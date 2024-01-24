@@ -14,5 +14,5 @@ tags:
 
 - [empire](https://github.com/EmpireProject/Empire), post-exploitation agent
   built in PowerShell.
-- [Securing PowerShell in the Enterprise](http://www.asd.gov.au/publications/protect/Securing_PowerShell.pdf),
+- [Securing PowerShell in the Enterprise](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise),
   by Australian Cyber Security Centre, March 2016

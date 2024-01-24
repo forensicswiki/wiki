@@ -5,7 +5,7 @@ tags:
 ---
 # References
 
-- [Network Applications of Bloom Filters: A Survey](https://www.tandfonline.com/toc/uinm20/current),
+- [Network Applications of Bloom Filters: A Survey](https://www.eecs.harvard.edu/~michaelm/postscripts/im2005b.pdf),
   Andrei Broder and Michael Mitzenmacher, Internet Mathematics Vol. 1,
   No 4: 485--509
 

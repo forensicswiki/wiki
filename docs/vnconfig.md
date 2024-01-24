@@ -11,4 +11,3 @@ the data using the Blowfish cipher before it is written to disk when the
 ## External Links
 
 * [OpenBSD Official website](http://www.openbsd.org/)
-* [OpenBSD Manpages: vnconfig(8)](http://www.openbsd.org/cgi-bin/man.cgi?query=vnconfig&sektion=8)

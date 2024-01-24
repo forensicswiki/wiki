@@ -7,17 +7,29 @@ tags:
 
 # Mandiant
 
-Mandiant is a US-based cybersecurity company that was acquired by Google Cloud in 2022. Mandiant was originally founded as Red Cliff Consulting in 2004 before rebranding in 2006. Mandiant gained significant fame in February 2013 when it released the [APT1 report](https://www.mandiant.com/resources/apt1-exposing-one-of-chinas-cyber-espionage-units), a report detailing and implicating China's efforts, specifically China's 2nd Bureau of the People's Liberation Army (PLA) General Staff Department's (GSD) 3rd Department (Military Cover Designator 61398), in cyber espionage.
+Mandiant is a US-based cybersecurity company that was acquired by Google Cloud
+in 2022. Mandiant was originally founded as Red Cliff Consulting in 2004 before
+rebranding in 2006. Mandiant gained significant fame in February 2013 when it
+released the [APT1 report](https://www.mandiant.com/resources/reports/apt1-exposing-one-chinas-cyber-espionage-units),
+a report detailing and implicating China's efforts, specifically China's 2nd
+Bureau of the People's Liberation Army (PLA) General Staff Department's (GSD)
+3rd Department (Military Cover Designator 61398), in cyber espionage.
 
-In December 2013, Mandiant was acquired by FireEye, and the combined company offered incident response, consulting, and proactive services, managed detection and response (MDR), and various cybersecurity products. The FireEye name and product line were sold to Symphony Technology Group in June 2021.
+In December 2013, Mandiant was acquired by FireEye, and the combined company
+offered incident response, consulting, and proactive services, managed
+detection and response (MDR), and various cybersecurity products. The FireEye
+name and product line were sold to Symphony Technology Group in June 2021.
 
-In March 2022, Google announced its plans to acquire Mandiant and integrate it in Google Cloud. The acquisition was completed in September 2022. The Mandiant brand will be retained as a part of Google Cloud.
+In March 2022, Google announced its plans to acquire Mandiant and integrate it
+in Google Cloud. The acquisition was completed in September 2022. The Mandiant
+brand will be retained as a part of Google Cloud.
 
-Since its inception, Mandiant has significant contributions to the DFIR community, including (but not limited to):
+Since its inception, Mandiant has significant contributions to the DFIR
+community, including (but not limited to):
 
-- Discovery and release of new forensic artifacts.
-- Disclosure of threat intelligence reports and threat actor TTPs.
-- Release and maintenance of free, open or closed source tools.
+* Discovery and release of new forensic artifacts.
+* Disclosure of threat intelligence reports and threat actor TTPs.
+* Release and maintenance of free, open or closed source tools.
 
 ## List of Mandiant Tools
 
@@ -33,4 +45,4 @@ Since its inception, Mandiant has significant contributions to the DFIR communit
 
 ## External Links
 
-[Official website](https://www.mandiant.com/)
+* [Official website](https://www.mandiant.com/)

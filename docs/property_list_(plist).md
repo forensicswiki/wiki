@@ -28,6 +28,5 @@ There are multiple format variations of plists:
 * [libplist](https://github.com/JonathanBeck/libplist)
 * [munki - Managed software installation for OS X](https://code.google.com/archive/p/munki)
   comes with code to handle binary plists
-* [Oxygen Forensic Plist Viewer](oxygen_forensic_plist_viewer.md)
 * [plutil.pl](http://scw.us/iPhone/plutil/)
 * Property List Editor on [Mac OS X](mac_os_x.md)

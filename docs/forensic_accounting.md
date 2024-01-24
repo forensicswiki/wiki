@@ -64,6 +64,5 @@ the final examination needs to be completed.
 
 ## External links
 
-- [Times of India Article on CFAP](https://epaper.timesgroup.com/Repository/ml.asp?Ref=VE9JQkcvMjAwOS8wNS8wNCNBcjAzMjAx)
 - [CFAP Information Powerpoint](https://www.slideshare.net/indiaforensic/certified-forensic-accounting-professional)
 - [Certification programs offered by Indiaforensic](https://www.indiaforensic.com/education/)

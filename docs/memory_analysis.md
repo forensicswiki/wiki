@@ -148,7 +148,7 @@ analysis.
 ### Computer architecture
 
 - [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
-- [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture](https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-vol-1-manual.html),
+- [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture](https://www.intel.com/content/www/us/en/content-details/782158/intel-64-and-ia-32-architectures-software-developer-s-manual-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html),
   by Intel, May 2011
 - [64-Bit Programming Models: Why LP64?](https://unix.org/version2/whatsnew/lp64_wp.html),
   The Open Group, 1997

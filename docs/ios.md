@@ -43,12 +43,10 @@ Podcasts, Recordings and Pictures/Videos taken
 There are several tools available to extract information out of iOS
 operating systems (listed alphabetically):
 
-* Aceso by Radio Tactics
-  [1](https://radio-tactics.com)
+* [Aceso by Radio Tactics](https://radio-tactics.com)
 * [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) by
   [Nuix](nuix.md).
-* Oxygen Forensic Suite by Oxygen Software
-  [4](https://www.oxygen-forensic.com/en/)
+* [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 * UFED and Physical Analyzer by Cellebrite
   [5](https://cellebrite.com/en/home/)
 * XRY by [Micro Systemation](https://www.msab.com/)
