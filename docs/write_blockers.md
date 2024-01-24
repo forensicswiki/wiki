@@ -46,14 +46,12 @@ NIST test results are here:
 
 ## Commercial
 
-[ICS Drive Lock](http://www.ics-iq.com/Super-DriveLock-Write-Blocker-Write-Protector-p/f.gr-0028-0000.htm)
-
-[MyKey Technology, Inc.](http://www.mykeytech.com/) NoWrite FPU and FlashBlock II
+[MyKey Technology, Inc.](https://www.mykeytech.com/) NoWrite FPU and FlashBlock II
 1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
 types - NIST Ver. 2 accepted
 
-[Tableau](tableau.md) write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
-<https://www.guidancesoftware.com/products/Pages/tableau/overview.aspx>
+Tableau write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
+<https://www.opentext.com/products/tableau-forensic-bridges>
 
 WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
 <https://wiebetech.com/products/> NIST Ver. 1 accepted
@@ -73,9 +71,7 @@ open up the case, and speed since they do not become a bottle neck.
 
 ## Commercial
 
-[SAFE Block XP](safe_block_xp.md)
-SAFE Block XP is a software-based write blocker designed for the Windows
-XP Operating System. It comes in both 32 and 64 bit options. NIST Ver.
-1.2 accepted
-
-<https://www.forensicsoft.com/>
+* [SAFE Block XP](safe_block_xp.md)
+  SAFE Block XP is a software-based write blocker designed for the Windows XP
+  Operating System. It comes in both 32 and 64 bit options. NIST Ver. 1.2
+  accepted.

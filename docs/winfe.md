@@ -27,16 +27,15 @@ utilities such as WinBuilder [2](http://reboot.pro).
 Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
 
-- [AccessData FTK Imager](https://www.exterro.com),
-- [Guidance Software Encase](https://www.opentext.com/products/security-cloud),
-- ProDiscover
-- [RegRipper](https://regripper.wordpress.com/).
-- [X-Ways Forensics](https://www.x-ways.net/),
+* [AccessData FTK Imager](https://www.exterro.com),
+* [Guidance Software Encase](https://www.opentext.com/products/security-cloud),
+* ProDiscover
+* [RegRipper](https://regripper.wordpress.com/).
+* [X-Ways Forensics](https://www.x-ways.net/),
 
-A write protection tool developed by Colin Ramsden was released in 2012
-that provides a GUI for disk toggling [3](http://www.ramsdens.org.uk/).
-Colin Ramsden's write protect tool effectively replaces the command line
-to toggle disks on/offline or readonly/readwrite.
+A write protection tool developed by Colin Ramsden was released in 2012 that
+provides a GUI for disk toggling Colin Ramsden's write protect tool effectively
+replaces the command line to toggle disks on/offline or readonly/readwrite.
 
 ## Technical Background and Forensic Soundness
 
@@ -63,7 +62,7 @@ documented 4-byte change to non-user created data. This modification
 exists for non-Windows OS disks, where Windows (FE) will write a Windows
 drive signature to the disk, although it is not shown to be consistent.
 Various issues with Linux Boot CDs can be compared
-[4](forensic_live_cd_issues.md) ).
+[1](forensic_live_cd_issues.md) ).
 
 ## Resources:
 
@@ -71,4 +70,3 @@ Various issues with Linux Boot CDs can be compared
 * [Article on Win FE in Hakin9 magazine 2009-06](https://hakin9.org/)
 * [WinPE Technical Reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11)
 * [Windows Automated Installation Kit](https://www.microsoft.com/en-us/download/details.aspx?id=5753)
-* [WinFE Write Protect tool](http://www.ramsdens.org.uk/)

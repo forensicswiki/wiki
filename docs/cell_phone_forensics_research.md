@@ -11,7 +11,7 @@ forensics with the right mix of methods, techniques, and tools.
 
 [The Future of Mobile Forensics](https://belkasoft.com/future-of-mobile-forensics), Oleg Afonin, Danil Nikolaev, Yuri Gubanov by [Belkasoft](belkasoft.md) Research, June 2015
 
-[Data Acquisition from Cell Phone using Logical Approach](http://www.waset.org/pwaset/v26/v26-6.pdf), Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
+[Data Acquisition from Cell Phone using Logical Approach](https://publications.waset.org/7561/data-acquisition-from-cell-phone-using-logical-approach), Keonwoo Kim, Dowon Hong, Kyoil Chung, and Jae-Cheol Ryou, PROCEEDINGS OF WORLD ACADEMY OF SCIENCE, ENGINEERING AND TECHNOLOGY VOLUME 26 DECEMBER 2007 ISSN 1307-6884
 This article discusses three approaches for acquiring data from cell phones:
 physically removing the flash RAM chips and reading them directly; reading the
 data out using the JTAG interface, and running software on the cell phone to
@@ -25,6 +25,6 @@ by James Luck & Mark Stokes, SMALL SCALE DIGITAL DEVICE FORENSICS JOURNAL, VOL. 
 
 ## US Government Publications
 
-[Guidelines on Cell Phone Forensics](https://csrc.nist.gov/publications/detail/sp/800-101/archive/2007-05-30) (NIST SP 800-101), May 2007
-[Cell Phone Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7250/final) (NISTIR 7250)
-[PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/publications/detail/nistir/7100/final) (NISTIR 7100)
+* [Guidelines on Cell Phone Forensics](https://csrc.nist.gov/pubs/sp/800/101/final) (NIST SP 800-101), May 2007
+* [Cell Phone Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/pubs/ir/7250/final) (NISTIR 7250)
+* [PDA Forensic Tools: An Overview and Analysis](https://csrc.nist.gov/pubs/ir/7100/final) (NISTIR 7100)

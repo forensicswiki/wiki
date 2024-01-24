@@ -51,7 +51,7 @@ Title | Website | Limitation
 AccessData (Forensic Tool Kit FTK) | <https://training.exterro.com> |
 Amped Software (Image & Video forensics - FIVE; Authenticate) | <https://ampedsoftware.com/training> |
 ASR Data (SMART) | <http://www.asrdata.com/forensic-training/overview/> |
-Cellebrite (UFED) | <https://cellebrite.com/en/academy-overview/> |
+Cellebrite (UFED) | <https://cellebrite.com/en/training/> |
 Digital Intelligence (FRED Forensics Platform) | <https://digitalintelligence.com/training/overview> |
 e-fense, Inc. (Helix3 Pro) | <https://www.e-fense.com/> |
 ElcomSoft Co.Ltd. (desktop, mobile and cloud forensics) | <https://www.elcomsoft.com/elcomsoft_trainings.html> |
@@ -69,14 +69,12 @@ X-Ways Forensics (X-Ways Forensics) | <https://www.x-ways.net/training/> |
 
 Title | Website | Limitation
 --- | --- | ---
-BerlaCorp Vehicle System Forensics Training Program | <https://www.berla.co/training/> |
+BerlaCorp Vehicle System Forensics Training Program | <https://berla.co/training/> |
 Computer Forensic Training Center Online (CFTCO) | <http://www.cftco.com/> |
 CCE Bootcamp | <https://www.cce-bootcamp.com/> |
 Cyber Security Academy | <http://cybersecurityacademy.com/> |
 Dera Forensics Group | <http://www.deraforensicgroup.com/courses.htm> |
 e-fense Training | <https://www.e-fense.com> |
-eForensics Magazine | <https://eforensicsmag.com/register-in-wplms/> |
-Elvidence (Computer Forensics & Decryption - Law Enforcement Only) | <https://www.elvidence.com.au/> |
 High Tech Crime Institute | <https://www.gohtci.com/> |
 Infosec Institute | <https://www.infosecinstitute.com/skills/content-library/> |
 Intense School (a subsidiary of Infosec Institute) | <https://www.infosecinstitute.com/> |

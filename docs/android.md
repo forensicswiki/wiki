@@ -53,5 +53,5 @@ tags:
 - [Android developers: SDK Platform release notes](https://developer.android.com/tools/releases/platforms)
 - [Android File Hierarchy : System Structure Architecture Layout](https://www.cnblogs.com/shangdawei/p/4513604.html)
 - [Explore The Android File System Hierarchy In-Depth](https://thesecmaster.com/explore-the-android-file-system-hierarchy-in-depth/)
-- [Practical android phone forensics](https://resources.infosecinstitute.com/topic/practical-android-phone-forensics/),
+- [Practical android phone forensics](https://resources.infosecinstitute.com/topics/digital-forensics/practical-android-phone-forensics/),
   by Hashim Shaikh, July 21, 2017

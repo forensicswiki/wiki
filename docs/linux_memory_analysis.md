@@ -12,7 +12,7 @@ analysis tool is required.
 
 Active Open Source Projects:
 
-- The [Volatility Framework](https://www.volatilesystems.com/default/volatility) is a
+- The [Volatility Framework](volatility_framework.md) is a
   collection of tools, implemented in Python, for the extraction of
   digital artifacts from volatile memory (RAM) samples. See the
   [LinuxMemoryForensics](https://code.google.com/archive/p/volatility/wikis/LinuxMemoryForensics.wiki)

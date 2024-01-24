@@ -90,24 +90,17 @@ export and click "OK"
 5. Select your output type from the bottom list of selections and click
 "Save As..."
 
-## Blackberry IPD File Format (.ipd)
-
-For a more advanced and in depth look at the file format of (.ipd)
-backup files visit the following site.
-
-<https://www.blackberry.com/us/en>
-
 ## Blackberry BBB File Format (Mac OS X) (.bbb)
 
 Blackberry backups generated via Mac OS X are given the extension .bbb,
 these are simply .zip compressed files containing a standard .ipd file.
 
-## Acquisition with Paraben's Device Seizure
+## Acquisition with Paraben Device Seizure
 
-`* You may purchase a copy of Device Seizure on Paraben's Website `[`here`](https://paraben.com/paraben-for-mobile-forensics/)`.`
+More information on [Paraben Device Seizure](paraben_device_seizure.md)
 
 As an alternative to acquiring the Blackberry through Amber Blackberry
-Converter, Paraben's Device Seizure is a simple and effective method to
+Converter, Paraben Device Seizure is a simple and effective method to
 acquire the data. The only drawback, is that this method takes
 significantly more time to acquire than using Amber Blackberry
 Converter.
@@ -136,7 +129,7 @@ Now wait until the program is done acquiring data from the device.
 
 Please Note: In some instances the wait can be up to 30-45 minutes.
 
-## BlackBerry Simulator
+## BlackBerry simulator
 
 `* For simulating a backup copy of the physical device. This is helpful if the device is low on battery, needs to be turned off, `
 `* or you don't want to alter the data on the physical device.`
@@ -145,8 +138,7 @@ This is a step by step guide to downloading and using a BlackBerry
 simulator. In this example the version 4.0.2 was used in order to
 simulate the 7230 series.
 
-1. Select a simulator to download from the drop-down list on the
-[BlackBerry website](https://www.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477).
+1. Download the BlackBerry simulator
 
 - For this example look through the list and download BlackBerry
   Handheld Simulator v4.0.2.51.
@@ -200,7 +192,3 @@ transfer across a USB port.
 ## References
 
 - [phoneMiner](https://www.amraksoftware.com/), phoneMiner
-- [BlackBerry Simulator](https://www.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477),
-  Simulator Download website
-- [IPD](https://www.blackberry.com/us/en),
-  IPD File Format

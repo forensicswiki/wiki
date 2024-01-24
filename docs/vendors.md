@@ -19,7 +19,7 @@ tags:
 * SAFE Boot Disk - Forensically sound Windows boot disk
 * [Guidance Software](guidance_software.md) - [EnCase](encase.md)
 * [LTU Technologies](https://www.ltutech.com/) - LTU-Finder
-* [MaresWare Software](http://www.maresware.com/maresware/software.htm)
+* [MaresWare Software](https://www.maresware.com/maresware/software.htm)
 * [Nuix Pty Ltd](nuix_pty_ltd.md) - [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md)
 * [Oxygen Software](oxygen_software.md)
 * [Paraben Forensics](paraben_forensics.md)

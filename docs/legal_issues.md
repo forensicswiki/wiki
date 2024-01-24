@@ -24,17 +24,14 @@ Services)
 
 US man, Eugene Pitts, found not-guilty of tax evasion after blaming a
 computer virus. Avoids \~\$900,000 in fines.
-[2](https://www.sophos.com/en-us/press-office/press-releases/2003/08/va_virustax)
 
 Karl Schofield walked free from court yesterday after prosecutors
 accepted an expert's report that the "Trojan" program could have saved
 the 14 depraved images off the internet without his knowledge.
-[3](http://www.getreading.co.uk/news/6/6541/program_put_child_porn_pics_on_my_pc)
 
 Julian Green, 45, of Torquay, Devon was cleared in court in July of 13
 charges of making indecent images, claiming computer malware was to
 blame.
-[4](https://www.sophos.com/en-us/press-office/press-releases/2003/08/va_porntrojan)
 
 A former Georgia teacher blames computer viruses for altering his Web
 sites and uploading child porn images. Guilty charge upheld.
@@ -45,20 +42,20 @@ potential pedophile’s computers.
 Bandy’s defense attorney asserted that a “virus” or “trojan” must have
 downloaded the child pornography to Bandy’s computer without his
 knowledge.
-[5](https://www.cnet.com/tech/tech-industry/police-blotter-child-porn-blamed-on-computer-virus/)
+[4](https://www.cnet.com/tech/tech-industry/police-blotter-child-porn-blamed-on-computer-virus/)
 
 A man found with more than 1,700 indecent images of children on his
 computer claimed a virus was to blame, a court heard. But Mark Craney,
 33, from Knowle, was found guilty at Warwick Crown Court on 16 charges
 of making indecent images of children by downloading them onto his
 computer.
-[6](https://www.birminghammail.co.uk/)
+[5](https://www.birminghammail.co.uk/)
 
 More links from previous research.
 
-* [7](http://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
-* [8](http://news.com.com/2100-7349_3-5092781.html)
-* [9](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
+* [6](http://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
+* [7](http://news.com.com/2100-7349_3-5092781.html)
+* [8](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
 
 ## Connecticut v. Amero
 
@@ -79,8 +76,6 @@ conviction was vacated on appeal.
 * [THE TROJAN HORSE DEFENSE IN CYBERCRIME CASES](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2005-15.pdf),
   by Susan W. Brenner, Brian Carrier, and Jef Henninger, in 2004
 * [The "Tools Proven in Court" Question](https://www.cybersecurityinstitute.biz)
-* [When is an Expert Opinion Allowed in Law?](https://www.elvidence.com.au/expert-opinion-in-law/),
-  October 24, 2014
 
 ## Privacy and Surveillance Laws
 

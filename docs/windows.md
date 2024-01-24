@@ -337,7 +337,7 @@ References:
 1.  <https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/>
 2.  <https://www.trellix.com/en-us/about/newsroom/stories/research.html>
 3.  <https://social.technet.microsoft.com/Forums/en-US/fa8fd68e-588b-4cdf-8d6d-8b8c8fe72719/ccmrecentlyusedapps-wmi-class-empty-on-several-thousand-pcs>
-4.  <https://github.com/davehull/Kansa/blob/261bd40ac2ae547855313f777273184a759f01d2/Modules/Process/Get-WMIRecentApps.ps1#L54>
+4.  <https://github.com/davehull/Kansa/blob/261bd40ac2ae547855313f777273184a759f01d2/Modules/Process/Get-WMIRecentApps.ps1>
 
 ### Cryptnet URL Cache
 
@@ -421,17 +421,12 @@ value:
 * [Windows 7, Windows Server 2008 R2, and Windows Vista setup log file locations](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deployment/windows-setup-log-file-locations)
 * [Windows Hardware Dev Center Archive](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/download/dn550976(v=vs.85))
 * [Windows Data Type](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
-* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
-  by Mitchell Machor, 2008
-* [Spotting the Adversary with Windows Event Log Monitoring](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf),
-  by National Security Agency/Central Security Service, February 28, 2013
 * [Search history on Windows 8 and 8.1](https://www.swiftforensics.com/2014/04/search-history-on-windows-8-and-81.html),
   by Yogesh Khatri, April 1, 2014
 * [Search history on windows 8.1 - Part 2](https://www.swiftforensics.com/2014/04/search-history-on-windows-81-part-2.html),
   by Yogesh Khatri, April 21, 2014
-* [Estoteric Hooks](https://www.alex-ionescu.com/Estoteric%20Hooks.pdf)
+* [Estoteric Hooks](https://github.com/ionescu007/HookingNirvana/blob/master/Esoteric%20Hooks.pdf),
   by Alex Ionescu, February 16, 2016
-  ([presentation](https://www.youtube.com/watch?v=pHyWyH804xE))
 * [A brief look at Windows telemetry: CIT aka Customer Interaction Tracker](https://research.nccgroup.com/2022/04/12/a-brief-look-at-windows-telemetry-cit-aka-customer-interaction-tracker/),
   by Erik Schamper, April 12, 2022
 
@@ -444,7 +439,7 @@ value:
 
 * [Lesson 3 – The Recycle Bin](https://www.cybersecurityinstitute.biz),
   by Steve Hailey
-* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://forensicfocus.com/downloads/forensic-analysis-vista-recycle-bin.pdf),
+* [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/articles/forensic-analysis-of-the-microsoft-windows-vista-recycle-bin/),
   by Mitchell Machor, January 22, 2008
 
 ### Malware/Rootkits

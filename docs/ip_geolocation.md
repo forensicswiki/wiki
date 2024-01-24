@@ -13,20 +13,12 @@ pretty well.
 
 ## Commercial Geolocation services
 
-- [IP2Location](https://www.ip2location.com/?AfID=23224) (free query: 20
-  lookups/day)
-- [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases) (free service:
-  GeoLite Country, GeoLite City; free query: 25 lookups/day at
-  <http://www.maxmind.com/app/locate_ip>)
+- [IP2Location](https://www.ip2location.com/?AfID=23224)
+  (free query: 20 lookups/day)
+- [MaxMind](https://www.maxmind.com/en/solutions/ip-geolocation-databases-api-services)
 
 ## Downloadable Data Sets
 
-- [Software 77](http://software77.net/cgi-bin/ip-country/geo-ip.pl)
-- [Quova (commercial)](https://neustarsecurityservices.com/)
-- [CountryHawk (commercial)](http://www.cyscape.com/products/chawk)
-- [Verifia NetGeo (commercial)](http://www.netgeo.com/index.htm)
-- [ActiveTarget (commercial)](http://www.activetarget.com/)
+- [CountryHawk (commercial)](https://www.cyscape.com/products/chawk/)
 - [Java IP (InetAddress) Locator (free lookup library with database)](https://sourceforge.net/projects/javainetlocator/)
-- [CountryWhois DB (commercial)](http://www.tamos.com/products/ip-location-database)
 - [IPAddressGuide](https://www.ipaddressguide.com/)
-- [Nami Media (commercial)](http://www.namimedia.com/geo.htm)

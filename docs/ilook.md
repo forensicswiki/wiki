@@ -92,4 +92,3 @@ using [MD5](md5.md) and FIPS 180-2 compliant algorithms (e.g.
 ## External links
 
 * [ILook Investigator Computer Forensics Software](https://www.ilook-forensics.org/)
-* [XtremeForensics](https://www.xtremeforensics.com/)

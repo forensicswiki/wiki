@@ -32,7 +32,6 @@ tags:
 * [University of Rhode Island](https://web.uri.edu/cs/dfcsc/)
 * University of Texas at San Antonio
 * Utica College
-  [Online](http://www.onlineuticacollege.com/programs/computer-forensics-specialization.asp)\]
 * [Center for Information Security University of Tulsa](http://www.cis.utulsa.edu/)
 * [West Virginia University](https://forensics.wvu.edu/)
 
@@ -40,20 +39,20 @@ tags:
 
 * Cranfield University, UK
 * Limerick Institute of Technology
-* [University of Amsterdam](http://www.studeren.uva.nl/ma-forensic-science)
+* University of Amsterdam
 * University of Bradford
 * University of East London
 * University College Dublin
 * [University of Technology, Mauritius](https://www.utm.ac.mu/)
-* [University of Strathclyde](http://www.strath.ac.uk/science/forensicinformatics/)
+* University of Strathclyde
 * University of Glamorgan, Wales, UK
-* [University of Applied Sciences Albstadt-Sigmaringen, Germany](http://www.digitaleforensik.com),
+* University of Applied Sciences Albstadt-Sigmaringen, Germany
   Master of Science, Digital Forensics, in cooperation with University of
   Mannheim and University of Tübingen, Germany
 
 ## Asia
 
-* [Zayed University UAE](http://www.zu.ac.ae/main/en/colleges/colleges/college_information_technology/graduate_certificate_programs/cr_invest/intro.aspx)
+* Zayed University UAE
 
 ## Australasia
 
@@ -67,5 +66,3 @@ tags:
 
 * [American Academy of Forensic Sciences (AAFS)](https://www.aafs.org/)
 * [Digital Forensics Association List](http://www.digitalforensicsassociation.org/formal-education/)
-* [Forensics Focus List](https://forensicfocus.com/computer-forensics-education-directory)
-* [Master's Thesis: The Development of a Standard Digital Forensics Master's Curriculum](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1010&context=techmasters&sei-redir=1#search=%22katie%20strzempka%20thesis%22)
