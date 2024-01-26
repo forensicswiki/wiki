@@ -41,7 +41,7 @@ Store does not allow in any application it distributes).
 * MacLock Pick
 * Micro Systemation .XRY
 * Mobile Sync Browser
-* [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md) can detect and analyse many databases
+* [Nuix Desktop](nuix_desktop.md) can detect and analyse many databases
   from iOS and iPhones and can directly ingest HFSX dd images.
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 * Paraben Device Seizure

@@ -104,7 +104,7 @@ integer representing the number of microseconds since midnight
 of precision may be more than what is required for a forensic
 application, but the PRTime format can easily be converted into CTime
 format by dividing by 1,000,000. The
-[datetime](https://www.sqlite.org/index.htmllang_datefunc.html) function in SQLite
+[datetime](https://www.sqlite.org/lang_datefunc.html) function in SQLite
 can be used to convert CTime to human readable format, as demonstrated
 in the example below.
 

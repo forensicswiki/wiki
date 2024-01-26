@@ -112,8 +112,6 @@ P2 Power Pack by [Paraben](paraben_forensics.md)
 
 [Prodiscover](prodiscover.md)
 
-[Proof Finder](proof_finder.md) by [Nuix Pty Ltd](nuix_pty_ltd.md)
-
 [Safeback](safeback.md) by NTI and Armor Forensics
 
 [X-Ways Forensics](http://www.x-ways.net/forensics/index-m.html) by [X-Ways AG](x-ways_ag.md)

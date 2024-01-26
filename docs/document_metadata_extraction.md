@@ -105,7 +105,7 @@ many Debian based distributions.
 These general-purpose programs frequently work when the special-purpose
 programs fail, but they generally provide less detailed information.
 
-[Metadact-e](https://www.litera.com/products/legal/metadact/)
+[Metadact-e](https://www.litera.com/products/metadact)
 "Patented server-based metadata cleaning software that previews, cleans
 and converts documents in Microsoft Outlook, Web Access email, tablets
 and smartphones, as well as desktop-based documents."
