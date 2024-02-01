@@ -98,8 +98,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by Paul Bobby
 - [Security Ripcord: Cutaway Security Blog and Projects](https://www.cutawaysecurity.com/),
   by Don C. Weber - [Sketchymoose's Blog](https://sketchymoose.blogspot.com/)
-- [System Forensics](http://survey-smiles.com),
-  by Patrick Olsen
 - [TaoSecurity](https://taosecurity.blogspot.com),
   by Richard Bejtlich
 - [The Apple Examiner](http://www.appleexaminer.com/)

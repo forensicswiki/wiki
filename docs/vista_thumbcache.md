@@ -86,7 +86,6 @@ pictures.pd5 can be extracted using [WPG Viewer](http://www.simplecarver.com/too
 
 ## External Links
 
-* [Forensic Implications of Windows Vista, Barrie Stewart, 2007](http://survey-smiles.com)
 * [Windows Explorer Thumbnail Cache database (thumbcache.db) format](https://github.com/libyal/libwtcdb/blob/main/documentation/Windows%20Explorer%20Thumbnail%20Cache%20database%20format.asciidoc),
   by the [libwtcdb project](libwtcdb.md)
 

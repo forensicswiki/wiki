@@ -51,7 +51,3 @@ original encryption key (or passphrase) are lost. These include:
 It is possible to decrypt files using [ntfsdecrypt](https://github.com/nats/ntfsprogs/blob/master/ntfsprogs/ntfsdecrypt.c)
 tool.  In this case, you should get the private key first (by running *cipher
 /x filename.pfx* on a [Windows](windows.md) system).
-
-# Other References
-
-* <http://survey-smiles.com>

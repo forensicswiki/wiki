@@ -253,11 +253,6 @@ Mac OS.
 * [The Boot Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
   by Apple
 
-### Alias
-
-* [Reversing Mac Alias v3 Data Objects](http://survey-smiles.com),
-  by Patrick Olsen, August 15, 2016
-
 ### Apple Examiner
 
 * [The Apple Examiner](http://www.appleexaminer.com/)

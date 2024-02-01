@@ -23,4 +23,3 @@ Operating System are:
 * [Sun Solaris homepage](https://www.oracle.com/it-infrastructure/)
 * [Sun Blueprints - Using Computer Forensics When Investigating System Attacks](https://www.oracle.com/it-infrastructure/)
 * [Solaris Internals - The UFS File System - specifications, on disk layout](https://www.savvas.com/)
-* [Solaris Internals - Getting to know the Solaris filesystems](http://survey-smiles.com)
