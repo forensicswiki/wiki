@@ -60,7 +60,6 @@ differential images of the previous snapshot.
 ### Snapshots
 
 * [Hyper-V Concepts - Snapshots](https://social.technet.microsoft.com/wiki/contents/articles/670.hyper-v-concepts-snapshots.aspx)
-* [Hyper-V SnapShot Files – AVHD and VHD? What The ?](http://survey-smiles.com)
 * [Manually Merge .avhd to .vhd in Hyper-V](https://social.technet.microsoft.com/wiki/contents/articles/6257.manually-merge-avhd-to-vhd-in-hyper-v.aspx)
 
 ## Tools

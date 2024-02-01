@@ -1181,7 +1181,6 @@ name</a></b></p></td>
 * [Windows Incident Response Articles on Registry](https://windowsir.blogspot.com/search/label/Registry)
 * [Windows Registry Information](https://www.answers.com/redirectSearch?query=win-registry)
 * [Push the Red Button](https://moyix.blogspot.com/search/label/registry)
-* [Security Accounts Manager](http://survey-smiles.com)
 * [Exporting registry hives from a live system](https://dfir.ru/2020/10/03/exporting-registry-hives-from-a-live-system/),
   by Maxim Suhanov, October 3, 2020
 
