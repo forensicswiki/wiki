@@ -2,11 +2,6 @@
 tags:
   - No Category
 ---
-## Image Analysis
-
-[SurfRecon LE rapid image analysis tool](surfrecon_le_rapid_image_analysis_tool.md) by SurfRecon, Inc.
-<https://www.surfrecon.com/>
-
 ## Software Forensics
 
 [CodeSuite](codesuite.md) by Software Analysis & Forensic Engineering

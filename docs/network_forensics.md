@@ -99,7 +99,6 @@ available.
 - [E-Detective](https://www.edecision4u.com/)
 - [InfoWatch Traffic Monitor](https://infowatch.com/)
 - Mera Systems [NetBeholder](https://videonadzor.net/)
-- MFI Soft [SORMovich](http://sormovich.ru/) (in Russian)
 - NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
 - NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
   Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)

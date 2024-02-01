@@ -20,7 +20,7 @@ tags:
 * [Guidance Software](guidance_software.md) - [EnCase](encase.md)
 * [LTU Technologies](https://www.ltutech.com/) - LTU-Finder
 * [MaresWare Software](https://www.maresware.com/maresware/software.htm)
-* [Nuix Pty Ltd](nuix_pty_ltd.md) - [Nuix Desktop](nuix_desktop.md) and [Proof Finder](proof_finder.md)
+* [Nuix Pty Ltd](nuix_pty_ltd.md) - [Nuix Desktop](nuix_desktop.md)
 * [Oxygen Software](oxygen_software.md)
 * [Paraben Forensics](paraben_forensics.md)
 * [ProDiscover](prodiscover.md)

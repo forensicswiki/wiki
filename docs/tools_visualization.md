@@ -170,5 +170,5 @@ Most of the following applications can be used to do visualization.
 * [GNU Free Software directory: Category/Science/scientific-visualization](https://directory.fsf.org/wiki/Category/Science/scientific-visualization)
 * [INSNA's web page of Computer Programs for Social Network Analysis](https://www.insna.org/)
 * [Omnigator](https://ontopia.net/omnigator/models/index.jsp)
-* [VisANT](http://visant.bu.edu/)
+* [VisANT](https://visant-new.bu.edu/visant/visantnet.html)
 * [TouchGraph](https://sourceforge.net/projects/touchgraph/)

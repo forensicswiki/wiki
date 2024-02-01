@@ -2,9 +2,7 @@
 tags:
   - No Category
 ---
-Nuix Desktop is the main product provided by
-[Nuix](nuix_pty_ltd.md), however there is also a "light weight"
-version called [Proof Finder](proof_finder.md). Both capable of
+Nuix Desktop is the main product provided by [Nuix](nuix_pty_ltd.md) capable of
 processing many different formats including:
 
 - EnCase, AccessData and raw dd images.

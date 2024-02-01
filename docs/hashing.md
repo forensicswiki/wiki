@@ -42,8 +42,6 @@ Here are some services that we have been able to find:
 This site is another simple MD5 reverse lookup. It claims a database
 with "billions" of entries. Mostly for password cracking.
 
-[Hash Toolkit](https://hashtoolkit.com/)
-
 ## Online Malware Hash Lookups
 
 [VirusTotal](https://www.virustotal.com/gui/home/search)
