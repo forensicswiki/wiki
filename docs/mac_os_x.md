@@ -270,6 +270,17 @@ Mac OS.
 
 * [iCloud: iCloud security and privacy overview](https://support.apple.com/en-us/102651)
 
+### Background and login items
+
+* [Apple's BookmarkData - exposed!](https://michaellynn.github.io/2015/10/24/apples-bookmarkdata-exposed/),
+  by Michael Lynn, October 24, 2015
+* [Block Blocking Login Items - parsing apple's login item files to detect persistence](https://objective-see.org/blog/blog_0x31.html),
+  by Objective See, July 23, 2018
+* [Mac Alias Format](https://mac-alias.readthedocs.io/en/latest/alias_fmt.html),
+  by mac-alias project
+* [Mac Bookmark Format](https://mac-alias.readthedocs.io/en/latest/bookmark_fmt.html),
+  by mac-alias project
+
 ### ColorSync
 
 * [Technical Note TN2035 - ColorSync on Mac OS X](https://developer.apple.com/library/archive/technotes/tn2035/_index.html)
@@ -281,6 +292,18 @@ Mac OS.
 * [ICC profiles](https://www.color.org/profiles2.xalter)
 * [ICC_Profile Tags](https://exiftool.org/TagNames/ICC_Profile.html)
 * [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html)
+
+### Device Management Profile
+
+* [LoginWindow](https://developer.apple.com/documentation/devicemanagement/loginwindow)
+* [LoginWindowScripts](https://developer.apple.com/documentation/devicemanagement/loginwindowscripts)
+
+### Finder Alias and Bookmark
+
+* [Apple's BookmarkData - exposed!](https://michaellynn.github.io/2015/10/24/apples-bookmarkdata-exposed/),
+  by Michael Lynn, October 24, 2015
+* [Bookmarks, a type of Alias: their access and use](https://eclecticlight.co/2020/05/21/bookmarks-a-type-of-alias-their-access-and-use/)
+* [Explainer: Links, Aliases and Bookmarks](https://eclecticlight.co/2022/01/01/explainer-links-aliases-and-bookmarks/)
 
 ### Quarantine event database
 
