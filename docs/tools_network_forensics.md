@@ -108,7 +108,7 @@ name.
 
 Linux/open-source. Based in India.
 
-[OmniPeek](omnipeek.md) by [WildPackets](wildpackets.md)
+[OmniPeek](omnipeek.md) by WildPackets
 
 OmniPeek is a network forensics tool used to capture, store, and analyze
 historical network traffic.
