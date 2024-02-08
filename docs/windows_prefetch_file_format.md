@@ -436,3 +436,5 @@ been seen. It is currently assumed that this is unused remnant data.
 
 * [Windows Prefetch File (PF) format](https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc),
   by the libssca project
+* [Windows Prefetch: Tech Details of New Research in Section A & B](https://4n6ir.com/2017/03/28/windows-prefetch-tech-details-of-new-research-in-section-a-b.html),
+  by James Habben, March 28, 2017
