@@ -82,6 +82,13 @@ The definition of artifact within computer forensics could be:
 Where digital archaeological roughly refers to computer forensics
 without the forensic (legal) context.
 
+### Forensically sound
+
+"When is digital evidence forensically sound?" defines forensically sound as:
+
+The application of a transparent digital forensic process that preserves the
+original meaning of the data for production in a court of law.
+
 ## See Also
 
 * [Digital evidence](digital_evidence.md)
@@ -96,6 +103,8 @@ without the forensic (legal) context.
 * [Wikipedia: Legal burden of proof](https://en.wikipedia.org/wiki/Legal_burden_of_proof)
 * [Computer Forensics: Digital Forensic Analysis Methodology](https://www.justice.gov/sites/default/files/usao/legacy/2008/02/04/usab5601.pdf),
   from Computer Forensics issue: January 2008 Volume 56 Number 1
+* [When is digital evidence forensically sound?](https://link.springer.com/content/pdf/10.1007/978-0-387-84927-0_1.pdf),
+  by Rodney McKemmish, 2008
 * [Computer Forensics Part 2: Best Practices](http://www.isfs.org.hk/publications/ISFS_ComputerForensics_part2_20090806.pdf),
   by Information Security and Forensics Society (ISFS), August 2009
 * [The Alexiou Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
@@ -104,3 +113,5 @@ without the forensic (legal) context.
   by Maryville University
 * Validation and verification of computer forensic software tools - Searching Function
   by Yinghua Guo, Jill Slay, Jason Beckett, DFRWS 2009
+* [Sources of error in digital forensics](https://www.sciencedirect.com/science/article/pii/S2666281724000027),
+  by Graeme Horsman, Feburary 2024
