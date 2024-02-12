@@ -5,21 +5,39 @@ tags:
 This page describes large-scale corpora of forensically interesting
 information that are available for those involved in forensic research.
 
-# Disk Images
+# Storage media images and files
 
-## Real Data Corpus
+## BelkaCTF
 
-Between 1998 and 2006, [Garfinkel](simson_garfinkel.md) acquired
-1250+ hard drives on the secondary market. These hard drive images have
-proven invaluable in performing a range of studies such as the
-developing of new forensic techniques and the [sanitization practices](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)
-of computer users.
+[BelkaCTF](https://belkasoft.com/ctf)
+
+## Canterbury Corpus
+
+The [Canterbury Corpus](https://corpus.canterbury.ac.nz/) is a set of
+files used for testing lossless compression algorithms. The corpus
+consists of 11 natural files, 4 artificial files, 3 large files, and a
+file with the first million digits of pi. You can also find a copyof
+the Calgaruy Corpus at the website, which was the defacto standard for
+testing lossless compression algorithms in the 1990s.
 
 ## Computer Forensic Reference Data Sets (CFReDS)
 
 The [Computer Forensic Reference Data Sets (CFReDS)](https://cfreds.nist.gov/)
 project from [NIST](national_institute_of_standards_and_technology.md) hosts
 sample cases that may be useful for examiners to practice with.
+
+## Digital corpora
+
+Under an NSF grant, Kam Woods and [Simson Garfinkel](simson_garfinkel.md)
+created a website for [digital corpora](https://digitalcorpora.org/). The
+site includes a complete training scenario, including disk images, packet
+captures and exercises.
+
+## Digital Forensic Research Workshop (DFRWS)
+
+The Digital Forensic Research Workshop's rodeos and [challenges](https://dfrws.org/forensic-challenges/).
+
+Also see: [DFRWS GitHub organization](https://github.com/dfrws)
 
 ## Digital Forensics Tool Testing Images
 
@@ -34,23 +52,7 @@ Lance Mueller has created some disk images; they can be downloaded from his blog
 * [Practical 3](https://www.forensickb.com/2010/01/forensic-practical-exercise-3.html)
 * [Practical 4](https://www.forensickb.com/2010/06/forensic-practical-exercise-4.html)
 
-## Linux LEO
-
-Barry Grundy created some disk images as parts of a [Linux-based forensics tutorial](https://linuxleo.com/).
-
-## Digital Forensic Research Workshop (DFRWS)
-
-The Digital Forensic Research Workshop's rodeos and Challenges. Several of the
-rodeos and Challenges from DFRWS released their data and scenario writeups. The
-following had disk images as parts of their scenario:
-
-* 2005 Rodeo, hosted on [CFReDS](https://cfreds.nist.gov/dfrws/Rhino_Hunt.html)
-* 2008 Rodeo
-* 2009 Rodeo
-* 2009 Challenge
-* 2011 Challenge
-
-## The Honeynet Project
+## Honeynet Project
 
 In 2001 the Honeynet project distributed a set of disk images and asked
 participants to conduct a forensic analysis of a compromised computer.
@@ -65,9 +67,30 @@ Sleuth Kit's Wiki lists Brian Carrier's responses to those challenges.
 
 [Case Studies - Honeynet Challenges](https://wiki.sleuthkit.org/index.php?title=Case_Studies)
 
-## BelkaCTF
+## Linux LEO
 
-[BelkaCTF](https://belkasoft.com/ctf)
+Barry Grundy created some disk images as parts of a [Linux-based forensics tutorial](https://linuxleo.com/).
+
+## Network Data Repository
+
+UCI's [Network Data Repository](http://networkdata.ics.uci.edu/resources.php)
+provides data sets of a diverse set of networks. Some of the networks are
+related to computers, some aren't.
+
+## Real Data Corpus
+
+Between 1998 and 2006, [Garfinkel](simson_garfinkel.md) acquired
+1250+ hard drives on the secondary market. These hard drive images have
+proven invaluable in performing a range of studies such as the
+developing of new forensic techniques and the [sanitization practices](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)
+of computer users.
+
+## UMass Trace Repository
+
+The [UMass Trace Repository](https://traces.cs.umass.edu/index.php/Main/HomePage)
+provides network, storage, and other traces to the research community
+for analysis. The UMass Trace Repository is supported by grant
+\#CNS-323597 from the National Science Foundation.
 
 # Network Packets and Traces
 
@@ -87,9 +110,7 @@ developed for the purpose of the evaluation.
 ## Wireshark
 
 The open source Wireshark project (formerly known as Ethereal) has a
-website with many network packet captures:
-
-* <https://wiki.wireshark.org/SampleCaptures>
+website with many network packet [sample captures](https://wiki.wireshark.org/SampleCaptures).
 
 ## NFS Packets
 
@@ -107,11 +128,9 @@ a Git repository.
 
 # Email messages
 
-*The Enron Corpus* of email messages that were seized by the Federal
-Energy Regulatory Commission during its investigation of Enron.
-
-* <http://www.cs.cmu.edu/~enron>
-* <http://www.enronemail.com/>
+[The Enron Corpus](https://www.cs.cmu.edu/~enron/) of email messages that were
+seized by the Federal Energy Regulatory Commission during its investigation of
+Enron.
 
 The NIST **TextREtrieval Conference 2007** has released a public Spam
 corpus:
@@ -181,38 +200,19 @@ of meeting recordings.
 
 ## Other Corpora
 
-* Under an NSF grant, Kam Woods and [Simson Garfinkel](simson_garfinkel.md)
-  created a website for [digital corpora](https://digitalcorpora.org/). The
-  site includes a complete training scenario, including disk images, packet
-  captures and exercises.
-
-* The [Canterbury Corpus](https://corpus.canterbury.ac.nz/) is a set of
-  files used for testing lossless compression algorithms. The corpus
-  consists of 11 natural files, 4 artificial files, 3 large files, and a
-  file with the first million digits of pi. You can also find a copyof
-  the Calgaruy Corpus at the website, which was the defacto standard for
-  testing lossless compression algorithms in the 1990s.
-
-* The [UMass Trace Repository](https://traces.cs.umass.edu/index.php/Main/HomePage)
-  provides network, storage, and other traces to the research community
-  for analysis. The UMass Trace Repository is supported by grant
-  \#CNS-323597 from the National Science Foundation.
-
-* [Sony has made 60TB of Everquest 2 logs available to researchers.](https://arstechnica.com/gaming/2009/02/aaas-60tb-of-behavioral-data-the-everquest-2-server-logs/)
-  What's there? "everything."
-
-* UCI's [Network Data Repository](http://networkdata.ics.uci.edu/resources.php)
-  provides data sets of a diverse set of networks. Some of the networks are
-  related to computers, some aren't.
-
-* [UT San Antonio Digital Corpora](https://downloads.digitalcorpora.org/corpora/files/filetypes1/)
-
-# External Links
-
-* [Forensic Focus - Test Images and Forensic Challenges](https://www.forensicfocus.com/challenges-and-images/)
-* [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
-* [Second Look - Linux Memory Images](https://secondlookforensics.com/linux-memory-images/)
-* [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)
 * [Daily Blog \#277: Sample Forensic Images](https://www.hecfblog.com/2014/03/daily-blog-277-sample-forensic-images.html)
+* [California Cybersecurity Institute - 2019 Digital Forensics Downloads](https://cci.calpoly.edu/2019-digital-forensics-downloads)
+* [Circl.lu - Digital Forensic - Training Materials](https://www.circl.lu/services/forensic-training-materials/)
+* [Forensic Focus - Test Images and Forensic Challenges](https://www.forensicfocus.com/challenges-and-images/)
 * [ForGe – Computer Forensic Test Image Generator](https://www.forensicfocus.com/articles/forge-computer-forensic-test-image-generator/),
   by Hunnu Visti, October 18, 2013
+* [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
+* [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)
+* [Digital Forensics Workbook - Data sets](https://www.digitalforensicsworkbook.com/data-sets),
+  by Michael Robinson, 2015
+* [Digital Forensic Challenge Images (Datasets)](https://www.ashemery.com/dfir.html),
+  by Ali Hadi
+* [Linux Forensics - Workshops](https://linuxdfir.ashemery.com/Workshops/)
+* [Second Look - Linux Memory Images](https://secondlookforensics.com/linux-memory-images/)
+* [Sony has made 60TB of Everquest 2 logs available to researchers.](https://arstechnica.com/gaming/2009/02/aaas-60tb-of-behavioral-data-the-everquest-2-server-logs/)
+* [UT San Antonio Digital Corpora](https://downloads.digitalcorpora.org/corpora/files/filetypes1/)
