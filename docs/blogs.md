@@ -18,8 +18,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md) and others
 - [Another Forensics Blog](https://az4n6.blogspot.com/),
   by Mari DeGrazia
-- [Apple Examiner](http://www.appleexaminer.com/)
-  by [Eric Zimmerman](eric_zimmerman.md)
 - [BriMor Labs Blog](https://www.brimorlabsblog.com/)
 - [c-skills](https://c-skills.blogspot.com/),
   by Sebastian Krahmer
@@ -100,7 +98,6 @@ like: blogs, fora, tweets, tools and challenges (and test images).
   by Don C. Weber - [Sketchymoose's Blog](https://sketchymoose.blogspot.com/)
 - [TaoSecurity](https://taosecurity.blogspot.com),
   by Richard Bejtlich
-- [The Apple Examiner](http://www.appleexaminer.com/)
 - [The Digital Standard](https://thedigitalstandard.blogspot.com/),
   by Chris Pogue
 - [UNIX, OpenVMS and Windows System Administration, Digital Forensics, High Performance Computing, Clustering and Distributed Systems](http://blog.boreas.ro/),

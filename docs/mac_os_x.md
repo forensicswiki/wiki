@@ -243,7 +243,6 @@ Mac OS.
 * [Wikipedia entry on OS X](https://en.wikipedia.org/wiki/OS_X)
 * [Inside Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
   by Apple Computer, Inc., 1993
-* [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/)
 * [Command Line ALF on Mac OS X](https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
 * [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
@@ -252,13 +251,6 @@ Mac OS.
   by Jonathan Levin
 * [The Boot Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
   by Apple
-
-### Apple Examiner
-
-* [The Apple Examiner](http://www.appleexaminer.com/)
-* [USB Entries on OS X](http://www.appleexaminer.com)
-* [Macintosh Forensics - A Guide for the Forensically Sound Examination of a Macintosh Computer](http://www.appleexaminer.com),
-  by Ryan R. Kubasiak
 
 ### EFI
 
@@ -308,6 +300,16 @@ Mac OS.
 ### Quarantine event database
 
 * [Quarantine event database](https://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/)
+
+### NSKeyedArchiver
+
+* [NSKeyedArchiver - An encoder that stores an object’s data to an archive referenced by keys](https://developer.apple.com/documentation/foundation/nskeyedarchiver)
+* [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/),
+  by Alex Caithness, April 4, 2012
+* [Manual Analysis of ‘NSKeyedArchiver’ Formatted Plist Files - A Review of the NEW OS X 10.11 "Recent Items"](http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items),
+  January 01, 2016
+* [How NSCoding and NSKeyedArchiver/Unarchiver Work Together to Encode/Decode Object](https://crystalminds.medium.com/how-nscoding-and-nskeyedarchiver-unarchiver-work-together-to-encode-decode-objects-7f54801ab634),
+  by Mark van Wijnen, August 16, 2022
 
 ### Unified logging
 

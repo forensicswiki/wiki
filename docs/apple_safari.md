@@ -73,10 +73,6 @@ This file uses the [SQLite database format](sqlite_database_format.md).
 
 ## External Links
 
-* [Safari Cache Revisited](http://www.appleexaminer.com)
-  by Sean Cavanaugh
-* [Analyzing Apple Safari Artifacts](http://www.appleexaminer.com),
-  by Selena Ley
 * [iOS / macOS - Tracking Downloads from Safari Without Downloads](https://blog.d204n6.com/2021/05/ios-macos-tracking-downloads-from.html)
   by Scott Vance, Friday, 28 May 2021
 
