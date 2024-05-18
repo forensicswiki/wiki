@@ -172,7 +172,7 @@ keys and values that provides a wealth of information to forensic
 systems. They contain thumbnails of images or documents and can be of
 great value for the [investigator](investigator.md).
 
-See also: [Vista thumbcache](vista_thumbcache.md).
+See also: [Windows thumbcache](windows_thumbcache.md).
 
 ### Browser Cache
 

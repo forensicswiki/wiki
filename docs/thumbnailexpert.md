@@ -75,7 +75,7 @@ caches of many programs.
 - Windows Seven Explorer (c) Microsoft - thumbcache_idx.db,
   thumbcache_1024.db, thumbcache_256.db, thumbcache_96.db,
   thumbcache_32.db
-- [Windows Vista Explorer](vista_thumbcache.md) Microsoft -
+- [Windows Vista Explorer](windows_thumbcache.md) Microsoft -
   thumbcache_idx.db, thumbcache_1024.db, thumbcache_256.db,
   thumbcache_96.db, thumbcache_32.db
 - WinNc (c) Dunes MulitMedia, Inc. - WinNcThumbs.db
