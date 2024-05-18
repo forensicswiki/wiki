@@ -47,8 +47,7 @@ _Note: Outputs do not include spaces between values and pipes; we have inserted 
 ---
 
 ## Known Issues
-<!-- Issues have been merged from multiple files. Also, issues may apply to The Sleuth Kit more than body files - must reconcile. 
-NOTE: Nov/Dec 2022, validate if each is still an issue -->
+
 Known shortcomings with body file format are:
 
 * Undocumented granularity of timestamp, current implementation by
@@ -58,7 +57,7 @@ Known shortcomings with body file format are:
 * Undocumented and inconsistent application of owner identifier (UID). See [here](https://github.com/sleuthkit/sleuthkit/issues/1830).
 * Date and time values do not indicate a time zone or if daylight savings applies. Timestamps can be in either UTC or local time depending on the original file system.
 * Body file encoding is not specified, UTF-8 is assumed.
-  * It is unclear how "invalid" Unicode characters should be handled, such as unpaired surrogates in NTFS file names.
+    * It is unclear how "invalid" Unicode characters should be handled, such as unpaired surrogates in NTFS file names.
 * The name field can contain `($FILE_NAME)` to indicate the body file entry was derived from a NTFS `$FILE_NAME` attribute instead of `$STANDARD_INFORMATION` and `$DATA` attributes. Note that the exact behavior is not documented by the Sleuth Kit project.
 * The `name` field can contain `-> symbolic_link_target` but `fls` does not appear to support this for NTFS. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/2645).
 * It is unclear if the symbolic link target can be used in combination with the `($FILE_NAME)` suffix.
@@ -72,8 +71,8 @@ Known shortcomings with body file format are:
 * The Sleuth Kit currently does not correctly identify symbolic links for NTFS in the body file output. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/2645).
 * The `atime`, `mtime`, `ctime`, and `crtime` typically contain the number of seconds since January 1, 1970. It is unknown if a fractional part is allowed by specification. The corresponding mactime tool does allow for a fractional part to be present but ignores it. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/1810). _This limits the usefulness of the format for timelines with a vast amount of sub-second activity._
 * The format of the MD5 field is undefined, however documentation indicates:
-  * If hashing is disabled, the value will be `0`.
-  * If hashing is enabled, but no MD5 was calculated, the value will be `00000000000000000000000000000000`. See [here](https://github.com/sleuthkit/sleuthkit/issues/2058).
+    * If hashing is disabled, the value will be `0`.
+    * If hashing is enabled, but no MD5 was calculated, the value will be `00000000000000000000000000000000`. See [here](https://github.com/sleuthkit/sleuthkit/issues/2058).
 
 ### NTFS
 
@@ -85,18 +84,17 @@ Known shortcomings with body file format are:
   corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c).
 * For hard links on HFS+ the Catalog Node Identifier (CNID) of the link target (indirect node) file record is used instead as the `inode` value instead of the CNID of the (hard link) file record itself. This matches the behavior of Mac OS (file) stat as described [here](https://developer.apple.com/library/archive/technotes/tn/tn1150.html), in the section "Hard Links".
 * For HFS+ the MD5 calculation of `fls` includes:
-  * Regular files
-  * symbolic links (content of the data stream of the symbolic link not its target)
-  * "Virtual metadata files" like `$CatalogFile`
+    * Regular files
+    * symbolic links (content of the data stream of the symbolic link not its target)
+    * "Virtual metadata files" like `$CatalogFile`
 
 ### ext2, ext3 and ext4
 
 * For ext2, ext3 and ext4 the MD5 calculation of `fls` includes:
-  * Regular files
-  * Directories (contents of the directory entries data stream)
-  * Symbolic links (content of the data stream of the symbolic link not its
-  target)
-  * "Virtual metadata files/directories" like `$OrphanFiles`
+    * Regular files
+    * Directories (contents of the directory entries data stream)
+    * Symbolic links (content of the data stream of the symbolic link not its target)
+    * "Virtual metadata files/directories" like `$OrphanFiles`
 
 ## Output Format
 
@@ -164,5 +162,5 @@ _Note that due to an issue within The Sleuth Kit, NTFS metadata addresses for `$
 
 ## External Links
 
-* [Body file - Sleuth KitWiki](http://wiki.sleuthkit.org/index.php?title=Body_file)
+* [Body file - SleuthKit Wiki](http://wiki.sleuthkit.org/index.php?title=Body_file)
 * [Bodyfile format](https://dfimagetools.readthedocs.io/en/latest/sources/Bodyfile-format.html), by dfImageTools project
