@@ -32,7 +32,7 @@ files.
 
 # Windows Vista/7
 
-*See [Vista thumbcache](vista_thumbcache.md)*
+*See [Windows thumbcache](windows_thumbcache.md)*
 
 Thumbs.db no longer exists in Vista/7 as individual files. This data has
 been moved to a centralized database located in

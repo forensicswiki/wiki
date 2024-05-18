@@ -11,7 +11,7 @@ See [Thumbs.db](thumbs.db.md).
 
 ## [Windows](windows.md) Vista
 
-*See [Vista thumbcache](vista_thumbcache.md)*
+*See [Windows thumbcache](windows_thumbcache.md)*
 
 Thumbs.db no longer exists in Vista. This data has been moved to
 *\Users\\\AppData\Local\Microsoft\Windows\Explorer*

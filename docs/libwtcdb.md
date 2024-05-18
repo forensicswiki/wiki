@@ -6,8 +6,8 @@ tags:
   -  LGPL
 ---
 The **libwtcdb** package contains a library and applications to read the
-[Windows Explorer Thumbnail Cache database (thumbcache.db)
-format](vista_thumbcache.md) format.
+[Windows Explorer Thumbnail Cache database (thumbcache.db) format](windows_thumbcache.md)
+format.
 
 ## Tools
 
@@ -18,10 +18,9 @@ The **libwtcdb** package contains the following tools:
 
 ## See Also
 
-- [Windows Explorer Thumbnail Cache database (thumbcache.db)
-  format](vista_thumbcache.md)
+* [Windows Explorer Thumbnail Cache database (thumbcache.db) format](windows_thumbcache.md)
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libwtcdb/)
+* [Project site](https://github.com/libyal/libwtcdb/)
 
