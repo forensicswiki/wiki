@@ -15,7 +15,21 @@ The Bat! v3
     MIME-Version: 1.0
     Content-Type: text/plain; charset=us-ascii
     Content-Transfer-Encoding: 7bit
+    Content-Type: multipart/mixed; boundary="----------069134143049E2085"
 
+    
+Message-ID format:
+
+`Message-ID` consists of 4 parts
+
+* A random string of numbers
+* A timestamp of the format YYYYmmDDHHMMSS
+* The `@` symbol
+* The domain of the sending host
+
+As at March 2025, there is [an interesting nuance](https://www.bentasker.co.uk/posts/blog/security/seducing-a-romance-scammer.html#scheduled-sending) in `Message-ID` when used with the mail agent's [Postponed Sending](https://www.ritlabs.com/en/products/thebat/postponed.php) feature. When a mail's sending is postponed, the `Date` header will be updated accordingly, but the timestamp within the Message ID _will not_.
+
+    
 ## External Links
 
 ## Tools
