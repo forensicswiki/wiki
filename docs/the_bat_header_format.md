@@ -5,11 +5,9 @@ tags:
 ---
 The Bat! v3
 
-    Date: Mon, 6 Aug 2007 00:41:44 +0200
+    Date: Fri, 7 Feb 2025 15:23:52 +0300
     From: Username <username@sendinghost.com>
-    X-Mailer: The Bat! (v3.95.8) Professional
-    X-Priority: 3 (Normal)
-    Message-ID: <1398886086.20070806004144@sendinghost.com>
+    Message-ID: <1066947962.20250207152352@gmail.com>
     To: Username <username@receivinghost.com>
     Subject: header test. the bat
     MIME-Version: 1.0
@@ -17,7 +15,6 @@ The Bat! v3
     Content-Transfer-Encoding: 7bit
     Content-Type: multipart/mixed; boundary="----------069134143049E2085"
 
-    
 Message-ID format:
 
 `Message-ID` consists of 4 parts
