@@ -7,8 +7,8 @@ tags:
   - Quality Assurance
 ---
 **SOLVE-IT** (Systematic Objective-based Listing of Various Established 
-(Digital) Investigation Techniques) is an open source knowledge base for 
-and by the digital forensic community that describes and indexes techniques 
+(Digital) Investigation Techniques) is a knowledge base for 
+and by the digital forensic community, supported by [DFRWS.org](digital_forensic_research_workshop.md), that describes and indexes techniques 
 available to digital forensic investigators during an examination.
 
 Uniquely, it also describes potential weakness at each stage of a digital 
