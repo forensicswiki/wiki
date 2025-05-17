@@ -55,7 +55,7 @@ Listing of Various Established [Digital] Investigation Techniques
 mitigation for digital evidence. This initiative was started by the 
 community at DFRWS US 2023, and formally launched at DFRWS EU 2025 
 and presented as “SOLVE-IT: A proposed digital forensic knowledge 
-base inspired by MITRE ATT&CK.”
+base inspired by MITRE ATT&CK®.”
 
 ## Support and Sponsorship
 
@@ -79,26 +79,16 @@ data created by volunteer conference organizers to advance research
 and development  in emerging areas of Digital Forensics. These 
 challenges have spawned new specializations and capabilities, 
 including Windows Memory Forensics, Linux Memory Forensics, File 
-Carving, Mobile Device Forensics, Malware Forensics, and IoT Forensics. 
-Anyone can submit their analysis and tools that they created for a DFRWS 
-Forensic Challenge. Winners are chosen by a committee and prizes include 
-free registration for the DFRWS conference that year and grand prizes
-for exceptional contributions to the field.
+Carving, Mobile Device Forensics, Flash Memory Forensics, Malware 
+Forensics, IoT Forensics, and Industrial Control Systems. Anyone 
+can submit their analysis and tools that they created for a DFRWS 
+Forensic Challenge. Winners are chosen by a committee and prizes 
+include free registration for the DFRWS conference that year and 
+grand prizes for exceptional contributions to the field.
 
-| Year | Topic | Impact |
-| ------------- |:-------------:|:-------------:|
-| 2005 | Windows Memory Analysis | Spawned new DFIR capabilities and supporting tools, including [Volatility](https://forensics.wiki/volatility_framework/) |
-| 2006-2007 | File Carving | Advance of file carving techniques and tools, including [Scalpel](https://forensics.wiki/scalpel/)|
-| 2008 | Linux Memory Analysis | Extended memory forensic capabilities and tools |
-| 2009 | Playstation Analysis | Extended forensic analysis of gaming systems |
-| 2010 | Flash Memory Analysis | Extended mobile forensic capabilities and tools |
-| 2011 | Android Device Analysis | Advanced Android forensic techniques and tools |
-| 2012-2013 | Data block classifiers | Extended file carving and content salvaging capabilities and supporting tools |
-| 2014 | Android Malware Analysis | Advanced Android forensic techniques and malware analysis |
-| 2015 | GPU Memory Analysis | Extended memory forensic capabilities and supporting tools |
-| 2016 | Software Defined Network | Advanced forensic capabilities and associated tools for Software Defined Network (SDN) analysis |
-| 2017-2021 | IoT Forensic Analysis | IoT scenarios and datasets included a variety of devices and network traffic, and advanced in complexity each year, capped with a meta challenge of Multisource Analysis & Correlation |
-| 2023 | Industrial Control Systems | Advanced forensic analysis capabilities for Industrial Control Systems (ICS), including network traffic analysis and device memory.|  
+Forensic Challenge datasets and results are available via the [DFRWS
+GitHub account](https://github.com/dfrws/)
+
 
 ## External Links
 
