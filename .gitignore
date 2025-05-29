@@ -1,0 +1,6 @@
+# Files to ignore by git.
+
+# Specific auto-generated build files
+/.tox
+/docs/index.rst
+/dist
