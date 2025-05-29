@@ -1,0 +1,931 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>File format identification - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              File format identification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#libmagic" class="md-nav__link">
+    <span class="md-ellipsis">
+      libmagic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#digital-preservation-efforts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Digital Preservation Efforts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trid-file-identifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      TrID - File Identifier
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forensic-innovations-file-investigator-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forensic Innovations File Investigator TOOLS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stellentoracle-outside-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stellent/Oracle Outside-In
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toolsley-file-identifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Toolsley File Identifier
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falstaff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falstaff
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apache-tika" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apache Tika
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+<p>File Format Identification is the process of figuring out the format of
+a sequence of bytes. Operating systems typically do this by file
+extension or by embedded MIME information. Forensic applications need to
+identify file types by content.</p>
+<h1 id="tools">Tools</h1>
+<h2 id="libmagic">libmagic</h2>
+<ul>
+<li>Written in C.</li>
+<li>Rules in /usr/share/file/magic and compiled at runtime.</li>
+<li>Powers the Unix “file” command, but you can also call the library
+  directly from a C program.</li>
+<li><a href="https://sourceforge.net/projects/libmagic">https://sourceforge.net/projects/libmagic</a></li>
+</ul>
+<h2 id="digital-preservation-efforts">Digital Preservation Efforts</h2>
+<p>PRONOM is a project of the National Archives of the United Kingdom to
+develop a registry of file types. A similar project was started by JSTOR
+and Harvard as the JSTOR/Harvard Object Validation Environment. Attempts
+are now underway to merge these two efforts in the Global Digital Format
+Registry and the Universal Digital Format Registry.</p>
+<p>The UK National Archives developed the Digital Record Object
+Identification (DROID) tool, an "automatic file format identification
+tool." This tool is written in Java and can be downloaded from
+SourgeForge.</p>
+<p>See:</p>
+<ul>
+<li><a href="https://www.nationalarchives.gov.uk/PRONOM/Default.aspx">PRONOM</a></li>
+<li><a href="https://jhove.openpreservation.org/">JHOVE</a></li>
+<li><a href="https://www.gdfr.info/">GDFR</a></li>
+<li><a href="https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/">UDFR</a></li>
+<li><a href="https://sourceforge.net/projects/droid/">DROID download</a></li>
+</ul>
+<h2 id="trid-file-identifier">TrID - File Identifier</h2>
+<ul>
+<li>Recognize over 9.000 file formats</li>
+<li>XML formats definitions, compiled to a single container</li>
+<li>New filetypes can be added in an automated way, simply scanning a
+  group of files</li>
+<li>Win32, Linux/x86 &amp; x86-64; closed source; free for non-commercial use</li>
+<li><a href="https://mark0.net/soft-trid-e.html">https://mark0.net/soft-trid-e.html</a></li>
+</ul>
+<h2 id="forensic-innovations-file-investigator-tools">Forensic Innovations File Investigator TOOLS</h2>
+<ul>
+<li>Proprietary, but free trial available.</li>
+<li>Available as consumer applications and OEM API.</li>
+<li>Identifies 3,000+ file types, using multiple methods to maintain high
+  accuracy.</li>
+<li>Extracts metadata for many of the supported file types.</li>
+</ul>
+<h2 id="stellentoracle-outside-in">Stellent/Oracle Outside-In</h2>
+<ul>
+<li>Proprietary but free demo.</li>
+<li><a href="https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html">https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html</a></li>
+</ul>
+<h2 id="toolsley-file-identifier">Toolsley File Identifier</h2>
+<ul>
+<li>Free</li>
+<li>Runs in the browser</li>
+<li>HTML5/JS port of the UNIX "file" tool and libmagic</li>
+<li><a href="https://www.toolsley.com/file.html">https://www.toolsley.com/file.html</a></li>
+</ul>
+<h2 id="falstaff">Falstaff</h2>
+<ul>
+<li>Free</li>
+<li>Online</li>
+<li>Based on machine learning techniques, uses multiple file features</li>
+<li>Uses novel signatures computed from file format samples</li>
+<li>Identifications are linked to the <a href="http://fileformats.archiveteam.org/wiki/Main_Page">file formats archive</a>
+  ontology</li>
+</ul>
+<h2 id="apache-tika">Apache Tika</h2>
+<ul>
+<li>Free (Apache v2.0 License)</li>
+<li>The Apache Tika™ toolkit detects and extracts metadata and text from
+  over a thousand different file types</li>
+<li><a href="https://tika.apache.org/">https://tika.apache.org/</a></li>
+</ul>
+<h1 id="data-sets">Data Sets</h1>
+<p>If you are working in the field of file format identification, please
+consider reporting the results of your algorithm with one of these
+publicly available data sets:</p>
+<ul>
+<li>NPS govdocs1m - a corpus of 1 million files that can be redistributed
+  without concern of copyright or PII. Download from the <a href="https://digitalcorpora.org/corpora/file-corpora/files/">Digital Coprora website</a></li>
+<li>The NPS Disk Corpus - a corpus of realistic disk images that contain
+  no PII. Information is at: <a href="https://digitalcorpora.org/?s=nps">https://digitalcorpora.org/?s=nps</a></li>
+</ul>
+<h1 id="bibliography">Bibliography</h1>
+<p>Current research papers on the file format identification problem. Most
+of these papers concern themselves with identifying file format of a few
+file sectors, rather than an entire file. <strong>Please note that this
+bibliography is in chronological order!</strong></p>
+<p>2001</p>
+<ul>
+<li>Automatic File Type Detection Algorithm,
+  by M. McDaniel, Masters Thesis, James Madison University, 2001</li>
+</ul>
+<p>2003</p>
+<ul>
+<li><a href="https://ieeexplore.ieee.org/document/1174905">Content Based File Type Detection Algorithms</a>,
+  by M.  McDaniel and M.H. Heydari, 36th Annual Hawaii International Conference
+  on System Sciences (HICSS'03) - Track 9, 2003.</li>
+</ul>
+<p>2005</p>
+<ul>
+<li>Fileprints: identifying file types by n-gram analysis, LiWei-Jen, Wang
+  Ke, Stolfo SJ, Herzog B.., Proceeding of the 2005 IEEE workshop on
+  information assurance, 2005.
+  (<a href="https://academiccommons.columbia.edu/doi/10.7916/D86M3DJC">PDF</a>)</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>D.J. Hickok, D.R.Lesniak, M.C. Rowe, File Type Detection Technology,
+  2005 Midwest Instruction and Computing
+  Symposium.(<a href="https://www.micsymposium.org/mics_2005/papers/paper7.pdf">PDF</a>)</li>
+</ul>
+<p>2006</p>
+<ul>
+<li>K. Martin, N. Shahmehri, File type identification of data fragments by their
+  binary structure, Proceedings of the IEEE workshop on information assurance,
+  pp.140–147, 2006. (<a href="https://ieeexplore.ieee.org/document/1652088">link</a>)</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>G.A. Hall, Sliding Window Measurement for File Type Identification,
+  Computer Forensics and Intrusion Analysis Group, ManTech Security and
+  Mission Assurance, 2006.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>FORSIGS; Forensic Signature Analysis of the Hard Drive for Multimedia
+  File Fingerprints, J. Haggerty and M. Taylor, IFIP TC11 International
+  Information Security Conference, 2006, Sandton, South Africa.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>M.Karresand , N. Shahmehri, "Oscar -- Using Byte Pairs to Find File
+  Type and Camera Make of Data Fragments," Annual Workshop on Digital
+  Forensics and Incident Analysis, Pontypridd, Wales, UK, pp.85-94,
+  Springer-Verlag, 2006.</li>
+</ul>
+<p>2007</p>
+<ul>
+<li>M. Karresand, N. Shahmehri, <a href="https://link.springer.com/chapter/10.1007/0-387-33406-8_35">Oscar: File Type Identification of Binary
+  Data in Disk Clusters and RAM
+  Pages</a>, Proceedings of
+  IFIP International Information Security Conference: Security and
+  Privacy in Dynamic Environments (SEC2006), Springer, ISBN
+  0-387-33405-x, pp.413-424, Karlstad, Sweden, May 2006.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>R.F. Erbacher and J. Mulholland, "Identification and Localization of
+  Data Types within Large-Scale File Systems," Proceedings of the 2nd
+  International Workshop on Systematic Approaches to Digital Forensic
+  Engineering, Seattle, WA, April 2007.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>R.M. Harris, "Using Artificial Neural Networks for Forensic File Type
+  Identification," Master's Thesis, Purdue University, May 2007.
+  (<a href="https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2007-19.pdf">PDF</a>)</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>S.J. Moody and R.F. Erbacher, SÁDI – Statistical Analysis for Data type
+  Identification, 3rd International Workshop on Systematic Approaches to Digital
+  Forensic Engineering, 2008.</li>
+</ul>
+<p>2008</p>
+<ul>
+<li>M.C. Amirani, M. Toorani, and A. Beheshti, <a href="https://ieeexplore.ieee.org/document/4625611/;jsessionid=e9ClJYNu5ZPnylpkSj7LoQM5s2LCfErdPPJo0lC0MGmzs9la-7Ld!1844383281">A New Approach to
+  Content-based File Type
+  Detection</a>,
+  Proceedings of the 13th IEEE Symposium on Computers and Communications
+  (ISCC'08), pp.1103-1108, July 2008.
+  (<a href="https://arxiv.org/ftp/arxiv/papers/1002/1002.3174.pdf">PDF</a>)</li>
+</ul>
+<p>2009</p>
+<ul>
+<li>V. Roussev, and S. Garfinkel, "File Classification Fragment-The Case
+  for Specialized Approaches," Systematic Approaches to Digital
+  Forensics Engineering (IEEE/SADFE 2009), Oakland, California.
+  (<a href="https://simson.net/clips/academic/2009.SADFE.Fragments.pdf">PDF</a>)</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>I. Ahmed, K.-S. Lhee, H. Shin and M. Hong, <a href="https://link.springer.com/chapter/10.1007/978-3-642-02620-1_4">On Improving the Accuracy
+  and Performance of Content-based File Type
+  Identification</a>,
+  Proceedings of the 14th Australasian Conference on Information
+  Security and Privacy (ACISP 2009), pp.44-59, LNCS (Springer),
+  Brisbane, Australia, July 2009.</li>
+</ul>
+<p>2010</p>
+<ul>
+<li>I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, <a href="https://www.researchgate.net/publication/228451843_Fast_file-type_identification">Fast File-type Identification</a>,
+  Proceedings of the 25th ACM Symposium on Applied Computing (ACM SAC
+  2010), ACM, Sierre, Switzerland, March 2010.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>I. Ahmed, K.-s. Lhee, H. Shin and M. Hong, Content-based File-type
+  Identification Using Cosine Similarity and a Divide-and-Conquer
+  Approach, IETE Technical Review, 27(6), 2010.</li>
+</ul>
+<p>2011</p>
+<ul>
+<li>I. Ahmed, K.-S. Lhee, H.-J. Shin, M.-P. Hong, <a href="https://link.springer.com/chapter/10.1007/978-3-642-24212-0_5">Fast Content-Based File
+  Type
+  Identification</a>,
+  Proceedings of the 7th Annual IFIP WG 11.9 International Conference on
+  Digital Forensics, Orlando, FL, USA, February, 2011</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>C. Mattmann and J. Zitting, <a href="https://www.manning.com/books/tika-in-action">Tika in Action</a>,
+  Manning Publications. December, 2011.</li>
+</ul>
+<p>2013</p>
+<ul>
+<li>M.C. Amirani, M. Toorani, and S. Mihandoost, Feature‐based Type
+  Identification of File Fragments, Journal of Security and Communications
+  Networks, Vol.6, No.1, pp. 115–128, 2013.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

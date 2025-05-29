@@ -1,0 +1,860 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Tools memory imaging - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#memory-imaging-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools memory imaging
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#memory-imaging-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Memory Imaging Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Memory Imaging Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#x86-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      x86 Hardware
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows Software
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac-os-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mac OS X
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtual
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Tools memory imaging</h1>
+
+<h2 id="memory-imaging-tools">Memory Imaging Tools</h2>
+<h3 id="x86-hardware">x86 Hardware</h3>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE</a> CaptureGUARD PCIe card (commercial) - desktops, servers
+Publicly available, supports all Windows OS; windd and other formats.</p>
+<p>CaptureGUARD Gateway performs DRAM acquisition even on locked computers</p>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE</a> CaptureGUARD ExpressCard (commercial) - laptop applications
+Publicly available, supports all Windows OS; windd and other formats.</p>
+<p>CaptureGUARD Gateway performs DRAM acquisition even on locked computers</p>
+<p><a href="https://digital-evidence.org/papers/tribble-preprint.pdf">Tribble PCI Card</a> (research project)</p>
+<h3 id="windows-software"><a href="../windows/">Windows</a> Software</h3>
+<p>There are many Windows memory acquisition tools. Most of them will not
+work on Windows Vista or 7, as user programs have been denied access to
+the <em>\Device\Physicalmemory</em> object starting in Windows 2003 Service
+Pack 1 and Windows Vista. Modern tools acquire physical memory by first
+installing a device driver, so administrative privileges are needed.</p>
+<p>We have edited this list so that it only includes current tools:</p>
+<p>Belkasoft Live RAM Caputer
+This free forensic tool, unlike many others, works in kernel-mode, which
+allows bypassing proactive anti-debugging protection used by many modern
+applications such as online games and intrusion detection systems.
+Kernel-mode operation yields more reliable results compared to user-mode
+tools.</p>
+<p>Designed specifically for computer forensics. Fully portable, runs off a
+flash drive, produces uncompressed raw binary output of the computer’s
+volatile memory. Includes kernel-mode drivers for all Windows OS’es
+including XP, Vista, 7, 8, 2003 and 2008 Server. 32 and 64-bit drivers
+are included.</p>
+<p><a href="https://belkasoft.com/ram-capturer">Belkasoft Live RAM Capturer</a></p>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE Pro and Ultimate</a></p>
+<p>Can capture, analyze, graph in depth physical and virtual memory codes
+and structures</p>
+<p>Proprietary and standard formats (windd), snapshot repository, snapshot
+comparison</p>
+<p>All Windows OSs (Xp, Vista, 7), 32-bit and 64-bit supported</p>
+<p>Phantom Probe USB based fetch</p>
+<p>CaptureGUARD PCIe card and ExpressCard for hardware-assisted DRAM
+acquisition</p>
+<p>CaptureGUARD Gateway for hardware-assisted DRAM acquisition of locked
+computers</p>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE Live</a></p>
+<p>allows live memory analysis of Windows computers from Android phones and
+tablets</p>
+<p>winen.exe (Guidance Software - included with Encase 6.11 and higher)
+included on <a href="../helix3/">Helix</a>.</p>
+<p><a href="https://forensiczone.blogspot.com/2008/06/winenexe-ram-imaging-tool-included-in.html">Winen.exe - RAM Imaging Tool Included in New Version of Encase</a></p>
+<p><a href="../mdd/">Mdd</a> (<a href="../mantech/">ManTech</a>)
+<a href="https://sourceforge.net/projects/mdd">https://sourceforge.net/projects/mdd</a></p>
+<p>MANDIANT <a href="https://www.mandiant.com">Memoryze</a>
+Can capture and analyze memory. Supports reading dumps (raw/dd format)
+from other tools.</p>
+<p>Moonsols: <a href="https://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7">DumpIt</a>
+This utility is used to generate a physical memory dump of Windows
+machines. It works with both x86 (32-bit) and x64 (64-bit) machines.</p>
+<p>The raw memory dump is generated in the current directory, only a
+confirmation question is prompted before starting.</p>
+<p>Perfect to deploy the executable on USB keys, for quick incident
+responses needs.</p>
+<p><a href="../ftk_imager/">FTK Imager</a></p>
+<p>FTK Imager can acquire live memory and paging file on 32-bit and 64-bit
+systems.</p>
+<p><a href="https://www.osforensics.com/">OSForensics</a></p>
+<p>OSForensics can acquire live memory on 32-bit and 64-bit systems. A dump
+of an individual process's memory space or physical memory dump can be
+done. Output can be a straight dump or a Microsoft crash dump file, for
+use with Micrsoft's WinDbg debugger.</p>
+<p><a href="../rekall/">WinPmem</a>
+WinPmem is a free, actively developed, opensource forensic memory
+acquisition tool for Windows. It supports Windows XP to Windows 8, both
+32 and 64 bit architectures. It can produce raw dumps as well as dumps
+in crashdump format (for analysis with Volatility or windbg). It
+supports output to STDOUT for piping the dump through tools like netcat
+or ssh. WinPmem can be used together with the Volatility Technology
+Preview to analyse a live windows system for live response and triaging.</p>
+<h3 id="linux">Linux</h3>
+<p><a href="https://github.com/504ensicslabs/lime">LiME</a>
+Linux Memory Extractor (LiME) is a Loadable Kernel Module (LKM), which
+allows the acquisition of volatile memory from Linux and Linux-based
+devices, such as those powered by Android. The tool supports dumping
+memory either to the file system of the device or over the network.</p>
+<p><a href="https://github.com/halpomeranz/lmg/">Linux Memory Grabber</a> by Hal Pomeranz
+a tool to create Linux Volatility profiles and dump memory (using LiME)
+from an USB Key, without installation on local HDD. Very useful</p>
+<p>/dev/crash
+On Red Hat systems (and those running related distros such as Fedora or
+CentOS), the crash driver can be loaded to create pseudo-device
+/dev/crash for raw physical memory access (via command "modprobe
+crash"). This module can also be compiled for other Linux distributions
+with minor effort (see, for example,
+<a href="http://gleeda.blogspot.com/2009/08/devcrash-driver.html">http://gleeda.blogspot.com/2009/08/devcrash-driver.html</a>). When the
+crash driver is modified, compiled, and loaded on other systems, the
+resulting memory access device is not safe to image in its entirety.
+Care must be taken to avoid addresses that are not RAM-backed. On Linux,
+/proc/iomem exposes the correct address ranges to image, marked with
+"System RAM".</p>
+<p>/dev/mem
+On older Linux systems, the program <a href="../dd/">dd</a> can be used to
+read the contents of <a href="../physical_memory/">physical memory</a> from
+the device file /dev/mem. On recent Linux systems, however, /dev/mem
+provides access only to a restricted range of addresses, rather than the
+full physical memory of a system. On other systems it may not be
+available at all. Throughout the 2.6 series of the Linux kernel, the
+trend was to reduce direct access to memory via pseudo-device files.
+See, for example, the message accompanying this <a href="https://lwn.net/Articles/267427/">patch</a>.</p>
+<p>Second Look: Linux Memory Forensics
+This commercial memory forensics product ships with a modified version
+of the crash driver and a script for safely dumping memory using the
+original or modified driver on any given Linux system.</p>
+<p>fmem
+fmem is kernel module that creates device /dev/fmem, similar to /dev/mem
+but without limitations. This device (physical RAM) can be copied using
+dd or other tool. Works on 2.6 Linux kernels. Under GNU GPL.</p>
+<p><a href="../rekall/">lmap</a> and <a href="../rekall/">pmem</a>
+pmem is a loadable kernel module that exposes /dev/pmem. lmap allows to
+inject the pmem functionality into existing kernel modules to bypass
+having to build a pmem kernel module for every different kernel version.</p>
+<h3 id="mac-os-x">Mac OS X</h3>
+<p>Goldfish
+Goldfish is a <a href="../mac_os_x/">Mac OS X</a> live forensic tool. Its
+main purpose is to provide an easy to use interface to dump the system
+RAM of a target machine via a <a href="../firewire/">Firewire</a>
+connection. It then automatically extracts the current user login
+password and any open AOL Instant Messenger conversation fragments that
+may be available.</p>
+<p><a href="../rekall/">OSXPMem</a>
+The OSX Memory Imager is an open source tool to acquire physical memory
+on an Intel based Mac. The imager supports multiple output formats, at
+the moment these are Mach-O, ELF and zero-padded RAW.</p>
+<h3 id="virtual">Virtual</h3>
+<p>Qemu
+Qemu allows you to dump the memory of a running image using pmemsave.</p>
+<p>e.g. pmemsave 0 0x20000000 /tmp/dumpfile</p>
+<p>Xen
+Xen allows you to live dump the memory of a guest domain using the
+dump-core command.</p>
+<p>You can list the available machines to find the host machine you care
+about using xm list and see the configuration.</p>
+<p>Dumping is a matter of sudo xm dump-core -L /tmp/dump-core-6 6</p>
+<p>VMWare ESXi
+One way to make a memory dump on ESXi is to make a snapshot of the
+running instance. This can be done using one of the</p>
+<p>client side tools for ESXi, but also on the ESXi ssh shell.</p>
+<p>To make a snapshot on the ESXi ssh shell the following commands can be
+used:</p>
+<ul>
+<li>vim-cmd vmsvc/getallvms</li>
+<li>vim-cmd vmsvc/get.summary vmid | grep [some identity e.g. ip address
+  if name is not known]</li>
+<li>vim-cmd vmsvc/snapshot.create vmid [snapshotName]
+  [snapshotDescription] [includeMemory (thus 1)] [quiesced]</li>
+</ul>
+<p>the .vmsn file can be copied from the ESXi using e.g. scp</p>
+<p>volatility can be used to convert the memdump into a raw dump. In my
+experience it is not possible to use volatility directly on the
+non-converted dump.</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../linux_memory_analysis/">Linux Memory Analysis</a></li>
+<li><a href="../memory_imaging/">Memory Imaging</a></li>
+<li><a href="../windows_memory_analysis/">Windows Memory Analysis</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

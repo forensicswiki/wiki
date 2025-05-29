@@ -1,0 +1,1045 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Hfs+ - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#features" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Hfs+
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-system-metadata-file-entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      File system metadata file entries
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#journaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Journaling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-and-time-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date and time values
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-see" class="md-nav__link">
+    <span class="md-ellipsis">
+      Also see
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:file-systems" class="md-tag">File Systems</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Hfs+</h1>
+
+<p>HFS+, or Hierarchical File System Plus, is the file system designed by
+<a href="../apple_inc/">Apple</a> to supersede (classic) HFS.</p>
+<p>HFS+ was first introduced with Mac OS 8.1, one of the biggest
+differences was the lower allocation block size of 4 KiB (4096 bytes),
+which increased performance and lowered fragmentation (See: Technical
+Note TN1121). It also implemented Unicode (rather than Mac proprietary
+encoding formats) for naming files. HFSX is a variant of HSF+ that is
+case sensitive.</p>
+<p>Mac OS X 10.6, dropped support for formatting or writing (classic) HFS
+and macOS 10.15 can no longer read <a href="https://en.wikipedia.org/wiki/Hierarchical_File_System">(classic) HFS</a>.</p>
+<h2 id="features">Features</h2>
+<p>There are structurally many differences between HFS and HFS+, which are
+listed below (Also see: Technical Note TN1150).</p>
+<p><CENTER></p>
+<TABLE Border=1 cellpadding=2 cellspacing=0 width=75%>
+<TR>
+<TD>
+
+<B>Feature</B>
+
+</TD>
+<TD>
+
+<B>HFS</B>
+
+</TD>
+<TD>
+
+<B>HFS Plus</B>
+
+</TD>
+<TD>
+
+<B>Benefit/Comment</B>
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+User visible name
+
+</TD>
+<TD>
+
+Mac OS Standard
+
+</TD>
+<TD>
+
+Mac OS Extended
+
+</TD>
+<TD>
+</TD>
+</TR>
+<TR>
+<TD>
+
+Number of allocation blocks
+
+</TD>
+<TD>
+
+16 bits worth
+
+</TD>
+<TD>
+
+32 bits worth
+
+</TD>
+<TD>
+
+Radical decrease in disk space used on large
+
+`                 volumes, and a larger number of files per volume.`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+Long file names
+
+</TD>
+<TD>
+
+31 characters
+
+</TD>
+<TD>
+
+255 characters
+
+</TD>
+<TD>
+
+Obvious user benefit; also improves
+
+`                 cross-platform compatibility`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+File name encoding
+
+</TD>
+<TD>
+
+Mac OS encoding (such as MacRoman)
+
+</TD>
+<TD>
+
+Unicode
+
+</TD>
+<TD>
+
+Allows for international-friendly file names,
+
+`                 including mixed script names`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+File/folder attributes
+
+</TD>
+<TD>
+
+Support for fixed size attributes (FileInfo and
+
+`                 ExtendedFileInfo)`
+
+</TD>
+<TD>
+
+Allows for future meta-data extensions
+
+</TD>
+<TD>
+
+Future systems may use metadata for a richer
+
+`                 Finder experience`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+OS startup support
+
+</TD>
+<TD>
+
+System Folder ID
+
+</TD>
+<TD>
+
+Also supports a dedicated startup file
+
+</TD>
+<TD>
+
+May help non-Mac OS systems to boot from HFS
+
+`                 Plus volumes`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+catalog node size
+
+</TD>
+<TD>
+
+512 bytes
+
+</TD>
+<TD>
+
+4 KiB (4096 bytes)
+
+</TD>
+<TD>
+
+Maintains efficiency in the face of the other
+
+`                 changes. (This larger catalog node size is due to`
+`                 the much longer file names [512 bytes as opposed to`
+`                 32 bytes], and larger catalog records (because of`
+`                 more/larger fields)).`
+
+</TD>
+</TR>
+<TR>
+<TD>
+
+Maximum file size
+
+</TD>
+<TD>
+
+2<sup>31</sup> bytes
+
+</TD>
+<TD>
+
+2<sup>63</sup> bytes
+
+</TD>
+<TD>
+
+Obvious user benefit, especially for multimedia
+
+`                 content creators.`
+
+</td>
+</tr>
+<TR>
+<TD>
+
+Hard links
+
+</TD>
+<TD>
+
+Not supported
+
+</TD>
+<TD>
+
+File only
+
+</TD>
+<TD>
+</tr>
+<TR>
+<TD>
+
+Symbolic links
+
+</TD>
+<TD>
+
+Not supported
+
+</TD>
+<TD>
+
+Directories and files
+
+</TD>
+<TD>
+</tr>
+</table>
+<p></CENTER></p>
+<h2 id="file-system-metadata-file-entries">File system metadata file entries</h2>
+<p>An HFS volume contains multiple special file entries:</p>
+<ol>
+<li>Catalog file - Describes the folder and file hierarchy of the
+    volume. It is organized as a "balanced tree" for fast and efficient
+    searches</li>
+<li>Extents overflow file - Additional extents (contiguous allocation
+    blocks allocated to forks) are stored in a b-tree in this file</li>
+<li>Allocation file - Specifies whether an allocation block is free
+    (similar to \$Bitmap in NTFS). This is stored in a bitmap,
+    specifying a free allocation block with a "clear bit" (introduced in
+    HFS+)</li>
+<li>Attributes file - Contains attribute information regarding files or
+    folders (introduced in HFS+)</li>
+<li>Startup file - Allows computers to boot that do have built in
+    support for HFS+ file systems (introduced in HFS+)</li>
+</ol>
+<p>The first 16 catalog node identifiers (CNIDs) are reserved for special
+file system metadata file entries. Note that these file entries are not
+full fledged files, like for example on other file systems like NTFS.
+These file entries do not appear to have a corresponding entry in the
+catalog file.</p>
+<h2 id="journaling">Journaling</h2>
+<p>HFS+ also implements journaling, which allows fast recovery in the case
+of a crash or power outage. According to Apple, "The purpose of the
+journal is to ensure that when a group of related changes are being
+made, that either all of those changes are actually made, or none of
+them are made."</p>
+<h2 id="date-and-time-values">Date and time values</h2>
+<p>In HFS+ date and time values are stored in an unsigned 32-bit integer
+containing the number of seconds since January 1, 1904 at 00:00:00
+(midnight) UTC (GMT). This is slightly different from HFS where the date
+and time value are stored using the local time. The maximum
+representable date is February 6, 2040 at 06:28:15 UTC (GMT). The date
+values do not account for leap seconds. They do include a leap day in
+every year that is evenly divisible by four. This is sufficient given
+that the range of representable dates does not contain 1900 or 2100,
+neither of which have leap days. Also see: <a href="http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes">Technical Note TN1150 - HFS Plus Volume Format</a></p>
+<p>Converting HFS/HFS+ date and time values with Python:</p>
+<pre><code>import datetime
+
+print datetime.datetime( 1904, 1, 1 ) + datetime.timedelta( seconds=0xCBDAF25B )
+</code></pre>
+<h2 id="observations">Observations</h2>
+<p>Observed on Mac OS 10.15.7</p>
+<p>HFS+ allows for the '/' character in file names. On Mac OS, Finder this
+will be represented as a '/' but in Terminal it is replaced by ':'
+seeing the same character is used as path segment separator. A file name
+with a ':' created in Terminal will be shown as '/' in Finder. Finder
+does not allow the creation of a file containing ':' in the name. A
+symbolic link created in Terminal to a file with a ':' in name will not
+convert the ':' character in the link target data. The Linux HFS+
+implementation appears to apply a similar conversion logic as Terminal.</p>
+<p>HFS+ stores U+2400 as U+0</p>
+<h2 id="also-see">Also see</h2>
+<ul>
+<li><a href="../apple_file_system_%28apfs%29/">Apple File System (apfs)</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html">Insided Macintosh: Files - Data Organization on Volumes</a>,
+  by Apple 1996</li>
+<li>Internet Archive Copy of: <a href="http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html">Technical Note TN1121</a></li>
+<li>Internet Archive Copy of: <a href="http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes">Technical Note TN1150: HFS plus volume format</a></li>
+<li><a href="http://cet4861.pbworks.com/w/file/fetch/71245694/mac.forensics.craiger-burke.IFIP.06.pdf">Mac Forensics: Mac OS X and the HFS+ File System</a>
+  by P. Craiger, November 2005</li>
+<li><a href="https://dfrws.org/sites/default/files/session-files/2008_USA_pres-using_the_hfs_journal_for_deleted_file_recovery.pdf">Using the HFSD journal for deleted ﬁle recovery</a>,
+  by Aaron Burghardt, Adam Feldman, DRFWS 2008</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="../the_sleuth_kit/">The Sleuth Kit</a> - partially supports HFS+/HSX, does
+  not support <a href="https://wiki.sleuthkit.org/index.php?title=HFS">(classic) HFS</a></li>
+<li><a href="http://www.catacombae.org/hfsexplorer/">HFSExplorer</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

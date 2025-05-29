@@ -1,0 +1,801 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>File carving - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fragmented-file-recovery" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              File carving
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fragmented-file-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fragmented File Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-carving-taxonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Carving Taxonomy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-carving-challenges-and-test-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Carving challenges and test images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memory-carving" class="md-nav__link">
+    <span class="md-ellipsis">
+      Memory Carving
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Memory Carving">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:data-carving" class="md-tag">Data Carving</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:data-recovery" class="md-tag">Data Recovery</a>
+      
+    
+  </nav>
+
+
+
+<p><strong>File Carving,</strong> or sometimes simply <strong>Carving,</strong> is the practice of
+searching an input for files or other kinds of objects based on content,
+rather than on metadata. File carving is a powerful tool for recovering
+files and fragments of files when directory entries are corrupt or
+missing, as may be the case with old files that have been deleted or
+when performing an analysis on damaged media. Memory carving is a useful
+tool for analyzing physical and virtual memory dumps when the memory
+structures are unknown or have been overwritten.</p>
+<p>Most file carvers operate by looking for file headers and/or footers,
+and then "carving out" the blocks between these two boundaries.
+Semantic Carving performs carving based
+on an analysis of the contents of the proposed files.</p>
+<p>File carving should be done on a <a href="../disk_image/">disk image</a>,
+rather than on the original disk.</p>
+<p>File carving tools are listed on the
+<a href="../tools_data_recovery/">Tools:Data_Recovery</a> wiki page.</p>
+<p>Many carving programs have an option to only look at or near sector
+boundaries where headers are found. However, searching the entire input
+can find files that have been embedded into other files, such as
+<a href="../jpeg/">JPEGs</a> being embedded into
+<a href="../microsoft/">Microsoft</a> <a href="../ole_compound_file/">Word documents</a>. This
+may be considered an advantage or a disadvantage, depending on the
+circumstances.</p>
+<p>The majority of file carving programs will only recover files that are
+contiguous on the media (in other words files that are not fragmented).</p>
+<h2 id="fragmented-file-recovery">Fragmented File Recovery</h2>
+<p><a href="../simson_garfinkel/">Simson Garfinkel</a> estimated that upto 58%
+of outlook, 17% of jpegs and 16% of MS-Word files are fragmented and,
+therefore, appear corrupted or missing to a user using traditional data
+carving. The first set of file carving programs that can handle
+fragmented files automatically have finally arrived.</p>
+<p>A. Pal, Nasir Memon, T. Sencar and K. Shanmugasundaram have introduced
+a technique called <a href="../file_carving_smartcarving/">SmartCarving</a> that can
+recover fragmented files.</p>
+<h2 id="file-carving-taxonomy">File Carving Taxonomy</h2>
+<p><a href="../simson_garfinkel/">Simson Garfinkel</a> and <a href="../joachim_metz/">Joachim Metz</a> have
+proposed the following file carving taxonomy:</p>
+<p>Carving
+General term for extracting data (files) out of undifferentiated blocks
+(raw data), like "carving" a sculpture out of soap stone.</p>
+<p>Block-Based Carving
+Any carving method (algorithm) that analyzes the input on block-by-block
+basis to determine if a block is part of a possible output file. This
+method assumes that each block can only be part of a single file (or
+embedded file).</p>
+<p>Statistical Carving
+Any carving method (algorithm) that analyzes the input on characteristic
+or statistic for example, entropy) to determine if the input is part of
+a possible output file.</p>
+<p>Header/Footer Carving
+A method for carving files out of raw data using a distinct header
+(start of file marker) and footer (end of file marker).</p>
+<p>Header/Maximum (file) size Carving
+A method for carving files out of raw data using a distinct header
+(start of file marker) and a maximum (file) size. This approach works
+because many file formats (e.g. JPEG, MP3) do not care if additional
+junk is appended to the end of a valid file.</p>
+<p>Header/Embedded Length Carving
+A method for carving files out of raw data using a distinct header and a
+file length (size) which is embedded in the file format</p>
+<p>File structure based Carving
+A method for carving files out of raw data using a certain level of
+knowledge of the internal structure of file types. Garfinkel called this
+approach "Semantic Carving" in his DFRWS2006 carving challenge
+submission, while Metz and Mora called the approach "Deep Carving."</p>
+<p>Semantic Carving
+A method for carving files based on a linguistic analysis of the file's
+content. For example, a semantic carver might conclude that six blocks
+of french in the middle of a long HTML file written in English is a
+fragment left from a previous allocated file, and not from the
+English-language HTML file.</p>
+<p>Carving with Validation
+A method for carving files out of raw data where the carved files are
+validated using a file type specific validator.</p>
+<p>Fragment Recovery Carving
+A carving method in which two or more fragments are reassembled to form
+the original file or object. Garfinkel previously called this approach
+"Split Carving."</p>
+<p>Repackaging Carving
+A carving method that modifies the extracted data by adding new headers,
+footers, or other information so that it can be viewed with standard
+utilities. For example, Garfinkel's ZIP Carver
+looks for individual components of a ZIP file and repackages them with a
+new Central Directory so that they can be opened with a standard unzip
+utility.</p>
+<h2 id="file-carving-challenges-and-test-images">File Carving challenges and test images</h2>
+<p><a href="https://github.com/dfrws/dfrws2006-challenge">DFRWS: File Carving Challenge</a></p>
+<p><a href="https://github.com/dfrws/dfrws2007-challenge">DFRWS: File Carving Challenge</a></p>
+<p><a href="https://dftt.sourceforge.net/test6/index.html">FAT Undelete Test #1</a> -
+Digital Forensics Tool Testing Image (dftt #6)</p>
+<p><a href="https://dftt.sourceforge.net/test7/index.html">NTFS Undelete (and leap year) Test #1</a> -
+Digital Forensics Tool Testing Image (dftt #7)</p>
+<p><a href="https://dftt.sourceforge.net/test11/index.html">Basic Data Carving Test - fat32</a>,
+by Nick Mikus - Digital Forensics Tool Testing Image (dftt #11)</p>
+<p><a href="https://dftt.sourceforge.net/test12/index.html">Basic Data Carving Test - ext2</a>,
+by Nick Mikus - Digital Forensics Tool Testing Image (dftt #12)</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../tools_data_recovery/#carving">File Carving Tools</a></li>
+<li><a href="../file_carving_bibliography/">File Carving Bibliography</a></li>
+<li><a href="../carver_2.0_planning_page/">Carver 2.0 Planning Page</a></li>
+<li><a href="../file_carving_smartcarving/">SmartCarving</a></li>
+</ul>
+<h1 id="memory-carving">Memory Carving</h1>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://github.com/libyal/documentation/blob/main/Thesis%20-%20Measuring%20and%20Improving%20the%20Quality%20of%20File%20Carving%20Methods.pdf">Measuring and Improving the Quality of File Carving Methods</a>,
+  by Bas Kloet, October 2007</li>
+<li><a href="https://isyou.info/jowua/abstracts/jowua-v2n4-3.htm">Advanced File Carving Approaches for Multimedia Files</a>
+  (<a href="https://isyou.info/jowua/papers/jowua-v2n4-3.pdf">pdf</a>),
+  by Rainer Poisel, Simon Tjoa, and Paul Tavolato, December 2011</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

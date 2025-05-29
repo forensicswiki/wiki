@@ -1,0 +1,789 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Solid state drive (ssd) forensics - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bibliography" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Solid state drive (ssd) forensics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bibliography" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliography
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Presentations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:no-category" class="md-tag">No Category</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Solid state drive (ssd) forensics</h1>
+
+<p>Solid State Drives pose a variety of interesting challenges for computer
+forensics in comparison with traditional rotating magnetic platter hard
+drives.</p>
+<p>Most SSD devices are based on flash memory; some have battery backed
+SRAM or DRAM with a flash backing store.</p>
+<p>Flash has a number of key properties that complicate its use in computer
+storage systems and subsequent forensic analysis:</p>
+<ol>
+<li>Internally, flash memory is not divided into the traditional 512
+    byte blocks, but instead is in pages of 2KiB, 4KiB, or larger,
+    although it is still presented to the host computer in blocks</li>
+<li>Whilst hard drives can be written in a single pass, flash memory
+    pages must be erased (in whole) before they can be rewritten.</li>
+<li>Rewriting a block at the operating system level does not necessarily
+    rewrite the same page in the flash memory due to the controller
+    remapping data to spread wear or avoid failing pages</li>
+<li>Each page can be erased and rewritten a limited number of times –
+    typically 1000 to 10,000. (Hard drive sectors, in contrast, can be
+    rewritten millions of times or more.)</li>
+<li>Flash data is often encrypted on the drive, and can be "erased" by
+    telling the controller to forget the old key and generate a new one,
+    as well as marking all blocks as unused</li>
+</ol>
+<p>The controller in a flash SSD is significantly more complex in the
+number of tasks it has to perform in comparison to a magnetic rotating
+drive, with the following features:</p>
+<ol>
+<li><em>wear leveling</em> – that is, spreading the writes to flash out among
+    different sectors. Wear leveling is typically done with a <em>flash
+    translation layer</em> that maps <em>logical sectors</em> (or LBAs) to
+    <em>physical pages</em>. Most FTLs are contained within the SSD device and
+    are not accessible to end users.</li>
+<li><em>read/modify/relocate+write</em> - if the controller allows rewriting of
+    a partial flash page, it must read the entire page, modify the
+    sector that is being written, and write the new flash page in a
+    new/fresh location which has been previously erased. the old
+    pre-modification data's page is then queued for erase.</li>
+</ol>
+<h2 id="bibliography">Bibliography</h2>
+<p><bibtex> @inproceedings{wei2011,</p>
+<p><code>author = {Yuri Gubanov, Oleg Afonin},</code>
+<code>title = {Why SSD Drives Destroy Court Evidence, and What Can Be Done About It},</code>
+<code>booktitle={Article},</code>
+<code>year = 2012,</code>
+<code>keywords = {ssd forensics},</code>
+<code>added-at = {2012-09-01T09:00:00.000+0100},</code>
+<code>url={</code><a href="https://belkasoft.com/why-ssd-destroy-court-evidence"><code>https://belkasoft.com/why-ssd-destroy-court-evidence</code></a><code>}</code></p>
+<p>} </bibtex></p>
+<p><bibtex> @inproceedings{wei2011,</p>
+<p><code>author = {Michael Wei and Laura M. Grupp and Frederick M. Spada and Steven Swanson},</code>
+<code>title = {Reliably Erasing Data from Flash-Based Solid State Drives},</code>
+<code>booktitle={FAST 2011},</code>
+<code>year = 2011,</code>
+<code>keywords = {erasing flash security ssd},</code>
+<code>added-at = {2011-02-22T09:22:03.000+0100},</code>
+<code>url={</code><a href="https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf"><code>https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf</code></a><code>},</code>
+<code>biburl = {</code><a href="https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2"><code>https://www.bibsonomy.org/bibtex/27c408ad559fc19f829717f485707a909/schmidt2</code></a><code>}</code></p>
+<p>} </bibtex> <bibtex> @article{bell2011,</p>
+<p><code>author="Graeme B. Bell and Richard Boddington",</code>
+<code>title="Solid State Drives: The Beginning of the End for Current Practice in Digital Forensic Recovery?",</code>
+<code>journal="Journal of Digital Forensics, Security and Law",</code>
+<code>volume=5,</code>
+<code>issue=3,</code>
+<code>year=2011,</code>
+<code>url={</code><a href="https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Solid-State-Drives-The-Beginning-of/991005543502107891"><code>https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Solid-State-Drives-The-Beginning-of/991005543502107891</code></a><code>}</code></p>
+<p>} </bibtex> <bibtex> @inproceedings{Billard:2010:MSU:1774088.1774426,</p>
+<p><code>author = {Billard, David and Hauri, Rolf},</code>
+<code>title = {Making sense of unstructured flash-memory dumps},</code>
+<code>booktitle = {Proceedings of the 2010 ACM Symposium on Applied Computing},</code>
+<code>series = {SAC '10},</code>
+<code>year = {2010},</code>
+<code>isbn = {978-1-60558-639-7},</code>
+<code>location = {Sierre, Switzerland},</code>
+<code>pages = {1579--1583},</code>
+<code>numpages = {5},</code>
+<code>url = {</code><a href="https://dl.acm.org/doi/10.1145/1774088.1774426"><code>https://dl.acm.org/doi/10.1145/1774088.1774426</code></a><code>},</code>
+<code>doi = {</code><a href="https://dl.acm.org/doi/10.1145/1774088.1774426"><code>https://dl.acm.org/doi/10.1145/1774088.1774426</code></a><code>},</code>
+<code>acmid = {1774426},</code>
+<code>publisher = {ACM},</code>
+<code>address = {New York, NY, USA},</code>
+<code>keywords = {cell phone, computer forensics, file carving, flash-memory dumps, forensics},</code></p>
+<p>} </bibtex> <bibtex> @mastersthesis{regan:2009,</p>
+<p><code>title="The Forensic Potential of Flash Memory",</code>
+<code>author="James E. Regan",</code>
+<code>school="Naval Postgraduate School",</code>
+<code>address="Monterey, CA",</code>
+<code>date=Sep,</code>
+<code>year=2009,</code>
+<code>pages=86,</code>
+<code>url="</code><a href="https://archive.org/details/theforensicpoten109454629"><code>https://archive.org/details/theforensicpoten109454629</code></a><code>"</code></p>
+<p>} </bibtex> <bibtex> @inproceedings{Phillips:2008:RDU:1363217.1363243,</p>
+<p><code>author = {Phillips, B. J. and Schmidt, C. D. and Kelly, D. R.},</code>
+<code>title = {Recovering data from USB flash memory sticks that have been damaged or electronically erased},</code>
+<code>booktitle = {Proceedings of the 1st international conference on Forensic applications and techniques in telecommunications, information, and multimedia and workshop},</code>
+<code>series = {e-Forensics '08},</code>
+<code>year = {2008},</code>
+<code>isbn = {978-963-9799-19-6},</code>
+<code>location = {Adelaide, Australia},</code>
+<code>pages = {19:1--19:6},</code>
+<code>articleno = {19},</code>
+<code>numpages = {6},</code>
+<code>url = {</code><a href="https://dl.acm.org/doi/10.5555/1363217.1363243"><code>https://dl.acm.org/doi/10.5555/1363217.1363243</code></a><code>},</code>
+<code>acmid = {1363243},</code>
+<code>publisher = {ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering)},</code>
+<code>address = {ICST, Brussels, Belgium, Belgium},</code>
+<code>keywords = {data recovery, flash memory, semiconductor data remanence},</code></p>
+<p>} </bibtex></p>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.forensicfocus.com/articles/recovering-evidence-from-ssd-drives-in-2014-understanding-trim-garbage-collection-and-exclusions/">Recovering Evidence from SSD Drives in 2014: Understanding TRIM</a>,
+  by <a href="../belkasoft/">Belkasoft</a>, September 23, 2014</li>
+</ul>
+<h3 id="presentations">Presentations</h3>
+<ul>
+<li><a href="http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html">Milan Broz's blog - TRIM &amp; dm-crypt ...  problems?</a></li>
+<li><a href="https://www.snia.org/sites/default/orig/sdc_archives/2009_presentations/thursday/NealChristiansen_ATA_TrimDeleteNotification_Windows7.pdf">ATA Trim / Delete Notification Support in Windows 7</a>,
+  Neal Christiansen, Storage Developer 2009</li>
+<li><a href="https://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis">Challenges of SSD Forensic Analysis</a>,
+  Digital Assembly,</li>
+<li><a href="https://www.youtube.com/watch?v=WcO7xn0wJ2I">Solid State Drives: Ruining Forensics</a>, by Scott
+  Moulton, DEFCON 16 (2008)</li>
+<li>Scott Moulton, Shmoocon 20008, SSD drives vs. Hard Drives.</li>
+<li><a href="https://www.youtube.com/watch?v=l4hbdZFWGog">SSD Flash Hard Drives - Shmoocon 2008 - Part 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=mglEnIPnzjo">SSD Flash Hard Drives - Shmoocon 2008 - Part 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=3psy_d-pyNg">SSD Flash Hard Drives - Shmoocon 2008 - Part 3</a></li>
+<li><a href="https://www.youtube.com/watch?v=pKeZvhDd5c4">SSD Flash Hard Drives - Shmoocon 2008 - Part 4</a></li>
+<li><a href="https://www.youtube.com/watch?v=9XMBdDypSO4">SSD Flash Hard Drives - Shmoocon 2008 - Part 5</a></li>
+<li><a href="https://www.youtube.com/watch?v=LY36SWbfQg0">SSD Flash Hard Drives - Shmoocon 2008 - Part 6</a></li>
+<li><a href="https://risky.biz/RB185/">Risky Business #185</a>, Peter Gutmann talks
+  SSD forensics, March 4, 2011 (Radio Show)</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

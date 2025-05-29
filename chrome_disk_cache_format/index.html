@@ -1,0 +1,1736 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Chrome disk cache format - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cache-files" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chrome disk cache format
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cache-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cache files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cache-address" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cache address
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cache address">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      File types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#index-file-format-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      Index file format (index)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Index file format (index)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      File header
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File header">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#format-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format versions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-recently-used-lru-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Least recently used (LRU) data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#array-indexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Array indexes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#index-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Index table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-block-file-format-data_" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data block file format (data_#)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data block file format (data_#)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-header_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      File header
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File header">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#format-versions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format versions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cache entry
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cache entry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#array-indexes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Array indexes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-entry-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cache entry state
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-entry-flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cache entry flags
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rankings-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rankings node
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-stream" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data stream
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hash
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:articles-that-need-to-be-expanded" class="md-tag">Articles that need to be expanded</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:cache" class="md-tag">Cache</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:file-formats" class="md-tag">File Formats</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Chrome disk cache format</h1>
+
+<h2 id="cache-files">Cache files</h2>
+<p>The cache is stored in multiple:</p>
+<table>
+<thead>
+<tr>
+<th>Filename</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>index</td>
+<td>The index file</td>
+</tr>
+<tr>
+<td>data_#</td>
+<td>Data block files</td>
+</tr>
+<tr>
+<td>f_######</td>
+<td>(Separate) data stream file</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cache-address">Cache address</h2>
+<p>The cache address is 4 bytes in size and consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><i>If file type is 0 (Separate file)</i></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>0.0</p></td>
+<td><p>28 bits</p></td>
+<td></td>
+<td><p>File number<br />
+The value represents the value of # in f_######</p></td>
+</tr>
+<tr class="odd">
+<td><p><i>Else</i></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>0.0</p></td>
+<td><p>16 bits</p></td>
+<td></td>
+<td><p>Block number</p></td>
+</tr>
+<tr class="odd">
+<td><p>2.0</p></td>
+<td><p>8 bits</p></td>
+<td></td>
+<td><p>File number (or file selector)<br />
+The value represents the value of # in data_#</p></td>
+</tr>
+<tr class="even">
+<td><p>3.0</p></td>
+<td><p>2 bits</p></td>
+<td></td>
+<td><p>Block size<br />
+The number of contiguous blocks where 0 represents 1 block and 3
+represents 4 blocks.</p></td>
+</tr>
+<tr class="odd">
+<td><p>3.2</p></td>
+<td><p>2 bits</p></td>
+<td></td>
+<td><p>Reserved</p></td>
+</tr>
+<tr class="even">
+<td><p><i>Common</i></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>3.4</p></td>
+<td><p>3 bits</p></td>
+<td></td>
+<td><p>File type</p></td>
+</tr>
+<tr class="even">
+<td><p>3.7</p></td>
+<td><p>1 bit</p></td>
+<td></td>
+<td><p>Initialized flag</p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="file-types">File types</h3>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>(Separate) data stream file</td>
+</tr>
+<tr>
+<td>1</td>
+<td>(Rankings) block data file (36 byte block data file)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>256 byte block data file</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1024 byte block data file</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4096 byte block data file</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Unknown; seen on Mac OS X 0x6f430074</td>
+</tr>
+</tbody>
+</table>
+<h4 id="examples">Examples</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x00000000</td>
+<td>Not initialized</td>
+</tr>
+<tr>
+<td>0x8000002a</td>
+<td>Data stream file: f_00002a</td>
+</tr>
+<tr>
+<td>0xa0010003</td>
+<td>Block data file: data_1, block number 3, 1 block of size</td>
+</tr>
+</tbody>
+</table>
+<h2 id="index-file-format-index">Index file format (index)</h2>
+<p>Overview:</p>
+<ul>
+<li>File header</li>
+<li>least recently used (LRU) data (or eviction control data)</li>
+<li>index table</li>
+</ul>
+<h3 id="file-header">File header</h3>
+<p>The index file header (struct IndexHeader) is 256 bytes in size and
+consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td><p>"\xc3\xca\x03\xc1"</p></td>
+<td><p>Signature</p></td>
+</tr>
+<tr class="even">
+<td><p>4</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Minor version</p></td>
+</tr>
+<tr class="odd">
+<td><p>6</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Major version</p></td>
+</tr>
+<tr class="even">
+<td><p>8</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Number of entries</p></td>
+</tr>
+<tr class="odd">
+<td><p>12</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Stored data size</p></td>
+</tr>
+<tr class="even">
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Last created file number<br />
+The value represents the value of # in f_######</p></td>
+</tr>
+<tr class="odd">
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Dirty flag<br />
+Identifier for all entries being changed</p></td>
+</tr>
+<tr class="even">
+<td><p>24</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Usage statistics data cache address</p></td>
+</tr>
+<tr class="odd">
+<td><p>28</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Table size<br />
+Where 0 represents 0x10000 (is this the same as the file size?)</p></td>
+</tr>
+<tr class="even">
+<td><p>32</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Signals a previous crash</p></td>
+</tr>
+<tr class="odd">
+<td><p>36</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Identifier of an ongoing test or experiment</p></td>
+</tr>
+<tr class="even">
+<td><p>40</p></td>
+<td><p>8</p></td>
+<td></td>
+<td><p>Creation time</p></td>
+</tr>
+<tr class="odd">
+<td><p>48</p></td>
+<td><p>52 x 8 = 208</p></td>
+<td></td>
+<td><p>Padding<br />
+Contains 0-byte values</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="format-versions">Format versions</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>2.1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="least-recently-used-lru-data">Least recently used (LRU) data</h3>
+<p>The least recently used (LRU) data (struct LruData) is 112 bytes in size
+and consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>2 x 4 = 8</p></td>
+<td></td>
+<td><p>Padding</p></td>
+</tr>
+<tr class="even">
+<td><p>8</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Filled flag<br />
+Value to indicate if when the cache was filled</p></td>
+</tr>
+<tr class="odd">
+<td><p>12</p></td>
+<td><p>5 x 4 = 20</p></td>
+<td></td>
+<td><p>Array of sizes</p></td>
+</tr>
+<tr class="even">
+<td><p>32</p></td>
+<td><p>5 x 4 = 20</p></td>
+<td></td>
+<td><p>Array of head cache addresses</p></td>
+</tr>
+<tr class="odd">
+<td><p>52</p></td>
+<td><p>5 x 4 = 20</p></td>
+<td></td>
+<td><p>Array of tail cache addresses</p></td>
+</tr>
+<tr class="even">
+<td><p>72</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Transaction cache address<br />
+Value to indicate an in-flight operation</p></td>
+</tr>
+<tr class="odd">
+<td><p>76</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Operation<br />
+The in-flight operation</p></td>
+</tr>
+<tr class="even">
+<td><p>80</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Operations list<br />
+The in-flight operations list</p></td>
+</tr>
+<tr class="odd">
+<td><p>84</p></td>
+<td><p>7 x 4 = 28</p></td>
+<td></td>
+<td><p>Padding<br />
+Contains 0-byte values</p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="array-indexes">Array indexes</h3>
+<p>The array indexes correspond to the file types.</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Separate file</td>
+</tr>
+<tr>
+<td>1</td>
+<td>(Rankings) block data file</td>
+</tr>
+<tr>
+<td>2</td>
+<td>256 byte block data file</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1024 byte block data file</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4096 byte block data file</td>
+</tr>
+</tbody>
+</table>
+<h3 id="index-table">Index table</h3>
+<p>The index table is an array of cache addresses.</p>
+<h2 id="data-block-file-format-data_">Data block file format (data_#)</h2>
+<p>Overview:</p>
+<ul>
+<li>File header</li>
+<li>array of blocks</li>
+</ul>
+<h3 id="file-header_1">File header</h3>
+<p>The index file header (struct BlockFileHeader) is 8192 bytes in size and
+consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td><p>"\xc3\xca\x04\xc1"</p></td>
+<td><p>Signature</p></td>
+</tr>
+<tr class="even">
+<td><p>4</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Minor version</p></td>
+</tr>
+<tr class="odd">
+<td><p>6</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Major version</p></td>
+</tr>
+<tr class="even">
+<td><p>8</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>File number (or file index)<br />
+The value represents the value of # in data_#</p></td>
+</tr>
+<tr class="odd">
+<td><p>10</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Next file number (or next file index)<br />
+The value represents the value of # in data_#</p></td>
+</tr>
+<tr class="even">
+<td><p>12</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Block size (or cache entry) size</p></td>
+</tr>
+<tr class="odd">
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Number of entries</p></td>
+</tr>
+<tr class="even">
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Maximum number of entries</p></td>
+</tr>
+<tr class="odd">
+<td><p>24</p></td>
+<td><p>4 x 4 = 16</p></td>
+<td></td>
+<td><p>Array of empty entry counters<br />
+The counters of empty entries for each type</p></td>
+</tr>
+<tr class="even">
+<td><p>40</p></td>
+<td><p>4 x 4 = 16</p></td>
+<td></td>
+<td><p>Array of last used position (hints)<br />
+The last used position for each type</p></td>
+</tr>
+<tr class="odd">
+<td><p>56</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Updating<br />
+Value to keep track of updates to the header</p></td>
+</tr>
+<tr class="even">
+<td><p>60</p></td>
+<td><p>5 x 4 = 20</p></td>
+<td></td>
+<td><p>User</p></td>
+</tr>
+<tr class="odd">
+<td><p>80</p></td>
+<td><p>2028 x 4 = 8112</p></td>
+<td></td>
+<td><p>Block allocation bitmap</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="format-versions_1">Format versions</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>2.1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="cache-entry">Cache entry</h3>
+<p>The cache entry (struct EntryStore) is 256 bytes in size and consists
+of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Hash<br />
+The hash of the key</p></td>
+</tr>
+<tr class="even">
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Next entry cache address<br />
+The next entry with the same hash or bucket</p></td>
+</tr>
+<tr class="odd">
+<td><p>8</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Rankings node cache address</p></td>
+</tr>
+<tr class="even">
+<td><p>12</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Reuse count<br />
+Value that indicates how often this entry was (re-)used</p></td>
+</tr>
+<tr class="odd">
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Refetch count<br />
+Value that indicates how often this entry was (re-)fetched (or
+downloaded)</p></td>
+</tr>
+<tr class="even">
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Cache entry state</p></td>
+</tr>
+<tr class="odd">
+<td><p>24</p></td>
+<td><p>8</p></td>
+<td></td>
+<td><p>Creation time</p></td>
+</tr>
+<tr class="even">
+<td><p>32</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Key data size</p></td>
+</tr>
+<tr class="odd">
+<td><p>36</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Long key data cache address<br />
+The value is 0 if no long key data is present</p></td>
+</tr>
+<tr class="even">
+<td><p>40</p></td>
+<td><p>4 x 4 = 16</p></td>
+<td></td>
+<td><p>Array of data stream sizes</p></td>
+</tr>
+<tr class="odd">
+<td><p>56</p></td>
+<td><p>4 x 4 = 16</p></td>
+<td></td>
+<td><p>Array of data stream cache addresses</p></td>
+</tr>
+<tr class="even">
+<td><p>72</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Cache entry flags</p></td>
+</tr>
+<tr class="odd">
+<td><p>76</p></td>
+<td><p>4 x 4 = 16</p></td>
+<td></td>
+<td><p>Padding</p></td>
+</tr>
+<tr class="even">
+<td><p>92</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Self hash<br />
+The hash of the first 92 bytes of the cache entry is this used as a
+checksum?</p></td>
+</tr>
+<tr class="odd">
+<td><p>96</p></td>
+<td><p>160</p></td>
+<td></td>
+<td><p>Key data<br />
+Contains an UTF-8 encoded string with an end-of-string character with
+the original URL</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="array-indexes_1">Array indexes</h4>
+<p>The data stream array indexes correspond to:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>HTTP response headers</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Page contents (Payload)</td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cache-entry-state">Cache entry state</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>ENTRY_NORMAL</td>
+<td>Normal cache entry</td>
+</tr>
+<tr>
+<td>1</td>
+<td>ENTRY_EVICTED</td>
+<td>The cache entry was recently evicted</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ENTRY_DOOMED</td>
+<td>The cache entry was doomed</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cache-entry-flags">Cache entry flags</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x00000001</td>
+<td>PARENT_ENTRY</td>
+<td>Parent cache entry</td>
+</tr>
+<tr>
+<td>0x00000002</td>
+<td>CHILD_ENTRY</td>
+<td>Child cache entry</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rankings-node">Rankings node</h3>
+<p>The rankings node (struct RankingsNode) is 36 bytes in size and consists
+of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>8</p></td>
+<td></td>
+<td><p>Last used<br />
+Contains LRU information?</p></td>
+</tr>
+<tr class="even">
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td></td>
+<td><p>Last modified<br />
+Contains LRU information?</p></td>
+</tr>
+<tr class="odd">
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Next rankings node cache address</p></td>
+</tr>
+<tr class="even">
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Previous rankings node cache address</p></td>
+</tr>
+<tr class="odd">
+<td><p>24</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Cache entry cache address</p></td>
+</tr>
+<tr class="even">
+<td><p>28</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Is dirty flag</p></td>
+</tr>
+<tr class="odd">
+<td><p>32</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Self hash<br />
+The hash of the first 32 bytes of the rankings node is this used as a
+checksum?</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="data-stream">Data stream</h2>
+<p>The data stream is stored inside the data block file (data_#), for
+small amounts of data, or stored as a separate file (f_######). The
+data stream is stored as a <a href="../gzip/">gzip file</a>.</p>
+<p>Note that the last modification time of the gzip file is set to 0.</p>
+<h2 id="hash">Hash</h2>
+<p>The hash algorithm used is referred to as SuperFastHash. A pseudo C
+implementation:</p>
+<pre><code>uint32_t SuperFastHash(
+          const uint8_t *key,
+          size_t key_size )
+{
+    size_t key_index    = 0;
+    size_t remainder    = 0;
+    uint32_t hash_value = 0;
+    uint32_t temp_value = 0;
+
+    if( ( key == NULL ) || ( key_siz 0 ) )
+    {
+       return( 0 );
+    }
+    remainder = key_size % 4;
+    key_size -= remainder;
+
+    for( key_index = 0;
+         key_index &lt; key_size;
+         key_index += 4 )
+    {
+        hash_value += key[ key_index ] + ( key[ key_index + 1 ] &lt;&lt; 8 );
+        temp_value  = key[ key_index + 2 ] + ( key[ key_index + 3 ] &lt;&lt; 8 );
+
+        temp_value = ( temp_value &lt;&lt; 11 ) ^ hash_value;
+
+        hash_value  = ( hash_value &lt;&lt; 16 ) ^ temp_value;
+        hash_value += hash_value &gt;&gt; 11;
+    }
+
+    switch( remainder )
+    {
+        case 3:
+            hash_value += key[ key_index ] + ( key[ key_index + 1 ] &lt;&lt; 8 );
+            hash_value ^= hash_value&lt;&lt; 16;
+            hash_value ^= key[ key_index + 2 ] &lt;&lt; 18;
+            hash_value += hash_value &gt;&gt; 11;
+            break;
+
+        case 2:
+            hash_value += key[ key_index ] + ( key[ key_index + 1 ] &lt;&lt; 8 );
+            hash_value ^= hash_value &lt;&lt; 11;
+            hash_value += hash_value &gt;&gt; 17;
+            break;
+
+        case 1:
+            hash_value += key[ key_index ];
+            hash_value ^= hash_value &lt;&lt; 10;
+            hash_value += hash_value &gt;&gt; 1;
+            break;
+    }
+
+    /* Force "avalanching" of final 127 bits */
+    hash_value ^= hash_value &lt;&lt; 3;
+    hash_value += hash_value &gt;&gt; 5;
+    hash_value ^= hash_value &lt;&lt; 4;
+    hash_value += hash_value &gt;&gt; 17;
+    hash_value ^= hash_value &lt;&lt; 25;
+    hash_value += hash_value &gt;&gt; 6;
+
+    return hash_value;
+}
+</code></pre>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../google_chrome/">Google Chrome</a></li>
+<li><a href="../gzip/">gzip</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.chromium.org/developers/design-documents/network-stack/disk-cache/">Disk Cache</a>,
+  The Chromium Projects</li>
+<li><a href="https://github.com/libyal/dtformats/blob/main/documentation/Chrome%20Cache%20file%20format.asciidoc">Chrome Cache file format</a>,
+  orignally by the <a href="../plaso/">Plaso project</a> transitioned to the dtFormats project, April 2014</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

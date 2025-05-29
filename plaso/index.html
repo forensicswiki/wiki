@@ -1,0 +1,1149 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Plaso - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#supported-formats" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Plaso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#supported-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported Formats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported Formats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#storage-media-image-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storage Media Image File Formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volume-system-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume System Formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-system-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      File System Formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      File formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bencode-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bencode file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#browser-cookie-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Browser cookie formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compound-zip-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compound ZIP file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ese-database-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESE database file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-l-log-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      JSON-L log file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ole-compound-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      OLE Compound File formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#property-list-plist-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Property list (plist) formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sqlite-database-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQLite database file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-based-log-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text-based log file formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-registry-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows Registry formats
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analysis plugins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Related tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:disk-analysis" class="md-tag">Disk Analysis</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:linux" class="md-tag">Linux</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:open-source-software" class="md-tag">Open Source Software</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:timeline-analysis" class="md-tag">Timeline Analysis</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Plaso</h1>
+
+<p>Plaso (Plaso langar að safna öllu) is the Python based back-end engine
+used by tools such as log2timeline for automatic creation of a super
+timelines. The goal of log2timeline (and thus Plaso) is to provide a
+single tool that can parse various log files and forensic artifacts from
+computers and related systems, such as network equipment to produce a
+single correlated timeline. This timeline can then be easily analysed by
+forensic investigators/analysts, speeding up investigations by
+correlating the vast amount of information found on an average computer
+system. Plaso is intended to be applied for creating super timelines but
+also supports creating <a href="http://blog.kiddaland.net/2013/02/targeted-timelines-part-i.html">targeted timelines</a>.</p>
+<h2 id="supported-formats">Supported Formats</h2>
+<p>The information below is based of version 20221212. See <a href="https://plaso.readthedocs.io/en/latest/sources/Supported-formats.html">Plaso documentation</a>
+for the most up to date information.</p>
+<h3 id="storage-media-image-file-formats">Storage Media Image File Formats</h3>
+<p>Storage Media Image File Format support is provided by <a href="../dfvfs/">dfVFS</a>.</p>
+<h3 id="volume-system-formats">Volume System Formats</h3>
+<p>Volume System Format support is provided by <a href="../dfvfs/">dfVFS</a>.</p>
+<h3 id="file-system-formats">File System Formats</h3>
+<p>File System Format support is provided by <a href="../dfvfs/">dfVFS</a>.</p>
+<h3 id="file-formats">File formats</h3>
+<ul>
+<li>Android usage history (usage-history.xml) file</li>
+<li>Apple Spotlight store database (store.db) file</li>
+<li>Apple System Log (asl) file</li>
+<li>AWS CloudTrail Log</li>
+<li>Azure Activity Log</li>
+<li>Azure Application Gateway access log</li>
+<li><a href="../basic_security_module_%28bsm%29_file_format/">Basic Security Module (bsm)</a>
+  event auditing file</li>
+<li>Bencoded file</li>
+<li>Compound ZIP file</li>
+<li>CUPS IPP file</li>
+<li><a href="../jump_lists/">Custom destinations jump list</a> or .customDestinations-ms file</li>
+<li>Docker container configuration file</li>
+<li>Docker container log file</li>
+<li>Docker layer configuration file</li>
+<li><a href="../extensible_storage_engine_%28ese%29_database_file_%28edb%29_format/">Extensible Storage Engine (ESE) Database File (EDB)
+  format</a>
+  using <a href="../libesedb/">libesedb</a></li>
+<li>Fish history file</li>
+<li><a href="../chrome_disk_cache_format/">Google Chrome or Chromium cache file</a></li>
+<li>Google Chrome Preferences file</li>
+<li>Google Cloud (GCP) log</li>
+<li>iOS Application Privacy report</li>
+<li><a href="../java/">Java WebStart Cache IDX file</a></li>
+<li>JSON-L log file</li>
+<li>Linux libc6 utmp file</li>
+<li>Locate database file (updatedb)</li>
+<li>MacOS File System Events Disk Log Stream (fseventsd) file</li>
+<li>MacOS keychain database file</li>
+<li>Mac OS X 10.5 utmpx file</li>
+<li>McAfee Anti-Virus access protection log file</li>
+<li>Microsoft <a href="../internet_explorer_history_file_format/">Internet Explorer History File
+  Format</a> (also known
+  as MSIE 4 - 9 Cache Files or index.dat) using
+  <a href="../libmsiecf/">libmsiecf</a></li>
+<li>Microsoft (Office) 365 audit log</li>
+<li>Mozilla Firefox Cache version 1 file (version 31 or earlier)</li>
+<li>Mozilla Firefox Cache version 2 file (version 32 or later)</li>
+<li>NetworkMiner .fileinfos file</li>
+<li>NTFS $MFT metadata file using <a href="../libfsntfs/">libfsntfs</a></li>
+<li>NTFS USN change journal ($UsnJrnl:$J) file system metadata file
+  using <a href="../libfsntfs/">libfsntfs</a></li>
+<li><a href="../ole_compound_file/">OLE Compound File</a> using
+  <a href="../libolecf/">libolecf</a></li>
+<li><a href="../opera/">Opera global history</a> (global_history.dat) file</li>
+<li>Opera typed history (typed_history.xml) file</li>
+<li>PL SQL cache file (PL-SQL developer recall file) format</li>
+<li>Portable Executable (PE) file</li>
+<li><a href="../property_list_%28plist%29/">Property list (plist) format</a> using
+  <a href="../binplist/">binplist</a></li>
+<li>Safari Binary Cookie file</li>
+<li><a href="../mactime/">Sleuth Kit version 3 bodyfile</a></li>
+<li><a href="../sqlite_database_format/">SQLite database format</a> using <a href="../sqlite/">SQLite</a></li>
+<li>Symantec AV Corporate Edition and Endpoint Protection log file</li>
+<li>Systemd journal file</li>
+<li>text-based log file</li>
+<li>Trend Micro Office Scan Virus Detection log file</li>
+<li>Trend Micro Office Web Reputation log file</li>
+<li>Windows Defender scan DetectionHistory file</li>
+<li><a href="../windows_event_log_%28evt%29/">Windows Event Log (evt)</a> using
+  <a href="../libevt/">libevt</a></li>
+<li><a href="../windows_nt_registry_file_%28regf%29/">Windows NT Registry File (regf)</a>
+  using <a href="../libregf/">libregf</a></li>
+<li><a href="../windows_prefetch_file_format/">Windows Prefetch files</a></li>
+<li><a href="../windows/#recyclebin">Windows $Recycle.Bin</a> $I file</li>
+<li><a href="../windows/#recycler">Windows Recycler</a> INFO2 file</li>
+<li>Windows Restore Point log (rp.log) file</li>
+<li><a href="../windows_job_file_format/">Windows Scheduled Task job</a> (also known as "at jobs")</li>
+<li><a href="../lnk/">Windows Shortcut File (LNK) format</a> using <a href="../liblnk/">liblnk</a></li>
+<li><a href="../windows_xml_event_log_%28evtx%29/">Windows XML Event Log (evtx)</a> using
+  <a href="../libevtx/">libevtx</a></li>
+</ul>
+<h3 id="bencode-file-formats">Bencode file formats</h3>
+<ul>
+<li>Transmission BitTorrent activity file</li>
+<li>uTorrent active torrent file</li>
+</ul>
+<h3 id="browser-cookie-formats">Browser cookie formats</h3>
+<ul>
+<li>Google Analytics <code>__utma</code> cookie</li>
+<li>Google Analytics <code>__utmb</code> cookie</li>
+<li>Google Analytics <code>__utmt</code> cookie</li>
+<li>Google Analytics <code>__utmz</code> cookie</li>
+</ul>
+<h3 id="compound-zip-file-formats">Compound ZIP file formats</h3>
+<ul>
+<li>OpenXML (OXML) file</li>
+</ul>
+<h3 id="ese-database-file-formats">ESE database file formats</h3>
+<ul>
+<li>Internet Explorer WebCache ESE database (WebCacheV01.dat, WebCacheV24.dat) file</li>
+<li>System Resource Usage Monitor (SRUM) ESE database file</li>
+<li>Windows 8 File History ESE database file</li>
+<li>Windows User Access Logging ESE database file</li>
+</ul>
+<h3 id="json-l-log-file-formats">JSON-L log file formats</h3>
+<ul>
+<li><a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-examples.html">AWS CloudTrail logs</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log">Azure Activity logs</a></li>
+<li>Azure Application Gateway access log</li>
+<li>Docker container configuration file</li>
+<li>Docker container log file</li>
+<li>Docker layer configuration file</li>
+<li>Google Cloud (GCP) log</li>
+<li>iOS Application Privacy report</li>
+<li>Microsoft (Office) 365 audit log</li>
+</ul>
+<h3 id="ole-compound-file-formats">OLE Compound File formats</h3>
+<ul>
+<li><a href="../jump_lists/">Automatic destinations jump list</a> OLE compound file or .automaticDestinations-ms file</li>
+<li>Document summary information (\0x05DocumentSummaryInformation)</li>
+<li>Summary information (\0x05SummaryInformation) (top-level only)</li>
+</ul>
+<h3 id="property-list-plist-formats">Property list (plist) formats</h3>
+<ul>
+<li>Airport plist file</li>
+<li>Apple account information plist file</li>
+<li>Apple iOS Car Play application plist file</li>
+<li>iPod, iPad and iPhone plist file</li>
+<li>Launchd plist file</li>
+<li>MacOS Bluetooth plist file</li>
+<li>MacOS installation history plist file</li>
+<li>MacOS software update plist file</li>
+<li>MacOS TimeMachine plist file</li>
+<li>MacOS user plist file</li>
+<li><a href="../apple_safari/">Safari history</a> plist file</li>
+<li>Spotlight searched terms plist file</li>
+<li>Spotlight volume configuration plist file</li>
+</ul>
+<h3 id="sqlite-database-file-formats">SQLite database file formats</h3>
+<ul>
+<li>Android call history SQLite database (contacts2.db) file</li>
+<li>Android text messages (SMS) SQLite database (mmssms.dbs) file</li>
+<li>Android WebViewCache SQLite database file</li>
+<li>Android WebView SQLite database file</li>
+<li>Dropbox sync history database (sync_history.db) file</li>
+<li><a href="../google_chrome/">Google Chrome browsing and downloads history</a></li>
+<li>Google Chrome 17 - 65 cookies SQLite database file</li>
+<li>Google Chrome 27 and later history SQLite database file</li>
+<li>Google Chrome 66 and later cookies SQLite database file</li>
+<li>Google Chrome 8 - 25 history SQLite database file</li>
+<li>Google Chrome autofill SQLite database (Web Data) file</li>
+<li><a href="../google_chrome/">Google Chrome extension activity</a> SQLite database file</li>
+<li><a href="../google_drive/">Google Drive</a> snapshot SQLite database (snapshot.db) file</li>
+<li>Google Hangouts conversations SQLite database (babel.db) file</li>
+<li>iOS Kik messenger SQLite database (kik.sqlite) file</li>
+<li>iOS network usage SQLite database (netusage.sqlite) file</li>
+<li>iOS powerlog SQLite database (CurrentPowerlog.PLSQL) file</li>
+<li>iOS Screen Time SQLite database (RMAdminStore-Local.sqlite)</li>
+<li>Kodi videos SQLite database (MyVideos.db) file</li>
+<li>MacOS and iOS iMessage database (chat.db, sms.db) file</li>
+<li>MacOS application usage SQLite database (application_usage.sqlite) file</li>
+<li>MacOS document revisions SQLite database file</li>
+<li>MacOS Duet/KnowledgeC SQLites database file</li>
+<li>MacOS launch services quarantine events database SQLite database file</li>
+<li>MacOS MacKeeper cache SQLite database file</li>
+<li>MacOS Notes SQLite database (NotesV7.storedata) file</li>
+<li>MacOS Notification Center SQLite database file</li>
+<li>MacOS Transparency, Consent, Control (TCC) SQLite database (TCC.db) file</li>
+<li>Mozilla Firefox cookies SQLite database file</li>
+<li><a href="../mozilla_firefox/">Mozilla Firefox browsing and downloads history</a></li>
+<li>Mozilla Firefox downloads SQLite database (downloads.sqlite) file</li>
+<li>Mozilla Firefox history SQLite database (places.sqlite) file</li>
+<li>Safari history SQLite database (History.db) file</li>
+<li>Skype SQLite database (main.db) file</li>
+<li>Tango on Android profile SQLite database file</li>
+<li>Tango on Android TC SQLite database file</li>
+<li>Twitter on Android SQLite database file</li>
+<li>Twitter on iOS 8 and later SQLite database (twitter.db) file</li>
+<li>Windows 10 Timeline SQLite database (ActivitiesCache.db) file</li>
+<li>Windows diagnosis EventTranscript SQLite database (EventTranscript.db) file</li>
+<li><a href="../zeitgeist/">Zeitgeist activity</a> SQLite database file</li>
+</ul>
+<h3 id="text-based-log-file-formats">Text-based log file formats</h3>
+<ul>
+<li>Advanced Packaging Tool (APT) History log file</li>
+<li>Android logcat file</li>
+<li>Apache access log (access.log) file</li>
+<li><a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html#access-log-file-format">AWS ELB Access log file</a></li>
+<li>Bash history file</li>
+<li>Confluence access log (access.log) file</li>
+<li>Debian package manager log (dpkg.log) file</li>
+<li>Google Drive Sync log file</li>
+<li>Google-formatted log file</li>
+<li>iOS lockdown daemon log</li>
+<li>iOS sysdiag log</li>
+<li>iOS sysdiagnose logd file</li>
+<li>MacOS Application firewall log (appfirewall.log) file</li>
+<li>MacOS security daemon (securityd) log file</li>
+<li>MacOS Wi-Fi log (wifi.log) file</li>
+<li>Microsoft IIS log file</li>
+<li>OneDrive (or SkyDrive) version 1 log file</li>
+<li>OneDrive (or SkyDrive) version 2 log file</li>
+<li>Popularity Contest log file</li>
+<li>PostgreSQL application log file</li>
+<li>Santa log (santa.log) file</li>
+<li>SELinux audit log (audit.log) file</li>
+<li>Snort3/Suricata fast-log alert log (fast.log) file</li>
+<li>Sophos anti-virus log file (SAV.txt) file</li>
+<li>System Center Configuration Manager (SCCM) client log file</li>
+<li>System log (syslog) file</li>
+<li>Viminfo file</li>
+<li>vsftpd log file</li>
+<li>Windows Firewall log file</li>
+<li>Windows SetupAPI log file</li>
+<li>XChat log file</li>
+<li>XChat scrollback log file</li>
+<li>ZSH extended history file</li>
+</ul>
+<h3 id="windows-registry-formats"><a href="../windows_registry/">Windows Registry</a> formats</h3>
+<ul>
+<li>AMCache (AMCache.hve)</li>
+<li><a href="../windows_application_compatibility/">Application Compatibility Cache</a> or AppCompatCache Registry data</li>
+<li>Background Activity Moderator (BAM) Registry data</li>
+<li>BagMRU (or ShellBags) Registry data</li>
+<li>Boot Execution Registry data</li>
+<li>CCleaner Registry data</li>
+<li><a href="../internet_explorer/">Microsoft Internet Explorer zone settings</a> Registry
+   data</li>
+<li>Microsoft Office MRU Registry data</li>
+<li>Microsoft Outlook search MRU Registry data</li>
+<li>Most Recently Used (MRU) Registry data</li>
+<li><a href="../windows_registry/#run-keys">Run and RunOnce</a> Registry data</li>
+<li>Security Accounts Manager (SAM) users Registry data</li>
+<li>Terminal Server Client Connection Registry data</li>
+<li>Terminal Server Client Most Recently Used (MRU) Registry data</li>
+<li>User Assist Registry data</li>
+<li>Windows boot verification Registry data</li>
+<li>Windows drivers and services Registry data</li>
+<li>Windows Explorer mount points Registry data</li>
+<li><a href="https://winreg-kb.readthedocs.io/en/latest/sources/explorer-keys/Program-cache.html">Windows Explorer Programs Cache</a>
+  Registry data</li>
+<li>Windows Explorer typed URLs Registry data</li>
+<li>Windows last shutdown Registry data</li>
+<li>Windows log-on Registry data</li>
+<li>Windows network drives Registry data</li>
+<li>Windows networks (NetworkList) Registry data</li>
+<li>Windows Task Scheduler cache Registry data</li>
+<li>Windows time zone Registry data</li>
+<li>Windows USB device Registry data</li>
+<li>Windows USB Plug And Play Manager USBStor Registry data</li>
+<li>Windows version (product) Registry data</li>
+<li>WinRAR History Registry data</li>
+</ul>
+<h2 id="analysis-plugins">Analysis plugins</h2>
+<ul>
+<li>file_hashes: Lists all the hashes for all files processed</li>
+<li>tagging: rule-based tagging</li>
+<li>virustotal: Looks up PE files using the VirusTotal API</li>
+<li>viper: Looks up PE files in a Viper instance</li>
+</ul>
+<h2 id="history">History</h2>
+<p>Plaso is a Python-based rewrite of the Perl-based
+<a href="../log2timeline/">log2timeline</a> initially created by <a href="../kristinn_gudjonsson/">Kristinn
+Gudjonsson</a> and extended by the
+contribution of various others.</p>
+<p>Plaso builds upon the <a href="../the_sleuth_kit/">The Sleuth Kit</a>, <a href="../pytsk/">pytsk</a>,
+<a href="../libyal/">libyal</a>, <a href="../dfvfs/">dfVFS</a> and various other projects.</p>
+<h2 id="related-tools">Related tools</h2>
+<p>This section contains several tools that can help in analyzing Plaso's
+timeline output:</p>
+<ul>
+<li><a href="../4n6time/">4n6time</a>, formerly "l2t_Review", which is a
+  cross-platform forensic tool for timeline creation and review. This
+  tool appears to be abandoned.</li>
+<li><a href="../timesketch/">Timesketch</a> a collaborative forensic timeline
+  analysis.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../dfvfs/">dfVFS</a></li>
+<li><a href="../dfwinreg/">dfwinreg</a></li>
+<li><a href="../log2timeline/">log2timeline</a></li>
+<li><a href="../timesketch/">Timesketch</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://github.com/log2timeline/plaso/">Project site</a></li>
+<li><a href="https://plaso.readthedocs.io/en/latest/">Project documentation</a></li>
+<li><a href="https://osdfir.blogspot.com/search/label/plaso">Project blog</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

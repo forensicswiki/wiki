@@ -1,0 +1,879 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Approximate matching - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kinds-of-similarity" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Approximate matching
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kinds-of-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kinds of Similarity
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kinds of Similarity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#binary-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Binary Similarity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text Similarity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#similarity-bibliography" class="md-nav__link">
+    <span class="md-ellipsis">
+      Similarity Bibliography
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:articles-that-need-to-be-expanded" class="md-tag">Articles that need to be expanded</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Approximate matching</h1>
+
+<p><em>Approximate matching</em> is a term used in computer forensics to mean that
+two objects have similar contents but are not identically the same. It
+replaced the previously used terms <em>similarity</em> and <em>fuzzy hashing.</em></p>
+<p>The following two paragraphs are clearly similar but not identical:</p>
+<p><strong>We the People</strong> of the United States, in Order to form a more perfect
+Union, establish Justice, insure domestic Tranquility, provide for the
+common defence, promote the general Welfare, and secure the Blessings of
+Liberty to ourselves and our Posterity, do ordain and establish this
+Constitution for the United States of America.</p>
+<p><strong>We the People</strong> of the United States, in Order to form a more perfect
+Union, establish Justice, insure domestic Tranquility, provide for the
+common defense, promote the general Welfare, and secure the Blessings of
+Liberty to ourselves and our Posterity, do ordain and establish this
+Constitution for the United States of America.</p>
+<h2 id="kinds-of-similarity">Kinds of Similarity</h2>
+<p>In forensics there are several kinds of similarity that are of interest:</p>
+<ol>
+<li>Binary Similarity</li>
+<li>Textual Similarity</li>
+<li>Visual Similarity</li>
+<li>Audible Similarity</li>
+<li>Algorithmic (code) Similarity</li>
+</ol>
+<h3 id="binary-similarity">Binary Similarity</h3>
+<p>Binary Similarity between a <em>master object</em> and a <em>target object</em>can be
+rigorously defined as the fraction of substrings that the two documents
+have in common divided by the total number of substrings in the master
+document. Notice that this implies that the similarity function does not
+have the commutative property. That is, BS(a,b) may not equal BS(b,a).</p>
+<p>There are several applications for a binary similarity function:</p>
+<ol>
+<li>Determining that a master object is embedded in the target object.</li>
+<li>Determining if the target object is derived from the target object.</li>
+</ol>
+<p>The leading similarity systems in use are are:</p>
+<ul>
+<li>sdhash, developed by Vassil Roussev.</li>
+<li>ssdeep, the first widely used binary similarity
+  algorithm. Developed by Jesse Kornblum, this system uses a piecewise
+  hash comparison algorithm originally developed for anti-spam systems.</li>
+</ul>
+<h3 id="text-similarity">Text Similarity</h3>
+<p>The leading text similarity system is:</p>
+<ul>
+<li>sdtext, developed by Clay Sheilds.</li>
+</ul>
+<h2 id="similarity-bibliography">Similarity Bibliography</h2>
+<p>SSDEEP:</p>
+<p>Jesse Kornblum, “Identifying almost identical files using context
+triggered piecewise hashing,” Jesse Kornblum, DFRWS 2006, Digital
+Investigation 3S, S91-S97</p>
+<p>Jiang, Z.L., Hui, L.C.K., Chow, K.P., Yiu, S.M., Lai, P.K.Y. Improving
+disk sector integrity using 3-dimension hashing scheme, Proceedings of
+Future Generation Communication and Networking, FGCN 2007 2, art. no.
+4426219, pp. 141-145, 2007</p>
+<p>Rönnau, S., Pauli, C., Borghoff, U.M. Merging changes in XML documents
+using reliable context fingerprints (2008) DocEng'08 - Proceedings of
+the 8th ACM Symposium on Document Engineering, pp. 52-61.</p>
+<p>Chen, L., Wang, G. Attacks to context triggered piecewise hashing and
+their countermeasures (2008) Journal of Information and Computational
+Science, 5 (2), pp. 589-597.</p>
+<p>Hejazi, S.M., Debbabi, M., Talhi, C. Automated windows memory file
+extraction for cyber forensics investigation (2008) Journal of Digital
+Forensic Practice, 2 (3), pp. 117-131.</p>
+<p>Long Chen; Wang, Guoyin, "An Efficient Piecewise Hashing Method for
+Computer Forensics," Knowledge Discovery and Data Mining, 2008. WKDD
+2008. First International Workshop on, vol., no., pp.635,638, 23-24
+Jan. 2008</p>
+<p>Kimin Seo; KyungSoo Lim; Choi, Jaemin; Kisik Chang; Sangjin Lee,
+"Detecting Similar Files Based on Hash and Statistical Analysis for
+Digital Forensic Investigation," Computer Science and its Applications,
+2009. CSA '09. 2nd International Conference on, vol., no., pp.1,6,
+10-12 Dec. 2009</p>
+<p>Apel, M., Bockermann, C., Meier, M. Measuring similarity of malware
+behavior (2009) Proceedings - Conference on Local Computer Networks,
+LCN, art. no. 5355037, pp. 891-898.</p>
+<p>Chawathe, S.S. Effective whitelisting for filesystem forensics (2009)
+2009 IEEE International Conference on Intelligence and Security
+Informatics, ISI 2009, art. no. 5137284, pp. 131-136.</p>
+<p>Simon, M., Slay, J. Enhancement of forensic computing investigations
+through memory forensic techniques (2009) Proceedings - International
+Conference on Availability, Reliability and Security, ARES 2009, art.
+no. 5066600, pp. 995-1000.</p>
+<p>Chen, L., Wang, G.-Y. Integrity check method for fine-grained data
+(2009) Ruan Jian Xue Bao/Journal of Software, 20 (4), pp. 902-909. Cited
+10 times.</p>
+<p>Maartmann-Moe, C., Thorkildsen, S.E., André Årnes The persistence of
+memory: Forensic identification and extraction of cryptographic keys
+(2009) Digital Investigation, 6 (SUPPL.), pp. S132-S140.</p>
+<p>Seo, K., Lim, K., Choi, J., Chang, K., Lee, S. Detecting similar files
+based on hash and statistical analysis for digital forensic
+investigation (2009) Proceedings of the 2009 2nd International
+Conference on Computer Science and Its Applications, CSA 2009, art. no.
+5404198.</p>
+<p>Garcia, J., Holleboom, T. Retention of micro-fragments in cluster
+slack - A first model (2009) Proceedings of the 2009 1st IEEE
+International Workshop on Information Forensics and Security, WIFS 2009,
+art. no. 5386487, pp. 31-35.</p>
+<p>Vassil Roussev, Hashing and data fingerprinting in digital forensics,
+IEEE Security and Privacy 7(2), 2009, pp. 49-55</p>
+<p>C. Nickel, C. Busch, X. Zhou, Template protection via piecewise hashing,
+IIH-MSP 2009 - 2009 5th International Conference on Intelligent
+Information Hiding and Multimedia Signal Processing, art. no. 5337554,
+pp. 1056-1060</p>
+<p>Roussev, V. Data fingerprinting with similarity digests (2010) IFIP
+Advances in Information and Communication Technology, 337 AICT, pp.
+207-226.</p>
+<p>Holleboom, T., Garcia, J. Fragment retention characteristics in slack
+space - Analysis and measurements (2010) 2010 2nd International Workshop
+on Security and Communication Networks, IWSCN 2010, art. no. 5497996, .</p>
+<p>Wu, Y., Yang, K., Zhang, J. Using DBSCAN clustering algorithm in spam
+identifying (2010) ICETC 2010 - 2010 2nd International Conference on
+Education Technology and Computer, 1, art. no. 5529221, pp. V1398-V1402.</p>
+<p>Fang, J., Jiang, Z.L., Yiu, S.M., Hui, L.C.K. An efficient scheme for
+hard disk integrity check in digital forensics by hashing with
+combinatorial group testing (2011) International Journal of Digital
+Content Technology and its Applications, 5 (2), pp. 300-308.</p>
+<p>Jiang, Z.L., Fang, J.-B., Hui, L.C.K., Yiu, S., Chow, K.P., Sheng, M.-M.
+K-Dimensional hashing scheme for hard disk integrity verification in
+computer forensics (2011) Journal of Zhejiang University: Science C, 12
+(10), pp. 809-818.</p>
+<p>Harald Baier, Frank Breitinger: Security Aspects of Piecewise Hashing in
+Computer Forensics, 6th International Conference on IT Security Incident
+Management &amp; IT Forensics (IMF), Stuttgart (Germany). May 2011.</p>
+<p>Frank Breitinger, Harald Baier: Performance Issues about Context
+Triggered Piecewise Hashing, 3rd International ICST Conference on
+Digital Forensics &amp; Cyber Crime (ICDF2C), Dublin (Ireland). October
+2011.</p>
+<p>Wardman, B., Stallings, T., Warner, G., Skjellum, A. High-performance
+content-based phishing attack detection (2011) eCrime Researchers
+Summit, eCrime, art. no. 6151977, .</p>
+<p>Gennari, J., French, D. Defining malware families based on analyst
+insights (2011) 2011 IEEE International Conference on Technologies for
+Homeland Security, HST 2011, art. no. 6107902, pp. 396-401.</p>
+<p>Grispos, G., Storer, T., Glisson, W.B. A comparison of forensic evidence
+recovery techniques for a windows mobile smart phone (2011) Digital
+Investigation, 8 (1), pp. 23-36.</p>
+<p>Carlos G. Figuerola, Raquel Gómez Díaz, José L. Alonso Berrocal, Angel
+F. Zazo Rodríguez, Web Document Duplicate Detection Using Fuzzy Hashing,
+in Trends in Practical Applications of Agents and Multiagent Systems,
+Advances in Intelligent and Soft Computing, Volume 90, 2011, pp.
+117-125, Springer</p>
+<p>Jozwiak, I., Kedziora, M. Efficient N-Byte slack space hashing in
+retrieving and identifying partially recovered data (2011) ICSOFT 2011 -
+Proceedings of the 6th International Conference on Software and Database
+Technologies, 1, pp. 309-312.</p>
+<p>Song, X., Deng, H., Xiong, Z. Using piecewise hashing and Lagrange
+interpolation polynomial to preserve electronic evidence (2011)
+Communications in Computer and Information Science, 201 CCIS (PART 1),
+pp. 472-480.</p>
+<p>Frank Breitinger, Harald Baier: A Fuzzy Hashing Approach based on Random
+Sequences and Hamming Distance, 7th annual Conference on Digital
+Forensics, Security and Law (ADFSL), Richmond (Virginia, US). May 2012.</p>
+<p>Frank Breitinger and Harald Baier, “Performance Issues About
+Context-Triggered Piecewise Hashing,” in P. Gladyshev and M. K. Rogers
+(Eds): ICDF2C 2011, LNICST 88, 2012, pp. 141-155, 2012.</p>
+<p>Thonnard, O., Bilge, L., O'Gorman, G., Kiernan, S., Lee, M. Industrial
+espionage and targeted attacks: Understanding the characteristics of an
+escalating threat (2012) Lecture Notes in Computer Science (including
+subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+Bioinformatics), 7462 LNCS, pp. 64-85.</p>
+<p>Garcia, J. Quantifying the benefits of file size information for
+forensic hash matching (2012) SECRYPT 2012 - Proceedings of the
+International Conference on Security and Cryptography, pp. 333-338.</p>
+<p>Frank Breitinger, Knut Petter Åstebøl, Harald Baier, Christoph Busch:
+mvHash-B – A new Approach for Similarity Preserving Hash Function. 7th
+International Conference on IT Security Incident Management &amp; IT
+Forensics (IMF), Nürnberg (Germany). March 2013.</p>
+<p>Christian Rathgeb, Frank Breitinger, Christoph Busch: Alignment-Free
+Cancelable Iris Biometric Templates based on Adaptive Bloom Filters, In
+Proceedings of the 6th IAPR International Conference on Biometrics
+(ICB’13), Madrid (Spain). June 2013. To appear.</p>
+<p>Frank Breitinger, Georgios Stivaktakis, Harald Baier: FRASH: A framework
+to test algorithms of similarity hashing, In Proceedings of the 13th
+Digital Forensics Research Conference (DFRWS’13), Monterey (Californien,
+US). August 2013. To appear.</p>
+<p>Books that mention SSDEEP: Harlan Carvey, Windows Forensic Analysis,
+Syngress, June 2009,</p>
+<p>Cameron H. Malin, Eoghan Casey, James M. Aquilina, Malware Forensics:
+Investigating and Analyzing Malicious Code, Syngress, Aug 2008</p>
+<p>Cameron H. Malin, Eoghan Casey, James M. Aquilina, Malware Forensics
+Field Guide for Windows Systems, Elsevier, May 2012,</p>
+<p>Frank Breitinger, Kaloyan Petrov: Reducing time cost in hashing
+operations. Ninth Annual IFIP WG 11.9 International Conference on
+Digital Forensics (IFIP WG11.9), Orlando (Florida, US). January 2013.</p>
+<p>SDHASH:</p>
+<p>Roussev, V. Building open and scalable digital forensic tools (2011)
+2011 6th IEEE International Workshop on Systematic Approaches to Digital
+Forensic Engineering, SADFE 2011, art. no. 6159116, .</p>
+<p>Vassil Roussev, “An evaluation of forensic similarity hashes,” Digital
+Investigation 8 (2011), S34-S41</p>
+<p>Breitinger, F.; Baier, H., "Properties of a similarity preserving hash
+function and their realization in sdhash," Information Security for
+South Africa (ISSA), 2012, vol., no., pp.1,8, 15-17 Aug. 2012</p>
+<p>Frank Breitinger, Harald Baier, Jesse Beckingham: Security and
+Implementation Analysis of the Similarity Digest sdhash, 1st
+International Baltic Conference on Network Security &amp; Forensics
+(NeSeFo), Tartu (Estland). August 2012.</p>
+<p>Frank Breitinger, Harald Baier: Properties of a Similarity Preserving
+Hash Function and their Realization in sdhash. 2012 Information Security
+South Africa (ISSA 2012), Johannesburg (South Africa). August 2012.</p>
+<p>Vassil Roussev, “Managing terabyte-scale investigations with similarity
+digests,” IFIP Advances in Informaiton and Communication Technology 383,
+AICT, pp. 19-34</p>
+<p>Clay Shields, O. Frieder, M. Maloof, “A system for the proactive,
+continuous, and efficient collection of digital forensic evidence,”
+DFRWS 2011 Annual Conference, pp. S3-S13</p>
+<p>MRSH-v2</p>
+<p>Frank Breitinger, Harald Baier: Similarity Preserving Hashing: Eligible
+Properties and a new Algorithm MRSH-v2. 4th International ICST
+Conference on Digital Forensics &amp; Cyber Crime (ICDF2C), Lafayette
+(Indiana, US). October 2012.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

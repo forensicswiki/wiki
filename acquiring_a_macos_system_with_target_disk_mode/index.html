@@ -1,0 +1,1012 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Acquiring a macos system with target disk mode - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#connecting-the-suspect-drive" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Acquiring a macos system with target disk mode
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-the-suspect-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connecting the suspect drive
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acquiring-the-suspect-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acquiring the suspect drive
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:howtos" class="md-tag">Howtos</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Acquiring a macos system with target disk mode</h1>
+
+<p>Make sure to <a href="../disabling_macintosh_disk_arbitration_daemon/">disable the disk arbitration
+daemon</a> on the
+machine where you will do the acquisition. Alternatively use a FireWire
+<a href="../write_blockers/">write blocker</a></p>
+<p>Prepare a clean firewire drive format is as <a href="../hfs%2B/">HFS+</a>
+using Mac Disk Utility; name the volume “Target”. This process relies on
+being able to identify which drive is the suspect's drive by knowing its
+size. Many new Macs are shipping with 250GB drives. Having a unique
+firewire target drive size will help you identify it later, as you will
+see below.</p>
+<p>Note the sizes of all drives on your forensic Mac, if you don't already
+know. To find out go to:</p>
+<pre><code>Apple menu &gt; About This Mac &gt; More info &gt; ATA
+</code></pre>
+<h2 id="connecting-the-suspect-drive">Connecting the suspect drive</h2>
+<p>1. Without turning anything on, connect the forensic Mac to the
+suspect’s computer using a firewire cable.</p>
+<p>2. Hold down the “Option” key on the suspect’s computer and turn it on.</p>
+<p>3. If the suspect’s computer <strong>does not</strong> ask for a password, then
+<strong>turn it off</strong>. If the computer <strong>does</strong> ask for a password, then
+<strong>turn it off</strong>. You cannot do a simple TDM acquisition if a password is
+required. You will have to either:</p>
+<p>a. remove the drive and do a direct acquisition</p>
+<p>b. modify the memory by adding or removing chips and zapping the PRAM.</p>
+<pre><code>To zap the PRAM, start up the computer and as soon as you hear the startup 'bong', hold down these four keys:
+Command-Option-P-R.
+
+It will bong again, and again. Continue to hold down these four keys until it has 'bonged' a total of three times
+(the initial startup bong and two more after you hold down those four keys).
+</code></pre>
+<p>4. Assuming that no password was needed, hold down the “T” key and turn
+the suspect’s computer back on. The computer will eventually display the
+firewire logo on the screen and is then ready for TDM.</p>
+<h2 id="acquiring-the-suspect-drive">Acquiring the suspect drive</h2>
+<p>1. Turn on the acquiring Mac (with the disk arbitration daemon
+disabled) 2. Start the Terminal. And at the command prompt run:</p>
+<pre><code>cd /dev
+ls disk?
+</code></pre>
+<p>This will list all drives that are seen by the system. A list containing
+at least three drives will appear:</p>
+<ul>
+<li>disk0</li>
+<li>disk1</li>
+<li>disk2</li>
+</ul>
+<p>One of these drives is the suspect’s. The other two are either the
+forensic Mac’s OS or the <strong>Target</strong> drive. You won’t necessarily know
+which is which, so you need to query them to see their size, which will
+give you a hint.</p>
+<p>3. Tho probe a drive, e.g. <strong>/dev/disk1</strong> you can use <strong>pdisk</strong>:</p>
+<pre><code>sudo pdisk /dev/disk1
+</code></pre>
+<p>The output of <strong>pdisk</strong> will look something like:</p>
+<pre><code>/dev/disk0 map block size=512
+  #: type name length base ( size )
+    1: Apple_partition_map Apple 63 @ 1
+    2: Apple_Driver43*Macintosh 56 @ 64
+    3: Apple_Driver43*Macintosh 56 @ 120
+    4: Apple_Driver_ATA*Macintosh 56 @ 176
+    5: Apple_Driver_ATA*Macintosh 56 @ 232
+    6: Apple_FWDriver Macintosh 512 @ 288
+    7: Apple_Driver_IOKit Macintosh 512 @ 800
+    8: Apple_Patches Patch Partition 512 @ 1312
+    9: Apple_HFS OS X 72600384 @ 1824 ( 34.6G)
+    10: Apple_HFS OS 8.6 5537944 @ 72602208 ( 2.6G)
+    11: Apple_Free 0+@ 78140152
+</code></pre>
+<p>5. Partitions on an HFS are called “slices.” You can see in bold that
+this drive has a 34.6G slice listed under the number 9 and a 2.6G under
+line 10. Add them up and your looking at a “40G” drive. If the result is
+the wrong size, then you are looking at the wrong drive. Repeat step 4
+using <strong>disk0</strong> and <strong>disk2</strong> to identify all the disks.</p>
+<p>6. Lets assume that your Target volume is <strong>disk2</strong> and is a 120GB. If
+it is formatted as HFS, then the query in step 4 should return something
+like this.</p>
+<pre><code>/dev/disk2 map block size=512
+  #: type name length base ( size )
+     1: Apple_partition_map Apple 63 @ 1
+     2: Apple_Free 0+@ 64
+     3: Apple_HFS Apple_HFS_Untitled_2 239859504 @ 262208 (114.4G)
+     4: Apple_Free 0+@ 240121712
+</code></pre>
+<p>Notice that slice <strong>3</strong> is 114.4 GB in size. Slice 3 is the “working
+area” on this 120G drive and is the slice that you will make available
+for receiving your evidence, using the mount command shown in green in
+line 8 below.</p>
+<p>7. Once you confirm which drive is which, you are ready to go. Lets
+assume that your forensic drive is <strong>disk0</strong>, the suspect’s drive is
+<strong>disk1</strong>, and the Target drive is <strong>disk2</strong>.</p>
+<p>8. Because we turned off disk arbitration, however, the target drive
+isn't available to receive the image. We therefore need to mount the
+<strong>Target drive</strong>; specifically slice <strong>3</strong> of <strong>disk2</strong>.</p>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+<span class="Section1">Type<b> <span
+style='color:maroon'>sudo mount –t hfs
+/dev/</span><span style='color:blue'>disk2</span><span
+style='color:maroon'>s</span><span style='color:lime'>3 </span></b><span
+style='color:maroon;font-weight:normal'>/Volumes</span></span><span class="Section1" style='color:maroon'><b>/</b></span><span class="Section1"
+style='color:blue'><b>Target</b></span><span class="Section1">.</span>
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="0">
+<tr class="Section12">
+<td width="17">
+
+ 
+
+</td>
+<td width="680">
+<div align="left">
+<table width="500" border="1" align="center" cellpadding="15" cellspacing="1" bordercolor="#000000">
+<tr>
+<td align="center" valign="middle" class="Section12">
+
+If you are still unsure about which drive is which, you can verify
+things because <span class="style24">Target</span> now has a BSD name.
+To clear the Terminal screen, hold down the
+<span class="style35">command</span> key and type
+
+k
+
+Then, type
+
+ioreg -l
+
+Buried in the resulting display is information about the connected
+drives. Go to the Terminal Menu\>Edit\>Find. Search for
+<span class="style30">disk1</span>. Scroll through the hits and you
+should see the make and model number for
+<span class="style34">disk1</span>. If a search for
+<span class="style24">disk2</span> comes up empty, then you know it is
+the unmounted drive.
+
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td class="Section1">
+
+At this point, you have the choice of imaging the suspect’s entire drive
+(recommended), or of just imaging the slice that you want. If you want
+to image the entire drive, type:  
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr class="Section1">
+<td width="4">
+
+<span class="style11"></span>
+
+</td>
+<td width="633" align="left" valign="top" class="style11">
+
+<span class="style12" style='color:maroon; page:Section1; font-family: Arial, Helvetica, sans-serif;'><b>sudo
+dd
+if=/dev/</b></span><span class="style12" style='color:red; page:Section1; font-family: Arial, Helvetica, sans-serif;'><b>disk1</b></span><span class="style10"><b>
+<span
+style='color:maroon'>bs=1024 conv=notrunc,noerror,sync
+of=/Volumes/</span><span
+style='color:blue'>Target/Evidence.dmg</span></b><span style='font-weight:normal'>.</span></span>
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td>
+
+This will write a raw DD image to the root of
+<span style='color:blue'><b>Target</b></span> and will name the image
+<span style='color:blue'><b>Evidence.dmg</b>.</span>
+
+If you only want to image particular slices, then add the slice to the
+command, i.e.
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+<span class="style13" style='color:maroon'><span class="style22">sudo dd
+if=/dev/</span></span><span class="style15">disk1</span><span class="style17">s</span><span class="style19">9</span>
+<span class="style21"><b><span style='color:maroon'>bs=1024
+conv=notrunc,noerror,sync of=/Volumes/</span><span
+style='color:blue'>Target/Evidence.dmg</span></b><span style='font-weight:normal'>.</span></span>
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td>
+
+A separate acquisition can be done for each slice that you want to
+examine by changing the slice number and giving each new image a
+different file name, i.e.
+<span style='color:blue'><b>EvidOS8.dmg</b></span>.
+
+The advantage of imaging the whole disk is that you can later bring it
+into Encase as a single evidence file.
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr class="Section1">
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+9.  <span class="Section1">Your done. Unmount the
+    <span class="style24">Target</span> drive by typing
+    `           `</span>
+    `           `
+
+    cd /Volumes
+
+    <span class="Section1" style='color:maroon'><b>sudo umount
+    /</b></span><span class="Section1" style='color:blue'><b>Target</b></span>
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td>
+
+Shut down your forensic Mac and then shut down the suspect’s Mac.
+Disconnect the firewire connection to the suspect’s Mac.
+
+Examination
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr class="Section1">
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+1.  <span class="Section1">Reboot your forensic Mac and restore the
+    <b>diskarbitrationd.plist</b><span
+         style='font-weight:normal'> file back to the
+    </span><b>/etc/mach-init.d</b><span
+         style='font-weight:normal'> directory. Type </span></span>
+    cd /
+
+    <span class="Section1"
+    style='color:maroon'><b>sudo cp diskarbitrationd.plist
+    /etc/mach_init.d</b></span><span class="Section1">. </span>
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td class="Section1">
+
+Turn the forensic Mac off and back on to initiate diskarbitration. Power
+up the <span style='color:blue'><b>Target</b></span> drive. The
+<span style='color:blue'><b>Target</b></span> drive should mount and
+appear on your desktop. Open it.
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+2.  The <span
+         style='color:blue'><b>Evidence.dmg</b></span> file should
+    appear. Click on it once. Lock the file via the “GET INFO” menu to
+    ensure it is write protected.
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td>
+
+You can now double-click to mount the Evidence.dmg file <b>and explore
+it within the native Mac OS environment.</b>
+
+If the image won’t mount, go into the Terminal and type the following:
+
+</td>
+</tr>
+</table>
+<table width="700" border="0" cellspacing="1" cellpadding="15">
+<tr>
+<td width="4">
+
+ 
+
+</td>
+<td width="633" align="left" valign="top">
+
+<span class="Section1"
+style='color:maroon;layout-grid-mode:line'><b>sudo hdiutil
+attach</b></span>
+<span class="Section1" style='color:maroon'><b>/Volumes/</b></span><span class="Section1"
+style='color:blue'><b>Target/Evidence.dmg</b></span><span class="Section1" style='layout-grid-mode:line'>
+<span style='color:maroon'><b>-shadow</b></span></span>
+
+</td>
+</tr>
+</table>
+
+<p>If you want to move the evidence file over into Encase, change the .dmg
+extension to .001 and add it as a raw image.</p>
+<p>Jon Muller, San Jose PD, (With guidance from Derrick Donnally), July-05</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../mac_os_x/">Mac OS X</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

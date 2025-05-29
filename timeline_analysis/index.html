@@ -1,0 +1,792 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Timeline analysis - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#timeline-formats" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Timeline analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#timeline-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timeline formats
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliography" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliography
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliography">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#articles-blogposts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Articles / Blogposts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Papers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualization
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:papers" class="md-tag">Papers</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:research" class="md-tag">Research</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Timeline analysis</h1>
+
+<h2 id="timeline-formats">Timeline formats</h2>
+<ul>
+<li><a href="../body_file/">body file</a></li>
+<li><a href="../l2t_csv/">L2T CSV</a></li>
+<li><a href="../mactime/">mactime</a></li>
+<li><a href="../tln/">TLN</a></li>
+</ul>
+<h2 id="bibliography">Bibliography</h2>
+<h4 id="articles-blogposts">Articles / Blogposts</h4>
+<ul>
+<li><a href="http://blog.kiddaland.net/2013/02/targeted-timelines-part-i.html">Targeted timelines - Part I</a>,
+  by Kristinn Guðjónsson, February 22, 2013</li>
+<li><a href="https://osdfir.blogspot.com/2021/06/lets-talk-about-time.html">Let's talk about time</a>,
+  by Alexander Jäger, June 04, 2021</li>
+<li><a href="https://osdfir.blogspot.com/2021/10/pearls-and-pitfalls-of-timeline-analysis.html">Pearls and pitfalls of timeline analysis</a>,
+  by Joachim Metz, October 20, 2021</li>
+</ul>
+<h3 id="papers">Papers</h3>
+<ul>
+<li><a href="https://www.forensicfocus.com/stable/wp-content/uploads/2012/08/generating-computer-forensic-supertimelines-under-linux-a-comprehensive-guide-for-windows-based-disk-images1.pdf">Generating computer forensic supertimelines under Linux - A comprehensive guide for Windows-based disk images</a>,
+  by R. Carbone, C. Bean, August 2012</li>
+<li><a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/1003976.pdf">Generating computer forensic supertimelines under Linux: A comprehensive guide for Windows-based disk images</a>,
+  October 2011</li>
+<li><a href="https://dfrws.org/presentation/computer-forensic-timeline-visualization-tool/">Computer forensic timeline visualization tool</a>,
+  by J. Olsson, M. Boldt, ScienceDirect Digital Investigation, Volume 6,
+  September 2009</li>
+<li><a href="https://ieeexplore.ieee.org/document/5331448">Analysis of Time Information for Digital Investigation</a>,
+  by Jewan Bang, BY Yoo, JS Kim, SJ Lee, NCM 2009, 5th International Joint
+  Conference on INC, IMS, IDC, August 2009</li>
+<li><a href="https://www.igi-global.com/articles/details.asp?ID=33298">A Model Based Approach to Timestamp Evidence Interpretation</a>,
+  by S. Willassen, International Journal of Digital Crime and Forensics, 1:2,
+  2009</li>
+<li><a href="https://www.diva-portal.org/smash/get/diva2:831086/FULLTEXT01.pdf">Digital Evidence with an Emphasis on Time</a>,
+  by Olsson, Jens Master's Thesis, Blekinge Institute of Technology, September
+  2008.</li>
+<li><a href="https://digifors.cs.up.ac.za/issa/2008/Proceedings/Full/43.pdf">The Use of File Timestamps in Digital Forensics</a>,
+  by R. Koen, M. Olivier, ISSA 2008, Johannesburg, South Africa, July 2008</li>
+<li><a href="https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/261472">Methods for Enhancement of Timestamp Evidence in Digital Investigations</a>,
+  by S. Willassen, PhD Dissertation, Norwegian University of Science and
+  Technology, 2008</li>
+<li><a href="https://ieeexplore.ieee.org/document/4529317">Finding Evidence of Antedating in Digital Investigations</a>,
+  by S. Willassen, ARES 2008, Barcelona, Spain, March 2008</li>
+<li>Hypothesis Based Investigation of Digital Timestamp,
+  by S. Willassen, January 2008</li>
+<li>Timestamp Evidence Correlation by model based clock hypothesis testing,
+  by S. Willassen, January 2008</li>
+<li>An Improved Clock Model for Translating Timestamps,
+  by F. Buchholz</li>
+<li><a href="https://dfrws.org/sites/default/files/session-files/2007_USA_paper-a_brief_study_of_time.pdf">A brief study of time</a>,
+  by F. Buchholz, B. Tjaden, Digital Investigation 2007:4S</li>
+<li><a href="https://i.cs.hku.hk/~cisc/forensics/papers/RuleOfTime.pdf">The Rules of Time on NTFS File System</a>,
+  by K. Chow, F. Law, M. Kwan, P. Lai, 2nd International Workshop on Systematic
+  Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007</li>
+<li><a href="https://dfrws.org/presentation/a-correlation-method-for-establishing-provenance-of-timestamps-in-digital-evidence/">A correlation method for establishing provenance of timestamps in digital evidence</a>,
+  by B. Schatz, G. Mohay, A. Clark, Digital Investigation 2006:3S</li>
+<li><a href="https://www.utica.edu/academic/institutes/ecii/publications/articles/B4A90270-B5A9-6380-68863F61C2F7603D.pdf">Formalizing Event Time Bouding in Digital Investigation</a>,
+  by P. Gladyshev, A. Patel, International Journal of Digital Evidence, vol
+  4:2, 2005</li>
+<li>Time and Date issues in forensic computing - a case study,
+  by C. Boyd, P. Forster, Digital Investigation 2004:1</li>
+<li>Unification of relative time frames for digital forensics,
+  by M.W. Stevens, Digital Investigation 2004:1</li>
+<li><a href="https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf">Dynamic Time &amp; Date Stamp Analysis</a>,
+  M .C. Weil, International Journal of Digital Evidence, vol 1:2, 2002</li>
+</ul>
+<h4 id="visualization">Visualization</h4>
+<ul>
+<li>ThemeRiver: In Search of Trends, Patterns, and Relationships,
+  by Susan Havre, Beth Hetzler, and Lucy Nowell, Battelle Pacific Northwest
+  Division, Richland, Washington, 1999</li>
+<li><a href="https://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists">Visualizing gaps in time-based lists</a>,
+  by Moritz Stefaner, November 6, 2000</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="../log2timeline/">log2timeline</a> - An artifact timeline creation and analysis
+framework. Log2timeline has been superseded by Plaso.</li>
+<li><a href="../plaso/">Plaso</a> - (Plaso Langar Að Safna Öllu), or super timeline all the
+  things, is a Python-based engine used by several tools for automatic creation
+  of timelines. Plaso default behavior is to create super timelines but it also
+  supports creating more targeted timelines.</li>
+<li><a href="https://github.com/simile-widgets/ancient-simile-widgets">Simile Timeline and Timeplot</a>
+  sorter - <a href="../the_sleuth_kit/">The Sleuth Kit</a>'s <a href="../mactime/">mactime</a> sorting
+  program.</li>
+<li><a href="https://github.com/FlowingMedia/TimeFlow/wiki/">TimeFlow</a> - Visual timelines
+  for investigation - source freely available</li>
+<li><a href="../timesketch/">Timesketch</a> - tool for collaborative forensic timeline analysis</li>
+<li><a href="https://sourceforge.net/projects/zeitline/">Zeitline - Forensic timeline editor</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

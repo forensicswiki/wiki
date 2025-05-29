@@ -1,0 +1,815 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>At commands - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#phonebook" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              At commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#phonebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phonebook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sms-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMS Messages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Misc. Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:no-category" class="md-tag">No Category</a>
+      
+    
+  </nav>
+
+
+
+  <h1>At commands</h1>
+
+<ul>
+<li>AT and AT+ commands can be used to manually collect simple
+  information. This is an ideal choice for "full control" over the
+  communications that are sent and returned from the phone. These can
+  also be used when there is no tool available to communicate with the
+  phone. These commands were tested using a Motorola v551 GSM phone
+  using Bluetooth and USB data cables. It is important to note that not
+  all of these commands are supported by all phones, but the AT+CLAC
+  command (usually) displays all of the available commands the GSM phone
+  can respond to.</li>
+<li>With Motorola phones (and many others) there are <strong>NO</strong> AT commands
+  that can be used to retrieve multimedia content. For these, OBEX
+  commands must be issued to the phone to return directory contents,
+  ringtones, pictures and video.</li>
+<li>Samsung GSM phones, on the other hand, <strong>DO</strong> have AT commands that
+  allow access to the multimedia content.</li>
+</ul>
+<p>To use these AT commands:</p>
+<ol>
+<li>Connect the phone and determine the number of the COM port that is
+    associated with it.</li>
+<li>Open HyperTerminal, Realterm or any other terminal program that will
+    communicate with a specified COM port.</li>
+<li>With the Motorola phone, type <strong>AT+MODE=2</strong>. This prepares the phone
+    for an extended AT+ command set. (+Cxxx and +MPxx)</li>
+</ol>
+<p>After following these steps, you can continue with any of the commands
+below.</p>
+<h2 id="phonebook">Phonebook</h2>
+<p><strong>AT+CPBS=?</strong>
+Lists the phonebooks that the phone contains. (Choose phonebook
+storage)
+Returns: +CPBS:
+("ME","SM","MT","ON","DC","MC","RC","EN","AD","QD","SD","FD")
++CPBS="ME" sets the "retrieve mode" to the internal phonebook.
++CPBS="SM" sets the "retrieve mode" to the SIM phonebook.</p>
+<p><strong>AT+CPBR=?</strong>
+Describes the phonebook selected above. (Simple) This gives the max
+number of entries the phone can contain. It also gives the maximum phone
+number (or email address) length and name length.
+<strong>NOTE:</strong> You can substitute +MPBR for any +CPBR command, but the phone
+returns a much more specific (and less intelligible) response containing
+more fields that may act as internal “programming” flags of some sort.
+Returns: +CPBR: (1-1000),40,24</p>
+<p><strong>AT+CPBR=[beginning index],[ending index]</strong>
+Returns a list of numbers with the index between the two numbers
+entered. Also denotes what TYPE of phonebook entry was selected.
+Returns: +CPBR: 9,"18005555555",129,"Contact Name" – 129 refers to a
+phone number.
+Returns: +CPBR: 18,"user@domain.net",128,"Contact Name" – 128 refers to
+an email.</p>
+<p><strong>AT+CPBR=[index]</strong>
+Returns the specified index.
+Returns: +CPBR: 18,"user@domain.net",128,"Contact Nwikipedia</p>
+<p><strong>AT+MPBR=?</strong>
+Similar to above, but a more verbose result is displayed.
+Returns: +MPBR:
+1-1000,40,24,8,0-1,50,(0,2,4,6,9-30,255),(0),(0-1),(1-30),(255),25,(0-1,255),264,(0),0,0,0,0,0,0,0</p>
+<ul>
+<li>1-1000 denotes the number of entries that can be stored on the
+  selected (+CPBS) phonebook.</li>
+<li>40 represents the number of characters that the email or phone number
+  can have.</li>
+<li>24 indicates the number of characters the “friendly” name can have.</li>
+<li>The 8 refers to the different “types” of phonebook entry (i.e. Mobile,
+  Main, Email, Home, Fax, Work … etc).</li>
+<li>The +CPBR command does not list anything after the 24 (as seen above),
+  so there are times when the +MPBR may be useful.</li>
+</ul>
+<p><strong>AT+MPBR=[index]</strong>
+Returns: +MPBR: 18,"user@domain.net",128,"Contact
+Name",6,0,255,0,0,1,255,255,0,"",0,0,"","","","","","","",""</p>
+<h2 id="sms-messages">SMS Messages</h2>
+<p><strong>AT+CMGF=1</strong>
+This tells the phone to display the entries as text rather than binary.
++CMFG=0 would display the data in binary format.</p>
+<p><strong>AT+CPMS=?</strong>
+This displays all of the locations in which the phone can save the SMS
+messages.
+Returns: +CPMS: ("MT","IM","OM","BM","DM"),("OM","DM"),("IM")</p>
+<p><strong>AT+CMGL=?</strong>
+Returns the options on which messages you wish to display.
+Returns: +CMGL: ("REC UNREAD", "REC READ", "STO UNSENT", "STO SENT",
+"ALL")</p>
+<p><strong>AT+CMGL="ALL"</strong>
+Selects and displays all of the SMS messages on the selected source.</p>
+<p><strong>AT#PMODE=1</strong>
+In order to retrieve text messages and other information, Samsung phones
+must be in this mode.</p>
+<p><strong>AT#PSRMR=?</strong>
+Returns the parameters to obtain text messages (Samsung).
+Returns: #PSRMR: (0-349)</p>
+<h2 id="misc-information">Misc. Information</h2>
+<p><strong>AT&amp;F</strong>
+Controls local echo which enables the user to see the text they are
+typing into HyperTerminal.</p>
+<p><strong>ATi0, ATi1, ATi2, ATi3, or ATi4</strong>
+Returns various specs about the phone.
+ATi0 Returns Manufacturer
+ATi1 Returns IMEI
+ATi2 Returns SW versions
+ATi3 Returns Make and Model
+ATi4 Returns HW Version
+ATi4 Returns HW Version</p>
+<p>'''AT+FSCD="</p>
+<p><DIR></p>
+<p>"'''
+Changes to specific directories (Samsung)
+If your phone is English, then it will be /Picture</p>
+<p>'''AT+FSDI="</p>
+<p><DIR></p>
+<p>"'''
+Returns directory information (Samsung)</p>
+<p>'''AT+FSDL="</p>
+<p><DIR></p>
+<p>"'''
+Returns a list of directories (Samsung)</p>
+<p><strong>AT+FSFW=-1, "<FILENAME>", 0, "", <LEN>, <CRC></strong>
+Send a file (Samsung)</p>
+<p><strong>AT+FSFE=0, "<FILENAME>"</strong>
+Delete a file (Samsung)</p>
+<p><strong>AT+CGSN</strong>
+Returns the IMEI of the phone.
+Returns: +CGSN: IMEI356252000861622
+Returns: +GSN: 299B5900 (Samsung)</p>
+<p><strong>AT+CGMR</strong>
+Returns the manufacturer’s OS revision.
+Returns: +CGMR: "R47_G_08.17.0FR_01"</p>
+<p><strong>AT+GMI</strong>
+Returns the manufacturer name (Samsung).
+Returns: +GMI: SAMSUNG</p>
+<p><strong>AT+CGMM</strong>
+Returns the make, model and capabilities of the phones.
+Returns: +CGMM: "GSM900","GSM1800","GSM1900","GSM850","MODEL=V551"
+Returns: +GMM: SCH-A670 (Samsung)</p>
+<p><strong>AT+CNUM</strong>
+Returns the subscriber name/number from the SIM, or internal memory for
+CDMA phones.
+Returns: +CNUM: Owner Name,15555555555,129</p>
+<p><strong>AT+CLAC</strong>
+Lists AT commands that the phone supports.</p>
+<p><strong>AT+MODE=22</strong>
+Prepares the phone (Motorola) for OBEX commands.</p>
+<p><strong>AT+MODE=0</strong>
+This returns the phone to simple AT command mode.</p>
+<p><strong>AT#PBDYN?</strong>
+This returns the phone number (Samsung).</p>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="https://gatling.ikk.sztaki.hu/~kissg/gsm/index.html">AT+C Command Set of GSM</a></li>
+<li><a href="https://www.traud.de/gsm/atex.htm">Alexander Traud's GSM pages</a></li>
+<li><a href="https://webapp.etsi.org/key/key.asp?GSMSpecPart1=27&amp;GSMSpecPart2=007">ETSI-3GPP Standards</a></li>
+<li><a href="https://gatling.ikk.sztaki.hu/~kissg/gsm/atscan/unprocessed/SamsungS105v1_6h.txt">Even more Samsung AT Commands</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

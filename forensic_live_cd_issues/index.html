@@ -1,0 +1,986 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Forensic live cd issues - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-problem" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Forensic live cd issues
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The problem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#another-side-of-the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Another side of the problem
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Another side of the problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problems
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#journaling-file-system-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Journaling file system updates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orphan-inodes-deletion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Orphan inodes deletion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#root-file-system-spoofing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Root file system spoofing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swap-space-activation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Swap space activation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incorrect-mount-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incorrect mount policy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Incorrect mount policy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rebuildfstab-and-scanpartitions-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      rebuildfstab and scanpartitions scripts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incorrect-write-blocking-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incorrect write blocking approach
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trim-aka-discard-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      TRIM aka discard command
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:live-cd" class="md-tag">Live CD</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Forensic live cd issues</h1>
+
+<h2 id="the-problem">The problem</h2>
+<p><a href="../live_cd/">Forensic Live CDs</a> are widely used during computer
+forensic investigations. Currently, many vendors of such Live CD
+distributions spread false claims that their distributions "do not touch
+anything", "write protect everything" and so on. Unfortunately,
+community-developed distributions are no exception here. Finally, it
+turns out that many Linux-based forensic Live CDs are not tested
+properly and there are no suitable test cases published.</p>
+<h2 id="another-side-of-the-problem">Another side of the problem</h2>
+<p>Another side of the problem of insufficient testing of forensic Live CDs
+is that many users do not know what happens "under the hood" of the
+provided operating system and cannot adequately test them.</p>
+<h3 id="example">Example</h3>
+<p>For example, <a href="http://forensiccop.blogspot.com/2009/10/forensic-cop-journal-13-2009.html"><em>Forensic Cop Journal</em> (Volume 1(3), Oct
+2009)</a>
+describes a test case when an Ext3 file system was mounted using "-o ro"
+mount flag as a way to write protect the data. The article says that all
+tests were successful (i.e. no data modification was found after
+unmounting the file system), but it is known that damaged (i.e not
+properly unmounted) Ext3 file systems cannot be write protected using
+only "-o ro" mount flags (write access will be enabled during file
+system recovery).</p>
+<p>And the question is: will many users test damaged Ext3 file system
+(together with testing the clean one) when validating their favourite
+forensic Live CD distribution? My answer is "no", because many users are
+unaware of such traits.</p>
+<h2 id="problems">Problems</h2>
+<p>Each problem is followed by a list of distributions affected (currently
+this list is not up-to-date).</p>
+<h3 id="journaling-file-system-updates">Journaling file system updates</h3>
+<p>When mounting (and unmounting) several journaling file systems with only
+"-o ro" mount flag a different number of data writes may occur. Here is
+a list of such file systems:</p>
+<table>
+<thead>
+<tr>
+<th>File system</th>
+<th>When data writes happen</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ext3</td>
+<td>File system requires journal recovery</td>
+<td>To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type</td>
+</tr>
+<tr>
+<td>Ext4</td>
+<td>File system requires journal recovery</td>
+<td>To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type</td>
+</tr>
+<tr>
+<td>ReiserFS</td>
+<td>File system has unfinished transactions</td>
+<td>"nolog" flag does not work (see <em>man mount</em>). To disable journal updates: use "ro,loop" flags</td>
+</tr>
+<tr>
+<td>XFS</td>
+<td>Always (when unmounting)</td>
+<td>"norecovery" flag does not help (fixed in recent 2.6 kernels). To disable data writes: use "ro,loop" flags.</td>
+</tr>
+</tbody>
+</table>
+<p>Incorrect mount flags can be used to mount file systems on evidentiary
+media during the boot process or during the file system preview process.
+As described above, this may result in data writes to evidentiary media.
+For example, several Ubuntu-based forensic Live CD distributions mount
+and recover damaged Ext3/4 file systems on fixed media (e.g. hard
+drives) during execution of
+<a href="https://en.wikipedia.org/wiki/Initrd"><em>initrd</em></a> scripts (these scripts
+mount every supported file system type on every supported media type
+using only "-o ro" flag in order to find a root file system image).</p>
+<p><img src="../assets/images/Ext3_recovery.png"
+title="ext_recovery" width="550"
+alt="ext_recovery" /> 
+damaged Ext3 recovery during the boot</p>
+<p>List of distributions that recover Ext3 (and sometimes Ext4) file
+systems during the boot:</p>
+<table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helix3</td>
+<td>2009R1</td>
+</tr>
+<tr>
+<td>SMART Linux (Ubuntu)</td>
+<td>2010-01-20</td>
+</tr>
+<tr>
+<td>FCCU GNU/Linux Forensic Boot CD</td>
+<td>12.1</td>
+</tr>
+<tr>
+<td>SPADA</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h3 id="orphan-inodes-deletion">Orphan inodes deletion</h3>
+<p>When mounting Ext3/4 file systems all orphan inodes are removed, even if
+"-o ro" mount flag was specified. Currently, there is no specific mount
+flag to disable orphan inodes deletion. The only solution here is to use
+"-o ro,loop" flags.</p>
+<h3 id="root-file-system-spoofing">Root file system spoofing</h3>
+<p><em>See also: <a href="../early_userspace/">early userspace</a></em></p>
+<p>Most Ubuntu-based forensic Live CD distributions use Casper (a set of
+scripts used to complete initialization process during early stage of
+boot). Casper is responsible for searching for a root file system
+(typically, an image of live environment) on all supported devices
+(because a bootloader does not pass any information about device used
+for booting to the kernel), mounting it and executing <em>/sbin/init</em>
+program on a mounted root file system that will continue the boot
+process. Unfortunately, Casper was not designed to meet computer
+forensics requirements and is responsible for damaged Ext3/4 file
+systems recovery during the boot (see above) and root file system
+spoofing.</p>
+<p><img src="../assets/images/Grml.png"
+title="grml" width="550"
+alt="grml" /> 
+mounted root file system from the <a href="../hard_drive/">hard drive</a></p>
+<p>Currently, Casper may select fake root file system image on evidentiary
+media (e.g. <a href="../hard_drive/">HDD</a>, because there are no
+authenticity checks performed (except optional UUID check for a possible
+live file system), and this fake root file system image may be used to
+execute malicious code during the boot with root privileges.
+Knoppix-based forensic Live CD distributions are vulnerable to the same
+attack.</p>
+<p>List of Ubuntu-based distributions that allow root file system spoofing:</p>
+<table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helix3</td>
+<td>2009R1</td>
+</tr>
+<tr>
+<td>Helix3 Pro</td>
+<td>2009R3</td>
+</tr>
+<tr>
+<td>CAINE</td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>Raptor</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>BackTrack</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SMART Linux (Ubuntu)</td>
+<td>2010-01-20</td>
+</tr>
+<tr>
+<td>FCCU GNU/Linux Forensic Boot CD</td>
+<td>12.1</td>
+</tr>
+</tbody>
+</table>
+<p>Vulnerable Knoppix-based distributions include: SPADA, LinEn Boot CD,
+BitFlare.</p>
+<p>Anti-Forensics.Ru project released several <a href="https://downloads.digitalcorpora.org/corpora/drives/2009-aor/">ISO 9660 images</a>
+used to test various Linux Live CD distributions for root file system spoofing.</p>
+<h3 id="swap-space-activation">Swap space activation</h3>
+<p><em>Feel free to add information about swap space activation during the
+boot in some distributions</em></p>
+<h3 id="incorrect-mount-policy">Incorrect mount policy</h3>
+<h4 id="rebuildfstab-and-scanpartitions-scripts">rebuildfstab and scanpartitions scripts</h4>
+<p>Several forensic Linux Live CD distributions (Helix3 2009R1, Helix3 Pro
+2009R3, old versions of CAINE, old versions of grml) use rebuildfstab
+and scanpartition scripts to create entries for attached devices in
+<em>/etc/fstab</em>. Some versions of these scripts use wrong wildcards while
+searching for available block devices (<em>/dev/?d?</em> instead of
+<em>/dev/?d*</em>), this results in missing several "exotic" devices (like
+/dev/sdad, /dev/sdad1, etc.) and in data writes when mounting them
+(because fstab lacks of read-only mount options for these devices).</p>
+<h3 id="incorrect-write-blocking-approach">Incorrect write blocking approach</h3>
+<p>Some forensic Linux Live CD distributions rely on hdparm and blockdev programs
+to mount file systems in read-only mode (by setting the underlying block device
+to read-only mode). Unfortunately, setting a block device to read-only mode does
+not guarantee that no write commands will be passed to the drive.</p>
+<p>There were several other bugs related to writing on a read-only block device in
+the past (like <a href="https://lkml.org/lkml/2007/2/6/1">Ext3/4 orphan inodes deletion</a>).
+At present (Linux 3.14.2), kernel code still disregards read-only mode set on
+block devices in many places (it should be noted that setting a block device to
+read-only mode will efficiently write-protect the drive from programs running in
+userspace, while kernel and its modules still can write anything to the
+block device, regardless of the read-only mode).</p>
+<p>Analysis of the source code for the "write blocking" functionality utilized by
+hdparm and blockdev demonstrates that these tools use the same system call to
+alter a kernel flag which is checked in the file system layer. This flag (when
+set) disables generic write operations on a file within a file system and many
+internal write operations of the file system layer (like journaling, recovering
+a file system after a crash, superblock modifications, etc.). File system
+drivers use the interface to the block device layer to perform internal write
+operations, and the block device layer is ignoring (not checking) the read-only
+flag set by hdparm or blockdev on a block device, therefore it's up to a file
+system driver to refuse writing to a block device in read-only mode (and there
+is nothing stopping write operations issued by a file system driver not
+adhering the read-only mode of a block device due to the lack of read-only flag
+checks). <a href="https://github.com/Schramp/linux-writeblock/wiki">A patch has been implemented</a>
+to add the write blocking functionality to the IO scheduler / block device
+layer as well, and make it the default to block all write IO issued to a
+read-only block device (<a href="../linux_write_blocker/">Linux write blocker</a> does
+almost the same, except it doesn't write block anything by default).</p>
+<h3 id="trim-aka-discard-command">TRIM aka discard command</h3>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf">Linux for computer forensic investigators: problems of booting trusted operating system</a></li>
+<li><a href="http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf">Linux for computer forensic investigators: «pitfalls» of mounting file systems</a></li>
+<li><a href="https://dfrws.org/presentation/testing-the-forensic-soundness-of-forensic-examination-environments-on-bootable-media/">Testing the forensic soundness of forensic examination environments on bootable media</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

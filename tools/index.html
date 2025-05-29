@@ -1,0 +1,961 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Tools - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#disk-analysis-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hard-drive-firmware-and-diagnostics-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hard Drive Firmware and Diagnostics Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-based-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux-based Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macintosh-based-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Macintosh-based Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-based-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows-based Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-source-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Source Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nda-and-scoped-distribution-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      NDA and scoped distribution tools
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+<p>This is an <strong>overview of available tools</strong> for forensic
+<a href="../investigator/">investigators</a>. Please click on the name of
+any tool for more details.</p>
+<p><strong>Note: This page has gotten too big and is being broken up. See:</strong></p>
+<ul>
+<li><a href="../disk_imaging/">Disk Imaging</a></li>
+<li><a href="../tools_data_recovery/">Data Recovery</a>
+  (including <a href="../file_carving/">file carving</a>)</li>
+<li><a href="../tools_file_analysis/">File Analysis</a></li>
+<li><a href="../document_metadata_extraction/#tools">Document Metadata Extraction</a></li>
+<li><a href="../tools_memory_imaging/">Memory Imaging</a></li>
+<li><a href="../tools_memory_analysis/">Memory Analysis</a></li>
+<li><a href="../tools_network_forensics/">Network Forensics</a></li>
+<li><a href="../logfile_analysis/#tools">Logfile Analysis</a></li>
+</ul>
+<h1 id="disk-analysis-tools">Disk Analysis Tools</h1>
+<h2 id="hard-drive-firmware-and-diagnostics-tools">Hard Drive Firmware and Diagnostics Tools</h2>
+<p><a href="../pc-3000/">PC-3000</a> from <a href="../ace_lab/">ACE Lab</a>
+<a href="https://www.acelab.eu.com/catalog/">https://www.acelab.eu.com/catalog/</a></p>
+<h2 id="linux-based-tools">Linux-based Tools</h2>
+<p><a href="https://sourceforge.net/projects/linres/">LINReS</a> by <a href="https://www.niiconsulting.com/">NII Consulting Pvt. Ltd.</a></p>
+<p><a href="../smart/">SMART</a> by <a href="../asr_data/">ASR Data</a>
+<a href="http://www.asrdata.com">http://www.asrdata.com</a></p>
+<p><a href="../second_look/">Second Look: Linux Memory Forensics</a> by Pikewerks Corporation</p>
+<h2 id="macintosh-based-tools">Macintosh-based Tools</h2>
+<p><a href="../elcomsoft_mobile_forensic_bundle/">Elcomsoft Mobile Forensic Bundle</a> by <a href="../elcomsoft/">Elcomsoft</a>
+<a href="https://www.elcomsoft.com/emfb.html">https://www.elcomsoft.com/emfb.html</a></p>
+<p>The Bundle includes macOS editions of Elcomsoft forensic tools for
+mobile and cloud data extraction.</p>
+<p><a href="../mac_marshal/">Mac Marshal</a> by <a href="https://www.atcorp.com/">ATC-NY</a></p>
+<p><a href="../recon_for_mac_os_x/">Recon for MAC OS X</a> by <a href="../sumuri_llc/">Sumuri, LLC</a>
+<a href="https://sumuri.com/wp-content/uploads/2019/04/recon.jpg">https://sumuri.com/wp-content/uploads/2019/04/recon.jpg</a></p>
+<h2 id="windows-based-tools">Windows-based Tools</h2>
+<p>Arsenal Recon Weapons by <a href="../arsenal_recon/">Arsenal Recon</a> offers unique and
+powerful tools to mount Windows disk images, reconstruct Windows Registry and
+process Windows hibernation files.</p>
+<p><a href="../belkasoft/">Belkasoft Acquisition Tool (BAT)</a> is a free utility to acquire a
+wide range of data sources: hard drives, running computers RAM memory, modern
+smartphones, and various types of clouds. The output can be analyzed with both
+Belkasoft and third-party tools.</p>
+<p><a href="../belkasoft/">Belkasoft Evidence Center (BEC)</a> allows an investigator to
+perform all investigation steps: acquisition (aquire hard and removable drives,
+image smartphones and download cloud data), extraction of evidence (searches
+and carves more than 700 formats of various files and applications data),
+analysis (hex viewer, SQLite viewer, social graph building with communities
+detection etc) and reporting.</p>
+<p><a href="https://www.infinadyne.com/cddvd_inspector.html">CD/DVD Inspector</a> by <a href="../infinadyne/">InfinaDyne</a>
+This is the only forensic-qualified tool for examinination of optical
+media. It has been around since 1999 and is in use by law enforcement,
+government and data recovery companies worldwide.</p>
+<p><a href="../email_detective_forensic_software_tool/">EMail Detective - Forensic Software Tool</a> by <a href="../hot_pepper_technology_inc/">Hot Pepper Technology, Inc</a></p>
+<p><a href="../elcomsoft_desktop_forensic_bundle/">Elcomsoft Desktop Forensic Bundle</a> by <a href="../elcomsoft/">Elcomsoft</a>
+<a href="https://www.elcomsoft.com/edfb.html">https://www.elcomsoft.com/edfb.html</a></p>
+<p>All password recovery tools for unlocking documents, decrypting archives
+and crypto containers.</p>
+<p><a href="../elcomsoft_premium_forensic_bundle/">Elcomsoft Premium Forensic Bundle</a> by <a href="../elcomsoft/">Elcomsoft</a>
+<a href="https://www.elcomsoft.com/epfb.html">https://www.elcomsoft.com/epfb.html</a></p>
+<p>A pack of every forensic tool of Elcomsoft for data extraction from
+mobile devices, unlocking documents, decrypting archives, breaking into
+encrypted containers, viewing and analyzing evidence.</p>
+<p><a href="../encase/">EnCase</a> by <a href="../guidance_software/">Guidance Software</a></p>
+<p><a href="http://www.google.com">Facebook Forensic Toolkit (FFT)</a> by <a href="../afentis_forensics/">Afentis_forensics</a>
+eDiscovery toolkit to identify and clone full profiles; including wall
+posts, private messages, uploaded photos/tags, group details,
+graphically illustrate friend links, and generate expert reports.</p>
+<p><a href="../forensic_explorer/">Forensic Explorer (FEX)</a> by GetData Forensics</p>
+<p><a href="../forensic_toolkit/">Forensic Toolkit (FTK)</a> by <a href="../accessdata/">AccessData</a></p>
+<p><a href="../ilook/">ILook Investigator</a> by Elliot Spencer and
+U.S. Dept of Treasury, Internal Revenue Service - Criminal Investigation (IRS)</p>
+<p>Internet Evidence Finder (IEF) by <a href="https://www.magnetforensics.com/">Magnet Forensics</a></p>
+<p>Mercury Indexer by <a href="http://www.microforensics.com/">MicroForensics, Inc.</a></p>
+<p><a href="../nuix_desktop/">Nuix Desktop</a> by <a href="../nuix_pty_ltd/">Nuix Pty Ltd</a>
+<a href="https://www.nuix.com/">https://www.nuix.com/</a></p>
+<p><a href="https://www.osforensics.com/">OSForensics</a> by PassMark Software Pty Ltd</p>
+<p>P2 Power Pack by <a href="../paraben_forensics/">Paraben</a></p>
+<p><a href="../prodiscover/">Prodiscover</a></p>
+<p><a href="../safeback/">Safeback</a> by NTI and Armor Forensics</p>
+<p><a href="http://www.x-ways.net/forensics/index-m.html">X-Ways Forensics</a> by <a href="../x-ways_ag/">X-Ways AG</a></p>
+<p><a href="../recyclereader/">RecycleReader</a> by <a href="../live-forensics/">Live-Forensics</a></p>
+<p>A command line tool that outputs the contents of the recycle bin on XP,
+Vista and 7.</p>
+<p><a href="../dstrings/">Dstrings</a> by <a href="../live-forensics/">Live-Forensics</a></p>
+<p>A command line tool that searches for strings in a given file. It has
+the ability to compare the output of those strings against a dictionary
+to either exclude the dictionary terms in the output or only output
+files that match the dictionary. It also has the ability to search for
+IP Addresses and URLs/Email Addresses.</p>
+<p><a href="../unique/">Unique</a> by <a href="../live-forensics/">Live-Forensics</a></p>
+<p>A command line tool similar to the Unix uniq. Allows for unique string
+counts, as well as various sorting options.</p>
+<p><a href="../hashutil/">HashUtil</a> by <a href="../live-forensics/">Live-Forensics</a></p>
+<p>HashUtil.exe will calculate MD5, SHA1, SHA256 and SHA512 hashes. It has
+an option that will attempt to match the hash against the NIST/ISC MD5
+hash databases.</p>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE Pro, Ultimate, Live</a>
+Comprehensive Windows Memory Forensics and Cyber Analysis, Incident
+Response, and Education support.</p>
+<p>Software and hardware based acquisition with CaptureGUARD PCIe and ExpressCard</p>
+<p>Hardware based acquisition of memory on a locked computer via CaptureGUARD Gateway</p>
+<p><a href="https://www.windowsscope.com/">WindowsSCOPE</a> Live provides memory
+analysis of Windows computers on a network from Android phones and
+tablets.</p>
+<p><a href="../mailxaminer/">MailXaminer</a> by <a href="../systools/">SysTools</a>
+<a href="https://www.mailxaminer.com/">https://www.mailxaminer.com/</a></p>
+<p>Forensic &amp; eDiscovery Tool to find digital email evidences from multiple
+email platform through its powerful Search mechanism.</p>
+<p>Twitter Forensic Toolkit (TFT) by <a href="../afentis_forensics/">Afentis_forensics</a>
+eDiscovery toolkit to identify relevant Tweets, clone full profiles,
+download all tweets/media, data mine across comments, and generate
+expert reports.</p>
+<p>YouTube Forensic Toolkit (YFT) by <a href="../afentis_forensics/">Afentis_forensics</a>
+<a href="http://www.afentis.com/forensic-software/">http://www.afentis.com/forensic-software/</a>
+eDiscovery toolkit to identify relevant online media, download/convert
+videos, data mine across comments, and generate expert reports.</p>
+<h2 id="open-source-tools">Open Source Tools</h2>
+<p><a href="https://github.com/sshock/AFFLIBv3">AFFLIB</a>
+A library for working with <a href="../disk_image/">disk images</a>.
+Currently AFFLIB supports raw, <a href="../aff/">AFF</a>,
+AFD, and <a href="../encase/">EnCase</a> file formats.
+Work to support segmented raw, <a href="../ilook/">iLook</a>, and other
+formats is ongoing.</p>
+<p><a href="https://www.sleuthkit.org/autopsy/desc.php">Autopsy</a></p>
+<p><a href="../bulk_extractor/">Bulk Extractor</a>
+<a href="https://github.com/simsong/bulk_extractor/wiki">https://github.com/simsong/bulk_extractor/wiki</a></p>
+<p>Bulk Extractor provides digital media triage by extracting Features from
+digital media.</p>
+<p><a href="../bulk_extractor_viewer/">Bulk Extractor Viewer</a></p>
+<p>Bulk Extractor Viewer is a browser UI for viewing Feature data extracted
+using <a href="../bulk_extractor/">Bulk Extractor</a>.</p>
+<p><a href="../digital_forensics_framework/">Digital Forensics Framework</a>
+DFF is cross-platform and open-source, user and developers oriented. It
+provide many features and is very modular. Our goal is to provide a
+powerful framework to the forensic community, so people can use only one
+tool during the analysis. <a href="http://digital-forensic.org/">http://digital-forensic.org/</a></p>
+<p><a href="../foremost/">foremost</a></p>
+<p>Linux based file carving program</p>
+<p><a href="../ftimes/">FTimes</a></p>
+<p>FTimes is a system baselining and evidence collection tool.</p>
+<p><a href="../gfzip/">gfzip</a></p>
+<p><a href="../gpart/">gpart</a></p>
+<p>Tries to <em>guess the primary partition table of a PC-type hard disk in
+case the primary partition table in sector 0 is damaged, incorrect or
+deleted</em>.</p>
+<p><a href="../hachoir/">Hachoir</a>
+A generic framework for binary file manipulation, it supports <a href="../fat/">FAT12</a>,
+<a href="../fat/">FAT16</a>, <a href="../fat/">FAT32</a>, <a href="../extended_file_system_%28ext%29/">ext2/ext3</a>,
+Linux swap, MSDOS partition header, etc. Recognize file type. Able to find
+subfiles (hachoir-subfile).</p>
+<p><a href="../hashdb/">hashdb</a></p>
+<p>A tool for finding previously identified blocks of data in media such as
+disk images.</p>
+<p><a href="https://github.com/sepinf-inc/IPED">IPED</a></p>
+<p>An open source software that can be used to process and analyze digital
+evidence, often seized at crime scenes by law enforcement or in a
+corporate investigation by private examiners.</p>
+<p><a href="https://github.com/jbj/magicrescue">magicrescue</a></p>
+<p>The <a href="../open_computer_forensics_architecture/">Open Computer Forensics Architecture</a></p>
+<p><a href="../pyflag/">pyflag</a></p>
+<p>Web-based, database-backed forensic and log analysis GUI written in
+Python.</p>
+<p><a href="../scalpel/">Scalpel</a></p>
+<p><a href="../linux/">Linux</a> and <a href="../windows/">Windows</a> file carving
+program originally based on <a href="../foremost/">foremost</a>.</p>
+<p><a href="https://github.com/lcorbasson/scrounge-ntfs">scrounge-ntfs</a></p>
+<p><a href="../the_sleuth_kit/">The Sleuth Kit</a></p>
+<p><a href="http://www.porcupine.org/forensics/tct.html">The Coroner's Toolkit (TCT)</a></p>
+<h2 id="nda-and-scoped-distribution-tools"><a href="../nda/">NDA</a> and <a href="../scoped_distribution/">scoped distribution</a> tools</h2>
+<h1 id="enterprise-tools-proactive-forensics">Enterprise Tools (Proactive Forensics)</h1>
+<p><a href="../livewire_investigator/">LiveWire Investigator 2008</a> by <a href="../wetstone_technologies_inc/">WetStone Technologies</a></p>
+<p>P2 Enterprise Edition by <a href="../paraben_forensics/">Paraben</a></p>
+<p><a href="../elcomsoft_premium_forensic_bundle/">Elcomsoft Premium Forensic Bundle</a> by <a href="../elcomsoft/">Elcomsoft</a>
+<a href="https://www.elcomsoft.com/epfb.html">https://www.elcomsoft.com/epfb.html</a></p>
+<h1 id="forensics-live-cds">Forensics Live CDs</h1>
+<p><a href="../kali_linux/">Kali Linux</a>, <a href="https://www.kali.org/">Official website</a></p>
+<p><a href="../knoppix/">KNOPPIX</a>
+<a href="http://www.knopper.net/knoppix/index-en.html"><a href="http://www.knopper.net/knoppix/index-en.html">http://www.knopper.net/knoppix/index-en.html</a></a></p>
+<p><a href="../backtrack/">BackTrack Linux</a></p>
+<p><a href="../paladin_forensic_suite_-_live_boot_ubuntu/">Paladin Forensic Suite - Live Boot Ubuntu</a> (<a href="../sumuri_llc/">Sumuri, LLC</a>)
+<a href="https://sumuri.com">https://sumuri.com</a></p>
+<p>Simplifies various forensics tasks in a forensically sound manner via
+the PALADIN Toolbox.</p>
+<p>See: <a href="../live_cd/">Forensics Live CDs</a></p>
+<h1 id="personal-digital-device-tools">Personal Digital Device Tools</h1>
+<h2 id="gps-forensics">GPS Forensics</h2>
+<ul>
+<li>Blackthorn GPS Forensics</li>
+<li><a href="https://www.msab.com/">.XRY</a></li>
+</ul>
+<h2 id="pda-forensics">PDA Forensics</h2>
+<ul>
+<li><a href="../cellebrite_ufed/">Cellebrite UFED</a></li>
+<li><a href="https://www.msab.com/">.XRY</a></li>
+<li><a href="../paraben_device_seizure/">Paraben Device Seizure</a> and <a href="../paraben_device_seizure_toolbox/">Paraben Device Seizure Toolbox</a></li>
+<li>PDD</li>
+</ul>
+<h2 id="cell-phone-forensics">Cell Phone Forensics</h2>
+<ul>
+<li><a href="https://belkasoft.com/x">Belkasoft Evidence Center</a></li>
+<li><a href="../bitpim/">BitPIM</a></li>
+<li><a href="../cellebrite_ufed/">Cellebrite UFED</a></li>
+<li><a href="../datapilot_secure_view/">DataPilot Secure View</a></li>
+<li><a href="../elcomsoft_mobile_forensic_bundle/">Elcomsoft Mobile Forensic Bundle</a></li>
+<li>Fernico ZRT</li>
+<li>ForensicMobile</li>
+<li>LogiCube CellDEK</li>
+<li><a href="../mobiledit/">MOBILedit!</a></li>
+<li><a href="../oxygen_forensic_suite/">Oxygen Forensic Suite</a></li>
+<li><a href="../paraben_device_seizure/">Paraben Device Seizure</a> and <a href="../paraben_device_seizure_toolbox/">Paraben Device Seizure Toolbox</a></li>
+<li><a href="../serial_port_monitoring/">Serial Port Monitoring</a>
+TULP2G</li>
+<li><a href="https://www.msab.com/">.XRY</a></li>
+</ul>
+<h2 id="sim-card-forensics">SIM Card Forensics</h2>
+<p><a href="../cellebrite_ufed/">Cellebrite UFED</a>
+<a href="https://www.msab.com/">.XRY</a>
+ForensicSIM
+<a href="../paraben_sim_card_seizure/">Paraben SIM Card Seizure</a></p>
+<p><a href="../simcon/">SIMCon</a></p>
+<h2 id="preservation-tools">Preservation Tools</h2>
+<p><a href="../paraben_stronghold_bag/">Paraben StrongHold Bag</a>
+Paraben StrongHold Tent</p>
+<h1 id="other-tools">Other Tools</h1>
+<p><a href="https://www.serial-port-communication.com/how-to-analyze-serial-port-activity/">Serial Port Analyzer</a></p>
+<p>The tool to analyze serial port and device activity.</p>
+<p><a href="https://liveview.sourceforge.net/">Live View</a></p>
+<p>Live View is a graphical forensics tool that creates a
+<a href="../vmware/">VMware</a> <a href="../virtual_machine/">virtual
+machine</a> out of a dd disk image or physical
+disk.</p>
+<p><a href="https://www.parallels.com/">Parallels VM</a></p>
+<p>Serial and USB ports sharing
+<a href="https://www.flexihub.com/serial-to-ethernet-overview/">https://www.flexihub.com/serial-to-ethernet-overview/</a></p>
+<p>Share and access serial and USB ports over Ethernet</p>
+<p><a href="https://support.microsoft.com/en-us/topic/description-of-windows-virtual-pc-262c8961-90e5-1125-654f-d87cd5ba16f8">Microsoft Virtual PC</a></p>
+<p><a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a></p>
+<p>A free player for <a href="../vmware/">VMware</a> <a href="../virtual_machine/">virtual
+machines</a> that will allow them to "play" on
+either <a href="../windows/">Windows</a> or <a href="../linux/">Linux</a>-based
+systems.</p>
+<p><a href="https://www.vmware.com/products/vsphere.html">vSphere</a></p>
+<p>The free server product, for setting up/configuring/running
+<a href="../vmware/">VMware</a> <a href="../virtual_machine/">virtual
+machine</a>.Important difference being that it
+can run 'headless', i.e. everything in background.</p>
+<p><a href="https://sumuri.com/">Recon for MAC OS X</a></p>
+<p>RECON for Mac OS X is simply the fastest way to conduct Mac Forensics,
+automates what an experienced examiner would need weeks to accomplish in
+minutes, now includes PALADIN 6 which comes with a full featured
+Forensic Suite, bootable forensic imager, a software write-blocker and
+so much more.</p>
+<h2 id="hex-editors">Hex Editors</h2>
+<p><a href="../bless/">bless</a></p>
+<p><a href="https://apps.kde.org/okteta/">Okteta</a>
+KDE's new cross-platform hex editor with features such as
+signature-matching</p>
+<p><a href="https://hexfiend.com/">HexFiend</a>
+A hex editor for MacOS</p>
+<p>Hex Workshop
+A hex editor from <a href="http://www.bpsoft.com">BreakPoint Software Inc.</a></p>
+<p><a href="https://docs.kde.org/stable/en/kdeutils/khexedit/index.html">khexedit</a></p>
+<p><a href="https://www.reclaime-pro.com/">ReclaiMe Pro</a>
+The built-in disk editor visualizes most known partition and filesystem
+objects: boot sectors, superblocks, partition headers in structured
+view. Low-level data editing for extra leverage.</p>
+<p><a href="https://www.x-ways.net/winhex/">WinHex</a>
+Computer forensics software, data recovery software, hex editor, and
+disk editor from <a href="../x-ways_ag/">X-Ways</a>.</p>
+<p><a href="https://www.wxhexeditor.org/">wxHexEditor</a>
+A Multi-OS supported, open sourced, hex and disk editor.</p>
+<p>HexReader <a href="../live-forensics/">Live-Forensics</a> software that reads Windows
+files at specified offset and length and outputs results to the console.</p>
+<h1 id="telephone-scannerswar-dialers">Telephone Scanners/War Dialers</h1>
+<p><a href="https://securelogix.com">TeleSweep</a></p>
+<p>SecureLogix is currently offering no-cost downloads of our award-winning
+TeleSweep Secure® modem-vulnerability scanner. This free modem scanning
+software can be used to dial a batch of corporate phone numbers and
+report on the number of modems connected to these corporate lines.
+*** Registration is required for obtaining a license key *** Still
+free however.</p>
+<p><a href="https://github.com/rapid7/warvox">WarVox</a></p>
+<p>WarVOX is a free, open-source VOIP-based war dialing tool for exploring,
+classifying, and auditing phone systems.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

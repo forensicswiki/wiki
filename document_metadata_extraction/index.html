@@ -1,0 +1,772 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Document metadata extraction - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Document metadata extraction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pdf-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      PDF Files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+<p>Here are tools that will extract metadata from document files.</p>
+<h2 id="tools">Tools</h2>
+<p><a href="https://en.wikipedia.org/wiki/Antiword">antiword</a></p>
+<p><a href="../belkasoft/">Belkasoft</a> Evidence Center</p>
+<p>Extracts metadata from various <a href="../microsoft/">Microsoft</a> Office
+files (both 97-2003 and 2007-2013 formats), as well as Open Office
+documents. Besides, can extract plain texts (combining all texts from
+all XLS/XLSX/ODS pages and PPT/PPTX/ODP slides) and embedded objects.
+The tool can visualize pictures embedded in a document.</p>
+<p><a href="https://github.com/petewarden/catdoc">catdoc</a></p>
+<p><a href="https://word2x.sourceforge.net/">word2x</a></p>
+<p><a href="https://wvware.sourceforge.net/">wvWare</a></p>
+<p>Extracts metadata from various <a href="../microsoft_office/">Microsoft Word</a> (doc)
+files. Can also convert doc files to other formats such as HTML or plain text.</p>
+<p><a href="https://www.fid3.com/">FI Tools</a></p>
+<p>More than 100 file types.</p>
+<h1 id="pdf-files">PDF Files</h1>
+<p><a href="../belkasoft/">Belkasoft</a> Evidence Center</p>
+<p>Extracts metadata from <a href="../pdf/">PDF</a> files. Besides, can extract
+texts and embedded objects. For pictures, embedded into a PDF document,
+the tool can visualize them all right in its user interface.</p>
+<p><a href="../pdfinfo/">pdfinfo</a> (part of the <a href="../xpdf/">xpdf</a>
+package) displays some metadata of <a href="../pdf/">PDF</a> files.</p>
+<p><a href="https://www.xpdfreader.com/index.html">XpdfReader</a></p>
+<h1 id="images">Images</h1>
+<p><a href="../belkasoft/">Belkasoft</a> Evidence Center</p>
+<p>Extracts <a href="../exif/">EXIF</a> metadata from <a href="../jpeg/">JPEG</a>
+files as well as many digital camera raw files. The tool allows a user
+to create complex filters based on various criteria on EXIF properties.
+Photos with GPS coordinates can be shown on Google Maps and Google
+Earth. Evidence Center can analyze existing Thumbs.db files and Thumbs
+Cache as well as carve deleted thumbnails.</p>
+<p><a href="../exiftool/">Exiftool</a></p>
+<p>Free, cross-platform tool to extract metadata from many different file
+formats. Also supports writing</p>
+<p><a href="../jhead/">jhead</a>
+<a href="https://www.sentex.ca/~mwandel/jhead/">https://www.sentex.ca/~mwandel/jhead/</a></p>
+<p>Displays or modifies <a href="../exif/">Exif</a> data in
+<a href="../jpeg/">JPEG</a> files.</p>
+<p><a href="../vinetto/">vinetto</a>
+<a href="https://vinetto.sourceforge.net/">https://vinetto.sourceforge.net/</a></p>
+<p>Examines <a href="../thumbs.db/">Thumbs.db</a> files.</p>
+<p><a href="../libexif/">libexif</a>
+<a href="https://sourceforge.net/projects/libexif">https://sourceforge.net/projects/libexif</a> EXIF tag Parsing Library</p>
+<p><a href="../adroit_photo_forensics/">Adroit Photo Forensics</a></p>
+<p>Displays meta data and uses date and camera meta-data for grouping,
+timelines etc.</p>
+<p><a href="https://johnst.org/sw/exiftags/">exiftags</a></p>
+<p>open source utility to parse and edit <a href="../exif/">exif</a> data in
+<a href="../jpeg/">JPEG</a> images. Found in many Debian based
+distributions.</p>
+<p><a href="https://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html">exifprobe</a></p>
+<p>Open source utility that reads <a href="../exif/">exif</a> data in
+<a href="../jpeg/">JPEG</a> and some "RAW" image formats. Found in many
+Debian based distributions.</p>
+<p><a href="https://exiv2.org/">Exiv2</a></p>
+<p>Open source C++ library and command line tool for reading and writing
+metadata in various image formats. Found in almost every GNU/Linux
+distribution</p>
+<p><a href="https://sourceforge.net/projects/pmt/files/">pngmeta</a></p>
+<p>Open source command line tool that extracts metadata from PNG images. Found in
+many Debian based distributions.</p>
+<h1 id="general">General</h1>
+<p>These general-purpose programs frequently work when the special-purpose
+programs fail, but they generally provide less detailed information.</p>
+<p><a href="https://www.litera.com/products/metadact">Metadact-e</a>
+"Patented server-based metadata cleaning software that previews, cleans
+and converts documents in Microsoft Outlook, Web Access email, tablets
+and smartphones, as well as desktop-based documents."</p>
+<p><a href="https://meta-extractor.sourceforge.net/">Metadata Extraction Tool</a>
+"Developed by the National Library of New Zealand to programmatically
+extract preservation metadata from a range of file formats like PDF
+documents, image files, sound files Microsoft office documents, and many
+others."</p>
+<p><a href="../hachoir/">hachoir-metadata</a>
+Extraction tool, part of <strong><a href="../hachoir/">Hachoir</a></strong> project</p>
+<p><a href="../file/">file</a>
+The UNIX <strong>file</strong> program can extract some metadata</p>
+<p><a href="https://www.gnunet.org/en/">GNU libextractor</a>
+The libextractor library is a plugable system for extracting metadata</p>
+<p><a href="https://www.krksoft.com/">Directory Lister Pro</a>
+Directory Lister Pro is a Windows tool which creates listings of files
+from selected directories on hard disks, CD-ROMs, DVD-ROMs, floppies,
+USB storages and network shares. Listing can be in HTML, text or CSV
+format (for easy import to Excel). Listing can contain standard file
+information like file name, extension, type, owner and date created, but
+especially for forensic analysis file meta data can be extracted from
+various formats: 1) executable file information (EXE, DLL, OCX) like
+file version, description, company, product name. 2) multimedia
+properties (MP3, AVI, WAV, JPG, GIF, BMP, MKV, MKA, MPEG) like track,
+title, artist, album, genre, video format, bits per pixel, frames per
+second, audio format, bits per channel. 3) Microsoft Office files (DOC,
+DOCX, XLS, XLSX, PPT, PPTX) like document title, author, keywords, word
+count. For each file and folder it is also possible to obtain its CRC32,
+MD5, SHA-1 and Whirlpool hash sum. Extensive number of options allows to
+completely customize the visual look of the output. Filter on file name,
+date, size or attributes can be applied so it is possible to limit the
+files listed.</p>
+<p><a href="https://tika.apache.org/">Apache Tika</a>
+Apache Tika extracts metadata from a wide range of file formats and
+normalizes metadata keys to Dublin Core when possible. In recent
+versions of Tika, we have focused on extracting more information about
+"authors" (original author, comment authors, last-saved-by, editors,
+etc.) in general formats and more granular information for to/from/bcc
+info in .msg files. We've also added extraction of "original paths,"
+when available, that might allow examiners to see the full path that the
+file or its attachments were stored. Finally, we've enriched extraction
+from XMP to allow identification of uuids and ancestor uuids. Tika can
+run in batch mode from input directory to output directory, and we
+recommend the RecursiveParserWrapper (-J -t options in the commandline
+app or /rmeta endpoint in
+<a href="https://cwiki.apache.org/confluence/display/tika/TikaJAXRS">tika-server</a>) to capture
+metadata from embedded documents.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

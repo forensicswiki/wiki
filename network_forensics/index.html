@@ -1,0 +1,998 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Network forensics - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Network forensics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips and Tricks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-source-network-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Source Network Forensics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commercial-network-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commercial Network Forensics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commercial Network Forensics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deep-analysis-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deep-Analysis Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flow-based-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flow-Based Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hybrid Systems
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:network-forensics" class="md-tag">Network Forensics</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Network forensics</h1>
+
+<p><strong>Network forensics</strong> is the process of capturing information that moves over a
+network and trying to make sense of it in some kind of forensics capacity. A
+network forensics appliance is a device that automates this process.</p>
+<p>There are both open source and proprietary network forensics systems
+available.</p>
+<h2 id="overview">Overview</h2>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>License</th>
+<th>User Interface</th>
+<th>Supported Platform</th>
+<th>Supported Protocols</th>
+<th>Refs</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../argus/">Argus</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI via <a href="http://www.datenspionage.de/arguseye/">ArgusEye</a></td>
+<td>Mac OS X, Linux, Solaris, FreeBSD, OpenBSD, NetBSD, AIX, IRIX, Windows (under Cygwin) and OpenWrt</td>
+<td>L2 addresses, tunnel identifiers (MPLS, GRE, ESP, etc...), protocol ids, SAP's, hop-count, options, L4 transport identification (RTP, RTCP detection), host flow control indication; netflow</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../chaosreader/">Chaosreader</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Solaris, RedHat, Windows</td>
+<td>FTP files, HTTP transfers (HTML, GIF, JPEG, ...), SMTP emails, ... from the captured data inside network traffic logs</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Junkie</td>
+<td>Open Source</td>
+<td>GUI</td>
+<td>unknown</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../kismac/">kisMAC</a></td>
+<td>Open Source</td>
+<td>GUI</td>
+<td>Mac OS X, Linux, Solaris, FreeBSD, OpenBSD, NetBSD, AIX, IRIX, Windows (under Cygwin) and OpenWrt</td>
+<td>L2 addresses, tunnel identifiers (MPLS, GRE, ESP, etc...), protocol ids, SAP's, hop-count, options, L4 transport identification (RTP, RTCP detection), host flow control indication; netflow</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../kismet/">kismet</a></td>
+<td>Open Source</td>
+<td>Command Line /GUI via <a href="http://www.datenspionage.de/arguseye/">ArgusEye</a></td>
+<td>Mac OS X</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>n2disk</td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Ubuntu, CentOS</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>net-sniff-ng</td>
+<td>Open Source</td>
+<td>unknown</td>
+<td>unknown</td>
+<td>unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../netfse/">netfse</a></td>
+<td>Open Source</td>
+<td>GUI</td>
+<td>unknown</td>
+<td>TCP/IP, UDP</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>netsleuth</td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Windows, <a href="../backtrack/">Backtrack</a></td>
+<td>Apple MDNS / Bonjour, SMB / CIFS / NetBios, DHCP (using the www.fingerbank.org resource), SSDP (as used in Microsoft Zero Config)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../networkminer/">NetworkMiner</a></td>
+<td>Open Source</td>
+<td>Windows GUI, Commandline</td>
+<td>Linux / Mac OS X / FreeBSD, Windows</td>
+<td>http, smb, ftp, tfpt, ssl , tls, tor</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../ntop/">ntop</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Unix (including Linux, *BSD, Solaris, and MacOSX), linux, windows</td>
+<td>DPI via OpenDPI Library; FTP POP SMTP IMAP DNS IPP HTTP MDNS NTP NFS SSDP BGP SNMP XDMCP SMB SYSLOG DHCP PostgreSQL MySQL TDS DirectDownloadLink I23V5 AppleJuice DirectConnect Socrates WinMX MANOLITO PANDO Filetopia iMESH Kontiki OpenFT Kazaa/Fasttrack Gnutella eDonkey Bittorrent (Extended) OFF AVI Flash OGG MPEG QuickTime RealMedia Windowsmedia MMS XBOX QQ MOVE RTSP Feidian Icecast PPLive PPStream Zattoo SHOUTCast SopCast TVAnts TVUplayer VeohTV QQLive Thunder/Webthunder Soulseek GaduGadu IRC Popo Jabber MSN Oscar Yahoo Battlefield Quake Second Life Steam Halflife2 World of Warcraft Telnet STUN IPSEC GRE ICMP IGMP EGP SCTP OSPF IP in IP RTP RDP VNC PCAnywhere SSL SSH USENET MGCP IAX TFTP</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../ossec/">OSSEC</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Windows 7, XP, 2000 and Vista Windows Server 2003 and 2008 VMWare ESX 3.0,3.5 (including CIS checks) FreeBSD (all versions) OpenBSD (all versions) NetBSD (all versions) Solaris 2.7, 2.8, 2.9 and 10 AIX 5.3 and 6.1 HP-UX 10, 11, 11i MacOSX 10 remote syslog: Cisco PIX, ASA and FWSM (all versions) Cisco IOS routers (all versions) Juniper Netscreen (all versions) SonicWall firewall (all versions) Checkpoint firewall (all versions) Cisco IOS IDS/IPS module (all versions) Sourcefire (Snort) IDS/IPS (all versions) Dragon NIDS (all versions) Checkpoint Smart Defense (all versions) McAfee VirusScan Enterprise (v8 and v8.5) Bluecoat proxy (all versions) Cisco VPN concentrators (all versions) Database monitoring is available for the following systems: MySQL (all versions) PostgreSQL (all versions) Oracle, MSSQL (to be available soon)"</td>
+<td>Unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../snort/">Snort</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Linux, Windows</td>
+<td>Unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../wireshark/">Wireshark</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Windows, Linux, Mac OS X, Solaris, FreeBSD, NetBSD, and others</td>
+<td>IPsec, ISAKMP, Kerberos, SNMPv3, SSL/TLS, WEP, and WPA/WPA2; Wireshark can decrypt IEEE 802.11 WLAN data with user specified encryption keys, and others</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../xplico/">xplico</a></td>
+<td>Open Source</td>
+<td>Command Line, GUI</td>
+<td>Linux</td>
+<td>ARP Radiotap Ethernet PPP VLAN L2TP IPv4 IPv6 TCP UDP DNS HTTP SMTP POP IMAP SIP MGCP H323 RTP RTCP SDP FB chat FTP IPP CHDLC PJL NNTP MSN IRC YAHOO GTALK EMULE SSL/TLS IPsec 802.11 LLC MMSE Linux cooked TFTP SNOOP PPPoE Telnet WebMail Paltalk Exp. Paltalk NetBIOS SMB PPI syslog G711ulaw, G711alaw, G722, G729, G723, G726 and RTAudio (x-msrta: Real Time Audio).</td>
+<td>Unknown</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>System</td>
+<td>License</td>
+<td>User Interface</td>
+<td>Supported Platform</td>
+<td>Supported Protocols</td>
+<td>Refs</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tips-and-tricks">Tips and Tricks</h2>
+<ul>
+<li>The time between two events triggered by an intruder (as seen in
+  logfiles, for example) can be helpful. If it is very short, you can be
+  pretty sure that the actions were performed by an automated script and
+  not by a human user.</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../wireless_forensics/">Wireless forensics</a></li>
+<li><a href="../ssl_forensics/">SSL forensics</a></li>
+<li><a href="../ip_geolocation/">IP geolocation</a></li>
+<li><a href="../tools_network_forensics/">Tools: Network Forensics</a></li>
+<li><a href="../logfile_analysis/#tools">Tools: Logfile Analysis</a></li>
+</ul>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/">Default Time To Live (TTL) values</a></li>
+<li><a href="https://daniel.haxx.se/http2/">http2 explained</a>, by Daniel Stenberg,
+  February 18, 2015</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<h3 id="open-source-network-forensics">Open Source Network Forensics</h3>
+<ul>
+<li><a href="../argus/">Argus</a></li>
+<li><a href="../bulk_extractor/">Bulk Extractor</a></li>
+<li><a href="../chaosreader/">Chaosreader</a> is a session reconstruction tool
+  (supports both live or captured network traffic)</li>
+<li><a href="https://www.monkey.org/~jose/software/flowgrep/">FlowGREP</a> is a basic IDS/IPS tool written in
+  Python</li>
+<li><a href="../kismac/">KisMAC</a> is a free, open source wireless stumbling
+  and security tool for Mac OS X.</li>
+<li><a href="../kismet/">Kismet</a></li>
+<li><a href="https://www.elastic.co/logstash">logstash</a> is a tool for managing events and
+  logs. You can use it to collect logs, parse them, and store them for
+  later use (like, for searching). Speaking of searching, logstash comes
+  with a web interface for searching and drilling into all of your logs.</li>
+<li><a href="../log2timeline/">log2Timeline</a> a framework for automatic
+  creation of a super timeline. The main purpose is to provide a single
+  tool to parse various log files and artifacts found on suspect systems
+  (and supporting systems, such as network equipment) and produce a
+  timeline that can be analysed by forensic investigators/analysts.</li>
+<li><a href="../netfse/">NetFSE</a> is a web-based search and analysis application for
+   high-volume network data.</li>
+<li><a href="../ntop/">ntop</a></li>
+<li><a href="https://pypi.org/project/netgrep/">NetGREP</a> is a command line tool which tells you
+  which lines in a text file contain network resources related to a
+  particular country or Autonomous Network (AS)</li>
+<li><a href="../networkminer/">NetworkMiner</a> is an open source Network Forensics Tool available at <a href="https://sourceforge.net/projects/networkminer/">SourceForge</a></li>
+<li><a href="../ossec/">OSSEC</a></li>
+<li><a href="../plaso/">Plaso</a>  (Plaso Langar Að Safna Öllu), or super timeline all the
+  things, is a Python-based engine used by several tools for automatic creation
+  of timelines. Plaso default behavior is to create super timelines but it also
+  supports creating more targeted timelines.</li>
+<li><a href="../regripper/">RegRipper</a> is an open source tool, written in
+  Perl, for extracting/parsing information (keys, values, data) from the
+  Registry and presenting it for analysis</li>
+<li><a href="../snort/">Snort</a></li>
+<li><a href="../wireshark/">Wireshark</a></li>
+<li><a href="../xplico/">Xplico</a>.</li>
+</ul>
+<h3 id="commercial-network-forensics">Commercial Network Forensics</h3>
+<h4 id="deep-analysis-systems">Deep-Analysis Systems</h4>
+<ul>
+<li><a href="https://www.edecision4u.com/">E-Detective</a></li>
+<li><a href="https://infowatch.com/">InfoWatch Traffic Monitor</a></li>
+<li>Mera Systems <a href="https://videonadzor.net/">NetBeholder</a></li>
+<li>NETRESEC <a href="https://www.netresec.com/?page=NetworkMiner">NetworkMiner Professional (portable network forensic analysis tool for Windows)</a></li>
+<li>NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
+  Real-Time Network Forensics <a href="https://www.netwitness.com/">NetWitness</a></li>
+<li><a href="https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security">Network Instruments</a></li>
+<li>NIKSUN's NetDetector</li>
+<li><a href="https://www.vmware.com/company/acquisitions.html">PacketMotion</a></li>
+<li>WildPackets <a href="../omnipeek/">OmniPeek</a></li>
+<li><a href="../xplico/">Xplico</a></li>
+<li><a href="http://expert-team.net/home/">Expert Team - 3i System</a></li>
+</ul>
+<h4 id="flow-based-systems">Flow-Based Systems</h4>
+<ul>
+<li>Arbor Networks</li>
+<li><a href="https://www.capanalysis.net/ca/">CapAnalysis</a></li>
+<li>GraniteEdge Networks</li>
+<li><a href="https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html">Lancope</a></li>
+<li><a href="https://www.mantaro.com">Mantaro Product Development Services</a></li>
+<li><a href="https://www.riverbed.com/en-gb">Mazu Networks</a></li>
+</ul>
+<h4 id="hybrid-systems">Hybrid Systems</h4>
+<p>These systems combine flow analysis, deep analysis, and security event
+monitoring and reporting.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

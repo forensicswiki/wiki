@@ -1,0 +1,981 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Asr data's expert witness compression format - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Asr data's expert witness compression format
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:disk-imaging" class="md-tag">Disk Imaging</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:file-formats" class="md-tag">File Formats</a>
+      
+    
+  </nav>
+
+
+
+<p><b>This page is intended to preserve the original material, including
+errors and typos. It is wiki-style formatted as closely as possible to
+the original.</b></p>
+<p>Expert Witness File Format Specification</p>
+<p>Revised: April 7, 2002</p>
+<p>Original URL: <a href="http://www.asrdata.com/whitepaper-html/">http://www.asrdata.com/whitepaper-html/</a></p>
+<p>Redistributed with permission</p>
+<h1 id="introduction">Introduction</h1>
+<p>Developed by ASR Data, the Expert Witness file format (aka E01 format
+aka EnCase file format) is an industry standard format for storing
+"forensic" images. The format allows a user to access arbitrary offsets
+in the uncompressed data without requiring decompression of the entire
+data stream. The specification does <b>NOT</b> provide for quantifyable
+assurance of integrity, it is up to the implementation to provide
+meaningful authentication for <b>any</b> data contained in an "evidence
+file".</p>
+<ul>
+<li>Overview</li>
+<li>File Header</li>
+<li>The Section</li>
+<li>Section Types</li>
+<li>'header' section</li>
+<li>'volume' section</li>
+<li>'table' section</li>
+<li>'next' and 'done' sections</li>
+</ul>
+<h1 id="overview">Overview</h1>
+<p>The Expert Witness Compression format can store a single image in one or
+more segment files. Each file consists of a standard 13-byte header,
+followed by a series of sections. The sections are typically arranged
+back-to-back. A section cannot span two files.</p>
+<p>A <i>Chunk</i> is a 32k run of data (64 standard sectors). All offsets
+are relative to the beginning of the segment file, unless otherwise
+noted.</p>
+<p>File Header Each file begins with the following 13-byte header. (This is
+not to be confused with the header section, below.)</p>
+<p><i>Signature Part (8 bytes)...</i></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Bytes</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Data</td>
+<td>"EVF"</td>
+<td>0x09</td>
+<td>0x0d</td>
+<td>0x0a</td>
+<td>0xff</td>
+<td>0x00</td>
+</tr>
+</tbody>
+</table>
+<p><i>Fields Part (5 bytes)...</i></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Bytes</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Data</td>
+<td>0x01</td>
+<td>1 or higher</td>
+<td>0x0000</td>
+</tr>
+<tr>
+<td style="text-align: left;">Meaning</td>
+<td></td>
+<td>Segment Number</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="the-section">The Section</h1>
+<p>Every <i>section</i> begins with the same standard data, with the
+following layout.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Offset:</td>
+<td>Bytes:</td>
+<td>Data:</td>
+<td>Meaning:</td>
+</tr>
+<tr>
+<td style="text-align: left;">0 (0x0)</td>
+<td>16</td>
+<td>"volume", "header", etc.</td>
+<td>Section type string</td>
+</tr>
+<tr>
+<td style="text-align: left;">16 (0x10)</td>
+<td>8</td>
+<td></td>
+<td>64-bit offset in current file to the next section</td>
+</tr>
+<tr>
+<td style="text-align: left;">24 (0x18)</td>
+<td>8</td>
+<td></td>
+<td>64-bit byte-size of the section</td>
+</tr>
+<tr>
+<td style="text-align: left;">32 (0x20)</td>
+<td>40</td>
+<td>0x00...</td>
+<td>Padding</td>
+</tr>
+<tr>
+<td style="text-align: left;">72 (0x48)</td>
+<td>4</td>
+<td></td>
+<td>CRC of all previous setion data</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-types">Section Types</h1>
+<p>Expert Witness Compression uses the following section types: <code>header</code>,
+<code>volume</code>, <code>table</code>, <code>next</code>, and <code>done</code>. Some of these section types have
+unique data that begins directly after the standard section structure
+above.</p>
+<h2 id="header-section">'header' section...</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Offset:</td>
+<td>Bytes:</td>
+<td>Data:</td>
+<td>Meaning:</td>
+</tr>
+<tr>
+<td style="text-align: left;">76 (0x4c)</td>
+<td>to end of section</td>
+<td>zlib compress()'ed data</td>
+<td>Comments structure (see below)</td>
+</tr>
+</tbody>
+</table>
+<p><i>Comment structure is simply a text string in the following tab- and
+newline-delimited format. (The data in each cell is separated by a tab
+character, and each row is separated by a newline character.) The first
+three lines are standard and must not change. The characters in the
+third line serve as reminders for the content of the fields in the
+fourth line. (The fourth line is the only line that needs to be
+customized.)</i></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">main</td>
+</tr>
+<tr>
+<td style="text-align: left;">c</td>
+</tr>
+<tr>
+<td style="text-align: left;">Case Number</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><i>Case Number, Evidence Number, Unique Description, Examiner Name,
+  and Notes are free-form (provided they don't contain tab or newline
+  characters).</i></li>
+<li><i>Acquired Date and System Date are in the form of: "2002 3 4 10 19
+  59" (March 4, 2002 10:19:59).</i></li>
+<li><i>pwhash should simply be the character '0'.</i></li>
+<li><i>char should be the one of these three characters: 'b', 'f', or 'n'.
+  This represents "best", "fastest", or "no compression". Expert Witness
+  Compression uses 'f'.</i></li>
+</ul>
+<p>The header section should appear in the first segment file only.</p>
+<h2 id="volume-section">'volume' section...</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Offset:</td>
+<td>Bytes:</td>
+<td>Data:</td>
+<td>Meaning:</td>
+</tr>
+<tr>
+<td style="text-align: left;">76 (0x4c)</td>
+<td>4</td>
+<td>1</td>
+<td>Reserved</td>
+</tr>
+<tr>
+<td style="text-align: left;">80 (0x50)</td>
+<td>4</td>
+<td></td>
+<td>Chunk Count</td>
+</tr>
+<tr>
+<td style="text-align: left;">84 (0x54)</td>
+<td>4</td>
+<td>64</td>
+<td>Sectors per Chunk</td>
+</tr>
+<tr>
+<td style="text-align: left;">88 (0x58)</td>
+<td>4</td>
+<td>512</td>
+<td>Bytes per Sector</td>
+</tr>
+<tr>
+<td style="text-align: left;">92 (0x5c)</td>
+<td>4</td>
+<td></td>
+<td>Sector Count</td>
+</tr>
+<tr>
+<td style="text-align: left;">96 (0x60)</td>
+<td>20</td>
+<td>0x00...</td>
+<td>Reserved</td>
+</tr>
+<tr>
+<td style="text-align: left;">116 (0x74)</td>
+<td>45</td>
+<td>0x00...</td>
+<td>Padding</td>
+</tr>
+<tr>
+<td style="text-align: left;">161 (0xa1)</td>
+<td>5</td>
+<td></td>
+<td>Reserved (Signature)</td>
+</tr>
+<tr>
+<td style="text-align: left;">166 (0xa6)</td>
+<td>4</td>
+<td></td>
+<td>CRC of all previous 'volume' data, starting with offset 76</td>
+</tr>
+</tbody>
+</table>
+<p>The volume section should appear in the first segment file only.</p>
+<h2 id="table-section">'table' section...</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Offset:</td>
+<td>Bytes:</td>
+<td>Data:</td>
+<td>Meaning:</td>
+</tr>
+<tr>
+<td style="text-align: left;">76 (0x4c)</td>
+<td>4</td>
+<td>1</td>
+<td>Chunk Count (for this table)</td>
+</tr>
+<tr>
+<td style="text-align: left;">80 (0x50)</td>
+<td>16</td>
+<td>0x00...</td>
+<td>Padding</td>
+</tr>
+<tr>
+<td style="text-align: left;">96 (0x60)</td>
+<td>4</td>
+<td></td>
+<td>CRC of all previous 'table' data, starting with offset 76</td>
+</tr>
+<tr>
+<td style="text-align: left;">100 (0x64)</td>
+<td>as long as necessary</td>
+<td></td>
+<td>Offset array (see below)</td>
+</tr>
+<tr>
+<td style="text-align: left;">from end of offset array</td>
+<td>to end of section</td>
+<td></td>
+<td>zlib compress()'ed data Chunks</td>
+</tr>
+</tbody>
+</table>
+<p><i>The offset array is a series of back-to-back 4-byte unsigned integer
+values. Each entry is an offset to the start of a compressed 'Chunk'.
+The high bit of each value must be set! There must be one entry per
+Chunk.</i></p>
+<p>Each table section can hold 16375 entries. If more entries are needed,
+you must create multiple table sections per file.</p>
+<h2 id="next-and-done-sections">'next' and 'done' sections...</h2>
+<p>Each file ends with a 'next' or 'done' section. If the file is the last
+segment in an Expert Witness compressed image, the section will be named
+'done'. Otherwise, the section will be named 'next' to indicate that
+another segment file must be read. The "next section" pointer for these
+section types points to the beginning of the section itself, since it is
+the last section in a file. These section types have no unique data.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

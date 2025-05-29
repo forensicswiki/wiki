@@ -1,0 +1,744 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Linux memory analysis - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#linux-memory-analysis-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Linux memory analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#linux-memory-analysis-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Memory Analysis Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-memory-analysis-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Memory Analysis Challenges
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-memory-analysis-bibliography" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux Memory Analysis Bibliography
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Linux memory analysis</h1>
+
+<p>The output of a <a href="../tools_memory_imaging/">memory acquisition tool</a> is a memory
+image which contains the raw physical memory of a system. A wide variety of
+tools can be used to search for strings or other patterns in a memory image,
+but to extract higher-level information about the state of the system a memory
+analysis tool is required.</p>
+<h2 id="linux-memory-analysis-tools">Linux Memory Analysis Tools</h2>
+<p>Active Open Source Projects:</p>
+<ul>
+<li>The <a href="../volatility_framework/">Volatility Framework</a> is a
+  collection of tools, implemented in Python, for the extraction of
+  digital artifacts from volatile memory (RAM) samples. See the
+  <a href="https://code.google.com/archive/p/volatility/wikis/LinuxMemoryForensics.wiki">LinuxMemoryForensics</a>
+  page on the Volatility wiki. (Availability/License: GNU GPL)</li>
+<li><a href="http://www.rekall-forensic.com/">Rekall</a> includes a Python-based
+  analysis framework which forked from Volatility and has since added a
+  number of features, as well as its own acquisition tools. It is usable
+  as a library and is used as such in the GRR remote live forensics
+  project.</li>
+<li>The Red Hat Crash Utility is an extensible Linux kernel core dump analysis
+  program. Although designed as a debugging tool, it also has been utilized for
+  memory forensics. See, for example, the <a href="http://volatilesystems.blogspot.com/2008/07/linux-memory-analysis-one-of-major.html">2008 DFRWS challenge write-up by AAron Walters</a>.
+  (Availability/License: GNU GPL)</li>
+</ul>
+<p>Commercial Products:</p>
+<ul>
+<li>Forcepoint Linux Security (<a href="../second_look/">Second Look</a>
+  provides memory acquisition and analysis tools for Linux incident
+  response and enterprise security. Its major differentiators versus
+  Volatility are malware detection via integrity verification of the
+  kernel, running processes, and cached files; ease of use (automatic
+  kernel version detection, a graphical user interface, etc.); and
+  enterprise scalability (including live analysis of remote systems via
+  a memory access agent). (Availability/License: commercial)</li>
+</ul>
+<p>Inactive Open Source and Research Projects:</p>
+<ul>
+<li>The Forensic Analysis Toolkit (FATKit) is
+  a cross-platform, modular, and extensible digital investigation
+  framework for analyzing volatile system memory. (Publication Date:
+  2006; Availability/License: not available)</li>
+<li>Foriana is tool for extraction of information such as the process and modules
+  lists from a RAM image using logical relations between OS structures.
+  (Availability/License: GNU GPL)</li>
+<li><a href="https://code.google.com/archive/p/draugr">Draugr</a> is a Linux memory forensics
+  tool written in Python. (Availability/License: GNU GPL)</li>
+<li><a href="https://code.google.com/archive/p/volatilitux">Volatilitux</a> is another Linux
+  memory forensics tool written in Python. (Availability/License: GNU
+  GPL)</li>
+<li>Idetect is an older implementation of Linux memory analysis.</li>
+</ul>
+<h2 id="linux-memory-analysis-challenges">Linux Memory Analysis Challenges</h2>
+<ul>
+<li>The <a href="../digital_forensic_research_workshop/">Digital Forensic Research Workshop</a>
+  2008 Forensics Challenge focused on the development of Linux memory analysis
+  techniques and the fusion of evidence from memory, hard disk, and network.</li>
+<li><a href="https://www.sstic.org/2010/challenge/">Challenge SSTIC 2010</a>
+  (French) dealt with analysis of physical memory from a mobile device
+  running Android.</li>
+<li><a href="https://www.honeynet.org/challenges/forensic-challenge-7-analysis-of-a-compromised-server/">Challenge 7 of the Honeynet Project's Forensic Challenge 2011</a>
+  included forensic analysis of a memory image from a potentially
+  compromised Linux server.</li>
+</ul>
+<h2 id="linux-memory-analysis-bibliography">Linux Memory Analysis Bibliography</h2>
+<ul>
+<li><a href="http://forensic.seccure.net/pdf/mburdach_digital_forensics_of_physical_memory.pdf">Digital Forensics of the Physical Memory</a> M.
+  Burdach, March 2005.</li>
+<li><a href="https://www.usenix.org/legacy/events/usenix05/tech/freenix/full_papers/movall/movall.pdf">Linux Physical Memory Analysis</a>,
+  Paul Movall, Ward Nelson, Shaun Wetzstein; Usenix, 2005.</li>
+<li><a href="https://apps.dtic.mil/sti/pdfs/ADA445300.pdf">An Analysis Of Linux RAM Forensics</a>,
+  J.M. Urrea, Masters Thesis, Naval Postgraduate School, 2006.</li>
+<li><a href="http://volatilesystems.blogspot.com/2008/07/linux-memory-analysis-one-of-major.html">Linux Memory Forensics for DFRWS Challenge 2008 using Volatility, Crash, and PyFlag</a>,
+  by AAron Walters on the Volatile Systems Blog.</li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1742287608000340">FACE: Automated digital evidence discovery and correlation</a>,
+  by Andrew Case, Andrew Cristina, Lodovico Marziale, Golden G. Richard,
+  Vassil Roussev, DFRWS 2008</li>
+<li><a href="https://is.cuni.cz/studium/dipl_st/index.php?doo=detailhttp://is.cuni.cz/studium/dipl_st/index.php?doo=detail&amp;did=48540did=48540">Forensic RAM Dump Image Analyzer</a>
+  by Ivor Kollar, describing the implementation of foriana, 2009.</li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1742287610000332">Treasure and tragedy in kmem_cache mining for live forensics investigation</a>,
+  by Andrew Case, Lodovico Marziale, Cris Neckar, Golden G. Richard III;
+  Digital Investigation, Volume 7, Supplement 1, The Proceedings of the
+  Tenth Annual DFRWS Conference, August 2010.</li>
+<li><a href="https://secondlookforensics.com/">Second Look Web Page</a></li>
+<li><a href="https://blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case">De-Anonymizing Live CDs through Physical Memory Analysis</a>
+  (<a href="https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing_Live_CDs-wp.pdf">Whitepaper</a>)
+  (<a href="https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing%20Live%20CDs-Slides.pdf">Slides</a>)
+  Andrew Case; Blackhat DC 2011.</li>
+<li><a href="http://dfsforensics.blogspot.com/2011/03/bringing-linux-support-to-volatility.html">Bringing Linux Support to Volatility</a>,
+  Andrew Case; Digital Forensics Solutions Blog, 2011.</li>
+<li><a href="https://blackhat.com/html/bh-us-11/bh-us-11-briefings.html#Case">Workshop - Linux Memory Analysis with Volatility</a>
+  (<a href="https://gotdfs.com/">Slides</a>)
+  by Andrew Case; Blackhat Vegas 2011.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

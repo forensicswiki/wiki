@@ -1,0 +1,859 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Usb history viewing - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#plug-and-play-manager" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Usb history viewing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plug-and-play-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plug and Play Manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#u3-enabled-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      U3-enabled Devices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-log-entries-in-windows-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Event Log Entries in Windows 10
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:artifact-analysis" class="md-tag">Artifact Analysis</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:howtos" class="md-tag">Howtos</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:log-analysis" class="md-tag">Log Analysis</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Usb history viewing</h1>
+
+<p>Microsoft <a href="../windows/">Windows</a> operating systems records
+artifacts when <a href="../usb/">USB</a> removable storage devices (thumb
+drives, iPods, digital cameras, external HDD, etc.) are connected to the
+system.</p>
+<h2 id="plug-and-play-manager">Plug and Play Manager</h2>
+<p>When a USB removable storage device is connected to a Windows system for
+the first time, the Plug and Play (PnP) Manager receives the event
+notification, queries the device descriptor for the appropriate
+information to develop a device class identifier (device class ID) and
+attempts to locate the appropriate driver for that device.</p>
+<p>Looking for and installing the correct driver for the device is recorded
+in the <a href="../setup_api_logs/">setupapi log</a> file. For example:</p>
+<p><code>[2007/06/10 21:25:41 1140.8 Driver Install]</code>
+<code>#-019 Searching for hardware ID(s): usbstor\disksandisk_u3_cruzer_micro_3.27,...</code></p>
+<p>This provides the local date and time that the removable storage device
+was first connected to the system. The Windows system will also create
+an entry in the Registry beneath the
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\ key using the
+device class ID:</p>
+<p><code>Disk&amp;Ven_SanDisk&amp;Prod_U3_Cruzer_Micro&amp;Rev_3.27</code></p>
+<p>This identifies the class of the device. Beneath this <a href="../windows_registry/">Registry
+key</a>, a unique instance ID key will be
+created, using either the serial number retrieved from the device's
+device descriptor (you can use
+<a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview">UVCView</a>
+to view the contents of the device descriptor), or, if the device does
+not have a serial number, using an identifier generated by the system
+itself (based on additional information retrieved from the device
+descriptor, the USB port the device was plugged into, etc...the vendor
+has not publicized the algorithm used to generate this identifier). For
+example:</p>
+<p><code>0000161511737EFB&amp;0</code></p>
+<p>Note: If the second character of the unique instance ID is a '&amp;', then
+the ID was generated by the system, as the device did not have a serial
+number.</p>
+<p>Note: The device descriptor is not located in the memory area of the
+device. While you can acquire an image of the device using any number of
+imaging tools, that image will not include the device descriptor. For
+complete documentation of the device, the device descriptor should be
+retrieved separately from the image acquisition process, using tools
+such as UVCView.</p>
+<h2 id="device-information">Device Information</h2>
+<p>Beneath this key are several Registry values that provide information
+about the device itself. Of particular note is the ParentIdPrefix value;
+this value can be used to map to the MountedDevices Registry key in
+order to identify the drive letter to which the device was mounted.
+Beneath the MountedDevices Registry key are several values, all of which
+are REG_BINARY data types. With RegEdit open, select one of the values
+that begins with "\DosDevices\" and includes a drive letter. The value
+selected should be one whose data begins with "5C 00 3F 00 3F 00".
+Right-click the value name and choose "Modify". When the "Edit Binary
+Value" dialog appears, you will see the binary data displayed as if it
+were viewed in a hex viewer. On the right-most column, you should see
+what appears as:</p>
+<p><code>\??\STORAGE#RemovableMedia#</code><strong><code>7&amp;2c9a320d&amp;0</code></strong><code>&amp;RM#{53f5630d...</code></p>
+<p>The portion in bold is the ParentIdPrefix for the device.</p>
+<p>In order to determine the last time the device was connected to the
+system, we have to navigate to the following Registry key:</p>
+<p><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceClasses</code></p>
+<p>Beneath this key are two other keys of interest:</p>
+<p><code>{53f56307-b6bf-11d0-94f2-00a0c91efb8b}</code></p>
+<p>and</p>
+<p><code>{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}</code></p>
+<p>These are Device Class <a href="../universally_unique_identifier/">GUID</a>
+keys for Disks and Volumes, respectively. Beneath the Disk GUID key are
+several subkeys that appear as follows (the key name is wrapped):</p>
+<p><code>##?#USBSTOR#Disk&amp;Ven_SanDisk&amp;Prod_U3_Cruzer_Micro&amp;Rev_3.27#</code><strong><code>0000161511737EFB&amp;0</code></strong>
+<code>#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}</code></p>
+<p>The bold portion of the key name is the devices unique instance ID,
+which in this case, is also the device's serial number. The last written
+time of this key is the last attach time (first attach during last boot)
+of the device in UTC time.</p>
+<p>Similarly, the Volume GUID key contains subkeys for each volume that was
+mounted on the system, and those subkey names appear as follows:</p>
+<p><code>##?#STORAGE#RemovableMedia#</code><strong><code>7&amp;2c9a320d&amp;0</code></strong><code>&amp;RM#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}</code></p>
+<p>The bold portion of the key name is the ParentIdPrefix value for the
+device.</p>
+<p>To determine when the device was last connected to the system, obtain
+the LastWrite time value from the respective Disk and Volume GUID
+Registry keys for the device.</p>
+<h2 id="u3-enabled-devices">U3-enabled Devices</h2>
+<p>Many thumb drives that are available come with the capability of being
+used as a portable desktop. In essence, the device includes a suite of
+applications (web browser, etc.) that have been specifically configured
+to run from the device, as well as store data within the memory area of
+the device. These applications are stored within a CDFS partition on the
+device, and appear with a device class ID (beneath the Enum\USBStor
+Registry key) similar to the following:</p>
+<p><code>CdRom&amp;Ven_SanDisk&amp;Prod_U3_Cruzer_Micro&amp;Rev_3.27</code></p>
+<p>By default, <a href="../windows/">Windows</a> systems are configured to
+parse autorun.inf files found in the root of certain media, and to
+execute the "load=" and "run=" lines of those files for CDFS volumes
+(among others). However, by default, the systems are configured to NOT
+execute the "load=" and "run=" lines for autorun.inf files located on
+removable media, such as thumb drives (this behavior is controlled by a
+Registry entry and can be modified).</p>
+<h2 id="event-log-entries-in-windows-10">Event Log Entries in Windows 10</h2>
+<p>Security Log Audit Plug and Play Activity</p>
+<p><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6419">6416</a>:
+A new external device was recognized by the System.</p>
+<p>6419: A request was made to disable a device.</p>
+<p>6420: A device was disabled.</p>
+<p>6421: A request was made to enable a device.</p>
+<p>6422: A device was enabled.</p>
+<p>6423: The installation of this device is forbidden by system policy.</p>
+<p>6424: The installation of this device was allowed, after having
+previously been forbidden by policy.</p>
+<p>Microsoft-Windows-Partition/Diagnostic</p>
+<p><a href="https://twitter.com/mattifestation/status/916338889840721920?s=03">1006</a>:
+May contain Manufacturer, Model, Serial, and raw Partition Table, MFT,
+and VBR data.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://www.swiftforensics.com/2013/11/windows-8-new-registry-artifacts-part-1.html">New Device Timestamps</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="http://www.nirsoft.net/utils/usb_devices_view.html">USBDeview</a> is a
+  tool that automates the viewing of USB device history for Windows
+  2000/XP/2003/Vista systems. It can recover the device name,
+  description, last plug/unplug date &amp; time, and serial number.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/stream/avstream-testing-and-debugging">UVCView</a>
+  or the USB Video Class descriptor viewer is a tool in the
+  <a href="../windows/">Windows</a> Driver Kit (WDK) that allows you to view
+  the descriptors of any attached USB device. It runs on most recent
+  Windows platforms, both 32bit and 64bit.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="https://www.thesycon.de/eng/usb_descriptordumper.shtml">Thesycon USB Descriptor Dumper</a> is a
+  free tool to display USB descriptors using Windows systems.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="https://www.sans.org/blog/usb-key-analysis-vs-usb-drive-enclosure-analysis/">USB Key Analysis vs. USB Drive Enclosure Analysis</a>
+  for Windows XP, Vista, and Windows 7.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="http://www.orionforensics.com/forensics-tools/usb-forensic-tracker/">USB Forensic Tracker</a>
+  has 32bit and 64bit Windows versions. Allows the parsing of Windows
+  and Apple OSX USB activity. Able to parse from the following sources :
+  Registry, Windows event logs, setupapi.log files and OSX system logs</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="https://www.hecfblog.com/2017/04/windows-now-built-in-anti-forensics.html">Hacking Exposed Computer Forensics Blog Entry</a>
+  Considerations with Windows 10 USB attachments.</li>
+</ul>
+<!-- -->
+
+<ul>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=52630">Windows 10 Security Auditing</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

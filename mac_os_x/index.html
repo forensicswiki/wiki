@@ -1,0 +1,1356 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Mac os x - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#efi-boot" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mac os x
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#efi-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      EFI boot
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disk-image-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disk image types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burn-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Burn Folder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#launch-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launch Agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#launch-daemons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launch Daemons
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startup-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Startup Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crash-reporter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crash Reporter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagnostic-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostic Reports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internet-plug-ins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internet Plug-Ins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quarantine-event-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quarantine event database
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sleepimage" class="md-nav__link">
+    <span class="md-ellipsis">
+      sleepimage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#last-shutdown-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Last shutdown logs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-files-pkg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Package Files (.PKG)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encodings-codepages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encodings / Codepages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-see" class="md-nav__link">
+    <span class="md-ellipsis">
+      Also see
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Also see">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formats
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#efi" class="md-nav__link">
+    <span class="md-ellipsis">
+      EFI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      iCloud
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background-and-login-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background and login items
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#colorsync" class="md-nav__link">
+    <span class="md-ellipsis">
+      ColorSync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-management-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device Management Profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finder-alias-and-bookmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finder Alias and Bookmark
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quarantine-event-database_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quarantine event database
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nskeyedarchiver" class="md-nav__link">
+    <span class="md-ellipsis">
+      NSKeyedArchiver
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unified logging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yet-another-assembler-yaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yet Another Assembler (YAA)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:articles-that-need-to-be-expanded" class="md-tag">Articles that need to be expanded</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:operating-systems" class="md-tag">Operating Systems</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Mac os x</h1>
+
+<p>Apple Inc.'s Macintosh OS X (pronounced "<strong>OS Ten</strong>") is the operating system
+distributed with Apple computers. It includes heavily used several programs by
+default, including <a href="../apple_mail/">Apple Mail</a>, a web browser called
+<a href="../apple_safari/">Safari</a>, and an Apple Address Book,
+and iCal.</p>
+<h2 id="efi-boot">EFI boot</h2>
+<p>The firmware is responsible for initializing the hardware and performing
+a POST (Power-On Self Test).</p>
+<p>The default boot volume is stored in NVRAM and can be configured through
+the "Startup Disk" preference pane or the nvram command line utility.
+E.g. to print all of the firmware variables.</p>
+<pre><code>nvram -p
+</code></pre>
+<p>Additional boot arguments can be provided via the "boot-args" value
+<a href="https://www.cnet.com/tech/computing/boot-argument-options-in-os-x/">2</a>.</p>
+<p>Mac OS X extends EFI with a read-only HFS+ driver. According to
+<a href="https://refit.sourceforge.net/info/boot_process.html">3</a> HFS+ volume
+header fields are used to point to a "blessed file" to be loaded as an
+EFI application. Though it is not clear which header field the source is
+referring to but likely related to the "bless" utility</p>
+<p>The firmware starts the Mac OS X boot loader (boot.efi). The bootloader
+displays a dark grey Apple logo on the screen and loads the Darwin
+kernel from disk, as well as the essential driver extensions.</p>
+<p>The bootloader can be eithe a MZ-PE/COFF or EFI fat binary type
+<a href="../executable/">executables</a> and is commonly stored in:</p>
+<pre><code>/com.apple.recovery.boot/boot.efi
+/System/Library/CoreServices/boot.efi
+/usr/standalone/i386/boot.efi
+</code></pre>
+<p>The behavior of the bootloader can be configured in the com.apple.Boot.plist
+which can be found in:</p>
+<pre><code>/Library/Preferences/SystemConfiguration/
+</code></pre>
+<h2 id="disk-image-types">Disk image types</h2>
+<p>Mac OS X has support for various disk image types built-in, some of
+which are:</p>
+<ul>
+<li>read-write disk image (.dmg), which can be stored in <a href="../raw_image_format/">Raw Image Format</a>
+  or <a href="../dmg/">Universal Disk Image Format (udif)</a></li>
+<li>Sparse disk image (.spareimage)</li>
+<li>Sparse bundle disk image (.sparsebundle)</li>
+</ul>
+<h2 id="burn-folder">Burn Folder</h2>
+<p>Mac OS X Burn Folder:</p>
+<pre><code>$NAME.fpbf
+</code></pre>
+<p>This folder normally contains alias files (similar to LNK files under
+Windows). Which should have the following signature.</p>
+<pre><code>00000000  62 6f 6f 6b 00 00 00 00  6d 61 72 6b 00 00 00 00  |book....mark....|
+</code></pre>
+<p>These alias files contain additional date and time values.</p>
+<p>Also check the following files for references to deleted .fpbf paths:</p>
+<pre><code>/Users/$USERNAME/Library/Preferences/com.apple.finder.plist
+/Users/$USERNAME/Library/Preferences/com.apple.sidebarlists.plist
+</code></pre>
+<p>Actual burning of optical media is logged in:</p>
+<pre><code>/var/log/system.log
+/Users/$USERNAME/Library/Logs/DiscRecording.log
+/private/var/.logs_exporter/cache/Users/$USERNAME/Library/Logs/DiscRecording.log
+</code></pre>
+<h2 id="launch-agents">Launch Agents</h2>
+<p>System-wide:</p>
+<pre><code>/Library/LaunchAgents
+/System/Library/LaunchAgents
+</code></pre>
+<p>Per user:</p>
+<pre><code>/Users/$USERNAME/Library/LaunchAgents
+</code></pre>
+<p>These directories contain <a href="../property_list_%28plist%29/">Property list
+(plist)</a> files.</p>
+<h2 id="launch-daemons">Launch Daemons</h2>
+<p>System-wide:</p>
+<pre><code>/Library/LaunchDaemons
+/System/Library/LaunchDaemons
+</code></pre>
+<p>These directories contain <a href="../property_list_%28plist%29/">Property list
+(plist)</a> files.</p>
+<h2 id="startup-items">Startup Items</h2>
+<pre><code>/Library/StartupItems/
+/System/Library/StartupItems/
+</code></pre>
+<h2 id="crash-reporter">Crash Reporter</h2>
+<pre><code>/Library/Application Support/CrashReporter
+</code></pre>
+<p>Contains text files named .crash, .diag, .spin</p>
+<h2 id="diagnostic-reports">Diagnostic Reports</h2>
+<pre><code>/Library/Logs/DiagnosticReports
+</code></pre>
+<h2 id="internet-plug-ins">Internet Plug-Ins</h2>
+<p>System-wide:</p>
+<pre><code>/Library/Internet Plug-Ins
+</code></pre>
+<p>Per user:</p>
+<pre><code>/Users/$USERNAME/Library/Internet Plug-Ins
+</code></pre>
+<h2 id="quarantine-event-database">Quarantine event database</h2>
+<p>See
+<a href="https://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/">6</a></p>
+<p>Snow Leopard and earlier</p>
+<pre><code>/Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEvents
+
+SELECT datetime(LSQuarantineTimeStamp + 978307200, "unixepoch") as LSQuarantineTimeStamp, LSQuarantineAgentName, LSQuarantineOriginURLString, LSQuarantineDataURLString from LSQuarantineEvent;
+</code></pre>
+<p>Lion and later</p>
+<pre><code>/Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
+</code></pre>
+<h2 id="sleepimage">sleepimage</h2>
+<p>This file is similar to the hibernation file on Windows.</p>
+<pre><code>/private/var/vm/sleepimage
+</code></pre>
+<p>Also see: <a href="https://osxdaily.com/2010/10/11/sleepimage-mac/">7</a></p>
+<h2 id="last-shutdown-logs">Last shutdown logs</h2>
+<pre><code>/private/var/log/com.apple.launchd/launchd-shutdown.system.log
+/private/var/log/com.apple.launchd/launchd-shutdown.system.log.1
+</code></pre>
+<h2 id="package-files-pkg">Package Files (.PKG)</h2>
+<p>Package Files (.PKG) are <a href="https://en.wikipedia.org/wiki/Xar_(archiver)">XAR archives</a> that contain a cpio
+archive and metadata
+<a href="http://s.sudre.free.fr/Stuff/Ivanhoe/FLAT.html">9</a>.</p>
+<h2 id="encodings-codepages">Encodings / Codepages</h2>
+<p>Mac OS X typically uses UTF-16 big-endian to store Unicode strings, it
+also defines several codepages
+<a href="https://opensource.apple.com/source/CF/CF-1151.16/CFStringEncodingExt.h.auto.html">10</a>
+that can be used to store ASCII strings.</p>
+<p>Note that some of these codepages can differ for different versions of
+Mac OS.</p>
+<table>
+<thead>
+<tr>
+<th>Codepage</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>MacRoman</td>
+<td>Encoding used for English and several other Western languages, also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Roman">Wikipedia: Mac OS Roman</a>,<a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ROMAN.TXT">Unicode.org: ROMAN.TXT</a> (sometimes referred to as Microsoft codepage 10000 though it is unclear if this is the pre Mac OS 8.5 MacRoman variant)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>MacJapanese</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/JAPANESE.TXT">Unicode.org: JAPANESE.TXT</a> (sometimes referred to as Mac Shift Jis or Microsoft codepage 10001)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MacChineseTrad</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CHINTRAD.TXT">Unicode.org: CHINTRAD.TXT</a> (sometimes referred to as Mac Big5 or Microsoft codepage 10002)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>MacKorean</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/KOREAN.TXT">Unicode.org: KOREAN.TXT</a> (sometimes referred to as Mac Hangul or Microsoft codepage 10003)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MacArabic</td>
+<td>Encoding used for Arabic texts, also see: <a href="https://en.wikipedia.org/wiki/MacArabic_encoding">Wikipedia: MacArabic encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ARABIC.TXT">Unicode.org: ARABIC.TXT</a> (sometimes referred to as Microsoft codepage 10004). Note that certain Unicode characters can be translated into multiple codepage characters such as U+0020 can be represented as 0x20 or 0xa0.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>MacHebrew</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/HEBREW.TXT">Unicode.org: HEBREW.TXT</a> (sometimes referred to as Microsoft codepage 10005)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>MacGreek</td>
+<td>Encoding used for Greek scripts, <a href="https://en.wikipedia.org/wiki/MacGreek_encoding">Wikipedia: MacGreek encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GREEK.TXT">Unicode.org: GREEK.TXT</a> (sometimes referred to as Microsoft codepage 10006)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>MacCyrillic</td>
+<td>Encoding used for Cyrillic scripts, also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Cyrillic_encoding">Wikipedia: Mac OS Cyrillic encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CYRILLIC.TXT">Unicode.org: CYRILLIC.TXT</a>. Note that MacCyrillic supersedes the MacCyrillic encoding prior to Mac OS 9.0 (sometimes referred to as MacCyrillicCurrSignStdVariant, MacRussian or Microsoft codepage 10007) and <a href="https://en.wikipedia.org/wiki/Mac_OS_Ukrainian_encoding">MacUkrainian</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/UKRAINE.TXT">Unicode.org: UKRAINE.TXT</a> (sometimes referred to as MacCyrillicCurrSignUkrVariant or Microsoft codepage 10017).</td>
+</tr>
+<tr>
+<td>9</td>
+<td>MacDevanagari</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/DEVANAGA.TXT">Unicode.org: DEVANAGA.TXT</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>MacGurmukhi</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GURMUKHI.TXT">Unicode.org: GURMUKHI.TXT</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>MacGujarati</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GUJARATI.TXT">Unicode.org: GUJARATI.TXT</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>MacOriya</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>MacBengali</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>MacTamil</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>MacTelugu</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>MacKannada</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>MacMalayalam</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>MacSinhalese</td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>MacBurmese</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>MacKhmer</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>MacThai</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-11#Mac_OS_Thai">Wikipedia: ISO/IEC 8859-11 - Mac OS Thai</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/THAI.TXT">Unicode.org: THAI.TXT</a> (sometimes referred to as Microsoft codepage 10021)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>MacLaotian</td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>MacGeorgian</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>MacArmenian</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>MacChineseSimp</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CHINSIMP.TXT">Unicode.org: CHINSIMP.TXT</a> (sometimes referred to as Mac GB2312 or Microsoft codepage 10008)</td>
+</tr>
+<tr>
+<td>26</td>
+<td>MacTibetan</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>MacMongolian</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>MacEthiopic</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>MacCentralEurRoman</td>
+<td>Encoding used for languages that use the Latin script, such as Central European and Southeastern European languages, also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Central_European_encoding">Wikipedia: Mac OS Central European encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CENTEURO.TXT">Unicode.org: CENTEURO.TXT</a> (sometimes referred to as Mac East Europe or Microsoft codepage 10029)</td>
+</tr>
+<tr>
+<td>30</td>
+<td>MacVietnamese</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>MacExtArabic</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>MacSymbol</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/SYMBOL.TXT">Unicode.org: SYMBOL.TXT</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td>MacDingbats</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/Zapf_Dingbats">Wikipedia: Zapf Dingbats</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/DINGBATS.TXT">Unicode.org: DINGBATS.TXT</a></td>
+</tr>
+<tr>
+<td>35</td>
+<td>MacTurkish</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Turkish_encoding">Wikipedia: Mac OS Turkish encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/TURKISH.TXT">Unicode.org: TURKISH.TXT</a> (sometimes referred to as Microsoft codepage 10081)</td>
+</tr>
+<tr>
+<td>36</td>
+<td>MacCroatian</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Croatian_encoding">Wikipedia: Mac OS Croatian encoding</a>,<a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CROATIAN.TXT">Unicode.org: CROATIAN.TXT</a> (sometimes referred to as Microsoft codepage 10082)</td>
+</tr>
+<tr>
+<td>37</td>
+<td>MacIcelandic</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Icelandic_encoding">Wikipedia: Mac OS Icelandic encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ICELAND.TXT">Unicode.org: ICELAND.TXT</a> (sometimes referred to as Microsoft codepage 10079)</td>
+</tr>
+<tr>
+<td>38</td>
+<td>MacRomanian</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/Mac_OS_Romanian_encoding">Wikipedia: Mac OS Romanian encoding</a>,<a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/ROMANIAN.TXT">Unicode.org: ROMANIAN.TXT</a> (sometimes referred to as Microsoft codepage 10010)</td>
+</tr>
+<tr>
+<td>39</td>
+<td>MacCeltic</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/CELTIC.TXT">Unicode.org: CELTIC.TXT</a></td>
+</tr>
+<tr>
+<td>40</td>
+<td>MacGaelic</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/GAELIC.TXT">Unicode.org: GAELIC.TXT</a></td>
+</tr>
+<tr>
+<td>140</td>
+<td>MacFarsi</td>
+<td>also see: <a href="https://en.wikipedia.org/wiki/MacFarsi_encoding">Wikipedia: MacFarsi encoding</a>, <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/FARSI.TXT">Unicode.org: FARSI.TXT</a></td>
+</tr>
+<tr>
+<td>152</td>
+<td>MacUkrainian</td>
+<td>see: MacCyrillic</td>
+</tr>
+<tr>
+<td>236</td>
+<td>MacInuit</td>
+<td>also see: <a href="https://www.unicode.org/Public/MAPPINGS/VENDORS/APPLE/INUIT.TXT">Unicode.org: INUIT.TXT</a></td>
+</tr>
+<tr>
+<td>252</td>
+<td>MacVT100</td>
+<td></td>
+</tr>
+<tr>
+<td>255</td>
+<td>MacHFS</td>
+<td></td>
+</tr>
+<tr>
+<td>2564</td>
+<td>MacRomanLatin1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="also-see">Also see</h2>
+<ul>
+<li><a href="../macos_process_monitoring/">MacOS Process Monitoring</a></li>
+<li><a href="../acquiring_a_macos_system_with_target_disk_mode/">Acquiring a MacOS System with Target Disk Mode</a></li>
+<li><a href="../converting_binary_plists/">Converting Binary Plists</a></li>
+<li><a href="../filevault_disk_encryption/">FileVault Disk Encryption</a></li>
+<li><a href="../file_vault/">File Vault</a></li>
+</ul>
+<h3 id="formats">Formats</h3>
+<ul>
+<li><a href="../apple_file_system_%28apfs%29/">Apple File System (apfs)</a></li>
+<li><a href="../apm/">Apple Partition Map (apm)</a></li>
+<li><a href="../basic_security_module_%28bsm%29_file_format/">Basic Security Module (BSM) file format</a></li>
+<li><a href="../dmg/">DMG</a></li>
+<li><a href="../hfs%2B/">Hierarchical File System Plus (HFS+) format</a></li>
+<li><a href="../property_list_%28plist%29/">Property list (plist)</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/OS_X">Wikipedia entry on OS X</a></li>
+<li><a href="https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf">Inside Macintosh</a>,
+  by Apple Computer, Inc., 1993</li>
+<li><a href="https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/">Command Line ALF on Mac OS X</a></li>
+<li><a href="https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki">mac-security-tips</a></li>
+<li><a href="https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/">Hidden backdoor API to root privileges in Apple OS X</a>,
+  by Emil Kvarnhammar, April 9, 2015</li>
+<li><a href="https://newosxbook.com/1stEdIsFree.html">Max OS X Internals book (1st ed)</a>
+  by Jonathan Levin</li>
+<li><a href="https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html">The Boot Loader</a>,
+  by Apple</li>
+</ul>
+<h3 id="efi">EFI</h3>
+<ul>
+<li><a href="https://refit.sourceforge.net/info/boot_process.html">The Intel Mac boot process</a>, by the
+  <a href="../refit/">rEFIt project</a> - <a href="https://ho.ax/posts/2012/02/carving-up-efi-fat-binaries/">Carving up EFI fat binaries</a>,
+  by snare, February 24, 2012</li>
+</ul>
+<h3 id="icloud">iCloud</h3>
+<ul>
+<li><a href="https://support.apple.com/en-us/102651">iCloud: iCloud security and privacy overview</a></li>
+</ul>
+<h3 id="background-and-login-items">Background and login items</h3>
+<ul>
+<li><a href="https://michaellynn.github.io/2015/10/24/apples-bookmarkdata-exposed/">Apple's BookmarkData - exposed!</a>,
+  by Michael Lynn, October 24, 2015</li>
+<li><a href="https://objective-see.org/blog/blog_0x31.html">Block Blocking Login Items - parsing apple's login item files to detect persistence</a>,
+  by Objective See, July 23, 2018</li>
+<li><a href="https://mac-alias.readthedocs.io/en/latest/alias_fmt.html">Mac Alias Format</a>,
+  by mac-alias project</li>
+<li><a href="https://mac-alias.readthedocs.io/en/latest/bookmark_fmt.html">Mac Bookmark Format</a>,
+  by mac-alias project</li>
+</ul>
+<h3 id="colorsync">ColorSync</h3>
+<ul>
+<li><a href="https://developer.apple.com/library/archive/technotes/tn2035/_index.html">Technical Note TN2035 - ColorSync on Mac OS X</a></li>
+<li><a href="https://web.archive.org/web/20001118053700/http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html">Internet Archive: Managing Color With ColorSync</a></li>
+<li><a href="https://www.color.org/icc1v42.pdf">ICC.1:2004-10 - Image technology colour management - Architecture, profile format, and data structure</a>,
+  by International Color Consortium (ICC)</li>
+<li><a href="https://www.color.org/icc32.pdf">ICC Profile Format Specification</a>, by
+  International Color Consortium (ICC), November 20, 1995</li>
+<li><a href="https://www.color.org/profiles2.xalter">ICC profiles</a></li>
+<li><a href="https://exiftool.org/TagNames/ICC_Profile.html">ICC_Profile Tags</a></li>
+<li><a href="https://www.adobe.com/devnet/xmp.html">Adobe XMP Developer Center</a></li>
+</ul>
+<h3 id="device-management-profile">Device Management Profile</h3>
+<ul>
+<li><a href="https://developer.apple.com/documentation/devicemanagement/loginwindow">LoginWindow</a></li>
+<li><a href="https://developer.apple.com/documentation/devicemanagement/loginwindowscripts">LoginWindowScripts</a></li>
+</ul>
+<h3 id="finder-alias-and-bookmark">Finder Alias and Bookmark</h3>
+<ul>
+<li><a href="https://michaellynn.github.io/2015/10/24/apples-bookmarkdata-exposed/">Apple's BookmarkData - exposed!</a>,
+  by Michael Lynn, October 24, 2015</li>
+<li><a href="https://eclecticlight.co/2020/05/21/bookmarks-a-type-of-alias-their-access-and-use/">Bookmarks, a type of Alias: their access and use</a></li>
+<li><a href="https://eclecticlight.co/2022/01/01/explainer-links-aliases-and-bookmarks/">Explainer: Links, Aliases and Bookmarks</a></li>
+</ul>
+<h3 id="quarantine-event-database_1">Quarantine event database</h3>
+<ul>
+<li><a href="https://menial.co.uk/blog/2011/06/16/mac-quarantine-event-database/">Quarantine event database</a></li>
+</ul>
+<h3 id="nskeyedarchiver">NSKeyedArchiver</h3>
+<ul>
+<li><a href="https://developer.apple.com/documentation/foundation/nskeyedarchiver">NSKeyedArchiver - An encoder that stores an object’s data to an archive referenced by keys</a></li>
+<li><a href="https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/">NSKeyedArchiver files – what are they, and how can I use them?</a>,
+  by Alex Caithness, April 4, 2012</li>
+<li><a href="http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items">Manual Analysis of ‘NSKeyedArchiver’ Formatted Plist Files - A Review of the NEW OS X 10.11 "Recent Items"</a>,
+  January 01, 2016</li>
+<li><a href="https://crystalminds.medium.com/how-nscoding-and-nskeyedarchiver-unarchiver-work-together-to-encode-decode-objects-7f54801ab634">How NSCoding and NSKeyedArchiver/Unarchiver Work Together to Encode/Decode Object</a>,
+  by Mark van Wijnen, August 16, 2022</li>
+</ul>
+<h3 id="unified-logging">Unified logging</h3>
+<ul>
+<li><a href="https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging">New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging</a>,
+  by Sarah Edwards, November 13, 2016</li>
+<li><a href="https://www.mandiant.com/resources/blog/reviewing-macos-unified-logs">Reviewing macOS Unified Logs</a>,
+  by Alexander Holcomb, August 31, 2022</li>
+</ul>
+<h3 id="yet-another-assembler-yaa">Yet Another Assembler (YAA)</h3>
+<ul>
+<li><a href="https://wwws.nightwatchcybersecurity.com/2020/06/14/yaa-an-obscure-macos-compressed-file-format/">YAA: An Obscure MacOS Compressed File Format</a>,
+  by nightwatchcyber, June 14, 2020</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

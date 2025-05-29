@@ -1,0 +1,1855 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Windows prefetch file format - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#characteristics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Windows prefetch file format
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      File header
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File header">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#format-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format version
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      File information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-information-version-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      File information - version 17
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-information-version-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      File information - version 23
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-information-version-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      File information - version 26
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-a-file-metrics-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section A - File metrics array
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section A - File metrics array">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-metrics-entry-record-version-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      File metrics entry record - version 17
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-metrics-entry-record-version-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      File metrics entry record - version 23
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-metrics-entry-record-version-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      File metrics entry record - version 26
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-b-trace-chains-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section B - Trace chains array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-c-filename-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section C - Filename strings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-d-volumes-information-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Section D - Volumes information (block)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section D - Volumes information (block)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#volume-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Volume information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#volume-information-version-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume information - version 17
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volume-information-version-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume information - version 23
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volume-information-version-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume information - version 26
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-section-e-ntfs-file-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sub section E - NTFS file references
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-section-f-directory-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sub section F - Directory strings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:file-formats" class="md-tag">File Formats</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Windows prefetch file format</h1>
+
+<p>A Windows Prefetch file consists of one file header and multiple file
+sections with different content. Not all content has an obvious forensic
+value.</p>
+<p>As far as have been possible to ascertain, there is no official public
+description of the format. The description below has been synthesized
+from examination of multiple Prefetch files.</p>
+<p>As of Windows 10 the Prefetch files are compressed using a similar
+compression as used by the <a href="../windows_superfetch_format/">Windows SuperFetch
+Format</a>. Preliminary findings
+regarding Windows 10 Prefetch files are described in <a href="https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc">Windows Prefetch
+File (PF)
+format</a>.</p>
+<h2 id="characteristics">Characteristics</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Integers</strong></td>
+<td>stored in little-endian</td>
+</tr>
+<tr>
+<td><strong>Strings</strong></td>
+<td>Stored as <a href="https://en.wikipedia.org/wiki/UTF-16/UCS-2">UTF-16 little-endian</a> without a byte-order-mark (BOM).</td>
+</tr>
+<tr>
+<td><strong>Timestamps</strong></td>
+<td>Stored as <a href="https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime">Windows FILETIME</a> in UTC.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="file-header">File header</h2>
+<p>The file header is 84 bytes of size and consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H1</td>
+<td>0x0000</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Format version (see format version section below)</td>
+</tr>
+<tr>
+<td>H2</td>
+<td>0x0004</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Signature 'SCCA' (or in hexadecimal representation 0x53 0x43 0x43 0x41)</td>
+</tr>
+<tr>
+<td>H3</td>
+<td>0x0008</td>
+<td>4</td>
+<td>DWORD?</td>
+<td>Unknown - Values observed: 0x0F - Windows XP, 0x11 - Windows 7, Windows 8.1</td>
+</tr>
+<tr>
+<td>H4</td>
+<td>0x000C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Prefetch file size (or length) (sometimes referred to as End of File (EOF)).</td>
+</tr>
+<tr>
+<td>H5</td>
+<td>0x0010</td>
+<td>60</td>
+<td>USTR</td>
+<td>The name of the (original) executable as a Unicode (UTF-16 litte-endian string), up to 29 characters and terminated by an end-of-string character (U+0000). This name should correspond with the one in the prefetch file filename.</td>
+</tr>
+<tr>
+<td>H6</td>
+<td>0x004C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The prefetch hash. This hash value should correspond with the one in the prefetch file filename.</td>
+</tr>
+<tr>
+<td>H7</td>
+<td>0x0050</td>
+<td>4</td>
+<td>?</td>
+<td>Unknown (flags)? Values observed: 0 for almost all prefetch files (XP); 1 for NTOSBOOT-B00DFAAD.pf (XP)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>It's worth noting that the name of a carved prefetch file can be
+restored using the information in field H5 and H6, and its size can be
+determined by field H4.</p>
+<h3 id="format-version">Format version</h3>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Windows version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17 (0x11)</td>
+<td>Windows XP, Windows 2003</td>
+</tr>
+<tr>
+<td>23 (0x17)</td>
+<td>Windows Vista, Windows 7</td>
+</tr>
+<tr>
+<td>26 (0x1a)</td>
+<td>Windows 8.1 (note this could be Windows 8 as well but has not been confirmed)</td>
+</tr>
+<tr>
+<td>30 (0x1e)</td>
+<td>Windows 10</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Yet unconfirmed are Windows 2008, differences between Windows 2003 and
+2008 non-R2 and R2 versions, and Windows 8.0.</p>
+<h3 id="file-information">File information</h3>
+<p>The format of the file information is version dependent.</p>
+<p>Note that some other format specifications consider the file information
+part of the file header.</p>
+<h4 id="file-information-version-17">File information - version 17</h4>
+<p>The file information – version 17 is 68 bytes of size and consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0x0054</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section A. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0058</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section A.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x005C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section B. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0060</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section B.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0064</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section C. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0068</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section C.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x006C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to section D. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0070</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section D.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0074</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section D.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0078</td>
+<td>8</td>
+<td>FILETIME</td>
+<td>Latest execution time (or run time) of executable (FILETIME)</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0080</td>
+<td>16</td>
+<td>?</td>
+<td>Unknown ? Possibly structured as 4 DWORD. Observed values: /0x00000000 0x00000000 0x00000000 0x00000000/, /0x47868c00 0x00000000 0x47860c00 0x00000000/ (don't exclude the possibility here that this is remnant data)</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0090</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Execution counter (or run count)</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0094</td>
+<td>4</td>
+<td>DWORD?</td>
+<td>Unknown ? Observed values: 1, 2, 3, 4, 5, 6 (XP)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="file-information-version-23">File information - version 23</h4>
+<p>The file information – version 23 is 156 bytes of size and consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0x0054</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section A. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0058</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section A.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x005C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section B. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0060</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section B.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0064</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section C. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0068</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section C.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x006C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to section D. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0070</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section D.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0074</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section D.</td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x0078</b></td>
+<td><b>8</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td>0x0080</td>
+<td>8</td>
+<td>FILETIME</td>
+<td>Latest execution time (or run time) of executable (FILETIME)</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0088</td>
+<td>16</td>
+<td>?</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0098</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Execution counter (or run count)</td>
+</tr>
+<tr>
+<td></td>
+<td>0x009C</td>
+<td>4</td>
+<td>DWORD?</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x00A0</b></td>
+<td><b>80</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="file-information-version-26">File information - version 26</h4>
+<p>The file information – version 26 is 224 bytes of size and consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0x0054</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section A. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0058</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section A.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x005C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section B. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0060</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section B.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0064</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The offset to section C. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0068</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section C.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x006C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to section D. The offset is relative from the start of the file.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0070</td>
+<td>4</td>
+<td>DWORD</td>
+<td>The number of entries in section D.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0074</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of section D.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0078</td>
+<td>8</td>
+<td>?</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0080</td>
+<td>8</td>
+<td>FILETIME</td>
+<td>Latest execution time (or run time) of executable (FILETIME)</td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x0088</b></td>
+<td><b>7 x 8 = 56</b></td>
+<td><b>FILETIME</b></td>
+<td><b>Older (most recent) latest execution time (or run time) of executable (FILETIME)</b></td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x00C0</b></td>
+<td><b>16</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td>0x00D0</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Execution counter (or run count)</td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x00D4</b></td>
+<td><b>4</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x00D8</b></td>
+<td><b>4</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td><b>0x00DC</b></td>
+<td><b>88</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="section-a-file-metrics-array">Section A - File metrics array</h2>
+<h4 id="file-metrics-entry-record-version-17">File metrics entry record - version 17</h4>
+<p>The file metrics entry records – version 17 is 20 bytes in size and
+consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>Field</p></th>
+<th><p>Offset</p></th>
+<th><p>Length</p></th>
+<th><p>Type</p></th>
+<th><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Start time in ms</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Duration in ms</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>8</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Filename string offset<br />
+The offset is relative to the start of the filename string section
+(section C)</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>12</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Filename string number of characters without end-of-string
+character</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Unknown, flags?</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="file-metrics-entry-record-version-23">File metrics entry record - version 23</h4>
+<p>The file metrics entry records – version 23 is 32 bytes in size and
+consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>Field</p></th>
+<th><p>Offset</p></th>
+<th><p>Length</p></th>
+<th><p>Type</p></th>
+<th><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Start time in ms</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Duration in ms</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>8</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Average duration in ms?</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>12</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Filename string offset<br />
+The offset is relative to the start of the filename string section
+(section C)</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>16</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Filename string number of characters without end-of-string
+character</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td><p>DWORD</p></td>
+<td><p>Unknown, flags?</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>24</p></td>
+<td><p>8</p></td>
+<td></td>
+<td><p>NTFS file reference<br />
+0 if not set.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="file-metrics-entry-record-version-26">File metrics entry record - version 26</h4>
+<p>The file metrics entry record – version 26 appears to be similar to file
+metrics entry record – version 23.</p>
+<h2 id="section-b-trace-chains-array">Section B - Trace chains array</h2>
+<p>This section contains an array with 12 byte (version 17, 23 and 26)
+entry records.</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>Field</p></th>
+<th><p>Offset</p></th>
+<th><p>Length</p></th>
+<th><p>Type</p></th>
+<th><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><p>0</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Next array entry index<br />
+Contains the next trace chain array entry index in the chain, where the
+first entry index starts with 0, or -1 (0xffffffff) for the
+end-of-chain.</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Total block load count<br />
+Number of blocks loaded (or fetched)<br />
+The block size 512k (512 x 1024) bytes</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>8</p></td>
+<td><p>1</p></td>
+<td></td>
+<td><p>Unknown</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p>9</p></td>
+<td><p>1</p></td>
+<td></td>
+<td><p>Sample duration in ms?</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><p>10</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Unknown</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="section-c-filename-strings">Section C - Filename strings</h2>
+<p>This section contains filenames strings, it consists of an array of
+UTF-16 little-endian formatted strings with end-of-string characters
+(U+0000).</p>
+<p>At the end of the section there seems to be alignment padding that can
+contain remnant values.</p>
+<h2 id="section-d-volumes-information-block">Section D - Volumes information (block)</h2>
+<p>Section D contains one or more subsections, each subsection refers to
+directories on a volume.</p>
+<p>If all the executables and libraries referenced in the C section are
+from one single disk volume, there will be only one section in the D
+section. If multiple volumes are referenced by section C, section D will
+contain multiple sections. (A simple way to force this situation is to
+copy, say, NOTEPAD.EXE to a USB drive, and start it from that volume.
+The corresponding prefetch file will have one D header referring to,
+e.g. \DEVICE\HARDDISK1\DP(1)0-0+4 (the USB drive), and one to, e.g.
+\DEVICE\HARDDISKVOLUME1\ (where the .DLLs and other support files were
+found).</p>
+<p>In this section, all offsets are assumed to be counted from the start of
+the D section.</p>
+<h3 id="volume-information">Volume information</h3>
+<p>The structure of the volume information is version dependent.</p>
+<h4 id="volume-information-version-17">Volume information - version 17</h4>
+<p>The volume information – version 17 is 40 bytes in size and consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VI1</td>
+<td>+0x0000</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to volume device path (Unicode, terminated by U+0000)</td>
+</tr>
+<tr>
+<td>VI2</td>
+<td>+0x0004</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of volume device path (nr of characters, including terminating U+0000)</td>
+</tr>
+<tr>
+<td>VI3</td>
+<td>+0x0008</td>
+<td>8</td>
+<td>FILETIME</td>
+<td>Volume creation time.</td>
+</tr>
+<tr>
+<td>VI4</td>
+<td>+0x0010</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Volume serial number of volume indicated by volume string</td>
+</tr>
+<tr>
+<td>VI5</td>
+<td>+0x0014</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to sub section E</td>
+</tr>
+<tr>
+<td>VI6</td>
+<td>+0x0018</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of sub section E (in bytes)</td>
+</tr>
+<tr>
+<td>VI7</td>
+<td>+0x001C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to sub section F</td>
+</tr>
+<tr>
+<td>VI8</td>
+<td>+0x0020</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Number of strings in sub section F</td>
+</tr>
+<tr>
+<td>VI9</td>
+<td>+0x0024</td>
+<td>4</td>
+<td>?</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="volume-information-version-23">Volume information - version 23</h4>
+<p>The volume information entry – version 23 is 104 bytes in size and
+consists of:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VI1</td>
+<td>+0x0000</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to volume device path (Unicode, terminated by U+0000)</td>
+</tr>
+<tr>
+<td>VI2</td>
+<td>+0x0004</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of volume device path (nr of characters, including terminating U+0000)</td>
+</tr>
+<tr>
+<td>VI3</td>
+<td>+0x0008</td>
+<td>8</td>
+<td>FILETIME</td>
+<td>Volume creation time.</td>
+</tr>
+<tr>
+<td>VI4</td>
+<td>+0x0010</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Volume serial number of volume indicated by volume string</td>
+</tr>
+<tr>
+<td>VI5</td>
+<td>+0x0014</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to sub section E</td>
+</tr>
+<tr>
+<td>VI6</td>
+<td>+0x0018</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Length of sub section E (in bytes)</td>
+</tr>
+<tr>
+<td>VI7</td>
+<td>+0x001C</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Offset to sub section F</td>
+</tr>
+<tr>
+<td>VI8</td>
+<td>+0x0020</td>
+<td>4</td>
+<td>DWORD</td>
+<td>Number of strings in sub section F</td>
+</tr>
+<tr>
+<td>VI9</td>
+<td>+0x0024</td>
+<td>4</td>
+<td>?</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><b>VI10</b></td>
+<td><b>+0x0028</b></td>
+<td><b>28</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td><b>VI11</b></td>
+<td><b>+0x0044</b></td>
+<td><b>4</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td><b>VI12</b></td>
+<td><b>+0x0048</b></td>
+<td><b>28</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td><b>VI13</b></td>
+<td><b>+0x0064</b></td>
+<td><b>4</b></td>
+<td><b>?</b></td>
+<td><b>Unknown</b></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="volume-information-version-26">Volume information - version 26</h4>
+<p>The volume information entry – version 26 appears to be similar to
+volume information – version 23.</p>
+<h3 id="sub-section-e-ntfs-file-references">Sub section E - NTFS file references</h3>
+<p>This sub section can contain NTFS file references.</p>
+<p>For more information see <a href="https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc">Windows Prefetch File (PF) format</a>.</p>
+<h3 id="sub-section-f-directory-strings">Sub section F - Directory strings</h3>
+<p>This sub sections contains directory strings. The number of strings is
+stored in the volume information.</p>
+<p>A directory string is stored in the following structure:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Offset</th>
+<th>Length</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>0x0000</td>
+<td>2</td>
+<td>DWORD</td>
+<td>Number of characters (WORDs) of the directory name. The value does not include the end-of-string character.</td>
+</tr>
+<tr>
+<td></td>
+<td>0x0002</td>
+<td></td>
+<td>USTR</td>
+<td>The directory name as a Unicode (UTF-16 litte-endian string) terminated by an end-of-string character (U+0000).</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In version 26 and 30 data trailing the directory strings section has
+been seen. It is currently assumed that this is unused remnant data.</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../prefetch/">Prefetch</a></li>
+<li>For tools see: <a href="../prefetch/#tools">Prefetch#Tools</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc">Windows Prefetch File (PF) format</a>,
+  by the libssca project</li>
+<li><a href="https://4n6ir.com/2017/03/28/windows-prefetch-tech-details-of-new-research-in-section-a-b.html">Windows Prefetch: Tech Details of New Research in Section A &amp; B</a>,
+  by James Habben, March 28, 2017</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

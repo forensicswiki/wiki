@@ -1,0 +1,1028 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Advanced Forensic Framework 4 (AFF4) - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#advanced-forensic-framework-4-aff4" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Advanced Forensic Framework 4 (AFF4)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-did-we-want-to-design-yet-another-forensic-file-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why did we want to design yet another forensic file format?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#volumes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volumes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Volumes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#directory-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Directory Volume
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zipfile-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      ZipFile Volume
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#streams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Streams
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Streams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filebackedobjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      FileBackedObjects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#httpobject" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTPObject
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Segments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#image-streams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Image streams
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-streams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Map Streams
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="See Also">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:articles-that-need-to-be-expanded" class="md-tag">Articles that need to be expanded</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:disk-image" class="md-tag">Disk Image</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:file-formats" class="md-tag">File Formats</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="advanced-forensic-framework-4-aff4">Advanced Forensic Framework 4 (AFF4)</h1>
+<p>AFF4 was developed by <a href="../michael_cohen/">Michael Cohen</a>,
+<a href="../simson_garfinkel/">Simson Garfinkel</a> and <a href="../bradley_schatz/">Bradley Schatz</a>.
+This page describes the basic design. See <a href="../libaff4/">LibAFF4</a> for a
+description of how to use the sample implementation, library and tools.</p>
+<h2 id="why-did-we-want-to-design-yet-another-forensic-file-format">Why did we want to design yet another forensic file format?</h2>
+<p>Traditional forensic file formats have a number of limitations which
+have been exposed over the years:</p>
+<ul>
+<li>Proprietary formats like EWF are difficult to implement and explain.
+  EWF is a fairly complex file format. Most of the details are reverse
+  engineered. Recovery from damaged EWF files is difficult as detailed
+  knowledge of the file format is required.</li>
+<li>Simple file formats like dd are very large since they are
+  uncompressed. They also dont store metadata, signatures or have
+  cryptographic support.</li>
+<li>Traditional file formats are designed to store a single stream. Often
+  in an investigation, however, multiple source of data need to be
+  acquired (sometimes simultaneously) and stored in the same evidence
+  volumes.</li>
+<li>Traditional file formats just deal with data - there is no attempt to
+  build a universal evidence management system integrated within the
+  file specification.</li>
+</ul>
+<p>The previous AFF format made huge advancements in the field introducing
+excellent support for cryptography, digital signatures, compression and
+even the concepts of external referencing. It was time to gather up all
+the good things in AFF and redesign a new AFF4 specification.</p>
+<p>We wanted to use a well recognized, widely supported and open bit level
+format. One of the strengths of AFF was the use of segments within the
+file format itself. It because obvious that the only requirement we have
+from an underlying storage mechanism is the ability to store blobs of
+data by name, and retrieve them by that name. How these are actually
+stored is quite irrelevant to us.</p>
+<p>The sections below give a quick overview to some of the major ideas.</p>
+<h2 id="objects">Objects</h2>
+<p>AFF4 is an object oriented architecture. We term the <em>AFF4 universe</em> the
+total set of objects which are known. Because AFF4 is designed to be
+scalable to huge evidence corpuses the AFF4 universe is infinite. All
+objects are addressable by their name which is unique in the universe.
+For example an AFF4 object might have a name of:</p>
+<p><code>urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code></p>
+<p>This is a standard URN notation object. The URN is unique. There will
+never be another object created anywhere in the universe with the same
+URN. Once objects are created their URN is fixed.</p>
+<h2 id="relations">Relations</h2>
+<p>The AFF4 universe uses RDF to specify attributes about objects. In its
+simplest form (the one we use) RDF is just a set of statements about an
+object of the form:</p>
+<p><code>Subject   Attribute   Value</code></p>
+<p>For example:</p>
+<pre><code>  ******** Object urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2 ***********
+    aff4:stored = urn:aff4:4bdbf8bc-d8a5-40cb-9af0-fd7e4d0e2c9e
+    aff4:type = image
+    aff4:interface = stream
+    aff4:timestamp = 0x49E9DEC3
+    aff4:chunk_size = 32k
+    aff4:compression = 8
+    aff4:chunks_in_segment = 2048
+    aff4:size = 10485760
+</code></pre>
+<p>This shows that the object named (the Subject) has all these attributes
+and their values. We call these <em>relations</em> or <em>facts</em>. The entire AFF4
+universe is constructed around these facts. As we will see later facts
+can be signed by a person - which essentially has the person asserting
+that the facts are true.</p>
+<p>AFF4 objects exist because they do something useful. What they do
+depends on the interface they present. Currently there are a few
+interfaces, the most important ones are the <strong>Volume</strong> interface and the
+<strong>Stream</strong> interface. An object's interface is a fact about the object
+with an attribute of aff4:interface. This tells us what the object can
+do for us.</p>
+<p>On the other hand AFF4 objects can actually be different things and do
+what they do in a different way. The actual type of an object is
+specified by the attribute aff4:type. Whereas an interface tells us what
+the object can do for us, a type tells us what it actually is. (Its
+possible to change an object's type without changing its interface for
+example going from a ZipFile to a Directory volume. This does not affect
+any users of the object).</p>
+<h2 id="volumes">Volumes</h2>
+<p>We define a <strong>Volume</strong> as a storage mechanism which can store a segment
+(bit of binary data) by name and retrieve it by name. Currently we have
+two volume implementations: a <strong>Directory</strong> and a <strong>ZipFile</strong>.</p>
+<h3 id="directory-volume">Directory Volume</h3>
+<p>The Directory implementation stores the segments as flat files inside a
+regular directory on the filesystem. This is really useful if we want to
+image to a FAT filesystem since each segment is really small and we will
+not exceed the file size limitations. Its also possible to root the
+directory on a http url (i.e. the directory starts with
+<code>http://somehost/url/</code>). This allows us to use the image directly from
+the web - no need to download the whole thing.</p>
+<p>Directory objects use FileLikeObjects (see below) to actually store the
+segments into different files. This means that Directory Volumes can be
+stored on HTTP or HTTPS servers, as well as regular directories.</p>
+<h3 id="zipfile-volume">ZipFile Volume</h3>
+<p>The ZipFile implementation stores segments inside a zip archive. If the
+archive gets too large (over 4Gb) we use the Zip64 extensions to store
+offsets in 64 bits. This is nice since small volumes can just be opened
+with windows explorer. Its also really easy to extract the data out. A
+ZipFile volume uses a FileLikeObject to actually store the zip file.</p>
+<p>This means that its possible to write a ZipFile volume directly onto a
+HTTP server and use the image directly from the server as well.</p>
+<p>Example: <code>http://www.pyflag.net/images/test.zip</code> is an example of a
+small (about 1 MB) AFF4 image.</p>
+<p>Directory and ZipFile volumes can be easily converted from one to the
+other (i.e. unzip the ZipFile into a directory to create a Directory
+volume).</p>
+<h2 id="streams">Streams</h2>
+<p>Streams are the basic interface for storing image data. Streams present
+a consistent interface which presents the methods of <em>read</em>, <em>seek</em>,
+<em>tell' and</em>close<em>. (Streams also support</em>write'', but thats a bit
+special because its how you actually create them).</p>
+<p>As long as an AFF4 object presents a stream interface its possible to
+perform random reads within the body of data. Hence its possible to
+store any image data within the stream. The following section explain
+some of the specific implementations of streams.</p>
+<h3 id="filebackedobjects">FileBackedObjects</h3>
+<p>The FileBacked object is a stream which stores data in an actual file on
+the filesystem. The location of the file is determined from the file's
+URN. Since a URN is a superset of URLs, URLs are also valid URNs. This
+means that something like <code>file:///somedirectory/filename</code> is a valid
+location for a FileBackedObject.</p>
+<h3 id="httpobject">HTTPObject</h3>
+<p>HTTP is ubiquitous and easy to deploy. Since URLs are also valid URNs,
+its possible to specify that an AFF4 volume be stored or read from a
+HTTP server. This implementation uses the Range HTTP header to read
+specific byte ranges from the server - so network traffic between the
+client and server is minimal. Its possible to examine a remote image
+over HTTP without needing to copy the whole thing down.</p>
+<p>This is excellent when you just want to have a quick look at a remote
+image without needing to download the whole thing.</p>
+<p>For security reasons its recommended write support be restricted in some
+way (e.g. passwords, SSL certificates etc). Read support can be provided
+freely if the volume is encrypted. Securing the web server is outside
+the scope of AFF4.</p>
+<h3 id="segments">Segments</h3>
+<p>Segments are components stored directly within the Volume. Recall that a
+volume is simply an object which stores and retrieves segments. Segments
+also present the stream interface, but practically they should generally
+be used for smaller streams because it may be expensive to seek within
+compressed segments.</p>
+<p>Segments are particularly useful when you dont have an imaging tool
+handy and you want to create a logical image of a subset of a filesystem
+(that is you want to image some files from a filesystem rather than a
+forensic image of the filesystem itself). This could happen if you can
+not take the server down for incident response or if the filesystem is
+just so big and you know most of it will not be relevant.</p>
+<p>In that case there is nothing simpler than just to open up windows
+explorer - right click and send to a compressed folder. A regular zip
+file is also an AFF4 volume!!! The files within it are stream objects
+and libaff4 will recognize them as such. Larger segments can be
+converted to Image streams later (and signed, encrypted etc).</p>
+<h3 id="image-streams">Image streams</h3>
+<p>Although segments are great for small files, for very large images we
+cant really use those because we could not compress them efficiently.
+Therefore we have an image stream.</p>
+<p>The Image stream stores the image in chunks. Each chunk (typically 32kb)
+is compresses and a group of chunks (called <strong>bevies</strong>) are stored back
+to back inside a bevy segment. Segments are named according to the
+scheme: URN_OF_IMAGE_STREAM/0000000, URN_OF_IMAGE_STREAM/0000001 etc.</p>
+<p>The offset of each chunk within the bevy is stored in an index segment
+(with a. idx extension). Here is an example:</p>
+<p><code>urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000</code>
+<code>urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000000.idx</code>
+<code>urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001</code>
+<code>urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2/00000001.idx</code></p>
+<p>Here is a short python program to unpack an Image stream:</p>
+<p><code>volume=zipfile.ZipFile(INPUT_FILE)</code>
+<code>outfd = open(OUTPUT_FILE,"w")</code>
+<code>count = 0</code>
+<code>while True:</code>
+<code>idx_segment = volume.read(STREAM+"/%08d.idx" % count)</code>
+<code>bevy = volume.read(STREAM+"/%08d" % count)</code>
+<code>indexes = struct.unpack("&lt;" + "L" *</code>
+<code>(len(idx_segment)/4), idx_segment)</code>
+<code>for i in range(len(indexes)-1):</code>
+<code>chunk = bevy[indexes[i]:indexes[i+1]]</code>
+<code>outfd.write(chunk.decode('zlib'))</code>
+<code>count += 1</code></p>
+<h3 id="map-streams">Map Streams</h3>
+<p>A lot of work in digital forensics involves copying data around. For
+example, carving files usually results with the carved files copied out
+of the image for testing. If you image a RAID array separately you end
+up with 3-5 disk images and typically you will need to copy them into a
+logical image (unless your favourite software supports RAID
+reconstruction). When you copy a file out of the image using sleuthkit,
+you are actually copying bits of data directly from the image.</p>
+<p>All these copies are wasteful of disk space. They are also hard to
+manage because pretty soon you end up with lots of copies of the same
+data in different ways. There must be a better way!!!</p>
+<p>Now there is. By having the underlying forensic format doing all the
+mapping its possible to use tools which are not capable of doing these
+transformations themselves. This is all about tool reuse. For example
+suppose you have a carver which is used to work on dd images. But you
+want to use it on the virtual memory image of the firefox process. In
+the past you had to copy the virtual memory out (it could be 2-4gb) then
+run the carver on it, and possibly end up with about 3 or 4 copies of
+the same data - for each process address space!!!</p>
+<p>Its much easier to have volatility create the initial maps for each
+process (with zero storage overheads), and then carvers can just use the
+maps without understanding anything about memory forensics. In this way
+the AFF4 format is more of an interchange format - allowing tools to be
+used on the results from other tools.</p>
+<p>The map stream is an AFF4 object which contains a segment called
+<strong>map</strong>. Here is an example:</p>
+<p><code>1601536,0,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>1614848,12288,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>1879040,274432,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>2142208,536576,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>2405376,798720,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>2668544,1060864,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code>
+<code>2931712,1323008,urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2</code></p>
+<p>This map was generated by sleuthkit for an ext2 file. The first number
+of the offset in the image. The second number is the offset in the file
+and the third number of the URN of the object to read from (the target).
+The above map basically says that the byte range from 0-12288 in the
+file should be read from aff4:f3eba626-505a-4730-8216-1987853bc4d2
+offset 1601536 to 1614848, etc.</p>
+<p>Using the fsbuild tool its possible to create map streams for all files
+in an image at virtually zero storage requirements. Then its possible to
+use other tools which may not know how to read filesystems to examine
+the files.</p>
+<p>Following is an example of a 3 disk RAID system which was acquired with
+into three separate streams:</p>
+<p><code>0,0,disk1</code>
+<code>1,0,disk0</code>
+<code>2,1,disk2</code>
+<code>3,1,disk1</code>
+<code>4,2,disk0</code>
+<code>5,2,disk2</code></p>
+<p>To make this work we need to tell AFF4 that the map should be repeated.
+We do this by setting attributes on the map objects:</p>
+<p><code>aff4:block_size=64k</code>
+<code>aff4:stream_period=6</code>
+<code>aff4:target_period=3</code></p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="https://simson.net/clips/academic/2009.DFRWS.AFF4.pdf">Extending the Advanced Forensic Format to accommodate Multiple Data Sources, Logical Evidence, Arbitrary Information and Forensic Workflow</a>,
+  by M. I. Cohen, Simson Garfinkel and Bradley Schatz, DFRWS 2009,
+  Montreal, Canada.</li>
+<li><a href="https://dfrws.org/sites/default/files/session-files/2015_USA_pres-wirespeed_extending_the_aff4_container_format_for_scalable_acquisition_and_live_analysis.pdf">Wirespeed: Extending the AFF4 forensic container format for scalable acquisition and live analysis</a>,
+  by <a href="../bradley_schatz/">Bradley L. Schatz</a>, DFRWS US 2015</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li><a href="https://github.com/Velocidex/c-aff4">c-aff4</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1012 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Decrypting Android Full Disk Encryption - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#decrypting-android-full-disk-encryption" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Decrypting Android Full Disk Encryption
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#decrypting-lg-and-other-android-full-disk-encryption-fde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decrypting LG and other Android Full Disk Encryption (FDE)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decrypting-samsung-full-disk-encryption-fde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decrypting Samsung Full Disk Encryption (FDE)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decrypting Samsung Full Disk Encryption (FDE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#locating-the-encryption-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Locating the Encryption Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-sandy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing Sandy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compiling-john-the-ripper-jtr-jumbo-with-the-sandcrypt-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compiling John The Ripper (JtR) Jumbo with the sandcrypt plugin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brute-forcing-the-samsung-android-fde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brute forcing the Samsung Android FDE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optional-wordlist-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optional: Wordlist generation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:howtos" class="md-tag">Howtos</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="decrypting-android-full-disk-encryption">Decrypting Android Full Disk Encryption</h1>
+<p>This document was written to provide some methods around decrypting
+Android Full Disk Encryption. The document assumes that you do not have
+adb, nor root access to the phone, rather, that you are trying to
+decrypt a file system which was retrieved by getting a physical dump
+from the phone (via a physical acquisition, JTAG, chip-off, etc).</p>
+<h2 id="decrypting-lg-and-other-android-full-disk-encryption-fde">Decrypting LG and other Android Full Disk Encryption (FDE)</h2>
+<p>oclHashcat includes support for decrypting PBKDF2-HMAC-SHA1 +
+CBC-ESSIV-AES encyption using brute force. The current version at the
+time of this writing is oclHashcat v1.3.0 which includes GPU accelerated
+4-digit PIN brute forcing. See:</p>
+<ul>
+<li><a href="https://hashcat.net/hashcat/">https://hashcat.net/hashcat/</a></li>
+</ul>
+<h2 id="decrypting-samsung-full-disk-encryption-fde">Decrypting Samsung Full Disk Encryption (FDE)</h2>
+<p>At the time of this writing, Samsung "does things different" than other
+Android vendors. This may change with later releases of the Android OS
+releases. For specifics on how Samsung does things different, see the
+DerbyCon 2013 talk given by LÃ¡szlÃ³ TÃ³th and Ferenc Spala which covers
+the technical details. Without their research and effort this document
+would not be possible!</p>
+<ul>
+<li><a href="https://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf">https://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf</a></li>
+<li><a href="https://www.youtube.com/watch?v=dUFl2tkyVyo">https://www.youtube.com/watch?v=dUFl2tkyVyo</a></li>
+</ul>
+<p>The process for decrypting Samsung FDE is as follows:</p>
+<ul>
+<li>Acquire a physical acquisition of the device (not covered within the
+  scope of this document).</li>
+<li>Extract the encryption key from the device image.</li>
+<li>Convert the encryption key to John The Ripper format.</li>
+<li>Brute force the John The Ripper format encrpytion key using a
+  dictionary.</li>
+</ul>
+<h3 id="getting-started">Getting Started</h3>
+<p>You will need the following tools before you get started:</p>
+<ul>
+<li>Linux (Debian GNU/Linux jessie was used in this case)</li>
+<li>Sandy source code (https://github.com/donctl/sandy)</li>
+<li>John the Ripper jumbo community-edition source code
+  (http://www.openwall.com/john/)</li>
+<li>Python 2.7 (https://www.python.org/downloads/)</li>
+</ul>
+<p>Optional:</p>
+<ul>
+<li>crunch (https://sourceforge.net/projects/crunch-wordlist/)</li>
+</ul>
+<h4 id="locating-the-encryption-key">Locating the Encryption Key</h4>
+<p>Depending on the model of phone and Android version on the device, the
+location of the password key (or password footer as it's referred to in
+some cases) varies. According to the research by TÃ³th and Spala, in
+some versions of Android the key is located in the last 16K of the
+encrypted userdata partition. In other Android versions the key is
+located in /efs/metadata. For these cases, their 'sandy' framework can
+locate your key quite effectively.</p>
+<p>In the case of the testing below, the phone was a Samsung SII SGH-T989D
+running Android 4.1.2 (with an encryption passphrase of 'test123'). The
+key in this case was not located in the userdata partition nor
+/efs/metadata so we manually searched for the ASCII string
+'aes-cbc-essiv:sha256' using grep (or the tool of your choice) to locate
+it. The 'DumpData.bin' is a single 16GB raw image which was acquired
+from the device.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ strings -t d DumpData.bin | grep aes-cbc-essiv:sha256</code>
+<code>402653220 aes-cbc-essiv:sha256</code>
+<code>663743397 aes-cbc-essiv:sha256</code></p>
+<p>Let's check the first hit, is that the key? It is! You can tell as the
+key area we need starts with 0xC5B1B5D0, contains some "whitespace",
+then the 'aes-cbc-essiv:sha256', followed by more "whitespace", and
+finally the encryption key or encrypted footer which starts with
+0xF1DA84CF in our case and is 80 bytes in length. Ultimately, these 80
+bytes are all that we want to extract and brute force with JtR. If you
+want to skip ahead slightly, at this point you could select those 80 hex
+bytes, save them to a file in JtF format, and start brute forcing with
+JtR. These steps are covered in more detail below.</p>
+<p><em>Note: The starting 0xC5B1B5D0 bytes were noted to vary slightly between
+different Android dumps however the variations were minor. Just note
+that a search for '0xC5B1B5D0' will not always work hence why we search
+for 'aes-cbc-essiv:sha256'.</em></p>
+<p>In this example we are using 'dd' to extract 512 bytes around the area
+where our ASCII string was located. In order to show the entire match
+including the 0xC5B1B5D0 starting point, I am skipping back 36 bytes
+before the ASCII string hit. 36 is an arbitrary number which is enough
+in this case to show the starting 0xC5B1B5D0 which is indicative of the
+start of the area which contains the encryption key.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ dd bs=1 skip=$((402653220-36)) count=512 if=DumpData.bin | hexdump -C</code>
+<code>00000000  c5 b1 b5 d0 01 00 00 00  d8 00 00 00 00 00 00 00  |................|</code>
+<code>00000010  20 00 00 00 00 00 00 00  00 10 40 00 00 00 00 00  | .........@.....|</code>
+<code>00000020  00 00 00 00 61 65 73 2d  63 62 63 2d 65 73 73 69  |....aes-cbc-essi|</code>
+<code>00000030  76 3a 73 68 61 32 35 36  00 00 00 00 00 00 00 00  |v:sha256........|</code>
+<code>00000040  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>*</code>
+<code>00000060  00 00 00 00 b1 e4 01 10  02 00 00 00 00 00 00 00  |................|</code>
+<code>00000070  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>00000080  00 00 00 00 f1 da 84 cf  0f 82 30 b9 a7 bc 16 d4  |..........0.....|</code>
+<code>00000090  bc ed 22 20 43 6d 7c b7  50 aa a3 f2 6f 41 d3 28  |.." Cm|.P...oA.(|</code>
+<code>000000a0  48 cc 63 0d 10 30 ae 35  b6 e3 73 b2 5c 1c 61 dd  |H.c..0.5..s.\.a.|</code>
+<code>000000b0  34 80 07 89 67 34 2e 47  23 68 20 ac df cf 41 3a  |4...g4.G#h ...A:|</code>
+<code>000000c0  10 0c 2d f4 18 9e 50 a0  47 09 ca 5c 90 1d 42 84  |..-...P.G..\..B.|</code>
+<code>000000d0  8a 48 62 7c 00 00 00 00  00 00 00 00 00 00 00 00  |.Hb|............|</code>
+<code>000000e0  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>*</code>
+<code>00000200</code>
+<code>512+0 records in</code>
+<code>512+0 records out</code>
+<code>512 bytes (512 B) copied, 0.00276768 s, 185 kB/s</code></p>
+<p>For fun, let's check the second hit from our previous strings + grep
+search. You can see that this is not the key as expected so we can
+ignore this hit.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ dd bs=1 skip=$((663743397-36)) count=512 if=DumpData.bin | hexdump -C</code>
+<code>00000000  70 20 2f 64 61 74 61 20  69 6e 20 74 69 6d 65 21  |p /data in time!|</code>
+<code>00000010  00 61 65 73 2d 63 62 63  2d 70 6c 61 69 6e 3a 73  |.aes-cbc-plain:s|</code>
+<code>00000020  68 61 31 00 61 65 73 2d  63 62 63 2d 65 73 73 69  |ha1.aes-cbc-essi|</code>
+<code>00000030  76 3a 73 68 61 32 35 36  00 6e 6f 74 20 72 75 6e  |v:sha256.not run|</code>
+<code>00000040  6e 69 6e 67 20 77 69 74  68 20 65 6e 63 72 79 70  |ning with encryp|</code>
+<code>00000050  74 69 6f 6e 2c 20 61 62  6f 72 74 69 6e 67 00 6d  |tion, aborting.m|</code>
+<code>00000060  61 73 74 65 72 20 6b 65  79 20 66 69 6c 65 20 64  |aster key file d|</code>
+<code>00000070  6f 65 73 20 6e 6f 74 20  65 78 69 73 74 2c 20 61  |oes not exist, a|</code>
+<code>00000080  62 6f 72 74 69 6e 67 00  45 72 72 6f 72 20 67 65  |borting.Error ge|</code>
+<code>00000090  74 74 69 6e 67 20 63 72  79 70 74 20 66 6f 6f 74  |tting crypt foot|</code>
+<code>000000a0  65 72 20 61 6e 64 20 6b  65 79 0a 00 64 65 63 72  |er and key..decr|</code>
+<code>000000b0  79 70 74 69 6e 67 00 44  65 63 72 79 70 74 69 6f  |ypting.Decryptio|</code>
+<code>000000c0  6e 20 70 72 6f 63 65 73  73 20 64 69 64 6e 27 74  |n process didn't|</code>
+<code>000000d0  20 66 69 6e 69 73 68 20  73 75 63 63 65 73 73 66  | finish successf|</code>
+<code>000000e0  75 6c 6c 79 0a 00 45 6e  63 72 79 70 74 69 6f 6e  |ully..Encryption|</code>
+<code>000000f0  20 70 72 6f 63 65 73 73  20 64 69 64 6e 27 74 20  | process didn't |</code>
+<code>00000100  66 69 6e 69 73 68 20 73  75 63 63 65 73 73 66 75  |finish successfu|</code>
+<code>00000110  6c 6c 79 0a 00 72 6f 2e  63 72 79 70 74 6f 2e 73  |lly..ro.crypto.s|</code>
+<code>00000120  75 70 70 6f 72 74 00 72  65 63 6f 76 65 72 79 5f  |upport.recovery_|</code>
+<code>00000130  6d 6f 75 6e 74 00 43 6c  65 61 72 20 52 65 63 6f  |mount.Clear Reco|</code>
+<code>00000140  76 65 72 79 20 6d 6f 75  6e 74 21 28 25 64 29 0a  |very mount!(%d).|</code>
+<code>00000150  00 66 69 6e 64 20 70 72  6f 63 65 73 73 20 25 73  |.find process %s|</code>
+<code>00000160  20 28 25 64 29 20 68 61  73 20 6f 70 65 6e 20 66  | (%d) has open f|</code>
+<code>00000170  69 6c 65 20 25 73 00 66  69 6e 64 20 70 72 6f 63  |ile %s.find proc|</code>
+<code>00000180  65 73 73 20 25 73 20 28  25 64 29 20 68 61 73 20  |ess %s (%d) has |</code>
+<code>00000190  6f 70 65 6e 20 66 69 6c  65 6d 61 70 20 66 6f 72  |open filemap for|</code>
+<code>000001a0  20 25 73 00 66 69 6e 64  20 70 72 6f 63 65 73 73  | %s.find process|</code>
+<code>000001b0  20 25 73 20 28 25 64 29  20 68 61 73 20 63 77 64  | %s (%d) has cwd|</code>
+<code>000001c0  20 77 69 74 68 69 6e 20  25 73 00 66 69 6e 64 20  | within %s.find |</code>
+<code>000001d0  70 72 6f 63 65 73 73 20  25 73 20 28 25 64 29 20  |process %s (%d) |</code>
+<code>000001e0  68 61 73 20 63 68 72 6f  6f 74 20 77 69 74 68 69  |has chroot withi|</code>
+<code>000001f0  6e 20 25 73 00 66 69 6e  64 20 70 72 6f 63 65 73  |n %s.find proces|</code>
+<code>00000200</code>
+<code>512+0 records in</code>
+<code>512+0 records out</code>
+<code>512 bytes (512 B) copied, 0.000387062 s, 1.3 MB/s</code></p>
+<p>Now, using the forensic tool of your choice, extract 16384 bytes
+starting from the 0xC5B1B5D0 hex and save that out as a new file. You
+don't necessarily need to take all 16384 bytes but for the purpose of
+this document, let's take 16384 bytes as that number emulates pulling
+out the last 16K of the encrypted userdata partition.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ dd bs=1 skip=$((402653220-36)) count=16384 if=DumpData.bin of=encryption_footer</code>
+<code>16384+0 records in</code>
+<code>16384+0 records out</code>
+<code>16384 bytes (16 kB) copied, 0.0167546 s, 978 kB/s</code></p>
+<p>Your extracted chunk containing the encryption key should look as
+follows:</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ hexdump -C encryption_footer</code>
+<code>00000000  c5 b1 b5 d0 01 00 00 00  d8 00 00 00 00 00 00 00  |................|</code>
+<code>00000010  20 00 00 00 00 00 00 00  00 10 40 00 00 00 00 00  | .........@.....|</code>
+<code>00000020  00 00 00 00 61 65 73 2d  63 62 63 2d 65 73 73 69  |....aes-cbc-essi|</code>
+<code>00000030  76 3a 73 68 61 32 35 36  00 00 00 00 00 00 00 00  |v:sha256........|</code>
+<code>00000040  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>*</code>
+<code>00000060  00 00 00 00 b1 e4 01 10  02 00 00 00 00 00 00 00  |................|</code>
+<code>00000070  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>00000080  00 00 00 00 f1 da 84 cf  0f 82 30 b9 a7 bc 16 d4  |..........0.....|</code>
+<code>00000090  bc ed 22 20 43 6d 7c b7  50 aa a3 f2 6f 41 d3 28  |.." Cm|.P...oA.(|</code>
+<code>000000a0  48 cc 63 0d 10 30 ae 35  b6 e3 73 b2 5c 1c 61 dd  |H.c..0.5..s.\.a.|</code>
+<code>000000b0  34 80 07 89 67 34 2e 47  23 68 20 ac df cf 41 3a  |4...g4.G#h ...A:|</code>
+<code>000000c0  10 0c 2d f4 18 9e 50 a0  47 09 ca 5c 90 1d 42 84  |..-...P.G..\..B.|</code>
+<code>000000d0  8a 48 62 7c 00 00 00 00  00 00 00 00 00 00 00 00  |.Hb|............|</code>
+<code>000000e0  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>*</code>
+<code>00001000  4b 44 4f 00 00 00 00 00  00 00 00 00 00 00 00 00  |KDO.............|</code>
+<code>00001010  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|</code>
+<code>*</code>
+<code>00004000</code></p>
+<p>Finally, let's further extract just the encryption key and save it out
+in JtR format. This can either be done with the Sandy framework, a hex
+editor, dd, xxd, etc. Let's do it with xxd in this case. Note: We are
+seeking 132 bytes (jumping 132 bytes) into our file for the purpose that
+we want to grab the 80 bytes starting at 0xF1DA84CF. You can do this
+manually using the forensic tool of your choice as well. Just make sure
+you save those 80 bytes to a flat text file like the file we create
+below.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ xxd -seek 132 -len 80 -c 128 -p encryption_footer</code>
+<code>f1da84cf0f8230b9a7bc16d4bced2220436d7cb750aaa3f26f41d32848cc630d1030ae35b6e373b25c1c61dd3480078967342e47236820acdfcf413a100c2df4189e50a04709ca5c901d42848a48627c</code></p>
+<p>You can see we have extracted just the key. Let's repeat that and write
+it out to a file.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ xxd -seek 132 -len 80 -c 128 -p encryption_footer &gt; encryption_footer.jtr</code>
+<code>dk@anubis:~/Samsung_SII_SGHT989D$ cat encryption_footer.jtr</code>
+<code>f1da84cf0f8230b9a7bc16d4bced2220436d7cb750aaa3f26f41d32848cc630d1030ae35b6e373b25c1c61dd3480078967342e47236820acdfcf413a100c2df4189e50a04709ca5c901d42848a48627c</code></p>
+<p>That's it! This .jtr file will later be fed into JtR for our brute force
+attempt.</p>
+<h4 id="installing-sandy">Installing Sandy</h4>
+<p>Installing Sandy involves cloning the 'sandy' repository from github.
+After cloning the repository you will have a 'sandy' directory which
+contains the Python application.</p>
+<p><code>dk@anubis:/sc/git-ext$ git clone https://github.com/donctl/sandy</code>
+<code>Cloning into 'sandy'...</code>
+<code>remote: Counting objects: 95, done.</code>
+<code>remote: Total 95 (delta 0), reused 0 (delta 0)</code>
+<code>Unpacking objects: 100% (95/95), done.</code>
+<code>Checking connectivity... done.</code></p>
+<p>On supported devices, 'sandy' can be used to extract the encrypted key
+and convert it to JtR format however as noted previously this did not
+work in our case. If you are interested in playing with 'sandy', you can
+start it as follows:</p>
+<p><code>dk@anubis:/sc/git-ext$ cd sandy</code>
+<code>dk@anubis:~/sc/git-ext/sandy$ python main.py -p sandy</code></p>
+<h4 id="compiling-john-the-ripper-jtr-jumbo-with-the-sandcrypt-plugin">Compiling John The Ripper (JtR) Jumbo with the sandcrypt plugin</h4>
+<p>Start by exploding your JtR jumbo source code and copying the sandcrypt
+plugin (from the 'sandy' installation) into the 'src' tree of JtR. After
+that you can start your compilation:</p>
+<p><code>dk@anubis:~/src$ tar -zxf john-1.7.9-jumbo-7.tar.gz</code>
+<code>dk@anubis:~/src$ cd john-1.7.9-jumbo-7/src/</code>
+<code>dk@anubis:~/src/john-1.7.9-jumbo-7/src$ cp ~/sc/git-ext/sandy/jtr_plugin/sandcrypt_fmt_plug.c .</code>
+<code>dk@anubis:~/src/john-1.7.9-jumbo-7/src$ make linux-x86-64-native</code></p>
+<p>Note: If you receive an error about '\&lt;openssl/HMAC.h&gt;' when JtR is
+compiling 'sandcrypt_fmt_plug.c', please ensure you have pulled the
+latest version of 'sandy' from github. An issue previously existed which
+was corrected in the latest revision.</p>
+<h4 id="brute-forcing-the-samsung-android-fde">Brute forcing the Samsung Android FDE</h4>
+<p>The first thing you will need is a wordlist file. For the purpose of
+this document, my sample wordlist file is as follows. If you would like
+to generate a wordlist you can use the tool of your choice or use
+'crunch' which is optionally included at the bottom of this document.
+When generating your wordlist please keep in mind that Samsung FDE
+specifically requires 6 characters including 1 digit. Note: The wordlist
+is likely the most important part of the decryption and should be
+crafted with care.</p>
+<p><code>dk@anubis:~/Samsung_SII_SGHT989D$ cat wordlist.txt</code>
+<code>this5215</code>
+<code>is23123</code>
+<code>a000000</code>
+<code>test10101</code>
+<code>test123</code>
+<code>test321</code>
+<code>test2test</code>
+<code>bleck2bleck</code>
+<code>end2end</code></p>
+<p>Once the compilation of 'john' has completed you can change into the
+'run' directory which is where the 'john' binary is located. Now you can
+run 'john', provide it your wordlist, the sandcrypt plugin, and the
+Samsung FDE .jtr you created earlier.</p>
+<p><code>dk@anubis:~/src/john-1.7.9-jumbo-7/run$ ./john --wordlist=/home/dk/Samsung_SII_SGHT989D/wordlist.txt --format=sandcrypt /home/dk/Samsung_SII_SGHT989D/encryption_footer.jtr</code>
+<code>Loaded 1 password hash (Samsung phone encryption [32/64])</code>
+<code>test123          (?)</code>
+<code>guesses: 1  time: 0:00:00:00 DONE (Mon Sep 22 14:23:52 2014)  c/s: 71.42  trying: test123</code>
+<code>Use the "--show" option to display all of the cracked passwords reliably</code></p>
+<p>Success! JtR identified 'test123' as the decryption password.</p>
+<p>Note: If you run 'john' a second time you will notice that it doesn't
+crack any passwords! The reason being is that 'john' is smart enough to
+keep track of passwords it has already processed and it stores these in
+a 'john.pot' file. If you delete the 'john.pot' file then 'john' will
+reattempt cracking the passwords again.</p>
+<p><code>dk@anubis:~/src/john-1.7.9-jumbo-7/run$ ./john --wordlist=/home/dk/Samsung_SII_SGHT989D/wordlist.txt --format=sandcrypt /home/dk/Samsung_SII_SGHT989D/encryption_footer.jtr</code>
+<code>Loaded 1 password hash (Samsung phone encryption [32/64])</code>
+<code>No password hashes left to crack (see FAQ)</code>
+<code>dk@anubis:~/src/john-1.7.9-jumbo-7/run$ cat john.pot</code>
+<code>f1da84cf0f8230b9a7bc16d4bced2220436d7cb750aaa3f26f41d32848cc630d1030ae35b6e373b25c1c61dd3480078967342e47236820acdfcf413a100c2df4189e50a04709ca5c901d42848a48627c:test123</code>
+<code>dk@anubis:~/src/john-1.7.9-jumbo-7/run$ rm john.pot</code>
+<code>dk@anubis:~/src/john-1.7.9-jumbo-7/run$ ./john --wordlist=/home/dk/Samsung_SII_SGHT989D/wordlist.txt --format=sandcrypt /home/dk/Samsung_SII_SGHT989D/encryption_footer.jtr</code>
+<code>Loaded 1 password hash (Samsung phone encryption [32/64])</code>
+<code>test123          (?)</code>
+<code>guesses: 1  time: 0:00:00:00 DONE (Tue Sep 23 13:39:45 2014)  c/s: 83.33  trying: test123</code>
+<code>Use the "--show" option to display all of the cracked passwords reliably</code></p>
+<h3 id="optional-wordlist-generation">Optional: Wordlist generation</h3>
+<p>You can use 'crunch' to generate a '6 character including 1 digit'
+wordlist or bigger wordlist. Start by extracting the crunch source code
+and compiling it as follows:</p>
+<p><code>dk@anubis:~/src$ tar -zxf crunch-3.6.tgz</code>
+<code>dk@anubis:~/src$ cd crunch-3.6/</code>
+<code>dk@anubis:~/src/crunch-3.6$ make</code>
+<code>Building binary...</code>
+<code>/usr/bin/gcc  -pthread -Wall -pedantic -std=c99   crunch.c -lm  -o crunch</code></p>
+<p>Now, as an example, let's generate a wordlist that is 6 -&gt; 8 characters
+in length which is just comprised of digits.</p>
+<p><code>dk@anubis:~/src/crunch-3.6$ ./crunch 6 8 -f charset.lst numeric -o wordlist.txt</code>
+<code>Crunch will now generate the following amount of data: 987000000 bytes</code>
+<code>941 MB</code>
+<code>0 GB</code>
+<code>0 TB</code>
+<code>0 PB</code>
+<code>Crunch will now generate the following number of lines: 111000000</code>
+<code>`crunch:  22% completed generating output`</code>
+<code>crunch:  43% completed generating output</code>
+<code>`crunch:  65% completed generating output`</code>
+<code>crunch:  86% completed generating output</code>
+<code>`</code>crunch: 100% completed generating output`</p>
+<p>Here is what our wordlist.txt looks like:</p>
+<p><code>dk@anubis:~/src/crunch-3.6$ head wordlist.txt</code>
+<code>000000</code>
+<code>000001</code>
+<code>000002</code>
+<code>000003</code>
+<code>000004</code>
+<code>000005</code>
+<code>000006</code>
+<code>000007</code>
+<code>000008</code>
+<code>000009</code></p>
+<p>You can now use this wordlist for your JtR attempt to crack the FDE.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1164 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Aff developers guide - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aff developers guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:no-category" class="md-tag">No Category</a>
+      
+    
+  </nav>
+
+
+
+<p>This document is a reference guide to the <strong><a href="../aff/">Advanced Forensics
+Format</a></strong> library. It is intended to be read by software
+developers seeking to use the library in their own programs. It is <em>not</em>
+intended for end users.</p>
+<p>End users will be better off reading the "AFF Users Guide" that comes
+with the library. This guide gives an introduction to the AFF format and
+explains the tools included with the library. The default imager,
+aimage, is covered in this guide.</p>
+<p>This version of documentation reflections version 2.3.0 of the library.</p>
+<h1 id="introduction">Introduction</h1>
+<p>Using the AFF is (hopefully) a rather transparent process. The library
+can handle plain files, such as those generated by dd, AFF files, and
+EnCase images. It is not necessary for your program to know which kind
+of file it is processing, the data is extracted and presented to the
+program transparently. All you need to do is change the basic file
+operations to their AFF equivalents. These simple substitutions allow
+you to use AFF or Encase files just like dd images.</p>
+<h1 id="compiling-aff-programs">Compiling AFF programs</h1>
+<p>The library currently supports the following compilers:</p>
+<ul>
+<li>gcc</li>
+<li>g++</li>
+<li><a href="../compiling_open_source_forensic_tools_with_mingw/">MinGW</a></li>
+<li>Microsoft Visual C++</li>
+</ul>
+<p>When compiling an AFF program you must include the AFF header:</p>
+<p><code>#include &lt;afflib.h&gt;</code></p>
+<p>During linking you must include the AFF library itself and the SSL
+library. Additionally, if you're using a C compiler, you will need the
+C++ standard library. Some examples using several compilers are shown
+below:</p>
+<p><em>Using g++</em></p>
+<p><code>$ g++ file.c -lafflib -lssl</code></p>
+<p><em>Using gcc</em></p>
+<p><code>$ gcc file.c -lafflib -lssl -lstdc++</code></p>
+<p><em>Using MinGW</em></p>
+<p><code>C:\&gt; gcc file.c -lafflib -lssl -lstdc++</code></p>
+<p><em>Using Microsoft Visual C++</em></p>
+<p><code>c:\&gt; LINK file.obj afflib.lib</code></p>
+<h2 id="testing-for-the-aff-using-automake">Testing for the AFF using Automake</h2>
+<p>If you're using the GNU Automake and other tools to check for the AFF,
+we recommend the following tests to determine if the AFF is present on
+the system:</p>
+<pre><code>###########################################################
+## Test for AFF Support
+###########################################################
+AC_ARG_ENABLE([aff],
+   AC_HELP_STRING([--enable-aff],[Use AFF for reading files (default yes)]),
+                  [enable_aff=$enableval], [enable_aff=yes])
+if test "${enable_aff}" = "yes" ; then
+   AC_CHECK_HEADERS([afflib.h],,[enable_aff=no])
+   AC_CHECK_LIB([aff],[af_open],,[enable_aff=no])
+fi
+if test "${enable_aff}" = "yes" ; then
+   AC_DEFINE([USE_AFF],1,[Use the AFF library to read files])
+
+   AC_MSG_RESULT([Found Advanced Forensics Format (AFF), good!])
+   AC_MSG_RESULT([Checking for AFF specific features...])
+
+   AC_CHECK_LIB([aff],[af_open_stdin],
+     AC_DEFINE([USE_AFF_STDIN],1,[The AFF can be used to open standard input]))
+fi
+</code></pre>
+<p>These tests will define two variables in the config.h file for you.
+First, the value USE_AFF is defined the AFF is found on the development
+system. Second, the value USE_AFF_STDIN is defined if the function
+af_open_stdin is supported. That function was not present in early
+versions of the library.</p>
+<h1 id="your-first-aff-program">Your First AFF program</h1>
+<p>The first program we will examine the command line arguments to
+determine if they are valid AFF files. If so, it will attempt to open
+them and display the size of their uncompressed data. The complete
+source code is below.</p>
+<pre><code>#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;inttypes.h&gt;
+#include &lt;fcntl.h&gt;
+#include &lt;afflib.h&gt;
+
+#define FALSE 0
+#define TRUE  1
+
+int process_file(char *fn)
+{
+  AFFILE *af = af_open(fn,O_RDONLY,0);
+  if (NULL == af)
+  {
+    perror(fn);
+    return TRUE;
+  }
+
+  printf ("The uncompressed size of this file is %"PRId64" bytes\n",
+          af_get_imagesize(af));
+
+  af_close(af);
+  return FALSE;
+}
+
+
+int main(int argc, char **argv)
+{
+  if (argc &lt; 2)
+  {
+    printf ("Usage: %s [FILES]\n", argv[0]);
+    return EXIT_FAILURE;
+  }
+
+  argc++;
+  argv--;
+
+  while(*argv)
+  {
+    process_file(*argv);
+    ++argv;
+    --argc;
+  }
+  return EXIT_SUCCESS;
+}
+</code></pre>
+<p>We will go through the important parts of the program.</p>
+<p><code>#include &lt;fcntl.h&gt;</code>
+<code>#include &lt;afflib.h&gt;</code></p>
+<p>These two lines include the necessary headers to use the AFF. Although
+fcntl.h is not actually required, it provides several macros that are
+highly recommended.</p>
+<p><code>AFFILE * af = af_open(fn,O_RDONLY,0);</code>
+<code>if (NULL == af)</code>
+<code>{</code>
+<code>perror(fn);</code>
+<code>return TRUE;</code>
+<code>}</code></p>
+<p>This line attempts to open the given file using the af_open command. The
+O_RDONLY is one of many macros defined in fcntl.h that can be used when
+opening files. The final parameter specifies whether or not the file
+must be created. This normally only applies when writing AFF files, so
+it's safe to leave it as zero here. The function returns a pointer to an
+AFFILE structure. There are some public data fields in that structure
+defined in afflib.h.</p>
+<p><code>printf ("The uncompressed size of this file is %"PRId64" bytes\n",</code>
+<code>af_get_imagesize(af));</code></p>
+<p>This line uses one of the miscellaneous functions included with the AFF
+to display the size of the uncompressed image stored in the file.
+Compare the value displayed by this line to the size of the AFF image on
+the disk and you can see how much the library compresses. The example
+file zeros.aff shows an extreme case!</p>
+<p><code>af_close(af);</code></p>
+<p>This final line closes the file handle and destroys the AFFILE
+structure.</p>
+<h1 id="aff-concepts">AFF Concepts</h1>
+<h2 id="segments">Segments</h2>
+<p>AFF files can be viewed as a series of name/value pairs.</p>
+<h2 id="pages">Pages</h2>
+<h2 id="aff-return-values">AFF Return Values</h2>
+<p>The following status codes can be returned by AFF functions.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AF_ERROR_EOF</td>
+<td>The end of the AFF file has been reached</td>
+</tr>
+<tr>
+<td>AF_ERROR_DATASMALL</td>
+<td>The buffer provided for the requested AFF segment is not large enough to hold the data that would be returned.</td>
+</tr>
+<tr>
+<td>AF_ERROR_TAIL</td>
+<td>There is no tail or an error occurred trying to read the tail of an AFF segment. This indicates that the file is corrupt (probably truncated).</td>
+</tr>
+<tr>
+<td>AF_ERROR_SEGH</td>
+<td>There is no head or an error occurred trying to read the head. This indicates that the AFF file is corrupt.</td>
+</tr>
+<tr>
+<td>AF_ERROR_NAME</td>
+<td>Invalid segment name</td>
+</tr>
+<tr>
+<td>AF_ERROR_INVALID_ARG</td>
+<td>The argument was invalid</td>
+</tr>
+<tr>
+<td>AF_ERROR_NO_AES</td>
+<td>This version of the library was compiled without AES support and the program is attempting to read an AES-encrypted segment.</td>
+</tr>
+<tr>
+<td>AF_ERROR_AES_TOO_SMALL</td>
+<td>The decrypted AES segment is too small for the amount of data that it was supposed to contain. The segment is probably corrupt.</td>
+</tr>
+<tr>
+<td>AF_ERROR_KEY_SET</td>
+<td>A key was previously set. (You can only have one AES encryption key per file.)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="aff-function-reference">AFF Function Reference</h1>
+<h2 id="stream-functions">Stream Functions</h2>
+<h3 id="af_open">af_open</h3>
+<p><code>AFFILE * af_open(const char *filename, int flags, int mode);</code></p>
+<p>The flags parameter controls what the program should be allowed to do
+with the file. There are a set of handy macros defined in fcntl.h that
+you should use. When reading files, using O_RDONLY is usually
+sufficient. When writing an AFF file, it is best to use O_CREAT|O_RDWR.</p>
+<p>The mode parameter is only used when creating a new file (RBF – and only
+on *nix?). It controls the</p>
+<p>It should be noted here that when writing AFF files, the af_open command
+does more than just open a file handle. When writing, the af_open
+command causes the default AFF header to be written to the file on the
+disk.</p>
+<p><strong>RBF – What happens, when opening for write, if the file already
+exists?</strong> <strong>RBF – Which parts of the header are written by default?</strong></p>
+<p>See <a href="https://linux.die.net/man/3/open">open(3)</a></p>
+<h3 id="af_open_stdin">af_open_stdin</h3>
+<p><code>AFFILE * af_open_stdin(void);</code></p>
+<p>A special case of af_open, this function an AFF handle on standard
+input. Note that this function did not appear until AFF version 2.3.
+Also note that if you are working on the Windows platform (or plan to
+support the Windows platform) you need to explicitly tell the compiler
+to treat standard input as a stream of binary data. For example, using
+MinGW you can set:</p>
+<p><code>int _CRT_fmode = _O_BINARY;</code></p>
+<p>somewhere in your code. See <a href="https://gnuwin32.sourceforge.net/compile.html">https://gnuwin32.sourceforge.net/compile.html</a> for
+more</p>
+<h3 id="af_popen">af_popen</h3>
+<p><code>AFFILE * af_popen(const char *command, const char *type)</code></p>
+<p>This function is currently on supported on UNIX variants,
+<a href="../cygwin/">Cygwin</a> and MinGW (which are really both Unix
+variants).</p>
+<p>See <a href="https://linux.die.net/man/3/popen">popen(3)</a></p>
+<h3 id="af_close">af_close</h3>
+<p><code>int af_close(AFFILE *af);</code></p>
+<p>Closes an AFF file handle and frees all resources associated with it.
+You can use this function regardless if you opened the file with af_open
+or af_popen.</p>
+<h3 id="af_read">af_read</h3>
+<p><code>int af_read(AFFILE *af, unsigned char *buf, size_t count);</code></p>
+<p>Similar to <code>fread</code>, this function reads <code>count</code> bytes from the file and
+stores them in <code>buf</code>. <code>buf</code> should already be allocated to hold this
+amount of data. The function returns the number of bytes read or -1 on
+error. Note the number of bytes read is size_t, not uint64_t, because
+size_t defines the maximum data segment size on the current platform.</p>
+<p><strong>RBF - This function is supposed to read a <code>size_t</code> number of bytes.
+Should it also return a <code>size_t</code>?</strong></p>
+<p>See also <a href="https://linux.die.net/man/3/read">read(3)</a></p>
+<h3 id="af_seek">af_seek</h3>
+<p><code>uint64_t af_seek(AFFILE *af, int64 pos, int whence);</code></p>
+<p>Sets the file pointer into the <em>decompressed data</em>. The new position,
+given in bytes, is obtained by adding <code>pos</code> bytes to the position
+specified by <code>whence</code>. If <code>whence</code> is set to SEEK_SET, SEEK_CUR, or
+SEEK_END, the offset is relative to the start of the file, the current
+position, or the end of the file, respectively. On success this function
+returns zero. <strong>RBF - On error this function returns minus one
+(uint64_t) ??</strong> and sets errno appropriately.</p>
+<p><strong>Errors</strong></p>
+<p>EBADF: The stream is not seekable. (e.g. a stream that was opened with
+af_popen)</p>
+<p>EINVAL: The <code>whence</code> argument was not one of SEEK_SET, SEEK_CUR, or
+SEEK_END.</p>
+<p>See also <a href="https://linux.die.net/man/3/fseek">fseek(3)</a> and
+<a href="https://linux.die.net/man/3/fseeko">fseeko(3)</a></p>
+<h3 id="af_tell">af_tell</h3>
+<p><code>uint64 af_tell(AFFILE *af);</code></p>
+<p>Similar to ftello, this function returns the current value of the file
+position indicator for the file pointed to by <code>af</code>. On an error, this
+function returns -1 and sets errno appropriately.</p>
+<p>See also <a href="https://linux.die.net/man/3/ftell">ftell(3)</a> and
+<a href="https://linux.die.net/man/3/ftello">ftello(3)</a></p>
+<h3 id="af_eof">af_eof</h3>
+<p><code>int af_eof(AFFILE *af);</code></p>
+<p>Returns TRUE if the file pointer into the decompressed data is at the
+end of the decompressed data. Otherwise, returns FALSE.</p>
+<h3 id="af_reopen">af_reopen</h3>
+<h2 id="writing-aff-files">Writing AFF Files</h2>
+<h3 id="af_enable_writing">af_enable_writing</h3>
+<p><code>void af_enable_writing(AFFILE *af, int flag);</code></p>
+<p>This function must be executed before attempting to write data (using
+af_write) to an AFF file. You do not need to execute this function,
+however, before calling af_update_seg. If flag is TRUE, enables the user
+to write to the file AF.</p>
+<h3 id="af_set_callback">af_set_callback</h3>
+<p><code>void af_set_callback(AFFILE *af,</code>
+<code>void (*wcb)(struct affcallback_info *));</code></p>
+<p>Sets a callback function that is called during each of the four phases
+of the segment write operation.</p>
+<h3 id="af_enable_compression">af_enable_compression</h3>
+<p><code>void af_enable_compression(AFFILE *af, int type, int level);</code></p>
+<p>Enables compression on the given AFF file. The type of compression must
+be an AFF compression algorithm as shown in Table 2. The compression
+level can be any integer between AF_COMPRESSION_MIN and
+AF_COMPRESSION_MAX. These values are currently these are one and nine,
+respectively, but could change in future versions.</p>
+<p>For example, to enable maximum LZMA compression:</p>
+<p><code>af_enable_compression(af,AF_COMPRESSION_ALG_LZMA,AF_COMPRESSION_MAX);</code></p>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Algorithm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AF_COMPRESSION_ALG_NONE</td>
+<td>No compression</td>
+</tr>
+<tr>
+<td>AF_COMPRESSION_ALG_ZLIB</td>
+<td>zlib</td>
+</tr>
+<tr>
+<td>AF_COMPRESSION_ALG_LZMA</td>
+<td>LZMA. Dramatically slower than zlib, this algorithm can produce image files that are significantly smaller.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="af_compression_type">af_compression_type</h3>
+<p><code>int af_compression_type(AFFILE *af);</code></p>
+<p>Returns the compression algorithm being used by the file in question.
+The algorithms are given in Table 2.</p>
+<h3 id="af_write">af_write</h3>
+<p><code>int af_write(AFFILE *af, unsigned char *buf, size_t count);</code></p>
+<p>Note that you must call af_enable_writing on af before using this
+function.</p>
+<h3 id="af_badflag">af_badflag</h3>
+<p><code>const unsigned char * af_badflag(AFFILE *af);</code></p>
+<p>Returns the pattern used to identify bad sectors in this file.</p>
+<h3 id="af_is_badsector">af_is_badsector</h3>
+<p><code>af_is_badsector(AFFILE *af, unsigned char *buf);</code></p>
+<p>Returns TRUE if buf is the pattern used to mark a bad sector, Otherwise,
+returns FALSE.</p>
+<h3 id="af_stats">af_stats</h3>
+<p><code>void af_stats(AFFILE *af, FILE *f);</code></p>
+<p>This function writes statistics about the current usage of the given AFF
+file. This includes the file's name and the number of pages read, pages
+written, pages compressed, pages decompressed, cache hits, cache misses,
+and bytes copied into the cache. This function is generally used only
+for debugging the AFF.</p>
+<p>Sample output:</p>
+<pre><code>AFSTATS for filename.aff
+Pages read: 2
+Pages written: 0
+Pages compressed: 0
+Pages decompressed: 1
+Cache hits: 0
+Cache misses: 1
+Bytes copied: 10848768
+</code></pre>
+<h3 id="af_set_cache_size">af_set_cache_size</h3>
+<h2 id="segment-functions">Segment Functions</h2>
+<h3 id="af_rewind_seg">af_rewind_seg</h3>
+<p><code>af_rewind_seg(AFFILE *af);</code></p>
+<p>Returns the segment pointer to the beginning the file. This function
+should be used before any segments are examined.</p>
+<h3 id="af_get_seg">af_get_seg</h3>
+<p><code>int af_get_seg(AFFILE *af, const char *name, unsigned long *arg, unsigned char *data, size_t *datalen);</code></p>
+<h3 id="af_get_next_seg">af_get_next_seg</h3>
+<p><code>int af_get_next_seg(AFFILE *af, char *segname, size_t segname_len, unsigned long *arg, unsigned char *data, size_t *datalen);</code></p>
+<h3 id="af_update_seg">af_update_seg</h3>
+<p><code>int af_update_seg(AFFILE *af, const char *name, unsigned long arg, const void *value, unsigned int vallen);</code></p>
+<p><strong>RBF – Why aren't these arguments in C99 type? Arg, especically, needs
+to be denoted as being 32 bits</strong></p>
+<p><strong>RBF – If the sizes of segments when read is returned in a size_t, why
+isn't the length size_t when being passed in for writing? And why the
+different name for the length parameter</strong></p>
+<h4 id="proposed-new-prototype">Proposed new prototype:</h4>
+<p><code>int af_update_seg(AFFILE *af, const char *name, uin32_t arg, const void *value, size_t datalen);</code></p>
+<p>This function is used both to set and change the values of segments in a
+file. The name of the segment to be updated is given in name. If the
+segment does not exist, it will be created. The value arg is 32-bits of
+application specific data. If your segment is only going to store 32
+bits of data or less, you can easily store the value in the arg
+parameter. In this case, set data to NULL and datalen to zero.</p>
+<p>Programmers do not need to call af_enable_writing before using this
+fucntion. af_update_seg returns zero on success and -1 on error. When an
+error occurs the value errno is set to indicate the problem. Possible
+values for errno include: ENOTSUP The operation is not supported by the
+filesystem. This happens when the programmer attempts to set segments in
+a file that doesn't support metadata (e.g. AF_IDENTIFY_RAW).</p>
+<p>Examples:</p>
+<p>Updating a small value:</p>
+<pre><code>int status = af_update_seg(af,"Luggage Combination",12345,NULL,0);
+if (status)
+{
+  perror(af_filename(af));
+  return -1;
+}
+</code></pre>
+<p>Updating a large value:</p>
+<pre><code>status = af_update_seg(af,"List of problems solved by MacGuyver", 0, buf_macguyver,strlen(buf_macguyver));
+if (status)
+{
+  perror(af_filename(af));
+  return -1;
+}
+</code></pre>
+<h3 id="af_del_seg">af_del_seg</h3>
+<p><code>int af_del_seg (AFFILE *af, const char *name);</code></p>
+<p>Deletes the first segment of the given name from the file. Returns zero
+on success, -1 on error.</p>
+<h2 id="miscellaneous-functions">Miscellaneous Functions</h2>
+<h3 id="af_filename">af_filename</h3>
+<p><code>const char * af_filename(AFFILE *af);</code></p>
+<p>Returns the filename associated with an opened file. Sample:</p>
+<p><code>printf ("The current file being read is %s.\n", af_filename(af));</code></p>
+<h3 id="af_identify">af_identify</h3>
+<p><code>int af_identify(AFFILE *af);</code></p>
+<p>Returns the type of file associated with the given handle. The types are
+defined in Table 3.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AF_IDENTIFY_RAW</td>
+<td>A raw file, sometimes also called a dd image or flat file</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_AFF</td>
+<td>A standard AFF archive</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_AFD</td>
+<td>A directory of AFD files, or a split AFF file</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_EVF</td>
+<td>An EnCase file read with the original AFF EnCase implementation; now deprecated.</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_EVD</td>
+<td>An EnCase file read with the original AFF EnCase implementation; now deprecated.</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_SPLIT_RAW</td>
+<td>A split raw file</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_AFM</td>
+<td>A raw file with metadata</td>
+</tr>
+<tr>
+<td>AF_IDENTIFY_EWF</td>
+<td>An EnCase file read with libewf.</td>
+</tr>
+</tbody>
+</table>
+<p>Sample usage:</p>
+<pre><code>const char * af_identity_to_str(int id)
+{
+  switch(id) {
+  case AF_IDENTIFY_RAW: return "Raw file";
+  case AF_IDENTIFY_AFF: return "Standard AFF image";
+  case AF_IDENTIFY_AFD: return "Split AFF image";
+  case AF_IDENTIFY_EVF:
+  case AF_IDENTIFY_EVD: return "Deprecated EnCase image";
+  case AF_IDENTIFY_SPLIT_RAW: return "Split Raw file";
+  case AF_IDENTIFY_AFM: return "Raw file with metadata";
+  case AF_IDENTIFY_EWF: return "EnCase image";
+  default: return "Unknown";
+  }
+}
+
+int identify_filetype(AFFILE *af)
+{
+  printf ("The file is type: %s\n", af_identify_to_str(af_identify(af)));
+  return FALSE;
+}
+</code></pre>
+<h3 id="af_get_imagesize">af_get_imagesize</h3>
+<p><code>int64 af_get_imagesize(AFFILE *af);</code></p>
+<p>Returns the number of bytes in the decompressed data. On an error,
+returns -1. Sample:</p>
+<pre><code>int64_t data_size = af_get_imagesize(af);
+if (-1 == data_size)
+{
+  fprintf (stderr,"%s: Unable to determine size of decompressed data", af_filename(af));
+  return TRUE;
+}
+printf ("The decompressed data is 0x%"PRIx64" bytes\n", data_size);
+</code></pre>
+<h1 id="segment-names">Segment Names</h1>
+<p>Although segment names and values can be defined by the user at any
+time, here is a list of the segments that are included in the AFF
+library. Those values set by aimage are noted.</p>
+<p><strong>RBF – Which segment names are required for the file to be a valid
+AFF?</strong></p>
+<p><strong>RBF – How does the programmer enumerate all of the segment names?</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Aimage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AF_IGNORE</td>
+<td></td>
+<td>Ignore segments with a zero length name</td>
+</tr>
+<tr>
+<td>AF_PAGESIZE</td>
+<td>Y</td>
+<td>The size of each page, in bytes</td>
+</tr>
+<tr>
+<td>AF_BADFLAG</td>
+<td>Y</td>
+<td>Data that is inserted into the image file to mark a bad sector.</td>
+</tr>
+<tr>
+<td>AF_DMESG</td>
+<td>Y</td>
+<td>The results of the 'dmesg' command are stored in the AFF file.</td>
+</tr>
+<tr>
+<td>AF_ACQUISITION_COMMAND_LINE</td>
+<td>Y</td>
+<td>The command line used to run the disk imaging program.</td>
+</tr>
+<tr>
+<td>AF_ACQUISITION_ISO_COUNTRY</td>
+<td>Y</td>
+<td>The ISO country code of the computer used to create the image; set manually at imaging time.</td>
+</tr>
+<tr>
+<td>AF_PAGE_MD5</td>
+<td>Y</td>
+<td>The MD5 hash of the current page</td>
+</tr>
+<tr>
+<td>AF_ACQUISITION_SECONDS</td>
+<td>Y</td>
+<td>The number of seconds used to create the image file.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,914 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Memory analysis - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-types" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Memory analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#character-and-string-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Character and string data types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#os-independent-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      OS-Independent Analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encryption-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encryption Keys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="See Also">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assorted-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assorted tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anti-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anti-forensics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computer-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Computer architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-types_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volatility-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volatility Labs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:analysis-techniques" class="md-tag">Analysis Techniques</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Memory analysis</h1>
+
+<p><strong>Memory Analysis</strong> is the science of using a <a href="../memory_imaging/">memory
+image</a> to determine information about running
+programs, the <a href="../operating_system/">operating system</a>, and the
+overall state of a computer. Because the analysis is highly dependent on
+the operating system, it has been divided into the following pages:</p>
+<ul>
+<li><a href="../linux_memory_analysis/">Linux Memory Analysis</a></li>
+<li><a href="../windows_memory_analysis/">Windows Memory Analysis</a></li>
+</ul>
+<h2 id="data-types">Data types</h2>
+<p>Different programming languages provide different primitive data types,
+e.g. in C it is common to have "char", "int", "long", "float", "double".
+The size of these primitive data types is dependent on multiple factors
+like the CPU, the programming language, the compiler, etc.
+<a href="https://en.wikipedia.org/wiki/Integer_(computer_science)">1</a> e.g. on
+64-bit system the size of an "int" can vary based on the data-model
+<a href="https://en.wikipedia.org/wiki/64-bit_computing">2</a>.</p>
+<p><b>Note that some memory analysis resources and tools are known to
+completely disregard this aspect of 64-bit computing and claim
+incorrectly an integer is always 32-bit on 64-bit systems or claim the
+size of the integer is operating system dependent.</b></p>
+<p>When reading primitive data types from a byte stream the endianness
+specifies how the least and most significant parts of the data are
+stored <a href="https://en.wikipedia.org/wiki/Endianness">3</a>.</p>
+<p>Composite data types (also referred to as data structures) consists of
+primitive and/or composite data types.</p>
+<p>When reading data structures from memory note that data structure
+alignment <a href="https://en.wikipedia.org/wiki/Data_structure_alignment">4</a> can
+be applied.</p>
+<h3 id="character-and-string-data-types">Character and string data types</h3>
+<p>Note that this subject could fill books by itself and the following
+information is a very brief overview of some of the characteristics of
+character and string data types.</p>
+<p>A programming language can distinguish between Unicode, non-Unicode and
+binary strings
+<a href="https://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings">5</a>.</p>
+<ul>
+<li>Unicode strings typically are stored in a Tranform format
+  <a href="https://en.wikipedia.org/wiki/UTF">6</a></li>
+<li>There are multiple versions of Unicode</li>
+<li>A predecessor to Unicode is Universal Character Set (UCS)
+    <a href="https://en.wikipedia.org/wiki/Universal_Character_Set">7</a></li>
+<li>non-Unicode strings can be stored in various encodings e.g. ASCII
+  <a href="https://en.wikipedia.org/wiki/Character_encoding">8</a></li>
+<li>typical the encoding is identified by a codepage e.g. for CP1252 for
+    Windows <a href="https://en.wikipedia.org/wiki/Windows_code_page">9</a></li>
+<li>In Windows the supported set of non-Unicode strings is referred to
+    as ANSI-strings, which is technically incorrect but a too widely
+    used term to be ignored.</li>
+<li>In other texts or contexts non-Unicode strings can be referred to as
+    extended ASCII or ASCII with codepage strings, which, dependent on
+    the context, can also be technically incorrect since non-Unicode
+    strings can be stored in non-ASCII methods as well, e.g. EBIDIC or
+    the codepage in which the string is stored has no historical
+    relation to ASCII.</li>
+<li>There are multiple variants of non-Unicode strings sometimes divided
+    in single byte character (SBC) and multi byte character (MBC)
+    strings. <b>Note that character here refers to the primitive data
+    type used, not a textual character of the string.</b></li>
+<li>Binary strings can contain bit- or byte streams. Since bitstreams are
+  often stored in bytes the endianess of the bits within the byte is
+  relevant when reading or writing the string.</li>
+</ul>
+<p>Another distinction made in some programming languages is to have a
+default (or narrow) character type, e.g. in C "char", and a separate
+wide character type, e.g. in C "wchar_t". The "wchar_t" is typically
+associated with Unicode strings. <b>Note that this should be taken as a
+very loose association, since the "char" can be used to store Unicode
+strings in UTF-8 and wchar_t can be used to store non-Unicode
+strings.</b> The typical size of char is 8-bits where the MSB is the
+sign bit. The typical size of wchar_t varies per "platform", e.g. it is
+common to see wchar_t to be 32-bit of size on Linux with gcc and 16-bit
+of size on Windows with MSC.</p>
+<h2 id="os-independent-analysis">OS-Independent Analysis</h2>
+<p>At the IEEE Security and Privacy conference in May 2011, Brendan
+Dolan-Gavitt presented a novel system,
+<a href="https://sites.cc.gatech.edu/~brendan/Virtuoso_Oakland.pdf">Virtuoso</a>, that
+was able to perform operating-system independent memory analysis. Using
+virtual machine introspection accompanied by a number of formal program
+analysis techniques, his system was able to monitor the machine-level
+instructions and behavior of application actions (listing processes,
+network connections, etc) and then automatically generate Volatility
+plugins that replicated this analysis.</p>
+<h2 id="encryption-keys">Encryption Keys</h2>
+<p>Various types of encryption keys can be extracted during memory
+analysis.</p>
+<ul>
+<li>AESKeyFinder extracts 128-bit and 256-bit <a href="../aes/">AES</a> keys and RSAKeyFinder
+  and private and public RSA keys from a memory dump <a href="https://citp.princeton.edu/our-work/memory/code/">10</a>.</li>
+<li>cryptoscan.py which is a <a href="../list_of_volatility_plugins/">plugin for the Volatility framework</a>,
+  scans a memory image for <a href="../truecrypt/">TrueCrypt</a> passphrases</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../memory_imaging/">Memory Imaging</a></li>
+<li><a href="../tools_memory_imaging/">Memory Imaging Tools</a></li>
+<li><a href="../tools_memory_analysis/">Memory Analysis Tools</a></li>
+<li><a href="../linux_memory_analysis/">Linux Memory Analysis</a></li>
+<li><a href="../storage_class_memory/">Storage-class memory</a></li>
+<li><a href="../virtualization_memory_analysis/">Virtualization Memory Analysis</a></li>
+<li><a href="../windows_memory_analysis/">Windows Memory Analysis</a></li>
+</ul>
+<h3 id="assorted-tools">Assorted tools</h3>
+<ul>
+<li><a href="https://github.com/google/Legilimency/">Legilimency, a Memory Research Platform for iOS</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://wiki.yobi.be/index.php/Main_Page">YobiWiki: RAM analysis</a></li>
+<li><a href="https://cryptome.org/0003/RAMisKey.pdf">RAM is Key - Extracting Disk Encryption Keys From Volatile Memory</a>,
+  by Brian Kaplan, May 2007</li>
+<li><a href="https://dl.acm.org/doi/10.1145/1368506.1368517">Forensics Examination of Volatile System Data Using Virtual Introspection</a>,
+  by Brian Hay and Kara Nance, 2008</li>
+<li><a href="https://dfrws.org/presentation/an-evaluation-platform-for-forensic-memory-acquisition-software/">An Evaluation Platform for Forensic Memory Acquisition Software</a>,
+  by Stefan Voemel and Johannes Stuettgen, DFRWS 2013</li>
+</ul>
+<h3 id="anti-forensics">Anti-forensics</h3>
+<ul>
+<li><a href="https://www.blackhat.com/presentations/bh-dc-07/Walters/Paper/bh-dc-07-Walters-WP.pdf">Integrating Volatile Memory Forensics into the Digital Investigation Process</a>,
+  by <a href="../aaron_walters/">AAron Walters</a>, <a href="../nick_petroni/">Nick Petroni</a>, Blackhat 2007</li>
+<li>Forensic Analysis of Anti-Forensic Activities,
+  by Jack Crook, January 29, 2014</li>
+<li><a href="https://volatility-labs.blogspot.com/2014/02/add-next-big-threat-to-memory.html">ADD: The Next Big Threat To Memory Forensics....Or Not</a>,
+  by Michael Hale Ligh, February 3, 2014</li>
+<li><a href="http://scudette.blogspot.com/2014/02/anti-forensics-and-memory-analysis.html">Anti-forensics and memory analysis</a>,
+  by <a href="../michael_cohen/">Michael Cohen</a>, February 7, 2014</li>
+<li><a href="http://takahiroharuyama.github.io/blog/2014/04/21/memory-forensics-still-aborted/">Memory Forensics: Still Aborted</a>,
+  by Takahiro Haruyama, April 21, 2014</li>
+</ul>
+<h3 id="computer-architecture">Computer architecture</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/64-bit_computing">Wikipedia: 64-bit computing</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/content-details/782158/intel-64-and-ia-32-architectures-software-developer-s-manual-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html">Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture</a>,
+  by Intel, May 2011</li>
+<li><a href="https://unix.org/version2/whatsnew/lp64_wp.html">64-Bit Programming Models: Why LP64?</a>,
+  The Open Group, 1997</li>
+</ul>
+<h3 id="data-types_1">Data types</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Primitive_data_type">Wikipedia: Primitive data type</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Integer_(computer_science)">Wikipedia: Integer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/64-bit_computing">Wikipedia: 64-bit computing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Endianness">Wikipedia: Endianness</a></li>
+<li><a href="https://cygwin.com/cygwin-ug-net/programming.html">Chapter 4. Programming with Cygwin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Data_structure_alignment">Wikipedia: Data structure alignment</a></li>
+<li><a href="http://lucacardelli.name/Papers/TypeSystems.pdf">Type Systems</a>,
+  by Luca Cardelli</li>
+</ul>
+<h3 id="volatility-labs"><a href="https://volatility-labs.blogspot.com/">Volatility Labs</a></h3>
+<ul>
+<li><a href="https://volatility-labs.blogspot.com/2012/09/movp-14-average-coder-rootkit-bash.html">MoVP 1.4 Average Coder Rootkit, Bash History, and Elevated Processes</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/09/movp-15-kbeast-rootkit-detecting-hidden.html">MoVP 1.5 KBeast Rootkit, Detecting Hidden Modules, and sysfs</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/09/movp-24-analyzing-jynx-rootkit-and.html">MoVP 2.4 Analyzing the Jynx rootkit and LD_PRELOAD</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/09/movp-25-investigating-in-memory-network.html">MoVP 2.5: Investigating In-Memory Network Data with Volatility</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/09/movp-35-analyzing-2008-dfrws-challenge.html">MoVP 3.5: Analyzing the 2008 DFRWS Challenge with Volatility</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/movp-43-taking-screenshots-from-memory.html">MoVP 4.2 Taking Screenshots from Memory Dumps</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/movp-43-recovering-master-boot-records.html">MoVP 4.3 Recovering Master Boot Records (MBRs) from Memory</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/phalanx-2-revealed-using-volatility-to.html">Phalanx 2 Revealed: Using Volatility to Analyze an Advanced Linux Rootkit</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/solving-grrcon-network-forensics.html">Solving the GrrCon Network Forensics Challenge with Volatility</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/omfw-2012-analyzing-linux-kernel.html">OMFW 2012: Analyzing Linux Kernel Rootkits with Volatility</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/omfw-2012-datalore-android-memory.html">OMFW 2012: Datalore: Android Memory Analysis</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/movp-for-volatility-22-and-omfw-2012.html">MoVP for Volatility 2.2 and OMFW 2012 Wrap-Up</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html">Reverse Engineering Poison Ivy's Injected Code Fragments</a></li>
+<li><a href="https://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html">TrueCrypt Master Key Extraction And Volume Identification</a>,
+  by Michael Hale Ligh, January 14, 2014</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

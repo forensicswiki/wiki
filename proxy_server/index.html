@@ -1,0 +1,956 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Proxy server - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Proxy server
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTP proxies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTPS proxies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#socks-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOCKS proxies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-proxies-cgi-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web proxies (CGI proxies)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proxy detection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Proxy detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server-side
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Server-side">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-http-headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      New HTTP headers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mixed-http-headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mixed HTTP headers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modified-http-header-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modified HTTP header values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#os-fingerprinting-and-user-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      OS fingerprinting and User-Agent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-the-way-to-proxy-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      On the way to proxy server
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="On the way to proxy server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#absolute-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Absolute URI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-methods_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:anti-forensics" class="md-tag">Anti-Forensics</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:network-forensics" class="md-tag">Network Forensics</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Proxy server</h1>
+
+<p><strong>Proxy server</strong> is a server which services the requests of its clients
+by forwarding requests to other servers.</p>
+<h2 id="overview">Overview</h2>
+<p>Proxy servers are widely used by organizations and individuals for
+different purposes:</p>
+<ul>
+<li>Internet sharing (like NAT);</li>
+<li>Traffic compression;</li>
+<li>Accelerating service requests by retrieving content from cache;</li>
+<li>In China, proxy servers are commonly used by individuals to get around
+  national connectivity policies. (User A can't reach website Z, but A
+  can reach proxy server P which can reach website Z);</li>
+<li>Criminals frequently use proxy servers to hide the origin of their
+  connections. (User A connects to website Z through proxy server P; the
+  packets appear to come from P, and not A).</li>
+</ul>
+<p>Tor presents a SOCKS proxy interface to applications,
+so any application that supports SOCKS (versions 4, 4a and 5) can be
+anonymized using Tor.</p>
+<h3 id="http-proxies">HTTP proxies</h3>
+<p><em>These proxy servers are using HTTP.</em></p>
+<p>Example request (direct; with relative URI):</p>
+<pre><code>GET / HTTP/1.1
+Host: cryptome.org
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.3) Gecko/20080528 Epiphany/2.22 Firefox/3.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+If-Modified-Since: Tue, 14 Oct 2008 13:59:19 GMT
+If-None-Match: "e01922-62e9-45937059ec2de"
+Cache-Control: max-age=0
+</code></pre>
+<p>Example request (using proxy; with absolute URI):</p>
+<pre><code>GET http://cryptome.org/ HTTP/1.1
+Host: cryptome.org
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.3) Gecko/20080528 Epiphany/2.22 Firefox/3.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Proxy-Connection: keep-alive
+If-Modified-Since: Tue, 14 Oct 2008 13:59:19 GMT
+If-None-Match: "e01922-62e9-45937059ec2de"
+Cache-Control: max-age=0
+</code></pre>
+<p><em>Note:</em> this HTTP request was intercepted on the way to proxy server.</p>
+<p>According to RFC 2068 (section 5.1.2):</p>
+<pre><code>The absoluteURI form is required when the request is being made to a proxy.
+</code></pre>
+<p><em>Note:</em> proxy server will convert absolute URI to relative URI.</p>
+<h3 id="https-proxies">HTTPS proxies</h3>
+<p><em>The same as above, but using HTTPS (HTTP over SSL/TLS).</em></p>
+<p>Sometimes HTTP proxies that support CONNECT method are called <em>"HTTPS
+proxies"</em>. These HTTP proxies can tunnel almost every TCP-based
+protocol.</p>
+<p>Example request:</p>
+<pre><code>CONNECT home.netscape.com:443 HTTP/1.0
+User-agent: Mozilla/1.1N
+</code></pre>
+<h3 id="socks-proxies">SOCKS proxies</h3>
+<p>SOCKS is an Internet protocol that allows client-server applications to
+transparently use the services of a network firewall.</p>
+<h3 id="web-proxies-cgi-proxies">Web proxies (CGI proxies)</h3>
+<p>These are websites that allow a user to access a site through them.
+They generally use PHP or CGI to implement the proxy functionality.</p>
+<p>Example GET request from <a href="https://anonymouse.ws/">Anonymouse</a> (to a web
+server):</p>
+<pre><code>GET / HTTP/1.0
+Host: [scrubbed server host]:8080
+User-Agent: http://Anonymouse.org/ (Unix)
+Connection: keep-alive
+</code></pre>
+<p>Example GET request from <a href="https://www.hidemyass.com/de-ch/index">HideMyAss.com</a>:</p>
+<pre><code>GET / HTTP/1.0
+Host: [scrubbed server host]:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.3) Gecko/20080528 Epiphany/2.22 Firefox/3.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+</code></pre>
+<h2 id="proxy-detection">Proxy detection</h2>
+<h3 id="server-side">Server-side</h3>
+<h4 id="new-http-headers">New HTTP headers</h4>
+<p>Some proxy servers add new HTTP headers to request, for example:</p>
+<pre><code>GET / HTTP/1.1
+Host: [scrubbed server host]:8080
+Connection: keep-alive
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-ms-application, application/vnd.ms-xpsdocument, application/xaml+xml, application/x-ms-xbap, */*
+Accept-Language: ru
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+X-Forwarded-For: [scrubbed client's real IP address]
+Via: 1.1 proxy11 (NetCache NetApp/5.6.1D24)
+</code></pre>
+<p><em>Note:</em> this HTTP request was received from a proxy server using
+<a href="../netcat/">netcat</a>.</p>
+<p>New HTTP headers are <em>X-Forwarded-For</em> and <em>Via</em>.</p>
+<h4 id="mixed-http-headers">Mixed HTTP headers</h4>
+<p>Some proxy servers mix HTTP headers in the original request (see example
+above). <a href="../internet_explorer/">Internet Explorer</a> 7 puts <em>Host</em>
+and <em>Connection</em> headers at the end of request, not at the beginning.</p>
+<h4 id="modified-http-header-values">Modified HTTP header values</h4>
+<p>Some proxy servers modify HTTP headers replacing the original values
+(see.md). <a href="../internet_explorer/">Internet Explorer</a> 7
+sends header <em>Connection: Keep-Alive</em>, not <em>Connection: keep-alive</em>.</p>
+<h4 id="os-fingerprinting-and-user-agent"><a href="../os_fingerprinting/">OS fingerprinting</a> and User-Agent</h4>
+<p>The following <em>User-Agent</em> header was received by a web server (see
+example above):</p>
+<pre><code>User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)
+</code></pre>
+<p>The request was generated by using <a href="../internet_explorer/">Internet
+Explorer</a> 7 (<em>MSIE 7.0</em>) on
+<a href="../windows/">Windows</a> Vista or <a href="../windows/">Windows</a>
+Server 2008 (<em>Windows NT 6.0</em>). However, this connection was initiated
+with TCP SYN packet with following options:</p>
+<pre><code>MSS
+NOP
+NOP
+SACK permitted
+NOP
+Window scale
+NOP
+NOP
+Timestamps
+</code></pre>
+<p>While <a href="../windows/">Windows</a> Vista commonly uses these options:</p>
+<pre><code>MSS
+NOP
+Window scale
+NOP
+NOP
+SACK permitted
+</code></pre>
+<p>This means that:</p>
+<ul>
+<li>User-Agent header was forged;</li>
+<li>The request was sent using a proxy server with different operating system.</li>
+</ul>
+<h4 id="other-methods">Other methods</h4>
+<ul>
+<li>Active detection: see Metasploit Decloaking Engine;</li>
+<li>Comparing source IP address with a list of known proxy servers.</li>
+</ul>
+<h3 id="on-the-way-to-proxy-server">On the way to proxy server</h3>
+<h4 id="absolute-uri">Absolute URI</h4>
+<p>HTTP clients (such as web browsers) will only generate them in requests
+to proxies.</p>
+<h4 id="other-methods_1">Other methods</h4>
+<ul>
+<li>Comparing destination IP address with a list of known proxy servers.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Tor</li>
+<li><a href="../vpn/">VPN</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,890 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Bulk extractor - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bulk extractor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-feature-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Feature Files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Processing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliography" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliography
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliography">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#academic-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Academic Publications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      YouTube
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorials
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:disk-analysis" class="md-tag">Disk Analysis</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:linux" class="md-tag">Linux</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:open-source-software" class="md-tag">Open Source Software</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Bulk extractor</h1>
+
+<h2 id="overview">Overview</h2>
+<p><strong>bulk_extractor</strong> is a computer forensics tool that scans a disk image,
+a file, or a directory of files and extracts useful information without
+parsing the file system or file system structures. The results can be
+easily inspected, parsed, or processed with automated tools.
+<strong>bulk_extractor</strong> also creates a histograms of features that it finds,
+as features that are more common tend to be more important. The program
+can be used for law enforcement, defense, intelligence, and
+cyber-investigation applications.</p>
+<p>bulk_extractor is distinguished from other forensic tools by its speed
+and thoroughness. Because it ignores file system structure,
+bulk_extractor can process different parts of the disk in parallel. In
+practice, the program splits the disk up into 16MiByte pages and
+processes one page on each available core. This means that 24-core
+machines process a disk roughly 24 times faster than a 1-core machine.
+bulk_extractor is also thorough. That’s because bulk_extractor
+automatically detects, decompresses, and recursively re-processes
+compressed data that is compressed with a variety of algorithms. Our
+testing has shown that there is a significant amount of compressed data
+in the unallocated regions of file systems that is missed by most
+forensic tools that are commonly in use today.</p>
+<p>Another advantage of ignoring file systems is that bulk_extractor can be
+used to process any digital media. We have used the program to process
+hard drives, SSDs, optical media, camera cards, cell phones, network
+packet dumps, and other kinds of digital information.</p>
+<h2 id="output-feature-files">Output Feature Files</h2>
+<p>bulk_extractor now creates an output directory that includes:</p>
+<ul>
+<li><strong>ccn.txt</strong> -- Credit card numbers</li>
+<li><strong>ccn_track2.txt</strong> -- Credit card “track 2″ information</li>
+<li><strong>domain.txt</strong> -- Internet domains found on the drive, including
+  dotted-quad addresses found in text.</li>
+<li><strong>email.txt</strong> -- Email addresses</li>
+<li><strong>ether.txt</strong> -- Ethernet MAC addresses found through IP packet
+  carving of swap files and compressed system hibernation files and file
+  fragments.</li>
+<li><strong>exif.txt</strong> -- EXIFs from JPEGs and video segments. This feature file
+  contains all of the EXIF fields, expanded as XML records.</li>
+<li><strong>find.txt</strong> -- The results of specific regular expression search
+  requests.</li>
+<li><strong>ip.txt</strong> -- IP addresses found through IP packet carving.</li>
+<li><strong>telephone.txt</strong> --- US and international telephone numbers.</li>
+<li><strong>url.txt</strong> --- URLs, typically found in browser caches, email
+  messages, and pre-compiled into executables.</li>
+<li><strong>url_searches.txt</strong> --- A histogram of terms used in Internet
+  searches from services such as Google, Bing, Yahoo, and others.</li>
+<li><strong>wordlist.txt</strong> --- :A list of all “words” extracted from the disk,
+  useful for password cracking.</li>
+<li><strong>wordlist_*.txt</strong> --- The wordlist with duplicates removed,
+  formatted in a form that can be easily imported into a popular
+  password-cracking program.</li>
+<li><strong>zip.txt</strong> --- A file containing information regarding every ZIP file
+  component found on the media. This is exceptionally useful as ZIP
+  files contain internal structure and ZIP is increasingly the compound
+  file format of choice for a variety of products such as Microsoft
+  Office</li>
+</ul>
+<p>For each of the above, two additional files may be created:</p>
+<ul>
+<li><strong>*_stopped.txt</strong> --- bulk_extractor supports a stop list, or a list
+  of items that do not need to be brought to the user’s attention.
+  However rather than simply suppressing this information, which might
+  cause something critical to be hidden, stopped entries are stored in
+  the stopped files.</li>
+<li><strong>*_histogram.txt</strong> --- bulk_extractor can also create histograms of
+  features. This is important, as experience has shown that email
+  addresses, domain names, URLs, and other information that appear more
+  frequently on a hard drive or in a cell phone’s memory can be used to
+  rapidly create a pattern of life report.</li>
+</ul>
+<p>Bulk extractor also creates a file that captures the provenance of the
+run:</p>
+<p>report.xml
+A Digital Forensics XML report that includes information about the
+source media, how the bulk_extractor program was compiled and run, the
+time to process the digital evidence, and a meta report of the
+information that was found.</p>
+<h2 id="post-processing">Post-Processing</h2>
+<p>We have developed four programs for post-processing the bulk_extractor
+output:</p>
+<p>bulk_diff.py
+This program reports the differences between two bulk_extractor runs.
+The intent is to image a computer, run bulk_extractor on a disk image,
+let the computer run for a period of time, re-image the computer, run
+bulk_extractor on the second image, and then report the differences.
+This can be used to infer the user’s activities within a time period.</p>
+<p>cda_tool.py
+This tool, currently under development, reads multiple bulk_extractor
+reports from multiple runs against multiple drives and performs a
+multi-drive correlation using Garfinkel’s Cross Drive Analysis
+technique. This can be used to automatically identify new social
+networks or to identify new members of existing networks.</p>
+<p>identify_filenames.py
+In the bulk_extractor feature file, each feature is annotated with the
+byte offset from the beginning of the image in which it was found. The
+program takes as input a bulk_extractor feature file and a DFXML file
+containing the locations of each file on the drive (produced with
+Garfinkel’s fiwalk program) and produces an annotated feature file that
+contains the offset, feature, and the file in which the feature was
+found.</p>
+<p>make_context_stop_list.py
+Although forensic analysts frequently make “stop lists”—for example, a
+list of email addresses that appear in the operating system and should
+therefore be ignored—such lists have a significant problem. Because it
+is relatively easy to get an email address into the binary of an open
+source application, ignoring all of these email addresses may make it
+possible to cloak email addresses from forensic analysis. Our solution
+is to create context-sensitive stop lists, in which the feature to be
+stopped is presented with the context in which it occurs. The
+make_context_stop_list.py program takes the results of multiple
+bulk_extractor runs and creates a single context-sensitive stop list
+that can then be used to suppress features when found in a specific
+context. One such stop list constructed from Windows and Linux operating
+systems is available on the bulk extractor website.</p>
+<h2 id="download">Download</h2>
+<p>The current version of <strong>bulk_extractor</strong> is 1.5.5.</p>
+<ul>
+<li>Downloads for Windows and Linux/Unix systems are available at:
+  <a href="https://downloads.digitalcorpora.org/downloads/bulk_extractor/">https://downloads.digitalcorpora.org/downloads/bulk_extractor/</a></li>
+</ul>
+<p>Version 2.0 is under development.</p>
+<h2 id="bibliography">Bibliography</h2>
+<h3 id="academic-publications">Academic Publications</h3>
+<ol>
+<li>Garfinkel, Simson, <a href="https://simson.net/clips/academic/2013.COSE.bulk_extractor.pdf">Digital media triage with bulk data analysis and
+    bulk_extractor</a>.
+    Computers and Security 32: 56-72 (2013)</li>
+<li>Beverly, Robert, Simson Garfinkel and Greg Cardwell, <a href="https://simson.net/clips/academic/2011.DFRWS.ipcarving.pdf">"Forensic
+    Carving of Network Packets and Associated Data
+    Structures"</a>,
+    DFRWS 2011, Aug. 1-3, 2011, New Orleans, LA. BEST PAPER AWARD
+    (Acceptance rate: 23%, 14/62)</li>
+<li>Garfinkel, S., <a href="https://simson.net/clips/academic/2006.DFRWS.pdf">Forensic Feature Extraction and Cross-Drive
+    Analysis,</a>The 6th
+    Annual Digital Forensic Research Workshop Lafayette, Indiana, August
+    14-16, 2006. (Acceptance rate: 43%, 16/37)</li>
+</ol>
+<h3 id="youtube">YouTube</h3>
+<p><strong><a href="https://www.youtube.com/results?search_query=bulk_extractor">search
+YouTube</a> for
+bulk_extractor videos</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=odvDTGA7rYI">Simson Garfinkel speaking at CERIAS about
+  bulk_extractor</a></li>
+<li><a href="https://www.youtube.com/watch?v=wTBHM9DeLq4">BackTrack 5 with
+  bulk_extractor</a></li>
+<li><a href="https://www.youtube.com/watch?v=QVfYOvhrugg">Ubuntu 12.04 forensics with
+  bulk_extractor</a></li>
+<li><a href="https://www.youtube.com/watch?v=57RWdYhNvq8">Social Network forensics with
+  bulk_extractor</a></li>
+</ul>
+<h3 id="tutorials">Tutorials</h3>
+<ol>
+<li><a href="http://simson.net/ref/2012/2012-08-08%20bulk_extractor%20Tutorial.pdf">Using bulk_extractor for digital forensics triage and cross-drive
+    analysis</a>,
+    DFRWS 2012</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

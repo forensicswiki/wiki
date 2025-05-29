@@ -1,0 +1,1024 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Prefetch - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prefetch-files" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Prefetch
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prefetch-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefetch files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prefetch files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      File format
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timestamps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timestamps
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefetch-hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefetch hash
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prefetch hash">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scca-xp-hash-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCCA XP hash function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scca-vista-hash-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCCA Vista hash function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scca-2008-hash-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCCA 2008 hash function
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefetch-flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      /prefetch flag
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registry-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Registry Keys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-non-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free - Non Open Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Source
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:articles-that-need-to-be-expanded" class="md-tag">Articles that need to be expanded</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Prefetch</h1>
+
+<p>Windows Prefetch files, introduced in <a href="../windows/">Windows XP</a>,
+are designed to speed up the application startup process. Prefetch files
+contain the name of the executable, a Unicode list of DLLs used by that
+executable, a count of how many times the executable has been run, and a
+timestamp indicating the last time the program was run. Although
+Prefetch is present in Windows 2003, by default it is only enabled for
+boot prefetching. The feature is also found in <a href="../windows/">Windows
+Vista</a>, where it has been augmented with
+<a href="../superfetch/">SuperFetch</a>, <a href="../readyboot/">ReadyBoot</a>,
+and <a href="../readyboost/">ReadyBoost</a>.</p>
+<p>From <a href="https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653317(v=vs.85)">Windows PC Accelerators</a>:</p>
+<ul>
+<li><a href="../superfetch/">SuperFetch</a>; analyzes per-machine usage
+  patterns over time and optimizes the data that is kept in memory.</li>
+<li><a href="../readyboot/">ReadyBoot</a>; decreases boot time (the time from
+  turning power on to reaching the log-on screen) by preloading the
+  files and startup programs needed per-machine into a cache.</li>
+<li><a href="../readyboost/">ReadyBoost</a>; supports the use of flash storage
+  devices like Universal Serial Bus (USB) flash drives and Secure
+  Digital (SD) flash cards to boost PC performance.</li>
+<li>ReadyDrive; supports hybrid hard disk drives.</li>
+</ul>
+<p>For SSD drives Prefetch is disabled by default.</p>
+<h2 id="prefetch-files">Prefetch files</h2>
+<p>The Prefetch files are stored in the directory:</p>
+<pre><code>%SystemRoot%\Prefetch
+</code></pre>
+<p>The following files can be found in the Prefetch directory:</p>
+<ul>
+<li><code>*.pf</code>, which are Prefetch files;</li>
+<li><code>Ag*.db</code> and <code>Ag*.db.trx</code>, which are
+  <a href="../superfetch/">SuperFetch</a> files;</li>
+<li><code>Layout.ini</code>;</li>
+<li><code>PfPre_*.db</code>;</li>
+<li><code>PfSvPerfStats.bin</code></li>
+</ul>
+<p>A Prefetch file contains the name of the application, a dash, and then
+an eight character hash of the location from which that application was
+run, and a <code>.pf</code> extension. The filenames should be all uppercase except
+for the extension. E.g. a filename for <a href="../md5deep/">md5deep</a>
+would look like: <code>MD5DEEP.EXE-4F89AB0C.pf</code>. If an application is run
+from two different locations on the drive (i.e. the user runs
+<code>C:\md5deep.exe</code> and then <code>C:\Apps\Hashing\md5deep.exe</code>), there will be
+two different prefetch files in the Prefetch folder. According to MSDN
+up to 128 Prefetch files can be stored in the Prefetch directory
+<a href="https://learn.microsoft.com/en-us/archive/blogs/ryanmy/">2</a>.</p>
+<h3 id="file-format">File format</h3>
+<p>Each Prefetch file has a 4-byte signature (at offset 4) "SCCA" (or in
+hexadecimal notation 0x53 0x43 0x43 0x41). The signature is assumed to
+be preceded by a 4-byte format version indicator:</p>
+<ul>
+<li>17 (0x00000011) for Windows XP and Windows 2003</li>
+<li>23 (0x00000017) for <a href="../windows_vista/">Windows Vista</a>,
+  Windows 2008, <a href="../windows_7/">Windows 7</a> and Windows 2012
+  (note Windows 2012 has not been confirmed)</li>
+<li>26 (0x0000001a) for <a href="../windows_8/">Windows 8.1</a> (note this
+  could be Windows 8 as well but has not been confirmed)</li>
+<li>30 (0x0000001e) for <a href="../windows_10/">Windows 10</a></li>
+</ul>
+<p>For more information about the file format see: <a href="../windows_prefetch_file_format/">Windows Prefetch File Format</a></p>
+<h2 id="metadata">Metadata</h2>
+<p>The Prefetch file contains various metadata.</p>
+<ul>
+<li>The executable's name, up to 29 characters.</li>
+<li>The run count, or number of times the application has been run.</li>
+<li>Volume related information, like volume path and volume serial number.</li>
+<li>The size of the Prefetch file (sometimes referred to as end of file
+  (EOF)).</li>
+<li>The files and directories that were used doing the application's
+  start-up.</li>
+</ul>
+<h3 id="timestamps">Timestamps</h3>
+<p>The Prefetch file contains 2 types of timestamps</p>
+<ul>
+<li>The time when the application was last ran (executed). Version 26 of
+  the Prefetch format maintains 7 previous last run times.</li>
+<li>The volume creation time (part of the volume information) of the
+  volume the Prefetch file was created on.</li>
+</ul>
+<p>The file system creation time of the Prefetch file indicates the first
+time the application was executed. Both the file system modification
+time of the Prefetch file and the embedded last run time indicate the
+last time the application was executed.</p>
+<h2 id="prefetch-hash">Prefetch hash</h2>
+<p>There are multiple known hashing functions to be used for prefetch file
+filename hashing, namely:</p>
+<ul>
+<li>SCCA XP hash function; used on Windows XP and Windows 2003</li>
+<li>SCCA Vista hash function; used on Windows Vista</li>
+<li>SCCA 2008 hash function; used on Windows 2008, Windows 7, (possibly:
+  Windows 2012) and Windows 8 (including 8.1)</li>
+</ul>
+<h3 id="scca-xp-hash-function">SCCA XP hash function</h3>
+<p>A Python implementation of the SCCA XP hash function:</p>
+<pre><code>def ssca_xp_hash_function(filename):
+    hash_value = 0
+    for character in filename:
+        hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
+        hash_value = (hash_value * 314159269) % 0x100000000
+        if hash_value &gt; 0x80000000:
+            hash_value = 0x100000000 - hash_value
+
+    return (abs(hash_value) % 1000000007) % 0x100000000
+</code></pre>
+<h3 id="scca-vista-hash-function">SCCA Vista hash function</h3>
+<p>A Python implementation of the SCCA Vista hash function:</p>
+<pre><code>def ssca_vista_hash_function(filename):
+    hash_value = 314159
+    for character in filename:
+        hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
+    return hash_value
+</code></pre>
+<h3 id="scca-2008-hash-function">SCCA 2008 hash function</h3>
+<p>A Python implementation of the SCCA 2008 hash function:</p>
+<pre><code>def ssca_2008_hash_function(filename):
+    hash_value = 314159
+    filename_index = 0
+    filename_length = len(filename)
+    while filename_index + 8 &lt; filename_length:
+        character_value = ord(filename[filename_index + 1]) * 37
+        character_value += ord(filename[filename_index + 2])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 3])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 4])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 5])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 6])
+        character_value *= 37
+        character_value += ord(filename[filename_index]) * 442596621
+        character_value += ord(filename[filename_index + 7])
+        hash_value = ((character_value - (hash_value * 803794207)) % 0x100000000)
+        filename_index += 8
+
+    while filename_index &lt; filename_length:
+       hash_value = (((37 * hash_value) + ord(filename[filename_index])) % 0x100000000)
+       filename_index += 1
+
+    return hash_value
+</code></pre>
+<h3 id="prefetch-flag">/prefetch flag</h3>
+<p>From: <a href="https://web.archive.org/web/20160714134633/https://blogs.msdn.microsoft.com/ryanmy/2005/05/25/misinformation-and-the-the-prefetch-flag/">Misinformation and the The Prefetch Flag</a></p>
+<pre><code>The /prefetch:# flag is looked at by the OS when we create the process — however, it has one (and only one) purpose.  We add the passed number to the hash.
+</code></pre>
+<p>It appears that the following are equivalent on Windows 10 1903 and
+2004:</p>
+<ul>
+<li>Notepad.exe</li>
+<li>Notepad.exe /prefetch:0</li>
+<li>Notepad.exe /prefetch:9</li>
+</ul>
+<p>So that /prefetch:[0-8] only seem to be the supported values and the
+/prefetch:9 and larger are equivalent to /prefetch:0</p>
+<h2 id="registry-keys">Registry Keys</h2>
+<pre><code>Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+</code></pre>
+<p>The EnablePrefetcher Registry value can be used to disable prefetch.</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../prefetch_xml/">Prefetch XML</a></li>
+<li><a href="../readyboot/">ReadyBoot</a></li>
+<li><a href="../superfetch/">SuperFetch</a></li>
+<li><a href="../windows/">Windows</a></li>
+<li><a href="../windows_prefetch_file_format/">Windows Prefetch File Format</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prefetcher">Wikipedia Prefetcher</a></li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms940847(v=winembedded.5)">MSDN: Disabling Prefetch</a></li>
+<li><a href="https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/december/windows-xp-kernel-improvements-create-a-more-robust-powerful-and-scalable-os">Windows XP: Kernel Improvements Create a More Robust, Powerful, and Scalable OS</a>,
+  by <a href="../mark_russinovich/">Mark Russinovich</a>, David Solomon, December 2001</li>
+<li><a href="https://windowsir.blogspot.com/2005/07/prefetch-file-metadata.html">Prefetch file metadata</a>,
+  by <a href="../harlan_carvey/">Harlan Carvey</a>, July 13, 2005</li>
+<li><a href="https://windowsir.blogspot.com/2006/04/prefetch-files-revisited.html">Prefetch files, revisited</a>,
+  by <a href="../harlan_carvey/">Harlan Carvey</a>, April 13, 2006</li>
+<li><a href="https://www.codeproject.com/Articles/29449/Windows-Memory-Management">Windows Memory Management</a>,
+  by logicchild, September 17, 2008</li>
+<li><a href="https://www.codeproject.com/Articles/29692/Windows-Memory-Management-Part-2">Windows Memory Management - Part 2</a>,
+  by logicchild, September 25, 2008</li>
+<li><a href="https://www.sans.org/digital-forensics-incident-response/">De-mystifying Defrag: Identifying When Defrag Has Been Used for Anti-Forensics (Part 1 - Windows XP)</a>,
+  by Chad Tilbury, August 5, 2009</li>
+<li><a href="https://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html">Windows Prefetch File (old blog entry from 42 LLC)</a>,
+  by Yogesh Khatri, April 14, 2010</li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653317(v=vs.85)">Windows PC Accelerators</a></li>
+<li><a href="https://dfinews.com">Decoding Prefetch Files for Forensic Purposes: Part 1</a>,
+  by Mark Wade, December 8, 2010</li>
+<li><a href="https://crucialsecurity.wordpress.com/2011/04/11/prefetch-files-at-face-value/">Prefetch Files at Face Value</a>,
+  by Mark Wade, April 11, 2011</li>
+<li><a href="http://kitrap08.blogspot.com/2011/07/windows-logical-prefetcher.html">Windows Logical Prefetcher</a>,
+  TTS blog, July 30, 2011 (article is in Russian)</li>
+<li><a href="http://labit.in/pliki-prefetch-w-windows/">Prefetch i niedokładny licznik</a> by Paweł
+  Hałdrzyński, August 20, 2011 (article in Polish; uncertain about the
+  year of publication)</li>
+<li><a href="https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisited.html">Prefetch Analysis, Revisited</a>,
+  by <a href="../harlan_carvey/">Harlan Carvey</a>, March 8, 2012</li>
+<li><a href="https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisitedagain.html">Prefetch Analysis, Revisited...Again...</a>,
+  by <a href="../harlan_carvey/">Harlan Carvey</a>, March 15, 2012</li>
+<li><a href="http://www.hexacorn.com/blog/2012/06/13/prefetch-hash-calculator-a-hash-lookup-table-xpvistaw7w2k3w2k8/">Prefetch Hash Calculator + a hash lookup table xp/vista/w7/w2k3/w2k8</a>,
+  Hexacorn blog, June 13, 2012</li>
+<li><a href="http://www.hexacorn.com/blog/2012/10/29/prefetch-file-names-and-unc-paths/">Prefetch file names and UNC paths</a>,
+  Hexacorn blog, October 29, 2012</li>
+<li><a href="http://journeyintoir.blogspot.com/2012/12/ntosboot-prefetch-file.html">NTOSBOOT Prefetch File</a>,
+  by Corey Harrell, December 5, 2012</li>
+<li><a href="http://www.invoke-ir.com/2013/09/whats-new-in-prefetch-for-windows-8.html">What's New in the Prefetch for Windows 8??</a>,
+  by Jared Atkinson, September 21, 2013</li>
+<li><a href="https://www.swiftforensics.com/2013/10/windows-prefetch-pf-files.html?m=1">Windows Prefetch (.PF) files</a>,
+  by Yogesh Khatri, October 21, 2013</li>
+<li><a href="https://resources.infosecinstitute.com/topics/digital-forensics/windows-systems-artifacts-digital-forensics-part-iii-prefetch-files/">Windows Systems and Artifacts in Digital Forensics: Part III: Prefetch Files</a>,
+  by Ivan Dimov, November 21, 2013</li>
+<li><a href="https://i.imgur.com/riuljsK.jpg">Prefetch 101 - a Windows 8 Prefetch file walkthrough</a>,
+  by Jared Atkinson, 2014</li>
+<li><a href="https://blog.digital-forensics.it/2015/06/a-first-look-at-windows-10-prefetch.html">A first look at Windows 10 prefetch files</a>,
+  by Francesco Picasso, June 22, 2015</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<h3 id="free-non-open-source">Free - Non Open Source</h3>
+<ul>
+<li><a href="http://www.mitec.cz/wfa.html">Windows File Analyzer</a> - Parses
+  Prefetch files, thumbnail databases, shortcuts, index.dat files, and
+  the recycle bin</li>
+<li><a href="https://www.crowdstrike.com/resources/community-tools/crowdresponse/">CrowdResponse</a></li>
+</ul>
+<h3 id="open-source">Open Source</h3>
+<ul>
+<li><a href="../libscca/">libscca</a></li>
+<li><a href="https://code.google.com/archive/p/prefetch-tool">prefetch-tool</a>, Script to
+  extract information from windows prefetch folder</li>
+<li><a href="../plaso/">Plaso</a></li>
+<li><a href="https://github.com/EricZimmerman/PECmd">PECmd</a>, Prefetch command line
+  tool using <a href="https://github.com/EricZimmerman/Prefetch">Prefetch</a>,
+  Prefetch parser written in C# with support for XP through Windows 10 -
+  Needs WINAPI for decompression</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

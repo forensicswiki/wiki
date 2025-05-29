@@ -1,0 +1,1565 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Fat - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#specification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fat
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Specification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boot-record" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boot Record
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fats" class="md-nav__link">
+    <span class="md-ellipsis">
+      FATs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#root-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Root Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Area
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clusters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clusters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wasted-sectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wasted Sectors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fat-entry-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT Entry Values
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Versions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fat12" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fat16" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT16
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fat32" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAT32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#limitations-with-windows-2000-windows-xp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limitations with Windows 2000 &amp; Windows XP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exfat-sometimes-incorrectly-called-fat64" class="md-nav__link">
+    <span class="md-ellipsis">
+      exFAT (sometimes incorrectly called FAT64)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison-of-fat-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison of FAT Versions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-slack" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Slack
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fat-advantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT Advantages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fat-disadvantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT Disadvantages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fat-date-and-time-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAT date and time values
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#format-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format documentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volume-serial-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volume serial number
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      ExFAT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#textfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      textFAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exfat_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      exFAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:file-systems" class="md-tag">File Systems</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Fat</h1>
+
+<p><strong>FAT</strong>, or File Allocation Table, is a <a href="../file_systems/">file
+system</a> that is designed to keep track of
+allocation status of clusters on a <a href="../hard_drive/">hard drive</a>.
+Developed in 1977 by <a href="../microsoft/">Microsoft</a> Corporation, FAT
+was originally intended to be a <a href="../file_systems/">file system</a>
+for the Microsoft Disk BASIC interpreter. FAT was quickly incorporated
+into an early version of Tim Patterson's QDOS, which was a moniker for
+"Quick and Dirty Operating System". <a href="../microsoft/">Microsoft</a>
+later purchased the rights to QDOS and released it under Microsoft
+branding as PC-DOS and later, MS-DOS.</p>
+<h2 id="specification">Specification</h2>
+<p>FAT is described by Microsoft in <a href="https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc">Microsoft Extensible Firmware
+Initiative FAT32 File System Specification - FAT: General Overview of
+On-Disk
+Format</a>.
+Despite the name, the document includes descriptions of FAT12 and FAT16.</p>
+<p>Closely related standards are: ECMA 107 and ISO/EIC 9293, which only
+cover FAT12 and FAT16, and also are somewhat more restricted than the
+file system described by Microsoft's document.</p>
+<h2 id="structure">Structure</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Boot sector</p></td>
+<td><p>More reserved<br />
+sectors (optional)</p></td>
+<td><p>FAT #1</p></td>
+<td><p>FAT #2</p></td>
+<td><p>Root directory<br />
+(FAT12/16 only)</p></td>
+<td><p>Data region<br />
+(rest of disk)</p></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="boot-record">Boot Record</h3>
+<p>When a computer is powered on, a POST (power-on self test) is performed,
+and control is then transferred to the <a href="../master_boot_record/">Master boot
+record</a> (<a href="../mbr/">MBR</a>). The
+<a href="../mbr/">MBR</a> is present no matter what file system is in use,
+and contains information about how the storage device is logically
+partitioned. When using a FAT file system, the <a href="../mbr/">MBR</a>
+hands off control of the computer to the Boot Record, which is the first
+sector on the partition. The Boot Record, which occupies a reserved area
+on the partition, contains executable code, in addition to information
+such as an OEM identifier, number of FATs, media descriptor (type of
+storage device), and information about the operating system to be
+booted. Once the Boot Record code executes, control is handed off to the
+operating system installed on that partition.</p>
+<p>Note that ECMA 107 does not define the boot record signature 0x55, 0xaa
+(or 0xaa55)</p>
+<h3 id="fats">FATs</h3>
+<p>The primary task of the File Alocation Tables are to keep track of the
+allocation status of clusters, or logical groupings of sectors, on the
+disk drive. There are four different possible FAT entries: allocated
+(along with the address of the next cluster associated with the file),
+unallocated, end of file, and bad sector.</p>
+<p>In order to provide redundancy in case of data corruption, two FATs,
+FAT1 and FAT2, are stored in the file system. FAT2 is a typically a
+duplicate of FAT1. However, FAT mirroring can be disabled on a FAT32
+drive, thus enabling any of the FATs to become the Primary FAT. This
+possibly leaves FAT1 empty, which can be deceiving.</p>
+<h3 id="root-directory">Root Directory</h3>
+<p>The Root Directory, sometimes referred to as the Root Folder, contains
+an entry for each file and directory stored in the file system. This
+information includes the file name, starting cluster number, and file
+size. This information is changed whenever a file is created or
+subsequently modified. Root directory has a fixed size of 512 entries on
+a hard disk and the size on a floppy disk depends. With FAT32 it can be
+stored anywhere within the partition, although in previous versions it
+is always located immediately following the FAT region.</p>
+<h3 id="data-area">Data Area</h3>
+<p>The Boot Record, FATs, and Root Directory are collectively referred to
+as the System Area. The remaining space on the logical drive is called
+the Data Area, which is where files are actually stored. It should be
+noted that when a file is deleted by the operating system, the data
+stored in the Data Area remains intact until it is overwritten.</p>
+<h3 id="clusters">Clusters</h3>
+<p>In order for FAT to manage files with satisfactory efficiency, and also
+to increase maximum size of the volume, it groups sectors into larger
+blocks referred to as clusters. A cluster is the smallest unit of disk
+space that can be allocated to a file, which is why clusters are often
+called allocation units. Each cluster can be used by one and only one
+file (or directory). Only the "data area" is divided into clusters, the
+rest of the partition is simply sectors. Cluster size is determined by
+the size of the disk volume and every file must be allocated an integral
+number of clusters. Cluster sizing has a significant impact on
+performance and disk utilization. Larger cluster sizes result in more
+wasted space because files are less likely to fill up an even number of
+clusters.</p>
+<p>The size of one cluster is specified in the Boot Record and can range
+from a single sector (512 bytes) to 128 sectors (65536 bytes). The
+sectors in a cluster are continuous, therefore each cluster is a
+continuous block of space on the disk. Note that only one file can be
+allocated to a cluster. Therefore if a 1KB file is placed within a 32KB
+cluster there are 31KB of wasted space. The formula for determining
+clusters in a partition is (# of Sectors in Partition) - (# of Sectors
+per Fat * 2) - (# of Reserved Sectors) ) / (# of Sectors per Cluster).</p>
+<h3 id="wasted-sectors">Wasted Sectors</h3>
+<p><strong>Wasted Sectors</strong> (a.k.a. **partition <a href="../slack/">slack</a> are
+a result of the number of data sectors not being evenly distributed by
+the cluster size. It's made up of unused bytes left at the end of a
+file. Also, if the partition as declared in the partition table is
+larger than what is claimed in the Boot Record the volume can be said to
+have wasted sectors. Small files on a hard drive are the reason for
+wasted space and the bigger the hard drive the more wasted space there
+is.</p>
+<h3 id="fat-entry-values">FAT Entry Values</h3>
+<p>FAT12</p>
+<p>0x000 (Free Cluster)
+0x001 (Reserved Cluster)
+0x002 - 0xFEF (Used cluster; value points to next cluster)
+0xFF0 - 0xFF6 (Reserved values)
+0xFF7 (Bad cluster)
+0xFF8 - 0xFFF (Last cluster in file)</p>
+<p>FAT16</p>
+<p>0x0000 (Free Cluster)
+0x0001 (Reserved Cluster)
+0x0002 - 0xFFEF (Used cluster; value points to next cluster)
+0xFFF0 - 0xFFF6 (Reserved values)
+0xFFF7 (Bad cluster)
+0xFFF8 - 0xFFFF (Last cluster in file)</p>
+<p>FAT32</p>
+<p>0x?0000000 (Free Cluster)
+0x?0000001 (Reserved Cluster)
+0x?0000002 - 0x?FFFFFEF (Used cluster; value points to next cluster)
+0x?FFFFFF0 - 0x?FFFFFF6 (Reserved values)
+0x?FFFFFF7 (Bad cluster)
+0x?FFFFFF8 - 0x?FFFFFFF (Last cluster in file)</p>
+<p>Note: FAT32 uses only 28 of 32 possible bits, the upper 4 bits should be
+left alone. Typically these bits are zero, and are represented above by
+a question mark (?).</p>
+<h2 id="versions">Versions</h2>
+<p>There are multiple variants of FAT in existence, the most common ones
+are probably: FAT12, FAT16, and FAT32.</p>
+<h3 id="fat12">FAT12</h3>
+<ul>
+<li>FAT12 is a type of FAT that uses a 12 bit file allocation table entry.</li>
+<li>FAT12 can hold a max of 4,084 clusters (which is 2<sup>12</sup>
+  clusters minus a few values that are reserved for values used in the
+  FAT).</li>
+<li>It is used for floppy disks and hard drive partitions that are smaller
+  than 16 MB.</li>
+<li>All 1.44 MB 3.5" floppy disks are formatted using FAT12.</li>
+<li>Cluster size that is used is between 0.5 KB to 4 KB.</li>
+</ul>
+<h3 id="fat16">FAT16</h3>
+<ul>
+<li>It is called FAT16 because all entries are 16 bit.</li>
+<li>FAT16 can hold a max of 65,524 addressable units</li>
+<li>It is used for small and moderate sized hard disk volumes.</li>
+</ul>
+<h3 id="fat32">FAT32</h3>
+<p>FAT32 is the enhanced version of the FAT system implemented beginning
+with Windows 95 OSR2, Windows 98, and Windows Me. Features include:</p>
+<ul>
+<li>Drives of up to 2 terabytes are supported
+  (<a href="../windows/">windows</a></li>
+<li>Since FAT32 uses smaller clusters (of 4 kilobytes each), it uses hard
+  drive space more efficiently. This is a 10 to 15 percent improvement
+  over FAT or FAT16.</li>
+<li>The limitations of FAT or FAT 16 on the number of root folder entries
+  have been eliminated. In FAT32, the root folder is an ordinary cluster
+  chain, and can be located anywhere on the drive.</li>
+<li>File allocation mirroring can be disabled in FAT32. This allows a
+  different copy of the file allocation table then the default to be
+  active.</li>
+</ul>
+<h4 id="limitations-with-windows-2000-windows-xp">Limitations with <a href="../windows/">Windows</a> 2000 &amp; <a href="../windows/">Windows</a> XP</h4>
+<ul>
+<li>Clusters cannot be 64KB or larger.</li>
+<li>Cannot decrease cluster size that will result in the the FAT being
+  larger than 16 MB minus 64KB in size.</li>
+<li>Cannot contain fewer than 65,527 clusters.</li>
+<li>Maximum of 32KB per cluster.</li>
+<li><em><a href="../windows/">Windows</a> XP</em>: The Windows XP installation
+  program will not allow a user to format a drive of more than 32GB
+  using the FAT32 file system. Using the installation program, the only
+  way to format a disk greater than 32GB in size is to use NTFS. A disk
+  larger than 32GB in size <em>can</em> be formatted with FAT32 for use with
+  Windows XP if the system is booted from a Windows 98 or Windows ME
+  startup disk, and formatted using the tool that will be on the disk.</li>
+</ul>
+<h3 id="exfat-sometimes-incorrectly-called-fat64">exFAT (sometimes incorrectly called FAT64)</h3>
+<p>exFAT (also know as Extended File Allocation Table or exFAT) is
+Microsoft's latest version of FAT and works with Windows Embedded CE
+6.0, Windows XP/Server 2003 (with a KB patch, Vista/Server 2008 SP 1 &amp;
+Later, and Windows 7. Features include:</p>
+<ul>
+<li>Largest file size is 2<sup>64</sup> bytes (16 exabytes) vs. FAT32's
+  maximum file size of 4GB.</li>
+<li>Has transaction support using Transaction-Safe Extended FAT File
+  System (TexFAT). (Not released yet in Desktop/Server OS)</li>
+<li>Speeds up storage allocation processes by using free space bitmaps.</li>
+<li>Support UTC timestamps (Vista/Server 2008 SP1 does not support UTC,
+  UTC support came out with SP2)</li>
+<li>Maximum Cluster size of 32MB (Fat32 is 32KB)</li>
+<li>Sector sizes from 512 bytes to 4096 bytes in size</li>
+<li>Maximum FAT supportable volume size of 128PB</li>
+<li>Maximum Subdirectory size of 256MB which can support up to over 2
+  million files in a single subdirectory</li>
+<li>Uses a Bitmap for cluster allocation</li>
+<li>Supports File Permissions (Not released yet in Desktop/Server OS)</li>
+<li>Has been selected as the exclusive file system of the SDXC memory card
+  by the SD Association</li>
+</ul>
+<p>Although Microsoft has published some information on exFAT, there are
+more technical specifications available from third parties. For example,
+here is a <a href="https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf">detailed presentation on
+exFAT</a>.</p>
+<p>Another published technical paper that goes in the internals in great
+detail is in the SANS Reading Room at: <a href="https://www.sans.org/white-papers/33274/">Reverse Engineering the
+Microsoft exFAT File
+System</a></p>
+<h3 id="comparison-of-fat-versions">Comparison of FAT Versions</h3>
+<p>See the table at <a href="https://en.wikipedia.org/wiki/File_Allocation_Table">https://en.wikipedia.org/wiki/File_Allocation_Table</a>
+for more detailed information about the various versions of FAT.</p>
+<h2 id="uses">Uses</h2>
+<p>Due to its low cost, mobility, and non-volatile nature, flash memory has
+quickly become the choice medium for storing and transferring data in
+consumer electronic devices. The majority of flash memory storage is
+formatted using the FAT file system. In addition, FAT is also frequently
+used in electronic devices with miniature hard drives.</p>
+<p>Examples of devices in which FAT is utilized include:</p>
+<ul>
+<li><a href="../usb/">USB</a> thumb drives</li>
+<li>Digital cameras</li>
+<li>Digital camcorders</li>
+<li>Portable audio and video players</li>
+<li>Multifunction <a href="../printers/">printers</a></li>
+<li>Electronic photo frames</li>
+<li>Electronic musical instruments</li>
+<li>Standard televisions</li>
+<li><a href="../pdas/">PDAs</a></li>
+</ul>
+<h2 id="data-recovery">Data Recovery</h2>
+<p>Recovering directory entries from FAT filesystems as part of <a href="../recovering_deleted_data/">recovering
+deleted data</a> can be accomplished by
+looking for entries that begin with a sigma 0xe5. When a file or
+directory is deleted under a FAT filesystem, the first character of its
+name is changed to sigma. The remainder of the directory entry
+information remains intact.</p>
+<p>The pointers are also changed to zero for each cluster used by the file.
+Recovery tools look at the FAT to find the entry for the file. The
+location of the starting cluster will still be in the directory file. It
+is not deleted or modified. The tool will go straight to that cluster
+and try to recover the file using the file size to determine the number
+of clusters to recover. Some tools will go to the starting cluster and
+recover the next "X" number of clusters needed for the specific file
+size. However, this tool is not ideal. An ideal tool will locate "X"
+number of available clusters. Since files are most often fragmented,
+this will be a more precise way to recover the file.</p>
+<p>An issue arises when two files in the same row of clusters are deleted.
+If the clusters are not in sequential order, the tool will automatically
+receive "X" number of clusters. However, because the file was
+fragmented, it's most likely that all the clusters obtained will not all
+contain data for that file. If these two deleted files are in the same
+row of clusters, it is highly unlikely the file can be recovered.</p>
+<h2 id="file-slack">File <a href="../slack/">Slack</a></h2>
+<p>File <a href="../slack/">slack</a> is data that starts from the end of the
+file written and continues to the end of the sectors designated to the
+file. There are two types of file <a href="../slack/">slack</a>, RAM slack
+and Residual <a href="../slack/">slack</a>. RAM slack starts from the end of
+the file and goes to the end of that sector. Residual slack then starts
+at the next sector and goes to the end of the cluster allocated for the
+file. File slack is a helpful tool when analyzing a hard drive because
+the old data that is not overwritten by the new file is still in tact.
+Go to <a href="https://www.pcguide.com/hdd/">https://www.pcguide.com/hdd/</a> for
+examples.</p>
+<table border="1" cellspacing="2" bordercolor="#000000" cellpadding="4" width="468" bordercolorlight="#C0C0C0">
+<tr>
+<td width="101" bgcolor="#808080">
+
+<font size="2"><b>
+
+<center>
+
+Cluster
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177" bgcolor="#808080">
+
+<font size="2"><b>
+
+<center>
+
+Sample Slack Space,
+
+`   50% Cluster Slack Per File`
+
+</center>
+
+</b></font>
+
+</td>
+<td width="178" bgcolor="#808080">
+
+<font size="2"><b>
+
+<center>
+
+Sample Slack Space,
+
+`   67% Cluster Slack Per File`
+
+</center>
+
+</b></font>
+
+</td>
+</tr>
+<tr>
+<td width="101" bgcolor="#C0C0C0">
+
+<font size="2"><b>
+
+<center>
+
+2 kiB
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177">
+
+<font size="2">
+
+<center>
+
+17 MB
+
+</center>
+
+</font>
+
+</td>
+<td width="178">
+
+<font size="2">
+
+<center>
+
+22 MB
+
+</center>
+
+</font>
+
+</td>
+</tr>
+<tr>
+<td width="101" bgcolor="#C0C0C0">
+
+<font size="2"><b>
+
+<center>
+
+4 kiB
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177">
+
+<font size="2">
+
+<center>
+
+33 MB
+
+</center>
+
+</font>
+
+</td>
+<td width="178">
+
+<font size="2">
+
+<center>
+
+44 MB
+
+</center>
+
+</font>
+
+</td>
+</tr>
+<tr>
+<td width="101" bgcolor="#C0C0C0">
+
+<font size="2"><b>
+
+<center>
+
+8 kiB
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177">
+
+<font size="2">
+
+<center>
+
+66 MB
+
+</center>
+
+</font>
+
+</td>
+<td width="178">
+
+<font size="2">
+
+<center>
+
+89 MB
+
+</center>
+
+</font>
+
+</td>
+</tr>
+<tr>
+<td width="101" bgcolor="#C0C0C0">
+
+<font size="2"><b>
+
+<center>
+
+16 kiB
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177">
+
+<font size="2">
+
+<center>
+
+133 MB
+
+</center>
+
+</font>
+
+</td>
+<td width="178">
+
+<font size="2">
+
+<center>
+
+177 MB
+
+</center>
+
+</font>
+
+</td>
+</tr>
+<tr>
+<td width="101" bgcolor="#C0C0C0">
+
+<font size="2"><b>
+
+<center>
+
+32 kiB
+
+</center>
+
+</b></font>
+
+</td>
+<td width="177">
+
+<font size="2">
+
+<center>
+
+265 MB
+
+</center>
+
+</font>
+
+</td>
+<td width="178">
+
+<font size="2">
+
+<center>
+
+354 MB
+
+</center>
+
+</font>
+
+</td>
+</tr>
+</table>
+
+<p>The diagram above demonstrates the larger the cluster size used, the
+more disk space is wasted due to slack. This suggests it is better to
+use smaller cluster sizes whenever possible.</p>
+<h2 id="fat-advantages">FAT Advantages</h2>
+<ul>
+<li>Files available to multiple operating systems on the same computer</li>
+<li>Easier to switch from FAT to <a href="../ntfs/">NTFS</a> than vice versa</li>
+<li>Performs faster on smaller volumes (\&lt; 10GB)</li>
+<li>Does not index files, which causes slightly higher performance</li>
+<li>Performs better with small cache sizes (\&lt; 96MB)</li>
+<li>More space-efficient on small volumes (\&lt; 4GB)</li>
+<li>Performs better with slow disks (\&lt; 5400RPM)</li>
+</ul>
+<h2 id="fat-disadvantages">FAT Disadvantages</h2>
+<ul>
+<li>FAT has a fixed maximum number of clusters per partition, which means
+  as the hard disk gets bigger the size of each cluster must increase,
+  creating more slack space</li>
+<li>Doesn't natively support many abilities of <a href="../ntfs/">NTFS</a>
+  such as on-the-fly compression, <a href="../encryption/">encryption</a>,
+  or advanced security using access control lists</li>
+<li><a href="../ntfs/">NTFS</a> recommended by
+  <a href="../microsoft/">Microsoft</a> for volumes larger than 32GB</li>
+<li>FAT slows down as the number of files on the disk increases</li>
+<li>FAT usually fragments files more</li>
+<li>FAT does not allow for indexing of files for faster searching</li>
+<li>FAT does not support user quotas</li>
+<li>FAT has minimal security features including no access control list
+  (ACL) capability.</li>
+</ul>
+<h2 id="fat-date-and-time-values">FAT date and time values</h2>
+<p>Python code to convert a FAT date and time value into a Python datetime
+object.</p>
+<pre><code>import datetime
+
+def FromFatDateTime(fat_date_time):
+  """Converts a FAT date and time into a Python datetime object.
+
+  FAT date time is mainly used in DOS/Windows file formats and FAT.
+
+  The FAT date and time is a 32-bit value containing two 16-bit values:
+    * The date (lower 16-bit).
+      * bits 0 - 4:  day of month, where 1 represents the first day
+      * bits 5 - 8:  month of year, where 1 represent January
+      * bits 9 - 15: year since 1980
+    * The time of day (upper 16-bit).
+      * bits 0 - 4: seconds (in 2 second intervals)
+      * bits 5 - 10: minutes
+      * bits 11 - 15: hours
+
+  Args:
+    fat_date_time: The 32-bit FAT date time.
+
+  Returns:
+    A datetime object containing the date and time or None.
+  """
+  day_of_month = (fat_date_time &amp; 0x1f)
+  month = ((fat_date_time &gt;&gt; 5) &amp; 0x0f)
+  year = (fat_date_time &gt;&gt; 9) &amp; 0x7f
+
+  if day_of_month &lt; 0 or day_of_month &gt; 30 or month &lt; 0 or month &gt; 11:
+    return None
+
+  fat_date_time &gt;&gt;= 16
+
+  seconds = (fat_date_time &amp; 0x1f) * 2
+  minutes = (fat_date_time &gt;&gt; 5) &amp; 0x3f
+  hours = (fat_date_time &gt;&gt; 11) &amp; 0x1f
+
+  if hours &gt; 23 or minutes &gt; 59 or seconds &gt; 59:
+    return None
+
+  return datetime.datetime(
+      1980 + year, month, day_of_month, hours, minutes, seconds)
+</code></pre>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/File_Allocation_Table">Wikipedia: File Allocation Table</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system">Wikipedia: Design of the FAT file system</a></li>
+<li><a href="https://www.ntfs.com/index.html">NTFS — New Technology File System for Windows</a></li>
+<li><a href="https://learn.microsoft.com/en-US/windows/win32/fileio/exfat-specification">exFAT file system specification</a></li>
+</ul>
+<h3 id="format-documentation">Format documentation</h3>
+<ul>
+<li><a href="https://www.ecma-international.org/wp-content/uploads/ECMA-107_2nd_edition_june_1995.pdf">ECMA-107: Volume and File Structure of Disk Cartridges for Information Interchange</a>,
+  2nd Edition - June 1995</li>
+<li><a href="https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc">Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview of On-Disk Format</a>,
+  by Microsoft, December 6, 2000</li>
+<li><a href="https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf">An overview of FAT12</a>,
+  by Archana Chidanandan, 2004</li>
+<li><a href="https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-specification">exFAT file system specification</a>,
+  by Microsoft, 2019-08-27</li>
+</ul>
+<h3 id="volume-serial-number">Volume serial number</h3>
+<ul>
+<li><a href="https://www.digital-detective.net/documents/Volume%20Serial%20Numbers.pdf">Volume Serial Numbers and Format Date/Time Verification</a>,
+  by Craig Wilson, October 2003 (updated June 2005)</li>
+</ul>
+<h3 id="exfat">ExFAT</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ExFAT">Wikipedia: ExFAT</a></li>
+<li><a href="http://www.active-undelete.com/xfat_volume.htm">exFAT File System</a></li>
+<li><a href="https://www.sans.org/white-papers/33274/">Reverse Engineering the Microsoft exFAT File System</a>,
+  by Robert Shullich, December 1, 2009</li>
+<li><a href="https://paradigmsolutions.files.wordpress.com/2009/12/exfat-excerpt-1-4.pdf">Extended FAT file system</a>,
+  by Jeff Hamm, December 2009</li>
+<li><a href="https://www.slideshare.net/overcertified/demystifying-the-microsoft-extended-fat-file-system-exfat">Demystifying the Microsoft Extended FAT File System (exFAT)</a>,
+  by Robert Shullich, September 20, 2010</li>
+<li><a href="https://core.ac.uk/download/pdf/56363117.pdf">Windows Phone 7 : Implications For Digital Forensic Investigators</a>,
+  by Yung Anh Le, 2012</li>
+</ul>
+<h3 id="textfat">textFAT</h3>
+<ul>
+<li><a href="https://www.ntfs.com/index.html/exfat-textFAT-padding.htm">TexFAT Padding Directory Entry</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<h3 id="exfat_1">exFAT</h3>
+<ul>
+<li><a href="https://github.com/relan/exfat">Open Source exFAT file system implementation</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

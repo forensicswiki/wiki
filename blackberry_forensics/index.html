@@ -1,0 +1,932 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Blackberry forensics - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#warning-for-blackberry-forensics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blackberry forensics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#warning-for-blackberry-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Warning for BlackBerry Forensics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acquiring-blackberry-backup-file-ipd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acquiring BlackBerry Backup File (.ipd)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-blackberry-backup-files-ipd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening Blackberry Backup Files (.ipd)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Opening Blackberry Backup Files (.ipd)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advanced-export-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Export Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blackberry-bbb-file-format-mac-os-x-bbb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blackberry BBB File Format (Mac OS X) (.bbb)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acquisition-with-paraben-device-seizure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acquisition with Paraben Device Seizure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blackberry-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      BlackBerry simulator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blackberry-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blackberry Protocol
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:blackberryos" class="md-tag">BlackberryOS</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:howtos" class="md-tag">Howtos</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:mobile-forensics" class="md-tag">Mobile Forensics</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Blackberry forensics</h1>
+
+<p><strong>Blackberry Forensics</strong> is a page dedicated to the forensics world.
+This page should contain all the necessary steps to acquire data from a
+BlackBerry Device.</p>
+<h2 id="warning-for-blackberry-forensics">Warning for BlackBerry Forensics</h2>
+<p><a href="../blackberry/">BlackBerry</a> devices come with password
+protection. The owner has the capability to protect all data on the
+phone with a password. The user may also specify the amount of attempts
+for entering the password before wiping all data from the device.</p>
+<p>If you exceed your password attempts limit (defaults to 10, but you can
+set it as low as 3), you will be prompted one last time to type the word
+BlackBerry.</p>
+<p>The device will then wipe. It will be reset to the factory
+out-of-the-box condition (default folder structure), and the password
+reset. You will lose everything in the device memory, with no
+possibility of recovery. It will not reformat the microSD card, since
+that's not part of the factory configuration. The phone will still be
+usable, and the operating system will be unchanged. So this technique
+cannot be used to roll back from an OS upgrade problem.</p>
+<p>Obviously this is a serious problem if you need to perform forensics on
+the device. The best work around is to work with the owner of the device
+and hopefully get them to disclose the password.</p>
+<h2 id="acquiring-blackberry-backup-file-ipd">Acquiring BlackBerry Backup File (.ipd)</h2>
+<p><code>* Version 4.6 was used in this example</code></p>
+<p>Prerequisites:</p>
+<ul>
+<li>Download and install Blackberry Desktop Manager.</li>
+</ul>
+<p>Once Desktop Manager is installed:</p>
+<ol>
+<li>
+<p>Open Blackberry’s Desktop Manager.</p>
+</li>
+<li>
+<p>Click “Options” then “Connection Settings”</p>
+</li>
+<li>
+<p>If the Desktop Manager hasn't already done so, select “USB-PIN:
+Device #” for connection type. Your device # may not be the same as
+the image below.</p>
+</li>
+<li>
+<p>Click "OK" to return to the main menu.</p>
+</li>
+<li>
+<p>Click “Backup and Restore”.</p>
+</li>
+<li>
+<p>Click the "Back up" button for a full backup of the device or use the
+Advanced section for specific data.</p>
+</li>
+<li>
+<p>Select your destination and save the ".ipd" file.</p>
+</li>
+</ol>
+<h2 id="opening-blackberry-backup-files-ipd">Opening Blackberry Backup Files (.ipd)</h2>
+<p>The IPD file can be read using several commercial utilities, including the
+MagicBerry IPD Reader and the Amber Blackberry Converter. The example below was
+created using version 6.7 of the latter.</p>
+<ol>
+<li>
+<p>Use File | Open and point the program to the BlackBerry backup file
+(.ipd).</p>
+</li>
+<li>
+<p>Navigate to the appropriate content by using the navigation icons on
+the left and/or top.</p>
+</li>
+</ol>
+<h3 id="advanced-export-options">Advanced Export Options</h3>
+<p>You may also export each subsection of acquired data to different file
+types such as pdf, txt, and html, etc.</p>
+<ol>
+<li>
+<p>Select the appropriate content from the navigation items on the
+left.</p>
+</li>
+<li>
+<p>Either select an individual row or click "Select All" to export all
+rows.</p>
+</li>
+<li>
+<p>Click "Fields to export" button</p>
+</li>
+<li>
+<p>Select all the criteria for that subsection in which you wish to
+export and click "OK"</p>
+</li>
+<li>
+<p>Select your output type from the bottom list of selections and click
+"Save As..."</p>
+</li>
+</ol>
+<h2 id="blackberry-bbb-file-format-mac-os-x-bbb">Blackberry BBB File Format (Mac OS X) (.bbb)</h2>
+<p>Blackberry backups generated via Mac OS X are given the extension .bbb,
+these are simply .zip compressed files containing a standard .ipd file.</p>
+<h2 id="acquisition-with-paraben-device-seizure">Acquisition with Paraben Device Seizure</h2>
+<p>More information on <a href="../paraben_device_seizure/">Paraben Device Seizure</a></p>
+<p>As an alternative to acquiring the Blackberry through Amber Blackberry
+Converter, Paraben Device Seizure is a simple and effective method to
+acquire the data. The only drawback, is that this method takes
+significantly more time to acquire than using Amber Blackberry
+Converter.</p>
+<ol>
+<li>
+<p>Create a new case in Device Seizure with File | New.</p>
+</li>
+<li>
+<p>Give the case a name and fill in any desired information about the
+case on the next two screens. The third screen is a summary of the data
+entered. If all data is correct click Next and then Finish.</p>
+</li>
+<li>
+<p>You are now ready to acquire the phone. Go to Tools | Data
+Acquisition.</p>
+</li>
+<li>
+<p>You are prompted for the supported manufacturer. Select RIM
+Blackbery (Physical).</p>
+</li>
+<li>
+<p>Leave supported models at the default selection of autodetect.</p>
+</li>
+<li>
+<p>Connection type should be set to USB.</p>
+</li>
+<li>
+<p>For data type selection select Logical Image (Databases).</p>
+</li>
+<li>
+<p>Confirm your selections on the summary page and click Next to start
+the acquisition.
+Now wait until the program is done acquiring data from the device.</p>
+</li>
+</ol>
+<p>Please Note: In some instances the wait can be up to 30-45 minutes.</p>
+<h2 id="blackberry-simulator">BlackBerry simulator</h2>
+<p><code>* For simulating a backup copy of the physical device. This is helpful if the device is low on battery, needs to be turned off,</code>
+<code>* or you don't want to alter the data on the physical device.</code></p>
+<p>This is a step by step guide to downloading and using a BlackBerry
+simulator. In this example the version 4.0.2 was used in order to
+simulate the 7230 series.</p>
+<ol>
+<li>
+<p>Download the BlackBerry simulator</p>
+</li>
+<li>
+<p>For this example look through the list and download BlackBerry
+  Handheld Simulator v4.0.2.51.</p>
+</li>
+<li>
+<p>Then click <em>Next</em>.</p>
+</li>
+<li>
+<p>Enter your proper user credentials and click <em>Next</em> to continue.</p>
+</li>
+<li>
+<p>On the next page, reply accordingly to the eligibility prompt and
+click <em>Next</em> to continue.*</p>
+</li>
+<li>
+<p>Agree or disagree to the SDK agreement and click <em>Submit</em> to
+continue.*</p>
+</li>
+<li>
+<p>The next page will provide you with a link to download the .ZIP file
+containing the wanted simulator.</p>
+</li>
+<li>
+<p>If you disagree at any of these points you will not be able to
+  continue to the download.</p>
+</li>
+<li>
+<p>Extract the files to a folder that can easily be accessed (I used
+the desktop).</p>
+</li>
+<li>
+<p>In that folder, find the xxxx.bat file (where xxxx is the model
+number of the device that is being simulated). The simulator should now
+open an image that resembles the phone.</p>
+</li>
+</ol>
+<p>9. In the <em>BlackBerry 7230 Simulator</em> window, select <em>Simulate</em> | <em>USB
+Cable Connected</em>.</p>
+<p>10. Open BlackBerry Desktop Manager. If there are no Outlook profiles
+created there will be a prompt on how to create one. Click <em>OK</em> to
+continue. If the BlackBerry xxxx Simulator has properly connected to the
+BlackBerry Desktop Manager, <em>Connected</em> should be displayed at the
+bottom of the BlackBerry Desktop Manager window.</p>
+<p>11. Double click <em>Backup and Restore</em> | select <em>Restore...</em>.</p>
+<p>12. Navigate to the directory where an .ipd file that has been
+previously backed up is stored and select Open to load that file to the
+Simulator. See the Acquiring BlackBerry Backup File section above on
+information on how to backup a physical BlackBerry.</p>
+<h2 id="blackberry-protocol">Blackberry Protocol</h2>
+<p>Here is a useful link to the Blackberry Protocol as documented by Phil
+Schwan, Mike Shaver, and Ian Goldberg. The article goes into great
+description of packet sniffing and the protocol as it relates to data
+transfer across a USB port.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.amraksoftware.com/">phoneMiner</a>, phoneMiner</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

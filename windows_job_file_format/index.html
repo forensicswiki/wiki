@@ -1,0 +1,1518 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Windows job file format - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Windows job file format
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Contributions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions Mediawiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tags
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed-length-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed-length section
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fixed-length section">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#product-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product version
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Status
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flags
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      SYSTEMTIME
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-length-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variable-length section
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variable-length section">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unicode-string" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unicode string
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reserved-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reserved Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Triggers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Triggers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger type
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#job-signature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Job Signature
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See Also
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      External Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <a href="../tags/#tag:file-formats" class="md-tag">File Formats</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:text" class="md-tag">Text</a>
+      
+    
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Windows job file format</h1>
+
+<h2 id="overview">Overview</h2>
+<p>On <a href="../windows/">Windows</a> a .JOB file specifies task
+configuration. A .JOB file consists of two main sections, fixed-length
+and variable-length.</p>
+<h3 id="fixed-length-section">Fixed-length section</h3>
+<p>The fixed-length section is 68 bytes in size and consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Product version</p></td>
+</tr>
+<tr class="even">
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>File (format) version</p></td>
+</tr>
+<tr class="odd">
+<td><p>4</p></td>
+<td><p>16</p></td>
+<td></td>
+<td><p>Job UUID (or GUID)</p></td>
+</tr>
+<tr class="even">
+<td><p>20</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Application name size offset<br />
+The offset is relative from the start of the file.</p></td>
+</tr>
+<tr class="odd">
+<td><p>22</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Trigger offset<br />
+The offset is relative from the start of the file.</p></td>
+</tr>
+<tr class="even">
+<td><p>24</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Error Retry Count</p></td>
+</tr>
+<tr class="odd">
+<td><p>26</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Error Retry Interval</p></td>
+</tr>
+<tr class="even">
+<td><p>28</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Idle Deadline</p></td>
+</tr>
+<tr class="odd">
+<td><p>30</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Idle Wait</p></td>
+</tr>
+<tr class="even">
+<td><p>32</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Priority</p></td>
+</tr>
+<tr class="odd">
+<td><p>36</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Maximum Run Time</p></td>
+</tr>
+<tr class="even">
+<td><p>40</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Exit Code</p></td>
+</tr>
+<tr class="odd">
+<td><p>44</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Status</p></td>
+</tr>
+<tr class="even">
+<td><p>48</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>Flags</p></td>
+</tr>
+<tr class="odd">
+<td><p>52</p></td>
+<td><p>16</p></td>
+<td></td>
+<td><p>Last run time<br />
+Consists of a SYSTEMTIME</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="product-version">Product version</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x0400</td>
+<td></td>
+<td>Windows NT 4.0</td>
+</tr>
+<tr>
+<td>0x0500</td>
+<td></td>
+<td>Windows 2000</td>
+</tr>
+<tr>
+<td>0x0501</td>
+<td></td>
+<td>Windows XP</td>
+</tr>
+<tr>
+<td>0x0600</td>
+<td></td>
+<td>Windows Vista</td>
+</tr>
+<tr>
+<td>0x0601</td>
+<td></td>
+<td>Windows 7</td>
+</tr>
+<tr>
+<td>0x0602</td>
+<td></td>
+<td>Windows 8</td>
+</tr>
+<tr>
+<td>0x0603</td>
+<td></td>
+<td>Windows 8.1</td>
+</tr>
+<tr>
+<td>0x0a00</td>
+<td></td>
+<td>Windows 10</td>
+</tr>
+</tbody>
+</table>
+<h4 id="priority">Priority</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x00800000</td>
+<td>REALTIME_PRIORITY_CLASS</td>
+<td>The task can run at the highest possible priority. The threads of a real-time priority class process preempt the threads of all other processes, including operating system processes performing important tasks.</td>
+</tr>
+<tr>
+<td>0x01000000</td>
+<td>HIGH_PRIORITY_CLASS</td>
+<td>The task performs time-critical tasks that can be executed immediately for it to run correctly. The threads of a high-priority class process preempt the threads of normal or idle priority class processes.</td>
+</tr>
+<tr>
+<td>0x02000000</td>
+<td>IDLE_PRIORITY_CLASS</td>
+<td>The task can run in a process whose threads run only when the machine is idle, and are preempted by the threads of any process running in a higher priority class.</td>
+</tr>
+<tr>
+<td>0x04000000</td>
+<td>NORMAL_PRIORITY_CLASS</td>
+<td>The task has no special scheduling requirements.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="status">Status</h4>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x00041300</td>
+<td>SCHED_S_TASK_READY</td>
+<td>Task is not running but is scheduled to run at some time in the future.</td>
+</tr>
+<tr>
+<td>0x00041301</td>
+<td>SCHED_S_TASK_RUNNING</td>
+<td>Task is currently running.</td>
+</tr>
+<tr>
+<td>0x00041305</td>
+<td>SCHED_S_TASK_NOT_SCHEDULED</td>
+<td>The task is not running and has no valid triggers.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="flags">Flags</h4>
+<p>See: <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/3b4cd410-105a-48be-8379-81c84bfcafbe">Flags</a></p>
+<h4 id="systemtime">SYSTEMTIME</h4>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td></td>
+<td>Year</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td>Month</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+<td></td>
+<td>Weekday</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2</td>
+<td></td>
+<td>Day</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2</td>
+<td></td>
+<td>Hour</td>
+</tr>
+<tr>
+<td>10</td>
+<td>2</td>
+<td></td>
+<td>Minute</td>
+</tr>
+<tr>
+<td>12</td>
+<td>2</td>
+<td></td>
+<td>Second</td>
+</tr>
+<tr>
+<td>14</td>
+<td>2</td>
+<td></td>
+<td>Milli second</td>
+</tr>
+</tbody>
+</table>
+<h3 id="variable-length-section">Variable-length section</h3>
+<p>The variable-length section is variable in size and consists of:</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Running Instance Count</p></td>
+</tr>
+<tr class="even">
+<td><p>2</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Application Name<br />
+Consists of a Unicode string.</p></td>
+</tr>
+<tr class="odd">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Parameters<br />
+Consists of a Unicode string.</p></td>
+</tr>
+<tr class="even">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Working Directory<br />
+Consists of a Unicode string.</p></td>
+</tr>
+<tr class="odd">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Author<br />
+Consists of a Unicode string.</p></td>
+</tr>
+<tr class="even">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Comment<br />
+Consists of a Unicode string.</p></td>
+</tr>
+<tr class="odd">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>User Data</p></td>
+</tr>
+<tr class="even">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Reserved Data</p></td>
+</tr>
+<tr class="odd">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Triggers</p></td>
+</tr>
+<tr class="even">
+<td><p>...</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>Job Signature</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>These values are stored as Unicode strings.</p>
+<h4 id="unicode-string">Unicode string</h4>
+<table>
+<thead>
+<tr class="header">
+<th><p>offset</p></th>
+<th><p>size</p></th>
+<th><p>value</p></th>
+<th><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>Number of characters<br />
+The value will be 0 if the string is empty.</p></td>
+</tr>
+<tr class="even">
+<td><p>2</p></td>
+<td><p>...</p></td>
+<td></td>
+<td><p>String<br />
+UTF-16 little-endian with end-of-string character</p></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="user-data">User Data</h4>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td></td>
+<td>data size</td>
+</tr>
+<tr>
+<td>2</td>
+<td>...</td>
+<td></td>
+<td>data</td>
+</tr>
+</tbody>
+</table>
+<h4 id="reserved-data">Reserved Data</h4>
+<p>The Reserved Data is similar in structure as the User Data though if a
+size is set, is should be 8 and the Reserved Data consists of:</p>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>8</td>
+<td>data size</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td>Start Error</td>
+</tr>
+<tr>
+<td>6</td>
+<td>4</td>
+<td></td>
+<td>Task Flags</td>
+</tr>
+</tbody>
+</table>
+<h4 id="triggers">Triggers</h4>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td></td>
+<td>Number of triggers</td>
+</tr>
+<tr>
+<td>2</td>
+<td>...</td>
+<td></td>
+<td>Array of triggers</td>
+</tr>
+</tbody>
+</table>
+<h5 id="trigger">Trigger</h5>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td></td>
+<td>Trigger Size</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td>Reserved1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+<td></td>
+<td>Begin Year</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2</td>
+<td></td>
+<td>Begin Month</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2</td>
+<td></td>
+<td>Begin Day</td>
+</tr>
+<tr>
+<td>10</td>
+<td>2</td>
+<td></td>
+<td>End Year</td>
+</tr>
+<tr>
+<td>12</td>
+<td>2</td>
+<td></td>
+<td>End Month</td>
+</tr>
+<tr>
+<td>14</td>
+<td>2</td>
+<td></td>
+<td>End Day</td>
+</tr>
+<tr>
+<td>16</td>
+<td>2</td>
+<td></td>
+<td>Start Hour</td>
+</tr>
+<tr>
+<td>18</td>
+<td>2</td>
+<td></td>
+<td>Start Minute</td>
+</tr>
+<tr>
+<td>20</td>
+<td>4</td>
+<td></td>
+<td>Minutes Duration</td>
+</tr>
+<tr>
+<td>24</td>
+<td>4</td>
+<td></td>
+<td>Minutes Interval</td>
+</tr>
+<tr>
+<td>28</td>
+<td>4</td>
+<td></td>
+<td>Flags</td>
+</tr>
+<tr>
+<td>32</td>
+<td>4</td>
+<td></td>
+<td>Trigger Type</td>
+</tr>
+<tr>
+<td>36</td>
+<td>2</td>
+<td></td>
+<td>TriggerSpecific0</td>
+</tr>
+<tr>
+<td>38</td>
+<td>2</td>
+<td></td>
+<td>TriggerSpecific1</td>
+</tr>
+<tr>
+<td>40</td>
+<td>2</td>
+<td></td>
+<td>TriggerSpecific2</td>
+</tr>
+<tr>
+<td>42</td>
+<td>2</td>
+<td></td>
+<td>Padding</td>
+</tr>
+<tr>
+<td>44</td>
+<td>2</td>
+<td></td>
+<td>Reserved2</td>
+</tr>
+<tr>
+<td>46</td>
+<td>2</td>
+<td></td>
+<td>Reserved3</td>
+</tr>
+</tbody>
+</table>
+<h5 id="trigger-type">Trigger type</h5>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Identifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x00000000</td>
+<td>ONCE</td>
+<td>Not used</td>
+</tr>
+<tr>
+<td>0x00000001</td>
+<td>DAILY</td>
+<td></td>
+</tr>
+<tr>
+<td>0x00000002</td>
+<td>WEEKLY</td>
+<td></td>
+</tr>
+<tr>
+<td>0x00000003</td>
+<td>MONTHLYDATE</td>
+<td></td>
+</tr>
+<tr>
+<td>0x00000004</td>
+<td>MONTHLYDOW</td>
+<td></td>
+</tr>
+<tr>
+<td>0x00000005</td>
+<td>EVENT_ON_IDLE</td>
+<td>Not used</td>
+</tr>
+<tr>
+<td>0x00000006</td>
+<td>EVENT_AT_SYSTEMSTART</td>
+<td>Not used</td>
+</tr>
+<tr>
+<td>0x00000007</td>
+<td>EVENT_AT_LOGON</td>
+<td>Not used</td>
+</tr>
+</tbody>
+</table>
+<h4 id="job-signature">Job Signature</h4>
+<table>
+<thead>
+<tr>
+<th>offset</th>
+<th>size</th>
+<th>value</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>Signature version</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>Minimum client version</td>
+</tr>
+<tr>
+<td>4</td>
+<td>64</td>
+<td></td>
+<td>Signature</td>
+</tr>
+</tbody>
+</table>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../windows/">Windows</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/96446df7-7683-40e0-a713-b01933b93b18">.JOB File
+  Format</a>, by
+  <a href="../microsoft/">Microsoft</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
