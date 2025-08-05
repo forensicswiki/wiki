@@ -28,7 +28,7 @@ Registry and the Universal Digital Format Registry.
 The UK National Archives developed the Digital Record Object
 Identification (DROID) tool, an "automatic file format identification
 tool." This tool is written in Java and can be downloaded from
-SourgeForge.
+GitHub.
 
 See:
 
@@ -36,7 +36,7 @@ See:
 - [JHOVE](https://jhove.openpreservation.org/)
 - [GDFR](https://www.gdfr.info/)
 - [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
-- [DROID download](https://sourceforge.net/projects/droid/)
+- [DROID download](https://github.com/digital-preservation/droid)
 
 ## TrID - File Identifier
 
@@ -46,6 +46,23 @@ See:
   group of files
 - Win32, Linux/x86 & x86-64; closed source; free for non-commercial use
 - <https://mark0.net/soft-trid-e.html>
+
+## Detect-it-Easy
+
+- ECMAScript (JS) format definitions
+- Reliably detects many weak/zero-magic formats by content only
+- YARA rules supported
+- Looks inside many compression formats
+- Extensive support of executable formats
+- Disassembly that supports dozens of silicones
+- File visualizer
+- String finder
+- Entropy analysis
+- File extractor
+- Has a Telegram bot to send files to, and is one of the VirusTotal tools for executables
+- The engine is a separate project that can be easily reused 
+- Windows x32/64; Linux x32/64; Mac x64 GUI and CLI; C++ and JS open source
+- <https://github.com/horsicq/Detect-It-Easy>
 
 ## Forensic Innovations File Investigator TOOLS
 
@@ -97,7 +114,7 @@ publicly available data sets:
 # Bibliography
 
 Current research papers on the file format identification problem. Most
-of these papers concern themselves with identifying file format of a few
+of these papers concern themselves with identifying the file format of a few
 file sectors, rather than an entire file. **Please note that this
 bibliography is in chronological order!**
 
