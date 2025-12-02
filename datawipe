@@ -1,0 +1,28 @@
+BitWipe is a **certified, professional-grade data destruction utility** designed for permanent, secure data erasure across both **Windows and macOS** environments. It is engineered to meet the stringent security and compliance requirements that render consumer-grade tools and outdated utilities like DBAN obsolete. BitWipe ensures that deleted sensitive data is **100% unrecoverable**, providing an essential layer of protection before device disposal, reassignment, or sale.
+
+# Core Feature Set
+
+BitWipe is the comprehensive solution for all data sanitization needs, specializing in modern hardware:
+
+* **Certified Modern Media Wiping:** Provides guaranteed secure erasure on all drive types, including **HDDs, SSDs, NVMe, and Flash Storage**, addressing a critical failure point of older software.
+* **Audit-Ready Compliance:** Every successful process generates a **tamper-proof Digital Certificate of Destruction**, an **ISO 27701:2019 compliant** document essential for corporate and legal accountability.
+* **Military-Grade Standards:** Supports **19 international erasure algorithms** for maximal security, including **Peter Gutmann (35 Passes)**, **US DoD 5220.22-M**, and the **NATO Standard**.
+* **Granular Destruction:** Offers flexible wiping options beyond full-disk erasure:
+    * Wipe specific **Files and Folders**.
+    * Sanitize **Logical Partitions**.
+    * Securely clean **Hidden Sectors** and unallocated **Free Disk Space**.
+* **User Experience:** Features an intuitive **Graphical User Interface (GUI)** for easy operation on all supported platforms.
+
+## Technical Specifications & Requirements
+
+## Minimum System Requirements
+
+* **Processor:** Intel Pentium 1 GHz (2.4 GHz recommended)
+* **RAM:** Minimum 2 GB
+* **Hard Disk Space:** 50 MB of free space
+* **File Size:** 6.29 MB (Version 6.5)
+
+### Operating System Compatibility
+
+* **Windows OS:** Windows 7, 8, 10, 11 (32-bit and 64-bit), and Windows Server 2008 up to 2022.
+* **Mac OS:** Compatible with all editions from OS X 10.8 (Mountain Lion) up to macOS 12.0 (Monterey).
