@@ -46,7 +46,7 @@ _Note: Outputs do not include spaces between values and pipes; we have inserted 
 
 ---
 
-## Known Issues
+## Observed behavior and known issues
 
 Known shortcomings with body file format are:
 
@@ -74,27 +74,82 @@ Known shortcomings with body file format are:
     * If hashing is disabled, the value will be `0`.
     * If hashing is enabled, but no MD5 was calculated, the value will be `00000000000000000000000000000000`. See [here](https://github.com/sleuthkit/sleuthkit/issues/2058).
 
+### FAT-12, FAT-16 and FAT-32
+
+Output of `fls` includes:
+* regular files and directories
+* volume label directory entries
+* Virtual metadata file `$MBR`, which represents the FAT Boot Record
+* Virtual metadata file `$FAT#`, which represents the File Allocation Table, where `#` is the number of the table e.g. 1 or 2
+* Virtual metadata file `$OrphanFiles`
+
+Note that FAT-12, FAT-16 and FAT-32 have no root directory entry.
+
+The MD5 calculation of `fls` includes:
+* Contents of regular files
+* Contents of the directory entries data stream
+* Contents of volume label directory entries, with " (Volume Label Entry)" appended to the name
+* Contents of "Virtual metadata files/directories" like `$MBR`
+
+Noteworthy observed behavior:
+* the root directory and virtual metadata files have a mode_as_string value of `----------`
+* the inode for regular file entries can be calculated as following: `(((offset of directory entry / sector size) - data area start sector) * (sector size / directory entry size)) + 3 + ((offset of directory entry % sector size) / directory entry size)`, where 3 is a hardcoded "first normalized inode number"
+
 ### NTFS
 
-* Duplicate entries for the same NTFS ADS. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/2644).
+Output of `fls` includes:
+* regular files and directories
+* symbolic links and junctions
+* $FILE_NAME attributes, with " ($FILE_NAME)" appended to the name
+* Alternate Data Streams (ADS) like `$BadClus:$Bad`
+* Named indexes like `$Secure:$SII`
+* file system metadata files like `$MFT` and `$Bitmap`
+* Virtual metadata file `$OrphanFiles`
+
+Note that the root directory entry is not included.
+
+The MD5 calculation of `fls` includes:
+* Contents of regular files
+* Contents of file system metadata files. Note that `$BadClus:$Bad` is treated as it would be 0 bytes in size
+* Contents of the directory entries data stream
+* Contents of symbolic links data stream, not its target
+
+Noteworthy observed behavior:
+* Multiple entries for the same NTFS ADS. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/2644).
 
 ### HFS+ and HFSX
 
+Output of `fls` includes:
+* regular files and directories
+* symbolic links, with " -> " followed by the symbolic link target appended to the name
+* Virtual metadata file `$CatalogFile`
+
+The MD5 calculation of `fls` includes:
+* Contents of regular files
+* Contents of the directory entries data stream
+* Contents of symbolic links data stream, not its target
+* Virtual metadata files like `$CatalogFile`
+
+Noteworthy observed behavior:
 * On HFS+ and HFSX the `/` character in a file name will be replaced by `:`, which
   corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c).
 * For hard links on HFS+ the Catalog Node Identifier (CNID) of the link target (indirect node) file record is used instead as the `inode` value instead of the CNID of the (hard link) file record itself. This matches the behavior of Mac OS (file) stat as described [here](https://developer.apple.com/library/archive/technotes/tn/tn1150.html), in the section "Hard Links".
-* For HFS+ the MD5 calculation of `fls` includes:
-    * Regular files
-    * symbolic links (content of the data stream of the symbolic link not its target)
-    * "Virtual metadata files" like `$CatalogFile`
 
 ### ext2, ext3 and ext4
 
-* For ext2, ext3 and ext4 the MD5 calculation of `fls` includes:
-    * Regular files
-    * Directories (contents of the directory entries data stream)
-    * Symbolic links (content of the data stream of the symbolic link not its target)
-    * "Virtual metadata files/directories" like `$OrphanFiles`
+Output of `fls` includes:
+* regular files and directories
+* symbolic links, with " -> " followed by the symbolic link target appended to the name
+* Virtual metadata file `$OrphanFiles`
+
+Note that the root directory entry is not included.
+
+The MD5 calculation of `fls` includes:
+* Contents of regular files
+* Contents of the directory entries data stream
+* Contents of named pipes, character devices but not block devices
+* Contents of symbolic links data stream, not its target
+* Virtual metadata files like `$OrphanFiles`
 
 ## Output Format
 
