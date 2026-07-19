@@ -94,6 +94,7 @@ The MD5 calculation of `fls` includes:
 Noteworthy observed behavior:
 * the root directory and virtual metadata files have a mode_as_string value of `----------`
 * the inode for regular file entries can be calculated as following: `(((offset of directory entry / sector size) - data area start sector) * (sector size / directory entry size)) + 3 + ((offset of directory entry % sector size) / directory entry size)`, where 3 is a hardcoded "first normalized inode number"
+* the size of a directory appears to be the data stream size, which differs from other implementations such as Linux stat
 
 ### NTFS
 
@@ -134,6 +135,7 @@ Noteworthy observed behavior:
 * On HFS+ and HFSX the `/` character in a file name will be replaced by `:`, which
   corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c).
 * For hard links on HFS+ the Catalog Node Identifier (CNID) of the link target (indirect node) file record is used instead as the `inode` value instead of the CNID of the (hard link) file record itself. This matches the behavior of Mac OS (file) stat as described [here](https://developer.apple.com/library/archive/technotes/tn/tn1150.html), in the section "Hard Links".
+* the size of a directory appears to be 0, which differs from other implementations such as Mac OS stat
 
 ### ext2, ext3 and ext4
 
@@ -150,6 +152,9 @@ The MD5 calculation of `fls` includes:
 * Contents of named pipes, character devices but not block devices
 * Contents of symbolic links data stream, not its target
 * Virtual metadata files like `$OrphanFiles`
+
+Noteworthy observed behavior:
+* the size of a directory appears to be comparable with Linux stat and debugfs, which is the size of directory metadata
 
 ## Output Format
 
