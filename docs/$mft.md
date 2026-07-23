@@ -38,9 +38,8 @@ and MFT mirror files are recorded in the boot sector.
 The master file table allocates a certain amount of space for each file
 record. The attributes of a file are written to the allocated space in
 the MFT. Small files and directories (typically 512 bytes or smaller),
-can entirely be contained within the master file table record.
-
-![Alt text](assets/images/mftentries.png)
+can entirely be contained (or stored inlined) within the master file
+table record.
 
 #### MFT Record for a Small File or Directory
 
