@@ -8,13 +8,48 @@ tags:
 The Digital Forensics XML schemas are somewhat in flux, in that new elements
 will be added as necessary. However, the basic structure is unlikely to change.
 
-* [fileobject schema](fileobject.md)
+* fileobject schema
 * filehashset schema
 
 ### Encoding
 
 Encoding is assumed to be base10, except for hash codes, which are assumed to
 be base16.
+
+### File object (fileobject)
+
+The file object (**fileobject**) is used to describe information about a file.
+
+The file object can contain information about:
+
+* The file's name
+* The file's hash code(s)
+* The file's location on the disk.
+* Embedded metadata
+* Block hashes, a Bloom Filter, or a Similarity Digest for the file.
+
+Other objects can be embedded in a **fileobject** object:
+
+* The **byte_runs** object specifies where the file is located on the disk.
+* A **sector_hash** object is a list of sector hash codes.
+* The sector_hash object could contain a **nsrl_bloom** object, which would be
+  a bloom filter that contains all of the sector hashes.
+
+| XML Tag | Meaning |
+| --- | --- |
+| `<fileobject>` | Every file is inside a `<fileobject>` |
+| `<orphan>YES</orphan>` | YES means that the file is an "orphan," without a name. |
+| `<filesize>3210</filesize>` | The size of the file content in bytes. |
+| `<unalloc>1</unalloc>` | A "1" means that the file was not allocated in the file system. This may mean that the file was deleted. |
+| `<used>1</used>` | Not sure what this means. |
+| `<mtime>1114172320</mtime>` | The file's modification time, as a POSIX (time_t) timestamp (number of seconds since January 1, 1970 UTC). |
+| `<ctime>1195819392</ctime>` | The file's inode's creation time, as a POSIX (time_t) timestamp. |
+| `<atime>1195794000</atime>` | The file's access time, as a unix timestamp. |
+| `<byte_runs>121130496:3210</byte_runs>` | The file's fragments. Each fragment is represented as the byte offset from the beginning of the disk image (the first byte is byte #0) and a number of bytes. |
+| `<fragments>1</fragments>` | The number of fragments in the file. |
+| `<hashdigest type='md5'>c27c0730b858bc60c8894300a98bba55</hashdigest>` | The file's MD5, as a hexadecimal hash. |
+| `<hashdigest type='sha1'>0277680d624e609f23aec9e4265c2d7d24bd3824</hashdigest>` | The file's SHA1, as a hexadecimal hash. |
+| `<partition>1</partition>` | The partition number in which the file was found. |
 
 ## Examples
 
