@@ -2,6 +2,7 @@
 tags:
   - No Category
 ---
+
 - Start Terminal (in the Utilities folder).
 - Type:
 
