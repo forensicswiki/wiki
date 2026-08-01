@@ -1,12 +1,12 @@
 ---
 tags:
-  -  File Formats
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  Timeline Analysis
-  -  Text
-  -  Articles that need to be expanded
+  - File Formats
+  - Linux
+  - Windows
+  - MacOS
+  - Timeline Analysis
+  - Text
+  - Articles that need to be expanded
 ---
 
 # Body File
@@ -77,6 +77,7 @@ Known shortcomings with body file format are:
 ### FAT-12, FAT-16 and FAT-32
 
 Output of `fls` includes:
+
 * regular files and directories
 * volume label directory entries
 * Virtual metadata file `$MBR`, which represents the FAT Boot Record
@@ -86,18 +87,22 @@ Output of `fls` includes:
 Note that FAT-12, FAT-16 and FAT-32 have no root directory entry.
 
 The MD5 calculation of `fls` includes:
+
 * Contents of regular files
 * Contents of the directory entries data stream
 * Contents of volume label directory entries, with " (Volume Label Entry)" appended to the name
 * Contents of "Virtual metadata files/directories" like `$MBR`
 
 Noteworthy observed behavior:
+
 * the root directory and virtual metadata files have a mode_as_string value of `----------`
 * the inode for regular file entries can be calculated as following: `(((offset of directory entry / sector size) - data area start sector) * (sector size / directory entry size)) + 3 + ((offset of directory entry % sector size) / directory entry size)`, where 3 is a hardcoded "first normalized inode number"
+* the size of a directory appears to be the data stream size, which differs from other implementations such as Linux stat
 
 ### NTFS
 
 Output of `fls` includes:
+
 * regular files and directories
 * symbolic links and junctions
 * $FILE_NAME attributes, with " ($FILE_NAME)" appended to the name
@@ -109,35 +114,42 @@ Output of `fls` includes:
 Note that the root directory entry is not included.
 
 The MD5 calculation of `fls` includes:
+
 * Contents of regular files
 * Contents of file system metadata files. Note that `$BadClus:$Bad` is treated as it would be 0 bytes in size
 * Contents of the directory entries data stream
 * Contents of symbolic links data stream, not its target
 
 Noteworthy observed behavior:
+
 * Multiple entries for the same NTFS ADS. Also see [here](https://github.com/sleuthkit/sleuthkit/issues/2644).
 
 ### HFS+ and HFSX
 
 Output of `fls` includes:
+
 * regular files and directories
 * symbolic links, with " -> " followed by the symbolic link target appended to the name
 * Virtual metadata file `$CatalogFile`
 
 The MD5 calculation of `fls` includes:
+
 * Contents of regular files
 * Contents of the directory entries data stream
 * Contents of symbolic links data stream, not its target
 * Virtual metadata files like `$CatalogFile`
 
 Noteworthy observed behavior:
+
 * On HFS+ and HFSX the `/` character in a file name will be replaced by `:`, which
   corresponds with the behavior of Mac OS Terminal. Also see [here](https://github.com/sleuthkit/sleuthkit/blob/3d16b8bc293ba13a5674fe9ce6a35f867ccc945d/tsk/fs/hfs_dent.c).
 * For hard links on HFS+ the Catalog Node Identifier (CNID) of the link target (indirect node) file record is used instead as the `inode` value instead of the CNID of the (hard link) file record itself. This matches the behavior of Mac OS (file) stat as described [here](https://developer.apple.com/library/archive/technotes/tn/tn1150.html), in the section "Hard Links".
+* the size of a directory appears to be 0, which differs from other implementations such as Mac OS stat
 
 ### ext2, ext3 and ext4
 
 Output of `fls` includes:
+
 * regular files and directories
 * symbolic links, with " -> " followed by the symbolic link target appended to the name
 * Virtual metadata file `$OrphanFiles`
@@ -145,11 +157,16 @@ Output of `fls` includes:
 Note that the root directory entry is not included.
 
 The MD5 calculation of `fls` includes:
+
 * Contents of regular files
 * Contents of the directory entries data stream
 * Contents of named pipes, character devices but not block devices
 * Contents of symbolic links data stream, not its target
 * Virtual metadata files like `$OrphanFiles`
+
+Noteworthy observed behavior:
+
+* the size of a directory appears to be comparable with Linux stat and debugfs, which is the size of directory metadata
 
 ## Output Format
 
