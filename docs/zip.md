@@ -60,134 +60,28 @@ tags:
 The central directory (archived) file header is variable of size and
 consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>4</p></td>
-<td><p>"PK\x01\x02"</p></td>
-<td><p>Signature</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>4</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Creator version</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>6</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Extractor version</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>8</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Flags</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>10</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Last modification time</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>12</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Last modification date</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>14</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Checksum (CRC-32)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>18</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Uncompressed data size</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>22</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Compressed data size</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>26</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>File name size</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>28</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Extra field size</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>30</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>File comment size</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>32</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Segment file (disk) number</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>34</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>internal file attributes</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>36</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>external file attributes</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>40</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>local header offset<br />
-The offset of the local header relative to the start of the segment file
-it is stored in.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>44</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>File name</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Extra field</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>File comment</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | "PK\x01\x02" | Signature |
+| 4 | 2 | | Creator version |
+| 6 | 2 | | Extractor version |
+| 8 | 2 | | Flags |
+| 10 | 2 | | Compression method |
+| 12 | 2 | | Last modification time |
+| 14 | 2 | | Last modification date |
+| 16 | 4 | | Checksum (CRC-32) |
+| 20 | 4 | | Compressed data size |
+| 24 | 4 | | Uncompressed data size |
+| 28 | 2 | | File name size |
+| 30 | 2 | | Extra field size |
+| 32 | 2 | | File comment size |
+| 34 | 2 | | Segment file (disk) number |
+| 36 | 2 | | Internal file attributes |
+| 38 | 4 | | External file attributes |
+| 42 | 4 | | Local header offset, which is relative to the start of the segment file it is stored in |
+| 46 | ... | | File name |
+| ... | ... | | Extra field |
+| ... | ... | | File comment |
 
 #### Creator version
 
