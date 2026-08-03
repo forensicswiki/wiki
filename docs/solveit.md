@@ -40,6 +40,7 @@ individual investigations.
   from the Proceedings of the [DFRWS EU 2025 Conference](digital_forensic_research_workshop.md)
 
 ## External Links
+
 - [SOLVE-IT GitHub repositories](https://github.com/SOLVE-IT-DF?tab=repositories)
 
 ## See Also
