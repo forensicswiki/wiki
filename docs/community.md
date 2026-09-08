@@ -94,12 +94,14 @@ After you write your article, you can place tags at the top of the page using th
 ```text
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Disk Analysis
-  -  Commercial Software
+  - Tools
+  - Windows
+  - Disk Analysis
+  - Commercial Software
 ---
 ```
+
+> Note that tags are formatted in [YAML](https://www.mkdocs.org/user-guide/writing-your-docs/#yaml-style-meta-data)
 
 ### Tag Guidelines
 
