@@ -143,3 +143,5 @@ file. The long-familiar licensed cross platform utilities are:
 ### Tools
 
 * [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)
+* [encrypteddmg](https://github.com/nlitsme/encrypteddmg)
+* [libmodi](https://github.com/libyal/libmodi)
