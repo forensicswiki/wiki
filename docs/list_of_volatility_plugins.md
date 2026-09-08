@@ -1,6 +1,6 @@
 ---
-  - Articles that need to be expanded
 tags:
+  - Articles that need to be expanded
   - Research
   - Websites
 ---

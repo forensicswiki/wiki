@@ -10,6 +10,7 @@ alt="pysim.jpg" />
 
 pySIM (also called SimReader) is a relatively simple open source program
 that accomplishes the following tasks:
+
 - Downloads phonebook entries from a SIM Card
 - Downloads SMS messages from a SIM Card
 - Imports .txt files from other acquisitions

@@ -1,12 +1,11 @@
 ---
 tags:
-  -  Windows
-  -  Tools
-  -  Disk Imaging
-  -  Write Blocker
-  -  Data Recovery
-  -  Commercial Software
-
+  - Windows
+  - Tools
+  - Disk Imaging
+  - Write Blocker
+  - Data Recovery
+  - Commercial Software
 ---
 CARBON is a virtualized forensic analysis tool for the Windows operating
 system, developed by SUMURI.

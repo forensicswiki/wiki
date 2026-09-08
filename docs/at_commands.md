@@ -2,6 +2,7 @@
 tags:
   - No Category
 ---
+
 - AT and AT+ commands can be used to manually collect simple
   information. This is an ideal choice for "full control" over the
   communications that are sent and returned from the phone. These can

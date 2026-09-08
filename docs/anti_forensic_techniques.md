@@ -1,7 +1,6 @@
 ---
 tags:
-  -  Anti-Forensics
-
+  - Anti-Forensics
 ---
 **Anti-forensic techniques** try to frustrate forensic investigators and their
 [techniques](techniques.md).
