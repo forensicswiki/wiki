@@ -1,0 +1,35 @@
+{
+    "mode": {
+        "strict-config": true
+    },
+    "plugins": {
+        "line-length": {
+            "enabled": false
+        },
+        "no-duplicate-heading": {
+            "enabled": true,
+            "siblings_only": true
+        },
+        "no-inline-html": {
+            "enabled": false
+        },
+        "ol-prefix": {
+            "style": "ordered"
+        },
+        "hr-style": {
+            "style": "---"
+        },
+        "fenced-code-language": {
+            "enabled": true
+        },
+        "ul-style": {
+            "enabled": true,
+            "style": "asterisk"
+        }
+    },
+    "extensions": {
+        "front-matter": {
+            "enabled": true
+        }
+    }
+}
