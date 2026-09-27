@@ -6,7 +6,7 @@ tags:
 ---
 **GELI** - [FreeBSD](freebsd.md) Cryptographic GEOM class written by Pawel
 Jakub Dawidek. Supports various ciphers: [AES](aes.md), [Blowfish](blowfish.md)
-and [3DES](3des.md). Supports hidden volumes and Pre-Boot Authentification.
+and [3DES](3des.md). Supports hidden volumes and Pre-Boot Authentication.
 
 ## External Links
 

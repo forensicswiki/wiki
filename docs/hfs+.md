@@ -348,7 +348,7 @@ HFS+ stores U+2400 as U+0
 
 ## External Links
 
-* [Insided Macintosh: Files - Data Organization on Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
+* [Inside Macintosh: Files - Data Organization on Volumes](https://developer.apple.com/library/archive/documentation/mac/Files/Files-99.html),
   by Apple 1996
 * Internet Archive Copy of: [Technical Note TN1121](http://web.archive.org/web/20090530120010/http://developer.apple.com/technotes/tn/tn1121.html)
 * Internet Archive Copy of: [Technical Note TN1150: HFS plus volume format](http://web.archive.org/web/20220208191804/https://developer.apple.com/documentation/technotes)

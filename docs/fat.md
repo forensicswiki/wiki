@@ -65,7 +65,7 @@ Note that ECMA 107 does not define the boot record signature 0x55, 0xaa
 
 ### FATs
 
-The primary task of the File Alocation Tables are to keep track of the
+The primary task of the File Allocation Tables are to keep track of the
 allocation status of clusters, or logical groupings of sectors, on the
 disk drive. There are four different possible FAT entries: allocated
 (along with the address of the next cluster associated with the file),

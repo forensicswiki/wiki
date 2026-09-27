@@ -26,7 +26,7 @@ connections.
 
 [Enterasys Dragon](https://www.extremenetworks.com/)
 
-Instrusion Detection System, includes session reconstruction.
+Intrusion Detection System, includes session reconstruction.
 
 [MNIS Collector](https://www.mantaro.com)
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
@@ -67,7 +67,7 @@ on the network rather than to collect data regarding the traffic on the
 network. The main view is host centric (information grouped per host)
 rather than packet centric (information showed as a list of
 packets/frames). NetworkMiner has, since the first release in 2007,
-become popular tool among incident responce teams as well as law
+become popular tool among incident response teams as well as law
 enforcement. NetworkMiner is today used by companies and organizations
 all over the world.
 

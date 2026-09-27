@@ -39,5 +39,5 @@ Can it build timelines and search by creation date?
 
 ## License Notes
 
-SMART is a commercial product with seperate pricing for law enforcement
+SMART is a commercial product with separate pricing for law enforcement
 and commercial users.

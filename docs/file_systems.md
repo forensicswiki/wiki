@@ -110,7 +110,7 @@ University, USENIX 2003 Annual Technical Conference.
 [ZFS](zfs.md)
 
 See also [Full Disk Encryption](full_disk_encryption.md), which
-are disk- or applicance-based cryptographic file systems.
+are disk- or appliance-based cryptographic file systems.
 
 # CD and DVD File Systems
 

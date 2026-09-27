@@ -30,32 +30,48 @@ A LUKS encrypted volume starts with the "LUKS\xba\xbe" signature.
 
 A hexdump of the start of the volume should look similar to:
 
-    00000000  4c 55 4b 53 ba be 00 01  61 65 73 00 00 00 00 00  |LUKS....aes.....|
-    00000010  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
-    00000020  00 00 00 00 00 00 00 00  63 62 63 2d 65 73 73 69  |........cbc-essi|
-    00000030  76 3a 73 68 61 32 35 36  00 00 00 00 00 00 00 00  |v:sha256........|
-    00000040  00 00 00 00 00 00 00 00  72 69 70 65 6d 64 31 36  |........ripemd16|
-    00000050  30 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |0...............|
+<!-- typos:disable -->
+
+```text
+00000000  4c 55 4b 53 ba be 00 01  61 65 73 00 00 00 00 00  |LUKS....aes.....|
+00000010  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000020  00 00 00 00 00 00 00 00  63 62 63 2d 65 73 73 69  |........cbc-essi|
+00000030  76 3a 73 68 61 32 35 36  00 00 00 00 00 00 00 00  |v:sha256........|
+00000040  00 00 00 00 00 00 00 00  72 69 70 65 6d 64 31 36  |........ripemd16|
+00000050  30 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |0...............|
+```
+
+<!-- typos:enable -->
 
 The encryption method in the example is:
 
-    aes
+```text
+aes
+```
 
 The encryption mode is in the format:
 
-    chaining_mode[-initialization_vector_mode[:initialization_vector_options]]
+```text
+chaining_mode[-initialization_vector_mode[:initialization_vector_options]]
+```
 
 Which in the example is:
 
-    cbc-essiv:sha256
+```text
+cbc-essiv:sha256
+```
 
 And the password hashing method in the example is:
 
-    ripemd160
+```text
+ripemd160
+```
 
 ## How to decrypt
 
-`sudo cryptsetup luksOpen `<device>` `<name>
+```bash
+sudo cryptsetup luksOpen <device> <name>
+```
 
 Provide the passphrase when prompted. The <name> will be created as a
 device mapper entry (i.e. /dev/mapper/thename) and this device will
@@ -63,7 +79,9 @@ expose the filesystem.
 
 ## Dump the header information of a LUKS device
 
-`sudo cryptsetup luksDump `<device>
+```bash
+sudo cryptsetup luksDump <device>
+```
 
 See the cryptsetup(8) man page for other operations.
 

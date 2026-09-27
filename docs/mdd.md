@@ -17,7 +17,7 @@ The current version of mdd (mdd_1.3.exe) runs on Window XP to SP3 and
 Vista to SP 2, and may run on other versions.
 
 The driver uses the [Physical Memory Object Memory Imaging
-Mehod](memory_imaging.md) and returns a file handle to a
+Method](memory_imaging.md) and returns a file handle to a
 user-mode program via an IOCTL on the device file named:
 
     \\.\memdd

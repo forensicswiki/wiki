@@ -15,7 +15,7 @@ tags:
 The Message id consists of five parts:
 
 1.  The current time as returned by the `time` function followed by a
-    period. The value is dislayed in decimal and is the number of
+    period. The value is displayed in decimal and is the number of
     seconds since midnight on 1 Jan 1970. In the example above,
     1185616355 refers to Sat, 28 Jul 2007 09:52:35 GMT.
 2.  The process id number in decimal followed by a period

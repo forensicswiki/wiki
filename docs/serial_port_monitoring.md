@@ -35,5 +35,5 @@ investigation.
 COM devices.
 
 * [AGGSoftware](https://www.aggsoft.com/)
-* [HHD USB/Serial Port Monitoing Software](https://www.hhdsoftware.com/)
+* [HHD USB/Serial Port Monitoring Software](https://www.hhdsoftware.com/)
 * [Serial Port Monitoring tool](https://www.com-port-monitoring.com/)

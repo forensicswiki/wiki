@@ -123,7 +123,7 @@ Extraction tool, part of **[Hachoir](hachoir.md)** project
 The UNIX **file** program can extract some metadata
 
 [GNU libextractor](https://www.gnunet.org/en/)
-The libextractor library is a plugable system for extracting metadata
+The libextractor library is a pluggable system for extracting metadata
 
 [Directory Lister Pro](https://www.krksoft.com/)
 Directory Lister Pro is a Windows tool which creates listings of files

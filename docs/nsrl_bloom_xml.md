@@ -16,12 +16,15 @@ base64 coding and can optionally be compressed with zlib.
 This bloom filter holds the SHA1 codes of the ASCII numbers "0" through
 "999":
 
-    <nsrl_bloom version='2'>
-      <hash_bits>160</hash_bits>
-      <M>16</M>
-      <k>4</k>
-      <comment>A test of bloom filter in memory</comment>
-      <data encoding='base64' compression='zlib'>eNrtWTtSZrkOto3oMn0
+<!-- typos:disable -->
+
+```xml
+<nsrl_bloom version='2'>
+    <hash_bits>160</hash_bits>
+    <M>16</M>
+    <k>4</k>
+    <comment>A test of bloom filter in memory</comment>
+    <data encoding='base64' compression='zlib'>eNrtWTtSZrkOto3oMn0
     J1BQBoaE6IGQJpqtvFcEELIGalRhqAibrJfRSWNq19bBl+zA3nOR3dQPn+CXL0qd
     POs6d2qmd2qmd2qmd2qmd2qmd2qmd2qmd2r/YyvgT6z/v+e9voXYVV58yD0p2Eny
     tr1/bX6E9pUwvnXuuL4q8peZd5D/6m9hWBHoVli7q9LyS6fE6QV4W+RGawDLimn4
@@ -68,4 +71,7 @@ This bloom filter holds the SHA1 codes of the ASCII numbers "0" through
     p7o5T62ajL6ZkUPo3vJJ6Dd1mFzbJuDSbFrUVnHDA91lJA2K0Hy9QOVUZS5GIV/m
     4pIA4l884Mw0oxZAclgJUqdf+TmPSL3MZiVCnHJoyTp+N4oJk+/eKyVLR6MfCSvk
     M+739ig1go1M1sZh6aWxuZ8Ouvqv3IJvM4g1pCPhFClyFlySFfP0fXurtlQ==</data>
-    </nsrl_bloom>
+</nsrl_bloom>
+```
+
+<!-- typos:enable -->

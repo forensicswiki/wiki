@@ -111,7 +111,7 @@ license subscription that may vary from individual client for home use
 to delegates of client for corporate purpose. The prestigious clients
 include Accenture, Almac, Avelon, Arkia, AMC Solution and many others.
 The company facilitates an affiliate program where it provides wide
-range of data recovery and repair softwares. This programme offers a
+range of data recovery and repair software. This programme offers a
 center-stage where an individual can increase income and receive
 commission for each sale of these products.
 

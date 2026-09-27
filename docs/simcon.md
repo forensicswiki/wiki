@@ -27,7 +27,7 @@ SIMCon is now Paraben's SIM Card Seizure
 
 ## Data Acquisition
 
-SIMCon is also capable of aquiring the following data from a SIM Card:
+SIMCon is also capable of acquiring the following data from a SIM Card:
 
 - Abbreviated Dialing Numbers (ADN),
 - Last Dialed Numbers (LDN)
@@ -52,7 +52,7 @@ SIMCon is also capable of aquiring the following data from a SIM Card:
 - Local Area Identitity (LAI)
 - Own Dialing Number
 - Temporary Mobile Subscriber Identity (TMSI)
-- Routing Area Identifier (RIA) netowrk code
+- Routing Area Identifier (RIA) network code
 - Service Dialing Numbers (SDNs)
 - Service Provider Name
 - Depersonalizatoin Keys

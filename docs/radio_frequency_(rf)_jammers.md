@@ -45,7 +45,7 @@ frequency and can interrupt AMPS,
 [CDMA](cdma.md), [TDMA](tdma.md), [GSM](gsm.md),
 PCS, DCS, [iDEN](iden.md)
 and Nextel systems. The effective range of a jammer is dependent upon
-the strength of its power source and the immediate pysical environment
+the strength of its power source and the immediate physical environment
 (hills or walls which may block the jamming signal). Lower powered
 jammers have a call-block range of about 30 feet while higher power
 units can create a cellular signal-free zone about the size of a

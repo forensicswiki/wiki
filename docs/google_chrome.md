@@ -336,7 +336,7 @@ On Windows Vista and later
 
 Chrome, presumably as of version 29
 [4](https://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/extensions/activity_log/activity_database.cc?view=log),
-stores exension activity in a file named **Extension Activity**. This
+stores extension activity in a file named **Extension Activity**. This
 file uses the [SQLite database
 format](sqlite_database_format.md).
 

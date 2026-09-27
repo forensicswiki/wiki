@@ -54,7 +54,7 @@ In order to make the Forensics Wiki valuable, please use the following
 guidelines to help write high-quality articles:
 
 1. _Introduction:_  All articles should have an Introduction, which summarizes what you intend to discuss in the article.
-2. _Sections:_  Appropiate sections are used to describe the topic being discussed.  
+2. _Sections:_  Appropriate sections are used to describe the topic being discussed.  
 
     For example, if you are writing an article about a tool, you might have the following headings:
 

@@ -48,7 +48,7 @@ On NTFS file system:
   flushed to the
   disk.[2](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times)
 
-Tampering of filetimes can usually be detected by an absence of
+Tampering of file times can usually be detected by an absence of
 sub-second resolution on any of the
 timestamps.[3](https://www.meridiandiscovery.com/articles/date-forgery-analysis-timestamp-resolution/)
 

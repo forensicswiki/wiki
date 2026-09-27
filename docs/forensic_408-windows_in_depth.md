@@ -16,8 +16,8 @@ each student will have complete qualifications to work as a computer
 forensic investigator helping to solve and fight crime. In addition to
 in-depth technical knowledge of Windows Digital Forensics (Windows XP
 through Windows 8 and Server 2012), you will learn about well-known
-computer forensic tools such as Access Datas Forensic Toolkit (FTK),
-Guidance Softwares EnCase, Registry Analyzer, FTK Imager, Prefetch
+computer forensic tools such as Access Data's Forensic Toolkit (FTK),
+Guidance Software EnCase, Registry Analyzer, FTK Imager, Prefetch
 Analyzer, and much more. Many of the tools covered in the course are
 freeware, comprising a full-featured forensic laboratory that students
 can take with them.

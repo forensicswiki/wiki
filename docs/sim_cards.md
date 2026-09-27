@@ -170,7 +170,7 @@ as:
 * **Local Area Identitity (LAI)**
 * **Own Dialing Number**
 * **Temporary Mobile Subscriber Identity (TMSI)**
-* **Routing Area Identifier (RIA) netowrk code**
+* **Routing Area Identifier (RIA) network code**
 * **Service Dialing Numbers (SDNs)**
 * **Service Provider Name**
 * **Depersonalizatoin Keys**
@@ -197,7 +197,7 @@ in charge of generating the session keys CK and IK to be used in the
 confidentiality and integrity algorithms of the KASUMI block cipher in
 Universal Mobile Telecommunications System (UMTS).
 
-In Mobile Financial Services, USIM seems to be a mandetory Security
+In Mobile Financial Services, USIM seems to be a mandatory Security
 Element for user authentication, authorization and stored credentials.
 With the integration of NFC Handset and USIM, users will be able to make
 proximity payments where the NFS handset enables contactless payment and

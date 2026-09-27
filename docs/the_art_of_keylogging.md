@@ -34,7 +34,7 @@ massive amounts of identity theft and corporate leakage of data.
 * Security auditors
 
 Our trainers take you inside the minds of today’s criminals and students
-completeing the class will be able to execute a full investigation in
+completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
 

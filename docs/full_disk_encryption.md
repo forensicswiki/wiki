@@ -70,7 +70,7 @@ GEOM Based Disk Encryption. Provides transparent full
 disk and swap encryption for [FreeBSD](freebsd.md). Supported
 ciphers: [AES](aes.md) (128 bit).
 
-Supports hidden volumes and Pre-Boot Authentification.
+Supports hidden volumes and Pre-Boot Authentication.
 
 Since data loss can occur on unexpected shutdowns, GELI is recommended
 instead of GBDE.
@@ -81,7 +81,7 @@ disk encryption for [FreeBSD](freebsd.md). Supports various
 ciphers: [AES](aes.md),
 [Blowfish](blowfish.md) and [3DES](3des.md).
 
-Supports hidden volumes and Pre-Boot Authentification.
+Supports hidden volumes and Pre-Boot Authentication.
 
 [FileVault Disk Encryption](filevault_disk_encryption.md)
 

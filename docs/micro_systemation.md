@@ -7,7 +7,7 @@ who specialize in producing a mobile forensics product called XRY.
 
 The company which was founded in 1984 has a long history of involvement
 in mobile communications and their first product SoftGSM was designed to
-help early mobile phones uers connect to their computers to back up
+help early mobile phones users connect to their computers to back up
 important information.
 
 In 2002 work with the Swedish Police led to the identification of a need

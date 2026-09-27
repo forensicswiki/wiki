@@ -37,7 +37,7 @@ tags:
 
     /var/log/mysqld.log or /var/log/mysql.log or /var/log/mysql/: All debug, failure and success messages related to the [mysqld] and [mysqld_safe] daemon are logged to this file.
 
-    /var/log/apt/: Contains information related to Advance package tool (apt). Loggin information are stored in history.log and term.log
+    /var/log/apt/: Contains information related to Advance package tool (apt). Logging information are stored in history.log and term.log
 
     /var/log/lastlog: Contains information about the successful logins to the host
 

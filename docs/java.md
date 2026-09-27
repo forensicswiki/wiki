@@ -9,32 +9,46 @@ following locations.
 
 On Linux for user accounts:
 
-    /home/$USER/.java/deployment/cache/
+```text
+/home/$USER/.java/deployment/cache/
+```
 
 On MacOS-X for user accounts:
 
-    /Users/$USER/Library/Caches/Java/cache/
+```text
+/Users/$USER/Library/Caches/Java/cache/
+```
 
 On Windows XP for user accounts:
 
-    C:\Documents and Settings\%USERNAME%\Application Data\Sun\Java\Deployment\cache\
+```text
+C:\Documents and Settings\%USERNAME%\Application Data\Sun\Java\Deployment\cache\
+```
 
 On Windows Vista and later for user accounts:
 
-    C:\Users\%USERNAME%\AppData\LocalLow\Sun\Java\Deployment\cache\
+```text
+C:\Users\%USERNAME%\AppData\LocalLow\Sun\Java\Deployment\cache\
+```
 
 On Windows Vista and later for system accounts:
 
-    C:\Windows\System32\config\systemprofile\AppData\LocalLow\Sun\Java\Deployment\cache\
+```text
+C:\Windows\System32\config\systemprofile\AppData\LocalLow\Sun\Java\Deployment\cache\
+```
 
 On Windows Vista and later for system accounts using SysWOW64:
 
-    C:\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Sun\Java\Deployment\cache\
+```text
+C:\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Sun\Java\Deployment\cache\
+```
 
 Note: there also can be an additional SystemCache directory e.g. on
 Windows Vista and later for user accounts:
 
-    C:\Users\%USERNAME%\AppData\LocalLow\Sun\Java\Deployment\SystemCache\
+```text
+C:\Users\%USERNAME%\AppData\LocalLow\Sun\Java\Deployment\SystemCache\
+```
 
 Note that if JAR files are cached it does not imply that they have been
 executed. The behavior seen with Microsoft Internet Explorer in
@@ -51,14 +65,16 @@ researched.
 
 Values are in big-endian.
 
-    00000000  01 00 00 00 02 5b 00 00  00 00 1d c7 b4 00 00 01  |.....[..........|
-    00000010  1f 81 29 fe b8 00 00 00  00 00 00 00 00 00 00 01  |..).............|
-    00000020  2b 24 4a cb dd 01 00 00  00 00 00 00 00 00 00 00  |+$J.............|
-    00000030  00 00 00 00 00 00 00 00  01 2b 24 4a a4 cd 00 00  |.........+$J....|
-    00000040  01 2e 45 83 f4 18 00 00  00 00 00 00 00 00 00 01  |..E.............|
-    00000050  01 00 00 00 00 00 00 00  00 00 00 00 01 2b 24 4a  |.............+$J|
-    00000060  a4 cd 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
-    00000070  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+```text
+00000000  01 00 00 00 02 5b 00 00  00 00 1d c7 b4 00 00 01  |.....[..........|
+00000010  1f 81 29 fe b8 00 00 00  00 00 00 00 00 00 00 01  |..).............|
+00000020  2b 24 4a cb dd 01 00 00  00 00 00 00 00 00 00 00  |+$J.............|
+00000030  00 00 00 00 00 00 00 00  01 2b 24 4a a4 cd 00 00  |.........+$J....|
+00000040  01 2e 45 83 f4 18 00 00  00 00 00 00 00 00 00 01  |..E.............|
+00000050  01 00 00 00 00 00 00 00  00 00 00 00 01 2b 24 4a  |.............+$J|
+00000060  a4 cd 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000070  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+```
 
 The header (or section 1) is 128 bytes in size and contains:
 
@@ -101,13 +117,17 @@ for more current information.
 
 To convert a timestamp in e.g. Python
 
-    print datetime.datetime(1970, 1, 1) + datetime.timedelta(milliseconds=0x011f8129feb8)
-    2009-02-16 22:17:07
+```python
+print(datetime.datetime(1970, 1, 1) + datetime.timedelta(milliseconds=0x011f8129feb8))
+2009-02-16 22:17:07
+```
 
-    00000080  00 00 00 39 68 74 74 70  3a 2f 2f 77 77 77 2e 74  |...9http://www.t|
-    00000090  6f 70 63 6f 64 65 72 2e  63 6f 6d 2f 63 6f 6e 74  |opcoder.com/cont|
-    000000a0  65 73 74 2f 63 6c 61 73  73 65 73 2f 43 6f 6e 74  |est/classes/Cont|
-    000000b0  65 73 74 41 70 70 6c 65  74 2e 6a 61 72           |estApplet.jar   |
+```text
+00000080  00 00 00 39 68 74 74 70  3a 2f 2f 77 77 77 2e 74  |...9http://www.t|
+00000090  6f 70 63 6f 64 65 72 2e  63 6f 6d 2f 63 6f 6e 74  |opcoder.com/cont|
+000000a0  65 73 74 2f 63 6c 61 73  73 65 73 2f 43 6f 6e 74  |est/classes/Cont|
+000000b0  65 73 74 41 70 70 6c 65  74 2e 6a 61 72           |estApplet.jar   |
+```
 
 | Offset | Size | Value | Description                                                     |
 |:-------|------|-------|-----------------------------------------------------------------|
@@ -115,8 +135,10 @@ To convert a timestamp in e.g. Python
 | 130    | 2    | 00 39 | Original URL string size                                        |
 | 132    | size |       | Original URL string (UTF-8 without an end-of-string character?) |
 
-    000000b0                                          00 00 00  |             ...|
-    000000c0  0c 36 36 2e 33 37 2e 32  31 30 2e 38 36 00 00 00  |.66.37.210.86   |
+```text
+000000b0                                          00 00 00  |             ...|
+000000c0  0c 36 36 2e 33 37 2e 32  31 30 2e 38 36 00 00 00  |.66.37.210.86   |
+```
 
 | Offset | Size | Value | Description                                           |
 |:-------|------|-------|-------------------------------------------------------|
@@ -124,24 +146,30 @@ To convert a timestamp in e.g. Python
 | ...    | 2    | 00 0c | IP string size                                        |
 | ...    | size |       | IP string (UTF-8 without an end-of-string character?) |
 
-    000000c0                                          00 00 00  |             ...|
-    000000d0  07 00 06 3c 6e 75 6c 6c  3e 00 0f 48 54 54 50 2f  |...<null>..HTTP/|
-    000000e0  31 2e 31 20 32 30 30 20  4f 4b 00 0e 63 6f 6e 74  |1.1 200 OK..cont|
-    000000f0  65 6e 74 2d 6c 65 6e 67  74 68 00 07 31 39 35 31  |ent-length..1951|
-    00000100  36 36 38 00 0d 6c 61 73  74 2d 6d 6f 64 69 66 69  |668..last-modifi|
-    00000110  65 64 00 1d 4d 6f 6e 2c  20 31 36 20 46 65 62 20  |ed..Mon, 16 Feb |
-    00000120  32 30 30 39 20 32 32 3a  31 37 3a 30 37 20 47 4d  |2009 22:17:07 GM|
-    00000130  54 00 0c 63 6f 6e 74 65  6e 74 2d 74 79 70 65 00  |T..content-type.|
-    00000140  18 61 70 70 6c 69 63 61  74 69 6f 6e 2f 6a 61 76  |.application/jav|
-    00000150  61 2d 61 72 63 68 69 76  65 00 04 64 61 74 65 00  |a-archive..date.|
-    00000160  1d 53 61 74 2c 20 31 38  20 53 65 70 20 32 30 31  |.Sat, 18 Sep 201|
-    00000170  30 20 31 30 3a 30 31 3a  30 36 20 47 4d 54 00 06  |0 10:01:06 GMT..|
-    00000180  73 65 72 76 65 72 00 06  41 70 61 63 68 65 00 1b  |server..Apache..|
-    00000190  64 65 70 6c 6f 79 2d 72  65 71 75 65 73 74 2d 63  |deploy-request-c|
-    000001a0  6f 6e 74 65 6e 74 2d 74  79 70 65 00 1a 61 70 70  |ontent-type..app|
-    000001b0  6c 69 63 61 74 69 6f 6e  2f 78 2d 6a 61 76 61 2d  |lication/x-java-|
-    000001c0  61 72 63 68 69 76 65 1f  8b 08 00 00 00 00 00 00  |archive.........|
-    ...
+<!-- typos:disable -->
+
+```text
+000000c0                                          00 00 00  |             ...|
+000000d0  07 00 06 3c 6e 75 6c 6c  3e 00 0f 48 54 54 50 2f  |...<null>..HTTP/|
+000000e0  31 2e 31 20 32 30 30 20  4f 4b 00 0e 63 6f 6e 74  |1.1 200 OK..cont|
+000000f0  65 6e 74 2d 6c 65 6e 67  74 68 00 07 31 39 35 31  |ent-length..1951|
+00000100  36 36 38 00 0d 6c 61 73  74 2d 6d 6f 64 69 66 69  |668..last-modifi|
+00000110  65 64 00 1d 4d 6f 6e 2c  20 31 36 20 46 65 62 20  |ed..Mon, 16 Feb |
+00000120  32 30 30 39 20 32 32 3a  31 37 3a 30 37 20 47 4d  |2009 22:17:07 GM|
+00000130  54 00 0c 63 6f 6e 74 65  6e 74 2d 74 79 70 65 00  |T..content-type.|
+00000140  18 61 70 70 6c 69 63 61  74 69 6f 6e 2f 6a 61 76  |.application/jav|
+00000150  61 2d 61 72 63 68 69 76  65 00 04 64 61 74 65 00  |a-archive..date.|
+00000160  1d 53 61 74 2c 20 31 38  20 53 65 70 20 32 30 31  |.Sat, 18 Sep 201|
+00000170  30 20 31 30 3a 30 31 3a  30 36 20 47 4d 54 00 06  |0 10:01:06 GMT..|
+00000180  73 65 72 76 65 72 00 06  41 70 61 63 68 65 00 1b  |server..Apache..|
+00000190  64 65 70 6c 6f 79 2d 72  65 71 75 65 73 74 2d 63  |deploy-request-c|
+000001a0  6f 6e 74 65 6e 74 2d 74  79 70 65 00 1a 61 70 70  |ontent-type..app|
+000001b0  6c 69 63 61 74 69 6f 6e  2f 78 2d 6a 61 76 61 2d  |lication/x-java-|
+000001c0  61 72 63 68 69 76 65 1f  8b 08 00 00 00 00 00 00  |archive.........|
+...
+```
+
+<!-- typos:enable -->
 
 | Offset | Size | Value | Description                  |
 |:-------|------|-------|------------------------------|
@@ -162,7 +190,7 @@ For the example above the size of the URL string can be found at offset
 prefaced with their lengths (or sizes) as 16-bit big-endian values. E.g.
 to retrieve the original URL string, read the WORD at offset 0x82, and
 translate it as a big-endian value (e.g. using Perl,
-<i>unpack("n",\$data)</i>). Beginning at offset 0x84, the string is 57
+*unpack("n",\$data)*). Beginning at offset 0x84, the string is 57
 (0x39) bytes long. At the end of that string, the next WORD is the
 length of the third string, also in big-endian format.
 

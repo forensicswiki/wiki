@@ -21,4 +21,4 @@ tags:
 Home folder of each user is located under '/home/<username>/' and for
 root home folder is '/root/'.
 
-    Artifacts: .bash_hisotry, App specific configuration files and ssh configurations
+    Artifacts: .bash_history, App specific configuration files and ssh configurations

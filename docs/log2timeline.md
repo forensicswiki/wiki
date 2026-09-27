@@ -64,7 +64,7 @@ The currently supported input modules (as of version 0.51 nightly build
 * **ff_bookmark** - Parse the content of a Firefox bookmark file
 * **firefox2** - Parse the content of a Firefox 2 browser history
 * **firefox3** - Parse the content of a Firefox 3 history file
-* **iehistory** - Parse the content of an index.dat file containg IE
+* **iehistory** - Parse the content of an index.dat file containing IE
   history
 * **iis** - Parse the content of a IIS W3C log file
 * **isatxt** - Parse the content of a ISA text export log file
@@ -97,7 +97,7 @@ The currently supported output modules (as of version 0.51 nightly build
 
 * **beedocs** - Output timeline using tab-delimited file to import into
   BeeDocs
-* **cef** - Output timeline using the ArcSight Commen Event Format (CEF)
+* **cef** - Output timeline using the ArcSight Common Event Format (CEF)
 * **cftl** - Output timeline in a XML format that can be read by CFTL
 * **csv** - Output timeline using CSV (Comma Separated Value) file
 * **mactime** - Output timeline using mactime format

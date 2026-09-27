@@ -2,8 +2,8 @@
 tags:
   - No Category
 ---
-Tools libraries and frameworks built by or for goverment agencies often,
-although essentialy being "open source", can not be freely shared and
+Tools libraries and frameworks built by or for government agencies often,
+although essentially being "open source", can not be freely shared and
 redistributed.
 
 In the most strict cases an [NDA](nda.md) is used, but in some

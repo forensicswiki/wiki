@@ -54,16 +54,11 @@ victims can be easier if they stand out from the crowd.
   by Eric M. Hutchins, Michael J. Clopperty, Rohan M. Amin, March 2011
 * Stalking the kill chain,
   by RSA
-* [APT Kill chain - Part 1 : Definition](https://www.cyber.airbus.com/cassidian-cybersecurity-blog-apt-kill-chain-part-1-definition/),
-  by Cedric Pernet, April 28, 2014
-* [APT Kill chain - Part 2 : Global view](https://www.cyber.airbus.com/de/apt-kill-chain-part-2-global-view/),
-  by Cedric Pernet, May 7, 2014
-* [APT Kill chain - Part 3: Reconnaissance](https://www.cyber.airbus.com/apt-kill-chain-part-3-reconnaissance/),
-  by Cedric Pernet, May 23, 2014
-* [APT Kill chain - Part 4 : Initial compromise](https://www.cyber.airbus.com/apt-kill-chain-part-4-initial-compromise/),
-  by Cedric Pernet, June 20, 2014
-* [APT Kill chain - Part 5 : Access Strenghtening and lateral movements](https://www.cyber.airbus.com/apt-kill-chain-part-5-access-strenghtening-lateral-movements/),
-  by Cedric Pernet, December 2, 2014
+* APT Kill chain - Part 1 : Definition, by Cedric Pernet, April 28, 2014
+* APT Kill chain - Part 2 : Global view, by Cedric Pernet, May 7, 2014
+* APT Kill chain - Part 3: Reconnaissance, by Cedric Pernet, May 23, 2014
+* APT Kill chain - Part 4 : Initial compromise, by Cedric Pernet, June 20, 2014
+* APT Kill chain - Part 5 : Access Strengthening and lateral movements, by Cedric Pernet, December 2, 2014
 
 ### Incident Lifecycle
 

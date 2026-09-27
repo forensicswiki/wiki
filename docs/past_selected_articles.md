@@ -40,7 +40,7 @@ folder-names and timestamps.
 
 `author = {Hurley, Ryan and Prusty, Swagatika and Soroush, Hamed and Walls, Robert J. and Albrecht, Jeannie and Cecchet, Emmanuel and Levine, Brian Neil and Liberatore, Marc and Lynn, Brian and Wolak, Janis},`
 `title = {Measurement and Analysis of Child Pornography Trafficking on P2P Networks},`
-`booktitle = {Proceedings of the 22Nd International Conference on World Wide Web},`
+`booktitle = {Proceedings of the 22nd International Conference on World Wide Web},`
 `series = {WWW '13},`
 `year = {2013},`
 `isbn = {978-1-4503-2035-1},`
@@ -239,7 +239,7 @@ show that once we identify and characterize the networks traversed, we
 can create detailed fin- gerprints for a call source. Using these
 fingerprints we show that we are able to distinguish between calls made
 using specific PSTN, cellular, Vonage, Skype and other hard and soft
-phones from loca- tions across the world with over 90% accuracy. In so
+phones from locations across the world with over 90% accuracy. In so
 doing, we provide a first step in accurately determining the provenance
 of a call.
 

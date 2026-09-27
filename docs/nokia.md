@@ -13,7 +13,7 @@ share was about 40% in Q2 of 2008, up from 38% in Q2 2007 and up from
 39% sequentially. Nokia produces mobile phones for every major market
 segment and protocol, including GSM, CDMA, and W-CDMA (UMTS). Nokia's
 subsidiary Nokia Siemens Networks produces telecommunications network
-equipments, solutions and services.
+equipment, solutions and services.
 
 ## External links
 

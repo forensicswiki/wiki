@@ -5,7 +5,7 @@ tags:
 A Portable Media Player (PMP) is a small device capable of playing audio
 and video files of different formats. Storage is either an internal hard
 drive, removable flash storage cards, or both. Most PMP's also have the
-ability to record audio or video, making them a convienent repository
+ability to record audio or video, making them a convenient repository
 for media information.
 
 ## Included Devices

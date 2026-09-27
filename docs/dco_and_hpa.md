@@ -84,4 +84,4 @@ above)
 * [Removing host protected areas (HPA) in Linux](https://www.sleuthkit.org/informer/sleuthkit-informer-20.txt),
   Brian Carrier, Sleuth Kit Informer \#20
 * [Wikipedia: Device Configuration Overlay](https://en.wikipedia.org/wiki/Device_configuration_overlay)
-* [Wikipedia: Host Proteced Area](https://en.wikipedia.org/wiki/Host_protected_area)
+* [Wikipedia: Host Protected Area](https://en.wikipedia.org/wiki/Host_protected_area)

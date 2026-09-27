@@ -6,7 +6,7 @@ tags:
 software. Their products include:
 
 - [Adroit Photo Forensics](adroit_photo_forensics.md), an
-  advanced data carving and analyis tool for photos, capable of
+  advanced data carving and analysis tool for photos, capable of
   recovering fragmented photos as well.
 - Adroit Photo Recovery,
   a consumer oriented photo recovery tool capable of recovering

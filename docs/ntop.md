@@ -22,7 +22,7 @@ status [1](https://www.ntop.org/products/traffic-analysis/ntop/).
 - Show network traffic sorted according to various criteria
 - Display traffic statistics
 - Store on disk persistent traffic statistics in RRD format
-- Identify the indentity (e.g. email address) of computer users
+- Identify the identity (e.g. email address) of computer users
 - Passively (i.e. without sending probe packets) identify the host OS
 - Show IP traffic distribution among the various protocols
 - Analyse IP traffic and sort it according to the source/destination
@@ -84,7 +84,7 @@ status [1](https://www.ntop.org/products/traffic-analysis/ntop/).
 - Local Traffic Analysis
 - Multithread and MP (MultiProcessor) support on both Unix and Win32
 - Python lightweight API for extending ntop via scripts
-- Support of both NetFlow andsFlowas flow collector. ntop can collect
+- Support of both NetFlow and sFlow flow collector. ntop can collect
   simultaneously from multiple probes.
 - Traffic statistics are saved into RRDdatabases for long-run traffic
   analysis.

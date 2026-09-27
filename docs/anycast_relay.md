@@ -16,5 +16,5 @@ to **any** worker registered as instance of the named module. The
 AnyCast-relay uses a limited set of static message priorities to sort
 the jobs that age given to the workers.
 
-In modern terminology the AnyCast-relay should probably be clasified as
+In modern terminology the AnyCast-relay should probably be classified as
 a message bus.

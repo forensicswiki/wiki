@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-RFID stands for Radio Frequency IDentification. It typically applies to
+RFID stands for Radio-Frequency Identification. It typically applies to
 a technology that uses radio waves to automatically identify people or
 objects. While there are various ways to identify, the most common is to
 store a serial number that represents a person or object identity and
@@ -46,7 +46,7 @@ Once the phone and account has been identified by the RFID tag, the
 user's MasterCard account will be billed automatically by the network
 for the appropriate amount. MasterCard also sees potential for the
 phones as contactless readers, which it claims opens the door for "a
-variety of marketing a 1000 nd promotional applications", on which the
+variety of marketing a 1000 and promotional applications", on which the
 company did not elaborate further.
 
 The PayPass trials will be run by the end of the 2006 at various

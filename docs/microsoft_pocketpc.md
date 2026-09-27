@@ -26,7 +26,7 @@ in one of several .NET languages, such as C# and VB.NET. Pocket PCs run
 a simplified version of the framework called the .NET Compact Framework.
 
 In order to maintain synchronization and connectivity with desktop
-computers, Microsft developed the ActiveSync program. The user merely
+computers, Microsoft developed the ActiveSync program. The user merely
 has to connect the Pocket PC to the desktop computer in order to
 synchronize items such as appointments, contact lists, and even
 multimedia files.
@@ -54,7 +54,7 @@ of the Pocket PC operating system was simply named Pocket PC.
 
 ### Pocket PC 2000
 
-Pocket PC 2000, based on Micrsoft's Windows CE 3.0 platform, was a first
+Pocket PC 2000, based on Microsoft's Windows CE 3.0 platform, was a first
 step towards the familiar appearance and functionality that is offered
 by Windows Mobile 5.0. Devices running Pocket PC 2000 ranged from the
 Askey PC010, which had a 16-color grayscale screen with no expansion

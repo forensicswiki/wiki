@@ -38,7 +38,7 @@ to set Netcat up to listen on your forensic workstation using the
 following command (see [here](netcat.md) for a refresher on
 using Netcat for digital forensic investigations (note that here we use
 the extension ".pcap" instead of ".txt" because we are creating a binary
-PCAP file, rather than just text ouptut)):
+PCAP file, rather than just text output)):
 
 ` `***`nc -v -l -p 2222 > `<command>`.pcap`***
 

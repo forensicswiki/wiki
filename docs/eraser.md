@@ -9,7 +9,7 @@ tags:
 Eraser is a Windows tool that allows you to securely remove files from
 your computers hard drive and securely wipe free space so as to remove
 the [residual data](residual_data.md) of previously deleted
-files by overwriting with specially selected wiping paterns.
+files by overwriting with specially selected wiping patterns.
 
 Eraser currently works with Windows 95, 98, ME, NT, 2000, XP, Windows
 2003 Server and DOS and supports FAT and NTFS formatted IDE/SATA/SCSI

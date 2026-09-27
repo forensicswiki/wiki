@@ -51,10 +51,10 @@ against sleuthkit-3.0.1.
     make install
 
 Currently the Sluethkit patch does not work with autodetection - hence
-it must be specified explicitely using `-i aff4`.
+it must be specified explicitly using `-i aff4`.
 
 AFF4 is a bit different since it refers not only to a volume, but to a
-stream within the volume. The convension is to specify the stream as the
+stream within the volume. The convention is to specify the stream as the
 last parameter after the volumes. So for example, to open the stream
 created in the example above:
 
@@ -315,7 +315,7 @@ Its possible now to fuse mount everything.
 In practice, most large practitioners will need to manage and archive
 vast quantity of evidence. Its generally impossible to keep all the
 evidence you will ever need on the drive of your analysis system, and
-even if you get a vary large SAN its challanging to keep everything
+even if you get a vary large SAN its challenging to keep everything
 handy.
 
 By allowing evidence to be managed by HTTP its possible to distribute

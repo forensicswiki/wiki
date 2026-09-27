@@ -8,5 +8,5 @@ California since 1994
 
 ACME is a provider of mobile computer systems for various application
 and fields. Our range includes forensic solutions, systems for the
-manufacturing industries, test and measurment, systems for aerospace and
+manufacturing industries, test and measurement, systems for aerospace and
 medical devices.

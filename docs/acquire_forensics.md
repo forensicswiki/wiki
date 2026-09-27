@@ -41,7 +41,7 @@ to find any forged to the database file.
 
 ------------------------------------------------------------------------
 
-5\) Recover Data from Associated Jornal Database File.
+5\) Recover Data from Associated Journal Database File.
 
 ------------------------------------------------------------------------
 

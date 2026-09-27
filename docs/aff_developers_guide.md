@@ -452,7 +452,7 @@ bits of data or less, you can easily store the value in the arg
 parameter. In this case, set data to NULL and datalen to zero.
 
 Programmers do not need to call af_enable_writing before using this
-fucntion. af_update_seg returns zero on success and -1 on error. When an
+function. af_update_seg returns zero on success and -1 on error. When an
 error occurs the value errno is set to indicate the problem. Possible
 values for errno include: ENOTSUP The operation is not supported by the
 filesystem. This happens when the programmer attempts to set segments in

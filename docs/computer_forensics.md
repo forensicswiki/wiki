@@ -114,4 +114,4 @@ original meaning of the data for production in a court of law.
 * Validation and verification of computer forensic software tools - Searching Function
   by Yinghua Guo, Jill Slay, Jason Beckett, DFRWS 2009
 * [Sources of error in digital forensics](https://www.sciencedirect.com/science/article/pii/S2666281724000027),
-  by Graeme Horsman, Feburary 2024
+  by Graeme Horsman, February 2024

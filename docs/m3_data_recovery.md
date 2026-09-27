@@ -9,7 +9,7 @@ recovery solution and system utilities providers.
 ## Data Recovery
 
 - M3 Data Recovery for Windows - Recover deleted files, recover data
-  from foramtted, inaccessible, RAW, deleted or lost partition, etc.
+  from formatted, inaccessible, RAW, deleted or lost partition, etc.
   under Windows XP/Vista/7/8 and Windows Server 2003/2008/2012.
 
 <!-- -->

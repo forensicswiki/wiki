@@ -19,7 +19,7 @@ for forensic investigation).
 ## History
 
 Second Look began at Pikewerks Corporation. The original R&D was
-sponsored by the US Air Force Reseach Lab (AFRL). During a Phase I STTR
+sponsored by the US Air Force Research Lab (AFRL). During a Phase I STTR
 contract in 2007, Pikewerks founder Sandy Ring implemented Linux kernel
 integrity checks and cross-view analysis in a framework she called
 "Scouts". Under a subsequent Phase II STTR contract that ran from 2008

@@ -108,7 +108,7 @@ DriveLetter is the drive letter that the drive image is mounted on.
 
 Where <some directory> is the path that you'd like the mount the Shadow
 Volume at, and the \# in HarddiskVolumeShadowCopy is the number o the
-Shadow Volume to mount. Please note that the trailing slash is absoutely
+Shadow Volume to mount. Please note that the trailing slash is absolutely
 necessary. Without the slash you will receive a permissions error when
 trying to access the directory.
 

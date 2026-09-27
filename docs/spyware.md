@@ -9,6 +9,6 @@ who installed the spyware to their mobile device or email. Spyware by itself is
 legal to use. However, it is illegal to install spyware onto a person's device
 without their consent.
 
-## External linkes
+## External links
 
 * [Wikipedia: Spyware](https://en.wikipedia.org/wiki/Spyware)

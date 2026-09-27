@@ -69,7 +69,7 @@ order.
   purchased 70 used hard drives from 14 firms and discovered confidential
   information on 2/3rds of the drives.
 
-- **2007-08-30**: Bill Ries-Kinght, an IT consultant, purchases a 120GB
+- **2007-08-30**: Bill Ries-Knight, an IT consultant, purchases a 120GB
   Seagate hard drive on eBay for \$69. Although the drive was advertised
   as being new, it apparently was previously used by the campaign of
   Mike Beebe, who won the Arkansas state governorship in November 2006.
@@ -116,7 +116,7 @@ order.
   September 21, 2009 Sanitization and Disposal of Excess Information
   Technology Equipment](https://nsi.org/ReferenceLibrary/756.pdf).
 
-- **2010-12-08**: NSAS decomissions 14 computers with hard drives that
+- **2010-12-08**: NSAS decommissions 14 computers with hard drives that
   "failed tests to verify data had been destroyed.''' The drives turn up
   in a dumpster with sensitive information regarding the Space Shuttle.
   [Reported By Dan Goodin in San Francisco, The Register, 8th December

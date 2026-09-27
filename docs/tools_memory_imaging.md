@@ -99,7 +99,7 @@ systems.
 OSForensics can acquire live memory on 32-bit and 64-bit systems. A dump
 of an individual process's memory space or physical memory dump can be
 done. Output can be a straight dump or a Microsoft crash dump file, for
-use with Micrsoft's WinDbg debugger.
+use with Microsoft's WinDbg debugger.
 
 [WinPmem](rekall.md)
 WinPmem is a free, actively developed, opensource forensic memory

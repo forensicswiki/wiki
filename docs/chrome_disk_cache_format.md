@@ -659,67 +659,69 @@ Note that the last modification time of the gzip file is set to 0.
 The hash algorithm used is referred to as SuperFastHash. A pseudo C
 implementation:
 
-    uint32_t SuperFastHash(
-              const uint8_t *key,
-              size_t key_size )
+```C
+uint32_t SuperFastHash(
+          const uint8_t *key,
+          size_t key_size )
+{
+    size_t key_index    = 0;
+    size_t remainder    = 0;
+    uint32_t hash_value = 0;
+    uint32_t temp_value = 0;
+
+    if( ( key == NULL ) || ( key_size == 0 ) )
     {
-        size_t key_index    = 0;
-        size_t remainder    = 0;
-        uint32_t hash_value = 0;
-        uint32_t temp_value = 0;
-
-        if( ( key == NULL ) || ( key_siz 0 ) )
-        {
-           return( 0 );
-        }
-        remainder = key_size % 4;
-        key_size -= remainder;
-
-        for( key_index = 0;
-             key_index < key_size;
-             key_index += 4 )
-        {
-            hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
-            temp_value  = key[ key_index + 2 ] + ( key[ key_index + 3 ] << 8 );
-
-            temp_value = ( temp_value << 11 ) ^ hash_value;
-
-            hash_value  = ( hash_value << 16 ) ^ temp_value;
-            hash_value += hash_value >> 11;
-        }
-
-        switch( remainder )
-        {
-            case 3:
-                hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
-                hash_value ^= hash_value<< 16;
-                hash_value ^= key[ key_index + 2 ] << 18;
-                hash_value += hash_value >> 11;
-                break;
-
-            case 2:
-                hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
-                hash_value ^= hash_value << 11;
-                hash_value += hash_value >> 17;
-                break;
-
-            case 1:
-                hash_value += key[ key_index ];
-                hash_value ^= hash_value << 10;
-                hash_value += hash_value >> 1;
-                break;
-        }
-
-        /* Force "avalanching" of final 127 bits */
-        hash_value ^= hash_value << 3;
-        hash_value += hash_value >> 5;
-        hash_value ^= hash_value << 4;
-        hash_value += hash_value >> 17;
-        hash_value ^= hash_value << 25;
-        hash_value += hash_value >> 6;
-
-        return hash_value;
+       return( 0 );
     }
+    remainder = key_size % 4;
+    key_size -= remainder;
+
+    for( key_index = 0;
+         key_index < key_size;
+         key_index += 4 )
+    {
+        hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
+        temp_value  = key[ key_index + 2 ] + ( key[ key_index + 3 ] << 8 );
+
+        temp_value = ( temp_value << 11 ) ^ hash_value;
+
+        hash_value  = ( hash_value << 16 ) ^ temp_value;
+        hash_value += hash_value >> 11;
+    }
+
+    switch( remainder )
+    {
+        case 3:
+            hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
+            hash_value ^= hash_value<< 16;
+            hash_value ^= key[ key_index + 2 ] << 18;
+            hash_value += hash_value >> 11;
+            break;
+
+        case 2:
+            hash_value += key[ key_index ] + ( key[ key_index + 1 ] << 8 );
+            hash_value ^= hash_value << 11;
+            hash_value += hash_value >> 17;
+            break;
+
+        case 1:
+            hash_value += key[ key_index ];
+            hash_value ^= hash_value << 10;
+            hash_value += hash_value >> 1;
+            break;
+    }
+
+    /* Force "avalanching" of final 127 bits */
+    hash_value ^= hash_value << 3;
+    hash_value += hash_value >> 5;
+    hash_value ^= hash_value << 4;
+    hash_value += hash_value >> 17;
+    hash_value ^= hash_value << 25;
+    hash_value += hash_value >> 6;
+
+    return hash_value;
+}
+```
 
 ## See Also
 
@@ -731,4 +733,4 @@ implementation:
 - [Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
   The Chromium Projects
 - [Chrome Cache file format](https://github.com/libyal/dtformats/blob/main/documentation/Chrome%20Cache%20file%20format.asciidoc),
-  orignally by the [Plaso project](plaso.md) transitioned to the dtFormats project, April 2014
+  originally by the [Plaso project](plaso.md) transitioned to the dtFormats project, April 2014

@@ -221,7 +221,7 @@ Proceedings of the 6th IAPR International Conference on Biometrics
 
 Frank Breitinger, Georgios Stivaktakis, Harald Baier: FRASH: A framework
 to test algorithms of similarity hashing, In Proceedings of the 13th
-Digital Forensics Research Conference (DFRWS’13), Monterey (Californien,
+Digital Forensics Research Conference (DFRWS’13), Monterey (California,
 US). August 2013. To appear.
 
 Books that mention SSDEEP: Harlan Carvey, Windows Forensic Analysis,
@@ -260,7 +260,7 @@ Hash Function and their Realization in sdhash. 2012 Information Security
 South Africa (ISSA 2012), Johannesburg (South Africa). August 2012.
 
 Vassil Roussev, “Managing terabyte-scale investigations with similarity
-digests,” IFIP Advances in Informaiton and Communication Technology 383,
+digests,” IFIP Advances in Information and Communication Technology 383,
 AICT, pp. 19-34
 
 Clay Shields, O. Frieder, M. Maloof, “A system for the proactive,

@@ -16,7 +16,7 @@ formats, including raw, [sgzip](sgzip.md),
 
 # Features
 
-## Suppoprted File Systems
+## Supported File Systems
 
 PyFlag uses the [The Sleuth Kit](the_sleuth_kit.md) for file system
 support.

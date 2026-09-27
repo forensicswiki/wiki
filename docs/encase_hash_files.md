@@ -32,7 +32,7 @@ A header that consists of the following 16 bytes:
 **Offset 0x0010**
 
 Count: The number of MD5 sums contained in this file, written as a 4
-byte integer in Intel litle endian format (i.e. least significant byte
+byte integer in Intel little-endian format (i.e. least significant byte
 first).
 
 **Offset 0x0014**

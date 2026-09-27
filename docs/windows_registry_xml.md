@@ -18,7 +18,7 @@ Windows Registry:
 
 - [registryasxml](registryasxml.md) is a Windows GUI program
   that exports and imports section of the Windows Registry as
-  XML-foramtted files.
+  XML-formatted files.
 - [RegXML](regxml.md) is also a Windows command-line utility
   that exports sections of the Windows Registry as XML-formatted files.
 - [hivexml](hivexml.md) is a command-line utility that is part

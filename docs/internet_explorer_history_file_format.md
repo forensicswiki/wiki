@@ -67,10 +67,10 @@ For example, the folder containing data from March 26, 2008 to March 27,
 
 ## File Header
 
-The MSIE 4 History (Cache) file starts with the following ACSII string:
+The MSIE 4 History (Cache) file starts with the following ASCII string:
 "Client UrlCache MMF Ver 4.7"
 
-The MSIE 5 - 9 History (Cache) file starts with the following ACSII
+The MSIE 5 - 9 History (Cache) file starts with the following ASCII
 string: "Client UrlCache MMF Ver 5.2"
 
 This string (or signature) is followed (at byte offset 28) by a four
@@ -161,7 +161,7 @@ fields depends on the type of history file in which the record is
 contained. As a matter of fact, Internet Explorer uses three different
 types of history files, namely Daily History, Weekly History, and Main
 History. Other "index.dat" files are used to store cached copies of
-visited pages and cookies. The information concerning how to intepret
+visited pages and cookies. The information concerning how to interpret
 the dates of these different files can be found on Capt. Steve Bunting's
 web page at the University of Delaware Computer Forensics Lab
 (http://www.stevebunting.org/udpd4n6/forensics/index_dat2.htm). Please

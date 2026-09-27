@@ -62,7 +62,7 @@ overview of the milestones in the history of Symbian.
 
 - In 1980, Psion Software was founded by David Potter.
 - 1990-1998 Psion releases devices using the EPOC16 OS, also known as
-  SIBO. These devices are catagorized as Series 3.
+  SIBO. These devices are categorized as Series 3.
 - 1997 EPOC OS Releases 1–3. The Series 5 device becomes available, its
   was the first movement towards 32-bit Symbian.
 - In 1998, Symbian Ltd. Created.

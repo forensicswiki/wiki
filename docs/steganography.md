@@ -4,7 +4,7 @@ tags:
 ---
 **Steganography** is a science that pertains to the art of concealing
 data in a communication in such a way that only the sender and receiver
-know of its existance and method of access. The platform used for
+know of its existence and method of access. The platform used for
 transmission can be anything from a paper document to a digital file.
 Additionally, it is more common than not to
 encrypt the hidden data whenever possible such as
@@ -26,7 +26,7 @@ encoded packages is called **[steganalysis](steganalysis.md)**.
 <!-- -->
 
 - [Hide In Picture](https://sourceforge.net/projects/hide-in-picture/)
-  is an open source stegnographic tool.
+  is an open source steganographic tool.
 
 <!-- -->
 

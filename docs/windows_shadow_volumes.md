@@ -156,7 +156,7 @@ information.
   by Jimmy Weg, July 2012
 * Examining the Shadow Volumes with X-Ways Forensics,
   by Jimmy Weg, July 2012
-* Weg, I’m afraid that I don’t have VMware. How do I Examime Shadow Volumes?,
+* Weg, I’m afraid that I don’t have VMware. How do I Examine Shadow Volumes?,
   by Jimmy Weg, August 2012
 * Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013

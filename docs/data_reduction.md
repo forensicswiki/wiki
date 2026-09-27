@@ -12,7 +12,7 @@ on the truly meaningful pieces.
 
 ## Hash Analysis
 
-A [hash](hash.md) is a mathmatical transform that reduces an
+A [hash](hash.md) is a mathematical transform that reduces an
 input of arbitrary size to a fixed value. It has the property that any
 two inputs that have the same hash are almost certainly the same. In
 this vein, an investigator can compute hashes of known good and known

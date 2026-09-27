@@ -53,7 +53,7 @@ place results for reminders.
 
 • *Reminders*
 
-This table contains actual text inputed by the user, as well as
+This table contains actual text inputted by the user, as well as
 Creation, Access, and Completion times.
 
 • *Triggers*

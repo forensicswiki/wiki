@@ -5,7 +5,7 @@ tags:
 ---
 ## Quarantine directory
 
-The Quarentine directory can be found in the following locations:
+The Quarantine directory can be found in the following locations:
 
 On Windows XP:
 

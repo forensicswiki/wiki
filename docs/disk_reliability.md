@@ -8,7 +8,7 @@ computer forensics for several reasons:
 - Disk failures frequently make it difficult to recover data from a
   subject computer.
 - Because forensic practitioners use very large datasets, issues of disk
-  drive reliability can have direct bearing on forensic readyness.
+  drive reliability can have direct bearing on forensic readiness.
 
 ## Bibliography
 

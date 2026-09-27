@@ -46,7 +46,7 @@ want to discuss the usefulness of a feature.
 - Reduces the amount of data that needs to be written; improved the
   overall imaging speed.
   - hash-based imaging
-  - detection of easy (emtpy-block) and hard (encrypted block) to
+  - detection of easy (empty-block) and hard (encrypted block) to
     compress data
   - multi-threaded compression
   - sparse ranges

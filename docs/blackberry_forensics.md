@@ -115,7 +115,7 @@ entered. If all data is correct click Next and then Finish.
 Acquisition.
 
 4. You are prompted for the supported manufacturer. Select RIM
-Blackbery (Physical).
+Blackberry (Physical).
 
 5. Leave supported models at the default selection of autodetect.
 

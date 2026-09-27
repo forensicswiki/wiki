@@ -10,7 +10,7 @@ A disk image should be made prior to performing any forensic analysis of
 the disk. Creating a disk image is important in forensics for several
 reasons:
 
-1\. Ensure that disk information is not inadvertantly changed during
+1\. Ensure that disk information is not inadvertently changed during
 analysis.
 
 2\. By performing an original disk image and storing the original disk,

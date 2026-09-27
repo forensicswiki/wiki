@@ -56,7 +56,7 @@ solutions such as drive health checking, data clean or data destruction;
 
 3. 'Universal' means the wide use among different fields like data
 recovery field, IT after sale field, Education and training field,
-Government and miliary field, computer forensics field, Financial
+Government and military field, computer forensics field, Financial
 department field etc;
 
 4. One important thing to mention about the 'Universal' here is the

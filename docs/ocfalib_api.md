@@ -31,7 +31,7 @@ module that extracts metadata from data look at the pgp module in
 OcfaModule/extractor/pgp.
 
 Next to simple OCFA modules, the ocfa::treegraph namespace provides an
-aditional sub API for building treegraph loadable modules, that can be
+additional sub API for building treegraph loadable modules, that can be
 used to create modules that map evidence data to a tree graph of data
 and meta data.
 

@@ -35,6 +35,6 @@ results.
     flash_eraseall
     mtd_debug write /dev/mtd1 0 16777216 /dev/zero
     mount /dev/mtdblock1 /mnt/yaffs
-    do smoething
+    do something
     umount /mnt/yaffs
     mtd_debug read /dev/mtd1 0 16777216 mtd-output # writes to the file mtd-output

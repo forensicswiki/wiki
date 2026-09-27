@@ -60,7 +60,7 @@ tags:
   Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007
 * [A correlation method for establishing provenance of timestamps in digital evidence](https://dfrws.org/presentation/a-correlation-method-for-establishing-provenance-of-timestamps-in-digital-evidence/),
   by B. Schatz, G. Mohay, A. Clark, Digital Investigation 2006:3S
-* [Formalizing Event Time Bouding in Digital Investigation](https://www.utica.edu/academic/institutes/ecii/publications/articles/B4A90270-B5A9-6380-68863F61C2F7603D.pdf),
+* Formalizing Event Time Bouding in Digital Investigation,
   by P. Gladyshev, A. Patel, International Journal of Digital Evidence, vol
   4:2, 2005
 * Time and Date issues in forensic computing - a case study,

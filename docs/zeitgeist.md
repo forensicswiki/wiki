@@ -13,7 +13,7 @@ anywhere from files opened to websites visited and conversations.
 event_view seems one of the more interesting tables (which is
 technically a view and not a table).
 
-The timestamp is formatter in milli seconds sinds POSIX epoch (Jan 1,
+The timestamp is formatter in milli seconds since POSIX epoch (Jan 1,
 1970 00:00:00 UTC)
 
     SELECT datetime((timestamp/1000), "unixepoch"), subj_uri, subj_origin_uri, subj_text, subj_storage, event_origin_uri, actor_uri FROM event_view;

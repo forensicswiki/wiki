@@ -146,5 +146,5 @@ width="300" alt="16-bb9320-EMMC-Clean.jpg" />
 At the time of this writing (2013OCT29) the eMMC that was removed in
 this example was read using an UP828 programmer via the "VBGA169E"
 adapter and using the "eNAND_H9DP4GG4JJACGR-4EM/459MB" device settings.
-The resulting image was then parsed via the CelleBrite Physical Analyzer
+The resulting image was then parsed via the Cellebrite Physical Analyzer
 (V. 3.8.5.108).

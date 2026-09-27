@@ -6,8 +6,8 @@ From 'forensic science' Andrew R.W. Jackson and Julie M. Jackson. Publisher:
 Pearson prentice hall.
 
 **ESDA** which stands for Electrostatic detection apparatus, is a machine used
-within forensics for document examination. The machine allows the visulisation
-of indented writing wihout damaging the document.
+within forensics for document examination. The machine allows the visualisation
+of indented writing without damaging the document.
 
 The questioned document (usually a piece of paper) is put onto the bronze
 plate, then a thin film is placed over it. A corona (a highly charged wire) then

@@ -62,7 +62,7 @@ BitFling configured, and be forensically analyzed
 in New York. Lastly exporting the data is very important so that copies
 of the data can be made, ensuring no data is lost or manipulated.
 
-## Compatability
+## Compatibility
 
 BitPIM runs on Windows, Linux, and MacOS.
 

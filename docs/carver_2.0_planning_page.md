@@ -267,7 +267,7 @@ Ship with validators for
 Joachim I think we should distinguish
 between file format validators and content validators
 
-- Grapical Images
+- Graphical Images
   - JPEG (the 3 different types with JFIF/EXIF support)
 
 
@@ -451,7 +451,7 @@ basically states 'everything is a tree-graph node'. Possibly you could
 look at the OCFA treegraph API and module loading interface as an
 example, or we could work together on changing the API and module
 loading interface in such a way that it doesn't break OCFA and is
-usefull for the stand alone carver, but allowing both to use exactly the
+useful for the stand alone carver, but allowing both to use exactly the
 same tree-graph loadable modules.
 
 - Extracting/carving data from [Thumbs.db](thumbs.db.md)? I've
@@ -575,7 +575,7 @@ ourselves making translators due to the design of these non-open tools.
 
 - Ability to be used as a library instead of a tool. Ability to access
   metadata true library, and thus the ability to set metadata from the
-  carving modules. This would be extremely usefull for integrating the
+  carving modules. This would be extremely useful for integrating the
   project into a [computer forensics
   framework](computer_forensics_framework.md) .
 
@@ -614,7 +614,7 @@ you see this in action?
 
 
 Rob J Meijer I see two layers where using
-POLA could be applied. The best one would require one of the folowing as
+POLA could be applied. The best one would require one of the following as
 prerequisites:
 
 - The libaff/libewf layer is moved to a fuse implementation (for example
@@ -637,7 +637,7 @@ A third probably far fetched alternative would be to embed an object
 capability language in the tool and make the module interface thus that
 modules are to be written in this ocap language.
 
-A 4th alternative might include minorfs or plash, but I havn't geven
+A 4th alternative might include minorfs or plash, but I haven't geven
 those sufficient thinking hours yet.
 
 ## Format syntax specification
@@ -680,7 +680,7 @@ language in order to be sufficiently flexible. RB
 Joachim In my option your example is too
 limited. Making the revit configuration I learned you'll need a near
 programming language to specify some file formats. A simple descriptive
-language is too limiting. I would also go for 2 bytes with endianess
+language is too limiting. I would also go for 2 bytes with endianness
 instead of using terminology like WORD and small integer, it's much more
 clear. The configuration also needs to deal with aspects like
 cardinality, required and optional structures.
@@ -891,7 +891,7 @@ Options:
     validators
 - Have a scripting language for writing them (python? Perl?) our own?
   - Joachim use easy to embed
-    programming languages i.e. Phyton or Lua
+    programming languages i.e. Python or Lua
 - Use existing programs (libjpeg?) as plug-in validators?
   - Joachim define a file structure api
     for this

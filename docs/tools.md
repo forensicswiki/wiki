@@ -59,7 +59,7 @@ smartphones, and various types of clouds. The output can be analyzed with both
 Belkasoft and third-party tools.
 
 [Belkasoft Evidence Center (BEC)](belkasoft.md) allows an investigator to
-perform all investigation steps: acquisition (aquire hard and removable drives,
+perform all investigation steps: acquisition (acquire hard and removable drives,
 image smartphones and download cloud data), extraction of evidence (searches
 and carves more than 700 formats of various files and applications data),
 analysis (hex viewer, SQLite viewer, social graph building with communities

@@ -40,7 +40,7 @@ value for a given string.
     $ crypt hello
     S84xRArsM.gtk
 
-In modern computing Unix crypt is severly limited. Passwords are
+In modern computing Unix crypt is severely limited. Passwords are
 restricted to 8 character passwords, and any trailing character as
 ignored. This puts brute force attacks on Unix crypts well within the
 realms of possibility.
@@ -92,7 +92,7 @@ More modern Unix systems and just about all Linux systems avoid the
 limitations of Unix crypt() by using a message digest algorithm such as
 MD5 or SHA1. Like Unix crypts the stored passwords are usually salted.
 These message digest algorithms not only allow for longer passwords but
-are also compuationally more expensive, making brute force attacks
+are also computationally more expensive, making brute force attacks
 harder.
 
 ### NIS

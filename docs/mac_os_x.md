@@ -34,7 +34,7 @@ The firmware starts the Mac OS X boot loader (boot.efi). The bootloader
 displays a dark grey Apple logo on the screen and loads the Darwin
 kernel from disk, as well as the essential driver extensions.
 
-The bootloader can be eithe a MZ-PE/COFF or EFI fat binary type
+The bootloader can be either a MZ-PE/COFF or EFI fat binary type
 [executables](executable.md) and is commonly stored in:
 
     /com.apple.recovery.boot/boot.efi

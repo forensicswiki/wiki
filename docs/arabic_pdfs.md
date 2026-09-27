@@ -9,7 +9,7 @@ them.
 
 ## Glyphs vs. Characters
 
-The term *chracter* describes an abstract concept of a letter. The term
+The term *character* describes an abstract concept of a letter. The term
 *glyph* describes how a character prints. A single character can have
 multiple glyphs (for example, glyphs with serifs and those without). A
 single glyph can have multiple characters. For example, in the font

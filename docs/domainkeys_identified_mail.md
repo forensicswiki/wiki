@@ -6,7 +6,7 @@ tags:
 messages to help eliminate spam.
 
 The signature in each message should give the domain (`d=`) and selector
-(`s=`). The appropriate key can be retrived as a TXT DNS record from the host
+(`s=`). The appropriate key can be retrieved as a TXT DNS record from the host
 *`selector`*`._domainkey.`*`domain`*
 [1](http://www.elandsys.com/resources/sendmail/dkim.html). A sample message
 from Gmail had the following DKIM header:

@@ -107,7 +107,7 @@ Time Machine backup info
 
     /Library/Preferences/com.apple.TimeMachine.plist
 
-### System Settings and Informations
+### System Settings and Information
 
 ------------------------------------------------------------------------
 
@@ -415,7 +415,7 @@ iOS device backup information
 
 It's a plist file in plain text. It stores data about the backed up
 device (such as device name, GUID, ICCID, IMEI, Product type, iOS
-version, serial numbers, UDID etc.) and the iTunes software used to
+version, serial numbers, UDID, etc.) and the iTunes software used to
 create the backup (iTunes version number, iTunes settings).
 
     %%users.homedir%%/Library/Application Support/MobileSync/Backup/*/info.plist
@@ -926,13 +926,10 @@ Accounts configured in Mail.app
 
 ## External Links
 
-- [How to use a single download to remotely steal proprietary files from
-  MacOS](https://lab.wallarm.com/hunting-the-files-34caa0c1496/), August
-  1, 2017
-- [Apple forensic: advanced look onto Apple
-  security](https://hackmag.com/security/apple-forensic/), by hackmag
-- [mac4n6: Collection of forensics artifacts location for Mac OS X and
-  iOS](https://github.com/pstirparo/mac4n6)
-- [Known Networks settings moved in Big
-  Sur](https://www.alansiu.net/2021/01/27/known-networks-settings-moved-in-big-sur/),
+- [How to use a single download to remotely steal proprietary files from MacOS](https://lab.wallarm.com/hunting-the-files-34caa0c1496/),
+  August 1, 2017
+- [Apple forensic: advanced look onto Apple security](https://hackmag.com/security/apple-forensic/),
+  by hackmag
+- [mac4n6: Collection of forensics artifacts location for Mac OS X and iOS](https://github.com/pstirparo/mac4n6)
+- [Known Networks settings moved in Big Sur](https://www.alansiu.net/2021/01/27/known-networks-settings-moved-in-big-sur/),
   by Alan Siu, January 27, 2021

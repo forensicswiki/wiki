@@ -122,9 +122,6 @@ Most of the following applications can be used to do visualization.
 * [AfterGlow](https://afterglow.sourceforge.net/) - A tool to simplify the
   generation of network graphs in GraphViz, Gephi, etc. Designed for
   security visualizations.
-* <https://tulip.labri.fr/site/> - Tulip is an information
-  visualization framework dedicated to the analysis and visualization of
-  relational data.
 
 ### Commercial Graphic Applications and Tools
 
@@ -136,14 +133,8 @@ Most of the following applications can be used to do visualization.
   available. Academic pricing available.
 * [Geomantics](https://www.geomantics.com/) - Geographical, Visualization
   and Graphics software. Runs on [Windows](windows.md).
-* [Graphis 2D and 3D graphing software](http://www.kylebank.com/) - Runs
-  on [Windows](windows.md). Free 30-day evaluation copy
-  available.
-* [OpenViz](https://www.avs.com/openviz/) and [PowerViz](https://www.avs.com/examples/openviz/real-time-monitoring-for-larger-than-life-datasets/) -
-  Both from Advanced Visual Systems, super high-end visualization toolkits.
-  \$\$\$\$
 * [Tom Sawyer Software](https://www.tomsawyer.com/) Analysis,
-  Visualizaiton, and Layout programs. - Heavy support for drawing
+  Visualization, and Layout programs. - Heavy support for drawing
   graphs. Beautiful gallery. ActiveX, Java, C++ and .NET editions.
 * [NetMiner](https://www.netminer.com/kr/index.php) - A comprehensive tool for Social
   Network Analysis. Runs on Windows, with a Linux version under

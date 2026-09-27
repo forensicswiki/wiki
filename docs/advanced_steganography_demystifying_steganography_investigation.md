@@ -34,7 +34,7 @@ in this analysis.
 * IT security professionals
 
 Our trainers take you inside the minds of today’s criminals and students
-completeing the class will be able to execute a full investigation in
+completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
 

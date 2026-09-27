@@ -21,7 +21,7 @@ The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Eng
 ## Configuration
 
 Internet Explorer will apply its setting in the following order, where
-the lower the order overrides settings in the higer order.
+the lower the order overrides settings in the higher order.
 
 1.  Settings in Machine policy key
 2.  Settings in User policy key

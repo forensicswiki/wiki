@@ -37,7 +37,7 @@ The file header is 84 bytes of size and consists of:
 | H2    | 0x0004 | 4      | DWORD  | Signature 'SCCA' (or in hexadecimal representation 0x53 0x43 0x43 0x41)                                                                                                                                                             |
 | H3    | 0x0008 | 4      | DWORD? | Unknown - Values observed: 0x0F - Windows XP, 0x11 - Windows 7, Windows 8.1                                                                                                                                                         |
 | H4    | 0x000C | 4      | DWORD  | Prefetch file size (or length) (sometimes referred to as End of File (EOF)).                                                                                                                                                        |
-| H5    | 0x0010 | 60     | USTR   | The name of the (original) executable as a Unicode (UTF-16 litte-endian string), up to 29 characters and terminated by an end-of-string character (U+0000). This name should correspond with the one in the prefetch file filename. |
+| H5    | 0x0010 | 60     | USTR   | The name of the (original) executable as a Unicode (UTF-16 little-endian string), up to 29 characters and terminated by an end-of-string character (U+0000). This name should correspond with the one in the prefetch file filename. |
 | H6    | 0x004C | 4      | DWORD  | The prefetch hash. This hash value should correspond with the one in the prefetch file filename.                                                                                                                                    |
 | H7    | 0x0050 | 4      | ?      | Unknown (flags)? Values observed: 0 for almost all prefetch files (XP); 1 for NTOSBOOT-B00DFAAD.pf (XP)                                                                                                                             |
 |       |        |        |        |                                                                                                                                                                                                                                     |
@@ -421,7 +421,7 @@ A directory string is stored in the following structure:
 | Field | Offset | Length | Type  | Notes                                                                                                           |
 |-------|--------|--------|-------|-----------------------------------------------------------------------------------------------------------------|
 |       | 0x0000 | 2      | DWORD | Number of characters (WORDs) of the directory name. The value does not include the end-of-string character.     |
-|       | 0x0002 |        | USTR  | The directory name as a Unicode (UTF-16 litte-endian string) terminated by an end-of-string character (U+0000). |
+|       | 0x0002 |        | USTR  | The directory name as a Unicode (UTF-16 little-endian string) terminated by an end-of-string character (U+0000). |
 |       |        |        |       |                                                                                                                 |
 
 In version 26 and 30 data trailing the directory strings section has

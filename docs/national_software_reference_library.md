@@ -25,7 +25,7 @@ set of hash codes is used as a filter to eliminate or highlight files from
 examination. Most frequently the RDS used as a list of *known goods* that can
 be safely suppressed. *This is an incorrect usage of the RDS and should be
 discouraged,* because the RDS does not indicate if a file is known good or bad,
-only that it is known. Indeed, the RDS has many files that were once throught
+only that it is known. Indeed, the RDS has many files that were once thought
 to be good, but are now thought to be bad---for example, versions of Adobe
 Flash with known security vulnerabilities. Categories such as "Steganography"
 or "Keylogger" are assigned to allow filtering by need.

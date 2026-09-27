@@ -5,7 +5,7 @@ tags:
 ---
 ## Quarantine directory
 
-The location of the quarentine directory is dependent on the version of
+The location of the quarantine directory is dependent on the version of
 Kaspersky Anti-Virus. Some examples of different locations used by
 different version of Kaspersky Anti-Virus:
 

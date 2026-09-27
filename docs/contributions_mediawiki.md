@@ -1,6 +1,8 @@
 List of usernames that contributed to the MediaWiki version of Forensics Wiki.
 Sorted by date of first contribution.
 
+<!-- typos:disable -->
+
 Username | First contribution | Last contribution | Number of contributions
 --- | --- | --- | ---
 Simsong | 2005-10-27 | 2021-10-05 | 2286
@@ -855,3 +857,5 @@ Anastasia | 2021-08-12 | 2021-08-23 | 7
 Fuseki | 2021-10-20 | 2021-12-24 | 2
 Binglot | 2022-02-14 | 2022-04-19 | 12
 Olivia0396 | 2022-09-16 | 2022-09-29 | 3
+
+<!-- typos:enable -->

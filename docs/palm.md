@@ -28,7 +28,7 @@ the devices came from Hawkins' habit of carrying a block of wood in his
 pocket.
 
 The initial Palm device released in 1996 was called the Pilot. Because
-Pilot Pen Corporation brought forth a trademark infrigement case, the
+Pilot Pen Corporation brought forth a trademark infringement case, the
 second generation device released in 1997 was named the PalmPilot.
 
 The Palm was not the original PDA device released, but benefited from
@@ -402,7 +402,7 @@ analysis of a limited number of Palm devices.
 Paraben has a software application that is specifically designed for PDA
 forensics, PDA Seizure. This comprehensive tool allows PDA data to be
 acquired, viewed, and reported on, all within a Windows environment. The
-software comes equiped with quite a few key features. These features
+software comes equipped with quite a few key features. These features
 include the ability to encrypt saved case files, [BlackBerry
 OS](blackberry_os.md) support, built-in recovery of Palm
 passwords, enhanced viewing on file data, complete physical and logical

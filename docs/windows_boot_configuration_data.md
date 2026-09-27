@@ -12,7 +12,7 @@ accessed via keys and values under 'HKEY_LOCAL_MACHINE\BCD00000000'.
 'bcdedit.exe' can be used to modify the Windows Boot Configuration
 Settings on a running Windows system.
 
-The mappings of Registrys key to associated bcdedit commands are as
+The mappings of Registry keys to associated bcdedit commands are as
 follows:
 
 'HKEY_LOCAL_MACHINE\BCD00000000\Objects\\\*\Elements\\%MAPPING%', where

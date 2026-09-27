@@ -20,7 +20,7 @@ series tools including:
 Dolphin Data Lab has sold its data recovery products to over 90
 countries including USA, UK, China, South Korea, France, Germany,
 Canada, Brazil, India, Japan, Egypt, Chile, Nigeria, Pakistan,
-Australia, New Zealand, Indonesia, Philippines, Maylasia, Portugal,
+Australia, New Zealand, Indonesia, Philippines, Malaysia, Portugal,
 Italy, Belgium, Poland, Argentina, Cuba, Greece, Spain, Denmark, Sweden,
 Saudi Arabia, UAE, South Africa, Turkey, Dubai, Palestine, Iran, etc.
 Dolphin Data Lab has gained a lot of happy users and reputation among

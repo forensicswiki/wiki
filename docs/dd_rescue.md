@@ -30,7 +30,7 @@ A large difference between **[ddrescue](ddrescue.md)** and
 **[ddrescue](ddrescue.md)** can only transfer block/file to
 block/file.
 
-One example of this usage would be transfering a disk image over the
+One example of this usage would be transferring a disk image over the
 network using ssh.
 
     dd_rescue /dev/sda1 - | ssh user@remote.host "cat - > /remote/destination/file.img"

@@ -54,8 +54,8 @@ investigations.
 
 Development and maintenance of OCFA by the Dutch National Police has
 been discontinued in 2012. The latest version of the orphaned code is
-available as the seperate github repositories
-[ocfaLib](https://github.com/DNPA/OcfaLib) ,
+available as the separate github repositories
+[ocfaLib](https://github.com/DNPA/OcfaLib),
 [OcfaArch](https://github.com/DNPA/OcfaArch),
 [OcfaJavaLib](https://github.com/DNPA/OcfaJavaLib),
 [OcfaModules](https://github.com/DNPA/OcfaModules) and

@@ -40,7 +40,7 @@ Wireshark has a rich feature set which includes the following:
 - Live data can be read from Ethernet,
   [IEEE 802.11](wireless_forensics.md), PPP/HDLC, ATM, Bluetooth,
   [USB](usb.md), Token Ring, Frame Relay, FDDI, and others (depending on your
-  platfrom);
+  platform);
 - Decryption support for many protocols, including
   IPsec, ISAKMP, Kerberos, SNMPv3,
   [SSL/TLS](ssl_forensics.md), [WEP, and

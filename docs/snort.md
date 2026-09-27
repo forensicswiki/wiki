@@ -100,6 +100,6 @@ For more information and to download please visit [DAQ](https://snort.org/downlo
 
 ## External Links
 
-* [Offical Snort Website](https://snort.org/)
+* [Official Snort Website](https://snort.org/)
 * [Snort Documentation](https://snort.org/documents)
 * [Build an IPS Virtual Appliance with Snort](https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/069/original/Snort-IPS-Tutorial.pdf)

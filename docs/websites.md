@@ -11,7 +11,7 @@ related topics.
 
 Presentations, links, references
 
-[Certfied Computer Examiner Website](https://www.isfce.com/)
+[International Society of Forensic Computer Examiners (ISFCE) Website](https://www.isfce.com/)
 
 Open certification process for digital forensics.
 

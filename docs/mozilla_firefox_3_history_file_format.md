@@ -274,7 +274,7 @@ query:
     WHERE moz_places.id = moz_historyvisits.place_id
   
   
-Another exmaple that joins against the `history_visit_types` table
+Another example that joins against the `history_visit_types` table
 
 ```sql
 SELECT

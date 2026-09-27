@@ -6,7 +6,7 @@ The **Cellebrite 'Universal Forensic Extraction Device' (UFED)** is a
 tool for mobile phone, smartphone, and PDA forensics. As of September
 2010 the UFED was compatible with over 2,500 mobile phones (including
 GSM, TDMA, CDMA, iDEN). The standard package containing several dozen
-phone cables. The UFED had an intergrated SIM reader, with Wireless
+phone cables. The UFED had an integrated SIM reader, with Wireless
 connection options also being integrated, such as IR and Bluetooth.
 
 The UFED also supports native Apple iPOD Touch, and Apple iPHONE

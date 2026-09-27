@@ -49,7 +49,7 @@ A programming language can distinguish between Unicode, non-Unicode and
 binary strings
 [5](https://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings).
 
-- Unicode strings typically are stored in a Tranform format
+- Unicode strings typically are stored in a Transform format
   [6](https://en.wikipedia.org/wiki/UTF)
   - There are multiple versions of Unicode
   - A predecessor to Unicode is Universal Character Set (UCS)
@@ -72,7 +72,7 @@ binary strings
     strings. <b>Note that character here refers to the primitive data
     type used, not a textual character of the string.</b>
 - Binary strings can contain bit- or byte streams. Since bitstreams are
-  often stored in bytes the endianess of the bits within the byte is
+  often stored in bytes the endianness of the bits within the byte is
   relevant when reading or writing the string.
 
 Another distinction made in some programming languages is to have a

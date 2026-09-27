@@ -19,7 +19,7 @@ Please see the community page if you would like to [contribute](community.md).
 ## Discover Content
 
 ### Tags
-In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>. Each page on this website is labled with <a href="tags">tags</a>. The page could have one tag or multiple tags depending on the content of the site. Tags are placed at the top of the article.
+In order to make content discoverable, articles are being categorized using <a href="tags">tags</a>. Each page on this website is labeled with <a href="tags">tags</a>. The page could have one tag or multiple tags depending on the content of the site. Tags are placed at the top of the article.
 
 For example, the [Full Disk Encryption](full_disk_encryption.md) article has three tags: [Encryption](tags/#encryption), [Disk Encryption](tags/#disk-encryption) and [Anti-Forensics](tags/#anti-forensics). If you clicked on anyone of the tags, it will bring you to all content categorized under that tag.
 
