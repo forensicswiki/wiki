@@ -20,28 +20,27 @@ development.
 
 If archaeology defines an artifact as:
 
-    something made or given shape by man, such as a tool or
-    a work of art, esp an object of archaeological interest
+> something made or given shape by man, such as a tool or a work of art, esp an
+> object of archaeological interest
 
 The definition of artifact within computer forensics could be:
 
-    An object of digital archaeological interest.
-    Where digital archaeology roughly refers to computer forensics without the forensic (legal) context.
+> An object of digital archaeological interest.
+> Where digital archaeology roughly refers to computer forensics without the
+> forensic (legal) context.
 
 ## History
 
-The artifact definitions originate from the [GRR
-project](grr.md). It was made into a stand-alone project to
-provide more flexibility and allow other projects to make use of the
-definitions.
+The artifact definitions originate from the [GRR project](grr.md). It was made
+into a stand-alone project to provide more flexibility and allow other projects
+to make use of the definitions.
 
 ## See Also
 
-- [GRR](grr.md)
+* [GRR](grr.md)
 
 ## External Links
 
-- [Project site](https://github.com/ForensicArtifacts/artifacts)
-- [Knowledge Base
-  site](https://github.com/ForensicArtifacts/artifacts-kb)
-- [pypi site](https://pypi.org/project/artifacts/)
+* [Project site](https://github.com/ForensicArtifacts/artifacts)
+* [Knowledge Base site](https://github.com/ForensicArtifacts/artifacts-kb)
+* [pypi site](https://pypi.org/project/artifacts/)

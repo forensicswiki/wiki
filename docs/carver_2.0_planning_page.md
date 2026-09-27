@@ -7,14 +7,14 @@ This page is for planning Carver 2.0.
 
 Please, do not delete text (ideas) here. Use something like this:
 
-    <s>bad idea</s>
-    :: good idea
+```text
+<s>bad idea</s>
+:: good idea
+```
 
 This will look like:
 
 <s>bad idea</s>
-
-
 
 good idea
 
@@ -37,11 +37,8 @@ implemented:
 
 BSD-3.
 
-
-
 Joachim library based validators could
 require other licenses
-
 
 Make the other libraries plug-able. If you them, you use them.
 Simsong
@@ -654,18 +651,22 @@ those sufficient thinking hours yet.
 .FUF added: The main idea is to allow users to define structures, for
 example (in pascal-like form):
 
-    Field1: Byte = 123;
-    SomeTextLength: DWORD;
-    SomeText: string[SomeTextLength];
-    Field4: Char = 'r';
-    ...
+```text
+Field1: Byte = 123;
+SomeTextLength: DWORD;
+SomeText: string[SomeTextLength];
+Field4: Char = 'r';
+...
+```
 
 This will produce something like this:
 
-    Field1 = 123
-    SomeTextLength = 5
-    SomeText = 'abcd1'
-    Field4 = 'r'
+```text
+Field1 = 123
+SomeTextLength = 5
+SomeText = 'abcd1'
+Field4 = 'r'
+```
 
 (In text or raw forms.)
 
@@ -993,4 +994,3 @@ different design decisions
 It is virtually impossible to turn a non-MT application into an MT
 application .Simsong 06:37, 3 November 2008
 (UTC)
-

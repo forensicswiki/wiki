@@ -15,13 +15,15 @@ See: [c-aff4: INSTALL](https://github.com/Velocidex/c-aff4/blob/master/INSTALL)
 Probably the first step is to actually acquire the image. Right now
 there is no fancy interface or GUI - its just a simple commandline:
 
-    AFF4/tools$ sudo aff4imager -i -o /tmp/test.zip /dev/sda1
-    Imaging Mode selected
-    Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000000 (55425084 bytes)
-    Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000001 (33314018 bytes)
-    Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000002 (3011613 bytes)
-    Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000003 (51756091 bytes)
-    Creating a link object 'default' for stream 'urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1'
+```text
+AFF4/tools$ sudo aff4imager -i -o /tmp/test.zip /dev/sda1
+Imaging Mode selected
+Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000000 (55425084 bytes)
+Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000001 (33314018 bytes)
+Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000002 (3011613 bytes)
+Dumping segment urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1/00000003 (51756091 bytes)
+Creating a link object 'default' for stream 'urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1'
+```
 
 We can see the imager dumping a new zip file with the default settings.
 By default bevies are 64Mb in size. The aff4imager tool reports each new
@@ -35,20 +37,22 @@ for it).
 There is a patch to sleuthkit for adding support to AFF4. The patch is
 against sleuthkit-3.0.1.
 
-    tar -xvzf sleuthkit-3.0.1.tgz
-    cd sleuthkit-3.0.1
-    patch -p1 < /path/to/AFF4/patches/sleuthkit-3.0.1.patch
+```bash
+tar -xvzf sleuthkit-3.0.1.tgz
+cd sleuthkit-3.0.1
+patch -p1 < /path/to/AFF4/patches/sleuthkit-3.0.1.patch
 
-    ## The following is needed to get the autoconf system to pick up the changes
-    libtoolize --force
-    aclocal -I config
-    autoheader
-    automake
-    autoconf
+## The following is needed to get the autoconf system to pick up the changes
+libtoolize --force
+aclocal -I config
+autoheader
+automake
+autoconf
 
-    ## Now build it as normal
-    ./configure
-    make install
+## Now build it as normal
+./configure
+make install
+```
 
 Currently the Sluethkit patch does not work with autodetection - hence
 it must be specified explicitly using `-i aff4`.
@@ -58,24 +62,26 @@ stream within the volume. The convention is to specify the stream as the
 last parameter after the volumes. So for example, to open the stream
 created in the example above:
 
-    $ fls -i aff4 /tmp/test.zip default
-    zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
-    libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
-    zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
-    zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
-    libaff4.c:100 - aff4_open: Trying to open stream default relative to all volumes
-    libaff4.c:107 - aff4_open: Trying urn:aff4:aeb9ed57-8dbe-4506-9fb8-e4106bf0767d/default
-    libaff4.c:122 - aff4_open: Using urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1 as the stream name
-    d/d 11: lost+found
-    r/r 10043:  System.map-2.6.22-14-generic
-    r/r 6025:   vmlinuz-2.6.22-14-generic
-    r/r 10041:  config-2.6.22-14-generic
-    r/r 10042:  abi-2.6.22-14-generic
-    r/r 13: initrd.img-2.6.22-14-generic
-    d/c 44177:  grub
-    r/r 6029:   initrd.img-2.6.24-21-generic
-    r/r 12: initrd.img-2.6.22-14-generic.bak
-    .....
+```bash
+$ fls -i aff4 /tmp/test.zip default
+zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
+libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
+zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
+zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
+libaff4.c:100 - aff4_open: Trying to open stream default relative to all volumes
+libaff4.c:107 - aff4_open: Trying urn:aff4:aeb9ed57-8dbe-4506-9fb8-e4106bf0767d/default
+libaff4.c:122 - aff4_open: Using urn:aff4:dd3102c1-370d-4b15-83e7-5a1991b5a9e1 as the stream name
+d/d 11: lost+found
+r/r 10043:  System.map-2.6.22-14-generic
+r/r 6025:   vmlinuz-2.6.22-14-generic
+r/r 10041:  config-2.6.22-14-generic
+r/r 10042:  abi-2.6.22-14-generic
+r/r 13: initrd.img-2.6.22-14-generic
+d/c 44177:  grub
+r/r 6029:   initrd.img-2.6.24-21-generic
+r/r 12: initrd.img-2.6.22-14-generic.bak
+...
+```
 
 The debugging messages above are instructive to explain the logic of how
 libaff4 opens the volumes. Since you can specify any number of volumes
@@ -92,7 +98,9 @@ The easiest way to get a private key and a corresponding X.509
 certificate is to make a self-signed certificate using the openssl
 command.
 
-        openssl req -x509 -newkey rsa:1024 -keyout sign.key -out sign.key -nodes
+```bash
+openssl req -x509 -newkey rsa:1024 -keyout sign.key -out sign.key -nodes
+```
 
 This command will ask you a bunch of questions; the results are stored
 in the file sign.crt. When you create a signed AFF4 file the certificate
@@ -107,119 +115,129 @@ into the AFF4 volume, but the private key will never be copied.
 
 You can view the contents the certificate with this openssl command:
 
-        openssl x509 -text -in sign.key
+```bash
+openssl x509 -text -in sign.key
+```
 
 By loading the key and crt files, libaff4 will add the hash of each new
 segment written to a new statement. When the file is closed, the
 statement will be written to the volume.
 
-    $ aff4imager -i -o /tmp/test.zip --key sign.key --cert sign.key /dev/sda1
-    Imaging Mode selected
-    identity.c:58 - Identity_load_certs: Will now sign using private key file://sign.key
-    identity.c:88 - Identity_load_certs: Will use public key from file://sign.key to verify signatures
-    Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 (55425084 bytes)
-    Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 (33314018 bytes)
-    Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 (3011613 bytes)
-    Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 (51756091 bytes)
-    Creating a link object 'default' for stream 'urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f'
+```bash
+$ aff4imager -i -o /tmp/test.zip --key sign.key --cert sign.key /dev/sda1
+Imaging Mode selected
+identity.c:58 - Identity_load_certs: Will now sign using private key file://sign.key
+identity.c:88 - Identity_load_certs: Will use public key from file://sign.key to verify signatures
+Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 (55425084 bytes)
+Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 (33314018 bytes)
+Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 (3011613 bytes)
+Dumping segment urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 (51756091 bytes)
+Creating a link object 'default' for stream 'urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f'
 
-    zip.c:746 - ZipFile_open_member: Volume does not contain member urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem
+zip.c:746 - ZipFile_open_member: Volume does not contain member urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem
+```
 
 The last debug statement indicates that the certificate file in not
 present in the volume, therefore it is added. It is instructive to see
 what segments are present in the zip volume:
 
-    $ unzip -l /tmp/test.zip
-    Archive:  /tmp/test.zip
-    urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
-      Length     Date   Time    Name
-     --------    ----   ----    ----
-     55425084  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000
-         8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx
-     33314018  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001
-         8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx
-      3011613  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002
-         8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx
-     51756091  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003
-         6552  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx
-          209  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/properties
-          115  04-25-09 21:54   default/properties
-         1251  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000
-          128  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000.sig
-         3820  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/cert.pem
-          242  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/properties
-     --------                   -------
-    143543711                   14 files
+```bash
+$ unzip -l /tmp/test.zip
+Archive:  /tmp/test.zip
+urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
+  Length     Date   Time    Name
+ --------    ----   ----    ----
+ 55425084  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000
+     8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx
+ 33314018  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001
+     8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx
+  3011613  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002
+     8196  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx
+ 51756091  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003
+     6552  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx
+      209  04-25-09 21:54   urn%3Aaff4%3Afda4d4fa-c378-4a06-acac-06ff54f49d5f/properties
+      115  04-25-09 21:54   default/properties
+     1251  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000
+      128  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000.sig
+     3820  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/cert.pem
+      242  04-25-09 21:54   urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/properties
+ --------                   -------
+143543711                   14 files
+```
 
 As can be seen, the certificate is stored within the volume. Lets have a
 look at the statement:
 
-    $ unzip -p /tmp/test.zip urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 aff4:sha256=RaOr4ksNZo+bXKMYDw2hwaAMqV9/4/TXqTE1P/7ERO8=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx aff4:sha256=k4uSgGyYp0xeBdnpCWAY4sJilijn9sU9nmRkbzPl5LQ=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 aff4:sha256=0Xf/VVaJe2RZ8eH9ACUTHWp8TXYdq5a/7hkdTn1eYGU=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx aff4:sha256=9szVqgGIFHT7OxtWiopk7rP4HSsl4H+nHmnNVhqSjLg=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 aff4:sha256=P6jENcyLn137Jl5QNCauQvviIXR/VSp7o7r0iNUDHX0=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx aff4:sha256=EzXJ4eyJNYzKCUVc1U3vRzgLA+GhLCmsSkkcwholeqs=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 aff4:sha256=ImM/kFyvDqkWa3A6HitIFtJaXf2gWpEx8knYWSMiVoE=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx aff4:sha256=Lm2yB+tVw8yB1ia9MXIxkdRT8oXk1/2db9sFg48ZuoM=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties aff4:sha256=9h9x5sd7ZxCKqWbcdLYVq7MM9AH7c6BI5DpCJrxCXUc=
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f aff4:sha256=fuy15WT9G5YpAh6PdLGxeCezoWtV6QryqnOhYvnV1Fc=
-    urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties aff4:sha256=2uxWY7B51oUa94B3hMU1iF1vZUNUdFPo/hNDUIrduCA=
+```bash
+$ unzip -p /tmp/test.zip urn%3Aaff4%3Aidentity/41%3A38%3A13%3A1b%3A96%3Ad3%3Af6%3A65%3Ae0%3A87%3A60%3A07%3Af5%3Aff%3A31%3A19%3A24%3A93%3Ae0%3A13/00000000
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 aff4:sha256=RaOr4ksNZo+bXKMYDw2hwaAMqV9/4/TXqTE1P/7ERO8=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx aff4:sha256=k4uSgGyYp0xeBdnpCWAY4sJilijn9sU9nmRkbzPl5LQ=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 aff4:sha256=0Xf/VVaJe2RZ8eH9ACUTHWp8TXYdq5a/7hkdTn1eYGU=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx aff4:sha256=9szVqgGIFHT7OxtWiopk7rP4HSsl4H+nHmnNVhqSjLg=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 aff4:sha256=P6jENcyLn137Jl5QNCauQvviIXR/VSp7o7r0iNUDHX0=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx aff4:sha256=EzXJ4eyJNYzKCUVc1U3vRzgLA+GhLCmsSkkcwholeqs=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 aff4:sha256=ImM/kFyvDqkWa3A6HitIFtJaXf2gWpEx8knYWSMiVoE=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx aff4:sha256=Lm2yB+tVw8yB1ia9MXIxkdRT8oXk1/2db9sFg48ZuoM=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties aff4:sha256=9h9x5sd7ZxCKqWbcdLYVq7MM9AH7c6BI5DpCJrxCXUc=
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f aff4:sha256=fuy15WT9G5YpAh6PdLGxeCezoWtV6QryqnOhYvnV1Fc=
+urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties aff4:sha256=2uxWY7B51oUa94B3hMU1iF1vZUNUdFPo/hNDUIrduCA=
+```
 
 ## Verifying signatures and inspecting AFF4 files
 
 We wish to verify the above volume and learn more about the objects
 contained within it:
 
-    $ aff2imager -l /tmp/test.zip -V -I
-    zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
-    libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
-    Info mode selected
-    identity.c:88 - Identity_load_certs: Will use public key from urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem to verify signatures
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx (segment): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties (image): (OK)
-    urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f (segment): (OK)
-    urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties (segment): 0 MB
-    ******** Object urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40 ***********
-        aff4:stored = file:///tmp/test.zip
-        aff4:type = zip_volume
-        aff4:interface = volume
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx
-        aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties
-        aff4:contains = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties
-        aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/00000000
-        aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/00000000.sig
-        aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem
-        aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/properties
+```bash
+$ aff2imager -l /tmp/test.zip -V -I
+zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
+libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
+Info mode selected
+identity.c:88 - Identity_load_certs: Will use public key from urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem to verify signatures
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001 (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002 (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003 (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx (segment): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties (image): (OK)
+urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f (segment): (OK)
+urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties (segment): 0 MB
+******** Object urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40 ***********
+    aff4:stored = file:///tmp/test.zip
+    aff4:type = zip_volume
+    aff4:interface = volume
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000.idx
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000001.idx
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000002.idx
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000003.idx
+    aff4:contains = urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/properties
+    aff4:contains = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default/properties
+    aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/00000000
+    aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/00000000.sig
+    aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/cert.pem
+    aff4:contains = urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13/properties
 
-    ******** Object file:///tmp/test.zip ***********
-        aff4:contains = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
+******** Object file:///tmp/test.zip ***********
+    aff4:contains = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
 
-    ******** Object urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 ***********
-        aff4:stored = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
-        aff4:type = segment
-        aff4:interface = stream
-        aff4:timestamp = 0x49F2F9E2
-        aff4:size = 0x34DB83C
-        aff4:sha256 = RaOr4ksNZo+bXKMYDw2hwaAMqV9/4/TXqTE1P/7ERO8=
-            ---> Signed by urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13
+******** Object urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f/00000000 ***********
+    aff4:stored = urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40
+    aff4:type = segment
+    aff4:interface = stream
+    aff4:timestamp = 0x49F2F9E2
+    aff4:size = 0x34DB83C
+    aff4:sha256 = RaOr4ksNZo+bXKMYDw2hwaAMqV9/4/TXqTE1P/7ERO8=
+        ---> Signed by urn:aff4:identity/41:38:13:1b:96:d3:f6:65:e0:87:60:07:f5:ff:31:19:24:93:e0:13
 
-    ....
+...
+```
 
 There is no need to specify certificates now since the certificate is
 given in the volume itself. The -V flag asks each object in the
@@ -240,11 +258,13 @@ to allow access to the streams within a set of volumes. This feature is
 useful in order to allow other software to have access to the streams
 without needing specific AFF4 support.
 
-    $ affuse -d -- /tmp/test.zip /tmp/fuse
-    zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
-    libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
-    unique: 1, opcode: INIT (26), nodeid: 0, insize: 56
-    ...
+```bash
+$ affuse -d -- /tmp/test.zip /tmp/fuse
+zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
+libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
+unique: 1, opcode: INIT (26), nodeid: 0, insize: 56
+...
+```
 
 The trick here is that the aff4use program uses the `--` option to
 separate options specific to fuse (before the --) to options specific to
@@ -260,23 +280,27 @@ root of the filesystem, and the full complicated URNs are placed in
 __URN__/ subdirectory (just in case we need to access a stream
 without a link).
 
-    $ ls -l /tmp/fuse/
-    total 0
-    drwxr-xr-x 2 root root         1 2009-04-25 21:54 default
-    -r--r--r-- 1 root root 254951424 1970-01-01 10:00 default.dd
-    drwxr-xr-x 2 root root         1 2009-04-25 21:54 __URN__
+```bash
+$ ls -l /tmp/fuse/
+total 0
+drwxr-xr-x 2 root root         1 2009-04-25 21:54 default
+-r--r--r-- 1 root root 254951424 1970-01-01 10:00 default.dd
+drwxr-xr-x 2 root root         1 2009-04-25 21:54 __URN__
 
-    $ fls /tmp/fuse/default.dd
-    d/d 11: lost+found
-    r/r 10043:  System.map-2.6.22-14-generic
-    r/r 6025:   vmlinuz-2.6.22-14-generic
-    r/r 10041:  config-2.6.22-14-generic
-    r/r 10042:  abi-2.6.22-14-generic
-    ....
+$ fls /tmp/fuse/default.dd
+d/d 11: lost+found
+r/r 10043:  System.map-2.6.22-14-generic
+r/r 6025:   vmlinuz-2.6.22-14-generic
+r/r 10041:  config-2.6.22-14-generic
+r/r 10042:  abi-2.6.22-14-generic
+...
+```
 
 When you are finished and wish to unmount the filesystem:
 
-    $ fusermount -u /tmp/fuse
+```bash
+$ fusermount -u /tmp/fuse
+```
 
 ## Creating map streams for filesystems
 
@@ -290,21 +314,23 @@ present the data to them.
 The map streams can be put into a new volume which simply refer to the
 old volume:
 
-    $ fsbuilder -o /tmp/test2.zip /tmp/test.zip default
-    zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
-    libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
-    zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
-    zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
-    zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
-    zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
-    libaff4.c:100 - aff4_open: Trying to open stream default relative to all volumes
-    libaff4.c:107 - aff4_open: Trying urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default
-    libaff4.c:122 - aff4_open: Using urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f as the stream name
-    File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/System.map-2.6.22-14-generic
-    File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/vmlinuz-2.6.22-14-generic
-    File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/config-2.6.22-14-generic
-    File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/abi-2.6.22-14-generic
-    ....
+```bash
+$ fsbuilder -o /tmp/test2.zip /tmp/test.zip default
+zip.c:51 - FileBackedObject_Con: Can't open file:///tmp/test.zip/__URN__ (Not a directory)
+libaff4.c:27 - open_volume: Loaded zip volume file:///tmp/test.zip
+zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
+zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
+zip.c:51 - FileBackedObject_Con: Can't open file://default/__URN__ (No such file or directory)
+zip.c:51 - FileBackedObject_Con: Can't open file://default (No such file or directory)
+libaff4.c:100 - aff4_open: Trying to open stream default relative to all volumes
+libaff4.c:107 - aff4_open: Trying urn:aff4:89f8ec58-13f0-4ad4-b1f2-74da7f3aed40/default
+libaff4.c:122 - aff4_open: Using urn:aff4:fda4d4fa-c378-4a06-acac-06ff54f49d5f as the stream name
+File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/System.map-2.6.22-14-generic
+File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/vmlinuz-2.6.22-14-generic
+File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/config-2.6.22-14-generic
+File name urn:aff4:fafe0c11-0544-4eab-ae8a-3ee568f53f7c/abi-2.6.22-14-generic
+...
+```
 
 As can be seen the fsbuilder tool creates new map streams for each new
 file found in the stream. The map streams are pushed to a new volume.
@@ -354,22 +380,26 @@ Our goal with this configuration is to allow anyone read access to the
 images with no authentication, but to require authentication for writing
 on the webdav directory:
 
-    <VirtualHost *:80>
-    <Directory /var/www/webdav>
-         DAV On
-         AuthType Basic
-         AuthName "test"
-         AuthUserFile /etc/apache2/passwd.dav
+```xml
+<VirtualHost *:80>
+<Directory /var/www/webdav>
+     DAV On
+     AuthType Basic
+     AuthName "test"
+     AuthUserFile /etc/apache2/passwd.dav
 
-         <Limit PUT POST DELETE PROPFIND PROPPATCH MKCOL COPY MOVE LOCK UNLOCK>
-            Require valid-user
-         </Limit>
-    </Directory>
-    </VirtualHost>
+     <Limit PUT POST DELETE PROPFIND PROPPATCH MKCOL COPY MOVE LOCK UNLOCK>
+        Require valid-user
+     </Limit>
+</Directory>
+</VirtualHost>
+```
 
 You can add usernames to the password file /etc/apache2/passwd.dav using
 the htpasswd utility.
 
 Now its possible to image directly there:
 
-     aff2imager -i -o http://test:password@localhost/webdav/test.zip /dev/sda1
+```bash
+aff2imager -i -o http://test:password@localhost/webdav/test.zip /dev/sda1
+```

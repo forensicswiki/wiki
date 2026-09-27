@@ -32,7 +32,9 @@ tracks the Last Access time of a file by default. This feature can be
 enabled by setting the NtfsDisableLastAccessUpdate value to '0' in the
 Registry key:
 
-    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+```text
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+```
 
 Note that this feature has been around since as early as Windows 2000
 [1](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc959914(v=technet.10)).
@@ -89,7 +91,9 @@ records into the USN change journal, one for each volume on the
 computer. Each record indicates the type of change and the object
 changed. New records are appended to the end of the stream.
 
-    fsutil usn ...
+```text
+fsutil usn ...
+```
 
 ## Transactional NTFS (TxF)
 
@@ -105,30 +109,32 @@ TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 
 ## FILETIME date and time values
 
-    import datetime
+```python
+import datetime
 
-    def FromFiletime(filetime):
-      """Converts a FILETIME timestamp into a Python datetime object.
+def FromFiletime(filetime):
+  """Converts a FILETIME timestamp into a Python datetime object.
 
-        The FILETIME is mainly used in Windows file formats and NTFS.
+    The FILETIME is mainly used in Windows file formats and NTFS.
 
-        The FILETIME is a 64-bit value containing:
-          100th nano seconds since 1601-01-01 00:00:00
+    The FILETIME is a 64-bit value containing:
+      100th nano seconds since 1601-01-01 00:00:00
 
-        Technically FILETIME consists of 2 x 32-bit parts and is presumed
-        to be unsigned.
+    Technically FILETIME consists of 2 x 32-bit parts and is presumed
+    to be unsigned.
 
-        Args:
-          filetime: The 64-bit FILETIME timestamp.
+    Args:
+      filetime: The 64-bit FILETIME timestamp.
 
-      Returns:
-        A datetime object containing the date and time or None.
-      """
-      if filetime < 0:
-        return None
-      timestamp = filetime / 10
+  Returns:
+    A datetime object containing the date and time or None.
+  """
+  if filetime < 0:
+    return None
+  timestamp = filetime / 10
 
-      return datetime.datetime(1601, 1, 1) + datetime.timedelta(microseconds=timestamp)
+  return datetime.datetime(1601, 1, 1) + datetime.timedelta(microseconds=timestamp)
+```
 
 ## Also see
 

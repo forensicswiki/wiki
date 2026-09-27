@@ -41,8 +41,10 @@ does not guarantee that the message was sent by that program.
 Mail servers can add lines onto email headers, usually in the form of
 "Received" lines, like this:
 
-    Received: by servername.recipeienthost.com (Postfix, from userid 506)
-        id 77C30808A; Sat, 24 Feb 2007 20:43:56 -0500 (EST)
+```text
+Received: by servername.recipeienthost.com (Postfix, from userid 506)
+    id 77C30808A; Sat, 24 Feb 2007 20:43:56 -0500 (EST)
+```
 
 ## Message Id Field
 
@@ -64,7 +66,7 @@ Obviously these headers can be used by an examiner for the same purpose.
 
 This is an (incomplete) excerpt from an email header:
 
-```
+```text
 Received: from lists.securityfocus.com (lists.securityfocus.com [205.206.231.19])
         by outgoing2.securityfocus.com (Postfix) with QMQP
         id 7E9971460C9; Mon,  9 Jan 2006 08:01:36 -0700 (MST)

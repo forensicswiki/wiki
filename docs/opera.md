@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
-  -  Web Browsers
+  - Applications
+  - Web Browsers
 ---
 ## Data directory
 
@@ -9,34 +9,44 @@ Opera stores the user data in the following locations:
 
 On Linux:
 
-    /home/$USER/.opera/
+```text
+/home/$USER/.opera/
+```
 
 On MacOS-X
 
-    /Users/$USER/Library/Opera/
+```text
+/Users/$USER/Library/Opera/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Application Data\Opera\Opera\
+```text
+C:\Documents and Settings\%USERNAME%\Application Data\Opera\Opera\
+```
 
 On Windows Vista, 7
 
-    C:\Users\%USERNAME%\AppData\Roaming\Opera\Opera\
+```text
+C:\Users\%USERNAME%\AppData\Roaming\Opera\Opera\
+```
 
 ### Global history
 
 The file **global_history.dat** is a text file.
 
-    Welcome to Opera
-    https://www.opera.com:443/portal/upgrade/
-    1319089117
-    -1
+```text
+Welcome to Opera
+https://www.opera.com:443/portal/upgrade/
+1319089117
+-1
+```
 
 Where the fields are:
 
-- Title
-- URL
-- date and time (32-bit POSIX or Unix epoch timestamp)
+* Title
+* URL
+* date and time (32-bit POSIX or Unix epoch timestamp)
 
 ### Search field history
 
@@ -52,24 +62,31 @@ the address bar by the user.
 
 On Linux
 
-    /home/$USER/.opera/cache/
+```text
+/home/$USER/.opera/cache/
+```
 
 On MacOS-X
 
-    /Users/$USER/Library/Caches/Opera/cache/
+```text
+/Users/$USER/Library/Caches/Opera/cache/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Opera\Opera\cache\
+```text
+C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Opera\Opera\cache\
+```
 
 On Windows Vista, 7
 
-    C:\Users\%USERNAME%\AppData\Local\Opera\Opera\cache\
+```text
+C:\Users\%USERNAME%\AppData\Local\Opera\Opera\cache\
+```
 
 ## External Links
 
-- [Official website](https://www.opera.com:443/)
-- [Opera: Files used by Opera](https://help.opera.com/en/latest/)
-- [Opera MBS Viewer](https://www.freeviewer.org/mbs/)
-- [Opera
-  Forensics](https://www.mailxaminer.com/blog/opera-mailbox-forensics/)
+* [Official website](https://www.opera.com:443/)
+* [Opera: Files used by Opera](https://help.opera.com/en/latest/)
+* [Opera MBS Viewer](https://www.freeviewer.org/mbs/)
+* [Opera Forensics](https://www.mailxaminer.com/blog/opera-mailbox-forensics/)

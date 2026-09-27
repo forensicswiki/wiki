@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
-  -  Anti Virus
+  - Anti Virus
+  - Applications
 ---
 ## Quarantine directory
 
@@ -11,11 +11,15 @@ different version of Kaspersky Anti-Virus:
 
 On Windows 7:
 
-    C:\Documents and Settings\All Users\Application Data\Kaspersky Lab\AVP12\QB
+```text
+C:\Documents and Settings\All Users\Application Data\Kaspersky Lab\AVP12\QB
+```
 
 On Windows 7:
 
-    C:\ProgramData\Kaspersky Lab\AVP60MP4\QB
+```text
+C:\ProgramData\Kaspersky Lab\AVP60MP4\QB
+```
 
 The quarantine files are stored in the [Kaspersky Anti-Virus Quarantine
 File format](kaspersky_quarantine_file.md)
@@ -31,13 +35,15 @@ locations:
 
 On Windows 7:
 
-    C:\ProgramData\Kaspersky Lab\AVP60MP4\Report
+```text
+C:\ProgramData\Kaspersky Lab\AVP60MP4\Report
+```
 
 ## See Also
 
-- [Kaspersky Quarantine File](kaspersky_quarantine_file.md)
-- [Kaspersky Report File](kaspersky_report_file.md)
+* [Kaspersky Quarantine File](kaspersky_quarantine_file.md)
+* [Kaspersky Report File](kaspersky_report_file.md)
 
 ## External Links
 
-- [Kaspersky](https://www.kaspersky.com/)
+* [Kaspersky](https://www.kaspersky.com/)

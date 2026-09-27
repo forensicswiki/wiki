@@ -20,8 +20,10 @@ As an example, let's say we have an email purporting to be from
 can query the DNS records from that domain, in this case `mit.edu` to
 see the SPF senders.
 
-    $ host -t txt mit.edu
-    mit.edu descriptive text "v=spf1 ip4:18.7.7.0/24 ip4:18.7.21.0/24  ip4:18.72.0.0/16 ~all"
+```text
+$ host -t txt mit.edu
+mit.edu descriptive text "v=spf1 ip4:18.7.7.0/24 ip4:18.7.21.0/24  ip4:18.72.0.0/16 ~all"
+```
 
 Here we see that there are three computers authorized to send mail for
 the `mit.edu` domain. None of them have the IP address found on the
@@ -44,21 +46,27 @@ Messages sent using PGP, or its free equivalents such as GnuPG, have the
 signature in the message body itself. Each message can be signed,
 encrypted, or both. Encrypted messages begin with the header
 
-    -----BEGIN PGP MESSAGE-----
+```text
+-----BEGIN PGP MESSAGE-----
+```
 
 followed by some optional headers. The optional headers may include the
 character set of the decoded message, the program and version that
 created the message, and an optional comment. The end of the message is
 noted with
 
-    -----END PGP MESSAGE-----
+```text
+-----END PGP MESSAGE-----
+```
 
 Between these two lines are a series of ASCII characters that represent
 the encrypted or signed message.
 
 A signed message has the header
 
-    -----BEGIN PGP SIGNATURE-----
+```text
+-----BEGIN PGP SIGNATURE-----
+```
 
 at the *end* of the signed message followed by the same optional headers
 as encrypted messages. The signature is usually three lines of ASCII

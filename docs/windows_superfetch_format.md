@@ -13,14 +13,16 @@ proactive memory management.
 
 The `Ag*.db` files are of the SuperFetch file format. E.g.
 
-    AgAppLaunch.db
-    AgCx_SC*.db
-    AgGlFaultHistory.db
-    AgGlFgAppHistory.db
-    AgGlGlobalHistory.db
-    AgGlUAD_%SID%.db
-    AgGlUAD_P_%SID%.db
-    AgRobust.db
+```text
+AgAppLaunch.db
+AgCx_SC*.db
+AgGlFaultHistory.db
+AgGlFgAppHistory.db
+AgGlGlobalHistory.db
+AgGlUAD_%SID%.db
+AgGlUAD_P_%SID%.db
+AgRobust.db
+```
 
 The SuperFetch DB files can be stored in uncompressed or compressed
 form, where different version of Windows use different compressed forms:
@@ -137,7 +139,9 @@ single compressed stream.
 
 The `Ag*.db.trx` files are of the TRX file format. E.g.
 
-    AgCx_SC*.db.trx
+```text
+AgCx_SC*.db.trx
+```
 
 <b>Note that the following format specification is incomplete.</b>
 

@@ -3,15 +3,13 @@ tags:
   - Disk Encryption
   - Windows
 ---
-**BitLocker Disk Encryption** (BDE) is [Full Volume
-Encryption](full_volume_encryption.md) solution by
-[Microsoft](microsoft.md) first included with the Enterprise and
-Ultimate editions of [Windows Vista](windows.md). It is also
-present in [Windows 7](windows.md) and later version along with
-a system for encrypting removable storage media devices, like
-[USB](usb.md), which is called BitLocker To Go. Unlike previous
-versions of BitLocker, BitLocker To Go allows the user to protect
-volumes with a password or smart card.
+**BitLocker Disk Encryption** (BDE) is a [Full Volume Encryption](full_volume_encryption.md)
+solution by [Microsoft](microsoft.md) first included with the Enterprise an
+Ultimate editions of [Windows Vista](windows.md). It is also present in
+[Windows 7](windows.md) and later version along with a system for encrypting
+removable storage media devices, like [USB](usb.md), which is called BitLocker
+To Go. Unlike previous versions of BitLocker, BitLocker To Go allows the user
+to protect volumes with a password or smart card.
 
 ## BitLocker
 
@@ -52,12 +50,14 @@ A BitLocker encrypted volume starts with the "-FVE-FS-" signature.
 
 A hexdump of the start of the volume should look similar to:
 
-    00000000  eb 58 90 2d 46 56 45 2d  46 53 2d 00 02 08 00 00  |.X.-FVE-FS-.....|
-    00000010  00 00 00 00 00 f8 00 00  3f 00 ff 00 00 00 00 00  |........?.......|
-    00000020  00 00 00 00 e0 1f 00 00  00 00 00 00 00 00 00 00  |................|
-    00000030  01 00 06 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
-    00000040  80 00 29 00 00 00 00 4e  4f 20 4e 41 4d 45 20 20  |..)....NO NAME  |
-    00000050  20 20 46 41 54 33 32 20  20 20 33 c9 8e d1 bc f4  |  FAT32   3.....|
+```text
+00000000  eb 58 90 2d 46 56 45 2d  46 53 2d 00 02 08 00 00  |.X.-FVE-FS-.....|
+00000010  00 00 00 00 00 f8 00 00  3f 00 ff 00 00 00 00 00  |........?.......|
+00000020  00 00 00 00 e0 1f 00 00  00 00 00 00 00 00 00 00  |................|
+00000030  01 00 06 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000040  80 00 29 00 00 00 00 4e  4f 20 4e 41 4d 45 20 20  |..)....NO NAME  |
+00000050  20 20 46 41 54 33 32 20  20 20 33 c9 8e d1 bc f4  |  FAT32   3.....|
+```
 
 These volumes can also be identified by a GUID:
 
@@ -66,30 +66,40 @@ These volumes can also be identified by a GUID:
 
 Which in a hexdump of the start of the volume should look similar to:
 
-    000000a0  3b d6 67 49 29 2e d8 4a  83 99 f6 a3 39 e3 d0 01  |;.gI)..J....9...|
+```text
+000000a0  3b d6 67 49 29 2e d8 4a  83 99 f6 a3 39 e3 d0 01  |;.gI)..J....9...|
+```
 
 ## manage-bde
 
 To view the BitLocker Drive Encryption (BDE) status on a running Windows
 system:
 
-    manage-bde.exe -status
+```text
+manage-bde.exe -status
+```
 
 To obtain the recovery password for volume C:
 
-    manage-bde.exe -protectors -get C: -Type recoverypassword
+```text
+manage-bde.exe -protectors -get C: -Type recoverypassword
+```
 
 Or just obtain the all “protectors” for volume C:
 
-    manage-bde.exe -protectors -get C:
+```text
+manage-bde.exe -protectors -get C:
+```
 
 ### manage-bdg.wsf
 
 You can unlock a drive with the cscript command, leaving the master key
 in the clear by using these commands:
 
-    cscript manage-bdg.wsf unlock c:
-    cscript manage-bdg.wsf autounlock enable c:
+```text
+cscript manage-bdg.wsf unlock c:
+cscript manage-bdg.wsf autounlock enable c:
+```
 
 ### Changes in Bitlocker for Windows 10
 

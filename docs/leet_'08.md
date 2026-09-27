@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Training
+  - Research
+  - Training
 ---
 As the Internet has become a universal mechanism for commerce and
 communication, it has also become an attractive medium for online
@@ -25,32 +25,31 @@ framework, or the social and economic networks driving these threats.
 
 Topics of interest include, but are not limited to:
 
-
-    - Infection vectors for malware (worms, viruses, etc.)
-    - Botnets, command, and control channels
-    - Spyware
-    - Operational experience
-    - Forensics
-    - Click fraud
-    - Measurement studies
-    - New threats and related challenges
-    - Boutique and targeted malware
-    - Phishing
-    - Spam
-    - Underground markets
-    - Carding and identity theft
-    - Miscreant counterintelligence
-    - Denial-of-service attacks
-    - Hardware vulnerabilities
-    - Legal issues
-    - The arms race (rootkits, anti-anti-virus, etc.)
-    - New platforms (cellular networks, wireless networks, mobile devices)
-    - Camouflage and detection
-    - Reverse engineering
-    - Vulnerability markets and zero-day economics
-    - Online money laundering
-    - Understanding the enemy
-    - Data collection challenges
+* Infection vectors for malware (worms, viruses, etc.)
+* Botnets, command, and control channels
+* Spyware
+* Operational experience
+* Forensics
+* Click fraud
+* Measurement studies
+* New threats and related challenges
+* Boutique and targeted malware
+* Phishing
+* Spam
+* Underground markets
+* Carding and identity theft
+* Miscreant counterintelligence
+* Denial-of-service attacks
+* Hardware vulnerabilities
+* Legal issues
+* The arms race (rootkits, anti-anti-virus, etc.)
+* New platforms (cellular networks, wireless networks, mobile devices)
+* Camouflage and detection
+* Reverse engineering
+* Vulnerability markets and zero-day economics
+* Online money laundering
+* Understanding the enemy
+* Data collection challenges
 
 LEET '08 will be a one-day event, Tuesday, April 15, 2008, co-located
 with the 5th USENIX Symposium on Networked Systems Design and

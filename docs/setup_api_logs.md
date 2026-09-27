@@ -6,18 +6,24 @@ tags:
 ---
 Windows XP:
 
-    \Windows\setupapi.log
-    \Windows\setupapi.log.old
+```text
+\Windows\setupapi.log
+\Windows\setupapi.log.old
+```
 
 Windows 7 and later:
 
-    \Windows\inf\setupapi.app.log
-    \Windows\inf\setupapi.dev.log
-    \Windows\inf\setupapi.offline.log
+```text
+\Windows\inf\setupapi.app.log
+\Windows\inf\setupapi.dev.log
+\Windows\inf\setupapi.offline.log
+```
 
 Windows 10 and later:
 
-    \Windows\inf\setupapi.upgrade.log
+```text
+\Windows\inf\setupapi.upgrade.log
+```
 
 ## External Links
 

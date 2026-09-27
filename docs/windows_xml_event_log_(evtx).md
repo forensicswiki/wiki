@@ -4,9 +4,8 @@ tags:
   - Windows
   - XML
 ---
-The Windows XML Event Log (EVTX) format was introduced in [Windows
-Vista](windows.md) as a replacement for the [Windows Event Log
-(evt)](windows_event_log_(evt).md) format.
+The Windows XML Event Log (EVTX) format was introduced in [Windows Vista](windows.md)
+as a replacement for the [Windows Event Log (evt)](windows_event_log_(evt).md) format.
 
 ## Event Viewer
 
@@ -22,14 +21,17 @@ If you export an event log from Event Viewer additional "display
 information" can be exported. This display information is stored in a
 corresponding file named:
 
-    LocaleMetaData\%FILENAME%_%LCID%.MTA
+```text
+LocaleMetaData\%FILENAME%_%LCID%.MTA
+```
 
-Where LCID is the "locale identifier"
-[1](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
+Where LCID is the [locale identifier](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/).
 
 ## Location
 
-    C:\Windows\system32\winevt\Logs
+```text
+C:\Windows\system32\winevt\Logs
+```
 
 ## See Also
 

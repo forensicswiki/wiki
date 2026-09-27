@@ -14,23 +14,25 @@ as the Distributed Management Task Force).
 The Managed Object Format (MOF) is the language used to describe Common
 Information Model (CIM) classes.
 
-The CIM database [consists of multiple
-files](https://github.com/libyal/dtformats/blob/main/documentation/WMI%20repository%20file%20format.asciidoc)
+The CIM database [consists of multiple files](https://github.com/libyal/dtformats/blob/main/documentation/WMI%20repository%20file%20format.asciidoc)
 (OBJECTS.DATA, MAPPING\*.MAP, INDEX.BTR and prior to Windows Vista
 MAPPING.VER) that are located in the following directories:
 
-    "C:\Windows\System32\WBEM\repository\" on Vista+
-    "C:\Windows\System32\WBEM\repository\FS\" on WinXP/Win2003
+```text
+"C:\Windows\System32\WBEM\repository\" on Vista+
+"C:\Windows\System32\WBEM\repository\FS\" on WinXP/Win2003
+```
 
-There could also be [copies of the CIM database
-files](https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/),
+There could also be [copies of the CIM database files](https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/),
 in the following locations:
 
-    "C:\Windows\System32\WBEM\repository.001\"
-    "C:\Windows\System32\WBEM\repository.001\FS\"
-    "C:\Windows\System32\WBEM\repository.002\"
-    "C:\Windows\System32\WBEM\repository.002\FS\"
-    ...
+```text
+"C:\Windows\System32\WBEM\repository.001\"
+"C:\Windows\System32\WBEM\repository.001\FS\"
+"C:\Windows\System32\WBEM\repository.002\"
+"C:\Windows\System32\WBEM\repository.002\FS\"
+...
+```
 
 ## External Links
 

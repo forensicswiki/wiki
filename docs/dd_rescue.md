@@ -21,7 +21,9 @@ Here is a common dd_rescue command:
 
 **UNIX/Linux**
 
-    $ dd_rescue /dev/hda myfile.img
+```bash
+$ dd_rescue /dev/hda myfile.img
+```
 
 **STDOUT**
 
@@ -33,11 +35,15 @@ block/file.
 One example of this usage would be transferring a disk image over the
 network using ssh.
 
-    dd_rescue /dev/sda1 - | ssh user@remote.host "cat - > /remote/destination/file.img"
+```bash
+dd_rescue /dev/sda1 - | ssh user@remote.host "cat - > /remote/destination/file.img"
+```
 
 Another example would be adding compression to an image file on the fly.
 
-    dd_rescue /dev/sda1 - | bzip2 > /dir/file.img.bz2
+```bash
+dd_rescue /dev/sda1 - | bzip2 > /dir/file.img.bz2
+```
 
 ## Cautions
 
@@ -46,8 +52,8 @@ line arguments `if` or `of`.
 
 ## See also
 
-- [aimage](aimage.md)
-- [Blackbag](blackbag.md)
-- [dcfldd](dcfldd.md)
-- [dd](dd.md)
-- [ddrescue](ddrescue.md)
+* [aimage](aimage.md)
+* [Blackbag](blackbag.md)
+* [dcfldd](dcfldd.md)
+* [dd](dd.md)
+* [ddrescue](ddrescue.md)

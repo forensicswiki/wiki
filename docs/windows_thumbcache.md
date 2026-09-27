@@ -7,7 +7,9 @@ tags:
 [Windows Vista](windows_vista.md) stores [thumbnails](thumbnails.md) in the
 following directory:
 
-    \Users\%username%\AppData\Local\Microsoft\Windows\Explorer
+```text
+\Users\%username%\AppData\Local\Microsoft\Windows\Explorer
+```
 
 This directory contains following files:
 

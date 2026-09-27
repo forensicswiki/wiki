@@ -30,15 +30,14 @@ first introduced on Windows 7 and are also available on Windows 8.
 
 The prefetch hash function is similar to Windows 2008.
 
-The [Windows Prefetch File
-Format](windows_prefetch_file_format.md) was changed on Windows
-8.1 to version 26. (note this could be Windows 8 as well but has not
+The [Windows Prefetch File Format](windows_prefetch_file_format.md) was changed
+on Windows 8.1 to version 26. (note this could be Windows 8 as well but has not
 been confirmed)
 
 ## Registry
 
-The [Windows Registry](windows_registry.md) remains a core
-component of the Windows operating system.
+The [Windows Registry](windows_registry.md) remains a core component of the
+Windows operating system.
 
 ## Application Experience and Compatibility
 
@@ -46,7 +45,9 @@ On Windows 8 Amcache.hve replaces RecentFileCache.bcf and uses the
 [Windows NT Registry File (regf)](windows_nt_registry_file_(regf).md) format.
 A common location for Amcache.hve is:
 
-    C:\Windows\AppCompat\Programs\Amcache.hve
+```text
+C:\Windows\AppCompat\Programs\Amcache.hve
+```
 
 ## See Also
 
@@ -56,7 +57,8 @@ A common location for Amcache.hve is:
 
 ## External Links
 
-* [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8), Wikipedia
+* [Features new to Windows 8](https://en.wikipedia.org/wiki/Features_new_to_Windows_8),
+   Wikipedia
 * [Windows 8 Registry Forensics](https://www.dataforensics.org/windows-8-file-history-forensics/)
 * [Windows 8 Forensic Guide](https://elhacker.info/manuales/An%C3%A1lisis%20forense/thomson_windows-8-forensic-guide2.pdf),
   by Amanda C. F. Thomson, 2012

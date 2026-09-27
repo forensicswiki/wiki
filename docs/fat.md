@@ -607,47 +607,49 @@ use smaller cluster sizes whenever possible.
 Python code to convert a FAT date and time value into a Python datetime
 object.
 
-    import datetime
+```python
+import datetime
 
-    def FromFatDateTime(fat_date_time):
-      """Converts a FAT date and time into a Python datetime object.
+def FromFatDateTime(fat_date_time):
+  """Converts a FAT date and time into a Python datetime object.
 
-      FAT date time is mainly used in DOS/Windows file formats and FAT.
+  FAT date time is mainly used in DOS/Windows file formats and FAT.
 
-      The FAT date and time is a 32-bit value containing two 16-bit values:
-        * The date (lower 16-bit).
-          * bits 0 - 4:  day of month, where 1 represents the first day
-          * bits 5 - 8:  month of year, where 1 represent January
-          * bits 9 - 15: year since 1980
-        * The time of day (upper 16-bit).
-          * bits 0 - 4: seconds (in 2 second intervals)
-          * bits 5 - 10: minutes
-          * bits 11 - 15: hours
+  The FAT date and time is a 32-bit value containing two 16-bit values:
+    * The date (lower 16-bit).
+      * bits 0 - 4:  day of month, where 1 represents the first day
+      * bits 5 - 8:  month of year, where 1 represent January
+      * bits 9 - 15: year since 1980
+    * The time of day (upper 16-bit).
+      * bits 0 - 4: seconds (in 2 second intervals)
+      * bits 5 - 10: minutes
+      * bits 11 - 15: hours
 
-      Args:
-        fat_date_time: The 32-bit FAT date time.
+  Args:
+    fat_date_time: The 32-bit FAT date time.
 
-      Returns:
-        A datetime object containing the date and time or None.
-      """
-      day_of_month = (fat_date_time & 0x1f)
-      month = ((fat_date_time >> 5) & 0x0f)
-      year = (fat_date_time >> 9) & 0x7f
+  Returns:
+    A datetime object containing the date and time or None.
+  """
+  day_of_month = (fat_date_time & 0x1f)
+  month = ((fat_date_time >> 5) & 0x0f)
+  year = (fat_date_time >> 9) & 0x7f
 
-      if day_of_month < 0 or day_of_month > 30 or month < 0 or month > 11:
-        return None
+  if day_of_month < 0 or day_of_month > 30 or month < 0 or month > 11:
+    return None
 
-      fat_date_time >>= 16
+  fat_date_time >>= 16
 
-      seconds = (fat_date_time & 0x1f) * 2
-      minutes = (fat_date_time >> 5) & 0x3f
-      hours = (fat_date_time >> 11) & 0x1f
+  seconds = (fat_date_time & 0x1f) * 2
+  minutes = (fat_date_time >> 5) & 0x3f
+  hours = (fat_date_time >> 11) & 0x1f
 
-      if hours > 23 or minutes > 59 or seconds > 59:
-        return None
+  if hours > 23 or minutes > 59 or seconds > 59:
+    return None
 
-      return datetime.datetime(
-          1980 + year, month, day_of_month, hours, minutes, seconds)
+  return datetime.datetime(
+      1980 + year, month, day_of_month, hours, minutes, seconds)
+```
 
 ## External links
 

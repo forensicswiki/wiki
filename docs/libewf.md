@@ -1,12 +1,12 @@
 ---
 tags:
-  - Libyal
   - Disk Imaging
-  - Tools
+  - Libyal
   - Linux
-  - Windows
   - MacOS
   - Open Source Software
+  - Tools
+  - Windows
 ---
 **Libewf** is a library to access the [Expert Witness Compression Format (ewf)](encase_image_file_format.md).
 
@@ -14,60 +14,60 @@ tags:
 
 Read or write supported EWF formats:
 
-- [SMART](smart.md)
-- [EnCase](encase.md)
+* [SMART](smart.md)
+* [EnCase](encase.md)
 
 Read-only supported EWF formats:
 
-- Logical Evidence File (LEF) .L01 (EWF-L01) and .Lx01 (EWF2-Lx01)
+* Logical Evidence File (LEF) .L01 (EWF-L01) and .Lx01 (EWF2-Lx01)
 
 Other features:
 
-- empty-block compression
-- read/write access using delta (or shadow) files
-- write resume
+* empty-block compression
+* read/write access using delta (or shadow) files
+* write resume
 
 ## Tools
 
 The **libewf** package contains the following tools:
 
-- **ewfacquire**, which writes storage media data from devices and files
+* **ewfacquire**, which writes storage media data from devices and files
   to EWF files.
-- **ewfacquirestream**, which writes data from stdin to EWF files.
-- **ewfdebug**; experimental tool does nothing at the moment.
-- **ewfexport**, which exports storage media data in EWF files to
+* **ewfacquirestream**, which writes data from stdin to EWF files.
+* **ewfdebug**; experimental tool does nothing at the moment.
+* **ewfexport**, which exports storage media data in EWF files to
   (split) RAW format or a specific version of EWF files.
-- **ewfinfo**, which shows the metadata in EWF files.
-- **ewfmount**, which FUSE mounts EWF files.
-- **ewfrecover**; special variant of ewfexport to create a new set of
+* **ewfinfo**, which shows the metadata in EWF files.
+* **ewfmount**, which FUSE mounts EWF files.
+* **ewfrecover**; special variant of ewfexport to create a new set of
   EWF files from a corrupt set.
-- **ewfverify**, which verifies the storage media data in EWF files.
-- **ewfaquirestream-mt**, C++ 11 multi-threaded version of
+* **ewfverify**, which verifies the storage media data in EWF files.
+* **ewfaquirestream-mt**, C++ 11 multi-threaded version of
   ewfacquirestream contributed by Bernhard Zach in 2013.
 
 The **libewf** package also contains the following bindings:
 
-- **ewf.net**, bindings for .Net
-- **pyewf**, bindings for Python contributed by David Collett in 2008
+* **ewf.net**, bindings for .Net
+* **pyewf**, bindings for Python contributed by David Collett in 2008
 
 ### Contributions
 
 Tools that have been contributed to the project are provided as separate
 tools on the sourceforge libewf project site. These are:
 
-- **mount_ewf.py**, which allows the storage media data in a EWF files
+* **mount_ewf.py**, which allows the storage media data in a EWF files
   to be mounted, contributed by David Loveall in 2007.
-- **libewf-java**, Java (JNA) bindings were contributed by [Bradley
-  Schatz](bradley_schatz.md) in 2009.
-- **delphi imdisk proxy**, Borland Delphi imdisk proxy, as an
+* **libewf-java**, Java (JNA) bindings were contributed by
+  [Bradley Schatz](bradley_schatz.md) in 2009.
+* **delphi imdisk proxy**, Borland Delphi imdisk proxy, as an
   alternative to mount_ewf.py for Windows, contributed by Brendan
   Berney in 2010. In 2014 this was updated
   by Erwan L and is currently maintained as a separate project
   [here](http://labalec.fr/erwan/?p=1235).
-- **jlibewf**, native Java EWF reader contributed by [Bruce
-  Allen](bruce_allen.md) in 2010.
-- **libewfcs**, native C# EWF reader contributed by [Bruce
-  Allen](bruce_allen.md) in 2011.
+* **jlibewf**, native Java EWF reader contributed by
+  [Bruce Allen](bruce_allen.md) in 2010.
+* **libewfcs**, native C# EWF reader contributed by
+  [Bruce Allen](bruce_allen.md) in 2011.
 
 A menu based interface for ewfacquirestream called pyEWF, contributed by Dennis
 Schreiber, was originally also available on the uitwisselplatform project site.
@@ -80,65 +80,93 @@ is now included in the libewf package.
 
 Imaging a device on a Unix-based system:
 
-    ewfacquire /dev/sda
+```bash
+ewfacquire /dev/sda
+```
 
 Imaging a device on a Windows system:
 
-    ewfacquire \\.\PhysicalDrive0
+```bash
+ewfacquire \\.\PhysicalDrive0
+```
 
 Converting a RAW into an EWF image
 
-    ewfacquire myfile.raw
+```bash
+ewfacquire myfile.raw
+```
 
 or:
 
-    ewfacquire -c best -m fixed -t myfile -S 1T -u [-q] myfile.raw
+```bash
+ewfacquire -c best -m fixed -t myfile -S 1T -u [-q] myfile.raw
+```
 
 or
 
-    cat split.raw.??? | ewfacquirestream
-    cat myfile.??? | ewfacquirestream  -c best -m fixed -t myfile -S 1T
+```bash
+cat split.raw.??? | ewfacquirestream
+cat myfile.??? | ewfacquirestream  -c best -m fixed -t myfile -S 1T
+```
 
 Converting an optical disc (split) RAW into an EWF image (libewf
 20110109 or later)
 
-    ewfacquire -T optical.cue optical.iso
+```bash
+ewfacquire -T optical.cue optical.iso
+```
 
 Converting an EWF into another EWF format or a (split) RAW image
 
-    ewfexport image.E01
+```bash
+ewfexport image.E01
+```
 
 Exporting files from a logical image (L01)
 
-    ewfexport image.L01
+```bash
+ewfexport image.L01
+```
 
 FUSE mounting an EWF image (libewf 20110828 or later)
 
-    ewfmount image.E01 mount_point
+```bash
+ewfmount image.E01 mount_point
+```
 
 FUSE mounting a logical image (L01) (libewf 20111016 or later)
 
-    ewfmount -f files image.L01 mount_point
+```bash
+ewfmount -f files image.L01 mount_point
+```
 
 Verify an single image with results to the screen
 
-    ewfverify image.E01
+```bash
+ewfverify image.E01
+```
 
 From a linux shell, verify a group of images in subdirectories of the
 current directory creating a simple log file per image.
 
-    find . -name \*.E01 -printf '%f %p\n' | xargs printf "ewfverify -l \$(basename -s .E01 %s).ewfverify.out  %s\n" | sh
+```bash
+find . -name \*.E01 -printf '%f %p\n' | xargs printf "ewfverify -l \$(basename -s .E01 %s).ewfverify.out  %s\n" | sh
+```
 
 or
 
-    find . -name '*.E01' | while read F
-    do
-      echo ewfverify -l "$(basename -s .E01 $F).ewfverify.out" "$F"
-    done
+```bash
+find . -name '*.E01' | while read F
+do
+    echo ewfverify -l "$(basename -s .E01 $F).ewfverify.out" "$F"
+done
+```
 
 On Mac OS X you can run hdiutil on a mounted EWF file set:
 
-    hdiutil attach -imagekey diskimage-class=CRawDiskImage fuse/ewf1
+```bash
+hdiutil attach -imagekey diskimage-class=CRawDiskImage fuse/ewf1
+```
 
 ## History
 
@@ -167,8 +195,8 @@ added.
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libewf/) -
+* [Project site](https://github.com/libyal/libewf/) -
   [Building libewf and tools from source](https://github.com/libyal/libewf/wiki/Building)
-- [Mounting a set of EWF file(s)](https://github.com/libyal/libewf/wiki/Mounting)
-- [Old project site](https://sourceforge.net/projects/libewf/)
-- [Build a dynamic Libewf dll, using MinGW or Borland C++ 5.5](https://www.isobuster.com/tips/build_libewf_dll_for_isobuster)
+* [Mounting a set of EWF file(s)](https://github.com/libyal/libewf/wiki/Mounting)
+* [Old project site](https://sourceforge.net/projects/libewf/)
+* [Build a dynamic Libewf dll, using MinGW or Borland C++ 5.5](https://www.isobuster.com/tips/build_libewf_dll_for_isobuster)

@@ -52,98 +52,116 @@ Documentation on OOXML may provide a guide to analysing a DOCX file.
 
 ## Content types
 
-    [Content_Types].xml
+```text
+[Content_Types].xml
+```
 
-    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <Types ns="http://schemas.openxmlformats.org/package/2006/content-types">
-    <Default Extension="emf" ContentType="image/x-emf"/>
-    <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
-    <Default Extension="xml" ContentType="application/xml"/>
-    <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>
-    <Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>
-    <Override PartName="/word/stylesWithEffects.xml" ContentType="application/vnd.ms-word.stylesWithEffects+xml"/>
-    <Override PartName="/word/settings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml"/>
-    <Override PartName="/word/webSettings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml"/>
-    <Override PartName="/word/fontTable.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml"/>
-    <Override PartName="/word/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>
-    <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>
-    <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>
-    </Types>
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types ns="http://schemas.openxmlformats.org/package/2006/content-types">
+<Default Extension="emf" ContentType="image/x-emf"/>
+<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+<Default Extension="xml" ContentType="application/xml"/>
+<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>
+<Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>
+<Override PartName="/word/stylesWithEffects.xml" ContentType="application/vnd.ms-word.stylesWithEffects+xml"/>
+<Override PartName="/word/settings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml"/>
+<Override PartName="/word/webSettings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml"/>
+<Override PartName="/word/fontTable.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml"/>
+<Override PartName="/word/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>
+<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>
+<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>
+</Types>
+```
 
 ## Relationships
 
-    _rels/.rels
+```text
+_rels/.rels
+```
 
-    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <Relationships ns="http://schemas.openxmlformats.org/package/2006/relationships">
-    <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
-    <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail" Target="docProps/thumbnail.emf"/>
-    <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
-    <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
-    </Relationships>
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships ns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail" Target="docProps/thumbnail.emf"/>
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+</Relationships>
+```
 
 Other relationship files:
 
-    word/_rels/document.xml.rels
+```text
+word/_rels/document.xml.rels
+```
 
 ## Document properties - core
 
-    docProps/core.xml
+```text
+docProps/core.xml
+```
 
-    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <cp:coreProperties
-        xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:dcterms="http://purl.org/dc/terms/"
-        xmlns:dcmitype="http://purl.org/dc/dcmitype/"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <dc:creator>User 1</dc:creator>
-    <cp:lastModifiedBy>User 2</cp:lastModifiedBy>
-    <cp:revision>3</cp:revision>
-    <dcterms:created xsi:type="dcterms:W3CDTF">2012-11-07T23:29:00Z</dcterms:created>
-    <dcterms:modified xsi:type="dcterms:W3CDTF">2013-08-25T22:18:00Z</dcterms:modified>
-    </cp:coreProperties>
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:coreProperties
+    xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dc:creator>User 1</dc:creator>
+<cp:lastModifiedBy>User 2</cp:lastModifiedBy>
+<cp:revision>3</cp:revision>
+<dcterms:created xsi:type="dcterms:W3CDTF">2012-11-07T23:29:00Z</dcterms:created>
+<dcterms:modified xsi:type="dcterms:W3CDTF">2013-08-25T22:18:00Z</dcterms:modified>
+</cp:coreProperties>
+```
 
 ## Document properties - extended: application
 
-    docProps/app.xml
+```text
+docProps/app.xml
+```
 
-    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <Properties
-        ns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"
-        xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
-    <Template>Normal.dotm</Template>
-        <TotalTime>1385</TotalTime>
-        <Pages>1</Pages>
-        <Words>2</Words>
-        <Characters>13</Characters>
-        <Application>Microsoft Office Word</Application>
-        <DocSecurity>0</DocSecurity>
-        <Lines>1</Lines>
-        <Paragraphs>1</Paragraphs>
-        <ScaleCrop>false</ScaleCrop>
-        <HeadingPairs>
-            <vt:vector size="2" baseType="variant">
-                <vt:variant>
-                    <vt:lpstr>Title</vt:lpstr>
-                </vt:variant>
-                <vt:variant>
-                    <vt:i4>1</vt:i4>
-                </vt:variant>
-            </vt:vector>
-        </HeadingPairs>
-        <TitlesOfParts>
-            <vt:vector size="1" baseType="lpstr">
-                <vt:lpstr></vt:lpstr>
-            </vt:vector>
-        </TitlesOfParts>
-        <Company></Company>
-        <LinksUpToDate>false</LinksUpToDate>
-        <CharactersWithSpaces>14</CharactersWithSpaces>
-        <SharedDoc>false</SharedDoc>
-        <HyperlinksChanged>false</HyperlinksChanged>
-        <AppVersion>14.0000</AppVersion>
-    </Properties>
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Properties
+    ns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"
+    xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+<Template>Normal.dotm</Template>
+    <TotalTime>1385</TotalTime>
+    <Pages>1</Pages>
+    <Words>2</Words>
+    <Characters>13</Characters>
+    <Application>Microsoft Office Word</Application>
+    <DocSecurity>0</DocSecurity>
+    <Lines>1</Lines>
+    <Paragraphs>1</Paragraphs>
+    <ScaleCrop>false</ScaleCrop>
+    <HeadingPairs>
+        <vt:vector size="2" baseType="variant">
+            <vt:variant>
+                <vt:lpstr>Title</vt:lpstr>
+            </vt:variant>
+            <vt:variant>
+                <vt:i4>1</vt:i4>
+            </vt:variant>
+        </vt:vector>
+    </HeadingPairs>
+    <TitlesOfParts>
+        <vt:vector size="1" baseType="lpstr">
+            <vt:lpstr></vt:lpstr>
+        </vt:vector>
+    </TitlesOfParts>
+    <Company></Company>
+    <LinksUpToDate>false</LinksUpToDate>
+    <CharactersWithSpaces>14</CharactersWithSpaces>
+    <SharedDoc>false</SharedDoc>
+    <HyperlinksChanged>false</HyperlinksChanged>
+    <AppVersion>14.0000</AppVersion>
+</Properties>
+```
 
 # External Links
 

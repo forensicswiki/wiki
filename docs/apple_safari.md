@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  iOS
-  -  MacOS
-  -  Windows
-  -  Commercial Software
-  -  Web Browsers
+  - Commercial Software
+  - iOS
+  - MacOS
+  - Tools
+  - Web Browsers
+  - Windows
+  - Windows
 ---
 Apple Safari is the default [web browser](web_browser.md)
 included with [Mac OS X](mac_os_x.md).
@@ -20,29 +20,41 @@ The user directory:
 
 On MacOS-X
 
-    /Users/$USER/Library/Safari/
+```text
+/Users/$USER/Library/Safari/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Application Data\Apple Computer\Safari\
+```text
+C:\Documents and Settings\%USERNAME%\Application Data\Apple Computer\Safari\
+```
 
 On Windows 7
 
-    C:\Users\{user}\AppData\Roaming\Apple Computer\Safari\
+```text
+C:\Users\{user}\AppData\Roaming\Apple Computer\Safari\
+```
 
 The cache directory:
 
 On MacOS-X
 
-    /Users/$USER/Library/Caches/com.apple.Safari/
+```text
+/Users/$USER/Library/Caches/com.apple.Safari/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Apple Computer\Safari\
+```text
+C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Apple Computer\Safari\
+```
 
 On Windows 7
 
-    C:\Users\{user}\AppData\Local\Apple Computer\Safari\
+```text
+C:\Users\{user}\AppData\Local\Apple Computer\Safari\
+```
 
 ## History
 
