@@ -1,0 +1,38 @@
+{
+    "mode": {
+        "strict-config": true
+    },
+    "plugins": {
+        "code-block-style": {
+            "style": "fenced"
+        },
+        "fenced-code-language": {
+            "enabled": true
+        },
+        "hr-style": {
+            "style": "---"
+        },
+        "line-length": {
+            "enabled": false
+        },
+        "no-duplicate-heading": {
+            "enabled": true,
+            "siblings_only": true
+        },
+        "no-inline-html": {
+            "enabled": false
+        },
+        "ol-prefix": {
+            "style": "ordered"
+        },
+        "ul-style": {
+            "enabled": true,
+            "style": "asterisk"
+        }
+    },
+    "extensions": {
+        "front-matter": {
+            "enabled": true
+        }
+    }
+}
