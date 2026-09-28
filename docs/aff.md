@@ -95,8 +95,6 @@ encrypted images.
 
 * [AFF Developers Guide](aff_developers_guide.md) --- A guide
   for programmers on how to use the AFF
-* [AFF Development Task List](aff_development_task_list.md) ---
-  Want to help with AFF? Here is a list of things that need to be done.
 
 ## External Links
 
