@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - File Systems
 ---
 YAFFS2 (Yet Another Flash File System) is a file system which is used in
 many modern smartphones and which is build for NAND and NOR flash.
@@ -9,6 +9,6 @@ implementation, the behavior of YAFFS2 is not very well understood. Ad-
 ditionally, several aspects like wear-leveling and garbage- collection
 are not well-specified in the standard.
 
-## More Information
+## External links
 
-- The official YAFFS2 website: [2](https://yaffs.net/)
+* [official website](https://yaffs.net/)

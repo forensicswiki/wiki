@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 Guymager is an open source forensic imager. It focuses on user
 friendliness and high speed.
@@ -10,4 +10,4 @@ for the [imaging process](disk_imaging.md).
 
 ## External Links
 
-- [guymager homepage](https://guymager.sourceforge.io/)
+* [guymager homepage](https://guymager.sourceforge.io/)

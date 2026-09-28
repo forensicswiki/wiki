@@ -200,10 +200,10 @@ client side tools for ESXi, but also on the ESXi ssh shell.
 To make a snapshot on the ESXi ssh shell the following commands can be
 used:
 
-- vim-cmd vmsvc/getallvms
-- vim-cmd vmsvc/get.summary vmid \| grep \[some identity e.g. ip address
+* vim-cmd vmsvc/getallvms
+* vim-cmd vmsvc/get.summary vmid \| grep \[some identity e.g. ip address
   if name is not known\]
-- vim-cmd vmsvc/snapshot.create vmid \[snapshotName\]
+* vim-cmd vmsvc/snapshot.create vmid \[snapshotName\]
   \[snapshotDescription\] \[includeMemory (thus 1)\] \[quiesced\]
 
 
@@ -215,6 +215,6 @@ non-converted dump.
 
 ## See Also
 
-- [Linux Memory Analysis](linux_memory_analysis.md)
-- [Memory Imaging](memory_imaging.md)
-- [Windows Memory Analysis](windows_memory_analysis.md)
+* [Linux Memory Analysis](linux_memory_analysis.md)
+* [Memory Imaging](memory_imaging.md)
+* [Windows Memory Analysis](windows_memory_analysis.md)

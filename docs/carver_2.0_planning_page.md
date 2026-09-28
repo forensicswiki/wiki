@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Research
 ---
 This page is for planning Carver 2.0.
 
@@ -26,12 +26,12 @@ the recovery of fragmented multimedia files (movies) or fragmented JPEG
 files (experimental). The following features have already been
 implemented:
 
-- Multi-Platform support (Linux and Windows)
-- Graphical User Interface (PySide)
-- Backend in C (performance critical); GUI in Python
-- Support for Multi-Processing during the classification phase
-- Support for Multi-Processing during the reassembly phase (ffmpeg)
-- Support for The Sleuth Kit (TSK) to identify unallocated blocks
+* Multi-Platform support (Linux and Windows)
+* Graphical User Interface (PySide)
+* Backend in C (performance critical); GUI in Python
+* Support for Multi-Processing during the classification phase
+* Support for Multi-Processing during the reassembly phase (ffmpeg)
+* Support for The Sleuth Kit (TSK) to identify unallocated blocks
 
 # License
 
@@ -92,7 +92,7 @@ systems than on supporting building and running on non POSIX systems.
 
 # Name tooling
 
-- Joachim A name for the tooling I
+* Joachim A name for the tooling I
   propose coldcut
 
 
@@ -102,14 +102,14 @@ How about 'butcher'? ;) RB 14:20, 31 October 2008
 
 Joachim cleaver ( scalpel on steroids ;-) )
 
-- I would like to propose Gouge or Chisel :-) Rob J Meijer
+* I would like to propose Gouge or Chisel :-) Rob J Meijer
 
 # Requirements
 
 Joachim Could we do a MoSCoW evaluation
 of these.
 
-- AFF and EWF file images supported from scratch.
+* AFF and EWF file images supported from scratch.
   (Joachim I would like to have
   raw/split raw and device access as well)
 
@@ -137,18 +137,18 @@ proponent of making small things that do one and do one thing right, and
 to stack those to do what you need. In my view that would lead ideally
 to the following (simplified) chain:
 
-- recursive [computer forensics
+* recursive [computer forensics
   framework](computer_forensics_framework.md)
-  - <b>The-(pola-based)-carving-tool</b>
-    - <b>The-carving-lib</b> working on open fd's.
-      - libcarvpath
-        - carvfs (Over cifs/nfs-v4 on platforms that don't support
+  * <b>The-(pola-based)-carving-tool</b>
+    * <b>The-carving-lib</b> working on open fd's.
+      * libcarvpath
+        * carvfs (Over cifs/nfs-v4 on platforms that don't support
           Fuse).
-          - libewf
-          - libaff
-    - AppArmor (on supporting platforms)
-    - suid (on supporting platforms)
-    - iptables/ipfw (on supporting platforms)
+          * libewf
+          * libaff
+    * AppArmor (on supporting platforms)
+    * suid (on supporting platforms)
+    * iptables/ipfw (on supporting platforms)
 
 As fow windows support, I would imagine making carvfs run over smb would
 come a long way, that is for as far as windows support is all that
@@ -157,10 +157,10 @@ relevant.
 There are two advantages to using libcarvpath and carvfs instead of
 libaff/libewf t this layer:
 
-- storage requirements for doing carving. Beyond what sleuthkit or
+* storage requirements for doing carving. Beyond what sleuthkit or
   alternatives provide I have seen many situations where carving was not
   done due to storage limitations.
-- File handles are like object capabilities. You can often do pretty
+* File handles are like object capabilities. You can often do pretty
   simple POLA based implementations using file handles and something
   like AppArmor. POLA could IMHO be a strong weapon against the more
   nasty forms of anti forensics.
@@ -196,23 +196,23 @@ for this approach.
 Joachim this layer should support multi
 threaded decompression of compressed image types, this speeds up IO
 
-- Joachim volume/partition aware layer
+* Joachim volume/partition aware layer
   (what about carving unpartioned space)
-- File system aware layer. This could be or make use of tsk-cp.
-  - By default, files are not carved. (clarify: only identified?
+* File system aware layer. This could be or make use of tsk-cp.
+  * By default, files are not carved. (clarify: only identified?
     RB; I guess that it operates like [Selective
     file dumper](selective_file_dumper.md)
     .FUF.
     Alternatively, the tool could use libcarvpath and output carvpaths
     or create a directory with symlinks to carvpaths that point into a
     carvfs mountpoint Rob J Meijer.
-- Plug-in architecture for identification/validation.
-  - Joachim support for multiple types
+* Plug-in architecture for identification/validation.
+  * Joachim support for multiple types
     of validators
-    - dedicated validator
-    - validator based on file library (i.e. we could specify/implement a
+    * dedicated validator
+    * validator based on file library (i.e. we could specify/implement a
       file structure API for these)
-    - configuration based validator (Can handle config files,like
+    * configuration based validator (Can handle config files,like
       Revit07, to enter different file formats used by the carver.)
 
 Joachim Moderator: Could we limit the
@@ -222,21 +222,21 @@ version up and running ASAP? And keep discussing future options?
 I think the following set will be large enough to handle: Input
 facilities
 
-- IO support (AFF, device, EWF, RAW and split RAW)
+* IO support (AFF, device, EWF, RAW and split RAW)
 
 
 
 Abstraction of input format and multi threaded decompression (spin-off
 code out of afflib?)
 
-- Volume/Partitions support
+* Volume/Partitions support
 
 
 
 at least for DOS based layout and GPT (spin-off code out of
 TSK/Photorec?)
 
-- File system support
+* File system support
 
 
 
@@ -244,19 +244,19 @@ VFAT/NTFS (spin-off code out of TSK/Photorec?)
 
 Carving facilities
 
-- File format support using plug-able validator model (use dedicated
+* File format support using plug-able validator model (use dedicated
   validators Photorec/Scarve and/or wrap revit07 file format as
   validator?)
-- Content support using plug-able validator model (to handle text/mbox
+* Content support using plug-able validator model (to handle text/mbox
   base64)
-- File system carving support (to handle file system fragments, could be
+* File system carving support (to handle file system fragments, could be
   linked to file system support layer?)
-- Basic fragment handling
+* Basic fragment handling
 
 Output facilities
 
-- audit/analysis/debug log
-- extraction of result files
+* audit/analysis/debug log
+* extraction of result files
 
 ## Supported File Formats
 
@@ -267,25 +267,25 @@ Ship with validators for
 Joachim I think we should distinguish
 between file format validators and content validators
 
-- Graphical Images
-  - JPEG (the 3 different types with JFIF/EXIF support)
+* Graphical Images
+  * JPEG (the 3 different types with JFIF/EXIF support)
 
 
 
 Joachim How different is JPEG 2000?
 
-- - PNG
-  - GIF
-  - BMP
-  - TIFF
+* * PNG
+  * GIF
+  * BMP
+  * TIFF
 
-- Office documents
-  - Microsoft Office 97 - 2003 [OLE Compound
+* Office documents
+  * Microsoft Office 97 - 2003 [OLE Compound
     File](ole_compound_file.md) format based with [Word Document
     (doc)](word_document_(doc).md) and [Excel Spreadsheet
     (xls)](excel_spreadsheet_(xls).md) file format support
-  - [PDF](pdf.md)
-  - Open Office and Microsoft Office 2007 [ZIP
+  * [PDF](pdf.md)
+  * Open Office and Microsoft Office 2007 [ZIP
     archive](zip.md) based file formats
 
 
@@ -300,50 +300,50 @@ Joachim Addition: Office 2007 also has a
 binary file format which is also a ZIP-ed data [Excel Spreadsheet
 (xlsb)](excel_spreadsheet_(xlsb).md)
 
-- Archive files
-- [ZIP archive](zip.md) file format
-  - 7z
-  - tar, gzip, bzip2
-  - RAR
-- E-mail files
-  - [Personal Folder File (PAB, PST,
+* Archive files
+* [ZIP archive](zip.md) file format
+  * 7z
+  * tar, gzip, bzip2
+  * RAR
+* E-mail files
+  * [Personal Folder File (PAB, PST,
     OST)](personal_folder_file_(pab,_pst,_ost).md)
-  - MBOX (text based format, base64 content support)
-- Audio/Video files
-  - MPEG
-  - MP2/MP3
-  - AVI
-  - ASF/WMV
-  - QuickTime
-  - MKV
-- Printer spool files
-  - EMF (if I remember correctly)
-- Internet history files
-  - index.dat
-  - firefox (sqllite 3)
-- Other files
-  - thumbs.db which also is an [OLE Compound
+  * MBOX (text based format, base64 content support)
+* Audio/Video files
+  * MPEG
+  * MP2/MP3
+  * AVI
+  * ASF/WMV
+  * QuickTime
+  * MKV
+* Printer spool files
+  * EMF (if I remember correctly)
+* Internet history files
+  * index.dat
+  * firefox (sqllite 3)
+* Other files
+  * thumbs.db which also is an [OLE Compound
     File](ole_compound_file.md) based format
-  - pagefile?
+  * pagefile?
 
 ## Carving Strategies
 
 Joachim Note to moderator could this
 section be merged with the carving algorithm section?
 
-- Simple fragment recovery carving using gap carving.
-  - Joachim have hook in for more
+* Simple fragment recovery carving using gap carving.
+  * Joachim have hook in for more
     advanced fragment recovery?
-- Recovering of individual ZIP sections and JPEG icons that are not
+* Recovering of individual ZIP sections and JPEG icons that are not
   sector aligned.
-  - Joachim I would propose a generic
+  * Joachim I would propose a generic
     fragment detection and recovery
-- Autonomous operation (some mode of operation should be completely
+* Autonomous operation (some mode of operation should be completely
   non-interactive, requiring no human intervention to complete
   RB)
-  - Joachim as much as possible, but
+  * Joachim as much as possible, but
     allow to be overwritten by user
-- Joachim When the tool output files the
+* Joachim When the tool output files the
   filenames should contain the offset in the input data (in
   hexadecimal?)
 
@@ -359,11 +359,11 @@ Joachim This naming schema might cause
 duplicate name problem for extracting embedded files and extracting
 files from non sector aligned file systems.
 
-- Joachim Should the tool allow to
+* Joachim Should the tool allow to
   export embedded files?
-- Joachim Should the tool allow to
+* Joachim Should the tool allow to
   export fragments separately?
-- Mark Stam: I personally use photorec often for
+* Mark Stam: I personally use photorec often for
   carving files in the whole volume (not only unallocated clusters), so
   I can store information about all potential interesting files in MySQL
 
@@ -375,30 +375,30 @@ recovery process, i.e. recovered fragments could be part of allocated
 files. Do we want to be able to extract them? Or could we rebuild the
 file from the fragments and the allocated files.
 
-- Mark Stam: It would also be nice if the files
+* Mark Stam: It would also be nice if the files
   can be hashed immediately (MD5) so looking for them in other tools
   (for example Encase) is a snap
 
 ## Performance Requirements
 
-- Tested on 500GB-sized images. Should be able to carve a 500GB image in
+* Tested on 500GB-sized images. Should be able to carve a 500GB image in
   roughly 50% longer than it takes to read the image.
-  - Perhaps allocate a percentage budget per-validator (i.e. each
+  * Perhaps allocate a percentage budget per-validator (i.e. each
     validator adds N% to the carving time) RB
-  - Joachim have multiple carving phases
+  * Joachim have multiple carving phases
     for precision/speed trade off?
-- Parallelizable
-  - Joachim tunable for different
+* Parallelizable
+  * Joachim tunable for different
     architectures
-- Configuration:
-  - Capability to parse some existing carvers' configuration files,
+* Configuration:
+  * Capability to parse some existing carvers' configuration files,
     either on-the-fly or as a one-way converter.
-  - Disengage internal configuration structure from configuration files,
+  * Disengage internal configuration structure from configuration files,
     create parsers that present the expected structure
-  - Joachim The validator should deal
+  * Joachim The validator should deal
     with the file structure the carving algorithm should not know
     anything about the file structure (as in revit07 design)
-  - Either extend Scalpel/Foremost syntaxes for extended features or use
+  * Either extend Scalpel/Foremost syntaxes for extended features or use
     a tertiary syntax (Joachim I would
     prefer a derivative of the revit07 configuration syntax which
     already has encountered some problems of dealing with defining file
@@ -406,12 +406,12 @@ file from the fragments and the allocated files.
 
 ## Output
 
-- Can output audit.txt file.
-- Joachim Can output database with
+* Can output audit.txt file.
+* Joachim Can output database with
   offset analysis values i.e. for visualization tooling
-- Joachim Can output debug log for
+* Joachim Can output debug log for
   debugging the algorithm/validation
-- Easy integration into ascription software.
+* Easy integration into ascription software.
 
 
 
@@ -432,7 +432,7 @@ of a file is. Simsong 06:36, 3 November 2008
 
 # Ideas
 
-- Use as much TSK if possible. Don't carry your own FS implementation
+* Use as much TSK if possible. Don't carry your own FS implementation
   the way photorec does.
 
 
@@ -454,11 +454,11 @@ loading interface in such a way that it doesn't break OCFA and is
 useful for the stand alone carver, but allowing both to use exactly the
 same tree-graph loadable modules.
 
-- Extracting/carving data from [Thumbs.db](thumbs.db.md)? I've
+* Extracting/carving data from [Thumbs.db](thumbs.db.md)? I've
   used [foremost](foremost.md) for it with some success.
   [Vinetto](vinetto.md) has some critical bugs :(
   .FUF
-- Extracting/carving executable binaries, dlls etc.
+* Extracting/carving executable binaries, dlls etc.
   [Volatility](volatility_framework.md), JE.
 
 ## Recursive Carving
@@ -468,18 +468,18 @@ call it) 'recursive in file carving' (for now) this is different from
 embedded files because there is a file system structure in the file and
 not just another file structure
 
-- Is it just me, or do a lot of the above (and below) ideas somewhat
+* Is it just me, or do a lot of the above (and below) ideas somewhat
   skirt around the fact that many of us want recursive carving? Can we
   bend back to that instead of discussing object particulars? I think
   this can be distilled down to three requirements:
-  - Simple recursion: once an object is identified, have the ability to
+  * Simple recursion: once an object is identified, have the ability to
     re-carve it for internal structures
-  - Directed recursion: the carver should be able to be directed at
+  * Directed recursion: the carver should be able to be directed at
     arbitrary blobs and told to carve it as a specified type. This
     allows programmatically more simple methods of dealing with
     unidentifiably compressed or encrypted data. Or filesystem
     fragments.
-  - Export: the ability to export an object (recognized or not) for
+  * Export: the ability to export an object (recognized or not) for
     later or external "recursion". Should go without saying for a
     carver, but...
 
@@ -498,7 +498,7 @@ Joachim that could be useful ;-)
 
 Rob J Meijer :
 
-- Use libcarvpath whenever possible and by default to avoid high storage
+* Use libcarvpath whenever possible and by default to avoid high storage
   requirements.
 
 
@@ -526,18 +526,18 @@ other libraries do a really good job of this, carrying around what they
 need but using a system-global version if available.
 RB
 
-- libtsk
-- libaff ? : possibly the discussion in the requirements section should
+* libtsk
+* libaff ? : possibly the discussion in the requirements section should
   move to his section.
-- libewf ? : possibly the discussion in the requirements section should
+* libewf ? : possibly the discussion in the requirements section should
   move to his section.
-- posix ? : Can we depend especially on the availability of UNIX domain
+* posix ? : Can we depend especially on the availability of UNIX domain
   sockets and the possibility to use msg_accrights for passing opn file
   handles as ocaps?
 
 ## Filesystem Detection
 
-- Dont stop with filesystem detection after the first match. Often if a
+* Dont stop with filesystem detection after the first match. Often if a
   partition is reused with a new FS and is not all that full yet, much
   of the old FS can still be valid. I have seen this with ext2/fat. The
   fact that you have identified a valid FS on a partition doesn't mean
@@ -550,7 +550,7 @@ RB
 Joachim What your saying is that dealing
 with file system fragments should be part of the carving algorithm
 
-- Allow use where filesystem based carving is done by other tool, and
+* Allow use where filesystem based carving is done by other tool, and
   the tool is used as second stage on (sets of) unallocated block
   (pseudo) files and/or non FS partition (pseudo) files.
 
@@ -573,7 +573,7 @@ format required. However I would opt to design the recovery
 functionality of these non-open tools into open tools. And not to limit
 ourselves making translators due to the design of these non-open tools.
 
-- Ability to be used as a library instead of a tool. Ability to access
+* Ability to be used as a library instead of a tool. Ability to access
   metadata true library, and thus the ability to set metadata from the
   carving modules. This would be extremely useful for integrating the
   project into a [computer forensics
@@ -585,14 +585,14 @@ Joachim I guess most of the code could
 be integrated into libraries, but I would not opt integrating tool
 functionality into a library
 
-- Mark Stam: I think it would be very handy to
+* Mark Stam: I think it would be very handy to
   have a CSV, TSV, XML or other delimited output (log)file with
   information about carved files. This output file can then be stored in
   a database or Excel sheet (report function)
 
 ## Anti forensics and system integrity concerns
 
-- It might be very interesting to look at the possibilities of using a
+* It might be very interesting to look at the possibilities of using a
   multi process style of module support and combine it with a least
   authority design. On platforms that support AppArmor (or similar) and
   uid based firewall rules, this could make for the first true POLA
@@ -617,9 +617,9 @@ Rob J Meijer I see two layers where using
 POLA could be applied. The best one would require one of the following as
 prerequisites:
 
-- The libaff/libewf layer is moved to a fuse implementation (for example
+* The libaff/libewf layer is moved to a fuse implementation (for example
   carvfs).
-- Libewf/Libaff are updated to accept opened filhandles instead of
+* Libewf/Libaff are updated to accept opened filhandles instead of
   demanding to open their own files.
 
 If one of these is fulfilled, than the tool running as some user can
@@ -642,13 +642,13 @@ those sufficient thinking hours yet.
 
 ## Format syntax specification
 
-- Carving data structures. For example, extract all TCP headers from
+* Carving data structures. For example, extract all TCP headers from
   image by defining TCP header structure and some fields (e.g. source
   port \> 1024, dest port = 80). This will extract all data matching the
   pattern and write a file with other fields. Another example is carving
   INFO2 structures and URL activity records from index.dat
   .FUF
-  - This has the opportunity to be extended to the concept of "point at
+  * This has the opportunity to be extended to the concept of "point at
     blob FOO and interpret it as BAR"
 
 .FUF added: The main idea is to allow users to define structures, for
@@ -708,27 +708,27 @@ Please take a look at the revit07 format syntax specification
 (configuration). It's not there yet but goes a far way. Some things
 currently missing:
 
-- bitwise alignment
-- handling encapsulated streams (MPEG/capture files)
-- handling content based formats (MBOX)
+* bitwise alignment
+* handling encapsulated streams (MPEG/capture files)
+* handling content based formats (MBOX)
 
 # Caving algorithm
 
 Joachim
 
-- should we allow for multiple carving phases (runs/stages)?
+* should we allow for multiple carving phases (runs/stages)?
 
 
 
 I opt yes (separation of concern)
 
-- should we allow for multiple carving algorithms?
+* should we allow for multiple carving algorithms?
 
 
 
 I opt yes, this allows testing of different approaches
 
-- Should the algorithm try to do as much in 1 run over the input data?
+* Should the algorithm try to do as much in 1 run over the input data?
   To reduce IO?
 
 
@@ -736,25 +736,25 @@ I opt yes, this allows testing of different approaches
 I opt that the tool should allow for multiple and single run over the
 input data to minimize the IO or the CPU as bottleneck
 
-- Interaction between algorithm and validators
-  - does the algorithm passes data blocks to the validators?
-  - does a validator need to maintain a state?
-  - does a validator need to revert a state?
-  - How do we deal with embedded files and content validation? Do the
+* Interaction between algorithm and validators
+  * does the algorithm passes data blocks to the validators?
+  * does a validator need to maintain a state?
+  * does a validator need to revert a state?
+  * How do we deal with embedded files and content validation? Do the
     validators call another validator?
-- do we use the assumption that a data block can be used by a single
+* do we use the assumption that a data block can be used by a single
   file (with the exception of embedded/encapsulated files)?
-- Revit07 allows for multiple concurrent result files states to deal
+* Revit07 allows for multiple concurrent result files states to deal
   with fragmentation. One has the attribute of being active (the
   preferred) and the other passive. Do we want/need something similar?
   The algorithm adds block of input data (offsets) to these result files
   states.
-  - if so what info would these result files states require (type, list
+  * if so what info would these result files states require (type, list
     of input data blocks)
-- how do we deal with file system remainders?
-  - Can we abstract them and compare them against available file system
+* how do we deal with file system remainders?
+  * Can we abstract them and compare them against available file system
     information?
-- Do we carve file systems in files?
+* Do we carve file systems in files?
 
 
 
@@ -764,16 +764,16 @@ I opt that at least the validator uses this information
 
 Joachim
 
-- normal file (file structure, loose text based structure (more a
+* normal file (file structure, loose text based structure (more a
   content structure?))
-- fragmented file (the file entirely exist)
-- a file fragment (the file does not entirely exist)
-- intertwined file
-- encapsulated file (MPEG/network capture)
-- embedded file (JPEG thumbnail)
-- obfuscation ('encrypted' PFF) this also entails encryption and/or
+* fragmented file (the file entirely exist)
+* a file fragment (the file does not entirely exist)
+* intertwined file
+* encapsulated file (MPEG/network capture)
+* embedded file (JPEG thumbnail)
+* obfuscation ('encrypted' PFF) this also entails encryption and/or
   compression
-- file system in file
+* file system in file
 
 # File System Awareness
 
@@ -781,23 +781,23 @@ Joachim
 
 Advantages of being FS aware:
 
-- You can pick up sector allocation sizes
+* You can pick up sector allocation sizes
 
 
 
 Joachim do you mean file system block
 sizes?
 
-- Some file systems may store things off sector boundaries. (ReiserFS
+* Some file systems may store things off sector boundaries. (ReiserFS
   with tail packing)
-- Increasingly file systems have compression (NTFS compression)
+* Increasingly file systems have compression (NTFS compression)
 
 
 
 Joachim Carving NTFS-compressed (lznt1)
 files: https://github.com/libyal/documentation/blob/main/Carving%20for%20NTFS%20compressed%20files.pdf
 
-- Carve just the sectors that are not in allocated files.
+* Carve just the sectors that are not in allocated files.
 
 
 
@@ -816,10 +816,6 @@ of its supported set, it would be more worth our time to work on
 implementing them there than in the carver itself.
 RB
 
-<!-- -->
-
-
-
 I guess this tool operates like [Selective file
 dumper](selective_file_dumper.md) and can recover files in both
 ways (or not?). Recovering files by using carving can recover files in
@@ -827,10 +823,6 @@ situations where sleuthkit does nothing (e.g. file on NTFS was deleted
 using ntfs-3g, or filesystem was destroyed or just unknown). And we
 should build the list of filesystems supported by carver, not by TSK.
 .FUF
-
-<!-- -->
-
-
 
 This tool is still in the early planning stages (requirements
 discovery), hence few operational details (like precise modes of
@@ -842,10 +834,6 @@ filesystem(foo) when time would be better spent improving those in TSK,
 aiding other methods of analysis as well. This is the same reason
 individuals that have implemented several other carvers are
 participating: de-duplication of effort. RB
-
-<!-- -->
-
-
 
 Joachim A design problem might be that
 TSK currently is a single library operating on multiple layers (storage
@@ -869,31 +857,31 @@ sectors.
 
 Joachim
 
-- validator (definitions) tester (detest in revit07)
-- tool to make configuration based definitions
-- post carving validation
-- the carver needs to provide support for fuse mount of carved files
+* validator (definitions) tester (detest in revit07)
+* tool to make configuration based definitions
+* post carving validation
+* the carver needs to provide support for fuse mount of carved files
   (carvfs)
 
 # Testing
 
 Joachim
 
-- automated testing
-- test data
+* automated testing
+* test data
 
 # Validator Construction
 
 Options:
 
-- Write validators in C/C++
-  - Joachim you mean dedicated
+* Write validators in C/C++
+  * Joachim you mean dedicated
     validators
-- Have a scripting language for writing them (python? Perl?) our own?
-  - Joachim use easy to embed
+* Have a scripting language for writing them (python? Perl?) our own?
+  * Joachim use easy to embed
     programming languages i.e. Python or Lua
-- Use existing programs (libjpeg?) as plug-in validators?
-  - Joachim define a file structure api
+* Use existing programs (libjpeg?) as plug-in validators?
+  * Joachim define a file structure api
     for this
 
 # Existing Code that we have
@@ -902,61 +890,61 @@ Joachim Please add any missing links
 
 Documentation/Articles
 
-- DFRWS2006/2007 carving challenge results
-- DFRWS2008 paper on carving
+* DFRWS2006/2007 carving challenge results
+* DFRWS2008 paper on carving
 
 Carvers
 
-- DFRWS2006/2007 carving challenge results
-- photorec (http://www.cgsecurity.org/wiki/PhotoRec)
-- revit06 and revit07 (https://github.com/libyal/reviveit)
-- s3/scarve
+* DFRWS2006/2007 carving challenge results
+* photorec (http://www.cgsecurity.org/wiki/PhotoRec)
+* revit06 and revit07 (https://github.com/libyal/reviveit)
+* s3/scarve
 
 Possible file structure validator libraries
 
-- divers existing file support libraries
-- libole2 (inhouse experimental code of OLE2 support)
-- [libnk2](libnk2.md)
-- [libpff](libpff.md)
+* divers existing file support libraries
+* libole2 (inhouse experimental code of OLE2 support)
+* [libnk2](libnk2.md)
+* [libpff](libpff.md)
 
 Input support
 
-- [AFF](aff.md)
-- [libewf](libewf.md)
-- raw and split raw
-- device
+* [AFF](aff.md)
+* [libewf](libewf.md)
+* raw and split raw
+* device
 
 Volume/Partition support
 
-- disktype (http://disktype.sourceforge.net/)
-- testdisk (http://www.cgsecurity.org/wiki/TestDisk)
-- TSK
+* disktype (http://disktype.sourceforge.net/)
+* testdisk (http://www.cgsecurity.org/wiki/TestDisk)
+* TSK
 
 File system support
 
-- TSK
-- photorec FS code
-- implementations of FS in Linux/BSD
-- The tree-graph loadable module support, module loader and loadable
+* TSK
+* photorec FS code
+* implementations of FS in Linux/BSD
+* The tree-graph loadable module support, module loader and loadable
   modules of the Open Computer Forensics Architecture.
 
 Content support
 
 Zero storage support
 
-- libcarvpath
-- carvfs
-- tsk-cp
-- carvfsmodewf
+* libcarvpath
+* carvfs
+* tsk-cp
+* carvfsmodewf
 
 POLA
 
-- joe-e (java) ( <https://code.google.com/archive/p/joe-e> )
-- Emily (ocaml) ( <http://erights.org/download/emily/> )
-- the E language ( <http://www.erights.org/> )
-- AppArmor
-- iptables/ipfw
-- minorfs ( <https://www.the-essays.com/> )
+* joe-e (java) ( <https://code.google.com/archive/p/joe-e> )
+* Emily (ocaml) ( <http://erights.org/download/emily/> )
+* the E language ( <http://www.erights.org/> )
+* AppArmor
+* iptables/ipfw
+* minorfs ( <https://www.the-essays.com/> )
 
 # Implementation Timeline
 

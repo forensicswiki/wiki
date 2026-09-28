@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 X-Ways AG is a German company that makes software for Computer
 Forensics, Data Recovery, and IT Security. Their most popular product,
@@ -11,5 +11,4 @@ environment based on WinHex.
 
 ## External links
 
-- [WinHex](https://www.x-ways.net/winhex/) Website
-
+* [WinHex](https://www.x-ways.net/winhex/) Website

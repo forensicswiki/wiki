@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 This topic will cover current research in wireless communication
 networks. These types of networks have been growing exponentially in the
@@ -54,9 +54,9 @@ allow an administrator to choose one, while other devices only support a
 single WEP option. WEP should not be used except as a last resort, as it
 provides very limited security protection.
 
-- WEP-64-bit key (sometimes called WEP-40)
-- WEP 128-bit key (sometimes called WEP-104)
-- WEP 256-bit key
+* WEP-64-bit key (sometimes called WEP-40)
+* WEP 128-bit key (sometimes called WEP-104)
+* WEP 256-bit key
 
 **WPA** stands for Wi-Fi Protected Access. This standard was developed
 to replace WEP. Wi-Fi devices typically support multiple variations of
@@ -87,18 +87,18 @@ Wi-Fi network must use matching security settings. On Windows 7 PCs, the
 following values must be entered on the Security tab of Wireless Network
 Properties for a given network:
 
-- Security type refers to authentication options including Open, Shared,
+* Security type refers to authentication options including Open, Shared,
   WPA-Personal and –Enterprise, WPA2-Personal and –Enterprise, and
   802.1X. The Open option utilizes no authentication, while Shared
   utilizes WEP for authentication.
-- Encryption type options available depend on the Security type chosen.
+* Encryption type options available depend on the Security type chosen.
   Besides None, which can be only used with Open networks, the WEP
   option can be used with either WEP or 802.1X authentication. Two other
   options, called TKIP and AES, refer to specialized encryption
   technologies usable with the WPA family of Wi-Fi security standards.
-- An encryption key or passphrase can be specified in the Network
+* An encryption key or passphrase can be specified in the Network
   security key field when required.
-- The Key Index, a value between 1 and 4, refers to the position of the
+* The Key Index, a value between 1 and 4, refers to the position of the
   matching key stored on the wireless router (access point). Many home
   routers allow four different encryption keys numbered 1 through 4 to
   be configured in order to support legitimate clients without forcing

@@ -1,14 +1,13 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
-  -  Text
+  - File Formats
+  - Text
+  - Windows
 ---
 ## Overview
 
-On [Windows](windows.md) a .JOB file specifies task
-configuration. A .JOB file consists of two main sections, fixed-length
-and variable-length.
+On [Windows](windows.md) a .JOB file specifies task configuration. A .JOB file
+consists of two main sections, fixed-length and variable-length.
 
 ### Fixed-length section
 
@@ -353,11 +352,9 @@ size is set, is should be 8 and the Reserved Data consists of:
 
 ## See Also
 
-- [Windows](windows.md)
+* [Windows](windows.md)
 
 ## External Links
 
-- [.JOB File
-  Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/96446df7-7683-40e0-a713-b01933b93b18), by
-  [Microsoft](microsoft.md)
-
+* [.JOB File Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-tsch/96446df7-7683-40e0-a713-b01933b93b18),
+  by [Microsoft](microsoft.md)

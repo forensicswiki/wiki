@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Hardware
-  -  Gaming
+  - Hardware
+  - Gaming
 ---
 ## History
 
@@ -42,5 +42,5 @@ shouldn't be overlooked.
 
 ## Bibliography
 
-- [XFT: a forensic toolkit for the original Xbox game console](https://www.inderscience.com/login.php?op=http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=oryo=http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=oraid=),
+* [XFT: a forensic toolkit for the original Xbox game console](https://www.inderscience.com/login.php?op=http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=oryo=http://www.inderscience.com/search/index.php?action=record&rec_id=24903&prevQuery=&ps=10&m=oraid=),
   by David Collins

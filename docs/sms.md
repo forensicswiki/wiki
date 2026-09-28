@@ -2,8 +2,8 @@
 tags:
   - Mobile
 ---
-**Short Message Service** (**SMS**) is a service that [digital
-phones](cell_phones.md) can use to send short messages between
+**Short Message Service** (**SMS**) is a service that
+[digital phones](cell_phones.md) can use to send short messages between
 phones. SMS messages are more commonly called text messages, and very
 popular among today's youth.
 
@@ -33,14 +33,14 @@ will be overwritten with the contents of the new message.
 
 ## SMS Recovery Tools
 
-- [pySIM](https://github.com/osmocom/pysim), a "SIM card
+* [pySIM](https://github.com/osmocom/pysim), a "SIM card
   management tool, capable of creating, editing, deleting, backup and
   restore operations on your SIM Phonebook and SMS records."
-- [Adafruit Industries](https://www.adafruit.com/) has a low-cost SIM reader
+* [Adafruit Industries](https://www.adafruit.com/) has a low-cost SIM reader
   kit that you can get from their website.
 
 ## External Links
 
-- [An entry level tutorial that explains the details behind the SMS recovery process](https://www.dekart.com/howto/howto_sim_reader/how_to_recover_sms)
-- [A video tutorial that shows how an SMS can be recovered](https://www.youtube.com/watch?v=VaBaqZiNW4U),
+* [An entry level tutorial that explains the details behind the SMS recovery process](https://www.dekart.com/howto/howto_sim_reader/how_to_recover_sms)
+* [A video tutorial that shows how an SMS can be recovered](https://www.youtube.com/watch?v=VaBaqZiNW4U),
   but does not go into the low-level details of the process.
