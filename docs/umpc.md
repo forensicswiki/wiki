@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 UMPC (Ultra-Mobile-PC) is a specification for a smaller version of
 tablet PC. Major uses for the device are Internet access and media
@@ -25,12 +25,12 @@ Hard disk drive: 30 - 160 GB
 
 ## Features
 
-- Camera
-- GPS
-- Bluetooth
-- Wi-Fi
-- Ethernet
-- TV tuner
-- memory card reader
-- stereo speakers
-- fingerprint readers
+* Camera
+* GPS
+* Bluetooth
+* Wi-Fi
+* Ethernet
+* TV tuner
+* memory card reader
+* stereo speakers
+* fingerprint readers

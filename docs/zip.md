@@ -1,16 +1,16 @@
 ---
 tags:
-  -  File Formats
-  -  Archive
-  -  Windows
-  -  FreeBSD
-  -  Linux
-  -  OpenBSD
-  -  NetBSD
-  -  AIX
-  -  Solaris
-  -  MacOS
-  -  Articles that need to be expanded
+  - AIX
+  - Archive
+  - Articles that need to be expanded
+  - File Formats
+  - FreeBSD
+  - Linux
+  - MacOS
+  - NetBSD
+  - OpenBSD
+  - Solaris
+  - Windows
 ---
 .ZIP is an archive file format that supports lossless data compression.
 
@@ -214,8 +214,6 @@ The value seems to be similar to stat.st_mode value.</p></td>
 
 ## External Links
 
-- [.ZIP File Format
-  Specification](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.3.9.TXT),
+* [.ZIP File Format Specification](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE-6.3.9.TXT),
   PKWARE Inc., September 1, 2012
-- [Wikipedia: Zip (file
-  format)](https://en.wikipedia.org/wiki/Zip_(file_format))
+* [Wikipedia: Zip (file format)](https://en.wikipedia.org/wiki/Zip_(file_format))

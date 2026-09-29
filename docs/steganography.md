@@ -15,30 +15,15 @@ encoded packages is called **[steganalysis](steganalysis.md)**.
 
 ### Algorithms and Tools
 
-- [StegoArchive.com](http://ww17.stegoarchive.com/) An excellent resource
+* [StegoArchive.com](http://ww17.stegoarchive.com/) An excellent resource
   for freeware/shareware steganography application downloads.
-
-<!-- -->
-
-- [Digital Invisible Ink Toolkit](https://diit.sourceforge.net/)
+* [Digital Invisible Ink Toolkit](https://diit.sourceforge.net/)
   is a Java steanography tool that hides any file in a JPEG.
-
-<!-- -->
-
-- [Hide In Picture](https://sourceforge.net/projects/hide-in-picture/)
+* [Hide In Picture](https://sourceforge.net/projects/hide-in-picture/)
   is an open source steganographic tool.
-
-<!-- -->
-
-- M5, by Andreas Westfeld, is both a steganographic
+* M5, by Andreas Westfeld, is both a steganographic
   tool and algorithm. It hides information in JPEGs. An attack was
   developed by Jessica Fridrich, Miroslav Goljan, and Dorin Hogea.
-
-<!-- -->
-
-- Publimark hides text in audio files.
-
-<!-- -->
-
-- [DeepSound](deepsound.md) is a Windows tool that hides data in
+* Publimark hides text in audio files.
+* [DeepSound](deepsound.md) is a Windows tool that hides data in
   audio files

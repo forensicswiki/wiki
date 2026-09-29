@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  Network Forensics
+  - Anti-Forensics
+  - Network Forensics
 ---
 **Tor** (**The Onion Router**) is an implementation of second-generation
 onion routing.
@@ -20,21 +20,21 @@ of the communications channel.
 
 **Misconfigured software**
 
-- DNS leaks
+* DNS leaks
 
 Some applications do name resolution directly (bypassing Tor proxy). In
 this case lookup requests leak significant information (e.g. website
 being visited).
 
-- Web browsers
-  - Enabled scripts: Java and Flash applets may leak real IP address
+* Web browsers
+  * Enabled scripts: Java and Flash applets may leak real IP address
     (see Metasploit Decloaking Engine);
-  - Enabled cookies: web server can identify clients using unique
+  * Enabled cookies: web server can identify clients using unique
     cookies.
 
 <!-- -->
 
-- Direct connections in Instant Messaging also leak real IP address
+* Direct connections in Instant Messaging also leak real IP address
 
 **TLS attacks**
 

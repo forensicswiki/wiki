@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Windows
-  -  File Formats
+  - Articles that need to be expanded
+  - Windows
+  - File Formats
 ---
 In an NTFS volume the **\$MFT** metadata file keeps records of all file
 entries in the volume.
@@ -71,31 +71,26 @@ extracted using FTKImager.
 
 ## Also see
 
-- [New Technology File System
-  (ntfs)](new_technology_file_system_(ntfs).md)
+* [New Technology File System (ntfs)](new_technology_file_system_(ntfs).md)
 
 ## External Links
 
-- [Master File Table (Local File
-  Systems)](https://learn.microsoft.com/en-us/windows/win32/fileio/master-file-table),
+* [Master File Table (Local File Systems)](https://learn.microsoft.com/en-us/windows/win32/fileio/master-file-table),
   by Microsoft
-- [NTFS Master File Table (MFT)](http://www.ntfs.com/ntfs-mft.htm), by
+* [NTFS Master File Table (MFT)](http://www.ntfs.com/ntfs-mft.htm), by
   Ntfs.com
-- [Parsing the \$MFT NTFS metadata
-  file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
+* [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020
-- [Windows Container
-  Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
+* [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
   by Jonathan Greig, July 13, 2021
 
 ## Tools
 
-- [analyzeMFT](https://github.com/dkovar/analyzeMFT), no longer
+* [analyzeMFT](https://github.com/dkovar/analyzeMFT), no longer
   maintained and has known shortcomings
   <https://github.com/dkovar/analyzeMFT/issues/56>
-- [MFTECmd and MFTExplorer](https://ericzimmerman.github.io/#!index.md)
-- [Mft2Csv](https://github.com/jschicht/Mft2Csv/wiki/Mft2Csv)
-- [MFTDump](https://web.archive.org/web/20200207155639/http://malware-hunters.net/all-downloads/),
+* [MFTECmd and MFTExplorer](https://ericzimmerman.github.io/#!index.md)
+* [Mft2Csv](https://github.com/jschicht/Mft2Csv/wiki/Mft2Csv)
+* [MFTDump](https://web.archive.org/web/20200207155639/http://malware-hunters.net/all-downloads/),
   no longer maintained
-- [mft2bodyfile](https://github.com/janstarke/mft2bodyfile)
-
+* [mft2bodyfile](https://codeberg.org/janstarke/mft2bodyfile)

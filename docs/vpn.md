@@ -18,13 +18,13 @@ categorizing them together becomes somewhat questionable.
 Virtual Private Networks are deployed by organizations and individuals
 for different purposes:
 
-- Protecting confidential information in organizations (for example,
+* Protecting confidential information in organizations (for example,
   when connecting geographically distant office networks);
-- Providing "work from home" or traveling employees with secure remote
+* Providing "work from home" or traveling employees with secure remote
   access to office network resources;
-- Securing general Internet traffic in particularly insecure network
+* Securing general Internet traffic in particularly insecure network
   usage settings (e.g. open wireless networks);
-- Encrypting all internet traffic to and from a home connection, to
+* Encrypting all internet traffic to and from a home connection, to
   prevent ISP packet shaping and/or surveillance.
 
 When used for Internet connectivity, VPN service also acts as a form of
@@ -34,15 +34,12 @@ for ordinary internet users and criminals.
 
 ## VPNs and anonymity
 
-- Log files: VPN services may maintain usage logs which could then be
+* Log files: VPN services may maintain usage logs which could then be
   used to track the activities of the user of those services, after the
   fact. However some commercial consumer-oriented VPN services
   specifically configure their servers not to retain any logfile
   information of this type. Example are Cryptocloud VPN or [iVPN](ivpn.md).
-
-<!-- -->
-
-- Protocol stack: [TCP timestamps](tcp_timestamps.md) and IP ID
+* Protocol stack: [TCP timestamps](tcp_timestamps.md) and IP ID
   values may be used in correlating incoming (encrypted) and outgoing
   (unencrypted) network streams. This type of "traffic analysis" can, in
   theory, be used to gather information about a fully-encrypted VPN
