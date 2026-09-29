@@ -10,16 +10,16 @@ password.
 
 ## Features
 
-1.  Recover deleted files from Bitlocker encrypted volume.
-2.  Recover data from formatted Bitlocker encrypted volume.
-3.  Recover deleted or lost Bitlocker encrypted volume.
-4.  Decrypt data from damaged, corrupted or inaccessible Bitlocker
-    encrypted volume.
-5.  Recover data after Bitlocker Disk Encryption failed, interrupted,
-    stuck or freeze.
-6.  Recover data after Bitlocker drive decryption failed, interrupted,
-    stuck or freeze.
-7.  Recover data after Bitlocker drive encryption is not completed.
+1. Recover deleted files from Bitlocker encrypted volume.
+2. Recover data from formatted Bitlocker encrypted volume.
+3. Recover deleted or lost Bitlocker encrypted volume.
+4. Decrypt data from damaged, corrupted or inaccessible Bitlocker
+   encrypted volume.
+5. Recover data after Bitlocker Disk Encryption failed, interrupted,
+   stuck or freeze.
+6. Recover data after Bitlocker drive decryption failed, interrupted,
+   stuck or freeze.
+7. Recover data after Bitlocker drive encryption is not completed.
 
 ## Supported File System
 

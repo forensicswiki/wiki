@@ -49,7 +49,7 @@ number of entries the phone can contain. It also gives the maximum phone
 number (or email address) length and name length.
 **NOTE:** You can substitute +MPBR for any +CPBR command, but the phone
 returns a much more specific (and less intelligible) response containing
-more fields that may act as internal “programming” flags of some sort.
+more fields that may act as internal "programming" flags of some sort.
 Returns: +CPBR: (1-1000),40,24
 
 **AT+CPBR=\[beginning index\],\[ending index\]**
@@ -73,8 +73,8 @@ Returns: +MPBR:
   selected (+CPBS) phonebook.
 * 40 represents the number of characters that the email or phone number
   can have.
-* 24 indicates the number of characters the “friendly” name can have.
-* The 8 refers to the different “types” of phonebook entry (i.e. Mobile,
+* 24 indicates the number of characters the "friendly" name can have.
+* The 8 refers to the different "types" of phonebook entry (i.e. Mobile,
   Main, Email, Home, Fax, Work, etc).
 * The +CPBR command does not list anything after the 24 (as seen above),
   so there are times when the +MPBR may be useful.

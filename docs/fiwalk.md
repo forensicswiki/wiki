@@ -49,7 +49,7 @@ ihistogram.py
 Prints a histogram of file types found in the disk image.
 
 imap.py
-Displays a “map” of where files are present in the disk image.
+Displays a "map" of where files are present in the disk image.
 
 imicrosoft_redact.py
 Modifies a disk image of a bootable Microsoft operating system so that

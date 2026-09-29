@@ -17,24 +17,24 @@ however, it is important to be able to access any available data.
 Additionally, the DeepSpar Disk Imager controls the power input of the
 source drive so that it can, if required, re-power the source without
 rebooting the system. (This is significant with highly unstable drives
-that will continually “hang.”)
+that will continually "hang.")
 
 To control and pre-configure the source drive, the DeepSpar Disk Imager
 makes use of specific ATA commands [1](https://www.t13.org/) as well as
 some vendor specific commands. This includes the ability to read sectors
 while ignoring [ECC errors](error_correction_code.md) as well as
 the ability to send software and hardware reset commands to the drive
-which creates the ability to control “read timeout.” (Read timeout is a
+which creates the ability to control "read timeout." (Read timeout is a
 user defined amount of time in milliseconds that the hard drive will be
 given to read any particular sector. If the read timeout is reached
 before the sector is correctly read, it will be skipped. The imager then
-marks in its “map” that the sector was skipped so that it can be
+marks in its "map" that the sector was skipped so that it can be
 reprocessed on later passes.)
 
 Through the tool’s software interface, the end user is able to configure
 all parameters and commands that they wish the imager to use over
 multiple imaging passes. As previously mentioned, the DeepSpar Disk
-Imager stores a “map” of all the sectors from the source drive. This map
+Imager stores a "map" of all the sectors from the source drive. This map
 allows the imager to always remember which sectors have been imaged,
 which were skipped, and which had errors etc. This in turn allows the
 imager to run multiple passes without reprocessing sectors that had been

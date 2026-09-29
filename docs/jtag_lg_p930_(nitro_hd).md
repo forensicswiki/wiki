@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mobile 
+  - Mobile
 ---
 ## JTAG LG P930 (Nitro HD)
 
@@ -18,33 +18,33 @@ removed.
 
 What you need to extract the lock from the device:
 
-1.  A Octoplus JTAG Box with the latest Octoplus JTAG Manager software.
-    The Octoplus JTAG Box used for this was purchased from GSM Server on
-    eBay. Update: This device is now supported by the RIFF Box as well.
-2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
-    be available).
-3.  A DC Power supply capable of supplying 3.8V/1.83A output. The power
-    supply used for this was an Agilent U8002A DC Power Supply.
-4.  PatternLockScripts from CCL Forensics
-    ('GenerateAndroidGestureRainbowTable.py' and
-    'Android_GestureFinder.py').
+1. A Octoplus JTAG Box with the latest Octoplus JTAG Manager software.
+   The Octoplus JTAG Box used for this was purchased from GSM Server on
+   eBay. Update: This device is now supported by the RIFF Box as well.
+2. Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
+   be available).
+3. A DC Power supply capable of supplying 3.8V/1.83A output. The power
+   supply used for this was an Agilent U8002A DC Power Supply.
+4. PatternLockScripts from CCL Forensics
+   ('GenerateAndroidGestureRainbowTable.py' and
+   'Android_GestureFinder.py').
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the Octoplus JTAG Box to the PC via USB.
-3.  Connect the Octoplus JTAG Box to the PCB via the JTAG pins.
-4.  Connect the PCB to the DC power supply.
-5.  Start the "Octoplus JTAG" software.
-6.  Power the PCB.
-7.  Dump the NAND.
+1. Disassemble the phone down to the PCB.
+2. Connect the Octoplus JTAG Box to the PC via USB.
+3. Connect the Octoplus JTAG Box to the PCB via the JTAG pins.
+4. Connect the PCB to the DC power supply.
+5. Start the "Octoplus JTAG" software.
+6. Power the PCB.
+7. Dump the NAND.
 
 Instructions for disassembly can be found on Internet but it can be
 summarised as follows:
 
-1.  Remove the rear cover and battery.
-2.  Remove the 9 x Phillips screws.
-3.  Split the phone case using a case opening tool (guitar pick).
+1. Remove the rear cover and battery.
+2. Remove the 9 x Phillips screws.
+3. Split the phone case using a case opening tool (guitar pick).
 
  <img src="../assets/images/Lg-p930-nitro-hd-front.png" title="lg-p930-nitro-hd-front.png"
  width="400" alt="lg-p930-nitro-hd-front.png" />

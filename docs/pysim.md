@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Mobile Forensics 
+  - Mobile Forensics
 ---
 
 <img src="../assets/images/PySIM.JPG"

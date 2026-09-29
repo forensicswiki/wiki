@@ -23,20 +23,44 @@ files. The 2 Cortana Databases are located:
 
 The IndexedDB.edb contains the following tables:
 
-\- DatabaseAndObjectStoreCatalog - HeaderTable - IndexCatalog -
-MSysDefrag - MSysLocales - MSysObjects - MSysObjectsShadow -
-MSysObjids - T-*n* - T-*n*
+* DatabaseAndObjectStoreCatalog
+* HeaderTable
+* IndexCatalog
+* MSysDefrag
+* MSysLocales
+* MSysObjects
+* MSysObjectsShadow
+* MSysObjids
+* T-*n*
+* T-*n*
 
 The other database, CortanaCoreDb.dat, contains table data that relates
 to a users’ interaction with Cortana; it contains the following tables:
 
-\- Attachments - Contact - ContactPermissions - ContactTriggers -
-Diagnostic - Geofences - LocationTriggers - Metadata - MSysLocales -
-MSysObjects - MSysObjectsShadow - MSysObjids - Notification -
-Reminders - RulesDescriptions - RulesInstances -
-RulesInstancesDisplayParameters - RulesInstancesParameters -
-RulesTemplates - RulesTemplatesParameters -
-RulesTemplatesParameterTypes - Signals - TimeTriggers - Triggers
+* Attachments
+* Contact
+* ContactPermissions
+* ContactTriggers
+* Diagnostic
+* Geofences
+* LocationTriggers
+* Metadata
+* MSysLocales
+* MSysObjects
+* MSysObjectsShadow
+* MSysObjids
+* Notification
+* Reminders
+* RulesDescriptions
+* RulesInstances
+* RulesInstancesDisplayParameters
+* RulesInstancesParameters
+* RulesTemplates
+* RulesTemplatesParameters
+* RulesTemplatesParameterTypes
+* Signals
+* TimeTriggers
+* Triggers
 
 Unlike IndexedDB.edb, CortanaCoreDB.dat is a goldmine for evidentiary
 artefacts, some of the more interesting tables are:

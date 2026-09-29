@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Data Recovery
 ---
-A forensic investigator uses techniques that can **recover bad data** in order 
+A forensic investigator uses techniques that can **recover bad data** in order
 to recover data from a [disk drive](hard_drive.md) that is malfunctioning.
 
 One popular program for recovering bad data is

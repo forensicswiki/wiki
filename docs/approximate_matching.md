@@ -60,8 +60,8 @@ The leading text similarity system is:
 
 SSDEEP:
 
-Jesse Kornblum, “Identifying almost identical files using context
-triggered piecewise hashing,” Jesse Kornblum, DFRWS 2006, Digital
+Jesse Kornblum, "Identifying almost identical files using context
+triggered piecewise hashing," Jesse Kornblum, DFRWS 2006, Digital
 Investigation 3S, S91-S97
 
 Jiang, Z.L., Hui, L.C.K., Chow, K.P., Yiu, S.M., Lai, P.K.Y. Improving
@@ -195,8 +195,8 @@ Frank Breitinger, Harald Baier: A Fuzzy Hashing Approach based on Random
 Sequences and Hamming Distance, 7th annual Conference on Digital
 Forensics, Security and Law (ADFSL), Richmond (Virginia, US). May 2012.
 
-Frank Breitinger and Harald Baier, “Performance Issues About
-Context-Triggered Piecewise Hashing,” in P. Gladyshev and M. K. Rogers
+Frank Breitinger and Harald Baier, "Performance Issues About
+Context-Triggered Piecewise Hashing," in P. Gladyshev and M. K. Rogers
 (Eds): ICDF2C 2011, LNICST 88, 2012, pp. 141-155, 2012.
 
 Thonnard, O., Bilge, L., O'Gorman, G., Kiernan, S., Lee, M. Industrial
@@ -243,7 +243,7 @@ Roussev, V. Building open and scalable digital forensic tools (2011)
 2011 6th IEEE International Workshop on Systematic Approaches to Digital
 Forensic Engineering, SADFE 2011, art. no. 6159116, .
 
-Vassil Roussev, “An evaluation of forensic similarity hashes,” Digital
+Vassil Roussev, "An evaluation of forensic similarity hashes," Digital
 Investigation 8 (2011), S34-S41
 
 Breitinger, F.; Baier, H., "Properties of a similarity preserving hash
@@ -259,12 +259,12 @@ Frank Breitinger, Harald Baier: Properties of a Similarity Preserving
 Hash Function and their Realization in sdhash. 2012 Information Security
 South Africa (ISSA 2012), Johannesburg (South Africa). August 2012.
 
-Vassil Roussev, “Managing terabyte-scale investigations with similarity
-digests,” IFIP Advances in Information and Communication Technology 383,
+Vassil Roussev, "Managing terabyte-scale investigations with similarity
+digests," IFIP Advances in Information and Communication Technology 383,
 AICT, pp. 19-34
 
-Clay Shields, O. Frieder, M. Maloof, “A system for the proactive,
-continuous, and efficient collection of digital forensic evidence,”
+Clay Shields, O. Frieder, M. Maloof, "A system for the proactive,
+continuous, and efficient collection of digital forensic evidence,"
 DFRWS 2011 Annual Conference, pp. S3-S13
 
 MRSH-v2

@@ -151,7 +151,7 @@ made for equivalent tools and equipment.*
 
 **Notes**
 
-1\. The UP-828 driver is not signed and therefore doesn't work by
+1. The UP-828 driver is not signed and therefore doesn't work by
 default in Windows 7 64-bit. The programmer is identified as a as a
 Cypess Semiconductor Corp. CY7C68013. The signed Windows 7 64-bit driver
 can be installed by downloading and installing the Cypress EZ-USB FX2LP

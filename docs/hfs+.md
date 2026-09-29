@@ -281,19 +281,19 @@ Directories and files
 
 An HFS volume contains multiple special file entries:
 
-1.  Catalog file - Describes the folder and file hierarchy of the
-    volume. It is organized as a "balanced tree" for fast and efficient
-    searches
-2.  Extents overflow file - Additional extents (contiguous allocation
-    blocks allocated to forks) are stored in a b-tree in this file
-3.  Allocation file - Specifies whether an allocation block is free
-    (similar to \$Bitmap in NTFS). This is stored in a bitmap,
-    specifying a free allocation block with a "clear bit" (introduced in
-    HFS+)
-4.  Attributes file - Contains attribute information regarding files or
-    folders (introduced in HFS+)
-5.  Startup file - Allows computers to boot that do have built in
-    support for HFS+ file systems (introduced in HFS+)
+1. Catalog file - Describes the folder and file hierarchy of the
+   volume. It is organized as a "balanced tree" for fast and efficient
+   searches
+2. Extents overflow file - Additional extents (contiguous allocation
+   blocks allocated to forks) are stored in a b-tree in this file
+3. Allocation file - Specifies whether an allocation block is free
+   (similar to \$Bitmap in NTFS). This is stored in a bitmap,
+   specifying a free allocation block with a "clear bit" (introduced in
+   HFS+)
+4. Attributes file - Contains attribute information regarding files or
+   folders (introduced in HFS+)
+5. Startup file - Allows computers to boot that do have built in
+   support for HFS+ file systems (introduced in HFS+)
 
 The first 16 catalog node identifiers (CNIDs) are reserved for special
 file system metadata file entries. Note that these file entries are not

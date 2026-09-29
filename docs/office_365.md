@@ -139,24 +139,24 @@ Import-PSSession \$Session Get-Mailbox
 
 * Enable the audit logging of mailbox
 
-***Set-Mailbox –Identity “PiPi” –AuditEnabled \$true***
+***Set-Mailbox –Identity "PiPi" –AuditEnabled \$true***
 
 ***Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails -eq
-“UserMailbox”} \| Set-Mailbox -AuditEnabled \$true***
+"UserMailbox"} \| Set-Mailbox -AuditEnabled \$true***
 
 * Mention the owner actions for auditing (Optional)
 
-***Set-Mailbox “PiPi” –AuditOwner MailboxLogin,HardDelete***
+***Set-Mailbox "PiPi" –AuditOwner MailboxLogin,HardDelete***
 
-***Set-Mailbox “Doll” –AuditEnabled \$true –AuditOwner HardDelete***
+***Set-Mailbox "Doll" –AuditEnabled \$true –AuditOwner HardDelete***
 
 * Change retention duration for the entries in mailbox audit log
   (Optional)
 
-***Set-Mailbox –Identity “PiPi” –AuditLogAgeLimit 180***
+***Set-Mailbox –Identity "PiPi" –AuditLogAgeLimit 180***
 
 ***Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails –eq
-“UserMailbox”} \| Set-Mailbox –AuditLogAgeLimit 60***
+"UserMailbox"} \| Set-Mailbox –AuditLogAgeLimit 60***
 
 ## External Links
 

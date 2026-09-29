@@ -36,7 +36,7 @@ Via the SIFT workstation (free), use the following steps:
 ### EnCase
 
 use EnCase (Commercial) to mount the E01 image as an emulated disk (you
-need to have the Physical Disk Emulator (“PDE”) module installed), then
+need to have the Physical Disk Emulator ("PDE") module installed), then
 VMware to create virtual machine from the emulated physical disk.
 Guidance software has a good guide on how to do this in their support
 portal.

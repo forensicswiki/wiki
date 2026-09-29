@@ -82,7 +82,7 @@ For example, the [Full Disk Encryption](full_disk_encryption.md) article has thr
     <ui><li><a href="tags/#database">Database</a>: <a href="sqlite">sqlite</a>, <a href="olm">olm</a>, <a href="thumbs.db">Thumbs.db</a></ui></li>
     <ui><li><a href="tags/#disk-image">Disk Image</a>: <a href="aff">aff</a>, <a href="raw_image_format">raw image</a>, <a href="qcom_image_format">qcow image format</a></ui></li>
     </td>
-  </tr> 
+  </tr>
 </table>
 </body>
 
@@ -93,8 +93,8 @@ There are a number of [articles](tags/#articles-that-need-to-be-expanded) that c
 
 ##  Contribute on to the Forensics Wiki on GitHub
 
-The Forensics Wiki is now on [GitHub](https://github.com/forensicswiki/wiki) and accepting content contributions from the community. Please see the [community page](community.md) for instructions if you would like to add or edit content.  
- 
+The Forensics Wiki is now on [GitHub](https://github.com/forensicswiki/wiki) and accepting content contributions from the community. Please see the [community page](community.md) for instructions if you would like to add or edit content.
+
 For more information about Forensics Wiki on MediaWiki see:
 
 * [Transitioning Forensics Wiki to GitHub](https://osdfir.blogspot.com/2022/11/transitioning-forensics-wiki-to-github.html)

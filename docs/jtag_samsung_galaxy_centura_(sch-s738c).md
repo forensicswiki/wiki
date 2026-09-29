@@ -40,11 +40,11 @@ What you need:
  <img src="../assets/images/S738C_back.JPG" title="S738C_back.JPG" width="300"
  alt="S738C_back.JPG" />
  <figcaption aria-hidden="true">S738C_back.JPG</figcaption>
- 
+
  <img src="../assets/images/S738C_case.JPG" title="S738C_case.JPG" width="300"
  alt="S738C_case.JPG" />
  <figcaption aria-hidden="true">S738C_case.JPG</figcaption>
- 
+
  <img src="../assets/images/S738C_molex.JPG" title="S738C_molex.JPG" width="300"
  alt="S738C_molex.JPG" />
  <figcaption aria-hidden="true">S738C_molex.JPG</figcaption>
@@ -95,11 +95,11 @@ Launch the Riff Box JTAG Manager and use the following settings:
  <img src="../assets/images/Active_plugin.JPG" title="active_plugin.JPG" width="800"
  alt="active_plugin.JPG" />
  <figcaption aria-hidden="true">active_plugin.JPG</figcaption>
- 
+
  <img src="../assets/images/SCH-S738C_Setting2.JPG" title="SCH-S738C_Setting2.JPG"
  width="800" alt="SCH-S738C_Setting2.JPG" />
  <figcaption aria-hidden="true">SCH-S738C_Setting2.JPG</figcaption>
- 
+
  <img src="../assets/images/SCH_S738C_Setting2.PNG" title="SCH_S738C_Setting2.PNG"
  width="800" alt="SCH_S738C_Setting2.PNG" />
  <figcaption aria-hidden="true">SCH_S738C_Setting2.PNG</figcaption>

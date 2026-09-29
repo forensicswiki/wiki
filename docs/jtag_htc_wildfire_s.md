@@ -67,7 +67,7 @@ title="riff-to-htc-wildfire-s-connection-2.png" width="550"
 alt="riff-to-htc-wildfire-s-connection-2.png" />
 <figcaption
 aria-hidden="true">riff-to-htc-wildfire-s-connection-2.png</figcaption>
- 
+
  <img src="../assets/images/riff-to-htc-wildfire-s-connection-3.png"
  title="riff-to-htc-wildfire-s-connection-3.png" width="800"
  alt="riff-to-htc-wildfire-s-connection-3.png" />

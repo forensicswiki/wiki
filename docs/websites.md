@@ -73,7 +73,7 @@ The National Software Reference Library (NSRL) collects software from
 various sources and incorporates file profiles computed from this
 software into a Reference Data Set (RDS) of information.
 
-[University of Rhode Island Digital Forensics Center](https://web.uri.edu/cs/dfcsc/) 
+[University of Rhode Island Digital Forensics Center](https://web.uri.edu/cs/dfcsc/)
 
 Computer Forensics Lab Resource Site.
 

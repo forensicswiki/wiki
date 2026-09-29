@@ -1,10 +1,8 @@
 ---
 tags:
-  -  Hardware
-  -  Personal Devices
+  - Hardware
+  - Personal Devices
 ---
-## Zune
-
 The Zune is a brand of portable digital media player designed and
 marketed by Microsoft Corporation. The release date of this product in
 the United States is November 14, 2006 with a price of \$249.99 USD.

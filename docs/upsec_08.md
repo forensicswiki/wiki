@@ -44,70 +44,71 @@ humans and technology.
 
 TOPICS Topics include but are not limited to:
 
-\- Error detection and recovery - Human perception and cognitive
-information processing - Identity and impression management - Individual
-and cultural differences - Information seeking and evaluation - Judgment
-and decision-making - Learning, training, and experience - Mental
-models - Models of privacy, sharing, and trust - Organizational, group,
-and individual behavior - Risk perception, risk analysis, and risk
-communication - Security behavior study methodology - Social
-engineering - Social influence and persuasion - System proposals and
-design approaches - Threat evaluation - Usability - User motivation and
-incentives for secure behavior
+* Error detection and recovery
+* Human perception and cognitive information processing
+* Identity and impression management
+* Individual and cultural differences
+* Information seeking and evaluation
+* Judgment and decision-making
+* Learning, training, and experience
+* Mental models
+* Models of privacy, sharing, and trust
+* Organizational, group, and individual behavior
+* Risk perception, risk analysis, and risk communication
+* Security behavior study methodology
+* Social engineering
+* Social influence and persuasion
+* System proposals and design approaches
+* Threat evaluation
+* Usability
+* User motivation and incentives for secure behavior
 
 The study of human attention, learning, reasoning, and behavior
 addresses issues of central relevance to computer security. For example:
 
-\- Security weaknesses often arise from biases in human perception and
-cognitive information processing. For example, phishing attacks use
-confusing perceptual cues and fear to trick users into revealing
-sensitive information.
-
-\- Assessing, creating, and managing secure systems requires ongoing
-information seeking and information evaluation, as new threats emerge
-constantly. However, understanding complex and dynamic systems is
-time-consuming and error-prone, and users have little motivation to
-spend the time and effort that is required.
-
-\- The perception of risk can influence users' willingness to employ
-security mechanisms or engage in risky behavior. However, risk
-perception and decision-making are often based on limited domain
-knowledge and are subject to bias; we underestimate some risks and
-exaggerate others.
-
-\- People's level of confidence in their risk assessments can be
-perceptually and socially manipulated, independent of actual risks.
-Attackers (and system designers) often create the perception of
-security, even when none exists.
-
-\- Human reasoning follows certain patterns, which are subject to change
-with experience. Through training and education, we can help users to
-learn methods and procedures and develop mental models of how security
-systems work.
-
-\- People learn through interaction with others. Models of social
-influence suggest that information garnered from a trusted source can
-affect people's behavior or attitudes, but the level of trust conferred
-on others is dependent on situational factors. Organizational factors
-and group behavior can also have a large effect on individual behavior.
-
-\- Approaches to risk assessment, identity and impression management,
-and trust vary from one individual to another and also vary by culture.
+* Security weaknesses often arise from biases in human perception and
+  cognitive information processing. For example, phishing attacks use
+  confusing perceptual cues and fear to trick users into revealing
+  sensitive information.
+* Assessing, creating, and managing secure systems requires ongoing
+  information seeking and information evaluation, as new threats emerge
+  constantly. However, understanding complex and dynamic systems is
+  time-consuming and error-prone, and users have little motivation to
+  spend the time and effort that is required.
+* The perception of risk can influence users' willingness to employ
+  security mechanisms or engage in risky behavior. However, risk
+  perception and decision-making are often based on limited domain
+  knowledge and are subject to bias; we underestimate some risks and
+  exaggerate others.
+* People's level of confidence in their risk assessments can be
+  perceptually and socially manipulated, independent of actual risks.
+  Attackers (and system designers) often create the perception of
+  security, even when none exists.
+* Human reasoning follows certain patterns, which are subject to change
+  with experience. Through training and education, we can help users to
+  learn methods and procedures and develop mental models of how security
+  systems work.
+* People learn through interaction with others. Models of social
+  influence suggest that information garnered from a trusted source can
+  affect people's behavior or attitudes, but the level of trust conferred
+  on others is dependent on situational factors. Organizational factors
+  and group behavior can also have a large effect on individual behavior.
+* Approaches to risk assessment, identity and impression management,
+  and trust vary from one individual to another and also vary by culture.
 
 SUBMISSIONS Usability, Psychology, and Security 2008 invites insightful
 new contributions that apply aspects of human/computer interaction and
 applied psychology to solving problems in computer security. We invite
 submissions in two categories.
 
-1\. Short papers: We encourage short papers that describe innovative
-work in progress or position papers that map out directions for future
-research or design. Short papers should be no longer than five (5)
-pages.
-
-2\. Full papers: Full papers may describe systems, case studies,
-fieldwork descriptions, experimental studies, and design frameworks.
-Full papers must be no longer than ten (10) single-spaced 8.5" x 11"
-pages, including figures, tables, and references.
+1. Short papers: We encourage short papers that describe innovative
+   work in progress or position papers that map out directions for future
+   research or design. Short papers should be no longer than five (5)
+   pages.
+2. Full papers: Full papers may describe systems, case studies,
+   fieldwork descriptions, experimental studies, and design frameworks.
+   Full papers must be no longer than ten (10) single-spaced 8.5" x 11"
+   pages, including figures, tables, and references.
 
 All submissions should offer new contributions that have not been
 published elsewhere. Author names and affiliations should appear on the

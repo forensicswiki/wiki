@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 # FreeBSD
 
@@ -9,48 +9,48 @@ system as a disk imaging system.
 
 ## Install FreeBSD 6.2 on a new computer
 
-1.  Boot the FreeBSD 6.2 CDROM
-2.  Hit return to boot the Default
-3.  Hit return to select "United States" (or choose your country)
-4.  Hit down-arrow and hit return to select "standard install"
+1. Boot the FreeBSD 6.2 CDROM
+2. Hit return to boot the Default
+3. Hit return to select "United States" (or choose your country)
+4. Hit down-arrow and hit return to select "standard install"
 
 Setting up the partition table:
 
-1.  Enter to select "OK." If the geometry is incorrect, enter "OK" to
-    accept.
-2.  If there are any partitions, use the up and down arrows to select
-    them and press "d" to delete them.
-3.  press "a" to use All of the disk.
-4.  press "q" to finish
-5.  press the down arrow and hit Enter to select the Standard MBR (no
-    boot manager)
+1. Enter to select "OK." If the geometry is incorrect, enter "OK" to
+   accept.
+2. If there are any partitions, use the up and down arrows to select
+   them and press "d" to delete them.
+3. press "a" to use All of the disk.
+4. press "q" to finish
+5. press the down arrow and hit Enter to select the Standard MBR (no
+   boot manager)
 
 Setting up the FreeBSD partitions:
 
-1.  Press "enter" at the OK prompt.
-2.  Press "a" for auto-defaults
-3.  Press "q" to accept
+1. Press "enter" at the OK prompt.
+2. Press "a" for auto-defaults
+3. Press "q" to accept
 
 Choosing what to install:
 
-1.  Press the down arrow and Enter to select "all" software
-2.  Press Enter at the "yes"
-3.  Press the up arrow and press Enter to Exit
-4.  Press Enter to select CD/DVD
-5.  Press Enter to confirm
+1. Press the down arrow and Enter to select "all" software
+2. Press Enter at the "yes"
+3. Press the up arrow and press Enter to Exit
+4. Press Enter to select CD/DVD
+5. Press Enter to confirm
 
 FreeBSD 6.2 will be installed. Now you need to configure it.
 
-1.  Press Enter at the OK prompt when installation is complete.
-2.  Press \[Yes\] Enter to configure an Ethernet address.
-3.  Press \[Ok\] Enter to configure the first ethernet card.
-4.  Press \[No\] Enter when asked if you want to configure an IPv6
-    interface.
-5.  Press \[Yes\] Enter when asked if you want to configure with DHCP.
-6.  Press \[No\] Enter when asked if you want to be a network gateway.
-7.  Press \[No\] Enter when asked if you want to configure inetd.
-8.  Press \[No\] Enter when asked if you want to enable SSH login.
-9.  Press \[No\] Enter when asked if you want to have anonymous FTP.
+1. Press Enter at the OK prompt when installation is complete.
+2. Press \[Yes\] Enter to configure an Ethernet address.
+3. Press \[Ok\] Enter to configure the first ethernet card.
+4. Press \[No\] Enter when asked if you want to configure an IPv6
+   interface.
+5. Press \[Yes\] Enter when asked if you want to configure with DHCP.
+6. Press \[No\] Enter when asked if you want to be a network gateway.
+7. Press \[No\] Enter when asked if you want to configure inetd.
+8. Press \[No\] Enter when asked if you want to enable SSH login.
+9. Press \[No\] Enter when asked if you want to have anonymous FTP.
 10. Press \[No\] Enter when asked if you want to configure the machine
     as an NFS server.
 11. Press \[No\] Enter when asked if you want to configure the machine
@@ -80,8 +80,8 @@ FreeBSD 6.2 will be installed. Now you need to configure it.
 Note that the order you do this matters: Sleuth Kit won't compile with
 AFFLIB support unless AFFLIB is installed on your system.
 
-1.  Download and install [libewf](libewf.md) if you want EnCase support.
-2.  Download and install [AFFLIB](aff.md
-3.  Download and install [The Sleuth Kit](the_sleuth_kit.md) from
-    <http://www.sleuthkit.org/>
-4.  Download and install [fiwalk](fiwalk.md)
+1. Download and install [libewf](libewf.md) if you want EnCase support.
+2. Download and install [AFFLIB](aff.md
+3. Download and install [The Sleuth Kit](the_sleuth_kit.md) from
+   <http://www.sleuthkit.org/>
+4. Download and install [fiwalk](fiwalk.md)

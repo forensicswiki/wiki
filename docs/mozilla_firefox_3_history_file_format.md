@@ -251,9 +251,9 @@ Set when the transition is a download.
 </td>
 </tr>
 </table>
-  
+
 ### Insertable Visit Types
-  
+
 This allows you to join against the defined visit types to select the actual name or description
 
 ```sql
@@ -273,7 +273,7 @@ VALUES
     (6, 'TRANSITION_REDIRECT_TEMPORARY', 'Set when the transition was a temporary redirect.'),
     (7, 'TRANSITION_DOWNLOAD', 'Set when the transition is a download.');
 ```
-  
+
 ## Gathering browser history
 
 Live browser history for Firefox 3 can be gathered by connecting to the

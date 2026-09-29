@@ -56,13 +56,13 @@ cd argus-clients-3.0.8
 make && make install
 ```
 
-the ./argus and ./ra programs can be run from the “bin” directories
+the ./argus and ./ra programs can be run from the "bin" directories
 within the argus-3.0.8 and argus-clients-3.0.8 directories,
 respectively
 
 **NOTE:** If you already have a different version of argus/ra installed
 (e.g., if you installed v2.0.6 using apt-get install), you’ll likely
-need to rename/remove the “/etc/ra.conf” file or else you’ll get a
+need to rename/remove the "/etc/ra.conf" file or else you’ll get a
 syntax error when trying to run ra. I just renamed it using the
 following command (to keep a backup just in case):
 

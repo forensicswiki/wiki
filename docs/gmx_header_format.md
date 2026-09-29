@@ -24,7 +24,7 @@ Message-ID format:
 [UTC-date].[login count]@[host]
 ```
 
-\- \[login count\] it looks like this field is count of logins on
+* \[login count\] it looks like this field is count of logins on
 gmx.net for all users. Till next login this part will be constant.
 X-Authenticated: describe personal user id.
 X-Provags-ID is unknown.

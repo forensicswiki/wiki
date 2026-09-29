@@ -9,7 +9,7 @@ anywhere from files opened to websites visited and conversations.
 ## activity.sqlite
 
 ```text
-$HOME/.local/share/zeitgeist/activity.sqlite
+\$HOME/.local/share/zeitgeist/activity.sqlite
 ```
 
 event_view seems one of the more interesting tables (which is

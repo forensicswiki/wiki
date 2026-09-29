@@ -356,10 +356,10 @@ details \[4\]:
 
 References:
 
-1.  <https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/>
-2.  <https://www.trellix.com/en-us/about/newsroom/stories/research.html>
-3.  <https://social.technet.microsoft.com/Forums/en-US/fa8fd68e-588b-4cdf-8d6d-8b8c8fe72719/ccmrecentlyusedapps-wmi-class-empty-on-several-thousand-pcs>
-4.  <https://github.com/davehull/Kansa/blob/261bd40ac2ae547855313f777273184a759f01d2/Modules/Process/Get-WMIRecentApps.ps1>
+1. <https://www.4n6ir.com/posts/2017/secret-archives-of-execution-evidence-ccm_recentlyusedapps/>
+2. <https://www.trellix.com/en-us/about/newsroom/stories/research.html>
+3. <https://social.technet.microsoft.com/Forums/en-US/fa8fd68e-588b-4cdf-8d6d-8b8c8fe72719/ccmrecentlyusedapps-wmi-class-empty-on-several-thousand-pcs>
+4. <https://github.com/davehull/Kansa/blob/261bd40ac2ae547855313f777273184a759f01d2/Modules/Process/Get-WMIRecentApps.ps1>
 
 ### Cryptnet URL Cache
 

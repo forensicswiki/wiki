@@ -23,8 +23,8 @@ Amendment protection..."
 **Binary Semantics Ltd. v. Minitab, Inc., Case No. 07‐1750 (M.D. Pa. May
 5, 2008)**
 In 2008, a district court agreed that a forensic image of an entire FTP
-server was "overly‐broad and intrusive,” allowing the defendants only
-authorization for “a forensic copy of the relevant folders on \[the\]
+server was "overly‐broad and intrusive," allowing the defendants only
+authorization for "a forensic copy of the relevant folders on \[the\]
 FTP server."
 
 **Harkabi v. Sandisk Corp., 2010 U.S. Dist. LEXIS 87843 (S.D.N.Y. Aug.

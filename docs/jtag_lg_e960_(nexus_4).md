@@ -15,23 +15,23 @@ via JTAG, reassembled.
 
 What you need to dump the NAND:
 
-1.  A [RIFF Box](https://www.riffbox.org/)
-2.  Soldering skills and fine tip soldering iron (a JTAG jig is
-    available for this device).
-3.  Optional: JTAG Molex Adapter Set by MOORC.
-4.  A DC Power supply capable of supplying 3.8V/2.1A output. The power
-    supply used for this was an U8002A DC Power Supply.
+1. A [RIFF Box](https://www.riffbox.org/)
+2. Soldering skills and fine tip soldering iron (a JTAG jig is
+   available for this device).
+3. Optional: JTAG Molex Adapter Set by MOORC.
+4. A DC Power supply capable of supplying 3.8V/2.1A output. The power
+   supply used for this was an U8002A DC Power Supply.
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the RIFF JTAG Box to the PC via USB.
-3.  Connect the RIFF JTAG Box to the PCB via the JTAG pins.
-4.  Connect the PCB to the DC power supply.
-5.  Start the "RIFF BOX JTAG" software.
-6.  Enable the power on the DC power supply.
-7.  Power the phone via the power button.
-8.  Dump the NAND via the RIFF Box software.
+1. Disassemble the phone down to the PCB.
+2. Connect the RIFF JTAG Box to the PC via USB.
+3. Connect the RIFF JTAG Box to the PCB via the JTAG pins.
+4. Connect the PCB to the DC power supply.
+5. Start the "RIFF BOX JTAG" software.
+6. Enable the power on the DC power supply.
+7. Power the phone via the power button.
+8. Dump the NAND via the RIFF Box software.
 
 Instructions for disassembly can be found on Internet and are summarized
 as follows:
@@ -47,7 +47,7 @@ as follows:
 <img src="../assets/images/2-Nexus4-Phone1.jpg" title="2-Nexus4-Phone1.jpg" width="445"
 alt="2-Nexus4-Phone1.jpg" />
 <figcaption aria-hidden="true">2-Nexus4-Phone1.jpg</figcaption>
- 
+
  <img src="../assets/images/3-Nexus4-RemoveScrews.jpg" title="3-Nexus4-RemoveScrews.jpg"
  width="450" alt="3-Nexus4-RemoveScrews.jpg" />
  <figcaption aria-hidden="true">3-Nexus4-RemoveScrews.jpg</figcaption>
@@ -75,7 +75,7 @@ alt="4-Nexus4-RemoveBackCover.jpg" />
  <img src="../assets/images/6-Nexus4-JtagPort.jpg" title="6-Nexus4-JtagPort.jpg"
  width="500" alt="6-Nexus4-JtagPort.jpg" />
  <figcaption aria-hidden="true">6-Nexus4-JtagPort.jpg</figcaption>
- 
+
  <img src="../assets/images/7-Nexus4-JtagPortMap.jpg" title="7-Nexus4-JtagPortMap.jpg"
  width="500" alt="7-Nexus4-JtagPortMap.jpg" />
  <figcaption aria-hidden="true">7-Nexus4-JtagPortMap.jpg</figcaption>

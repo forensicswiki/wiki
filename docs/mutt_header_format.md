@@ -16,17 +16,17 @@ From: Username <username@sendinghost.com>
 
 The format of the Message id field is:
 
-1.  Four digits for the current year
-2.  Two digits for the current month
-3.  Two digits for the current day of the month
-4.  Two digits for the current hour
-5.  Two digits for the current minute
-6.  Two digits for the current second
-7.  A period followed by the capital letter 'G'
-8.  A capital letter. The first message sent will have the letter 'A',
-    the next 'B', and then 'C' until the 26th message will have 'Z'. The
-    27th message sent starts again with 'A'.
-9.  The current process id number
+1. Four digits for the current year
+2. Two digits for the current month
+3. Two digits for the current day of the month
+4. Two digits for the current hour
+5. Two digits for the current minute
+6. Two digits for the current second
+7. A period followed by the capital letter 'G'
+8. A capital letter. The first message sent will have the letter 'A',
+   the next 'B', and then 'C' until the 26th message will have 'Z'. The
+   27th message sent starts again with 'A'.
+9. The current process id number
 10. The '@' symbol
 11. The fully qualified domain name of the sending computer.
 

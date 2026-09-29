@@ -49,7 +49,7 @@ OST (Exchange Offline Store) files</p></td>
 <tr class="odd">
 <td><p>1.2</p></td>
 <td><p>22/04/2013</p></td>
-<td><p>Support for “Contacts” added.</p></td>
+<td><p>Support for "Contacts" added.</p></td>
 </tr>
 <tr class="even">
 <td><p>3.0</p></td>
@@ -63,41 +63,41 @@ Improved PST performance</p></td>
 <td><p>31/12/2013</p></td>
 <td><p>Dashboard for Quick view of completed files in graphical
 format.<br />
-Provided support for “Cloud” &amp; IMAP.<br />
+Provided support for "Cloud" &amp; IMAP.<br />
 Allows user to set the throttling.<br />
-Provided Pause &amp; Resume for “Cloud”.<br />
-Provide date filters for “Cloud”.<br />
-Added support for “Outlook Express” .dbx files.<br />
-Added support for “Lotus Notes” NSF (Non Password Protected Files)
+Provided Pause &amp; Resume for "Cloud".<br />
+Provide date filters for "Cloud".<br />
+Added support for "Outlook Express" .dbx files.<br />
+Added support for "Lotus Notes" NSF (Non Password Protected Files)
 files.<br />
 Does not export Privileged mails.<br />
-Ability to show mails in “Conversation” view.<br />
-Provided “Email Hop” view to display how mail has been traversed.<br />
-Provides “Restart” option for “Stopped (cancelled by user)” &amp;
-“Failed” files.<br />
-Provides “Remove” option for “Failed” &amp; “Pending” files.<br />
+Ability to show mails in "Conversation" view.<br />
+Provided "Email Hop" view to display how mail has been traversed.<br />
+Provides "Restart" option for "Stopped (cancelled by user)" &amp;
+"Failed" files.<br />
+Provides "Remove" option for "Failed" &amp; "Pending" files.<br />
 Ability to stop the scanning in between.<br />
 Ability to track all the activities done in the application.<br />
 Ability to export logs.<br />
 Able to export as PST without Outlook installed.<br />
-Provided “Set Page Orientations”, “Margins” &amp; “Page Size” options
+Provided "Set Page Orientations", "Margins" &amp; "Page Size" options
 for PDF.<br />
-Provided “Exclude Duplicate Mails” option for export.<br />
-Provided “Concordance” format while export.<br />
-Display “Duplicate” &amp; “Deleted” mails at a glance.<br />
-Added support for “Audio” &amp; “Video” in “Media” category.<br />
-Ability to search mails having “Attachments” or without
-“Attachments”<br />
-Ability to search mails having “Attachments” or without
-“Attachments”.<br />
+Provided "Exclude Duplicate Mails" option for export.<br />
+Provided "Concordance" format while export.<br />
+Display "Duplicate" &amp; "Deleted" mails at a glance.<br />
+Added support for "Audio" &amp; "Video" in "Media" category.<br />
+Ability to search mails having "Attachments" or without
+"Attachments"<br />
+Ability to search mails having "Attachments" or without
+"Attachments".<br />
 Ability to search using PreDefined templates.<br />
-Ability to search mails having “Importance”(Low, Normal &amp;
+Ability to search mails having "Importance"(Low, Normal &amp;
 High)<br />
-Provided “Advance Search” to search with “Starts with”, “Ends With”
-&amp; “Contains”<br />
-Ability to search “Keywords” while “Scanning” &amp; also “On
-Demand”.<br />
-Allows user to change the “Storage Location”.</p></td>
+Provided "Advance Search" to search with "Starts with", "Ends With"
+&amp; "Contains"<br />
+Ability to search "Keywords" while "Scanning" &amp; also "On
+Demand".<br />
+Allows user to change the "Storage Location".</p></td>
 </tr>
 <tr class="even">
 <td><p>4.5</p></td>
@@ -107,11 +107,11 @@ Added support for MSG Reader.<br />
 Added support for E01 Reader. Supporting PST, OST &amp; EDB files in
 .E01 files.<br />
 Added support for Client Server. User can view the files scanned by
-other users in “Connected” mode if those files are “Synced”.<br />
-The user can “Sync” selected scanned files in “Connected” mode.<br />
-Provided option to “Sync” all scanned files in “Connected” mode.<br />
-Provided different types of “Search”. They are as follows:<br />
-Wildcard Search: Provided “Wildcard Search”. Asterisk (*) to represent
+other users in "Connected" mode if those files are "Synced".<br />
+The user can "Sync" selected scanned files in "Connected" mode.<br />
+Provided option to "Sync" all scanned files in "Connected" mode.<br />
+Provided different types of "Search". They are as follows:<br />
+Wildcard Search: Provided "Wildcard Search". Asterisk (*) to represent
 ‘several’ characters or ‘zero’ character. Question mark (?) to replace a
 single character.<br />
 Stem Search: The use of linguistic analysis to get to the root form of a
@@ -122,9 +122,9 @@ Fuzzy Search: A type of search that will find matches even when users
 misspell words or enter in only partial words for search.<br />
 Proximity search allows to specify how close two (or more) words must be
 to each other in order to register a match.<br />
-User can add multiple Search fields in “General Search” &amp; “Advance
-Search”.<br />
-Display hierarchical view of the selected mail in “ Hierarchical View”
+User can add multiple Search fields in "General Search" &amp; "Advance
+Search".<br />
+Display hierarchical view of the selected mail in " Hierarchical View"
 tab.<br />
 Provided option to maintain folder hierarchy while export or
 not.</p></td>
@@ -132,9 +132,9 @@ not.</p></td>
 <tr class="odd">
 <td><p>4.6</p></td>
 <td><p>27/7/2014</p></td>
-<td><p>Added ability to “Export case”.<br />
-The option to “import case” supported.<br />
-“Delete case” option provided.<br />
+<td><p>Added ability to "Export case".<br />
+The option to "import case" supported.<br />
+"Delete case" option provided.<br />
 Addition of keyboard Hotkey support.<br />
 Recursive listing view of emails supported.</p></td>
 </tr>

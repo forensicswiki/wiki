@@ -8,7 +8,7 @@ on the machine where you will do the acquisition. Alternatively use a FireWire
 [write blocker](write_blockers.md)
 
 Prepare a clean firewire drive format is as [HFS+](hfs+.md)
-using Mac Disk Utility; name the volume “Target”. This process relies on
+using Mac Disk Utility; name the volume "Target". This process relies on
 being able to identify which drive is the suspect's drive by knowing its
 size. Many new Macs are shipping with 250GB drives. Having a unique
 firewire target drive size will help you identify it later, as you will
@@ -23,35 +23,30 @@ Apple menu > About This Mac > More info > ATA
 
 ## Connecting the suspect drive
 
-1\. Without turning anything on, connect the forensic Mac to the
-suspect’s computer using a firewire cable.
+1. Without turning anything on, connect the forensic Mac to the
+   suspect’s computer using a firewire cable.
+2. Hold down the "Option" key on the suspect’s computer and turn it on.
+3. If the suspect’s computer **does not** ask for a password, then
+   **turn it off**. If the computer **does** ask for a password, then
+   **turn it off**. You cannot do a simple TDM acquisition if a password is
+   required. You will have to either:
+   a. remove the drive and do a direct acquisition
+   b. modify the memory by adding or removing chips and zapping the PRAM.
 
-2\. Hold down the “Option” key on the suspect’s computer and turn it on.
+> To zap the PRAM, start up the computer and as soon as you hear the startup
+> 'bong', hold down these four keys: Command-Option-P-R.
+>
+> It will bong again, and again. Continue to hold down these four keys until it
+> has 'bonged' a total of three times (the initial startup bong and two more
+> after you hold down those four keys).
 
-3\. If the suspect’s computer **does not** ask for a password, then
-**turn it off**. If the computer **does** ask for a password, then
-**turn it off**. You cannot do a simple TDM acquisition if a password is
-required. You will have to either:
-
-a\. remove the drive and do a direct acquisition
-
-b\. modify the memory by adding or removing chips and zapping the PRAM.
-
-```text
-To zap the PRAM, start up the computer and as soon as you hear the startup 'bong', hold down these four keys:
-Command-Option-P-R.
-
-It will bong again, and again. Continue to hold down these four keys until it has 'bonged' a total of three times
-(the initial startup bong and two more after you hold down those four keys).
-```
-
-4\. Assuming that no password was needed, hold down the “T” key and turn
+4. Assuming that no password was needed, hold down the "T" key and turn
 the suspect’s computer back on. The computer will eventually display the
 firewire logo on the screen and is then ready for TDM.
 
 ## Acquiring the suspect drive
 
-1\. Turn on the acquiring Mac (with the disk arbitration daemon
+1. Turn on the acquiring Mac (with the disk arbitration daemon
 disabled) 2. Start the Terminal. And at the command prompt run:
 
 ```text
@@ -71,7 +66,7 @@ forensic Mac’s OS or the **Target** drive. You won’t necessarily know
 which is which, so you need to query them to see their size, which will
 give you a hint.
 
-3\. Tho probe a drive, e.g. **/dev/disk1** you can use **pdisk**:
+2. Tho probe a drive, e.g. **/dev/disk1** you can use **pdisk**:
 
 ```text
 sudo pdisk /dev/disk1
@@ -95,13 +90,13 @@ The output of **pdisk** will look something like:
     11: Apple_Free 0+@ 78140152
 ```
 
-5\. Partitions on an HFS are called “slices.” You can see in bold that
+3. Partitions on an HFS are called "slices." You can see in bold that
 this drive has a 34.6G slice listed under the number 9 and a 2.6G under
-line 10. Add them up and your looking at a “40G” drive. If the result is
+line 10. Add them up and your looking at a "40G" drive. If the result is
 the wrong size, then you are looking at the wrong drive. Repeat step 4
 using **disk0** and **disk2** to identify all the disks.
 
-6\. Lets assume that your Target volume is **disk2** and is a 120GB. If
+4. Lets assume that your Target volume is **disk2** and is a 120GB. If
 it is formatted as HFS, then the query in step 4 should return something
 like this.
 
@@ -114,16 +109,16 @@ like this.
     4: Apple_Free 0+@ 240121712
 ```
 
-Notice that slice **3** is 114.4 GB in size. Slice 3 is the “working
-area” on this 120G drive and is the slice that you will make available
+Notice that slice **3** is 114.4 GB in size. Slice 3 is the "working
+area" on this 120G drive and is the slice that you will make available
 for receiving your evidence, using the mount command shown in green in
 line 8 below.
 
-7\. Once you confirm which drive is which, you are ready to go. Lets
+5. Once you confirm which drive is which, you are ready to go. Lets
 assume that your forensic drive is **disk0**, the suspect’s drive is
 **disk1**, and the Target drive is **disk2**.
 
-8\. Because we turned off disk arbitration, however, the target drive
+6. Because we turned off disk arbitration, however, the target drive
 isn't available to receive the image. We therefore need to mount the
 **Target drive**; specifically slice **3** of **disk2**.
 
@@ -272,15 +267,15 @@ into Encase as a single evidence file.
 </td>
 <td width="633" align="left" valign="top">
 
-9.  <span class="Section1">Your done. Unmount the
-    <span class="style24">Target</span> drive by typing
-    `           `</span>
-    `           `
+9. <span class="Section1">Your done. Unmount the
+   <span class="style24">Target</span> drive by typing
+   `           `</span>
+   `           `
 
-    cd /Volumes
+   cd /Volumes
 
-    <span class="Section1" style='color:maroon'><b>sudo umount
-    /</b></span><span class="Section1" style='color:blue'><b>Target</b></span>
+   <span class="Section1" style='color:maroon'><b>sudo umount
+   /</b></span><span class="Section1" style='color:blue'><b>Target</b></span>
 
 </td>
 </tr>
@@ -306,16 +301,16 @@ Examination
 </td>
 <td width="633" align="left" valign="top">
 
-1.  <span class="Section1">Reboot your forensic Mac and restore the
-    <b>diskarbitrationd.plist</b><span
-         style='font-weight:normal'> file back to the
-    </span><b>/etc/mach-init.d</b><span
-         style='font-weight:normal'> directory. Type </span></span>
-    cd /
+1. <span class="Section1">Reboot your forensic Mac and restore the
+   <b>diskarbitrationd.plist</b><span
+        style='font-weight:normal'> file back to the
+   </span><b>/etc/mach-init.d</b><span
+        style='font-weight:normal'> directory. Type </span></span>
+   cd /
 
-    <span class="Section1"
-    style='color:maroon'><b>sudo cp diskarbitrationd.plist
-    /etc/mach_init.d</b></span><span class="Section1">. </span>
+   <span class="Section1"
+   style='color:maroon'><b>sudo cp diskarbitrationd.plist
+   /etc/mach_init.d</b></span><span class="Section1">. </span>
 
 </td>
 </tr>
@@ -341,10 +336,10 @@ appear on your desktop. Open it.
 </td>
 <td width="633" align="left" valign="top">
 
-2.  The <span
-         style='color:blue'><b>Evidence.dmg</b></span> file should
-    appear. Click on it once. Lock the file via the “GET INFO” menu to
-    ensure it is write protected.
+2. The <span
+        style='color:blue'><b>Evidence.dmg</b></span> file should
+   appear. Click on it once. Lock the file via the "GET INFO" menu to
+   ensure it is write protected.
 
 </td>
 </tr>

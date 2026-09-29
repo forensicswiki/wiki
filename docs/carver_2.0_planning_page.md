@@ -949,30 +949,30 @@ POLA
 
 # Implementation Timeline
 
-1.  gather the available resources/ideas/wishes/needs etc. (I guess
-    we're in this phase)
-2.  start discussing a high level design (in terms of algorithm,
-    facilities, information needed)
-    1.  input formats facility
-    2.  partition/volume facility
-    3.  file system facility
-    4.  file format facility
-    5.  content facility
-    6.  how to deal with fragment detection (do the validators allow for
-        fragment detection?)
-    7.  how to deal with recombination of fragments
-    8.  do we want multiple carving phases in light of speed/precision
-        tradeoffs
-3.  start detailing parts of the design
-    1.  Discuss options for a grammar driven validator?
-    2.  Hard-coded plug-ins?
-    3.  Which existing code can we use?
-4.  start building/assembling parts of the tooling for a prototype
-    1.  Implement simple file carving with validation.
-    2.  Implement gap carving
-5.  Initial Release
-6.  Implement the *threaded carving* that .FUF
-    is describing above.
+1. gather the available resources/ideas/wishes/needs etc. (I guess
+   we're in this phase)
+2. start discussing a high level design (in terms of algorithm,
+   facilities, information needed)
+   1. input formats facility
+   2. partition/volume facility
+   3. file system facility
+   4. file format facility
+   5. content facility
+   6. how to deal with fragment detection (do the validators allow for
+      fragment detection?)
+   7. how to deal with recombination of fragments
+   8. do we want multiple carving phases in light of speed/precision
+       tradeoffs
+3. start detailing parts of the design
+   1. Discuss options for a grammar driven validator?
+   2. Hard-coded plug-ins?
+   3. Which existing code can we use?
+4. start building/assembling parts of the tooling for a prototype
+   1. Implement simple file carving with validation.
+   2. Implement gap carving
+5. Initial Release
+6. Implement the *threaded carving* that .FUF
+   is describing above.
 
 Joachim Shouldn't multi threaded carving
 (MTC) not be part of the 1st version? The MT approach makes for

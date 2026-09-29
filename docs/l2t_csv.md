@@ -51,8 +51,8 @@ A more detailed description of each of the fields and their meaning:
 6. **sourcetype**: More comprehensive description of the source.
    This field further describes the format, such as "Syslog" instead of
    simply "LOG", "NTUSER.DAT Registry" instead of "REG", etc.
-7. **type**: type of the timestamp itself, such as “Last Accessed”,
-   “Last Written” or “Last modified”, etc.
+7. **type**: type of the timestamp itself, such as "Last Accessed",
+   "Last Written" or "Last modified", etc.
 8. **user**: username associated with the entry, if one is
    available.
 9. **host**: hostname associated with the entry, if one is

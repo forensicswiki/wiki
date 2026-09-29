@@ -14,11 +14,11 @@ Wales) is training prosecutors en masse about ‘trojan defenses’ (link
 below). These types of actions would not occur unwarranted. Why do all
 the extra work for nothing?
 
-“The "Trojan defense" has now become standard in many types of computer
+"The "Trojan defense" has now become standard in many types of computer
 crime cases. But the defense often plays on the ignorance of juries and
 prosecutors. It has raised the need for the CPS to do more to explain
 complex technical issues in simple terms to judges and juries, says
-George.” (Esther George is the policy adviser at the Crown Protection
+George." (Esther George is the policy adviser at the Crown Protection
 Services)
 [1](https://www.computerweekly.com/indepth)
 
@@ -39,7 +39,7 @@ sites and uploading child porn images. Guilty charge upheld.
 Odd spin on the issue, where a hacker used a Trojan to gain access to
 potential pedophile’s computers.
 
-Bandy’s defense attorney asserted that a “virus” or “trojan” must have
+Bandy’s defense attorney asserted that a "virus" or "trojan" must have
 downloaded the child pornography to Bandy’s computer without his
 knowledge.
 [4](https://www.cnet.com/tech/tech-industry/police-blotter-child-porn-blamed-on-computer-virus/)

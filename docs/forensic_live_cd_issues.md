@@ -65,7 +65,7 @@ using only "-o ro" flag in order to find a root file system image).
 
 <img src="../assets/images/Ext3_recovery.png"
 title="ext_recovery" width="550"
-alt="ext_recovery" /> 
+alt="ext_recovery" />
 damaged Ext3 recovery during the boot
 
 List of distributions that recover Ext3 (and sometimes Ext4) file
@@ -103,7 +103,7 @@ spoofing.
 
 <img src="../assets/images/Grml.png"
 title="grml" width="550"
-alt="grml" /> 
+alt="grml" />
 mounted root file system from the [hard drive](hard_drive.md)
 
 Currently, Casper may select fake root file system image on evidentiary

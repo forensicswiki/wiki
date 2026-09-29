@@ -19,27 +19,26 @@ then be inspected with traditional forensics tools.
 
 #### Mount
 
-1.  Install qemu-kvm using your preferred installation tool (apt-get,
-    etc)
-2.  Load the network block device module \>sudo modprobe nbd
-3.  Use Qemu to load the VDI file as a loop back device \>sudo qemu-nbd
-    -c /dev/nbd0 infile.vdi
-4.  Mount \>sudo mount /dev/nbd0p1 /mnt
-5.  Inspect the file system as needed
+1. Install qemu-kvm using your preferred installation tool (apt-get, etc.)
+2. Load the network block device module \>sudo modprobe nbd
+3. Use Qemu to load the VDI file as a loop back device \>sudo qemu-nbd
+   -c /dev/nbd0 infile.vdi
+4. Mount \>sudo mount /dev/nbd0p1 /mnt
+5. Inspect the file system as needed
 
 To undo:
 
-1.  \>sudo umount /mnt
-2.  \>qemu-nbd -d /dev/nbd0
+1. \>sudo umount /mnt
+2. \>qemu-nbd -d /dev/nbd0
 
 #### Convert
 
 Conversion requires the Virtual Box tool kit, if you don't already have
 it.
 
-1.  Install virtualbox-ose using your preferred installation tool
-    (apt-get, download from VirtualBox.org, etc)
-2.  Convert to raw format \>VBoxManage internalcommands converttoraw
-    infile.vdi outfile.img
-3.  Inspect the raw image as per usual, either with TSK, EnCase, or
-    mount
+1. Install virtualbox-ose using your preferred installation tool
+   (apt-get, download from VirtualBox.org, etc)
+2. Convert to raw format \>VBoxManage internalcommands converttoraw
+   infile.vdi outfile.img
+3. Inspect the raw image as per usual, either with TSK, EnCase, or
+   mount

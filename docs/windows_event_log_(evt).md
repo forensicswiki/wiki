@@ -24,15 +24,15 @@ empty, slack and padding.
 The Header Record defined as [ELF_LOGFILE_HEADER](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
 on MSDN consists of:
 
-1.  uint32 length of record in bytes, fixed 0x30
-2.  char magic\[4\], fixed 'LfLe' (for Event log file)
-3.  uint32 unknown, fixed 0x0100 0x0000, possibly indicates version
-4.  uint32 unknown, fixed 0x0100 0x0000, possibly indicates version
-5.  uint32 offset of first event record
-6.  uint32 offset of next event record
-7.  uint32 number of next event record
-8.  uint32 number of first event record
-9.  uint32 filesize (see below)
+1. uint32 length of record in bytes, fixed 0x30
+2. char magic\[4\], fixed 'LfLe' (for Event log file)
+3. uint32 unknown, fixed 0x0100 0x0000, possibly indicates version
+4. uint32 unknown, fixed 0x0100 0x0000, possibly indicates version
+5. uint32 offset of first event record
+6. uint32 offset of next event record
+7. uint32 number of next event record
+8. uint32 number of first event record
+9. uint32 filesize (see below)
 10. uint32 flags (see below)
 11. uint32 retention period in seconds
 12. uint32 length of record in bytes (again), fixed 0x30
@@ -57,13 +57,13 @@ Filesize is updated only during some recovery operations.
 
 ## Cursor Record
 
-1.  uint32 length of record in bytes, fixed 0x28
-2.  uint32 magic\[4\], fixed 0x11111111 0x22222222 0x33333333 0x44444444
-3.  uint32 offset of first event record
-4.  uint32 offset of next event record
-5.  uint32 number of next event record
-6.  uint32 number of first event record
-7.  uint32 length of record in bytes, fixed 0x28
+1. uint32 length of record in bytes, fixed 0x28
+2. uint32 magic\[4\], fixed 0x11111111 0x22222222 0x33333333 0x44444444
+3. uint32 offset of first event record
+4. uint32 offset of next event record
+5. uint32 number of next event record
+6. uint32 number of first event record
+7. uint32 length of record in bytes, fixed 0x28
 
 ## Event Record
 

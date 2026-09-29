@@ -11,7 +11,7 @@ investigators and advanced private investigators. Gargoyle performs a
 quick search for malicious software programs and provides significant
 clues regarding activities, motives and the intent of the suspect or
 potential suspects. Gargoyle goes beyond the standard virus protection
-software with our extensive collection of “hostile” programs that
+software with our extensive collection of "hostile" programs that
 typical virus protection software cannot detect. This tool was developed
 to shorten investigation time and provide accurate and detailed forensic
 evidence reports to assist investigators in the malware investigation

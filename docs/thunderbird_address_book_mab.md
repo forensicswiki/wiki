@@ -35,19 +35,19 @@ address books, which are related to all profiles that are configured.
 There are basically three types of Mozilla Address Book most commonly
 used:
 
-1\. **abook.mab (Personal Address Book):** It is a default folder that
+1. **abook.mab (Personal Address Book):** It is a default folder that
 saves all the contacts of Personal Address Book. Thus, when a user saves
 their contacts in Personal address book, all their contacts are added to
 abook.mab file. If it all the abook.mab file is exported, one can simply
 open abook.mab contacts from the Personal Address Book.
 
-2\. **history.mab (Collected Address Book):** Thunderbird and other
+2. **history.mab (Collected Address Book):** Thunderbird and other
 email clients maintain a record of contacts automatically for the faster
 utilization and data management. All these addresses collected are kept
 in history.mab file. It encircles information about all contacts that
 have been collected by mail client.
 
-3\. **impab.mab (User-defined or Imported):** If user needs to import
+3. **impab.mab (User-defined or Imported):** If user needs to import
 Address book for retaining the embedded contacts then, all the contacts
 are saved into impab.mab file. So that, while viewing impab.mab file,
 users can get complete records of contacts that are imported.
@@ -59,22 +59,30 @@ their Thunderbird profile on their system then, it can be located at:
 
 ### For Windows Users
 
-`“C:\abc\admin\AppData\Roaming\Thunderbird\Profiles”`
+```text
+C:\abc\admin\AppData\Roaming\Thunderbird\Profiles"
+```
 
 ### For Mac Users
 
-`"~/Library/Thunderbird/Profiles/"`
+```text
+~/Library/Thunderbird/Profiles/
+```
 
 However, users of SeaMonkey can also find the location of .mab file
 extension at:
 
 ### For Windows Users
 
-`"C:\Users\xyz\AppData\Roaming\Mozilla\Profiles\content`<Profile Name>`"`
+```text
+C:\Users\xyz\AppData\Roaming\Mozilla\Profiles\content<Profile Name>
+```
 
 ### For Mac Users
 
-`~/Library/Application Support/SeaMonkey/Profiles/trainer.`<Profile name>
+```text
+~/Library/Application Support/SeaMonkey/Profiles/trainer.<Profile name>
+```
 
 ## How to Open MAB File
 
@@ -82,22 +90,22 @@ Once the user finds the location of MAB data file, the first thing that
 arises in mind of most of the users, is to read that Thunderbird Address
 Book file MAB. Hence, whenever they open MAB file by simply clicking it,
 they are unable to open address book MAB file. An error is caused that
-shows, “Windows cannot recognize MAB file format, thus Windows cannot
-open MAB file.” Thus, this repeated problem for viewing MAB file makes
+shows, "Windows cannot recognize MAB file format, thus Windows cannot
+open MAB file." Thus, this repeated problem for viewing MAB file makes
 an issue for users then, they find a way to view .mab file. Other
 possible alternative is to open .mab file in LibreOffice, which gives
 right to open and utilize .mab file within its interface. Thus, to open
 as well as view .mab file format, follow the stated steps:
 
-1\. Open LibreOffice application on your system.
+1. Open LibreOffice application on your system.
 
-2\. Then, choose **File** option and select Wizards.
+2. Then, choose **File** option and select Wizards.
 
-3\. From drop down list, select **Address Data Book Source**.
+3. From drop down list, select **Address Data Book Source**.
 
-4\. Choose an **external data source** option.
+4. Choose an **external data source** option.
 
-5\. Select the required type of file to be viewed.
+5. Select the required type of file to be viewed.
 
 **Limitation-** It can only be made after installing the driver for
 viewing Address book .mab file. It is not possible to open .mab file
@@ -115,9 +123,6 @@ utilizing.
 
 ## External Links
 
-[Wikipedia: MAB](https://en.wikipedia.org/wiki/Mork_(file_format))
-
-[What is MAB File Extension](https://www.whatisfileextension.com/mab/)
-
-[Thunderbird Address
-Book](http://kb.mozillazine.org/Profile_folder_-_Thunderbird)
+* [Wikipedia: MAB](https://en.wikipedia.org/wiki/Mork_(file_format))
+* [What is MAB File Extension](https://www.whatisfileextension.com/mab/)
+* [Thunderbird Address Book](http://kb.mozillazine.org/Profile_folder_-_Thunderbird)

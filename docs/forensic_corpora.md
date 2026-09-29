@@ -99,7 +99,7 @@ for analysis. The UMass Trace Repository is supported by grant
 In 1998, 1999 and 2000 the Information Systems Technology Group at MIT Lincoln
 Laboratory created a test network complete with simulated servers, clients,
 clerical workers, programmers, and system managers. Baseline traffic was
-collected. The systems on the network were then “attacked” by simulated
+collected. The systems on the network were then "attacked" by simulated
 hackers. Some of the attacks were well-known at the time, while others were
 developed for the purpose of the evaluation.
 

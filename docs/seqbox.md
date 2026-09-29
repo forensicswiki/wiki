@@ -72,6 +72,6 @@ Byte order: Big Endian
 
 ## External Links
 
-* [SeqBox GitHub](https://github.com/MarcoPon/SeqBox) repository with encoder, 
+* [SeqBox GitHub](https://github.com/MarcoPon/SeqBox) repository with encoder,
   decoder and recovery tools
 * [SeqBox page](https://mark0.net/soft-seqbox-e.html) at Marco Pontello's Home

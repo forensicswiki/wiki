@@ -13,7 +13,7 @@ system (IDS/IPS) developed by [Sourcefire](https://www.cisco.com/site/us/en/prod
 Originally released in 1998 by Sourcefire founder and CTO Martin Roesch,
 Snort is a free, open source network intrusion detection and prevention
 system capable of performing real-time traffic analysis and packet
-logging on IP networks. Initially called a “lightweight” intrusion
+logging on IP networks. Initially called a "lightweight" intrusion
 detection technology, Snort has evolved into a mature, feature-rich IPS
 technology that has become the de facto standard in intrusion detection
 and prevention. With over 4 million downloads and nearly 400,000

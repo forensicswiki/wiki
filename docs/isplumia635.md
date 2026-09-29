@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mobile Forensics 
+  - Mobile Forensics
 ---
 ## ISP Lumia 635
 
@@ -18,20 +18,20 @@ read via ISP, and then reassembled.
 
 What you need to dump the eMMC:
 
-1.  An ATF Turbo Flasher
-2.  Soldering skills and ultra-fine tip soldering iron.
-3.  A hot air re-work station. The hot air re-work station used for this
+1. An ATF Turbo Flasher
+2. Soldering skills and ultra-fine tip soldering iron.
+3. A hot air re-work station. The hot air re-work station used for this
     was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
 
 ### eMMC Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Solder wires to the eMMC connection points on the PCB.
-3.  Connect the ATF box to the PC and start the ATF software.
-4.  Configure the ATF software.
-5.  Connect the PCB with the ATF 4in1 adapter to the ATF box.
-6.  Connect the PCB via USB to the computer.
-7.  Read the device via the ATF software.
+1. Disassemble the phone down to the PCB.
+2. Solder wires to the eMMC connection points on the PCB.
+3. Connect the ATF box to the PC and start the ATF software.
+4. Configure the ATF software.
+5. Connect the PCB with the ATF 4in1 adapter to the ATF box.
+6. Connect the PCB via USB to the computer.
+7. Read the device via the ATF software.
 
 ### Detailed Procedure
 
@@ -84,7 +84,7 @@ title="Lumia-630-eMMC-ShieldRemoval.jpg" width="500"
 alt="Lumia-630-eMMC-ShieldRemoval.jpg" />
 <figcaption
 aria-hidden="true">Lumia-630-eMMC-ShieldRemoval.jpg</figcaption>
-                                                                                                                                             
+
 <img src="../assets/images/Lumia-630-eMMC-ShieldRemoved.jpg"
 title="Lumia-630-eMMC-ShieldRemoved.jpg" width="250"
 alt="Lumia-630-eMMC-ShieldRemoved.jpg" />
@@ -103,18 +103,18 @@ width="500" alt="Lumia-630-eMMC-tapsJPG.jpg" />
 alt="ATF-4in1-Adapter.jpg" />
 <figcaption aria-hidden="true">ATF-4in1-Adapter.jpg</figcaption>
 
-Blue --\> CMD    
-Red --\> CLK     
-Yellow --\> TDO  
-Brown --\> GND   
-                  
+Blue --\> CMD
+Red --\> CLK
+Yellow --\> TDO
+Brown --\> GND
+
 
 `* Using 0.040 gauge wire, solder the taps.  Note: The yellow and red taps connect to the same test point.  I recommend soldering a single wire to the tap and breaking it out to separate wires for the red and yellow connections.  These wires are then connected to a ATF 4-in-1 adapter.`
 
  <img src="../assets/images/Lumia-630-ATF-Soldered.jpg" title="Lumia-630-ATF-Soldered.jpg"
  width="500" alt="Lumia-630-ATF-Soldered.jpg" />
  <figcaption aria-hidden="true">Lumia-630-ATF-Soldered.jpg</figcaption>
-                          
+
 <img src="../assets/images/Lumia-630-Soldered.jpg" title="Lumia-630-Soldered.jpg"
 width="500" alt="Lumia-630-Soldered.jpg" />
 <figcaption aria-hidden="true">Lumia-630-Soldered.jpg</figcaption>

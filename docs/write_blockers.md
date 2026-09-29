@@ -3,7 +3,7 @@ tags:
   - Disk Imaging
   - Hardware
 ---
-**Write blockers** are devices that allow acquisition of information on
+Write blockers are devices that allow acquisition of information on
 a [drive](hard_drive.md) without creating the possibility of
 accidentally damaging the drive contents. They do this by allowing read
 commands to pass but by blocking write commands, hence their name.
@@ -33,9 +33,9 @@ blockers are designed for a specific operating system. One designed for
 Windows will not work on Linux. Most hardware write blockers are
 software independent.
 
-# Hardware Write Blockers
+## Hardware Write Blockers
 
-**Hardware write blockers** can be either IDE-to-IDE
+Hardware write blockers can be either IDE-to-IDE
 or [Firewire](firewire.md)/[USB](usb.md)-to-IDE. Simson
 prefers the IDE-to-IDE because they deal better with errors on the drive
 and make it easier to access special information that is only accessible
@@ -44,32 +44,30 @@ over the IDE interface. You may feel differently.
 NIST test results are here:
 <https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-technical/hardware>
 
-## Commercial
+### Commercial
 
-[MyKey Technology, Inc.](https://www.mykeytech.com/) NoWrite FPU and FlashBlock II
-1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
-types - NIST Ver. 2 accepted
-
-Tableau write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
-<https://www.opentext.com/products/tableau-forensic-bridges>
-
-WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
-<https://wiebetech.com/products/> NIST Ver. 1 accepted
+* [MyKey Technology, Inc.](https://www.mykeytech.com/) NoWrite FPU and FlashBlock II
+  1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
+  types - NIST Ver. 2 accepted
+* Tableau write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
+  <https://www.opentext.com/products/tableau-forensic-bridges>
+* WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
+  <https://wiebetech.com/products/> NIST Ver. 1 accepted
 
 [EPOS WriteProtector](https://epos.ua/nashi-rozrobky/)
 
-# Software Write Blockers
+## Software Write Blockers
 
 **Software write blockers** can be either tailored to an individual
 operating system or can be an independent boot disk. Their main upsides
 are with ease of use, since they are on a CD and do not require you to
 open up the case, and speed since they do not become a bottle neck.
 
-## Open Source
+### Open Source
 
-[Linux software write blocker](linux_write_blocker.md)
+* [Linux software write blocker](linux_write_blocker.md)
 
-## Commercial
+### Commercial
 
 * [SAFE Block XP](safe_block_xp.md)
   SAFE Block XP is a software-based write blocker designed for the Windows XP

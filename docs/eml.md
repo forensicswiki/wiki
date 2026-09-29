@@ -4,7 +4,7 @@ tags:
   - Windows
 ---
 EML or Electronic mail is a file format primarily associated with
-Microsoft Corporation “Outlook Express” and is used by other email
+Microsoft Corporation "Outlook Express" and is used by other email
 clients as well. It is a file extension (.eml) for e-mail message saved
 to file in MIME RFC 822 standard format. Basic purpose of EML file is
 storing email messages as a plain text file in standard file structure.

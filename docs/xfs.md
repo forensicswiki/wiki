@@ -3,8 +3,7 @@ tags:
   - Articles that need to be expanded
   - File Systems
 ---
-XFS is a 64-bit journaling file system created by Silicon Graphics, Inc
-(SGI).
+XFS is a 64-bit journaling file system created by Silicon Graphics, Inc (SGI).
 
 ## External Links
 

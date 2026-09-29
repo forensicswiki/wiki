@@ -1,7 +1,7 @@
 ---
 tags:
   - Data Carving
-  - Data Recovery 
+  - Data Recovery
 ---
 **File Carving,** or sometimes simply **Carving,** is the practice of
 searching an input for files or other kinds of objects based on content,
