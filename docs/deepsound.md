@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Tools
+  - Tools
 ---
 ## Overview
 
@@ -20,9 +20,8 @@ encryption.
 
 ## External Links
 
-- [Official Site](https://jpinsoft.net/deepsound)
+* [Official Site](https://jpinsoft.net/deepsound)
 
 ## See Also
 
-- [Steganography](steganography.md)
-
+* [Steganography](steganography.md)

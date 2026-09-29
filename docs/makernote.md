@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 MakerNote is an EXIFv2 tag which can contain additional information
 about a digital photograph.
@@ -10,6 +10,5 @@ MakerNote (tag 0x927c), rather than in the standard Exif information.
 
 # References
 
-- [Makernote Formats and
-  Specifications](https://exiv2.org/makernote.html)
-- [Canon MakerNote Tags](https://exiv2.org/tags-canon.html)
+* [Makernote Formats and Specifications](https://exiv2.org/makernote.html)
+* [Canon MakerNote Tags](https://exiv2.org/tags-canon.html)

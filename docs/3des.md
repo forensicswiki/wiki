@@ -12,6 +12,4 @@ today than it was when 3DES was first brought out.
 
 ## External Links
 
-- [Wikipedia: 3DES](https://en.wikipedia.org/wiki/Triple_DES)
-
-<!-- -->
+* [Wikipedia: 3DES](https://en.wikipedia.org/wiki/Triple_DES)

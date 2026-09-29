@@ -1,11 +1,10 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## Definition
 
-Wikipedia on [Forensic
-desoldering](https://en.wikipedia.org/wiki/Mobile_device_forensics#Forensic_desoldering)
+Wikipedia on [Forensic desoldering](https://en.wikipedia.org/wiki/Mobile_device_forensics#Forensic_desoldering)
 
 > The process is commonly referred to as a "chip-off" technique. The
 > procedure is often the last and often most intrusive method to acquire
@@ -24,27 +23,19 @@ state post-IC removal, is difficult.
 
 ## Tools and Equipment
 
-- [JTAG and Chip-Off Tools and
-  Equipment](jtag_and_chip-off_tools_and_equipment.md)
+* [JTAG and Chip-Off Tools and Equipment](jtag_and_chip-off_tools_and_equipment.md)
 
 ## Procedures
 
-- [Chip-Off BlackBerry Curve
-  9300](chip-off_blackberry_curve_9300.md)
-- [Chip-Off BlackBerry Curve
-  9315](chip-off_blackberry_curve_9315.md)
-- [Chip-Off BlackBerry Curve
-  9320](chip-off_blackberry_curve_9320.md)
-- [Chip-Off BlackBerry Bold
-  9780](chip-off_blackberry_bold_9780.md)
-- [Chip-Off BlackBerry Bold
-  9900](chip-off_blackberry_bold_9900.md)
-- [Chip-Off_BlackBerry_Z10](chip-off_blackberry_z10.md)
-- [Moto X Play (XT1563) Chip
-  Off](moto_x_play_(xt1563)_chip_off.md)
+* [Chip-Off BlackBerry Curve 9300](chip-off_blackberry_curve_9300.md)
+* [Chip-Off BlackBerry Curve 9315](chip-off_blackberry_curve_9315.md)
+* [Chip-Off BlackBerry Curve 9320](chip-off_blackberry_curve_9320.md)
+* [Chip-Off BlackBerry Bold 9780](chip-off_blackberry_bold_9780.md)
+* [Chip-Off BlackBerry Bold 9900](chip-off_blackberry_bold_9900.md)
+* [Chip-Off_BlackBerry_Z10](chip-off_blackberry_z10.md)
+* [Moto X Play (XT1563) Chip Off](moto_x_play_(xt1563)_chip_off.md)
 
-## External links
+## External Links
 
-- [Understanding surface
-  mount](https://hackaday.com/2015/09/07/understanding-surface-mount/),
+* [Understanding surface mount](https://hackaday.com/2015/09/07/understanding-surface-mount/),
   by Al Williams, September 7, 2015

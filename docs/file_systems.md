@@ -183,12 +183,12 @@ Originally from Sun, it is the standard in UNIX-based networks.
 
 # Also see
 
-- [Identifying file systems](identifying_file_systems.md)
+* [Identifying file systems](identifying_file_systems.md)
 
 # External Links
 
-- [Wikipedia: File system](https://en.wikipedia.org/wiki/File_system)
-- [Wikipedia: List of file systems](https://en.wikipedia.org/wiki/List_of_file_systems)
-- [Wikipedia: Comparison of file systems](https://en.wikipedia.org/wiki/Comparison_of_file_systems)
-- [Wikipedia: Next3](https://en.wikipedia.org/wiki/Next3)
-- [Overwriting Hard Drive Data: The Great Wiping Controversy](https://www.researchgate.net/publication/221160815_Overwriting_Hard_Drive_Data_The_Great_Wiping_Controversy)
+* [Wikipedia: File system](https://en.wikipedia.org/wiki/File_system)
+* [Wikipedia: List of file systems](https://en.wikipedia.org/wiki/List_of_file_systems)
+* [Wikipedia: Comparison of file systems](https://en.wikipedia.org/wiki/Comparison_of_file_systems)
+* [Wikipedia: Next3](https://en.wikipedia.org/wiki/Next3)
+* [Overwriting Hard Drive Data: The Great Wiping Controversy](https://www.researchgate.net/publication/221160815_Overwriting_Hard_Drive_Data_The_Great_Wiping_Controversy)

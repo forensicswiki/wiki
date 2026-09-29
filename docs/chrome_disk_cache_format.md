@@ -119,9 +119,9 @@ represents 4 blocks.</p></td>
 
 Overview:
 
-- File header
-- least recently used (LRU) data (or eviction control data)
-- index table
+* File header
+* least recently used (LRU) data (or eviction control data)
+* index table
 
 ### File header
 
@@ -327,8 +327,8 @@ The index table is an array of cache addresses.
 
 Overview:
 
-- File header
-- array of blocks
+* File header
+* array of blocks
 
 ### File header
 
@@ -725,12 +725,12 @@ uint32_t SuperFastHash(
 
 ## See Also
 
-- [Google Chrome](google_chrome.md)
-- [gzip](gzip.md)
+* [Google Chrome](google_chrome.md)
+* [gzip](gzip.md)
 
 ## External Links
 
-- [Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
+* [Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/),
   The Chromium Projects
-- [Chrome Cache file format](https://github.com/libyal/dtformats/blob/main/documentation/Chrome%20Cache%20file%20format.asciidoc),
+* [Chrome Cache file format](https://github.com/libyal/dtformats/blob/main/documentation/Chrome%20Cache%20file%20format.asciidoc),
   originally by the [Plaso project](plaso.md) transitioned to the dtFormats project, April 2014

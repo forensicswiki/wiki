@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 A hard drive can be compared to a small computer. It uses
 microprocessors to control both the physical behavior of the various
@@ -28,5 +28,5 @@ collection of electronic components.
 
 ### Tools
 
-- [Chipsec](https://github.com/chipsec)
-- [UEFITool](https://github.com/LongSoft/UEFITool)
+* [Chipsec](https://github.com/chipsec)
+* [UEFITool](https://github.com/LongSoft/UEFITool)

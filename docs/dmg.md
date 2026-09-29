@@ -4,12 +4,12 @@ tags:
   - File Formats
   - MacOS
 ---
-**DMG** is the proprietary Apple Disk Image file recognized & primarily
-associated with the Macintosh OS X operating system used for emulating a
-hard disk or DVD. The Apple Disk Image file is created in various types
-of volumes (HFSX, HFS+, & HFS). It is a raw disk image file consisting
-of block data and metadata. Often one or more layers are applied to the
-file (optionally) for its encryption and compression.
+**DMG**, technically Universal Disk Image Format (UDIF), is the proprietary
+Apple Disk Image file recognized & primarily associated with the Macintosh OS X
+operating system used for emulating a hard disk or DVD. The Apple Disk Image
+file is created in various types of volumes (HFSX, HFS+, & HFS). It is a raw
+disk image file consisting of block data and metadata. Often one or more layers
+are applied to the file (optionally) for its encryption and compression.
 
 The image file was primarily used for replicating contents into a
 different disk. The source disk is duplicated exactly in the process
@@ -40,15 +40,15 @@ command based utility for Mac OS X.
 
 DMG files can be different types and formats:
 
-- UDBZ; bzip2 compressed Universal Disk Image Format (UDIF) image
-- UDCO; Apple Data Compression (ADC) compressed Universal Disk Image
+* UDBZ; bzip2 compressed Universal Disk Image Format (UDIF) image
+* UDCO; Apple Data Compression (ADC) compressed Universal Disk Image
   Format (UDIF) image
-- UDIF; Read-write uncompressed Universal Disk Image Format (UDIF) image
-- UDRO; Read-only uncompressed Universal Disk Image Format (UDIF) image
-- UDxx; Uncompressed Universal Disk Image Format (UDIF) image
-- UDZO; zlib/DEFLATE compressed Universal Disk Image Format (UDIF) image
-- ULFO; LZFSE compressed Universal Disk Image Format (UDIF) image
-- ULMO; LZMA compressed Universal Disk Image Format (UDIF) image
+* UDIF; Read-write uncompressed Universal Disk Image Format (UDIF) image
+* UDRO; Read-only uncompressed Universal Disk Image Format (UDIF) image
+* UDxx; Uncompressed Universal Disk Image Format (UDIF) image
+* UDZO; zlib/DEFLATE compressed Universal Disk Image Format (UDIF) image
+* ULFO; LZFSE compressed Universal Disk Image Format (UDIF) image
+* ULMO; LZMA compressed Universal Disk Image Format (UDIF) image
 
 These are all variants of the Universal Disk Image Format (UDIF), where
 older DMG files might use the New Disk Image Format (NDIF).
@@ -119,20 +119,6 @@ disk images was supplied by DMG Viewer, DMGExtractor and dmg2img.
 Ample of options render independent mounting and extraction of Apple DMG
 file. The long-familiar licensed cross platform utilities are:
 
-**For Mounting:**
-
-`  DMG Viewer`
-
-**For Conversion:**
-
-`  dmg2img`
-
-**For Extraction:**
-
-`  DMGExtractor`
-`  7zip`
-`  PeaZip`
-
 ## External Links
 
 * [Demystifying the DMG File Format](https://newosxbook.com/DMG.html),
@@ -142,6 +128,10 @@ file. The long-familiar licensed cross platform utilities are:
 
 ### Tools
 
+* 7zip
+* dmg2img
+* DMGExtractor
 * [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)
 * [encrypteddmg](https://github.com/nlitsme/encrypteddmg)
 * [libmodi](https://github.com/libyal/libmodi)
+* PeaZip

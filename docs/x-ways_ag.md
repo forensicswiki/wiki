@@ -9,6 +9,6 @@ editor, disk editor, and RAM editor. Their flagship forensic
 application, X-Ways Forensics, is an integrated computer forensics
 environment based on WinHex.
 
-## External links
+## External Links
 
 * [WinHex](https://www.x-ways.net/winhex/) Website

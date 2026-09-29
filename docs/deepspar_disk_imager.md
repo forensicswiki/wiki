@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Disk Imaging
-  -  Tools
-  -  Hardware
+  - Disk Imaging
+  - Tools
+  - Hardware
 ---
 The [DeepSpar](deepspar.md) Disk Imager is a hardware, drive to
 drive, data recovery imaging device. It makes use of a fairly standard
@@ -50,15 +50,12 @@ investigation.
 
 ## External Links
 
-- [Official website](http://www.driveimager.com/)
-- [Product data
-  sheet](https://www.deepspar.com/pdf/DeepSparDiskImager.pdf)
-- [Review of the DeepSpar Disk
-  Imager](https://www.deepspar.com/mjm-ds-disk-imager.html) by Mike
-  Montgomery of MJM Data Recovery in the UK.
-- *[Disk Imaging: A Vital Step in Data
+* [Official website](http://www.driveimager.com/)
+* [Product data sheet](https://www.deepspar.com/pdf/DeepSparDiskImager.pdf)
+* [Review of the DeepSpar Disk Imager](https://www.deepspar.com/mjm-ds-disk-imager.html)
+  by Mike Montgomery of MJM Data Recovery in the UK.
+* *[Disk Imaging: A Vital Step in Data
   Recovery](https://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,
   a whitepaper on the product
-- [Interview on the
-  imager](https://cyberspeak.libsyn.com/index.php?post_id=193897) on the
-  [Cyberspeak podcast](cyberspeak_podcast.md)
+* [Interview on the imager](https://cyberspeak.libsyn.com/index.php?post_id=193897)
+  on the [Cyberspeak podcast](cyberspeak_podcast.md)

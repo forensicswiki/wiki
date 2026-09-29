@@ -9,15 +9,15 @@ The busses mainly differ in their operating conditions.
 
 ## Internal drives (Home users)
 
-- IDE / [ATA Interface](ata_interface.md)
+* IDE / [ATA Interface](ata_interface.md)
   (parallel ATA)
-- SATA
+* SATA
 
 ## Internal drives (Server environment)
 
-- [SCSI](scsi.md)
+* [SCSI](scsi.md)
 
 ## External drives
 
-- [Firewire](firewire.md)
-- [USB](usb.md)
+* [Firewire](firewire.md)
+* [USB](usb.md)

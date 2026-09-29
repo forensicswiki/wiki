@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 The Application Footprint XML provides a means for distributing
 information about an application's distribution format, it's
@@ -53,8 +53,8 @@ drive after it has been installed.
 
 For each of the blocks above, we would like to indicate:
 
-- Files (hashes & fuzzy hashes)
-- Registry entries
-- Magic Numbers (perhaps there is an 8-byte code left in memory or in an
+* Files (hashes & fuzzy hashes)
+* Registry entries
+* Magic Numbers (perhaps there is an 8-byte code left in memory or in an
   executable that's descriptive)
-- Tool artifacts
+* Tool artifacts

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## Definition
 
@@ -29,8 +29,8 @@ function normally.
 
 ## Tools and Equipment
 
-- [JTAG and Chip-Off Tools and Equipment](jtag_and_chip-off_tools_and_equipment.md)
+* [JTAG and Chip-Off Tools and Equipment](jtag_and_chip-off_tools_and_equipment.md)
 
 ## Procedures
 
-- [ISP Lumia 635/RM-975](isplumia635.md)
+* [ISP Lumia 635/RM-975](isplumia635.md)

@@ -23,4 +23,4 @@ extended.
 
 ## External Links
 
-- [Official website](https://github.com/vstinner/hachoir)
+* [Official website](https://github.com/vstinner/hachoir)

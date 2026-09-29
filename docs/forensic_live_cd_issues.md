@@ -185,7 +185,7 @@ almost the same, except it doesn't write block anything by default).
 
 ### TRIM aka discard command
 
-## External links
+## External Links
 
 * [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
 * [Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)

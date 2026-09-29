@@ -41,4 +41,4 @@ the freely downloadable [Helix live CD](helix3.md).
 
 # External Links
 
-- [Official website](https://www.opentext.com/)
+* [Official website](https://www.opentext.com/)

@@ -21,6 +21,6 @@ Google Desktop will be discontinued as of September 14 2011
 
 ## External Links
 
-- [Official website](http://desktop.google.com/)
-- [Wikipedia entry on Google Desktop](https://en.wikipedia.org/wiki/Google_Desktop)
-- [Wikipedia list of Desktop search engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)
+* [Official website](http://desktop.google.com/)
+* [Wikipedia entry on Google Desktop](https://en.wikipedia.org/wiki/Google_Desktop)
+* [Wikipedia list of Desktop search engines](https://en.wikipedia.org/wiki/List_of_search_engines#Desktop_search_engines)

@@ -61,10 +61,10 @@ judgement motion was at the core of this wrongful termination case. The
 court found that email messages may be authenticated as being from the
 suspected author based on the following factors:
 
-- The email address from which it was sent
-- An affidavit of the recipient
-- Comparison of the content of the email with other evidence
-- Other communication from the suspected author acknowledging the email
+* The email address from which it was sent
+* An affidavit of the recipient
+* Comparison of the content of the email with other evidence
+* Other communication from the suspected author acknowledging the email
   message in question
 
 **U.S. v. Cameron, 2010 WL 3238326 (U.S. District Court for the District
@@ -89,8 +89,8 @@ transport \[the defendants'\] data, \[and use of\] multiple USB devices
 \[to\] intend to destroy evidence." Summary judgment against plaintiff
 for interfering with the discovery process.
 
-## External links
+## External Links
 
-- [SETEC Investigations: Case Summaries](http://www.setecinvestigations.com/resources/casesummaries.php)
-- [The Laptop, Slack Space and Child Pornography](http://cyb3rcrim3.blogspot.com/2015/08/the-laptop-slack-space-and-child.html),
+* [SETEC Investigations: Case Summaries](http://www.setecinvestigations.com/resources/casesummaries.php)
+* [The Laptop, Slack Space and Child Pornography](http://cyb3rcrim3.blogspot.com/2015/08/the-laptop-slack-space-and-child.html),
   by Susan Brenner, August 03, 2015

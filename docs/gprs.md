@@ -66,4 +66,4 @@ of transfer.
 
 ## External Links
 
-- [Wikipedia: GPRS](https://en.wikipedia.org/wiki/GPRS)
+* [Wikipedia: GPRS](https://en.wikipedia.org/wiki/GPRS)

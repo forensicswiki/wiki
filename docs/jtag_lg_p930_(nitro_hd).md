@@ -129,15 +129,15 @@ extracting.
 If you receive errors that the PCB could not be connected to, try the
 following:
 
-- Confirm that the PCB is receiving power from the DC power supply. If
+* Confirm that the PCB is receiving power from the DC power supply. If
   you can measure current draw of the PCB, you should see that the PCB
   is pulling about 0.04A. If the PCB is pulling more current, it is
   likely already booted and the read may fail.
-- Power off the PCB, power it back on, and immediately connect then
+* Power off the PCB, power it back on, and immediately connect then
   start the JTAG read.
-- Check all of your PCB to JTAG connections under a microscope. Inspect
+* Check all of your PCB to JTAG connections under a microscope. Inspect
   for shorts or incorrect connections.
-- Upon receiving a successful JTAG dump you can process the file with
+* Upon receiving a successful JTAG dump you can process the file with
   the CCL Forensics Android scripts to extract the gesture or pin lock.
 
 #### Notes

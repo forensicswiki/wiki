@@ -36,10 +36,10 @@ to one's own position.
 
 Four things are key to all forensics examinations; the:
 
-1.  Maintenance of data integrity as well as data authenticity,
-2.  Prevention of contamination of data,
-3.  Proper and comprehensive documentation and
-4.  Implementation of a systematic, scientific methodology
+1. Maintenance of data integrity as well as data authenticity,
+2. Prevention of contamination of data,
+3. Proper and comprehensive documentation and
+4. Implementation of a systematic, scientific methodology
 
 ## Forensic profession
 

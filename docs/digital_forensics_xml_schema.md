@@ -235,6 +235,6 @@ ran application.
      <dir>\DEVICE\HARDDISKVOLUME1\PROGRAMDATA\MICROSOFT\SEARCH ENHANCEMENT PACK\SEARCH BOX EXTENSION</dir>
      <dir>\DEVICE\HARDDISKVOLUME1\PROGRAMDATA\MICROSOFT\SEARCH ENHANCEMENT PACK\SEARCH HELPER</dir>
 
-## External links
+## External Links
 
 * [Project site](https://github.com/dfxml-working-group/dfxml_schema)

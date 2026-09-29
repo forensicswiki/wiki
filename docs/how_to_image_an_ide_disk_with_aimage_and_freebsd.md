@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 Here is a photo of my disk imaging system:
 
@@ -10,9 +10,9 @@ alt="ImagingStationx4.jpg" />
 
 Key elements of the disk imaging system:
 
-- You need to have an internal IDE card which is not used for anything
+* You need to have an internal IDE card which is not used for anything
   but disk imaging;
-- You need to have an external hard drive power supply, so that you can
+* You need to have an external hard drive power supply, so that you can
   power the IDE drives without using your computer's power supply (if
   you use your computer's power supply, you can easily crash your
   computer when attaching or detaching the power supply);
@@ -50,15 +50,15 @@ Key elements of the disk imaging system:
 
 # What can go wrong
 
-- *[aimage](aimage.md)* may not be installed. If you get the
+* *[aimage](aimage.md)* may not be installed. If you get the
   error message "aimage: command not found" then you need to install
   [AFFLIB](aff.md) and then make sure that the *aimage*
   command (usually installed in */usr/local/bin*) is in your *PATH*. You
   can check this out by running */usr/local/bin/aimage* instead of
   *aimage*;
-- Your source drive can be broken, *[aimage](aimage.md)* should
+* Your source drive can be broken, *[aimage](aimage.md)* should
   tell you this;
-- You can run out of disk space. You need a LOT of disk space to store
+* You can run out of disk space. You need a LOT of disk space to store
   disk images — figure 30GB to image a 60GB drive.
 
 # What to do after you have made your images

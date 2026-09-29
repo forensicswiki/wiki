@@ -27,31 +27,29 @@ directly from the device (eg. /dev/sdb).
 
 ## Actions
 
-> 1\) Choosing the partition to analyze from an image file or a
-> device;
-> 2) Choosing the file type by the extension you need to have;
-> 3) Extracting all referenced files by their extension;
-> 4) Extracting all the deleted files by their extension;
-> 5) Carving all the partitions chosen and, automatically, the script
-> will
-> delete the duplicate files leaving only the carved files whose are
-> not
-> into the referenced or delete set of files;
-> 6) Executing a keyword search on all the retrieved files;
-> 7) Reporting all with the investigator name, date and time.
+1. Choosing the partition to analyze from an image file or a
+device;
+2. Choosing the file type by the extension you need to have;
+3. Extracting all referenced files by their extension;
+4. Extracting all the deleted files by their extension;
+5. Carving all the partitions chosen and, automatically, the script will delete 
+   the duplicate files leaving only the carved files whose are not into the 
+   referenced or delete set of files;
+6. Executing a keyword search on all the retrieved files;
+7. Reporting all with the investigator name, date and time.
 
 ## Requirements
 
-- [Linux](linux.md)
-- [The Sleuth Kit](the_sleuth_kit.md)
-- [Foremost](foremost.md)
-- [md5deep](md5deep.md)
-- sed, grep and awk
-- [dd](dd.md)
+* [Linux](linux.md)
+* [The Sleuth Kit](the_sleuth_kit.md)
+* [Foremost](foremost.md)
+* [md5deep](md5deep.md)
+* sed, grep and awk
+* [dd](dd.md)
 
 ## Requirements for the GUI version
 
-- Zenity
+* Zenity
 
 ## Usage
 
@@ -63,6 +61,6 @@ or
 
 *./sfdumper.sh*
 
-## Official website
+## External Links
 
-- <https://sfdumper.sourceforge.net/>
+* [Official website](https://sfdumper.sourceforge.net/)

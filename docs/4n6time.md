@@ -1,13 +1,10 @@
 ---
 tags:
-  -  Abandoned
+  - Abandoned
 ---
-4n6time, formerly "l2t_Review", is a free, cross-platform forensic tool
+4n6time, formerly "l2t_Review", was a free, cross-platform forensic tool
 for timeline creation and review.
 
 ## See Also
 
-- [plaso](plaso.md)
-
-## External Links
-
+* [plaso](plaso.md)

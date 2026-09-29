@@ -18,24 +18,24 @@ be imaged with the direct access plugin.
 
 What you need:
 
-1.  Riff Box
-2.  USB to Micro USB cord
+1. Riff Box
+2. USB to Micro USB cord
 
 ### NAND Dump Procedure
 
-1.  Remove the rear cover, exposing the 7 phillips head screws.
-2.  Remove the screws and the rear plastic casing with a plastic pry
-    tool.
-3.  Remove the two molex connectors attached on the right and top of the
-    printed circuit board.
-4.  Remove the printed circuit board from the screen casing exposing the
-    nine TAPS on the reverse side. Note the small copper carrot
-    indicating the direction of the TAPS.
-5.  Connect the RIFF box to the JTAG pins.
-6.  Connect the PCB to a Micro USB cord and power via a power supply.
-7.  Start the "RIFF box" software.
-8.  Power the PCB.
-9.  Dump the NAND.
+1. Remove the rear cover, exposing the 7 phillips head screws.
+2. Remove the screws and the rear plastic casing with a plastic pry
+   tool.
+3. Remove the two molex connectors attached on the right and top of the
+   printed circuit board.
+4. Remove the printed circuit board from the screen casing exposing the
+   nine TAPS on the reverse side. Note the small copper carrot
+   indicating the direction of the TAPS.
+5. Connect the RIFF box to the JTAG pins.
+6. Connect the PCB to a Micro USB cord and power via a power supply.
+7. Start the "RIFF box" software.
+8. Power the PCB.
+9. Dump the NAND.
 
  <img src="../assets/images/S738C_back.JPG" title="S738C_back.JPG" width="300"
  alt="S738C_back.JPG" />
@@ -51,22 +51,22 @@ What you need:
 
 The TAPS order is as follows:
 
-1.  1=GND
-2.  2=NRST
-3.  3=TDO
-4.  4=TCK
-5.  5=TDI
-6.  6=TRST
-7.  7=RTCK
-8.  8=TMS
-9.  9=N/A
+1. 1=GND
+2. 2=NRST
+3. 3=TDO
+4. 4=TCK
+5. 5=TDI
+6. 6=TRST
+7. 7=RTCK
+8. 8=TMS
+9. 9=N/A
 
  <img src="../assets/images/S738C_TAPS.JPG" title="S738C_TAPS.JPG" width="400"
  alt="S738C_TAPS.JPG" />
  <figcaption aria-hidden="true">S738C_TAPS.JPG</figcaption>
 
-- - Test has shown for the best results and fewer read errors, use short
-    wires directly to the RIFF box ribbon interface.\*\*\*
+Tests have shown for the best results and fewer read errors, use short
+wires directly to the RIFF box ribbon interface.
 
  <img src="../assets/images/S738C_riff.JPG" title="S738C_riff.JPG" width="400"
  alt="S738C_riff.JPG" />
@@ -78,18 +78,18 @@ and then plug the phone into the USB port on the laptop.
 
 Launch the Riff Box JTAG Manager and use the following settings:
 
-- Navigate to the Useful Plugins tab
-- Select the Direct JTAG Access to Flash Memory Plugin. Note the
+* Navigate to the Useful Plugins tab
+* Select the Direct JTAG Access to Flash Memory Plugin. Note the
   directions displayed in the window along with supported processors.
-- Activate the plugin
-- Choose the MSM7627A from the drop down menu on the right side \*\*
+* Activate the plugin
+* Choose the MSM7627A from the drop down menu on the right side \*\*
   Note this is not the processor but it will allow access the the
   memory.
-- Select eMMC SDC3 (via chipset) from the Memory Type & Host drop down.
-- Check Auto FullFlash size
-- Select Connect & Flash ID. \*\* This will not flash the memory chip
+* Select eMMC SDC3 (via chipset) from the Memory Type & Host drop down.
+* Check Auto FullFlash size
+* Select Connect & Flash ID. \*\* This will not flash the memory chip
   initially, but will only connect\*\*
-- Choose the read button from the bottom left corner. This will connect
+* Choose the read button from the bottom left corner. This will connect
   to the device and display the partitions and chip ID.
 
  <img src="../assets/images/Active_plugin.JPG" title="active_plugin.JPG" width="800"

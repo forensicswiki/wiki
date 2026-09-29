@@ -11,7 +11,7 @@ encrypt the hidden data whenever possible such as
 with digital files or images. The detection of steganographically
 encoded packages is called **[steganalysis](steganalysis.md)**.
 
-## External links
+## External Links
 
 ### Algorithms and Tools
 

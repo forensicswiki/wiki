@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Analysis Techniques
+  - Analysis Techniques
 ---
-**File analysis** is an important part of [computer
-forensics](computer_forensics.md).
+**File analysis** is an important part of
+[computer forensics](computer_forensics.md).
 
 ## Introduction
 
@@ -11,7 +11,7 @@ forensics](computer_forensics.md).
 
 ## See also
 
-- [File Format Identification](file_format_identification.md)
+* [File Format Identification](file_format_identification.md)
 
 ## External Links
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 Increasingly digital signatures and encryption are being used in digital
 forensics. Rather than developing your own digital signature algorithms
@@ -9,10 +9,10 @@ S/MIME.
 
 In this section you will learn how to:
 
-- Make a digital certificate authority
-- Making certificates for S/MIME and OpenSSL.
-- Sign an S/MIME message
-- Verify a message.
+* Make a digital certificate authority
+* Making certificates for S/MIME and OpenSSL.
+* Sign an S/MIME message
+* Verify a message.
 
 ### Background and terminology
 
@@ -172,7 +172,7 @@ used for server authentication.
 
 ## References
 
-- <https://pages.cs.wisc.edu/~zmiller/ca-howto/>
-- <https://serverfault.com/questions/103263/can-i-create-my-own-s-mime-certificate-for-email-encryption>
-- <https://www.ibm.com/docs/en/products?topic=%2Fcom.ibm.rational.test.lt.doc%2Ftopics%2Ftcreatecertopenssl.html>
-- <https://security.stackexchange.com/questions/17583/how-do-i-create-a-valid-email-certificate-for-outlook-s-mime-with-openssl>
+* <https://pages.cs.wisc.edu/~zmiller/ca-howto/>
+* <https://serverfault.com/questions/103263/can-i-create-my-own-s-mime-certificate-for-email-encryption>
+* <https://www.ibm.com/docs/en/products?topic=%2Fcom.ibm.rational.test.lt.doc%2Ftopics%2Ftcreatecertopenssl.html>
+* <https://security.stackexchange.com/questions/17583/how-do-i-create-a-valid-email-certificate-for-outlook-s-mime-with-openssl>

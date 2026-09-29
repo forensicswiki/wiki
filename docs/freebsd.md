@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems
+  - Operating Systems
 ---
 **FreeBSD** is a [Unix](unix.md)-like free software [operating
 system](operating_system.md). Originally developed at UCB, and
@@ -9,11 +9,10 @@ popular and modern system.
 
 ## See Also
 
-- [How to image an IDE disk with aimage and
-  FreeBSD](how_to_image_an_ide_disk_with_aimage_and_freebsd.md)
+* [How to image an IDE disk with aimage and FreeBSD](how_to_image_an_ide_disk_with_aimage_and_freebsd.md)
 
 ## External Links
 
-- [Official website](https://www.freebsd.org/)
-- [Wikipedia: FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
+* [Official website](https://www.freebsd.org/)
+* [Wikipedia: FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
 

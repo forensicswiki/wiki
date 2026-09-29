@@ -24,16 +24,16 @@ all wireless technologies, with over 100 million subscribers worldwide.
 
 ## Benefits
 
-- Greater capacity. Provides 10-20 times the capacity of analog
+* Greater capacity. Provides 10-20 times the capacity of analog
   equipment and three times the capacity of other digital platforms.
-- Excellent voice and call quality through the filtering out of
+* Excellent voice and call quality through the filtering out of
   background noise, cross-talk, and interference.
-- Rapid deployment. CDMA systems can be expanded quickly and more cost
+* Rapid deployment. CDMA systems can be expanded quickly and more cost
   effectively than most landline networks.
-- Fewer dropped calls.
-- Improved security and privacy because of CDMA's digitally encoded
+* Fewer dropped calls.
+* Improved security and privacy because of CDMA's digitally encoded
   transmissions.
-- Reduced background noise and interference by combining multiple
+* Reduced background noise and interference by combining multiple
   signals which improves signal strength.
 
 ## Forensics

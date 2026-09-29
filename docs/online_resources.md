@@ -12,7 +12,7 @@ The WHOIS Service can be used to find the owner of a domain. Sometimes
 this is only sufficient to find the registrar for a domain, but even
 that is a start.
 
-- [WHOIS-Search.com](https://whois-search.com/)
+* [WHOIS-Search.com](https://whois-search.com/)
 
 ## Web Page Archives
 

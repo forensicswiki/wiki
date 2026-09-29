@@ -36,12 +36,12 @@ offset 4)
 
 The ESEDB has the following file signature:
 
-- hexadecimal: ef cd ab 89 (at offset 4)
+* hexadecimal: ef cd ab 89 (at offset 4)
 
 ESEDB distinguishes between the following types:
 
-- database (.edb, .sdb, ...)
-- streaming file (.stm)
+* database (.edb, .sdb, ...)
+* streaming file (.stm)
 
 ### Database (.edb)
 
@@ -72,57 +72,57 @@ The ESEDB basically is an ISAM database file format.
 The ESEDB format is used by many Microsoft applications to store data
 such as:
 
-- Active Directory (NTDS)
-- [Cortana](cortana.md)
-- File Replication service (FRS)
-- Windows Internet Name service (WINS)
-- DHCP
-- Security Configuration Engine (SCE)
-- Certificate Server
-- Terminal Services Session folder
-- Terminal Services Licensing service
-- Catalog database
-- Help and Support Services
-- Directory Synchronization service (MSDSS)
-- Remote Storage (RSS)
-- Phone Book service
-- Single Instance Store (SIS) Groveler
-- Windows NT Backup/Restore
-- Exchange store
-- Microsoft Exchange folder (SRS and DXA)
-- Key Management service (KMS)
-- Instant Messaging
-- Windows (Vista) Mail
-- [Content Indexing/Windows (Desktop) Search](windows_desktop_search.md)
+* Active Directory (NTDS)
+* [Cortana](cortana.md)
+* File Replication service (FRS)
+* Windows Internet Name service (WINS)
+* DHCP
+* Security Configuration Engine (SCE)
+* Certificate Server
+* Terminal Services Session folder
+* Terminal Services Licensing service
+* Catalog database
+* Help and Support Services
+* Directory Synchronization service (MSDSS)
+* Remote Storage (RSS)
+* Phone Book service
+* Single Instance Store (SIS) Groveler
+* Windows NT Backup/Restore
+* Exchange store
+* Microsoft Exchange folder (SRS and DXA)
+* Key Management service (KMS)
+* Instant Messaging
+* Windows (Vista) Mail
+* [Content Indexing/Windows (Desktop) Search](windows_desktop_search.md)
 
 ## External Links
 
-- [Extensible Storage Engine (ESE) Database File (EDB) format](https://github.com/libyal/libesedb/blob/main/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
+* [Extensible Storage Engine (ESE) Database File (EDB) format](https://github.com/libyal/libesedb/blob/main/documentation/Extensible%20Storage%20Engine%20(ESE)%20Database%20File%20(EDB)%20format.asciidoc),
   by the [libesedb project](libesedb.md)
-- [Wikipedia on Extensible Storage Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
-- [Exchange .EDB File Extension](https://www.whatisfileextension.com/edb/)
-- [Forensic examination of Windows Live Messenger 2009 Extensible Storage Engine](https://www.nlnetlabs.nl/~willem/wlm2009_ese_fin.pdf),
+* [Wikipedia on Extensible Storage Engine](https://en.wikipedia.org/wiki/Extensible_Storage_Engine)
+* [Exchange .EDB File Extension](https://www.whatisfileextension.com/edb/)
+* [Forensic examination of Windows Live Messenger 2009 Extensible Storage Engine](https://www.nlnetlabs.nl/~willem/wlm2009_ese_fin.pdf),
   by Wouter van Dongen, Willem Toorop, Joeri Blokhuis, May 2009
 
 ### Tile Data Layer database
 
-- [Management of Start Menu and Tiles on Windows 10 and Server 2016, part \#2](https://james-rankin.com/articles/management-of-start-menu-and-tiles-on-windows-10-and-server-2016-part-2/),
+* [Management of Start Menu and Tiles on Windows 10 and Server 2016, part \#2](https://james-rankin.com/articles/management-of-start-menu-and-tiles-on-windows-10-and-server-2016-part-2/),
   by James Rankin, August 30, 2018
 
 ## Tools
 
-- [EsEDbViewer](https://github.com/woanware)
-- [ESE Database Viewer](https://www.systoolsgroup.com/ese-database-viewer/)
-- [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
-- [libesedb](libesedb.md)
-- [Logpresso Mini](https://github.com/logpresso/community)
+* [EsEDbViewer](https://github.com/woanware)
+* [ESE Database Viewer](https://www.systoolsgroup.com/ese-database-viewer/)
+* [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
+* [libesedb](libesedb.md)
+* [Logpresso Mini](https://github.com/logpresso/community)
 
 Tools that are provided with the ESE engine:
 
-- **eseutil** (comes with [Microsoft Exchange Server](microsoft_exchange_server.md) or **esentutl** (comes
-  with a [Windows NT](windows.md) variant which has the ESE
-  engine)
+* **eseutil** (comes with [Microsoft Exchange Server](microsoft_exchange_server.md)
+  or **esentutl** (comes with a [Windows NT](windows.md) variant which has the
+  ESE engine)
 
 ### Exchange
 
-- [Exchange EDB Viewer](exchange_edb_viewer.md)
+* [Exchange EDB Viewer](exchange_edb_viewer.md)

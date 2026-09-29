@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Memory Analysis
-  -  Tools
-  -  Windows
-  -  Linux
-  -  MacOS
-  -  Open Source Software
+  - Linux
+  - MacOS
+  - Memory Analysis
+  - Open Source Software
+  - Tools
+  - Windows
 ---
 The **Volatility Framework** is a completely open collection of tools,
 implemented in Python under the GNU General Public License (GPL v2), for
@@ -36,26 +36,22 @@ a separate project, the drivers can now be found as part of the
 
 ## See Also
 
-- [List of Volatility Plugins](list_of_volatility_plugins.md)
+* [List of Volatility Plugins](list_of_volatility_plugins.md)
 
 ## External Links
 
-- [Official website](https://code.google.com/archive/p/volatility)
-- [Code
-  repository](https://code.google.com/archive/p/volatility/source),
+* [Official website](https://code.google.com/archive/p/volatility)
+* [Code repository](https://code.google.com/archive/p/volatility/source),
   direct link to
   [source](https://code.google.com/archive/p/volatility/source)
-- [Volatility Documentation](https://code.google.com/archive/p/volatility)
+* [Volatility Documentation](https://code.google.com/archive/p/volatility)
 
 ### Third party documentation
 
-- [Set Up to More Memory
-  Forensics!](http://sketchymoose.blogspot.com/2011/10/set-up-to-more-memory-forensics.html),
+* [Set Up to More Memory Forensics!](http://sketchymoose.blogspot.com/2011/10/set-up-to-more-memory-forensics.html),
   October 2011
-- [Memory Forensics With Volatility (Technology
-  Preview)](https://docs.google.com/presentation/d/1KsZGF6cQ-N8ngABFGCZf8pTQQ5CZ19VoAHq5cO5ZPdE/edit),
+* [Memory Forensics With Volatility (Technology Preview)](https://docs.google.com/presentation/d/1KsZGF6cQ-N8ngABFGCZf8pTQQ5CZ19VoAHq5cO5ZPdE/edit),
   by [Michael Cohen](michael_cohen.md), October 2012
-- [Using Volatility: Suspicious Process
+* [Using Volatility: Suspicious Process
   (1/2)](https://www.youtube.com/watch?v=8HsZLge0wWc)
-- [Using Volatility: Suspicious Process
-  (2/2)](https://www.youtube.com/watch?v=XTZPNk-Esok)
+* [Using Volatility: Suspicious Process (2/2)](https://www.youtube.com/watch?v=XTZPNk-Esok)

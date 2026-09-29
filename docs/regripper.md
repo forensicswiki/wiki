@@ -22,7 +22,7 @@ bypassing the Win32API. This module is used to locate and access
 Registry key nodes within the hive file, as well as value nodes and
 their data. When accessing a key node, the LastWrite time is retrieved,
 parsed and translated into something the examiner can understand. Data
-is retrieved in much the same manner…if necessary, the plugin that
+is retrieved in much the same manner, if necessary, the plugin that
 retrieves the data will also perform translation of that data into
 something readable.
 
@@ -32,10 +32,10 @@ something readable.
 
 ## External Links
 
-- [Using RegRipper](https://windowsir.blogspot.com/2011/03/using-regripper.html)
-- [RegRipper GitHub Repo](https://github.com/keydet89/RegRipper3.0)
-- [RegRipper Blog](https://regripper.wordpress.com/)
-- [Windows Forensics Analysis](https://code.google.com/archive/p/winforensicaanalysis)
-- [RegRipper Supplemental Plugins](https://code.google.com/archive/p/regripperplugins)
-- [Developers blog (Windows Incident Response)](https://windowsir.blogspot.com/)
-- [RegRipper Google Code](https://code.google.com/archive/p/regripper)
+* [Using RegRipper](https://windowsir.blogspot.com/2011/03/using-regripper.html)
+* [RegRipper GitHub Repo](https://github.com/keydet89/RegRipper3.0)
+* [RegRipper Blog](https://regripper.wordpress.com/)
+* [Windows Forensics Analysis](https://code.google.com/archive/p/winforensicaanalysis)
+* [RegRipper Supplemental Plugins](https://code.google.com/archive/p/regripperplugins)
+* [Developers blog (Windows Incident Response)](https://windowsir.blogspot.com/)
+* [RegRipper Google Code](https://code.google.com/archive/p/regripper)

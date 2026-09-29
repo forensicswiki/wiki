@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Mobile device tools
+  - Mobile device tools
 ---
 **SIM Manager** is program designed to read the contents of a SIM card
 and display it in a human readable form. It is compatible with 2G, 3G
@@ -8,19 +8,18 @@ and Nextel [iDEN](iden.md) cards.
 
 ## Feature highlights
 
-- Read the details of the SIM card (ICCID, IMSI, ATR)
-- Change PIN codes
-- Undelete SMS
-- Wipe SMS (so that it cannot be recovered)
-- Unicode support
-- Compatible with Nextel cards
-- Backup and restore SIM cards
-- Synchronization with Google contacts
+* Read the details of the SIM card (ICCID, IMSI, ATR)
+* Change PIN codes
+* Undelete SMS
+* Wipe SMS (so that it cannot be recovered)
+* Unicode support
+* Compatible with Nextel cards
+* Backup and restore SIM cards
+* Synchronization with Google contacts
 
 ## Requirements
 
-- Any PC/SC compliant [smart card
-  reader](sim_card_forensics.md#hardware).
+* Any PC/SC compliant [smart card reader](sim_card_forensics.md#hardware).
 
 ## Screenshots
 
@@ -32,6 +31,5 @@ alt="SIM_Manager_SIM_card_propertiest.png" />
 
 ## External Links
 
-- [How to recover a deleted SMS using SIM
-  Manager](https://www.youtube.com/watch?v=VaBaqZiNW4U) (video tutorial)
-
+* [How to recover a deleted SMS using SIM Manager](https://www.youtube.com/watch?v=VaBaqZiNW4U)
+  (video tutorial)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 The **System Acquisition Forensic Environment (SAFE) Block XP** software
 is a software-based write blocker designed for the Windows XP 32 and 64
@@ -26,7 +26,7 @@ combination back to its original state.
 
 ## Notes
 
-- **SAFE Block XP** has passed all of NIST's Mandatory and Optional Test
+* **SAFE Block XP** has passed all of NIST's Mandatory and Optional Test
   Assertions, including not allowing a protected drive to be changed,
   not preventing obtaining any information from or about any drive and
   not preventing any operations to a drive that is not protected.

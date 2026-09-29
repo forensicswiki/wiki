@@ -303,10 +303,10 @@ We do this by setting attributes on the map objects:
 
 ## See Also
 
-- [Extending the Advanced Forensic Format to accommodate Multiple Data Sources, Logical Evidence, Arbitrary Information and Forensic Workflow](https://simson.net/clips/academic/2009.DFRWS.AFF4.pdf),
+* [Extending the Advanced Forensic Format to accommodate Multiple Data Sources, Logical Evidence, Arbitrary Information and Forensic Workflow](https://simson.net/clips/academic/2009.DFRWS.AFF4.pdf),
   by M. I. Cohen, Simson Garfinkel and Bradley Schatz, DFRWS 2009,
   Montreal, Canada.
-- [Wirespeed: Extending the AFF4 forensic container format for scalable acquisition and live analysis](https://dfrws.org/sites/default/files/session-files/2015_USA_pres-wirespeed_extending_the_aff4_container_format_for_scalable_acquisition_and_live_analysis.pdf),
+* [Wirespeed: Extending the AFF4 forensic container format for scalable acquisition and live analysis](https://dfrws.org/sites/default/files/session-files/2015_USA_pres-wirespeed_extending_the_aff4_container_format_for_scalable_acquisition_and_live_analysis.pdf),
   by [Bradley L. Schatz](bradley_schatz.md), DFRWS US 2015
 
 ### Tools

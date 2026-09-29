@@ -1,14 +1,14 @@
 ---
 tags:
-  - Network Forensics
-  - Tools
-  - Linux
-  - Windows
-  - MacOS
   - FreeBSD
-  - OpenBSD
+  - Linux
+  - MacOS
   - NetBSD
+  - Network Forensics
+  - OpenBSD
   - Open Source Software
+  - Tools
+  - Windows
 ---
 ## Overview
 
@@ -39,21 +39,26 @@ The Argus/Ra packages installed when using apt-get install are the old
 In order to build Argus/Ra 3.0.8 on your UNIX machine follow these
 commands/steps:
 
-- sudo apt-get install libpcap0.8 libpcap0.8-dev flex bison rrdtool
-- wget <https://qosient.com/argus//src/argus-3.0.8.tar.gz>
-- tar -xzvf argus-3.0.8.tar.gz
-- cd argus-3.0.8
-- ./configure
-- make && make install
-- cd ..
-- wget <https://qosient.com/argus//src/argus-clients-3.0.8.tar.gz>
-- tar -xzvf argus-clients-3.0.8.tar.gz
-- cd argus-clients-3.0.8
-- ./configure
-- make && make install
-- the ./argus and ./ra programs can be run from the “bin” directories
-  within the argus-3.0.8 and argus-clients-3.0.8 directories,
-  respectively
+```bash
+sudo apt-get install libpcap0.8 libpcap0.8-dev flex bison rrdtool
+
+wget <https://qosient.com/argus//src/argus-3.0.8.tar.gz>
+tar -xzvf argus-3.0.8.tar.gz
+cd argus-3.0.8
+./configure
+make && make install
+cd ..
+
+wget <https://qosient.com/argus//src/argus-clients-3.0.8.tar.gz>
+tar -xzvf argus-clients-3.0.8.tar.gz
+cd argus-clients-3.0.8
+./configure
+make && make install
+```
+
+the ./argus and ./ra programs can be run from the “bin” directories
+within the argus-3.0.8 and argus-clients-3.0.8 directories,
+respectively
 
 **NOTE:** If you already have a different version of argus/ra installed
 (e.g., if you installed v2.0.6 using apt-get install), you’ll likely
@@ -61,8 +66,10 @@ need to rename/remove the “/etc/ra.conf” file or else you’ll get a
 syntax error when trying to run ra. I just renamed it using the
 following command (to keep a backup just in case):
 
-- cd /etc/
-- mv ra.conf ra.conf.bak
+```bash
+cd /etc/
+mv ra.conf ra.conf.bak
+```
 
 ## Usage Instructions
 
@@ -80,18 +87,24 @@ research
 A typical use for argus would be to run it as a daemon and have it write
 the reports to an output file:
 
-`   argus -d -e ‘hostname‘ -w output-file`
+```bash
+argus -d -e ‘hostname‘ -w output-file
+```
 
 Argus supports filtering. One can specify to include or exclude certain
 ports in the report. Below is an example of filtering out ICMP traffic:
 
-`   argus -w output-file - ip and not icmp`
+```bash
+argus -w output-file - ip and not icmp
+```
 
 When using ra to get valuable data out, one can filter the argus data
 even further. Below is an example of reporting only the TCP
 transactions:
 
-`   ra -r argus.data - tcp`
+```bash
+ra -r argus.data - tcp
+```
 
 ## External Links
 

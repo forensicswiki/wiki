@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **DFL-SRP For WD Firmware Repair Tool** is one top-class USB3.0 Western
 Digital hard drive firmware repair hardware tool fixing firmware
@@ -11,11 +11,11 @@ WD hard drive firmware modules, reset smart, remove password, repair bad
 sectors, edit SN, models, capacities, etc. Users with this tool usually
 have a higher success rate and stay more competitive.
 
+## Also See
+
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Tools:Data_Recovery](tools_data_recovery.md)
+
 ## External Links
 
-- [DFL-SRP For WD Firmware Repair
-  Tool](https://www.dolphindatalab.com/product/dfl-srp-for-wd-firmware-repair-tool/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Tools:Data_Recovery](tools_data_recovery.md)
+* [DFL-SRP For WD Firmware Repair Tool](https://www.dolphindatalab.com/product/dfl-srp-for-wd-firmware-repair-tool/)

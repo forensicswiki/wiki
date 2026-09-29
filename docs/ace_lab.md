@@ -24,14 +24,14 @@ world. Special [forensic features](https://blog.acelab.eu.com/a-brief-overview-o
 have been implemented in PC-3000 utilities and Data Extractor software
 to cater for their needs. Here are just some of them:
 
-- hash sum calculation for MD5 and SHA1
-- exporting catalogs list and files into csv format
-- building various maps: disk maps, used/unused sectors maps, file
+* hash sum calculation for MD5 and SHA1
+* exporting catalogs list and files into csv format
+* building various maps: disk maps, used/unused sectors maps, file
   system metadata maps etc
-- unlocking the HDD
-- changing/resetting to factory value of MaxLBA HDD
-- HDD mounting in “read-only” mode
-- HDD data copy creation and reading to several recipients
+* unlocking the HDD
+* changing/resetting to factory value of MaxLBA HDD
+* HDD mounting in “read-only” mode
+* HDD data copy creation and reading to several recipients
 
 ## Support and Training
 

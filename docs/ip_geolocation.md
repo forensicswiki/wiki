@@ -9,16 +9,16 @@ pretty well.
 
 ## Free services
 
-- [HostIP.info](http://hostip.info)
+* [HostIP.info](http://hostip.info)
 
 ## Commercial Geolocation services
 
-- [IP2Location](https://www.ip2location.com/?AfID=23224)
+* [IP2Location](https://www.ip2location.com/?AfID=23224)
   (free query: 20 lookups/day)
-- [MaxMind](https://www.maxmind.com/en/solutions/ip-geolocation-databases-api-services)
+* [MaxMind](https://www.maxmind.com/en/solutions/ip-geolocation-databases-api-services)
 
 ## Downloadable Data Sets
 
-- [CountryHawk (commercial)](https://www.cyscape.com/products/chawk/)
-- [Java IP (InetAddress) Locator (free lookup library with database)](https://sourceforge.net/projects/javainetlocator/)
-- [IPAddressGuide](https://www.ipaddressguide.com/)
+* [CountryHawk (commercial)](https://www.cyscape.com/products/chawk/)
+* [Java IP (InetAddress) Locator (free lookup library with database)](https://sourceforge.net/projects/javainetlocator/)
+* [IPAddressGuide](https://www.ipaddressguide.com/)

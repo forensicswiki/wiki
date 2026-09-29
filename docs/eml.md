@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Windows
+  - File Formats
+  - Windows
 ---
 EML or Electronic mail is a file format primarily associated with
 Microsoft Corporation “Outlook Express” and is used by other email
@@ -47,17 +47,17 @@ built-in Mail application does not support EML.
 
 ## Also see
 
-- [MBox](mbox.md)
+* [MBox](mbox.md)
 
 ## Tools
 
-- [Free EML Viewer](https://www.bitrecover.com/free/eml-viewer/)
-- [Aid4Mail](aid4mail.md)
-- Apple Mail
-- Emailchemy
-- [EML Viewer](eml_viewer.md)
-- Entourage
-- IncrediMail
-- Microsoft Outlook
-- Mozilla Thunderbird
-- Xena
+* [Free EML Viewer](https://www.bitrecover.com/free/eml-viewer/)
+* [Aid4Mail](aid4mail.md)
+* Apple Mail
+* Emailchemy
+* [EML Viewer](eml_viewer.md)
+* Entourage
+* IncrediMail
+* Microsoft Outlook
+* Mozilla Thunderbird
+* Xena

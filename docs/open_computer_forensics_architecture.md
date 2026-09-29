@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 The **Open Computer Forensics Architecture** (**OCFA**) is a modular
 [computer forensics framework](computer_forensics_framework.md)
@@ -64,9 +64,6 @@ Police [Github](https://github.com/DNPA) page.
 
 ## External Links
 
-- [Project site](https://sourceforge.net/projects/ocfa/)
-- [Linux Magazine article on
-  OCFA](https://www.linux-magazine.com/Issues/2008/93/OCFA)
-- [Open Computer Forensic Architecture a Way to Process Terabytes of
-  Forensic Disk
-  Images](https://www.researchgate.net/publication/226554617_Open_Computer_Forensic_Architecture_a_Way_to_Process_Terabytes_of_Forensic_Disk_Images)
+* [Project site](https://sourceforge.net/projects/ocfa/)
+* [Linux Magazine article on OCFA](https://www.linux-magazine.com/Issues/2008/93/OCFA)
+* [Open Computer Forensic Architecture a Way to Process Terabytes of Forensic Disk Images](https://www.researchgate.net/publication/226554617_Open_Computer_Forensic_Architecture_a_Way_to_Process_Terabytes_of_Forensic_Disk_Images)

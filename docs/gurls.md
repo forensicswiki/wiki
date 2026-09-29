@@ -39,6 +39,6 @@ used like this :
 
 ## See Also
 
-- [bulk_extractor](bulk_extractor.md) provides similar
+* [bulk_extractor](bulk_extractor.md) provides similar
   functionality but on a much larger scale. Still, scripts like *gurls*
   are good for quickly searching through data.

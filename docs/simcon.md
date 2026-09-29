@@ -13,49 +13,49 @@ SIMCon is now Paraben's SIM Card Seizure
 
 ## Features
 
-- Acquire all available files on a SIM Card and store in an archive file
-- Analyze and interpret content of files
-- Recover deleted text messages stored on the card
-- Manage PIN and PUK codes
-- Compatible with SIM Cards and USIM Cards
-- Print reports of evidence
-- Secure file archive using hashing
-- Export items to popular spreadsheet programs
-- Supports international charsets
-- Contains a "content" view for plain text viewing of data, as well as a
+* Acquire all available files on a SIM Card and store in an archive file
+* Analyze and interpret content of files
+* Recover deleted text messages stored on the card
+* Manage PIN and PUK codes
+* Compatible with SIM Cards and USIM Cards
+* Print reports of evidence
+* Secure file archive using hashing
+* Export items to popular spreadsheet programs
+* Supports international charsets
+* Contains a "content" view for plain text viewing of data, as well as a
   hexadecimal view for more specific analysis.
 
 ## Data Acquisition
 
 SIMCon is also capable of acquiring the following data from a SIM Card:
 
-- Abbreviated Dialing Numbers (ADN),
-- Last Dialed Numbers (LDN)
-- Short Message Service (SMS)
-- Public Land Mobile Network (PLMN) selector
-- Forbidden PLMNs, Location Information (LOCI)
-- General Packet Radio Service (GPRS) location
-- International Mobile Subscriber Identity (IMSI)
-- Integrated Circuit Card Identifier (ICCID)
-- Mobile Subscriber ISDN (MSISDN)
-- Service Provider Name (SPN)
-- Phase Identification
-- SIM Service Table (SST)
-- Language Preference (LP)
-- Card Holder Verification (CHV1) and (CHV2)
-- Broadcast Control Channels (BCCH)
-- Ciphering Key (Kc)
-- Ciphering Key Sequence Number
-- Emergency Call Code
-- Fixed Dialing Numbers (FDN)
-- Forbidden PLMNs
-- Local Area Identitity (LAI)
-- Own Dialing Number
-- Temporary Mobile Subscriber Identity (TMSI)
-- Routing Area Identifier (RIA) network code
-- Service Dialing Numbers (SDNs)
-- Service Provider Name
-- Depersonalizatoin Keys
+* Abbreviated Dialing Numbers (ADN),
+* Last Dialed Numbers (LDN)
+* Short Message Service (SMS)
+* Public Land Mobile Network (PLMN) selector
+* Forbidden PLMNs, Location Information (LOCI)
+* General Packet Radio Service (GPRS) location
+* International Mobile Subscriber Identity (IMSI)
+* Integrated Circuit Card Identifier (ICCID)
+* Mobile Subscriber ISDN (MSISDN)
+* Service Provider Name (SPN)
+* Phase Identification
+* SIM Service Table (SST)
+* Language Preference (LP)
+* Card Holder Verification (CHV1) and (CHV2)
+* Broadcast Control Channels (BCCH)
+* Ciphering Key (Kc)
+* Ciphering Key Sequence Number
+* Emergency Call Code
+* Fixed Dialing Numbers (FDN)
+* Forbidden PLMNs
+* Local Area Identitity (LAI)
+* Own Dialing Number
+* Temporary Mobile Subscriber Identity (TMSI)
+* Routing Area Identifier (RIA) network code
+* Service Dialing Numbers (SDNs)
+* Service Provider Name
+* Depersonalizatoin Keys
 
 All [GSM](gsm.md) cell phones today have a subscriber identity module (SIM) to
 identify the phone onto the network. SIMCon is an application to acquire all of
@@ -82,19 +82,19 @@ for anyone outside the law enforcement community, it is not free.
 
 ## Review
 
-- SIMCon makes the acquisition of data very easy, simply inserting the SIM Card
+* SIMCon makes the acquisition of data very easy, simply inserting the SIM Card
   to the appropriate SIM Card reader, and clicking acquire is all that is needed
   to start analyzing evidence. After the acquisition of the data is complete
   SimCon will show the user a screen with two halves.
 
-- On the left panel is the different data sectors of the SIM Card that can
+* On the left panel is the different data sectors of the SIM Card that can
   either be checked on or off depending on what is needed. After choosing what
   data sectors are needed, the right panel will be populated with the selected
   data. Some of the most useful pieces of information that are shown are: the
   International Mobile Subscriber Identity number, every contacts name and
   number, and all SMS messages sent and received both stored and deleted.
 
-- SIMCon also comes with two more handy features that are key to an
+* SIMCon also comes with two more handy features that are key to an
   investigation and in a court of law. The first is SIMCon's feature that allows
   the printing of a report. SIMCon will format and populate a report with the
   contents of the users’ choosing. This can list all the key pieces to an
@@ -104,7 +104,7 @@ for anyone outside the law enforcement community, it is not free.
   exported files are opened in a program such as Microsoft Excel the data can be
   read, sorted, and analyzed in a format of the users design.
 
-- When SMS messages are exported SIMCon automatically adds the following
+* When SMS messages are exported SIMCon automatically adds the following
   information about every message: file, item, status, service center, message
   type, number, time stamp, and text. When the contacts are exported SIMCon
   automatically adds the following information about every contact: file, item,
@@ -112,13 +112,13 @@ for anyone outside the law enforcement community, it is not free.
   enclosed as well as a document that tells what information is added into an
   exported file at the end of this document.
 
-- SIMCon is known to have issues while imaging multiple cards in the same
+* SIMCon is known to have issues while imaging multiple cards in the same
   session of the program. These issues include the appearance of random
   characters in both the contacts list and in the [SMS](sms.md). These
   complications are outlined in the paper SIM CARD FORENSICS WITH SIMCON SOFTWARE
   by Timothy D. Huser.
 
-- Currently there is no "data-dump" mode in which one can simply dump
+* Currently there is no "data-dump" mode in which one can simply dump
   data exactly as it is on the card in order to have a more pure
   investigation of the contents. This has proven to be a major setback
   up to version 1.1, as the automatic parsing of information from the

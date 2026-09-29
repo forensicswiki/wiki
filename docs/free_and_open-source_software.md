@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Free and open-source software (FOSS or F/OSS) is software that is often
 free of cost, source code readily available, and have limited licensing
@@ -11,4 +11,4 @@ sometimes referred to as FLOSS for Free/Libre and Open-Source Software.
 
 ## External Links
 
-- [Wikipedia Free and Open-source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+* [Wikipedia Free and Open-source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software)

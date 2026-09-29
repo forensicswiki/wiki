@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **DFL-SRP All-In-One USB3.0 Data Recovery Equipment** is the world’s top
 data recovery equipment supporting all hard drive brands (Seagate, WD,
@@ -13,19 +13,15 @@ and getting lost data back.
 DFL-SRP All-In-One USB3.0 Data Recovery Equipment contains the following
 modules:
 
-- [DFL-SRP USB3.0 For Data
-  Extraction](dfl-srp_usb3.0_for_data_extraction.md)
-- [DFL-SRP USB3.0 For Seagate Firmware
-  Repair](dfl-srp_usb3.0_for_seagate_firmware_repair.md)
-- [DFL-SRP USB3.0 For WD Firmware
-  Repair](dfl-srp_usb3.0_for_wd_firmware_repair.md)
-- [DFL-SRP USB3.0 For Samsung Firmware
-  Repair](dfl-srp_usb3.0_for_samsung_firmware_repair.md)
+* [DFL-SRP USB3.0 For Data Extraction](dfl-srp_usb3.0_for_data_extraction.md)
+* [DFL-SRP USB3.0 For Seagate Firmware Repair](dfl-srp_usb3.0_for_seagate_firmware_repair.md)
+* [DFL-SRP USB3.0 For WD Firmware Repair](dfl-srp_usb3.0_for_wd_firmware_repair.md)
+* [DFL-SRP USB3.0 For Samsung Firmware Repair](dfl-srp_usb3.0_for_samsung_firmware_repair.md)
 
 ## See Also
 
-- [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
 
 ## External Links
 
-- [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](https://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)
+* [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](https://www.dolphindatalab.com/product/dfl-super-data-recovery-equipment/)

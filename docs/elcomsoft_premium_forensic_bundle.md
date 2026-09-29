@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 **Elcomsoft Premium Forensic Bundle (EPFB)** is a pack of every
 forensic tool by [Elcomsoft](elcomsoft.md).
@@ -8,15 +8,15 @@ forensic tool by [Elcomsoft](elcomsoft.md).
 mobile devices, unlocking documents, decrypting archives, breaking into
 encrypted containers, viewing and analyzing evidence.
 
-- The complete set of tools for desktop and mobile forensics
-- Hardware-accelerated password recovery on up to 10,000 computers
-- Includes all relevant tools for decrypting data, extracting and
+* The complete set of tools for desktop and mobile forensics
+* Hardware-accelerated password recovery on up to 10,000 computers
+* Includes all relevant tools for decrypting data, extracting and
   analyzing mobile devices
-- Tools for logical, physical and over-the-air acquisition of mobile
+* Tools for logical, physical and over-the-air acquisition of mobile
   devices
-- Extract data and user passwords from Apple, Microsoft and Google cloud
+* Extract data and user passwords from Apple, Microsoft and Google cloud
   services
-- Access to deleted evidence and forensically sound extraction
+* Access to deleted evidence and forensically sound extraction
 
 <small>Supports: all versions of Microsoft Office, OpenOffice, Encrypted
 File System, Windows and macOS passwords, macOS Keychain, ZIP/RAR/RAR5,

@@ -1,17 +1,17 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Public Domain
-  -  Tools
-  -  Database
-  -  Windows
-  -  Android
-  -  Linux
-  -  iOS
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
-  -  Open Source Software
+  - Android
+  - Articles that need to be expanded
+  - Database
+  - FreeBSD
+  - iOS
+  - Linux
+  - NetBSD
+  - OpenBSD
+  - Open Source Software
+  - Public Domain
+  - Tools
+  - Windows
 ---
 <i>SQLite is a software library that implements a self-contained,
 serverless, zero-configuration, transactional SQL database engine.</i>
@@ -22,8 +22,8 @@ More details about the software and general use are available from the
 
 ## See Also
 
-- [SQLite database format](sqlite_database_format.md)
+* [SQLite database format](sqlite_database_format.md)
 
 ## External Links
 
-- [Project site](https://sqlite.org/index.html)
+* [Project site](https://sqlite.org/index.html)

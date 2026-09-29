@@ -1,13 +1,13 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Research
+  - Articles that need to be expanded
+  - Research
 ---
 Follow-up Workshop for Digital Forensics Educators
 
 This is a short note to invite you back to the Follow-up Workshop for
 Digital Forensics Educators at Erie Community College, Tuesday, August
-16, 2011 from 9-4. If you hadn’t participated last year…you’re still
+16, 2011 from 9-4. If you hadn’t participated last year, you’re still
 invited.
 
 Dr. Garfinkel has requested that we have a more interactive workshop
@@ -21,4 +21,6 @@ talk about your program or PPTs or group activities. Please respond with
 what you would like to do. I look forward to seeing you in August.
 Regards, Donna
 
-Registration Link (http://kuroski.net/Forensics2011/login.php)
+## External Links
+
+* [Registration Link](http://kuroski.net/Forensics2011/login.php)

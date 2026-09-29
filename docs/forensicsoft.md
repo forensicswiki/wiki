@@ -7,9 +7,9 @@ Environment (SAFE) products use innovative thinking to bring the speed,
 reliability, and convenience of software write blocking to the
 protection of digital evidence. Their products include:
 
-- [SAFE Boot Disk](safe_boot_disk.md), The first and only
+* [SAFE Boot Disk](safe_boot_disk.md), The first and only
   commercially available forensically sound windows boot disk
-- [SAFE Block XP](safe_block_xp.md), A Windows XP software write
+* [SAFE Block XP](safe_block_xp.md), A Windows XP software write
   blocker which replaces the need for hardware write blocker.
 
 ## Trivia

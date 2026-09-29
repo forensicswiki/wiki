@@ -68,9 +68,9 @@ Physical device write blocking hasn't been considered so far.
 
 ## External Links
 
-- [Project site](https://en.altlinux.org/Rescue) (also available in
+* [Project site](https://en.altlinux.org/Rescue) (also available in
   [Russian](https://www.altlinux.org/Rescue))
-- Part of [Regular Builds](https://en.altlinux.org/Regular) based on ALT
+* Part of [Regular Builds](https://en.altlinux.org/Regular) based on ALT
   Linux Sisyphus
-- Rescue image within [ALT Linux Starterkits](https://en.altlinux.org/Starterkits) based on stable
+* Rescue image within [ALT Linux Starterkits](https://en.altlinux.org/Starterkits) based on stable
   branch has gained the same features as of 20140612

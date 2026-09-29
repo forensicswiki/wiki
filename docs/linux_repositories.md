@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 There are a number of linux distributions.
 
@@ -15,9 +15,9 @@ repositories which require specific setup.
 For current openSUSE 11.4 and 12.1 users it is necessary to have the
 following repositories configured:
 
-- security
-- devel:languages:perl
-- devel:languages:python
+* security
+* devel:languages:perl
+* devel:languages:python
 
 This is most easily done from the command line via (assumes openSUSE
 12.1):
@@ -71,7 +71,7 @@ version 3.2.5
 | [rdd](https://sourceforge.net/projects/rdd) | N/A                   | ?          | 2.0.7-2                   | ?          | a dd-like tool, with forensic imaging features         | Rdd is robust with respect to read errors                                                            |
 | [sdd](ftp://ftp.berlios.de/pub/sdd/)       | Archiving:Backup/1.52 | ?          | lenny/1.52 deprecated     | ?          | a dd-like tool                                         | Designed to work well when IBS != OBS. Working with tape is an example.                              |
 
-- package will appear in the base release with the next full
+* package will appear in the base release with the next full
   distribution release.
 
 ## File Inventory Tools
@@ -82,5 +82,5 @@ version 3.2.5
 | [exiftool](exiftool.md) | base/v8.65         | ?          | squeeze/v8.15 sid/v8.60 | ?          |             | exiftool has superior metadata reporting capability --\> |
 | [fiwalk](fiwalk.md)     | security\*/v0.6.15 | ?          | N/A                     | ?          |             | fiwalk is a robust \$MFT walker                          |
 
-- package will appear in the base release with the next full
+* package will appear in the base release with the next full
   distribution release.

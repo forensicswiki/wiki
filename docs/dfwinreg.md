@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 dfWinReg, or Digital Forensics Windows Registry, provides read-only
 access to Windows Registry objects. The goal of dfWinReg is to provide a
@@ -16,9 +16,9 @@ to make use of Windows Registry functionality.
 
 ## See Also
 
-- [dfvfs](dfvfs.md)
-- [plaso](plaso.md)
+* [dfvfs](dfvfs.md)
+* [plaso](plaso.md)
 
 ## External Links
 
-- [Project site](https://github.com/log2timeline/dfwinreg/)
+* [Project site](https://github.com/log2timeline/dfwinreg/)

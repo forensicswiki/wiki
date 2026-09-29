@@ -30,6 +30,6 @@ semantics of the file.
 ...
 ```
 
-## External links
+## External Links
 
 * [hivexget: Get values from a Windows Registry hive](https://rwmj.wordpress.com/2009/10/29/hivexget-get-values-from-a-windows-registry-hive/)

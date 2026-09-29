@@ -19,8 +19,8 @@ the user signs as a guest in his own computer.
 
 ## File Signature
 
-- **Hexadecimal**: 41 4F 4C 56 4D 31 30 30
-- **ASCII** : AOLVM100
+* **Hexadecimal**: 41 4F 4C 56 4D 31 30 30
+* **ASCII** : AOLVM100
 
 ## Contents
 
@@ -35,15 +35,26 @@ encoded 64 bit structure.
 
 The location of the AOL PFC mail store is:
 
-1.  **In Windows XP(AOL 9.0)** - C:\Documents and Settings\All
-    Users\Application Data\AOL\C_AOL9.0\Organize
-2.  **In Windows 7(AOL 9.7)** - C:\ProgramData\AOL\C_AOL Desktop
-    9.7\backup
-3.  **In Windows 10(AOL 9.7)** - C:\ProgramData\AOL\C_AOL Desktop
-    9.7\backup
+In Windows XP(AOL 9.0):
+
+```text
+C:\Documents and Settings\All Users\Application Data\AOL\C_AOL9.0\Organize
+```
+
+In Windows 7(AOL 9.7)
+
+```text
+C:\ProgramData\AOL\C_AOL Desktop 9.7\backup
+```
+
+In Windows 10(AOL 9.7)
+
+```text
+C:\ProgramData\AOL\C_AOL Desktop 9.7\backup
+```
 
 ## Tools
 
-- [AOL PFC Viewer](https://datahelp.in/pfc/viewer.html)
-- [SysTools AOL PFC Viewer](https://www.systoolsgroup.com/aol-pfc-viewer/)
-- [SysTools AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)
+* [AOL PFC Viewer](https://datahelp.in/pfc/viewer.html)
+* [SysTools AOL PFC Viewer](https://www.systoolsgroup.com/aol-pfc-viewer/)
+* [SysTools AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)

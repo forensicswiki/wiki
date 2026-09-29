@@ -1,11 +1,11 @@
 ---
 tags:
-  -  Tools
-  -  Disk Analysis
-  -  Open Source Software
-  -  Windows
-  -  Linux
-  -  MacOS
+  - Tools
+  - Disk Analysis
+  - Open Source Software
+  - Windows
+  - Linux
+  - MacOS
 ---
 ## Overview
 
@@ -40,30 +40,30 @@ packet dumps, and other kinds of digital information.
 
 bulk_extractor now creates an output directory that includes:
 
-- **ccn.txt** -- Credit card numbers
-- **ccn_track2.txt** -- Credit card “track 2″ information
-- **domain.txt** -- Internet domains found on the drive, including
+* **ccn.txt** -- Credit card numbers
+* **ccn_track2.txt** -- Credit card “track 2″ information
+* **domain.txt** -- Internet domains found on the drive, including
   dotted-quad addresses found in text.
-- **email.txt** -- Email addresses
-- **ether.txt** -- Ethernet MAC addresses found through IP packet
+* **email.txt** -- Email addresses
+* **ether.txt** -- Ethernet MAC addresses found through IP packet
   carving of swap files and compressed system hibernation files and file
   fragments.
-- **exif.txt** -- EXIFs from JPEGs and video segments. This feature file
+* **exif.txt** -- EXIFs from JPEGs and video segments. This feature file
   contains all of the EXIF fields, expanded as XML records.
-- **find.txt** -- The results of specific regular expression search
+* **find.txt** -- The results of specific regular expression search
   requests.
-- **ip.txt** -- IP addresses found through IP packet carving.
-- **telephone.txt** --- US and international telephone numbers.
-- **url.txt** --- URLs, typically found in browser caches, email
+* **ip.txt** -- IP addresses found through IP packet carving.
+* **telephone.txt** --- US and international telephone numbers.
+* **url.txt** --- URLs, typically found in browser caches, email
   messages, and pre-compiled into executables.
-- **url_searches.txt** --- A histogram of terms used in Internet
+* **url_searches.txt** --- A histogram of terms used in Internet
   searches from services such as Google, Bing, Yahoo, and others.
-- **wordlist.txt** --- :A list of all “words” extracted from the disk,
+* **wordlist.txt** --- :A list of all “words” extracted from the disk,
   useful for password cracking.
-- **wordlist_\*.txt** --- The wordlist with duplicates removed,
+* **wordlist_\*.txt** --- The wordlist with duplicates removed,
   formatted in a form that can be easily imported into a popular
   password-cracking program.
-- **zip.txt** --- A file containing information regarding every ZIP file
+* **zip.txt** --- A file containing information regarding every ZIP file
   component found on the media. This is exceptionally useful as ZIP
   files contain internal structure and ZIP is increasingly the compound
   file format of choice for a variety of products such as Microsoft
@@ -71,12 +71,12 @@ bulk_extractor now creates an output directory that includes:
 
 For each of the above, two additional files may be created:
 
-- **\*_stopped.txt** --- bulk_extractor supports a stop list, or a list
+* **\*_stopped.txt** --- bulk_extractor supports a stop list, or a list
   of items that do not need to be brought to the user’s attention.
   However rather than simply suppressing this information, which might
   cause something critical to be hidden, stopped entries are stored in
   the stopped files.
-- **\*_histogram.txt** --- bulk_extractor can also create histograms of
+* **\*_histogram.txt** --- bulk_extractor can also create histograms of
   features. This is important, as experience has shown that email
   addresses, domain names, URLs, and other information that appear more
   frequently on a hard drive or in a cell phone’s memory can be used to
@@ -138,7 +138,7 @@ systems is available on the bulk extractor website.
 
 The current version of **bulk_extractor** is 1.5.5.
 
-- Downloads for Windows and Linux/Unix systems are available at:
+* Downloads for Windows and Linux/Unix systems are available at:
   <https://downloads.digitalcorpora.org/downloads/bulk_extractor/>
 
 Version 2.0 is under development.
@@ -147,18 +147,18 @@ Version 2.0 is under development.
 
 ### Academic Publications
 
-1.  Garfinkel, Simson, [Digital media triage with bulk data analysis and
-    bulk_extractor](https://simson.net/clips/academic/2013.COSE.bulk_extractor.pdf).
-    Computers and Security 32: 56-72 (2013)
-2.  Beverly, Robert, Simson Garfinkel and Greg Cardwell, ["Forensic
-    Carving of Network Packets and Associated Data
-    Structures"](https://simson.net/clips/academic/2011.DFRWS.ipcarving.pdf),
-    DFRWS 2011, Aug. 1-3, 2011, New Orleans, LA. BEST PAPER AWARD
-    (Acceptance rate: 23%, 14/62)
-3.  Garfinkel, S., [Forensic Feature Extraction and Cross-Drive
-    Analysis,](https://simson.net/clips/academic/2006.DFRWS.pdf)The 6th
-    Annual Digital Forensic Research Workshop Lafayette, Indiana, August
-    14-16, 2006. (Acceptance rate: 43%, 16/37)
+1. Garfinkel, Simson, [Digital media triage with bulk data analysis and
+   bulk_extractor](https://simson.net/clips/academic/2013.COSE.bulk_extractor.pdf).
+   Computers and Security 32: 56-72 (2013)
+2. Beverly, Robert, Simson Garfinkel and Greg Cardwell, ["Forensic
+   Carving of Network Packets and Associated Data
+   Structures"](https://simson.net/clips/academic/2011.DFRWS.ipcarving.pdf),
+   DFRWS 2011, Aug. 1-3, 2011, New Orleans, LA. BEST PAPER AWARD
+   (Acceptance rate: 23%, 14/62)
+3. Garfinkel, S., [Forensic Feature Extraction and Cross-Drive
+   Analysis,](https://simson.net/clips/academic/2006.DFRWS.pdf)The 6th
+   Annual Digital Forensic Research Workshop Lafayette, Indiana, August
+   14-16, 2006. (Acceptance rate: 43%, 16/37)
 
 ### YouTube
 
@@ -166,17 +166,12 @@ Version 2.0 is under development.
 YouTube](https://www.youtube.com/results?search_query=bulk_extractor) for
 bulk_extractor videos**
 
-- [Simson Garfinkel speaking at CERIAS about
-  bulk_extractor](https://www.youtube.com/watch?v=odvDTGA7rYI)
-- [BackTrack 5 with
-  bulk_extractor](https://www.youtube.com/watch?v=wTBHM9DeLq4)
-- [Ubuntu 12.04 forensics with
-  bulk_extractor](https://www.youtube.com/watch?v=QVfYOvhrugg)
-- [Social Network forensics with
-  bulk_extractor](https://www.youtube.com/watch?v=57RWdYhNvq8)
+* [Simson Garfinkel speaking at CERIAS about bulk_extractor](https://www.youtube.com/watch?v=odvDTGA7rYI)
+* [BackTrack 5 with bulk_extractor](https://www.youtube.com/watch?v=wTBHM9DeLq4)
+* [Ubuntu 12.04 forensics with bulk_extractor](https://www.youtube.com/watch?v=QVfYOvhrugg)
+* [Social Network forensics with bulk_extractor](https://www.youtube.com/watch?v=57RWdYhNvq8)
 
 ### Tutorials
 
-1.  [Using bulk_extractor for digital forensics triage and cross-drive
-    analysis](http://simson.net/ref/2012/2012-08-08%20bulk_extractor%20Tutorial.pdf),
-    DFRWS 2012
+1. [Using bulk_extractor for digital forensics triage and cross-drive analysis](http://simson.net/ref/2012/2012-08-08%20bulk_extractor%20Tutorial.pdf),
+   DFRWS 2012

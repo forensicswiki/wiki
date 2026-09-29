@@ -51,11 +51,11 @@ image. If you must ship disks, here are some instructions:
     is inevitably dropped.
 9.  Make sure you properly unmount the drive from the imaging station
     before you disconnect it. If you don't know how
-    - [Ejecting Media on a
+    * [Ejecting Media on a
       Mac](https://www.lifewire.com/how-do-i-eject-cd-from-mac-2260195)
-    - [Ejecting Media on
+    * [Ejecting Media on
       Windows](https://askleo.com/safely_remove_hardware_where_did_the_icon_go_how_do_i_safely_remove_hardware_without_it/)
-    - [Ejecting Media on
+    * [Ejecting Media on
       Linux](https://www.scottklarr.com/)
 
 NB 1: This is advice, not a set of rules. Do what you can to secure your

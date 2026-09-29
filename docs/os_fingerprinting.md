@@ -56,6 +56,6 @@ Passive fingerprinters:
 
 * [NAT detection](nat_detection.md)
 
-## Links
+## External Links
 
 * [Remote OS detection paper](https://nmap.org/book/osdetect.html)

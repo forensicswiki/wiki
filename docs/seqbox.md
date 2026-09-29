@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Archive
+  - Archive
+  - File Formats
 ---
 SeqBox (SBX) is a single file container/archive that can be
 reconstructed even after total loss of file system structures.
@@ -72,8 +72,6 @@ Byte order: Big Endian
 
 ## External Links
 
-- [SeqBox GitHub](https://github.com/MarcoPon/SeqBox) repository with
-  encoder, decoder and recovery tools
-- [SeqBox page](https://mark0.net/soft-seqbox-e.html) at Marco Pontello's
-  Home
-
+* [SeqBox GitHub](https://github.com/MarcoPon/SeqBox) repository with encoder, 
+  decoder and recovery tools
+* [SeqBox page](https://mark0.net/soft-seqbox-e.html) at Marco Pontello's Home

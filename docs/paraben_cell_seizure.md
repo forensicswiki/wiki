@@ -50,16 +50,16 @@ has been acquired.
 
 ## Features
 
-- Supports [GSM](gsm.md), [TDMA](tdma.md), and
+* Supports [GSM](gsm.md), [TDMA](tdma.md), and
   [CDMA](cdma.md) [cell phones](cell_phones.md)
-- Acquires [text messages](sms.md), address books, call logs, etc.
-- Acquires complete GSM SIM card
-- Recovers deleted data and full flash downloads
-- Supports multiple languages
-- Contains comprehensive HTML reporting and other reporting formats
-- Provides advanced searching including text & hex values
-- Contains viewers for proprietary media file formats;
-- Allows viewing of multiple workspaces at one time
+* Acquires [text messages](sms.md), address books, call logs, etc.
+* Acquires complete GSM SIM card
+* Recovers deleted data and full flash downloads
+* Supports multiple languages
+* Contains comprehensive HTML reporting and other reporting formats
+* Provides advanced searching including text & hex values
+* Contains viewers for proprietary media file formats;
+* Allows viewing of multiple workspaces at one time
 
 ## External Links
 

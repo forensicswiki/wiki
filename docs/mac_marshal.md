@@ -37,5 +37,5 @@ MEGA.
 
 # External Links
 
-- [DFRWS'08 Mac Marshal paper (pdf)](http://old.dfrws.org/2008/proceedings/p83-joyce.pdf)
-- [Architecture Technology Corporation](https://www.atcorp.com/)
+* [DFRWS'08 Mac Marshal paper (pdf)](http://old.dfrws.org/2008/proceedings/p83-joyce.pdf)
+* [Architecture Technology Corporation](https://www.atcorp.com/)

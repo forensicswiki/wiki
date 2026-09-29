@@ -21,35 +21,35 @@ set to represent a "C" character.
 
 What you need to extract the lock from the device:
 
-1.  A RIFF Box with the latest JTAG Manager software. The RIFF Box used
-    for this was purchased from [multi-com.pl](https://multi-com.eu/).
-2.  HTC Wildfire S JTAG adapter (or soldering skillz). The adapter used
-    for this was purchased from [multi-com.pl](https://multi-com.eu/).
-3.  A DC Power supply capable of supplying 3.7V/1.3A output. The power
-    supply used for this was an Agilent U8002A DC Power Supply.
-4.  PatternLockScripts from CCL Forensics
-    ('GenerateAndroidGestureRainbowTable.py' and
-    'Android_GestureFinder.py').
+1. A RIFF Box with the latest JTAG Manager software. The RIFF Box used
+   for this was purchased from [multi-com.pl](https://multi-com.eu/).
+2. HTC Wildfire S JTAG adapter (or soldering skillz). The adapter used
+   for this was purchased from [multi-com.pl](https://multi-com.eu/).
+3. A DC Power supply capable of supplying 3.7V/1.3A output. The power
+   supply used for this was an Agilent U8002A DC Power Supply.
+4. PatternLockScripts from CCL Forensics
+   ('GenerateAndroidGestureRainbowTable.py' and
+   'Android_GestureFinder.py').
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the RIFF Box to the PCB via USB.
-3.  Connect the RIFF Box to the PCB via the JTAG adapter.
-4.  Connect the RIFF Box to the PC via USB.
-5.  Connect the PCB to the DC power supply.
-6.  Start the "JTAG Manager" software and configure.
-7.  Power the PCB.
-8.  Dump the NAND.
+1. Disassemble the phone down to the PCB.
+2. Connect the RIFF Box to the PCB via USB.
+3. Connect the RIFF Box to the PCB via the JTAG adapter.
+4. Connect the RIFF Box to the PC via USB.
+5. Connect the PCB to the DC power supply.
+6. Start the "JTAG Manager" software and configure.
+7. Power the PCB.
+8. Dump the NAND.
 
 Instructions for disassembly can be found on Internet but it can be
 summarised as follows:
 
-1.  Remove the rear cover and battery.
-2.  Remove the Torx and Phillips screws.
-3.  Split the phone case using a case opening tool (guitar pick).
-4.  Disconnect the 3 tiny ribbon cables (tweezers on either side).
-5.  Remove the PCB.
+1. Remove the rear cover and battery.
+2. Remove the Torx and Phillips screws.
+3. Split the phone case using a case opening tool (guitar pick).
+4. Disconnect the 3 tiny ribbon cables (tweezers on either side).
+5. Remove the PCB.
 
 You are now ready to connect the PCB to the RIFF Box and the RIFF Box to
 the PC. See the pictures for more detail. Note: The JTAG adapter
@@ -91,16 +91,16 @@ file.
 If you receive errors that the PCB could not be connected to, try the
 following:
 
-- Confirm that the PCB is receiving power from the DC power supply. If
+* Confirm that the PCB is receiving power from the DC power supply. If
   you can measure current draw of the PCB, you should see that the PCB
   is pulling about 0.07A. If the PCB is pulling more current, it is
   likely already booted and the read may fail.
-- Power off the PCB, power it back on, and immediately start the JTAG
+* Power off the PCB, power it back on, and immediately start the JTAG
   Manager read.
-- Check the JTAG adapter to ensure it is correctly orientated and that
+* Check the JTAG adapter to ensure it is correctly orientated and that
   all the pogo pins are touching the PCB JTAG pads.
-- Recheck the JTAG to PCB connections.
-- Upon receiving a successful JTAG dump you can process the file with
+* Recheck the JTAG to PCB connections.
+* Upon receiving a successful JTAG dump you can process the file with
   the CCL Forensics Android scripts to extract the gesture or pin lock.
 
 ## References

@@ -13,30 +13,30 @@ forensics](computer_forensics.md).
 
 ## Tools Included
 
-- Live side for [Mac OS X](mac_os_x.md),
+* Live side for [Mac OS X](mac_os_x.md),
   [Windows](windows.md) and [Linux](linux.md)
-- A bootable forensically sound environment based on
+* A bootable forensically sound environment based on
   [Ubuntu](ubuntu.md)
 
 Open source forensic tools include:
 
-- [dc3dd](dc3dd.md)
-- [aimage](aimage.md)
-- [The Sleuth Kit](the_sleuth_kit.md) (3.0.1, with "light"
+* [dc3dd](dc3dd.md)
+* [aimage](aimage.md)
+* [The Sleuth Kit](the_sleuth_kit.md) (3.0.1, with "light"
   version of Autopsy, with [libewf](libewf.md)
-- [foremost](foremost.md)
-- [Volatility](volatility_framework.md)
-- Several tools for mobile phone forensics
+* [foremost](foremost.md)
+* [Volatility](volatility_framework.md)
+* Several tools for mobile phone forensics
 
 Other tools include:
 
-- [LinEn](linen.md)
+* [LinEn](linen.md)
 
 ## Forensic Issues
 
-- Helix3 Pro can automount some storage devices like firewire devices
+* Helix3 Pro can automount some storage devices like firewire devices
   and MMC in read/write mode;
-- Helix3 Pro relies on file system drivers to provide write protection,
+* Helix3 Pro relies on file system drivers to provide write protection,
   mounting some file system types (e.g. [XFS](xfs.md) will
   result in several data writes to the original media.
 

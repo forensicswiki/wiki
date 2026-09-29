@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 Founded in 1999 by a team of highly experienced telecom and mobile
 telephony professionals, Cellebrite is a global company known for its
@@ -31,9 +31,9 @@ Japanese company (6736/JQ).
 
 -- Universal Forensic Extraction Device
 
-- Logical and physical data extraction
-- Supports more than 3000 handset models
-- Standalone kit - portable and easy to use
+* Logical and physical data extraction
+* Supports more than 3000 handset models
+* Standalone kit - portable and easy to use
 
 [1](https://cellebrite.com/en/home/)
 

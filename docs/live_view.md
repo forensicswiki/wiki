@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Live View is a Java-based graphical forensics tool that creates a VMware
 virtual machine out of a [raw image file](raw_image_format.md) or
@@ -14,14 +14,14 @@ state of the disk. The end result is that one need not create extra
 
 Live View is capable of booting
 
-- Full disk raw images
-- Bootable partition raw images
-- Physical Disks (attached via a USB or Firewire bridge)
+* Full disk raw images
+* Bootable partition raw images
+* Physical Disks (attached via a USB or Firewire bridge)
 
 Containing the following operating systems
 
-- Windows 2008, Vista, 2003, XP, 2000, NT, Me, 98
-- Linux (limited support)
+* Windows 2008, Vista, 2003, XP, 2000, NT, Me, 98
+* Linux (limited support)
 
 Behind the scenes, Live View automates a wide array of technical tasks.
 Some of these include: resolving hardware conflicts resulting from

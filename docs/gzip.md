@@ -1,20 +1,20 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 ## File format
 
 The gzip file (.gz) format consists of:
 
-- a file header
-- optional headers
-  - extra fields
-  - original file name
-  - comment
-  - header checksum
-- compressed data (commonly used compression method DEFLATE, without
+* a file header
+* optional headers
+  * extra fields
+  * original file name
+  * comment
+  * header checksum
+* compressed data (commonly used compression method DEFLATE, without
   zlib header)
-- a file footer
+* a file footer
 
 <table>
 <thead>
@@ -162,8 +162,8 @@ does not enforce it.</p></td>
 
 <b>Notes:</b>
 
-- Reserved flags bits must be zero.
-- The FHCRC bit was never set by versions of gzip up to 1.2.4, even
+* Reserved flags bits must be zero.
+* The FHCRC bit was never set by versions of gzip up to 1.2.4, even
   though it was documented with a different meaning in gzip 1.2.4.
 
 #### Compression flags

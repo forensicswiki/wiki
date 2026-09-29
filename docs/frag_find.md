@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 frag_find is a program for finding blocks of one or more MASTER files in
 a disk IMAGE file. This is useful in cases where a MASTER file has been
@@ -32,11 +32,11 @@ runs of matching blocks, rather than individual blocks.
 
 frag_find is fast because:
 
-- Initial filtering of presence/absence is done using the NPS Bloom
+* Initial filtering of presence/absence is done using the NPS Bloom
   filter implementation, an efficient memory-mapped Bloom implementation
   designed to be used with hash functions.
-- Hashes are stored in efficient C++ structures.
-- All computations are done in binary, rather than hex.
+* Hashes are stored in efficient C++ structures.
+* All computations are done in binary, rather than hex.
 
 ## OPTIONS
 
@@ -56,5 +56,5 @@ file.
 
 ## AVAILABILITY
 
-- Download: <https://downloads.digitalcorpora.org/downloads/frag_find>
-- github: <https://github.com/simsong/frag_find>
+* Download: <https://downloads.digitalcorpora.org/downloads/frag_find>
+* github: <https://github.com/simsong/frag_find>

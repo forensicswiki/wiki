@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Analysis
-  -  Tools
+  - Analysis
+  - Tools
 ---
 *SQL Database Recovery Tool* is one of the best tools to repair &
 Recover Corrupt MS SQL database easily. A reliable Windows based
@@ -14,24 +14,22 @@ database files in no time.
 
 ## Features
 
-- Accurate and reliable recovery tool to recover corrupt SQL database
-- Let users to recover file objects like views, tables, triggers,
+* Accurate and reliable recovery tool to recover corrupt SQL database
+* Let users to recover file objects like views, tables, triggers,
   defaults and so on
-- Two recovery modes to handle different types of corruption: Standard
+* Two recovery modes to handle different types of corruption: Standard
   and Advanced
-- Let users to save their recovered data either in SQL Server compatible
+* Let users to save their recovered data either in SQL Server compatible
   Script format or in SQL Server database format
-- Can repair corrupt MDF and NDF files seamlessly
-- SQL Server PAGE-compression and ROW-compression
-- Allow users to preview recovered files even before recovery
-- Support recovery of XML files, image files, BLOB and even large page
+* Can repair corrupt MDF and NDF files seamlessly
+* SQL Server PAGE-compression and ROW-compression
+* Allow users to preview recovered files even before recovery
+* Support recovery of XML files, image files, BLOB and even large page
   data
-- Support more than 50+ types of data which let users restore any types
+* Support more than 50+ types of data which let users restore any types
   of file objects
-- Highly compatible with all version of Microsoft Windows
+* Highly compatible with all version of Microsoft Windows
 
 ## External Links
 
-[Official
-Website](https://www.sysinfotools.com/recovery/ms-sql-database-recovery.php)
-
+* [Official Website](https://www.sysinfotools.com/recovery/ms-sql-database-recovery.php)

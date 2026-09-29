@@ -23,36 +23,36 @@ support.
 
 ## File Search Facilities
 
-- Lists allocated and unallocated files.
-- Sorts files by type.
-- Searches for keywords.
-- Works with compressed zip files.
+* Lists allocated and unallocated files.
+* Sorts files by type.
+* Searches for keywords.
+* Works with compressed zip files.
 
 ## Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
-- Creates a "case file".
+* Creates a "case file".
 
 ## Searching Abilities
 
-- Searches for keywords.
-- Builds an index.
+* Searches for keywords.
+* Builds an index.
 
 ## Hash Databases
 
-- Hashes and compares with [Hashkeeper](hashkeeper.md) using
+* Hashes and compares with [Hashkeeper](hashkeeper.md) using
   [MD5](md5.md).
 
 ## Evidence Collection Features
 
 # History
 
-- Originally started by the Australian Department of Defence and was open
+* Originally started by the Australian Department of Defence and was open
   sourced
 
 # External Links
 
-- [Github: Pyflags](https://github.com/py4n6/pyflag)
-- <https://code.google.com/archive/p/pyflag>
-- <https://sourceforge.net/projects/pyflag/>
+* [Github: Pyflags](https://github.com/py4n6/pyflag)
+* <https://code.google.com/archive/p/pyflag>
+* <https://sourceforge.net/projects/pyflag/>

@@ -21,7 +21,7 @@ There are multiple families of executable files:
 * Scripts; e.g. shell scripts, batch scripts (.bat)
 * DOS, Windows executable files (.exe) which can be of various formats
   like: MZ, PE/COFF, NE
-  - EFI fat binary; roughly a 48-byte header and 2x MZ-PE/COFF
+  * EFI fat binary; roughly a 48-byte header and 2x MZ-PE/COFF
 * ELF
 * Mach-O
 

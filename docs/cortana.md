@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Cortana is a digital personal assistant originally introduced in Windows
 Phone 8.1.
@@ -16,10 +16,10 @@ There are a number of artefacts associated with Cortana; 2 backend
 Extensible Storage Engine (ESE) databases, and other configuration
 files. The 2 Cortana Databases are located:
 
-•
-*\Users\user_name\AppData\Local\Packages\Microsoft.Windows.Cortana_xxxx\AppData\Indexed
-DB\IndexedDB.edb* •
-*\Users\user_name\AppData\Local\Packages\Microsoft.Windows.Cortana_xxxx\LocalState\ESEDatabase_CortanaCoreInstance\CortanaCoreDb.dat*
+```text
+\Users\user_name\AppData\Local\Packages\Microsoft.Windows.Cortana_xxxx\AppData\Indexed DB\IndexedDB.edb
+\Users\user_name\AppData\Local\Packages\Microsoft.Windows.Cortana_xxxx\LocalState\ESEDatabase_CortanaCoreInstance\CortanaCoreDb.dat
+```
 
 The IndexedDB.edb contains the following tables:
 
@@ -41,22 +41,22 @@ RulesTemplatesParameterTypes - Signals - TimeTriggers - Triggers
 Unlike IndexedDB.edb, CortanaCoreDB.dat is a goldmine for evidentiary
 artefacts, some of the more interesting tables are:
 
-• *Geofences*
+* *Geofences*
 
 This table contains Latitude/Longitude for where location based
 reminders are triggered.
 
-• *LocationTriggers*
+* *LocationTriggers*
 
 This table contains Latitude/Longitude as well as the actual Name of
 place results for reminders.
 
-• *Reminders*
+* *Reminders*
 
 This table contains actual text inputted by the user, as well as
 Creation, Access, and Completion times.
 
-• *Triggers*
+* *Triggers*
 
 This table contains the ReminderID value matches with the ID field in
 the Reminders table.

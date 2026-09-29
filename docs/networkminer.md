@@ -59,10 +59,10 @@ There is also a commercial version available of NetworkMiner from
 [NetworkMiner Professional](https://www.netresec.com/?page=NetworkMiner)
 and has additional features such as:
 
-- Port Independent Protocol Identification (PIPI)
-- Export results to CSV / Excel
-- Configurable file output directory
-- Geo IP localization
-- Host coloring support
-- Command line scripting support
+* Port Independent Protocol Identification (PIPI)
+* Export results to CSV / Excel
+* Configurable file output directory
+* Geo IP localization
+* Host coloring support
+* Command line scripting support
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **[Elcomsoft Mobile Forensic
 Bundle](https://www.elcomsoft.com/emfb.html) (EMFB)** is the complete
@@ -13,16 +13,16 @@ physical, logical and over-the-air acquisition of smartphones and
 tablets, break mobile backup passwords and decrypt encrypted backups,
 view and analyze information stored in mobile devices.
 
-- Physical and logical acquisition of iOS devices
-- Logical acquisition of locked iOS devices
-- Break passwords to iOS system backups
-- Obtain iCloud backups, download photos and synced data, access iCloud
+* Physical and logical acquisition of iOS devices
+* Logical acquisition of locked iOS devices
+* Break passwords to iOS system backups
+* Obtain iCloud backups, download photos and synced data, access iCloud
   passwords
-- Google Account forensics
-- Windows Phone, Windows 10 Mobile and BlackBerry 10 support
-- Windows and Mac editions
-- View and analyze evidence
-- Access to instant messaging apps (iMessage, WhatsApp, Telegram, Skype,
+* Google Account forensics
+* Windows Phone, Windows 10 Mobile and BlackBerry 10 support
+* Windows and Mac editions
+* View and analyze evidence
+* Access to instant messaging apps (iMessage, WhatsApp, Telegram, Skype,
   Signal)
 
 ### Comprehensive Mobile Forensic Solution

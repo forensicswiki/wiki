@@ -60,29 +60,29 @@ established by leaders in the computing and mobile industries to enable
 the mass market of communicators and smart phones. Here is a brief
 overview of the milestones in the history of Symbian.
 
-- In 1980, Psion Software was founded by David Potter.
-- 1990-1998 Psion releases devices using the EPOC16 OS, also known as
+* In 1980, Psion Software was founded by David Potter.
+* 1990-1998 Psion releases devices using the EPOC16 OS, also known as
   SIBO. These devices are categorized as Series 3.
-- 1997 EPOC OS Releases 1–3. The Series 5 device becomes available, its
+* 1997 EPOC OS Releases 1–3. The Series 5 device becomes available, its
   was the first movement towards 32-bit Symbian.
-- In 1998, Symbian Ltd. Created.
-- 1999 - EPOC Release 5. Series 5 devices are in production using ER5.
+* In 1998, Symbian Ltd. Created.
+* 1999 - EPOC Release 5. Series 5 devices are in production using ER5.
   Symbian OS v6.0 and v6.1 becomes the first 'open' Symbian OS phone.
-- 2003 Symbian OS v7.0 and v7.0s released.
-- In 2004, Psion sells Symbian. The first for mobile phones using
+* 2003 Symbian OS v7.0 and v7.0s released.
+* In 2004, Psion sells Symbian. The first for mobile phones using
   Symbian OS. Symbian OS v8.0 and v8.1 released. Symbian OS v9.0 fails
   and is taken out of production before hitting the market.
-- 2005 - Symbian OS v9.1 announced.
+* 2005 - Symbian OS v9.1 announced.
 
 ## Benefits of Symbian OS
 
-- Faster time-to-market for platform vendors
-- Open, standards-based platform for third-party application developers
-- Excellent connectivity
-- Advanced design
-- Extensibility
-- High-performance, 32-bit OS with pre-emptive multitasking
-- Long battery life
-- Wide industry support and commitment
-- Applications that can be designed once and run on multiple devices
-- Diversity of devices for consumers
+* Faster time-to-market for platform vendors
+* Open, standards-based platform for third-party application developers
+* Excellent connectivity
+* Advanced design
+* Extensibility
+* High-performance, 32-bit OS with pre-emptive multitasking
+* Long battery life
+* Wide industry support and commitment
+* Applications that can be designed once and run on multiple devices
+* Diversity of devices for consumers

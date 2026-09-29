@@ -1,7 +1,8 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Tools
 ---
 ## External Links
 
-- [Official website](http://www.foolmoon.net/security/wft/)
+* [Official website](http://www.foolmoon.net/security/wft/)

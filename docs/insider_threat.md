@@ -1,10 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Redirect
 ---
-## See Also
 
-- [Dawn
-  Cappelli](https://www.sei.cmu.edu/about/people/profile.cfm?id=cappelli_13037),
-  CMU SEI, expert on Insider Threat issues at the CERT Insider Threat
-  Center.
+_See: [insider threat research](insider_threat_research.md)_

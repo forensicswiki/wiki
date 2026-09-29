@@ -18,22 +18,22 @@ Uganda and others
 
 Indiaforensic Center of Studies offers three certifications viz.
 
-- Certified [Forensic
+* Certified [Forensic
   Accounting](https://www.indiaforensic.com/education/CFAP/) Professional
-- Certified
+* Certified
   [Anti-Moneylaundering](https://www.indiaforensic.com/education//mfa/overview.htm)
   Expert
-- Certified [Bank Forensic
+* Certified [Bank Forensic
   Accounting](https://www.indiaforensic.com/education//bfa/overview.htm)
 
 In order to be Certified as a Forensic Accountant one must meet the
 following requirements:
 
-- Be at least a graduate from the Recognised University
-- Have professional experience of at least three years
-- Pass the CFAP examination conducted by Indiaforensic with at least 75%
+* Be at least a graduate from the Recognised University
+* Have professional experience of at least three years
+* Pass the CFAP examination conducted by Indiaforensic with at least 75%
   marks
-- Be of high moral character
+* Be of high moral character
 
 ## Academic requirements
 
@@ -62,7 +62,7 @@ questions and single paper on forensic accounting. The exams are
 computer based and the self assessment test needs to be completed before
 the final examination needs to be completed.
 
-## External links
+## External Links
 
-- [CFAP Information Powerpoint](https://www.slideshare.net/indiaforensic/certified-forensic-accounting-professional)
-- [Certification programs offered by Indiaforensic](https://www.indiaforensic.com/education/)
+* [CFAP Information Powerpoint](https://www.slideshare.net/indiaforensic/certified-forensic-accounting-professional)
+* [Certification programs offered by Indiaforensic](https://www.indiaforensic.com/education/)

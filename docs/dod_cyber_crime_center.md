@@ -7,11 +7,11 @@ organization run by the [Air Force Office of Special
 Investigations](air_force_office_of_special_investigations.md).
 The center consists of four divisions:
 
-- [Defense Computer Forensics Lab](defense_computer_forensics_lab.md)
-- [Defense Cyber Investigations Training Academy](defense_cyber_investigations_training_academy.md)
+* [Defense Computer Forensics Lab](defense_computer_forensics_lab.md)
+* [Defense Cyber Investigations Training Academy](defense_cyber_investigations_training_academy.md)
   (DCITA)
-- [Defense Cyber Crime Institute](defense_cyber_crime_institute.md)
-- Futures Exploration (FX)
+* [Defense Cyber Crime Institute](defense_cyber_crime_institute.md)
+* Futures Exploration (FX)
 
 ## Events
 

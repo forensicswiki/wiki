@@ -56,21 +56,21 @@ largest networks.
 The company manufactures a variety of password recovery products for
 multitudes of file formats, products, and systems, including:
 
-- [All applications of all editions of Microsoft Office
+* [All applications of all editions of Microsoft Office
   suite](https://www.elcomsoft.com/aopr.html). All versions are
   supported. Some products include Word, Excel, Access, Outlook,
   PowerPoint and Visio, Microsoft Project, etc;
-- [Corel WordPerfect Office, including WordPerfect, QuattroPro, Paradox;
+* [Corel WordPerfect Office, including WordPerfect, QuattroPro, Paradox;
   WordPerfect Lightning](https://www.elcomsoft.com/awopr.html);
-- [Lotus SmartSuite suite, e.g., Organizer, WordPro, 1-2-3 and
+* [Lotus SmartSuite suite, e.g., Organizer, WordPro, 1-2-3 and
   Approach](https://www.elcomsoft.com/alpr.html);
-- [Adobe Acrobat PDF](https://www.elcomsoft.com/apdfpr.html);
-- [Compression tools employing ZIP, RAR, ACE, and ARJ
+* [Adobe Acrobat PDF](https://www.elcomsoft.com/apdfpr.html);
+* [Compression tools employing ZIP, RAR, ACE, and ARJ
   formats](https://www.elcomsoft.com/archpr.html);
-- [Encrypted NTFS files](https://www.elcomsoft.com/aefsdr.html);
-- [Wireless security audit and Wi-Fi password recovery
+* [Encrypted NTFS files](https://www.elcomsoft.com/aefsdr.html);
+* [Wireless security audit and Wi-Fi password recovery
   tools](https://www.elcomsoft.com/ewsa.html);
-- [Mobile forensic solutions](https://www.elcomsoft.com/emfb.html) and
+* [Mobile forensic solutions](https://www.elcomsoft.com/emfb.html) and
   [mobile backup recovery tools](https://www.elcomsoft.com/eppb.html),
   and many, many more [forensic
   tools](https://www.elcomsoft.com/products.html).
@@ -84,15 +84,15 @@ allowing ElcomSoft’s products to deliver the highest performance.
 
 ##### Elcomsoft Patents
 
-- 7,599,492 - Fast cryptographic key recovery system and method
-- 7,783,046 - Probabilistic cryptographic key identification with
+* 7,599,492 - Fast cryptographic key recovery system and method
+* 7,783,046 - Probabilistic cryptographic key identification with
   deterministic result
-- 7,787,629 - Use of graphics processors as parallel math co-processors
+* 7,787,629 - Use of graphics processors as parallel math co-processors
   for password recovery
-- 7,809,130 - Password recovery system and method
-- 7,929,707 - Use of graphics processors as parallel math co-processors
+* 7,809,130 - Password recovery system and method
+* 7,929,707 - Use of graphics processors as parallel math co-processors
   for password recovery
-- 8,538,030 - Use of graphics processors as parallel math co-processors
+* 8,538,030 - Use of graphics processors as parallel math co-processors
   for password recovery
 
 ElcomSoft products have become a de-facto industry-standard. They are
@@ -112,4 +112,3 @@ point, and all stories are cutting news on
 [iOS](https://blog.elcomsoft.com/tag/ios/) and
 [Android](https://blog.elcomsoft.com/?s=Google) forensics and [data
 encryption](https://blog.elcomsoft.com/category/general/).
-

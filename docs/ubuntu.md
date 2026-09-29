@@ -14,7 +14,7 @@ workstations on top of it.
 
 * [Linux](linux.md)
 
-# External links
+## External Links
 
 * [Wikipedia: Ubuntu](https://en.wikipedia.org/wiki/Ubuntu)
 * [SIFT: Download Page](https://www.sans.org/tools/sift-workstation/)

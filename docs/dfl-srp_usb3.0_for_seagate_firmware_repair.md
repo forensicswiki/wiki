@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **DFL-SRP For Seagate Firmware Repair Tool** is one top-class USB3.0
 Seagate hard drive firmware repair hardware tool fixing firmware
@@ -13,11 +13,11 @@ bad sectors, edit Seagate SN, models, capacities, etc. Users can work in
 both ATA and COM modes. Users with this tool usually have a higher
 success rate and stay more competitive.
 
+## See Also
+
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Tools:Data_Recovery](tools_data_recovery.md)
+
 ## External Links
 
-- [DFL-SRP For Seagate Firmware Repair
-  Tool](https://www.dolphindatalab.com/product/dfl-srp-for-seagate-firmware-repair-tool/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Tools:Data_Recovery](tools_data_recovery.md)
+* [DFL-SRP For Seagate Firmware Repair Tool](https://www.dolphindatalab.com/product/dfl-srp-for-seagate-firmware-repair-tool/)

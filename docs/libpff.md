@@ -19,9 +19,9 @@ Support was added to deal with corrupted files and to recover data.
 
 The **libpff** package contains the following tools:
 
-- **pffexport**, which exports the items stored in PAB, PST and OST
+* **pffexport**, which exports the items stored in PAB, PST and OST
   (PFF) files
-- **pffinfo**, which shows information about PFF files.
+* **pffinfo**, which shows information about PFF files.
 
 **pffrecover**, has been replaced by **pffexport -m recovered**
 
@@ -35,11 +35,11 @@ Libpff is a rewrite of earlier work on the PST file format by the
 
 ## See Also
 
-- [Personal Folder File (PAB, PST,
+* [Personal Folder File (PAB, PST,
   OST)](personal_folder_file_(pab,_pst,_ost).md)
-- [libpst](libpst.md)
+* [libpst](libpst.md)
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libpff/)
-- [Building libpff and tools from source](https://github.com/libyal/libpff/wiki/Building)
+* [Project site](https://github.com/libyal/libpff/)
+* [Building libpff and tools from source](https://github.com/libyal/libpff/wiki/Building)

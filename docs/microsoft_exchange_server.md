@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **Microsoft Exchange Server** stands as the most suitable *emailing
 server* platform. Developed and owned by **Microsoft**; the very first
@@ -14,47 +14,43 @@ transcriptions* and many more.
 
 ## Why Exchange Server?
 
-- Microsoft Exchange Server stands as the most outstanding and cost –
+* Microsoft Exchange Server stands as the most outstanding and cost –
   effective solution delivering highly secure B2C and B2B emailing
   solution.
-- Equipped with DLP (Data Loss Prevention) capabilities, that excels in
+* Equipped with DLP (Data Loss Prevention) capabilities, that excels in
   protecting sensitive data.
-- Allows technocrats to perform in – place eDiscovery across multiple
+* Allows technocrats to perform in – place eDiscovery across multiple
   environments such as Exchange, SharePoint, and Lync.
-- Use Exchange Hybrid, a platform that allows you to traverse your
+* Use Exchange Hybrid, a platform that allows you to traverse your
   emails on – premise and meet your business needs.
 
 ## Features
 
 *Microsoft Exchange Server 2013* was released on October 11, 2012. The
 various features that make Exchange Server an indispensable product are:
--
 
-- ***DAG (Database Availability Groups).*** DAG is a Mailbox sever high
+* ***DAG (Database Availability Groups).*** DAG is a Mailbox sever high
   availability and site resilience framework. Once any server is added
   to DAG, it eventually gets synchronized to provide automatic recovery
   from failures.
-- ***CAS (Client Access Server).*** CAS arrays are being used by
+* ***CAS (Client Access Server).*** CAS arrays are being used by
   Exchange Server to provide a highly enhanced Client Server Access with
   dedicated availability.
-- ***Offline Support in OWA.*** Users can work offline and all the
+* ***Offline Support in OWA.*** Users can work offline and all the
   actions automatically get synchronized when the connection is
   regained.
-- ***Enhanced Outlook Web App.*** Extended optimized UI support for
+* ***Enhanced Outlook Web App.*** Extended optimized UI support for
   mobile phone, tablet, and desktop browsers.
-- ***Disk Support Up To 8 TB.*** Multiple databases are being used in
+* ***Disk Support Up To 8 TB.*** Multiple databases are being used in
   conjunction with DAG.
-- ***In – built anti – malware.*** Customizable feature of usage of anti
+* ***In – built anti – malware.*** Customizable feature of usage of anti
   – malware provided for use, if required.
-- ***In – Place eDiscovery.*** Crucial and sensitive data can now easily
+* ***In – Place eDiscovery.*** Crucial and sensitive data can now easily
   be searched and carved in.
-- ***Shadow Redundancy.*** “Shadow Redundancy” mechanism protects the
+* ***Shadow Redundancy.*** “Shadow Redundancy” mechanism protects the
   email messages in the state when they are available in the transit.
-
-## Reference Links
-
-- [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
 ## External Links
 
-- [Wikipedia on Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server)
+* [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
+* [Wikipedia on Microsoft Exchange Server](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server)

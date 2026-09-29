@@ -42,8 +42,8 @@ alt="tcpflow" />
 
 ## Limitations
 
-- tcpflow does not understand IP fragments;
-- tcpflow does not understand 802.11 headers.
+* tcpflow does not understand IP fragments;
+* tcpflow does not understand 802.11 headers.
 
 ## History
 
@@ -51,14 +51,14 @@ Jeremy Elson developed the first version of tcpflow in 1999 but stopped
 maintaining it in 2003. In 2006 Simson Garfinkel took over maintenance
 of the program and added:
 
-- support for VLANs
-- support for IPv6
-- [DFXML](dfxml.md) output of the connections in a
+* support for VLANs
+* support for IPv6
+* [DFXML](dfxml.md) output of the connections in a
   **report.xml** file.
-- Improved performance through the use of the C++ STL classes.
-- Support for continuous operation (tcpflow now purges out old flows).
-- Variable Filename specifications.
-- A plug-in architecture.
+* Improved performance through the use of the C++ STL classes.
+* Support for continuous operation (tcpflow now purges out old flows).
+* Variable Filename specifications.
+* A plug-in architecture.
 
 tcpflow is based on the LBL Packet Capture Library (available from LBL)
 and therefore supports the same rich filtering expressions that programs

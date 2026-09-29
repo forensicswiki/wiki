@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Open Source Software
-  -  System Analysis
+  - Tools
+  - Windows
+  - Open Source Software
+  - System Analysis
 ---
 Miss Identify is a program to find Win32 applications. In its default
 mode it displays the filename of any executable that does not have an
@@ -17,25 +17,31 @@ record the strings found in an executable and to work recursively.
 
 The program can be used to search for mislabeled executables:
 
-`C:\> missidentify *`
-`C:\missidentify-1.0\sample.jpg`
+```text
+C:\> missidentify *
+C:\missidentify-1.0\sample.jpg
+```
 
 To enumerate all executables:
 
-`C:\> missidentify -a * `
-`C:\missidentify-1.0\sample.jpg`
-`C:\missidentify-1.0\missidentify.exe`
+```text
+C:\> missidentify -a *
+C:\missidentify-1.0\sample.jpg
+C:\missidentify-1.0\missidentify.exe
+```
 
 To search for all executables in an unusual place:
 
-`C:\> missidentify -ar c:\windows\system32`
-`...`
-`C:\WINDOWS\System32\ntdll.dll`
-`C:\WINDOWS\System32\ntoskrnl.exe`
-`C:\WINDOWS\System32\NEVER-GONNA-CATCH-ME.EXE`
-`C:\WINDOWS\System32\ntver.dll`
-`...`
+```text
+C:\> missidentify -ar c:\windows\system32
+...
+C:\WINDOWS\System32\ntdll.dll
+C:\WINDOWS\System32\ntoskrnl.exe
+C:\WINDOWS\System32\NEVER-GONNA-CATCH-ME.EXE
+C:\WINDOWS\System32\ntver.dll
+...
+```
 
 ## External Links
 
-- [Official website](https://missidentify.sourceforge.net/)
+* [Official website](https://missidentify.sourceforge.net/)

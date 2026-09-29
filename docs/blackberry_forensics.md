@@ -140,7 +140,7 @@ simulate the 7230 series.
 
 1. Download the BlackBerry simulator
 
-- For this example look through the list and download BlackBerry
+* For this example look through the list and download BlackBerry
   Handheld Simulator v4.0.2.51.
 
 2. Then click *Next*.
@@ -156,7 +156,7 @@ continue.\*
 6. The next page will provide you with a link to download the .ZIP file
 containing the wanted simulator.
 
-- If you disagree at any of these points you will not be able to
+* If you disagree at any of these points you will not be able to
   continue to the download.
 
 7. Extract the files to a folder that can easily be accessed (I used
@@ -191,4 +191,4 @@ transfer across a USB port.
 
 ## References
 
-- [phoneMiner](https://www.amraksoftware.com/), phoneMiner
+* [phoneMiner](https://www.amraksoftware.com/), phoneMiner

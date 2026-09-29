@@ -10,7 +10,7 @@ a strong computer investigative program that is quite adept with
 
 ## See Also
 
-- NASA OIG has generously allowed us to publish their policy for the
+* NASA OIG has generously allowed us to publish their policy for the
   preservation and analysis of digital evidence by computer forensic
   specialists and special agents. In their words, "It's our hope that
   this document will help others, particularly law enforcement

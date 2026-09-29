@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-## External links
+## External Links
 
 * [Visualizing TCP congestion avoidance algorithm](http://marc.herbert.free.fr/TCP/congestion/),
   by Marc Herbert, October 25, 2002

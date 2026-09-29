@@ -35,9 +35,9 @@ introduced in Sleuthkit since 2010 break Autopsy 2.24.
 There are several known conflicts between Autopsy 2.24 and Sleuthkit
 4.1.3:
 
-- Autopsy cannot normally jump through directories on HFS.
-- Autopsy cannot handle Sun VTOC.
-- Autopsy cannot view timelines in most cases.
+* Autopsy cannot normally jump through directories on HFS.
+* Autopsy cannot handle Sun VTOC.
+* Autopsy cannot view timelines in most cases.
 
 Also, Ext4 file creation timestamps cannot be viewed in the Autopsy
 "File Manager"-like interface. Unofficial

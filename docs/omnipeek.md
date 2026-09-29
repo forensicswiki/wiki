@@ -16,4 +16,4 @@ frameworks such as Sarbanes Oxley and HIPAA.
 
 ## External Links
 
-- [Official website](https://www.liveaction.com/products/omnipeek/)
+* [Official website](https://www.liveaction.com/products/omnipeek/)

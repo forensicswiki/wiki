@@ -99,7 +99,7 @@ A more detailed description of each of the fields and their meaning:
 * date and time values are in second-only granularity and therefore
   limit the usefulness of the format for timelines with a vast amount of
   sub-second activity
-  - Note that second-only granularity is known to affect MACB grouping
+  * Note that second-only granularity is known to affect MACB grouping
     behavior of certain tools, also see
     <https://github.com/sleuthkit/sleuthkit/issues/2015>
 * timezone can be used for both the output and input time zone, it is

@@ -1,9 +1,9 @@
 ---
 tags:
-  -  MacOS
-  -  Disk Imaging
-  -  Tools
-  -  Commercial Software
+  - Commercial Software
+  - Disk Imaging
+  - MacOS
+  - Tools
 ---
 RECON IMAGER is a forensic imaging software, developed by SUMURI for
 macOS, and is based on OS X.
@@ -17,19 +17,19 @@ maximum integrity of data stored in RAM.
 
 ## Product Features
 
-- Interprets Apple FileVault, Fusion and Core Storage volumes and disks
+* Interprets Apple FileVault, Fusion and Core Storage volumes and disks
   to make decrypted forensic images by entering the user's password or
   Recovery Key.
-- Image RAM without an admin password
-- Rolling update structure to stay current with newest MacOS releases
-- Quintuple boot system.
-- Native MacOS boot environment
-- RAM imager - admin password not required.
-- Controls write protection.
-- Fusion drive support.
-- Apple core storage support.
-- Includes all versions of PALADIN Forensic Suite
+* Image RAM without an admin password
+* Rolling update structure to stay current with newest MacOS releases
+* Quintuple boot system.
+* Native MacOS boot environment
+* RAM imager - admin password not required.
+* Controls write protection.
+* Fusion drive support.
+* Apple core storage support.
+* Includes all versions of PALADIN Forensic Suite
 
 ## External Links
 
-- [Official Website](https://sumuri.com/updates/recon-imager/)
+* [Official Website](https://sumuri.com/updates/recon-imager/)

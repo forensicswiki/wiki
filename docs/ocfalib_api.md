@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 The OcfaLib API is a C++ API that is meant for usage by modules in the
 [Open Computer Forensics
@@ -19,11 +19,11 @@ of evidence data the module receives, the ProcessEvidence method will
 get invoked. The implementation of the ProcessEvidence method can
 depending on the type of facade used as baseclass can:
 
-- Gain read access to the input evidence data.
-- Use its own private workdir for derived and temporary data
-- Derive evidence from the input evidence.
-- Access meta data created by other modules.
-- Add additional metadata to the input evidence or child evidences.
+* Gain read access to the input evidence data.
+* Use its own private workdir for derived and temporary data
+* Derive evidence from the input evidence.
+* Access meta data created by other modules.
+* Add additional metadata to the input evidence or child evidences.
 
 For a simple example of a module that derives data from data look at the
 tar module in OcfaModules/dissector/tar. For a simple example of a
@@ -41,5 +41,4 @@ OCFA in the future.
 
 ## See Also
 
-- [Open Computer Forensics
-  Architecture](open_computer_forensics_architecture.md)
+* [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)

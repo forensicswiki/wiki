@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  Data Recovery
-  -  Open Source Software
+  - Data Recovery
+  - Linux
+  - Open Source Software
+  - Tools
 ---
 BlockHashLoc (BHL) enable the recovery of files via previously made
 small files with a list of blocks hashes.
@@ -46,7 +46,7 @@ Byte order: Big Endian Hash: SHA-256
 | pos | to pos | size | desc                              |
 |-----|--------|------|-----------------------------------|
 | var | var    | 32   | 1st block hash                    |
-| …   | …      | 32   | …                                 |
+| ... | ...    | 32   | ...                               |
 | var | var    | 32   | Last block hash                   |
 | var | var    | 32   | Hash of all previous block hashes |
 
@@ -71,4 +71,4 @@ Currently the only version is 1.
 
 ## External Links
 
-- [BlockHashLoc GitHub](https://github.com/MarcoPon/BlockHashLoc)
+* [BlockHashLoc GitHub](https://github.com/MarcoPon/BlockHashLoc)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## Belkasoft R
 
@@ -14,12 +14,12 @@ question are situated in geographically distributed locations
 
 **Key benefits**
 
-- Ease of agent deployment
-- Support for Windows and macOS operating systems
-- Straightforward acquisition
-- Mobile device support
-- Support for various network configurations
-- Quick partial acquisition
-- Network bandwidth management with flexible image upload scheduling
-- Management of a large network consisting of various devices under your
+* Ease of agent deployment
+* Support for Windows and macOS operating systems
+* Straightforward acquisition
+* Mobile device support
+* Support for various network configurations
+* Quick partial acquisition
+* Network bandwidth management with flexible image upload scheduling
+* Management of a large network consisting of various devices under your
   control

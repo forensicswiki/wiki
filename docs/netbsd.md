@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Operating Systems
+  - Operating Systems
 ---
 **NetBSD** is an open source [Unix](unix.md)-like [operating
 system](operating_system.md) derived from the original
@@ -9,6 +9,5 @@ and 386BSD releases. It is available on many platforms.
 
 ## External Links
 
-- [Official website](http://www.netbsd.org/)
-- [Wikipedia: NetBSD](https://en.wikipedia.org/wiki/NetBSD)
-
+* [Official website](http://www.netbsd.org/)
+* [Wikipedia: NetBSD](https://en.wikipedia.org/wiki/NetBSD)

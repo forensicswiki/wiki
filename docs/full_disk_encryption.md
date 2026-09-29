@@ -15,11 +15,11 @@ Some examples of full disk encryption:
 
 ### Embedded into internal HDD
 
-- FIPS 140-2 (Federal Information Processing Standard 140-2 certification
+* FIPS 140-2 (Federal Information Processing Standard 140-2 certification
   issued by NIST)
-- FIPS 197 (Federal Information Processing Standard 197 certification
+* FIPS 197 (Federal Information Processing Standard 197 certification
   issued by NIST)
-- [AES-128](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search)
+* [AES-128](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search)
 
 Seagate *Full Disk Encryption* ("FDE")
 

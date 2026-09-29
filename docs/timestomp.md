@@ -83,4 +83,4 @@ forensics.
 
 ## External Links
 
-- [Presentation at Blackhat 2005](https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-foster-liu-update.pdf)
+* [Presentation at Blackhat 2005](https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-foster-liu-update.pdf)

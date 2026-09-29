@@ -10,6 +10,6 @@ information management. Besides Palm, several other licensees have manufactured
 devices powered by Palm OS.  The currently licensed version from ACCESS is now
 called Garnet OS, as the Palm trademark belongs to Palm, Inc.
 
-## External links
+## External Links
 
 * [Wikipedia: Palm OS](https://en.wikipedia.org/wiki/Palm_OS)

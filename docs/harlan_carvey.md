@@ -44,18 +44,18 @@ basis.
 
 ## Website
 
-- [Harlan's Windows Incident Response Blog](https://windowsir.blogspot.com)
+* [Harlan's Windows Incident Response Blog](https://windowsir.blogspot.com)
 
 ## Tools
 
-- [WinForensicAnalysis Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
+* [WinForensicAnalysis Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
   Hosted on Google Code, includes files for the Windows Registry
   Forensics book.
 
 ## Books
 
-- Windows Registry Forensics
-- Windows Forensic Analysis
-- [Windows Forensics and Incident Recovery](https://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/)
-- [Perl Scripting for Windows Security](https://www.amazon.com/Perl-Scripting-Windows-Security-Monitoring/dp/159749173X)
-- A Study of Video Teleconferencing Traffic on a TCP/IP Network
+* Windows Registry Forensics
+* Windows Forensic Analysis
+* [Windows Forensics and Incident Recovery](https://www.amazon.com/Forensics-Incident-Addison-Wesley-Microsoft-Technology/dp/0321200985/)
+* [Perl Scripting for Windows Security](https://www.amazon.com/Perl-Scripting-Windows-Security-Monitoring/dp/159749173X)
+* A Study of Video Teleconferencing Traffic on a TCP/IP Network

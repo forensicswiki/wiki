@@ -21,4 +21,4 @@ closely related [MattockFS](mattockfs.md).
 
 ## External Links
 
-- [Project site](https://github.com/DNPA/carvfs)
+* [Project site](https://github.com/DNPA/carvfs)

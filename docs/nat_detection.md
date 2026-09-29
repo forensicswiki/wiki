@@ -78,14 +78,11 @@ different hosts running the same operating system by using IP IDs and
   passive [OS fingerprinting](os_fingerprinting.md). It uses a
   variety of identifiers to create a score on the confidence level of
   device doing NAT.
-
-<!-- -->
-
-* - SMTP HELO/EHLO commands;
-  - Oscar direct connections;
-  - DNS reverse lookup requests;
-  - NTP time synchronization;
-  - Routing test.
+  * SMTP HELO/EHLO commands;
+  * Oscar direct connections;
+  * DNS reverse lookup requests;
+  * NTP time synchronization;
+  * Routing test.
 
 ## External Links
 

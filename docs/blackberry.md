@@ -1,5 +1,6 @@
 ---
 tags:
+  - Articles that need to be expanded
   - Organization
 ---
 <img src="../assets/images/300px-BlackBerry.jpg" title=Blackberry align="right">)
@@ -24,23 +25,23 @@ composing messages are much more convenient by providing auto text.
 
 ## Models
 
-- 6200 Series
-- 6500 Series
-- 6700 Series
-- 7100 Series
-- 7130 Series
-- 7200 Series
-- 7700 Series
-- 7500 Series
-- 7700 Series
-- 8100 Series
-- 8300 Series
-- 8700 Series
-- 8800 Series
-- BlackBerry Storm
-- BlackBerry Bold
-- BlackBerry Pearl
-- BlackBerry Curve
+* 6200 Series
+* 6500 Series
+* 6700 Series
+* 7100 Series
+* 7130 Series
+* 7200 Series
+* 7700 Series
+* 7500 Series
+* 7700 Series
+* 8100 Series
+* 8300 Series
+* 8700 Series
+* 8800 Series
+* BlackBerry Storm
+* BlackBerry Bold
+* BlackBerry Pearl
+* BlackBerry Curve
 
 ## Forensics
 
@@ -60,7 +61,7 @@ times will wipe the device.
 
 ## References
 
-- [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry main site.
-- [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
+* [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry main site.
+* [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
   Largest collaboration of Answers to Questions for BlackBerry
-- [Forensic Examination of a RIM (BlackBerry) Wireless Device](https://www.yumpu.com/en/document/view/8792468/forensic-examination-of-a-rim-blackberry-wireless-device)
+* [Forensic Examination of a RIM (BlackBerry) Wireless Device](https://www.yumpu.com/en/document/view/8792468/forensic-examination-of-a-rim-blackberry-wireless-device)

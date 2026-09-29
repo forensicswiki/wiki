@@ -18,9 +18,9 @@ includes multi and open session CDs.
 
 ## Notes
 
-- **Important**: when using FTK Imager to create a forensic image of a
-  suspect's [hard drive](hard_drive.md), make sure you are using
-  a hardware-based [write blocking device](write_blockers.md).
-  This ensures that your [operating system](operating_system.md)
-  does not alter the suspect's hard drive when you attach the drive to
-  your computer.
+**Important**: when using FTK Imager to create a forensic image of a
+suspect's [hard drive](hard_drive.md), make sure you are using
+a hardware-based [write blocking device](write_blockers.md).
+This ensures that your [operating system](operating_system.md)
+does not alter the suspect's hard drive when you attach the drive to
+your computer.

@@ -7,9 +7,9 @@ message headers. Some do not.
 
 ## Providers with IP Address
 
-- [Yahoo!](yahoo!_mail_header_format.md)
-- [Hotmail](hotmail_header_format.md)
+* [Yahoo!](yahoo!_mail_header_format.md)
+* [Hotmail](hotmail_header_format.md)
 
 ## Providers without IP Address
 
-- [Gmail](gmail_header_format.md)
+* [Gmail](gmail_header_format.md)

@@ -1,34 +1,34 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 
-- Start Terminal (in the Utilities folder).
-- Type:
+* Start Terminal (in the Utilities folder).
+* Type:
 
 `  cd /etc/mach_init.d`
 `  ls`
 
-- Look for the file called diskarbitrationd.plist. If this file is in
+* Look for the file called diskarbitrationd.plist. If this file is in
   this directory, then disk arbitration is turned on. The disk
   arbitration file will attempt to mount any device it sees connected to
   the Mac, so one way you can stop disk arbitration from mounting the
   suspect's drive is by hiding this file. Simply renaming the file may
   not work. To do this, store a backup copy of diskarbitrationd.plist
   under the root directory and then delete the original.
-- Type
+* Type
 
 `  sudo cp diskarbitrationd.plist /`
 
-- Confirm that the copy is there.
+* Confirm that the copy is there.
 
 `  ls /`
 
-- Remove the original file from the **mach-int.d** directory by typing:
+* Remove the original file from the **mach-int.d** directory by typing:
 
 ` sudo rm diskarbitrationd.plist.`
 
-- You can restore disk arbitration when your done by typing:
+* You can restore disk arbitration when your done by typing:
 
 `   sudo cp /diskarbitrationd.plist /etc/mach_init.d.`
 

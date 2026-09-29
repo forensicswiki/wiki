@@ -18,12 +18,12 @@ multi-threaded imager: GNOME Forensic Imager.
 
 The **libsmdev** package contains the following tools:
 
-- **smdevinfo**, which shows information about a storage media device
+* **smdevinfo**, which shows information about a storage media device
 
 The **libsmdev** package also contains the following bindings:
 
-- **pysmdev**, bindings for Python.
+* **pysmdev**, bindings for Python.
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libsmdev/)
+* [Project site](https://github.com/libyal/libsmdev/)

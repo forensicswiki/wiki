@@ -63,13 +63,13 @@ Information about an inode number.
 
 ## Supported File Systems
 
-- [NTFS](ntfs.md)
-- [FAT-12, FAT-16, FAT-32](fat.md), exFAT
-- [ext2, ext3, ext4](extended_file_system_(ext).md)
-- UFS
-- ISO 9660 version 1
-- [HFS+, HFSX](hfs+.md)
-- [Yaffs](yaffs.md)
+* [NTFS](ntfs.md)
+* [FAT-12, FAT-16, FAT-32](fat.md), exFAT
+* [ext2, ext3, ext4](extended_file_system_(ext).md)
+* UFS
+* ISO 9660 version 1
+* [HFS+, HFSX](hfs+.md)
+* [Yaffs](yaffs.md)
 
 Note that several several of the file systems supported have known
 shortcomings. Check [issue
@@ -77,9 +77,9 @@ tracker](https://github.com/sleuthkit/sleuthkit/issues) for details.
 
 ## File Search Facilities
 
-- Lists allocated and unallocated files.
-- Lists and sorts by file type.
-- Shows a time of creation and change.
+* Lists allocated and unallocated files.
+* Lists and sorts by file type.
+* Shows a time of creation and change.
 
 ## Historical Reconstruction
 
@@ -93,17 +93,17 @@ Note that there are numerous known issues with the
 
 ## Searching Abilities
 
-- Searches for keywords.
-- Builds an index.
+* Searches for keywords.
+* Builds an index.
 
 ## Hash Databases
 
-- Uses [MD5](md5.md) or [SHA-1](sha-1.md).
-- Interfaces with NIST NSRL, [Hashkeeper](hashkeeper.md) and customer databases.
+* Uses [MD5](md5.md) or [SHA-1](sha-1.md).
+* Interfaces with NIST NSRL, [Hashkeeper](hashkeeper.md) and customer databases.
 
 ## Evidence Collection Features
 
-- Tracks forensic activity.
+* Tracks forensic activity.
 
 # History
 
