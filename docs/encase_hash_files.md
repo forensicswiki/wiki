@@ -14,7 +14,9 @@ Version 3 of [EnCase](encase.md) used a slightly different
 format than versions 4 and 5. Both versions start with the header, in
 hexadecimal:
 
-    48 41 53 48 0d 0a ff 00
+```text
+48 41 53 48 0d 0a ff 00
+```
 
 In ASCII, this looks like `HASH` followed by a newline.
 
@@ -27,7 +29,9 @@ following structure (to be verified):
 
 A header that consists of the following 16 bytes:
 
-    48 41 53 48 0D 0A FF 00 02 00 00 00 01 00 00 00
+```text
+48 41 53 48 0D 0A FF 00 02 00 00 00 01 00 00 00
+```
 
 **Offset 0x0010**
 
@@ -54,11 +58,15 @@ maximum string length is 19 characters. Each character is written as a
 
 The latin letter A is represented by the 2 bytes
 
-    41 00
+```text
+41 00
+```
 
 The cyrillic letter Д is represented by the 2 bytes
 
-    14 04
+```text
+14 04
+```
 
 Again, Intel little endian format is used. The unused space is filled up
 by zero-bytes.

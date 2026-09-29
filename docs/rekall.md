@@ -13,9 +13,11 @@ improved modularity of the framework and having memory acquisition capability.
 
 The drivers can be found under:
 
-    rekall/tools/linux
-    rekall/tools/osx
-    rekall/tools/windows
+```text
+rekall/tools/linux
+rekall/tools/osx
+rekall/tools/windows
+```
 
 ### Linux
 
@@ -33,40 +35,55 @@ To build the kernel module for the current kernel version, make sure you
 have a working build environment and the kernel headers installed.
 Change into this directory and run make:
 
-    cd rekall/tools/linux/
-    make
+```text
+cd rekall/tools/linux/
+make
+```
 
 The acquisition driver is named pmem.ko.
 
 To load the driver:
 
-    sudo insmod pmem.ko
+```text
+sudo insmod pmem.ko
 
 To check if the driver is running:
 
-    sudo lsmod
+```text
+sudo lsmod
+```
 
 The driver create a device file named:
 
-    /dev/pmem
+```text
+/dev/pmem
+```
 
 To unload the driver:
 
-    sudo rmmod pmem
+```text
+sudo rmmod pmem
+```
 
 To read acquire the memory just read from the device file. e.g.
 
-    dd if=/dev/pmem of=image.raw
+```text
+dd if=/dev/pmem of=image.raw
+```
 
 For more information see:
 
-    rekall/tools/linux/README
+```text
+rekall/tools/linux/README
+```
 
 ### Mac OS X
 
 For more information see:
 
-    rekall/tools/osx/OSXPMem/README
+```text
+rekall/tools/osx/OSXPMem/README
+```
 
 ### Windows
 
@@ -76,24 +93,34 @@ with both pre-built (signed binary) and source versions of the driver.
 Both the i386 and amd64 binary version of the driver can be found in the
 directory:
 
-    rekall/tools/windows/winpmem/binaries
+```text
+rekall/tools/windows/winpmem/binaries
+```
 
 E.g.
 
-    rekall/tools/winpmem/binaries/amd64/winpmem.sys
+```text
+rekall/tools/winpmem/binaries/amd64/winpmem.sys
+```
 
 A standalone tool for imaging memory that uses an embedded copy of the
 pmem driver can be found as winpmem.exe in:
 
-    rekall/tools/winpmem/executables/Release/
+```text
+rekall/tools/winpmem/executables/Release/
+```
 
 To load the driver:
 
-    winpmem.exe -l
+```text
+winpmem.exe -l
+```
 
 The device filename is (This can not be changed without recompiling):
 
-    \\.\pmem
+```text
+\\.\pmem
+```
 
 Note that running dd directly on this device file can crash the machine.
 Use the winpmem.exe tool instead because it handles protected memory
@@ -101,23 +128,29 @@ regions.
 
 To read and acquire the physical memory and write it to image.raw:
 
-    winpmem.exe image.raw
+```text
+winpmem.exe image.raw
+```
 
 To unload the driver:
 
-    winpmem.exe -u
+```text
+winpmem.exe -u
+```
 
 For more information see:
 
-    rekall/tools/windows/README
+```text
+rekall/tools/windows/README
+```
 
 ## See Also
 
-- [Memory analysis](memory_analysis.md)
-- [Memory Imaging](memory_imaging.md)
-- [Volatility](volatility_framework.md)
+* [Memory analysis](memory_analysis.md)
+* [Memory Imaging](memory_imaging.md)
+* [Volatility](volatility_framework.md)
 
 ## External Links
 
-- [Project site](http://www.rekall-forensic.com/)
-- [Rekall Memory Forensics blog](http://blog.rekall-forensic.com/)
+* [Project site](http://www.rekall-forensic.com/)
+* [Rekall Memory Forensics blog](http://blog.rekall-forensic.com/)

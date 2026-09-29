@@ -7,11 +7,15 @@ In order to add or update a page, you will need to create or edit a
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 file. You can do this in multiple ways, but the general flow is to:
 
-- Copy ("fork") the [Forensics Wiki GitHub project](https://github.com/forensicswiki/wiki)
-  - You can then download ("clone") this copy to your computer to work on, or edit
-- Make your additions or edits to an article's Markdown file (for example: `plaso.md`)
-- Send your changes back to the main Forensics Wiki project for review (submit a "pull request")
-- A maintainer will review your changes, request edits if necessary, and once everything looks good, add it to the site ("merge" it)
+* Copy ("fork") the [Forensics Wiki GitHub project](https://github.com/forensicswiki/wiki)
+  * You can then download ("clone") this copy to your computer to work on, or
+    edit
+* Make your additions or edits to an article's Markdown file (for example:
+  "plaso.md")
+* Send your changes back to the main Forensics Wiki project for review (submit
+  a "pull request")
+* A maintainer will review your changes, request edits if necessary, and once
+  everything looks good, add it to the site ("merge" it)
 
 GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 if you'd like a more detailed explanation.
@@ -21,19 +25,23 @@ if you'd like a more detailed explanation.
 1. Fork the Forensics Wiki project
 2. Clone the fork and set Forensics Wiki as the upstream
 
-         git clone https://github.com/[your-github-user-id]/wiki.git
-
-         cd wiki
-
-         git remote add upstream https://github.com/forensicswiki/wiki.git
+```bash
+git clone https://github.com/[your-github-user-id]/wiki.git
+cd wiki
+git remote add upstream https://github.com/forensicswiki/wiki.git
+```
 
 3. Create a branch for new articles or article updates
 
-         git checkout -b [article-branch-name]
+```bash
+git checkout -b [article-branch-name]
+```
 
 4. Make your changes to the Markdown file(s) and push changes to your repository.
 
-         git push origin [article-branch-name]
+```bash
+git push origin [article-branch-name]
+```
 
 5. Create PR for review
 
@@ -53,51 +61,72 @@ the name should be `forensics.md`.  If you are writing an article about
 In order to make the Forensics Wiki valuable, please use the following
 guidelines to help write high-quality articles:
 
-1. _Introduction:_  All articles should have an Introduction, which summarizes what you intend to discuss in the article.
-2. _Sections:_  Appropriate sections are used to describe the topic being discussed.  
+1. _Introduction:_  All articles should have an Introduction, which summarizes
+   what you intend to discuss in the article.
+2. _Sections:_  Appropriate sections are used to describe the topic being
+   discussed.
 
-    For example, if you are writing an article about a tool, you might have the following headings:
+    For example, if you are writing an article about a tool, you might have the
+    following headings:
 
-    - **Introduction**: This section may include history of the tool, OSes supported, and File Systems supported.
+    - **Introduction**: This section may include history of the tool, OSes
+      supported, and File Systems supported.
 
-    - **Usage**: This section may include common command line usage and the output to expect.
+    - **Usage**: This section may include common command line usage and the
+      output to expect.
 
-    - **Use**: This section may include common uses of a tool. A tool could contain one or more common uses. For example, the DD Unix utility could image drives as well wipe drives so data is not recoverable.
+    - **Use**: This section may include common uses of a tool. A tool could
+      contain one or more common uses. For example, the DD Unix utility could
+      image drives as well wipe drives so data is not recoverable. **Make sure
+      to include pros and cons of tool use for different digital forensics use
+      cases.**
 
-    - **See Also**: This section may include links to articles with related content, complementary tools, or forks of the tool. For example, if you were writing an article about The Sleuth Kit (TSK), you may want to include a link to an article about Autopsy.
+    - **See Also**: This section may include links to articles with related
+      content, complementary tools, or forks of the tool. For example, if you
+      were writing an article about The Sleuth Kit (TSK), you may want to
+      include a link to an article about Autopsy.
 
-    - **References**: Any references to support the information you are providing.
+    - **References**: Any references to support the information you are
+      providing.
 
-    - **External links**: Any external links, such as to the project page or official website.
+    - **External links**: Any external links, such as to the project page or
+      official website.
 
-3. _Media:_ Images are not required, but if they help explain the topic they could be added.
-4. _Length:_ There is no requirement for length but the article should be long enough to explain the topic.
+3. _Media:_ Images are not required, but if they help explain the topic they
+   could be added.
+4. _Length:_ There is no requirement for length but the article should be long
+   enough to explain the topic.
 
 ### Images
 
-In order to add images to your document, you must places any images in the `/docs/assets/images` directory.  The following code is the simplest way to add an image to your document using HTML:
+In order to add images to your document, you must places any images in the
+`/docs/assets/images` directory.  The following code is the simplest way to add
+an image to your document using HTML:
 
-```
-<img src="../assets/images/myimage.jpg"
-title="myimage.jpg" width="200"
-alt=myimage.jpg" />
+```html
+<img src="../assets/images/myimage.jpg" title="myimage.jpg" width="200"
+     alt=myimage.jpg" />
 ```
 
 ### Tags
 
-We are using tags in order to help make content more discoverable.  Tags will appear at the top of the page and should help the user know what the content is related to.  Tags are searchable and clickable, so you could easily see other articles that have the same tag.
+We are using tags in order to help make content more discoverable. Tags will
+appear at the top of the page and should help the user know what the content is
+related to. Tags are searchable and clickable, so you could easily see other
+articles that have the same tag.
 
 ### How to Add Tags
 
-After you write your article, you can place tags at the top of the page using the following syntax:
+After you write your article, you can place tags at the top of the page using
+the following syntax:
 
 ```text
 ---
 tags:
+  - Commercial Software
+  - Disk Analysis
   - Tools
   - Windows
-  - Disk Analysis
-  - Commercial Software
 ---
 ```
 
@@ -106,30 +135,30 @@ tags:
 ### Tag Guidelines
 
 Tags should describe the content of the article and should be applied uniformly
-across all the content.  This will help users discover the content more easily.
- The table below has topics along with possible tags for each topic.  Multiple
-topics could apply to one article.  For example, a page tagged with `Tool`
+across all the content. This will help users discover the content more easily.
+ The table below has topics along with possible tags for each topic. Multiple
+topics could apply to one article. For example, a page tagged with `Tool`
 would also likely benefit from a tag denoting the appropriate Operating System,
 Software type, and Analysis type.
 
 See examples below the table.
 
-|Topics|Tags|
-|-|-|
-|Operating Systems| Windows, Linux, macOS, BSD, Unix, Operating System|
-|Mobile Operating Systems|Android, iOS, Windows Mobile, BlackberryOS, PalmOS, Symbian|
-|Analysis Types| Disk Analysis, File Analysis, Disk Imaging, Data Recovery, Registry Analysis, Log Analysis, Data Carving, Malware Analysis, Secure Deletion, Cell Phone Analysis, System Monitoring, System Analysis, Email Analysis, File System, Network Analysis, Memory Analysis, Memory Imaging, Anti-Forensics |
-|Software Type|Open Source Software, Public Domain Software, Commercial Software, Free Software|
-|OS Components|OS Component|
-|File Types|File Format, Archive, Database, Disk Image, Binary, Audio, Text, Photo|
-|Legal|Law|
-|Hardware Types|Computer Bus, Microprocessor, Hard Drive, Memory, Personal Device, Write Blockers, GPS|
-|People|People|
-|Encryption|Encryption, Network Encryption, Disk Encryption|
-|Tools|Tools|
-|Knowledge|Books, Papers, Reports, Journals, Websites, Blogs, Training|
-|Companies / Government|Organizations|
-|Mobile|Mobile Networks, Mobile, SIM|
+| Topics | Tags |
+| --- | --- |
+| Operating Systems | Windows, Linux, macOS, BSD, Unix, Operating System |
+| Mobile Operating Systems | Android, iOS, Windows Mobile, BlackberryOS, PalmOS, Symbian |
+| Analysis Types | Disk Analysis, File Analysis, Disk Imaging, Data Recovery, Registry Analysis, Log Analysis, Data Carving, Malware Analysis, Secure Deletion, Cell Phone Analysis, System Monitoring, System Analysis, Email Analysis, File System, Network Analysis, Memory Analysis, Memory Imaging, Anti-Forensics |
+| Software Type | Open Source Software, Public Domain Software, Commercial Software, Free Software |
+| OS Components | OS Component |
+| File Types | File Format, Archive, Database, Disk Image, Binary, Audio, Text, Photo |
+| Legal | Law |
+| Hardware Types | Computer Bus, Microprocessor, Hard Drive, Memory, Personal Device, Write Blockers, GPS |
+| People | People |
+| Encryption | Encryption, Network Encryption, Disk Encryption |
+| Tools | Tools |
+| Knowledge | Books, Papers, Reports, Journals, Websites, Blogs, Training |
+| Companies / Government | Organizations |
+| Mobile | Mobile Networks, Mobile, SIM |
 
 ### Tagging Examples
 
@@ -229,24 +258,24 @@ $ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
 
 Next, we want mkdocs to load all of the pages of the Forensics Wiki.  Mkdocs needs two things to be able to run and load the Forensics Wiki pages.  
 
--  It will need a `docs` directory which holds all of Forensics Wiki pages.
--  It will the `mkdocs.yml` configuration file.  This is the configuration that tells mkdocs how to structure the site such as the structure of the menus.  
+* It will need a `docs` directory which holds all of Forensics Wiki pages.
+* It will the `mkdocs.yml` configuration file.  This is the configuration that tells mkdocs how to structure the site such as the structure of the menus.  
 
 Both of the previous items are located in the root directory of the repository.  To run mkdocs development server follow the steps below:
 
-1.  Change to the root of the repository.  For example, if you cloned the repository to your home directory.
+1. Change to the root of the repository.  For example, if you cloned the repository to your home directory.
 
-    ```
-    cd ~/wiki
-    ```
+```bash
+cd ~/wiki
+```
 
-2.  Start local mkdocs server
+2. Start local mkdocs server
 
-    ```
-    mkdocs serve
-    ```
+```bash
+mkdocs serve
+```
 
-3.  Open your browser and visit http://127.0.0.1:8000/your_doc_name
+3. Open your browser and visit http://127.0.0.1:8000/your_doc_name
 
 ### Suggesting New Tags
 

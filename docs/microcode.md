@@ -17,8 +17,10 @@ processing units, and in other hardware.
 In Linux the CPU microcode can be stored in the initial ramdisk (initrd)
 e.g.
 
-    kernel/x86/microcode/GenuineIntel.bin
-    kernel/x86/microcode/AuthenticAMD.bin
+```text
+kernel/x86/microcode/GenuineIntel.bin
+kernel/x86/microcode/AuthenticAMD.bin
+```
 
 The initrd is a (compressed) cpio archive.
 

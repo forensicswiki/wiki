@@ -13,17 +13,17 @@ sqlite3 databases so use sqlite3 tools.
 SQLite version 3 uses a page-based storage where the pages are used for
 various types of data e.g. there are:
 
-- lock-byte pages
-- freelist pages
-  - freelist trunk pages
-  - freelist leaf pages
-- B-tree pages
-  - table B-tree interior pages
-  - table B-tree leaf pages
-  - index B-tree interior pages
-  - index B-tree leaf pages
-- payload overflow pages
-- pointer map pages
+* lock-byte pages
+* freelist pages
+  * freelist trunk pages
+  * freelist leaf pages
+* B-tree pages
+  * table B-tree interior pages
+  * table B-tree leaf pages
+  * index B-tree interior pages
+  * index B-tree leaf pages
+* payload overflow pages
+* pointer map pages
 
 ### Write-Ahead Log (WAL)
 
@@ -35,7 +35,9 @@ added.
 
 Seen in e.g.
 
-    /Users/%USERNAME%/AppData/Local/Temp/etilqs_%RANDOM%
+```text
+/Users/%USERNAME%/AppData/Local/Temp/etilqs_%RANDOM%
+```
 
 Where "etilqs" is "sqlite" in reverse
 
@@ -55,25 +57,25 @@ and credentials are all stored in SQLite3.
 
 ## External Links
 
-- [Recovering Deleted Records from an SQLite database](https://sqliteforensictoolkit.com/recovering-deleted-records-from-an-sqlite-database/)
-- [Forensic examination of WAL files](https://sqliteforensictoolkit.com/forensic-examination-of-sqlite-write-ahead-log-wal-files/)
-- [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](https://belkasoft.com/sqlite-analysis),
+* [Recovering Deleted Records from an SQLite database](https://sqliteforensictoolkit.com/recovering-deleted-records-from-an-sqlite-database/)
+* [Forensic examination of WAL files](https://sqliteforensictoolkit.com/forensic-examination-of-sqlite-write-ahead-log-wal-files/)
+* [Forensic Analysis of SQLite Databases: Free Lists, Write Ahead Log, Unallocated Space and Carving](https://belkasoft.com/sqlite-analysis),
   by [Belkasoft](belkasoft.md)
-- [The SQLite Database File Format](https://sqlite.org/fileformat2.html),
+* [The SQLite Database File Format](https://sqlite.org/fileformat2.html),
   by the [SQLite project](sqlite.md)
-- [Write-Ahead Logging](https://sqlite.org/wal.html),
+* [Write-Ahead Logging](https://sqlite.org/wal.html),
   by the [SQLite project](sqlite.md)
-- [Carving SQLite databases from unallocated clusters](http://forensicsfromthesausagefactory.blogspot.com/2011/04/carving-sqlite-databases-from.html),
+* [Carving SQLite databases from unallocated clusters](http://forensicsfromthesausagefactory.blogspot.com/2011/04/carving-sqlite-databases-from.html),
   by Richard Drinkwater, April 27, 2011
-- [Recovering Data from Deleted SQLite Records: Redux](https://linuxsleuthing.blogspot.com/2013/09/recovering-data-from-deleted-sqlite.html),
+* [Recovering Data from Deleted SQLite Records: Redux](https://linuxsleuthing.blogspot.com/2013/09/recovering-data-from-deleted-sqlite.html),
   by John Lehr, September 13, 2013
 
 ## Tools
 
-- [Forensic Toolkit for SQLite](forensic_toolkit_for_sqlite.md)
-- [SQLite Forensics Explorer](https://www.acquireforensics.com/products/sqlite-forensic-explorer/)
-- [Belkasoft Evidence Center](belkasoft.md)
-- [SQLite](sqlite.md)
-- [SQLite Recovery](sqlite_recovery.md)
-- [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
-- [SQLite Forensics](https://www.freeviewer.org/sqlite/forensics/)
+* [Forensic Toolkit for SQLite](forensic_toolkit_for_sqlite.md)
+* [SQLite Forensics Explorer](https://www.acquireforensics.com/products/sqlite-forensic-explorer/)
+* [Belkasoft Evidence Center](belkasoft.md)
+* [SQLite](sqlite.md)
+* [SQLite Recovery](sqlite_recovery.md)
+* [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
+* [SQLite Forensics](https://www.freeviewer.org/sqlite/forensics/)

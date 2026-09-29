@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 Many open source computer forensic tools can be cross-compiled with
 MinGW. This allows you to create Windows executable directly from a
@@ -9,14 +9,14 @@ environment.
 
 ## Installing MinGW
 
-On a Mac using MacPorts:
+On Mac OS using MacPorts:
 
-<!-- -->
+```bash
+$ sudo port selfupdate
+$ sudo port install i386-mingw32-binutils i386-mingw32-gcc \
+                    i386-mingw32-libunicows i386-mingw32-runtime \
+                    i386-mingw32-w32api
+```
 
-    $ sudo port selfupdate
-    $ sudo port install i386-mingw32-binutils i386-mingw32-gcc  \
-                        i386-mingw32-libunicows i386-mingw32-runtime \
-                        i386-mingw32-w32api
-
-*note: If you get the error message 'warnings treated as errors' you
-will need to find the Makefile where -Werror is defined and erase it*
+> Note: If you get the error message 'warnings treated as errors' you
+> will need to find the Makefile where -Werror is defined and erase it

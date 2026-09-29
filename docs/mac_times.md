@@ -34,16 +34,16 @@ concept of time resolution.
 
 On [FAT](fat.md):
 
-- the creation time has a resolution of 10 milliseconds,
-- the last written time has a resolution of 2 seconds,
-- and the access time has a resolution of 1
+* the creation time has a resolution of 10 milliseconds,
+* the last written time has a resolution of 2 seconds,
+* and the access time has a resolution of 1
   day.[1](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime)
 
 On NTFS file system:
 
-- the creation time and the last written time have a resolution of 100
+* the creation time and the last written time have a resolution of 100
   nanoseconds.
-- the access time also has a resolution of 100 nanoseconds, but updates
+* the access time also has a resolution of 100 nanoseconds, but updates
   to access time could be held in memory by up to an hour before being
   flushed to the
   disk.[2](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times)
@@ -62,7 +62,9 @@ corresponding file system entry is not updated.
 
 In Windows the access time behavior is controlled by the Registry key:
 
-    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
+```text
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
+```
 
 Where a value of *1* indicates the access time update being disabled.
 
@@ -94,14 +96,14 @@ should be disabled.
 
 ## See Also
 
-- [Timestomp](timestomp.md)
+* [Timestomp](timestomp.md)
 
 ## External Links
 
-- [Wikipedia: MAC times](https://en.wikipedia.org/wiki/MAC_times)
-- [What Are MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275),
+* [Wikipedia: MAC times](https://en.wikipedia.org/wiki/MAC_times)
+* [What Are MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275),
   by Dan Farmer, Oct 2000
 
 ### NTFS
 
-- [Microsoft KB 299648: Description of NTFS date and time stamps for files and folders](https://mskb.pkisolutions.com/kb/299648)
+* [Microsoft KB 299648: Description of NTFS date and time stamps for files and folders](https://mskb.pkisolutions.com/kb/299648)

@@ -9,7 +9,9 @@ Konqueror stores the user data in the following locations:
 
 On Linux:
 
-    /home/$USER/.kde/share/apps/konqueror
+```text
+/home/$USER/.kde/share/apps/konqueror
+```
 
 ## History
 

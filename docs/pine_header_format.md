@@ -4,12 +4,14 @@ tags:
 ---
 Pine composes headers in the following format:
 
-    Date: Tue, 6 Mar 2007 11:10:36 -0500 (EST)
-    From: Sender Name <sender@host.com>
-    To: Getter Name <getter@otherhost.com>
-    cc: Other Person <somebody@somehost.com>
-    Subject: The subject text
-    Message-ID: <Pine.LNX.4.64.0703061056380.29699@host.com>
+```text
+Date: Tue, 6 Mar 2007 11:10:36 -0500 (EST)
+From: Sender Name <sender@host.com>
+To: Getter Name <getter@otherhost.com>
+cc: Other Person <somebody@somehost.com>
+Subject: The subject text
+Message-ID: <Pine.LNX.4.64.0703061056380.29699@host.com>
+```
 
 Using the function `generate_message_id` in the file `reply.c` we can
 see that the format for the Message-ID line is a series of fields

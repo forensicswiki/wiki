@@ -14,39 +14,49 @@ Device Configuration Overlay (DCO) and Host Protected Area (HPA).
 
 Command:
 
-    # hdparm -N /dev/sda
+```bash
+$ hdparm -N /dev/sda
+```
 
 Disabled HPA:
 
-    /dev/sda:
-     max sectors   = 1465149168/1465149168, HPA is disabled
+```text
+/dev/sda:
+max sectors   = 1465149168/1465149168, HPA is disabled
+```
 
 Enabled HPA:
 
-    /dev/sdc:
-     max sectors   = 586070255/586072368, HPA is enabled
+```text
+/dev/sdc:
+max sectors   = 586070255/586072368, HPA is enabled
+```
 
 **DCO**
 
 Command:
 
-    # hdparm --dco-identify /dev/sda
+```bash
+$ hdparm --dco-identify /dev/sda
+```
 
 Example output:
 
-    /dev/sda:
-    DCO Revision: 0x0001
-    The following features can be selectively disabled via DCO:
-        Transfer modes:
-             mdma0 mdma1 mdma2
-             udma0 udma1 udma2 udma3 udma4 udma5 udma6(?)
-        Real max sectors: 1465149168
-        ATA command/feature sets:
-             SMART self_test error_log security HPA 48_bit
-             (?): selective_test conveyance_test write_read_verify
-             (?): WRITE_UNC_EXT
-        SATA command/feature sets:
-             (?): NCQ SSP
+```text
+/dev/sda:
+DCO Revision: 0x0001
+The following features can be selectively disabled via DCO:
+    Transfer modes:
+         mdma0 mdma1 mdma2
+         udma0 udma1 udma2 udma3 udma4 udma5 udma6(?)
+    Real max sectors: 1465149168
+    ATA command/feature sets:
+         SMART self_test error_log security HPA 48_bit
+         (?): selective_test conveyance_test write_read_verify
+         (?): WRITE_UNC_EXT
+    SATA command/feature sets:
+         (?): NCQ SSP
+```
 
 ## Removing HPA
 
@@ -56,7 +66,9 @@ Example output:
 
 Command:
 
-    # hdparm -N p586072368 /dev/sdc
+```bash
+$ hdparm -N p586072368 /dev/sdc
+```
 
 (**permanently** (!) set max visible number of sectors, see example
 above)

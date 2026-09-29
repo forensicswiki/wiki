@@ -14,7 +14,9 @@ used to store both cache and historical information.
 
 ## MSIE 10
 
-    C:\Users\%USER%\AppData\Local\Microsoft\Windows\WebCache\
+```text
+C:\Users\%USER%\AppData\Local\Microsoft\Windows\WebCache\
+```
 
 The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
@@ -23,40 +25,45 @@ The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Eng
 Internet Explorer will apply its setting in the following order, where
 the lower the order overrides settings in the higher order.
 
-1.  Settings in Machine policy key
-2.  Settings in User policy key
-3.  Settings in User preference key
-4.  Settings in Machine preference key
+1. Settings in Machine policy key
+1. Settings in User policy key
+1. Settings in User preference key
+1. Settings in Machine preference key
 
 Machine policy key
 
-    HKET_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+```text
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+```
 
 Machine preference key
 
-    HKET_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+```text
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+```
 
 User policy key
 
-    HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+```text
+HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+```
 
 User preference key
 
-    HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+```text
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+```
 
 ### Security Zones
 
+```text
 0 - My Computer
-
 1 - Local Intranet Zone
-
 2 - Trusted Sites Zone
-
 3 - Internet Zone
-
 4 - Restricted Sites Zone
-
 5 - Custom
+```
 
 ### WPAD
 
@@ -74,14 +81,18 @@ MSIE supports various command line options, see: [IE Command-Line Options](https
 
 On Windows Vista and later:
 
-    C:\Users\%USER%\AppData\Local\Microsoft\Internet Explorer\Recovery
+```text
+C:\Users\%USER%\AppData\Local\Microsoft\Internet Explorer\Recovery
+```
 
 ### Typed URLs
 
 Internet Explorer stores the cached History (or Address box) entries in
 the following Windows Registry key:
 
-    HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs
+```text
+HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs
+```
 
 ## See Also
 

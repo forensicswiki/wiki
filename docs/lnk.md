@@ -27,7 +27,7 @@ streams within \*.automaticDestinations-ms and \*.customDestinations-ms
   of the target date and timestamps before it was last opened. The
   target can be several things like for example a (linked) file;
 
-```
+```text
 Linked file information:
     Creation time       : Jul 26, 2009 14:44:34 UTC
     Modification time   : Jul 26, 2009 14:44:34 UTC
@@ -47,7 +47,7 @@ Linked file information:
 * MAC address of the host computer (sometimes);
 * Distributed link tracking information, e.g.
 
-```
+```text
 Distributed link tracker information:
     Machine identifier string           : mysystem
     Droid volume identifier             : 11111111-2222-3333-4444-555555555555
@@ -60,11 +60,11 @@ Distributed link tracker information:
 
 Windows Shell commands:
 
-    %windir%\explorer.exe ::{7007ACC7-3202-11D1-AAD2-00805FC1270E}
+```text
+%windir%\explorer.exe ::{7007ACC7-3202-11D1-AAD2-00805FC1270E}
 
-    %windir%\explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}
-
-<https://docs.rainmeter.net/tips/launching-windows-special-folders/>
+%windir%\explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}
+```
 
 ## External Links
 
@@ -75,6 +75,7 @@ Windows Shell commands:
   by the [liblnk project](liblnk.md)
 * [Evidentiary Value of Link Files](https://www.forensicfocus.com/articles/evidentiary-value-of-link-files/),
   by Nathan Weilbacher, March 2006
+* [Launching Windows Special Folders](https://docs.rainmeter.net/tips/launching-windows-special-folders/)
 
 ## Tools
 

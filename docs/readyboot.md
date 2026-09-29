@@ -1,20 +1,21 @@
 ---
 tags:
-  -  Windows
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Windows
 ---
-    %SystemRoot%\Prefetch\ReadyBoot
+The path of the ReadyBoot directory is:
 
-The following files can be found in the ReadyBoot directory:
+```text
+%SystemRoot%\Prefetch\ReadyBoot
+```
 
-- `rblayout.xin`
-- `Trace*.fx`;
+It contains the following files:
+
+* `rblayout.xin`
+* `Trace*.fx`
 
 ## See Also
 
-- [Prefetch](prefetch.md)
-- [SuperFetch](superfetch.md)
-- [Windows](windows.md)
-
-## External Links
-
+* [Prefetch](prefetch.md)
+* [SuperFetch](superfetch.md)
+* [Windows](windows.md)

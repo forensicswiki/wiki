@@ -406,11 +406,13 @@ Number of the current inode generation.
 The following is the start of the superblock of a 256MB reiserfs
 partition on an Intel based system:
 
-    00000000 66 00 01 00 93 18 00 00 82 40 00 00 12 00 00 00  f........@......
-    00000010 00 00 00 00 00 20 00 00 00 04 00 00 ac 34 11 57  ..... ......¬4.W
-    00000020 84 03 00 00 1e 00 00 00 00 00 00 00 00 10 cc 03  ..............Ì.
-    00000030 08 00 02 00 52 65 49 73 45 72 32 46 73 00 00 00  ....ReIsEr2Fs...
-    00000040 03 00 00 00 04 00 03 00 02 00 00 00 dc 52 00 00  ............ÜR..
+```text
+00000000 66 00 01 00 93 18 00 00 82 40 00 00 12 00 00 00  f........@......
+00000010 00 00 00 00 00 20 00 00 00 04 00 00 ac 34 11 57  ..... ......¬4.W
+00000020 84 03 00 00 1e 00 00 00 00 00 00 00 00 10 cc 03  ..............Ì.
+00000030 08 00 02 00 52 65 49 73 45 72 32 46 73 00 00 00  ....ReIsEr2Fs...
+00000040 03 00 00 00 04 00 03 00 02 00 00 00 dc 52 00 00  ............ÜR..
+```
 
 <img src="../assets/images/Superblock_example.png"
 title="superblock_example" width="550"
@@ -441,4 +443,4 @@ Inode generation: 21212
 
 ## External Links
 
-- [Wikipedia: ReiserFS](https://en.wikipedia.org/wiki/Reiserfs)
+* [Wikipedia: ReiserFS](https://en.wikipedia.org/wiki/Reiserfs)

@@ -43,11 +43,15 @@ and the sender's domain.
 
 Sample Apple Mail Message ID:
 
-    38D1C1FD-3C35-4568-925C-FC46CAC0DE8A@sendinghost.com
+```text
+38D1C1FD-3C35-4568-925C-FC46CAC0DE8A@sendinghost.com
+```
 
 Sample Thunderbird Message ID:
 
-    41B5F981.5040504@sendinghost.com
+```text
+41B5F981.5040504@sendinghost.com
+```
 
 If a message was purportedly sent by a certain email program but does
 not have a message id created by that program, it has obviously been
@@ -59,7 +63,6 @@ message has been forged!
 
 ## See Also
 
-- [Email Headers](email_headers.md)
-- [Using signature headers to determine if an email has been
-  forged](using_signature_headers_to_determine_if_an_email_has_been_forged.md)
+* [Email Headers](email_headers.md)
+* [Using signature headers to determine if an email has been forged](using_signature_headers_to_determine_if_an_email_has_been_forged.md)
 

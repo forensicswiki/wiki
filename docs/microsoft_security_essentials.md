@@ -1,29 +1,39 @@
 ---
 tags:
-  -  Applications
-  -  Anti Virus
+  - Anti Virus
+  - Applications
 ---
 ## Quarantine directory
 
 On Windows XP:
 
-    C:\Documents and Settings\All Users\Application Data\Microsoft\Microsoft Antimalware\Quarantine
+```text
+C:\Documents and Settings\All Users\Application Data\Microsoft\Microsoft Antimalware\Quarantine
+```
 
 On Windows 7:
 
-    C:\ProgramData\Microsoft\Microsoft Antimalware\Quarantine
+```text
+C:\ProgramData\Microsoft\Microsoft Antimalware\Quarantine
+```
 
 ## Scan cache
 
-    C:\ProgramData\Microsoft\Microsoft Antimalware\Scans\History\CacheManager\MpScanCache-0.bin
+```text
+C:\ProgramData\Microsoft\Microsoft Antimalware\Scans\History\CacheManager\MpScanCache-0.bin
+```
 
 ## File system cache (Windows Defender)
 
-    C:\ProgramData\Microsoft\Windows Defender\Scans\History\CacheManager\MpSfc.bin
+```text
+C:\ProgramData\Microsoft\Windows Defender\Scans\History\CacheManager\MpSfc.bin
+```
 
 To build run:
 
-    "%programfiles%\Windows Defender\MpCmdRun.exe" –BuildSFC
+```text
+"%programfiles%\Windows Defender\MpCmdRun.exe" –BuildSFC
+```
 
 ## External Links
 

@@ -20,7 +20,9 @@ The driver uses the [Physical Memory Object Memory Imaging
 Method](memory_imaging.md) and returns a file handle to a
 user-mode program via an IOCTL on the device file named:
 
-    \\.\memdd
+```text
+\\.\memdd
+```
 
 Once the file handle has been returned the driver and associated memdd
 device is no longer required and can be removed, which is what the mdd
@@ -45,7 +47,9 @@ utility does.
 
 <!-- -->
 
-    openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
+```text
+openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
+```
 
 - - use a strong password
   - shred the .key immediately after use
@@ -54,7 +58,9 @@ utility does.
 
 <!-- -->
 
-    signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
+```text
+signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
+```
 
 Also see: [SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
 

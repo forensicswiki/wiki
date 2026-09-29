@@ -10,7 +10,9 @@ System compatibility database.
 
 In Windows 7 the RecentFileCache.bcf file is stored in:
 
-    C:\Windows\AppCompat\Programs\
+```text
+C:\Windows\AppCompat\Programs\
+```
 
 ## Amcache.hve
 
@@ -20,11 +22,15 @@ See: [AMCache](amcache.md)
 
 In Windows 2000 and XP:
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatibility
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatibility
+```
 
 In Windows 2003 and later:
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache
+```
 
 ## External Links
 

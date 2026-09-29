@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 The [Kaspersky Anti-Virus](kaspersky_anti-virus.md) report files
 are stored in a [propriety file format](file_formats.md).
@@ -12,9 +12,9 @@ Kaspersky Report File format.
 
 A Kaspersky Report File consists of:
 
-- file header
-- log record index
-- array of log records
+* file header
+* log record index
+* array of log records
 
 ## File header
 
@@ -234,13 +234,15 @@ The date and time values are stored in intervals of 10 ns since January
 
 E.g. the timestamp: 0x582db22720fb9bc9
 
-    import datetime
+```python
+import datetime
 
-    print datetime.datetime(1, 1, 1) + datetime.timedelta(microseconds=0x582db22720fb9bc9 / 100)
-    2014-06-25 15:01:44.164668
+print(datetime.datetime(1, 1, 1) + datetime.timedelta(microseconds=0x582db22720fb9bc9 / 100))
+2014-06-25 15:01:44.164668
+```
 
 ## See Also
 
-- [Kaspersky Anti-Virus](kaspersky_anti-virus.md)
-- [Kaspersky Quarantine File](kaspersky_quarantine_file.md)
+* [Kaspersky Anti-Virus](kaspersky_anti-virus.md)
+* [Kaspersky Quarantine File](kaspersky_quarantine_file.md)
 

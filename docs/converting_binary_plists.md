@@ -1,10 +1,10 @@
 ---
 tags:
-  - MacOS
-  - File Formats
   - Articles that need to be expanded
-  - Tools
   - Binary
+  - File Formats
+  - MacOS
+  - Tools
 ---
 Binary plists are the files that Apple products use to store
 information. The easiest way to view them is to convert them to XML.
@@ -19,7 +19,9 @@ equivalent of **plutil**.
 
 plutil on a Windows PC is stored in:
 
-    C:\Program Files (x86)\Common Files\Apple\Apple Application Support
+```text
+C:\Program Files (x86)\Common Files\Apple\Apple Application Support
+```
 
 Which can be added to the PATH in Environmental variables so plutil can
 be run from anywhere If you could like to copy out the plutil executable
@@ -31,11 +33,15 @@ folder along with plutil.exe.
 
 To convert Binary plists to XML run the command:
 
-    plutil -convert xml1 file.plist
+```bash
+$ plutil -convert xml1 file.plist
+```
 
 Or with libplist
 
-    plutil -i file.plist > file.xml.plist
+```bash
+$ plutil -i file.plist > file.xml.plist
+```
 
 ## External Links
 

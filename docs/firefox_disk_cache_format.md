@@ -45,16 +45,20 @@ File named _CACHE_00#_, where \# is a number ranging from \[1-3\].
 
 File named:
 
-    <hash number><type><generation number>
+```text
+<hash number><type><generation number>
+```
 
-Where <hash number>, <type>, <generation number> are placeholders for
-the corresponding values.
+Where &gt;hash number&lt;, &gt;type&lt;, &gt;generation number&lt; are
+placeholders for the corresponding values.
 
 ## Cache version 2
 
-    cache2/index
-    cache2/doomed/*
-    cache2/entries/*
+```text
+cache2/index
+cache2/doomed/*
+cache2/entries/*
+```
 
 ## See Also
 

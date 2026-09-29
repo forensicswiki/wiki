@@ -125,8 +125,10 @@ Default partition layout, first partition starts:
 
 ### Hosts information
 
-    C:\Windows\System32\drivers\etc\hosts
-    C:\Windows\System32\drivers\etc\lmhosts.sam
+```text
+C:\Windows\System32\drivers\etc\hosts
+C:\Windows\System32\drivers\etc\lmhosts.sam
+```
 
 ### Recycle Bin
 
@@ -141,7 +143,9 @@ The Recycler format is used by Windows 2000, XP.
 
 Per user Recycle Bin folder in the form:
 
-    C:\Recycler\%SID%\
+```text
+C:\Recycler\%SID%\
+```
 
 Which contains:
 
@@ -153,7 +157,9 @@ The \$Recycle.Bin is used as of Windows Vista.
 
 Per user Recycle Bin folder in the form:
 
-    C:\$Recycle.Bin\%SID%\
+```text
+C:\$Recycle.Bin\%SID%\
+```
 
 Which contains:
 
@@ -201,7 +207,9 @@ Also see [1](https://learn.microsoft.com/en-US/troubleshoot/windows-client/deplo
 
 In Windows the Scheduled Tasks can be found in:
 
-    C:\Windows\Tasks
+```text
+C:\Windows\Tasks
+```
 
 This directory contains .job files which are in the [Windows Job File
 Format](windows_job_file_format.md).
@@ -209,8 +217,10 @@ Format](windows_job_file_format.md).
 In later versions of Windows (at least Windows 7) XML-based equivalents
 can be found in the following locations:
 
-    C:\Windows\System32\Tasks
-    C:\Windows\SysWow64\Tasks
+```text
+C:\Windows\System32\Tasks
+C:\Windows\SysWow64\Tasks
+```
 
 ### Sleep/Hibernation
 
@@ -222,29 +232,39 @@ is a system time change event (event id 1) in the event logs.
 Windows stores a users Security identifiers (SIDs) under the following
 registry key:
 
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+```text
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+```
 
 The %SID%\ProfileImagePath value should also contain the username.
 
 ### Crash and minidumps
 
-    C:\Windows\Minidump
+```text
+C:\Windows\Minidump
+```
 
 ### Windows Error Reporting (WER)
 
 As of Vista, for User Access Control (UAC) elevated applications WER
 reports can be found in:
 
-    C:\ProgramData\Microsoft\Windows\WER\
+```text
+C:\ProgramData\Microsoft\Windows\WER\
+```
 
 As of Vista, for non-UAC elevated applications (LUA) WER reports can be
 found in:
 
-    C:\Users\%UserName%\AppData\Local\Microsoft\Windows\WER\
+```text
+C:\Users\%UserName%\AppData\Local\Microsoft\Windows\WER\
+```
 
 Corresponding registry key:
 
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting
+```text
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting
+```
 
 ### Microsoft Office Autosave
 
@@ -289,42 +309,44 @@ Windows stores software metering execution logs as CCM_RecentlyUsedApps
 records in the CIM repository, and the definition is provided in the
 snippet below \[3\].
 
-    #pragma namespace("\\\\.\\root\\ccm")
-    instance of __Namespace
-    {
-     Name = "SoftwareMeteringAgent" ;
-    };
-    #pragma namespace("\\\\.\\root\\ccm\\SoftwareMeteringAgent")
-    class CCM_RecentlyUsedApps
-    {
-       [Key]
-       string FolderPath;
+```text
+#pragma namespace("\\\\.\\root\\ccm")
+instance of __Namespace
+{
+    Name = "SoftwareMeteringAgent" ;
+};
+#pragma namespace("\\\\.\\root\\ccm\\SoftwareMeteringAgent")
+class CCM_RecentlyUsedApps
+{
+    [Key]
+    string FolderPath;
 
-       [Key]
-       string ExplorerFileName;
+    [Key]
+    string ExplorerFileName;
 
-       [Key]
-       string LastUserName;
+    [Key]
+    string LastUserName;
 
-       string OriginalFileName;
-       string FileVersion;
-       uint32 FileSize;
-       string ProductName;
-       string ProductVersion;
-       string CompanyName;
-       uint32 ProductLanguage;
-       string FileDescription;
-       uint32 LaunchCount;
-       datetime LastUsedTime;
+    string OriginalFileName;
+    string FileVersion;
+    uint32 FileSize;
+    string ProductName;
+    string ProductVersion;
+    string CompanyName;
+    uint32 ProductLanguage;
+    string FileDescription;
+    uint32 LaunchCount;
+    datetime LastUsedTime;
 
-       string ProductCode;
-       string AdditionalProductCodes;
-       string msiDisplayName;
-       string msiPublisher;
-       string msiVersion;
-       string SoftwarePropertiesHash;
-       string FilePropertiesHash;
-    };
+    string ProductCode;
+    string AdditionalProductCodes;
+    string msiDisplayName;
+    string msiPublisher;
+    string msiVersion;
+    string SoftwarePropertiesHash;
+    string FilePropertiesHash;
+};
+```
 
 The entries can be extracted on a live system using the following
 details \[4\]:
@@ -350,12 +372,14 @@ allow attackers to download arbitrary files from the internet, such as
 
 The locations on disk:
 
-    %SYSTEMROOT%\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
-    %SYSTEMROOT%\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
-    %SYSTEMROOT%\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
-    %SYSTEMROOT%\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
-    C:\Users\%USERNAME%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
-    C:\Users\%USERNAME%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
+```text
+%SYSTEMROOT%\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
+%SYSTEMROOT%\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
+%SYSTEMROOT%\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
+%SYSTEMROOT%\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
+C:\Users\%USERNAME%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\
+C:\Users\%USERNAME%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\
+```
 
 References:
 
@@ -373,7 +397,9 @@ the full command line and the parent process info, among other things.
 
 The location on disk:
 
-    %SYSTEMROOT%\System32\WDI\LogFiles\StartupInfo\*.xml
+```text
+%SYSTEMROOT%\System32\WDI\LogFiles\StartupInfo\*.xml
+```
 
 References:
 
@@ -392,8 +418,10 @@ Format](advanced_format.md).
 The actual value of %SystemRoot% is stored in the following registry
 value:
 
-    Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
-    Value: SystemRoot
+```text
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+Value: SystemRoot
+```
 
 ## See Also
 

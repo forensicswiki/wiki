@@ -323,9 +323,11 @@ neither of which have leap days. Also see: [Technical Note TN1150 - HFS Plus Vol
 
 Converting HFS/HFS+ date and time values with Python:
 
-    import datetime
+```python
+import datetime
 
-    print datetime.datetime( 1904, 1, 1 ) + datetime.timedelta( seconds=0xCBDAF25B )
+print datetime.datetime( 1904, 1, 1 ) + datetime.timedelta( seconds=0xCBDAF25B )
+```
 
 ## Observations
 

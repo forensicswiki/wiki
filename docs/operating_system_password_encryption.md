@@ -19,11 +19,13 @@ store the encrypted passwords in 'shadow' file named /etc/shadow.
 | Home directory | The user's home directory                                                                                                 |
 | Shell          | The user's Unix shell                                                                                                     |
 
-    user1:x:600:600:User 1:/home/user1:/bin/bash
-    user2:x:601:601:User 2:/home/user2:/bin/bash
-    admin:x:602:602:Admin Account:/home/admin:/bin/bash
-    apache:x:603:603:Apache HTTP User:/var/www:/bin/bash
-    someguy:x:604:604:Someguy:/home/someguy:/bin/bash
+```text
+user1:x:600:600:User 1:/home/user1:/bin/bash
+user2:x:601:601:User 2:/home/user2:/bin/bash
+admin:x:602:602:Admin Account:/home/admin:/bin/bash
+apache:x:603:603:Apache HTTP User:/var/www:/bin/bash
+someguy:x:604:604:Someguy:/home/someguy:/bin/bash
+```
 
 The password is stored as an encrypted one-way hash of the original
 password. When a user attempts to authenticate the password supplied is
@@ -36,22 +38,26 @@ The most commonly used password encryption in Unix for many year was
 crypt(). The Unix crypt command can be used to generate the Unix crypt
 value for a given string.
 
-    jim@localhost ~
-    $ crypt hello
-    S84xRArsM.gtk
+```text
+jim@localhost ~
+$ crypt hello
+S84xRArsM.gtk
+```
 
 In modern computing Unix crypt is severely limited. Passwords are
 restricted to 8 character passwords, and any trailing character as
 ignored. This puts brute force attacks on Unix crypts well within the
 realms of possibility.
 
-    jim@localhost ~
-    $ crypt xx hellohel
-    xxiHMKqoMTDuc
+```text
+jim@localhost ~
+$ crypt xx hellohel
+xxiHMKqoMTDuc
 
-    jim@localhost ~
-    $ crypt xx hellohello
-    xxiHMKqoMTDuc
+jim@localhost ~
+$ crypt xx hellohello
+xxiHMKqoMTDuc
+```
 
 ### Salts
 
@@ -67,21 +73,25 @@ of different hashes for any given password.
 If we use the Unix crypt command to encrypt a password and do not
 specify a salt then a random salt value is chosen.
 
-    jim@localhost ~
-    $ crypt hello
-    YnxINyIeMlKCM
+```text
+jim@localhost ~
+$ crypt hello
+YnxINyIeMlKCM
 
-    jim@localhost ~
-    $ crypt hello
-    v3njh4QHNjoWk
+jim@localhost ~
+$ crypt hello
+v3njh4QHNjoWk
+```
 
 The first two characters of the resulting hash are the salt and must be
 used when subsequently comparing a supplied password with the stored
 crypt.
 
-    jim@localhost ~
-    $ crypt v3 hello
-    v3njh4QHNjoWk
+```text
+jim@localhost ~
+$ crypt v3 hello
+v3njh4QHNjoWk
+```
 
 Salts can be of any length but is typically 2 characters on Unix
 systems, which helps to ensure compatibility across systems.

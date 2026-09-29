@@ -7,7 +7,9 @@ Microsoft.
 
 ## SkyDrive Client Logs
 
-    C:\Users\%USERNAME%\AppData\Local\Microsoft\SkyDrive\logs\
+```text
+C:\Users\%USERNAME%\AppData\Local\Microsoft\SkyDrive\logs\
+```
 
 * BIFROST.dev=0.YYYY-MM-DD.####.####-#.log
 * SkyDrive.exe.err.YYYY-MM-DD-hhmmss.###.log

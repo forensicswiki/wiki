@@ -24,46 +24,62 @@ including a creation date and time value.
 If you have an image mount the LVM read-only on a loopback device (e.g.
 /dev/loop1) by:
 
-    sudo losetup -r -o $OFFSET /dev/loop1 image.raw
+```text
+sudo losetup -r -o $OFFSET /dev/loop1 image.raw
+```
 
 Note that the offset is in bytes.
 
 If you need to write to the image, e.g. for recovery, use
 [xmount](xmount.md) to write the changes to a shadow file.
 
-    sudo xmount --in dd --cache sda.shadow sda.raw image/
+```text
+sudo xmount --in dd --cache sda.shadow sda.raw image/
+```
 
 You can then safely mount the LVM in read-write mode (just omit the -r
 in the previous losetup command).
 
 To remove this mapping afterwards run:
 
-    sudo losetup -d /dev/loop1
+```text
+sudo losetup -d /dev/loop1
+```
 
 To scan for new physical volumes:
 
-    lvm pvscan
+```text
+lvm pvscan
+```
 
 You cannot unmount an active volume group. To detach (or deactivate) the
 volume group:
 
-    vgchange -a n $VOLUMEGROUP
+```text
+vgchange -a n $VOLUMEGROUP
+```
 
 Where \$VOLUMEGROUP is the corresponding name of the volume group
 
 The individual volume devices are now available in:
 
-    /dev/mapper/$VOLUMEGROUP-$VOLUMENAME
+```text
+/dev/mapper/$VOLUMEGROUP-$VOLUMENAME
+```
 
 ### Mounting an LVM from a device
 
 To list the Volume Groups (VG) run:
 
-    pvs
+```text
+pvs
+```
 
 To list information about a Volume Group (VG) run:
 
-    lvdisplay $VOLUMEGROUP
+```text
+lvdisplay $VOLUMEGROUP
+```
 
 The field "LV Name" provides the volume name
 
@@ -71,26 +87,34 @@ To make the volume group known to the system (only if it was previously
 exported using *vgexport* command, note that *vgimport* will alter the
 data in the LVM2 header):
 
-    vgimport $VOLUMEGROUP
+```text
+vgimport $VOLUMEGROUP
+```
 
 And activate the volumes in the volume group (sometimes you need to run
 *vgscan* first):
 
-    vgchange -a y $VOLUMEGROUP
+```text
+vgchange -a y $VOLUMEGROUP
+```
 
 **Warning: LVM driver will synchronize all physical volumes if they are
 out of sync after the command above is issued**
 
 The individual volume devices are now available in:
 
-    /dev/mapper/$VOLUMEGROUP-$VOLUMENAME
+```text
+/dev/mapper/$VOLUMEGROUP-$VOLUMENAME
+```
 
 These now can be analyzed with e.g. a tool like the
 [The Sleuth Kit](the_sleuth_kit.md) or loop-back mounted.
 
 To read-only loop-back mount an individual volume:
 
-    mount -o ro,loop /dev/mapper/$VOLUMEGROUP-$VOLUMENAME filesystem/
+```text
+mount -o ro,loop /dev/mapper/$VOLUMEGROUP-$VOLUMENAME filesystem/
+```
 
 ## Also see
 

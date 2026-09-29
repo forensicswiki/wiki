@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Archive
+  - Archive
+  - File Formats
 ---
 RAR Archives (**R**oshal **AR**chive file format) are a proprietary
 format for storing information created by Eugene Roshal. The format is
@@ -11,7 +11,9 @@ currently handled by Alexander Roshal, Eugene's brother.
 
 The file has the magic number of:
 
-    0x 52 61 72 21 1A 07 00
+```text
+0x 52 61 72 21 1A 07 00
+```
 
 Which is a break down of the following to describe an Archive Header:
 
@@ -25,7 +27,9 @@ Which is a break down of the following to describe an Archive Header:
 
 Older versions of the RAR file format have a magic number of :
 
-    0x 52 45 7E 5E
+```text
+0x 52 45 7E 5E
+```
 
 This format will not be discussed as documentation cannot be found.
 
@@ -53,10 +57,10 @@ HEAD_SIZE+ADD_SIZE if the field ADD_SIZE is present - when (HEAD_FLAGS &
 
 In each block the followings bits in HEAD_FLAGS have the same meaning:
 
-- 0x4000 - if set, older RAR versions will ignore the block and remove
+* 0x4000 - if set, older RAR versions will ignore the block and remove
   it when the archive is updated. If clear, the block is copied to the
   new archive file when the archive is updated;
-- 0x8000 - if set, ADD_SIZE field is present and the full block size is
+* 0x8000 - if set, ADD_SIZE field is present and the full block size is
   HEAD_SIZE+ADD_SIZE.
 
 ------------------------------------------------------------------------
@@ -98,7 +102,7 @@ They are Marker Block, Archive Header, and File Header.
 
 MARK_HEAD
 
-- Note: the marker block is considered a fixed byte sequence (AKA, magic
+* Note: the marker block is considered a fixed byte sequence (AKA, magic
   number) of: 0x52 0x61 0x72 0x21 0x1A 0x07 0x00 (which is seen as 'Rar!
   ').
 
@@ -131,7 +135,7 @@ MAIN_HEAD
 
 Bit Flags for MAIN_HEAD
 
-- Other bits in HEAD_FLAGS are reserved for internal use.
+* Other bits in HEAD_FLAGS are reserved for internal use.
 
 ------------------------------------------------------------------------
 
@@ -160,7 +164,7 @@ Bit Flags for MAIN_HEAD
 
 File Header
 
-- other new fields may appear here.
+* other new fields may appear here.
 
 | Flag (0x)                                     | Description                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +236,9 @@ terminator
 As such, it is possible to use the terminator as a footer when carving,
 although, as always, file fragmentation should be considered.
 
-    0x C4 3D 7B 00 40 07 00
+```text
+0x C4 3D 7B 00 40 07 00
+```
 
 ------------------------------------------------------------------------
 
@@ -340,6 +346,6 @@ due to redundancy.
 
 ## See Also
 
-- [Wikipedia: RAR (file format)](https://en.wikipedia.org/wiki/RAR_(file_format))
-- [RAR File Format Information](http://acritum.com/winrar/rar-format)
-- [RAR Archive File Format, Version 4](https://www.loc.gov/preservation/digital/formats/fdd/fdd000458.shtml)
+* [Wikipedia: RAR (file format)](https://en.wikipedia.org/wiki/RAR_(file_format))
+* [RAR File Format Information](http://acritum.com/winrar/rar-format)
+* [RAR Archive File Format, Version 4](https://www.loc.gov/preservation/digital/formats/fdd/fdd000458.shtml)

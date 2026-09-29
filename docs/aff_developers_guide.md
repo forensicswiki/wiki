@@ -64,25 +64,27 @@ If you're using the GNU Automake and other tools to check for the AFF,
 we recommend the following tests to determine if the AFF is present on
 the system:
 
-    ###########################################################
-    ## Test for AFF Support
-    ###########################################################
-    AC_ARG_ENABLE([aff],
-       AC_HELP_STRING([--enable-aff],[Use AFF for reading files (default yes)]),
-                      [enable_aff=$enableval], [enable_aff=yes])
-    if test "${enable_aff}" = "yes" ; then
-       AC_CHECK_HEADERS([afflib.h],,[enable_aff=no])
-       AC_CHECK_LIB([aff],[af_open],,[enable_aff=no])
-    fi
-    if test "${enable_aff}" = "yes" ; then
-       AC_DEFINE([USE_AFF],1,[Use the AFF library to read files])
+```text
+###########################################################
+## Test for AFF Support
+###########################################################
+AC_ARG_ENABLE([aff],
+   AC_HELP_STRING([--enable-aff],[Use AFF for reading files (default yes)]),
+                  [enable_aff=$enableval], [enable_aff=yes])
+if test "${enable_aff}" = "yes" ; then
+   AC_CHECK_HEADERS([afflib.h],,[enable_aff=no])
+   AC_CHECK_LIB([aff],[af_open],,[enable_aff=no])
+fi
+if test "${enable_aff}" = "yes" ; then
+   AC_DEFINE([USE_AFF],1,[Use the AFF library to read files])
 
-       AC_MSG_RESULT([Found Advanced Forensics Format (AFF), good!])
-       AC_MSG_RESULT([Checking for AFF specific features...])
+   AC_MSG_RESULT([Found Advanced Forensics Format (AFF), good!])
+   AC_MSG_RESULT([Checking for AFF specific features...])
 
-       AC_CHECK_LIB([aff],[af_open_stdin],
-         AC_DEFINE([USE_AFF_STDIN],1,[The AFF can be used to open standard input]))
-    fi
+   AC_CHECK_LIB([aff],[af_open_stdin],
+     AC_DEFINE([USE_AFF_STDIN],1,[The AFF can be used to open standard input]))
+fi
+```
 
 These tests will define two variables in the config.h file for you.
 First, the value USE_AFF is defined the AFF is found on the development
@@ -97,51 +99,53 @@ determine if they are valid AFF files. If so, it will attempt to open
 them and display the size of their uncompressed data. The complete
 source code is below.
 
-    #include <stdio.h>
-    #include <stdlib.h>
-    #include <inttypes.h>
-    #include <fcntl.h>
-    #include <afflib.h>
+```text
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+#include <fcntl.h>
+#include <afflib.h>
 
-    #define FALSE 0
-    #define TRUE  1
+#define FALSE 0
+#define TRUE  1
 
-    int process_file(char *fn)
-    {
-      AFFILE *af = af_open(fn,O_RDONLY,0);
-      if (NULL == af)
-      {
-        perror(fn);
-        return TRUE;
-      }
+int process_file(char *fn)
+{
+  AFFILE *af = af_open(fn,O_RDONLY,0);
+  if (NULL == af)
+  {
+    perror(fn);
+    return TRUE;
+  }
 
-      printf ("The uncompressed size of this file is %"PRId64" bytes\n",
-              af_get_imagesize(af));
+  printf ("The uncompressed size of this file is %"PRId64" bytes\n",
+          af_get_imagesize(af));
 
-      af_close(af);
-      return FALSE;
-    }
+  af_close(af);
+  return FALSE;
+}
 
 
-    int main(int argc, char **argv)
-    {
-      if (argc < 2)
-      {
-        printf ("Usage: %s [FILES]\n", argv[0]);
-        return EXIT_FAILURE;
-      }
+int main(int argc, char **argv)
+{
+  if (argc < 2)
+  {
+    printf ("Usage: %s [FILES]\n", argv[0]);
+    return EXIT_FAILURE;
+  }
 
-      argc++;
-      argv--;
+  argc++;
+  argv--;
 
-      while(*argv)
-      {
-        process_file(*argv);
-        ++argv;
-        --argc;
-      }
-      return EXIT_SUCCESS;
-    }
+  while(*argv)
+  {
+    process_file(*argv);
+    ++argv;
+    --argc;
+  }
+  return EXIT_SUCCESS;
+}
+```
 
 We will go through the important parts of the program.
 
@@ -401,14 +405,16 @@ for debugging the AFF.
 
 Sample output:
 
-    AFSTATS for filename.aff
-    Pages read: 2
-    Pages written: 0
-    Pages compressed: 0
-    Pages decompressed: 1
-    Cache hits: 0
-    Cache misses: 1
-    Bytes copied: 10848768
+```text
+AFSTATS for filename.aff
+Pages read: 2
+Pages written: 0
+Pages compressed: 0
+Pages decompressed: 1
+Cache hits: 0
+Cache misses: 1
+Bytes copied: 10848768
+```
 
 ### af_set_cache_size
 
@@ -462,21 +468,25 @@ Examples:
 
 Updating a small value:
 
-    int status = af_update_seg(af,"Luggage Combination",12345,NULL,0);
-    if (status)
-    {
-      perror(af_filename(af));
-      return -1;
-    }
+```text
+int status = af_update_seg(af,"Luggage Combination",12345,NULL,0);
+if (status)
+{
+  perror(af_filename(af));
+  return -1;
+}
+```
 
 Updating a large value:
 
-    status = af_update_seg(af,"List of problems solved by MacGuyver", 0, buf_macguyver,strlen(buf_macguyver));
-    if (status)
-    {
-      perror(af_filename(af));
-      return -1;
-    }
+```text
+status = af_update_seg(af,"List of problems solved by MacGuyver", 0, buf_macguyver,strlen(buf_macguyver));
+if (status)
+{
+  perror(af_filename(af));
+  return -1;
+}
+```
 
 ### af_del_seg
 
@@ -515,26 +525,28 @@ defined in Table 3.
 
 Sample usage:
 
-    const char * af_identity_to_str(int id)
-    {
-      switch(id) {
-      case AF_IDENTIFY_RAW: return "Raw file";
-      case AF_IDENTIFY_AFF: return "Standard AFF image";
-      case AF_IDENTIFY_AFD: return "Split AFF image";
-      case AF_IDENTIFY_EVF:
-      case AF_IDENTIFY_EVD: return "Deprecated EnCase image";
-      case AF_IDENTIFY_SPLIT_RAW: return "Split Raw file";
-      case AF_IDENTIFY_AFM: return "Raw file with metadata";
-      case AF_IDENTIFY_EWF: return "EnCase image";
-      default: return "Unknown";
-      }
-    }
+```text
+const char * af_identity_to_str(int id)
+{
+  switch(id) {
+  case AF_IDENTIFY_RAW: return "Raw file";
+  case AF_IDENTIFY_AFF: return "Standard AFF image";
+  case AF_IDENTIFY_AFD: return "Split AFF image";
+  case AF_IDENTIFY_EVF:
+  case AF_IDENTIFY_EVD: return "Deprecated EnCase image";
+  case AF_IDENTIFY_SPLIT_RAW: return "Split Raw file";
+  case AF_IDENTIFY_AFM: return "Raw file with metadata";
+  case AF_IDENTIFY_EWF: return "EnCase image";
+  default: return "Unknown";
+  }
+}
 
-    int identify_filetype(AFFILE *af)
-    {
-      printf ("The file is type: %s\n", af_identify_to_str(af_identify(af)));
-      return FALSE;
-    }
+int identify_filetype(AFFILE *af)
+{
+  printf ("The file is type: %s\n", af_identify_to_str(af_identify(af)));
+  return FALSE;
+}
+```
 
 ### af_get_imagesize
 
@@ -543,13 +555,15 @@ Sample usage:
 Returns the number of bytes in the decompressed data. On an error,
 returns -1. Sample:
 
-    int64_t data_size = af_get_imagesize(af);
-    if (-1 == data_size)
-    {
-      fprintf (stderr,"%s: Unable to determine size of decompressed data", af_filename(af));
-      return TRUE;
-    }
-    printf ("The decompressed data is 0x%"PRIx64" bytes\n", data_size);
+```text
+int64_t data_size = af_get_imagesize(af);
+if (-1 == data_size)
+{
+  fprintf (stderr,"%s: Unable to determine size of decompressed data", af_filename(af));
+  return TRUE;
+}
+printf ("The decompressed data is 0x%"PRIx64" bytes\n", data_size);
+```
 
 # Segment Names
 

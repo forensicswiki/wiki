@@ -22,11 +22,15 @@ type. A mime type assigned to an OLECF refers to its contents.
 The OLECF has the following file signature (as a hexadecimal byte
 sequence):
 
-    d0 cf 11 e0 a1 b1 1a e1
+```text
+d0 cf 11 e0 a1 b1 1a e1
+```
 
 For earlier beta version of the format the following signature was used:
 
-    0e 11 fc 0d d0 cf 11 0e
+```text
+0e 11 fc 0d d0 cf 11 0e
+```
 
 The OLECF has no distinct footer.
 

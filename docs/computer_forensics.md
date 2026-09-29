@@ -73,11 +73,12 @@ development
 
 If archaeology defines an artifact as:
 
-    something made or given shape by man, such as a tool or a work of art, esp an object of archaeological interest
+> something made or given shape by man, such as a tool or a work of art, esp an
+> object of archaeological interest
 
 The definition of artifact within computer forensics could be:
 
-    An object of digital archaeological interest.
+> An object of digital archaeological interest.
 
 Where digital archaeological roughly refers to computer forensics
 without the forensic (legal) context.

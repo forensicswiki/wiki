@@ -22,9 +22,10 @@ and uses for forensic investigation.
 
 File can identify disk partitions too!
 
-    # file -s /dev/rdisk1s2
-    /dev/rdisk1s2: Macintosh HFS Extended version 4 data (mounted) last mounted by: 'HFSJ',
-        created: Thu Jan 24 22:05:19 2008,
-        last modified: Fri Apr 25 20:58:56 2008,
-        last checked: Thu Jan 24 22:05:19 2008, block size: 4096, number of blocks: 183059668, free blocks: 56950487
-    #
+```bash
+$ file -s /dev/rdisk1s2
+/dev/rdisk1s2: Macintosh HFS Extended version 4 data (mounted) last mounted by: 'HFSJ',
+    created: Thu Jan 24 22:05:19 2008,
+    last modified: Fri Apr 25 20:58:56 2008,
+    last checked: Thu Jan 24 22:05:19 2008, block size: 4096, number of blocks: 183059668, free blocks: 56950487
+```

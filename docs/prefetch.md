@@ -32,7 +32,9 @@ For SSD drives Prefetch is disabled by default.
 
 The Prefetch files are stored in the directory:
 
-    %SystemRoot%\Prefetch
+```text
+%SystemRoot%\Prefetch
+```
 
 The following files can be found in the Prefetch directory:
 
@@ -110,65 +112,74 @@ filename hashing, namely:
 
 A Python implementation of the SCCA XP hash function:
 
-    def ssca_xp_hash_function(filename):
-        hash_value = 0
-        for character in filename:
-            hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
-            hash_value = (hash_value * 314159269) % 0x100000000
-            if hash_value > 0x80000000:
-                hash_value = 0x100000000 - hash_value
+```python
+def ssca_xp_hash_function(filename):
+    hash_value = 0
+    for character in filename:
+        hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
+        hash_value = (hash_value * 314159269) % 0x100000000
+        if hash_value > 0x80000000:
+            hash_value = 0x100000000 - hash_value
 
-        return (abs(hash_value) % 1000000007) % 0x100000000
+    return (abs(hash_value) % 1000000007) % 0x100000000
+```
 
 ### SCCA Vista hash function
 
 A Python implementation of the SCCA Vista hash function:
 
-    def ssca_vista_hash_function(filename):
-        hash_value = 314159
-        for character in filename:
-            hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
-        return hash_value
+```python
+def ssca_vista_hash_function(filename):
+    hash_value = 314159
+    for character in filename:
+        hash_value = ((hash_value * 37) + ord(character)) % 0x100000000
+    return hash_value
+```
 
 ### SCCA 2008 hash function
 
 A Python implementation of the SCCA 2008 hash function:
 
-    def ssca_2008_hash_function(filename):
-        hash_value = 314159
-        filename_index = 0
-        filename_length = len(filename)
-        while filename_index + 8 < filename_length:
-            character_value = ord(filename[filename_index + 1]) * 37
-            character_value += ord(filename[filename_index + 2])
-            character_value *= 37
-            character_value += ord(filename[filename_index + 3])
-            character_value *= 37
-            character_value += ord(filename[filename_index + 4])
-            character_value *= 37
-            character_value += ord(filename[filename_index + 5])
-            character_value *= 37
-            character_value += ord(filename[filename_index + 6])
-            character_value *= 37
-            character_value += ord(filename[filename_index]) * 442596621
-            character_value += ord(filename[filename_index + 7])
-            hash_value = ((character_value - (hash_value * 803794207)) % 0x100000000)
-            filename_index += 8
+```python
+def ssca_2008_hash_function(filename):
+    hash_value = 314159
+    filename_index = 0
+    filename_length = len(filename)
+    while filename_index + 8 < filename_length:
+        character_value = ord(filename[filename_index + 1]) * 37
+        character_value += ord(filename[filename_index + 2])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 3])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 4])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 5])
+        character_value *= 37
+        character_value += ord(filename[filename_index + 6])
+        character_value *= 37
+        character_value += ord(filename[filename_index]) * 442596621
+        character_value += ord(filename[filename_index + 7])
+        hash_value = ((character_value - (hash_value * 803794207)) % 0x100000000)
+        filename_index += 8
 
-        while filename_index < filename_length:
-           hash_value = (((37 * hash_value) + ord(filename[filename_index])) % 0x100000000)
-           filename_index += 1
+    while filename_index < filename_length:
+       hash_value = (((37 * hash_value) + ord(filename[filename_index])) % 0x100000000)
+       filename_index += 1
 
-        return hash_value
+    return hash_value
+```
 
 ### /prefetch flag
 
 From: [Misinformation and the The Prefetch Flag](https://web.archive.org/web/20160714134633/https://blogs.msdn.microsoft.com/ryanmy/2005/05/25/misinformation-and-the-the-prefetch-flag/)
 
-    The /prefetch:# flag is looked at by the OS when we create the process — however, it has one (and only one) purpose.  We add the passed number to the hash.
+```text
+The /prefetch:# flag is looked at by the OS when we create the process -
+however, it has one (and only one) purpose. We add the passed number to the
+hash.
+```
 
-It appears that the following are equivalent on Windows 10 1903 and
-2004:
+It appears that the following are equivalent on Windows 10 1903 and 2004:
 
 * Notepad.exe
 * Notepad.exe /prefetch:0
@@ -179,7 +190,9 @@ So that /prefetch:\[0-8\] only seem to be the supported values and the
 
 ## Registry Keys
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+```
 
 The EnablePrefetcher Registry value can be used to disable prefetch.
 

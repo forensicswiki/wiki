@@ -16,12 +16,10 @@ From [Windows ReadyBoost](https://download.microsoft.com/download/3/0/2/3027d574
 
 SuperFetch prioritizes the following kinds of pages to remain in memory:
 
-- Pages of applications that are used most frequently overall.
-- Pages of applications that are commonly used when resuming:
-  - After extensive hibernation (for example, first thing in the
-    morning).
-  - After shorter periods of sleep or hibernation (for example, after
-    lunch).
+* Pages of applications that are used most frequently overall.
+* Pages of applications that are commonly used when resuming:
+  * After extensive hibernation (for example, first thing in the morning).
+  * After shorter periods of sleep or hibernation (for example, after lunch).
 
 Prefetched pages are added to the system’s standby page list, which has
 been reorganized and redesigned to retain useful data in memory over
@@ -34,7 +32,9 @@ and the SuperFetch service itself.
 
 To calculate the Windows Experience Index Disk score run:
 
-    winsat formal
+```text
+winsat formal
+```
 
 ## Components
 
@@ -67,16 +67,16 @@ once during this logon session.
 
 Performance scenarios defined by the Windows Performance Recorder (WPR):
 
-- General: Records general performance while the computer is running.
-- On/Off - Boot: Records performance while the computer is booting.
-- On/Off – Fast Startup: Records performance during a fast startup.
-- On/Off - Shutdown: Records performance while shutting the computer
+* General: Records general performance while the computer is running.
+* On/Off - Boot: Records performance while the computer is booting.
+* On/Off – Fast Startup: Records performance during a fast startup.
+* On/Off - Shutdown: Records performance while shutting the computer
   down.
-- On/Off - RebootCycle: Records performance during the entire cycle
+* On/Off - RebootCycle: Records performance during the entire cycle
   while the computer is rebooting.
-- On/Off - Standby/Resume: Records performance when the computer is
+* On/Off - Standby/Resume: Records performance when the computer is
   placed on standby and then resumed.
-- On/Off - Hibernate/Resume: Records performance when the computer is
+* On/Off - Hibernate/Resume: Records performance when the computer is
   placed in hibernation and then resumed.
 
 Where "On/Off" likely refers to a cold scenario.
@@ -87,8 +87,10 @@ Because SuperFetch appears to leave a system with no available memory, some
 users turn it off to create the appearance of having more free memory. The
 feature can be configured by changing the [Registry](windows_registry.md) value:
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
-    Value: EnableSuperfetch
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+Value: EnableSuperfetch
+```
 
 A value of zero disables SuperFetch, one enables it for booting only,
 two for applications, and three for both applications and boot. This
@@ -110,8 +112,7 @@ The format of the SuperFetch database files is not fully known, there is
 available unofficial partial specification
 [3](http://blog.rewolf.pl/blog/?p=214) and open source (GPL) dumper for
 .db files [4](https://github.com/rwfpl/rewolf-superfetch-dumper). For
-more information see [SuperFetch
-Format](windows_superfetch_format.md).
+more information see [SuperFetch Format](windows_superfetch_format.md).
 
 The SuperFetch feature is seeded with some basic usage patterns when the
 operating system is installed
@@ -148,4 +149,3 @@ written when the service starts.
 ### Open Source
 
 * [rewolf-superfetch-dumper](https://github.com/rwfpl/rewolf-superfetch-dumper)
-* [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)

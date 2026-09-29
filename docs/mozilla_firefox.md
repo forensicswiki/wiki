@@ -29,19 +29,27 @@ format](sqlite_database_format.md).
 
 On Linux
 
-    /home/$USER/.mozilla/firefox/$PROFILE.default/places.sqlite
+```text
+/home/$USER/.mozilla/firefox/$PROFILE.default/places.sqlite
+```
 
 On MacOS-X
 
-    /Users/$USER/Library/Application Support/Firefox/Profiles/$PROFILE.default/places.sqlite
+```text
+/Users/$USER/Library/Application Support/Firefox/Profiles/$PROFILE.default/places.sqlite
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\places.sqlite
+```text
+C:\Documents and Settings\%USERNAME%\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\places.sqlite
+```
 
 On Windows Vista, 7
 
-    C:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\Profiles\%PROFILE%.default\places.sqlite
+```text
+C:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\Profiles\%PROFILE%.default\places.sqlite
+```
 
 ### Timestamps
 
@@ -52,8 +60,10 @@ since January 1, 1970 UTC
 
 Some Python code to do the conversion into human readable format:
 
-    date_string = datetime.datetime( 1970, 1, 1 )
-                + datetime.timedelta( microseconds=timestamp )
+```python
+date_string = datetime.datetime( 1970, 1, 1 )
+            + datetime.timedelta( microseconds=timestamp )
+```
 
 ### Example queries
 
@@ -61,7 +71,9 @@ Some example queries:
 
 To get an overview of the visited sites:
 
-    SELECT datetime(moz_historyvisits.visit_date/1000000, 'unixepoch', 'localtime'), moz_places.url FROM moz_places, moz_historyvisits WHERE moz_places.id = moz_historyvisits.place_id;
+```sql
+SELECT datetime(moz_historyvisits.visit_date/1000000, 'unixepoch', 'localtime'), moz_places.url FROM moz_places, moz_historyvisits WHERE moz_places.id = moz_historyvisits.place_id;
+```
 
 ## Downloads
 
@@ -88,7 +100,9 @@ Some example queries:
 
 To get an overview of the downloaded files:
 
-    SELECT moz_downloads.startTime, moz_downloads.source, moz_downloads.currBytes, moz_downloads.maxBytes FROM moz_downloads;
+```sql
+SELECT moz_downloads.startTime, moz_downloads.source, moz_downloads.currBytes, moz_downloads.maxBytes FROM moz_downloads;
+```
 
 ## Disk Cache
 
@@ -99,57 +113,71 @@ Format](firefox_disk_cache_format.md) and can be found in:
 
 On Linux
 
-    /home/$USER/.mozilla/firefox/$PROFILE.default/Cache/
+```text
+/home/$USER/.mozilla/firefox/$PROFILE.default/Cache/
+```
 
 On MacOS-X
 
-    /Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/Cache/
+```text
+/Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/Cache/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\Cache\
+```text
+C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\Cache\
+```
 
 On Windows Vista, 7
 
-    C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\%PROFILE%.default\Cache\
+```text
+C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\%PROFILE%.default\Cache\
+```
 
 ### Version 2 - Firefox 32 and later
 
 On Linux
 
-    /home/$USER/.mozilla/firefox/$PROFILE.default/cache2/
+```text
+/home/$USER/.mozilla/firefox/$PROFILE.default/cache2/
+```
 
 On MacOS-X
 
-    /Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/cache2/
+```text
+/Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/cache2/
+```
 
 On Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\cache2\
+```text
+C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Mozilla\Firefox\Profiles\%PROFILE%.default\cache2\
+```
 
 On Windows Vista, 7
 
-    C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\%PROFILE%.default\cache2\
+```text
+C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles\%PROFILE%.default\cache2\
+```
 
 ## Settings
 
 URL:
 
-    about:config
+```text
+about:config
+```
 
 ## See Also
 
-- [Firefox Disk Cache Format](firefox_disk_cache_format.md)
-- [Mozilla Firefox History File
-  Format](mozilla_firefox_history_file_format.md)
-- [SQLite database format](sqlite_database_format.md)
+* [Firefox Disk Cache Format](firefox_disk_cache_format.md)
+* [Mozilla Firefox History File Format](mozilla_firefox_history_file_format.md)
+* [SQLite database format](sqlite_database_format.md)
 
 ## External Links
 
-- [Official website](https://www.mozilla.org/en-US/firefox/)
-- [Profile folder -
-  Firefox](http://kb.mozillazine.org/Profile_folder_-_Firefox)
-- [Firefox 3 –
-  downloads.sqlite](https://wiki.mozilla.org/images/3/3d/Downloads.sqlite.schema.pdf)
-- [Mozilla Firefox
-  Releases](http://download.cdn.mozilla.net/pub/firefox/releases/)
+* [Official website](https://www.mozilla.org/en-US/firefox/)
+* [Profile folder - Firefox](http://kb.mozillazine.org/Profile_folder_-_Firefox)
+* [Firefox 3 – downloads.sqlite](https://wiki.mozilla.org/images/3/3d/Downloads.sqlite.schema.pdf)
+* [Mozilla Firefox Releases](http://download.cdn.mozilla.net/pub/firefox/releases/)

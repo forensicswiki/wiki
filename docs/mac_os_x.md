@@ -19,7 +19,9 @@ The default boot volume is stored in NVRAM and can be configured through
 the "Startup Disk" preference pane or the nvram command line utility.
 E.g. to print all of the firmware variables.
 
-    nvram -p
+```text
+nvram -p
+```
 
 Additional boot arguments can be provided via the "boot-args" value
 [2](https://www.cnet.com/tech/computing/boot-argument-options-in-os-x/).
@@ -37,14 +39,18 @@ kernel from disk, as well as the essential driver extensions.
 The bootloader can be either a MZ-PE/COFF or EFI fat binary type
 [executables](executable.md) and is commonly stored in:
 
-    /com.apple.recovery.boot/boot.efi
-    /System/Library/CoreServices/boot.efi
-    /usr/standalone/i386/boot.efi
+```text
+/com.apple.recovery.boot/boot.efi
+/System/Library/CoreServices/boot.efi
+/usr/standalone/i386/boot.efi
+```
 
 The behavior of the bootloader can be configured in the com.apple.Boot.plist
 which can be found in:
 
-    /Library/Preferences/SystemConfiguration/
+```text
+/Library/Preferences/SystemConfiguration/
+```
 
 ## Disk image types
 
@@ -60,74 +66,98 @@ which are:
 
 Mac OS X Burn Folder:
 
-    $NAME.fpbf
+```text
+$NAME.fpbf
+```
 
 This folder normally contains alias files (similar to LNK files under
 Windows). Which should have the following signature.
 
-    00000000  62 6f 6f 6b 00 00 00 00  6d 61 72 6b 00 00 00 00  |book....mark....|
+```text
+00000000  62 6f 6f 6b 00 00 00 00  6d 61 72 6b 00 00 00 00  |book....mark....|
+```
 
 These alias files contain additional date and time values.
 
 Also check the following files for references to deleted .fpbf paths:
 
-    /Users/$USERNAME/Library/Preferences/com.apple.finder.plist
-    /Users/$USERNAME/Library/Preferences/com.apple.sidebarlists.plist
+```text
+/Users/$USERNAME/Library/Preferences/com.apple.finder.plist
+/Users/$USERNAME/Library/Preferences/com.apple.sidebarlists.plist
+```
 
 Actual burning of optical media is logged in:
 
-    /var/log/system.log
-    /Users/$USERNAME/Library/Logs/DiscRecording.log
-    /private/var/.logs_exporter/cache/Users/$USERNAME/Library/Logs/DiscRecording.log
+```text
+/var/log/system.log
+/Users/$USERNAME/Library/Logs/DiscRecording.log
+/private/var/.logs_exporter/cache/Users/$USERNAME/Library/Logs/DiscRecording.log
+```
 
 ## Launch Agents
 
 System-wide:
 
-    /Library/LaunchAgents
-    /System/Library/LaunchAgents
+```text
+/Library/LaunchAgents
+/System/Library/LaunchAgents
+```
 
 Per user:
 
-    /Users/$USERNAME/Library/LaunchAgents
+```text
+/Users/$USERNAME/Library/LaunchAgents
+```
 
-These directories contain [Property list
-(plist)](property_list_(plist).md) files.
+These directories contain [Property list (plist)](property_list_(plist).md)
+files.
 
 ## Launch Daemons
 
 System-wide:
 
-    /Library/LaunchDaemons
-    /System/Library/LaunchDaemons
+```text
+/Library/LaunchDaemons
+/System/Library/LaunchDaemons
+```
 
-These directories contain [Property list
-(plist)](property_list_(plist).md) files.
+These directories contain [Property list (plist)](property_list_(plist).md)
+files.
 
 ## Startup Items
 
-    /Library/StartupItems/
-    /System/Library/StartupItems/
+```text
+/Library/StartupItems/
+/System/Library/StartupItems/
+```
 
 ## Crash Reporter
 
-    /Library/Application Support/CrashReporter
+```text
+/Library/Application Support/CrashReporter
+```
 
 Contains text files named .crash, .diag, .spin
 
 ## Diagnostic Reports
 
-    /Library/Logs/DiagnosticReports
+```text
+/Library/Logs/DiagnosticReports
+```
 
 ## Internet Plug-Ins
 
 System-wide:
 
-    /Library/Internet Plug-Ins
+```text
+/Library/Internet Plug-Ins
+```
 
 Per user:
 
-    /Users/$USERNAME/Library/Internet Plug-Ins
+```text
+/Users/$USERNAME/Library/Internet Plug-Ins
+```
 
 ## Quarantine event database
 
@@ -136,26 +166,36 @@ See
 
 Snow Leopard and earlier
 
-    /Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEvents
+```text
+/Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEvents
+```
 
-    SELECT datetime(LSQuarantineTimeStamp + 978307200, "unixepoch") as LSQuarantineTimeStamp, LSQuarantineAgentName, LSQuarantineOriginURLString, LSQuarantineDataURLString from LSQuarantineEvent;
+```sql
+SELECT datetime(LSQuarantineTimeStamp + 978307200, "unixepoch") as LSQuarantineTimeStamp, LSQuarantineAgentName, LSQuarantineOriginURLString, LSQuarantineDataURLString from LSQuarantineEvent;
+```
 
 Lion and later
 
-    /Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
+```text
+/Users/$USER/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
+```
 
 ## sleepimage
 
 This file is similar to the hibernation file on Windows.
 
-    /private/var/vm/sleepimage
+```text
+/private/var/vm/sleepimage
+```
 
 Also see: [7](https://osxdaily.com/2010/10/11/sleepimage-mac/)
 
 ## Last shutdown logs
 
-    /private/var/log/com.apple.launchd/launchd-shutdown.system.log
-    /private/var/log/com.apple.launchd/launchd-shutdown.system.log.1
+```text
+/private/var/log/com.apple.launchd/launchd-shutdown.system.log
+/private/var/log/com.apple.launchd/launchd-shutdown.system.log.1
+```
 
 ## Package Files (.PKG)
 

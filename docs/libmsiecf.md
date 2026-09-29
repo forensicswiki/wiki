@@ -1,50 +1,52 @@
 ---
 tags:
-  -  Libyal
-  -  Analysis
-  -  LGPL
-  -  Tools
+  - Analysis
+  - LGPL
+  - Libyal
+  - Tools
 ---
-The **libmsiecf** package contains a library and applications to read
-the [MSIE Cache File](internet_explorer_history_file_format.md)
-format.
+The **libmsiecf** package contains a library and applications to read the
+[MSIE Cache File](internet_explorer_history_file_format.md) format.
 
 ## Tools
 
 The libmsiecf package contains the following tools:
 
-- **msiecfexport**, which exports the items stored in MSIECF files.
-- **msiecfinfo**, which shows the information about MSIECF files.
+* **msiecfexport**, which exports the items stored in MSIECF files.
+* **msiecfinfo**, which shows the information about MSIECF files.
 
 ## Examples
 
 Exporting items from an index.dat:
 
-    msiecfexport -m items index.dat
+```bash
+msiecfexport -m items index.dat
+```
 
 Exporting recovered items from an index.dat:
 
-    msiecfexport -m recovered index.dat
+```bash
+msiecfexport -m recovered index.dat
+```
 
 Exporting an index.dat from a Chinese Windows installation:
 
-    msiecfexport -c windows-936 index.dat
+```bash
+msiecfexport -c windows-936 index.dat
+```
 
 ## History
 
-Libmsiecf was created by [Joachim Metz](joachim_metz.md) in
-2009, while working for Hoffmann Investigations.
+Libmsiecf was created by [Joachim Metz](joachim_metz.md) in 2009, while working
+for Hoffmann Investigations.
 
-Libmsiecf is a rewrite of
-[pasco](https://sourceforge.net/projects/odessa/) with support for more
-recent versions of [MSIE Cache
-Files](internet_explorer_history_file_format.md)
+Libmsiecf is a rewrite of [pasco](https://sourceforge.net/projects/odessa/) with
+support for more recent versions of [MSIE Cache Files](internet_explorer_history_file_format.md)
 
 ## See Also
 
-- [MSIE Cache Files](internet_explorer_history_file_format.md)
+* [MSIE Cache Files](internet_explorer_history_file_format.md)
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libmsiecf/)
-
+* [Project site](https://github.com/libyal/libmsiecf/)

@@ -18,7 +18,9 @@ metadata as [exif](exif.md) images.
 
 PNG files begin with the following 8-byte (hexadecimal) signature:
 
-    89 50 4E 47 0D 0A 1A 0A
+```text
+89 50 4E 47 0D 0A 1A 0A
+```
 
 # See Also
 

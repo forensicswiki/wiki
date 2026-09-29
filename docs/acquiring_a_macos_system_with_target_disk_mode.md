@@ -1,11 +1,10 @@
 ---
 tags:
-  -  Howtos
-  -  MacOS
+  - Howtos
+  - MacOS
 ---
-Make sure to [disable the disk arbitration
-daemon](disabling_macintosh_disk_arbitration_daemon.md) on the
-machine where you will do the acquisition. Alternatively use a FireWire
+Make sure to [disable the disk arbitration daemon](disabling_macintosh_disk_arbitration_daemon.md)
+on the machine where you will do the acquisition. Alternatively use a FireWire
 [write blocker](write_blockers.md)
 
 Prepare a clean firewire drive format is as [HFS+](hfs+.md)
@@ -18,7 +17,9 @@ see below.
 Note the sizes of all drives on your forensic Mac, if you don't already
 know. To find out go to:
 
-    Apple menu > About This Mac > More info > ATA
+```text
+Apple menu > About This Mac > More info > ATA
+```
 
 ## Connecting the suspect drive
 
@@ -36,11 +37,13 @@ a\. remove the drive and do a direct acquisition
 
 b\. modify the memory by adding or removing chips and zapping the PRAM.
 
-    To zap the PRAM, start up the computer and as soon as you hear the startup 'bong', hold down these four keys:
-    Command-Option-P-R.
+```text
+To zap the PRAM, start up the computer and as soon as you hear the startup 'bong', hold down these four keys:
+Command-Option-P-R.
 
-    It will bong again, and again. Continue to hold down these four keys until it has 'bonged' a total of three times
-    (the initial startup bong and two more after you hold down those four keys).
+It will bong again, and again. Continue to hold down these four keys until it has 'bonged' a total of three times
+(the initial startup bong and two more after you hold down those four keys).
+```
 
 4\. Assuming that no password was needed, hold down the “T” key and turn
 the suspect’s computer back on. The computer will eventually display the
@@ -51,8 +54,10 @@ firewire logo on the screen and is then ready for TDM.
 1\. Turn on the acquiring Mac (with the disk arbitration daemon
 disabled) 2. Start the Terminal. And at the command prompt run:
 
-    cd /dev
-    ls disk?
+```text
+cd /dev
+ls disk?
+```
 
 This will list all drives that are seen by the system. A list containing
 at least three drives will appear:
@@ -68,23 +73,27 @@ give you a hint.
 
 3\. Tho probe a drive, e.g. **/dev/disk1** you can use **pdisk**:
 
-    sudo pdisk /dev/disk1
+```text
+sudo pdisk /dev/disk1
+```
 
 The output of **pdisk** will look something like:
 
-    /dev/disk0 map block size=512
-      #: type name length base ( size )
-        1: Apple_partition_map Apple 63 @ 1
-        2: Apple_Driver43*Macintosh 56 @ 64
-        3: Apple_Driver43*Macintosh 56 @ 120
-        4: Apple_Driver_ATA*Macintosh 56 @ 176
-        5: Apple_Driver_ATA*Macintosh 56 @ 232
-        6: Apple_FWDriver Macintosh 512 @ 288
-        7: Apple_Driver_IOKit Macintosh 512 @ 800
-        8: Apple_Patches Patch Partition 512 @ 1312
-        9: Apple_HFS OS X 72600384 @ 1824 ( 34.6G)
-        10: Apple_HFS OS 8.6 5537944 @ 72602208 ( 2.6G)
-        11: Apple_Free 0+@ 78140152
+```text
+/dev/disk0 map block size=512
+    #: type name length base ( size )
+    1: Apple_partition_map Apple 63 @ 1
+    2: Apple_Driver43*Macintosh 56 @ 64
+    3: Apple_Driver43*Macintosh 56 @ 120
+    4: Apple_Driver_ATA*Macintosh 56 @ 176
+    5: Apple_Driver_ATA*Macintosh 56 @ 232
+    6: Apple_FWDriver Macintosh 512 @ 288
+    7: Apple_Driver_IOKit Macintosh 512 @ 800
+    8: Apple_Patches Patch Partition 512 @ 1312
+    9: Apple_HFS OS X 72600384 @ 1824 ( 34.6G)
+    10: Apple_HFS OS 8.6 5537944 @ 72602208 ( 2.6G)
+    11: Apple_Free 0+@ 78140152
+```
 
 5\. Partitions on an HFS are called “slices.” You can see in bold that
 this drive has a 34.6G slice listed under the number 9 and a 2.6G under
@@ -96,12 +105,14 @@ using **disk0** and **disk2** to identify all the disks.
 it is formatted as HFS, then the query in step 4 should return something
 like this.
 
-    /dev/disk2 map block size=512
-      #: type name length base ( size )
-         1: Apple_partition_map Apple 63 @ 1
-         2: Apple_Free 0+@ 64
-         3: Apple_HFS Apple_HFS_Untitled_2 239859504 @ 262208 (114.4G)
-         4: Apple_Free 0+@ 240121712
+```text
+/dev/disk2 map block size=512
+    #: type name length base ( size )
+    1: Apple_partition_map Apple 63 @ 1
+    2: Apple_Free 0+@ 64
+    3: Apple_HFS Apple_HFS_Untitled_2 239859504 @ 262208 (114.4G)
+    4: Apple_Free 0+@ 240121712
+```
 
 Notice that slice **3** is 114.4 GB in size. Slice 3 is the “working
 area” on this 120G drive and is the slice that you will make available
@@ -377,5 +388,4 @@ Jon Muller, San Jose PD, (With guidance from Derrick Donnally), July-05
 
 ## See Also
 
-- [Mac OS X](mac_os_x.md)
-
+* [Mac OS X](mac_os_x.md)

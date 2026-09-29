@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 The [Kaspersky Anti-Virus](kaspersky_anti-virus.md) quarantined
 files are stored in a [propriety file format](file_formats.md).
@@ -12,9 +12,9 @@ Kaspersky Quarantine File format.
 
 A Kaspersky Quarantine File consists of:
 
-- file header
-- obfuscated quarantined file
-- obfuscated metadata
+* file header
+* obfuscated quarantined file
+* obfuscated metadata
 
 ## File header
 
@@ -56,13 +56,15 @@ ns since January 1, 1 00:00:00 local time.
 
 E.g. the timestamp: 0x582db22720fb9bc9
 
-    import datetime
+```python
+import datetime
 
-    print datetime.datetime(1, 1, 1) + datetime.timedelta(microseconds=0x582db22720fb9bc9 / 100)
-    2014-06-25 15:01:44.164668
+print(datetime.datetime(1, 1, 1) + datetime.timedelta(microseconds=0x582db22720fb9bc9 / 100))
+2014-06-25 15:01:44.164668
+```
 
 ## See Also
 
-- [Kaspersky Anti-Virus](kaspersky_anti-virus.md)
-- [Kaspersky Report File](kaspersky_report_file.md)
+* [Kaspersky Anti-Virus](kaspersky_anti-virus.md)
+* [Kaspersky Report File](kaspersky_report_file.md)
 

@@ -11,9 +11,9 @@ history in files named **index.dat** as of version 4 up to version 9.
 
 By design these index.dat files are cache files but are used to:
 
-- keep a record of URLs that the browser has visited
-- cookies that were created by a site
-- temporary internet files that were downloaded in the cache during a
+* keep a record of URLs that the browser has visited
+* cookies that were created by a site
+* temporary internet files that were downloaded in the cache during a
   visit to a size
 
 Regardless of the information stored in the file, the file is named
@@ -39,26 +39,34 @@ The actual location can vary per version of MSIE and version of
 
 On Windows 95/98 these files were located in the following locations:
 
-    %systemdir%\Temporary Internet Files\Content.ie5
-    %systemdir%\Cookies
-    %systemdir%\History\History.ie5
+```text
+%systemdir%\Temporary Internet Files\Content.ie5
+%systemdir%\Cookies
+%systemdir%\History\History.ie5
+```
 
 On Windows 2000/XP the file locations have changed:
 
-    %systemdir%\Documents and Settings\%username%\Local Settings\Temporary Internet Files\Content.ie5
-    %systemdir%\Documents and Settings\%username%\Cookies
-    %systemdir%\Documents and Settings\%username%\Local Settings\History\history.ie5
+```text
+%systemdir%\Documents and Settings\%username%\Local Settings\Temporary Internet Files\Content.ie5
+%systemdir%\Documents and Settings\%username%\Cookies
+%systemdir%\Documents and Settings\%username%\Local Settings\History\history.ie5
+```
 
 On Windows Vista/7
 
-    %systemdir%\Users\%username%\AppData\Local\Microsoft\Windows\Temporary Internet Files\
-    %systemdir%\Users\%username%\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\
+```text
+%systemdir%\Users\%username%\AppData\Local\Microsoft\Windows\Temporary Internet Files\
+%systemdir%\Users\%username%\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\
+```
 
 Internet Explorer also keeps daily, weekly, and monthly history logs
 that will be located in a sub directory of the global history e.g. on
 Windows XP:
 
-    %systemdir%\Documents and Settings\%username%\Local Settings\History\history.ie5
+```text
+%systemdir%\Documents and Settings\%username%\Local Settings\History\history.ie5
+```
 
 The folders will be named
 `MSHist`<two-digit number><starting four-digit year><starting two-digit month><starting two-digit day><ending four-digit year><ending two-digit month><ending two-digit day>.
@@ -94,16 +102,20 @@ The IE History File contains an allocation bitmap starting from offset
 
 Every record has a similar header that consists of 8 bytes.
 
-    typedef struct _RECORD_HEADER {
-      /* 000 */ char        Signature[4];
-      /* 004 */ uint32_t    NumberOfBlocksInRecord;
-    } RECORD_HEADER;
+```text
+typedef struct _RECORD_HEADER {
+  /* 000 */ char        Signature[4];
+  /* 004 */ uint32_t    NumberOfBlocksInRecord;
+} RECORD_HEADER;
+```
 
 The size of the record can be determined from the number of blocks in
 the record; per default the block size is 128 bytes. Therefore, a length
 of
 
-    05 00 00 00
+```text
+05 00 00 00
+```
 
 would indicate five blocks (because the number is stored in
 little-endian format) of 128 bytes for a total record length of 640
@@ -130,31 +142,35 @@ These records indicate URIs that were actually requested. They contain
 the location and additional data like the web server's HTTP response.
 They begin with the header, in hexadecimal:
 
-    55 52 4C 20
+```text
+55 52 4C 20
+```
 
 This corresponds to the string `URL` followed by a space.
 
 The definition for the structure in C99 format:
 
-    typedef struct _URL_RECORD_HEADER {
-      /* 000 */ char        Signature[4];
-      /* 004 */ uint32_t    AmountOfBlocksInRecord;
-      /* 008 */ FILETIME    LastModified;
-      /* 010 */ FILETIME    LastAccessed;
-      /* 018 */ FATTIME     Expires;
-      /* 01c */
-      // Not finished yet
-    } URL_RECORD_HEADER;
+```text
+typedef struct _URL_RECORD_HEADER {
+  /* 000 */ char        Signature[4];
+  /* 004 */ uint32_t    AmountOfBlocksInRecord;
+  /* 008 */ FILETIME    LastModified;
+  /* 010 */ FILETIME    LastAccessed;
+  /* 018 */ FATTIME     Expires;
+  /* 01c */
+  // Not finished yet
+} URL_RECORD_HEADER;
 
-    typedef struct _FILETIME {
-      /* 000 */ uint32_t    lower;
-      /* 004 */ uint32_t    upper;
-    } FILETIME;
+typedef struct _FILETIME {
+  /* 000 */ uint32_t    lower;
+  /* 004 */ uint32_t    upper;
+} FILETIME;
 
-    typedef struct _FATTIME {
-      /* 000 */ uint16_t    date;
-      /* 002 */ uint16_t    time;
-    } FATTIME;
+typedef struct _FATTIME {
+  /* 000 */ uint16_t    date;
+  /* 002 */ uint16_t    time;
+} FATTIME;
+```
 
 The actual interpretation of the "LastModified" and "LastAccessed"
 fields depends on the type of history file in which the record is

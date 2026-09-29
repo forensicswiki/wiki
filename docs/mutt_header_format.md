@@ -1,16 +1,18 @@
 ---
 tags:
-  - No Category
+  - Email analysis
 ---
-    Date: Sat, 28 Jul 2007 18:29:15 +0200
-    To: Username <username@receivinghost.com>
-    Subject: header test
-    Message-ID: <20070728162915.GA2046@localhost>
-    MIME-Version: 1.0
-    Content-Type: text/plain; charset=us-ascii
-    Content-Disposition: inline
-    User-Agent: Mutt/1.5.13 (2006-08-11)
-    From: Username <username@sendinghost.com>
+```text
+Date: Sat, 28 Jul 2007 18:29:15 +0200
+To: Username <username@receivinghost.com>
+Subject: header test
+Message-ID: <20070728162915.GA2046@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.13 (2006-08-11)
+From: Username <username@sendinghost.com>
+```
 
 The format of the Message id field is:
 
@@ -28,5 +30,4 @@ The format of the Message id field is:
 10. The '@' symbol
 11. The fully qualified domain name of the sending computer.
 
-The above was based on the function `mutt_gen_msgid` in
-`mutt/sendlib.c`.
+The above was based on the function `mutt_gen_msgid` in `mutt/sendlib.c`.

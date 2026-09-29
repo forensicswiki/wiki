@@ -5,7 +5,9 @@ tags:
 ---
 On Windows XP the Restore Points can be found in:
 
-    C:\System Volume Information_restore{%GUID%}\
+```text
+C:\System Volume Information_restore{%GUID%}\
+```
 
 Where %GUID% is the machine GUID, for which the Restore Point was
 created.

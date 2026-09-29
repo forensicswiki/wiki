@@ -9,13 +9,12 @@ tags:
 
 ### Hive
 
-According to
-[1](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-hives)
+According to [Registry Hives](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-hives)
 
-    A hive is a logical group of keys, subkeys, and values in the Windows Registry that has a set of supporting files containing backups of its data.
+> A hive is a logical group of keys, subkeys, and values in the Windows
+> Registry that has a set of supporting files containing backups of its data.
 
-However in common usage the term hive often does not imply the
-supporting files.
+However in common usage the term hive often does not imply the supporting files.
 
 According to MSDN the origin of the term is bee hives.
 
@@ -65,15 +64,21 @@ as the key separator. Note that the \\ character can be used in value
 names. The / character is used in both key and value names. Some
 examples of which are:
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\NetBT\Parameters\
-    Value: Size/Small/Medium/Large
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\NetBT\Parameters\
+Value: Size/Small/Medium/Large
+```
 
-    Key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Terminal Server\VIDEO\disc\
-    Value: \Device\Video0
+```text
+Key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Terminal Server\VIDEO\disc\
+Value: \Device\Video0
+```
 
-    Key:
-    HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\services\xmlprov\Parameters\SchemaGroups\User\http://www.microsoft.com/provisioning/eaptlsuserpropertiesv1\
-    Value: SchemaFile
+```text
+Key:
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\services\xmlprov\Parameters\SchemaGroups\User\http://www.microsoft.com/provisioning/eaptlsuserpropertiesv1\
+Value: SchemaFile
+```
 
 Also, null bytes may be present in key values in order to hide data
 [3](https://binaryforay.blogspot.com/2016/01/registry-values-starting-with-null.html).
@@ -82,24 +87,26 @@ Also, null bytes may be present in key values in order to hide data
 
 Value with name "ëigenaardig" created on Windows XP codepage 1252.
 
-    value key data:
-    00000000: 76 6b 0b 00 46 00 00 00  20 98 1a 00 01 00 00 00   vk..F...  .......
-    00000010: 01 00 69 6e eb 69 67 65  6e 61 61 72 64 69 67 00   ..in.ige naardig.
-    00000020: 55 4e 49 43                                        UNIC
+```text
+value key data:
+00000000: 76 6b 0b 00 46 00 00 00  20 98 1a 00 01 00 00 00   vk..F...  .......
+00000010: 01 00 69 6e eb 69 67 65  6e 61 61 72 64 69 67 00   ..in.ige naardig.
+00000020: 55 4e 49 43                                        UNIC
 
-    value key signature                     : vk
-    value key value name size               : 11
-    value key data size                     : 0x00000046 (70)
-    value key data offset                   : 0x001a9820
-    value key data type                     : 1 (REG_SZ) String
-    value key flags                         : 0x0001
-            Value name is an ASCII string
+value key signature                     : vk
+value key value name size               : 11
+value key data size                     : 0x00000046 (70)
+value key data offset                   : 0x001a9820
+value key data type                     : 1 (REG_SZ) String
+value key flags                         : 0x0001
+        Value name is an ASCII string
 
-    value key unknown1                      : 0x6e69 (28265)
-    value key value name                    : ëigenaardig
-    value key value name hash               : 0xb78835ee
-    value key padding:
-    00000000: 00 55 4e 49 43                                     .UNIC
+value key unknown1                      : 0x6e69 (28265)
+value key value name                    : ëigenaardig
+value key value name hash               : 0xb78835ee
+value key padding:
+00000000: 00 55 4e 49 43                                     .UNIC
+```
 
 As you can see the name is stored in extended ASCII (ANSI) using
 codepage 1252.

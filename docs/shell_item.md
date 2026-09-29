@@ -28,65 +28,73 @@ in [Timeline Analysis](timeline_analysis.md).
 
 ### Notes
 
-From
-<https://learn.microsoft.com/en-us/windows/win32/shell/nse-implement#interpreting-pidls>
+From [Implementing the Basic Folder Object Interfaces - Interpreting PIDLs](https://learn.microsoft.com/en-us/windows/win32/shell/nse-implement#interpreting-pidls)
 
-    Some methods, such as IShellFolder::GetUIObjectOf, use PIDLs that are relative to the parent folder and are straightforward to interpret.
-
-    ...
-
-    What complicates the task of associating an object with a fully qualified PIDL is that one or more of the initial SHITEMID structures in the PIDL might belong to objects that lie outside your extension in the Shell namespace. You have no way of interpreting the meaning of the abID member of those structures. What your extension must do is to "walk" the list of SHITEMID structures, until you reach the structure that corresponds to your root folder. From then on, you will know how to interpret the information in the SHITEMID structures.
+> Some methods, such as IShellFolder::GetUIObjectOf, use PIDLs that are relative
+> to the parent folder and are straightforward to interpret.
+>
+> ...
+>
+> What complicates the task of associating an object with a fully qualified PIDL
+> is that one or more of the initial SHITEMID structures in the PIDL might belong
+> to objects that lie outside your extension in the Shell namespace. You have no
+> way of interpreting the meaning of the abID member of those structures. What
+> your extension must do is to "walk" the list of SHITEMID structures, until you
+> reach the structure that corresponds to your root folder. From then on, you
+> will know how to interpret the information in the SHITEMID structures.
 
 ## Example
 
 An example of a shell item list taken from **Calculator.lnk**
 
-    shell item type                     : 0x1f
-    shell item sort order               : 0x50
-    shell item folder identifier        : 20d04fe0-3aea-1069-a2d8-08002b30309d
-    shell item folder name              : My Computer
+```text
+shell item type                     : 0x1f
+shell item sort order               : 0x50
+shell item folder identifier        : 20d04fe0-3aea-1069-a2d8-08002b30309d
+shell item folder name              : My Computer
 
-    shell item type                     : 0x2f
-    shell item volume name              : C:\
+shell item type                     : 0x2f
+shell item volume name              : C:\
 
-    shell item type                     : 0x31
-    shell item file size                : 0
-    shell item modification time        : Dec 31, 2010 13:28:48 UTC
-    shell item file attribute flags     : 0x0010
-            Is directory (FILE_ATTRIBUTE_DIRECTORY)
+shell item type                     : 0x31
+shell item file size                : 0
+shell item modification time        : Dec 31, 2010 13:28:48 UTC
+shell item file attribute flags     : 0x0010
+        Is directory (FILE_ATTRIBUTE_DIRECTORY)
 
-    shell item short name               : WINDOWS
-    shell item extension size           : 38
-    shell item extension version        : 3
-    shell item creation time            : Dec 31, 2010 13:26:18 UTC
-    shell item access time              : Dec 31, 2010 13:28:52 UTC
-    shell item long name                : WINDOWS
+shell item short name               : WINDOWS
+shell item extension size           : 38
+shell item extension version        : 3
+shell item creation time            : Dec 31, 2010 13:26:18 UTC
+shell item access time              : Dec 31, 2010 13:28:52 UTC
+shell item long name                : WINDOWS
 
-    shell item type                     : 0x31
-    shell item file size                : 0
-    shell item modification time        : Dec 31, 2010 13:28:38 UTC
-    shell item file attribute flags     : 0x0010
-            Is directory (FILE_ATTRIBUTE_DIRECTORY)
+shell item type                     : 0x31
+shell item file size                : 0
+shell item modification time        : Dec 31, 2010 13:28:38 UTC
+shell item file attribute flags     : 0x0010
+        Is directory (FILE_ATTRIBUTE_DIRECTORY)
 
-    shell item short name               : system32
-    shell item extension size           : 40
-    shell item extension version        : 3
-    shell item creation time            : Dec 31, 2010 13:26:18 UTC
-    shell item access time              : Dec 31, 2010 13:28:38 UTC
-    shell item long name                : system32
+shell item short name               : system32
+shell item extension size           : 40
+shell item extension version        : 3
+shell item creation time            : Dec 31, 2010 13:26:18 UTC
+shell item access time              : Dec 31, 2010 13:28:38 UTC
+shell item long name                : system32
 
-    shell item type                     : 0x32
-    shell item file size                : 115712
-    shell item modification time        : Mar 25, 2003 12:00:00 UTC
-    shell item file attribute flags     : 0x0020
-            Should be archived (FILE_ATTRIBUTE_ARCHIVE)
+shell item type                     : 0x32
+shell item file size                : 115712
+shell item modification time        : Mar 25, 2003 12:00:00 UTC
+shell item file attribute flags     : 0x0020
+        Should be archived (FILE_ATTRIBUTE_ARCHIVE)
 
-    shell item short name               : calc.exe
-    shell item extension size           : 40
-    shell item extension version        : 3
-    shell item creation time            : Dec 31, 2010 13:06:06 UTC
-    shell item access time              : Dec 31, 2010 13:06:06 UTC
-    shell item long name                : calc.exe
+shell item short name               : calc.exe
+shell item extension size           : 40
+shell item extension version        : 3
+shell item creation time            : Dec 31, 2010 13:06:06 UTC
+shell item access time              : Dec 31, 2010 13:06:06 UTC
+shell item long name                : calc.exe
+```
 
 ## See Also
 

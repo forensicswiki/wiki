@@ -16,7 +16,9 @@ GVfs is the virtual file system for the GNOME desktop.
 The GVfs metadata can be analyzed to determine connected removable media
 and its content. This data is commonly found in:
 
-    .local/share/gvfs-metadata/
+```text
+.local/share/gvfs-metadata/
+```
 
 ## External Links
 

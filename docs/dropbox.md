@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Online File Storage
+  - Online File Storage
 ---
 ## Overview
 
@@ -41,30 +41,38 @@ other "owners".
 
 Windows XP
 
-    C:\Documents and Settings\%USERNAME%\Application Data\Dropbox\
-    C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Dropbox\
+```text
+C:\Documents and Settings\%USERNAME%\Application Data\Dropbox\
+C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Dropbox\
+```
 
 Windows Vista and later
 
-    C:\Users\%USERNAME%\AppData\Local\Dropbox\
-    C:\Users\%USERNAME%\AppData\Roaming\Dropbox\
+```text
+C:\Users\%USERNAME%\AppData\Local\Dropbox\
+C:\Users\%USERNAME%\AppData\Roaming\Dropbox\
+```
 
 Mac OS X
 
-    /Users/$USER/.dropbox/
+```text
+/Users/$USER/.dropbox/
+```
 
 Linux
 
-    /home/$USER/.dropbox/
+```text
+/home/$USER/.dropbox/
+```
 
 ### config.db and config.dbx
 
 The "config.db" SQLite database contains the configuration for the
 account. It contains:
 
-- the email address associated with the account;
-- the "host_id";
-- local path information.
+* the email address associated with the account;
+* the "host_id";
+* local path information.
 
 "config.dbx" is an encrypted variant of "config.db"
 
@@ -85,8 +93,8 @@ Japan, and the United Kingdom for eligible Dropbox business users
 
 ## External Links
 
-- [Product site](https://www.dropbox.com/)
-- [Dropbox Forensics](https://www.forensicfocus.com/articles/dropbox-forensics/)
+* [Product site](https://www.dropbox.com/)
+* [Dropbox Forensics](https://www.forensicfocus.com/articles/dropbox-forensics/)
   by Frank McClain, July 24, 2011
-- Decrypting More Dropbox Files: config.dbx,
+* Decrypting More Dropbox Files: config.dbx,
   by Magnet Forensics, November 20, 2013
