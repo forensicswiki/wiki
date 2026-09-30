@@ -45,8 +45,8 @@ There are several applications for a binary similarity function:
 
 The leading similarity systems in use are are:
 
-- sdhash, developed by Vassil Roussev.
-- ssdeep, the first widely used binary similarity
+* sdhash, developed by Vassil Roussev.
+* ssdeep, the first widely used binary similarity
   algorithm. Developed by Jesse Kornblum, this system uses a piecewise
   hash comparison algorithm originally developed for anti-spam systems.
 
@@ -54,7 +54,7 @@ The leading similarity systems in use are are:
 
 The leading text similarity system is:
 
-- sdtext, developed by Clay Sheilds.
+* sdtext, developed by Clay Sheilds.
 
 ## Similarity Bibliography
 

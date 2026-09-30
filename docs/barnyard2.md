@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Tools
-  -  Opensource
+  - Tools
+  - Opensource
 ---
 ## About
 
@@ -50,7 +50,7 @@ going to be maintained by the original developers. With the new version
 of the unified format (ie. unified2) arriving we need something to
 bridge this gap. To quote directly from the Snort FAQ:
 
-- "Barnyard is an output system for Snort. Snort creates a special
+* "Barnyard is an output system for Snort. Snort creates a special
   binary output format called unified. Barnyard reads this file, and
   then resends the data to a database backend. Unlike the database
   output plug-in, Barnyard is aware of a failure to send the alert to
@@ -63,13 +63,13 @@ been tinkering around with the code to give it a breath of new life.
 Here is what we have achieved to far for this reinvigorated code base:
 Parsing of the new unified2 log files.
 
-- Maintaining majority of the command syntax of barnyard.
-- Addressed all associated bug reports and feature requests arising
+* Maintaining majority of the command syntax of barnyard.
+* Addressed all associated bug reports and feature requests arising
   since barnyard-0.2.0.
-- Completely rewritten code based on the GPLv2 Snort making it entirely
+* Completely rewritten code based on the GPLv2 Snort making it entirely
   GPLv2.
 
 ## Sources
 
-- [Github About page](https://github.com/firnsy/barnyard2/)
-- [securixlive.com](https://firnsy.com/)
+* [Github About page](https://github.com/firnsy/barnyard2/)
+* [securixlive.com](https://firnsy.com/)

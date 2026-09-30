@@ -1,7 +1,8 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Tools
 ---
 ## External Links
 
-- [Official website](http://mbrwizard.com/)
+* [Official website](http://mbrwizard.com/)

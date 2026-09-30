@@ -9,7 +9,7 @@ built for imaging [Mac OS X](mac_os_x.md) systems.
 
 ## File Systems Understood
 
-- For Macs! Produces a [dd](dd.md) image.
+For Macs it produces a [dd](dd.md) image.
 
 ## File Search Facilities
 

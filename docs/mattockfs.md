@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 MattockFS is a computer forensics actor-framework component, computer
 forensic data-repository and message-bus implemented as
@@ -19,46 +19,46 @@ essential features that a computer forensics framework may build upon.
 MattockFS provides the following facilities to future actor-model based
 computer forensic frameworks:
 
-- **Lab-side privilege-separation equivalent of [Sealed Digital Evidence
+* **Lab-side privilege-separation equivalent of [Sealed Digital Evidence
   Bags](sealed_digital_evidence_bags.md).** After creation,
   repository data is made immutable, thus guarding the integrity of the
   data from unintended write access by untrusted modules.
-- **Trusted provenance logs.** Actors/workers roles in the processing of
+* **Trusted provenance logs.** Actors/workers roles in the processing of
   digital evidence chunks are logged to a provenance log, leaving no
   opportunity for untrusted modules to falsify or corrupt provenance
   logs.
-- **CarvPath based access to frozen (immutable) data.** Multi-layer
+* **CarvPath based access to frozen (immutable) data.** Multi-layer
   CarvPath based access in the same way as provided by
   [CarvFs](carvfs.md).
-- **Domain specific actors oriented localhost message bus.** MattockFS
+* **Domain specific actors oriented localhost message bus.** MattockFS
   provides sparse-capability based access to an Anycast message bus
   aimed specifically at use by a computer forensics framework and the
   concept of toolchains. This is basically the same functionality that
   used to be provided by the Anycast-Relay in the [Open Computer
   Forensics
   Architecture](open_computer_forensics_architecture.md).
-- **CarvPath based opportunistic hashing.** MattockFS maps all low-level
+* **CarvPath based opportunistic hashing.** MattockFS maps all low-level
   reads and writes to reads and writes on all active (either open files
   or or part of an active tool-chain) CarvPaths and will
   opportunisticaly calculate BLAKE2 hashes for these CarvPaths when
   possible.
-- **Page-cache friendly archive interaction.** MattockFS keeps track of
+* **Page-cache friendly archive interaction.** MattockFS keeps track of
   CarvPaths belonging to tool-chains that are not yet completely done.
   It will communicate with the kernel when a toolchain completes and as
   a result part of the archive should be considered to be no longer
   active (and thus can be flushed from page cache).
-- **Actor Job picking policies**: MattockFS implements multiple job
+* **Actor Job picking policies**: MattockFS implements multiple job
   CarvPath based picking policies aimed either at opportunistic hashing
   or page-cache load optimized strategies.
-- **Load balancing support**: MattockFS allows a special actor, a
+* **Load balancing support**: MattockFS allows a special actor, a
   load-balancer, to steal jobs from other (overloaded) actors in order
   to redistribute the job to an other node in a multi-host setup.
-- **Throttle information**: MattockFS provides the overlaying computer
+* **Throttle information**: MattockFS provides the overlaying computer
   forensic framework with meta-data concerning potential page-cache load
   and per Actor queue size and volume. Based on this information, actors
   should throttle their new-data output in order to avoid spurious
   page-cache misses caused by to much active evidence data at a time.
-- **Hooks for a distributed FIVES router**. In the [Open Computer
+* **Hooks for a distributed FIVES router**. In the [Open Computer
   Forensics
   Architecture](open_computer_forensics_architecture.md) a
   stateless router process was responsible for dynamic toolchain-path
@@ -78,5 +78,5 @@ programming languages (C++ and others) are planned.
 
 ## External Links
 
-- [Github page](https://github.com/pibara/MattockFS)
-- [YouTube Presentation](https://www.youtube.com/watch?v=hJCqBLfEN7Y)
+* [Github page](https://github.com/pibara/MattockFS)
+* [YouTube Presentation](https://www.youtube.com/watch?v=hJCqBLfEN7Y)

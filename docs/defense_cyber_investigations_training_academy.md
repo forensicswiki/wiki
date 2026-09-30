@@ -8,10 +8,10 @@ Center](defense_cyber_crime_center.md) based in Linthicum,
 Maryland. DCITA is a nationally accredited academy that provides
 training in four areas of study, including:
 
-- Computer Technology
-- Digital Forensics
-- Incident Response
-- Network Intrusion and Investigations
+* Computer Technology
+* Digital Forensics
+* Incident Response
+* Network Intrusion and Investigations
 
 Training is provided to all branches of the U.S. Government including
 Federal law enforcement. Training is provided in a hierarchical

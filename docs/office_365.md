@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Office 365 is a package of software provided as service on cloud
 platform. The cloud based service offers productivity through
@@ -19,8 +19,8 @@ artifacts.
 
 The administration of Exchange online is executable via:
 
-1.  A Web Console
-2.  Remote Session for PowerShell
+1. A Web Console
+2. Remote Session for PowerShell
 
 Web Console represents a collection of consoles where the top-level
 console is of Office 365 featuring the basic settings for the offered
@@ -45,10 +45,10 @@ control & monitoring on the discovery related activities.
 **Measures to be taken to ensure a controlled Discovery Management
 Group:**
 
-1.  Limited & careful addition of members to the role group
-2.  A check on the discovery activities performed on the role group
-3.  The allotment of roles like the Mailbox Search management
-4.  Access permission for discovery mailbox usage allotment
+1. Limited & careful addition of members to the role group
+2. A check on the discovery activities performed on the role group
+3. The allotment of roles like the Mailbox Search management
+4. Access permission for discovery mailbox usage allotment
 
 **Advantage:** The feature is offered in a user-friendly manner with
 self-descriptive options that can easily be adopted by record managers,
@@ -73,22 +73,22 @@ eDiscovery purposes.
 For users with authorized permission, it is feasible to execute an
 In-Place eDiscovery lookup in the following stages:
 
-- Selection of the preferred mailbox
-- Specification of search criteria in the form of:
-  - Keywords
-  - Dates from start to end
-  - Addresses of the recipient and sender
-  - Message type, etc.
-- Post search completion, users can choose one from the given actions to
+* Selection of the preferred mailbox
+* Specification of search criteria in the form of:
+  * Keywords
+  * Dates from start to end
+  * Addresses of the recipient and sender
+  * Message type, etc.
+* Post search completion, users can choose one from the given actions to
   be performed on the search result:
-  - **Estimate**: An estimate value of the total size along with number
+  * **Estimate**: An estimate value of the total size along with number
     of items is returned for the performed search (based on the
     specified criteria).
-  - **Preview**: Preview of the search results is provided, i.e.
+  * **Preview**: Preview of the search results is provided, i.e.
     messages targeted from the selected mailbox(s) are offered for
     preview.
-  - **Copy**: Enables the copying of messages to a discover mailbox
-  - **Export**: Post copying of messages to discover mailbox, export to
+  * **Copy**: Enables the copying of messages to a discover mailbox
+  * **Export**: Post copying of messages to discover mailbox, export to
     a PST file can be performed for their local storage.
 
 ## Audit Trails in Office 365
@@ -98,9 +98,9 @@ can be maintained. Performing a mailbox audit logging can help track the
 actions executed by mailbox owners, delegates, and administrators on the
 target mailbox. The three ways in which auditing can be carried out are:
 
-- Mailbox access auditing
-- Admin auditing
-- Canned reports
+* Mailbox access auditing
+* Admin auditing
+* Canned reports
 
 **Advantage:** Audit Trails offers great benefit for tracking certain
 number of mailboxes and keeping a check on the activities performed on
@@ -116,19 +116,19 @@ investigation.
 Before performing the auditing of mailboxes, residing on Office 365 it
 is important to know that:
 
-1.  Audit log entries are only sustained for duration of 90 days within
-    the mailbox by default. Change it.
-2.  Administrator with Full Access permission to a mailbox is officially
-    a delegate user.
-3.  Exchange Admin Center cannot be used for audit logging instead
-    remote PowerShell in connection with Exchange online is required.
-4.  On enabling the option for audit logging of mailbox(s), a certain
-    number of actions carried out by admin or mailbox delegates are
-    automatically logged. Change it.
+1. Audit log entries are only sustained for duration of 90 days within
+   the mailbox by default. Change it.
+2. Administrator with Full Access permission to a mailbox is officially
+   a delegate user.
+3. Exchange Admin Center cannot be used for audit logging instead
+   remote PowerShell in connection with Exchange online is required.
+4. On enabling the option for audit logging of mailbox(s), a certain
+   number of actions carried out by admin or mailbox delegates are
+   automatically logged. Change it.
 
 ### Stages of Auditing
 
-- Establish connection with Exchange Online remotely accessing
+* Establish connection with Exchange Online remotely accessing
   PowerShell
 
 \$UserCredential = Get-Credential \$Session = New-PSSession
@@ -137,20 +137,20 @@ is important to know that:
 \$UserCredential –Authentication Basic –AllowRedirection
 Import-PSSession \$Session Get-Mailbox
 
-- Enable the audit logging of mailbox
+* Enable the audit logging of mailbox
 
 ***Set-Mailbox –Identity “PiPi” –AuditEnabled \$true***
 
 ***Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails -eq
 “UserMailbox”} \| Set-Mailbox -AuditEnabled \$true***
 
-- Mention the owner actions for auditing (Optional)
+* Mention the owner actions for auditing (Optional)
 
 ***Set-Mailbox “PiPi” –AuditOwner MailboxLogin,HardDelete***
 
 ***Set-Mailbox “Doll” –AuditEnabled \$true –AuditOwner HardDelete***
 
-- Change retention duration for the entries in mailbox audit log
+* Change retention duration for the entries in mailbox audit log
   (Optional)
 
 ***Set-Mailbox –Identity “PiPi” –AuditLogAgeLimit 180***
@@ -160,5 +160,5 @@ Import-PSSession \$Session Get-Mailbox
 
 ## External Links
 
-- [Backup Office 365 Mailbox](https://www.systoolsgroup.com/office365-backup/),
+* [Backup Office 365 Mailbox](https://www.systoolsgroup.com/office365-backup/),
   by [SysTools](systools.md)

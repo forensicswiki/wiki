@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 Napatech is a leading OEM supplier of multi-port 10 GbE and 1 GbE
 intelligent adapters for real-time network analysis with over 40,000
@@ -26,7 +26,6 @@ test & measurement, security and optimization markets. The boards
 provide interception from 1 Gbps to 10 Gbps. Software is available for
 Linux, FreeBSD and Windows.
 
-## See Also
+## External Links
 
-- www.napatech.com
-
+* [Official website](www.napatech.com)

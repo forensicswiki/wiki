@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Abandoned
-  -  Tools
-  -  Windows
-  -  File Analysis
+  - Abandoned
+  - Tools
+  - Windows
+  - File Analysis
 ---
 analyzeMFT is designed to fully parse the \$MFT file system metadata
 file from an NTFS file system and present the results in multiple
@@ -19,7 +19,5 @@ it is also no longer maintained
 
 ## External Links
 
-- [Python 2 version of analyzeMFT](https://github.com/dkovar/analyzeMFT)
-- [analyzeMFT3 - Python 3 fork of
-  analyzeMFT](https://github.com/eddsalkield/analyzeMFT3)
-
+* [Python 2 version of analyzeMFT](https://github.com/dkovar/analyzeMFT)
+* [analyzeMFT3 - Python 3 fork of analyzeMFT](https://github.com/eddsalkield/analyzeMFT3)

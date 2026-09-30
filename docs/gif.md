@@ -53,5 +53,5 @@ Extension Label `FF` (hex).
 
 ## External Links
 
-- [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF)
-- [W3.Org: GRAPHICS INTERCHANGE FORMAT SPECIFICATION](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)
+* [Wikipedia: GIF](https://en.wikipedia.org/wiki/GIF)
+* [W3.Org: GRAPHICS INTERCHANGE FORMAT SPECIFICATION](https://www.w3.org/Graphics/GIF/spec-gif89a.txt)

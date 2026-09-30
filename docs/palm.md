@@ -12,12 +12,12 @@ third-party developers and original equipment manufacturers (OEMs) to
 create mobile computing solutions. The platform consists of five
 components:
 
-- The reference hardware design
-- The device operating system called the Palm OS software
-- The HotSync conduit data synchronization technology
-- The platform component tools including an applications programming
+* The reference hardware design
+* The device operating system called the Palm OS software
+* The HotSync conduit data synchronization technology
+* The platform component tools including an applications programming
   interface (API) that enables developers to write applications
-- The software interface capabilities to support hardware add-ons
+* The software interface capabilities to support hardware add-ons
 
 ## History
 
@@ -360,12 +360,12 @@ at the time.
 
 The Visor line includes:
 
-- Visor and Visor Deluxe
-- Visor Prism
-- Visor Platinum
-- Visor Edge
-- Visor Neo
-- Visor Pro
+* Visor and Visor Deluxe
+* Visor Prism
+* Visor Platinum
+* Visor Edge
+* Visor Neo
+* Visor Pro
 
 ## Treo
 

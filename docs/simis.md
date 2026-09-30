@@ -10,22 +10,22 @@ SIM Cards.
 
 **Feature Overview**
 
-- Forensically safe - no facility for the modification of system or user
+* Forensically safe - no facility for the modification of system or user
   data held on the SIM
-- Correctly handles PIN and PUK entry under controlled conditions.
-- Builds a database with unique file references for each SIM Card.
-- Searchable database with appropriate index categories.
-- Facility to read data from the SIMIS Mobile card interrogation unit.
-- Presents data in a printable format for reports.
-- Provides commented RAW data in a standard format for use in third
+* Correctly handles PIN and PUK entry under controlled conditions.
+* Builds a database with unique file references for each SIM Card.
+* Searchable database with appropriate index categories.
+* Facility to read data from the SIMIS Mobile card interrogation unit.
+* Presents data in a printable format for reports.
+* Provides commented RAW data in a standard format for use in third
   party applications.
 
 **Typically a SIMIS package consists of:**
 
-- PC based software application
-- PC/SC Smart Card Reader (USB or Serial)
-- Mini-Sim Adapter
-- USB License Key
+* PC based software application
+* PC/SC Smart Card Reader (USB or Serial)
+* Mini-Sim Adapter
+* USB License Key
 
 There is also the option to use a PC Card (PCMCIA) Reader for laptops
 and notebooks.
@@ -78,10 +78,10 @@ every needs.
 
 **SIMIS 3G is comprised of:**
 
-- USB card readers (PCSC Industry standard)
-- PC software on CDROM
-- mini sim adapter and USIM storage card
-- license
+* USB card readers (PCSC Industry standard)
+* PC software on CDROM
+* mini sim adapter and USIM storage card
+* license
 
 ## SIMIS Mobile
 
@@ -102,20 +102,20 @@ catered for.
 
 **The browser function allows viewing of:**
 
-- ICC and IMSI
-- ADN
-- FDN
-- LDN
-- SDN
-- MSISDN
-- SMS
-- SMSP
+* ICC and IMSI
+* ADN
+* FDN
+* LDN
+* SDN
+* MSISDN
+* SMS
+* SMSP
 
 **The SIMIS Mobile package includes:**
 
-- Small hand-held card reader for use in the field
-- 8 x Data Transfer cards (enabling SIM cloning)
-- Batteries
+* Small hand-held card reader for use in the field
+* 8 x Data Transfer cards (enabling SIM cloning)
+* Batteries
 
 ## SIMIS Engine
 

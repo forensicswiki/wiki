@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 The **Global Positioning System** (**GPS**) is a satellite navigation
 system.
@@ -112,21 +112,21 @@ mount as a Mass Storage Unit when and if it is recognized.
 
 Files that may contain useful information when opened in a text editor:
 
-- /App/Unit.xml
-  - This file contains information about the unit such as Model and
+* /App/Unit.xml
+  * This file contains information about the unit such as Model and
     Serial number.
-- /App/Media.cfg
-  - This file is a short list of what types of files are stored in the
+* /App/Media.cfg
+  * This file is a short list of what types of files are stored in the
     file structure. (e.g. User data is stored in /USR)
-- /Sys/USBTRANS/Unit_ID.dat
-  - This file is similar to Unit.xml. It contains more information such
+* /Sys/USBTRANS/Unit_ID.dat
+  * This file is similar to Unit.xml. It contains more information such
     as Operating System Version and Firmware version.
-- /USR/TGUSERA.dat
-  - This file may contain addresses, phone numbers and some user set
+* /USR/TGUSERA.dat
+  * This file may contain addresses, phone numbers and some user set
     points such as "Home". There is no recognizable structure to this
     data so finding useful data is difficult.
-- /USR/CITYHIST.dat
-  - This file may contain cities entered into the unit by a user. Like
+* /USR/CITYHIST.dat
+  * This file may contain cities entered into the unit by a user. Like
     TGUSERA.dat, there is little structure here. Unfortunately, only
     City and State may be listed here.
 

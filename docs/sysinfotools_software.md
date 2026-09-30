@@ -54,20 +54,20 @@ recovery, these software products are so designed that they are feasible
 and easily adaptable to all range of our elite customers to easily
 operate and enjoy the benefits from them.
 
-- [NSF Merge Tool](nsf_merge_tool.md) An
+* [NSF Merge Tool](nsf_merge_tool.md) An
   outstanding tool to merge two NSF files into a single file
-- [PST File Viewer](pst_file_viewer.md) PST
+* [PST File Viewer](pst_file_viewer.md) PST
   File Viewer is a freeware tool to read, view and open MS Outlook PST
   files without even using Microsoft Outlook
-- [OST File Viewer](ost_file_viewer.md) This
+* [OST File Viewer](ost_file_viewer.md) This
   freeware tool helps to read, view and open corrupt OST files.
-- [DBX Recovery Tool](dbx_recovery_tool.md) A
+* [DBX Recovery Tool](dbx_recovery_tool.md) A
   diverse tool to recover and restore corrupt, impaired and inaccessible
   Outlook Express DBX files seamlessly
-- [DBX To PST Converter](dbx_to_pst_converter.md) A
+* [DBX To PST Converter](dbx_to_pst_converter.md) A
   conversion tool which let users to import their Outlook Express DBX
   files to MS Outlook PST format
-- [SQL Database Recovery Tool](sql_database_recovery_tool.md) Repair
+* [SQL Database Recovery Tool](sql_database_recovery_tool.md) Repair
   cum Recovery Tool to repair, recover and restore corrupt SQL Database
   files.
 

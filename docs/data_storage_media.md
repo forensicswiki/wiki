@@ -7,15 +7,15 @@ different properties regarding forensic investigation.
 
 ## Media
 
-- Caches
-- RAM, ROM, Flash
-- Floppy Disks
-- Optical media: CDs, DVDs, CD-RWs, ...
-- [Hard drives](hard_drive.md)
-- USB thumb drives
-- Memory cards, Smartcards, [SIM cards](sim_cards.md), [RFID tags](rfid.md), ...
-- [Tapes](tape.md)
-- [SSD](solid_state_drives.md)
+* Caches
+* RAM, ROM, Flash
+* Floppy Disks
+* Optical media: CDs, DVDs, CD-RWs, ...
+* [Hard drives](hard_drive.md)
+* USB thumb drives
+* Memory cards, Smartcards, [SIM cards](sim_cards.md), [RFID tags](rfid.md), ...
+* [Tapes](tape.md)
+* [SSD](solid_state_drives.md)
 
 ## External Links
 

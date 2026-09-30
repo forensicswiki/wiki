@@ -17,21 +17,21 @@ these communication methods.
 
 Supported Cell Phone Manufacturers
 
-- LG
-- Motorola - Including iDen
-- Nokia
-- Siemens
-- Samsung
-- Sony-Ericsson
+* LG
+* Motorola - Including iDen
+* Nokia
+* Siemens
+* Samsung
+* Sony-Ericsson
 
 Paraben's Device Seizure supports PDAs with the following Operating
 Systems:
 
-- Palm through 5.4
-- Windows CE/Pocket PC/Mobile 5.0 and earlier
-- BlackBerry 4.x and earlier
-- Symbian 6.0, 6.1, 7.X, 8.X, & 9.X
-- EPOC 16/32 (Psion devices)
+* Palm through 5.4
+* Windows CE/Pocket PC/Mobile 5.0 and earlier
+* BlackBerry 4.x and earlier
+* Symbian 6.0, 6.1, 7.X, 8.X, & 9.X
+* EPOC 16/32 (Psion devices)
 
 Paraben's Device Seizure supports GSM SIM cards with use of a SIM card
 reader (which can be found in Device Seizure Toolbox).
@@ -39,8 +39,8 @@ reader (which can be found in Device Seizure Toolbox).
 Paraben's Device Seizure also supports the following types of GPS
 Devices with more manufacturers to follow:
 
-- Garmin
+* Garmin
 
-## External links
+## External Links
 
 * [Product website](https://paraben.com/e3-mobile-smartphone-forensics/)

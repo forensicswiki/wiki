@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 '<img src="paulohm.jpg" title="paulohm.jpg" width="200"
 alt="paulohm.jpg" /> *Paul Ohm*' is a professor at the University of
@@ -10,5 +10,4 @@ written several papers related to the law and computer forensics.
 
 ## External Links
 
-- [Official website](https://www.paulohm.com/)
-
+* [Official website](https://www.paulohm.com/)

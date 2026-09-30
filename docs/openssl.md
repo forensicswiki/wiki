@@ -1,15 +1,15 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 OpenSSL is an open source software system that provides the following:
 
-- Forensic-grade implementations of the most widely used hash functions.
-- Symmetric cryptographic functions
-- Asymmetric cryptographic function
-- Certificate management functions
-- A complete S/MIME implementation
-- A complete SSL/TLS implementation
+* Forensic-grade implementations of the most widely used hash functions.
+* Symmetric cryptographic functions
+* Asymmetric cryptographic function
+* Certificate management functions
+* A complete S/MIME implementation
+* A complete SSL/TLS implementation
 
 OpenSSL is interesting for forensic practitioners and developers because
 it provides a basic toolkit for building software, and because the
@@ -35,64 +35,88 @@ following extensions to seem to be commonly used:
 
 # Conversion
 
-- convert pem to pkcs12:
+* convert pem to pkcs12:
 
-` % openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'`
+```bash
+$ openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'
+```
 
-- convert pkcs12 to pem, putting both private key and certificate in the
+* convert pkcs12 to pem, putting both private key and certificate in the
   same file
 
-` % openssl pkcs12 -in mpage.p12 -out mpage.pem`
+```bash
+$ openssl pkcs12 -in mpage.p12 -out mpage.pem
+```
 
-- The same, but with no encryption of file
+* The same, but with no encryption of file
 
-` % openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes`
+```bash
+$ openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes
+```
 
-- Decrypt a PEM file private key:
+* Decrypt a PEM file private key:
 
-` % openssl rsa -in newreq.pem -out key.pem`
+```bash
+$ openssl rsa -in newreq.pem -out key.pem
+```
 
-- Print the contents of a certificate
+* Print the contents of a certificate
 
-` % openssl x509 -in mpage.pem -text`
+```bash
+$ openssl x509 -in mpage.pem -text
+```
 
-- Input the PKCS12 file and output a key file and a cert file:
+* Input the PKCS12 file and output a key file and a cert file:
 
-`openssl pkcs12 -in slg.p12 -out slg.key -nocerts -nodes`
-`openssl pkcs12 -in slg.p12 -out slg.pem -nokeys -nodes`
+```bash
+openssl pkcs12 -in slg.p12 -out slg.key -nocerts -nodes
+openssl pkcs12 -in slg.p12 -out slg.pem -nokeys -nodes
+```
 
 # Making Certificates
 
 To make certificates all in one step:
 
-` openssl req -new -x509 -nodes -out imapd.pem -keyout imapd.pem -days 3650`
+```bash
+openssl req -new -x509 -nodes -out imapd.pem -keyout imapd.pem -days 3650
+```
 
 Make a certificate request for a CA to sign:
 
-` openssl req -newkey rsa:1024 -keyout mycert.key -out mycert.csr -nodes`
+```bash
+openssl req -newkey rsa:1024 -keyout mycert.key -out mycert.csr -nodes
+```
 
 To make an RSA key and then use the key to make the certificate signing
 request:
 
-` openssl genrsa -out myfile.key 1024`
-` openssl req -new -key myfile.key -out myfile.csr`
+```bash
+openssl genrsa -out myfile.key 1024
+openssl req -new -key myfile.key -out myfile.csr
+```
 
 # Get a certificate from an SSL server
 
-` openssl s_client -connect www.nitroba.com:443`
+```bash
+openssl s_client -connect www.nitroba.com:443
+```
 
 # Viewing Certificates
 
-` openssl x509 -in ssl.crt-text`
+```bash
+openssl x509 -in ssl.crt-text
+```
 
 # S/MIME
 
-- to sign an outgoing mail:
+* to sign an outgoing mail:
 
-``    from_email = `openssl x509 -email -in certfile.pem -noout` ``
-``    x509_subject = `openssl x509 -subject -in certfile.pem -noout` ``
-`   openssl smime -from %s  -to %s  -subject %s -sign -inkey file -signer %s -in tempfile.txt extra`
+```text
+from_email = `openssl x509 -email -in certfile.pem -noout
+x509_subject = `openssl x509 -subject -in certfile.pem -noout
+openssl smime -from %s  -to %s  -subject %s -sign -inkey file -signer %s -in tempfile.txt extra
+```
 
 # See Also
 
-- <https://www.oreilly.com/radar/?page=4>
+* <https://www.oreilly.com/radar/?page=4>

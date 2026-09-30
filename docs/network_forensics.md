@@ -32,82 +32,82 @@ available.
 
 ## Tips and Tricks
 
-- The time between two events triggered by an intruder (as seen in
+* The time between two events triggered by an intruder (as seen in
   logfiles, for example) can be helpful. If it is very short, you can be
   pretty sure that the actions were performed by an automated script and
   not by a human user.
 
 ## See also
 
-- [Wireless forensics](wireless_forensics.md)
-- [SSL forensics](ssl_forensics.md)
-- [IP geolocation](ip_geolocation.md)
-- [Tools: Network Forensics](tools_network_forensics.md)
-- [Tools: Logfile Analysis](logfile_analysis.md#tools)
+* [Wireless forensics](wireless_forensics.md)
+* [SSL forensics](ssl_forensics.md)
+* [IP geolocation](ip_geolocation.md)
+* [Tools: Network Forensics](tools_network_forensics.md)
+* [Tools: Logfile Analysis](logfile_analysis.md#tools)
 
-## External links
+## External Links
 
-- [Default Time To Live (TTL) values](http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/)
-- [http2 explained](https://daniel.haxx.se/http2/), by Daniel Stenberg,
+* [Default Time To Live (TTL) values](http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/)
+* [http2 explained](https://daniel.haxx.se/http2/), by Daniel Stenberg,
   February 18, 2015
 
 ## Tools
 
 ### Open Source Network Forensics
 
-- [Argus](argus.md)
-- [Bulk Extractor](bulk_extractor.md)
-- [Chaosreader](chaosreader.md) is a session reconstruction tool
+* [Argus](argus.md)
+* [Bulk Extractor](bulk_extractor.md)
+* [Chaosreader](chaosreader.md) is a session reconstruction tool
   (supports both live or captured network traffic)
-- [FlowGREP](https://www.monkey.org/~jose/software/flowgrep/) is a basic IDS/IPS tool written in
+* [FlowGREP](https://www.monkey.org/~jose/software/flowgrep/) is a basic IDS/IPS tool written in
   Python
-- [KisMAC](kismac.md) is a free, open source wireless stumbling
+* [KisMAC](kismac.md) is a free, open source wireless stumbling
   and security tool for Mac OS X.
-- [Kismet](kismet.md)
-- [logstash](https://www.elastic.co/logstash) is a tool for managing events and
+* [Kismet](kismet.md)
+* [logstash](https://www.elastic.co/logstash) is a tool for managing events and
   logs. You can use it to collect logs, parse them, and store them for
   later use (like, for searching). Speaking of searching, logstash comes
   with a web interface for searching and drilling into all of your logs.
-- [log2Timeline](log2timeline.md) a framework for automatic
+* [log2Timeline](log2timeline.md) a framework for automatic
   creation of a super timeline. The main purpose is to provide a single
   tool to parse various log files and artifacts found on suspect systems
   (and supporting systems, such as network equipment) and produce a
   timeline that can be analysed by forensic investigators/analysts.
-- [NetFSE](netfse.md) is a web-based search and analysis application for
+* [NetFSE](netfse.md) is a web-based search and analysis application for
    high-volume network data.
-- [ntop](ntop.md)
-- [NetGREP](https://pypi.org/project/netgrep/) is a command line tool which tells you
+* [ntop](ntop.md)
+* [NetGREP](https://pypi.org/project/netgrep/) is a command line tool which tells you
   which lines in a text file contain network resources related to a
   particular country or Autonomous Network (AS)
-- [NetworkMiner](networkminer.md) is an open source Network Forensics Tool available at [SourceForge](https://sourceforge.net/projects/networkminer/)
-- [OSSEC](ossec.md)
-- [Plaso](plaso.md)  (Plaso Langar Að Safna Öllu), or super timeline all the
+* [NetworkMiner](networkminer.md) is an open source Network Forensics Tool available at [SourceForge](https://sourceforge.net/projects/networkminer/)
+* [OSSEC](ossec.md)
+* [Plaso](plaso.md)  (Plaso Langar Að Safna Öllu), or super timeline all the
   things, is a Python-based engine used by several tools for automatic creation
   of timelines. Plaso default behavior is to create super timelines but it also
   supports creating more targeted timelines.
-- [RegRipper](regripper.md) is an open source tool, written in
+* [RegRipper](regripper.md) is an open source tool, written in
   Perl, for extracting/parsing information (keys, values, data) from the
   Registry and presenting it for analysis
-- [Snort](snort.md)
-- [Wireshark](wireshark.md)
-- [Xplico](xplico.md).
+* [Snort](snort.md)
+* [Wireshark](wireshark.md)
+* [Xplico](xplico.md).
 
 ### Commercial Network Forensics
 
 #### Deep-Analysis Systems
 
-- [E-Detective](https://www.edecision4u.com/)
-- [InfoWatch Traffic Monitor](https://infowatch.com/)
-- Mera Systems [NetBeholder](https://videonadzor.net/)
-- NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
-- NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
+* [E-Detective](https://www.edecision4u.com/)
+* [InfoWatch Traffic Monitor](https://infowatch.com/)
+* Mera Systems [NetBeholder](https://videonadzor.net/)
+* NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
+* NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
   Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)
-- [Network Instruments](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
-- NIKSUN's NetDetector
-- [PacketMotion](https://www.vmware.com/company/acquisitions.html)
-- WildPackets [OmniPeek](omnipeek.md)
-- [Xplico](xplico.md)
-- [Expert Team - 3i System](http://expert-team.net/home/)
+* [Network Instruments](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
+* NIKSUN's NetDetector
+* [PacketMotion](https://www.vmware.com/company/acquisitions.html)
+* WildPackets [OmniPeek](omnipeek.md)
+* [Xplico](xplico.md)
+* [Expert Team - 3i System](http://expert-team.net/home/)
 
 #### Flow-Based Systems
 

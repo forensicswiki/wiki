@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## Overview
 
@@ -19,20 +19,14 @@ because of incorrect operations to maintain the user data intact.
 
 ## Highlights of HD HPE PRO
 
-- Universal-fit workbench assures you to operate on your HD on a
+* Universal-fit workbench assures you to operate on your HD on a
   relatively stable table, making your job easier and more reliable.
-
-<!-- -->
-
-- Platter exchanger maintains the original cylinder status by removing
+* Platter exchanger maintains the original cylinder status by removing
   and placing each platter of the multiple platters together, so that
   allows you to change multiple platters without moving the platters out
   of alignment with each other which otherwise will result in data
   corruption.
-
-<!-- -->
-
-- Special Actuator Remover assures you to perform easy operation
+* Special Actuator Remover assures you to perform easy operation
   (removal, installation) on the upper magnet of the actuator which is
   very hard to be removed and put back because of its strong magnetism
   and it’s sensitive and embarrassed position (being very close to both

@@ -11,14 +11,14 @@ systems and perform some analysis.
 
 ## File Systems Understood
 
-- FAT12, FAT16, FAT32
-- NTFS
-- Solaris UFS
-- Linux ext2/ext3
+* FAT12, FAT16, FAT32
+* NTFS
+* Solaris UFS
+* Linux ext2/ext3
 
 ## File Search Facilities
 
-- Uses a set of Perl scrypts.
+* Uses a set of Perl scrypts.
 
 ## Historical Reconstruction
 
@@ -36,7 +36,7 @@ values to any databases? What sort of hash functions does it use?
 
 ## Evidence Collection Features
 
-- Generates an XML-based report about the analysis.
+* Generates an XML-based report about the analysis.
 
 # History
 

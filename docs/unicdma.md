@@ -12,7 +12,7 @@ tags:
 * Qualcomm
 * Samsung SPH-A460
 * Samsung (general)
-* Samsung SCH-X127/X250/X350/…
+* Samsung SCH-X127/X250/X350/...
 * Sky IM-1200/1400/2000/etc.
 * Withus
 

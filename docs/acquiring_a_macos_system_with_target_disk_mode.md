@@ -62,9 +62,9 @@ ls disk?
 This will list all drives that are seen by the system. A list containing
 at least three drives will appear:
 
-- disk0
-- disk1
-- disk2
+* disk0
+* disk1
+* disk2
 
 One of these drives is the suspect’s. The other two are either the
 forensic Mac’s OS or the **Target** drive. You won’t necessarily know

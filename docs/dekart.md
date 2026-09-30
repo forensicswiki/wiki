@@ -15,7 +15,7 @@ The following Dekart software is described on Forensics Wiki:
 * [SIM Manager](sim_manager.md), a tool designed to manage the
   contents of SIM cards, it also provides an SMS recovery option.
 
-## External links
+## External Links
 
 * [Dekart website](https://www.dekart.com/)
 * [The company's philosophy](https://www.dekart.com/company/our_philosophy)

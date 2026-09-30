@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Organization
+  - Articles that need to be expanded
+  - Organization
 ---
 This page describes a federal investigative agency of the U.S.  Government, not
 the [CBS television show](https://www.cbs.com/shows/).
@@ -11,4 +11,4 @@ inside of the U.S. Navy that is staffed entirely by civilians.
 
 ## External Links
 
-- [Official website](https://www.ncis.navy.mil/)
+* [Official website](https://www.ncis.navy.mil/)

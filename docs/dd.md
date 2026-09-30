@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Linux
-  -  Windows
-  -  MacOS
-  -  FreeBSD
-  -  Disk Imaging
-  -  Tools
-  -  Anti-Forensics
+  - Linux
+  - Windows
+  - MacOS
+  - FreeBSD
+  - Disk Imaging
+  - Tools
+  - Anti-Forensics
 ---
 **dd**, sometimes called **GNU dd**, is the oldest [disk imaging
 tool](disk_imaging.md) still used. Although it is functional and requires only
@@ -145,15 +145,15 @@ home archive and will miss the srv archive.
 
 ## See also
 
-- [aimage](aimage.md)
-- [Blackbag](blackbag.md)
-- [dc3dd](dc3dd.md)
-- [dcfldd](dcfldd.md)
-- [dd_rescue](dd_rescue.md)
-- [ddrescue](ddrescue.md)
-- [mdd](mdd.md)
-- [Raw Image Format](raw_image_format.md)
+* [aimage](aimage.md)
+* [Blackbag](blackbag.md)
+* [dc3dd](dc3dd.md)
+* [dcfldd](dcfldd.md)
+* [dd_rescue](dd_rescue.md)
+* [ddrescue](ddrescue.md)
+* [mdd](mdd.md)
+* [Raw Image Format](raw_image_format.md)
 
 ## External Links
 
-- [LinuxJournal article about dd](https://www.linuxjournal.com/article/1320)
+* [LinuxJournal article about dd](https://www.linuxjournal.com/article/1320)

@@ -111,9 +111,9 @@ RegXML, a deep-hierarchy structure created by extending the
 
 ## See Also
 
-- A. Nelson, “RegXML: XML conversion of the Windows Registry for
+* A. Nelson, “RegXML: XML conversion of the Windows Registry for
   forensic processing and distribution,” in Advances in Digital
   Forensics VIII, ser. IFIP Advances in Information and Communication
   Technology, K.-P. Chow and S. Shenoi, Eds. Springer, 2012.
-- [RegXML Extractor](https://github.com/ajnelson/regxml_extractor) (on
+* [RegXML Extractor](https://github.com/ajnelson/regxml_extractor) (on
   github)

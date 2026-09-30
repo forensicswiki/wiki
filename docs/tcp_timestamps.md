@@ -47,6 +47,6 @@ Following tools can automate this process:
 
 * [Nmap](nmap.md)
 
-## Links
+## External Links
 
 * [RFC 1323](http://rfc.net/rfc1323.html)

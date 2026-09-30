@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **DFL-SRP For Samsung Firmware Repair Tool** is one top-class USB3.0
 Samsung hard drive firmware repair hardware tool fixing firmware
@@ -10,11 +10,11 @@ modules, reset smart, remove password, repair bad sectors, edit SN,
 models, capacities, etc. Users with this tool usually have a higher
 success rate and stay more competitive.
 
+## See Also
+
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Tools:Data_Recovery](tools_data_recovery.md)
+
 ## External Links
 
-- [DFL-SRP For Samsung Firmware Repair
-  Tool](https://www.dolphindatalab.com/product/dfl-srp-for-samsung-firmware-repair-tool/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Tools:Data_Recovery](tools_data_recovery.md)
+* [DFL-SRP For Samsung Firmware Repair Tool](https://www.dolphindatalab.com/product/dfl-srp-for-samsung-firmware-repair-tool/)

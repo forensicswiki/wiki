@@ -13,7 +13,7 @@ database](notes_storage_facility_(nsf).md) format.
 
 The **libnsfdb** package contains the following tools:
 
-- **nsfdbinfo**, which shows information about NSF database files.
+* **nsfdbinfo**, which shows information about NSF database files.
 
 ## History
 
@@ -22,4 +22,4 @@ while working for Hoffmann Investigations.
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libnsfdb/)
+* [Project site](https://github.com/libyal/libnsfdb/)

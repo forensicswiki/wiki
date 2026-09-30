@@ -195,9 +195,9 @@ investigators that set the ﬁeld apart. We point out the assumptions,
 often limited or incorrect, made about forensics in past work, and
 discuss how these assumptions limit the impact of contributions.
 
-- [Usenix Presentation](https://www.usenix.org/conference/hotsec11/effective-digital-forensics-research-investigator-centric)
-- [Slides](https://www.usenix.org/events/hotsec11/tech/slides/walls.pdf)
-- [paper](https://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
+* [Usenix Presentation](https://www.usenix.org/conference/hotsec11/effective-digital-forensics-research-investigator-centric)
+* [Slides](https://www.usenix.org/events/hotsec11/tech/slides/walls.pdf)
+* [paper](https://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
 
 <small>March 2012</small> <bibtex>
 @inproceedings{Balasubramaniyan:2010:PUS:1866307.1866320,
@@ -375,23 +375,23 @@ Sleuth Kit and Open Source Digital Forensics Conference
 The slides from the first ever Sleuth Kit and Open Source Digital
 Forensics Conference are now available online:
 
-- <https://www.osdfcon.org/>
+* <https://www.osdfcon.org/>
 
 Highlights include:
 
-- [The Sleuth Kit Overview and Automated Scanning Features](https://www.basistech.com/about/events/)
+* [The Sleuth Kit Overview and Automated Scanning Features](https://www.basistech.com/about/events/)
   (Brian Carrier)
-- [Faster Response with Sleuth Kit and Other Open Source Technologies](https://www.basistech.com/about/events/)
+* [Faster Response with Sleuth Kit and Other Open Source Technologies](https://www.basistech.com/about/events/)
   (Jamie Butler and Jason Shiffer)
-- [PTK Forensics after Two years: Past, Present and Future](https://www.basistech.com/about/events/)
+* [PTK Forensics after Two years: Past, Present and Future](https://www.basistech.com/about/events/)
   (Dario Forte)
-- [Mac Forensic Tools Using Sleuth Kit](https://www.basistech.com/about/events/)
+* [Mac Forensic Tools Using Sleuth Kit](https://www.basistech.com/about/events/)
   (Rob Joyce)
-- [Commando Forensics: What Dongle?](https://www.basistech.com/about/events/)
+* [Commando Forensics: What Dongle?](https://www.basistech.com/about/events/)
   (Cory Altheide)
-- [AFF and AFF4: Where we are, where we are going, and why it matters to you.](https://www.basistech.com/about/events/)
+* [AFF and AFF4: Where we are, where we are going, and why it matters to you.](https://www.basistech.com/about/events/)
   (Simson Garfinkel)
-- [Timeline Creation using Open-Source Tools](https://www.basistech.com/about/events/)
+* [Timeline Creation using Open-Source Tools](https://www.basistech.com/about/events/)
   (Harlan Carvey)
 
 <small>MARCH-2010</small>
@@ -483,9 +483,9 @@ render any recovered data worthless."
 The paper opens discussion about building forensically sound Live CD
 distributions based on Linux. Problems described:
 
-- Common misconceptions about "-o ro" mount option (is it forensically
+* Common misconceptions about "-o ro" mount option (is it forensically
   sound?);
-- Bugs in many forensic Live CDs that alter the data on evidentiary
+* Bugs in many forensic Live CDs that alter the data on evidentiary
   media.
 
 <small>September-2009</small>

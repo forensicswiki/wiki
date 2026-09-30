@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Nosql databases are databases that offer persistence and indexed search
 without the SQL query load.
@@ -10,7 +10,5 @@ without the SQL query load.
 Several have argued that it may be interesting to use NoSQL databases for
 forensic purposes. Specific databases to consider and their reasons are:
 
-- [MongoDB](https://www.mongodb.com/)
-- [CouchDB](https://couchdb.apache.org/)
-
-## Forensics of Nosql Databases
+* [MongoDB](https://www.mongodb.com/)
+* [CouchDB](https://couchdb.apache.org/)

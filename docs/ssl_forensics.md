@@ -55,7 +55,7 @@ traditional *man-in-the-middle* attack. Tor also sends
 application data in chunks to make it harder to guess exactly how many
 bytes users are communicating.
 
-## Links
+## External Links
 
 * [RFC 2246 (TLS 1.0)](http://rfc.net/rfc2246.html)
 * [RFC 4346 (TLS 1.1)](http://rfc.net/rfc4346.html)

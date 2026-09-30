@@ -7,5 +7,5 @@ laptop computer and is used on some other machines.
 
 ## See Also
 
-- <http://wiki.openmoko.org/wiki/Userspace_root_image> - Mounting the
+* <http://wiki.openmoko.org/wiki/Userspace_root_image> - Mounting the
   JFFS2 image on a loop back device

@@ -124,5 +124,4 @@ flag instead of `-d`.
 
 ## External Links
 
-- [Official website](https://ssdeep-project.github.io/ssdeep/)
-
+* [Official website](https://ssdeep-project.github.io/ssdeep/)

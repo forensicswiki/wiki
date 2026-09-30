@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **DFL-SRP USB3.0 For Data Extraction** is one world famous recovery
 equipment with disk imaging, file extraction & common firmware repair
@@ -9,11 +9,11 @@ to 180mb/s each channel & over 300mb/s for ssd. Engineers worldwide are
 using this equipment with big success. Users with this tool usually have
 a higher success rate and stay more competitive.
 
+## Also See
+
+* [Dolphin_Data_Lab](dolphin_data_lab.md)
+* [Tools:Data_Recovery](tools_data_recovery.md)
+
 ## External Links
 
-- [DFL-SRP USB3.0 For Data
-  Extraction](https://www.dolphindatalab.com/product/dfl-srp-usb3-0-for-data-extraction/)
-
-[Dolphin_Data_Lab](dolphin_data_lab.md)
-
-[Tools:Data_Recovery](tools_data_recovery.md)
+* [DFL-SRP USB3.0 For Data Extraction](https://www.dolphindatalab.com/product/dfl-srp-usb3-0-for-data-extraction/)

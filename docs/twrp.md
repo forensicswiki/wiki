@@ -120,6 +120,6 @@ now be like factory new. If the phone still goes into a bootloop, try a
 different image. If the phone appears frozen on a splash screen, give it
 a good half hour before re-trying the process.
 
-## External links
+## External Links
 
 * [TeamWin - TWRP](https://twrp.me/)

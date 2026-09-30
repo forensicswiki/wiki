@@ -19,12 +19,12 @@ Sierra 10.13 released to the public on September 25, 2017.
 Max file size of 2<sup>63</sup> bytes was mantinted from
 [HFS+](hfs+.md) and new features include:
 
-- Snapshots (can be mounted read-only)
-- Atomic Safe-save (single transaction save)
-- File and directory clones (without using additional storage space)
-- Space-Sharing (volumes grow and shrink, sharing underlying free space)
-- Sparse file support (more efficient empty space representation)
-- Fast directory sizing (more efficient total space computation of a
+* Snapshots (can be mounted read-only)
+* Atomic Safe-save (single transaction save)
+* File and directory clones (without using additional storage space)
+* Space-Sharing (volumes grow and shrink, sharing underlying free space)
+* Sparse file support (more efficient empty space representation)
+* Fast directory sizing (more efficient total space computation of a
   directory)
 
 <CENTER>

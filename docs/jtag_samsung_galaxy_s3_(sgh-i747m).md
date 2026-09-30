@@ -35,9 +35,9 @@ What you need to dump the NAND:
 Instructions for disassembly can be found on Internet but it can be
 summarized as follows:
 
-- Remove the rear cover and battery.
-- Remove the 10 x Phillips screws.
-- Remove the rear plate using a case opening tool (guitar pick).
+* Remove the rear cover and battery.
+* Remove the 10 x Phillips screws.
+* Remove the rear plate using a case opening tool (guitar pick).
 
  <img src="../assets/images/1-samsung-s3-sgh-i747m-front.jpg"
  title="1-samsung-s3-sgh-i747m-front.jpg" width="600"
@@ -63,7 +63,7 @@ alt="4-samsung-s3-sgh-i747m-disassembly-bezel.jpg" />
 <figcaption
 aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
 
-- Once the phone has been disassembled, you can see the JTAG connection
+* Once the phone has been disassembled, you can see the JTAG connection
   port located closed to the edge of the PCB near the ribbon cable.
 
  <img src="../assets/images/5-samsung-s3-sgh-i747m-disassembly-final.jpg"
@@ -72,7 +72,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
  <figcaption
  aria-hidden="true">5-samsung-s3-sgh-i747m-disassembly-final.jpg</figcaption>
 
-- The JTAG pinouts are as follows.
+* The JTAG pinouts are as follows.
 
  <img src="../assets/images/6-samsung-s3-sgh-i747m-jtag-header.jpg"
  title="6-samsung-s3-sgh-i747m-jtag-header.jpg" width="1000"
@@ -80,7 +80,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
  <figcaption
  aria-hidden="true">6-samsung-s3-sgh-i747m-jtag-header.jpg</figcaption>
 
-- Solder the JTAG connector to the JTAG port as follows. I used 0.040
+* Solder the JTAG connector to the JTAG port as follows. I used 0.040
   gauge magnet wire, connected to breadboard pins, which were inserted
   into the 20 pin ribbon cable supplied with the RIFF box.
 
@@ -90,7 +90,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
  <figcaption
  aria-hidden="true">7-samsung-s3-sgh-i747m-jtag-solder.jpg</figcaption>
 
-- Connect the PCB battery terminal connections to the DC power supply.
+* Connect the PCB battery terminal connections to the DC power supply.
   The positive (+) connection is the outermost pin (1) and the negative
   (-) pin is pin (3). You can configure your power supply to match the
   battery specifications which in this case is 3.8V and 2.1A but do not
@@ -102,7 +102,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
  <figcaption
  aria-hidden="true">8-samsung-s3-sgh-i747m-jtag-power.jpg</figcaption>
 
-- Now we can start the RIFF JTAG software, configure it, and connect the
+* Now we can start the RIFF JTAG software, configure it, and connect the
   phone to the RIFF box. See the picture below for more detail.
 
 **NOTE:** In the picture, the "JTAG TCK Speed" has been changed from
@@ -129,7 +129,7 @@ where the failure occurred and gives you option to restart the read
 where it left off. If this occurs, you can adjust the "JTAG TCK Speed"
 and lower it to 9MHz (or lower) which can stabilize the read.
 
-- Once the acquisition is complete the resulting image can be saved and
+* Once the acquisition is complete the resulting image can be saved and
   forensic analysis can take place using the tool of your choosing.
 
 ## References

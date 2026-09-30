@@ -52,8 +52,8 @@ git push origin [article-branch-name]
 ### Naming Convention
 
 The file name of the article should be in all lowercase and use underscores to
-connect words.  For example, if you write an article around "forensics" then
-the name should be `forensics.md`.  If you are writing an article about
+connect words. For example, if you write an article around "forensics" then
+the name should be `forensics.md`. If you are writing an article about
 "forensic artifacts" then the name should be `forensic_artifacts.md`.
 
 ### Content Requirements
@@ -69,27 +69,27 @@ guidelines to help write high-quality articles:
     For example, if you are writing an article about a tool, you might have the
     following headings:
 
-    - **Introduction**: This section may include history of the tool, OSes
+    * **Introduction**: This section may include history of the tool, OSes
       supported, and File Systems supported.
 
-    - **Usage**: This section may include common command line usage and the
+    * **Usage**: This section may include common command line usage and the
       output to expect.
 
-    - **Use**: This section may include common uses of a tool. A tool could
+    * **Use**: This section may include common uses of a tool. A tool could
       contain one or more common uses. For example, the DD Unix utility could
       image drives as well wipe drives so data is not recoverable. **Make sure
       to include pros and cons of tool use for different digital forensics use
       cases.**
 
-    - **See Also**: This section may include links to articles with related
+    * **See Also**: This section may include links to articles with related
       content, complementary tools, or forks of the tool. For example, if you
       were writing an article about The Sleuth Kit (TSK), you may want to
       include a link to an article about Autopsy.
 
-    - **References**: Any references to support the information you are
+    * **References**: Any references to support the information you are
       providing.
 
-    - **External links**: Any external links, such as to the project page or
+    * **External Links**: Any external links, such as to the project page or
       official website.
 
 3. _Media:_ Images are not required, but if they help explain the topic they
@@ -100,7 +100,7 @@ guidelines to help write high-quality articles:
 ### Images
 
 In order to add images to your document, you must places any images in the
-`/docs/assets/images` directory.  The following code is the simplest way to add
+`/docs/assets/images` directory. The following code is the simplest way to add
 an image to your document using HTML:
 
 ```html
@@ -178,7 +178,9 @@ tags:
 
 #### Example 2:  An article about an open source Linux/macOS tool that parses logs in /var/messages
 
-An article about tools should contain the OSes that it supports (Linux and macOS), what the tool is used for (in this case, Log Analysis), and the software type: Open Source Software.
+An article about tools should contain the OSes that it supports (Linux and
+macOS), what the tool is used for (in this case, Log Analysis), and the
+software type: Open Source Software.
 
 ```text
 ---
@@ -204,11 +206,13 @@ tags:
 ---
 ```
 
-Bitlocker is a type of `Encryption`, available only for `Windows`, and might be relevant during `Anti-Forensics` analysis.
+Bitlocker is a type of `Encryption`, available only for `Windows`, and might be
+relevant during `Anti-Forensics` analysis.
 
 #### Example 4:  An article about the zip file format
 
-File Types are tagged with File Format and the file type.  In this case, Zip files are Archive files.
+File Types are tagged with File Format and the file type. In this case, ZIP
+files are Archive files.
 
 ```text
 ---
@@ -220,7 +224,8 @@ tags:
 
 #### Example 5:  An article about Windows System Restore Points
 
-Windows System Restore Points are part of the operating system (`OS Component`) of Windows.
+Windows System Restore Points are part of the operating system (`OS Component`)
+of Windows.
 
 ```text
 ---
@@ -232,38 +237,48 @@ tags:
 
 ### Check Content Formatting
 
-There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs render Markdown.  What this means is that when creating a page in Forensicswiki, some content looks fine in VS code but then once committed to Github the content is not displaying properly.  To ensure content is formatted correctly, you could use a local mkdocs install which has a built in development server.  Follow the steps below to install mkdocs.  Steps 1 and 2 are optional.
+There have been some differences in how certain IDE’s such as Visual Studio
+code and mkdocs render Markdown. What this means is that when creating a page
+in Forensicswiki, some content looks fine in VS code but then once committed to
+Github the content is not displaying properly. To ensure content is formatted
+correctly, you could use a local mkdocs install which has a built in
+development server. Follow the steps below to install mkdocs. Steps 1 and 2 are
+optional.
 
 #### Install mkdocs
 
 1. Setup a Python environment 
 
-```
+```bash
 $ python3 -m venv mkdocs
 ```
 
 2. Activate Python environment
 
-```
+```bash
 $ source mkdocs/bin/activate
 ```
 
 3. Install mkdocs on your system.
 
-```
+```bash
 $ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
 ```
 
 #### Run mkdocs
 
-Next, we want mkdocs to load all of the pages of the Forensics Wiki.  Mkdocs needs two things to be able to run and load the Forensics Wiki pages.  
+Next, we want mkdocs to load all of the pages of the Forensics Wiki. Mkdocs
+needs two things to be able to run and load the Forensics Wiki pages.
 
 * It will need a `docs` directory which holds all of Forensics Wiki pages.
-* It will the `mkdocs.yml` configuration file.  This is the configuration that tells mkdocs how to structure the site such as the structure of the menus.  
+* It will the `mkdocs.yml` configuration file. This is the configuration that
+  tells mkdocs how to structure the site such as the structure of the menus.
 
-Both of the previous items are located in the root directory of the repository.  To run mkdocs development server follow the steps below:
+Both of the previous items are located in the root directory of the repository.
+To run mkdocs development server follow the steps below:
 
-1. Change to the root of the repository.  For example, if you cloned the repository to your home directory.
+1. Change to the root of the repository. For example, if you cloned the 
+   repository to your home directory.
 
 ```bash
 cd ~/wiki

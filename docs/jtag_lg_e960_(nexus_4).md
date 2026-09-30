@@ -36,9 +36,9 @@ What you need to dump the NAND:
 Instructions for disassembly can be found on Internet and are summarized
 as follows:
 
-- Using a Torx-5 (T5) screw driver remove the 2 screws from the bottom
+* Using a Torx-5 (T5) screw driver remove the 2 screws from the bottom
   of the phone.
-- Use a pry tool (guitar pick) to remove the back cover.
+* Use a pry tool (guitar pick) to remove the back cover.
 
  <img src="../assets/images/1-Nexus4-Phone.jpg" title="1-Nexus4-Phone.jpg" width="500"
  alt="1-Nexus4-Phone.jpg" />
@@ -57,7 +57,7 @@ title="4-Nexus4-RemoveBackCover.jpg" width="450"
 alt="4-Nexus4-RemoveBackCover.jpg" />
 <figcaption aria-hidden="true">4-Nexus4-RemoveBackCover.jpg</figcaption>
 
-- Using a Philips (PH00) screw driver, remove the 9 screws securing the
+* Using a Philips (PH00) screw driver, remove the 9 screws securing the
   plastic shield on the backside of the phone as well as the 2 screws
   securing the battery connector.
 
@@ -65,7 +65,7 @@ alt="4-Nexus4-RemoveBackCover.jpg" />
  width="1000" alt="5-Nexus4-RemoveScrews.jpg" />
  <figcaption aria-hidden="true">5-Nexus4-RemoveScrews.jpg</figcaption>
 
-- Once the plastic shield has been removed, you can see the JTAG
+* Once the plastic shield has been removed, you can see the JTAG
   connection port located next to the power button. This JTAG port has a
   Molex connector installed and as such it is possible to use a JTAG jig
   to connect to the device. However, on this phone I soldered 0.040
@@ -102,7 +102,7 @@ with the phone disconnecting throughout the read which resulted in read
 failures. We opted to use a DC power supply which provided a much more
 stable connection to the device.
 
-- The battery on the Nexus 4 uses a blade style connector. In order to
+* The battery on the Nexus 4 uses a blade style connector. In order to
   connect to the power supply, we used a pair of Pomona Micro Grabbers
   attached to an RJ45 cable inserted into an RJ45 receptacle that was
   connected to our DC power supply. See the picture for more detail.
@@ -115,7 +115,7 @@ stable connection to the device.
 width="500" alt="10-Nexus4-MicroGrabber.jpg" />
 <figcaption aria-hidden="true">10-Nexus4-MicroGrabber.jpg</figcaption>
 
-- Connect the PCB battery terminal connections to the DC power supply.
+* Connect the PCB battery terminal connections to the DC power supply.
   The positive (+) connection is the outermost pin 1 and the negative
   (-) connection is pin 3. You can configure your power supply to match
   the battery specifications which in this case is 3.8V and 2.1A but do
@@ -126,7 +126,7 @@ width="500" alt="10-Nexus4-MicroGrabber.jpg" />
  width="1000" alt="11-Nexus4-Reading.jpg" />
  <figcaption aria-hidden="true">11-Nexus4-Reading.jpg</figcaption>
 
-- Now we can start the RIFF JTAG software, configure it for the LG E960,
+* Now we can start the RIFF JTAG software, configure it for the LG E960,
   and connect the phone to the RIFF box. See the picture for more
   detail.
 
@@ -134,7 +134,7 @@ width="500" alt="10-Nexus4-MicroGrabber.jpg" />
  width="1000" alt="12-Nexus4-RIFFBox.jpg" />
  <figcaption aria-hidden="true">12-Nexus4-RIFFBox.jpg</figcaption>
 
-- Apply power from the DC power supply to the phone and turn the phone
+* Apply power from the DC power supply to the phone and turn the phone
   on using the button on the side of the PCB. After powering the phone
   on, select "READ" under the "DCC Read/Write" tab. If all goes well the
   "READ" button will become the "STOP" button and the phone will begin

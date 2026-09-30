@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Email Analysis
-  -  Tools
-  -  Commercial Software
-  -  Windows
+  - Email Analysis
+  - Tools
+  - Commercial Software
+  - Windows
 ---
 MailXaminer is an email forensic investigation suite developed by
 [SysTools](systools.md). The application examines email data
@@ -228,49 +228,49 @@ investigations. Create new case window resembles a form with fields
 provided to fill in details regarding the case with the described
 options.
 
-- *Title*: The title to be given to a case according to its subject
+* *Title*: The title to be given to a case according to its subject
   matter.
 
 <!-- -->
 
-- *Case Directory*: Browse path to select a directory location for
+* *Case Directory*: Browse path to select a directory location for
   storing case and its components.
 
 <!-- -->
 
-- *Description*: To give a brief yet detailed description about the
+* *Description*: To give a brief yet detailed description about the
   subject of a respective case.
 
 <!-- -->
 
-- *Keyword List*: Specific terms to be used for searching particular
+* *Keyword List*: Specific terms to be used for searching particular
   email(s) to perform investigation on.
 
 <!-- -->
 
-- *Browse CSV*: For In case of too many key terms, select a CSV file
+* *Browse CSV*: For In case of too many key terms, select a CSV file
   maintained with the list of keywords.
 
 <!-- -->
 
-- *Investigator*: For Name of the investigator to whom the case belongs.
+* *Investigator*: For Name of the investigator to whom the case belongs.
 
 <!-- -->
 
-- *Agency*: Name of the agency to which the investigator is associated
+* *Agency*: Name of the agency to which the investigator is associated
   with.
 
 <!-- -->
 
-- *Phone*: For making notes pertaining to the case on a per need basis.
+* *Phone*: For making notes pertaining to the case on a per need basis.
 
 <!-- -->
 
-- *Fax*: Fax number of the investigator / agency.
+* *Fax*: Fax number of the investigator / agency.
 
 <!-- -->
 
-- *Email*: Email address of the investigator / agency.
+* *Email*: Email address of the investigator / agency.
 
 ## Email Scanning
 
@@ -287,15 +287,15 @@ scanning process.
 The email data scanning stage also offers internet bandwidth throttling
 and email filter.
 
-- *The Throttle Option*: It is for web/cloud based email downloading, to
+* *The Throttle Option*: It is for web/cloud based email downloading, to
   specify the desired amount of internet packet to be consumed.
-- *Email Filter Option*: It is an option to download and scan emails of
+* *Email Filter Option*: It is an option to download and scan emails of
   a specific duration based on the date range defined by the
   investigator.
-- *Case Details*: This automatically displayed screen displays progress
+* *Case Details*: This automatically displayed screen displays progress
   of scanning for the selected file(s) with major display of details
   like; Mail Count, File Count, and File Size.
-- *Dashboard*: This tab next to case detail’s File tab displays the
+* *Dashboard*: This tab next to case detail’s File tab displays the
   ratio of data stored within the selected files with the help of pie
   chart and graphs.
 
@@ -333,11 +333,11 @@ either the respective mailbox credentials or impersonation rights
 (authority owned by a user for accessing a particular mailbox).
 Impersonation can be implemented to use:
 
-- *Provide Exchange Details*: Exchange Server versions (2007 – 2013 are
+* *Provide Exchange Details*: Exchange Server versions (2007 – 2013 are
   supported), Server Name/IP, and Domain Name.
-- *Using Impersonation*: Enable the feature and Provide Mailbox
+* *Using Impersonation*: Enable the feature and Provide Mailbox
   Credentials.
-- *Select Mailboxes*: Browse a CSV file with multiple mailbox holder
+* *Select Mailboxes*: Browse a CSV file with multiple mailbox holder
   names or provide the names manually.
 
 Adding the details will begin downloading emails from Live Exchange
@@ -351,30 +351,30 @@ dedicated for viewing particular details and sections of an email. Each
 email of the selected data file is listed with; subject, sender /
 recipient ID, dates, size, and MD5 value details displayed respectively.
 
-- *Normal Mail View*: The tab shows selected email in a normal view as
+* *Normal Mail View*: The tab shows selected email in a normal view as
   it can be seen in its respective email application; with a message
   header and body.
-- *Hex View*: The view shows email message in a binary format. Each
+* *Hex View*: The view shows email message in a binary format. Each
   message bytes of the selected email can be seen here to detect any
   manipulations.
-- *Properties View*: Detailed information about each email attribute can
+* *Properties View*: Detailed information about each email attribute can
   be viewed listed here in divided sections.
-- *Message Header View*: Suspected email header details are specifically
+* *Message Header View*: Suspected email header details are specifically
   described in this view tab.
-- *MIME View*: Multipurpose Internet Mail Extension is a type of
+* *MIME View*: Multipurpose Internet Mail Extension is a type of
   internet standard that defines an email header along with attachment
   support of any SMTP mail.
-- *Email Hop View*: Complete details of the path crossed by a selected
+* *Email Hop View*: Complete details of the path crossed by a selected
   email are shown via the gateways, switches, and router it has passed.
-- *HTML View*: Entire HTML script of the email is displayed using which
+* *HTML View*: Entire HTML script of the email is displayed using which
   the message can be analyzed on different browsers.
-- *RTF View*: Represents the Rich Text Formatting of emails, if any.
+* *RTF View*: Represents the Rich Text Formatting of emails, if any.
   Helpful in maintaining email originality & accessible easily on all
   systems.
-- *Attachments*: Offers a preview of email attachment separately.
+* *Attachments*: Offers a preview of email attachment separately.
   Document and image formats of most types supported in preview and
   saving.
-- *Hierarchical View*: This view tab shows the exact B+ Tree structure
+* *Hierarchical View*: This view tab shows the exact B+ Tree structure
   of the selected mail & its entire folder structure.
 
 ## Image Analysis
@@ -387,10 +387,10 @@ available in any file type will be thoroughly and detected for
 obscenity. There are four sensitivity parameters provided by the tool to
 adjust the intensity of executing skin tone analysis on images:
 
-- Very Low
-- Low
-- High
-- Very High
+* Very Low
+* Low
+* High
+* Very High
 
 Higher the frequency more will be the detection rate and higher will be
 the chances of false positive rate being provided. Once detected the
@@ -427,9 +427,9 @@ supplied to the search to detect associated emails.
 
 ### Keyword Based Search
 
-- Add Keywords
-- Browse CSV
-- Use Both
+* Add Keywords
+* Browse CSV
+* Use Both
 
 ### Advanced Search
 
@@ -440,16 +440,16 @@ the scanned files. The search process can be narrowed using different
 search criteria like; subject, sender ID, recipient ID, etc. The search
 is further divided into four more categorizations
 
-- Wildcard Search: It offers the chance of performing a search using
+* Wildcard Search: It offers the chance of performing a search using
   incomplete terms with an asterisk (\*) or question mark (?) along with
   the search criteria provided to list associated results.
-- Regular Expression Search: Can also be termed as special character
+* Regular Expression Search: Can also be termed as special character
   based search for specific findings, carried out using a combination of
   patterns created by a number of special characters.
-- Stem Search: The option provides possible search results associated
+* Stem Search: The option provides possible search results associated
   with the term used for searching on the investigator being uncertain
   about the exact word to look up for.
-- Fuzzy Search: This multi-valued component based search offers results
+* Fuzzy Search: This multi-valued component based search offers results
   matching the combination of words differentiated with symbol or
   special characters to list the nearest possible results.
 
@@ -475,7 +475,7 @@ search field for adding look up terms to be added and searched for
 approximate results between the terms ranging from zero to infinity.
 **NOTE**: Maximum four words / terms can be added at once.
 
-- Distance Between Words: Enter the approximate amount of words that
+* Distance Between Words: Enter the approximate amount of words that
   separate the mentioned terms to search.
 
 ## Case Evidence Bookmarking
@@ -494,14 +494,14 @@ can be exported into multiple formats of output file according to the
 type of data. The software is built to support multiple types of export,
 including; email, media files, search results, bookmarks, etc.
 
-- *Emails*: Emails are exported into the following file types; CSV,
+* *Emails*: Emails are exported into the following file types; CSV,
   Concordance, EML, TIFF, MSG, PDF, PST, and can also be printed
   directly in bulk.
-- *Search Results / Bookmarks*: Bookmarks and search results are
+* *Search Results / Bookmarks*: Bookmarks and search results are
   exported into email file formats.
-- *Keywords*: The program exports keywords used for performing evidence
+* *Keywords*: The program exports keywords used for performing evidence
   searches in text format file.
-- *Media Files*: Images, videos, audio files, and other media file
+* *Media Files*: Images, videos, audio files, and other media file
   artifacts of any type are exportable in respective formats.
 
 ## Email Tagging With Labels
@@ -568,13 +568,13 @@ A number of other additional and supportive facilities are owned by the
 MailXaminer program. These features assist investigators at managing
 case storage and handling.
 
-- Import Review File
-- Export / Import Case
-- Delete Case
-- Email Recursive View
-- Change Software Language
-- Set Email Throttling
-- Mark / Remove Privilege
+* Import Review File
+* Export / Import Case
+* Delete Case
+* Email Recursive View
+* Change Software Language
+* Set Email Throttling
+* Mark / Remove Privilege
 
 ### Import Review File
 
@@ -628,4 +628,3 @@ obstruction.
 
 Technical support and graphical demonstration are provided via phone,
 email, and chat mediums to offer operational and technical assistance.
-

@@ -25,10 +25,10 @@ exfiltration was conducted, for example.
 
 Windows:
 
-- usbsnoop
+* usbsnoop
 
 Linux
 
-- enable CONFIG_USB_STORAGE_DEBUG and monitor syslog
-- usbmon
-- Turn on usbfs_snoop and monitor syslog and the kernel buffer ring.
+* enable CONFIG_USB_STORAGE_DEBUG and monitor syslog
+* usbmon
+* Turn on usbfs_snoop and monitor syslog and the kernel buffer ring.

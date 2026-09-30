@@ -19,6 +19,6 @@ surfaces.
 * [Advanced Format](advanced_format.md) - the move to 4K
   sectors, and problems with Windows XP
 
-## Links
+## External Links
 
 * [My Dead Hard Drive story or How I restored my save games](http://www.deadharddrive.com/)

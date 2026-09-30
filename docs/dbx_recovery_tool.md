@@ -14,19 +14,19 @@ for any types of corruption issues and errors.
 
 ## Features
 
-- Fastest scanning and recovery procedure
-- Flexible saving options, which let users to save the recovered files
+* Fastest scanning and recovery procedure
+* Flexible saving options, which let users to save the recovered files
   in different formats like PST, RTF, MSG And EML
-- Advanced recovery algorithm, which help users in scanning and
+* Advanced recovery algorithm, which help users in scanning and
   recovering maximum files in no time
-- Three recovery modes to restore files from different types of
+* Three recovery modes to restore files from different types of
   corruption: Standard, Advanced and RAW recovery
-- Fast & accurate recovery
-- Supports recovery of corrupted as well as deleted emails
-- Supports recovery of corrupted as well as deleted emails
-- Let users to preview recovered files even before the recovery process
-- Simple and easy interface
-- Highly compatible with all versions of Microsoft Windows
+* Fast & accurate recovery
+* Supports recovery of corrupted as well as deleted emails
+* Supports recovery of corrupted as well as deleted emails
+* Let users to preview recovered files even before the recovery process
+* Simple and easy interface
+* Highly compatible with all versions of Microsoft Windows
 
 ## External Links
 

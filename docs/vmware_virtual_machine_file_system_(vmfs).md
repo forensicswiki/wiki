@@ -2,7 +2,7 @@
 tags:
   - File systems
 ---
-## External links
+## External Links
 
 * [Wikipedia: VMware VMFS](https://en.wikipedia.org/wiki/VMware_VMFS)
 

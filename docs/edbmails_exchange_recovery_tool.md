@@ -57,7 +57,7 @@ agreement](https://www.edbmails.com/pages/terms-of-use.html)
 chat, voice messaging, telephone, email support to assist with any
 software related issue.
 
-## External links
+## External Links
 
 * [Official Website](https://www.edbmails.com/)
 * [Video tutorials for EdbMails](https://www.edbmails.com/pages/video.html)

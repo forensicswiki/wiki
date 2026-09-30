@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Organization
+  - Articles that need to be expanded
 ---
 The **Computer Crime and Intellectual Property Section** of the **United
 States Department of Justice (CCIPS)** is responsible for implementing
@@ -45,4 +45,4 @@ protected by copyright, trademark, or trade-secret designation.
 
 ## External Links
 
-- [Official website](https://www.justice.gov/criminal/criminal-ccips)
+* [Official website](https://www.justice.gov/criminal/criminal-ccips)

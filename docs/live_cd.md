@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Live CD
-  -  Open Source Software
-  -  Tools
-  -  Linux
+  - Live CD
+  - Open Source Software
+  - Tools
+  - Linux
 ---
 A **live CD** is a CD containing a bootable computer [operating
 system](operating_system.md). Live CDs are widely used in
@@ -12,22 +12,22 @@ response](incident_response.md).
 
 ## Advantages
 
-- [Physical memory](physical_memory.md) of a computer can be
+* [Physical memory](physical_memory.md) of a computer can be
   imaged by performing cold boot attack without running tools on an
   untrusted operating system.
-- Acquisition over a network connection without running tools on an
+* Acquisition over a network connection without running tools on an
   untrusted operating system.
-- No need to reconstruct [RAID](raid.md) arrays;
-- etc.
+* No need to reconstruct [RAID](raid.md) arrays;
+* etc.
 
 ## Disadvantages
 
-- Out-of-date software;
-- No simple way to reconfigure Live CD: you cannot easily rebuild *foo*
+* Out-of-date software;
+* No simple way to reconfigure Live CD: you cannot easily rebuild *foo*
   to support *bar* (e.g. rebuild [The Sleuth Kit](the_sleuth_kit.md) to
   support [AFF](aff.md).
 
 ## See Also
 
-- [Forensics Live CDs](live_cd.md)
-- [Forensic Live CD issues](forensic_live_cd_issues.md)
+* [Forensics Live CDs](live_cd.md)
+* [Forensic Live CD issues](forensic_live_cd_issues.md)

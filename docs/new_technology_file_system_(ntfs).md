@@ -140,7 +140,7 @@ def FromFiletime(filetime):
 
 * [\$MFT]($mft.md)
 
-## External links
+## External Links
 
 * [Technet: How NTFS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc781134(v=ws.10)),
   by [Microsoft](microsoft.md)

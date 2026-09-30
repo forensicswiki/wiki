@@ -1,20 +1,17 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Organization
 ---
 **M3 Data Recovery** is one of the world's leading & professional data
 recovery solution and system utilities providers.
 
 ## Data Recovery
 
-- M3 Data Recovery for Windows - Recover deleted files, recover data
+* M3 Data Recovery for Windows - Recover deleted files, recover data
   from formatted, inaccessible, RAW, deleted or lost partition, etc.
   under Windows XP/Vista/7/8 and Windows Server 2003/2008/2012.
-
-<!-- -->
-
-- [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md) -
+* [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md) -
   Recover deleted or lost files from any Mac-based hard drive as well as
   external hard drive, USB flash drive, SD card, memory card, etc. under
   Mac OSX 10.10/10.9/10.8/10.7.
@@ -39,5 +36,5 @@ deleted partition and recover lost partition.
 
 ## External Links
 
-- [M3 Data Recovery Official Website](https://www.m3datarecovery.com/)
-- [Download Link](https://www.m3datarecovery.com/download/)
+* [M3 Data Recovery Official Website](https://www.m3datarecovery.com/)
+* [Download Link](https://www.m3datarecovery.com/download/)

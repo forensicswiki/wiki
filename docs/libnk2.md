@@ -12,8 +12,8 @@ The **libnk2** package contains a library and applications to read the
 
 The **libnk2** package contains the following tools:
 
-- **nk2export**, which exports the items stored in NK2 files.
-- **nk2info**, which shows information about NK2 files.
+* **nk2export**, which exports the items stored in NK2 files.
+* **nk2info**, which shows information about NK2 files.
 
 ## History
 
@@ -22,8 +22,8 @@ while working for Hoffmann Investigations.
 
 ## See Also
 
-- [Nickfile (nk2)](nickfile_(nk2).md)
+* [Nickfile (nk2)](nickfile_(nk2).md)
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libnk2/)
+* [Project site](https://github.com/libyal/libnk2/)

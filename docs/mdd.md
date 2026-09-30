@@ -37,12 +37,11 @@ utility does.
 
 ### Signing the driver
 
-- Make sure the WDK is installed, you need that for the signing.
-- Get the right cross certificate file, see [Cross-Certificates for
-  Kernel Mode Code
-  Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
-- Convert the key you have to pfx, if its cert + key you want:
-  - setup a secure spot to put the private key, this should not be on
+* Make sure the WDK is installed, you need that for the signing.
+* Get the right cross certificate file, see
+  [Cross-Certificates for Kernel Mode Code Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
+* Convert the key you have to pfx, if its cert + key you want:
+  * setup a secure spot to put the private key, this should not be on
     corp or unprotected at any time
 
 <!-- -->
@@ -51,10 +50,10 @@ utility does.
 openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
 ```
 
-- - use a strong password
-  - shred the .key immediately after use
+  * use a strong password
+  * shred the .key immediately after use
 
-- Sign the driver by running:
+* Sign the driver by running:
 
 <!-- -->
 
@@ -68,9 +67,9 @@ Also see: [SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/s
 
 To execute mdd, you must start cmd.exe. The options are:
 
-- -o *filename* - required to actually run mdd
-- -w - license information
-- -v - verbose
+* -o *filename* - required to actually run mdd
+* -w - license information
+* -v - verbose
 
 To run mdd, the account you are using must have administrator access to
 the machine you wish to image (however, it does not have to be the
@@ -99,13 +98,13 @@ amazing concept allows services to run less visibly, and should be
 considered a class-a security flaw. Fortunately, there's a way around
 this, using the command line (cmd.exe).
 
-- Run cmd.exe
-- In cmd.exe, run "sc help" to see the service manager command line tool
-- Run "sc query" to see all of the currently registered services, but
+* Run cmd.exe
+* In cmd.exe, run "sc help" to see the service manager command line tool
+* Run "sc query" to see all of the currently registered services, but
   note that this list will overflow the default line buffer of cmd.exe
   (this is adjustable, but not necessary for our purposes)
-- Run "sc query mdd" and - ta-da - you'll see the mdd service
-- Run "sc delete mdd" and it's gone, and mdd can now be run again.
+* Run "sc query mdd" and - ta-da - you'll see the mdd service
+* Run "sc delete mdd" and it's gone, and mdd can now be run again.
 
 ### Error 1062
 

@@ -61,9 +61,9 @@ with the vibrator switch activating for less than a second.
 
 Launch the Riff Box JTAG Manager and use the following settings:
 
-- JTAG TCK Speed = RTCK
-- Resurrector Settings= Huawei U8815
-- Auto FullFlash size
+* JTAG TCK Speed = RTCK
+* Resurrector Settings= Huawei U8815
+* Auto FullFlash size
 
  <img src="../assets/images/Huawei_U8665_setting.JPG" title="Huawei_U8665_setting.JPG"
  width="800" alt="Huawei_U8665_setting.JPG" />
@@ -71,7 +71,7 @@ Launch the Riff Box JTAG Manager and use the following settings:
 
 Advanced Settings:
 
-- Ignore Target IDCODE during Resurrection and DCC Loader operations
+* Ignore Target IDCODE during Resurrection and DCC Loader operations
 
  <img src="../assets/images/IDCODE.JPG" title="IDCODE.JPG" width="600" alt="IDCODE.JPG" />
  <figcaption aria-hidden="true">IDCODE.JPG</figcaption>

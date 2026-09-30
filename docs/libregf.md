@@ -13,8 +13,8 @@ The **libregf** package contains a library and applications to read the
 
 The **libregf** package contains the following tools:
 
-- **regfinfo**, which shows information about REGF files.
-- **regfmount**, which mounts the keys and values in a REGF file as
+* **regfinfo**, which shows information about REGF files.
+* **regfmount**, which mounts the keys and values in a REGF file as
   directories and files.
 
 ## History
@@ -24,9 +24,9 @@ while working for Hoffmann Investigations.
 
 ## Also See
 
-- [Windows NT Registry File (regf)](windows_nt_registry_file_(regf).md)
-- [Windows Registry](windows_registry.md)
+* [Windows NT Registry File (regf)](windows_nt_registry_file_(regf).md)
+* [Windows Registry](windows_registry.md)
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libregf/)
+* [Project site](https://github.com/libyal/libregf/)

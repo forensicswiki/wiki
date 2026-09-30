@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
 **tcpdump** is a common packet [sniffer](sniffer.md) for
 [Unix](unix.md)-like operating systems
@@ -40,11 +40,15 @@ using Netcat for digital forensic investigations (note that here we use
 the extension ".pcap" instead of ".txt" because we are creating a binary
 PCAP file, rather than just text output)):
 
-` `***`nc -v -l -p 2222 > `<command>`.pcap`***
+```bash
+nc -v -l -p 2222 > <command>.pcap
+```
 
 Next, run a command similar to the following one on your victim machine:
 
-` `***`tcpdump -s 0 -U -n -i eth0 not host `<forensicWS IP>` -w - | nc `<forensicWS IP>` 2222`***
+```bash
+tcpdump -s 0 -U -n -i eth0 not host <forensicWS IP> -w - | nc <forensicWS IP> 2222
+```
 
 The "-s 0" tells Tcpdump to use the default snapshot-length bytes of
 data from each packet (65535 bytes) to ensure that packets aren't
@@ -79,5 +83,5 @@ basic packet capture with tcpdump:
 
 ## External Links
 
-- [Project page](https://www.tcpdump.org/)
-- [WinDump - tcpdump for Windows](https://www.winpcap.org/windump/)
+* [Project page](https://www.tcpdump.org/)
+* [WinDump - tcpdump for Windows](https://www.winpcap.org/windump/)

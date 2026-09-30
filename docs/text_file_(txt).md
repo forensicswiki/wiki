@@ -14,19 +14,19 @@ that use printable characters along with some control data such as tabs
 and line feeds. [1](https://en.wikipedia.org/wiki/Text_file) Text files
 are split into several major types:
 
-- DOS/Windows format ends each line using Carriage Return (CR) or
+* DOS/Windows format ends each line using Carriage Return (CR) or
   char(13) and a Line Feed (LF) or char(10) byte sequence,
-- Unix format includes only the Carriage Return (CR) or char (13) at the
+* Unix format includes only the Carriage Return (CR) or char (13) at the
   end of the line.
-- Macintosh format includes only the Line Feed (LF) or char(10) at the
+* Macintosh format includes only the Line Feed (LF) or char(10) at the
   end of the line.
-- Unicode includes an optional encoding in the first two bytes Byte
+* Unicode includes an optional encoding in the first two bytes Byte
   Order Mark (BOM) that identifies the Unicode encoding. This is used to
   identify little endian or big endian byte order. Unicode defines an
   8-bit encoding UTF-8, a 16-bit encoding UTF-16 and a 32-bit encoding
   UTF-32. Earlier equivalent encodings are respectively UCS-1, UCS-2 and
   USC-4
-- EBCIDIC used char(15) for a new line.
+* EBCIDIC used char(15) for a new line.
   [2](https://en.wikipedia.org/wiki/EBCDIC)
 
 They are usually [ASCII](ascii.md) encoded, although other encodings are

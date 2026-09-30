@@ -1,13 +1,13 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 A file format defines the structures of the data in a file.
 
 File formats can be:
 
-- either **proprietary** or **public**.
-- either **closed specification** or **open specification**.
+* either **proprietary** or **public**.
+* either **closed specification** or **open specification**.
 
 A **proprietary** file format is a file format where "official" changes
 are restricted to one or more parties, often the intellectual property
@@ -24,12 +24,8 @@ of it.
 
 ## External Links
 
-- [Wikipedia: File format](https://en.wikipedia.org/wiki/File_format)
-- [Wikipedia: Proprietary
-  format](https://en.wikipedia.org/wiki/Proprietary_format)
-- [Digital preservation: alphabetical
-  list](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
-- [Funky File
-  Formats](https://speakerdeck.com/ange/funky-file-formats-31c3), by
-  Ange Albertini, December 29, 2014
-
+* [Wikipedia: File format](https://en.wikipedia.org/wiki/File_format)
+* [Wikipedia: Proprietary format](https://en.wikipedia.org/wiki/Proprietary_format)
+* [Digital preservation: alphabetical list](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml)
+* [Funky File Formats](https://speakerdeck.com/ange/funky-file-formats-31c3),
+  by Ange Albertini, December 29, 2014

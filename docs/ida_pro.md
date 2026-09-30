@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Debugging
-  -  Binary Analysis
-  -  Commercial Software
-  -  Tools
+  - Debugging
+  - Binary Analysis
+  - Commercial Software
+  - Tools
 ---
 IDA Pro is a Windows, Linux or Mac OS X hosted multi-processor
 disassembler and debugger. It is a useful tool for *hostile code
@@ -12,4 +12,4 @@ protection*.
 
 ## External Links
 
-- [Official website](https://hex-rays.com/ida-pro/)
+* [Official website](https://hex-rays.com/ida-pro/)

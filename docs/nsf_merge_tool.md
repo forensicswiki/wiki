@@ -11,13 +11,13 @@ consolidate unlimited Lotus Notes archive database files.
 
 ## Features
 
-- NSF Merge Tool let users to consolidate unlimited archive database
+* NSF Merge Tool let users to consolidate unlimited archive database
   files
-- Allow users to merge as well as join Lotus Notes files
-- Support merging of emails, archives, events and contacts
-- Option to filter duplicate entries
-- Compatible with all versions of IBM Lotus Notes
-- Easy and simple user interface
+* Allow users to merge as well as join Lotus Notes files
+* Support merging of emails, archives, events and contacts
+* Option to filter duplicate entries
+* Compatible with all versions of IBM Lotus Notes
+* Easy and simple user interface
 
 ## External Links
 

@@ -1,8 +1,7 @@
 ---
 tags:
-  -  People
+  - People
 ---
 ## See Also
 
-- [Mandiant](mandiant.md)
-
+* [Mandiant](mandiant.md)

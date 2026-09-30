@@ -34,10 +34,10 @@ format.
 There are four different forms of MBOX file format that are discussed as
 follows
 
-1.  mboxo
-2.  mboxrd
-3.  mboxcl
-4.  mboxcl2
+1. mboxo
+2. mboxrd
+3. mboxcl
+4. mboxcl2
 
 ### mboxo File Format
 
@@ -82,26 +82,26 @@ Operating System as well i.e. the supported email application(s).
 
 ## External Links
 
-- [Wikipedia: Mbox](https://en.wikipedia.org/wiki/Mbox)
-- [RFC 4155: The application/mbox Media
-  Type](https://www.rfc-editor.org/rfc/rfc4155), by E. Hall, September 2005
-- [RFC 2822: Internet Message
-  Format](https://www.rfc-editor.org/rfc/rfc2822), by P. Resnick, April 2001
+* [Wikipedia: Mbox](https://en.wikipedia.org/wiki/Mbox)
+* [RFC 4155: The application/mbox Media Type](https://www.rfc-editor.org/rfc/rfc4155),
+  by E. Hall, September 2005
+* [RFC 2822: Internet Message Format](https://www.rfc-editor.org/rfc/rfc2822),
+  by P. Resnick, April 2001
 
 ## Tools
 
-- [MBOX Forensics Wizard](https://forensiksoft.com/mbox-forensics.html)
+* [MBOX Forensics Wizard](https://forensiksoft.com/mbox-forensics.html)
   View and convert mbox files. Forensically analyze a MBOX file and also
   perform search inside MBOX emails to locate a particular evidence.
-- [Aid4Mail](aid4mail.md)
-- [mbox-extract-attachments.py](https://raw.githubusercontent.com/PabloCastellano/pablog-scripts/master/mbox-extract-attachments.py)
-- [Windows MBOX Converter](https://www.bitrecover.com/mbox-converter/)
+* [Aid4Mail](aid4mail.md)
+* [mbox-extract-attachments.py](https://raw.githubusercontent.com/PabloCastellano/pablog-scripts/master/mbox-extract-attachments.py)
+* [Windows MBOX Converter](https://www.bitrecover.com/mbox-converter/)
   Converts mbox email messages from Thunderbird, Postbox, Netscape,
   Evolution, SeaMonkey, Sylpheed, Mulberry, GyazMail, Claws Mail, Gnu,
   Sparrow, the Bat, Apple Mail, Entourage, PowerMail, PocoMail, Eudora,
   Spicebird, WebMail or Opera Email client into PDF, PST, EML, MSG,
   EMLX, RTF, HTML.
-- [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
-- [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
-- [MBOX Viewer](mbox_viewer.md)
-- [Paraben's Email Examiner](paraben's_email_examiner.md)
+* [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
+* [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
+* [MBOX Viewer](mbox_viewer.md)
+* [Paraben's Email Examiner](paraben's_email_examiner.md)

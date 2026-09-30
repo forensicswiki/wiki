@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 Jessica Fridrich is an Associate Professor at SUNY
 Binghamton. She works in information hiding
@@ -16,7 +16,5 @@ She is also a Master of
 
 ## External Links
 
-- [Home page](http://www.ws.binghamton.edu/fridrich/)
-- [Search for all Fridrich's patent applications at
-  USPTO](https://ppubs.uspto.gov/pubwebapp/static/pages/landing.html)
-
+* [Home page](http://www.ws.binghamton.edu/fridrich/)
+* [Search for all Fridrich's patent applications at USPTO](https://ppubs.uspto.gov/pubwebapp/static/pages/landing.html)

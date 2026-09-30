@@ -11,6 +11,6 @@ operating system and of the programs running on the computer.
 
 ## See also
 
-- [Tools:Memory Imaging](tools_memory_imaging.md)
-- [Memory Imaging](memory_imaging.md)
-- [Memory analysis](memory_analysis.md)
+* [Tools:Memory Imaging](tools_memory_imaging.md)
+* [Memory Imaging](memory_imaging.md)
+* [Memory analysis](memory_analysis.md)

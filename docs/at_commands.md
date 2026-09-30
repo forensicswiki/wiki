@@ -3,7 +3,7 @@ tags:
   - No Category
 ---
 
-- AT and AT+ commands can be used to manually collect simple
+* AT and AT+ commands can be used to manually collect simple
   information. This is an ideal choice for "full control" over the
   communications that are sent and returned from the phone. These can
   also be used when there is no tool available to communicate with the
@@ -12,11 +12,11 @@ tags:
   all of these commands are supported by all phones, but the AT+CLAC
   command (usually) displays all of the available commands the GSM phone
   can respond to.
-- With Motorola phones (and many others) there are **NO** AT commands
+* With Motorola phones (and many others) there are **NO** AT commands
   that can be used to retrieve multimedia content. For these, OBEX
   commands must be issued to the phone to return directory contents,
   ringtones, pictures and video.
-- Samsung GSM phones, on the other hand, **DO** have AT commands that
+* Samsung GSM phones, on the other hand, **DO** have AT commands that
   allow access to the multimedia content.
 
 
@@ -69,14 +69,14 @@ Similar to above, but a more verbose result is displayed.
 Returns: +MPBR:
 1-1000,40,24,8,0-1,50,(0,2,4,6,9-30,255),(0),(0-1),(1-30),(255),25,(0-1,255),264,(0),0,0,0,0,0,0,0
 
-- 1-1000 denotes the number of entries that can be stored on the
+* 1-1000 denotes the number of entries that can be stored on the
   selected (+CPBS) phonebook.
-- 40 represents the number of characters that the email or phone number
+* 40 represents the number of characters that the email or phone number
   can have.
-- 24 indicates the number of characters the “friendly” name can have.
-- The 8 refers to the different “types” of phonebook entry (i.e. Mobile,
-  Main, Email, Home, Fax, Work … etc).
-- The +CPBR command does not list anything after the 24 (as seen above),
+* 24 indicates the number of characters the “friendly” name can have.
+* The 8 refers to the different “types” of phonebook entry (i.e. Mobile,
+  Main, Email, Home, Fax, Work, etc).
+* The +CPBR command does not list anything after the 24 (as seen above),
   so there are times when the +MPBR may be useful.
 
 **AT+MPBR=\[index\]**
@@ -188,7 +188,7 @@ This returns the phone to simple AT command mode.
 **AT#PBDYN?**
 This returns the phone number (Samsung).
 
-## External links
+## External Links
 
 * [AT+C Command Set of GSM](https://gatling.ikk.sztaki.hu/~kissg/gsm/index.html)
 * [Alexander Traud's GSM pages](https://www.traud.de/gsm/atex.htm)

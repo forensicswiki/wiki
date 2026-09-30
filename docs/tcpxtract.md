@@ -1,17 +1,17 @@
 ---
 tags:
-  -  Tools
-  -  Linux
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
-  -  Data Recovery
-  -  Network Forensics
+  - Data Recovery
+  - FreeBSD
+  - Linux
+  - NetBSD
+  - Network Forensics
+  - OpenBSD
+  - Tools
 ---
-Inspired by [foremost](foremost.md), this tool by [Nick
-Harbour](nick_harbour.md) can recover files from network traffic
-based on their headers and footers.
+Inspired by [foremost](foremost.md), this tool by
+[Nick Harbour](nick_harbour.md) can recover files from network traffic based on
+their headers and footers.
 
 ## External Links
 
-- [Official website](https://tcpxtract.sourceforge.net/)
+* [Official website](https://tcpxtract.sourceforge.net/)

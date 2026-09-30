@@ -14,11 +14,11 @@ RIM develops its own software for its devices, using C++, C and Java
 technology. RIM also develops and sells embedded wireless data
 components.
 
-## External links
+## External Links
 
-- [Research In Motion](http://www.rim.com/), the manufacturer of the
+* [Research In Motion](http://www.rim.com/), the manufacturer of the
   BlackBerry OS.
-- [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry OS main
+* [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry OS main
   site.
-- [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
+* [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),
   Largest collaboration of Answers to Questions for BlackBerry

@@ -1,26 +1,26 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## For an instructional lab
 
 ### Goals of the Lab
 
-- Teach basic forensic practices
-- Acquaint with procedures
+* Teach basic forensic practices
+* Acquaint with procedures
 
 ### Hardware
 
-- High performance workstation with:
-  - At least 16GiB of RAM.
-  - At least 3TB of local storage, ideally \>8TB.
-- SATA docks to allow SATA drives to be plugged and unplugged. Ideally
+* High performance workstation with:
+  * At least 16GiB of RAM.
+  * At least 3TB of local storage, ideally \>8TB.
+* SATA docks to allow SATA drives to be plugged and unplugged. Ideally
   connect the docks with USB3 or eSATA. Be sure you have docks that can
   handle hard drives \> 2TB.
 
 ### Open Source Software
 
-- Sleuth Kit
+* Sleuth Kit
 
 ### Commercial Software
 
@@ -31,4 +31,4 @@ purposes, but if you need it, here's stuff to buy:
 
 ### Goals of the Lab
 
-- Insight on how to conduct research
+* Insight on how to conduct research

@@ -1,6 +1,7 @@
 ---
 tags:
-  - Analysis
+  - Email Analysis
+  - Tools
 ---
 *DBX To PST Converter* is a tool known to import Outlook Express DBX
 files to Outlook PST format. It is one of the fastest, reliable and
@@ -11,21 +12,21 @@ attachments, internet headers and allow to save them in a new PST file.
 
 ## Features
 
-- Let users to convert all of their Outlook Express emails to MS Outlook
+* Let users to convert all of their Outlook Express emails to MS Outlook
   PST format
-- Allow users to do batch conversions
-- Support encryption of new PST files with the help of its password
+* Allow users to do batch conversions
+* Support encryption of new PST files with the help of its password
   protection feature
-- Let users to search a specific DBX file in their system with its
+* Let users to search a specific DBX file in their system with its
   Search feature
-- Preview Option to preview converted files
-- Flexible saving option
-- Option to create a single PST file by merging all your DBX files
-- High compatibility with all former versions of MS Outlook Express and
+* Preview Option to preview converted files
+* Flexible saving option
+* Option to create a single PST file by merging all your DBX files
+* High compatibility with all former versions of MS Outlook Express and
   MS Outlook
-- This DBX to PST converter tool is also compatible with all major
+* This DBX to PST converter tool is also compatible with all major
   versions or Microsoft Windows
-- Simple and easy user interface
+* Simple and easy user interface
 
 ## External Links
 

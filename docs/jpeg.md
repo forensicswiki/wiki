@@ -29,12 +29,12 @@ can be used to extract, view and group metadata from JPEG and camera Raw files.
 
 # Externals Links
 
-- [JPEG File Interchange Format Version 1.02](https://www.w3.org/Graphics/JPEG/jfif3.pdf)
-- [Adobe: XMP Specification](https://www.adobe.com/products/xmp/standards.html)
-- [Extensible Metadata Platform (XMP)](https://www.adobe.com/products/xmp.html)
-- [FlashPix Tags](https://exiftool.org/TagNames/FlashPix.html)
-- [ISO/IEC 10918-1](https://www.w3.org/Graphics/JPEG/itu-t81.pdf),
+* [JPEG File Interchange Format Version 1.02](https://www.w3.org/Graphics/JPEG/jfif3.pdf)
+* [Adobe: XMP Specification](https://www.adobe.com/products/xmp/standards.html)
+* [Extensible Metadata Platform (XMP)](https://www.adobe.com/products/xmp.html)
+* [FlashPix Tags](https://exiftool.org/TagNames/FlashPix.html)
+* [ISO/IEC 10918-1](https://www.w3.org/Graphics/JPEG/itu-t81.pdf),
   Section: Annex B contains a detailed description of the JPEG file
   structure.
-- [Wikipedia: ICC profile](https://en.wikipedia.org/wiki/ICC_profile)
-- [Wikipedia: JPEG](https://en.wikipedia.org/wiki/JPEG)
+* [Wikipedia: ICC profile](https://en.wikipedia.org/wiki/ICC_profile)
+* [Wikipedia: JPEG](https://en.wikipedia.org/wiki/JPEG)

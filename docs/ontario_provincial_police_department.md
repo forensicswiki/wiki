@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
+  - Organization
 ---
 ## External Links
 
-- [Official website](https://www.opp.ca/)
+* [Official website](https://www.opp.ca/)

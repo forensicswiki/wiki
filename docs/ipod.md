@@ -78,9 +78,9 @@ Some models come with different capacities (a higher capacity allows the
 storage of more music) or with different designs. The model range as of
 February 7, 2006 includes:
 
-- iPod (30 GB and 60 GB).
-- iPod nano (1 GB, 2 GB, and 4 GB).
-- iPod shuffle (512 MB and 1 GB).
+* iPod (30 GB and 60 GB).
+* iPod nano (1 GB, 2 GB, and 4 GB).
+* iPod shuffle (512 MB and 1 GB).
 
 ### iPod
 
@@ -108,6 +108,6 @@ February 7, 2006 includes:
 
 ## External Links
 
-- [Official website](https://support.apple.com/ipod-touch)
-- [iPodLinux project website](http://www.ipodlinux.org/) - Contains lots of
+* [Official website](https://support.apple.com/ipod-touch)
+* [iPodLinux project website](http://www.ipodlinux.org/) - Contains lots of
   useful information about the iPod hardware and software.

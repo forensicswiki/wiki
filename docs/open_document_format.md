@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 **Open Document Format** (ODF) is an open, XML-based file format
 standard for word processing documents, spreadsheets, charts, and
@@ -14,12 +14,12 @@ for the OpenOffice.org office suite.
 
 The main file extensions for ODF documents are
 
-- .odt for word processing documents
-- .ods for spreadsheet documents
-- .odp for presentation documents
-- .odb for database documents
-- .odg for graphical documents
-- .odf for mathematical formulae
+* .odt for word processing documents
+* .ods for spreadsheet documents
+* .odp for presentation documents
+* .odb for database documents
+* .odg for graphical documents
+* .odf for mathematical formulae
 
 ODF also supports template files for each type of document. The 'd' in
 file extension is replaced by a 't' for template files.
@@ -77,35 +77,35 @@ for the entire document. The types of metadata contained in the file can
 comprise pre-defined metadata, user defined metadata, as well as custom
 metadata:
 
-- which version of ODF is used by the document
-- the document generator, that is, the user-agent software that
+* which version of ODF is used by the document
+* the document generator, that is, the user-agent software that
   generated or last modified the ODF document. This string is similar to
   the HTTP user agent string as described in RFC-2616. This can contains
   the name and version of the software as well as the name of the
   operating system.
-- document title
-- document description
-- document subject
-- keywords
-- initial creator
-- Creator (person who last modified the document)
-- printed by
-- creation date/time
-- modification date/time
-- print date/time
-- document template, the path of the document template if one was used
+* document title
+* document description
+* document subject
+* keywords
+* initial creator
+* Creator (person who last modified the document)
+* printed by
+* creation date/time
+* modification date/time
+* print date/time
+* document template, the path of the document template if one was used
   to generate the current document
-- automatic reload
-- hyperlink behavior
-- language
-- number of editing cycles stored as a string. The number is incremented
+* automatic reload
+* hyperlink behavior
+* language
+* number of editing cycles stored as a string. The number is incremented
   each time the document is saved.
-- editing duration -- amount of time spent editing the document. The
+* editing duration -- amount of time spent editing the document. The
   specification is not clear as to how this value is to be calculated.
-- document statistics -- this field varies by file type, but includes
+* document statistics -- this field varies by file type, but includes
   information such as page count, object count, paragraph count, cell
   count, etc.
-- user-defined metadata -- allowable types: string, integer, float,
+* user-defined metadata -- allowable types: string, integer, float,
   boolean
 
 Conforming applications are permitted to store non-standard fields in
@@ -118,6 +118,4 @@ tracked changes.
 
 # External Links
 
-[ODF
-specification](http://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html)
-
+[ODF specification](http://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html)

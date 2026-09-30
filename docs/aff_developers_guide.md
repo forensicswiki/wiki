@@ -28,10 +28,10 @@ you to use AFF or Encase files just like dd images.
 
 The library currently supports the following compilers:
 
-- gcc
-- g++
-- [MinGW](compiling_open_source_forensic_tools_with_mingw.md)
-- Microsoft Visual C++
+* gcc
+* g++
+* [MinGW](compiling_open_source_forensic_tools_with_mingw.md)
+* Microsoft Visual C++
 
 When compiling an AFF program you must include the AFF header:
 

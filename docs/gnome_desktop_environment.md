@@ -4,4 +4,4 @@ tags:
 ---
 ## Resources
 
-- <https://www.sans.org/white-papers/40035/>
+* <https://www.sans.org/white-papers/40035/>

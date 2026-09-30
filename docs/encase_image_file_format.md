@@ -1,15 +1,15 @@
 ---
 tags:
-  -  File Formats
-  -  Disk Image
+  - Disk Image
+  - File Formats
 ---
 The Encase image file format is used by [EnCase](encase.md) used
 to store various types of digital evidence e.g.
 
-- disk image (physical bitstream of an acquired disk)
-- volume image
-- memory
-- logical files
+* disk image (physical bitstream of an acquired disk)
+* volume image
+* memory
+* logical files
 
 ## History
 
@@ -28,10 +28,10 @@ Witness (Compression) Format.
 
 Currently there are 2 versions of the format:
 
-- version 1 is (reportedly) based on [ASR Data's Expert Witness
+* version 1 is (reportedly) based on [ASR Data's Expert Witness
   Compression
   Format](asr_data's_expert_witness_compression_format.md)
-- version 2 was introduced in EnCase 7, for which a format specification
+* version 2 was introduced in EnCase 7, for which a format specification
   (at least non-encrypted Ex01) is available, but requires registration.
 
 The libewf project indicates that the January 2012 version of the
@@ -41,13 +41,13 @@ sufficient to read non-encrypted Ex01 files.
 Although the format specification is not complete, at the moment
 Guidance Software is working on an update. This will not include:
 
-- encrypted Ex01
-- Lx01
+* encrypted Ex01
+* Lx01
 
 So in contrast to other claims both versions of the EWF file format are:
 
-- proprietary
-- partially open specification
+* proprietary
+* partially open specification
 
 For more information about these definitions see: [File formats](file_formats.md)
 
@@ -70,10 +70,10 @@ header containing case information. The case information which entails
 date and time of acquisition, an examiner's name, notes on the
 acquisition, and an optional password.
 
-- In EnCase 3 the case information header is stored in the "header"
+* In EnCase 3 the case information header is stored in the "header"
   section, which is defined twice within the file and contain the same
   information.
-- As of EnCase 4 an additional "header2" section was added. The "header"
+* As of EnCase 4 an additional "header2" section was added. The "header"
   section now appears only once, but the new "header2" section twice.
 
 The format adds error detection by storing the data with checksums
@@ -102,8 +102,8 @@ In EnCase 7 the EWF format was succeeded by the EnCase Evidence File
 Format Version 2 (EWF2-EX01 and EWF2-LX01). EWF2-EX01 is at it's lower
 levels a different format then EWF-E01 and provides support for:
 
-- bzip2 compression
-- direct encryption (AES-256) of the section data
+* bzip2 compression
+* direct encryption (AES-256) of the section data
 
 The same features are added to the new logical evidence file format
 (EWF2-LX01) with the exception of encryption. The actual encryption
@@ -114,21 +114,21 @@ products.
 
 ## See Also
 
-- [ASR Data's Expert Witness Compression Format](asr_data's_expert_witness_compression_format.md)
-- [EnCase](encase.md)
+* [ASR Data's Expert Witness Compression Format](asr_data's_expert_witness_compression_format.md)
+* [EnCase](encase.md)
 
 ### Tools
 
-- [E01 Viewer](e01_viewer.md)
+* [E01 Viewer](e01_viewer.md)
 
 ## External Links
 
-- [Sample image in EnCase, iLook, and dd format](https://cfreds.nist.gov/all/NIST/BasicMacImage) -
+* [Sample image in EnCase, iLook, and dd format](https://cfreds.nist.gov/all/NIST/BasicMacImage) -
   From the Computer Forensic Reference Data Sets Project, the E01 sample image
   dates from January 2005
-- [Expert Witness Compression Format (EWF)](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%20(EWF).asciidoc),
+* [Expert Witness Compression Format (EWF)](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%20(EWF).asciidoc),
   by the [libewf project](libewf.md), March 2006
-- [Expert Witness Compression Format (EWF) version 2](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%202%20(EWF2).asciidoc),
+* [Expert Witness Compression Format (EWF) version 2](https://github.com/libyal/libewf/blob/main/documentation/Expert%20Witness%20Compression%20Format%202%20(EWF2).asciidoc),
   by the [libewf project](libewf.md), July 2012
-- [Validation of forensic images for assurance of digital evidence integrity](https://researchportal.murdoch.edu.au/esploro/outputs/graduate/Validation-of-forensic-images-for-assurance/991005544234707891),
+* [Validation of forensic images for assurance of digital evidence integrity](https://researchportal.murdoch.edu.au/esploro/outputs/graduate/Validation-of-forensic-images-for-assurance/991005544234707891),
   by James Michael McCutcheon, November, 2014

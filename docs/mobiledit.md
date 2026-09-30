@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **MOBILedit!** is an application that provides an interface between a
 cell phone and a personal computer. It is designed to help improve
@@ -34,17 +34,17 @@ phone is supported.
 
 As a cell phone forensics software tool, MOBILedit! has the ability to:
 
-- send SMS messages and phone calls directly from a computer connected
+* send SMS messages and phone calls directly from a computer connected
   to a cell phone
-- monitor a cell phone's battery life, signal quality, and the current
+* monitor a cell phone's battery life, signal quality, and the current
   network operator
-- display everything on a phone to the screen of a computer, allowing
+* display everything on a phone to the screen of a computer, allowing
   easier use of the phone.
-- allow the user to control a phone from a personal computer.
-- synchronize e-mail onto a cell phone with Microsoft Outlook
-- configure multiple devices to connect to MOBILedit!.
-- generate secure reports in any language
-- create specific templates for specific functions and insert gathered
+* allow the user to control a phone from a personal computer.
+* synchronize e-mail onto a cell phone with Microsoft Outlook
+* configure multiple devices to connect to MOBILedit!.
+* generate secure reports in any language
+* create specific templates for specific functions and insert gathered
   data into a template
 
 All functions of the program are located on the main screen. It is also
@@ -98,6 +98,6 @@ differences between mobile phones at a low-level. Therefore, any mobile
 phone can be supported. The driver interface is open, COMPELSON Labs
 offers the source codes of their drivers.
 
-## Links
+## External Links
 
-[Official website](https://www.mobiledit.com/)
+* [Official website](https://www.mobiledit.com/)

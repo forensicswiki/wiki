@@ -13,20 +13,20 @@ segment files, which is also known as split RAW.
 There are various naming schemes for RAW Image Format files, some of the
 more common used for disk or volume images are:
 
-- PREFIX.dd
-- PREFIX.dmg
-- PREFIX.img
-- PREFIX.raw
-- PREFIX.0 - PREFIX.#; variations: starting with either 0 or 1,
+* PREFIX.dd
+* PREFIX.dmg
+* PREFIX.img
+* PREFIX.raw
+* PREFIX.0 - PREFIX.#; variations: starting with either 0 or 1,
   consisting of multiple digits e.g. PREFIX.000
-- PREFIX0 - PREFIX#; variations: starting with either 0 or 1, consisting
+* PREFIX0 - PREFIX#; variations: starting with either 0 or 1, consisting
   of multiple digits e.g. PREFIX000
-- PREFIXaa - PREFIXzz; variations: consisting of more letters e.g.
+* PREFIXaa - PREFIXzz; variations: consisting of more letters e.g.
   PREFIX.aaa
-- PREFIX.1of5 - PREFIX.5of5; variations: consisting of multiple segment
+* PREFIX.1of5 - PREFIX.5of5; variations: consisting of multiple segment
   files
-- PREFIX001.asb - PREFIX###.asb
-- PREFIX-f001.vmdk - PREFIX-f###.vmdk; variations: starting with 001
+* PREFIX001.asb - PREFIX###.asb
+* PREFIX-f001.vmdk - PREFIX-f###.vmdk; variations: starting with 001
 
 Note that there are also RAW Image Formats specific to the storage
 media, e.g. RAW optical disc image.
@@ -34,8 +34,8 @@ media, e.g. RAW optical disc image.
 These often are accompanied by a table of contents file often in the
 [CUE Sheet format](cue_sheet_format.md), e.g.
 
-- BIN/CUE
-- ISO/CUE
+* BIN/CUE
+* ISO/CUE
 
 ## Contents
 
@@ -50,12 +50,12 @@ supported by most of the computer forensics applications.
 
 ## See Also
 
-- [Disk Images](disk_images.md)
+* [Disk Images](disk_images.md)
 
 ## Tools
 
-- [dd](dd.md)
-- [dc3dd](dc3dd.md)
-- [dcfldd](dcfldd.md)
-- [dd_rescue](dd_rescue.md)
-- [ddrescue](ddrescue.md)
+* [dd](dd.md)
+* [dc3dd](dc3dd.md)
+* [dcfldd](dcfldd.md)
+* [dd_rescue](dd_rescue.md)
+* [ddrescue](ddrescue.md)

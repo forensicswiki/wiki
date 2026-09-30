@@ -7,4 +7,4 @@ RC4 is a stream-based [encryption](encryption.md) algorithm
 
 ## External Links
 
-- [Wikipedia: RC4](https://en.wikipedia.org/wiki/RC4)
+* [Wikipedia: RC4](https://en.wikipedia.org/wiki/RC4)

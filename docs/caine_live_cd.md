@@ -23,13 +23,13 @@ standards forensic reliability and safety standards laid down by the
 
 Caine includes:
 
-- Caine Interface - a user-friendly interface that brings together a
+* Caine Interface - a user-friendly interface that brings together a
   number of well-known forensic tools, many of which are open source;
-- Updated and optimized environment to conduct a forensic analysis;
-- Report generator semi-automatic, by which the investigator has a
+* Updated and optimized environment to conduct a forensic analysis;
+* Report generator semi-automatic, by which the investigator has a
   document easily editable and exportable with a summary of the
   activities;
-- Adherence to the investigative procedure defined recently by Italian
+* Adherence to the investigative procedure defined recently by Italian
   Law 48/2008, [Law 48/2008](https://www.parlamento.it/parlam/leggi/08048l.htm).
 
 In addition, Caine is the first distribution to include forensic
@@ -40,17 +40,17 @@ The distro uses several patches specifically constructed to make the
 system "forensic", ie not alter the original device to be tested and /
 or duplicate:
 
-- Root file system spoofing: patch that prevents tampering with the
+* Root file system spoofing: patch that prevents tampering with the
   source device;
-- No automatic recovery corrupted Journal patch: patch that prevents
+* No automatic recovery corrupted Journal patch: patch that prevents
   tampering with the device source, through the recovery of the Journal;
-- Mounter and RBFstab: mounting devices in a simple and via graphical
+* Mounter and RBFstab: mounting devices in a simple and via graphical
   interface.
 
 RBFstab is set to treat an ext3 file system as an ext4 file system *noload with
 the option* to avoid automatic recovery of any corrupt Journal of ext3;
 
-- Swap file off: patch that avoids modifying the file swap in systems with
+* Swap file off: patch that avoids modifying the file swap in systems with
   limited memory [RAM](ram.md), avoiding the alteration of the original
   artifact computer and overwrite data useful for the purposes of investigation.
 
@@ -89,25 +89,25 @@ Inside contains the following software.
 
 , Acquisition
 
-- Grissom Analyzer (mmls, img_stat, fsstat)
-- LRRP
-- AIR
-- Guymager
-- Terminal with saving the output
-- DC3DD
+* Grissom Analyzer (mmls, img_stat, fsstat)
+* LRRP
+* AIR
+* Guymager
+* Terminal with saving the output
+* DC3DD
 
 Analysis
 
-- Autopsy
-- [The Sleuth Kit](the_sleuth_kit.md)
-- [Sfdumper 2.2](selective_file_dumper.md)
-- Fundl 2.0
-- Scalpel
-- Foremost
-- Stegdetect
-- Ophcrack
-- Nautilus scripts
-- And many others
+* Autopsy
+* [The Sleuth Kit](the_sleuth_kit.md)
+* [Sfdumper 2.2](selective_file_dumper.md)
+* Fundl 2.0
+* Scalpel
+* Foremost
+* Stegdetect
+* Ophcrack
+* Nautilus scripts
+* And many others
 
 Reporting semiautomatic == ==
 
@@ -159,35 +159,35 @@ at the University of Udine.
 
 ## Bibliography
 
-- Andrea Ghirardini, Gabriele Faggioli, *Computer Forensics*, Apogeo,
+* Andrea Ghirardini, Gabriele Faggioli, *Computer Forensics*, Apogeo,
   2009, ISBN 9788850328161
-- E. Huebner, S. Zanero, *Open Source Software for Digital Forensics*,
+* E. Huebner, S. Zanero, *Open Source Software for Digital Forensics*,
   Springer, 2010, ISBN 978-1-4419-5802-0
-- Diane Barrett, Greg Kipper, *Virtualization and Forensics: A Digital
+* Diane Barrett, Greg Kipper, *Virtualization and Forensics: A Digital
   Forensic Investigator's Guide to Virtual Environment*, Syngress, 2010,
   ISBN 978-1-59749-557-8
-- Sean Philip Oriyano and Michael Gregg, *Hacker Techniques, Tools, And
+* Sean Philip Oriyano and Michael Gregg, *Hacker Techniques, Tools, And
   Incident Handling*, Jones and Bartlett Learning, 2011, ISBN
   978-0-7637-9183-4
-- Michael Jang, *Security Strategies in Linux Platforms and
+* Michael Jang, *Security Strategies in Linux Platforms and
   Applications*, Jones and Bartlett Learning, 2011, ISBN
   978-0-7637-9189-6
 
-## External links
+## External Links
 
-- [Open Source Live Distributions for Computer Forensics- by Springer](https://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
-- [Linux-Magazine.com](https://www.linux-magazine.com/Issues/2011/122/Caine)
-- [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
-- [LinuxFormat](https://www.linuxformat.com/archives?issue=151)
-- [Sito ufficiale](https://www.caine-live.net/)
+* [Open Source Live Distributions for Computer Forensics- by Springer](https://link.springer.com/chapter/10.1007/978-1-4419-5803-7_5)
+* [Linux-Magazine.com](https://www.linux-magazine.com/Issues/2011/122/Caine)
+* [Softpedia](https://news.softpedia.com/news/CAINE-3-0-a-Tool-for-Digital-Forensics-297461.shtml)
+* [LinuxFormat](https://www.linuxformat.com/archives?issue=151)
+* [Sito ufficiale](https://www.caine-live.net/)
 
 ### German
 
-- [Linux-Mazin.de](https://www.linux-magazin.de/ausgaben/2010/12/italienische-aufklaerung/)
+* [Linux-Mazin.de](https://www.linux-magazin.de/ausgaben/2010/12/italienische-aufklaerung/)
 
 ### Italian
 
-- [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
-- [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
-- [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
-- [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)
+* [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
+* [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
+* [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
+* [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)

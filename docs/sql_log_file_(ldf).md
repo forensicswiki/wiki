@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 In computing, SQL Log File is a Microsoft SQL Server file type which
 stores all the transaction and modification made in the SQL database.
@@ -69,5 +69,4 @@ utilities which explore the transaction records of log file.
 
 ## Tools
 
-- [SQL Log Analyzer](sql_log_analyzer.md)
-
+* [SQL Log Analyzer](sql_log_analyzer.md)

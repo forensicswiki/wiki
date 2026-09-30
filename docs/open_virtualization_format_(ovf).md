@@ -1,6 +1,6 @@
 ---
 tags:
-  -  File Formats
+  - File Formats
 ---
 Open Virtualization Format (OVF) is packaging format for software
 solutions based on virtual systems.
@@ -10,11 +10,10 @@ Standardization (ISO) as ISO 17203.
 
 ## See Also
 
-- [Disk Images](disk_images.md)
+* [Disk Images](disk_images.md)
 
 ## External Links
 
-- [Open Virtualization Format](https://www.dmtf.org/standards/ovf)
-- [Wikipedia: Open Virtualization
-  Format](https://en.wikipedia.org/wiki/Open_Virtualization_Format)
+* [Open Virtualization Format](https://www.dmtf.org/standards/ovf)
+* [Wikipedia: Open Virtualization Format](https://en.wikipedia.org/wiki/Open_Virtualization_Format)
 

@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Libyal
-  -  File Analysis
-  -  Tools
-  -  Open Source Software
-  -  Windows
+  - Libyal
+  - File Analysis
+  - Tools
+  - Open Source Software
+  - Windows
 ---
 The **libagdb** package contains a library and applications to read the
 [Windows SuperFetch Format](windows_superfetch_format.md).
@@ -17,5 +17,4 @@ Libagdb was created by [Joachim Metz](joachim_metz.md) in 2014.
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libagdb/)
-
+* [Project site](https://github.com/libyal/libagdb/)

@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
-  -  Email Analysis
+  - Organization
+  - Articles that need to be expanded
+  - Email Analysis
 ---
 **Fookes Software Ltd** is a company which sells email forensics
 software for [Windows](windows.md) computers.
@@ -11,14 +11,13 @@ software for [Windows](windows.md) computers.
 
 ### Software
 
-- Aid4Mail - collects, converts and culls email data
+* Aid4Mail - collects, converts and culls email data
 
 #### Free Tools
 
-- Aid4Mail MBOX Converter - converts between MBOX and EML files
-- NoteTab Light - text editor
+* Aid4Mail MBOX Converter - converts between MBOX and EML files
+* NoteTab Light - text editor
 
 ## External Links
 
-- [Official Website](https://www.fookes.com/)
-
+* [Official Website](https://www.fookes.com/)

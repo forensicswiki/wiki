@@ -50,9 +50,9 @@ Department of Homeland Security Science and Technology Directorate.
 
 # Discontinued Products
 
-• Triage-ID®
-• Triage-Lab®
-• Triage-Investigator®
+* Triage-ID®
+* Triage-Lab®
+* Triage-Investigator®
 
 # ADF Patented Technology
 
@@ -75,16 +75,16 @@ SearchPaks can be generic or mission-specific:
 
 Examples of Generic SearchPaks
 
-> • Collect all pictures, videos, and documents accessed in the past six
-> months on a target machine.
-> • Detect any installed application that can facilitate hiding data.
-> • Collect all iPhone backup files.
+* Collect all pictures, videos, and documents accessed in the past six
+  months on a target machine.
+* Detect any installed application that can facilitate hiding data.
+* Collect all iPhone backup files.
 
 Examples of Mission-Specific SearchPaks
 
-> • Collect files that match a set of known hash values.
-> • Collect all documents, text files, or emails that contain the
-> keyword “Operation Kandahar.”
+* Collect files that match a set of known hash values.
+* Collect all documents, text files, or emails that contain the
+  keyword “Operation Kandahar.”
 
 # DHS S&T First Responder Cyber Forensic Field Kit
 
@@ -133,8 +133,7 @@ specifically for first responders and nontechnical investigators
 Digital forensic triage and/or ADF Solutions has been described or
 highlighted in many different publications:
 
-* [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
-
 # External Links
 
+* [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
 * [Official website](https://www.adfsolutions.com/)

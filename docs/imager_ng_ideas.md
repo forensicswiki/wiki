@@ -19,49 +19,49 @@ want to discuss the usefulness of a feature.
 
 # Features
 
-- Compression
-- Integrity checks
-- Encryption
-- Error correction (parity)
-- Pre-processing during imaging
-- User suspend/resume, resume after failure
-- Remote imaging
-- Error resistance in reading storage media, e.d. disks
-  - maybe have different techniques, e.g. to use for heavily damaged
+* Compression
+* Integrity checks
+* Encryption
+* Error correction (parity)
+* Pre-processing during imaging
+* User suspend/resume, resume after failure
+* Remote imaging
+* Error resistance in reading storage media, e.d. disks
+  * maybe have different techniques, e.g. to use for heavily damaged
     storage media
-- Support different types of storage media
-  - disk
-  - volume
-  - optical discs
-  - memory
-  - files and directories
-- Store relevant data about the storage media and the imaging process
-  - read errors
-- Support multiple image format
-  - not all image formats have support for all the features
-- Built-in write blocking (software write blocker)
+* Support different types of storage media
+  * disk
+  * volume
+  * optical discs
+  * memory
+  * files and directories
+* Store relevant data about the storage media and the imaging process
+  * read errors
+* Support multiple image format
+  * not all image formats have support for all the features
+* Built-in write blocking (software write blocker)
 
 ## Compression
 
-- Reduces the amount of data that needs to be written; improved the
+* Reduces the amount of data that needs to be written; improved the
   overall imaging speed.
-  - hash-based imaging
-  - detection of easy (empty-block) and hard (encrypted block) to
+  * hash-based imaging
+  * detection of easy (empty-block) and hard (encrypted block) to
     compress data
-  - multi-threaded compression
-  - sparse ranges
-  - de-duplication
+  * multi-threaded compression
+  * sparse ranges
+  * de-duplication
 
 ### de-duplication
 
-- hash-based imaging
-- sparse or repeated ranges
-- pattern-fill
+* hash-based imaging
+* sparse or repeated ranges
+* pattern-fill
 
 ## Integrity checks
 
-- Integrity hash (MD5, SHA1, SHA256)
-- piecewise hashing
+* Integrity hash (MD5, SHA1, SHA256)
+* piecewise hashing
 
 # Supportive tooling
 
@@ -69,24 +69,24 @@ want to discuss the usefulness of a feature.
 
 ## Image verification
 
-- modes:
-  - full verification and print a report at the end
-  - stop on error (useful for automation?)
+* modes:
+  * full verification and print a report at the end
+  * stop on error (useful for automation?)
 
 # Image format
 
 Implied features for an image format
 
-- High-speed imaging
-- Compact storage
-- Error-resistant storage (over a longer time)
-- Minimal overhead on read
-- Evidence bag
-  - multiple images in one image format
-  - support for additional information e.g. case data
+* High-speed imaging
+* Compact storage
+* Error-resistant storage (over a longer time)
+* Minimal overhead on read
+* Evidence bag
+  * multiple images in one image format
+  * support for additional information e.g. case data
 
 # See Also
 
-- [Disk Imaging](disk_imaging.md)
-- [Memory Imaging](memory_imaging.md)
-- [Piecewise hashing](piecewise_hashing.md)
+* [Disk Imaging](disk_imaging.md)
+* [Memory Imaging](memory_imaging.md)
+* [Piecewise hashing](piecewise_hashing.md)

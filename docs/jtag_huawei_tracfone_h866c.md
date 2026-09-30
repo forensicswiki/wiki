@@ -58,9 +58,9 @@ with the vibrator switch activating for less than a second.
 
 Launch the Riff Box JTAG Manager and use the following settings:
 
-- JTAG TCK Speed = RTCK
-- Resurrector Settings= Huawei U8655
-- Auto FullFlash size
+* JTAG TCK Speed = RTCK
+* Resurrector Settings= Huawei U8655
+* Auto FullFlash size
 
  <img src="../assets/images/M866C_setting.jpg" title="M866C_setting.jpg" width="800"
  alt="M866C_setting.jpg" />
@@ -68,7 +68,7 @@ Launch the Riff Box JTAG Manager and use the following settings:
 
 Advanced Settings:
 
-- Ignore Target IDCODE during Resurrection and DCC Loader operations
+* Ignore Target IDCODE during Resurrection and DCC Loader operations
 
  <img src="../assets/images/Huawei-tracfone-m865c-riff-advanced-settings.jpg"
  title="huawei-tracfone-m865c-riff-advanced-settings.jpg" width="600"

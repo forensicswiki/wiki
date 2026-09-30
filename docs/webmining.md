@@ -4,6 +4,6 @@ tags:
 ---
 ## See Also
 
-- [DBpedia](https://www.dbpedia.org/about/) - a crowd-sourced community effort
+* [DBpedia](https://www.dbpedia.org/about/) - a crowd-sourced community effort
   to extract structured content from the information created in various
   Wikimedia projects. 

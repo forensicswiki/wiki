@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **M3 Bitlocker Recovery** is a Free Bitlocker recovery software to
 recover data and decrypt data from Bitlocker encrypted volume created on
@@ -33,14 +33,13 @@ Server 2008, Windows Server 2012.
 
 ## See Also
 
-- [M3 Data Recovery](m3_data_recovery.md)
-- [M3 RAW Drive Recovery](m3_raw_drive_recovery.md)
-- [M3 Partition Recovery](m3_partition_recovery.md)
-- [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md)
-- [M3 Bitlocker Loader for Mac](m3_bitlocker_loader_for_mac.md)
+* [M3 Data Recovery](m3_data_recovery.md)
+* [M3 RAW Drive Recovery](m3_raw_drive_recovery.md)
+* [M3 Partition Recovery](m3_partition_recovery.md)
+* [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md)
+* [M3 Bitlocker Loader for Mac](m3_bitlocker_loader_for_mac.md)
 
 ## External Links
 
-- [Download Link](https://bitlocker-recovery-free.en.softonic.com/)
-- [M3 Bitlocker
-  Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)
+* [Download Link](https://bitlocker-recovery-free.en.softonic.com/)
+* [M3 Bitlocker Recovery](https://www.m3datarecovery.com/bitlocker-recovery/bitlocker-data-recovery.html)

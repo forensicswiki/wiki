@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Linux
-  -  Memory Analysis
-  -  Tools
+  - Linux
+  - Memory Analysis
+  - Tools
 ---
 <img src="../assets/images/Second_look_logo.png"
 title="Second_look_logo" width="550"
@@ -96,13 +96,13 @@ Second Look is regularly updated to support analysis of the latest
 kernels and the most commonly used Linux distributions. As of March
 2017:
 
-- Supported target kernels: 2.6.9 through 4.8
-- Supported target architectures: x86 32- and 64-bit
-- Supported target distributions: Amazon Linux, CentOS, Debian, Fedora,
+* Supported target kernels: 2.6.9 through 4.8
+* Supported target architectures: x86 32- and 64-bit
+* Supported target distributions: Amazon Linux, CentOS, Debian, Fedora,
   Oracle Linux, SUSE, RHEL, and Ubuntu
 
 ## External Links
 
-- [Product Home Page](https://www.forcepoint.com/products)
-- [Demo Video](https://www.youtube.com/watch?v=m3KbNsd2kvI)
-- [Another Demo Video](https://www.youtube.com/watch?v=EIiNgiqr0s0)
+* [Product Home Page](https://www.forcepoint.com/products)
+* [Demo Video](https://www.youtube.com/watch?v=m3KbNsd2kvI)
+* [Another Demo Video](https://www.youtube.com/watch?v=EIiNgiqr0s0)

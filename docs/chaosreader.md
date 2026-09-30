@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Network Forensics
+  - Network Forensics
 ---
 ## Overview
 
@@ -17,7 +17,6 @@ available) to create the log files and then processes them.
 
 ## External Links
 
-- [Chaosreader author's
-  website](https://www.brendangregg.com/chaosreader.html)
-- [Git repository](https://github.com/brendangregg/Chaosreader)
+* [Chaosreader author's website](https://www.brendangregg.com/chaosreader.html)
+* [Git repository](https://github.com/brendangregg/Chaosreader)
 

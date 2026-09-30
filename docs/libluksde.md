@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Libyal
-  -  Disk Encryption
-  -  LGPL
-  -  Tools
+  - Libyal
+  - Disk Encryption
+  - LGPL
+  - Tools
 ---
 The **libluksde** package contains a library and applications to read
 the [Linux Unified Key Setup
@@ -13,8 +13,8 @@ the [Linux Unified Key Setup
 
 The **libluksde** package contains the following tools:
 
-- **luksdeinfo**, which shows information about LUKS Volumes.
-- **luksdemount**, which FUSE mounts LUKS Volumes.
+* **luksdeinfo**, which shows information about LUKS Volumes.
+* **luksdemount**, which FUSE mounts LUKS Volumes.
 
 ## History
 
@@ -23,5 +23,4 @@ Libluksde was created by [Joachim Metz](joachim_metz.md) in
 
 ## External Links
 
-- [Project site](https://github.com/libyal/libluksde/)
-
+* [Project site](https://github.com/libyal/libluksde/)

@@ -14,13 +14,13 @@ DBan is bundled with [Eraser](eraser.md)
 
 ## Wipe Methods
 
-- Quick Erase
-- Canadian RCMP TSSIT OPS-II Standard Wipe
-- American DoD 5220-22.M Standard Wipe
-- Gutmann Wipe
-- PRNG Stream Wipe
+* Quick Erase
+* Canadian RCMP TSSIT OPS-II Standard Wipe
+* American DoD 5220-22.M Standard Wipe
+* Gutmann Wipe
+* PRNG Stream Wipe
 
 ## External Links
 
-- [Official website](https://dban.org/)
-- [Support Forum](https://sourceforge.net/p/dban/discussion/208932/)
+* [Official website](https://dban.org/)
+* [Support Forum](https://sourceforge.net/p/dban/discussion/208932/)

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Text
+  - File Formats
+  - Text
 ---
 The **CUE sheet** format (.cue) file is often used in combination with
 .bin or .iso file(s) to define the track and/or session layout of an
@@ -19,8 +19,6 @@ made like the CDTEXT and IsoBuster extensions.
 
 ## See also
 
-- [Wikipedia on CUE
-  sheet](https://en.wikipedia.org/wiki/Cue_sheet_%28computing%29)
-- [CUE sheet
-  format](https://code.google.com/archive/p/libodraw/downloads)
+* [Wikipedia on CUE sheet](https://en.wikipedia.org/wiki/Cue_sheet_%28computing%29)
+* [CUE sheet format](https://code.google.com/archive/p/libodraw/downloads)
 

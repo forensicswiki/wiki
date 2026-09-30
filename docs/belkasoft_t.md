@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 ## Belkasoft T
 
@@ -20,16 +20,16 @@ the digital evidence.
 
 #### Key features
 
-- Launch Belkasoft Triage from a dongle connected to a device being
+* Launch Belkasoft Triage from a dongle connected to a device being
   investigated
-- Detect 1500+ types of computer, mobile and cloud artifacts such as
+* Detect 1500+ types of computer, mobile and cloud artifacts such as
   emails, chats, browsers, system settings and others
-- Automatically acquire a computer RAM dump
-- Detect presence of virtual machines, memory files and mobile backups
-- Detect skin tone in found pictures
-- Calculate file hash values and show an immediate alert on files with
+* Automatically acquire a computer RAM dump
+* Detect presence of virtual machines, memory files and mobile backups
+* Detect skin tone in found pictures
+* Calculate file hash values and show an immediate alert on files with
   known hashes
-- Stop the analysis at any time once you got enough information
-- Export discovered results partially or entirely
-- Select evidence to be included into the resulting image
-- Use the same dongle to store the image
+* Stop the analysis at any time once you got enough information
+* Export discovered results partially or entirely
+* Select evidence to be included into the resulting image
+* Use the same dongle to store the image

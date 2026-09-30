@@ -1,18 +1,18 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Disk Imaging
-  -  Commercial Software
+  - Tools
+  - Windows
+  - Disk Imaging
+  - Commercial Software
 ---
 The **Belkasoft Acquisition Tool** (**BelkaImager**) is a free forensic
 imaging utility developed by [Belkasoft](belkasoft.md). Four
 types of data sources are currently supported:
 
-- Hard and removable drives
-- Mobile devices
-- Windows RAM memory
-- Cloud data
+* Hard and removable drives
+* Mobile devices
+* Windows RAM memory
+* Cloud data
 
 The acquired image can be then analyzed with [Belkasoft Evidence
 Center](belkasoft_evidence_center.md) or any similar third-party

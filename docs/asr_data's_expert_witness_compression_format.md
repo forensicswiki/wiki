@@ -1,7 +1,7 @@
 ---
 tags:
-  -  File Formats
-  -  Disk Imaging
+  - Disk Imaging
+  - File Formats
 ---
 **This page is intended to preserve the original material, including
 errors and typos. It is wiki-style formatted as closely as possible to
@@ -26,14 +26,14 @@ assurance of integrity, it is up to the implementation to provide
 meaningful authentication for **any** data contained in an "evidence
 file".
 
-- Overview
-- File Header
-- The Section
-- Section Types
-  - 'header' section
-  - 'volume' section
-  - 'table' section
-  - 'next' and 'done' sections
+* Overview
+* File Header
+* The Section
+* Section Types
+  * 'header' section
+  * 'volume' section
+  * 'table' section
+  * 'next' and 'done' sections
 
 # Overview
 
@@ -107,13 +107,13 @@ customized.)*
 | c           |
 | Case Number |
 
-- *Case Number, Evidence Number, Unique Description, Examiner Name,
+* *Case Number, Evidence Number, Unique Description, Examiner Name,
   and Notes are free-form (provided they don't contain tab or newline
   characters).*
-- *Acquired Date and System Date are in the form of: "2002 3 4 10 19
+* *Acquired Date and System Date are in the form of: "2002 3 4 10 19
   59" (March 4, 2002 10:19:59).*
-- *pwhash should simply be the character '0'.*
-- *char should be the one of these three characters: 'b', 'f', or 'n'.
+* *pwhash should simply be the character '0'.*
+* *char should be the one of these three characters: 'b', 'f', or 'n'.
   This represents "best", "fastest", or "no compression". Expert Witness
   Compression uses 'f'.*
 

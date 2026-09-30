@@ -18,13 +18,13 @@ manner which protects the data from changes or alterations.
 
 ## Product Features
 
-- Write block internal and attached devices
-- Includes PALADIN toolbox
-- Seven forensic image formats
-- Device cloning
-- Data carving
-- Custom search conditions
+* Write block internal and attached devices
+* Includes PALADIN toolbox
+* Seven forensic image formats
+* Device cloning
+* Data carving
+* Custom search conditions
 
 ## External Links
 
-- [Official Website](https://sumuri.com/software/Carbon/)
+* [Official Website](https://sumuri.com/software/Carbon/)

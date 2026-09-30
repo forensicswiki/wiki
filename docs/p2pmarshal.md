@@ -45,7 +45,7 @@ Justice (NIJ) grant. The project was originally named File Marshal.
 
 # External Links
 
-- [File Marshal: Automatic extraction of peer-to-peer data](http://old.dfrws.org/2007/proceedings/p43-adelstein.pdf),
+* [File Marshal: Automatic extraction of peer-to-peer data](http://old.dfrws.org/2007/proceedings/p43-adelstein.pdf),
   by Frank Adelstein, Robert A. Joyce, DFRWS 2007
-- [p2pmarshal.com](https://www.atcorp.com/)
-- [ATC-NY](https://www.atcorp.com/)
+* [p2pmarshal.com](https://www.atcorp.com/)
+* [ATC-NY](https://www.atcorp.com/)

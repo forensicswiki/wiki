@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 EnScripts are a scripts that create additional functionality for the
 program [EnCase](encase.md).
@@ -12,4 +12,4 @@ functional applications."
 
 ## External Links
 
-- [Guidance Software](https://www.opentext.com/products/security-cloud)
+* [Guidance Software](https://www.opentext.com/products/security-cloud)

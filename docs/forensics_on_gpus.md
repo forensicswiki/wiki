@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Using a **Graphical Processing Unit** (**GPU**) for forensics analysis
 attempts to make use of the significant, parallel processing power
@@ -18,10 +18,10 @@ For example, password recovering speed for [MD5](md5.md) hash
 using Core2 Duo is about 4,7 millions passwords per second. By using
 8800GTX it is possible to reach 265 millions passwords per second.
 
-- [ElcomSoft Distributed Password Recovery](https://www.elcomsoft.com/edpr.html)
-- [ElcomSoft Password Recovery Bundle](https://www.elcomsoft.com/edfb.html)
-- [Passware Kit Forensic](https://www.passware.com/)
-- [Passcovery Suite](https://passcovery.com/products/passcoverysuite.htm)
+* [ElcomSoft Distributed Password Recovery](https://www.elcomsoft.com/edpr.html)
+* [ElcomSoft Password Recovery Bundle](https://www.elcomsoft.com/edfb.html)
+* [Passware Kit Forensic](https://www.passware.com/)
+* [Passcovery Suite](https://passcovery.com/products/passcoverysuite.htm)
 
 ## Bibliography
 

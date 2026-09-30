@@ -9,6 +9,6 @@ implementation, the behavior of YAFFS2 is not very well understood. Ad-
 ditionally, several aspects like wear-leveling and garbage- collection
 are not well-specified in the standard.
 
-## External links
+## External Links
 
 * [official website](https://yaffs.net/)

@@ -11,11 +11,11 @@ data recovery center.
 The most popular data recovery tools from Dolphin Data Lab are the DFL
 series tools including:
 
-- [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](dfl-srp_all-in-one_usb3.0_data_recovery_equipment.md)
-- [DFL-FRP HDD Firmware Repair Tool](dfl-frp_hdd_firmware_repair_tool.md)
-- [DFL-DE Data Recovery Tool](dfl-de_data_recovery_tool.md)
-- [DFL-DDP Data Recovery Equipment](dfl-ddp_data_recovery_equipment.md)
-- [DFL-URE USB Device Data Recovery Equipment](dfl-ure_usb_device_data_recovery_equipment.md)
+* [DFL-SRP All-In-One USB3.0 Data Recovery Equipment](dfl-srp_all-in-one_usb3.0_data_recovery_equipment.md)
+* [DFL-FRP HDD Firmware Repair Tool](dfl-frp_hdd_firmware_repair_tool.md)
+* [DFL-DE Data Recovery Tool](dfl-de_data_recovery_tool.md)
+* [DFL-DDP Data Recovery Equipment](dfl-ddp_data_recovery_equipment.md)
+* [DFL-URE USB Device Data Recovery Equipment](dfl-ure_usb_device_data_recovery_equipment.md)
 
 Dolphin Data Lab has sold its data recovery products to over 90
 countries including USA, UK, China, South Korea, France, Germany,
@@ -28,6 +28,6 @@ them.
 
 ## External Links
 
-- [Dolphin Data Lab Official Website](https://www.dolphindatalab.com/)
-- [Dolphin Data Lab Facebook](https://www.facebook.com/datarecoverytools)
-- [Dolphin Data Lab Twitter](https://twitter.com/dolphindatalab)
+* [Dolphin Data Lab Official Website](https://www.dolphindatalab.com/)
+* [Dolphin Data Lab Facebook](https://www.facebook.com/datarecoverytools)
+* [Dolphin Data Lab Twitter](https://twitter.com/dolphindatalab)

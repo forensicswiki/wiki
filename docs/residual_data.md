@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 Residual Data is data that is unintentionally left behind on computer
 media. In forensic usage, remnant data is typically left behind after
@@ -10,12 +10,12 @@ decommissioned.
 
 Residual data appears at all levels of modern computer systems:
 
-- Computer systems that are discarded.
-- Partitions in hard drives that are deleted.
-- Files on hard drives that are deleted but not overwritten.
-- Snippets of text in Microsoft Word files.
-- Heap variables that are freed with **free()**
-- Automatic variables left on the stack of languages like C or garbage
+* Computer systems that are discarded.
+* Partitions in hard drives that are deleted.
+* Files on hard drives that are deleted but not overwritten.
+* Snippets of text in Microsoft Word files.
+* Heap variables that are freed with **free()**
+* Automatic variables left on the stack of languages like C or garbage
   collected in languages like Java.
 
 # Papers
@@ -32,8 +32,8 @@ Sanitization Practices," IEEE Security and Privacy, January/February 2003.
 
 # See Also
 
-- [Residual Data on Used Equipment](residual_data_on_used_equipment.md)
-- [Residual Data in Document Files](residual_data_in_document_files.md)
-- [Sanitizing Tools](sanitizing_tools.md)
-- [Remnant Data](remnant_data.md)
-- [Residual data on iPhones](http://www.iphoneatlas.com/2008/05/19/refurbished-iphones-may-contain-other-users-personal-data/)
+* [Residual Data on Used Equipment](residual_data_on_used_equipment.md)
+* [Residual Data in Document Files](residual_data_in_document_files.md)
+* [Sanitizing Tools](sanitizing_tools.md)
+* [Remnant Data](remnant_data.md)
+* [Residual data on iPhones](http://www.iphoneatlas.com/2008/05/19/refurbished-iphones-may-contain-other-users-personal-data/)

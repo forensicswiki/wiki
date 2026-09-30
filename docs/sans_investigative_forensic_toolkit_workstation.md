@@ -34,6 +34,6 @@ The SIFT Workstation will allow evidence to be viewed from a Windows
 workstation. The /images directory and the evidence mount point, the /mnt/hack
 directory, can be viewed from the local Windows operating system.
 
-## Links
+## External Links
 
 * [Computer Forensics and e-Discovery downloads](https://www.sans.org/cyber-security-events/emea/)

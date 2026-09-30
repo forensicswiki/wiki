@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 CarvPath annotations are a simple string-wise depiction of a
 hierarchically nested designation of sub entities within parent entities
@@ -21,13 +21,13 @@ alt="carvpath" />
 
 The basic structure of a CarvPath annotation is defined as follows:
 
-- CARVPATH : \[CPTOKEN "/" \]\* CPTOKEN ".' <extension>
-- CPTOKEN : \[CPCHUNK "_" \]\* CPCHUNK
-- CPCGUNK : CPFRAGMENT \| CPSPARSE \| CPDIGEST
-- CPFRAGMENT : <offset> + <size>
-- CPSPARSE : "S" <size>
-- CPDIGEST : "D" digest(CPTOKEN)
+* CARVPATH : \[CPTOKEN "/" \]\* CPTOKEN ".' <extension>
+* CPTOKEN : \[CPCHUNK "_" \]\* CPCHUNK
+* CPCGUNK : CPFRAGMENT \| CPSPARSE \| CPDIGEST
+* CPFRAGMENT : <offset> + <size>
+* CPSPARSE : "S" <size>
+* CPDIGEST : "D" digest(CPTOKEN)
 
 An example of a CarvPath :
 
-- 132048+42949672960/Dca7cda1bd637a30b8f4f1344b9e984713b7ca06ce5da80b953e616c56cc6c64a/0+73728_S57344_98304+4096.dat
+* 132048+42949672960/Dca7cda1bd637a30b8f4f1344b9e984713b7ca06ce5da80b953e616c56cc6c64a/0+73728_S57344_98304+4096.dat

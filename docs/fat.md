@@ -651,7 +651,7 @@ def FromFatDateTime(fat_date_time):
       1980 + year, month, day_of_month, hours, minutes, seconds)
 ```
 
-## External links
+## External Links
 
 * [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
 * [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)

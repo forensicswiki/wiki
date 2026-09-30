@@ -8,19 +8,19 @@ channel's designer, owner, or operator.
 
 ## Common Uses
 
-- Bypassing network filters;
-- Bypassing network [sniffers](sniffer.md).
+* Bypassing network filters;
+* Bypassing network [sniffers](sniffer.md).
 
 ## Techniques
 
 Information can be hidden within:
 
-- IP ID;
-- TCP ISN;
-- TCP options;
-- DNS ID;
-- HTTP cookie;
-- etc.
+* IP ID;
+* TCP ISN;
+* TCP options;
+* DNS ID;
+* HTTP cookie;
+* etc.
 
 ## Detection of hidden channels
 

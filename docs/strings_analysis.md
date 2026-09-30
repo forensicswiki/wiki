@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Tools
-  -  Howtos
+  - Tools
+  - Howtos
 ---
 ## Description and Review
 
@@ -30,7 +30,9 @@ run the following command (replacing <sourcefilename> with the name of
 the file I want to analyzing strings on, and "<outputfilename>" with the
 name of the file I want to output the results to):
 
-` strings -8 `<sourcefilename>` > `<outputfilename>`.txt`
+```bash
+strings -8 <sourcefilename> > <outputfilename>.txt
+```
 
 The resulting .txt file will contain a list of all strings made up of at
 least 8 consecutive characters found within the source file. The "8" can
@@ -39,40 +41,42 @@ be replaced with any other number you choose to specify.
 When using Strings on a suspicious process memory dump I obtained during
 a digital forensics investigation, I found the following strings:
 
-` …`
-` C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe`
-` …`
-` Cmd line:`
-` port numbers can be individual or ranges: m-n [inclusive]`
-`        -u            UDP mode`
-`        -v            verbose [use twice to be more verbose]`
-`        -w secs              timeout for connects and final net reads`
-`        -z            zero-I/O mode [used for scanning]`
-`        -t            answer TELNET negotiation`
-`        -g gateway    source-routing hop point[s], up to 8`
-`        -G num        source-routing pointer: 4, 8, 12, ...`
-`        -h            this cruft`
-`        -i secs              delay interval for lines sent, ports scanned`
-`        -l            listen mode, for inbound connects`
-`        -L            listen harder, re-listen on socket close`
-`        -n            numeric-only IP addresses, no DNS`
-`        -o file              hex dump of traffic`
-`        -p port              local port number`
-`        -r            randomize local and remote ports`
-`        -s addr              local source address`
-`        -e prog              inbound program to exec [dangerous!!]`
-`        -d            detach from console, stealth mode`
-` [v1.10 NT]`
-` connect to somewhere:      nc [-options] hostname port[s] [ports] ...`
-` listen for inbound:  nc -l -p port [options] [hostname] [port]`
-` `
-` critsvc32:`
-` …`
-` C:\Windows\critsvc32.exe`
-` …`
-` Secure Resource Selection Service`
-` C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe`
-` C:\Windows\system32\srss.exe`
+```text
+...
+C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
+...
+Cmd line:
+port numbers can be individual or ranges: m-n [inclusive]
+       -u            UDP mode
+       -v            verbose [use twice to be more verbose]
+       -w secs              timeout for connects and final net reads
+       -z            zero-I/O mode [used for scanning]
+       -t            answer TELNET negotiation
+       -g gateway    source-routing hop point[s], up to 8
+       -G num        source-routing pointer: 4, 8, 12, ...
+       -h            this cruft
+       -i secs              delay interval for lines sent, ports scanned
+       -l            listen mode, for inbound connects
+       -L            listen harder, re-listen on socket close
+       -n            numeric-only IP addresses, no DNS
+       -o file              hex dump of traffic
+       -p port              local port number
+       -r            randomize local and remote ports
+       -s addr              local source address
+       -e prog              inbound program to exec [dangerous!!]
+       -d            detach from console, stealth mode
+[v1.10 NT]
+connect to somewhere:      nc [-options] hostname port[s] [ports] ...
+listen for inbound:  nc -l -p port [options] [hostname] [port]
+
+critsvc32:
+...
+C:\Windows\critsvc32.exe
+...
+Secure Resource Selection Service
+C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
+C:\Windows\system32\srss.exe
+```
 
 The file the process was attached to was the *srss.exe file*, seen in
 the text above. By performing this strings analysis, I was quickly able

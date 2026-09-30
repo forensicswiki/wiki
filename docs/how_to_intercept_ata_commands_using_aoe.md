@@ -24,8 +24,8 @@ tool installed.  Then run the following command:
 
 Where:
 
-- eth0 - your network interface;
-- /dev/sda - a block device you want to be accessible through a network.
+* eth0 - your network interface;
+* /dev/sda - a block device you want to be accessible through a network.
 
 ### Client configuration
 
@@ -40,13 +40,13 @@ Make sure your vblade device is available on the client by running:
 
 The following block devices would be available:
 
-- /dev/etherd/e0.0 - the whole disk (corresponds to /dev/sda on the
+* /dev/etherd/e0.0 - the whole disk (corresponds to /dev/sda on the
   server);
-- /dev/etherd/e0.0p1 - first partition on the disk (corresponds to
+* /dev/etherd/e0.0p1 - first partition on the disk (corresponds to
   /dev/sda1 on the server);
-- /dev/etherd/e0.0p2 - second partition on the disk (corresponds to
+* /dev/etherd/e0.0p2 - second partition on the disk (corresponds to
   /dev/sda2 on the server);
-- etc.
+* etc.
 
 ## Intercepting ATA commands
 

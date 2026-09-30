@@ -15,6 +15,6 @@ segment and protocol, including GSM, CDMA, and W-CDMA (UMTS). Nokia's
 subsidiary Nokia Siemens Networks produces telecommunications network
 equipment, solutions and services.
 
-## External links
+## External Links
 
 * [Official website](https://www.nokia.com/)

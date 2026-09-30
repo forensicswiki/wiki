@@ -1,12 +1,10 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-## External links
+## External Links
 
-- [About Event
-  Tracing](https://learn.microsoft.com/en-us/windows/win32/etw/about-event-tracing),
+* [About Event Tracing](https://learn.microsoft.com/en-us/windows/win32/etw/about-event-tracing),
   by Microsoft
-- [ETW Event Tracing for Windows and ETL
-  Files](https://www.hecfblog.com/2018/06/etw-event-tracing-for-windows-and-etl.html),
+* [ETW Event Tracing for Windows and ETL Files](https://www.hecfblog.com/2018/06/etw-event-tracing-for-windows-and-etl.html),
   by Nicole Ibrahim

@@ -62,9 +62,9 @@ second.
 
 Launch the Riff Box JTAG Manager and use the following settings:
 
-- JTAG TCK Speed = RTCK
-- Resurrector Settings= Huawei U8815
-- Select the Data Length 4gb or 0x000100000000
+* JTAG TCK Speed = RTCK
+* Resurrector Settings= Huawei U8815
+* Select the Data Length 4gb or 0x000100000000
 
  <img src="../assets/images/Huawei-Y301-A1_settings.JPG"
  title="Huawei-Y301-A1_settings.JPG" width="800"
@@ -73,7 +73,7 @@ Launch the Riff Box JTAG Manager and use the following settings:
 
 Advanced Settings:
 
-- Ignore Target IDCODE during Resurrection and DCC Loader operations
+* Ignore Target IDCODE during Resurrection and DCC Loader operations
 
  <img src="../assets/images/RIFF_Settings.JPG" title="RIFF_Settings.JPG" width="600"
  alt="RIFF_Settings.JPG" />

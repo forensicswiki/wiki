@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  MacOS
-  -  Database
+  - File Formats
+  - MacOS
+  - Database
 ---
 OLM aka Outlook For Mac files are the proprietary file format of
 Microsoft Outlook For Mac. Outlook for Mac as suggested by the name is
@@ -39,11 +39,11 @@ accessing OLM files in Windows machine.
 
 ## Also see
 
-- [DMG](dmg.md)
+* [DMG](dmg.md)
 
 ## Tools
 
-- Free Mac Mail Email Extractor
-- Microsoft Outlook 2011 For Mac
-- [OLM Viewer](olm_viewer.md)
-- [OLK14\* Viewer](https://www.systoolsgroup.com/olk/viewer/)
+* Free Mac Mail Email Extractor
+* Microsoft Outlook 2011 For Mac
+* [OLM Viewer](olm_viewer.md)
+* [OLK14\* Viewer](https://www.systoolsgroup.com/olk/viewer/)

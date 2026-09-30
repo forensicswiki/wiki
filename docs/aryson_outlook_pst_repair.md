@@ -18,19 +18,19 @@ formats.
 
 ## Features
 
-- Repair and recover inaccessible emails
-- Restore accidentally deleted emails and their attachments
-- Support recovery of Outlook mailbox items like Calendar, Contacts,
+* Repair and recover inaccessible emails
+* Restore accidentally deleted emails and their attachments
+* Support recovery of Outlook mailbox items like Calendar, Contacts,
   etc.
-- Let users to save files different formats like: Outlook PST, EML,
+* Let users to save files different formats like: Outlook PST, EML,
   Outlook Express DBX, MBOX and even in MSG format
-- Support recovery of Non-English characters
-- No data loss during recovery
-- Maintains folder hierarchy and the integrity of your data
-- Advanced search and preview feature, to search and preview files
-- Simple and easy GUI
-- Support all MS Outlook formats and their PST files
-- Compatible with all versions of MS Windows
+* Support recovery of Non-English characters
+* No data loss during recovery
+* Maintains folder hierarchy and the integrity of your data
+* Advanced search and preview feature, to search and preview files
+* Simple and easy GUI
+* Support all MS Outlook formats and their PST files
+* Compatible with all versions of MS Windows
 
 ## External Links
 

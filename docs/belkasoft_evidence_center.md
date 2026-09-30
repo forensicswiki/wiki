@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Analysis
-  -  Commercial Software
+  - Tools
+  - Windows
+  - Analysis
+  - Commercial Software
 ---
 The **Belkasoft Evidence Center X** is a commercial forensic solution
 for acquiring, locating, extracting, and analyzing digital evidence
@@ -18,15 +18,15 @@ networks, system and registry files, P2P and file transfer tools, etc.
 
 ## Features
 
-- Built-in acquisition of multiple types of digital devices and clouds
-- Automated extraction and analysis of 1500+ types of evidence for both
+* Built-in acquisition of multiple types of digital devices and clouds
+* Automated extraction and analysis of 1500+ types of evidence for both
   mobile and computer devices
-- Destroyed and hidden evidence recovery via data carving, Volume Shadow
+* Destroyed and hidden evidence recovery via data carving, Volume Shadow
   Copy recovery and other means
-- In-depth SQLite forensics including freelist, WAL and journal file
+* In-depth SQLite forensics including freelist, WAL and journal file
   analysis as well as SQLite Unallocated
-- Live RAM analysis
-- Connection graph with communities detection
-- Investigation of corporate incidents
-- Cross-case search
-- Adjustable reports
+* Live RAM analysis
+* Connection graph with communities detection
+* Investigation of corporate incidents
+* Cross-case search
+* Adjustable reports

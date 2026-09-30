@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Organization
+  - Organization
 ---
 *SysTools Software*, is an application development firm headquartered in
 Pune and operated from the capital city with prime concentration in data
@@ -35,47 +35,47 @@ Apart from its leading application, MailXaminer; some more of the
 applications dealt under cyber forensics categorization are addressed
 below:
 
-- [MailXaminer](mailxaminer.md) - Investigate, Analyze, Search &
+* [MailXaminer](mailxaminer.md) - Investigate, Analyze, Search &
   Export any type of email on this forensic email platform.
-- [E01 Viewer](e01_viewer.md) - Viewer application to read &
+* [E01 Viewer](e01_viewer.md) - Viewer application to read &
   search contents of E01 forensic image file.
-- [BKF Viewer](bkf_viewer.md) - A freeware viewer tool to open
+* [BKF Viewer](bkf_viewer.md) - A freeware viewer tool to open
   and preview contents of a healthy/corrupt Windows backup file.
-- [OST Viewer](ost_viewer.md) - An upgradable freeware utility
+* [OST Viewer](ost_viewer.md) - An upgradable freeware utility
   to view OST files contents without Server / Client environment
   required.
-- [Outlook PST Viewer](outlook_pst_viewer.md) - An upgradable
+* [Outlook PST Viewer](outlook_pst_viewer.md) - An upgradable
   freeware application for opening Outlook PST data without Outlook.
-- [Exchange EDB Viewer](exchange_edb_viewer.md) - A freeware yet
+* [Exchange EDB Viewer](exchange_edb_viewer.md) - A freeware yet
   upgradable tool to open Exchange Database File Mailboxes
   Independently.
-- [OLM Viewer](olm_viewer.md) - A freeware utility available for
+* [OLM Viewer](olm_viewer.md) - A freeware utility available for
   opening Outlook for Mac Data Files on Windows Machine.
-- [EML Viewer](eml_viewer.md) - EML formatted email messages of
+* [EML Viewer](eml_viewer.md) - EML formatted email messages of
   any source email client can be opened and viewed independently.
-- [MBOX Viewer](mbox_viewer.md) - A utility that opens MBOX
+* [MBOX Viewer](mbox_viewer.md) - A utility that opens MBOX
   format files without the requirement of supported applications.
-- [MSG Viewer](msg_viewer.md) - An upgradable freeware
+* [MSG Viewer](msg_viewer.md) - An upgradable freeware
   application to open and view MSG file emails without Outlook.
-- [Driver Viewer](driver_viewer.md) - A freeware utility that
+* [Driver Viewer](driver_viewer.md) - A freeware utility that
   scans and provides details regarding drivers installed on a computer.
-- [DXL Viewer](dxl_viewer.md) - Platform independent viewer to
+* [DXL Viewer](dxl_viewer.md) - Platform independent viewer to
   open and read DXL emails.
-- [SQL MDF Viewer](sql_mdf_viewer.md) - A freeware application
+* [SQL MDF Viewer](sql_mdf_viewer.md) - A freeware application
   programmed to read and offer a preview of contents stored within SQL
   MDF files without Server Environment.
-- [MailPro](mailpro.md) - All in One Email viewer application
+* [MailPro](mailpro.md) - All in One Email viewer application
   having search and export feature.
-- [PST Reporter](pst_reporter.md) - Tool to generate Outlook PST
+* [PST Reporter](pst_reporter.md) - Tool to generate Outlook PST
   file report independent of platform.
-- [OST Reporter](ost_reporter.md) - A freeware application to
+* [OST Reporter](ost_reporter.md) - A freeware application to
   generate Outlook OST File report with graphical representation.
-- [NTFS Log Analyzer](ntfs_log_analyzer.md) - Freeware analysis
+* [NTFS Log Analyzer](ntfs_log_analyzer.md) - Freeware analysis
   tool to scan, locate and examine activity log of an NTFS partitioned
   machine.
-- [SQL Log Analyzer](sql_log_analyzer.md) - Analysis tool for
+* [SQL Log Analyzer](sql_log_analyzer.md) - Analysis tool for
   SQL transaction log details and associated database recovery.
-- [Hard Drive Data Recovery](hard_drive_data_recovery.md) - A
+* [Hard Drive Data Recovery](hard_drive_data_recovery.md) - A
   commercial tool to recover damaged, deleted, & formatted Windows hard
   drive data.
 
@@ -105,5 +105,4 @@ put an end on the catastrophic consequences.
 
 ## External Links
 
-[Official Website](https://www.systoolsgroup.com/)
-
+* [Official Website](https://www.systoolsgroup.com/)

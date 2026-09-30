@@ -1,6 +1,7 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Tools
 ---
 **dc3dd** is a patched version of [GNU dd](dd.md) with added
 features for computer forensics. It was developed at the [DoD Cyber
@@ -13,22 +14,22 @@ to Coreutils version 6.9.91, was published on 1 Feb 2008.
 The following features are available in dc3dd that are *not* found in
 [GNU dd](dd.md):
 
-- On the fly [hashing](hashing.md) with multiple algorithms
+* On the fly [hashing](hashing.md) with multiple algorithms
   ([md5](md5.md), [SHA-1](sha-1.md),
   [SHA-256](sha-2.md), and [SHA-512](sha-2.md)) with
   variable sized [piecewise hashing](piecewise_hashing.md)
-- Able to write errors directly to a file
-- Combined error log. Groups errors together (e.g.
+* Able to write errors directly to a file
+* Combined error log. Groups errors together (e.g.
   `Had 1,023 'Input/ouput errors' between blocks 17-233'`)
-- Pattern wiping. Wipe output files with a single hex digit or a text
+* Pattern wiping. Wipe output files with a single hex digit or a text
   pattern
-- Verify mode
-- Progress reports. See the progress of the operation while it's running
-- Split output. Able to split output files into fixed size chunks
+* Verify mode
+* Progress reports. See the progress of the operation while it's running
+* Split output. Able to split output files into fixed size chunks
 
 The following changes to GNU dd's behavior were made:
 
-- On a partial read, the whole block is wiped with zeros. This allows
+* On a partial read, the whole block is wiped with zeros. This allows
   for repeatable reads/hashes of a drive with errors.
 
 ## Comparison to dcfldd
@@ -49,9 +50,9 @@ wiping output files with random patterns, and is supported on the
 
 ## See Also
 
-- [dcfldd](dcfldd.md)
+* [dcfldd](dcfldd.md)
 
 ## External Links
 
-- [Official website](https://dc3dd.sourceforge.net/)
-- [Sourceforge project page](https://sourceforge.net/projects/dc3dd/)
+* [Official website](https://dc3dd.sourceforge.net/)
+* [Sourceforge project page](https://sourceforge.net/projects/dc3dd/)

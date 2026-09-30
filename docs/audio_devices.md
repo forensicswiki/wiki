@@ -10,6 +10,6 @@ contain not only audio files, but also text documents, images and so on.
 
 ## Audio Devices
 
-- Apple [iPod](ipod.md)
-- iRiver
-- Zune [Zune](zune.md)
+* Apple [iPod](ipod.md)
+* iRiver
+* Zune [Zune](zune.md)

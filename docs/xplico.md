@@ -41,6 +41,6 @@ protocols, and all content carried by HTTP protocol from a pcap file.
 * VoIP decoding, from pcap to wav file:
   [pcap2wav](https://pcap2wav.xplico.org/)
 
-## External links
+## External Links
 
 * [Official website](https://www.xplico.org/)

@@ -1,20 +1,20 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 **dcfldd** is an enhanced version of [dd](dd.md) developed by
 the U.S. Department of [Defense Computer Forensics
 Lab](defense_computer_forensics_lab.md). It has some useful
 features for forensic [investigators](investigator.md) such as:
 
-- On-the-fly [hashing](hash.md) of the transmitted data.
-- Progress bar of how much data has already been sent.
-- Wiping of disks with known patterns.
-- Verification that the image is identical to the original drive,
+* On-the-fly [hashing](hash.md) of the transmitted data.
+* Progress bar of how much data has already been sent.
+* Wiping of disks with known patterns.
+* Verification that the image is identical to the original drive,
   bit-for-bit.
-- Simultaneous output to more than one file/disk is possible.
-- The output can be split into multiple files.
-- Logs and data can be piped into external applications.
+* Simultaneous output to more than one file/disk is possible.
+* The output can be split into multiple files.
+* Logs and data can be piped into external applications.
 
 The program only produces [raw image files](raw_image_format.md).
 
@@ -45,15 +45,15 @@ used to help newcomers out, located
 
 This tool is not suitable for imaging faulty drives:
 
-- dcfldd is based on an extremely old version of [dd](dd.md):
+* dcfldd is based on an extremely old version of [dd](dd.md):
   it's known that dcfldd will misalign the data in the image after a
   faulty sector is encountered on the source drive ([see the NIST report](https://www.dhs.gov/sites/default/files/publications/DCFLDD%201%203%204-1%20Test%20Report_updated.pdf)),
   and this kind of bug (wrong offset calculation when seeking over a bad
   block) was fixed for [dd](dd.md) in 2003 ([see the fix in the mailing list](https://lists.gnu.org/archive/html/bug-coreutils/2003-10/msg00071.html));
-- similarly, dcfldd can enter an infinite loop when a faulty sector is
+* similarly, dcfldd can enter an infinite loop when a faulty sector is
   encountered on the source drive, thus writing to the image over and
   over again until there is no free space left.
 
 ## See Also
 
-- [dc3dd](dc3dd.md)
+* [dc3dd](dc3dd.md)

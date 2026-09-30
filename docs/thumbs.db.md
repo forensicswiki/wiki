@@ -1,8 +1,8 @@
 ---
 tags:
-  -  File Formats
-  -  Database
-  -  Windows
+  - Database
+  - File Formats
+  - Windows
 ---
 Thumbs.db is a file created by [Windows](windows.md) when
 [thumbnail](thumbnails.md) view is used. It is a hidden file not
@@ -60,10 +60,6 @@ same as Windows 7 thumbs.db.
 
 ## External Links
 
-- [Windows thumbnail cache
-  (thumbs.db)](http://thumbnailexpert.com/en/formats/windows-thumbnail-cache/)
-- [Windows 7 generated
-  Thumbs.db](https://www.swiftforensics.com/2012/07/windows-7-generated-thumbsdb.html)
-- [Windows 8 Thumbs.db
-  files](https://www.swiftforensics.com/2014/04/windows-8-thumbsdb-files-still-same-and.html)
-
+* [Windows thumbnail cache (thumbs.db)](http://thumbnailexpert.com/en/formats/windows-thumbnail-cache/)
+* [Windows 7 generated Thumbs.db](https://www.swiftforensics.com/2012/07/windows-7-generated-thumbsdb.html)
+* [Windows 8 Thumbs.db files](https://www.swiftforensics.com/2014/04/windows-8-thumbsdb-files-still-same-and.html)

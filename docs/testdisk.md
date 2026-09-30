@@ -45,44 +45,44 @@ recovery.
 
 ## Supported operating systems
 
-- DOS;
-- [Microsoft Windows](windows.md) (NT4, 2000, XP, 2003, Vista);
-- [Linux](linux.md);
-- [FreeBSD](freebsd.md), [NetBSD](netbsd.md ),
+* DOS;
+* [Microsoft Windows](windows.md) (NT4, 2000, XP, 2003, Vista);
+* [Linux](linux.md);
+* [FreeBSD](freebsd.md), [NetBSD](netbsd.md ),
   [OpenBSD](openbsd.md);
-- SunOS and
-- [Mac OS X](mac_os_x.md)
+* SunOS and
+* [Mac OS X](mac_os_x.md)
 
 ## File systems
 
 TestDisk can find lost partitions of the following file systems:
 
-- Be File System (BeOS)
-- BSD disklabel
+* Be File System (BeOS)
+* BSD disklabel
   ([FreeBSD](freebsd.md)/[OpenBSD](openbsd.md)/[NetBSD](netbsd.md)
-- Cramfs, Compressed File System
-- DOS/Windows [FAT](fat.md) 12, 16, and 32
-- (Classic) HFS, [HFS+](hfs+.md) and [HFSX](hfs+.md), Hierarchical File
+* Cramfs, Compressed File System
+* DOS/Windows [FAT](fat.md) 12, 16, and 32
+* (Classic) HFS, [HFS+](hfs+.md) and [HFSX](hfs+.md), Hierarchical File
   System
-- IBM Journaled File System 2 (JFS2), IBM's Journaled File System
-- [Linux](linux.md) [ext2 and ext3](extended_file_system_(ext).md)
-- [Linux](linux.md) RAID
-  - RAID 1: mirroring
-  - RAID 4: striped array with parity device
-  - RAID 5: striped array with distributed parity information
-  - RAID 6: striped array with distributed dual redundancy information
-- Linux Swap (versions 1 and 2)
-- [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) (LVM and LVM2)
-- Mac partition map
-- Novell Storage Services (NSS)
-- [NTFS](ntfs.md) ([Windows](windows.md)
+* IBM Journaled File System 2 (JFS2), IBM's Journaled File System
+* [Linux](linux.md) [ext2 and ext3](extended_file_system_(ext).md)
+* [Linux](linux.md) RAID
+  * RAID 1: mirroring
+  * RAID 4: striped array with parity device
+  * RAID 5: striped array with distributed parity information
+  * RAID 6: striped array with distributed dual redundancy information
+* Linux Swap (versions 1 and 2)
+* [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) (LVM and LVM2)
+* Mac partition map
+* Novell Storage Services (NSS)
+* [NTFS](ntfs.md) ([Windows](windows.md)
   NT/2000/XP/2003/Vista/2008)
-- [ReiserFS](reiserfs.md) 3.5, 3.6 and 4
-- Sun Solaris i386 disklabel
-- Unix File System: [UFS and UFS2](unix_file_system_(ufs).md) (Sun/BSD/...)
-- XFS, SGI's Journaled File System
+* [ReiserFS](reiserfs.md) 3.5, 3.6 and 4
+* Sun Solaris i386 disklabel
+* Unix File System: [UFS and UFS2](unix_file_system_(ufs).md) (Sun/BSD/...)
+* XFS, SGI's Journaled File System
 
-## External links
+## External Links
 
-- [TestDisk Wiki](https://www.cgsecurity.org/wiki/TestDisk)
-- [TestDisk main functions review](https://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)
+* [TestDisk Wiki](https://www.cgsecurity.org/wiki/TestDisk)
+* [TestDisk main functions review](https://howtorecover.me/cgsecurity-testdisk-partition-recovery-windows-app-review)

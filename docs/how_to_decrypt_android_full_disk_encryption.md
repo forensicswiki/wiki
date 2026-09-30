@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 # Decrypting Android Full Disk Encryption
 
@@ -17,7 +17,7 @@ CBC-ESSIV-AES encryption using brute force. The current version at the
 time of this writing is oclHashcat v1.3.0 which includes GPU accelerated
 4-digit PIN brute forcing. See:
 
-- <https://hashcat.net/hashcat/>
+* <https://hashcat.net/hashcat/>
 
 ## Decrypting Samsung Full Disk Encryption (FDE)
 
@@ -28,31 +28,31 @@ DerbyCon 2013 talk given by LÃ¡szlÃ³ TÃ³th and Ferenc Spala which covers
 the technical details. Without their research and effort this document
 would not be possible!
 
-- <https://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf>
-- <https://www.youtube.com/watch?v=dUFl2tkyVyo>
+* <https://soonerorlater.hu/download/They_thinked_differently_DerbyCon2013.pdf>
+* <https://www.youtube.com/watch?v=dUFl2tkyVyo>
 
 The process for decrypting Samsung FDE is as follows:
 
-- Acquire a physical acquisition of the device (not covered within the
+* Acquire a physical acquisition of the device (not covered within the
   scope of this document).
-- Extract the encryption key from the device image.
-- Convert the encryption key to John The Ripper format.
-- Brute force the John The Ripper format encryption key using a
+* Extract the encryption key from the device image.
+* Convert the encryption key to John The Ripper format.
+* Brute force the John The Ripper format encryption key using a
   dictionary.
 
 ### Getting Started
 
 You will need the following tools before you get started:
 
-- Linux (Debian GNU/Linux jessie was used in this case)
-- Sandy source code (https://github.com/donctl/sandy)
-- John the Ripper jumbo community-edition source code
+* Linux (Debian GNU/Linux jessie was used in this case)
+* Sandy source code (https://github.com/donctl/sandy)
+* John the Ripper jumbo community-edition source code
   (http://www.openwall.com/john/)
-- Python 2.7 (https://www.python.org/downloads/)
+* Python 2.7 (https://www.python.org/downloads/)
 
 Optional:
 
-- crunch (https://sourceforge.net/projects/crunch-wordlist/)
+* crunch (https://sourceforge.net/projects/crunch-wordlist/)
 
 #### Locating the Encryption Key
 

@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Disk Imaging
-  -  MacOS
-  -  Commercial Software
-  -  Tools
+  - Commercial Software
+  - Disk Imaging
+  - MacOS
+  - Tools
 ---
 **RECON for Mac OS X** is a software tool developed by SUMURI to
 automate the forensic data gathering process on the Mac OS X operating
@@ -25,29 +25,18 @@ tools.
 
 ### Forensic Tools Included
 
-• Software Write-Blocker, Imager and Full Forensic Suite included.
-
-• Advanced Timeline Analysis.
-
-• Process forensic images or live Macs.
-
-• Identify the origin of files.
-
-• Automatic chat timeline construction for Messages and Skype.
-
-• Complete a Mac exam in minutes, not weeks.
-
-• Image mounting supporting popular forensic image formats and Fusion
-drives.
-
-• Built-in Live Imaging.
-
-• Automatic identification of Spoliation artifacts.
-
-• Create customized reports – PDF, HTML, CSV and XML.
-
-• Image RAM, capture Volatile Data
+* Software Write-Blocker, Imager and Full Forensic Suite included.
+* Advanced Timeline Analysis.
+* Process forensic images or live Macs.
+* Identify the origin of files.
+* Automatic chat timeline construction for Messages and Skype.
+* Complete a Mac exam in minutes, not weeks.
+* Image mounting supporting popular forensic image formats and Fusion drives.
+* Built-in Live Imaging.
+* Automatic identification of Spoliation artifacts.
+* Create customized reports – PDF, HTML, CSV and XML.
+* Image RAM, capture Volatile Data
 
 ## External Links
 
-- [Official Website](https://sumuri.com/wp-content/uploads/2019/04/recon.jpg)
+* [Official Website](https://sumuri.com/wp-content/uploads/2019/04/recon.jpg)

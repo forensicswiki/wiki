@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
 **M3 Bitlocker Loader for Mac** is a forensic tool to unlock Bitlocker
 encrypted volume on Mac computer.
@@ -23,12 +23,11 @@ M3 Bitlocker Loader for Mac supports Mac OS X 10.10 (Yosemite), 10.9
 
 ## See Also
 
-- [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md)
-- [M3 Bitlocker Recovery](m3_bitlocker_recovery.md)
-- [M3 RAW Drive Recovery](m3_raw_drive_recovery.md)
+* [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md)
+* [M3 Bitlocker Recovery](m3_bitlocker_recovery.md)
+* [M3 RAW Drive Recovery](m3_raw_drive_recovery.md)
 
 ## External Links
 
-- [Download Link](https://bitlocker-mac.en.softonic.com/mac)
-- [M3 Bitlocker Loader for
-  Mac](https://www.m3datarecovery.com/mac-bitlocker/)
+* [Download Link](https://bitlocker-mac.en.softonic.com/mac)
+* [M3 Bitlocker Loader for Mac](https://www.m3datarecovery.com/mac-bitlocker/)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Tools
 ---
 **[Elcomsoft Desktop Forensic Bundle](https://www.elcomsoft.com/edfb.html) (EDFB)** is the complete
 suite of ElcomSoft password recovery tools allowing corporate and
@@ -9,27 +9,27 @@ and documents protected with popular applications. Based on Elcomsoft's
 internal assessments, the password recovery tools are among the fastest
 on the market and the easiest to use.
 
-- A single purchase delivers all ElcomSoft password recovery products in
+* A single purchase delivers all ElcomSoft password recovery products in
   their respective top-of-the-line editions
-- Includes every tool you need for recovering passwords and decrypting
+* Includes every tool you need for recovering passwords and decrypting
   data
-- Synchronized license period for all bundled products make for a
+* Synchronized license period for all bundled products make for a
   seamless, simple update
-- If we release a new password recovery tool during your license period,
+* If we release a new password recovery tool during your license period,
   you'll receive it at no extra charge
-- Broadest compatibility: hundreds of formats and multiple cloud
+* Broadest compatibility: hundreds of formats and multiple cloud
   services supported
-- Industry certified: Microsoft Gold Certified Partner, Intel Software
+* Industry certified: Microsoft Gold Certified Partner, Intel Software
   Partner, NVIDIA Developer Support
-- GPU acceleration: patented technology reduces password recovery time
+* GPU acceleration: patented technology reduces password recovery time
   by a factor of 250
-- Linear scalability: allows using a number of multi-core and
+* Linear scalability: allows using a number of multi-core and
   multi-processor workstations connected over a LAN or the Internet with
   linear increase of recovery speed
-- Minimum bandwidth utilization and zero scalability overhead
-- Flexible queue control and easy job management
-- Remote management of password recovery workstations
-- Completely traceable: keeps track of CPU time and resource
+* Minimum bandwidth utilization and zero scalability overhead
+* Flexible queue control and easy job management
+* Remote management of password recovery workstations
+* Completely traceable: keeps track of CPU time and resource
   utilization, password recovery jobs and user activities
 
 <small>Supports: all versions of Microsoft Office, OpenOffice, Hancom,
