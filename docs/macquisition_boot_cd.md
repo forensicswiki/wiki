@@ -5,33 +5,29 @@ tags:
 The **MacQuisition Boot CD** is a forensic bootable CD/[Live CD](live_cd.md)
 built for imaging [Mac OS X](mac_os_x.md) systems.
 
-# Features
+## Features
 
-## File Systems Understood
+### File Systems Understood
 
 For Macs it produces a [dd](dd.md) image.
 
-## File Search Facilities
-
-## Historical Reconstruction
+### Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
-## Searching Abilities
+### Searching Abilities
 
 Can it search? Does it build an index? Can it focus on file types or
 particular kinds of metadata?
 
-## Hash Databases
+### Hash Databases
 
 Can it create hashes of files and/or blocks? Can it compare these hash
 values to any databases? What sort of hash functions does it use?
 
-## Evidence Collection Features
+### Evidence Collection Features
 
 Can it sign files? Does it keep an audit log?
-
-# History
 
 ## License Notes
 

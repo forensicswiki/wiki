@@ -2,43 +2,41 @@
 tags:
   - Commercial Software
 ---
-# ProDiscovery
+## ProDiscovery
 
 This tool from Tech Pathways will gather data from most major file
 systems and perform some analysis.
 
-# Features
+## Features
 
-## File Systems Understood
+### File Systems Understood
 
 * FAT12, FAT16, FAT32
 * NTFS
 * Solaris UFS
 * Linux ext2/ext3
 
-## File Search Facilities
+### File Search Facilities
 
 * Uses a set of Perl scrypts.
 
-## Historical Reconstruction
+### Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
-## Searching Abilities
+### Searching Abilities
 
 Can it search? Does it build an index? Can it focus on file types or
 particular kinds of metadata?
 
-## Hash Databases
+### Hash Databases
 
 Can it create hashes of files and/or blocks? Can it compare these hash
 values to any databases? What sort of hash functions does it use?
 
-## Evidence Collection Features
+### Evidence Collection Features
 
 * Generates an XML-based report about the analysis.
-
-# History
 
 ## License Notes
 
@@ -52,6 +50,6 @@ installations may also be moved as needed. See the ProDiscover® End-User
 License Agreement for details. Site and Enterprise licenses are also
 available for ProDiscover®."
 
-# External Links
+## External Links
 
 * [website](https://prodiscover.com/)

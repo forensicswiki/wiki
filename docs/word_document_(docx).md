@@ -7,7 +7,7 @@ DOCX is the file format for Microsoft Office 2007 and later.
 DOCX should not be confused with [DOC](word_document_(doc).md), the format used
 by earlier versions of Microsoft Office.
 
-# Container Format
+## Container Format
 
 DOCX is written in an XML format, which consists of a [ZIP archive](zip.md)
 file containing [XML](xml.md) and binaries. Content can be analysed without
@@ -29,7 +29,7 @@ document, or an .docx document the folder's name is word. A XML file
 called document.xml is the main document, containing most of the content
 of the document itself.
 
-# Relationship to OOXML
+## Relationship to OOXML
 
 Office Open XML is an open XML standard developed by Microsoft for word
 processing documents, spreadsheets, presentations and charts. The OOXML
@@ -48,9 +48,9 @@ contains additional features, like OLE serialization).
 
 Documentation on OOXML may provide a guide to analysing a DOCX file.
 
-# Metadata
+## Metadata
 
-## Content types
+### Content types
 
 ```text
 [Content_Types].xml
@@ -74,7 +74,7 @@ Documentation on OOXML may provide a guide to analysing a DOCX file.
 </Types>
 ```
 
-## Relationships
+### Relationships
 
 ```text
 _rels/.rels
@@ -96,7 +96,7 @@ Other relationship files:
 word/_rels/document.xml.rels
 ```
 
-## Document properties - core
+### Document properties - core
 
 ```text
 docProps/core.xml
@@ -118,7 +118,7 @@ docProps/core.xml
 </cp:coreProperties>
 ```
 
-## Document properties - extended: application
+### Document properties - extended: application
 
 ```text
 docProps/app.xml
@@ -163,7 +163,7 @@ docProps/app.xml
 </Properties>
 ```
 
-# External Links
+## External Links
 
 * [Introducing the Office (2007) Open XML File Formats](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338205(v=office.12)),
   by [Microsoft](microsoft.md), May 2006

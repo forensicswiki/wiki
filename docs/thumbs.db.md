@@ -30,7 +30,7 @@ IExplore Index.DAT files and Recycle Bin contents on a
 [Windows](windows.md) system. It will print a report of analyzed
 files.
 
-# Windows Vista/7
+## Windows Vista/7
 
 *See [Windows thumbcache](windows_thumbcache.md)*
 
@@ -49,7 +49,7 @@ These files do not follow the xp thumbs.db format. The format is still
 an OLE container but without the Catalog stream and with a few other
 changes.
 
-# Windows 8/8.1
+## Windows 8/8.1
 
 In Windows 8 and 8.1, both thumbcache and thumbs.db are present.
 Thumbs.db will only be created in folders which reside under a user

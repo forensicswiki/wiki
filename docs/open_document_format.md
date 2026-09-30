@@ -10,7 +10,7 @@ Advancement of Structured Information Standards (OASIS). ODF version 1.0
 has been standardized as ISO/IEC 26300:2006. ODF is the primary format
 for the OpenOffice.org office suite.
 
-# File Extensions
+## File Extensions
 
 The main file extensions for ODF documents are
 
@@ -24,7 +24,7 @@ The main file extensions for ODF documents are
 ODF also supports template files for each type of document. The 'd' in
 file extension is replaced by a 't' for template files.
 
-# File Structure
+## File Structure
 
 An ODF document can be as simple as a single XML file. However, this is
 rarely practical. The standard specifies that an ODF file can also be
@@ -57,7 +57,7 @@ type at position 38. This adaptation makes it possible for operating
 systems to determine the MIME type of a file without relying on the file
 extension.
 
-## Main Sub-Files
+### Main Sub-Files
 
 The **manifest.xml** file contains a list of all files in the packages,
 as well as their media type, path, and any information required for
@@ -66,7 +66,7 @@ document (e.g., the text in a word processing document), while the
 **styles.xml** file contains the information on how the content is to be
 styled. The **settings.xml** file is self-explanatory.
 
-## Metadata
+### Metadata
 
 Because ODF files are basically ZIP files, the files contain the same
 meta-information about each file as that of a standard ZIP archive,
@@ -116,6 +116,6 @@ can contain meta-information such as annotations and tracked changes, as
 well as the creator and creation date time of those annotations or
 tracked changes.
 
-# External Links
+## External Links
 
-[ODF specification](http://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html)
+* [ODF specification](http://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html)

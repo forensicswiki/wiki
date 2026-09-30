@@ -3,7 +3,7 @@ tags:
   - Data Recovery
   - Tools
 ---
-# Data Recovery
+## Data Recovery
 
 The term "Data Recovery" is frequently used to mean forensic recovery,
 but the term really should be used for recovering data from damaged
@@ -211,7 +211,7 @@ formatted/damaged/corrupted/lost/deleted drive.
 
 * [Wikipedia: Data recovery](https://en.wikipedia.org/wiki/Data_recovery)
 
-# Partition Recovery
+### Partition Recovery
 
 * [IsoBuster](https://www.isobuster.com//)
 
@@ -318,7 +318,7 @@ RAW file system, change RAW to NTFS/FAT32 without data loss.
   bs=446 count=1). For Windows XP SP2 c:\\%WINDIR%\System32\diskpart.exe the MBR
   code is found between offset 1b818h and 1ba17h.
 
-# Carving
+## Carving
 
 * [IsoBuster](https://www.isobuster.com/)
 

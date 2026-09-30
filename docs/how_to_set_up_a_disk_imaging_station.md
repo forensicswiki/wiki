@@ -2,12 +2,12 @@
 tags:
   - Howtos
 ---
-# FreeBSD
+## FreeBSD
 
 This section describes how to set up a [FreeBSD](freebsd.md)
 system as a disk imaging system.
 
-## Install FreeBSD 6.2 on a new computer
+### Install FreeBSD 6.2 on a new computer
 
 1. Boot the FreeBSD 6.2 CDROM
 2. Hit return to boot the Default
@@ -75,7 +75,7 @@ FreeBSD 6.2 will be installed. Now you need to configure it.
 24. Press \[Enter\] for the Root password; we will use no password.
 25. Press \[Enter\] to confirm the empty root password.
 
-# Getting Your Forensics Software Working for local analysis
+## Getting Your Forensics Software Working for local analysis
 
 Note that the order you do this matters: Sleuth Kit won't compile with
 AFFLIB support unless AFFLIB is installed on your system.

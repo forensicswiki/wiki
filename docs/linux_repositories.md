@@ -1,16 +1,17 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Linux
 ---
-There are a number of linux distributions.
+There are a number of Linux distributions.
 
 In general they have primary repositories which are setup for every
 installation of the operating system and they have special purpose
 repositories which require specific setup.
 
-# Repository Setup
+## Repository Setup
 
-## openSUSE
+### openSUSE
 
 For current openSUSE 11.4 and 12.1 users it is necessary to have the
 following repositories configured:
@@ -22,30 +23,32 @@ following repositories configured:
 This is most easily done from the command line via (assumes openSUSE
 12.1):
 
-`sudo zypper ar -f http://download.opensuse.org/repositories/security/openSUSE_12.1 security`
-`sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1 perl`
-`sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1 python`
+```bash
+sudo zypper ar -f http://download.opensuse.org/repositories/security/openSUSE_12.1 security
+sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1 perl
+sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1 python
 
-`zypper lr               # used to verify you have the repos installed`
+zypper lr               # used to verify you have the repos installed
+```
 
-## fedora
+### fedora
 
 [CERT](https://forensics.cert.org/) maintains a fedora security
 repository with a large number of DFIR applications.
 
-## debian
+### debian
 
 You can search for debian packages at [debian's search
 page](https://packages.debian.org/search?keywords=search)
 
-## ubuntu
+### ubuntu
 
-## altlinux
+### altlinux
 
 [ALT Linux packages](https://packages.altlinux.org/en/sisyphus/) (interesting things
 from autoimports tend to be integrated into main repository)
 
-# Computer Forensic Tools
+## Computer Forensic Tools
 
 Below is a list of computer forensic tools. For each tool the repository
 it can be found in and the version in the repository is shown.
@@ -53,7 +56,7 @@ it can be found in and the version in the repository is shown.
 As an example, aimage is in the openSUSE security repository and it is
 version 3.2.5
 
-## Imaging Tools
+### Imaging Tools
 
 |                                            |                       |            |                           |            |                                                        |                                                                                                      |
 |--------------------------------------------|-----------------------|------------|---------------------------|------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -74,7 +77,7 @@ version 3.2.5
 * package will appear in the base release with the next full
   distribution release.
 
-## File Inventory Tools
+### File Inventory Tools
 
 |                                 |                    |            |                         |            |             |                                                          |
 |---------------------------------|--------------------|------------|-------------------------|------------|-------------|----------------------------------------------------------|

@@ -38,12 +38,12 @@ P2P Marshal is available to US law enforcement at no cost. ATC-NY
 distributes the tools to US law enforcement and for educational use.
 Cyber Security Technology distributes the tool commercially.
 
-# Authors
+## Authors
 
 P2P Marshal was developed by ATC-NY through a US National Institute of
 Justice (NIJ) grant. The project was originally named File Marshal.
 
-# External Links
+## External Links
 
 * [File Marshal: Automatic extraction of peer-to-peer data](http://old.dfrws.org/2007/proceedings/p43-adelstein.pdf),
   by Frank Adelstein, Robert A. Joyce, DFRWS 2007

@@ -2,47 +2,47 @@
 tags:
   - Howtos
 ---
-# FreeBSD
+## FreeBSD
 
 To mount a disk image on [FreeBSD](freebsd.md):
 
 First attach the image to unit \#1:
 
 ```bash
-# mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
+$ mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
 ```
 
 Then mount:
 
 ```bash
-# mount -t msdos /dev/md1s1 /mnt
+$ mount -t msdos /dev/md1s1 /mnt
 ```
 
 ```bash
-# ls /mnt
+$ ls /mnt
 BOOTLOG.PRV     BOOTLOG.TXT     COMMAND.COM     IO.SYS          MSDOS.SYS
 ```
 
 To unmount:
 
 ```bash
-# umount /mnt
-# mdconfig -d -u 1
+$ umount /mnt
+$ mdconfig -d -u 1
 ```
 
 To mount the image read-only, use:
 
 ```bash
-# mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
-# mount -o ro -t msdos /dev/md1s1 /mnt
+$ mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
+$ mount -o ro -t msdos /dev/md1s1 /mnt
 ```
 
-# Linux
+## Linux
 
-## To mount a disk image on [Linux](linux.md)
+### To mount a disk image on [Linux](linux.md)
 
 ```bash
-# mount -t vfat -o loop,ro,noexec img.dd /mnt
+$ mount -t vfat -o loop,ro,noexec img.dd /mnt
 ```
 
 The ***ro*** is for read-only.
@@ -50,7 +50,7 @@ The ***ro*** is for read-only.
 This will mount NSRL ISOs:
 
 ```bash
-# mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
+$ mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
 ```
 
 Some raw images contains multiple partitions (e.g. full HD image). In
@@ -58,11 +58,11 @@ this case, it's necessary to specify a starting offset for each
 partition.
 
 ```bash
-# mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
-# mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
+$ mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
+$ mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
 ```
 
-### kpartx
+#### kpartx
 
 Mounting raw images with multiple partitions is easy with *kpartx*. Type
 *aptitude install kpartx* as root to install *kpartx* under Debian.
@@ -79,7 +79,7 @@ image looks like this:
 The command
 
 ```bash
-#   kpartx -v -a rawimage.dd
+$ kpartx -v -a rawimage.dd
 ```
 
 creates these mappings
@@ -93,25 +93,27 @@ creates these mappings
 The partitions can be mounted with these commands:
 
 ```bash
-# mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
-# mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
+$ mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
+$ mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
 ```
 
 Don't forget the switch ***-o ro*** !
 
-## To unmount
+### To unmount
 
 ```bash
-# umount /mnt
+$ umount /mnt
 ```
 
-# Windows
+## Windows
 
 MS Windows does not include a native means for mounting acquired images.
 However, there are tools available for mounting acquired images on
 Windows systems.
 
-## Free Tools
+## Tools
+
+### Free Tools
 
 * [Arsenal Image Mounter](arsenal_recon.md#arsenal-image-mounter) -
   Arsenal Image Mounter takes the contents of disk images and presents them to
@@ -120,7 +122,7 @@ Windows systems.
 * [ImDisk Virtual Disk Driver](http://www.ltr-data.se/opencode.html#ImDisk)
 * [Paraben](paraben_forensics.md) P2X
 
-## Commercial Tools
+### Commercial Tools
 
 * [SmartMount](http://www.asrdata.com/forensic-software/smartmount/)
 * [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) -

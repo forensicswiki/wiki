@@ -3,7 +3,7 @@ tags:
   - Abandoned
   - Network Forensics
 ---
-# Net/FSE: Network Forensic Search Engine
+## Net/FSE: Network Forensic Search Engine
 
 Net/FSE is a server application for network operations. The system
 consists of a data capture, indexing and search services optimized for
@@ -25,7 +25,7 @@ The core system handles capture and storage, as well as search/query
 functionality, allowing plugins to easily leverage the system's
 capabilities with minimal coding.
 
-# Project Status
+## Project Status
 
 In June 2009 version 0.2 of the open source Net/FSE was initially published on
 NetFSE.org. The 0.3 release was targeted for August 2010. The project appears

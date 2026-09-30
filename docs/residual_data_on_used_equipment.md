@@ -10,9 +10,9 @@ are sold on the secondary market.
 You can find used hard drives on eBay, at swap meets, yard sales, and
 even on the street.
 
-# Popular Press
+## Popular Press
 
-## ATMs
+### ATMs
 
 * **2009-11-21**: Robert Siciliano, a security consultant to
   Intelius.com and personal ID theft expert, buys an ATM machine for
@@ -20,14 +20,14 @@ even on the street.
   credit and ATM card numbers.
   <https://www.theregister.com/2009/11/18/second_hand_atm_fraud_risk/>
 
-## Memory Sticks
+### Memory Sticks
 
 * USED memory sticks being sold on the internet have been found to
   contain sensitive Australian government data, according to a study
   Patryk Szewczyk and Krishnun Sansurooah, of the Security Research
   Institute at Perth's Edith Cowan University.
 
-## Hard Drives
+### Hard Drives
 
 There have been several incidents in which individual have purchased a
 large number of hard drives and written about what they have found. This
@@ -138,7 +138,7 @@ order.
   \[Source: Hospital fined £200,000 after hard drive full of patient data bought
   on eBay, By John E Dunn, Techworld, 14 July 2013\]
 
-## Cell Phones
+### Cell Phones
 
 * [BlackBerry Reveals Bank's Secrets](https://www.wired.com/2003/08/blackberry-reveals-banks-secrets/),
   Wired, August 8, 2005.
@@ -149,12 +149,12 @@ order.
   December 2008. (See also
   [2](https://www.theregister.com/2008/12/12/mccain_blackberry/))
 
-## Cameras
+### Cameras
 
 * [Camera sold on eBay contained MI6 files](https://www.telegraph.co.uk/news/uknews/3107003/Camera-sold-on-eBay-contained-MI6-files.html),
   Jessica Salter, Telegraph, September 30, 2008.
 
-## Network Equipment
+### Network Equipment
 
 * [Council sells security hole on Ebay](https://subscribe.pcpro.co.uk),
   Matthew Sparkes, PC Pro, September 29, 2008 - Kirkless Council (UK)
@@ -164,14 +164,14 @@ order.
   the full configuration for the Kirkless Council and the device hasn't
   been deactivated.
 
-## MP3 Players
+### MP3 Players
 
 * NZ man's MP3 player holds US military files,
   Associated Press, Jan 27, 2009. A man from New Zealand bought an MP3
   player at a thrift shop in Oklahoma that had 60 US military files,
   "including names and telephone numbers for American soldiers."
 
-# Academic Publications
+## Academic Publications
 
 <bibtex> @article{JICLT80,
 
@@ -253,7 +253,7 @@ sourced from within France.
 
 } </bibtex>
 
-# See Also
+## See Also
 
 * [Residual Data](residual_data.md)
 * [Residual Data in Document Files](residual_data_in_document_files.md)

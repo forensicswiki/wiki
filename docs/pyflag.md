@@ -14,44 +14,44 @@ framework](computer_forensics_framework.md) written in
 formats, including raw, [sgzip](sgzip.md),
 [AFF](aff.md), and [EnCase](encase.md) format.
 
-# Features
+## Features
 
-## Supported File Systems
+### Supported File Systems
 
 PyFlag uses the [The Sleuth Kit](the_sleuth_kit.md) for file system
 support.
 
-## File Search Facilities
+### File Search Facilities
 
 * Lists allocated and unallocated files.
 * Sorts files by type.
 * Searches for keywords.
 * Works with compressed zip files.
 
-## Historical Reconstruction
+### Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
 * Creates a "case file".
 
-## Searching Abilities
+### Searching Abilities
 
 * Searches for keywords.
 * Builds an index.
 
-## Hash Databases
+### Hash Databases
 
 * Hashes and compares with [Hashkeeper](hashkeeper.md) using
   [MD5](md5.md).
 
-## Evidence Collection Features
+### Evidence Collection Features
 
-# History
+## History
 
 * Originally started by the Australian Department of Defence and was open
   sourced
 
-# External Links
+## External Links
 
 * [Github: Pyflags](https://github.com/py4n6/pyflag)
 * <https://code.google.com/archive/p/pyflag>

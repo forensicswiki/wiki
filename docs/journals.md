@@ -2,8 +2,6 @@
 tags:
   - Articles that need to be expanded
 ---
-## Journals
-
 Academic and professional journals, both print and electronic, on the
 subject of digital forensics:
 
@@ -46,13 +44,12 @@ Online journal for academics and practitioners to publish articles
 regarding the theory, research, and practice in the rapidly changing
 field of Small Scale Digital Device Forensics. Ended 2011.
 
-# See Also
+## See Also
 
-[Conferences](conferences.md)
+* [Conferences](conferences.md)
+* [Websites](websites.md)
 
-[Websites](websites.md)
-
-# Notes
+## Notes
 
 This list was originally taken from [Brian Carrier](brian_carrier.md)'s list
 of conferences and journals at <https://digital-evidence.org/publish/index.html>

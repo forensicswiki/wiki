@@ -8,7 +8,7 @@ tags:
   - MacOS
   - Windows
 ---
-# Conventional File Systems
+## Conventional File Systems
 
 [Apple File System (apfs)](apple_file_system_(apfs).md)
 A file system for [Apple](apple_inc.md) systems optimized for
@@ -68,7 +68,7 @@ Next3
 An open-source file system based on the Ext3 file system, for the
 purpose of supporting enterprise-grade snapshot capabilities.
 
-# Cryptographic File Systems
+## Cryptographic File Systems
 
 **Cryptographic file systems,** also known as encrypted file systems,
 encrypt information before it is stored on the media. Some of these file
@@ -112,7 +112,7 @@ University, USENIX 2003 Annual Technical Conference.
 See also [Full Disk Encryption](full_disk_encryption.md), which
 are disk- or appliance-based cryptographic file systems.
 
-# CD and DVD File Systems
+## CD and DVD File Systems
 
 Optical media use different file systems than hard disks or flash media,
 primarily because of the write-once nature of most optical discs. Even
@@ -161,7 +161,7 @@ Vista and Windows 7 can write discs using this as either a "mastered"
 format with a static, read-only file system or as a "live" file system
 which can be updated on both write-once and rewritable media.
 
-# Distributed File Systems
+## Distributed File Systems
 
 **Distributed file systems**, also known as network file systems, allow
 any number of remote clients to access one or more servers which store
@@ -181,11 +181,11 @@ The GoogleFS clone, built from a cluster of data nodes.
 Network File System (NFS)
 Originally from Sun, it is the standard in UNIX-based networks.
 
-# Also see
+## Also see
 
 * [Identifying file systems](identifying_file_systems.md)
 
-# External Links
+## External Links
 
 * [Wikipedia: File system](https://en.wikipedia.org/wiki/File_system)
 * [Wikipedia: List of file systems](https://en.wikipedia.org/wiki/List_of_file_systems)

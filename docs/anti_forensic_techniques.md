@@ -17,11 +17,11 @@ Although some anti-forensic tools have legitimate purposes, such as
 overwriting sensitive data that shouldn't fall into the wrong hands,
 like any [tool](tools.md) they can be abused.
 
-# Traditional anti-forensics
+## Traditional anti-forensics
 
-## Overwriting Data and Metadata
+### Overwriting Data and Metadata
 
-### Secure Data Deletion
+#### Secure Data Deletion
 
 Secure Deletion data, so that it cannot be restored with forensic methods.
 
@@ -59,7 +59,7 @@ account the slack space at the end of allocated data blocks. Thus
 allowing a large portion of old data to still be recoverable. This is a
 very handy for a forensic analyst, but not so handy for IT Managers.
 
-### Overwriting Metadata
+#### Overwriting Metadata
 
 If the examiner knows when an attacker had access to a Windows, Mac or
 Unix system, it is frequently possible to determine which files the
@@ -78,7 +78,7 @@ timestamps and deleted directory entries on many Unix systems;
 timestamps on allocated files can also be modified using the Unix touch
 command ([The Grugq](the_grugq.md)).
 
-### Preventing Data Creation
+#### Preventing Data Creation
 
 Prevent the creation of certain data in the first place. Data which was
 never there, obviously cannot be restored with forensic methods.
@@ -90,9 +90,9 @@ HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
 can be set to "1" to disable updating of the last-accessed timestamp;
 this setting is default under Windows Vista (Microsoft 2006).
 
-## Cryptography, Steganography, and other Data Hiding Approaches
+### Cryptography, Steganography, and other Data Hiding Approaches
 
-### Encrypted Data
+#### Encrypted Data
 
 Cryptographic file systems transparently encrypt data when it is written
 to the disk and decrypt data when it is read back, making the data
@@ -113,7 +113,7 @@ versions of Microsoft Word encrypted documents with a 40-bit key that
 can be cracked with commercial tools, modern versions can optionally use
 a 128-bit encryption that is uncrackable if a secure passphrase is used.
 
-### Encrypted Network Protocols
+#### Encrypted Network Protocols
 
 Network traffic can likewise be encrypted to protect its content from
 forensic analysis. Cryptographic encapsulation protocols such as
@@ -126,7 +126,7 @@ content.
 
 *More information: Tor and [VPN](vpn.md).*
 
-### Program Packers
+#### Program Packers
 
 Packers are commonly used by attackers so that attack tools will not be
 subject to reverse engineering or detection by scanning. Packers such as
@@ -147,7 +147,7 @@ the program to be decrypted, and then writes the raw, unprotected binary
 to another location (ByteRage 2002). Packed programs are also vulnerable
 to static analysis if no password is required (Eagle 2003).
 
-### Steganography
+#### Steganography
 
 Steganography can be used to embed encrypted data in a cover text to
 avoid detection. Steghide embeds text in JPEG, MBP, MP3, WAV and AU
@@ -169,7 +169,7 @@ captured with a laptop encrypted using this software could then give up
 the first file system’s password, with the hope that the decoy would be
 sufficient to satisfy the person’s interrogators.
 
-### Generic Data Hiding
+#### Generic Data Hiding
 
 Data can also be hidden in unallocated or otherwise unreachable
 locations that are ignored by the current generation of forensic tools.
@@ -188,20 +188,20 @@ Overlay](dco_and_hpa.md) areas of modern ATA hard drives.
 Data in the HPA and DCO is not visible to the BIOS or operating system,
 although it can be extracted with special tools.
 
-## Detecting Forensic Analysis
+### Detecting Forensic Analysis
 
 There are methods to detect whether an
 [investigator](investigator.md)
 forensic analysis on the system. A malicious user or program could react
 to that by destroying evidence, for example.
 
-# Other Anti Forensics
+## Other Anti Forensics
 
-## Targeting forensic tool blind spots
+### Targeting forensic tool blind spots
 
-## Targeting forensic tool vulnerabilities
+### Targeting forensic tool vulnerabilities
 
-### Casper
+#### Casper
 
 Grml mounted root file system on the [hard drive](hard_drive.md)
 Casper is a
@@ -214,7 +214,7 @@ mounted root. Most forensic Linux distributions based on
 integrity checks of selected SquashFS images and will boot specially
 crafted images found on the hard drive (not on the CD).
 
-### STARFisH - Structured Testing Approach for Resilience of Forensic Soft- and Hardware
+#### STARFisH - Structured Testing Approach for Resilience of Forensic Soft- and Hardware
 
 [STARFisH](https://www.digitrace.de/forschung/starfish) was a B.Sc.
 project by Phil Knüfer, which dealt with using a structured testing
@@ -222,9 +222,9 @@ approach to improve the resilience of IT forensic software (and
 hardware). To this end, a test schema was designed and test cases were
 developed.
 
-## Targeting generic tool/lib vulnerabilities
+### Targeting generic tool/lib vulnerabilities
 
-# References
+## References
 
 Garfinkel, S., Anti-Forensics: Techniques, Detection and
 Countermeasures, The 2nd International Conference on i-Warfare and
@@ -236,7 +236,7 @@ Henrique, G. Wendel, Anti Forensics: Making computer forensics hard,
 Code Breakers III, São Paulo, Brazil, Setember 2006.
 [3](http://ws.hackaholic.org/slides/AntiForensics-CodeBreakers2006-Translation-To-English.pdf)
 
-## Externals Links
+## External Links
 
 * [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.researchgate.net/publication/261038911_Anti-Forensics_The_Next_Step_in_Digital_Forensics_Tool_Testing),
   in: IT Security Incident Management and IT Forensics (IMF): 2013

@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Howtos
 ---
-# Creating a VM control file from a forensic image
+## Creating a VM control file from a forensic image
 
 In general, VM software needs both an image and associated control
 files.
@@ -12,9 +12,9 @@ There are a number of ways to create the VM control files needed to run
 an image as a VM instance. At present, this article primarily provides a
 series of tools that can create to VMDK VM control files.
 
-## Creating a VMDK file from a forensic image
+### Creating a VMDK file from a forensic image
 
-### By hand
+#### By hand
 
 VMDK files are simple text files. They can be created by hand and then
 the VM run to allow registry values and passwords to be set as needed
@@ -23,7 +23,7 @@ prior to boot.
 Jimmy Weg has written a series of blog posts that detail the process.
 See the list of blog posts under external links below.
 
-### Linux tools as included in SIFT
+#### Linux tools as included in SIFT
 
 Via the SIFT workstation (free), use the following steps:
 
@@ -33,7 +33,7 @@ Via the SIFT workstation (free), use the following steps:
 `4.mount_ewf.py (Encase Image file path) /mnt/ewf1`
 `5.qemu-img convert /mnt/ewf1/(encase image file name) -O vmdk (give_a_name).vmdk`
 
-### EnCase
+#### EnCase
 
 use EnCase (Commercial) to mount the E01 image as an emulated disk (you
 need to have the Physical Disk Emulator ("PDE") module installed), then
@@ -43,7 +43,7 @@ portal.
 
 Note – EnCase v7 hasn't been proven to support this, just EnCase 6
 
-### Forensic Explorer
+#### Forensic Explorer
 
 Forensic Explorer is a commercial forensics tool which contains a
 feature called "Live Boot" for booting of forensic image files (E01,
@@ -51,21 +51,21 @@ EX01, DD). Live Boot works with VMWare Workstation, VMWare Player and
 Oracle Virtual Box. Refer to
 <https://getdataforensics.com/product/forensic-explorer-fex/> for more detail.
 
-### Paladin 4
+#### Paladin 4
 
 Paladin 4 (free) can create VMDK files for DD and E01 images.
 
-### Live View
+#### Live View
 
 [Live View](https://liveview.sourceforge.net/) (opensource) is reported
 as not reliable, but it does work with some images.
 
-### VMware Standalone Converter
+#### VMware Standalone Converter
 
 This may be an option. Reports of success here and what the steps are
 would be great.
 
-### VFC - Virtual Forensic Computing
+#### VFC - Virtual Forensic Computing
 
 [VFC.uk.com](https://www.vfc.uk.com/)
 
@@ -81,9 +81,9 @@ to windows 8 enabling an investigating officer to virtualise a suspects
 machine in seconds directly from a hard drive, from a forensic image
 (e01) or a raw DD image.
 
-## Creating a KVM image
+### Creating a KVM image
 
-### From the linux command prompt
+#### From the linux command prompt
 
 `kvm -hda myimage.dd`
 
@@ -94,7 +94,7 @@ Warning: It has been determined that using kvm's non-persistent mode can
 still result in an altered image. Always, always, always work from a
 copy.
 
-# Using the VMDK file
+## Using the VMDK file
 
 Once you have the VMDK file, you can create a virtual machine in
 Virtualbox or VMware Workstation and use the VMDK as an existing hard

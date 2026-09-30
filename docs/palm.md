@@ -5,7 +5,7 @@ tags:
 **Palm** is a common term for a small-scale (hand-held) computer that
 runs Palm's [PalmOS](palmos.md) software.
 
-# Overview
+## Overview
 
 The Palm OS platform is an open architecture that provides a basis for
 third-party developers and original equipment manufacturers (OEMs) to
@@ -19,7 +19,7 @@ components:
   interface (API) that enables developers to write applications
 * The software interface capabilities to support hardware add-ons
 
-## History
+### History
 
 Palm Computing was founded by Jeff Hawkins, Donna Dubinsky and Ed
 Colligan. The original purpose of the company was to create handwriting
@@ -39,15 +39,15 @@ tools such as Calendar, Contacts, Memo Pad, Expense and Tasks. As later
 versions were released, more features were added. Here is a list of
 various Palm OS releases:
 
-#### Version 3.1, 3.3, 3.5
+##### Version 3.1, 3.3, 3.5
 
 Added support for color, multiple expansion ports, new processors, etc.
 
-#### Version 4.0
+##### Version 4.0
 
 Added a standard interface for external FS access
 
-#### Version 5.0
+##### Version 5.0
 
 First version to support Acorn Risc Machine (ARM) devices. Later
 versions which included OS 5.2, featured Graffiti 2. It began the
@@ -57,7 +57,7 @@ Presently, version 6.1 of the Palm OS is under development (Cobalt).
 Cobalt features a Linux-based kernel. There are presently no devices
 released using Palm OS 6.
 
-## Features
+### Features
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ multiple palm devices.
 </tr>
 </table>
 
-## Palm Pilot
+### Palm Pilot
 
 The original creators of the Palm Pilot were Jeff Hawkins, Donna
 Dubinsky, and Ed Colligan. The idea of the palm pilot was established by
@@ -231,7 +231,7 @@ Palm OS 2.0
 </tr>
 </table>
 
-## 3Com Audrey
+### 3Com Audrey
 
 The 3Com Audrey was created to be a kitchen computer in 2000-2001. It
 was a mainly a used to access the Internet. Cisco then bought out 3Com
@@ -250,7 +250,7 @@ pull out the wireless keyboard. No graffiti is used.
 It was discontinued on March 21, 2001. However, there is still an Audrey
 frenzy going on today.
 
-## Fossil
+### Fossil
 
 This is a very neat model as it is a digital watch with the Palm OS
 version 4.1 installed. It comes in two brands: Abacus and Fossil.
@@ -319,9 +319,7 @@ Infrared port
 </tr>
 </table>
 
-## Garmin
-
-## Kyocera
+### Kyocera
 
 Kyocera acquired QUALCOMM Incorporated's Code Division Multiple Access
 (CDMA) wireless phone business in February 2000 and incorporates
@@ -330,24 +328,14 @@ wireless phones. An agreement with Palm Inc. to license the Palm OS
 platform was reached by Kyocera and Palm after QUALCOMM's acquisition.
 It is the foundation for a suite of smartphones.
 
-## QualComm
+### QualComm
 
 In September 1998, QUALCOMM introduced the pdQ smartphone which was the
 first CDMA digital wireless phone to integrate the Palm OS software.
 QUALCOMM’s CDMA handset business was later bought by Kyocera in February
 2000.
 
-## Samsung
-
-## Sony CliÈ
-
-## Symbol
-
-## TapWave
-
-## TRG
-
-## Handspring Visor
+### Handspring Visor
 
 The original creators of the PalmPilot, Jeff Hawkins, Donna Dubinsky,
 and Ed Colligan, left Palm Computing after desputes with the parent
@@ -367,7 +355,7 @@ The Visor line includes:
 * Visor Neo
 * Visor Pro
 
-## Treo
+### Treo
 
 Treo manufacturers a variety of devices, including the LifeDrive, Treo
 600, 650, 700w and 700p, Palm Z22 and Tx, and the Tungsten E2. Each of
@@ -380,12 +368,12 @@ The Treo 600, 650, 700w and 700p are the company's Smartphones. The Treo
 The Z22, Tx, and Tungsten E2 are primarily designed to be personal
 organizers.
 
-# Forensics
+## Forensics
 
 Forensics for Palm devices is a nascent field. There are several tools
 available for the image acquisition and analysis of Palm devices.
 
-## EnCase
+### EnCase
 
 EnCase, published by Guidance Software, is a complete cyber forensics
 software package that handles all steps of the investigative process,
@@ -397,7 +385,7 @@ Although traditionally relegated to the realm of desktop computer
 forensics investigations, EnCase does support the acquisition and
 analysis of a limited number of Palm devices.
 
-## Paraben
+### Paraben
 
 Paraben has a software application that is specifically designed for PDA
 forensics, PDA Seizure. This comprehensive tool allows PDA data to be
@@ -414,6 +402,6 @@ search term and PDA Seizure will bring up all files that have that term
 in them. This allows the investigator to look for case specific
 information easily and quickly.
 
-# References
+## External Links
 
 * [Wikipedia: Palm (PDA)](https://en.wikipedia.org/wiki/Palm_(PDA))

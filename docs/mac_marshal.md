@@ -29,13 +29,13 @@ Field Edition and the ability to take a snapshot of the target machine's
 physical RAM. Version 3.0 was released in November 2011 and can run on
 both Mac OS X and Windows XP and later.
 
-# Authors
+## Authors
 
 Mac Marshal was developed by ATC-NY, supported in part by the US
 National Institute of Justice (NIJ). The project was originally named
 MEGA.
 
-# External Links
+## External Links
 
 * [DFRWS'08 Mac Marshal paper (pdf)](http://old.dfrws.org/2008/proceedings/p83-joyce.pdf)
 * [Architecture Technology Corporation](https://www.atcorp.com/)

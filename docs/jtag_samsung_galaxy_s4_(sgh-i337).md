@@ -111,6 +111,6 @@ it left off.
 * Once the acquisition is complete the resulting image can be saved and
   Forensic Analysis can take place using the tool of your choosing.
 
-## References
+## External Links
 
 * <https://forensics.spreitzenbarth.de/2012/02/>

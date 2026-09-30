@@ -5,9 +5,9 @@ tags:
 [Digital forensics](digital_forensics.md) related resources like: blogs, fora,
 tweets, tools and challenges (and test images).
 
-# Websites
+## Websites
 
-## Digital forensics
+### Digital forensics
 
 [Bruce Nikkel's Computer Forensics Homepage](https://digitalforensics.ch/)
 
@@ -77,16 +77,16 @@ software into a Reference Data Set (RDS) of information.
 
 Computer Forensics Lab Resource Site.
 
-## Non-Digital Forensics
+### Non-Digital Forensics
 
 [NIST Image Group](https://www.nist.gov/programs-projects/fingerprint)
 
 Many reports, including the [NIST](nist.md) report on [AFIS](afis.md)
 fingerprint testing.
 
-## Blogs
+### Blogs
 
-### English blogs
+#### English blogs
 
 * [4n6ir by John Lukach](https://blog.4n6ir.com/)
 * [4n6k](https://www.4n6k.com/), retired in 2018
@@ -174,68 +174,68 @@ fingerprint testing.
   by Yogesh Khatri
 * [Zena Forensics](https://blog.digital-forensics.it/)
 
-### French blogs
+#### French blogs
 
 * [Forensics-dev](https://forensics-dev.blogspot.com)
 
-### German blogs
+#### German blogs
 
 * [computer-forensik.org](http://computer-forensik.org),
   by [Alexander Geschonneck](alexander_geschonneck.md)
 * [Digitale Beweisführung](https://henrikbecker.blogspot.com),
   by Henrik Becker
 
-### Japanese blogs
+#### Japanese blogs
 
 * [@port139 Blog](https://port139.hatenablog.com/),
   by Hideki Ihara
 
-### Korean blogs
+#### Korean blogs
 
 * [Forensic-Proof](http://forensic-proof.com/),
   by 이름 : Kim Jinkook
 
-### Spanish blogs
+#### Spanish blogs
 
 * [El diario de Juanito](https://windowstips.wordpress.com/)
 
-### Russian blogs
+#### Russian blogs
 
 * Elcomsoft: [Блог Элкомсофт](https://blog.elcomsoft.ru)
 
-## Aggregator blogs
+### Aggregator blogs
 
 * [Digital Forensics Magazine Blogs](https://digitalforensicsmagazine.com/blogs/)
 * [This Week in 4n6](https://thisweekin4n6.com/)
 
-# Circles/Fora/Groups
+## Circles/Fora/Groups
 
 * [Forensic Focus](https://www.forensicfocus.com/)
 * [Reddit Computer Forensics](https://www.reddit.com/r/computerforensics/)
 
-# Podcasts/Webcasts
+## Podcasts/Webcasts
 
 * [CyberSpeak's Podcast](https://cyberspeak.libsyn.com/)
 * [Digital Forensic Survival Podcast](https://digitalforensicsurvivalpodcast.com/)
 * Forensic Lunch / Learn Forensics with David Cohen
 
-# Tweets
+## Tweets
 
 * [\#DFIR](https://twitter.com/)
 * [\#forensics](https://twitter.com/)
 
-# Journals
+## Journals
 
 See: [Journals](journals.md)
 
-# Tools
+## Tools
 
 * [Yet another library library (and tools)](https://github.com/libyal/libyal/wiki/Overview)
 
-# Challenges (and test images)
+## Challenges (and test images)
 
 See: [Forensic Corpora](forensic_corpora.md_
 
-# Conferences
+## Conferences
 
 See: [Conferences](conferences.md)

@@ -7,9 +7,9 @@ a sequence of bytes. Operating systems typically do this by file
 extension or by embedded MIME information. Forensic applications need to
 identify file types by content.
 
-# Tools
+## Tools
 
-## libmagic
+### libmagic
 
 * Written in C.
 * Rules in /usr/share/file/magic and compiled at runtime.
@@ -17,7 +17,7 @@ identify file types by content.
   directly from a C program.
 * <https://sourceforge.net/projects/libmagic>
 
-## Digital Preservation Efforts
+### Digital Preservation Efforts
 
 PRONOM is a project of the National Archives of the United Kingdom to
 develop a registry of file types. A similar project was started by JSTOR
@@ -38,7 +38,7 @@ See:
 * [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
 * [DROID download](https://github.com/digital-preservation/droid)
 
-## TrID - File Identifier
+### TrID - File Identifier
 
 * Recognize over 9.000 file formats
 * XML formats definitions, compiled to a single container
@@ -47,7 +47,7 @@ See:
 * Win32, Linux/x86 & x86-64; closed source; free for non-commercial use
 * <https://mark0.net/soft-trid-e.html>
 
-## Detect-it-Easy
+### Detect-it-Easy
 
 * ECMAScript (JS) format definitions
 * Reliably detects many weak/zero-magic formats by content only
@@ -64,7 +64,7 @@ See:
 * Windows x32/64; Linux x32/64; Mac x64 GUI and CLI; C++ and JS open source
 * <https://github.com/horsicq/Detect-It-Easy>
 
-## Forensic Innovations File Investigator TOOLS
+### Forensic Innovations File Investigator TOOLS
 
 * Proprietary, but free trial available.
 * Available as consumer applications and OEM API.
@@ -72,19 +72,19 @@ See:
   accuracy.
 * Extracts metadata for many of the supported file types.
 
-## Stellent/Oracle Outside-In
+### Stellent/Oracle Outside-In
 
 * Proprietary but free demo.
 * <https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html>
 
-## Toolsley File Identifier
+### Toolsley File Identifier
 
 * Free
 * Runs in the browser
 * HTML5/JS port of the UNIX "file" tool and libmagic
 * <https://www.toolsley.com/file.html>
 
-## Falstaff
+### Falstaff
 
 * Free
 * Online
@@ -93,14 +93,14 @@ See:
 * Identifications are linked to the [file formats archive](http://fileformats.archiveteam.org/wiki/Main_Page)
   ontology
 
-## Apache Tika
+### Apache Tika
 
 * Free (Apache v2.0 License)
 * The Apache Tika™ toolkit detects and extracts metadata and text from
   over a thousand different file types
 * <https://tika.apache.org/>
 
-# Data Sets
+## Data Sets
 
 If you are working in the field of file format identification, please
 consider reporting the results of your algorithm with one of these
@@ -111,7 +111,7 @@ publicly available data sets:
 * The NPS Disk Corpus - a corpus of realistic disk images that contain
   no PII. Information is at: <https://digitalcorpora.org/?s=nps>
 
-# Bibliography
+## Bibliography
 
 Current research papers on the file format identification problem. Most
 of these papers concern themselves with identifying the file format of a few

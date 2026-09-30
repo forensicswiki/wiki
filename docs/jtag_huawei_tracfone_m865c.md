@@ -105,6 +105,6 @@ Then read the memory. JTAG complete.
 The phone has a 512 MB NAND flash memory chip which should take
 approximately 30 minutes to download.
 
-### References
+## External Links
 
 * [Huawei Ascend II](https://www.phonescoop.com/phones/phone.php?p=3308)

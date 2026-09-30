@@ -12,7 +12,7 @@ services. MailXaminer allows cyber investigators to analyze digital
 evidences from emails, attachments, contacts, calendar entries, etc.;
 stored within the data repository of different email services.
 
-# Summary
+## Summary
 
 MailXaminer was originally developed by CoreDataTree and was officially
 released on the 1st of December, 2013. Later, the application and its
@@ -22,7 +22,7 @@ update took place in the year 2014, Version 4.6. The software was made
 available for the worldwide online audience to perform email data
 investigation and evidence extraction.
 
-# Version History
+## Version History
 
 <table>
 <thead>
@@ -193,7 +193,7 @@ DMG format file.</p></td>
 </tbody>
 </table>
 
-# Product Overview
+## Product Overview
 
 MailXaminer is an Electronic Mail Data Analysis program built to fulfill
 the email forensics requirement in legal, IT, and corporate sector. The
@@ -207,7 +207,7 @@ application have been updated since its release, the latest of which is
 v.4.6 announced on the 27th of July, 2014 introducing 5 new features in
 the tool.
 
-# Features
+## Features
 
 The [MailXaminer](mailxaminer.md) program is built with the
 combination of the adept algorithms and multiple, individual email
@@ -215,7 +215,7 @@ analysis facilities set up in one application. The unique built of the
 software provides a single unit of solution for performing digital
 forensics on email artifacts.
 
-## Create New Case Repository
+### Create New Case Repository
 
 The new case creation option lets investigators prepare a case of their
 own for performing investigation of the evidence storing email
@@ -272,7 +272,7 @@ options.
 
 * *Email*: Email address of the investigator / agency.
 
-## Email Scanning
+### Email Scanning
 
 Emails from both; web based & desktop based email services can be
 scanned for analysis purpose. Two types of modes featured to scan emails
@@ -299,7 +299,7 @@ and email filter.
   ratio of data stored within the selected files with the help of pie
   chart and graphs.
 
-## Office365 Examination
+### Office365 Examination
 
 Email examination from Office365 accounts can be executed. The two ways
 in which emails are scanned and downloaded from Office 365 are: Single
@@ -308,7 +308,7 @@ the only precondition is that the download of user account(s) from
 Office365 can only be performed using Admin credentials and not
 individually.
 
-## Google Apps Analysis
+### Google Apps Analysis
 
 GApps, better known as Google Apps is one of the email platforms,
 accounts from which can be examined using MailXaminer. The program
@@ -324,7 +324,7 @@ examiner will have to create a separate project and has to be logged
 into it during the examination is being channelized on the GApps account
 data.
 
-## Live Exchange Mailbox Impersonation
+### Live Exchange Mailbox Impersonation
 
 Email client and server environments usually found in corporate &
 enterprises are the most common targets of email based crimes and
@@ -343,7 +343,7 @@ Impersonation can be implemented to use:
 Adding the details will begin downloading emails from Live Exchange
 Server mailboxes (selected) on the basis of impersonation.
 
-## Email & Attachment Analysis
+### Email & Attachment Analysis
 
 Viewing email stored within scanned email files loaded in the software
 is distinguished under several views. There is a separate view tab
@@ -377,7 +377,7 @@ recipient ID, dates, size, and MD5 value details displayed respectively.
 * *Hierarchical View*: This view tab shows the exact B+ Tree structure
   of the selected mail & its entire folder structure.
 
-## Image Analysis
+### Image Analysis
 
 An Image Analysis feature is provided to expand the possibility of
 spotting pornographic images (of all types) scanned from emails
@@ -400,7 +400,7 @@ which they have been detected.
 **NOTE**: To receive the exact and sharp results, it is recommended to
 set the frequency to High (not "Very High").
 
-## Video Analysis
+### Video Analysis
 
 The video analysis feature is meant for tracking and spotting the
 attached video files having pornographic content. After the video
@@ -409,14 +409,14 @@ the available malicious video can be easily spotted. The sensitivity
 measure for the video analysis works in the similar pattern as mentioned
 in the skin tone analysis attribute.
 
-## Geo Location Image Mapping
+### Geo Location Image Mapping
 
 The image attachments having the latitude, longitude and altitude
 coordinates saved within them can be easily mapped. Export such image
 attachments to KML format and thus, easily locate the exact location by
 importing the KML file into Google Earth.
 
-## Evidence Search
+### Evidence Search
 
 Apart from the bulk email analysis, the program can perform selective
 email analysis via its advanced search facility. The search feature
@@ -425,15 +425,15 @@ emails, searched using a single keyword or even with multiple keywords.
 The keywords / keyword CSV provided in the case at the beginning can be
 supplied to the search to detect associated emails.
 
-### Keyword Based Search
+#### Keyword Based Search
 
 * Add Keywords
 * Browse CSV
 * Use Both
 
-### Advanced Search
+#### Advanced Search
 
-#### General
+##### General
 
 The search offers generic search to be performed on the overall data of
 the scanned files. The search process can be narrowed using different
@@ -453,14 +453,14 @@ is further divided into four more categorizations
   matching the combination of words differentiated with symbol or
   special characters to list the nearest possible results.
 
-#### Predefined
+##### Predefined
 
 Based on the Regular Expressions search algorithm, this search option
 helps detect email message pattern with the use of category and sub
 category search like; phone numbers, URLs, addresses, postal code, etc.,
 and country, respectively.
 
-#### Advance
+##### Advance
 
 This search option offers the most comprehensive and in-depth
 exploration of data within the file(s). Multiple number of search
@@ -468,7 +468,7 @@ criteria can be added along with conjunctions for added detail and to
 look up for information in the message body, attachment, as well as
 email header.
 
-#### Proximity
+##### Proximity
 
 Based on the hit & trial method of searching, the option provides a
 search field for adding look up terms to be added and searched for
@@ -478,7 +478,7 @@ approximate results between the terms ranging from zero to infinity.
 * Distance Between Words: Enter the approximate amount of words that
   separate the mentioned terms to search.
 
-## Case Evidence Bookmarking
+### Case Evidence Bookmarking
 
 Evidences collected from email artifacts can be bookmarked for future
 analysis purposes. Evidences in the form of emails, media files,
@@ -487,7 +487,7 @@ will contain a record of case related evidences bookmarked which can
 further be exported, sent for review, deleted, or comments can be added
 to it.
 
-## Export Email Data Artifacts
+### Export Email Data Artifacts
 
 On the completion of email data file recovery and analysis, evidences
 can be exported into multiple formats of output file according to the
@@ -504,7 +504,7 @@ including; email, media files, search results, bookmarks, etc.
 * *Media Files*: Images, videos, audio files, and other media file
   artifacts of any type are exportable in respective formats.
 
-## Email Tagging With Labels
+### Email Tagging With Labels
 
 Emails of particular importance or category can be tagged under the
 respective label using the email tagging feature. Email tagging makes
@@ -516,7 +516,7 @@ emails tagged under a category can also be removed off from their
 respective tags using the remove tag option provided along with add tag
 facility.
 
-## Section 508 Compliance
+### Section 508 Compliance
 
 Data analysis is actionable in compliance with section 508 offering
 support for keyboard usage. The support makes MailXaminer operable with
@@ -525,7 +525,7 @@ provision is made as part of abiding by the U.S. Government standards
 stating technology to be accessible for all users regardless of their
 disability.
 
-## PDF Bates Numbering
+### PDF Bates Numbering
 
 Bates numbering facilitated for evidence exported as Portable Document
 Format file type. Document maintenance ensured during export as PDF with
@@ -534,7 +534,7 @@ with additional data prefixed / suffixed to it, with preferred font
 styling. Enhanced manageability is aimed at, with bates numbering of
 evidence exported as Portable Document Format file.
 
-## Skype Database Analysis
+### Skype Database Analysis
 
 MailXaminer, besides examining emails, features Skype database
 investigation. Skype messenger being a commonly used medium of instant
@@ -542,7 +542,7 @@ communication is both the prime source as well as target of cyber
 criminal activities. The examination of Skype Messenger database enables
 viewing conversations carried out through chats, SMSs, and calls.
 
-## Link Analyzes Searches
+### Link Analyzes Searches
 
 The prime feature of Link Analysis between Users and Domains is further
 integrated into Search Result analysis too. The concept is to detect and
@@ -551,7 +551,7 @@ via graphics. The very technique is advanced into the analysis of search
 results for custom link analysis to be executed on emails listed under a
 specific search.
 
-## Searching Within Subset
+### Searching Within Subset
 
 MailXaminer is programmed to generate subsets, i.e. categorized
 collection investigated data/results. Further provision of performing
@@ -562,7 +562,7 @@ used for conducting evidence search, saved search results, items
 restored from deleted state, are some of the common subsets maintained
 on MailXaminer by investigators.
 
-## Other Features
+### Other Features
 
 A number of other additional and supportive facilities are owned by the
 MailXaminer program. These features assist investigators at managing
@@ -576,45 +576,45 @@ case storage and handling.
 * Set Email Throttling
 * Mark / Remove Privilege
 
-### Import Review File
+#### Import Review File
 
 SaaS review facility allows investigators to share case for review of
 analysis and evidence collection performed on the case.
 
-### Export / Import Case
+#### Export / Import Case
 
 The facility allows exporting and importing entire case to and fro from
 the software with scanned data files and other case details preserved.
 
-### Delete Case
+#### Delete Case
 
 Existing / recently used case can be deleted from the software list.
 
-### Email Recursive View
+#### Email Recursive View
 
 Allows viewing emails of the parent directory and sub folder
 collectively under the parent directory.
 
-### Change Software Language
+#### Change Software Language
 
 Software interface language can be changed from the default language;
 English to other featured.
 
-### Set Email Throttling
+#### Set Email Throttling
 
 Throttle desired percentage of internet bandwidth consumption as per the
 requirement is in Kbps unit.
 
-### Mark / Remove Privilege
+#### Mark / Remove Privilege
 
 To maintain the privacy and avoid violation confidential content, emails
 can be marked with privilege to be protected from being shared.
 
-# Licensing
+## Licensing
 
 Read the Licensing on official website.
 
-## Dongle Based Licensing
+### Dongle Based Licensing
 
 Licensing of the application has been extended to Dongle basis. A dongle
 with licensed software setup will be provided via shipping or courier to
@@ -624,7 +624,7 @@ to crime scenes and used instantaneously for examination of emails on
 the spot, on any particular machine eliminating the licensed machine
 obstruction.
 
-# Support
+## Support
 
 Technical support and graphical demonstration are provided via phone,
 email, and chat mediums to offer operational and technical assistance.

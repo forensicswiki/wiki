@@ -2,7 +2,7 @@
 tags:
   - Organization
 ---
-# Overview
+## Overview
 
 Advanced Digital Forensic Solutions Inc. (ADF Solutions, Inc., or ADF
 Solutions) is a privately held, minority-owned small business based in
@@ -17,7 +17,7 @@ national security. They are used in digital forensic labs and used by
 field operatives in defense, intelligence, law enforcement, border
 security, and other government agencies worldwide.
 
-# ADF Products
+## ADF Products
 
 ADF offers three main products: Triage-G2, Triage-Examiner, and Triage-Responder.
 
@@ -48,17 +48,17 @@ lightweight USB deployment and provides detailed field reporting
 capabilities. This tool was developed in partnership with the U.S.
 Department of Homeland Security Science and Technology Directorate.
 
-# Discontinued Products
+## Discontinued Products
 
 * Triage-ID®
 * Triage-Lab®
 * Triage-Investigator®
 
-# ADF Patented Technology
+## ADF Patented Technology
 
 `ADF Solutions has been granted two U.S. patents (#7,941,386 and #8,219,588) for its SearchPak® technology.`
 
-# SearchPak®
+## SearchPak®
 
 The SearchPak is a container of forensic search intelligence. It allows
 analysts and operators to precisely describe the forensic search or data
@@ -86,7 +86,7 @@ Examples of Mission-Specific SearchPaks
 * Collect all documents, text files, or emails that contain the
   keyword "Operation Kandahar."
 
-# DHS S&T First Responder Cyber Forensic Field Kit
+## DHS S&T First Responder Cyber Forensic Field Kit
 
 In 2010, ADF Solutions was selected by the U.S. Department of Homeland
 Security Science and Technology Directorate to develop a universal
@@ -100,7 +100,7 @@ As the result of this DHS initiative, ADF Solutions released
 Triage-Responder in 2012. The tool is being deployed to federal, state,
 and local law enforcement agencies throughout the U.S.
 
-# Media Exploitation
+## Media Exploitation
 
 ADF Solutions focuses on digital forensic triage and can be applied to
 document and media exploitation. Triage-G2 has features designed
@@ -112,7 +112,7 @@ documents and media to generate useful and timely information. Also
 known as DOMEX, it is a very similar discipline to computer forensics or
 digital forensics.
 
-# Company Timeline
+## Company Timeline
 
 2005: ADF Triage-ID® field forensic triage tool is released
 2006: ADF Triage-Lab® forensic triage tool for laboratory is released
@@ -128,12 +128,12 @@ to build triage "First Responder Cyber Forensic Field Kit"
 2012: ADF releases Triage-Responder®, a forensic triage tool designed
 specifically for first responders and nontechnical investigators
 
-# News
+## News
 
 Digital forensic triage and/or ADF Solutions has been described or
 highlighted in many different publications:
 
-# External Links
+## External Links
 
 * [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
 * [Official website](https://www.adfsolutions.com/)
