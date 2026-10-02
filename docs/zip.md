@@ -1,59 +1,52 @@
 ---
 tags:
-  - AIX
   - Archive
   - Articles that need to be expanded
   - File Formats
-  - FreeBSD
-  - Linux
-  - MacOS
-  - NetBSD
-  - OpenBSD
-  - Solaris
-  - Windows
 ---
-.ZIP is an archive file format that supports lossless data compression.
+The ZIP archive format (.zip) is an archive file format that supports lossless
+data compression.
 
 <b>TODO</b> describe ZIP64
 
 ## File format
 
-|                                        | ZIP           | ZIP64                                           |
-|----------------------------------------|---------------|-------------------------------------------------|
-| Maximum archive size (bytes)           | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
+| | ZIP | ZIP64 |
+| --- | --- | --- |
+| Maximum archive size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
 | Maximum object size in archive (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
-| Maximum objects in archive             | 65,535        | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
+| Maximum objects in archive | 65,535 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
 | Maximum central directory size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
-| Maximum spanned archive segments       | 999           | 4,294,967,294                                   |
-| Maximum split archive segments         | 65,535        | 4,294,967,294                                   |
+| Maximum spanned archive segments | 999 | 4,294,967,294 |
+| Maximum split archive segments | 65,535 | 4,294,967,294 |
 
-| Overall ZIP File Structure             |
-|----------------------------------------|
-| Files                                  |
-| local file header 1                    |
-| encryption header 1                    |
-| file data 1                            |
-| data descriptor 1                      |
-| ...                                    |
-| local file header *n*                  |
-| encryption header *n*                  |
-| file data *n*                          |
-| data descriptor *n*                    |
-| Central directory                      |
-| archive decryption header              |
-| archive extra data record              |
-| central directory header 1             |
-| ...                                    |
-| central directory header *n*           |
-| zip64 end of central directory record  |
+| Overall ZIP File Structure |
+| --- |
+| Files |
+| local file header 1 |
+| encryption header 1 |
+| file data 1 |
+| data descriptor 1 |
+| ... |
+| local file header *n* |
+| encryption header *n* |
+| file data *n* |
+| data descriptor *n* |
+| Central directory |
+| archive decryption header |
+| archive extra data record |
+| central directory header 1 |
+| ... |
+| central directory header *n* |
+| zip64 end of central directory record |
 | zip64 end of central directory locator |
-| end of central directory record        |
+| end of central directory record |
 
-| Characteristics      | Description   |
-|:---------------------|---------------|
-| Byte order           | little-endian |
-| Date and time values |               |
-| Character strings    |               |
+| Characteristics | Description |
+| --- | --- |
+| Byte order | little-endian |
+| Date and time values | |
+| Character strings | |
 
 ### Central directory (archived) file header
 
@@ -115,29 +108,29 @@ The value is stored as: ( major number x 10 ) + minor number</p></td>
 
 ##### Creator system indicator
 
-| Value    | Identifier | Description                                                             |
-|:---------|------------|-------------------------------------------------------------------------|
-| 0        |            | MS-DOS and OS/2 (FAT / VFAT / FAT32 file systems) or compatible systems |
-| 1        |            | Amiga                                                                   |
-| 2        |            | OpenVMS                                                                 |
-| 3        |            | UNIX                                                                    |
-| 4        |            | VM/CMS                                                                  |
-| 5        |            | Atari ST                                                                |
-| 6        |            | OS/2 H.P.F.S.                                                           |
-| 7        |            | Macintosh                                                               |
-| 8        |            | Z-System                                                                |
-| 9        |            | CP/M                                                                    |
-| 10       |            | Windows NTFS                                                            |
-| 11       |            | MVS (OS/390 - Z/OS)                                                     |
-| 12       |            | VSE                                                                     |
-| 13       |            | Acorn Risc                                                              |
-| 14       |            | VFAT                                                                    |
-| 15       |            | alternate MVS                                                           |
-| 16       |            | BeOS                                                                    |
-| 17       |            | Tandem                                                                  |
-| 18       |            | OS/400                                                                  |
-| 19       |            | OS X (Darwin)                                                           |
-| 20 - 255 |            | unused                                                                  |
+| Value | Identifier | Description |
+| --- | --- | --- |
+| 0 | | MS-DOS and OS/2 (FAT / VFAT / FAT32 file systems) or compatible systems |
+| 1 | | Amiga |
+| 2 | | OpenVMS |
+| 3 | | UNIX |
+| 4 | | VM/CMS |
+| 5 | | Atari ST |
+| 6 | | OS/2 H.P.F.S. |
+| 7 | | Macintosh |
+| 8 | | Z-System |
+| 9 | | CP/M |
+| 10 | | Windows NTFS |
+| 11 | | MVS (OS/390 - Z/OS) |
+| 12 | | VSE |
+| 13 | | Acorn Risc |
+| 14 | | VFAT |
+| 15 | | alternate MVS |
+| 16 | | BeOS |
+| 17 | | Tandem |
+| 18 | | OS/400 |
+| 19 | | OS X (Darwin) |
+| 20 - 255 | | unused |
 
 #### Internal file attributes
 
@@ -173,10 +166,10 @@ The external attributes are creator system dependent.
 
 The external attributes MS-DOS (0) is 4 bytes of size and consists of:
 
-| Offset | Size | Value | Description                   |
-|:-------|------|-------|-------------------------------|
-| 0      | 1    |       | FAT (MS-DOS) file attributes. |
-| 1      | 3    |       | Unknown                       |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 1 | | FAT (MS-DOS) file attributes. |
+| 1 | 3 | | Unknown |
 
 The external attributes UNIX (3) is 4 bytes of size and consists of:
 

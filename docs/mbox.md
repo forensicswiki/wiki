@@ -23,7 +23,7 @@ clients like Mozilla thunderbird, Envoy, Eudora, Entourage.
 ## File Structure
 
 The starting of each mailbox message is with a line that consists of
-“From” followed by a space and then the email address of sender. In
+"From" followed by a space and then the email address of sender. In
 order to differentiate one message from another, a blank line is
 appended at the end of each message. Because of its plain text format, a
 number of text processing utilities can be employed on the MBOX file
@@ -42,23 +42,23 @@ follows
 ### mboxo File Format
 
 The mboxo file format employs the original System V format. It follows
-an irreversible “From quoting” that usually corrupts a message. To
+an irreversible "From quoting" that usually corrupts a message. To
 locate the beginning of a message in mboxo mailbox format, one has to
-scan ahead to find the next “From” line. If on reaching the end of file
+scan ahead to find the next "From" line. If on reaching the end of file
 there are no email messages then there are no next messages.
 
 ### mboxrd File Format
 
 The idea for mboxrd file format was coined by Rahul Dhesi and so the
 mailbox format has been named according to his name. It follows a
-reversible “From quoting” that is used to resolve the corruption
+reversible "From quoting" that is used to resolve the corruption
 problems found in mboxo mailbox format. To locate the starting point of
 a message in mboxrd file format, on starts moving in the forward
-direction of “From” line till it reaches the end of the file.
+direction of "From" line till it reaches the end of the file.
 
 ### mboxcl File Format
 
-The mboxcl message format employs irreversible “From quoting” that
+The mboxcl message format employs irreversible "From quoting" that
 generally corrupts a message. To locate the starting of each message, it
 does not use From_ line-scanning rather it uses Content: Length which
 presents the length of the message body after it is converted into
@@ -67,7 +67,7 @@ message.
 
 ### mboxcl2 File Format
 
-The mboxcl2 file format does not use “From” quoting. It does not use
+The mboxcl2 file format does not use "From" quoting. It does not use
 From_line to scan a line in the message .Instead, it consists of a
 Content-Length: header which describes the message length in octets.
 This header is appended to the email message when it is added to the

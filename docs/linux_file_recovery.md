@@ -1,7 +1,7 @@
 ---
 tags:
   - Tools
-  - Data Recovery 
+  - Data Recovery
   - Linux
 ---
 ## R-Studio recovery method

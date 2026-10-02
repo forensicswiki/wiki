@@ -32,8 +32,8 @@ device;
 2. Choosing the file type by the extension you need to have;
 3. Extracting all referenced files by their extension;
 4. Extracting all the deleted files by their extension;
-5. Carving all the partitions chosen and, automatically, the script will delete 
-   the duplicate files leaving only the carved files whose are not into the 
+5. Carving all the partitions chosen and, automatically, the script will delete
+   the duplicate files leaving only the carved files whose are not into the
    referenced or delete set of files;
 6. Executing a keyword search on all the retrieved files;
 7. Reporting all with the investigator name, date and time.

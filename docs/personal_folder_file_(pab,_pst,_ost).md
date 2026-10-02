@@ -79,7 +79,7 @@ referred as; Off-line Storage Table (.ost), or Off-line Folder File.
 
 ### Overview
 
-PST file format is primarily related to “Outlook” application and
+PST file format is primarily related to "Outlook" application and
 comprises data of Outlook 97, 2000, 2003, or any higher version.
 Microsoft Exchange server stores messages and other data items on
 server. These items are stored locally on computer by MS Outlook

@@ -15,24 +15,24 @@ JTAG, and reassembled.
 
 What you need to dump the NAND:
 
-1.  A [RIFF Box](https://www.riffbox.org/)
-2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
-    be available).
-3.  A DC Power supply capable of supplying 3.7V/1.30A output. The power
-    supply used for this was an U8002A DC Power Supply.
-4.  A hot air re-work station. The hot air re-work station used for this
-    was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
+1. A [RIFF Box](https://www.riffbox.org/)
+2. Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
+   be available).
+3. A DC Power supply capable of supplying 3.7V/1.30A output. The power
+   supply used for this was an U8002A DC Power Supply.
+4. A hot air re-work station. The hot air re-work station used for this
+   was an [LF-852D Hot Air Station](https://www.howardelectronics.com/).
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the RIFF JTAG Box to the PC via USB.
-3.  Connect the RIFF JTAG Box to the PCB via the JTAG pins.
-4.  Connect the PCB to the DC power supply.
-5.  Start the "RIFF JTAG" software.
-6.  Enable the power on the DC power supply.
-7.  Power the phone via the power button.
-8.  Dump the NAND via the RIFF software.
+1. Disassemble the phone down to the PCB.
+2. Connect the RIFF JTAG Box to the PC via USB.
+3. Connect the RIFF JTAG Box to the PCB via the JTAG pins.
+4. Connect the PCB to the DC power supply.
+5. Start the "RIFF JTAG" software.
+6. Enable the power on the DC power supply.
+7. Power the phone via the power button.
+8. Dump the NAND via the RIFF software.
 
 Instructions for dis-assembly can be found on Internet but it can be
 summarized as follows:
@@ -50,7 +50,7 @@ summarized as follows:
 <img src="../assets/images/2-Lumia620-Phone.jpg" title="2-Lumia620-Phone.jpg" width="450"
 alt="2-Lumia620-Phone.jpg" />
 <figcaption aria-hidden="true">2-Lumia620-Phone.jpg</figcaption>
- 
+
 <img src="../assets/images/3-Lumia620-Screws.jpg" title="3-Lumia620-Screws.jpg"
 width="450" alt="3-Lumia620-Screws.jpg" />
 <figcaption aria-hidden="true">3-Lumia620-Screws.jpg</figcaption>
@@ -76,7 +76,7 @@ alt="7-Lumia620-EMI.jpg" />
  <img src="../assets/images/8-Lumia620-Pinouts.jpg" title="8-Lumia620-Pinouts.jpg"
  width="800" alt="8-Lumia620-Pinouts.jpg" />
  <figcaption aria-hidden="true">8-Lumia620-Pinouts.jpg</figcaption>
- 
+
  <img src="../assets/images/9-Lumia620-Soldered.jpg" title="9-Lumia620-Soldered.jpg"
  width="800" alt="9-Lumia620-Soldered.jpg" />
  <figcaption aria-hidden="true">9-Lumia620-Soldered.jpg</figcaption>

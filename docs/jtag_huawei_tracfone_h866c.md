@@ -18,18 +18,18 @@ phone is unsupported by RIFF Box for the JTAG process for resurrector.
 
 What you need:
 
-1.  Riff Box
-2.  USB to Micro USB cord
+1. Riff Box
+2. USB to Micro USB cord
 
 ### NAND Dump Procedure
 
-1.  Remove the battery and peel the label back to expose the TAPS.
-2.  Connect the RIFF box to the PC via USB.
-3.  Connect the RIFF box to the PCB via the JTAG pins.
-4.  Connect the PCB to a Micro USB cord and power via a power supply.
-5.  Start the "RIFF box" software.
-6.  Power the PCB.
-7.  Dump the NAND.
+1. Remove the battery and peel the label back to expose the TAPS.
+2. Connect the RIFF box to the PC via USB.
+3. Connect the RIFF box to the PCB via the JTAG pins.
+4. Connect the PCB to a Micro USB cord and power via a power supply.
+5. Start the "RIFF box" software.
+6. Power the PCB.
+7. Dump the NAND.
 
 The TAPS are located under the battery, behind the Huawei phone label.
 The phone will be powered by a Micro USB cord from an AC battery
@@ -37,15 +37,15 @@ charger.
 
 The TAPS order is as follows:
 
-1.  1=Not Used
-2.  2=TCK
-3.  3=GND
-4.  4=TMS
-5.  5=TDI
-6.  6=TDO
-7.  7=RTCK
-8.  8=TRST
-9.  9=NRST
+1. 1=Not Used
+2. 2=TCK
+3. 3=GND
+4. 4=TMS
+5. 5=TDI
+6. 6=TDO
+7. 7=RTCK
+8. 8=TRST
+9. 9=NRST
 
  <img src="../assets/images/Hauwei_U866C_TAPS.jpg" title="Hauwei_U866C_TAPS.jpg"
  width="600" alt="Hauwei_U866C_TAPS.jpg" />

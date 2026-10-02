@@ -90,7 +90,7 @@ Contact List is used in all of the fleet phones.
 
 # iDEN Phonebook Manager: Frequently Asked Questions
 
-**What if my phone constantly displays the message: “RSS SIM in Session”
+**What if my phone constantly displays the message: "RSS SIM in Session"
 when trying to program it?**
 
 
@@ -99,14 +99,14 @@ by the application. In the event your phone continues to display this
 message, please follow the steps below.
 
 
-1\. Verify the application is not writing the SIM information to the
+1. Verify the application is not writing the SIM information to the
 phone.
 
-2\. Remove the battery from the phone.
+2. Remove the battery from the phone.
 
-3\. Wait five (5) seconds.
+3. Wait five (5) seconds.
 
-4\. Place battery back on phone and power on.
+4. Place battery back on phone and power on.
 
 **Why am I unable to read an iDEN non-SIM based phone?**
 
@@ -148,27 +148,27 @@ If you have trouble communicating to the phone, please review the
 following steps:
 
 
-1\. Select ‘Options’ from the Main Menu screen.
+1. Select ‘Options’ from the Main Menu screen.
 
-2\. The ‘communication settings’ window will display the selected cable
+2. The ‘communication settings’ window will display the selected cable
 (Serial/USB).
 
-3\. Connect the phone to the cable. Make sure you have a charged battery
+3. Connect the phone to the cable. Make sure you have a charged battery
 and the phone is powered on.
 
-4\. If you are using a USB cable, please make sure that ‘USB’ is
+4. If you are using a USB cable, please make sure that ‘USB’ is
 selected in the Communication Settings panel.
 
-5\. If you are using a Serial cable, please make sure that ‘Serial’ is
+5. If you are using a Serial cable, please make sure that ‘Serial’ is
 selected and the proper Com Port is selected.
 
-6\. Once the Serial or USB cable communication is selected, test the
+6. Once the Serial or USB cable communication is selected, test the
 communication by locating and pressing the ‘Test’ button.
 
-7\. If a successfully communication is made between your computer and
+7. If a successfully communication is made between your computer and
 the phone, a successful message will be displayed.
 
-8\. If you receive a message **Unable to communicate with phone**,
+8. If you receive a message **Unable to communicate with phone**,
 please go back and verify the type of communication (Serial/USB). If
 Serial cable is selected, please be sure to choose the correct Com Port,
 and repeat test.

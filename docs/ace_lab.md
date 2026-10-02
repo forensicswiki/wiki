@@ -30,7 +30,7 @@ to cater for their needs. Here are just some of them:
   system metadata maps etc
 * unlocking the HDD
 * changing/resetting to factory value of MaxLBA HDD
-* HDD mounting in “read-only” mode
+* HDD mounting in "read-only" mode
 * HDD data copy creation and reading to several recipients
 
 ## Support and Training

@@ -1,7 +1,7 @@
 ---
 tags:
   - Tools
-  - End of Life 
+  - End of Life
 ---
 Google Desktop Search is an application for both
 [Windows](windows.md) and [Mac OS X](mac_os_x.md) that

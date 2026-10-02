@@ -902,7 +902,7 @@ Chrome Cookies
 Chrome Local Storage
 
 Local Storage is a common name for part of HTML5 Web Storage. It is the
-newest version of cookies, and it serves the same purpose as “normal”
+newest version of cookies, and it serves the same purpose as "normal"
 cookies: enabling websites to store persistent data locally.
 
 ```text

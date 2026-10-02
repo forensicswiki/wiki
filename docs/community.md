@@ -247,7 +247,7 @@ optional.
 
 #### Install mkdocs
 
-1. Setup a Python environment 
+1. Setup a Python environment
 
 ```bash
 $ python3 -m venv mkdocs
@@ -277,7 +277,7 @@ needs two things to be able to run and load the Forensics Wiki pages.
 Both of the previous items are located in the root directory of the repository.
 To run mkdocs development server follow the steps below:
 
-1. Change to the root of the repository. For example, if you cloned the 
+1. Change to the root of the repository. For example, if you cloned the
    repository to your home directory.
 
 ```bash

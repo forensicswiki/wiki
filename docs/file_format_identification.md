@@ -13,7 +13,7 @@ identify file types by content.
 
 * Written in C.
 * Rules in /usr/share/file/magic and compiled at runtime.
-* Powers the Unix “file” command, but you can also call the library
+* Powers the Unix "file" command, but you can also call the library
   directly from a C program.
 * <https://sourceforge.net/projects/libmagic>
 
@@ -60,7 +60,7 @@ See:
 * Entropy analysis
 * File extractor
 * Has a Telegram bot to send files to, and is one of the VirusTotal tools for executables
-* The engine is a separate project that can be easily reused 
+* The engine is a separate project that can be easily reused
 * Windows x32/64; Linux x32/64; Mac x64 GUI and CLI; C++ and JS open source
 * <https://github.com/horsicq/Detect-It-Easy>
 

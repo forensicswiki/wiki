@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
 
-1.  redirect [Windows](windows.md)
+_See: [Windows](windows.md)_

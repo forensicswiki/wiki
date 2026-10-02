@@ -41,7 +41,7 @@ packet dumps, and other kinds of digital information.
 bulk_extractor now creates an output directory that includes:
 
 * **ccn.txt** -- Credit card numbers
-* **ccn_track2.txt** -- Credit card “track 2″ information
+* **ccn_track2.txt** -- Credit card "track 2″ information
 * **domain.txt** -- Internet domains found on the drive, including
   dotted-quad addresses found in text.
 * **email.txt** -- Email addresses
@@ -58,7 +58,7 @@ bulk_extractor now creates an output directory that includes:
   messages, and pre-compiled into executables.
 * **url_searches.txt** --- A histogram of terms used in Internet
   searches from services such as Google, Bing, Yahoo, and others.
-* **wordlist.txt** --- :A list of all “words” extracted from the disk,
+* **wordlist.txt** --- :A list of all "words" extracted from the disk,
   useful for password cracking.
 * **wordlist_\*.txt** --- The wordlist with duplicates removed,
   formatted in a form that can be easily imported into a popular
@@ -120,7 +120,7 @@ contains the offset, feature, and the file in which the feature was
 found.
 
 make_context_stop_list.py
-Although forensic analysts frequently make “stop lists”—for example, a
+Although forensic analysts frequently make "stop lists"—for example, a
 list of email addresses that appear in the operating system and should
 therefore be ignored—such lists have a significant problem. Because it
 is relatively easy to get an email address into the binary of an open

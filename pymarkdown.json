@@ -3,6 +3,9 @@
         "strict-config": true
     },
     "plugins": {
+        "MD041": {
+            "enabled": false
+        },
         "code-block-style": {
             "style": "fenced"
         },

@@ -1,7 +1,7 @@
 ---
 tags:
   - Mobile
-  - SIM 
+  - SIM
 ---
 
 <img src="../assets/images/600px-Simpic.jpg" title="Simpic.jpg" width="200" alt="Simpic.jpg" align="right" />
@@ -34,8 +34,8 @@ from 512MB up to M-Systems' 1GB SIM Card slated for release in late 2006.
 Each SIM is internationally identified by its ICC-ID (Integrated Circuit
 Card ID). ICC-IDs are stored in the SIM card and can also be engraved or
 printed on the SIM card’s body during a process called personalization.
-The number is up to 18 digits long with an addition of a single “check
-digit” that is used for error detection. This single digit allows us to
+The number is up to 18 digits long with an addition of a single "check
+digit" that is used for error detection. This single digit allows us to
 detect an input error of digits, mistyped digits or a permutation of two
 successive digits. This digit was calculated using the Luhn algorithm.
 

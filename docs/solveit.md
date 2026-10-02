@@ -12,9 +12,9 @@ forensic community, supported by
 [DFRWS.org](digital_forensic_research_workshop.md), that describes and indexes
 techniques available to digital forensic investigators during an examination.
 
-Uniquely, it also describes potential weakness at each stage of a digital 
-forensic investigation, including in digital forensic tools. It also provides 
-Python tooling to compile the contents of the knowledge base into different 
+Uniquely, it also describes potential weakness at each stage of a digital
+forensic investigation, including in digital forensic tools. It also provides
+Python tooling to compile the contents of the knowledge base into different
 formats, making it useful for a number of different applications.
 
 ## Use
@@ -29,9 +29,9 @@ The many potential applications of SOLVE-IT include:
 * standardizing language and terminology in teaching using the indexed techniques
 * conducting capability assessments of labs or individuals against the techniques
 
-One of the most interesting and immediate applications of SOLVE-IT is to avoid 
-missed or unmitigated errors in digital forensic processes. This can be 
-undertaken to review either standard processes, tool workflows, or even 
+One of the most interesting and immediate applications of SOLVE-IT is to avoid
+missed or unmitigated errors in digital forensic processes. This can be
+undertaken to review either standard processes, tool workflows, or even
 individual investigations.
 
 ## External Links

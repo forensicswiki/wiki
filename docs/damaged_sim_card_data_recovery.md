@@ -1,7 +1,7 @@
 ---
 tags:
   - Mobile
-  - SIM 
+  - SIM
 ---
 ## Summary
 

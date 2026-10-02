@@ -37,14 +37,14 @@ MIME-Version: 1.0
 
 ## Message Id Field
 
-Although the message id format is not completely understood, it contains the 
-date and time the message was sent, in pacific time, starting at the ninth 
-digit, in the form YYMMDDHHMM. In the example above, the time/date is 
-`0703050910`, 0910 PDT on 5 Mar 2007. This has been confirmed by experimental 
-testing. If you are [trying to determine if a message has been forged](using_signature_headers_to_determine_if_an_email_has_been_forged.md), 
-you should verify that the time in the Message Id field matches the time in the 
-Date field for the message. Don't forget that the time in the Date field should 
-be in the Sender's local time and the Message Id will be in Google's local 
+Although the message id format is not completely understood, it contains the
+date and time the message was sent, in pacific time, starting at the ninth
+digit, in the form YYMMDDHHMM. In the example above, the time/date is
+`0703050910`, 0910 PDT on 5 Mar 2007. This has been confirmed by experimental
+testing. If you are [trying to determine if a message has been forged](using_signature_headers_to_determine_if_an_email_has_been_forged.md),
+you should verify that the time in the Message Id field matches the time in the
+Date field for the message. Don't forget that the time in the Date field should
+be in the Sender's local time and the Message Id will be in Google's local
 time, US Pacific Time.
 
 ## See Also

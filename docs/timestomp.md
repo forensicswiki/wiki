@@ -21,7 +21,7 @@ data was last modified, accessed, created, or entered into the
 manually by the user.
 
 <img src="../assets/images/Timestomp_mace_change.jpg" title="Timestomp_mace_change.jpg"
- width="400" alt="Timestomp_mace_change.jpg" /> Using the Timestomp 
+ width="400" alt="Timestomp_mace_change.jpg" /> Using the Timestomp
 application, the modified date and timestamp can be completely
 changed (i.e., evidenced by the "Timestomp MACE Change" screenshot). If
 I were to change it, along with the other entries to more believable
@@ -30,7 +30,7 @@ as does its ability to completely slip by an examiner's watchful eye if
 looking for modified files in an entirely different year or date span.
 
 <img src="../assets/images/Timestomp_mace_change_proof.jpg" title="Timestomp_mace_change.jpg"
- width="400" alt="Timestomp_mace_change_proof.jpg" /> 
+ width="400" alt="Timestomp_mace_change_proof.jpg" />
 The "Timestomp MACE Change Proof" screenshot is a final shot of the
 Operating System's interpretation of the Modified timestamp. It reflects
 the aforementioned change exactly.
@@ -58,19 +58,19 @@ forensics.
 1\) Create file (*c:\test.txt*)
 
 <img src="../assets/images/timestomp1.jpeg" title="timestomp1.jpeg"
- width="400" alt="timestomp1.jpeg" /> 
+ width="400" alt="timestomp1.jpeg" />
 
 2\) Change timestamps using Timestomp
 
 `  timestomp.exe c:\test.txt -z "Saturday 10/08/2005 2:02:02 PM"`
 `  timestomp.exe c:\test.txt -a "Saturday 10/08/2005 2:02:02 PM"`
 <img src="../assets/images/timestomp2.jpeg" title="timestomp2.jpeg"
- width="400" alt="timestomp2.jpg" /> 
+ width="400" alt="timestomp2.jpg" />
 
 3\) Move that file to another folder (*c:\argument\test.txt*)
 
 <img src="../assets/images/timestomp3.jpeg" title="timestomp3.jpeg"
- width="400" alt="timestomp3.jpeg" /> 
+ width="400" alt="timestomp3.jpeg" />
 `  `
 `  $STANDARD_INFORMATION values are copied to $FN MACE values`
 
@@ -79,7 +79,7 @@ forensics.
 `  timestomp.exe c:\argument\test.txt -m "Saturday 10/08/2005 2:02:02 PM"`
 `  timestomp.exe c:\argument\test.txt -a "Saturday 10/08/2005 2:02:02 PM"`
 <img src="../assets/images/timestomp4.jpeg" title="timestomp4.jpeg"
- width="400" alt="timestomp4.jpeg" /> 
+ width="400" alt="timestomp4.jpeg" />
 
 ## External Links
 

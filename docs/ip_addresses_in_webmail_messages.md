@@ -1,6 +1,6 @@
 ---
 tags:
-  - Articles that need to be expanded 
+  - Articles that need to be expanded
 ---
 Some web-based email providers include the sender's IP address in the
 message headers. Some do not.

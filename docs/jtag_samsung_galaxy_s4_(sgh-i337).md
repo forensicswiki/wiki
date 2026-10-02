@@ -15,22 +15,22 @@ read via JTAG, reassembled.
 
 What you need to dump the NAND:
 
-1.  A [RIFF Box](https://www.riffbox.org/)
-2.  Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
-    be available).
-3.  A DC Power supply capable of supplying 3.8V/1.83A output. The power
-    supply used for this was an U8002A DC Power Supply.
+1. A [RIFF Box](https://www.riffbox.org/)
+2. Soldering skills and ultra-fine tip soldering iron (a JTAG jig may
+   be available).
+3. A DC Power supply capable of supplying 3.8V/1.83A output. The power
+   supply used for this was an U8002A DC Power Supply.
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the RIFF JTAG Box to the PC via USB.
-3.  Connect the RIFF JTAG Box to the PCB via the JTAG pins.
-4.  Connect the PCB to the DC power supply.
-5.  Start the "RIFF BOX JTAG" software.
-6.  Enable the power on the DC power supply.
-7.  Power the phone via the power button.
-8.  Dump the NAND via the RIFF Box software.
+1. Disassemble the phone down to the PCB.
+2. Connect the RIFF JTAG Box to the PC via USB.
+3. Connect the RIFF JTAG Box to the PCB via the JTAG pins.
+4. Connect the PCB to the DC power supply.
+5. Start the "RIFF BOX JTAG" software.
+6. Enable the power on the DC power supply.
+7. Power the phone via the power button.
+8. Dump the NAND via the RIFF Box software.
 
 Instructions for disassembly can be found on Internet but it can be
 summarized as follows:
@@ -46,7 +46,7 @@ summarized as follows:
 <img src="../assets/images/2-S4-BackCoverRemoved.jpg" title="2-S4-BackCoverRemoved.jpg"
 width="550" alt="2-S4-BackCoverRemoved.jpg" />
 <figcaption aria-hidden="true">2-S4-BackCoverRemoved.jpg</figcaption>
- 
+
  <img src="../assets/images/3-S4-RemoveScrews.jpg" title="3-S4-RemoveScrews.jpg"
  width="450" alt="3-S4-RemoveScrews.jpg" />
  <figcaption aria-hidden="true">3-S4-RemoveScrews.jpg</figcaption>

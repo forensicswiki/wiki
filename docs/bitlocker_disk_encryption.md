@@ -85,7 +85,7 @@ To obtain the recovery password for volume C:
 manage-bde.exe -protectors -get C: -Type recoverypassword
 ```
 
-Or just obtain the all “protectors” for volume C:
+Or just obtain the all "protectors" for volume C:
 
 ```text
 manage-bde.exe -protectors -get C:

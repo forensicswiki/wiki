@@ -84,7 +84,7 @@ Examples of Mission-Specific SearchPaks
 
 * Collect files that match a set of known hash values.
 * Collect all documents, text files, or emails that contain the
-  keyword “Operation Kandahar.”
+  keyword "Operation Kandahar."
 
 # DHS S&T First Responder Cyber Forensic Field Kit
 
@@ -124,7 +124,7 @@ Triage-G2®
 2010: ADF Solutions granted another U.S. patent for forensic triage
 technology
 2011: ADF awarded contract from the U.S. Department of Homeland Security
-to build triage “First Responder Cyber Forensic Field Kit”
+to build triage "First Responder Cyber Forensic Field Kit"
 2012: ADF releases Triage-Responder®, a forensic triage tool designed
 specifically for first responders and nontechnical investigators
 

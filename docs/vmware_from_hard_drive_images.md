@@ -24,11 +24,11 @@ VMWare VDDK 5.0*
 
 ## VMX Creation
 
-1\. Run Live View as Administrator. *(Messages pane will result in
+1. Run Live View as Administrator. *(Messages pane will result in
 errors otherwise)*
 
-2\. Set memory and OS as closely as possible to target machine specs.
+2. Set memory and OS as closely as possible to target machine specs.
 *(To maximize probability of success)*
 
-3\. Click "Start". *(The screenshot error relates to maximums exceeded
+3. Click "Start". *(The screenshot error relates to maximums exceeded
 based on client machine.)*

@@ -47,7 +47,7 @@ various features that make Exchange Server an indispensable product are:
   – malware provided for use, if required.
 * ***In – Place eDiscovery.*** Crucial and sensitive data can now easily
   be searched and carved in.
-* ***Shadow Redundancy.*** “Shadow Redundancy” mechanism protects the
+* ***Shadow Redundancy.*** "Shadow Redundancy" mechanism protects the
   email messages in the state when they are available in the transit.
 
 ## External Links

@@ -8,7 +8,7 @@ tags:
 ---
 Darik's Boot and Nuke is a disk image that can create a
 bootable CD/DVD/Floppy/USB Device that can securely wipe the hard disks
-of most computers. 
+of most computers.
 
 DBan is bundled with [Eraser](eraser.md)
 

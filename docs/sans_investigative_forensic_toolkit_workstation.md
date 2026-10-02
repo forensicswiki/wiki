@@ -18,15 +18,15 @@ SIFT Workstation is based on Ubuntu.
 
 Software Includes:
 
-1.  [The Sleuth Kit](the_sleuth_kit.md)
-2.  [ssdeep](ssdeep.md) & [md5deep](md5deep.md)
-3.  [Foremost](foremost.md)/[Scalpel](scalpel.md)
-4.  [Wireshark](wireshark.md)
-5.  HexEditor
-6.  [Vinetto](vinetto.md) ([thumbs.db](thumbs.db.md) examination)
-7.  Pasco
-8.  Rifiuti
-9.  [Volatility Framework](volatility_framework.md)
+1. [The Sleuth Kit](the_sleuth_kit.md)
+2. [ssdeep](ssdeep.md) & [md5deep](md5deep.md)
+3. [Foremost](foremost.md)/[Scalpel](scalpel.md)
+4. [Wireshark](wireshark.md)
+5. HexEditor
+6. [Vinetto](vinetto.md) ([thumbs.db](thumbs.db.md) examination)
+7. Pasco
+8. Rifiuti
+9. [Volatility Framework](volatility_framework.md)
 10. DFLabs PTK (GUI Front-End for [The Sleuth Kit](the_sleuth_kit.md)
 11. Autopsy (GUI Front-End for [The Sleuth Kit](the_sleuth_kit.md)
 

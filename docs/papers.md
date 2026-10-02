@@ -1,6 +1,6 @@
 ---
 tags:
-  - No Category
+  - Redirect
 ---
 
-1.  redirect [Bibliography](bibliography.md)
+_See: [Bibliography](bibliography.md)_

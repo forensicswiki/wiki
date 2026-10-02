@@ -71,7 +71,7 @@ Where a value of *1* indicates the access time update being disabled.
 In Windows XP and earlier, the default value is 0 (enabled), and in
 Windows Vista onwards, the default value is 1 (disabled).
 
-Note that in Windows 10 “Redstone 4” (April 2018 Update) the behavior of
+Note that in Windows 10 "Redstone 4" (April 2018 Update) the behavior of
 this setting was extended
 [1](https://dfir.ru/2018/12/08/the-last-access-updates-are-almost-back/)
 

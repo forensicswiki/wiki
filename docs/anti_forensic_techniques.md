@@ -27,17 +27,17 @@ Secure Deletion data, so that it cannot be restored with forensic methods.
 
 Overwriting programs typically operate in one of three modes:
 
-1.  The program can overwrite the entire media.
-2.  The program can attempt to overwrite individual files. This task is
-    complicated by journaling file systems: the file itself may be
-    overwritten, but portions may be left in the journal.
-3.  The program can attempt to overwrite files that were previously
-    “deleted” but left on the drive. Programs typically do this by
-    creating one or more files on the media and then writing to these
-    files until no free space remains, taking special measures to erase
-    small files — for example, files that exist entirely within the
-    Windows Master File Table of an NTFS partition (Garfinkel and Malan,
-    2005).
+1. The program can overwrite the entire media.
+2. The program can attempt to overwrite individual files. This task is
+   complicated by journaling file systems: the file itself may be
+   overwritten, but portions may be left in the journal.
+3. The program can attempt to overwrite files that were previously
+   "deleted" but left on the drive. Programs typically do this by
+   creating one or more files on the media and then writing to these
+   files until no free space remains, taking special measures to erase
+   small files — for example, files that exist entirely within the
+   Windows Master File Table of an NTFS partition (Garfinkel and Malan,
+   2005).
 
 Programs employ a variety of techniques to overwrite data. Apple’s Disk
 Utility allows data to be overwritten with a single pass of NULL bytes,
@@ -63,8 +63,8 @@ very handy for a forensic analyst, but not so handy for IT Managers.
 
 If the examiner knows when an attacker had access to a Windows, Mac or
 Unix system, it is frequently possible to determine which files the
-attacker accessed, by examining file “access” times for every file on
-the system. Some CFTs can prepare a “timeline” of the attacker’s actions
+attacker accessed, by examining file "access" times for every file on
+the system. Some CFTs can prepare a "timeline" of the attacker’s actions
 by sorting all of the computer’s timestamps in chronological order.
 Although an attacker could wipe the contents of the media, this action
 itself might attract attention. Instead, the attacker might hide their
@@ -72,7 +72,7 @@ tracks by overwriting the access times themselves so that the timeline
 could not be reliably constructed.
 
 For example, [Timestomp](timestomp.md) will overwrite
-[NTFS](ntfs.md) “create,” “modify,” “access,” and “change”
+[NTFS](ntfs.md) "create," "modify," "access," and "change"
 timestamps (metasploit). The Defiler’s Toolkit can overwrite inode
 timestamps and deleted directory entries on many Unix systems;
 timestamps on allocated files can also be modified using the Unix touch
@@ -87,7 +87,7 @@ For example, a partition can be mounted read-only or accessed through
 the raw device to prevent the file access times from being updated. The
 Windows registry key
 HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
-can be set to “1” to disable updating of the last-accessed timestamp;
+can be set to "1" to disable updating of the last-accessed timestamp;
 this setting is default under Windows Vista (Microsoft 2006).
 
 ## Cryptography, Steganography, and other Data Hiding Approaches
@@ -102,13 +102,13 @@ key can be protected with a passphrase or stored on an auxiliary device
 such as a USB token. If there is no copy of the key, intentionally
 destroying the key makes the data stored on the media inaccessible
 (Boneh and Lipton, 1996). Even if the cryptographic system lacks an
-intentional sanitization command or “self-destruct,” cryptography can
+intentional sanitization command or "self-destruct," cryptography can
 still be a potent barrier to forensic analysis if the cryptographic key
 is unknown to the examiner.
 
 Cryptography can also be used at the application level. For example,
 Microsoft Word can be configured to encrypt the contents of a document
-by specifying that the document has a “password to open.” Although older
+by specifying that the document has a "password to open." Although older
 versions of Microsoft Word encrypted documents with a 40-bit key that
 can be cracked with commercial tools, modern versions can optionally use
 a 128-bit encryption that is uncrackable if a secure passphrase is used.
@@ -156,14 +156,14 @@ set; it can encode roughly 1 byte per 110 (El-Khalil 2004). Stegdetect
 (Provos 2004) can detect some forms of steganography.
 
 StegFS hides encrypted data in the unused blocks of a Linux ext2 file
-system, making the data “look like a partition in which unused blocks
+system, making the data "look like a partition in which unused blocks
 have recently been overwritten with random bytes using some disk wiping
-tool” (McDonald and Kuhn, 2003).
+tool" (McDonald and Kuhn, 2003).
 
 [FreeOTFE](freeotfe.md) and [TrueCrypt](truecrypt.md)
 allow a second encrypted file system to be hidden within another
 encrypted file system. The goal of this filesystem-within-a-filesystem
-is to allow the users to have a “decoy” file system with data that is
+is to allow the users to have a "decoy" file system with data that is
 interesting but not overtly sensitive. A person who is arrested or
 captured with a laptop encrypted using this software could then give up
 the first file system’s password, with the hope that the decoy would be

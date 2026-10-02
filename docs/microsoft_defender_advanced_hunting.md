@@ -6,7 +6,7 @@ tags:
 
 Microsoft Defender advanced hunting is a query-based threat hunting tool which
 supports threat hunting (exploration) of raw data, from various Microsoft
-products, up to a period of 30 days. 
+products, up to a period of 30 days.
 
 ## External Links
 

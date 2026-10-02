@@ -15,22 +15,22 @@ read via JTAG, and reassembled.
 
 What you need to dump the NAND:
 
-1.  A [RIFF Box](https://www.riffbox.org/)
-2.  Soldering skills and small tip soldering iron (a JTAG jig may be
-    available).
-3.  A DC Power supply capable of supplying 3.8V/2.1A output. The power
-    supply used for this was an U8002A DC Power Supply.
+1. A [RIFF Box](https://www.riffbox.org/)
+2. Soldering skills and small tip soldering iron (a JTAG jig may be
+   available).
+3. A DC Power supply capable of supplying 3.8V/2.1A output. The power
+   supply used for this was an U8002A DC Power Supply.
 
 ### NAND Dump Procedure
 
-1.  Disassemble the phone down to the PCB.
-2.  Connect the RIFF Box to the PC via USB.
-3.  Connect the RIFF Box to the PCB via the JTAG pins.
-4.  Connect the PCB to the DC power supply.
-5.  Start the "RIFF Box JTAG Manager" software.
-6.  Enable the power on the DC power supply.
-7.  Power the phone via the power button.
-8.  Dump the NAND via the RIFF Box software.
+1. Disassemble the phone down to the PCB.
+2. Connect the RIFF Box to the PC via USB.
+3. Connect the RIFF Box to the PCB via the JTAG pins.
+4. Connect the PCB to the DC power supply.
+5. Start the "RIFF Box JTAG Manager" software.
+6. Enable the power on the DC power supply.
+7. Power the phone via the power button.
+8. Dump the NAND via the RIFF Box software.
 
 Instructions for disassembly can be found on Internet but it can be
 summarized as follows:
@@ -50,7 +50,7 @@ title="2-samsung-s3-sgh-i747m-back.jpg" width="600"
 alt="2-samsung-s3-sgh-i747m-back.jpg" />
 <figcaption
 aria-hidden="true">2-samsung-s3-sgh-i747m-back.jpg</figcaption>
- 
+
  <img src="../assets/images/3-samsung-s3-sgh-i747m-disassembly-screws.jpg"
  title="3-samsung-s3-sgh-i747m-disassembly-screws.jpg" width="600"
  alt="3-samsung-s3-sgh-i747m-disassembly-screws.jpg" />

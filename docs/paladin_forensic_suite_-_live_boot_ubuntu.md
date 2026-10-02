@@ -11,7 +11,7 @@ developed by SUMURI.
 
 ## Product Overview
 
-* PALADIN is a modified “live” Linux distribution based on Ubuntu that
+* PALADIN is a modified "live" Linux distribution based on Ubuntu that
   simplifies various forensics tasks in a forensically sound manner via
   the PALADIN Toolbox. PALADIN is available in 64-bit and 32-bit
   versions.

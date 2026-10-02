@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Howtos
-  -  Android
-  -  Reversing
-  -  Disassembly
+  - Howtos
+  - Android
+  - Reversing
+  - Disassembly
 ---
 This how-to documents various methods and tools in disassembling DEX files for
 the Android OS. An example "Hello Android" APK file developed from the Android
@@ -157,9 +157,9 @@ used in the section are dex2jar (available at
 <https://github.com/pxb1988/dex2jar>) and a java decompiler of choice.
 The steps performed to complete this transformation are:
 
-1.  $ ./dex2jar.bat classes.dex
+1. $ ./dex2jar.bat classes.dex
 
-2.  Load the produced JAR file from dex2jar into the java decompiler.
+2. Load the produced JAR file from dex2jar into the java decompiler.
 
 The main class produced from the decompilation process using dex2jar is
 listed below.

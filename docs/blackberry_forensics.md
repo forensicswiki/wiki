@@ -44,15 +44,15 @@ Once Desktop Manager is installed:
 
 1. Open Blackberry’s Desktop Manager.
 
-2. Click “Options” then “Connection Settings”
+2. Click "Options" then "Connection Settings"
 
-3. If the Desktop Manager hasn't already done so, select “USB-PIN:
-Device \#” for connection type. Your device \# may not be the same as
+3. If the Desktop Manager hasn't already done so, select "USB-PIN:
+Device \#" for connection type. Your device \# may not be the same as
 the image below.
 
 4. Click "OK" to return to the main menu.
 
-5. Click “Backup and Restore”.
+5. Click "Backup and Restore".
 
 6. Click the "Back up" button for a full backup of the device or use the
 Advanced section for specific data.
@@ -166,18 +166,18 @@ the desktop).
 number of the device that is being simulated). The simulator should now
 open an image that resembles the phone.
 
-9\. In the *BlackBerry 7230 Simulator* window, select *Simulate* \| *USB
+9. In the *BlackBerry 7230 Simulator* window, select *Simulate* \| *USB
 Cable Connected*.
 
-10\. Open BlackBerry Desktop Manager. If there are no Outlook profiles
+10. Open BlackBerry Desktop Manager. If there are no Outlook profiles
 created there will be a prompt on how to create one. Click *OK* to
 continue. If the BlackBerry xxxx Simulator has properly connected to the
 BlackBerry Desktop Manager, *Connected* should be displayed at the
 bottom of the BlackBerry Desktop Manager window.
 
-11\. Double click *Backup and Restore* \| select *Restore...*.
+11. Double click *Backup and Restore* \| select *Restore...*.
 
-12\. Navigate to the directory where an .ipd file that has been
+12. Navigate to the directory where an .ipd file that has been
 previously backed up is stored and select Open to load that file to the
 Simulator. See the Acquiring BlackBerry Backup File section above on
 information on how to backup a physical BlackBerry.

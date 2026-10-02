@@ -21,18 +21,18 @@ alt="Y301-A1_back.JPG" />
 
 What you need:
 
-1.  Riff Box
-2.  USB to Micro USB cord
+1. Riff Box
+2. USB to Micro USB cord
 
 ### NAND Dump Procedure
 
-1.  Remove battery and peel the phone label from the board.
-2.  Connect the RIFF box to the PC via USB.
-3.  Connect the RIFF box to the PCB via the JTAG pins.
-4.  Connect the PCB to a Micro USB cord.
-5.  Start the "RIFF box" software.
-6.  Power the PCB.
-7.  Dump the NAND.
+1. Remove battery and peel the phone label from the board.
+2. Connect the RIFF box to the PC via USB.
+3. Connect the RIFF box to the PCB via the JTAG pins.
+4. Connect the PCB to a Micro USB cord.
+5. Start the "RIFF box" software.
+6. Power the PCB.
+7. Dump the NAND.
 
 The TAPS are located under the battery, behind the Huawei phone label.
 The phone will be powered by a Micro USB cord from an AC battery
@@ -40,15 +40,15 @@ charger.
 
 The TAPS order is as follows:
 
-1.  1=Not Used
-2.  2=TCK
-3.  3=GND
-4.  4=TMS
-5.  5=TDI
-6.  6=TDO
-7.  7=RTCK
-8.  8=TRST
-9.  9=NRST
+1. 1=Not Used
+2. 2=TCK
+3. 3=GND
+4. 4=TMS
+5. 5=TDI
+6. 6=TDO
+7. 7=RTCK
+8. 8=TRST
+9. 9=NRST
 
  <img src="../assets/images/Y301-A1_taps.jpg" title="Y301-A1_taps.jpg" width="600"
  alt="Y301-A1_taps.jpg" />

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Disassembler 
+  - Disassembler
   - Open Source Software
   - Reversing
   - Tools

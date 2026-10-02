@@ -5,7 +5,7 @@ tags:
 ---
 ## Guidelines
 
-1.  If on, switch it off. If off, leave off.
+1. If on, switch it off. If off, leave off.
 
 \#\* Note only under exceptional circumstances should the handset be left
 switched on and in any case every precaution to prevent the handset connecting
@@ -21,22 +21,22 @@ You may wish to avoid having this part of the program run.
 \#\* Note that removing the battery or powering off a mobile phone may
 introduce a handset unlock code upon powering the device on.
 
-1.  Collect and preserve other surrounding and related devices. Be
-    especially careful to collect the power charger. The phone's battery
-    will only last a certain amount of time. When it dies, much of the
-    data on the device may go too!
+1. Collect and preserve other surrounding and related devices. Be
+   especially careful to collect the power charger. The phone's battery
+   will only last a certain amount of time. When it dies, much of the
+   data on the device may go too!
 
 <!-- -->
 
-1.  Plug the phone in, preferably in the evidence room, as soon as
+1. Plug the phone in, preferably in the evidence room, as soon as
     possible.
-2.  Retain search warrant (if necessary - Law Enforcement).
-3.  Return device to forensic lab if able.
-4.  Use forensically sound tools for processing. However, also remember ACPO
-    Principle 2 says: In exceptional circumstances, where a person finds it
-    necessary to access original data held on a computer or on storage media,
-    that person must be competent to do so and be able to give evidence
-    explaining the relevance and the implications of their actions.
+2. Retain search warrant (if necessary - Law Enforcement).
+3. Return device to forensic lab if able.
+4. Use forensically sound tools for processing. However, also remember ACPO
+   Principle 2 says: In exceptional circumstances, where a person finds it
+   necessary to access original data held on a computer or on storage media,
+   that person must be competent to do so and be able to give evidence
+   explaining the relevance and the implications of their actions.
 
 ## Notes
 
@@ -52,24 +52,24 @@ Expand on as to what to collect:
 
 Process:
 
-1.  Photograph the Cell Phone screen during power up.
-2.  Research the Cell Phone for technical specifications.
-3.  Research the Cell Phone for forensic information.
-4.  Based on phone type [GSM](gsm.md), [CDMA](cdma.md), [iDEN](iden.md), or Pay
-    As You Go determine acquisition tools
+1. Photograph the Cell Phone screen during power up.
+2. Research the Cell Phone for technical specifications.
+3. Research the Cell Phone for forensic information.
+4. Based on phone type [GSM](gsm.md), [CDMA](cdma.md), [iDEN](iden.md), or Pay
+   As You Go determine acquisition tools
 
 GSM:
 
-1.  Phone and SIM Card
-2.  SIM Card
+1. Phone and SIM Card
+2. SIM Card
 
 CDMA:
 
-1.  Phone
+1. Phone
 
 iDEN:
 
-1.  Three major tools exist for iDEN Phones:
+1. Three major tools exist for iDEN Phones:
 
 * iDEN Companion Pro
 * iDEN Media Downloader
@@ -77,7 +77,7 @@ iDEN:
 
 Pay As You Go:
 
-1.  Phone
+1. Phone
 
 ## External Links
 

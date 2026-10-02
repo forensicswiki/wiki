@@ -3,8 +3,8 @@ tags:
   - Articles that need to be expanded
   - File Systems
 ---
-ZFS is a combined file system and logical volume manager designed by
-[Sun Microsystems](sun_microsystems_inc.md).
+Zettabyte File System (ZFS) is a hybrid file system and logical volume
+manager designed by [Sun Microsystems](sun_microsystems_inc.md).
 
 ## External Links
 

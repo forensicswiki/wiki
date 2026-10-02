@@ -30,10 +30,10 @@ utility does.
 
 ## Building from source
 
-1.  Load the x64 Free Build Environment from the WDK (in start menu)
-2.  Go to the mdd directory, e.g. C:\src\mdd\driver\mdd\\ and run build
-3.  You should now have mdd.sys in
-    C:\src\mdd\driver\mdd\objfre_win7_amd64\amd64
+1. Load the x64 Free Build Environment from the WDK (in start menu)
+2. Go to the mdd directory, e.g. C:\src\mdd\driver\mdd\ and run build
+3. You should now have mdd.sys in
+   C:\src\mdd\driver\mdd\objfre_win7_amd64\amd64
 
 ### Signing the driver
 
@@ -44,8 +44,6 @@ utility does.
   * setup a secure spot to put the private key, this should not be on
     corp or unprotected at any time
 
-<!-- -->
-
 ```text
 openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
 ```
@@ -54,8 +52,6 @@ openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
   * shred the .key immediately after use
 
 * Sign the driver by running:
-
-<!-- -->
 
 ```text
 signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
@@ -117,5 +113,4 @@ necessarily run programs with administrator access (this is actually a
 major improvement to the security model of Windows). You can start
 programs, including cmd.exe, with admin privileges, but in this case,
 that won't help. You will not be able to image to a Network Share from
-Vista. There is no known workaround. This problem may exist in Windows
-7.
+Vista. There is no known workaround. This problem may exist in Windows 7.

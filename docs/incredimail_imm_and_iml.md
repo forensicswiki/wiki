@@ -14,22 +14,22 @@ attributes. It was developed by Perion Network Ltd.
 ## Location of IMM
 
 On Windows XP, the default location where the IMM is stored by
-Incredimail can be obtained by clicking on *“Tools”* and selecting
-*“Options”* from the dropdown menu. Now move to *“General”* tab,
-followed by *“Data Folder Settings”*. Now in the Data Folder Settings
+Incredimail can be obtained by clicking on *"Tools"* and selecting
+*"Options"* from the dropdown menu. Now move to *"General"* tab,
+followed by *"Data Folder Settings"*. Now in the Data Folder Settings
 pop – up window, copy the displayed path and paste it in the address bar
-of windows explorer. Move to *“Identities” \> “String of Numbers” \>
-“Message Store Folder”*. You can now view the available IMM files
+of windows explorer. Move to *"Identities" \> "String of Numbers" \>
+"Message Store Folder"*. You can now view the available IMM files
 (inbox.imm. deleted items.imm, outbox.imm, etc.).
 
 On Windows 7, to view the stored IMM files, move to the following
-location: - *“C:\Users\\%username%\Appdata\Local\IM\Identities”*
+location: - *"C:\Users\\%username%\Appdata\Local\IM\Identities"*
 
-Under the “Identities” folder, locate the "Message Store"; in which
-under the “Messages” folder, you can locate the “msg.iml” file. The
+Under the "Identities" folder, locate the "Message Store"; in which
+under the "Messages" folder, you can locate the "msg.iml" file. The
 users of Incredimail 2.0 and previous versions can find the file as
-*“msg.imm”*, where as the latter one’s can now recognize it as
-*“msg.iml”*.
+*"msg.imm"*, where as the latter one’s can now recognize it as
+*"msg.iml"*.
 
 The header meta data of the IMM files gets stored in a peculiar format
 that is recognized as an IMH file extension.
