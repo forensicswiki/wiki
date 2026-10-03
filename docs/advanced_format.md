@@ -3,7 +3,7 @@ tags:
   - Hard Drives
   - Hardware
 ---
-# The Technology
+## The Technology
 
 Hard drive manufacturers have moved to a new standard: 4KB (4,096 bytes)
 sectors, replacing 512B sectors. This is a good thing; it means that the
@@ -13,7 +13,7 @@ capacity. Western Digital has started releasing drives with 4KB sectors
 under the name "Advanced Format" (not to be confused with the [Advanced
 Forensics Format](aff.md).
 
-# The Standard
+## The Standard
 
 ATA 7 (T13/D1532, INCITS 397-2005) introduced Long Physical Sector (LPS)
 and Long Logical Sector (LLS) feature sets. Drives with large sector
@@ -23,7 +23,7 @@ sizes shall report the actual physical/logical size in words 106 and
 Some Western Digital drives with "Advanced Format" reportedly do not
 provide the information about physical sector size.
 
-# The Problem: Death of LBA 63
+## The Problem: Death of LBA 63
 
 Operating systems written before the transition, particularly XP, have
 trouble with the new drives. XP makes an assumption about where the
@@ -42,14 +42,14 @@ LBA 63 was dying anyway. Windows Vista and Windows 7 both align to LBA
 2048 by default. This change happened before the Advanced Format 512e
 drives hit the marketplace.
 
-# The Solution
+## The Solution
 
 To format one of these drives properly for Windows XP, use the following
 utility (this applies only to drives from Western Digital):
 
 [Western Digital Advanced Drive Format Utility](https://www.westerndigital.com/products)
 
-# External Links
+## External Links
 
 * [A Good Overview at AnandTech](https://www.anandtech.com/show/2888)
 * [Advanced Format Technology - White Paper](https://products.wdc.com/library/WhitePapers/ENG/2579-771430.pdf)

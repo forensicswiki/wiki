@@ -17,7 +17,7 @@ with a password. Volumes can be configured so that they can be recovered
 using one of several certificates — for example, a recovery certificate
 belonging to the organization that owns the computer.
 
-# How it works
+## How it works
 
 The first time EFS is used Windows creates a symmetric File Encryption Key
 (FEK). Windows then creates an RSA public/private key pair that is used to
@@ -33,7 +33,7 @@ In Windows XP and beyond there is no default recovery agent.
 EFS can be used in conjunction with [BitLocker](bitlocker_disk_encryption.md)
 if desired.
 
-# Recovering an EFS Key
+## Recovering an EFS Key
 
 Several tools are available that can recover an EFS key or volume if the
 original encryption key (or passphrase) are lost. These include:
@@ -46,7 +46,7 @@ original encryption key (or passphrase) are lost. These include:
 * WinHex Forensic (can also perform a brute-force attack on the user's
   passphrase).
 
-# Linux
+## Linux
 
 It is possible to decrypt files using [ntfsdecrypt](https://github.com/nats/ntfsprogs/blob/master/ntfsprogs/ntfsdecrypt.c)
 tool.  In this case, you should get the private key first (by running *cipher

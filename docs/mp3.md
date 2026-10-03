@@ -22,6 +22,6 @@ the software used to create the MP3.
 Using programs such as [MP3Stego](mp3stego.md), MP3 files may be
 used as a base for steganographic content.
 
-## Externals Links
+## External Links
 
 * [Wikipedia: MP3](https://en.wikipedia.org/wiki/Mp3)

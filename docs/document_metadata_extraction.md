@@ -29,7 +29,7 @@ files. Can also convert doc files to other formats such as HTML or plain text.
 
 More than 100 file types.
 
-# PDF Files
+### PDF Files
 
 [Belkasoft](belkasoft.md) Evidence Center
 
@@ -42,7 +42,7 @@ package) displays some metadata of [PDF](pdf.md) files.
 
 [XpdfReader](https://www.xpdfreader.com/index.html)
 
-# Images
+### Images
 
 [Belkasoft](belkasoft.md) Evidence Center
 
@@ -100,7 +100,7 @@ distribution
 Open source command line tool that extracts metadata from PNG images. Found in
 many Debian based distributions.
 
-# General
+## General
 
 These general-purpose programs frequently work when the special-purpose
 programs fail, but they generally provide less detailed information.

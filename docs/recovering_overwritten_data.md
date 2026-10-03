@@ -9,9 +9,9 @@ by 35 passes of random information? How about a single pass of zeros?
 Whether or not such data can be recovered has been a question of debate
 for decades. Unfortunately, there have been few hard facts published.
 
-# Prior Work
+## Prior Work
 
-## The Gutmann Paper 1996
+### The Gutmann Paper 1996
 
 The most widely known paper in this area is [Peter
 Gutmann](peter_gutmann.md)'s 1996 classic, *Secure Deletion of
@@ -37,7 +37,7 @@ paper](epilogue_to_gutmann's_1996_paper.md). The gist of that
 epilogue is that two passes of random data should be enough for today's
 disk drives.
 
-## ActionFront's Drive Independent Data Recovery 2005
+### ActionFront's Drive Independent Data Recovery 2005
 
 In August 2005 ActionFront Data Recovery Labs presented a detailed
 paper at the [IEEE 16th Annual Magnetic Recording
@@ -53,9 +53,9 @@ Unfortunately, this variability makes it dramatically harder to perform
 drive independent data recovery — that is, a single recovery approach
 that will work on multiple drives.
 
-# Current Work
+## Current Work
 
-## Paper: *Overwriting Hard Drive Data: The Great Wiping Controversy*
+### Paper: *Overwriting Hard Drive Data: The Great Wiping Controversy*
 
 In December 2008 Craig Wright, Dave Kleiman, and Shyaam Sundhar R.S.
 presented a
@@ -65,7 +65,7 @@ controversy surrounding the misconceptions involving the belief that
 data can be recovered following a wipe procedure*"
 [4](https://www.sans.org/blog/overwriting-hard-drive-data/).
 
-# See also
+## See also
 
 * [Remnant Data](remnant_data.md)
 * [Recovering deleted data](recovering_deleted_data.md)

@@ -20,43 +20,43 @@ forensic processing systems.
 
 Snorkel is developed by the Netherlands Forensic Institute
 
-# Features
+## Features
 
 Snorkel recognizes and gives access to numerous storage formats for
 digital evidence, disk partitioning schemes, volume managers, file
 systems, and structured files. The formats supported are summarized
 below.
 
-## Image File Formats Understood
+### Image File Formats Understood
 
-|                    |                                                               |
-|--------------------|---------------------------------------------------------------|
-| Image file formats | [EnCase](encase_image_file_format.md)                 |
-|                    | [RAW (dd)](raw_image_format.md)                       |
-|                    | [VMWare (vmdk)](vmware_virtual_disk_format_(vmdk).md) |
+| | |
+| --- | --- |
+| Image file formats | [EnCase](encase_image_file_format.md) |
+| | [RAW (dd)](raw_image_format.md) |
+| | [VMWare (vmdk)](vmware_virtual_disk_format_(vmdk).md) |
 
-## File Systems Understood
+### File Systems Understood
 
-|                      |                                                                               |
-|----------------------|-------------------------------------------------------------------------------|
-| Volume managers      | [Windows (ldm)](logical_disk_manager_(ldm).md)                                |
-| Partitioning schemes | PC/MBR                                                                        |
-|                      | Apple                                                                         |
-|                      | GPT                                                                           |
-|                      | BSD                                                                           |
-| File systems         | Windows ([fat](fat.md), [NTFS](ntfs.md))                                      |
-|                      | Apple (mfs, (Classic) HFS, [HFS+](hfs+.md))                         |
-|                      | Linux ([ext](extended_file_system_(ext).md), [Reiser](reiserfs.md))           |
-|                      | Solaris, BSD (ufs)                                                            |
-|                      | CD (ISO9660)                                                    |
-| File Formats         | Windows registry (Win 9x, NT)                                                 |
-|                      | Microsoft Office (OLE2)                                                       |
+| | |
+| --- | --- |
+| Volume managers | [Windows (ldm)](logical_disk_manager_(ldm).md) |
+| Partitioning schemes | MBR |
+| | Apple Partitioning Map (APM) |
+| | GPT |
+| | BSD disklabel |
+| File systems | Windows ([fat](fat.md), [NTFS](ntfs.md)) |
+| | Apple (mfs, (Classic) HFS, [HFS+](hfs+.md)) |
+| | Linux ([ext](extended_file_system_(ext).md), [Reiser](reiserfs.md)) |
+| | Solaris, BSD (ufs) |
+| | CD (ISO9660) |
+| File Formats | Windows registry (Win 9x, NT) |
+| | Microsoft Office (OLE2) |
 
-## License Notes
+### License Notes
 
 Snorkel is has a proprietary license. An evaluation version is available
 from the website.
 
-# External Links
+## External Links
 
 * [the Netherlands Forensic Institute](https://www.forensischinstituut.nl/)

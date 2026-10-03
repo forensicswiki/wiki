@@ -149,6 +149,6 @@ reading from 192MB-EOF. This captured enough data to acquire the
 password hash which was located around the 1.3GB range on this
 particular phone.
 
-## References
+## External Links
 
 * <https://forensics.spreitzenbarth.de/2012/02/>

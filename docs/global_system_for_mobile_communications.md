@@ -8,29 +8,29 @@ considered to be the world's most ubiquitous radio-based cellular technology,
 with 1.7 billion users as of March 2006. In the United States, carriers such as
 T-Mobile and Cingular utilize GSM technology for their cellular networks.
 
-# GSM Cell Phone Providers
+## GSM Cell Phone Providers
 
-## USA
+### USA
 
 * Cingular
 * T-Mobile
 
-## Other
+### Other
 
 * T-Mobile
 * Vodafone
 * O2
 
-# Operational Characteristics
+## Operational Characteristics
 
-## Network Principles
+### Network Principles
 
 GSM is considered to be 2G and uses digital data for both signaling and voice
 purposes. GSM uses a time division multiple access ([tdma](tdma.md) protocol to
 transmit information. Aside from voice, [GPRS](gprs.md) and [EDGE](edge.md)
 allow for data transmissions across a GSM network.
 
-## Radio Communication
+### Radio Communication
 
 In terms of frequencies used, GSM networks often use the 900MHz and
 1800MHz bands, but carriers in the United States use 850MHz and 1900MHz
@@ -40,12 +40,12 @@ common are "tri-band" phones, which usually operate on 900/1800MHz and
 1900MHz. "Quad-band" phones support all four frequencies and can be used
 in all parts of the world.
 
-# GSM Forensics
+## GSM Forensics
 
 For phones with a SIM card, perform forensics on the cell phone before
 removing the [SIM Card](sim_cards.md).
 
-# External Links
+## External Links
 
 * [GSM World](https://www.gsma.com)
 * [Wikipedia: GSM](https://en.wikipedia.org/wiki/Gsm)

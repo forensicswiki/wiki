@@ -22,7 +22,7 @@ can attempt to wipe locked files (e.g. [index.dat](internet_explorer_history_fil
 files) after the next reboot by forcing a wipe before Windows takes
 control again.
 
-# Methodology
+## Methodology
 
 Eraser overwrites the filename for each deleted file with zeros up to
 the maximum filename length.
@@ -38,11 +38,11 @@ Supported wiping patterns include
 | First and Last 2kb                   | \-                                   |
 | Schneier's 7 Pass                    | Schneier's 7 Pass                    |
 
-# Authors
+## Authors
 
 Eraser was originally developed by Sami Tolvanen and now maintained by
 Garrett Trant of Heidi Computers Ltd.
 
-# External Links
+## External Links
 
 * [Official website](https://eraser.heidi.ie/)

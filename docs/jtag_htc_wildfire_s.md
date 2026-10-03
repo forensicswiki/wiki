@@ -103,6 +103,6 @@ following:
 * Upon receiving a successful JTAG dump you can process the file with
   the CCL Forensics Android scripts to extract the gesture or pin lock.
 
-## References
+## External Links
 
 * [Forensic blog: mobile phone forensics and mobile malware](https://forensics.spreitzenbarth.de/2012/02/)

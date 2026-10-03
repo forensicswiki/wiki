@@ -3,7 +3,7 @@ tags:
   - Network Forensics
   - Tools
 ---
-# Network Forensics Packages and Appliances
+## Network Forensics Packages and Appliances
 
 [E-Detective](https://www.edecision4u.com/)
 
@@ -168,7 +168,7 @@ space, generating nanosecond PCAP files that can be downloaded for
 further processing at 10Gbit speed. This is a commercial appliance by a
 small independent vendor.
 
-# Command-line tools
+## Command-line tools
 
 arp- view the contents of your ARP cache
 
@@ -205,7 +205,7 @@ auditing
 Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
 packets with the same payloads.
 
-## ARP and Ethernet MAC Tools
+### ARP and Ethernet MAC Tools
 
 arping - transmit ARP traffic
 
@@ -220,12 +220,12 @@ macof - CAM table attacks
 ettercap - performs various low-level Ethernet
 network attacks
 
-## CISCO Discovery Protocol Tools
+### CISCO Discovery Protocol Tools
 
 cdpd - transmit and receive CDP announcements;
 provides forgery capabilities
 
-## ICMP Layer Tests and Attacks
+### ICMP Layer Tests and Attacks
 
 icmp-reset
 
@@ -237,16 +237,16 @@ ish
 
 isnprober
 
-## IP Layer Tests
+### IP Layer Tests
 
 iperf - IP multicast test
 
 fragtest - IP fragment reassembly test
 
-## UDP Layer Tests
+### UDP Layer Tests
 
 udpcast - includes UDP-receiver and UDP-sender
 
-## TCP Layer
+### TCP Layer
 
 [Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP tracing

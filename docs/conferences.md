@@ -9,7 +9,7 @@ of conferences and journals at <https://digital-evidence.org/publish/index.html>
 and used with his permission. Brian no longer maintains those listings and
 points back to this Wiki.
 
-# Research Conferences and Workshops
+## Research Conferences and Workshops
 
 Research conferences that are related to digital investigation and forensics.
 
@@ -94,7 +94,7 @@ Virus Bulletin Conference
 International Workshop on Cyber Forensics and Advanced Threat Investigations
 <https://cfati.conceptechint.net/index.html>
 
-# Training Conferences
+## Training Conferences
 
 Enfuse Conference - formerly Computer and Enterprise Investigations Conference (CEIC)
 <https://blogs.opentext.com/otbus/>
@@ -120,6 +120,6 @@ SANS Digital Forensics & Incident Response Summit & Training
 Techno-Security Conference
 <https://techsec.com/>
 
-# See also
+## See also
 
 * [Journals](journals.md)

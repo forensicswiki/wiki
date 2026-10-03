@@ -132,6 +132,6 @@ and lower it to 9MHz (or lower) which can stabilize the read.
 * Once the acquisition is complete the resulting image can be saved and
   forensic analysis can take place using the tool of your choosing.
 
-## References
+## External Links
 
 * <https://forensics.spreitzenbarth.de/2012/02/>

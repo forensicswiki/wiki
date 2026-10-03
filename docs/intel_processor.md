@@ -2,22 +2,22 @@
 tags:
   - Micro processor
 ---
-# Physical memory organization
+## Physical memory organization
 
 * IA-32 Memory Models
 * IA-64 Memory Models
 
-## IA-32 Memory Models
+### IA-32 Memory Models
 
 * 32-bit linear address space (or flat memory model)
 * Segmented memory model
 * Real-address mode memory model
 
-## IA-64 Memory Models
+### IA-64 Memory Models
 
 * 64-bit linear address space
 
-# Also see
+## Also see
 
 * [Microcode](microcode.md)
 

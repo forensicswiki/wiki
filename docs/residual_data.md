@@ -18,7 +18,7 @@ Residual data appears at all levels of modern computer systems:
 * Automatic variables left on the stack of languages like C or garbage
   collected in languages like Java.
 
-# Papers
+## Papers
 
 Scalable Exploitation of, and Responses to Information Leakage Through Hidden
 Data in Published Documents, by Byers, Simon, AT&T Research, April 2003
@@ -30,10 +30,13 @@ Security Symposium, 2004.
 Garfinkel, S. and Shelat, A., "Remembrance of Data Passed: A Study of Disk
 Sanitization Practices," IEEE Security and Privacy, January/February 2003.
 
-# See Also
+## See Also
 
 * [Residual Data on Used Equipment](residual_data_on_used_equipment.md)
 * [Residual Data in Document Files](residual_data_in_document_files.md)
 * [Sanitizing Tools](sanitizing_tools.md)
 * [Remnant Data](remnant_data.md)
+
+## External Links
+
 * [Residual data on iPhones](http://www.iphoneatlas.com/2008/05/19/refurbished-iphones-may-contain-other-users-personal-data/)

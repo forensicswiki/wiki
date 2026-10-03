@@ -15,9 +15,7 @@ formats.
 Please, do not delete text (ideas) here, use the discussion page if you
 want to discuss the usefulness of a feature.
 
-# License
-
-# Features
+## Features
 
 * Compression
 * Integrity checks
@@ -41,7 +39,7 @@ want to discuss the usefulness of a feature.
   * not all image formats have support for all the features
 * Built-in write blocking (software write blocker)
 
-## Compression
+### Compression
 
 * Reduces the amount of data that needs to be written; improved the
   overall imaging speed.
@@ -58,14 +56,10 @@ want to discuss the usefulness of a feature.
 * sparse or repeated ranges
 * pattern-fill
 
-## Integrity checks
+### Integrity checks
 
 * Integrity hash (MD5, SHA1, SHA256)
 * piecewise hashing
-
-# Supportive tooling
-
-## Image conversion
 
 ## Image verification
 
@@ -73,7 +67,7 @@ want to discuss the usefulness of a feature.
   * full verification and print a report at the end
   * stop on error (useful for automation?)
 
-# Image format
+## Image format
 
 Implied features for an image format
 
@@ -85,7 +79,7 @@ Implied features for an image format
   * multiple images in one image format
   * support for additional information e.g. case data
 
-# See Also
+## See Also
 
 * [Disk Imaging](disk_imaging.md)
 * [Memory Imaging](memory_imaging.md)

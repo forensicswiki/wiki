@@ -5,7 +5,7 @@ tags:
 The **Joint Photographic Experts Group** (**JPEG**) format is a
 commonly-used lossy image format.
 
-# Format
+## Format
 
 JPEG is a container file format that consist of a well defined
 [header](header.md), some [metadata](metadata.md),
@@ -14,7 +14,7 @@ icons, a color table, compressed data, and a well defined
 
 Common file extensions are .jpg, .jpeg, .JPG, .JPE, and .jfif.
 
-# Metadata
+## Metadata
 
 JPEG files can contain lots of [metadata](metadata.md) in several formats, such
 as Exif, IPTC, GPS, or Camera Raw.
@@ -23,11 +23,11 @@ The [exif](exif.md) and [jhead](jhead.md) command tools can extract and
 manipulate some of that metadata. [Adroit Photo Forensics](adroit_photo_forensics.md)
 can be used to extract, view and group metadata from JPEG and camera Raw files.
 
-# Also see
+## Also see
 
 * [exif](exif.md)
 
-# Externals Links
+## External Links
 
 * [JPEG File Interchange Format Version 1.02](https://www.w3.org/Graphics/JPEG/jfif3.pdf)
 * [Adobe: XMP Specification](https://www.adobe.com/products/xmp/standards.html)

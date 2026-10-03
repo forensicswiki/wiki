@@ -18,14 +18,14 @@ any tool for more details.
 * [Network Forensics](tools_network_forensics.md)
 * [Logfile Analysis](logfile_analysis.md#tools)
 
-# Disk Analysis Tools
+## Disk Analysis Tools
 
-## Hard Drive Firmware and Diagnostics Tools
+### Hard Drive Firmware and Diagnostics Tools
 
 [PC-3000](pc-3000.md) from [ACE Lab](ace_lab.md)
 <https://www.acelab.eu.com/catalog/>
 
-## Linux-based Tools
+### Linux-based Tools
 
 [LINReS](https://sourceforge.net/projects/linres/) by [NII Consulting Pvt. Ltd.](https://www.niiconsulting.com/)
 
@@ -34,7 +34,7 @@ any tool for more details.
 
 [Second Look: Linux Memory Forensics](second_look.md) by Pikewerks Corporation
 
-## Macintosh-based Tools
+### Macintosh-based Tools
 
 [Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/emfb.html>
@@ -47,7 +47,7 @@ mobile and cloud data extraction.
 [Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
 <https://sumuri.com/wp-content/uploads/2019/04/recon.jpg>
 
-## Windows-based Tools
+### Windows-based Tools
 
 Arsenal Recon Weapons by [Arsenal Recon](arsenal_recon.md) offers unique and
 powerful tools to mount Windows disk images, reconstruct Windows Registry and
@@ -168,7 +168,7 @@ YouTube Forensic Toolkit (YFT) by [Afentis_forensics](afentis_forensics.md)
 eDiscovery toolkit to identify relevant online media, download/convert
 videos, data mine across comments, and generate expert reports.
 
-## Open Source Tools
+### Open Source Tools
 
 [AFFLIB](https://github.com/sshock/AFFLIBv3)
 A library for working with [disk images](disk_image.md).
@@ -249,9 +249,9 @@ program originally based on [foremost](foremost.md).
 
 [The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
 
-## [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
+### [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
 
-# Enterprise Tools (Proactive Forensics)
+## Enterprise Tools (Proactive Forensics)
 
 [LiveWire Investigator 2008](livewire_investigator.md) by [WetStone Technologies](wetstone_technologies_inc.md)
 
@@ -260,7 +260,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 [Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 <https://www.elcomsoft.com/epfb.html>
 
-# Forensics Live CDs
+## Forensics Live CDs
 
 [Kali Linux](kali_linux.md), [Official website](https://www.kali.org/)
 
@@ -277,21 +277,21 @@ the PALADIN Toolbox.
 
 See: [Forensics Live CDs](live_cd.md)
 
-# Personal Digital Device Tools
+## Personal Digital Device Tools
 
-## GPS Forensics
+### GPS Forensics
 
 * Blackthorn GPS Forensics
 * [.XRY](https://www.msab.com/)
 
-## PDA Forensics
+### PDA Forensics
 
 * [Cellebrite UFED](cellebrite_ufed.md)
 * [.XRY](https://www.msab.com/)
 * [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
 * PDD
 
-## Cell Phone Forensics
+### Cell Phone Forensics
 
 * [Belkasoft Evidence Center](https://belkasoft.com/x)
 * [BitPIM](bitpim.md)
@@ -308,7 +308,7 @@ See: [Forensics Live CDs](live_cd.md)
 TULP2G
 * [.XRY](https://www.msab.com/)
 
-## SIM Card Forensics
+### SIM Card Forensics
 
 [Cellebrite UFED](cellebrite_ufed.md)
 [.XRY](https://www.msab.com/)
@@ -317,12 +317,12 @@ ForensicSIM
 
 [SIMCon](simcon.md)
 
-## Preservation Tools
+### Preservation Tools
 
 [Paraben StrongHold Bag](paraben_stronghold_bag.md)
 Paraben StrongHold Tent
 
-# Other Tools
+## Other Tools
 
 [Serial Port Analyzer](https://www.serial-port-communication.com/how-to-analyze-serial-port-activity/)
 
@@ -366,7 +366,7 @@ minutes, now includes PALADIN 6 which comes with a full featured
 Forensic Suite, bootable forensic imager, a software write-blocker and
 so much more.
 
-## Hex Editors
+### Hex Editors
 
 [bless](bless.md)
 
@@ -397,7 +397,7 @@ A Multi-OS supported, open sourced, hex and disk editor.
 HexReader [Live-Forensics](live-forensics.md) software that reads Windows
 files at specified offset and length and outputs results to the console.
 
-# Telephone Scanners/War Dialers
+## Telephone Scanners/War Dialers
 
 [TeleSweep](https://securelogix.com)
 

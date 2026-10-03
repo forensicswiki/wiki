@@ -16,7 +16,7 @@ tools is the file and volume systems and TSK supports multiple file systems.
 Autopsy is a front-end for TSK which allows browser-based access to the TSK
 tools.
 
-# Features
+## Features
 
 The Sleuth Kit is arranged in layers. There is a *data layer* which is
 concerned with how information is stored on a disk and a *metadata layer* which
@@ -61,7 +61,7 @@ Lists the files extents on a disk.
 istat
 Information about an inode number.
 
-## Supported File Systems
+### Supported File Systems
 
 * [NTFS](ntfs.md)
 * [FAT-12, FAT-16, FAT-32](fat.md), exFAT
@@ -75,13 +75,13 @@ Note that several several of the file systems supported have known
 shortcomings. Check [issue
 tracker](https://github.com/sleuthkit/sleuthkit/issues) for details.
 
-## File Search Facilities
+### File Search Facilities
 
 * Lists allocated and unallocated files.
 * Lists and sorts by file type.
 * Shows a time of creation and change.
 
-## Historical Reconstruction
+### Historical Reconstruction
 
 **fls** and **ils** can be used to create a full listing of file system
 timestamps. The output of these commands can be inputted into
@@ -91,30 +91,30 @@ timestamps.
 Note that there are numerous known issues with the
 [Body file](body_file.md) format used by **fls** and **ils**.
 
-## Searching Abilities
+### Searching Abilities
 
 * Searches for keywords.
 * Builds an index.
 
-## Hash Databases
+### Hash Databases
 
 * Uses [MD5](md5.md) or [SHA-1](sha-1.md).
 * Interfaces with NIST NSRL, [Hashkeeper](hashkeeper.md) and customer databases.
 
-## Evidence Collection Features
+### Evidence Collection Features
 
 * Tracks forensic activity.
 
-# History
+## History
 
-## License Notes
+### License Notes
 
 The Sleuth Kit uses a mix of various licenses. Its core library, libtsk,
 is predominantly licensed under IBM Public License version 1.0 and
 Common Public License version 1.0. For more information see:
 <https://github.com/sleuthkit/sleuthkit/blob/develop/licenses/README.md>
 
-## Ext4 support
+### Ext4 support
 
 In 2011 Willi Ballenthin provided patches for the SleutKit to add ext4 support.
 These patches were integrated by Kevin Fairbanks into a
@@ -125,13 +125,13 @@ Note that ext4 format features introduced after SleutKit 4.1.0 might not
 be supported and SleutKit tools might incorrectly represent these
 [1](https://github.com/sleuthkit/sleuthkit/issues/2488).
 
-# See Also
+## See Also
 
 * [The Sleuth Kit How-To](the_sleuth_kit_howto.md)
 * [Body file](body_file.md)
 * [tsk-cp](tsk-cp.md)
 * The mmls [OCFA treegraph API](ocfa_treegraph_api.md) example module.
 
-# External Links
+## External Links
 
 * [Autopsy website](http://www.sleuthkit.org/autopsy/desc.php)

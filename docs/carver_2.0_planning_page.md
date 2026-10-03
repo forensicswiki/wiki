@@ -18,7 +18,7 @@ This will look like:
 
 good idea
 
-# Progress
+## Progress
 
 There is a proof-of-concept open-source solution available: [Multimedia
 File Carver](https://github.com/rpoisel/mmc) which focuses currently on
@@ -33,7 +33,7 @@ implemented:
 * Support for Multi-Processing during the reassembly phase (ffmpeg)
 * Support for The Sleuth Kit (TSK) to identify unallocated blocks
 
-# License
+## License
 
 BSD-3.
 
@@ -43,7 +43,7 @@ require other licenses
 Make the other libraries plug-able. If you them, you use them.
 Simsong
 
-# OS
+## OS
 
 Linux/FreeBSD/MacOS
 
@@ -87,7 +87,7 @@ autotools based build with little dependencies and no or little
 recursion, and better spent effort on a lean POLA design on POSIX based
 systems than on supporting building and running on non POSIX systems.
 
-# Name tooling
+## Name tooling
 
 * Joachim A name for the tooling I
   propose coldcut
@@ -101,7 +101,7 @@ Joachim cleaver ( scalpel on steroids ;-) )
 
 * I would like to propose Gouge or Chisel :-) Rob J Meijer
 
-# Requirements
+## Requirements
 
 Joachim Could we do a MoSCoW evaluation
 of these.
@@ -255,7 +255,7 @@ Output facilities
 * audit/analysis/debug log
 * extraction of result files
 
-## Supported File Formats
+### Supported File Formats
 
 Ship with validators for
 
@@ -323,7 +323,7 @@ binary file format which is also a ZIP-ed data [Excel Spreadsheet
     File](ole_compound_file.md) based format
   * pagefile?
 
-## Carving Strategies
+### Carving Strategies
 
 Joachim Note to moderator could this
 section be merged with the carving algorithm section?
@@ -376,7 +376,7 @@ file from the fragments and the allocated files.
   can be hashed immediately (MD5) so looking for them in other tools
   (for example Encase) is a snap
 
-## Performance Requirements
+### Performance Requirements
 
 * Tested on 500GB-sized images. Should be able to carve a 500GB image in
   roughly 50% longer than it takes to read the image.
@@ -401,7 +401,7 @@ file from the fragments and the allocated files.
     already has encountered some problems of dealing with defining file
     structure in a configuration file)
 
-## Output
+### Output
 
 * Can output audit.txt file.
 * Joachim Can output database with
@@ -427,7 +427,7 @@ Incorrect. Ascription software is software that determines who the owner
 of a file is. Simsong 06:36, 3 November 2008
 (UTC)
 
-# Ideas
+## Ideas
 
 * Use as much TSK if possible. Don't carry your own FS implementation
   the way photorec does.
@@ -458,7 +458,7 @@ same tree-graph loadable modules.
 * Extracting/carving executable binaries, dlls etc.
   [Volatility](volatility_framework.md), JE.
 
-## Recursive Carving
+### Recursive Carving
 
 [Joachim](joachim_metz.md) do we want to support (let's
 call it) 'recursive in file carving' (for now) this is different from
@@ -491,7 +491,7 @@ as a single executable?
 
 Joachim that could be useful ;-)
 
-## Library Dependencies
+### Library Dependencies
 
 Rob J Meijer :
 
@@ -532,7 +532,7 @@ RB
   sockets and the possibility to use msg_accrights for passing opn file
   handles as ocaps?
 
-## Filesystem Detection
+### Filesystem Detection
 
 * Dont stop with filesystem detection after the first match. Often if a
   partition is reused with a new FS and is not all that full yet, much
@@ -587,7 +587,7 @@ functionality into a library
   information about carved files. This output file can then be stored in
   a database or Excel sheet (report function)
 
-## Anti forensics and system integrity concerns
+### Anti forensics and system integrity concerns
 
 * It might be very interesting to look at the possibilities of using a
   multi process style of module support and combine it with a least
@@ -637,7 +637,7 @@ modules are to be written in this ocap language.
 A 4th alternative might include minorfs or plash, but I haven't geven
 those sufficient thinking hours yet.
 
-## Format syntax specification
+### Format syntax specification
 
 * Carving data structures. For example, extract all TCP headers from
   image by defining TCP header structure and some fields (e.g. source
@@ -713,7 +713,7 @@ currently missing:
 * handling encapsulated streams (MPEG/capture files)
 * handling content based formats (MBOX)
 
-# Caving algorithm
+## Caving algorithm
 
 Joachim
 
@@ -761,7 +761,7 @@ input data to minimize the IO or the CPU as bottleneck
 
 I opt that at least the validator uses this information
 
-## Caving scenarios
+### Caving scenarios
 
 Joachim
 
@@ -776,9 +776,9 @@ Joachim
   compression
 * file system in file
 
-# File System Awareness
+## File System Awareness
 
-## Background: Why be File System Aware?
+### Background: Why be File System Aware?
 
 Advantages of being FS aware:
 
@@ -805,9 +805,9 @@ files: https://github.com/libyal/documentation/blob/main/Carving%20for%20NTFS%20
 Joachim sparse (file system) blocks e.g.
 NTFS cluster blocks
 
-## Tasks that would be required
+### Tasks that would be required
 
-## Discussion
+### Discussion
 
 
 
@@ -854,7 +854,7 @@ information needed/acquired by the carver could be also very useful
 investigative information i.e. what part of a hard disk contains empty
 sectors.
 
-# Supportive tooling
+## Supportive tooling
 
 Joachim
 
@@ -864,14 +864,14 @@ Joachim
 * the carver needs to provide support for fuse mount of carved files
   (carvfs)
 
-# Testing
+## Testing
 
 Joachim
 
 * automated testing
 * test data
 
-# Validator Construction
+## Validator Construction
 
 Options:
 
@@ -885,7 +885,7 @@ Options:
   * Joachim define a file structure api
     for this
 
-# Existing Code that we have
+## Existing Code that we have
 
 Joachim Please add any missing links
 
@@ -947,7 +947,7 @@ POLA
 * iptables/ipfw
 * minorfs ( <https://www.the-essays.com/> )
 
-# Implementation Timeline
+## Implementation Timeline
 
 1. gather the available resources/ideas/wishes/needs etc. (I guess
    we're in this phase)

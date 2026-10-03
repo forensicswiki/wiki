@@ -2,40 +2,36 @@
 tags:
   - Articles that need to be expanded
 ---
-**SMART** is a commercial forensics software package distributed by [ASR
-Data](asr_data.md).
+**SMART** is a commercial forensics software package distributed by
+[ASR Data](asr_data.md).
 
-# Features
+## Features
 
-## File Systems Understood
-
-## File Search Facilities
+### File Search Facilities
 
 * Lists allocated and unallocated files.
 * Sorts files by type.
 * Searches for keywords and regex.
 * Registry viewer.
 
-## Historical Reconstruction
+### Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
-## Searching Abilities
+### Searching Abilities
 
 * Can use basic keyword searching.
 
-## Hash Databases
+### Hash Databases
 
 * [SHA-1](sha-1.md)
 * [MD5](md5.md)
 * CRC
 
-## Evidence Collection Features
+### Evidence Collection Features
 
 * "*Just about everything you do is logged in SMART. You can selectively
   export these log events into a simple HTML report.*"
-
-# History
 
 ## License Notes
 

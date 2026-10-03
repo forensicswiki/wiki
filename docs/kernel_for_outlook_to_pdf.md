@@ -11,7 +11,7 @@ systematically stored in individual folders as per the user-command.
 Although, the utility can be installed only on Windows-supported
 operating systems.
 
-# Overview
+## Overview
 
 Kernel for Outlook to PDF converter is one of the many freeware offered
 in the range of Kernel free tools by Kernel Data Recovery. The converter
@@ -21,7 +21,7 @@ of Outlook PST files to independent PDF files, which can be secured from
 unauthorized sharing and modification using enhanced data security
 settings of the tool.
 
-# Interface
+## Interface
 
 Outlook to PDF converter has neat and simplified interface design
 featured with Graphical User Interface to extend the user convenience in
@@ -37,16 +37,16 @@ exact status, subject and progress of items performed for conversion.
 Upon saving the files, the software displays the file location of the
 saved items, to facilitate quick and hassle-free user access.
 
-# Features
+## Features
 
-## Quick Scanning
+### Quick Scanning
 
 Kernel for Outlook to PDF has an inbuilt search feature to provide
 instant scanning of PST files from the selected folder of the system
 drive, to cut-down the manual efforts of the users in searching the
 files, even if the precise location is unknown.
 
-## Data Preview
+### Data Preview
 
 There is a dedicated preview box to meticulously view the data of
 provided source file, before saving it to the desired location. The tool
@@ -54,7 +54,7 @@ displays each and every folder contained in the file including Deleted
 Items, Inbox, Outbox, contacts, Calendars, Sent Items, and Journals etc.
 to read them in detail within the software wizard.
 
-## Conversion Flexibility
+### Conversion Flexibility
 
 The freeware provides the flexibility to convert PST data using the two
 options: convert by selected folders or selected items. Choose ‘convert
@@ -63,19 +63,19 @@ needed to be restored. However, if the user wants to convert more than
 one e-mails or items to PDF file, then select ‘convert by selected
 items’ option to save accordingly.
 
-## Data Integrity
+### Data Integrity
 
 The utility converts PST files to PDF format while preserving the
 complete integrity of data file including its actual properties
 (Subject, To, From, Cc, and Bcc) as of original file.
 
-## Security Settings
+### Security Settings
 
 The freeware also embeds an encryption feature to secure the resultant
 PDF file with a user-specified password. The user can also define the
 permission settings like print, copy, annotate and modify to further
 secure from any unauthorized user access.
 
-# External Links
+## External Links
 
 * [Official Website](https://www.nucleustechnologies.com/)

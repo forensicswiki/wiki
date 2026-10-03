@@ -15,7 +15,7 @@ Original: [E01 Compression Format](http://www.asrdata.com/whitepaper-html/)
 
 Redistributed with permission
 
-# Introduction
+## Introduction
 
 Developed by ASR Data, the Expert Witness file format (aka E01 format
 aka EnCase file format) is an industry standard format for storing
@@ -35,7 +35,7 @@ file".
   * 'table' section
   * 'next' and 'done' sections
 
-# Overview
+## Overview
 
 The Expert Witness Compression format can store a single image in one or
 more segment files. Each file consists of a standard 13-byte header,
@@ -64,7 +64,7 @@ not to be confused with the header section, below.)
 | Data    | 0x01 | 1 or higher    | 0x0000 |
 | Meaning |      | Segment Number |        |
 
-# The Section
+## The Section
 
 Every *section* begins with the same standard data, with the
 following layout.
@@ -78,14 +78,14 @@ following layout.
 | 32 (0x20) | 40     | 0x00...                  | Padding                                           |
 | 72 (0x48) | 4      |                          | CRC of all previous section data                  |
 
-# Section Types
+## Section Types
 
 Expert Witness Compression uses the following section types: `header`,
 `volume`, `table`, `next`, and `done`. Some of these section types have
 unique data that begins directly after the standard section structure
 above.
 
-## 'header' section...
+### 'header' section...
 
 |           |                   |                         |                                |
 |:----------|-------------------|-------------------------|--------------------------------|
@@ -119,7 +119,7 @@ customized.)*
 
 The header section should appear in the first segment file only.
 
-## 'volume' section...
+### 'volume' section...
 
 |            |        |         |                                                            |
 |:-----------|--------|---------|------------------------------------------------------------|
@@ -136,7 +136,7 @@ The header section should appear in the first segment file only.
 
 The volume section should appear in the first segment file only.
 
-## 'table' section...
+### 'table' section...
 
 |                          |                      |         |                                                           |
 |:-------------------------|----------------------|---------|-----------------------------------------------------------|
@@ -155,7 +155,7 @@ Chunk.*
 Each table section can hold 16375 entries. If more entries are needed,
 you must create multiple table sections per file.
 
-## 'next' and 'done' sections...
+### 'next' and 'done' sections...
 
 Each file ends with a 'next' or 'done' section. If the file is the last
 segment in an Expert Witness compressed image, the section will be named

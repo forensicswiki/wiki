@@ -2,7 +2,7 @@
 tags:
   - Bibliographies
 ---
-# Disk Disposal and Data Recovery
+## Disk Disposal and Data Recovery
 
 * [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection and Exclusions](https://belkasoft.com/ssd-2014),
   by Yuri Gubanov and Oleg Afonin, 2014
@@ -31,7 +31,7 @@ tags:
 
 } </bibtex>
 
-# Evidence Gathering
+## Evidence Gathering
 
 * [Retrieving Digital Evidence: Methods, Techniques and Issues](https://belkasoft.com/retrieving-digital-evidence-methods-techniques-and-issues),
   by Yuri Gubanov, 2012
@@ -40,13 +40,13 @@ tags:
   Proceedings of the International Conference on Information Technology
   (ITCC 2005), Las Vegas, Nevada, USA, April 4 - 6, 2005
 
-# Fake Information
+## Fake Information
 
 * [Automatic Detection of Fake File Systems](https://faculty.nps.edu/ncrowe/fakeintel.htm),
   Neil C. Rowe, International Conference on Intelligence Analysis
   Methods and Tools, McLean, Virginia, May 2005.
 
-# Feature Extraction and Data Fusion
+## Feature Extraction and Data Fusion
 
 Computer Location Determination Through Geoparsing and Geocoding of Extracted Features
 <http://www.chadsteel.com/pubs/Geolocation.pdf>
@@ -64,12 +64,12 @@ Computer Location Determination Through Geoparsing and Geocoding of Extracted Fe
 
 } </bibtex>
 
-# Text Mining
+## Text Mining
 
 [Computer Forensic Text Analysis with Open Source Software](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e30b3ff28981220e27d95391cd0984175e3ba5ef),
 by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
-# Signed Evidence
+## Signed Evidence
 
 <bibtex> @article{duerr-2004,
 
@@ -99,12 +99,12 @@ by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 } </bibtex>
 
-# Theory
+## Theory
 
 [A Hypothesis-Based Approach to Digital Forensic Investigations](https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2006-06.pdf),
 by Brian D. Carrier, Ph.D. Dissertation Purdue University, May 2006
 
-# Other Papers
+## Other Papers
 
 * [A Model for When Disclosure Helps Security: What is Different About Computer and Network Security?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=531782),
   by Peter P. Swire, Moritz College of Law of the Ohio State University,

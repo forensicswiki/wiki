@@ -7,37 +7,37 @@ not a wiki template...
 
 **Tool Name** is a ...
 
-# Features
+## Features
 
-## File Systems Understood
+### File Systems Understood
 
-## File Search Facilities
+### File Search Facilities
 
-## Historical Reconstruction
+### Historical Reconstruction
 
 Can it build timelines and search by creation date?
 
-## Searching Abilities
+### Searching Abilities
 
 Can it search? Does it build an index? Can it focus on file types or
 particular kinds of metadata?
 
-## Hash Databases
+### Hash Databases
 
 Can it create hashes of files and/or blocks? Can it compare these hash
 values to any databases? What sort of hash functions does it use?
 
-## Evidence Collection Features
+### Evidence Collection Features
 
 Can it sign files? Does it keep an audit log?
 
-# History
+## History
 
 ## License Notes
 
 Is it proprietary, free, or open source? Are there other licensing
 options?
 
-# External Links
+## External Links
 
-## External Reviews
+### External Reviews

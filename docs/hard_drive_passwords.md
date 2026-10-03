@@ -12,7 +12,7 @@ Sometimes people use the term "password" but the hard drive is really
 to unlock a decryption key. These passwords cannot be removed — the
 encryption key must be cracked or discovered through another means.
 
-# Vendors
+## Vendors
 
 * Disklabs (www.disklabs.com) is able to remove some forms of hard drive
   passwords.
@@ -30,7 +30,7 @@ encryption key must be cracked or discovered through another means.
 * [SalvationDATA](salvationdata.md) sells several products for recovery from
   what they call "Stage 2 physical data damage". See [Data Compass](data_compass.md).
 
-# Master Passwords
+## Master Passwords
 
 *These passwords were received from unofficial sources, they may not
 work!*

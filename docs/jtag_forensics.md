@@ -1,22 +1,20 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-## Definition
+From [Wikipedia](https://en.wikipedia.org/wiki/Joint_Test_Action_Group):
 
-### From Wikipedia ([<https://en.wikipedia.org/wiki/Joint_Test_Action_Group>](https://en.wikipedia.org/wiki/Joint_Test_Action_Group)):
-
-Joint Test Action Group (JTAG) is the common name for what was later
-standardized as the IEEE 1149.1 Standard Test Access Port and
-Boundary-Scan Architecture. It was initially devised for testing printed
-circuit boards using boundary scan and is still widely used for this
-application. Today JTAG is also widely used for IC debug ports. In the
-embedded processor market, essentially all modern processors support
-JTAG when they have enough pins. Embedded systems development relies on
-debuggers talking to chips with JTAG to perform operations like single
-stepping and breakpointing. Digital electronics products such as cell
-phones or a wireless access point generally have no other debug or test
-interfaces.
+> Joint Test Action Group (JTAG) is the common name for what was later
+> standardized as the IEEE 1149.1 Standard Test Access Port and
+> Boundary-Scan Architecture. It was initially devised for testing printed
+> circuit boards using boundary scan and is still widely used for this
+> application. Today JTAG is also widely used for IC debug ports. In the
+> embedded processor market, essentially all modern processors support
+> JTAG when they have enough pins. Embedded systems development relies on
+> debuggers talking to chips with JTAG to perform operations like single
+> stepping and breakpointing. Digital electronics products such as cell
+> phones or a wireless access point generally have no other debug or test
+> interfaces.
 
 ### Forensic Application
 
@@ -31,7 +29,7 @@ other means.
 
 * [JTAG and Chip-Off Tools and Equipment](jtag_and_chip-off_tools_and_equipment.md)
 
-## Procedures
+## See Also
 
 * [JTAG HTC Wildfire S](jtag_htc_wildfire_s.md)
 * [JTAG Huawei TracFone M865C](jtag_huawei_tracfone_m865c.md)
@@ -47,7 +45,7 @@ other means.
 * [JTAG Samsung Galaxy S4 (sgh-i337)](jtag_samsung_galaxy_s4_(sgh-i337).md)
 * [JTAG Samsung Galaxy Ace Q (sgh-i827d)](jtag_samsung_galaxy_ace_q_(sgh-i827d).md)
 
-## References
+## External Links
 
 * [Analyzing Windows Phone 8.1 JTAG and UFED Dumps](https://belkasoft.com/jtag-analysis),
   article by [Belkasoft](belkasoft.md)
