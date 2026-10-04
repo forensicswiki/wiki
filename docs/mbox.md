@@ -104,4 +104,4 @@ Operating System as well i.e. the supported email application(s).
 * [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
 * [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
 * [MBOX Viewer](mbox_viewer.md)
-* [Paraben's Email Examiner](paraben's_email_examiner.md)
+* [Paraben's Email Examiner](paraben_forensics.md)

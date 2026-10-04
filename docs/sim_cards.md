@@ -119,7 +119,7 @@ the information from the SIM card. Several products include:
 
 * Inside Out's [SIMCon](simcon.md)
 * SIM Content Controller
-* Paraben Forensics' [SIM Card Seizure](paraben_sim_card_seizure.md)
+* Paraben Forensics' [SIM Card Seizure](paraben_forensics.md)
 
 The SIM file system is hierarchical in nature consisting of 3 parts:
 

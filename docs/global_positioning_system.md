@@ -155,7 +155,7 @@ forensic investigations.
 
 ## See Also
 
-* [Parabens Device Seizure](paraben_device_seizure.md)
+* [Parabens Device Seizure](paraben_forensics.md)
 
 ## External Links
 

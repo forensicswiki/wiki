@@ -2,7 +2,7 @@
 tags:
   - Mobile
 ---
-**Code division multiple access** (**CDMA**) is a cellular frequency that,
+Code division multiple access (CDMA) is a cellular frequency that,
 originally developed during World War II for military purposes, incorporates
 "spread spectrum" techniques. Unlike other cellular systems like [GSM](gsm.md)
 and [TDMA](tdma.md), every channel on the network uses the full available
@@ -58,16 +58,10 @@ throughout Asia, although are yet to be release in America.
 
 ### Software
 
-Software for acquiring a CDMA-based phone includes:
-
 * [BitPIM](bitpim.md)
 * [DataPilot Secure View](datapilot_secure_view.md)
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
-* [Paraben Cell Seizure](paraben_cell_seizure.md)
-
-Software for acquiring CDMA RUIM data includes:
-
-* [Paraben Device Seizure](paraben_device_seizure.md)
+* [Paraben Cell Seizure](paraben_cell_seizure.md) and Device Seizure
 
 ## External Links
 

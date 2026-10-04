@@ -56,9 +56,9 @@ investigators.
 * [\| Micro Systemation Field Version](https://www.msab.com/)
 * Network Security Solutions Secure Tents and Seizure Bags for Cell Phones/PDAs/Laptops
 * Paraben CSI Stick
-* [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* [Paraben Device Seizure Toolbox](paraben_forensics.md)
 * Paraben Handheld First Responder Kit
-* [Paraben StrongHold Bag](paraben_stronghold_bag.md)
+* [Paraben StrongHold Bag](paraben_forensics.md)
 * [Radio Frequency (RF) Jammers](radio_frequency_(rf)_jammers.md)
 * Radio Tactics Acesso, Apollo and Athena
 
@@ -75,7 +75,7 @@ investigators.
 * MicroSystemation .XRY
 * [MOBILedit!](mobiledit.md)
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
-* [Paraben Device Seizure](paraben_device_seizure.md)
+* [Paraben Device Seizure](paraben_forensics.md)
 * Paraben SIM Seizure
 * Pandora's Box
 * Quantaq USIMdetective, USIMcommander, USIMexplorer, USIMprofiler and USIMregistrar

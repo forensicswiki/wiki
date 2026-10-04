@@ -288,7 +288,7 @@ See: [Forensics Live CDs](live_cd.md)
 
 * [Cellebrite UFED](cellebrite_ufed.md)
 * [.XRY](https://www.msab.com/)
-* [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* [Paraben Device Seizure](paraben_forensics.md) and Device Seizure Toolbox
 * PDD
 
 ### Cell Phone Forensics
@@ -303,7 +303,7 @@ See: [Forensics Live CDs](live_cd.md)
 * LogiCube CellDEK
 * [MOBILedit!](mobiledit.md)
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
-* [Paraben Device Seizure](paraben_device_seizure.md) and [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* [Paraben Device Seizure](paraben_forensics.md) and Device Seizure Toolbox
 * [Serial Port Monitoring](serial_port_monitoring.md)
 TULP2G
 * [.XRY](https://www.msab.com/)
@@ -313,14 +313,13 @@ TULP2G
 [Cellebrite UFED](cellebrite_ufed.md)
 [.XRY](https://www.msab.com/)
 ForensicSIM
-[Paraben SIM Card Seizure](paraben_sim_card_seizure.md)
+[Paraben SIM Card Seizure](paraben_forensics.md)
 
 [SIMCon](simcon.md)
 
 ### Preservation Tools
 
-[Paraben StrongHold Bag](paraben_stronghold_bag.md)
-Paraben StrongHold Tent
+[Paraben](paraben_forensics.md) StrongHold Bag and Tent
 
 ## Other Tools
 
