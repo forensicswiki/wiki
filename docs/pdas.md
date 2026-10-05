@@ -2,7 +2,7 @@
 tags:
   - Mobile
 ---
-**Personal Digital Assistants** (**PDAs**) are handheld devices with features
+Personal Digital Assistants (PDAs) are handheld devices with features
 such as calendar, notes, and so on. They are also known as a palmtop computer.
 They can be used to access the Internet usually through Wi-Fi.
 
@@ -28,8 +28,7 @@ are no published methods for analyzing the resulting data.
 ## Also see
 
 * [Cellebrite UFED](cellebrite_ufed.md)
-* [Paraben Device Seizure](paraben_device_seizure.md)
-* [Paraben Device Seizure Toolbox](paraben_device_seizure_toolbox.md)
+* [Paraben Device Seizure](paraben_forensics.md) and Device Seizure Toolbox
 
 ## External Links
 

@@ -97,7 +97,7 @@ these are simply .zip compressed files containing a standard .ipd file.
 
 ## Acquisition with Paraben Device Seizure
 
-More information on [Paraben Device Seizure](paraben_device_seizure.md)
+More information on [Paraben Device Seizure](paraben_forensics.md)
 
 As an alternative to acquiring the Blackberry through Amber Blackberry
 Converter, Paraben Device Seizure is a simple and effective method to
