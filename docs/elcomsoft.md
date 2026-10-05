@@ -1,17 +1,19 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 Founded in 1990, ElcomSoft Co. Ltd. is a leading developer of digital forensics
-tools.  The company offers state-of-the-art solutions for businesses, forensic
+tools. The company offers state-of-the-art solutions for businesses, forensic
 and law enforcement specialists, provides training and consulting services on
 mobile and computer forensics. ElcomSoft forensic products and tools are used
-for criminal investigations by the law enforcement.  Today, the company offers
+for criminal investigations by the law enforcement. Today, the company offers
 the complete range of [mobile](https://www.elcomsoft.com/emfb.html) and
 [computer forensic tools](https://www.elcomsoft.com/edfb.html), corporate
 security solutions and tools for IT security audits.
 
-##### ElcomSoft Desktop and Mobile Forensic Solutions
+## Products
+
+### ElcomSoft Desktop and Mobile Forensic Solutions
 
 ElcomSoft mobile forensic solutions enable experts to gain access to
 password-protected, locked and encrypted information contained in a
@@ -25,7 +27,7 @@ files in a variety of formats. Finally, its unique desktop forensic
 solution allow investigators accessing information stored in secure
 BitLocker, FileVault 2, PGP Disk and TrueCrypt successors' containers.
 
-##### ElcomSoft Password Recovery Tools
+### ElcomSoft Password Recovery Tools
 
 ElcomSoft is best known for its extensive range of [password recovery
 tools](https://www.elcomsoft.com/edfb.html), allowing government,
@@ -75,14 +77,14 @@ multitudes of file formats, products, and systems, including:
   and many, many more [forensic
   tools](https://www.elcomsoft.com/products.html).
 
-##### Elcomsoft Innovations:
+## Elcomsoft Innovations
 
 ElcomSoft pioneered many password recovery and information security
 technologies and algorithms. Its inventions were recognized by the U.S.
 Copyright Office. The company obtained patents on numerous algorithms
 allowing ElcomSoft’s products to deliver the highest performance.
 
-##### Elcomsoft Patents
+## Elcomsoft Patents
 
 * 7,599,492 - Fast cryptographic key recovery system and method
 * 7,783,046 - Probabilistic cryptographic key identification with
@@ -102,7 +104,7 @@ certifies the skills of security officers and consultants, auditors,
 site administrators, and professionals concerned about information
 security and the integrity of the network infrastructure.
 
-##### Elcomsoft Blog
+## Elcomsoft Blog
 
 Elcomsoft runs its own [blog](https://blog.elcomsoft.com), where the
 company endeavours to highlight the most interesting facts and publish

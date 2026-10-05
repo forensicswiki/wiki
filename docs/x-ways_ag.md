@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 X-Ways AG is a German company that makes software for Computer
 Forensics, Data Recovery, and IT Security. Their most popular product,

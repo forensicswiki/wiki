@@ -157,8 +157,9 @@ See examples below the table.
 | Encryption | Encryption, Network Encryption, Disk Encryption |
 | Tools | Tools |
 | Knowledge | Books, Papers, Reports, Journals, Websites, Blogs, Training |
-| Companies / Government | Organizations |
 | Mobile | Mobile Networks, Mobile, SIM |
+| Software Vendors, Training Vendor | Vendor |
+| Non-vendor companies, Government | Organizations |
 
 ### Tagging Examples
 

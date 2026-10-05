@@ -1,12 +1,10 @@
 ---
 tags:
-  - Commercial Software
-  - Mobile
-  - Organization
+  - Vendor
 ---
-Paraben is a United States company that sells products for analyzing disk
+Paraben is a United States based company that sells products for analyzing disk
 drives and portable devices like [cell phones](cell_phones.md) and
-[PDAs](pdas.md). These products include:
+[PDAs](pdas.md).
 
 ## Products
 

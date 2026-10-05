@@ -1,21 +1,20 @@
 ---
 tags:
-  - Organization
-  - Training
+  - Vendor
 ---
 ## Products
 
 WetStone Technologies sells products and training for computer
-forensics. These products include:
+forensics.
+
+## Products
 
 * [Gargoyle Investigator](gargoyle_investigator.md)
 * [LiveWire Investigator](livewire_investigator.md)
 * [LiveDiscover](livediscover.md)
 * [Stego Suite](stego_suite.md)
 
-## Training
-
-Training courses include:
+## Training courses
 
 * Advanced Steganography Demystifying Steganography Investigation
 * Hacking BootCamp: Exploits and Live Incident Investigation

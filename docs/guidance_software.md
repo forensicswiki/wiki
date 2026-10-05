@@ -1,9 +1,8 @@
 ---
 tags:
-  - Articles that need to be expanded
-  - Organization
+  - Vendor
 ---
-*Guidance Software* is a computer software company specializing in
+Guidance Software is a computer software company specializing in
 digital forensic products. Their [EnCase](encase.md) suite of
 products include:
 
