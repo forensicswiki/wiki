@@ -2,11 +2,7 @@
 tags:
   - Tools
 ---
-This is an **overview of available tools** for forensic
-[investigators](investigator.md). Please click on the name of
-any tool for more details.
-
-**Note: This page has gotten too big and is being broken up. See:**
+This page has gotten too big and is being broken up. Also see:
 
 * [Disk Imaging](disk_imaging.md)
 * [Data Recovery](tools_data_recovery.md)
