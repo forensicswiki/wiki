@@ -1,8 +1,6 @@
 ---
 tags:
-  - Articles that need to be expanded
+  - Redirect
 ---
 
-## Also see:
-
-* [pySIM](pysim.md)
+_See: [pySIM](pysim.md)_
