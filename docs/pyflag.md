@@ -1,18 +1,16 @@
 ---
 tags:
-  - Deprecated
+  - Discontinued
   - Disk Analysis
   - Linux
   - MacOS
   - Tools
   - Windows
 ---
-**PyFlag** is a web-based, database-backed *forensic and log analysis
-GUI* and [Computer forensics
-framework](computer_forensics_framework.md) written in
-[Python](python.md). PyFlag stores disk images in numerous file
-formats, including raw, [sgzip](sgzip.md),
-[AFF](aff.md), and [EnCase](encase.md) format.
+PyFlag is a web-based, database-backed *forensic and log analysis GUI* and
+[Computer forensics framework](computer_forensics_framework.md) written in
+[Python](python.md). PyFlag stores disk images in numerous file formats,
+including raw, [sgzip](sgzip.md), [AFF](aff.md), and [EnCase](encase.md) format.
 
 ## Features
 
@@ -53,6 +51,6 @@ Can it build timelines and search by creation date?
 
 ## External Links
 
-* [Github: Pyflags](https://github.com/py4n6/pyflag)
-* <https://code.google.com/archive/p/pyflag>
-* <https://sourceforge.net/projects/pyflag/>
+* [Github: Pyflag](https://github.com/py4n6/pyflag)
+* [Google code: Pyflag](https://code.google.com/archive/p/pyflag)
+* [Sourceforge: Pyflag](https://sourceforge.net/projects/pyflag/)

@@ -1,7 +1,7 @@
 ---
 tags:
-  - Abandoned
-  - Tools
+  - Commercial Software
+  - Discontinued
 ---
 SIMIS is a range of products developed for forensic examination of GSM
 SIM Cards.

@@ -1,12 +1,11 @@
 ---
 tags:
-  - Abandoned
+  - Discontinued
   - Disk Imaging
   - Linux
   - Tools
 ---
-**aimage** (the **advanced imager**) was an imaging tool that was part of
-[AFF](aff.md).
+aimage (the advanced imager) is an imaging tool part of [AFF](aff.md).
 
 **aimage** can create files in raw, AFF, AFD, or AFM formats. AFF and AFD
 formats can be compressed or uncompressed. [aimage](aimage.md) can optionally

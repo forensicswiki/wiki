@@ -160,6 +160,7 @@ See examples below the table.
 | Mobile | Mobile Networks, Mobile, SIM |
 | Software Vendors, Training Vendor | Vendor |
 | Non-vendor companies, Government | Organizations |
+| Abandoned, deprecated or discontinued tools | Discontinued |
 
 ### Tagging Examples
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Deprecated
+  - Discontinued
   - Disk Analysis
   - Linux
   - MacOS

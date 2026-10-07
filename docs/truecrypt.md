@@ -1,5 +1,6 @@
 ---
 tags:
+  - Discontinued
   - Anti-Forensics
   - Disk Encryption
   - Encryption
@@ -8,19 +9,18 @@ tags:
   - Open Source Software
   - Windows
 ---
-**TrueCrypt** is an open source program to create and mount virtual
+As of May 28, 2014 development of TrueCrypt has been discontinued.
+the two major alternatives are VeraCrypt and CipherShed.
+
+TrueCrypt is an open source program to create and mount virtual
 encrypted disks in [Windows Vista/XP/2000](windows.md) and
 [Linux](linux.md) and [OS X](mac_os_x.md) as well as
-[Full Disk Encryption](full_disk_encryption.md) on Windows. It
-provides two levels of plausible deniability (hidden values / no
+[Full Disk Encryption](full_disk_encryption.md) on Windows.
+
+It provides two levels of plausible deniability (hidden values / no
 signatures to make a distinction from random data), on the fly
 encryption and supports [AES](aes.md),
-[Serpent](serpent.md) and [Twofish](twofish.md). As of
-version 6.0 TrueCrypt now supports hidden Operating Systems under
-Windows only.
-
-As of May 28, 2014 development to the software has been discontinued.
-the two major alternatives are VeraCrypt and CipherShed.
+[Serpent](serpent.md) and [Twofish](twofish.md).
 
 ## Detection
 
@@ -82,9 +82,13 @@ Investigator can also detect boot times by searching network dumps for
 IP packets with low IDs (only if [Windows](windows.md) system is
 permanently connected to a LAN) and [TCP timestamps](tcp_timestamps.md).
 
+## History
+
+As of version 6.0 TrueCrypt now supports hidden Operating Systems under
+Windows only.
+
 ## External Links
 
 * [Official website](https://truecrypt.sourceforge.net/)
-* [Version history](https://truecrypt.sourceforge.net/)
-* [Identifying TrueCrypt Volumes For Fun (and Profit?)](https://www.brimorlabsblog.com/2014/01/identifying-truecrypt-volumes-for-fun.html),
-  by Brian Moran, January 20, 2014
+* Identifying TrueCrypt Volumes For Fun (and Profit?), by Brian Moran,
+  January 20, 2014

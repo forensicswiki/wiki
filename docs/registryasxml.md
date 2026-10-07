@@ -1,7 +1,7 @@
 ---
 tags:
-  - Abandoned
   - Analysis
+  - Discontinued
   - Tools
 ---
 Registryasxml is a GUI tool by Stephane Rodriguez that exports and
@@ -35,6 +35,10 @@ looks like this:
   </k>
  </registry>
 ```
+
+## Forensic Issues
+
+Windows Registry files can contain character values not supported by strict XML.
 
 ## See Also
 

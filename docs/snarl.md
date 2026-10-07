@@ -1,14 +1,14 @@
 ---
 tags:
-  - Deprecated
+  - Discontinued
   - Disk Analysis
   - FreeBSD
   - Live CD
   - Open Source Software
   - Tools
 ---
-A [FreeBSD](freebsd.md) based [Live CD](live_cd.md) that
-includes Autopsy and Sleuth Kit.
+A [FreeBSD](freebsd.md) based [Live CD](live_cd.md) that includes Autopsy and
+Sleuth Kit.
 
 ## External Links
 
