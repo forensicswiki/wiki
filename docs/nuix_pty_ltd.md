@@ -1,9 +1,10 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
-Nuix Pty Ltd is a computer software company. Their suite of products
-include:
+Nuix Pty Ltd is a computer software company.
+
+## Products
 
 * [Nuix Desktop](nuix_desktop.md) - the main processing and
   analysis product.

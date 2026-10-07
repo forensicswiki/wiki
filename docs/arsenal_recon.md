@@ -1,16 +1,14 @@
 ---
 tags:
-  - Software Vendors
+  - Vendor
 ---
-**About Arsenal Recon**
-
 Arsenal Recon grew out of a need to dig deeper into electronic evidence
 than current solutions permitted. Led by the computer forensic experts
 at Arsenal Consulting and world-class developers, Arsenal Recon develops
 ground-breaking software tools which enable investigators to extract
 information from their evidence that other tools simply cannot.
 
-## Software Products
+## Products
 
 ### Arsenal Image Mounter
 

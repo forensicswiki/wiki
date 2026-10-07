@@ -1,9 +1,7 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
-### About
-
 Founded in 2000, Oxygen Software is the worldwide leading maker of the advanced
 forensic data examination tools for smartphones and other mobile devices. The
 company is dedicated to delivering the most universal forensic solution
@@ -22,7 +20,7 @@ Forensic Suite receives great response at forensic conferences, exhibitions and
 trainings, and occupies a spot on the top of the list in relevant tests for
 extracting more data than competitors.
 
-### See Also
+### Products
 
 * [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 
