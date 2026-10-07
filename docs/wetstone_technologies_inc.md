@@ -9,10 +9,104 @@ forensics.
 
 ## Products
 
-* [Gargoyle Investigator](gargoyle_investigator.md)
 * [LiveWire Investigator](livewire_investigator.md)
-* [LiveDiscover](livediscover.md)
-* [Stego Suite](stego_suite.md)
+
+### Gargoyle Investigator™ Forensic Pro Edition
+
+Gargoyle Investigator Forensic Pro Edition is our most advanced malware
+detection software package for rapid in depth forensic investigations.
+It is designed for forensic laboratories, law enforcement, field
+investigators and advanced private investigators. Gargoyle performs a
+quick search for malicious software programs and provides significant
+clues regarding activities, motives and the intent of the suspect or
+potential suspects. Gargoyle goes beyond the standard virus protection
+software with our extensive collection of "hostile" programs that
+typical virus protection software cannot detect. This tool was developed
+to shorten investigation time and provide accurate and detailed forensic
+evidence reports to assist investigators in the malware investigation
+process.
+
+#### Key Features
+
+Ability to conduct scans on a stand-alone system or network resource,20
+datasets containing thousands of types of malicious software, Dataset
+Creator™ - ability to create or extend datasets, Interoperable with
+popular forensic tools such as EnCase™ and FTK™, 32-Bit and 64-Bit drive
+mounting and management integration, Detailed forensic evidence reports
+with secure source timestamping
+
+#### System Recommendations
+
+Microsoft Windows® 2000, XP, Vista, 130 MB free disk space, 256 MB RAM,
+Pentium® III 1GHz processor
+
+#### License
+
+Single user license, To Simultaneously scan suspects up to 100 systems
+please view Gargoyle Investigator™ Enterprise Module.
+
+### LiveDiscover™ Forensic Edition
+
+LiveDiscover Forensic Edition (FE) is the premier tool for rapid full
+distributed network assessment and mapping, which is a critical first
+step in any digital investigation. Designed for forensic investigators,
+LiveDiscover FE rapidly scans a range of IP addresses and generates
+comprehensive forensic reports including easy to view graphs on each
+located device within the specified network. With the case management
+features, investigators can tailor reports and case details,making
+evidence court ready. Built-in customization allows for the creation of
+modified vulnerability scripts making LiveDiscover FE field extensible.
+
+#### Key Features
+
+Live forensic network discovery, Live forensic vulnerability assessment,
+Automatically identify operating systems including Windows, Unix, Linux,
+Mac, VMS, Novell, and Sunsystems, Remote detection of system status
+including running services, attached devices, and open shares,
+Forensically map communication devices, printers and more, Forensic
+detailed report generation
+
+#### System Recommendations
+
+Microsoft Windows® 2000, XP, Vista, 20 MB free disk space, 256 MB RAM,
+Pentium® III 1GHz processor
+
+#### License
+
+Single user license, Site licenses are available upon request
+
+### Stego Suite™
+
+Stego Suite is comprised of four specialized products: Stego Hunter™,
+Stego Watch™, Stego Analyst™, and Stego Break™. This comprehensive suite
+of applications is designed to quickly identify, examine and analyze
+digital images and/or audio files for the presence of hidden information
+or covert communication channels. Detecting the presence of
+steganography is a tedious process; without advanced tools it is close
+to impossible to detect. Using Stego Suite investigators are able to
+utilize the latest algorithms for flagging suspicious files through a
+blind anomaly-based approach, examine files with image filters, analyze
+DCT coefficient histograms, and track palette manipulation with close
+color pairs, shortening investigation time drastically and allowing
+investigators to work specifically within the four tools provided in the
+suite.
+
+#### Key Features
+
+Rapid identification of known steganography programs, Flag suspicious
+files through blind anomaly-based approach, State-of-the-art image and
+audio analyzer, Crack and extract payloads from carrier, Court ready
+investigator reports, Scan audio files, JPG, BMP, GIF, PNG and more
+
+#### System Recommendations
+
+Microsoft Windows® 98 or higher, 100 MB free disk space, 512 MB RAM,
+Pentium® III 1GHz processor
+
+#### License
+
+Single user license allows for installation of entire suite, Site
+licenses are available upon request
 
 ## Training courses
 

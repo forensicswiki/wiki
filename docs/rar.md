@@ -3,7 +3,7 @@ tags:
   - Archive
   - File Formats
 ---
-RAR Archives (**R**oshal **AR**chive file format) are a proprietary
+RAR Archives (Roshal ARchive file format) are a proprietary
 format for storing information created by Eugene Roshal. The format is
 currently handled by Alexander Roshal, Eugene's brother.
 
@@ -17,13 +17,10 @@ The file has the magic number of:
 
 Which is a break down of the following to describe an Archive Header:
 
-:\* 0x6152 - HEAD_CRC
-
-:\* 0x72 - HEAD_TYPE
-
-:\* 0x1A21 - HEAD_FLAGS
-
-:\* 0x0007 - HEAD_SIZE
+* 0x6152 - HEAD_CRC
+* 0x72 - HEAD_TYPE
+* 0x1A21 - HEAD_FLAGS
+* 0x0007 - HEAD_SIZE
 
 Older versions of the RAR file format have a magic number of :
 
@@ -33,19 +30,17 @@ Older versions of the RAR file format have a magic number of :
 
 This format will not be discussed as documentation cannot be found.
 
-------------------------------------------------------------------------
-
 ### RAR File Format
 
 Each Block has the following fields:
 
-| Name       | Size (bytes) | Description                       |
-|------------|--------------|-----------------------------------|
-| HEAD_CRC   | 2            | CRC of total block or block part  |
-| HEAD_TYPE  | 1            | Block type                        |
-| HEAD_FLAGS | 2            | Block flags                       |
-| HEAD_SIZE  | 2            | Block size                        |
-| ADD_SIZE   | 4            | Optional field - added block size |
+| Name | Size (bytes) | Description |
+| --- | --- | --- |
+| HEAD_CRC | 2 | CRC of total block or block part |
+| HEAD_TYPE | 1 | Block type |
+| HEAD_FLAGS | 2 | Block flags |
+| HEAD_SIZE | 2 | Block size |
+| ADD_SIZE | 4 | Optional field - added block size |
 
 Block Fields
 
@@ -62,8 +57,6 @@ In each block the followings bits in HEAD_FLAGS have the same meaning:
   new archive file when the archive is updated;
 * 0x8000 - if set, ADD_SIZE field is present and the full block size is
   HEAD_SIZE+ADD_SIZE.
-
-------------------------------------------------------------------------
 
 There are certain block types:
 
@@ -82,14 +75,10 @@ There are certain block types:
 
 Block Types
 
-------------------------------------------------------------------------
-
 ### Block Formats
 
 There are several block formats that are contained within a RAR file.
 They are Marker Block, Archive Header, and File Header.
-
-------------------------------------------------------------------------
 
 #### Marker Block (MARK_HEAD)
 
@@ -103,10 +92,7 @@ They are Marker Block, Archive Header, and File Header.
 MARK_HEAD
 
 * Note: the marker block is considered a fixed byte sequence (AKA, magic
-  number) of: 0x52 0x61 0x72 0x21 0x1A 0x07 0x00 (which is seen as 'Rar!
-  ').
-
-------------------------------------------------------------------------
+  number) of: 0x52 0x61 0x72 0x21 0x1A 0x07 0x00 (which is seen as "Rar!\x1a\x07\x00").
 
 #### Archive Header (MAIN_HEAD)
 
@@ -136,8 +122,6 @@ MAIN_HEAD
 Bit Flags for MAIN_HEAD
 
 * Other bits in HEAD_FLAGS are reserved for internal use.
-
-------------------------------------------------------------------------
 
 #### File Header (File in Archive)
 
@@ -218,8 +202,6 @@ Operating System Indicators
 
 Packing Method
 
-------------------------------------------------------------------------
-
 #### Terminator (terminator)
 
 There is often a terminating block present.
@@ -240,45 +222,28 @@ although, as always, file fragmentation should be considered.
 0x C4 3D 7B 00 40 07 00
 ```
 
-------------------------------------------------------------------------
-
-## Metadata
-
 ## Sub-formats
 
 The RAR format is comprised of many sub-formats that have changed over
 the years. The different formats and their descriptions are as follows:
 
-:\* 1.3 (Does not have the RAR! signature)
-
-:\*\* There is difficulty finding information regarding this sub-format.
-Please update if you know something.
-
-:\* 1.5
-
-:\*\* Utilizes a proprietary compression method that is not available to
-the public.
-
-:\*\* Considered the root model of subsequent formats.
-
-:\* 2.0
-
-:\*\* Utilizes a proprietary compression method that is not available to
-the public.
-
-:\*\* Based off of version 1.5 of the RAR file format.
-
-:\* 3.0
-
-:\*\* Utilizes the
-[PPMII](https://en.wikipedia.org/wiki/Prediction_by_Partial_Matching) and
-[Lempel-Ziv (LZSS)](https://en.wikipedia.org/wiki/LZ77_and_LZ78)\]
-algorithms.
-
-:\*\* Encryption now uses cipher block chaining (CBC) instead of
-Advanced Encryption Standard (AES).
-
-:\*\* Based off of version 1.5 of the RAR file format.
+* 1.3 (Does not have the RAR! signature)
+  * There is difficulty finding information regarding this sub-format.
+    Please update if you know something.
+* 1.5
+  * Utilizes a proprietary compression method that is not available to
+    the public.
+  * Considered the root model of subsequent formats.
+* 2.0
+  * Utilizes a proprietary compression method that is not available to
+    the public.
+  * Based off of version 1.5 of the RAR file format.
+* 3.0
+  * Utilizes the [PPMII](https://en.wikipedia.org/wiki/Prediction_by_Partial_Matching)
+    and [Lempel-Ziv (LZSS)](https://en.wikipedia.org/wiki/LZ77_and_LZ78) algorithms.
+  * Encryption now uses cipher block chaining (CBC) instead of Advanced
+    Encryption Standard (AES).
+  * Based off of version 1.5 of the RAR file format.
 
 ## Software
 
@@ -289,57 +254,42 @@ Some of them are:
 
 unrarLib
 
-:\* RAR file unarchiver written in C
-
-:\* Easy implementation with a header file and the source code file
-
-:\* Only works with RAR files up to version 2.0
-
-:\* [Information Link](https://www.unrarlib.org/)
+* RAR file unarchiver written in C
+* Easy implementation with a header file and the source code file
+* Only works with RAR files up to version 2.0
+* [Information Link](https://www.unrarlib.org/)
 
 WinRAR
 
-:\* Only software that can create and open a RAR file
-
-:\* Distributed by a proprietary license
-
-:\* Works with all versions of RAR files
-
-:\* [WinRAR executable for Windows](https://www.rarlab.com/download.htm)
+* Only software that can create and open a RAR file
+* Distributed by a proprietary license
+* Works with all versions of RAR files
+* [WinRAR executable for Windows](https://www.rarlab.com/download.htm)
 
 UnRAR
 
-:\* Created by Eugene Roshal for opening up RAR files only
-
-:\* May not be used to reverse engineer the RAR file format and create
-RAR files
-
-:\* Source code provided for people to implement/integrate methods of
-opening RAR files
-
-:\* Additionally, implementations of UnRAR are available for a plethora
-of operating systems
-
-:\* [Download Link](https://www.rarlab.com/rar_add.htm)
+* Created by Eugene Roshal for opening up RAR files only
+* May not be used to reverse engineer the RAR file format and create
+  RAR files
+* Source code provided for people to implement/integrate methods of
+  opening RAR files
+* Additionally, implementations of UnRAR are available for a plethora
+  of operating systems
+* [Download Link](https://www.rarlab.com/rar_add.htm)
 
 The Unarchiver
 
-:\* Utility made for Mac OSX to open a multitude of files, including RAR
+* Utility made for Mac OSX to open a multitude of files, including RAR
 files
-
-:\* Very handy for dealing with multiple file types
-
-:\* [Source Code
-Download](https://code.google.com/archive/p/theunarchiver/downloads)
-
-:\* [Information Website](https://theunarchiver.com/)
+* Very handy for dealing with multiple file types
+* [Source Code Download](https://code.google.com/archive/p/theunarchiver/downloads)
+* [Information Website](https://theunarchiver.com/)
 
 7-Zip
 
-:\* Utility made for Windows applications to open a multitude of files,
-including RAR files
-
-:\* [Download Link](https://7-zip.org/download.html)
+* Utility made for Windows applications to open a multitude of files,
+  including RAR files
+* [Download Link](https://7-zip.org/download.html)
 
 There is a lot more software to open RAR files, but have been omitted
 due to redundancy.
