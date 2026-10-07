@@ -86,7 +86,6 @@ For example, the [Full Disk Encryption](full_disk_encryption.md) article has thr
 </table>
 </body>
 
-
 ## Articles that need to be expanded
 
 There are a number of [articles](tags/#articles-that-need-to-be-expanded) that could use some love. If you want to help out, please read about [contributing](community.md).

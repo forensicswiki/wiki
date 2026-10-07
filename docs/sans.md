@@ -45,4 +45,3 @@ acting as an important extension of SANS' conference staff, facilitators
 may attend classes at a greatly reduced rate. Facilitators are most
 definitely expected to pull their weight and the educational rewards for
 their doing so are substantial.
-

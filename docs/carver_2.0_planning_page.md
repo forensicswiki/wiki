@@ -47,10 +47,8 @@ Simsong
 
 Linux/FreeBSD/MacOS
 
-
 Shouldn't this just match what the underlying afflib & sleuthkit cover?
 RB
-
 
 Yes, but you need to test and validate on each. Question: Do we want toCARBON
 2008 (UTC)
@@ -58,8 +56,6 @@ Yes, but you need to test and validate on each. Question: Do we want toCARBON
 Joachim I think we would do wise to
 design with windows support from the start this will improve the
 platform independence from the start
-
-
 
 Agreed; I would even settle at first for being able to run against
 Cygwin. Note that I don't even own or use a copy of Windows, but the
@@ -72,13 +68,9 @@ requirements for windows would not be essential. Being able to run from
 a virtual machine with the main storage mounted over cifs should however
 be tested and if possible tuned extensively.
 
-
-
 Joachim You'll need more than autotools
 to do native Windows support i.e. file access, UTF-16 support, wrap someCARBON
 basic system functions or have them available otherwise
-
-
 
 Rob J Meijer That´s exactly my point,
 windows support as in being able to build and run on windows natively is
@@ -91,8 +83,6 @@ systems than on supporting building and running on non POSIX systems.
 
 * Joachim A name for the tooling I
   propose coldcut
-
-
 
 How about 'butcher'? ;) RB 14:20, 31 October 2008
 (UTC)
@@ -110,21 +100,15 @@ of these.
   (Joachim I would like to have
   raw/split raw and device access as well)
 
-
-
 If we base our image i/o on afflib, we get all three with one interface.
 RB Instead of letting the tools use afflib, better
 to write an afflib module for carvfs, and update the libewf module. The
 tool could than be oblivious of the file format. Rob J Meijer
 
-
-
 Simsong 06:29, 3 November 2008 (UTC) The
 problem with using carvfs is that this adds another dependency. Do you
 really want to require that people install carvfs in order to run the
 carver? What about having the thing ported to Windows?
-
-
 
 Rob J Meijer I would support adding one
 build dependency (libcarvpath) and removing two (libewf/libaff) by
@@ -175,11 +159,9 @@ libcarvpath, only that usage without carvfs should limit the
 supported image formats to raw images, and that libewf/libaff should be
 abstracted at the Fuse level or below and not at the tool level.
 
-
 Joachim do you have an idea what the
 performance impact of this approach would be? It might be wise to do a
 proof of concept for this approach first.
-
 
 Rob J Meijer It would I think depend greatly on behavior of
 the carving lib/tool. Small 512 byte reads are relatively very expensive, 128kb
@@ -221,21 +203,15 @@ facilities
 
 * IO support (AFF, device, EWF, RAW and split RAW)
 
-
-
 Abstraction of input format and multi threaded decompression (spin-off
 code out of afflib?)
 
 * Volume/Partitions support
 
-
-
 at least for DOS based layout and GPT (spin-off code out of
 TSK/Photorec?)
 
 * File system support
-
-
 
 VFAT/NTFS (spin-off code out of TSK/Photorec?)
 
@@ -259,15 +235,11 @@ Output facilities
 
 Ship with validators for
 
-
-
 Joachim I think we should distinguish
 between file format validators and content validators
 
 * Graphical Images
   * JPEG (the 3 different types with JFIF/EXIF support)
-
-
 
 Joachim How different is JPEG 2000?
 
@@ -284,8 +256,6 @@ Joachim How different is JPEG 2000?
   * [PDF](pdf.md)
   * Open Office and Microsoft Office 2007 [ZIP
     archive](zip.md) based file formats
-
-
 
 Extension validation? AFAIK, MS Office 2007 [Word Document
 (docx)](word_document_(docx).md) format uses plain ZIP (or
@@ -344,13 +314,9 @@ section be merged with the carving algorithm section?
   filenames should contain the offset in the input data (in
   hexadecimal?)
 
-
-
 Mark Stam: I really like the fact carved files
 are named after the physical or logical sector in which the file is
 found (photorec)
-
-
 
 Joachim This naming schema might cause
 duplicate name problem for extracting embedded files and extracting
@@ -363,8 +329,6 @@ files from non sector aligned file systems.
 * Mark Stam: I personally use photorec often for
   carving files in the whole volume (not only unallocated clusters), so
   I can store information about all potential interesting files in MySQL
-
-
 
 Joachim interesting, Bas Kloet and me
 have been discussing to use information about allocated files in the
@@ -410,18 +374,13 @@ file from the fragments and the allocated files.
   debugging the algorithm/validation
 * Easy integration into ascription software.
 
-
-
 Joachim I'm no native speaker what do
 you mean with "ascription software"?
-
 
 I think this was another non-native requesting easy scriptability.
 RB 14:20, 31 October 2008 (UTC)
 
-
 Joachim that makes sense ;-)
-
 
 Incorrect. Ascription software is software that determines who the owner
 of a file is. Simsong 06:36, 3 November 2008
@@ -432,14 +391,10 @@ of a file is. Simsong 06:36, 3 November 2008
 * Use as much TSK if possible. Don't carry your own FS implementation
   the way photorec does.
 
-
-
 Joachim using TSK as much as possible
 would not allow to add your own file system support (i.e. mobile phones,
 memory structures, cap files) I would propose wrapping TSK and using it
 as much as possible but allow to integrate own FS implementations.
-
-
 
 Rob J Meijer I'm currently working on
 wrapping TSK filesystem as several loadable modules for OCFA. In OCFA a
@@ -480,14 +435,11 @@ not just another file structure
     later or external "recursion". Should go without saying for a
     carver, but...
 
-
 --RB 18:45, 2 November 2008 (UTC)
-
 
 Simsong 06:30, 3 November 2008 (UTC) pyflag
 already does recursive carving. Are we just going to reimplement pyflag
 as a single executable?
-
 
 Joachim that could be useful ;-)
 
@@ -497,8 +449,6 @@ Rob J Meijer :
 
 * Use libcarvpath whenever possible and by default to avoid high storage
   requirements.
-
-
 
 Joachim For easy deployment I would not
 opt for making an integral part of the tool solely dependant on a single
@@ -516,7 +466,6 @@ do is to have a large set of dependencies and making the tool difficult
 to install for most users. The tool package should contain the most
 necessary code. afflib/libewf support could be detected by the autotools
 a neat separation of functionality.
-
 
 From a packager's standpoint, Joachim's
 other libraries do a really good job of this, carrying around what they
@@ -542,16 +491,12 @@ RB
   files. Identifying doubly allocated space might in some cases also be
   relevant.
 
-
-
 Joachim What your saying is that dealing
 with file system fragments should be part of the carving algorithm
 
 * Allow use where filesystem based carving is done by other tool, and
   the tool is used as second stage on (sets of) unallocated block
   (pseudo) files and/or non FS partition (pseudo) files.
-
-
 
 Joachim I would not opt for this. The
 tool would be dependent on other tools and their data format, which
@@ -575,8 +520,6 @@ ourselves making translators due to the design of these non-open tools.
   carving modules. This would be extremely useful for integrating the
   project into a [computer forensics
   framework](computer_forensics_framework.md) .
-
-
 
 Joachim I guess most of the code could
 be integrated into libraries, but I would not opt integrating tool
@@ -603,12 +546,8 @@ functionality into a library
   can in some way introduce POLA to a wider forensics public, other
   tools might also pick up on it what would be great.
 
-
-
 Joachim Could you give an example of how
 you see this in action?
-
-
 
 Rob J Meijer I see two layers where using
 POLA could be applied. The best one would require one of the following as
@@ -686,14 +625,10 @@ instead of using terminology like WORD and small integer, it's much more
 clear. The configuration also needs to deal with aspects like
 cardinality, required and optional structures.
 
-
-
 This is simply data structures carving, see ideas above. Somebody (I
 cannot track so many changes per day) separated the original text. There
 is no need to count and join different structures.
 .FUF
-
-
 
 Joachim This was probably me is the text
 back in it's original form?
@@ -719,20 +654,14 @@ Joachim
 
 * should we allow for multiple carving phases (runs/stages)?
 
-
-
 I opt yes (separation of concern)
 
 * should we allow for multiple carving algorithms?
-
-
 
 I opt yes, this allows testing of different approaches
 
 * Should the algorithm try to do as much in 1 run over the input data?
   To reduce IO?
-
-
 
 I opt that the tool should allow for multiple and single run over the
 input data to minimize the IO or the CPU as bottleneck
@@ -756,8 +685,6 @@ input data to minimize the IO or the CPU as bottleneck
   * Can we abstract them and compare them against available file system
     information?
 * Do we carve file systems in files?
-
-
 
 I opt that at least the validator uses this information
 
@@ -784,8 +711,6 @@ Advantages of being FS aware:
 
 * You can pick up sector allocation sizes
 
-
-
 Joachim do you mean file system block
 sizes?
 
@@ -793,14 +718,10 @@ sizes?
   with tail packing)
 * Increasingly file systems have compression (NTFS compression)
 
-
-
 Joachim Carving NTFS-compressed (lznt1)
 files: https://github.com/libyal/documentation/blob/main/Carving%20for%20NTFS%20compressed%20files.pdf
 
 * Carve just the sectors that are not in allocated files.
-
-
 
 Joachim sparse (file system) blocks e.g.
 NTFS cluster blocks
@@ -808,8 +729,6 @@ NTFS cluster blocks
 ### Tasks that would be required
 
 ### Discussion
-
-
 
 As noted above, TSK should be utilized as much as possible, particularly
 the filesystem-aware portion. If we want to identify filesystems outside
@@ -977,7 +896,6 @@ POLA
 Joachim Shouldn't multi threaded carving
 (MTC) not be part of the 1st version? The MT approach makes for
 different design decisions
-
 
 It is virtually impossible to turn a non-MT application into an MT
 application .Simsong 06:37, 3 November 2008

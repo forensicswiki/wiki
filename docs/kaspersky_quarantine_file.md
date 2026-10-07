@@ -67,4 +67,3 @@ print(datetime.datetime(1, 1, 1) + datetime.timedelta(microseconds=0x582db22720f
 
 * [Kaspersky Anti-Virus](kaspersky_anti-virus.md)
 * [Kaspersky Report File](kaspersky_report_file.md)
-

@@ -15,4 +15,3 @@ popular and modern system.
 
 * [Official website](https://www.freebsd.org/)
 * [Wikipedia: FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
-

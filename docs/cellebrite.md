@@ -36,4 +36,3 @@ Japanese company (6736/JQ).
 * Standalone kit - portable and easy to use
 
 [1](https://cellebrite.com/en/home/)
-

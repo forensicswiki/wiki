@@ -206,7 +206,6 @@ used:
 * vim-cmd vmsvc/snapshot.create vmid \[snapshotName\]
   \[snapshotDescription\] \[includeMemory (thus 1)\] \[quiesced\]
 
-
 the .vmsn file can be copied from the ESXi using e.g. scp
 
 volatility can be used to convert the memdump into a raw dump. In my

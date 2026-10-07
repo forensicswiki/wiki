@@ -9,4 +9,3 @@ ARFF is the Attribute-Relation File Format
 
 * <https://www.cs.waikato.ac.nz/~ml/weka/arff.html>
 * [ARFF to SQL Database importer](https://code.activestate.com/recipes/440533/)
-

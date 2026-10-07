@@ -134,7 +134,6 @@ performed over a SIM/ME interface.
 </tr>
 </table>
 
-
 Warning: After 3 failed attempts at entering a CHV1 or CHV2 all access
 privileges granted to those numbers are lost immediately
 

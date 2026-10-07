@@ -108,7 +108,6 @@ Red --\> CLK
 Yellow --\> TDO
 Brown --\> GND
 
-
 `* Using 0.040 gauge wire, solder the taps.  Note: The yellow and red taps connect to the same test point.  I recommend soldering a single wire to the tap and breaking it out to separate wires for the red and yellow connections.  These wires are then connected to a ATF 4-in-1 adapter.`
 
  <img src="../assets/images/Lumia-630-ATF-Soldered.jpg" title="Lumia-630-ATF-Soldered.jpg"

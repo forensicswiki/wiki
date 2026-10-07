@@ -20,4 +20,3 @@ security.
 # External Links
 
 [Gibson Research Corporation](https://www.grc.com/intro.htm)
-

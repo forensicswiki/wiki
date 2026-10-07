@@ -418,7 +418,6 @@ partition on an Intel based system:
 title="superblock_example" width="550"
 alt="superblock_example" />
 
-
 Block count: 65638
 Free blocks: 6291
 Root block: 16514

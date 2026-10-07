@@ -21,4 +21,3 @@ made like the CDTEXT and IsoBuster extensions.
 
 * [Wikipedia on CUE sheet](https://en.wikipedia.org/wiki/Cue_sheet_%28computing%29)
 * [CUE sheet format](https://code.google.com/archive/p/libodraw/downloads)
-

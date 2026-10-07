@@ -115,7 +115,6 @@ Phone***?
 If you have trouble communicating to the phone, please review the
 following steps:
 
-
 1. Select ‘Options’ from the Main Menu screen.
 
 2. The ‘communication settings’ window will display the selected cable

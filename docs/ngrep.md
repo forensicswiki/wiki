@@ -14,11 +14,9 @@ Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces.
 
 Example 1: dump all common HTTP requests on a live network (eth0):
 
-
 ngrep -qd eth0 '^(GET\|POST\|HEAD\|CONNECT)' 'tcp'
 
 Example 2: the same, but from a network dump (out.pcap):
-
 
 ngrep -qI out.pcap '^(GET\|POST\|HEAD\|CONNECT)' 'tcp'
 

@@ -22,4 +22,3 @@ Microsoft Windows Operating System.
 ## External Links
 
 [Official Website](https://www.systoolsgroup.com/)
-

@@ -65,4 +65,3 @@ and has additional features such as:
 * Geo IP localization
 * Host coloring support
 * Command line scripting support
-

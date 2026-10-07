@@ -133,7 +133,6 @@ is.
 
 ### FAT Entry Values
 
-
 FAT12
 
 0x000 (Free Cluster)
