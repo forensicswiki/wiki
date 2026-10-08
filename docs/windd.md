@@ -1,14 +1,14 @@
 ---
 tags:
-  - Deprecated
   - Disk Imaging
+  - Discontinued
   - Memory Imaging
   - Open Source Software
   - Tools
   - Windows
 ---
-**WinDD** is actually a set of Windows physical memory dumpers for both 32-bit
-and 64-bit [Windows](windows.md).
+WinDD is a set of Windows physical memory acquisition tools (or dumpers) for
+both 32-bit and 64-bit [Windows](windows.md).
 
 WinDD was deprecated in favor of MoonSols Windows Memory Toolkit.
 

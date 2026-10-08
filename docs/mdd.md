@@ -1,24 +1,24 @@
 ---
 tags:
-  - Deprecated
+  - Discontinued
   - Memory Imaging
   - Open Source Software
   - Tools
   - Windows
 ---
-**mdd**, also known as **[ManTech dd](mantech.md)** or **Memory
-dd**, is a command line program to acquire an image of the memory of a
-running [Windows](windows.md) computer. The program has been
-included in the [Helix](helix3.md) incident response tool.
+mdd, also known as [ManTech dd](mantech.md) or Memory dd, is a command line
+program to acquire an image of the memory of a running [Windows](windows.md)
+computer. The program has been included in the [Helix](helix3.md) incident
+response tool.
 
 ## Status
 
-The current version of mdd (mdd_1.3.exe) runs on Window XP to SP3 and
-Vista to SP 2, and may run on other versions.
+The current version of mdd (mdd_1.3.exe) runs on Window XP to SP3 and Vista to
+SP 2, and may run on other versions.
 
-The driver uses the [Physical Memory Object Memory Imaging
-Method](memory_imaging.md) and returns a file handle to a
-user-mode program via an IOCTL on the device file named:
+The driver uses the
+[Physical Memory Object Memory Imaging Method](memory_imaging.md) and returns a
+file handle to a user-mode program via an IOCTL on the device file named:
 
 ```text
 \\.\memdd

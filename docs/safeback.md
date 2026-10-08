@@ -1,9 +1,9 @@
 ---
 tags:
-  - Abandoned
   - Commercial Software
+  - Discontinued
 ---
-**Safeback** is a forensic tool suite distributed by Armor Forensics.
+Safeback is a forensic tool suite distributed by Armor Forensics.
 
 ## File Search Facilities
 
@@ -31,7 +31,8 @@ Can it build timelines and search by creation date?
 
 ## License Notes
 
-* "*This suite of computer forensic software tools is made available,
-  free of charge, to law enforcement computer specialists*". Other parts
-  of the website hint at large discounts or site licenses. No prices are
-  quoted publicly.
+> This suite of computer forensic software tools is made available,
+> free of charge, to law enforcement computer specialists.
+
+Other parts of the website hint at large discounts or site licenses. No prices
+are quoted publicly.

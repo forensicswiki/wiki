@@ -1,12 +1,11 @@
 ---
 tags:
-  - Abandoned
+  - Discontinued
   - Commercial Software
   - Windows Mobile
 ---
-Oxygen Phone Manager II was superseded by [Oxygen Forensic Suite](oxygen_forensic_suite.md).
-
-### Oxygen Phone Manager II for Symbian OS Smartphones
+Oxygen Phone Manager II was superseded by
+[Oxygen Forensic Suite](oxygen_forensic_suite.md).
 
 Oxygen Phone Manager II for Symbian OS smartphones v2.7.6 is an extended
 forensic mode of data access which is compatible with Windows and supports a

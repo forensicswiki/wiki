@@ -5,19 +5,19 @@ tags:
   - Open Source Software
   - Tools
 ---
-The **libyal** project contains an
+The libyal project contains an
 [overview](https://github.com/libyal/libyal/wiki/Overview) of various
 projects by the author. It also contains some scripts for maintaining
 these various projects.
 
 ## Tools
 
-The **libyal** project contains the following scripts:
+The libyal project contains the following scripts:
 
 * **msvscpp-convert.py**, which is a script to convert Visual Studio
   (express) solution and project files from one version to another.
 
-Deprecated tools:
+Discontinued tools:
 
 * **libyal-build.py**, which is a script to automate creating builds of
   libyal libraries. The functionality of this script has been integrated
