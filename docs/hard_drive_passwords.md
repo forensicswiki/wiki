@@ -32,15 +32,20 @@ encryption key must be cracked or discovered through another means.
 
 ## Master Passwords
 
-*These passwords were received from unofficial sources, they may not
-work!*
+> Note that the following passwords were received from unofficial sources, and
+> may not work!
 
-* Western Digital: *WDCWDCWDCWDCWDCWDCWDCWDCWDCWDCWD*
-* Maxtor: *Maxtor\*INIT SECURITY TEST STEP\*F* (*\** means *00h*)
-* Seagate: *Seagate*
-* Fujitsu, Hitachi, Toshiba: 32 spaces
-* Samsung: *tttttttttttttttttttttttttttttttt*
+* Western Digital:
+  * "WDCWDCWDCWDCWDCWDCWDCWDCWDCWDCWD"
+* Maxtor:
+  * "Maxtor\x00INIT SECURITY TEST STEP\x00F"
+* Seagate:
+  * "Seagate"
+* Fujitsu, Hitachi, Toshiba:
+  * 32 spaces
+* Samsung:
+  * "tttttttttttttttttttttttttttttttt"
 * IBM:
-  * *CED79IJUFNATIT*
-  * *VON89IJUFSUNAJ*
-  * *RAM00IJUFOTSELET*
+  * "CED79IJUFNATIT"
+  * "VON89IJUFSUNAJ"
+  * "RAM00IJUFOTSELET"

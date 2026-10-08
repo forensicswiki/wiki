@@ -1,8 +1,9 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Commercial Software
 ---
-**MOBILedit!** is an application that provides an interface between a
+MOBILedit! is an application that provides an interface between a
 cell phone and a personal computer. It is designed to help improve
 productivity and communication by allowing input using the computer to
 be downloaded into the phone. It it used to send photos, SMS messages,
@@ -58,7 +59,7 @@ Forensic allows for the customization of the output from the cell phone
 which makes the data completely adaptable to the needs of each judicial
 system. MOBILedit! Forensic also has frequent updates and upgrades.
 
-#### Report Generation
+### Report Generation
 
 MOBILedit! Forensic has the ability to generate reports in any language.
 The ability to create specific templates for specific functions is also
@@ -81,7 +82,7 @@ MOBILedit! also has the ability to generate reports from devices
 presently connected to the computer, as well as from phones that were
 connected in the past using a backup file.
 
-#### Applications and Drivers
+### Applications and Drivers
 
 MOBILedit! is designed with architecture similar to that of operating
 systems. The result is that you can add new applications and drivers,

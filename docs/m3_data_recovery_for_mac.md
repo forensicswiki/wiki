@@ -1,22 +1,23 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Tools
 ---
-**M3 Data Recovery for Mac** is a free data recovery software to recover
+M3 Data Recovery for Mac is a free data recovery software to recover
 deleted files or lost files in Mac computer.
 
 ## Features
 
 1. Recover files deleted by pressing Command + Del or emptied from Trash.
-1. Recover data from formatted partition or inaccessible partition.
-1. Recover data from deleted or lost partition due to partition loss,
+2. Recover data from formatted partition or inaccessible partition.
+3. Recover data from deleted or lost partition due to partition loss,
    partition deleting, and partition error.
-1. Recover lost files from hard drive, external hard drive, USB drive,
+4. Recover lost files from hard drive, external hard drive, USB drive,
    memory card, SD card, CF card and other devices.
 
 ## Supported File System
 
-M3 Data Recovery for Mac supports HFS, HFS+, FAT32 and HFSX file
+M3 Data Recovery for Mac supports HFS, HFS+/HFSX and FAT32 file
 systems.
 
 ## Supported Operating System

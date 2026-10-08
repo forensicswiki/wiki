@@ -2,9 +2,7 @@
 tags:
   - Network Forensics
 ---
-**tcpdump** is a common packet [sniffer](sniffer.md) for
-[Unix](unix.md)-like operating systems
-([linux](linux.md), [BSD](bsd.md), etc).
+tcpdump is a common packet [sniffer](sniffer.md)
 
 ## Overview
 
@@ -22,23 +20,22 @@ be opened and investigated using many different packet analyzing tools,
 including Wireshark. Tcpdump also comes installed by default on many
 UNIX-like system distributions. If not installed, binaries can be
 downloaded using apt-get (or an equivalent) or compiled using the source
-code from [here](https://www.tcpdump.org/).
+code from <https://www.tcpdump.org/>.
 
 Below you will find some of the Tcpdump switches most useful in typical
 digital forensic investigations, including the ability to transfer
 Tcpdump output in binary form (which creates a PCAP file) to a forensic
 workstation using Netcat. See
-[here](https://www.tcpdump.org/manpages/tcpdump.1.html) for a complete
+<https://www.tcpdump.org/manpages/tcpdump.1.html> for a complete
 list of Tcpdump switches, along with other information on the Tcpdump
 manpage.
 
 In order to transfer the output of Tcpdump on the victim machine to a
 PCAP file on your forensic workstation using Netcat, you will first need
-to set Netcat up to listen on your forensic workstation using the
-following command (see [here](netcat.md) for a refresher on
-using Netcat for digital forensic investigations (note that here we use
-the extension ".pcap" instead of ".txt" because we are creating a binary
-PCAP file, rather than just text output)):
+to set [Netcat](netcat.md) up to listen on your workstation.
+
+Note that the extension ".pcap" is used instead of ".txt" because a binary PCAP
+file is created rather than just text output.
 
 ```bash
 nc -v -l -p 2222 > <command>.pcap
@@ -75,13 +72,8 @@ we can pipe it to whatever we want (in this case, Netcat). This allows
 the data to be sent to our forensic workstation in a full PCAP file so
 that we can perform various analyses on it.
 
-## Video Demonstration
-
-The following YouTube video provides a tutorial on how to conduct a
-basic packet capture with tcpdump:
-<https://www.youtube.com/watch?v=1AFjQv5jhyM>
-
 ## External Links
 
 * [Project page](https://www.tcpdump.org/)
 * [WinDump - tcpdump for Windows](https://www.winpcap.org/windump/)
+* [Video Demonstration](https://www.youtube.com/watch?v=1AFjQv5jhyM)

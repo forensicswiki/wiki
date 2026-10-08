@@ -5,20 +5,20 @@ tags:
 The Grugq has spent several years researching anti-forensic techniques
 and is the author of [Hash](hash_(tool).md) (hacker shell)
 
-### Forensic Presentations
+## Presentations
 
-**2004**
+### 2004
 
 * HiTB: The Art of Defiling: Defeating Forensic Analysis on Unix File Systems
   ([pdf](https://packetstormsecurity.com/hitb04/hitb04-grugq.pdf))
 
-**2005**
+### 2005
 
 * Blackhat: The Art of Defiling: Defeating Forensic Analysis on Unix File Systems
   ([synopsis](https://www.blackhat.com/html/bh-usa-05/bh-usa-05-speakers.html#grugq))
   ([pdf](https://www.blackhat.com/presentations/bh-usa-05/bh-us-05-grugq.pdf))
 
-### External Links
+## External Links
 
 * [Where Is Hacking Now? A Chat with Grugq](https://www.csoonline.com/article/519514/network-security-where-is-hacking-now-a-chat-with-grugq.html),
   March 12, 2007

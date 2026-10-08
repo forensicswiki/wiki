@@ -23,11 +23,11 @@ Extensions such as enigmail may add extra headers.
 The Message-ID field has three parts:
 
 1. The time the message was sent in seconds past the epoch in hexadecimal.
-1. A random value called a salt. The salt is of the format \#0#0#0# where \# is
+2. A random value called a salt. The salt is of the format \#0#0#0# where \# is
    a random digit. Because Thunderbird treats the salt like a number, it may be
    shorter if the leading digits are zeros. For example, a salt of "0030509"
    would display as "30509".
-1. The fully qualified domain name of the sender.
+3. The fully qualified domain name of the sender.
 
 ```text
 Message-ID: [time].[salt]@[domain-name]

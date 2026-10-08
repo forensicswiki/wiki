@@ -8,7 +8,7 @@ SIM Cards.
 
 ## SIMIS 2G
 
-**Feature Overview**
+Features:
 
 * Forensically safe - no facility for the modification of system or user
   data held on the SIM
@@ -20,7 +20,7 @@ SIM Cards.
 * Provides commented RAW data in a standard format for use in third
   party applications.
 
-**Typically a SIMIS package consists of:**
+Typically a SIMIS package consists of:
 
 * PC based software application
 * PC/SC Smart Card Reader (USB or Serial)
@@ -30,7 +30,7 @@ SIM Cards.
 There is also the option to use a PC Card (PCMCIA) Reader for laptops
 and notebooks.
 
-**The Search Engine**
+### The Search Engine
 
 The SIMIS database search engine, allows comprehensive searches to be
 made across all SIM cards data that have been interrogated. Searches can
@@ -76,7 +76,7 @@ SIMIS 3G has been evaluated tested and used by leading mobile
 intelligence examiners and forensic experts. Meeting or exceeding their
 every needs.
 
-**SIMIS 3G is comprised of:**
+SIMIS 3G is comprised of:
 
 * USB card readers (PCSC Industry standard)
 * PC software on CDROM
@@ -100,7 +100,7 @@ data. Work in the field or covert operation is aided by simple three
 button operation (excluding PIN entry and on/off). PIN and PUK entry are
 catered for.
 
-**The browser function allows viewing of:**
+The browser function allows viewing of:
 
 * ICC and IMSI
 * ADN
@@ -111,7 +111,7 @@ catered for.
 * SMS
 * SMSP
 
-**The SIMIS Mobile package includes:**
+The SIMIS Mobile package includes:
 
 * Small hand-held card reader for use in the field
 * 8 x Data Transfer cards (enabling SIM cloning)

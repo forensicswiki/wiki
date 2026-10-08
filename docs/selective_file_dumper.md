@@ -1,19 +1,16 @@
 ---
 tags:
-  - Linux
+  - Discontinued
+  - Tools
 ---
-**Selective File Dumper** (SFDumper) is a tool written in
-Bash Script for [Linux](linux.md) systems.
+Selective File Dumper (SFDumper) is a bash script that can retrieve all the
+files of the file type you choose with only one tool referenced, deleted and
+unallocated in very fast way.
 
-It's fast and selective, it can retrieve all the files of the file type
-you choose with only one tool referenced, deleted and unallocated in
-very fast way.
-
-The Bash script **SFDUMPER.SH** can recover active,
-deleted and unallocated files automatically and then it can delete the
-carved duplicate files of the deleted and active files retrieved by the
-[The Sleuth Kit](the_sleuth_kit.md), thanks to the comparison of the
-[SHA256](sha-2.md) [hash](hash.md) codes.
+The SFDUMPER.SH script can recover active, deleted and unallocated files
+automatically and then it can delete the carved duplicate files of the deleted
+and active files retrieved by the [The Sleuth Kit](the_sleuth_kit.md), using
+[SHA-256](sha-2.md).
 
 It's possible to recognize the renamed files by the data carving and
 it's possible to expand the [Foremost](foremost.md)
@@ -27,8 +24,7 @@ directly from the device (eg. /dev/sdb).
 
 ## Actions
 
-1. Choosing the partition to analyze from an image file or a
-device;
+1. Choosing the partition to analyze from an image file or a device;
 2. Choosing the file type by the extension you need to have;
 3. Extracting all referenced files by their extension;
 4. Extracting all the deleted files by their extension;
@@ -47,19 +43,22 @@ device;
 * sed, grep and awk
 * [dd](dd.md)
 
-## Requirements for the GUI version
+### Additional requirements for the GUI version
 
 * Zenity
 
 ## Usage
 
-*sudo sh sfdumper.sh*
+```bash
+sudo sh sfdumper.sh
+```
 
 or
 
-*chmod +x sfdumper.sh*
-
-*./sfdumper.sh*
+```bash
+chmod +x sfdumper.sh
+./sfdumper.sh
+```
 
 ## External Links
 

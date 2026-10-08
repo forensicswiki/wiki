@@ -1,14 +1,14 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
-**SUMURI, LLC** is a company that develops advanced forensic
+SUMURI, LLC is a company that develops advanced forensic
 investigation software and hardware. Stylized as "SUMURI", the company
 is based in Camden, Delaware, USA.
 
 ## Products
 
-#### Free Tools
+### Free Tools
 
 * [PALADIN](paladin_forensic_suite_-_live_boot_ubuntu.md) -
   completely free forensics toolkit. Includes over 100 forensic tools,

@@ -105,9 +105,6 @@ The First Forensic Forum (F3)
 HTCIA International Training Conference and Expo
 <https://www.htciaconference.org/>
 
-IACIS Computer Forensic Training Event
-<https://www.iacis.com/>
-
 PFIC (Parabin Corporation)
 <https://pfic-conference.com/>
 

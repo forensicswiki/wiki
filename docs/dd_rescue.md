@@ -22,7 +22,7 @@ Here is a common dd_rescue command:
 **UNIX/Linux**
 
 ```bash
-$ dd_rescue /dev/hda myfile.img
+dd_rescue /dev/hda myfile.img
 ```
 
 **STDOUT**

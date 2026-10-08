@@ -6,16 +6,16 @@ tags:
   - MacOS
   - Tools
 ---
-Binary plists are the files that Apple products use to store
-information. The easiest way to view them is to convert them to XML.
-Note that binary data in XML plist are converted in base64 and therefore
-strings in the binary data are not directly visible.
+Binary plists are the files that Apple products use to store information. The
+easiest way to view them is to convert them to XML.
 
-The program **plutil** is native to [Mac OS X](mac_os_x.md) (as
-of 10.2), however it is also included when iTunes is installed on a
-Windows PC. On linux libplist
-[1](https://cgit.sukimashita.com/libplist.git) also provides an
-equivalent of **plutil**.
+> Note that binary data in XML plist are converted in base64 and therefore
+> strings in the binary data are not directly visible.
+
+The program **plutil** is native to [Mac OS X](mac_os_x.md) (as of 10.2),
+however it is also included when iTunes is installed on a Windows PC. On Linux
+[libplist](https://cgit.sukimashita.com/libplist.git) provides an equivalent of
+**plutil**.
 
 plutil on a Windows PC is stored in:
 
@@ -31,18 +31,18 @@ libdispatch, libicuin, libicuuc, libtidy, libxml2, objc, ptheadVC2,
 SQLite3 and zlib. These are all found in the Apple Application Support
 folder along with plutil.exe.
 
-To convert Binary plists to XML run the command:
+To convert binary plists to XML run the command:
 
 ```bash
-$ plutil -convert xml1 file.plist
+plutil -convert xml1 file.plist
 ```
 
 Or with libplist
 
 ```bash
-$ plutil -i file.plist > file.xml.plist
+plutil -i file.plist > file.xml.plist
 ```
 
 ## External Links
 
-* [A library to handle Apple Property List format in binary or XML](https://cgit.sukimashita.com/libplist.git/)
+* [libplist: Library to handle Apple Property List format files in binary or XML](https://cgit.sukimashita.com/libplist.git/)

@@ -8,7 +8,8 @@ tags:
   - Tools
   - Windows
 ---
-**Libewf** is a library to access the [Expert Witness Compression Format (ewf)](encase_image_file_format.md).
+Libewf is a library to access the
+[Expert Witness Compression Format (ewf)](encase_image_file_format.md).
 
 ## Features
 
@@ -29,7 +30,7 @@ Other features:
 
 ## Tools
 
-The **libewf** package contains the following tools:
+libewf contains the following tools:
 
 * **ewfacquire**, which writes storage media data from devices and files
   to EWF files.
@@ -45,7 +46,7 @@ The **libewf** package contains the following tools:
 * **ewfaquirestream-mt**, C++ 11 multi-threaded version of
   ewfacquirestream contributed by Bernhard Zach in 2013.
 
-The **libewf** package also contains the following bindings:
+libewf also contains the following bindings:
 
 * **ewf.net**, bindings for .Net
 * **pyewf**, bindings for Python contributed by David Collett in 2008
@@ -63,7 +64,7 @@ tools on the sourceforge libewf project site. These are:
   alternative to mount_ewf.py for Windows, contributed by Brendan
   Berney in 2010. In 2014 this was updated
   by Erwan L and is currently maintained as a separate project
-  [here](http://labalec.fr/erwan/?p=1235).
+  <http://labalec.fr/erwan/?p=1235>.
 * **jlibewf**, native Java EWF reader contributed by
   [Bruce Allen](bruce_allen.md) in 2010.
 * **libewfcs**, native C# EWF reader contributed by

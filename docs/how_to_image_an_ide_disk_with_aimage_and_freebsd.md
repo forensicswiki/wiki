@@ -4,8 +4,7 @@ tags:
 ---
 Here is a photo of my disk imaging system:
 
-<img src="../assets/images/ImagingStationx4.jpg" title="ImagingStationx4.jpg" width="320"
-alt="ImagingStationx4.jpg" />
+<img src="../assets/images/ImagingStationx4.jpg" title="ImagingStationx4.jpg" width="320" alt="ImagingStationx4.jpg" />
 <figcaption aria-hidden="true">ImagingStationx4.jpg</figcaption>
 
 Key elements of the disk imaging system:
@@ -19,47 +18,57 @@ Key elements of the disk imaging system:
 
 ## Imaging Checklist
 
-1. [Set up a disk imaging station](how_to_set_up_a_disk_imaging_station.md);
-2. You should have a 50-pin IDE ribbon cable going from your IDE
-   controller to the desktop;
-3. Do not connect your imaging drive yet!
-4. Boot the computer into [FreeBSD](freebsd.md);
-5. Attach the IDE hard drive to the ribbon cable FIRST;
-6. Now, attach power to the IDE drive;
-7. You need to determine which ATA port the IDE drive is now connected
-   to. In all likelihood it is `ata0, ata1, ata2` or `ata3`. If you
-   have an internal hard drive on an IDE interface, then the internal
-   interface is probably `ata0` and `ata1` and the external is probably
-   on `ata2` or `ata3`;
-8. You also need a place to store the [AFF](aff.md) files you
-   are going to be creating. I usually put them in `/usr/affs` which is
-   a directory you will need to create;
-9. Log in as *root*;
-10. mkdir /usr/affs
-11. Now, try to image the drive with this command:
+Step 1. [Set up a disk imaging station](how_to_set_up_a_disk_imaging_station.md);
+
+Step 2. You should have a 50-pin IDE ribbon cable going from your IDE
+controller to the desktop;
+
+Step 3. Do not connect your imaging drive yet!
+
+Step 4. Boot the computer into [FreeBSD](freebsd.md);
+
+Step 5. Attach the IDE hard drive to the ribbon cable FIRST;
+
+Step 6. Now, attach power to the IDE drive;
+
+Step 7. You need to determine which ATA port the IDE drive is now connected
+to. In all likelihood it is `ata0, ata1, ata2` or `ata3`. If you
+have an internal hard drive on an IDE interface, then the internal
+interface is probably `ata0` and `ata1` and the external is probably
+on `ata2` or `ata3`;
+
+Step 8. You also need a place to store the [AFF](aff.md) files you
+are going to be creating. I usually put them in `/usr/affs` which is
+a directory you will need to create;
+
+Step 9. Log in as *root*;
+
+Step 10. mkdir /usr/affs
+
+Step 11. Now, try to image the drive with this command:
 
 ```bash
 aimage ata2 /usr/affs/disk1.aff`
 ```
 
-12. If this doesn't work, try:
+Step 12. If this doesn't work, try:
 
 ```bash
 aimage ata3 /usr/affs/disk1.aff`
 ```
 
-13. If it works, you'll see the [aimage](aimage.md) program
+Step 13. If it works, you'll see the [aimage](aimage.md) program
     running.
 
 ## What can go wrong
 
-* *[aimage](aimage.md)* may not be installed. If you get the
+* [aimage](aimage.md) may not be installed. If you get the
   error message "aimage: command not found" then you need to install
   [AFFLIB](aff.md) and then make sure that the *aimage*
-  command (usually installed in */usr/local/bin*) is in your *PATH*. You
-  can check this out by running */usr/local/bin/aimage* instead of
+  command (usually installed in `/usr/local/bin`) is in your PATH. You
+  can check this out by running `/usr/local/bin/aimage` instead of
   *aimage*;
-* Your source drive can be broken, *[aimage](aimage.md)* should
+* Your source drive can be broken, [aimage](aimage.md) should
   tell you this;
 * You can run out of disk space. You need a LOT of disk space to store
   disk images — figure 30GB to image a 60GB drive.

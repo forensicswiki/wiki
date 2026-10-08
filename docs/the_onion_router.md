@@ -3,7 +3,7 @@ tags:
   - Anti-Forensics
   - Network Forensics
 ---
-**Tor** (**The Onion Router**) is an implementation of second-generation
+Tor (The Onion Router) is an implementation of second-generation
 onion routing.
 
 ## Overview
@@ -13,12 +13,12 @@ TCP-based applications.
 
 ## Attacks
 
-**Timing attacks**
+### Timing attacks
 
 Tor fails when the attacker can correlate timing patterns on both ends
 of the communications channel.
 
-**Misconfigured software**
+### Misconfigured software
 
 * DNS leaks
 
@@ -31,19 +31,16 @@ being visited).
     (see Metasploit Decloaking Engine);
   * Enabled cookies: web server can identify clients using unique
     cookies.
-
-<!-- -->
-
 * Direct connections in Instant Messaging also leak real IP address
 
-**TLS attacks**
+### TLS attacks
 
 Various deviations of system time can be detected in TLS traffic (e.g.
 HTTPS traffic). Attacker can modify system time of the target computer
 (or group of them) via NTP and easily trace TLS connections from
 anonymous network.
 
-**Eavesdropping by exit nodes**
+### Eavesdropping by exit nodes
 
 Tor doesn't encrypt traffic between an exit node and the target server,
 so exit nodes are able to capture all unencrypted traffic. Malicious

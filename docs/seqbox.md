@@ -19,7 +19,7 @@ and then CRCs to detect valid SBX blocks. Then the blocks can be grouped
 by UIDs, sorted by sequence number and reassembled to form the original
 SeqBox containers.
 
-## Tech spec
+## Technical specification
 
 Byte order: Big Endian
 
@@ -40,20 +40,20 @@ Byte order: Big Endian
 | 16  | n        | var  | encoded metadata |
 | n+1 | blockend | var  | padding (0x1a)   |
 
-### Blocks \> 0 & \< last:
+### Blocks \> 0 & \< last
 
 | pos | to pos   | size | desc |
 |-----|----------|------|------|
 | 16  | blockend | var  | data |
 
-=== Blocks == last: ===
+### Blocks == last
 
 | pos | to pos   | size | desc           |
 |-----|----------|------|----------------|
 | 16  | n        | var  | data           |
 | n+1 | blockend | var  | padding (0x1a) |
 
-### Metadata encoding:
+### Metadata encoding
 
 | Bytes | Field |
 |-------|-------|
@@ -63,11 +63,11 @@ Byte order: Big Endian
 
 #### IDs
 
-| ID  | Desc                                                                     |
-|-----|--------------------------------------------------------------------------|
-| FNM | filename (utf-8)                                                         |
-| SNM | sbx filename (utf-8)                                                     |
-| FSZ | filesize (8 bytes)                                                       |
+| ID | Description |
+| --- | --- |
+| FNM | filename (utf-8) |
+| SNM | sbx filename (utf-8) |
+| FSZ | filesize (8 bytes) |
 | HSH | crypto hash (SHA256, using [Multihash](https://multiformats.io/) protocol) |
 
 ## External Links

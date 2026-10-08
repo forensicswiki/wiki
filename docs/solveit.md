@@ -6,11 +6,11 @@ tags:
   - Quality Assurance
   - Tools
 ---
-**SOLVE-IT** (Systematic Objective-based Listing of Various Established
-(Digital) Investigation Techniques) is a knowledge base for and by the digital
-forensic community, supported by
-[DFRWS.org](digital_forensic_research_workshop.md), that describes and indexes
-techniques available to digital forensic investigators during an examination.
+SOLVE-IT (Systematic Objective-based Listing of Various Established (Digital)
+Investigation Techniques) is a knowledge base for and by the digital forensic
+community, supported by [DFRWS.org](digital_forensic_research_workshop.md),
+that describes and indexes techniques available to digital forensic
+investigators during an examination.
 
 Uniquely, it also describes potential weakness at each stage of a digital
 forensic investigation, including in digital forensic tools. It also provides
@@ -18,6 +18,7 @@ Python tooling to compile the contents of the knowledge base into different
 formats, making it useful for a number of different applications.
 
 ## Use
+
 The many potential applications of SOLVE-IT include:
 
 * strengthen tool testing by scoping error-focused data sets for a technique

@@ -2,7 +2,6 @@
 tags:
   - Papers
   - Research
-  - Tools
 ---
 ## Timeline formats
 
@@ -11,9 +10,13 @@ tags:
 * [mactime](mactime.md)
 * [TLN](tln.md)
 
+## Tools
+
+See [Timeline Analysis Tools](tools_timeline_analysis.md).
+
 ## Bibliography
 
-#### Articles / Blogposts
+### Articles / Blogposts
 
 * [Targeted timelines - Part I](http://blog.kiddaland.net/2013/02/targeted-timelines-part-i.html),
   by Kristinn Guðjónsson, February 22, 2013
@@ -70,14 +73,10 @@ tags:
 * [Dynamic Time & Date Stamp Analysis](https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
   M .C. Weil, International Journal of Digital Evidence, vol 1:2, 2002
 
-#### Visualization
+### Visualization
 
 * ThemeRiver: In Search of Trends, Patterns, and Relationships,
   by Susan Havre, Beth Hetzler, and Lucy Nowell, Battelle Pacific Northwest
   Division, Richland, Washington, 1999
 * [Visualizing gaps in time-based lists](https://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists),
   by Moritz Stefaner, November 6, 2000
-
-## Tools
-
-See [Timeline Analysis Tools](tools_timeline_analysis.md).

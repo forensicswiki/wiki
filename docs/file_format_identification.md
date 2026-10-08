@@ -1,6 +1,6 @@
 ---
 tags:
-  - Tools
+  - Analysis
 ---
 File Format Identification is the process of figuring out the format of
 a sequence of bytes. Operating systems typically do this by file
@@ -146,7 +146,7 @@ bibliography is in chronological order!**
 
 * K. Martin, N. Shahmehri, File type identification of data fragments by their
   binary structure, Proceedings of the IEEE workshop on information assurance,
-  pp.140–147, 2006. ([link](https://ieeexplore.ieee.org/document/1652088))
+  pp.140–147, 2006. (<https://ieeexplore.ieee.org/document/1652088>)
 
 <!-- -->
 

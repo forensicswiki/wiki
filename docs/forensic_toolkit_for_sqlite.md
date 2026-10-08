@@ -10,7 +10,7 @@ tools are an invaluable addition to any investigators tool box.
 
 [Forensic Toolkit for SQLite](https://sqliteforensictoolkit.com/sqlite-forensic-toolkit/)
 
-**The Forensic Browser for SQLite**
+## The Forensic Browser for SQLite
 
 A comprehensive database browser that recovers live and deleted records
 from SQLite databases as well as rollback journals and write ahead
@@ -27,7 +27,7 @@ blobs) or can be used to decode files to 'import' the data in the the
 Browser (the latest extension decodes and imports tables from Microsoft
 ESE/EDB/JetBlue databases)
 
-**SQLite Forensic Explorer**
+## SQLite Forensic Explorer
 
 SQLite Forensic Explorer is an investigative tool designed to show every
 single byte of an SQLite database or WAL file along with its decoded
@@ -41,7 +41,7 @@ forensic investigators looking for deleted data (or a corrupt database)
 or to those who simply want to know more about the structure of a
 database
 
-**SQLite Forensic Recovery**
+## SQLite Forensic Recovery
 
 SQLite Recovery is a forensic tool to aid in the recovery of SQLite
 databases, tables and records. SQLite Recovery can search a disk,

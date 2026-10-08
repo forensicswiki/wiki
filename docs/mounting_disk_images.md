@@ -9,13 +9,13 @@ To mount a disk image on [FreeBSD](freebsd.md):
 First attach the image to unit \#1:
 
 ```bash
-$ mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
+mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
 ```
 
 Then mount:
 
 ```bash
-$ mount -t msdos /dev/md1s1 /mnt
+mount -t msdos /dev/md1s1 /mnt
 ```
 
 ```bash
@@ -26,15 +26,15 @@ BOOTLOG.PRV     BOOTLOG.TXT     COMMAND.COM     IO.SYS     �
 To unmount:
 
 ```bash
-$ umount /mnt
-$ mdconfig -d -u 1
+umount /mnt
+mdconfig -d -u 1
 ```
 
 To mount the image read-only, use:
 
 ```bash
-$ mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
-$ mount -o ro -t msdos /dev/md1s1 /mnt
+mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
+mount -o ro -t msdos /dev/md1s1 /mnt
 ```
 
 ## Linux
@@ -42,7 +42,7 @@ $ mount -o ro -t msdos /dev/md1s1 /mnt
 ### To mount a disk image on [Linux](linux.md)
 
 ```bash
-$ mount -t vfat -o loop,ro,noexec img.dd /mnt
+mount -t vfat -o loop,ro,noexec img.dd /mnt
 ```
 
 The ***ro*** is for read-only.
@@ -50,7 +50,7 @@ The ***ro*** is for read-only.
 This will mount NSRL ISOs:
 
 ```bash
-$ mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
+mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
 ```
 
 Some raw images contains multiple partitions (e.g. full HD image). In
@@ -58,8 +58,8 @@ this case, it's necessary to specify a starting offset for each
 partition.
 
 ```bash
-$ mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
-$ mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
+mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
+mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
 ```
 
 #### kpartx
@@ -79,7 +79,7 @@ image looks like this:
 The command
 
 ```bash
-$ kpartx -v -a rawimage.dd
+kpartx -v -a rawimage.dd
 ```
 
 creates these mappings
@@ -93,8 +93,8 @@ creates these mappings
 The partitions can be mounted with these commands:
 
 ```bash
-$ mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
-$ mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
+mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
+mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
 ```
 
 Don't forget the switch ***-o ro*** !
@@ -102,7 +102,7 @@ Don't forget the switch ***-o ro*** !
 ### To unmount
 
 ```bash
-$ umount /mnt
+umount /mnt
 ```
 
 ## Windows
@@ -120,10 +120,9 @@ Windows systems.
   Windows as SCSI disks
 * [FTK Imager](https://www.exterro.com/ftk-product-downloads)
 * [ImDisk Virtual Disk Driver](http://www.ltr-data.se/opencode.html#ImDisk)
-* [Paraben](paraben_forensics.md) P2X
 
 ### Commercial Tools
 
 * [SmartMount](http://www.asrdata.com/forensic-software/smartmount/)
-* [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/) -
-  has a 14-day trial version
+* [Mount Image Pro](https://getdataforensics.com/product/mount-image-pro/)
+* [Paraben P2X](paraben_forensics.md)

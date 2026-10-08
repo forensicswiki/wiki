@@ -1,8 +1,8 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-*Archived past selected research articles*
+Archived past selected research articles
 
 <small>May 2014</small> <bibtex>
 @inproceedings{Hurley:2013:MAC:2488388.2488444,

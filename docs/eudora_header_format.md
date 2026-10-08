@@ -2,6 +2,8 @@
 tags:
   - Email Analysis
 ---
+Eudora email header:
+
 ```text
 Message-Id: <6.0.0.22.0.20070728180447.02342558@sendinghost.com>
 X-Sender: username@pop.sendinghost.com

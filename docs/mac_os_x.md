@@ -4,7 +4,7 @@ tags:
   - MacOS
   - Operating Systems
 ---
-Apple Inc.'s Macintosh OS X (pronounced "**OS Ten**") is the operating system
+Apple Inc.'s Macintosh OS X (pronounced "OS Ten") is the operating system
 distributed with Apple computers. It includes heavily used several programs by
 default, including [Apple Mail](apple_mail.md), a web browser called
 [Safari](apple_safari.md), and an Apple Address Book,
@@ -54,8 +54,7 @@ which can be found in:
 
 ## Disk image types
 
-Mac OS X has support for various disk image types built-in, some of
-which are:
+Mac OS X has support for various disk image types built-in, some of which are:
 
 * read-write disk image (.dmg), which can be stored in [Raw Image Format](raw_image_format.md)
   or [Universal Disk Image Format (udif)](dmg.md)
@@ -67,7 +66,7 @@ which are:
 Mac OS X Burn Folder:
 
 ```text
-$NAME.fpbf
+\$NAME.fpbf
 ```
 
 This folder normally contains alias files (similar to LNK files under

@@ -27,7 +27,6 @@ tags:
 
 * [The SANS Institute](https://www.sans.org/emea/)
 * [High Technology Crime Investigation Association](https://www.htcia.org/)
-* [International Association of Computer Investigative Specialists](https://www.iacis.com/)
 * [Regional Computer Forensic Group](http://www.rcfg.org/)
 * [High Tech Crime Network](http://www.htcn.org/)
 * [American Academy of Forensic Science](https://www.aafs.org/) The AAFS

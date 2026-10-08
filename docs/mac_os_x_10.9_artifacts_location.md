@@ -197,7 +197,7 @@ Applications
 /Applications/*
 ```
 
-### System Info Misc.
+### System Info Miscellaneous
 
 Current Time Zone
 
@@ -493,7 +493,7 @@ Recently opened files specific for each application
 %%users.homedir%%/Library/Preferences/*LSSharedFileList.plist
 ```
 
-### Misc.
+### Miscellaneous
 
 Application Support Directory
 

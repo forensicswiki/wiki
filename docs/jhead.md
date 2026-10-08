@@ -1,15 +1,14 @@
 ---
 tags:
   - Articles that need to be expanded
+  - Tools
 ---
-**jhead** is a program which can display or manipulate the non-image
+jheadis a program which can display or manipulate the non-image
 part of [Exif](exif.md) compliant [JPEG](jpeg.md) files.
 
 ## Example
 
-This is an example of the output of jhead:
-
-```
+```bash
 $ jhead Simpic.jpg
 File name    : Simpic.jpg
 File size    : 146060 bytes

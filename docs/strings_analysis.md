@@ -1,10 +1,8 @@
 ---
 tags:
-  - Tools
   - Howtos
+  - Tools
 ---
-## Description and Review
-
 Analyzing files such as executables and process memory dumps for strings
 can be very useful in identifying what these files were up to behind the
 scenes. For example, a malicious process memory dump may contain clues
@@ -19,7 +17,7 @@ systems. If you want to use Strings on Windows, check out
 [Cygwin](https://www.cygwin.com/) and make sure to install the binutils
 package as part of the setup process.
 
-## Usage Instructions
+## Usage
 
 One of the most useful features of Strings is the ability to specify the
 minimum string length for it to gather. For example, if I'm not
@@ -90,8 +88,6 @@ using the command line ("-e cmd.exe"). This presented a huge security
 concern on the victim machine! The strings analysis made it much quicker
 and simpler to gather the data I needed and react accordingly.
 
-**NOTE:** By default, Strings will only analyze the file for ASCII and
+Note that By default, Strings will only analyze the file for ASCII and
 equivalent characters. Additional "-e" arguments will need to be used to
-search for Unicode characters. See
-[here](https://www.lifewire.com/11-free-file-search-tools-1356644) for a
-list of them.
+search for Unicode characters.

@@ -9,7 +9,7 @@ Microsoft OneDrive stores logs in a proprietary binary format that have file ext
 
 ## File Locations
 
-**Windows 10/11**
+### Windows 10/11
 
 ```text
 C:\Users\\<USER\>\AppData\Local\Microsoft\OneDrive\logs\Business1
@@ -17,7 +17,7 @@ C:\Users\\<USER\>\AppData\Local\Microsoft\OneDrive\logs\Common
 C:\Users\\<USER\>\AppData\Local\Microsoft\OneDrive\logs\Personal
 ```
 
-**Mac OSX**
+### Mac OS X
 
 ```text
 /Users/<USER>/Library/Logs/OneDrive/
