@@ -2,9 +2,7 @@
 tags:
   - Hardware
 ---
-## Serial Port Monitoring
-
-**Overview**
+## Overview
 
 Examiners should be aware how all the tools on the market work. It is
 crucial not to change the evidence that may reside on a cell phone, PDA,
@@ -29,10 +27,9 @@ execute. It can also be used to see if the tool automatically filters
 out any information that the examiner might actually need for the
 investigation.
 
-------------------------------------------------------------------------
+## Tools
 
-**Tools** Here are some tools used to monitor the data transfer between
-COM devices.
+Here are some tools used to monitor the data transfer between COM devices.
 
 * [AGGSoftware](https://www.aggsoft.com/)
 * [HHD USB/Serial Port Monitoring Software](https://www.hhdsoftware.com/)

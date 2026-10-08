@@ -6,8 +6,6 @@ tags:
 iOS (pronounced i-O.S.) is the name of the operating system for Apple's
 mobile devices (iPhone/iPad/iPod Touch).
 
-------------------------------------------------------------------------
-
 ## File System
 
 iOS runs a reduced variant of [OSX](mac_os_x.md) and
