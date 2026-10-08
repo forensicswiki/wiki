@@ -55,7 +55,7 @@ introduced a tool called memparser. The second, by [George Garner](george_garner
 and Robert-Jan Mora produced KnTList.
 
 At the [Blackhat Federal](blackhat_(conference).md) conference in March 2007,
-[AAron Walters](aaron_walters.md) and [Nick Petroni](nick_petroni.md) released
+[AAron Walters](aaron_walters.md) and Nick Petroni released
 a suite called Volatools. Although it only worked on Windows XP Service Pack 2
 images, it was able to produce a number of useful data. Volatools was updated
 and re-released as Volatility in August 2007, and is now maintained and

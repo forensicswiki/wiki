@@ -7,7 +7,7 @@ tags:
 
 <img src="../assets/images/Timestomp_mace.jpg" title="Timestomp_mace.jpg"
  width="400" alt="Timestomp_mace.jpg" /> **Timestomp** is a utility
-co-authored by developers [James C. Foster](james_c._foster.md)
+co-authored by developers James C. Foster
 and [Vincent Liu](vincent_liu.md). The software's goal is to
 allow for the deletion or modification of [timestamp-related
 information](mac_times.md) on files.

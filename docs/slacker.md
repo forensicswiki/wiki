@@ -7,7 +7,7 @@ tags:
   - Windows
 ---
 A program to hide files within the slack space
-of the [NTFS](ntfs.md) file system. Developed by [James C.  Foster](james_c._foster.md) and [Vincent Liu](vincent_liu.md).
+of the [NTFS](ntfs.md) file system. Developed by James C. Foster and [Vincent Liu](vincent_liu.md).
 
 ## External Links
 
