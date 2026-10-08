@@ -89,7 +89,6 @@ grand prizes for exceptional contributions to the field.
 Forensic Challenge datasets and results are available via the [DFRWS
 GitHub account](https://github.com/dfrws/)
 
-
 ## External Links
 
 * [Official website](https://dfrws.org/)
@@ -102,4 +101,3 @@ GitHub account](https://github.com/dfrws/)
 * [DFRWS: GitHub repositories](https://github.com/orgs/dfrws/repositories)
 * [CASE Ontology](https://caseontology.org/)
 * [SOLVE-IT](https://github.com/SOLVE-IT-DF/solve-it)
-

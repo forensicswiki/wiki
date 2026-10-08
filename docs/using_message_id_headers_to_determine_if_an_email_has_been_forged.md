@@ -65,4 +65,3 @@ message has been forged!
 
 * [Email Headers](email_headers.md)
 * [Using signature headers to determine if an email has been forged](using_signature_headers_to_determine_if_an_email_has_been_forged.md)
-

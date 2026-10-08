@@ -18,4 +18,3 @@ certification in the world. It also develops, maintains, and makes
 available at no cost, the largest collection of research documents about
 various aspects of information security, and it operates the Internet's
 early warning system - the Internet Storm Center.
-

@@ -215,14 +215,12 @@ determine whether there are any national or regional differences in the
 way that computer disks are disposed of and to compare the results for
 any regional or temporal trends.
 
-
 The first study was carried out in 2005 and has been repeated annually
 with the scope extended to include additional research partners and
 countries during each of the subsequent years. The studies were carried
 out by British Telecommunications and the University of Glamorgan in the
 UK, Edith Cowan University in Australia and Longwood University in the
 USA.
-
 
 The core methodology of the research has remained the same over the
 duration of the study: to acquire a number of second hand computer disks
@@ -240,7 +238,6 @@ embarrassment to individuals and organisations, fraud, blackmail and
 identity theft. It is noted that where the disks had originally been
 owned by organisations, they had, in most cases, failed to meet their
 statutory, regulatory and legal obligations.
-
 
 In the 2008 study, the fourth in the series, the research methodology
 that had been followed in the previous studies was repeated, but in

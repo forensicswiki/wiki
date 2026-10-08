@@ -38,4 +38,3 @@ As at March 2025, there is [an interesting nuance](https://www.bentasker.co.uk/p
   your The Bat! tbb email messages stored in messages.tbb
 * [The Bat! MailXaminer support](https://www.mailxaminer.com/blog/the-bat-mailbox-forensic-analysis/)
   The Bat! related file extensions and logs
-

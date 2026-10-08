@@ -526,7 +526,6 @@ Ubiquitous Engineering, 2008. MUE 2008/
 
 Abstract:
 
-
 Nowadays compressed files are very widespread and can be considered,
 without any doubt, with regard to the Digital Forensic realm, an
 important and precious source of probatory data. This is especially true
@@ -686,7 +685,6 @@ Paper](https://www.usenix.org/legacy/events/sec08/)
 
 Awarded Best Student Paper
 
-
 Increasingly memory analysis is of interest in forensic research---both
 because new malware only resides in memory, and because memory analysis
 is frequently the only way for analysts to get the keys that are used to
@@ -709,7 +707,6 @@ keys, and then allows access to the cleartext information on the disk.
 The [Symposium on Usable Privacy and Security (2008)](http://cups.cs.cmu.edu/soups/2008) concluded this past week in Pittsburgh, PA. One paper that appeared which is interesting to the network forensics crowd is [The Challenges of Using an Intrusion Detection System: Is It Worth the Effort?](http://cups.cs.cmu.edu/soups/2008/proceedings/p107Werlinger.pdf),
 by Rodrigo Werlinger, Kirstie Hawkey, Kasia Muldner, Pooya Jaferian and Konstantin Beznosov. [slides](http://cups.cs.cmu.edu/soups/2008/slides/hawkey_soups.ppt)
 
-
 In this article, the authors conducted interviews with 9 IT security
 practitioners who have worked with IDSs performed ethnographic
 observations within an organization that was deploying a new IDS. They
@@ -720,7 +717,6 @@ network is well-understood before the IDS is deployed.
 <small>2008-July-20</small>
 
 The International Journal of Digital Evidence is one of two publications by the [Electronic Crime Institute (ECI)](https://ecci.utica.edu/) at Utica College. Current and previous issues are available online.
-
 
 The current Fall 2007 issue has an interesting article [Mobile Phone Forensics Tool Testing: A Database Drive Approach](https://www.utica.edu/academic/institutes/ecii/publications/articles/1C33DF76-D8D3-EFF5-47AE3681FD948D68.pdf)
 by Baggili, Mislan, and Rogers at Purdue University. Given that phones

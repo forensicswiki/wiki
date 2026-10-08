@@ -12,4 +12,3 @@ Main publications page on
 <http://www.pyflag.net/cgi-bin/moin.cgi/Scudette>
 
 If you want to send me an email, I'm on scudette .at. gmail.com.
-

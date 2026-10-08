@@ -19,7 +19,6 @@ tags:
 * Samsung GSM phones, on the other hand, **DO** have AT commands that
   allow access to the multimedia content.
 
-
 To use these AT commands:
 
 1.  Connect the phone and determine the number of the COM port that is
@@ -28,7 +27,6 @@ To use these AT commands:
     communicate with a specified COM port.
 3.  With the Motorola phone, type **AT+MODE=2**. This prepares the phone
     for an extended AT+ command set. (+Cxxx and +MPxx)
-
 
 After following these steps, you can continue with any of the commands
 below.

@@ -8,4 +8,3 @@ Browser](autopsy_forensic_browser.md).
 
 He is also the author of the book [*File System Forensic
 Analysis*](https://digital-evidence.org/fsfa/)
-

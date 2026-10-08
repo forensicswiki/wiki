@@ -19,4 +19,3 @@ available) to create the log files and then processes them.
 
 * [Chaosreader author's website](https://www.brendangregg.com/chaosreader.html)
 * [Git repository](https://github.com/brendangregg/Chaosreader)
-

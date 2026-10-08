@@ -21,7 +21,6 @@ and macOS 10.15 can no longer read [(classic) HFS](https://en.wikipedia.org/wiki
 There are structurally many differences between HFS and HFS+, which are
 listed below (Also see: Technical Note TN1150).
 
-
 <CENTER>
 <TABLE Border=1 cellpadding=2 cellspacing=0 width=75%>
 <TR>
