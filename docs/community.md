@@ -22,8 +22,9 @@ if you'd like a more detailed explanation.
 
 ## Example Using the Command Line
 
-1. Fork the Forensics Wiki project
-2. Clone the fork and set Forensics Wiki as the upstream
+Step 1. Fork the Forensics Wiki project
+
+Step 2. Clone the fork and set Forensics Wiki as the upstream
 
 ```bash
 git clone https://github.com/[your-github-user-id]/wiki.git
@@ -31,25 +32,26 @@ cd wiki
 git remote add upstream https://github.com/forensicswiki/wiki.git
 ```
 
-3. Create a branch for new articles or article updates
+Step 3. Create a branch for new articles or article updates
 
 ```bash
 git checkout -b [article-branch-name]
 ```
 
-4. Make your changes to the Markdown file(s) and push changes to your repository.
+Step 4. Make your changes to the Markdown file(s) and push changes to your repository.
 
 ```bash
 git push origin [article-branch-name]
 ```
 
-5. Checklist before creating a PR
-  * make sure your changes contain digital forensic relevant information, e.g.
-    when listing tools include forensics relevant tradeoffs.
-  * make sure external links are publicly accessible. Links with signup or
-    paywalls, or georestriction will be removed.
+Step 5. Checklist before creating a PR
 
-6. Create PR for review
+* make sure your changes contain digital forensic relevant information, e.g.
+  when listing tools include forensics relevant tradeoffs.
+* make sure external links are publicly accessible. Links with signup or
+  paywalls, or georestriction will be removed.
+
+Step 6. Create PR for review
 
 <!-- ## TODO: Example Using the GitHub Web UI -->
 
@@ -67,41 +69,44 @@ the name should be `forensics.md`. If you are writing an article about
 In order to make the Forensics Wiki valuable, please use the following
 guidelines to help write high-quality articles:
 
-1. _Introduction:_  All articles should have an Introduction, which summarizes
-   what you intend to discuss in the article.
-2. _Sections:_  Appropriate sections are used to describe the topic being
-   discussed.
+* All articles should start with an Introduction, which summarizes what is
+  discussed in the article. Do not add a top level heading (heading level 1).
+* Use sections to help describe different aspects of the topic.
+* Images (or illustrations) are not required, but if they help explain the
+  topic they could be added. Sections should use heading level 2 or greater.
+* There is no requirement for length but the article should be long enough to
+  explain the topic.
+* Write for an international audience of many backgrounds:
+  * do not assume every reader is a native English speaker, avoid uncommon terms
+    or metaphores.
+  * do not assume every reader has the same expertise, describe jargon.
+  * use international standards, e.g. ISO 8601 instead of localized date and
+    time notations.
 
-    For example, if you are writing an article about a tool, you might have the
-    following headings:
+#### Example
 
-    * **Introduction**: This section may include history of the tool, OSes
-      supported, and File Systems supported.
+If you are writing an article about a tool, you might have the following
+headings:
 
-    * **Usage**: This section may include common command line usage and the
-      output to expect.
+* **Introduction**: This section may include history of the tool, OSes
+  supported, and File Systems supported.
 
-    * **Use**: This section may include common uses of a tool. A tool could
-      contain one or more common uses. For example, the DD Unix utility could
-      image drives as well wipe drives so data is not recoverable. **Make sure
-      to include pros and cons of tool use for different digital forensics use
-      cases.**
+* **Caution**: digital forensic tradeoffs to be aware off. **Make sure to
+  include pros and cons of tool use for different digital forensics use
+  cases.**
 
-    * **See Also**: This section may include links to articles with related
-      content, complementary tools, or forks of the tool. For example, if you
-      were writing an article about The Sleuth Kit (TSK), you may want to
-      include a link to an article about Autopsy.
+* **Use**: This section may include common uses of a tool. A tool could
+  contain one or more common uses. For example, the dd Unix utility could
+  image drives as well wipe drives so data is not recoverable.
 
-    * **References**: Any references to support the information you are
-      providing.
+* **See Also**: This section may include links to Forensics Wiki articles with
+  related content, complementary tools, or forks of the tool. For example, if
+  you were writing an article about The Sleuth Kit (TSK), you may want to
+  include a link to an article about Autopsy.
 
-    * **External Links**: Any external links, such as to the project page or
-      official website.
-
-3. _Media:_ Images are not required, but if they help explain the topic they
-   could be added.
-4. _Length:_ There is no requirement for length but the article should be long
-   enough to explain the topic.
+* **External Links**: Any external links, such as references to support the
+  information you are providing, or links to the project page or official
+  website.
 
 ### Images
 
@@ -255,19 +260,19 @@ optional.
 
 #### Install mkdocs
 
-1. Setup a Python environment
+Step 1. Setup a Python environment
 
 ```bash
 python3 -m venv mkdocs
 ```
 
-2. Activate Python environment
+Step 2. Activate Python environment
 
 ```bash
 source mkdocs/bin/activate
 ```
 
-3. Install mkdocs on your system.
+Step 3. Install mkdocs on your system.
 
 ```bash
 pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
@@ -285,20 +290,20 @@ needs two things to be able to run and load the Forensics Wiki pages.
 Both of the previous items are located in the root directory of the repository.
 To run mkdocs development server follow the steps below:
 
-1. Change to the root of the repository. For example, if you cloned the
-   repository to your home directory.
+Step 1. Change to the root of the repository. For example, if you cloned the
+repository to your home directory.
 
 ```bash
 cd ~/wiki
 ```
 
-2. Start local mkdocs server
+Step 2. Start local mkdocs server
 
 ```bash
 mkdocs serve
 ```
 
-3. Open your browser and visit http://127.0.0.1:8000/your_doc_name
+Step 3. Open your browser and visit <http://127.0.0.1:8000/your_doc_name>
 
 ### Suggesting New Tags
 

@@ -59,7 +59,7 @@ off when doing a forensic investigation.
 Depending on the setting, entering a wrong password a certain number of
 times will wipe the device.
 
-## References
+## External Links
 
 * [BlackBerry.com](https://www.blackberry.com/us/en), the BlackBerry main site.
 * [BlackBerry Frequently Asked Questions](http://www.blackberryfaq.com),

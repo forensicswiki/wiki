@@ -218,8 +218,6 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by logicchild, September 17, 2008
 * [Windows Memory Management - Part 2](https://www.codeproject.com/Articles/29692/Windows-Memory-Management-Part-2),
   by logicchild, September 25, 2008
-* [De-mystifying Defrag: Identifying When Defrag Has Been Used for Anti-Forensics (Part 1 - Windows XP)](https://www.sans.org/digital-forensics-incident-response/),
-  by Chad Tilbury, August 5, 2009
 * [Windows Prefetch File (old blog entry from 42 LLC)](https://www.swiftforensics.com/2010/04/the-windows-prefetchfile.html),
   by Yogesh Khatri, April 14, 2010
 * [Windows PC Accelerators](https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653317(v=vs.85))

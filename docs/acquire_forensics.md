@@ -18,7 +18,7 @@ file given by Acquire Forensics is SQLite Forensics Explorer.
 This Tool can turn the investigation and helps the professional expert
 to find any forged to the database file.
 
-## Some Advantage of SQL Forensic Explorer is given below;
+## Some Advantage of SQL Forensic Explorer is given below
 
 1. Recover Deleted Data From SQLite Database File
 2. Software support all Windows Platform

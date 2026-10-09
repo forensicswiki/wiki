@@ -2,9 +2,9 @@
 tags:
   - Bibliographies
 ---
-**In chronological order, oldest to most recent**
+In chronological order, oldest to most recent.
 
-### Basic Techniques
+## Basic Techniques
 
 [An analysis of disc carving techniques](https://apps.dtic.mil/sti/citations/ADA432468),
 by Mikus, Nicholas A., Master's Thesis, Naval Postgraduate School. March 2005.
@@ -15,7 +15,7 @@ by Golden G. Richard and Vassil Roussev, DFRWS 2005
 [Massive threading: Using GPUs to increase the performance of digital forensics tools](https://dfrws.org/sites/default/files/session-files/2007_USA_paper-massive_threading_-_using_gpus_to_increase_the_performance_of_digital_forensics_tools.pdf),
 by Lodovico Marziale, Golden G. Richard III\*, Vassil Roussev, DFRWS 2007.
 
-### Fragment Recovery Carving
+## Fragment Recovery Carving
 
 Automatic Reassembly of Document Fragments via Data Compression, Kulesh
 Shanmugasundaram and Nasir Memon, Presented at DFRWS, 2002.
@@ -53,14 +53,14 @@ science and technology. Thesis, ISBN: 978-91-7393-915-7
 by Anandabrata Pal, Husrev Sencar, Nasir Memon, DFRWS, 2008.
 [slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-detecting_file_fragmentation_point_using_sequential_hypothesis_testing.pdf)
 
-https://dfrws.org/sites/default/files/session-files/2009_USA_paper-identification_and_recovery_of_jpeg_files_with_missing_fragments.pdf),
+<https://dfrws.org/sites/default/files/session-files/2009_USA_paper-identification_and_recovery_of_jpeg_files_with_missing_fragments.pdf>,
 by Husrev Sencar and Nasir Memon. DFRWS, 2009.
 
 The Evolution of File Carving,
 by Anandabrata Pal and Nasir Memon. IEEE Signal Processing Magazine,
 Volume: 26, Issue 2. March 2009.
 
-### Sector Discrimination
+## Sector Discrimination
 
 <bibtex> @article{
 

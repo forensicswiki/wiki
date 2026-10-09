@@ -33,7 +33,6 @@ This page has gotten too big and is being broken up. Also see:
 ### Macintosh-based Tools
 
 [Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
-<https://www.elcomsoft.com/emfb.html>
 
 The Bundle includes macOS editions of Elcomsoft forensic tools for
 mobile and cloud data extraction.
@@ -69,7 +68,6 @@ government and data recovery companies worldwide.
 [EMail Detective - Forensic Software Tool](email_detective_forensic_software_tool.md) by [Hot Pepper Technology, Inc](hot_pepper_technology_inc.md)
 
 [Elcomsoft Desktop Forensic Bundle](elcomsoft_desktop_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
-<https://www.elcomsoft.com/edfb.html>
 
 All password recovery tools for unlocking documents, decrypting archives
 and crypto containers.

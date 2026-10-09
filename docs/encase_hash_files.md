@@ -25,7 +25,7 @@ The hashes begin at offset 0x480 in the file.
 A quick look at a hash file created by Encase 6.8.1.8 revealed the
 following structure (to be verified):
 
-**Offset 0x0000**
+## Offset 0x0000
 
 A header that consists of the following 16 bytes:
 
@@ -33,24 +33,24 @@ A header that consists of the following 16 bytes:
 48 41 53 48 0D 0A FF 00 02 00 00 00 01 00 00 00
 ```
 
-**Offset 0x0010**
+## Offset 0x0010
 
 Count: The number of MD5 sums contained in this file, written as a 4
 byte integer in Intel little-endian format (i.e. least significant byte
 first).
 
-**Offset 0x0014**
+## Offset 0x0014
 
 The range from 0x0014 to 0x0407 is filled by zero-bytes. The purpose of
 this area is unknown.
 
-**Offset 0x0408**
+## Offset 0x0408
 
 HashSet: The text that EnCase shows in its column "Hash Set". The
 maximum string length is 39 characters. Characters are stored in
 Unicode. (*Based on hash file form EnCase v. 6.17*)
 
-**Offset 0x0458**
+## Offset 0x0458
 
 Category: The text that Encase shows in its column "category". The
 maximum string length is 19 characters. Each character is written as a
@@ -71,11 +71,11 @@ The cyrillic letter Д is represented by the 2 bytes
 Again, Intel little endian format is used. The unused space is filled up
 by zero-bytes.
 
-**Offset 0x047E**
+## Offset 0x047E
 
 Two zero-bytes.
 
-**Offset 0x0480**
+## Offset 0x0480
 
 Start of the hash entries. Each entry occupies 18 bytes: The hash value
 itself (16 bytes) followed by 2 zero-bytes. The next entry follows

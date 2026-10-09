@@ -1,32 +1,32 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
+AT and AT+ commands can be used to manually collect simple
+information. This is an ideal choice for "full control" over the
+communications that are sent and returned from the phone. These can
+also be used when there is no tool available to communicate with the
+phone. These commands were tested using a Motorola v551 GSM phone
+using Bluetooth and USB data cables. It is important to note that not
+all of these commands are supported by all phones, but the AT+CLAC
+command (usually) displays all of the available commands the GSM phone
+can respond to.
 
-* AT and AT+ commands can be used to manually collect simple
-  information. This is an ideal choice for "full control" over the
-  communications that are sent and returned from the phone. These can
-  also be used when there is no tool available to communicate with the
-  phone. These commands were tested using a Motorola v551 GSM phone
-  using Bluetooth and USB data cables. It is important to note that not
-  all of these commands are supported by all phones, but the AT+CLAC
-  command (usually) displays all of the available commands the GSM phone
-  can respond to.
-* With Motorola phones (and many others) there are **NO** AT commands
+* Motorola phones (and many others) **do not** have AT commands
   that can be used to retrieve multimedia content. For these, OBEX
   commands must be issued to the phone to return directory contents,
   ringtones, pictures and video.
-* Samsung GSM phones, on the other hand, **DO** have AT commands that
+* Samsung GSM phones, on the other hand, **do** have AT commands that
   allow access to the multimedia content.
 
 To use these AT commands:
 
-1.  Connect the phone and determine the number of the COM port that is
-    associated with it.
-2.  Open HyperTerminal, Realterm or any other terminal program that will
-    communicate with a specified COM port.
-3.  With the Motorola phone, type **AT+MODE=2**. This prepares the phone
-    for an extended AT+ command set. (+Cxxx and +MPxx)
+1. Connect the phone and determine the number of the COM port that is
+   associated with it.
+2. Open HyperTerminal, Realterm or any other terminal program that will
+   communicate with a specified COM port.
+3. With the Motorola phone, type **AT+MODE=2**. This prepares the phone
+   for an extended AT+ command set. (+Cxxx and +MPxx)
 
 After following these steps, you can continue with any of the commands
 below.

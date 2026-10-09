@@ -2,7 +2,7 @@
 tags:
   - Tools
 ---
-**dcfldd** is an enhanced version of [dd](dd.md) developed by
+dcfldd is an enhanced version of [dd](dd.md) developed by
 the U.S. Department of [Defense Computer Forensics
 Lab](defense_computer_forensics_lab.md). It has some useful
 features for forensic [investigators](investigator.md) such as:
@@ -20,10 +20,12 @@ The program only produces [raw image files](raw_image_format.md).
 
 ## Example
 
-**Unix/Linux**
+Unix/Linux:
 
-`dcfldd if=/dev/sourcedrive hash=md5,sha256 hashwindow=10G md5log=md5.txt sha256log=sha256.txt \`
-`       hashconv=after bs=512 conv=noerror,sync split=10G splitformat=aa of=driveimage.dd`
+```bash
+dcfldd if=/dev/sourcedrive hash=md5,sha256 hashwindow=10G md5log=md5.txt sha256log=sha256.txt \
+    hashconv=after bs=512 conv=noerror,sync split=10G splitformat=aa of=driveimage.dd
+```
 
 This command will read ten Gigabytes from the source drive and write
 that to a file called driveimage.dd.aa. It will also calculate the
@@ -34,14 +36,14 @@ and the sha256 hashes will be stored in a file called sha256.txt. The
 block size for transferring has been set to 512 bytes, and in the event
 of read errors, dcfldd will write zeros.
 
-**Windows**
+Windows:
 
 While there is a Windows executable of DCFLDD out there, it can be
 difficult to use. There is currently a PowerShell Script that can be
 used to help newcomers out, located
-[here](https://github.com/Linuxuser437442/powershell-dcfldd)
+<https://github.com/Linuxuser437442/powershell-dcfldd>
 
-## Precautions
+## Caution
 
 This tool is not suitable for imaging faulty drives:
 

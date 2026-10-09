@@ -10,10 +10,10 @@ tags:
   - Tools
   - Windows
 ---
-## Abstract
 
-* libdnet provides a simplified, portable interface to several low-level
-  networking routines, including
+libdnet provides a simplified, portable interface to several low-level
+networking routines, including:
+
 * network address manipulation
 * kernel arp(4) cache and route(4) table lookup and manipulation
 * network firewalling (IP filter, ipfw, ipchains, pf, PktFilter, ...)
@@ -53,9 +53,3 @@ tags:
 * [Universal TUN/TAP driver](https://vtun.sourceforge.net/tun/) - virtual
   point-to-point network tunnel device
 * [Tunnel driver for Solaris 8 (sparc64)](https://libdnet.sourceforge.net/tun-1.1-sol80.sparc64.gz)
-
-## References
-
-All information on this page can be found at
-[libdnet.sourceforge.net](https://libdnet.sourceforge.net/) and is
-credited to Dug Song - dugsong+libdnet@monkey.org

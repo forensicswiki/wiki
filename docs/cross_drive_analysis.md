@@ -7,7 +7,7 @@ information found on multiple hard drives. The technique, which is still
 being researched, can be used for identifying social networks and for
 performing anomaly detection.
 
-# References
+## External Links
 
 Garfinkel, S., "Forensic Feature Extraction and Cross-Drive Analysis,"
 The 6th Annual Digital Forensic Research Workshop Lafayette, Indiana,

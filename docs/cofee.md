@@ -5,9 +5,8 @@ tags:
   - Tools
   - Windows
 ---
-**Computer Online Forensic Evidence Extractor (COFEE)**
-
-COFEE is a collection of Microsoft software designed to all the easy
+Computer Online Forensic Evidence Extractor (COFEE)
+is a collection of Microsoft software designed to all the easy
 capture of important "live" computer evidence at the scene in cybercrime
 investigations, without special forensics expertise.
 
@@ -25,5 +24,5 @@ University and University College Dublin to continue the research and
 development that will help ensure that COFEE serves the needs of law
 enforcement, even as technology evolves.
 
-Law enforcement can get COFEE from NW3C at https://www.nw3c.org/ or by
+Law enforcement can get COFEE from NW3C at <https://www.nw3c.org/> or by
 contacting INTERPOL at COFEE@interpol.int.

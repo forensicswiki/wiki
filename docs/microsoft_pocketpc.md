@@ -3,7 +3,7 @@ tags:
   - Mobile
   - Windows
 ---
-**Microsoft Pocket PC**, sometimes referred to as P/PC or PPC, is based
+Microsoft Pocket PC, sometimes referred to as P/PC or PPC, is based
 upon the Windows CE framework. Variants of this operating system include
 versions such as Pocket PC 2000, Pocket PC 2002, Windows Mobile
 2003/2003 SE, 5 and Windows Mobile 6.0. Variants also exist for
@@ -108,6 +108,6 @@ some devices have built-in capability for taking images and videos,
 while other devices have tools such as biometric fingerprint readers and
 barcode scanners.
 
-## References
+## External Links
 
 * [The History of Microsoft Windows CE: Introduction](https://www.hpcfactor.com/support/windowsce/)

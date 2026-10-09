@@ -12,8 +12,8 @@ Belkasoft is registered within DUNS, SAM, CCR, ORCA and WAWF.
 
 ## Products
 
-The company’s flagship product is **[Belkasoft Evidence
-Center](belkasoft_evidence_center.md)**, an all-in-one digital
+The company’s flagship product is [Belkasoft Evidence
+Center](belkasoft_evidence_center.md), an all-in-one digital
 forensic solution. Belkasoft Evidence Center makes it easy for an
 investigator to acquire, search, analyze, store and share digital
 evidence found inside computer and mobile devices, RAM and cloud. The
@@ -25,16 +25,61 @@ analyzes the data source and lays out the most forensically important
 artifacts for an investigator to review, examine more closely or add to
 a report.
 
-[Belkasoft Triage](belkasoft_t.md) is digital forensic and
-incident response tool developed specifically for a quick analysis of a
-live computer and making a partial image of important data. The product
-is designed to assist in situations when an investigator or a first
-responder is at the scene of incident and needs to quickly identify and
-obtain specific digital evidence stored on a Windows machine.
+### Belkasoft Triage (Belkasoft T)
 
-[Belkasoft Remote Acquisition](belkasoft_r.md) is a digital
-forensic and incident response tool developed specifically for
-forensically sound remote acquisition and extraction.
+Belkasoft Triage is a new digital forensic and incident response
+tool developed specifically for a quick analysis of a live computer and
+making a partial image of important data.
+
+Belkasoft T is designed to assist in situations when an investigator
+or a first responder is at the scene of incident and needs to quickly
+identify and obtain specific digital evidence stored on a Windows
+machine.
+
+The product is irreplaceable in situations of time pressure, when there
+is a need to quickly detect presence of specific data and obtain
+investigative leads instead of conducting an in-depth analysis of all
+the digital evidence.
+
+#### Key features
+
+* Launch Belkasoft Triage from a dongle connected to a device being
+  investigated
+* Detect 1500+ types of computer, mobile and cloud artifacts such as
+  emails, chats, browsers, system settings and others
+* Automatically acquire a computer RAM dump
+* Detect presence of virtual machines, memory files and mobile backups
+* Detect skin tone in found pictures
+* Calculate file hash values and show an immediate alert on files with
+  known hashes
+* Stop the analysis at any time once you got enough information
+* Export discovered results partially or entirely
+* Select evidence to be included into the resulting image
+* Use the same dongle to store the image
+
+### Belkasoft Remote Acquisition (Belkasoft R)
+
+Belkasoft Remote Acquisition (Belkasoft R) is a new digital forensic
+and incident response tool developed specifically for forensically sound
+remote extractions of hard and removable drives, RAM, connected mobile
+devices, and even specific types of data. Belkasoft R will be useful in
+cases when an incident response analyst or a digital forensic
+investigator needs to gather evidence quickly and the devices in
+question are situated in geographically distributed locations
+
+#### Key features
+
+* Ease of agent deployment
+* Support for Windows and macOS operating systems
+* Straightforward acquisition
+* Mobile device support
+* Support for various network configurations
+* Quick partial acquisition
+* Network bandwidth management with flexible image upload scheduling
+* Management of a large network consisting of various devices under your
+  control
+
+### Free tools
 
 In addition to commercial products, Belkasoft offers a range of free
 forensic tools.

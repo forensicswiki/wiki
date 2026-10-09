@@ -53,7 +53,9 @@ scalable to huge evidence corpuses the AFF4 universe is infinite. All
 objects are addressable by their name which is unique in the universe.
 For example an AFF4 object might have a name of:
 
-`   urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2`
+```text
+urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2
+```
 
 This is a standard URN notation object. The URN is unique. There will
 never be another object created anywhere in the universe with the same
@@ -65,11 +67,13 @@ The AFF4 universe uses RDF to specify attributes about objects. In its
 simplest form (the one we use) RDF is just a set of statements about an
 object of the form:
 
-`  Subject   Attribute   Value`
+```text
+Subject   Attribute   Value
+```
 
 For example:
 
-```
+```text
   ******** Object urn:aff4:f3eba626-505a-4730-8216-1987853bc4d2 ***********
     aff4:stored = urn:aff4:4bdbf8bc-d8a5-40cb-9af0-fd7e4d0e2c9e
     aff4:type = image

@@ -3,8 +3,7 @@ tags:
   - Articles that need to be expanded
   - Mobile
 ---
-**Cell phones** or **mobile phones** are an important target for forensic
-investigators.
+Cell phones or mobile phones are an important target for forensic investigators.
 
 ## Technologies
 
@@ -33,7 +32,7 @@ investigators.
 
 ## Forensics
 
-**Procedures**
+### Procedures
 
 * [Cell Phone Forensics](cell_phone_forensics.md)
 * [SIM Card Forensics](sim_card_forensics.md)
@@ -44,11 +43,11 @@ investigators.
 
 ## Tools
 
-**Flashers**
+### Flashers
 
 * [UFS Tornado](ufs_tornado.md)
 
-**Hardware**
+### Hardware
 
 * [Azimuth RadioProof™ Enclosures](azimuth_radioproof_enclosures.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
@@ -62,7 +61,7 @@ investigators.
 * [Radio Frequency (RF) Jammers](radio_frequency_(rf)_jammers.md)
 * Radio Tactics Acesso, Apollo and Athena
 
-**Software**
+### Software
 
 * [Belkasoft](belkasoft.md) Evidence Center
 * [BitPIM](bitpim.md)

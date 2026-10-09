@@ -16,7 +16,7 @@ original name. These header files are automatically included in ZIP files under
 a hierarchy starting with "`__MACOSX`" when utilizing the Finder's "Archive
 as..." function.
 
-## References
+## External Links
 
 <http://bitsavers.org/pdf/apple/mac/a_ux/aux_2.0/030-0787-A_AUX_Toolbox_Macintosh_ROM_Interface_1990.pdf>
 from "A/UX Toolbox: Macintosh ROM Interface manual", Chapter 6 File Systems and

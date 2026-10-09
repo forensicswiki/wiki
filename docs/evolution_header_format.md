@@ -2,6 +2,8 @@
 tags:
   - Email Analysis
 ---
+An Evolution email header consists of:
+
 ```text
 Subject: header test
 From: Username <username@sendinghost.com>
@@ -14,7 +16,7 @@ X-Mailer: Evolution 2.10.1
 Content-Transfer-Encoding: 7bit
 ```
 
-The Message id consists of five parts:
+The Message-Id consists of five parts:
 
 1. The current time as returned by the `time` function followed by a
    period. The value is displayed in decimal and is the number of

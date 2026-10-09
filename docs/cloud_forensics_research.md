@@ -4,7 +4,7 @@ tags:
   - Research
   - Websites
 ---
-**In chronological order, most recent to oldest**
+In chronological order, most recent to oldest.
 
 <bibtex> @inproceedings{OrtonLegalCloud,
 

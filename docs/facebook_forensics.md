@@ -2,8 +2,6 @@
 tags:
   - Articles that need to be expanded
 ---
-### URL Signatures
-
 When a user views a JPEG or PNG from Facebook (from a profile, album,
 etc.) the URLs tend to have "fbcdn" or "facebook" in the hostname.
 Profile pictures tend to contain "profile" in the hostname as well. To
@@ -13,22 +11,15 @@ characters in the URL refer to the size of the image. There are a few
 main varieties of image URLs, and these three expressions should help
 you parse them.
 
-* /\d+_(\d+)_\d+_\[qs\]\\. *q is small, s is large*
-* \[as\](\d+)_\d+_\d+\\. *s is small, a is large*
-* \d+_\d+_(\d+)_\d+_\d+_\[asnq\]\\. ''s is small, a is medium, n is
-  large, q is square'
+* "/\d+\_(\d+)\_\d+\_\[qs\]\\.", where "q" represents small and "s" large
+* "\[as\](\d+)\_\d+\_\d+\\.", where "s" represents small andd "a" large
+* "\d+\_\d+\_(\d+)\_\d+\_\d+\_\[asnq\]\\.", where "s" represents small, "a"
+  medium, "n" large and "q" square
 
-## See also
+## External Links
 
 ### Residual Data
 
-* [Facebook Forensics](https://www.sans.org/digital-forensics-incident-response/),
-  SANS Computer Forensics and Incident Response Blog Entry, June
-  11, 2009. A few musings and links (that are reported above). Mostly
-  with tracking photos to facebook.
-* [Facebook Memory Forensics](https://www.sans.org/digital-forensics-incident-response/),
-  SANS Computer Forensics Incident Response Log, Nov. 20, 2009.
-  Discussion about facebook details left in memory.
 * [Facebook Chat Forensics](http://forensicsfromthesausagefactory.blogspot.com/2009/03/facebook-chat-forensics.html),
   March 20, 2009, details of how to recover chat from the JavaScript and
   JSON entries.
