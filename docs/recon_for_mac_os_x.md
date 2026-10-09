@@ -5,25 +5,23 @@ tags:
   - MacOS
   - Tools
 ---
-**RECON for Mac OS X** is a software tool developed by SUMURI to
-automate the forensic data gathering process on the Mac OS X operating
+RECON for Mac OS X is a software tool developed by [SUMURI](sumuri_llc.md) to
+automate the forensic data gathering process on the [Mac OS X](mac_os_x.md) operating
 system. It automates what an experienced examiner would need weeks to
 accomplish in minutes.
 
-## Product Overview
+## Overview
 
 RECON for Mac OS X automatically finds important artifacts, parses the
 data and presents them to you in a unified format that can be refined to
 produce automated reports.
 
-#### Main Features
+## Features
 
 RECON for Mac OS X includes all current versions of PALADIN, which comes
 with a full featured open source Forensic Suite, bootable forensic
 imager, a software write-blocker, and other advanced digital forensics
-tools.
-
-### Forensic Tools Included
+features:
 
 * Software Write-Blocker, Imager and Full Forensic Suite included.
 * Advanced Timeline Analysis.
@@ -36,7 +34,3 @@ tools.
 * Automatic identification of Spoliation artifacts.
 * Create customized reports – PDF, HTML, CSV and XML.
 * Image RAM, capture Volatile Data
-
-## External Links
-
-* [Official Website](https://sumuri.com/wp-content/uploads/2019/04/recon.jpg)

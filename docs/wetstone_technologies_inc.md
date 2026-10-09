@@ -7,8 +7,6 @@ tags:
 WetStone Technologies sells products and training for computer
 forensics.
 
-## Products
-
 * [LiveWire Investigator](livewire_investigator.md)
 
 ### Gargoyle Investigator™ Forensic Pro Edition
@@ -127,7 +125,7 @@ streaming steganography and Voice Over Internet Protocol (VOIP) based
 steganography will be covered. A host of both open source and
 proprietary technologies will be utilized during this class.
 
-#### Steganography is Evolving!
+#### Steganography is Evolving
 
 The art of analyzing steganography within images, multimedia and in
 network protocols is considered a black art. As criminals communicate
@@ -139,7 +137,7 @@ multimedia files and network protocols along with clear understanding of
 the known methods of data hiding are essential in order to participate
 in this analysis.
 
-#### Who Should Attend?
+#### Who Should Attend
 
 * Forensic Investigators
 * Local, state and federal law enforcement
@@ -194,7 +192,7 @@ latest techniques to detect, shunt, disrupt and destroy steganography
 communications. Identify those using steganography and stop the leak of
 vital information from your organization.
 
-#### Steganography is Global Threat!
+#### Steganography is Global Threat
 
 Steganography is capable of concealing the mere existence of
 incriminating information and/or covert communications. Steganography

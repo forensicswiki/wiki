@@ -1,9 +1,7 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
 ---
-## Complete Guide: MAB File
-
 All the contacts are maintained in the proper address book of every
 email client for the proper management of contacts. Out of which, one
 such email application is Thunderbird that stores its address book data
@@ -36,21 +34,19 @@ There are basically three types of Mozilla Address Book most commonly
 used:
 
 1. **abook.mab (Personal Address Book):** It is a default folder that
-saves all the contacts of Personal Address Book. Thus, when a user saves
-their contacts in Personal address book, all their contacts are added to
-abook.mab file. If it all the abook.mab file is exported, one can simply
-open abook.mab contacts from the Personal Address Book.
-
+   saves all the contacts of Personal Address Book. Thus, when a user saves
+   their contacts in Personal address book, all their contacts are added to
+   abook.mab file. If it all the abook.mab file is exported, one can simply
+   open abook.mab contacts from the Personal Address Book.
 2. **history.mab (Collected Address Book):** Thunderbird and other
-email clients maintain a record of contacts automatically for the faster
-utilization and data management. All these addresses collected are kept
-in history.mab file. It encircles information about all contacts that
-have been collected by mail client.
-
+   email clients maintain a record of contacts automatically for the faster
+   utilization and data management. All these addresses collected are kept
+   in history.mab file. It encircles information about all contacts that
+   have been collected by mail client.
 3. **impab.mab (User-defined or Imported):** If user needs to import
-Address book for retaining the embedded contacts then, all the contacts
-are saved into impab.mab file. So that, while viewing impab.mab file,
-users can get complete records of contacts that are imported.
+   Address book for retaining the embedded contacts then, all the contacts
+   are saved into impab.mab file. So that, while viewing impab.mab file,
+   users can get complete records of contacts that are imported.
 
 ## Location of Thunderbird Address Book File
 
@@ -63,6 +59,13 @@ their Thunderbird profile on their system then, it can be located at:
 C:\abc\admin\AppData\Roaming\Thunderbird\Profiles"
 ```
 
+However, users of SeaMonkey can also find the location of .mab file
+extension at:
+
+```text
+C:\Users\xyz\AppData\Roaming\Mozilla\Profiles\content<Profile Name>
+```
+
 ### For Mac Users
 
 ```text
@@ -71,14 +74,6 @@ C:\abc\admin\AppData\Roaming\Thunderbird\Profiles"
 
 However, users of SeaMonkey can also find the location of .mab file
 extension at:
-
-### For Windows Users
-
-```text
-C:\Users\xyz\AppData\Roaming\Mozilla\Profiles\content<Profile Name>
-```
-
-### For Mac Users
 
 ```text
 ~/Library/Application Support/SeaMonkey/Profiles/trainer.<Profile name>
@@ -98,16 +93,14 @@ right to open and utilize .mab file within its interface. Thus, to open
 as well as view .mab file format, follow the stated steps:
 
 1. Open LibreOffice application on your system.
-
 2. Then, choose **File** option and select Wizards.
-
 3. From drop down list, select **Address Data Book Source**.
-
 4. Choose an **external data source** option.
-
 5. Select the required type of file to be viewed.
 
-**Limitation-** It can only be made after installing the driver for
+### Limitations
+
+It can only be made after installing the driver for
 viewing Address book .mab file. It is not possible to open .mab file
 format without driver installation for it. Therefore, the whole process
 is quite complex in using it.

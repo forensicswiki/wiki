@@ -2,6 +2,8 @@
 tags:
   - Email analysis
 ---
+The mutt header consists of:
+
 ```text
 Date: Sat, 28 Jul 2007 18:29:15 +0200
 To: Username <username@receivinghost.com>
@@ -14,7 +16,7 @@ User-Agent: Mutt/1.5.13 (2006-08-11)
 From: Username <username@sendinghost.com>
 ```
 
-The format of the Message id field is:
+The format of the Message-ID field is:
 
 1. Four digits for the current year
 2. Two digits for the current month

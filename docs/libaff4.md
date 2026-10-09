@@ -299,7 +299,7 @@ r/r 10042:  abi-2.6.22-14-generic
 When you are finished and wish to unmount the filesystem:
 
 ```bash
-$ fusermount -u /tmp/fuse
+fusermount -u /tmp/fuse
 ```
 
 ## Creating map streams for filesystems

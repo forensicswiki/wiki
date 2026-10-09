@@ -2,7 +2,7 @@
 tags:
   - Organization
 ---
-**Palm** is a common term for a small-scale (hand-held) computer that
+Palm is a common term for a small-scale (hand-held) computer that
 runs Palm's [PalmOS](palmos.md) software.
 
 ## Overview
@@ -39,15 +39,15 @@ tools such as Calendar, Contacts, Memo Pad, Expense and Tasks. As later
 versions were released, more features were added. Here is a list of
 various Palm OS releases:
 
-##### Version 3.1, 3.3, 3.5
+#### Version 3.1, 3.3, 3.5
 
 Added support for color, multiple expansion ports, new processors, etc.
 
-##### Version 4.0
+#### Version 4.0
 
 Added a standard interface for external FS access
 
-##### Version 5.0
+#### Version 5.0
 
 First version to support Acorn Risc Machine (ARM) devices. Later
 versions which included OS 5.2, featured Graffiti 2. It began the

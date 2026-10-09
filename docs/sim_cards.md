@@ -135,45 +135,45 @@ DF’s and EF’s
 These software titles can extract such technical data from the SIM card
 as:
 
-* **International Mobile Subscriber Identity (IMSI)**: A unique
+* International Mobile Subscriber Identity (IMSI): A unique
   identifying number that identifies the phone/subscription to the
   [GSM](gsm.md) network
-* **Mobile Country Code (MCC)**: A three-digit code that represents the
+* Mobile Country Code (MCC): A three-digit code that represents the
   SIM card's country of origin
-* **Mobile Network Code (MNC)**: A two-digit code that represents the
+* Mobile Network Code (MNC): A two-digit code that represents the
   SIM card's home network
-* **Mobile Subscriber Identification Number (MSIN)**: A unique ten-digit
+* Mobile Subscriber Identification Number (MSIN): A unique ten-digit
   identifying number that identifies the specific subscriber to the GSM
   network
-* **Mobile Subscriber International ISDN Number (MSISDN)**: A number
+* Mobile Subscriber International ISDN Number (MSISDN): A number
   that identifies the phone number used by the headset
-* **Abbreviated Dialing Numbers (ADN)**: Telephone numbers stored in
+* Abbreviated Dialing Numbers (ADN): Telephone numbers stored in
   sims memory
-* **Last Dialed Numbers (LDN)**
-* **Short Message Service (SMS)**: Text Messages
-* **Public Land Mobile Network (PLMN) selector**
-* **Forbidden PLMNs**
-* **Location Information (LOCI)**
-* **General Packet Radio Service (GPRS) location**
-* **Integrated Circuit Card Identifier (ICCID)**
-* **Service Provider Name (SPN)**
-* **Phase Identification**
-* **SIM Service Table (SST)**
-* **Language Preference (LP)**
-* **Card Holder Verification (CHV1) and (CHV2)**
-* **Broadcast Control Channels (BCCH)**
-* **Ciphering Key (Kc)**
-* **Ciphering Key Sequence Number**
-* **Emergency Call Code**
-* **Fixed Dialing Numbers (FDN)**
-* **Forbidden PLMNs**
-* **Local Area Identitity (LAI)**
-* **Own Dialing Number**
-* **Temporary Mobile Subscriber Identity (TMSI)**
-* **Routing Area Identifier (RIA) network code**
-* **Service Dialing Numbers (SDNs)**
-* **Service Provider Name**
-* **Depersonalizatoin Keys**
+* Last Dialed Numbers (LDN)
+* Short Message Service (SMS): Text Messages
+* Public Land Mobile Network (PLMN) selector
+* Forbidden PLMNs
+* Location Information (LOCI)
+* General Packet Radio Service (GPRS) location
+* Integrated Circuit Card Identifier (ICCID)
+* Service Provider Name (SPN)
+* Phase Identification
+* SIM Service Table (SST)
+* Language Preference (LP)
+* Card Holder Verification (CHV1) and (CHV2)
+* Broadcast Control Channels (BCCH)
+* Ciphering Key (Kc)
+* Ciphering Key Sequence Number
+* Emergency Call Code
+* Fixed Dialing Numbers (FDN)
+* Forbidden PLMNs
+* Local Area Identitity (LAI)
+* Own Dialing Number
+* Temporary Mobile Subscriber Identity (TMSI)
+* Routing Area Identifier (RIA) network code
+* Service Dialing Numbers (SDNs)
+* Service Provider Name
+* Depersonalizatoin Keys
 
 This information can be used to contact the service provider to obtain
 even more information than is stored on the SIM card.

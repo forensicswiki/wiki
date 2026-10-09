@@ -32,26 +32,29 @@ utility does.
 
 1. Load the x64 Free Build Environment from the WDK (in start menu)
 2. Go to the mdd directory, e.g. C:\src\mdd\driver\mdd\ and run build
-3. You should now have mdd.sys in
-   C:\src\mdd\driver\mdd\objfre_win7_amd64\amd64
+3. You should now have mdd.sys in C:\src\mdd\driver\mdd\objfre_win7_amd64\amd64
 
 ### Signing the driver
 
-* Make sure the WDK is installed, you need that for the signing.
-* Get the right cross certificate file, see
-  [Cross-Certificates for Kernel Mode Code Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
-* Convert the key you have to pfx, if its cert + key you want:
-  * setup a secure spot to put the private key, this should not be on
-    corp or unprotected at any time
+Make sure the Windows Development Kit (WDK) is installed, you need that for the
+signing.
+
+Get the right cross certificate file, see
+[Cross-Certificates for Kernel Mode Code Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
+
+Convert the key you have to pfx, if its cert + key you want:
+
+* Set up a secure spot to put the private key, this should not be unprotected
+  at any time
 
 ```text
 openssl pkcs12 -export -out out.pfx -inkey in.key -in in.crt -certfile ca.crt
 ```
 
-  * use a strong password
-  * shred the .key immediately after use
+* use a strong password
+* shred the .key immediately after use
 
-* Sign the driver by running:
+Sign the driver by running:
 
 ```text
 signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
@@ -101,10 +104,6 @@ this, using the command line (cmd.exe).
   (this is adjustable, but not necessary for our purposes)
 * Run "sc query mdd" and - ta-da - you'll see the mdd service
 * Run "sc delete mdd" and it's gone, and mdd can now be run again.
-
-### Error 1062
-
-John Judd will be entering text here.
 
 ### Can't Use Network Share in Vista
 

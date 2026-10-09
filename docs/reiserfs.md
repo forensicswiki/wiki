@@ -3,408 +3,37 @@ tags:
   - Articles that need to be expanded
   - File Systems
 ---
-## Detecting ReiserFS in a forensics environment
-
-Note: These are in little-endian format.
-
-<table border="0">
-<tr>
-<th>
-
-**Name**
-
-</th>
-<th>
-
-Size
-
-</th>
-<th>
-
-Description
-
-</th>
-</tr>
-<tr>
-<td>
-
-Block count
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The number of blocks in the partition
-
-</td>
-</tr>
-<tr>
-<td>
-
-Free blocks
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The number of free blocks in the partition
-
-</td>
-</tr>
-<tr>
-<td>
-
-Root block
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The block number of the block containing the root node
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal block
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The block number of the block containing the first journal node
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal device
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-Journal device number (not sure what for)
-
-</td>
-</tr>
-<tr>
-<td>
-
-Orig. journal size
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-Original journal size. Needed when using partition on systems with
-different default journal sizes.
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal trans. max
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The maximum number of blocks in a transaction
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal magic
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-A random magic number
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal max batch
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The maximum number of blocks in a transaction
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal max commit age
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-Time in seconds of how old an asynchronous commit can be
-
-</td>
-</tr>
-<tr>
-<td>
-
-Journal max trans. age
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-Time in seconds of how old a transaction can be
-
-</td>
-</tr>
-<tr>
-<td>
-
-Blocksize
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The size in bytes of a block
-
-</td>
-</tr>
-<tr>
-<td>
-
-OID max size
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The maximum size of the object id array
-
-</td>
-</tr>
-<tr>
-<td>
-
-OID current size
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The current size of the object id array
-
-</td>
-</tr>
-<tr>
-<td>
-
-State
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-State of the partition: valid (1) or error (2)
-
-</td>
-</tr>
-<tr>
-<td>
-
-Magic string
-
-</td>
-<td align="center">
-
-12
-
-</td>
-<td>
-
-The reiserfs magic string, should be "ReIsEr2Fs"
-
-</td>
-</tr>
-<tr>
-<td>
-
-Hash function code
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-The hash function that is being used to sort names in a directory
-
-</td>
-</tr>
-<tr>
-<td>
-
-Tree Height
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The current height of the disk tree
-
-</td>
-</tr>
-<tr>
-<td>
-
-Bitmap number
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The amount of bitmap blocks needed to address each block of the file
-system
-
-</td>
-</tr>
-<tr>
-<td>
-
-Version
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
-The reiserfs version number
-
-</td>
-</tr>
-<tr>
-<td>
-
-Reserved
-
-</td>
-<td align="center">
-
-2
-
-</td>
-<td>
-
- 
-
-</td>
-</tr>
-<tr>
-<td>
-
-Inode Generation
-
-</td>
-<td align="center">
-
-4
-
-</td>
-<td>
-
-Number of the current inode generation.
-
-</td>
-</tr>
-</table>
-
-The following is the start of the superblock of a 256MB reiserfs
-partition on an Intel based system:
+ReiserFs uses little-endian.
+
+## Superblock
+
+The superblock of a ReiserFS consist of:
+
+| Name | Size | Description |
+| --- | --- | --- |
+| Block count | 4 | The number of blocks in the partition |
+| Free blocks | 4 | The number of free blocks in the partition |
+| Root block | 4 | The block number of the block containing the root node |
+| Journal block | 4 | The block number of the block containing the first journal node |
+| Journal device | 4 | Journal device number (not sure what for) |
+| Orig. journal size | 4 | Original journal size. Needed when using partition on systems with different default journal sizes. |
+| Journal trans. max | 4 | The maximum number of blocks in a transaction |
+| Journal magic | 4 | A random magic number |
+| Journal max batch | 4 | The maximum number of blocks in a transaction |
+| Journal max commit age | 4 | Time in seconds of how old an asynchronous commit can be |
+| Journal max trans. age | 4 | Time in seconds of how old a transaction can be |
+| Blocksize | 2 | The size in bytes of a block |
+| OID max size | 2 | The maximum size of the object id array |
+| OID current size | 2 | The current size of the object id array |
+| State | 2 | State of the partition: valid (1) or error (2) |
+| Magic string | 12 | The reiserfs magic string, should be "ReIsEr2Fs" |
+| Hash function code | 4 | The hash function that is being used to sort names in a directory |
+| Tree Height | 2 | The current height of the disk tree |
+| Bitmap number | 2 | The amount of bitmap blocks needed to address each block of the file system |
+| Version | 2 | The reiserfs version number |
+| Inode Generation | 4 | Number of the current inode generation |
+
+### Example
 
 ```text
 00000000 66 00 01 00 93 18 00 00 82 40 00 00 12 00 00 00  f........@......
@@ -418,6 +47,7 @@ partition on an Intel based system:
 title="superblock_example" width="550"
 alt="superblock_example" />
 
+```text
 Block count: 65638
 Free blocks: 6291
 Root block: 16514
@@ -439,6 +69,7 @@ Tree height: 4
 Bitmap number: 3
 Version: 2
 Inode generation: 21212
+```
 
 ## External Links
 

@@ -9,23 +9,29 @@ database.
 
 ## File Locations
 
-**Windows XP**
+### Windows XP
 
-C:\Documents and Settings\\<username>\Application
-Data\Mozilla\Firefox\Profiles\\<profile folder>\places.sqlite
+```text
+C:\Documents and Settings\\<username>\Application Data\Mozilla\Firefox\Profiles\\<profile folder>\places.sqlite
+```
 
-**Windows Vista**
+### Windows Vista
 
-C:\Users\\<user>\AppData\Roaming\Mozilla\Firefox\Profiles\\<profile folder>\places.sqlite
+```text
+C:\Users\<user>\AppData\Roaming\Mozilla\Firefox\Profiles\<profile folder>\places.sqlite
+```
 
-**GNU/Linux**
+### Linux
 
+```text
 /home/<user>/.mozilla/firefox/<profile folder>/places.sqlite
+```
 
-**Mac OS X**
+### Mac OS X
 
-/Users/<user>/Library/Application
-Support/Firefox/Profiles/default.lov/places.sqlite
+```text
+/Users/<user>/Library/Application Support/Firefox/Profiles/default.lov/places.sqlite
+```
 
 ## File Header
 

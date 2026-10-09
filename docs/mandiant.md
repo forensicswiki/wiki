@@ -32,13 +32,13 @@ community, including (but not limited to):
 
 | Product Name | Description | Version | Status | Link |
 | --- | --- | --- | --- | --- |
-| capa | Open source tool to identify capabilities within an executable file | 4.0.1 | Active | [Link](https://github.com/mandiant/capa) |
-| Commando-VM | A Windows-based security distribution for penetration testing and red teaming | N/A | Active | [Link](https://github.com/mandiant/commando-vm) |
-| First Response | An agent-based incident response tool. | N/A | Discontinued | N/A |
-| Flare-VM | A Windows-based security distribution for malware analysis, incident response, and other cybersecurity activities | 3.0.1 | Active | [Link](https://github.com/mandiant/flare-vm)
-| Floss (Flare Obfuscated String Solver) | A tool to automatically extract obfuscated strings from malware | 2.1.0 | Active | [Link](https://github.com/mandiant/flare-floss) |
-| Red Curtain | Originally released at BlackHat Federal in 2007, this tool was described as a malware detection product | N/A | Discontinued | N/A |
-| Web Historian | A free tool to parse web browser history from FireFox 2/3+, Chrome 3+, and Internet Explorer versions 5 through 8 | 2.0 | Active | [Link](https://www.mandiant.com/resources/blog/web-historian-reloaded) |
+| capa | Open source tool to identify capabilities within an executable file | 4.0.1 | Active | <https://github.com/mandiant/capa>) |
+| Commando-VM | A Windows-based security distribution for penetration testing and red teaming | N/A | Active | <https://github.com/mandiant/commando-vm> |
+| First Response | An agent-based incident response tool | N/A | Discontinued | |
+| Flare-VM | A Windows-based security distribution for malware analysis, incident response, and other cybersecurity activities | 3.0.1 | Active | <https://github.com/mandiant/flare-vm> |
+| Floss (Flare Obfuscated String Solver) | A tool to automatically extract obfuscated strings from malware | 2.1.0 | Active | <https://github.com/mandiant/flare-floss> |
+| Red Curtain | Originally released at BlackHat Federal in 2007, this tool was described as a malware detection product | N/A | Discontinued | |
+| Web Historian | A free tool to parse web browser history from FireFox 2/3+, Chrome 3+, and Internet Explorer versions 5 through 8 | 2.0 | Active | |
 
 ## External Links
 

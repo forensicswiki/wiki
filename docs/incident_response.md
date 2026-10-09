@@ -35,6 +35,22 @@ install the program on multiple computers, gather data from all of them,
 and then view the results in the aggregate. Finding the victim or
 victims can be easier if they stand out from the crowd.
 
+### Individual Tools
+
+* [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+
+### Script Based Tools
+
+* [First Responder's Evidence Disk (fred)](first_responder's_evidence_disk.md)
+* [Microsoft COFEE](cofee.md)
+* [Windows Forensic Toolchest (wft)](windows_forensic_toolchest.md)
+* [RAPIER](regimented_potential_incident_examination_report.md)
+
+### Agent Based Tools
+
+* [GRR](grr.md)
+* Mandiant First Response (FIR), supersceded by FireEye agent
+
 ## External Links
 
 * [Preservation of Fragile Digital Evidence by First Responders](http://old.dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
@@ -75,24 +91,6 @@ victims can be easier if they stand out from the crowd.
 * [Palantir: A Framework for Collaborative Incident Response and Investigation](https://www.researchgate.net/publication/221190732_Palantir_A_framework_for_collaborative_incident_response_and_investigation),
   Himanshu Khurana, Jim Basney, Mehedi Bakht, Mike Freemon, Von Welch,
   Randy Butler, April 2009
-
-## Tools
-
-### Individual Tools
-
-* [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
-
-### Script Based Tools
-
-* [First Responder's Evidence Disk (fred)](first_responder's_evidence_disk.md)
-* [Microsoft COFEE](cofee.md)
-* [Windows Forensic Toolchest (wft)](windows_forensic_toolchest.md)
-* [RAPIER](regimented_potential_incident_examination_report.md)
-
-### Agent Based Tools
-
-* [GRR](grr.md)
-* Mandiant First Response (FIR), supersceded by FireEye agent
 
 ## Books
 

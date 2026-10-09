@@ -9,10 +9,10 @@ URL's provided are for reference and other vendors and suppliers exist
 for said equipment. Please search Internet for other competitive
 vendors.
 
-*Note: This equipment is not a definitive list and substitutions can be
-made for equivalent tools and equipment.*
+> Note: This equipment is not a definitive list and substitutions can be
+> made for equivalent tools and equipment.
 
-**JTAG and Chip-Off Equipment List**
+## JTAG and Chip-Off Equipment List
 
 * iSeasamo Phone Opening Tool
 * Carton SPZT-50PG Microscope (optional: w/trinocular)
@@ -56,7 +56,7 @@ made for equivalent tools and equipment.*
 * Air Ionizer Dr. Schneider SL-001
 * 8" x 8" x 3/8" steel plate
 
-**JTAG Specific Equipment List**
+## JTAG Specific Equipment List
 
 * RIFF Box
 * RIFF Box 2 (JTAG and EMMC)
@@ -76,7 +76,7 @@ made for equivalent tools and equipment.*
 * UFI BOX (JTAG, EMMC, SPI)
 * Programmer UFS / eMMC / eMCP NuProg-E
 
-**Add-On Tools / Adapters For JTAG Specific Equipment List**
+## Add-On Tools / Adapters For JTAG Specific Equipment List
 
 * E-Mate E-Socket 5-in-1 High Speed EMMC Programmer for ATF - Z3x-Pro - GPGEMMC
 * E-Mate Pro eMMC Tool MoorC v2
@@ -114,7 +114,7 @@ made for equivalent tools and equipment.*
 * JTAG SonyEricsson adapters
 * JTAG ZTE adapters
 
-**eMMC ISP Specific Equipment List**
+## eMMC ISP Specific Equipment List
 
 * VR-TABLE Forensic Tool for JTAG/EMMC/FBUS Tool
 * Inspection camera for VR-Table - VGA 2Mpx with holder
@@ -126,7 +126,7 @@ made for equivalent tools and equipment.*
 * Adapter EMMC/JTAG ATF v2 5in1 GPG
 * EMMC adapter for Easy Z3x JTAG Box
 
-**Chip-Off Specific Equipment List**
+## Chip-Off Specific Equipment List
 
 * Wagner HT1000 Heat Gun
 * Heat Gun stand
@@ -149,7 +149,7 @@ made for equivalent tools and equipment.*
 * Sireda eMMC Burn-In Socket (size 12 x 18mm)
 * Sireda eMMC Burn-In Socket (size 14 x 18mm)
 
-**Notes**
+## Notes
 
 1. The UP-828 driver is not signed and therefore doesn't work by
 default in Windows 7 64-bit. The programmer is identified as a as a

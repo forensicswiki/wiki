@@ -206,7 +206,7 @@ On MacOS-X
 /Users/$USER/Library/Caches/Google/Chrome/$PROFILE/Cache
 ```
 
-**TODO confirm the following paths**
+And potentially:
 
 ```text
 /Users/$USER/Caches/Chromium/$PROFILE/Cache/
@@ -227,7 +227,7 @@ On MacOS-X
 
 On Windows XP
 
-**TODO confirm the following paths**
+And potentially:
 
 ```text
 C:\Documents and Settings\%USERNAME%\Local Settings\Application Data\Chromium\User Data\Cache\

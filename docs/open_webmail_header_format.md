@@ -2,6 +2,8 @@
 tags:
   - Email analysis
 ---
+The Open Webmail header consists of:
+
 ```text
 From: "Username" <username@sendinghost.com>
 To: "Username" <username@receivinghost.com>

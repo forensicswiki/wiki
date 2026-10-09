@@ -43,7 +43,13 @@ git checkout -b [article-branch-name]
 git push origin [article-branch-name]
 ```
 
-5. Create PR for review
+5. Checklist before creating a PR
+  * make sure your changes contain digital forensic relevant information, e.g.
+    when listing tools include forensics relevant tradeoffs.
+  * make sure external links are publicly accessible. Links with signup or
+    paywalls, or georestriction will be removed.
+
+6. Create PR for review
 
 <!-- ## TODO: Example Using the GitHub Web UI -->
 
@@ -178,7 +184,7 @@ tags:
 ---
 ```
 
-#### Example 2:  An article about an open source Linux/macOS tool that parses logs in /var/messages
+#### Example 2: An article about an open source Linux/macOS tool that parses logs in /var/messages
 
 An article about tools should contain the OSes that it supports (Linux and
 macOS), what the tool is used for (in this case, Log Analysis), and the
@@ -195,7 +201,7 @@ tags:
 ---
 ```
 
-#### Example 3:  An article about Bitlocker encryption
+#### Example 3: An article about Bitlocker encryption
 
 An article about Bitlocker should contain the following tags:
 
@@ -211,7 +217,7 @@ tags:
 Bitlocker is a type of `Encryption`, available only for `Windows`, and might be
 relevant during `Anti-Forensics` analysis.
 
-#### Example 4:  An article about the zip file format
+#### Example 4: An article about the zip file format
 
 File Types are tagged with File Format and the file type. In this case, ZIP
 files are Archive files.
@@ -224,7 +230,7 @@ tags:
 ---
 ```
 
-#### Example 5:  An article about Windows System Restore Points
+#### Example 5: An article about Windows System Restore Points
 
 Windows System Restore Points are part of the operating system (`OS Component`)
 of Windows.
@@ -252,19 +258,19 @@ optional.
 1. Setup a Python environment
 
 ```bash
-$ python3 -m venv mkdocs
+python3 -m venv mkdocs
 ```
 
 2. Activate Python environment
 
 ```bash
-$ source mkdocs/bin/activate
+source mkdocs/bin/activate
 ```
 
 3. Install mkdocs on your system.
 
 ```bash
-$ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
+pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
 ```
 
 #### Run mkdocs

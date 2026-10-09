@@ -11,27 +11,36 @@ mobile devices (iPhone/iPad/iPod Touch).
 iOS runs a reduced variant of [OSX](mac_os_x.md) and
 [HFSX](hfs+.md) as a file system.
 
-A majority of the useful information is stored in /private/var2/mobile/
-However there is other useful information stored in the keychains and db
-folders.
+A majority of the useful information is stored in the folder
+"/private/var2/mobile/". However there is other useful information stored in
+the keychains and db folders.
 
 iOS uses sqlite and plist files to store information.
 
-**/private/var2/mobile**
+### /private/var2/mobile folder
 
-This contains three folders: Applications, Library and Media
+This folder contains three sub folders:
+
+* Applications
+* Library
+* Media
 
 Applications contains a series of folders, which contain the data for
 all of the apps stored on the phone. The name of each app is stored in
 its iTunesMetadata.plist.
 
-Library contains the most useful information: - Address Book -
-Calendar - Safari - favorites, open tabs, web history - Mail - mail is
-encrypted and therefore requires the keychain to be decrypted before it
-can be accessed - SMS - sms.db, which may include deleted SMS messages -
-Notes - notes.sqlite, which may include deleted notes - Voicemail -
-Spotlight - Spotlight database may contain text messages that have since
-been deleted.
+Library contains the most useful information:
+
+* Address Book
+* Calendar
+* Mail - mail is encrypted and therefore requires the keychain to be decrypted
+  before it can be accessed
+* Notes - notes.sqlite, which may include deleted notes
+* Safari - favorites, open tabs, web history
+* SMS - sms.db, which may include deleted SMS messages
+* Spotlight - Spotlight database may contain text messages that have since been
+  deleted.
+* Voicemail
 
 Media contains all Photos loaded onto the device, Books, Purchases,
 Podcasts, Recordings and Pictures/Videos taken
@@ -54,7 +63,8 @@ operating systems (listed alphabetically):
 
 ## External Links
 
-* [The Future of Mobile Forensics](https://belkasoft.com/future-of-mobile-forensics),
-  article by [Belkasoft](belkasoft.md)
-* [Database Parsing Tools](https://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html)
-* [iOS (iPhone OS) Forensics](https://www.systoolsgroup.com/forensics/sqlite/ios.html)
+* [Future of Mobile Forensics](https://belkasoft.com/future-of-mobile-forensics),
+  by [Belkasoft](belkasoft.md)
+* [iPhone Forensics Tools](https://linuxsleuthing.blogspot.com/2011/05/iphone-forensics-tools.html),
+  May 4, 2011
+* [Getting Started with iOS Forensics](https://www.systoolsgroup.com/forensics/sqlite/ios.html)

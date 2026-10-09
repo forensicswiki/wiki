@@ -9,9 +9,9 @@ how to start.
 
 1. Read the proceedings for the past four years of the [DFRWS](https://dfrws.org/)
    conference.
-1. Review the proceedings from the past few years of the IEEE/SADFE
+2. Review the proceedings from the past few years of the IEEE/SADFE
    (Systematic Approaches to Digital Forensics Engineering) workshops.
-1. Review the [IFIP Working Group 11.9 on Digital Forensics](http://www.ifip119.org/)
+3. Review the [IFIP Working Group 11.9 on Digital Forensics](http://www.ifip119.org/)
    website and look at the proceedings from the past conferences (unfortunately,
    you can't download the papers and the book costs more than \$100, but if you
    see something interesting it can usually be requested via
@@ -19,9 +19,9 @@ how to start.
    SpringerLink which makes full text of these proceedings available to
    students and faculty as part of the school subscription)
    * [IFIP WG 11.9 publications](http://www.ifip119.org/Publications/)
-1. Search for interesting forensic terms at the [ACM Digital Library](https://dl.acm.org/)
+4. Search for interesting forensic terms at the [ACM Digital Library](https://dl.acm.org/)
    and [CiteSeer](https://citeseer.ist.psu.edu/)
-1. Review the [Sleuth Kit Website](http://www.sleuthkit.org/). In particular,
+5. Review the [Sleuth Kit Website](http://www.sleuthkit.org/). In particular,
    review the issues of [The Sleuth Kit Informer](http://www.sleuthkit.org/informer/index.php)
    and download a copy of Sleuth Kit for your computer.
 
@@ -42,7 +42,7 @@ compile and install them in the order specified below.
 1. Download a copy of [libewf](https://github.com/libyal/libewf-legacy)
    and install it on your computer. This will allow your forensic tools
    to read and process [EnCase E01 disk images](encase_image_file_format.md).
-1. Download a copy of [Sleuthkit](http://www.sleuthkit.org/sleuthkit/)
+2. Download a copy of [Sleuthkit](http://www.sleuthkit.org/sleuthkit/)
    and install it. Sleuth Kit is the basic open source computer
    forensics tool that allows the extraction of files from disk images.
    You can use it to recover deleted files.
@@ -75,5 +75,5 @@ try these:
    * Can you determine *where* the photos were taken?
    * Can you determine the username of the person who took the photos?
    * Can you determine the clock offset of the camera from real time?
-1. Download [nps-2009-ubnist1](https://downloads.digitalcorpora.org/corpora/drives/nps-2009-ubnist1)
+2. Download [nps-2009-ubnist1](https://downloads.digitalcorpora.org/corpora/drives/nps-2009-ubnist1)
    and find the government documents that were stored on the USB device.

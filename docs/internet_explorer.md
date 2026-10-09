@@ -26,9 +26,9 @@ Internet Explorer will apply its setting in the following order, where
 the lower the order overrides settings in the higher order.
 
 1. Settings in Machine policy key
-1. Settings in User policy key
-1. Settings in User preference key
-1. Settings in Machine preference key
+2. Settings in User policy key
+3. Settings in User preference key
+4. Settings in Machine preference key
 
 Machine policy key
 
@@ -65,19 +65,14 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
 5 - Custom
 ```
 
-### WPAD
-
-**TODO add some text**
-
 ## Command line options
 
-MSIE supports various command line options, see: [IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85))
+MSIE supports various command line options, see:
+[IE Command-Line Options](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/hh826025(v=vs.85))
 
 ## Artifacts
 
 ### Recovery store
-
-**TODO add some text**
 
 On Windows Vista and later:
 

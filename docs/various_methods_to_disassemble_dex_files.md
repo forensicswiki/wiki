@@ -94,6 +94,7 @@ in this analysis to generate the disassembly is:
 
 ```text
 $ java -jar baksmali-1.2.4.jar classes.dex
+...
 ```
 
 The command outputs several files and produces the
@@ -152,14 +153,15 @@ Jasmin syntax and partial Dalvik opcodes as:
 An easier method for disassembling DEX files is to reproduce the Java
 files. The procedure for performing this task is to take the Dalvik
 opcodes to the Java byte codes (JAR file). The next step is to take a
-Java decompiler, which will produce several java files. The two tools
-used in the section are dex2jar (available at
-<https://github.com/pxb1988/dex2jar>) and a java decompiler of choice.
+Java decompiler, which will produce several Java files. The two tools
+used in the section are [dex2jar](https://github.com/pxb1988/dex2jar)
+and a Java decompiler of choice.
+
 The steps performed to complete this transformation are:
 
 1. $ ./dex2jar.bat classes.dex
 
-2. Load the produced JAR file from dex2jar into the java decompiler.
+2. Load the produced JAR file from dex2jar into the Java decompiler.
 
 The main class produced from the decompilation process using dex2jar is
 listed below.

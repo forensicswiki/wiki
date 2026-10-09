@@ -28,9 +28,7 @@ It is important to note that because running Netcat creates on open
 listening port on your machine, the use of Netcat can present a
 significant security risk if used improperly. Be sure not to leave
 Netcat running when not in use, and avoid using switches (such as -e)
-that allow commands received by Netcat to be run on your machine. See
-[here](https://www.sans.org/security-resources/)
-for a list of Netcat switches.
+that allow commands received by Netcat to be run on your machine.
 
 ## Usage Instructions
 
@@ -45,7 +43,9 @@ To use Netcat, you first need to set it up on your forensic workstation
 to listen for incoming information. This can be accomplished by running
 the following command in the terminal or command line:
 
-` `***`nc -v -l -p 2222 > `<command>`.txt`***
+```bash
+nc -v -l -p 2222 > <command>.txt
+```
 
 The "-v" tells Netcat to be verbose, meaning that it will print out more
 details about what is going on. The "-l" tells Netcat to listen for
@@ -61,7 +61,9 @@ the shell you are running Netcat in.
 Next, on the victim machine, run a command such as the following in the
 terminal or command line:
 
-` `***<command>` | nc `<forensicWS IP>` 2222`***
+```bash
+<command> | nc <forensicWS IP> 2222
+```
 
 Replace "<command>" with whatever command you are running on the victim
 machine (e,g., "date", "ifconfig", etc.). Replace "<forensicWS IP>" with
@@ -73,7 +75,7 @@ output from the command as input to Netcat. Netcat will then send this
 information to the IP address and port specified (**NOTE:** by default
 only the "standard output" stream will be piped to Netcat. If you need
 the "standard error" stream piped to Netcat as well (see
-[here](https://en.wikipedia.org/wiki/Standard_streams) for a refresher on
+<https://en.wikipedia.org/wiki/Standard_streams> for a refresher on
 the differences between streams), add the following text just after your
 command: **2\>&1**). Make sure you replace "2222" with whatever port you
 specified for Netcat to use on your forensic workstation above.
@@ -94,23 +96,18 @@ When using Netcat to transfer file contents and binary files to your
 forensic workstation, commands such as the following can instead be used
 on your victim machine:
 
-` `***`type `<fileDir>` | nc `<forensicWS IP>` 2222`***
-
-` `***`cat `<fileDir>` | nc `<forensicWS IP>` 2222`***
-
-## Video Demonstration
-
-The following YouTube video provides a brief tutorial on how to use
-Netcat to transfer data from a victim machine to a forensic machine:
-
-<https://www.youtube.com/watch?v=OcSS34Lw910>
+```bash
+type <fileDir> | nc <forensicWS IP> 2222
+cat <fileDir> | nc <forensicWS IP> 2222
+```
 
 ## Other Resources
 
 Netcat can also be used to capture network traffic. See
-[here](tcpdump.md#using-tcpdump-with-netcat) for instructions on
+[tcpdump](tcpdump.md#using-tcpdump-with-netcat) for instructions on
 how to use Netcat in conjunction with Tcpdump.
 
 ## External Links
 
 * [Project page](https://netcat.sourceforge.net/)
+* [Video Demonstration](https://www.youtube.com/watch?v=OcSS34Lw910)

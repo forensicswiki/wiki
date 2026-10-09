@@ -61,8 +61,8 @@ Java reporting tool.
 
 [Open Web Analytics](https://www.openwebanalytics.com/)
 
-*"An open source web analytics framework written in PHP."*
+An open source web analytics framework written in PHP.
 
 [Breadboard BI Web Analytics](https://sourceforge.net/projects/web-analytics/)
 
-*"Uses open source tools to collect and distribute web analytics data."*
+Uses open source tools to collect and distribute web analytics data.

@@ -3,8 +3,6 @@ tags:
   - Network Analysis
   - Tools
 ---
-## Description and Review
-
 Netstat is an extremely powerful tool that can be used to view the
 network connection information on a machine. Netstat includes
 information such as listening/active ports and which protocols they are
@@ -25,16 +23,20 @@ the few commands that uses, for the most part, the same syntax on
 UNIX-like and Windows operating systems. Netstat also comes installed by
 default on nearly all systems.
 
-## Usage Instructions
+## Usage
 
 To run Netstat, open the terminal/command shell and run the following
 command for Windows:
 
-` `***`netstat –anob`***
+```bash
+netstat –anob
+```
 
 And the following command for UNIX systems:
 
-` `***`netstat –anp`***
+```bash
+netstat –anp
+```
 
 This will output all listening and active connections on the machine,
 including the PID and name of the program attached to each connection.
@@ -45,24 +47,26 @@ which the computer is listening. The -n parameter tells netstat to show
 all the TCP connections but to not resolve the host-name, this will
 greatly increase the speed of the command. The -p parameter shows which
 processes are using which sockets. (see
-[here](https://www.lifewire.com/netstat-command-2618098)
+[Mastering the Netstat Command: A Comprehensive Guide](https://www.lifewire.com/netstat-command-2618098)
 for detailed explanations of Netstat switches on Windows systems, and
-[here](https://www.crybit.com/netstat-command-switches/) for detailed
+[10+ netstat command switches with example – Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
 explanations of Netstat switches on UNIX systems).
 
 Below is an example of an excerpt from the Netstat output (taken from a
 forensic investigation on a Windows machine for a class):
 
-` Active Connections`
-` `
-` Proto  Local Address          Foreign Address        State           PID`
-` TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       712`
-` ...`
-` TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4`
-` [System]`
-` `
-` `**`TCP 0.0.0.0:1337 0.0.0.0:0 LISTENING 1256`**
-` `**`[srss.exe]`**
+```text
+Active Connections
+
+Proto  Local Address          Foreign Address        State           PID
+TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       712
+...
+TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+[System]
+
+TCP 0.0.0.0:1337 0.0.0.0:0 LISTENING 1256
+[srss.exe]
+```
 
 As you can see, the bolded line shows that the srss.exe program is
 running with a PID of 1256 and is listening on TCP port 1337. Looking up
@@ -79,12 +83,11 @@ Netstat can also list out the routing table for the machine (which may
 reveal attempts by the attacker to create alternate routes in order to
 bypass firewalls and other restrictions) using the following command:
 
-` `***`netstat –rn`***
-
-This is an example output from the internal route table:
-
-`   Kernel IP routing table`
-`   Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface`
-`   0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33`
-`   169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33`
-`   172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33`
+```bash
+$ netstat –rn
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33
+```

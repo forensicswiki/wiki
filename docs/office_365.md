@@ -42,22 +42,25 @@ records of an Exchange organization. The Discovery Management role group
 is a crucial element. Therefore, it is important to ensure proper
 control & monitoring on the discovery related activities.
 
-**Measures to be taken to ensure a controlled Discovery Management
-Group:**
+Measures to be taken to ensure a controlled Discovery Management Group:
 
 1. Limited & careful addition of members to the role group
 2. A check on the discovery activities performed on the role group
 3. The allotment of roles like the Mailbox Search management
 4. Access permission for discovery mailbox usage allotment
 
-**Advantage:** The feature is offered in a user-friendly manner with
+### Advantages
+
+The feature is offered in a user-friendly manner with
 self-descriptive options that can easily be adopted by record managers,
 legal & compliance officer, along with professionals from the human
 resource department for eDiscovery purposes. Search feature comes with a
 variety of criteria to be implemented for detailing the search for
 particular messages from selected mailboxes.
 
-**Limitation:** A maximum of only 2 In-Place eDiscovery searches can be
+### Limitations
+
+A maximum of only 2 In-Place eDiscovery searches can be
 conducted at a time within an organization. Moreover, there also exists
 a limit on the number of source mailboxes to be searched (applicable
 mostly on large-scale enterprises).
@@ -68,7 +71,7 @@ The Exchange Admin Center provided on the web console for Exchange
 features a user-friendly search option that can be implemented for
 eDiscovery purposes.
 
-#### Stages of eDiscovery
+### Stages of eDiscovery
 
 For users with authorized permission, it is feasible to execute an
 In-Place eDiscovery lookup in the following stages:
@@ -102,11 +105,15 @@ target mailbox. The three ways in which auditing can be carried out are:
 * Admin auditing
 * Canned reports
 
-**Advantage:** Audit Trails offers great benefit for tracking certain
+### Advantages
+
+Audit Trails offers great benefit for tracking certain
 number of mailboxes and keeping a check on the activities performed on
 them whether by delegates, administrators or users.
 
-**Limitation:** Auditing is not enabled by default and has to be
+### Limitations
+
+Auditing is not enabled by default and has to be
 activated for use. The default settings in auditing are awful and
 therefore, the criteria must be specified before starting up with the
 investigation.
@@ -131,32 +138,33 @@ is important to know that:
 * Establish connection with Exchange Online remotely accessing
   PowerShell
 
-\$UserCredential = Get-Credential \$Session = New-PSSession
-–ConfigurationName Microsoft.Exchange –ConnectionUri
-`https://outlook.office365.com/powershell-liveid/` -Credential
-\$UserCredential –Authentication Basic –AllowRedirection
-Import-PSSession \$Session Get-Mailbox
+```text
+$UserCredential = Get-Credential
+$Session = New-PSSession –ConfigurationName Microsoft.Exchange –ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $UserCredential –Authentication Basic –AllowRedirection
+Import-PSSession $Session Get-Mailbox
+```
 
 * Enable the audit logging of mailbox
 
-***Set-Mailbox –Identity "PiPi" –AuditEnabled \$true***
-
-***Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails -eq
-"UserMailbox"} \| Set-Mailbox -AuditEnabled \$true***
+```text
+Set-Mailbox –Identity "PiPi" –AuditEnabled \$true*
+Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails -eq "UserMailbox"} \| Set-Mailbox -AuditEnabled \$true
+```
 
 * Mention the owner actions for auditing (Optional)
 
-***Set-Mailbox "PiPi" –AuditOwner MailboxLogin,HardDelete***
-
-***Set-Mailbox "Doll" –AuditEnabled \$true –AuditOwner HardDelete***
+```text
+Set-Mailbox "PiPi" –AuditOwner MailboxLogin,HardDelete
+Set-Mailbox "Doll" –AuditEnabled \$true –AuditOwner HardDelete
+```
 
 * Change retention duration for the entries in mailbox audit log
   (Optional)
 
-***Set-Mailbox –Identity "PiPi" –AuditLogAgeLimit 180***
-
-***Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails –eq
-"UserMailbox"} \| Set-Mailbox –AuditLogAgeLimit 60***
+```text
+Set-Mailbox –Identity "PiPi" –AuditLogAgeLimit 180
+Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails –eq "UserMailbox"} \| Set-Mailbox –AuditLogAgeLimit 60
+```
 
 ## External Links
 

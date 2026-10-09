@@ -38,32 +38,32 @@ following extensions to seem to be commonly used:
 * convert pem to pkcs12:
 
 ```bash
-$ openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'
+openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'
 ```
 
 * convert pkcs12 to pem, putting both private key and certificate in the
   same file
 
 ```bash
-$ openssl pkcs12 -in mpage.p12 -out mpage.pem
+openssl pkcs12 -in mpage.p12 -out mpage.pem
 ```
 
 * The same, but with no encryption of file
 
 ```bash
-$ openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes
+openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes
 ```
 
 * Decrypt a PEM file private key:
 
 ```bash
-$ openssl rsa -in newreq.pem -out key.pem
+openssl rsa -in newreq.pem -out key.pem
 ```
 
 * Print the contents of a certificate
 
 ```bash
-$ openssl x509 -in mpage.pem -text
+openssl x509 -in mpage.pem -text
 ```
 
 * Input the PKCS12 file and output a key file and a cert file:

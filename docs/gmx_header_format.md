@@ -2,6 +2,8 @@
 tags:
   - Email analysis
 ---
+GMX email header:
+
 ```text
 Content-Type: text/plain; charset="us-ascii"
 Date: Sun, 29 Jul 2007 13:08:52 +0200

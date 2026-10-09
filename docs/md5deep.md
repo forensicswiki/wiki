@@ -2,19 +2,17 @@
 tags:
   - Tools
 ---
-**md5deep** is a suite of cross platform
-tools to compute and audit [hashes](hashing.md) for any number
-of input files. Although similar to other hashing programs like
-[md5sum](md5sum.md), it can also recursively traverse directory
-structures, use a variety of algorithms, and use files of known hashes
-to perform both positive and negative matching. Another program in the
-suite [hashdeep](hashdeep.md) can conduct a computer forensics
-audit. The programs runs on [Microsoft](microsoft.md)
-[Windows](windows.md), [Mac OS X](mac_os_x.md),
-[Linux](linux.md), [FreeBSD](freebsd.md),
+md5deep is a suite of cross platform tools to compute and audit
+[hashes](hashing.md) for any number of input files. Although similar to other
+hashing programs like [md5sum](md5sum.md), it can also recursively traverse
+directory structures, use a variety of algorithms, and use files of known
+hashes to perform both positive and negative matching. Another program in the
+suite [hashdeep](hashdeep.md) can conduct a computer forensics audit. The
+programs runs on [Microsoft](microsoft.md) [Windows](windows.md),
+[Mac OS X](mac_os_x.md), [Linux](linux.md), [FreeBSD](freebsd.md),
 [Solaris](solaris.md), and most other [\*nix](unix.md)
-[operating systems](operating_system.md). It has been included
-in the Fink and FreeBSD Ports projects.
+[operating systems](operating_system.md). It has been included in the Fink and
+FreeBSD Ports projects.
 
 ## Algorithms Supported
 
@@ -76,9 +74,9 @@ run.
 Here is an example:
 
 ```bash
-$ echo "foo" > foo
-$ echo "bar" > bar
-$ md5deep -d foo bar
+echo "foo" > foo
+echo "bar" > bar
+md5deep -d foo bar
 ```
 
 ```xml

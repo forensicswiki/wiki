@@ -6,7 +6,7 @@ tags:
   - Windows
 ---
 
-**Windows Forensic Environment** - a forensically sound bootable CD/USB
+Windows Forensic Environment is a forensically sound bootable CD/USB
 to acquire electronic media or conduct forensic analysis.
 
 ## Windows Forensic Environment ("WinFE")
@@ -27,11 +27,11 @@ utilities such as WinBuilder [2](http://reboot.pro).
 Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
 
-* [AccessData FTK Imager](https://www.exterro.com),
-* [Guidance Software Encase](https://www.opentext.com/products/security-cloud),
-* ProDiscover
-* [RegRipper](https://regripper.wordpress.com/).
-* [X-Ways Forensics](https://www.x-ways.net/),
+* [AccessData FTK Imager](https://www.exterro.com)
+* [Guidance Software Encase](https://www.opentext.com/products/security-cloud)
+* [ProDiscover](prodiscover.md)
+* [RegRipper](https://regripper.wordpress.com/)
+* [X-Ways Forensics](https://www.x-ways.net/)
 
 A write protection tool developed by Colin Ramsden was released in 2012 that
 provides a GUI for disk toggling Colin Ramsden's write protect tool effectively
@@ -64,7 +64,7 @@ drive signature to the disk, although it is not shown to be consistent.
 Various issues with Linux Boot CDs can be compared
 [1](forensic_live_cd_issues.md) ).
 
-## Resources:
+## External Links
 
 * [Windows Forensic Environment blog](https://winfe.wordpress.com/)
 * [Article on Win FE in Hakin9 magazine 2009-06](https://hakin9.org/)

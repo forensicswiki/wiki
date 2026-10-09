@@ -137,7 +137,7 @@ The file information – version 26 is 224 bytes of size and consists of:
 
 ## Section A - File metrics array
 
-#### File metrics entry record - version 17
+### File metrics entry record - version 17
 
 The file metrics entry records – version 17 is 20 bytes in size and
 consists of:
@@ -194,7 +194,7 @@ character</p></td>
 </tbody>
 </table>
 
-#### File metrics entry record - version 23
+### File metrics entry record - version 23
 
 The file metrics entry records – version 23 is 32 bytes in size and
 consists of:
@@ -266,7 +266,7 @@ character</p></td>
 </tbody>
 </table>
 
-#### File metrics entry record - version 26
+### File metrics entry record - version 26
 
 The file metrics entry record – version 26 appears to be similar to file
 metrics entry record – version 23.

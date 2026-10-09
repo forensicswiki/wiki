@@ -6,21 +6,14 @@ Device Configuration Overlay (DCO) and Host Protected Area (HPA).
 
 ## Detection
 
-### Linux
+### Using hdparm on Linux
 
-#### Using hdparm
-
-**HPA**
-
-Command:
-
-```bash
-$ hdparm -N /dev/sda
-```
+#### HPA
 
 Disabled HPA:
 
-```text
+```bash
+$ hdparm -N /dev/sda
 /dev/sda:
 max sectors   = 1465149168/1465149168, HPA is disabled
 ```
@@ -28,21 +21,15 @@ max sectors   = 1465149168/1465149168, HPA is disabled
 Enabled HPA:
 
 ```text
+$ hdparm -N /dev/sda
 /dev/sdc:
 max sectors   = 586070255/586072368, HPA is enabled
 ```
 
-**DCO**
-
-Command:
+#### DCO
 
 ```bash
 $ hdparm --dco-identify /dev/sda
-```
-
-Example output:
-
-```text
 /dev/sda:
 DCO Revision: 0x0001
 The following features can be selectively disabled via DCO:
@@ -60,14 +47,12 @@ The following features can be selectively disabled via DCO:
 
 ## Removing HPA
 
-### Linux
-
-#### Using hdparm
+### Using hdparm on Linux
 
 Command:
 
 ```bash
-$ hdparm -N p586072368 /dev/sdc
+hdparm -N p586072368 /dev/sdc
 ```
 
 (**permanently** (!) set max visible number of sectors, see example
