@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Email Analysis
-  -  Windows
-  -  Tools
-  -  Free Software
+  - Email Analysis
+  - Windows
+  - Tools
+  - Free Software
 ---
 *OST Reporter* is a forensic purpose profile detail generation tool for
 Exchange Offline Outlook OST file. This application is a freeware

@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Organization
-  -  Articles that need to be expanded
+  - Organization
+  - Articles that need to be expanded
 ---
 <img align="right" src="../assets/images/400px-SANS.jpeg">
 [SANS Institute](sans_institute.md) was established in 1989 as a

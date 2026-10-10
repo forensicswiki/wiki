@@ -1,12 +1,12 @@
 ---
 tags:
-  -  File Formats
-  -  Archive
-  -  Linux
-  -  FreeBSD
-  -  OpenBSD
-  -  NetBSD
-  -  Articles that need to be expanded
+  - File Formats
+  - Archive
+  - Linux
+  - FreeBSD
+  - OpenBSD
+  - NetBSD
+  - Articles that need to be expanded
 ---
 Gfzip is a file format designed by Rob J Meijer to hold forensic copies of disk images.
 The format provides for images that are both uncompressed and

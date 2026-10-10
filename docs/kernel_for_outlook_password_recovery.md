@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Analysis
-  -  Free Software
-  -  Tools
-  -  Windows
+  - Analysis
+  - Free Software
+  - Tools
+  - Windows
 ---
 Restoration of lost PST password is the remarkable notion behind this
 significant tool.

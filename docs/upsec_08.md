@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Articles that need to be expanded
+  - Research
+  - Articles that need to be expanded
 ---
 CALL FOR PAPERS
 

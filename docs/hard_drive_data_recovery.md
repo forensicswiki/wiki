@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Data Recovery
-  -  Windows
-  -  Commercial Software
-  -  Tools
+  - Data Recovery
+  - Windows
+  - Commercial Software
+  - Tools
 ---
 *Hard Drive Data Recovery* application is a commercial application
 programmed to repair and restore data lost from a Windows hard drive
