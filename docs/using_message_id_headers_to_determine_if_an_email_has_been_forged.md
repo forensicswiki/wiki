@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Howtos
+  - Howtos
 ---
 According to the RFCs for email, [RFC
 822](http://www.faqs.org/rfcs/rfc822.html) and [RFC

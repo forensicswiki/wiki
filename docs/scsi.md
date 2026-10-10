@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Computer Bus
-  -  Hardware
-  -  Articles that need to be expanded
+  - Computer Bus
+  - Hardware
+  - Articles that need to be expanded
 ---
 # Other Information
 

@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Disk Encryption
-  -  Encryption
-  -  Linux
-  -  Anti-Forensics
+  - Disk Encryption
+  - Encryption
+  - Linux
+  - Anti-Forensics
 ---
 Linux Unified Key Setup (LUKS) is commonly used by Linux to encrypt
 storage media volumes. LUKS is implemented in the Linux kernel in

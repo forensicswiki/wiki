@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Hashing
+  - Hashing
 ---
 **SHA-1** (**S**ecure **H**ash **A**lgorithm) is a cryptographic hash
 function that was first published in 1995 in Federal Information

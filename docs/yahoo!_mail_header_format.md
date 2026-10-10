@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Email Analysis
+  - Email Analysis
 ---
 The **Yahoo! Web Mail** header format has changed over time, but currently
 includes the [sender's IP address](ip_addresses_in_webmail_messages.md), a
