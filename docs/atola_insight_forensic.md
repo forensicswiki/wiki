@@ -12,7 +12,7 @@ level, wrapped in a simple and efficient user interface. The tool is
 developed by a team of data recovery engineers in collaboration with law
 enforcement agencies and forensic experts.
 
-### The system has several key features for data capture in forensic and e-discovery cases:
+## The system has several key features for data capture in forensic and e-discovery cases
 
 <img src="../assets/images/1000px-Insight.jpg" title="Atola Insight Foresnics"  alt="1000px-Insight.jpg" align="right" />
 
@@ -37,7 +37,7 @@ enforcement agencies and forensic experts.
   URLs, IP and MAC addresses, credit card numbers, custom keywords and
   regular expressions
 
-### Major Imaging Parameters:
+## Major Imaging Parameters
 
 * Multi-pass imaging system with adjustable settings for damaged media
 * Linear and segmented hash calculation (pre-hash, during imaging,
@@ -52,7 +52,7 @@ enforcement agencies and forensic experts.
 * Creation of E01 segmented files (E01, E02, etc) supported
 * Compare media after imaging and hash verification
 
-### Atola Insight Forensic system includes:
+## Atola Insight Forensic system includes
 
 * Atola Insight Forensic software (runs on any Windows PC or laptop)
 * DiskSense hardware unit

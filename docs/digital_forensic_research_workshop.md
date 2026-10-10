@@ -3,7 +3,7 @@ tags:
   - Conferences
   - Organizations
 ---
-The **Digital Forensics Research Conference** (**DFRWS**) is a
+The Digital Forensics Research Conference (DFRWS) is a
 non-profit, volunteer organization that started in August 2001
 to bring together researchers, developers, and practitioners
 from around the world to address emerging challenges in Digital
@@ -24,6 +24,7 @@ The DFRWS addresses three major objectives:
   and other decision-makers in civilian and military contexts.
 
 ## International Community
+
 Since 2001, an annual workshop has been held in various cities around
 North America, and the Jubilee 25th DFRWS conference will be held in
 Chicago. To meet the needs of the growing international Digital Forensics
@@ -36,12 +37,14 @@ recordings of selected presentations are periodically posted on the
 DFRWS YouTube channel.
 
 ## Applied Research
+
 In 2019, the DFRWS created DFIR Review to provide practitioners with a
 venue for community-reviewed applied research and testing in Digital
 Forensics & Incident Response (DFIR). Articles from DFIR Review have
 been cited in multiple court proceedings.
 
 ## DFRWS Supported Initiatives
+
 DFRWS provides infrastructure sponsorship in collaboration with the
 Linux Foundation for the Cyber Domain Ontology (CDO) community project.
 One focus of the CDO project is Cyber-investigation Analysis Standard
@@ -86,8 +89,8 @@ Forensic Challenge. Winners are chosen by a committee and prizes
 include free registration for the DFRWS conference that year and
 grand prizes for exceptional contributions to the field.
 
-Forensic Challenge datasets and results are available via the [DFRWS
-GitHub account](https://github.com/dfrws/)
+Forensic Challenge datasets and results are available via the
+[DFRWS GitHub account](https://github.com/dfrws/)
 
 ## External Links
 

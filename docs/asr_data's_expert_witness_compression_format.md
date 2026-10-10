@@ -85,7 +85,7 @@ Expert Witness Compression uses the following section types: `header`,
 unique data that begins directly after the standard section structure
 above.
 
-### 'header' section...
+### 'header' section
 
 |           |                   |                         |                                |
 |:----------|-------------------|-------------------------|--------------------------------|
@@ -119,7 +119,7 @@ customized.)*
 
 The header section should appear in the first segment file only.
 
-### 'volume' section...
+### 'volume' section
 
 |            |        |         |                                                            |
 |:-----------|--------|---------|------------------------------------------------------------|
@@ -136,7 +136,7 @@ The header section should appear in the first segment file only.
 
 The volume section should appear in the first segment file only.
 
-### 'table' section...
+### 'table' section
 
 |                          |                      |         |                                                           |
 |:-------------------------|----------------------|---------|-----------------------------------------------------------|
@@ -155,7 +155,7 @@ Chunk.*
 Each table section can hold 16375 entries. If more entries are needed,
 you must create multiple table sections per file.
 
-### 'next' and 'done' sections...
+### 'next' and 'done' sections
 
 Each file ends with a 'next' or 'done' section. If the file is the last
 segment in an Expert Witness compressed image, the section will be named

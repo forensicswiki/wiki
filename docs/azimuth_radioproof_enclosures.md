@@ -15,6 +15,6 @@ over Ethernet(PoE) -An 8 pin COMM port for serial or other custom
 communication links to the device under test -Power connections to
 provide up to 50V power to the device under test
 
-## References
+## External Links
 
 * [Official website](https://www.azimuthtechnologies.com/)

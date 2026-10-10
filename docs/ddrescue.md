@@ -2,18 +2,18 @@
 tags:
   - Tools
 ---
-**ddrescue** is a raw disk imaging tool that "copies data from one file
+ddrescue is a raw disk imaging tool that "copies data from one file
 or block device to another, trying hard to rescue data in case of read
 errors." The application is developed as part of the GNU project and has
 written with UNIX/Linux in mind.
 
-**ddrescue** and **[dd_rescue](dd_rescue.md)** are completely
+ddrescue and [dd_rescue](dd_rescue.md) are completely
 different programs which share no development between them. The two
 projects are not related in any way except that they both attempt to
 enhance the standard [dd](dd.md) tool and coincidentally chose
 similar names for their new programs.
 
-From the [ddrescue](ddrescue.md) info pages:
+From the ddrescue info pages:
 
 > GNU ddrescue is a data recovery tool. It copies data from one file or
 > block device (hard disc, cdrom, etc) to another, trying hard to rescue
@@ -130,8 +130,7 @@ At the end you may want to unbind the raw device:
 
 ## Examples
 
-These two examples are taken directly from the
-[ddrescue](ddrescue.md) info pages.
+These two examples are taken directly from the ddrescue info pages.
 
 Example 1: Rescue an ext2 partition in /dev/hda2 to /dev/hdb2
 

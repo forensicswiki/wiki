@@ -2,8 +2,6 @@
 tags:
   - Online File Storage
 ---
-## Overview
-
 [Dropbox](https://www.dropbox.com/) is a service with dedicated applications
 allowing people to share their files between multiple computers (including
 smartphones) and each other. It is thus similar in purpose to
@@ -84,12 +82,10 @@ account. It contains:
 
 Per [Where is my data stored?](https://help.dropbox.com/security/physical-location-data-storage)
 
-```
-All files stored online by Dropbox are encrypted and kept in secure storage
-servers. Storage servers are located in data centers across the United States.
-Additionally, storage servers are available in Australia, the European Union,
-Japan, and the United Kingdom for eligible Dropbox business users
-```
+> All files stored online by Dropbox are encrypted and kept in secure storage
+> servers. Storage servers are located in data centers across the United States.
+> Additionally, storage servers are available in Australia, the European Union,
+> Japan, and the United Kingdom for eligible Dropbox business users
 
 ## External Links
 

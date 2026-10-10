@@ -33,7 +33,7 @@ find the MFT mirror file, whose first record is identical to the first
 record of the MFT. The locations of the data segments for both the MFT
 and MFT mirror files are recorded in the boot sector.
 
-#### Structure
+### Structure
 
 The master file table allocates a certain amount of space for each file
 record. The attributes of a file are written to the allocated space in
@@ -42,7 +42,7 @@ can entirely be contained within the master file table record.
 
 ![Alt text](assets/images/mftentries.png)
 
-#### MFT Record for a Small File or Directory
+### MFT Record for a Small File or Directory
 
 This design makes file access very fast. Consider, for example, the FAT
 file system, which uses a file allocation table to list the names and
@@ -84,7 +84,7 @@ extracted using FTKImager.
 * [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
   by Jonathan Greig, July 13, 2021
 
-## Tools
+### Tools
 
 * [analyzeMFT](https://github.com/dkovar/analyzeMFT), no longer
   maintained and has known shortcomings

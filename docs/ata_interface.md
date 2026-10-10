@@ -14,7 +14,7 @@ Serial ATA specification.
 ATAPI is an extension on the ATA standard for optical media, like CD,
 DVD, Blu-Ray.
 
-## References
+## External Links
 
 * [Wikipedia: Parallel ATA](https://en.wikipedia.org/wiki/AT_Attachment)
 * [ATA/ATAPI-5](https://hddguru.com/download/documentation/ATA-ATAPI-standard-5/ATA-ATAPI-5.pdf)

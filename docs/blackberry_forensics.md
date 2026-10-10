@@ -43,20 +43,14 @@ Prerequisites:
 Once Desktop Manager is installed:
 
 1. Open Blackberry’s Desktop Manager.
-
 2. Click "Options" then "Connection Settings"
-
 3. If the Desktop Manager hasn't already done so, select "USB-PIN:
-Device \#" for connection type. Your device \# may not be the same as
-the image below.
-
+   Device \#" for connection type. Your device \# may not be the same as
+   the image below.
 4. Click "OK" to return to the main menu.
-
 5. Click "Backup and Restore".
-
 6. Click the "Back up" button for a full backup of the device or use the
-Advanced section for specific data.
-
+   Advanced section for specific data.
 7. Select your destination and save the ".ipd" file.
 
 ## Opening Blackberry Backup Files (.ipd)
@@ -66,10 +60,9 @@ MagicBerry IPD Reader and the Amber Blackberry Converter. The example below was
 created using version 6.7 of the latter.
 
 1. Use File \| Open and point the program to the BlackBerry backup file
-(.ipd).
-
+   (.ipd).
 2. Navigate to the appropriate content by using the navigation icons on
-the left and/or top.
+   the left and/or top.
 
 ### Advanced Export Options
 
@@ -77,18 +70,14 @@ You may also export each subsection of acquired data to different file
 types such as pdf, txt, and html, etc.
 
 1. Select the appropriate content from the navigation items on the
-left.
-
+   left.
 2. Either select an individual row or click "Select All" to export all
-rows.
-
+   rows.
 3. Click "Fields to export" button
-
 4. Select all the criteria for that subsection in which you wish to
-export and click "OK"
-
+   export and click "OK"
 5. Select your output type from the bottom list of selections and click
-"Save As..."
+   "Save As..."
 
 ## Blackberry BBB File Format (Mac OS X) (.bbb)
 
@@ -106,26 +95,19 @@ significantly more time to acquire than using Amber Blackberry
 Converter.
 
 1. Create a new case in Device Seizure with File \| New.
-
 2. Give the case a name and fill in any desired information about the
-case on the next two screens. The third screen is a summary of the data
-entered. If all data is correct click Next and then Finish.
-
+   case on the next two screens. The third screen is a summary of the data
+   entered. If all data is correct click Next and then Finish.
 3. You are now ready to acquire the phone. Go to Tools \| Data
-Acquisition.
-
+   Acquisition.
 4. You are prompted for the supported manufacturer. Select RIM
-Blackberry (Physical).
-
+   Blackberry (Physical).
 5. Leave supported models at the default selection of autodetect.
-
 6. Connection type should be set to USB.
-
 7. For data type selection select Logical Image (Databases).
-
 8. Confirm your selections on the summary page and click Next to start
-the acquisition.
-Now wait until the program is done acquiring data from the device.
+   the acquisition.
+   Now wait until the program is done acquiring data from the device.
 
 Please Note: In some instances the wait can be up to 30-45 minutes.
 
@@ -138,46 +120,43 @@ This is a step by step guide to downloading and using a BlackBerry
 simulator. In this example the version 4.0.2 was used in order to
 simulate the 7230 series.
 
-1. Download the BlackBerry simulator
+Step 1. Download the BlackBerry simulator.
+For this example look through the list and download BlackBerry Handheld Simulator v4.0.2.51.
 
-* For this example look through the list and download BlackBerry
-  Handheld Simulator v4.0.2.51.
+Step 2. Then click *Next*.
 
-2. Then click *Next*.
+Step 3. Enter your proper user credentials and click *Next* to continue.
 
-3. Enter your proper user credentials and click *Next* to continue.
-
-4. On the next page, reply accordingly to the eligibility prompt and
+Step 4. On the next page, reply accordingly to the eligibility prompt and
 click *Next* to continue.\*
 
-5. Agree or disagree to the SDK agreement and click *Submit* to
-continue.\*
+Step 5. Agree or disagree to the SDK agreement and click *Submit* to
+continue.
 
-6. The next page will provide you with a link to download the .ZIP file
+Step 6. The next page will provide you with a link to download the .ZIP file
 containing the wanted simulator.
+If you disagree at any of these points you will not be able to
+continue to the download.
 
-* If you disagree at any of these points you will not be able to
-  continue to the download.
-
-7. Extract the files to a folder that can easily be accessed (I used
+Step 7. Extract the files to a folder that can easily be accessed (I used
 the desktop).
 
-8. In that folder, find the xxxx.bat file (where xxxx is the model
+Step 8. In that folder, find the xxxx.bat file (where xxxx is the model
 number of the device that is being simulated). The simulator should now
 open an image that resembles the phone.
 
-9. In the *BlackBerry 7230 Simulator* window, select *Simulate* \| *USB
+Step 9. In the *BlackBerry 7230 Simulator* window, select *Simulate* \| *USB
 Cable Connected*.
 
-10. Open BlackBerry Desktop Manager. If there are no Outlook profiles
+Step 10. Open BlackBerry Desktop Manager. If there are no Outlook profiles
 created there will be a prompt on how to create one. Click *OK* to
 continue. If the BlackBerry xxxx Simulator has properly connected to the
 BlackBerry Desktop Manager, *Connected* should be displayed at the
 bottom of the BlackBerry Desktop Manager window.
 
-11. Double click *Backup and Restore* \| select *Restore...*.
+Step 11. Double click *Backup and Restore* \| select *Restore...*.
 
-12. Navigate to the directory where an .ipd file that has been
+Step 12. Navigate to the directory where an .ipd file that has been
 previously backed up is stored and select Open to load that file to the
 Simulator. See the Acquiring BlackBerry Backup File section above on
 information on how to backup a physical BlackBerry.
@@ -189,6 +168,6 @@ Schwan, Mike Shaver, and Ian Goldberg. The article goes into great
 description of packet sniffing and the protocol as it relates to data
 transfer across a USB port.
 
-## References
+## External Links
 
-* [phoneMiner](https://www.amraksoftware.com/), phoneMiner
+* [phoneMiner](https://www.amraksoftware.com/)

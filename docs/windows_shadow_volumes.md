@@ -122,8 +122,6 @@ information.
 
 ### How to analyze Shadow Volumes
 
-* [VISTA and Windows 7 Shadow Volume Forensics](https://www.sans.org/digital-forensics-incident-response/),
-  by [Rob Lee](rob_lee.md), October 2008
 * [Accessing Volume Shadow Copies](https://windowsir.blogspot.com/2011/01/accessing-volume-shadow-copies.html),
   by [Harlan Carvey](harlan_carvey.md), January 2011
 * [More VSCs](https://windowsir.blogspot.com/2011/01/more-vscs.html),
@@ -132,8 +130,6 @@ information.
   by Corey Harrell, April 2011
 * [HowTo: Mount and Access VSCs](https://windowsir.blogspot.com/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
-* [Shadow Timelines And Other VolumeShadowCopy Digital Forensics Techniques with the Sleuthkit on Windows](https://www.sans.org/digital-forensics-incident-response/),
-  by [Rob Lee](rob_lee.md), September 2011
 * [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.com/2012/01/ripping-volume-shadow-copies.html),
   by Corey Harrell, January 2012
 * [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-method.html),

@@ -1,10 +1,11 @@
 ---
 tags:
-  - No Category
+  - Articles that need to be expanded
+  - Windows
 ---
 The LastVisitedMRU Windows Registry key records recently used
-applications and the last path those applications used to open a file
-[1](https://www.sans.org/digital-forensics-incident-response/).
+applications and the last path those applications used to open a file.
+
 It is used by the Windows operating system to store common paths used to
 open or save files and provide auto-complete services to the user within
 the Windows Common Dialog. The Common Dialog libraries can be used by

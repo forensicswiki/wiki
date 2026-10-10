@@ -105,14 +105,10 @@ shell item long name                : calc.exe
 
 * [MSDN: Introduction to the Shell Namespace (Windows)](https://learn.microsoft.com/en-us/windows/win32/shell/namespace-intro)
 * [Implementing the Basic Folder Object Interfaces](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/cc144093(v=vs.85))
-* [ShellBags Registry Forensics](https://www.sans.org/digital-forensics-incident-response/),
-  by johnmccash, October 2008
 * [Using shellbag information to reconstruct user activities](http://old.dfrws.org/2009/proceedings/p69-zhu.pdf),
   by Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
 * [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/main/documentation/Windows%20Shell%20Item%20format.asciidoc),
   by the libfwsi project, July 2010 (work in progress)
-* [Computer Forensic Artifacts: Windows 7 Shellbags](https://www.sans.org/digital-forensics-incident-response/),
-  Chad Tilbury, July 5, 2011
 * [MoVP 3.2 Shellbags in Memory, SetRegTime, and TrueCrypt Volumes](https://volatility-labs.blogspot.com/2012/09/movp-32-shellbags-in-memory-setregtime.html),
   by Jamie Levy, September 2012
 * [Shellbag Analysis, Revisited...Some Testing](https://windowsir.blogspot.com/2012/10/shellbag-analysis-revisitedsome-testing.html),

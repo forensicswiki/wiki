@@ -528,8 +528,6 @@ On Windows
 * [The Chromium Projects - User Data Directory](https://www.chromium.org/user-experience/user-data-directory/)
 * [Chrome Disk Cache](https://www.chromium.org/developers/design-documents/network-stack/disk-cache/)
 * [Chrome User Agent strings](https://www.useragentstring.com/pages/Chrome/)
-* [Google Chrome Forensics](https://www.sans.org/digital-forensics-incident-response/),
-  by [Kristinn Guðjónsson](kristinn_gudjonsson.md), January 21, 2010
 * [Cashing in on the Google Chrome Cache](https://linuxsleuthing.blogspot.com/2013/02/cashing-in-on-google-chrome-cache.html?m=1),
   John Lehr, February 24, 2013
 * [History Index files removed from Chrome v30](https://dfir.blog/history-index-files-removed-from-chrome-v30/),

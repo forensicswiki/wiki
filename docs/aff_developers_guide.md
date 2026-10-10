@@ -2,8 +2,8 @@
 tags:
   - Articles that need to be expanded
 ---
-This document is a reference guide to the **[Advanced Forensics
-Format](aff.md)** library. It is intended to be read by software
+This document is a reference guide to the [Advanced Forensics
+Format](aff.md) library. It is intended to be read by software
 developers seeking to use the library in their own programs. It is *not*
 intended for end users.
 
@@ -42,21 +42,29 @@ library. Additionally, if you're using a C compiler, you will need the
 C++ standard library. Some examples using several compilers are shown
 below:
 
-*Using g++*
+Using g++:
 
-` $ g++ file.c -lafflib -lssl`
+```bash
+g++ file.c -lafflib -lssl
+```
 
-*Using gcc*
+Using gcc:
 
-` $ gcc file.c -lafflib -lssl -lstdc++ `
+```bash
+gcc file.c -lafflib -lssl -lstdc++
+```
 
-*Using MinGW*
+Using MinGW:
 
-` C:\> gcc file.c -lafflib -lssl -lstdc++`
+```text
+gcc.exe file.c -lafflib -lssl -lstdc++
+```
 
-*Using Microsoft Visual C++*
+Using Microsoft Visual C++:
 
-` c:\> LINK file.obj afflib.lib`
+```text
+LINK.EXE file.obj afflib.lib
+```
 
 ### Testing for the AFF using Automake
 
@@ -230,8 +238,7 @@ does more than just open a file handle. When writing, the af_open
 command causes the default AFF header to be written to the file on the
 disk.
 
-**RBF – What happens, when opening for write, if the file already
-exists?** **RBF – Which parts of the header are written by default?**
+TODO: describe what happens, when opening for write, if the file already exists?
 
 See [open(3)](https://linux.die.net/man/3/open)
 
@@ -296,7 +303,7 @@ position, or the end of the file, respectively. On success this function
 returns zero. **RBF - On error this function returns minus one
 (uint64_t) ??** and sets errno appropriately.
 
-**Errors**
+##### Errors
 
 EBADF: The stream is not seekable. (e.g. a stream that was opened with
 af_popen)
@@ -446,7 +453,7 @@ to be denoted as being 32 bits**
 isn't the length size_t when being passed in for writing? And why the
 different name for the length parameter**
 
-##### Proposed new prototype:
+##### Proposed new prototype
 
 `   int af_update_seg(AFFILE *af, const char *name, uin32_t arg, const void *value, size_t datalen);`
 
