@@ -67,36 +67,36 @@ Obviously these headers can be used by an examiner for the same purpose.
 This is an (incomplete) excerpt from an email header:
 
 ```text
-Received: from lists.securityfocus.com (lists.securityfocus.com [205.206.231.19])
-        by outgoing2.securityfocus.com (Postfix) with QMQP
-        id 7E9971460C9; Mon,  9 Jan 2006 08:01:36 -0700 (MST)
-Mailing-List: contact forensics-help@securityfocus.com; run by ezmlm
-Precedence: bulk
-List-Id: <forensics.list-id.securityfocus.com>
-List-Post: <mailto:forensics@securityfocus.com>
-List-Help: <mailto:forensics-help@securityfocus.com>
-List-Unsubscribe: <mailto:forensics-unsubscribe@securityfocus.com>
-List-Subscribe: <mailto:forensics-subscribe@securityfocus.com>
-Delivered-To: mailing list forensics@securityfocus.com
-Delivered-To: moderator for forensics@securityfocus.com
-Received: (qmail 20564 invoked from network); 5 Jan 2006 16:11:57 -0000
-From: YJesus <yjesus@security-projects.com>
-To: forensics@securityfocus.com
-Subject: New Tool : Unhide
-User-Agent: KMail/1.9
-MIME-Version: 1.0
-Content-Disposition: inline
-Date: Thu, 5 Jan 2006 16:41:30 +0100
-Content-Type: text/plain;
-  charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
-Message-Id: <200601051641.31830.yjesus@security-projects.com>
-X-HE-Spam-Level: /
-X-HE-Spam-Score: 0.0
-X-HE-Virus-Scanned: yes
-Status: RO
-Content-Length: 586
-Lines: 26
+Received: from lists.securityfocus.com (lists.securityfocus.com [205.206.231.19])
+        by outgoing2.securityfocus.com (Postfix) with QMQP
+        id 7E9971460C9; Mon,  9 Jan 2006 08:01:36 -0700 (MST)
+Mailing-List: contact forensics-help@securityfocus.com; run by ezmlm
+Precedence: bulk
+List-Id: <forensics.list-id.securityfocus.com>
+List-Post: <mailto:forensics@securityfocus.com>
+List-Help: <mailto:forensics-help@securityfocus.com>
+List-Unsubscribe: <mailto:forensics-unsubscribe@securityfocus.com>
+List-Subscribe: <mailto:forensics-subscribe@securityfocus.com>
+Delivered-To: mailing list forensics@securityfocus.com
+Delivered-To: moderator for forensics@securityfocus.com
+Received: (qmail 20564 invoked from network); 5 Jan 2006 16:11:57 -0000
+From: YJesus <yjesus@security-projects.com>
+To: forensics@securityfocus.com
+Subject: New Tool : Unhide
+User-Agent: KMail/1.9
+MIME-Version: 1.0
+Content-Disposition: inline
+Date: Thu, 5 Jan 2006 16:41:30 +0100
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <200601051641.31830.yjesus@security-projects.com>
+X-HE-Spam-Level: /
+X-HE-Spam-Score: 0.0
+X-HE-Virus-Scanned: yes
+Status: RO
+Content-Length: 586
+Lines: 26
 ```
 
 ## External Links

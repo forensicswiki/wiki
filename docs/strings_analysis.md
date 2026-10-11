@@ -29,7 +29,7 @@ the file I want to analyzing strings on, and "<outputfilename>" with the
 name of the file I want to output the results to):
 
 ```bash
-strings -8 <sourcefilename> > <outputfilename>.txt
+strings -8 <sourcefilename> > <outputfilename>.txt
 ```
 
 The resulting .txt file will contain a list of all strings made up of at
@@ -41,38 +41,38 @@ a digital forensics investigation, I found the following strings:
 
 ```text
 ...
-C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
+C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
 ...
-Cmd line:
-port numbers can be individual or ranges: m-n [inclusive]
-       -u            UDP mode
-       -v            verbose [use twice to be more verbose]
-       -w secs              timeout for connects and final net reads
-       -z            zero-I/O mode [used for scanning]
-       -t            answer TELNET negotiation
-       -g gateway    source-routing hop point[s], up to 8
-       -G num        source-routing pointer: 4, 8, 12, ...
-       -h            this cruft
-       -i secs              delay interval for lines sent, ports scanned
-       -l            listen mode, for inbound connects
-       -L            listen harder, re-listen on socket close
-       -n            numeric-only IP addresses, no DNS
-       -o file              hex dump of traffic
-       -p port              local port number
-       -r            randomize local and remote ports
-       -s addr              local source address
-       -e prog              inbound program to exec [dangerous!!]
-       -d            detach from console, stealth mode
-[v1.10 NT]
-connect to somewhere:      nc [-options] hostname port[s] [ports] ...
-listen for inbound:  nc -l -p port [options] [hostname] [port]
+Cmd line:
+port numbers can be individual or ranges: m-n [inclusive]
+       -u            UDP mode
+       -v            verbose [use twice to be more verbose]
+       -w secs              timeout for connects and final net reads
+       -z            zero-I/O mode [used for scanning]
+       -t            answer TELNET negotiation
+       -g gateway    source-routing hop point[s], up to 8
+       -G num        source-routing pointer: 4, 8, 12, ...
+       -h            this cruft
+       -i secs              delay interval for lines sent, ports scanned
+       -l            listen mode, for inbound connects
+       -L            listen harder, re-listen on socket close
+       -n            numeric-only IP addresses, no DNS
+       -o file              hex dump of traffic
+       -p port              local port number
+       -r            randomize local and remote ports
+       -s addr              local source address
+       -e prog              inbound program to exec [dangerous!!]
+       -d            detach from console, stealth mode
+[v1.10 NT]
+connect to somewhere:      nc [-options] hostname port[s] [ports] ...
+listen for inbound:  nc -l -p port [options] [hostname] [port]
 
 critsvc32:
 ...
 C:\Windows\critsvc32.exe
 ...
-Secure Resource Selection Service
-C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
+Secure Resource Selection Service
+C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
 C:\Windows\system32\srss.exe
 ```
 

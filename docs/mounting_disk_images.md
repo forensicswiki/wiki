@@ -9,32 +9,32 @@ To mount a disk image on [FreeBSD](freebsd.md):
 First attach the image to unit \#1:
 
 ```bash
-mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
+mdconfig -a -t vnode -f /big3/project/images/img/67.img -u 1
 ```
 
 Then mount:
 
 ```bash
-mount -t msdos /dev/md1s1 /mnt
+mount -t msdos /dev/md1s1 /mnt
 ```
 
 ```bash
-$ ls /mnt
-BOOTLOG.PRV     BOOTLOG.TXT     COMMAND.COM     IO.SYS          MSDOS.SYS
+$ ls /mnt
+BOOTLOG.PRV     BOOTLOG.TXT     COMMAND.COM     IO.SYS          MSDOS.SYS
 ```
 
 To unmount:
 
 ```bash
-umount /mnt
-mdconfig -d -u 1
+umount /mnt
+mdconfig -d -u 1
 ```
 
 To mount the image read-only, use:
 
 ```bash
-mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
-mount -o ro -t msdos /dev/md1s1 /mnt
+mdconfig -o readonly -a -t vnode -f /big3/project/images/img/67.img -u 1
+mount -o ro -t msdos /dev/md1s1 /mnt
 ```
 
 ## Linux
@@ -42,7 +42,7 @@ mount -o ro -t msdos /dev/md1s1 /mnt
 ### To mount a disk image on [Linux](linux.md)
 
 ```bash
-mount -t vfat -o loop,ro,noexec img.dd /mnt
+mount -t vfat -o loop,ro,noexec img.dd /mnt
 ```
 
 The ***ro*** is for read-only.
@@ -50,7 +50,7 @@ The ***ro*** is for read-only.
 This will mount NSRL ISOs:
 
 ```bash
-mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
+mount /home/simsong/RDS_218_A.iso /mnt/nsrl -t iso9660 -o loop,ro,noexec `
 ```
 
 Some raw images contains multiple partitions (e.g. full HD image). In
@@ -58,8 +58,8 @@ this case, it's necessary to specify a starting offset for each
 partition.
 
 ```bash
-mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
-mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
+mount -t vfat -o loop,offset=32256,ro,noexec img.dd /mnt/tmp_1
+mount -t vfat -o loop,offset=20974464000,ro,noexec img.dd /mnt/tmp_2
 ```
 
 #### kpartx
@@ -70,31 +70,31 @@ Mounting raw images with multiple partitions is easy with *kpartx*. Type
 image looks like this:
 
 ```text
-       Device        Boot      Start       End      Blocks Id  System
-    rawimage.dd1               1           1        8001   83  Linux
-    rawimage.dd2               2           2        8032+   5  Extended
-    rawimage.dd5               2           2        8001   83  Linux
+       Device        Boot      Start       End      Blocks Id  System
+    rawimage.dd1               1           1        8001   83  Linux
+    rawimage.dd2               2           2        8032+   5  Extended
+    rawimage.dd5               2           2        8001   83  Linux
 ```
 
 The command
 
 ```bash
-kpartx -v -a rawimage.dd
+kpartx -v -a rawimage.dd
 ```
 
 creates these mappings
 
 ```text
-   /dev/mapper/loop0p1
-   /dev/mapper/loop0p2
-   /dev/mapper/loop0p5
+   /dev/mapper/loop0p1
+   /dev/mapper/loop0p2
+   /dev/mapper/loop0p5
 ```
 
 The partitions can be mounted with these commands:
 
 ```bash
-mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
-mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
+mount /dev/mapper/loop0p1 /media/suspectHD_01/ -o ro
+mount /dev/mapper/loop0p5 /media/suspectHD_02/ -o ro
 ```
 
 Don't forget the switch ***-o ro*** !
@@ -102,7 +102,7 @@ Don't forget the switch ***-o ro*** !
 ### To unmount
 
 ```bash
-umount /mnt
+umount /mnt
 ```
 
 ## Windows

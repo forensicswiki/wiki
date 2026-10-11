@@ -38,39 +38,39 @@ following extensions to seem to be commonly used:
 * convert pem to pkcs12:
 
 ```bash
-openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'
+openssl pkcs12 -export -in mpage.crt -inkey mpage.key -out mpage.p12 -name 'MPage Signing Key'
 ```
 
 * convert pkcs12 to pem, putting both private key and certificate in the
   same file
 
 ```bash
-openssl pkcs12 -in mpage.p12 -out mpage.pem
+openssl pkcs12 -in mpage.p12 -out mpage.pem
 ```
 
 * The same, but with no encryption of file
 
 ```bash
-openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes
+openssl pkcs12 -in mpage.p12 -out mpage.pem -nodes
 ```
 
 * Decrypt a PEM file private key:
 
 ```bash
-openssl rsa -in newreq.pem -out key.pem
+openssl rsa -in newreq.pem -out key.pem
 ```
 
 * Print the contents of a certificate
 
 ```bash
-openssl x509 -in mpage.pem -text
+openssl x509 -in mpage.pem -text
 ```
 
 * Input the PKCS12 file and output a key file and a cert file:
 
 ```bash
-openssl pkcs12 -in slg.p12 -out slg.key -nocerts -nodes
-openssl pkcs12 -in slg.p12 -out slg.pem -nokeys -nodes
+openssl pkcs12 -in slg.p12 -out slg.key -nocerts -nodes
+openssl pkcs12 -in slg.p12 -out slg.pem -nokeys -nodes
 ```
 
 ## Making Certificates
@@ -78,33 +78,33 @@ openssl pkcs12 -in slg.p12 -out slg.pem -nokeys -nodes
 To make certificates all in one step:
 
 ```bash
-openssl req -new -x509 -nodes -out imapd.pem -keyout imapd.pem -days 3650
+openssl req -new -x509 -nodes -out imapd.pem -keyout imapd.pem -days 3650
 ```
 
 Make a certificate request for a CA to sign:
 
 ```bash
-openssl req -newkey rsa:1024 -keyout mycert.key -out mycert.csr -nodes
+openssl req -newkey rsa:1024 -keyout mycert.key -out mycert.csr -nodes
 ```
 
 To make an RSA key and then use the key to make the certificate signing
 request:
 
 ```bash
-openssl genrsa -out myfile.key 1024
-openssl req -new -key myfile.key -out myfile.csr
+openssl genrsa -out myfile.key 1024
+openssl req -new -key myfile.key -out myfile.csr
 ```
 
 ## Get a certificate from an SSL server
 
 ```bash
-openssl s_client -connect www.nitroba.com:443
+openssl s_client -connect www.nitroba.com:443
 ```
 
 ## Viewing Certificates
 
 ```bash
-openssl x509 -in ssl.crt-text
+openssl x509 -in ssl.crt-text
 ```
 
 ## S/MIME
@@ -112,9 +112,9 @@ openssl x509 -in ssl.crt-text
 * to sign an outgoing mail:
 
 ```text
-from_email = `openssl x509 -email -in certfile.pem -noout
-x509_subject = `openssl x509 -subject -in certfile.pem -noout
-openssl smime -from %s  -to %s  -subject %s -sign -inkey file -signer %s -in tempfile.txt extra
+from_email = `openssl x509 -email -in certfile.pem -noout
+x509_subject = `openssl x509 -subject -in certfile.pem -noout
+openssl smime -from %s  -to %s  -subject %s -sign -inkey file -signer %s -in tempfile.txt extra
 ```
 
 ## External Links

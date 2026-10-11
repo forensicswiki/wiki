@@ -70,7 +70,7 @@ ripemd160
 ## How to decrypt
 
 ```bash
-sudo cryptsetup luksOpen <device> <name>
+sudo cryptsetup luksOpen <device> <name>
 ```
 
 Provide the passphrase when prompted. The <name> will be created as a
@@ -80,7 +80,7 @@ expose the filesystem.
 ## Dump the header information of a LUKS device
 
 ```bash
-sudo cryptsetup luksDump <device>
+sudo cryptsetup luksDump <device>
 ```
 
 See the cryptsetup(8) man page for other operations.

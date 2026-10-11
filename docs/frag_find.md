@@ -43,10 +43,10 @@ frag_find is fast because:
 The following options are available:
 
 ```text
-  -b blocksize   - sets the blocksize (default is 512 bytes).
-  -s <start>     - start the image scan at <start> (default is start of image)
-  -e <end>       - stop the image scan at <end> (default is end of image)
-  -r             - prints the raw association map, in addition to the cleaned one
+  -b blocksize   - sets the blocksize (default is 512 bytes).
+  -s <start>     - start the image scan at <start> (default is start of image)
+  -e <end>       - stop the image scan at <end> (default is end of image)
+  -r             - prints the raw association map, in addition to the cleaned one
 ```
 
 ## MEMORY USAGE

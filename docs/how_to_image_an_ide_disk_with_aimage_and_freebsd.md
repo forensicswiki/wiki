@@ -48,13 +48,13 @@ Step 10. mkdir /usr/affs
 Step 11. Now, try to image the drive with this command:
 
 ```bash
-aimage ata2 /usr/affs/disk1.aff`
+aimage ata2 /usr/affs/disk1.aff`
 ```
 
 Step 12. If this doesn't work, try:
 
 ```bash
-aimage ata3 /usr/affs/disk1.aff`
+aimage ata3 /usr/affs/disk1.aff`
 ```
 
 Step 13. If it works, you'll see the [aimage](aimage.md) program

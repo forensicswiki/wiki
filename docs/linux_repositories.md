@@ -24,11 +24,11 @@ This is most easily done from the command line via (assumes openSUSE
 12.1):
 
 ```bash
-sudo zypper ar -f http://download.opensuse.org/repositories/security/openSUSE_12.1 security
-sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1 perl
-sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1 python
+sudo zypper ar -f http://download.opensuse.org/repositories/security/openSUSE_12.1 security
+sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.1 perl
+sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1 python
 
-zypper lr               # used to verify you have the repos installed
+zypper lr               # used to verify you have the repos installed
 ```
 
 ### fedora

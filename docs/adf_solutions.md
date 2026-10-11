@@ -56,7 +56,7 @@ Department of Homeland Security Science and Technology Directorate.
 
 ## ADF Patented Technology
 
-`ADF Solutions has been granted two U.S. patents (#7,941,386 and #8,219,588) for its SearchPak® technology.`
+`ADF Solutions has been granted two U.S. patents (#7,941,386 and #8,219,588) for its SearchPak® technology.`
 
 ## SearchPak®
 

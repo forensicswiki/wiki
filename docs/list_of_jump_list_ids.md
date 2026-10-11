@@ -398,7 +398,7 @@ a777ad264b54abab | JetVideo 8.0.2.200 Basic | 2011-09-08 | [4n6k Blog](https://w
 4a49906d074a3ad3 | Media Go 1.8 (Build 121) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 1cf97c38a5881255 | MediaPortal 1.1.3 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 Depends on location | Media Player Classic 6.4.8.9 (is portable) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
-Depends on location | Media Player Classic - Home Cinema 1.5.2.3456 (default install is \Users\\<i>user</i>\\ dir, so dynamic) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
+Depends on location | Media Player Classic - Home Cinema 1.5.2.3456 (default install is \Users\\<i>user</i>\\ dir, so dynamic) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 62bff50b969c2575 | Quintessential Media Player 5.0 (Build 121) - also usage stats (times used, tracks played, total time used) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 b50ee40805bd280f | QuickTime Alternative 1.9.5 (Media Player Classic 6.4.9.1) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)
 ae3f2acd395b622e | QuickTime Player 6.5.1 / 7.0.3 / 7.5.5 (Build 249.13) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html)

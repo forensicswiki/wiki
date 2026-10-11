@@ -8,7 +8,7 @@ changes. The format of the message id is the name, but there is an extra
 field:
 
 ```text
-X-Mailer: iPhone Mail (3B48b)
+X-Mailer: iPhone Mail (3B48b)
 ```
 
 ## See Also

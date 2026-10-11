@@ -139,10 +139,10 @@ in this analysis.
 
 #### Who Should Attend
 
-* Forensic Investigators
-* Local, state and federal law enforcement
-* Private investigators
-* IT security professionals
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
 
 Our trainers take you inside the minds of today’s criminals and students
 completing the class will be able to execute a full investigation in
@@ -167,15 +167,15 @@ WetStone has created a unique virtualized cyber-safe environment where
 investigator and IT professionals can use and experiment with some of
 the best ...
 
-* Botnet
-* Rootkit
-* Wireless Cracking
-* Live Triage
-* Memory Analysis
-* Live Triage
-* Memory Analysis
-* Log Analysis
-* Process Port Linkage
+* Botnet
+* Rootkit
+* Wireless Cracking
+* Live Triage
+* Memory Analysis
+* Live Triage
+* Memory Analysis
+* Log Analysis
+* Process Port Linkage
 
 Our trainers take you inside the minds of today’s criminals and students
 completing the class will be able to execute a full investigation in
@@ -204,17 +204,17 @@ intelligence.
 
 Criminals are armed with the ability to:
 
-* Conceal incriminating information
-* Covertly communicate with accomplices
-* Innocuously share large amounts of potentially dangerous information
+* Conceal incriminating information
+* Covertly communicate with accomplices
+* Innocuously share large amounts of potentially dangerous information
 
 #### Who Should Attend?
 
-* Forensic Investigators
-* Local, state and federal law enforcement
-* Private investigators
-* IT security professionals
-* Security auditors
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
+* Security auditors
 
 Our trainers take you inside the minds of today’s criminals and students
 completing the class will be able to execute a full investigation in
@@ -246,11 +246,11 @@ massive amounts of identity theft and corporate leakage of data.
 
 #### Who Should Attend?
 
-* Forensic Investigators
-* Local, state and federal law enforcement
-* Private investigators
-* IT security professionals
-* Security auditors
+* Forensic Investigators
+* Local, state and federal law enforcement
+* Private investigators
+* IT security professionals
+* Security auditors
 
 Our trainers take you inside the minds of today’s criminals and students
 completing the class will be able to execute a full investigation in
@@ -287,9 +287,9 @@ connected to the internet have become a part of a Botnet.
 Upon completion of the course, students will have gained advanced
 knowledge in the fundamentals of Zombies and Botnets
 
-* Offensive planning of Zombies and Botnets
-* Investigative considerations when faced with these weapons
-* Learn the art of isolation and termination of Botnets.
+* Offensive planning of Zombies and Botnets
+* Investigative considerations when faced with these weapons
+* Learn the art of isolation and termination of Botnets.
 
 Our trainers take you inside the minds of today’s criminals and students
 completing the class will be able to execute a full investigation in

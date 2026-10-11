@@ -151,48 +151,48 @@ exams of all cell phone data.
 SIM Card Seizure has unicode support to read multiple languages such as
 Arabic, Chinese, & Russian: Features:
 
-* Forensic SIM Card Reader Included
-* Calculates MD5 & SHA1 Hash Values
-* Search Function
-* Recovers Deleted SMS Data
-* Bookmarking Options
-* Report Creation Wizard
-* Save Workspaces for Further Review
-* Time Stamps Calculate GMT Offset
-* Access to Paraben's Forum
-* Access to Paraben's 24 Hour Support
+* Forensic SIM Card Reader Included
+* Calculates MD5 & SHA1 Hash Values
+* Search Function
+* Recovers Deleted SMS Data
+* Bookmarking Options
+* Report Creation Wizard
+* Save Workspaces for Further Review
+* Time Stamps Calculate GMT Offset
+* Access to Paraben's Forum
+* Access to Paraben's 24 Hour Support
 
 Data Acquired from SIM Cards
 
-* Phase Phase ID
-* SST SIM Service table
-* ICCID Serial Number
-* LP Preferred languages variable
-* SPN Service Provider name
-* MSISDN Subscriber phone number
-* AND Short Dial Number
-* FDN Fixed Numbers
-* LND Last Dialed numbers
-* EXT1 Dialing Extension
-* EXT2 Dialing Extension
-* GID1 Groups
-* GID2 Groups
-* SMS Text Messages
-* SMSP Text Message parameters
-* SMSS Text message status
-* CBMI Preferred network messages
-* PUCT Charges per unit
-* ACM Charge counter
-* ACMmax Charge limit
-* HPLMNSP HPLMN search period
-* PLMNsel PLMN selector
-* FPLMN Forbidden PLMNs
-* CCP Capability configuration parameter
-* ACC Access control class
-* IMSI IMSI
-* LOCI Location information
-* BCCH Broadcast control channels
-* Kc Ciphering key
+* Phase Phase ID
+* SST SIM Service table
+* ICCID Serial Number
+* LP Preferred languages variable
+* SPN Service Provider name
+* MSISDN Subscriber phone number
+* AND Short Dial Number
+* FDN Fixed Numbers
+* LND Last Dialed numbers
+* EXT1 Dialing Extension
+* EXT2 Dialing Extension
+* GID1 Groups
+* GID2 Groups
+* SMS Text Messages
+* SMSP Text Message parameters
+* SMSS Text message status
+* CBMI Preferred network messages
+* PUCT Charges per unit
+* ACM Charge counter
+* ACMmax Charge limit
+* HPLMNSP HPLMN search period
+* PLMNsel PLMN selector
+* FPLMN Forbidden PLMNs
+* CCP Capability configuration parameter
+* ACC Access control class
+* IMSI IMSI
+* LOCI Location information
+* BCCH Broadcast control channels
+* Kc Ciphering key
 
 SIM Card Seizure also acquires the whole catalog system with data in a
 tree-view presentation. Additionally, it can recover some deleted SMS

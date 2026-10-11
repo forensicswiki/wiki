@@ -14,15 +14,15 @@ platforms, which is different from other hashing utilities such as
 To use this tool in binary mode on Linux systems you would use the
 command:
 
-`md5sum -b [filename|volume]`
+`md5sum -b [filename|volume]`
 
 e.g.
 
-`md5sum -b /dev/sda`
+`md5sum -b /dev/sda`
 
 or
 
-`md5sum -b file.dd`
+`md5sum -b file.dd`
 
 ## External Links
 
