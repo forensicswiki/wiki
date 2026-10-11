@@ -44,6 +44,7 @@ under that tag.
 
 ### Topics
 
+<!--pyml disable md018-->
 <html>
 <head>
 <style>
@@ -71,6 +72,7 @@ under that tag.
 </style>
 </head>
 </html>
+<!--pyml disable md018-->
 
 <body>
 <table id="Tags">
