@@ -859,12 +859,12 @@ Zero storage support
 
 POLA
 
-* joe-e (java) ( <https://code.google.com/archive/p/joe-e> )
-* Emily (ocaml) ( <http://erights.org/download/emily/> )
-* the E language ( <http://www.erights.org/> )
+* [joe-e (java)](https://code.google.com/archive/p/joe-e)
+* [Emily (ocaml)](http://www.erights.org/download/emily/)
+* [the E language](http://www.erights.org/)
 * AppArmor
 * iptables/ipfw
-* minorfs ( <https://www.the-essays.com/> )
+* [minorfs](https://www.the-essays.com/)
 
 ## Implementation Timeline
 

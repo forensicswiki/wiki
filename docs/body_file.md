@@ -68,7 +68,7 @@ Known shortcomings with body file format are:
   is unable to handle a name that contains the `|` character. See <https://github.com/sleuthkit/sleuthkit/issues/2124>. _Note: Other implementations are known to not escape `\`._
 * It is unclear from the specification if control characters should be
   escaped. See <https://github.com/sleuthkit/sleuthkit/issues/1989>. Other implementations are known to escape control characters as `x##` where `##` contains the hexadecimal byte value of the control character.
-* The format of the `inode` field is unclear for file systems like NTFS, the documentation indicates that it uses [a TSK Metadata Address](https://wiki.sleuthkit.org/index.php?title=Metadata_Address), however by observation the implementation is TSK specific and does not seem to match what is documented. Also see <https://github.com/sleuthkit/sleuthkit/issues/1809>. Other implementations are known to store the 64-bit NTFS file reference value as the `inode` field.
+* The format of the `inode` field is unclear for file systems like NTFS, the documentation indicates that it uses [a TSK Metadata Address](https://wiki.sleuthkit.org/Metadata-Address/), however by observation the implementation is TSK specific and does not seem to match what is documented. Also see <https://github.com/sleuthkit/sleuthkit/issues/1809>. Other implementations are known to store the 64-bit NTFS file reference value as the `inode` field.
 * The format of the `mode_as_string` field is unclear for file systems like NTFS, this likely can be derived from the source code. Also see <https://github.com/sleuthkit/sleuthkit/issues/1810>.
 * The Sleuth Kit currently does not correctly identify symbolic links for NTFS in the body file output. Also see <https://github.com/sleuthkit/sleuthkit/issues/2645>.
 * The `atime`, `mtime`, `ctime`, and `crtime` typically contain the number of seconds since January 1, 1970. It is unknown if a fractional part is allowed by specification. The corresponding mactime tool does allow for a fractional part to be present but ignores it. Also see <https://github.com/sleuthkit/sleuthkit/issues/1810>. _This limits the usefulness of the format for timelines with a vast amount of sub-second activity._
@@ -236,5 +236,5 @@ _Note that due to an issue within The Sleuth Kit, NTFS metadata addresses for `$
 
 ## External Links
 
-* [Body file - SleuthKit Wiki](http://wiki.sleuthkit.org/index.php?title=Body_file)
+* [Body file - SleuthKit Wiki](https://wiki.sleuthkit.org/Body-file)
 * [Bodyfile format](https://dfimagetools.readthedocs.io/en/latest/sources/Bodyfile-format.html), by dfImageTools project

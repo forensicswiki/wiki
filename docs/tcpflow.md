@@ -2,7 +2,7 @@
 tags:
   - Network Forensics
 ---
-**tcpflow** is a program that captures data transmitted as part of TCP
+tcpflow is a program that captures data transmitted as part of TCP
 connections (flows), and stores the data in a way that is convenient for
 protocol analysis and debugging. Each TCP flow is stored in its own
 file. Thus, the typical TCP flow will be stored in two files, one for
@@ -70,11 +70,11 @@ UNIX; see the INSTALL file for details.
 
 ### Distributions
 
-* [Slackware package](http://kaneda.bohater.net/slackware/packages/)
-  by [Kanedaaa](http://kaneda.bohater.net)
-* [Debian package](https://packages.debian.org/testing/tcpflow)
+* [Slackware package](https://kaneda.bohater.net/slackware/packages/),
+  by [Kanedaaa](https://kaneda.bohater.net/)
+* [Debian package](https://packages.debian.org/testing/tcpflow),
   by Robert McQueen
-* [FreeBSD port](ftp://ftp5.freebsd.org/pub/FreeBSD/branches/-current/ports/net/tcpflow)
+* [FreeBSD port](ftp://ftp5.freebsd.org/pub/FreeBSD/branches/-current/ports/net/tcpflow),
   by Jose M. Alcaide
 * [Solaris 8 SPARC Binary](ftp://ftp.sunfreeware.com/pub/freeware/sparc/8/tcpflow-0.12-sol8-sparc-local.gz)
   for v0.12 from [SunFreeware.com](http://www.sunfreeware.com/introduction.html)

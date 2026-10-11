@@ -1,7 +1,6 @@
 ---
 tags:
-  - Articles that need to be expanded
-  - Tools
+  - Commercial Software
 ---
 The **Cellebrite 'Universal Forensic Extraction Device' (UFED)** is a
 tool for mobile phone, smartphone, and PDA forensics. As of September
@@ -24,4 +23,4 @@ videos stored on the phone), and time and date stamps.
 
 ## External Links
 
-* [Product website](https://cellebrite.com/en/ufed/)
+* [Product website](https://cellebrite.com/en/products/cellebrite-inseyets/ufed/)

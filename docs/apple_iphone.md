@@ -58,12 +58,11 @@ Store does not allow in any application it distributes).
 * [Official website](https://www.apple.com/iphone/)
 * [Wikipedia: iPhone](https://en.wikipedia.org/wiki/IPhone)
 * [Wikipedia: IOS jailbraking](https://en.wikipedia.org/wiki/IOS_jailbreaking)
-* [The iPhone Wiki](https://www.theiphonewiki.com/wiki/Main_Page)
 * [Slashdot: Malware Could Grab Data From Stock iPhones](https://it.slashdot.org/story/09/12/04/0413235/Malware-Could-Grab-Data-From-Stock-iPhones)
 * [Apple iOS Privacy](http://seriot.ch/resources/talks_papers/iPhonePrivacy.pdf),
   [slides hash days presentation](http://seriot.ch/resources/talks_papers/ios_privacy_hashdays.pdf),
   by Nicolas Seriot, in November 2010.
-* [Evolution of iOS Data Protection and iPhone Forensics: from iPhone OS to iOS 5](http://media.blackhat.com/bh-ad-11/Belenko/bh-ad-11-Belenko-iOS_Data_Protection.pdf),
+* [Evolution of iOS Data Protection and iPhone Forensics: from iPhone OS to iOS 5](https://media.blackhat.com/bh-ad-11/Belenko/bh-ad-11-Belenko-iOS_Data_Protection.pdf),
   by Andrey Belenko and Dmitry Sklyarov, 2011
 * [Forensic analysis of iPhone backups](https://www.exploit-db.com/docs/english/19767-forensic-analysis-of-ios5-iphone-backups.pdf),
   by Satish B, 2012

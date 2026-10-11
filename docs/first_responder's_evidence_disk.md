@@ -32,7 +32,7 @@ was publicly unveiled the following year at the [DFRWS
 Conference](digital_forensic_research_workshop.md). Although the
 component parts of FRED were not released, mostly due to licensing
 restrictions, Kornblum did present a paper,
-[Preservation of Fragile Digital Evidence by First Responders](http://old.dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
+"Preservation of Fragile Digital Evidence by First Responders",
 that included the FRED script.
 
 A version of the FRED script was later incorporated into the

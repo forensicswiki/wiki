@@ -7,11 +7,10 @@ or block device to another, trying hard to rescue data in case of read
 errors." The application is developed as part of the GNU project and has
 written with UNIX/Linux in mind.
 
-ddrescue and [dd_rescue](dd_rescue.md) are completely
-different programs which share no development between them. The two
-projects are not related in any way except that they both attempt to
-enhance the standard [dd](dd.md) tool and coincidentally chose
-similar names for their new programs.
+**Note that ddrescue and [dd_rescue](dd_rescue.md) are different programs which
+share no development between them.** The two projects are not related in any
+way except that they both attempt to enhance the standard [dd](dd.md) tool and
+coincidentally chose similar names for their new programs.
 
 From the ddrescue info pages:
 
@@ -43,8 +42,8 @@ From the ddrescue info pages:
 
 ### Bootable CD
 
-ddrescue is available on bootable rescue cds such as SystemRescueCd
-<https://www.system-rescue.org/>.
+ddrescue is available on bootable rescue cds such as
+[SystemRescueCd](https://www.system-rescue.org/).
 
 ### Debian and Ubuntu
 
@@ -54,15 +53,21 @@ not maintain a recovery log. The correct package is gddrescue.
 
 Debian
 
-> aptitude install gddrescue
+```bash
+aptitude install gddrescue
+```
 
 Ubuntu
 
-> sudo apt-get install gddrescue
+```bash
+sudo apt-get install gddrescue
+```
 
 ### Gentoo
 
-> emerge ddrescue
+```bash
+emerge ddrescue
+```
 
 ## Partition recovery
 
@@ -75,16 +80,22 @@ kernels see below.
 First you copy as much data as possible, without retrying or splitting
 sectors:
 
-> ddrescue --no-split /dev/hda1 imagefile logfile
+```bash
+ ddrescue --no-split /dev/hda1 imagefile logfile
+```
 
 Now let it retry previous errors 3 times, using uncached reads:
 
-> ddrescue --direct --max-retries=3 /dev/hda1 imagefile logfile
+```bash
+ddrescue --direct --max-retries=3 /dev/hda1 imagefile logfile
+```
 
 If that fails you can try again but retrimmed, so it tries to reread
 full sectors:
 
-> ddrescue --direct --retrim --max-retries=3 /dev/hda1 imagefile logfile
+```bash
+ddrescue --direct --retrim --max-retries=3 /dev/hda1 imagefile logfile
+```
 
 You can now use ddrescue (or normal dd) to copy the imagefile to a new
 partition on a new disk. Use the appropriate filesystem checkers (fsck,
@@ -101,21 +112,27 @@ ddrescue will use O_DIRECT on the input to do uncached reads.
 First you copy as much data as possible, without retrying or splitting
 sectors:
 
-> ddrescue --no-split /dev/hda1 imagefile logfile
+```bash
+ddrescue --no-split /dev/hda1 imagefile logfile
+```
 
 Now change over to raw device access. Let it retry previous errors 3
 times, don't read past last block in logfile:
 
-> modprobe raw
-> raw /dev/raw/raw1 /dev/hda1
-> ddrescue --max-retries=3 --complete-only /dev/raw/raw1 imagefile
-> logfile
+```bash
+modprobe raw
+raw /dev/raw/raw1 /dev/hda1
+ddrescue --max-retries=3 --complete-only /dev/raw/raw1 imagefile
+logfile
+```
 
 If that fails you can try again (still using raw) but retrimmed, so it
 tries to reread full sectors:
 
-> ddrescue --retrim --max-retries=3 --complete-only /dev/raw/raw1
-> imagefile logfile
+```bash
+ddrescue --retrim --max-retries=3 --complete-only /dev/raw/raw1
+imagefile logfile
+```
 
 You can now use ddrescue (or normal dd) to copy the imagefile to a new
 partition on a new disk. Use the appropriate filesystem checkers (fsck,
@@ -126,7 +143,9 @@ image.
 
 At the end you may want to unbind the raw device:
 
-> raw /dev/raw/raw1 0 0
+```bash
+raw /dev/raw/raw1 0 0
+```
 
 ## Examples
 
@@ -138,13 +157,17 @@ Example 1: Rescue an ext2 partition in /dev/hda2 to /dev/hdb2
 copying to. If you do not want to do that, rather create an image of the
 partition to be rescued.
 
-> ddrescue -r3 /dev/hda2 /dev/hdb2 logfile
-> e2fsck -v -f /dev/hdb2
-> mount -t ext2 -o ro /dev/hdb2 /mnt
+```bash
+ddrescue -r3 /dev/hda2 /dev/hdb2 logfile
+e2fsck -v -f /dev/hdb2
+mount -t ext2 -o ro /dev/hdb2 /mnt
+```
 
 Example 2: Rescue a CD-ROM in /dev/cdrom
 
-> ddrescue -b 2048 /dev/cdrom cdimage logfile
+```bash
+ddrescue -b 2048 /dev/cdrom cdimage logfile
+```
 
 write cdimage to a blank CD-ROM
 
@@ -154,68 +177,72 @@ Example 3: Rescue an entire hard disk /dev/sda to another disk /dev/sdb
 
 copy the error free areas first
 
-`ddrescue -n /dev/sda /dev/sdb rescue.log`
+```bash
+ddrescue -n /dev/sda /dev/sdb rescue.log
+```
 
 attempt to recover any bad sectors
 
-`ddrescue -r 1 /dev/sda /dev/sdb rescue.log`
+```bash
+ddrescue -r 1 /dev/sda /dev/sdb rescue.log
+```
 
 ## Options
 
-`-h, --help`
-`   display this help and exit `
-`-V, --version`
-`   output version information and exit `
-`-b, --block-size=`<bytes>
-`   hardware block size of input device [512] `
-`-B, --binary-prefixes`
-`   show binary multipliers in numbers [default SI] `
-`-c, --cluster-size=`<blocks>
-`   hardware blocks to copy at a time [128] `
-`-C, --complete-only`
-`   do not read new data beyond logfile limits `
-`-d, --direct`
-`   use direct disc access for input file `
-`-D, --synchronous`
-`   use synchronous writes for output file `
-`-e, --max-errors=`<n>
-`   maximum number of error areas allowed `
-`-F, --fill=`<types>
-`   fill given type areas with infile data (?*/-+) `
-`-g, --generate-logfile`
-`   generate approximate logfile from partial copy `
-`-i, --input-position=`<pos>
-`   starting position in input file [0] `
-`-n, --no-split`
-`   do not try to split or retry error areas `
-`-o, --output-position=`<pos>
-`   starting position in output file [ipos] `
-`-q, --quiet`
-`   quiet operation `
-`-r, --max-retries=`<n>
-`   exit after given retries (-1=infinity) [0] `
-`-R, --retrim`
-`   mark all error areas as non-trimmed `
-`-s, --max-size=`<bytes>
-`   maximum size of data to be copied `
-`-S, --sparse`
-`   use sparse writes for output file `
-`-t, --truncate`
-`   truncate output file `
-`-v, --verbose`
-`   verbose operation`
+```text
+-h, --help
+   display this help and exit 
+-V, --version
+   output version information and exit 
+-b, --block-size=`<bytes>
+   hardware block size of input device [512] 
+-B, --binary-prefixes
+   show binary multipliers in numbers [default SI] 
+-c, --cluster-size=`<blocks>
+   hardware blocks to copy at a time [128] 
+-C, --complete-only
+   do not read new data beyond logfile limits 
+-d, --direct
+   use direct disc access for input file 
+-D, --synchronous
+   use synchronous writes for output file 
+-e, --max-errors=`<n>
+   maximum number of error areas allowed 
+-F, --fill=`<types>
+   fill given type areas with infile data (?*/-+) 
+-g, --generate-logfile
+   generate approximate logfile from partial copy 
+-i, --input-position=`<pos>
+   starting position in input file [0] 
+-n, --no-split
+   do not try to split or retry error areas 
+-o, --output-position=`<pos>
+   starting position in output file [ipos] 
+-q, --quiet
+   quiet operation 
+-r, --max-retries=`<n>
+   exit after given retries (-1=infinity) [0] 
+-R, --retrim
+   mark all error areas as non-trimmed 
+-s, --max-size=`<bytes>
+   maximum size of data to be copied 
+-S, --sparse
+   use sparse writes for output file 
+-t, --truncate
+   truncate output file 
+-v, --verbose
+   verbose operation
+```
 
 Numbers may be followed by a multiplier: b = blocks, k = kB = 10^3 =
 1000, Ki = KiB = 2^10 = 1024, M = 10^6, Mi = 2^20, G = 10^9, Gi = 2^30,
-etc...
+etc.
 
 ## Cygwin
 
-As of release 1.4-rc1, it can be compiled directly in
-[Cygwin](cygwin.md) [Out of the
-Box](https://en.wikipedia.org/wiki/Out_of_the_box). Precompiled packages
-are available in the [Cygwin distribution](http://cygwin.com/packages/).
-This makes it usable natively on [Windows](windows.md) systems.
+As of release 1.4-rc1, it can be compiled directly in [Cygwin](cygwin.md)
+[Out of the Box](https://en.wikipedia.org/wiki/Out_of_the_box). Precompiled
+packages are part of the Cygwin distribution.
 
 ## See also
 

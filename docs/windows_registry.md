@@ -1204,13 +1204,8 @@ name</a></b></p></td>
 
 ### Cached Credentials
 
-* [Cached Credentials](http://juggernaut.wikidot.com/cached-credentials),
+* [Cached Credentials](https://juggernaut.wikidot.com/cached-credentials),
   by Juggernaut
-
-### Mounted Devices
-
-* [Registry Analysis (Windows Forensic Analysis) Part 6](http://what-when-how.com/windows-forensic-analysis/registry-analysis-windows-forensic-analysis-part-6/),
-  September 2011
 
 ### Persistence keys
 
@@ -1283,6 +1278,5 @@ name</a></b></p></td>
 
 ### Commercial
 
-* [Alien Registry Viewer](http://lastbit.com/arv/default.asp)
-* [Windows Registry Recovery](http://mitec.cz/wrr.html)
+* [Windows Registry Recovery](https://www.mitec.cz/wrr.html)
 * [Registry Tool](http://registrytool.com/)

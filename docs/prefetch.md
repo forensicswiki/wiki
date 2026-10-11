@@ -227,9 +227,8 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
   by Mark Wade, April 11, 2011
 * [Windows Logical Prefetcher](http://kitrap08.blogspot.com/2011/07/windows-logical-prefetcher.html),
   TTS blog, July 30, 2011 (article is in Russian)
-* [Prefetch i niedokładny licznik](http://labit.in/pliki-prefetch-w-windows/) by Paweł
-  Hałdrzyński, August 20, 2011 (article in Polish; uncertain about the
-  year of publication)
+* [Prefetch i niedokładny licznik](https://labit.in/pliki-prefetch-w-windows/),
+  by Paweł Hałdrzyński, August 20, 2011 (article in Polish; uncertain about the year of publication)
 * [Prefetch Analysis, Revisited](https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisited.html),
   by [Harlan Carvey](harlan_carvey.md), March 8, 2012
 * [Prefetch Analysis, Revisited...Again...](https://windowsir.blogspot.com/2012/03/prefetch-analysis-revisitedagain.html),

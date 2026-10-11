@@ -86,7 +86,7 @@ distributed by Volatile Systems.
 
 2008
 
-* [Lest We Remember: Cold Boot Attacks on Encryption Keys](https://citp.princeton.edu/our-work/memory/),
+* Lest We Remember: Cold Boot Attacks on Encryption Keys,
   Usenix Security 2008 (Best student paper)
 * [Pushing the Limits of Windows: Physical Memory](https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/),
   by Mark Russinovich, Technet Blogs, July 21, 2008
@@ -127,7 +127,7 @@ distributed by Volatile Systems.
   by Jonathan Lindsay, BlackHat 2007
 * [Malware Analysis Tutorial 7: Exploring Kernel Data Structure](http://fumalwareanalysis.blogspot.com/2011/12/malware-analysis-tutorial-7-exploring.html),
   by Dr. Fu, December 14, 2011
-* [Windows Virtual Address Translation and the Pagefile](http://blog.rekall-forensic.com/2014/10/windows-virtual-address-translation-and.html),
+* Windows Virtual Address Translation and the Pagefile,
   by [Michael Cohen](michael_cohen.md), October 31, 2014
 
 ### Kernel debugging
@@ -138,8 +138,8 @@ distributed by Volatile Systems.
   by Brendan Dolan-Gavitt, April 16, 2008
 * [Finding the Kernel Debugger Block](http://scudette.blogspot.com/2012/11/finding-kernel-debugger-block.html),
   by Michael Cohen, November 18, 2012
-* [Do we need the Kernel Debugging Block?](http://blog.rekall-forensic.com/2014/02/do-we-need-kernel-debugging-block.html),
-  by Michael Cohen, February 21, 2014
+* Do we need the Kernel Debugging Block?,
+  by [Michael Cohen](michael_cohen.md), February 21, 2014
 
 ### [Volatility Labs](https://volatility-labs.blogspot.com/)
 

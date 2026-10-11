@@ -19,5 +19,5 @@ In general you should not rely on the partition record for determining
 the partition type.
 
 Some of the test images created for the
-[Honeynet Challenges](http://wiki.sleuthkit.org/index.php?title=Case_Studies)
+[Honeynet Challenges](https://wiki.sleuthkit.org/Case-Studies/)
 have multiple file systems contained in a single partition.

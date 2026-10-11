@@ -11,7 +11,8 @@ distribution [live](live_cd.md) oriented to [computer forensics](computer_forens
 historically conceived by Giancarlo Giustini, within a project of Digital
 Forensics* Interdepartmental Research Center for Security'' (CRIS) of the
 University of Modena and Reggio Emilia see [Official Site](https://www.caine-live.net//page4/history.html).
-Since the end of the **2009** and currently the project is maintained by Nanni
+
+Since the end of the 2009 and currently the project is maintained by Nanni
 Bassetti.
 
 ## Features
@@ -54,7 +55,9 @@ the option* to avoid automatic recovery of any corrupt Journal of ext3;
   limited memory [RAM](ram.md), avoiding the alteration of the original
   artifact computer and overwrite data useful for the purposes of investigation.
 
-Caine and Open Source == == Patches and technical solutions are and have
+## Caine and Open Source
+
+Patches and technical solutions are and have
 been all made in collaboration with people (Professionals, hobbyists,
 experts, etc..) from all over the world.
 CAINE represents fully the spirit of the Open Source philosophy, because
@@ -109,7 +112,7 @@ Analysis
 * Nautilus scripts
 * And many others
 
-Reporting semiautomatic == ==
+## Reporting semiautomatic
 
 Every contribution in the form of output and local report for each
 program involved in an investigation is saved in a report file, easily
@@ -122,7 +125,7 @@ scripts, variables Perl Template Toolkit and the DocBook file that acts
 as a container to the final report.
 All set within the Perl program.
 
-The Project Caine == ==
+## The Project Caine
 
 The project was initially inserted into the priorities of the CRIS
 (Centre for Research Interdepartmental Security) Research Centre
@@ -190,4 +193,4 @@ at the University of Udine.
 * [dragonjar.org](https://www.dragonjar.org/distribucion-live-cd-analisis-forense.xhtml)
 * [TechTarget.it](https://www.zerounoweb.it/techtarget/searchsecurity/)
 * [ilsoftware.it](https://www.ilsoftware.it/caine-progetto-italiano-per-la-computer-forensics_5656)
-* [Attestato Marenostrum V.F.F.](http://nannibassetti.com/dblog/articolo.asp?articolo=156)
+* [Attestato Marenostrum V.F.F.](https://nannibassetti.com/dblog/articolo.asp?articolo=156)

@@ -29,7 +29,7 @@ a body file that can be imported into other tools for timeline analysis.
 The tool has both a modular based approach to the input file as well as
 the output file. The default behavior of the current version is to
 export the timeline in a body format readable by TSK's (The Sleuth Kit)
-[mactime](http://wiki.sleuthkit.org/index.php?title=Body_file) (although
+[mactime](https://wiki.sleuthkit.org/Body-file/) (although
 this can be easily changed). Log2timeline is build as a series of
 scripts, this one being the front-end, which uses other scripts to
 actually parse the log files (called modules). The tool is build to be

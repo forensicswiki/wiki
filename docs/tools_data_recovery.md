@@ -162,11 +162,6 @@ Windows Data Recovery tool to recover all types of data and files from
 both internal and external hard drive containing FAT and NTFS file
 systems.
 
-* [SysTools Data Recovery](https://www.systoolsgroup.com/data-recovery.html)
-
-SysTools Data Recovery, Windows based programs for recovering &
-repairing any file type & file systems.
-
 * [MiniTool Data Recovery](minitool_data_recovery.md)
 
 Easy simple free data recovery software for windows, recover
@@ -251,11 +246,6 @@ licensed under the GNU Public License (GPL).
 
 Partition Recovery software for NTFS & FAT system that examines lost
 windows partition of damaged and corrupted hard drive.
-
-* [Partition Data Recovery](https://www.systoolsgroup.com/partition-recovery.html)
-
-Recover lost/damaged/formatted partition & examine the different
-scenario of corruption of Partition Data.
 
 * [M3 RAW Drive Recovery](https://iboysoft.com/raw-drives-recovery/)
 

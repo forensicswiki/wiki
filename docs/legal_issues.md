@@ -53,7 +53,7 @@ computer.
 
 More links from previous research.
 
-* [6](http://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
+* [6](https://edition.cnn.com/2003/TECH/internet/10/28/hacker.defense.reut/index.html)
 * [7](http://news.com.com/2100-7349_3-5092781.html)
 * [8](https://www.theregister.com/2003/04/24/trojan_defence_clears_man/)
 
@@ -68,7 +68,7 @@ that was infected with spyware and DNS hijacking software; the
 conviction was vacated on appeal.
 
 * [Wikipedia: Connecticut v.  Amero](https://en.wikipedia.org/wiki/Connecticut_v._Amero)
-* [Technical review of the Trial Testimony State of Connecticut vs.  Julie Amero](http://dfir.com.br/wp-content/uploads/2014/02/julieamerosummary.pdf),
+* [Technical review of the Trial Testimony State of Connecticut vs.  Julie Amero](https://dfir.com.br/wp-content/uploads/2014/02/julieamerosummary.pdf),
   March 21, 2007
 
 ## External Links

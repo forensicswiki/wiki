@@ -1,8 +1,9 @@
 ---
 tags:
-  - No Category
+  - Commercial Software
+  - Discontinued
 ---
-**BitFlare** is a Software-as-a-Service offering from SunBlock Systems that
+BitFlare is a Software-as-a-Service offering from SunBlock Systems that
 allows non-experts to perform computer forensics, electronic evidence
 discovery, and data preservation. The software loads its own operating system
 on to a suspect computer, essentially utilizing the suspect machine itself a
@@ -47,7 +48,3 @@ BitFlare.
 
 Computers deemed to have no relevant information incur no cost under
 this model.
-
-## External Links
-
-* [Official Website](http://www.bitflare.com/)
