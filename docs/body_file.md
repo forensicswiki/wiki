@@ -14,8 +14,9 @@ tags:
 > Body file may also be referred to as "bodyfile", however official
 > documentation refers to it as body file (two separate words).
 
-The body file format is a delimiter-separated output timeline format (as far as
-known) introduced by the [The Sleuth Kit](the_sleuth_kit.md). Body files are
+The **body file** format is a delimiter-separated output timeline format (as
+far as known) introduced by the grave-robber tool of the The Coroner's Toolkit
+(TCT) and was adopted by [the Sleuth Kit](the_sleuth_kit.md). Body files are
 pipe (`|`) delimited and are referred to as an "intermediate file", as they are
 not sorted chronologically and are often staged for post-processing. Subsequent
 timeline sorting is done via the [mactime](mactime.md) tool.
