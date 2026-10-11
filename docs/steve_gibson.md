@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 ## Overview
 

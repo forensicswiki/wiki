@@ -1,14 +1,14 @@
 ---
 tags:
-  -  Articles that need to be expanded
-  -  Linux
-  -  FreeBSD
-  -  OpenBSD
-  -  Solaris
-  -  Windows
-  -  Secure Deletion
-  -  Commercial Software
-  -  Tools
+  - Articles that need to be expanded
+  - Linux
+  - FreeBSD
+  - OpenBSD
+  - Solaris
+  - Windows
+  - Secure Deletion
+  - Commercial Software
+  - Tools
 ---
 **BCWipe** is a secure data deletion tool for
 [Windows](windows.md) and [Unix](unix.md)-like

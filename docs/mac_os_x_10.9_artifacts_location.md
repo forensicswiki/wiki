@@ -1,7 +1,7 @@
 ---
 tags:
-  -  MacOS
-  -  Operating Systems
+  - MacOS
+  - Operating Systems
 ---
 The content of this page is automatically generated from the "Mac OS X artifacts
  location" of the [mac4n6 project](https://github.com/pstirparo/mac4n6). Please

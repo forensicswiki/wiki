@@ -1,13 +1,13 @@
 ---
 tags:
-  -  Tools
-  -  Windows
-  -  Linux
-  -  FreeBSD
-  -  NetBSD
-  -  OpenBSD
-  -  Email Analysis
-  -  Open Source Software
+  - Tools
+  - Windows
+  - Linux
+  - FreeBSD
+  - NetBSD
+  - OpenBSD
+  - Email Analysis
+  - Open Source Software
 ---
 ## Tools
 

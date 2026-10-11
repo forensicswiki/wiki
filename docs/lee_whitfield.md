@@ -1,6 +1,6 @@
 ---
 tags:
-  -  People
+  - People
 ---
 <img src="../assets/images/200px-LeeW.jpg" title="LeeW.jpg" width="200" alt="LeeW.jpg" align="right" />
 

@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Analysis
-  -  Windows
-  -  Free Software
-  -  Articles that need to be expanded
+  - Analysis
+  - Windows
+  - Free Software
+  - Articles that need to be expanded
 ---
 *E01 Viewer* is a freeware tool developed to view forensic disk image
 file contents.

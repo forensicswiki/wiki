@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Anti-Forensics
-  -  Secure Deletion
-  -  Articles that need to be expanded
+  - Anti-Forensics
+  - Secure Deletion
+  - Articles that need to be expanded
 ---
 Verb - The permanent and complete destruction of digital media contents,
 often by overwriting one or more times the original data.

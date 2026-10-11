@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Log Analysis
-  -  Articles that need to be expanded
-  -  Tools
-  -  Windows
-  -  Free Software
+  - Log Analysis
+  - Articles that need to be expanded
+  - Tools
+  - Windows
+  - Free Software
 ---
 *SQL MDF Viewer* application is a freeware tools that can read and
 preview contents of SQL MDF files without the requirement of an SQL

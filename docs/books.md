@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Research
-  -  Books
+  - Research
+  - Books
 ---
 
 # Books About Forensics

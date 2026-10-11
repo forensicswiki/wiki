@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Applications
-  -  Web Browsers
+  - Applications
+  - Web Browsers
 ---
 Mozilla Firefox is a Free and Open Source [web
 browser](web_browser.md) developed by the Mozilla Foundation.

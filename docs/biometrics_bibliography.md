@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Bibliographies
+  - Bibliographies
 ---
 <bibtex> @inproceedings{642639,
 

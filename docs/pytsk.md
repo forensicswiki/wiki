@@ -1,12 +1,12 @@
 ---
 tags:
-  -  Disk Analysis
-  -  Tools
-  -  Open Source Software
-  -  Articles that need to be expanded
-  -  Windows
-  -  MacOS
-  -  Linux
+  - Disk Analysis
+  - Tools
+  - Open Source Software
+  - Articles that need to be expanded
+  - Windows
+  - MacOS
+  - Linux
 ---
 Python-bindings for the [The Sleuth Kit](the_sleuth_kit.md) library (libtsk).
 

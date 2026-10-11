@@ -1,9 +1,9 @@
 ---
 tags:
-  -  Log Analysis
-  -  Windows
-  -  Commercial Software
-  -  Tools
+  - Log Analysis
+  - Windows
+  - Commercial Software
+  - Tools
 ---
 *SQL Log Analyzer* is an Forensic Analysis tool for SQL transaction log
 details and associated database recovery.

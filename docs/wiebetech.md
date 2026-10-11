@@ -1,8 +1,8 @@
 ---
 tags:
-  -  Organization
-  -  Disk Imaging
-  -  Articles that need to be expanded
+  - Organization
+  - Disk Imaging
+  - Articles that need to be expanded
 ---
 <https://wiebetech.com/>
 

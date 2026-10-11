@@ -1,10 +1,10 @@
 ---
 tags:
-  -  Email Analysis
-  -  File Analysis
-  -  Free Software
-  -  Windows
-  -  Articles that need to be expanded
+  - Email Analysis
+  - File Analysis
+  - Free Software
+  - Windows
+  - Articles that need to be expanded
 ---
 *EML Viewer* application can be used for viewing EML format messages
 along with attachments, independently.

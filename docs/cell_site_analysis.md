@@ -1,6 +1,6 @@
 ---
 tags:
-  -  Articles that need to be expanded
+  - Articles that need to be expanded
 ---
 Cell Site Analysis (CSA) is the technical discipline of using mobile
 telephony signals and network data to triangulate and identify the

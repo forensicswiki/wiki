@@ -1,7 +1,7 @@
 ---
 tags:
-  -  Encryption
-  -  Disk Encryption
+  - Encryption
+  - Disk Encryption
 ---
 
 **CGD** (Cryptographic Device Driver) - provides transparent full disk
