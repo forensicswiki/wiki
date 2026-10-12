@@ -78,9 +78,9 @@ Some models come with different capacities (a higher capacity allows the
 storage of more music) or with different designs. The model range as of
 February 7, 2006 includes:
 
-* iPod (30 GB and 60 GB).
-* iPod nano (1 GB, 2 GB, and 4 GB).
-* iPod shuffle (512 MB and 1 GB).
+* iPod (30 GB and 60 GB).
+* iPod nano (1 GB, 2 GB, and 4 GB).
+* iPod shuffle (512 MB and 1 GB).
 
 ### iPod
 

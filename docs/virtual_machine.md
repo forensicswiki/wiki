@@ -27,11 +27,11 @@ See the list of blog posts under external links below.
 
 Via the SIFT workstation (free), use the following steps:
 
-`1.open a terminal window`
-`2.sudo su`
-`3.mkdir /mnt/ewf1`
-`4.mount_ewf.py (Encase Image file path) /mnt/ewf1`
-`5.qemu-img convert /mnt/ewf1/(encase image file name) -O vmdk (give_a_name).vmdk`
+`1.open a terminal window`
+`2.sudo su`
+`3.mkdir /mnt/ewf1`
+`4.mount_ewf.py (Encase Image file path) /mnt/ewf1`
+`5.qemu-img convert /mnt/ewf1/(encase image file name) -O vmdk (give_a_name).vmdk`
 
 #### EnCase
 
@@ -85,7 +85,7 @@ machine in seconds directly from a hard drive, from a forensic image
 
 #### From the linux command prompt
 
-`kvm -hda myimage.dd`
+`kvm -hda myimage.dd`
 
 memory can be set as an option, cd drives can be presented, etc., and
 there is an option equivalent to the VMware non persistent mode.

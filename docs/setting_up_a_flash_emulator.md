@@ -10,8 +10,8 @@ with JFFS2 or YAFFS. Follow these instructions.
 First, you need to have MTD working. Use this:
 
 ```bash
-modprobe mtd jffs2 mtdram mtdchar mtdblock
-cat /proc/mtd
+modprobe mtd jffs2 mtdram mtdchar mtdblock
+cat /proc/mtd
 ```
 
 We will use the RAM MTD device, and then dump it into a file to get the

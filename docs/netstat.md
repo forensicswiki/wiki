@@ -56,12 +56,12 @@ Below is an example of an excerpt from the Netstat output (taken from a
 forensic investigation on a Windows machine for a class):
 
 ```text
-Active Connections
+Active Connections
 
-Proto  Local Address          Foreign Address        State           PID
-TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       712
+Proto  Local Address          Foreign Address        State           PID
+TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       712
 ...
-TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
 [System]
 
 TCP 0.0.0.0:1337 0.0.0.0:0 LISTENING 1256
@@ -85,9 +85,9 @@ bypass firewalls and other restrictions) using the following command:
 
 ```bash
 $ netstat –rn
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
-0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33
-169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
-172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33
 ```

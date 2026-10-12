@@ -22,8 +22,8 @@ Looking for and installing the correct driver for the device is recorded
 in the [setupapi log](setup_api_logs.md) file. For example:
 
 ```text
-[2007/06/10 21:25:41 1140.8 Driver Install]
-#-019 Searching for hardware ID(s): usbstor\disksandisk_u3_cruzer_micro_3.27,...
+[2007/06/10 21:25:41 1140.8 Driver Install]
+#-019 Searching for hardware ID(s): usbstor\disksandisk_u3_cruzer_micro_3.27,...
 ```
 
 This provides the local date and time that the removable storage device

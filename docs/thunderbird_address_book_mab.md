@@ -76,7 +76,7 @@ However, users of SeaMonkey can also find the location of .mab file
 extension at:
 
 ```text
-~/Library/Application Support/SeaMonkey/Profiles/trainer.<Profile name>
+~/Library/Application Support/SeaMonkey/Profiles/trainer.<Profile name>
 ```
 
 ## How to Open MAB File

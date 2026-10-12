@@ -17,19 +17,19 @@ called a "dd image".
 To convert a file from ISO to AFF, use this command.
 
 ```bash
-% afconvert filename.iso`
+% afconvert filename.iso`
 ```
 
 This will give you output like this:
 
 ```text
-convert filename.iso --> filename.aff
-Converting page 1 of 6
-Converting page 2 of 6
-Converting page 3 of 6
-Converting page 4 of 6
-Converting page 5 of 6
-Converting page 6 of 6
+convert filename.iso --> filename.aff
+Converting page 1 of 6
+Converting page 2 of 6
+Converting page 3 of 6
+Converting page 4 of 6
+Converting page 5 of 6
+Converting page 6 of 6
 
 md5: 949442a1cd26d3d26b28a529e08e32df sha1:
 198dd3779dce1de0859183a619dd1a9ffbc249f7 bytes converted: 108580864
@@ -39,18 +39,18 @@ Total pages: 7 (3 compressed)
 ## Converting AFF to ISO/RAW
 
 ```bash
-% afconvert -r filename.aff
-Convert filename.aff --> filename.raw
-Converting page 1 of 6
-Converting page 2 of 6
-Converting page 3 of 6
-Converting page 4 of 6
-Converting page 5 of 6
-Converting page 6 of 6
-md5: 949442a1cd26d3d26b28a529e08e32df
-sha1: 198dd3779dce1de0859183a619dd1a9ffbc249f7
-bytes converted: 108580864
-Conversion finished.
+% afconvert -r filename.aff
+Convert filename.aff --> filename.raw
+Converting page 1 of 6
+Converting page 2 of 6
+Converting page 3 of 6
+Converting page 4 of 6
+Converting page 5 of 6
+Converting page 6 of 6
+md5: 949442a1cd26d3d26b28a529e08e32df
+sha1: 198dd3779dce1de0859183a619dd1a9ffbc249f7
+bytes converted: 108580864
+Conversion finished.
 ```
 
 ## Other formats
@@ -61,19 +61,19 @@ single file) to AFM (which stores the metadata in an AFM file and the
 data in a splitraw file):
 
 ```bash
-% afconvert -a afm filename.aff
+% afconvert -a afm filename.aff
 
-convert filename.aff --> filename.afm
-Converting page 6 of 6
-md5: 949442a1cd26d3d26b28a529e08e32df
-sha1: 198dd3779dce1de0859183a619dd1a9ffbc249f7
-bytes converted: 108580864
-Conversion finished.
+convert filename.aff --> filename.afm
+Converting page 6 of 6
+md5: 949442a1cd26d3d26b28a529e08e32df
+sha1: 198dd3779dce1de0859183a619dd1a9ffbc249f7
+bytes converted: 108580864
+Conversion finished.
 
-02:40 PM s:~$ ls -l filename*
--rw-r--r--  1 simsong  simsong  108580864 Mar 30 14:40 filename.000
--rwxr-xr-x  1 simsong  simsong  108528960 Mar 30 13:42 filename.aff*
--rwxr-xr-x  1 simsong  simsong       1463 Mar 30 14:40 filename.afm*
+02:40 PM s:~$ ls -l filename*
+-rw-r--r--  1 simsong  simsong  108580864 Mar 30 14:40 filename.000
+-rwxr-xr-x  1 simsong  simsong  108528960 Mar 30 13:42 filename.aff*
+-rwxr-xr-x  1 simsong  simsong       1463 Mar 30 14:40 filename.afm*
 ```
 
 In this example, **filename.aff** is the original AFF file,
@@ -89,7 +89,7 @@ this example, /dev/md1 is a raw partition of a memory file system on a
 computer running FreeBSD:
 
 ```bash
-# mdconfig -a -t malloc -s 10858k
+# mdconfig -a -t malloc -s 10858k
 md1
 ```
 

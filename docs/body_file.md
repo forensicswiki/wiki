@@ -179,42 +179,42 @@ Body file data:
 ```ascii
 0|/$BadClus|8-128-2|r/rr-xr-xr-x|0|0|0|1580550524|1580550524|1580550524|1580550524
 0|/$BadClus:$Bad|8-128-1|r/rr-xr-xr-x|0|0|7270400|1580550524|1580550524|1580550524|1580550524
-0|/$BadClus ($FILE_NAME)|8-48-3|r/rr-xr-xr-x|0|0|82|1580550524|1580550524|1580550524|1580550524
+0|/$BadClus ($FILE_NAME)|8-48-3|r/rr-xr-xr-x|0|0|82|1580550524|1580550524|1580550524|1580550524
 ```
 
 Corresponding NTFS MFT entry:
 
 ```ascii
-MFT Entry Header Values:
-Entry: 8        Sequence: 8
-$LogFile Sequence Number: 1069751
-Allocated File
-Links: 1
+MFT Entry Header Values:
+Entry: 8        Sequence: 8
+$LogFile Sequence Number: 1069751
+Allocated File
+Links: 1
 
-$STANDARD_INFORMATION Attribute Values:
-Flags: Hidden, System
-Owner ID: 0
-Security ID: 256  ()
-Created:    2020-02-01 10:48:44.857384500 (CET)
-File Modified:  2020-02-01 10:48:44.857384500 (CET)
-MFT Modified:   2020-02-01 10:48:44.857384500 (CET)
-Accessed:   2020-02-01 10:48:44.857384500 (CET)
+$STANDARD_INFORMATION Attribute Values:
+Flags: Hidden, System
+Owner ID: 0
+Security ID: 256  ()
+Created:    2020-02-01 10:48:44.857384500 (CET)
+File Modified:  2020-02-01 10:48:44.857384500 (CET)
+MFT Modified:   2020-02-01 10:48:44.857384500 (CET)
+Accessed:   2020-02-01 10:48:44.857384500 (CET)
 
-$FILE_NAME Attribute Values:
-Flags: Hidden, System
-Name: $BadClus
-Parent MFT Entry: 5     Sequence: 5
-Allocated Size: 0       Actual Size: 0
-Created:    2020-02-01 10:48:44.857384500 (CET)
-File Modified:  2020-02-01 10:48:44.857384500 (CET)
-MFT Modified:   2020-02-01 10:48:44.857384500 (CET)
-Accessed:   2020-02-01 10:48:44.857384500 (CET)
+$FILE_NAME Attribute Values:
+Flags: Hidden, System
+Name: $BadClus
+Parent MFT Entry: 5     Sequence: 5
+Allocated Size: 0       Actual Size: 0
+Created:    2020-02-01 10:48:44.857384500 (CET)
+File Modified:  2020-02-01 10:48:44.857384500 (CET)
+MFT Modified:   2020-02-01 10:48:44.857384500 (CET)
+Accessed:   2020-02-01 10:48:44.857384500 (CET)
 
-Attributes: 
-Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
-Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 82
-Type: $DATA (128-2)   Name: N/A   Resident   size: 0
-Type: $DATA (128-1)   Name: $Bad   Non-Resident   size: 7270400  init_size: 0
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 82
+Type: $DATA (128-2)   Name: N/A   Resident   size: 0
+Type: $DATA (128-1)   Name: $Bad   Non-Resident   size: 7270400  init_size: 0
 ```
 
 Behavior of the TSK Metadata Address:

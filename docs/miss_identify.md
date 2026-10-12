@@ -18,14 +18,14 @@ record the strings found in an executable and to work recursively.
 The program can be used to search for mislabeled executables:
 
 ```text
-C:\> missidentify *
+C:\> missidentify *
 C:\missidentify-1.0\sample.jpg
 ```
 
 To enumerate all executables:
 
 ```text
-C:\> missidentify -a *
+C:\> missidentify -a *
 C:\missidentify-1.0\sample.jpg
 C:\missidentify-1.0\missidentify.exe
 ```
@@ -33,7 +33,7 @@ C:\missidentify-1.0\missidentify.exe
 To search for all executables in an unusual place:
 
 ```text
-C:\> missidentify -ar c:\windows\system32
+C:\> missidentify -ar c:\windows\system32
 ...
 C:\WINDOWS\System32\ntdll.dll
 C:\WINDOWS\System32\ntoskrnl.exe

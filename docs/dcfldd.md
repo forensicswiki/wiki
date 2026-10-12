@@ -23,8 +23,8 @@ The program only produces [raw image files](raw_image_format.md).
 Unix/Linux:
 
 ```bash
-dcfldd if=/dev/sourcedrive hash=md5,sha256 hashwindow=10G md5log=md5.txt sha256log=sha256.txt \
-    hashconv=after bs=512 conv=noerror,sync split=10G splitformat=aa of=driveimage.dd
+dcfldd if=/dev/sourcedrive hash=md5,sha256 hashwindow=10G md5log=md5.txt sha256log=sha256.txt \
+    hashconv=after bs=512 conv=noerror,sync split=10G splitformat=aa of=driveimage.dd
 ```
 
 This command will read ten Gigabytes from the source drive and write

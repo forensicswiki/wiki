@@ -36,13 +36,13 @@ There are a few forks of dd for forensic purposes including:
 UNIX/Linux
 
 ```bash
-dd if=/dev/hda of=mybigfile.img bs=65536 conv=noerror,sync
+dd if=/dev/hda of=mybigfile.img bs=65536 conv=noerror,sync
 ```
 
 Windows
 
 ```text
-dd.exe if=\\.\PhysicalDrive0 of=d:\images\PhysicalDrive0.img --md5sum --verifymd5 --md5out=d:\images\PhysicalDrive0.img.md5
+dd.exe if=\\.\PhysicalDrive0 of=d:\images\PhysicalDrive0.img --md5sum --verifymd5 --md5out=d:\images\PhysicalDrive0.img.md5
 ```
 
 ## Tips
@@ -50,19 +50,19 @@ dd.exe if=\\.\PhysicalDrive0 of=d:\images\PhysicalDrive0.img --md5sum --veri
 With linux in addition to
 
 ```bash
-dd if=/dev/hda of=mybigfile.img bs=65536 conv=noerror,sync
+dd if=/dev/hda of=mybigfile.img bs=65536 conv=noerror,sync
 ```
 
 You can wipe a drive with:
 
 ```bash
-dd if=/dev/zero of=/dev/hda bs=4K conv=noerror,sync
+dd if=/dev/zero of=/dev/hda bs=4K conv=noerror,sync
 ```
 
 For imaging a useful alternate invocation in Linux or UNIX is:
 
 ```bash
-dd if=/dev/hda bs=4K conv=sync,noerror | tee mybigfile.img | md5sum > mybigfile.md5
+dd if=/dev/hda bs=4K conv=sync,noerror | tee mybigfile.img | md5sum > mybigfile.md5
 ```
 
 The above alternate imaging command uses dd to read the harddrive being
@@ -73,27 +73,27 @@ calculates the hash which gets saved in mybgifile.md5
 For all of the above
 
 ```text
-if             => input file
-/dev/hda       => the linux name of a physical disk.  Mac has their own names.
-/dev/zero      => in linux, this is an infinite source of nulls
-of             => output file
-mybigfile.img  => The name of the image file you are creating
-bs             => blocksize
-65536          => 64K  (I normally use 4K in linux.  That is what the linux kernel uses as a page size.)
-noerror        => don't die if you have a read error from the source drive
-sync           => if there is an error, null fill the rest of the block.
+if             => input file
+/dev/hda       => the linux name of a physical disk.  Mac has their own names.
+/dev/zero      => in linux, this is an infinite source of nulls
+of             => output file
+mybigfile.img  => The name of the image file you are creating
+bs             => blocksize
+65536          => 64K  (I normally use 4K in linux.  That is what the linux kernel uses as a page size.)
+noerror        => don't die if you have a read error from the source drive
+sync           => if there is an error, null fill the rest of the block.
 ```
 
 In linux, the blocksize value can have a multiplicative suffix:
 
 ```text
-c =1
-w =2
-b =512
-kB =1000,           K =1024
-MB =1000*1000,      M =1024*1024
-GB =1000*1000*1000, G =1024*1024*1024
-and so on for T, P, E, Z, Y.
+c =1
+w =2
+b =512
+kB =1000,           K =1024
+MB =1000*1000,      M =1024*1024
+GB =1000*1000*1000, G =1024*1024*1024
+and so on for T, P, E, Z, Y.
 ```
 
 Things to know:
@@ -132,7 +132,7 @@ Most commercial backup software use EOF separators to allow a single
 tape to hold multiple backup sessions.
 
 ```text
-backup1-- EOF -- backup2 -- EOF -- backup3 -- EOT
+backup1-- EOF -- backup2 -- EOF -- backup3 -- EOT
 ```
 
 A simple dd if=/dev/st0 of=image.dd will only preserve the first backup
@@ -141,9 +141,9 @@ session.
 For testing, from Linux you can create a multi-session backup tape via:
 
 ```bash
-mt rewind -f /dev/st0
-tar -cf /dev/nst0 /home
-tar -cf /dev/nst0 /srv
+mt rewind -f /dev/st0
+tar -cf /dev/nst0 /home
+tar -cf /dev/nst0 /srv
 ```
 
 The nst device driver considers the closing of /dev/nst0 to signal the
@@ -153,7 +153,7 @@ tar.
 So the tape would have:
 
 ```text
-home_tar_archive -- EOF -- srv_tar_archive -- EOF -- EOT
+home_tar_archive -- EOF -- srv_tar_archive -- EOF -- EOT
 ```
 
 If you start reading from the start of the tape with either dd or tar,

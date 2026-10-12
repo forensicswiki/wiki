@@ -8,7 +8,7 @@ fragmented files first proposed by A.  Pal, T. Sencar and N. Memon in DFRWS
 2008.
 
 The term **smart carving** was already proposed in 2006 in
-[Analysis of 2006 DFRWS forensic carving challenge - A smart carving approach](https://github.com/libyal/documentation/blob/main/dfrws2006_carving_challenge.pdf).
+[Analysis of 2006 DFRWS forensic carving challenge - A smart carving approach](https://github.com/libyal/documentation/blob/main/dfrws2006_carving_challenge.pdf).
 
 SmartCarving utilizes a combination of structure based validation along
 with validation of each file's unique content. Results for the

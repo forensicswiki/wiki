@@ -37,7 +37,7 @@ following command in the terminal (if it's already installed it will
 tell you):
 
 ```bash
-sudo apt-get install samba
+sudo apt-get install samba
 ```
 
 Next, create a Samba username and password to use to access the Samba
@@ -45,7 +45,7 @@ share, by running the following command (replacing <username> with the
 username on your machine that you want to use (e.g., root)):
 
 ```bash
-sudo smbpasswd -a <username>
+sudo smbpasswd -a <username>
 ```
 
 You should be prompted to enter a password for the user. The prompts
@@ -55,7 +55,7 @@ Next, create a directory to share (replace <share> with whatever you
 want the shared directory to be named):
 
 ```bash
-mkdir Desktop/<share>
+mkdir Desktop/<share>
 ```
 
 Next, the Samba configuration file needs to be edited to include the
@@ -63,7 +63,7 @@ share. To do this, run the following command (you may decide to replace
 "vi" with a different editor):
 
 ```bash
-sudo vi /etc/samba/smb.conf
+sudo vi /etc/samba/smb.conf
 ```
 
 Once you have the smb.conf file open in your editor, go down to the very
@@ -74,13 +74,13 @@ above):
 
 ```text
 [<share>]
-     path = <pathToShare>
-     available = yes
-     valid users = <user>
-     read only = no
-     browsable = yes
-     public = yes
-     writeable = yes
+     path = <pathToShare>
+     available = yes
+     valid users = <user>
+     read only = no
+     browsable = yes
+     public = yes
+     writeable = yes
 ```
 
 After adding the text listed above, the bottom of the *smb.conf* file
@@ -92,7 +92,7 @@ Next, the Samba service needs to be restarted in order to reflect these
 changes. To do so, run the following command:
 
 ```bash
-sudo service samba restart
+sudo service samba restart
 ```
 
 After Samba restarts, you should be able to access the share using your
@@ -104,7 +104,7 @@ created the share on, and <share> with the name of the shared directory
 you created above):
 
 ```text
-net use Z: \\<sharingMachineIPAddress>\<share>
+net use Z: \\<sharingMachineIPAddress>\<share>
 ```
 
 If you have set things up correctly, you should be prompted for the

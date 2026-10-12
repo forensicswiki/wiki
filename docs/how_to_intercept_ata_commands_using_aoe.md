@@ -20,7 +20,7 @@ same network and can exchange packets with each other.
 Make sure that your server has [vblade](https://packages.debian.org/en/lenny/vblade)
 tool installed.  Then run the following command:
 
-`# vblade 0 0 eth0 /dev/sda`
+`# vblade 0 0 eth0 /dev/sda`
 
 Where:
 
@@ -32,11 +32,11 @@ Where:
 Make sure that your Linux client has [aoe tools](https://packages.debian.org/en/lenny/aoetools)
 installed. Then run the following command:
 
-`# modprobe aoe`
+`# modprobe aoe`
 
 Make sure your vblade device is available on the client by running:
 
-`# aoe-stat`
+`# aoe-stat`
 
 The following block devices would be available:
 
@@ -54,4 +54,4 @@ Launch [Wireshark](wireshark.md) on a client and start a capture
 on *eth0*. You can apply the following display filter to analyse AoE
 packets only:
 
-`eth.type == 0x88a2`
+`eth.type == 0x88a2`

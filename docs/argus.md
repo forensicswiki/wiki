@@ -88,14 +88,14 @@ A typical use for argus would be to run it as a daemon and have it write
 the reports to an output file:
 
 ```bash
-argus -d -e ‘hostname‘ -w output-file
+argus -d -e ‘hostname‘ -w output-file
 ```
 
 Argus supports filtering. One can specify to include or exclude certain
 ports in the report. Below is an example of filtering out ICMP traffic:
 
 ```bash
-argus -w output-file - ip and not icmp
+argus -w output-file - ip and not icmp
 ```
 
 When using ra to get valuable data out, one can filter the argus data
@@ -103,7 +103,7 @@ even further. Below is an example of reporting only the TCP
 transactions:
 
 ```bash
-ra -r argus.data - tcp
+ra -r argus.data - tcp
 ```
 
 ## External Links

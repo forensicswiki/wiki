@@ -53,7 +53,7 @@ The file header is 84 bytes of size and consists of:
 #### Compressed blocks
 
 The compressed block size is the chunk data size, which is part of the
-LZNT1 compressed data, + 2 bytes for the size of the chunk header
+LZNT1 compressed data, + 2 bytes for the size of the chunk header
 itself.
 
 The uncompressed block size is 4096 (0x1000) or the remaining
