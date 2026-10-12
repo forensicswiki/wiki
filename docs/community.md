@@ -46,16 +46,16 @@ git push origin [article-branch-name]
 
 Step 5. Checklist before creating a PR
 
-* make sure your changes contain digital forensic relevant information, e.g.
-  when listing tools include forensics relevant tradeoffs.
-* make sure external links are publicly accessible. Links with signup or
-  paywalls, or georestriction will be removed.
+Make sure your changes contain digital forensic relevant information, e.g.
+when listing tools include forensics relevant tradeoffs.
+
+For more detail see the requirements and conventions section below.
 
 Step 6. Create PR for review
 
 <!-- ## TODO: Example Using the GitHub Web UI -->
 
-## Preparing a New Article
+## Requirements and conventions
 
 ### Naming Convention
 
@@ -64,7 +64,7 @@ connect words. For example, if you write an article around "forensics" then
 the name should be `forensics.md`. If you are writing an article about
 "forensic artifacts" then the name should be `forensic_artifacts.md`.
 
-### Content Requirements
+### Content requirements
 
 In order to make the Forensics Wiki valuable, please use the following
 guidelines to help write high-quality articles:
@@ -76,20 +76,30 @@ guidelines to help write high-quality articles:
   topic they could be added. Sections should use heading level 2 or greater.
 * There is no requirement for length but the article should be long enough to
   explain the topic.
-* Write for an international audience of many backgrounds:
-  * do not assume every reader is a native English speaker, avoid uncommon terms
-    or metaphores.
-  * do not assume every reader has the same expertise, describe jargon.
-  * use international standards, e.g. ISO 8601 instead of localized date and
-    time notations.
+
+### Style requirements
+
+Write for an international audience of many backgrounds:
+
+* do not assume every reader is a native English speaker, avoid uncommon terms or metaphores.
+* do not assume every reader has the same expertise or background, avoid non-standard
+  abbreviations, explain jargon.
+* use international standards, e.g. ISO 8601 instead of localized date and time notations.
+* use unambiguous notations, e.g. USD instead of Dollar or $.
+
+### References and external links
+
+* Put most of the external links at the bottom to prevent littering the article with them.
+* For references use, `[title](url), by author(s), date` in chronological order.
+* Make sure external links are publicly accessible. Links with signup or paywalls, or
+  georestriction will be removed.
 
 #### Example
 
 If you are writing an article about a tool, you might have the following
 headings:
 
-* **Introduction**: This section may include history of the tool, OSes
-  supported, and File Systems supported.
+* **Introduction**: This section may include history of the tool, supported operating file systems.
 
 * **Caution**: digital forensic tradeoffs to be aware off. **Make sure to
   include pros and cons of tool use for different digital forensics use

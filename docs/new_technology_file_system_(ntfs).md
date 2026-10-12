@@ -2,7 +2,7 @@
 tags:
   - File Systems
 ---
-The **New Technology File System** (**NTFS**) is a file system developed and
+The New Technology File System (NTFS) is a file system developed and
 introduced by [Microsoft](microsoft.md) in 1995 with [Windows](windows.md) NT.
 As a replacement for the [FAT](fat.md) file system, it quickly became the
 standard for Windows 2000, Windows XP and Windows Server 2003.
@@ -14,9 +14,9 @@ The features of NTFS include:
 * Security access control lists
 * File system journaling
 
-## Time Stamps
+## Timestamps
 
-NTFS keeps track of lots of time stamps. Each file has a time stamp for
+NTFS keeps track of lots of timestamps. Each file has a timestamp for
 'Create', 'Modify', 'Access', and 'Entry Modified'. The latter refers to
 the time when the MFT entry itself was modified. These four values are
 commonly abbreviated as the 'MACE' values. Note that other attributes in
@@ -41,10 +41,10 @@ Note that this feature has been around since as early as Windows 2000
 
 ## Alternate Data Streams
 
-The **NTFS** file system includes a feature referred to as Alternate
+The NTFS file system includes a feature referred to as Alternate
 Data Streams (ADSs). This feature has also been referred to as "multiple
 data streams", "alternative data streams", etc. ADSs were included in
-**NTFS** in order to support the resource forks employed by the
+NTFS in order to support the resource forks employed by the
 Hierarchal File System (HFS) employed by Macintosh systems.
 
 As of Windows XP SP2, files downloaded via Internet Explorer, Outlook, and
@@ -91,7 +91,7 @@ records into the USN change journal, one for each volume on the
 computer. Each record indicates the type of change and the object
 changed. New records are appended to the end of the stream.
 
-```text
+```cmd
 fsutil usn ...
 ```
 
@@ -101,9 +101,9 @@ According to MSDN Transactional NTFS (TxF) allows file operations on an
 NTFS file system volume to be performed in a transaction.
 
 Several TxF related file-system-metadata files can be found in the
-file-system-metadata directory: \\\$Extend\\\$RmMetadata\\. TxF also
-uses the MFT attribute \$LOGGING_UTILITY_STREAM with the name
-\$TXF_DATA.
+file-system-metadata directory: "\$Extend\$RmMetadata\". TxF also
+uses the MFT attribute $LOGGING_UTILITY_STREAM with the name
+$TXF_DATA.
 
 TxF uses the [Common Log File System (clfs)](common_log_file_system_(clfs).md)
 
@@ -138,7 +138,7 @@ def FromFiletime(filetime):
 
 ## Also see
 
-* [\$MFT]($mft.md)
+* [$MFT]($mft.md)
 
 ## External Links
 
@@ -165,7 +165,7 @@ def FromFiletime(filetime):
   by Cheong Kai Wee, January 2006
 * [The Four Stages of NTFS File Growth, Part 2](https://learn.microsoft.com/en-us/archive/blogs/),
   by John Marlin, March 12, 2015
-* [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
+* [Parsing the $MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020
 * [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
   by Jonathan Greig, July 13, 2021

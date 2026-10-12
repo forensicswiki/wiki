@@ -18,18 +18,7 @@ tags:
   Peter Gutmann, Proceedings of the Sixth Usenix Security
   Symposium, 1996.
 
-<bibtex> @Article{garfinkel:remembrance,
-
-` author =       "Simson Garfinkel and Abhi Shelat",`
-` author_a =       "Simson L. Garfinkel and Abhi Shelat",`
-` title =        "Remembrance of Data Passed",`
-` journal =      "{IEEE} Security and Privacy Magazine",`
-` publisher =    "IEEE",`
-` year      =         "2002",`
-` month     = Jan,`
-` url="`[`https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf`](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)`"`
-
-} </bibtex>
+[Remembrance of Data Passed](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf), by Simson Garfinkel and Abhi Shelat, January 2003
 
 ## Evidence Gathering
 
@@ -50,19 +39,7 @@ tags:
 
 Computer Location Determination Through Geoparsing and Geocoding of Extracted Features
 <http://www.chadsteel.com/pubs/Geolocation.pdf>
-<bibtex> @inproceedings{garfinkel:cda,
-
-` title="Forensic feature extraction and cross-drive analysis",`
-` author="Simson Garfinkel",`
-` booktitle={Proceedings of the 6th Annual Digital Forensic Research Workshop (DFRWS)},`
-` address = "Lafayette, Indiana",`
-` journal="Digital Investigation",`
-` year=2006,`
-` month=Aug,`
-` url="`[`https://simson.net/ref/2006/drives-crcs.pdf`](https://simson.net/ref/2006/drives-crcs.pdf)`",`
-` location="Lafayette, Indiana"`
-
-} </bibtex>
+[Forensic feature extraction and cross-drive analysis](https://simson.net/ref/2006/drives-crcs.pdf), by Simson Garfinkel, August 2006
 
 ## Text Mining
 
@@ -71,33 +48,9 @@ by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 ## Signed Evidence
 
-<bibtex> @article{duerr-2004,
+[Information Assurance Applied to Authentication of Digital Evidence](https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01), by Thomas E. Duerr, Nicholas D. Beser and Gregory P. Staisiunas, 2004
 
-` title="Information Assurance Applied to Authentication of Digital Evidence",`
-` author="Thomas E. Duerr and Nicholas D. Beser and Gregory P. Staisiunas",`
-` year=2004,`
-` journal="Forensic Science Communications",`
-` volume=6,`
-` number=4,`
-` url="`[`https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01`](https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01)`"`
-
-}
-
-</bibtex>
-
-<bibtex> @article{OppligerR03,
-
-` author    = {Rolf Oppliger and Ruedi Rytz},`
-` title     = {Digital Evidence: Dream and Reality},`
-` journal   = {IEEE Security {\&} Privacy},`
-` volume    = {1},`
-` number    = {5},`
-` year      = {2003},`
-` pages     = {44-48},`
-` url       = {`[`https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg`](https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg)`},`
-` abstract="Digital evidence is inherently weak. New evidence-gathering technologies-digital black boxes-must be developed and deployed to support investigations of irreproducible events such as digitally signing a document."`
-
-} </bibtex>
+[Digital Evidence: Dream and Reality](https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg), by Rolf Oppliger and Ruedi Rytz, 2003
 
 ## Theory
 

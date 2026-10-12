@@ -13,7 +13,7 @@ tags:
 * [Transactional Registry (txr)](windows_nt_registry_file_(regf).md)
 * [Shadow Volumes](windows_shadow_volumes.md); the volume-based storage of the
   Volume Shadow Copy data
-* \$Recycle.Bin
+* $Recycle.Bin
 * [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 * [User Account Control (uac)](user_account_control_(uac).md)
 

@@ -83,8 +83,7 @@ Number of allocation blocks
 <TD>
 
 Radical decrease in disk space used on large
-
-`                 volumes, and a larger number of files per volume.`
+volumes, and a larger number of files per volume.
 
 </TD>
 </TR>
@@ -107,8 +106,7 @@ Long file names
 <TD>
 
 Obvious user benefit; also improves
-
-`                 cross-platform compatibility`
+cross-platform compatibility
 
 </TD>
 </TR>
@@ -132,7 +130,7 @@ Unicode
 
 Allows for international-friendly file names,
 
-`                 including mixed script names`
+including mixed script names
 
 </TD>
 </TR>
@@ -146,7 +144,7 @@ File/folder attributes
 
 Support for fixed size attributes (FileInfo and
 
-`                 ExtendedFileInfo)`
+ExtendedFileInfo)
 
 </TD>
 <TD>
@@ -158,7 +156,7 @@ Allows for future meta-data extensions
 
 Future systems may use metadata for a richer
 
-`                 Finder experience`
+Finder experience
 
 </TD>
 </TR>
@@ -182,7 +180,7 @@ Also supports a dedicated startup file
 
 May help non-Mac OS systems to boot from HFS
 
-`                 Plus volumes`
+Plus volumes
 
 </TD>
 </TR>
@@ -205,11 +203,10 @@ catalog node size
 <TD>
 
 Maintains efficiency in the face of the other
-
-`                 changes. (This larger catalog node size is due to`
-`                 the much longer file names [512 bytes as opposed to`
-`                 32 bytes], and larger catalog records (because of`
-`                 more/larger fields)).`
+changes. (This larger catalog node size is due to
+the much longer file names [512 bytes as opposed to
+32 bytes], and larger catalog records (because of
+more/larger fields)).
 
 </TD>
 </TR>
@@ -232,8 +229,7 @@ Maximum file size
 <TD>
 
 Obvious user benefit, especially for multimedia
-
-`                 content creators.`
+content creators.
 
 </td>
 </tr>

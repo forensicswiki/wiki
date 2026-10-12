@@ -4,13 +4,13 @@ tags:
   - Windows
   - File Formats
 ---
-In an NTFS volume the **\$MFT** metadata file keeps records of all file
+In an NTFS volume the **$MFT** metadata file keeps records of all file
 entries in the volume.
 
-**Note that analysis of a stand-alone \$MFT (versus a full file system
+**Note that analysis of a stand-alone $MFT (versus a full file system
 analysis) has limitations.**
 
-## \$MFT
+## $MFT
 
 The NTFS file system contains a file called the master file table, or
 MFT. There is at least one entry in the MFT for every file on an NTFS
@@ -64,7 +64,7 @@ contained within the MFT structure.
 
 ## Location
 
-The \$MFT file is located under the root of each volume and can be
+The $MFT file is located under the root of each volume and can be
 extracted using FTKImager.
 
 ![Alt text](assets/images/ftkmft.png)
@@ -79,7 +79,7 @@ extracted using FTKImager.
   by Microsoft
 * [NTFS Master File Table (MFT)](http://www.ntfs.com/ntfs-mft.htm), by
   Ntfs.com
-* [Parsing the \$MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
+* [Parsing the $MFT NTFS metadata file](https://osdfir.blogspot.com/2020/04/parsing-mft-ntfs-metadata-file.html),
   by Joachim Metz, April 30, 2020
 * [Windows Container Forensics](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html),
   by Jonathan Greig, July 13, 2021

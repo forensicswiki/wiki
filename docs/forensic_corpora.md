@@ -182,7 +182,7 @@ the world, used for content-based image retrieval.
 
 CALLFRIEND is a database of recorded English conversations. A total of
 60 recorded conversations are available from the University of
-Pennsylvania at a cost of \$600.
+Pennsylvania at a cost of 600 USD.
 
 ### TalkBank
 

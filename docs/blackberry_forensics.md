@@ -5,12 +5,6 @@ tags:
   - Mobile Forensics
   - Tools
 ---
-**Blackberry Forensics** is a page dedicated to the forensics world.
-This page should contain all the necessary steps to acquire data from a
-BlackBerry Device.
-
-## Warning for BlackBerry Forensics
-
 [BlackBerry](blackberry.md) devices come with password
 protection. The owner has the capability to protect all data on the
 phone with a password. The user may also specify the amount of attempts
@@ -34,7 +28,7 @@ and hopefully get them to disclose the password.
 
 ## Acquiring BlackBerry Backup File (.ipd)
 
-`* Version 4.6 was used in this example`
+Version 4.6 was used in this example
 
 Prerequisites:
 
@@ -113,8 +107,9 @@ Please Note: In some instances the wait can be up to 30-45 minutes.
 
 ## BlackBerry simulator
 
-`* For simulating a backup copy of the physical device. This is helpful if the device is low on battery, needs to be turned off, `
-`* or you don't want to alter the data on the physical device.`
+* For simulating a backup copy of the physical device. This is helpful if the device is low on
+  battery, needs to be turned off,
+* or you don't want to alter the data on the physical device.
 
 This is a step by step guide to downloading and using a BlackBerry
 simulator. In this example the version 4.0.2 was used in order to
@@ -167,7 +162,3 @@ Here is a useful link to the Blackberry Protocol as documented by Phil
 Schwan, Mike Shaver, and Ian Goldberg. The article goes into great
 description of packet sniffing and the protocol as it relates to data
 transfer across a USB port.
-
-## External Links
-
-* [phoneMiner](https://www.amraksoftware.com/)

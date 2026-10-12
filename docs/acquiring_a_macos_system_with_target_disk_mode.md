@@ -128,8 +128,6 @@ isn't available to receive the image. We therefore need to mount the
 <tr>
 <td width="4">
 
- 
-
 </td>
 <td width="633" align="left" valign="top">
 
@@ -146,8 +144,6 @@ style='color:blue'><b>Target</b></span><span class="Section1">.</span>
 <table width="700" border="0" cellspacing="1" cellpadding="0">
 <tr class="Section12">
 <td width="17">
-
- 
 
 </td>
 <td width="680">
@@ -188,7 +184,7 @@ the unmounted drive.
 
 At this point, you have the choice of imaging the suspect’s entire drive
 (recommended), or of just imaging the slice that you want. If you want
-to image the entire drive, type:  
+to image the entire drive, type:
 
 </td>
 </tr>
@@ -231,8 +227,6 @@ command, i.e.
 <tr>
 <td width="4">
 
- 
-
 </td>
 <td width="633" align="left" valign="top">
 
@@ -264,15 +258,11 @@ into Encase as a single evidence file.
 <tr class="Section1">
 <td width="4">
 
- 
-
 </td>
 <td width="633" align="left" valign="top">
 
 Step 9. <span class="Section1">Your done. Unmount the
-   <span class="style24">Target</span> drive by typing
-   `           `</span>
-   `           `
+   <span class="style24">Target</span> drive by typing</span>
 
    cd /Volumes
 
@@ -297,8 +287,6 @@ Examination
 <table width="700" border="0" cellspacing="1" cellpadding="15">
 <tr class="Section1">
 <td width="4">
-
- 
 
 </td>
 <td width="633" align="left" valign="top">
@@ -333,8 +321,6 @@ appear on your desktop. Open it.
 <tr>
 <td width="4">
 
- 
-
 </td>
 <td width="633" align="left" valign="top">
 
@@ -361,8 +347,6 @@ If the image won’t mount, go into the Terminal and type the following:
 <table width="700" border="0" cellspacing="1" cellpadding="15">
 <tr>
 <td width="4">
-
- 
 
 </td>
 <td width="633" align="left" valign="top">

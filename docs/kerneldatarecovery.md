@@ -1,9 +1,7 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
-## Kernel Data Recovery
-
 Kernel Data Recovery, headquartered in Noida (India), is the leading
 software recovery solution provider that was established in 2005. Kernel
 Data Recovery with the team of more than 300 individuals has provided
@@ -18,7 +16,7 @@ NucleusDataRecovery.Com Private Limited by earnest efforts and industry
 expertise of Mr. Sandeep Verma, Mr. Rupesh Kumar, Mr. Anil Verma and Mr.
 Sudesh Kumar and its name was changed to Lepide Software Pvt Ltd in
 2010. The four pillars of the glorious software company namely; Mr.
-Sandeep Verma, Mr. Rupesh Kumar, Mr. Anil Verma and Mr. Sudesh Kumar are
+Sandeep Verma, Mr. Rupesh Kumar, Mr. Anil Verma and Mr. Sudesh Kumar are
 leading this company with their zeal, expertise, vision and turned all
 obstacles into stepping stones to success. The effort for maintaining
 the customer satisfaction is continued since commencement of the
@@ -31,7 +29,7 @@ Since its inception, Kernel Data Recovery has focused on offering an
 entire range of file recovery software and utilities for Windows, Linux,
 Unix, Novell Netware, Apple Macintosh operating system and supporting
 various file systems including FAT16, FAT32, NTFS, NTFS5, Ext2, Ext3,
-ReiserFS, NWFS, Net386, NSS, HFS, HFS+, UFS, FFS, VxFS, EAFS, HTFS etc. 
+ReiserFS, NWFS, Net386, NSS, HFS, HFS+, UFS, FFS, VxFS, EAFS, HTFS etc.
 
 By introducing some of the best data recovery software, Kernel Data
 Recovery not only helped corporate and government entities as well as
@@ -75,7 +73,7 @@ utilities can be briefed as follows:
   Reporter](kernel_for_outlook_pst_reporter.md) - Outlook PST
   repair generates a detailed report on selected folders of the PST
   files configured on users’ Outlook email client. The tool offers
-  comprehensive email traffic statistics and analysis. 
+  comprehensive email traffic statistics and analysis.
 * [Kernel for PST ADD](kernel_for_pst_add.md) - This utility
   assists the user by adding number of PST files to MS Outlook and
   browses all PST data at one place without any data corruption.

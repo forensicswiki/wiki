@@ -2,20 +2,6 @@
 tags:
   - Bibliography
 ---
-<bibtex> @PhDThesis{Kessler2010,
+[Judges’ Awareness, Understanding, and Application of Digital Evidence](https://nsuworks.nova.edu/gscis_etd/196), by Gary Craig Kessler, 2010
 
-`title="Judges’ Awareness, Understanding, and Application of Digital Evidence",`
-`author="Gary Craig Kessler",`
-`year=2010,`
-`institution="Graduate School of Computer and Information Sciences Nova Southeastern University",`
-
-} </bibtex>
-
-<bibtex> @PhDThesis{Carrier2006,
-
-`title="A Hypothesis-Based Approach to Digital Forensic Investigations",`
-`author="Brian D. Carrier",`
-`year=2006,`
-`institution="Purdue University",`
-
-} </bibtex>
+[A Hypothesis-Based Approach to Digital Forensic Investigations](https://docs.lib.purdue.edu/dissertations/AAI3232156), by Brian D. Carrier, 2006

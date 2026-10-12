@@ -47,7 +47,7 @@ There are 2 main branches of Windows:
 * [Transactional Registry (txr)](windows_nt_registry_file_(regf).md)
 * [Shadow Volumes](windows_shadow_volumes.md); the volume-based
   storage of the Volume Shadow Copy data
-* \$Recycle.Bin
+* $Recycle.Bin
 * [Windows XML Event Log (evtx)](windows_xml_event_log_(evtx).md)
 * [User Account Control (uac)](user_account_control_(uac).md)
 
@@ -151,9 +151,9 @@ Which contains:
 
 * INFO2 file; "Recycled" files metadata
 
-#### \$RECYCLE.BIN
+#### $RECYCLE.BIN
 
-The \$Recycle.Bin is used as of Windows Vista.
+The $Recycle.Bin is used as of Windows Vista.
 
 Per user Recycle Bin folder in the form:
 
@@ -163,8 +163,8 @@ C:\$Recycle.Bin\%SID%\
 
 Which contains:
 
-* \$I files; "Recycled" file metadata
-* \$R files; the original data
+* $I files; "Recycled" file metadata
+* $R files; the original data
 
 ### Registry
 

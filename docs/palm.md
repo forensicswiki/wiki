@@ -59,77 +59,21 @@ released using Palm OS 6.
 
 ### Features
 
-<table>
-<tr>
-<td>
-
-**Address Book**: Allows the user to keep track of their contacts.
-Synchronized via HotSync manager
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Calculator**: Basic 4 function calculator
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Datebook**: Track appointments, birthdates and other important times
-during the year. Synchronized via HotSync manager
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Expenses**: Keep track of your spending habits.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**HotSync**: Application that ran on your desktop or portable PC or Mac
-to allow for calendars and contacts to easily be synchronized with Palm
-device.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Memo Pad**: Write short notes.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Note Pad**: Scribble notes in your natural writing language.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**To Do List**: Create a check list of items to accomplish. Synchronized
-via HotSync manager.
-
-</td>
-</tr>
-<tr>
-<td>
-
-**Palm Photos**: Photo manager that allows sharing of photos between
-multiple palm devices.
-
-</td>
-</tr>
-</table>
+* **Address Book**: Allows the user to keep track of their contacts.
+  Synchronized via HotSync manager
+* **Calculator**: Basic 4 function calculator
+* **Datebook**: Track appointments, birthdates and other important times
+  during the year. Synchronized via HotSync manager
+* **Expenses**: Keep track of your spending habits.
+* **HotSync**: Application that ran on your desktop or portable PC or Mac
+  to allow for calendars and contacts to easily be synchronized with Palm
+  device.
+* **Memo Pad**: Write short notes.
+* **Note Pad**: Scribble notes in your natural writing language.
+* **To Do List**: Create a check list of items to accomplish. Synchronized
+  via HotSync manager.
+* **Palm Photos**: Photo manager that allows sharing of photos between
+  multiple palm devices.
 
 ### Palm Pilot
 
@@ -137,99 +81,11 @@ The original creators of the Palm Pilot were Jeff Hawkins, Donna
 Dubinsky, and Ed Colligan. The idea of the palm pilot was established by
 Jeff Hawkins from a block of wood with writing on it.
 
-<table border="1">
-<tr>
-<td>
-</td>
-<th>
-
-`  Palm Pilot 1000`
-`  `
-
-</th>
-<th>
-
-`  Palm Pilot 5000`
-`  `
-
-</th>
-<th>
-
-`  Palm Pilot Personal`
-`  `
-
-</th>
-<th>
-
-`  Palm Pilot Professional`
-`  `
-
-</th>
-</tr>
-<tr>
-<th>
-
-Features
-
-</th>
-<td>
-
-Motorola 68328 processor
-
-</ul>
-
-128 KB memory
-
-</ul>
-
-Palm OS 1.0
-
-</ul>
-</td>
-<td>
-
-Dragonball processor
-
-</ul>
-
-512 KB memory
-
-</ul>
-
-Palm OS 1.0
-
-</ul>
-</td>
-<td>
-
-Dragonball processor
-
-</ul>
-
-512 KB memory
-
-</ul>
-
-Palm OS 2.0
-
-</ul>
-</td>
-<td>
-
-Dragonball processor
-
-</ul>
-
-1 MB memory
-
-</ul>
-
-Palm OS 2.0
-
-</ul>
-</td>
-</tr>
-</table>
+| Feature | Palm Pilot 1000 | Palm Pilot 5000 | Palm Pilot Personal | Palm Pilot Professional |
+| --- | --- | --- | --- | --- |
+| Processor | Motorola 68328 |  Dragonball | Dragonball | Dragonball |
+| Memory | 128 KB | 512 KB | 512 KB | 1 MB |
+| Operating system | Palm OS 1.0 | Palm OS 1.0 | Palm OS 2.0 | Palm OS 2.0 |
 
 ### 3Com Audrey
 
