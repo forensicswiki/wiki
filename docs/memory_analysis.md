@@ -104,7 +104,7 @@ Various types of encryption keys can be extracted during memory
 analysis.
 
 * AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder
-  and private and public RSA keys from a memory dump [10](https://citp.princeton.edu/our-work/memory/code/).
+  and private and public RSA keys from a memory dump.
 * cryptoscan.py which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
   scans a memory image for [TrueCrypt](truecrypt.md) passphrases
 
@@ -161,7 +161,7 @@ analysis.
 * [Wikipedia: Endianness](https://en.wikipedia.org/wiki/Endianness)
 * [Chapter 4. Programming with Cygwin](https://cygwin.com/cygwin-ug-net/programming.html)
 * [Wikipedia: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
-* [Type Systems](http://lucacardelli.name/Papers/TypeSystems.pdf),
+* [Type Systems](https://lucacardelli.name/Papers/TypeSystems.pdf),
   by Luca Cardelli
 
 ### [Volatility Labs](https://volatility-labs.blogspot.com/)

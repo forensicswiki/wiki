@@ -81,7 +81,7 @@ Windows Shell commands:
 
 ## Free (Non Open Source)
 
-* [Windows File Analyzer](http://mitec.cz/wfa.html), free tool that is
+* [Windows File Analyzer](https://www.mitec.cz/wfa.html), free tool that is
   capable of reading and reporting on Windows shortcut files
 
 ## Open Source

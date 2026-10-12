@@ -163,5 +163,5 @@ image. [Qemu](https://www.qemu.org/) supports the pmemsave function,
   by Takahiro haruyama, January 7, 2014
 * [All memory dumping tools are not the same](https://www.brimorlabsblog.com/2014/01/all-memory-dumping-tools-are-not-same.html),
   by Brian Moran, January 14, 2014
-* [Robust Linux memory acquisition with minimal target impact](http://old.dfrws.org/2014eu/proceedings/DFRWS-EU-2014-14p.pdf),
+* Robust Linux memory acquisition with minimal target impact,
   by Johannes Stüttgen and [Michael Cohen](michael_cohen.md), May 2014

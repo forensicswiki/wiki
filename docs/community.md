@@ -108,6 +108,32 @@ headings:
   information you are providing, or links to the project page or official
   website.
 
+### Command line examples
+
+If you want to include command line examples use a code block e.g.
+
+<!--pyml disable md048-->
+
+For Linux/Unix:
+
+~~~text
+```bash
+$ whoami
+user
+```
+~~~
+
+For Windows:
+
+~~~text
+```cmd
+whoami
+desktop\user
+```
+~~~
+
+<!--pyml enable md048-->
+
 ### Images
 
 In order to add images to your document, you must places any images in the

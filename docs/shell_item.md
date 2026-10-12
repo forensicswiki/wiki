@@ -105,7 +105,7 @@ shell item long name                : calc.exe
 
 * [MSDN: Introduction to the Shell Namespace (Windows)](https://learn.microsoft.com/en-us/windows/win32/shell/namespace-intro)
 * [Implementing the Basic Folder Object Interfaces](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/cc144093(v=vs.85))
-* [Using shellbag information to reconstruct user activities](http://old.dfrws.org/2009/proceedings/p69-zhu.pdf),
+* Using shellbag information to reconstruct user activities,
   by Yuandong Zhu, Pavel Gladyshev, Joshua James, 2009
 * [Windows Shell Item format](https://github.com/libyal/libfwsi/blob/main/documentation/Windows%20Shell%20Item%20format.asciidoc),
   by the libfwsi project, July 2010 (work in progress)

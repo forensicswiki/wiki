@@ -102,7 +102,6 @@ available.
 * NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
 * NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
   Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)
-* [Network Instruments](https://www.viavisolutions.com/en-us/ptv/solutions/performance-management-and-security)
 * NIKSUN's NetDetector
 * [PacketMotion](https://www.vmware.com/company/acquisitions.html)
 * WildPackets [OmniPeek](omnipeek.md)

@@ -65,7 +65,7 @@ The Honeynet Project provided network scans in the majority of its Scan of the
 Month challenges. Some of the challenges provided disk images instead. The
 Sleuth Kit's Wiki lists Brian Carrier's responses to those challenges.
 
-[Case Studies - Honeynet Challenges](https://wiki.sleuthkit.org/index.php?title=Case_Studies)
+[Case Studies - Honeynet Challenges](https://wiki.sleuthkit.org/Case-Studies/)
 
 ### Linux LEO
 
@@ -115,9 +115,7 @@ website with many network packet [sample captures](https://wiki.wireshark.org/Sa
 ### NFS Packets
 
 The Storage Networking Industry Association has a set of network file
-system traces that can be downloaded from:
-
-* <http://iotta.snia.org/traces>
+system traces that can be downloaded from: <https://iotta.snia.org/traces>
 
 ### Other
 
@@ -201,7 +199,6 @@ of meeting recordings.
 ### Other Corpora
 
 * [Daily Blog \#277: Sample Forensic Images](https://www.hecfblog.com/2014/03/daily-blog-277-sample-forensic-images.html)
-* [California Cybersecurity Institute - 2019 Digital Forensics Downloads](https://cci.calpoly.edu/2019-digital-forensics-downloads)
 * [Circl.lu - Digital Forensic - Training Materials](https://www.circl.lu/services/forensic-training-materials/)
 * [Forensic Focus - Test Images and Forensic Challenges](https://www.forensicfocus.com/challenges-and-images/)
 * [ForGe – Computer Forensic Test Image Generator](https://www.forensicfocus.com/articles/forge-computer-forensic-test-image-generator/),

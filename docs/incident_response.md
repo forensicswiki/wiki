@@ -53,7 +53,7 @@ victims can be easier if they stand out from the crowd.
 
 ## External Links
 
-* [Preservation of Fragile Digital Evidence by First Responders](http://old.dfrws.org/2002/papers/Papers/Jesse_Kornblum.pdf),
+* Preservation of Fragile Digital Evidence by First Responders,
   by [Jesse Kornblum](jesse_kornblum.md), DFRWS 2002
 * Journey to the Centre of the Breach,
   by Ben Downton, June 2, 2010

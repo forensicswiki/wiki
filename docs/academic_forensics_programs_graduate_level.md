@@ -15,7 +15,7 @@ tags:
 * George Mason University
 * George Washington University
 * John Jay College
-* [Michigan State University](https://cj.msu.edu/graduates/forensic-science/forensic-home.html)
+* Michigan State University
 * [Maryville University](https://online.maryville.edu/online-masters-degrees/cyber-security/)
 * Naval Postgraduate School
 * Polytechnic Institute of New York University

@@ -2,7 +2,7 @@
 tags:
   - File Formats
 ---
-**Open Document Format** (ODF) is an open, XML-based file format
+Open Document Format (ODF) is an open, XML-based file format
 standard for word processing documents, spreadsheets, charts, and
 presentations. The specification was originally developed by Sun
 Microsystems, but has been standardized by the Organization for the
@@ -35,15 +35,17 @@ A packaged ODF file will contain, at a minimum, six files and two
 directories archived into a modified ZIP file. The structure of the
 basic package is as follows
 
-`|-- META-INF`
-`` |   `-- manifest.xml ``
-`|-- Thumbnails`
-`` |   `-- thumbnail.png ``
-`|-- content.xml`
-`|-- meta.xml`
-`|-- mimetype`
-`|-- settings.xml`
-`` `-- styles.xml ``
+```text
+├── META-INF
+    └── manifest.xml
+├── Thumbnails
+    └── thumbnail.png
+├── content.xml
+├── meta.xml
+├── mimetype
+├── settings.xml
+└── styles.xml
+```
 
 Again, this represents a minimal ODF file. The structure can become much
 more complicated as directories can be added that contain embedded
@@ -118,4 +120,5 @@ tracked changes.
 
 ## External Links
 
-* [ODF specification](http://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html)
+* [Open Document Format for Office Applications (OpenDocument) v1.1](https://docs.oasis-open.org/office/v1.1/OS/OpenDocument-v1.1-html/OpenDocument-v1.1.html),
+  by OASIS, Feb 1, 2007

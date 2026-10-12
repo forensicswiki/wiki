@@ -1,12 +1,13 @@
 ---
 tags:
+  - Discontinued
+  - Memory Analysis
   - Memory Imaging
-  - Linux
 ---
 Rekall is the stand-alone continuation of the [Volatility](volatility_framework.md)
 version, aka the scudette branch.
 
-One of Rekalls goals is to provide better integration with [GRR](grr.md) by
+One of Rekalls goals was to provide better integration with [GRR](grr.md) by
 improved modularity of the framework and having memory acquisition capability.
 
 ## Memory acquisition drivers
@@ -147,10 +148,9 @@ rekall/tools/windows/README
 ## See Also
 
 * [Memory analysis](memory_analysis.md)
-* [Memory Imaging](memory_imaging.md)
+* [Memory imaging](memory_imaging.md)
 * [Volatility](volatility_framework.md)
 
 ## External Links
 
-* [Project site](http://www.rekall-forensic.com/)
-* [Rekall Memory Forensics blog](http://blog.rekall-forensic.com/)
+* [Project site](https://github.com/google/rekall)

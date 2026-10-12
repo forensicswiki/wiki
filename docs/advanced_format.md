@@ -51,7 +51,6 @@ utility (this applies only to drives from Western Digital):
 
 ## External Links
 
-* [A Good Overview at AnandTech](https://www.anandtech.com/show/2888)
 * [Advanced Format Technology - White Paper](https://products.wdc.com/library/WhitePapers/ENG/2579-771430.pdf)
 * [A Tom's Hardware Review of the WD Caviar Green Drives](https://www.tomshardware.com/reviews/green-terabyte-1tb,2078-2.html)
 * [ATA 4 KiB sector issues](https://archive.kernel.org/oldwiki/ata.wiki.kernel.org/index.php/ATA_4_KiB_sector_issues.html)

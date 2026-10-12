@@ -68,8 +68,8 @@ Inactive Open Source and Research Projects:
 
 ## Linux Memory Analysis Bibliography
 
-* [Digital Forensics of the Physical Memory](http://forensic.seccure.net/pdf/mburdach_digital_forensics_of_physical_memory.pdf) M.
-  Burdach, March 2005.
+* Digital Forensics of the Physical Memory,
+  by Burdach, March 2005.
 * [Linux Physical Memory Analysis](https://www.usenix.org/legacy/events/usenix05/tech/freenix/full_papers/movall/movall.pdf),
   Paul Movall, Ward Nelson, Shaun Wetzstein; Usenix, 2005.
 * [An Analysis Of Linux RAM Forensics](https://apps.dtic.mil/sti/pdfs/ADA445300.pdf),

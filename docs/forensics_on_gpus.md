@@ -2,7 +2,7 @@
 tags:
   - Articles that need to be expanded
 ---
-Using a **Graphical Processing Unit** (**GPU**) for forensics analysis
+Using a Graphical Processing Unit (GPU) for forensics analysis
 attempts to make use of the significant, parallel processing power
 available on these high cards for a different purpose than their
 original intent. The idea of forensic analysis on a GPU was first
@@ -30,8 +30,7 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 ` author="Lodovico Marziale and  Golden G. Richard III and Vassil Roussev",`
 ` title="Massive Threading: Using GPUs to Increase the Performance of Digital Forensics Tools",`
 ` booktitle="DFRWS: Proceedings of the 7th Annual Digital Forensics Research Workshop",`
-` year=2007,`
-` url="`[`http://old.dfrws.org/2007/proceedings/p73-marziale_pres.pdf`](http://old.dfrws.org/2007/proceedings/p73-marziale_pres.pdf)`"`
+` year=2007`
 
 } </bibtex>
 

@@ -13,8 +13,6 @@ XFS is a 64-bit journaling file system created by Silicon Graphics, Inc (SGI).
 * [XFS Filesystem Structure](https://kernel.googlesource.com/pub/scm/fs/xfs/xfs-documentation/+/master/design/XFS_Filesystem_Structure)
 * [Forensic analysis of SGI IRIX disk volume](https://cradpdf.drdc-rddc.gc.ca/PDFS/unc236/p804237_A1b.pdf),
   July 2016, by R. Carbone
-* [Case Study: Computer Forensics: Fragmented Files Recovery Based on XFS File System](https://blog.salvationdata.com/2017/03/24/fragmented-files-recovery-based-on-xfs-file-system/),
-  March 24, 2017
 * [XFS (Part 1) – The Superblock](https://righteousit.wordpress.com/2018/05/21/xfs-part-1-superblock/),
   May 21, 2018, by Hal Pomeranz
 * [XFS (Part 2) – Inodes](https://righteousit.wordpress.com/2018/05/23/xfs-part-2-inodes/),

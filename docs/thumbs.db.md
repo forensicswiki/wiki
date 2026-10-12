@@ -15,28 +15,16 @@ The [thumbnails](thumbnails.md) in Thumbs.db are stored in the
 [OLE Compound File](ole_compound_file.md) format. It's the same
 format that [Microsoft Office](microsoft_office.md) uses.
 
-There is a forensic open source application developed at sourceforge
-called [vinetto](vinetto.md) at
-<https://sourceforge.net/projects/vinetto> that can extract them. It does
-require a python environment. Additionally, there are several other Java
-solutions based around the Jakarta project that is apart of Apache.
-Additional resources about thumbs.db can be found in a white paper at
-<https://www.exterro.com>.
-
-MiTeC Windows File Analyzer [1](http://www.mitec.cz/wfa.html) is a tool
-for forensic analysis of Thumbnail Databases,
-[Prefetch](prefetch.md) files, [shortcuts](lnk.md),
-IExplore Index.DAT files and Recycle Bin contents on a
-[Windows](windows.md) system. It will print a report of analyzed
-files.
-
 ## Windows Vista/7
 
-*See [Windows thumbcache](windows_thumbcache.md)*
+See [Windows thumbcache](windows_thumbcache.md)
 
 Thumbs.db no longer exists in Vista/7 as individual files. This data has
-been moved to a centralized database located in
-*\Users\\%username%\AppData\Local\Microsoft\Windows\Explorer*
+been moved to a centralized database located in:
+
+```text
+\Users\%username%\AppData\Local\Microsoft\Windows\Explorer
+```
 
 [Windows](windows.md) Vista will save thumbnails for files on
 mounted encrypted file systems (except
@@ -58,8 +46,24 @@ using their network paths such as \\\localhost\c\$ will create thumbs.db
 in other folders as well. The format of these thumbs.db files is the
 same as Windows 7 thumbs.db.
 
+## Tools
+
+There is a forensic open source application developed at sourceforge
+called [vinetto](vinetto.md) at
+<https://sourceforge.net/projects/vinetto> that can extract them. It does
+require a python environment. Additionally, there are several other Java
+solutions based around the Jakarta project that is apart of Apache.
+Additional resources about thumbs.db can be found in a white paper at
+<https://www.exterro.com>.
+
+MiTeC Windows File Analyzer [1](http://www.mitec.cz/wfa.html) is a tool
+for forensic analysis of Thumbnail Databases,
+[Prefetch](prefetch.md) files, [shortcuts](lnk.md),
+IExplore Index.DAT files and Recycle Bin contents on a
+[Windows](windows.md) system. It will print a report of analyzed
+files.
+
 ## External Links
 
-* [Windows thumbnail cache (thumbs.db)](http://thumbnailexpert.com/en/formats/windows-thumbnail-cache/)
 * [Windows 7 generated Thumbs.db](https://www.swiftforensics.com/2012/07/windows-7-generated-thumbsdb.html)
 * [Windows 8 Thumbs.db files](https://www.swiftforensics.com/2014/04/windows-8-thumbsdb-files-still-same-and.html)

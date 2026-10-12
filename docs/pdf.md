@@ -102,7 +102,7 @@ integration.
 Didier Stevens' [pdf-parse](https://blog.didierstevens.com/2008/10/30/pdf-parserpy/)
 and pdfid, written in Python
 
-[PDF Stream Dumper](http://sandsprite.com/blogs/index.php?uid=7&pid=57)
+[PDF Stream Dumper](https://sandsprite.com/blogs/index.php?uid=7&pid=57)
 
 [PDFMiner](https://www.unixuser.org/~euske/python/pdfminer/index.html)
 
