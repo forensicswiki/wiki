@@ -135,7 +135,8 @@ to use this software, the Magellan unit must be powered on prior to connecting
 it to a PC. It is unknown how useful the VantagePoint software is in collecting
 data as the software would not recognize the Roadmate 1400 unit. VantagePoint
 also did not support the .dat or .cfg files stored on the unit. [Google Earth](https://earth.google.com/web/)
-also supports Magellan units via its import feature. Earth lists Explorist and Serial as available import options.
+also supports Magellan units via its import feature. Earth lists Explorist and Serial as available
+import options.
 
 ### Digital Camera Images with GPS Information
 

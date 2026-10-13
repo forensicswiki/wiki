@@ -49,7 +49,8 @@ Store does not allow in any application it distributes).
 
 ## Publications
 
-* Gómez-Miralles, Arnedo-Moreno. [Versatile iPad forensic acquisition using the Apple Camera Connection Kit](https://openaccess.uoc.edu/bitstream/10609/11862/1/iPadForensics.pdf),
+* Gómez-Miralles, Arnedo-Moreno. [Versatile iPad forensic acquisition using the Apple Camera
+  Connection Kit](https://openaccess.uoc.edu/bitstream/10609/11862/1/iPadForensics.pdf),
   Computers And Mathematics With Applications, Volume 63, Issue 2, 2012,
   pp.544-553.
 

@@ -72,7 +72,8 @@ above)
 
 ## External Links
 
-* [Methods of discovery and exploitation of Host Protected Areas on IDE storage devices that conform to ATAPI-4](https://www.sciencedirect.com/science/article/abs/pii/S1742287605000939),
+* [Methods of discovery and exploitation of Host Protected Areas on IDE storage devices that conform
+  to ATAPI-4](https://www.sciencedirect.com/science/article/abs/pii/S1742287605000939),
   Mark Bedford, Digital Investigation, Volume 2, Issue 4, December 2005,
   Pages 268-275
 * [Hidden Disk Areas: HPA and DCO](https://www.utica.edu/academic/institutes/ecii/publications/articles/EFE36584-D13F-2962-67BEB146864A2671.pdf),

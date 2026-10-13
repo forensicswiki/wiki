@@ -1,14 +1,12 @@
 ---
 tags:
-  - No Category
+  - Concept
 ---
-The term **MAC times** refers to the timestamps of the latest
-*modification* (mtime) or last written time, *access* (atime) or
-*change* (ctime) of a certain file.
+The term MAC times refers to the timestamps of the last modification (mtime) (or last written
+time), last access (atime) and (inode) change (ctime) of a certain file.
 
-[Windows](windows.md) or creation
-(crtime) time (e.g. 'This file was created on 05/05/02 12:15pm'). Hence
-MACB; Modification, Access, Change and Birth.
+**Note that ctime is not to be confused with creation time.** Creation time is often represented
+with btime, as in Birth, or crtime. Hence MACB; Modification, Access, Change and Birth.
 
 [Unix](unix.md) systems maintain the historical interpretation
 of *ctime* as the time when certain file metadata, not its contents,
@@ -18,14 +16,11 @@ specifies *mtime*, *atime* and *ctime*, some Unix-like systems also
 implement *btime* on compatible file systems (for instance ext4 on Linux
 distributions, UFS2 on FreeBSD).
 
-In both [NTFS](ntfs.md) and
-[ReFS](resilient_file_system_(refs).md) each file has a time
-stamp for 'Create', 'Modify', 'Access', and 'Entry Modified'. The latter
-refers to the time when the MFT entry itself was modified. These four
-values are commonly abbreviated as the 'MACE' values.
+In both [NTFS](ntfs.md) and [ReFS](resilient_file_system_(refs).md) each file has a timestamp for
+'Create', 'Modify', 'Access', and 'Entry Modified'. The latter refers to the time when the MFT
+entry itself was modified. These four values are commonly abbreviated as the 'MACE' values.
 
-Other file systems like [HFS](hfs+.md) include different
-timestamps like e.g. a backup time.
+Other file systems like [HFS](hfs+.md) include different timestamps like e.g. a backup time.
 
 ## Time resolution
 
@@ -78,21 +73,22 @@ this setting was extended
 When disabled, the access time is usually initialized to the time the
 file was first written to the disk, following the rules seen below:
 
-| Condition                                      | Modified         | Accessed                                               | Created          |
-|------------------------------------------------|------------------|--------------------------------------------------------|------------------|
-|                                                |                  |                                                        |                  |
-| When renaming a file                           | Preserved        | Preserved                                              | Preserved        |
-| When moving a file between folders             | Preserved        | Preserved                                              | Preserved        |
-| When moving a file between disks or partitions | Preserved        | Time of move                                           | Preserved        |
-| When copying a file                            | Preserved        | Time of copy                                           | Time of copy     |
-| When writing a new file                        | Time of creation | Time of creation                                       | Time of creation |
-| When modifying an existing file                | Time modified    | Preserved                                              | Preserved        |
-| When accessing an existing file                | Preserved        | Updated within an hour if enabled, otherwise Preserved | Preserved        |
+| Condition | Modified | Accessed | Created |
+| --- | --- | --- | --- |
+| When renaming a file | Preserved | Preserved | Preserved |
+| When moving a file between folders | Preserved | Preserved | Preserved |
+| When moving a file between disks or partitions | Preserved | Time of move | Preserved |
+| When copying a file | Preserved | Time of copy | Time of copy |
+| When writing a new file | Time of creation | Time of creation | Time of creation |
+| When modifying an existing file | Time modified | Preserved | Preserved |
+| When accessing an existing file | Preserved | Updated within an hour if enabled, otherwise Preserved | Preserved |
+
+**Use this table with care, there are many factors that can influence the behavior of date and
+time values.**
 
 ### [Linux](linux.md)
 
-In Linux the *noatime* mount option indicates the access time update
-should be disabled.
+In Linux the *noatime* mount option indicates the access time update should be disabled.
 
 ## See Also
 
@@ -101,8 +97,6 @@ should be disabled.
 ## External Links
 
 * [Wikipedia: MAC times](https://en.wikipedia.org/wiki/MAC_times)
-* [What Are MACtimes?](https://www.drdobbs.com:443/what-are-mactimes/184404275),
-  by Dan Farmer, Oct 2000
 
 ### NTFS
 

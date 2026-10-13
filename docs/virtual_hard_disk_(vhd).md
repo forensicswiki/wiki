@@ -52,7 +52,8 @@ differential images of the previous snapshot.
   by Wikipedia
 * [Virtual Hard Disk Image Format Specification](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt169373(v=ws.11)),
   by Microsoft, October 2006
-* [Overview of VHD & VHDX Virtual Hard Drive](https://www.bitrecover.com/blog/what-is-virtual-hard-disk/) An
+* [Overview of VHD & VHDX Virtual Hard
+  Drive](https://www.bitrecover.com/blog/what-is-virtual-hard-disk/) An
   overview of virtual hard drive image files
 * [Virtual Hard Disk (VHD) image format](https://github.com/libyal/libvhdi/blob/main/documentation/Virtual%20Hard%20Disk%20(VHD)%20image%20format.asciidoc),
   by the [libvhdi project](libvhdi.md), September 2012

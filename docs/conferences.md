@@ -38,7 +38,8 @@ Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)
 Digital Forensics Research Conference (DFRWS)
 <https://dfrws.org/>
 
-EuroForensics Forensics Sciences, Cyber Security and Surveillance Technologies Conference and Exhibition (With ending of FSS, this seems to be a trade show now)
+EuroForensics Forensics Sciences, Cyber Security and Surveillance Technologies Conference and
+Exhibition (With ending of FSS, this seems to be a trade show now)
 <https://forensicseuropeexpo.com/>
 
 FIRST Conference

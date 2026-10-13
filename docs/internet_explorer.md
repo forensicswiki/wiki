@@ -18,7 +18,8 @@ used to store both cache and historical information.
 C:\Users\%USER%\AppData\Local\Microsoft\Windows\WebCache\
 ```
 
-The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Engine (ESE) Database File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
+The WebCacheV01.dat and WebCacheV24.dat files are in the [Extensible Storage Engine (ESE) Database
+File (EDB) format](extensible_storage_engine_(ese)_database_file_(edb)_format.md)
 
 ## Configuration
 

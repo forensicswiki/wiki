@@ -198,7 +198,8 @@ Also see: [7](https://osxdaily.com/2010/10/11/sleepimage-mac/)
 
 ## Package Files (.PKG)
 
-Package Files (.PKG) are [XAR archives](https://en.wikipedia.org/wiki/Xar_(archiver)) that contain a cpio
+Package Files (.PKG) are [XAR archives](https://en.wikipedia.org/wiki/Xar_(archiver)) that contain a
+cpio
 archive and metadata
 [9](http://s.sudre.free.fr/Stuff/Ivanhoe/FLAT.html).
 
@@ -345,7 +346,9 @@ Mac OS.
 * [NSKeyedArchiver - An encoder that stores an object’s data to an archive referenced by keys](https://developer.apple.com/documentation/foundation/nskeyedarchiver)
 * [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/),
   by Alex Caithness, April 4, 2012
-* [Manual Analysis of ‘NSKeyedArchiver’ Formatted Plist Files - A Review of the NEW OS X 10.11 "Recent Items"](http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items),
+* [Manual Analysis of ‘NSKeyedArchiver’ Formatted Plist Files - A Review of the NEW OS X 10.11
+  "Recent
+  Items"](http://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items),
   January 01, 2016
 * [How NSCoding and NSKeyedArchiver/Unarchiver Work Together to Encode/Decode Object](https://crystalminds.medium.com/how-nscoding-and-nskeyedarchiver-unarchiver-work-together-to-encode-decode-objects-7f54801ab634),
   by Mark van Wijnen, August 16, 2022

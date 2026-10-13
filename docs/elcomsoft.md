@@ -46,7 +46,8 @@ attempt to guess the right password.
 
 ElcomSoft pioneered many password recovery and information security
 technologies and algorithms. Its [GPU acceleration
-technology](https://support.elcomsoft.com/index.php?/Knowledgebase/Article/View/20/4/gpu-acceleration-in-elcomsoft-products) offers an
+technology](https://support.elcomsoft.com/index.php?/Knowledgebase/Article/View/20/4/gpu-acceleration-in-elcomsoft-products)
+offers an
 orders of magnitude increase of password recovery speed on supported
 video cards. This technology was awarded a patent by the U.S. Copyright
 Office, and delivers supercomputer-like performance on ordinary PCs.

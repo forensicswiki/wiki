@@ -61,12 +61,15 @@ victims can be easier if they stand out from the crowd.
 
 ### Emergency Response
 
-* [Addressing emergency response provider fatigue in emergency response preparedness, management, policy making, and research](https://wmpllc.org/ojs/index.php/jem/article/view/1390),
+* [Addressing emergency response provider fatigue in emergency response preparedness, management,
+  policy making, and research](https://wmpllc.org/ojs/index.php/jem/article/view/1390),
   Clark J. Lee, JD, September 2011
 
 ### Kill Chain
 
-* [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf),
+* [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and
+  Intrusion Kill
+  Chains](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf),
   by Eric M. Hutchins, Michael J. Clopperty, Rohan M. Amin, March 2011
 * Stalking the kill chain,
   by RSA
@@ -74,7 +77,8 @@ victims can be easier if they stand out from the crowd.
 * APT Kill chain - Part 2 : Global view, by Cedric Pernet, May 7, 2014
 * APT Kill chain - Part 3: Reconnaissance, by Cedric Pernet, May 23, 2014
 * APT Kill chain - Part 4 : Initial compromise, by Cedric Pernet, June 20, 2014
-* APT Kill chain - Part 5 : Access Strengthening and lateral movements, by Cedric Pernet, December 2, 2014
+* APT Kill chain - Part 5 : Access Strengthening and lateral movements, by Cedric Pernet, December
+  2, 2014
 
 ### Incident Lifecycle
 

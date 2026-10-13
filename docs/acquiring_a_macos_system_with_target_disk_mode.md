@@ -135,7 +135,8 @@ isn't available to receive the image. We therefore need to mount the
 style='color:maroon'>sudo mount –t hfs
 /dev/</span><span style='color:blue'>disk2</span><span
 style='color:maroon'>s</span><span style='color:lime'>3 </span></b><span
-style='color:maroon;font-weight:normal'>/Volumes</span></span><span class="Section1" style='color:maroon'><b>/</b></span><span class="Section1"
+style='color:maroon;font-weight:normal'>/Volumes</span></span><span class="Section1"
+style='color:maroon'><b>/</b></span><span class="Section1"
 style='color:blue'><b>Target</b></span><span class="Section1">.</span>
 
 </td>
@@ -200,7 +201,8 @@ to image the entire drive, type:
 
 <span class="style12" style='color:maroon; page:Section1; font-family: Arial, Helvetica, sans-serif;'><b>sudo
 dd
-if=/dev/</b></span><span class="style12" style='color:red; page:Section1; font-family: Arial, Helvetica, sans-serif;'><b>disk1</b></span><span class="style10"><b>
+if=/dev/</b></span><span class="style12" style='color:red; page:Section1; font-family: Arial,
+Helvetica, sans-serif;'><b>disk1</b></span><span class="style10"><b>
 <span
 style='color:maroon'>bs=1024 conv=notrunc,noerror,sync
 of=/Volumes/</span><span

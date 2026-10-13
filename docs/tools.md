@@ -65,7 +65,8 @@ This is the only forensic-qualified tool for examinination of optical
 media. It has been around since 1999 and is in use by law enforcement,
 government and data recovery companies worldwide.
 
-[EMail Detective - Forensic Software Tool](email_detective_forensic_software_tool.md) by [Hot Pepper Technology, Inc](hot_pepper_technology_inc.md)
+[EMail Detective - Forensic Software Tool](email_detective_forensic_software_tool.md) by [Hot Pepper
+Technology, Inc](hot_pepper_technology_inc.md)
 
 [Elcomsoft Desktop Forensic Bundle](elcomsoft_desktop_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
 

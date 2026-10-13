@@ -204,7 +204,9 @@ NT\CurrentVersion\AeDebug</li>
 </tr>
 <tr class="odd">
 <td><p><b>Additional information</b></p></td>
-<td><p><a href="https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging">https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging</a>Configuring Automatic Debugging]</p></td>
+<td><p><a
+href="https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging">https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging</a>Configuring
+Automatic Debugging]</p></td>
 </tr>
 </tbody>
 </table>
@@ -1161,7 +1163,9 @@ name</a></b></p></td>
   by Yuandong Zhu\*, Pavel Gladyshev, Joshua James, DFRWS 2009
 * [Recovering Deleted Data From the Windows Registry](https://dfrws.org/presentation/recovering-deleted-data-from-the-windows-registry/),
   by Timothy Morgan, DFRWS 2008
-* [Forensic Analysis of the Windows Registry in Memory](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-forensic_analysis_of_the_windows_registry_in_memory.pdf) and
+* [Forensic Analysis of the Windows Registry in
+  Memory](https://dfrws.org/sites/default/files/session-files/2008_USA_paper-forensic_analysis_of_the_windows_registry_in_memory.pdf)
+  and
   [slides](https://dfrws.org/sites/default/files/session-files/2008_USA_pres-forensic_analysis_of_the_windows_registry_in_memory.pdf),
   by Brendan Dolan-Gavitt, DFRWS 2008
 * [The Windows Registry as a forensic resource](https://www.sciencedirect.com/science/article/abs/pii/S1742287605000587),

@@ -250,7 +250,8 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 ### [Windows Registry](windows_registry.md) formats
 
 * AMCache (AMCache.hve)
-* [Application Compatibility Cache](windows_application_compatibility.md) or AppCompatCache Registry data
+* [Application Compatibility Cache](windows_application_compatibility.md) or AppCompatCache Registry
+  data
 * Background Activity Moderator (BAM) Registry data
 * BagMRU (or ShellBags) Registry data
 * Boot Execution Registry data

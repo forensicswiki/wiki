@@ -165,7 +165,8 @@ fingerprint testing.
   by Richard Bejtlich
 * [The Digital Standard](https://thedigitalstandard.blogspot.com/),
   by Chris Pogue
-* [UNIX, OpenVMS and Windows System Administration, Digital Forensics, High Performance Computing, Clustering and Distributed Systems](http://blog.boreas.ro/),
+* [UNIX, OpenVMS and Windows System Administration, Digital Forensics, High Performance Computing,
+  Clustering and Distributed Systems](http://blog.boreas.ro/),
   by Criveti Mihai
 * [Various Authors - Intrusions and Malware Analysis](https://intrusions.blogspot.com/)
 * [Windows Incident Response Blog](https://windowsir.blogspot.com/),

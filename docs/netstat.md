@@ -49,7 +49,8 @@ greatly increase the speed of the command. The -p parameter shows which
 processes are using which sockets. (see
 [Mastering the Netstat Command: A Comprehensive Guide](https://www.lifewire.com/netstat-command-2618098)
 for detailed explanations of Netstat switches on Windows systems, and
-[10+ netstat command switches with example – Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
+[10+ netstat command switches with example –
+Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
 explanations of Netstat switches on UNIX systems).
 
 Below is an example of an excerpt from the Netstat output (taken from a

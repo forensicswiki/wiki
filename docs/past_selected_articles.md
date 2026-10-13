@@ -142,7 +142,8 @@ discuss how these assumptions limit the impact of contributions.
 * [paper](https://www.usenix.org/events/hotsec11/tech/final_files/Walls.pdf)
 
 [PinDr0p: using single-ended audio features to determine call provenance](https://dl.acm.org/doi/10.1145/1866307.1866320),
-by Vijay A. Balasubramaniyan, Aamir Poonawalla, Mustaque Ahamad, Michael T. Hunter, Patrick Traynor, 2010.
+by Vijay A. Balasubramaniyan, Aamir Poonawalla, Mustaque Ahamad, Michael T. Hunter, Patrick Traynor,
+2010.
 
 Abstract: The recent diversification of telephony infrastructure allows
 users to communicate through landlines, mobile phones and VoIP phones.
@@ -169,7 +170,8 @@ of a call.
 
 ## Jan 2012
 
-[Design of a Digital Forensics Evidence Reconstruction System for Complex and Obscure Fragmented File Carving](https://doi.org/10.1109/CIS.2011.180),
+[Design of a Digital Forensics Evidence Reconstruction System for Complex and Obscure Fragmented
+File Carving](https://doi.org/10.1109/CIS.2011.180),
 by Vrizlynn L.L. Thing, Tong-Wei Chua, Ming-Lee Cheong, 2011.
 
 ## Dec 2011
