@@ -24,174 +24,131 @@ investigation and evidence extraction.
 
 ## Version History
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Version</p></th>
-<th><p>Date of Release</p></th>
-<th><p>Update</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1.0</p></td>
-<td><p>31/01/2013</p></td>
-<td><p>Released</p></td>
-</tr>
-<tr class="even">
-<td><p>1.1</p></td>
-<td><p>13/03/2013</p></td>
-<td><p><strong>Scanning process optimized for</strong>:<br />
-PST (MS Outlook file)<br />
-OLM (Outlook for Mac file)<br />
-OST (Exchange Offline Store) files</p></td>
-</tr>
-<tr class="odd">
-<td><p>1.2</p></td>
-<td><p>22/04/2013</p></td>
-<td><p>Support for "Contacts" added.</p></td>
-</tr>
-<tr class="even">
-<td><p>3.0</p></td>
-<td><p>7/3/2013</p></td>
-<td><p>View or modify case information from UI<br />
-Send for Review by Shared Location<br />
-Improved PST performance</p></td>
-</tr>
-<tr class="odd">
-<td><p>4.0</p></td>
-<td><p>31/12/2013</p></td>
-<td><p>Dashboard for Quick view of completed files in graphical
-format.<br />
-Provided support for "Cloud" &amp; IMAP.<br />
-Allows user to set the throttling.<br />
-Provided Pause &amp; Resume for "Cloud".<br />
-Provide date filters for "Cloud".<br />
-Added support for "Outlook Express" .dbx files.<br />
-Added support for "Lotus Notes" NSF (Non Password Protected Files)
-files.<br />
-Does not export Privileged mails.<br />
-Ability to show mails in "Conversation" view.<br />
-Provided "Email Hop" view to display how mail has been traversed.<br />
-Provides "Restart" option for "Stopped (cancelled by user)" &amp;
-"Failed" files.<br />
-Provides "Remove" option for "Failed" &amp; "Pending" files.<br />
-Ability to stop the scanning in between.<br />
-Ability to track all the activities done in the application.<br />
-Ability to export logs.<br />
-Able to export as PST without Outlook installed.<br />
-Provided "Set Page Orientations", "Margins" &amp; "Page Size" options
-for PDF.<br />
-Provided "Exclude Duplicate Mails" option for export.<br />
-Provided "Concordance" format while export.<br />
-Display "Duplicate" &amp; "Deleted" mails at a glance.<br />
-Added support for "Audio" &amp; "Video" in "Media" category.<br />
-Ability to search mails having "Attachments" or without
-"Attachments"<br />
-Ability to search mails having "Attachments" or without
-"Attachments".<br />
-Ability to search using PreDefined templates.<br />
-Ability to search mails having "Importance"(Low, Normal &amp;
-High)<br />
-Provided "Advance Search" to search with "Starts with", "Ends With"
-&amp; "Contains"<br />
-Ability to search "Keywords" while "Scanning" &amp; also "On
-Demand".<br />
-Allows user to change the "Storage Location".</p></td>
-</tr>
-<tr class="even">
-<td><p>4.5</p></td>
-<td><p>7/6/2014</p></td>
-<td><p>Added support for EML Reader.<br />
-Added support for MSG Reader.<br />
-Added support for E01 Reader. Supporting PST, OST &amp; EDB files in
-.E01 files.<br />
-Added support for Client Server. User can view the files scanned by
-other users in "Connected" mode if those files are "Synced".<br />
-The user can "Sync" selected scanned files in "Connected" mode.<br />
-Provided option to "Sync" all scanned files in "Connected" mode.<br />
-Provided different types of "Search". They are as follows:<br />
-Wildcard Search: Provided "Wildcard Search". Asterisk (*) to represent
-‘several’ characters or ‘zero’ character. Question mark (?) to replace a
-single character.<br />
-Stem Search: The use of linguistic analysis to get to the root form of a
-keyword.<br />
-Regular Expression Search: Regular expression is a special text string
-for describing a search pattern.<br />
-Fuzzy Search: A type of search that will find matches even when users
-misspell words or enter in only partial words for search.<br />
-Proximity search allows to specify how close two (or more) words must be
-to each other in order to register a match.<br />
-User can add multiple Search fields in "General Search" &amp; "Advance
-Search".<br />
-Display hierarchical view of the selected mail in " Hierarchical View"
-tab.<br />
-Provided option to maintain folder hierarchy while export or
-not.</p></td>
-</tr>
-<tr class="odd">
-<td><p>4.6</p></td>
-<td><p>27/7/2014</p></td>
-<td><p>Added ability to "Export case".<br />
-The option to "import case" supported.<br />
-"Delete case" option provided.<br />
-Addition of keyboard Hotkey support.<br />
-Recursive listing view of emails supported.</p></td>
-</tr>
-<tr class="even">
-<td><p>4.7</p></td>
-<td><p>16/11/2014</p></td>
-<td><p>Supports Office365 Single and multiple account using Admin
-credentials.<br />
-Supports GApps Admin multiple accounts of similar domain.<br />
-Single and Multiple Mailboxes from Live Exchange Server supported.<br />
-Performs Skin Tone Analysis on images while scanning.<br />
-Emails tagging supported.<br />
-Dongle based software licensing support.<br />
-Changes to UI interface for reader categorization.</p></td>
-</tr>
-<tr class="odd">
-<td><p>4.8</p></td>
-<td><p>19/09/2015</p></td>
-<td><p>Provided support for Geo Location &amp; IP Reporting.<br />
-Performs Forensic Video Analysis on videos while scanning data.<br />
-Supports examination of documents from image files such as E01, DD and
-DMG.<br />
-Supports new Desktop/Web based Email Applications and Servers such as
-hMailServer, MDaemon, Kerio, Zimbra, KMail and many more.<br />
-Support for customizing the scanning speed of evidence files on the
-basis of concurrency level.<br />
-Added thumbnail and gallery view for attachments.</p></td>
-</tr>
-<tr class="even">
-<td><p>4.8.2</p></td>
-<td><p>05/09/2016</p></td>
-<td><p>Section 508 compliance for keyboard support.<br />
-Added support provided for 64-bit application.<br />
-Bates Numbering facility provided for PDF export.<br />
-Multiple partition of E01 &amp; DD File supported.<br />
-Multiple export facility added for enhanced export.<br />
-Additional support for Skype Database analysis.<br />
-Splitting option for PST and CSV file type export.<br />
-Search subsets; keywords, saved searches, &amp; more<br />
-PDF setting options enhanced for custom export.<br />
-CSV header settings adds Properties to components.<br />
-Customized naming convention for export output.<br />
-Timeline analysis of searches; chats, mails, &amp; more<br />
-Link Analysis provisioned for examined Search Result</p></td>
-</tr>
-<tr class="odd">
-<td><p>4.8.3</p></td>
-<td><p>11/11/2016</p></td>
-<td><p>EnCase LEF file variants - .Lx01 and .L01 supported for
-examination in search of evidence.<br />
-OLM file supported for examination of messages from an Outlook 2011 for
-Mac identity.<br />
-Support for processing the data of an OLM identity file from a scanned
-DMG format file.</p></td>
-</tr>
-</tbody>
-</table>
+### Version 1.0 (31/01/2013)
+
+Released.
+
+### Version 1.1 (13/03/2013)
+
+**Scanning process optimized for:**
+
+* PST (MS Outlook file)
+* OLM (Outlook for Mac file)
+* OST (Exchange Offline Store) files
+
+### Version 1.2 (22/04/2013)
+
+Support for "Contacts" added.
+
+### Version 3.0 (7/3/2013)
+
+* View or modify case information from UI
+* Send for Review by Shared Location
+* Improved PST performance
+
+### Version 4.0 (31/12/2013)
+
+* Dashboard for Quick view of completed files in graphical format.
+* Provided support for "Cloud" & IMAP.
+* Allows user to set the throttling.
+* Provided Pause & Resume for "Cloud".
+* Provide date filters for "Cloud".
+* Added support for "Outlook Express" .dbx files.
+* Added support for "Lotus Notes" NSF (Non Password Protected Files) files.
+* Does not export Privileged mails.
+* Ability to show mails in "Conversation" view.
+* Provided "Email Hop" view to display how mail has been traversed.
+* Provides "Restart" option for "Stopped (cancelled by user)" & "Failed" files.
+* Provides "Remove" option for "Failed" & "Pending" files.
+* Ability to stop the scanning in between.
+* Ability to track all the activities done in the application.
+* Ability to export logs.
+* Able to export as PST without Outlook installed.
+* Provided "Set Page Orientations", "Margins" & "Page Size" options for PDF.
+* Provided "Exclude Duplicate Mails" option for export.
+* Provided "Concordance" format while export.
+* Display "Duplicate" & "Deleted" mails at a glance.
+* Added support for "Audio" & "Video" in "Media" category.
+* Ability to search mails having "Attachments" or without "Attachments"
+* Ability to search mails having "Attachments" or without "Attachments".
+* Ability to search using PreDefined templates.
+* Ability to search mails having "Importance"(Low, Normal & High)
+* Provided "Advance Search" to search with "Starts with", "Ends With" & "Contains"
+* Ability to search "Keywords" while "Scanning" & also "On Demand".
+* Allows user to change the "Storage Location".
+
+### Version 4.5 (7/6/2014)
+
+* Added support for EML Reader.
+* Added support for MSG Reader.
+* Added support for E01 Reader. Supporting PST, OST & EDB files in .E01 files.
+* Added support for Client Server. User can view the files scanned by other users in "Connected"
+  mode if those files are "Synced".
+* The user can "Sync" selected scanned files in "Connected" mode.
+* Provided option to "Sync" all scanned files in "Connected" mode.
+* Provided different types of "Search". They are as follows:
+* Wildcard Search: Provided "Wildcard Search". Asterisk (*) to represent ‘several’ characters
+  or ‘zero’ character. Question mark (?) to replace a single character.
+* Stem Search: The use of linguistic analysis to get to the root form of a keyword.
+* Regular Expression Search: Regular expression is a special text string for describing a search
+  pattern.
+* Fuzzy Search: A type of search that will find matches even when users misspell words or enter in
+  only partial words for search.
+* Proximity search allows to specify how close two (or more) words must be to each other in order
+  to register a match.
+* User can add multiple Search fields in "General Search" & "Advance Search".
+* Display hierarchical view of the selected mail in " Hierarchical View" tab.
+* Provided option to maintain folder hierarchy while export or not.
+
+### Version 4.6 (27/7/2014)
+
+* Added ability to "Export case".
+* The option to "import case" supported.
+* "Delete case" option provided.
+* Addition of keyboard Hotkey support.
+* Recursive listing view of emails supported.
+
+### Version 4.7 (16/11/2014)
+
+* Supports Office365 Single and multiple account using Admin credentials.
+* Supports GApps Admin multiple accounts of similar domain.
+* Single and Multiple Mailboxes from Live Exchange Server supported.
+* Performs Skin Tone Analysis on images while scanning.
+* Emails tagging supported.
+* Dongle based software licensing support.
+* Changes to UI interface for reader categorization.
+
+### Version 4.8 (19/09/2015)
+
+* Provided support for Geo Location & IP Reporting.
+* Performs Forensic Video Analysis on videos while scanning data.
+* Supports examination of documents from image files such as E01, DD and DMG.
+* Supports new Desktop/Web based Email Applications and Servers such as hMailServer, MDaemon,
+  Kerio, Zimbra, KMail and many more.
+* Support for customizing the scanning speed of evidence files on the basis of concurrency level.
+* Added thumbnail and gallery view for attachments.
+
+### Version 4.8.2 (05/09/2016)
+
+* Section 508 compliance for keyboard support.
+* Added support provided for 64-bit application.
+* Bates Numbering facility provided for PDF export.
+* Multiple partition of E01 & DD File supported.
+* Multiple export facility added for enhanced export.
+* Additional support for Skype Database analysis.
+* Splitting option for PST and CSV file type export.
+* Search subsets; keywords, saved searches, & more
+* PDF setting options enhanced for custom export.
+* CSV header settings adds Properties to components.
+* Customized naming convention for export output.
+* Timeline analysis of searches; chats, mails, & more
+* Link Analysis provisioned for examined Search Result
+
+### Version 4.8.3 (11/11/2016)
+
+* EnCase LEF file variants - .Lx01 and .L01 supported for examination in search of evidence.
+* OLM file supported for examination of messages from an Outlook 2011 for Mac identity.
+* Support for processing the data of an OLM identity file from a scanned DMG format file.
 
 ## Product Overview
 
@@ -230,46 +187,19 @@ options.
 
 * *Title*: The title to be given to a case according to its subject
   matter.
-
-<!-- -->
-
 * *Case Directory*: Browse path to select a directory location for
   storing case and its components.
-
-<!-- -->
-
 * *Description*: To give a brief yet detailed description about the
   subject of a respective case.
-
-<!-- -->
-
 * *Keyword List*: Specific terms to be used for searching particular
   email(s) to perform investigation on.
-
-<!-- -->
-
 * *Browse CSV*: For In case of too many key terms, select a CSV file
   maintained with the list of keywords.
-
-<!-- -->
-
 * *Investigator*: For Name of the investigator to whom the case belongs.
-
-<!-- -->
-
 * *Agency*: Name of the agency to which the investigator is associated
   with.
-
-<!-- -->
-
 * *Phone*: For making notes pertaining to the case on a per need basis.
-
-<!-- -->
-
 * *Fax*: Fax number of the investigator / agency.
-
-<!-- -->
-
 * *Email*: Email address of the investigator / agency.
 
 ### Email Scanning

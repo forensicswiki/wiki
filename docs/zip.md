@@ -80,31 +80,10 @@ consists of:
 
 The creator (or version made by) is 2 bytes of size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>ZIP format version<br />
-The value is stored as: ( major number x 10 ) + minor number</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>1</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Creator system indicator</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 1 | | ZIP format version<br>The value is stored as: ( major number x 10 ) + minor number |
+| 1 | 1 | | Creator system indicator |
 
 ##### Creator system indicator
 
@@ -134,31 +113,10 @@ The value is stored as: ( major number x 10 ) + minor number</p></td>
 
 #### Internal file attributes
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Value</p></th>
-<th><p>Identifier</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0x01</p></td>
-<td></td>
-<td><p>If set the uncompressed data needs to be treated as text instead
-of binary data.<br />
-This flag hints end-of-line conversion for cross-platform text files but
-does not enforce it.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>0x02</p></td>
-<td></td>
-<td><p>If set the file contains control fields for mainframe data
-transfer support.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Identifier | Description |
+| --- | --- | --- |
+| 0x01 | | If set the uncompressed data needs to be treated as text instead of binary data.<br>This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
+| 0x02 | | If set the file contains control fields for mainframe data transfer support. |
 
 #### External file attributes
 
@@ -173,37 +131,11 @@ The external attributes MS-DOS (0) is 4 bytes of size and consists of:
 
 The external attributes UNIX (3) is 4 bytes of size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>FAT (MS-DOS) file attributes.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>1</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Unknown</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>2</p></td>
-<td><p>16 bits</p></td>
-<td></td>
-<td><p>The UNIX mode (or permission).<br />
-The value seems to be similar to stat.st_mode value.</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 1 | | FAT (MS-DOS) file attributes. |
+| 1 | 1 | | Unknown |
+| 2 | 16 bits | | The UNIX mode (or permission).<br>The value seems to be similar to stat.st_mode value. |
 
 ## External Links
 

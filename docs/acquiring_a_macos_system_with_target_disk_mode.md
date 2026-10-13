@@ -124,245 +124,79 @@ Step 6. Because we turned off disk arbitration, however, the target drive
 isn't available to receive the image. We therefore need to mount the
 **Target drive**; specifically slice **3** of **disk2**.
 
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td width="4">
+Type `sudo mount -t hfs /dev/disk2s3 /Volumes/Target`:
 
-</td>
-<td width="633" align="left" valign="top">
-
-<span class="Section1">Type<b> <span
-style='color:maroon'>sudo mount –t hfs
-/dev/</span><span style='color:blue'>disk2</span><span
-style='color:maroon'>s</span><span style='color:lime'>3 </span></b><span
-style='color:maroon;font-weight:normal'>/Volumes</span></span><span class="Section1"
-style='color:maroon'><b>/</b></span><span class="Section1"
-style='color:blue'><b>Target</b></span><span class="Section1">.</span>
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="0">
-<tr class="Section12">
-<td width="17">
-
-</td>
-<td width="680">
-<div align="left">
-<table width="500" border="1" align="center" cellpadding="15" cellspacing="1" bordercolor="#000000">
-<tr>
-<td align="center" valign="middle" class="Section12">
+```text
+sudo mount -t hfs /dev/disk2s3 /Volumes/Target
+```
 
 If you are still unsure about which drive is which, you can verify
-things because <span class="style24">Target</span> now has a BSD name.
-To clear the Terminal screen, hold down the
-<span class="style35">command</span> key and type
-
-k
-
-Then, type
-
-ioreg -l
-
-Buried in the resulting display is information about the connected
-drives. Go to the Terminal Menu\>Edit\>Find. Search for
-<span class="style30">disk1</span>. Scroll through the hits and you
-should see the make and model number for
-<span class="style34">disk1</span>. If a search for
-<span class="style24">disk2</span> comes up empty, then you know it is
-the unmounted drive.
-
-</td>
-</tr>
-</table>
-</div>
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td class="Section1">
+things because **Target** now has a BSD name. To clear the Terminal
+screen, hold down the **command** key and type **k**. Then, type
+`ioreg -l`. Buried in the resulting display is information about the
+connected drives. Go to the Terminal menu > Edit > Find. Search for
+**disk1**. Scroll through the hits and you should see the make and
+model number for **disk1**. If a search for **disk2** comes up empty,
+then you know it is the unmounted drive.
 
 At this point, you have the choice of imaging the suspect’s entire drive
 (recommended), or of just imaging the slice that you want. If you want
 to image the entire drive, type:
 
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr class="Section1">
-<td width="4">
+```text
+sudo dd if=/dev/disk1 bs=1024 conv=notrunc,noerror,sync of=/Volumes/Target/Evidence.dmg
+```
 
-<span class="style11"></span>
+This will write a raw DD image to the root of **Target** and will name
+the image **Evidence.dmg**. If you only want to image particular slices,
+then add the slice to the command, i.e.
 
-</td>
-<td width="633" align="left" valign="top" class="style11">
-
-<span class="style12" style='color:maroon; page:Section1; font-family: Arial, Helvetica, sans-serif;'><b>sudo
-dd
-if=/dev/</b></span><span class="style12" style='color:red; page:Section1; font-family: Arial,
-Helvetica, sans-serif;'><b>disk1</b></span><span class="style10"><b>
-<span
-style='color:maroon'>bs=1024 conv=notrunc,noerror,sync
-of=/Volumes/</span><span
-style='color:blue'>Target/Evidence.dmg</span></b><span style='font-weight:normal'>.</span></span>
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td>
-
-This will write a raw DD image to the root of
-<span style='color:blue'><b>Target</b></span> and will name the image
-<span style='color:blue'><b>Evidence.dmg</b>.</span>
-
-If you only want to image particular slices, then add the slice to the
-command, i.e.
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td width="4">
-
-</td>
-<td width="633" align="left" valign="top">
-
-<span class="style13" style='color:maroon'><span class="style22">sudo dd
-if=/dev/</span></span><span class="style15">disk1</span><span class="style17">s</span><span class="style19">9</span>
-<span class="style21"><b><span style='color:maroon'>bs=1024
-conv=notrunc,noerror,sync of=/Volumes/</span><span
-style='color:blue'>Target/Evidence.dmg</span></b><span style='font-weight:normal'>.</span></span>
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td>
+```text
+sudo dd if=/dev/disk1s9 bs=1024 conv=notrunc,noerror,sync of=/Volumes/Target/Evidence.dmg
+```
 
 A separate acquisition can be done for each slice that you want to
 examine by changing the slice number and giving each new image a
-different file name, i.e.
-<span style='color:blue'><b>EvidOS8.dmg</b></span>.
+different file name, i.e. **EvidOS8.dmg**.
 
 The advantage of imaging the whole disk is that you can later bring it
 into Encase as a single evidence file.
 
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr class="Section1">
-<td width="4">
+Step 9. Your done. Unmount the **Target** drive by typing:
 
-</td>
-<td width="633" align="left" valign="top">
-
-Step 9. <span class="Section1">Your done. Unmount the
-   <span class="style24">Target</span> drive by typing</span>
-
-   cd /Volumes
-
-   <span class="Section1" style='color:maroon'><b>sudo umount
-   /</b></span><span class="Section1" style='color:blue'><b>Target</b></span>
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td>
+```text
+cd /Volumes
+sudo umount /Target
+```
 
 Shut down your forensic Mac and then shut down the suspect’s Mac.
 Disconnect the firewire connection to the suspect’s Mac.
 
-Examination
+## Examination
 
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr class="Section1">
-<td width="4">
+Step 1. Reboot your forensic Mac and restore the
+**diskarbitrationd.plist** file back to the **/etc/mach-init.d**
+directory. Type:
 
-</td>
-<td width="633" align="left" valign="top">
+```text
+cd /
+sudo cp diskarbitrationd.plist /etc/mach_init.d
+```
 
-Step 1. <span class="Section1">Reboot your forensic Mac and restore the
-   <b>diskarbitrationd.plist</b><span
-        style='font-weight:normal'> file back to the
-   </span><b>/etc/mach-init.d</b><span
-        style='font-weight:normal'> directory. Type </span></span>
-   cd /
-
-   <span class="Section1"
-   style='color:maroon'><b>sudo cp diskarbitrationd.plist
-   /etc/mach_init.d</b></span><span class="Section1">. </span>
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td class="Section1">
-
-Turn the forensic Mac off and back on to initiate diskarbitration. Power
-up the <span style='color:blue'><b>Target</b></span> drive. The
-<span style='color:blue'><b>Target</b></span> drive should mount and
+Turn the forensic Mac off and back on to initiate diskarbitration.
+Power up the **Target** drive. The **Target** drive should mount and
 appear on your desktop. Open it.
 
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td width="4">
+Step 2. The **Evidence.dmg** file should appear. Click on it once.
+Lock the file via the "GET INFO" menu to ensure it is write protected.
 
-</td>
-<td width="633" align="left" valign="top">
+You can now double-click to mount the Evidence.dmg file **and explore
+it within the native Mac OS environment.** If the image won’t mount,
+go into the Terminal and type the following:
 
-Step 2. The <span
-        style='color:blue'><b>Evidence.dmg</b></span> file should
-   appear. Click on it once. Lock the file via the "GET INFO" menu to
-   ensure it is write protected.
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td>
-
-You can now double-click to mount the Evidence.dmg file <b>and explore
-it within the native Mac OS environment.</b>
-
-If the image won’t mount, go into the Terminal and type the following:
-
-</td>
-</tr>
-</table>
-<table width="700" border="0" cellspacing="1" cellpadding="15">
-<tr>
-<td width="4">
-
-</td>
-<td width="633" align="left" valign="top">
-
-<span class="Section1"
-style='color:maroon;layout-grid-mode:line'><b>sudo hdiutil
-attach</b></span>
-<span class="Section1" style='color:maroon'><b>/Volumes/</b></span><span class="Section1"
-style='color:blue'><b>Target/Evidence.dmg</b></span><span class="Section1" style='layout-grid-mode:line'>
-<span style='color:maroon'><b>-shadow</b></span></span>
-
-</td>
-</tr>
-</table>
+```text
+sudo hdiutil attach /Volumes/Target/Evidence.dmg -shadow
+```
 
 If you want to move the evidence file over into Encase, change the .dmg
 extension to .001 and add it as a raw image.

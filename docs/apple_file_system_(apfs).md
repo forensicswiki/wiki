@@ -3,7 +3,7 @@ tags:
   - File Systems
   - MacOS
 ---
-APFS, or Apple File System, is the file system designed by [Apple](apple_inc.md)
+The Apple File System, or APFS, is a file system designed by [Apple](apple_inc.md)
 to supersede [HFS+](hfs+.md) and take advantage of flash/SSD storage and native
 encryption support. APFS also introduced file system snapshots, support for
 sparse files, and greater time stamp granularity.
@@ -16,8 +16,7 @@ Sierra 10.13 released to the public on September 25, 2017.
 
 ## Features
 
-Max file size of 2<sup>63</sup> bytes was mantinted from
-[HFS+](hfs+.md) and new features include:
+Max file size of 2<sup>63</sup> bytes was maintained from [HFS+](hfs+.md) and new features include:
 
 * Snapshots (can be mounted read-only)
 * Atomic Safe-save (single transaction save)
@@ -27,129 +26,14 @@ Max file size of 2<sup>63</sup> bytes was mantinted from
 * Fast directory sizing (more efficient total space computation of a
   directory)
 
-<CENTER>
-<TABLE Border=1 cellpadding=2 cellspacing=0 width=75%>
-<TR>
-<TD>
-
-<B>Feature</B>
-
-</TD>
-<TD>
-
-<B>Mac OS Extended (HFS+)</B>
-
-</TD>
-<TD>
-
-<B>Apple File System (APFS)</B>
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-Number of allocation blocks (Maximum Number of Files)
-
-</TD>
-<TD>
-
-2<sup>32</sup> (4 billion)
-
-</TD>
-<TD>
-
-2<sup>63</sup> (9 quintillion)
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-File IDs (iNode numbering)
-
-</TD>
-<TD>
-
-32-bit
-
-</TD>
-<TD>
-
-64-bit
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-Time stamp granularity
-
-</TD>
-<TD>
-
-1 second
-
-</TD>
-<TD>
-
-1 nanosecond
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-Crash protection
-
-</TD>
-<TD>
-
-Journaled
-
-</TD>
-<TD>
-
-Copy-on-write
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-Full disk encryption
-
-</TD>
-<TD>
-
-Yes (FileVault)
-
-</TD>
-<TD>
-
-Yes (native)
-
-</TD>
-</TR>
-<TR>
-<TD>
-
-Extended Attribute Support
-
-</TD>
-<TD>
-
-Yes (retrofitted)
-
-</TD>
-<TD>
-
-Yes (native)
-
-</TD>
-</TR>
-</table>
-</CENTER>
+| Feature | Mac OS Extended (HFS+) | Apple File System (APFS) |
+| --- | --- | --- |
+| Number of allocation blocks (Maximum Number of Files) | 2<sup>32</sup> (4 billion) | 2<sup>63</sup> (9 quintillion) |
+| File IDs (iNode numbering) | 32-bit | 64-bit |
+| Time stamp granularity | 1 second | 1 nanosecond |
+| Crash protection | Journaled | Copy-on-write |
+| Full disk encryption | Yes (FileVault) | Yes (native) |
+| Extended Attribute Support | Yes (retrofitted) | Yes (native) |
 
 ## External Links
 

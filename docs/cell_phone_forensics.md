@@ -5,38 +5,39 @@ tags:
 ---
 ## Guidelines
 
-1. If on, switch it off. If off, leave off.
+Step 1. If on, switch it off. If off, leave off.
 
-\#\* Note only under exceptional circumstances should the handset be left
+Note only under exceptional circumstances should the handset be left
 switched on and in any case every precaution to prevent the handset connecting
 with the Communication Service Provider should be made. Consider use of one of
 many wireless preservation or RF isolation techniques. Note that the slightest
 signal leakage will allow an overwriting text message through even if a phone
 call can't get through.
 
-\#\* Instead of switching off, it may be better to remove the battery.
+Instead of switching off, it may be better to remove the battery.
 Phones run a different part of their program when they are turned off.
 You may wish to avoid having this part of the program run.
 
-\#\* Note that removing the battery or powering off a mobile phone may
+Note that removing the battery or powering off a mobile phone may
 introduce a handset unlock code upon powering the device on.
 
-1. Collect and preserve other surrounding and related devices. Be
-   especially careful to collect the power charger. The phone's battery
-   will only last a certain amount of time. When it dies, much of the
-   data on the device may go too!
+Step 2. Collect and preserve other surrounding and related devices. Be
+especially careful to collect the power charger. The phone's battery
+will only last a certain amount of time. When it dies, much of the
+data on the device may go too!
 
-<!-- -->
+Step 3. Plug the phone in, preferably in the evidence room, as soon as
+possible.
 
-1. Plug the phone in, preferably in the evidence room, as soon as
-    possible.
-2. Retain search warrant (if necessary - Law Enforcement).
-3. Return device to forensic lab if able.
-4. Use forensically sound tools for processing. However, also remember ACPO
-   Principle 2 says: In exceptional circumstances, where a person finds it
-   necessary to access original data held on a computer or on storage media,
-   that person must be competent to do so and be able to give evidence
-   explaining the relevance and the implications of their actions.
+Step 4. Retain search warrant (if necessary - Law Enforcement).
+
+Step 5. Return device to forensic lab if able.
+
+Step 6. Use forensically sound tools for processing. However, also remember ACPO
+Principle 2 says: In exceptional circumstances, where a person finds it
+necessary to access original data held on a computer or on storage media,
+that person must be competent to do so and be able to give evidence
+explaining the relevance and the implications of their actions.
 
 ## Notes
 
@@ -81,21 +82,21 @@ Pay As You Go:
 
 ## External Links
 
-Articles and Reference Materials
+### Articles and Reference Materials
 
 * [Law Enforcement, Forensics and Mobile Communications](https://www.cl.cam.ac.uk/~fms27/persec-2006/goodies/2006-Naccache-forensic.pdf)
 
-Investigative Support
+### Investigative Support
 
 * [Mobile-Forensics.com (Research Forum for Mobile Device Forensics)](http://www.mobile-forensics.com/)
 * [TREW Mobile Telephone Evidence (Mobile Telephone Evidence Practitioner Site)](http://trewmte.blogspot.com)
 
-Phone Research
+### Phone Research
 
 * [GSMArena.com (Technical information regarding GSM Cell Phones)](https://www.gsmarena.com/)
 * [MobileForensicsCentral.com (Information regarding Cell Phone Forensic Applications)](http://www.mobileforensicscentral.com/mfc/)
 
-Training
+### Training
 
 * [SANS: FOR585: Smartphone Forensic Analysis In-Depth](https://www.sans.org/cyber-security-courses/advanced-smartphone-mobile-device-forensics/)
 * [Teel Technologies Smartphone training](http://www.teeltech.com/mobile-device-forensics-training/)

@@ -16,40 +16,11 @@ stream consists of:
 
 The stream header is 4 bytes in size and contains:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>2</p></td>
-<td><p>"BZ"</p></td>
-<td><p>Signature (magic number)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>2</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Version<br />
-'h' for Bzip2 ('H'uffman coding), '0' for Bzip1 (deprecated)</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>3</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Block size<br />
-Value is defined in increments of 100 kB<br />
-'1'..'9' block-size 100 kB-900 kB (uncompressed)<br />
-<b>Note: currently assumed that kB should be kiB</b></p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 2 | "BZ" | Signature (magic number) |
+| 2 | 1 | | Version<br>'h' for Bzip2 ('H'uffman coding), '0' for Bzip1 (deprecated) |
+| 3 | 1 | | Block size<br>Value is defined in increments of 100 kB<br>'1'..'9' block-size 100 kB-900 kB (uncompressed)<br>**Note: currently assumed that kB should be kiB** |
 
 * followed by zero or more compressed blocks
 

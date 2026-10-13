@@ -13,111 +13,23 @@ consists of two main sections, fixed-length and variable-length.
 
 The fixed-length section is 68 bytes in size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Product version</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>2</p></td>
-<td><p>1</p></td>
-<td><p>File (format) version</p></td>
-</tr>
-<tr class="odd">
-<td><p>4</p></td>
-<td><p>16</p></td>
-<td></td>
-<td><p>Job UUID (or GUID)</p></td>
-</tr>
-<tr class="even">
-<td><p>20</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Application name size offset<br />
-The offset is relative from the start of the file.</p></td>
-</tr>
-<tr class="odd">
-<td><p>22</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Trigger offset<br />
-The offset is relative from the start of the file.</p></td>
-</tr>
-<tr class="even">
-<td><p>24</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Error Retry Count</p></td>
-</tr>
-<tr class="odd">
-<td><p>26</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Error Retry Interval</p></td>
-</tr>
-<tr class="even">
-<td><p>28</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Idle Deadline</p></td>
-</tr>
-<tr class="odd">
-<td><p>30</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Idle Wait</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Priority</p></td>
-</tr>
-<tr class="odd">
-<td><p>36</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Maximum Run Time</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Exit Code</p></td>
-</tr>
-<tr class="odd">
-<td><p>44</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Status</p></td>
-</tr>
-<tr class="even">
-<td><p>48</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Flags</p></td>
-</tr>
-<tr class="odd">
-<td><p>52</p></td>
-<td><p>16</p></td>
-<td></td>
-<td><p>Last run time<br />
-Consists of a SYSTEMTIME</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 2 | | Product version |
+| 2 | 2 | 1 | File (format) version |
+| 4 | 16 | | Job UUID (or GUID) |
+| 20 | 2 | | Application name size offset<br>The offset is relative from the start of the file. |
+| 22 | 2 | | Trigger offset<br>The offset is relative from the start of the file. |
+| 24 | 2 | | Error Retry Count |
+| 26 | 2 | | Error Retry Interval |
+| 28 | 2 | | Idle Deadline |
+| 30 | 2 | | Idle Wait |
+| 32 | 4 | | Priority |
+| 36 | 4 | | Maximum Run Time |
+| 40 | 4 | | Exit Code |
+| 44 | 4 | | Status |
+| 48 | 4 | | Flags |
+| 52 | 16 | | Last run time<br>Consists of a SYSTEMTIME |
 
 #### Product version
 
@@ -170,114 +82,27 @@ See: [Flags](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ts
 
 The variable-length section is variable in size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Running Instance Count</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Application Name<br />
-Consists of a Unicode string.</p></td>
-</tr>
-<tr class="odd">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Parameters<br />
-Consists of a Unicode string.</p></td>
-</tr>
-<tr class="even">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Working Directory<br />
-Consists of a Unicode string.</p></td>
-</tr>
-<tr class="odd">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Author<br />
-Consists of a Unicode string.</p></td>
-</tr>
-<tr class="even">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Comment<br />
-Consists of a Unicode string.</p></td>
-</tr>
-<tr class="odd">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>User Data</p></td>
-</tr>
-<tr class="even">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Reserved Data</p></td>
-</tr>
-<tr class="odd">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Triggers</p></td>
-</tr>
-<tr class="even">
-<td><p>...</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Job Signature</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 2 | | Running Instance Count |
+| 2 | ... | | Application Name<br>Consists of a Unicode string. |
+| ... | ... | | Parameters<br>Consists of a Unicode string. |
+| ... | ... | | Working Directory<br>Consists of a Unicode string. |
+| ... | ... | | Author<br>Consists of a Unicode string. |
+| ... | ... | | Comment<br>Consists of a Unicode string. |
+| ... | ... | | User Data |
+| ... | ... | | Reserved Data |
+| ... | ... | | Triggers |
+| ... | ... | | Job Signature |
 
 These values are stored as Unicode strings.
 
 #### Unicode string
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Number of characters<br />
-The value will be 0 if the string is empty.</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>String<br />
-UTF-16 little-endian with end-of-string character</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 2 | | Number of characters<br>The value will be 0 if the string is empty. |
+| 2 | ... | | String<br>UTF-16 little-endian with end-of-string character |
 
 #### User Data
 

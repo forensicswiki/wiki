@@ -111,69 +111,9 @@ frenzy going on today.
 This is a very neat model as it is a digital watch with the Palm OS
 version 4.1 installed. It comes in two brands: Abacus and Fossil.
 
-<table border="1">
-<tr>
-<th>
-
-Operating System
-
-</th>
-<th>
-
-Memory
-
-</th>
-<th>
-
-LCD Dimensions
-
-</th>
-<th>
-
-Other Notable Features
-
-</th>
-</tr>
-<tr>
-<td>
-
-Palm OS version 4.1
-
-</td>
-<td>
-
-8 MB
-
-</td>
-<td>
-
-160 x 160 with backlight
-
-</td>
-<td>
-
-Touch screen
-
-</ul>
-
-3 way rocker and back button
-
-</ul>
-
-USB for Windows and Macintosh
-
-</ul>
-
-Infrared port
-
-</ul>
-
-3 hour lifespan between charges
-
-</ul>
-</td>
-</tr>
-</table>
+| Operating System | Memory | LCD Dimensions | Other Notable Features |
+| --- | --- | --- | --- |
+| Palm OS version 4.1 | 8 MB | 160 x 160 with backlight | Touch screen; 3 way rocker and back button; USB for Windows and Macintosh; Infrared port; 3 hour lifespan between charges |
 
 ### Kyocera
 

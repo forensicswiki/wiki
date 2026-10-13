@@ -143,343 +143,85 @@ HKEY_USERS</b>
 
 ### Command Processor (cmd.exe)
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Command Processor Auto Run</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsCommandProcessorAutoRun</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Command
-Processor</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Command Processor</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Command
-Processor</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>AutoRun</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td><p>[<a
-href="https://technet.microsoft.com/en-us/library/cc779439(v=ws.10">https://technet.microsoft.com/en-us/library/cc779439(v=ws.10</a>).aspx
-Command Processor\AutoRun]</p></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Command Processor Auto Run |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsCommandProcessorAutoRun |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Command Processor<br>HKEY_USERS\%SID%\Software\Microsoft\Command Processor<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Command Processor |
+| **Value name(s)** | AutoRun |
+| **Additional information** | <https://technet.microsoft.com/en-us/library/cc779439(v=ws.10).aspx> Command Processor\AutoRun |
 
 ### Debugging
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Automatic debugging</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsAutomaticDebugging</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\AeDebug</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Debugger</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td><p><a
-href="https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging">https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging</a>Configuring
-Automatic Debugging]</p></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Automatic debugging |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsAutomaticDebugging |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug |
+| **Value name(s)** | Debugger |
+| **Additional information** | [Configuring Automatic Debugging](https://learn.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging) |
 
 ### Internet Explorer
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Browser Helper Objects</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>InternetExplorerBrowserHelperObjects</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\Browser
-Helper Objects\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser
-Helper Objects\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Browser Helper Objects |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | InternetExplorerBrowserHelperObjects |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
 ### Local Security Authority (LSA)
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Local Security Authority (LSA) Authentication Packages</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsLSAAuthenticationPackages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa</li>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Authentication Packages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Local Security Authority (LSA) Authentication Packages |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsLSAAuthenticationPackages |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Value name(s)** | Authentication Packages |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Local Security Authority (LSA) Notification Packages</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsLSANotificationPackages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa</li>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Notification Packages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Local Security Authority (LSA) Notification Packages |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsLSANotificationPackages |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Value name(s)** | Notification Packages |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Local Security Authority (LSA) Security Packages</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsLSASecurityPackages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa</li>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Security Packages</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Local Security Authority (LSA) Security Packages |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsLSASecurityPackages |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Value name(s)** | Security Packages |
+| **Additional information** |  |
 
 ### Run keys
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Run keys</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsRunKeys</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Run\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Run keys |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsRunKeys |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Run services keys</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsRunServices</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServicesOnce\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServices\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Run services keys |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsRunServices |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServicesOnce\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServices\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
 ### Session Manager
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Session Manager Execute</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><ul>
-<li>WindowsSessionManagerBootExecute</li>
-<li>WindowsSessionManagerExecute</li>
-<li>WindowsSessionManagerSetupExecute</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session
-Manager</p></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><ul>
-<li>BootExecute</li>
-<li>Execute</li>
-<li>SetupExecute</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Session Manager Execute |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsSessionManagerBootExecute<br>WindowsSessionManagerExecute<br>WindowsSessionManagerSetupExecute |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager |
+| **Value name(s)** | BootExecute<br>Execute<br>SetupExecute |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Windows Session Manager Windows-on-Windows (WOW) command
-line</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsSessionManagerWOWCommandLine</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session
-Manager\WOW</p></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><ul>
-<li>cmdline</li>
-<li>wowcmdline</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Windows Session Manager Windows-on-Windows (WOW) command line |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsSessionManagerWOWCommandLine |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\WOW |
+| **Value name(s)** | cmdline<br>wowcmdline |
+| **Additional information** |  |
 
 ### Service Control Manager
 
@@ -493,669 +235,158 @@ Manager\WOW</p></td>
 
 ### Windows shell (explorer.exe)
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Shell Icon Overlay Identifiers</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsShellIconOverlayIdentifiers</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Shell Icon Overlay Identifiers |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsShellIconOverlayIdentifiers |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Shell Extensions</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsShellExtensions</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Shell
-Extensions\Approved</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell
-Extensions\Approved</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Shell
-Extensions\Approved</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell
-Extensions\Approved</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Shell Extensions |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsShellExtensions |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Shell Execute Hooks</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsShellExecuteHooks</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Shell Execute Hooks |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsShellExecuteHooks |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Shell Load and Run</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsShellLoadAndRun</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_CURRENT_USER\Software\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-<li>HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><ul>
-<li>Load</li>
-<li>Run</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Shell Load and Run |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsShellLoadAndRun |
+| **Key path(s)** | HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
+| **Value name(s)** | Load<br>Run |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Shell Service Object Delay Load</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsShellServiceObjects</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td><p><a
-href="http://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=TrojanClicker:Win32/Zirit.X#tab=2">TrojanClicker:Win32/Zirit.X</a></p></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Shell Service Object Delay Load |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsShellServiceObjects |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad |
+| **Value name(s)** | * |
+| **Additional information** | [TrojanClicker:Win32/Zirit.X](http://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=TrojanClicker:Win32/Zirit.X#tab=2) |
 
 ### Winlogon and Credential Providers
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Credential Provider Filters</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsCredentialProviderFilters</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential
-Provider Filters\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential
-Provider Filters\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td><p><a
-href="http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/">Capturing
-Windows 7 Credential at logon using custom credential
-provider</a></p></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Credential Provider Filters |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsCredentialProviderFilters |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\* |
+| **Value name(s)** | * |
+| **Additional information** | [Capturing Windows 7 Credential at logon using custom credential provider](http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/) |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Credential Providers</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsCredentialProviders</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential
-Providers\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential
-Providers\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td><p><a
-href="http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/">Capturing
-Windows 7 Credential at logon using custom credential
-provider</a></p></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Credential Providers |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsCredentialProviders |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\* |
+| **Value name(s)** | * |
+| **Additional information** | [Capturing Windows 7 Credential at logon using custom credential provider](http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/) |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Pre-Logon Access Provider (PLAP) Providers</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsPLAPProviders</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\PLAP
-Providers\*</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\PLAP
-Providers\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Pre-Logon Access Provider (PLAP) Providers |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsPLAPProviders |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon Gina DLL</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonShell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>GinaDLL</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon Gina DLL |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonShell |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | GinaDLL |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon Notify</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonNotify</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon\Notify\*</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon\Notify\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>DLLName</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon Notify |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonNotify |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\* |
+| **Value name(s)** | DLLName |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon Shell</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonShell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Shell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon Shell |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonShell |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | Shell |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon System</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonSystem</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>System</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon System |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonSystem |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | System |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon Taksman</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonTaksman</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Taksman</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon Taksman |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonTaksman |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | Taksman |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon Userinit</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonUserinit</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Userinit</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon Userinit |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonUserinit |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | Userinit |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Winlogon VMApplet</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsWinlogonVMApplet</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Windows
-NT\CurrentVersion\Winlogon</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>VMApplet</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Winlogon VMApplet |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsWinlogonVMApplet |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Value name(s)** | VMApplet |
+| **Additional information** |  |
 
 ### Policy
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Windows System Policy replacement shell</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsSystemPolicyShell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\System</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>Shell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Windows System Policy replacement shell |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsSystemPolicyShell |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\System |
+| **Value name(s)** | Shell |
+| **Additional information** |  |
 
 ### Unsorted
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Active Setup - Installed Components</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsStubPaths</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed
-Components</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Active
-Setup\Installed Components</li>
-<li>HKEY_USERS\%SID%\Software\Microsoft\Active Setup\Installed
-Components</li>
-<li>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Active
-Setup\Installed Components</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>StubPath</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Active Setup - Installed Components |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsStubPaths |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Active Setup\Installed Components<br>HKEY_USERS\%SID%\Software\Microsoft\Active Setup\Installed Components<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Active Setup\Installed Components |
+| **Value name(s)** | StubPath |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Application Initial (AppInit) DLLs persistence</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsAppInitDLLs</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-<li>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-<li>HKEY_USERS\%%users.sid%%\Software\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-<li>HKEY_USERS\%%users.sid%%\Software\Wow6432Node\Microsoft\Windows
-NT\CurrentVersion\Windows</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>AppInit_DLLs</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Application Initial (AppInit) DLLs persistence |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsAppInitDLLs |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_USERS\%%users.sid%%\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_USERS\%%users.sid%%\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
+| **Value name(s)** | AppInit_DLLs |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Security Providers</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsSecurityProviders</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\*</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>*</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Security Providers |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsSecurityProviders |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\* |
+| **Value name(s)** | * |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Alternate shell</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsAlternateShell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SafeBoot</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>AlternateShell</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Alternate shell |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsAlternateShell |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SafeBoot |
+| **Value name(s)** | AlternateShell |
+| **Additional information** |  |
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><b>Description</b></p></td>
-<td><p>Boot verification program</p></td>
-</tr>
-<tr class="even">
-<td><p><b><a href="Artifacts" title="wikilink">Artifact
-name</a></b></p></td>
-<td><p>WindowsBootVerificationProgram</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Key path(s)</b></p></td>
-<td><ul>
-<li>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\BootVerificationProgram</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p><b>Value name(s)</b></p></td>
-<td><p>ImagePath</p></td>
-</tr>
-<tr class="odd">
-<td><p><b>Additional information</b></p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Description** | Boot verification program |
+| --- | --- |
+| **[Artifact name](artifacts.md)** | WindowsBootVerificationProgram |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\BootVerificationProgram |
+| **Value name(s)** | ImagePath |
+| **Additional information** |  |
 
 ## Bibliography
 
