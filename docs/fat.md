@@ -3,8 +3,7 @@ tags:
   - File Systems
   - Windows
 ---
-**FAT**, or File Allocation Table, is a [file
-system](file_systems.md) that is designed to keep track of
+File Allocation Table (or FAT), is a [file system](file_systems.md) that is designed to keep track of
 allocation status of clusters on a [hard drive](hard_drive.md).
 Developed in 1977 by [Microsoft](microsoft.md) Corporation, FAT
 was originally intended to be a [file system](file_systems.md)
@@ -340,7 +339,7 @@ Cluster
 
 Sample Slack Space,
 
-`   50% Cluster Slack Per File`
+50% Cluster Slack Per File
 
 </center>
 
@@ -355,7 +354,7 @@ Sample Slack Space,
 
 Sample Slack Space,
 
-`   67% Cluster Slack Per File`
+67% Cluster Slack Per File
 
 </center>
 

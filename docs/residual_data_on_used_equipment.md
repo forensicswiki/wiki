@@ -16,7 +16,7 @@ even on the street.
 
 * **2009-11-21**: Robert Siciliano, a security consultant to
   Intelius.com and personal ID theft expert, buys an ATM machine for
-  \$750 from a bar in Boston. The machine comes with more than 1000
+  750 USD from a bar in Boston. The machine comes with more than 1000
   credit and ATM card numbers.
   <https://www.theregister.com/2009/11/18/second_hand_atm_fraud_risk/>
 
@@ -70,7 +70,7 @@ order.
   information on 2/3rds of the drives.
 
 * **2007-08-30**: Bill Ries-Knight, an IT consultant, purchases a 120GB
-  Seagate hard drive on eBay for \$69. Although the drive was advertised
+  Seagate hard drive on eBay for 69 USD. Although the drive was advertised
   as being new, it apparently was previously used by the campaign of
   Mike Beebe, who won the Arkansas state governorship in November 2006.
   "Among the files were documents listing the private cell phone numbers
@@ -81,7 +81,7 @@ order.
   published in [The Register](https://www.theregister.com/2007/08/30/governors_data_sold_on_ebay/).
 
 * **2008-01-28**: Gregory Evans, a security consultant in Marina Del Ray,
-  Calif., bought a \$500 computer at a swap meet from a former mortgage company.
+  Calif., bought a 500 USD computer at a swap meet from a former mortgage company.
   It contained credit reports on 300 people in a deleted file, according to an
   article published in The New York Daily News. The security consultant was also
   able to recover the usernames and passwords of the mortgage company's former
@@ -129,8 +129,8 @@ order.
   fairs. Sophie Curtis, "InfoSec 2012: One in 10 second-hand hard drives
   contain personal data, April 2012.
 
-* **2013-07-14**: UK's National Health Service Surrey was fined a £200,000
-  (\$300,000) after it sold a hard drive that contained 3,000 patient records
+* **2013-07-14**: UK's National Health Service Surrey was fined a 200,000 GBP
+  (300,000 USD) after it sold a hard drive that contained 3,000 patient records
   (2,000 children and 900 adults). Apparently the drives were provided to a PC
   recycler on the grounds that they be destroyed. The recycler provided a
   destruction certificate, then sold the drives on eBay. A member of the public
@@ -171,87 +171,13 @@ order.
   player at a thrift shop in Oklahoma that had 60 US military files,
   "including names and telephone numbers for American soldiers."
 
-## Academic Publications
+## External links
 
-<bibtex> @article{JICLT80,
-
-`   author = {Andy Jones and Glenn Dardick and Gareth Davies and Iain Sutherland and Craig Valli},`
-`   title = {The 2008 Analysis of Information Remaining on Disks Offered for Sale on the Second Hand Market},`
-`   journal = {Journal of International Commercial Law and Technology},`
-`   volume = {4},`
-`   number = {3},`
-`   year = {2009},`
-`   keywords = {Computer forensics, disk analysis, data recovery, data disposal, data destruction, data leakage, privacy.},`
-`   abstract = {`
-
-The use of computers that contain hard disks to process and store
-information has been ubiquitous across organisations in both the public
-and private sector for more than two decades and is being ever more
-widely used by individuals in the home. During that time, the processing
-capability of the computers has increased enormously. At the same time
-the storage capacity of the computers has increased from tens of
-Megabytes to hundreds of Gigabytes and the use of Terabyte
-storage devices in both commercial and private locations is now becoming
-increasingly common. In recent years, because of social change and
-alterations in the way in which organisations work, there has also been
-an increasing trend in the use of the same computer to process and store
-both the organisation’s and the individuals personal information. It is
-clear that the majority of organisations and private individuals still
-remain ignorant or misinformed of the potential volume and type of
-information that is stored on the hard disks contained within these
-computer systems. As a result, they have not considered, or are unaware
-of, the potential impact of this information becoming available to an
-unintended third party.
-
-This is the fourth study in an ongoing research effort that is being
-conducted into the volume and type of information that remains on
-computer hard disks offered for sale on the second hand market. The
-research has been undertaken to gain an understanding of the level and
-types of information that remains on these disks and to determine the
-damage that could, potentially be caused, if the information was
-misused. These studies have examined a large number of disks that have
-been purchased in a number of countries. The rationale for this was to
-determine whether there are any national or regional differences in the
-way that computer disks are disposed of and to compare the results for
-any regional or temporal trends.
-
-The first study was carried out in 2005 and has been repeated annually
-with the scope extended to include additional research partners and
-countries during each of the subsequent years. The studies were carried
-out by British Telecommunications and the University of Glamorgan in the
-UK, Edith Cowan University in Australia and Longwood University in the
-USA.
-
-The core methodology of the research has remained the same over the
-duration of the study: to acquire a number of second hand computer disks
-from a range of sources and then to determine whether they still
-contained information relating to a previous owner or if the device had
-been effectively erased. If the disks still contained information, the
-research examined whether it was in a sufficient volume and of enough
-sensitivity to the original owner to represent a risk if unintentionally
-exposed to a third party. One of the results of the research has been
-that for a very large proportion of the disks that have been examined,
-there was significant information present and both organisations and
-individuals were potentially exposed to the possibility of a compromise
-of sensitive information. Potential impacts of this might include
-embarrassment to individuals and organisations, fraud, blackmail and
-identity theft. It is noted that where the disks had originally been
-owned by organisations, they had, in most cases, failed to meet their
-statutory, regulatory and legal obligations.
-
-In the 2008 study, the fourth in the series, the research methodology
-that had been followed in the previous studies was repeated, but in
-addition the scope was again broadened geographically to include disks
-sourced from within France.
-
-},
-
-`   issn = {1901-8401},`
-
-} </bibtex>
+* [The 2008 Analysis of Information Remaining on Disks Offered for Sale on the Second Hand Market](https://ro.ecu.edu.au/ecuworks/694),
+  by Andy Jones, Glenn Dardick, Gareth Davies, Iain Sutherland & Craig Valli, 2009.
+* [Privacy Rights Clearinghouse Chronology of Data Breaches](https://privacyrights.org/data-breaches?order=field_breach_total_valuehttp://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=descsort=desc)
 
 ## See Also
 
 * [Residual Data](residual_data.md)
 * [Residual Data in Document Files](residual_data_in_document_files.md)
-* [Privacy Rights Clearinghouse Chronology of Data Breaches](https://privacyrights.org/data-breaches?order=field_breach_total_valuehttp://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=descsort=desc)

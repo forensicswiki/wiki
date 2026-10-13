@@ -36,14 +36,14 @@ directories archived into a modified ZIP file. The structure of the
 basic package is as follows
 
 ```text
-├── META-INF
+├── META-INF
     └── manifest.xml
-├── Thumbnails
+├── Thumbnails
     └── thumbnail.png
-├── content.xml
-├── meta.xml
-├── mimetype
-├── settings.xml
+├── content.xml
+├── meta.xml
+├── mimetype
+├── settings.xml
 └── styles.xml
 ```
 

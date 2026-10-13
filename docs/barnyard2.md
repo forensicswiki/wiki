@@ -13,9 +13,9 @@ network traffic.
 
 Barnyard2 has 3 modes of operation:
 
-` 1. batch (or one-shot),`
-` 2. continual, and`
-` 3. continual w/ bookmark.`
+* batch (or one-shot)
+* continual
+* continual w/ bookmark
 
 In batch (or one-shot) mode, barnyard2 will process the explicitly
 specified file(s) and exit.

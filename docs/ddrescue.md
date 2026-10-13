@@ -81,7 +81,7 @@ First you copy as much data as possible, without retrying or splitting
 sectors:
 
 ```bash
- ddrescue --no-split /dev/hda1 imagefile logfile
+ddrescue --no-split /dev/hda1 imagefile logfile
 ```
 
 Now let it retry previous errors 3 times, using uncached reads:
@@ -122,16 +122,14 @@ times, don't read past last block in logfile:
 ```bash
 modprobe raw
 raw /dev/raw/raw1 /dev/hda1
-ddrescue --max-retries=3 --complete-only /dev/raw/raw1 imagefile
-logfile
+ddrescue --max-retries=3 --complete-only /dev/raw/raw1 imagefile logfile
 ```
 
 If that fails you can try again (still using raw) but retrimmed, so it
 tries to reread full sectors:
 
 ```bash
-ddrescue --retrim --max-retries=3 --complete-only /dev/raw/raw1
-imagefile logfile
+ddrescue --retrim --max-retries=3 --complete-only /dev/raw/raw1 imagefile logfile
 ```
 
 You can now use ddrescue (or normal dd) to copy the imagefile to a new
@@ -178,60 +176,60 @@ Example 3: Rescue an entire hard disk /dev/sda to another disk /dev/sdb
 copy the error free areas first
 
 ```bash
-ddrescue -n /dev/sda /dev/sdb rescue.log
+ddrescue -n /dev/sda /dev/sdb rescue.log
 ```
 
 attempt to recover any bad sectors
 
 ```bash
-ddrescue -r 1 /dev/sda /dev/sdb rescue.log
+ddrescue -r 1 /dev/sda /dev/sdb rescue.log
 ```
 
 ## Options
 
 ```text
--h, --help
-   display this help and exit 
--V, --version
-   output version information and exit 
--b, --block-size=`<bytes>
-   hardware block size of input device [512] 
--B, --binary-prefixes
-   show binary multipliers in numbers [default SI] 
--c, --cluster-size=`<blocks>
-   hardware blocks to copy at a time [128] 
--C, --complete-only
-   do not read new data beyond logfile limits 
--d, --direct
-   use direct disc access for input file 
--D, --synchronous
-   use synchronous writes for output file 
--e, --max-errors=`<n>
-   maximum number of error areas allowed 
--F, --fill=`<types>
-   fill given type areas with infile data (?*/-+) 
--g, --generate-logfile
-   generate approximate logfile from partial copy 
--i, --input-position=`<pos>
-   starting position in input file [0] 
--n, --no-split
-   do not try to split or retry error areas 
--o, --output-position=`<pos>
-   starting position in output file [ipos] 
--q, --quiet
-   quiet operation 
--r, --max-retries=`<n>
-   exit after given retries (-1=infinity) [0] 
--R, --retrim
-   mark all error areas as non-trimmed 
--s, --max-size=`<bytes>
-   maximum size of data to be copied 
--S, --sparse
-   use sparse writes for output file 
--t, --truncate
-   truncate output file 
--v, --verbose
-   verbose operation
+-h, --help
+   display this help and exit
+-V, --version
+   output version information and exit
+-b, --block-size=`<bytes>
+   hardware block size of input device [512]
+-B, --binary-prefixes
+   show binary multipliers in numbers [default SI]
+-c, --cluster-size=`<blocks>
+   hardware blocks to copy at a time [128]
+-C, --complete-only
+   do not read new data beyond logfile limits
+-d, --direct
+   use direct disc access for input file
+-D, --synchronous
+   use synchronous writes for output file
+-e, --max-errors=`<n>
+   maximum number of error areas allowed
+-F, --fill=`<types>
+   fill given type areas with infile data (?*/-+)
+-g, --generate-logfile
+   generate approximate logfile from partial copy
+-i, --input-position=`<pos>
+   starting position in input file [0]
+-n, --no-split
+   do not try to split or retry error areas
+-o, --output-position=`<pos>
+   starting position in output file [ipos]
+-q, --quiet
+   quiet operation
+-r, --max-retries=`<n>
+   exit after given retries (-1=infinity) [0]
+-R, --retrim
+   mark all error areas as non-trimmed
+-s, --max-size=`<bytes>
+   maximum size of data to be copied
+-S, --sparse
+   use sparse writes for output file
+-t, --truncate
+   truncate output file
+-v, --verbose
+   verbose operation
 ```
 
 Numbers may be followed by a multiplier: b = blocks, k = kB = 10^3 =

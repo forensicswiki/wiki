@@ -16,21 +16,21 @@ volume, image or file for deleted SQLite databases.
 The output of SQLite Recovery is individual SQLite databases that can be
 investigated with other forensic software such as SkypeAlyzer.
 
-Features
+## Features
 
-`   Simple to use`
-`   Template based`
-`   Carves deleted journal and WAL files`
-`   Carves unknown databases (including those in unallocated space)`
-`   Search all tables for multiple keywords at one`
-`   Template constraints can override column affinity`
-`   Extracts to SQLite databases to investigate with 'other' forensic software`
-`   Export a recovered table to XLS`
-`   Parse time filtering to improve quality of recovered data`
-`   Optionally display numeric columns as formatted date`
-`   Advanced filters to clean up data post parse`
-`   Automatically identify and delete duplicate rows`
-`   Supports parsing from individual files (DD/Unallocated), logical and physical devices, EWF images.`
+* Simple to use
+* Template based
+* Carves deleted journal and WAL files
+* Carves unknown databases (including those in unallocated space)
+* Search all tables for multiple keywords at one
+* Template constraints can override column affinity
+* Extracts to SQLite databases to investigate with 'other' forensic software
+* Export a recovered table to XLS
+* Parse time filtering to improve quality of recovered data
+* Optionally display numeric columns as formatted date
+* Advanced filters to clean up data post parse
+* Automatically identify and delete duplicate rows
+* Supports parsing from individual files (DD/Unallocated), logical and physical devices, EWF images.
 
 ## External Links
 

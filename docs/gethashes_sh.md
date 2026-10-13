@@ -47,7 +47,9 @@ and execute the script.
 script, you likely need to run the following command in terminal to make
 the script executable:
 
-` chmod a+x getHashes.sh`
+```bash
+chmod a+x getHashes.sh
+```
 
 As you can see in the screenshot above, the script created MD5 and SHA1
 directories because they didn't yet exist in that directory. These new

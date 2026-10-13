@@ -8,7 +8,7 @@ tags:
   - Windows
   - Open Source Software
 ---
-**libexif** is an open source library for reading and editing
+libexif is an open source library for reading and editing
 [Exif](exif.md) metadata, commonly found in digital pictures. It is written in
 C and released under the LGPL. The library runs under GNU/Linux, BSD, MacOS,
 and Windows. The library is developed by the "libexif project." The project
@@ -18,7 +18,9 @@ also includes command-line and graphical front-ends.
 
 The use of the command-line front end is typical of many Unix or Linux commands.
 
-` exif example.jpg`
+```bash
+exif example.jpg
+```
 
 This command will write all tags and values contained in the file to standard
 output. It will also indicate if the file contains an embedded thumbnail.

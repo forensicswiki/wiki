@@ -49,35 +49,41 @@ glance.
 ## A Practical Example
 
 Timestomp cannot be used directly to modify all (on average) 8 timestamp
-values in the MFT entry; 4 in \$STANDARD_INFORMATION attribute and 4 in
-\$FILE_NAME attribute. The \$FILE_NAME attribute MACE values are
+values in the MFT entry; 4 in $STANDARD_INFORMATION attribute and 4 in
+$FILE_NAME attribute. The $FILE_NAME attribute MACE values are
 intended to be modified by Windows, but still there is an indirect
 workaround to update those values in order to further frustrate
 forensics.
 
-1\) Create file (*c:\test.txt*)
+Step 1. Create file (*c:\test.txt*)
 
 <img src="../assets/images/timestomp1.jpeg" title="timestomp1.jpeg"
  width="400" alt="timestomp1.jpeg" />
 
-2\) Change timestamps using Timestomp
+Step 2. Change timestamps using Timestomp
 
-`  timestomp.exe c:\test.txt -z "Saturday 10/08/2005 2:02:02 PM"`
-`  timestomp.exe c:\test.txt -a "Saturday 10/08/2005 2:02:02 PM"`
+```cmd
+timestomp.exe c:\test.txt -z "Saturday 10/08/2005 2:02:02 PM"
+timestomp.exe c:\test.txt -a "Saturday 10/08/2005 2:02:02 PM"
+```
+
 <img src="../assets/images/timestomp2.jpeg" title="timestomp2.jpeg"
  width="400" alt="timestomp2.jpg" />
 
-3\) Move that file to another folder (*c:\argument\test.txt*)
+Step 3. Move that file to another folder (*c:\argument\test.txt*)
 
 <img src="../assets/images/timestomp3.jpeg" title="timestomp3.jpeg"
  width="400" alt="timestomp3.jpeg" />
-`  `
-`  $STANDARD_INFORMATION values are copied to $FN MACE values`
 
-4\) Update accessed and modified timestamps in \$STANDARD_INFORMATION
+$STANDARD_INFORMATION values are copied to $FN MACE values
 
-`  timestomp.exe c:\argument\test.txt -m "Saturday 10/08/2005 2:02:02 PM"`
-`  timestomp.exe c:\argument\test.txt -a "Saturday 10/08/2005 2:02:02 PM"`
+Step 4. Update accessed and modified timestamps in $STANDARD_INFORMATION
+
+```cmd
+timestomp.exe c:\argument\test.txt -m "Saturday 10/08/2005 2:02:02 PM"
+timestomp.exe c:\argument\test.txt -a "Saturday 10/08/2005 2:02:02 PM"
+```
+
 <img src="../assets/images/timestomp4.jpeg" title="timestomp4.jpeg"
  width="400" alt="timestomp4.jpeg" />
 

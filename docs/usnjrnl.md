@@ -6,18 +6,15 @@ tags:
   - Tools
   - Windows
 ---
-Parses Windows **\$UsnJrnl:\$J** files. This crate contains a library
-and a binary.
+Parses Windows "\$UsnJrnl:\$J" files. This crate contains a library and a binary.
 
-!!! Keep in mind that this is not fully tested yet and may contain one
-or the other bug !!!
+Note that this is not fully tested yet and may contain one or the other bug.
 
 ## Tools
 
 The **usnjrnl** package contains the following tools:
 
-* **usnjrnl_dump**, which dumps the contents of a **\$UsnJrnl:\$J**
-  file.
+* **usnjrnl_dump**, which dumps the contents of a "\$UsnJrnl:\$J" file.
 
 ## History
 

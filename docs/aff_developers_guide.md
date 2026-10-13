@@ -35,7 +35,9 @@ The library currently supports the following compilers:
 
 When compiling an AFF program you must include the AFF header:
 
-` #include <afflib.h>`
+```text
+#include <afflib.h>
+```
 
 During linking you must include the AFF library itself and the SSL
 library. Additionally, if you're using a C compiler, you will need the
@@ -45,25 +47,25 @@ below:
 Using g++:
 
 ```bash
-g++ file.c -lafflib -lssl
+g++ file.c -lafflib -lssl
 ```
 
 Using gcc:
 
 ```bash
-gcc file.c -lafflib -lssl -lstdc++
+gcc file.c -lafflib -lssl -lstdc++
 ```
 
 Using MinGW:
 
 ```text
-gcc.exe file.c -lafflib -lssl -lstdc++
+gcc.exe file.c -lafflib -lssl -lstdc++
 ```
 
 Using Microsoft Visual C++:
 
 ```text
-LINK.EXE file.obj afflib.lib
+LINK.EXE file.obj afflib.lib
 ```
 
 ### Testing for the AFF using Automake
@@ -157,19 +159,23 @@ int main(int argc, char **argv)
 
 We will go through the important parts of the program.
 
-` #include <fcntl.h> `
-` #include <afflib.h>`
+```text
+#include <fcntl.h>
+#include <afflib.h>
+```
 
 These two lines include the necessary headers to use the AFF. Although
 fcntl.h is not actually required, it provides several macros that are
 highly recommended.
 
-` AFFILE * af = af_open(fn,O_RDONLY,0);`
-` if (NULL == af)`
-` {`
-`   perror(fn);`
-`   return TRUE;`
-` }`
+```text
+AFFILE * af = af_open(fn,O_RDONLY,0);
+if (NULL == af)
+{
+  perror(fn);
+  return TRUE;
+}
+```
 
 This line attempts to open the given file using the af_open command. The
 O_RDONLY is one of many macros defined in fcntl.h that can be used when
@@ -179,8 +185,10 @@ it's safe to leave it as zero here. The function returns a pointer to an
 AFFILE structure. There are some public data fields in that structure
 defined in afflib.h.
 
-` printf ("The uncompressed size of this file is %"PRId64" bytes\n",`
-`          af_get_imagesize(af));`
+```text
+printf ("The uncompressed size of this file is %"PRId64" bytes\n",
+         af_get_imagesize(af));
+```
 
 This line uses one of the miscellaneous functions included with the AFF
 to display the size of the uncompressed image stored in the file.
@@ -188,7 +196,9 @@ Compare the value displayed by this line to the size of the AFF image on
 the disk and you can see how much the library compresses. The example
 file zeros.aff shows an extreme case!
 
-` af_close(af);`
+```text
+af_close(af);
+```
 
 This final line closes the file handle and destroys the AFFILE
 structure.
@@ -223,7 +233,9 @@ The following status codes can be returned by AFF functions.
 
 #### af_open
 
-` AFFILE * af_open(const char *filename, int flags, int mode);`
+```text
+AFFILE * af_open(const char *filename, int flags, int mode);
+```
 
 The flags parameter controls what the program should be allowed to do
 with the file. There are a set of handy macros defined in fcntl.h that
@@ -244,7 +256,9 @@ See [open(3)](https://linux.die.net/man/3/open)
 
 #### af_open_stdin
 
-` AFFILE * af_open_stdin(void);`
+```text
+AFFILE * af_open_stdin(void);
+```
 
 A special case of af_open, this function an AFF handle on standard
 input. Note that this function did not appear until AFF version 2.3.
@@ -253,14 +267,18 @@ support the Windows platform) you need to explicitly tell the compiler
 to treat standard input as a stream of binary data. For example, using
 MinGW you can set:
 
-` int _CRT_fmode = _O_BINARY;`
+```text
+int _CRT_fmode = _O_BINARY;
+```
 
 somewhere in your code. See <https://gnuwin32.sourceforge.net/compile.html> for
 more
 
 #### af_popen
 
-` AFFILE * af_popen(const char *command, const char *type)`
+```text
+AFFILE * af_popen(const char *command, const char *type)
+```
 
 This function is currently on supported on UNIX variants,
 [Cygwin](cygwin.md) and MinGW (which are really both Unix
@@ -270,7 +288,9 @@ See [popen(3)](https://linux.die.net/man/3/popen)
 
 #### af_close
 
-` int af_close(AFFILE *af);`
+```text
+int af_close(AFFILE *af);
+```
 
 Closes an AFF file handle and frees all resources associated with it.
 You can use this function regardless if you opened the file with af_open
@@ -278,7 +298,9 @@ or af_popen.
 
 #### af_read
 
-` int af_read(AFFILE *af, unsigned char *buf, size_t count);`
+```text
+int af_read(AFFILE *af, unsigned char *buf, size_t count);
+```
 
 Similar to `fread`, this function reads `count` bytes from the file and
 stores them in `buf`. `buf` should already be allocated to hold this
@@ -293,7 +315,9 @@ See also [read(3)](https://linux.die.net/man/3/read)
 
 #### af_seek
 
-`  uint64_t af_seek(AFFILE *af, int64 pos, int whence);`
+```text
+uint64_t af_seek(AFFILE *af, int64 pos, int whence);
+```
 
 Sets the file pointer into the *decompressed data*. The new position,
 given in bytes, is obtained by adding `pos` bytes to the position
@@ -316,7 +340,9 @@ See also [fseek(3)](https://linux.die.net/man/3/fseek) and
 
 #### af_tell
 
-` uint64 af_tell(AFFILE *af);`
+```text
+uint64 af_tell(AFFILE *af);
+```
 
 Similar to ftello, this function returns the current value of the file
 position indicator for the file pointed to by `af`. On an error, this
@@ -327,7 +353,9 @@ See also [ftell(3)](https://linux.die.net/man/3/ftell) and
 
 #### af_eof
 
-`  int af_eof(AFFILE *af);`
+```text
+int af_eof(AFFILE *af);
+```
 
 Returns TRUE if the file pointer into the decompressed data is at the
 end of the decompressed data. Otherwise, returns FALSE.
@@ -338,7 +366,9 @@ end of the decompressed data. Otherwise, returns FALSE.
 
 #### af_enable_writing
 
-` void af_enable_writing(AFFILE *af, int flag);`
+```text
+void af_enable_writing(AFFILE *af, int flag);
+```
 
 This function must be executed before attempting to write data (using
 af_write) to an AFF file. You do not need to execute this function,
@@ -347,15 +377,19 @@ to write to the file AF.
 
 #### af_set_callback
 
-` void af_set_callback(AFFILE *af, `
-`                      void (*wcb)(struct affcallback_info *));`
+```text
+void af_set_callback(AFFILE *af,
+                     void (*wcb)(struct affcallback_info *));
+```
 
 Sets a callback function that is called during each of the four phases
 of the segment write operation.
 
 #### af_enable_compression
 
-` void af_enable_compression(AFFILE *af, int type, int level);`
+```text
+void af_enable_compression(AFFILE *af, int type, int level);
+```
 
 Enables compression on the given AFF file. The type of compression must
 be an AFF compression algorithm as shown in Table 2. The compression
@@ -365,7 +399,9 @@ respectively, but could change in future versions.
 
 For example, to enable maximum LZMA compression:
 
-` af_enable_compression(af,AF_COMPRESSION_ALG_LZMA,AF_COMPRESSION_MAX);`
+```text
+af_enable_compression(af,AF_COMPRESSION_ALG_LZMA,AF_COMPRESSION_MAX);
+```
 
 | Flag                    | Algorithm                                                                                                   |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -375,34 +411,44 @@ For example, to enable maximum LZMA compression:
 
 #### af_compression_type
 
-` int af_compression_type(AFFILE *af);`
+```text
+int af_compression_type(AFFILE *af);
+```
 
 Returns the compression algorithm being used by the file in question.
 The algorithms are given in Table 2.
 
 #### af_write
 
-` int af_write(AFFILE *af, unsigned char *buf, size_t count);`
+```text
+int af_write(AFFILE *af, unsigned char *buf, size_t count);
+```
 
 Note that you must call af_enable_writing on af before using this
 function.
 
 #### af_badflag
 
-`  const unsigned char * af_badflag(AFFILE *af);`
+```text
+const unsigned char * af_badflag(AFFILE *af);
+```
 
 Returns the pattern used to identify bad sectors in this file.
 
 #### af_is_badsector
 
-`  af_is_badsector(AFFILE *af, unsigned char *buf);`
+```text
+af_is_badsector(AFFILE *af, unsigned char *buf);
+```
 
 Returns TRUE if buf is the pattern used to mark a bad sector, Otherwise,
 returns FALSE.
 
 #### af_stats
 
-`  void af_stats(AFFILE *af, FILE *f);`
+```text
+void af_stats(AFFILE *af, FILE *f);
+```
 
 This function writes statistics about the current usage of the given AFF
 file. This includes the file's name and the number of pages read, pages
@@ -429,22 +475,30 @@ Bytes copied: 10848768
 
 #### af_rewind_seg
 
-` af_rewind_seg(AFFILE *af);`
+```text
+af_rewind_seg(AFFILE *af);
+```
 
 Returns the segment pointer to the beginning the file. This function
 should be used before any segments are examined.
 
 #### af_get_seg
 
-` int af_get_seg(AFFILE *af, const char *name, unsigned long *arg, unsigned char *data, size_t *datalen);`
+```text
+int af_get_seg(AFFILE *af, const char *name, unsigned long *arg, unsigned char *data, size_t *datalen);
+```
 
 #### af_get_next_seg
 
-` int af_get_next_seg(AFFILE *af, char *segname, size_t segname_len, unsigned long *arg, unsigned char *data, size_t *datalen);`
+```text
+int af_get_next_seg(AFFILE *af, char *segname, size_t segname_len, unsigned long *arg, unsigned char *data, size_t *datalen);
+```
 
 #### af_update_seg
 
-`  int af_update_seg(AFFILE *af, const char *name, unsigned long arg, const void *value, unsigned int vallen);`
+```text
+int af_update_seg(AFFILE *af, const char *name, unsigned long arg, const void *value, unsigned int vallen);
+```
 
 **RBF – Why aren't these arguments in C99 type? Arg, especically, needs
 to be denoted as being 32 bits**
@@ -455,7 +509,9 @@ different name for the length parameter**
 
 ##### Proposed new prototype
 
-`   int af_update_seg(AFFILE *af, const char *name, uin32_t arg, const void *value, size_t datalen);`
+```text
+int af_update_seg(AFFILE *af, const char *name, uin32_t arg, const void *value, size_t datalen);
+```
 
 This function is used both to set and change the values of segments in a
 file. The name of the segment to be updated is given in name. If the
@@ -497,7 +553,9 @@ if (status)
 
 #### af_del_seg
 
-` int af_del_seg (AFFILE *af, const char *name);  `
+```text
+int af_del_seg (AFFILE *af, const char *name);
+```
 
 Deletes the first segment of the given name from the file. Returns zero
 on success, -1 on error.
@@ -506,15 +564,21 @@ on success, -1 on error.
 
 #### af_filename
 
-` const char * af_filename(AFFILE *af);`
+```text
+const char * af_filename(AFFILE *af);
+```
 
 Returns the filename associated with an opened file. Sample:
 
-`  printf ("The current file being read is %s.\n", af_filename(af));`
+```text
+printf ("The current file being read is %s.\n", af_filename(af));
+```
 
 #### af_identify
 
-` int af_identify(AFFILE *af);`
+```text
+int af_identify(AFFILE *af);
+```
 
 Returns the type of file associated with the given handle. The types are
 defined in Table 3.
@@ -557,7 +621,9 @@ int identify_filetype(AFFILE *af)
 
 #### af_get_imagesize
 
-` int64 af_get_imagesize(AFFILE *af);`
+```text
+int64 af_get_imagesize(AFFILE *af);
+```
 
 Returns the number of bytes in the decompressed data. On an error,
 returns -1. Sample:

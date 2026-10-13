@@ -23,29 +23,9 @@ using Core2 Duo is about 4,7 millions passwords per second. By using
 * [Passware Kit Forensic](https://www.passware.com/)
 * [Passcovery Suite](https://passcovery.com/products/passcoverysuite.htm)
 
-## Bibliography
+## External Links
 
-<bibtex> @inproceedings{p73-marziale,
-
-` author="Lodovico Marziale and  Golden G. Richard III and Vassil Roussev",`
-` title="Massive Threading: Using GPUs to Increase the Performance of Digital Forensics Tools",`
-` booktitle="DFRWS: Proceedings of the 7th Annual Digital Forensics Research Workshop",`
-` year=2007`
-
-} </bibtex>
-
-<bibtex> @inproceedings{1191892,
-
-`author = {Nigel Jacob and Carla Brodley},`
-`title = {Offloading IDS Computation to the GPU},`
-`booktitle = {ACSAC '06: Proceedings of the 22nd Annual Computer Security Applications Conference on Annual Computer Security Applications Conference},`
-`year = {2006},`
-`isbn = {0-7695-2716-7},`
-`pages = {371--380},`
-`doi = {`[`https://ieeexplore.ieee.org/document/4041182/`](https://ieeexplore.ieee.org/document/4041182/)`},`
-`publisher = {IEEE Computer Society},`
-`address = {Washington, DC, USA},`
-` url="`[`https://www.acsac.org/2006/papers/74.pdf`](https://www.acsac.org/2006/papers/74.pdf)`"`
-`}`
-
-</bibtex>
+* [Massive Threading: Using GPUs to Increase the Performance of Digital Forensics Tools](https://www.nvidia.com/docs/IO/47905/dfrws2007-gpu.pdf),
+  by Lodovico Marziale, Golden G. Richard III and Vassil Roussev, 2007
+* [Offloading IDS Computation to the GPU](https://www.acsac.org/2006/papers/74.pdf),
+  by Nigel Jacob and Carla Brodley, 2006
