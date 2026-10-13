@@ -9,7 +9,8 @@ tags:
 Step 1. Load disk image in arsenal image mounter (AIM)
 
 <figure>
-<img src="../assets/images/Arsenal_image_mounter.jpg" title="Arsenal_image_mounter.jpg" width="1000" alt="Arsenal_image_mounter.jpg" />
+<img src="../assets/images/Arsenal_image_mounter.jpg" title="Arsenal_image_mounter.jpg" width="1000"
+alt="Arsenal_image_mounter.jpg" />
 <figcaption aria-hidden="true">Arsenal_image_mounter.jpg</figcaption>
 </figure>
 

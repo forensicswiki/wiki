@@ -132,7 +132,8 @@ distributed by Volatile Systems.
 
 ### Kernel debugging
 
-* [Advanced Windows Debugging: Memory Corruption Part II—Heaps](https://www.informit.com/articles/article.aspx?p=1081496), by
+* [Advanced Windows Debugging: Memory Corruption Part
+  II—Heaps](https://www.informit.com/articles/article.aspx?p=1081496), by
   Daniel Pravat and Mario Hewardt, November 9, 2007
 * [Finding Kernel Global Variables in Windows](https://moyix.blogspot.com/2008/04/finding-kernel-global-variables-in.html),
   by Brendan Dolan-Gavitt, April 16, 2008

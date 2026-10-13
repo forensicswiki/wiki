@@ -40,4 +40,6 @@ individual investigations.
 * [SOLVE-IT GitHub repositories](https://github.com/SOLVE-IT-DF?tab=repositories)
 * [SOLVE-IT: A proposed digital forensic knowledge base inspired by MITRE ATT&CK](https://dfrws.org/presentation/solve-it-a-proposed-digital-forensic-knowledge-base-inspired-by-mitre-attck/)
   from the Proceedings of the [DFRWS EU 2025 Conference](digital_forensic_research_workshop.md)
-* ASTM E3016-18: Standard Guide for Establishing Confidence in Digital and Multimedia Evidence Forensic Results by Error Mitigation Analysis [based on SWGDE document](https://drive.google.com/file/d/1jBAjohuntNCLUzgV_x7aINf_JycfVddu/view)
+* ASTM E3016-18: Standard Guide for Establishing Confidence in Digital and Multimedia Evidence
+  Forensic Results by Error Mitigation Analysis [based on SWGDE
+  document](https://drive.google.com/file/d/1jBAjohuntNCLUzgV_x7aINf_JycfVddu/view)

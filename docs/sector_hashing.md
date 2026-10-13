@@ -10,7 +10,8 @@ tags:
   [Distinct sector hashes for target file detection](https://simson.net/clips/academic/2012.IEEE.SectorHashing.pdf),
   IEEE Computer, December 2012
 * Foster, Kristina,
-  ["Using Distinct Sectors in Media Sampling and Full Media Analysis to Detect Presence of Documents from a Corpus,"](http://simson.net/ref/2012/kmf_thesis.pdf)
+  ["Using Distinct Sectors in Media Sampling and Full Media Analysis to Detect Presence of Documents
+  from a Corpus,"](http://simson.net/ref/2012/kmf_thesis.pdf)
   Master's Thesis, Naval Postgraduate School, September 2012.
 * Garfinkel, Simson, Vassil Roussev, Alex Nelson and Douglas White,
   [Using purpose-built functions and block hashes to enable small block and sub-file forensics](https://simson.net/clips/academic/2010.DFRWS.SmallBlockForensics.pdf),

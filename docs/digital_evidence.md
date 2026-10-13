@@ -11,8 +11,8 @@ systems and technology underpin our modern society. Perhaps
 unsurprisingly, criminals have moved with the times, finding means by
 which to leverage technology in the commission or support of offences.
 
-The material in this article is heavily based on [RFC
-3227](https://www.ietf.org/rfc/rfc3227.txt)
+The material in this article is heavily based on
+[RFC 3227](https://www.ietf.org/rfc/rfc3227.txt)
 
 ## Handling
 
@@ -111,9 +111,14 @@ Computer evidence needs to be:
 
 * [IETF RFC 3227, Guidelines for evidence collection and archiving](https://www.ietf.org/rfc/rfc3227.txt),
   by The Internet Society, 2002
-* [ISO/IEC 27037:2012 - Information technology -- Security techniques -- Guidelines for identification, collection, acquisition and preservation of digital evidence](https://www.iso.org/standard/44381.html),
+* [ISO/IEC 27037:2012 - Information technology -- Security techniques -- Guidelines for
+  identification, collection, acquisition and preservation of digital
+  evidence](https://www.iso.org/standard/44381.html),
   by International Organization for Standardization (ISO)
-* [ISO/IEC DIS 27041 - Information technology -- Security techniques -- Guidance on assuring suitability and adequacy of incident investigative methods](https://www.iso.org/standard/44405.html),
+* [ISO/IEC DIS 27041 - Information technology -- Security techniques -- Guidance on assuring
+  suitability and adequacy of incident investigative
+  methods](https://www.iso.org/standard/44405.html),
   by International Organization for Standardization (ISO)
-* [ISO/IEC DIS 27042 - Information technology -- Security techniques -- Guidelines for the analysis and interpretation of digital evidence](https://www.iso.org/standard/44406.html),
+* [ISO/IEC DIS 27042 - Information technology -- Security techniques -- Guidelines for the analysis
+  and interpretation of digital evidence](https://www.iso.org/standard/44406.html),
   by International Organization for Standardization (ISO)

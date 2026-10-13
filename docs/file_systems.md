@@ -123,7 +123,9 @@ remembered -- you *can* create a FAT DVD-RAM), you will find the systems
 listed below.
 
 (Classic) HFS and [HFS+](hfs+.md)
-These file systems are defined by Apple and only limited support is available for them outside of the Macintosh world. These are the identical implementations for hard disk file systems on MacOS operating systems.
+These file systems are defined by Apple and only limited support is available for them outside of
+the Macintosh world. These are the identical implementations for hard disk file systems on MacOS
+operating systems.
 
 ISO 9660
 This is the most basic file system and the foundation for a number of

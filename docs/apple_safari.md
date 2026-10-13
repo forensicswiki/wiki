@@ -90,4 +90,5 @@ This file uses the [SQLite database format](sqlite_database_format.md).
 
 ## Tools
 
-* [J.A.F.A.T. Archive of Forensics Analysis Tools](https://jafat.sourceforge.net/) home of Safari Forensic Tools (SFT)
+* [J.A.F.A.T. Archive of Forensics Analysis Tools](https://jafat.sourceforge.net/) home of Safari
+  Forensic Tools (SFT)

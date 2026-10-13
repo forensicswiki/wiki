@@ -6,9 +6,12 @@ tags:
 
 # Books About Forensics
 
-We do our best to capture an updated list of books pertinent to digital forensics and topics in digital forensics, including books published in other languages. If you know of a great book missing from this list, please feel free to add.
+We do our best to capture an updated list of books pertinent to digital forensics and topics in
+digital forensics, including books published in other languages. If you know of a great book missing
+from this list, please feel free to add.
 
-All books are listed alphabetically, by title, and linked to Amazon product pages for posterity, as some publisher links are broken or websites have changed.
+All books are listed alphabetically, by title, and linked to Amazon product pages for posterity, as
+some publisher links are broken or websites have changed.
 
 ## General Forensics
 

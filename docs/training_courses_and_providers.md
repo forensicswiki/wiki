@@ -31,7 +31,7 @@ be noted when known.*
 | --- | --- | --- |
 | SANS On-Demand Training | Distance Learning Format | <http://www.sans.org/ondemand/> |
 | Cybrary - Free and Open Source Learning for Cyber Security, IT and more | Online / Distance Learning Format | <https://www.cybrary.it/catalog/> |
-| University College Dublin - Forensic Computing and Cybercrime Investigation programme (law enforcement only) | Online / Distance Learning Format with annual exams in USA, Ireland or Netherlands |
+| University College Dublin - Forensic Computing and Cybercrime Investigation programme (law enforcement only) | Online / Distance Learning Format with annual exams in USA, Ireland or Netherlands | |
 
 ## Non-Commercial Training
 

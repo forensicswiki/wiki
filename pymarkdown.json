@@ -1,41 +1,52 @@
 {
+    "extensions": {
+        "front-matter": {
+            "enabled": true
+        },
+        "markdown-tables": {
+            "enabled": true
+        }
+    },
     "mode": {
         "strict-config": true
     },
     "plugins": {
-        "MD041": {
-            "enabled": false
-        },
-        "code-block-style": {
-            "style": "fenced"
-        },
-        "fenced-code-language": {
-            "enabled": true
-        },
-        "hr-style": {
-            "style": "---"
-        },
-        "line-length": {
-            "enabled": false
-        },
-        "no-duplicate-heading": {
-            "enabled": true,
-            "siblings_only": true
-        },
-        "no-inline-html": {
-            "enabled": false
-        },
-        "ol-prefix": {
-            "style": "ordered"
-        },
-        "ul-style": {
+        "md004": {
             "enabled": true,
             "style": "asterisk"
-        }
-    },
-    "extensions": {
-        "front-matter": {
+        },
+        "md013": {
+            "code_blocks": false,
+            "enabled": true,
+            "heading_line_length": 100,
+            "line_length": 100,
+            "tables": false,
+	    "treat_links_as_single_words": true
+        },
+        "md024": {
+            "enabled": true,
+            "allow_different_nesting": true
+        },
+        "md029": {
+            "style": "ordered"
+        },
+        "md033": {
+            "enabled": false
+        },
+        "md035": {
+            "style": "---"
+        },
+        "md040": {
             "enabled": true
+        },
+        "md041": {
+            "enabled": false
+        },
+        "md046": {
+            "style": "fenced"
+        },
+        "md060": {
+            "enabled": false
         }
     }
 }

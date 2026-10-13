@@ -4,7 +4,8 @@ tags:
 ---
 ## Disk Disposal and Data Recovery
 
-* [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection and Exclusions](https://belkasoft.com/ssd-2014),
+* [SSD Forensics 2014. Recovering Evidence from SSD Drives: Understanding TRIM, Garbage Collection
+  and Exclusions](https://belkasoft.com/ssd-2014),
   by Yuri Gubanov and Oleg Afonin, 2014
 * [Why SSD Drives Destroy Court Evidence, and What Can Be Done About It](https://belkasoft.com/why-ssd-destroy-court-evidence),
   by Oleg Afonin and Yuri Gubanov, 2012
@@ -18,7 +19,8 @@ tags:
   Peter Gutmann, Proceedings of the Sixth Usenix Security
   Symposium, 1996.
 
-[Remembrance of Data Passed](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf), by Simson Garfinkel and Abhi Shelat, January 2003
+[Remembrance of Data Passed](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf), by
+Simson Garfinkel and Abhi Shelat, January 2003
 
 ## Evidence Gathering
 
@@ -39,7 +41,8 @@ tags:
 
 Computer Location Determination Through Geoparsing and Geocoding of Extracted Features
 <http://www.chadsteel.com/pubs/Geolocation.pdf>
-[Forensic feature extraction and cross-drive analysis](https://simson.net/ref/2006/drives-crcs.pdf), by Simson Garfinkel, August 2006
+[Forensic feature extraction and cross-drive analysis](https://simson.net/ref/2006/drives-crcs.pdf),
+by Simson Garfinkel, August 2006
 
 ## Text Mining
 
@@ -48,9 +51,13 @@ by Christian Johansson, Masters Thesis, Blekinge Tekniska Hogskola, June 2003
 
 ## Signed Evidence
 
-[Information Assurance Applied to Authentication of Digital Evidence](https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01), by Thomas E. Duerr, Nicholas D. Beser and Gregory P. Staisiunas, 2004
+[Information Assurance Applied to Authentication of Digital
+Evidence](https://su.diva-portal.org/smash/get/diva2:457220/FULLTEXT01), by Thomas E. Duerr,
+Nicholas D. Beser and Gregory P. Staisiunas, 2004
 
-[Digital Evidence: Dream and Reality](https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg), by Rolf Oppliger and Ruedi Rytz, 2003
+[Digital Evidence: Dream and
+Reality](https://www.computer.org/csdl/magazine/sp/2003/05/j5044/13rRUwhpBCg), by Rolf Oppliger and
+Ruedi Rytz, 2003
 
 ## Theory
 

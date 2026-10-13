@@ -83,26 +83,39 @@ under that tag.
   <tr>
     <td><a href="tags/#operating-systems">Operating Systems</a></td>
     <td width="1000">
-    <ui><li><a href="windows">Windows</a>: <a href="windows_vista">windows_vista</a>, <a href="windows_7">windows 7</a>, <a href="windows_8">windows 8</a>, <a href="windows_10">windows 10</a></ui></li>
-    <ui><li><a href="unix">Unix</a>: <a href="freebsd">freebsd</a>, <a href="netbsd">netbsd</a>, <a href="openbsd">openbsd</a>, <a href="solaris">solaris</a>, <a href="aix">aix</a></ui></li>
-    <ui><li><a href="https://en.wikipedia.org/wiki/Mobile_operating_system">Mobile OS</a>: <a href="android">android</a>, <a href="ios">ios</a>, <a href="microsoft_windows_mobile">windows mobile</ui></li>
+    <ui><li><a href="windows">Windows</a>: <a href="windows_vista">windows_vista</a>, <a
+    href="windows_7">windows 7</a>, <a href="windows_8">windows 8</a>, <a href="windows_10">windows
+    10</a></ui></li>
+    <ui><li><a href="unix">Unix</a>: <a href="freebsd">freebsd</a>, <a href="netbsd">netbsd</a>, <a
+    href="openbsd">openbsd</a>, <a href="solaris">solaris</a>, <a href="aix">aix</a></ui></li>
+    <ui><li><a href="https://en.wikipedia.org/wiki/Mobile_operating_system">Mobile OS</a>: <a
+    href="android">android</a>, <a href="ios">ios</a>, <a href="microsoft_windows_mobile">windows
+    mobile</ui></li>
     </td>
   </tr>
   <tr>
     <td><a href="tags/#tools">Tools</a></td>
     <td width="1000">
-    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a href="bless">bless</a>, <a href="ghidra">ghidra</a>, <a href="pst_file_viewer">PST File Viewer</a>, <a href="hachoir">hachoir</a></ui></li>
-    <ui><li><a href="tags/#timeline-analysis">Timeline Analysis</a>: <a href="timesketch">timesketch</a>, <a href="plaso">Plaso</a></ui></li>
-    <ui><li><a href="tags/#disk-analysis">Disk Analysis</a>: <a href="the_sleuth_kit">sleuthkit</a>, <a href="bulk_extractor">bulk_extractor</a>, <a href="fiwalk">fiwalk</a></ui></li>
-    <ui><li><a href="tags/#network-analysis">Network Analysis</a>: <a href="snort">snort</a>, <a href="tcpdump">tcpdump</a>, <a href="nmap">nmap</a></ui></li>
+    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a href="bless">bless</a>, <a
+    href="ghidra">ghidra</a>, <a href="pst_file_viewer">PST File Viewer</a>, <a
+    href="hachoir">hachoir</a></ui></li>
+    <ui><li><a href="tags/#timeline-analysis">Timeline Analysis</a>: <a
+    href="timesketch">timesketch</a>, <a href="plaso">Plaso</a></ui></li>
+    <ui><li><a href="tags/#disk-analysis">Disk Analysis</a>: <a href="the_sleuth_kit">sleuthkit</a>,
+    <a href="bulk_extractor">bulk_extractor</a>, <a href="fiwalk">fiwalk</a></ui></li>
+    <ui><li><a href="tags/#network-analysis">Network Analysis</a>: <a href="snort">snort</a>, <a
+    href="tcpdump">tcpdump</a>, <a href="nmap">nmap</a></ui></li>
     </td>
   </tr>
   <tr>
     <td><a href="tags/#file-formats">File Formats</a></td>
     <td width="1000">
     <ui><li><a href="tags/#archive">Archive</a>: <a href="zip">zip</a>, <a href="tar">tar</a>, <a href="gfzip">gfzip</a></ui></li>
-    <ui><li><a href="tags/#database">Database</a>: <a href="sqlite">sqlite</a>, <a href="olm">olm</a>, <a href="thumbs.db">Thumbs.db</a></ui></li>
-    <ui><li><a href="tags/#disk-image">Disk Image</a>: <a href="aff">aff</a>, <a href="raw_image_format">raw image</a>, <a href="qcom_image_format">qcow image format</a></ui></li>
+    <ui><li><a href="tags/#database">Database</a>: <a href="sqlite">sqlite</a>, <a
+    href="olm">olm</a>, <a href="thumbs.db">Thumbs.db</a></ui></li>
+    <ui><li><a href="tags/#disk-image">Disk Image</a>: <a href="aff">aff</a>, <a
+    href="raw_image_format">raw image</a>, <a href="qcom_image_format">qcow image
+    format</a></ui></li>
     </td>
   </tr>
 </table>

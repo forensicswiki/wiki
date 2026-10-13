@@ -23,24 +23,32 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 
 ## Malware Detection
 
-* IDT (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* IDT (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Prints the Interrupt Descriptor Table (IDT) addresses for one
   processor
-* DriverIRP (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* DriverIRP (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Prints driver IRP function addresses
-* kernel_hooks (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* kernel_hooks (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Detects IAT, EAT, and in-line hooks in kernel drivers instead of
   usermode modules
-* malfind2 (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* malfind2 (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Automates the process of finding and extracting (usually malicious)
   code injected into another process
-* orphan_threads (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* orphan_threads (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Detects hidden system/kernel threads
-* usermode_hooks2 (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* usermode_hooks2 (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Detect IAT/EAT/Inline rootkit hooks in usermode processes
-* kernel_hooks (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
+* kernel_hooks (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/07/new-and-updated-volatility-plug-ins.html)) -
   Detect IAT/EAT/Inline hooks in kernel drivers
-* Volatility Analyst Pack 0.1 (By [Michael Hale Ligh](http://mnin.blogspot.com/2009/12/new-and-updated-volatility-plug-ins.html)) -
+* Volatility Analyst Pack 0.1 (By [Michael Hale
+  Ligh](http://mnin.blogspot.com/2009/12/new-and-updated-volatility-plug-ins.html)) -
   A pack which contains updates to many of the listed modules
 
 ## Data Recovery
@@ -115,7 +123,8 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   Converts volatility output to HTML. Not technically a plugin, but
   useful nonetheless.
 * SQLite,
-  by [Jamie Levy AKA Gleeda](http://gleeda.blogspot.com/2010/01/volatilitys-output-rendering-functions.html) -
+  by [Jamie Levy AKA
+  Gleeda](http://gleeda.blogspot.com/2010/01/volatilitys-output-rendering-functions.html) -
   Allows one to place Volatility output into a SQLite3 Database
 
 ## Other Helper Tools

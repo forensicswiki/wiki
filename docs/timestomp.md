@@ -4,13 +4,12 @@ tags:
   - Articles that need to be expanded
   - File Analysis
 ---
+Timestomp is a utility co-authored by developers James C. Foster and [Vincent Liu](vincent_liu.md).
+The software's goal is to allow for the deletion or modification of
+[timestamp-related information](mac_times.md) on files.
 
 <img src="../assets/images/Timestomp_mace.jpg" title="Timestomp_mace.jpg"
- width="400" alt="Timestomp_mace.jpg" /> **Timestomp** is a utility
-co-authored by developers James C. Foster
-and [Vincent Liu](vincent_liu.md). The software's goal is to
-allow for the deletion or modification of [timestamp-related
-information](mac_times.md) on files.
+ width="400" alt="Timestomp_mace.jpg" />
 
 Take for example the "Timestomp MACE Values" screenshot displaying a
 command prompt window displaying the MACE values for a document file
@@ -21,7 +20,9 @@ data was last modified, accessed, created, or entered into the
 manually by the user.
 
 <img src="../assets/images/Timestomp_mace_change.jpg" title="Timestomp_mace_change.jpg"
- width="400" alt="Timestomp_mace_change.jpg" /> Using the Timestomp
+ width="400" alt="Timestomp_mace_change.jpg" />
+
+Using the Timestomp
 application, the modified date and timestamp can be completely
 changed (i.e., evidenced by the "Timestomp MACE Change" screenshot). If
 I were to change it, along with the other entries to more believable
@@ -31,6 +32,7 @@ looking for modified files in an entirely different year or date span.
 
 <img src="../assets/images/Timestomp_mace_change_proof.jpg" title="Timestomp_mace_change.jpg"
  width="400" alt="Timestomp_mace_change_proof.jpg" />
+
 The "Timestomp MACE Change Proof" screenshot is a final shot of the
 Operating System's interpretation of the Modified timestamp. It reflects
 the aforementioned change exactly.

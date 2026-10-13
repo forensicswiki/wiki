@@ -2,6 +2,7 @@
 tags:
   - Papers
   - Research
+  - Timeline Analysis
 ---
 ## Timeline formats
 
@@ -27,9 +28,12 @@ See [Timeline Analysis Tools](tools_timeline_analysis.md).
 
 ### Papers
 
-* [Generating computer forensic supertimelines under Linux - A comprehensive guide for Windows-based disk images](https://www.forensicfocus.com/stable/wp-content/uploads/2012/08/generating-computer-forensic-supertimelines-under-linux-a-comprehensive-guide-for-windows-based-disk-images1.pdf),
+* [Generating computer forensic supertimelines under Linux - A comprehensive guide for Windows-based
+  disk
+  images](https://www.forensicfocus.com/stable/wp-content/uploads/2012/08/generating-computer-forensic-supertimelines-under-linux-a-comprehensive-guide-for-windows-based-disk-images1.pdf),
   by R. Carbone, C. Bean, August 2012
-* [Generating computer forensic supertimelines under Linux: A comprehensive guide for Windows-based disk images](https://apps.dtic.mil/dtic/tr/fulltext/u2/1003976.pdf),
+* [Generating computer forensic supertimelines under Linux: A comprehensive guide for Windows-based
+  disk images](https://apps.dtic.mil/dtic/tr/fulltext/u2/1003976.pdf),
   October 2011
 * [Computer forensic timeline visualization tool](https://dfrws.org/presentation/computer-forensic-timeline-visualization-tool/),
   by J. Olsson, M. Boldt, ScienceDirect Digital Investigation, Volume 6,

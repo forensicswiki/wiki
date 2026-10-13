@@ -57,7 +57,8 @@ in the following locations:
 
 * [Understanding WMI Malware](https://www.trendmicro.com/de_de/business.html),
   by Julius Dizon, Lennard Galang, and Marvin Cruz, July 2010
-* [Abusing Windows Management Instrumentation (WMI) to Build a Persistent, Asyncronous, and Fileless Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf),
+* [Abusing Windows Management Instrumentation (WMI) to Build a Persistent, Asyncronous, and Fileless
+  Backdoor](https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf),
   by Matt Graeber, 2015
 * [Subverting Sysmon Application of a Formalized: Security Product Evasion Methodology](https://i.blackhat.com/us-18/Wed-August-8/us-18-Graeber-Subverting-Sysmon-Application-Of-A-Formalized-Security-Product-Evasion-Methodology-wp.pdf),
   by Matt Graeber, Lee Christensen, 2018

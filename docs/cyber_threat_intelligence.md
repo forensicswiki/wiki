@@ -78,7 +78,8 @@ Cons:
 * [Cyber Observable eXpression](https://cyboxproject.github.io)
 * [Structured Threat Information eXpression](https://stixproject.github.io)
 * [Malware Attribute Enumeration and Characterization (MAEC)](https://maecproject.github.io)
-* [Standardizing Cyber Threat Intelligence Information with the Structured Threat Information eXpression (STIX™)](https://stixproject.github.io/getting-started/whitepaper/),
+* [Standardizing Cyber Threat Intelligence Information with the Structured Threat Information
+  eXpression (STIX™)](https://stixproject.github.io/getting-started/whitepaper/),
   by Sean Barnum, 2014
 
 ## Tools

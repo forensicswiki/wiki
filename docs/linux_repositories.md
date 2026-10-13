@@ -20,8 +20,7 @@ following repositories configured:
 * devel:languages:perl
 * devel:languages:python
 
-This is most easily done from the command line via (assumes openSUSE
-12.1):
+This is most easily done from the command line via (assumes openSUSE 12.1):
 
 ```bash
 sudo zypper ar -f http://download.opensuse.org/repositories/security/openSUSE_12.1 security
@@ -31,15 +30,15 @@ sudo zypper ar -f http://download.opensuse.org/repositories/devel:/languages:/py
 zypper lr               # used to verify you have the repos installed
 ```
 
-### fedora
+### Fedora
 
-[CERT](https://forensics.cert.org/) maintains a fedora security
+[CERT](https://forensics.cert.org/) maintains a Fedora security
 repository with a large number of DFIR applications.
 
-### debian
+### Debian
 
-You can search for debian packages at [debian's search
-page](https://packages.debian.org/search?keywords=search)
+You can search for Debian packages at
+[Debian's search page](https://packages.debian.org/search?keywords=search)
 
 ### ubuntu
 
@@ -58,32 +57,30 @@ version 3.2.5
 
 ### Imaging Tools
 
-|                                            |                       |            |                           |            |                                                        |                                                                                                      |
-|--------------------------------------------|-----------------------|------------|---------------------------|------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **Tool**                                   | **openSUSE**          | **fedora** | **debian**                | **ubuntu** | **comment**                                            | **General Remarks**                                                                                  |
-| adepto | N/A                   | ?          | N/A                       | ?          |                                                        | adepto is included in the [Helix boot CD](helix3.md) |
-| [aimage](aimage.md) are recommended for creating aff images. |
-| [AIR](air.md)                      | N/A                   | ?          | N/A                       | ?          | Automated Image and Restore                            | a GUI front-end to dd and dc3dd designed for easily creating forensic bit images                     |
-| [dc3dd](dc3dd.md)                  | security\*/7.1.614    | ?          | sid/7.1.614               | ?          | DoD Cyber Crime Center DD                              | This tool was formerly known as dcfldd. When released as dc3dd it was totally rewritten.             |
-| [ddrescue](ddrescue.md)            | Base/1.14             | ?          | squeeze/1.14 sid/1.23     | ?          | Also known as GNU ddrescue                             | This tool is different than dd_rescue.                                                               |
-| [dd_rescue](dd_rescue.md)          | N/A                   | ?          | N/A                       | ?          |                                                        | This tool is different than GNU ddrescue.                                                            |
-| [ewfacquire](libewf.md)            | security\*/20100226   | ?          | squeeze/20100226          | ?          | a imaging tool to create ewf format images             | ewfacquire is part of ewftools in some distributions.                                                |
-| [IXimager](iximager.md)            | N/A                   | ?          | N/A                       | ?          | A law enforcement only imager                          | used in conjunction with ILook Investigator                                                          |
-| [LinEn](linen.md)                  | N/A                   | ?          | N/A                       | ?          | a proprietary imaging tool to create ewf format images | included on the Helix boot CD                                                                        |
-| [guymager](guymager.md)            | N/A                   | ?          | Squeeze/0.4.2 Sid/0.5.9-3 | ?          | a imaging tool to create aff format images             | Guymager is an open source forensic imager. It focuses on user friendliness and high speed.          |
-| [rdd](https://sourceforge.net/projects/rdd) | N/A                   | ?          | 2.0.7-2                   | ?          | a dd-like tool, with forensic imaging features         | Rdd is robust with respect to read errors                                                            |
-| [sdd](ftp://ftp.berlios.de/pub/sdd/)       | Archiving:Backup/1.52 | ?          | lenny/1.52 deprecated     | ?          | a dd-like tool                                         | Designed to work well when IBS != OBS. Working with tape is an example.                              |
+| Tool | openSUSE | Fedora | Debian | ubuntu | comment | General Remarks |
+| --- | --- | --- | --- | --- | --- | --- |
+| adepto | N/A | ? | N/A | ? | | adepto is included in the [Helix boot CD](helix3.md) |
+| [aimage](aimage.md) | | | | | creates aff images | |
+| [AIR](air.md) | N/A | ? | N/A | ? | Automated Image and Restore | a GUI to dd and dc3dd designed for easily creating forensic bit images |
+| [dc3dd](dc3dd.md) | security\*/7.1.614 | ? | sid/7.1.614 | ? | DoD Cyber Crime Center DD | This tool was formerly known as dcfldd. When released as dc3dd it was totally rewritten. |
+| [ddrescue](ddrescue.md) | Base/1.14 | ? | squeeze/1.14 sid/1.23 | ? | Also known as GNU ddrescue | This tool is different than dd_rescue. |
+| [dd_rescue](dd_rescue.md) | N/A | ? | N/A | ? | | This tool is different than GNU ddrescue. |
+| [ewfacquire](libewf.md) | security\*/20100226 | ? | squeeze/20100226 | ? | a imaging tool to create ewf format images | ewfacquire is part of ewftools in some distributions. |
+| [IXimager](iximager.md) | N/A | ? | N/A | ? | A law enforcement only imager | used in conjunction with ILook Investigator |
+| [LinEn](linen.md) | N/A | ? | N/A | ? | a proprietary imaging tool to create ewf format images | included on the Helix boot CD |
+| [guymager](guymager.md) | N/A | ? | Squeeze/0.4.2 Sid/0.5.9-3 | ? | a imaging tool to create aff format images | Guymager is an open source forensic imager. It focuses on user friendliness and high speed. |
+| [rdd](https://sourceforge.net/projects/rdd) | N/A | ? | 2.0.7-2 | ? | a dd-like tool, with forensic imaging features | Rdd is robust with respect to read errors |
+| [sdd](ftp://ftp.berlios.de/pub/sdd/) | Archiving:Backup/1.52 | ? | lenny/1.52 deprecated | ? | a dd-like tool | Designed to work well when IBS != OBS. Working with tape is an example. |
 
 * package will appear in the base release with the next full
   distribution release.
 
 ### File Inventory Tools
 
-|                                 |                    |            |                         |            |             |                                                          |
-|---------------------------------|--------------------|------------|-------------------------|------------|-------------|----------------------------------------------------------|
-| **Tool**                        | **openSUSE**       | **fedora** | **debian**              | **ubuntu** | **comment** | **General Remarks**                                      |
-| [exiftool](exiftool.md) | base/v8.65         | ?          | squeeze/v8.15 sid/v8.60 | ?          |             | exiftool has superior metadata reporting capability --\> |
-| [fiwalk](fiwalk.md)     | security\*/v0.6.15 | ?          | N/A                     | ?          |             | fiwalk is a robust \$MFT walker                          |
+| Tool | openSUSE | Fedora | Debian | ubuntu | comment | General Remarks |
+| --- | --- | --- | --- | --- | --- | --- |
+| [exiftool](exiftool.md) | base/v8.65 | ? | squeeze/v8.15 sid/v8.60 | ? | | exiftool has superior metadata reporting capability |
+| [fiwalk](fiwalk.md) | security\*/v0.6.15 | ? | N/A | ? | | fiwalk is a robust $MFT walker |
 
 * package will appear in the base release with the next full
   distribution release.

@@ -17,7 +17,8 @@ Bassetti.
 
 ## Features
 
-The latest version of Caine is based on the [Ubuntu](ubuntu.md) 12.04 LTS, MATE and LightDM. Compared to
+The latest version of Caine is based on the [Ubuntu](ubuntu.md) 12.04 LTS, MATE and LightDM.
+Compared to
 its original version, the current version has been modified to meet the
 standards forensic reliability and safety standards laid down by the
 [NIST](nist.md) View [the methodologies of NIST](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-general-0)

@@ -4,8 +4,11 @@ tags:
 ---
 ## User's Configuration
 
-* "/etc/passwd", which contains basic users data. UID 0 are reserved for root, 1-99 reserved for predefined accounts ,and 100-999 reserved for system accounts/groups. Format 'username:x:UID:GID:Userinfo:homedir:shell'
-* "/etc/shadow", which contains the password hashes of the users. Can be cracked using 'John The Ripper' or 'HashCat
+* "/etc/passwd", which contains basic users data. UID 0 are reserved for root, 1-99 reserved for
+  predefined accounts ,and 100-999 reserved for system accounts/groups. Format
+  'username:x:UID:GID:Userinfo:homedir:shell'
+* "/etc/shadow", which contains the password hashes of the users. Can be cracked using 'John The
+  Ripper' or 'HashCat
 * "/etc/sudoers", which controls who can run what commands as what users on what machines
 * "/etc/group", which contains groups memberships
 

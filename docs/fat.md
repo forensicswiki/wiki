@@ -660,7 +660,9 @@ def FromFatDateTime(fat_date_time):
 
 * [ECMA-107: Volume and File Structure of Disk Cartridges for Information Interchange](https://www.ecma-international.org/wp-content/uploads/ECMA-107_2nd_edition_june_1995.pdf),
   2nd Edition - June 1995
-* [Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview of On-Disk Format](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
+* [Microsoft Extensible Firmware Initiative FAT32 File System Specification - FAT: General Overview
+  of On-Disk
+  Format](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc),
   by Microsoft, December 6, 2000
 * [An overview of FAT12](https://www.eit.lth.se/fileadmin/eit/courses/eitn50/Literature/fat12_description.pdf),
   by Archana Chidanandan, 2004

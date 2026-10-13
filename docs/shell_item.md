@@ -113,7 +113,8 @@ shell item long name                : calc.exe
   by Jamie Levy, September 2012
 * [Shellbag Analysis, Revisited...Some Testing](https://windowsir.blogspot.com/2012/10/shellbag-analysis-revisitedsome-testing.html),
   by [Harlan Carvey](harlan_carvey.md), October 2012
-* [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
+* [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new
+  findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)
 * [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://www.nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
   by Nicole Ibrahim, December 31, 2013

@@ -33,7 +33,9 @@ file system.
 * [Wikipedia: ext2](https://en.wikipedia.org/wiki/Ext2)
 * [Layout of the ext2 Filesystem](https://www.nongnu.org/ext2-doc/ext2.html)
 * [Linux Ext2fs Undeletion mini-HOWTO](https://tldp.org/HOWTO/Ext2fs-Undeletion-1.html)
-* [Ext2 Filesystem for Linux and Solaris](http://blog.boreas.ro/2007/11/ext2-filesystem-for-linux-and-solaris.html), by Cmihai, November 3, 2007
+* [Ext2 Filesystem for Linux and
+  Solaris](http://blog.boreas.ro/2007/11/ext2-filesystem-for-linux-and-solaris.html), by Cmihai,
+  November 3, 2007
 
 ### Ext3
 

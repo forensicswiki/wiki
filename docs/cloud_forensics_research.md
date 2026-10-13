@@ -16,7 +16,9 @@ In reverse chronological order, most recent to oldest.
   by Josiah Dykstra, Damien Riehl, 2012
 * [Calm Before the Storm: The Challenges of Cloud Computing in Digital Forensics](https://www.dcs.gla.ac.uk/~grisposg/Papers/calm.pdf),
   by George Grispos, Tim Storer, William Bradley Glisson, 2012
-* [Acquiring forensic evidence from infrastructure-as-a-service cloud computing: Exploring and evaluating tools, trust, and techniques](https://www.sciencedirect.com/science/article/pii/S1742287612000266),
+* [Acquiring forensic evidence from infrastructure-as-a-service cloud computing: Exploring and
+  evaluating tools, trust, and
+  techniques](https://www.sciencedirect.com/science/article/pii/S1742287612000266),
   by Josiah Dykstra, Alan T. Sherman, 2012
 * [Forensic investigation of cloud computing systems](https://www.whieb.com/download.jsp?address=/upload%2Fdoc%2F20110415%2Fforensic+investigation+of+cloud+computing+systems.pdf),
   by Mark Taylor, John Haggerty, David Gresty, David Lamb, 2011
