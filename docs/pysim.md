@@ -4,9 +4,7 @@ tags:
   - Mobile Forensics
 ---
 
-<img src="../assets/images/PySIM.JPG"
-title="pysim.jpg" width="550"
-alt="pysim.jpg" />
+![pysim.jpg](assets/images/PySIM.JPG){width="550"}
 
 pySIM (also called SimReader) is a relatively simple open source program
 that accomplishes the following tasks:

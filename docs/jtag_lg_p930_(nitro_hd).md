@@ -46,13 +46,9 @@ summarised as follows:
 2. Remove the 9 x Phillips screws.
 3. Split the phone case using a case opening tool (guitar pick).
 
- <img src="../assets/images/Lg-p930-nitro-hd-front.png" title="lg-p930-nitro-hd-front.png"
- width="400" alt="lg-p930-nitro-hd-front.png" />
- <figcaption aria-hidden="true">lg-p930-nitro-hd-front.png</figcaption>
+![lg-p930-nitro-hd-front.png](assets/images/Lg-p930-nitro-hd-front.png){width="400"}
 
-<img src="../assets/images/Lg-p930-nitro-hd-back.png" title="lg-p930-nitro-hd-back.png"
-width="400" alt="lg-p930-nitro-hd-back.png" />
-<figcaption aria-hidden="true">lg-p930-nitro-hd-back.png</figcaption>
+![lg-p930-nitro-hd-back.png](assets/images/Lg-p930-nitro-hd-back.png){width="400"}
 
 Once the phone has been disassembled, you can see the JTAG connection
 port near the microUSB header. The connector used on the PCB is a
@@ -65,23 +61,11 @@ faster to solder lead wires off this header. Note: A decent microscope
 is mandatory for this step as soldering these connections without one is
 extremely difficult.
 
- <img src="../assets/images/Lg-p930-nitro-hd-disassembled-1.png"
- title="lg-p930-nitro-hd-disassembled-1.png" width="350"
- alt="lg-p930-nitro-hd-disassembled-1.png" />
- <figcaption
- aria-hidden="true">lg-p930-nitro-hd-disassembled-1.png</figcaption>
+![lg-p930-nitro-hd-disassembled-1.png](assets/images/Lg-p930-nitro-hd-disassembled-1.png){width="350"}
 
-<img src="../assets/images/Lg-p930-nitro-hd-disassembled-2.png"
-title="lg-p930-nitro-hd-disassembled-2.png" width="350"
-alt="lg-p930-nitro-hd-disassembled-2.png" />
-<figcaption
-aria-hidden="true">lg-p930-nitro-hd-disassembled-2.png</figcaption>
+![lg-p930-nitro-hd-disassembled-2.png](assets/images/Lg-p930-nitro-hd-disassembled-2.png){width="350"}
 
-<img src="../assets/images/Lg-p930-nitro-hd-disassembled-3.png"
-title="lg-p930-nitro-hd-disassembled-3.png" width="350"
-alt="lg-p930-nitro-hd-disassembled-3.png" />
-<figcaption
-aria-hidden="true">lg-p930-nitro-hd-disassembled-3.png</figcaption>
+![lg-p930-nitro-hd-disassembled-3.png](assets/images/Lg-p930-nitro-hd-disassembled-3.png){width="350"}
 
 With the phone now disassembled you can solder on your 0.040 gauge lead
 wires to the JTAG test points. Also, connect the PCB battery terminal
@@ -90,31 +74,16 @@ innermost pin and the positive (+) pin is the outside pin. You can
 configure your power supply to match the battery specifications which in
 this case is 3.8V and 1.830A but do not apply power at this time.
 
- <img src="../assets/images/Lg-p930-nitro-hd-connected-via-jtag-1.png"
- title="lg-p930-nitro-hd-connected-via-jtag-1.png" width="350"
- alt="lg-p930-nitro-hd-connected-via-jtag-1.png" />
- <figcaption
- aria-hidden="true">lg-p930-nitro-hd-connected-via-jtag-1.png</figcaption>
+![lg-p930-nitro-hd-connected-via-jtag-1.png](assets/images/Lg-p930-nitro-hd-connected-via-jtag-1.png){width="350"}
 
-<img src="../assets/images/Lg-p930-nitro-hd-connected-via-jtag-2.png"
-title="lg-p930-nitro-hd-connected-via-jtag-2.png" width="350"
-alt="lg-p930-nitro-hd-connected-via-jtag-2.png" />
-<figcaption
-aria-hidden="true">lg-p930-nitro-hd-connected-via-jtag-2.png</figcaption>
+![lg-p930-nitro-hd-connected-via-jtag-2.png](assets/images/Lg-p930-nitro-hd-connected-via-jtag-2.png){width="350"}
 
-<img src="../assets/images/Lg-p930-nitro-hd-connected-via-jtag-3.png"
-title="lg-p930-nitro-hd-connected-via-jtag-3.png" width="350"
-alt="lg-p930-nitro-hd-connected-via-jtag-3.png" />
-<figcaption
-aria-hidden="true">lg-p930-nitro-hd-connected-via-jtag-3.png</figcaption>
+![lg-p930-nitro-hd-connected-via-jtag-3.png](assets/images/Lg-p930-nitro-hd-connected-via-jtag-3.png){width="350"}
 
 Now we can start the Octoplus JTAG software and configure it. See the
 picture for more detail.
 
- <img src="../assets/images/Octoplus-settings.png" title="octoplus-settings.png"
- width="600" alt="octoplus-settings.png" />
- <figcaption aria-hidden="true">octoplus-settings.png</figcaption>
-|                                                                   |
+![octoplus-settings.png](assets/images/Octoplus-settings.png){width="600"}
 
 Apply power to the DC power supply and turn the phone on using the
 button on the side of the PCB (you will feel the phone vibrate after 3-5

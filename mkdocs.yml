@@ -1,24 +1,27 @@
-site_name: ""
+site_name: "Forensics Wiki"
 
 nav:
-  - Home: index.md
-  - Community:
-    -  community.md
-  - Contributions:
-    -  contributions_mediawiki.md
-  - Tags:
-    - tags.md
+- Home: index.md
+- Community:
+  - community.md
+- Contributions:
+  - contributions_mediawiki.md
+- Tags:
+  - tags.md
 
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
+  - navigation.tabs
+  - navigation.sections
+
+markdown_extensions:
+- attr_list
 
 plugins:
-  - search:
-      lang: en
-  - tags:
-      tags_file: tags.md
-  - title-casing:
-      capitalization_type: title
+- search:
+    lang: en
+- tags:
+    tags_file: tags.md
+- title-casing:
+    capitalization_type: title

@@ -10,9 +10,7 @@ internal storage with a Samsung KMSJS000KM B308 MoviNAND flash memory
 chip. This phone is unsupported by RIFF Box for the JTAG process but can
 be imaged with the direct access plugin.
 
- <img src="../assets/images/S738C_front.JPG" title="S738C_front.JPG" width="300"
- alt="S738C_front.JPG" />
- <figcaption aria-hidden="true">S738C_front.JPG</figcaption>
+![S738C_front.JPG](assets/images/S738C_front.JPG){width="300"}
 
 ### Getting Started
 
@@ -37,17 +35,11 @@ What you need:
 8. Power the PCB.
 9. Dump the NAND.
 
- <img src="../assets/images/S738C_back.JPG" title="S738C_back.JPG" width="300"
- alt="S738C_back.JPG" />
- <figcaption aria-hidden="true">S738C_back.JPG</figcaption>
+![S738C_back.JPG](assets/images/S738C_back.JPG){width="300"}
 
- <img src="../assets/images/S738C_case.JPG" title="S738C_case.JPG" width="300"
- alt="S738C_case.JPG" />
- <figcaption aria-hidden="true">S738C_case.JPG</figcaption>
+![S738C_case.JPG](assets/images/S738C_case.JPG){width="300"}
 
- <img src="../assets/images/S738C_molex.JPG" title="S738C_molex.JPG" width="300"
- alt="S738C_molex.JPG" />
- <figcaption aria-hidden="true">S738C_molex.JPG</figcaption>
+![S738C_molex.JPG](assets/images/S738C_molex.JPG){width="300"}
 
 The TAPS order is as follows:
 
@@ -61,16 +53,12 @@ The TAPS order is as follows:
 8. 8=TMS
 9. 9=N/A
 
- <img src="../assets/images/S738C_TAPS.JPG" title="S738C_TAPS.JPG" width="400"
- alt="S738C_TAPS.JPG" />
- <figcaption aria-hidden="true">S738C_TAPS.JPG</figcaption>
+![S738C_TAPS.JPG](assets/images/S738C_TAPS.JPG){width="400"}
 
 Tests have shown for the best results and fewer read errors, use short
 wires directly to the RIFF box ribbon interface.
 
- <img src="../assets/images/S738C_riff.JPG" title="S738C_riff.JPG" width="400"
- alt="S738C_riff.JPG" />
- <figcaption aria-hidden="true">S738C_riff.JPG</figcaption>
+![S738C_riff.JPG](assets/images/S738C_riff.JPG){width="400"}
 
 After the wires are connected to the board, the phone is powered by the
 USB connection. Plug the Micro USB into the USB connection on the device
@@ -92,17 +80,11 @@ Launch the Riff Box JTAG Manager and use the following settings:
 * Choose the read button from the bottom left corner. This will connect
   to the device and display the partitions and chip ID.
 
- <img src="../assets/images/Active_plugin.JPG" title="active_plugin.JPG" width="800"
- alt="active_plugin.JPG" />
- <figcaption aria-hidden="true">active_plugin.JPG</figcaption>
+![active_plugin.JPG](assets/images/Active_plugin.JPG){width="800"}
 
- <img src="../assets/images/SCH-S738C_Setting2.JPG" title="SCH-S738C_Setting2.JPG"
- width="800" alt="SCH-S738C_Setting2.JPG" />
- <figcaption aria-hidden="true">SCH-S738C_Setting2.JPG</figcaption>
+![SCH-S738C_Setting2.JPG](assets/images/SCH-S738C_Setting2.JPG){width="800"}
 
- <img src="../assets/images/SCH_S738C_Setting2.PNG" title="SCH_S738C_Setting2.PNG"
- width="800" alt="SCH_S738C_Setting2.PNG" />
- <figcaption aria-hidden="true">SCH_S738C_Setting2.PNG</figcaption>
+![SCH_S738C_Setting2.PNG](assets/images/SCH_S738C_Setting2.PNG){width="800"}
 
 ### Notes
 

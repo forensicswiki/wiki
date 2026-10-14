@@ -2,7 +2,8 @@
 tags:
   - People
 ---
-<img align="right" src="../assets/images/Roblee.jpeg">
+![Roblee.jpeg](assets/images/Roblee.jpeg){align="right"}
+
 [Rob Lee](rob_lee.md) is an entrepreneur and consultant in the
 Washington DC area, specializing in information security, incident
 response, and digital forensics. Rob is currently the curriculum lead

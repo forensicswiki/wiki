@@ -15,9 +15,7 @@ user-space file-systems. A CarvPath with a file extension designates
 actual data in the underlying address space. Without a file extension,
 the CarvPath designates a pseudo directory or nesting level.
 
-<img src="../assets/images/Carvpath.png"
-title="carvpath" width="550"
-alt="carvpath" />
+![carvpath](assets/images/Carvpath.png){width="550"}
 
 The basic structure of a CarvPath annotation is defined as follows:
 

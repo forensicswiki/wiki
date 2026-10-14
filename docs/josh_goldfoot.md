@@ -2,8 +2,9 @@
 tags:
   - People
 ---
-<img src="JGoldfoot.jpg" title="JGoldfoot.jpg" width="200"
-alt="JGoldfoot.jpg" /> Josh Goldfoot is Senior Counsel with the Computer
+![JGoldfoot.jpg](JGoldfoot.jpg){width="200"}
+
+Josh Goldfoot is Senior Counsel with the Computer
 Crime & Intellectual Property Section of the U.S. Department of Justice.
 He prosecutes hackers and other computer criminals, and advises
 investigators and other prosecutors about privacy statutes, the Fourth

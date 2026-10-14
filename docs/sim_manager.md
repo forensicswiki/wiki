@@ -2,7 +2,7 @@
 tags:
   - Mobile device tools
 ---
-**SIM Manager** is program designed to read the contents of a SIM card
+SIM Manager is a program designed to read the contents of a SIM card
 and display it in a human readable form. It is compatible with 2G, 3G
 and Nextel [iDEN](iden.md) cards.
 
@@ -23,11 +23,10 @@ and Nextel [iDEN](iden.md) cards.
 
 ## Screenshots
 
-<img src="SIM_Manager_Main-edit.png" title="SIM_Manager_Main-edit.png"
-width="200" alt="SIM_Manager_Main-edit.png" />
-<img src="SIM_Manager_SIM_card_propertiest.png"
-title="SIM_Manager_SIM_card_propertiest.png" width="200"
-alt="SIM_Manager_SIM_card_propertiest.png" />
+![SIM_Manager_Main-edit.png](assets/images/SIM_Manager_Main-edit.png){width="200"}
+
+<!-- pyml disable-next-line line-length -->
+![SIM_Manager_SIM_card_propertiest.png](assets/images/SIM_Manager_SIM_card_propertiest.png){width="200"}
 
 ## External Links
 

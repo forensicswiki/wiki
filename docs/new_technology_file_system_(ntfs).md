@@ -69,11 +69,7 @@ Imager](https://www.exterro.com/ftk-imager),[encase](encase.md)
 and ProDiscover, will display ADSs found in acquired images in red.
 
 <figure>
-<img src="../assets/images/Alternate_data_stream_explore_with_FTKImager.jpg"
-title="Alternate_data_stream_explore_with_FTKImager.jpg" width="1000"
-alt="Alternate_data_stream_explore_with_FTKImager.jpg" />
-<figcaption
-aria-hidden="true">Alternate_data_stream_explore_with_FTKImager.jpg</figcaption>
+![Alternate_data_stream_explore_with_FTKImager.jpg](assets/images/Alternate_data_stream_explore_with_FTKImager.jpg){width="1000"}
 </figure>
 
 ## Advanced Format (4KB Sector) Hard Drives

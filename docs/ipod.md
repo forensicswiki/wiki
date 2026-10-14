@@ -3,8 +3,7 @@ tags:
   - Hardware
   - Personal Devices
 ---
-<img src="../assets/images/300px-Ipod.jpg" align="right">
-The **iPod** is a brand of portable digital media player designed and
+The iPod is a brand of portable digital media player designed and
 marketed by [Apple Inc](apple_inc.md). Devices in the
 iPod family provide a simple user interface designed around a central
 scroll wheel (with the exception of the iPod shuffle). The standard iPod
@@ -13,6 +12,8 @@ shuffle and iPod nano use flash memory. Like
 most digital audio players, an iPod can serve as an external [data
 storage](data_storage_media.md) device when connected to a
 computer.
+
+![300px-Ipod.jpg](assets/images/300px-Ipod.jpg){align="right"}
 
 ## Software Capabilities
 

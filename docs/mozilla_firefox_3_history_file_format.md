@@ -77,9 +77,8 @@ moz_keywords
 moz_places
 ```
 
-<img src="../assets/images/Firefox3_places_relationship_schema.png"
-title="firefox3_places_relationship" width="550"
-alt="fire3_places_relationship" />
+<!-- pyml disable-next-line line-length -->
+![fire3_places_relationship](assets/images/Firefox3_places_relationship_schema.png){title="firefox3_places_relationship" width="550"}
 
 ## moz_places
 
