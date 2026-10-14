@@ -1,21 +1,17 @@
 # How to Contribute
 
-The Forensics Wiki has moved to GitHub, which has required some changes in the
-contributing process.
+The Forensics Wiki has moved to GitHub, which has required some changes in the contributing process.
 
 In order to add or update a page, you will need to create or edit a
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 file. You can do this in multiple ways, but the general flow is to:
 
 * Copy ("fork") the [Forensics Wiki GitHub project](https://github.com/forensicswiki/wiki)
-  * You can then download ("clone") this copy to your computer to work on, or
-    edit
-* Make your additions or edits to an article's Markdown file (for example:
-  "plaso.md")
-* Send your changes back to the main Forensics Wiki project for review (submit
-  a "pull request")
-* A maintainer will review your changes, request edits if necessary, and once
-  everything looks good, add it to the site ("merge" it)
+  * You can then download ("clone") this copy to your computer to work on, or edit
+* Make your additions or edits to an article's Markdown file (for example: "plaso.md")
+* Send your changes back to the main Forensics Wiki project for review (submit a "pull request")
+* A maintainer will review your changes, request edits if necessary, and once everything looks
+  good, add it to the site ("merge" it)
 
 GitHub has some excellent documentation on [contributing to projects](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 if you'd like a more detailed explanation.
@@ -46,8 +42,8 @@ git push origin [article-branch-name]
 
 Step 5. Checklist before creating a PR
 
-Make sure your changes contain digital forensic relevant information, e.g.
-when listing tools include forensics relevant tradeoffs.
+Make sure your changes contain digital forensic relevant information, e.g.  when listing tools
+include forensics relevant tradeoffs.
 
 For more detail see the requirements and conventions section below.
 
@@ -59,23 +55,21 @@ Step 6. Create PR for review
 
 ### Naming Convention
 
-The file name of the article should be in all lowercase and use underscores to
-connect words. For example, if you write an article around "forensics" then
-the name should be `forensics.md`. If you are writing an article about
-"forensic artifacts" then the name should be `forensic_artifacts.md`.
+The file name of the article should be in all lowercase and use underscores to connect words. For
+example, if you write an article around "forensics" then the name should be `forensics.md`. If you
+are writing an article about "forensic artifacts" then the name should be `forensic_artifacts.md`.
 
 ### Content requirements
 
-In order to make the Forensics Wiki valuable, please use the following
-guidelines to help write high-quality articles:
+In order to make the Forensics Wiki valuable, please use the following guidelines to help write
+high-quality articles:
 
-* All articles should start with an Introduction, which summarizes what is
-  discussed in the article. Do not add a top level heading (heading level 1).
+* All articles should start with an Introduction, which summarizes what is discussed in the
+  article. Do not add a top level heading (heading level 1).
 * Use sections to help describe different aspects of the topic.
-* Images (or illustrations) are not required, but if they help explain the
-  topic they could be added. Sections should use heading level 2 or greater.
-* There is no requirement for length but the article should be long enough to
-  explain the topic.
+* Images (or illustrations) are not required, but if they help explain the topic they could be
+  added. Sections should use heading level 2 or greater.
+* There is no requirement for length but the article should be long enough to explain the topic.
 
 ### Style requirements
 
@@ -90,7 +84,10 @@ Write for an international audience of many backgrounds:
 ### References and external links
 
 * Put most of the external links at the bottom to prevent littering the article with them.
-* For references use, `[title](url), by author(s), date` in chronological order.
+* For references use, `[title](url), by author(s), date` in chronological order. A reference
+  should have a link (URL) that points to a relevant site. References without a link or those
+  that point to non-relevant site will be removed. For refences without a link, use a citation
+  block and reference the source from which the citation came from.
 * Make sure external links are publicly accessible. Links with signup or paywalls, or
   georestriction will be removed.
 
@@ -100,23 +97,16 @@ If you are writing an article about a tool, you might have the following
 headings:
 
 * **Introduction**: This section may include history of the tool, supported operating file systems.
-
-* **Caution**: digital forensic tradeoffs to be aware off. **Make sure to
-  include pros and cons of tool use for different digital forensics use
-  cases.**
-
-* **Use**: This section may include common uses of a tool. A tool could
-  contain one or more common uses. For example, the dd Unix utility could
-  image drives as well wipe drives so data is not recoverable.
-
-* **See Also**: This section may include links to Forensics Wiki articles with
-  related content, complementary tools, or forks of the tool. For example, if
-  you were writing an article about The Sleuth Kit (TSK), you may want to
-  include a link to an article about Autopsy.
-
-* **External Links**: Any external links, such as references to support the
-  information you are providing, or links to the project page or official
-  website.
+* **Caution**: digital forensic tradeoffs to be aware off. **Make sure to include pros and cons of
+  tool use for different digital forensics use cases.**
+* **Use**: This section may include common uses of a tool. A tool could contain one or more common
+  uses. For example, the dd Unix utility could image drives as well wipe drives so data is not
+  recoverable.
+* **See Also**: This section may include links to Forensics Wiki articles with related content,
+  complementary tools, or forks of the tool. For example, if you were writing an article about The
+  Sleuth Kit (TSK), you may want to include a link to an article about Autopsy.
+* **External Links**: Any external links, such as references to support the information you are
+  providing, or links to the project page or official website.
 
 ### Command line examples
 
@@ -144,9 +134,8 @@ desktop\user
 
 ### Images
 
-In order to add images to your document, you must places any images in the
-`/docs/assets/images` directory. The following code is the simplest way to add
-an image to your document using HTML:
+In order to add images to your document, you must places any images in the `/docs/assets/images`
+directory. The following code is the simplest way to add an image to your document using HTML:
 
 ```html
 <img src="../assets/images/myimage.jpg" title="myimage.jpg" width="200"
@@ -155,15 +144,13 @@ an image to your document using HTML:
 
 ### Tags
 
-We are using tags in order to help make content more discoverable. Tags will
-appear at the top of the page and should help the user know what the content is
-related to. Tags are searchable and clickable, so you could easily see other
-articles that have the same tag.
+We are using tags in order to help make content more discoverable. Tags will appear at the top of
+the page and should help the user know what the content is related to. Tags are searchable and
+clickable, so you could easily see other articles that have the same tag.
 
 ### How to Add Tags
 
-After you write your article, you can place tags at the top of the page using
-the following syntax:
+After you write your article, you can place tags at the top of the page using the following syntax:
 
 ```text
 ---
@@ -179,11 +166,10 @@ tags:
 
 ### Tag Guidelines
 
-Tags should describe the content of the article and should be applied uniformly
-across all the content. This will help users discover the content more easily.
- The table below has topics along with possible tags for each topic. Multiple
-topics could apply to one article. For example, a page tagged with `Tool`
-would also likely benefit from a tag denoting the appropriate Operating System,
+Tags should describe the content of the article and should be applied uniformly across all the
+content. This will help users discover the content more easily. The table below has topics along
+with possible tags for each topic. Multiple topics could apply to one article. For example, a page
+tagged with `Tool` would also likely benefit from a tag denoting the appropriate Operating System,
 Software type, and Analysis type.
 
 See examples below the table.
@@ -226,9 +212,8 @@ tags:
 
 #### Example 2: An article about an open source Linux/macOS tool that parses logs in /var/messages
 
-An article about tools should contain the OSes that it supports (Linux and
-macOS), what the tool is used for (in this case, Log Analysis), and the
-software type: Open Source Software.
+An article about tools should contain the OSes that it supports (Linux and macOS), what the tool is
+used for (in this case, Log Analysis), and the software type: Open Source Software.
 
 ```text
 ---
@@ -254,8 +239,8 @@ tags:
 ---
 ```
 
-Bitlocker is a type of `Encryption`, available only for `Windows`, and might be
-relevant during `Anti-Forensics` analysis.
+Bitlocker is a type of "Encryption", available only for "Windows", and might be relevant during
+"Anti-Forensics" analysis.
 
 #### Example 4: An article about the zip file format
 
@@ -272,8 +257,7 @@ tags:
 
 #### Example 5: An article about Windows System Restore Points
 
-Windows System Restore Points are part of the operating system (`OS Component`)
-of Windows.
+Windows System Restore Points are part of the operating system ("OS Component") of Windows.
 
 ```text
 ---
@@ -285,13 +269,11 @@ tags:
 
 ### Check Content Formatting
 
-There have been some differences in how certain IDE’s such as Visual Studio
-code and mkdocs render Markdown. What this means is that when creating a page
-in Forensicswiki, some content looks fine in VS code but then once committed to
-Github the content is not displaying properly. To ensure content is formatted
-correctly, you could use a local mkdocs install which has a built in
-development server. Follow the steps below to install mkdocs. Steps 1 and 2 are
-optional.
+There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs
+render Markdown. What this means is that when creating a page in Forensicswiki, some content looks
+fine in VS code but then once committed to Github the content is not displaying properly. To ensure
+content is formatted correctly, you could use a local mkdocs install which has a built in
+development server. Follow the steps below to install mkdocs. Steps 1 and 2 are optional.
 
 #### Install mkdocs
 
@@ -315,18 +297,18 @@ pip3 install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
 
 #### Run mkdocs
 
-Next, we want mkdocs to load all of the pages of the Forensics Wiki. Mkdocs
-needs two things to be able to run and load the Forensics Wiki pages.
+Next, we want mkdocs to load all of the pages of the Forensics Wiki. Mkdocs needs two things to be
+able to run and load the Forensics Wiki pages.
 
 * It will need a `docs` directory which holds all of Forensics Wiki pages.
-* It will the `mkdocs.yml` configuration file. This is the configuration that
-  tells mkdocs how to structure the site such as the structure of the menus.
+* It will the `mkdocs.yml` configuration file. This is the configuration that tells mkdocs how to
+  structure the site such as the structure of the menus.
 
-Both of the previous items are located in the root directory of the repository.
-To run mkdocs development server follow the steps below:
+Both of the previous items are located in the root directory of the repository. To run mkdocs
+development server follow the steps below:
 
-Step 1. Change to the root of the repository. For example, if you cloned the
-repository to your home directory.
+Step 1. Change to the root of the repository. For example, if you cloned the repository to your
+home directory.
 
 ```bash
 cd ~/wiki
@@ -342,6 +324,5 @@ Step 3. Open your browser and visit <http://127.0.0.1:8000/your_doc_name>
 
 ### Suggesting New Tags
 
-There might be an article that does not fit well within these tagging
-guidelines. If you want to suggest a new tag, please open a
-[GitHub Issue](https://github.com/forensicswiki/wiki/issues).
+There might be an article that does not fit well within these tagging guidelines. If you want to
+suggest a new tag, please open a [GitHub Issue](https://github.com/forensicswiki/wiki/issues).

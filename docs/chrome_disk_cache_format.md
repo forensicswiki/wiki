@@ -18,82 +18,18 @@ The cache is stored in multiple:
 
 The cache address is 4 bytes in size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><i>If file type is 0 (Separate file)</i></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>0.0</p></td>
-<td><p>28 bits</p></td>
-<td></td>
-<td><p>File number<br />
-The value represents the value of # in f_######</p></td>
-</tr>
-<tr class="odd">
-<td><p><i>Else</i></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>0.0</p></td>
-<td><p>16 bits</p></td>
-<td></td>
-<td><p>Block number</p></td>
-</tr>
-<tr class="odd">
-<td><p>2.0</p></td>
-<td><p>8 bits</p></td>
-<td></td>
-<td><p>File number (or file selector)<br />
-The value represents the value of # in data_#</p></td>
-</tr>
-<tr class="even">
-<td><p>3.0</p></td>
-<td><p>2 bits</p></td>
-<td></td>
-<td><p>Block size<br />
-The number of contiguous blocks where 0 represents 1 block and 3
-represents 4 blocks.</p></td>
-</tr>
-<tr class="odd">
-<td><p>3.2</p></td>
-<td><p>2 bits</p></td>
-<td></td>
-<td><p>Reserved</p></td>
-</tr>
-<tr class="even">
-<td><p><i>Common</i></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>3.4</p></td>
-<td><p>3 bits</p></td>
-<td></td>
-<td><p>File type</p></td>
-</tr>
-<tr class="even">
-<td><p>3.7</p></td>
-<td><p>1 bit</p></td>
-<td></td>
-<td><p>Initialized flag</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| *If file type is 0 (Separate file)* | | | |
+| 0.0 | 28 bits | | File number<br>The value represents the value of # in f_###### |
+| *Else* | | | |
+| 0.0 | 16 bits | | Block number |
+| 2.0 | 8 bits | | File number (or file selector)<br>The value represents the value of # in data_# |
+| 3.0 | 2 bits | | Block size<br>The number of contiguous blocks where 0 represents 1 block and 3 represents 4 blocks. |
+| 3.2 | 2 bits | | Reserved |
+| *Common* | | | |
+| 3.4 | 3 bits | | File type |
+| 3.7 | 1 bit | | Initialized flag |
 
 ### File types
 
@@ -128,100 +64,21 @@ Overview:
 The index file header (struct IndexHeader) is 256 bytes in size and
 consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td><p>"\xc3\xca\x03\xc1"</p></td>
-<td><p>Signature</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Minor version</p></td>
-</tr>
-<tr class="odd">
-<td><p>6</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Major version</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Number of entries</p></td>
-</tr>
-<tr class="odd">
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Stored data size</p></td>
-</tr>
-<tr class="even">
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Last created file number<br />
-The value represents the value of # in f_######</p></td>
-</tr>
-<tr class="odd">
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Dirty flag<br />
-Identifier for all entries being changed</p></td>
-</tr>
-<tr class="even">
-<td><p>24</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Usage statistics data cache address</p></td>
-</tr>
-<tr class="odd">
-<td><p>28</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Table size<br />
-Where 0 represents 0x10000 (is this the same as the file size?)</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Signals a previous crash</p></td>
-</tr>
-<tr class="odd">
-<td><p>36</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Identifier of an ongoing test or experiment</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Creation time</p></td>
-</tr>
-<tr class="odd">
-<td><p>48</p></td>
-<td><p>52 x 8 = 208</p></td>
-<td></td>
-<td><p>Padding<br />
-Contains 0-byte values</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 4 | "\xc3\xca\x03\xc1" | Signature |
+| 4 | 2 | | Minor version |
+| 6 | 2 | | Major version |
+| 8 | 4 | | Number of entries |
+| 12 | 4 | | Stored data size |
+| 16 | 4 | | Last created file number<br>The value represents the value of # in f_###### |
+| 20 | 4 | | Dirty flag<br>Identifier for all entries being changed |
+| 24 | 4 | | Usage statistics data cache address |
+| 28 | 4 | | Table size<br>Where 0 represents 0x10000 (is this the same as the file size?) |
+| 32 | 4 | | Signals a previous crash |
+| 36 | 4 | | Identifier of an ongoing test or experiment |
+| 40 | 8 | | Creation time |
+| 48 | 52 x 8 = 208 | | Padding<br>Contains 0-byte values |
 
 #### Format versions
 
@@ -235,77 +92,17 @@ Contains 0-byte values</p></td>
 The least recently used (LRU) data (struct LruData) is 112 bytes in size
 and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>2 x 4 = 8</p></td>
-<td></td>
-<td><p>Padding</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Filled flag<br />
-Value to indicate if when the cache was filled</p></td>
-</tr>
-<tr class="odd">
-<td><p>12</p></td>
-<td><p>5 x 4 = 20</p></td>
-<td></td>
-<td><p>Array of sizes</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>5 x 4 = 20</p></td>
-<td></td>
-<td><p>Array of head cache addresses</p></td>
-</tr>
-<tr class="odd">
-<td><p>52</p></td>
-<td><p>5 x 4 = 20</p></td>
-<td></td>
-<td><p>Array of tail cache addresses</p></td>
-</tr>
-<tr class="even">
-<td><p>72</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Transaction cache address<br />
-Value to indicate an in-flight operation</p></td>
-</tr>
-<tr class="odd">
-<td><p>76</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Operation<br />
-The in-flight operation</p></td>
-</tr>
-<tr class="even">
-<td><p>80</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Operations list<br />
-The in-flight operations list</p></td>
-</tr>
-<tr class="odd">
-<td><p>84</p></td>
-<td><p>7 x 4 = 28</p></td>
-<td></td>
-<td><p>Padding<br />
-Contains 0-byte values</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 2 x 4 = 8 | | Padding |
+| 8 | 4 | | Filled flag<br>Value to indicate if when the cache was filled |
+| 12 | 5 x 4 = 20 | | Array of sizes |
+| 32 | 5 x 4 = 20 | | Array of head cache addresses |
+| 52 | 5 x 4 = 20 | | Array of tail cache addresses |
+| 72 | 4 | | Transaction cache address<br>Value to indicate an in-flight operation |
+| 76 | 4 | | Operation<br>The in-flight operation |
+| 80 | 4 | | Operations list<br>The in-flight operations list |
+| 84 | 7 x 4 = 28 | | Padding<br>Contains 0-byte values |
 
 ### Array indexes
 
@@ -335,101 +132,21 @@ Overview:
 The index file header (struct BlockFileHeader) is 8192 bytes in size and
 consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td><p>"\xc3\xca\x04\xc1"</p></td>
-<td><p>Signature</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Minor version</p></td>
-</tr>
-<tr class="odd">
-<td><p>6</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Major version</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>File number (or file index)<br />
-The value represents the value of # in data_#</p></td>
-</tr>
-<tr class="odd">
-<td><p>10</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Next file number (or next file index)<br />
-The value represents the value of # in data_#</p></td>
-</tr>
-<tr class="even">
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Block size (or cache entry) size</p></td>
-</tr>
-<tr class="odd">
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Number of entries</p></td>
-</tr>
-<tr class="even">
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Maximum number of entries</p></td>
-</tr>
-<tr class="odd">
-<td><p>24</p></td>
-<td><p>4 x 4 = 16</p></td>
-<td></td>
-<td><p>Array of empty entry counters<br />
-The counters of empty entries for each type</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>4 x 4 = 16</p></td>
-<td></td>
-<td><p>Array of last used position (hints)<br />
-The last used position for each type</p></td>
-</tr>
-<tr class="odd">
-<td><p>56</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Updating<br />
-Value to keep track of updates to the header</p></td>
-</tr>
-<tr class="even">
-<td><p>60</p></td>
-<td><p>5 x 4 = 20</p></td>
-<td></td>
-<td><p>User</p></td>
-</tr>
-<tr class="odd">
-<td><p>80</p></td>
-<td><p>2028 x 4 = 8112</p></td>
-<td></td>
-<td><p>Block allocation bitmap</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 4 | "\xc3\xca\x04\xc1" | Signature |
+| 4 | 2 | | Minor version |
+| 6 | 2 | | Major version |
+| 8 | 2 | | File number (or file index)<br>The value represents the value of # in data_# |
+| 10 | 2 | | Next file number (or next file index)<br>The value represents the value of # in data_# |
+| 12 | 4 | | Block size (or cache entry) size |
+| 16 | 4 | | Number of entries |
+| 20 | 4 | | Maximum number of entries |
+| 24 | 4 x 4 = 16 | | Array of empty entry counters<br>The counters of empty entries for each type |
+| 40 | 4 x 4 = 16 | | Array of last used position (hints)<br>The last used position for each type |
+| 56 | 4 | | Updating<br>Value to keep track of updates to the header |
+| 60 | 5 x 4 = 20 | | User |
+| 80 | 2028 x 4 = 8112 | | Block allocation bitmap |
 
 #### Format versions
 
@@ -443,118 +160,23 @@ Value to keep track of updates to the header</p></td>
 The cache entry (struct EntryStore) is 256 bytes in size and consists
 of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Hash<br />
-The hash of the key</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Next entry cache address<br />
-The next entry with the same hash or bucket</p></td>
-</tr>
-<tr class="odd">
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Rankings node cache address</p></td>
-</tr>
-<tr class="even">
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Reuse count<br />
-Value that indicates how often this entry was (re-)used</p></td>
-</tr>
-<tr class="odd">
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Refetch count<br />
-Value that indicates how often this entry was (re-)fetched (or
-downloaded)</p></td>
-</tr>
-<tr class="even">
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Cache entry state</p></td>
-</tr>
-<tr class="odd">
-<td><p>24</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Creation time</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Key data size</p></td>
-</tr>
-<tr class="odd">
-<td><p>36</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Long key data cache address<br />
-The value is 0 if no long key data is present</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>4 x 4 = 16</p></td>
-<td></td>
-<td><p>Array of data stream sizes</p></td>
-</tr>
-<tr class="odd">
-<td><p>56</p></td>
-<td><p>4 x 4 = 16</p></td>
-<td></td>
-<td><p>Array of data stream cache addresses</p></td>
-</tr>
-<tr class="even">
-<td><p>72</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Cache entry flags</p></td>
-</tr>
-<tr class="odd">
-<td><p>76</p></td>
-<td><p>4 x 4 = 16</p></td>
-<td></td>
-<td><p>Padding</p></td>
-</tr>
-<tr class="even">
-<td><p>92</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Self hash<br />
-The hash of the first 92 bytes of the cache entry is this used as a
-checksum?</p></td>
-</tr>
-<tr class="odd">
-<td><p>96</p></td>
-<td><p>160</p></td>
-<td></td>
-<td><p>Key data<br />
-Contains an UTF-8 encoded string with an end-of-string character with
-the original URL</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 4 | | Hash<br>The hash of the key |
+| 4 | 4 | | Next entry cache address<br>The next entry with the same hash or bucket |
+| 8 | 4 | | Rankings node cache address |
+| 12 | 4 | | Reuse count<br>Value that indicates how often this entry was (re-)used |
+| 16 | 4 | | Refetch count<br>Value that indicates how often this entry was (re-)fetched (or downloaded) |
+| 20 | 4 | | Cache entry state |
+| 24 | 8 | | Creation time |
+| 32 | 4 | | Key data size |
+| 36 | 4 | | Long key data cache address<br>The value is 0 if no long key data is present |
+| 40 | 4 x 4 = 16 | | Array of data stream sizes |
+| 56 | 4 x 4 = 16 | | Array of data stream cache addresses |
+| 72 | 4 | | Cache entry flags |
+| 76 | 4 x 4 = 16 | | Padding |
+| 92 | 4 | | Self hash<br>The hash of the first 92 bytes of the cache entry is this used as a checksum? |
+| 96 | 160 | | Key data<br>Contains an UTF-8 encoded string with an end-of-string character with the original URL |
 
 #### Array indexes
 
@@ -587,64 +209,15 @@ The data stream array indexes correspond to:
 The rankings node (struct RankingsNode) is 36 bytes in size and consists
 of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>offset</p></th>
-<th><p>size</p></th>
-<th><p>value</p></th>
-<th><p>description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Last used<br />
-Contains LRU information?</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Last modified<br />
-Contains LRU information?</p></td>
-</tr>
-<tr class="odd">
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Next rankings node cache address</p></td>
-</tr>
-<tr class="even">
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Previous rankings node cache address</p></td>
-</tr>
-<tr class="odd">
-<td><p>24</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Cache entry cache address</p></td>
-</tr>
-<tr class="even">
-<td><p>28</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Is dirty flag</p></td>
-</tr>
-<tr class="odd">
-<td><p>32</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Self hash<br />
-The hash of the first 32 bytes of the rankings node is this used as a
-checksum?</p></td>
-</tr>
-</tbody>
-</table>
+| offset | size | value | description |
+| --- | --- | --- | --- |
+| 0 | 8 | | Last used<br>Contains LRU information? |
+| 8 | 8 | | Last modified<br>Contains LRU information? |
+| 16 | 4 | | Next rankings node cache address |
+| 20 | 4 | | Previous rankings node cache address |
+| 24 | 4 | | Cache entry cache address |
+| 28 | 4 | | Is dirty flag |
+| 32 | 4 | | Self hash<br>The hash of the first 32 bytes of the rankings node is this used as a checksum? |
 
 ## Data stream
 

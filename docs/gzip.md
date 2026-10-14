@@ -16,85 +16,24 @@ The gzip file (.gz) format consists of:
   zlib header)
 * a file footer
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Characteristics</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>Byte order</p></td>
-<td><p>little-endian</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>Date and time values</p></td>
-<td><p>POSIX timestamp<br />
-Number of seconds since January 1, 1970 00:00:00 UTC</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>Character strings</p></td>
-<td><p>ISO 8859-1 (LATIN-1)</p></td>
-</tr>
-</tbody>
-</table>
+| Characteristics | Description |
+| --- | --- |
+| Byte order | little-endian |
+| Date and time values | POSIX timestamp<br>Number of seconds since January 1, 1970 00:00:00 UTC |
+| Character strings | ISO 8859-1 (LATIN-1) |
 
 ### File header
 
 The file header is 10 bytes in size and contains:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>2</p></td>
-<td><p>0x1f 0x8b</p></td>
-<td><p>Signature (or identification byte 1 and 2)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>2</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Compression Method</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>3</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Flags</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>4</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Last modification time<br />
-Contains a POSIX timestamp.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>8</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Compression flags (or extra flags)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>9</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Operating system<br />
-Value that indicates on which operating system the gzip file was
-created.</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 2 | 0x1f 0x8b | Signature (or identification byte 1 and 2) |
+| 2 | 1 | | Compression Method |
+| 3 | 1 | | Flags |
+| 4 | 4 | | Last modification time<br>Contains a POSIX timestamp. |
+| 8 | 1 | | Compression flags (or extra flags) |
+| 9 | 1 | | Operating system<br>Value that indicates on which operating system the gzip file was created. |
 
 #### Compression method
 
@@ -105,60 +44,16 @@ created.</p></td>
 
 #### Flags
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Value</p></th>
-<th><p>Identifier</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0x01</p></td>
-<td><p>FTEXT</p></td>
-<td><p>If set the uncompressed data needs to be treated as text instead
-of binary data.<br />
-This flag hints end-of-line conversion for cross-platform text files but
-does not enforce it.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>0x02</p></td>
-<td><p>FHCRC</p></td>
-<td><p>The file contains a header checksum (CRC-16)</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>0x04</p></td>
-<td><p>FEXTRA</p></td>
-<td><p>The file contains extra fields</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>0x08</p></td>
-<td><p>FNAME</p></td>
-<td><p>The file contains an original file name string</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>0x10</p></td>
-<td><p>FCOMMENT</p></td>
-<td><p>The file contains comment</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>0x20</p></td>
-<td></td>
-<td><p>Reserved</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>0x40</p></td>
-<td></td>
-<td><p>Reserved</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>0x80</p></td>
-<td></td>
-<td><p>Reserved</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Identifier | Description |
+| --- | --- | --- |
+| 0x01 | FTEXT | If set the uncompressed data needs to be treated as text instead of binary data.<br>This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
+| 0x02 | FHCRC | The file contains a header checksum (CRC-16) |
+| 0x04 | FEXTRA | The file contains extra fields |
+| 0x08 | FNAME | The file contains an original file name string |
+| 0x10 | FCOMMENT | The file contains comment |
+| 0x20 | | Reserved |
+| 0x40 | | Reserved |
+| 0x80 | | Reserved |
 
 <b>Notes:</b>
 
@@ -209,31 +104,10 @@ header flags.
 
 The extra field are variable of size and contains:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Extra field data size<br />
-Value in bytes.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>2</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Extra field data</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 2 | | Extra field data size<br>Value in bytes. |
+| 2 | ... | | Extra field data |
 
 #### Original file name
 
@@ -264,31 +138,10 @@ and not including the CRC-16.
 
 The file footer is 8 bytes in size and contains:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>0</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Checksum (CRC-32)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>4</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Uncompressed data size<br />
-Value in bytes.</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | | Checksum (CRC-32) |
+| 4 | 4 | | Uncompressed data size<br>Value in bytes. |
 
 ## See Also
 

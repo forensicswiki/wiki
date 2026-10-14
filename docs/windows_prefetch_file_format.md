@@ -142,129 +142,28 @@ The file information – version 26 is 224 bytes of size and consists of:
 The file metrics entry records – version 17 is 20 bytes in size and
 consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Field</p></th>
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Type</p></th>
-<th><p>Notes</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Start time in ms</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Duration in ms</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Filename string offset<br />
-The offset is relative to the start of the filename string section
-(section C)</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Filename string number of characters without end-of-string
-character</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Unknown, flags?</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Offset | Length | Type  | Notes |
+|-------|--------|--------|-------|-------|
+|       | 0      | 4      | DWORD | Start time in ms |
+|       | 4      | 4      | DWORD | Duration in ms |
+|       | 8      | 4      | DWORD | Filename string offset<br>The offset is relative to the start of the filename string section (section C) |
+|       | 12     | 4      | DWORD | Filename string number of characters without end-of-string character |
+|       | 16     | 4      | DWORD | Unknown, flags? |
 
 ### File metrics entry record - version 23
 
 The file metrics entry records – version 23 is 32 bytes in size and
 consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Field</p></th>
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Type</p></th>
-<th><p>Notes</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Start time in ms</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Duration in ms</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Average duration in ms?</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Filename string offset<br />
-The offset is relative to the start of the filename string section
-(section C)</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Filename string number of characters without end-of-string
-character</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td><p>DWORD</p></td>
-<td><p>Unknown, flags?</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>24</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>NTFS file reference<br />
-0 if not set.</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Offset | Length | Type  | Notes |
+|-------|--------|--------|-------|-------|
+|       | 0      | 4      | DWORD | Start time in ms |
+|       | 4      | 4      | DWORD | Duration in ms |
+|       | 8      | 4      | DWORD | Average duration in ms? |
+|       | 12     | 4      | DWORD | Filename string offset<br>The offset is relative to the start of the filename string section (section C) |
+|       | 16     | 4      | DWORD | Filename string number of characters without end-of-string character |
+|       | 20     | 4      | DWORD | Unknown, flags? |
+|       | 24     | 8      |       | NTFS file reference<br>0 if not set. |
 
 ### File metrics entry record - version 26
 
@@ -276,59 +175,13 @@ metrics entry record – version 23.
 This section contains an array with 12 byte (version 17, 23 and 26)
 entry records.
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Field</p></th>
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Type</p></th>
-<th><p>Notes</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Next array entry index<br />
-Contains the next trace chain array entry index in the chain, where the
-first entry index starts with 0, or -1 (0xffffffff) for the
-end-of-chain.</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Total block load count<br />
-Number of blocks loaded (or fetched)<br />
-The block size 512k (512 x 1024) bytes</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>8</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Unknown</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><p>9</p></td>
-<td><p>1</p></td>
-<td></td>
-<td><p>Sample duration in ms?</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><p>10</p></td>
-<td><p>2</p></td>
-<td></td>
-<td><p>Unknown</p></td>
-</tr>
-</tbody>
-</table>
+| Field | Offset | Length | Type | Notes |
+|-------|--------|--------|------|-------|
+|       | 0      | 4      |      | Next array entry index<br>Contains the next trace chain array entry index in the chain, where the first entry index starts with 0, or -1 (0xffffffff) for the end-of-chain. |
+|       | 4      | 4      |      | Total block load count<br>Number of blocks loaded (or fetched)<br>The block size 512k (512 x 1024) bytes |
+|       | 8      | 1      |      | Unknown |
+|       | 9      | 1      |      | Sample duration in ms? |
+|       | 10     | 2      |      | Unknown |
 
 ## Section C - Filename strings
 

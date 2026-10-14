@@ -20,112 +20,23 @@ A Kaspersky Report File consists of:
 
 The file header is 80 bytes of size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td><p>"RPD2"</p></td>
-<td><p>Signature</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td><p>Unknown, version?</p></td>
-</tr>
-<tr class="odd">
-<td><p>8</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown (empty values?)</p></td>
-</tr>
-<tr class="even">
-<td><p>16</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown A<br />
-Next available record number or 0?</p></td>
-</tr>
-<tr class="odd">
-<td><p>20</p></td>
-<td><p>4</p></td>
-<td><p>0x1000</p></td>
-<td><p>Unknown (record index size?)</p></td>
-</tr>
-<tr class="even">
-<td><p>24</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (Record offset?)</p></td>
-</tr>
-<tr class="odd">
-<td><p>28</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (empty value)</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>File size</p></td>
-</tr>
-<tr class="odd">
-<td><p>36</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (empty value)</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown timestamp<br />
-Creation time?</p></td>
-</tr>
-<tr class="odd">
-<td><p>48</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown timestamp<br />
-Last write time?</p></td>
-</tr>
-<tr class="even">
-<td><p>56</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown timestamp<br />
-Access time?</p></td>
-</tr>
-<tr class="odd">
-<td><p>64</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown (empty values?)</p></td>
-</tr>
-<tr class="even">
-<td><p>72</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Next available record number?</p></td>
-</tr>
-<tr class="odd">
-<td><p>76</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (empty value)</p></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | "RPD2" | Signature |
+| 4 | 4 | 2 | Unknown, version? |
+| 8 | 8 | | Unknown (empty values?) |
+| 16 | 4 | | Unknown A<br>Next available record number or 0? |
+| 20 | 4 | 0x1000 | Unknown (record index size?) |
+| 24 | 4 | | Unknown (Record offset?) |
+| 28 | 4 | | Unknown (empty value) |
+| 32 | 4 | | File size |
+| 36 | 4 | | Unknown (empty value) |
+| 40 | 8 | | Unknown timestamp<br>Creation time? |
+| 48 | 8 | | Unknown timestamp<br>Last write time? |
+| 56 | 8 | | Unknown timestamp<br>Access time? |
+| 64 | 8 | | Unknown (empty values?) |
+| 72 | 4 | | Next available record number? |
+| 76 | 4 | | Unknown (empty value) |
 
 ## Log records index
 
@@ -133,92 +44,22 @@ Access time?</p></td>
 
 The file header is 80 bytes of size and consists of:
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Record offset<br />
-The offset is relative to the start of the file</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (empty value)</p></td>
-</tr>
-<tr class="odd">
-<td><p>8</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Record number</p></td>
-</tr>
-<tr class="even">
-<td><p>12</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Unknown (empty value)</p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | | Record offset<br>The offset is relative to the start of the file |
+| 4 | 4 | | Unknown (empty value) |
+| 8 | 4 | | Record number |
+| 12 | 4 | | Unknown (empty value) |
 
 ## Log records
 
 ### Log record header
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>4</p></td>
-<td></td>
-<td><p>Log record data size<br />
-Log record size = Log record data size + 12</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>8</p></td>
-<td></td>
-<td><p>Unknown timestamp<br />
-Creation time?</p></td>
-</tr>
-<tr class="odd">
-<td><p>12</p></td>
-<td><p>...</p></td>
-<td></td>
-<td><p>Log record data</p></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | | Log record data size<br>Log record size = Log record data size + 12 |
+| 4 | 8 | | Unknown timestamp<br>Creation time? |
+| 12 | ... | | Log record data |
 
 ### Log record data
 

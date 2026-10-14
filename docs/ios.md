@@ -52,7 +52,6 @@ operating systems (listed alphabetically):
 
 * [Aceso by Radio Tactics](https://radio-tactics.com)
 * [Nuix Desktop](nuix_desktop.md)
-* [Oxygen Forensic Suite](oxygen_forensic_suite.md)
 * UFED and Physical Analyzer by Cellebrite
   [5](https://cellebrite.com/en/home/)
 * XRY by [Micro Systemation](https://www.msab.com/)

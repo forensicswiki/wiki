@@ -9,7 +9,7 @@ tags:
   - Tools
   - Windows
 ---
-**The Sleuth Kit** (**TSK**) is a collection of [UNIX](unix.md)-based command
+The Sleuth Kit, or TSK, is a collection of [UNIX](unix.md)-based command
 line tools that allow you to investigate a computer. The current focus of the
 tools is the file and volume systems and TSK supports multiple file systems.
 
@@ -26,40 +26,15 @@ commands that deal with the metadata layer are prefixed with the letter *i*.
 
 Some of the commands in Sleuth Kit are:
 
-blkcat
-Views the contents of a block.
-
-<!-- -->
-
-blkls
-Lists unallocated blocks. Makes keyword searches more efficient. Gets a list of
-unallocated blocks.
-
-<!-- -->
-
-blkcalc
-Tells you where an unallocated blocks are.
-
-<!-- -->
-
-blkstat
-Details about a given block.
-
-<!-- -->
-
-icat
-View contents of a file given its inode value or cluster number. Doesn't list
-directories, lists the contents.
-
-<!-- -->
-
-ils
-Lists the files extents on a disk.
-
-<!-- -->
-
-istat
-Information about an inode number.
+* **blkcat**; Views the contents of a block.
+* **blkls**; Lists unallocated blocks. Makes keyword searches more efficient. Gets a list of
+  unallocated blocks.
+* **blkcalc**; Tells you where an unallocated blocks are.
+* **blkstat**; Details about a given block.
+* **icat**; View contents of a file given its inode value or cluster number. Doesn't list
+  directories, lists the contents.
+* **ils**; Lists the files extents on a disk.
+* **istat**; Information about an inode number.
 
 ### Supported File Systems
 

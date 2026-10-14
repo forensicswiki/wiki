@@ -2,7 +2,7 @@
 tags:
   - Mobile Operating Systems
 ---
-**BlackBerry OS** is the proprietary software platform made by Research
+BlackBerry OS is the proprietary software platform made by Research
 In Motion for their [BlackBerry](blackberry.md) line of
 handhelds. It provides multi-tasking, and makes heavy use of the
 device's specialized input devices, particularly the thumbwheel. The OS
@@ -15,158 +15,58 @@ contacts, and adds support for Novell GroupWise and Lotus Notes.
 
 ## Newest OS Versions
 
-| Key: | Old Version | Current Version | Developer Beta |
-|------|:-----------:|:---------------:|:--------------:|
-
-<table>
-<thead>
-<tr class="header">
-<th><p>Version</p></th>
-<th><p>Release date</p></th>
-<th><p>Features/details</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>4.2.1.114</p></td>
-<td><p><a href="March_18" title="wikilink">March 18</a>, <a href="2008"
-title="wikilink">2008</a><br />
-(?)</p></td>
-<td><ul>
-<li>Latest for 8700 series</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>4.2.2.194</p></td>
-<td><p><a href="March_18" title="wikilink">March 18</a>, <a href="2008"
-title="wikilink">2008</a><br />
-(?)</p></td>
-<td><ul>
-<li><strong>Latest stable release</strong></li>
-<li>Ships with new 8300 series and 8800 series phones</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>4.5.0.42 Release 58</p></td>
-<td><p><a href="June_8" title="wikilink">June 8</a>, <a href="2008"
-title="wikilink">2008</a></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>4.5.0.37</p></td>
-<td><p><a href="June_12" title="wikilink">June 12</a>, <a href="2008"
-title="wikilink">2008</a></p></td>
-<td><ul>
-<li>Released by Vodafone Germany, contains bugs</li>
-<li>Major changes:
-<ul>
-<li>Video camera</li>
-<li>Youtube support</li>
-<li>HTML Emails</li>
-<li>Voice recording</li>
-<li>Improved UI for media player</li>
-</ul></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>4.5.0.44</p></td>
-<td><p><a href="June_22" title="wikilink">June 22</a>, <a href="2008"
-title="wikilink">2008</a></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>4.5.0.46</p></td>
-<td><p><a href="June_29" title="wikilink">June 29</a>, <a href="2008"
-title="wikilink">2008</a></p></td>
-<td><ul>
-<li>slightly faster web browsing</li>
-<li>slightly faster boot up time (by a few seconds)</li>
-<li>a bit better camera quality</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>4.5.0.72</p></td>
-<td><p><a href="July_22" title="wikilink">July 22</a>, <a href="2008"
-title="wikilink">2008</a></p></td>
-<td><ul>
-<li>Released by Orange Romania, posted through www.blackberry.com though
-its actually beta OS version 4.5.0.52 repackaged.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>4.5.0.108</p></td>
-<td><p><a href="September_25" title="wikilink">September 25</a>, <a
-href="2008" title="wikilink">2008</a>&lt;br \&gt; (?)</p></td>
-<td><ul>
-<li>Released by Vodafone Fiji, posted through www.blackberry.com though
-it is actually just beta OS version 4.5.0.81 repackaged.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| Version | Release date | Features/details |
+| --- | --- | --- |
+| 4.2.1.114 | March 18, 2008<br>(?) | Latest for 8700 series |
+| 4.2.2.194 | March 18, 2008<br>(?) | Latest stable release, ships with new 8300 series and 8800 series phones |
+| 4.5.0.42 Release 58 | June 8, 2008 | |
+| 4.5.0.37 | June 12, 2008 | Released by Vodafone Germany. Major changes: Video camera, Youtube support, HTML Emails, Voice recording, Improved UI for media player |
+| 4.5.0.44 | June 22, 2008 | |
+| 4.5.0.46 | June 29, 2008 | slightly faster web browsing, slightly faster boot up time (by a few seconds), a bit improved camera quality |
+| 4.5.0.72 | July 22, 2008 | Released by Orange Romania, posted through www.blackberry.com though its actually beta OS version 4.5.0.52 repackaged |
+| 4.5.0.108 | September 25, 2008 | Released by Vodafone Fiji, posted through www.blackberry.com though it is actually just beta OS version 4.5.0.81 repackaged |
 
 ## All OS Versions With Model
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th><ul>
-<li>9000 - 4.6.0.167</li>
-<li>8830 - 4.2.2.196</li>
-<li>8820 - 4.5.0.81</li>
-<li>8800 - 4.5.0.81</li>
-<li>8707 - 4.2.2.205</li>
-<li>8703 - 4.2.1.119</li>
-<li>8700 - 4.5.0.81</li>
-<li>8330 - 4.5.0.77</li>
-<li>8320 - 4.5.0.81</li>
-<li>8310 - 4.5.0.81</li>
-<li>8300 - 4.5.0.81</li>
-<li>8220 - 4.6.0.174</li>
-<li>8130 - 4.5.0.77</li>
-<li>8120 - 4.5.0.81</li>
-<li>8110 - 4.5.0.81</li>
-<li>8100 - 4.5.0.81</li>
-<li>7780 - 4.0.2.56</li>
-<li>7750 - 4.0.2.41</li>
-</ul></th>
-<th></th>
-<th><ul>
-<li>7730 - 4.0.2.56</li>
-<li>7520 - 4.1.0.380</li>
-<li>7510 - 4.0.2.37</li>
-<li>7290 - 4.1.0.377</li>
-<li>7280 - 4.0.2.56</li>
-<li>7250 - 4.1.0.385</li>
-<li>7230 - 4.0.2.56</li>
-<li>7210 - 4.0.2.56</li>
-<li>7130 - 4.2.1.110</li>
-<li>7105 - 4.1.0.377</li>
-<li>7100 - 4.1.0.382</li>
-<li>6750 - 4.0.0.250</li>
-<li>6720 - 3.7.1.41</li>
-<li>6710 - 4.0.0.185</li>
-<li>6510 - 4.0.0.160</li>
-<li>6280 - 4.0.2.56</li>
-<li>6230 - 4.0.2.51</li>
-<li>6210 - 4.0.2.56</li>
-</ul></th>
-<th><ul>
-<li>5810 - 3.6.0.87</li>
-</ul></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Model | OS version |
+| --- | --- |
+| 5810 | 3.6.0.87 |
+| 6210 | 4.0.2.56 |
+| 6230 | 4.0.2.51 |
+| 6280 | 4.0.2.56 |
+| 6510 | 4.0.0.160 |
+| 6710 | 4.0.0.185 |
+| 6720 | 3.7.1.41 |
+| 6750 | 4.0.0.250 |
+| 7100 | 4.1.0.382 |
+| 7105 | 4.1.0.377 |
+| 7130 | 4.2.1.110 |
+| 7210 | 4.0.2.56 |
+| 7230 | 4.0.2.56 |
+| 7250 | 4.1.0.385 |
+| 7280 | 4.0.2.56 |
+| 7290 | 4.1.0.377 |
+| 7510 | 4.0.2.37 |
+| 7520 | 4.1.0.380 |
+| 7730 | 4.0.2.56 |
+| 7750 | 4.0.2.41 |
+| 7780 | 4.0.2.56 |
+| 8100 | 4.5.0.81 |
+| 8110 | 4.5.0.81 |
+| 8120 | 4.5.0.81 |
+| 8130 | 4.5.0.77 |
+| 8220 | 4.6.0.174 |
+| 8300 | 4.5.0.81 |
+| 8310 | 4.5.0.81 |
+| 8320 | 4.5.0.81 |
+| 8330 | 4.5.0.77 |
+| 8700 | 4.5.0.81 |
+| 8703 | 4.2.1.119 |
+| 8707 | 4.2.2.205 |
+| 8800 | 4.5.0.81 |
+| 8820 | 4.5.0.81 |
+| 8830 | 4.2.2.196 |
+| 9000 | 4.6.0.167 |
 
 ## External Links
 

@@ -3,8 +3,6 @@ tags:
   - Disk Analysis
   - Windows
 ---
-## Volume Shadow Copy Service
-
 Windows has included the Volume Shadow Copy Service in it's releases
 since Windows XP. The Shadow Copy Service creates differential backups
 periodically to create restore points for the user. Windows 7
@@ -156,8 +154,6 @@ information.
   by Jimmy Weg, August 2012
 * Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013
-
-<!-- -->
 
 ### Shadow Volumes in depth
 
