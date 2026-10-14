@@ -23,10 +23,10 @@ like the CPU, the programming language, the compiler, etc.
 64-bit system the size of an "int" can vary based on the data-model
 [2](https://en.wikipedia.org/wiki/64-bit_computing).
 
-<b>Note that some memory analysis resources and tools are known to
+**Note that some memory analysis resources and tools are known to
 completely disregard this aspect of 64-bit computing and claim
 incorrectly an integer is always 32-bit on 64-bit systems or claim the
-size of the integer is operating system dependent.</b>
+size of the integer is operating system dependent.**
 
 When reading primitive data types from a byte stream the endianness
 specifies how the least and most significant parts of the data are
@@ -69,8 +69,8 @@ binary strings
     relation to ASCII.
   * There are multiple variants of non-Unicode strings sometimes divided
     in single byte character (SBC) and multi byte character (MBC)
-    strings. <b>Note that character here refers to the primitive data
-    type used, not a textual character of the string.</b>
+    strings. **Note that character here refers to the primitive data
+    type used, not a textual character of the string.**
 * Binary strings can contain bit- or byte streams. Since bitstreams are
   often stored in bytes the endianness of the bits within the byte is
   relevant when reading or writing the string.
@@ -78,10 +78,10 @@ binary strings
 Another distinction made in some programming languages is to have a
 default (or narrow) character type, e.g. in C "char", and a separate
 wide character type, e.g. in C "wchar_t". The "wchar_t" is typically
-associated with Unicode strings. <b>Note that this should be taken as a
+associated with Unicode strings. **Note that this should be taken as a
 very loose association, since the "char" can be used to store Unicode
 strings in UTF-8 and wchar_t can be used to store non-Unicode
-strings.</b> The typical size of char is 8-bits where the MSB is the
+strings.** The typical size of char is 8-bits where the MSB is the
 sign bit. The typical size of wchar_t varies per "platform", e.g. it is
 common to see wchar_t to be 32-bit of size on Linux with gcc and 16-bit
 of size on Windows with MSC.
@@ -148,7 +148,7 @@ analysis.
 ### Computer architecture
 
 * [Wikipedia: 64-bit computing](https://en.wikipedia.org/wiki/64-bit_computing)
-* [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture](https://www.intel.com/content/www/us/en/content-details/782158/intel-64-and-ia-32-architectures-software-developer-s-manual-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html),
+* [Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 1: Basic Architecture](https://www.intel.com/content/www/us/en/content-details/782158/intel-64-and-ia-32-architectures-software-developer-s-manual-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html),
   by Intel, May 2011
 * [64-Bit Programming Models: Why LP64?](https://unix.org/version2/whatsnew/lp64_wp.html),
   The Open Group, 1997

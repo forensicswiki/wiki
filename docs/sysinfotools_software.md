@@ -23,7 +23,7 @@ customers with a delight S-class and achieved pinnacle of success in
 short time duration has been a key goal of the company.
 
 SysInfoTools Software is recognized for its exceptional professional
-series of 70+ Windows System Utilities that takes users’ experience to
+series of 70+ Windows System Utilities that takes users' experience to
 the next higher level of wonder and amazement with its advanced
 algorithm. The software tenement consists of whole bunch of top-end
 Windows software utilities in the field of Data Recovery, Email
@@ -89,7 +89,7 @@ The prime focus of the company specializes in recovery and analysis of
 database with skills, knowledge, and products for diverse platform. As a
 reckoned firm, SysInfoTools is a brand name with niche expertise in
 extracting data from almost all types of devices. The privacy and
-integrity of customers’ data and information is the top priority of the
+integrity of customers' data and information is the top priority of the
 company as the recovered data is safely disposed after it is been given
 to the valuable customers. The file repair services are completely safe
 and secure as the company never associates in data sharing or data

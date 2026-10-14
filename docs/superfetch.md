@@ -21,7 +21,7 @@ SuperFetch prioritizes the following kinds of pages to remain in memory:
   * After extensive hibernation (for example, first thing in the morning).
   * After shorter periods of sleep or hibernation (for example, after lunch).
 
-Prefetched pages are added to the system’s standby page list, which has
+Prefetched pages are added to the system's standby page list, which has
 been reorganized and redesigned to retain useful data in memory over
 longer periods of time.
 

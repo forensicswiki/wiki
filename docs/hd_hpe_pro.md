@@ -29,7 +29,7 @@ because of incorrect operations to maintain the user data intact.
 * Special Actuator Remover assures you to perform easy operation
   (removal, installation) on the upper magnet of the actuator which is
   very hard to be removed and put back because of its strong magnetism
-  and it’s sensitive and embarrassed position (being very close to both
+  and it's sensitive and embarrassed position (being very close to both
   the Head Stack and Media Platter), in case it slips out and touch
   either of its fragile neighbors during the operations — the
   consequences will be a disaster.

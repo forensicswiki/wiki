@@ -50,5 +50,5 @@ this CD;
 
 ## External Links
 
-* [The Farmer’s Boot CD](https://www.forensicfocus.com/articles/the-farmers-boot-cd/),
+* [The Farmer's Boot CD](https://www.forensicfocus.com/articles/the-farmers-boot-cd/),
   by Thomas Rude, May 2006

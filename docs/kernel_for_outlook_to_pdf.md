@@ -57,11 +57,11 @@ to read them in detail within the software wizard.
 ### Conversion Flexibility
 
 The freeware provides the flexibility to convert PST data using the two
-options: convert by selected folders or selected items. Choose ‘convert
-selected folder’ option to select the desired check boxes that are
+options: convert by selected folders or selected items. Choose 'convert
+selected folder' option to select the desired check boxes that are
 needed to be restored. However, if the user wants to convert more than
-one e-mails or items to PDF file, then select ‘convert by selected
-items’ option to save accordingly.
+one e-mails or items to PDF file, then select 'convert by selected
+items' option to save accordingly.
 
 ### Data Integrity
 

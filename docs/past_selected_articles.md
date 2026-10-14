@@ -154,7 +154,7 @@ mechanism to assist users in determining call provenance — the source
 and the path taken by a call. Our techniques detect and mea- sure
 single-ended audio features to identify all of the applied voice codecs,
 calculate packet loss and noise profiles, while remaining agnostic to
-characteristics of the speaker’s voice (as this may le- gitimately
+characteristics of the speaker's voice (as this may legitimately
 change when interacting with a large organization). In the absence of
 verifiable call metadata, these features in combina- tion with machine
 learning allow us to determine the traversal of a call through as many
@@ -325,7 +325,7 @@ outperforms the software implementation by a significant margin.
 [Developments in Cisco IOS Forensics](https://www.blackhat.com/presentations/bh-dc-08/FX/Whitepaper/bh-dc-08-fx-WP.pdf)
 by Felix Lindner
 
-Abstract: Cisco System’s routers running Cisco IOS are still the prevalent
+Abstract: Cisco System's routers running Cisco IOS are still the prevalent
 routing platform on the Internet and corporate networks. Their huge
 population, architectural deficiencies and hugely diverse version
 distribution make them a valuable target that gains importance as common
@@ -337,7 +337,7 @@ different method that reduces the requirement for constant logging,
 favoring on- demand in-depth analysis in case of suspicion or actual
 device crashes. The paper concludes by presenting the current state in
 the development of software supporting the proposed method and
-requesting feedback from the community on the software’s future
+requesting feedback from the community on the software's future
 directions.
 
 ## June 2009

@@ -13,7 +13,7 @@ drives and portable devices like [cell phones](cell_phones.md) and
 Cell Seizure is a piece of software
 that serves the main purpose of collection and examining data pulled
 from various types of [cell phones](cell_phones.md). It is part
-of Paraben’s collection of forensics tools.
+of Paraben's collection of forensics tools.
 
 The main goal of Cell Seizure is to organize and report various types of
 files. Following the same guidelines as other Paraben products, Cell

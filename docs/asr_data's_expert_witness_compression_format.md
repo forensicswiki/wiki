@@ -51,32 +51,31 @@ not to be confused with the header section, below.)
 
 *Signature Part (8 bytes)...*
 
-|       |       |      |      |      |      |      |
-|:------|-------|------|------|------|------|------|
-| Bytes | 3     | 1    | 1    | 1    | 1    | 1    |
-| Data  | "EVF" | 0x09 | 0x0d | 0x0a | 0xff | 0x00 |
+| | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bytes | 3 | 1 | 1 | 1 | 1 | 1 |
+| Data | "EVF" | 0x09 | 0x0d | 0x0a | 0xff | 0x00 |
 
 *Fields Part (5 bytes)...*
 
-|         |      |                |        |
-|:--------|------|----------------|--------|
-| Bytes   | 1    | 2              | 2      |
-| Data    | 0x01 | 1 or higher    | 0x0000 |
-| Meaning |      | Segment Number |        |
+| | | | |
+| --- | --- | --- | --- |
+| Bytes | 1 | 2 | 2 |
+| Data | 0x01 | 1 or higher | 0x0000 |
+| Meaning | | Segment Number | |
 
 ## The Section
 
 Every *section* begins with the same standard data, with the
 following layout.
 
-|           |        |                          |                                                   |
-|:----------|--------|--------------------------|---------------------------------------------------|
-| Offset:   | Bytes: | Data:                    | Meaning:                                          |
-| 0 (0x0)   | 16     | "volume", "header", etc. | Section type string                               |
-| 16 (0x10) | 8      |                          | 64-bit offset in current file to the next section |
-| 24 (0x18) | 8      |                          | 64-bit byte-size of the section                   |
-| 32 (0x20) | 40     | 0x00...                  | Padding                                           |
-| 72 (0x48) | 4      |                          | CRC of all previous section data                  |
+| Offset: | Bytes: | Data: | Meaning: |
+| --- | --- | --- | --- |
+| 0 (0x0) | 16 | "volume", "header", etc. | Section type string |
+| 16 (0x10) | 8 | | 64-bit offset in current file to the next section |
+| 24 (0x18) | 8 | | 64-bit byte-size of the section |
+| 32 (0x20) | 40 | 0x00 ... | Padding |
+| 72 (0x48) | 4 | | CRC of all previous section data |
 
 ## Section Types
 
@@ -87,9 +86,8 @@ above.
 
 ### 'header' section
 
-|           |                   |                         |                                |
-|:----------|-------------------|-------------------------|--------------------------------|
-| Offset:   | Bytes:            | Data:                   | Meaning:                       |
+| Offset: | Bytes: | Data: | Meaning: |
+| --- | --- | --- | --- |
 | 76 (0x4c) | to end of section | zlib compress()'ed data | Comments structure (see below) |
 
 *Comment structure is simply a text string in the following tab- and
@@ -100,11 +98,11 @@ third line serve as reminders for the content of the fields in the
 fourth line. (The fourth line is the only line that needs to be
 customized.)*
 
-|             |
-|:------------|
-| 1           |
-| main        |
-| c           |
+| |
+| --- |
+| 1 |
+| main |
+| c |
 | Case Number |
 
 * *Case Number, Evidence Number, Unique Description, Examiner Name,
@@ -121,31 +119,29 @@ The header section should appear in the first segment file only.
 
 ### 'volume' section
 
-|            |        |         |                                                            |
-|:-----------|--------|---------|------------------------------------------------------------|
-| Offset:    | Bytes: | Data:   | Meaning:                                                   |
-| 76 (0x4c)  | 4      | 1       | Reserved                                                   |
-| 80 (0x50)  | 4      |         | Chunk Count                                                |
-| 84 (0x54)  | 4      | 64      | Sectors per Chunk                                          |
-| 88 (0x58)  | 4      | 512     | Bytes per Sector                                           |
-| 92 (0x5c)  | 4      |         | Sector Count                                               |
-| 96 (0x60)  | 20     | 0x00... | Reserved                                                   |
-| 116 (0x74) | 45     | 0x00... | Padding                                                    |
-| 161 (0xa1) | 5      |         | Reserved (Signature)                                       |
-| 166 (0xa6) | 4      |         | CRC of all previous 'volume' data, starting with offset 76 |
+| Offset: | Bytes: | Data: | Meaning: |
+| --- | --- | --- | --- |
+| 76 (0x4c) | 4 | 1 | Reserved |
+| 80 (0x50) | 4 | | Chunk Count |
+| 84 (0x54) | 4 | 64 | Sectors per Chunk |
+| 88 (0x58) | 4 | 512 | Bytes per Sector |
+| 92 (0x5c) | 4 | | Sector Count |
+| 96 (0x60) | 20 | 0x00 ... | Reserved |
+| 116 (0x74) | 45 | 0x00 ... | Padding |
+| 161 (0xa1) | 5 | | Reserved (Signature) |
+| 166 (0xa6) | 4 | | CRC of all previous 'volume' data, starting with offset 76 |
 
 The volume section should appear in the first segment file only.
 
 ### 'table' section
 
-|                          |                      |         |                                                           |
-|:-------------------------|----------------------|---------|-----------------------------------------------------------|
-| Offset:                  | Bytes:               | Data:   | Meaning:                                                  |
-| 76 (0x4c)                | 4                    | 1       | Chunk Count (for this table)                              |
-| 80 (0x50)                | 16                   | 0x00... | Padding                                                   |
-| 96 (0x60)                | 4                    |         | CRC of all previous 'table' data, starting with offset 76 |
-| 100 (0x64)               | as long as necessary |         | Offset array (see below)                                  |
-| from end of offset array | to end of section    |         | zlib compress()'ed data Chunks                            |
+| Offset: | Bytes: | Data: | Meaning: |
+| --- | --- | --- | --- |
+| 76 (0x4c) | 4 | 1 | Chunk Count (for this table) |
+| 80 (0x50) | 16 | 0x00 ... | Padding |
+| 96 (0x60) | 4 | | CRC of all previous 'table' data, starting with offset 76 |
+| 100 (0x64) | as long as necessary | | Offset array (see below) |
+| from end of offset array | to end of section | | zlib compress()'ed data Chunks |
 
 *The offset array is a series of back-to-back 4-byte unsigned integer
 values. Each entry is an offset to the start of a compressed 'Chunk'.

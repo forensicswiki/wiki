@@ -58,14 +58,14 @@ Cloud Forensics, Database Forensics, and Incident Response. Most of the
 cases brought to INsig2 are from law enforcement agencies, however,
 there has been a growth in investigations coming from business and
 private sector. Specific areas include company policy violations, misuse
-of company’s resources, theft of intellectual property, fraud, threats,
+of company's resources, theft of intellectual property, fraud, threats,
 retrieval of artifacts, and many more.
 
 ### Lab Management
 
 INsig2 has extensive experience in designing, equipping, and setting up
 digital forensics laboratories for different government agencies and law
-enforcement. In line with the client’s budget and requirements, INsig2
+enforcement. In line with the client's budget and requirements, INsig2
 will suggest the best possible solution, deliver, and set up all the
 equipment and software. INsig2 experts will also prepare the project
 documentation and all relevant technical documentation in accordance
@@ -110,7 +110,7 @@ legal entities, where it provides tailor-made courses to help them
 understand the nature of digital evidence, digital forensics
 methodology, and principles, but also the lifecycle of digital forensics
 investigation from the seizure of the digital media to presenting
-digital evidence in court. Education can be organized on the client’s
+digital evidence in court. Education can be organized on the client's
 premises, and in such case, INsig2 offers complete organization and
 execution of a large, complex, and unique training (course materials,
 equipment, training facilities, expert trainers). In addition, the
@@ -131,9 +131,9 @@ government policy and decisions.
 
 INsig2 educates professionals working in the law enforcement sector,
 legal, and private sector, and by working closely with the client,
-INsig2 can adjust the course’s content and duration, deliver the
+INsig2 can adjust the course's content and duration, deliver the
 training on several locations, and organize complete infrastructure
-(equipment, expert trainers, course materials) to meet the client’s
+(equipment, expert trainers, course materials) to meet the client's
 specific requirements. Upon successful completion of the training and
 exam, the clients will receive an official certificate with CPE points
 for passing the course.
@@ -160,14 +160,14 @@ requirements, and the specific skill level of their staff. With
 interested clients, INsig2 will develop the content, design exercises,
 and activities for active participation and provide a follow-up.
 Customization also includes adjustment of training duration to meet the
-client’s goals and expectations.
+client's goals and expectations.
 
 [<span style="color:red">DIGITAL INTELLIGENCE FORENSICS
 COURSES</span>](https://www.insig2.com/en/educations/operational-analysis)
 consist of two different types of education, Operational – aimed at
 achieving a specific law enforcement outcome and Strategic analysis -
 intended to inform senior decision-makers over the long-term analysis.
-The course outcomes include identification of criminal’s modus operandi,
+The course outcomes include identification of criminal's modus operandi,
 crime trends, and patterns, emerging threats, the potential impact of
 external factors such as technology, demographics, or economics on
 crime.

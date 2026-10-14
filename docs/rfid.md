@@ -19,7 +19,7 @@ RFID and Bar codes are different technologies and have different
 applications. The big difference between the two is bar codes are
 line-of-sight technology. A scanner requires a bar code be brought
 towards a scanner in order for it to be read. RFID on the other hand,
-doesn’t require line of sight. RFID tags can be read as long as they are
+doesn't require line of sight. RFID tags can be read as long as they are
 within range of a RFID reader. If a label is somehow removed or damaged
 there is no way to scan the item.
 

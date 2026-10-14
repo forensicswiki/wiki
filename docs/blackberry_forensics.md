@@ -36,7 +36,7 @@ Prerequisites:
 
 Once Desktop Manager is installed:
 
-1. Open Blackberry’s Desktop Manager.
+1. Open Blackberry's Desktop Manager.
 2. Click "Options" then "Connection Settings"
 3. If the Desktop Manager hasn't already done so, select "USB-PIN:
    Device \#" for connection type. Your device \# may not be the same as

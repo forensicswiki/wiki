@@ -157,7 +157,7 @@ Returns: +CGSN: IMEI356252000861622
 Returns: +GSN: 299B5900 (Samsung)
 
 **AT+CGMR**
-Returns the manufacturer’s OS revision.
+Returns the manufacturer's OS revision.
 Returns: +CGMR: "R47_G_08.17.0FR_01"
 
 **AT+GMI**

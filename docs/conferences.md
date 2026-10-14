@@ -45,7 +45,7 @@ Exhibition (With ending of FSS, this seems to be a trade show now)
 FIRST Conference
 <https://www.first.org/conference/>
 
-[AFSIN: Association francophone des spécialistes de l’investigation numérique](https://new.afsin.org/)
+[AFSIN: Association francophone des spécialistes de l'investigation numérique](https://new.afsin.org/)
 French-Speaking Days on Digital Investigations
 
 IEEE Workshop on Information Forensics and Security

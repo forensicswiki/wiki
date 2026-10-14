@@ -97,7 +97,7 @@ for anyone outside the law enforcement community, it is not free.
 * SIMCon also comes with two more handy features that are key to an
   investigation and in a court of law. The first is SIMCon's feature that allows
   the printing of a report. SIMCon will format and populate a report with the
-  contents of the users’ choosing. This can list all the key pieces to an
+  contents of the users' choosing. This can list all the key pieces to an
   investigation and is an excellent piece of evidence to be used in a court of
   law. The second feature is the exportation of the acquired data. SIMCon allows
   the exportation of all SMS messages and also of all contacts. When these

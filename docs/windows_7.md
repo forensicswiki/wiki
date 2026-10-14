@@ -40,7 +40,7 @@ Windows 7 operating system.
 
 ### Known Registry keys of forensic interest
 
-<b>TODO: add some description why they are of interest</b>
+TODO: add some description why they are of interest
 
 #### SAM Registry
 

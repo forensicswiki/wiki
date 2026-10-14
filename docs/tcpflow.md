@@ -6,9 +6,9 @@ tcpflow is a program that captures data transmitted as part of TCP
 connections (flows), and stores the data in a way that is convenient for
 protocol analysis and debugging. Each TCP flow is stored in its own
 file. Thus, the typical TCP flow will be stored in two files, one for
-each direction. tcpflow can also process stored ‘tcpdump’ packet flows.
+each direction. tcpflow can also process stored 'tcpdump' packet flows.
 
-tcpflow is similar to ‘tcpdump’, in that both process packets from the
+tcpflow is similar to 'tcpdump', in that both process packets from the
 wire or from a stored file. It's also similar to WireShark, in that both
 allow analysis of network traffic. But unlike either tcpdump or
 WireShark, tcpflow reconstructs thousands (or millions) of TCP
@@ -61,7 +61,7 @@ of the program and added:
 
 tcpflow is based on the LBL Packet Capture Library (available from LBL)
 and therefore supports the same rich filtering expressions that programs
-like ‘tcpdump’ support. It should compile under most popular versions of
+like 'tcpdump' support. It should compile under most popular versions of
 UNIX; see the INSTALL file for details.
 
 ## External Links

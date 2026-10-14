@@ -12,9 +12,9 @@ Today UNIX has evolved into three main categories which all flavors of UNIX
 derive from: [BSD](bsd.md), System V Release 4, and hybrid. Some of the most
 poplar flavors of UNIX are:
 
-* IBM’s [AIX](aix.md)
+* IBM's [AIX](aix.md)
 * [Sun Microsystems](sun_microsystems_inc.md)' [Solaris](solaris.md)
-* SGI’s IRIX
+* SGI's IRIX
 * [Linux](linux.md)
 * [OpenBSD](openbsd.md)
 * [FreeBSD](freebsd.md)

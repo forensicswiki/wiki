@@ -2,10 +2,10 @@
 tags:
   - No Category
 ---
-**DFL-DDP Data Recovery Equipment** is the world’s first professional
+**DFL-DDP Data Recovery Equipment** is the world's first professional
 high-speed USB3.0 data recovery equipment, it does not only what other
 data recovery equipment do, but does what other data recovery equipment
-cannot do. Besides imaging and recovering all brands’ of patient hard
+cannot do. Besides imaging and recovering all brands' of patient hard
 drives, DFL-DDP is able to quickly repair many common firmware damaged
 drives of Seagate, WD, Samsung, Toshiba, Hitachi, etc at high success
 rate.

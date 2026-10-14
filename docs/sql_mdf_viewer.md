@@ -17,7 +17,7 @@ readable by the software including; triggers, columns, classes, tables,
 etc., via quick scan option. The scanned database can be saved as an STR
 for later use.
 
-**Note**: The software can be used infinitely and doesn’t expire at any
+**Note**: The software can be used infinitely and doesn't expire at any
 particular time duration.
 
 ## External Links

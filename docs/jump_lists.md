@@ -2,7 +2,7 @@
 tags:
   - Windows
 ---
-**Jump Lists** are a feature found in Windows 7.
+Jump Lists are a feature found in Windows 7.
 
 ## Jump Lists
 
@@ -44,14 +44,13 @@ Each of these structures is 114 bytes in size, followed by a variable
 length Unicode string. The first 114 bytes of the structure contains the
 following information at the corresponding offsets:
 
-| Offset | Size     | Description                                                                                                     |
-|--------|----------|-----------------------------------------------------------------------------------------------------------------|
-| 0x48   | 16 bytes | NetBIOS name of the system; padded with zeros to 16 bytes                                                       |
-| 0x58   | 8 bytes  | Stream number; corresponds to the numbered stream within the jump list                                          |
-| 0x64   | 8 bytes  | Last modification time, contains a [FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure |
-| 0x70   | 2 bytes  | Path string size, the number of characters (UTF-16 words) of the path string                                    |
-| 0x72   | ...      | Path string                                                                                                     |
-|        |          |                                                                                                                 |
+| Offset | Size | Description |
+| --- | --- | --- |
+| 0x48 | 16 bytes | NetBIOS name of the system; padded with zeros to 16 bytes |
+| 0x58 | 8 bytes | Stream number; corresponds to the numbered stream within the jump list |
+| 0x64 | 8 bytes | Last modification time, contains a [FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure |
+| 0x70 | 2 bytes | Path string size, the number of characters (UTF-16 words) of the path string |
+| 0x72 | ... | Path string |
 
 ### CustomDestinations
 

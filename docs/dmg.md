@@ -33,7 +33,7 @@ distribution, owing to its purpose earlier.
 
 Particularly, Disk Copy for 10.2 & earlier versions of Mac OS X and Disk
 Utility for 10.3 & later versions of Mac OS X are used for creating
-Apple disk images. Disk images can also be managed using ‘hdiutil’; the
+Apple disk images. Disk images can also be managed using 'hdiutil'; the
 command based utility for Mac OS X.
 
 ## Types of Format
@@ -73,7 +73,7 @@ data, & GUID Partition Map.
 ## MIME Type & Optional Layers
 
 Apple DMG files have an MIME type and can be protected using different
-encryption types. ‘application/x-apple-diskimage’ is the MIME type used
+encryption types. 'application/x-apple-diskimage' is the MIME type used
 to publish DMG files.
 
 This block data containing raw disk image files are optionally added
@@ -92,7 +92,7 @@ DiskUtility.
 
 Mac Operating Systems of version 10.2.3 were introduced to Disk Images
 of Internet Enabled and Compressed type by Apple. Usage limit of the
-disk image was to be only accessed with Apple’s Disk Copy Utility. The
+disk image was to be only accessed with Apple's Disk Copy Utility. The
 program was later integrated to Disk Utility version 10.3.
 
 A multilingual software agreement was displayed before the Disk Copy

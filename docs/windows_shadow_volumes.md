@@ -65,7 +65,7 @@ accessed by the System Restore Utility.
 
 ### Windows 8 and Server 2012
 
-These versions of Microsoft’s operating systems support persistent
+These versions of Microsoft's operating systems support persistent
 shadow copies. However, Windows 8 is lacking a GUI portion that is
 necessary to easily browse the shadow copies. So, within Windows 8 the
 Previous versions tab of the properties dialog of files was removed for
@@ -100,7 +100,7 @@ a block-level rather than a file-level, changes to individual files may
 not be enough to cause Windows to make the changes in a corresponding
 Shadow Copy.
 
-Additionally, depending on the user’s individual settings, the Shadow
+Additionally, depending on the user's individual settings, the Shadow
 Copy service might be turned off, resulting in no Shadow Copies being
 stored. Other times, the disk space settings might be set too low for
 multiple Shadow Copies to be saved, or even for one Shadow Copy to be
@@ -150,7 +150,7 @@ information.
   by Jimmy Weg, July 2012
 * Examining the Shadow Volumes with X-Ways Forensics,
   by Jimmy Weg, July 2012
-* Weg, I’m afraid that I don’t have VMware. How do I Examine Shadow Volumes?,
+* Weg, I'm afraid that I don't have VMware. How do I Examine Shadow Volumes?,
   by Jimmy Weg, August 2012
 * Examining shadow copies with Reconnoitre (and without vssadmin), it's as easy as 1, 2, 3,
   by [Paul Sanderson](paul_sanderson.md), January 2013

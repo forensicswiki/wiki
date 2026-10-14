@@ -15,7 +15,7 @@ packet size distribution.
 
 Tcpdstat is useful for analyzing network trace data because it gives a
 high-level overview, which can identify where to look next. For example,
-if quite a few packets show up for a protocol/port that isn’t normally
+if quite a few packets show up for a protocol/port that isn't normally
 used on the victim machine, you've already been clued in on what to look
 for next on a lower level.
 

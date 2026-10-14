@@ -87,8 +87,8 @@ Support for "Contacts" added.
 * The user can "Sync" selected scanned files in "Connected" mode.
 * Provided option to "Sync" all scanned files in "Connected" mode.
 * Provided different types of "Search". They are as follows:
-* Wildcard Search: Provided "Wildcard Search". Asterisk (*) to represent ‘several’ characters
-  or ‘zero’ character. Question mark (?) to replace a single character.
+* Wildcard Search: Provided "Wildcard Search". Asterisk (*) to represent 'several' characters
+  or 'zero' character. Question mark (?) to replace a single character.
 * Stem Search: The use of linguistic analysis to get to the root form of a keyword.
 * Regular Expression Search: Regular expression is a special text string for describing a search
   pattern.
@@ -225,7 +225,7 @@ and email filter.
 * *Case Details*: This automatically displayed screen displays progress
   of scanning for the selected file(s) with major display of details
   like; Mail Count, File Count, and File Size.
-* *Dashboard*: This tab next to case detail’s File tab displays the
+* *Dashboard*: This tab next to case detail's File tab displays the
   ratio of data stored within the selected files with the help of pie
   chart and graphs.
 

@@ -6,13 +6,13 @@ Kernel Yahoo Archive reader is an instant message decoder developed by
 Kernel Data Recovery that retrieves conversation logs and contact list
 lost due to uninstallation of the Yahoo messenger from the computer
 system. The tool extracts the complete information from the Yahoo
-archive directory that is stored by default on user’s computer hard
+archive directory that is stored by default on user's computer hard
 disk.
 
 ## Features
 
 Kernel Yahoo Archive Reader offers intuitive options to access and
-restore Yahoo messenger’ archive messages and chat logs swiftly. It is
+restore Yahoo messenger' archive messages and chat logs swiftly. It is
 compatible with all the major versions of Yahoo messenger.
 
 ### Flexible Instant message decoder
@@ -41,8 +41,8 @@ purposes, this software fulfills such intentions splendidly.
 ### Monitors activities
 
 From monitoring point of view, user can install this software to keep a
-check on other people’s conversation such as an employer can extract
-employee’s conversation archives. Even SMS sent from Yahoo messenger can
+check on other people's conversation such as an employer can extract
+employee's conversation archives. Even SMS sent from Yahoo messenger can
 be tracked with this software.
 
 ## Licensing
@@ -55,7 +55,7 @@ Official website of Kernel Yahoo Archive reader.
 With every license of Kernel Yahoo Archive reader, user gets lifetime
 free technical assistance to resolve any kind of issues at any time. A
 software manual is embedded in the help section of the software for
-user’s feasibility. For any kind of queries can reach the technical team
+user's feasibility. For any kind of queries can reach the technical team
 via phone, email or live chat.
 
 ## External Links

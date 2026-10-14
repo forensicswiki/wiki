@@ -21,7 +21,7 @@ simplify the address standards which were not uniformly recognized in
 software business.
 
 Microsoft Corporation also manufactured series of COM modules which was
-included in Outlook Express email application’s development as well.
+included in Outlook Express email application's development as well.
 These modules were part of Microsoft Office suite products. RFC is a
 standard format but Microsoft create PST file format to store emails as
 a highly structured database. But it restricted the access of emails

@@ -29,14 +29,14 @@ the maximum filename length.
 
 Supported wiping patterns include
 
-| Erase File                           | Erase Free Space                     |
-|--------------------------------------|--------------------------------------|
-| Gutmann                              | Gutmann                              |
+| Erase File | Erase Free Space |
+| --- | --- |
+| Gutmann | Gutmann |
 | US DoD 5220.22-M (8-306 /E, C and E) | US DoD 5220.22-M (8-306 /E, C and E) |
-| US DoD 5220.22-M (8-306 /E)          | US DoD 5220.22-M (8-306 /E)          |
-| Pseudorandom Data                    | Pseudorandom Data                    |
-| First and Last 2kb                   | \-                                   |
-| Schneier's 7 Pass                    | Schneier's 7 Pass                    |
+| US DoD 5220.22-M (8-306 /E) | US DoD 5220.22-M (8-306 /E) |
+| Pseudorandom Data | Pseudorandom Data |
+| First and Last 2kb | \- |
+| Schneier's 7 Pass | Schneier's 7 Pass |
 
 ## Authors
 

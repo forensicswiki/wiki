@@ -12,14 +12,14 @@ from stand-alone content transfer at the POS to OTA applications for
 subscriber content management.
 
 With proven ability to impact sales of phones, upgrades, and services,
-Cellebrite customers include the world’s largest mobile operators and
+Cellebrite customers include the world's largest mobile operators and
 deployments by more than 140 major carriers. Mobile Forensics
 
 Building on its expertise in mobile data technology, in 2007, Cellebrite
 introduced a new line of products targeted to the mobile forensics
 industry.
 
-Cellebrite’s solution enables extraction and analysis of evidentiary
+Cellebrite's solution enables extraction and analysis of evidentiary
 data from more than 3,000 mobile phones and GPS devices.
 
 The most complete mobile forensics experience available on the market

@@ -46,17 +46,17 @@ gibberish when text is extracted from the PDF.
 Future versions of PDF are planned to embed Unicode as text in addition
 to the font information, which would resolve this issue.
 
-Part of the problem is that Unicode’s Arabic Presentation Blocks are
+Part of the problem is that Unicode's Arabic Presentation Blocks are
 officially deprecated by the Unicode Consortium. Their inclusion was at
-the time – late 1980’s - a technical compromise to allow the ISO 10646
+the time – late 1980's - a technical compromise to allow the ISO 10646
 to join Unicode. As such the compromise was incomplete, as only 400 out
 of originally 4000 requested Arabic ligatures we allowed to remain in
 the Unicode Standard. Ironically, all the printed examples in the
 Unicode standard were designed by Thomas Milo based on
 computer-generated synthesis of the underlying letter block fusions of
-traditional Arabic "Script Grammar". This was done using DecoType’s
+traditional Arabic "Script Grammar". This was done using DecoType's
 famous ACE technology, that eventually became the working model for
-Microsoft’s True Type Open, the precursor of today's OpenType.
+Microsoft's True Type Open, the precursor of today's OpenType.
 
 Arabic Presentation Forms should never be encoded, such a practice
 amounts to reverting to Font Pages, whose very proliferation caused the

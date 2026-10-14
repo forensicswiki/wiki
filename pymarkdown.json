@@ -44,9 +44,6 @@
         },
         "md046": {
             "style": "fenced"
-        },
-        "md060": {
-            "enabled": false
         }
     }
 }

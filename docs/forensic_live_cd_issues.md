@@ -46,12 +46,12 @@ When mounting (and unmounting) several journaling file systems with only
 "-o ro" mount flag a different number of data writes may occur. Here is
 a list of such file systems:
 
-| File system | When data writes happen                 | Notes                                                                                                       |
-|-------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Ext3        | File system requires journal recovery   | To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type              |
-| Ext4        | File system requires journal recovery   | To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type              |
-| ReiserFS    | File system has unfinished transactions | "nolog" flag does not work (see *man mount*). To disable journal updates: use "ro,loop" flags               |
-| XFS         | Always (when unmounting)                | "norecovery" flag does not help (fixed in recent 2.6 kernels). To disable data writes: use "ro,loop" flags. |
+| File system | When data writes happen | Notes |
+| --- | --- | --- |
+| Ext3 | File system requires journal recovery | To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type |
+| Ext4 | File system requires journal recovery | To disable recovery: use "noload" flag, or use "ro,loop" flags, or use "ext2" file system type |
+| ReiserFS | File system has unfinished transactions | "nolog" flag does not work (see *man mount*). To disable journal updates: use "ro,loop" flags |
+| XFS | Always (when unmounting) | "norecovery" flag does not help (fixed in recent 2.6 kernels). To disable data writes: use "ro,loop" flags. |
 
 Incorrect mount flags can be used to mount file systems on evidentiary
 media during the boot process or during the file system preview process.
@@ -71,12 +71,12 @@ damaged Ext3 recovery during the boot
 List of distributions that recover Ext3 (and sometimes Ext4) file
 systems during the boot:
 
-| Distribution                    | Version    |
-|---------------------------------|------------|
-| Helix3                          | 2009R1     |
-| SMART Linux (Ubuntu)            | 2010-01-20 |
-| FCCU GNU/Linux Forensic Boot CD | 12.1       |
-| SPADA                           | 4          |
+| Distribution | Version |
+| --- | --- |
+| Helix3 | 2009R1 |
+| SMART Linux (Ubuntu) | 2010-01-20 |
+| FCCU GNU/Linux Forensic Boot CD | 12.1 |
+| SPADA | 4 |
 
 ### Orphan inodes deletion
 
@@ -116,15 +116,15 @@ attack.
 
 List of Ubuntu-based distributions that allow root file system spoofing:
 
-| Distribution                    | Version    |
-|---------------------------------|------------|
-| Helix3                          | 2009R1     |
-| Helix3 Pro                      | 2009R3     |
-| CAINE                           | 1.5        |
-| Raptor                          | 2.0        |
-| BackTrack                       | 4          |
-| SMART Linux (Ubuntu)            | 2010-01-20 |
-| FCCU GNU/Linux Forensic Boot CD | 12.1       |
+| Distribution | Version |
+| --- | --- |
+| Helix3 | 2009R1 |
+| Helix3 Pro | 2009R3 |
+| CAINE | 1.5 |
+| Raptor | 2.0 |
+| BackTrack | 4 |
+| SMART Linux (Ubuntu) | 2010-01-20 |
+| FCCU GNU/Linux Forensic Boot CD | 12.1 |
 
 Vulnerable Knoppix-based distributions include: SPADA, LinEn Boot CD,
 BitFlare.

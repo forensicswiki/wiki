@@ -56,7 +56,7 @@ Modifies a disk image of a bootable Microsoft operating system so that
 the image can no longer be boot and so that any Microsoft copyrighted
 file in the \Windows directory cannot be executed. This allows the disk
 image of a Microsoft operating system to be distributed without
-implicitly violating Microsoft’s copyright.
+implicitly violating Microsoft's copyright.
 
 iredact.py
 An experimental disk redaction program which allows the removal of

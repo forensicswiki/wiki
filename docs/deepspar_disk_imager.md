@@ -31,7 +31,7 @@ before the sector is correctly read, it will be skipped. The imager then
 marks in its "map" that the sector was skipped so that it can be
 reprocessed on later passes.)
 
-Through the tool’s software interface, the end user is able to configure
+Through the tool's software interface, the end user is able to configure
 all parameters and commands that they wish the imager to use over
 multiple imaging passes. As previously mentioned, the DeepSpar Disk
 Imager stores a "map" of all the sectors from the source drive. This map

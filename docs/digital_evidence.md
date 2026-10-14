@@ -21,7 +21,7 @@ Some principles of handling digital evidence:
 * Custodianship; guaranteeing a chain of custody
 * Documentation
 
-<b>Avoid:</b>
+**Avoid:**
 
 * Unauthorized disclosure; Digital evidence is often sensitive also in
   certain cases it requires qualified persons to access digital evidence

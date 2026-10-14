@@ -215,17 +215,17 @@ AFF files can be viewed as a series of name/value pairs.
 
 The following status codes can be returned by AFF functions.
 
-| Code                   | Description                                                                                                                                    |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| AF_ERROR_EOF           | The end of the AFF file has been reached                                                                                                       |
-| AF_ERROR_DATASMALL     | The buffer provided for the requested AFF segment is not large enough to hold the data that would be returned.                                 |
-| AF_ERROR_TAIL          | There is no tail or an error occurred trying to read the tail of an AFF segment. This indicates that the file is corrupt (probably truncated). |
-| AF_ERROR_SEGH          | There is no head or an error occurred trying to read the head. This indicates that the AFF file is corrupt.                                    |
-| AF_ERROR_NAME          | Invalid segment name                                                                                                                           |
-| AF_ERROR_INVALID_ARG   | The argument was invalid                                                                                                                       |
-| AF_ERROR_NO_AES        | This version of the library was compiled without AES support and the program is attempting to read an AES-encrypted segment.                   |
-| AF_ERROR_AES_TOO_SMALL | The decrypted AES segment is too small for the amount of data that it was supposed to contain. The segment is probably corrupt.                |
-| AF_ERROR_KEY_SET       | A key was previously set. (You can only have one AES encryption key per file.)                                                                 |
+| Code | Description |
+| --- | --- |
+| AF_ERROR_EOF | The end of the AFF file has been reached |
+| AF_ERROR_DATASMALL | The buffer provided for the requested AFF segment is not large enough to hold the data that would be returned. |
+| AF_ERROR_TAIL | There is no tail or an error occurred trying to read the tail of an AFF segment. This indicates that the file is corrupt (probably truncated). |
+| AF_ERROR_SEGH | There is no head or an error occurred trying to read the head. This indicates that the AFF file is corrupt. |
+| AF_ERROR_NAME | Invalid segment name |
+| AF_ERROR_INVALID_ARG | The argument was invalid |
+| AF_ERROR_NO_AES | This version of the library was compiled without AES support and the program is attempting to read an AES-encrypted segment. |
+| AF_ERROR_AES_TOO_SMALL | The decrypted AES segment is too small for the amount of data that it was supposed to contain. The segment is probably corrupt. |
+| AF_ERROR_KEY_SET | A key was previously set. (You can only have one AES encryption key per file.) |
 
 ## AFF Function Reference
 
@@ -403,10 +403,10 @@ For example, to enable maximum LZMA compression:
 af_enable_compression(af,AF_COMPRESSION_ALG_LZMA,AF_COMPRESSION_MAX);
 ```
 
-| Flag                    | Algorithm                                                                                                   |
-|-------------------------|-------------------------------------------------------------------------------------------------------------|
-| AF_COMPRESSION_ALG_NONE | No compression                                                                                              |
-| AF_COMPRESSION_ALG_ZLIB | zlib                                                                                                        |
+| Flag | Algorithm |
+| --- | --- |
+| AF_COMPRESSION_ALG_NONE | No compression |
+| AF_COMPRESSION_ALG_ZLIB | zlib |
 | AF_COMPRESSION_ALG_LZMA | LZMA. Dramatically slower than zlib, this algorithm can produce image files that are significantly smaller. |
 
 #### af_compression_type
@@ -583,16 +583,16 @@ int af_identify(AFFILE *af);
 Returns the type of file associated with the given handle. The types are
 defined in Table 3.
 
-| Type                  | Description                                                                      |
-|-----------------------|----------------------------------------------------------------------------------|
-| AF_IDENTIFY_RAW       | A raw file, sometimes also called a dd image or flat file                        |
-| AF_IDENTIFY_AFF       | A standard AFF archive                                                           |
-| AF_IDENTIFY_AFD       | A directory of AFD files, or a split AFF file                                    |
-| AF_IDENTIFY_EVF       | An EnCase file read with the original AFF EnCase implementation; now deprecated. |
-| AF_IDENTIFY_EVD       | An EnCase file read with the original AFF EnCase implementation; now deprecated. |
-| AF_IDENTIFY_SPLIT_RAW | A split raw file                                                                 |
-| AF_IDENTIFY_AFM       | A raw file with metadata                                                         |
-| AF_IDENTIFY_EWF       | An EnCase file read with libewf.                                                 |
+| Type | Description |
+| --- | --- |
+| AF_IDENTIFY_RAW | A raw file, sometimes also called a dd image or flat file |
+| AF_IDENTIFY_AFF | A standard AFF archive |
+| AF_IDENTIFY_AFD | A directory of AFD files, or a split AFF file |
+| AF_IDENTIFY_EVF | An EnCase file read with the original AFF EnCase implementation; now deprecated. |
+| AF_IDENTIFY_EVD | An EnCase file read with the original AFF EnCase implementation; now deprecated. |
+| AF_IDENTIFY_SPLIT_RAW | A split raw file |
+| AF_IDENTIFY_AFM | A raw file with metadata |
+| AF_IDENTIFY_EWF | An EnCase file read with libewf. |
 
 Sample usage:
 
@@ -649,13 +649,13 @@ AFF?**
 
 **RBF – How does the programmer enumerate all of the segment names?**
 
-| Name                        | Aimage | Description                                                                                  |
-|-----------------------------|--------|----------------------------------------------------------------------------------------------|
-| AF_IGNORE                   |        | Ignore segments with a zero length name                                                      |
-| AF_PAGESIZE                 | Y      | The size of each page, in bytes                                                              |
-| AF_BADFLAG                  | Y      | Data that is inserted into the image file to mark a bad sector.                              |
-| AF_DMESG                    | Y      | The results of the 'dmesg' command are stored in the AFF file.                               |
-| AF_ACQUISITION_COMMAND_LINE | Y      | The command line used to run the disk imaging program.                                       |
-| AF_ACQUISITION_ISO_COUNTRY  | Y      | The ISO country code of the computer used to create the image; set manually at imaging time. |
-| AF_PAGE_MD5                 | Y      | The MD5 hash of the current page                                                             |
-| AF_ACQUISITION_SECONDS      | Y      | The number of seconds used to create the image file.                                         |
+| Name | Aimage | Description |
+| --- | --- | --- |
+| AF_IGNORE | | Ignore segments with a zero length name |
+| AF_PAGESIZE | Y | The size of each page, in bytes |
+| AF_BADFLAG | Y | Data that is inserted into the image file to mark a bad sector. |
+| AF_DMESG | Y | The results of the 'dmesg' command are stored in the AFF file. |
+| AF_ACQUISITION_COMMAND_LINE | Y | The command line used to run the disk imaging program. |
+| AF_ACQUISITION_ISO_COUNTRY | Y | The ISO country code of the computer used to create the image; set manually at imaging time. |
+| AF_PAGE_MD5 | Y | The MD5 hash of the current page |
+| AF_ACQUISITION_SECONDS | Y | The number of seconds used to create the image file. |

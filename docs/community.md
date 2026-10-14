@@ -65,7 +65,8 @@ In order to make the Forensics Wiki valuable, please use the following guideline
 high-quality articles:
 
 * All articles should start with an Introduction, which summarizes what is discussed in the
-  article. Do not add a top level heading (heading level 1).
+  article. Do not add a top level heading (heading level 1), mkdocs will add one. Note that
+  index.md is an exception to the rule.
 * Use sections to help describe different aspects of the topic.
 * Images (or illustrations) are not required, but if they help explain the topic they could be
   added. Sections should use heading level 2 or greater.
@@ -269,7 +270,7 @@ tags:
 
 ### Check Content Formatting
 
-There have been some differences in how certain IDE’s such as Visual Studio code and mkdocs
+There have been some differences in how certain IDE's such as Visual Studio code and mkdocs
 render Markdown. What this means is that when creating a page in Forensicswiki, some content looks
 fine in VS code but then once committed to Github the content is not displaying properly. To ensure
 content is formatted correctly, you could use a local mkdocs install which has a built in

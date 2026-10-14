@@ -152,13 +152,12 @@ inaccessibility.
 
 ### Location of OST File on Windows OS
 
-| Outlook Version   | Windows Version        | OST Location                                                                              |
-|-------------------|------------------------|-------------------------------------------------------------------------------------------|
-| Windows XP        | Outlook 2000/2003/2007 | C:\Documents and Settings\\%username%\Local Settings\Application Data\Microsoft\Outlook\\ |
-| Windows Vista/7/8 | Outlook 2007           | C:\Users\\%username%\AppData\Local\Microsoft\Outlook\\                                    |
-| Windows XP        | Outlook 2010           | C:\Documents and Settings\\%username%\My Documents\Outlook Files                          |
-| Windows Vista/7/8 | Outlook 2010/2013      | C:\Users\\%username%\Documents\Outlook Files                                              |
-|                   |                        |                                                                                           |
+| Outlook Version | Windows Version | OST Location |
+| --- | --- | --- |
+| Windows XP | Outlook 2000/2003/2007 | C:\Documents and Settings\\%username%\Local Settings\Application Data\Microsoft\Outlook\\ |
+| Windows Vista/7/8 | Outlook 2007 | C:\Users\\%username%\AppData\Local\Microsoft\Outlook\\ |
+| Windows XP | Outlook 2010 | C:\Documents and Settings\\%username%\My Documents\Outlook Files |
+| Windows Vista/7/8 | Outlook 2010/2013 | C:\Users\\%username%\Documents\Outlook Files |
 
 ## Also see
 

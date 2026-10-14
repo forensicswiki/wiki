@@ -7,7 +7,7 @@ tags:
 ---
 PFC files are files associated with America Online (AOL). PFC (Personal
 Filing Cabinet) is a database file that enables the users to save AOL
-emails locally on the computer’s hard drive. It also stores all the
+emails locally on the computer's hard drive. It also stores all the
 received and sent emails of America Online email client. The PFC file
 enables the user to manage and access the AOL mails when the user needs
 to work without the presence of internet connectivity. PFC file enables

@@ -37,7 +37,7 @@ file. However, the software is proven to open only healthy EML file.
 
 ### Advanced Scanning
 
-The freeware is embedded with ‘Advanced Settings’ option allowing to
+The freeware is embedded with 'Advanced Settings' option allowing to
 recuse all the sub-folders present on the host machine. The feature
 quickly scans all the EML files available in the user-selected folder
 and enlists them in an organized hierarchy for complex-free
@@ -53,7 +53,7 @@ settings as per the user necessity and priority.
 
 The application is built using intuitive Graphical User Interface design
 to extend user simplicity in understanding and operating. The total
-restored folders of the machine’s hard drive are presented in a
+restored folders of the machine's hard drive are presented in a
 tree-like structure guiding users to quickly select EML files.
 
 ### Detailed Preview

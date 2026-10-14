@@ -217,11 +217,11 @@ Forensics (IMF), Nürnberg (Germany). March 2013.
 Christian Rathgeb, Frank Breitinger, Christoph Busch: Alignment-Free
 Cancelable Iris Biometric Templates based on Adaptive Bloom Filters, In
 Proceedings of the 6th IAPR International Conference on Biometrics
-(ICB’13), Madrid (Spain). June 2013. To appear.
+(ICB'13), Madrid (Spain). June 2013. To appear.
 
 Frank Breitinger, Georgios Stivaktakis, Harald Baier: FRASH: A framework
 to test algorithms of similarity hashing, In Proceedings of the 13th
-Digital Forensics Research Conference (DFRWS’13), Monterey (California,
+Digital Forensics Research Conference (DFRWS'13), Monterey (California,
 US). August 2013. To appear.
 
 Books that mention SSDEEP: Harlan Carvey, Windows Forensic Analysis,

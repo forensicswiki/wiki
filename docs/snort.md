@@ -41,7 +41,7 @@ popular Linux distributions and Windows
 
 ### Windows
 
-Note to Windows users: If you’re downloading Snort binaries the only
+Note to Windows users: If you're downloading Snort binaries the only
 requirements are WinPcap and Barnyard.
 
 ### \*nix
@@ -62,7 +62,7 @@ For more information and to download please visit
 #### PCRE
 
 Perl Compatible Regular Expressions (PCRE) is a regular expression C
-library inspired by Perl’s external interface, written by Philip Hazel.
+library inspired by Perl's external interface, written by Philip Hazel.
 The PCRE library is incorporated into a number of prominent open-source
 programs such as the Apache HTTP Server, the PHP and R scripting
 languages, and Snort.

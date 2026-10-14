@@ -55,7 +55,7 @@ place, all tools were reviewed and packaged, and we use Git for our VCS.
   possible for our more adventurous users to customize Kali Linux to
   their liking, all the way down to the kernel.
 * ARMEL and ARMHF support: Since ARM-based systems are becoming more and
-  more prevalent and inexpensive, we knew that Kali’s ARM support would
+  more prevalent and inexpensive, we knew that Kali's ARM support would
   need to be as robust as we could manage, resulting in working
   installations for both ARMEL and ARMHF systems. Kali Linux has ARM
   repositories integrated with the mainline distribution so tools for

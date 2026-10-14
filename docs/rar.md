@@ -60,18 +60,18 @@ In each block the followings bits in HEAD_FLAGS have the same meaning:
 
 There are certain block types:
 
-| Head Type Signifier | Description                        |
-|---------------------|------------------------------------|
-| HEAD_TYPE=0x72      | marker block                       |
-| HEAD_TYPE=0x73      | archive header                     |
-| HEAD_TYPE=0x74      | file header                        |
-| HEAD_TYPE=0x75      | old style comment header           |
-| HEAD_TYPE=0x76      | old style authenticity information |
-| HEAD_TYPE=0x77      | old style subblock                 |
-| HEAD_TYPE=0x78      | old style recovery record          |
-| HEAD_TYPE=0x79      | old style authenticity information |
-| HEAD_TYPE=0x7a      | subblock                           |
-| HEAD_TYPE=0x7b      | terminator                         |
+| Head Type Signifier | Description |
+| --- | --- |
+| HEAD_TYPE=0x72 | marker block |
+| HEAD_TYPE=0x73 | archive header |
+| HEAD_TYPE=0x74 | file header |
+| HEAD_TYPE=0x75 | old style comment header |
+| HEAD_TYPE=0x76 | old style authenticity information |
+| HEAD_TYPE=0x77 | old style subblock |
+| HEAD_TYPE=0x78 | old style recovery record |
+| HEAD_TYPE=0x79 | old style authenticity information |
+| HEAD_TYPE=0x7a | subblock |
+| HEAD_TYPE=0x7b | terminator |
 
 Block Types
 
@@ -82,12 +82,12 @@ They are Marker Block, Archive Header, and File Header.
 
 #### Marker Block (MARK_HEAD)
 
-| Field Name | Size (bytes) | Possibilities       |
-|------------|--------------|---------------------|
-| HEAD_CRC   | 2            | Always 0x6152       |
-| HEAD_TYPE  | 1            | Header type: 0x72   |
-| HEAD_FLAGS | 2            | Always 0x1A21       |
-| HEAD_SIZE  | 2            | Block size = 0x0007 |
+| Field Name | Size (bytes) | Possibilities |
+| --- | --- | --- |
+| HEAD_CRC | 2 | Always 0x6152 |
+| HEAD_TYPE | 1 | Header type: 0x72 |
+| HEAD_FLAGS | 2 | Always 0x1A21 |
+| HEAD_SIZE | 2 | Block size = 0x0007 |
 
 MARK_HEAD
 
@@ -96,28 +96,28 @@ MARK_HEAD
 
 #### Archive Header (MAIN_HEAD)
 
-| Field Name | Size (bytes) | Description                                                                   |
-|------------|--------------|-------------------------------------------------------------------------------|
-| HEAD_CRC   | 2            | CRC of fields HEAD_TYPE to RESERVED2                                          |
-| HEAD_TYPE  | 1            | Header Type: 0x73                                                             |
-| HEAD_FLAGS | 2            | Bit Flags (Please see 'Bit Flags for MAIN_HEAD' table for all possibilities). |
-| HEAD_SIZE  | 2            | Archive header total size including archive comments                          |
-| RESERVED1  | 2            | RESERVED                                                                      |
-| RESERVED2  | 4            | RESERVED                                                                      |
+| Field Name | Size (bytes) | Description |
+| --- | --- | --- |
+| HEAD_CRC | 2 | CRC of fields HEAD_TYPE to RESERVED2 |
+| HEAD_TYPE | 1 | Header Type: 0x73 |
+| HEAD_FLAGS | 2 | Bit Flags (Please see 'Bit Flags for MAIN_HEAD' table for all possibilities). |
+| HEAD_SIZE | 2 | Archive header total size including archive comments |
+| RESERVED1 | 2 | RESERVED |
+| RESERVED2 | 4 | RESERVED |
 
 MAIN_HEAD
 
-| Flag (0x) | Description                                                                                 |
-|-----------|---------------------------------------------------------------------------------------------|
-| 0001      | Volume attribute (archive volume)                                                           |
-| 0002      | Archive comment present RAR 3.x uses the separate comment block and does not set this flag. |
-| 0004      | Archive lock attribute                                                                      |
-| 0008      | Solid attribute (solid archive)                                                             |
-| 0010      | New volume naming scheme ('volname.partN.rar')                                              |
-| 0020      | Authenticity information present RAR 3.x does not set this flag.                            |
-| 0040      | Recovery record present                                                                     |
-| 0080      | Block headers are encrypted                                                                 |
-| 0100      | First volume (set only by RAR 3.0 and later)                                                |
+| Flag (0x) | Description |
+| --- | --- |
+| 0001 | Volume attribute (archive volume) |
+| 0002 | Archive comment present RAR 3.x uses the separate comment block and does not set this flag. |
+| 0004 | Archive lock attribute |
+| 0008 | Solid attribute (solid archive) |
+| 0010 | New volume naming scheme ('volname.partN.rar') |
+| 0020 | Authenticity information present RAR 3.x does not set this flag. |
+| 0040 | Recovery record present |
+| 0080 | Block headers are encrypted |
+| 0100 | First volume (set only by RAR 3.0 and later) |
 
 Bit Flags for MAIN_HEAD
 
@@ -125,80 +125,80 @@ Bit Flags for MAIN_HEAD
 
 #### File Header (File in Archive)
 
-| Field Name     | Size (bytes)    | Description                                                                                                              |
-|----------------|-----------------|--------------------------------------------------------------------------------------------------------------------------|
-| HEAD_CRC       | 2               | CRC of fields from HEAD_TYPE to FILEATTR and file name                                                                   |
-| HEAD_TYPE      | 1               | Header Type: 0x74                                                                                                        |
-| HEAD_FLAGS     | 2               | Bit Flags (Please see 'Bit Flags for File in Archive' table for all possibilities)                                       |
-| HEAD_SIZE      | 2               | File header full size including file name and comments                                                                   |
-| PACK_SIZE      | 4               | Compressed file size                                                                                                     |
-| UNP_SIZE       | 4               | Uncompressed file size                                                                                                   |
-| HOST_OS        | 1               | Operating system used for archiving (See the 'Operating System Indicators' table for the flags used)                     |
-| FILE_CRC       | 4               | File CRC                                                                                                                 |
-| FTIME          | 4               | Date and time in standard MS DOS format                                                                                  |
-| UNP_VER        | 1               | RAR version needed to extract file (Version number is encoded as 10 \* Major version + minor version.)                   |
-| METHOD         | 1               | Packing method (Please see 'Packing Method' table for all possibilities                                                  |
-| NAME_SIZE      | 2               | File name size                                                                                                           |
-| ATTR           | 4               | File attributes                                                                                                          |
-| HIGH_PACK_SIZE | 4               | High 4 bytes of 64-bit value of compressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set.   |
-| HIGH_UNP_SIZE  | 4               | High 4 bytes of 64-bit value of uncompressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set. |
-| FILE_NAME      | NAME_SIZE bytes | File name - string of NAME_SIZE bytes size                                                                               |
-| SALT           | 8               | present if (HEAD_FLAGS & 0x400) != 0                                                                                     |
-| EXT_TIME       | variable size   | present if (HEAD_FLAGS & 0x1000) != 0                                                                                    |
+| Field Name | Size (bytes) | Description |
+| --- | --- | --- |
+| HEAD_CRC | 2 | CRC of fields from HEAD_TYPE to FILEATTR and file name |
+| HEAD_TYPE | 1 | Header Type: 0x74 |
+| HEAD_FLAGS | 2 | Bit Flags (Please see 'Bit Flags for File in Archive' table for all possibilities) |
+| HEAD_SIZE | 2 | File header full size including file name and comments |
+| PACK_SIZE | 4 | Compressed file size |
+| UNP_SIZE | 4 | Uncompressed file size |
+| HOST_OS | 1 | Operating system used for archiving (See the 'Operating System Indicators' table for the flags used) |
+| FILE_CRC | 4 | File CRC |
+| FTIME | 4 | Date and time in standard MS DOS format |
+| UNP_VER | 1 | RAR version needed to extract file (Version number is encoded as 10 \* Major version + minor version.) |
+| METHOD | 1 | Packing method (Please see 'Packing Method' table for all possibilities |
+| NAME_SIZE | 2 | File name size |
+| ATTR | 4 | File attributes |
+| HIGH_PACK_SIZE | 4 | High 4 bytes of 64-bit value of compressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set. |
+| HIGH_UNP_SIZE | 4 | High 4 bytes of 64-bit value of uncompressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set. |
+| FILE_NAME | NAME_SIZE bytes | File name - string of NAME_SIZE bytes size |
+| SALT | 8 | present if (HEAD_FLAGS & 0x400) != 0 |
+| EXT_TIME | variable size | present if (HEAD_FLAGS & 0x1000) != 0 |
 
 File Header
 
 * other new fields may appear here.
 
-| Flag (0x)                                     | Description                                                                                                                                                                                                                                                                                       |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 01                                            | File continued from previous volume                                                                                                                                                                                                                                                               |
-| 02                                            | File continued in next volume                                                                                                                                                                                                                                                                     |
-| 04                                            | File encrypted with password                                                                                                                                                                                                                                                                      |
-| 08                                            | File comment present. RAR 3.x uses the separate comment block and does not set this flag.                                                                                                                                                                                                         |
-| 10                                            | Information from previous files is used (solid flag) (for RAR 2.0 and later)                                                                                                                                                                                                                      |
-| Dictionary bits 7 6 5 (for RAR 2.0 and later) | Please see the 'Dictionary Bits' table for this descriptions                                                                                                                                                                                                                                      |
-| 100                                           | HIGH_PACK_SIZE and HIGH_UNP_SIZE fields are present. These fields are used to archive only very large files (larger than 2Gb), for smaller files these fields are absent.                                                                                                                         |
-| 200                                           | FILE_NAME contains both usual and encoded Unicode name separated by zero. In this case NAME_SIZE field is equal to the length of usual name plus encoded Unicode name plus 1. If this flag is present, but FILE_NAME does not contain zero bytes, it means that file name is encoded using UTF-8. |
-| 400                                           | The header contains additional 8 bytes after the file name, which are required to increase encryption security (so called 'salt').                                                                                                                                                                |
-| 800                                           | Version flag. It is an old file version, a version number is appended to file name as ';n'.                                                                                                                                                                                                       |
-| 1000                                          | Extended time field present.                                                                                                                                                                                                                                                                      |
-| 8000                                          | This bit always is set, so the complete block size is HEAD_SIZE + PACK_SIZE (and plus HIGH_PACK_SIZE, if bit 0x100 is set)                                                                                                                                                                        |
+| Flag (0x) | Description |
+| --- | --- |
+| 01 | File continued from previous volume |
+| 02 | File continued in next volume |
+| 04 | File encrypted with password |
+| 08 | File comment present. RAR 3.x uses the separate comment block and does not set this flag. |
+| 10 | Information from previous files is used (solid flag) (for RAR 2.0 and later) |
+| Dictionary bits 7 6 5 (for RAR 2.0 and later) | Please see the 'Dictionary Bits' table for this descriptions |
+| 100 | HIGH_PACK_SIZE and HIGH_UNP_SIZE fields are present. These fields are used to archive only very large files (larger than 2Gb), for smaller files these fields are absent. |
+| 200 | FILE_NAME contains both usual and encoded Unicode name separated by zero. In this case NAME_SIZE field is equal to the length of usual name plus encoded Unicode name plus 1. If this flag is present, but FILE_NAME does not contain zero bytes, it means that file name is encoded using UTF-8. |
+| 400 | The header contains additional 8 bytes after the file name, which are required to increase encryption security (so called 'salt'). |
+| 800 | Version flag. It is an old file version, a version number is appended to file name as ';n'. |
+| 1000 | Extended time field present. |
+| 8000 | This bit always is set, so the complete block size is HEAD_SIZE + PACK_SIZE (and plus HIGH_PACK_SIZE, if bit 0x100 is set) |
 
 Bit Flags for Files in Archive
 
-| Bits (7 6 5) | Description         | Size (KB) |
-|--------------|---------------------|-----------|
-| 0 0 0        | Dictionary Size     | 64        |
-| 0 0 1        | Dictionary Size     | 128       |
-| 0 1 0        | Dictionary Size     | 256       |
-| 0 1 1        | Dictionary Size     | 512       |
-| 1 0 0        | Dictionary Size     | 1024      |
-| 1 0 1        | Dictionary Size     | 2048      |
-| 1 1 0        | Dictionary Size     | 4096      |
-| 1 1 1        | file is a directory | N/A       |
+| Bits (7 6 5) | Description | Size (KB) |
+| --- | --- | --- |
+| 0 0 0 | Dictionary Size | 64 |
+| 0 0 1 | Dictionary Size | 128 |
+| 0 1 0 | Dictionary Size | 256 |
+| 0 1 1 | Dictionary Size | 512 |
+| 1 0 0 | Dictionary Size | 1024 |
+| 1 0 1 | Dictionary Size | 2048 |
+| 1 1 0 | Dictionary Size | 4096 |
+| 1 1 1 | file is a directory | N/A |
 
 Dictionary Bits
 
 | Byte Indicator | Operating System |
-|----------------|------------------|
-| 0              | MS DOS           |
-| 1              | OS/2             |
-| 2              | Windows          |
-| 3              | Unix             |
-| 4              | Mac OS           |
-| 5              | BeOS             |
+| --- | --- |
+| 0 | MS DOS |
+| 1 | OS/2 |
+| 2 | Windows |
+| 3 | Unix |
+| 4 | Mac OS |
+| 5 | BeOS |
 
 Operating System Indicators
 
-| Byte Indicator | Method              |
-|----------------|---------------------|
-| 0x30           | Storing             |
-| 0x31           | Fastest Compression |
-| 0x32           | Fast Compression    |
-| 0x33           | Normal Compression  |
-| 0x34           | Good Compression    |
-| 0x35           | Best Compression    |
+| Byte Indicator | Method |
+| --- | --- |
+| 0x30 | Storing |
+| 0x31 | Fastest Compression |
+| 0x32 | Fast Compression |
+| 0x33 | Normal Compression |
+| 0x34 | Good Compression |
+| 0x35 | Best Compression |
 
 Packing Method
 
@@ -206,12 +206,12 @@ Packing Method
 
 There is often a terminating block present.
 
-| Field Name | Size (bytes) | Possibilities       |
-|------------|--------------|---------------------|
-| HEAD_CRC   | 2            | Always 0x3DC4       |
-| HEAD_TYPE  | 1            | Header type: 0x7b   |
-| HEAD_FLAGS | 2            | Always 0x4000       |
-| HEAD_SIZE  | 2            | Block size = 0x0007 |
+| Field Name | Size (bytes) | Possibilities |
+| --- | --- | --- |
+| HEAD_CRC | 2 | Always 0x3DC4 |
+| HEAD_TYPE | 1 | Header type: 0x7b |
+| HEAD_FLAGS | 2 | Always 0x4000 |
+| HEAD_SIZE | 2 | Block size = 0x0007 |
 
 terminator
 

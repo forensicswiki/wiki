@@ -24,11 +24,11 @@ Apple menu > About This Mac > More info > ATA
 ## Connecting the suspect drive
 
 Step 1. Without turning anything on, connect the forensic Mac to the
-suspect’s computer using a firewire cable.
+suspect's computer using a firewire cable.
 
-Step 2. Hold down the "Option" key on the suspect’s computer and turn it on.
+Step 2. Hold down the "Option" key on the suspect's computer and turn it on.
 
-Step 3. If the suspect’s computer **does not** ask for a password, then
+Step 3. If the suspect's computer **does not** ask for a password, then
 **turn it off**. If the computer **does** ask for a password, then
 **turn it off**. You cannot do a simple TDM acquisition if a password is
 required. You will have to either:
@@ -43,7 +43,7 @@ required. You will have to either:
 > after you hold down those four keys).
 
 Step 4. Assuming that no password was needed, hold down the "T" key and turn
-the suspect’s computer back on. The computer will eventually display the
+the suspect's computer back on. The computer will eventually display the
 firewire logo on the screen and is then ready for TDM.
 
 ## Acquiring the suspect drive
@@ -63,8 +63,8 @@ at least three drives will appear:
 * disk1
 * disk2
 
-One of these drives is the suspect’s. The other two are either the
-forensic Mac’s OS or the **Target** drive. You won’t necessarily know
+One of these drives is the suspect's. The other two are either the
+forensic Mac's OS or the **Target** drive. You won't necessarily know
 which is which, so you need to query them to see their size, which will
 give you a hint.
 
@@ -117,7 +117,7 @@ for receiving your evidence, using the mount command shown in green in
 line 8 below.
 
 Step 5. Once you confirm which drive is which, you are ready to go. Lets
-assume that your forensic drive is **disk0**, the suspect’s drive is
+assume that your forensic drive is **disk0**, the suspect's drive is
 **disk1**, and the Target drive is **disk2**.
 
 Step 6. Because we turned off disk arbitration, however, the target drive
@@ -139,7 +139,7 @@ connected drives. Go to the Terminal menu > Edit > Find. Search for
 model number for **disk1**. If a search for **disk2** comes up empty,
 then you know it is the unmounted drive.
 
-At this point, you have the choice of imaging the suspect’s entire drive
+At this point, you have the choice of imaging the suspect's entire drive
 (recommended), or of just imaging the slice that you want. If you want
 to image the entire drive, type:
 
@@ -169,8 +169,8 @@ cd /Volumes
 sudo umount /Target
 ```
 
-Shut down your forensic Mac and then shut down the suspect’s Mac.
-Disconnect the firewire connection to the suspect’s Mac.
+Shut down your forensic Mac and then shut down the suspect's Mac.
+Disconnect the firewire connection to the suspect's Mac.
 
 ## Examination
 
@@ -191,7 +191,7 @@ Step 2. The **Evidence.dmg** file should appear. Click on it once.
 Lock the file via the "GET INFO" menu to ensure it is write protected.
 
 You can now double-click to mount the Evidence.dmg file **and explore
-it within the native Mac OS environment.** If the image won’t mount,
+it within the native Mac OS environment.** If the image won't mount,
 go into the Terminal and type the following:
 
 ```text
