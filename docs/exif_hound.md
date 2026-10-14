@@ -42,10 +42,11 @@ Cons and trade-offs:
 * EXIF Hound is an analysis and triage tool, not a validated forensic
   acquisition tool. Findings that matter for a case should be confirmed
   with a second tool, for example [ExifTool](exiftool.md).
-  EXIF Hound parses metadata with ExifReader, independently of ExifTool,
-  so the two can be used for cross-validation.
-* As with any viewer, work on a verified working copy of the evidence
-  (compare [hashes](hash.md) before and after) rather than the original.
+* EXIF Hound uses ExifReader to parse metadata, as far known,
+  was independently developed of ExifTool, and therefore could be used
+  for cross-validation.
+* As with any viewer, it is recommended to work on a verified working copy
+  rather than the original.
 * Exif data is easy to edit or remove. Timestamps and GPS coordinates may
   have been changed, stripped by a social media platform, or set wrongly
   by the device, so treat them as indicators that need corroboration.
