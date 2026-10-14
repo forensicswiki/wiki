@@ -11,6 +11,8 @@ Various concepts central to digital forensics are:
   this, investigators typically work on a copy instead of the original device.
 * Forensic Soundness: A standard or concept stating that tools and methods used during an
   investigation must be scientifically validated, reliable, and independently verifiable.
+* [Ipse Dixit](ipse_dixit.md) or why "because the tool/vendor/expert/artificial intelligence said
+  so" is not evidence.
 * [Reproducibility](reproducibility.md)
 
 ## Storage & Data Concepts
