@@ -21,6 +21,9 @@ exif --tag=0x132 --set-value="1975:01:01 12:01:01" --ifd=0 filename.jpg
 ## See also
 
 * [Document Metadata Extraction](document_metadata_extraction.md)
+
+### Tools
+
 * [EXIF Hound](exif_hound.md)
 
 ## External Links
