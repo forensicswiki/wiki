@@ -44,7 +44,7 @@ Cons and trade-offs:
   with a second tool, for example [ExifTool](exiftool.md).
 * EXIF Hound uses ExifReader to parse metadata, as far known,
   was independently developed of ExifTool, and therefore could be used
-  for cross-validation.
+  for cross-tool validation.
 * As with any viewer, it is recommended to work on a verified working copy
   rather than the original.
 * Exif data is easy to edit or remove. Timestamps and GPS coordinates may
