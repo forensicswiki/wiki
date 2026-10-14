@@ -13,9 +13,7 @@ EXIF Hound is a free and open source desktop application for inspecting
 [Exif](exif.md) [metadata](metadata.md) in image files and plotting the
 GPS coordinates stored in that metadata on a map. It is released under the
 MIT license and built with Tauri (a Rust back end with a web-based user
-interface). It has been distributed since 2020. Signed installers are
-available for macOS (Apple Silicon), Windows (x64) and Linux (x64 and
-ARM64). Version 2.7.0 was released on 2026-10-13.
+interface). It has been distributed since 2020.
 
 EXIF Hound is local-first: metadata parsing runs on the examiner's computer,
 and image files, metadata, filenames and investigation data are not
@@ -65,6 +63,12 @@ Cons and trade-offs:
   to reconstruct where and in what order photos were taken.
 * Navigate a large set of imported images in a spreadsheet-style list view.
 * Import KML and export metadata as CSV or JSON for timelines and reports.
+
+## Version history
+
+Version 2.7.0 was released on 2026-10-13. Signed installers are
+available for macOS (Apple Silicon), Windows (x64) and Linux (x64 and
+ARM64). 
 
 ## See Also
 
