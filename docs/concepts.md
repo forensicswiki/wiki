@@ -11,6 +11,7 @@ Various concepts central to digital forensics are:
   this, investigators typically work on a copy instead of the original device.
 * Forensic Soundness: A standard or concept stating that tools and methods used during an
   investigation must be scientifically validated, reliable, and independently verifiable.
+* [Reproducibility](reproducibility.md)
 
 ## Storage & Data Concepts
 
@@ -32,11 +33,11 @@ Various concepts central to digital forensics are:
 * Write Blocking: A concept implemented via hardware or software that strictly prevents a computer
   from writing data to a piece of evidence. When a suspect's drive is plugged into a "write blocker",
   the investigator's computer can only read the data, ensuring the original device is completely
-  untouched.
+  untouched. See also: [write blockers](write_blockers.md).
 * Hashing (Cryptographic Verification): A process that passes a file or drive image through an
   algorithm (like SHA-256) to generate a unique alphanumeric string. Think of it as a digital
   fingerprint. If even a single letter inside a file is altered, the hash value changes completely,
-  alerting investigators that the evidence has been tampered with.
+  alerting investigators that the evidence has been tampered with. See also: [hashing](hashing.md).
 * [Order of Volatility](digital_evidence.md#order-of-volatility)
 
 ## Data recovery
@@ -45,6 +46,10 @@ Various concepts central to digital forensics are:
   Forensic software bypasses the operating system entirely and reads the raw binary data to identify
   specific file "headers" and "footers" (like finding the specific binary code that dictates where a
   JPEG begins and ends) to piece the file back together.
+
+## Data Format Analysis Concepts
+
+* [Unpaired surrogates](unpaired_surrogates.md)
 
 ## Timeline Analysis Concepts
 

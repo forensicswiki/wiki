@@ -1,8 +1,8 @@
 ---
 tags:
-  - Articles that need to be expanded
+  - Concept
 ---
-**Hashing** is a method for reducing large inputs to a smaller fixed size
+Hashing is a method for reducing large inputs to a smaller fixed size
 output. When doing forensics, typically cryptographic hashing algorithms like
 [MD5](md5.md) and [SHA-1](sha-1.md) are used. These functions have a few
 properties useful to forensics. Other types of hashing, such as
