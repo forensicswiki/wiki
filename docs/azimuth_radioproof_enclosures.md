@@ -2,7 +2,7 @@
 tags:
   - Commercial Hardware
 ---
-**Azimuth’s RadioProof Enclosures** provide an RF-interference free
+**Azimuth's RadioProof Enclosures** provide an RF-interference free
 environment in which to test wireless devices. RadioProof enclosures
 provide up to 90 dB of radiated RF isolation for a broad range of
 technologies that operate in frequency bands between 1 - 6GHz.

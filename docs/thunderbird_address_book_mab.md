@@ -25,7 +25,7 @@ Office
 
 **Database:** Mork
 
-MAB file format is Mork database’s part that covers all the records of
+MAB file format is Mork database's part that covers all the records of
 address books, which are related to all profiles that are configured.
 
 ## Types of MAB File

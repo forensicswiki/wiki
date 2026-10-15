@@ -44,7 +44,7 @@ in thin air.
 
 Kernel MBOX Viewer remains entirely accountable for processing of
 single/multiple files in a single cycle. The selection of MBOX files
-entirely depends upon user’s requirement. However, user must remain
+entirely depends upon user's requirement. However, user must remain
 assure that no data mingling will take place during entire process.
 
 ### Equipped with email filtering options
@@ -61,7 +61,7 @@ Kernel MBOX Viewer has inbuilt capability to save the retrieved MBOX
 files in HTML format. This makes accessibility to MBOX files flexible
 from other web browsers like Internet Explorer, Google Chrome, Firefox,
 etc. This feature of Kernel MBOX Viewer is best for those users who
-don’t have direct access to MBOX files.
+don't have direct access to MBOX files.
 
 ## Licensing
 

@@ -15,7 +15,7 @@ available plugins or by users writing plugins to suit specific needs.
 
 ## Technical Background and Forensic Soundness
 
-RegRipper uses James McFarlane’s Parse::Win32Registry module
+RegRipper uses James McFarlane's Parse::Win32Registry module
 [1](https://metacpan.org/release/JMACFARLA/Parse-Win32Registry-0.40) to
 access a Windows Registry hive file in an object-oriented manner,
 bypassing the Win32API. This module is used to locate and access

@@ -134,13 +134,13 @@ there is varied coverage of each software by digital forensics tools.
 Additionally, each forensic tool may only support limited versions of
 the encryption software, as noted in the table below:
 
-|                                                  |
-|--------------------------------------------------|
-| Solution                                         |
-| [EnCase Forensics](encase.md)                    |
-| [AccessData FTK v6](forensic_toolkit.md)         |
-| [X-Ways](x-ways_ag.md)                           |
-| Other Applications                               |
+| |
+| --- |
+| Solution |
+| [EnCase Forensics](encase.md) |
+| [AccessData FTK v6](forensic_toolkit.md) |
+| [X-Ways](x-ways_ag.md) |
+| Other Applications |
 
 ## See Also
 

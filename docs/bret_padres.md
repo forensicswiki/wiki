@@ -2,8 +2,8 @@
 tags:
   - People
 ---
-Bret A. Padres directs [Stroz Friedberg](stroz_friedberg.md)’s Digital
-Forensics Lab in Washington, DC, and co-manages the firm’s digital forensics
+Bret A. Padres directs [Stroz Friedberg](stroz_friedberg.md)'s Digital
+Forensics Lab in Washington, DC, and co-manages the firm's digital forensics
 practice.  With over 22 years of experience in the fields of information
 security, digital forensics, law enforcement, electronic discovery, and
 counterintelligence, Mr. Padres is responsible for developing and implementing

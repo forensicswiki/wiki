@@ -95,33 +95,33 @@ Default partition layout, first partition starts:
 
 ### Common paths
 
-| Windows XP (and earlier)                                                    | Windows Vista (and later)                                                   |
-|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| \Documents and Settings                                                     | \Users                                                                      |
-| \Documents and Settings\\%USERNAME%\My Documents                            | \Users\\%USERNAME%\Documents                                                |
-| \Documents and Settings\\%USERNAME%\My Documents\My Music                   | \Users\\%USERNAME%\Music                                                    |
-| \Documents and Settings\\%USERNAME%\My Documents\My Pictures                | \Users\\%USERNAME%\Pictures                                                 |
-| \Documents and Settings\\%USERNAME%\My Documents\My Videos                  | \Users\\%USERNAME%\Videos                                                   |
-| \Documents and Settings\\%USERNAME%\Application Data                        | \Users\\%USERNAME%\AppData\Roaming                                          |
-| \Documents and Settings\\%USERNAME%\Cookies                                 | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Cookies                |
-| \Documents and Settings\\%USERNAME%\Local Settings                          | \Users\\%USERNAME%\AppData\Local                                            |
-| \Documents and Settings\\%USERNAME%\NetHood                                 | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Network Shortcuts      |
-| \Documents and Settings\\%USERNAME%\PrintHood                               | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Printer Shortcuts      |
-| \Documents and Settings\\%USERNAME%\Recent                                  | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent                 |
-| \Documents and Settings\\%USERNAME%\SendTo                                  | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\SendTo                 |
-| \Documents and Settings\\%USERNAME%\Start Menu                              | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu             |
-| \Documents and Settings\\%USERNAME%\Templates                               | \Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Templates              |
-| \Documents and Settings\\%USERNAME%\Local Settings\Application Data         | \Users\\%USERNAME%\AppData\Local                                            |
-| \Documents and Settings\\%USERNAME%\Local Settings\History                  | \Users\\%USERNAME%\AppData\Local\Microsoft\Windows\History                  |
-| \Documents and Settings\\%USERNAME%\Local Settings\Temporary Internet Files | \Users\\%USERNAME%\AppData\Local\Microsoft\Windows\Temporary Internet Files |
-| \Documents and Settings\All Users                                           | \ProgramData                                                                |
-| \Documents and Settings\All Users\Application Data                          | \ProgramData                                                                |
-| \Documents and Settings\All Users\Desktop                                   | \Users\Public\Desktop                                                       |
-| \Documents and Settings\All Users\Documents                                 | \Users\Public\Documents                                                     |
-| \Documents and Settings\All Users\Favorites                                 | \Users\Public\Favorites                                                     |
-| \Documents and Settings\All Users\Start Menu                                | \ProgramData\Microsoft\Windows\Start Menu                                   |
-| \Documents and Settings\All Users\Templates                                 | \ProgramData\Microsoft\Windows\Templates                                    |
-| \Documents and Settings\Default User                                        | \Users\Default                                                              |
+| Windows XP (and earlier) | Windows Vista (and later) |
+| --- | --- |
+| \Documents and Settings | \Users |
+| \Documents and Settings\%USERNAME%\My Documents | \Users\%USERNAME%\Documents |
+| \Documents and Settings\%USERNAME%\My Documents\My Music | \Users\%USERNAME%\Music |
+| \Documents and Settings\%USERNAME%\My Documents\My Pictures | \Users\%USERNAME%\Pictures |
+| \Documents and Settings\%USERNAME%\My Documents\My Videos | \Users\%USERNAME%\Videos |
+| \Documents and Settings\%USERNAME%\Application Data | \Users\%USERNAME%\AppData\Roaming |
+| \Documents and Settings\%USERNAME%\Cookies | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Cookies |
+| \Documents and Settings\%USERNAME%\Local Settings | \Users\%USERNAME%\AppData\Local |
+| \Documents and Settings\%USERNAME%\NetHood | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Network Shortcuts |
+| \Documents and Settings\%USERNAME%\PrintHood | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Printer Shortcuts |
+| \Documents and Settings\%USERNAME%\Recent | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent |
+| \Documents and Settings\%USERNAME%\SendTo | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\SendTo |
+| \Documents and Settings\%USERNAME%\Start Menu | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu |
+| \Documents and Settings\%USERNAME%\Templates | \Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Templates |
+| \Documents and Settings\%USERNAME%\Local Settings\Application Data | \Users\%USERNAME%\AppData\Local |
+| \Documents and Settings\%USERNAME%\Local Settings\History | \Users\%USERNAME%\AppData\Local\Microsoft\Windows\History |
+| \Documents and Settings\%USERNAME%\Local Settings\Temporary Internet Files | \Users\%USERNAME%\AppData\Local\Microsoft\Windows\Temporary Internet Files |
+| \Documents and Settings\All Users | \ProgramData |
+| \Documents and Settings\All Users\Application Data | \ProgramData |
+| \Documents and Settings\All Users\Desktop | \Users\Public\Desktop |
+| \Documents and Settings\All Users\Documents | \Users\Public\Documents |
+| \Documents and Settings\All Users\Favorites | \Users\Public\Favorites |
+| \Documents and Settings\All Users\Start Menu | \ProgramData\Microsoft\Windows\Start Menu |
+| \Documents and Settings\All Users\Templates | \ProgramData\Microsoft\Windows\Templates |
+| \Documents and Settings\Default User | \Users\Default |
 
 ### Hosts information
 
@@ -293,7 +293,7 @@ References:
 ### CCM_RecentlyUsedApps
 
 "SCCM has the ability to collect inventory data from many sources, and
-tracking executables launching is one. This feature isn’t turned on by
+tracking executables launching is one. This feature isn't turned on by
 default to have the SCCM server collect this data; however, the logging
 occurs on the endpoints regardless of the settings that are configured
 on the server." \[1\]

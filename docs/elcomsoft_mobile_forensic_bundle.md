@@ -55,7 +55,7 @@ lot more.
 
 ### Google forensics
 
-Extract and analyze user’s detailed location history, search queries,
+Extract and analyze user's detailed location history, search queries,
 Chrome passwords and browsing history, Gmail messages, contacts, photos,
 and a lot more.
 

@@ -13,7 +13,7 @@ Rubén Fernández Pozo, Álvaro Hernández Trapote and Luis Hernández Gómez, 2
 [Red-Eye Blink, Bendy Shuffle, and the Yuck Factor: A User Experience of Biometric Airport
 Systems](https://ieeexplore.ieee.org/document/4218559/), by M. Angela Sasse, 2007
 
-[A study of identical twins’ palmprints for personal
+[A study of identical twins' palmprints for personal
 verification](https://linkinghub.elsevier.com/retrieve/pii/S0370269303016769), by Adams Wai-Kin
 Kong, David Zhang and Guangming Lu, 2006
 

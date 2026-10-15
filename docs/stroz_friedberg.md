@@ -9,7 +9,7 @@ cybercrime response, and investigations. Strategy and risk management in
 the form of sound, ethical consulting advice is the foundation of
 everything we do: it provides the context in which we deploy
 unparalleled investigative skills and proprietary technologies and
-cost-effectively resolve our clients’ most pressing matters.
+cost-effectively resolve our clients' most pressing matters.
 Corporations, law firms, government agencies, and the courts rely on us
 for our objective and thorough analyses and solutions that invariably
 withstand the scrutiny of opposing counsel and their experts.

@@ -131,7 +131,7 @@ is able to recover high definition RAW images from Canon, Nikon etc.
 * [Kernel Data Recovery](https://www.kerneldatarecovery.com/)
 
 Kernel Data Recovery offers a wide range of data recovery products to
-recuperate data from corrupt databases, desktops, laptops, RAID’s,
+recuperate data from corrupt databases, desktops, laptops, RAID's,
 exchange servers and other virtual and hardware machines. All the
 products are user oriented and embedded with QFSCI algorithm to provide
 accurate solutions quickly.

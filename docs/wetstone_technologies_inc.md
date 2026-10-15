@@ -117,7 +117,7 @@ licenses are available upon request
 ### Advanced Steganography Demystifying Steganography Investigation
 
 During this 2 day advanced class, students will participate in hands on
-experiments with stego’d images, multimedia files, advanced network
+experiments with stego'd images, multimedia files, advanced network
 protocols and Steganographic file systems. Detailed analytical and
 jamming methods will be utilized to both discover and disrupt
 Steganographic operations. Analysis of Steganographic file systems,
@@ -144,7 +144,7 @@ in this analysis.
 * Private investigators
 * IT security professionals
 
-Our trainers take you inside the minds of today’s criminals and students
+Our trainers take you inside the minds of today's criminals and students
 completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
@@ -153,9 +153,9 @@ will be tested with certification exams.
 
 WetStone has engineered a three-day interactive lab environment that
 allows each student to experience real investigative scenarios in a
-cyber safe environment. WetStone’s multi-pronged approach to this
+cyber safe environment. WetStone's multi-pronged approach to this
 bootcamp allows each student to utilize the latest tools and
-technologies used by today’s criminals, and to practice the requisite
+technologies used by today's criminals, and to practice the requisite
 live approach to investigation. This learning environment is the most
 effective approach to acquiring deep knowledge regarding both the latest
 threats and to practice in live investigation techniques and
@@ -177,7 +177,7 @@ the best ...
 * Log Analysis
 * Process Port Linkage
 
-Our trainers take you inside the minds of today’s criminals and students
+Our trainers take you inside the minds of today's criminals and students
 completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
@@ -216,7 +216,7 @@ Criminals are armed with the ability to:
 * IT security professionals
 * Security auditors
 
-Our trainers take you inside the minds of today’s criminals and students
+Our trainers take you inside the minds of today's criminals and students
 completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
@@ -252,7 +252,7 @@ massive amounts of identity theft and corporate leakage of data.
 * IT security professionals
 * Security auditors
 
-Our trainers take you inside the minds of today’s criminals and students
+Our trainers take you inside the minds of today's criminals and students
 completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.
@@ -291,7 +291,7 @@ knowledge in the fundamentals of Zombies and Botnets
 * Investigative considerations when faced with these weapons
 * Learn the art of isolation and termination of Botnets.
 
-Our trainers take you inside the minds of today’s criminals and students
+Our trainers take you inside the minds of today's criminals and students
 completing the class will be able to execute a full investigation in
 the respective discipline. Participants proficiency in the above skills
 will be tested with certification exams.

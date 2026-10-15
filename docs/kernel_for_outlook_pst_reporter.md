@@ -11,7 +11,7 @@ structure. It gives detailed description about concerned PST files.
 ## Overview
 
 Kernel Outlook PST Reporter is a free tool with an outstanding
-capability to provide detailed statistical and analytical data on user’s
+capability to provide detailed statistical and analytical data on user's
 PST files. Being a free tool, Kernel Outlook PST Reporter comes without
 any limitations on providing comprehensive reports for concerned folder
 of PST files. The tool manages its report on the basis of data items
@@ -21,7 +21,7 @@ Email Item Size, Total Attachments, Attachment Type, and so on.
 ## Features
 
 The most important feature of Kernel Outlook PST Reporter is to provide
-statistical and analytical report on user’s selected folders of PST
+statistical and analytical report on user's selected folders of PST
 files. The other features are ancillary to it.
 
 ### Detailed Report of PST files

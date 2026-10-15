@@ -178,8 +178,8 @@ each show are listed below.
   and the 4th Amendment
 * 30 Jun 2011: [Cindy Murphy](cindy_murphy.md): about the launch
   of the CDFS
-* 18 Jul 2011: George Starcher about password cracking using Access Data’s
-  DNA and Amazon’s Elastic Compute Cloud.
+* 18 Jul 2011: George Starcher about password cracking using Access Data's
+  DNA and Amazon's Elastic Compute Cloud.
 * 18 Aug 2011: [Keith Jones](keith_jones.md) about Do's and
   Don'ts of Testifying
 * 21 Aug 2011: [Drew Fahey](drew_fahey.md), VP of Products at

@@ -7,10 +7,10 @@ A grab-bag collection of citations on legal issues.
 # The Hacker Defense (aka Trojan/Virus Defense)
 
 Below are accounts of different hacker/virus/Trojan related defenses.
-Albeit some of these are not ‘reputable’ web sources, but they should
+Albeit some of these are not 'reputable' web sources, but they should
 all have official court backing from wherever the various investigators
 that do similar. The Crown Prosecution Service (covers England and
-Wales) is training prosecutors en masse about ‘trojan defenses’ (link
+Wales) is training prosecutors en masse about 'trojan defenses' (link
 below). These types of actions would not occur unwarranted. Why do all
 the extra work for nothing?
 
@@ -37,10 +37,10 @@ A former Georgia teacher blames computer viruses for altering his Web
 sites and uploading child porn images. Guilty charge upheld.
 
 Odd spin on the issue, where a hacker used a Trojan to gain access to
-potential pedophile’s computers.
+potential pedophile's computers.
 
-Bandy’s defense attorney asserted that a "virus" or "trojan" must have
-downloaded the child pornography to Bandy’s computer without his
+Bandy's defense attorney asserted that a "virus" or "trojan" must have
+downloaded the child pornography to Bandy's computer without his
 knowledge.
 [4](https://www.cnet.com/tech/tech-industry/police-blotter-child-porn-blamed-on-computer-virus/)
 

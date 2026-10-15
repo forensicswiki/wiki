@@ -13,7 +13,7 @@ introduced by Kernel Data Recovery in May, 2006. The tool joined the
 Kernel's vast range of free software. The advanced tool, specially
 programmed for recovering passwords of Outlook Express email accounts,
 is available online for free download. The tool used to be a paid one at
-the time of launch but now it’s available free of cost.
+the time of launch but now it's available free of cost.
 
 ## Interface
 

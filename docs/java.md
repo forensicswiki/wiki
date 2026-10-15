@@ -78,36 +78,36 @@ Values are in big-endian.
 
 The header (or section 1) is 128 bytes in size and contains:
 
-| Offset | Size | Value                   | Description                                                                            |
-|:-------|------|-------------------------|----------------------------------------------------------------------------------------|
-| 0      | 1    |                         | Busy (flag byte)                                                                       |
-| 1      | 1    |                         | Incomplete (flag byte)                                                                 |
-| 2      | 4    | 00 00 02 5b (603)       | Format version                                                                         |
-| 6      | 1    |                         | Force update (flag byte)                                                               |
-| 7      | 1    |                         | No-href (flag byte)                                                                    |
-| 8      | 1    |                         | Is shortcut image (flag byte)                                                          |
-| 9      | 4    |                         | Content-Length                                                                         |
-| 13     | 8    | 00 00 01 1f 81 29 fe b8 | Last modification date (Number of milli seconds since Jan 1, 1970 00:00:00)            |
-| 21     | 8    |                         | expiration date (Number of milli seconds since Jan 1, 1970 00:00:00) 0 if not expires? |
-| 29     | 8    | 00 00 01 2b 24 4a cb dd | Validation timestamp (Number of milli seconds since Jan 1, 1970 00:00:00)              |
-| 37     | 1    |                         | Known to be signed (flag byte)                                                         |
-| 38     | 4    |                         | Size of section 2                                                                      |
-| 42     | 4    |                         | Size of section 3                                                                      |
-| 46     | 4    |                         | Size of section 4                                                                      |
-| 50     | 4    |                         | Size of section 5                                                                      |
-| 54     | 8    | 00 00 01 2b 24 4a a4 cd | Blacklist validation time (Number of milli seconds since Jan 1, 1970 00:00:00)         |
-| 62     | 8    | 00 00 01 2e 45 83 f4 18 | Certificate expiration date (Number of milli seconds since Jan 1, 1970 00:00:00)       |
-| 70     | 1    |                         | Class verification status                                                              |
-| 71     | 4    |                         | Reduced manifest size                                                                  |
-| 75     | 4    |                         | section4Pre15Length?                                                                   |
-| 79     | 1    |                         | Has only signed entries (flag byte)                                                    |
-| 80     | 1    |                         | Has single code source (flag byte)                                                     |
-| 81     | 4    |                         | section4CertsLength?                                                                   |
-| 85     | 4    |                         | section4SignersLength?                                                                 |
-| 89     | 1    |                         | Has missing signed entries (flag byte)                                                 |
-| 90     | 8    | 00 00 01 2b 24 4a a4 cd | Trusted libraries validation time (Number of milli seconds since Jan 1, 1970 00:00:00) |
-| 98     | 4    |                         | reducedManifest2Length?                                                                |
-| 102    | 26   |                         | Unknown, empty values (likely reserved for future expansion of the header)             |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 1 | | Busy (flag byte) |
+| 1 | 1 | | Incomplete (flag byte) |
+| 2 | 4 | 00 00 02 5b (603) | Format version |
+| 6 | 1 | | Force update (flag byte) |
+| 7 | 1 | | No-href (flag byte) |
+| 8 | 1 | | Is shortcut image (flag byte) |
+| 9 | 4 | | Content-Length |
+| 13 | 8 | 00 00 01 1f 81 29 fe b8 | Last modification date (Number of milli seconds since Jan 1, 1970 00:00:00) |
+| 21 | 8 | | expiration date (Number of milli seconds since Jan 1, 1970 00:00:00) 0 if not expires? |
+| 29 | 8 | 00 00 01 2b 24 4a cb dd | Validation timestamp (Number of milli seconds since Jan 1, 1970 00:00:00) |
+| 37 | 1 | | Known to be signed (flag byte) |
+| 38 | 4 | | Size of section 2 |
+| 42 | 4 | | Size of section 3 |
+| 46 | 4 | | Size of section 4 |
+| 50 | 4 | | Size of section 5 |
+| 54 | 8 | 00 00 01 2b 24 4a a4 cd | Blacklist validation time (Number of milli seconds since Jan 1, 1970 00:00:00) |
+| 62 | 8 | 00 00 01 2e 45 83 f4 18 | Certificate expiration date (Number of milli seconds since Jan 1, 1970 00:00:00) |
+| 70 | 1 | | Class verification status |
+| 71 | 4 | | Reduced manifest size |
+| 75 | 4 | | section4Pre15Length? |
+| 79 | 1 | | Has only signed entries (flag byte) |
+| 80 | 1 | | Has single code source (flag byte) |
+| 81 | 4 | | section4CertsLength? |
+| 85 | 4 | | section4SignersLength? |
+| 89 | 1 | | Has missing signed entries (flag byte) |
+| 90 | 8 | 00 00 01 2b 24 4a a4 cd | Trusted libraries validation time (Number of milli seconds since Jan 1, 1970 00:00:00) |
+| 98 | 4 | | reducedManifest2Length? |
+| 102 | 26 | | Unknown, empty values (likely reserved for future expansion of the header) |
 
 The values present in the header are dependent on the version. The
 definition above is based on version 603 and intended as an example
@@ -129,22 +129,22 @@ print(datetime.datetime(1970, 1, 1) + datetime.timedelta(milliseconds=0x011f8129
 000000b0  65 73 74 41 70 70 6c 65  74 2e 6a 61 72           |estApplet.jar   |
 ```
 
-| Offset | Size | Value | Description                                                     |
-|:-------|------|-------|-----------------------------------------------------------------|
-| 128    | 2    | 00 00 | Version string size                                             |
-| 130    | 2    | 00 39 | Original URL string size                                        |
-| 132    | size |       | Original URL string (UTF-8 without an end-of-string character?) |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 128 | 2 | 00 00 | Version string size |
+| 130 | 2 | 00 39 | Original URL string size |
+| 132 | size | | Original URL string (UTF-8 without an end-of-string character?) |
 
 ```text
 000000b0                                          00 00 00  |             ...|
 000000c0  0c 36 36 2e 33 37 2e 32  31 30 2e 38 36 00 00 00  |.66.37.210.86   |
 ```
 
-| Offset | Size | Value | Description                                           |
-|:-------|------|-------|-------------------------------------------------------|
-| ...    | 2    | 00 00 | Namespace string size                                 |
-| ...    | 2    | 00 0c | IP string size                                        |
-| ...    | size |       | IP string (UTF-8 without an end-of-string character?) |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| ... | 2 | 00 00 | Namespace string size |
+| ... | 2 | 00 0c | IP string size |
+| ... | size | | IP string (UTF-8 without an end-of-string character?) |
 
 <!-- typos:disable -->
 
@@ -171,19 +171,19 @@ print(datetime.datetime(1970, 1, 1) + datetime.timedelta(milliseconds=0x011f8129
 
 <!-- typos:enable -->
 
-| Offset | Size | Value | Description                  |
-|:-------|------|-------|------------------------------|
-| ...    | 4    |       | Number of header value pairs |
-| ...    | ...  |       | Array of header value pairs  |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| ... | 4 | | Number of header value pairs |
+| ... | ... | | Array of header value pairs |
 
 A value pair is variable of size and consists of:
 
-| Offset | Size | Value | Description                         |
-|:-------|------|-------|-------------------------------------|
-| 0      | 2    |       | Header value identifier string size |
-| 2      | size |       | Header value identifier string      |
-| ...    | 2    |       | Header value string size            |
-| ...    | size |       | Header value string                 |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 2 | | Header value identifier string size |
+| 2 | size | | Header value identifier string |
+| ... | 2 | | Header value string size |
+| ... | size | | Header value string |
 
 For the example above the size of the URL string can be found at offset
 130 (0x82). The first 4 string values to extract from this data are

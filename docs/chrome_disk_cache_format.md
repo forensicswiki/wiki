@@ -8,10 +8,10 @@ tags:
 
 The cache is stored in multiple:
 
-| Filename  | Description                 |
-|-----------|-----------------------------|
-| index     | The index file              |
-| data_#   | Data block files            |
+| Filename | Description |
+| --- | --- |
+| index | The index file |
+| data_# | Data block files |
 | f_###### | (Separate) data stream file |
 
 ## Cache address
@@ -33,22 +33,22 @@ The cache address is 4 bytes in size and consists of:
 
 ### File types
 
-| Value | Description                                          |
-|-------|------------------------------------------------------|
-| 0     | (Separate) data stream file                          |
-| 1     | (Rankings) block data file (36 byte block data file) |
-| 2     | 256 byte block data file                             |
-| 3     | 1024 byte block data file                            |
-| 4     | 4096 byte block data file                            |
-|       |                                                      |
-| 6     | Unknown; seen on Mac OS X 0x6f430074                 |
+| Value | Description |
+| --- | --- |
+| 0 | (Separate) data stream file |
+| 1 | (Rankings) block data file (36 byte block data file) |
+| 2 | 256 byte block data file |
+| 3 | 1024 byte block data file |
+| 4 | 4096 byte block data file |
+| | |
+| 6 | Unknown; seen on Mac OS X 0x6f430074 |
 
 #### Examples
 
-| Value      | Description                                              |
-|------------|----------------------------------------------------------|
-| 0x00000000 | Not initialized                                          |
-| 0x8000002a | Data stream file: f_00002a                               |
+| Value | Description |
+| --- | --- |
+| 0x00000000 | Not initialized |
+| 0x8000002a | Data stream file: f_00002a |
 | 0xa0010003 | Block data file: data_1, block number 3, 1 block of size |
 
 ## Index file format (index)
@@ -83,9 +83,9 @@ consists of:
 #### Format versions
 
 | Value | Description |
-|-------|-------------|
-| 2.0   |             |
-| 2.1   |             |
+| --- | --- |
+| 2.0 | |
+| 2.1 | |
 
 ### Least recently used (LRU) data
 
@@ -108,13 +108,13 @@ and consists of:
 
 The array indexes correspond to the file types.
 
-| Value | Description                |
-|-------|----------------------------|
-| 0     | Separate file              |
-| 1     | (Rankings) block data file |
-| 2     | 256 byte block data file   |
-| 3     | 1024 byte block data file  |
-| 4     | 4096 byte block data file  |
+| Value | Description |
+| --- | --- |
+| 0 | Separate file |
+| 1 | (Rankings) block data file |
+| 2 | 256 byte block data file |
+| 3 | 1024 byte block data file |
+| 4 | 4096 byte block data file |
 
 ### Index table
 
@@ -151,9 +151,9 @@ consists of:
 #### Format versions
 
 | Value | Description |
-|-------|-------------|
-| 2.0   |             |
-| 2.1   |             |
+| --- | --- |
+| 2.0 | |
+| 2.1 | |
 
 ### Cache entry
 
@@ -182,27 +182,27 @@ of:
 
 The data stream array indexes correspond to:
 
-| Value | Description             |
-|-------|-------------------------|
-| 0     | HTTP response headers   |
-| 1     | Page contents (Payload) |
-| 2     |                         |
-| 3     |                         |
+| Value | Description |
+| --- | --- |
+| 0 | HTTP response headers |
+| 1 | Page contents (Payload) |
+| 2 | |
+| 3 | |
 
 #### Cache entry state
 
-| Value | Identifier    | Description                          |
-|-------|---------------|--------------------------------------|
-| 0     | ENTRY_NORMAL  | Normal cache entry                   |
-| 1     | ENTRY_EVICTED | The cache entry was recently evicted |
-| 2     | ENTRY_DOOMED  | The cache entry was doomed           |
+| Value | Identifier | Description |
+| --- | --- | --- |
+| 0 | ENTRY_NORMAL | Normal cache entry |
+| 1 | ENTRY_EVICTED | The cache entry was recently evicted |
+| 2 | ENTRY_DOOMED | The cache entry was doomed |
 
 #### Cache entry flags
 
-| Value      | Identifier   | Description        |
-|------------|--------------|--------------------|
+| Value | Identifier | Description |
+| --- | --- | --- |
 | 0x00000001 | PARENT_ENTRY | Parent cache entry |
-| 0x00000002 | CHILD_ENTRY  | Child cache entry  |
+| 0x00000002 | CHILD_ENTRY | Child cache entry |
 
 ### Rankings node
 

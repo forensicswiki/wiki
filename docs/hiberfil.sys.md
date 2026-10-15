@@ -26,11 +26,11 @@ Microsoft released documentation on the Xpress compression algorithm in
 the [Directory Replication Service (DRS) Remote Protocol](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-drsr/f977faaa-673e-4f66-b9bf-48c640241d47)
 specification (section 4.1.10.6.15, "DecompressWin2k3").
 
-| Windows Version | Compression               |
-|-----------------|---------------------------|
-| ME and earlier  | none                      |
-| 2000            | LZNT1 (LZ77 variant)      |
-| Vista, 7        | Xpress (LZ77 and direct2) |
+| Windows Version | Compression |
+| --- | --- |
+| ME and earlier | none |
+| 2000 | LZNT1 (LZ77 variant) |
+| Vista, 7 | Xpress (LZ77 and direct2) |
 
 [Hibernation Recon](arsenal_recon.md#hibernation-recon) is a
 commercial digital forensics tool launched in late 2016. In addition to

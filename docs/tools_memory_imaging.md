@@ -37,8 +37,8 @@ Kernel-mode operation yields more reliable results compared to user-mode
 tools.
 
 Designed specifically for computer forensics. Fully portable, runs off a
-flash drive, produces uncompressed raw binary output of the computer’s
-volatile memory. Includes kernel-mode drivers for all Windows OS’es
+flash drive, produces uncompressed raw binary output of the computer's
+volatile memory. Includes kernel-mode drivers for all Windows OS'es
 including XP, Vista, 7, 8, 2003 and 2008 Server. 32 and 64-bit drivers
 are included.
 

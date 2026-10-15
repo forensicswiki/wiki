@@ -20,23 +20,22 @@ A Kaspersky Quarantine File consists of:
 
 The file header is 64 bytes of size and consists of:
 
-| Offset | Size | Value  | Description                                              |
-|--------|------|--------|----------------------------------------------------------|
-| 0      | 4    | "KLQB" | Signature                                                |
-| 4      | 4    | 1      | Unknown, version?                                        |
-| 8      | 4    |        | Unknown, header size or offset to quarantined file data? |
-| 12     | 4    |        | Unknown, empty values?                                   |
-| 16     | 4    |        | Unknown, offset to metadata?                             |
-| 20     | 12   |        | Unknown                                                  |
-| 32     | 4    |        | Unknown, size of metadata?                               |
-| 36     | 4    |        | Unknown, empty values?                                   |
-| 40     | 4    |        | Unknown, header size?                                    |
-| 44     | 4    |        | Unknown, empty values?                                   |
-| 48     | 4    |        | Unknown, quarantined file size?                          |
-| 52     | 4    |        | Unknown, empty values?                                   |
-| 56     | 4    | 1      | Unknown                                                  |
-| 60     | 4    |        | Unknown, empty values?                                   |
-|        |      |        |                                                          |
+| Offset | Size | Value | Description |
+| --- | --- | --- | --- |
+| 0 | 4 | "KLQB" | Signature |
+| 4 | 4 | 1 | Unknown, version? |
+| 8 | 4 | | Unknown, header size or offset to quarantined file data? |
+| 12 | 4 | | Unknown, empty values? |
+| 16 | 4 | | Unknown, offset to metadata? |
+| 20 | 12 | | Unknown |
+| 32 | 4 | | Unknown, size of metadata? |
+| 36 | 4 | | Unknown, empty values? |
+| 40 | 4 | | Unknown, header size? |
+| 44 | 4 | | Unknown, empty values? |
+| 48 | 4 | | Unknown, quarantined file size? |
+| 52 | 4 | | Unknown, empty values? |
+| 56 | 4 | 1 | Unknown |
+| 60 | 4 | | Unknown, empty values? |
 
 ## Quarantined file
 

@@ -7,7 +7,7 @@ forensics, mobile forensics, CCTV DVR forensics, data security and E-discovery.
 As a pioneer of the industry, SalvationDATA is always committed to providing
 innovation platform with proprietary technologies for Law Enforcement Agencies,
 Government, Military Intelligence Agencies, Digital Forensics Laboratories and
-Corporations, etc.  SalvationDATA’s professional engineers and forensic experts
+Corporations, etc. SalvationDATA's professional engineers and forensic experts
 are dedicated to providing outstanding service to more than 9,000 customers
 from over 130 countries around the world.On top of that, SalvationDATA also
 stands out as a world-leading manufacturer of forensic laboratory platform and
@@ -17,7 +17,7 @@ SalvationDATA concentrates on research and development, and has persistently
 pursued innovation. The core technologies include data recovery and extraction,
 data disposal, privacy protection and digital forensics, especially Firmware
 Analog™, Shadow Disk™, DBER™ which have effectively resolved data lost of all
-kinds of storage media. SalvationDATA’s products are widely used in digital
+kinds of storage media. SalvationDATA's products are widely used in digital
 forensics, data security, data recovery and E-discovery.
 
 SalvationDATA's product line covers 3 main fields, i.e. computer forensics,

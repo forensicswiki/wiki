@@ -29,7 +29,7 @@ cellular or PCS environment.
 
 ## How It Works
 
-It’s necessary for TDMA to rely upon that fact that the audio signal has
+It's necessary for TDMA to rely upon that fact that the audio signal has
 been digitized. These signals are divided into a number of milliseconds
 and distributed into time slots. TDMA is also the access technique used
 in the European digital cellular standard, GSM, and the Japanese digital

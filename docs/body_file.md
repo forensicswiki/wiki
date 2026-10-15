@@ -8,52 +8,50 @@ tags:
   - Text
   - Articles that need to be expanded
 ---
+The body file format is a delimiter-separated output timeline format (as far as known)
+introduced by the grave-robber tool of the The Coroner's Toolkit (TCT) and was adopted by
+[the Sleuth Kit](the_sleuth_kit.md).
 
-# Body File
+> Body file may also be referred to as "bodyfile", however official documentation refers to it as
+> body file (two separate words).
 
-> Body file may also be referred to as "bodyfile", however official
-> documentation refers to it as body file (two separate words).
-
-The **body file** format is a delimiter-separated output timeline format (as
-far as known) introduced by the grave-robber tool of the The Coroner's Toolkit
-(TCT) and was adopted by [the Sleuth Kit](the_sleuth_kit.md). Body files are
-pipe (`|`) delimited and are referred to as an "intermediate file", as they are
-not sorted chronologically and are often staged for post-processing. Subsequent
-timeline sorting is done via the [mactime](mactime.md) tool.
+Body files are pipe (`|`) delimited and are referred to as an "intermediate file", as they are not
+sorted chronologically and are often staged for post-processing. Subsequent timeline sorting is
+done via the [mactime](mactime.md) tool.
 
 ## Data & Fields
 
-All times within a body file are reported in UNIX time format. Lines that start
-with `#` are ignored and treated as comments.
+All times within a body file are reported in UNIX time format. Lines that start with `#` are
+ignored and treated as comments.
 
-There was a rewrite of body file output with The Sleuth Kit 3.0. However, some
-tools may still utilize version 2.x.
+There was a rewrite of body file output with The Sleuth Kit 3.0. However, some tools may still
+utilize version 2.x.
 
 Default output fields are as follows.
 
+## Versions
+
+> Note that outputs below do not include spaces between values and pipes, they have inserted them
+> here for easier readability.
+
 ### Version 2.x
 
-```ascii
+```text
 MD5 | path/name | device | inode | mode_as_value | mode_as_string | num_of_links | UID | GID | rdev | size | atime | mtime | ctime | block_size | num_of_blocks
 ```
 
 ### Version 3.x
 
-```ascii
+```text
 MD5 | name | inode | mode_as_string | UID | GID | size | atime | mtime | ctime | crtime
 ```
-
-> Note that outputs do not include spaces between values and pipes, they have
-> inserted them here for easier readability.
-
----
 
 ## Observed behavior and known issues
 
 Known shortcomings with body file format are:
 
 * Undocumented granularity of timestamp, current implementation by
-  [The Sleuth Kit](the_sleuth_kit.md) appears to be seconds. See <https://github.com/sleuthkit/sleuthkit/issues/1810>.
+  [the Sleuth Kit](the_sleuth_kit.md) appears to be seconds. See <https://github.com/sleuthkit/sleuthkit/issues/1810>.
 * Undocumented extended file mode of `-/-rrwxrwxrwx`. Characters `-/-` are appended to the body file
   entry and `r` file entry type indication, presumably to indicate a "regular file".
 * Undocumented and inconsistent application of TSK metadata addresses. See <https://github.com/sleuthkit/sleuthkit/issues/1809>.
@@ -63,12 +61,12 @@ Known shortcomings with body file format are:
 * Body file encoding is not specified, UTF-8 is assumed.
   * It is unclear how "invalid" Unicode characters should be handled, such as unpaired surrogates in
     NTFS file names.
-* The name field can contain `($FILE_NAME)` to indicate the body file entry was derived from a NTFS
-  `$FILE_NAME` attribute instead of `$STANDARD_INFORMATION` and `$DATA` attributes. Note that the
+* The name field can contain "($FILE_NAME)" to indicate the body file entry was derived from a NTFS
+  $FILE_NAME attribute instead of $STANDARD_INFORMATION and $DATA attributes. Note that the
   exact behavior is not documented by the Sleuth Kit project.
 * The `name` field can contain `-> symbolic_link_target` but `fls` does not appear to support this
   for NTFS. Also see <https://github.com/sleuthkit/sleuthkit/issues/2645>.
-* It is unclear if the symbolic link target can be used in combination with the `($FILE_NAME)` suffix.
+* It is unclear if the symbolic link target can be used in combination with the "($FILE_NAME)" suffix.
 * It is unclear which characters should be escaped, by observation `|`
   and `\` are both escaped with `\` in the name field by `fls` but `mactime`
   is unable to handle a name that contains the `|` character. See
@@ -208,7 +206,7 @@ Sleuthkit 4.7.0 was used to create the example below from a sample NTFS MFT file
 
 Body file data:
 
-```ascii
+```text
 0|/$BadClus|8-128-2|r/rr-xr-xr-x|0|0|0|1580550524|1580550524|1580550524|1580550524
 0|/$BadClus:$Bad|8-128-1|r/rr-xr-xr-x|0|0|7270400|1580550524|1580550524|1580550524|1580550524
 0|/$BadClus ($FILE_NAME)|8-48-3|r/rr-xr-xr-x|0|0|82|1580550524|1580550524|1580550524|1580550524
@@ -216,7 +214,7 @@ Body file data:
 
 Corresponding NTFS MFT entry:
 
-```ascii
+```text
 MFT Entry Header Values:
 Entry: 8        Sequence: 8
 $LogFile Sequence Number: 1069751
@@ -251,17 +249,17 @@ Type: $DATA (128-1)   Name: $Bad   Non-Resident   size: 7270400  init_size: 0
 
 Behavior of the TSK Metadata Address:
 
-* `8-128-2` references the `$DATA` attribute in MFT entry 8, note that this
-  `$DATA` attribute on-disk is the 3rd attribute in the MFT entry.
-* `8-128-1` references the `$DATA` attribute in MFT entry 8, note that this
-  `$DATA` attribute on-disk is the 4th attribute in the MFT entry.
-* `8-48-3` references the first `$FILE_NAME` attribute in MFT entry 8, note
-  that the `$FILE_NAME` attribute on-disk is the 2nd attribute in the MFT
+* `8-128-2` references the $DATA attribute in MFT entry 8, note that this
+  $DATA attribute on-disk is the 3rd attribute in the MFT entry.
+* `8-128-1` references the $DATA attribute in MFT entry 8, note that this
+  $DATA attribute on-disk is the 4th attribute in the MFT entry.
+* `8-48-3` references the first $FILE_NAME attribute in MFT entry 8, note
+  that the $FILE_NAME attribute on-disk is the 2nd attribute in the MFT
   entry.
 
-_Note that due to an issue within The Sleuth Kit, NTFS metadata addresses for `$FILE_NAME`
-attributes in an `$ATTRIBUTE_LIST` are not unique, and it is not deterministic as to what the
-"first" MFT attribute is. See <https://github.com/sleuthkit/sleuthkit/issues/1809>._
+> Note that due to an issue within The Sleuth Kit, NTFS metadata addresses for $FILE_NAME
+> attributes in an $ATTRIBUTE_LIST are not unique, and it is not deterministic as to what the
+> "first" MFT attribute is. See <https://github.com/sleuthkit/sleuthkit/issues/1809>.
 
 ## Also see
 

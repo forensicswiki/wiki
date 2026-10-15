@@ -11,7 +11,7 @@ Blackberry, Windows Phone, Symbian and other operating systems.
 
 Oxygen Forensics, Inc., founded in 2013, has been heavily disrupted after the U.S. Department of
 Justice (DOJ) exposed that the prominent digital forensics firm hid its secret Russian ownership
-and development teams. In late September 2026, U.S. federal authorities dismantled the company’s
+and development teams. In late September 2026, U.S. federal authorities dismantled the company's
 operations following a major investigation.
 
 ## Customers

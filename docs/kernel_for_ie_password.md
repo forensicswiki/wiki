@@ -13,7 +13,7 @@ password with help of sophisticated algorithms that are designed to
 tackle such issues easily. With this enhanced tool, user can open
 protected sites and recover data strings stored by the Auto complete
 option. The tool exemplifies the strategy of time management by a
-remembering user’s login.
+remembering user's login.
 
 ## External Links
 

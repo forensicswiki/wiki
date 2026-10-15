@@ -24,7 +24,7 @@ bulk_extractor can process different parts of the disk in parallel. In
 practice, the program splits the disk up into 16MiByte pages and
 processes one page on each available core. This means that 24-core
 machines process a disk roughly 24 times faster than a 1-core machine.
-bulk_extractor is also thorough. That’s because bulk_extractor
+bulk_extractor is also thorough. That's because bulk_extractor
 automatically detects, decompresses, and recursively re-processes
 compressed data that is compressed with a variety of algorithms. Our
 testing has shown that there is a significant amount of compressed data
@@ -72,14 +72,14 @@ bulk_extractor now creates an output directory that includes:
 For each of the above, two additional files may be created:
 
 * **\*_stopped.txt** --- bulk_extractor supports a stop list, or a list
-  of items that do not need to be brought to the user’s attention.
+  of items that do not need to be brought to the user's attention.
   However rather than simply suppressing this information, which might
   cause something critical to be hidden, stopped entries are stored in
   the stopped files.
 * **\*_histogram.txt** --- bulk_extractor can also create histograms of
   features. This is important, as experience has shown that email
   addresses, domain names, URLs, and other information that appear more
-  frequently on a hard drive or in a cell phone’s memory can be used to
+  frequently on a hard drive or in a cell phone's memory can be used to
   rapidly create a pattern of life report.
 
 Bulk extractor also creates a file that captures the provenance of the
@@ -101,12 +101,12 @@ This program reports the differences between two bulk_extractor runs.
 The intent is to image a computer, run bulk_extractor on a disk image,
 let the computer run for a period of time, re-image the computer, run
 bulk_extractor on the second image, and then report the differences.
-This can be used to infer the user’s activities within a time period.
+This can be used to infer the user's activities within a time period.
 
 cda_tool.py
 This tool, currently under development, reads multiple bulk_extractor
 reports from multiple runs against multiple drives and performs a
-multi-drive correlation using Garfinkel’s Cross Drive Analysis
+multi-drive correlation using Garfinkel's Cross Drive Analysis
 technique. This can be used to automatically identify new social
 networks or to identify new members of existing networks.
 
@@ -115,7 +115,7 @@ In the bulk_extractor feature file, each feature is annotated with the
 byte offset from the beginning of the image in which it was found. The
 program takes as input a bulk_extractor feature file and a DFXML file
 containing the locations of each file on the drive (produced with
-Garfinkel’s fiwalk program) and produces an annotated feature file that
+Garfinkel's fiwalk program) and produces an annotated feature file that
 contains the offset, feature, and the file in which the feature was
 found.
 

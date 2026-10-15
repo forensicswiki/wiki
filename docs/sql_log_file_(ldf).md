@@ -12,7 +12,7 @@ for SQL transaction log file is .ldf (Log Database File).
 ## Overview
 
 The language, SEQUEL (Structured English Query Language) now known as
-SQL was developed by IBM Corporation Inc. in order to use Codd’s model.
+SQL was developed by IBM Corporation Inc. in order to use Codd's model.
 Today, SQL is worldwide accepted as a standard RDBMS language. The data
 in this SQL server database is saved as primary data files (.mdf) and
 secondary data files (.ndf). SQL transaction log files referred as .ldf
@@ -45,7 +45,7 @@ helps in rollback transaction.
 ### Physical Architecture
 
 SQL Server Database engine separates the transaction log file physically
-to multiple virtual log files. These virtual log files don’t have fixed
+to multiple virtual log files. These virtual log files don't have fixed
 size or number and its size is chosen dynamically while generating or
 extending log files according to the transactions records.
 Administrators cannot set the size or number of these virtual log files

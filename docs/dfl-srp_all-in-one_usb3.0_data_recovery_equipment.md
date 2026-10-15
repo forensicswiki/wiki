@@ -2,7 +2,7 @@
 tags:
   - Articles that need to be expanded
 ---
-**DFL-SRP All-In-One USB3.0 Data Recovery Equipment** is the world’s top
+**DFL-SRP All-In-One USB3.0 Data Recovery Equipment** is the world's top
 data recovery equipment supporting all hard drive brands (Seagate, WD,
 Hitachi/IBM, Samsung, Toshiba, Fujitsu) on logical data recovery, bad
 sector data recovery, repairing bad sectors, editing models, editing SN

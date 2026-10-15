@@ -39,9 +39,9 @@ Overwriting programs typically operate in one of three modes:
    Windows Master File Table of an NTFS partition (Garfinkel and Malan,
    2005).
 
-Programs employ a variety of techniques to overwrite data. Apple’s Disk
+Programs employ a variety of techniques to overwrite data. Apple's Disk
 Utility allows data to be overwritten with a single pass of NULL bytes,
-with 7 passes of random data, or with 35 passes of data. Microsoft’s
+with 7 passes of random data, or with 35 passes of data. Microsoft's
 cipher.exe, writes a pass of zeros, a pass of FFs, and a pass of random
 data, in compliance with DoD standard 5220.22-M. (US DoD, 1995). In 1996
 Gutmann asserted that it might be possible to recover overwritten data
@@ -64,8 +64,8 @@ very handy for a forensic analyst, but not so handy for IT Managers.
 If the examiner knows when an attacker had access to a Windows, Mac or
 Unix system, it is frequently possible to determine which files the
 attacker accessed, by examining file "access" times for every file on
-the system. Some CFTs can prepare a "timeline" of the attacker’s actions
-by sorting all of the computer’s timestamps in chronological order.
+the system. Some CFTs can prepare a "timeline" of the attacker's actions
+by sorting all of the computer's timestamps in chronological order.
 Although an attacker could wipe the contents of the media, this action
 itself might attract attention. Instead, the attacker might hide their
 tracks by overwriting the access times themselves so that the timeline
@@ -73,7 +73,7 @@ could not be reliably constructed.
 
 For example, [Timestomp](timestomp.md) will overwrite
 [NTFS](ntfs.md) "create," "modify," "access," and "change"
-timestamps (metasploit). The Defiler’s Toolkit can overwrite inode
+timestamps (metasploit). The Defiler's Toolkit can overwrite inode
 timestamps and deleted directory entries on many Unix systems;
 timestamps on allocated files can also be modified using the Unix touch
 command ([The Grugq](the_grugq.md)).
@@ -166,15 +166,15 @@ encrypted file system. The goal of this filesystem-within-a-filesystem
 is to allow the users to have a "decoy" file system with data that is
 interesting but not overtly sensitive. A person who is arrested or
 captured with a laptop encrypted using this software could then give up
-the first file system’s password, with the hope that the decoy would be
-sufficient to satisfy the person’s interrogators.
+the first file system's password, with the hope that the decoy would be
+sufficient to satisfy the person's interrogators.
 
 #### Generic Data Hiding
 
 Data can also be hidden in unallocated or otherwise unreachable
 locations that are ignored by the current generation of forensic tools.
 
-Metasploit’s Slacker will hide data within the slack space of FAT or
+Metasploit's Slacker will hide data within the slack space of FAT or
 NTFS file system. FragFS hides data within the NTFS Master File Table.
 RuneFS (Grugq 2003) stores data in bad blocks. (Thompson and Monroe,
 2006). Waffen FS stores data in the ext3 journal file (Eckstein and

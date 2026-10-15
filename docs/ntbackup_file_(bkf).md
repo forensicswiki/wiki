@@ -77,8 +77,8 @@ use a commercial solution to restore/access the BKF file respectively.
 File size is a common matter of concern with BKF files that often
 results in its corruption. On exceeding the standard storage limit, a
 backup file is likely to become corrupted. As a result erroneous
-messages are probable to appear stating the file as ‘unusable’ or
-‘unrecognized’. Microsoft has released no revisions of the NTBackup
+messages are probable to appear stating the file as 'unusable' or
+'unrecognized'. Microsoft has released no revisions of the NTBackup
 utility for the reading or restoring of a corrupted backup file (BKF).
 Therefore, the last resort is a commercial solution that can mount a
 backup file in both; healthy as well as corrupt state. There is an ample

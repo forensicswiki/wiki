@@ -27,11 +27,11 @@ page is a handy reference just the same.
 OpenSSL doesn't care what you use for file extensions. However, the
 following extensions to seem to be commonly used:
 
-| File Extension | Meaning                                                                                                                                                            |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| .pem           | can contain a private key, public key, or certificate signing request.                                                                                             |
-| .crt           | Windows file extension for a .pem file.                                                                                                                            |
-| .p12           | a PKCS12 file, which contains a private key and a certificate, encrypted for transport with a passphrase. This is the format that Windows and MacOS like to import |
+| File Extension | Meaning |
+| --- | --- |
+| .pem | can contain a private key, public key, or certificate signing request. |
+| .crt | Windows file extension for a .pem file. |
+| .p12 | a PKCS12 file, which contains a private key and a certificate, encrypted for transport with a passphrase. This is the format that Windows and MacOS like to import |
 
 ## Conversion
 

@@ -10,14 +10,14 @@ to store user account information, including passwords. Because the
 such as \`ls\` and \`finger\` to work modern Unix operating systems
 store the encrypted passwords in 'shadow' file named /etc/shadow.
 
-| Username       | The user's username                                                                                                       |
-|----------------|---------------------------------------------------------------------------------------------------------------------------|
-| Password       | Older Unixes store the password crypt here, more modern ones use an 'x' character to denote that a shadow file is in use. |
-| UID            | The numeric user ID of the user                                                                                           |
-| GID            | The primary numeric group ID of the user                                                                                  |
-| GECOS Field    | This is a text field which may contain information about the user such as name and contact details                        |
-| Home directory | The user's home directory                                                                                                 |
-| Shell          | The user's Unix shell                                                                                                     |
+| Username | The user's username |
+| --- | --- |
+| Password | Older Unixes store the password crypt here, more modern ones use an 'x' character to denote that a shadow file is in use. |
+| UID | The numeric user ID of the user |
+| GID | The primary numeric group ID of the user |
+| GECOS Field | This is a text field which may contain information about the user such as name and contact details |
+| Home directory | The user's home directory |
+| Shell | The user's Unix shell |
 
 ```text
 user1:x:600:600:User 1:/home/user1:/bin/bash

@@ -118,13 +118,11 @@ proponent of making small things that do one and do one thing right, and
 to stack those to do what you need. In my view that would lead ideally
 to the following (simplified) chain:
 
-* recursive [computer forensics
-  framework](computer_forensics_framework.md)
-  * <b>The-(pola-based)-carving-tool</b>
-    * <b>The-carving-lib</b> working on open fd's.
+* recursive [computer forensics framework](computer_forensics_framework.md)
+  * The-(pola-based)-carving-tool
+    * The-carving-lib working on open fd's.
       * libcarvpath
-        * carvfs (Over cifs/nfs-v4 on platforms that don't support
-          Fuse).
+        * carvfs (Over cifs/nfs-v4 on platforms that don't support Fuse).
           * libewf
           * libaff
     * AppArmor (on supporting platforms)

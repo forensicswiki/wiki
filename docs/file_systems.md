@@ -53,7 +53,7 @@ UFS
 The **Unix File System**, introduced with [UNIX](unix.md).
 
 [XFS](xfs.md)
-SGI’s high performance journaling file system that
+SGI's high performance journaling file system that
 originated on their IRIX (flavor of
 [UNIX](unix.md)) platform. XFS supports variable blocking sizes,
 is extent based, and makes extensive use of Btrees

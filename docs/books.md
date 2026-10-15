@@ -16,7 +16,7 @@ some publisher links are broken or websites have changed.
 ## General Forensics
 
 | Title | Author | ISBN-13 | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Ethics in Forensic Science: Professional Standards for the Practice of Criminalistics (Protocols in Forensic Science) [1st Edition]](https://www.amazon.com/Ethics-Forensic-Science-Professional-Criminalistics/dp/0849308607) | Peter D Barnett | 9780849308604 | CRC Press | Jun 27, 2001 | |
 | [Forensic Science Handbook, Volume I [2nd Edition]](https://www.amazon.com/Forensic-Science-Handbook-1-2nd/dp/0130910589) | Richard E. Saferstein, Ed. | 9780130910585 | Pearson | Jun 15, 2001 | |
 | [Forensic Science Handbook, Volume II [2nd Revised ed. Edition]](https://www.amazon.com/Forensic-Science-Handbook-Vol-2nd/dp/013112434X) | Richard E. Saferstein, Ed. | 9780131124349 | Prentice Hall | Oct 18, 2004 | |
@@ -28,7 +28,7 @@ some publisher links are broken or websites have changed.
 ## Computer Forensics
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Android Forensics: Investigation, Analysis and Mobile Security for Google Android](https://www.amazon.com/Android-Forensics-Investigation-Analysis-Security/dp/1597496510) | Andrew Hoog | 9781597496513 | Syngress | June 29, 2011 | |
 | [CD and DVD Forensics [2nd Edition]](https://www.amazon.com/CD-DVD-Forensics-Paul-Crowley/dp/151157044X) | Paul J. Crowley and Kevin Miller | 9781511570442 | CreateSpace Independent Publishing Platform | Apr 2, 2015 | |
 | [Cyber Forensics: A Field Manual for Collecting, Examining, and Preserving Evidence of Computer Crimes](https://www.amazon.com/Cyber-Forensics-Collecting-Examining-Preserving/dp/0849309557) | Albert J Marcella, Jr.  (Ed.) and Robert S Greenfield (Ed.) | 9780849309557 | Auerbach Publications | Jan 23, 2002 | |
@@ -55,7 +55,7 @@ some publisher links are broken or websites have changed.
 ## OS Architecture and Design
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Mac OS X and iOS Internals: To the Apple's Core](https://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651) | Jonathan Levin | 9781118057650 | Wrox | November 6, 2012 | |
 | [Mac OS X Internals: A Systems Approach](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541) | Amit Singh | 9780134426549 | Addison-Wesley Professional | | |
 | [Windows Internals, Part 1, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735648739 | Microsoft Press | April 8, 2012 | Windows Server 2008 R2 & Windows 7 |
@@ -68,23 +68,23 @@ some publisher links are broken or websites have changed.
 ### German
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | Computer-Forensik (2nd Edition) | Alexander Geschonneck | 9783898643795 | dpunkt Verlag | Jan 20, 2006 | [Errata](http://computer-forensik.org/) and blog of the author |
 
 ### Italian
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Computer Forensics [1st Edition]](https://www.apogeonline.com/libri/digital-forensics-andrea-ghirardini-gabriele-faggioli/) | Andrea Ghirardini and Gabriele Faggioli | 9788850331994 | Apoge | May 17, 2007 | |
 
 ### Portuguese
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Perícia Forense Aplicada à Informática [1st Edition]](http://www.brasport.com.br/index.php?Escolha=8&Livro=L00194) | Andrey Rodrigues de Freitas | 8574522260 | Brasport | 2006 | |
 
 ### Russian
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
-| - | - | - | - | - | - |
+| --- | --- | --- | --- | --- | --- |
 | [Форензика – компьютерная криминалистика](http://forensics.ru/) | N. N. Fedotov | | | | |

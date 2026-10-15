@@ -56,13 +56,13 @@ The class of the device determines the speed at which GPRS can be used.
 The table below displays different types of technologies and their rates
 of transfer.
 
-| Type          | Uplink (Send) | Downlink (Receive) |
-|---------------|---------------|--------------------|
-| GPRS          | 14 kbps       | 28-64 kbps         |
-| GSM CSD       | 9.6-14 kbps   | 9.6-14 kbps        |
-| Dial-UP       | 56 kbps       | 56 kbps            |
-| ISDN Standard | 64 kbps       | 64 kbps            |
-| Broadband     | 2 Mbps        | 2 Mbps             |
+| Type | Uplink (Send) | Downlink (Receive) |
+| --- | --- | --- |
+| GPRS | 14 kbps | 28-64 kbps |
+| GSM CSD | 9.6-14 kbps | 9.6-14 kbps |
+| Dial-UP | 56 kbps | 56 kbps |
+| ISDN Standard | 64 kbps | 64 kbps |
+| Broadband | 2 Mbps | 2 Mbps |
 
 ## External Links
 

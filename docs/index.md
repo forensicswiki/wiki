@@ -3,23 +3,19 @@ hide:
   - navigation
   - title
 ---
-
 # Welcome to the Forensics Wiki
 
-> The Forensics Wiki has transitioned to this new domain and platform. Read
-> more about it at
+> The Forensics Wiki has transitioned to this new domain and platform. Read more about it at
 > [Transitioning Forensics Wiki to GitHub](https://osdfir.blogspot.com/2022/11/transitioning-forensics-wiki-to-github.html).
 
-The Forensics Wiki is an open source website providing information related to
-digital forensics. Digital forensics is the **branch of forensic science** that
-involves the identification, preservation, acquisition, analysis, and
-presentation of electronic data in a manner that ensures its **legal
-admissibility**.
+The Forensics Wiki is an open source website providing information related to digital forensics.
+Digital forensics is the **branch of forensic science** that involves the identification,
+preservation, acquisition, analysis, and presentation of electronic data in a manner that ensures
+its **legal admissibility**.
 
-The articles on the website cover a wide range of information from
-[tools](tags/#tools) used during investigations to [papers](tags/#papers)
-[people](tags/#people) and [organizations](tags/#organization) that contribute
-to the field.
+The articles on the website cover a wide range of information from [tools](tags/#tools) used during
+investigations to [papers](tags/#papers) [people](tags/#people) and
+[organizations](tags/#organization) that contribute to the field.
 
 Please see the community page if you would like to [contribute](community.md).
 
@@ -28,19 +24,15 @@ Please see the community page if you would like to [contribute](community.md).
 ### Tags
 
 In order to make content discoverable, articles are being categorized using
-<a href="tags">tags</a>. Each page on this website is labeled with
-<a href="tags">tags</a>. The page could have one tag or multiple tags depending on
-the content of the site. Tags are placed at the top of the article.
+<a href="tags">tags</a>. Each article contains one or more tags.
 
-For example, the [Full Disk Encryption](full_disk_encryption.md) article has the
-tags:
+For example, the [Full Disk Encryption](full_disk_encryption.md) article has the tags:
 
 * [Encryption](tags/#encryption)
 * [Disk Encryption](tags/#disk-encryption)
 * [Anti-Forensics](tags/#anti-forensics).
 
-If you click on one of the tags, it will bring you to all content categorized
-under that tag.
+If you click on one of the tags, it will bring you to all content categorized under that tag.
 
 ### Topics
 
@@ -114,7 +106,7 @@ under that tag.
     <ui><li><a href="tags/#database">Database</a>: <a href="sqlite">sqlite</a>, <a
     href="olm">olm</a>, <a href="thumbs.db">Thumbs.db</a></ui></li>
     <ui><li><a href="tags/#disk-image">Disk Image</a>: <a href="aff">aff</a>, <a
-    href="raw_image_format">raw image</a>, <a href="qcom_image_format">qcow image
+    href="raw_image_format">raw image</a>, <a href="qcow_image_format">qcow image
     format</a></ui></li>
     </td>
   </tr>
@@ -123,16 +115,14 @@ under that tag.
 
 ## Articles that need to be expanded
 
-There are a number of [articles](tags/#articles-that-need-to-be-expanded) that
-could use some love. If you want to help out, please read about
-[contributing](community.md).
+There are a number of [articles](tags/#articles-that-need-to-be-expanded) that could use some love.
+If you want to help out, please read about [contributing](community.md).
 
 ## Contribute on to the Forensics Wiki on GitHub
 
-The Forensics Wiki is now on [GitHub](https://github.com/forensicswiki/wiki)
-and accepting content contributions from the community. Please see the
-[community page](community.md) for instructions if you would like to add or
-edit content.
+The Forensics Wiki is now on [GitHub](https://github.com/forensicswiki/wiki) and accepting content
+contributions from the community. Please see the [community page](community.md) for instructions if
+you would like to add or edit content.
 
 For more information about Forensics Wiki on MediaWiki see:
 

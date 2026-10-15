@@ -28,7 +28,7 @@ location: - *"C:\Users\\%username%\Appdata\Local\IM\Identities"*
 Under the "Identities" folder, locate the "Message Store"; in which
 under the "Messages" folder, you can locate the "msg.iml" file. The
 users of Incredimail 2.0 and previous versions can find the file as
-*"msg.imm"*, where as the latter one’s can now recognize it as
+*"msg.imm"*, where as the latter one's can now recognize it as
 *"msg.iml"*.
 
 The header meta data of the IMM files gets stored in a peculiar format

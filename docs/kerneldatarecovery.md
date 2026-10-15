@@ -72,7 +72,7 @@ utilities can be briefed as follows:
 * [Kernel for Outlook PST
   Reporter](kernel_for_outlook_pst_reporter.md) - Outlook PST
   repair generates a detailed report on selected folders of the PST
-  files configured on users’ Outlook email client. The tool offers
+  files configured on users' Outlook email client. The tool offers
   comprehensive email traffic statistics and analysis.
 * [Kernel for PST ADD](kernel_for_pst_add.md) - This utility
   assists the user by adding number of PST files to MS Outlook and

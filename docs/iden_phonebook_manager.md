@@ -5,7 +5,7 @@ tags:
 The iDEN Phonebook Manager is a feature rich software application
 developed by Motorola that allows you to easily manage your iDEN
 phonebook. This new application was designed to give you the ability to
-create, edit and copy the phone’s phonebook list from your computer to
+create, edit and copy the phone's phonebook list from your computer to
 your phone. The application also provides fleet managers the ability to
 modify call lists and copy contact lists to multiple phones with ease.
 This software application is intended for iDEN phones that incorporate
@@ -115,22 +115,22 @@ Phone***?
 If you have trouble communicating to the phone, please review the
 following steps:
 
-1. Select ‘Options’ from the Main Menu screen.
+1. Select 'Options' from the Main Menu screen.
 
-2. The ‘communication settings’ window will display the selected cable
+2. The 'communication settings' window will display the selected cable
 (Serial/USB).
 
 3. Connect the phone to the cable. Make sure you have a charged battery
 and the phone is powered on.
 
-4. If you are using a USB cable, please make sure that ‘USB’ is
+4. If you are using a USB cable, please make sure that 'USB' is
 selected in the Communication Settings panel.
 
-5. If you are using a Serial cable, please make sure that ‘Serial’ is
+5. If you are using a Serial cable, please make sure that 'Serial' is
 selected and the proper Com Port is selected.
 
 6. Once the Serial or USB cable communication is selected, test the
-communication by locating and pressing the ‘Test’ button.
+communication by locating and pressing the 'Test' button.
 
 7. If a successfully communication is made between your computer and
 the phone, a successful message will be displayed.

@@ -7,16 +7,16 @@ tags:
 The ZIP archive format (.zip) is an archive file format that supports lossless
 data compression.
 
-<b>TODO</b> describe ZIP64
+TODO: describe ZIP64
 
 ## File format
 
 | | ZIP | ZIP64 |
 | --- | --- | --- |
-| Maximum archive size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
-| Maximum object size in archive (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
-| Maximum objects in archive | 65,535 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
-| Maximum central directory size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup>-1 ) |
+| Maximum archive size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup> - 1 ) |
+| Maximum object size in archive (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup> - 1 ) |
+| Maximum objects in archive | 65,535 | 18,446,755,073,709,551,615 ( 2<sup>64</sup> - 1 ) |
+| Maximum central directory size (bytes) | 4,294,967,295 | 18,446,755,073,709,551,615 ( 2<sup>64</sup> - 1 ) |
 | Maximum spanned archive segments | 999 | 4,294,967,294 |
 | Maximum split archive segments | 65,535 | 4,294,967,294 |
 

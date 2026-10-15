@@ -47,7 +47,7 @@ technologies in password recovery, mobile and cloud forensics.
 The GPU acceleration is patented (U.S. Pat. No. 7,787,629 and 7,929,707)
 and unique to ElcomSoft password recovery products, making password
 recovery up to 250 times faster compared to traditional methods relying
-on the use of the computer’s main CPU.
+on the use of the computer's main CPU.
 
 ## The Fastest Password Recovery
 
@@ -100,7 +100,7 @@ no scalability overhead even for the slowest connections.
 
 ### Cloud computing
 
-Quickly add computing power on demand by utilizing Amazon’s
+Quickly add computing power on demand by utilizing Amazon's
 GPU-accelerated EC2 Compute Units or Microsoft Azure instances.
 Depending on performance requirements and budget constraints, cloud
 instances can quickly scale to speed up the job, and can be scaled back
@@ -144,7 +144,7 @@ lot more.
 
 ### Google forensics
 
-Extract and analyze user’s detailed location history, search queries,
+Extract and analyze user's detailed location history, search queries,
 Chrome passwords and browsing history, Gmail messages, contacts, photos,
 and a lot more.
 

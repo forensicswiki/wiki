@@ -26,7 +26,7 @@ exploitation ([medex](medex.md) tool used by field operatives
 to extract intelligence from computers and peripheral devices. Triage-G2
 was specifically designed to be used by nontechnical operators and
 deployed using a small, portable triage key (a 32GB USB drive) that
-doesn’t require a computer or other heavy equipment for field
+doesn't require a computer or other heavy equipment for field
 deployment. The keys can be prepared in advance at the base or in the
 field by using one click to select mission-specific search criteria.
 Triage-G2 is used by several U.S. defense and intelligence agencies.
@@ -135,5 +135,5 @@ highlighted in many different publications:
 
 ## External Links
 
-* [ADF on CyberSpeak’s Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
+* [ADF on CyberSpeak's Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
 * [Official website](https://www.adfsolutions.com/)

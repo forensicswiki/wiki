@@ -48,7 +48,7 @@ Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppComp
   by Andrew Davis, May 4, 2012
 * [Revealing Program Compatibility Assistant HKCU AppCompatFlags Registry Keys](http://journeyintoir.blogspot.com/2013/12/revealing-program-compatibility.html),
   by Corey Harrell, December 17, 2013
-* [Persist It Using and Abusing Microsoft’s Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf),
+* [Persist It Using and Abusing Microsoft's Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf),
   by Jon Erickson, BlackHat Asia 2014
 * [To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for Persistence](https://www.mandiant.com/resources/blog/fin7-shim-databases-persistence)
 

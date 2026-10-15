@@ -41,7 +41,7 @@ the board in the middle where all the chips reside.
 Step 5. Heat the middle of the board under a hot air gun until the heat shields
 pull off. The memory chip should also be ready to pull off at this point.
 Despite all the glue on the rest of the phone, there was no epoxy on our test
-phone’s NAND.
+phone's NAND.
 
 <img src="../assets/images/6xplay.JPG" title="6xplay.JPG" width="600" alt="6xplay.JPG" />
 <figcaption aria-hidden="true">6xplay.JPG</figcaption>

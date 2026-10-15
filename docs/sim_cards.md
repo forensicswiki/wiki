@@ -34,7 +34,7 @@ from 512MB up to M-Systems' 1GB SIM Card slated for release in late 2006.
 
 Each SIM is internationally identified by its ICC-ID (Integrated Circuit
 Card ID). ICC-IDs are stored in the SIM card and can also be engraved or
-printed on the SIM card’s body during a process called personalization.
+printed on the SIM card's body during a process called personalization.
 The number is up to 18 digits long with an addition of a single "check
 digit" that is used for error detection. This single digit allows us to
 detect an input error of digits, mistyped digits or a permutation of two
@@ -72,7 +72,7 @@ Operation networks for cell phone devices are divided into area
 locations called Location Areas. Each location is identified with its
 own unique identification number creating the LAI (Location Area
 Identity). A phone will store this number on its SIM card so it knows
-what location it’s in and to be able to receive service. If a phone were
+what location it's in and to be able to receive service. If a phone were
 to change to a new Location Area, it stores the new LAI in the SIM card,
 adding to a list of all the previous LAIs it has been in. This way if a
 phone is powered down, when it boots back up, it can search its list of
@@ -126,7 +126,7 @@ The SIM file system is hierarchical in nature consisting of 3 parts:
 
 * Master File (MF) - root of the file system that contains
 
-DF’s and EF’s
+DF's and EF's
 
 * Dedicated File (DF)
 * Elementary Files (EF)

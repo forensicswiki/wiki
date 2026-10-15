@@ -48,7 +48,7 @@ to live Exchange server using *EdbMails* application.
 
 ## License Information
 
-For software’s license related information, visit our website [Licence
+For software's license related information, visit our website [Licence
 agreement](https://www.edbmails.com/pages/terms-of-use.html)
 
 ## Technical Support

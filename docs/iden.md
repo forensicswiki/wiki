@@ -8,7 +8,7 @@ wireless standard that operates in the 800 MHz, 900MHz, and 1.5 GHz bands. It
 combines the capabilities of a [digital cellular telephone](cell_phones.md) and
 a two-way radio known as push-to-talk (ptt).
 
-Motorola’s iDEN technology phones support many other features including
+Motorola's iDEN technology phones support many other features including
 Bluetooth, location-based services, MOTOTalk and support for expandable memory
 (Micro SD). Sprint Nextel is the largest U.S. retailer of iDEN services.
 

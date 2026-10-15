@@ -83,7 +83,7 @@ Jeff Hawkins from a block of wood with writing on it.
 
 | Feature | Palm Pilot 1000 | Palm Pilot 5000 | Palm Pilot Personal | Palm Pilot Professional |
 | --- | --- | --- | --- | --- |
-| Processor | Motorola 68328 |  Dragonball | Dragonball | Dragonball |
+| Processor | Motorola 68328 | Dragonball | Dragonball | Dragonball |
 | Memory | 128 KB | 512 KB | 512 KB | 1 MB |
 | Operating system | Palm OS 1.0 | Palm OS 1.0 | Palm OS 2.0 | Palm OS 2.0 |
 
@@ -128,7 +128,7 @@ It is the foundation for a suite of smartphones.
 
 In September 1998, QUALCOMM introduced the pdQ smartphone which was the
 first CDMA digital wireless phone to integrate the Palm OS software.
-QUALCOMM’s CDMA handset business was later bought by Kyocera in February
+QUALCOMM's CDMA handset business was later bought by Kyocera in February
 2000.
 
 ### Handspring Visor

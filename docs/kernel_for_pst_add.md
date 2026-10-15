@@ -50,7 +50,7 @@ hidden cost.
 ## Licensing
 
 Information related to the license of the software can be studied in
-detail from the software’s official website.
+detail from the software's official website.
 
 ## Support
 

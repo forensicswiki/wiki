@@ -21,7 +21,7 @@ range of mobile devices and cloud services, including
 [iCloud](https://www.elcomsoft.com/eppb.html) and [Google
 Account](https://www.elcomsoft.com/ecx.html), stored in crypto
 containers or encrypted archives. Its mobile forensic tools help
-acquiring evidence stored in today's smartphones, while the company’s
+acquiring evidence stored in today's smartphones, while the company's
 parented hardware-accelerated products can break passwords protecting
 files in a variety of formats. Finally, its unique desktop forensic
 solution allow investigators accessing information stored in secure
@@ -37,9 +37,9 @@ and enterprise-grade tools allowing its customers to gain information to
 password-protected documents, archives, and locked-out accounts in many
 popular products.
 
-The company’s award-winning password recovery products employ a great
+The company's award-winning password recovery products employ a great
 number of proprietary and patented algorithms to allow users recovering
-even the most complex passwords faster. ElcomSoft’s deep knowledge and
+even the most complex passwords faster. ElcomSoft's deep knowledge and
 insight in information security allows many of its products to unlock
 password-protected information instantly, without referring to an
 attempt to guess the right password.
@@ -52,7 +52,7 @@ orders of magnitude increase of password recovery speed on supported
 video cards. This technology was awarded a patent by the U.S. Copyright
 Office, and delivers supercomputer-like performance on ordinary PCs.
 
-The company’s zero-overhead distributed and cloud computing algorithms
+The company's zero-overhead distributed and cloud computing algorithms
 ensure unlimited scalability and linear performance growth in even the
 largest networks.
 
@@ -83,7 +83,7 @@ multitudes of file formats, products, and systems, including:
 ElcomSoft pioneered many password recovery and information security
 technologies and algorithms. Its inventions were recognized by the U.S.
 Copyright Office. The company obtained patents on numerous algorithms
-allowing ElcomSoft’s products to deliver the highest performance.
+allowing ElcomSoft's products to deliver the highest performance.
 
 ## Elcomsoft Patents
 

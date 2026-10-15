@@ -36,7 +36,7 @@ The IndexedDB.edb contains the following tables:
 * T-*n*
 
 The other database, CortanaCoreDb.dat, contains table data that relates
-to a users’ interaction with Cortana; it contains the following tables:
+to a users' interaction with Cortana; it contains the following tables:
 
 * Attachments
 * Contact

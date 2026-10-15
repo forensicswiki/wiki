@@ -86,7 +86,7 @@ signs of technical glitches.
 
 ## License Information
 
-For software’s license related information, navigate to the official
+For software's license related information, navigate to the official
 website.
 
 ## Technical Support

@@ -12,7 +12,7 @@ Belkasoft is registered within DUNS, SAM, CCR, ORCA and WAWF.
 
 ## Products
 
-The company’s flagship product is [Belkasoft Evidence
+The company's flagship product is [Belkasoft Evidence
 Center](belkasoft_evidence_center.md), an all-in-one digital
 forensic solution. Belkasoft Evidence Center makes it easy for an
 investigator to acquire, search, analyze, store and share digital

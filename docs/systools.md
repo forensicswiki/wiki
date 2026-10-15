@@ -81,7 +81,7 @@ below:
 
 ## Client Base
 
-The company’s client base increased and mostly among digital forensics
+The company's client base increased and mostly among digital forensics
 and investigation departments of government agencies.
 The acknowledged client base was followed by technology partnership with
 Guidance Software, Amazon Web Service, and SysTools becoming members
