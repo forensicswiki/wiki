@@ -1,0 +1,83 @@
+---
+tags:
+  - MacOS
+  - Memory Analysis
+  - Tools
+---
+> This article was copied from the Rekall Forensics blog, posted by
+> Andreas Moser, on 2014-09-08.
+> Copied with permission for historical preservation.
+
+## New Rekall Plugin: Mac Compressed Memory
+
+Beginning of August I went to the DFRWS US conference in Denver. There
+were lots of very interesting talks on forensics presented at that
+conference but I found one of them particularly interesting. The title
+of the presented paper was "In Lieu of Swap: Analyzing Compressed RAM in
+Mac OS X and Linux" (Golden G. Richard III and Andrew Case).
+
+In the talk, one of the authors presented how they are able to extract
+Mac compressed memory from an image. Since OS X Mavericks, Macs can
+compress memory regions that are not currently used to save some space.
+This obviously poses some problems for memory forensics since for example simple string
+matching won't work anymore if the memory you are looking at was
+compressed.
+
+In the presentation, one of the authors introduced their approach to
+find and decompress those memory regions (they implemented a Volatility
+plugin which does it). I became particularly interested when I heard
+that he was complaining that the Python implementation of the
+decompression algorithm they have is very slow. I really wanted to
+analyze what they have done and if there is a way of improving the speed
+of this algorithm but unfortunately I found out that the authors have
+not released the code for this yet. Even now, one month later, the code
+is nowhere to be found :( I thought this might be an
+interesting challenge though so that same evening after coming back from
+conference beers I sat down and implemented my own version of the
+decompressor.
+
+To compress memory, Apple uses an algorithm called WKdm which was
+published in 1997 by Paul Wilson and Scott F. Kaplan (with slight
+modifications). There is a C implementation
+[freely available](https://github.com/santolucito/CCache/tree/master/WKdm)
+but no Python one as far as I know. Apple uses a highly optimized assembler
+version for Mavericks which is way faster than the C implementation.
+
+I ported the C code basically 1:1 to Python and quickly saw why the Python version is slow. There
+are lots of bit operations that Python is particularly bad at and also many
+of the operations are vectorized in C which is not so easily done in
+Python. I spent some time optimizing this using some precomputations and
+use of Python iterators as pointers and actually got acceptable
+performance for this algorithm. My implementation can now do 1000
+compress/decompress operations of a 4k page per second on my 2014
+Macbook Pro 15 inch which is 2.5 times as much as what was claimed in
+the talk for the implementation they had. Of course I am fully aware
+that I'm comparing apples and oranges here since the hardware they used
+was probably completely different. However, they still have not released
+the code they were talking about so I have no way of staging a fair
+comparison. Regardless of the performance difference, this was a fun
+exercise. If you want to take a look at my optimized implementation,
+it's available in the
+[Rekall repository](https://github.com/google/rekall/blob/55d1925f2df9759a989b35271b4fa48fc54a1c86/rekall-core/rekall/plugins/darwin/WKdm.py#L284).
+
+As a side effect of having this memory decompressor, I was also able to
+implement a Rekall plugin that dumps all compressed memory pages in a
+Darwin image to disk, it's called "dumpcompressedmemory":
+
+```bash
+rekal -f ~/mem.dump
+
+...
+mem.dump 14:03:46> mkdir /tmp/compressed_memory
+mem.dump 14:03:54> dumpcompressedmemory(dump_dir="/tmp/compressed_memory/")
+...
+
+mem.dump 14:04:03> ls /tmp/compressed_memory/
+segment0/ segment1/ segment10/
+...
+
+mem.dump 14:04:08> ls /tmp/compressed_memory/segment1
+slot1.dmp slot16.dmp slot23.dmp slot29.dmp slot34.dmp slot43.dmp
+slot10.dmp slot17.dmp slot24.dmp slot3.dmp slot35.dmp
+...
+```
