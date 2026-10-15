@@ -139,8 +139,7 @@ In order to add images to your document, you must places any images in the `/doc
 directory. The following code is the simplest way to add an image to your document using HTML:
 
 ```html
-<img src="../assets/images/myimage.jpg" title="myimage.jpg" width="200"
-     alt=myimage.jpg" />
+![myimage.jpg](assets/images/myimage.jpg){width="200"}
 ```
 
 ### Tags

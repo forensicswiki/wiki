@@ -3,13 +3,11 @@ tags:
   - Articles that need to be expanded
   - Organization
 ---
-<img src="../assets/images/300px-BlackBerry.jpg" title=Blackberry align="right">)
+The RIM BlackBerry is a personal wireless handheld device that supports e-mail,
+[mobile phone](mobile_phone.md) capabilities, text messaging, web browsing, and other wireless
+information services. It is most commonly utilized for business purposes.
 
-The RIM **BlackBerry** is a personal wireless handheld
-device that supports e-mail, [mobile phone](mobile_phone.md)
-capabilities, text messaging, web browsing, and other wireless
-information services. It is most commonly utilized for business
-purposes.
+![300px-BlackBerry.jpg](assets/images/300px-BlackBerry.jpg){title="Blackberry" align="right"})
 
 ## History
 

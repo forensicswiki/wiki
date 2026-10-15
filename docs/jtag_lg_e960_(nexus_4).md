@@ -40,30 +40,19 @@ as follows:
   of the phone.
 * Use a pry tool (guitar pick) to remove the back cover.
 
- <img src="../assets/images/1-Nexus4-Phone.jpg" title="1-Nexus4-Phone.jpg" width="500"
- alt="1-Nexus4-Phone.jpg" />
- <figcaption aria-hidden="true">1-Nexus4-Phone.jpg</figcaption>
+![1-Nexus4-Phone.jpg](assets/images/1-Nexus4-Phone.jpg){width="500"}
 
-<img src="../assets/images/2-Nexus4-Phone1.jpg" title="2-Nexus4-Phone1.jpg" width="445"
-alt="2-Nexus4-Phone1.jpg" />
-<figcaption aria-hidden="true">2-Nexus4-Phone1.jpg</figcaption>
+![2-Nexus4-Phone1.jpg](assets/images/2-Nexus4-Phone1.jpg){width="445"}
 
- <img src="../assets/images/3-Nexus4-RemoveScrews.jpg" title="3-Nexus4-RemoveScrews.jpg"
- width="450" alt="3-Nexus4-RemoveScrews.jpg" />
- <figcaption aria-hidden="true">3-Nexus4-RemoveScrews.jpg</figcaption>
+![3-Nexus4-RemoveScrews.jpg](assets/images/3-Nexus4-RemoveScrews.jpg){width="450"}
 
-<img src="../assets/images/4-Nexus4-RemoveBackCover.jpg"
-title="4-Nexus4-RemoveBackCover.jpg" width="450"
-alt="4-Nexus4-RemoveBackCover.jpg" />
-<figcaption aria-hidden="true">4-Nexus4-RemoveBackCover.jpg</figcaption>
+![4-Nexus4-RemoveBackCover.jpg](assets/images/4-Nexus4-RemoveBackCover.jpg){width="450"}
 
 * Using a Philips (PH00) screw driver, remove the 9 screws securing the
   plastic shield on the backside of the phone as well as the 2 screws
   securing the battery connector.
 
- <img src="../assets/images/5-Nexus4-RemoveScrews.jpg" title="5-Nexus4-RemoveScrews.jpg"
- width="1000" alt="5-Nexus4-RemoveScrews.jpg" />
- <figcaption aria-hidden="true">5-Nexus4-RemoveScrews.jpg</figcaption>
+![5-Nexus4-RemoveScrews.jpg](assets/images/5-Nexus4-RemoveScrews.jpg){width="1000"}
 
 * Once the plastic shield has been removed, you can see the JTAG
   connection port located next to the power button. This JTAG port has a
@@ -72,29 +61,17 @@ alt="4-Nexus4-RemoveBackCover.jpg" />
   gauge magnet wire directly to the Molex pins as I did not have a JTAG
   jig available.
 
- <img src="../assets/images/6-Nexus4-JtagPort.jpg" title="6-Nexus4-JtagPort.jpg"
- width="500" alt="6-Nexus4-JtagPort.jpg" />
- <figcaption aria-hidden="true">6-Nexus4-JtagPort.jpg</figcaption>
+![6-Nexus4-JtagPort.jpg](assets/images/6-Nexus4-JtagPort.jpg){width="500"}
 
- <img src="../assets/images/7-Nexus4-JtagPortMap.jpg" title="7-Nexus4-JtagPortMap.jpg"
- width="500" alt="7-Nexus4-JtagPortMap.jpg" />
- <figcaption aria-hidden="true">7-Nexus4-JtagPortMap.jpg</figcaption>
+![7-Nexus4-JtagPortMap.jpg](assets/images/7-Nexus4-JtagPortMap.jpg){width="500"}
 
 ''Alternatively, if you have the JTAG Molex adapter set, you can use the
 JTAG Molex adapter to connect the phone directly to the RIFF box sans
 soldering as follows.
 
- <img src="../assets/images/8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg"
- title="8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg" width="500"
- alt="8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg" />
- <figcaption
- aria-hidden="true">8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg</figcaption>
+![8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg](assets/images/8.1-Nexus4-JtagPort-JTAG-molex-adapter.jpg){width="500"}
 
-<img src="../assets/images/8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg"
-title="8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg" width="500"
-alt="8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg" />
-<figcaption
-aria-hidden="true">8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg</figcaption>
+![8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg](assets/images/8.2-Nexus4-JtagPort-JTAG-molex-adapter.jpg){width="500"}
 
 **NOTE:** Initially we attempted to read the phone using power supplied
 via the phone's battery and the USB port. The results were inconsistent
@@ -107,13 +84,9 @@ stable connection to the device.
   attached to an RJ45 cable inserted into an RJ45 receptacle that was
   connected to our DC power supply. See the picture for more detail.
 
- <img src="../assets/images/9-Nexus4-MicroGrabber.jpg" title="9-Nexus4-MicroGrabber.jpg"
- width="500" alt="9-Nexus4-MicroGrabber.jpg" />
- <figcaption aria-hidden="true">9-Nexus4-MicroGrabber.jpg</figcaption>
+![9-Nexus4-MicroGrabber.jpg](assets/images/9-Nexus4-MicroGrabber.jpg){width="500"}
 
-<img src="../assets/images/10-Nexus4-MicroGrabber.jpg" title="10-Nexus4-MicroGrabber.jpg"
-width="500" alt="10-Nexus4-MicroGrabber.jpg" />
-<figcaption aria-hidden="true">10-Nexus4-MicroGrabber.jpg</figcaption>
+![10-Nexus4-MicroGrabber.jpg](assets/images/10-Nexus4-MicroGrabber.jpg){width="500"}
 
 * Connect the PCB battery terminal connections to the DC power supply.
   The positive (+) connection is the outermost pin 1 and the negative
@@ -122,17 +95,13 @@ width="500" alt="10-Nexus4-MicroGrabber.jpg" />
   not apply power at this time. During the JTAG procedure the phone will
   draw about 0.4A.
 
- <img src="../assets/images/11-Nexus4-Reading.jpg" title="11-Nexus4-Reading.jpg"
- width="1000" alt="11-Nexus4-Reading.jpg" />
- <figcaption aria-hidden="true">11-Nexus4-Reading.jpg</figcaption>
+![11-Nexus4-Reading.jpg](assets/images/11-Nexus4-Reading.jpg){width="1000"}
 
 * Now we can start the RIFF JTAG software, configure it for the LG E960,
   and connect the phone to the RIFF box. See the picture for more
   detail.
 
- <img src="../assets/images/12-Nexus4-RIFFBox.jpg" title="12-Nexus4-RIFFBox.jpg"
- width="1000" alt="12-Nexus4-RIFFBox.jpg" />
- <figcaption aria-hidden="true">12-Nexus4-RIFFBox.jpg</figcaption>
+![12-Nexus4-RIFFBox.jpg](assets/images/12-Nexus4-RIFFBox.jpg){width="1000"}
 
 * Apply power from the DC power supply to the phone and turn the phone
   on using the button on the side of the PCB. After powering the phone

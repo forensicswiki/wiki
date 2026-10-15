@@ -39,13 +39,8 @@ human-readable form.
 
 ## Screenshots
 
-<img src="SIM_Explorer_Main-screenshot.PNG"
-title="SIM_Explorer_Main-screenshot.PNG" width="200"
-alt="SIM_Explorer_Main-screenshot.PNG" />
-<img src="SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG"
-title="SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG"
-width="200"
-alt="SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG" />
+![SIM_Explorer_Main-screenshot.PNG](SIM_Explorer_Main-screenshot.PNG){width="200"}
+![SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG](SIM_Explorer_side_by_side_SIM_comparison-screenshot.PNG){width="200"}
 
 ## External Links
 

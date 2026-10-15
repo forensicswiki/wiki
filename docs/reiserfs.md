@@ -43,9 +43,7 @@ The superblock of a ReiserFS consist of:
 00000040 03 00 00 00 04 00 03 00 02 00 00 00 dc 52 00 00  ............ÜR..
 ```
 
-<img src="../assets/images/Superblock_example.png"
-title="superblock_example" width="550"
-alt="superblock_example" />
+![superblock_example](assets/images/Superblock_example.png){width="550"}
 
 ```text
 Block count: 65638

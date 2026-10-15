@@ -2,8 +2,7 @@
 tags:
   - Articles that need to be expanded
 ---
-<img src="Cyberspeak.jpg" title="Cyberspeak.jpg" width="200"
-alt="Cyberspeak.jpg" /> An podcast by [Bret
+![Cyberspeak.jpg](Cyberspeak.jpg){width="200"} An podcast by [Bret
 Padres](bret_padres.md) and [Ovie
 Carroll](ovie_carroll.md), both former agents of the [Air Force
 Office of Special

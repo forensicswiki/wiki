@@ -39,56 +39,28 @@ summarized as follows:
 * Remove the 10 x Phillips screws.
 * Remove the rear plate using a case opening tool (guitar pick).
 
- <img src="../assets/images/1-samsung-s3-sgh-i747m-front.jpg"
- title="1-samsung-s3-sgh-i747m-front.jpg" width="600"
- alt="1-samsung-s3-sgh-i747m-front.jpg" />
- <figcaption
- aria-hidden="true">1-samsung-s3-sgh-i747m-front.jpg</figcaption>
+![1-samsung-s3-sgh-i747m-front.jpg](assets/images/1-samsung-s3-sgh-i747m-front.jpg){width="600"}
 
-<img src="../assets/images/2-samsung-s3-sgh-i747m-back.jpg"
-title="2-samsung-s3-sgh-i747m-back.jpg" width="600"
-alt="2-samsung-s3-sgh-i747m-back.jpg" />
-<figcaption
-aria-hidden="true">2-samsung-s3-sgh-i747m-back.jpg</figcaption>
+![2-samsung-s3-sgh-i747m-back.jpg](assets/images/2-samsung-s3-sgh-i747m-back.jpg){width="600"}
 
- <img src="../assets/images/3-samsung-s3-sgh-i747m-disassembly-screws.jpg"
- title="3-samsung-s3-sgh-i747m-disassembly-screws.jpg" width="600"
- alt="3-samsung-s3-sgh-i747m-disassembly-screws.jpg" />
- <figcaption
- aria-hidden="true">3-samsung-s3-sgh-i747m-disassembly-screws.jpg</figcaption>
+![3-samsung-s3-sgh-i747m-disassembly-screws.jpg](assets/images/3-samsung-s3-sgh-i747m-disassembly-screws.jpg){width="600"}
 
-<img src="../assets/images/4-samsung-s3-sgh-i747m-disassembly-bezel.jpg"
-title="4-samsung-s3-sgh-i747m-disassembly-bezel.jpg" width="600"
-alt="4-samsung-s3-sgh-i747m-disassembly-bezel.jpg" />
-<figcaption
-aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
+![4-samsung-s3-sgh-i747m-disassembly-bezel.jpg](assets/images/4-samsung-s3-sgh-i747m-disassembly-bezel.jpg){width="600"}
 
 * Once the phone has been disassembled, you can see the JTAG connection
   port located closed to the edge of the PCB near the ribbon cable.
 
- <img src="../assets/images/5-samsung-s3-sgh-i747m-disassembly-final.jpg"
- title="5-samsung-s3-sgh-i747m-disassembly-final.jpg" width="1000"
- alt="5-samsung-s3-sgh-i747m-disassembly-final.jpg" />
- <figcaption
- aria-hidden="true">5-samsung-s3-sgh-i747m-disassembly-final.jpg</figcaption>
+![5-samsung-s3-sgh-i747m-disassembly-final.jpg](assets/images/5-samsung-s3-sgh-i747m-disassembly-final.jpg){width="1000"}
 
 * The JTAG pinouts are as follows.
 
- <img src="../assets/images/6-samsung-s3-sgh-i747m-jtag-header.jpg"
- title="6-samsung-s3-sgh-i747m-jtag-header.jpg" width="1000"
- alt="6-samsung-s3-sgh-i747m-jtag-header.jpg" />
- <figcaption
- aria-hidden="true">6-samsung-s3-sgh-i747m-jtag-header.jpg</figcaption>
+![6-samsung-s3-sgh-i747m-jtag-header.jpg](assets/images/6-samsung-s3-sgh-i747m-jtag-header.jpg){width="1000"}
 
 * Solder the JTAG connector to the JTAG port as follows. I used 0.040
   gauge magnet wire, connected to breadboard pins, which were inserted
   into the 20 pin ribbon cable supplied with the RIFF box.
 
- <img src="../assets/images/7-samsung-s3-sgh-i747m-jtag-solder.jpg"
- title="7-samsung-s3-sgh-i747m-jtag-solder.jpg" width="500"
- alt="7-samsung-s3-sgh-i747m-jtag-solder.jpg" />
- <figcaption
- aria-hidden="true">7-samsung-s3-sgh-i747m-jtag-solder.jpg</figcaption>
+![7-samsung-s3-sgh-i747m-jtag-solder.jpg](assets/images/7-samsung-s3-sgh-i747m-jtag-solder.jpg){width="500"}
 
 * Connect the PCB battery terminal connections to the DC power supply.
   The positive (+) connection is the outermost pin (1) and the negative
@@ -96,11 +68,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
   battery specifications which in this case is 3.8V and 2.1A but do not
   apply power at this time.
 
- <img src="../assets/images/8-samsung-s3-sgh-i747m-jtag-power.jpg"
- title="8-samsung-s3-sgh-i747m-jtag-power.jpg" width="1000"
- alt="8-samsung-s3-sgh-i747m-jtag-power.jpg" />
- <figcaption
- aria-hidden="true">8-samsung-s3-sgh-i747m-jtag-power.jpg</figcaption>
+![8-samsung-s3-sgh-i747m-jtag-power.jpg](assets/images/8-samsung-s3-sgh-i747m-jtag-power.jpg){width="1000"}
 
 * Now we can start the RIFF JTAG software, configure it, and connect the
   phone to the RIFF box. See the picture below for more detail.
@@ -110,11 +78,7 @@ aria-hidden="true">4-samsung-s3-sgh-i747m-disassembly-bezel.jpg</figcaption>
 eliminate disconnects between the RIFF Box and the phone mid-read. Leave
 this setting at "Sample at MAX" unless you experience this problem.
 
- <img src="../assets/images/9-samsung-s3-sgh-i747m-jtag-manager.jpg"
- title="9-samsung-s3-sgh-i747m-jtag-manager.jpg" width="1000"
- alt="9-samsung-s3-sgh-i747m-jtag-manager.jpg" />
- <figcaption
- aria-hidden="true">9-samsung-s3-sgh-i747m-jtag-manager.jpg</figcaption>
+![9-samsung-s3-sgh-i747m-jtag-manager.jpg](assets/images/9-samsung-s3-sgh-i747m-jtag-manager.jpg){width="1000"}
 
 Apply power to the DC power supply and turn the phone on using the
 button on the side of the PCB. After powering the phone on, select

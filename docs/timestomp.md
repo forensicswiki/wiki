@@ -8,8 +8,7 @@ Timestomp is a utility co-authored by developers James C. Foster and [Vincent Li
 The software's goal is to allow for the deletion or modification of
 [timestamp-related information](mac_times.md) on files.
 
-<img src="../assets/images/Timestomp_mace.jpg" title="Timestomp_mace.jpg"
- width="400" alt="Timestomp_mace.jpg" />
+![Timestomp_mace.jpg](assets/images/Timestomp_mace.jpg){width="400"}
 
 Take for example the "Timestomp MACE Values" screenshot displaying a
 command prompt window displaying the MACE values for a document file
@@ -19,8 +18,7 @@ data was last modified, accessed, created, or entered into the
 [NTFS](ntfs.md) Master File Table by the operating system or
 manually by the user.
 
-<img src="../assets/images/Timestomp_mace_change.jpg" title="Timestomp_mace_change.jpg"
- width="400" alt="Timestomp_mace_change.jpg" />
+![Timestomp_mace_change.jpg](assets/images/Timestomp_mace_change.jpg){width="400"}
 
 Using the Timestomp
 application, the modified date and timestamp can be completely
@@ -30,8 +28,8 @@ dates and times, then the validity of the document falls into question
 as does its ability to completely slip by an examiner's watchful eye if
 looking for modified files in an entirely different year or date span.
 
-<img src="../assets/images/Timestomp_mace_change_proof.jpg" title="Timestomp_mace_change.jpg"
- width="400" alt="Timestomp_mace_change_proof.jpg" />
+<!-- pyml disable-next-line line-length -->
+![Timestomp_mace_change_proof.jpg](assets/images/Timestomp_mace_change_proof.jpg){title="Timestomp_mace_change.jpg" width="400"}
 
 The "Timestomp MACE Change Proof" screenshot is a final shot of the
 Operating System's interpretation of the Modified timestamp. It reflects
@@ -59,8 +57,7 @@ forensics.
 
 Step 1. Create file (*c:\test.txt*)
 
-<img src="../assets/images/timestomp1.jpeg" title="timestomp1.jpeg"
- width="400" alt="timestomp1.jpeg" />
+![timestomp1.jpeg](assets/images/timestomp1.jpeg){width="400"}
 
 Step 2. Change timestamps using Timestomp
 
@@ -69,13 +66,11 @@ timestomp.exe c:\test.txt -z "Saturday 10/08/2005 2:02:02 PM"
 timestomp.exe c:\test.txt -a "Saturday 10/08/2005 2:02:02 PM"
 ```
 
-<img src="../assets/images/timestomp2.jpeg" title="timestomp2.jpeg"
- width="400" alt="timestomp2.jpg" />
+![timestomp2.jpg](assets/images/timestomp2.jpeg){width="400"}
 
 Step 3. Move that file to another folder (*c:\argument\test.txt*)
 
-<img src="../assets/images/timestomp3.jpeg" title="timestomp3.jpeg"
- width="400" alt="timestomp3.jpeg" />
+![timestomp3.jpeg](assets/images/timestomp3.jpeg){width="400"}
 
 $STANDARD_INFORMATION values are copied to $FN MACE values
 
@@ -86,8 +81,7 @@ timestomp.exe c:\argument\test.txt -m "Saturday 10/08/2005 2:02:02 PM"
 timestomp.exe c:\argument\test.txt -a "Saturday 10/08/2005 2:02:02 PM"
 ```
 
-<img src="../assets/images/timestomp4.jpeg" title="timestomp4.jpeg"
- width="400" alt="timestomp4.jpeg" />
+![timestomp4.jpeg](assets/images/timestomp4.jpeg){width="400"}
 
 ## External Links
 

@@ -11,10 +11,11 @@ representing Unicode. As a result, a variety of approaches have been
 implemented. Currently DFXML uses the [RegXML](regxml.md)
 standard to represent Registry entries.
 
-## See Also
+> Note that proper XML does not support unpaired surrogates
 
-There are several open source programs that use XML to represent the
-Windows Registry:
+## Tools
+
+### Open Source
 
 * [registryasxml](registryasxml.md) is a Windows GUI program
   that exports and imports section of the Windows Registry as
@@ -28,8 +29,6 @@ Windows Registry:
   Doug White, NIST.
 * [The complete set of code and and a WiReD XML difference set for steganographic applications](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl).
 
-There is one commercial program that we have found:
+### Commercial
 
 * [ComponentSource](https://www.componentsource.com/product/componentspace-registry-toolkit-component/prices)
-  has a \$195 .NET too that allows management, importing and exporting
-  of the registry via XML.

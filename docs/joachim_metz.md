@@ -2,9 +2,9 @@
 tags:
   - People
 ---
-<img src="../assets/images/Joachim_Metz.jpeg" align="right">
-
 Joachim Metz is a Digital researcher, IT/IS specialist.
+
+![Joachim_Metz.jpeg](assets/images/Joachim_Metz.jpeg){align="right"}
 
 In 2006 he started working in the field of computer forensics as a digital
 forensic investigator at Hoffmann Investigations. At that time Hoffmann

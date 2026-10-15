@@ -35,9 +35,7 @@ directors for each host or port.
 Specify the **-e netviz** option to enable the network visualization
 layer, and make a pretty picture like this:
 
-<img src="../assets/images/Tcpflow14-demo.png"
-title="tcpflow" width="550"
-alt="tcpflow" />
+![tcpflow](assets/images/Tcpflow14-demo.png){width="550"}
 
 ## Limitations
 

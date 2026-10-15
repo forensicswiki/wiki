@@ -37,66 +37,47 @@ What you need to dump the NAND:
 Instructions for dis-assembly can be found on Internet but it can be
 summarized as follows:
 
-`* Remove the rear cover using a case opening tool (guitar pick)`
-`* Remove the battery.`
-`* Remove the 6 x T-4 Torx screws.`
-`* Remove the 2 plastic covers  protecting the mainboard.`
-`* Disconnect the 2 ribbon cables that are connected to the main-board.`
+* Remove the rear cover using a case opening tool (guitar pick)
+* Remove the battery.
+* Remove the 6 x T-4 Torx screws.
+* Remove the 2 plastic covers  protecting the mainboard.
+ Disconnect the 2 ribbon cables that are connected to the main-board.
 
- <img src="../assets/images/1-Lumia620-Phone.jpg" title="1-Lumia620-Phone.jpg" width="450"
- alt="1-Lumia620-Phone.jpg" />
- <figcaption aria-hidden="true">1-Lumia620-Phone.jpg</figcaption>
+![1-Lumia620-Phone.jpg](assets/images/1-Lumia620-Phone.jpg){width="450"}
 
-<img src="../assets/images/2-Lumia620-Phone.jpg" title="2-Lumia620-Phone.jpg" width="450"
-alt="2-Lumia620-Phone.jpg" />
-<figcaption aria-hidden="true">2-Lumia620-Phone.jpg</figcaption>
+![2-Lumia620-Phone.jpg](assets/images/2-Lumia620-Phone.jpg){width="450"}
 
-<img src="../assets/images/3-Lumia620-Screws.jpg" title="3-Lumia620-Screws.jpg"
-width="450" alt="3-Lumia620-Screws.jpg" />
-<figcaption aria-hidden="true">3-Lumia620-Screws.jpg</figcaption>
+![3-Lumia620-Screws.jpg](assets/images/3-Lumia620-Screws.jpg){width="450"}
 
-<img src="../assets/images/4-Lumia620-RemovePlastic.jpg"
-title="4-Lumia620-RemovePlastic.jpg" width="450"
-alt="4-Lumia620-RemovePlastic.jpg" />
-<figcaption aria-hidden="true">4-Lumia620-RemovePlastic.jpg</figcaption>
+![4-Lumia620-RemovePlastic.jpg](assets/images/4-Lumia620-RemovePlastic.jpg){width="450"}
 
-`* Separate the main-board from the phone.`
-`* The JTAG TAPs on the Lumia 620 are located under an EMI shield above the SD card slot. The shield
-was removed using a hot air re-work station at a temperature of approximately 350 centigrade.`
+* Separate the main-board from the phone.
+* The JTAG TAPs on the Lumia 620 are located under an EMI shield above the SD card slot. The shield
+was removed using a hot air re-work station at a temperature of approximately 350 centigrade.
 
- <img src="../assets/images/6-Lumia620-EMI.jpg" title="6-Lumia620-EMI.jpg" width="500"
- alt="6-Lumia620-EMI.jpg" />
- <figcaption aria-hidden="true">6-Lumia620-EMI.jpg</figcaption>
+![6-Lumia620-EMI.jpg](assets/images/6-Lumia620-EMI.jpg){width="500"}
 
-<img src="../assets/images/7-Lumia620-EMI.jpg" title="7-Lumia620-EMI.jpg" width="500"
-alt="7-Lumia620-EMI.jpg" />
-<figcaption aria-hidden="true">7-Lumia620-EMI.jpg</figcaption>
+![7-Lumia620-EMI.jpg](assets/images/7-Lumia620-EMI.jpg){width="500"}
 
-`* Solder connecting wire to the JTAG TAPs as follows. I used 0.040 gauge magnet wire to connect an
-adapter that was inserted into the 20 pin ribbon cable supplied with the RIFF box.`
+* Solder connecting wire to the JTAG TAPs as follows. I used 0.040 gauge magnet wire to connect an
+adapter that was inserted into the 20 pin ribbon cable supplied with the RIFF box.
 
- <img src="../assets/images/8-Lumia620-Pinouts.jpg" title="8-Lumia620-Pinouts.jpg"
- width="800" alt="8-Lumia620-Pinouts.jpg" />
- <figcaption aria-hidden="true">8-Lumia620-Pinouts.jpg</figcaption>
+![8-Lumia620-Pinouts.jpg](assets/images/8-Lumia620-Pinouts.jpg){width="800"}
 
- <img src="../assets/images/9-Lumia620-Soldered.jpg" title="9-Lumia620-Soldered.jpg"
- width="800" alt="9-Lumia620-Soldered.jpg" />
- <figcaption aria-hidden="true">9-Lumia620-Soldered.jpg</figcaption>
+![9-Lumia620-Soldered.jpg](assets/images/9-Lumia620-Soldered.jpg){width="800"}
 
-`* Re-connect the LCD display connector to the mainboard.`
-`* Connect the PCB battery terminal connections to the DC power supply. The positive (+) connection
+* Re-connect the LCD display connector to the mainboard.
+* Connect the PCB battery terminal connections to the DC power supply. The positive (+) connection
 is the outermost pin (1) and the negative (-) pin is the outermost pin (3). You can configure your
 power supply to match the battery specifications which in this case is 3.7V and 1.30A but do not
-apply power at this time.`
-`* Now we can start the RIFF JTAG software, configure it for the LG E960, and connect the phone to
-the RIFF box. See the picture for more detail.`
+apply power at this time.
+* Now we can start the RIFF JTAG software, configure it for the LG E960, and connect the phone to
+the RIFF box. See the picture for more detail.
 
- <img src="../assets/images/10-Lumia620-Riff.jpg" title="10-Lumia620-Riff.jpg" width="800"
- alt="10-Lumia620-Riff.jpg" />
- <figcaption aria-hidden="true">10-Lumia620-Riff.jpg</figcaption>
+![10-Lumia620-Riff.jpg](assets/images/10-Lumia620-Riff.jpg){width="800"}
 
-`* Apply power from the DC power supply to the phone and turn the phone on using the button on the
+* Apply power from the DC power supply to the phone and turn the phone on using the button on the
 side of the PCB. After powering the phone on, select "READ" under the "DCC Read/Write" tab. If all
 goes well the "READ" button will become the "STOP" button and the phone will begin reading. If not,
 the RIFF software provides troubleshooting steps that should be taken to assist in diagnosing some
-of the issues you may experience.`
+of the issues you may experience.

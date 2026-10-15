@@ -2,8 +2,7 @@
 tags:
   - People
 ---
-<img src="HarlanCarvey.jpg" title="HarlanCarvey.jpg" width="200"
-alt="HarlanCarvey.jpg" /> [Harlan Carvey](harlan_carvey.md) is a
+![HarlanCarvey.jpg](HarlanCarvey.jpg){width="200"} [Harlan Carvey](harlan_carvey.md) is a
 computer forensics author, researcher and practitioner. He has written
 several books and tools focusing on [Windows](windows.md)
 systems and [incident response](incident_response.md). His

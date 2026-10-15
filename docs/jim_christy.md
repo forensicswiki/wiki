@@ -3,8 +3,7 @@ tags:
   - People
 ---
 
-<img src="../assets/images/600px-Jim_Christy.jpg" title="Jim Christy working"
-alt="600px-Jim_Christy.jpg" align="right" />
+![600px-Jim_Christy.jpg](assets/images/600px-Jim_Christy.jpg){title="Jim Christy working" align="right"}
 
 Jim Christy is the head of the Futures Exploration Division of the [DoD
 Cyber Crime Center](dod_cyber_crime_center.md) in Linthicum,
