@@ -60,11 +60,20 @@ how a tool parsed an artifact is obscured behind a "black box" user interface, a
 analyst using an alternative tool might get slightly different timestamps or omitted records,
 leading to conflicting testimonies.
 
+## Cross-tool validation
+
+Cross-tool validation in digital forensics is a foundational practice to ensure accuracy, yet
+relying on multiple tools can create a false sense of confirmation if the underlying parsers share
+the same flaws. True validation requires moving beyond superficial comparisons to establish
+standardized testing baselines and scalable automation.
+
 ## See Also
 
 * [SOLVE-IT](solveit.md)
 
 ## External links
 
+* [Testing digital forensic data processing tools](https://osdfir.blogspot.com/2020/09/testing-digital-forensic-data.html),
+  by Joachim Metz, September 25, 2020
 * [Case study of comparing command line tools](https://osdfir.blogspot.com/2026/07/case-study-of-comparing-command-line.html),
   by Joachim Metz, July 21, 2026

@@ -78,7 +78,7 @@ Write for an international audience of many backgrounds:
 
 * do not assume every reader is a native English speaker, avoid uncommon terms or metaphores.
 * do not assume every reader has the same expertise or background, avoid non-standard
-  abbreviations, explain jargon.
+  abbreviations, or jargon. If unavoidable explain them in [concepts](concepts.md).
 * use international standards, e.g. ISO 8601 instead of localized date and time notations.
 * use unambiguous notations, e.g. USD instead of Dollar or $.
 
@@ -94,17 +94,17 @@ Write for an international audience of many backgrounds:
 
 #### Example
 
-If you are writing an article about a tool, you might have the following
-headings:
+If you are writing an article about a tool, you might have the following headings:
 
 * **Introduction**: This section may include history of the tool, supported operating file systems.
 * **Caution**: digital forensic tradeoffs to be aware off. **Make sure to include pros and cons of
-  tool use for different digital forensics use cases.**
+  tool use for different digital forensics use cases.** Highlight dependency on other tooling,
+  which is relevant for [cross-tool validation](reproducibility.md#cross-tool-validation).
 * **Use**: This section may include common uses of a tool. A tool could contain one or more common
   uses. For example, the dd Unix utility could image drives as well wipe drives so data is not
   recoverable.
 * **See Also**: This section may include links to Forensics Wiki articles with related content,
-  complementary tools, or forks of the tool. For example, if you were writing an article about The
+  complementary tools, or forks of the tool. For example, if you were writing an article about the
   Sleuth Kit (TSK), you may want to include a link to an article about Autopsy.
 * **External Links**: Any external links, such as references to support the information you are
   providing, or links to the project page or official website.

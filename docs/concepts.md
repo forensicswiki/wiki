@@ -13,7 +13,13 @@ Various concepts central to digital forensics are:
   investigation must be scientifically validated, reliable, and independently verifiable.
 * [Ipse Dixit](ipse_dixit.md) or why "because the tool/vendor/expert/artificial intelligence said
   so" is not evidence.
+* Hearsay, see: [Wikipedia: Hearsay](https://en.wikipedia.org/wiki/Hearsay)
 * [Reproducibility](reproducibility.md)
+
+## Investigation (or Analysis or Examination) Concepts
+
+* [Digital evidence](digital_evidence.md)
+* [Rhetoric of Proof](rethoric_of_proof.md)
 
 ## Storage & Data Concepts
 
@@ -52,6 +58,23 @@ Various concepts central to digital forensics are:
 ## Data Format Analysis Concepts
 
 * [Unpaired surrogates](unpaired_surrogates.md)
+
+## Intrusion Analysis Concepts
+
+Digital forensics and intrusion analysis overlap significantly in their shared reliance on
+analyzing technical artifacts like system logs, memory captures, and network traffic to reconstruct
+a threat actor's timeline.
+
+They differ sharply in their primary objectives and operational contexts. Intrusion analysis
+operates near "real-time", focusing on rapid threat detection, live containment, and determining
+how a system was actively compromised to eradicate the adversary. In contrast to digital forensics,
+which is typically a post-incident, deep-dive methodology that prioritizes strict chain-of-custody
+documentation and absolute data preservation to ensure findings are legally defensible.
+
+* Threat hunting, in the context of intrusion analysis, is the proactive, hypothesis-driven practice
+  of searching through networks, endpoints, and datasets to detect malicious activity that has
+  evaded existing security controls. Unlike traditional reactive analysis, which triggers only after
+  an automated alert fires, hunting operates under the assumption that a breach has already occurred.
 
 ## Timeline Analysis Concepts
 
