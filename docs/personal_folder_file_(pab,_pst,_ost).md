@@ -184,7 +184,7 @@ inaccessibility.
 * Microsoft Outlook
 * [Free OST File Viewer](https://datahelp.in/ost/viewer.html)
 * [Free PST File Viewer](https://datahelp.in/pst/viewer.html)
-* [Free PST Email Viewer](https://www.bitrecover.com/free/pst-viewer/)
+* [Free PST Email Viewer](bitrecover.md#free-pst-email-viewer)
 * MVCOM
 * [MailXaminer](mailxaminer.md)
 * [Outlook PST Viewer](systools.md#outlook-pst-viewer)

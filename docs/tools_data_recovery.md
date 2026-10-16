@@ -20,20 +20,10 @@ IsoBuster opens a wide range of image files, both optical or otherwise
 such as VHD, VHDX, VDI, VMDK, DSK, ISO, IMG, DD, MDS, CUE and more, so
 that the same functions can be performed on the image file content.
 
-* [BitRecover Data Recovery Software](https://www.bitrecover.com/data-recovery-software/)
+* [BitRecover Data Recovery Software](bitrecover.md#bitrecover-data-recovery-software)
 
-Do-it-yourself data recovery software for all version of Windows such as
-Windows 10, 8.1, 8, 7, 2000, XP. Supports files & folders recovery from
-all major data storage media devices such as SSD, Hard disk, Pen drives,
-Memory cards, SD cards, External hard drives etc and also recovers over
-100+ file types of Documents, Spreadsheets, Audio, Photos & Videos etc.
-
-* [BitRecover Virtual Drive Data Recovery Software](https://www.bitrecover.com/virtual-drive-recovery-software/)
-
-Supports data recovery from Virtual hard drives or Virtual machine drive
-images saved as .vhd, .vmdk. Allows you to recover data from Virtual
-machines created with VMware, Hyper-V, Virtual Server, Virtual PC,
-Virtualbox etc.
+* [BitRecover Virtual Drive Data Recovery
+  Software](bitrecover.md#bitrecover-virtual-drive-data-recovery-software)
 
 * [CnW Recovery](https://www.cnwrecovery.com)
 
@@ -187,10 +177,7 @@ can decide on what file system in what partition or session (optical) to
 work, in what partition to scan for missing files, in what file system
 to search for deleted files and folders etc.
 
-* [RecoverBits Partition Data Recovery](https://www.bitrecover.com/data-recovery-software/)
-
-RecoverBits Partition Data Recovery software helps you recover data from
-lost, deleted or damaged partitions from drives on Windows OS.
+* [RecoverBits Partition Data Recovery](bitrecover.md#bitrecover-data-recovery-software)
 
 * [FAT Recovery](https://www.sysinfotools.com/recovery/fat-recovery.php)
 

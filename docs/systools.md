@@ -48,6 +48,10 @@ tools for Microsoft Windows.
   search contents of E01 forensic image file.
 * [BKF Viewer](#bkf-viewer) - A freeware viewer tool to open and
   preview contents of a healthy/corrupt Windows backup file.
+* [OST Viewer](#ost-viewer) - An upgradable freeware utility to view
+  OST files contents without Server / Client environment required.
+* [Outlook PST Viewer](#outlook-pst-viewer) - An upgradable freeware
+  application for opening Outlook PST data without Outlook.
 * [Exchange EDB Viewer](#exchange-edb-viewer) - A freeware yet
   upgradable tool to open Exchange Database File Mailboxes
   Independently.
@@ -104,6 +108,42 @@ corrupt Windows .bkf files via quick and deep scan option
 respectively.
 
 **Note**: Kindly note that the application is supporting Windows XP.
+
+### OST Viewer
+
+*OST Viewer* is a freeware application developed by SysTools to read
+Exchange offline mailbox files locally stored as Outlook Data File OST.
+
+OST files of any version of Microsoft Outlook can be analyzed for
+emails, calendar, contacts, and other data types. Email messages,
+address book, calendar schedules, tasks, journals, and other items are
+displayed in separate indexing units with preview of individual items.
+The utility works as a standalone without the requirement of Microsoft
+Outlook or Microsoft Exchange installation. Both healthy and corrupted
+OST files are processable, with Quick Scan for healthy files and
+Advance Scan for severely corrupted or orphaned files. Permanently
+deleted data items from the file are also viewable.
+
+**Note**: Make sure that the tool is being operated on a Microsoft
+Windows Operating System.
+
+### Outlook PST Viewer
+
+*Outlook PST Viewer* is a freeware file reader developed for data
+examination purposes. The program is a standalone application to read
+Personal Storage Table file(s) without Microsoft Outlook.
+
+All contents of the data file are readable in a detailed manner via
+categorized preview tabs. The software supports reading Outlook 98 to
+2002 based ANSI and Outlook 2003 & later Unicode type PST files of all
+sizes. Both intact and damaged data files are processable; Quick Scan
+processes intact PST files whereas Advance Scan thoroughly scans
+damaged PST files for the revival of lost data. Emails along with
+other components can be previewed, and PST files protected with
+passwords are also readable for legal / investigative purposes.
+
+**Note**: The availability of Microsoft Outlook on the respective
+machine does not make any difference to the software functioning.
 
 ### Exchange EDB Viewer
 
