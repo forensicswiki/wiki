@@ -128,7 +128,7 @@ Adroit Photo Recovery is a photo recovery tool that uses validated
 carving and is able to recover fragmented photos. Adroit Photo Recovery
 is able to recover high definition RAW images from Canon, Nikon etc.
 
-* [Kernel Data Recovery](https://www.kerneldatarecovery.com/)
+* [Kernel Data Recovery](kerneldatarecovery.md)
 
 Kernel Data Recovery offers a wide range of data recovery products to
 recuperate data from corrupt databases, desktops, laptops, RAID's,
@@ -210,7 +210,7 @@ documents and much more from NTFS partitions.
 Stellar NTFS Data Recovery Software to recover data from Windows based
 NTFS/NTFS5 file systems
 
-* [Windows Data Recovery](https://www.nucleustechnologies.com/Windows-Data-Recovery-Software.html)
+* [Windows Data Recovery](kerneldatarecovery.md)
 
 Kernel for Windows Data Recovery Software to recover data from the lost,
 corrupt, or formatted ntfs partitions
