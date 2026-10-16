@@ -57,6 +57,8 @@ Various concepts central to digital forensics are:
 
 ## Data Format Analysis Concepts
 
+* [Non-rendering characters](non_rendering_characters.md), also referred to as non-printable
+  characters.
 * [Unpaired surrogates](unpaired_surrogates.md)
 
 ## Intrusion Analysis Concepts
