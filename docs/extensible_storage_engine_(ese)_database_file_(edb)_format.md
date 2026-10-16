@@ -112,10 +112,10 @@ such as:
 ## Tools
 
 * [EsEDbViewer](https://github.com/woanware)
-* [ESE Database Viewer](https://www.systoolsgroup.com/ese-database-viewer/)
 * [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
 * [libesedb](libesedb.md)
 * [Logpresso Mini](https://github.com/logpresso/community)
+* [Systools ESE Database Viewer](systools.md)
 
 Tools that are provided with the ESE engine:
 
@@ -125,4 +125,4 @@ Tools that are provided with the ESE engine:
 
 ### Exchange
 
-* [Exchange EDB Viewer](exchange_edb_viewer.md)
+* [Exchange EDB Viewer](systools.md#exchange-edb-viewer)

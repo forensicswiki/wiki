@@ -103,5 +103,5 @@ Operating System as well i.e. the supported email application(s).
   EMLX, RTF, HTML.
 * [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
 * [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
-* [MBOX Viewer](mbox_viewer.md)
+* [MBOX Viewer](systools.md#mbox-viewer)
 * [Paraben's Email Examiner](paraben_forensics.md)

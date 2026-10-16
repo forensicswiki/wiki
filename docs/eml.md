@@ -55,7 +55,7 @@ built-in Mail application does not support EML.
 * [Aid4Mail](aid4mail.md)
 * Apple Mail
 * Emailchemy
-* [EML Viewer](eml_viewer.md)
+* [EML Viewer](systools.md#eml-viewer)
 * Entourage
 * IncrediMail
 * Microsoft Outlook

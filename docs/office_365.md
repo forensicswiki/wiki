@@ -166,7 +166,6 @@ Set-Mailbox –Identity "PiPi" –AuditLogAgeLimit 180
 Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails –eq "UserMailbox"} \| Set-Mailbox –AuditLogAgeLimit 60
 ```
 
-## External Links
+## Tools
 
-* [Backup Office 365 Mailbox](https://www.systoolsgroup.com/office365-backup/),
-  by [SysTools](systools.md)
+* [Systools Backup Office 365 Mailbox](systools.md)

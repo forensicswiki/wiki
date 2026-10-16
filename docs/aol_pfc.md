@@ -1,21 +1,17 @@
 ---
 tags:
-  - Articles that need to be expanded
   - Database
   - File Formats
   - Windows
 ---
-PFC files are files associated with America Online (AOL). PFC (Personal
-Filing Cabinet) is a database file that enables the users to save AOL
-emails locally on the computer's hard drive. It also stores all the
-received and sent emails of America Online email client. The PFC file
-enables the user to manage and access the AOL mails when the user needs
-to work without the presence of internet connectivity. PFC file enables
-to create custom folders in it for making it easier for the user to
-identify the mails. Each username in AOL has only one PFC file
-associated with it, which can be viewed only via AOL. In addition to
-this, the PFC file cannot be accessed from any other computer or even if
-the user signs as a guest in his own computer.
+PFC files are files associated with America Online (AOL). PFC (Personal Filing Cabinet) is a
+database file that enables the users to save AOL emails locally on the computer's hard drive. It
+also stores all the received and sent emails of America Online email client. The PFC file enables
+the user to manage and access the AOL mails when the user needs to work without the presence of
+internet connectivity. PFC file enables to create custom folders in it for making it easier for the
+user to identify the mails. Each username in AOL has only one PFC file associated with it, which
+can be viewed only via AOL. In addition to this, the PFC file cannot be accessed from any other
+computer or even if the user signs as a guest in his own computer.
 
 ## File Signature
 
@@ -24,12 +20,10 @@ the user signs as a guest in his own computer.
 
 ## Contents
 
-It contains attributes like emails, URLs, bookmarks, preferences,
-configuration data, etc. When it comes to the attachments associated
-with the AOL emails, the attachments are not stored in the PFC file.
-Thus, the attachments embedded in the AOL emails cannot be opened
-manually. These inline body attachments of AOL emails are stored in
-encoded 64 bit structure.
+It contains attributes like emails, URLs, bookmarks, preferences, configuration data, etc. When it
+comes to the attachments associated with the AOL emails, the attachments are not stored in the PFC
+file.  Thus, the attachments embedded in the AOL emails cannot be opened manually. These inline
+body attachments of AOL emails are stored in encoded 64 bit structure.
 
 ## Location
 
@@ -56,5 +50,4 @@ C:\ProgramData\AOL\C_AOL Desktop 9.7\backup
 ## Tools
 
 * [AOL PFC Viewer](https://datahelp.in/pfc/viewer.html)
-* [SysTools AOL PFC Viewer](https://www.systoolsgroup.com/aol-pfc-viewer/)
-* [SysTools AOL PFC Converter](https://www.systoolsgroup.com/aol-pfc-converter/)
+* [SysTools](systools.md) AOL PFC Viewer and AOL PFC Converter

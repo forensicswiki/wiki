@@ -69,4 +69,4 @@ utilities which explore the transaction records of log file.
 
 ## Tools
 
-* [SQL Log Analyzer](sql_log_analyzer.md)
+* [SQL Log Analyzer](systools.md#sql-log-analyzer)

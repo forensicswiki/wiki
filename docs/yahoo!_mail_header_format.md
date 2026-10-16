@@ -71,7 +71,6 @@ Sent via iPod (IOS 5.0.1)
 Message-ID: <1341798412.80181.YahooMailMobile@web124306.mail.ne1.yahoo.com>
 ```
 
-## Also See
+## Tools
 
-* [Yahoo Forensics](https://www.systoolsgroup.com/forensics/yahoo/)
-* [Yahoo Backup](https://www.systoolsgroup.com/yahoo-backup.html)
+* [SysTools](systools.md) Yahoo Backup and Yahoo Forensics
