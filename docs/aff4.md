@@ -4,10 +4,9 @@ tags:
   - Disk Image
   - File Formats
 ---
-# Advanced Forensic Framework 4 (AFF4)
-
-AFF4 was developed by [Michael Cohen](michael_cohen.md),
+The Advanced Forensic Framework 4, or AFF4 was developed by [Michael Cohen](michael_cohen.md),
 [Simson Garfinkel](simson_garfinkel.md) and [Bradley Schatz](bradley_schatz.md).
+
 This page describes the basic design. See [LibAFF4](libaff4.md) for a
 description of how to use the sample implementation, library and tools.
 
