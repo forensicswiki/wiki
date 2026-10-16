@@ -39,8 +39,8 @@ Several tools are available that can recover an EFS key or volume if the
 original encryption key (or passphrase) are lost. These include:
 
 * EFS key from Passware;
-* Advanced EFS Data Recovery from Elcomsoft
-  (http://www.elcomsoft.com/aefsdr.html);
+* Advanced EFS Data Recovery from
+  [Elcomsoft](elcomsoft.md);
 * [EnCase](encase.md) Forensic (can perform a brute-force attack
   on the user's passphrase);
 * WinHex Forensic (can also perform a brute-force attack on the user's
