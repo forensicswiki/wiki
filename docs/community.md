@@ -94,7 +94,10 @@ Write for an international audience of many backgrounds:
 
 #### Example
 
-If you are writing an article about a tool, you might have the following headings:
+If you are writing an article that includes tooling please first read
+[(digital) forensic tooling](forensic_tooling.md).
+
+Also include the following headings:
 
 * **Introduction**: This section may include history of the tool, supported operating file systems.
 * **Caution**: digital forensic tradeoffs to be aware off. **Make sure to include pros and cons of

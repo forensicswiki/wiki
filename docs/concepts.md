@@ -19,6 +19,7 @@ Various concepts central to digital forensics are:
 ## Investigation (or Analysis or Examination) Concepts
 
 * [Digital evidence](digital_evidence.md)
+* [(Digital) forensic tooling](forensic_tooling.md)
 * [Rhetoric of Proof](rethoric_of_proof.md)
 
 ## Storage & Data Concepts
