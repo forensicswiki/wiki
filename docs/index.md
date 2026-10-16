@@ -13,9 +13,9 @@ Digital forensics is the **branch of forensic science** that involves the identi
 preservation, acquisition, analysis, and presentation of electronic data in a manner that ensures
 its **legal admissibility**.
 
-The articles on the website cover a wide range of information from [tools](tags/#tools) used during
-investigations to [papers](tags/#papers) [people](tags/#people) and
-[organizations](tags/#organization) that contribute to the field.
+The articles on the website cover a wide range of information from [concepts](concepts.md),
+[tools](tags/#tools) used during investigations to [papers](tags/#papers) [people](tags/#people)
+and [organizations](tags/#organization) that contribute to the field.
 
 Please see the community page if you would like to [contribute](community.md).
 
