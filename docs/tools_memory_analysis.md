@@ -27,9 +27,8 @@ The following tools can be used to conduct memory analysis.
 
 ## Instant Messenger Memory Tool
 
-* Belkasoft Evidence Center is a tool by [Belkasoft](belkasoft.md) which allows
-  for retrieving various Instant Messenger artifacts from an attached memory
-  image.
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center) is a tool which allows for
+  retrieving various Instant Messenger artifacts from an attached memory image.
 
 ## Platform Independent Tools
 
@@ -47,10 +46,10 @@ hardware updates.
 Additional tools/libraries that are meant to be used in combination with
 existing frameworks or tools.
 
-* [1](https://github.com/K2/Reloc) Reloc interfaces with a hosted
+* [Reloc](https://github.com/K2/Reloc) interfaces with a hosted
   server that has compiled over 200000 fragments of PE relocation data
   that can be used to transform executable's extracted from memory back
   into their original state. This means an exact recovery from any dump
   can be built. This will allow you to validate a secure hash (SHA256,
-  etc...) to have total confidence there exists no backdoor or other
+  etc.) to have total confidence there exists no backdoor or other
   malicious patch to a code in memory.

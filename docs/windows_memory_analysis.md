@@ -25,7 +25,8 @@ images to practice with.
 * The CFReDS Project has created some
   [downloadable memory images](https://cfreds.nist.gov/mem/memory-images.rar).
 * A number of RAM images can be downloaded from
-  <https://belkasoft.com/x>. Images include
+  [Belkasoft Evidence
+  Center](belkasoft.md#belkasoft-evidence-center). Images include
   ones with Gmail emails, Skype activity, Paltalk chats, browser URLs
   etc.
 

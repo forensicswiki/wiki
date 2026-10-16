@@ -80,7 +80,7 @@ PDF. Unfortunately, this option can be quite cumbersome.
 
 These tools are useful for analyzing PDF files:
 
-[Belkasoft Evidence Center](https://belkasoft.com/x)
+[Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 
 A powerful digital forensic product by
 [Belkasoft](belkasoft.md), in particular allowing for searching

@@ -42,7 +42,7 @@ volatile memory. Includes kernel-mode drivers for all Windows OS'es
 including XP, Vista, 7, 8, 2003 and 2008 Server. 32 and 64-bit drivers
 are included.
 
-[Belkasoft Live RAM Capturer](https://belkasoft.com/ram-capturer)
+[Belkasoft Live RAM Capturer](belkasoft.md#belkasoft-live-ram-capturer)
 
 [WindowsSCOPE Pro and Ultimate](https://www.windowsscope.com/)
 
