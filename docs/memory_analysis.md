@@ -4,10 +4,9 @@ tags:
   - Memory Analysis
 ---
 
-**Memory Analysis** is the science of using a [memory
-image](memory_imaging.md) to determine information about running
-programs, the [operating system](operating_system.md), and the
-overall state of a computer. Because the analysis is highly dependent on
+Memory Analysis is the practice of determining information about running programs, the
+[operating system](operating_system.md), and the overall state of a computer from a
+[memory image](memory_imaging.md). Because memory analysis is highly dependent on
 the operating system, it has been divided into the following pages:
 
 * [Linux Memory Analysis](linux_memory_analysis.md)
@@ -15,45 +14,43 @@ the operating system, it has been divided into the following pages:
 
 ## Data types
 
-Different programming languages provide different primitive data types,
-e.g. in C it is common to have "char", "int", "long", "float", "double".
-The size of these primitive data types is dependent on multiple factors
-like the CPU, the programming language, the compiler, etc.
-[1](https://en.wikipedia.org/wiki/Integer_(computer_science)) e.g. on
-64-bit system the size of an "int" can vary based on the data-model
-[2](https://en.wikipedia.org/wiki/64-bit_computing).
+Per <https://en.wikipedia.org/wiki/Integer_(computer_science)>:
 
-**Note that some memory analysis resources and tools are known to
-completely disregard this aspect of 64-bit computing and claim
-incorrectly an integer is always 32-bit on 64-bit systems or claim the
-size of the integer is operating system dependent.**
+> Different programming languages provide different primitive data types,
+> e.g. in C it is common to have "char", "int", "long", "float", "double".
+> The size of these primitive data types is dependent on multiple factors
+> like the CPU, the programming language, the compiler, etc.
 
-When reading primitive data types from a byte stream the endianness
-specifies how the least and most significant parts of the data are
-stored [3](https://en.wikipedia.org/wiki/Endianness).
+Per <https://en.wikipedia.org/wiki/64-bit_computing>:
 
-Composite data types (also referred to as data structures) consists of
-primitive and/or composite data types.
+> on a 64-bit system the size of an "int" can vary based on the data-model
 
-When reading data structures from memory note that data structure
-alignment [4](https://en.wikipedia.org/wiki/Data_structure_alignment) can
-be applied.
+**Note that some memory analysis resources and tools are known to completely disregard this aspect
+of 64-bit computing and claim incorrectly an integer is always 32-bit on 64-bit systems or claim
+the size of the integer is operating system dependent.**
+
+Per <https://en.wikipedia.org/wiki/Endianness>:
+
+> When reading primitive data types from a byte stream the endianness specifies how the least and
+> most significant parts of the data are stored.
+
+Composite data types (also referred to as data structures) consists of primitive and/or composite
+data types.
+
+When reading data structures from memory note that
+[data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment) can be applied.
 
 ### Character and string data types
 
-Note that this subject could fill books by itself and the following
-information is a very brief overview of some of the characteristics of
-character and string data types.
+Note that this subject could fill books by itself and the following information is a very brief
+overview of some of the characteristics of character and string data types.
 
-A programming language can distinguish between Unicode, non-Unicode and
-binary strings
-[5](https://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings).
+A programming language can distinguish between
+[Unicode, non-Unicode and binary (or byte) strings](https://en.wikipedia.org/wiki/Primitive_data_type#Characters_and_strings).
 
-* Unicode strings typically are stored in a Transform format
-  [6](https://en.wikipedia.org/wiki/UTF)
+* Unicode strings typically are stored in a [Transform format](https://en.wikipedia.org/wiki/UTF)
   * There are multiple versions of Unicode
-  * A predecessor to Unicode is Universal Character Set (UCS)
-    [7](https://en.wikipedia.org/wiki/Universal_Character_Set)
+  * A predecessor to Unicode is the [Universal Character Set (UCS)](https://en.wikipedia.org/wiki/Universal_Character_Set)
 * non-Unicode strings can be stored in various encodings e.g. ASCII
   [8](https://en.wikipedia.org/wiki/Character_encoding)
   * typical the encoding is identified by a codepage e.g. for CP1252 for
@@ -75,16 +72,13 @@ binary strings
   often stored in bytes the endianness of the bits within the byte is
   relevant when reading or writing the string.
 
-Another distinction made in some programming languages is to have a
-default (or narrow) character type, e.g. in C "char", and a separate
-wide character type, e.g. in C "wchar_t". The "wchar_t" is typically
-associated with Unicode strings. **Note that this should be taken as a
-very loose association, since the "char" can be used to store Unicode
-strings in UTF-8 and wchar_t can be used to store non-Unicode
-strings.** The typical size of char is 8-bits where the MSB is the
-sign bit. The typical size of wchar_t varies per "platform", e.g. it is
-common to see wchar_t to be 32-bit of size on Linux with gcc and 16-bit
-of size on Windows with MSC.
+Another distinction made in some programming languages is to have a default (or narrow) character
+type, e.g. in C "char", and a separate wide character type, e.g. in C "wchar_t". The "wchar_t" is
+typically associated with Unicode strings. **Note that this should be taken as a very loose
+association, since the "char" can be used to store Unicode strings in UTF-8 and wchar_t can be used
+to store non-Unicode strings.** The typical size of char is 8-bits where the MSB is the sign bit.
+The typical size of wchar_t varies per "platform", e.g. it is common to see wchar_t to be 32-bit of
+size on Linux with gcc and 16-bit of size on Windows with MSC.
 
 ## OS-Independent Analysis
 
@@ -100,11 +94,10 @@ plugins that replicated this analysis.
 
 ## Encryption Keys
 
-Various types of encryption keys can be extracted during memory
-analysis.
+Various types of encryption keys can be extracted during memory analysis.
 
-* AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder
-  and private and public RSA keys from a memory dump.
+* AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder and private and
+  public RSA keys from a memory capture.
 * cryptoscan.py which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
   scans a memory image for [TrueCrypt](truecrypt.md) passphrases
 
@@ -118,9 +111,29 @@ analysis.
 * [Virtualization Memory Analysis](virtualization_memory_analysis.md)
 * [Windows Memory Analysis](windows_memory_analysis.md)
 
-### Assorted tools
+### Rekall Forensics blog
 
-* [Legilimency, a Memory Research Platform for iOS](https://github.com/google/Legilimency/)
+* [Rekall profiles](rekall_profiles.md)
+* [The Rekall Profile Repository and Profile Auto-selection](rekall_profile_repository_and_profile_auto_selection.md)
+* [Do we need the Kernel Debugging Block?](rekall_do_we_need_the_kernel_debugging_block.md)
+* [How to stop memory acquisition by changing one byte](rekall_how_to_stop_memory_acquisition_by_changing_one_byte.md)
+* [OSX 10.9 Memory Acquisition](rekall_osx_10_9_memory_acquisition.md)
+* [New Rekall Plugin: Mac Compressed Memory](rekall_plugin_mac_compressed_memory.md)
+* [VM discovery and introspection with Rekall](rekall_vm_discovery_and_introspection.md)
+* [Windows Virtual Address Translation and the Pagefile](rekall_windows_virtual_address_translation_and_the_pagefile.md)
+* [The Windows User mode heap and the DNS resolver cache](rekall_windows_user_mode_heap_and_dns_resolver_cache.md)
+* [Rekall NTFS Support](rekall_ntfs_support.md)
+* [The Pmem Memory acquisition suite](rekall_pmem_memory_acquisition_suite.md)
+* [Adding Rekall's Windows 10 Support](rekall_adding_windows_10_support.md)
+* [Windows Virtual Address Translation - Part 2](rekall_windows_virtual_address_translation_part_2.md)
+* [XEN ParaVirtualization support in Rekall](rekall_xen_paravirtualization_support.md)
+* Accurately determining the profile of a running operating system
+* The pmem suite of memory acquisition tools
+* Rekall and the windows PFN database
+* Searching memory with Rekall
+* The Rekall Agent Whitepaper
+* ELF hacking with Rekall
+* Virtual Secure Mode and memory acquisition
 
 ## External Links
 
@@ -181,3 +194,7 @@ analysis.
 * [Reverse Engineering Poison Ivy's Injected Code Fragments](https://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html)
 * [TrueCrypt Master Key Extraction And Volume Identification](https://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
   by Michael Hale Ligh, January 14, 2014
+
+## Tools
+
+* [Legilimency, a Memory Research Platform for iOS](https://github.com/google/Legilimency/)
