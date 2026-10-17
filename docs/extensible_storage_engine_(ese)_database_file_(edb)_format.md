@@ -112,7 +112,7 @@ such as:
 ## Tools
 
 * [EsEDbViewer](https://github.com/woanware)
-* [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
+* [Free EDB Viewer](datahelp.md)
 * [libesedb](libesedb.md)
 * [Logpresso Mini](https://github.com/logpresso/community)
 * [Systools](systools.md) ESE Database Viewer and Exchange EDB Viewer

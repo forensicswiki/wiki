@@ -182,8 +182,8 @@ inaccessibility.
 * [libpst](libpst.md)
 * Microsoft Exchange Client
 * Microsoft Outlook
-* [Free OST File Viewer](https://datahelp.in/ost/viewer.html)
-* [Free PST File Viewer](https://datahelp.in/pst/viewer.html)
+* [Free OST File Viewer](datahelp.md)
+* [Free PST File Viewer](datahelp.md)
 * [Free PST Email Viewer](https://www.bitrecover.com/free/pst-viewer/)
 * MVCOM
 * [MailXaminer](mailxaminer.md)

@@ -101,7 +101,7 @@ Operating System as well i.e. the supported email application(s).
   Sparrow, the Bat, Apple Mail, Entourage, PowerMail, PocoMail, Eudora,
   Spicebird, WebMail or Opera Email client into PDF, PST, EML, MSG,
   EMLX, RTF, HTML.
-* [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
-* [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
+* [Datahelp: MBOX File Viewer](datahelp.md)
+* [Freeviewer: MBox Viewer](freeviewer.md)
 * [MBOX Viewer](systools.md#mbox-viewer)
 * [Paraben's Email Examiner](paraben_forensics.md)
