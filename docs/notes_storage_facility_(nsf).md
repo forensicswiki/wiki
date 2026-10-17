@@ -43,9 +43,12 @@ emails, documents, appointments, log-entries, data-views, forms, etc.
 
 Notes can use various forms of encryption.
 
-## See also
+## External links
 
 * [Wikipedia: HCL Domino](https://en.wikipedia.org/wiki/HCL_Domino)
 * [Notes Storage Facility (NSF) database file format.pdf](https://github.com/libyal/libnsfdb/blob/main/documentation/Notes%20Storage%20Facility%20(NSF)%20database%20file%20format.asciidoc),
   by the [libnsfdb project](libnsfdb.md), February 2010
-* [Lotus Notes Forensics](https://www.systoolsgroup.com/forensics/lotus-notes/)
+
+## Tools
+
+* [Systools Lotus Notes Forensics](systools.md)

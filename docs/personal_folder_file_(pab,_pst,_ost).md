@@ -187,7 +187,7 @@ inaccessibility.
 * [Free PST Email Viewer](https://www.bitrecover.com/free/pst-viewer/)
 * MVCOM
 * [MailXaminer](mailxaminer.md)
-* [Outlook PST Viewer](outlook_pst_viewer.md)
+* [Outlook PST Viewer](systools.md#outlook-pst-viewer)
 * [Pst file viewer](pst_file_viewer.md)
 * PST Scanner
 * Windows Messaging

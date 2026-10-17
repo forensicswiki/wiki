@@ -126,12 +126,8 @@ file. The long-familiar licensed cross platform utilities are:
 * [Mac OS disk image types](https://github.com/libyal/libmodi/blob/main/documentation/Mac%20OS%20disk%20image%20types.asciidoc),
   by the libmodi project
 
-### Tools
+## Tools
 
-* 7zip
-* dmg2img
-* DMGExtractor
-* [DMG Viewer](https://www.systoolsgroup.com/dmg-viewer/)
+* [Systools DMG Viewer](systools.md)
 * [encrypteddmg](https://github.com/nlitsme/encrypteddmg)
 * [libmodi](https://github.com/libyal/libmodi)
-* PeaZip
