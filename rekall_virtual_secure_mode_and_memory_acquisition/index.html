@@ -1,0 +1,960 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall virtual secure mode and memory acquisition - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#final-notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall virtual secure mode and memory acquisition
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#final-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thanks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thanks
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall virtual secure mode and memory acquisition</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on 2018-09-17.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>This blog post is about my recent work to track down and fix a bug in
+Winpmem - the open source memory acquisition utility. You can try the
+latest release at
+the <a href="https://github.com/Velocidex/c-aff4">Velocidex/c-aff4</a> release
+page <em>(Note Winpmem moved from the Rekall project into the AFF4 project
+recently).</em></p>
+<p>The story starts, as many do, with an email send to the SANS DFIR list asking
+about memory acquisition tools to use for VSM protected laptops. There
+are a number of choices out there, these days, but some readers proposed
+the old favorite: <a href="https://github.com/Velocidex/c-aff4">WinPmem</a>.
+WinPmem is AFAIK the only open source memory acquisition tool. It was
+released quite some years ago and had not been updated for a while.
+However, it has been noted that it crashes on windows systems with VSM
+enabled.</p>
+<p>In 2017 Jason Hale gave an excellent talk at DFRWS:
+where he put a number of memory acquisition tools through their paces
+and found that most tools blue screened when run on VSM enabled systems.
+Subsequently some of these tools were fixed but I could not find any
+information as to how they were fixed. The current state of the world is
+that Winpmem appears to be one of those tools that crashes.</p>
+<p>When I heard these reports I finally blew the dust off my windows
+machine and enabled VSM. I then tried to acquire with the released
+winpmem (v3.0.rc3) and I can definitely confirm it BSODs right away! Not
+good at all!</p>
+<p>At first I thought that the physical memory range detection is a
+problem. Maybe under VSM the memory ranges we detect with WinPmem are
+wrong and this makes us read into invalid physical memory ranges? Most
+tools get the physical memory ranges using the undocumented kernel
+function MmGetPhysicalMemoryRanges() - which is only accessible in
+kernel mode.</p>
+<p>To confirm, I got winpmem to just print out the ranges it got from that
+function using the -L flag. This flag makes winpmem just load the
+driver, report on the memory ranges and quit without reading any memory
+(so it should not crash).</p>
+<p><img alt="virtual secure mode and memory acquisition 1" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_1.png" /></p>
+<p>These memory ranges look a bit weird actually - they are very different
+from what the same machine reports without VSM enabled.</p>
+<p>The first thing I checked was another information source for the physical memory ranges. I wrote a
+Velociraptor artifact to collect the physical memory ranges as reported by the hardware manager in
+the registry (Since <a href="http://www.reactos.org/pipermail/ros-diffs/2009-June/031391.html">MmGetPhysicalMemoryRanges</a>)
+is not accessible from userspace so the system writes the memory ranges into the Windows Registry
+on each boot). Note that you can also use <a href="https://www.alex-ionescu.com/meminfo-peer-inside-memory-manager-behavior-on-windows-vista-and-server-2008/">meminfo</a>
+from Alex Ionescu to dump memory ranges from userspace.</p>
+<p><img alt="virtual secure mode and memory acquisition 2" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_2.png" /></p>
+<p>So this seems to agree with what the driver reports.</p>
+<p>Finally I attempted to take the image
+with <a href="https://www.comae.com/">DumpIt</a> - this is a great memory imager
+which did not crash either:</p>
+<p><img alt="virtual secure mode and memory acquisition 3" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_3.png" /></p>
+<p>The DumpIt program produced a windows crash dump image format. It is
+encouraging to see that the CR3 value reported by DumpIt was consistent
+with WinPmem's report. While DumpIt does not explicitly report the
+physical memory ranges it used, since it uses a crashdump format file,
+we can see the ranges encoded into the crashdump using Rekall:</p>
+<p><img alt="virtual secure mode and memory acquisition 4" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_4.png" /></p>
+<p>So at this point I was convinced that the problem is unrelated to
+reading outside valid physical memory ranges - even DumpIt is using the
+same ranges as WinPmem but it does not crash!</p>
+<p>Clearly any bug fix will involve updating the driver components (since
+all imager's userspace component just reads from the same ranges
+anyway). It had been years since I did any kernel development and my
+code signing certificate expired many years ago. These days code signing
+certs are much more expensive since they require EV certs. I was
+concerned that unsuspecting users would attempt to use WinPmem on VSM
+enabled systems (which are becoming more common) and cause BSOD. This
+poses an unacceptable risk.</p>
+<p>I updated the DFIR list announcing that in my estimation we would need
+to fix the issue with the kernel driver and since my code signing cert
+expired I won't be able to do so. I felt the only responsible thing was
+to pull the download and advise users to consider an alternative product - at
+least for the time being.</p>
+<p>What happened next was an amazing response from the DFIR community. I
+receives many emails generously offering to sponsor a code signing cert
+and people expressing regret over the possibility of Winpmem winding
+down. Finally Emre Tinaztepe from Binalyze has graciously offered to
+sign the new drivers and contribute them to the community. Thanks Emre!
+It is really awesome to see open source at work and the community coming
+together!</p>
+<p>Fixing the bug</p>
+<p>So I set out to see why Winpmem crashes. To do kernel development, one
+needs to install Visual Studio with the Driver Development Kit (DDK).
+This takes a long time and downloads several GB worth of software!</p>
+<p>After some time I had the development environment set up, checked out
+the winpmem code and tried to replicate the crash with the newly built
+driver. To my surprise it did not crash and worked perfectly! At this
+point I was confused....</p>
+<p>I turns out that the bug was fixed back in <a href="https://github.com/google/rekall/commit/a76abcf74f2652494c67d28a60bd141a138271f1">2016</a>
+but I had totally forgotten about it (a touch of senility no doubt). I then
+forensically analyzed my email to discover a conversation with Jason
+Hale back in October 2016! Unfortunately my code signing cert ran out in
+August 2016 and so although the fix was checked in, I never rebuilt the
+driver for release - my bad :-(.</p>
+<p>Taking a closer look at the bug fix, the key is this code:</p>
+<pre><code class="language-text">char *source = extension-&gt;pte_mmapper-&gt;rogue_page.value + page_offset;   try {     // Be extra careful here to not produce a BSOD. We would rather     // return a page of zeros than BSOD.     RtlCopyMemory(buf, source, to_read);   } except(EXCEPTION_EXECUTE_HANDLER) {     WinDbgPrint(&quot;Unable to read from %p&quot;, source);     RtlZeroMemory(buf, to_read);   }
+</code></pre>
+<p>The code attempts to read the mapped page, but if a segfault occurs,
+rather than allow it to become a BSOD, the code traps the error and pads
+the page with zeros. At the time I thought this was a bit of a cop out - we
+don't really know why it crashes, but if we are going to crash, we would
+rather just zero pad the page than BSOD. Why would reading a page from
+physical RAM backed memory segfault?</p>
+<p>To understand this we must understand what Virtualization Based Security
+is. Microsoft windows implements <a href="https://learn.microsoft.com/en-us/archive/blogs/ash/windows-10-device-guard-and-credential-guard-demystified">Virtual Secure Mode (VSM)</a>:</p>
+<blockquote>
+<p>VSM leverages the on chip virtualization extensions of the CPU to
+sequester critical processes and their memory against tampering from
+malicious entities. ... The protections are hardware assisted, since the
+hypervisor is requesting the hardware treat those memory pages
+differently.</p>
+</blockquote>
+<p>What this means in practice, is that some pages belonging to sensitive
+processes are actually unreadable from within the normal OS. Attempting
+to read these pages actually generates a segfault by design! Of course
+in the normal course of execution, the VSM container would never access
+those physical pages because they do not belong to it, but the
+hypervisor is actually implementing an additional hardware based check
+to make sure the pages can not be accessed. The above fix works because
+the segfault is caught and WinPmem just moves on to the next page
+avoiding the BSOD.</p>
+<p>So I modified Winpmem to report all the PFNs that it was unable to read.
+Winpmem now prints a list of all unreadable pages at the end of
+acquisition:</p>
+<p><img alt="virtual secure mode and memory acquisition 5" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_5.png" /></p>
+<p>You can see that there are not many pages protected by the hypervisor
+(around 25Mb in total). The pages are not contained in a specific region
+though - they are sprayed around all of physical memory. This actually
+makes perfect sense, but let's double check.</p>
+<p>I ran the kernel debugger (windbg) to see if it can read the physical
+pages that WinPmem can not read. Windbg has the !db command which reads
+physical memory.</p>
+<p><img alt="virtual secure mode and memory acquisition 6" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_6.png" /></p>
+<p>Compare this output to the previous screenshot which indicates Winpmem
+failed to read PFN 0x2C7 and 0x2C9 (but it could read 0x2C8). Windbg is
+exactly the same - it too can not read those pages presumably protected
+by VSM.</p>
+<p>Representing unreadable pages</p>
+<p>This is an interesting development actually. Disk images have for a long
+time had the possibility of a sector read error, and disk image formats
+have evolved to account for such a possibility. Sometimes when a sector
+is unreadable, we can zero pad the sector, but most forensic disk images
+have a way of indicating that the sector was actually not readable. But
+this never happened before in memory images, because it was
+inconceivable that we could not read from RAM (as long as we had the
+right access!).</p>
+<p>Winpmem uses the <a href="https://github.com/aff4/Standard">AFF4</a> format by
+default, and luckily AFF4 was designed specifically with forensic
+imaging in mind (See section 4.4. Symbolic stream aff4:UnreadableData).
+Currently the AFF4 library fills an unreadable page with "UNREADABLE"
+string to indicate this page was protected.</p>
+<p>Note that if the imaging format does not support this (e.g. RAW images
+or crashdumps) than we can only ever zero pad unreadable pages and then
+we don't know if these pages were originally zero or were unreadable.</p>
+<p>PTE Remapping Vs. MmMapIoSpace</p>
+<p>Those who have been following winpmem for a while are probably aware
+that winpmem uses a technique called PTE remapping by default. All
+memory acquisition tools have to map the physical memory into the
+kernel's virtual address space - after all software can only ever read
+the virtual address space, and can not access physical memory directly.</p>
+<p>There are typically 4 techniques for mapping physical memory to virtual
+memory:</p>
+<ol>
+<li>Use of \.\PhysicalMemory device - this is an old way of exporting
+   physical memory to userspace and has been locked down for ages by
+   Windows.</li>
+<li>Use of the undocumented MmMapMemoryDumpMdl() function to map arbitrary
+   physical pages to kernel space.</li>
+<li>Use of the MmMapIoSpace() function. This function is typically used to
+   map PCI devices DMA buffers into kernel space.</li>
+<li>Direct PTE remapping - the technique used by WinPmem.</li>
+</ol>
+<p>Memory acquisition is by definition an incorrect operation when viewed
+from the point of view of OS stability. For example, running Winpmem's
+MmMapIoSpace() mode under the driver verifier will produce a bugcheck
+0x1a with code 0x1233 "A driver tried to map a physical memory page that
+was not locked. This is illegal because the contents or attributes of
+the page can change at any time."</p>
+<p>This is technically correct - we are mapping some random pages of system
+physical memory into our virtual memory space - but we don't actually
+own these pages (i.e. we never locked them) so anyone could at any time
+just go ahead and use them from under us. Obviously if we want to write
+a kernel driver then by definition mapping physical memory we do not own
+is bad! Yet this is what memory acquisition is all about!!1</p>
+<p>The other interesting issue is caching attributes. Most people's gut
+reaction is that direct PTE manipulation should be less reliable since
+it essentially goes behind the OS's back and directly maps physical
+pages ignoring memory caching attributes. The reality is that the OS
+performs a lot of extra checks which are designed to trap erroneous use
+of APIs. For example, it may fail a request for MmMapIoSpace() if the
+cache attributes are incorrect - this makes sense if we are actually
+trying to read and write to the memory and depend on cache coherence,
+but if we are just acquiring the memory it doesn't matter - we would
+much rather get the data than worry about caching. Because we are going
+to have a lot of smear in the image anyway, caching really does not
+affect imaging in any measurable way.</p>
+<p>Winpmem implements both PTE Remapping and MmMapIoSpace() modes.
+MmMapIoSpace() typically fails to collect more pages though. Here is the
+output from the MmMapIoSpace() method vs. PTE Remapping method side by
+side:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="virtual secure mode and memory acquisition 7" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_7.png" /></td>
+<td><img alt="virtual secure mode and memory acquisition 8" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_8.png" /></td>
+</tr>
+<tr>
+<td><img alt="virtual secure mode and memory acquisition 9" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_9.png" /></td>
+<td><img alt="virtual secure mode and memory acquisition 10" src="../assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_10.png" /></td>
+</tr>
+<tr>
+<td>Total unreadable pages with PTE Remapping</td>
+<td>Total Unreadable pages with MmMapIoSpace() function.</td>
+</tr>
+</tbody>
+</table>
+<p>As can be seen, the MmMapIoSpace() method fails to read more pages, and
+the pages it fails to read are still accessible as proven by the kernel
+debugger.</p>
+<h2 id="final-notes">Final notes</h2>
+<p>This post just summarises my understanding of how memory acquisition
+with VSM works. I may have got it completely wrong! If you think so,
+please comment below or on the DFIR/Rekall/Winpmem mailing list. It kind
+of makes sense to me that winpmem can not read protected pages, and even
+the kernel debugger cannot read those same pages. However, I checked the
+image that DumpIt produced, and it actually contains data (i.e. not all
+zeros) in the same pages which are supposed to be unreadable. The other
+interesting thing is that DumpIt reports no errors reading pages (see
+the screenshot above), so it claims to have read all pages (including
+those protected by VSM). I don't know if DumpIt implements some other
+novel way to read through the hypervisor restrictions or maybe it has a
+bug like an uninitialized buffer so these failed pages return random
+junk? Or maybe I have a deep misunderstanding of the whole thing (most
+likely). More tool testing is required!</p>
+<h2 id="thanks">Thanks</h2>
+<p>I would like to extend my gratitude to Emre Tinaztepe from
+<a href="https://binalyze.com/">Binalyze</a> for his patient testing and signing
+the drivers. Also thanks for Matt Suiche for feedback and doing a lot of
+excellent original research and producing such cool tools.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1593 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall vm discovery and introspection - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vm-discovery-and-introspection-with-rekall" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall vm discovery and introspection
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vm-discovery-and-introspection-with-rekall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VM discovery and introspection with Rekall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#short-introduction-to-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Short introduction to virtualization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x86-hardware-assisted-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        x86 hardware-assisted virtualization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vt-x-virtualized-memory-and-ept-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VT-x: Virtualized memory and EPT translation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vm-introspection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VM introspection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VM introspection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detecting-a-running-vm-discovering-vmcs-regions-in-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detecting a running VM: Discovering VMCS regions in memory
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detecting-a-running-vm-mapping-the-layout-of-the-vmcs-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detecting a running VM: Mapping the layout of the VMCS region
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Detecting a running VM: Mapping the layout of the VMCS region">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#haswell-is-interesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Haswell is interesting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detecting-a-running-vm-one-last-thing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detecting a running VM: One last thing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introspecting-a-running-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introspecting a running VM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-core-vms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-core VMs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nested-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nested virtualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-vmscan-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The vmscan plugin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run-a-rekall-plugin-on-a-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to run a rekall plugin on a VM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to run a rekall plugin on a VM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#live-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Live analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remote-live-analysis-with-grr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remote live analysis with GRR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-rekall-shell-and-vms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Rekall shell and VMs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-other-tools-export-raw-memory-of-a-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use other tools: Export raw memory of a VM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rekall-virtualization-feature-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rekall virtualization feature list
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future improvements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:virtualization" class="md-tag">Virtualization</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall vm discovery and introspection</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+Jordi Sanchez on 2014-10-04.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<h2 id="vm-discovery-and-introspection-with-rekall">VM discovery and introspection with Rekall</h2>
+<p><em>Monday, 9 AM</em>. Your SIEM alerts you of packets matching a Gh0stpdf
+signature coming from a web designer's OS X machine.</p>
+<p>Network activity for the host
+shows HTTP requests with a Chrome on Windows user-agent. The machine has
+Virtualbox installed and running.</p>
+<p><em>An hour later</em>, another alert fires for a known-bad URL hit from one of
+your customers' Windows VMs on your OpenStack Compute/KVM deployment.</p>
+<p>It looks like it's gonna be a long week.</p>
+<p>These are two scenarios that would most likely require disk forensics to
+triage and analyze since the VMs are out of your control and none of
+your remote forensics tools are installed. Lots of time wasted just to
+determine if they are false positives.</p>
+<ul>
+<li>What if you could inspect the VM and launch your Rekall plugin of choice
+  on it? <strong>With Rekall you can!</strong></li>
+<li>“I want to do it remotely, live!”
+  Try <strong>GRR (now with Rekall integration)</strong> *wink*.</li>
+<li>What if you prefer to use your tool of choice instead of Rekall to
+  analyze the VM memory? <strong>Rekall helps you!</strong></li>
+</ul>
+<p>Rekall is the first memory framework to support transparent
+introspection of VMs with any host-guest OS combination and is
+independent of the virtualization software layer, as long as it's
+employing <a href="http://en.wikipedia.org/wiki/X86_virtualization">Intel Virtualization extensions with Extended Page
+Tables</a> which is
+present in all modern Intel processors and the default for many
+virtualization packages.</p>
+<p>Together with <a href="https://github.com/google/grr">GRR</a>, Rekall allows you
+to discover virtual machines running in your fleet and analyze their
+memory, <strong>live</strong> requiring only access to the host. No interaction is
+done with the virtualization layer.</p>
+<p>In this article I'll explain how Intel's hardware-assisted
+virtualization works, how Rekall emulates this technology to allow
+transparent introspection of guest VMs from just the host memory and the
+challenges of its implementation.</p>
+<p>If you just want to know how detect and analyze VMs right away,
+see <a href="./#the-vmscan-plugin">the_vmscan_plugin</a>.
+For a complete feature list,
+see <a href="./#feature-list">feature_list</a>.</p>
+<h2 id="short-introduction-to-virtualization">Short introduction to virtualization</h2>
+<p>Virtualization has become a pervasive technology. From cloud
+infrastructure and malware analysis sandboxes, to consumer-grade
+virtualization products that allow you to run your Operating System of
+choice, virtualization is everywhere.</p>
+<p>Virtualization at its core separates software from hardware in a way
+that allows multiple operating systems to share the same resources, at
+the same time. Some resources such as memory are split so that each
+virtual machine has access to a portion of it, while others like your
+network card are shared. It is a not a new concept and several different
+techniques have been used for a long time to provide such capabilities.</p>
+<p>Virtualization can be done in multiple ways:</p>
+<ul>
+<li><em>Full emulation</em> (like in Bochs) allows for complete control over the
+  running code at the expense of speed. Each and every CPU instruction of
+  the guest OS is trapped and its effect on the state of the virtual
+  machine is emulated.</li>
+<li><em>Binary translation</em>, on the other hand, takes blocks of instructions
+  and translates them to a different set of instructions. Then they are
+  executed natively in the processor. This technique can be used to apply
+  optimizations, run code compiled for a CPU in a different CPU or to
+  facilitate debugging by introducing traps in the code.</li>
+<li><em>Paravirtualization</em>, instead, requires the guest kernel to be modified
+  so that it knows that it's running virtualized and executes code
+  accordingly. It usually provides better performance than either Full
+  emulation or Binary translation but is only supported by some operating
+  systems (i.e Linux-XEN).</li>
+<li><em>Hardware-assisted</em>. Where the CPU provides functionality to aid or
+  speed up virtualization tasks such as running the guest code, quick page
+  translations or device access control.</li>
+</ul>
+<p>Because most operating systems base process isolation on paging and
+page-level protections, virtualization solutions must also virtualize
+paged memory. The main problem with this is that virtualizing paged
+memory adds noticeable overhead.</p>
+<p>By 2004, AMD realized the need for hardware-assisted virtualization and
+announced their virtualization solution AMD-V (codenamed Pacifica). It
+wasn't until May 2006 that they commercialized the first Athlon 64
+processors with AMD-V support. To improve performance of page
+translations, AMD introduced a technology called RVI (Rapid
+Virtualization Indexing) in September 2007.</p>
+<p>Intel also realized the problem and introduced VT-x (codename
+Vanderpool) in November 2005 along with processors that had support for
+it. However, it wasn't until November 2008 that Intel introduced their
+response to AMD's RVI, called EPT (Extended Page Tables) in their 2nd
+generation processors.</p>
+<p>Both AMD-V and VT-x introduce support for running code for the VM
+directly on the CPU, while offering at least the same level of
+protection as native code. Both RVI and EPT attempt to solve or mitigate
+some of the page translation overhead by allowing the processor to
+perform all the page translations for the VM all the way up to the
+physical memory. Both hardware-assisted solutions are remarkably
+similar.</p>
+<p>Nowadays, most virtualization solutions use hardware-assisted
+virtualization when available and resort to a mix of the aforementioned
+techniques when it's unavailable. Some solutions implement a backdoor of
+sorts in the kernel that is allowed direct communication from the guest
+to the host (an example of which is VMWare Tools).</p>
+<p>Rekall supports detection and transparent emulation of Intel VT-x with
+EPT translation since January 2014. We support any host and guest OS,
+both 32 and 64bits.</p>
+<blockquote>
+<p><strong>Warning:</strong> Because EPT translation was introduced after Penryn
+processors were released, Rekall can find VMs on Penryn processors but
+not inspect them at this time. Some Nehalem processors also didn't have
+support for EPT translation. You can
+use <code>http://ark.intel.com/products/virtualizationtechnology</code> to check if
+the processor of the machine you're trying to analyze has EPT support.
+Most machines bought in the last 5 years should be supported.</p>
+</blockquote>
+<h2 id="x86-hardware-assisted-virtualization">x86 hardware-assisted virtualization</h2>
+<p>The central piece of any virtualization technology is the hypervisor.
+This component sets up the virtual machine and controls its execution.</p>
+<p>In x86 hardware-assisted virtualization the CPU is in charge of actually
+running the VM (that is, it executes its code), but the hypervisor code
+gets control every now and then. In VT-x you tell the CPU to pause the
+VM execution and return control to the hypervisor under certain
+circumstances.</p>
+<p><img alt="posts/images/vtx_high_level.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_2.png" /></p>
+<p>Figure 1. High-level view of processor CPL transitions with VT-x
+enabled.</p>
+<p>In order to set up the VM and start/resume it, VM-specific x86
+instructions are used (<code>VMREAD</code>, <code>VMWRITE</code>, <code>VMPTRLD</code>, <code>VMRUN</code>). Only
+code running with CPL 0 (ring0) is allowed to execute these
+instructions. This is why virtualization software use kernel drivers.
+These kernel components are the actual hypervisor and pretty much all
+virtualization products provide some sort of UI or API to communicate
+with the hypervisor and request operations like pausing or resuming a
+VM.</p>
+<p>One key piece the hypervisor has to set up before asking the processor
+to run a VM is what Intel calls a Virtual Machine Control Structure
+(VMCS). This structure holds all the state of the VM and contains
+information such as:</p>
+<ul>
+<li>The conditions under which the CPU should stop executing the VM and
+  return to the hypervisor; this is stored in control fields.</li>
+<li>State information about the guest VM. Values of important registers like
+  CR0, CR3, EAX, EBX or EIP. These are needed to run or resume the VM.</li>
+<li>State information about the hypervisor. To know how the processor can
+  get back to executing it when one of these conditions happen.</li>
+</ul>
+<h2 id="vt-x-virtualized-memory-and-ept-translation">VT-x: Virtualized memory and EPT translation</h2>
+<p>Let's talk about virtual memory for a second. When using paged memory
+any memory references require performing a virtual to physical page
+translation. This means taking the address that was requested and
+finding the location in memory where data is actually stored. This
+process requires traversing page tables and this usually requires 3 to 4
+memory lookups. The processor has a cache called the Translation
+Lookaside Buffer (TLB) whose job is to improve these lookups.</p>
+<p><img alt="posts/images/real_address_translation.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_3.png" /></p>
+<p>Figure 2. High-level view of address translation in a real machine.</p>
+<p>One of the main premises behind full virtualization is that software
+should run as is and in an environment virtually indistinguishable from
+a real machine.</p>
+<p>This means that a software-based full virtualization solution must
+emulate paging when the operating system it runs requests it. And, at
+the same time, a full-virtualization solution must separate the memory
+of two running VMs from each other. The way this is solved is by having
+two page tables.</p>
+<ul>
+<li>One that maps a VM's physical memory. These page tables translate
+  addresses of the VM's "physical memory" to the actual physical memory of
+  the host.</li>
+<li>One that maps the guest operating system virtual to physical
+  translation.</li>
+</ul>
+<p>This means that a software-only full-virtualization solution has to
+perform at least 2 sets of traversals of page tables before resolving an
+address. This requires a lot of memory accesses for each resolution
+because it has to traverse the physical-to-physical set of page tables
+on every step of the virtual-to-physical resolution.</p>
+<p>This is the fundamental problem that Extended Page Tables (EPT) tries to
+optimize. The processor is in charge of maintaining and optimizing both
+page mappings. The guest-physical-to-host-physical page tables are
+pointed to by the EPT Pointer (<code>EPTP</code>), which is a value stored in the
+VMCS region. The guest-virtual-to-guest-physical page tables are pointed
+to by the <code>GUEST_CR3</code> field of the VMCS region.</p>
+<p><img alt="posts/images/virtualized_address_translation.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_4.png" /></p>
+<p>Figure 3. Address translation in a virtual machine. Rekall emulates the
+CR3 and EPT page translation step.</p>
+<h2 id="vm-introspection">VM introspection</h2>
+<p>Rekall requires having access to the physical memory of a machine to
+perform its magic of <a href="../rekall_profile_repository_and_profile_auto_selection/">OS and memory layout autodetection</a>.</p>
+<p>We just explained that the Extended Page Tables perform a mapping
+between guest physical and host physical memory, so the only thing we
+need to do is find them. This means finding the value of the EPT
+pointer, which resides in the VMCS.</p>
+<p>There's two caveats, though.</p>
+<ul>
+<li>A VMCS region can be anywhere in memory and no preset locations or
+  registers hold references to it.</li>
+<li>Most of the layout of the VMCS region is an implementation detail and is
+  undocumented.</li>
+</ul>
+<p>Let's try to solve the first problem: finding VMCSs in memory.</p>
+<h3 id="detecting-a-running-vm-discovering-vmcs-regions-in-memory">Detecting a running VM: Discovering VMCS regions in memory</h3>
+<p>Since we don't have pointers to the VMCS regions that may be in memory,
+we'll have to try creating signatures.</p>
+<p>From the Intel manual we know that the region has the following
+properties:</p>
+<ul>
+<li>It's stored in a 4KB page.</li>
+<li>The first 4-bytes have to match the processor revision ID.</li>
+<li>The 4 following bytes are the <code>VMX-abort indicator</code>. This field will be
+  0 unless an error occurred.</li>
+<li>The rest is reserved for VMCS fields and is an implementation detail.</li>
+</ul>
+<p><img alt="posts/images/vmcs_layout.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_5.png" /></p>
+<p>Figure 4. The VMCS layout as described by Intel.</p>
+<p>With just this information we already have a signature. The problem is
+that this is a very weak signature and would give thousands of hits on
+any memory image. We need a way to refine it. And this means we need to
+find fields in the VMCS whose values we can rely on or that we can
+validate.</p>
+<p><em>Mariano Graziano, Andrea Lanzi and Davide
+Balzarotti</em> <a href="./#madhmf">madhmf</a> did
+a great study of this issue and identified fields in a VMCS that are
+essential to it running. They found that several of the fields have
+fixed values and that changing them at runtime would make the VM to stop
+functioning. We could extend our signature to include them, except that
+we don't know yet where in the VMCS region these fields are.</p>
+<p>Time to solve the second problem.</p>
+<blockquote>
+<p><strong>Tip:</strong> <em>Mariano Graziano</em> also released a proof of concept
+implementation of his research
+on <a href="https://www.s3.eurecom.fr/tools/actaeon/">https://www.s3.eurecom.fr/tools/actaeon/</a>, with support for 32-bit
+Windows guests and 3 microarchitectures (Penryn, Nehalem and Sandy
+Bridge).</p>
+</blockquote>
+<h3 id="detecting-a-running-vm-mapping-the-layout-of-the-vmcs-region">Detecting a running VM: Mapping the layout of the VMCS region</h3>
+<p>So we don't know what the layout of the VMCS region is but we have
+control over it:</p>
+<ul>
+<li>We can decide its initial state</li>
+<li>We can ask the processor to read (<code>VMREAD</code>) and write to it (<code>VMWRITE</code>).</li>
+<li>We can see the effect each operation has on the 4KB page.</li>
+</ul>
+<p><em>Graziano et al</em> <a href="./#madhmf">madhmf</a> devised
+the following method:</p>
+<ol>
+<li>Start with a blank (zero'd out) memory region.</li>
+<li>Instruct the CPU to use this region.</li>
+<li><code>VMWRITE</code> to a single field with a needle value.</li>
+<li>Find the needle in the memory region and record its offset.</li>
+<li>Repeat this step for every field.</li>
+</ol>
+<p>This works, except there's some fields in the VMCS that are read-only.
+For example, fields used for error-reporting that you cannot write to.</p>
+<p>So they devised a second method. Not all fields are writable but all of
+them are readable. Instead:</p>
+<ol>
+<li>Prefill the memory region with values that represent the offset within
+   the region a value is located.</li>
+<li>Instruct the CPU to use this region.</li>
+<li><code>VMREAD</code> a single field.</li>
+<li>The value should contain its own offset within the region.</li>
+<li>Repeat for every field.</li>
+</ol>
+<p><img alt="posts/images/vmcs_layout_discovery.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_7.png" /></p>
+<p>Figure 5. The VMCS layout discovery process.</p>
+<p>This approach mostly works but there's some caveats.</p>
+<ul>
+<li>It assumes all fields are aligned to a 2 or 4 byte boundary. This
+  appears to be the case.</li>
+<li>Some fields don't become active unless a relevant flag is active in
+  other fields.</li>
+<li><code>VMREAD</code> behaviour for inactive fields isn't consistent, sometimes
+  properly reporting a failure, sometimes returning bogus data.</li>
+</ul>
+<p>But suffice to say this technique discovers almost all of the fields,
+and certainly the relevant ones for our goals.</p>
+<p>One important discovery they did is that the layout changes only between
+microarchitectures. This means all Nehalem processors share the same
+layout, which is different from Westmere's layout. So, in theory, we
+only need as many signatures as microarchitectures support VT-x.</p>
+<blockquote>
+<p><strong>Note:</strong> We've seen that Ivy Bridge and Sandy Bridge actually share the
+same layout despite officially being two different microarchitectures.
+They even have the same revision ID.</p>
+</blockquote>
+<p>Luckily for us, the revision ID field in the VMCS region can be used to
+identify the microarchitecture, so we can select the right offsets when
+we start validating potential VMCS hits with intelligent signatures.</p>
+<p>To automate the layout discovery task in a convenient way I wrote
+a <a href="https://github.com/google/rekall/tree/master/tools/linux/vmcs_layout">Linux kernel module</a>
+called <code>vmcs_layout</code> that dumps via syslog the VMCS layout of the CPU in the profile format of
+Rekall.</p>
+<p>Currently, Rekall has in its repository profiles for all current Intel
+microarchitectures that support virtualization: Penryn, Nehalem,
+Westmere, Sandybridge, Ivy Bridge and Haswell.</p>
+<h4 id="haswell-is-interesting">Haswell is interesting</h4>
+<p>While working on <code>vmcs_layout</code>, I found that this exact approach
+doesn't work on processors with the Haswell microarchitecture. No matter
+how many <code>VMWRITEs</code> you do, you won't see the value you wrote in memory
+right away. Same thing for <code>VMREAD</code>. If you prefill the page, ask the
+processor to use that page as a VMCS region and then issue
+a <code>VMREAD</code> you will get zeros back. Why?</p>
+<p>Well, the the Intel manual explicitly says:</p>
+<p>A logical processor may maintain a number of VMCSs that are active. The
+processor may optimize VMX operation by maintaining the state of an
+active VMCS <strong>in memory, on the processor, or both</strong>. At any given time,
+at most one of the active VMCSs is the current VMCS.</p>
+<ul>
+<li><a href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-system-programming-manual-325384.pdf">Intel® 64 and IA-32 Architectures - Software Developer's Manual - Volume
+3</a></li>
+</ul>
+<p>As far as I've seen, Haswell processors are the first ones to implement
+internal storage for VMCSs. So, in order to discover the layout, I
+implemented a simple trick in <code>vmcs_layout</code>.</p>
+<p><code>vmcs_layout</code> asks the processor to keep loading fake VMCSs until we
+overflow its storage. Then the processor is forced to flush to memory
+one of the previous VMCSs to make space for a new one. When this
+happens, any new VMCS that we ask the processor to load will forcefully
+be read from memory because it doesn't know about it and cannot know if
+it holds previous state unless it reads it from memory. So we then
+proceed as explained earlier. We prefill it with values and discover the
+fields as usual.</p>
+<p>Does this mean we may not find Haswell VMCS regions in memory? In my
+tests, I've been able to locate them in memory just fine. It's likely
+when running <code>VMRUN</code> to start a VM or when transitioning back to the
+hypervisor, the processor flushes it to memory. I haven't determined
+what exactly causes this to happen. Please, let us know if you find
+problems like virtual machines not being detected or being detected with
+the wrong number of cores.</p>
+<h3 id="detecting-a-running-vm-one-last-thing">Detecting a running VM: One last thing</h3>
+<p>Once we know how to identify candidate VMCS regions in memory and we
+build an intelligent scanner that checks for known values of different
+fields and the right offsets based on the microarchitecture of the VMCS
+region, we are a step closer to actually finding real, valid VMCS.</p>
+<p>What are we missing, then? Well, we may still have false positives. Or
+we may have imaged a host shortly after a VM has been stopped or paused
+and the VMCS may be in memory but the physical memory of the VM freed
+and reused. We need some additional validation.</p>
+<p>When the processor stops executing a VM and wants to returns its
+execution to the hypervisor it has to restore the whole processor state.
+This not only means registers like EAX and ECX, but the paging
+configuration as well (page table location and mode: IA32, PAE or
+AMD64). This state is stored in the VMCS region as well.</p>
+<p>In order to further validate a candidate region we resort to traversing
+the page tables of the host as stated by the VMCS and we try to see if
+the VMCS region itself is mapped in it. This is because the hypervisor
+must have it mapped in its address space, or else it wouldn't be able to
+control execution of the VM.</p>
+<p>This step also makes sure that the host address space is well-formed. If
+it's a false positive, it's unlikely it will point to data that can be
+interpreted as a page table. So this check actually has an acceptable
+performance for false positives.</p>
+<p>At this point, we know we have a valid VMCS and we are now ready to use
+the EPT pointer to access the guest physical memory. This means we can
+now have access to the VM's physical memory in a <strong>generic way</strong>!</p>
+<p>All this scanning and validating is done by the <code>vmscan</code> plugin. See an
+example invocation for a host with 3 VMs running on 2 different
+hypervisors:</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM,VM)_VBox(VM).ram vmscan
+Virtual machines                                     Type    Valid EPT
+------------------------------------ -------------------- -------- ---
+VM #0 [2 vCORE, I386]                                  VM     True 0xDEB1B01E
+**************************************************
+VM #1 [2 vCORE, AMD64]                                 VM     True 0x14128D01E
+**************************************************
+VM #2 [4 vCORE, AMD64]                                 VM     True 0x17725001E
+**************************************************
+</code></pre>
+<h3 id="introspecting-a-running-vm">Introspecting a running VM</h3>
+<p>Once you know the EPT value you can feed it to Rekall with
+the <code>--ept</code> parameter.</p>
+<p>What this does is place <code>VTxPagedMemory</code> address space as
+the <code>session.physical_address_space</code>. <code>VTxPagedMemory</code> stacks on top
+of the memory image address space (the one that can read from the file
+format of the memory image). Any read requests done
+on <code>VTxPagedMemory</code> for a given address will first translate the address
+via the Extended Page Tables and then read from the underlying address
+space at the translated address.</p>
+<p>So, normally, if you're running a plugin against a raw memory image,
+when it requests to read data at the physical address 0, we'll read at
+offset 0 from the file.</p>
+<p>However, when you specify --ept, <code>VTxPagedMemory</code> will instead receive
+this request, translate address 0 via EPT (for example: 38684000) and
+return data from the underlying address space.</p>
+<p>Because of how address spaces are designed, neither rekall or the
+plugins care that they are not actually reading from the physical image,
+but from a view into it (the VM memory).</p>
+<ul>
+<li>Kernel autodetection, for example, reads from the physical address space
+ and finds and sets the <code>session.kernel_address_space</code> for it. When
+ using the <code>--ept</code> parameter, it will locate the guest kernel instead.</li>
+<li>Plugins will operate on the guest automatically because they don't even
+ know they're not seeing the host memory.</li>
+</ul>
+<p><img alt="posts/images/vtxpagedmemory.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_9.png" /></p>
+<p>Figure 6. Address space stacking and how <code>VTxPagedMemory</code> is transparent
+to any plugin.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can read more about address spaces in the Rekall developers documentation.</p>
+</blockquote>
+<h3 id="multi-core-vms">Multi-core VMs</h3>
+<p>Up to this point we know how to properly find and validate VMCS regions
+in memory. One more thing I must explain to understand Rekall's output
+is what happens with multi-core VMs.</p>
+<p>In VT-x a VMCS region is only used by 1 core at a time. This means that
+you can run more than one VM at a time and that you can provide a VM
+with more than one core. Nowadays, actually, most processors are
+multi-core and most virtualization software can take advantage of this.
+Which means we'll often find VMs with more than one core.</p>
+<p>What this means for us is that if we have a VM running with 4 "virtual
+cores", we will find 4 valid VMCS in memory. They will all most likely
+point to the same set of Extended Page Tables, as they represent the
+physical memory and the same holds true in real machines (1 physical
+memory, N cores).</p>
+<p>We wanted Rekall to provide a VM-oriented interface, so as you may have
+noticed we group them together in the output giving you the number of
+VMCS detected as the number of vCOREs of the VM.</p>
+<h3 id="nested-virtualization">Nested virtualization</h3>
+<p>Rekall also supports a limited subset of nested virtualization (KVM,
+VMWare) setups but we'll leave this for another post.</p>
+<h2 id="the-vmscan-plugin">The vmscan plugin</h2>
+<p>Use the <code>vmscan</code> plugin, which will find all VMCS regions in memory and
+group them together logically as virtual machines.</p>
+<p>In this test image, the host is Windows 7 SP1 x64. It's running 2 VMs
+inside VMWare (Linux and Windows XP SP2 32bits) and 1 Windows 7 x64 VM
+inside VirtualBox.</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM+VM,VM)_VBox(VM).ram vmscan
+Virtual machines                                     Type    Valid EPT
+------------------------------------ -------------------- -------- ---
+VM #0 [2 vCORE, I386]                                  VM     True 0xDEB1B01E   (1)
+**************************************************
+VM #1 [2 vCORE, AMD64]                                 VM     True 0x14128D01E  (2)
+**************************************************
+VM #2 [4 vCORE, AMD64]                                 VM     True 0x17725001E  (3)
+**************************************************
+</code></pre>
+<ol>
+<li>Windows XP SP2 32bits running on VirtualBox.</li>
+<li>Windows 7 X64 running on VMWare.</li>
+<li>64-bit Linux VM running on VMWare.</li>
+</ol>
+<p>Now you can run plugins on any VM by using the --ept parameter on the
+command line.</p>
+<h2 id="how-to-run-a-rekall-plugin-on-a-vm">How to run a rekall plugin on a VM</h2>
+<p>To run a rekall plugin on a VM that <code>vmscan</code> found, invoke rekall as you
+normally would, but add <code>--ept EPT_VALUE</code> as a parameter.</p>
+<p>We'll run pslist on the XP SP3 32bit VM first.</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM+VM,VM)_VBox(VM).ram --ept 0xDEB1B01E pslist
+Offset (V) Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                    Exit
+---------- -------------------- ------ ------ ------ -------- ------ ------ ------------------------ ------------------------
+0x823c6a00 System                    4      0     54      241 ------  False -                        -
+0x82018598 wuauclt.exe             380   1000      3      106      0  False 2014-03-04 15:58:48+0000 -
+0x821f1020 smss.exe                508      4      3       19 ------  False 2014-03-04 15:56:32+0000 -
+0x82199da0 csrss.exe               572    508     11      298      0  False 2014-03-04 15:56:33+0000 -
+0x821a3020 winlogon.exe            596    508     19      513      0  False 2014-03-04 15:56:33+0000 -
+0x8219c6d0 services.exe            640    596     15      243      0  False 2014-03-04 15:56:33+0000 -
+0x8225d4c0 lsass.exe               652    596     18      336      0  False 2014-03-04 15:56:33+0000 -
+0x8222b020 svchost.exe             832    640     16      191      0  False 2014-03-04 15:56:34+0000 -
+0x82212c20 alg.exe                 864    640      6      107      0  False 2014-03-04 15:56:50+0000 -
+0x8218e020 svchost.exe             900    640      8      238      0  False 2014-03-04 15:56:34+0000 -
+0x82222748 wscntfy.exe             968   1000      1       26      0  False 2014-03-04 15:56:50+0000 -
+0x821a73c8 svchost.exe            1000    640     56     1435      0  False 2014-03-04 15:56:34+0000 -
+0x820a5020 svchost.exe            1092    640      4       76      0  False 2014-03-04 15:56:34+0000 -
+0x821afda0 svchost.exe            1196    640     13      192      0  False 2014-03-04 15:56:34+0000 -
+0x82094020 spoolsv.exe            1344    640     10      107      0  False 2014-03-04 15:56:35+0000 -
+0x81f13bc0 cmd.exe                1376   1600      1       30      0  False 2014-03-04 17:14:24+0000 -
+0x8206b020 explorer.exe           1600   1544     11      302      0  False 2014-03-04 15:56:36+0000 -
+</code></pre>
+<p>And now we'll try doing a pslist on the 64-bit Ubuntu.</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM+VM,VM)_VBox(VM).ram --ept 0x14128D01E,0x3D67F01E pslist
+Offset (V)           Name          PID    PPID   UID    GID        DTB              Start Time
+-------------- -------------------- ------ ------ ------ ------ -------------- ------------------------
+...
+0x88003b8d1770 dbus-daemon             966 -         102    106 0x00003c244000                        -
+0x88003c6bc650 systemd-logind         1031 -           0      0 0x00003c18a000                        -
+0x880036978000 getty                  1042 -      -      -      0x000039b9d000                        -
+0x88003697aee0 getty                  1049 -      -      -      -                                     -
+0x880036bcddc0 getty                  1055 -           0      0 -                                     -
+0x88003c310000 getty                  1056 -      -      -      0x00003c7af000                        -
+0x88003b629770 getty                  1058 -      -      -      0x00003c6b6000                        -
+0x88003b82aee0 sshd                   1074 -      -      -      0x00003c1b9000                        -
+0x880039954650 acpid                  1081 -      -      -      -                                     -
+0x880035cd1770 irqbalance             1103 -           0      0 0x000035d64000                        -
+0x880036869770 cron                   1131 -           0      0 0x00003c246000                        -
+0x8800369baee0 atd                    1132 -      -      -      0x00003693d000                        -
+0x88003b9f4650 login                  1160 -           0   1000 0x00003caf2000                        -
+0x88003c311770 whoopsie               1176 -      -      -      -                                     -
+0x88003b8b8000 libvirtd               1199 -           0      0 0x00003c0a4000                        -
+0x88003686c650 kauditd                1290      2      0      0 -                                     -
+0x88003b30ddc0 bash                   1335   1160 -      -      0x00003b60d000                        -
+0x88003b8bc650 dnsmasq                1486 -         108     30 -                                     -
+...
+</code></pre>
+<h3 id="live-analysis">Live analysis</h3>
+<p>All of this works live, too!</p>
+<p>Open a root/administrator console and use any of Rekall's physical memory
+access drivers. Then try
+pointing rekall against "<code>\\.\pmem</code>" on Windows or "<code>/dev/pmem</code>" on
+Linux while running a VM and Rekall will detect it for you. Remember
+that you need to have VT-x extensions active (it's usually a BIOS
+setting).</p>
+<pre><code class="language-cmd">C:\winpmem-1.4&gt; winpmem_1.4.exe -l
+Driver Unloaded.
+Loaded Driver C:\Users\Administrator\AppData\Local\Temp\pmeF23H.tmp.
+Setting acquisition mode to 3
+CR3: 0x0000185000
+ 3 memory ranges:
+Start 0x00001000 - Length 0x0009E000
+Start 0x00100000 - Length 0x3FDF0000
+Start 0x3FF00000 - Length 0x00100000
+
+C:\winpmem-1.4&gt; rekal -f \\.\pmem vmscan
+</code></pre>
+<h3 id="remote-live-analysis-with-grr">Remote live analysis with GRR</h3>
+<p>Because GRR now ships with Rekall, you
+can remotely discover VMs running in a machine. Or your whole fleet if
+you run a GRR hunt.</p>
+<p>Set up an <code>AnalyzeClientMemory</code> flow and use <code>vmscan</code> as the plugin name
+and select <code>profile</code> = <code>None</code> in the session data.</p>
+<p><img alt="posts/images/grr_vmscan.png" src="../assets/images/rekall-forensics-blog/vm_discovery_and_introspection_with_rekall_17.png" /></p>
+<p>Figure 7. Setting up a Rekall memory analysis flow in GRR.</p>
+<p>Once you get the results, you can run additional plugins against a VM by
+adding the <code>ept</code> = <code>0xVALUE_FOUND</code> as a parameter.</p>
+<blockquote>
+<p><strong>Warning:</strong> At this time, we don't support running hunts for rekall
+plugins against the host and all VMs found in any machine. Only against
+the host. We want to extend this functionality in the future so that it
+can be automated.</p>
+</blockquote>
+<h3 id="the-rekall-shell-and-vms">The Rekall shell and VMs</h3>
+<p>You can also interact with VMs from the shell via
+the <code>get_vms()</code> method of the <code>vmscan</code> plugin. It returns a list
+of <code>[VirtualMachine](http://www.rekall-forensic.com/epydocs/rekall.plugins.hypervisors.VirtualMachine-class.html)</code>:</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM+VM,VM)_VBox(VM).ram
+ ----------------------------------------------------------------------------
+ The Rekall Memory Forensic framework 1.0rc11.
+
+ &quot;We can remember it for you wholesale!&quot;
+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License.
+
+ Type 'help' to get started.
+ ----------------------------------------------------------------------------
+Windows7_VMware(VM+VM,VM)_VBox(VM).ram 00:03:28&gt; vmscan_plugin = session.plugins.vmscan(session=session)
+Windows7_VMware(VM+VM,VM)_VBox(VM).ram 00:04:17&gt; vms = vmscan_plugin.get_vms()
+Windows7_VMware(VM+VM,VM)_VBox(VM).ram 00:05:18&gt; for vm in vms: print vm
+VirtualMachine(Hypervisor=0XFFFFF8800E8718A0, EPT=0XDEB1B01E)
+VirtualMachine(Hypervisor=0XFFFFFFFFFC2AE0FA, EPT=0X14128D01E)
+VirtualMachine(Hypervisor=0XFFFFFFFFFC2AE0FA, EPT=0X17725001E)
+VirtualMachine(Hypervisor=0X0, EPT=0X329D8F8)
+</code></pre>
+<p><strong>Caution!</strong> VMs returned via <code>get_vms()</code> are all that were found, not just the valid ones. Use
+the <code>is_valid</code> property to check if a VM was determined to be valid. Invalid VMs are reported via
+the API to aid in debugging.</p>
+<pre><code class="language-text">&gt; vmscan_plugin = session.plugins.vmscan()
+&gt; vms = list(vmscan_plugin.get_vms())
+&gt; vms[0].is_valid True
+&gt; vms[1].is_valid False
+</code></pre>
+<p>You can run any plugin on a VM by using the <code>RunPlugin()</code> method of <code>VirtualMachine</code>.</p>
+<pre><code class="language-cmd">Windows7_VMware(VM+VM,VM)_VBox(VM).ram 00:06:41&gt; vms[0].RunPlugin(&quot;pslist&quot;)
+Offset (V) Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                    Exit
+---------- -------------------- ------ ------ ------ -------- ------ ------ ------------------------ ------------------------
+0x823c6a00 System                    4      0     54      241 ------  False -                        -
+0x82018598 wuauclt.exe             380   1000      3      106      0  False 2014-03-04 15:58:48+0000 -
+0x821f1020 smss.exe                508      4      3       19 ------  False 2014-03-04 15:56:32+0000 -
+0x82199da0 csrss.exe               572    508     11      298      0  False 2014-03-04 15:56:33+0000 -
+0x821a3020 winlogon.exe            596    508     19      513      0  False 2014-03-04 15:56:33+0000 -
+0x8219c6d0 services.exe            640    596     15      243      0  False 2014-03-04 15:56:33+0000 -
+0x8225d4c0 lsass.exe               652    596     18      336      0  False 2014-03-04 15:56:33+0000 -
+0x8222b020 svchost.exe             832    640     16      191      0  False 2014-03-04 15:56:34+0000 -
+0x82212c20 alg.exe                 864    640      6      107      0  False 2014-03-04 15:56:50+0000 -
+0x8218e020 svchost.exe             900    640      8      238      0  False 2014-03-04 15:56:34+0000 -
+0x82222748 wscntfy.exe             968   1000      1       26      0  False 2014-03-04 15:56:50+0000 -
+0x821a73c8 svchost.exe            1000    640     56     1435      0  False 2014-03-04 15:56:34+0000 -
+0x820a5020 svchost.exe            1092    640      4       76      0  False 2014-03-04 15:56:34+0000 -
+0x821afda0 svchost.exe            1196    640     13      192      0  False 2014-03-04 15:56:34+0000 -
+0x82094020 spoolsv.exe            1344    640     10      107      0  False 2014-03-04 15:56:35+0000 -
+0x81f13bc0 cmd.exe                1376   1600      1       30      0  False 2014-03-04 17:14:24+0000 -
+0x8206b020 explorer.exe           1600   1544     11      302      0  False 2014-03-04 15:56:36+0000 -
+                                          Out&lt;4&gt;
+</code></pre>
+<h3 id="use-other-tools-export-raw-memory-of-a-vm">Use other tools: Export raw memory of a VM</h3>
+<p>If you'd like to analyze a virtual machine in another tool that doesn't
+support VM introspection, you can export the VM memory instead as a raw
+image!</p>
+<p>Again, using the EPT parameter of the VM you want to analyze, simply run</p>
+<pre><code class="language-bash">python rekall/rekal.py -f ${HOST_IMAGE} --ept ${EPT_VALUE} imagecopy -O guest_vm.raw
+</code></pre>
+<p>And guest_vm.raw will contain the physical memory in raw format. Now
+you can load this image in your tool of choice :)</p>
+<h2 id="rekall-virtualization-feature-list">Rekall virtualization feature list</h2>
+<p><strong>Supported:</strong></p>
+<ul>
+<li>
+<p>VM detection on any virtualization platform that uses Intel VT-x with
+  EPT (requires access to the host physical memory).</p>
+</li>
+<li>
+<p>All Type 2 (hosted) hypervisors (VMWare Workstation/Server, Virtualbox,
+  KVM, QEMU-KVM, Parallels, ...).</p>
+</li>
+<li>
+<p>Generic approach to VM introspection.</p>
+</li>
+<li>
+<p><strong>Any guest OS</strong>, 32 and 64 bits.</p>
+</li>
+<li>All current Intel microarchitectures</li>
+<li><strong>Live introspection</strong> on Windows, Linux and OS X hosts via the PMEM
+  memory acquisition drivers.</li>
+<li><strong>Remote live VM detection and introspection</strong> with GRR.</li>
+<li>Allows 3rd party tools to analyze the VM memory.</li>
+</ul>
+<p><strong>Planned:</strong></p>
+<ul>
+<li>AMD-V support.</li>
+<li>[Pending testing] Detection and introspection of VMs created from Type 1 (bare-metal)
+  hypervisors provided a full physical memory capture has been acquired.</li>
+</ul>
+<p><strong>Unsupported:</strong></p>
+<ul>
+<li>Live introspection on bare-metal hypervisors without direct physical
+  memory access (VMWare ESXi, vSphere, Hyper-V(?), etc.)</li>
+</ul>
+<h2 id="future-improvements">Future improvements</h2>
+<p>We want <code>vmscan</code> to provide better output. In particular, we'd also like
+to provide the OS or profile that matches a VM and the hostname.</p>
+<p>We'd also like to implement support for AMD-V so that people running AMD
+processors can benefit from VM inspection in Rekall.</p>
+<p>We're thinking of something along these lines.</p>
+<pre><code class="language-bash">$ python rekall/rekal.py -f ~/memory_images/Windows7_VMware(VM+VM,VM)_VBox(VM).ram vmscan2
+Virtual machines                                  Type/OS    Valid Hostname            EPT
+------------------------------------ -------------------- -------- ------------------- ----------
+Hypervisor #0: 0xFC78230                           VMWARE     True
+  VM #0 [2 vCORE, I386]                      Ubuntu 13.10     True localhost.local     0xDEB1B01E
+  VM #1 [2 vCORE, AMD64]                 Windows 6.0.6000     True VM-TEST-PC          0x14128D01E
+    Hypervisor #0: 0x6789090                       VMWARE     True
+      VM #0 [2 vCORE, I386+PAE]          Linux 3.8-12-owl     True openwall            0x14128D01E,0x3D67F01E
+**************************************************
+Hypervisor #1: 0x2345678                       VIRTUALBOX
+  VM #2 [4 vCORE, AMD64]                 Windows 5.1.2600     True VBOX-VM             0x17725001E
+**************************************************
+</code></pre>
+<p>Additionally, we'd like to better integrate all this functionality into
+GRR so you can discover and introspect VMs running in your environment
+with a couple of clicks.</p>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="http://www.s3.eurecom.fr/docs/raid13_graziano.pdf">Hypervisor Memory Forensics</a>,
+  by Mariano Graziano, Andrea Lanzi and Davide Balzarotti, October 2013</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

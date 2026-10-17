@@ -1,0 +1,1112 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall and the windows pfn database - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#windows-page-translation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall and the windows pfn database
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#windows-page-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows page translation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section objects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-page-file-number-database-pfn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Page File Number Database (PFN)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Page File Number Database (PFN)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-zero-and-bad-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free, Zero and Bad lists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#active-pages-pteaddress-points-at-a-hardware-pte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Active Pages: PteAddress points at a hardware PTE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#active-pages-pteaddress-points-at-a-prototype-pte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Active Pages - PteAddress points at a prototype PTE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#putting-it-all-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Putting it all together
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-applications-hook-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other applications: Hook detection
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall and the windows pfn database</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on 2016-05-24.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>Rekall has long had the capability of scanning memory for various
+signatures. Sometimes we scan memory to try and recover pool tags (e.g.
+<strong>psscan</strong>), other times we might scan for specific indicators or Yara
+rules (e.g. <strong>yarascan</strong>). In the latest version of Rekall, we have
+dramatically improved the speed and effectiveness of these capabilities.
+This post explains one aspect of the new Rekall features and how it was
+implemented and can be used in practice to improve your forensic memory
+analysis.</p>
+<p>Traditionally one can scan the physical address space, or the virtual
+address space (e.g. the kernel's space or the address space of a
+process). There are tradeoffs with each approach. For example, scanning
+physical memory is very fast because IO is optimized. Large buffers are
+read contiguously from the image and the signatures are applied on
+entire buffers. However, traditionally, this kind of scanning could only
+yield a result when a signature was found but did not include any
+context to the hit, which means that it is difficult to determine which
+process owned the memory and what the process was doing with the memory.</p>
+<p>If we scan the virtual address space we see memory in the same way that
+a process sees it. This is ideal because if a signature is found, we can
+immediately determine which process address space it appears in, and
+precisely where, in that address space, the signature resides.</p>
+<p>Unfortunately, scanning in a virtual address space is more time
+consuming because reading from the image (or live memory) is
+non-sequential. Rekall effectively has to glue together in the right
+order a bunch of page size buffers collected randomly from the image
+into a temporary buffer which can be scanned - this involves a lot of
+copying buffers and allocating memory. Additionally when scanning the
+address space of processes, we will invariably be scanning the same
+memory multiple times because mapped files (like DLLs) are shared
+between many processes, and so they appear in multiple processes'
+virtual address space.</p>
+<p>It would be awesome if we could ask: given a physical address (i.e.
+offset in the memory image), which process owns this page and what is
+the virtual address of this page in the process address space? Being
+able to answer this question quickly allows us to scan physical memory
+in the most efficient way (at least for smallish signatures which do not
+span page boundaries).</p>
+<p>Rekall has a plugin called pas2vas which aims to solve this problem. It
+is a brute force plugin: simply enumerate all the virtual address to
+physical address mappings and build a large reverse mapping. This works
+well enough, but takes a while to construct the reverse mapping and
+because of this does not work well on live memory which is continuously
+changing.</p>
+<p>Have you ever used the
+<a href="https://learn.microsoft.com/en-us/sysinternals/downloads/rammap">RamMap.exe</a>
+tool from sysinternals? It's an awesome tool which lets one see what
+each physical page is doing on your system. Here is an example
+screenshot (click on the image to zoom in):</p>
+<p><img alt="rekall and the windows pfn database 1" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_1.png" /></p>
+<p>This looks exactly like what we want! How does this magic work? Through
+understanding and parsing the Windows
+<a href="http://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877/">PFN database (Windows Internals)</a>
+it is possible to relate a physical address directly to the virtual
+address in the process which owns it very quickly and efficiently. If
+only we had this capability in Rekall we could provide sufficient
+context to scanners in physical memory to work reliably and quickly!</p>
+<p>Lets explore how one can use the Windows PFN database to ask exactly
+what each physical page is doing. In the end we implemented new plugins
+such as "pfn", "p2v" and "rammap" to shed more light on how physical
+memory is used within the Windows operating system. These plugins are
+integrated with other plugins (e.g. yarascan to assist in providing more
+contextual information for physical addresses).</p>
+<h2 id="windows-page-translation">Windows page translation</h2>
+<p>We all know about the AMD64 page tables
+and how they work so I won't go into it in too much depth here. Just to
+say that the hardware needs page tables to be written in memory, which
+control how the page resolution process works. The CR3 register contains
+the Directory Table Base (DTB) which is the address of the top most
+table.</p>
+<p>The hardware then traverses these tables, by masking bits off the
+virtual address until it reaches the PTE which contains information
+about the physical page representing that virtual address. The PTE may
+be in a number of states (which we described in detail in previous posts
+and are also covered in the Windows Internals book). In any state other
+than the "Valid" state, the hardware will generate a page fault to find
+the actual physical page.</p>
+<p><img alt="rekall and the windows pfn database 2" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_2.png" /></p>
+<p>Rekall has the "vtop" plugin (short for virtual-to-physical) to help
+visualize what page translation is doing. Let us take for example a
+Windows 7 image:</p>
+<p><img alt="rekall and the windows pfn database 3" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_3.png" /></p>
+<p>Here we ask Rekall to translate the symbol for "nt" (The kernel's image
+base) in the kernel address space into its physical address. Rekall
+indicates the address of each entry in the 4 level page table and
+finally prints the PTE content in detail. We can see that the PTE for
+this symbol is a HARDWARE PTE which is valid (i.e. the page exists in
+physical memory) and the relevant page frame number is shown (i.e.
+physical address).</p>
+<p>The important points to remember about page translation are:</p>
+<ul>
+<li>The page tables are primarily meant for the hardware. Addresses for
+  valid pages in the page tables are specified as Page Frame Numbers (PFN)
+  which means they are specified in the physical address space. This is
+  the only thing the MMU can directly access.</li>
+<li>On the other hand, the CPU cannot access physical memory. All CPU access
+  occurs through the virtual address space of the kernel.</li>
+<li>Invalid PTEs may carry any data to be used by the kernel, therefore
+  typically those addresses are specified in the kernel's virtual address
+  space.</li>
+<li>All PTEs (and all parts of the page tables) must be directly mapped into
+  the kernel's address space at all times so that the kernel may
+  manipulate them.</li>
+</ul>
+<p>Each PTE controls access to exactly one virtual memory page. The PTE is
+the basic unit of control for virtual pages, and each page in any
+virtual address space must have at least one PTE controlling it (This is
+regardless if the page is actually mapped into physical memory or not - the
+PTE will indicate where the page can be found).</p>
+<p>There are two types of PTEs - hardware PTE and prototype PTEs. Prototype
+PTEs are used by the kernel to keep track of intended page purpose, and
+although they have a similar format to hardware PTEs, they are never
+accessed directly by the MMU. Prototype PTEs are allocated from pool
+memory, while hardware PTEs are allocated from System PTE address range.</p>
+<h2 id="section-objects">Section objects</h2>
+<p>Consider a mapped file in memory. Since the file is mapped into some
+virtual address space, some pages are copied from disk into physical
+memory, and therefore there are some valid PTEs for that address space.
+At the same time, other pages are not read from disk yet, and therefore
+must have a PTE which points at a prototype PTE.</p>
+<p><img alt="rekall and the windows pfn database 4" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_4.png" /></p>
+<p>The _SUBSECTION object is a management structure which keeps track of
+all the mapped pages of a range from mapped files. The _SUBSECTION
+object has an array of prototype PTEs - a management structure similar
+to the real PTE.</p>
+<p>Consider the figure above - a file is mapped into memory and Windows
+creates a _SUBSECTION object to manage it. The subsection has a pointer
+to the CONTROL_AREA (which in turn points to the FileObject which it
+came from) and pointers to the Prototype PTE array which represents the
+mapped region in the file. In this case a process is reading the mapped
+area and so the hardware PTE inside the process is actually pointing at
+a memory resident page. The prototype PTE is also pointing at this page.</p>
+<p>Now imagine the process gets trimmed - in this case the hardware PTE
+will be made invalid and point at the prototype PTE. If the process
+tries to access the page again a page fault will occur and the pager
+will consult the prototype PTE to determine if the page is still
+resident. Since it is resident the hardware PTE will be just changed
+back to valid and continue to point at that page.</p>
+<p><img alt="rekall and the windows pfn database 5" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_5.png" /></p>
+<p>Note that in this situation, the physical page still contains valid file
+data, and it is still resident. It's just that the page is not directly
+mapped in any process. Note that it is perfectly OK to have another
+process with a valid hardware PTE mapping to the same page - this
+happens if the page is shared with multiple processes (e.g. a DLL) - one
+process may have the page resident and can access it directly, while
+another process might need to invoke a page fault to access this page
+(which should be extremely quick since the page is already resident).</p>
+<h2 id="the-page-file-number-database-pfn">The Page File Number Database (PFN)</h2>
+<p>In order to answer the question: What is this page doing? Windows has
+the Page File Number database (PFN Db). It is simply an array of _MMPFN
+structs which starts at the symbol "nt!MmPfnDatabase" and has a single
+entry for every physical page on the system. The MMPFN struct must be as
+small as possible and so consists of many unions and can be in several
+states - depending on the state, different fields must be interpreted.</p>
+<h3 id="free-zero-and-bad-lists">Free, Zero and Bad lists</h3>
+<p>We start off with discussing these states - they are the simplest to
+understand. Pages which can take on any of these states (A flag in the
+_MMPTE.u3.e1.PageLocation) are kept in their own lists of Free pages
+(ready to be used), Zero pages (already cleared) or Bad pages (will
+never be used).</p>
+<h3 id="active-pages-pteaddress-points-at-a-hardware-pte">Active Pages: PteAddress points at a hardware PTE</h3>
+<p>If the PFN Type is set to Active, then the physical page is used by
+something. The most important thing to realize is that a valid physical
+page (frame) must be managed by a PTE. Since that PTE record must also
+be accessible to the kernel, it must be mapped in the kernel's virtual
+address space.</p>
+<p>When the PFN is Active, it contains 3 important pieces of information:</p>
+<ol>
+<li>The virtual address of the PTE that is managing this physical page (in
+   _MMPFN.PteAddress).</li>
+<li>The Page Frame (Physical page number) of the PTE that is managing this
+   physical page (in _MMPFN.u4.PteFrame). Note these two values provide
+   the virtual and physical address of the PTE.</li>
+<li>The OriginalPte value (usually the prototype PTE which controls this
+   page). When Windows installs a hardware PTE from a prototype PTE, it
+   will copy the original prototype PTE into this field.</li>
+</ol>
+<p>Here is an example of Rekall's pfn plugin output for such a page:</p>
+<p><img alt="rekall and the windows pfn database 6" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_6.png" /></p>
+<p>The interesting thing is that in this case, the PTE that is managing
+this page will belong in the Hardware page tables created for the
+process which is using this page. That PTE, in turn will also be
+accessible by a PDE inside that process's page tables, and so forth.
+This occurs all the way up to the root of the page table (DTB or CR3)
+which is its own PTE.</p>
+<p>Therefore if we keep following the PTE which controls each PTE 4 times
+we will discover the physical addresses of the DTB, PML4, PDPTE, PDE and
+PTE belonging to the given physical address. Since a DTB is unique to a
+process we immediately know which process owns this page.</p>
+<p>Additionally we can also figure out what is the virtual address by
+subtracting the table offset of the real PTE from the start of the PTE
+table at each level of the paging structure, and assigning the relevant
+bits to that part of the virtual address. This is illustrated below.</p>
+<p><img alt="rekall and the windows pfn database 7" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_7.png" /></p>
+<p>So when the PFN is in this state (i.e. PteAddress pointing to a Hardware
+PTE) we can determine both the virtual address of this page and the
+process which maps it. It is also possible that another process is
+mapping the same page too. In this case the OriginalPTE will actually
+contain the _MMPTE_SUBSECTION struct which was originally filled in
+the prototype PTE. We can look at this value and determine the
+controlling subsection in a similar way to the below method.</p>
+<p>Rekall's ptov plugin (short for physical-to-virtual) employs this
+algorithm to derive the virtual address and the owning process. Here is
+an example</p>
+<p><img alt="rekall and the windows pfn database 8" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_8.png" /></p>
+<p>We can verify this works by switching to the svchost.exe process context
+and converting the virtual address to physical. We should end up in the
+same physical address we started with:</p>
+<p><img alt="rekall and the windows pfn database 9" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_9.png" /></p>
+<h3 id="active-pages-pteaddress-points-at-a-prototype-pte">Active Pages - PteAddress points at a prototype PTE</h3>
+<p>Consider the case where two or more processes are sharing the same
+memory (e.g. mapping the same file). In order to aid in the management
+of this, Windows will create a subsection object as described earlier;
+if the virtual page is trimmed from the working set of one process, the
+hardware PTE will not be valid and instead point at the controlling
+subsection's prototype PTE.</p>
+<p>In this case the PFN database will point directly at the prototype PTE
+belonging to the controlling subsection (The PFN entry will indicate
+that this is a prototype PTE with the _MMPFN.u3.e1.PrototypePte flag).
+Lets look at an example:</p>
+<p><img alt="rekall and the windows pfn database 10" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_10.png" /></p>
+<p>In this example, the PFN record indicates that a prototype PTE is
+controlling this physical page. The prototype PTE itself indicates that
+the page is valid and mapped into the correct physical page. Note that
+the controlling PTE for this page is allocated from system pool
+(0xf8a000342d50) while in the previous example, the controlling
+prototype was from the system PTE range (0xf68000000b88) and belonged to
+the process's hardware page tables.</p>
+<p>If we tried to follow the same algorithm as we did before we will
+actually end up in the kernel's DTB because the prototype PTE is itself
+allocated from paged pool (so its controlling PTE will belong to the
+kernel's page tables). So in this case we need to identify the relevant
+subsection which contains the prototype PTE (and the processes that maps
+it).</p>
+<p>When a process maps a file, it receives a new VAD region. The _MMVAD
+struct stores the following important information:</p>
+<ol>
+<li>The start and end virtual addresses of the VAD region in the process
+   address space.</li>
+<li>The Subsection object which is mapped by this VAD region.</li>
+<li>The first prototype in the subsection PTE array which is mapped (Note
+   that VADs do not have to map the entire subsection, the first mapped PTE
+   can be in the middle of the subsection PTE array. Also the subsection
+   itself does not have to map the entire file either - it may start at the
+   _SUBSECTION.StartingSector sector).</li>
+</ol>
+<p>The _MMPFN.PteAddress will point at one of the Prototype PTEs. We build
+a lookup table between every VAD region in every process and its range
+of prototype PTEs. We are then able to quickly determine which VAD
+regions in each process contain the pointed to PTE address, and so we
+know which process is mapping this file.</p>
+<p>The result is that we are able to list all the processes mapping a
+particular physical page, as well as the virtual addresses each use for
+it (using the _MMVAD information). We also can tell which file is
+mapped at this location (from the _SUBSECTION data and the filename)
+and the sector offset within the file it is mapped to. Here is the
+Rekall output for the ptov plugin:</p>
+<p><img alt="rekall and the windows pfn database 11" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_11.png" /></p>
+<p>Rekall is indicating that this page contains data from the oleaut32.dll
+at file offset 0x8a600. And as you can see in the output this data is
+shared with a large number of processes.</p>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>We can utilize these algorithms to provide more context for scanning
+hits in the physical address space. Here is an example where I search
+for my name in the memory image using the yarascan plugin:</p>
+<p><img alt="rekall and the windows pfn database 12" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_12.png" /></p>
+<p>The first hit shows that this page belong to the rekall.exe process,
+mapped at 0x5522000. The second hit occurs at offset 0x177800 inside the
+file called winpmem_2.0.1.exe etc.</p>
+<p>This information provides invaluable context to the analyst and helps
+reasoning about why these hits occur where they do.</p>
+<p>The <strong>rammap</strong> plugin aims to display every page and what it is being
+used for (Click below to zoom in). We can some pages are owned by
+processes, some are shared by files and others belong to the kernel
+pools:</p>
+<p><img alt="rekall and the windows pfn database 13" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_13.png" /></p>
+<h2 id="other-applications-hook-detection">Other applications: Hook detection</h2>
+<p>Inline hooking is a very popular way to hijack the execution path in a
+process or library. Malware typically injects foreign code into a
+process then overwrites the first few bytes of some critical functions
+with a jump instruction to detour into its code. When the API function
+is called, the malware hijacks execution and then typically relays the
+call back to the original DLL to service the API call. For example it is
+a common way to hide processes, files or network connections.</p>
+<p>Here is an example output from Rekall's hooks_inline plugin which
+searches all APIs for inline hooks.</p>
+<p><img alt="rekall and the windows pfn database 14" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_14.png" /></p>
+<p>In this sample of Zeus (taken from the Malware Analyst's Cookbook), we can
+clearly see a jump instruction to be inserted at the start of critical
+functions (e.g. NtCreateThread) for Zeus to monitor calls to these APIs. Rekall detects the hooks by
+searching the first few instructions for constructs which divert the
+flow of execution (e.g. jump, push-ret etc).</p>
+<p>Let us consider what happens in the PFN database when Zeus installs
+these hooks. Before the hook installation. the page containing the
+functions is mapped to the DLL file from disk. When Zeus installs the
+trampoline by writing on the virtual memory, Windows changes the written
+virtual page from file backed to a private mapping. This is often called
+copy-on-write semantics - Windows makes a copy of the mapped file
+private to the process whenever the process tries to write to the page.
+Even if the page is shared between multiple processes, only the process
+which wrote to it would see these changes.</p>
+<p>Let's examine the PFN record of the hooked function. First we switch to
+the process context, then find the physical page which backs the
+function "ntdll!NtCreateThread" (Note we can use the function's name
+interchangeably with the address for functions Rekall already knows
+about).</p>
+<p><img alt="rekall and the windows pfn database 15" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_15.png" /></p>
+<p>Now let's display the PFN record (Note that a PFN is just a physical
+address with the last 3 hex digits removed):</p>
+<p><img alt="rekall and the windows pfn database 16" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_16.png" /></p>
+<p>Notice that the controlling PTE is a hardware PTE (which means it exists
+in the process's page tables). There is only a single reference to this
+page which means it is private (Share Count is only 1).</p>
+<p>Let's now examine the very next page in ntdll.dll (The next virtual page
+is not necessarily the next physical page so we need to repeat the vtop
+translation - again we use Rekall's symbolic notation to refer to
+addresses):</p>
+<p><img alt="rekall and the windows pfn database 17" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_17.png" /></p>
+<p>And we examine the PFN record for this next page:</p>
+<p><img alt="rekall and the windows pfn database 18" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_18.png" /></p>
+<p>It is clearly a prototype page, which maps a subsection object. It is
+shared with 22 other processes (ShareCount = 22). Let's see how this
+physical page is mapped in the virtual address:</p>
+<p><img alt="rekall and the windows pfn database 19" src="../assets/images/rekall-forensics-blog/rekall_and_the_windows_pfn_database_19.png" /></p>
+<p>So the takeaway from this exercise is that by installing a hook, Zeus
+has converted the page from shared to a private mapping. If we assume
+that Zeus does not change files on disk, then memory only hooks can only
+exist in process private pages and not in shared file pages. It is
+therefore safe to skip shared pages in our hook analysis. This
+optimization buys a speedup of around 6-10 times for inline hook
+inspection - all thanks to the windows PFN database!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

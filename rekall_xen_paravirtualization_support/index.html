@@ -1,0 +1,1174 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall xen paravirtualization support - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#xens-direct-mapping-vs-normal-mapping" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall xen paravirtualization support
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#xens-direct-mapping-vs-normal-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XEN's direct mapping vs normal mapping
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-tables-in-xen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page tables in XEN
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enter-xen-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enter XEN translation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inverting-p2m" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inverting P2M
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:virtualization" class="md-tag">Virtualization</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall xen paravirtualization support</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+Jordi Sanchez on 2015-08-31.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>If you've ever taken a memory image of a Linux virtual machine that's
+running under XEN in <em>paravirtualization mode</em> and you've tried to
+analyze it you'll have noticed most of your plugins don't work (if any).</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 14:20:42&gt; pslist
+
+ERROR:rekall.1:No profiles match this image. Try specifying manually.
+
+---------------------------------------------------------------------------
+
+RuntimeError                              Traceback (most recent call last)
+
+[...]
+
+RuntimeError: Unable to find a valid profile for this image. Try using -v for more details.
+</code></pre>
+<p>The reason is that XEN's page tables are funky. XEN uses a technique
+known as <em>direct mapping</em> which significantly differs from how memory
+management is done in many other virtualization solutions.</p>
+<p>Per <a href="https://wiki.xenproject.org/wiki/X86_Paravirtualised_Memory_Management#Direct_Paging">https://wiki.xenproject.org/wiki/X86_Paravirtualised_Memory_Management#Direct_Paging</a>:</p>
+<blockquote>
+<p>"In order to virtualise the memory subsystem all hypervisors introduce
+an additional level of abstraction between what the guest sees as
+physical memory (often called pseudo-physical in Xen) and the underlying
+memory of the machine (machine addresses in Xen). This is usually done
+through the introduction of a Physical to Machine (P2M) mapping.
+Typically this would be maintained within the hypervisor and hidden from
+the guest Operating System through techniques such as the use of Shadow
+Page Tables."</p>
+</blockquote>
+<p>So instead of trapping every single memory access from the guest and
+having the hypervisor do an additional translation, XEN uses a different
+model.</p>
+<p>Per <a href="https://wiki.xenproject.org/wiki/X86_Paravirtualised_Memory_Management#Direct_Paging">https://wiki.xenproject.org/wiki/X86_Paravirtualised_Memory_Management#Direct_Paging</a>:</p>
+<blockquote>
+<p>"The Xen paravirtualised MMU model instead requires that the guest be
+aware of the P2M mapping and be modified such that instead of writing
+page table entries mapping virtual addresses to the (pseudo-)physical
+address space it would instead write entries mapping virtual addresses
+directly to the machine address space by mapping performing the mapping
+from pseudo physical to machine addresses itself using the P2M as it
+writes its page tables. This technique is known in Xen as direct
+paging."</p>
+</blockquote>
+<p>What <em>direct mapping</em> means is that instead of having page tables where
+each entry points to physical memory of the guest, XEN's page tables
+point to the physical memory of the host.</p>
+<p>But, why does XEN do this? The answer is performance.</p>
+<p>Because the guest kernel knows it's virtualized and can cooperate with
+the hypervisor, XEN can afford cheating in virtualization. Knowing the
+presence of and cooperating with the hypervisor is one of the strong
+points of paravirtualization. It requires modification of the guest
+kernel but provides opportunities for speed improvements.</p>
+<p>The guest kernel is allowed to know and use the host's physical memory
+for page table upkeeping. In exchange, it has to perform the upkeep of
+the page tables in cooperation with the host. This way no heavy
+translation mechanism like
+<a href="https://en.wikipedia.org/wiki/Shadow_table">shadow pages tables</a> must
+be used.</p>
+<p>However, you can imagine that tinkering with the hosts's memory may
+allow a hostile kernel to subvert the host. XEN keeps the guest kernel
+in control because it runs in ring-3 and it is not allowed to directly
+write into the host memory. Instead, it must issue a hypercall, a call
+to the hypervisor, whenever it needs to update them. The hypervisor
+performs sanity checks to make sure the guest kernel request to modify
+page tables is not attempting to subvert the hypervisor itself or other
+VMs.</p>
+<p>Throughout the article we'll be using XEN's terminology:</p>
+<ul>
+<li>XEN refers to the physical memory of the host as <strong>machine memory</strong>.</li>
+<li>The physical memory of the guest is called "<strong>pseudo-physical</strong>" or
+ simply "<strong>physical</strong>" memory. To prevent confusion, we'll refer to guest
+ physical memory as <em>(pseudo-)physical</em>.</li>
+</ul>
+<h2 id="xens-direct-mapping-vs-normal-mapping">XEN's direct mapping vs normal mapping</h2>
+<p>Let's deep dive into <em>direct mapping</em>. We'll compare how the page tables
+look in AMD64 vs how they look in a XEN guest. The host machine is 64
+bits, runs the 3.13 kernel and has 32GB of ram, the guest has 256MB and
+runs kernel 3.2. All examples will be in the Rekall console.</p>
+<p>Let's start by using a kernel symbol on a real machine and look how the
+MMU would translate it. We've picked the linux_proc_banner symbol,
+which is a kernel symbol that points to a format string (%s version %s)
+for the kernel version. It is defined at
+init/version.c in the kernel sources (Linux 3.19).
+It's a symbol present in all kernels and is what helps build the
+string in /proc/version.</p>
+<p>To validate the expected address, we'll use the <a href="https://linux-mm.org/VirtualMemory">PAGE_OFFSET trick</a>:</p>
+<pre><code class="language-text">[1] kcore 13:03:23&gt; hex(session.profile.get_constant(&quot;linux_proc_banner&quot;))
+
+             Out&lt;6&gt; '0xffffffff81800040L'
+
+[1] kcore 13:03:46&gt; hex(session.profile.get_constant(&quot;linux_proc_banner&quot;) - session.profile.GetPageOffset())
+
+             Out&lt;8&gt; '0x1800040L'
+</code></pre>
+<p>linux_proc_banner is in 0xffffffff81800040 which corresponds to
+physical address 0x1800040L.</p>
+<p>Despite this trick, while the system is running any virtual address
+translation is still done by the MMU. Let's use the vtop plugin to show
+the virtual address resolution just like the MMU would do. vtop outputs
+debug information about every step of the 2 or 3 level address
+translation:</p>
+<pre><code class="language-text">[1] kcore 13:03:50&gt; vtop(0xffffffff81800040L)
+
+*************** 0xffffffff81800040 ***************
+
+Virtual 0xffffffff81800040 Page Directory 0x1c0e000  (the DTB)
+
+pml4e@ 0x1c0eff8 = 0x1c11067                         (1st step translation)
+
+pdpte@ 0x1c11ff0 = 0x1c12063                         (2nd step translation)
+
+pde@ 0x1c12060 = 0x80000000018001e1                  (3rd step translation)
+
+Large page mapped
+
+Physical Address 0x1800040                           (4th step, actual physaddr)
+
+Deriving physical address from runtime physical address space:
+
+Physical Address 0x1800040
+</code></pre>
+<p>vtop shows us that the physical address indeed 0x18000040 as we
+predicted earlier. And also that each of the different steps of the
+translation are within physical memory (0x1c1XXXX is around 29M).</p>
+<p>Note that the value of the pde in this case (0x80000000018001e1) is not
+an actual physical address. The physical address part of the pde value
+are only the following bytes 0x800000000<strong>1800</strong>1e1.</p>
+<h2 id="page-tables-in-xen">Page tables in XEN</h2>
+<p>So how does this look in a XEN guest? We're going to do all this for a
+3.2 XEN kernel with a Rekall version without XEN support (I disabled it
+on purpose). For starters, let's list the available physical memory
+ranges:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:10:09&gt; for (pa, va, sz) in session.physical_address_space.get_address_ranges():
+
+        print &quot;%s - %s&quot; % (hex(pa), hex(pa+sz))
+
+                                      |.&gt;
+
+0x0 - 0x10000000
+</code></pre>
+<p>If we are to inspect this image, DTB validation will most likely fail,
+but we can do the validation ourselves.
+In AMD64, the DTB is identified by the symbol init_level4_pgt.</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:10:32&gt; hex(session.profile.get_constant(&quot;init_level4_pgt&quot;))
+
+                                   Out&lt;8&gt; '0xffffffff81c05000L'
+
+[1] XEN-testmachine-PVguest.mem 11:10:50&gt; hex(session.profile.get_constant(&quot;init_level4_pgt&quot;) - session.profile.GetPageOffset())
+
+                                   Out&lt;9&gt; '0x1c05000L'
+</code></pre>
+<p>The DTB should be 0x1c05000. Now, let's get the symbol for
+linux_proc_banner for this image:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:11:16&gt; hex(session.profile.get_constant(&quot;linux_proc_banner&quot;))
+
+                                  Out&lt;10&gt; '0xffffffff81800020L'
+</code></pre>
+<p>Meaning its physical address should end up being 0x18000e0. Let's try to
+validate this:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:11:37&gt; session.physical_address_space.read(0x1800020, 14)
+
+                                  Out&lt;12&gt; '%s version %s '
+</code></pre>
+<p>Perfect!</p>
+<p>Now, we have to see what the MMU would see. That is, what the
+translation following the DTB at 0x1c05000 would say:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:12:06&gt; from rekall.plugins.addrspaces import amd64
+
+[1] XEN-testmachine-PVguest.mem 11:12:09&gt; adrs = amd64.AMD64PagedMemory(dtb=0x1c05000, session=session, base=session.physical_address_space)
+
+[1] XEN-testmachine-PVguest.mem 11:12:10&gt; t = session.GetRenderer()
+
+[1] XEN-testmachine-PVguest.mem 11:12:21&gt; with t:
+
+    for x in adrs.describe_vtop(0xffffffff81800020L):
+
+        x.render(t)
+
+                                     |..&gt;
+
+pml4e@ 0x1c05ff8 = 0x28417067
+
+pdpte@ 0x28417ff0 = 0x0
+
+Invalid PDPTE
+
+pde@ 0x60 = 0x0
+</code></pre>
+<p>As you can see, at the first translation returns a physical address
+that's not in the physical memory range. 0x28417067 is 6.7GB. Way above
+256M.</p>
+<p>When we try to read from an address so high "pdpte@ 0x153ec19ff0"
+returns 0. It's not that there's a 0 in that address, it's something
+Rekall does when the you try to read from an invalid address.</p>
+<p>0x28417067 is, in fact, pointing to the host's physical memory. That is,
+this is a machine address.
+However, we only have access to (pseudo-)physical memory, the physical
+memory of the guest.</p>
+<p>Here's what's happening:</p>
+<p><img alt="xen paravirtualization support in rekall 1" src="../assets/images/rekall-forensics-blog/xen_paravirtualization_support_in_rekall_1.png" /></p>
+<p>Because the page tables point to the host's physical memory, we can't
+resolve them directly from the page tables as usual.</p>
+<p>So how do we solve this?</p>
+<h2 id="enter-xen-translation">Enter XEN translation</h2>
+<p>As was mentioned at the start, XEN maintains a mapping of
+(Pseudo-)Physical to Machine addresses called a
+<a href="https://wiki.xenproject.org/wiki/X86_Paravirtualised_Memory_Management#The_Physical-to-machine_and_machine-to-physical_mapping_tables">P2M mapping</a>.</p>
+<p>What we need is a machine to (pseudo-)physical mapping. Or <strong>M2P</strong>.</p>
+<p>Both the <strong>P2M</strong> mapping and <strong>M2P</strong> mapping are pointed by symbols
+accessible from the guest kernel. However, there's an important
+difference. Let's take a look at them:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:13:35&gt; hex(session.profile.get_constant(&quot;p2m_top&quot;))
+
+                                  Out&lt;21&gt; '0xffffffff81ddede8L'
+</code></pre>
+<p>p2m_top is a pointer. Let's see where it points to:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 11:14:44&gt; hex(0xffffffff81d41de8L - session.profile.GetPageOffset())
+
+                                  Out&lt;23&gt; '0x1d41de8L'           (physical address of p2m_top)
+
+[1] XEN-testmachine-PVguest.mem 11:15:18&gt; hex(struct.unpack_from(&quot;
+
+                                  Out&lt;27&gt; '0xffffffff81f2e000L'  (where p2m_top points to)
+</code></pre>
+<p>p2m_top points to 0xffffffff81f2e000. It corrresponds to 0x1e53000 in
+physical memory, which is within pseudo physical memory, so we can reach
+it. Let's see about machine_to_phys_mapping (<strong>M2P</strong>):</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 12:34:06&gt; hex(session.profile.get_constant(&quot;machine_to_phys_mapping&quot;))
+
+                                   Out&lt;2&gt; '0xffffffff81c0f808L'
+</code></pre>
+<p>machine_to_phys_mapping is also a pointer. Let's see where it points
+to:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 12:34:07&gt; hex(session.profile.get_constant(&quot;machine_to_phys_mapping&quot;) - session.profile.GetPageOffset())
+
+                                   Out&lt;3&gt; '0x1c0f808L'
+
+[1] XEN-testmachine-PVguest.mem 12:35:10&gt; hex(struct.unpack_from(&quot;
+                                   Out&lt;7&gt; '0xffff800000000000L'
+</code></pre>
+<p>Ok, machine_to_phys_mapping is a pointer to 0xffff800000000000. Well,
+that's a problem:</p>
+<ol>
+<li>You can't translate this address back to physical memory via the
+ PAGE_OFFSET method.</li>
+<li>You can't translate it directly via the MMU:</li>
+</ol>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 12:35:11&gt; t = session.GetRenderer()
+
+[1] XEN-testmachine-PVguest.mem 12:39:09&gt; from rekall.plugins.addrspaces import amd64
+
+[1] XEN-testmachine-PVguest.mem 12:39:13&gt; adrs = amd64.AMD64PagedMemory(dtb=0x1c05000, session=session, base=session.physical_address_space)
+
+[1] XEN-testmachine-PVguest.mem 12:39:16&gt; with t:
+
+    for x in adrs.describe_vtop(0xffff800000000000L):
+
+        x.render(t)
+
+                                     |..&gt;
+
+pml4e@ 0x1c05800 = 0x7fff9067      (outside the guests's phys memory range :( )
+
+pdpte@ 0x7fff9000 = 0x0
+
+Invalid PDPTE
+
+pde@ 0x0 = 0x0
+</code></pre>
+<p>So how can you access machine_to_phys_mapping? You need to do it on
+the live system, from the kernel. But there's 2 problems with the
+current capabilities:</p>
+<ol>
+<li>When analyzing live memory, /dev/pmem only maps physical memory, so we
+   can't ask the kernel to read from this address.</li>
+<li>When analyzing live memory, /proc/kcore doesn't map it either ☹</li>
+</ol>
+<p>We have 2 options:</p>
+<ol>
+<li>Provide a driver that allows reading of virtual addresses. A
+   /dev/<strong>v</strong>mem of sorts.</li>
+<li>Use <strong>P2M</strong>, which we can access, and try inverting it. After all,
+   <strong>M2P</strong> should be a reverse <strong>P2M</strong>.</li>
+</ol>
+<p>Since solution [1] means we have to compile a new module for every new
+kernel version and insert it and we like solutions that work universally
+out of the box, we explored [2].</p>
+<h2 id="inverting-p2m">Inverting P2M</h2>
+<p>As explained in arch/x86/xen/p2m.c,
+p2m_top is essentially a 3-level tree to perform (pseudo-)physical to
+machine address resolution. Very much like virtual to physical
+translation works in x86, p2m_top translates (pseudo-)physical
+addresses to machine addresses. What we're looking for is the reverse: a
+machine to guest physical translation, or <strong>M2P</strong>.</p>
+<p>p2m_top takes a PFN, a (pseudo-)physical frame number and translates it
+to an MFN, a machine frame number. So we experimented with
+<a href="https://github.com/google/rekall/commit/366bc975bdd8e33cf1b152d2241d931c38900f23">code to parse it</a>
+and here's some debug information for a single resolution of PFN(0) to
+MFN:</p>
+<pre><code class="language-text">p2m_top[0] = 0xffffffff81f30000
+
+p2m_top[0][0] = 0xffffffff84673000
+
+p2m_top[0][0][0] = 0x7f328
+</code></pre>
+<p>What this means is that the guest's address range 0 - 0x1000 corresponds
+to the hosts' 0x7f328000 - 0x7f328FFF range. If we reverse this: that
+whenever we have a reference to host addresses in the 0x7f328000 - 0x7f328FFF
+range, we can find them on the guest's physical memory starting at
+offset 0. So if we ever find a reference in the page tables
+to 0x7f328000, now we know where to find it.</p>
+<p>As you can see, we were able to follow the p2m_top tree completely for
+the first entry. All addresses were within addressable space in the
+guest kernel memory.</p>
+<p>And, in fact, if we repeat this for the rest of the tree and invert it
+we can now resolve all machine to (pseudo-)physical translations.</p>
+<p>Now, remember the vtop we did earlier?</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 14:04:41&gt; with t:
+
+        for x in adrs.describe_vtop(0xffffffff81800020L):
+
+                x.render(t)
+
+                                     |..&gt;
+</code></pre>
+<p>pml4e@ 0x1c05ff8 = 0x28417067
+pdpte@ 0x28417ff0 = 0x0
+Invalid PDPTE</p>
+<p>pde@ 0x60 = 0x0</p>
+<p>We didn't know where to fetch 0x28417067 (6.5GB) as it's past the guest
+physical memory (remember, it's a machine address pointing to the host).
+However, once we've parsed the P2M and reverted it, we now know how to
+convert it back to a physical address:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 14:04:46&gt; hex(session.kernel_address_space.m2p_mapping[0x28417])
+
+                                  Out&lt;15&gt; 0x1c07
+</code></pre>
+<p>This means machine frame number 0x28417 corresponds to physical frame
+number 7175 (0x1c07).</p>
+<p>In plain words, whenever the page tables refer to an address between
+<strong>0x28417</strong>000 and <strong>0x28417</strong>FFF we can find its actually backed in the
+guest's physical memory between <strong>0x1c07</strong>000 and
+<strong>0x1c07</strong>FFF. <strong>0x1c07</strong>000 is 29MB which is well within the guest's
+physical memory, as it should.</p>
+<p>Once we implemented
+<a href="https://github.com/google/rekall/commit/2bf91176abd767d160810e14ea9d555e4c8935b9">detection</a>
+of XEN ParaVirtualization and
+<a href="https://github.com/google/rekall/commit/366bc975bdd8e33cf1b152d2241d931c38900f23">automatic address translation</a>
+after parsing of the P2M tables, we were able to examine XEN guests
+transparently from within the guest by just accessing it's (pseudo-)
+physical memory. Which means this approach also works when doing live
+analysis.</p>
+<p>And with the current implementation in the Rekall HEAD, what you'll see
+instead is:</p>
+<pre><code class="language-text">[1] XEN-testmachine-PVguest.mem 16:22:36&gt; session.kernel_address_space
+
+                                   Out&lt;3&gt;
+
+[1] XEN-testmachine-PVguest.mem 16:22:34&gt; vtop(0xffffffff81800020)
+
+*************** 0xffffffff81800020 ***************
+
+Virtual 0xffffffff81800020 Page Directory 0x1c05000
+
+(XEN resolves MFN 0x28417067 to PFN 0x1c07067)
+
+pml4e@ 0x1c05ff8 = 0x1c07067
+
+(XEN resolves MFN 0x28413067 to PFN 0x1c0b067)
+
+pdpte@ 0x1c07ff0 = 0x1c0b067
+
+pde@ 0x1c0b060 = 0x4705067
+
+pte@ 0x4705000 = 0x1800025
+
+Physical Address 0x1800020
+
+Deriving physical address from runtime physical address space:
+
+Physical Address 0x1800020
+
+[1] XEN-testmachine-PVguest.mem 16:22:34&gt; pslist
+
+  Offset (V)      Name      PID    PPID   UID    GID        DTB             Start Time
+
+-------------- ----------- ------ ------ ------ ------ -------------- ----------------------
+
+0x88000ef10000 init           1      0      0      0 0x00000ba56000 2015-01-30 12:10:24+0000
+
+0x88000ef11700 kthreadd       2      0      0      0 -              2015-01-30 12:10:24+0000
+
+0x88000ef12e00 ksoftirqd/0    3      2      0      0 -              2015-01-30 12:10:24+0000
+
+0x88000ef14500 kworker/0:0    4      2      0      0 -              2015-01-30 12:10:24+0000
+
+0x88000ef15c00 kworker/u:0    5      2      0      0 -              2015-01-30 12:10:24+0000
+
+0x88000ef30000 migration/0    6      2      0      0 -              2015-01-30 12:10:24+0000
+
+0x88000ef31700 watchdog/0     7      2      0      0 -              2015-01-30 12:10:24+0000
+
+[...]
+</code></pre>
+<p>We added initial support for analyzing XEN paravirtualized guests in
+2015, and have been improving it ever since (see
+<a href="https://github.com/google/rekall/commit/366bc975bdd8e33cf1b152d2241d931c38900f23">the original commit</a>
+and <a href="https://github.com/google/rekall/releases/tag/v1.4.1">the 1.4.1 release</a>).
+You can see XEN support in action in our TAP server (the xen image).
+An example run is
+<a href="http://tap.rekall-forensic.com/xen/201509101405/TestLinuxPsList">pslist on a XEN guest</a>.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>In this blog post, we've presented the challenges found in analyzing
+virtual machines running under XEN paravirtualized model.</p>
+<p>We also discussed two methods to overcome them and how we implemented
+support for 64bits XEN paravirtualization in Rekall.</p>
+<p>Over time we've discovered some issues with our approach, specially with
+later kernels in the 3.X branch that I'll discuss in a follow-up
+article.</p>
+<p>Let us know if you've used this functionality with success and want to
+give us thumbs up or if you've encountered problems, so we can help you
+solve them. Note that we don't support XEN PV for the 2.6.X branch at
+the moment.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

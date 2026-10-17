@@ -1,0 +1,887 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall osx 10 9 memory acquisition - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#osx-109-memory-acquisition" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall osx 10 9 memory acquisition
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-memory-acquisition-is-implemented" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Memory Acquisition is Implemented
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enumerating-physical-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enumerating Physical Memory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapping-physical-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mapping Physical Memory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kernel-extention-code-signing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel Extention Code Signing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-bit-kernel-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        32-bit Kernel Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:macos" class="md-tag">MacOS</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+  </nav>
+
+
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on
+2014-03-28. Copied with permission for historical preservation.</p>
+</blockquote>
+<h1 id="osx-109-memory-acquisition">OSX 10.9 Memory Acquisition</h1>
+<p>Late in 2012, the only free solution for Mac memory acquisition was MacMemoryReader,
+which is not open source and depends on a binary distribution of the
+driver to be built especially for the target kernel. This means
+MacMemoryReader actually carries 5 different versions of it's kernel
+extension in it's <strong>supportfiles</strong> directory, and automatically chooses
+the correct one as long as it is used on a system that was supported at
+the time the program got packaged.</p>
+<p>These constraints didn't fit our use case very well, which is why I
+developed an open source memory acquisition program for Mac OSX
+called <a href="https://code.google.com/p/pmem/wiki/OSXPmem">OSXPmem</a>. This
+program was designed specifically with the goal to be as operating
+system independent as possible, while providing a stable way to acquire
+memory even on future versions of Mac OSX.</p>
+<p>With the 10.9 release of OSX, MacMemoryReader stopped working (it only
+packages drivers for OSX 10.5 - 10.8). Fortunately, OSXPmem still works
+and is currently the only free memory acquisition tool which is able to
+acquire memory on Mac OSX 10.9 or higher.</p>
+<p>In this blogpost I want to elaborate a bit on the reasons for that,
+while also giving an overview on how memory acquisition on Mac OSX
+actually works under the hood.</p>
+<h2 id="how-memory-acquisition-is-implemented">How Memory Acquisition is Implemented</h2>
+<p>Because of memory protection it is not possible for a normal user-mode
+application to just go ahead and read all the memory. Each process
+resides in a virtual address space which is mapped into physical memory
+using paging. The data-structures used for this are managed by the
+kernel, and can only be accessed from system-mode. This is the reason
+why any memory acquisition program must first load a driver into the
+kernel, that provides the actual memory access.</p>
+<h2 id="enumerating-physical-memory">Enumerating Physical Memory</h2>
+<p>Physical memory is not continuous, so don't expect the physical address
+space of a computer with e.g. 4GB of RAM to be laid out as one chunk
+from <strong>00000000 - FFFFFFFF</strong>. The physical address space itself is again
+a virtual construct, controlled by the northbridge. For faster access to
+device memory, many hardware devices like graphics or network cards map
+parts of their integrated memory or registers into the physical address
+space via memory mapped I/O. The BIOS (or on modern systems the EFI)
+initializes the hardware on boot and arranges all these memory chunks
+into something called the physical address space. Here is a redacted
+example of the layout on my laptop:</p>
+<pre><code class="language-text"> Size of physical address space: 6171918336 bytes (206 segments)
+ Memory Type       Start Addr    End Addr
+ Conventional  0000000000000000 000000000008f000
+ Reserved      000000000008f000 0000000000090000
+ Conventional  0000000000090000 00000000000a0000
+ Reserved      00000000000a0000 0000000000100000
+ ...
+ Conventional  0000000100000000 000000016fe00000
+</code></pre>
+<p>Regions marked "Conventional" are guaranteed to be backed by physical
+memory, while regions marked "Reserved" might contain device memory. It
+should be avoided to read from the reserved regions, as this can trigger
+interrupts on a device and thus even result in a hardware malfunction,
+system instability and a kernel crash. If you're interested in more
+details I can recommend Gustavo Duarte's excellent articles
+<a href="https://manybutfinite.com/post/getting-physical-with-memory/">Getting Physical With Memory</a>
+and <a href="https://manybutfinite.com/post/motherboard-chipsets-memory-map/">Motherboard Chipsets and the Memory Map</a>.</p>
+<p>The bottom line is that a memory acquisition tool must find out how
+physical memory is laid out in order to acquire it in a way that does
+not cause instability and thus loss of the desired data. This is usually
+done by querying the kernel, as it manages physical memory and has to
+know it's layout. On Mac OSX the EFI passes this information to the
+component of the kernel called the "platform expert" [Source Mac OS X Internals: A Systems
+Approach by Amit Singh],
+which stores it in a data-structure in
+<strong>PE_state.bootArgs-&gt;MemoryMap</strong>. If you look at line 13 of
+<strong>PE_state_raw.dtrace</strong> in MacMemoryReader's supportfiles directory,
+you can see how it is obtained:</p>
+<pre><code class="language-text"> self-&gt;kgm_boot_args = ((struct boot_args*)(`PE_state).bootArgs);
+</code></pre>
+<p>OSXPmem uses the same source of information to obtain the memory map.
+Unfortunately this information is not very reliable, as this
+data-structure is not used by the kernel at runtime, making it an easy
+target for rootkit manipulation. In
+one of our papers last year [published at DFRWS 2013]
+we showed that it is trivial to overwrite this data-structure, making
+memory acquisition impossible on the system. We also implemented a more
+reliable way to obtain an accurate memory map in that publication.
+However, this has not been implemented for OSX yet.</p>
+<h2 id="mapping-physical-memory">Mapping Physical Memory</h2>
+<p>Because even the kernel operates inside virtual memory, the memory
+acquisition driver needs to map physical memory into the kernels address
+space. On OSX, this is ultimately done by the Mach
+portion of the kernel. However, kernel extensions are not allowed to
+link directly to kernel functions. Instead, they are linked to Kernel
+Programming Interfaces (KPI), which are interfaces to a limited set of
+symbols Apple allows kernel extensions to use. The functions available
+through these interfaces can change with every kernel release,
+especially the ones in the "unsupported" KPI (where the Platform Experts
+state is linked from). But even supported KPIs like the ones for
+physical memory mapping can change, as Apple
+<a href="https://developer.apple.com/library/archive/releasenotes/Darwin/RN-KernelExtensions/">has shown in the past</a>.</p>
+<p>Both OSXPmem and MacMemoryReader use a simple BSD kernel extension
+(kext) to provide memory access. However, physical memory mapping is
+only supported from Apples IOKit framework. This is the reason why both
+kext use the <strong>IOMemoryDescriptor</strong> class to map memory into the kernel.
+Now with the introduction of memory compression in OSX 10.9 this method
+has been found to cause problems. The kernel can compress and uncompress
+memory on the fly, and doesn't want any other driver touching it. It is
+entirely possible that in future OSX releases some KPIs will change and
+this method of mapping memory will not be possible at all.</p>
+<p>Luckily, we have also developed a different mapping technique.
+Originally intended as a rootkit resilient mapping technique, this
+approach has also proven to be very reliable on any major operating
+system. It works by directly modifying the page tables and clearing the
+caches, forcing the memory management unit (MMU) to remap an existing
+virtual address. As illustrated in Figure 1, a virtual page called
+"Rogue Page" is remapped by editing the page table entry (PTE) directly
+and then flushing the translation lookaside buffer (TLB). This enables
+us to access any arbitrary page in the physical address space, without
+any kernel dependency. Details on this approach can be found in our
+[DFRWS 2013] paper.</p>
+<p><a href="../assets/images/rekall-forensics-blog/osx_10_9_memory_acquisition_1.png"><img alt="osx 10 9 memory acquisition 1" src="../assets/images/rekall-forensics-blog/osx_10_9_memory_acquisition_1.png" /></a></p>
+<p>By "bypassing" the kernel when accessing memory this technique does not
+depend on any KPIs and thus isn't affected by compressed RAM or any
+obstacles Apple might decide to put into the <strong>IOMemoryDescriptor</strong> in
+future versions of OSX. This is why we made it the default mapping
+method in WinPmem and OSXPmem. We expect this method to be more stable
+and resilient to changes in the kernel and even anti-forensic
+techniques.</p>
+<h2 id="kernel-extention-code-signing">Kernel Extention Code Signing</h2>
+<p>With the release of OSX 10.9 Apple has changed it's previous policy on
+driver signature enforcement. While it was previously possible to sign a
+kernel extension, unsigned kext could also be loaded without any issues.
+In 10.9 and later,
+<a href="https://developer.apple.com/library/archive/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_9.html#//apple_ref/doc/uid/TP40013207-SW4">the kext loader displays a warning message when an unsigned kext is loaded</a>.
+It is very likely that Apple will adopt the Microsoft approach at some
+time, preventing unsigned kext to be loaded.</p>
+<h2 id="32-bit-kernel-support">32-bit Kernel Support</h2>
+<p>OSXPmem only supports Macs using the 64-bit version of OSX. Apple
+introduced 64-bit builds with OSX 10.6, making it the default with 10.7.
+Since OSX 10.8, the 32-bit kernel is deprecated and all Macs running
+10.8 or higher should be running in 64 bit mode. This means OSXPmem will
+not work on OSX 10.5 or older, and might not work on some 10.6 systems.
+I will not add 32-bit support, as these kernels are deprecated and only
+run on very old machines anyways. If you need to acquire memory from
+such a system I encourage you to use MacMemoryReader.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

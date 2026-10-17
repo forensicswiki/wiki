@@ -1,0 +1,1861 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall agent whitepaper - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-rekall-agent" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall agent whitepaper
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rekall-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Rekall Agent
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-rekall-agent-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Rekall Agent Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Rekall Agent Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-rekall-agent-is-a-collection-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Rekall Agent is a collection system
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Rekall Agent is a collection system">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#everything-is-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Everything is a file
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-cloud-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Cloud Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Google Cloud Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-rekall-agent-in-the-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deploying Rekall Agent in the Cloud
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deploying Rekall Agent in the Cloud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloud-storage-cost-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud storage cost model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-rekall-agent-on-self-hosted-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deploying Rekall Agent on self hosted servers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enrollment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enrollment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flows
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running a flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result collections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customized-result-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customized result collections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hunts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hunts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-user-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The User Interface
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recursive-filefinder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recursive FileFinder
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recursive FileFinder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-a-hunt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running a hunt
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running a hunt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-rekall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing Rekall
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Discussion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#no-part-of-the-system-should-be-in-the-critical-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No part of the system should be in the critical path
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="No part of the system should be in the critical path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-system-should-be-easier-to-deploy-at-any-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The system should be easier to deploy at any scale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-system-should-be-able-to-do-what-users-want-from-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The system should be able to do what users want from it
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-system-should-be-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The system should be simple
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-system-should-avoid-copying-data-needlessly-as-much-as-possible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The system should avoid copying data needlessly as much as possible
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:research" class="md-tag">Research</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall agent whitepaper</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+<a href="../michael_cohen/">Michael Cohen</a> on 2016-10-26.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>This post introduces the Rekall Agent - a new experimental IR/Forensic
+endpoint agent that appears in Rekall versions 1.6. The Rekall Agent
+will be officially released with the next major Rekall release but for
+now you can play with it by installing from git head using the following
+commands:</p>
+<pre><code class="language-bash">$ virtualenv /tmp/MyEnv
+New python executable in /tmp/MyEnv/bin/python
+Installing setuptools, pip...done.
+$ source /tmp/MyEnv/bin/activate
+$ pip install -e ./rekall-core/ ./rekall-agent/ .
+</code></pre>
+<h2 id="the-rekall-agent">The Rekall Agent</h2>
+<p>Security agents running on managed systems are common and useful tools
+these days. There are quite a few offerings out there from commercial
+offerings like <a href="https://www.tanium.com/">Tanium</a> or
+<a href="https://www.broadcom.com/products/carbon-black">Carbon Black</a> to open source offerings
+like <a href="https://github.com/google/grr">GRR</a> and
+<a href="https://osquery.io/">OSQuery</a>.</p>
+<p>We have been developing and using GRR for some time now and have gained
+quite a bit of experience in designing and operating the system. GRR is
+an excellent system and works very well, but over time it has become
+clear that there are aspects of the system which are lacking or that GRR
+does not perform as well as it should.</p>
+<p>I recently re-examined much of the feedback we received about GRR and
+tried to think about some of the issues involved with deploying and
+operating GRR at very large scale. In particular I am focusing on open
+source deployments, and the accessibility of GRR to new users and
+operators. As part of this exercise I have tried to reimplement or
+rethink some of the GRR design decisions in order to make a system which
+is better able to do what users want GRR to do. This is not because what
+GRR does is necessarily bad or that its design is flawed, but rather
+that we learn from the experiences we gained in developing GRR in order
+to build a better, more scalable and easier to use system.</p>
+<p>Some of the common complaints I heard about deploying GRR is that GRR is
+very complex to run and deploy. There is the choice of which data store
+to deploy (with different reliability/scalability characteristics),
+front end load balancing and provisioning the right amount of front end
+and worker capacity for the size of deployment and the expected
+workload. When things get very busy in a large hunt the front ends tend
+to get overloaded and clients receive HTTP 500 errors (which makes them
+back off but this also makes them temporarily inaccessible). Typically
+if a large hunt is running, it is not possible to do targeted incident
+response.</p>
+<p>I wanted to design a system focused on collection only. Most users just
+want to export their data from the system and so the system should just
+do that and nothing else. It should be scalable and easy to deploy.</p>
+<p>These are the following goals I wanted to achieve:</p>
+<ol>
+<li>No part of the system should be in the critical path. The system should
+   never deliver a HTTP 500 error to a client under any reasonable level of
+   load. The client must never wait on any part of the system before
+   completing its task.</li>
+<li>The system should be easier to deploy at any scale. From small to large
+   deployments it should be easy for the system to be deployed with minimal
+   training.</li>
+<li>The system should be able to do what users want from it. Users want to
+   be able to do a full directory listing, they want to upload very large
+   memory images. Users want to be able to search for a file glob in
+   seconds not hours. Users want to schedule all clients in hunts in
+   seconds not in hours.</li>
+<li>The system should be simple. A user should be able to find what they
+   want from the system without understanding internal system architecture.
+   They should be able to easily export or post process all data. The
+   system should be discoverable and obvious without having to resort to
+   reading the code.</li>
+<li>The system should scale well under load. If load suddenly increases the
+   system should be able to handle it linearly (i.e. load doubles =&gt;
+   processing times double). NOTE: goal 1 must be achieved even at high
+   load.</li>
+<li>The system should avoid copying data needlessly as much as possible.
+   Either data has to be written into its final resting place in the first
+   place, or data should be virtualized from multiple locations when read
+   by the user.</li>
+</ol>
+<p>This document illustrates the experimental implementation dubbed the
+Rekall Agent. It should not be considered a replacement to GRR (there
+are some features that GRR offers, that have not been implemented yet)
+but it is a proof of concept in trying to implement lessons learned from
+GRR and improve upon the GRR tool.</p>
+<p>In the following document I shall refer back to these goals and try to
+illustrate how the new design as implemented with the Rekall Agent
+solves these issues.</p>
+<h2 id="the-rekall-agent-design">The Rekall Agent Design</h2>
+<p>In the following description of the Rekall Agent, I will compare and
+contrast many details with the GRR design. This will hopefully clarify
+the new design and illustrates why it improves on the GRR design.</p>
+<h3 id="the-rekall-agent-is-a-collection-system">The Rekall Agent is a collection system</h3>
+<p>I observed that most users do not perform much analysis in GRR,
+preferring to export their data to other systems. For example, users
+want to export data to timelining systems (such as Plaso or Timesketch)
+or to large scale data mining environments like Elasticsearch.</p>
+<p>Therefore, to simplify the design of the Rekall Agent we state our
+primary goal is that of collection and not analysis. Rekall itself
+performs client side analysis (for example extracting signals from
+memory) but the collected data is simply made available for exports with
+minimal post processing by the Rekall Agent. As we see below a major
+design pattern is that data is uploaded directly to its final resting
+place by the agent leaving the batch processors to perform very limited
+work, mainly collecting high level statistics.</p>
+<h4 id="everything-is-a-file">Everything is a file</h4>
+<p>In GRR everything is an AFF4 object. An AFF4 object is simply an object
+(it has behaviours and data) which is located in a particular URN or a
+path. For example aff4:/C.12345/vfs/os/Windows/System32/Notepad.exe is
+an AFF4 object containing information about the notepad binary on a
+specific client.</p>
+<p>The Rekall Agent aims to simplify every aspect of the system, and what a
+better way to simply things than using the old Unix mantra of
+"<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">everything is a file</a>". Users
+understand files - they know what to do with them and because files are
+so convenient, there are already many systems designed and tested to
+process a lot of files, big and small.</p>
+<p>In this regard Rekall is very similar to GRR - Files in Rekall are
+essentially the same as AFF4 objects in GRR. The client only knows and
+cares about downloading and uploading files. The server only knows about
+processing files within the filestore (e.g. the cloud bucket).</p>
+<p>Let's look at a diagram of the Rekall Agent System:</p>
+<p><img alt="rekall agent whitepaper 1" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_1.png" /></p>
+<p>The main components are the Rekall Agent which is installed on the
+thousands of systems being monitored, and the Agent Console used by the
+administrator of the system to control it. These two parts are connected
+via a shared file storage system such as a Cloud Bucket (For those users
+who wish to run their own infrastructure there is a stand alone HTTP
+file server they can run).</p>
+<p>The Rekall agent operates in a loop:</p>
+<ol>
+<li>Read a jobs file on a web server (if it has changed since last time).</li>
+<li>Parse the jobs file for flows the client did not run previously.</li>
+<li>Run any new jobs. While the jobs are run, the client can upload files to
+   the server. For example:</li>
+<li>A ticket is a small JSON file containing information about the currently
+      running job. Tickets are read by various batch processors. A ticket can
+      be thought of as a message sent by the client to the batch processor
+      informing it of what it is doing.</li>
+<li>A collection is a single file that contains many results. It is
+      basically a SQLite file with results.</li>
+</ol>
+<h3 id="google-cloud-storage">Google Cloud Storage</h3>
+<p>Because managing files is such a common thing, there are commercial
+services already designed to store and serve files. An example of such a
+service is Google Cloud Storage which is essentially a service designed
+to serve and receive files at scale and with minimal cost.</p>
+<p>By simplifying the design such that everything simply moves files around
+we can easily use such a commercial service. For the open source user
+this simplifies deployment immensely because they do not need to worry
+about running servers, capacity planning, outages and other mundane
+issues. Of course for those users who actually want to run their own
+servers this is alway possible (see below) but for those who do not, GCS
+is a perfect service.</p>
+<h4 id="deploying-rekall-agent-in-the-cloud">Deploying Rekall Agent in the Cloud</h4>
+<p>Deploying Rekall Agent in the cloud takes three easy steps. First,
+create a new bucket to store your data:</p>
+<p><img alt="rekall agent whitepaper 2" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_2.png" /></p>
+<p>Next create a service account for the Rekall console to manage the
+deployment. The service account should have the Storage Admin role at a
+minimum. You will need a new private key which should be fetched in JSON
+format. Store the JSON file somewhere on your disk.</p>
+<p><img alt="rekall agent whitepaper 3" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_3.png" /></p>
+<p>NOTE: The service account key controls access to the bucket. It is
+required in order to delegate upload rights to clients (which have no
+credentials) and to be able to view results in the Rekall Agent console.</p>
+<p>Finally you will need to create a new config file for both clients and
+servers. The config files contain keys for both clients and server, as
+well as some basic configuration. The agent_server_initialize_gcs
+plugin creates everything needed to run on GCS.</p>
+<p><img alt="rekall agent whitepaper 4" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_4.png" /></p>
+<p>Now it is possible to run the agent client. Note that we do not need to
+deploy VMs, frontend servers, workers or anything really. The system is
+now completely set up and ready to go. We just need to install the
+Rekall Agents at the endpoints we want to monitor and point them at the
+correct config file.</p>
+<h5 id="cloud-storage-cost-model">Cloud storage cost model</h5>
+<p>Deploying a Rekall installation into a cloud bucket also gives
+predictable cost estimates. There are two types of chargeable operations
+made by the system:</p>
+<ol>
+<li>Polling the jobs files is a class B operation charged currently at $0.01
+   per 10,000 queries.</li>
+<li>A bucket listing operation is a class A operation charged at $0.20 per
+   10,000 queries. The agent worker issues one such request for each type
+   of task it runs. In practice this cost is insignificant since the worker
+   might only run batch jobs every few seconds.</li>
+<li>The charge per stored GB.</li>
+</ol>
+<p>The dominant cost of cloud deployments is the client poll interval.
+Clients poll their own job file and at least one other (the All hunt
+file and their label file). So costs rise linearly with the total number
+of clients and their polling frequency and the total number of labels.</p>
+<p>More frequent polling means more responsible clients (i.e. a job issued
+to a client might be collected sooner). An example cost calculation
+assumes clients poll every 600 seconds (10 minutes) on 2 queues. So 12
+queries per hour is 8640 queries per month. For a 10,000 client fleet
+this will cost at least 86 USD per month (i.e. when the system is
+completely idle).</p>
+<p>Obviously when the system is used to actively collect data costs will
+rise from there depending on usage. For certain deployment situations
+such a well constrained cost model is a clear benefit.</p>
+<h4 id="deploying-rekall-agent-on-self-hosted-servers">Deploying Rekall Agent on self hosted servers</h4>
+<p>Sometimes users prefer to deploy their own servers. There are some clear
+pros and cons:</p>
+<p>Pros:</p>
+<ul>
+<li>All data remains on users servers and not stored in the cloud.</li>
+<li>For very large deployments there may be some cost advantage.</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Users must maintain their own infrastructure including availability,
+  scaling and reliable high bandwidth connectivity. Load balancing.</li>
+<li>Users must manage storage requirements. Ultimately this system writes
+  files locally to disk so you need a large enough disk to hold all the
+  data you will be gathering.</li>
+</ul>
+<p>Nevertheless Rekall agent comes with its own HTTP server. To use it,
+simply initialize the configuration files using the
+<strong>agent_server_initialize_http</strong> plugin. You will need to provide an
+externally accessible URL for clients to connect.</p>
+<h4 id="enrollment">Enrollment</h4>
+<p>The Rekall agent is a zero configuration agent. This means that there is
+no specific configuration required of the client before deployment. The
+client enrols automatically, generating its own keys, and unique client
+id. This process is called Enrollment.</p>
+<p>Rekall simply performing an Interrogate action by itself without needing
+any server support. This means the Rekall agent is enrolled immediately
+and does not need to wait for the server. These are the Rekall agent's
+startup steps:</p>
+<ol>
+<li>When the Agent starts, it reads the Manifest file. This file is signed
+   by the server's private key and verified by a hard coded CA certificate
+   embedded into the agent's configuration file. This first step ensures
+   that the bucket is owned by the correct controller (since it is assumed
+   that only the possessor of the relevant private key can task the
+   client).</li>
+<li>The Manifest file specifies some startup actions to be run on agent
+   startup. By default the interrogate action runs on client startup.</li>
+<li>The Agent collects information about itself (like OS version, hostname,
+   IP address etc) and writes a Startup ticket. The ticket is eventually
+   post processed by the Startup batch job to collect high level
+   information and statistics about the client.</li>
+<li>The client does not need to wait for the server. The client can simply
+   go ahead and poll its own jobs queue (and any label based hunt queues)
+   immediately and if there are any outstanding hunts the client will
+   immediately participate in them.</li>
+</ol>
+<p>This process can be seen in the following screenshot:</p>
+<p><img alt="rekall agent whitepaper 5" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_5.png" /></p>
+<p>Note how the client polls several jobs files at once. The jobs files are
+termed Queues:</p>
+<ol>
+<li>The client's private jobs queue is located under its own client id in
+   the namespace. This contains flow requests specifically directed towards
+   a particular client (1-1 messaging).</li>
+<li>The client also polls a label related job (clients can carry several
+   labels). All clients have the All label. Flows sent through these queues
+   are directed at entire classes of agents (e.g. The All label is seen by
+   all clients). This is how hunting is implemented. This is essentially a
+   broadcast messaging system.</li>
+<li>Note that the client can request to receive the jobs file only if it has
+   been modified since the last time it requested it (using the HTTP
+   If-Modifed-Since header). This means the first request downloads the
+   file, but any subsequent requests do not transfer any data and therefore
+   have zero cost on client or server. This allows clients to poll very
+   frequently without any additional system load.</li>
+</ol>
+<h4 id="flows">Flows</h4>
+<p>In GRR, a flow is a state machine which sends requests to the client
+waiting for responses from the client, then sending more requests and so
+on. Processing of client responses occur at any time throughout the
+flow.</p>
+<p>Rekall simplifies this approach by splitting a flow into only two
+phases. The first phase of a flow runs on the client, while the second
+phase runs on the server (We call this phase post-processing). The
+client's part of the flow runs multiple client actions, creating and
+uploading one or more result collections (see below).</p>
+<p>Once the first phase of the flow is complete, the client writes a ticket
+to a specified location. The FlowStat job processor then launches the
+second part of the flow in the batch processor. This part of the flow
+primarily performs post processing on the client's result collection.</p>
+<p>Rekall flows can be in one of the following states:</p>
+<ol>
+<li>Pending: The flow is waiting to be picked up by the client. It is
+   written into the jobs file.</li>
+<li>Started: The flow is currently worked on by the client. A Started ticket
+   has been written by the client and the client has proceeded to execute
+   the flow.</li>
+<li>Done/Error (not post processed): The flow is complete by the client and
+   the final ticket is written. In the case of an error the ticket includes
+   a backtrace or error message.</li>
+<li>Done (post processed): Post processing of results are run (if required)
+   by the Rekall Agent worker.</li>
+</ol>
+<p>Note that it is impossible for the worker to delay the client from
+completing the flow. The client simply executes the flow and returns all
+the results when it is done. Even if the worker is completely stopped
+this does not affect the client in any way because the worker post
+processing is not in the critical path (See below for a demonstration).
+The worker is essentially a batch job which may run post processing on
+the results with no time constraints.</p>
+<h4 id="running-a-flow">Running a flow</h4>
+<p>Let's take a look in detail at an example jobs file. A job file contains
+a JSON encoded list of flows. Here is an example of one such flow
+(Encoded in YAML for easy reading):</p>
+<pre><code class="language-yaml">- __type__: ListDirectory
+actions:
+- __type__: ListDirectoryAction
+path: /usr/share/man
+recursive: true
+vfs_location:
+__type__: GCSSignedURLLocation
+bucket: rekall-temp
+expiration: 1475916267
+method: PUT
+path: C.4dd70be22bc56fc3/vfs/collections/usr/share/man/F_c18ec2cfb1
+signature: |
+a1POInGl2lBB4CRwcKyEC2QWeFMZs92XCw4Ibiih+hQs6bqykulKU8Kh+q/67UDdRgKy
+XXXXXZrJBg==
+client_id: C.4dd70be22bc56fc3
+created_time: 1475829867.746249
+flow_id: F_c18ec2cfb1
+path: /usr/share/man
+recursive: true
+session:
+__type__: RekallSession
+live: API
+ticket:
+__type__: FlowStatus
+client_id: C.4dd70be22bc56fc3
+flow_id: F_c18ec2cfb1
+location:
+__type__: GCSSignedPolicyLocation
+bucket: rekall-temp
+expiration: 1475916267
+path_prefix: tickets/FlowStatus/F_c18ec2cfb1
+path_template: '{client_id}'
+policy: |
+ey5kaXRpb25zIjogW1sic3RhcnRzLXdpdGgiLCAiJGtleSIsICJyZWthbGwtdGVtcC90aWNr
+VDA4OjQ0OjI3Ljc0ODc1MiswMDowMCJ9
+signature: |
+I1f0oyEssNRyn10kuvK0XMwom1Ee0IVRMzlulxK/7I4PrhDw5T7TGZvqC4AUEPqQQwSumn+
+XXXXXybRerfc/KcEA==
+status: Started
+</code></pre>
+<p>In the above example we see that a ListDirectory flow was issued. The
+flow contains a list of actions, the first of which is a
+ListDirectoryAction. The client will run this action (which recursively
+lists the directory specified in the path parameter). When done, the
+client will upload the result collection to the vfs_location specified.</p>
+<p>The vfs_location parameter is of type GCSSignedURLLocation which
+specifies a method to upload files to the Google Storage Bucket named in
+the location. It also includes exactly the expected path within the
+bucket and a signature block which is enforced by the GCS servers. Note
+that this information grants the Rekall Agent client permission to
+upload the result collection to exactly the specified URL for a
+specified time. The agent has no other credentials on the bucket and can
+not read or write any other objects. It is only the flow's creator that
+(using their service account keys) can grant access to the named object.</p>
+<p>Similarly the agent is given a FlowStatus ticket to return to the server
+when it begins processing the flow. The ticket contains a
+GCSSignedPolicyLocation location allowing the client to write the ticket
+anywhere under the prefix tickets/FlowStatus/F_c18ec2cfb1 .</p>
+<p>So to summarize this section, we have seen that:</p>
+<ol>
+<li>Locations can specify different ways of uploading the file to the
+   server. They also contain all the credentials required by the client to
+   upload to a predetermined location. Since everything is a file in the
+   Rekall Agent, everything deals with various Locations - so this is an
+   important concept.</li>
+<li>Clients have no credentials by themselves, they simply do as they are
+   told and use the provided credentials to upload their results.</li>
+<li>A client action is simply a dedicated routine on the client which runs a
+   certain task, creates a result collection and uploads the result
+   collection to the cloud.</li>
+</ol>
+<h4 id="result-collections">Result collections</h4>
+<p>The concept of result collections is central in the Rekall Agent. Since
+in Rekall everything is a file, I was looking for a file based
+structured storage format, and the most widely known and recognized
+structured file format out there is SQLite. Using SQLite to store
+results is also reminiscent of the GRR SQLite data store, and we know
+that as long as any single SQLite file is not highly contended or it is
+not too large, then SQLite is a very good format. In fact, with the
+Rekall Agent architecture result collections are typically written once
+by the client, and then read multiple times by flow processors or the
+UI.</p>
+<p>For example consider the task of storing a client's complete directory
+listing (e.g. in order to generate a timeline). On a typical client the
+directory listing is a few million files. Using a single deployment wide
+database will increase total row count by several million per client as
+discussed previously. If we keep the data in the large global table,
+that table will eventually grow and become slower as the system is used
+more and more.</p>
+<p>However, Rekall creates a single SQLite file as a single result
+collection for one flow. This means that all the results from this flow
+are only stored in the one file. When the user wants to look at another
+flow, another database file will be used. This prevents the system from
+becoming slower as each SQLite database is isolated from all others, and
+it is only opened when the user explicitly wants to look at that
+specific result collection.</p>
+<p>For example we can see the results of the ListDirectory flow above
+(using the view plugin):</p>
+<p><img alt="rekall agent whitepaper 6" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_6.png" /></p>
+<p>The result is simply an SQLite table populated and returned from the
+client, containing stat() information about every file in the requested
+directory.</p>
+<p>Note that the Rekall agent prepares the result collection by itself, and
+then uploads it at once to the server. There is no need for a worker to
+do anything with it other than just noting that this collection exists
+(i.e. maintain metadata). Once the file is uploaded, the worker may or
+may not post-process it but the client is not kept waiting. Even if a
+worker is not running, an end user of the system can just download the
+result collection manually.</p>
+<h4 id="customized-result-collections">Customized result collections</h4>
+<p>It is usually the case that deployed clients are hard to upgrade. In any
+real deployment there will be a certain number of clients running older
+versions of the software, and test/deployment cycles are difficult to
+speed up.</p>
+<p>For example, Suppose that after the clients have been deployed, an
+analyst wants to use an additional condition on the FileFinder() flow or
+maybe they want to retrieve an extra field that we have not thought of.
+Do we need to deploy a new version of the Rekall Agent to do this?</p>
+<p>The answer is usually no. The Rekall Agent is very flexible and
+typically does whatever the server asks of it. We get this flexibility
+thanks to the Efilter library, which implements a complete SQL query
+system within the Rekall Agent.</p>
+<p>Usually flows are written with the full result collection specification
+provided to the client itself, as well as an Efilter query to run in
+different situations. For example, consider the ListProcesses flow.
+There is no dedicated ListProcesses client action, instead the flow
+simply specifies a generic SQLite collection and instructs the client to
+store inside it the results from an Efilter query:</p>
+<pre><code class="language-yaml">__type__: ListProcessesFlow
+actions:
+- __type__: CollectAction
+collection:
+__type__: GenericSQLiteCollection
+location:
+__type__: GCSSignedURLLocation
+bucket: rekall-temp
+expiration: 1475972560
+method: PUT
+path: C.4dd70be22bc56fc3/vfs/analysis/pslist_1475886160
+signature: |
+mngmDMUb337BfhgzTfpRGA0P0IgmpU5PD69S02F27FQGy3+706c2tfR+kJBlFuBdzb9Tj
+XXXXXg==
+tables:
+- __type__: Table
+columns:
+- __type__: ColumnSpec
+name: name
+type: unicode
+- __type__: ColumnSpec
+name: pid
+type: int
+- __type__: ColumnSpec
+name: ppid
+type: int
+- __type__: ColumnSpec
+name: start_time
+type: epoch
+name: default
+type: pslist
+query:
+mode_linux_memory: select proc.name, proc.pid, ppid, start_time from pslist()
+mode_live_api: select Name as name, pid, ppid, start_time from pslist()
+query_parameters: []
+...
+</code></pre>
+<p>As in the previous example, the generic CollectAction takes a location
+of where to upload the collection, but this time the collection schema
+is fully described: In this example the columns name, pid, ppid and
+start_time will be returned. In order to do this, on Linux in live
+memory mode, the query "select proc.name, proc.pid, ppid, start_time
+from pslist()" will run, and in API mode the query "select Name as name,
+pid, ppid, start_time from pslist()" will run.</p>
+<p>Suppose that in the next version of the Rekall Agent, we wish to write a
+new ListProcesses flow which implements different filtering rules, or
+reports back more (or less) columns in the result collection. To do this
+no new code needs to be deployed on the clients, the next version of the
+controller simply changes the query and result specification without
+needing to change anything on the client itself. Even an old client will
+adapt its output based on the new specification.</p>
+<p>Of course the client needs to have the basic capability of listing
+processes (e.g. via the Rekall pslist plugin), but having an Efilter
+query dictate the output format and control the execution of existing
+plugins provides us with unprecedented runtime flexibility, allowing us
+to make maximum use of the existing client capabilities.</p>
+<p>To summarize this section, we have seen that:</p>
+<ol>
+<li>Rekall collections are SQLite files, the schema of which is specified
+   from the server (so they can change with time if required).</li>
+<li>The client fills the SQLite files with the output of the provided
+   efilter query. The query filters and combines the output from other
+   Rekall plugins in arbitrary flexible ways.</li>
+</ol>
+<h4 id="hunts">Hunts</h4>
+<p>A hunt is an operation which allows multiple clients to do the same flow
+at the same time. The results from the hunt are merged together and
+reported over the entire fleet. For example, a hunt might be run in
+order to search for a particular file glob or registry key across all
+machines.</p>
+<p>Hunts are typically issued on some subset of clients (e.g. all windows
+machines or all machines of a given label).</p>
+<p>GRR implements hunts via a routine in the frontend (called the foreman)
+which retrieves client information from the datastore (e.g. its
+Operating System) and issues separate flows for each client which
+matches the criteria. In other words, in GRR, it is the frontend that
+decides if a given client should receive the hunt. Because this decision
+process is relatively expensive (making frequent database queries) the
+foreman is only run on each client once every half an hour by default.
+This means that in practice hunts can not be run faster than half an
+hour, even if the hunt is instructed to schedule all clients
+immediately.</p>
+<p>Furthermore because hunt processing is very expensive in GRR, the GRR
+foreman has to throttle hunt scheduling. The default client scheduling
+rate is 20 per minute (which is very low - for a 10k client deployment a
+hunt would take more than 8 hours). If the client tasking rate is too
+high the resulting client load can easily bring down the front end
+servers and overload the system. However in practice, it is difficult to
+accurately estimate how much load a particular hunt is going to
+generate, leaving the user to guess the appropriate client limit.</p>
+<p>Rekall Agent does not use a foreman. Instead the hunt is just a regular
+flow with a condition specified. The condition is an efilter query which
+the client runs to determine if it should run the flow. For example the
+following efilter query restricts a hunt to Windows machines:</p>
+<p>any from agent_info() where key=='system' and value=='Windows'</p>
+<p>In this context agent_info() is simply a Rekall plugin (which delivers
+information about the client in key/value form). All clients will
+actually see this hunt, but only those on which the efilter query
+triggers will actually execute the flow.</p>
+<p>The user's imagination is the limit for what other conditions might be
+used. For example, a hunt could be run on all systems which have the
+process named "chrome" running right now:</p>
+<p>any from pslist() where regex_search(Name, "chrome")</p>
+<p>Systems which do not match the condition simply ignore the hunt request.</p>
+<p>Note that Rekall Agent does not run dedicated code on the server to
+start the hunt. A hunt is just a special kind of flow message posted on
+a shared message queue (job file), clients simply read the relevant
+message queue (job file) when it changes and decide for themselves if
+they should participate in the hunt. This means that in practice a
+Rekall hunt can complete in seconds because clients are not limited by
+the rate of scheduling the hunt or by the rate of hunt result
+processing. The hunt is essentially complete when the client uploads its
+results collection, barring any post processing required. For the first
+time, we are able to run a hunt which completes in seconds to capture
+the entire state of the fleet at the same time!</p>
+<p>Let us now run the ListProcesses flow as a hunt:</p>
+<p><img alt="rekall agent whitepaper 7" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_7.png" /></p>
+<pre><code class="language-yaml">__type__: ListProcessesFlow
+actions:
+- __type__: CollectAction
+collection:
+__type__: GenericSQLiteCollection
+location:
+__type__: GCSSignedPolicyLocation
+bucket: rekall-temp
+expiration: 1475978734
+path_prefix: hunts/F_224c8bed27/vfs/analysis/pslist_1475892334
+path_template: '{client_id}'
+policy: |
+eyJjb25kaXRpb25zIjogW1sic3RhcnpdGgiLCAiJGtleSIsICJyZWthbGwtdGVtcC9odW50
+cXXX
+signature: |
+WADjE4ckez8Y+C4uZDUFlq+XbZwN1U+l8GHIxYpHt7cXFuFyZ6dyu9v/JUCpl+ach1SPrdW
+XXXXXXXXPF7w==
+...
+ticket:
+__type__: HuntStatus
+client_id: C.4dd70be22bc56fc3
+flow_id: F_224c8bed27
+location:
+__type__: GCSSignedPolicyLocation
+bucket: rekall-temp
+expiration: 1475978734
+path_prefix: tickets/HuntStatus/F_224c8bed27
+path_template: '{client_id}'
+policy: |
+VDAyOjA1OjM0LjgyMjYxNiswMDowMCJ9
+signature: |
+0op7DJn10Lys/tX5zuKohBQmIIOUQQKi3nWXKg==
+</code></pre>
+<p>The hunt request is not very different from a regular flow request. The
+main differences are:</p>
+<ul>
+<li>Hunt results are stored inside the hunt namespace and not in the client
+  namespace.</li>
+<li>This keeps related hunt results together in the bucket namespace (so
+  hunts can be purged).</li>
+<li>The location specifies a path_template which the client interpolates,
+  this allows multiple clients to write to the same part of the namespace
+  without overwriting each other's collections. The client is allowed to
+  write anywhere under the path_prefix.</li>
+<li>The ticket that the client writes is a HuntStatus ticket instead of a
+  FlowStatus ticket. The HuntStatus ticket manages overall statistics for
+  the hunt in a specific hunt collection. This is just a different batch
+  processor which organizes information in slightly different ways.</li>
+</ul>
+<p>The Rekall Agent controller does not bother merging all the results into
+a single output collection. Instead we maintain another very small
+metadata collection containing high level information about the overall
+hunt progress (e.g. how many machines participated, how many errors, and
+where each machine uploaded its result collection).</p>
+<p>If the user wishes to export the results of the hunt, the export()
+plugin simply opens all the client's collections on demand and streams
+the result into the exported collection or into the relevant export
+plugin.</p>
+<p>So to summarize we have seen that:</p>
+<ul>
+<li>Hunts are simply specially prepared flow (or job requests) which are
+  written to a shared queue between multiple clients.</li>
+<li>Participation in the hunt is based on client self selection (implemented
+  via an Efilter query).</li>
+<li>All results from a hunt of kept in the same part of the namespace on the
+  filestore.</li>
+<li>Exporting the hunt results merges individual clients' result collections
+  into one final result collection.</li>
+</ul>
+<h4 id="the-user-interface">The User Interface</h4>
+<p>Rekall Agent does not have a fancy GUI at present. Instead we use
+standard Rekall plugins to control the system. There is no user
+management yet or a restful API - all operations currently require full
+raw level access to the bucket (using the service account's
+credentials).</p>
+<p>The Rekall UI allows one to inspect the status of the hunt. For example,
+for our process listing hunt above, the below screenshot shows the total
+number of clients responded, and a list of each client's result
+collection.</p>
+<p><img alt="rekall agent whitepaper 8" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_8.png" /></p>
+<p>Since everything in the Rekall Agent bucket is just a file, it is
+sometimes easier to just list the bucket itself (the bucket can also be
+navigated using the Cloud Storage tools such as the
+<a href="https://console.cloud.google.com/">Google Cloud Console</a> and
+<a href="https://cloud.google.com/storage/docs/gsutil">gsutil</a>):</p>
+<p><img alt="rekall agent whitepaper 9" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_9.png" /></p>
+<p>And the UI allows us to just view any file in the bucket directly. For
+example, in order to visualize what kind of metadata we keep about each
+of the clients in this hunt:</p>
+<p><img alt="rekall agent whitepaper 10" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_10.png" /></p>
+<p>So we just keep all the hunt tickets for each client in a separate
+collection. The tickets contain the status message of running the flow,
+as well as the location where the result collection was written. The
+inspect_hunt plugin essentially uses data stored in this stats
+collection to tell us about the total clients that ran the hunt.</p>
+<p>We can directly view the result collection from each client:</p>
+<p><img alt="rekall agent whitepaper 11" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_11.png" /></p>
+<h2 id="evaluation">Evaluation</h2>
+<p>In order to understand how the new approach improves over GRR I examined
+a number of real world cases - typical of the way GRR is used.</p>
+<h3 id="recursive-filefinder">Recursive FileFinder</h3>
+<p>It is very typical for users to recursively search the directory
+structure of a host, looking for files matching a certain name or
+timestamp. GRR has the FileFinder flow which makes issuing these
+requests easy, allowing users to issue Glob patterns.</p>
+<p>in this example I am searching for the two glob expressions:</p>
+<ul>
+<li>/home/scudette/**10/*.dll</li>
+<li>/home/scudette/**10/*.exe</li>
+</ul>
+<p>These search recursively from my home directory 10 levels deep for all
+files with .exe or .dll extensions.</p>
+<p>GRR's traditional Glob algorithm is purely server based. Flows process
+the glob patterns into a suffix tree and then issue simple client
+primitives, like ListDirectory, Find etc.</p>
+<p><img alt="rekall agent whitepaper 12" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_12.png" /></p>
+<p>Unfortunately GRR seems to have a bug at the moment with this feature
+(it seems to follow symlinks so it can never complete if there is a
+symlink pointing back up the directory tree) and so I could not complete
+this flow on my machine for comparison.</p>
+<p>Rekall on the other hand performs much better:</p>
+<p><img alt="rekall agent whitepaper 13" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_13.png" /></p>
+<p><img alt="rekall agent whitepaper 14" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_14.png" /></p>
+<p>As can be seen, the result collection is 150kb (about 2060 results) and
+takes about 11 seconds to compute the results and a couple of seconds to
+upload the file.</p>
+<p><img alt="rekall agent whitepaper 15" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_15.png" /></p>
+<p>Just for comparison the Unix find command takes around 2 seconds on my
+system, so maybe there is some more room for optimization.</p>
+<h4 id="running-a-hunt">Running a hunt</h4>
+<p>Hunts are probably one of the most useful features of Rekall Agent. The
+ability to run a collection at the same time on all systems is important
+to be able to scale response. However, as noted before, the way hunts
+are run is inefficient and so GRR finds it difficult to scale.</p>
+<p>To subjectively compare performance I designed the following experiment.
+GRR was installed on my system in the normal way with a single worker,
+adminUI, frontend. I also launched the GRR pool client (A tool used for
+benchmarking GRR by starting several separate GRR clients in the same
+process using different threads). The GRR pool client can be made to
+reuse a certificate file which means we can skip the enrollment phase
+and just run pre-enrolled multiple clients (Since Rekall Agent does not
+really have an enrollment workflow we can not compare the tools on this
+function). This essentially simulates a large deployment.</p>
+<p>I started the GRR pool client with 100 separate client threads. I
+changed the poll interval to every 5 seconds in order to get the clients
+to be as responsive as possible (default is poll every 10 minutes). I
+then also changed the clients' foreman poll to 5 seconds (default is 30
+minutes) to allow clients to pick up the hunt as quickly as possible.</p>
+<p>For a hunt I chose a very simple and cheap action: List the /bin/
+directory (FileFinder flow with Stat action of the glob /bin/*). On my
+system the /bin/ directory contains 164 files and we are only listing
+them (the equivalent of ls -l /bin/*).</p>
+<p><img alt="rekall agent whitepaper 16" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_16.png" /></p>
+<p>The total time for all 100 clients to complete was about 1 minute and 4
+seconds.</p>
+<h5 id="testing-rekall">Testing Rekall</h5>
+<p>I tested Rekall in the same way. First I started the Rekall pool client
+with 100 threads and waiting a few minutes until the Startup process was
+complete. The agent worker was not running automatically. I then created
+a new hunt:</p>
+<p><img alt="rekall agent whitepaper 17" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_17.png" /></p>
+<p>Note that as soon as this hunt was posted all clients immediately
+executed the hunt (Rekall does not use a hunt client rate). I waited a
+short time and then ran the agent worker to process the hunt status
+batch job. Rekall's hunt processing essentially just maintains metadata
+about the hunt (e.g. how many clients participated) but it is not
+critical to the hunt processing. The hunt is in fact complete as soon as
+the clients have uploaded their results.</p>
+<p>However running the processor by hand demonstrates the worst case
+performance - all 100 hunt notifications are pending and should be
+processed at once. The processor took 4 seconds to process all the hunt
+notifications (it should be noted that all network traffic goes to the
+cloud so network latency is included in these times).</p>
+<p>I then used Rekall's inspect_hunt plugin to plot the graph of client
+recruitment (similar to GRR's UI above):</p>
+<p><img alt="rekall agent whitepaper 18" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_18.png" /></p>
+<p>As can be seen in the above graph, all clients completed their hunt in a
+little under 5 seconds (which was their maximum poll time). This makes
+sense since there is no server side code running to introduce client
+processing latency, so each client is operating independently from other
+clients.</p>
+<h2 id="discussion">Discussion</h2>
+<p>Although the Rekall Agent is not yet as featureful as GRR, it actually
+demonstrate some excellent advancements. In the following I discuss how
+the current architecture addresses the goals I set out to achieve.</p>
+<h3 id="no-part-of-the-system-should-be-in-the-critical-path">No part of the system should be in the critical path</h3>
+<p>We define the critical path as the connection between the client and
+server. Unlike GRR, the Rekall Agent Worker (batch processor) is not
+absolutely required to run. Of course, we assume that the Google Cloud
+Storage infrastructure continues to operate as a general service, even
+under the load we exert on it.</p>
+<p>Barring a major Google outage in a global service designed to serve
+millions of customers, and having clear SLAs, the Rekall Agent clients
+are assured to never receive any load related errors (e.g. HTTP 500
+errors). This in itself is a major improvement to GRR.</p>
+<p>Even if the Rekall Agent batch processing jobs do not work, the client's
+FlowStatus tickets are still stored in the bucket and will be processed
+as soon as the batch services are restored. In fact, the Rekall Agent UI
+is aware of this possibility and marks the flow with a (*) to indicate
+post processing has not completed. The below screenshot was taken after
+a flow was scheduled for a client, but the batch processor was not
+running. As soon as the client completes the flow it uploads a Done
+ticket and the UI notes that the flow is complete but not yet
+preprocessed:</p>
+<p><img alt="rekall agent whitepaper 19" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_19.png" /></p>
+<p>Note that in this case the UI indicates the location of the client's
+ticket (which contains the final status and the list of result
+collections) so the user can still manually read the results if needed.
+The FlowStatus batch job simply maintains high level flow related
+statistics and it is not absolutely essential to the operation of the
+system.</p>
+<p>We have also previously seen that when a hunt is issued all clients
+immediately respond to the hunt because they all read the same jobs
+file. Clients are then able to upload their results as soon as they
+complete executing the flow. No part of the system is in the critical
+path between client and server and clients should never receive a load
+related 500 error.</p>
+<h4 id="the-system-should-be-easier-to-deploy-at-any-scale">The system should be easier to deploy at any scale</h4>
+<p>Whether the Rekall Agent is deployed to service few or many thousands of
+clients, the deployment procedure is exactly the same. The administrator
+simply creates a new bucket and prepares a new configuration file
+pointing the client at the new bucket. Depending on how much
+post-processing is required, the administrator can increase or decrease
+the capacity of the batch processor itself (but since typically Rekall
+batch processors only deal with metadata, not much capacity is required
+in the first place).</p>
+<p>There is no need to deal with load balancing, data stores or high
+availability setup. The system transparently scales to whatever level is
+needed. SLAs are managed by the cloud provider.</p>
+<h4 id="the-system-should-be-able-to-do-what-users-want-from-it">The system should be able to do what users want from it</h4>
+<p>Users sometimes want to take complex operations which produce a lot of
+data, such as a complete recursive directory listing of the entire
+system. Users sometimes want to make a timeline with Plaso or
+Timesketch, or even export data to elasticsearch. The current GRR
+architecture does not allow this, but the Rekall Agent does. Consider
+the following operation which recursively lists every file on my system:</p>
+<p><img alt="rekall agent whitepaper 20" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_20.png" /></p>
+<p>On my machine, running this flow takes around 4 minutes. This is the
+output with debugging enabled:</p>
+<p><img alt="rekall agent whitepaper 21" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_21.png" /></p>
+<p>The final result collection is a 300mb SQLite file containing around 1.6
+million rows of individual file stat() information. However, Rekall
+stores it in the bucket as a single gzipped file which only takes around
+46Mb of cloud storage. If a user wishes to export this file to Plaso
+they may now simply download the file locally, and load it into Plaso
+(or another tool as required).</p>
+<p>The Rekall console UI can also use this file to display the client's
+Virtual File System with the vfs_ls() plugin. This is a simple
+file/directory navigator similar to that presented by GRR. The Rekall
+vfs_ls plugin simply queries the result collection directly.</p>
+<p>As the debug messages reveal, Rekall queries the bucket to check if the
+collection is modified, and if it is not (i.e. the HTTP response status
+is 304 - not modified) it simply uses its local cached copy. This shows
+that even though the collection is very large, since the file is never
+updated once it has been written, the Rekall console can remain very
+responsive (Query served within 300ms after the first download) - simply
+because it is easy and efficient to cache files:</p>
+<p><img alt="rekall agent whitepaper 22" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_22.png" /></p>
+<p>Note that this type of operation (Creating a full timeline of a remote
+system) is not currently possible in GRR because GRR is too slow and the
+load on the database is too large for such a flow to complete in a
+reasonable time.</p>
+<h4 id="the-system-should-be-simple">The system should be simple</h4>
+<p>At the end of the day the Rekall Agent system just deals with simple
+files. The Rekall Console UI allows one to list and view any file within
+the bucket. If the file is a collection, the UI just displays the
+tabular output (which can be filtered in arbitrary ways using an Efilter
+query). For example, we can simply list all the files inside the
+client's namespace using the bucket_ls plugin:</p>
+<p><img alt="rekall agent whitepaper 23" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_23.png" /></p>
+<p>We can also just view every one of these files. For example, let's
+examine the client's metadata:</p>
+<p><img alt="rekall agent whitepaper 24" src="../assets/images/rekall-forensics-blog/rekall_agent_whitepaper_24.png" /></p>
+<p>The user can also just export all the files from the bucket (using any
+cloud tool) and examine them with the SQLite binary itself - there is no
+magic in this system, everything really is a file.</p>
+<h4 id="the-system-should-avoid-copying-data-needlessly-as-much-as-possible">The system should avoid copying data needlessly as much as possible</h4>
+<p>In Rekall the client agent is responsible for creating and uploading the
+result collections. The client uploads the collection directly into the
+final resting place as often as possible. Although the system does have
+a facility for running post processing on the uploaded collections the
+system itself avoids moving or copying the actual bulk data from its
+upload location. Rather, the Rekall batch processing system maintains
+metadata about the uploaded collections and just uses it directly.</p>
+<p>Note in particular the when exporting data from a hunt, the export
+plugin will merge the results from each client into the export
+directory. Unlike GRR, the Rekall worker does not actually look at the
+results from clients, the results are only merged at export time. This
+means that post processors do not need to manipulate a lot of data - instead
+they just maintain metadata about all the result collections.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

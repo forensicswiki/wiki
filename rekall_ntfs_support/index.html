@@ -1,0 +1,1397 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall ntfs support - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#rekalls-advanced-memory-analysis-and-binary-parsing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall ntfs support
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rekalls-advanced-memory-analysis-and-binary-parsing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rekall's advanced memory analysis and binary parsing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rekall&#39;s advanced memory analysis and binary parsing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-rekall-ntfs-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Rekall NTFS plugins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-rekalls-ntfs-implementation-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Rekall's NTFS implementation notes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Rekall&#39;s NTFS implementation notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-autodetection-of-ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Autodetection of NTFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-implementing-fixups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Implementing Fixups
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-runlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Runlists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-further-abstractions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Further abstractions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-using-the-ntfs-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Using the NTFS API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Conclusions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:file-systems" class="md-tag">File Systems</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall ntfs support</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+<a href="../michael_cohen/">Michael Cohen</a> on 2014-12-23.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<h2 id="rekalls-advanced-memory-analysis-and-binary-parsing">Rekall's advanced memory analysis and binary parsing</h2>
+<p>Rekall's advanced memory analysis capabilities are powered by a
+powerful binary parsing engine - capable of parsing very complex binary
+formats. Not only can this be applied to memory forensics, but also
+traditional filesystem forensics can be implemented using this
+capability.</p>
+<p>Why did we add NTFS support to a memory forensic tool?</p>
+<ol>
+<li>When we added support for using the windows pagefile to supplement
+   memory analysis it became apparent that we needed to read the pagefile
+   directly from the NTFS since the file is normally locked - so normal
+   file APIs are not usable. We considered using tricky kernel hacking to
+   bypass the file lock restrictions but this seems fragile and NTFS
+   parsing is not that complicated. For memory acquisition
+   using <code>WinPmem</code> we included the <code>fcat</code> tool from the <code>Sleuthkit</code> to copy
+   the pagefile out (alternatively we could have linked <code>libtsk</code> directly).
+   But one of the more important uses of Rekall is live analysis, and this
+   does not really solve it.</li>
+<li>We knew that Rekall's binary parsing library was up to the task of
+   handling NTFS. It was a good exercise to learn NTFS and document it in
+   the Rekall implementation. I used Brian Carrier's excellent book
+   <a href="http://www.amazon.com/System-Forensic-Analysis-Brian-Carrier/dp/0321268172/">File System Forensic Analysis</a>
+   to learn about the NTFS and implement it in Rekall.</li>
+<li>Although we also maintain <code>pytsk</code> as a Python binding to the TSK
+   library, it is a bit of a pain to use. The bindings are sometimes
+   fragile and can cause crashes under some situations. They also need to
+   be frequently updated when TSK evolves. Performance is not great - TSK
+   needs to parse the entire MFT each time it is loaded. Pytsk has a lot of
+   trouble parsing a live filesystems since TSK caches its analysis of the
+   MFT and might not see new files created after this initial MFT parsing.
+   Rebuilding the caches is quite slow too due to the IO required in
+   reading the entire MFT each time. I felt that a pure Python
+   implementation of NTFS parsing can be useful in some situations and use
+   cases and possibly be more efficient (Despite being written in Python
+   :-).</li>
+<li>Probably the most important reason for implementing NTFS parsing in
+   Rekall was that it was a hell of a lot of fun! Rekall's programming APIs
+   are very easy to work with and the final plugins were really fast and
+   powerful.</li>
+</ol>
+<p>Rekall's implementation is not supposed to be a replacement for TSK. The
+Sleuthkit actually converts much of the information found in NTFS into a
+common format to fit all filesystems. So for example, it extends
+the <code>inode</code> abstraction from other filesystems from a simple integer to
+a string which may contain type and id (e.g. 50-144-8). Some of the
+timestamps are also omitted from the tool's output (but may be found
+using the low level API). This extra layer of abstraction is good in the
+general case (e.g. autopsy works with all filesystems in the same way)
+but may actually be hiding some important forensic information in some
+cases. Its useful to have an implementation of NTFS parsing with no
+abstractions at all - to allow examiners to corroborate some of the low
+level information available.</p>
+<h3 id="1-rekall-ntfs-plugins">1. Rekall NTFS plugins</h3>
+<p>In order to analyze an NTFS disk image, simply load it with the
+familiar <code>-f</code> switch. In the following example I use the <code>vdfuse</code> tool
+in order to export my Virtual Box VDI disk partitions as raw devices:</p>
+<pre><code class="language-bash">$ vdfuse -r -f ~/VirtualBox\ VMs/win7/win7.vdi /tmp/mnt/
+$ rekal -f /tmp/mnt/Partition2
+ --------------------------------------------------------------------------
+The Rekall Memory Forensic framework 1.2.0 (Col de la Croix).
+
+&quot;We can remember it for you wholesale!&quot;
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License.
+
+See http://www.rekall-forensic.com/docs/Manual/tutorial.html to get started.
+ --------------------------------------------------------------------------
+[1] Partition2 15:57:14&gt; istat
+MFT Entry Header Values:
+Entry: 5        Sequence: 5
+$LogFile Sequence Number: 13730649171
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags                          COMPRESSED, HIDDEN, SYSTEM
+Owner ID                       0
+SID                            265
+Created                        2009-07-14 02:38:56+0000
+File Modified                  2014-10-31 21:36:56+0000
+MFT Modified                   2014-10-31 21:36:56+0000
+Accessed                       2014-10-31 21:36:56+0000
+
+Attributes:
+     Inode                   Type                 Name     Res     Size    Comment
+--------------- ------------------------------ ---------- ----- ---------- -------
+         5-16-0 $STANDARD_INFORMATION                     True          72
+         5-48-1 $FILE_NAME                                True          68 .
+        5-144-6 $INDEX_ROOT                    $I30       True         168
+        5-160-8 $INDEX_ALLOCATION              $I30       False       8192
+        5-176-7 $BITMAP                        $I30       True           8
+        5-256-9 $LOGGED_UTILITY_STREAM         $TXF_DATA  True          56
+
+$I30 Analysis:
+   MFT      Seq           Created                  File Mod                   MFT Mod                   Access              Size    Filename
+---------- ----- ------------------------- ------------------------- ------------------------- ------------------------- ---------- --------
+         4     4 -                         -                         -                         -                                  0 $AttrDef
+         8     8 -                         -                         -                         -                                  0 $BadClus
+         6     6 -                         -                         -                         -                                  0 $Bitmap
+         7     7 -                         -                         -                         -                                  0 $Boot
+        11    11 2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000           0 $Extend
+         2     2 -                         -                         -                         -                                  0 $LogFile
+         0     1 2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000       16384 $MFT
+         1     1 -                         -                         -                         -                                  0 $MFTMirr
+        57     3 2009-07-14 03:18:56+0000  2013-02-19 17:51:59+0000  2013-02-19 17:51:59+0000  2013-02-19 17:51:59+0000           0 $Recycle.Bin
+         9     9 2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000  2013-02-20 02:35:15+0000           0 $Secure
+        10    10 -                         -                         -                         -                                  0 $UpCase
+         3     3 -                         -                         -                         -                                  0 $Volume
+         5     5 2009-07-14 02:38:56+0000  2014-10-31 21:36:56+0000  2014-10-31 21:36:56+0000  2014-10-31 21:36:56+0000           0 .
+    145393    16 2013-02-24 22:22:28+0000  2014-10-28 09:15:59+0000  2014-10-28 09:15:59+0000  2014-10-28 09:15:59+0000           0 Config.Msi
+     63072    11 2013-02-19 18:31:29+0000  2014-10-23 15:24:31+0000  2014-10-23 15:24:31+0000  2014-10-23 15:24:31+0000           0 cygwin
+     13692     1 2009-07-14 05:08:56+0000  2009-07-14 05:08:56+0000  2013-02-20 02:46:34+0000  2009-07-14 05:08:56+0000           0 Documents and Settings
+    165336    45 2013-12-28 19:17:49+0000  2013-12-28 19:17:55+0000  2013-12-28 19:17:55+0000  2013-12-28 19:17:55+0000           0 MinGW
+      1251    15 2014-08-25 13:45:38+0000  2014-10-27 14:08:43+0000  2014-10-27 14:08:43+0000  2014-08-25 13:45:38+0000  1207721984 pagefile.sys
+        58     1 2009-07-14 03:20:08+0000  2009-07-14 03:20:08+0000  2013-02-20 02:46:13+0000  2009-07-14 03:20:08+0000           0 PerfLogs
+        60     1 2009-07-14 03:20:08+0000  2014-08-27 23:30:42+0000  2014-08-27 23:30:42+0000  2014-08-27 23:30:42+0000           0 Program Files
+       247     1 2009-07-14 03:20:08+0000  2014-10-28 09:11:38+0000  2014-10-28 09:11:38+0000  2014-10-28 09:11:38+0000           0 Program Files (x86)
+       363     1 2009-07-14 03:20:08+0000  2013-02-19 18:27:21+0000  2013-02-19 18:27:21+0000  2013-02-19 18:27:21+0000           0 ProgramData
+        60     1 2009-07-14 03:20:08+0000  2014-08-27 23:30:42+0000  2014-08-27 23:30:42+0000  2014-08-27 23:30:42+0000           0 PROGRA~1
+       247     1 2009-07-14 03:20:08+0000  2014-10-28 09:11:38+0000  2014-10-28 09:11:38+0000  2014-10-28 09:11:38+0000           0 PROGRA~2
+       363     1 2009-07-14 03:20:08+0000  2013-02-19 18:27:21+0000  2013-02-19 18:27:21+0000  2013-02-19 18:27:21+0000           0 PROGRA~3
+     88993     1 2013-02-19 18:58:43+0000  2014-08-27 22:34:33+0000  2014-10-21 16:39:13+0000  2014-08-27 22:34:33+0000           0 Python27
+    118195     3 2013-02-19 22:37:36+0000  2013-05-30 13:28:51+0000  2013-05-30 13:28:51+0000  2013-05-30 13:28:51+0000           0 Python27.32
+     27376     2 2013-02-19 17:51:27+0000  2013-02-19 17:51:27+0000  2013-02-19 17:51:27+0000  2013-02-19 17:51:27+0000           0 Recovery
+    149334    13 2014-08-06 18:56:26+0000  2014-09-11 14:18:27+0000  2014-09-11 14:18:27+0000  2014-09-11 14:18:27+0000           0 rekall-profiles
+    149334    13 2014-08-06 18:56:26+0000  2014-09-11 14:18:27+0000  2014-09-11 14:18:27+0000  2014-09-11 14:18:27+0000           0 REKALL~1
+     16393     2 2013-02-20 02:47:16+0000  2014-10-31 22:07:56+0000  2014-10-31 22:07:56+0000  2014-10-31 22:07:56+0000           0 System Volume Information
+     16393     2 2013-02-20 02:47:16+0000  2014-10-31 22:07:56+0000  2014-10-31 22:07:56+0000  2014-10-31 22:07:56+0000           0 SYSTEM~1
+       457     1 2009-07-14 03:20:08+0000  2013-02-19 17:51:39+0000  2014-08-27 22:06:23+0000  2013-02-19 17:51:39+0000           0 Users
+    154403     2 2013-02-20 13:12:13+0000  2013-02-20 13:15:48+0000  2013-02-20 13:15:48+0000  2013-02-20 13:15:48+0000           0 websymbols
+    154403     2 2013-02-20 13:12:13+0000  2013-02-20 13:15:48+0000  2013-02-20 13:15:48+0000  2013-02-20 13:15:48+0000           0 WEBSYM~1
+     58269     7 2013-02-19 18:28:16+0000  2013-02-19 18:28:16+0000  2013-02-19 18:28:16+0000  2013-02-19 18:28:16+0000           0 WinDDK
+       619     1 2009-07-14 03:20:08+0000  2014-10-21 23:41:52+0000  2014-10-21 23:41:52+0000  2014-10-21 23:41:52+0000           0 Windows
+</code></pre>
+<p>The <code>istat</code> plugin displays information about a particular MFT entry. By
+default it shows entry 5 (The root directory). If the entry has
+an <code>I30</code> attribute (which represents a directory index) the plugin
+further parses the entry and displays all files in the directory
+recovered from the <code>I30</code> attribute stream. Note that the <code>I30</code> stream
+contains 3 timestamps for each entry which are separated from the
+timestamps actually present in the
+MFT's <code>$STANDARD_INFORMATION</code> attribute.</p>
+<p>The output of <code>istat</code> also lists the attributes and their types in a
+similar notation to that found in, e.g. the Sleuthkit. That is as a
+tuple separated by dashes, MFT-TYPE-ID.</p>
+<p>The <code>fls</code> plugin works in a similar way, but lists directories based on
+a filename, rooted at the root of the filesystem. The filename may use
+forward or backslash for separators.</p>
+<pre><code class="language-text">[1] Partition2 16:06:52&gt; fls &quot;Python27&quot;
+-----------------------&gt; fls(&quot;Python27&quot;)
+   MFT      Seq           Created                  File Mod                   MFT Mod                   Access              Size    Filename
+---------- ----- ------------------------- ------------------------- ------------------------- ------------------------- ---------- --------
+    213703    19 2013-12-28 19:37:46+0000  2013-12-28 19:37:47+0000  2013-12-28 19:37:47+0000  2013-12-28 19:37:46+0000        1315 distorm3-wininst.log
+    213703    19 2013-12-28 19:37:46+0000  2013-12-28 19:37:47+0000  2013-12-28 19:37:47+0000  2013-12-28 19:37:46+0000        1315 DISTOR~1.LOG
+     91798     1 2013-02-19 18:59:11+0000  2013-12-28 17:23:18+0000  2013-12-28 17:23:18+0000  2013-12-28 17:23:18+0000           0 DLLs
+     94581     1 2013-02-19 18:59:34+0000  2013-02-19 18:59:34+0000  2013-02-19 18:59:34+0000  2013-02-19 18:59:34+0000           0 Doc
+     92031     1 2013-02-19 18:59:15+0000  2014-10-03 00:01:56+0000  2014-10-03 00:01:56+0000  2014-10-03 00:01:56+0000           0 include
+     89201     1 2013-02-19 18:58:47+0000  2014-10-31 21:17:03+0000  2014-10-31 21:17:03+0000  2014-10-31 21:17:03+0000           0 Lib
+     92334     1 2013-02-19 18:59:18+0000  2013-02-19 18:59:18+0000  2013-02-19 18:59:18+0000  2013-02-19 18:59:18+0000           0 libs
+     89063     1 2012-04-10 22:31:16+0000  2012-04-10 22:31:16+0000  2013-02-19 18:58:44+0000  2013-02-19 18:58:44+0000       40092 LICENSE.txt
+    127389     7 2013-05-30 13:01:27+0000  2013-05-30 13:01:29+0000  2013-05-30 13:01:29+0000  2013-05-30 13:01:27+0000        9973 M2Crypto-wininst.log
+    127389     7 2013-05-30 13:01:27+0000  2013-05-30 13:01:29+0000  2013-05-30 13:01:29+0000  2013-05-30 13:01:27+0000        9973 M2CRYP~1.LOG
+     89035     1 2012-04-10 22:18:52+0000  2012-04-10 22:18:52+0000  2013-02-19 18:58:44+0000  2013-02-19 18:58:44+0000      310875 NEWS.txt
+    129217     7 2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000        2645 psutil-wininst.log
+    129217     7 2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000        2645 PSUTIL~1.LOG
+      1267     8 2014-08-27 22:34:33+0000  2014-08-27 22:34:36+0000  2014-08-27 22:34:36+0000  2014-08-27 22:34:36+0000           0 PyInstaller-2.1
+      1267     8 2014-08-27 22:34:33+0000  2014-08-27 22:34:36+0000  2014-08-27 22:34:36+0000  2014-08-27 22:34:36+0000           0 PYINST~1.1
+     89064     1 2012-04-10 22:24:54+0000  2012-04-10 22:24:54+0000  2013-02-19 18:58:44+0000  2013-02-19 18:58:44+0000       27136 python.exe
+     89065     1 2012-04-10 22:24:58+0000  2012-04-10 22:24:58+0000  2013-02-19 18:58:44+0000  2013-02-19 18:58:44+0000       27648 pythonw.exe
+    116396     2 2013-02-19 19:45:14+0000  2013-02-19 23:42:49+0000  2013-02-19 23:42:49+0000  2013-02-19 19:45:14+0000      238566 pywin32-wininst.log
+    116396     2 2013-02-19 19:45:14+0000  2013-02-19 23:42:49+0000  2013-02-19 23:42:49+0000  2013-02-19 19:45:14+0000      238566 PYWIN3~1.LOG
+     89009     2 2012-03-18 22:58:32+0000  2013-05-30 13:36:32+0000  2013-05-30 13:36:32+0000  2013-05-30 13:36:32+0000        2797 readme.txt
+    213706    13 2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000      223744 Removedistorm3.exe
+    127390     5 2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000      223744 RemoveM2Crypto.exe
+    129218     5 2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000      223744 Removepsutil.exe
+    116397     2 2013-02-19 19:45:14+0000  2013-02-19 23:42:21+0000  2013-02-19 23:42:21+0000  2013-02-19 19:45:14+0000      223744 Removepywin32.exe
+    116397     2 2013-02-19 19:45:14+0000  2013-02-19 23:42:21+0000  2013-02-19 23:42:21+0000  2013-02-19 19:45:14+0000      223744 REMOVE~1.EXE
+    127390     5 2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000  2013-05-30 13:01:27+0000      223744 REMOVE~2.EXE
+    129218     5 2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000  2013-05-30 13:02:47+0000      223744 REMOVE~3.EXE
+    213706    13 2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000  2013-12-28 19:37:46+0000      223744 REMOVE~4.EXE
+    117061     1 2013-02-19 19:45:15+0000  2014-08-27 23:48:19+0000  2014-08-27 23:48:19+0000  2014-08-27 23:48:19+0000           0 Scripts
+    233676    26 2014-02-19 22:43:58+0000  2014-02-19 22:43:58+0000  2014-02-19 22:43:58+0000  2014-02-19 22:43:58+0000           0 share
+     92364     1 2013-02-19 18:59:18+0000  2013-02-19 18:59:33+0000  2013-02-19 18:59:33+0000  2013-02-19 18:59:33+0000           0 tcl
+     94437     1 2013-02-19 18:59:33+0000  2013-02-19 18:59:34+0000  2013-02-19 18:59:34+0000  2013-02-19 18:59:34+0000           0 Tools
+</code></pre>
+<p>Similarly <code>fstat</code> is analogous to <code>istat</code> except takes a filename as an
+argument.</p>
+<p>Rekall supports NTFS compressed files too. Consider the following file:</p>
+<pre><code class="language-text">[1] Partition2 16:06:54&gt; istat 89063
+MFT Entry Header Values:
+Entry: 89063        Sequence: 1
+$LogFile Sequence Number: 12520239903
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags                          ARCHIVE, COMPRESSED
+Owner ID                       0
+SID                            713
+Created                        2012-04-10 22:31:16+0000
+File Modified                  2012-04-10 22:31:16+0000
+MFT Modified                   2013-02-19 18:58:44+0000
+Accessed                       2013-02-19 18:58:44+0000
+
+Attributes:
+     Inode                   Type                 Name     Res     Size    Comment
+--------------- ------------------------------ ---------- ----- ---------- -------
+     89063-16-0 $STANDARD_INFORMATION                     True          72
+     89063-48-2 $FILE_NAME                                True          88 LICENSE.txt
+    89063-128-3 $DATA                                     False      40092 VCN: 0-15
+
+Clusters (128-3):
+3456320-3456326(6)        Sparse(10)
+</code></pre>
+<p>NTFS compression works by compressing every 16 clusters together, and
+inserting a sparse cluster to cover the compressed region. We can see
+this in the above cluster listing.</p>
+<p>Rekall provides the <code>idump</code> plugin which is analogous to the
+regular <code>dump</code> plugin, and displays a hexdump of the MTF entry.</p>
+<pre><code class="language-text">[1] Partition2 16:06:56&gt; idump 89063
+    Offset                           Hex                              Data
+-------------- ------------------------------------------------ ----------------
+           0x0 41 2e 20 48 49 53 54 4f 52 59 20 4f 46 20 54 48  A..HISTORY.OF.TH -
+          0x10 45 20 53 4f 46 54 57 41 52 45 0d 0a 3d 3d 3d 3d  E.SOFTWARE..==== -
+          0x20 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d  ================ -
+          0x30 3d 3d 3d 3d 3d 3d 0d 0a 0d 0a 50 79 74 68 6f 6e  ======....Python -
+          0x40 20 77 61 73 20 63 72 65 61 74 65 64 20 69 6e 20  .was.created.in. -
+          0x50 74 68 65 20 65 61 72 6c 79 20 31 39 39 30 73 20  the.early.1990s. -
+          0x60 62 79 20 47 75 69 64 6f 20 76 61 6e 20 52 6f 73  by.Guido.van.Ros -
+          0x70 73 75 6d 20 61 74 20 53 74 69 63 68 74 69 6e 67  sum.at.Stichting -
+          0x80 0d 0a 4d 61 74 68 65 6d 61 74 69 73 63 68 20 43  ..Mathematisch.C -
+          0x90 65 6e 74 72 75 6d 20 28 43 57 49 2c 20 73 65 65  entrum.(CWI,.see -
+</code></pre>
+<p>If you want to copy a file out of the NTFS filesystem, use
+the <code>iexport</code> plugin.</p>
+<pre><code class="language-text">[1] Partition2 16:50:46&gt; iexport 89063, dump_dir=&quot;/tmp/&quot;
+Writing MFT Entry 89063 as Python27/LICENSE.txt
+[1] Partition2 16:51:11&gt; !head /tmp/Python27%2fLICENSE.txt
+A. HISTORY OF THE SOFTWARE
+==========================
+
+Python was created in the early 1990s by Guido van Rossum at Stichting
+Mathematisch Centrum (CWI, see http://www.cwi.nl) in the Netherlands
+as a successor of a language called ABC.  Guido remains Python's
+principal author, although it includes many contributions from others.
+
+In 1995, Guido continued his work on Python at the Corporation for
+National Research Initiatives (CNRI, see http://www.cnri.reston.va.us)
+</code></pre>
+<h3 id="2-rekalls-ntfs-implementation-notes">2. Rekall's NTFS implementation notes</h3>
+<p>This section is intended for Rekall developers who want to learn a bit
+about how Rekall's NTFS implementation uses some of the common features
+in the Rekall API.</p>
+<h4 id="21-autodetection-of-ntfs">2.1. Autodetection of NTFS</h4>
+<p>To make Rekall as easy to use as possible, we use autodetection as much
+as we can. Ideally a user should simply provide the image file, and
+Rekall will detect the image format and the profile required. To support
+this, Rekall has an autodetection plugin system. A detector class simply
+registers by extending <code>guess_profile.DetectionMethod</code>:</p>
+<pre><code class="language-python">class NTFSDetector(guess_profile.DetectionMethod):
+    name = &quot;ntfs&quot;
+
+    def Offsets(self):
+        return [0]
+
+    def DetectFromHit(self, hit, _, address_space):
+        ntfs_profile = self.session.LoadProfile(&quot;ntfs&quot;)
+        try:
+            ntfs = NTFS(address_space=address_space, session=self.session)
+            self.session.SetParameter(&quot;ntfs&quot;, ntfs)
+
+            return ntfs_profile
+        except NTFSParseError:
+            return
+</code></pre>
+<p>The detector can provide a string on which to fire, or a list of offsets
+to check in its Offsets() method. The framework will then call it when a
+hit is found.</p>
+<h4 id="22-implementing-fixups">2.2. Implementing Fixups</h4>
+<p>One of the more interesting features of NTFS is the use of Fixups. When
+the NTFS writes to disk certain data structures, it replaces some bytes
+in the cluster with a random sequence. It then stores the bytes that
+used to be there as fixups in a list. When NTFS reads the cluster from
+disk it applies the fixups to get the original data.</p>
+<p>This means that we can not simply read clusters from the disk - we must
+apply the relevant fixups. In Rekall we have an <code>Address
+Space</code> abstraction to read data. Address Spaces typically layer on top
+of other address spaces. Hence we can implement
+the <code>FixupAddressSpace</code> so it can be layered on top of another address
+space:</p>
+<pre><code class="language-python">class FixupAddressSpace(addrspace.BaseAddressSpace):
+    &quot;&quot;&quot;An address space to implement record fixup.&quot;&quot;&quot;
+
+    def __init__(self, fixup_magic, fixup_table, base_offset, length, **kwargs):
+        super(FixupAddressSpace, self).__init__(**kwargs)
+        self.as_assert(self.base is not None, &quot;Address space must be stacked.&quot;)
+        self.base_offset = base_offset
+        self.fixup_table = fixup_table
+        self.fixup_magic = fixup_magic
+
+        # We read the entire region into a mutable buffer then apply the fixups.
+        self.buffer = array.array(&quot;c&quot;, self.base.read(base_offset, length))
+        for i, fixup_value in enumerate(fixup_table):
+            fixup_offset = (i+1) * 512 - 2
+            if (self.buffer[fixup_offset:fixup_offset+2].tostring() !=
+                    fixup_magic.v()):
+                raise NTFSParseError(&quot;Fixup error&quot;)
+
+            self.buffer[fixup_offset:fixup_offset+2] = array.array(
+                &quot;c&quot;, fixup_value.v())
+
+    def read(self, address, length):
+        buffer_offset = address - self.base_offset
+        return self.buffer[buffer_offset:buffer_offset+length].tostring()
+</code></pre>
+<p>We can then apply the fixup to arbitary structures. The below code will
+automatically apply the fixup every time we instantiate
+an <code>MFT_ENTRY</code> struct. Therefore the fixups become completely
+transparent now:</p>
+<pre><code class="language-python">class MFT_ENTRY(obj.Struct):
+    def __init__(self, **kwargs):
+        super(MFT_ENTRY, self).__init__(**kwargs)
+
+        # We implement fixup by wrapping the base address space with a fixed
+        # one:
+        self.obj_vm = FixupAddressSpace(fixup_magic=self.fixup_magic,
+                                        fixup_table=self.fixup_table,
+                                        base_offset=self.obj_offset,
+                                        length=self.mft_entry_allocated,
+                                        base=self.obj_vm)
+</code></pre>
+<h4 id="23-runlists">2.3. Runlists</h4>
+<p>NTFS attributes can be fragmented. The actual blocks they occupy on disk
+are described using a run list. Rekall already has an address space
+primitive called a <code>RunBasedAddressSpace</code>. This type of address space is
+simply initialized with a list of runs specifying tuples of the form
+(file address, disk address length), and then layered on top of the
+Physical Address Space (i.e. the disk image).</p>
+<p>Supporting compressed files makes the implementation slightly more
+complex, but in general all one has to do is derive an address space
+from the <code>RunBasedAddressSpace</code> and in the constructor populate
+the <code>self.runs</code> collection. The following shows the simplified
+implementation ignoring compression.</p>
+<pre><code class="language-python">class RunListAddressSpace(addrspace.RunBasedAddressSpace):
+    &quot;&quot;&quot;An address space which is initialized from a runlist.&quot;&quot;&quot;
+
+    def __init__(self, run_list, cluster_size=None, size=0, **kwargs):
+        super(RunListAddressSpace, self).__init__(**kwargs)
+        self.PAGE_SIZE = cluster_size or self.session.cluster_size
+        self.compression_unit_size = 16 * self.PAGE_SIZE
+        self._end = size
+
+        # In clusters.
+        file_offset = 0
+        for range_start, range_length in run_list:
+            self._store_run(
+                file_offset, range_start, uncompressed_range_length)
+
+    def _store_run(self, file_offset, range_start, length):
+        &quot;&quot;&quot;Store a new run with all items given in self.PAGE_SIZE.&quot;&quot;&quot;
+        self.runs.insert(
+            [file_offset * self.PAGE_SIZE,
+             range_start * self.PAGE_SIZE,
+             length * self.PAGE_SIZE,
+             False])
+...
+</code></pre>
+<p>Once the mapping is defined, the address space takes care of efficiently
+locating and using the correct run for arbitrary read operations.</p>
+<h4 id="24-further-abstractions">2.4. Further abstractions</h4>
+<p>Rekall uses <code>rekall.obj.Struct</code> classes to represent arbitrary structs
+in memory. There is a mechanism to extend these and provide methods for
+these structs. The methods can be used to define a kind of API for
+accessing other data. For example, we can attach convenience methods to
+an <code>MFT_ENTRY</code>:</p>
+<pre><code class="language-python">class MFT_ENTRY(obj.Struct):
+
+    @property
+    def attributes(self):
+        &quot;&quot;&quot;Iterate over all attributes, even ones in $ATTRIBUTE_LIST.&quot;&quot;&quot;
+        seen = set()
+
+        for attribute in self._attributes:
+            if attribute.type == 0xFFFFFFFF:
+                break
+
+            if attribute in seen:
+                continue
+
+            seen.add(attribute)
+            yield attribute
+
+            if attribute.type == &quot;$ATTRIBUTE_LIST&quot;:
+                for sub_attr in attribute.DecodeAttribute():
+                    if sub_attr.mftReference == self.mft_entry:
+                        continue
+
+                    result = sub_attr.attribute
+                    if result in seen:
+                        continue
+
+                    yield result
+
+    def open_file(self):
+        &quot;&quot;&quot;Returns an address space which maps the content of the file's data.
+
+        If this MFT does not contain any $DATA streams, returns a NoneObject().
+
+        The returned address space is formed by joining all $DATA streams' run
+        lists in this MFT into a contiguous mapping.
+        &quot;&quot;&quot;
+        ....
+
+    def list_files(self):
+        &quot;&quot;&quot;List the files contained in this directory.
+
+        Note that any file can contain other files (i.e. be a directory) if it
+        has an $I30 stream. Thats is directories may also contain data and
+        behave as files!
+
+        Returns:
+          An iterator over all INDEX_RECORD_ENTRY.
+        &quot;&quot;&quot;
+        ...
+</code></pre>
+<p>The above is a sample of some of the convenience methods attached to
+the <code>MFT_ENTRY</code>. The first combines the attributes defined within the
+MFT with those defined inside the <code>$ATTRIBUTE_LIST</code>attribute (Typically
+an MFT will start with some built in attributes until it runs out of
+room, then it will move some attributes to
+an <code>$ATTRIBUTE_LIST</code> attribute which is non resident. But this is an
+implementation detail of the MFT and should really be abstracted.</p>
+<p>Similarly we have the <code>list_files()</code> method which simply finds
+the <code>$INDEX_ROOT</code> and <code>$INDEX_ALLOCATION</code> attributes and enumerates all
+entries within.</p>
+<p>Similarly file data can be stored in multiple <code>$DATA</code> attributes (with
+different VCN ranges). Its a bit tedious to combine
+these <code>$DATA</code> attributes and so we have the <code>open_file()</code> convenience
+method to return a suitable address space over the file.</p>
+<h3 id="3-using-the-ntfs-api">3. Using the NTFS API</h3>
+<p>Using these method it is easy to use the API to open and read arbitrary
+MFT entries:</p>
+<pre><code class="language-bash">$ rekal -f /tmp/mnt/Partition2
+ ----------------------------------------------------------------------------
+The Rekall Memory Forensic framework 1.2.0 (Col de la Croix).
+
+&quot;We can remember it for you wholesale!&quot;
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License.
+
+See http://www.rekall-forensic.com/docs/Manual/tutorial.html to get started.
+ ----------------------------------------------------------------------------
+# This gets a reference to the ntfs object which represents the filesystem.
+[1] Partition2 19:28:33&gt; ntfs = session.GetParameter(&quot;ntfs&quot;)
+
+# The NTFS object contains a reference to the MFT
+[1] Partition2 19:28:38&gt; mft = ntfs.mft[89035]
+
+# Which is just an array of MFT_ENTRY structs
+[1] Partition2 19:28:40&gt; print mft
+[MFT_ENTRY Array[89035] ] @ 0x056F2C00
+  0x00 magic                    [String:magic]: 'FILE'
+  0x04 fixup_offset             [unsigned short:fixup_offset]: 0x00000030
+  0x06 fixup_count              [unsigned short:fixup_count]: 0x00000003
+  0x08 logfile_sequence_number  [unsigned long long:logfile_sequence_number]: 0x2C601977B
+  0x10 sequence_value           [unsigned short:sequence_value]: 0x00000001
+  0x12 link_count               [unsigned short:link_count]: 0x00000001
+  0x14 attribute_offset         [unsigned short:attribute_offset]: 0x00000038
+  0x16 flags                    [Flags:flags]: 0x00000001 (ALLOCATED)
+  0x18 mft_entry_size           [unsigned short:mft_entry_size]: 0x00000178
+  0x1C mft_entry_allocated      [unsigned short:mft_entry_allocated]: 0x00000400
+  0x20 base_record_reference    [unsigned long long:base_record_reference]: 0x00000000
+  0x28 next_attribute_id        [unsigned short:next_attribute_id]: 0x00000004
+  0x30 fixup_magic              [String:fixup_magic]: '\x0f\x00'
+  0x32 fixup_table
+  0x38 _attributes
+
+# We use the convenience method to open the file, returning a suitable address space.
+[1] Partition2 19:28:41&gt; fd = mft.open_file()
+
+# We can just read the address space.
+[1] Partition2 19:28:45&gt; fd.read(0, 20)
+                  Out  &gt; 'Python News\r\n+++++++'
+</code></pre>
+<p>We can also list files in a directory:</p>
+<pre><code class="language-text">[1] Partition2 19:38:00&gt; for record in ntfs.mft[5].list_files():
+                    |..&gt;         print record.file.name
+$AttrDef
+$BadClus
+$Bitmap
+$Boot
+$Extend
+$LogFile
+$MFT
+$MFTMirr
+$Recycle.Bin
+$Secure
+$UpCase
+$Volume
+.
+Config.Msi
+cygwin
+Documents and Settings
+MinGW
+pagefile.sys
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+PROGRA~1
+PROGRA~2
+PROGRA~3
+Python27
+Python27.32
+Recovery
+rekall-profiles
+REKALL~1
+System Volume Information
+SYSTEM~1
+Users
+websymbols
+WEBSYM~1
+WinDDK
+Windows
+[1] Partition2 19:38:16&gt; print record
+[INDEX_RECORD_ENTRY ListArray[20] ] @ 0x00001890
+  0x00 mftReference      [BitField(0-48):mftReference]: 0x0000026B
+  0x06 seq_num           [short int:seq_num]: 0x00000001
+  0x08 sizeOfIndexEntry  [unsigned short:sizeOfIndexEntry]: 0x00000060
+  0x0A filenameOffset    [unsigned short:filenameOffset]: 0x00000050
+  0x0C flags             [unsigned int:flags]: 0x00000000
+  0x10 file             [FILE_NAME file] @ 0x000018A0
+
+[1] Partition2 19:38:18&gt; print record.file
+[FILE_NAME file] @ 0x000018A0
+  0x00 mftReference     [BitField(0-48):mftReference]: 0x00000005
+  0x06 seq_num          [short int:seq_num]: 0x00000005
+  0x08 created          [WinFileTime:created]: 0x4A5BF968 (2009-07-14 03:20:08+0000)
+  0x10 file_modified    [WinFileTime:file_modified]: 0x5446EF40 (2014-10-21 23:41:52+0000)
+  0x18 mft_modified     [WinFileTime:mft_modified]: 0x5446EF40 (2014-10-21 23:41:52+0000)
+  0x20 file_accessed    [WinFileTime:file_accessed]: 0x5446EF40 (2014-10-21 23:41:52+0000)
+  0x28 allocated_size   [unsigned long long:allocated_size]: 0x00000000
+  0x30 size             [unsigned long long:size]: 0x00000000
+  0x38 flags            [Flags:flags]: 0x10000800 ()
+  0x3C reparse_value    [unsigned int:reparse_value]: 0x00000000
+  0x40 _length_of_name  [byte:_length_of_name]: 0x00000007
+  0x41 name_type        [Enumeration:name_type]: 0x00000000 (POSIX)
+  0x42 name             [UnicodeString:name]: u'Windows' (Windows)
+</code></pre>
+<p>Note that iterating over the index produces a list
+of <code>INDEX_RECORD_ENTRY</code> structs which also contain <code>FILE_NAME</code> structs
+within them. The <code>FILE_NAME</code> structs contain the 4 NTFS timestamps quite
+independently from the timestamps stored in the actual MFT for the file
+itself (This <code>FILE_NAME</code> struct came from the directory index), this can
+be forensically significant.</p>
+<p>The next example shows how to get the <code>$STANDARD_INFORMATION</code> record for
+each file:</p>
+<pre><code class="language-text">[1] Partition2 19:56:32&gt; x=ntfs.mft[89035].get_attribute(&quot;$STANDARD_INFORMATION&quot;)
+[1] Partition2 19:57:01&gt; print x.DecodeAttribute()
+[STANDARD_INFORMATION STANDARD_INFORMATION] @ 0x00000000
+  0x00 create_time         [WinFileTime:create_time]: 0x4F84B1CC (2012-04-10 22:18:52+0000)
+  0x08 file_altered_time   [WinFileTime:file_altered_time]: 0x4F84B1CC (2012-04-10 22:18:52+0000)
+  0x10 mft_altered_time    [WinFileTime:mft_altered_time]: 0x5123CB64 (2013-02-19 18:58:44+0000)
+  0x18 file_accessed_time  [WinFileTime:file_accessed_time]: 0x5123CB64 (2013-02-19 18:58:44+0000)
+  0x20 flags               [Flags:flags]: 0x00000820 (ARCHIVE, COMPRESSED)
+  0x24 max_versions        [unsigned int:max_versions]: 0x00000000
+  0x28 version             [unsigned int:version]: 0x00000000
+  0x2C class_id            [unsigned int:class_id]: 0x00000000
+  0x30 owner_id            [unsigned int:owner_id]: 0x00000000
+  0x34 sid                 [unsigned int:sid]: 0x000002C9
+  0x38 quota               [unsigned long long:quota]: 0x00000000
+  0x40 usn                 [unsigned int:usn]: 0xC54A40B8
+</code></pre>
+<h3 id="4-conclusions">4. Conclusions</h3>
+<p>Although the NTFS support in Rekall is still pretty immature we want to
+make it better and more useful. For a relatively complex filesystem,
+such as NTFS, the Rekall implementation is pretty small, coming in at
+around 1000 lines of code (not including the implementation for lznt1 - the
+NTFS compression algorithm. Additional lines are for plugins etc). It
+should be possible to support additional filesystems as well. We also
+want to write more interesting plugins, please let us know any ideas for
+a good NTFS plugin :-)</p>
+<p>Performance is pretty good. One thing you should notice is that Rekall
+starts up pretty fast since it does not scan the MFT like TSK does. Of
+course this means that Rekall cant find orphaned files like TSK does!
+Rekall also does not have a cache of the MFT - making it suitable to
+operate on a changing live filesystem.</p>
+<p>Reading compressed files is currently pretty slow since
+the <code>lznt1</code> compression algorithm is implemented in pure Python. This
+could be easily accelerated with a C implementation in future.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
