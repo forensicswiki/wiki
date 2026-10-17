@@ -188,6 +188,6 @@ inaccessibility.
 * MVCOM
 * [MailXaminer](mailxaminer.md)
 * [Outlook PST Viewer](systools.md#outlook-pst-viewer)
-* [Pst file viewer](pst_file_viewer.md)
+* [Pst file viewer](sysinfotools_software.md#pst-file-viewer)
 * PST Scanner
 * Windows Messaging
