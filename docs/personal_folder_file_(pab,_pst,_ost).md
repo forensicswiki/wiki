@@ -181,7 +181,7 @@ inaccessibility.
 * [libpff](libpff.md)
 * [libpst](libpst.md)
 * [Bitrecover: Free PST Email Viewer](bitrecover.md#free-pst-email-viewer)
-* [Datahelp](datahelp.md) Free OST and PST File Viewer
+* [Datahelp: Free OST and PST File Viewer](datahelp.md)
 * [MailXaminer](mailxaminer.md)
-* [Outlook PST Viewer](systools.md#outlook-pst-viewer)
-* [Pst file viewer](pst_file_viewer.md)
+* [SysInfoTools: Pst file viewer](sysinfotools_software.md#pst-file-viewer)
+* [SysTools: Outlook PST Viewer](systools.md#outlook-pst-viewer)
