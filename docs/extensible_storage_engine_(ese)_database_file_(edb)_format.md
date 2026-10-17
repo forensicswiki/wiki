@@ -115,14 +115,10 @@ such as:
 * [Free EDB Viewer](https://datahelp.in/edb/viewer.html)
 * [libesedb](libesedb.md)
 * [Logpresso Mini](https://github.com/logpresso/community)
-* [Systools ESE Database Viewer](systools.md)
+* [Systools](systools.md) ESE Database Viewer and Exchange EDB Viewer
 
 Tools that are provided with the ESE engine:
 
-* **eseutil** (comes with [Microsoft Exchange Server](microsoft_exchange_server.md)
-  or **esentutl** (comes with a [Windows NT](windows.md) variant which has the
-  ESE engine)
-
-### Exchange
-
-* [Exchange EDB Viewer](systools.md#exchange-edb-viewer)
+**eseutil** (comes with [Microsoft Exchange Server](microsoft_exchange_server.md)
+or **esentutl** (comes with a [Windows NT](windows.md) variant which has the
+ESE engine)
