@@ -48,12 +48,14 @@ Arsenal Recon Weapons by [Arsenal Recon](arsenal_recon.md) offers unique and
 powerful tools to mount Windows disk images, reconstruct Windows Registry and
 process Windows hibernation files.
 
-[Belkasoft Acquisition Tool (BAT)](belkasoft.md) is a free utility to acquire a
+[Belkasoft Acquisition Tool (BAT)](belkasoft.md#belkasoft-acquisition-tool-belkaimager)
+is a free utility to acquire a
 wide range of data sources: hard drives, running computers RAM memory, modern
 smartphones, and various types of clouds. The output can be analyzed with both
 Belkasoft and third-party tools.
 
-[Belkasoft Evidence Center (BEC)](belkasoft.md) allows an investigator to
+[Belkasoft Evidence Center (BEC)](belkasoft.md#belkasoft-evidence-center)
+allows an investigator to
 perform all investigation steps: acquisition (acquire hard and removable drives,
 image smartphones and download cloud data), extraction of evidence (searches
 and carves more than 700 formats of various files and applications data),
@@ -288,7 +290,7 @@ See: [Forensics Live CDs](live_cd.md)
 
 ### Cell Phone Forensics
 
-* [Belkasoft Evidence Center](https://belkasoft.com/x)
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 * [BitPIM](bitpim.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
 * [DataPilot Secure View](datapilot_secure_view.md)

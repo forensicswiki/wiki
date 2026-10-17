@@ -39,6 +39,7 @@ you parse them.
   toolkit to identify and clone full profiles; including wall posts,
   private messages, uploaded photos/tags, group details, graphically
   illustrate friend links, and generate expert reports.
-* [Belkasoft Evidence Center](https://belkasoft.com/) allows for carving
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
+  allows for carving
   Facebook data such as chats, wall posts and photos from Live RAM
   dumps, hibernation and pagefiles.

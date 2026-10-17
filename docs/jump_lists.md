@@ -97,7 +97,7 @@ binary format segments.
 
 ## Tools
 
-* [Belkasoft Evidence Center](belkasoft_evidence_center.md). One
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center). One
   of functions of this tool is search (including carving) and analysis
   of jumplists. A wide list of applications is supported (Jump list
   IDs).

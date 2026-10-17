@@ -396,13 +396,11 @@ Also supports fragmented carving using
 [SmartCarving](file_carving_smartcarving.md) and
 [GuidedCarving](file_carving_guidedcarving.md).
 
-* [Belkasoft Evidence Center](https://belkasoft.com/x)
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 
-[Belkasoft Evidence Center](belkasoft.md) supports data carving
-for hundreds of forensically important artifacts, such as documents,
-emails, chats, browser histories, system files (registries, event logs,
-jumplists, thumbnails), etc. Smart carving helps defragment data inside
-Live RAM dumps.
+Belkasoft Evidence Center supports data carving for hundreds of forensically important artifacts,
+such as documents, emails, chats, browser histories, system files (registries, event logs,
+jumplists, thumbnails), etc. Smart carving helps defragment data inside Live RAM captures.
 
 * [Digital Detective Blade](https://www.digital-detective.net/digital-forensic-software/blade-forensic-data-recovery/blade-feature-comparison/)
 

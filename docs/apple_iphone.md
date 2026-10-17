@@ -19,7 +19,7 @@ Store does not allow in any application it distributes).
 
 ## Tools
 
-* [Belkasoft Evidence Center](https://belkasoft.com/x)
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
   by [Belkasoft](belkasoft.md) can make iPhone logical acquisition and analyze
   iOS backups and dumps.
 * Cellebrite BlackBag Technology Mobilyze

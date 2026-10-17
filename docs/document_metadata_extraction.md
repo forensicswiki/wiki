@@ -8,7 +8,7 @@ Here are tools that will extract metadata from document files.
 
 [antiword](https://en.wikipedia.org/wiki/Antiword)
 
-[Belkasoft](belkasoft.md) Evidence Center
+[Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 
 Extracts metadata from various [Microsoft](microsoft.md) Office
 files (both 97-2003 and 2007-2013 formats), as well as Open Office
@@ -31,7 +31,7 @@ More than 100 file types.
 
 ### PDF Files
 
-[Belkasoft](belkasoft.md) Evidence Center
+[Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 
 Extracts metadata from [PDF](pdf.md) files. Besides, can extract
 texts and embedded objects. For pictures, embedded into a PDF document,
@@ -44,7 +44,7 @@ package) displays some metadata of [PDF](pdf.md) files.
 
 ### Images
 
-[Belkasoft](belkasoft.md) Evidence Center
+[Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 
 Extracts [EXIF](exif.md) metadata from [JPEG](jpeg.md)
 files as well as many digital camera raw files. The tool allows a user

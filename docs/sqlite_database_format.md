@@ -74,7 +74,7 @@ and credentials are all stored in SQLite3.
 
 * [Forensic Toolkit for SQLite](forensic_toolkit_for_sqlite.md)
 * [SQLite Forensics Explorer](https://www.acquireforensics.com/products/sqlite-forensic-explorer/)
-* [Belkasoft Evidence Center](belkasoft.md)
+* [Belkasoft Evidence Center](belkasoft.md#belkasoft-evidence-center)
 * [SQLite](sqlite.md)
 * [SQLite Recovery](sqlite_recovery.md)
 * [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
