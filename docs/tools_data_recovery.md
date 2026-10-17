@@ -155,12 +155,7 @@ recover files from FAT12/16/32 and NTFS file systems.
 Claims to have a program that can read the "bad blocks" of Maxtor drives
 with proprietary commands.
 
-* [SysInfoTools Data Recovery](https://www.sysinfotools.com/recovery/windows-data-recovery.php)
-
-[SysInfoTools Software](sysinfotools_software.md) provides best
-Windows Data Recovery tool to recover all types of data and files from
-both internal and external hard drive containing FAT and NTFS file
-systems.
+* [Windows Data Recovery](sysinfotools_software.md#windows-data-recovery)
 
 * [MiniTool Data Recovery](minitool_data_recovery.md)
 
@@ -192,18 +187,9 @@ to search for deleted files and folders etc.
 RecoverBits Partition Data Recovery software helps you recover data from
 lost, deleted or damaged partitions from drives on Windows OS.
 
-* [FAT Recovery](https://www.sysinfotools.com/recovery/fat-recovery.php)
+* [FAT Recovery](sysinfotools_software.md#fat-recovery)
 
-[SysInfoTools Software](sysinfotools_software.md) FAT Partition
-Recovery tool can restore everything from the FAT (all variants)
-partitions. It can successfully restore all types of data and files
-which you've lost due to accidental deletion/formatting and corruption.
-
-* [NTFS Recovery](https://www.sysinfotools.com/recovery/ntfs-recovery.php)
-
-[SysInfoTools Software](sysinfotools_software.md) NTFS Partition
-Recovery tool can restore files, folders, photos, videos, office
-documents and much more from NTFS partitions.
+* [NTFS Recovery](sysinfotools_software.md#ntfs-recovery)
 
 * [NTFS Partition Recovery](https://www.stellarinfo.com/ntfs-data-recovery.php?_route_=recover-windows-nt.htm)
 
@@ -325,11 +311,7 @@ definitions and extracts matching files from a set of image files or raw
 device files. Scalpel is filesystem-independent and will carve files
 from FATx, NTFS, ext2/3, or raw partitions.
 
-* [Photo Recovery](https://www.sysinfotools.com/recovery/photo-recovery.php)
-
-SysInfotool Photo Recovery tool can recover lost and deleted images,
-pictures and photos of digital camera. Also, it supports recovery of
-audio files and video files.
+* [Photo Recovery](sysinfotools_software.md#photo-recovery)
 
 * [EnCase](encase.md)
 
