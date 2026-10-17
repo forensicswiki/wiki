@@ -28,8 +28,6 @@ performance of C
   developed at INRA.
 * [JGraphT](https://jgrapht.org/) - A Java visualization kit
   designed to be simple and extensible.
-* [Perfuse](https://blokt.com/) - A Java-based toolkit for
-  building interactive information visualization applications
 * [VisAD](https://www.ssec.wisc.edu/~billh/visad.html#intro) - A Java
   component library for interactive and collaborative visualization.
 * [Linguine Maps](https://github.com/psimakov/linguine-maps) -
@@ -161,5 +159,12 @@ Most of the following applications can be used to do visualization.
 * [GNU Free Software directory: Category/Science/scientific-visualization](https://directory.fsf.org/wiki/Category/Science/scientific-visualization)
 * [INSNA's web page of Computer Programs for Social Network Analysis](https://www.insna.org/)
 * [Omnigator](https://ontopia.net/omnigator/models/index.jsp)
-* [VisANT](https://visant-new.bu.edu/visant/visantnet.html)
 * [TouchGraph](https://sourceforge.net/projects/touchgraph/)
+
+Discontinued tools:
+
+* [Perfuse](https://blokt.com/) - A Java-based toolkit for building
+  interactive information visualization applications. Discontinued; the
+  project's site no longer exists.
+* [VisANT](https://visant-new.bu.edu/visant/visantnet.html) - Discontinued;
+  the project site no longer resolves.

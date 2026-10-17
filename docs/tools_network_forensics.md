@@ -24,10 +24,6 @@ connections.
 
 [cryptcat](https://farm9.org/Cryptcat/)
 
-[Enterasys Dragon](https://www.extremenetworks.com/)
-
-Intrusion Detection System, includes session reconstruction.
-
 [MNIS Collector](https://www.mantaro.com)
 MNIS Collector is an IPFIX collector which also supports legacy Netflow.
 It was designed to be used with the MNIS Exporter, which is a Deep
@@ -92,7 +88,7 @@ audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
 Name Server Lookup command line tool used to find IP address from domain
 name.
 
-[Sguil](http://bammv.github.io/sguil/index.html)
+[Sguil](https://github.com/bammv/sguil)
 
 [Snort](snort.md)
 
@@ -103,10 +99,6 @@ name.
 [tcpxtract](tcpxtract.md)
 
 [tcpflow](tcpflow.md)
-
-[truewitness](http://www.nature-soft.com/forensic.html)
-
-Linux/open-source. Based in India.
 
 [OmniPeek](omnipeek.md) by WildPackets
 
@@ -250,3 +242,15 @@ udpcast - includes UDP-receiver and UDP-sender
 ### TCP Layer
 
 [Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP tracing
+
+Discontinued tools:
+
+[Enterasys Dragon](https://www.extremenetworks.com/)
+
+Intrusion Detection System, includes session reconstruction.
+Discontinued; the product is no longer offered.
+
+[truewitness](http://www.nature-soft.com/forensic.html)
+
+Linux/open-source. Based in India. Discontinued; the vendor site no
+longer resolves.
