@@ -154,10 +154,10 @@ inaccessibility.
 
 | Outlook Version | Windows Version | OST Location |
 | --- | --- | --- |
-| Windows XP | Outlook 2000/2003/2007 | C:\Documents and Settings\\%username%\Local Settings\Application Data\Microsoft\Outlook\\ |
-| Windows Vista/7/8 | Outlook 2007 | C:\Users\\%username%\AppData\Local\Microsoft\Outlook\\ |
-| Windows XP | Outlook 2010 | C:\Documents and Settings\\%username%\My Documents\Outlook Files |
-| Windows Vista/7/8 | Outlook 2010/2013 | C:\Users\\%username%\Documents\Outlook Files |
+| Windows XP | Outlook 2000/2003/2007 | C:\Documents and Settings\%username%\Local Settings\Application Data\Microsoft\Outlook\ |
+| Windows Vista/7/8 | Outlook 2007 | C:\Users\%username%\AppData\Local\Microsoft\Outlook\ |
+| Windows XP | Outlook 2010 | C:\Documents and Settings\%username%\My Documents\Outlook Files |
+| Windows Vista/7/8 | Outlook 2010/2013 | C:\Users\%username%\Documents\Outlook Files |
 
 ## Also see
 
@@ -180,14 +180,8 @@ inaccessibility.
 * [Aid4Mail](aid4mail.md)
 * [libpff](libpff.md)
 * [libpst](libpst.md)
-* Microsoft Exchange Client
-* Microsoft Outlook
-* [Free OST File Viewer](https://datahelp.in/ost/viewer.html)
-* [Free PST File Viewer](https://datahelp.in/pst/viewer.html)
-* [Free PST Email Viewer](bitrecover.md#free-pst-email-viewer)
-* MVCOM
+* [Bitrecover: Free PST Email Viewer](bitrecover.md#free-pst-email-viewer)
+* [Datahelp](datahelp.md) Free OST and PST File Viewer
 * [MailXaminer](mailxaminer.md)
 * [Outlook PST Viewer](systools.md#outlook-pst-viewer)
 * [Pst file viewer](pst_file_viewer.md)
-* PST Scanner
-* Windows Messaging

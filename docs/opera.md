@@ -88,5 +88,5 @@ C:\Users\%USERNAME%\AppData\Local\Opera\Opera\cache\
 
 * [Official website](https://www.opera.com:443/)
 * [Opera: Files used by Opera](https://help.opera.com/en/latest/)
-* [Opera MBS Viewer](https://www.freeviewer.org/mbs/)
+* [Opera MBS Viewer](freeviewer.md)
 * [Opera Forensics](https://www.mailxaminer.com/blog/opera-mailbox-forensics/)

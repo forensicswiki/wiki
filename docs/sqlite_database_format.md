@@ -78,4 +78,4 @@ and credentials are all stored in SQLite3.
 * [SQLite](sqlite.md)
 * [SQLite Recovery](sqlite_recovery.md)
 * [SQLite Forensic Reporter](sqlite_forensic_reporter.md)
-* [SQLite Forensics](https://www.freeviewer.org/sqlite/forensics/)
+* [SQLite Forensics](freeviewer.md)
