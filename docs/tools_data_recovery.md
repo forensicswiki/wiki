@@ -48,7 +48,7 @@ Software tool to recover deleted files from Windows drives. Supports
 recovery of permanently deleted files and files emptied from Recycle Bin
 too.
 
-* [DDL Data Recovery Tools](https://www.dolphindatalab.com/)
+* [Dolphin Data Lab](dolphin_data_lab.md)
 
 Advanced data recovery tools for recovering data from logically and
 physically damaged hard drives.
