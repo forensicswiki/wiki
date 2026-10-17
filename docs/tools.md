@@ -26,21 +26,18 @@ This page has gotten too big and is being broken up. Also see:
 [LINReS](https://sourceforge.net/projects/linres/) by [NII Consulting Pvt. Ltd.](https://www.niiconsulting.com/)
 
 [SMART](smart.md) by [ASR Data](asr_data.md)
-<http://www.asrdata.com>
 
 [Second Look: Linux Memory Forensics](second_look.md) by Pikewerks Corporation
 
 ### Macintosh-based Tools
 
-[Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
+[Elcomsoft Mobile Forensic Bundle (EMFB)](elcomsoft.md#elcomsoft-mobile-forensic-bundle-emfb)
 
-The Bundle includes macOS editions of Elcomsoft forensic tools for
-mobile and cloud data extraction.
+EMBF includes macOS editions of Elcomsoft forensic tools for mobile and cloud data extraction.
 
 [Mac Marshal](mac_marshal.md) by [ATC-NY](https://www.atcorp.com/)
 
 [Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
-<https://sumuri.com/wp-content/uploads/2019/04/recon.jpg>
 
 ### Windows-based Tools
 
@@ -70,13 +67,12 @@ government and data recovery companies worldwide.
 [EMail Detective - Forensic Software Tool](email_detective_forensic_software_tool.md) by [Hot Pepper
 Technology, Inc](hot_pepper_technology_inc.md)
 
-[Elcomsoft Desktop Forensic Bundle](elcomsoft_desktop_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
+[Elcomsoft Desktop Forensic Bundle](elcomsoft.md#elcomsoft-desktop-forensic-bundle-edfb)
 
 All password recovery tools for unlocking documents, decrypting archives
 and crypto containers.
 
-[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
-<https://www.elcomsoft.com/epfb.html>
+[Elcomsoft Premium Forensic Bundle](elcomsoft.md#elcomsoft-premium-forensic-bundle-epfb)
 
 A pack of every forensic tool of Elcomsoft for data extraction from
 mobile devices, unlocking documents, decrypting archives, breaking into
@@ -254,8 +250,7 @@ program originally based on [foremost](foremost.md).
 
 P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 
-[Elcomsoft Premium Forensic Bundle](elcomsoft_premium_forensic_bundle.md) by [Elcomsoft](elcomsoft.md)
-<https://www.elcomsoft.com/epfb.html>
+[Elcomsoft Premium Forensic Bundle](elcomsoft.md#elcomsoft-premium-forensic-bundle-epfb)
 
 ## Forensics Live CDs
 
@@ -278,7 +273,6 @@ See: [Forensics Live CDs](live_cd.md)
 
 ### GPS Forensics
 
-* Blackthorn GPS Forensics
 * [.XRY](https://www.msab.com/)
 
 ### PDA Forensics
@@ -286,7 +280,6 @@ See: [Forensics Live CDs](live_cd.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
 * [.XRY](https://www.msab.com/)
 * [Paraben Device Seizure](paraben_forensics.md) and Device Seizure Toolbox
-* PDD
 
 ### Cell Phone Forensics
 
@@ -294,14 +287,10 @@ See: [Forensics Live CDs](live_cd.md)
 * [BitPIM](bitpim.md)
 * [Cellebrite UFED](cellebrite_ufed.md)
 * [DataPilot Secure View](datapilot_secure_view.md)
-* [Elcomsoft Mobile Forensic Bundle](elcomsoft_mobile_forensic_bundle.md)
-* Fernico ZRT
-* ForensicMobile
-* LogiCube CellDEK
+* [Elcomsoft Mobile Forensic Bundle](elcomsoft.md#elcomsoft-mobile-forensic-bundle-emfb)
 * [MOBILedit!](mobiledit.md)
 * [Paraben Device Seizure](paraben_forensics.md) and Device Seizure Toolbox
 * [Serial Port Monitoring](serial_port_monitoring.md)
-TULP2G
 * [.XRY](https://www.msab.com/)
 
 ### SIM Card Forensics

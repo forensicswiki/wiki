@@ -24,8 +24,9 @@ Store does not allow in any application it distributes).
   iOS backups and dumps.
 * Cellebrite BlackBag Technology Mobilyze
 * [Cellebrite UFED](cellebrite_ufed.md)
-* [Elcomsoft Mobile Forensic Bundle](https://www.elcomsoft.com/emfb.html) performs physical,
-  logical and over-the-air acquisition.
+* [Elcomsoft Mobile Forensic
+  Bundle](elcomsoft.md#elcomsoft-mobile-forensic-bundle-emfb)
+  performs physical, logical and over-the-air acquisition.
 * EnCase Neutrino
 * Internet Evidence Finder by Magnet Forensics
 * iPhone Analyzer
