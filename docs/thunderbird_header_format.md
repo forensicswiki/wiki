@@ -44,6 +44,4 @@ mozilla/mailnews/compose/src/nsMsgCompUtils.cpp
 
 ## Tools
 
-* [Thunderbird MSF Viewer](https://www.bitrecover.com/free/thunderbird-viewer/) to view
-  Thunderbird email messages header, message body along-with
-  attachments.
+* [Thunderbird MSF Viewer](bitrecover.md#thunderbird-msf-viewer)

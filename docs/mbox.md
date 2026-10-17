@@ -95,13 +95,8 @@ Operating System as well i.e. the supported email application(s).
   perform search inside MBOX emails to locate a particular evidence.
 * [Aid4Mail](aid4mail.md)
 * [mbox-extract-attachments.py](https://raw.githubusercontent.com/PabloCastellano/pablog-scripts/master/mbox-extract-attachments.py)
-* [Windows MBOX Converter](https://www.bitrecover.com/mbox-converter/)
-  Converts mbox email messages from Thunderbird, Postbox, Netscape,
-  Evolution, SeaMonkey, Sylpheed, Mulberry, GyazMail, Claws Mail, Gnu,
-  Sparrow, the Bat, Apple Mail, Entourage, PowerMail, PocoMail, Eudora,
-  Spicebird, WebMail or Opera Email client into PDF, PST, EML, MSG,
-  EMLX, RTF, HTML.
+* [Windows MBOX Converter](bitrecover.md#windows-mbox-converter)
 * [MBOX File Viewer](https://datahelp.in/mbox/viewer.html)
 * [FREE MBox Viewer](https://www.freeviewer.org/mbox/)
-* [MBOX Viewer](systools.md#mbox-viewer)
+* [MBOX Viewer](bitrecover.md#free-mbox-viewer)
 * [Paraben's Email Examiner](paraben_forensics.md)

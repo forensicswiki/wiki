@@ -46,6 +46,4 @@ state** (or uncleanShutdown).
 ## Tools
 
 * [libvmdk](libvmdk.md)
-* [VMWare VMDK Data Recovery](https://www.bitrecover.com/vmdk-recovery-software/) -
-  Allows you to recover data from corrupt and crashed VMDK VMware virtual
-  machine disk image files.
+* [VMWare VMDK Data Recovery](bitrecover.md#vmware-vmdk-data-recovery)
