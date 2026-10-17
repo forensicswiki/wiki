@@ -75,15 +75,6 @@ filenames, keywords etc.
 The [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)
 <https://ocfa.sourceforge.net/>
 
-[Rifiuti](https://www.mcafee.com/)
-Examines the INFO2 file in the Recycle Bin.
-
-[Pasco](https://www.mcafee.com/)
-Parses *index.dat* files.
-
-[Galleta](https://www.mcafee.com/)
-Parses cookie files.
-
 [dumpster_dive.pl](https://jafat.sourceforge.net/files.html)
 MS Windows Recycle Bin INFO2 parser
 
@@ -111,3 +102,16 @@ Common GNU utilities compiled for a Windows Environment.
 
 [P2P Marshal](p2pmarshal.md)
 Tools to discover and analyze peer-to-peer files for Windows.
+
+Discontinued tools:
+
+[Rifiuti](https://www.mcafee.com/)
+Examines the INFO2 file in the Recycle Bin.
+
+[Pasco](https://www.mcafee.com/)
+Parses *index.dat* files.
+
+[Galleta](https://www.mcafee.com/)
+Parses cookie files.
+
+Discontinued; no longer offered by McAfee.

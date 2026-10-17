@@ -35,13 +35,6 @@ images saved as .vhd, .vmdk. Allows you to recover data from Virtual
 machines created with VMware, Hyper-V, Virtual Server, Virtual PC,
 Virtualbox etc.
 
-* [CnW Recovery](https://www.cnwrecovery.com)
-
-Data recovery software for all file and media types. Recovers corrupted,
-formatted, repartitioned and deleted files. Fragmented videos from
-camera memory chips. RAID option and tools for HP MediaVault. Optional
-forensic logging.
-
 * [Deleted File Recovery](https://www.bitrecover.com/blog/how-to-recover-deleted-files/)
 
 Software tool to recover deleted files from Windows drives. Supports
@@ -69,12 +62,6 @@ recovery tools in one convenient package. This data recovery tool can be
 used to restore damaged and inaccessible storages back into full
 operation completely automatically.
 
-* [GoPro Recovery](https://www.recovergopro.com)
-
-A program to specifically recover the fragmented, interleaved data
-streams from a deleted Hero camera SD memory chip. The forensic option
-logs all the fragments and hashes the video file.
-
 * [RAID Reconstructor](http://www.runtime.org/raid.htm)
 
 Runtime Software's RAID Reconstructor will reconstruct RAID Level 0
@@ -84,11 +71,6 @@ Runtime Software's RAID Reconstructor will reconstruct RAID Level 0
 
 ReclaiMe Pro is an all-in one data recovery toolkit for
 filesystem/partition/RAID/NAS recovery.
-
-* [e-ROL](http://www.e-rol.com/en/)
-
-Erol allows you to recover through the internet files erased by mistake.
-Recover your files online for free.
 
 * [Recuva](https://www.ccleaner.com/recuva)
 
@@ -291,13 +273,6 @@ reports in common formats, which are acceptable in courts.
 Recycle Bin recovery tool designed to carve data from emptied recycle on
 Windows 10, 8.1, 8, 7, 2000, Vista, XP etc.
 
-* [CnW Recovery](https://www.cnwrecovery.com)
-
-Data carving tools and will recover most know file types. For some
-formats the files are verified and intelligent names added based on file
-metadata. Several video formats can be reconstructed from isolated
-fragments.
-
 * [NFI Defraser](https://sourceforge.net/projects/defraser/)
 
 "Defraser is a forensic analysis application that can be used to detect
@@ -407,3 +382,22 @@ jumplists, thumbnails), etc. Smart carving helps defragment data inside Live RAM
 Blade from Digital Detective will carve different categories of files such as
 archives, documents, graphics, audio, and video files. User defined carving
 based on header + footer/length is available as well.
+
+Discontinued tools:
+
+* [CnW Recovery](https://www.cnwrecovery.com) - Data recovery software
+  for all file and media types. Recovers corrupted, formatted,
+  repartitioned and deleted files. Fragmented videos from camera memory
+  chips. RAID option and tools for HP MediaVault. Optional forensic
+  logging. Data carving tools and will recover most know file types.
+  For some formats the files are verified and intelligent names added
+  based on file metadata. Several video formats can be reconstructed
+  from isolated fragments. Now part of Clever Files' Disk Drill.
+* [GoPro Recovery](https://www.recovergopro.com) - A program to
+  specifically recover the fragmented, interleaved data streams from a
+  deleted Hero camera SD memory chip. The forensic option logs all the
+  fragments and hashes the video file. Now part of Clever Files'
+  Disk Drill.
+* [e-ROL](http://www.e-rol.com/en/) - Erol allows you to recover through
+  the internet files erased by mistake. Recover your files online for
+  free. Discontinued: the vendor no longer exists.
