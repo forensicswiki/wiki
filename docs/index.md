@@ -14,7 +14,7 @@ preservation, acquisition, analysis, and presentation of electronic data in a ma
 its **legal admissibility**.
 
 The articles on the website cover a wide range of information from [concepts](concepts.md),
-[tools](tags/#tools) used during investigations to [papers](tags/#papers) [people](tags/#people)
+[tools](tags/#tools) used during investigations to [papers](tags/#papers), [people](tags/#people)
 and [organizations](tags/#organization) that contribute to the field.
 
 Please see the community page if you would like to [contribute](community.md).
