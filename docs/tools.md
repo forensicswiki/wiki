@@ -80,11 +80,6 @@ encrypted containers, viewing and analyzing evidence.
 
 [EnCase](encase.md) by [Guidance Software](guidance_software.md)
 
-[Facebook Forensic Toolkit (FFT)](http://www.google.com) by [Afentis_forensics](afentis_forensics.md)
-eDiscovery toolkit to identify and clone full profiles; including wall
-posts, private messages, uploaded photos/tags, group details,
-graphically illustrate friend links, and generate expert reports.
-
 [Forensic Explorer (FEX)](forensic_explorer.md) by GetData Forensics
 
 [Forensic Toolkit (FTK)](forensic_toolkit.md) by [AccessData](accessdata.md)
@@ -240,8 +235,6 @@ program originally based on [foremost](foremost.md).
 
 [The Sleuth Kit](the_sleuth_kit.md)
 
-[The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
-
 ### [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
 
 ## Enterprise Tools (Proactive Forensics)
@@ -375,13 +368,34 @@ view. Low-level data editing for extra leverage.
 Computer forensics software, data recovery software, hex editor, and
 disk editor from [X-Ways](x-ways_ag.md).
 
-[wxHexEditor](https://www.wxhexeditor.org/)
+[wxHexEditor](https://github.com/EUA/wxHexEditor)
 A Multi-OS supported, open sourced, hex and disk editor.
 
 HexReader [Live-Forensics](live-forensics.md) software that reads Windows
 files at specified offset and length and outputs results to the console.
 
 ## Telephone Scanners/War Dialers
+
+[WarVox](https://github.com/rapid7/warvox)
+
+WarVOX is a free, open-source VOIP-based war dialing tool for exploring,
+classifying, and auditing phone systems.
+
+Discontinued tools:
+
+[Facebook Forensic Toolkit (FFT)](http://www.google.com) by
+[Afentis_forensics](afentis_forensics.md)
+
+eDiscovery toolkit to identify and clone full profiles; including wall
+posts, private messages, uploaded photos/tags, group details,
+graphically illustrate friend links, and generate expert reports.
+Discontinued: AFentis ceased operations in 2016.
+
+[The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
+
+Discontinued and replaced by the
+[Volatility framework](volatility_framework.md); the original site no
+longer resolves.
 
 [TeleSweep](https://securelogix.com)
 
@@ -392,7 +406,5 @@ report on the number of modems connected to these corporate lines.
 \*\*\* Registration is required for obtaining a license key \*\*\* Still
 free however.
 
-[WarVox](https://github.com/rapid7/warvox)
-
-WarVOX is a free, open-source VOIP-based war dialing tool for exploring,
-classifying, and auditing phone systems.
+Discontinued: TeleSweep is no longer offered; SecureLogix now focuses
+on call security services.
