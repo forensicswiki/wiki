@@ -1,0 +1,306 @@
+# Style Guide
+
+This document captures the style conventions for writing and maintaining articles in the Forensics
+Wiki. It covers:
+
+* Markdown lint rules
+* expected article structure
+* conventions regarding content
+
+## Markdown style
+
+Forensics Wiki uses mkdocs therefore all Markdown in the docs directory must be mkdocs compatible.
+Since mkdocs does not come with linter, pymarkdown is used to lint Markdown files.
+
+You can run pymarkdown locally via:
+
+```bash
+tox -e pymarkdown
+```
+
+Conventions pymarkdown checks for:
+
+* Text and headings must not exceed 100 characters. A single long link may occupy its own line
+  (treat_links_as_single_words). Table rows and code blocks are exempt from the line length limit
+  (tables: false, code_blocks: false).
+* Leave a blank line before and after each heading.
+* Bulleted list use the asterisk style, never hyphens or alternatives, and list elements with
+  text longer than 100 characters are continue at the start of the text after the bullet.
+* Code blocks are fenced and must declare a language.
+* Do not use special characters (!, &, etc.) in headings that other pages link to by anchor;
+  pymarkdown and MkDocs generate different [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)
+  for them. Use plain words instead.
+* Files end with exactly one trailing newline.
+
+## Article structure
+
+Wiki articles are topic pages without a top level heading (heading level 1), mkdocs will add one.
+Note that index.md is an exception to the rule. Articles start with a mkdocs YAML front matter for
+example:
+
+```yaml
+tags:
+  - Network Forensics
+```
+
+The tags list holds the topic tags. Articles that still need work also list "Articles that need to
+be expanded".
+
+All articles should start with an introduction that summarizes what is discussed in the article,
+e.g. `Wireless forensics is the process of ...`
+
+The body follows, then additional sections in this order:
+
+1. subsections part of the description of the topic, which are at minimum heading level 2 (`##`).
+2. `## See also`, which contains references to articles within Forensics Wiki relevant for the
+   topic.
+3. `## External Links`, which contain references to external articles, relevant for the topic.
+4. `## Tools` or equivalent sections such as `## Services` or `## Training`
+
+There is no requirement for the length of an article, but it should be long enough to explain the
+topic.
+
+## Naming
+
+The file name of the article should be in all lowercase and use underscores to connect words. For
+example, `forensics.md` for an article about "forensics" and `forensic_artifacts.md` for an
+article about "forensic artifacts".
+
+## Writing style
+
+Write for an international audience of many backgrounds:
+
+* Do not assume every reader is a native English speaker, avoid uncommon terms or metaphors.
+* Do not assume every reader has the same expertise or background, avoid non-standard
+  abbreviations or jargon. If unavoidable explain them in the concepts article (concepts.md).
+* Use international standards, e.g. ISO 8601 instead of localized date and time notations.
+* Use unambiguous notations, e.g. USD instead of Dollar or $.
+
+## References and external links
+
+Put most external links at the bottom of an article to prevent littering it with them.
+
+* For references use `[title](url), by author(s), date` in chronological order.
+* A reference should have a link (URL) that points to a relevant site. References without a link,
+  or those that point to a non-relevant site, will be removed.
+* For references without a link, use a citation block and reference the source from which the
+  citation came.
+* Make sure external links are publicly accessible. Links with signup or paywalls, or that are
+  geo-restricted, will be removed.
+
+## Category articles
+
+Category articles cover one analysis category and link back to their umbrella topic article.
+Such as session_reconstruction.md linking back to network_forensics.md
+
+Category articles follow the following structure:
+
+* definition paragraph
+* optional subsections
+* see also
+* external link
+* tools
+
+## Vendor articles
+
+A vendor article is to inform the reader about the organization, its products and most important
+its role in the digital forensics process.
+
+Vendor articles should include the following structure:
+
+* A short profile of the vendor.
+* `## Products`: a bullet list of the vendor's products (anchors), then a `###` section per product
+  with `####` sub-features.
+* `## External Links` at the end, with a link to its company site.
+
+Commercial software and training should be part of the vendor article and include:
+
+* A description of the product.
+* The digital forensics tradeoffs of the product.
+* References to individual external product pages can be included in the `## External Links`.
+  **Note that the vendor is expected to keep their information up to date and outdated information
+  such as links will be removed.**
+* Other pages that reference a product should link to the vendor article, using an anchor to the
+  specific product where possible.
+* If two vendors have similar names, both articles carry a cross-link noting that they are separate
+  companies in the profile section, see systools.md and sysinfotools_software.md.
+
+## Tool articles
+
+If you are writing an article that includes tooling, first read
+[(digital) forensic tooling](https://forensics.wiki/forensic_tooling).
+An article about tooling should include the following headings:
+
+* **Introduction**: This section may include the history of the tool and its supported operating
+  systems and file systems.
+* **Caution**: The digital forensic tradeoffs to be aware of. Make sure to include the pros and
+  cons of tool use for different digital forensics use cases. Highlight the dependency on other
+  tooling, which is relevant for cross-tool validation
+  (reproducibility.md#cross-tool-validation).
+* **Use**: This section may include the common uses of a tool. A tool could contain one or more
+  common uses. For example, the dd Unix utility could image drives as well as wipe drives so that
+  data is not recoverable.
+* **See also**: This section may include links to Forensics Wiki articles with related content,
+  complementary tools, or forks of the tool. For example, an article about the Sleuth Kit (TSK) may
+  include a link to an article about Autopsy.
+* **External links**: Any external links, such as references to support the information provided,
+  or links to the project page or official website.
+
+## Command line examples
+
+If you want to include command line examples, use a code block.
+
+<!--pyml disable md048-->
+For Linux/Unix:
+
+~~~text
+```bash
+$ whoami
+user
+```
+~~~
+
+For Windows:
+
+~~~text
+```cmd
+whoami
+desktop\user
+```
+~~~
+<!--pyml enable md048-->
+
+## Images
+
+Images or illustrations are not required, but if they help explain the topic they could be added.
+Any images must be placed in the `docs/assets/images` directory. The simplest way to add an image
+to a document is using HTML:
+
+```text
+![myimage.jpg](assets/images/myimage.jpg){width="200"}
+```
+
+## Tags
+
+Tags help make content more discoverable. They appear at the top of the page and should help the
+user know what the content is related to. Tags are searchable and clickable, so you could easily
+see other articles that have the same tag.
+
+### How to add tags
+
+After you write your article, you can place tags at the top of the page using the following
+syntax:
+
+```yaml
+---
+tags:
+  - Commercial Software
+  - Disk Analysis
+  - Tools
+  - Windows
+---
+```
+
+> Note that tags are formatted in [YAML](https://www.mkdocs.org/user-guide/writing-your-docs/#yaml-style-meta-data)
+
+### Tag guidelines
+
+Tags should describe the content of the article and should be applied uniformly across all the
+content. This will help users discover the content more easily. Multiple topics could apply to one
+article. For example, a page tagged with `Tool` would also likely benefit from a tag denoting the
+appropriate Operating System, Software type, and Analysis type.
+
+See examples below the table.
+
+| Topics | Tags |
+| --- | --- |
+| Abandoned, deprecated or discontinued tools | Discontinued |
+| Analysis Types | Disk Analysis, File Analysis, Disk Imaging, Data Recovery, Registry Analysis, Log Analysis, Data Carving, Malware Analysis, Secure Deletion, Cell Phone Analysis, System Monitoring, System Analysis, Email Analysis, File System, Network Analysis, Memory Analysis, Memory Imaging, Anti-Forensics, Timeline Analysis |
+| Concept | Concept |
+| Encryption | Encryption, Network Encryption, Disk Encryption |
+| File Types | File Format, Archive, Database, Disk Image, Binary, Audio, Text, Photo |
+| Hardware Types | Computer Bus, Microprocessor, Hard Drive, Memory, Personal Device, Write Blockers, GPS |
+| Knowledge | Books, Papers, Reports, Journals, Websites, Blogs, Training |
+| Law, Legal | Legal |
+| Mobile | Mobile Networks, Mobile, SIM |
+| Mobile Operating Systems | Android, iOS, Windows Mobile, BlackberryOS, PalmOS, Symbian |
+| Non-vendor companies, Government | Organizations |
+| Operating Systems | Windows, Linux, macOS, BSD, Unix, Operating System |
+| OS Components | OS Component |
+| People | People |
+| Software Type | Open Source Software, Public Domain Software, Commercial Software, Free Software |
+| Software Vendors, Training Vendor | Vendor |
+| Tools | Tools |
+
+### Tagging examples
+
+Let's run through some examples to see how tags would be applied to articles.
+
+#### Example 1: An article about Windows
+
+An article about the Windows operating system in general.
+
+```yaml
+---
+tags:
+  - Operating System
+  - Windows
+---
+```
+
+#### Example 2: An article about an open source Linux/macOS tool that parses logs in /var/messages
+
+An article about a tool should contain the operating systems it supports (Linux and macOS), what
+the tool is used for (in this case, Log Analysis), and the software type: Open Source Software.
+
+```yaml
+---
+tags:
+  - Linux
+  - Log Analysis
+  - MacOS
+  - Open Source Software
+  - Tools
+---
+```
+
+#### Example 3: An article about Bitlocker encryption
+
+An article about Bitlocker should contain the following tags:
+
+```yaml
+---
+tags:
+  - Anti-Forensics
+  - Encryption
+  - Windows
+---
+```
+
+Bitlocker is a type of "Encryption", available only for "Windows", and might be relevant during
+"Anti-Forensics" analysis.
+
+#### Example 4: An article about the ZIP file format
+
+File types are tagged with File Format and the file type. In this case, ZIP files are Archive
+files.
+
+```yaml
+---
+tags:
+  - Archive
+  - File Format
+---
+```
+
+#### Example 5: An article about Windows System Restore Points
+
+Windows System Restore Points are part of the operating system ("OS Component") of Windows.
+
+```yaml
+---
+tags:
+  - OS Component
+  - Windows
+---
+```
