@@ -66,7 +66,4 @@ differential images of the previous snapshot.
 ## Tools
 
 * [libvhdi](libvhdi.md)
-* [VHD Data Recovery](https://www.bitrecover.com/vhd-recovery-software/)
-  Help you recover & extract your files from a corrupt or damaged .vhd /
-  .vhdx files. Supports Microsoft Hyper-V, Microsoft Virtual PC,
-  Microsoft Virtual Server virtual machine drive images.
+* [VHD Data Recovery](bitrecover.md#vhd-data-recovery)

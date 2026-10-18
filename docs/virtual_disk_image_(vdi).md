@@ -35,5 +35,4 @@ the same way:
 
 ### Tools
 
-* [VDI Data Recovery](https://www.bitrecover.com/vdi-recovery-software/) - Data
-  recovery software for VDI (Virtual Disk Image) files.
+* [VDI Data Recovery](bitrecover.md#vdi-data-recovery)

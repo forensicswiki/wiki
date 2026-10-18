@@ -55,5 +55,4 @@ The QCOW2 format supports optional AES encryption
 ## Tools
 
 * [libqcow](libqcow.md)
-* [QCOW Data Recovery](https://www.bitrecover.com/virtual-drive-recovery-software/) -
-  Recover data from corrupt or crashed QCOW, QCOW2 virtual image files.
+* [QCOW Data Recovery](bitrecover.md#bitrecover-virtual-drive-data-recovery-software)
