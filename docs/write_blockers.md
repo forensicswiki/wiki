@@ -3,65 +3,79 @@ tags:
   - Disk Imaging
   - Hardware
 ---
-Write blockers are devices that allow acquisition of information on
-a [drive](hard_drive.md) without creating the possibility of
-accidentally damaging the drive contents. They do this by allowing read
-commands to pass but by blocking write commands, hence their name.
+In the field of digital forensics, the integrity of [evidence](digital_evidence.md) is essential.
+The foundational rule of data acquisition is simple: the examiner must never alter the original
+storage medium. To enforce this, forensic investigators rely on write blockers—technological
+safeguards designed to guarantee the preservation of original data. In its original sense, write
+blockers act as a strict gatekeeper between a host forensic workstation and a target storage
+device. They permit seamless read-only access to the source data while intercepting and discarding
+all write commands, modifications, or metadata updates attempted by the host operating system.
 
-There are two ways to build a write-blocker: the blocker can allow all
-commands to pass from the computer to the drive except for those that
-are on a particular list. Alternatively, the blocker can specifically
-block the write commands and let everything else through.
+Architecturally, write blockers are designed using one of two functional philosophies.
 
-Write blockers may also include drive protection which will limit the
-speed of a drive attached to the blocker. Drives that run at higher
-speed work harder (the head moves back and forth more often due to read
-errors). This added protection could allow drives that can not be read
-at high speed (UDMA modes) to be read at the slower modes (PIO).
+* A blocker can either allow all commands to pass from the computer to the drive except for those
+explicitly compiled on a prohibited list,
+* or it can specifically isolate and block known write commands while letting all other traffic
+through.
 
-There are two types of write blockers, Native and Tailgate. A Native
-device uses the same interface on for both in and out, for example a IDE
-to IDE write block. A Tailgate device uses one interface for one side
-and a different one for the other, for example a Firewire to SATA write
-block.
+Furthermore, some devices include integrated drive protection mechanisms. If a failing drive
+experiences frequent read errors, a write blocker can force the storage interface to drop from
+high-speed data transfer modes (such as UDMA) to slower, more stable modes (such as Programmed
+Input/Output (PIO)). This minimizes mechanical strain on the drive head and prevents accidental
+media destruction during data retrieval.
 
-Steve Bress and Mark Menz invented hard drive write blocking (US Patent
-6,813,682).
+## Hardware versus software write blockers
 
-There are both hardware and software write blockers. Some software write
-blockers are designed for a specific operating system. One designed for
-Windows will not work on Linux. Most hardware write blockers are
-software independent.
+Forensic examiners distinguish between two main categories of these tools: hardware and software
+write blockers.
 
-## Hardware Write Blockers
+Hardware write-blockers are physical bridge devices containing embedded microcontrollers. They
+inspect command packets directly at the bus controller layer—for instance, blocking low-level ATA
+Write Commands like 0x30 or 0x35. Because they function at the hardware level, they are operating
+system independent. Hardware blockers are categorized as "Native" when they utilize the same
+interface for input and output (such as an IDE-to-IDE block) or "Tailgate" when they bridge two
+different interfaces (such as a Firewire-to-SATA block).
 
-Hardware write blockers can be either IDE-to-IDE
-or [Firewire](firewire.md)/[USB](usb.md)-to-IDE. Simson
-prefers the IDE-to-IDE because they deal better with errors on the drive
-and make it easier to access special information that is only accessible
-over the IDE interface. You may feel differently.
+In contrast, software write-blockers rely on operating system-level modifications, such as
+modifying Windows registry keys (e.g., `StorageDevicePolicies\WriteProtect`) or applying specific
+OS mount options (e.g., `mount -r`).  Software mechanisms are inherently OS-dependent and operate
+higher in the protocol stack.  Organizations like the Scientific Working Group on Digital Evidence
+(SWGDE) warn that software solutions do not guarantee absolute device-level protection, as
+background journaling mechanisms, unmounted file systems, or low-level kernel drivers may still
+execute write operations.
 
-NIST test results are here:
-<https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-technical/hardware>
+Because of these architectural differences, standards bodies and legal frameworks strictly dictate
+tool utilization.
 
-### Commercial
+* The National Institute of Standards and Technology (NIST) conducts standardized evaluations of
+  these devices through its Computer Forensic Tool Testing (CFTT) project, validating their
+  effectiveness across various interfaces including SATA, IDE, NVMe, USB, and PCIe.
+* SWGDE standard operating procedures mandate using hardware write-blockers whenever a writable
+  medium is connected to a Windows or Linux workstation for preview or imaging. Adhering to these
+  specifications provides the technical proof required to satisfy strict legal standards, such as the
+  non-alteration rule mandated by UK ACPO Principle 1.
+* Under US Federal Rules of Evidence (FRE) Rule 902(14), documenting the specific make, model, and
+  firmware version of the write-blocker within a sworn certificate is standard practice to establish
+  tool validation.
 
-* [MyKey Technology, Inc.](https://www.mykeytech.com/) NoWrite FPU and FlashBlock II
-  1.8"/2.5"/3.5"/ IDE to IDE, FireWire/USB to IDE & SATA, all media
-  types - NIST Ver. 2 accepted
-* Tableau write blockers for IDE, SATA, SCSI, USB NIST Ver. 1 accepted
-  <https://www.opentext.com/products/tableau-forensic-bridges>
-* WiebeTech write-blockers for almost any disk drive: 2.5"/3.5" IDE, SCSI, SATA, ...
-  <https://wiebetech.com/products/> NIST Ver. 1 accepted
+Failing to use a write-blocker shifts the legal burden onto the examiner to prove that the host
+operating system did not alter hidden files, modify dynamic Windows Registry hives, or update
+system timestamps during the investigation.
 
-[EPOS WriteProtector](https://epos.ua/nashi-rozrobky/)
+Despite their necessity, write blockers present an operational tension during modern
+investigations. While highly effective for static, "dead" disk acquisitions, they cannot be
+utilized during live memory captures, cloud storage extractions, or direct mobile device
+extractions over USB. Interposing a hardware write blocker on an active system requires powering
+the device down, an action that instantly purges volatile RAM evidence. This creates a critical
+conflict for digital investigators: they must choose whether to enforce hardware write-blocking to
+completely protect the physical disk, or bypass it entirely to capture active network sockets,
+temporary encryption keys, and dynamic processes running in volatile memory.
 
-## Software Write Blockers
+## External Links
 
-**Software write blockers** can be either tailored to an individual
-operating system or can be an independent boot disk. Their main upsides
-are with ease of use, since they are on a CD and do not require you to
-open up the case, and speed since they do not become a bottle neck.
+* [NIST: Computer Forensics Tool Testing Program (CFTT) - Hardware Write Block](https://www.nist.gov/itl/csd/secure-systems-and-applications/computer-forensics-tool-testing-program-cftt/cftt-6)
+
+## Tools
 
 ### Open Source
 
@@ -69,7 +83,12 @@ open up the case, and speed since they do not become a bottle neck.
 
 ### Commercial
 
-* [SAFE Block XP](safe_block_xp.md)
-  SAFE Block XP is a software-based write blocker designed for the Windows XP
-  Operating System. It comes in both 32 and 64 bit options. NIST Ver. 1.2
-  accepted.
+* [MyKey Technology, Inc.](https://www.mykeytech.com/),
+  NoWrite FPU and FlashBlock II 1.8", 2.5" and 3.5" IDE to IDE, FireWire or USB to IDE and SATA,
+  NIST Ver. 2 accepted.
+* [SAFE Block XP](forensicsoft.md#safe-block-xp),
+  NIST Ver. 1.2 accepted.
+* [Tableau write blockers](https://www.opentext.com/products/digital-forensic-hardware),
+  for IDE, SATA, SCSI, USB. NIST Ver. 1 accepted.
+* [WiebeTech write-blockers](https://www.digistor.com/wiebetech),
+  for almost any disk drive: 2.5" and 3.5" IDE, SCSI, SATA. NIST Ver. 1 accepted.

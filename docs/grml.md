@@ -6,7 +6,8 @@ tags:
 
 ## Overview
 
-grml enables write blocking during early stage of boot process.
+grml enables [write blocking](write_blockers.md) during early stage
+of boot process.
 
 ## External Links
 
