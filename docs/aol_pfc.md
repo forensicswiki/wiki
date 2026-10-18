@@ -49,5 +49,5 @@ C:\ProgramData\AOL\C_AOL Desktop 9.7\backup
 
 ## Tools
 
-* [AOL PFC Viewer](https://datahelp.in/pfc/viewer.html)
+* [AOL PFC Viewer](datahelp.md)
 * [SysTools](systools.md) AOL PFC Viewer and AOL PFC Converter
