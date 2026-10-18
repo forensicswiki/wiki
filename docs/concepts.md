@@ -6,7 +6,7 @@ Various concepts central to digital forensics are:
 
 ## Legal & Procedural Concepts
 
-* [Chain of custody](digital_evidence.md#chain-of-custody)
+* [Chain of custody](chain_of_custody.md)
 * Data Integrity: evidence must remain entirely unaltered throughout the investigation. To uphold
   this, investigators typically work on a copy instead of the original device.
 * Forensic Soundness: A standard or concept stating that tools and methods used during an
@@ -15,6 +15,7 @@ Various concepts central to digital forensics are:
   so" is not evidence.
 * Hearsay, see: [Wikipedia: Hearsay](https://en.wikipedia.org/wiki/Hearsay)
 * [Reproducibility](reproducibility.md)
+* [Traits of evidence](traits_of_evidence.md)
 
 ## Investigation (or Analysis or Examination) Concepts
 
