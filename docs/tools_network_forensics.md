@@ -48,7 +48,7 @@ APIs.
 
 [Netstat](netstat.md)
 
-NetworkMiner
+[NetworkMiner](networkminer.md)
 
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows.
 NetworkMiner can be used as a passive network sniffer/packet capturing
@@ -157,6 +157,28 @@ Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
 space, generating nanosecond PCAP files that can be downloaded for
 further processing at 10Gbit speed. This is a commercial appliance by a
 small independent vendor.
+
+[Bulk Extractor](bulk_extractor.md)
+
+[logstash](https://www.elastic.co/logstash) is a tool for managing events and logs. You can use it to
+collect logs, parse them, and store them for later use (like, for searching). Speaking of searching,
+logstash comes with a web interface for searching and drilling into all of your logs.
+
+[ntop](ntop.md)
+
+[RegRipper](regripper.md) is an open source tool, written in Perl, for extracting/parsing
+information (keys, values, data) from the Registry and presenting it for analysis
+
+[InfoWatch Traffic Monitor](https://infowatch.com/)
+
+Mera Systems [NetBeholder](https://videonadzor.net/)
+
+NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
+
+NetWitness Corporation - Freeware/Commercial, Enterprise-Wide, Real-Time Network Forensics
+[NetWitness](https://www.netwitness.com/)
+
+[PacketMotion](https://www.vmware.com/company/acquisitions.html)
 
 ## Command-line tools
 

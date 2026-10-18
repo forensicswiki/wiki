@@ -30,6 +30,9 @@ systems can intercept and decrypt WLAN traffic, for example:
 As well as some open-source tools:
 
 * [aircrack-ng](http://aircrack-ng.org/doku.php)
+* [KisMAC](kismac.md) is a free, open source wireless stumbling
+  and security tool for Mac OS X.
+* [Kismet](kismet.md)
 
 WPA/WPA2-PSK cracking-only solutions with [GPU acceleration](forensics_on_gpus.md)
 (15-100 times faster than in CPU-only mode):

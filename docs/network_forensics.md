@@ -2,12 +2,59 @@
 tags:
   - Network Forensics
 ---
-Network forensics is the process of capturing information that moves over a
-network and trying to make sense of it in some kind of forensics capacity. A
-network forensics appliance is a device that automates this process.
+Network forensics is the process of identifying, capturing, and preserving volatile data
+transmitted across a network to reconstruct events, establish timelines, and uncover actionable
+digital evidence.
 
-There are both open source and proprietary network forensics systems
-available.
+The scope of network forensics encompasses the monitoring, interception, and analysis of network
+traffic across internal and external boundaries to identify security anomalies, trace policy
+violations, and reconstruct information security incidents. This operational domain extends from
+localized local area network (LAN) activity and wide area network (WAN) perimeters to virtualized
+cloud environments and software-defined networks. Rather than focusing on static storage media,
+investigators target data in motion using two primary methodologies:
+
+* Deep-Analysis Systems: Utilize Full Packet Capture (FPC) and Deep Packet Inspection (DPI) to
+  record every byte passing through a network monitoring point (via TAPs or SPAN ports), allowing
+  investigators to reconstruct entire transmissions down to the application layer.
+* Flow-Based Systems: Aggregate traffic into compact, structured metadata records based on a unique
+  "5-tuple" identity (Source/Destination IP, Source/Destination Port, and Protocol) to provide
+  long-term behavioral visibility without inspecting payload contents.
+
+By combining these packet-level and flow-level capture capabilities with the evaluation of network
+device logs (such as firewall and IDS records), advanced hybrid systems establish an authenticated,
+end-to-end timeline of how an attacker accessed, navigated, and exfiltrated data from an enterprise
+ecosystem.
+
+## Categories of Analysis
+
+The analysis of captured network data is commonly broken down into the following categories:
+
+* **Session reconstruction** - Rebuilding complete user sessions by
+  recovering application-layer content (files, email, web pages) from
+  captured packets; see also [Session reconstruction](session_reconstruction.md).
+* **Flow-based analysis** - Examining compact 5-tuple records (volume,
+  duration, timing) to find unusual peers, tunneling, exfiltration, and
+  beaconing patterns; see also [Flow-based analysis](flow_based_analysis.md).
+* **Intrusion and anomaly detection** - Matching traffic against
+  signature rules or behavioral baselines to identify attacks and
+  malware; see also [Intrusion detection](intrusion_detection.md).
+* **Data leakage analysis** - Combining flow volumes with inspection of
+  unencrypted payloads and DNS queries to identify sensitive data
+  leaving the network.
+* **DNS analysis** - Inspecting queries and responses for tunneling,
+  domain generation algorithms, and indicators of compromise.
+* **Wireless and Radio Frequency (RF) analysis** - Analysis of 802.11 and other
+  radio-based traffic; see also [Wireless forensics](wireless_forensics.md).
+* **TLS/SSL analysis** - Examining handshake and certificate metadata,
+  or the payload when keys are available; see also
+  [SSL forensics](ssl_forensics.md).
+* **Geolocation and path analysis** - Using TTL values, traceroutes,
+  and address data to map routes; see also
+  [IP geolocation](ip_geolocation.md).
+* **Timeline correlation** - Aligning network events with host and log
+  evidence to build an end-to-end incident timeline; see also
+  [Timeline analysis](timeline_analysis.md) and
+  [Logfile analysis](logfile_analysis.md).
 
 ## Overview
 
@@ -29,94 +76,18 @@ available.
 | [Wireshark](wireshark.md) | Open Source | Command Line, GUI | Windows, Linux, Mac OS X, Solaris, FreeBSD, NetBSD, and others | IPsec, ISAKMP, Kerberos, SNMPv3, SSL/TLS, WEP, and WPA/WPA2; Wireshark can decrypt IEEE 802.11 WLAN data with user specified encryption keys, and others | |
 | [xplico](xplico.md) | Open Source | Command Line, GUI | Linux | ARP Radiotap Ethernet PPP VLAN L2TP IPv4 IPv6 TCP UDP DNS HTTP SMTP POP IMAP SIP MGCP H323 RTP RTCP SDP FB chat FTP IPP CHDLC PJL NNTP MSN IRC YAHOO GTALK EMULE SSL/TLS IPsec 802.11 LLC MMSE Linux cooked TFTP SNOOP PPPoE Telnet WebMail Paltalk Exp. Paltalk NetBIOS SMB PPI syslog G711ulaw, G711alaw, G722, G729, G723, G726 and RTAudio (x-msrta: Real Time Audio). | Unknown |
 
-## Tips and Tricks
-
-* The time between two events triggered by an intruder (as seen in
-  logfiles, for example) can be helpful. If it is very short, you can be
-  pretty sure that the actions were performed by an automated script and
-  not by a human user.
-
 ## See also
 
-* [Wireless forensics](wireless_forensics.md)
-* [SSL forensics](ssl_forensics.md)
+* [Flow-based analysis](flow_based_analysis.md)
+* [Intrusion detection](intrusion_detection.md)
 * [IP geolocation](ip_geolocation.md)
+* [Logfile Analysis](logfile_analysis.md#tools)
+* [Session reconstruction](session_reconstruction.md)
+* [SSL forensics](ssl_forensics.md)
 * [Tools: Network Forensics](tools_network_forensics.md)
-* [Tools: Logfile Analysis](logfile_analysis.md#tools)
+* [Wireless forensics](wireless_forensics.md)
 
 ## External Links
 
-* [Default Time To Live (TTL) values](http://www.binbert.com/blog/2009/12/default-time-to-live-ttl-values/)
 * [http2 explained](https://daniel.haxx.se/http2/), by Daniel Stenberg,
   February 18, 2015
-
-## Tools
-
-### Open Source Network Forensics
-
-* [Argus](argus.md)
-* [Bulk Extractor](bulk_extractor.md)
-* [Chaosreader](chaosreader.md) is a session reconstruction tool
-  (supports both live or captured network traffic)
-* [FlowGREP](https://www.monkey.org/~jose/software/flowgrep/) is a basic IDS/IPS tool written in
-  Python
-* [KisMAC](kismac.md) is a free, open source wireless stumbling
-  and security tool for Mac OS X.
-* [Kismet](kismet.md)
-* [logstash](https://www.elastic.co/logstash) is a tool for managing events and
-  logs. You can use it to collect logs, parse them, and store them for
-  later use (like, for searching). Speaking of searching, logstash comes
-  with a web interface for searching and drilling into all of your logs.
-* [log2Timeline](log2timeline.md) a framework for automatic
-  creation of a super timeline. The main purpose is to provide a single
-  tool to parse various log files and artifacts found on suspect systems
-  (and supporting systems, such as network equipment) and produce a
-  timeline that can be analysed by forensic investigators/analysts.
-* [NetFSE](netfse.md) is a web-based search and analysis application for
-   high-volume network data.
-* [ntop](ntop.md)
-* [NetGREP](https://pypi.org/project/netgrep/) is a command line tool which tells you
-  which lines in a text file contain network resources related to a
-  particular country or Autonomous Network (AS)
-* [NetworkMiner](networkminer.md) is an open source Network Forensics Tool available at [SourceForge](https://sourceforge.net/projects/networkminer/)
-* [OSSEC](ossec.md)
-* [Plaso](plaso.md)  (Plaso Langar Að Safna Öllu), or super timeline all the
-  things, is a Python-based engine used by several tools for automatic creation
-  of timelines. Plaso default behavior is to create super timelines but it also
-  supports creating more targeted timelines.
-* [RegRipper](regripper.md) is an open source tool, written in
-  Perl, for extracting/parsing information (keys, values, data) from the
-  Registry and presenting it for analysis
-* [Snort](snort.md)
-* [Wireshark](wireshark.md)
-* [Xplico](xplico.md).
-
-### Commercial Network Forensics
-
-#### Deep-Analysis Systems
-
-* [E-Detective](https://www.edecision4u.com/)
-* [InfoWatch Traffic Monitor](https://infowatch.com/)
-* Mera Systems [NetBeholder](https://videonadzor.net/)
-* NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
-* NetWitness Corporation - Freeware/Commercial, Enterprise-Wide,
-  Real-Time Network Forensics [NetWitness](https://www.netwitness.com/)
-* NIKSUN's NetDetector
-* [PacketMotion](https://www.vmware.com/company/acquisitions.html)
-* WildPackets [OmniPeek](omnipeek.md)
-* [Xplico](xplico.md)
-* [Expert Team - 3i System](http://expert-team.net/home/)
-
-#### Flow-Based Systems
-
-* Arbor Networks
-* [CapAnalysis](https://www.capanalysis.net/ca/)
-* GraniteEdge Networks
-* [Lancope](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
-* [Mantaro Product Development Services](https://www.mantaro.com)
-* [Mazu Networks](https://www.riverbed.com/en-gb)
-
-#### Hybrid Systems
-
-These systems combine flow analysis, deep analysis, and security event
-monitoring and reporting.
