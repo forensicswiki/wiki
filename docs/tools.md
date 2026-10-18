@@ -141,20 +141,9 @@ analysis of Windows computers on a network from Android phones and
 tablets.
 
 [MailXaminer](mailxaminer.md) by [SysTools](systools.md)
-<https://www.mailxaminer.com/>
 
 Forensic & eDiscovery Tool to find digital email evidences from multiple
 email platform through its powerful Search mechanism.
-
-Twitter Forensic Toolkit (TFT) by [Afentis_forensics](afentis_forensics.md)
-eDiscovery toolkit to identify relevant Tweets, clone full profiles,
-download all tweets/media, data mine across comments, and generate
-expert reports.
-
-YouTube Forensic Toolkit (YFT) by [Afentis_forensics](afentis_forensics.md)
-<http://www.afentis.com/forensic-software/>
-eDiscovery toolkit to identify relevant online media, download/convert
-videos, data mine across comments, and generate expert reports.
 
 ### Open Source Tools
 
@@ -380,31 +369,3 @@ files at specified offset and length and outputs results to the console.
 
 WarVOX is a free, open-source VOIP-based war dialing tool for exploring,
 classifying, and auditing phone systems.
-
-Discontinued tools:
-
-[Facebook Forensic Toolkit (FFT)](http://www.google.com) by
-[Afentis_forensics](afentis_forensics.md)
-
-eDiscovery toolkit to identify and clone full profiles; including wall
-posts, private messages, uploaded photos/tags, group details,
-graphically illustrate friend links, and generate expert reports.
-Discontinued: AFentis ceased operations in 2016.
-
-[The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
-
-Discontinued and replaced by the
-[Volatility framework](volatility_framework.md); the original site no
-longer resolves.
-
-[TeleSweep](https://securelogix.com)
-
-SecureLogix is currently offering no-cost downloads of our award-winning
-TeleSweep Secure® modem-vulnerability scanner. This free modem scanning
-software can be used to dial a batch of corporate phone numbers and
-report on the number of modems connected to these corporate lines.
-\*\*\* Registration is required for obtaining a license key \*\*\* Still
-free however.
-
-Discontinued: TeleSweep is no longer offered; SecureLogix now focuses
-on call security services.

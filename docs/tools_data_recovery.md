@@ -351,22 +351,3 @@ jumplists, thumbnails), etc. Smart carving helps defragment data inside Live RAM
 Blade from Digital Detective will carve different categories of files such as
 archives, documents, graphics, audio, and video files. User defined carving
 based on header + footer/length is available as well.
-
-Discontinued tools:
-
-* [CnW Recovery](https://www.cnwrecovery.com) - Data recovery software
-  for all file and media types. Recovers corrupted, formatted,
-  repartitioned and deleted files. Fragmented videos from camera memory
-  chips. RAID option and tools for HP MediaVault. Optional forensic
-  logging. Data carving tools and will recover most know file types.
-  For some formats the files are verified and intelligent names added
-  based on file metadata. Several video formats can be reconstructed
-  from isolated fragments. Now part of Clever Files' Disk Drill.
-* [GoPro Recovery](https://www.recovergopro.com) - A program to
-  specifically recover the fragmented, interleaved data streams from a
-  deleted Hero camera SD memory chip. The forensic option logs all the
-  fragments and hashes the video file. Now part of Clever Files'
-  Disk Drill.
-* [e-ROL](http://www.e-rol.com/en/) - Erol allows you to recover through
-  the internet files erased by mistake. Recover your files online for
-  free. Discontinued: the vendor no longer exists.

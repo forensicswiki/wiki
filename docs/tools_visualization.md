@@ -160,11 +160,3 @@ Most of the following applications can be used to do visualization.
 * [INSNA's web page of Computer Programs for Social Network Analysis](https://www.insna.org/)
 * [Omnigator](https://ontopia.net/omnigator/models/index.jsp)
 * [TouchGraph](https://sourceforge.net/projects/touchgraph/)
-
-Discontinued tools:
-
-* [Perfuse](https://blokt.com/) - A Java-based toolkit for building
-  interactive information visualization applications. Discontinued; the
-  project's site no longer exists.
-* [VisANT](https://visant-new.bu.edu/visant/visantnet.html) - Discontinued;
-  the project site no longer resolves.

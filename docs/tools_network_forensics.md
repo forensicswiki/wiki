@@ -18,8 +18,6 @@ their contents in many forms, starting from a list of TCP, UDP or ESP
 streams/flows, passing to the geo-graphical representation of the
 connections.
 
-[Demo](https://pcap.capanalysis.net/)
-
 [chkrootkit](https://www.chkrootkit.org/)
 
 [cryptcat](https://farm9.org/Cryptcat/)
@@ -162,12 +160,6 @@ small independent vendor.
 
 ## Command-line tools
 
-arp- view the contents of your ARP cache
-
-ifconfig - view your mac and IP address
-
-ping - send packets to probe remote machines
-
 [SplitCap](https://www.netresec.com/?page=SplitCap)
 
 SplitCap is a free open source pcap file splitter.
@@ -176,16 +168,6 @@ SplitCap is a free open source pcap file splitter.
 
 snoop - captures packets from the network and
 displays their contents ([solaris](solaris.md)
-
-nemesis - create arbitrary packets
-
-tcpreplay - replay captured packets
-
-traceroute - view a network path
-
-gnetcast - GNU rewrite of netcat
-
-packit - packet generator
 
 [nmap](nmap.md) - utility for network exploration and security
 auditing
@@ -197,60 +179,6 @@ auditing
 Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
 packets with the same payloads.
 
-### ARP and Ethernet MAC Tools
-
-arping - transmit ARP traffic
-
-arpdig - probe LAN for MAC addresses
-
-arpwatch - watch ARP changes
-
-arp-sk - perform denial of service attacks
-
-macof - CAM table attacks
-
-ettercap - performs various low-level Ethernet
-network attacks
-
-### CISCO Discovery Protocol Tools
-
-cdpd - transmit and receive CDP announcements;
-provides forgery capabilities
-
-### ICMP Layer Tests and Attacks
-
-icmp-reset
-
-icmp-quench
-
-icmp-mtu
-
-ish
-
-isnprober
-
-### IP Layer Tests
-
-iperf - IP multicast test
-
-fragtest - IP fragment reassembly test
-
-### UDP Layer Tests
-
-udpcast - includes UDP-receiver and UDP-sender
-
 ### TCP Layer
 
 [Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP tracing
-
-Discontinued tools:
-
-[Enterasys Dragon](https://www.extremenetworks.com/)
-
-Intrusion Detection System, includes session reconstruction.
-Discontinued; the product is no longer offered.
-
-[truewitness](http://www.nature-soft.com/forensic.html)
-
-Linux/open-source. Based in India. Discontinued; the vendor site no
-longer resolves.
