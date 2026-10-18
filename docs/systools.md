@@ -17,6 +17,9 @@ derived from the combination of two words; "system" & "tools", first started as 
 company** in the year 2007, evolved as a platform for email migration to and from; client/server
 architecture and later stepped into **Data Forensics**.
 
+**Note**: SysTools is a separate company from the similarly named
+[SysInfoTools Software](sysinfotools_software.md).
+
 ## History
 
 Established in the year 2007, the company was commenced with the idea of
