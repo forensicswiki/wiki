@@ -104,3 +104,8 @@ community.
 * **Parser Independence:** If Tool A and Tool B rely on the exact same underlying open-source
   parsing library, they share the same flaws. True evaluation demands using tools built completely
   independent to ensure validation is genuine rather than an echo chamber.
+
+## External Links
+
+* [Validation and verification of computer forensic software tools - Searching Function](https://www.sciencedirect.com/science/article/pii/S1742287609000358),
+  by Yinghua Guo, Jill Slay, Jason Beckett, 2009

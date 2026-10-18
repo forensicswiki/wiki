@@ -73,3 +73,5 @@ where flawless technical data is transformed into an undeniable truth.
 * [Wikipedia: Deductive reasoning](https://en.wikipedia.org/wiki/Deductive_reasoning)
 * [Wikipedia: Inductive reasoning](https://en.wikipedia.org/wiki/Inductive_reasoning)
 * [Wikipedia: Five Ws](https://en.wikipedia.org/wiki/Five_Ws)
+* [The Alexiou Principle](http://thedigitalstandard.blogspot.com/2009/06/alexiou-principle.html?m=1),
+  June 27, 2009
