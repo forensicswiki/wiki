@@ -2,7 +2,7 @@
 tags:
   - No Category
 ---
-## Software Forensics
+## Tools
 
 [CodeSuite](codesuite.md) by Software Analysis & Forensic Engineering
 CodeSuite comprises BitMatch, CodeCross, CodeDiff, CodeMatch, and
@@ -13,8 +13,6 @@ for free on small sets of code.
 CodeSuite also includes FileCount and FileIsolate for counting file
 attributes and quickly copying or deleting entire file trees. Both are
 free utilities.
-
-<http://www.safe-corp.com/>
 
 ## Open Source Tools
 
@@ -74,15 +72,6 @@ filenames, keywords etc.
 
 The [Open Computer Forensics Architecture](open_computer_forensics_architecture.md)
 <https://ocfa.sourceforge.net/>
-
-[Rifiuti](https://www.mcafee.com/)
-Examines the INFO2 file in the Recycle Bin.
-
-[Pasco](https://www.mcafee.com/)
-Parses *index.dat* files.
-
-[Galleta](https://www.mcafee.com/)
-Parses cookie files.
 
 [dumpster_dive.pl](https://jafat.sourceforge.net/files.html)
 MS Windows Recycle Bin INFO2 parser

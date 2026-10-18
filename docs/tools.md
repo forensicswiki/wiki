@@ -80,11 +80,6 @@ encrypted containers, viewing and analyzing evidence.
 
 [EnCase](encase.md) by [Guidance Software](guidance_software.md)
 
-[Facebook Forensic Toolkit (FFT)](http://www.google.com) by [Afentis_forensics](afentis_forensics.md)
-eDiscovery toolkit to identify and clone full profiles; including wall
-posts, private messages, uploaded photos/tags, group details,
-graphically illustrate friend links, and generate expert reports.
-
 [Forensic Explorer (FEX)](forensic_explorer.md) by GetData Forensics
 
 [Forensic Toolkit (FTK)](forensic_toolkit.md) by [AccessData](accessdata.md)
@@ -146,20 +141,9 @@ analysis of Windows computers on a network from Android phones and
 tablets.
 
 [MailXaminer](mailxaminer.md) by [SysTools](systools.md)
-<https://www.mailxaminer.com/>
 
 Forensic & eDiscovery Tool to find digital email evidences from multiple
 email platform through its powerful Search mechanism.
-
-Twitter Forensic Toolkit (TFT) by [Afentis_forensics](afentis_forensics.md)
-eDiscovery toolkit to identify relevant Tweets, clone full profiles,
-download all tweets/media, data mine across comments, and generate
-expert reports.
-
-YouTube Forensic Toolkit (YFT) by [Afentis_forensics](afentis_forensics.md)
-<http://www.afentis.com/forensic-software/>
-eDiscovery toolkit to identify relevant online media, download/convert
-videos, data mine across comments, and generate expert reports.
 
 ### Open Source Tools
 
@@ -239,8 +223,6 @@ program originally based on [foremost](foremost.md).
 [scrounge-ntfs](https://github.com/lcorbasson/scrounge-ntfs)
 
 [The Sleuth Kit](the_sleuth_kit.md)
-
-[The Coroner's Toolkit (TCT)](http://www.porcupine.org/forensics/tct.html)
 
 ### [NDA](nda.md) and [scoped distribution](scoped_distribution.md) tools
 
@@ -375,22 +357,13 @@ view. Low-level data editing for extra leverage.
 Computer forensics software, data recovery software, hex editor, and
 disk editor from [X-Ways](x-ways_ag.md).
 
-[wxHexEditor](https://www.wxhexeditor.org/)
+[wxHexEditor](https://github.com/EUA/wxHexEditor)
 A Multi-OS supported, open sourced, hex and disk editor.
 
 HexReader [Live-Forensics](live-forensics.md) software that reads Windows
 files at specified offset and length and outputs results to the console.
 
 ## Telephone Scanners/War Dialers
-
-[TeleSweep](https://securelogix.com)
-
-SecureLogix is currently offering no-cost downloads of our award-winning
-TeleSweep Secure® modem-vulnerability scanner. This free modem scanning
-software can be used to dial a batch of corporate phone numbers and
-report on the number of modems connected to these corporate lines.
-\*\*\* Registration is required for obtaining a license key \*\*\* Still
-free however.
 
 [WarVox](https://github.com/rapid7/warvox)
 

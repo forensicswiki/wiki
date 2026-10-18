@@ -26,13 +26,13 @@ Various concepts central to digital forensics are:
 
 * Allocated Space: Storage space currently reserved by the operating system for active files, e.g.
   your documents or photos.
-* Metadata: "data about data." This includes hidden file attributes like camera GPS coordinates on
-  a photo, original authors of a document, or exact file creation and modification timestamps.
 * Host Protected Areas (HPA) and Device Configuration Overlays (DCO): These are hidden, reserved
   regions on hard drives or SSDs that sit outside the master boot record (MBR) or GUID partition
   table addresses. Standard operating systems and basic forensic imagers cannot see these zones.
   Investigators must use specialized hardware or write-blockers that issue direct ATA commands to
   unhide and image these areas, where data can easily be cached away from sight.
+* Metadata: "data about data." This includes hidden file attributes like camera GPS coordinates on
+  a photo, original authors of a document, or exact file creation and modification timestamps.
 * Slack Space: The leftover, unused space at the end of a fixed data cluster. If a file is smaller
   than the space the computer allocates for it, fragments of old deleted data can often be found
   trapped in this "slack" space.
@@ -61,7 +61,11 @@ Various concepts central to digital forensics are:
   specific file "headers" and "footers" (like finding the specific binary code that dictates where a
   JPEG begins and ends) to piece the file back together.
 
-## Data Format Analysis Concepts
+## Analysis Concepts
+
+* [Cell Site Analysis (CSA)](cell_site_analysis.md)
+
+### Data Format Analysis
 
 * [Non-rendering characters](non_rendering_characters.md), also referred to as non-printable
   characters.
@@ -72,7 +76,7 @@ Various concepts central to digital forensics are:
   hidden archive or script fully functional yet unparsed.
 * [Unpaired surrogates](unpaired_surrogates.md)
 
-## Intrusion Analysis Concepts
+### Intrusion Analysis
 
 Digital forensics and intrusion analysis overlap significantly in their shared reliance on
 analyzing technical artifacts like system logs, memory captures, and network traffic to reconstruct
@@ -89,11 +93,7 @@ documentation and absolute data preservation to ensure findings are legally defe
   evaded existing security controls. Unlike traditional reactive analysis, which triggers only after
   an automated alert fires, hunting operates under the assumption that a breach has already occurred.
 
-## Timeline Analysis Concepts
+### Timeline Analysis
 
 * [epoch](epoch.md)
 * [MAC(B) and MACE times](mac_times.md)
-
-## See Also
-
-* [Digital Evidence](digital_evidence.md)
