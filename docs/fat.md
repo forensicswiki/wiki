@@ -34,10 +34,10 @@ file system described by Microsoft's document.
 
 When a computer is powered on, a POST (power-on self test) is performed,
 and control is then transferred to the [Master boot
-record](master_boot_record.md) ([MBR](mbr.md)). The
-[MBR](mbr.md) is present no matter what file system is in use,
+record](master_boot_record.md) ([MBR](master_boot_record.md)). The
+[MBR](master_boot_record.md) is present no matter what file system is in use,
 and contains information about how the storage device is logically
-partitioned. When using a FAT file system, the [MBR](mbr.md)
+partitioned. When using a FAT file system, the [MBR](master_boot_record.md)
 hands off control of the computer to the Boot Record, which is the first
 sector on the partition. The Boot Record, which occupies a reserved area
 on the partition, contains executable code, in addition to information
@@ -318,7 +318,7 @@ use smaller cluster sizes whenever possible.
 ## FAT Advantages
 
 * Files available to multiple operating systems on the same computer
-* Easier to switch from FAT to [NTFS](ntfs.md) than vice versa
+* Easier to switch from FAT to [NTFS](new_technology_file_system_(ntfs).md) than vice versa
 * Performs faster on smaller volumes (\< 10GB)
 * Does not index files, which causes slightly higher performance
 * Performs better with small cache sizes (\< 96MB)
@@ -330,10 +330,10 @@ use smaller cluster sizes whenever possible.
 * FAT has a fixed maximum number of clusters per partition, which means
   as the hard disk gets bigger the size of each cluster must increase,
   creating more slack space
-* Doesn't natively support many abilities of [NTFS](ntfs.md)
+* Doesn't natively support many abilities of [NTFS](new_technology_file_system_(ntfs).md)
   such as on-the-fly compression, [encryption](encryption.md),
   or advanced security using access control lists
-* [NTFS](ntfs.md) recommended by
+* [NTFS](new_technology_file_system_(ntfs).md) recommended by
   [Microsoft](microsoft.md) for volumes larger than 32GB
 * FAT slows down as the number of files on the disk increases
 * FAT usually fragments files more

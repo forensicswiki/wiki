@@ -3,7 +3,7 @@ tags:
   - Organization
 ---
 The **Defense Cyber Crime Institute**, or **DCCI**, is the Research and
-Development section of the [Defense Cyber Crime Center](defense_cyber_crime_center.md)
+Development section of the [Defense Cyber Crime Center](dod_cyber_crime_center.md)
 based in Linthicum, Maryland. They not only develop new tools, but also
 rigorously test existing tools to make sure they meet the standards for DoD
 investigations. The DCCI consists of four branches:

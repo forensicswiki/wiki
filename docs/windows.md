@@ -17,7 +17,7 @@ There are 2 main branches of Windows:
 
 ### Introduced in Windows NT
 
-* [NTFS](ntfs.md)
+* [NTFS](new_technology_file_system_(ntfs).md)
 
 ### Introduced in Windows 2000
 
@@ -43,7 +43,7 @@ There are 2 main branches of Windows:
   system
 * [ReadyBoost](readyboost.md)
 * [SuperFetch](superfetch.md)
-* [Transactional NTFS (TxF)](ntfs.md)
+* [Transactional NTFS (TxF)](new_technology_file_system_(ntfs).md)
 * [Transactional Registry (txr)](windows_nt_registry_file_(regf).md)
 * [Shadow Volumes](windows_shadow_volumes.md); the volume-based
   storage of the Volume Shadow Copy data
@@ -90,7 +90,7 @@ Default partition layout, first partition starts:
 ### Filesystems
 
 * [FAT](fat.md), [exFAT](fat.md)
-* [NTFS](ntfs.md)
+* [NTFS](new_technology_file_system_(ntfs).md)
 * [ReFS](resilient_file_system_(refs).md)
 
 ### Common paths

@@ -34,7 +34,7 @@ Sanitization Practices," IEEE Security and Privacy, January/February 2003.
 
 * [Residual Data on Used Equipment](residual_data_on_used_equipment.md)
 * [Residual Data in Document Files](residual_data_in_document_files.md)
-* [Sanitizing Tools](sanitizing_tools.md)
+* [Sanitizing Tools](media_sanitizing.md)
 * [Remnant Data](remnant_data.md)
 
 ## External Links

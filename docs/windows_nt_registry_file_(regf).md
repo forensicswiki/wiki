@@ -41,7 +41,7 @@ transaction log files similar to:
 Where %FILE% is the name of the REGF normal (data) file, e.g. NTUSER.DAT
 and %GUID% a string representation of a GUID/UUID.
 
-TxR is similar to [Transactional NTFS (txf)](ntfs.md) and uses
+TxR is similar to [Transactional NTFS (txf)](new_technology_file_system_(ntfs).md) and uses
 the [Common Log File System
 (clfs)](common_log_file_system_(clfs).md).
 

@@ -8,7 +8,7 @@ package distributed by [AccessData](accessdata.md).
 # Features
 
 The Forensic toolkit can parse a number of filesystems, including [FAT](fat.md)
-12/16/32, [NTFS](ntfs.md), NTFS Compressed, [ext2 and ext3](extended_file_system_(ext).md).
+12/16/32, [NTFS](new_technology_file_system_(ntfs).md), NTFS Compressed, [ext2 and ext3](extended_file_system_(ext).md).
 It can use image files created by [AFF](aff.md), [EnCase](encase.md),
 [SMART](smart.md), Snapback, some versions of
 [Safeback](safeback.md) and [dd](dd.md).

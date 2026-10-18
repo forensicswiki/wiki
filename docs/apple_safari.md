@@ -58,7 +58,7 @@ C:\Users\{user}\AppData\Local\Apple Computer\Safari\
 
 ## History
 
-The browser history is stored in a [binary plist file](property_list.md) named
+The browser history is stored in a [binary plist file](property_list_(plist).md) named
 **History.plist** in the user directory.
 
 For each website, the program records the URL visited, the date and time of
@@ -69,12 +69,12 @@ the number of seconds since Jan 1, 2001 00:00:00 UTC.
 
 ## Downloads
 
-The downloads history is stored in a [plist file](property_list.md) named
+The downloads history is stored in a [plist file](property_list_(plist).md) named
 **Downloads.plist** in the user directory.
 
 ## Last Session
 
-The browser last session information is stored in a [plist file](property_list.md)
+The browser last session information is stored in a [plist file](property_list_(plist).md)
 named **LastSession.plist** in the user directory.
 
 ## Cache

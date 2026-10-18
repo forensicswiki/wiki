@@ -38,7 +38,7 @@ Some of the commands in Sleuth Kit are:
 
 ### Supported File Systems
 
-* [NTFS](ntfs.md)
+* [NTFS](new_technology_file_system_(ntfs).md)
 * [FAT-12, FAT-16, FAT-32](fat.md), exFAT
 * [ext2, ext3, ext4](extended_file_system_(ext).md)
 * UFS

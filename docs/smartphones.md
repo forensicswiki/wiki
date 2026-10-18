@@ -10,7 +10,7 @@ edit.
 ### Mobile Technologies
 
 * [CDMA](cdma.md)
-* [GSM](gsm.md)
+* [GSM](global_system_for_mobile_communications.md)
 * [iDEN](iden.md)
 * [GPRS](gprs.md)
 * [SIM Cards](sim_cards.md)
@@ -23,5 +23,5 @@ edit.
 * [Microsoft PocketPC](microsoft_pocketpc.md)
 * [Microsoft Windows Mobile](microsoft_windows_mobile.md)
 * [Palm](palm.md)
-* [RIM BlackBerry](rim_blackberry.md)
+* [RIM BlackBerry](blackberry.md)
 * [Symbian](symbian.md)

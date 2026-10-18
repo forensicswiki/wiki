@@ -88,7 +88,7 @@ research area.
 * Modify Sleuth Kit's NTFS implementation to support NTFS encrypted files
   (EFS)
 * Extend Sleuth Kit's implementation of NTFS to cover Transaction NTFS
-  (TxF) (see [NTFS](ntfs.md))
+  (TxF) (see [NTFS](new_technology_file_system_(ntfs).md))
 * Physical layer access to flash storage (requires reverse-engineering
   proprietary APIs for flash USB and SSD storage.)
 * Add support to Sleuth Kit for [ReFS](resilient_file_system_(refs).md).

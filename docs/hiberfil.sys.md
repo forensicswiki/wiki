@@ -12,7 +12,7 @@ Although often presumed, the size of the hiberfil.sys is *not*
 one-to-one in size to the available, or total RAM of the machine.
 
 The data structures required to parse the file format are available in
-the [Microsoft Windows](microsoft_windows.md) debug symbols,
+the [Microsoft Windows](windows.md) debug symbols,
 including some of the various compression methods used.
 
 The Xpress compression was reverse engineered by Matthieu

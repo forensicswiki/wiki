@@ -56,27 +56,27 @@ Process:
 1. Photograph the Cell Phone screen during power up.
 2. Research the Cell Phone for technical specifications.
 3. Research the Cell Phone for forensic information.
-4. Based on phone type [GSM](gsm.md), [CDMA](cdma.md), [iDEN](iden.md), or Pay
-   As You Go determine acquisition tools
+4. Based on phone type [GSM](global_system_for_mobile_communications.md), [CDMA](cdma.md),
+   [iDEN](iden.md), or "Pay As You Go" determine acquisition tools
 
-GSM:
+### GSM
 
 1. Phone and SIM Card
 2. SIM Card
 
-CDMA:
+### CDMA
 
 1. Phone
 
-iDEN:
+### iDEN
 
-1. Three major tools exist for iDEN Phones:
+Three major tools exist for iDEN Phones:
 
 * iDEN Companion Pro
 * iDEN Media Downloader
 * iDEN Phonebook Manager
 
-Pay As You Go:
+### Pay As You Go
 
 1. Phone
 

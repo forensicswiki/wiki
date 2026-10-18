@@ -198,7 +198,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 
 ## See Also
 
-* [Prefetch XML](prefetch_xml.md)
+* [Prefetch XML](digital_forensics_xml_schema.md)
 * [ReadyBoot](readyboot.md)
 * [SuperFetch](superfetch.md)
 * [Windows](windows.md)

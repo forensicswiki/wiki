@@ -21,7 +21,7 @@ The latest version of Caine is based on the [Ubuntu](ubuntu.md) 12.04 LTS, MATE 
 Compared to
 its original version, the current version has been modified to meet the
 standards forensic reliability and safety standards laid down by the
-[NIST](nist.md) View [the methodologies of NIST](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-general-0)
+[NIST](national_institute_of_standards_and_technology.md) View [the methodologies of NIST](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt/cftt-general-0)
 
 Caine includes:
 
@@ -53,7 +53,7 @@ RBFstab is set to treat an ext3 file system as an ext4 file system *noload with
 the option* to avoid automatic recovery of any corrupt Journal of ext3;
 
 * Swap file off: patch that avoids modifying the file swap in systems with
-  limited memory [RAM](ram.md), avoiding the alteration of the original
+  limited memory [RAM](physical_memory.md), avoiding the alteration of the original
   artifact computer and overwrite data useful for the purposes of investigation.
 
 ## Caine and Open Source

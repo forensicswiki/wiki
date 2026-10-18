@@ -3,7 +3,7 @@ tags:
   - Mobile
 ---
 The **Global Systems for Mobile Communications** (**GSM**), is a radio-based
-technology that allows [mobile phones](mobile_phones.md) to communicate. GSM is
+technology that allows [mobile phones](cell_phones.md) to communicate. GSM is
 considered to be the world's most ubiquitous radio-based cellular technology,
 with 1.7 billion users as of March 2006. In the United States, carriers such as
 T-Mobile and Cingular utilize GSM technology for their cellular networks.

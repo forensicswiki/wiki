@@ -4,7 +4,7 @@ tags:
 ---
 The **Defense Cyber Investigations Training Academy**, or **DCITA**, is
 the training division of the [Defense Cyber Crime
-Center](defense_cyber_crime_center.md) based in Linthicum,
+Center](dod_cyber_crime_center.md) based in Linthicum,
 Maryland. DCITA is a nationally accredited academy that provides
 training in four areas of study, including:
 

@@ -4,7 +4,7 @@ tags:
   - Web Browsers
 ---
 Microsoft Internet Explorer (MSIE) is the default [Web Browser](web_browser.md)
-included with [Microsoft Windows](microsoft_windows.md).
+included with [Microsoft Windows](windows.md).
 
 ## MSIE 4 to 9
 

@@ -2,7 +2,7 @@
 tags:
   - Websites
 ---
-[Digital forensics](digital_forensics.md) related resources like: blogs, fora,
+[Digital forensics](computer_forensics.md) related resources like: blogs, fora,
 tweets, tools and challenges (and test images).
 
 ## Websites
@@ -81,7 +81,7 @@ Computer Forensics Lab Resource Site.
 
 [NIST Image Group](https://www.nist.gov/programs-projects/fingerprint)
 
-Many reports, including the [NIST](nist.md) report on [AFIS](afis.md)
+Many reports, including the [NIST](national_institute_of_standards_and_technology.md) report on [AFIS](afis.md)
 fingerprint testing.
 
 ### Blogs

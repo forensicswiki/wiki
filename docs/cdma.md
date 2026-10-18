@@ -4,7 +4,7 @@ tags:
 ---
 Code division multiple access (CDMA) is a cellular frequency that,
 originally developed during World War II for military purposes, incorporates
-"spread spectrum" techniques. Unlike other cellular systems like [GSM](gsm.md)
+"spread spectrum" techniques. Unlike other cellular systems like [GSM](global_system_for_mobile_communications.md)
 and [TDMA](tdma.md), every channel on the network uses the full available
 spectrum. This allows each user (identified by a unique pseudonoise code (pn)
 to communicate over several frequencies, as opposed to only one. CDMA is an
@@ -60,7 +60,7 @@ throughout Asia, although are yet to be release in America.
 
 * [BitPIM](bitpim.md)
 * [DataPilot Secure View](datapilot_secure_view.md)
-* [Paraben Cell Seizure](paraben_cell_seizure.md) and Device Seizure
+* [Paraben Cell Seizure](paraben_forensics.md) and Device Seizure
 
 ## External Links
 

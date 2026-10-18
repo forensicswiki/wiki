@@ -44,7 +44,7 @@ to read from encrypted volumes on versions of Microsoft
 ## How to detect
 
 Volumes encrypted with BitLocker will have a different signature than
-the standard [NTFS](ntfs.md) header.
+the standard [NTFS](new_technology_file_system_(ntfs).md) header.
 
 A BitLocker encrypted volume starts with the "-FVE-FS-" signature.
 

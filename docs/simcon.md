@@ -3,10 +3,9 @@ tags:
   - Commercial Software
   - Mobile
 ---
-**SIMCon** is a program that securely images all files on a [GSM](gsm.md)
-[SIM Card](sim_cards.md) with a standard PC-SC smart card reader, either serial
-or [USB](usb.md). After imaging, the forensic investigator can then analyze the
-contents of the card. Specific information regarding stored numbers, call
+SIMCon is software that securely images all files on a [SIM Card](sim_cards.md) with a standard
+PC-SC smart card reader, either serial or [USB](usb.md). After imaging, the forensic investigator
+can then analyze the contents of the card. Specific information regarding stored numbers, call
 history, and text messages are available.
 
 SIMCon is now Paraben's SIM Card Seizure
@@ -57,9 +56,9 @@ SIMCon is also capable of acquiring the following data from a SIM Card:
 * Service Provider Name
 * Depersonalizatoin Keys
 
-All [GSM](gsm.md) cell phones today have a subscriber identity module (SIM) to
-identify the phone onto the network. SIMCon is an application to acquire all of
-the information from the SIM Card.
+All [GSM](global_system_for_mobile_communications.md) cell phones today have a subscriber identity
+module (SIM) to identify the phone onto the network. SIMCon is an application to acquire all of the
+information from the SIM Card.
 
 The SIM Card provides secure storing of the key identifying a mobile phone
 service subscriber, subscription information, preferences and text messages.

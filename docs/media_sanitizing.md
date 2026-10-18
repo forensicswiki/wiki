@@ -32,7 +32,7 @@ Special Publication 800-88.
 
 * [Recovering deleted data](recovering_deleted_data.md)
 * [Epilogue to Gutmann's 1996 paper](epilogue_to_gutmann's_1996_paper.md)
-* [Sanitizing Tools](sanitizing_tools.md)
+* [Sanitizing Tools](media_sanitizing.md)
 
 ## External Links
 

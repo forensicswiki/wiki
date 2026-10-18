@@ -6,7 +6,7 @@ Dekart is a company headquartered in Chişinău, the capital of Moldova.
 
 Its software solutions are focused on information security, specifically in the
 following areas: [encryption](encryption.md), authentication, digital
-signatures and [SIM](sim.md) card management.
+signatures and [SIM](sim_cards.md) card management.
 
 The following Dekart software is described on Forensics Wiki:
 

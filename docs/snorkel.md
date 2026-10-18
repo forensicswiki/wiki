@@ -44,7 +44,7 @@ below.
 | | Apple Partitioning Map (APM) |
 | | GPT |
 | | BSD disklabel |
-| File systems | Windows ([fat](fat.md), [NTFS](ntfs.md)) |
+| File systems | Windows ([fat](fat.md), [NTFS](new_technology_file_system_(ntfs).md)) |
 | | Apple (mfs, (Classic) HFS, [HFS+](hfs+.md)) |
 | | Linux ([ext](extended_file_system_(ext).md), [Reiser](reiserfs.md)) |
 | | Solaris, BSD (ufs) |

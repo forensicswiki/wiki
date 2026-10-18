@@ -15,7 +15,7 @@ different properties regarding forensic investigation.
 * USB thumb drives
 * Memory cards, Smartcards, [SIM cards](sim_cards.md), [RFID tags](rfid.md), ...
 * [Tapes](tape.md)
-* [SSD](solid_state_drives.md)
+* [SSD](solid_state_drive_(ssd)_forensics.md)
 
 ## External Links
 

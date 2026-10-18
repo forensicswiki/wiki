@@ -22,7 +22,7 @@ LC, Protected AAC,
 AIFF, Audible audiobook and Apple Lossless audio file
 formats. The fifth-generation iPod can also play .m4v and .mp4
 MPEG-4 video file
-formats. The [Microsoft Windows](microsoft_windows.md) version
+formats. The [Microsoft Windows](windows.md) version
 of iTunes can transcode regular non copy-protected
 WMA files to an iPod supported format. WMA files with
 copy protection cannot be played in iTunes or be copied to an iPod.

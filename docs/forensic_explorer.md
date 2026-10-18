@@ -9,7 +9,7 @@ distributed by GetData Forensics.
 
 Forensic Explorer (FEX) can parse FAT, NTFS, HFS and EXT filesystems. It can
 use image files created by [AFF](aff.md), [DD](dd.md), [EnCase](encase.md),
-[NUIX](nuix.md), [Safeback](safeback.md), [SMART](smart.md) and
+[NUIX](nuix_pty_ltd.md), [Safeback](safeback.md), [SMART](smart.md) and
 [XWAYS](x-ways_ag.md).
 
 FEX includes modules for Keyword search, Drive indexing (using

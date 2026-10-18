@@ -36,7 +36,7 @@ contiguous on the media (in other words files that are not fragmented).
 
 ## Fragmented File Recovery
 
-[Simson Garfinkel](simson_garfinkel.md) estimated that upto 58%
+[Simson Garfinkel](simson_l_garfinkel.md) estimated that upto 58%
 of outlook, 17% of jpegs and 16% of MS-Word files are fragmented and,
 therefore, appear corrupted or missing to a user using traditional data
 carving. The first set of file carving programs that can handle
@@ -48,7 +48,7 @@ recover fragmented files.
 
 ## File Carving Taxonomy
 
-[Simson Garfinkel](simson_garfinkel.md) and [Joachim Metz](joachim_metz.md) have
+[Simson Garfinkel](simson_l_garfinkel.md) and [Joachim Metz](joachim_metz.md) have
 proposed the following file carving taxonomy:
 
 Carving
