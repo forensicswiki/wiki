@@ -16,7 +16,7 @@ Note that this article is based on [RFC 3227](https://www.ietf.org/rfc/rfc3227.t
 
 Some principles of handling digital evidence:
 
-* Custodianship; guaranteeing a chain of custody
+* Custodianship; guaranteeing a [chain of custody](chain_of_custody.md)
 * Documentation
 
 **Avoid:**
@@ -47,19 +47,6 @@ example order of volatility for a typical system.
 * physical configuration, network topology
 * archival media
 
-### Chain of custody
-
-You should be able to clearly describe how the evidence was found, how it was handled and
-everything that happened to it.
-
-The following need to be documented:
-
-* Where, when, and by whom was the evidence discovered and collected.
-* Where, when and by whom was the evidence handled or examined.
-* Who had custody of the evidence, during what period. How was it stored.
-* When the evidence changed custody, when and how did the transfer occur, include shipping numbers,
-  etc.
-
 ## Reconstruction
 
 Types of reconstruction:
@@ -70,20 +57,16 @@ Types of reconstruction:
 
 ## Evidentiary standards of proof
 
-### Legal Considerations
-
-Computer evidence needs to be:
-
-* Admissible: It must conform to certain legal rules before it can be put before a court.
-* Authentic: It must be possible to positively tie evidentiary material to the incident.
-* Complete: It must tell the whole story and not just a particular perspective.
-* Reliable: There must be nothing about how the evidence was collected and subsequently handled
-  that casts doubt about its authenticity and veracity.
-* Believable: It must be readily believable and understandable by a court.
+To be legally defensible in a court of law, computer evidence must satisfy
+[traits of evidence](traits_of_evidence.md) by being admissible, authentic to the incident,
+contextually complete, reliable in its forensic handling, and easily believable to a judge and/or
+jury.
 
 ## See Also
 
+* [Chain of custody](chain_of_custody.md)
 * [Rethoric of proof](rethoric_of_proof.md)
+* [Traits of evidence](traits_of_evidence.md)
 
 ## External Links
 
