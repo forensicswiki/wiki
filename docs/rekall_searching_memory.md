@@ -135,7 +135,7 @@ original plugin was not designed to produce.
 For example, closer inspection of the _EPROCESS object (either with the
 describe plugin or the dt plugin) reveals that extra information is
 present in the _SE_AUDIT_PROCESS_CREATION_INFO struct produced by
-the windows auditing system. We also see a FullPath member on the
+the Windows auditing system. We also see a FullPath member on the
 _EPROCESS object (This is actually a virtual member added by Rekall
 which displays the full path to the binary running the process). Let's
 find all the processes which were started from locations other than the
@@ -155,7 +155,7 @@ name.
 
 NOTE: Efilter currently provides the **=~** operator for a regular
 expression match, however this matching is case sensitive. When matching
-windows file names we never want a case sensitive match or we might miss
+Windows file names we never want a case sensitive match or we might miss
 some filenames which should match. Therefore it is always preferable to
 use the case insensitive regex_search() function instead.
 

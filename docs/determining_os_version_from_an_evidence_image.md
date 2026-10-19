@@ -141,5 +141,5 @@ You can use `strings` and `grep` tools to find this information with
 * Plan9
 * QNX RTOS
 * OS2
-* MacOS-X/IOS
+* Mac OS X/IOS
 * DOS

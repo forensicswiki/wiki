@@ -52,7 +52,7 @@ corresponding file system entry is not updated.
 
 ### [Windows](windows.md)
 
-In Windows the access time behavior is controlled by the Registry key:
+In Windows the access time behavior is controlled by the Windows Registry key:
 
 ```text
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate

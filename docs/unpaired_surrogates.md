@@ -81,7 +81,7 @@ Advanced forensic platforms use specialized non-standard formats like **WTF-8** 
 Transformation Format). WTF-8 allows software to temporarily convert and store "possibly ill-formed
 UTF-16" strings into an 8-bit format without losing the exact value of the unpaired surrogate.
 
-While WTF-8 completely preserves the raw data for technical examination, it is an unofficial
+While WTF-8 completely preserves the raw data for technical analysis, it is an unofficial
 encoding scheme. Exporting WTF-8 data into mainstream visualization, e-Discovery, or
 timeline-building tools often yields rendering glitches, rendering the evidence unreadable to
 prosecutors, judges, or non-technical stakeholders during legal proceedings.

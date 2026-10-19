@@ -94,10 +94,10 @@ for anyone outside the law enforcement community, it is not free.
   number, and all SMS messages sent and received both stored and deleted.
 
 * SIMCon also comes with two more handy features that are key to an
-  investigation and in a court of law. The first is SIMCon's feature that allows
+  examination and in a court of law. The first is SIMCon's feature that allows
   the printing of a report. SIMCon will format and populate a report with the
   contents of the users' choosing. This can list all the key pieces to an
-  investigation and is an excellent piece of evidence to be used in a court of
+  examination and is an excellent piece of evidence to be used in a court of
   law. The second feature is the exportation of the acquired data. SIMCon allows
   the exportation of all SMS messages and also of all contacts. When these
   exported files are opened in a program such as Microsoft Excel the data can be
@@ -119,7 +119,7 @@ for anyone outside the law enforcement community, it is not free.
 
 * Currently there is no "data-dump" mode in which one can simply dump
   data exactly as it is on the card in order to have a more pure
-  investigation of the contents. This has proven to be a major setback
+  examination of the contents. This has proven to be a major setback
   up to version 1.1, as the automatic parsing of information from the
   card sometimes leaves certain details unseen, especially in the
   content view.

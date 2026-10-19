@@ -25,7 +25,7 @@ Steps to reproduce:
 Not all file marked as changed really changed. It is better to disable
 last access time update if you working with NTFS:
 
-To disable Last Access timestamps create the following registry key on
+To disable Last Access timestamps create the following Windows Registry key on
 your run-time image:
 
 ```text

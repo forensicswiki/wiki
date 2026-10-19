@@ -47,7 +47,7 @@ A more detailed description of each of the fields and their meaning:
    LOG, WEBHIST, REG, etc. This field name should correspond to the
    type field in the TLN output format and describes the nature of the
    log format on a high level (all log files are marked as LOG, all
-   registry as REG, etc.)
+   Windows Registry as REG, etc.)
 6. **sourcetype**: More comprehensive description of the source.
    This field further describes the format, such as "Syslog" instead of
    simply "LOG", "NTUSER.DAT Registry" instead of "REG", etc.

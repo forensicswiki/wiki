@@ -39,17 +39,17 @@ and accesses them varies, and is explained below.
 
 ### Windows XP and Server 2003
 
-Windows first added Volume Snapshot Service to windows XP, which is used
+Windows first added Volume Snapshot Service to Windows XP, which is used
 by NTBackup. The creation of persistent snapshots has been added within
 Windows Server 2003. This addition gives the ability of having up to 512
 snapshots to exist for a single volume. Windows 2003 is used to create
 incremental snapshots of the data that have changed.
 
 In Windows XP, the process of system restore, or the creation of the
-shadow copies is different from the more recent versions of windows.
+shadow copies is different from the more recent versions of Windows.
 Windows XP uses a simple mechanism- the moment an application attempts
 to overwrite any system file, Windows XP makes a copy of the file and
-saves that file to a separate folder. That way, in windows XP, system
+saves that file to a separate folder. That way, in Windows XP, system
 restore will not affect a user's documents, but only files such as dll,
 exe, and registry files, along with a few others.
 
@@ -57,7 +57,7 @@ exe, and registry files, along with a few others.
 
 Many of the components of Windows have been updated to make use of
 Shadow copies in these versions. The backup and restore utility within
-these windows versions, use both shadow copies of files in both
+these Windows versions, use both shadow copies of files in both
 file-based and sector-by -sector backups. VSS is used by the System
 Protection components, which creates and maintains periodic copies of
 system and user data on the same local volume, allows it to be locally

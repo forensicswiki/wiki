@@ -413,4 +413,4 @@ that Zeus does not change files on disk, then memory only hooks can only
 exist in process private pages and not in shared file pages. It is
 therefore safe to skip shared pages in our hook analysis. This
 optimization buys a speedup of around 6-10 times for inline hook
-inspection - all thanks to the windows PFN database!
+inspection - all thanks to the Windows PFN database!

@@ -64,7 +64,7 @@ of the data can be made, ensuring no data is lost or manipulated.
 
 ## Compatibility
 
-BitPIM runs on Windows, Linux, and MacOS.
+BitPIM runs on Windows, Linux, and Mac OS.
 
 ## External Links
 

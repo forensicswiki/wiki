@@ -95,7 +95,7 @@ Most of the following applications can be used to do visualization.
   the locations of all of the objects — ideal for drawing in a GUI. Runs
   from the command line on [Unix](unix.md),
   [Windows](windows.md) and [Mac](mac_os_x.md), although
-  there is also a [MacOS GUI version](http://www.pixelglow.com/graphviz/).
+  there is also a [Mac OS GUI version](http://www.pixelglow.com/graphviz/).
 * [NodeXL](https://nodexl.com/) - Free/open excel add-in extends the spreadsheet
   with network metrics and visualizations. (Only runs on Windows)
 * [Gephi](https://gephi.org/) -Gephi is an interactive visualization and
@@ -127,7 +127,7 @@ Most of the following applications can be used to do visualization.
   layout algorithms, recursive graph nesting, and easy printing. Runs on
   [Windows](windows.md), [Linux](linux.md),
   [Solaris](solaris.md), [NetBSD](netbsd.md), and
-  [MacOS](mac_os_x.md). 30-day trial and free registered versions
+  [Mac OS X](mac_os_x.md). 30-day trial and free registered versions
   available. Academic pricing available.
 * [Geomantics](https://www.geomantics.com/) - Geographical, Visualization
   and Graphics software. Runs on [Windows](windows.md).

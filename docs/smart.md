@@ -12,7 +12,7 @@ tags:
 * Lists allocated and unallocated files.
 * Sorts files by type.
 * Searches for keywords and regex.
-* Registry viewer.
+* Windows Registry viewer.
 
 ### Historical Reconstruction
 

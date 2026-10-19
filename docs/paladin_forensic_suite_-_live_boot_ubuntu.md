@@ -6,7 +6,7 @@ tags:
   - Free Software
 ---
 
-**PALADIN** is a completely free forensic investigation tool kit,
+**PALADIN** is a completely free forensic examination tool kit,
 developed by SUMURI.
 
 ## Product Overview
@@ -51,7 +51,7 @@ PALADIN Features over 100 open source forensic tools, including:
 * Timeline analysis
 * TSK
 * Virtual machines
-* Windows registry tools
+* Windows Registry tools
 
 ### Remote Services Mode
 

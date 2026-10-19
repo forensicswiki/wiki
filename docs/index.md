@@ -76,13 +76,13 @@ If you click on one of the tags, it will bring you to all content categorized un
     <td><a href="tags/#operating-systems">Operating Systems</a></td>
     <td width="1000">
     <ui><li><a href="windows">Windows</a>: <a href="windows_vista">windows_vista</a>, <a
-    href="windows_7">windows 7</a>, <a href="windows_8">windows 8</a>, <a href="windows_10">windows
+    href="windows_7">Windows 7</a>, <a href="windows_8">Windows 8</a>, <a href="windows_10">Windows
     10</a></ui></li>
     <ui><li><a href="unix">Unix</a>: <a href="freebsd">freebsd</a>, <a href="netbsd">netbsd</a>, <a
     href="openbsd">openbsd</a>, <a href="solaris">solaris</a>, <a href="aix">aix</a></ui></li>
     <ui><li><a href="https://en.wikipedia.org/wiki/Mobile_operating_system">Mobile OS</a>: <a
-    href="android">android</a>, <a href="ios">ios</a>, <a href="microsoft_windows_mobile">windows
-    mobile</ui></li>
+    href="android">android</a>, <a href="ios">ios</a>, <a href="microsoft_windows_mobile">Windows
+    Mobile</ui></li>
     </td>
   </tr>
   <tr>

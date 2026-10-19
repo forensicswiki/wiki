@@ -50,7 +50,7 @@ Key Features - Standard Edition (Perpetual Licence)
 * Built-in e-mail store processing, searching and viewing
 * Filesystem, file and e-mail recovery
 * Multiple categorization features
-* Registry viewing and searching
+* Windows Registry viewing and searching
 * Virus/Trojan search and identification
 * VMware virtual disk production from devices or images
 * Context dictionary production for password cracking

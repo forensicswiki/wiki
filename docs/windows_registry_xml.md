@@ -4,12 +4,12 @@ tags:
   - XML
   - Windows
 ---
-Microsoft's .reg format for representing MS Registry entries has many
-limitations, such as the inability to represent where Registry
+Microsoft's .reg format for representing Windows Registry entries has many
+limitations, such as the inability to represent where Windows Registry
 information physically resides on the disk and the difficulty in
 representing Unicode. As a result, a variety of approaches have been
 implemented. Currently DFXML uses the [RegXML](regxml.md)
-standard to represent Registry entries.
+standard to represent Windows Registry entries.
 
 > Note that proper XML does not support unpaired surrogates
 
@@ -24,7 +24,7 @@ standard to represent Registry entries.
   that exports sections of the Windows Registry as XML-formatted files.
 * [hivexml](hivexml.md) is a command-line utility that is part
   of Red Hat's [libguestfs](https://libguestfs.org/) that converts
-  Registry hives to XML.
+  Windows Registry hives to XML.
 * [Tracking Computer Use with the Windows® Registry Dataset](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl),
   Doug White, NIST.
 * [The complete set of code and and a WiReD XML difference set for steganographic applications](https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl).

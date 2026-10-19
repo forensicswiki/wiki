@@ -101,7 +101,7 @@ various courses related to digital forensics. INsig2 offers specialized
 courses for digital forensic investigators, prosecutors, judges,
 lawyers, and professionals working in the private sector. The courses
 are covering a wide range of topics, from basic digital forensic
-concepts and procedures (computer hardware, windows forensics, internet
+concepts and procedures (computer hardware, Windows forensics, internet
 forensics, and many more) to advanced topics (data science, criminal
 intelligence, strategic intelligence, and others) for experienced
 investigators who want to expand their knowledge in digital forensics.

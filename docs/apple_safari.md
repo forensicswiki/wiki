@@ -18,7 +18,7 @@ information.
 
 The user directory:
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Safari/
@@ -38,7 +38,7 @@ C:\Users\{user}\AppData\Roaming\Apple Computer\Safari\
 
 The cache directory:
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Caches/com.apple.Safari/

@@ -124,7 +124,7 @@ listed below.
 
 (Classic) HFS and [HFS+](hfs+.md)
 These file systems are defined by Apple and only limited support is available for them outside of
-the Macintosh world. These are the identical implementations for hard disk file systems on MacOS
+the Macintosh world. These are the identical implementations for hard disk file systems on Mac OS
 operating systems.
 
 ISO 9660
@@ -136,7 +136,7 @@ of a file system for CDs.
 Joliet
 This is a Microsoft defined extension to ISO 9660 to support Unicode and
 64-character file names. It was introduced with Windows 95. It has
-gained some support for Linux and MacOS file systems but remains
+gained some support for Linux and Mac OS file systems but remains
 something that is used primarily in the Windows environment.
 
 Red Book

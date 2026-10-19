@@ -34,7 +34,7 @@ status [1](https://www.ntop.org/products/traffic-analysis/ntop/).
 
 ## Platforms
 
-* Unix (including Linux, \*BSD, Solaris, and MacOSX)
+* Unix (including Linux, \*BSD, Solaris, and Mac OS X)
 * Win32 (Win95 and above including Vista
 
 ## Media

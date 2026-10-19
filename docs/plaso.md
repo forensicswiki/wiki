@@ -65,8 +65,8 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * JSON-L log file
 * Linux libc6 utmp file
 * Locate database file (updatedb)
-* MacOS File System Events Disk Log Stream (fseventsd) file
-* MacOS keychain database file
+* Mac OS File System Events Disk Log Stream (fseventsd) file
+* Mac OS keychain database file
 * Mac OS X 10.5 utmpx file
 * McAfee Anti-Virus access protection log file
 * Microsoft [Internet Explorer History File
@@ -158,11 +158,11 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * Apple iOS Car Play application plist file
 * iPod, iPad and iPhone plist file
 * Launchd plist file
-* MacOS Bluetooth plist file
-* MacOS installation history plist file
-* MacOS software update plist file
-* MacOS TimeMachine plist file
-* MacOS user plist file
+* Mac OS Bluetooth plist file
+* Mac OS installation history plist file
+* Mac OS software update plist file
+* Mac OS TimeMachine plist file
+* Mac OS user plist file
 * [Safari history](apple_safari.md) plist file
 * Spotlight searched terms plist file
 * Spotlight volume configuration plist file
@@ -188,15 +188,15 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * iOS powerlog SQLite database (CurrentPowerlog.PLSQL) file
 * iOS Screen Time SQLite database (RMAdminStore-Local.sqlite)
 * Kodi videos SQLite database (MyVideos.db) file
-* MacOS and iOS iMessage database (chat.db, sms.db) file
-* MacOS application usage SQLite database (application_usage.sqlite) file
-* MacOS document revisions SQLite database file
-* MacOS Duet/KnowledgeC SQLites database file
-* MacOS launch services quarantine events database SQLite database file
-* MacOS MacKeeper cache SQLite database file
-* MacOS Notes SQLite database (NotesV7.storedata) file
-* MacOS Notification Center SQLite database file
-* MacOS Transparency, Consent, Control (TCC) SQLite database (TCC.db) file
+* Mac OS and iOS iMessage database (chat.db, sms.db) file
+* Mac OS application usage SQLite database (application_usage.sqlite) file
+* Mac OS document revisions SQLite database file
+* Mac OS Duet/KnowledgeC SQLites database file
+* Mac OS launch services quarantine events database SQLite database file
+* Mac OS MacKeeper cache SQLite database file
+* Mac OS Notes SQLite database (NotesV7.storedata) file
+* Mac OS Notification Center SQLite database file
+* Mac OS Transparency, Consent, Control (TCC) SQLite database (TCC.db) file
 * Mozilla Firefox cookies SQLite database file
 * [Mozilla Firefox browsing and downloads history](mozilla_firefox.md)
   * Mozilla Firefox downloads SQLite database (downloads.sqlite) file
@@ -225,9 +225,9 @@ File System Format support is provided by [dfVFS](dfvfs.md).
 * iOS lockdown daemon log
 * iOS sysdiag log
 * iOS sysdiagnose logd file
-* MacOS Application firewall log (appfirewall.log) file
-* MacOS security daemon (securityd) log file
-* MacOS Wi-Fi log (wifi.log) file
+* Mac OS Application firewall log (appfirewall.log) file
+* Mac OS security daemon (securityd) log file
+* Mac OS Wi-Fi log (wifi.log) file
 * Microsoft IIS log file
 * OneDrive (or SkyDrive) version 1 log file
 * OneDrive (or SkyDrive) version 2 log file

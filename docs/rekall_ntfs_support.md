@@ -18,7 +18,7 @@ capability.
 
 Why did we add NTFS support to a memory forensic tool?
 
-1. When we added support for using the windows pagefile to supplement
+1. When we added support for using the Windows pagefile to supplement
    memory analysis it became apparent that we needed to read the pagefile
    directly from the NTFS since the file is normally locked - so normal
    file APIs are not usable. We considered using tricky kernel hacking to

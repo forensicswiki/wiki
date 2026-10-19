@@ -27,7 +27,7 @@ On Linux
 /home/$USER/.config/google-chrome/Default/Secure Preferences
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Application Support/Google/Chrome/Default/Preferences
@@ -64,7 +64,7 @@ On Linux
 /home/$USER/.config/chromium/Default/Secure Preferences
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Application Support/Chromium/Default/Preferences
@@ -199,7 +199,7 @@ On Linux
 /home/$USER/.cache/google-chrome/PnaclTranslationCache/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Caches/Chromium/$PROFILE/Cache
@@ -363,7 +363,7 @@ On Linux
 /home/$USER/.config/chromium/Default/Extensions/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Application Support/Google/Chrome/Default/Extensions/
@@ -428,7 +428,7 @@ On Linux
 /home/$USER/.config/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Library/Internet Plug-Ins/
@@ -491,7 +491,7 @@ On Linux
 /home/$USER/snap/chromium/common/chromium/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Application Support/BraveSoftware/Brave-Browser/

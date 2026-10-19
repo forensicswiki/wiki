@@ -18,7 +18,7 @@ Christmas for me - full of surprises, you never really know what you are
 going to get! Microsoft did not disappoint this time either. There are
 some differences in Windows 10 that require Rekall to vary its approach
 to certain analysis techniques. It has been fun to make Rekall work with
-windows 10 and this post will cover some of the interesting differences
+Windows 10 and this post will cover some of the interesting differences
 between Windows 10 and earlier versions. I will also explain some of the
 changes we implemented in Rekall.
 
@@ -83,9 +83,9 @@ See http://www.rekall-forensic.com/docs/Manual/tutorial.html to get started.
 The most important difference from a Memory analysis perspective is that
 the Object Header's `TypeIndex` field is obfuscated. In order to
 understand how this impacts Rekall, I will summarize quickly how the
-windows Object Manager works, and how we use this in Rekall.
+Windows Object Manager works, and how we use this in Rekall.
 
-The windows kernel manages `Objects` (Please do not confuse this with
+The Windows kernel manages `Objects` (Please do not confuse this with
 object oriented languages like C++ objects - kernel objects are not
 really Object Oriented in the same sense of the word). An object is just
 an entity that the kernel is responsible for managing (i.e. create,

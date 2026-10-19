@@ -85,7 +85,7 @@ never there, obviously cannot be restored with forensic methods.
 
 For example, a partition can be mounted read-only or accessed through
 the raw device to prevent the file access times from being updated. The
-Windows registry key
+Windows Registry key
 HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
 can be set to "1" to disable updating of the last-accessed timestamp;
 this setting is default under Windows Vista (Microsoft 2006).
@@ -191,7 +191,7 @@ although it can be extracted with special tools.
 ### Detecting Forensic Analysis
 
 There are methods to detect whether an
-[investigator](investigator.md)
+[investigator](investigator.md) performs
 forensic analysis on the system. A malicious user or program could react
 to that by destroying evidence, for example.
 

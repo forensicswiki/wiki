@@ -283,7 +283,7 @@ video simulations, etc., to rectify the software-related problems.
 
 Kernel OST Viewer is a free OST viewing utility available for Windows
 users. The freeware is developed by Kernel Data Recovery to perform
-quick examination on damaged/healthy Outlook offline storage files (OST)
+quick analysis of damaged/healthy Outlook offline storage files (OST)
 and make them readable without using MS Outlook environment. The viewer
 can open and read the containing items of the file, like e-mails,
 attachments, tasks, appointment, notes, etc. within the software
@@ -516,7 +516,7 @@ Kernel EML Viewer is a free EML file reading software developed by
 Kernel Data Recovery. The freeware is built to open the contained
 information of EML files while maintaining the exact properties and
 hierarchical order of the original file. The EML Viewer performs
-examination on the user-provided EML file to make the content viewable
+analysis of the user-provided EML file to make the content viewable
 for the end-users in the absence of Outlook Express environment.
 
 Kernel EML Viewer is a standalone program embedded with

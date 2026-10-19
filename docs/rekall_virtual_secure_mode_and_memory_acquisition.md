@@ -20,7 +20,7 @@ are a number of choices out there, these days, but some readers proposed
 the old favorite: [WinPmem](https://github.com/Velocidex/c-aff4).
 WinPmem is AFAIK the only open source memory acquisition tool. It was
 released quite some years ago and had not been updated for a while.
-However, it has been noted that it crashes on windows systems with VSM
+However, it has been noted that it crashes on Windows systems with VSM
 enabled.
 
 In 2017 Jason Hale gave an excellent talk at DFRWS:
@@ -30,7 +30,7 @@ Subsequently some of these tools were fixed but I could not find any
 information as to how they were fixed. The current state of the world is
 that Winpmem appears to be one of those tools that crashes.
 
-When I heard these reports I finally blew the dust off my windows
+When I heard these reports I finally blew the dust off my Windows
 machine and enabled VSM. I then tried to acquire with the released
 winpmem (v3.0.rc3) and I can definitely confirm it BSODs right away! Not
 good at all!
@@ -69,7 +69,7 @@ which did not crash either:
 
 ![virtual secure mode and memory acquisition 3](assets/images/rekall-forensics-blog/virtual_secure_mode_and_memory_acquisition_3.png)
 
-The DumpIt program produced a windows crash dump image format. It is
+The DumpIt program produced a Windows crash dump image format. It is
 encouraging to see that the CR3 value reported by DumpIt was consistent
 with WinPmem's report. While DumpIt does not explicitly report the
 physical memory ranges it used, since it uses a crashdump format file,

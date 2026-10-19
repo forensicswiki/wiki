@@ -41,7 +41,7 @@ On Windows 7:
 C:\ProgramData\Sophos\Sophos Anti-Virus
 ```
 
-On MacOS-X:
+On Mac OS X:
 
 ```text
 /Library/Logs/Sophos Anti-Virus.log

@@ -8,7 +8,7 @@ mobile devices (iPhone/iPad/iPod Touch).
 
 ## File System
 
-iOS runs a reduced variant of [OSX](mac_os_x.md) and
+iOS runs a reduced variant of [Mac OS X](mac_os_x.md) and
 [HFSX](hfs+.md) as a file system.
 
 A majority of the useful information is stored in the folder

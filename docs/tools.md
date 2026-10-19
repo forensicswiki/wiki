@@ -33,11 +33,11 @@ This page has gotten too big and is being broken up. Also see:
 
 [Elcomsoft Mobile Forensic Bundle (EMFB)](elcomsoft.md#elcomsoft-mobile-forensic-bundle-emfb)
 
-EMBF includes macOS editions of Elcomsoft forensic tools for mobile and cloud data extraction.
+EMBF includes Mac OS editions of Elcomsoft forensic tools for mobile and cloud data extraction.
 
 [Mac Marshal](mac_marshal.md) by [ATC-NY](https://www.atcorp.com/)
 
-[Recon for MAC OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
+[Recon for Mac OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
 
 ### Windows-based Tools
 
@@ -324,7 +324,7 @@ The free server product, for setting up/configuring/running
 machine](virtual_machine.md).Important difference being that it
 can run 'headless', i.e. everything in background.
 
-[Recon for MAC OS X](https://sumuri.com/)
+[Recon for Mac OS X](https://sumuri.com/)
 
 RECON for Mac OS X is simply the fastest way to conduct Mac Forensics,
 automates what an experienced examiner would need weeks to accomplish in
@@ -341,7 +341,7 @@ KDE's new cross-platform hex editor with features such as
 signature-matching
 
 [HexFiend](https://hexfiend.com/)
-A hex editor for MacOS
+A hex editor for Mac OS
 
 Hex Workshop
 A hex editor from [BreakPoint Software Inc.](http://www.bpsoft.com)

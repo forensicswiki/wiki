@@ -70,7 +70,7 @@ Cons and trade-offs:
 ## Version history
 
 Version 2.7.0 was released on 2026-10-13. Signed installers are
-available for macOS (Apple Silicon), Windows (x64) and Linux (x64 and
+available for Mac OS (Apple Silicon), Windows (x64) and Linux (x64 and
 ARM64).
 
 ## See Also

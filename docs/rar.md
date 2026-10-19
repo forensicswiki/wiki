@@ -279,7 +279,7 @@ UnRAR
 
 The Unarchiver
 
-* Utility made for Mac OSX to open a multitude of files, including RAR
+* Utility made for Mac OS X to open a multitude of files, including RAR
 files
 * Very handy for dealing with multiple file types
 * [Source Code Download](https://code.google.com/archive/p/theunarchiver/downloads)

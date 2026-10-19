@@ -37,7 +37,7 @@ interface for input and output (such as an IDE-to-IDE block) or "Tailgate" when 
 different interfaces (such as a Firewire-to-SATA block).
 
 In contrast, software write-blockers rely on operating system-level modifications, such as
-modifying Windows registry keys (e.g., `StorageDevicePolicies\WriteProtect`) or applying specific
+modifying Windows Registry keys (e.g., `StorageDevicePolicies\WriteProtect`) or applying specific
 OS mount options (e.g., `mount -r`).  Software mechanisms are inherently OS-dependent and operate
 higher in the protocol stack.  Organizations like the Scientific Working Group on Digital Evidence
 (SWGDE) warn that software solutions do not guarantee absolute device-level protection, as

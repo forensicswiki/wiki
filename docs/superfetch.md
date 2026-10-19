@@ -85,7 +85,7 @@ Where "On/Off" likely refers to a cold scenario.
 
 Because SuperFetch appears to leave a system with no available memory, some
 users turn it off to create the appearance of having more free memory. The
-feature can be configured by changing the [Registry](windows_registry.md) value:
+feature can be configured by changing the [Windows Registry](windows_registry.md) value:
 
 ```text
 Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters

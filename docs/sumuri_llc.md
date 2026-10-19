@@ -16,9 +16,9 @@ is based in Camden, Delaware, USA.
 
 ### Software
 
-* [RECON IMAGER](recon_imager.md) - macOS
+* [RECON IMAGER](recon_imager.md) - Mac OS
   imager capable of forensic imaging of all Intel Based Macs. Based on
-  OS X.
+  Mac OS X.
 * [RECON for Mac OS X](recon_for_mac_os_x.md) - automated
   forensics toolkit for Mac OS X.
 * [CARBON](carbon.md) - complete virtual forensics suite.

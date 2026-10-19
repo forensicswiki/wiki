@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Windows
 ---
-The [OpenSaveMRU](opensavemru.md) Windows registry key was
+The [OpenSaveMRU](opensavemru.md) Windows Registry key was
 renamed starting in Windows Vista to OpenSavePidlMRU
 
 ## Notable Changes from Windows XP

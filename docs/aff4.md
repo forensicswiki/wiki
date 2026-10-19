@@ -130,7 +130,7 @@ stored on HTTP or HTTPS servers, as well as regular directories.
 The ZipFile implementation stores segments inside a zip archive. If the
 archive gets too large (over 4Gb) we use the Zip64 extensions to store
 offsets in 64 bits. This is nice since small volumes can just be opened
-with windows explorer. Its also really easy to extract the data out. A
+with Windows Explorer. Its also really easy to extract the data out. A
 ZipFile volume uses a FileLikeObject to actually store the zip file.
 
 This means that its possible to write a ZipFile volume directly onto a
@@ -195,7 +195,7 @@ forensic image of the filesystem itself). This could happen if you can
 not take the server down for incident response or if the filesystem is
 just so big and you know most of it will not be relevant.
 
-In that case there is nothing simpler than just to open up windows
+In that case there is nothing simpler than just to open up Windows
 explorer - right click and send to a compressed folder. A regular zip
 file is also an AFF4 volume!!! The files within it are stream objects
 and libaff4 will recognize them as such. Larger segments can be

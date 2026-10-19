@@ -16,7 +16,7 @@ manuals, in practice one needs to take into account operating system
 specific information to fully use all the information available.
 
 Rekall is the first open source memory forensic framework to currently
-take advantage of the pagefile during the analysis of windows systems.
+take advantage of the pagefile during the analysis of Windows systems.
 The WinPmem acquisition tool since version 1.6.2 is capable of
 automatically capturing the pagefile during acquisition.
 
@@ -27,13 +27,13 @@ process and kernel address spaces.
 I was recently at the SANS DFIR Summit and got to speak with many
 practitioners using memory analysis tools such as Rekall or Volatility.
 One of the comments I found interesting is that people asked why do we
-not use the pagefile for windows investigations? Apparently many people
+not use the pagefile for Windows analyses? Apparently many people
 have found that critical information was not recoverable by Rekall or
 Volatility because the pages were not resident (according to the tool).
 
 I decided to add pagefile support to Rekall, and as a result of my
 research into how paging works in Windows, I have discovered many
-interesting facts about the way windows performs virtual address
+interesting facts about the way Windows performs virtual address
 translation. This blog post discusses what I found and how this analysis
 is implemented in Rekall. The below reflects my current understanding of
 how things work, but since the exact behavior is not documented by
@@ -158,8 +158,8 @@ Figure 2. The pagefile is mapped into the physical address space.
 
 The previous Rekall implementation uses the `AMD64PagedMemory` address
 space for all operating systems, but obviously we need to treat the
-windows page file differently from other operating systems when we
-support windows specific pagefiles. In fact there is a subtle bug in
+Windows page file differently from other operating systems when we
+support Windows specific pagefiles. In fact there is a subtle bug in
 previous Rekall versions (and Volatility), which use this code to
 determine if a PTE is valid:
 
@@ -182,7 +182,7 @@ def entry_present(self, entry):
 ```
 
 This code is a holdover from the old Volatility code base and was
-introduced back when people noticed that many pages on a windows image
+introduced back when people noticed that many pages on a Windows image
 are in `Transition`. Pages in the `Transition` state are waiting to be
 written to the pagefile but still contain valid data. It's just that as
 far as the hardware is concerned they are not valid (so CPU access to
@@ -190,22 +190,22 @@ these pages will generate a pagefault). Windows uses the
 special `Transition` and `Prototype` flags (bits 10 and 11) to indicate
 the page is in transition. Volatility can simply treat the page as valid
 anyway (since it still contains valid data). This was a good idea at the
-time and gave us access to more valid pages on windows images.
+time and gave us access to more valid pages on Windows images.
 
 But this code is strictly incorrect! The `AMD64PagedMemory` address
 space is used for all operating systems and other operating systems do
 not use bits 10 and 11 in this way. Hence it is likely that this would
-produce subtly corrupted data on Linux and OSX!
+produce subtly corrupted data on Linux and Mac OS X!
 
 Clearly we need to have a specialized address space for the different
 operating systems. Hence in Rekall we introduce
-the `WindowsAMD64PagedMemory` which is only active for windows profiles.
+the `WindowsAMD64PagedMemory` which is only active for Windows profiles.
 This address space actually changes the way that virtual page
 translation is done almost completely to emulate the Windows kernel as
-accurately as possible. Linux and OSX should get their own address
+accurately as possible. Linux and Mac OS X should get their own address
 spaces in future (e.g. to handle compressed memory).
 
-## 3. Virtual Page Translation in windows
+## 3. Virtual Page Translation in Windows
 
 In this section we try to summarize how virtual page translation works
 on Windows. The seminal work on this subject was actually published back
@@ -215,12 +215,12 @@ the buffalo in Windows memory analysis." Digital Investigation 4.1
 subject. (I am frankly a little embarrassed that we did not implement
 the published algorithms until 2014 - almost 7 years late!).
 Unfortunately things have changed or there are some inaccuracies in the
-original work. We therefore need to re-examine paging on windows
+original work. We therefore need to re-examine paging on Windows
 currently and verify the algorithms published.
 
 In the below I will try to summarize the important points and point out
 how these are implemented in Rekall. In order to understand how paging
-works on windows, I wrote a sample test program, which set up some known
+works on Windows, I wrote a sample test program, which set up some known
 memory regions marked with a known pattern (The source code can be seen
 below). I then acquired the memory images (including pagefile) and
 attempted to reproduce the known state of the program.
@@ -365,7 +365,7 @@ a `Prototype PTE`. Thus we only need to update the Prototype PTE and all
 PTEs that refer to the shared memory will become automatically updated.
 
 So the best way to think of a Prototype PTE is that it is a `symlink` to
-something else. Here is the windows struct for the Prototype PTE:
+something else. Here is the Windows struct for the Prototype PTE:
 
 ```text
 [_MMPTE_PROTOTYPE _MMPTE_PROTOTYPE] @ 0x000000
@@ -1188,7 +1188,7 @@ We can see some interesting points:
 
 All of the examples shown yield invalid pages in previous versions of
 Rekall. However now, after properly interpreting the various PTEs in a
-windows specific way, Rekall is able to recover useful data in all these
+Windows specific way, Rekall is able to recover useful data in all these
 cases. It is quite interesting how much data we have been missing in the
 past. Even without using the pagefile, we still missed a lot of data
 because we did not properly support Prototype PTEs, and VAD PTEs. These
@@ -1209,7 +1209,7 @@ as much as we can from the data we do have, or as Jesse Kornblum said
 "Use Every Part of the Buffalo".
 
 We are currently working on further testing and implementing pagefile
-support for other operating systems (e.g. Linux and OSX). Although this
+support for other operating systems (e.g. Linux and Mac OS X). Although this
 feature is really new and not well tested yet, I wanted to write about
 it here so people know what we are working on for the next release and
 have a chance to try it out. Please feel free to test and contribute to

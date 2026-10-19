@@ -28,7 +28,7 @@ divided in the following categories:
 [Log Parser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
 
 From Microsoft, claims to parse a variety of log files, including XML
-and CSV, as well as Windows Event Log, Registry, and Active Directory
+and CSV, as well as Windows Event Log, Windows Registry, and Active Directory
 
 Also see: Microsoft Log Parser Toolkit, by Gabriele Giuseppini, Mark
 Burnett, ISBN: 1-93226-652-6
@@ -36,7 +36,7 @@ Burnett, ISBN: 1-93226-652-6
 [Logpresso Mini](https://github.com/logpresso/community)
 
 From Logpresso, claims to parse a variety of log files, including CSV,
-JSON, XML, CEF, LEEF, and WELF, as well as Windows Event Log, Registry
+JSON, XML, CEF, LEEF, and WELF, as well as Windows Event Log, Windows Registry
 
 ### Web Logfile Analytics
 

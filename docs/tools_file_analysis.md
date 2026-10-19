@@ -60,8 +60,8 @@ module as desired.
 
 [DTrace](https://www.oracle.com/it-infrastructure/)
 Comprehensive dynamic tracing framework for Solaris (also ported to
-MacOS X - XRays and FreeBSD). DTrace provides a powerful infrastructure
-to permit investigation of the behavior of the operating system and user
+Mac OS X - XRays and FreeBSD). DTrace provides a powerful infrastructure
+to permit analysis of the behavior of the operating system and user
 programs.
 
 [strings](strings.md)

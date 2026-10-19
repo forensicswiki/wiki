@@ -3,7 +3,7 @@ tags:
   - Encryption
 ---
 FileVault (or File Vault) is the cryptographic file system developed by
-[Apple](apple_inc.md) and introduced with MacOS 10.3.
+[Apple](apple_inc.md) and introduced with Mac OS X 10.3.
 
 FileVault works by storing each user's home directory in an encrypted
 ".sparseimage" file. The file is

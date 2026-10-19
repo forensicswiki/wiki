@@ -31,7 +31,7 @@ following extensions to seem to be commonly used:
 | --- | --- |
 | .pem | can contain a private key, public key, or certificate signing request. |
 | .crt | Windows file extension for a .pem file. |
-| .p12 | a PKCS12 file, which contains a private key and a certificate, encrypted for transport with a passphrase. This is the format that Windows and MacOS like to import |
+| .p12 | a PKCS12 file, which contains a private key and a certificate, encrypted for transport with a passphrase. This is the format that Windows and Mac OS like to import |
 
 ## Conversion
 

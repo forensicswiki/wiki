@@ -9,7 +9,7 @@ The following tools can be used to conduct memory analysis.
 ## Memory Analysis Frameworks
 
 * [Volatility Framework](volatility_framework.md) - A complete
-  framework for analyzing Windows, Linux and Mac OSX memory images.
+  framework for analyzing Windows, Linux and Mac OS X memory images.
 * [WindowsSCOPE Pro, Ultimate](https://www.windowsscope.com/) -
   Comprehensive toolkit for the capture and analysis of Windows physical
   and virtual memory targeting cyber analysis, forensics/incident

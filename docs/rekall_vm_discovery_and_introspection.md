@@ -11,7 +11,7 @@ tags:
 ## VM discovery and introspection with Rekall
 
 *Monday, 9 AM*. Your SIEM alerts you of packets matching a Gh0stpdf
-signature coming from a web designer's OS X machine.
+signature coming from a web designer's Mac OS X machine.
 
 Network activity for the host
 shows HTTP requests with a Chrome on Windows user-agent. The machine has
@@ -726,7 +726,7 @@ you can load this image in your tool of choice :)
 
 * **Any guest OS**, 32 and 64 bits.
 * All current Intel microarchitectures
-* **Live introspection** on Windows, Linux and OS X hosts via the PMEM
+* **Live introspection** on Windows, Linux and Mac OS X hosts via the PMEM
   memory acquisition drivers.
 * **Remote live VM detection and introspection** with GRR.
 * Allows 3rd party tools to analyze the VM memory.

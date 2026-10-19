@@ -23,7 +23,7 @@ Software Includes:
 3. [Foremost](foremost.md)/[Scalpel](scalpel.md)
 4. [Wireshark](wireshark.md)
 5. HexEditor
-6. [Vinetto](vinetto.md) ([thumbs.db](thumbs.db.md) examination)
+6. [Vinetto](vinetto.md) ([thumbs.db](thumbs.db.md) analysis)
 7. Pasco
 8. Rifiuti
 9. [Volatility Framework](volatility_framework.md)

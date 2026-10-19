@@ -200,8 +200,8 @@ and VBR data.
   for Windows XP, Vista, and Windows 7.
 * [USB Forensic Tracker](http://www.orionforensics.com/forensics-tools/usb-forensic-tracker/)
   has 32bit and 64bit Windows versions. Allows the parsing of Windows
-  and Apple OSX USB activity. Able to parse from the following sources :
-  Registry, Windows event logs, setupapi.log files and OSX system logs
+  and Apple Mac OS X USB activity. Able to parse from the following sources :
+  Windows Registry, Windows event logs, setupapi.log files and Mac OS X system logs
 * [Hacking Exposed Computer Forensics Blog Entry](https://www.hecfblog.com/2017/04/windows-now-built-in-anti-forensics.html)
   Considerations with Windows 10 USB attachments.
 * [Windows 10 Security Auditing](https://www.microsoft.com/en-us/download/details.aspx?id=52630)

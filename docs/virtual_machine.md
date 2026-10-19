@@ -76,8 +76,8 @@ VFC (Commercial) is reportedly very good, but troubles with booting
 Windows 2003 servers have been reported. It's a little pricey (\$1350
 for a Corp license), cheaper for law enforcement and Government. It
 WORKS the vast majority of the time and the developer provides excellent
-support and continuous updates. It works on all versions of windows up
-to windows 8 enabling an investigating officer to virtualise a suspects
+support and continuous updates. It works on all versions of Windows up
+to Windows 8 enabling an investigating officer to virtualise a suspects
 machine in seconds directly from a hard drive, from a forensic image
 (e01) or a raw DD image.
 

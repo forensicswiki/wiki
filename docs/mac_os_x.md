@@ -4,7 +4,7 @@ tags:
   - MacOS
   - Operating Systems
 ---
-Apple Inc.'s Macintosh OS X (pronounced "OS Ten") is the operating system
+Apple Inc.'s Mac OS X (pronounced "OS Ten") is the operating system
 distributed with Apple computers. It includes heavily used several programs by
 default, including [Apple Mail](apple_mail.md), a web browser called
 [Safari](apple_safari.md), and an Apple Address Book,
@@ -263,8 +263,8 @@ Mac OS.
 
 ## Also see
 
-* [MacOS Process Monitoring](macos_process_monitoring.md)
-* [Acquiring a MacOS System with Target Disk Mode](acquiring_a_macos_system_with_target_disk_mode.md)
+* [Mac OS Process Monitoring](macos_process_monitoring.md)
+* [Acquiring a Mac OS System with Target Disk Mode](acquiring_a_macos_system_with_target_disk_mode.md)
 * [Converting Binary Plists](converting_binary_plists.md)
 * [FileVault Disk Encryption](filevault_disk_encryption.md)
 * [File Vault](file_vault.md)
@@ -287,7 +287,7 @@ Mac OS.
 * [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
   by Emil Kvarnhammar, April 9, 2015
-* [Max OS X Internals book (1st ed)](https://newosxbook.com/1stEdIsFree.html)
+* [Mac OS X Internals book (1st ed)](https://newosxbook.com/1stEdIsFree.html)
   by Jonathan Levin
 * [The Boot Loader](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/booting/booting.html),
   by Apple
