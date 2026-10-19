@@ -3,4 +3,4 @@ tags:
   - Redirect
 ---
 
-_See: [docs/authorship identification](docs/authorship_identification.md)_
+_See: [authorship identification](authorship_identification.md)_

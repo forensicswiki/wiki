@@ -15,7 +15,7 @@ The following new features were introduced in Windows 8:
 
 ## File System
 
-The file system used by Windows 8 is primarily [NTFS](ntfs.md).
+The file system used by Windows 8 is primarily [NTFS](new_technology_file_system_(ntfs).md).
 
 The [Resilient File System (refs)](resilient_file_system_(refs).md) was
 initially available in the Windows 8 server edition but became part of

@@ -14,7 +14,7 @@ digital forensics and cybersecurity firm, the original author of the
 pioneer in applying high performance computing principles to digital
 forensics, and a professional music photographer.
 
-He maintains a [blog](blogs.md) called "Outlook Purple" and can
+He maintains a [blog](websites.md) called "Outlook Purple" and can
 be found on Twitter at @nolaforensix.
 
 ## See Also

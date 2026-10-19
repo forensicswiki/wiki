@@ -34,7 +34,7 @@ large number of hard drives and written about what they have found. This
 web page is an attempt to catalog all of those stories in chronological
 order.
 
-* **2003-01**: [Simson Garfinkel](simson_garfinkel.md) and Abhi
+* **2003-01**: [Simson Garfinkel](simson_l_garfinkel.md) and Abhi
   Shelat at MIT publish a study in *IEEE Security and Privacy Magazine*
   which documents large amount of personal and business-sensitive
   information found on 150 drives purchased on the secondary market.

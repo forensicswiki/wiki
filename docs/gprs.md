@@ -6,7 +6,7 @@ tags:
 communication service that transfers data at a rate of up to 40-50Kbps,
 a similar access speed to a dial-up modem.
 
-It permits continuous connection to the Internet for [mobile phones](mobile_phone.md)
+It permits continuous connection to the Internet for [mobile phones](cell_phones.md)
 and higher data rates allow for the use of multimedia applications such as
 websites viewing on mobile handheld devices. Other features provided through
 the use of GPRS are e-mail, video streaming, multimedia messages and
@@ -35,11 +35,11 @@ GPRS](https://www.nokia.com/).
 ## GPRS Classes
 
 There are three GPRS classes which help indicate the capabilities of a
-[mobile phone](mobile_phone.md).
+[mobile phone](cell_phones.md).
 
 **Class A**
 Mobile phones of this class can be connected to both GPRS and
-[GSM](gsm.md) services simultaneously.
+[GSM](global_system_for_mobile_communications.md) services simultaneously.
 
 **Class B**
 Mobile phones of this class can be attached to both GPRS and GSM

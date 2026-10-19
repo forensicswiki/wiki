@@ -28,7 +28,7 @@ sample cases that may be useful for examiners to practice with.
 
 ### Digital corpora
 
-Under an NSF grant, Kam Woods and [Simson Garfinkel](simson_garfinkel.md)
+Under an NSF grant, Kam Woods and [Simson Garfinkel](simson_l_garfinkel.md)
 created a website for [digital corpora](https://digitalcorpora.org/). The
 site includes a complete training scenario, including disk images, packet
 captures and exercises.
@@ -79,7 +79,7 @@ related to computers, some aren't.
 
 ### Real Data Corpus
 
-Between 1998 and 2006, [Garfinkel](simson_garfinkel.md) acquired
+Between 1998 and 2006, [Garfinkel](simson_l_garfinkel.md) acquired
 1250+ hard drives on the secondary market. These hard drive images have
 proven invaluable in performing a range of studies such as the
 developing of new forensic techniques and the [sanitization practices](https://simson.net/clips/academic/2003.IEEE.DiskDriveForensics.pdf)

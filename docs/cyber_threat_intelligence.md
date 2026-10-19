@@ -55,7 +55,7 @@ Cons:
 * [Driving a Collectively Stronger Security Community with Microsoft Interflow](https://learn.microsoft.com/en-us/archive/blogs/),
   by Jerry Bryant, June 23, 2014
 * [NIST Special Publication 800-150 (Draft) - Guide to Cyber Threat 6 Information Sharing (Draft)](https://csrc.nist.gov/files/pubs/sp/800/150/ipd/docs/sp800_150_draft.pdf),
-  by [NIST](nist.md)
+  by [NIST](national_institute_of_standards_and_technology.md)
 
 ### Feeds (or equivalent)
 

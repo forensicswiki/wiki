@@ -10,7 +10,7 @@ tags:
 
 ## File System
 
-The file system used by Windows 7 is primarily [NTFS](ntfs.md).
+The file system used by Windows 7 is primarily [NTFS](new_technology_file_system_(ntfs).md).
 
 ## SSD
 

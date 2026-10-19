@@ -10,7 +10,7 @@ Bethesda, Maryland. The company was founded in 2005 by J.J. Wallia and Raphael
 Bousquet.
 
 ADF Solutions develops tools for media exploitation (MEDEX) and [digital
-forensics](digital_forensics.md) triage. These tools scan
+forensics](computer_forensics.md) triage. These tools scan
 computers and digital devices and rapidly extract intelligence and
 evidence to identify individuals who are a threat to public safety or
 national security. They are used in digital forensic labs and used by

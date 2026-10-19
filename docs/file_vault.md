@@ -27,7 +27,7 @@ In Mac OS X 10.7 (Lion) a full volume encryption variant was introduced.
 ## External Links
 
 * [Design Principles and Patterns for Computer Systems That Are Simultaneously Secure and Usable](https://simson.net/thesis/),
-  by [Simson Garfinkel](simson_garfinkel.md), May 2005. PhD thesis
+  by [Simson Garfinkel](simson_l_garfinkel.md), May 2005. PhD thesis
   that discusses of File Vault's usability shortcomings.
 * [Unlocking FileVault](https://fahrplan.events.ccc.de/congress/2006/Fahrplan/track/Hacking/1642.en.html)
   talk at 23rd Chaos Communication Congress (23c3), by Jacob Appelbaum and

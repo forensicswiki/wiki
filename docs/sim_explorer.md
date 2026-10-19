@@ -9,7 +9,7 @@ SIM cards.
 SIM Explorer's primary advantage is that it can work with *any type of SIM
 card* and show all the files on that card; this includes new card types that
 will be released in the future. The software is specifically compatible with
-[SIM](sim.md), USIM, [RUIM](ruim.md) and Nextel [iDEN](iden.md) cards and it
+[SIM](sim_cards.md), USIM, [RUIM](ruim.md) and Nextel [iDEN](iden.md) cards and it
 will be able to interpret their standard files and show them in a
 human-readable form.
 

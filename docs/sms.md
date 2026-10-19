@@ -9,7 +9,7 @@ popular among today's youth.
 
 ## History
 
-SMS was originally designed for [GSM](gsm.md), but most all of
+SMS was originally designed for [GSM](global_system_for_mobile_communications.md), but most all of
 the large digital mobile phone providers provide the ability to send
 messages to other phones via the SMS.
 

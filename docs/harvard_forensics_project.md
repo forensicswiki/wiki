@@ -7,7 +7,7 @@ Research on Computation and Society (CRCS) at Harvard University.
 
 ## Project Coordinator
 
-* [Simson L. Garfinkel](simson_garfinkel.md)
+* [Simson L. Garfinkel](simson_l_garfinkel.md)
   (http://www.simson.net/)
 
 ## Students

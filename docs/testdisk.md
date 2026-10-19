@@ -75,7 +75,7 @@ TestDisk can find lost partitions of the following file systems:
 * [Linux Logical Volume Manager](linux_logical_volume_manager_(lvm).md) (LVM and LVM2)
 * Mac partition map
 * Novell Storage Services (NSS)
-* [NTFS](ntfs.md) ([Windows](windows.md)
+* [NTFS](new_technology_file_system_(ntfs).md) ([Windows](windows.md)
   NT/2000/XP/2003/Vista/2008)
 * [ReiserFS](reiserfs.md) 3.5, 3.6 and 4
 * Sun Solaris i386 disklabel

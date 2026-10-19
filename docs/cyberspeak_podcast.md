@@ -96,7 +96,7 @@ each show are listed below.
 * 25 Mar 2007: Shmoocon broadcast
 * 1 Apr 2007: Kevin Smith from LTU Technologies about Image Seeker
 * 15 Apr 2007: [Jim Christy](jim_christy.md) from the
-  [Defense Cyber Crime Center](defense_cyber_crime_center.md)
+  [Defense Cyber Crime Center](dod_cyber_crime_center.md)
 * 22 Apr 2007: [Jesse Kornblum](jesse_kornblum.md) all about the
   [Forensics Wiki](index.md)!
 * 29 Apr 2007: [Harlan Carvey](harlan_carvey.md) discusses his

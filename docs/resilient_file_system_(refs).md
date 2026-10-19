@@ -4,7 +4,7 @@ tags:
 ---
 The Resilient File System (ReFS) (AKA protogon) was introduced in
 [Windows 8](windows.md), with the intention of eventually
-replacing [NTFS](ntfs.md). It has been designed for use with
+replacing [NTFS](new_technology_file_system_(ntfs).md). It has been designed for use with
 huge data sets, and provides improvements over NTFS with features such
 as repairing errors "on-the-go" (automatic chkdsk) and preventing Torn
 Writes by using a "Copy-On-Write" feature.

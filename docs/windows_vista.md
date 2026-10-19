@@ -9,7 +9,7 @@ tags:
 * [Search](windows_desktop_search.md) integrated in operating system
 * [ReadyBoost](readyboost.md)
 * [SuperFetch](superfetch.md)
-* [Transactional NTFS (txf)](ntfs.md)
+* [Transactional NTFS (txf)](new_technology_file_system_(ntfs).md)
 * [Transactional Registry (txr)](windows_nt_registry_file_(regf).md)
 * [Shadow Volumes](windows_shadow_volumes.md); the volume-based storage of the
   Volume Shadow Copy data
@@ -20,7 +20,7 @@ tags:
 ## File System
 
 The file system used by Windows Vista is primarily
-[NTFS](ntfs.md).
+[NTFS](new_technology_file_system_(ntfs).md).
 
 In Windows Vista, NTFS no longer tracks the Last Access time of a file
 by default. This feature can be enabled by setting the

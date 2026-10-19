@@ -3,7 +3,7 @@ tags:
   - Email analysis
 ---
 Version 6 of Outlook Express running on
-[Microsoft Windows](microsoft_windows.md) generates headers in
+[Microsoft Windows](windows.md) generates headers in
 the format:
 
 ```text

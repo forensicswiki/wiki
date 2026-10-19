@@ -8,24 +8,22 @@ time), last access (atime) and (inode) change (ctime) of a certain file.
 **Note that ctime is not to be confused with creation time.** Creation time is often represented
 with btime, as in Birth, or crtime. Hence MACB; Modification, Access, Change and Birth.
 
-[Unix](unix.md) systems maintain the historical interpretation
-of *ctime* as the time when certain file metadata, not its contents,
-were last changed, such as the file's permissions or owner (e.g. 'This
-files metadata was changed on 05/05/02 12:15pm'). Though POSIX only
-specifies *mtime*, *atime* and *ctime*, some Unix-like systems also
-implement *btime* on compatible file systems (for instance ext4 on Linux
-distributions, UFS2 on FreeBSD).
+[Unix](unix.md) systems maintain the historical interpretation of *ctime* as the time when certain
+file metadata, not its contents, were last changed, such as the file's permissions or owner (e.g.
+'This files metadata was changed on 05/05/02 12:15pm'). Though POSIX only specifies *mtime*,
+*atime* and *ctime*, some Unix-like systems also implement *btime* on compatible file systems (for
+instance ext4 on Linux distributions, UFS2 on FreeBSD).
 
-In both [NTFS](ntfs.md) and [ReFS](resilient_file_system_(refs).md) each file has a timestamp for
-'Create', 'Modify', 'Access', and 'Entry Modified'. The latter refers to the time when the MFT
-entry itself was modified. These four values are commonly abbreviated as the 'MACE' values.
+In both [NTFS](new_technology_file_system_(ntfs).md) and [ReFS](resilient_file_system_(refs).md)
+each file has a timestamp for 'Create', 'Modify', 'Access', and 'Entry Modified'. The latter refers
+to the time when the MFT entry itself was modified. These four values are commonly abbreviated as
+the 'MACE' values.
 
 Other file systems like [HFS](hfs+.md) include different timestamps like e.g. a backup time.
 
 ## Time resolution
 
-When dealing with MAC times it's important to know and understand the
-concept of time resolution.
+When dealing with MAC times it's important to know and understand the concept of time resolution.
 
 On [FAT](fat.md):
 
@@ -43,8 +41,7 @@ On NTFS file system:
   flushed to the
   disk.[2](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times)
 
-Tampering of file times can usually be detected by an absence of
-sub-second resolution on any of the
+Tampering of file times can usually be detected by an absence of sub-second resolution on any of the
 timestamps.[3](https://www.meridiandiscovery.com/articles/date-forgery-analysis-timestamp-resolution/)
 
 ## Access Time Update

@@ -13,7 +13,7 @@ command line digital investigation analysis tools in [The Sleuth Kit](the_sleuth
 Together, they can analyze [Windows](windows.md) and [UNIX](unix.md) disks and
 [file systems](file_systems.md) such as:
 
-* [NTFS](ntfs.md)
+* [NTFS](new_technology_file_system_(ntfs).md)
 * [FAT](fat.md)
 * UFS1/UFS2
 * [Ext2/Ext3](extended_file_system_(ext).md)

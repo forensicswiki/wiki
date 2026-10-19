@@ -42,7 +42,7 @@ the more complex jammers can block several different networks thus
 preventing dual- or tri-mode phones from switching to a different
 network with an open signal. Jammers are able to broadcast on any
 frequency and can interrupt AMPS,
-[CDMA](cdma.md), [TDMA](tdma.md), [GSM](gsm.md),
+[CDMA](cdma.md), [TDMA](tdma.md), [GSM](global_system_for_mobile_communications.md),
 PCS, DCS, [iDEN](iden.md)
 and Nextel systems. The effective range of a jammer is dependent upon
 the strength of its power source and the immediate physical environment

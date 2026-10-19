@@ -8,7 +8,7 @@ They can be used to access the Internet usually through Wi-Fi.
 
 ## Current Popular PDA Operating Systems
 
-* [RIM BlackBerry](rim_blackberry.md)
+* [RIM BlackBerry](blackberry.md)
 * [Linux](linux.md)
 * [Palm](palm.md)
 * [Symbian](symbian.md)

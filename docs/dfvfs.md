@@ -56,7 +56,7 @@ The information below is based of version 20230503.
   * At the moment only single physical volume LVM support
 * [Linux Unified Key Setup](linux_unified_key_setup_(luks).md) or LUKS using
   [libluksde](libluksde.md)
-* [MBR](mbr.md) using [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
+* [MBR](master_boot_record.md) using [The Sleuth Kit](the_sleuth_kit.md) and [pytsk](pytsk.md)
 * [Windows Shadow Volumes](windows_shadow_volumes.md) or VSS using [libvshadow](libvshadow.md)
 
 ### File systems

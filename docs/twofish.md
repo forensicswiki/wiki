@@ -6,7 +6,7 @@ tags:
 [Bruce Schneier](bruce_schneier.md), John Kelsey, Doug Whiting, David Wagner,
 Chris Hall, and Niels Ferguson, Eli Biham and Lars Knudsen as a candidate for
 the Advanced Encryption Standard [AES](aes.md) competition, where it got third
-place with 31 votes (Rijndael got 86 votes, and was selected by [NIST](nist.md)
+place with 31 votes (Rijndael got 86 votes, and was selected by [NIST](national_institute_of_standards_and_technology.md)
 as the [AES](aes.md), and [Serpent](serpent.md).
 
 Twofish is a symmetric key block cipher with a block size of 128 bits and key

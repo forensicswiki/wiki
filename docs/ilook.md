@@ -18,7 +18,7 @@ ILooKIX v9 for commercial use in two versions, Standard and Advanced.
 ILooKIX can support a wide variety of file systems, including:
 
 * [FAT](fat.md) 12/16/32
-* [NTFS](ntfs.md) and NTFS compressed
+* [NTFS](new_technology_file_system_(ntfs).md) and NTFS compressed
 * (Classic) HFS and [HFS+](hfs+.md)
 * [ext2, ext3](extended_file_system_(ext).md)
 * [ReiserFS](reiserfs.md) 1, 2, and 3

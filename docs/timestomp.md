@@ -15,7 +15,7 @@ command prompt window displaying the MACE values for a document file
 titled "text.txt". There are (4) four date time and date stamps
 displayed that are useful to Forensic Examiners in reconstructing when
 data was last modified, accessed, created, or entered into the
-[NTFS](ntfs.md) Master File Table by the operating system or
+[NTFS](new_technology_file_system_(ntfs).md) Master File Table by the operating system or
 manually by the user.
 
 ![Timestomp_mace_change.jpg](assets/images/Timestomp_mace_change.jpg){width="400"}

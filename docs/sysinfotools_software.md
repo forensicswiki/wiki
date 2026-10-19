@@ -136,7 +136,7 @@ even save them in HTML format.
 * Supports creation of Log file with flexible saving option
 * Simple and highly interactive user interface
 * Compatible with all versions of
-  [Microsoft Windows](microsoft_windows.md)
+  [Microsoft Windows](windows.md)
 
 ### DBX Recovery Tool
 

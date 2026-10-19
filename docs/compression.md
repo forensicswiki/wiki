@@ -21,7 +21,7 @@ Used in:
 
 Used in:
 
-* [NTFS](ntfs.md)
+* [NTFS](new_technology_file_system_(ntfs).md)
 * [Windows SuperFetch Format](windows_superfetch_format.md)
 
 ### LZSS

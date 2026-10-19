@@ -137,7 +137,7 @@ as:
 
 * International Mobile Subscriber Identity (IMSI): A unique
   identifying number that identifies the phone/subscription to the
-  [GSM](gsm.md) network
+  [GSM](global_system_for_mobile_communications.md) network
 * Mobile Country Code (MCC): A three-digit code that represents the
   SIM card's country of origin
 * Mobile Network Code (MNC): A two-digit code that represents the
@@ -221,7 +221,7 @@ Some additional information the service provider might store:
 
 ## Sim Card Text Encoding
 
-Originally the middle-European [GSM](gsm.md) network used only a
+Originally the middle-European [GSM](global_system_for_mobile_communications.md) network used only a
 7-bit code derived from the basic [ASCII](ascii.md) code.
 However as GSM spread worldwide it was concluded that more characters,
 such as the major characters of all living languages, should be able to

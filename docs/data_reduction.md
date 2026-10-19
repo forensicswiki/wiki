@@ -18,7 +18,7 @@ two inputs that have the same hash are almost certainly the same. In
 this vein, an investigator can compute hashes of known good and known
 bad inputs (e.g. files) and use those hashes to search for those known
 files in a set of unknown files. For example, the
-[NIST](nist.md) [National Software Reference
+[NIST](national_institute_of_standards_and_technology.md) [National Software Reference
 Library](national_software_reference_library.md) provides
 several million hashes of known good [operating
 system](operating_system.md) files. If an invesigator can match

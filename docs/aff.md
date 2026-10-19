@@ -7,7 +7,7 @@ tags:
 ---
 The **Advanced Forensics Format** (**AFF**) is an extensible open format for
 the storage of [disk images](disk_image.md) and related forensic
-[metadata](metadata.md). It was originally developed by [Simson Garfinkel](simson_garfinkel.md)
+[metadata](metadata.md). It was originally developed by [Simson Garfinkel](simson_l_garfinkel.md)
 and Basis Technology. The last version of AFF is implemented in the
 AFFLIBv3 library, which can be found on [GitHub](https://github.com/simsong/AFFLIBv3).
 
@@ -19,7 +19,7 @@ Schatz. That version can be downloaded from [GitHub](https://github.com/Velocide
 projects.**
 
 [The Sleuth Kit](the_sleuth_kit.md), Autopsy, OSFMount, [Xmount](xmount.md),
-[FTK Imager](ftk_imager.md) and [FTK](ftk.md) support the AFFv3 image format.
+[FTK Imager](ftk_imager.md) and [FTK](forensic_toolkit.md) support the AFFv3 image format.
 
 ## AFF Background
 

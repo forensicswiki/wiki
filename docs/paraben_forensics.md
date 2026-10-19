@@ -47,7 +47,7 @@ acquire information from most models made by the following companies:
 * Siemens
 * [Sony-Ericcson](sony_ericsson.md)
 
-Also can acquire [GSM](gsm.md) SIM Cards.
+Also can acquire [GSM](global_system_for_mobile_communications.md) SIM Cards.
 
 Another disadvantage would be that the format of acquired data can
 sometimes be confusing. The data is not organized nice and neat and
@@ -57,7 +57,7 @@ has been acquired.
 
 #### Features
 
-* Supports [GSM](gsm.md), [TDMA](tdma.md), and
+* Supports [GSM](global_system_for_mobile_communications.md), [TDMA](tdma.md), and
   [CDMA](cdma.md) [cell phones](cell_phones.md)
 * Acquires [text messages](sms.md), address books, call logs, etc.
 * Acquires complete GSM SIM card

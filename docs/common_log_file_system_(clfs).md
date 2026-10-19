@@ -7,7 +7,7 @@ The **Common Log File System** (**CLFS**) is a special purpose file
 (sub)system designed for transaction logging and/or recovery. The CLFS
 is not a file system in the traditional meaning of a disk file system,
 but more of a logical (special purpose) file system that operates in
-combination with a disk file system like [NTFS](ntfs.md).
+combination with a disk file system like [NTFS](new_technology_file_system_(ntfs).md).
 
 ## Overview
 

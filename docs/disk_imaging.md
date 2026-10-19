@@ -86,7 +86,7 @@ based imaging.
 ### Selective imaging
 
 Selective imaging is a technique to only make a copy of certain
-information on a disk like the \$MFT on an [NTFS](ntfs.md)
+information on a disk like the \$MFT on an [NTFS](new_technology_file_system_(ntfs).md)
 volume with the necessary contextual information.
 
 [EnCase](encase.md) is an example

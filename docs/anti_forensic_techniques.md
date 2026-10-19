@@ -47,7 +47,7 @@ data, in compliance with DoD standard 5220.22-M. (US DoD, 1995). In 1996
 Gutmann asserted that it might be possible to recover overwritten data
 and proposed a 35-pass approach for assured sanitization (Gutmann 1996).
 However, a single overwriting pass is now viewed as sufficient for
-[sanitizing](sanitizing_tools.md) data from ATA drives with
+[sanitizing](media_sanitizing.md) data from ATA drives with
 capacities over 15 GB that were manufactured after 2001 (NIST 2006).
 
 Be aware that software 'data destroyers' may not necessarily do what
@@ -72,7 +72,7 @@ tracks by overwriting the access times themselves so that the timeline
 could not be reliably constructed.
 
 For example, [Timestomp](timestomp.md) will overwrite
-[NTFS](ntfs.md) "create," "modify," "access," and "change"
+[NTFS](new_technology_file_system_(ntfs).md) "create," "modify," "access," and "change"
 timestamps (metasploit). The Defiler's Toolkit can overwrite inode
 timestamps and deleted directory entries on many Unix systems;
 timestamps on allocated files can also be modified using the Unix touch

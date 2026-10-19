@@ -50,7 +50,7 @@ of the program and added:
 
 * support for VLANs
 * support for IPv6
-* [DFXML](dfxml.md) output of the connections in a
+* [DFXML](digital_forensics_xml_schema.md) output of the connections in a
   **report.xml** file.
 * Improved performance through the use of the C++ STL classes.
 * Support for continuous operation (tcpflow now purges out old flows).
