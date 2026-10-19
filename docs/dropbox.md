@@ -18,7 +18,7 @@ thus potentially every user's files to be exposed to the world.
 
 ## Client Application
 
-The Dropbox client running on windows was analyzed and shown to leave a
+The Dropbox client running on Windows was analyzed and shown to leave a
 significant amount of data debris behind when deleted.
 
 Even after deletion of the application, this would allow a forensic

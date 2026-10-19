@@ -11,13 +11,13 @@ tags:
 The recent Rekall Furka release updated the pmem suite of acquisition
 tools, so I thought this would be a good time to write a blog post about
 the new features and to recap the work we have been doing on reliable
-and robust memory acquisition for Linux, OSX and Windows.
+and robust memory acquisition for Linux, Mac OS X and Windows.
 
 ## The Pmem memory acquisition suite
 
 The Pmem suite of memory acquisition tools are already quite well known
 as the best open source memory acquisition tools available, and in the
-case of OSX, the only reliable memory acquisition solution available for
+case of Mac OS X, the only reliable memory acquisition solution available for
 the latest versions of the operating system. This blog post discusses
 some of the recent changes we made in the recently released pmem 2.1
 series of acquisition tools. The old Winpmem 1.6.2 tool is still
@@ -45,7 +45,7 @@ Here is a high level overview of the different components:
 We see that there are four main kernel based components to facilitate
 access to physical memory:
 
-1. On OSX, the MacPmem memory driver provides direct access to physical
+1. On Mac OS X, the MacPmem memory driver provides direct access to physical
    memory.
 2. On Windows, the WinPmem kernel driver provides physical memory access.
 3. On Linux, we mainly rely on the built in /proc/kcore device which is
@@ -108,7 +108,7 @@ also be made to look like a RAW or ELF image to other tools.
 ### Let me see examples
 
 Let's take a look at an example. In this example, I am acquiring memory
-from an OSX system into a standard AFF4 ZIP container. This is the
+from a Mac OS X system into a standard AFF4 ZIP container. This is the
 default output format:
 
 ![screenshot](docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_mobkl5agrujhhrhb5gqhqgbp.png)
@@ -142,7 +142,7 @@ compressed chunks to store the bulk data in the image. Hence we get both
 compression and sparse image.
 
 We can use the regular unzip command to inspect it (NOTE: The default
-unzip that comes with OSX does not support ZIP64 very well so it reports
+unzip that comes with Mac OS X does not support ZIP64 very well so it reports
 the file as slightly corrupted. It is not, in fact corrupted at all and
 a proper unzip utility will support it well).
 
@@ -228,7 +228,7 @@ better to acquire these files in the first place.
 The nice thing about AFF4 containers is that they can store multiple
 streams - i.e. they can capture more than one file. The Pmem suite tries
 to acquire as many files as it can automatically. For example, in
-windows the pagefile can be acquired, as well as all the drivers and the
+Windows the pagefile can be acquired, as well as all the drivers and the
 kernel image itself. In Linux, the contents of */proc/kallsyms* is
 captured as well as the /boot/ partition.
 
@@ -251,7 +251,7 @@ only difference is in the userspace tool.
 
 ## The OSXPmem acquisition tool
 
-The OSX counterpart of the pmem suite comes as a ZIP file. To use it you
+The Mac OS X counterpart of the pmem suite comes as a ZIP file. To use it you
 simply need to unzip it as root (note: You must be root when unzipping
 on order to ensure proper file permissions. The extracted files must be
 owned by root and only readable by root).

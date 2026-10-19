@@ -105,7 +105,7 @@ binary format segments.
   tool that can parse both the custom and automatic Destinations type
   files. For automaticDestinations it associates the MRU/MFU metadata
   with that of the SHLLINK metadata. There are versions of the tool that
-  can run in Windows, Linux or Mac OS-X.
+  can run in Windows, Linux or Mac OS X.
 * [Woanware: JumpLister](https://github.com/woanware). Tool to view
   the information within the numbered streams of each autodest file.
 * [plaso](plaso.md)

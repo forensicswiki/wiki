@@ -48,7 +48,7 @@ This problem was also discussed in the Black Hat talk
 
 ## Does Rekall use the KDBG
 
-Volatility windows profiles are typically generated using the
+Volatility Windows profiles are typically generated using the
 `pdbparse` project, using the pdb_tpi_vtypes.py script:
 [pdb_tpi_vtypes.py](https://code.google.com/p/pdbparse/source/browse/trunk/examples/pdb_tpi_vtypes.py)
 They normally only contain the vtype definitions (embedded into
@@ -56,7 +56,7 @@ python files), for example the vista_sp0_x64_vtypes.py overlay:
 [vista_sp0_x64_vtypes.py](https://code.google.com/p/volatility/source/browse/trunk/volatility/plugins/overlays/windows/vista_sp0_x64_vtypes.py)
 
 While developing the Rekall profile system (which is described in detail
-in previous blog posts), new profiles were generated for windows
+in previous blog posts), new profiles were generated for Windows
 kernels. Rather than rely on the `pdbparse` project to parse the pdb
 files, we have implemented a complete Microsoft PDB parser within the
 Rekall framework (This will be described in a future blog post).
@@ -70,7 +70,7 @@ that script is not currently used by Volatility).
 
 In other words, the PDB file contains the addresses in memory of many
 symbols. This is akin to the `System.map` file we use when analyzing a
-Linux memory image. Lets examine a typical Rekall windows profile:
+Linux memory image. Lets examine a typical Rekall Windows profile:
 
 ```bash
 {

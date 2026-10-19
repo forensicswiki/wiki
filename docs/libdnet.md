@@ -31,7 +31,7 @@ networking routines, including:
 
 * BSD (OpenBSD, FreeBSD, NetBSD, BSD/OS)
 * Linux (Redhat, Debian, Slackware, etc.)
-* MacOS X
+* Mac OS X
 * Windows (NT/2000/XP)
 * Solaris
 * IRIX

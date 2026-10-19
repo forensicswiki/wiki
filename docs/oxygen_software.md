@@ -5,7 +5,7 @@ tags:
   - Windows Mobile
   - Discontinued
 ---
-Oxygen Software, was founded in 2000, is the maker of the advanced forensic data examination tools for
+Oxygen Software, was founded in 2000, is the maker of the advanced forensic data analysis tools for
 smartphones and other mobile devices, covering a wide range of mobile devices running Android, iOS,
 Blackberry, Windows Phone, Symbian and other operating systems.
 

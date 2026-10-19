@@ -119,7 +119,7 @@ SSD, RAID, Flash storage devices. PC-3000 software runs on Windows OS
 
 * [PC INSPECTOR File Recovery](https://pcinspector.de/)
 
-PC INSPECTOR File Recovery is a freeware windows program that is able to
+PC INSPECTOR File Recovery is a freeware Windows program that is able to
 recover files from FAT12/16/32 and NTFS file systems.
 
 * [SalvationDATA](https://www.salvationdata.com/)
@@ -131,7 +131,7 @@ with proprietary commands.
 
 * [MiniTool Data Recovery](minitool_data_recovery.md)
 
-Easy simple free data recovery software for windows, recover
+Easy simple free data recovery software for Windows, recover
 deleted/damaged/lost/formatted files from HDs, SD card and USB storage
 device.
 
@@ -200,7 +200,7 @@ licensed under the GNU Public License (GPL).
 * [Partition Recovery Software](https://www.stellarinfo.com/partition-recovery-software.php)
 
 Partition Recovery software for NTFS & FAT system that examines lost
-windows partition of damaged and corrupted hard drive.
+Windows partition of damaged and corrupted hard drive.
 
 * [M3 RAW Drive Recovery](https://iboysoft.com/raw-drives-recovery/)
 

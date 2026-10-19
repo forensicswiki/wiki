@@ -12,7 +12,7 @@ exploitation attempts.
 
 ## Windows Update Status
 
-The following registry keys and values indicate Windows Update status.
+The following Windows Registry keys and values indicate Windows Update status.
 
 ```text
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\Results\Detect

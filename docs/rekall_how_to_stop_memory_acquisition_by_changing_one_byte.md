@@ -523,7 +523,7 @@ key                  value
 
 Now instead of disassembling to the interactive notebook, we store it in
 a file. This does take a while but will produce a large text file
-containing the complete disassembly of the windows kernel (With
+containing the complete disassembly of the Windows kernel (With
 debugging symbols cross referenced).
 
 In [3]:

@@ -33,7 +33,7 @@ On Linux
 /home/$USER/.mozilla/firefox/$PROFILE.default/places.sqlite
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Application Support/Firefox/Profiles/$PROFILE.default/places.sqlite
@@ -117,7 +117,7 @@ On Linux
 /home/$USER/.mozilla/firefox/$PROFILE.default/Cache/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/Cache/
@@ -143,7 +143,7 @@ On Linux
 /home/$USER/.mozilla/firefox/$PROFILE.default/cache2/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Caches/Firefox/Profiles/$PROFILE.default/cache2/

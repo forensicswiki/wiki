@@ -30,6 +30,8 @@ Conventions pymarkdown checks for:
 * Do not use special characters (!, &, etc.) in headings that other pages link to by anchor;
   pymarkdown and MkDocs generate different [slugs](https://en.wikipedia.org/wiki/Clean_URL#Slug)
   for them. Use plain words instead.
+* Renaming a heading changes its anchor slug. Before renaming, make sure that no other
+  article links to the old slug.
 * Files end with exactly one trailing newline.
 
 ## Article structure
@@ -52,7 +54,7 @@ e.g. `Wireless forensics is the process of ...`
 The body follows, then additional sections in this order:
 
 1. subsections part of the description of the topic, which are at minimum heading level 2 (`##`).
-2. `## See also`, which contains references to articles within Forensics Wiki relevant for the
+2. `## See Also`, which contains references to articles within Forensics Wiki relevant for the
    topic.
 3. `## External Links`, which contain references to external articles, relevant for the topic.
 4. `## Tools` or equivalent sections such as `## Services` or `## Training`
@@ -68,13 +70,71 @@ article about "forensic artifacts".
 
 ## Writing style
 
-Write for an international audience of many backgrounds:
+Using standardized (or normalized) terminology is essential for an international audience because
+it eliminates ambiguity, ensures accurate and culturally nuanced translations, and creates a
+unified baseline of communication across diverse languages and borders.
 
 * Do not assume every reader is a native English speaker, avoid uncommon terms or metaphors.
 * Do not assume every reader has the same expertise or background, avoid non-standard
   abbreviations or jargon. If unavoidable explain them in the concepts article (concepts.md).
 * Use international standards, e.g. ISO 8601 instead of localized date and time notations.
 * Use unambiguous notations, e.g. USD instead of Dollar or $.
+* Use the adjective "forensic" before a noun ("forensic analysis", "forensic investigation"), not
+  the noun "forensics" ("forensics analysis").
+* American spelling such as analyze, analyzed, analyzing, is preferred over British variants,
+  such as analyse, analysed, analysing; corrections are welcome but not required.
+* Use the ASCII character set for punctuation as much as possible, such as "-" instead of "—".
+
+### Names
+
+* Capitalize the names of operating systems, software and other proper nouns, e.g. `Windows`
+  instead of `windows`.
+* For Mac OS, prefer `Mac OS` when the text is about the operating system in general. Use
+  `macOS`, `Mac OS X`, or `MacOS` when it is the official name of a specific version of Mac OS,
+  e.g. `macOS 15 Sequoia`.
+* Use `Windows Registry` instead of the more general `registry`, to disambiguate from, e.g.,
+  the domain name registry.
+
+### Preferred terminology
+
+See Also: [terminology](docs/terminology.md)
+
+#### Analysis, Examination and Investigation
+
+Use the term that matches the scope of the work being described.
+
+* *analysis* - the data-level work: interpreting specific artifacts and tool output. The
+  most technical and granular term.
+* *examination* - the inspection of the evidence itself, forensically sound, documented
+  and court-facing.
+* *investigation* - the whole case: scoping, acquisition, examination, analysis and
+  reporting, ending in a legally defensible answer.
+
+To decide, look at what the work acts on.
+
+* Work on *data* - artifacts, log files, tool output - is *analysis*.
+* Work on the *evidence itself*, documented and ready for court, is *examination*.
+* Work on the *case as a whole* - the question, the acquisition, the reporting - is *investigation*.
+
+Where the scope spans more than one level, prefer the narrowest term that fully covers the
+work being described.
+
+Sub-discipline names and tags are fixed terminology that contain *analysis* by design should
+remain as-is. This includes names such as *memory analysis*, *malware analysis*, *timeline
+analysis*, *file analysis*, *log analysis*, *cell site analysis* and *flow-based analysis*, as well
+as the tags listed in the Tags section.
+
+Common English uses of these words are not governed by this rule: professional examinations,
+such as "pass the CFAP examination", legal proceedings, such as "cross-examination" and fixed
+organization or product names, such as "LiveWire Investigator".
+
+#### Analyst, examiner or investigator
+
+* *analyst*, for the person who analyzes the data
+* *examiner*, for the person who performs the examination
+* *investigator*, for the person who owns the investigation
+
+**Please do not use forensicator. It is [slang](https://en.wikipedia.org/wiki/Slang).**
 
 ## References and external links
 
@@ -117,6 +177,10 @@ Commercial software and training should be part of the vendor article and includ
 
 * A description of the product.
 * The digital forensics tradeoffs of the product.
+* Descriptive prose follows the preferred terminology and uses the term that fits the scope:
+  *analysis* for data-level work, *examination* for court-facing inspection of the evidence,
+  and *investigation* for the case as a whole. Direct quotes from the vendor, official
+  product names and quoted feature names are preserved as-is.
 * References to individual external product pages can be included in the `## External Links`.
   **Note that the vendor is expected to keep their information up to date and outdated information
   such as links will be removed.**
@@ -140,10 +204,10 @@ An article about tooling should include the following headings:
 * **Use**: This section may include the common uses of a tool. A tool could contain one or more
   common uses. For example, the dd Unix utility could image drives as well as wipe drives so that
   data is not recoverable.
-* **See also**: This section may include links to Forensics Wiki articles with related content,
+* **See Also**: This section may include links to Forensics Wiki articles with related content,
   complementary tools, or forks of the tool. For example, an article about the Sleuth Kit (TSK) may
   include a link to an article about Autopsy.
-* **External links**: Any external links, such as references to support the information provided,
+* **External Links**: Any external links, such as references to support the information provided,
   or links to the project page or official website.
 
 ## Command line examples

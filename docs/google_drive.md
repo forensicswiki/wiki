@@ -6,7 +6,7 @@ Google Drive is a cloud storage service by Google Inc.
 
 ## Client software
 
-Google provides a Mac OS X and Windows and desktop client.
+Google provides a Mac OS and Windows desktop client.
 
 ### snapshot.db
 

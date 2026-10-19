@@ -58,7 +58,7 @@ be noted when known.*
 | MailXaminer (Email Forensics Tool) | <https://www.mailxaminer.com/training.html> | |
 | Paraben (Paraben Suite) | <https://paraben.com/digital-investigation-training-courses/> | |
 | Software Analysis & Forensic Engineering (CodeSuite) | <https://www.safe-corp.com/> | |
-| Sumuri, LLC. (Recon for MAC OS X) | <https://sumuri.com/mac-training/> | |
+| Sumuri, LLC. (Recon for Mac OS X) | <https://sumuri.com/mac-training/> | |
 | Volatility Labs (Volatility Framework) | <https://volatility-labs.blogspot.com/search/label/training> | |
 | X-Ways Forensics (X-Ways Forensics) | <https://www.x-ways.net/training/> | |
 

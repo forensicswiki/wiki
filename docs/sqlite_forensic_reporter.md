@@ -6,7 +6,7 @@ tags:
   - Windows
 ---
 **SQLite Forensic Reporter** is a commercial analysis tool. A universal SQLite
-database examination tool capable of analysing, extracting and reporting on
+database analysis tool capable of analysing, extracting and reporting on
 information from any [SQLite database](sqlite_database_format.md) (not corrupted or
 encrypted). Useful for Computer & Phone Forensic Analysts and Data Recovery
 Technicians. Processes all SQLite database files in a case, uses advanced file

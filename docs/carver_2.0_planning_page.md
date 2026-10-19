@@ -45,7 +45,7 @@ Simsong
 
 ## OS
 
-Linux/FreeBSD/MacOS
+Linux/FreeBSD/Mac OS
 
 Shouldn't this just match what the underlying afflib & sleuthkit cover?
 RB
@@ -54,7 +54,7 @@ Yes, but you need to test and validate on each. Question: Do we want toCARBON
 2008 (UTC)
 
 Joachim I think we would do wise to
-design with windows support from the start this will improve the
+design with Windows support from the start this will improve the
 platform independence from the start
 
 Agreed; I would even settle at first for being able to run against
@@ -64,7 +64,7 @@ vast majority of forensic investigators do. RB
 
 Rob J Meijer Leaning heavily on the
 autotools might be the way to go. I do however feel that support
-requirements for windows would not be essential. Being able to run from
+requirements for Windows would not be essential. Being able to run from
 a virtual machine with the main storage mounted over cifs should however
 be tested and if possible tuned extensively.
 
@@ -73,7 +73,7 @@ to do native Windows support i.e. file access, UTF-16 support, wrap someCARBON
 basic system functions or have them available otherwise
 
 Rob J Meijer That´s exactly my point,
-windows support as in being able to build and run on windows natively is
+Windows support as in being able to build and run on Windows natively is
 much more trouble than its worth. Better make for a lean and mean
 autotools based build with little dependencies and no or little
 recursion, and better spent effort on a lean POLA design on POSIX based
@@ -129,8 +129,8 @@ to the following (simplified) chain:
     * suid (on supporting platforms)
     * iptables/ipfw (on supporting platforms)
 
-As fow windows support, I would imagine making carvfs run over smb would
-come a long way, that is for as far as windows support is all that
+As fow Windows support, I would imagine making carvfs run over smb would
+come a long way, that is for as far as Windows support is all that
 relevant.
 
 There are two advantages to using libcarvpath and carvfs instead of

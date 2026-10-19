@@ -167,7 +167,7 @@ logstash comes with a web interface for searching and drilling into all of your 
 [ntop](ntop.md)
 
 [RegRipper](regripper.md) is an open source tool, written in Perl, for extracting/parsing
-information (keys, values, data) from the Registry and presenting it for analysis
+information (keys, values, data) from the Windows Registry and presenting it for analysis
 
 [InfoWatch Traffic Monitor](https://infowatch.com/)
 

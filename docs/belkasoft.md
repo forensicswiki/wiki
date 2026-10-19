@@ -49,7 +49,7 @@ sources including hard drives, drive images, memory dumps, mobile
 devices and chip-off dumps. Discovers 1500+ types of artifacts,
 including 300+ mobile applications, as well as major document formats,
 browsers, email clients, dozens of picture and video formats, instant
-messengers, social networks, system and registry files, P2P and file
+messengers, social networks, system and Windows Registry files, P2P and file
 transfer tools, etc.
 
 #### Key features
@@ -112,7 +112,7 @@ question are situated in geographically distributed locations
 #### Key features
 
 * Ease of agent deployment
-* Support for Windows and macOS operating systems
+* Support for Windows and Mac OS operating systems
 * Straightforward acquisition
 * Mobile device support
 * Support for various network configurations

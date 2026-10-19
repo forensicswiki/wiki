@@ -5,9 +5,9 @@ tags:
 The Spotlight database file format is used by [Mac OS X](mac_os_x.md) to store
 Spotlight Desktop search information.
 
-## MacOS command line tools
+## Mac OS command line tools
 
-MacOS has several command line tools to query a Spotlight database
+Mac OS has several command line tools to query a Spotlight database
 
 * mdfind - finds files matching a given query
 

@@ -9,7 +9,7 @@ value.
 
 As far as have been possible to ascertain, there is no official public
 description of the format. The description below has been synthesized
-from examination of multiple Prefetch files.
+from analysis of multiple Prefetch files.
 
 As of Windows 10 the Prefetch files are compressed using a similar
 compression as used by the [Windows SuperFetch

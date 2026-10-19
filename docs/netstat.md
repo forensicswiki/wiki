@@ -16,7 +16,7 @@ later, being able to view open ports and the programs attached to them
 can be very beneficial. Netstat can help you quickly identify any
 suspicious network behavior on the machine and help point you in the
 right direction to files and connections that may require additional
-investigation.
+analysis.
 
 Another great benefit to using the Netstat command is that it is one of
 the few commands that uses, for the most part, the same syntax on
@@ -54,7 +54,7 @@ Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
 explanations of Netstat switches on UNIX systems).
 
 Below is an example of an excerpt from the Netstat output (taken from a
-forensic investigation on a Windows machine for a class):
+forensic analysis on a Windows machine for a class):
 
 ```text
 Active Connections

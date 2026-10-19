@@ -178,7 +178,7 @@ FAT32 is the enhanced version of the FAT system implemented beginning
 with Windows 95 OSR2, Windows 98, and Windows Me. Features include:
 
 * Drives of up to 2 terabytes are supported
-  ([windows](windows.md)
+  ([Windows](windows.md)
 * Since FAT32 uses smaller clusters (of 4 kilobytes each), it uses hard
   drive space more efficiently. This is a 10 to 15 percent improvement
   over FAT or FAT16.

@@ -5,7 +5,7 @@ tags:
   - Commercial Software
   - Windows
 ---
-MailXaminer is an email forensic investigation suite developed by
+MailXaminer is an email forensic analysis suite developed by
 [SysTools](systools.md). The application examines email data
 files of Non-MAPI / MAPI desktop mail applications & Cloud mail
 services. MailXaminer allows cyber investigators to analyze digital
@@ -20,7 +20,7 @@ licensing were handed over to SysTools Pvt. Ltd. Since then, the
 software underwent a number of version upgrades and the most recent
 update took place in the year 2014, Version 4.6. The software was made
 available for the worldwide online audience to perform email data
-investigation and evidence extraction.
+analysis and evidence extraction.
 
 ## Version History
 
@@ -122,7 +122,7 @@ Support for "Contacts" added.
 
 * Provided support for Geo Location & IP Reporting.
 * Performs Forensic Video Analysis on videos while scanning data.
-* Supports examination of documents from image files such as E01, DD and DMG.
+* Supports analysis of documents from image files such as E01, DD and DMG.
 * Supports new Desktop/Web based Email Applications and Servers such as hMailServer, MDaemon,
   Kerio, Zimbra, KMail and many more.
 * Support for customizing the scanning speed of evidence files on the basis of concurrency level.
@@ -146,8 +146,8 @@ Support for "Contacts" added.
 
 ### Version 4.8.3 (11/11/2016)
 
-* EnCase LEF file variants - .Lx01 and .L01 supported for examination in search of evidence.
-* OLM file supported for examination of messages from an Outlook 2011 for Mac identity.
+* EnCase LEF file variants - .Lx01 and .L01 supported for analysis in search of evidence.
+* OLM file supported for analysis of messages from an Outlook 2011 for Mac identity.
 * Support for processing the data of an OLM identity file from a scanned DMG format file.
 
 ## Product Overview
@@ -181,7 +181,7 @@ start up of [MailXaminer](mailxaminer.md) tool. Otherwise an
 existing case can be reopened for proceeding investigation. By the means
 of creating a new case, investigators can reach to the core of the
 software to explore its key facilities intended to perform email data
-investigations. Create new case window resembles a form with fields
+analysis. Create new case window resembles a form with fields
 provided to fill in details regarding the case with the described
 options.
 
@@ -192,7 +192,7 @@ options.
 * *Description*: To give a brief yet detailed description about the
   subject of a respective case.
 * *Keyword List*: Specific terms to be used for searching particular
-  email(s) to perform investigation on.
+  email(s) to perform analysis on.
 * *Browse CSV*: For In case of too many key terms, select a CSV file
   maintained with the list of keywords.
 * *Investigator*: For Name of the investigator to whom the case belongs.
@@ -229,11 +229,11 @@ and email filter.
   ratio of data stored within the selected files with the help of pie
   chart and graphs.
 
-### Office365 Examination
+### Office365 Analysis
 
-Email examination from Office365 accounts can be executed. The two ways
+Email analysis from Office365 accounts can be executed. The two ways
 in which emails are scanned and downloaded from Office 365 are: Single
-Account and Multiple Account analysis mode. Being an investigation tool,
+Account and Multiple Account analysis mode. Being an analysis tool,
 the only precondition is that the download of user account(s) from
 Office365 can only be performed using Admin credentials and not
 individually.
@@ -241,17 +241,17 @@ individually.
 ### Google Apps Analysis
 
 GApps, better known as Google Apps is one of the email platforms,
-accounts from which can be examined using MailXaminer. The program
+accounts from which can be analyzed using MailXaminer. The program
 shares compatibility ration with the platform but on one condition, i.e.
 the account credentials used in the process of scanning and downloading
 GApps account emails will be of the administrator account. Only
 authorities and officials having access of the Admin credentials will be
-able to conduct email examination on the account data of GApps using
+able to conduct email analysis on the account data of GApps using
 this email analysis application.
 
 **Other Conditions**: No IMAP support is required. However, the user /
 examiner will have to create a separate project and has to be logged
-into it during the examination is being channelized on the GApps account
+into it during the analysis is being channelized on the GApps account
 data.
 
 ### Live Exchange Mailbox Impersonation
@@ -450,7 +450,7 @@ facility.
 
 Data analysis is actionable in compliance with section 508 offering
 support for keyboard usage. The support makes MailXaminer operable with
-keyboard shortcuts simplifying email investigation for everyone. The
+keyboard shortcuts simplifying email analysis for everyone. The
 provision is made as part of abiding by the U.S. Government standards
 stating technology to be accessible for all users regardless of their
 disability.
@@ -467,9 +467,9 @@ evidence exported as Portable Document Format file.
 ### Skype Database Analysis
 
 MailXaminer, besides examining emails, features Skype database
-investigation. Skype messenger being a commonly used medium of instant
+analysis. Skype messenger being a commonly used medium of instant
 communication is both the prime source as well as target of cyber
-criminal activities. The examination of Skype Messenger database enables
+criminal activities. The analysis of Skype Messenger database enables
 viewing conversations carried out through chats, SMSs, and calls.
 
 ### Link Analyzes Searches
@@ -550,7 +550,7 @@ Licensing of the application has been extended to Dongle basis. A dongle
 with licensed software setup will be provided via shipping or courier to
 the respective person after making a purchase under the Dongle Based
 Licensing. The provided Dongle can be carried along by an investigator
-to crime scenes and used instantaneously for examination of emails on
+to crime scenes and used instantaneously for analysis of emails on
 the spot, on any particular machine eliminating the licensed machine
 obstruction.
 

@@ -24,7 +24,7 @@ Thoughts about what should go on the report:
 * Where the connections came from
 * resolv.conf files on a mac?
 * structured text files
-* windows host file
+* Windows host file
 
 SMART information from the drive - hours the drive was used
 

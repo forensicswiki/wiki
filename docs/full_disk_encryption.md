@@ -120,7 +120,7 @@ Supports hidden volumes within TrueCrypt volumes (plausible deniability).
 [VeraCrypt](https://www.veracrypt.fr/)
 Fork of [TrueCrypt](truecrypt.md) project. Support for for
 [Linux](linux.md), [Windows](windows.md), and
-[MacOS](mac_os_x.md).
+[Mac OS X](mac_os_x.md).
 
 [vnconfig](vnconfig.md)
 The -K option of [OpenBSD](openbsd.md) associates

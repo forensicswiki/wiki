@@ -2,10 +2,10 @@
 tags:
   - Articles that need to be expanded
 ---
-Processes on MacOS can be easily monitored using the DTrace facility.
+Processes on Mac OS can be easily monitored using the DTrace facility.
 
 Rather than using the DTrace facility directly, it is easier to use one
-of the precompiled DTrace applications that Apple ships with MacOS.
+of the precompiled DTrace applications that Apple ships with Mac OS.
 
 You can find the list of applications with the "man -k trace" command:
 

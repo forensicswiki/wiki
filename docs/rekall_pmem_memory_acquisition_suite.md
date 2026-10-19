@@ -25,13 +25,13 @@ choices.
 That is the reason we feel an open source, well tested and capable
 forensic memory acquisition tool is essential - we call it the Pmem
 suite of tools. The pmem acquisition tool aims to provide a complete
-imaging solution for Windows, Linux and OSX (OSXPmem is the only memory
+imaging solution for Windows, Linux and Mac OS X (OSXPmem is the only memory
 acquisition tool we are aware of, which works on the latest version of
-OSX - 10.10.x - commercial or open source).
+Mac OS X - 10.10.x - commercial or open source).
 
 As we continue to develop Rekall into the most powerful memory forensic
 platform, we developed the need to extend the acquisition tool. For
-example, when Rekall gained the ability to analyze the windows pagefile,
+example, when Rekall gained the ability to analyze the Windows pagefile,
 it became important that the acquisition tool also collect the page file
 during acquisition. Similarly we require the tool to collect critical
 system binaries.
@@ -106,12 +106,12 @@ However there are a number of problems with RAW images:
 There are some other image file formats sometimes used but none of them
 have all the required features:
 
-The Microsoft Crashdump file, for example, is commonly used with windows
+The Microsoft Crashdump file, for example, is commonly used with Windows
 images - however this is a proprietary, undocumented file format with no
-support for compression or embedding (although it supports some windows
+support for compression or embedding (although it supports some Windows
 specific metadata) it is also non-extensible. We do not recommend
 acquiring with this format directly - if you need to analyze the image
-with the windows debugger we recommend using the Rekall `raw2dmp` plugin
+with the Windows debugger we recommend using the Rekall `raw2dmp` plugin
 to create a dump file later.
 
 An ELF core file is the standard image format used by GDB and Linux when
@@ -136,7 +136,7 @@ collected in the same image file):
 * Limes - an ad-hoc imaging format sometimes used on Linux. Does not
   really offer any advantages over an ELF core dump.
 * HPAK - A proprietary format used in HBGary's tools.
-* Mach-O - This is the binary format used on OSX. These kind of images
+* Mach-O - This is the binary format used on Mac OS X. These kind of images
   used to be produced by the now defunct “Mac Memory Reader”. Does not
   really offer any advantages over ELF core dumps.
 
@@ -259,7 +259,7 @@ automatically know how to use each stream).
 ## The PMEM suite of acquisition tools
 
 The Rekall project maintains a set of acquisition tools for the three
-supported operating systems: Windows, Linux and OSX. Since version 2.0,
+supported operating systems: Windows, Linux and Mac OS X. Since version 2.0,
 the three imagers have been merged into a single common framework. This
 means that you use them in the same way, and they all produce the same
 type of AFF4 images.
@@ -459,7 +459,7 @@ any other file type. The WinPmem acquisition tool utilizes this property
 to simply package all needed drivers and tools together with the
 executable itself - using the AFF4 format.
 
-We typically package with winpmem the 64 bit and 32 bit windows kernel
+We typically package with winpmem the 64 bit and 32 bit Windows kernel
 drivers, as well as a copy of fcat.exe from the sleuthkit . This tool is
 used to provide access to the locked pagefiles. (Note that if you just
 want to extract the drivers - e.g. to use in another project you can
@@ -475,8 +475,8 @@ memory. This technique was originally developed in order to bypass
 potential malware hooking the APIs normally used for acquisition. After
 much use we found that the technique is in fact more stable than using
 the APIs and it is actually the only reliable way that access to
-physical memory is achievable on OSX. We therefore decided to make this
-the default acquisition mode on both Windows and OSX.
+physical memory is achievable on Mac OS X. We therefore decided to make this
+the default acquisition mode on both Windows and Mac OS X.
 
 To acquire memory all one needs to do is to specify the output volume:
 
@@ -539,7 +539,7 @@ already enabled.
 
 OSXPmem has recently been updated with a new driver written by Adam
 Sindelar called `MacPmem.kext`. The new driver is more stable and works
-on all versions of OSX including the most recent 10.10 series. The new
+on all versions of Mac OS X including the most recent 10.10 series. The new
 driver presents two devices:
 
 1. The `/dev/pmem` device is the raw physical memory device - reading from
@@ -549,7 +549,7 @@ driver presents two devices:
  about the system - such as the EFI ranges, kernel slide and other
  critical parameters.
 
-The following example illustrates how we can image memory on OSX. First
+The following example illustrates how we can image memory on Mac OS X. First
 we must elevate to the root user, then unzip the contents of
 the`osxpmem.zip` distribution. Note that the `MacPmem.kext` directory
 and its content must be owned by root with group wheel,

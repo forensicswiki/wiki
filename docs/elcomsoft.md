@@ -42,7 +42,7 @@ encrypted containers, viewing and analyzing evidence.
 * Access to deleted evidence and forensically sound extraction
 
 <small>Supports: all versions of Microsoft Office, OpenOffice, Encrypted
-File System, Windows and macOS passwords, macOS Keychain, ZIP/RAR/RAR5,
+File System, Windows and Mac OS passwords, macOS Keychain, ZIP/RAR/RAR5,
 PDF, BitLocker, PGP, TrueCrypt, VeraCrypt and many more. Instantly
 extracts passwords from instant messengers, email clients, Web browsers
 and many other products. Physical, logical and over-the-air acquisition
@@ -220,7 +220,7 @@ on the market and the easiest to use.
   utilization, password recovery jobs and user activities
 
 <small>Supports: all versions of Microsoft Office, OpenOffice, Hancom,
-NFS Encrypted File System, Windows and macOS passwords, macOS Keychain,
+NFS Encrypted File System, Windows and Mac OS passwords, macOS Keychain,
 ZIP/RAR/RAR5, PDF, BitLocker, PGP, TrueCrypt, VeraCrypt, FileVault and
 many more. Instantly extracts passwords from instant messengers, email
 clients, Web browsers and many other products. Several hundred formats

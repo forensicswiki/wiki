@@ -12,7 +12,7 @@ tags:
 Memory analysis has come a long way in the last few years.
 
 There has been a large focus on analysing popular operating system
-kernels such as Windows, Linux and OSX. We have been able to
+kernels such as Windows, Linux and Mac OS X. We have been able to
 reconstruct important system information, such as processes, threads,
 mutexes etc. However, progress has been slower with analysis of
 applications.
@@ -34,7 +34,7 @@ it is).
 This blog post explains Rekall's new heap inspection plugin. In
 particular I wanted to demonstrate how heap inspection can be used to
 help reverse engineer some important application, such as the DNS
-resolver. In windows, DNS requests are typically cached by the DNS
+resolver. In Windows, DNS requests are typically cached by the DNS
 resolver service (which is running inside one of
 the `svchost.exe` processes). This information is very important from an
 incident response perspective since it can reveal recently accesses
@@ -470,7 +470,7 @@ the above case 1 byte unused).
 
 So now we have the ability to enumerate all application heap
 allocations. So what can we use this for? As an example I chose to
-examine the windows DNS resolver service. This is implemented as an
+examine the Windows DNS resolver service. This is implemented as an
 in-process service (i.e. it is running as a thread in a shared process
 with other services). The resolver is implemented
 using `dnsrslvr.dll` which is linked into one of

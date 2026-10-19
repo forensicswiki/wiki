@@ -108,7 +108,7 @@ acquisition tool for Windows. It supports Windows XP to Windows 8, both
 in crashdump format (for analysis with Volatility or windbg). It
 supports output to STDOUT for piping the dump through tools like netcat
 or ssh. WinPmem can be used together with the Volatility Technology
-Preview to analyse a live windows system for live response and triaging.
+Preview to analyse a live Windows system for live response and triaging.
 
 ### Linux
 
@@ -171,7 +171,7 @@ password and any open AOL Instant Messenger conversation fragments that
 may be available.
 
 [OSXPMem](rekall.md)
-The OSX Memory Imager is an open source tool to acquire physical memory
+The Mac OS X Memory Imager is an open source tool to acquire physical memory
 on an Intel based Mac. The imager supports multiple output formats, at
 the moment these are Mach-O, ELF and zero-padded RAW.
 

@@ -13,7 +13,7 @@ On Linux for user accounts:
 /home/$USER/.java/deployment/cache/
 ```
 
-On MacOS-X for user accounts:
+On Mac OS X for user accounts:
 
 ```text
 /Users/$USER/Library/Caches/Java/cache/

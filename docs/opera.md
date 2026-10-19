@@ -13,7 +13,7 @@ On Linux:
 /home/$USER/.opera/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Opera/
@@ -66,7 +66,7 @@ On Linux
 /home/$USER/.opera/cache/
 ```
 
-On MacOS-X
+On Mac OS X
 
 ```text
 /Users/$USER/Library/Caches/Opera/cache/

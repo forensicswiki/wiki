@@ -36,7 +36,7 @@ at `http://profiles.rekall.googlecode.com/git/`. The Rekall team
 collects profiles for the most common operating system versions, and we
 try to increase our coverage as much as possible.
 
-For example, we can see what Rekall is doing when loading an OSX
+For example, we can see what Rekall is doing when loading a Mac OS X
 profile:
 
 ```bash
@@ -101,13 +101,13 @@ fall back to the public repository for common profiles.
 Putting the profile data in the public repository helps to reduce code
 footprint. While removing the embedded volatility profiles from the code
 base it because obvious that Volatility does not actually contain enough
-windows kernel vtypes to cover all the different windows releases out
+Windows kernel vtypes to cover all the different Windows releases out
 there.
 
 As described in the previous blog post, the profile contains information
-specific to a single build of the windows kernel. Each time the windows
+specific to a single build of the Windows kernel. Each time the Windows
 kernel source code is modified and rebuilt, a new profile should be
-generated. In reality, Microsoft rebuilds and redistributes the windows
+generated. In reality, Microsoft rebuilds and redistributes the Windows
 kernel multiple times during a single marketed release, and even
 multiple times for different release markets. We know this because each
 time an executable is built, it contains a new GUID embedded in it.
@@ -130,9 +130,9 @@ time an executable is built, it contains a new GUID embedded in it.
 > they are released of course), by simply providing the GUID, age and the
 > filename of the pdb file.
 > Of course the infrastructure that Microsoft provides is there to serve
-> the windows kernel debugger, but we can leverage this same
-> infrastructure in Rekall. In a sense Rekall is emulating the windows
-> debugger to some extent when analyzing a windows memory dump.
+> the Windows kernel debugger, but we can leverage this same
+> infrastructure in Rekall. In a sense Rekall is emulating the Windows
+> debugger to some extent when analyzing a Windows memory dump.
 
 You can check the exact kernel version running in a memory image using
 Rekall's RSDS scanner:
@@ -146,12 +146,12 @@ $ rekall -f win7.elf version_scan --name_regex krnl
 
 Here we see that this image contains a specific version with the GUID
 F8E2A8B5C9B74BF4A6E4A48F180099942. We actually can check the GUIDs from
-the binary on disk for the windows kernel.
+the binary on disk for the Windows kernel.
 
 I was curious as to how many different kernel binaries exist in the
 wild? I began to collect GUIDs for various versions of Windows, generate
 profiles for these and put them in the profile repository. I have found
-approximately 200 profiles of the windows kernel (ntoskrnl.exe and its
+approximately 200 profiles of the Windows kernel (ntoskrnl.exe and its
 variants) with different architectures (AMD64 and I386), versions and
 build numbers. For example Windows XP Service Pack 2 has a build number
 of 2600 but we found over 30 different versions in the wild.
@@ -189,15 +189,15 @@ real profile.
 
 ### What profile do I need
 
-Have you even been given an image of a windows version, but you don't
+Have you even been given an image of a Windows version, but you don't
 know exactly which one it is supposed to be? Is it a 64 bit system or a
 32 bit system? Is it Windows 7 or Windows XP? Is it Service Pack 1 or 2?
 
-Volatility has the `imageident` plugin which load all the windows
+Volatility has the `imageident` plugin which load all the Windows
 profiles it knows about (about 20 different ones) and tries to fit them
 to the image. Its very slow and often does not work.
 
-The easier way is simply check the RSDS signature of the windows kernel:
+The easier way is simply check the RSDS signature of the Windows kernel:
 
 ```bash
 $ rekall -f win7.elf version_scan --name_regex krnl
@@ -206,7 +206,7 @@ $ rekall -f win7.elf version_scan --name_regex krnl
 0x0000027bb5fc F8E2A8B5C9B74BF4A6E4A48F180099942 ntkrnlmp.pdb
 ```
 
-The Rekall public repository organizes windows profiles using two
+The Rekall public repository organizes Windows profiles using two
 hierarchies, the first is by binary name, architecture and build
 version, for example:
 

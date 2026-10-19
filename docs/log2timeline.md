@@ -83,7 +83,7 @@ The currently supported input modules (as of version 0.51 nightly build
 * **squid** - Parse the content of a Squid access log (http_emulate off)
 * **syslog** - Parse the content of a Linux Syslog log file
 * **tln** - Parse the content of a body file in the TLN format
-* **userassist** - Parses the NTUSER.DAT registry file
+* **userassist** - Parses the NTUSER.DAT Windows Registry file
 * **volatility** - Parse the content of a Volatility output files
   (psscan2, sockscan2, ...)
 * **win_link** - Parse the content of a Windows shortcut file (or a link file)

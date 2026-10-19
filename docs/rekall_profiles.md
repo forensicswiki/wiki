@@ -131,36 +131,36 @@ modified our analysis will break).
 
 So how does Volatility solve this problem?
 
-* Volatility has many windows profiles embedded into its source code. For
+* Volatility has many Windows profiles embedded into its source code. For
   example there is a profile for Windows XP Service Pack 3, one for
   Windows Vista Service Pack 2 etc. Also included are profiles for the
   different architectures (x86 and x64).
-* For OSX, one has to download the profile pack from the Volatility site.
+* For Mac OS X, one has to download the profile pack from the Volatility site.
   These are Zip files containing the textual output of dwarfdump (the dump
-  of debugging symbols). When running on an OSX image, Volatility opens
+  of debugging symbols). When running on a Mac OS X image, Volatility opens
   the ZIP file, parses the output of dwarfdump into an in memory Python
-  data structure before proceeding with the analysis. Each OSX profile is
+  data structure before proceeding with the analysis. Each Mac OS X profile is
   approximately 1mb, making the entire profile pack around 50mb big.
 * For Linux there are so many versions, that users must build their own by
   compiling a kernel module in debug mode, and dumping the output of
   dwarfdump. Again the profile is a ZIP file containing the output of the
-  linux dwarfdump (which is actually slightly different from the OSX one).
+  linux dwarfdump (which is actually slightly different from the Mac OS X one).
   Again this must be parsed by the program before any analysis can begin.
 
 There are a number of problems with this approach:
 
 1. Windows profiles are included in the code base, which means that all
-   windows profiles are always loaded into memory all the time (even when
-   analyzing a different version of windows).
-2. There are about 20-30 different windows profiles. In practice there are
-   hundreds of released builds of the windows kernel. So the profiles that
+   Windows profiles are always loaded into memory all the time (even when
+   analyzing a different version of Windows).
+2. There are about 20-30 different Windows profiles. In practice there are
+   hundreds of released builds of the Windows kernel. So the profiles that
    are included in Volatility are only representative to the precise
    version. As discussed above, one need to have the exact profile version
    for reliable memory analysis. Hence there is bound to be some
    variability between the profile version provided by Volatility and the
    one needed for the actual image.
 3. This is simply not scalable - there is a limit of how many profiles one
-   can include with the code. For OSX the profiles must be downloaded
+   can include with the code. For Mac OS X the profiles must be downloaded
    separately, and for linux they must be built. You cant really use it as
    a library included into a third party with such a huge memory footprint.
 4. It is also very slow. Due to the plugin model in Volatility, profiles
@@ -168,12 +168,12 @@ There are a number of problems with this approach:
    up it tries to load all files inside its plugin directory. This means
    you cant just point Volatility into your profiles directory because it
    will always try to open **every single profile** you have in there.
-5. The profile format is not consistent between operating systems. The OSX
-   profiles are parsed using OSX specific parsers, Linux is parsed using a
-   textual based dwarf parser, while windows profiles must be inserted into
+5. The profile format is not consistent between operating systems. The Mac OS X
+   profiles are parsed using Mac OS X specific parsers, Linux is parsed using a
+   textual based dwarf parser, while Windows profiles must be inserted into
    the code manually.
 6. The profiles are very slow to parse. The dwarfparsers used for Linux and
-   OSX profiles are actually parsing the textual output of
+   Mac OS X profiles are actually parsing the textual output of
    the `dwarfdump` program - this is quite slow and not really needed.
 
 Since it is important to the Rekall project to minimize memory footprint
@@ -194,7 +194,7 @@ to redesign how profiles work:
   know that in Python, JSON is the fastest serialization for simple data
   structures there is. (Maybe cPickle is faster but we wanted to stay away
   from pickles to enable the safe interchange of profiles).
-* Finally we observed that for Linux and OSX (and actually for windows
+* Finally we observed that for Linux and Mac OS X (and actually for Windows
   too, as explained in a future blog post), the ZIP file contains a number
   of different types of data. The Zip file contains the vtype description
   of all the structs using in the kernel, but also it contains the offsets
@@ -260,8 +260,8 @@ information and are both compressed.
 
 The Rekall profile format is standard across all supported operating
 systems. Even though generating the profiles uses different mechanism
-for different operating systems (i.e. parsing PDB files for windows,
-parsing dwarf files for Linux, parsing debug kernels for OSX), the final
+for different operating systems (i.e. parsing PDB files for Windows,
+parsing dwarf files for Linux, parsing debug kernels for Mac OS X), the final
 output is exactly the same. This makes the profile loading code in
 Rekall much simpler.
 

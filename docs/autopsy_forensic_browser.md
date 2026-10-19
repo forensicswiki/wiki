@@ -15,7 +15,7 @@ modules in Java or Python.
 
 **Autopsy** uses [The Sleuth Kit](the_sleuth_kit.md) for file
 system analysis. It can analyze [Windows](windows.md),
-[MacOS](mac_os_x.md), and [UNIX](unix.md) disks, as well as
+[Mac OS X](mac_os_x.md), and [UNIX](unix.md) disks, as well as
 cell phone dumps and collections of individual files. There are many
 third-party plug-in modules.
 

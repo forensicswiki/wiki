@@ -6,7 +6,7 @@ tags:
   - Tools
 ---
 RECON IMAGER is a forensic imaging software, developed by SUMURI for
-macOS, and is based on OS X.
+Mac OS, and is based on Mac OS X.
 
 ## Product Overview
 
@@ -21,9 +21,9 @@ maximum integrity of data stored in RAM.
   to make decrypted forensic images by entering the user's password or
   Recovery Key.
 * Image RAM without an admin password
-* Rolling update structure to stay current with newest MacOS releases
+* Rolling update structure to stay current with newest Mac OS releases
 * Quintuple boot system.
-* Native MacOS boot environment
+* Native Mac OS boot environment
 * RAM imager - admin password not required.
 * Controls write protection.
 * Fusion drive support.

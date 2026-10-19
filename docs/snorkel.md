@@ -49,7 +49,7 @@ below.
 | | Linux ([ext](extended_file_system_(ext).md), [Reiser](reiserfs.md)) |
 | | Solaris, BSD (ufs) |
 | | CD (ISO9660) |
-| File Formats | Windows registry (Win 9x, NT) |
+| File Formats | Windows Registry (Win 9x, NT) |
 | | Microsoft Office (OLE2) |
 
 ### License Notes

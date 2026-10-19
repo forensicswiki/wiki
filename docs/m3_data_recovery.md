@@ -14,7 +14,7 @@ recovery solution and system utilities providers.
 * [M3 Data Recovery for Mac](m3_data_recovery_for_mac.md) -
   Recover deleted or lost files from any Mac-based hard drive as well as
   external hard drive, USB flash drive, SD card, memory card, etc. under
-  Mac OSX 10.10/10.9/10.8/10.7.
+  Mac OS X 10.10/10.9/10.8/10.7.
 
 ## Bitlocker Recovery
 
