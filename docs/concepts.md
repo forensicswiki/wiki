@@ -2,7 +2,7 @@
 tags:
   - Concept
 ---
-Various concepts central to digital forensics are:
+Various concepts central to digital forensics.
 
 ## Legal & Procedural Concepts
 
