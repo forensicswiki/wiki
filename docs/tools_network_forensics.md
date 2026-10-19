@@ -3,11 +3,117 @@ tags:
   - Network Forensics
   - Tools
 ---
-## Network Forensics Packages and Appliances
+Network forensics tooling for capturing, analyzing, and reconstructing
+network traffic. The tools below are grouped according to the
+[categories of analysis](network_forensics.md) described in
+[Network forensics](network_forensics.md).
 
-[E-Detective](https://www.edecision4u.com/)
+> **Warning:** The tools listed below are not necessarily forensic tooling in the sense of
+> [Forensic tooling](forensic_tooling.md).
 
-[CapAnalysis](https://www.capanalysis.net/ca/)
+## Deep Analysis - Full Packet Capture (FPC) and Deep Packet Inspection (DPI)
+
+* [fmadio 10G Packet Capture](https://www.fmad.io/)
+
+Cost effective full line rate 10G packet capture to disk appliance.
+Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
+space, generating nanosecond PCAP files that can be downloaded for
+further processing at 10Gbit speed. This is a commercial appliance by a
+small independent vendor.
+
+* [NetWitness](https://www.netwitness.com/)
+
+NetWitness Corporation - Freeware/Commercial, Enterprise-Wide, Real-Time
+Network Forensics.
+
+* [OmniPeek](omnipeek.md) by WildPackets
+
+OmniPeek is a network forensics tool used to capture, store, and analyze
+historical network traffic.
+
+* [PacketMotion](https://www.vmware.com/company/acquisitions.html)
+
+Full Packet Capture and Deep Packet Inspection appliance (acquired by
+VMware).
+
+* snoop - captures packets from the network and displays their contents
+  ([solaris](solaris.md))
+
+* [SplitCap](https://www.netresec.com/?page=SplitCap)
+
+SplitCap is a free open source pcap file splitter.
+
+* [tcpdump](tcpdump.md) - capture packets
+
+* [Wireshark](wireshark.md)
+
+Graphical packet capture and protocol dissection (analysis) tool.
+
+* [Xplico](xplico.md)
+
+Network Forensic Analysis Tool (NFAT) that extracts application-layer
+data (emails, web content, files) from pcaps using Deep Packet
+Inspection; see also [pcap2wav](https://pcap2wav.xplico.org/).
+
+## Session reconstruction
+
+See also [Session reconstruction](session_reconstruction.md).
+
+* [Chaosreader](chaosreader.md)
+
+Takes tcpdump/snoop capture files and fetches the application data
+(tcp sessions, HTTP transfers, FTP files, SMTP emails), producing an
+HTML index that links to each reconstructed session.
+
+* [E-Detective](https://www.edecision4u.com/)
+
+Web and email forensics tool for reconstructing web pages and email
+content.
+
+* [Expert Team - 3i System](http://expert-team.net/home/)
+
+Expert Team 3i System provides real-time data traffic reconstruction
+which allows raw data packet stream to be decoded, reassemble and
+reconstruct back to the original content view receive/compose/sent by
+the target users. Supported layer 7 protocols and applications include
+HTTP (Web URL and Content, Web Video, Web File Upload and Download,
+Email - POP3, IMAP, SMTP, Webmail, Social Networking Sites, FTP File
+Upload and Download, Instant Messaging, VoIP etc....
+
+* [NetworkMiner](networkminer.md)
+
+Network Forensic Analysis Tool (NFAT) for passive sniffing and PCAP
+analysis that recovers sessions, hostnames, open ports, and
+reassembles transmitted files and certificates.
+
+* [pcap2wav](https://pcap2wav.xplico.org/)
+
+VoIP/RTP decoder. pcap2wav is part (a sub-project) of
+[Xplico](xplico.md) and it supports and decodes the following
+audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
+(x-msrta: Real Time Audio).
+
+* [tcpflow](tcpflow.md)
+
+Captures data transmitted as part of TCP connections (flows) and stores
+each flow in its own file for protocol analysis and debugging; can also
+process stored 'tcpdump' packet flows.
+
+* [tcpxtract](tcpxtract.md)
+
+Recovers files from network traffic based on content signatures
+(inspired by [foremost](foremost.md)).
+
+## Flow-based analysis
+
+See also [Flow-based analysis](flow_based_analysis.md).
+
+* [Argus](argus.md)
+
+Flow-based network monitor that records network transactions (5-tuple
+flows with byte and packet counts) for later analysis and replay.
+
+* [CapAnalysis](https://www.capanalysis.net/ca/)
 
 **Open Source** web visual tool for information security specialists,
 system administrators and everyone who needs to analyze large amounts of
@@ -18,17 +124,7 @@ their contents in many forms, starting from a list of TCP, UDP or ESP
 streams/flows, passing to the geo-graphical representation of the
 connections.
 
-[chkrootkit](https://www.chkrootkit.org/)
-
-[cryptcat](https://farm9.org/Cryptcat/)
-
-[MNIS Collector](https://www.mantaro.com)
-MNIS Collector is an IPFIX collector which also supports legacy Netflow.
-It was designed to be used with the MNIS Exporter, which is a Deep
-Packet Inspection probe that can be used to decode 300+ protocols on up
-to 20 Gbps and report the information in IPFIX.
-
-[Mantaro Network Intelligence Solutions (mnis)](https://www.mantaro.com)
+* [Mantaro Network Intelligence Solutions (mnis)](https://www.mantaro.com)
 
 MNIS is a comprehensive and scalable network intelligence platform for
 network forensics and various other applications. It is built on high
@@ -36,171 +132,168 @@ speed Deep Packet Inspection and metadata alerting. It can be used to
 understand network events before and after an event. It scales from LAN
 environments to 20 Gbps service provider networks.
 
-[MaxMind](https://www.maxmind.com/en/home)
+* [MNIS Collector](https://www.mantaro.com)
+
+MNIS Collector is an IPFIX collector which also supports legacy Netflow.
+It was designed to be used with the MNIS Exporter, which is a Deep
+Packet Inspection probe that can be used to decode 300+ protocols on up
+to 20 Gbps and report the information in IPFIX.
+
+* [netfse](netfse.md)
+
+Net/FSE (Network Forensic Search Engine): capture, indexing and search
+service for high-volume IP-based network log data (firewalls, intrusion
+detection systems, routers and other network devices).
+
+* [ntop](ntop.md)
+
+libpcap-based network traffic probe that shows per-host network usage,
+similar to the `top` Unix command.
+
+* [pcap_latency_analyzer](https://github.com/fmadio/pcap_latency_analyzer)
+
+Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
+packets with the same payloads.
+
+* [SiLK](https://tools.netsa.cert.org/silk/index.html)
+
+Toolkit for collecting, storing and analyzing flow records (Compact
+NetFlow-style traffic metadata) at scale.
+
+## Intrusion and anomaly detection
+
+See also [Intrusion detection](intrusion_detection.md).
+
+* [chkrootkit](https://www.chkrootkit.org/)
+
+Checks a local system for signs of rootkit intrusion (tampered kernel,
+hidden processes, suspicious open ports).
+
+* [OSSEC](ossec.md)
+
+Open source host-based intrusion detection system (HIDS) with log
+monitoring and compliance features.
+
+* [rkhunter](https://rkhunter.sourceforge.net/)
+
+Rootkit Hunter - scans a local system for rootkits, tampered binaries
+and hidden backdoors.
+
+* [Sguil](https://github.com/bammv/sguil)
+
+Web-based dashboard for collecting and correlating IDS alerts and host
+logs.
+
+* [Snort](snort.md)
+
+Open source network intrusion prevention and detection system (IDS/IPS).
+
+## Data leakage analysis
+
+* [InfoWatch Traffic Monitor](https://infowatch.com/)
+
+Network data loss prevention (DLP) tool that inspects network traffic
+for leaking of sensitive information.
+
+## DNS analysis
+
+* [nslookup](https://en.wikipedia.org/wiki/Nslookup)
+
+Name Server Lookup command line tool used to find IP address from domain
+name.
+
+## Wireless and Radio Frequency (RF) analysis
+
+See also [Wireless forensics](wireless_forensics.md).
+
+* [kisMAC](kismac.md)
+
+Free, open source 802.11 sniffer and security tool (passive scanning and
+monitor mode), for Mac OS X.
+
+* [kismet](kismet.md)
+
+802.11 layer2 wireless network detector, sniffer, and intrusion
+detection system.
+
+## TLS/SSL analysis
+
+See also [SSL forensics](ssl_forensics.md).
+
+* [ssldump](https://ssldump.sourceforge.net/)
+
+Captures and analyzes SSL/TLS sessions: handshake records, certificate
+metadata and - when session keys are available - the cleartext payload.
+
+## Geolocation and path analysis
+
+See also [IP geolocation](ip_geolocation.md).
+
+* [Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP
+  tracing; a layer-4 traceroute that maps the route using TCP handshake
+  segments, useful where ICMP traceroute is filtered.
+
+* [MaxMind](https://www.maxmind.com/en/home)
 
 [IP geolocation](ip_geolocation.md) services and data provider
 for offline geotagging. Free GeoLite country database. Programmable
 APIs.
 
-[netcat](netcat.md)
+* [Whois](https://en.wikipedia.org/wiki/WHOIS)
 
-[SiLK](https://tools.netsa.cert.org/silk/index.html)
+Web service and command line tool to look up registry information for
+internet domain.
 
-[Netstat](netstat.md)
+* [American Registry for Internet Numbers (ARIN)](https://www.arin.net/)
 
-[NetworkMiner](networkminer.md)
+* [African Network Information Center (AfriNIC)](https://www.afrinic.net/)
 
-NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows.
-NetworkMiner can be used as a passive network sniffer/packet capturing
-tool in order to detect operating systems, sessions, hostnames, open
-ports etc. without putting any traffic on the network. NetworkMiner can
-also parse PCAP files for off-line analysis and to regenerate/reassemble
-transmitted files and certificates from PCAP files. The purpose of
-NetworkMiner is to collect data (such as forensic evidence) about hosts
-on the network rather than to collect data regarding the traffic on the
-network. The main view is host centric (information grouped per host)
-rather than packet centric (information showed as a list of
-packets/frames). NetworkMiner has, since the first release in 2007,
-become popular tool among incident response teams as well as law
-enforcement. NetworkMiner is today used by companies and organizations
-all over the world.
+* [Asia Pacific Network Information Centre (APNIC)](https://www.apnic.net/)
 
-NetworkMiner is available both as a [free open source
-tool](https://sourceforge.net/projects/networkminer/) and as a
-[commercial network forensics
-tool](https://www.netresec.com/?page=NetworkMiner).
+* [Latin American and Caribbean IP Address Regional Registry (LACNIC)](https://www.lacnic.net/)
 
-[pcap2wav](https://pcap2wav.xplico.org/)
+* [RIPE Network Coordination Centre (RIPE NCC)](https://www.ripe.net/)
 
-VoIP/RTP decoder. pcap2wav is part (a sub-project) of
-[Xplico](xplico.md) and it supports and decodes the following
-audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
-(x-msrta: Real Time Audio).
+## Timeline correlation
 
-[rkhunter](https://rkhunter.sourceforge.net/)
+See also [Timeline analysis](timeline_analysis.md) and
+[Logfile analysis](logfile_analysis.md).
 
-[ngrep](ngrep.md)
+* [logstash](https://www.elastic.co/logstash)
 
-[nslookup](https://en.wikipedia.org/wiki/Nslookup)
+logstash is a tool for managing events and logs. You can use it to
+collect logs, parse them, and store them for later use (like, for
+searching). Speaking of searching, logstash comes with a web interface
+for searching and drilling into all of your logs.
 
-Name Server Lookup command line tool used to find IP address from domain
-name.
+## Generic tooling
 
-[Sguil](https://github.com/bammv/sguil)
+* [Bulk Extractor](bulk_extractor.md)
 
-[Snort](snort.md)
+Computer forensics tool that scans disk images (and other data sources)
+recovering artifacts - strings, files, emails and more - in a single
+pass.
 
-[ssldump](https://ssldump.sourceforge.net/)
+* [cryptcat](https://farm9.org/Cryptcat/)
 
-[tcpdump](tcpdump.md)
+Network stream utility with encryption support (Twofish, base64,
+SSL/TLS), similar to [netcat](netcat.md).
 
-[tcpxtract](tcpxtract.md)
+* Mera Systems [NetBeholder](https://videonadzor.net/)
 
-[tcpflow](tcpflow.md)
+* [netcat](netcat.md)
 
-[OmniPeek](omnipeek.md) by WildPackets
+Reads and writes data over network connections (TCP/UDP); used for
+ad-hoc transfers and port testing.
 
-OmniPeek is a network forensics tool used to capture, store, and analyze
-historical network traffic.
+* [Netstat](netstat.md)
 
-[Whois](https://en.wikipedia.org/wiki/WHOIS)
+Shows the network connections, listening ports, and routing information
+of a machine.
 
-Web service and command line tool to look up registry information for internet
-domain.
+* [ngrep](ngrep.md)
 
-[American Registry for Internet Numbers (ARIN)](https://www.arin.net/)
+Applies grep-style pattern matching to live or captured network traffic
+(TCP and UDP).
 
-[African Network Information Center (AfriNIC)](https://www.afrinic.net/)
-
-[Asia Pacific Network Information Centre (APNIC)](https://www.apnic.net/)
-
-[Latin American and Caribbean IP Address Regional Registry (LACNIC)](https://www.lacnic.net/)
-
-[RIPE Network Coordination Centre (RIPE NCC)](https://www.ripe.net/)
-
-[Wireshark](wireshark.md) / Ethereal
-
-Open Source protocol analyzer previously known as ethereal.
-
-[Kismet](kismet.md)
-
-Kismet is an 802.11 layer2 wireless network detector, sniffer, and
-intrusion detection system.
-
-[kisMAC](kismac.md)
-
-KisMAC is an open-source and free sniffer/scanner application for Mac OS
-X.
-
-[Xplico](xplico.md)
-
-Open Source Network Forensic Analysis Tool (NFAT). Protocols supported:
-HTTP, SIP, FTP, IMAP, POP, SMTP, TCP, UDP, IPv4, IPv6, ...
-
-VoIP sniffer and decoder. Audio codec supported: G711ulaw, G711alaw,
-G722, G729, G723, G726 and MSRTA
-
-[Expert Team - 3i System](http://expert-team.net/home/)
-
-Expert Team 3i System provides real-time data traffic reconstruction
-which allows raw data packet stream to be decoded, reassemble and
-reconstruct back to the original content view receive/compose/sent by
-the target users. Supported layer 7 protocols and applications include
-HTTP (Web URL and Content, Web Video, Web File Upload and Download,
-Email - POP3, IMAP, SMTP, Webmail, Social Networking Sites, FTP File
-Upload and Download, Instant Messaging, VoIP etc....
-
-[fmadio 10G Packet Capture](https://www.fmad.io/)
-
-Cost effective full line rate 10G packet capture to disk appliance.
-Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
-space, generating nanosecond PCAP files that can be downloaded for
-further processing at 10Gbit speed. This is a commercial appliance by a
-small independent vendor.
-
-[Bulk Extractor](bulk_extractor.md)
-
-[logstash](https://www.elastic.co/logstash) is a tool for managing events and logs. You can use it to
-collect logs, parse them, and store them for later use (like, for searching). Speaking of searching,
-logstash comes with a web interface for searching and drilling into all of your logs.
-
-[ntop](ntop.md)
-
-[RegRipper](regripper.md) is an open source tool, written in Perl, for extracting/parsing
-information (keys, values, data) from the Windows Registry and presenting it for analysis
-
-[InfoWatch Traffic Monitor](https://infowatch.com/)
-
-Mera Systems [NetBeholder](https://videonadzor.net/)
-
-NETRESEC [NetworkMiner Professional (portable network forensic analysis tool for Windows)](https://www.netresec.com/?page=NetworkMiner)
-
-NetWitness Corporation - Freeware/Commercial, Enterprise-Wide, Real-Time Network Forensics
-[NetWitness](https://www.netwitness.com/)
-
-[PacketMotion](https://www.vmware.com/company/acquisitions.html)
-
-## Command-line tools
-
-[SplitCap](https://www.netresec.com/?page=SplitCap)
-
-SplitCap is a free open source pcap file splitter.
-
-[tcpdump](tcpdump.md) - capture packets
-
-snoop - captures packets from the network and
-displays their contents ([solaris](solaris.md)
-
-[nmap](nmap.md) - utility for network exploration and security
-auditing
-
-[Xplico](xplico.md) Open Source Network Forensic Analysis Tool
-(NFAT)
-
-[pcap_latency_analyzer](https://github.com/fmadio/pcap_latency_analyzer)
-Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
-packets with the same payloads.
-
-### TCP Layer
-
-[Layer Four Traceroute (LFT) and WhoB](https://pwhois.org/lft/) - TCP tracing
+* [nmap](nmap.md) - utility for network exploration and security auditing
