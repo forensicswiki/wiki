@@ -92,7 +92,7 @@ Most of the following applications can be used to do visualization.
   for drawing connected graphs of nodes and edges. Neato is a similar
   system but does layout based on a spring model. Can produce output as
   PostScript, PNG, [GIF](gif.md), or as an annotated graph file with
-  the locations of all of the objects — ideal for drawing in a GUI. Runs
+  the locations of all of the objects - ideal for drawing in a GUI. Runs
   from the command line on [Unix](unix.md),
   [Windows](windows.md) and [Mac](mac_os_x.md), although
   there is also a [Mac OS GUI version](http://www.pixelglow.com/graphviz/).

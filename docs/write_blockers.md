@@ -5,7 +5,7 @@ tags:
 ---
 In the field of digital forensics, the integrity of [evidence](digital_evidence.md) is essential.
 The foundational rule of data acquisition is simple: the examiner must never alter the original
-storage medium. To enforce this, forensic investigators rely on write blockers—technological
+storage medium. To enforce this, forensic investigators rely on write blockers-technological
 safeguards designed to guarantee the preservation of original data. In its original sense, write
 blockers act as a strict gatekeeper between a host forensic workstation and a target storage
 device. They permit seamless read-only access to the source data while intercepting and discarding
@@ -30,7 +30,7 @@ Forensic examiners distinguish between two main categories of these tools: hardw
 write blockers.
 
 Hardware write-blockers are physical bridge devices containing embedded microcontrollers. They
-inspect command packets directly at the bus controller layer—for instance, blocking low-level ATA
+inspect command packets directly at the bus controller layer-for instance, blocking low-level ATA
 Write Commands like 0x30 or 0x35. Because they function at the hardware level, they are operating
 system independent. Hardware blockers are categorized as "Native" when they utilize the same
 interface for input and output (such as an IDE-to-IDE block) or "Tailgate" when they bridge two

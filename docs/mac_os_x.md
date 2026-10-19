@@ -344,7 +344,7 @@ Mac OS.
 ### NSKeyedArchiver
 
 * [NSKeyedArchiver - An encoder that stores an object's data to an archive referenced by keys](https://developer.apple.com/documentation/foundation/nskeyedarchiver)
-* [NSKeyedArchiver files – what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/),
+* [NSKeyedArchiver files - what are they, and how can I use them?](https://digitalinvestigation.wordpress.com/2012/04/04/geek-post-nskeyedarchiver-files-what-are-they-and-how-can-i-use-them/),
   by Alex Caithness, April 4, 2012
 * [Manual Analysis of 'NSKeyedArchiver' Formatted Plist Files - A Review of the NEW OS X 10.11
   "Recent
@@ -355,7 +355,7 @@ Mac OS.
 
 ### Unified logging
 
-* [New macOS Sierra (10.12) Forensic Artifacts – Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
+* [New macOS Sierra (10.12) Forensic Artifacts - Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging),
   by Sarah Edwards, November 13, 2016
 * [Reviewing macOS Unified Logs](https://www.mandiant.com/resources/blog/reviewing-macos-unified-logs),
   by Alexander Holcomb, August 31, 2022

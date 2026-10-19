@@ -41,7 +41,7 @@ VMware to create virtual machine from the emulated physical disk.
 Guidance software has a good guide on how to do this in their support
 portal.
 
-Note – EnCase v7 hasn't been proven to support this, just EnCase 6
+Note - EnCase v7 hasn't been proven to support this, just EnCase 6
 
 #### Forensic Explorer
 

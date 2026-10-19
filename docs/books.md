@@ -87,4 +87,4 @@ some publisher links are broken or websites have changed.
 
 | Title | Author | ISBN | Publisher | Publication Date | Comment |
 | --- | --- | --- | --- | --- | --- |
-| [Форензика – компьютерная криминалистика](http://forensics.ru/) | N. N. Fedotov | | | | |
+| [Форензика - компьютерная криминалистика](http://forensics.ru/) | N. N. Fedotov | | | | |

@@ -140,30 +140,30 @@ is important to know that:
 
 ```text
 $UserCredential = Get-Credential
-$Session = New-PSSession –ConfigurationName Microsoft.Exchange –ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $UserCredential –Authentication Basic –AllowRedirection
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $UserCredential -Authentication Basic -AllowRedirection
 Import-PSSession $Session Get-Mailbox
 ```
 
 * Enable the audit logging of mailbox
 
 ```text
-Set-Mailbox –Identity "PiPi" –AuditEnabled \$true*
-Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails -eq "UserMailbox"} \| Set-Mailbox -AuditEnabled \$true
+Set-Mailbox -Identity "PiPi" -AuditEnabled \$true*
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} \| Set-Mailbox -AuditEnabled \$true
 ```
 
 * Mention the owner actions for auditing (Optional)
 
 ```text
-Set-Mailbox "PiPi" –AuditOwner MailboxLogin,HardDelete
-Set-Mailbox "Doll" –AuditEnabled \$true –AuditOwner HardDelete
+Set-Mailbox "PiPi" -AuditOwner MailboxLogin,HardDelete
+Set-Mailbox "Doll" -AuditEnabled \$true -AuditOwner HardDelete
 ```
 
 * Change retention duration for the entries in mailbox audit log
   (Optional)
 
 ```text
-Set-Mailbox –Identity "PiPi" –AuditLogAgeLimit 180
-Get-Mailbox –ResultSize Unlimited –Filter {RecipientTypeDetails –eq "UserMailbox"} \| Set-Mailbox –AuditLogAgeLimit 60
+Set-Mailbox -Identity "PiPi" -AuditLogAgeLimit 180
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} \| Set-Mailbox -AuditLogAgeLimit 60
 ```
 
 ## Tools

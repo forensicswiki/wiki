@@ -163,7 +163,7 @@ TODO: complete section
 
 ## External Links
 
-* [Windows SuperFetch file format – partial specification](http://blog.rewolf.pl/blog/?p=214),
+* [Windows SuperFetch file format - partial specification](http://blog.rewolf.pl/blog/?p=214),
   by ReWolf, October 5, 2011
 * [Windows SuperFetch database format](https://github.com/libyal/libagdb/blob/main/documentation/Windows%20SuperFetch%20(DB)%20format.asciidoc),
   by the [libagdb project](libagdb.md), April 2014

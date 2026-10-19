@@ -17,7 +17,7 @@ processes to deliver solutions which delight the customers all around
 the world.
 
 From inspiration to finished product, from concept to delivery, and from
-restoration to retrieval – SysInfoTools Software will support the
+restoration to retrieval - SysInfoTools Software will support the
 application project all the way. Focused to developing cutting edge
 software applications, the company brought a wide range of exclusive
 hi-end software recovery products in the marketplace.

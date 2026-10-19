@@ -201,7 +201,7 @@ of meeting recordings.
 * [Daily Blog \#277: Sample Forensic Images](https://www.hecfblog.com/2014/03/daily-blog-277-sample-forensic-images.html)
 * [Circl.lu - Digital Forensic - Training Materials](https://www.circl.lu/services/forensic-training-materials/)
 * [Forensic Focus - Test Images and Forensic Challenges](https://www.forensicfocus.com/challenges-and-images/)
-* [ForGe – Computer Forensic Test Image Generator](https://www.forensicfocus.com/articles/forge-computer-forensic-test-image-generator/),
+* [ForGe - Computer Forensic Test Image Generator](https://www.forensicfocus.com/articles/forge-computer-forensic-test-image-generator/),
   by Hunnu Visti, October 18, 2013
 * [Honeynet Project Challenges](https://www.honeynet.org/challenges/)
 * [NullconCTF2014](https://sourceforge.net/projects/nullconctf2014/)

@@ -14,15 +14,15 @@ transcriptions* and many more.
 
 ## Why Exchange Server?
 
-* Microsoft Exchange Server stands as the most outstanding and cost –
+* Microsoft Exchange Server stands as the most outstanding and cost -
   effective solution delivering highly secure B2C and B2B emailing
   solution.
 * Equipped with DLP (Data Loss Prevention) capabilities, that excels in
   protecting sensitive data.
-* Allows technocrats to perform in – place eDiscovery across multiple
+* Allows technocrats to perform in - place eDiscovery across multiple
   environments such as Exchange, SharePoint, and Lync.
 * Use Exchange Hybrid, a platform that allows you to traverse your
-  emails on – premise and meet your business needs.
+  emails on - premise and meet your business needs.
 
 ## Features
 
@@ -43,9 +43,9 @@ various features that make Exchange Server an indispensable product are:
   mobile phone, tablet, and desktop browsers.
 * ***Disk Support Up To 8 TB.*** Multiple databases are being used in
   conjunction with DAG.
-* ***In – built anti – malware.*** Customizable feature of usage of anti
-  – malware provided for use, if required.
-* ***In – Place eDiscovery.*** Crucial and sensitive data can now easily
+* ***In - built anti-malware.*** Customizable feature of usage of anti-malware provided for use, if
+  required.
+* ***In - Place eDiscovery.*** Crucial and sensitive data can now easily
   be searched and carved in.
 * ***Shadow Redundancy.*** "Shadow Redundancy" mechanism protects the
   email messages in the state when they are available in the transit.

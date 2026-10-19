@@ -70,7 +70,7 @@ Step 13. If it works, you'll see the [aimage](aimage.md) program
 * Your source drive can be broken, [aimage](aimage.md) should
   tell you this;
 * You can run out of disk space. You need a LOT of disk space to store
-  disk images — figure 30GB to image a 60GB drive.
+  disk images - figure 30GB to image a 60GB drive.
 
 ## What to do after you have made your images
 

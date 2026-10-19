@@ -23,8 +23,8 @@ Outlook 2013 include: -
 * ***Exchange ActiveSync (EAS).*** The EAS protocol now allows Outlook
   to work in synchronization with emailing services such as Outlook.com.
 * ***Add-in Resiliency.*** To enhance its performance and resiliency;
-  Outlook, now automatically turns off any sort of malicious add – in.
-  These add–ins, if required, can be re – enabled manually.
+  Outlook, now automatically turns off any sort of malicious add - in.
+  These add-ins, if required, can be re - enabled manually.
 * ***Cached Exchange Mode Improvements.*** Outlook 2013 now executes the
   caching of email messages from the past 12 months only. Any email
   message older than last 12 months is automatically dropped from the

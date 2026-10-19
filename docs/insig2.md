@@ -164,7 +164,7 @@ client's goals and expectations.
 
 [<span style="color:red">DIGITAL INTELLIGENCE FORENSICS
 COURSES</span>](https://www.insig2.com/en/educations/operational-analysis)
-consist of two different types of education, Operational – aimed at
+consist of two different types of education, Operational - aimed at
 achieving a specific law enforcement outcome and Strategic analysis -
 intended to inform senior decision-makers over the long-term analysis.
 The course outcomes include identification of criminal's modus operandi,
@@ -223,8 +223,8 @@ and gain practical experience.
 
 Professional improvement and acquiring new expertise is the priority of
 the INsig2 team! Our experts hold certificates from the following
-organizations and companies: CFCE, AccessData ACE, EnCE, UFED – CMFF,
-CCO, CCPA, CCME, Oxygen, MSAB XRY, Berla – CVST, CVSE, Belkasoft,
+organizations and companies: CFCE, AccessData ACE, EnCE, UFED - CMFF,
+CCO, CCPA, CCME, Oxygen, MSAB XRY, Berla - CVST, CVSE, Belkasoft,
 Blackbag -CBE, MiCFE, CSITech Cryptocurrency, Live Data Forensics, and
 Open Source Intelligence.
 

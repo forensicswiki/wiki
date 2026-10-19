@@ -41,7 +41,7 @@ packet dumps, and other kinds of digital information.
 bulk_extractor now creates an output directory that includes:
 
 * **ccn.txt** -- Credit card numbers
-* **ccn_track2.txt** -- Credit card "track 2″ information
+* **ccn_track2.txt** -- Credit card "track 2" information
 * **domain.txt** -- Internet domains found on the drive, including
   dotted-quad addresses found in text.
 * **email.txt** -- Email addresses
@@ -120,9 +120,9 @@ contains the offset, feature, and the file in which the feature was
 found.
 
 make_context_stop_list.py
-Although forensic analysts frequently make "stop lists"—for example, a
+Although forensic analysts frequently make "stop lists"-for example, a
 list of email addresses that appear in the operating system and should
-therefore be ignored—such lists have a significant problem. Because it
+therefore be ignored-such lists have a significant problem. Because it
 is relatively easy to get an email address into the binary of an open
 source application, ignoring all of these email addresses may make it
 possible to cloak email addresses from forensic analysis. Our solution

@@ -261,7 +261,7 @@ will be tested with certification exams.
 
 WetStone has created this one-day advanced module to their Hacking
 Bootcamp focusing exclusively on Zombies and Botnets. Students will have
-unique access to our “hands-on” interactive learning environment.
+unique access to our "hands-on" interactive learning environment.
 Students will work together to establish a complex Botnet environment
 and practice investigative methods/techniques to collect criminal
 information. Each student will learn how to shutdown and isolate Botnet

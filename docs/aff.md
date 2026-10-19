@@ -50,7 +50,7 @@ variety of case-management scenarios.
 The original AFF format is a single file that contains segments with
 drive data and metadata. Its contents can be compressed, but it can be
 quite large as the data on modern hard disks often reach 100GB in size.
-AFFv3 supported three file extensions --– AFF, AFD and AFM –-- and
+AFFv3 supported three file extensions --- AFF, AFD and AFM --- and
 provided a tool to easily convert between the variations.
 
 For ease of transfer, large AFF files can be broken into multiple AFD

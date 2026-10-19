@@ -128,21 +128,21 @@ information.
   by Corey Harrell, April 2011
 * [HowTo: Mount and Access VSCs](https://windowsir.blogspot.com/2011/09/howto-mount-and-access-vscs.html),
   by [Harlan Carvey](harlan_carvey.md), September 2011
-* [Ripping Volume Shadow Copies – Introduction](http://journeyintoir.blogspot.com/2012/01/ripping-volume-shadow-copies.html),
+* [Ripping Volume Shadow Copies - Introduction](http://journeyintoir.blogspot.com/2012/01/ripping-volume-shadow-copies.html),
   by Corey Harrell, January 2012
-* [Ripping VSCs – Practitioner Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-method.html),
+* [Ripping VSCs - Practitioner Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-method.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Practitioner Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-examples.html),
+* [Ripping VSCs - Practitioner Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-practitioner-examples.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Developer Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-method.html),
+* [Ripping VSCs - Developer Method](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-method.html),
   by Corey Harrell, February 2012
-* [Ripping VSCs – Developer Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-examples.html),
+* [Ripping VSCs - Developer Examples](http://journeyintoir.blogspot.com/2012/02/ripping-vscs-developer-examples.html),
   by Corey Harrell, February 2012
 * [Examining VSCs with GUI Tools](http://journeyintoir.blogspot.com/2012/02/examining-vscs-with-gui-tools.html),
   by Corey Harrell, February 2012
 * [VSC Toolset: A GUI Tool for Shadow Copies](https://dfstream.blogspot.com/2012/03/vsc-toolset-gui-tool-for-shadow-copies.html),
   by Jason Hale, March 2012
-* [Examining Volume Shadow Copies – The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
+* [Examining Volume Shadow Copies - The Easy Way!](http://encase-forensic-blog.guidancesoftware.com/2012/06/examining-volume-shadow-copies-easy-way.html),
   by Simon Key, June 2012
 * Getting Ready for a Shadow Volume Exam,
   by Jimmy Weg, June 2012

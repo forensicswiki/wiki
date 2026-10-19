@@ -137,7 +137,7 @@ collected in the same image file):
   really offer any advantages over an ELF core dump.
 * HPAK - A proprietary format used in HBGary's tools.
 * Mach-O - This is the binary format used on Mac OS X. These kind of images
-  used to be produced by the now defunct “Mac Memory Reader”. Does not
+  used to be produced by the now defunct "Mac Memory Reader". Does not
   really offer any advantages over ELF core dumps.
 
 After version 2.0 Rekall's pmem suite of acquisition tools have switched
@@ -200,9 +200,9 @@ aff4://4928ef44-6579-496c-a53e-2ad34d98b7ed
 We can see that the AFF4 volume is denoted by a globally unique
 name `aff4://4928ef44-6579-496c-a53e-2ad34d98b7ed`. This is called the
 AFF4 URN and uniquely identifies this volume. The metadata is stored in
-this volume's archive member called “information.turtle”. We also see a
+this volume's archive member called "information.turtle". We also see a
 number of streams - The`PhysicalMemory` is the memory stream of the
-machine's physical memory, “c%3a/pagefile.sys” is the stream
+machine's physical memory, "c%3a/pagefile.sys" is the stream
 corresponding with the machine's pagefile.
 
 Lets examine the metadata stored in the information.turtle archive
@@ -269,7 +269,7 @@ can use all imagers for basic manipulation of all AFF4 volumes. Hence we
 will discuss these common features here. Below we discuss some of the
 differences in the implementations between the operating systems.
 
-Lets consider the output from the –help command:
+Lets consider the output from the -help command:
 
 ```bash
 $ linpmem --help

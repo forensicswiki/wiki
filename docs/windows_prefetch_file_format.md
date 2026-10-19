@@ -65,7 +65,7 @@ part of the file header.
 
 #### File information - version 17
 
-The file information – version 17 is 68 bytes of size and consists of:
+The file information - version 17 is 68 bytes of size and consists of:
 
 | Offset | Length | Type | Notes |
 | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ The file information – version 17 is 68 bytes of size and consists of:
 
 #### File information - version 23
 
-The file information – version 23 is 156 bytes of size and consists of:
+The file information - version 23 is 156 bytes of size and consists of:
 
 | Offset | Length | Type | Notes |
 | --- | --- | --- | --- |
@@ -107,7 +107,7 @@ The file information – version 23 is 156 bytes of size and consists of:
 
 #### File information - version 26
 
-The file information – version 26 is 224 bytes of size and consists of:
+The file information - version 26 is 224 bytes of size and consists of:
 
 | Offset | Length | Type | Notes |
 | --- | --- | --- | --- |
@@ -133,7 +133,7 @@ The file information – version 26 is 224 bytes of size and consists of:
 
 ### File metrics entry record - version 17
 
-The file metrics entry records – version 17 is 20 bytes in size and
+The file metrics entry records - version 17 is 20 bytes in size and
 consists of:
 
 | Offset | Length | Type | Notes |
@@ -146,7 +146,7 @@ consists of:
 
 ### File metrics entry record - version 23
 
-The file metrics entry records – version 23 is 32 bytes in size and
+The file metrics entry records - version 23 is 32 bytes in size and
 consists of:
 
 | Offset | Length | Type | Notes |
@@ -161,8 +161,8 @@ consists of:
 
 ### File metrics entry record - version 26
 
-The file metrics entry record – version 26 appears to be similar to file
-metrics entry record – version 23.
+The file metrics entry record - version 26 appears to be similar to file
+metrics entry record - version 23.
 
 ## Section B - Trace chains array
 
@@ -210,7 +210,7 @@ The structure of the volume information is version dependent.
 
 #### Volume information - version 17
 
-The volume information – version 17 is 40 bytes in size and consists of:
+The volume information - version 17 is 40 bytes in size and consists of:
 
 | Field | Offset | Length | Type | Notes |
 | --- | --- | --- | --- | --- |
@@ -226,7 +226,7 @@ The volume information – version 17 is 40 bytes in size and consists of:
 
 #### Volume information - version 23
 
-The volume information entry – version 23 is 104 bytes in size and
+The volume information entry - version 23 is 104 bytes in size and
 consists of:
 
 | Field | Offset | Length | Type | Notes |
@@ -247,8 +247,8 @@ consists of:
 
 #### Volume information - version 26
 
-The volume information entry – version 26 appears to be similar to
-volume information – version 23.
+The volume information entry - version 26 appears to be similar to
+volume information - version 23.
 
 ### Sub section E - NTFS file references
 

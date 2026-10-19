@@ -11,7 +11,7 @@ security policy modeling, electronic voting, and empirical studies of
 security.
 
 Peisert received his Ph.D., Masters and Bachelors degrees in Computer Science
-from the University of California, San Diego (UCSD). He was a 2007–2008 I3P
+from the University of California, San Diego (UCSD). He was a 2007-2008 I3P
 Fellow and consults a bit.  Previously, he was a postdoc at UC Davis, was a
 postdoc and lecturer in the Computer Science and Engineering department at
 UCSD, was a computer security researcher at the San Diego Supercomputer Center

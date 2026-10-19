@@ -66,7 +66,7 @@ out of the rest.
 
 A DMG image file can be created for the CD/DVD or a Hard Disk Partition.
 Six different types of partition schemes are generally found, i.e. Hard
-Disk, No Partition Map, CD/DVD, and Single Partition for – Apple
+Disk, No Partition Map, CD/DVD, and Single Partition for - Apple
 Partition Map, CD/DVD, Master Boot Record Partition Map, CD/DVD ISO
 data, & GUID Partition Map.
 

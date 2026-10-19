@@ -24,7 +24,7 @@ time of this writing is oclHashcat v1.3.0 which includes GPU accelerated
 At the time of this writing, Samsung "does things different" than other
 Android vendors. This may change with later releases of the Android OS
 releases. For specifics on how Samsung does things different, see the
-DerbyCon 2013 talk given by LÃ¡szlÃ³ TÃ³th and Ferenc Spala which covers
+DerbyCon 2013 talk given by László Tóth and Ferenc Spala which covers
 the technical details. Without their research and effort this document
 would not be possible!
 
@@ -58,7 +58,7 @@ Optional:
 
 Depending on the model of phone and Android version on the device, the
 location of the password key (or password footer as it's referred to in
-some cases) varies. According to the research by TÃ³th and Spala, in
+some cases) varies. According to the research by Tóth and Spala, in
 some versions of Android the key is located in the last 16K of the
 encrypted userdata partition. In other Android versions the key is
 located in /efs/metadata. For these cases, their 'sandy' framework can

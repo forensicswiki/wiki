@@ -479,9 +479,9 @@ HKEY_USERS**
 * [Forensic Registry EDitor (fred)](https://www.pinguin.lu/index.php) -
   "Forensic Registry EDitor (fred) is a cross-platform M\$ registry hive
   editor" by Daniel Gillen
-* [regviewer](https://sourceforge.net/projects/regviewer/) — a tool for
+* [regviewer](https://sourceforge.net/projects/regviewer/) - a tool for
   looking at the registry.
-* [RegRipper](regripper.md) — "the fastest, easiest, and best
+* [RegRipper](regripper.md) - "the fastest, easiest, and best
   tool for registry analysis in forensics examinations."
 * [Parse::Win32Registry](https://metacpan.org/release/JMACFARLA/Parse-Win32Registry-0.51/view/lib/Parse/Win32Registry.pm)
   Perl module.

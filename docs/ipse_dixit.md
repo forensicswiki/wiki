@@ -27,7 +27,7 @@ signatures can lead to incorrect findings.
 When an analyst copies a report directly from a commercial tool into their forensic affidavit
 without verifying the underlying data, they are relying on an *ipse dixit*. If pressed on the
 witness stand during cross-examination about *how* the tool reached that conclusion, an answer of
-"because the tool said so" will cause the evidence—and the expert's credibility—to crumble. The
+"because the tool said so" will cause the evidence-and the expert's credibility-to crumble. The
 judge is not interested in the vendor's unverified authority; the court requires scientific
 validity.
 
@@ -87,5 +87,5 @@ verifiable facts rather than assumptions.
 
 ## External Links
 
-* [The “Ipse Dixit” Problem in Expert Testimony](https://www.expertinstitute.com/resources/insights/ipse-dixit-problem/),
+* [The "Ipse Dixit" Problem in Expert Testimony](https://www.expertinstitute.com/resources/insights/ipse-dixit-problem/),
   by Zach Barreto, August 12, 2026

@@ -153,9 +153,9 @@ def FromFiletime(filetime):
   by the [libfsntfs project](libfsntfs.md), August 2009
 * [The Four Stages of NTFS File Growth](https://learn.microsoft.com/en-us/archive/blogs/),
   by Jeff Hughes, October 16, 2009
-* [Incident Response with NTFS INDX Buffers – Part 1: Extracting an INDX Attribute](https://www.mandiant.com/resources/blog),
+* [Incident Response with NTFS INDX Buffers - Part 1: Extracting an INDX Attribute](https://www.mandiant.com/resources/blog),
   by William Ballenthin, September 18, 2012
-* [Incident Response with NTFS INDX Buffers – Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/resources/blog),
+* [Incident Response with NTFS INDX Buffers - Part 2: The Internal Structures of a File Name Attribute](https://www.mandiant.com/resources/blog),
   by Jeff Hamm, September 26, 2012
 * [Analysis of hidden data in the NTFS file system](https://www.forensicfocus.com/articles/analysis-of-hidden-data-in-the-ntfs-file-system/),
   by Cheong Kai Wee, January 2006

@@ -37,7 +37,7 @@ evaluated against five core principles:
 
 ## Characteristics of a Digital Forensic Tool
 
-To be classified as a legitimate forensic tool—whether its function is data acquisition, parsing,
+To be classified as a legitimate forensic tool-whether its function is data acquisition, parsing,
 filtering, or deep artifact analysis, such software must possess specific core traits aligned with
 Daubert requirements:
 

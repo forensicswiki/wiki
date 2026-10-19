@@ -32,5 +32,5 @@ features:
 * Image mounting supporting popular forensic image formats and Fusion drives.
 * Built-in Live Imaging.
 * Automatic identification of Spoliation artifacts.
-* Create customized reports – PDF, HTML, CSV and XML.
+* Create customized reports - PDF, HTML, CSV and XML.
 * Image RAM, capture Volatile Data

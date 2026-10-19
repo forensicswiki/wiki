@@ -314,7 +314,7 @@ invalid PTEs.
 
 #### 3.1.2. Transition State
 
-Windows has a ‘Working Set Trimmer` - a component which removes pages
+Windows has a 'Working Set Trimmer` - a component which removes pages
 from processes' working set (The Working Set is better known as the
 Resident Set in POSIX, but is essentially the set of all pages that can
 be accessed by the process without faulting.). The trimmer tries to

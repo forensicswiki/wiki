@@ -242,7 +242,7 @@ with the file. There are a set of handy macros defined in fcntl.h that
 you should use. When reading files, using O_RDONLY is usually
 sufficient. When writing an AFF file, it is best to use O_CREAT\|O_RDWR.
 
-The mode parameter is only used when creating a new file (RBF – and only
+The mode parameter is only used when creating a new file (RBF - and only
 on \*nix?). It controls the
 
 It should be noted here that when writing AFF files, the af_open command
@@ -500,10 +500,10 @@ int af_get_next_seg(AFFILE *af, char *segname, size_t segname_len, unsigned long
 int af_update_seg(AFFILE *af, const char *name, unsigned long arg, const void *value, unsigned int vallen);
 ```
 
-**RBF – Why aren't these arguments in C99 type? Arg, especically, needs
+**RBF - Why aren't these arguments in C99 type? Arg, especically, needs
 to be denoted as being 32 bits**
 
-**RBF – If the sizes of segments when read is returned in a size_t, why
+**RBF - If the sizes of segments when read is returned in a size_t, why
 isn't the length size_t when being passed in for writing? And why the
 different name for the length parameter**
 
@@ -644,10 +644,10 @@ Although segment names and values can be defined by the user at any
 time, here is a list of the segments that are included in the AFF
 library. Those values set by aimage are noted.
 
-**RBF – Which segment names are required for the file to be a valid
+**RBF - Which segment names are required for the file to be a valid
 AFF?**
 
-**RBF – How does the programmer enumerate all of the segment names?**
+**RBF - How does the programmer enumerate all of the segment names?**
 
 | Name | Aimage | Description |
 | --- | --- | --- |

@@ -179,5 +179,5 @@ about:config
 
 * [Official website](https://www.mozilla.org/en-US/firefox/)
 * [Profile folder - Firefox](http://kb.mozillazine.org/Profile_folder_-_Firefox)
-* [Firefox 3 – downloads.sqlite](https://wiki.mozilla.org/images/3/3d/Downloads.sqlite.schema.pdf)
+* [Firefox 3 - downloads.sqlite](https://wiki.mozilla.org/images/3/3d/Downloads.sqlite.schema.pdf)
 * [Mozilla Firefox Releases](http://download.cdn.mozilla.net/pub/firefox/releases/)

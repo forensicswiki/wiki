@@ -10,7 +10,7 @@ allows access to these shadow volumes.
 
 Shadow Volumes that exist on a drive image are no different. They too
 can be accessed by creating a symbolic link to the location of the
-volume. There is a caveat here though – the Shadow Volume is mounted at
+volume. There is a caveat here though - the Shadow Volume is mounted at
 the local file system's root rather than the drive image's file system
 root.
 

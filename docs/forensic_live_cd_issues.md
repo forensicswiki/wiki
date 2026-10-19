@@ -184,5 +184,5 @@ almost the same, except it doesn't write block anything by default).
 ## External Links
 
 * [Linux for computer forensic investigators: problems of booting trusted operating system](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators_2.pdf)
-* [Linux for computer forensic investigators: «pitfalls» of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
+* [Linux for computer forensic investigators: "pitfalls" of mounting file systems](http://www.computer-forensics-lab.org/pdf/Linux_for_computer_forensic_investigators.pdf)
 * [Testing the forensic soundness of forensic examination environments on bootable media](https://dfrws.org/presentation/testing-the-forensic-soundness-of-forensic-examination-environments-on-bootable-media/)

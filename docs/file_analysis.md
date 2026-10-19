@@ -17,5 +17,5 @@ tags:
 
 ## Tools
 
-* [Hachoir](hachoir.md) — Python framework for binary file manipulation
+* [Hachoir](hachoir.md) - Python framework for binary file manipulation
 * [Wikipedia: prevx](https://en.wikipedia.org/wiki/Prevx)

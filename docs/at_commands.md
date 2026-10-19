@@ -53,9 +53,9 @@ Returns: +CPBR: (1-1000),40,24
 **AT+CPBR=\[beginning index\],\[ending index\]**
 Returns a list of numbers with the index between the two numbers
 entered. Also denotes what TYPE of phonebook entry was selected.
-Returns: +CPBR: 9,"18005555555",129,"Contact Name" – 129 refers to a
+Returns: +CPBR: 9,"18005555555",129,"Contact Name" - 129 refers to a
 phone number.
-Returns: +CPBR: 18,"user@domain.net",128,"Contact Name" – 128 refers to
+Returns: +CPBR: 18,"user@domain.net",128,"Contact Name" - 128 refers to
 an email.
 
 **AT+CPBR=\[index\]**

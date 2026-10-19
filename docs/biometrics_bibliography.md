@@ -24,7 +24,7 @@ Dhananjay Theckedath, Rupert Young and Chris Chatwin, January 2006
 [Information fusion in biometrics](https://linkinghub.elsevier.com/retrieve/pii/S0167865503000795),
 by Arun Ross and Anil Jain, September 2003
 
-[Implementation of Biometric Systems — Security and Privacy
+[Implementation of Biometric Systems - Security and Privacy
 Considerations](https://linkinghub.elsevier.com/retrieve/pii/S1363412702004065), by Colin Soutar,
 December 2002
 

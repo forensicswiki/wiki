@@ -48,7 +48,7 @@ to the font information, which would resolve this issue.
 
 Part of the problem is that Unicode's Arabic Presentation Blocks are
 officially deprecated by the Unicode Consortium. Their inclusion was at
-the time – late 1980's - a technical compromise to allow the ISO 10646
+the time - late 1980's - a technical compromise to allow the ISO 10646
 to join Unicode. As such the compromise was incomplete, as only 400 out
 of originally 4000 requested Arabic ligatures we allowed to remain in
 the Unicode Standard. Ironically, all the printed examples in the

@@ -14,7 +14,7 @@ file, by directory, or by the entire volume.
 [Encryption](encryption.md) is done using a certificate. The
 certificate itself is saved on the encrypted volume, but it is encrypted
 with a password. Volumes can be configured so that they can be recovered
-using one of several certificates — for example, a recovery certificate
+using one of several certificates - for example, a recovery certificate
 belonging to the organization that owns the computer.
 
 ## How it works

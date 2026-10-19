@@ -356,9 +356,9 @@ arena completely. Thus, approaching the year 2014, SysTools made it a
 point to mark its presence at forensic events held by some of the
 industry pioneers which were attended by the experts, government
 representatives, and security professionals of the same discipline.
-The Hackers Conference 2014 – India, CEIC 2014 – USA, Ground Zero Summit
-2014 (Sri Lanka & New Delhi) – India, International Conference (Cyberlaw
-and Cyber Security) 2014 – India, and many more are amongst the
+The Hackers Conference 2014 - India, CEIC 2014 - USA, Ground Zero Summit
+2014 (Sri Lanka & New Delhi) - India, International Conference (Cyberlaw
+and Cyber Security) 2014 - India, and many more are amongst the
 conferences and events attended by SysTools Team concentrated on
 debating about the rise in rate of cyberspace invasion, challenges faced
 in the forefront, and possible yet substantial measures applicable to

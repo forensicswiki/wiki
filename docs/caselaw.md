@@ -20,10 +20,10 @@ calls\], it would defy common sense to afford emails lesser Fourth
 Amendment protection..."
 [1](https://www.eff.org/files/warshak_opinion_121410.pdf)
 
-**Binary Semantics Ltd. v. Minitab, Inc., Case No. 07‐1750 (M.D. Pa. May
+**Binary Semantics Ltd. v. Minitab, Inc., Case No. 07-1750 (M.D. Pa. May
 5, 2008)**
 In 2008, a district court agreed that a forensic image of an entire FTP
-server was "overly‐broad and intrusive," allowing the defendants only
+server was "overly-broad and intrusive," allowing the defendants only
 authorization for "a forensic copy of the relevant folders on \[the\]
 FTP server."
 
@@ -33,9 +33,9 @@ Electronic discovery requires litigants to scour disparate data storage
 mediums and formats for potentially relevant documents. That undertaking
 involves dueling considerations: thoroughness and cost.
 
-**United States v. Scott‐Emuakpor, 2000 U.S. Dist. LEXIS 3118 (W.D.
+**United States v. Scott-Emuakpor, 2000 U.S. Dist. LEXIS 3118 (W.D.
 Mich. 2000)**
-The court was satisfied with a third‐party collecting the forensic data
+The court was satisfied with a third-party collecting the forensic data
 as long as it was accompanied by "the testimony of a witness who was
 present and observed the procedure by which the documents were obtained
 from Defendant's computers."

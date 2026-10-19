@@ -17,7 +17,7 @@ On Windows XP, the default location where the IMM is stored by
 Incredimail can be obtained by clicking on *"Tools"* and selecting
 *"Options"* from the dropdown menu. Now move to *"General"* tab,
 followed by *"Data Folder Settings"*. Now in the Data Folder Settings
-pop – up window, copy the displayed path and paste it in the address bar
+pop - up window, copy the displayed path and paste it in the address bar
 of Windows Explorer. Move to *"Identities" \> "String of Numbers" \>
 "Message Store Folder"*. You can now view the available IMM files
 (inbox.imm. deleted items.imm, outbox.imm, etc.).
