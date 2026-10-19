@@ -44,7 +44,7 @@ Various concepts central to digital forensics.
 
 * Forensic Imaging (Bit-by-Bit Copy): Unlike a standard file copy (like dragging a folder to a USB
   drive), a forensic image is a complete, mathematical clone of every single bit on a storage
-  medium—including its deleted files, hidden partitions, and unallocated space.
+  medium-including its deleted files, hidden partitions, and unallocated space.
 * Write Blocking: A concept implemented via hardware or software that strictly prevents a computer
   from writing data to a piece of evidence. When a suspect's drive is plugged into a "write blocker",
   the investigator's computer can only read the data, ensuring the original device is completely

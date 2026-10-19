@@ -9,7 +9,7 @@ those in the firmware are the hardest.
 
 Sometimes people use the term "password" but the hard drive is really
 [encrypted](full_disk_encryption.md), and the password is used
-to unlock a decryption key. These passwords cannot be removed — the
+to unlock a decryption key. These passwords cannot be removed - the
 encryption key must be cracked or discovered through another means.
 
 ## Vendors

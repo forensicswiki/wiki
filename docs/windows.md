@@ -465,7 +465,7 @@ Value: SystemRoot
 
 ### Recycle Bin
 
-* [Lesson 3 – The Recycle Bin](https://www.cybersecurityinstitute.biz),
+* [Lesson 3 - The Recycle Bin](https://www.cybersecurityinstitute.biz),
   by Steve Hailey
 * [The Forensic Analysis of the Microsoft Windows Vista Recycle Bin](https://www.forensicfocus.com/articles/forensic-analysis-of-the-microsoft-windows-vista-recycle-bin/),
   by Mitchell Machor, January 22, 2008
@@ -543,7 +543,7 @@ Value: SystemRoot
 
 #### User Account Control (UAC)
 
-* [User Account Control – What Penetration Testers Should Know](https://www.cobaltstrike.com/),
+* [User Account Control - What Penetration Testers Should Know](https://www.cobaltstrike.com/),
   by Raphael Mudge, March 20, 2014
 
 #### Windows Event Logs

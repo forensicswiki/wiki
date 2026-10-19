@@ -21,8 +21,8 @@ need to be examined.
 
 ## Origins
 
-Created by the National Drug Intelligence Center (NDIC)—an agency of the
-United States Department of Justice—in 1996, it was the first source for
+Created by the National Drug Intelligence Center (NDIC)-an agency of the
+United States Department of Justice-in 1996, it was the first source for
 hash values of "known to be good" files.
 
 ## Availability

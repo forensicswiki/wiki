@@ -395,7 +395,7 @@ def FromFatDateTime(fat_date_time):
 
 * [Wikipedia: File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)
 * [Wikipedia: Design of the FAT file system](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
-* [NTFS — New Technology File System for Windows](https://www.ntfs.com/index.html)
+* [NTFS - New Technology File System for Windows](https://www.ntfs.com/index.html)
 * [exFAT file system specification](https://learn.microsoft.com/en-US/windows/win32/fileio/exfat-specification)
 
 ### Format documentation

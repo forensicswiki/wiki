@@ -69,7 +69,7 @@ Performance scenarios defined by the Windows Performance Recorder (WPR):
 
 * General: Records general performance while the computer is running.
 * On/Off - Boot: Records performance while the computer is booting.
-* On/Off – Fast Startup: Records performance during a fast startup.
+* On/Off - Fast Startup: Records performance during a fast startup.
 * On/Off - Shutdown: Records performance while shutting the computer
   down.
 * On/Off - RebootCycle: Records performance during the entire cycle

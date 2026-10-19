@@ -8,7 +8,7 @@ are translated into a coherent narrative. This translation is where the **invest
 mindset** meets the ancient art of **rhetoric**.
 
 In a field often viewed as purely technical, the ability to build an objective, persuasive
-argument—rooted in data—is what separates a simple tool-operator from a true forensic investigator
+argument-rooted in data-is what separates a simple tool-operator from a true forensic investigator
 (or analyst or examiner).
 
 ## The Investigator Mindset
@@ -45,7 +45,7 @@ report:
   [reproducibility](reproducibility.md).
 * **Pathos (Contextual Resonance):** While an investigator must remain strictly unemotional, they
   must understand the human context of the case. Presenting data in a way that respects the gravity
-  of the situation—whether it is a corporate espionage incident or a criminal trial—ensures the
+  of the situation-whether it is a corporate espionage incident or a criminal trial-ensures the
   audience understands the real-world impact of the digital evidence.
 
 ## The Forensic Narrative

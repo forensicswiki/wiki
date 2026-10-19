@@ -150,7 +150,7 @@ users to communicate through landlines, mobile phones and VoIP phones.
 However, call metadata such as Caller-ID is either not transferred or
 transferred without verification across these networks, allowing
 attackers to maliciously alter it. In this paper, we develop PinDr0p, a
-mechanism to assist users in determining call provenance — the source
+mechanism to assist users in determining call provenance - the source
 and the path taken by a call. Our techniques detect and mea- sure
 single-ended audio features to identify all of the applied voice codecs,
 calculate packet loss and noise profiles, while remaining agnostic to

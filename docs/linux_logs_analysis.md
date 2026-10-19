@@ -25,7 +25,7 @@ viewer (or editor).
   command.
 * /var/log/mail.log or /var/log/maillog: All mail server related logs are stored here.
 * /var/log/httpd/ or /var/log/apache2: Contains the logs recorded by the Apache server. Logging
-  information are stored in two different log files – error_log and access_log.
+  information are stored in two different log files - error_log and access_log.
 * /var/log/mysqld.log or /var/log/mysql.log or /var/log/mysql/: All debug, failure and success
   messages related to the [mysqld] and [mysqld_safe] daemon are logged to this file.
 * /var/log/apt/: Contains information related to Advance package tool (apt). Logging information are

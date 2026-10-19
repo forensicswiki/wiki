@@ -177,7 +177,7 @@ even if Belkasoft Evidence Center is not installed on that PC.
 
 The **Belkasoft Live RAM Capturer** is a free volatile memory
 acquisition tool developed by Belkasoft. It allows to reliably extract
-the entire contents of computer's volatile memory – even if protected
+the entire contents of computer's volatile memory - even if protected
 by an active anti-debugging or anti-dumping system. Separate 32-bit and
 64-bit builds are available in order to minimize the tool's footprint
 as much as possible. Memory dumps captured with Belkasoft Live RAM

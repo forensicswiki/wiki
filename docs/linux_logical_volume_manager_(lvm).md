@@ -132,7 +132,7 @@ mount -o ro,loop /dev/mapper/$VOLUMEGROUP-$VOLUMENAME filesystem/
   by RedHat
 * [Unix/Linux Administration Logical Volume Management Guide](https://wpollock.com/AUnix1/LVM.htm),
   by Wayne Pollock, 2005
-* [Logical Volume Manager ‐ Software RAID](http://forensic-proof.com/wp-content/uploads/2010/03/FP_Logical_Volume_Manager.pdf),
+* [Logical Volume Manager - Software RAID](http://forensic-proof.com/wp-content/uploads/2010/03/FP_Logical_Volume_Manager.pdf),
   by Proneer, March 30, 2010
 
 ## Tools

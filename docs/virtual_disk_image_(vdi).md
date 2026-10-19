@@ -22,7 +22,7 @@ the same way:
   first image block begins on a 512byte sector boundary. Since the
   allocation unit on both NTFS and Ext3 file systems is 4096 bytes, you
   will therefore get slightly better performance (typically a few %) if
-  you make your VDIs (1024N – 128) MByte long.
+  you make your VDIs (1024N - 128) MByte long.
 * Up to *N* x 1MByte image blocks.
 
 ## See Also

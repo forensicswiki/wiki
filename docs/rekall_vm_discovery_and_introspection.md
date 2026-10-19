@@ -29,7 +29,7 @@ determine if they are false positives.
 
 * What if you could inspect the VM and launch your Rekall plugin of choice
   on it? **With Rekall you can!**
-* “I want to do it remotely, live!”
+* "I want to do it remotely, live!"
   Try **GRR (now with Rekall integration)** \*wink\*.
 * What if you prefer to use your tool of choice instead of Rekall to
   analyze the VM memory? **Rekall helps you!**

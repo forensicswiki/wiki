@@ -263,7 +263,7 @@ either the respective mailbox credentials or impersonation rights
 (authority owned by a user for accessing a particular mailbox).
 Impersonation can be implemented to use:
 
-* *Provide Exchange Details*: Exchange Server versions (2007 – 2013 are
+* *Provide Exchange Details*: Exchange Server versions (2007 - 2013 are
   supported), Server Name/IP, and Domain Name.
 * *Using Impersonation*: Enable the feature and Provide Mailbox
   Credentials.

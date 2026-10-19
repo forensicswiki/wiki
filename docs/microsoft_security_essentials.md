@@ -32,7 +32,7 @@ C:\ProgramData\Microsoft\Windows Defender\Scans\History\CacheManager\MpSfc.bin
 To build run:
 
 ```text
-"%programfiles%\Windows Defender\MpCmdRun.exe" –BuildSFC
+"%programfiles%\Windows Defender\MpCmdRun.exe" -BuildSFC
 ```
 
 ## External Links

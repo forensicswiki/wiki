@@ -50,7 +50,7 @@ One of the key points that the paper makes is that there is a high
 degree of variability between individual modern hard drives.
 Manufacturers exploit this variability to increase drive densities.
 Unfortunately, this variability makes it dramatically harder to perform
-drive independent data recovery — that is, a single recovery approach
+drive independent data recovery - that is, a single recovery approach
 that will work on multiple drives.
 
 ## Current Work

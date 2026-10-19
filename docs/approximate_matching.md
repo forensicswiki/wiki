@@ -210,7 +210,7 @@ forensic hash matching (2012) SECRYPT 2012 - Proceedings of the
 International Conference on Security and Cryptography, pp. 333-338.
 
 Frank Breitinger, Knut Petter Åstebøl, Harald Baier, Christoph Busch:
-mvHash-B – A new Approach for Similarity Preserving Hash Function. 7th
+mvHash-B - A new Approach for Similarity Preserving Hash Function. 7th
 International Conference on IT Security Incident Management & IT
 Forensics (IMF), Nürnberg (Germany). March 2013.
 

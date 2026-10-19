@@ -32,7 +32,7 @@ Contact: rapier.securitytool@gmail.com
 * Results can be auto-zipped
 * Auto-uploaded to central repository
 * Email Notification when results are received
-* 2 Default Scan Modes – Fast/Slow
+* 2 Default Scan Modes - Fast/Slow
 * Separated output for faster analysis
 * Pre/Post run changes report
 * Configuration File approach
@@ -67,7 +67,7 @@ Contact: rapier.securitytool@gmail.com
 * List of all installed software on system (known to registry)
 * System logs
 * AV logs
-* Copies of application caches (temporary internet files) –
+* Copies of application caches (temporary internet files) -
   [IE](internet_explorer.md), [FF](mozilla_firefox.md),
   [Opera](opera.md)
 * Export entire registry

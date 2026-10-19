@@ -35,7 +35,7 @@ Overwriting programs typically operate in one of three modes:
    "deleted" but left on the drive. Programs typically do this by
    creating one or more files on the media and then writing to these
    files until no free space remains, taking special measures to erase
-   small files — for example, files that exist entirely within the
+   small files - for example, files that exist entirely within the
    Windows Master File Table of an NTFS partition (Garfinkel and Malan,
    2005).
 
@@ -241,7 +241,7 @@ Code Breakers III, São Paulo, Brazil, Setember 2006.
 * [Anti-Forensics: The Next Step in Digital Forensics Tool Testing](https://www.researchgate.net/publication/261038911_Anti-Forensics_The_Next_Step_in_Digital_Forensics_Tool_Testing),
   in: IT Security Incident Management and IT Forensics (IMF): 2013
   Seventh International Conference on, Date 12-14 March 2013, IEEE, S.
-  83 – 97
+  83 - 97
 * [Talk on Anti-Forensics, on 28C3](https://www.youtube.com/watch?v=OP9k-G2yq9I),
   in German
 * [Breaking Encase with FILE0 and Winhex](https://web.archive.org/web/20070310192503/http://www.safehack.com/Textware/forensic/Anti_Forensic_Break_Encase.pdf)

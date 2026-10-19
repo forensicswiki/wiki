@@ -20,7 +20,7 @@ storage systems and subsequent forensic analysis:
 3. Rewriting a block at the operating system level does not necessarily
    rewrite the same page in the flash memory due to the controller
    remapping data to spread wear or avoid failing pages
-4. Each page can be erased and rewritten a limited number of times –
+4. Each page can be erased and rewritten a limited number of times -
    typically 1000 to 10,000. (Hard drive sectors, in contrast, can be
    rewritten millions of times or more.)
 5. Flash data is often encrypted on the drive, and can be "erased" by
@@ -31,7 +31,7 @@ The controller in a flash SSD is significantly more complex in the
 number of tasks it has to perform in comparison to a magnetic rotating
 drive, with the following features:
 
-1. *wear leveling* – that is, spreading the writes to flash out among
+1. *wear leveling* - that is, spreading the writes to flash out among
    different sectors. Wear leveling is typically done with a *flash
    translation layer* that maps *logical sectors* (or LBAs) to
    *physical pages*. Most FTLs are contained within the SSD device and

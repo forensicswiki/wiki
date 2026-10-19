@@ -29,13 +29,13 @@ To run Netstat, open the terminal/command shell and run the following
 command for Windows:
 
 ```bash
-netstat –anob
+netstat -anob
 ```
 
 And the following command for UNIX systems:
 
 ```bash
-netstat –anp
+netstat -anp
 ```
 
 This will output all listening and active connections on the machine,
@@ -49,7 +49,7 @@ greatly increase the speed of the command. The -p parameter shows which
 processes are using which sockets. (see
 [Mastering the Netstat Command: A Comprehensive Guide](https://www.lifewire.com/netstat-command-2618098)
 for detailed explanations of Netstat switches on Windows systems, and
-[10+ netstat command switches with example –
+[10+ netstat command switches with example -
 Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
 explanations of Netstat switches on UNIX systems).
 
@@ -85,7 +85,7 @@ reveal attempts by the attacker to create alternate routes in order to
 bypass firewalls and other restrictions) using the following command:
 
 ```bash
-$ netstat –rn
+$ netstat -rn
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 0.0.0.0         172.16.10.2     0.0.0.0         UG        0 0          0 ens33

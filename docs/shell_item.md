@@ -116,6 +116,6 @@ shell item long name                : calc.exe
 * [Shellbags Forensics: Addressing a Misconception (interpretation, step-by-step testing, new
   findings, and more)](https://www.4n6k.com/2013/12/shellbags-forensics-addressing.html),
   by Dan Pullega, December 4, 2013 (RESTRICTED)
-* [Part 5: USB Device Research – Directory Traversal Artifacts (Shell bagMRU Entries)](http://www.nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
+* [Part 5: USB Device Research - Directory Traversal Artifacts (Shell bagMRU Entries)](http://www.nicoleibrahim.com/part-5-usb-device-research-directory-traversal-artifacts-shell-bagmru-entries/),
   by Nicole Ibrahim, December 31, 2013
 * [ReactOS: Shell Documentation](https://reactos.org/wiki/Shell_Documentation)

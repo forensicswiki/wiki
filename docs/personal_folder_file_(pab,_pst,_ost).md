@@ -166,7 +166,7 @@ inaccessibility.
 
 ## External Links
 
-* [outlook.pst — format of MS Outlook .pst file](https://www.five-ten-sg.com/libpst/rn01re05.html),
+* [outlook.pst - format of MS Outlook .pst file](https://www.five-ten-sg.com/libpst/rn01re05.html),
   by the [libpst project](libpst.md)
 * [Personal Folder File format specifications](https://github.com/libyal/libpff/blob/main/documentation/Personal%20Folder%20File%20(PFF)%20format.asciidoc),
   by the [libpff project](libpff.md)

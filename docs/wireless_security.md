@@ -88,7 +88,7 @@ following values must be entered on the Security tab of Wireless Network
 Properties for a given network:
 
 * Security type refers to authentication options including Open, Shared,
-  WPA-Personal and –Enterprise, WPA2-Personal and –Enterprise, and
+  WPA-Personal and -Enterprise, WPA2-Personal and -Enterprise, and
   802.1X. The Open option utilizes no authentication, while Shared
   utilizes WEP for authentication.
 * Encryption type options available depend on the Security type chosen.
