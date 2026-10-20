@@ -159,3 +159,8 @@ recommend the RecursiveParserWrapper (-J -t options in the commandline
 app or /rmeta endpoint in
 [tika-server](https://cwiki.apache.org/confluence/display/tika/TikaJAXRS)) to capture
 metadata from embedded documents.
+
+## See Also
+
+* [File analysis](file_analysis.md)
+* [Logfile analysis](logfile_analysis.md)

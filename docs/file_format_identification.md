@@ -5,100 +5,13 @@ tags:
 File Format Identification is the process of figuring out the format of
 a sequence of bytes. Operating systems typically do this by file
 extension or by embedded MIME information. Forensic applications need to
-identify file types by content.
+identify file types by content. It is one of the
+[categories of file analysis](file_analysis.md).
 
 ## Tools
 
-### libmagic
-
-* Written in C.
-* Rules in /usr/share/file/magic and compiled at runtime.
-* Powers the Unix "file" command, but you can also call the library
-  directly from a C program.
-* <https://sourceforge.net/projects/libmagic>
-
-### Digital Preservation Efforts
-
-PRONOM is a project of the National Archives of the United Kingdom to
-develop a registry of file types. A similar project was started by JSTOR
-and Harvard as the JSTOR/Harvard Object Validation Environment. Attempts
-are now underway to merge these two efforts in the Global Digital Format
-Registry and the Universal Digital Format Registry.
-
-The UK National Archives developed the Digital Record Object
-Identification (DROID) tool, an "automatic file format identification
-tool." This tool is written in Java and can be downloaded from
-GitHub.
-
-See:
-
-* [PRONOM](https://www.nationalarchives.gov.uk/PRONOM/Default.aspx)
-* [JHOVE](https://jhove.openpreservation.org/)
-* [GDFR](https://www.gdfr.info/)
-* [UDFR](https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/)
-* [DROID download](https://github.com/digital-preservation/droid)
-
-### TrID - File Identifier
-
-* Recognize over 9.000 file formats
-* XML formats definitions, compiled to a single container
-* New filetypes can be added in an automated way, simply scanning a
-  group of files
-* Win32, Linux/x86 & x86-64; closed source; free for non-commercial use
-* <https://mark0.net/soft-trid-e.html>
-
-### Detect-it-Easy
-
-* ECMAScript (JS) format definitions
-* Reliably detects many weak/zero-magic formats by content only
-* YARA rules supported
-* Looks inside many compression formats
-* Extensive support of executable formats
-* Disassembly that supports dozens of silicones
-* File visualizer
-* String finder
-* Entropy analysis
-* File extractor
-* Has a Telegram bot to send files to, and is one of the VirusTotal tools for executables
-* The engine is a separate project that can be easily reused
-* Windows x32/64; Linux x32/64; Mac x64 GUI and CLI; C++ and JS open source
-* <https://github.com/horsicq/Detect-It-Easy>
-
-### Forensic Innovations File Investigator TOOLS
-
-* Proprietary, but free trial available.
-* Available as consumer applications and OEM API.
-* Identifies 3,000+ file types, using multiple methods to maintain high
-  accuracy.
-* Extracts metadata for many of the supported file types.
-
-### Stellent/Oracle Outside-In
-
-* Proprietary but free demo.
-* <https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html>
-
-### Toolsley File Identifier
-
-* Free
-* Runs in the browser
-* HTML5/JS port of the UNIX "file" tool and libmagic
-* <https://www.toolsley.com/file.html>
-
-### Falstaff
-
-* Free
-* Online
-* Based on machine learning techniques, uses multiple file features
-* Uses novel signatures computed from file format samples
-* Identifications are linked to the [file formats archive](http://fileformats.archiveteam.org/wiki/Main_Page)
-  ontology
-
-### Apache Tika
-
-* Free (Apache v2.0 License)
-* The Apache Tika™ toolkit detects and extracts metadata and text from
-  over a thousand different file types
-* <https://tika.apache.org/>
+See also [File format identification
+tools](tools_file_analysis.md#file-format-identification).
 
 ## Data Sets
 
@@ -180,3 +93,9 @@ bibliography is in chronological order!**
   by I. Ahmed, K.-S. Lhee, H.-J. Shin, M.-P. Hong, February, 2011
 * [Tika in Action](https://www.manning.com/books/tika-in-action),
   by C. Mattmann and J. Zitting, December, 2011.
+
+## See also
+
+* [File analysis](file_analysis.md)
+* [File formats](file_formats.md)
+* [Tools: File analysis](tools_file_analysis.md)

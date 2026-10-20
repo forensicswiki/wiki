@@ -88,9 +88,19 @@ If you click on one of the tags, it will bring you to all content categorized un
   <tr>
     <td><a href="tags/#tools">Tools</a></td>
     <td width="1000">
-    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a href="bless">bless</a>, <a
-    href="ghidra">ghidra</a>, <a href="pst_file_viewer">PST File Viewer</a>, <a
-    href="hachoir">hachoir</a></ui></li>
+    <ui><li><a href="tags/#file_analysis">File Analysis</a>: <a
+    href="adroit_photo_forensics">Adroit Photo Forensics</a>, <a
+    href="analyzemft">analyzeMFT</a>, <a
+    href="analyzing_program_execution">Analyzing program execution</a>, <a
+    href="aryson_outlook_pst_repair">Aryson Outlook PST Repair</a>, <a
+    href="binplist">binplist</a>, <a href="bless">bless</a>, <a
+    href="datahelp">DataHelp</a>, <a href="dstrings">dstrings</a>, <a
+    href="exif_hound">EXIF Hound</a>, <a href="freeviewer">FreeViewer</a>, <a
+    href="hachoir">hachoir</a>, <a href="libagdb">libagdb</a>, <a
+    href="libcarvpath">LibCarvPath</a>, <a href="libyal">libyal</a>, <a
+    href="pdfinfo">pdfinfo</a>, <a href="peid">PEiD</a>, <a
+    href="sysinfotools_software">SysInfoTools</a>, <a href="systools">SysTools</a>, <a
+    href="timestomp">Timestomp</a>, <a href="xpdf">xpdf</a></ui></li>
     <ui><li><a href="tags/#timeline-analysis">Timeline Analysis</a>: <a
     href="timesketch">timesketch</a>, <a href="plaso">Plaso</a></ui></li>
     <ui><li><a href="tags/#disk-analysis">Disk Analysis</a>: <a href="the_sleuth_kit">sleuthkit</a>,
