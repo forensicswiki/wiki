@@ -68,9 +68,9 @@ data must be interpreted with care.**
 
 Converting records to XML, JSON or JSONL keeps most of the event data,
 and JSON(L) is convenient to query with tools such as jq or to ingest in
-a SIEM. However:
+a Security Information and Event Management (SIEM), or equivalent. However:
 
-* The XML produced is not always valid XML 1.0. Event data can contain
+* The XML produced is not always proper XML 1.0. Event data can contain
   characters that are not allowed in XML or that are not escaped.
 * Data element names within EventData are not guaranteed to be unique.
   JSON objects cannot hold duplicate keys, so a converter has to rename
