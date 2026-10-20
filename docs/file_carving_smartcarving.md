@@ -49,9 +49,7 @@ Further there is one open-source solution under development:
   Implementation that focuses on the recovery of fragmented movies and
   images (JPEG)
 
-## References
+## See also
 
-* Automated reassembly of file fragmented images using greedy algorithms,
-  by A. Pal and N. Memon, in IEEE Transactions on Image processing, February 2006, pp 385­393
-* Detecting File Fragmentation Point Using Sequential Hypothesis Testing,
-  by A. Pal, T. Sencar and N. Memon, Digital Investigations, Fall 2008
+* [File Carving Bibliography](file_carving_bibliography.md), for the
+  SmartCarving papers

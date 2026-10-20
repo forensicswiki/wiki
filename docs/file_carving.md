@@ -42,9 +42,8 @@ therefore, appear corrupted or missing to a user using traditional data
 carving. The first set of file carving programs that can handle
 fragmented files automatically have finally arrived.
 
-A. Pal, Nasir Memon, T. Sencar and K. Shanmugasundaram have introduced
-a technique called [SmartCarving](file_carving_smartcarving.md) that can
-recover fragmented files.
+The [SmartCarving](file_carving_smartcarving.md) approach can recover
+fragmented files.
 
 ## File Carving Taxonomy
 
@@ -134,8 +133,6 @@ by Nick Mikus - Digital Forensics Tool Testing Image (dftt \#12)
 * [File Carving Bibliography](file_carving_bibliography.md)
 * [Carver 2.0 Planning Page](carver_2.0_planning_page.md)
 * [SmartCarving](file_carving_smartcarving.md)
-
-# Memory Carving
 
 ## External Links
 

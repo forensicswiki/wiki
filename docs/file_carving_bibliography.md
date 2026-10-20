@@ -22,6 +22,10 @@ by Anandabrata Pal, Kulesh Shanmugasundaram, Nasir Memon, Proceedings of
 the IEEE International Conference on Acoustics, Speech, and Signal
 Processing, 2003.
 
+Automated reassembly of file fragmented images using greedy algorithms,
+by Anandabrata Pal and Nasir Memon, IEEE Transactions on Image Processing,
+February 2006, pp 385-393.
+
 [Carving Contiguous and Fragmented Files with Fast Object Validation](https://simson.net/clips/academic/2007.DFRWS.pdf),
 by Simson Garfinkel, Digital Forensics Workshop (DFRWS 2007), Pittsburgh, PA,
 August 2007.

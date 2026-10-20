@@ -14,7 +14,5 @@ software. Their products include:
 
 ## Notes
 
-The founders of Digital Assembly, won the best paper award at DFRWS 2008 for
+The founders of Digital Assembly won the best paper award at DFRWS 2008 for
 their research work in [SmartCarving](file_carving_smartcarving.md).
-SmartCarving is a [file carving](file_carving.md) technique used to recover
-fragmented files.

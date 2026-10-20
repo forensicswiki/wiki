@@ -57,10 +57,11 @@ Various concepts central to digital forensics.
 
 ## Data recovery
 
-* File Carving: A data recovery concept used when file allocation tables are broken or missing.
-  Forensic software bypasses the operating system entirely and reads the raw binary data to identify
-  specific file "headers" and "footers" (like finding the specific binary code that dictates where a
-  JPEG begins and ends) to piece the file back together.
+* [Data recovery](data_recovery.md) - restoring data that was deleted, made inaccessible by damage
+  to a file system, partition table or storage media, or that is on failing media; see also
+  [Tools: Data Recovery](tools_data_recovery.md).
+* [File carving](file_carving.md) - recovering files based on their content (headers, footers,
+  internal structure) rather than on file system metadata.
 
 ## Analysis Concepts
 
