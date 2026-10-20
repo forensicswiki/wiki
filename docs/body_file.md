@@ -59,7 +59,7 @@ Known shortcomings with body file format are:
 * Date and time values do not indicate a time zone or if daylight savings applies. Timestamps can be
   in either UTC or local time depending on the original file system.
 * Body file encoding is not specified, UTF-8 is assumed.
-  * It is unclear how "invalid" Unicode characters should be handled, such as unpaired surrogates in
+  * It is unclear how "invalid" Unicode code units should be handled, such as unpaired surrogates in
     NTFS file names.
 * The name field can contain "($FILE_NAME)" to indicate the body file entry was derived from a NTFS
   $FILE_NAME attribute instead of $STANDARD_INFORMATION and $DATA attributes. Note that the
