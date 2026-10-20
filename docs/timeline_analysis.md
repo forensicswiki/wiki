@@ -4,16 +4,140 @@ tags:
   - Research
   - Timeline Analysis
 ---
+Timeline analysis is the process of collecting, correlating and ordering the date and time values
+of artifacts found on a computer system into a single chronological record of its activity.
+
+These date and time values comes from many sources:
+
+* file system timestamps,
+* [Windows Registry](windows_registry.md) keys,
+* [event logs](windows_xml_event_log_(evtx).md),
+* browser history,
+* e-mail,
+* application and system log files
+* telemetry from supporting systems such as network equipment and proxies
+
+Each source is parsed and normalized into one of the [timeline formats](#timeline-formats),
+combined and sorted chronologically before it is examined to reconstruct what took place on the
+system, and in which order it took place.
+
+Timeline analysis is frequently used to describe a particular workflow, but at its core
+it is a method: *ordering artifacts in time* and reading the resulting sequence.
+Investigations are usually addressed by first building a *super timeline* - a single
+timeline combining all the timestamped artifacts on the evidence - and then narrowing it
+down; where the amount of material is too large, or the question too specific, a
+*timeline is analyzed in a targeted manner* instead: the timeline is built from only
+those artifacts that are relevant to a particular user, file, program or time frame.
+
+More fundamentally, timeline analysis is **a matter of interpreting time** rather than
+reading events: a timestamp is evidence of *when* something happened on a system, and on
+its own it rarely proves *what* happened. Every conclusion drawn from a sequence of
+entries - that a user logged in, that a program was executed, that a document was
+opened - is a hypothesis, whose reliability grows the more independent sources
+corroborate it.
+
+The classic pitfalls are conflating a timestamp with the event it represents, ignoring
+time zones and an unknown [system time](system_time.md), over-reading timestamps beyond
+the [granularity of the file system](mac_times.md#time-resolution), or accepting tampered
+timestamps ([timestomping](timestomp.md)) at face value. A single, isolated timestamp is
+worth little; it is the pattern of *many* timestamps - across file systems, the registry,
+log files and network evidence - that establishes the sequence of events.
+
+## Timeline creation
+
+Creating a timeline means identifying the timestamped artifacts on the evidence,
+extracting them and normalizing their time, source and description into a common
+[timeline format](#timeline-formats) such as [body file](body_file.md) or
+[L2T CSV](l2t_csv.md). The work is done by purpose-built engines: [Plaso](plaso.md), for
+example, parses file systems, the registry and a wide range of log and application
+artifact formats into a single correlated timeline, while [mactime](mactime.md) from
+[The Sleuth Kit](the_sleuth_kit.md) turns the [body file](body_file.md) of a file system
+into a sorted timeline. Creation and analysis are normally kept apart: the timeline is
+produced as a file - a *product* of the examination - and then examined with analysis
+and visualization tools.
+
+See also [Timeline creation tools](tools_timeline_analysis.md#timeline-creation).
+
 ## Timeline formats
 
-* [body file](body_file.md)
-* [L2T CSV](l2t_csv.md)
-* [mactime](mactime.md)
-* [TLN](tln.md)
+A timeline is only as good as the format in which it is exchanged. Each format carries a
+different set of fields (date/time, source, host, user, description), a different time
+granularity and a known set of limitations - most commonly second-only resolution and no
+indication of the time zone - that silently distort the interpretation if the
+investigator does not know about them.
 
-## Tools
+The timeline formats described in this wiki are:
 
-See [Timeline Analysis Tools](tools_timeline_analysis.md).
+* [body file](body_file.md) - pipe-separated "intermediate" timeline introduced by the
+  grave-robber tool of The Coroner's Toolkit and adopted by [The Sleuth Kit](the_sleuth_kit.md);
+  not sorted chronologically, but staged for post-processing with [mactime](mactime.md)
+* [L2T CSV](l2t_csv.md) - the 17-field CSV introduced by [log2timeline](log2timeline.md),
+  with the short and full description fields that visualization tools rely on
+* [Mactime](mactime.md) - the chronologically sorted timeline output of [The Sleuth Kit](the_sleuth_kit.md)
+* [TLN](tln.md) - the pipe-separated `Time|Source|Host|User|Description` format
+  introduced by [Harlan Carvey](harlan_carvey.md), with the [l2tTLN](tln.md#variants)
+  variant adding a time zone and a notes field
+
+See also [Tools: Timeline analysis](tools_timeline_analysis.md).
+
+## Analyzing timelines
+
+Once a timeline has been created, the analysis means reading through it: filtering and
+grouping entries by source, user or time of day, looking for the characteristic
+signatures of log on, program execution, file operations and network connections, and
+correlating the result with timelines from related systems - see for example the
+[timeline correlation](tools_network_forensics.md#timeline-correlation) performed in
+[network forensics](network_forensics.md). [Timesketch](timesketch.md) supports this
+step with a collaborative, sketch-based workspace in which multiple investigators
+organize, annotate, tag, star and comment on the same set of timelines.
+
+See also [Timeline analysis tools](tools_timeline_analysis.md#analyzing-timelines).
+
+## Interpreting timestamps
+
+Before a timeline can be interpreted, the meaning of its timestamps must be
+established. That means knowing *what* a value records - which of the [MAC(B) or
+MACE](mac_times.md) values it is - *relative to which* [epoch](epoch.md), at *what
+granularity* [the file system records](mac_times.md#time-resolution), and whether the
+[system time](system_time.md) and time zone of the machine are known.
+
+Equally important is being able to rule out deliberate manipulation:
+[timestomping](timestomp.md) and other [anti-forensic
+techniques](anti_forensic_techniques.md) can shift timestamps to misleading values,
+while honest causes (time synchronization, time zone changes, daylight savings) can shift
+them too. The rigorous way to deal with this is through model-based and hypothesis-based
+approaches to the interpretation of timestamp evidence, including bounding the time of
+an event between the values of multiple timestamps. Where the system time itself is in
+question, the reference time can be established from independent sources, such as
+estimating the boot time and uptime of a machine from [TCP
+timestamps](tcp_timestamps.md).
+
+## Visualizing timelines
+
+Timelines in real cases contain thousands to millions of entries, and reading them as
+text is not practical. Visualizations turn the timeline into a picture of its *density
+and structure* - trends, clusters of activity, and at least as important the gaps of
+inactivity between them - which is why visualization has been a central topic of
+timeline analysis research; see the [Visualization](#visualization) section of the
+bibliography below. Purpose-built [tools](tools_timeline_analysis.md#visualizing-timelines)
+in this area are mostly discontinued, and current practice leans on the visualization
+capabilities of [Timesketch](timesketch.md) and similar analysis tools.
+
+## See also
+
+* [Tools: Timeline analysis](tools_timeline_analysis.md)
+* [epoch](epoch.md)
+* [MAC(B) and MACE times](mac_times.md)
+* [System time](system_time.md)
+* [Timestomping](timestomp.md)
+* [Anti-forensic techniques](anti_forensic_techniques.md)
+* [Network forensics](network_forensics.md)
+* [Digital evidence](digital_evidence.md) (temporal reconstruction)
+* [Shell item](shell_item.md) (date and time values usable in timeline analysis)
+* [Windows Update](windows_update.md) (reconstructing system timelines)
+* [Zeitgeist](zeitgeist.md) (activity data consumed by [Plaso](plaso.md))
+* [unpaired surrogates](unpaired_surrogates.md) (timeline tool rendering and export edge cases)
+* [Concepts - Timeline Analysis](concepts.md#timeline-analysis)
 
 ## Bibliography
 
@@ -67,7 +191,7 @@ See [Timeline Analysis Tools](tools_timeline_analysis.md).
   Approaches to Digital Forensic Engineering, Seattle, Washington, April 2007
 * [A correlation method for establishing provenance of timestamps in digital evidence](https://dfrws.org/presentation/a-correlation-method-for-establishing-provenance-of-timestamps-in-digital-evidence/),
   by B. Schatz, G. Mohay, A. Clark, Digital Investigation 2006:3S
-* Formalizing Event Time Bouding in Digital Investigation,
+* Formalizing Event Time Bounding in Digital Investigation,
   by P. Gladyshev, A. Patel, International Journal of Digital Evidence, vol
   4:2, 2005
 * Time and Date issues in forensic computing - a case study,
@@ -75,7 +199,7 @@ See [Timeline Analysis Tools](tools_timeline_analysis.md).
 * Unification of relative time frames for digital forensics,
   by M.W. Stevens, Digital Investigation 2004:1
 * [Dynamic Time & Date Stamp Analysis](https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
-  M .C. Weil, International Journal of Digital Evidence, vol 1:2, 2002
+  M. C. Weil, International Journal of Digital Evidence, vol 1:2, 2002
 
 ### Visualization
 
@@ -84,3 +208,7 @@ See [Timeline Analysis Tools](tools_timeline_analysis.md).
   Division, Richland, Washington, 1999
 * [Visualizing gaps in time-based lists](https://well-formed-data.net/archives/26/visualizing-gaps-in-time-based-lists),
   by Moritz Stefaner, November 6, 2000
+
+## External Links
+
+* [Wikipedia: Computer forensics](https://en.wikipedia.org/wiki/Computer_forensics)
