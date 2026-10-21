@@ -9,8 +9,6 @@ tags:
 **Kismet** is an 802.11 layer2 wireless network detector,
 [sniffer](sniffer.md), and intrusion detection system.
 
-## Overview
-
 * [Wireshark](wireshark.md)/[Tcpdump](tcpdump.md)
   compatible data logging;
 * Airsnort compatible weak-iv packet logging;
@@ -41,3 +39,13 @@ Kismet will detect following events:
 * Deauthenticate/disassociate flood;
 * Fake APs (new AP on another channel, invalid BSS timestamps);
 * Many DoS attacks (zero-length SSID, over-long SSID, etc).
+
+## See Also
+
+* [Snort](snort.md)
+* [Sniffer](sniffer.md)
+* [Wireless forensics](wireless_forensics.md)
+
+## External Links
+
+* [Kismet](https://kismetwireless.net/)

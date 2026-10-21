@@ -17,7 +17,7 @@ called a "dd image".
 To convert a file from ISO to AFF, use this command.
 
 ```bash
-% afconvert filename.iso`
+% afconvert filename.iso
 ```
 
 This will give you output like this:
@@ -94,3 +94,13 @@ md1
 ```
 
 We can restore filename.aff onto /dev/md1
+
+## See Also
+
+* [AFF](aff.md)
+* [aimage](aimage.md)
+* [affuse](affuse.md)
+
+## External Links
+
+* [AFFLIBv3 on GitHub](https://github.com/sshock/AFFLIBv3)

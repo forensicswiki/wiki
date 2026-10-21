@@ -2,11 +2,21 @@
 tags:
   - Analysis
   - Discontinued
+  - Registry Analysis
   - Tools
+  - Windows
 ---
-Registryasxml is a GUI tool by Stephane Rodriguez that exports and
-imports Windows Registry files with a simple key/value syntax that
-looks like this:
+Registryasxml was a Windows graphical utility created by Stephane Rodriguez
+that allowed users to export and import sections of the Windows Registry
+into a structured XML format. Registryasxml is no longer maintained.
+
+## Caution
+
+Names in Windows Registry files can contain code points not supported by strict XML.
+
+## Example
+
+Example of XML output.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,10 +46,7 @@ looks like this:
  </registry>
 ```
 
-## Forensic Issues
-
-Windows Registry files can contain character values not supported by strict XML.
-
 ## See Also
 
+* [Unpaired Surrogates](unpaired_surrogates.md)
 * [Windows Registry](windows_registry.md)

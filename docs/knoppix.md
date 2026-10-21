@@ -9,3 +9,4 @@ tags:
 ## External Links
 
 * [Wikipedia Entry on Knoppix](https://en.wikipedia.org/wiki/Knoppix)
+* [Official website](https://www.knoppix.net/)

@@ -108,7 +108,7 @@ acquisition tool for Windows. It supports Windows XP to Windows 8, both
 in crashdump format (for analysis with Volatility or windbg). It
 supports output to STDOUT for piping the dump through tools like netcat
 or ssh. WinPmem can be used together with the Volatility Technology
-Preview to analyse a live Windows system for live response and triaging.
+Preview to analyze a live Windows system for live response and triaging.
 
 ### Linux
 

@@ -77,7 +77,9 @@ unified baseline of communication across diverse languages and borders.
 * Do not assume every reader is a native English speaker, avoid uncommon terms or metaphors.
 * Do not assume every reader has the same expertise or background, avoid non-standard
   abbreviations or jargon. If unavoidable explain them in the concepts article (concepts.md).
-* Use international standards, e.g. ISO 8601 instead of localized date and time notations.
+* Use unlocalized date and time notations, e.g. ISO 8601 (2020-01-01) or the "Month, day, year"
+  format as in "January 1, 2020", instead of localized notations such as "DD/MM/YYYY" or
+  "MM/DD/YYYY".
 * Use unambiguous notations, e.g. USD instead of Dollar or $.
 * Use the adjective "forensic" before a noun ("forensic analysis", "forensic investigation"), not
   the noun "forensics" ("forensics analysis").

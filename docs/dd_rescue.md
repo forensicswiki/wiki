@@ -45,7 +45,7 @@ dd_rescue /dev/sda1 - | bzip2 > /dir/file.img.bz2
 Unlike regular [dd](dd.md), dd_rescue does not use the command
 line arguments `if` or `of`.
 
-## See also
+## See Also
 
 * [aimage](aimage.md)
 * [Blackbag](blackbag.md)

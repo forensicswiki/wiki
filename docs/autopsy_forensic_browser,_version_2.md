@@ -44,6 +44,6 @@ Also, Ext4 file creation timestamps cannot be viewed in the Autopsy
 [patch](https://github.com/msuhanov/autopsy-2.24-patch/blob/master/autopsy-2.24-1.patch)
 exists to fix or "hack around" these issues.
 
-## See also
+## See Also
 
 * [Autopsy Forensic Browser, version 3](autopsy_forensic_browser.md)

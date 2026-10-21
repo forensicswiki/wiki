@@ -2,12 +2,15 @@
 tags:
   - Commercial Software
   - Discontinued
+  - Disk Analysis
+  - Tools
+  - Windows
 ---
-BitFlare is a Software-as-a-Service offering from SunBlock Systems that
-allows non-experts to perform computer forensics, electronic evidence
-discovery, and data preservation. The software loads its own operating system
-on to a suspect computer, essentially utilizing the suspect machine itself a
-forensic platform.
+BitFlare was a Software-as-a-Service offering from SunBlock Systems that
+allowed non-experts to perform computer forensics, electronic evidence
+discovery, and data preservation. The software loaded its own operating
+system onto a suspect computer, essentially utilizing the suspect machine
+itself as a forensic platform. BitFlare is no longer offered.
 
 ## Capabilities
 
@@ -48,3 +51,9 @@ BitFlare.
 
 Computers deemed to have no relevant information incur no cost under
 this model.
+
+## External Links
+
+* [Computer forensics for the rest of us (SC Media product test of
+  BitFlare)](https://www.scworld.com/product-test/computer-forensics-for-the-rest-of-us),
+  by Peter Stephenson, August 6, 2010

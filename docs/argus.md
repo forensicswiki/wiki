@@ -10,8 +10,6 @@ tags:
   - Tools
   - Windows
 ---
-## Overview
-
 **argus** is a network flow monitor that is used to establish network
 activity audits. The audits are the basis of Network Forensics for many
 universities and corporations, providing data mining for historical
@@ -31,34 +29,18 @@ Argus uses libpcap and it has been ported to virtually every
 [Unix](unix.md) platform, OpenWRT and on
 [Win32](windows.md) using Cygwin.
 
-## Argus/Ra 3.0.8 Installation Instructions
+## Installation
 
 The Argus/Ra packages installed when using apt-get install are the old
 2.0.6 versions, which may have problems with filter-expressions.
 
-In order to build Argus/Ra 3.0.8 on your UNIX machine follow these
-commands/steps:
+The current releases of Argus and its client tools come from the
+OpenArgus project. On Debian and Ubuntu systems they can be
+installed with:
 
 ```bash
-sudo apt-get install libpcap0.8 libpcap0.8-dev flex bison rrdtool
-
-wget <https://qosient.com/argus//src/argus-3.0.8.tar.gz>
-tar -xzvf argus-3.0.8.tar.gz
-cd argus-3.0.8
-./configure
-make && make install
-cd ..
-
-wget <https://qosient.com/argus//src/argus-clients-3.0.8.tar.gz>
-tar -xzvf argus-clients-3.0.8.tar.gz
-cd argus-clients-3.0.8
-./configure
-make && make install
+sudo apt install argus-server argus-clients
 ```
-
-the ./argus and ./ra programs can be run from the "bin" directories
-within the argus-3.0.8 and argus-clients-3.0.8 directories,
-respectively
 
 **NOTE:** If you already have a different version of argus/ra installed
 (e.g., if you installed v2.0.6 using apt-get install), you'll likely
@@ -74,15 +56,15 @@ mv ra.conf ra.conf.bak
 ## Usage Instructions
 
 Argus is set up as a client server relationship. Running the argus
-command runs the server. It will retrieve that packets from the network
+command runs the server. It retrieves packets from the network
 interface. Then argus assembles this information into binary data. Thus
 it is not human readable when just running the argus command. One needs
 an argus client in order to analyze it.
 
 There are a few clients for argus, but the most common is ra. It reads
-the output steam and prints the binary records to stdout in ASCII. Then
+the output stream and prints the binary records to stdout in ASCII. Then
 this information can be used for incident analysis and intrusion
-research
+research.
 
 A typical use for argus would be to run it as a daemon and have it write
 the reports to an output file:
@@ -95,7 +77,7 @@ Argus supports filtering. One can specify to include or exclude certain
 ports in the report. Below is an example of filtering out ICMP traffic:
 
 ```bash
-argus -w output-file - ip and not icmp
+argus -w output-file "ip and not icmp"
 ```
 
 When using ra to get valuable data out, one can filter the argus data
@@ -106,10 +88,12 @@ transactions:
 ra -r argus.data - tcp
 ```
 
-## External Links
-
-* [Argus website](https://qosient.com/argus/)
-
 ## See Also
 
 * [tcpdump](tcpdump.md)
+* [Snort](snort.md)
+
+## External Links
+
+* [OpenArgus](https://openargus.org/)
+* [Argus documentation](https://openargus.org/documentation)

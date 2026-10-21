@@ -129,7 +129,7 @@ Most of the following applications can be used to do visualization.
   [Solaris](solaris.md), [NetBSD](netbsd.md), and
   [Mac OS X](mac_os_x.md). 30-day trial and free registered versions
   available. Academic pricing available.
-* [Geomantics](https://www.geomantics.com/) - Geographical, Visualization
+* Geomantics - Geographical, Visualization
   and Graphics software. Runs on [Windows](windows.md).
 * [Tom Sawyer Software](https://www.tomsawyer.com/) Analysis,
   Visualization, and Layout programs. - Heavy support for drawing

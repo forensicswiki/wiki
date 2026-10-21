@@ -2,6 +2,8 @@
 tags:
   - Discontinued
   - Network Forensics
+  - Open Source Software
+  - Tools
 ---
 The Net/FSE (or Network Forensic Search Engine) project appears to have been
 abandoned.
@@ -20,7 +22,7 @@ network operations including security, compliance, troubleshooting and
 management. Socket-based APIs and HTTP-based XML APIs make integrating
 search of network log data fast and easy.
 
-The system is also moving towards a plugin architecture which will allow
+The system was also moving towards a plugin architecture to allow
 users to build custom data processing engines to meet individual needs.
 The core system handles capture and storage, as well as search/query
 functionality, allowing plugins to easily leverage the system's
@@ -28,10 +30,14 @@ capabilities with minimal coding.
 
 ## History
 
-In June 2009 version 0.2 of the open source Net/FSE was initially published on
-NetFSE.org.
+In June 2009, version 0.2 of the open source Net/FSE was initially published
+on NetFSE.org.
 
 The 0.3 release was targeted for August 2010.
+
+## See Also
+
+* [Network forensics](network_forensics.md)
 
 ## External Links
 

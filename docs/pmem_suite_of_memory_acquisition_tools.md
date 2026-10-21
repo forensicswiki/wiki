@@ -32,7 +32,7 @@ available on each operating system. Previous tools had completely
 different sets of options, but now most of the options are the same
 across all target OSs.
 
-### OSXPmem, WinPmem, LinPmem ... So many pmem's
+### So many pmem tools
 
 The Pmem suite offers a complete memory acquisition solution and
 consists of a few different sub-components. It is sometimes a bit
@@ -255,3 +255,13 @@ The Mac OS X counterpart of the pmem suite comes as a ZIP file. To use it you
 simply need to unzip it as root (note: You must be root when unzipping
 on order to ensure proper file permissions. The extracted files must be
 owned by root and only readable by root).
+
+## See Also
+
+* [Rekall pmem memory acquisition suite](rekall_pmem_memory_acquisition_suite.md)
+* [Volatility Framework](volatility_framework.md)
+
+## External Links
+
+* [Rekall on GitHub](https://github.com/google/rekall)
+* [WinPmem on GitHub](https://github.com/Velocidex/WinPmem)

@@ -11,8 +11,8 @@ forensic imaging software package distributed by
 
 FTK Imager supports storage of disk images in EnCase's or
 [SMART](smart.md)'s file format, as well as in raw
-([dd](dd.md) format. With Isobuster technology built in, [FTK
-Imager](ftk_imager.md) Images CD's to a
+([dd](dd.md) format. With Isobuster technology built in, FTK
+Imager images CDs to an
 ISO/[CUE](cue_sheet_format.md) file combination. This also
 includes multi and open session CDs.
 
@@ -24,3 +24,13 @@ a hardware-based [write blocking device](write_blockers.md).
 This ensures that your [operating system](operating_system.md)
 does not alter the suspect's hard drive when you attach the drive to
 your computer.
+
+## See Also
+
+* [AccessData](accessdata.md)
+* [SMART](smart.md)
+* [Write blockers](write_blockers.md)
+
+## External Links
+
+* [FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager)

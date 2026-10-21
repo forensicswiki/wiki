@@ -23,9 +23,9 @@ WPA-PSK [rainbow tables](rainbow_tables.md)
 Many commercial [network forensics](network_forensics.md)
 systems can intercept and decrypt WLAN traffic, for example:
 
-* Mera Systems [NetBeholder Mobile](https://videonadzor.net/)
-* E-Detective [Wireless Detective System](https://www.edecision4u.com/PRODUCTS.html)
-* Expert Team [3i Tactical System (3iTS)](http://expert-team.net/home/product/))
+* Mera Systems NetBeholder Mobile
+* E-Detective Wireless Detective System
+* Expert Team [3i Tactical System (3iTS)](http://expert-team.net/home/product/)
 
 As well as some open-source tools:
 

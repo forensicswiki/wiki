@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Tools
 ---
-jheadis a program which can display or manipulate the non-image
+jhead is a program which can display or manipulate the non-image
 part of [Exif](exif.md) compliant [JPEG](jpeg.md) files.
 
 ## Example
@@ -29,3 +29,12 @@ Metering Mode: center weight
 Exposure Mode: Manual
 Exposure Mode: Auto bracketing
 ```
+
+## See Also
+
+* [Exif](exif.md)
+* [JPEG](jpeg.md)
+
+## External Links
+
+* [jhead](https://www.sentex.ca/~mwandel/jhead/)

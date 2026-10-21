@@ -242,10 +242,14 @@ As of release 1.4-rc1, it can be compiled directly in [Cygwin](cygwin.md)
 [Out of the Box](https://en.wikipedia.org/wiki/Out_of_the_box). Precompiled
 packages are part of the Cygwin distribution.
 
-## See also
+## See Also
 
 * [aimage](aimage.md)
 * [Blackbag](blackbag.md)
 * [dcfldd](dcfldd.md)
 * [dd](dd.md)
 * [dd_rescue](dd_rescue.md)
+
+## External Links
+
+* [GNU ddrescue](https://www.gnu.org/software/ddrescue/)

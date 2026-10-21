@@ -96,7 +96,13 @@ encrypted images.
 * [AFF Developers Guide](aff_developers_guide.md) --- A guide
   for programmers on how to use the AFF
 
+## See Also
+
+* [affuse](affuse.md)
+* [afconvert](afconvert.md)
+* [aimage](aimage.md)
+
 ## External Links
 
-* [Basis Technology's AFF website](https://www.basistech.com/solutions/digital-forensics/)
+* [AFFLIBv3 on GitHub](https://github.com/sshock/AFFLIBv3)
 * [OSFMount - 3rd party tool for mounting AFF disk images with a drive letter](https://www.osforensics.com/tools/mount-disk-images.html)

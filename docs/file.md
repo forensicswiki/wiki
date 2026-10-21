@@ -15,9 +15,6 @@ magic number test examines the first few bytes of a file in order to identify
 its type. The language test checks to see if the file is a text file and
 attempts to recover which encoding is being used for the text.
 
-Other things I'd like to see on this page are: command-line usage, examples,
-and uses for forensic investigation.
-
 ## Identifying Partitions with File
 
 File can identify disk partitions too!
@@ -29,3 +26,11 @@ $ file -s /dev/rdisk1s2
     last modified: Fri Apr 25 20:58:56 2008,
     last checked: Thu Jan 24 22:05:19 2008, block size: 4096, number of blocks: 183059668, free blocks: 56950487
 ```
+
+## See Also
+
+* [File formats](file_formats.md)
+
+## External Links
+
+* [file on GitHub](https://github.com/file/file)

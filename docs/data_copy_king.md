@@ -4,12 +4,12 @@ tags:
   - Commercial Hardware
   - Tools
 ---
-Data Copy King is one disk image hardware, DoD data wipe hardware and
+Data Copy King is a disk image hardware device, DoD data wipe hardware and
 also used as one professional forensic disk image tool.
 
-Data Copy King has build-in IDE and SATA ports and supports USB data
+Data Copy King has built-in IDE and SATA ports and supports USB data
 copy with adapters, it is one 1:1 hard drive duplicator. The top
-features of DCK is its claimed disk image speed at 7GB/min and data wipe
+features of DCK are its claimed disk image speed at 7GB/min and data wipe
 speed at 8GB/min and its ability to copy bad sectors/unstable drives.
 
 ## Background of Universal Hard drive duplicator
@@ -32,7 +32,7 @@ cause permanent data loss.
 Disk wipe tools are flooded in the data wiping market. As we all know,
 when we are using our hard disk drives, we always meet bad sectors, both
 logically and physically, sometimes, if your computers have a fall,
-there might be some slight scratches even if it's still detected in the
+there might be some slight scratches even if it is still detected in the
 bios, as time passes by, the bad sectors and scratches become more
 severe and your drives become undetected at that time. Before that
 deadly failure, we should perform effective data backup and wipe the
@@ -40,7 +40,7 @@ disk for data security. But traditional disk image tools or hd
 duplicators can not copy and wipe the unstable drives with bad sectors
 or scratches at all, therefore, we need not only some new and powerful
 data copy solution but also strong disk wipe solution to wipe data on
-the unstbale sectors and slightly scratched drives. That's why Universal
+the unstable sectors and slightly scratched drives. That's why Universal
 hard drive duplicators need also an add-on for disk wipe solutions.
 
 ## Universal hard drive duplicator
@@ -63,3 +63,13 @@ department field etc;
 green concept used, no backdoor design, physical read only, 0 training
 required, friendly and nice interface, Energy-saving, cost effective,
 etc.
+
+## See Also
+
+* [DeepSpar disk imager](deepspar_disk_imager.md)
+* [Disk imaging](disk_imaging.md)
+* [Data recovery](tools_data_recovery.md)
+
+## External Links
+
+* [SalvationDATA](https://www.salvationdata.com/)

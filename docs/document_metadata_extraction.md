@@ -40,7 +40,7 @@ the tool can visualize them all right in its user interface.
 [pdfinfo](pdfinfo.md) (part of the [xpdf](xpdf.md)
 package) displays some metadata of [PDF](pdf.md) files.
 
-[XpdfReader](https://www.xpdfreader.com/index.html)
+[XpdfReader](http://www.xpdfreader.com/index.html)
 
 ### Images
 
@@ -157,10 +157,11 @@ from XMP to allow identification of uuids and ancestor uuids. Tika can
 run in batch mode from input directory to output directory, and we
 recommend the RecursiveParserWrapper (-J -t options in the commandline
 app or /rmeta endpoint in
-[tika-server](https://cwiki.apache.org/confluence/display/tika/TikaJAXRS)) to capture
+[tika-server](https://tika.apache.org/)) to capture
 metadata from embedded documents.
 
 ## See Also
 
-* [File analysis](file_analysis.md)
-* [Logfile analysis](logfile_analysis.md)
+* [Metadata](metadata.md)
+* [File formats](file_formats.md)
+* [Exif](exif.md)

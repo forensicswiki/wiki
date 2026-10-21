@@ -53,3 +53,15 @@ existing frameworks or tools.
   can be built. This will allow you to validate a secure hash (SHA256,
   etc.) to have total confidence there exists no backdoor or other
   malicious patch to a code in memory.
+
+## See Also
+
+* [Volatility Framework](volatility_framework.md)
+* [Belkasoft Evidence Center](belkasoft.md)
+
+## External Links
+
+* [WindowsSCOPE](https://www.windowsscope.com/)
+* [pdgmail - gmail artifacts from memory](https://www.jeffbryner.com/code/pdgmail)
+* [inVtero.net on GitHub](https://github.com/ShaneK2/inVtero.net)
+* [Reloc on GitHub](https://github.com/K2/Reloc)

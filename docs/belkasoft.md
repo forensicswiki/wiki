@@ -139,7 +139,7 @@ Center](#belkasoft-evidence-center) or any similar third-party tool.
 
 BelkaImager can acquire hard drives, SSD drives and removable drives
 connected to a computer, laptop or tablet. The drive can be acquired
-as DD or E01 image. Physical or logical acquisition can is performed.
+as DD or E01 image. Physical or logical acquisition can be performed.
 
 #### Mobile device acquisition
 
@@ -176,8 +176,8 @@ even if Belkasoft Evidence Center is not installed on that PC.
 ### Belkasoft Live RAM Capturer
 
 The **Belkasoft Live RAM Capturer** is a free volatile memory
-acquisition tool developed by Belkasoft. It allows to reliably extract
-the entire contents of computer's volatile memory - even if protected
+acquisition tool developed by Belkasoft. It reliably extracts
+the entire contents of the computer's volatile memory - even if protected
 by an active anti-debugging or anti-dumping system. Separate 32-bit and
 64-bit builds are available in order to minimize the tool's footprint
 as much as possible. Memory dumps captured with Belkasoft Live RAM
@@ -189,13 +189,13 @@ Center](#belkasoft-evidence-center) or any other similar product.
 Acquiring volatile memory from a computer running a debugging
 protection or anti-dumping system is tricky. Most memory acquisition
 tools run in the system's user mode, and are unable to bypass the
-defense of such protection system (which run in the systems' most
-privileged kernel mode).
+defense of such a protection system (which runs in the system's
+most privileged kernel mode).
 
 Belkasoft Live RAM Capturer is designed to work correctly even if an
 aggressive anti-debugging or anti-memory dumping system is running. By
-operating in kernel mode, Belkasoft Live RAM Capturer plays on the
-same level with these protection systems, being able to correctly
+operating in kernel mode, Belkasoft Live RAM Capturer operates on the
+same level as these protection systems, being able to correctly
 acquire address space of applications protected with the most
 sophisticated systems such as nProtect GameGuard.
 
@@ -209,7 +209,7 @@ launched from a USB thumb drive.
 ## Customer Base
 
 Belkasoft customers include government and private organizations in more
-than 130 countries, including the FBI, US Army, DHS, police departments
+than 130 countries, including the FBI, the U.S. Army, DHS, and police departments
 in Germany, Norway, Australia and New Zealand, PricewaterhouseCoopers,
 and Ernst & Young.
 

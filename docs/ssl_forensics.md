@@ -26,9 +26,9 @@ and provide new certificates (with attacker's encryption keys).
 Some commercial [network forensics](network_forensics.md)
 systems can perform such an attack:
 
-* Mera Systems [Sleek Buster](https://videonadzor.net/)
+* Mera Systems Sleek Buster
   (supports signed by a trusted CA forged certificates)
-* [E-Detective HTTPS/SSL Network Packet Forensics Device](https://www.edecision4u.com/PRODUCTS.html)
+* E-Detective HTTPS/SSL Network Packet Forensics Device
 * Expert Team [3i Tactical System](http://expert-team.net/home/product/)
 
 As well as some open-source tools:
@@ -57,5 +57,5 @@ bytes users are communicating.
 
 ## External Links
 
-* [RFC 2246 (TLS 1.0)](http://rfc.net/rfc2246.html)
-* [RFC 4346 (TLS 1.1)](http://rfc.net/rfc4346.html)
+* [RFC 2246 (TLS 1.0)](https://datatracker.ietf.org/doc/html/rfc2246)
+* [RFC 4346 (TLS 1.1)](https://datatracker.ietf.org/doc/html/rfc4346)

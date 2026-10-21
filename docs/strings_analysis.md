@@ -17,7 +17,7 @@ systems. If you want to use Strings on Windows, check out
 [Cygwin](https://www.cygwin.com/) and make sure to install the binutils
 package as part of the setup process.
 
-## Usage
+## Use
 
 One of the most useful features of Strings is the ability to specify the
 minimum string length for it to gather. For example, if I'm not
@@ -25,7 +25,7 @@ interested in short strings in a file and only want to see strings that
 are made up of at least 8 characters (since they're more likely to
 contain filenames or start parameters that the process used), I would
 run the following command (replacing <sourcefilename> with the name of
-the file I want to analyzing strings on, and "<outputfilename>" with the
+the file I want to analyze strings in, and "<outputfilename>" with the
 name of the file I want to output the results to):
 
 ```bash
@@ -88,6 +88,14 @@ using the command line ("-e cmd.exe"). This presented a huge security
 concern on the victim machine! The strings analysis made it much quicker
 and simpler to gather the data I needed and react accordingly.
 
-Note that By default, Strings will only analyze the file for ASCII and
+Note that by default, Strings will only analyze the file for ASCII and
 equivalent characters. Additional "-e" arguments will need to be used to
 search for Unicode characters.
+
+## See Also
+
+* [Strings](strings.md)
+
+## External Links
+
+* [Strings - Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)

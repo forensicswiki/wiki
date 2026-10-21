@@ -158,7 +158,11 @@ information on how to backup a physical BlackBerry.
 
 ## Blackberry Protocol
 
-Here is a useful link to the Blackberry Protocol as documented by Phil
-Schwan, Mike Shaver, and Ian Goldberg. The article goes into great
-description of packet sniffing and the protocol as it relates to data
-transfer across a USB port.
+The Blackberry Protocol was documented by Phil Schwan, Mike Shaver, and
+Ian Goldberg. It goes into great detail about packet sniffing and the
+protocol as it relates to data transfer across a USB port.
+
+## See Also
+
+* [Blackberry](blackberry.md)
+* [Blackberry OS](blackberry_os.md)

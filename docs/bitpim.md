@@ -7,11 +7,11 @@ tags:
 BitPim is a free, [open source](https://opensource.org/osd/), cross-platform
 program for viewing and editing data on a [CDMA](cdma.md) cell phone.
 Roger Binns was the founder, project manager,
-and lead developer of the project, first releasing it on March 1st,
+and lead developer of the project, first releasing it on March 1,
 2003. Since then leadership has been handed over to another party and
 over two million users have downloaded it. The program has been
 developed in [python](python.md) and originally only supported
-the LG VX4400 but it now supports a variety of phone manufactures
+the LG VX4400 but it now supports a variety of phone manufacturers
 including:
 
 * Audiovox
@@ -24,22 +24,22 @@ including:
 * Sanyo
 * Toshiba
 
-In order to use the program, a data cable and it's drivers, usually
+In order to use the program, a data cable and its drivers, usually
 available from the supplier/manufacturer, are required. BitPim will try
-and automatically detect a phone but its recommended that settings are
+and automatically detect a phone but it is recommended that settings are
 manually configured.
 
 ## Features
 
-![Alt text](assets/images/150px-bitpim.png "screen-phonebooktab.png")
+![BitPim phonebook tab](assets/images/150px-bitpim.png)
 
 The program can examine the phonebook, calendar, media (e.g. sounds,
 ringers, images), memos, todo lists, SMS messages, call history, play
 lists, and raw filesystem from devices.
 
 Features are dependent on the phone model. For a full list of each
-phones supported features see [BitPim's supported phones
-list](http://www.bitpim.org/help/phones-featuressupported.htm).
+phone's supported features see the
+[BitPim project site](https://bitpim.sourceforge.net/).
 
 The data can be manipulated through the software and changes can be
 uploaded to the phone. Calendar, Phonebook, Memo, Todo, and Playlist
@@ -64,8 +64,8 @@ of the data can be made, ensuring no data is lost or manipulated.
 
 ## Compatibility
 
-BitPIM runs on Windows, Linux, and Mac OS.
+BitPim runs on Windows, Linux, and Mac OS.
 
 ## External Links
 
-* [Official website](http://www.bitpim.org/)
+* [Official website](https://bitpim.sourceforge.net/)

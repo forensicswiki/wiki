@@ -1,26 +1,29 @@
 ---
 tags:
+  - Data Carving
   - Discontinued
+  - Linux
   - Tools
 ---
-Selective File Dumper (SFDumper) is a bash script that can retrieve all the
-files of the file type you choose with only one tool referenced, deleted and
-unallocated in very fast way.
+Selective File Dumper (SFDumper) is a bash script written by Nanni Bassetti
+and Denis Frati that can, in a single run, retrieve all referenced, deleted
+and unallocated files of the file types you choose. SFDumper is no longer
+maintained.
 
 The SFDUMPER.SH script can recover active, deleted and unallocated files
 automatically and then it can delete the carved duplicate files of the deleted
-and active files retrieved by the [The Sleuth Kit](the_sleuth_kit.md), using
+and active files retrieved by [The Sleuth Kit](the_sleuth_kit.md), using
 [SHA-256](sha-2.md).
 
-It's possible to recognize the renamed files by the data carving and
-it's possible to expand the [Foremost](foremost.md)
+It is possible to recognize renamed files through data carving, and
+it is possible to expand the [Foremost](foremost.md)
 configuration file inside the script, for adding new extensions.
 
 Finally, it is possible to do a keywords search on the set of files extracted
-by the [The Sleuth Kit](the_sleuth_kit.md) and [Foremost](foremost.md).
+by [The Sleuth Kit](the_sleuth_kit.md) and [Foremost](foremost.md).
 
 The script can work on the partition chosen from an image file or
-directly from the device (eg. /dev/sdb).
+directly from the device (e.g., /dev/sdb).
 
 ## Actions
 
@@ -29,10 +32,10 @@ directly from the device (eg. /dev/sdb).
 3. Extracting all referenced files by their extension;
 4. Extracting all the deleted files by their extension;
 5. Carving all the partitions chosen and, automatically, the script will delete
-   the duplicate files leaving only the carved files whose are not into the
-   referenced or delete set of files;
+   the duplicate files leaving only the carved files that are not in the
+   referenced or deleted set of files;
 6. Executing a keyword search on all the retrieved files;
-7. Reporting all with the investigator name, date and time.
+7. Reporting the results along with the investigator name, date and time.
 
 ## Requirements
 
@@ -47,7 +50,7 @@ directly from the device (eg. /dev/sdb).
 
 * Zenity
 
-## Usage
+## Use
 
 ```bash
 sudo sh sfdumper.sh
@@ -59,6 +62,11 @@ or
 chmod +x sfdumper.sh
 ./sfdumper.sh
 ```
+
+## See Also
+
+* [The Sleuth Kit](the_sleuth_kit.md)
+* [Foremost](foremost.md)
 
 ## External Links
 

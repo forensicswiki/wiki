@@ -8,12 +8,12 @@ tags:
 ---
 A [Linux](linux.md) [Live CD](live_cd.md) intended for penetration testing.
 
-[Matriux](matriux.md) is a fully featured security distribution,
+Matriux is a fully featured security distribution,
 based on [Ubuntu](ubuntu.md). It consists of powerful, free and
-open source computer forensics and data recovery tools which can be used
-for forensics analysis and investigation purposes.
+open source computer forensic and data recovery tools which can be used
+for forensic analysis and investigation purposes.
 
-Apart from forensics usages Matriux also provides a wide platform to let
+Apart from forensic usages Matriux also provides a wide platform to let
 security professionals utilize the power of open source to perform
 day-to-day web application penetration testing and server hardening
 tasks.
@@ -25,20 +25,20 @@ can easily be installed to your hard disk in a few steps in no time.
 
 An Indian infosec professional [Manu Zacharia](https://manuzacharia.blogspot.com/)
 had initialized the idea of developing Matriux as a security distribution in
-2008 and by the end of 2009 on 5th December released the Matriux **Lithium**
+2008 and by the end of 2009 on December 5 released the Matriux **Lithium**
 version at ClubHack2009 Its successor Matriux **Xenon** was released on
 December 4, 2010 at ClubHack2010.
 
 Matriux is also Asia's first OS for hacking, penetration testing, and
 cyber forensic investigation.
 
-[*Matriux Krypton*](http://www.matriux.com/index.php?page=download), We
+[*Matriux Krypton*](https://sourceforge.net/projects/matriux/), We
 have officially released it
 
 ## Tools
 
-Matriux offers many forensics tools under its
-[Arsenal](http://www.matriux.com/index.php?page=arsenal) in
+Matriux offers many forensic tools under its
+[Arsenal](https://sourceforge.net/projects/matriux/) in
 **Digital-Forensics** category
 
 ### Acquisition
@@ -60,8 +60,5 @@ Matriux offers many forensics tools under its
 
 ## External Links
 
-* [Official website](http://www.matriux.com/index.php)
-* [Download Matriux OS](http://www.matriux.com/index.php?page=download)
-* [Matriux sourceforge](https://sourceforge.net/projects/matriux/)
-* [Artworks](http://matriux.com/index.php?page=art-de-matriux)
+* [Matriux on SourceForge](https://sourceforge.net/projects/matriux/)
 * IRC: <irc://irc.freenode.net/matriux>
