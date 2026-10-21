@@ -47,13 +47,12 @@ this area is unknown.
 ## Offset 0x0408
 
 HashSet: The text that EnCase shows in its column "Hash Set". The
-maximum string length is 39 characters. Characters are stored in
-Unicode. (*Based on hash file form EnCase v. 6.17*)
+maximum string length is 39 code units (2 bytes each, UTF-16). (*Based on hash file form EnCase v. 6.17*)
 
 ## Offset 0x0458
 
 Category: The text that Encase shows in its column "category". The
-maximum string length is 19 characters. Each character is written as a
+maximum string length is 19 code units. Each code unit is written as a
 2-byte-Unicode-number. Examples:
 
 The latin letter A is represented by the 2 bytes

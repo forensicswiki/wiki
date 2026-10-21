@@ -38,7 +38,7 @@ standard, well-formed UTF-8. Analysts are forced to make trade-offs across the f
 | --- | --- | --- | --- |
 | **Strict Reject** | Throws an encoding exception; halts processing. | 100% data integrity; alerts analyst to an anomaly. | Causes parsing to abort. |
 | **Character Escaping** | Converts raw surrogate code units to literal strings like `\uD800`. | Avoids aborting parsing while cleanly documenting the exact block. | Fragments keyword search indexes; requires regex mapping to find. |
-| **Lossy Substitution** | Replaces surrogate with  or `?`. | Continuous ingestion; data remains human-readable. | Alters raw bytes and potentially breaks further automated processing, such as file name hash calculation. |
+| **Lossy Substitution** | Replaces surrogate with U+FFFD (Replacement Character) or `?`. | Continuous ingestion; data remains human-readable. | Alters raw bytes and potentially breaks further automated processing, such as file name hash calculation. |
 | **WTF-8 Preservation** | Maps isolated surrogates to invalid UTF-8 byte sequences. | Full preservation of malicious artifacts and hidden paths. | Breakdowns in tool interoperability and downstream reporting. |
 
 ### Strict Validation vs. Processing Continuity
@@ -55,7 +55,7 @@ compromise (IoCs) might be missed.
 ### Lossy Sanitization vs. Evidence Degradation
 
 To maintain processing continuity, many forensic tools use lossy error handlers. They substitute
-the unpaired surrogate with a standard Unicode Replacement Character () or a literal question mark
+the unpaired surrogate with a standard Unicode Replacement Character (U+FFFD) or a literal question mark
 (`?`).
 
 This satisfies the parser, but it **alters the data**. Replacing raw hex bytes with a generic

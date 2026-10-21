@@ -220,6 +220,17 @@ of the evidence.
 be worked on without altering the original; see [disk imaging](disk_imaging.md) and
 [memory imaging](memory_imaging.md).
 
+## Code points and characters
+
+* A **code unit** is the smallest chunk of bit data, such as an 8-bit byte for UTF-8 or a 16-bit word
+  for UTF-16, that an encoding uses to represent text.
+* A **code point** is a specific numerical value assigned to an abstract symbol by a character set
+  standard, such as Unicode. When written to a storage medium via an encoding like UTF-16, it is
+  mapped into one or more code units (e.g. a surrogate pair), acting as a data-level artifact or trace.
+* A **character** is the abstract unit of textual information that humans actually perceive. A
+  character represents the interpreted, run-time (or "real-world") information reconstructed from
+  those underlying data structures.
+
 ## See Also
 
 * [Anti-forensic techniques](anti_forensic_techniques.md)

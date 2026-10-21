@@ -49,7 +49,7 @@ following information at the corresponding offsets:
 | 0x48 | 16 bytes | NetBIOS name of the system; padded with zeros to 16 bytes |
 | 0x58 | 8 bytes | Stream number; corresponds to the numbered stream within the jump list |
 | 0x64 | 8 bytes | Last modification time, contains a [FILETIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure |
-| 0x70 | 2 bytes | Path string size, the number of characters (UTF-16 words) of the path string |
+| 0x70 | 2 bytes | Path string size, the number of code units (UTF-16 words) of the path string |
 | 0x72 | ... | Path string |
 
 ### CustomDestinations
