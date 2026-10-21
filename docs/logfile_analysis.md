@@ -66,3 +66,8 @@ An open source web analytics framework written in PHP.
 [Breadboard BI Web Analytics](https://sourceforge.net/projects/web-analytics/)
 
 Uses open source tools to collect and distribute web analytics data.
+
+## See Also
+
+* [File analysis](file_analysis.md)
+* [Document metadata extraction](document_metadata_extraction.md)
