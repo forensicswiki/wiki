@@ -21,6 +21,7 @@ Various concepts central to digital forensics.
 
 * [Digital evidence](digital_evidence.md)
 * [(Digital) forensic tooling](forensic_tooling.md)
+* [Observation errors](observation_errors.md)
 * [Rhetoric of Proof](rethoric_of_proof.md)
 
 ## Storage & Data Concepts
