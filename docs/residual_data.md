@@ -21,7 +21,7 @@ Residual data appears at all levels of modern computer systems:
 ## Papers
 
 Scalable Exploitation of, and Responses to Information Leakage Through Hidden
-Data in Published Documents, by Byers, Simon, AT&T Research, April 2003
+Data in Published Documents, by Byers, Simon, AT&amp;T Research, April 2003
 
 Understanding Data Lifetime via Whole System Simulation, by Chow, J., B. Pfaff,
 T. Garfinkel, K. Christopher, M. Rosenblum, Proceedings of the 13th USENIX

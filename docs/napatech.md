@@ -11,7 +11,7 @@ off-load of data traffic processing and packet analysis normally
 performed in the CPU. This results in more processing power for the
 network monitoring, analysis, management, test, measurement, security or
 optimization application being supported. Napatech has sales, marketing
-and R&D offices in Mountain View, California, Andover, Massachusetts,
+and R&amp;D offices in Mountain View, California, Andover, Massachusetts,
 and Copenhagen, Denmark.
 
 Napatech network adapters can be synchronized with a variety of time
@@ -22,7 +22,7 @@ also allows Napatech adapters to be daisy-chained allowing a single time
 synchronization source for multiple adapters.
 
 Napatech intelligent adapters can be used for performance monitoring,
-test & measurement, security and optimization markets. The boards
+test &amp; measurement, security and optimization markets. The boards
 provide interception from 1 Gbps to 10 Gbps. Software is available for
 Linux, FreeBSD and Windows.
 

@@ -40,7 +40,7 @@ Byte order: Big Endian
 | 16 | n | var | encoded metadata |
 | n+1 | blockend | var | padding (0x1a) |
 
-### Blocks \> 0 & \< last
+### Blocks \> 0 &amp; \< last
 
 | pos | to pos | size | desc |
 | --- | --- | --- | --- |

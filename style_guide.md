@@ -34,6 +34,18 @@ Conventions pymarkdown checks for:
   article links to the old slug.
 * Files end with exactly one trailing newline.
 
+When prose needs a literal `<`, `>` or `&`, write the HTML entity instead: `&lt;`, `&gt;` and
+`&amp;`. An unescaped `<word>` in prose is treated as an HTML tag and disappears from the
+rendered page, and the Markdown engine used by MkDocs does not consume backslash escapes for
+these characters (a `\<` or `\&` in the source shows up as a literal backslash), so HTML
+entities are the reliable way to escape them. This rule is enforced in CI by
+`check_escaping.py`; run `tox -e check-escaping` locally, or
+`python check_escaping.py --fix docs` to correct files automatically.
+
+Limit inline HTML to tags that Markdown cannot render natively, such as `<sup>` or `<sub>`
+for superscripts and subscripts. Use standard Markdown syntax (bold, italics, lists, links,
+tables) for everything else; the topics table on the homepage is an existing exception.
+
 ## Article structure
 
 Wiki articles are topic pages without a top level heading (heading level 1), mkdocs will add one.

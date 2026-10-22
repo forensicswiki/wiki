@@ -174,7 +174,7 @@ order.
 ## External links
 
 * [The 2008 Analysis of Information Remaining on Disks Offered for Sale on the Second Hand Market](https://ro.ecu.edu.au/ecuworks/694),
-  by Andy Jones, Glenn Dardick, Gareth Davies, Iain Sutherland & Craig Valli, 2009.
+  by Andy Jones, Glenn Dardick, Gareth Davies, Iain Sutherland &amp; Craig Valli, 2009.
 * [Privacy Rights Clearinghouse Chronology of Data Breaches](https://privacyrights.org/data-breaches?order=field_breach_total_valuehttp://www.privacyrights.org/data-breach?order=field_breach_total_value&sort=descsort=desc)
 
 ## See Also

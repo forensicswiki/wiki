@@ -5,15 +5,15 @@ tags:
   - MacOS
 ---
 DMG, technically Universal Disk Image Format (UDIF), is the proprietary
-Apple Disk Image file recognized & primarily associated with the Mac OS X
+Apple Disk Image file recognized &amp; primarily associated with the Mac OS X
 operating system used for emulating a hard disk or DVD. The Apple Disk Image
-file is created in various types of volumes (HFSX, HFS+, & HFS). It is a raw
+file is created in various types of volumes (HFSX, HFS+, &amp; HFS). It is a raw
 disk image file consisting of block data and metadata. Often one or more layers
 are applied to the file (optionally) for its encryption and compression.
 
 The image file was primarily used for replicating contents into a
 different disk. The source disk is duplicated exactly in the process
-including free & slack spaces. The files are mounted & treated as a disk
+including free &amp; slack spaces. The files are mounted &amp; treated as a disk
 entirely on Macintosh operating systems. DMG is equivalent to the ISO
 disk image file of Windows systems.
 
@@ -22,7 +22,7 @@ disk image file of Windows systems.
 Originally Apple created a disk image file as Mac applications used
 Resource Fork which posed little difficulty while being transmitted over
 unified networks. Files, especially applications, were earlier divided
-into logical parts; Data Fork & Resource Fork. Data Fork is the general
+into logical parts; Data Fork &amp; Resource Fork. Data Fork is the general
 consideration of a file while Resource Fork consisted of data collection
 with standard method of organization which only a dedicated API could
 access.
@@ -31,8 +31,8 @@ Even though the usage of latter declined with the arrival of Mac OS X,
 disk image format continued to be a standard format for software
 distribution, owing to its purpose earlier.
 
-Particularly, Disk Copy for 10.2 & earlier versions of Mac OS X and Disk
-Utility for 10.3 & later versions of Mac OS X are used for creating
+Particularly, Disk Copy for 10.2 &amp; earlier versions of Mac OS X and Disk
+Utility for 10.3 &amp; later versions of Mac OS X are used for creating
 Apple disk images. Disk images can also be managed using 'hdiutil'; the
 command based utility for Mac OS X.
 
@@ -57,7 +57,7 @@ DMG files, typically contain a partition table (APM, GPT, MBR) and a
 file system (HFS+, APFS)
 
 Mac OS Extended or HFS+ (HFS Plus) as they are commonly known, are image
-format for DMG files supported by Mac OS 8.1 & above versions. The
+format for DMG files supported by Mac OS 8.1 &amp; above versions. The
 format is further available as Journaled, Case-sensitive and with a
 combination of both. Journaled DMG is the default and most used format
 out of the rest.
@@ -68,9 +68,9 @@ A DMG image file can be created for the CD/DVD or a Hard Disk Partition.
 Six different types of partition schemes are generally found, i.e. Hard
 Disk, No Partition Map, CD/DVD, and Single Partition for - Apple
 Partition Map, CD/DVD, Master Boot Record Partition Map, CD/DVD ISO
-data, & GUID Partition Map.
+data, &amp; GUID Partition Map.
 
-## MIME Type & Optional Layers
+## MIME Type &amp; Optional Layers
 
 Apple DMG files have an MIME type and can be protected using different
 encryption types. 'application/x-apple-diskimage' is the MIME type used

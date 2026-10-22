@@ -166,4 +166,4 @@ distributed by Volatile Systems.
 
 ### WinDBG
 
-* [SwishDbgExt - Incident Response & Digital Forensics Debugging Extension](https://github.com/MagnetForensics/SwishDbgExt)
+* [SwishDbgExt - Incident Response &amp; Digital Forensics Debugging Extension](https://github.com/MagnetForensics/SwishDbgExt)

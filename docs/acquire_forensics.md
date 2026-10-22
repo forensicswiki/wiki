@@ -27,7 +27,7 @@ to find any forged to the database file.
 5. Recover Data from Associated Journal Database File.
 6. Run Software smoothly without any Platform dependency.
 7. Rum Multiple Queries to Find the desired result.
-8. Export Report in various file Format & Maintain Hierarchial Structure
+8. Export Report in various file Format &amp; Maintain Hierarchial Structure
 
 ## Benefits of SQL Forensic Explorer
 

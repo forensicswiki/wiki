@@ -54,7 +54,7 @@ hands free kit. If the user has paired their phone to the TomTom device,
 then the TomTom will store the Bluetooth MAC ID for up to five phones,
 erasing the oldest if a sixth phone is paired. Depending on the phone
 model paired with the TomTom, there may also be Call lists, contacts and
-text messages (sent & received) stored in the device too.
+text messages (sent &amp; received) stored in the device too.
 
 The newer TomTom models do not appear as a mass storage device when
 connected to Windows. They run a Linux operating system and are only
@@ -82,7 +82,7 @@ Stick. After drivers for the unit have loaded, it is possible to
 navigate the Garmin unit's file system. Many of the files inside can
 easily be opened in a text or Hex editor.
 
-Raw trip data including waypoints, date & time stamps, latitude &
+Raw trip data including waypoints, date &amp; time stamps, latitude &amp;
 longitude coordinates and elevations can be extracted from the
 Current.gpx file located in the \Garmin\GPX\\ folder. It can be viewed
 by opening the file with a text editor such as

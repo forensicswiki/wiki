@@ -73,7 +73,7 @@ ripemd160
 sudo cryptsetup luksOpen <device> <name>
 ```
 
-Provide the passphrase when prompted. The <name> will be created as a
+Provide the passphrase when prompted. The &lt;name&gt; will be created as a
 device mapper entry (i.e. /dev/mapper/thename) and this device will
 expose the filesystem.
 

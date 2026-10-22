@@ -280,7 +280,7 @@ UAL is a local data aggregation feature (enabled by default) on Windows
 Servers 2012 and above, recording client usage by role and product on
 each system providing the resource. It's typically between 2 and 4
 extensible storage engine (ESE) databases ("Current.mdb",
-"SystemIdentity.mdb, and "<GUID>.mdb"). The files location:
+"SystemIdentity.mdb, and "&lt;GUID&gt;.mdb"). The files location:
 '%%environ_systemroot%%\System32\LogFiles\SUM\\\*.mdb'
 
 References:

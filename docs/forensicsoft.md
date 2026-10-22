@@ -57,7 +57,7 @@ connected to the computer. It is application independent and works with
 all forensic acquisition and analysis software that works on Windows. In
 order to ensure that you are working forensically sound environment
 **SAFE Block XP** provides automatic write blocking of all directly
-attached media, including IDE (PATA & SATA), SCSI, FC, SAS, USB, and
+attached media, including IDE (PATA &amp; SATA), SCSI, FC, SAS, USB, and
 IEEE1394.
 
 **SAFE Block XP** identifies and provides access to Host Protected Areas

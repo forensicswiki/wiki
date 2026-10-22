@@ -67,7 +67,7 @@ evidence was found, how it was handled, and everything that happened to it by do
 
 1. Discovery: Where, when, and by whom the evidence was collected.
 2. Examination: Where, when, and by whom it was handled or analyzed.
-3. Custody & Storage: Who had possession of it, during what exact period, and how it was secured.
+3. Custody &amp; Storage: Who had possession of it, during what exact period, and how it was secured.
 4. Transfer: When and how custody changed, including tracking numbers or shipping details for
    external transit.
 

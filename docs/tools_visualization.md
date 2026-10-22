@@ -88,7 +88,7 @@ Most of the following applications can be used to do visualization.
   software platform for visualizing complex networks and integrating
   these with any type of attribute data.
 * [Graphviz](https://www.graphviz.org/) - Originally developed by the
-  AT&T Information Visualization Group, designed
+  AT&amp;T Information Visualization Group, designed
   for drawing connected graphs of nodes and edges. Neato is a similar
   system but does layout based on a spring model. Can produce output as
   PostScript, PNG, [GIF](gif.md), or as an annotated graph file with

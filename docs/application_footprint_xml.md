@@ -53,7 +53,7 @@ drive after it has been installed.
 
 For each of the blocks above, we would like to indicate:
 
-* Files (hashes & fuzzy hashes)
+* Files (hashes &amp; fuzzy hashes)
 * Windows Registry entries
 * Magic Numbers (perhaps there is an 8-byte code left in memory or in an
   executable that's descriptive)

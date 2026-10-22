@@ -8,7 +8,7 @@ technically skilled team and even known for their expertise which they
 combine to give their customers a solution which is out of the world.
 
 With a focused and an experienced team, Aryson Technologies is a
-renowned name in the field of IT & software applications. They believe
+renowned name in the field of IT &amp; software applications. They believe
 in quality and thus provide some of the best, hi-end and cutting edge
 software applications to its users.
 
@@ -30,7 +30,7 @@ trusted firms providing customer-oriented tools across the globe.
 ## Objective
 
 Their prime focus is quality and creating software solutions in the
-field of data recovery, email migration & management, and various other
+field of data recovery, email migration &amp; management, and various other
 utility tools with the help of their skills, knowledge and in-depth
 technical knowledge. As a renowned firm for its quality and expertise,
 tools from Aryson Technologies can extract data from almost all types of
@@ -40,10 +40,10 @@ relocation. Their top priority is keeping their customer's data safe.
 Privacy and integrity of shared data and information top's their list of
 priority and that is how they work. .
 
-## Products & Services
+## Products &amp; Services
 
 Aryson Technologies provides a range of data recovery tool, email
-management & migration software applications and various other utility
+management &amp; migration software applications and various other utility
 tools which are designed to make life easy for its users/customers. It
 has a wide range of multi-functionality tools with different
 functionalities which have been designed to cover various user needs and
@@ -55,7 +55,7 @@ recovery, Email management, Email migration and Password recovery. Only
 their Data recovery sections have tools like SQL Database Recovery, DBF
 Recovery, MS Access Recovery, BKF Recovery, SQLite Database Recovery and
 more. Even their Email migration and management tools have the
-capability of splitting, merging and even compressing & upgrading email
+capability of splitting, merging and even compressing &amp; upgrading email
 files. With an experienced technical team supported by a sophisticated
 lab, their research team is always looking for new features that can be
 added into their utilities making it more easy for their consumers.
@@ -79,7 +79,7 @@ utility software which is loaded with advanced algorithms to create an
 amazing user experience. With a variety of tools in their bucket from
 data recovery, email management, email migration and even password
 recovery they have created a huge name in Windows-based software utility
-tools. And with huge industry expertise, R&D labs, research, and
+tools. And with huge industry expertise, R&amp;D labs, research, and
 technical knowledge allows them to build software utilities with utmost
 accuracy and without flaws.
 

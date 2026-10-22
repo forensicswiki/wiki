@@ -217,7 +217,7 @@ Some additional information the service provider might store:
 ## Service Providers that use SIM Cards in the United States
 
 * T-Mobile
-* Cingular/AT&T
+* Cingular/AT&amp;T
 
 ## Sim Card Text Encoding
 

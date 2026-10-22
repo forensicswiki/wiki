@@ -38,7 +38,7 @@ some publisher links are broken or websites have changed.
 | [Forensic Discovery](https://www.amazon.com/Forensic-Discovery-Dan-Farmer/dp/0321703251) | Dan Farmer and Wietse Venema | 9780321703255 | Addison-Wesley Professional | Dec 30, 2004 | [HTML version](http://www.porcupine.org/forensics/forensic-discovery/) of the book is freely available online. |
 | [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](https://www.ojp.gov/pdffiles1/nij/199408.pdf) | NCJ 199408 | | National Institute of Justice | April 2004 | Special Report |
 | [Handbook of Digital Forensics and Investigation [1st Edition]](https://www.amazon.com/Handbook-Digital-Forensics-Investigation-Eoghan/dp/0123742676) | Eoghan Casey BS MA | 9780123742674 | Academic Press | Nov 09, 2009 | |
-| [Incident Response & Computer Forensics, Third Edition](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684) | Jason T. Luttgens, Matthew Pepe, and Kevin Mandia | 9780071798686 | McGraw Hill | August 4, 2014 | Highly Recommended |
+| [Incident Response &amp; Computer Forensics, Third Edition](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684) | Jason T. Luttgens, Matthew Pepe, and Kevin Mandia | 9780071798686 | McGraw Hill | August 4, 2014 | Highly Recommended |
 | [Investigating Computer-Related Crime [1st Edition]](https://www.amazon.com/Investigating-Computer-Related-Crime-Peter-Stephenson/dp/0849322189) | Peter Stephenson | 9780849322181 | CRC Press | Sep 28, 1999 | |
 | [Investigating Computer Crime](https://www.amazon.com/Investigating-Computer-Crime-Franklin-Clark/dp/0849381584) | Franklin Clark and Ken Diliberto | 9780849381584 | CRC Press | Sep 30, 1996 | |
 | [Investigator's Guide to Steganography](https://www.amazon.com/Investigators-Guide-Steganography-Gregory-Kipper/dp/0849324335) | Gregory Kipper | 9780849324338 | Auerbach Publications | Oct 27, 2003 | |
@@ -58,10 +58,10 @@ some publisher links are broken or websites have changed.
 | --- | --- | --- | --- | --- | --- |
 | [Mac OS X and iOS Internals: To the Apple's Core](https://www.amazon.com/Mac-OS-iOS-Internals-Apples/dp/1118057651) | Jonathan Levin | 9781118057650 | Wrox | November 6, 2012 | |
 | [Mac OS X Internals: A Systems Approach](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541) | Amit Singh | 9780134426549 | Addison-Wesley Professional | | |
-| [Windows Internals, Part 1, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735648739 | Microsoft Press | April 8, 2012 | Windows Server 2008 R2 & Windows 7 |
-| [Windows Internals, Part 2, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735665873 | Microsoft Press | September 15, 2012 | Windows Server 2008 R2 & Windows 7 |
-| [Windows Internals, Part 1, 7th Edition (Developer Reference)](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)] | Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780735684188 | Microsoft Press | May 5, 2017 | Windows Server 2016 & Windows 10 |
-| [Windows Internals, Part 2, 7th Edition (Developer Reference](https://www.amazon.com/Windows-Internals-Part-2-7th/dp/0135462401) | Andrea Allievi, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780135462409 | Microsoft Press | October 1, 2021 | Windows Server 2016 & Windows 10 |
+| [Windows Internals, Part 1, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735648735) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735648739 | Microsoft Press | April 8, 2012 | Windows Server 2008 R2 &amp; Windows 7 |
+| [Windows Internals, Part 2, 6th Edition](https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877) | Mark Russinovich, David A. Solomon, and Alex Ionescu | 9780735665873 | Microsoft Press | September 15, 2012 | Windows Server 2008 R2 &amp; Windows 7 |
+| [Windows Internals, Part 1, 7th Edition (Developer Reference)](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)] | Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780735684188 | Microsoft Press | May 5, 2017 | Windows Server 2016 &amp; Windows 10 |
+| [Windows Internals, Part 2, 7th Edition (Developer Reference](https://www.amazon.com/Windows-Internals-Part-2-7th/dp/0135462401) | Andrea Allievi, Alex Ionescu, Mark E. Russinovich, David A. Solomon | 9780135462409 | Microsoft Press | October 1, 2021 | Windows Server 2016 &amp; Windows 10 |
 
 ## Other Languages
 

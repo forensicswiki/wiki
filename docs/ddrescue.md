@@ -71,7 +71,7 @@ emerge ddrescue
 
 ## Partition recovery
 
-### Kernel 2.6.3+ & ddrescue 1.4+
+### Kernel 2.6.3+ &amp; ddrescue 1.4+
 
 'ddrescue --direct' will open the input with the O_DIRECT option for
 uncached reads. 'raw devices' are not needed on newer kernels. For older

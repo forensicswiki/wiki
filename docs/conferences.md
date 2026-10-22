@@ -16,7 +16,7 @@ Research conferences that are related to digital investigation and forensics.
 American Academy of Forensic Science
 <https://www.aafs.org/>
 
-BlackHat Federal Briefings & Training
+BlackHat Federal Briefings &amp; Training
 <https://www.blackhat.com/html/bh-link/briefings.html>
 
 BSides Security (various locations)
@@ -32,7 +32,7 @@ Conference on Digital Forensics, Security and Law
 
 Department of Defense CyberCrime Conference (Discontinued - now US Cyber Crime Conference)
 
-Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)
+Detection of Intrusions and Malware &amp; Vulnerability Assessment (DIMVA)
 <https://www.dimva.org/>
 
 Digital Forensics Research Conference (DFRWS)
@@ -65,7 +65,7 @@ International Conference on Availability, Reliability and Security
 
 [International Conference on Digital Forensics and Cyber Crime (ICDF2C)](https://d-forensics.eai-conferences.org/)
 
-International Conference on IT-Incident Management & IT-Forensics
+International Conference on IT-Incident Management &amp; IT-Forensics
 <https://www.imf-conference.org/>
 
 International Symposium on Recent Advances in Intrusion Detection
@@ -112,7 +112,7 @@ PFIC (Parabin Corporation)
 Regional Computer Forensics Group Conference (RCFG)
 <http://www.rcfg.org>
 
-SANS Digital Forensics & Incident Response Summit & Training
+SANS Digital Forensics &amp; Incident Response Summit &amp; Training
 <https://www.sans.org/cyber-security-summit/>
 
 Techno-Security Conference

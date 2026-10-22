@@ -35,7 +35,7 @@ The nutshell is that XP should not be used to format these drives, and
 some assumptions made by tools and users need to be corrected. For
 analysis purposes, note that you can't assume that an NTFS partition
 starts at LBA 63. If you are used to using, for example, the Sleuthkit
-command "fls -o 63 <image>", this may need to change. Hopefully more
+command "fls -o 63 &lt;image&gt;", this may need to change. Hopefully more
 information about these drives will come forth as time progresses.
 
 LBA 63 was dying anyway. Windows Vista and Windows 7 both align to LBA

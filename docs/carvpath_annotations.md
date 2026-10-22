@@ -19,11 +19,11 @@ the CarvPath designates a pseudo directory or nesting level.
 
 The basic structure of a CarvPath annotation is defined as follows:
 
-* CARVPATH : \[CPTOKEN "/" \]\* CPTOKEN ".' <extension>
+* CARVPATH : \[CPTOKEN "/" \]\* CPTOKEN ".' &lt;extension&gt;
 * CPTOKEN : \[CPCHUNK "_" \]\* CPCHUNK
 * CPCGUNK : CPFRAGMENT \| CPSPARSE \| CPDIGEST
-* CPFRAGMENT : <offset> + <size>
-* CPSPARSE : "S" <size>
+* CPFRAGMENT : &lt;offset&gt; + &lt;size&gt;
+* CPSPARSE : "S" &lt;size&gt;
 * CPDIGEST : "D" digest(CPTOKEN)
 
 An example of a CarvPath :

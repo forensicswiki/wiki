@@ -73,9 +73,9 @@ Launch the Riff Box JTAG Manager and use the following settings:
 * Choose the MSM7627A from the drop down menu on the right side \*\*
   Note this is not the processor but it will allow access the the
   memory.
-* Select eMMC SDC3 (via chipset) from the Memory Type & Host drop down.
+* Select eMMC SDC3 (via chipset) from the Memory Type &amp; Host drop down.
 * Check Auto FullFlash size
-* Select Connect & Flash ID. \*\* This will not flash the memory chip
+* Select Connect &amp; Flash ID. \*\* This will not flash the memory chip
   initially, but will only connect\*\*
 * Choose the read button from the bottom left corner. This will connect
   to the device and display the partitions and chip ID.

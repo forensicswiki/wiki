@@ -65,7 +65,7 @@ than a means to protect confidentiality.
 PST or Personal Storage File is an open proprietary file format which
 stores email messages, contacts, calendar entries, tasks, and other
 items belonging to Microsoft software like MS Exchange Client, Microsoft
-Outlook, and Windows Messaging. The open file format is organized &
+Outlook, and Windows Messaging. The open file format is organized &amp;
 structured by Microsoft who provide free specifications and free stable
 technology licensing.
 
@@ -101,7 +101,7 @@ data from PST files.
 PST file format is currently of two types; ANSI and Unicode. Unicode PST
 is an advance format for PST and is available in Outlook 2003 and all
 above versions. It has storage capacity of 20 GB in Outlook 2007 and
-50GB in Outlook 2010 & 2013. Whereas ANSI PST is legacy format which has
+50GB in Outlook 2010 &amp; 2013. Whereas ANSI PST is legacy format which has
 2GB storage space limitation and is part of Outlook 2002 and below
 versions.
 
@@ -110,7 +110,7 @@ versions.
 PST file architecture is structured in three layers: NDB, LTP, and
 Messaging layer. The NDB (Node Database) layer comprises of database of
 nodes denoting the lower-level objects for storage function. It endures
-header, blocks, file allocation details, nodes, and BTrees (Node BTree &
+header, blocks, file allocation details, nodes, and BTrees (Node BTree &amp;
 Block BTree). The LTP (Lists, Tables, and Properties) layer comprises
 higher-level notions comprises elements like Property Context
 (collection of properties) and Table Context (two-dimensional table).

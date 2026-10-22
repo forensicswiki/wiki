@@ -20,7 +20,7 @@ present on a Windows machine. The NTBackup tool also comes integrated
 with certain features that support automated backup of data via Task
 Scheduler and command based switches.
 
-The utility was later replaced by Windows Backup & Restore center and
+The utility was later replaced by Windows Backup &amp; Restore center and
 Windows Server Backup in Windows versions later to Vista and Server OS
 versions, respectively.
 

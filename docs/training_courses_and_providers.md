@@ -46,7 +46,7 @@ be noted when known.*
 | Title | Website | Restrictions |
 | --- | --- | --- |
 | AccessData (Forensic Tool Kit FTK) | <https://training.exterro.com> | |
-| Amped Software (Image & Video forensics - FIVE; Authenticate) | <https://ampedsoftware.com/training> | |
+| Amped Software (Image &amp; Video forensics - FIVE; Authenticate) | <https://ampedsoftware.com/training> | |
 | ASR Data (SMART) | <http://www.asrdata.com/forensic-training/overview/> | |
 | Cellebrite (UFED) | <https://cellebrite.com/en/training/> | |
 | Digital Intelligence (FRED Forensics Platform) | <https://digitalintelligence.com/training/overview> | |
@@ -57,7 +57,7 @@ be noted when known.*
 | Nuix (eDiscovery) | <https://www.nuix.com/training> | |
 | MailXaminer (Email Forensics Tool) | <https://www.mailxaminer.com/training.html> | |
 | Paraben (Paraben Suite) | <https://paraben.com/digital-investigation-training-courses/> | |
-| Software Analysis & Forensic Engineering (CodeSuite) | <https://www.safe-corp.com/> | |
+| Software Analysis &amp; Forensic Engineering (CodeSuite) | <https://www.safe-corp.com/> | |
 | Sumuri, LLC. (Recon for Mac OS X) | <https://sumuri.com/mac-training/> | |
 | Volatility Labs (Volatility Framework) | <https://volatility-labs.blogspot.com/search/label/training> | |
 | X-Ways Forensics (X-Ways Forensics) | <https://www.x-ways.net/training/> | |

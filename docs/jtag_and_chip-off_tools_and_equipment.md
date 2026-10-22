@@ -156,5 +156,5 @@ default in Windows 7 64-bit. The programmer is identified as a as a
 Cypess Semiconductor Corp. CY7C68013. The signed Windows 7 64-bit driver
 can be installed by downloading and installing the Cypress EZ-USB FX2LP
 Development Kit, then using the CyUSB.sys driver found in
-'<installdir>\CY3684_EZ-USB_FX2LP_DVK\1.0\Drivers\cyusbfx1_fx2lp' for
+'&lt;installdir&gt;\CY3684_EZ-USB_FX2LP_DVK\1.0\Drivers\cyusbfx1_fx2lp' for
 the UP-828 programmer.

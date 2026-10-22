@@ -9,7 +9,7 @@ cloud for different levels of organizational usage. The platform
 altogether promotes a new method of purchasing the applications of
 Office suite. The extensive usage of this software-service provider in
 businesses and enterprises makes it a platform known best for the rich
-exchange & storage of confidential information using Exchange online
+exchange &amp; storage of confidential information using Exchange online
 service. The Exchange mailbox repository holds sensitive corporate
 storage in Office 365, which turns out to be a critical element during
 investigative procedures carried out on cloud for the discovery of
@@ -34,17 +34,17 @@ whereas, PowerShell did most of the tasks. Soon, the platform underwent
 evolution and resulted in became the primary interface for
 Administrators of Office 365.
 
-## In-Place eDiscovery & Hold - Office 365
+## In-Place eDiscovery &amp; Hold - Office 365
 
 In-Place eDiscovery is a powerful integrated facility with which, a user
 having required permissions, can gain access of the entire messaging
 records of an Exchange organization. The Discovery Management role group
 is a crucial element. Therefore, it is important to ensure proper
-control & monitoring on the discovery related activities.
+control &amp; monitoring on the discovery related activities.
 
 Measures to be taken to ensure a controlled Discovery Management Group:
 
-1. Limited & careful addition of members to the role group
+1. Limited &amp; careful addition of members to the role group
 2. A check on the discovery activities performed on the role group
 3. The allotment of roles like the Mailbox Search management
 4. Access permission for discovery mailbox usage allotment
@@ -53,7 +53,7 @@ Measures to be taken to ensure a controlled Discovery Management Group:
 
 The feature is offered in a user-friendly manner with
 self-descriptive options that can easily be adopted by record managers,
-legal & compliance officer, along with professionals from the human
+legal &amp; compliance officer, along with professionals from the human
 resource department for eDiscovery purposes. Search feature comes with a
 variety of criteria to be implemented for detailing the search for
 particular messages from selected mailboxes.

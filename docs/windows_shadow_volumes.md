@@ -187,5 +187,5 @@ information.
 
 ## Sources
 
-* [What you should know about Volume Shadow Copy/System Restore in Windows 7 & Vista (FAQ)](https://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
+* [What you should know about Volume Shadow Copy/System Restore in Windows 7 &amp; Vista (FAQ)](https://blog.szynalski.com/2009/11/volume-shadow-copy-system-restore/)
 * [Restore points](https://learn.microsoft.com/en-us/windows/win32/sr/restore-points)

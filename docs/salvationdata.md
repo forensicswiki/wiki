@@ -37,7 +37,7 @@ the investigation process can be clearly documented.
 
 SmartPhone Forensic System (SPF) is a forensically sound system for acquiring,
 recovering, analyzing and triage data from mobile devices such as Android
-phone, tablets, iPhone&iPad. The system is a powerful and integrated platform
+phone, tablets, iPhone&amp;iPad. The system is a powerful and integrated platform
 for digital investigation. It allows investigators to examine and ascertain
 relevant information from devices easily and efficiently in the field, and
 helps them to recover and collect critical forensic evidence even from huge

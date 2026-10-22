@@ -8,7 +8,7 @@ which adds [metadata](metadata.md) to existing image formats, such as [JPEG](jpe
 
 To read the Date/Time tag do:
 
-* `exif --tag=0x132 filename.jpg` (reveals Date & Tag)
+* `exif --tag=0x132 filename.jpg` (reveals Date &amp; Tag)
 * `exif --tag=0x9003 filename.jpg` (reveals Date and Time (original))
 * `exif --tag=0x9004 filename.jpg` (reveals Date and Time (digitized))
 

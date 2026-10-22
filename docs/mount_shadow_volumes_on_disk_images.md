@@ -54,7 +54,7 @@ C:\> diskpart
 When diskpart starts the prompt will change to say DISKPART\>.
 
 * Next select the drive image by typing "select vdisk
-  file=<path to image>" where <path to image> is the path to the vhd
+  file=&lt;path to image&gt;" where &lt;path to image&gt; is the path to the vhd
   file.
 
 ```text
@@ -101,7 +101,7 @@ C:\> vssadmin list shadows /for=E:\
 "mklink /D C:\`<some directory>`\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy#\"
 ```
 
-Where <some directory> is the path that you'd like the mount the Shadow
+Where &lt;some directory&gt; is the path that you'd like the mount the Shadow
 Volume at, and the \# in HarddiskVolumeShadowCopy is the number o the
 Shadow Volume to mount. Please note that the trailing slash is absolutely
 necessary. Without the slash you will receive a permissions error when

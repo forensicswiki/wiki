@@ -20,9 +20,9 @@ Byte order: Big Endian Hash: SHA-256
 
 | section | desc | note |
 | --- | --- | --- |
-| Header | Signature & version | |
+| Header | Signature &amp; version | |
 | Metadata | Misc info | |
-| Hash | Blocks hash list & final hash | |
+| Hash | Blocks hash list &amp; final hash | |
 | Last block | zlib compressed last block remainder | if needed |
 
 ### Header
@@ -67,7 +67,7 @@ Currently the only version is 1.
 | ID | Desc |
 | --- | --- |
 | FNM | filename (utf-8) |
-| FDT | date & time (8 bytes, seconds since epoch) |
+| FDT | date &amp; time (8 bytes, seconds since epoch) |
 
 ## External Links
 

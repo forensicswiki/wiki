@@ -50,7 +50,7 @@ with both good and damaged media with a focus on high-performance (up to
 * Standalone mode
 * Multi-user access when connected to a network (web-based interface)
 * Unknown ATA password recovery
-* HPA & DCO recovery
+* HPA &amp; DCO recovery
 * Hash calculation (MD5, SHA1, SHA256, SHA512)
 * Wiping with various methods: custom pattern, NIST 800-88, DoD
   5220.22-M, random, LBA number

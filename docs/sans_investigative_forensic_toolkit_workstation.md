@@ -19,7 +19,7 @@ SIFT Workstation is based on Ubuntu.
 Software Includes:
 
 1. [The Sleuth Kit](the_sleuth_kit.md)
-2. [ssdeep](ssdeep.md) & [md5deep](md5deep.md)
+2. [ssdeep](ssdeep.md) &amp; [md5deep](md5deep.md)
 3. [Foremost](foremost.md)/[Scalpel](scalpel.md)
 4. [Wireshark](wireshark.md)
 5. HexEditor

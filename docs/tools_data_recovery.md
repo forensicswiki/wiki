@@ -35,7 +35,7 @@ files.
 
 * [Stellar Data Recovery](https://www.stellarinfo.com:443/)
 
-Data recovery software services & tools to recover lost data from hard
+Data recovery software services &amp; tools to recover lost data from hard
 drive.
 
 * [Restoration](https://www.snapfiles.com/get/restoration.html)
@@ -75,7 +75,7 @@ device.
 
 * [M3 Data Recovery](m3_data_recovery.md)
 
-Easy-to-use & free data recovery software for Windows and Mac to
+Easy-to-use &amp; free data recovery software for Windows and Mac to
 undelete files and recover data from
 formatted/damaged/corrupted/lost/deleted drive.
 
@@ -133,7 +133,7 @@ bootable again.
 
 * [Partition Recovery Software](https://www.stellarinfo.com/partition-recovery-software.php)
 
-Partition Recovery software for NTFS & FAT system that examines lost
+Partition Recovery software for NTFS &amp; FAT system that examines lost
 Windows partition of damaged and corrupted hard drive.
 
 * [M3 RAW Drive Recovery](m3_raw_drive_recovery.md)

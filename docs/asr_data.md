@@ -2,7 +2,7 @@
 tags:
   - Vendor
 ---
-ASR Data Acquisition & Analysis, LCC. (ASR Data) is a company which
+ASR Data Acquisition &amp; Analysis, LCC. (ASR Data) is a company which
 produces software for forensic investigators and offers related services and
 training.
 

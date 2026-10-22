@@ -24,7 +24,7 @@ Beginning in 2003 under the name 3, Hutchison Whampoa gradually launched
 their startup UMTS networks worldwide including Australia, Austria,
 Denmark, Hong Kong, Italy, Great Britain, Ireland and Sweden.
 
-US provider AT&T Wireless (now Cingular) was required to build and
+US provider AT&amp;T Wireless (now Cingular) was required to build and
 market UMTS networks in four major United States cities by the end of
 2004. At CTIA 2004, Cingular announced that their 3G network would be a
 1900 MHz only implementation of UMTS and would launch by the end of that

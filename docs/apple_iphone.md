@@ -4,7 +4,7 @@ tags:
   - Mobile
 ---
 The **iPhone** is a smartphone made by [Apple Inc.](apple_inc.md) and sold
-with service through AT&T. It can be used to send/receive email
+with service through AT&amp;T. It can be used to send/receive email
 (see [IPhone Mail Header Format](iphone_mail_header_format.md), keep schedules,
 surf the web, and view videos from YouTube. A large number of forensic products
 can process iPhones, see Tools section.

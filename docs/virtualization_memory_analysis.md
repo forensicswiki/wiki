@@ -14,7 +14,7 @@ machines from the memory of the host system.
   by Mariano Graziano, Andrea Lanzi, and Davide Balzarotti
 * VM discovery and introspection with Rekall,
   by Jordi Sánchez López, October 3, 2014
-* [inVtero.net. A tool for physical to virtual & VM identification and
+* [inVtero.net. A tool for physical to virtual &amp; VM identification and
   extraction.](https://github.com/ShaneK2/inVtero.net), by Shane
   Macaulay. As well as standard OS memory dumping for Windows, FreeBSD,
   OpenBSD and NetBSD. Requires no OS layer support, i.e. based on

@@ -86,7 +86,7 @@ Examples of Mission-Specific SearchPaks
 * Collect all documents, text files, or emails that contain the
   keyword "Operation Kandahar."
 
-## DHS S&T First Responder Cyber Forensic Field Kit
+## DHS S&amp;T First Responder Cyber Forensic Field Kit
 
 In 2010, ADF Solutions was selected by the U.S. Department of Homeland
 Security Science and Technology Directorate to develop a universal
