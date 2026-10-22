@@ -1,101 +1,70 @@
 ---
 tags:
-  - Howtos
-  - Tools
+  - Analysis Techniques
 ---
-Analyzing files such as executables and process memory dumps for strings
-can be very useful in identifying what these files were up to behind the
-scenes. For example, a malicious process memory dump may contain clues
-as to what other files and/or starting parameters the malicious process
-used. String analyzers are able to sift through files and pull out only
-the strings that are most likely to include pertinent information, using
-the criteria we give them. Strings is a well-known program on UNIX-like
-systems that makes a great strings analyzer.
+String analysis is the technique of extracting the printable strings
+embedded in a file and examining them to learn what the file is up to.
+Although it is most often applied to [executables](executable.md) and
+process memory dumps, it can also be used on archives, databases and log
+files. Because most of a binary file is unreadable noise, string analyzers
+sift through the file and pull out only the strings that are most likely to
+include pertinent information, using the criteria set by the examiner.
 
-The Strings program comes installed by default on most UNIX-like
-systems. If you want to use Strings on Windows, check out
-[Cygwin](https://www.cygwin.com/) and make sure to install the binutils
-package as part of the setup process.
+It is a basic part of the
+[content analysis](file_analysis.md#content-analysis) category of
+[file analysis](file_analysis.md), and is often the first pass over an
+unknown or suspicious file.
 
-## Use
+## Choosing criteria
 
-One of the most useful features of Strings is the ability to specify the
-minimum string length for it to gather. For example, if I'm not
-interested in short strings in a file and only want to see strings that
-are made up of at least 8 characters (since they're more likely to
-contain filenames or start parameters that the process used), I would
-run the following command (replacing &lt;sourcefilename&gt; with the name of
-the file I want to analyze strings in, and "&lt;outputfilename&gt;" with the
-name of the file I want to output the results to):
+Two criteria matter most when extracting strings:
 
-```bash
-strings -8 <sourcefilename> > <outputfilename>.txt
-```
+* **Minimum string length.** Short strings rarely contain useful
+  information and mostly add noise. Most string analyzers allow setting a
+  minimum string length: requiring strings of at least 8 consecutive
+  characters, for example, surfaces strings more likely to contain
+  filenames or starting parameters, while filtering out most of the noise.
+* **Character set.** Strings in a file can be stored as ASCII or Unicode.
+  Many analyzers search only ASCII and equivalent characters by default and
+  require an explicit option to also search for Unicode strings, so both
+  encodings should be checked - particularly for Windows binaries and
+  memory dumps.
 
-The resulting .txt file will contain a list of all strings made up of at
-least 8 consecutive characters found within the source file. The "8" can
-be replaced with any other number you choose to specify.
+## What to look for
 
-When using Strings on a suspicious process memory dump I obtained during
-a digital forensics investigation, I found the following strings:
+The extracted strings are then examined for clues about the file's
+behavior:
 
-```text
-...
-C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
-...
-Cmd line:
-port numbers can be individual or ranges: m-n [inclusive]
-       -u            UDP mode
-       -v            verbose [use twice to be more verbose]
-       -w secs              timeout for connects and final net reads
-       -z            zero-I/O mode [used for scanning]
-       -t            answer TELNET negotiation
-       -g gateway    source-routing hop point[s], up to 8
-       -G num        source-routing pointer: 4, 8, 12, ...
-       -h            this cruft
-       -i secs              delay interval for lines sent, ports scanned
-       -l            listen mode, for inbound connects
-       -L            listen harder, re-listen on socket close
-       -n            numeric-only IP addresses, no DNS
-       -o file              hex dump of traffic
-       -p port              local port number
-       -r            randomize local and remote ports
-       -s addr              local source address
-       -e prog              inbound program to exec [dangerous!!]
-       -d            detach from console, stealth mode
-[v1.10 NT]
-connect to somewhere:      nc [-options] hostname port[s] [ports] ...
-listen for inbound:  nc -l -p port [options] [hostname] [port]
+* File paths and filenames the program uses or references
+* Command lines and starting parameters, showing how a program was invoked
+  and configured
+* User prompts, error messages and status messages, which suggest the
+  functionality of a program
+* Version banners and help output, which can identify a program that was
+  renamed or repurposed, such as a disguised backdoor
+* URLs, host names and other network endpoints
 
-critsvc32:
-...
-C:\Windows\critsvc32.exe
-...
-Secure Resource Selection Service
-C:\Windows\system32\srss.exe -l -p 1337 -e cmd.exe
-C:\Windows\system32\srss.exe
-```
+The [Strings](strings.md#use) article contains a concrete example in which
+string analysis of a process memory dump identified a disguised
+[Netcat](netcat.md) backdoor.
 
-The file the process was attached to was the *srss.exe file*, seen in
-the text above. By performing this strings analysis, I was quickly able
-to identify this *srss.exe* file as simply a disguised version of
-Netcat, acting as a backdoor to the victim machine. As you can see in
-the text above, the entire "-h" (help) output, including the version
-("v1.10 NT"), was contained in the process memory dump. I was also able
-to identify that the Netcat backdoor was set up to listen ("-l") on port
-1337 ("-p 1337") and was configured to execute any commands sent to it
-using the command line ("-e cmd.exe"). This presented a huge security
-concern on the victim machine! The strings analysis made it much quicker
-and simpler to gather the data I needed and react accordingly.
+## Interpreting findings
 
-Note that by default, Strings will only analyze the file for ASCII and
-equivalent characters. Additional "-e" arguments will need to be used to
-search for Unicode characters.
+The presence or absence of a string is not proof, or evidence of the
+absence, of any functionality: a string can be present in a file even if
+the feature it suggests is never used, and functionality can be present
+without any identifying string at all, for example when the code is packed,
+encrypted or dynamically generated. Strings therefore provide hints that
+should be corroborated by other techniques, such as static or dynamic
+[analysis of program execution](analyzing_program_execution.md).
 
 ## See Also
 
 * [Strings](strings.md)
+* [File analysis](file_analysis.md)
+* [Memory analysis](memory_analysis.md)
+* [Malware analysis](malware_analysis.md)
 
 ## External Links
 
-* [Strings - Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/strings)
+* [Wikipedia: Strings (Unix)](https://en.wikipedia.org/wiki/Strings_(Unix))
