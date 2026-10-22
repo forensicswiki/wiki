@@ -8,7 +8,7 @@ log2timeline (or L2T) CSV is a timeline format introduced by
 ## Format
 
 The following information was copied from the
-[log2timeline project wiki](https://code.google.com/archive/p/log2timeline/wikis/l2t_csv.wiki)
+[log2timeline project wiki](https://plaso.readthedocs.io/en/latest/sources/user/Output-format-l2tcsv.html)
 with permission:
 
 By default log2timeline uses the l2t_csv output format. It is a simple
@@ -107,4 +107,4 @@ A more detailed description of each of the fields and their meaning:
 
 ## External Links
 
-* [log2timeline project wiki: l2t_csv](https://code.google.com/archive/p/log2timeline/wikis/l2t_csv.wiki)
+* [Plaso (successor to log2timeline) documentation: l2t_csv output format](https://plaso.readthedocs.io/en/latest/sources/user/Output-format-l2tcsv.html)

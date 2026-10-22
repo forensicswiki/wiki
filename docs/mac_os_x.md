@@ -284,7 +284,7 @@ Mac OS.
 * [Inside Macintosh](https://developer.apple.com/library/archive/documentation/mac/pdf/Text.pdf),
   by Apple Computer, Inc., 1993
 * [Command Line ALF on Mac OS X](https://krypted.com/mac-os-x/command-line-alf-on-mac-os-x/)
-* [mac-security-tips](https://code.google.com/archive/p/mac-security-tips/wikis/ALL_THE_TIPS.wiki)
+* [mac-security-tips](https://github.com/sud0man/mac-security-tips)
 * [Hidden backdoor API to root privileges in Apple OS X](https://truesecdev.wordpress.com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/),
   by Emil Kvarnhammar, April 9, 2015
 * [Mac OS X Internals book (1st ed)](https://newosxbook.com/1stEdIsFree.html)

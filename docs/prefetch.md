@@ -262,7 +262,7 @@ The EnablePrefetcher Registry value can be used to disable prefetch.
 ### Open Source
 
 * [libscca](libscca.md)
-* [prefetch-tool](https://code.google.com/archive/p/prefetch-tool), Script to
+* [prefetch-tool](https://github.com/milo2012/prefetch-tool), Script to
   extract information from Windows prefetch folder
 * [Plaso](plaso.md)
 * [PECmd](https://github.com/EricZimmerman/PECmd), Prefetch command line

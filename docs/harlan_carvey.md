@@ -47,9 +47,8 @@ basis.
 
 ## Tools
 
-* [WinForensicAnalysis Tools](https://code.google.com/archive/p/winforensicaanalysis/downloads) -
-  Hosted on Google Code, includes files for the Windows Registry
-  Forensics book.
+* [WinForensicAnalysis Tools](https://github.com/keydet89/Tools),
+  includes files for the Windows Registry Forensics book.
 
 ## Books
 

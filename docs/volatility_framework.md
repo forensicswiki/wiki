@@ -40,11 +40,11 @@ a separate project, the drivers can now be found as part of the
 
 ## External Links
 
-* [Official website](https://code.google.com/archive/p/volatility)
-* [Code repository](https://code.google.com/archive/p/volatility/source),
+* [Official website](https://volatilityfoundation.org)
+* [Code repository](https://github.com/volatilityfoundation/volatility3),
   direct link to
-  [source](https://code.google.com/archive/p/volatility/source)
-* [Volatility Documentation](https://code.google.com/archive/p/volatility)
+  [source](https://github.com/volatilityfoundation/volatility3)
+* [Volatility Documentation](https://github.com/volatilityfoundation/volatility3/wiki)
 
 ### Third party documentation
 

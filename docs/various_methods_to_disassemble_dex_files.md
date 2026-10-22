@@ -88,7 +88,7 @@ $ cat com/example/helloandroid/HelloAndroid.ddx
 ### baksmali
 
 The baksmali disassembler (available at
-<https://code.google.com/archive/p/smali>) disassembles the DEX file into a
+<https://github.com/google/smali>) disassembles the DEX file into a
 format loosely based on the Jasmin's/dedexer's syntax. The command used
 in this analysis to generate the disassembly is:
 
