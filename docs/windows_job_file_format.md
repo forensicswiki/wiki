@@ -18,8 +18,8 @@ The fixed-length section is 68 bytes in size and consists of:
 | 0 | 2 | | Product version |
 | 2 | 2 | 1 | File (format) version |
 | 4 | 16 | | Job UUID (or GUID) |
-| 20 | 2 | | Application name size offset<br>The offset is relative from the start of the file. |
-| 22 | 2 | | Trigger offset<br>The offset is relative from the start of the file. |
+| 20 | 2 | | Application name size offset. The offset is relative from the start of the file. |
+| 22 | 2 | | Trigger offset. The offset is relative from the start of the file. |
 | 24 | 2 | | Error Retry Count |
 | 26 | 2 | | Error Retry Interval |
 | 28 | 2 | | Idle Deadline |
@@ -29,7 +29,7 @@ The fixed-length section is 68 bytes in size and consists of:
 | 40 | 4 | | Exit Code |
 | 44 | 4 | | Status |
 | 48 | 4 | | Flags |
-| 52 | 16 | | Last run time<br>Consists of a SYSTEMTIME |
+| 52 | 16 | | Last run time. Consists of a SYSTEMTIME |
 
 #### Product version
 
@@ -85,11 +85,11 @@ The variable-length section is variable in size and consists of:
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
 | 0 | 2 | | Running Instance Count |
-| 2 | ... | | Application Name<br>Consists of a Unicode string. |
-| ... | ... | | Parameters<br>Consists of a Unicode string. |
-| ... | ... | | Working Directory<br>Consists of a Unicode string. |
-| ... | ... | | Author<br>Consists of a Unicode string. |
-| ... | ... | | Comment<br>Consists of a Unicode string. |
+| 2 | ... | | Application Name. Consists of a Unicode string. |
+| ... | ... | | Parameters. Consists of a Unicode string. |
+| ... | ... | | Working Directory. Consists of a Unicode string. |
+| ... | ... | | Author. Consists of a Unicode string. |
+| ... | ... | | Comment. Consists of a Unicode string. |
 | ... | ... | | User Data |
 | ... | ... | | Reserved Data |
 | ... | ... | | Triggers |
@@ -101,8 +101,8 @@ These values are stored as Unicode strings.
 
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
-| 0 | 2 | | Number of characters<br>The value will be 0 if the string is empty. |
-| 2 | ... | | String<br>UTF-16 little-endian with end-of-string character |
+| 0 | 2 | | Number of characters. The value will be 0 if the string is empty. |
+| 2 | ... | | String. UTF-16 little-endian with end-of-string character |
 
 #### User Data
 

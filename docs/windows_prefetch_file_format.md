@@ -140,7 +140,7 @@ consists of:
 | --- | --- | --- | --- |
 | 0 | 4 | DWORD | Start time in ms |
 | 4 | 4 | DWORD | Duration in ms |
-| 8 | 4 | DWORD | Filename string offset<br>The offset is relative to the start of the filename string section (section C) |
+| 8 | 4 | DWORD | Filename string offset. The offset is relative to the start of the filename string section (section C) |
 | 12 | 4 | DWORD | Filename string number of characters without end-of-string character |
 | 16 | 4 | DWORD | Unknown, flags? |
 
@@ -154,10 +154,10 @@ consists of:
 | 0 | 4 | DWORD | Start time in ms |
 | 4 | 4 | DWORD | Duration in ms |
 | 8 | 4 | DWORD | Average duration in ms? |
-| 12 | 4 | DWORD | Filename string offset<br>The offset is relative to the start of the filename string section (section C) |
+| 12 | 4 | DWORD | Filename string offset. The offset is relative to the start of the filename string section (section C) |
 | 16 | 4 | DWORD | Filename string number of characters without end-of-string character |
 | 20 | 4 | DWORD | Unknown, flags? |
-| 24 | 8 | | NTFS file reference<br>0 if not set. |
+| 24 | 8 | | NTFS file reference. 0 if not set. |
 
 ### File metrics entry record - version 26
 
@@ -171,8 +171,8 @@ entry records.
 
 | Offset | Length | Type | Notes |
 | --- | --- | --- | --- |
-| 0 | 4 | | Next array entry index<br>Contains the next trace chain array entry index in the chain, where the first entry index starts with 0, or -1 (0xffffffff) for the end-of-chain. |
-| 4 | 4 | | Total block load count<br>Number of blocks loaded (or fetched)<br>The block size 512k (512 x 1024) bytes |
+| 0 | 4 | | Next array entry index. Contains the next trace chain array entry index in the chain, where the first entry index starts with 0, or -1 (0xffffffff) for the end-of-chain. |
+| 4 | 4 | | Total block load count. Number of blocks loaded (or fetched). The block size 512k (512 x 1024) bytes |
 | 8 | 1 | | Unknown |
 | 9 | 1 | | Sample duration in ms? |
 | 10 | 2 | | Unknown |

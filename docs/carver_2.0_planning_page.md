@@ -8,13 +8,13 @@ This page is for planning Carver 2.0.
 Please, do not delete text (ideas) here. Use something like this:
 
 ```text
-<s>bad idea</s>
+~~bad idea~~
 :: good idea
 ```
 
 This will look like:
 
-<s>bad idea</s>
+~~bad idea~~
 
 good idea
 

@@ -19,8 +19,8 @@ The stream header is 4 bytes in size and contains:
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
 | 0 | 2 | "BZ" | Signature (magic number) |
-| 2 | 1 | | Version<br>'h' for Bzip2 ('H'uffman coding), '0' for Bzip1 (deprecated) |
-| 3 | 1 | | Block size<br>Value is defined in increments of 100 kB<br>'1'..'9' block-size 100 kB-900 kB (uncompressed)<br>**Note: currently assumed that kB should be kiB** |
+| 2 | 1 | | Version. 'h' for Bzip2 ('H'uffman coding), '0' for Bzip1 (deprecated) |
+| 3 | 1 | | Block size. Value is defined in increments of 100 kB. '1'..'9' block-size 100 kB-900 kB (uncompressed). **Note: currently assumed that kB should be kiB** |
 
 * followed by zero or more compressed blocks
 

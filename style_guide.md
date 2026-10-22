@@ -32,6 +32,10 @@ Conventions pymarkdown checks for:
   for them. Use plain words instead.
 * Renaming a heading changes its anchor slug. Before renaming, make sure that no other
   article links to the old slug.
+* Use the native Markdown notation for strikethrough, `~~text~~`, instead of HTML tags such
+  as `<s>` or `<del>`.
+* There is no native notation for underline in Markdown, use *italics* or **bold** to make
+  text stand out instead of HTML tags like `<u>`.
 * Files end with exactly one trailing newline.
 
 ## Article structure
