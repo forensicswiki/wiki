@@ -9,8 +9,8 @@ Wiki. It covers:
 
 ## Markdown style
 
-Forensics Wiki uses mkdocs therefore all Markdown in the docs directory must be mkdocs compatible.
-Since mkdocs does not come with linter, pymarkdown is used to lint Markdown files.
+Forensics Wiki uses MkDocs therefore all Markdown in the docs directory must be MkDocs compatible.
+Since MkDocs does not come with linter, pymarkdown is used to lint Markdown files.
 
 You can run pymarkdown locally via:
 
@@ -36,8 +36,8 @@ Conventions pymarkdown checks for:
 
 ## Article structure
 
-Wiki articles are topic pages without a top level heading (heading level 1), mkdocs will add one.
-Note that index.md is an exception to the rule. Articles start with a mkdocs YAML front matter for
+Wiki articles are topic pages without a top level heading (heading level 1), MkDocs will add one.
+Note that index.md is an exception to the rule. Articles start with a MkDocs YAML front matter for
 example:
 
 ```yaml
