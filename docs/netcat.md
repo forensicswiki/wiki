@@ -30,7 +30,7 @@ significant security risk if used improperly. Be sure not to leave
 Netcat running when not in use, and avoid using switches (such as -e)
 that allow commands received by Netcat to be run on your machine.
 
-## Usage Instructions
+## Use
 
 **NOTE:** When running Netcat on a UNIX-like operating system, the
 conventional name of the binary is *nc*. When running Netcat on a

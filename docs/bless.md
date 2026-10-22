@@ -5,14 +5,12 @@ tags:
   - Open Source Software
   - Tools
 ---
-## Description
-
 **Bless** is a free hex editor available on Linux platforms. It is fully
 functional and easy-to-use.
 
-![Alt text](assets/images/bless.png)
+![Bless hex editor](assets/images/bless.png)
 
-Bless's website says that the following are the main features:
+The following are the main features:
 
 * Efficient editing of large data files and block devices.
 * Multilevel undo - redo operations.
@@ -31,3 +29,7 @@ Bless's website says that the following are the main features:
 ## Installation Instructions
 
 Bless can be installed by using the command: *sudo apt-get install bless*
+
+## External Links
+
+* [Bless on GitHub](https://github.com/afrantzis/bless)

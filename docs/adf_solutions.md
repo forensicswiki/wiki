@@ -135,5 +135,5 @@ highlighted in many different publications:
 
 ## External Links
 
-* [ADF on CyberSpeak's Podcast](https://cyberspeak.libsyn.com/cyber-speak-november-1-2010http-adfsolutions-com-)
+* ADF Solutions on the [Cyberspeak podcast](cyberspeak_podcast.md)
 * [Official website](https://www.adfsolutions.com/)

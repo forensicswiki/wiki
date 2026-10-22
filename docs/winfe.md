@@ -9,7 +9,7 @@ tags:
 Windows Forensic Environment is a forensically sound bootable CD/USB
 to acquire electronic media or conduct forensic analysis.
 
-## Windows Forensic Environment ("WinFE")
+## Windows Forensic Environment (WinFE)
 
 WinFE was developed and researched in 2008 by Troy Larson, Sr Forensic Examiner
 and Research at Microsoft. WinFE is based off the Windows Pre-installation
@@ -22,7 +22,7 @@ evidence computer have the ability to boot to USB.
 
 WinFE can be customized to the examiner's needs through batch files
 using the Windows Automated Install Kit (WAIK) or through 3rd party
-utilities such as WinBuilder [2](http://reboot.pro).
+utilities such as [WinBuilder](https://wb.paraglidernc.com/).
 
 Some examples of Windows based forensic utilities that can run in the
 Windows Forensic Environment include:
@@ -34,8 +34,8 @@ Windows Forensic Environment include:
 * [X-Ways Forensics](https://www.x-ways.net/)
 
 A write protection tool developed by Colin Ramsden was released in 2012 that
-provides a GUI for disk toggling Colin Ramsden's write protect tool effectively
-replaces the command line to toggle disks on/offline or readonly/readwrite.
+provides a GUI for disk toggling. It effectively replaces the command line
+to toggle disks on/offline or readonly/readwrite.
 
 ## Technical Background and Forensic Soundness
 
@@ -61,8 +61,8 @@ filesystem there is a potential modification to the disk with a
 documented 4-byte change to non-user created data. This modification
 exists for non-Windows OS disks, where Windows (FE) will write a Windows
 drive signature to the disk, although it is not shown to be consistent.
-Various issues with Linux Boot CDs can be compared
-[1](forensic_live_cd_issues.md) ).
+Various issues with Linux Boot CDs are discussed in the
+[forensic live CD issues](forensic_live_cd_issues.md) article.
 
 ## External Links
 

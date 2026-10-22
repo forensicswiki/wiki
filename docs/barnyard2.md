@@ -3,8 +3,6 @@ tags:
   - Tools
   - Opensource
 ---
-## About
-
 Barnyard2 is an open source interpreter for Snort unified2 binary output
 files. Its primary use is allowing Snort to write to disk in an
 efficient manner and leaving the task of parsing binary data into
@@ -69,7 +67,11 @@ Parsing of the new unified2 log files.
 * Completely rewritten code based on the GPLv2 Snort making it entirely
   GPLv2.
 
-## Sources
+## See Also
+
+* [Snort](snort.md)
+
+## External Links
 
 * [Github About page](https://github.com/firnsy/barnyard2/)
-* [securixlive.com](https://firnsy.com/)
+* [firnsy.com](https://firnsy.com/)

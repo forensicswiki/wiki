@@ -20,3 +20,11 @@ fresh copy to assemble evidence.
 * Checkpoint(sec) does supply boot drivers that allow you to mount a
 pass-through volume inside a BartPE environment. Very useful. Drivers
 are available from Checkpoint.
+
+## See Also
+
+* [BitLocker disk encryption](bitlocker_disk_encryption.md)
+
+## External Links
+
+* [Checkpoint](https://www.checkpoint.com/)

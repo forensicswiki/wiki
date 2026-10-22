@@ -3,7 +3,9 @@ tags:
   - Discontinued
   - Disk Analysis
   - Linux
+  - Log Analysis
   - MacOS
+  - Open Source Software
   - Tools
   - Windows
 ---
@@ -12,12 +14,13 @@ PyFlag is a web-based, database-backed *forensic and log analysis GUI* and
 [Python](python.md). PyFlag stores disk images in numerous file formats,
 including raw, [sgzip](sgzip.md), [AFF](aff.md), and [EnCase](encase.md) format.
 
+PyFlag is no longer maintained.
+
 ## Features
 
 ### Supported File Systems
 
-PyFlag uses the [The Sleuth Kit](the_sleuth_kit.md) for file system
-support.
+PyFlag uses [The Sleuth Kit](the_sleuth_kit.md) for file system support.
 
 ### File Search Facilities
 
@@ -42,12 +45,16 @@ Can it build timelines and search by creation date?
 * Hashes and compares with [Hashkeeper](hashkeeper.md) using
   [MD5](md5.md).
 
-### Evidence Collection Features
-
 ## History
 
-* Originally started by the Australian Department of Defence and was open
-  sourced
+* Originally started by the Australian Department of Defence, it was
+  later open sourced
+
+## See Also
+
+* [The Sleuth Kit](the_sleuth_kit.md)
+* [Computer forensics framework](computer_forensics_framework.md)
+* [Hashkeeper](hashkeeper.md)
 
 ## External Links
 

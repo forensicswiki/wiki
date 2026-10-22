@@ -6,6 +6,10 @@ tags:
   - System Analysis
   - Tools
 ---
+
+**Helix3** is a family of forensic [Live CD](live_cd.md) distributions
+built on top of [Ubuntu](ubuntu.md), released by e-fense.
+
 ## Helix3
 
 Helix3 is a [Live CD](live_cd.md) built on top of [Ubuntu](ubuntu.md). It
@@ -88,3 +92,8 @@ Other tools include:
 * Helix3 Pro relies on file system drivers to provide write protection,
   mounting some file system types (e.g. [XFS](xfs.md) will
   result in several data writes to the original media.
+
+## See Also
+
+* [Live CD](live_cd.md)
+* [Incident response](incident_response.md)

@@ -19,7 +19,7 @@ system analysis. It can analyze [Windows](windows.md),
 cell phone dumps and collections of individual files. There are many
 third-party plug-in modules.
 
-## See also
+## See Also
 
 * [Autopsy Forensic Browser, version 2](autopsy_forensic_browser,_version_2.md)
 * [Search Autopsy Addon Modules](https://sleuthkit.github.io/autopsy_addon_modules/)

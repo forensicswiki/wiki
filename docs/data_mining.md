@@ -6,12 +6,12 @@ tags:
 Right now this is just a list of resources that will be useful for
 people doing forensic data mining and machine learning.
 
-## Open Source Software
+## External Links
 
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/) data mining toolkit -
   java, has programmatic and GUI interface.
 * Ping He has created an [Open Source C4.5 implementation in C](https://code.google.com/archive/p/fc45)
-* [Apache Mahout](https://mahout.apache.org//): goal is to "build
+* [Apache Mahout](https://mahout.apache.org/): goal is to "build
   scalable, Apache licensed machine learning libraries" (java). also
   includes a focus on using [hadoop](https://hadoop.apache.org/).
 * The [Journal of Machine Learning](https://jmlr.csail.mit.edu/)

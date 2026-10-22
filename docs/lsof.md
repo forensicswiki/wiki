@@ -10,8 +10,6 @@ tags:
   - OpenBSD
   - FreeBSD
 ---
-## Overview
-
 lsof is a UNIX specific tool that LiSts Open Files. Everything in
 Unix is a file: sockets, directories, processes, devices, pipes, etc.
 Because of this lsof is able to display information about current
@@ -29,7 +27,7 @@ The lsof command is preinstalled on most UNIX and Linux distributions.
 Other compressed versions of lsof can be found at
 <https://people.freebsd.org/~abe/>.
 
-## Usage Instructions
+## Use
 
 To run lsof open a terminal and type:
 
@@ -129,7 +127,7 @@ To view all the files opened by a process
 lsof -p pid
 ```
 
-## Also see
+## See Also
 
 * [netstat](netstat.md)
 

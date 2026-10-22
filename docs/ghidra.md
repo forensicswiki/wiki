@@ -31,6 +31,10 @@ and extensions. If you would like to contribute, please take a look at
 our contributor guide to see how you can participate in this open source
 project.
 
-## Source Code
+## See Also
+
+* [Malware analysis](malware_analysis.md)
+
+## External Links
 
 * [Project site](https://github.com/NationalSecurityAgency/ghidra)

@@ -6,7 +6,6 @@ tags:
   - Howtos
   - Tools
 ---
-# TWRP (Team Win Recovery Project)
 
 TWRP (Team Win Recovery Project) is a recovery bootloader for Android
 cell phones. It is useful in the following situations:
@@ -79,7 +78,7 @@ you need to download it.
 
 All of the below commands are done from your computer:
 
-* Download and install the [Android SDK tools](http://developer.android.com/sdk/index.html#Other).
+* Download and install the [Android SDK tools](https://developer.android.com/studio).
 * Start the Android SDK Manager and install the 'Android SDK Platform-tools'.
 * Open up a command prompt window in 'C:\Program Files (x86)\Android\android-sdk\platform-tools'.
 * Confirm your device is visible to the computer:

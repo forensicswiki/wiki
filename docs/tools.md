@@ -2,7 +2,9 @@
 tags:
   - Tools
 ---
-This page has gotten too big and is being broken up. Also see:
+This page has gotten too big and is being broken up.
+
+## See Also
 
 * [Disk Imaging](disk_imaging.md)
 * [Data Recovery](tools_data_recovery.md)
@@ -238,8 +240,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 
 [Kali Linux](kali_linux.md), [Official website](https://www.kali.org/)
 
-[KNOPPIX](knoppix.md)
-[<http://www.knopper.net/knoppix/index-en.html>](http://www.knopper.net/knoppix/index-en.html)
+[KNOPPIX](knoppix.md), [Official website](https://www.knoppix.net/)
 
 [BackTrack Linux](backtrack.md)
 
@@ -296,7 +297,7 @@ The tool to analyze serial port and device activity.
 
 [Live View](https://liveview.sourceforge.net/)
 
-Live View is a graphical forensics tool that creates a
+Live View is a graphical forensic tool that creates a
 [VMware](vmware.md) [virtual
 machine](virtual_machine.md) out of a dd disk image or physical
 disk.

@@ -49,4 +49,4 @@ Following tools can automate this process:
 
 ## External Links
 
-* [RFC 1323](http://rfc.net/rfc1323.html)
+* [RFC 1323](https://datatracker.ietf.org/doc/html/rfc1323)

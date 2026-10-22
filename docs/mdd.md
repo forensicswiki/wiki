@@ -6,15 +6,22 @@ tags:
   - Tools
   - Windows
 ---
-mdd, also known as [ManTech dd](mantech.md) or Memory dd, is a command line
+mdd, also known as [ManTech dd](mantech.md) or Memory dd, was a command line
 program to acquire an image of the memory of a running [Windows](windows.md)
-computer. The program has been included in the [Helix](helix3.md) incident
-response tool.
+computer. The program was included in the [Helix](helix3.md) incident
+response tool. The tool is no longer maintained.
+
+## Caution
+
+mdd runs on the running Windows system: it installs a driver and a service
+while imaging, so it modifies the machine being examined. It only supports
+Windows, and the last release targets Windows XP and Vista.
 
 ## Status
 
-The current version of mdd (mdd_1.3.exe) runs on Window XP to SP3 and Vista to
-SP 2, and may run on other versions.
+The last release of mdd (mdd_1.3.exe) runs on Windows XP (up to Service
+Pack 3) and Windows Vista (up to Service Pack 2), and may run on other
+versions.
 
 The driver uses the
 [Physical Memory Object Memory Imaging Method](memory_imaging.md) and returns a
@@ -39,8 +46,8 @@ utility does.
 Make sure the Windows Development Kit (WDK) is installed, you need that for the
 signing.
 
-Get the right cross certificate file, see
-[Cross-Certificates for Kernel Mode Code Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
+Get the right cross-certificate file for kernel-mode code signing, see
+the External Links section.
 
 Convert the key you have to pfx, if its cert + key you want:
 
@@ -60,9 +67,9 @@ Sign the driver by running:
 signTool sign /v /ac <crosscertificatefile> /f <pathtopfx> /p <pfx password> /t http://timestamp.verisign.com/scripts/timestamp.dll <driver.sys>
 ```
 
-Also see: [SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
+Also see the SignTool documentation in the External Links section.
 
-## Usage
+## Use
 
 To execute mdd, you must start cmd.exe. The options are:
 
@@ -105,7 +112,7 @@ this, using the command line (cmd.exe).
 * Run "sc query mdd" and - ta-da - you'll see the mdd service
 * Run "sc delete mdd" and it's gone, and mdd can now be run again.
 
-### Can't Use Network Share in Vista
+### Trouble using a network share in Vista
 
 In Vista, even if you are in the administrator group, you do not
 necessarily run programs with administrator access (this is actually a
@@ -113,3 +120,16 @@ major improvement to the security model of Windows). You can start
 programs, including cmd.exe, with admin privileges, but in this case,
 that won't help. You will not be able to image to a Network Share from
 Vista. There is no known workaround. This problem may exist in Windows 7.
+
+## See Also
+
+* [Memory imaging](memory_imaging.md)
+* [Memory analysis](memory_analysis.md)
+* [ManTech](mantech.md)
+* [Helix 3](helix3.md)
+
+## External Links
+
+* [mdd project on SourceForge](https://sourceforge.net/projects/mdd)
+* [Cross-Certificates for Kernel Mode Code Signing](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing)
+* [SignTool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)

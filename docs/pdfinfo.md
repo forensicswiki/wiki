@@ -35,3 +35,11 @@ PDF version:    1.3
 ```
 
 The `-meta` command line option shows some more metadata in [XML](xml.md).
+
+## See Also
+
+* [xpdf](xpdf.md)
+
+## External Links
+
+* [Poppler](https://poppler.freedesktop.org/)

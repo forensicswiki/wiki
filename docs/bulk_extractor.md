@@ -7,13 +7,11 @@ tags:
   - Linux
   - MacOS
 ---
-## Overview
-
-**bulk_extractor** is a computer forensics tool that scans a disk image,
+**bulk_extractor** is a computer forensic tool that scans a disk image,
 a file, or a directory of files and extracts useful information without
 parsing the file system or file system structures. The results can be
 easily inspected, parsed, or processed with automated tools.
-**bulk_extractor** also creates a histograms of features that it finds,
+**bulk_extractor** also creates histograms of features that it finds,
 as features that are more common tend to be more important. The program
 can be used for law enforcement, defense, intelligence, and
 cyber-investigation applications.
@@ -143,7 +141,13 @@ The current version of **bulk_extractor** is 1.5.5.
 
 Version 2.0 is under development.
 
-## Bibliography
+## See Also
+
+* [bulk_extractor viewer](bulk_extractor_viewer.md)
+
+## External Links
+
+* [bulk_extractor on GitHub](https://github.com/simsong/bulk_extractor)
 
 ### Academic Publications
 

@@ -6,11 +6,10 @@ tags:
   - Live CD
   - Disk Analysis
 ---
-## About
 
 Kali Linux is an open source project that is maintained and funded by Offensive
 Security, a provider of world-class information security training and
-penetration testing services. In addition to [Kali Linux](kali_linux.md),
+penetration testing services. In addition to Kali Linux,
 Offensive Security also maintains the Exploit Database and the free online
 course, Metasploit Unleashed.
 
@@ -68,3 +67,11 @@ place, all tools were reviewed and packaged, and we use Git for our VCS.
 * Kali is specifically tailored to penetration testing and therefore,
   all documentation on this site assumes prior knowledge of the Linux
   operating system.
+
+## See Also
+
+* [BackTrack](backtrack.md)
+
+## External Links
+
+* [Kali Linux](https://www.kali.org/)

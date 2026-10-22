@@ -28,10 +28,10 @@ Network Forensics.
 
 * [OmniPeek](omnipeek.md) by WildPackets
 
-OmniPeek is a network forensics tool used to capture, store, and analyze
+OmniPeek is a network forensic tool used to capture, store, and analyze
 historical network traffic.
 
-* [PacketMotion](https://www.vmware.com/company/acquisitions.html)
+* PacketMotion
 
 Full Packet Capture and Deep Packet Inspection appliance (acquired by
 VMware).
@@ -65,9 +65,9 @@ Takes tcpdump/snoop capture files and fetches the application data
 (tcp sessions, HTTP transfers, FTP files, SMTP emails), producing an
 HTML index that links to each reconstructed session.
 
-* [E-Detective](https://www.edecision4u.com/)
+* E-Detective
 
-Web and email forensics tool for reconstructing web pages and email
+Web and email forensic tool for reconstructing web pages and email
 content.
 
 * [Expert Team - 3i System](http://expert-team.net/home/)
@@ -270,7 +270,7 @@ for searching and drilling into all of your logs.
 
 * [Bulk Extractor](bulk_extractor.md)
 
-Computer forensics tool that scans disk images (and other data sources)
+Computer forensic tool that scans disk images (and other data sources)
 recovering artifacts - strings, files, emails and more - in a single
 pass.
 
@@ -279,7 +279,7 @@ pass.
 Network stream utility with encryption support (Twofish, base64,
 SSL/TLS), similar to [netcat](netcat.md).
 
-* Mera Systems [NetBeholder](https://videonadzor.net/)
+* Mera Systems NetBeholder
 
 * [netcat](netcat.md)
 
@@ -297,3 +297,12 @@ Applies grep-style pattern matching to live or captured network traffic
 (TCP and UDP).
 
 * [nmap](nmap.md) - utility for network exploration and security auditing
+
+## See Also
+
+* [Network forensics](network_forensics.md)
+* [Forensic tooling](forensic_tooling.md)
+
+## External Links
+
+* [Wikipedia: Network forensics](https://en.wikipedia.org/wiki/Network_forensics)

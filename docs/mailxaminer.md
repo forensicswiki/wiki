@@ -9,13 +9,13 @@ MailXaminer is an email forensic analysis suite developed by
 [SysTools](systools.md). The application examines email data
 files of Non-MAPI / MAPI desktop mail applications & Cloud mail
 services. MailXaminer allows cyber investigators to analyze digital
-evidences from emails, attachments, contacts, calendar entries, etc.;
+evidence from emails, attachments, contacts, calendar entries, etc.;
 stored within the data repository of different email services.
 
 ## Summary
 
 MailXaminer was originally developed by CoreDataTree and was officially
-released on the 1st of December, 2013. Later, the application and its
+released on December 1, 2013. Later, the application and its
 licensing were handed over to SysTools Pvt. Ltd. Since then, the
 software underwent a number of version upgrades and the most recent
 update took place in the year 2014, Version 4.6. The software was made
@@ -24,11 +24,11 @@ analysis and evidence extraction.
 
 ## Version History
 
-### Version 1.0 (31/01/2013)
+### Version 1.0 (January 31, 2013)
 
 Released.
 
-### Version 1.1 (13/03/2013)
+### Version 1.1 (March 13, 2013)
 
 **Scanning process optimized for:**
 
@@ -36,17 +36,17 @@ Released.
 * OLM (Outlook for Mac file)
 * OST (Exchange Offline Store) files
 
-### Version 1.2 (22/04/2013)
+### Version 1.2 (April 22, 2013)
 
 Support for "Contacts" added.
 
-### Version 3.0 (7/3/2013)
+### Version 3.0 (July 3, 2013)
 
 * View or modify case information from UI
 * Send for Review by Shared Location
 * Improved PST performance
 
-### Version 4.0 (31/12/2013)
+### Version 4.0 (December 31, 2013)
 
 * Dashboard for Quick view of completed files in graphical format.
 * Provided support for "Cloud" & IMAP.
@@ -77,7 +77,7 @@ Support for "Contacts" added.
 * Ability to search "Keywords" while "Scanning" & also "On Demand".
 * Allows user to change the "Storage Location".
 
-### Version 4.5 (7/6/2014)
+### Version 4.5 (June 7, 2014)
 
 * Added support for EML Reader.
 * Added support for MSG Reader.
@@ -100,7 +100,7 @@ Support for "Contacts" added.
 * Display hierarchical view of the selected mail in " Hierarchical View" tab.
 * Provided option to maintain folder hierarchy while export or not.
 
-### Version 4.6 (27/7/2014)
+### Version 4.6 (July 27, 2014)
 
 * Added ability to "Export case".
 * The option to "import case" supported.
@@ -108,7 +108,7 @@ Support for "Contacts" added.
 * Addition of keyboard Hotkey support.
 * Recursive listing view of emails supported.
 
-### Version 4.7 (16/11/2014)
+### Version 4.7 (November 16, 2014)
 
 * Supports Office365 Single and multiple account using Admin credentials.
 * Supports GApps Admin multiple accounts of similar domain.
@@ -118,7 +118,7 @@ Support for "Contacts" added.
 * Dongle based software licensing support.
 * Changes to UI interface for reader categorization.
 
-### Version 4.8 (19/09/2015)
+### Version 4.8 (September 19, 2015)
 
 * Provided support for Geo Location & IP Reporting.
 * Performs Forensic Video Analysis on videos while scanning data.
@@ -128,7 +128,7 @@ Support for "Contacts" added.
 * Support for customizing the scanning speed of evidence files on the basis of concurrency level.
 * Added thumbnail and gallery view for attachments.
 
-### Version 4.8.2 (05/09/2016)
+### Version 4.8.2 (September 5, 2016)
 
 * Section 508 compliance for keyboard support.
 * Added support provided for 64-bit application.
@@ -144,7 +144,7 @@ Support for "Contacts" added.
 * Timeline analysis of searches; chats, mails, & more
 * Link Analysis provisioned for examined Search Result
 
-### Version 4.8.3 (11/11/2016)
+### Version 4.8.3 (November 11, 2016)
 
 * EnCase LEF file variants - .Lx01 and .L01 supported for analysis in search of evidence.
 * OLM file supported for analysis of messages from an Outlook 2011 for Mac identity.
@@ -273,7 +273,7 @@ Impersonation can be implemented to use:
 Adding the details will begin downloading emails from Live Exchange
 Server mailboxes (selected) on the basis of impersonation.
 
-### Email & Attachment Analysis
+### Email and Attachment Analysis
 
 Viewing email stored within scanned email files loaded in the software
 is distinguished under several views. There is a separate view tab
@@ -558,3 +558,11 @@ obstruction.
 
 Technical support and graphical demonstration are provided via phone,
 email, and chat mediums to offer operational and technical assistance.
+
+## See Also
+
+* [SysTools](systools.md)
+
+## External Links
+
+* [MailXaminer](https://www.mailxaminer.com/)

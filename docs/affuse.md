@@ -34,4 +34,4 @@ total 316
 ## External Links
 
 * [FUSE](https://github.com/libfuse/libfuse)
-* [Ubuntu manpage](https://manpages.ubuntu.com/manpages/bionic/man1/affuse.1.html)
+* [AFFLIBv3 on GitHub](https://github.com/sshock/AFFLIBv3)

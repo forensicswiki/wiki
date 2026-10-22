@@ -10,7 +10,7 @@ tags:
 package distributed by [Digital Assembly](digital_assembly.md).
 It specializes in the recovery and analysis of digital photographs.
 
-# Features
+## Features
 
 Adroit Photo Forensics can parse a number of filesystems, including
 [FAT](fat.md) 12/16/32, [NTFS](new_technology_file_system_(ntfs).md), (Classic) HFS, and
@@ -21,14 +21,20 @@ It is best known for implementing the [SmartCarving](file_carving_smartcarving.m
 and [GuidedCarving](file_carving_guidedcarving.md) algorithms to recover
 fragmented photos.
 
-## Exif
+### Exif
 
 Adroit Photo Forensics also parses exif data and can be used to view and
 group files based on exif date stamps instead of file system date
 stamps. APF also includes a full zoomable time-line viewer based on exif
 and file system date stamps.
 
-## Other Features
+### Other Features
 
 Adroit Photo Forensics interface is optimized for the display of photos.
 APF also include grouping and sorting options that are photo relevant.
+
+## See Also
+
+* [Digital Assembly](digital_assembly.md)
+* [SmartCarving](file_carving_smartcarving.md)
+* [GuidedCarving](file_carving_guidedcarving.md)

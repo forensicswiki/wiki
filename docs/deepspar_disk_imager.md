@@ -48,14 +48,11 @@ destination drive. The image drive can then be used by any data
 retrieval or forensics software for file recovery or forensics
 investigation.
 
+## See Also
+
+* [Disk imaging](disk_imaging.md)
+* [Matriux](matriux.md)
+
 ## External Links
 
-* [Official website](http://www.driveimager.com/)
-* [Product data sheet](https://www.deepspar.com/pdf/DeepSparDiskImager.pdf)
-* [Review of the DeepSpar Disk Imager](https://www.deepspar.com/mjm-ds-disk-imager.html)
-  by Mike Montgomery of MJM Data Recovery in the UK.
-* *[Disk Imaging: A Vital Step in Data
-  Recovery](https://www.deepspar.com/pdf/DeepSparDiskImagingWhitepaper3.pdf)*,
-  a whitepaper on the product
-* [Interview on the imager](https://cyberspeak.libsyn.com/index.php?post_id=193897)
-  on the [Cyberspeak podcast](cyberspeak_podcast.md)
+* [Official website](https://www.deepspar.com/)

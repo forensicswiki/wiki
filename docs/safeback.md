@@ -2,8 +2,12 @@
 tags:
   - Commercial Software
   - Discontinued
+  - Disk Analysis
+  - Log Analysis
+  - Tools
+  - Windows
 ---
-Safeback is a forensic tool suite distributed by Armor Forensics.
+Safeback is a discontinued forensic tool suite distributed by Armor Forensics.
 
 ## File Search Facilities
 
@@ -19,10 +23,9 @@ Can it build timelines and search by creation date?
 
 * Can use basic keyword searching.
 * Offers full-text indexing.
-* If you're interested in the Internet history, one tool, GetHTML, assembles
-  HTML from data. Also NTAStealth is a program that peruses this history.
-
-## Hash Databases
+* If you are interested in a system's Internet history, one tool, GetHTML,
+  assembles HTML from data. Also, NTAStealth is a program that parses this
+  history.
 
 ## Evidence Collection Features
 
@@ -31,8 +34,14 @@ Can it build timelines and search by creation date?
 
 ## License Notes
 
+Per Armor Forensics website:
+
 > This suite of computer forensic software tools is made available,
 > free of charge, to law enforcement computer specialists.
 
 Other parts of the website hint at large discounts or site licenses. No prices
 are quoted publicly.
+
+## See Also
+
+* [Tools](tools.md)

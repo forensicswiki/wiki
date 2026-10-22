@@ -2,12 +2,14 @@
 tags:
   - Vendor
   - Commercial Software
+  - Mobile
   - Windows Mobile
   - Discontinued
 ---
-Oxygen Software, was founded in 2000, is the maker of the advanced forensic data analysis tools for
-smartphones and other mobile devices, covering a wide range of mobile devices running Android, iOS,
-Blackberry, Windows Phone, Symbian and other operating systems.
+Oxygen Software was founded in 2000 and is the maker of advanced forensic
+data analysis tools for smartphones and other mobile devices, covering a
+wide range of mobile devices running Android, iOS, Blackberry, Windows
+Phone, Symbian and other operating systems.
 
 Oxygen Forensics, Inc., founded in 2013, has been heavily disrupted after the U.S. Department of
 Justice (DOJ) exposed that the prominent digital forensics firm hid its secret Russian ownership
@@ -16,18 +18,21 @@ operations following a major investigation.
 
 ## Customers
 
-Oxygen Software customers include various US and
-European federal and state agencies such as the IRS, US Army, US Department of
-Defense (DOD), US Department of Justice, US Department of Homeland Security, US
-Department of Transportation, US Postal Service, US Supreme Court, European
+Oxygen Software customers include various U.S. and
+European federal and state agencies such as the IRS, U.S. Army, U.S. Department of
+Defense (DOD), U.S. Department of Justice, U.S. Department of Homeland Security, U.S.
+Department of Transportation, U.S. Postal Service, U.S. Supreme Court, European
 Commission, London Metropolitan Police, French National Police and Gendarmerie,
 PricewaterhouseCoopers, Ernst & Young, and many others.
 
 ## Products
 
+* [Oxygen Forensic Suite](#oxygen-forensic-suite)
+* [Oxygen Phone Manager II](#oxygen-phone-manager-ii)
+
 ### Oxygen Forensic Suite
 
-**Oxygen Forensic Suite** is a mobile forensic software for logical analysis of
+Oxygen Forensic Suite is a mobile forensic software for logical analysis of
 [cell phones](cell_phones.md), [smartphones](smartphones.md) and
 [PDAs](pdas.md) developed by Oxygen Software.
 
@@ -46,7 +51,7 @@ devices](android.md).
 
 #### Forensic Soundness
 
-The suite access devices using advanced proprietary protocols. Some devices
+The suite accesses devices using advanced proprietary protocols. Some devices
 like smartphones require an Agent installation. Of course, installing software
 onto the device being examined will impact the forensic soundness of the
 investigation. If such information is not obtainable by other means and the
@@ -59,7 +64,7 @@ Suite 2" and "Oxygen Forensic Suite 2014".
 
 #### Version history
 
-Version 6.5 - Date Released: 19 September 2014
+Version 6.5, released September 19, 2014
 
 Changes:
 
@@ -100,8 +105,8 @@ drive in which they are present (local, flash card or ROM).
 
 Separate windows show contacts, calendar items and to-dos. The fields
 accessible from menus and submenus in Symbian media appear in one grid
-and are easy to revise. It has an Outlook-style interface provides access
-to Unicode SMS, MMS, e-mail and other messages. It offers many options
+and are easy to revise. It has an Outlook-style interface that provides
+access to Unicode SMS, MMS, e-mail and other messages. It offers many options
 that you have in an email service such as file attachment support, a reply
 with the original message included, a one-click attachment playback, and
 others.

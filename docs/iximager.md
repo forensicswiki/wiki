@@ -19,6 +19,6 @@ individuals.
 
 * [IXimager file formats](iximager_file_formats.md)
 
-# External Links
+## External Links
 
 * [Test Results for Digital Data Acquisition Tool: IXimager (Version 2.0, Feb-01 2006)](https://www.ojp.gov/pdffiles1/nij/217678.pdf)

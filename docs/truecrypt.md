@@ -10,7 +10,7 @@ tags:
   - Windows
 ---
 As of May 28, 2014 development of TrueCrypt has been discontinued.
-the two major alternatives are VeraCrypt and CipherShed.
+The two major alternatives are VeraCrypt and CipherShed.
 
 TrueCrypt is an open source program to create and mount virtual
 encrypted disks in [Windows Vista/XP/2000](windows.md) and
@@ -26,8 +26,8 @@ encryption and supports [AES](aes.md),
 
 TrueCrypt volumes can be detected by
 
-* size of file or collection of clusters object modulo 512 is zero, that
-  is size divided by zero has no remainder,
+* the size of the file or cluster collection is an exact multiple of 512,
+  that is, dividing the size by 512 leaves no remainder,
 * minimum size of object is 19KB, although by default is minimum 5MB,
 * contains no specific file signature throughout the entire object, and
 * has a high Shannon entropy or passes Chi-squared distribution test.
@@ -50,11 +50,11 @@ Attack ([dna](dna.md)) can both perform such an attack, but DNA
 is faster.
 
 TrueCrypt also supports keyfiles (it uses the first 1024 kilobytes of
-any file, but can also use it's PRNG to generate such keys). It is
+any file, but can also use its PRNG to generate such keys). It is
 important to look for anything that might be used as a keyfile (such as
 a 1024k file on a USB stick).
 
-## Hidden volumes
+## Hidden Volumes
 
 Hidden volume is a volume hidden within the free space of another
 TrueCrypt volume. Even when the outer volume is mounted, it is hard to
@@ -78,7 +78,7 @@ It is possible to detect network-enabled hidden operating systems by
 matching downloaded content (from a network dump) with data on a
 possible decoy system.
 
-Investigator can also detect boot times by searching network dumps for
+An investigator can also detect boot times by searching network dumps for
 IP packets with low IDs (only if [Windows](windows.md) system is
 permanently connected to a LAN) and [TCP timestamps](tcp_timestamps.md).
 
@@ -90,5 +90,3 @@ Windows only.
 ## External Links
 
 * [Official website](https://truecrypt.sourceforge.net/)
-* Identifying TrueCrypt Volumes For Fun (and Profit?), by Brian Moran,
-  January 20, 2014

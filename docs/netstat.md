@@ -23,7 +23,7 @@ the few commands that uses, for the most part, the same syntax on
 UNIX-like and Windows operating systems. Netstat also comes installed by
 default on nearly all systems.
 
-## Usage
+## Use
 
 To run Netstat, open the terminal/command shell and run the following
 command for Windows:
@@ -46,12 +46,9 @@ netstat to display all active connections and the TCP and UDP ports on
 which the computer is listening. The -n parameter tells netstat to show
 all the TCP connections but to not resolve the host-name, this will
 greatly increase the speed of the command. The -p parameter shows which
-processes are using which sockets. (see
-[Mastering the Netstat Command: A Comprehensive Guide](https://www.lifewire.com/netstat-command-2618098)
-for detailed explanations of Netstat switches on Windows systems, and
-[10+ netstat command switches with example -
-Unix/Linux](https://www.crybit.com/netstat-command-switches/) for detailed
-explanations of Netstat switches on UNIX systems).
+processes are using which sockets. For detailed explanations of
+Netstat switches on Windows and UNIX systems, see the external
+links at the end of this article.
 
 Below is an example of an excerpt from the Netstat output (taken from a
 forensic analysis on a Windows machine for a class):
@@ -92,3 +89,14 @@ Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
 172.16.10.0     0.0.0.0         255.255.255.0   U         0 0          0 ens33
 ```
+
+## See Also
+
+* [Netcat](netcat.md)
+* [Tcpdump](tcpdump.md)
+* [Wireshark](wireshark.md)
+
+## External Links
+
+* [Mastering the Netstat Command: A Comprehensive Guide](https://www.lifewire.com/netstat-command-2618098)
+* [10+ netstat command switches with example - Unix/Linux](https://www.crybit.com/netstat-command-switches/)

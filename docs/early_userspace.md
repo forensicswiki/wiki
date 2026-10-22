@@ -3,7 +3,7 @@ tags:
   - Linux
   - Tools
 ---
-According to the [Linux documentation](https://www.kernel.org/doc/Documentation/early-userspace/README),
+According to the Linux kernel documentation,
 "early userspace" is a set of libraries and programs that provide
 various pieces of functionality that are important enough to be
 available while a Linux kernel is coming up, but that don't need to be
@@ -31,3 +31,12 @@ userspace may not support everything listed above).
 
 After booting, contents of a root file system are visible as the
 contents of "/" directory.
+
+## See Also
+
+* [Live CD](live_cd.md)
+* [Raw image format](raw_image_format.md)
+
+## External Links
+
+* [Early userspace documentation](https://www.kernel.org/doc/Documentation/early-userspace/README)

@@ -13,7 +13,7 @@ encountered, regardless of the extension. This is handy when looking for
 all of the executables on a drive. Other options allow the user to
 record the strings found in an executable and to work recursively.
 
-## Usage
+## Use
 
 The program can be used to search for mislabeled executables:
 

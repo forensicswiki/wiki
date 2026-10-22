@@ -28,7 +28,7 @@ is:
 ssdeep,1.1--blocksize:hash:hash,filename
 ```
 
-## Usage Scenarios
+## Use
 
 ### Truncated Files
 

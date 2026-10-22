@@ -13,7 +13,7 @@ used by tools such as log2timeline for automatic creation of a super
 timelines. The goal of log2timeline (and thus Plaso) is to provide a
 single tool that can parse various log files and forensic artifacts from
 computers and related systems, such as network equipment to produce a
-single correlated timeline. This timeline can then be easily analysed by
+single correlated timeline. This timeline can then be easily analyzed by
 forensic investigators/analysts, speeding up investigations by
 correlating the vast amount of information found on an average computer
 system. Plaso is intended to be applied for creating super timelines but

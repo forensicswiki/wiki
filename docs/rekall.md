@@ -1,14 +1,22 @@
 ---
 tags:
   - Discontinued
+  - Linux
+  - MacOS
   - Memory Analysis
   - Memory Imaging
+  - Open Source Software
+  - Tools
+  - Windows
 ---
 Rekall is the stand-alone continuation of the [Volatility](volatility_framework.md)
-version, aka the scudette branch.
+version, aka the scudette branch. Rekall is discontinued and the project
+repository is archived in read-only mode. The winpmem driver continues as a
+separate project.
 
-One of Rekalls goals was to provide better integration with [GRR](grr.md) by
-improved modularity of the framework and having memory acquisition capability.
+One of Rekall's goals was to provide better integration with [GRR](grr.md)
+through improved modularity of the framework and a memory acquisition
+capability.
 
 ## Memory acquisition drivers
 
@@ -47,6 +55,7 @@ To load the driver:
 
 ```text
 sudo insmod pmem.ko
+```
 
 To check if the driver is running:
 
@@ -54,7 +63,7 @@ To check if the driver is running:
 sudo lsmod
 ```
 
-The driver create a device file named:
+The driver creates a device file named:
 
 ```text
 /dev/pmem
@@ -66,7 +75,7 @@ To unload the driver:
 sudo rmmod pmem
 ```
 
-To read acquire the memory just read from the device file. e.g.
+To acquire the memory, read from the device file. E.g.
 
 ```text
 dd if=/dev/pmem of=image.raw
@@ -91,7 +100,7 @@ rekall/tools/osx/OSXPMem/README
 Since recent versions of Windows require a signed driver rekall comes
 with both pre-built (signed binary) and source versions of the driver.
 
-Both the i386 and amd64 binary version of the driver can be found in the
+Both the i386 and amd64 binary versions of the driver can be found in the
 directory:
 
 ```text
@@ -117,7 +126,7 @@ To load the driver:
 winpmem.exe -l
 ```
 
-The device filename is (This can not be changed without recompiling):
+The device filename is (this cannot be changed without recompiling):
 
 ```text
 \\.\pmem
@@ -154,3 +163,4 @@ rekall/tools/windows/README
 ## External Links
 
 * [Project site](https://github.com/google/rekall)
+* [WinPmem, the continued winpmem acquisition driver](https://github.com/Velocidex/WinPmem)

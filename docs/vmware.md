@@ -9,3 +9,11 @@ using virtual machines.
 Some malicious programs now use anti-forensic techniques to determine if they
 are running inside of a VMware virtual machine and will refuse to run or
 behave differently as a result.
+
+## See Also
+
+* [Virtual machine](virtual_machine.md)
+
+## External Links
+
+* [VMware](https://www.vmware.com/)

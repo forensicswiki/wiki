@@ -30,9 +30,9 @@ The tool has both a modular based approach to the input file as well as
 the output file. The default behavior of the current version is to
 export the timeline in a body format readable by TSK's (The Sleuth Kit)
 [mactime](https://wiki.sleuthkit.org/Body-file/) (although
-this can be easily changed). Log2timeline is build as a series of
+this can be easily changed). Log2timeline is built as a series of
 scripts, this one being the front-end, which uses other scripts to
-actually parse the log files (called modules). The tool is build to be
+actually parse the log files (called modules). The tool is built to be
 easily extended for anyone that wants to create a new module.
 
 The tool contains (current version of 0.51 nightly build (20102608))
@@ -53,8 +53,8 @@ three front-ends:
 The currently supported input modules (as of version 0.51 nightly build
 (20102608)) are:
 
-* **apache2_access** - Parse the content of a Apache2 access log file
-* **apache2_error** - Parse the content of a Apache2 error log file
+* **apache2_access** - Parse the content of an Apache2 access log file
+* **apache2_error** - Parse the content of an Apache2 error log file
 * **chrome** - Parse the content of a Chrome history file
 * **evt** - Parse the content of a [Windows 2k/XP/2k3 Event Log](windows_event_log_(evt).md)
   file
@@ -66,8 +66,8 @@ The currently supported input modules (as of version 0.51 nightly build
 * **firefox3** - Parse the content of a Firefox 3 history file
 * **iehistory** - Parse the content of an index.dat file containing IE
   history
-* **iis** - Parse the content of a IIS W3C log file
-* **isatxt** - Parse the content of a ISA text export log file
+* **iis** - Parse the content of an IIS W3C log file
+* **isatxt** - Parse the content of an ISA text export log file
 * **mactime** - Parse the content of a body file in the mactime format
 * **mcafee** - Parse the content of a log file
 * **opera** - Parse the content of an Opera's global history file
@@ -113,15 +113,14 @@ The currently supported output modules (as of version 0.51 nightly build
 ## See Also
 
 * [Plaso](plaso.md)
+* [Timeline analysis tools](tools_timeline_analysis.md)
 
 ## External Links
 
 * [log2timeline website](https://code.google.com/archive/p/log2timeline/)
-* [SANS GCFA Gold paper about the tool](https://www.sans.org/white-papers/33438/)
-* [Digital Forensic SIFTing: SUPER Timeline Creation using log2timeline](https://www.sans.org/blog/digital-forensic-sifting-super-timeline-creation-using-log2timeline/),
-  by Rob Lee, ecember 7, 2011
-* [Blog posts about the tool](http://blog.kiddaland.net/?s=log2timeline)
-* [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/),
+* [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://web.archive.org/web/20200806215325/https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/),
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md), August 13, 2009
 * [Artifact Timeline Creation and Analysis - part 2](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2/),
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md), August 14, 2009
+* [SANS GCFA Gold paper about the tool](https://www.sans.org/white-papers/33438/)
+* [Blog posts about the tool](http://blog.kiddaland.net/?s=log2timeline)
