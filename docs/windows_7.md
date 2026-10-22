@@ -135,7 +135,7 @@ TODO: add some description why they are of interest
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpaper\MRU
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery
-* NTUSER\Software\Microsoft\Windows\CurrentVersion\Ext\Settings\\{8AD9C840-044E-11D1-B3E9-00805F499D93}
+* NTUSER\Software\Microsoft\Windows\CurrentVersion\Ext\Settings\{8AD9C840-044E-11D1-B3E9-00805F499D93}
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\FileHistory
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\Internet Settings
 * NTUSER\Software\Microsoft\Windows\CurrentVersion\Internet

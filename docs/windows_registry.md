@@ -59,8 +59,8 @@ concerning key and value name, that are easy to fail to account for:
 
 ### Special characters in key and value names
 
-Both key and values names are case insensitive. The \\ character is used
-as the key separator. Note that the \\ character can be used in value
+Both key and values names are case insensitive. The \ character is used
+as the key separator. Note that the \ character can be used in value
 names. The / character is used in both key and value names. Some
 examples of which are:
 

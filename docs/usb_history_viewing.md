@@ -29,7 +29,7 @@ in the [setupapi log](setup_api_logs.md) file. For example:
 This provides the local date and time that the removable storage device
 was first connected to the system. The Windows system will also create
 an entry in the Registry beneath the
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\\ key using the
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\ key using the
 device class ID:
 
 ```text
@@ -71,7 +71,7 @@ this value can be used to map to the MountedDevices Registry key in
 order to identify the drive letter to which the device was mounted.
 Beneath the MountedDevices Registry key are several values, all of which
 are REG_BINARY data types. With RegEdit open, select one of the values
-that begins with "\DosDevices\\" and includes a drive letter. The value
+that begins with "\DosDevices\" and includes a drive letter. The value
 selected should be one whose data begins with "5C 00 3F 00 3F 00".
 Right-click the value name and choose "Modify". When the "Edit Binary
 Value" dialog appears, you will see the binary data displayed as if it

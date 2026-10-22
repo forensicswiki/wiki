@@ -19,7 +19,7 @@ encryption products like TrueCrypt, media players, and document viewers.
 
 The key is present in each user's NTUSER.DAT at
 \Software\Microsoft\Windows\CurrentVersion\Explorer\ComDIg32\LastVisitedMRU.
-It contains data stored as registry values and a
+It contains data stored as Windows Registry values and a
 [MRUList](list_of_windows_mru_locations.md). Value data is
 stored in binary (REG_BINARY) format.
 

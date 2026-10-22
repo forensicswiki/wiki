@@ -140,9 +140,10 @@ profile, it will refuse to open. This happens because an OST file has an
 encrypted cookie that is created from the unique ID of the mailbox.
 
 This unique ID can be only accessed when connection to the Server is
-made and this same encryption key gets saved into the registry settings
-of the profile. Every time Outlook is started to access an OST file, the
-encryption key at the server and the system registry is checked and if
+made and this same encryption key gets saved into the Windows Registry
+settings of the profile. Every time Outlook is started to access an OST
+file, the encryption key at the server and the Windows Registry is checked
+and if
 it matches at both the ends, access to the OST file is granted.
 
 The common reason why OST file cannot be opened in Outlook is using a

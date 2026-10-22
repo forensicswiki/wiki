@@ -26,10 +26,10 @@ parameter:
 | 4.90.3000 | Windows ME |
 
 Alternatively, establish WinDir (\[Paths\]WinDir in \MSDOS.SYS), locate
-the %WINDIR%\SYSTEM.DAT registry file. Next, look up the registry key
-Software\Microsoft\Windows\CurrentVersion\\, and values Version and
-VersionNumber. (Backup copies of SYSTEM.DAT may be found in .CAB files
-in %WINDIR%\SYSBCKUP.)
+the %WINDIR%\SYSTEM.DAT Windows Registry file. Next, look up the
+Windows Registry key Software\Microsoft\Windows\CurrentVersion\, and
+values Version and VersionNumber. (Backup copies of SYSTEM.DAT may be
+found in .CAB files in %WINDIR%\SYSBCKUP.)
 
 ### Windows NT4
 

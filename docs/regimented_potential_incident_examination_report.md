@@ -64,13 +64,13 @@ Contact: rapier.securitytool@gmail.com
 * Current AV versions
 * Files with alternate data streams (ADS)
 * Files marked as hidden
-* List of all installed software on system (known to registry)
+* List of all installed software on system (known to the Windows Registry)
 * System logs
 * AV logs
 * Copies of application caches (temporary internet files) -
   [IE](internet_explorer.md), [FF](mozilla_firefox.md),
   [Opera](opera.md)
-* Export entire registry
+* Export entire Windows Registry
 * Search/retrieve files based on search criteria.
 
 ## External Links

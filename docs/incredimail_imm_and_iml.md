@@ -23,7 +23,7 @@ of Windows Explorer. Move to *"Identities" \> "String of Numbers" \>
 (inbox.imm. deleted items.imm, outbox.imm, etc.).
 
 On Windows 7, to view the stored IMM files, move to the following
-location: - *"C:\Users\\%username%\Appdata\Local\IM\Identities"*
+location: - *"C:\Users\%username%\Appdata\Local\IM\Identities"*
 
 Under the "Identities" folder, locate the "Message Store"; in which
 under the "Messages" folder, you can locate the "msg.iml" file. The

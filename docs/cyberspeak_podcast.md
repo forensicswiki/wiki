@@ -145,8 +145,8 @@ each show are listed below.
   to!
 * 17 Jan 2010: Didier Stevens about some of his recent
   [forensic tools and research](https://blog.didierstevens.com/), including
-  the changes to the UserAssist registry keys in Windows 7 and his malicious
-  PDF tools.
+  the changes to the UserAssist Registry keys in Windows 7 and
+  his malicious PDF tools.
 * 31 Jan 2010: Robert Botcheck, founder and owner of Tableau
   talks about new Tableau Imager (TIM)
 * 28 Feb 2010: Christa Miller about the need for law enforcement and digital

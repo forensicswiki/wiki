@@ -46,7 +46,7 @@ The OLECF is used to store:
   * [Word Document (doc)](word_document_(doc).md)
   * [Excel Spreadsheet (xls)](excel_spreadsheet_(xls).md)
   * Powerpoint Presentation (ppt)
-* MSN (Toolbar) (C:\Documents and Settings\\%USERNAME%\Local
+* MSN (Toolbar) (C:\Documents and Settings\%USERNAME%\Local
   Settings\Application Data\Microsoft\MSNe\msninfo.dat)
 * [Jump Lists](jump_lists.md)
 * StickyNotes.snt

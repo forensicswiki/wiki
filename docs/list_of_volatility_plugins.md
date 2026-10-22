@@ -62,12 +62,12 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
 * [Registry tools](https://sites.cc.gatech.edu/~brendan/volatility/dl/volreg-0.6.tar.gz)
   (By
   [Moyix](https://moyix.blogspot.com/2009/01/memory-registry-tools.html)) -
-  A suite of plugins for accessing data from the registry, including
+  A suite of plugins for accessing data from the Windows Registry, including
   password hashes, LSA secrets, and arbitrary registry keys.
 * [Modified Regripper &amp; Glue Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
   (By
   [Moyix](https://moyix.blogspot.com/2009/03/regripper-and-volatility-prototype.html)) -
-  Code to run a modified RegRipper against the registry hives embedded
+  Code to run a modified RegRipper against the Windows Registry hives embedded
   in a memory dump. Note that due to a dependency on Inline::Python,
   this only works on Linux.
 * [getsids](https://moyix.blogspot.com/2008/08/linking-processes-to-users.html)

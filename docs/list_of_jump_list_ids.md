@@ -174,7 +174,7 @@ Observed Windows application identifiers
 | cbbe886eca4bfc2d | ExoSee 1.0.0 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | 9ad1ec169bf2da7f | FlylinkDC++ r405 (Build 7358) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | 4dd48f858b1a6ba7 | Free Download Manager 3.0 (Build 852) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
-| (portable) | Freenet (default install dir is C:\Users\\\$user\\...) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
+| (portable) | Freenet (default install dir is C:\Users\$user\...) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | (portable) | Frost 2011-03-05 (portable) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | f214ca2dd40c59c1 | FrostWire 4.20.9 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | 73ce3745a843c0a4 | FrostWire 5.1.4 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
@@ -292,7 +292,7 @@ Observed Windows application identifiers
 | --- | --- | --- | --- |
 | b223c3ffbc0a7a42 | Bersirc 2.2.14 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | c01d68e40226892b | ClicksAndWhistles 2.7.146 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
-| ac8920ed05001800 | DMDirc 0.6.5 (Profile store: C:\Users\\\$user\AppData\Roaming\DMDirc\\) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
+| ac8920ed05001800 | DMDirc 0.6.5 (Profile store: C:\Users\$user\AppData\Roaming\DMDirc\) | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | d3530c5294441522 | HydraIRC 0.3.165 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | 8904a5fd2d98b546 | IceChat 7.70 20101031 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
 | 6b3a5ce7ad4af9e4 | IceChat 9 RC2 | 2011-09-15 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-2.html) |
@@ -396,7 +396,7 @@ Observed Windows application identifiers
 | 4a49906d074a3ad3 | Media Go 1.8 (Build 121) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
 | 1cf97c38a5881255 | MediaPortal 1.1.3 | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
 | Depends on location | Media Player Classic 6.4.8.9 (is portable) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
-| Depends on location | Media Player Classic - Home Cinema 1.5.2.3456 (default install is \Users\\*user*\\ dir, so dynamic) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
+| Depends on location | Media Player Classic - Home Cinema 1.5.2.3456 (default install is \Users\*user*\ dir, so dynamic) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
 | 62bff50b969c2575 | Quintessential Media Player 5.0 (Build 121) - also usage stats (times used, tracks played, total time used) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
 | b50ee40805bd280f | QuickTime Alternative 1.9.5 (Media Player Classic 6.4.9.1) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |
 | ae3f2acd395b622e | QuickTime Player 6.5.1 / 7.0.3 / 7.5.5 (Build 249.13) | 2011-09-08 | [4n6k Blog](https://www.4n6k.com/2011/09/jump-list-forensics-appids-part-1.html) |

@@ -54,7 +54,7 @@ from what the same machine reports without VSM enabled.
 
 The first thing I checked was another information source for the physical memory ranges. I wrote a
 Velociraptor artifact to collect the physical memory ranges as reported by the hardware manager in
-the registry (Since [MmGetPhysicalMemoryRanges](http://www.reactos.org/pipermail/ros-diffs/2009-June/031391.html))
+the Windows Registry (Since [MmGetPhysicalMemoryRanges](http://www.reactos.org/pipermail/ros-diffs/2009-June/031391.html))
 is not accessible from userspace so the system writes the memory ranges into the Windows Registry
 on each boot). Note that you can also use [meminfo](https://www.alex-ionescu.com/meminfo-peer-inside-memory-manager-behavior-on-windows-vista-and-server-2008/)
 from Alex Ionescu to dump memory ranges from userspace.

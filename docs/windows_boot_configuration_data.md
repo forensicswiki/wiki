@@ -15,7 +15,7 @@ Settings on a running Windows system.
 The mappings of Registry keys to associated bcdedit commands are as
 follows:
 
-'HKEY_LOCAL_MACHINE\BCD00000000\Objects\\\*\Elements\\%MAPPING%', where
+'HKEY_LOCAL_MACHINE\BCD00000000\Objects\*\Elements\%MAPPING%', where
 '%MAPPING%' consists of:
 
 * 16000009: 'bcdedit.exe /set {default} recoveryenabled \<yes\|no\>',
