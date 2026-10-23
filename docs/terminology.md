@@ -4,34 +4,15 @@ tags:
 ---
 Various terms widely used in connection to digital forensics.
 
-## Artifact
+## Acquisition and imaging
 
-The term artifact (or artefact) is widely used within computer forensics, though there is no
-official definition of this term.
+**Acquisition** is the act of lawfully obtaining digital evidence. It is a stage of the
+*investigation*, see [concepts](concepts.md), and precedes the *examination* and *analysis*
+of the evidence.
 
-The definition closest to the meaning of the word within computer forensics is that of the word
-artifact within [archaeology](https://en.wikipedia.org/wiki/Artifact_(archaeology)). The term
-should not be confused with the word artifact used within
-[software development](https://en.wikipedia.org/wiki/Artifact_(software_development)).
-
-If archaeology defines an artifact as:
-
-> something made or given shape by man, such as a tool or a work of art, esp an object of
-> archaeological interest
-
-The definition of artifact within computer forensics could be:
-
-> An object of digital archaeological interest.
-
-Where digital archaeological roughly refers to computer forensics without the forensic (legal)
-context.
-
-## Forensically sound
-
-Per [when is digital evidence forensically sound?](https://link.springer.com/content/pdf/10.1007/978-0-387-84927-0_1.pdf):
-
-> The application of a transparent digital forensic process that preserves the original meaning of
-> the data for production in a court of law.
+**Imaging** is the creation of a bit-by-bit copy of the storage medium, so that the copy can
+be worked on without altering the original; see [disk imaging](disk_imaging.md) and
+[memory imaging](memory_imaging.md).
 
 ## Analysis, Examination and Investigation
 
@@ -118,47 +99,7 @@ finish. The [investigator](investigator.md) article defines the role:
 > identifying, extracting and considering evidence from digital media, such as computer hard
 > drives.
 
-### Examiner
-
-The *examiner* performs the forensic *examination* of the evidence: the technical stage
-between acquisition and reporting where the "Examination &amp; Analysis" work happens.
-The duties listed in [computer forensics](computer_forensics.md) apply to "All professionals
-involved in a forensics examination".
-
-*Examiner* is also part of professional titles and organizations.
-
-### Forensicator
-
-The *forensicator* is informal jargon for [a forensic investigator](investigator.md):
-
-> The vernacular of digital or computer *forensics investigator* is *forensicator*.
-
-### Overlap and differences
-
-Where the terms differ is mostly scope and context:
-
-* **investigator** - owns the whole investigation: scoping, acquisition, reporting and the
-  legal narrative. The broadest term in this wiki; also used for the field officer:
-  "law enforcement investigators in the field".
-* **examiner** - performs the *examination* of the evidence, i.e. the lab/technical stage.
-  Associated with credentials (EnCE) and trade bodies (ISFCE).
-* **analyst** - analyzes and interprets data and tool output. The most technical of the
-  three, and the term of choice for roles adjacent to forensics (incident response,
-  malware, memory forensics).
-
-## Digital forensics and computer forensics
-
-Both names are used in the field and in this wiki for the same discipline. This wiki
-canonicalizes [computer forensics](computer_forensics.md);
-[digital forensics](digital_forensics.md) is a redirect to it.
-
-[Computer forensics](computer_forensics.md) is also distinguished from the more generic term
-*forensic computing*, which covers the analysis and study of all types of digital media and
-materials, of a computing or telecommunication nature. In a strict sense, computer forensics
-applies specifically to the evaluation of computers and their data storage or data processing
-devices.
-
-## Traces, findings, facts and evidence
+## Evidence, Fact, Findings and Traces
 
 These terms form a chain from residue to legal proof: *traces* are what activity leaves
 behind in digital media, a *finding* is the technical fact that *analysis* observes in
@@ -210,15 +151,55 @@ listed there. Per [RFC 3227](https://www.ietf.org/rfc/rfc3227.txt), evidence col
 correctly "stands a much greater chance of being admissible in the event of a
 prosecution".
 
-## Acquisition and imaging
+### Examiner
 
-**Acquisition** is the act of lawfully obtaining digital evidence. It is a stage of the
-*investigation* (see [concepts](concepts.md)) and precedes the *examination* and *analysis*
-of the evidence.
+The *examiner* performs the forensic *examination* of the evidence: the technical stage
+between acquisition and reporting where the "Examination &amp; Analysis" work happens.
+The duties listed in [computer forensics](computer_forensics.md) apply to "All professionals
+involved in a forensics examination".
 
-**Imaging** is the creation of a bit-by-bit copy of the storage medium, so that the copy can
-be worked on without altering the original; see [disk imaging](disk_imaging.md) and
-[memory imaging](memory_imaging.md).
+*Examiner* is also part of professional titles and organizations.
+
+### Forensicator
+
+The *forensicator* is informal jargon for [a forensic investigator](investigator.md):
+
+> The vernacular of digital or computer *forensics investigator* is *forensicator*.
+
+### Overlap and differences
+
+Where the terms differ is mostly scope and context:
+
+* **investigator** - owns the whole investigation: scoping, acquisition, reporting and the
+  legal narrative. The broadest term in this wiki; also used for the field officer:
+  "law enforcement investigators in the field".
+* **examiner** - performs the *examination* of the evidence, i.e. the lab/technical stage.
+  Associated with credentials (EnCE) and trade bodies (ISFCE).
+* **analyst** - analyzes and interprets data and tool output. The most technical of the
+  three, and the term of choice for roles adjacent to forensics (incident response,
+  malware, memory forensics).
+
+## Artifact
+
+The term artifact (or artefact) is widely used within computer forensics, though there is no
+official definition of this term.
+
+The definition closest to the meaning of the word within computer forensics is that of the word
+artifact within [archaeology](https://en.wikipedia.org/wiki/Artifact_(archaeology)). The term
+should not be confused with the word artifact used within
+[software development](https://en.wikipedia.org/wiki/Artifact_(software_development)).
+
+If archaeology defines an artifact as:
+
+> something made or given shape by man, such as a tool or a work of art, esp an object of
+> archaeological interest
+
+The definition of artifact within computer forensics could be:
+
+> An object of digital archaeological interest.
+
+Where digital archaeological roughly refers to computer forensics without the forensic (legal)
+context.
 
 ## Code points and characters
 
@@ -230,6 +211,64 @@ be worked on without altering the original; see [disk imaging](disk_imaging.md) 
 * A **character** is the abstract unit of textual information that humans actually perceive. A
   character represents the interpreted, run-time (or "real-world") information reconstructed from
   those underlying data structures.
+
+## Digital forensics and computer forensics
+
+Both names are used in the field and in this wiki for the same discipline. This wiki
+canonicalizes [computer forensics](computer_forensics.md);
+[digital forensics](digital_forensics.md) is a redirect to it.
+
+[Computer forensics](computer_forensics.md) is also distinguished from the more generic term
+*forensic computing*, which covers the analysis and study of all types of digital media and
+materials, of a computing or telecommunication nature. In a strict sense, computer forensics
+applies specifically to the evaluation of computers and their data storage or data processing
+devices.
+
+## Forensically sound
+
+Per [when is digital evidence forensically sound?](https://link.springer.com/content/pdf/10.1007/978-0-387-84927-0_1.pdf):
+
+> The application of a transparent digital forensic process that preserves the original meaning of
+> the data for production in a court of law.
+
+## Method and Technique
+
+*Method* (or methodology) and *technique* describe how forensic tasks are structured and executed.
+They differ in abstraction, rigidity, and their relationship to legal admissibility.
+
+### Method
+
+A *method* is the overarching, structured framework or standard operating procedure that guides the
+lifecycle of an investigation. It defines the strategic "how" to ensure that the entire process is
+repeatable, transparent, and legally defensible.
+
+Methods are generally rigid and scale across the entire macro-level workflow. They rely on
+validated, standardized models—such as the NIST Digital Forensics Process or ISO/IEC 27037, to
+govern the sequence of acquisition, examination, analysis, and reporting. The primary objective of
+a method is to preserve the integrity of the evidence and maintain a flawless chain of custody.
+
+### Technique
+
+A *technique* (specifically an *analysis technique*) is a discrete, highly tactical technical
+action or mechanism deployed to extract, parse, or interpret data from a specific digital artifact.
+
+Techniques operate at the micro-level and are highly flexible; practitioners select them
+dynamically based on the target operating system, hardware, or file types. Examples of techniques
+include file carving, reverse steganography, live memory extraction, and registry timeline
+correlation. A technique is executed *within* the boundaries prescribed by the broader forensic
+method.
+
+### Overlap and differences
+
+While both terms dictate how work is performed on a case, they exist at different tiers of
+execution. A *method* establishes the global rules of engagement to keep the investigation
+forensically sound, whereas a *technique* is the practical technical utility used to solve a
+data-level puzzle.
+
+* **method** - the strategic framework; a standardized, phased process designed to withstand legal
+  scrutiny and prevent data contamination.
+* **technique** - the tactical action; the specific tool-driven or manual mechanism used to examine
+  and decode abstract digital traces.
 
 ## See Also
 
