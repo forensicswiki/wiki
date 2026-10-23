@@ -110,7 +110,7 @@ Returns: \#PSRMR: (0-349)
 
 ## Misc. Information
 
-**AT&F**
+**AT&amp;F**
 Controls local echo which enables the user to see the text they are
 typing into HyperTerminal.
 
@@ -125,7 +125,7 @@ ATi4 Returns HW Version
 
 '''AT+FSCD="
 
-<DIR>
+&lt;DIR&gt;
 
 "'''
 Changes to specific directories (Samsung)
@@ -133,22 +133,22 @@ If your phone is English, then it will be /Picture
 
 '''AT+FSDI="
 
-<DIR>
+&lt;DIR&gt;
 
 "'''
 Returns directory information (Samsung)
 
 '''AT+FSDL="
 
-<DIR>
+&lt;DIR&gt;
 
 "'''
 Returns a list of directories (Samsung)
 
-**AT+FSFW=-1, "<FILENAME>", 0, "", <LEN>, <CRC>**
+**AT+FSFW=-1, "&lt;FILENAME&gt;", 0, "", &lt;LEN&gt;, &lt;CRC&gt;**
 Send a file (Samsung)
 
-**AT+FSFE=0, "<FILENAME>"**
+**AT+FSFE=0, "&lt;FILENAME&gt;"**
 Delete a file (Samsung)
 
 **AT+CGSN**

@@ -5,7 +5,7 @@ tags:
   - Tools
   - Windows
 ---
-**MiniTool Power Data Recovery (Free)** is a Free Partition Recovery &
+**MiniTool Power Data Recovery (Free)** is a Free Partition Recovery &amp;
 Data Recovery Software that helps recover deleted, lost or damaged
 logical drives and partitions on Windows, then recover data from them.
 

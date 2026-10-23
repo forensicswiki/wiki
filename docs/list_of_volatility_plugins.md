@@ -64,7 +64,7 @@ on the [project Googlecode site](https://code.google.com/archive/p/volatility).
   [Moyix](https://moyix.blogspot.com/2009/01/memory-registry-tools.html)) -
   A suite of plugins for accessing data from the registry, including
   password hashes, LSA secrets, and arbitrary registry keys.
-* [Modified Regripper & Glue Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
+* [Modified Regripper &amp; Glue Code](https://sites.cc.gatech.edu/~brendan/volatility/dl/volrip-0.1.tar.gz)
   (By
   [Moyix](https://moyix.blogspot.com/2009/03/regripper-and-volatility-prototype.html)) -
   Code to run a modified RegRipper against the registry hives embedded

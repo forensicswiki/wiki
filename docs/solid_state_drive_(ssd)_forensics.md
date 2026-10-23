@@ -63,7 +63,7 @@ drive, with the following features:
 
 * [Reliably Erasing Data from Flash-Based Solid State Drives](https://cseweb.ucsd.edu//~m3wei/assets/pdf/FMS-2010-Secure-Erase.pdf),
   by Michael Wei, Laura Grupp, Steven Swanson, February 2011
-* [TRIM & dm-crypt ... problems?](http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html),
+* [TRIM &amp; dm-crypt ... problems?](http://asalor.blogspot.com/2011/08/trim-dm-crypt-problems.html),
   by Milan Broz, August 14, 2011
 * [Challenges of SSD Forensic Analysis](https://www.slideshare.net/digitalassembly/challenges-of-ssd-forensic-analysis),
   by Digital Assembly,

@@ -24,8 +24,8 @@ minimum string length for it to gather. For example, if I'm not
 interested in short strings in a file and only want to see strings that
 are made up of at least 8 characters (since they're more likely to
 contain filenames or start parameters that the process used), I would
-run the following command (replacing <sourcefilename> with the name of
-the file I want to analyze strings in, and "<outputfilename>" with the
+run the following command (replacing &lt;sourcefilename&gt; with the name of
+the file I want to analyze strings in, and "&lt;outputfilename&gt;" with the
 name of the file I want to output the results to):
 
 ```bash

@@ -467,7 +467,7 @@ HKEY_USERS**
   by Didier Stevens, January 18, 2009
 * [Prefetch and User Assist](http://forensicsfromthesausagefactory.blogspot.com/2010/05/prefetch-and-user-assist.html),
   by DC174, May 27, 2010
-* [UserAssist Forensics (timelines, interpretation, testing, & more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
+* [UserAssist Forensics (timelines, interpretation, testing, &amp; more)](https://www.4n6k.com/2013/05/userassist-forensics-timelines.html),
   by Dan (@4n6k), May 14, 2013
 * [Daily Blog \#45: Understanding the artifacts: User Assist](https://www.hecfblog.com/2013/08/daily-blog-45-understanding-artifacts.html),
   by David Cowen, August 7, 2013

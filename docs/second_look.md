@@ -16,7 +16,7 @@ for forensic investigation).
 
 ## History
 
-Second Look began at Pikewerks Corporation. The original R&D was
+Second Look began at Pikewerks Corporation. The original R&amp;D was
 sponsored by the US Air Force Research Lab (AFRL). During a Phase I STTR
 contract in 2007, Pikewerks founder Sandy Ring implemented Linux kernel
 integrity checks and cross-view analysis in a framework she called
@@ -27,7 +27,7 @@ Linux kernel integrity verification via memory forensics, codenamed
 
 Second Look publicly debuted at the DoD Cyber Crime Conference in St.
 Louis in January 2009. The first supported distributions were CentOS and
-Ubuntu (32-bit only). Subsequent internally-funded R&D at Pikewerks led
+Ubuntu (32-bit only). Subsequent internally-funded R&amp;D at Pikewerks led
 to the first hosted reference kernel repository, supporting automated
 Linux memory forensics, and 64-bit support. Product releases and backend
 infrastructure work in 2010 expanded the set of supported kernel

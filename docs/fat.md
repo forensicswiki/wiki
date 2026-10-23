@@ -189,7 +189,7 @@ with Windows 95 OSR2, Windows 98, and Windows Me. Features include:
   different copy of the file allocation table then the default to be
   active.
 
-#### Limitations with [Windows](windows.md) 2000 & [Windows](windows.md) XP
+#### Limitations with [Windows](windows.md) 2000 &amp; [Windows](windows.md) XP
 
 * Clusters cannot be 64KB or larger.
 * Cannot decrease cluster size that will result in the the FAT being
@@ -208,7 +208,7 @@ with Windows 95 OSR2, Windows 98, and Windows Me. Features include:
 
 exFAT (also know as Extended File Allocation Table or exFAT) is
 Microsoft's latest version of FAT and works with Windows Embedded CE
-6.0, Windows XP/Server 2003 (with a KB patch, Vista/Server 2008 SP 1 &
+6.0, Windows XP/Server 2003 (with a KB patch, Vista/Server 2008 SP 1 &amp;
 Later, and Windows 7. Features include:
 
 * Largest file size is 2<sup>64</sup> bytes (16 exabytes) vs. FAT32's

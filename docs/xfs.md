@@ -8,7 +8,7 @@ XFS is a 64-bit journaling file system created by Silicon Graphics, Inc (SGI).
 ## External Links
 
 * [Wikipedia: XFS](https://en.wikipedia.org/wiki/XFS)
-* [XFS Algorithms & Data Structures - 3rd Edition](https://mirrors.edge.kernel.org/pub/linux/utils/fs/xfs/docs/xfs_filesystem_structure.pdf),
+* [XFS Algorithms &amp; Data Structures - 3rd Edition](https://mirrors.edge.kernel.org/pub/linux/utils/fs/xfs/docs/xfs_filesystem_structure.pdf),
   May 2018, by Silicon Graphics Inc.
 * [XFS Filesystem Structure](https://kernel.googlesource.com/pub/scm/fs/xfs/xfs-documentation/+/master/design/XFS_Filesystem_Structure)
 * [Forensic analysis of SGI IRIX disk volume](https://cradpdf.drdc-rddc.gc.ca/PDFS/unc236/p804237_A1b.pdf),

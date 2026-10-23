@@ -13,7 +13,7 @@ if the following conditions are true:
 
 *These rainbow tables are free for download.*
 
-### Windows XP & Vista passwords (LM & NT hashes)
+### Windows XP &amp; Vista passwords (LM &amp; NT hashes)
 
 * <https://ophcrack.sourceforge.io/tables.php>
 

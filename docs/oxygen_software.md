@@ -23,7 +23,7 @@ European federal and state agencies such as the IRS, U.S. Army, U.S. Department 
 Defense (DOD), U.S. Department of Justice, U.S. Department of Homeland Security, U.S.
 Department of Transportation, U.S. Postal Service, U.S. Supreme Court, European
 Commission, London Metropolitan Police, French National Police and Gendarmerie,
-PricewaterhouseCoopers, Ernst & Young, and many others.
+PricewaterhouseCoopers, Ernst &amp; Young, and many others.
 
 ## Products
 

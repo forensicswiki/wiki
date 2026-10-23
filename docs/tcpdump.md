@@ -56,7 +56,7 @@ addresses in the packets, rather than trying to resolve them into host
 names using DNS. The "-i eth0" tells Tcpdump to listen for all packets
 on the "eth0" interface (information about different interfaces can be
 located using the "ifconfig" command; using "-i any" instead will tell
-Tcpdump to listen on all interfaces). The "not host <forensicWS IP>" is
+Tcpdump to listen on all interfaces). The "not host &lt;forensicWS IP&gt;" is
 the filter syntax for Tcpdump, and tells it not to gather packets
 involving the specified host IP address--in this case, our forensic
 workstation. This is very important when using Tcpdump with Netcat

@@ -198,7 +198,7 @@ capabilities of [Timesketch](timesketch.md) and similar analysis tools.
   by C. Boyd, P. Forster, Digital Investigation 2004:1
 * Unification of relative time frames for digital forensics,
   by M.W. Stevens, Digital Investigation 2004:1
-* [Dynamic Time & Date Stamp Analysis](https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
+* [Dynamic Time &amp; Date Stamp Analysis](https://www.utica.edu/academic/institutes/ecii/publications/articles/A048B1E4-B921-1DA3-EB227EE7F61F2053.pdf),
   M. C. Weil, International Journal of Digital Evidence, vol 1:2, 2002
 
 ### Visualization

@@ -12,8 +12,8 @@ tags:
   - Commercial Software
 ---
 SysTools Software is an application software development company, with their headquarters in Pune
-and operated from the capital city with prime concentration in data & cyber-forensics. SysTools;
-derived from the combination of two words; "system" & "tools", first started as a **Data Recovery
+and operated from the capital city with prime concentration in data &amp; cyber-forensics. SysTools;
+derived from the combination of two words; "system" &amp; "tools", first started as a **Data Recovery
 company** in the year 2007, evolved as a platform for email migration to and from; client/server
 architecture and later stepped into **Data Forensics**.
 
@@ -45,9 +45,9 @@ South Africa, etc.
 SysTools sells data recovery, log analysis, and email file viewer
 tools for Microsoft Windows.
 
-* [MailXaminer](mailxaminer.md) - Investigate, Analyze, Search &
+* [MailXaminer](mailxaminer.md) - Investigate, Analyze, Search &amp;
   Export any type of email on this forensic email platform.
-* [E01 Viewer](#e01-viewer) - Viewer application to read &
+* [E01 Viewer](#e01-viewer) - Viewer application to read &amp;
   search contents of E01 forensic image file.
 * [BKF Viewer](#bkf-viewer) - A freeware viewer tool to open and
   preview contents of a healthy/corrupt Windows backup file.
@@ -79,7 +79,7 @@ tools for Microsoft Windows.
   scan, locate and examine activity log of an NTFS partitioned
   machine.
 * [Hard Drive Data Recovery](#hard-drive-data-recovery) - A commercial
-  tool to recover damaged, deleted, & formatted Windows hard drive
+  tool to recover damaged, deleted, &amp; formatted Windows hard drive
   data.
 * [SQL Log Analyzer](#sql-log-analyzer) - Analysis tool for SQL
   transaction log details and associated database recovery.
@@ -91,7 +91,7 @@ file contents.
 
 The software is particularly meant for viewing forensic disk image
 files of E01 formatting regardless of corruption. Email files within
-the disk image can be viewed along with text & image file types. Both,
+the disk image can be viewed along with text &amp; image file types. Both,
 multiple as well as an individual E01 file processing is carried out
 by the tool.
 
@@ -138,7 +138,7 @@ Personal Storage Table file(s) without Microsoft Outlook.
 
 All contents of the data file are readable in a detailed manner via
 categorized preview tabs. The software supports reading Outlook 98 to
-2002 based ANSI and Outlook 2003 & later Unicode type PST files of all
+2002 based ANSI and Outlook 2003 &amp; later Unicode type PST files of all
 sizes. Both intact and damaged data files are processable; Quick Scan
 processes intact PST files whereas Advance Scan thoroughly scans
 damaged PST files for the revival of lost data. Emails along with
@@ -257,7 +257,7 @@ of Windows OS. For the different versions of MS Outlook; PST Reporter
 offers ANSI and Unicode PST support.
 
 Outlook PST Reporter can process any size of PST file complying with
-the ANSI & Unicode formatted PST file support.
+the ANSI &amp; Unicode formatted PST file support.
 
 ### OST Reporter
 
@@ -357,7 +357,7 @@ point to mark its presence at forensic events held by some of the
 industry pioneers which were attended by the experts, government
 representatives, and security professionals of the same discipline.
 The Hackers Conference 2014 - India, CEIC 2014 - USA, Ground Zero Summit
-2014 (Sri Lanka & New Delhi) - India, International Conference (Cyberlaw
+2014 (Sri Lanka &amp; New Delhi) - India, International Conference (Cyberlaw
 and Cyber Security) 2014 - India, and many more are amongst the
 conferences and events attended by SysTools Team concentrated on
 debating about the rise in rate of cyberspace invasion, challenges faced

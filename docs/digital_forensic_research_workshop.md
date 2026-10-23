@@ -32,7 +32,7 @@ community, in 2014 the DFRWS started holding annual conferences in Europe,
 and in 2021 started holding annual conferences in APAC.
 
 All papers are peer reviewed and published open access with presentation
-materials in the DFRWS Papers & Presentations online catalog. Video
+materials in the DFRWS Papers &amp; Presentations online catalog. Video
 recordings of selected presentations are periodically posted on the
 DFRWS YouTube channel.
 
@@ -40,7 +40,7 @@ DFRWS YouTube channel.
 
 In 2019, the DFRWS created DFIR Review to provide practitioners with a
 venue for community-reviewed applied research and testing in Digital
-Forensics & Incident Response (DFIR). Articles from DFIR Review have
+Forensics &amp; Incident Response (DFIR). Articles from DFIR Review have
 been cited in multiple court proceedings.
 
 ## DFRWS Supported Initiatives
@@ -58,7 +58,7 @@ Listing of Various Established [Digital] Investigation Techniques
 mitigation for digital evidence. This initiative was started by the
 community at DFRWS US 2023, and formally launched at DFRWS EU 2025
 and presented as "SOLVE-IT: A proposed digital forensic knowledge
-base inspired by MITRE ATT&CK®."
+base inspired by MITRE ATT&amp;CK®."
 
 ## Support and Sponsorship
 
@@ -96,7 +96,7 @@ Forensic Challenge datasets and results are available via the
 
 * [Official website](https://dfrws.org/)
 * [Jubilee 25th Conference](https://dfrws.org/conferences/dfrws-usa-2025/)
-* [Papers & Presentations](https://dfrws.org/presentation/)
+* [Papers &amp; Presentations](https://dfrws.org/presentation/)
 * [YouTube Channel](https://www.youtube.com/@DFRWS/videos)
 * [DFIR Review](https://dfir.pubpub.org/community)
 * [Forensic Challenges](https://dfrws.org/forensic-challenges/)

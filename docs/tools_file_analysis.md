@@ -60,7 +60,7 @@ Java.
 
 Recognizes over 9,000 file formats with XML format definitions,
 compiled to a single container. New file types can be added in an
-automated way, simply scanning a group of files. Win32, Linux/x86 &
+automated way, simply scanning a group of files. Win32, Linux/x86 &amp;
 x86-64; closed source; free for non-commercial use.
 
 * [Detect-it-Easy](https://github.com/horsicq/Detect-It-Easy)
@@ -212,7 +212,7 @@ programs.
 
 * [CodeSuite](codesuite.md)
 
-CodeSuite by Software Analysis & Forensic Engineering comprises BitMatch,
+CodeSuite by Software Analysis &amp; Forensic Engineering comprises BitMatch,
 CodeCross, CodeDiff, CodeMatch, and SourceDetective for comparing and
 analyzing source code and object code to find copyright infringement and
 trade secret theft. It can be used for free on small sets of code.

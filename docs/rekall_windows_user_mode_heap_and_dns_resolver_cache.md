@@ -38,7 +38,7 @@ resolver. In Windows, DNS requests are typically cached by the DNS
 resolver service (which is running inside one of
 the `svchost.exe` processes). This information is very important from an
 incident response perspective since it can reveal recently accesses
-command and control (C&C) connections. However, the DNS resolver is a
+command and control (C&amp;C) connections. However, the DNS resolver is a
 largely undocumented application, making it an excellent demonstration
 for heap based analysis.
 

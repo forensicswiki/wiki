@@ -10,7 +10,7 @@ CA, USA
 
 Sponsored by USENIX, The Advanced Computing Systems Association
 
-Co-located with the 5th USENIX Symposium on Networked Systems Design &
+Co-located with the 5th USENIX Symposium on Networked Systems Design &amp;
 Implementation (NSDI '08), which will take place April 16-18, 2008, and
 the First USENIX Workshop on Large-Scale Exploits and Emergent Threats
 (LEET '08), which will take place April 15, 2008

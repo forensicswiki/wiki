@@ -43,7 +43,7 @@ Matriux offers many forensic tools under its
 
 ### Acquisition
 
-* Automated Image & Restore 1.28
+* Automated Image &amp; Restore 1.28
 * [Guymager](guymager.md)
 
 ### Analysis

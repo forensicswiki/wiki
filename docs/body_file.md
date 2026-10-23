@@ -19,7 +19,7 @@ Body files are pipe (`|`) delimited and are referred to as an "intermediate file
 sorted chronologically and are often staged for post-processing. Subsequent timeline sorting is
 done via the [mactime](mactime.md) tool.
 
-## Data & Fields
+## Data &amp; Fields
 
 All times within a body file are reported in UNIX time format. Lines that start with `#` are
 ignored and treated as comments.

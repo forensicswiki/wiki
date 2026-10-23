@@ -65,7 +65,7 @@ Key Features - Standard Edition (Perpetual Licence)
 Additional Features - Advanced Edition (Annual Licence)
 
 * Xtreme File Recovery - the only forensics tool that is able to recover
-  deleted files AND metadata from Ext 3 & 4 filesystems (in addition to
+  deleted files AND metadata from Ext 3 &amp; 4 filesystems (in addition to
   NTFS, ExFAT, HFS etc.) PLUS recovering deleted files and their
   metadata from Volume Shadow Copies.
 * IXImager Creation - the fastest and most versatile imaging tool

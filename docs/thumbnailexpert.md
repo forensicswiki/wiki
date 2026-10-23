@@ -22,7 +22,7 @@ caches of many programs.
 * CodedColor PhotoStudio(c) 1STEIN GmbH - files.bin, \*.dat
 * Directory Opus (c) GPSoftware - \*.db
 * EF Commander (c) Emil Fickel - ThumbsDB
-* ExifPro (c) Magda & Michal Kowalski - CacheDb.bin
+* ExifPro (c) Magda &amp; Michal Kowalski - CacheDb.bin
 * FastStone Image Viewer (c) FastStone Soft - FSViewer.db
 * FreshView (c) FreshDevices - FViewer.dat, \*.fv
 * Graphic Workshop Professional (c) Alchemy Mindworks - GWSPRO.TDB,

@@ -168,7 +168,7 @@ of sources.
 
 ### IEEE VAST Challenges
 
-IEEE Visual Analytics Science & Technology (VAST) Challenges
+IEEE Visual Analytics Science &amp; Technology (VAST) Challenges
 
 ## Images
 

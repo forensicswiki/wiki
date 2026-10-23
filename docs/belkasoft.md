@@ -211,7 +211,7 @@ launched from a USB thumb drive.
 Belkasoft customers include government and private organizations in more
 than 130 countries, including the FBI, the U.S. Army, DHS, and police departments
 in Germany, Norway, Australia and New Zealand, PricewaterhouseCoopers,
-and Ernst & Young.
+and Ernst &amp; Young.
 
 ## External Links
 

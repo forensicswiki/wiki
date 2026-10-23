@@ -29,7 +29,7 @@ and techniques in telecommunications, information, and multimedia and workshop, 
 2008.
 
 [An Integrated Approach to Recovering Deleted Files from NAND Flash Data](https://www.researchgate.net/publication/253283432_An_Integrated_Approach_to_Recovering_Deleted_Files_from_NAND_Flash_Data),
-by James Luck & Mark Stokes, SMALL SCALE DIGITAL DEVICE FORENSICS JOURNAL, VOL. 2, NO. 1, JUNE 2008
+by James Luck &amp; Mark Stokes, SMALL SCALE DIGITAL DEVICE FORENSICS JOURNAL, VOL. 2, NO. 1, JUNE 2008
 ISSN# 1941-6164
 
 ## US Government Publications

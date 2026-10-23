@@ -7,7 +7,7 @@ tags:
 ---
 MailXaminer is an email forensic analysis suite developed by
 [SysTools](systools.md). The application examines email data
-files of Non-MAPI / MAPI desktop mail applications & Cloud mail
+files of Non-MAPI / MAPI desktop mail applications &amp; Cloud mail
 services. MailXaminer allows cyber investigators to analyze digital
 evidence from emails, attachments, contacts, calendar entries, etc.;
 stored within the data repository of different email services.
@@ -49,39 +49,39 @@ Support for "Contacts" added.
 ### Version 4.0 (December 31, 2013)
 
 * Dashboard for Quick view of completed files in graphical format.
-* Provided support for "Cloud" & IMAP.
+* Provided support for "Cloud" &amp; IMAP.
 * Allows user to set the throttling.
-* Provided Pause & Resume for "Cloud".
+* Provided Pause &amp; Resume for "Cloud".
 * Provide date filters for "Cloud".
 * Added support for "Outlook Express" .dbx files.
 * Added support for "Lotus Notes" NSF (Non Password Protected Files) files.
 * Does not export Privileged mails.
 * Ability to show mails in "Conversation" view.
 * Provided "Email Hop" view to display how mail has been traversed.
-* Provides "Restart" option for "Stopped (cancelled by user)" & "Failed" files.
-* Provides "Remove" option for "Failed" & "Pending" files.
+* Provides "Restart" option for "Stopped (cancelled by user)" &amp; "Failed" files.
+* Provides "Remove" option for "Failed" &amp; "Pending" files.
 * Ability to stop the scanning in between.
 * Ability to track all the activities done in the application.
 * Ability to export logs.
 * Able to export as PST without Outlook installed.
-* Provided "Set Page Orientations", "Margins" & "Page Size" options for PDF.
+* Provided "Set Page Orientations", "Margins" &amp; "Page Size" options for PDF.
 * Provided "Exclude Duplicate Mails" option for export.
 * Provided "Concordance" format while export.
-* Display "Duplicate" & "Deleted" mails at a glance.
-* Added support for "Audio" & "Video" in "Media" category.
+* Display "Duplicate" &amp; "Deleted" mails at a glance.
+* Added support for "Audio" &amp; "Video" in "Media" category.
 * Ability to search mails having "Attachments" or without "Attachments"
 * Ability to search mails having "Attachments" or without "Attachments".
 * Ability to search using PreDefined templates.
-* Ability to search mails having "Importance"(Low, Normal & High)
-* Provided "Advance Search" to search with "Starts with", "Ends With" & "Contains"
-* Ability to search "Keywords" while "Scanning" & also "On Demand".
+* Ability to search mails having "Importance"(Low, Normal &amp; High)
+* Provided "Advance Search" to search with "Starts with", "Ends With" &amp; "Contains"
+* Ability to search "Keywords" while "Scanning" &amp; also "On Demand".
 * Allows user to change the "Storage Location".
 
 ### Version 4.5 (June 7, 2014)
 
 * Added support for EML Reader.
 * Added support for MSG Reader.
-* Added support for E01 Reader. Supporting PST, OST & EDB files in .E01 files.
+* Added support for E01 Reader. Supporting PST, OST &amp; EDB files in .E01 files.
 * Added support for Client Server. User can view the files scanned by other users in "Connected"
   mode if those files are "Synced".
 * The user can "Sync" selected scanned files in "Connected" mode.
@@ -96,7 +96,7 @@ Support for "Contacts" added.
   only partial words for search.
 * Proximity search allows to specify how close two (or more) words must be to each other in order
   to register a match.
-* User can add multiple Search fields in "General Search" & "Advance Search".
+* User can add multiple Search fields in "General Search" &amp; "Advance Search".
 * Display hierarchical view of the selected mail in " Hierarchical View" tab.
 * Provided option to maintain folder hierarchy while export or not.
 
@@ -120,7 +120,7 @@ Support for "Contacts" added.
 
 ### Version 4.8 (September 19, 2015)
 
-* Provided support for Geo Location & IP Reporting.
+* Provided support for Geo Location &amp; IP Reporting.
 * Performs Forensic Video Analysis on videos while scanning data.
 * Supports analysis of documents from image files such as E01, DD and DMG.
 * Supports new Desktop/Web based Email Applications and Servers such as hMailServer, MDaemon,
@@ -133,15 +133,15 @@ Support for "Contacts" added.
 * Section 508 compliance for keyboard support.
 * Added support provided for 64-bit application.
 * Bates Numbering facility provided for PDF export.
-* Multiple partition of E01 & DD File supported.
+* Multiple partition of E01 &amp; DD File supported.
 * Multiple export facility added for enhanced export.
 * Additional support for Skype Database analysis.
 * Splitting option for PST and CSV file type export.
-* Search subsets; keywords, saved searches, & more
+* Search subsets; keywords, saved searches, &amp; more
 * PDF setting options enhanced for custom export.
 * CSV header settings adds Properties to components.
 * Customized naming convention for export output.
-* Timeline analysis of searches; chats, mails, & more
+* Timeline analysis of searches; chats, mails, &amp; more
 * Link Analysis provisioned for examined Search Result
 
 ### Version 4.8.3 (November 11, 2016)
@@ -158,7 +158,7 @@ application is Windows based and runs on all available Windows OS
 versions including XP, Win7, and also the latest series; Windows 8 and
 8.1. Its functionality mainly relies on optical mouse / mouse pad
 operations yet there is full support for keyboard hotkey control.
-MailXaminer being an email forensic tool supports both desktop & web
+MailXaminer being an email forensic tool supports both desktop &amp; web
 based mail client data analysis. Several versions of the MailXaminer
 application have been updated since its release, the latest of which is
 v.4.6 announced on the 27th of July, 2014 introducing 5 new features in
@@ -204,7 +204,7 @@ options.
 
 ### Email Scanning
 
-Emails from both; web based & desktop based email services can be
+Emails from both; web based &amp; desktop based email services can be
 scanned for analysis purpose. Two types of modes featured to scan emails
 are as; Single File Mode and Bulk File Mode. In Single File Mode only
 one file of a single type can be processed at a time. While Bulk File
@@ -256,7 +256,7 @@ data.
 
 ### Live Exchange Mailbox Impersonation
 
-Email client and server environments usually found in corporate &
+Email client and server environments usually found in corporate &amp;
 enterprises are the most common targets of email based crimes and
 forgeries. User accounts from Live Exchange Server can be examined using
 either the respective mailbox credentials or impersonation rights
@@ -299,13 +299,13 @@ recipient ID, dates, size, and MD5 value details displayed respectively.
 * *HTML View*: Entire HTML script of the email is displayed using which
   the message can be analyzed on different browsers.
 * *RTF View*: Represents the Rich Text Formatting of emails, if any.
-  Helpful in maintaining email originality & accessible easily on all
+  Helpful in maintaining email originality &amp; accessible easily on all
   systems.
 * *Attachments*: Offers a preview of email attachment separately.
   Document and image formats of most types supported in preview and
   saving.
 * *Hierarchical View*: This view tab shows the exact B+ Tree structure
-  of the selected mail & its entire folder structure.
+  of the selected mail &amp; its entire folder structure.
 
 ### Image Analysis
 
@@ -400,7 +400,7 @@ email header.
 
 ##### Proximity
 
-Based on the hit & trial method of searching, the option provides a
+Based on the hit &amp; trial method of searching, the option provides a
 search field for adding look up terms to be added and searched for
 approximate results between the terms ranging from zero to infinity.
 **NOTE**: Maximum four words / terms can be added at once.

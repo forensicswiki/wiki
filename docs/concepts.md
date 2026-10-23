@@ -4,7 +4,7 @@ tags:
 ---
 Various concepts central to digital forensics.
 
-## Legal & Procedural Concepts
+## Legal &amp; Procedural Concepts
 
 * [Chain of custody](chain_of_custody.md)
 * Data Integrity: evidence must remain entirely unaltered throughout the investigation. To uphold
@@ -24,7 +24,7 @@ Various concepts central to digital forensics.
 * [Observation errors](observation_errors.md)
 * [Rhetoric of Proof](rethoric_of_proof.md)
 
-## Storage & Data Concepts
+## Storage &amp; Data Concepts
 
 * Allocated Space: Storage space currently reserved by the operating system for active files, e.g.
   your documents or photos.
@@ -41,7 +41,7 @@ Various concepts central to digital forensics.
 * Unallocated Space: "Empty" space on a hard drive. When you delete a file, the computer does not
   instantly erase it; it simply marks that file's location as unallocated (free to overwrite).
 
-## Operational & Technical Concepts
+## Operational &amp; Technical Concepts
 
 * Forensic Imaging (Bit-by-Bit Copy): Unlike a standard file copy (like dragging a folder to a USB
   drive), a forensic image is a complete, mathematical clone of every single bit on a storage

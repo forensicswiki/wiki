@@ -144,7 +144,7 @@ tablets.
 
 [MailXaminer](mailxaminer.md) by [SysTools](systools.md)
 
-Forensic & eDiscovery Tool to find digital email evidences from multiple
+Forensic &amp; eDiscovery Tool to find digital email evidences from multiple
 email platform through its powerful Search mechanism.
 
 ### Open Source Tools

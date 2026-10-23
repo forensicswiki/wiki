@@ -39,7 +39,7 @@ universally follows a rigid lifecycle:
 * **Identification:** Defining the scope of the incident and locating potential sources of data.
 * **Preservation/Acquisition:** Creating bit-stream, forensically sound duplicates of volatile
   memory and storage media without altering the original data.
-* **Examination & Analysis:** Sifting through system logs, registries, and artifacts to
+* **Examination &amp; Analysis:** Sifting through system logs, registries, and artifacts to
   reconstruct timelines and discover malicious activity.
 * **Reporting:** Documenting and presenting the findings objectively for stakeholders,
   executives, or a court of law.

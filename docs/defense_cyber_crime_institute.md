@@ -8,7 +8,7 @@ based in Linthicum, Maryland. They not only develop new tools, but also
 rigorously test existing tools to make sure they meet the standards for DoD
 investigations. The DCCI consists of four branches:
 
-* Research, Development, Testing & Evaluation - Develops new tools and
+* Research, Development, Testing &amp; Evaluation - Develops new tools and
   tests exiting ones.
 * Analysis and Assessment
 * Plans and Policy

@@ -47,7 +47,7 @@ Simsong
 
 Linux/FreeBSD/Mac OS
 
-Shouldn't this just match what the underlying afflib & sleuthkit cover?
+Shouldn't this just match what the underlying afflib &amp; sleuthkit cover?
 RB
 
 Yes, but you need to test and validate on each. Question: Do we want toCARBON

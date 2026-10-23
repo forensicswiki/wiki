@@ -17,7 +17,7 @@ Presentations, links, references
 
 Open certification process for digital forensics.
 
-[The Leahy center for Digital Forensics & Cybersecurity](https://leahycenterblog.champlain.edu/)
+[The Leahy center for Digital Forensics &amp; Cybersecurity](https://leahycenterblog.champlain.edu/)
 
 [Computer Forensics and Investigations](http://computer-forensics-lab.org/)
 
@@ -121,7 +121,7 @@ fingerprint testing.
   by Gabriele Zambelli
 * [Forensic Incident Response](https://forensicir.blogspot.com/)
 * [Forensicaliente](https://forensicaliente.blogspot.com/)
-* [ForensicKB: Computer Forensics, Malware Analysis, & Digital Investigations](http://www.forensickb.com/),
+* [ForensicKB: Computer Forensics, Malware Analysis, &amp; Digital Investigations](http://www.forensickb.com/),
   by Lance Mueller
 * [Forensics from the sausage factory](https://forensicsfromthesausagefactory.blogspot.com),
   by Richard Drinkwater

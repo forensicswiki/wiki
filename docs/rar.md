@@ -44,10 +44,10 @@ Each Block has the following fields:
 
 Block Fields
 
-The field ADD_SIZE present only if (HEAD_FLAGS & 0x8000) != 0.
+The field ADD_SIZE present only if (HEAD_FLAGS &amp; 0x8000) != 0.
 
-Total block size is HEAD_SIZE if (HEAD_FLAGS & 0x8000) == 0 and
-HEAD_SIZE+ADD_SIZE if the field ADD_SIZE is present - when (HEAD_FLAGS &
+Total block size is HEAD_SIZE if (HEAD_FLAGS &amp; 0x8000) == 0 and
+HEAD_SIZE+ADD_SIZE if the field ADD_SIZE is present - when (HEAD_FLAGS &amp;
 0x8000) != 0.
 
 In each block the followings bits in HEAD_FLAGS have the same meaning:
@@ -143,8 +143,8 @@ Bit Flags for MAIN_HEAD
 | HIGH_PACK_SIZE | 4 | High 4 bytes of 64-bit value of compressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set. |
 | HIGH_UNP_SIZE | 4 | High 4 bytes of 64-bit value of uncompressed file size. Optional value, presents only if bit 0x100 in HEAD_FLAGS is set. |
 | FILE_NAME | NAME_SIZE bytes | File name - string of NAME_SIZE bytes size |
-| SALT | 8 | present if (HEAD_FLAGS & 0x400) != 0 |
-| EXT_TIME | variable size | present if (HEAD_FLAGS & 0x1000) != 0 |
+| SALT | 8 | present if (HEAD_FLAGS &amp; 0x400) != 0 |
+| EXT_TIME | variable size | present if (HEAD_FLAGS &amp; 0x1000) != 0 |
 
 File Header
 

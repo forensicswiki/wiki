@@ -16,7 +16,7 @@ that accomplishes the following tasks:
 ## Requirements
 
 * Windows 98 or later
-* Smart Card Base Components if using Win98, ME & NT 4.0
+* Smart Card Base Components if using Win98, ME &amp; NT 4.0
 * GSM SIM Card Reader
 
 ## Benefits

@@ -41,7 +41,7 @@ sudo apt-get install samba
 ```
 
 Next, create a Samba username and password to use to access the Samba
-share, by running the following command (replacing <username> with the
+share, by running the following command (replacing &lt;username&gt; with the
 username on your machine that you want to use (e.g., root)):
 
 ```bash
@@ -51,7 +51,7 @@ sudo smbpasswd -a <username>
 You should be prompted to enter a password for the user. The prompts
 should look similar to those in the screenshot below:
 
-Next, create a directory to share (replace <share> with whatever you
+Next, create a directory to share (replace &lt;share&gt; with whatever you
 want the shared directory to be named):
 
 ```bash
@@ -67,9 +67,9 @@ sudo vi /etc/samba/smb.conf
 ```
 
 Once you have the smb.conf file open in your editor, go down to the very
-bottom and add the following lines (replacing <share> with the name of
-your shared directory, <pathToShare> with the path to the shared
-directory you created above, and <user> with the Samba user you created
+bottom and add the following lines (replacing &lt;share&gt; with the name of
+your shared directory, &lt;pathToShare&gt; with the path to the shared
+directory you created above, and &lt;user&gt; with the Samba user you created
 above):
 
 ```text
@@ -99,8 +99,8 @@ After Samba restarts, you should be able to access the share using your
 Windows machine. To do so through the command line, type the following
 command (replacing "Z" with the drive letter you want to map the network
 file share to on the Windows machine (choose one that is not already in
-use), <sharingMachineIPAddress> with the IP address of the machine you
-created the share on, and <share> with the name of the shared directory
+use), &lt;sharingMachineIPAddress&gt; with the IP address of the machine you
+created the share on, and &lt;share&gt; with the name of the shared directory
 you created above):
 
 ```text

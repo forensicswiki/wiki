@@ -10,7 +10,7 @@ to file in MIME RFC 822 standard format. Basic purpose of EML file is
 storing email messages as a plain text file in standard file structure.
 It can contain plain ASCII text for headers, main message body,
 attachments and hyperlinks as well. Header comprises of e-mail address
-of sender and recipient, subject, time & date stamp of message.
+of sender and recipient, subject, time &amp; date stamp of message.
 
 ## Overview
 

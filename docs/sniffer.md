@@ -74,7 +74,7 @@ resulting TCP stream.
 * [Wireshark](wireshark.md)
 * [Xplico](xplico.md)
 * [NetworkMiner](networkminer.md)
-* [Cain & Abel](http://www.oxid.it/cain.html)
+* [Cain &amp; Abel](http://www.oxid.it/cain.html)
 * [ettercap](https://ettercap.sourceforge.net/) (unsupported, last
   version - 2005/05/29)
 * [dsniff](https://monkey.org/~dugsong/dsniff/) (obsolete, last stable

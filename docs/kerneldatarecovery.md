@@ -9,7 +9,7 @@ tags:
 Kernel Data Recovery, headquartered in Noida (India), is the leading
 software recovery solution provider that was established in 2005. Kernel
 Data Recovery with the team of more than 300 individuals has provided
-the best data & email recovery and email migration solutions and
+the best data &amp; email recovery and email migration solutions and
 services to more than 2 million technical and non-technical users across
 the globe.
 
@@ -324,7 +324,7 @@ Kernel OST Viewer uses unique programming technology to open and view
 encrypted OST files (password-protected) without necessarily having the
 password.
 
-#### View Deleted items & Attachments
+#### View Deleted items &amp; Attachments
 
 The software facilitates a preview pane for the users to view the total
 list of items contained in OST files. The recovered items are separated
@@ -354,7 +354,7 @@ the available filters (like from, to, subject, received before/after,
 and message has attachments). The find option quickly segregates the
 list of items falling in the defined parameters.
 
-#### Copy & Print Support
+#### Copy &amp; Print Support
 
 The OST Viewer is also enrooted with feature to easily perform copy and
 print of HTML and TXT pages.
@@ -609,7 +609,7 @@ featured with Graphical User Interface to extend the user convenience in
 operating the tool. It is an independent conversion utility that
 requires no additional resources and technical expertise for the
 end-users to obtain the desired results. However, it is essential that
-user has Windows-powered OS, and successfully installed Ghost script &
+user has Windows-powered OS, and successfully installed Ghost script &amp;
 Adobe Acrobat Reader on the host machine.
 
 The software interface maintains user-transparencies of the operation
@@ -803,7 +803,7 @@ available 24\*7.
 Outlook Express Password Recovery tool can recover extremely complex and
 multi-lingual passwords easily. The advanced tool takes hardly any time
 for recovering any kind of password. It displays all email accounts
-alongwith their username & passwords and provides option to save them.
+alongwith their username &amp; passwords and provides option to save them.
 
 #### Ensures Quick Recovery
 

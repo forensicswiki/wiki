@@ -20,7 +20,7 @@ Thumbs.db no longer exists in Vista. This data has been moved to
 mounted encrypted file systems (except
 [EFS](windows_encrypted_file_system.md).
 
-## KDE & GNOME
+## KDE &amp; GNOME
 
 KDE and GNOME are popular desktop environments for
 [Linux](linux.md) and [UNIX](unix.md) platforms. They

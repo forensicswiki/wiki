@@ -41,11 +41,11 @@ To be classified as a legitimate forensic tool-whether its function is data acqu
 filtering, or deep artifact analysis, such software must possess specific core traits aligned with
 Daubert requirements:
 
-* **Strict Data Preservation (Standards & Controls):** The tool must interact with evidence in a
+* **Strict Data Preservation (Standards &amp; Controls):** The tool must interact with evidence in a
   non-destructive manner. For collection utilities, this means enforcing read-only operations via
   write-blockers. For analysis and parsing software, this means ensuring that reading,
   index-building, or rendering the evidence never alters the underlying raw data file or image.
-* **Cryptographic Integrity & Verification (Standards & Controls):** A forensic tool must natively
+* **Cryptographic Integrity &amp; Verification (Standards &amp; Controls):** A forensic tool must natively
   respect and verify cryptographic hashes (such as **SHA-256**). Analysis software must ensure that
   any subsequent sub-extraction or data carving must be proven to leave the primary evidence footprint
   untouched.
@@ -53,7 +53,7 @@ Daubert requirements:
   Given the exact same data input and configurations, an analysis or parsing tool must always yield
   the exact same output. This ensures [reproducibility](reproducibility.md), allowing a third-party
   analyst using independent systems to test, verify, and duplicate the original findings.
-* **Audit Logging and Transparency (Standards & Controls):** The tool must maintain an immutable,
+* **Audit Logging and Transparency (Standards &amp; Controls):** The tool must maintain an immutable,
   **record of its own actions** and internal state transitions during processing. It must track
   (log) performed analytical operations, configuration applied, and crucial **data anomalies or
   parsing failures** encountered. This provides a clear, verifiable audit trail that accounts for
@@ -66,7 +66,7 @@ capabilities against the following benchmarks:
 
 | Evaluation Factor / Daubert Metric | High-Quality Forensic Tool | Low-Quality / Non-Forensic Utility |
 | --- | --- | --- |
-| **Data Ingestion** *(Standards & Controls)* | Strictly read-only or validated write-blocked mapping. | May write temp files, alter access dates, or drop errors. |
+| **Data Ingestion** *(Standards &amp; Controls)* | Strictly read-only or validated write-blocked mapping. | May write temp files, alter access dates, or drop errors. |
 | **Error Handling** *(Known Error Rate)* | Preserves raw bytes via escaping or WTF-8; logs anomalies. | Silently drops malformed strings or uses lossy substitution. |
 | **Processing Logic** *(Peer Review / Testing)* | Fully documented, deterministic, and transparent to the analyst. | Proprietary "black box" automation with hidden dependencies. |
 | **Validation Capability** *(General Acceptance)* | Easily audited alongside independent tools via standardized outputs. | Proprietary outputs lock data into a single vendor ecosystem. |
@@ -86,7 +86,7 @@ UTF-16) or file name edge case. Failing to account for these can result in an un
   formats like **WTF-8** (Wobbly Transformation Format) to keep raw data intact, limiting potential
   error rates even when tool interoperability is challenged.
 
-### Analyst Transparency (Peer Review & Testing)
+### Analyst Transparency (Peer Review &amp; Testing)
 
 Many commercial suites operate as "black boxes," automating artifact extraction behind proprietary
 algorithms. To survive a Daubert challenge, a tool must provide absolute transparency regarding

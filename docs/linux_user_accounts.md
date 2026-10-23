@@ -18,7 +18,7 @@ Files that end with the '~' character (passwd~) are the previous version of the 
 
 ## Home
 
-Home folder of each user is located under '/home/<username>/' and for root home
+Home folder of each user is located under '/home/&lt;username&gt;/' and for root home
 folder is '/root/'.
 
 Artifacts: .bash_history, App specific configuration files and ssh configurations

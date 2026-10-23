@@ -17,16 +17,16 @@ bypass, and influence digital forensic tools.
 To understand why these characters affect tools, one must look at how they function within the
 Unicode standard (and other text encoding standards). Main categories of non-printing characters:
 
-1. **C0/C1 Control Codes & Private Use Areas (PUA):** Legacy control codes (like `U+0000-U+001F`)
+1. **C0/C1 Control Codes &amp; Private Use Areas (PUA):** Legacy control codes (like `U+0000-U+001F`)
    can alter how terminals parse strings, while the PUA block (`U+E000-U+F8FF`) allocates custom
    character slots that render as blank spaces if no custom font is provided.
-2. **Zero-Width Space & Formatting Characters:** Characters like the **Zero-Width Space
+2. **Zero-Width Space &amp; Formatting Characters:** Characters like the **Zero-Width Space
    (`U+200B`)**, **Zero-Width Non-Joiner (`U+200C`)**, and **Zero-Width Joiner (`U+200D`)** consume
    byte space but have no physical rendering width.
 3. **Bidirectional (Bidi) Control Codes:** Explicit control characters like **Right-to-Left
    Override (`U+202E`)** and the newer **Isolate characters (`U+2066`, `U+2067`, `U+2068`)** override
    the text engine's rendering direction.
-4. **Variation Selectors & Tags (VS1-VS256 & U+E0000):** Spanning the `U+FE00-U+FE0F`,
+4. **Variation Selectors &amp; Tags (VS1-VS256 &amp; U+E0000):** Spanning the `U+FE00-U+FE0F`,
    `U+E0100-U+E01EF`, and `U+E0000-U+E007F` blocks, these characters act as invisible tags or
    alternate glyph instructions. A malicious actor can map the entire ASCII range to these hidden
    blocks to build out-of-band payloads.

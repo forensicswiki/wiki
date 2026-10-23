@@ -126,4 +126,4 @@ HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedURLs
 * [Windows 8 Forensics: Internet History Cache](https://cyberarms.wordpress.com/2012/08/21/windows-8-forensics-internet-cache-history/),
   by Ethan Fleisher, August 21, 2012
 * [Forensic Analysis of ESE databases in Internet Explorer 10](https://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf),
-  by Bonnie Malmström & Philip Teveldal, June 2013
+  by Bonnie Malmström &amp; Philip Teveldal, June 2013

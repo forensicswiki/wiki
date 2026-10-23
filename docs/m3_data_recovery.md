@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Organization
 ---
-**M3 Data Recovery** is one of the world's leading & professional data
+**M3 Data Recovery** is one of the world's leading &amp; professional data
 recovery solution and system utilities providers.
 
 ## Data Recovery

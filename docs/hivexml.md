@@ -6,7 +6,7 @@ Hivexml is a command-line program that is part of libguestfs that
 extracts Windows Registry entries from a Hive file into an XML file.
 
 Below is an pretty-printed example of what the XML looks like; note that
-the <value> tags have not been pretty-printed to avoid changing the
+the &lt;value&gt; tags have not been pretty-printed to avoid changing the
 semantics of the file.
 
 ```xml

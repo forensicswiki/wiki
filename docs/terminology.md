@@ -59,7 +59,7 @@ evidence itself is inspected, between acquisition and reporting.
 Note that the word is also used in ordinary English in ways that are not defined here, such
 as a professional examination (e.g. a CFAP examination) or the cross-examination of a witness.
 [Pillars of forensics](pillars_of_forensics.md) combines it with analysis as one stage of the
-methodology, "Examination & Analysis": "Sifting through system logs, registries, and
+methodology, "Examination &amp; Analysis": "Sifting through system logs, registries, and
 artifacts to reconstruct timelines and discover malicious activity".
 
 Examination is also the most court-facing of the three terms:
@@ -121,7 +121,7 @@ finish. The [investigator](investigator.md) article defines the role:
 ### Examiner
 
 The *examiner* performs the forensic *examination* of the evidence: the technical stage
-between acquisition and reporting where the "Examination & Analysis" work happens.
+between acquisition and reporting where the "Examination &amp; Analysis" work happens.
 The duties listed in [computer forensics](computer_forensics.md) apply to "All professionals
 involved in a forensics examination".
 

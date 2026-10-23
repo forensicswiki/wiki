@@ -156,11 +156,11 @@ computer forensics (2011) Journal of Zhejiang University: Science C, 12
 
 Harald Baier, Frank Breitinger: Security Aspects of Piecewise Hashing in
 Computer Forensics, 6th International Conference on IT Security Incident
-Management & IT Forensics (IMF), Stuttgart (Germany). May 2011.
+Management &amp; IT Forensics (IMF), Stuttgart (Germany). May 2011.
 
 Frank Breitinger, Harald Baier: Performance Issues about Context
 Triggered Piecewise Hashing, 3rd International ICST Conference on
-Digital Forensics & Cyber Crime (ICDF2C), Dublin (Ireland). October
+Digital Forensics &amp; Cyber Crime (ICDF2C), Dublin (Ireland). October
 2011.
 
 Wardman, B., Stallings, T., Warner, G., Skjellum, A. High-performance
@@ -211,7 +211,7 @@ International Conference on Security and Cryptography, pp. 333-338.
 
 Frank Breitinger, Knut Petter Åstebøl, Harald Baier, Christoph Busch:
 mvHash-B - A new Approach for Similarity Preserving Hash Function. 7th
-International Conference on IT Security Incident Management & IT
+International Conference on IT Security Incident Management &amp; IT
 Forensics (IMF), Nürnberg (Germany). March 2013.
 
 Christian Rathgeb, Frank Breitinger, Christoph Busch: Alignment-Free
@@ -252,7 +252,7 @@ South Africa (ISSA), 2012, vol., no., pp.1,8, 15-17 Aug. 2012
 
 Frank Breitinger, Harald Baier, Jesse Beckingham: Security and
 Implementation Analysis of the Similarity Digest sdhash, 1st
-International Baltic Conference on Network Security & Forensics
+International Baltic Conference on Network Security &amp; Forensics
 (NeSeFo), Tartu (Estland). August 2012.
 
 Frank Breitinger, Harald Baier: Properties of a Similarity Preserving
@@ -271,5 +271,5 @@ MRSH-v2
 
 Frank Breitinger, Harald Baier: Similarity Preserving Hashing: Eligible
 Properties and a new Algorithm MRSH-v2. 4th International ICST
-Conference on Digital Forensics & Cyber Crime (ICDF2C), Lafayette
+Conference on Digital Forensics &amp; Cyber Crime (ICDF2C), Lafayette
 (Indiana, US). October 2012.

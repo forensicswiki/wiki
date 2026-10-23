@@ -136,7 +136,7 @@ computing, together to the latest "best practices" legal investigation
 digital.
 
 The project Caine was also the subject of a scientific paper accepted
-and published inside the first Workshop on Computer & Network Forensics
+and published inside the first Workshop on Computer &amp; Network Forensics
 held in Milan September 10th 2008 - OSSCoNF.
 
 In followed all close collaboration with Denis Frati (spilled by the

@@ -159,7 +159,7 @@ for any types of corruption issues and errors.
   recovering maximum files in no time
 * Three recovery modes to restore files from different types of
   corruption: Standard, Advanced and RAW recovery
-* Fast & accurate recovery
+* Fast &amp; accurate recovery
 * Supports recovery of corrupted as well as deleted emails
 * Supports recovery of corrupted as well as deleted emails
 * Let users to preview recovered files even before the recovery process
@@ -195,7 +195,7 @@ attachments, internet headers and allow to save them in a new PST file.
 
 ### SQL Database Recovery Tool
 
-*SQL Database Recovery Tool* is one of the best tools to repair &
+*SQL Database Recovery Tool* is one of the best tools to repair &amp;
 Recover Corrupt MS SQL database easily. A reliable Windows based
 recovery tool to perform MS SQL recovery and help users in restoring
 their recovered SQL data files in no time. This software, not only help
@@ -241,7 +241,7 @@ from your corrupt BKF files.
   with the help of tree-structure preview
 * BKF Recovery Tool allows its users to preview more than 200 file
   formats
-* Simple & easy to use GUI
+* Simple &amp; easy to use GUI
 * Snapshot feature for saving and uploading them
 * Compatible with all version of MS Windows
 

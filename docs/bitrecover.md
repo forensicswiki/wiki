@@ -35,11 +35,11 @@ converters for email file formats.
 ### BitRecover Data Recovery Software
 
 Do-it-yourself data recovery software for all version of Windows such
-as Windows 10, 8.1, 8, 7, 2000, XP. Supports files & folders recovery
+as Windows 10, 8.1, 8, 7, 2000, XP. Supports files &amp; folders recovery
 from all major data storage media devices such as SSD, Hard disk, Pen
 drives, Memory cards, SD cards, External hard drives etc and also
 recovers over 100+ file types of Documents, Spreadsheets, Audio, Photos
-& Videos etc.
+&amp; Videos etc.
 
 RecoverBits Partition Data Recovery software helps you recover data
 from lost, deleted or damaged partitions from drives on Windows OS.
@@ -59,7 +59,7 @@ Data recovery software for VDI (Virtual Disk Image) files.
 
 ### VHD Data Recovery
 
-Help you recover & extract your files from a corrupt or damaged .vhd /
+Help you recover &amp; extract your files from a corrupt or damaged .vhd /
 .vhdx files. Supports Microsoft Hyper-V, Microsoft Virtual PC,
 Microsoft Virtual Server virtual machine drive images.
 
@@ -98,7 +98,7 @@ EMLX, RTF, HTML.
 
 ### The Bat Viewer and Converter
 
-The Bat! Viewer & Converter: view and convert your The Bat! tbb email
+The Bat! Viewer &amp; Converter: view and convert your The Bat! tbb email
 messages stored in messages.tbb
 
 ### Thunderbird MSF Viewer

@@ -22,9 +22,9 @@ lock or FRP lock enabled, and should tell you in download mode. The
 guide written is for the Samsung Galaxy series.
 
 Before starting the process make sure your exhibit is 100% fully charged
-and always try the process on a R&D device first. On some devices,
+and always try the process on a R&amp;D device first. On some devices,
 installing a recovery bootloader can unlock the bootloader thereby
-erasing all user data hence the reason to R&D first! *Note: Installing a
+erasing all user data hence the reason to R&amp;D first! *Note: Installing a
 recovery bootloader \*does\* alter the device from it's original state
 but only in that it installs a small bit of software on the system
 partition which allows recovery to happen. The separate user data

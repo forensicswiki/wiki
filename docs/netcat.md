@@ -65,8 +65,8 @@ terminal or command line:
 <command> | nc <forensicWS IP> 2222
 ```
 
-Replace "<command>" with whatever command you are running on the victim
-machine (e,g., "date", "ifconfig", etc.). Replace "<forensicWS IP>" with
+Replace "&lt;command&gt;" with whatever command you are running on the victim
+machine (e,g., "date", "ifconfig", etc.). Replace "&lt;forensicWS IP&gt;" with
 the IP address of your forensic workstation (this can be identified by
 running the "ifconfig" command on UNIX-like systems and the "ipconfig"
 on Windows systems). The "\|" tells the shell to
@@ -77,7 +77,7 @@ only the "standard output" stream will be piped to Netcat. If you need
 the "standard error" stream piped to Netcat as well (see
 <https://en.wikipedia.org/wiki/Standard_streams> for a refresher on
 the differences between streams), add the following text just after your
-command: **2\>&1**). Make sure you replace "2222" with whatever port you
+command: **2\>&amp;1**). Make sure you replace "2222" with whatever port you
 specified for Netcat to use on your forensic workstation above.
 
 If the command is taking longer to run that it should, try pressing the

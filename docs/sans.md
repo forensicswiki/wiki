@@ -20,7 +20,7 @@ collection of research documents about various aspects of information
 security, and it operates the Internet's early warning system - the
 Internet Storm Center.
 
-Computer Security Training & Certification
+Computer Security Training &amp; Certification
 
 SANS provides intensive, immersion training designed to help you and
 your staff master the practical steps necessary for defending systems

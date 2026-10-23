@@ -2,7 +2,7 @@
 tags:
   - Organization
 ---
-ACE is a group of companies specializing in R&D, manufacturing and
+ACE is a group of companies specializing in R&amp;D, manufacturing and
 services in the data recovery field. Under the ACE Lab trademark, ACE
 develops proprietary data recovery technologies, and provides customers
 with the most comprehensive and reliable professional data recovery

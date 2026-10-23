@@ -64,7 +64,7 @@ has been acquired.
 * Recovers deleted data and full flash downloads
 * Supports multiple languages
 * Contains comprehensive HTML reporting and other reporting formats
-* Provides advanced searching including text & hex values
+* Provides advanced searching including text &amp; hex values
 * Contains viewers for proprietary media file formats;
 * Allows viewing of multiple workspaces at one time
 
@@ -97,7 +97,7 @@ Systems:
 * Palm through 5.4
 * Windows CE/Pocket PC/Mobile 5.0 and earlier
 * BlackBerry 4.x and earlier
-* Symbian 6.0, 6.1, 7.X, 8.X, & 9.X
+* Symbian 6.0, 6.1, 7.X, 8.X, &amp; 9.X
 * EPOC 16/32 (Psion devices)
 
 Device Seizure supports GSM SIM cards with use of a SIM card
@@ -113,7 +113,7 @@ Devices with more manufacturers to follow:
 The Device Seizure Toolbox was designed as a collection of the items
 that would be needed in different scenarios for Device Seizure. The
 items in this toolbox in combination with the appropriate software allow
-for acquisitions of hundreds of Cell Phones & PDAs. Please note that the
+for acquisitions of hundreds of Cell Phones &amp; PDAs. Please note that the
 supported model list below is not comprehensive. These cables and
 charging tips may support many more models.
 
@@ -141,7 +141,7 @@ comprehensive analysis of SIM card data. SIM Card Seizure takes the SIM
 Card acquisition and analysis components from Device Seizure
 and puts it into a specialized SIM Card forensic acquisition and
 analysis tool. SIM Card Seizure includes the software as well as a
-Forensic SIM Card Reader. If you already have Device Seizure & the
+Forensic SIM Card Reader. If you already have Device Seizure &amp; the
 Device Seizure Toolbox, there's no need for you to get SIM Card Seizure
 as well because they contain the components to perform a forensic SIM
 Card acquisition and analysis. This tool is for the investigator who
@@ -149,10 +149,10 @@ only wants to acquire SIM Cards and does not want to perform forensic
 exams of all cell phone data.
 
 SIM Card Seizure has unicode support to read multiple languages such as
-Arabic, Chinese, & Russian: Features:
+Arabic, Chinese, &amp; Russian: Features:
 
 * Forensic SIM Card Reader Included
-* Calculates MD5 & SHA1 Hash Values
+* Calculates MD5 &amp; SHA1 Hash Values
 * Search Function
 * Recovers Deleted SMS Data
 * Bookmarking Options

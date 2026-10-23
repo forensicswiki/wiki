@@ -10,7 +10,7 @@ Section](department_of_justice_computer_crime_and_intellectual_property_section.
 Mr. Carroll is also a [SANS](sans.md) Principal Instructor and co-author of
 SANS Forensic 500-Windows Forensic Analysis course and is an adjunct professor
 at George Washington University in the Masters of Forensic Science program
-where he teaches Internet Investigations and Interview & Interrogation.
+where he teaches Internet Investigations and Interview &amp; Interrogation.
 
 Prior to joining the Department of Justice, Mr. Carroll was the Special
 Agent in Charge of the Computer Crimes Unit at the United States Postal

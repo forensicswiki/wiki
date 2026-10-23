@@ -4,7 +4,7 @@ tags:
 ---
 ### JTAG Huawei U8655 Fusion II
 
-This phone is supported by the At&t network. This uses a Qualcomm 7225A
+This phone is supported by the At&amp;t network. This uses a Qualcomm 7225A
 800 MHz Processor and comes standard with Android version 2.3. This
 phone is unsupported by RIFF Box for the JTAG process for resurrector.
 The phone has 4gb Samsung KMSJS000KM-B308 MoviNAND flash memory.

@@ -14,11 +14,11 @@ maintaining scientific validity in digital investigations.
 
 ### Understanding the Errors
 
-* **Observation Errors (Technical & Tool-Driven):** These errors occur when an investigator fails
+* **Observation Errors (Technical &amp; Tool-Driven):** These errors occur when an investigator fails
   to properly record, interpret, or capture digital traces. Examples include relying blindly on
   automated software outputs without understanding tool limitations, overlooking system time offsets
   against an external clock, or failing to identify specific evidence sources.
-* **Observer Errors (Cognitive & Human-Driven):** These stem from the investigator's internal
+* **Observer Errors (Cognitive &amp; Human-Driven):** These stem from the investigator's internal
   biases and cognitive limitations. **Confirmation bias** often causes an analyst to pursue a single,
   selective hypothesis-driven trace while ignoring exculpatory data. Furthermore, a critical observer
   error is **confusing an observation with a conclusion**—such as seeing a URL in a browser history
@@ -43,7 +43,7 @@ all-encompassing.
 | Mitigation Strategy | Operational Action | Target Error Type |
 | --- | --- | --- |
 | **Analysis of Competing Hypotheses (ACH)** | Evaluate a matrix of all feasible explanations against every piece of digital evidence, ensuring the selected conclusion is the one with the least contradictory data, rather than the one with the most supporting data. | Observer (Cognitive) |
-| **Separation of Observation & Conclusion** | Require analysts to write reports where physical/digital observations, such as, keyword matches, Windows Registry keys, are isolated from the expert analysis and conclusions. | Observer (Cognitive) |
+| **Separation of Observation &amp; Conclusion** | Require analysts to write reports where physical/digital observations, such as, keyword matches, Windows Registry keys, are isolated from the expert analysis and conclusions. | Observer (Cognitive) |
 | **Independent Peer Review** | Implement a "blind" secondary review where a separate analyst evaluates the raw data copy without knowing the initial investigator's working hypothesis. Note that such a peer does not have to be a digital forensic analyst. | Observer (Bias) |
 | **Record transient evidence or environmental conditions** | Document environmental conditions such as location of a device, state of a device, time relative to a reliable external clock, etc. | Observation (Technical) |
 | **Behavioral Testing** | Conduct empirical testing by recreating the suspected activity on an identical test environment, same operating system version, applications, and updates, to map out exactly what logs, metadata, and artifacts are generated. | Observation (Technical) |

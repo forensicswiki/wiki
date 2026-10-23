@@ -69,8 +69,9 @@ Windows XP:
 ```
 
 The folders will be named
-`MSHist`<two-digit number><starting four-digit year><starting two-digit month><starting two-digit
-day><ending four-digit year><ending two-digit month><ending two-digit day>.
+`MSHist`&lt;two-digit number&gt;&lt;starting four-digit year&gt;&lt;starting two-digit month&gt;
+&lt;starting two-digit day&gt;&lt;ending four-digit year&gt;&lt;ending two-digit month&gt;
+&lt;ending two-digit day&gt;.
 For example, the folder containing data from March 26, 2008 to March 27,
 2008 might be named `MSHist012008032620080327`.
 
