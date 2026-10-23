@@ -19,8 +19,8 @@ Trigdell](https://en.wikipedia.org/wiki/Andrew_Tridgell).
 
 The program uses an ASCII text file to record fuzzy hashes. The format
 changed slightly in version 2.6 in Sep 2010. Hashes created by the
-version 2.6 or later of the program cannot be used in earlier versions
-<sup>[ref](https://sourceforge.net/projects/ssdeep/)</sup>.
+version 2.6 or later of the program cannot be used in earlier versions.
+
 The contains a header followed by one hash per line. The current header
 is:
 
@@ -36,7 +36,7 @@ The program can be used to associate two files where one is a truncated
 version of the other. In this example, the examiner has a file
 `all-the-kings-men.avi`. She computes a fuzzy hash of his file:
 
-```text
+```bash
 $ ls -lsh
 -rwxr-xr-x 1 jvalenti users 699M Sep 29 2006 all-the-kings-men.avi
 
@@ -50,7 +50,7 @@ ssdeep,1.0--blocksize:hash:hash,filename
 The examiner then creates a second file that contains the first 29% of
 the original. This simulates recovering a partial file in some manner.
 
-```text
+```bash
 $ dd if=all-the-kings-men.avi of=partial.avi bs=1m count=200
 200 0 records in
 200 0 records out
@@ -64,7 +64,7 @@ The examiner can then use the matching mode of ssdeep, the `-m` option,
 to read the known signature generated above and match it against the
 partial file.
 
-```text
+```bash
 $ ssdeep -bm sig.txt partial.avi
 partial.avi matches all-the-kings-men.avi (57)
 ```
@@ -80,13 +80,13 @@ similarities between the two. In this example we have two folders,
 `ssdeep-1.1` and `md5deep-1.12`. First we record the fuzzy hashes, with
 relative filenames (the `-l` switch) to a file:
 
-```text
+```cmd
 C:\> ssdeep -lr md5deep-1.12 > hashes.txt
 ```
 
 Then we compare those saved hashes with the other directory:
 
-```text
+```cmd
 C:\> ssdeep -lrm hashes.txt ssdeep-1.1
 ssdeep-1.1\cycles.c matches md5deep-1.12\cycles.c (94)
 ssdeep-1.1\dig.c matches md5deep-1.12\dig.c (35)
@@ -101,7 +101,7 @@ An advanced examiner can accomplish this matching with just one command
 line, but it will also include all of the matches internal to each
 directory.
 
-```text
+```cmd
 C:\> ssdeep -lrd md5deep-1.12 ssdeep-1.1
 md5deep-1.12\md5.h matches md5deep-1.12\cycles.c (27)
 md5deep-1.12\sha1.h matches md5deep-1.12\cycles.c (25)

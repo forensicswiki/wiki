@@ -17,8 +17,8 @@ contacts, and adds support for Novell GroupWise and Lotus Notes.
 
 | Version | Release date | Features/details |
 | --- | --- | --- |
-| 4.2.1.114 | March 18, 2008<br>(?) | Latest for 8700 series |
-| 4.2.2.194 | March 18, 2008<br>(?) | Latest stable release, ships with new 8300 series and 8800 series phones |
+| 4.2.1.114 | (Presumed) March 18, 2008 | Latest for 8700 series |
+| 4.2.2.194 | (Presumed) March 18, 2008 | Latest stable release, ships with new 8300 series and 8800 series phones |
 | 4.5.0.42 Release 58 | June 8, 2008 | |
 | 4.5.0.37 | June 12, 2008 | Released by Vodafone Germany. Major changes: Video camera, Youtube support, HTML Emails, Voice recording, Improved UI for media player |
 | 4.5.0.44 | June 22, 2008 | |

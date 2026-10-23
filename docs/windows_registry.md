@@ -146,7 +146,10 @@ HKEY_USERS**
 | **Description** | Command Processor Auto Run |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsCommandProcessorAutoRun |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Command Processor<br>HKEY_USERS\%SID%\Software\Microsoft\Command Processor<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Command Processor |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Command Processor |
+| | HKEY_USERS\%SID%\Software\Microsoft\Command Processor |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Command Processor |
 | **Value name(s)** | AutoRun |
 | **Additional information** | <https://technet.microsoft.com/en-us/library/cc779439(v=ws.10).aspx> Command Processor\AutoRun |
 
@@ -164,7 +167,8 @@ HKEY_USERS**
 | **Description** | Browser Helper Objects |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | InternetExplorerBrowserHelperObjects |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
@@ -173,21 +177,24 @@ HKEY_USERS**
 | **Description** | Local Security Authority (LSA) Authentication Packages |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsLSAAuthenticationPackages |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa |
+| | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
 | **Value name(s)** | Authentication Packages |
 | **Additional information** | |
 
 | **Description** | Local Security Authority (LSA) Notification Packages |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsLSANotificationPackages |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa |
+| | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
 | **Value name(s)** | Notification Packages |
 | **Additional information** | |
 
 | **Description** | Local Security Authority (LSA) Security Packages |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsLSASecurityPackages |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa<br>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa |
+| | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig |
 | **Value name(s)** | Security Packages |
 | **Additional information** | |
 
@@ -196,14 +203,36 @@ HKEY_USERS**
 | **Description** | Run keys |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsRunKeys |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\* |
+| | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\* |
+| | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\* |
+| | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\* |
+| | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Run\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnce\Setup\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce\Setup\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceEx\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
 | **Description** | Run services keys |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsRunServices |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce\*<br>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServicesOnce\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServices\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce\* |
+| | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServicesOnce\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunServices\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
@@ -211,16 +240,21 @@ HKEY_USERS**
 
 | **Description** | Session Manager Execute |
 | --- | --- |
-| **[Artifact name](artifacts.md)** | WindowsSessionManagerBootExecute<br>WindowsSessionManagerExecute<br>WindowsSessionManagerSetupExecute |
+| **[Artifact name](artifacts.md)** | WindowsSessionManagerBootExecute |
+| | WindowsSessionManagerExecute |
+| | WindowsSessionManagerSetupExecute |
 | **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager |
-| **Value name(s)** | BootExecute<br>Execute<br>SetupExecute |
+| **Value name(s)** | BootExecute |
+| | Execute |
+| | SetupExecute |
 | **Additional information** | |
 
 | **Description** | Windows Session Manager Windows-on-Windows (WOW) command line |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsSessionManagerWOWCommandLine |
 | **Key path(s)** | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\WOW |
-| **Value name(s)** | cmdline<br>wowcmdline |
+| **Value name(s)** | cmdline |
+| | wowcmdline |
 | **Additional information** | |
 
 ### Service Control Manager
@@ -237,35 +271,45 @@ HKEY_USERS**
 | **Description** | Shell Icon Overlay Identifiers |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsShellIconOverlayIdentifiers |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\*<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
 | **Description** | Shell Extensions |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsShellExtensions |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved |
 | **Value name(s)** | * |
 | **Additional information** | |
 
 | **Description** | Shell Execute Hooks |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsShellExecuteHooks |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
 | **Description** | Shell Load and Run |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsShellLoadAndRun |
-| **Key path(s)** | HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
-| **Value name(s)** | Load<br>Run |
+| **Key path(s)** | HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows |
+| | HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
+| **Value name(s)** | Load |
+| | Run |
 | **Additional information** | |
 
 | **Description** | Shell Service Object Delay Load |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsShellServiceObjects |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad |
 | **Value name(s)** | * |
 | **Additional information** | [TrojanClicker:Win32/Zirit.X](http://www.microsoft.com/security/portal/threat/encyclopedia/Entry.aspx?Name=TrojanClicker:Win32/Zirit.X#tab=2) |
 
@@ -274,70 +318,80 @@ HKEY_USERS**
 | **Description** | Credential Provider Filters |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsCredentialProviderFilters |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Provider Filters\* |
 | **Value name(s)** | * |
 | **Additional information** | [Capturing Windows 7 Credential at logon using custom credential provider](http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/) |
 
 | **Description** | Credential Providers |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsCredentialProviders |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\* |
 | **Value name(s)** | * |
 | **Additional information** | [Capturing Windows 7 Credential at logon using custom credential provider](http://blog.leetsys.com/2012/01/02/capturing-windows-7-credentials-at-logon-using-custom-credential-provider/) |
 
 | **Description** | Pre-Logon Access Provider (PLAP) Providers |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsPLAPProviders |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\*<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\* |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Authentication\PLAP Providers\* |
 | **Value name(s)** | * |
 | **Additional information** | |
 
 | **Description** | Winlogon Gina DLL |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonShell |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | GinaDLL |
 | **Additional information** | |
 
 | **Description** | Winlogon Notify |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonNotify |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\*<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\* |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\* |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\* |
 | **Value name(s)** | DLLName |
 | **Additional information** | |
 
 | **Description** | Winlogon Shell |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonShell |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | Shell |
 | **Additional information** | |
 
 | **Description** | Winlogon System |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonSystem |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | System |
 | **Additional information** | |
 
 | **Description** | Winlogon Taksman |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonTaksman |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | Taksman |
 | **Additional information** | |
 
 | **Description** | Winlogon Userinit |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonUserinit |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | Userinit |
 | **Additional information** | |
 
 | **Description** | Winlogon VMApplet |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsWinlogonVMApplet |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon<br>HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
+| | HKEY_USERS\%SID%\Software\Microsoft\Windows NT\CurrentVersion\Winlogon |
 | **Value name(s)** | VMApplet |
 | **Additional information** | |
 
@@ -346,7 +400,8 @@ HKEY_USERS**
 | **Description** | Windows System Policy replacement shell |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsSystemPolicyShell |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\System |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\System |
 | **Value name(s)** | Shell |
 | **Additional information** | |
 
@@ -355,14 +410,20 @@ HKEY_USERS**
 | **Description** | Active Setup - Installed Components |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsStubPaths |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Active Setup\Installed Components<br>HKEY_USERS\%SID%\Software\Microsoft\Active Setup\Installed Components<br>HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Active Setup\Installed Components |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Active Setup\Installed Components |
+| | HKEY_USERS\%SID%\Software\Microsoft\Active Setup\Installed Components |
+| | HKEY_USERS\%SID%\Software\Wow6432Node\Microsoft\Active Setup\Installed Components |
 | **Value name(s)** | StubPath |
 | **Additional information** | |
 
 | **Description** | Application Initial (AppInit) DLLs persistence |
 | --- | --- |
 | **[Artifact name](artifacts.md)** | WindowsAppInitDLLs |
-| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_USERS\%%users.sid%%\Software\Microsoft\Windows NT\CurrentVersion\Windows<br>HKEY_USERS\%%users.sid%%\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
+| **Key path(s)** | HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows |
+| | HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
+| | HKEY_USERS\%%users.sid%%\Software\Microsoft\Windows NT\CurrentVersion\Windows |
+| | HKEY_USERS\%%users.sid%%\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows |
 | **Value name(s)** | AppInit_DLLs |
 | **Additional information** | |
 

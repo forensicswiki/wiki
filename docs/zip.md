@@ -82,7 +82,7 @@ The creator (or version made by) is 2 bytes of size and consists of:
 
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
-| 0 | 1 | | ZIP format version<br>The value is stored as: ( major number x 10 ) + minor number |
+| 0 | 1 | | ZIP format version. The value is stored as: ( major number x 10 ) + minor number |
 | 1 | 1 | | Creator system indicator |
 
 ##### Creator system indicator
@@ -115,7 +115,7 @@ The creator (or version made by) is 2 bytes of size and consists of:
 
 | Value | Identifier | Description |
 | --- | --- | --- |
-| 0x01 | | If set the uncompressed data needs to be treated as text instead of binary data.<br>This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
+| 0x01 | | If set the uncompressed data needs to be treated as text instead of binary data. This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
 | 0x02 | | If set the file contains control fields for mainframe data transfer support. |
 
 #### External file attributes
@@ -135,7 +135,7 @@ The external attributes UNIX (3) is 4 bytes of size and consists of:
 | --- | --- | --- | --- |
 | 0 | 1 | | FAT (MS-DOS) file attributes. |
 | 1 | 1 | | Unknown |
-| 2 | 16 bits | | The UNIX mode (or permission).<br>The value seems to be similar to stat.st_mode value. |
+| 2 | 16 bits | | The UNIX mode (or permission). The value seems to be similar to stat.st_mode value. |
 
 ## External Links
 

@@ -138,8 +138,7 @@ specific requirements. Upon successful completion of the training and
 exam, the clients will receive an official certificate with CPE points
 for passing the course.
 
-INsig2 [<span style="color:red">GENERAL
-COURSES</span>](https://www.insig2.com/en/educations/computer-hardware)
+INsig2 [GENERAL COURSES](https://www.insig2.com/en/educations/computer-hardware)
 are not related to specific products and their aim is to cover different
 principles and procedures of digital forensics. These trainings are
 enhanced and modified on a regular basis, in line with the latest
@@ -147,13 +146,12 @@ developments in digital forensics and computer security.
 
 Based on many years of experience with providing various courses in the
 field of digital forensics, INsig2 has developed its own
-[<span style="color:red">SPECIALIZED
-COURSES</span>](https://www.insig2.com/en/educations/scripting-digital-forensic-investigator-script).
+[SPECIALIZED COURSES](https://www.insig2.com/en/educations/scripting-digital-forensic-investigator-script).
 They were created on the basis of extensive experience and collaboration
 with a number of clients who required and requested additional skills to
 be developed for their experts.
 
-[<span style="color:red">TAILOR-MADE</span>](https://www.insig2.com/en/educations/more-info-0)
+[TAILOR-MADE](https://www.insig2.com/en/educations/more-info-0)
 courses provide the client with the opportunity to fully focus on their
 learning and development needs, specific to their environment,
 requirements, and the specific skill level of their staff. With
@@ -162,8 +160,7 @@ and activities for active participation and provide a follow-up.
 Customization also includes adjustment of training duration to meet the
 client's goals and expectations.
 
-[<span style="color:red">DIGITAL INTELLIGENCE FORENSICS
-COURSES</span>](https://www.insig2.com/en/educations/operational-analysis)
+[DIGITAL INTELLIGENCE FORENSICS COURSES](https://www.insig2.com/en/educations/operational-analysis)
 consist of two different types of education, Operational - aimed at
 achieving a specific law enforcement outcome and Strategic analysis -
 intended to inform senior decision-makers over the long-term analysis.
@@ -172,31 +169,25 @@ crime trends, and patterns, emerging threats, the potential impact of
 external factors such as technology, demographics, or economics on
 crime.
 
-[<span style="color:red">VENDOR
-COURSES</span>](https://www.insig2.com/en/educations/more-info-1):
+[VENDOR COURSES](https://www.insig2.com/en/educations/more-info-1):
 AccessData, AmpedSoftware, Belkasoft, Berla, BlackBag, BlueBear,
 Cellebrite, Compelson Labs, MagnetForensics, MSAB, NRD Cyber Security,
 NUIX, OpenText, Oxygen Forensics, Sumuri, Teel Technologies
 
 ### Digital Forensics e-learning
 
-INsig2 and Zyber Global Ltd. [Digital Forensics
-<span style="color:red">e-learning
-platform</span>](https://insig2-and-zyberglobal.learnworlds.com/)
+INsig2 and Zyber Global Ltd. [Digital Forensics e-learning platform](https://insig2-and-zyberglobal.learnworlds.com/)
 consists of specially created digital forensics courses intended for
 professionals working in legal, law enforcement, and the private sector.
-INsig2 offers customized courses for [<span style="color:red">LEGAL
-ENTITIES</span>](https://insig2-and-zyberglobal.learnworlds.com/pages/legal-entities)
+INsig2 offers customized courses for [LEGAL ENTITIES](https://insig2-and-zyberglobal.learnworlds.com/pages/legal-entities)
 that focus on deeper aspects of digital forensics and forensic evidence
 while collecting, processing, and presenting digital evidence in
 criminal proceedings. The courses intended for
-[<span style="color:red">LAW
-ENFORCEMENT</span>](https://insig2-and-zyberglobal.learnworlds.com/pages/law-enforcement)
+[LAW ENFORCEMENT](https://insig2-and-zyberglobal.learnworlds.com/pages/law-enforcement)
 officials cover procedures, techniques, and tools used in digital
 forensics analysis and how they can apply them in their forensic
 investigations. For the various industry professionals working in the
-[<span style="color:red">PRIVATE
-SECTOR</span>](https://insig2-and-zyberglobal.learnworlds.com/pages/business),
+[PRIVATE SECTOR](https://insig2-and-zyberglobal.learnworlds.com/pages/business),
 tailored courses help them understand the value and the need for digital
 forensics, and its implications in a corporate environment
 
@@ -263,25 +254,7 @@ This is part of INsig2 efforts to promote digital forensic discipline
 and to inform all interested parties in the region about new trends in
 the field of digital forensic.
 
-## WEBSITES AND SOCIAL MEDIA
+## External Links
 
-### Websites
-
-Visit the INsig2 website
-[<span style="color:red">here</span>](https://www.insig2.com/en)
-
-Visit the INsig2 Digital Forensics e-learning platform
-[<span style="color:red">here</span>](https://insig2-and-zyberglobal.learnworlds.com/)
-
-### Social Media
-
-Follow INsig2 on:
-
-[<span style="color:red">LinkedIn</span>](https://www.linkedin.com/company/insig2)
-[<span style="color:red">Twitter</span>](https://twitter.com/INsig2_Ltd)
-
-## CONTACT DETAILS
-
-Email: training@insig2.com
-
-Tel: +385 (1) 6386 600
+* [INsig2 website](https://www.insig2.com/en)
+* [INsig2 Digital Forensics e-learning platform](https://insig2-and-zyberglobal.learnworlds.com/)

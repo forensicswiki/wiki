@@ -23,10 +23,10 @@ authentic, they can often show that a message has been forged.
 In this case, the forger, when creating a fake email, reuses the headers
 belonging to an earlier message. The examiner need only compare the
 Message-ID from the email in question to all of the other email messages
-in the world. Ok, probably not <em>all</em> of the other email messages
+in the world. Ok, probably not *all* of the other email messages
 out there. Usually just the messages on the systems in question are good
 enough. But finding the same message id on the "smoking gun" email
-<em>and</em> an old guacamole recipe can be used as evidence that a
+*and* an old guacamole recipe can be used as evidence that a
 message was forged.
 
 ## Impossible Message ID

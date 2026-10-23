@@ -19,7 +19,7 @@ The gzip file (.gz) format consists of:
 | Characteristics | Description |
 | --- | --- |
 | Byte order | little-endian |
-| Date and time values | POSIX timestamp<br>Number of seconds since January 1, 1970 00:00:00 UTC |
+| Date and time values | POSIX timestamp. Number of seconds since January 1, 1970 00:00:00 UTC |
 | Character strings | ISO 8859-1 (LATIN-1) |
 
 ### File header
@@ -31,9 +31,9 @@ The file header is 10 bytes in size and contains:
 | 0 | 2 | 0x1f 0x8b | Signature (or identification byte 1 and 2) |
 | 2 | 1 | | Compression Method |
 | 3 | 1 | | Flags |
-| 4 | 4 | | Last modification time<br>Contains a POSIX timestamp. |
+| 4 | 4 | | Last modification time. Contains a POSIX timestamp. |
 | 8 | 1 | | Compression flags (or extra flags) |
-| 9 | 1 | | Operating system<br>Value that indicates on which operating system the gzip file was created. |
+| 9 | 1 | | Operating system. Value that indicates on which operating system the gzip file was created. |
 
 #### Compression method
 
@@ -46,7 +46,7 @@ The file header is 10 bytes in size and contains:
 
 | Value | Identifier | Description |
 | --- | --- | --- |
-| 0x01 | FTEXT | If set the uncompressed data needs to be treated as text instead of binary data.<br>This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
+| 0x01 | FTEXT | If set the uncompressed data needs to be treated as text instead of binary data. This flag hints end-of-line conversion for cross-platform text files but does not enforce it. |
 | 0x02 | FHCRC | The file contains a header checksum (CRC-16) |
 | 0x04 | FEXTRA | The file contains extra fields |
 | 0x08 | FNAME | The file contains an original file name string |
@@ -106,7 +106,7 @@ The extra field are variable of size and contains:
 
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
-| 0 | 2 | | Extra field data size<br>Value in bytes. |
+| 0 | 2 | | Extra field data size. Value in bytes. |
 | 2 | ... | | Extra field data |
 
 #### Original file name
@@ -141,7 +141,7 @@ The file footer is 8 bytes in size and contains:
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
 | 0 | 4 | | Checksum (CRC-32) |
-| 4 | 4 | | Uncompressed data size<br>Value in bytes. |
+| 4 | 4 | | Uncompressed data size. Value in bytes. |
 
 ## See Also
 

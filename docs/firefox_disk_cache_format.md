@@ -49,7 +49,7 @@ File named:
 <hash number><type><generation number>
 ```
 
-Where &gt;hash number&lt;, &gt;type&lt;, &gt;generation number&lt; are
+Where &lt;hash number&gt;, &lt;type&gt;, &lt;generation number&gt; are
 placeholders for the corresponding values.
 
 ## Cache version 2

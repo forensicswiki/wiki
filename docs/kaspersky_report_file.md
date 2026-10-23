@@ -25,15 +25,15 @@ The file header is 80 bytes of size and consists of:
 | 0 | 4 | "RPD2" | Signature |
 | 4 | 4 | 2 | Unknown, version? |
 | 8 | 8 | | Unknown (empty values?) |
-| 16 | 4 | | Unknown A<br>Next available record number or 0? |
+| 16 | 4 | | Unknown A. Next available record number or 0? |
 | 20 | 4 | 0x1000 | Unknown (record index size?) |
 | 24 | 4 | | Unknown (Record offset?) |
 | 28 | 4 | | Unknown (empty value) |
 | 32 | 4 | | File size |
 | 36 | 4 | | Unknown (empty value) |
-| 40 | 8 | | Unknown timestamp<br>Creation time? |
-| 48 | 8 | | Unknown timestamp<br>Last write time? |
-| 56 | 8 | | Unknown timestamp<br>Access time? |
+| 40 | 8 | | Unknown timestamp. Creation time? |
+| 48 | 8 | | Unknown timestamp. Last write time? |
+| 56 | 8 | | Unknown timestamp. Access time? |
 | 64 | 8 | | Unknown (empty values?) |
 | 72 | 4 | | Next available record number? |
 | 76 | 4 | | Unknown (empty value) |
@@ -46,7 +46,7 @@ The file header is 80 bytes of size and consists of:
 
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
-| 0 | 4 | | Record offset<br>The offset is relative to the start of the file |
+| 0 | 4 | | Record offset. The offset is relative to the start of the file |
 | 4 | 4 | | Unknown (empty value) |
 | 8 | 4 | | Record number |
 | 12 | 4 | | Unknown (empty value) |
@@ -57,8 +57,8 @@ The file header is 80 bytes of size and consists of:
 
 | Offset | Size | Value | Description |
 | --- | --- | --- | --- |
-| 0 | 4 | | Log record data size<br>Log record size = Log record data size + 12 |
-| 4 | 8 | | Unknown timestamp<br>Creation time? |
+| 0 | 4 | | Log record data size. Log record size = Log record data size + 12 |
+| 4 | 8 | | Unknown timestamp. Creation time? |
 | 12 | ... | | Log record data |
 
 ### Log record data
