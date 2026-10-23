@@ -16,7 +16,7 @@ other files and/or starting parameters the malicious process used. String
 analyzers are able to sift through files and pull out only the strings that
 are most likely to include pertinent information, using the criteria given
 to them. The [strings analysis](strings_analysis.md) article describes the
-methodology in more detail.
+analysis technique in more detail.
 
 Most [Linux](linux.md) distributions and other UNIX-like operating systems
 have a strings program included. If you want to use strings on Windows, check
