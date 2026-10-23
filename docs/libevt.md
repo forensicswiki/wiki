@@ -1,7 +1,7 @@
 ---
 tags:
   - Libyal
-  - Analysis
+  - Log Analysis
   - LGPL
   - Tools
 ---

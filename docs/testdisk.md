@@ -3,7 +3,7 @@ tags:
   - Data Recovery
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - Solaris

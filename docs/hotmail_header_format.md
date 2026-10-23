@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Hotmail email header format:
 

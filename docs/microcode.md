@@ -1,6 +1,6 @@
 ---
 tags:
-  - Micro processor
+  - Microprocessor
 ---
 From [Wikipedia](https://en.wikipedia.org/wiki/Microcode):
 

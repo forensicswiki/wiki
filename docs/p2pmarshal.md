@@ -5,7 +5,6 @@ tags:
   - Disk Analysis
   - Tools
   - Windows
-  - Windows
 ---
 P2P Marshal is a program that helps an investigator discover and analyze
 file sharing software on a disk.

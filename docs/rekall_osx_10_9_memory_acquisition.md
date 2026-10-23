@@ -1,6 +1,6 @@
 ---
 tags:
-  - MacOS
+  - Mac OS
   - Memory Analysis
   - Memory Imaging
 ---

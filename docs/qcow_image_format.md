@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Disk Image
+  - Disk Image Format
   - File Formats
 ---
 QEMU files to store a disk image.

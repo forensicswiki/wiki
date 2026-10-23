@@ -2,7 +2,7 @@
 tags:
   - Live Analysis
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

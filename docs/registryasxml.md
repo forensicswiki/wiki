@@ -1,8 +1,7 @@
 ---
 tags:
-  - Analysis
   - Discontinued
-  - Registry Analysis
+  - Windows Registry Analysis
   - Tools
   - Windows
 ---

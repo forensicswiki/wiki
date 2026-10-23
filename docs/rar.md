@@ -1,6 +1,6 @@
 ---
 tags:
-  - Archive
+  - Archive Format
   - File Formats
 ---
 RAR Archives (Roshal ARchive file format) are a proprietary

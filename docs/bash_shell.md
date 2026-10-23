@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Tools
   - Linux
-  - MacOS
+  - Mac OS
   - FreeBSD
   - NetBSD
   - OpenBSD

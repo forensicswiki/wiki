@@ -4,7 +4,7 @@ tags:
   - Data Recovery
   - Disk Analysis
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

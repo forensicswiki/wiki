@@ -3,7 +3,7 @@ tags:
   - File Formats
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - Text

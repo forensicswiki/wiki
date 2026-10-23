@@ -290,81 +290,140 @@ tags:
 
 Tags should describe the content of the article and should be applied uniformly across all the
 content. This will help users discover the content more easily. Multiple topics could apply to one
-article. For example, a page tagged with `Tool` would also likely benefit from a tag denoting the
-appropriate Operating System, Software type, and Analysis type.
+article. For example, a page tagged with `Tools` would also likely benefit from tags denoting
+the appropriate operating system, software type, and analysis type.
 
 See examples below the table.
 
 | Tag | Description |
 | --- | --- |
-| Android | Mobile Operating Systems |
-| Anti-Forensics | Analysis Types |
-| Archive | File Types |
-| Audio | File Types |
-| Binary | File Types |
-| BlackberryOS | Mobile Operating Systems |
-| BSD | Operating Systems |
-| Cell Phone Analysis | Analysis Types |
-| Commercial Software | Software Type |
-| Computer Bus | Hardware Types |
-| Concept | Concept |
-| Database | File Types |
-| Data Carving | Analysis Types |
-| Data Recovery | Analysis Types |
-| Discontinued | Abandoned, deprecated or discontinued tools |
-| Disk Analysis | Analysis Types |
-| Disk Encryption | Encryption |
-| Disk Image | File Types |
-| Disk Imaging | Analysis Types |
-| Email Analysis | Analysis Types |
-| Encryption | Encryption |
-| File Analysis | Analysis Types |
-| File Format | File Types |
-| File System | Analysis Types |
-| Free Software | Software Type |
-| GPS | Hardware Types |
-| Hard Drive | Hardware Types |
-| iOS | Mobile Operating Systems |
-| Knowledge Base | Repository of factual information |
-| Legal | Law, Legal |
-| Linux | Operating Systems |
-| Log Analysis | Analysis Types |
-| macOS | Operating Systems |
-| Malware Analysis | Analysis Types |
-| Memory Analysis | Analysis Types |
-| Memory | Hardware Types |
-| Memory Imaging | Analysis Types |
-| Microprocessor | Hardware Types |
-| Mobile | Mobile |
-| Mobile Networks | Mobile |
-| Network Analysis | Analysis Types |
-| Network Encryption | Encryption |
-| Open Source Software | Software Type |
-| Operating System | Operating Systems |
-| Organizations | Non-vendor companies, Government |
-| OS Component | OS Components |
-| PalmOS | Mobile Operating Systems |
-| People | People |
-| Personal Device | Hardware Types |
-| Photo | File Types |
-| Publications | Blogs, Books, Journals, Magazines, Papers, Websites |
-| Public Domain Software | Software Type |
-| Registry Analysis | Analysis Types |
-| Reports | Knowledge |
-| Secure Deletion | Analysis Types |
-| SIM | Mobile |
-| Symbian | Mobile Operating Systems |
-| System Analysis | Analysis Types |
-| System Monitoring | Analysis Types |
-| Text | File Types |
-| Timeline Analysis | Analysis Types |
-| Tools | Tools |
-| Training | Training |
-| Unix | Operating Systems |
-| Vendor | Software Vendors, Training Vendor |
-| Windows Mobile | Mobile Operating Systems |
-| Windows | Operating Systems |
-| Write Blockers | Hardware Types |
+| AIX | The AIX operating system from IBM. |
+| Analysis | General analysis topics. Prefer a more specific analysis tag where applicable. |
+| Analysis Techniques | General forensic analysis techniques - discrete, tactical actions used to extract, parse, or interpret data from specific digital artifacts. |
+| Android | The Android operating system for mobile devices and tablets. |
+| Anti-Forensics | Techniques and tools to hide, destroy, or defeat forensic analysis. |
+| Antivirus | Antivirus and anti-malware software. |
+| Applications | Applications and the forensic artifacts they produce. |
+| Archive Format | Archived and compressed file formats, e.g. ZIP, RAR, and tar. |
+| Articles that need to be expanded | Process tag marking articles that still need work. |
+| Artifact Analysis | Forensic analysis of operating system and application artifacts. |
+| Audio Format | Audio file formats and audio data. |
+| Bibliographies | Bibliographies of the literature on a digital forensics topic. |
+| Binary Analysis | Analysis of binary code and compiled programs. |
+| BlackberryOS | Operating systems for BlackBerry devices. |
+| Books | Books on digital forensics and lists of books. |
+| ChromeOS | Chrome OS, the operating system from Google. |
+| Cloud Forensics | Forensic acquisition and analysis of data stored in cloud services. |
+| Commercial Hardware | Commercial hardware products for digital forensics. |
+| Commercial Software | Proprietary commercial software products. |
+| Computer Bus | Computer bus interfaces such as USB and FireWire. |
+| Concept | Concepts and definitions in digital forensics. |
+| Conferences | Conferences and events focused on digital forensics. |
+| Cryptography | Cryptography and its forensic applications. |
+| Data Carving | Recovering files from raw data using content signatures. |
+| Data Recovery | Recovering lost or deleted data from storage media. |
+| Database | Databases and database-based forensic artifacts. |
+| Database File Formats | File formats used to store database content. |
+| Debugging | Debugging techniques and tools relevant to forensics. |
+| Desktop Environments | Desktop environments and their forensic artifacts. |
+| Desktop Search | Desktop search tools and their indices. |
+| Disassembly | Reading and interpreting disassembled code. |
+| Discontinued | Tools and software that have been abandoned, deprecated, or discontinued. |
+| Disk Analysis | Forensic analysis of disk storage media. |
+| Disk Encryption | Encryption of disks and volumes, e.g. BitLocker, FileVault, and LUKS. |
+| Disk Image Format | File formats used to store disk images, e.g. AFF4, EWF, and RAW. |
+| Disk Imaging | Creating forensic images of disk storage media. |
+| Email Analysis | Forensic analysis of email messages, headers, and mail stores. |
+| Encryption | Encryption and its forensic implications. |
+| Executable File Format | Executable file formats such as PE/COFF, NE, ELF, and Mach-O. |
+| File Analysis | Forensic analysis of individual files and their contents. |
+| File Formats | File formats and binary data structures relevant to forensics. |
+| File Systems | File systems and on-disk structures, e.g. NTFS, ext, and APFS. |
+| Free Software | Software that is free to use, at no monetary cost, whether or not open source. |
+| FreeBSD | The FreeBSD operating system. |
+| Gaming | Video games, game consoles, and related forensic topics. |
+| Hard Drives | Hard drives and related storage devices. |
+| Hardware | Hardware relevant to digital forensics. |
+| Hashing | Hash functions and forensic hashing techniques. |
+| Howtos | Step-by-step how-to articles. |
+| Incident Response | Incident response procedures, tools, and artifacts. |
+| Investigations | Digital investigations and investigative methods. |
+| Knowledge Base | Repositories of factual reference information. |
+| Legal | Legal aspects of digital forensics, e.g. evidence and admissibility. |
+| Linux | The Linux family of operating systems. |
+| Live Analysis | Analysis of a case performed on a running system. |
+| Live CD | Bootable live media used for forensic analysis. |
+| Live Forensics | Acquisition of evidence from a running system. |
+| Log Analysis | Forensic analysis of log files. |
+| Mac OS | Apple's Mac OS operating system. |
+| Malware | Malware and its forensic analysis. |
+| Memory | Computer memory (RAM) and memory hardware. |
+| Memory Analysis | Forensic analysis of the contents of memory (RAM). |
+| Memory Imaging | Capturing the contents of memory (RAM) into an image. |
+| Microprocessor | Processors (CPUs) and processor-related topics. |
+| Mobile | Mobile device forensics in general. |
+| Mobile Device Tools | Tools for mobile device forensics and data extraction. |
+| Mobile Forensics | Forensic acquisition and analysis of mobile device data. |
+| Mobile Operating Systems | Operating systems for mobile devices. |
+| NetBSD | The NetBSD operating system. |
+| Network Analysis | Forensic analysis of network traffic and protocols. |
+| Network Forensics | Detection, capture, and analysis of network activity. |
+| No Category | Process tag marking articles that have not been categorized. |
+| Null Byte Hashes | Recorded MD5 and SHA-1 hashes of sequences of null bytes. |
+| Online File Storage | Cloud file storage services and their forensic aspects. |
+| Open Source Software | (Free) Open Source Software (FOSS) - software that is open source and free to use. |
+| OpenBSD | The OpenBSD operating system. |
+| Operating Systems | Operating systems in general, across specific operating systems. |
+| Organization | Institutions, agencies, and non-vendor companies in forensics. |
+| Papers | Research papers on digital forensics. |
+| People | People who work in or contribute to digital forensics. |
+| Personal Devices | Personal and consumer computing devices. |
+| Photo | Image file formats and image analysis. |
+| Preservation | Preserving the integrity of evidence and data. |
+| Programming | Programming topics relevant to digital forensics. |
+| Public Domain Software | Software released into the public domain. |
+| Publications | Collections of digital forensics publications, e.g. journals, books, and websites. |
+| Quality Assurance | Ensuring the accuracy and quality of forensic work. |
+| Redirect | Redirect pages that point to the canonical article. |
+| Research | Academic research and research projects in digital forensics. |
+| Reversing | Reverse engineering of programs and protocols. |
+| SIM | SIM cards and cellular subscriber data. |
+| Secure Deletion | Sanitizing media so that stored data cannot be recovered. |
+| Security Software | Security software, including antivirus and host protection. |
+| Software | Software in general, where no more specific software tag applies. |
+| Solaris | The Solaris operating system. |
+| System Analysis | Forensic analysis of whole operating systems. |
+| System Monitoring | Monitoring of running systems and their activity. |
+| Text | Text-based file formats and textual evidence. |
+| Threat Intelligence | Cyber threat intelligence and its forensic use. |
+| Timeline Analysis | Building and analyzing timelines from forensic artifacts. |
+| Tools | Software tools used in digital forensics. |
+| Training | Training courses, certifications, and education programs. |
+| Vendor | Companies that provide products or training for digital forensics. |
+| Virtual Disk | Virtual disk images, e.g. VDI, VHD, and VMDK. |
+| Virtualization | Virtual machines and virtualized forensic environments. |
+| Volume Systems | Volume schemes such as MBR, GPT, LVM, and LDM. |
+| Web Browsers | Web browsers and their forensic artifacts. |
+| Websites | Websites and website collections relevant to digital forensics. |
+| Windows | The Microsoft Windows operating system. |
+| Windows Mobile | The Windows Mobile operating system. |
+| Windows Registry Analysis | Forensic analysis of the Windows Registry. |
+| Wireless | Wireless communication and wireless forensics. |
+| Write Blocker | Hardware and software write blockers. |
+| XML-based format | XML-based file formats and specifications. |
+| iOS | Apple's iOS operating system for iPhone and iPad. |
+
+Special purpose tags, including some inherited from MediaWiki times.
+
+| Tag | Description |
+| --- | --- |
+| Active Directory | Microsoft's directory service for users, computers, and permissions. |
+| Digital Forensics XML | The DFXL standard for exchanging forensic data. |
+| Disassembler | Tools that disassemble compiled programs. |
+| Download Managers | Download manager software and its forensic artifacts. |
+| GPL | The GNU General Public License (GPL) for software. |
+| LGPL | The GNU Lesser General Public License for software libraries. |
+| Libyal | The libyal set of open-source parser libraries. |
 
 ### Tagging examples
 
@@ -377,14 +436,14 @@ An article about the Windows operating system in general.
 ```yaml
 ---
 tags:
-  - Operating System
+  - Operating Systems
   - Windows
 ---
 ```
 
 #### Example 2: An article about an open source Linux/macOS tool that parses logs in /var/messages
 
-An article about a tool should contain the operating systems it supports (Linux and macOS), what
+An article about a tool should contain the operating systems it supports (Linux and Mac OS), what
 the tool is used for (in this case, Log Analysis), and the software type: Open Source Software.
 
 ```yaml
@@ -392,7 +451,7 @@ the tool is used for (in this case, Log Analysis), and the software type: Open S
 tags:
   - Linux
   - Log Analysis
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
 ---
@@ -416,25 +475,25 @@ Bitlocker is a type of "Encryption", available only for "Windows", and might be 
 
 #### Example 4: An article about the ZIP file format
 
-File types are tagged with File Format and the file type. In this case, ZIP files are Archive
+File types are tagged with File Formats and the file type. In this case, ZIP files are Archive Format
 files.
 
 ```yaml
 ---
 tags:
-  - Archive
-  - File Format
+  - Archive Format
+  - File Formats
 ---
 ```
 
 #### Example 5: An article about Windows System Restore Points
 
-Windows System Restore Points are part of the operating system ("OS Component") of Windows.
+Windows System Restore Points are an artifact of the Windows operating
+system, so the article is tagged with that operating system.
 
 ```yaml
 ---
 tags:
-  - OS Component
   - Windows
 ---
 ```

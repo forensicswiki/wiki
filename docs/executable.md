@@ -1,11 +1,11 @@
 ---
 tags:
-  - Binary
+  - Executable File Format
   - ChromeOS
   - File Formats
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - Solaris

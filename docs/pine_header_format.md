@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Pine composes headers in the following format:
 

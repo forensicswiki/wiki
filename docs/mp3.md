@@ -1,6 +1,6 @@
 ---
 tags:
-  - Audio
+  - Audio Format
   - File Formats
 ---
 The **MPEG-1 Audio Layer 3** format is a commonly-used lossy music format.

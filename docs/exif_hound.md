@@ -3,7 +3,7 @@ tags:
   - File Analysis
   - Free Software
   - Linux
-  - macOS
+  - Mac OS
   - Open Source Software
   - Photo
   - Tools

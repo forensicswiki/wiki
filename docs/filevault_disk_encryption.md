@@ -2,7 +2,7 @@
 tags:
   - Disk Encryption
   - Encryption
-  - MacOS
+  - Mac OS
   - Anti-Forensics
   - Articles that need to be expanded
 ---

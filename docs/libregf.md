@@ -1,7 +1,7 @@
 ---
 tags:
   - Libyal
-  - Analysis
+  - Windows Registry Analysis
   - LGPL
   - Tools
 ---

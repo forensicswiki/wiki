@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - MacOS
+  - Mac OS
 ---
 Apple's Transparency, Consent, Control (TCC) framework
 

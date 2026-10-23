@@ -2,7 +2,7 @@
 tags:
   - Data Recovery
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

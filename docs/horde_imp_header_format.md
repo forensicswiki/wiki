@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Horde Internet Messaging Program (IMP)
 

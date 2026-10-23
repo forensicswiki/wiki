@@ -1,6 +1,5 @@
 ---
 tags:
-  - Error Mitigation
   - Knowledge Base
   - Open Source Software
   - Quality Assurance

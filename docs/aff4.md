@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Disk Image
+  - Disk Image Format
   - File Formats
 ---
 The Advanced Forensic Framework 4, or AFF4 was developed by [Michael Cohen](michael_cohen.md),

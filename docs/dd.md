@@ -2,7 +2,7 @@
 tags:
   - Linux
   - Windows
-  - MacOS
+  - Mac OS
   - FreeBSD
   - Disk Imaging
   - Tools

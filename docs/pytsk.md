@@ -5,7 +5,7 @@ tags:
   - Open Source Software
   - Articles that need to be expanded
   - Windows
-  - MacOS
+  - Mac OS
   - Linux
 ---
 Python-bindings for the [The Sleuth Kit](the_sleuth_kit.md) library (libtsk).

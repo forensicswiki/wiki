@@ -1,6 +1,6 @@
 ---
 tags:
-  - Disk Image
+  - Disk Image Format
   - File Formats
 ---
 The Encase image file format is used by [EnCase](encase.md) used

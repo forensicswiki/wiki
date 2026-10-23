@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 GMX email header:
 

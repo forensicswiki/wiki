@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Windows
   - Linux
-  - MacOS
+  - Mac OS
   - FreeBSD
 ---
 ACLs are Access Control Lists. These might be useful for some forensic

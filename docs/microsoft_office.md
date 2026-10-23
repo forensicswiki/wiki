@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Log Analysis
 ---
 ## EventLogs
 

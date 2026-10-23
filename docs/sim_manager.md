@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mobile device tools
+  - Mobile Device Tools
 ---
 SIM Manager is a program designed to read the contents of a SIM card
 and display it in a human readable form. It is compatible with 2G, 3G
