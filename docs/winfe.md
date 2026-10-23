@@ -50,7 +50,7 @@ mounting of storage devices the user has to mount the storage drive
 manually by using the command-line tool DiskPart, while the evidence
 drive does not need to be mounted for imaging/forensic access.
 
-The latest modification (New for Windows 8) to the registry is SAN
+The latest modification (New for Windows 8) to the Registry is SAN
 policy 4. SAN policy 4 Makes internal disks offline. Note. All external
 disks and the boot disk are online.
 

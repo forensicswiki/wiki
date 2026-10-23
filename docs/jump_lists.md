@@ -21,7 +21,7 @@ The AutomaticDestinations Jump List files are located in the user
 profile path:
 
 Path:
-C:\Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
 
 Files: \*.automaticDestinations-ms
 
@@ -58,7 +58,7 @@ The CustomDestinations Jump List files are located in the user profile
 path:
 
 Path:
-C:\Users\\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
 
 Files: \*.customDestinations-ms
 

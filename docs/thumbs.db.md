@@ -32,7 +32,7 @@ mounted encrypted file systems (except
 
 In Windows 7, thumbs.db files are not created under normal usage when a
 user browses a folder in explorer. However, they are created if the same
-folder is browsed through its network path such as via \\\localhost\c\$.
+folder is browsed through its network path such as via \\localhost\c\$.
 These files do not follow the xp thumbs.db format. The format is still
 an OLE container but without the Catalog stream and with a few other
 changes.
@@ -41,8 +41,8 @@ changes.
 
 In Windows 8 and 8.1, both thumbcache and thumbs.db are present.
 Thumbs.db will only be created in folders which reside under a user
-profile folder (C:\Users\USERNAME\\\*). But accessing other folders
-using their network paths such as \\\localhost\c\$ will create thumbs.db
+profile folder (C:\Users\USERNAME\*). But accessing other folders
+using their network paths such as \\localhost\c\$ will create thumbs.db
 in other folders as well. The format of these thumbs.db files is the
 same as Windows 7 thumbs.db.
 

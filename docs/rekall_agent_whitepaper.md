@@ -582,8 +582,8 @@ To summarize this section, we have seen that:
 A hunt is an operation which allows multiple clients to do the same flow
 at the same time. The results from the hunt are merged together and
 reported over the entire fleet. For example, a hunt might be run in
-order to search for a particular file glob or registry key across all
-machines.
+order to search for a particular file glob or Windows Registry key across
+all machines.
 
 Hunts are typically issued on some subset of clients (e.g. all Windows
 machines or all machines of a given label).

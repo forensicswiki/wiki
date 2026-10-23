@@ -14,7 +14,7 @@ See [Thumbs.db](thumbs.db.md).
 *See [Windows thumbcache](windows_thumbcache.md)*
 
 Thumbs.db no longer exists in Vista. This data has been moved to
-*\Users\\\AppData\Local\Microsoft\Windows\Explorer*
+*\Users\AppData\Local\Microsoft\Windows\Explorer*
 
 [Windows](windows.md) Vista will save thumbnails for files on
 mounted encrypted file systems (except

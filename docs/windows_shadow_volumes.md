@@ -51,7 +51,7 @@ Windows XP uses a simple mechanism- the moment an application attempts
 to overwrite any system file, Windows XP makes a copy of the file and
 saves that file to a separate folder. That way, in Windows XP, system
 restore will not affect a user's documents, but only files such as dll,
-exe, and registry files, along with a few others.
+exe, and Registry files, along with a few others.
 
 ### Windows Vista, Windows 7, and Server 2008
 

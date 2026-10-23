@@ -101,7 +101,7 @@ format strings.
 
 When event viewer (or other log viewing tools) displays log records, it
 has to determine which DLLs store the message templates. This linking
-information is stored in the registry, and is specific to each type of
+information is stored in the Windows Registry, and is specific to each type of
 log (System, Security, Application, etc). These entries ultimately point
 out a list of DLLs which contain the message templates. Each log record
 contains a relative virtual address (RVA) to reference the associated
@@ -112,7 +112,7 @@ reference a message template.
 All of this means that EVT files aren't really complete on their own.
 The files which store the core meaning of the log entry are separate
 from the logs themselves and this creates several analysis problems.
-First of all, an attacker could modify DLLs or the registry in order to
+First of all, an attacker could modify DLLs or the Windows Registry in order to
 change the meaning of logs without having to touch the EVT file at all.
 Secondly, when software is uninstalled in the future, it could cause
 some EVT records to lose their context. Finally, EVT files aren't

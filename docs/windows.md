@@ -230,7 +230,7 @@ is a system time change event (event id 1) in the event logs.
 ### Users
 
 Windows stores a users Security identifiers (SIDs) under the following
-registry key:
+Registry key:
 
 ```text
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
@@ -260,7 +260,7 @@ found in:
 C:\Users\%UserName%\AppData\Local\Microsoft\Windows\WER\
 ```
 
-Corresponding registry key:
+Corresponding Windows Registry key:
 
 ```text
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting
@@ -281,7 +281,10 @@ Servers 2012 and above, recording client usage by role and product on
 each system providing the resource. It's typically between 2 and 4
 extensible storage engine (ESE) databases ("Current.mdb",
 "SystemIdentity.mdb, and "&lt;GUID&gt;.mdb"). The files location:
-'%%environ_systemroot%%\System32\LogFiles\SUM\\\*.mdb'
+
+```text
+%%environ_systemroot%%\System32\LogFiles\SUM\*.mdb
+```
 
 References:
 
@@ -415,8 +418,8 @@ Format](advanced_format.md).
 
 ## %SystemRoot%
 
-The actual value of %SystemRoot% is stored in the following registry
-value:
+The actual value of %SystemRoot% is stored in the following Windows
+Registry value:
 
 ```text
 Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\

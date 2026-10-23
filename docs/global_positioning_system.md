@@ -84,7 +84,7 @@ easily be opened in a text or Hex editor.
 
 Raw trip data including waypoints, date &amp; time stamps, latitude &amp;
 longitude coordinates and elevations can be extracted from the
-Current.gpx file located in the \Garmin\GPX\\ folder. It can be viewed
+Current.gpx file located in the \Garmin\GPX\ folder. It can be viewed
 by opening the file with a text editor such as
 [Notepad++](https://notepad-plus-plus.org/). All recent trips are
 stored in this file.

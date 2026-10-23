@@ -40,7 +40,7 @@ The classic pitfalls are conflating a timestamp with the event it represents, ig
 time zones and an unknown [system time](system_time.md), over-reading timestamps beyond
 the [granularity of the file system](mac_times.md#time-resolution), or accepting tampered
 timestamps ([timestomping](timestomp.md)) at face value. A single, isolated timestamp is
-worth little; it is the pattern of *many* timestamps - across file systems, the registry,
+worth little; it is the pattern of *many* timestamps - across file systems, the Windows Registry,
 log files and network evidence - that establishes the sequence of events.
 
 ## Timeline creation
@@ -49,7 +49,7 @@ Creating a timeline means identifying the timestamped artifacts on the evidence,
 extracting them and normalizing their time, source and description into a common
 [timeline format](#timeline-formats) such as [body file](body_file.md) or
 [L2T CSV](l2t_csv.md). The work is done by purpose-built engines: [Plaso](plaso.md), for
-example, parses file systems, the registry and a wide range of log and application
+example, parses file systems, the Windows Registry and a wide range of log and application
 artifact formats into a single correlated timeline, while [mactime](mactime.md) from
 [The Sleuth Kit](the_sleuth_kit.md) turns the [body file](body_file.md) of a file system
 into a sorted timeline. Creation and analysis are normally kept apart: the timeline is

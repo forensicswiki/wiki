@@ -12,7 +12,7 @@ database.
 ### Windows XP
 
 ```text
-C:\Documents and Settings\\<username>\Application Data\Mozilla\Firefox\Profiles\\<profile folder>\places.sqlite
+C:\Documents and Settings\<username>\Application Data\Mozilla\Firefox\Profiles\<profile folder>\places.sqlite
 ```
 
 ### Windows Vista

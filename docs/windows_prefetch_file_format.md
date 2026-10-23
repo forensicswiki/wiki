@@ -198,7 +198,7 @@ contain multiple sections. (A simple way to force this situation is to
 copy, say, NOTEPAD.EXE to a USB drive, and start it from that volume.
 The corresponding prefetch file will have one D header referring to,
 e.g. \DEVICE\HARDDISK1\DP(1)0-0+4 (the USB drive), and one to, e.g.
-\DEVICE\HARDDISKVOLUME1\\ (where the .DLLs and other support files were
+\DEVICE\HARDDISKVOLUME1\ (where the .DLLs and other support files were
 found).
 
 In this section, all offsets are assumed to be counted from the start of

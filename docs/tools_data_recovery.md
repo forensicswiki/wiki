@@ -158,7 +158,7 @@ Notes:
   fixmbr, bootrec, mbrfix, or [MBRWizard](mbrwizard.md). You can also extract a
   copy of the specific standard MBR code from tools like bootrec.exe and
   diskpart.exe in Windows (from various offsets) and copy it to disk with dd (Use
-  bs=446 count=1). For Windows XP SP2 c:\\%WINDIR%\System32\diskpart.exe the MBR
+  bs=446 count=1). For Windows XP SP2 c:\%WINDIR%\System32\diskpart.exe the MBR
   code is found between offset 1b818h and 1ba17h.
 
 See also:
