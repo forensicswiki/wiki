@@ -28,6 +28,10 @@ There is a [Windows](windows.md) version of strings by
 prints an output header and searches for both ASCII and Unicode strings by
 default.
 
+## Caution
+
+strings does not work on compressed or encrypted input.
+
 ## Use
 
 One of the most useful features of strings is the ability to specify the

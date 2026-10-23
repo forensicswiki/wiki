@@ -44,9 +44,8 @@ behavior:
   renamed or repurposed, such as a disguised backdoor
 * URLs, host names and other network endpoints
 
-The [Strings](strings.md#use) article contains a concrete example in which
-string analysis of a process memory dump identified a disguised
-[Netcat](netcat.md) backdoor.
+[strings](strings.md#use) contains a concrete example in which string analysis of a process memory
+dump identified a disguised [Netcat](netcat.md) backdoor.
 
 ## Interpreting findings
 
