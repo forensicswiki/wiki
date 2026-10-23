@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Organization
+  - Vendor
 ---
 **M3 Data Recovery** is one of the world's leading &amp; professional data
 recovery solution and system utilities providers.

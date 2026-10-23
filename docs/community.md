@@ -48,7 +48,9 @@ git push origin [article-branch-name]
 Step 5. Checklist before creating a PR
 
 Make sure your changes contain digital forensic relevant information, e.g. when listing tools
-include forensics relevant tradeoffs. For more detail see the style guide.
+include forensics relevant tradeoffs. Make sure any external links you add are publicly
+accessible. Links with signup or paywalls, or that are geo-restricted, will be removed.
+For more detail see the style guide.
 
 Step 6. Create PR for review
 

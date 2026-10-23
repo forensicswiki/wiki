@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 [ACME Portable Computer GmbH](https://www.acmeportable.de/) is the German
 branch of ACME Portable Machines Inc, with headquarters in Los Angeles,

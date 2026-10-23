@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 **Digital Assembly** offers computer forensics and data recovery
 software. Their products include:

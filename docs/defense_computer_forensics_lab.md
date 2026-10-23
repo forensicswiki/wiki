@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organizations
+  - Organization
 ---
 The **Defense Computer Forensics Lab** (**DCFL**) is located in
 Linthicum, Maryland. Part of the [Defense Cyber Crime

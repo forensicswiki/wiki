@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 
 ## OVERVIEW

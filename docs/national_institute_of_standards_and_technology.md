@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organizations
+  - Organization
 ---
 The **National Institute of Standards and Technology** (**NIST**) is located in
 Gaithersburg, Maryland.

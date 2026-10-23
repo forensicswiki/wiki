@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
   - Articles that need to be expanded
 ---
 ## External Links

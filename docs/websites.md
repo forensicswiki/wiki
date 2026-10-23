@@ -1,5 +1,6 @@
 ---
 tags:
+  - Publications
   - Websites
 ---
 [Digital forensics](computer_forensics.md) related resources like: blogs, fora,
@@ -51,7 +52,7 @@ meeting and annual forensics challenge.
 
 [eForensics Magazine](eforensics_magazine.md)
 
-Magazine, blog, online courses, community.
+Digital forensics magazine.
 
 Belgian Computer Forensic Website - Forensic Boot CD - Linux
 
@@ -114,7 +115,6 @@ fingerprint testing.
   by Paul Bobby
 * [Dlog](https://dan3lmi.blogspot.com/),
   by Daniela Elmi
-* [eForensics Magazine blog](https://eforensicsmag.com/category/news/)
 * [Elcomsoft Blog](https://blog.elcomsoft.com)
 * [FireEye Blogs](https://www.trellix.com/en-us/about/newsroom/stories.html)
 * [Forense nella Nebbia](https://forensenellanebbia.blogspot.com/),

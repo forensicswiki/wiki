@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Organization
+  - Vendor
 ---
 Metaspike is a Los Angeles based software company that makes digital
 forensics software for the cloud.

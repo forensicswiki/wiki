@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
   - Disk Imaging
   - Articles that need to be expanded
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organizations
+  - Organization
 ---
 The National Computer Forensic Institute (NCFI) opened in 2008 and is
 located in Hoover, Alabama.
