@@ -19,7 +19,7 @@ the time the program got packaged.
 
 These constraints didn't fit our use case very well, which is why I
 developed an open source memory acquisition program for Mac OS X
-called [OSXPmem](https://code.google.com/p/pmem/wiki/OSXPmem). This
+called [OSXPmem](https://github.com/google/rekall/tree/master/tools/pmem). This
 program was designed specifically with the goal to be as operating
 system independent as possible, while providing a stable way to acquire
 memory even on future versions of Mac OS X.

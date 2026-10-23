@@ -12,7 +12,7 @@ on the wiki, but all on external sites. **The latest release of the
 plugins are **not compatible with the latest version** of the framework
 and information about compatible plugins can be found on the
 [wiki](https://code.google.com/archive/p/volatility/wiki/VolatilityIntroduction?tm=6)
-on the [project Googlecode site](https://code.google.com/archive/p/volatility).
+on the [project's GitHub page](https://github.com/volatilityfoundation/volatility).
 
 ## Command Shell
 

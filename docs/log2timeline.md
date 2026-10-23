@@ -117,7 +117,7 @@ The currently supported output modules (as of version 0.51 nightly build
 
 ## External Links
 
-* [log2timeline website](https://code.google.com/archive/p/log2timeline/)
+* [log2timeline website (now Plaso)](https://github.com/log2timeline/plaso)
 * [Artifact Timeline Creation and Analysis - Tool Release: log2timeline](https://web.archive.org/web/20200806215325/https://www.sans.org/blog/artifact-timeline-creation-and-analysis-tool-release-log2timeline/),
   by [Kristinn Guðjónsson](kristinn_gudjonsson.md), August 13, 2009
 * [Artifact Timeline Creation and Analysis - part 2](https://www.sans.org/blog/artifact-timeline-creation-and-analysis-part-2/),

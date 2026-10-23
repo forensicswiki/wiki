@@ -1,10 +1,19 @@
 ---
 tags:
-  - Articles that need to be expanded
-  - Organization
+  - Discontinued
+  - Vendor
 ---
-Memory forensics and consulting.
+Volatile Systems, LLC was a memory forensics and consulting company.
 
-## External Links
+Originally, early releases of the Volatility Framework (v1.x) were copyrighted and maintained under
+Volatile Systems, LLC.
 
-* [Official website](https://code.google.com/archive/p/volatility)
+Volatile Systems, LLC was dissolved after its founders successfully transferred the Volatility
+Framework intellectual property to the non-profit Volatility Foundation.
+
+> Note that there is a newly formed, unrelated entity called Volatile Systems GmbH registered in
+> Switzerland as of late 2025, but it has no connection to the Volatility Framework.
+
+## See Also
+
+* [Volatility Framework](volatility_framework.md)

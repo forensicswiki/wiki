@@ -59,7 +59,7 @@ There are multiple families of executable files:
   by [Microsoft](microsoft.md)
 * [Internet Archive: Microsoft Symbol and Type Information](http://web.archive.org/web/20070915060650/http://www.x86.org/ftp/manuals/tools/sym.pdf),
   by [Microsoft](microsoft.md)
-* [Stream Descriptions](https://code.google.com/archive/p/pdbparse/wikis/StreamDescriptions.wiki),
+* [Stream Descriptions](https://github.com/moyix/pdbparse/wiki/StreamDescriptions),
   [pdbparse project](https://github.com/moyix/pdbparse/)
 * [libmsdebug](https://sourceforge.net/p/mingw-w64/code/HEAD/tree/experimental/tools/libmsdebug/),
   by the MinGW project
@@ -89,7 +89,7 @@ There are multiple families of executable files:
 
 ### PDB
 
-* [pdbparse](https://code.google.com/archive/p/pdbparse), Open-source parser
+* [pdbparse](https://github.com/moyix/pdbparse), Open-source parser
   for Microsoft debug symbols (PDB files)
 
 ### Minidump

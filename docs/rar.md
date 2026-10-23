@@ -282,8 +282,7 @@ The Unarchiver
 * Utility made for Mac OS X to open a multitude of files, including RAR
 files
 * Very handy for dealing with multiple file types
-* [Source Code Download](https://code.google.com/archive/p/theunarchiver/downloads)
-* [Information Website](https://theunarchiver.com/)
+* [Website / Download](https://theunarchiver.com/)
 
 7-Zip
 

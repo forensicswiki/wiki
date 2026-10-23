@@ -65,7 +65,7 @@ rekall.profiles containing the most up to date version of the public
 repository:
 
 ```bash
-$ git clone https://code.google.com/p/rekall.profiles
+$ git clone https://github.com/google/rekall-profiles rekall.profiles
 
 # It is possible to update the local mirror with the latest public profiles.
 $ cd rekall.profiles

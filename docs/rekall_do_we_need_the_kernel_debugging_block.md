@@ -50,10 +50,10 @@ This problem was also discussed in the Black Hat talk
 
 Volatility Windows profiles are typically generated using the
 `pdbparse` project, using the pdb_tpi_vtypes.py script:
-[pdb_tpi_vtypes.py](https://code.google.com/p/pdbparse/source/browse/trunk/examples/pdb_tpi_vtypes.py)
+[pdb_tpi_vtypes.py](https://github.com/moyix/pdbparse/blob/master/examples/pdb_tpi_vtypes.py)
 They normally only contain the vtype definitions (embedded into
 python files), for example the vista_sp0_x64_vtypes.py overlay:
-[vista_sp0_x64_vtypes.py](https://code.google.com/p/volatility/source/browse/trunk/volatility/plugins/overlays/windows/vista_sp0_x64_vtypes.py)
+[vista_sp0_x64_vtypes.py](https://github.com/volatilityfoundation/volatility/blob/master/volatility/plugins/overlays/windows/vista_sp0_x64_vtypes.py)
 
 While developing the Rekall profile system (which is described in detail
 in previous blog posts), new profiles were generated for Windows
@@ -147,7 +147,7 @@ and simple.
 
 Another example of this technique is
 the `callbacks` plugin. In
-[this section of the Volatility callbacks plugin](https://code.google.com/p/volatility/source/browse/trunk/volatility/plugins/malware/callbacks.py#251)
+[this section of the Volatility callbacks plugin](https://github.com/volatilityfoundation/volatility/blob/master/volatility/plugins/malware/callbacks.py#L251)
 Volatility resorts to disassembling various exported functions to try to
 locate the offset of a number of non-exported callback pointer tables
 (e.g. `PsSetLoadImageNotifyRoutine` is disassembled to get
