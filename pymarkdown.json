@@ -31,7 +31,8 @@
             "style": "ordered"
         },
         "md033": {
-            "enabled": false
+            "enabled": true,
+            "allowed_elements": "!--,![CDATA[,!DOCTYPE,sub,sup,small"
         },
         "md035": {
             "style": "---"

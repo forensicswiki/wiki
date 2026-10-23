@@ -2,11 +2,11 @@
 tags:
   - Training
 ---
-This is the list of Training Providers, who offer training courses of
-interest to practitioners and researchers in the field of Digital
-Forensics.
+This is the list of Training Providers, who offer training courses of interest to practitioners and
+researchers in the field of Digital Forensics.
 
-**PLEASE READ BEFORE YOU EDIT THE LIST BELOW**
+**Please read this before you edit the list below.**
+
 Some training providers offer on-going training courses that are
 available in an online "any time" format. Others have regularly
 scheduled training that is the same time each month. Others have
@@ -21,9 +21,8 @@ Commercial Training is training offered by commercial companies which
 may or may not be oriented to a specific tool/tool suite, but is offered
 by a company other than a tool vendor.
 
-*Some training opportunities may be <u>limited</u> to **Law
-Enforcement Only** or to a specific audience. Such restrictions should
-be noted when known.*
+Some training opportunities may be **limited to Law Enforcement Only** or to a specific audience.
+Such restrictions should be noted when known.
 
 ## Online training
 
