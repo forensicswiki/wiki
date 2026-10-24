@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - File format
+  - File Formats
 ---
 A **Tape drive** is a non-volatile storage device which stores digitally
 encoded data on magnetic tape.

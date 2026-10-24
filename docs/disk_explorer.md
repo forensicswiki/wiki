@@ -2,7 +2,7 @@
 tags:
   - Tools
   - Windows
-  - Analysis
+  - Disk Analysis
   - Commercial Software
 ---
 DiskExplorer is a forensic tool that can be used by investigators to

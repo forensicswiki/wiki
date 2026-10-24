@@ -5,7 +5,7 @@ tags:
   - Encryption
   - File Systems
   - Linux
-  - MacOS
+  - Mac OS
   - Windows
 ---
 ## Conventional File Systems

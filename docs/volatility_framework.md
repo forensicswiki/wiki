@@ -1,7 +1,7 @@
 ---
 tags:
   - Linux
-  - MacOS
+  - Mac OS
   - Memory Analysis
   - Open Source Software
   - Tools

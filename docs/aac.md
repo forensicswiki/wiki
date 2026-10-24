@@ -1,6 +1,6 @@
 ---
 tags:
-  - Audio
+  - Audio Format
   - File Formats
 ---
 The **Advanced Audio Coding** (**AAC**) file format is a lossy digital audio

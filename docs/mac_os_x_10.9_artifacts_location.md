@@ -1,6 +1,6 @@
 ---
 tags:
-  - MacOS
+  - Mac OS
   - Operating Systems
 ---
 The content of this page is automatically generated from the "Mac OS X artifacts

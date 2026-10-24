@@ -1,7 +1,7 @@
 ---
 tags:
   - Tools
-  - Opensource
+  - Open Source Software
 ---
 Barnyard2 is an open source interpreter for Snort unified2 binary output
 files. Its primary use is allowing Snort to write to disk in an

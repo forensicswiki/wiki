@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Registry Analysis
+  - Windows Registry Analysis
   - Windows
 ---
 ## Common

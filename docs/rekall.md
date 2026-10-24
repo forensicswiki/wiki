@@ -2,7 +2,7 @@
 tags:
   - Discontinued
   - Linux
-  - MacOS
+  - Mac OS
   - Memory Analysis
   - Memory Imaging
   - Open Source Software

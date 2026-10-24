@@ -4,7 +4,7 @@ tags:
   - Disk Analysis
   - Linux
   - Log Analysis
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

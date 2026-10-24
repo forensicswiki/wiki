@@ -1,7 +1,7 @@
 ---
 tags:
   - File Formats
-  - MacOS
+  - Mac OS
 ---
 A separate file in a filesystem containing the
 [Apple resource fork](https://en.wikipedia.org/wiki/Resource_fork) for a

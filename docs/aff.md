@@ -2,7 +2,7 @@
 tags:
   - File Formats
   - Open Source Software
-  - Disk Image
+  - Disk Image Format
   - Articles that need to be expanded
 ---
 The **Advanced Forensics Format** (**AFF**) is an extensible open format for

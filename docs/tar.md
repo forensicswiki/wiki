@@ -1,10 +1,10 @@
 ---
 tags:
-  - Archive
+  - Archive Format
   - File Formats
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - Windows

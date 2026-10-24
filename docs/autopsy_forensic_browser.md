@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - Disk Analysis
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

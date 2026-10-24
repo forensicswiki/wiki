@@ -1,9 +1,11 @@
 ---
 tags:
-  - BSD
+  - FreeBSD
+  - NetBSD
+  - OpenBSD
   - LGPL
   - Linux
-  - MacOS
+  - Mac OS
   - Tools
   - Windows
   - Open Source Software

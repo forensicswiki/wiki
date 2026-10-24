@@ -1,7 +1,7 @@
 ---
 tags:
   - File Formats
-  - Disk Image
+  - Disk Image Format
   - Windows
 ---
 According to \[MSDN\]: the primary purpose of the Windows Imaging File

@@ -1,7 +1,3 @@
----
-tags:
-  - No Articles that need to be expanded
----
 **FRED** can refer to:
 
 * [First Responder's Evidence

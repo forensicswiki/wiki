@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Because Gmail is a web based application and can be changed at any time, the
 information in this article may not reflect the current state of Gmail headers.

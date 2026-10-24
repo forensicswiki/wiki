@@ -2,7 +2,7 @@
 tags:
   - Database
   - File Formats
-  - Registry Analysis
+  - Windows Registry Analysis
   - Windows
 ---
 ## Terminology

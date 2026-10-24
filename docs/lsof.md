@@ -5,7 +5,7 @@ tags:
   - System Analysis
   - Open Source Software
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - FreeBSD

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Data Formats
+  - File Formats
 ---
 The Windows Shell uses Shell Items (or Shell Item list) to identify items
 within the Windows Folder Hierarchy. A Shell Item list is much like a "path",

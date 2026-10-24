@@ -1,7 +1,7 @@
 ---
 tags:
   - Libyal
-  - Analysis
+  - Email Analysis
   - LGPL
   - Tools
 ---

@@ -2,7 +2,7 @@
 tags:
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - Network Forensics
   - OpenBSD

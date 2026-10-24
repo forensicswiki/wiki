@@ -1,7 +1,7 @@
 ---
 tags:
   - File Systems
-  - MacOS
+  - Mac OS
 ---
 HFS+, or Hierarchical File System Plus, is the file system designed by
 [Apple](apple_inc.md) to supersede (classic) HFS.

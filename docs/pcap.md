@@ -4,7 +4,7 @@ tags:
   - Network Analysis
   - Windows
   - Linux
-  - MacOS
+  - Mac OS
   - FreeBSD
   - OpenBSD
   - NetBSD

@@ -9,7 +9,7 @@ tags:
   - NetBSD
   - OpenBSD
   - Open Source Software
-  - Public Domain
+  - Public Domain Software
   - Tools
   - Windows
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Email Analysis
   - GPL
   - Tools
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Law
+  - Legal
   - Articles that need to be expanded
 ---
 A warrant is a document given by a judge to search something or someone

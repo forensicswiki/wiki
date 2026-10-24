@@ -1,6 +1,6 @@
 ---
 tags:
-  - Anti Virus
+  - Antivirus
   - Articles that need to be expanded
   - Commercial Software
   - System Monitoring

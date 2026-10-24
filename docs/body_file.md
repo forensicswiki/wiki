@@ -3,7 +3,7 @@ tags:
   - File Formats
   - Linux
   - Windows
-  - MacOS
+  - Mac OS
   - Timeline Analysis
   - Text
   - Articles that need to be expanded

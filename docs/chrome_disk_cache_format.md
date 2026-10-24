@@ -2,7 +2,6 @@
 tags:
   - File Formats
   - Articles that need to be expanded
-  - Cache
 ---
 ## Cache files
 
