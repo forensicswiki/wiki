@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 **SalvationDATA** is a world-leading integrated solutions provider of computer
 forensics, mobile forensics, CCTV DVR forensics, data security and E-discovery.

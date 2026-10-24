@@ -93,7 +93,7 @@ unified baseline of communication across diverse languages and borders.
 * Do not assume every reader is a native English speaker, avoid uncommon terms or metaphors.
 * Do not assume every reader has the same expertise or background, avoid non-standard
   abbreviations or jargon. If unavoidable explain them in the concepts article (concepts.md).
-* Use unlocalized date and time notations, e.g. ISO 8601 (2020-01-01) or the "Month, day, year"
+* Use unlocalized date and time notations, e.g. ISO 8601 (2020-01-01) or the "Month day, year"
   format as in "January 1, 2020", instead of localized notations such as "DD/MM/YYYY" or
   "MM/DD/YYYY".
 * Use unambiguous notations, e.g. USD instead of Dollar or $.
@@ -164,7 +164,8 @@ Put most external links at the bottom of an article to prevent littering it with
 * For references without a link, use a citation block and reference the source from which the
   citation came.
 * Make sure external links are publicly accessible. Links with signup or paywalls, or that are
-  geo-restricted, will be removed.
+  geo-restricted, will be removed. The exception are vendor related articles where one can link to
+  a vendor site that uses signup or paywalls, but explicitly call this out.
 
 ## Category articles
 
@@ -294,25 +295,76 @@ appropriate Operating System, Software type, and Analysis type.
 
 See examples below the table.
 
-| Topics | Tags |
+| Tag | Description |
 | --- | --- |
-| Abandoned, deprecated or discontinued tools | Discontinued |
-| Analysis Types | Disk Analysis, File Analysis, Disk Imaging, Data Recovery, Registry Analysis, Log Analysis, Data Carving, Malware Analysis, Secure Deletion, Cell Phone Analysis, System Monitoring, System Analysis, Email Analysis, File System, Network Analysis, Memory Analysis, Memory Imaging, Anti-Forensics, Timeline Analysis |
+| Android | Mobile Operating Systems |
+| Anti-Forensics | Analysis Types |
+| Archive | File Types |
+| Audio | File Types |
+| Binary | File Types |
+| BlackberryOS | Mobile Operating Systems |
+| BSD | Operating Systems |
+| Cell Phone Analysis | Analysis Types |
+| Commercial Software | Software Type |
+| Computer Bus | Hardware Types |
 | Concept | Concept |
-| Encryption | Encryption, Network Encryption, Disk Encryption |
-| File Types | File Format, Archive, Database, Disk Image, Binary, Audio, Text, Photo |
-| Hardware Types | Computer Bus, Microprocessor, Hard Drive, Memory, Personal Device, Write Blockers, GPS |
-| Knowledge | Books, Papers, Reports, Journals, Websites, Blogs, Training |
-| Law, Legal | Legal |
-| Mobile | Mobile Networks, Mobile, SIM |
-| Mobile Operating Systems | Android, iOS, Windows Mobile, BlackberryOS, PalmOS, Symbian |
-| Non-vendor companies, Government | Organizations |
-| Operating Systems | Windows, Linux, macOS, BSD, Unix, Operating System |
-| OS Components | OS Component |
+| Database | File Types |
+| Data Carving | Analysis Types |
+| Data Recovery | Analysis Types |
+| Discontinued | Abandoned, deprecated or discontinued tools |
+| Disk Analysis | Analysis Types |
+| Disk Encryption | Encryption |
+| Disk Image | File Types |
+| Disk Imaging | Analysis Types |
+| Email Analysis | Analysis Types |
+| Encryption | Encryption |
+| File Analysis | Analysis Types |
+| File Format | File Types |
+| File System | Analysis Types |
+| Free Software | Software Type |
+| GPS | Hardware Types |
+| Hard Drive | Hardware Types |
+| iOS | Mobile Operating Systems |
+| Knowledge Base | Repository of factual information |
+| Legal | Law, Legal |
+| Linux | Operating Systems |
+| Log Analysis | Analysis Types |
+| macOS | Operating Systems |
+| Malware Analysis | Analysis Types |
+| Memory Analysis | Analysis Types |
+| Memory | Hardware Types |
+| Memory Imaging | Analysis Types |
+| Microprocessor | Hardware Types |
+| Mobile | Mobile |
+| Mobile Networks | Mobile |
+| Network Analysis | Analysis Types |
+| Network Encryption | Encryption |
+| Open Source Software | Software Type |
+| Operating System | Operating Systems |
+| Organizations | Non-vendor companies, Government |
+| OS Component | OS Components |
+| PalmOS | Mobile Operating Systems |
 | People | People |
-| Software Type | Open Source Software, Public Domain Software, Commercial Software, Free Software |
-| Software Vendors, Training Vendor | Vendor |
+| Personal Device | Hardware Types |
+| Photo | File Types |
+| Publications | Blogs, Books, Journals, Magazines, Papers, Websites |
+| Public Domain Software | Software Type |
+| Registry Analysis | Analysis Types |
+| Reports | Knowledge |
+| Secure Deletion | Analysis Types |
+| SIM | Mobile |
+| Symbian | Mobile Operating Systems |
+| System Analysis | Analysis Types |
+| System Monitoring | Analysis Types |
+| Text | File Types |
+| Timeline Analysis | Analysis Types |
 | Tools | Tools |
+| Training | Training |
+| Unix | Operating Systems |
+| Vendor | Software Vendors, Training Vendor |
+| Windows Mobile | Mobile Operating Systems |
+| Windows | Operating Systems |
+| Write Blockers | Hardware Types |
 
 ### Tagging examples
 

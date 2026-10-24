@@ -1,6 +1,5 @@
 ---
 tags:
-  - Organization
   - Vendor
   - Data Recovery
 ---

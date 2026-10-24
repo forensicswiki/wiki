@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organization
+  - Vendor
 ---
 ACE is a group of companies specializing in R&amp;D, manufacturing and
 services in the data recovery field. Under the ACE Lab trademark, ACE

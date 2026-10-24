@@ -1,7 +1,7 @@
 ---
 tags:
   - Conferences
-  - Organizations
+  - Organization
 ---
 The Digital Forensics Research Conference (DFRWS) is a
 non-profit, volunteer organization that started in August 2001

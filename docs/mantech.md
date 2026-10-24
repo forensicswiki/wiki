@@ -1,6 +1,6 @@
 ---
 tags:
-  - Organizations
+  - Organization
 ---
 The **ManTech International Corporation** is a large and diverse company that
 has one group focused on computer forensics. This group has written and
