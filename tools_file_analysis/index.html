@@ -1,0 +1,1087 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Tools file analysis - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#file-format-identification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools file analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-format-identification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File format identification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#content-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executable-file-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executable file analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code comparison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artifact-parsing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact parsing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-sharing-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File sharing analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email-and-structured-file-viewers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email and structured file viewers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows environments
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:analysis-techniques" class="md-tag">Analysis Techniques</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Tools file analysis</h1>
+
+<p>File analysis tooling for examining what a file contains and does -
+identifying file types from content, extracting and analyzing strings and
+documents, parsing structured artifacts, and observing the behavior of
+executables. The tools below are grouped according to the
+<a href="../file_analysis/">categories of analysis</a> described in
+<a href="../file_analysis/">File analysis</a>. Related tool categories include
+<a href="../document_metadata_extraction/#tools">Document metadata
+extraction</a> and <a href="../logfile_analysis/#tools">Logfile
+analysis</a>.</p>
+<blockquote>
+<p><strong>Warning:</strong> The tools listed below are not necessarily forensic tooling in the sense of
+<a href="../forensic_tooling/">Forensic tooling</a>.</p>
+</blockquote>
+<h2 id="file-format-identification">File format identification</h2>
+<p>See also <a href="../file_format_identification/">File Format Identification</a>.</p>
+<ul>
+<li><a href="https://sourceforge.net/projects/libmagic">libmagic</a></li>
+</ul>
+<p>Written in C. Rules in /usr/share/file/magic and compiled at runtime.
+Powers the Unix "file" command, but you can also call the library
+directly from a C program.</p>
+<ul>
+<li><a href="../file/">file</a></li>
+</ul>
+<p>The file command determines the file type of a given file, depending on
+its contents and not on e.g. its extension or filename. In order to do
+that, it uses a magic configuration file that identifies filetypes.</p>
+<ul>
+<li><a href="../hachoir/">Hachoir</a></li>
+</ul>
+<p>Python framework for binary file manipulation. Determines the file type
+using file header/footer (hachoir-metadata --type), able to list strings
+in Unicode (hachoir-grep), etc. Support more than 60 file formats.</p>
+<ul>
+<li><a href="https://www.nationalarchives.gov.uk/PRONOM/Default.aspx">PRONOM</a></li>
+</ul>
+<p>Project of the National Archives of the United Kingdom to develop a
+registry of file types.</p>
+<ul>
+<li><a href="https://jhove.openpreservation.org/">JHOVE</a></li>
+</ul>
+<p>JSTOR/Harvard Object Validation Environment, a similar registry of file
+formats started by JSTOR and Harvard. Attempts are now underway to merge
+these two efforts in the <a href="https://www.gdfr.info/">GDFR</a> and the
+<a href="https://cdlib.org/cdlinfo/2012/07/03/unified-digital-format-registry-udfr-now-available/">UDFR</a>.</p>
+<ul>
+<li><a href="https://github.com/digital-preservation/droid">DROID</a></li>
+</ul>
+<p>Digital Record Object Identification, an "automatic file format
+identification tool" developed by the UK National Archives. Written in
+Java.</p>
+<ul>
+<li><a href="https://mark0.net/soft-trid-e.html">TrID - File Identifier</a></li>
+</ul>
+<p>Recognizes over 9,000 file formats with XML format definitions,
+compiled to a single container. New file types can be added in an
+automated way, simply scanning a group of files. Win32, Linux/x86 &amp;
+x86-64; closed source; free for non-commercial use.</p>
+<ul>
+<li><a href="https://github.com/horsicq/Detect-It-Easy">Detect-it-Easy</a></li>
+</ul>
+<p>File and format identification tool with ECMAScript (JS) format
+definitions; reliably detects many weak/zero-magic formats by content
+only. Supports YARA rules, looks inside many compression formats, has
+extensive support of executable formats, disassembly that supports
+dozens of silicones, a file visualizer, a string finder, entropy
+analysis and a file extractor. Has a Telegram bot to send files to, and
+is one of the VirusTotal tools for executables. The engine is a
+separate project that can be easily reused. C++ and JS open source;
+Windows x32/64, Linux x32/64, Mac x64 GUI and CLI.</p>
+<ul>
+<li>Forensic Innovations File Investigator TOOLS</li>
+</ul>
+<p>Proprietary, but free trial available. Available as consumer
+applications and OEM API. Identifies 3,000+ file types, using multiple
+methods to maintain high accuracy. Extracts metadata for many of the
+supported file types.</p>
+<ul>
+<li><a href="https://www.oracle.com/content-management/webcenter-content/technologies/webcenter/outside-in-technology.html">Stellent/Oracle Outside-In</a></li>
+</ul>
+<p>Proprietary but free demo.</p>
+<ul>
+<li><a href="https://www.toolsley.com/file.html">Toolsley File Identifier</a></li>
+</ul>
+<p>Free. Runs in the browser. HTML5/JS port of the UNIX "file" tool and
+libmagic.</p>
+<ul>
+<li>Falstaff</li>
+</ul>
+<p>Free, online. Based on machine learning techniques, uses multiple file
+features and novel signatures computed from file format samples.
+Identifications are linked to the <a href="http://fileformats.archiveteam.org/wiki/Main_Page">file formats
+archive</a> ontology.</p>
+<ul>
+<li><a href="https://tika.apache.org/">Apache Tika</a></li>
+</ul>
+<p>Free (Apache v2.0 License). The Apache Tika™ toolkit detects and
+extracts metadata and text from over a thousand different file types.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prevx">Wikipedia: prevx</a></li>
+</ul>
+<p>Web-based file analysis service (see the Wikipedia article).</p>
+<h2 id="content-analysis">Content analysis</h2>
+<p>See also <a href="../strings_analysis/">Strings analysis</a>.</p>
+<ul>
+<li><a href="../strings/">strings</a></li>
+</ul>
+<p>Strings will print the strings of printable characters in files. It
+allows choosing different charactersets (ASCII, UNICODE). It is a quick
+way to browse through files/partitions/... in order to look for words,
+filenames, keywords etc.</p>
+<ul>
+<li><a href="https://www.unixuser.org/~euske/python/pdfminer/index.html">PDF Miner</a></li>
+</ul>
+<p>"...suite of programs that aims to help analyzing text data from PDF
+documents. It includes a PDF parser, a PDF renderer (though only
+rendering text is supported for now), and a couple of nice tools to
+extract texts. Unlike other PDF-related tools, it allows to obtain the
+exact location of texts in a page, as well as other layout information
+such as font size or font name, which could be useful for analyzing the
+document. It also infers text running within a page by using clustering
+technique."</p>
+<ul>
+<li><a href="../dstrings/">Dstrings</a></li>
+</ul>
+<p>Part of the <a href="../live-forensics/">Live-Forensics</a> project: a command line
+tool that searches for strings in a given file, able to compare the
+output against a dictionary to either exclude dictionary terms from the
+output or only output files that match the dictionary. Also able to
+search for IP addresses and URLs/email addresses.</p>
+<ul>
+<li><a href="../bless/">bless</a></li>
+</ul>
+<p>Free hex editor for Linux. Efficient editing of large data files and
+block devices, multilevel undo-redo, customizable data views, fast find
+and replace, a data conversion table, and highlighting of selection
+pattern matches in the file.</p>
+<h2 id="executable-file-analysis">Executable file analysis</h2>
+<p>See also <a href="../executable/">Executable</a> and
+<a href="../analyzing_program_execution/">Analyzing program execution</a>.</p>
+<ul>
+<li><a href="https://linux.die.net/man/1/ldd">ldd</a></li>
+</ul>
+<p>List dynamic dependencies of executable files.</p>
+<ul>
+<li><a href="../ghidra/">Ghidra</a></li>
+</ul>
+<p>Software reverse engineering (SRE) framework created and maintained by
+the National Security Agency Research Directorate. The framework
+includes a suite of full-featured software analysis tools that enable
+users to analyze compiled code on Windows, Mac OS and Linux:
+disassembly, decompilation, graphing, and scripting. Supports a wide
+variety of processor instruction sets and executable formats, runs in
+user-interactive and automated modes, and can be extended with Java or
+Python plug-in components.</p>
+<ul>
+<li><a href="../peid/">PEiD</a></li>
+</ul>
+<p>GUI-based program that runs under Windows and identifies more than 600
+different signatures in <a href="../portable_executable_format/">portable
+executable</a> files; supports custom plugins
+via its plugin interface.</p>
+<ul>
+<li><a href="https://docs.oracle.com/cd/E88353_01/html/E37839/truss-1.html">truss</a></li>
+</ul>
+<p>Solaris tool used to trace the system/library calls (not user calls) and
+signals made/received by a new or existing process. It sends the output
+to stderr.</p>
+<ul>
+<li><a href="https://linux.die.net/man/1/ltrace">ltrace</a></li>
+</ul>
+<p>Library call tracer.</p>
+<ul>
+<li><a href="https://sourceforge.net/projects/strace/">strace</a></li>
+</ul>
+<p>System Call Tracer.</p>
+<ul>
+<li><a href="https://sourceforge.net/projects/xtrace/">xtrace</a></li>
+</ul>
+<p>eXtended trace utility, similar to strace, ptrace, truss, but with
+extended functionality and unique features, such as dumping function
+calls (dynamically or statically linked), dumping call stack and more.</p>
+<ul>
+<li>ktrace</li>
+</ul>
+<p>Enables kernel process tracing on OpenBSD.</p>
+<ul>
+<li><a href="https://valgrind.org/">Valgrind</a></li>
+</ul>
+<p>Executes a program under emulation, performing analysis according to one
+of the many plug-in modules as desired. You can write your own plug-in
+module as desired.</p>
+<ul>
+<li><a href="https://www.oracle.com/it-infrastructure/">DTrace</a></li>
+</ul>
+<p>Comprehensive dynamic tracing framework for Solaris (also ported to
+Mac OS X - XRays and FreeBSD). DTrace provides a powerful infrastructure
+to permit analysis of the behavior of the operating system and user
+programs.</p>
+<h2 id="code-comparison">Code comparison</h2>
+<ul>
+<li><a href="../codesuite/">CodeSuite</a></li>
+</ul>
+<p>CodeSuite by Software Analysis &amp; Forensic Engineering comprises BitMatch,
+CodeCross, CodeDiff, CodeMatch, and SourceDetective for comparing and
+analyzing source code and object code to find copyright infringement and
+trade secret theft. It can be used for free on small sets of code.</p>
+<p>CodeSuite also includes FileCount and FileIsolate for counting file
+attributes and quickly copying or deleting entire file trees. Both are
+free utilities.</p>
+<h2 id="artifact-parsing">Artifact parsing</h2>
+<p>See also <a href="../file_formats/">File formats</a>.</p>
+<ul>
+<li><a href="https://jafat.sourceforge.net/files.html">dumpster_dive.pl</a></li>
+</ul>
+<p>MS Windows Recycle Bin INFO2 parser.</p>
+<ul>
+<li><a href="https://jafat.sourceforge.net/files.html">cookie_cruncher.pl</a></li>
+</ul>
+<p>MS IE cookie file parser.</p>
+<ul>
+<li><a href="../binplist/">binplist</a></li>
+</ul>
+<p>Python-based parser for <a href="../property_list_%28plist%29/">binary property list
+(plist)</a> files (macOS).</p>
+<ul>
+<li><a href="../libagdb/">libagdb</a></li>
+</ul>
+<p>Library and applications to read the <a href="../windows_superfetch_format/">Windows SuperFetch
+Format</a>; the project currently only
+provides documentation.</p>
+<ul>
+<li><a href="../exif_hound/">EXIF Hound</a></li>
+</ul>
+<p>Free, open source desktop application for inspecting <a href="../exif/">Exif</a>
+metadata in image files and plotting the GPS coordinates stored in that
+metadata on a map. Local-first: parsing runs on the examiner's computer,
+with no user account or telemetry.</p>
+<ul>
+<li><a href="../timestomp/">Timestomp</a></li>
+</ul>
+<p>Utility that deletes or modifies <a href="../mac_times/">timestamp-related
+information</a> on files (MACE values); useful for
+understanding <a href="../anti_forensic_techniques/">anti-forensic
+techniques</a> that hide when a file was
+modified.</p>
+<ul>
+<li><a href="../analyzemft/">analyzeMFT</a></li>
+</ul>
+<p>Parses the $MFT file system metadata of a <a href="../new_technology_file_system_%28ntfs%29/">NTFS</a>
+file system and presents the results in multiple formats. Written in
+Python 2 and no longer maintained; a Python 3 fork is also unmaintained.</p>
+<h2 id="file-sharing-analysis">File sharing analysis</h2>
+<ul>
+<li><a href="../p2pmarshal/">P2P Marshal</a></li>
+</ul>
+<p>Tools to discover and analyze peer-to-peer files for Windows.</p>
+<h2 id="email-and-structured-file-viewers">Email and structured file viewers</h2>
+<p>See also <a href="../personal_folder_file_%28pab%2C_pst%2C_ost%29/">Personal folder file (PAB,
+PST, OST)</a> and <a href="../extensible_storage_engine_%28ese%29_database_file_%28edb%29_format/">Extensible
+Storage Engine (ESE) database file (EDB)
+format</a>.</p>
+<ul>
+<li><a href="../datahelp/">DataHelp</a></li>
+</ul>
+<p>Offers free viewers for <a href="../aol_pfc/">AOL PFC</a>, <a href="../extensible_storage_engine_%28ese%29_database_file_%28edb%29_format/">EDB</a>,
+OST, <a href="../personal_folder_file_%28pab%2C_pst%2C_ost%29/">PST</a> and <a href="../mbox/">MBOX</a>
+email files.</p>
+<ul>
+<li><a href="../freeviewer/">FreeViewer</a></li>
+</ul>
+<p>Offers free viewers for MBOX, MSG and <a href="../opera/">Opera</a> MBS email files,
+plus a forensic analysis tool for <a href="../sqlite/">SQLite</a> database files.</p>
+<ul>
+<li><a href="../aryson_outlook_pst_repair/">Aryson Outlook PST Repair</a></li>
+</ul>
+<p>Repairs, recovers and restores corrupt Outlook PST files; recovered
+data can be saved as PST, EML, DBX, MBOX or MSG, preserving folder
+hierarchy and integrity of the data.</p>
+<ul>
+<li><a href="../sysinfotools_software/">SysInfoTools</a></li>
+</ul>
+<p>Products include an NSF Merge Tool, PST and OST file viewers, a DBX
+recovery tool, a DBX to PST converter, and SQL database, BKF and OST
+recovery tools. (Also see its <a href="../tools_data_recovery/">data recovery
+tools</a>.)</p>
+<ul>
+<li><a href="../systools/">SysTools</a></li>
+</ul>
+<p>Products include viewers for E01, BKF, OST, Outlook PST, Exchange EDB,
+OLM, EML, SQL MDF and DXL files, the MailPro+ email viewer (14 desktop
+email clients), an <a href="../new_technology_file_system_%28ntfs%29/">NTFS log</a> analyzer, and
+PST/OST reporters. (Also see its <a href="../tools_data_recovery/">data recovery
+tools</a>.)</p>
+<ul>
+<li><a href="../kerneldatarecovery/">Kernel Data Recovery</a></li>
+</ul>
+<p>Products include viewers for Outlook PST, Exchange EDB, OST, MBOX, OLM
+and EML files, an Outlook PST Reporter that generates file analysis
+reports (total item types, mail flow density by date or sender, user
+interactions), and password recovery tools.</p>
+<h2 id="windows-environments">Windows environments</h2>
+<p>See also <a href="../cygwin/">Cygwin</a>.</p>
+<ul>
+<li><a href="../cygwin/">Cygwin</a></li>
+</ul>
+<p>Linux like environment for Windows.</p>
+<ul>
+<li><a href="https://unxutils.sourceforge.net/">UnxUtils</a></li>
+</ul>
+<p>Common unix utilities compiled for a Windows environment.</p>
+<ul>
+<li><a href="https://gnuwin32.sourceforge.net/">GnuWin32</a></li>
+</ul>
+<p>Common GNU utilities compiled for a Windows Environment.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

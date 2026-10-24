@@ -1,0 +1,1132 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Tools network forensics - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#deep-analysis-full-packet-capture-fpc-and-deep-packet-inspection-dpi" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools network forensics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#deep-analysis-full-packet-capture-fpc-and-deep-packet-inspection-dpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deep Analysis - Full Packet Capture (FPC) and Deep Packet Inspection (DPI)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-reconstruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session reconstruction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flow-based-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flow-based analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intrusion-and-anomaly-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intrusion and anomaly detection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-leakage-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data leakage analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireless-and-radio-frequency-rf-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless and Radio Frequency (RF) analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tlsssl-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TLS/SSL analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geolocation-and-path-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geolocation and path analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeline-correlation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timeline correlation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generic-tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generic tooling
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:network-forensics" class="md-tag">Network Forensics</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Tools network forensics</h1>
+
+<p>Network forensics tooling for capturing, analyzing, and reconstructing
+network traffic. The tools below are grouped according to the
+<a href="../network_forensics/">categories of analysis</a> described in
+<a href="../network_forensics/">Network forensics</a>.</p>
+<blockquote>
+<p><strong>Warning:</strong> The tools listed below are not necessarily forensic tooling in the sense of
+<a href="../forensic_tooling/">Forensic tooling</a>.</p>
+</blockquote>
+<h2 id="deep-analysis-full-packet-capture-fpc-and-deep-packet-inspection-dpi">Deep Analysis - Full Packet Capture (FPC) and Deep Packet Inspection (DPI)</h2>
+<ul>
+<li><a href="https://www.fmad.io/">fmadio 10G Packet Capture</a></li>
+</ul>
+<p>Cost effective full line rate 10G packet capture to disk appliance.
+Featuring a slim 1U solution with 4 hot swap drives and 16TB of raw disk
+space, generating nanosecond PCAP files that can be downloaded for
+further processing at 10Gbit speed. This is a commercial appliance by a
+small independent vendor.</p>
+<ul>
+<li><a href="https://www.netwitness.com/">NetWitness</a></li>
+</ul>
+<p>NetWitness Corporation - Freeware/Commercial, Enterprise-Wide, Real-Time
+Network Forensics.</p>
+<ul>
+<li><a href="../omnipeek/">OmniPeek</a> by WildPackets</li>
+</ul>
+<p>OmniPeek is a network forensic tool used to capture, store, and analyze
+historical network traffic.</p>
+<ul>
+<li>PacketMotion</li>
+</ul>
+<p>Full Packet Capture and Deep Packet Inspection appliance (acquired by
+VMware).</p>
+<ul>
+<li>
+<p>snoop - captures packets from the network and displays their contents
+  (<a href="../solaris/">solaris</a>)</p>
+</li>
+<li>
+<p><a href="https://www.netresec.com/?page=SplitCap">SplitCap</a></p>
+</li>
+</ul>
+<p>SplitCap is a free open source pcap file splitter.</p>
+<ul>
+<li>
+<p><a href="../tcpdump/">tcpdump</a> - capture packets</p>
+</li>
+<li>
+<p><a href="../wireshark/">Wireshark</a></p>
+</li>
+</ul>
+<p>Graphical packet capture and protocol dissection (analysis) tool.</p>
+<ul>
+<li><a href="../xplico/">Xplico</a></li>
+</ul>
+<p>Network Forensic Analysis Tool (NFAT) that extracts application-layer
+data (emails, web content, files) from pcaps using Deep Packet
+Inspection; see also <a href="https://pcap2wav.xplico.org/">pcap2wav</a>.</p>
+<h2 id="session-reconstruction">Session reconstruction</h2>
+<p>See also <a href="../session_reconstruction/">Session reconstruction</a>.</p>
+<ul>
+<li><a href="../chaosreader/">Chaosreader</a></li>
+</ul>
+<p>Takes tcpdump/snoop capture files and fetches the application data
+(tcp sessions, HTTP transfers, FTP files, SMTP emails), producing an
+HTML index that links to each reconstructed session.</p>
+<ul>
+<li>E-Detective</li>
+</ul>
+<p>Web and email forensic tool for reconstructing web pages and email
+content.</p>
+<ul>
+<li><a href="http://expert-team.net/home/">Expert Team - 3i System</a></li>
+</ul>
+<p>Expert Team 3i System provides real-time data traffic reconstruction
+which allows raw data packet stream to be decoded, reassemble and
+reconstruct back to the original content view receive/compose/sent by
+the target users. Supported layer 7 protocols and applications include
+HTTP (Web URL and Content, Web Video, Web File Upload and Download,
+Email - POP3, IMAP, SMTP, Webmail, Social Networking Sites, FTP File
+Upload and Download, Instant Messaging, VoIP etc....</p>
+<ul>
+<li><a href="../networkminer/">NetworkMiner</a></li>
+</ul>
+<p>Network Forensic Analysis Tool (NFAT) for passive sniffing and PCAP
+analysis that recovers sessions, hostnames, open ports, and
+reassembles transmitted files and certificates.</p>
+<ul>
+<li><a href="https://pcap2wav.xplico.org/">pcap2wav</a></li>
+</ul>
+<p>VoIP/RTP decoder. pcap2wav is part (a sub-project) of
+<a href="../xplico/">Xplico</a> and it supports and decodes the following
+audio codecs: G711ulaw, G711alaw, G722, G729, G723, G726 and MSRTA
+(x-msrta: Real Time Audio).</p>
+<ul>
+<li><a href="../tcpflow/">tcpflow</a></li>
+</ul>
+<p>Captures data transmitted as part of TCP connections (flows) and stores
+each flow in its own file for protocol analysis and debugging; can also
+process stored 'tcpdump' packet flows.</p>
+<ul>
+<li><a href="../tcpxtract/">tcpxtract</a></li>
+</ul>
+<p>Recovers files from network traffic based on content signatures
+(inspired by <a href="../foremost/">foremost</a>).</p>
+<h2 id="flow-based-analysis">Flow-based analysis</h2>
+<p>See also <a href="../flow_based_analysis/">Flow-based analysis</a>.</p>
+<ul>
+<li><a href="../argus/">Argus</a></li>
+</ul>
+<p>Flow-based network monitor that records network transactions (5-tuple
+flows with byte and packet counts) for later analysis and replay.</p>
+<ul>
+<li><a href="https://www.capanalysis.net/ca/">CapAnalysis</a></li>
+</ul>
+<p><strong>Open Source</strong> web visual tool for information security specialists,
+system administrators and everyone who needs to analyze large amounts of
+captured network traffic.</p>
+<p>CapAnalysis performs indexing of data set of PCAP files and presents
+their contents in many forms, starting from a list of TCP, UDP or ESP
+streams/flows, passing to the geo-graphical representation of the
+connections.</p>
+<ul>
+<li><a href="https://www.mantaro.com">Mantaro Network Intelligence Solutions (mnis)</a></li>
+</ul>
+<p>MNIS is a comprehensive and scalable network intelligence platform for
+network forensics and various other applications. It is built on high
+speed Deep Packet Inspection and metadata alerting. It can be used to
+understand network events before and after an event. It scales from LAN
+environments to 20 Gbps service provider networks.</p>
+<ul>
+<li><a href="https://www.mantaro.com">MNIS Collector</a></li>
+</ul>
+<p>MNIS Collector is an IPFIX collector which also supports legacy Netflow.
+It was designed to be used with the MNIS Exporter, which is a Deep
+Packet Inspection probe that can be used to decode 300+ protocols on up
+to 20 Gbps and report the information in IPFIX.</p>
+<ul>
+<li><a href="../netfse/">netfse</a></li>
+</ul>
+<p>Net/FSE (Network Forensic Search Engine): capture, indexing and search
+service for high-volume IP-based network log data (firewalls, intrusion
+detection systems, routers and other network devices).</p>
+<ul>
+<li><a href="../ntop/">ntop</a></li>
+</ul>
+<p>libpcap-based network traffic probe that shows per-host network usage,
+similar to the <code>top</code> Unix command.</p>
+<ul>
+<li><a href="https://github.com/fmadio/pcap_latency_analyzer">pcap_latency_analyzer</a></li>
+</ul>
+<p>Analyze packet latency between 2 PCAPs or between 2 MAC addresses or any
+packets with the same payloads.</p>
+<ul>
+<li><a href="https://tools.netsa.cert.org/silk/index.html">SiLK</a></li>
+</ul>
+<p>Toolkit for collecting, storing and analyzing flow records (Compact
+NetFlow-style traffic metadata) at scale.</p>
+<h2 id="intrusion-and-anomaly-detection">Intrusion and anomaly detection</h2>
+<p>See also <a href="../intrusion_detection/">Intrusion detection</a>.</p>
+<ul>
+<li><a href="https://www.chkrootkit.org/">chkrootkit</a></li>
+</ul>
+<p>Checks a local system for signs of rootkit intrusion (tampered kernel,
+hidden processes, suspicious open ports).</p>
+<ul>
+<li><a href="../ossec/">OSSEC</a></li>
+</ul>
+<p>Open source host-based intrusion detection system (HIDS) with log
+monitoring and compliance features.</p>
+<ul>
+<li><a href="https://rkhunter.sourceforge.net/">rkhunter</a></li>
+</ul>
+<p>Rootkit Hunter - scans a local system for rootkits, tampered binaries
+and hidden backdoors.</p>
+<ul>
+<li><a href="https://github.com/bammv/sguil">Sguil</a></li>
+</ul>
+<p>Web-based dashboard for collecting and correlating IDS alerts and host
+logs.</p>
+<ul>
+<li><a href="../snort/">Snort</a></li>
+</ul>
+<p>Open source network intrusion prevention and detection system (IDS/IPS).</p>
+<h2 id="data-leakage-analysis">Data leakage analysis</h2>
+<ul>
+<li><a href="https://infowatch.com/">InfoWatch Traffic Monitor</a></li>
+</ul>
+<p>Network data loss prevention (DLP) tool that inspects network traffic
+for leaking of sensitive information.</p>
+<h2 id="dns-analysis">DNS analysis</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Nslookup">nslookup</a></li>
+</ul>
+<p>Name Server Lookup command line tool used to find IP address from domain
+name.</p>
+<h2 id="wireless-and-radio-frequency-rf-analysis">Wireless and Radio Frequency (RF) analysis</h2>
+<p>See also <a href="../wireless_forensics/">Wireless forensics</a>.</p>
+<ul>
+<li><a href="../kismac/">kisMAC</a></li>
+</ul>
+<p>Free, open source 802.11 sniffer and security tool (passive scanning and
+monitor mode), for Mac OS X.</p>
+<ul>
+<li><a href="../kismet/">kismet</a></li>
+</ul>
+<p>802.11 layer2 wireless network detector, sniffer, and intrusion
+detection system.</p>
+<h2 id="tlsssl-analysis">TLS/SSL analysis</h2>
+<p>See also <a href="../ssl_forensics/">SSL forensics</a>.</p>
+<ul>
+<li><a href="https://ssldump.sourceforge.net/">ssldump</a></li>
+</ul>
+<p>Captures and analyzes SSL/TLS sessions: handshake records, certificate
+metadata and - when session keys are available - the cleartext payload.</p>
+<h2 id="geolocation-and-path-analysis">Geolocation and path analysis</h2>
+<p>See also <a href="../ip_geolocation/">IP geolocation</a>.</p>
+<ul>
+<li>
+<p><a href="https://pwhois.org/lft/">Layer Four Traceroute (LFT) and WhoB</a> - TCP
+  tracing; a layer-4 traceroute that maps the route using TCP handshake
+  segments, useful where ICMP traceroute is filtered.</p>
+</li>
+<li>
+<p><a href="https://www.maxmind.com/en/home">MaxMind</a></p>
+</li>
+</ul>
+<p><a href="../ip_geolocation/">IP geolocation</a> services and data provider
+for offline geotagging. Free GeoLite country database. Programmable
+APIs.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/WHOIS">Whois</a></li>
+</ul>
+<p>Web service and command line tool to look up registry information for
+internet domain.</p>
+<ul>
+<li>
+<p><a href="https://www.arin.net/">American Registry for Internet Numbers (ARIN)</a></p>
+</li>
+<li>
+<p><a href="https://www.afrinic.net/">African Network Information Center (AfriNIC)</a></p>
+</li>
+<li>
+<p><a href="https://www.apnic.net/">Asia Pacific Network Information Centre (APNIC)</a></p>
+</li>
+<li>
+<p><a href="https://www.lacnic.net/">Latin American and Caribbean IP Address Regional Registry (LACNIC)</a></p>
+</li>
+<li>
+<p><a href="https://www.ripe.net/">RIPE Network Coordination Centre (RIPE NCC)</a></p>
+</li>
+</ul>
+<h2 id="timeline-correlation">Timeline correlation</h2>
+<p>See also <a href="../timeline_analysis/">Timeline analysis</a> and
+<a href="../logfile_analysis/">Logfile analysis</a>.</p>
+<ul>
+<li><a href="https://www.elastic.co/logstash">logstash</a></li>
+</ul>
+<p>logstash is a tool for managing events and logs. You can use it to
+collect logs, parse them, and store them for later use (like, for
+searching). Speaking of searching, logstash comes with a web interface
+for searching and drilling into all of your logs.</p>
+<h2 id="generic-tooling">Generic tooling</h2>
+<ul>
+<li><a href="../bulk_extractor/">Bulk Extractor</a></li>
+</ul>
+<p>Computer forensic tool that scans disk images (and other data sources)
+recovering artifacts - strings, files, emails and more - in a single
+pass.</p>
+<ul>
+<li><a href="https://farm9.org/Cryptcat/">cryptcat</a></li>
+</ul>
+<p>Network stream utility with encryption support (Twofish, base64,
+SSL/TLS), similar to <a href="../netcat/">netcat</a>.</p>
+<ul>
+<li>
+<p>Mera Systems NetBeholder</p>
+</li>
+<li>
+<p><a href="../netcat/">netcat</a></p>
+</li>
+</ul>
+<p>Reads and writes data over network connections (TCP/UDP); used for
+ad-hoc transfers and port testing.</p>
+<ul>
+<li><a href="../netstat/">Netstat</a></li>
+</ul>
+<p>Shows the network connections, listening ports, and routing information
+of a machine.</p>
+<ul>
+<li><a href="../ngrep/">ngrep</a></li>
+</ul>
+<p>Applies grep-style pattern matching to live or captured network traffic
+(TCP and UDP).</p>
+<ul>
+<li><a href="../nmap/">nmap</a> - utility for network exploration and security auditing</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../network_forensics/">Network forensics</a></li>
+<li><a href="../forensic_tooling/">Forensic tooling</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Network_forensics">Wikipedia: Network forensics</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

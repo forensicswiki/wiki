@@ -1,0 +1,1298 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall windows virtual address translation part 2 - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#live-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall windows virtual address translation part 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#live-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Live Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test images
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forensic-provenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forensic provenance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-important-is-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How important is this
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-aff4-acquisition-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AFF4 acquisition plugin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall windows virtual address translation part 2</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on 2015-08-14.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>We have previously discussed the Windows address translation mechanism
+back in <a href="../rekall_windows_virtual_address_translation_and_the_pagefile/">2014</a>.
+As far as we know, Rekall is still the only memory forensic tool that
+actually performs accurate address translation. In this post we examine
+some of the new features in the latest Rekall release supporting
+advanced address translation, and how this is used in practice.</p>
+<p>I recently attended <a href="http://www.ieee-iscc.org/">The Twentieth IEEE Symposium on Computers and Communications</a>
+conference where we presented our paper titled
+<a href="http://www.rekall-forensic.com/docs/References/Papers/SFCS2015.html">Forensic Analysis of Windows User space Applications through Heap allocations</a>.
+The paper covers the work we did in Rekall in researching the Windows
+address translation algorithm, and the Microsoft heap implementation.
+(Both these topics were previously also discussed on this blog).</p>
+<p>The paper is quite large and covers a lot of ground. In this blog post
+we will focus on the first part, namely the address translation process.
+In a future blog post we will discuss the second part of the paper,
+namely using heap allocations for reverse engineering.</p>
+<p>Since our original blog posts, we have discovered several cases which
+were not covered by the original research. It seems that the Windows
+address translation process is quite complex and subtle. In order to
+properly support the full algorithm we have rewritten the address
+translation code in Rekall from scratch. The new implementation has some
+interesting features:</p>
+<ol>
+<li>The implementation balances provenance with efficiency - It is always
+   possible to query Rekall about how it arrived at a particular result.
+   This is important when implementing complex address translation
+   algorithms. You can inspect the address translation process, step by
+   step, using the <strong>vtop()</strong> plugin.</li>
+<li>The new implementation is able to map files into the physical address
+   space. This makes them available to the rest of Rekall transparently.
+   For example, the pagefile may be mapped into the physical address space
+   at a particular offset, then a read() operation on the physical address
+   space will actually end up reading from the pagefile. Rekall's address
+   translation process therefore only need return an offset into the
+   physical address space at the file's mapping.</li>
+</ol>
+<p>This second point is actually very cool as it can be used to map memory
+mapped files into the physical address space too. When a file is mapped
+into memory, the PTE corresponding to the virtual page may be pointing
+to a _SUBSECTION struct. In practice on a running system, if an
+application tries to access this virtual address, a page fault will
+occur and Windows will read the file into a physical page, on demand.
+Unfortunately, for memory forensics analysts it is impossible to recover
+this data from an image of physical memory - since the data is not
+actually in physical memory. So previously the best we could do, was to
+show that this virtual address is a subsection PTE and where the data
+would be coming from (e.g. filename and offset inside the file).</p>
+<p>With the new address translation code, it is possible for Rekall to
+resolve this if it can find the file itself. This requires that the
+mapped file be acquired together with the physical memory, but once this
+is done, Rekall will transparently map the file into the physical
+address space and serve read() requests from it. Here is an example:</p>
+<pre><code class="language-text">[1] test.aff4 09:15:28&gt; vtop 0x00013fb91000
+
+****************** 0x13fb91000 ******************
+Virtual 0x00013fb91000 Page Directory 0x2e142000
+pml4e@ 0x2e142000 = 0x10f000002e85f867
+pdpte@ 0x2e85f020 = 0x3b000002ebe0867
+pde@ 0x2ebe0fe8 = 0x2d0000013821867
+pte@ 0x13821c88 = 0xf8a001ca40600400
+[_MMPTE_PROTOTYPE Proto] @ 0x000013821c88
+Offset             Field              Content
+------ ------------------------------ -------
+  0x-1   Proto                          &lt;_MMPTE Pointer to [0xF8A001CA4060] (Pointer)&gt;
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000000 (MM_ZERO_ACCESS)
+  0x0    ProtoAddress                    [BitField(16-64):ProtoAddress]: 0xF8A001CA4060
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000001
+  0x0    ReadOnly                        [BitField(8-9):ReadOnly]: 0x00000000
+  0x0    Unused0                         [BitField(1-8):Unused0]: 0x00000000
+  0x0    Unused1                         [BitField(9-10):Unused1]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+[_MMPTE_SUBSECTION Subsect] @ 0xf8a001ca4060
+Offset             Field              Content
+------ ------------------------------ -------
+  0x-1   Subsection                     &lt;_SUBSECTION Pointer to [0xFA8002A52EA8] (Pointer)&gt;
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000003 (MM_EXECUTE_READ)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000001
+  0x0    SubsectionAddress               [BitField(16-64):SubsectionAddress]: 0xFA8002A52EA8
+  0x0    Unused0                         [BitField(1-5):Unused0]: 0x00000000
+  0x0    Unused1                         [BitField(11-16):Unused1]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Subsection PTE to file C:\Windows\System32\VBoxTray.exe @ 0x400
+Physical Address 0x400 @ aff4://dea18f67-b60c-495f-9f23-ff3f2eeaf30b/C%3A%5CWindows%5CSystem32%5CVBoxTray.exe (Mapped 0x406eb5a4)
+
+Deriving physical address from runtime physical address space:
+Physical Address 0x400 @ aff4://dea18f67-b60c-495f-9f23-ff3f2eeaf30b/C%3A%5CWindows%5CSystem32%5CVBoxTray.exe (Mapped 0x406eb5a4)
+</code></pre>
+<p>In this example, the hardware PTE is recognized as a Prototype PTE (i.e.
+it is a <code>symlink</code> to the real PTE). The real PTE is, however, a
+_MMPT_SUBSECTION PTE which means it is simply a placeholder pointing
+at a _SUBSECTION structure which manages a mapping to the
+file<strong>C:\Windows\System32\VBoxTray.exe</strong>.</p>
+<p>In this case, however, Rekall has the actual file in the AFF4 volume. It
+therefore can map it into the physical address space. A read() request
+will recover the relevant data directly from the mapped file!</p>
+<p>The <strong>vadmap</strong> plugin enumerates the state of each page in a process's
+address space. This is very useful to see an overview of how pages are
+arranged in the process virtual address space. For example, examining
+the VBoxTray.exe process:</p>
+<pre><code class="language-text">[1] test.aff4 09:28:56&gt; vadmap 2084, start=0x00013fb90000
+**************************************************
+Pid: 2084 VBoxTray.exe
+  Virt Addr        Length             Type         Comments
+-------------- -------------- -------------------- --------
+0x00013fb90000         0x1000 Valid                PhysAS @ 0x18f2e000
+0x00013fb91000         0x1000 File Mapping         C:\Windows\System32\VBoxTray.exe @ 0x400 (P)
+0x00013fb92000         0x1000 Valid                PhysAS @ 0x2ea47000
+0x00013fb93000         0x1000 File Mapping         C:\Windows\System32\VBoxTray.exe @ 0x2400 (P)
+0x00013fb94000         0x1000 Transition           PhysAS @ 0x31086000 (P)
+0x00013fb95000         0x1000 File Mapping         C:\Windows\System32\VBoxTray.exe @ 0x4400 (P)
+0x00013fb96000         0x8000 Valid                PhysAS @ 0x543b000
+0x00013fb9e000         0x1000 File Mapping         C:\Windows\System32\VBoxTray.exe @ 0xd400 (P)
+0x00013fb9f000         0x2000 Valid                PhysAS @ 0x2e65d000
+0x00013fba1000         0x1000 File Mapping         C:\Windows\System32\VBoxTray.exe @ 0x10400 (P)
+0x00013fba2000         0x1000 Valid                PhysAS @ 0x2e820000
+</code></pre>
+<p>If we wanted to dump the executable from memory, previously,
+the <strong>dumpfiles</strong> plugin would dump the pages in the "Valid" or
+"Transition" state, but would have to zero pad the pages in "File
+Mapping" state (since the data was not available). However, now that
+Rekall can map the acquired executable from disk into the gaps, the
+dumped executable is kind of a combination of some pages from disk, and
+some pages from memory. This is especially important if malware
+manipulates the code in memory (e.g. installing detour hooks or other
+code modification) which are not present on disk. What we get now is the
+overlay of memory with the disk as it is visible to the running system.</p>
+<h2 id="live-analysis">Live Analysis</h2>
+<p>The example above demonstrates how this works with an AFF4 image (once
+all mapped files have been captured). But the new address transition
+mechanism works just as well with live analysis using the WinPmem memory
+acquisition driver. In this case, Rekall is able to directly open any
+mapped files on demand - and even parse the NTFS on the live system in
+order to recover locked files.</p>
+<p>For example, consider the following (<code>swapper.exe</code>) program which maps
+"notepad.exe" for reading (it is not actually running notepad, it is
+only mapped into the address space) and then read some bytes from the
+third page. This causes some of the pages to be faulted in but many of
+the mapped pages remain as Subsection PTEs.</p>
+<pre><code class="language-text">char *create_file_mapping() {
+    TCHAR *filename = L&quot;c:\\windows\\notepad.exe&quot;;
+    HANDLE h = CreateFile(filename, GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,
+                          FILE_FLAG_SEQUENTIAL_SCAN,NULL);
+
+    DWORD size = GetFileSize(h, NULL);
+    HANDLE hFileMapping = CreateFileMapping(h, NULL,PAGE_READONLY, 0, 0, NULL);
+    if (h=INVALID_HANDLE_VALUE) {
+       LogLastError();
+    };
+
+    char *view = (char*) MapViewOfFileEx(hFileMapping, FILE_MAP_READ, 0,  0,0,NULL);
+    if (!view) {
+        LogLastError();
+    };
+
+    // Read the third page of the file mapping.
+    view += 0x1000 * 3;
+    printf(&quot;Contents of %p %s\n&quot;, view, view);
+
+    return view;
+}
+</code></pre>
+<p>Lets examine what it looks like in the vad output (a little truncated
+for briefness):</p>
+<pre><code class="language-text">[1] pmem 21:08:05&gt; vad 2668
+Pid: 2668 swapper.exe
+     VAD       lev   Start Addr      End Addr     com   ------- ------       Protect        Filename
+-------------- --- -------------- -------------- ------                -------------------- --------
+......
+0xfa80027775c0   5 0x000000300000 0x00000030ffff      8 Private        READWRITE
+0xfa800262b2e0   6 0x000000310000 0x00000033ffff      0 Mapped         READONLY             \Windows\notepad.exe
+0xfa8002d42170   4 0x000000370000 0x0000003effff      6 Private        READWRITE
+.....
+
+[1] pmem 21:08:08&gt; vadmap 2668, start=0x000000310000
+**************************************************
+Pid: 2668 swapper.exe
+  Virt Addr        Length             Type         Comments
+-------------- -------------- -------------------- --------
+0x000000310000         0x3000 File Mapping         C:\Windows\notepad.exe (P)
+0x000000313000         0x1000 Valid                PhysAS @ 0x20b89000
+0x000000314000         0x7000 Transition           PhysAS @ 0x3218a000 (P)
+0x00000031b000        0x25000 File Mapping         C:\Windows\notepad.exe @ 0xb000 (P)
+0x000000370000         0x6000 Valid                PhysAS @ 0x1e8bc000
+0x000000376000        0x7a000 Demand Zero
+0x0000005a0000         0x6000 Valid                PhysAS @ 0x2d057000
+</code></pre>
+<p>As we can see the first 3 pages are merely mapped (i.e. not read), the
+next 8 pages are read into memory and the rest of the file is also not
+read but mapped in. Let us examine the first page of the mapped file in
+details:</p>
+<pre><code class="language-text">[1] pmem 21:11:33&gt; vtop 0x000000310000
+
+******************** 0x310000 ********************
+Virtual 0x000000310000 Page Directory 0x1b1da000
+pml4e@ 0x1b1da000 = 0x700000297bd867668)
+pdpte@ 0x297bd000 = 0xb00000054c1867
+pde@ 0x54c1008 = 0x8c00000229bb867
+pte@ 0x229bb880 = 0x0
+[_MMPTE_SOFTWARE Soft] @ 0x0000229bb880
+Offset             Field              Content
+------ ------------------------------ -------
+  0x0    InStore                         [BitField(22-23):InStore]: 0x00000000
+  0x0    PageFileHigh                    [BitField(32-64):PageFileHigh]: 0x00000000
+  0x0    PageFileLow                     [BitField(1-5):PageFileLow]: 0x00000000
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000000 (MM_ZERO_ACCESS)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000000
+  0x0    Reserved                        [BitField(23-32):Reserved]: 0x00000000
+  0x0    Transition                      [BitField(11-12):Transition]: 0x00000000
+  0x0    UsedPageTableEntries            [BitField(12-22):UsedPageTableEntries]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Consulting Vad: Prototype PTE is found in VAD
+**************************************************
+Pid: 2668 swapper.exe
+     VAD       lev   Start Addr      End Addr     com   ------- ------       Protect        Filename
+-------------- --- -------------- -------------- ------                -------------------- --------
+0xfa800262b2e0   6 0x000000310000 0x00000033ffff      0 Mapped         READONLY             \Windows\notepad.exe
+
+_MMVAD.FirstPrototypePte: 0xf8a000ce6820
+Prototype PTE is at virtual address 0xf8a000ce6820 (Physical Address 0x18540820)
+[_MMPTE_SUBSECTION Subsect] @ 0xf8a000ce6820
+Offset             Field              Content
+------ ------------------------------ -------
+  0x-1   Subsection                     &lt;_SUBSECTION Pointer to [0xFA8000E032E0] (Pointer)&gt;
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000006 (MM_EXECUTE_READWRITE)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000001
+  0x0    SubsectionAddress               [BitField(16-64):SubsectionAddress]: 0xFA8000E032E0
+  0x0    Unused0                         [BitField(1-5):Unused0]: 0x00000000
+  0x0    Unused1                         [BitField(11-16):Unused1]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Subsection PTE to file C:\Windows\notepad.exe @ 0x0
+Physical Address 0x547f4000
+
+Deriving physical address from runtime physical address space:
+Physical Address 0x547f4000
+</code></pre>
+<p>Despite the PTE only referring to the mapped page, Rekall can find the
+file on disk (Rekall maps a view of the file into the physical address
+space), and so now if we use the dump plugin to view a hexdump of that
+first page we can see the familiar <code>MZ</code> PE file header. It must be
+stressed that this data is not in memory at all: Rekall has recovered it
+from the disk itself - on demand, using live analysis.</p>
+<pre><code class="language-text">[1] pmem 21:11:46&gt; dump 0x000000310000
+DEBUG:rekall.1:Running plugin (dump) with args ((3211264,)) kwargs ({})
+    Offset                                   Data
+-------------- ----------------------------------------------------------------- ---------------
+      0x310000 4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00  MZ.............. \Windows\notepad.exe
+      0x310010 b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+      0x310020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+      0x310030 00 00 00 00 00 00 00 00 00 00 00 00 e8 00 00 00  ................
+      0x310040 0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68  ........!..L.!Th
+      0x310050 69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f  is.program.canno
+</code></pre>
+<p>Rekall can similarly use the pagefile on a live system too. In that case
+Rekall reads the page file using the raw NTFS support - bypassing the OS
+APIs (which normally lock the pagefile while the system is running).</p>
+<h2 id="test-images">Test images</h2>
+<p>We did not reverse engineer any code in order to research the Windows
+address translation process. Instead we created a test program that
+generated known patterns of user space memory. We then ran the program
+and acquired the image. Our goal was to have Rekall reconstruct the
+known memory pattern, as a test of Rekall's efficacy. The program was
+previously already published in
+<a href="./">part one of this series</a>,
+so readers can repeat this test on their own.</p>
+<p>To make it even easier to independently verify and discuss the Windows address translation process,
+we are now making a reference image available in the address translation tests directory. In this
+blog post we will examine the swapper_test_paged_pde.aff4 image in details. Readers can replicate
+the analysis using at least Rekall 1.4 (Etzel). We also hope that readers can use these images to
+test and evaluate other memory analysis tools. Tool testing and verification can only improve the
+general state of memory analysis tools.</p>
+<h2 id="forensic-provenance">Forensic provenance</h2>
+<p>Since we introduced complex, OS specific address translation to Rekall,
+there was a need to explain the address translation process in detail.
+This improved forensic provenance and assists users in really
+understanding what Rekall is doing under the covers. We added
+the <strong>vtop</strong> plugin to Rekall for this purpose. To use this plugin, the
+users can switch first into the desired process context, and then run
+the vtop plugin on a specific virtual address:</p>
+<pre><code class="language-bash">[1] swapper_test_paged_pde.aff4 17:24:41&gt; cc proc_regex=&quot;swap&quot;
+Switching to process context: swapper.exe (Pid 2236@0xfa8000f47270)
+
+[1] swapper_test_paged_pde.aff4 17:24:44&gt; vtop 0x000074770000
+
+******************* 0x74770000 *******************
+Virtual 0x000074770000 Page Directory 0x33a5a000
+pml4e@ 0x33a5a000 = 0x2a00000383a9867
+pdpte@ 0x383a9008 = 0x1500000384b0867
+pde@ 0x384b0d18 = 0x117000003369a867
+pte@ 0x3369ab80 = 0xf8a001b759280400
+[_MMPTE_PROTOTYPE Proto] @ 0x00003369ab80
+Offset             Field              Content
+------ ------------------------------ -------
+  0x-1   Proto                          &lt;_MMPTE Pointer to [0xF8A001B75928] (Pointer)&gt;
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000000 (MM_ZERO_ACCESS)
+  0x0    ProtoAddress                    [BitField(16-64):ProtoAddress]: 0xF8A001B75928
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000001
+  0x0    ReadOnly                        [BitField(8-9):ReadOnly]: 0x00000000
+  0x0    Unused0                         [BitField(1-8):Unused0]: 0x00000000
+  0x0    Unused1                         [BitField(9-10):Unused1]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+[_MMPTE_SUBSECTION Subsect] @ 0xf8a001b75928
+Offset             Field              Content
+------ ------------------------------ -------
+  0x-1   Subsection                     &lt;_SUBSECTION Pointer to [0xFA8000F75090] (Pointer)&gt;
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000001 (MM_READONLY)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000001
+  0x0    SubsectionAddress               [BitField(16-64):SubsectionAddress]: 0xFA8000F75090
+  0x0    Unused0                         [BitField(1-5):Unused0]: 0x00000000
+  0x0    Unused1                         [BitField(11-16):Unused1]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Subsection PTE to file C:\Users\mic\msvcr100.dll @ 0x0
+</code></pre>
+<p>Consider the example above. We first switch to the process context of
+the process with the name matching "swap". We then can see that Rekall
+is translating the <strong>pml4e</strong>, <strong>pdpdt</strong>, <strong>pde</strong> to arrive at
+the <strong>pte</strong>. The <strong>pte</strong> contains the value 0xf8a001b759280400 which
+Rekall identifies as being in the PROTOTYPE state (As described
+previously a prototype PTE is like a symlink to another PTE which
+describes the real state of this virtual address).</p>
+<p>Rekall then prints the _MMPTE_PROTOTYPE record indicating that the
+real PTE is found in virtual address 0xF8A001B75928. Rekall then
+identifies that PTE as a Subsection PTE and prints its content (A
+Subsection PTE is a placeholder for file mappings). The
+_MMPTE_SUBSECTION has a pointer to the subsection object for this file
+mapping.</p>
+<p>Finally, in this case, Rekall does not have the file itself, hence we
+can not retrieve the content of this virtual address (On a real system,
+accessing the virtual address will cause the page fault handler to read
+the file into memory).</p>
+<p>That was a simple example. Lets look at a more complex example:</p>
+<pre><code class="language-text">[1] swapper_test_paged_pde.aff4 17:41:12&gt; vtop 0x000000600000
+******************** 0x600000 ********************
+Virtual 0x000000600000 Page Directory 0x33a5a000
+pml4e@ 0x33a5a000 = 0x2a00000383a9867
+pdpte@ 0x383a9000 = 0x2f0000038a6c867
+pde@ 0x38a6c018 = 0x213ff00200080
+[_MMPTE_SOFTWARE Soft] @ 0x000038a6c018
+Offset             Field              Content
+------ ------------------------------ -------
+  0x0    InStore                         [BitField(22-23):InStore]: 0x00000000
+  0x0    PageFileHigh                    [BitField(32-64):PageFileHigh]: 0x000213FF
+  0x0    PageFileLow                     [BitField(1-5):PageFileLow]: 0x00000000
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000004 (MM_READWRITE)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000000
+  0x0    Reserved                        [BitField(23-32):Reserved]: 0x00000000
+  0x0    Transition                      [BitField(11-12):Transition]: 0x00000000
+  0x0    UsedPageTableEntries            [BitField(12-22):UsedPageTableEntries]: 0x00000200
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Pagefile (0) @ 0x213ff000
+pte@ 0x213ff000 @ aff4://c7201492-0876-45f4-ba90-a7cccec6453d/c:/pagefile.sys (Mapped 0x613ff000) = 0x1cee00000080
+[_MMPTE_SOFTWARE Soft] @ 0x0000613ff000
+Offset             Field              Content
+------ ------------------------------ -------
+  0x0    InStore                         [BitField(22-23):InStore]: 0x00000000
+  0x0    PageFileHigh                    [BitField(32-64):PageFileHigh]: 0x00001CEE
+  0x0    PageFileLow                     [BitField(1-5):PageFileLow]: 0x00000000
+  0x0    Protection                      [Enumeration:Enumeration]: 0x00000004 (MM_READWRITE)
+  0x0    Prototype                       [BitField(10-11):Prototype]: 0x00000000
+  0x0    Reserved                        [BitField(23-32):Reserved]: 0x00000000
+  0x0    Transition                      [BitField(11-12):Transition]: 0x00000000
+  0x0    UsedPageTableEntries            [BitField(12-22):UsedPageTableEntries]: 0x00000000
+  0x0    Valid                           [BitField(0-1):Valid]: 0x00000000
+Pagefile (0) @ 0x1cee000
+Physical Address 0x1cee000 @ aff4://c7201492-0876-45f4-ba90-a7cccec6453d/c:/pagefile.sys (Mapped 0x41cee000)
+</code></pre>
+<p>In this example, Rekall identifies the PDE at physical address
+0x38a6c018 contains 0x213ff00200080. Since the PDE does not have bit 0
+set - it is not valid. However, Rekall identifies that the PTE table
+resides in the pagefile at offset 0x213ff000. Note how Rekall maps the
+pagefile into the physical address space - by mapping the pagefile into
+the physical address space, the address transition process can simply
+refer to it by a single physical offset.</p>
+<p>Rekall then reads the value of the PTE (from the pagefile) and finds
+that it is 0x1cee00000080. This again refers to the pagefile, this time
+at address 0x1cee000.</p>
+<p>Note that in the second example we consulted the pagefile twice - once
+for reading the PTE table (referenced by a paged out PDE) and once by
+resolving the actual PTE which also refers to the pagefile. Being able
+to see the full transition process at work is extremely useful. As
+forensic analysts we must justify how we arrive at our conclusions and
+the <strong>vtop</strong> plugin allows us to do this.</p>
+<h2 id="how-important-is-this">How important is this</h2>
+<p>We were previously surprised that correct address transition has not
+been implemented by other tools, and in particular by the lack of tools
+that are able to use the pagefile during analysis. Additionally, other
+researchers theorized that smear will be a big problem - there is a
+reasonably long time difference between aquiring the memory and
+acquiring the pagefile itself. Even we have previously observed that
+page tables may change between the two times causing the physical memory
+to be out of sync with the pagefile (we describe this as <strong>pagetable
+smear</strong> in the paper).</p>
+<p>We wanted to check how many pages from the known VAD region can be
+recovered with and without the pagefile. We use the
+Rekall <strong>vaddump</strong> plugin to dump all vad regions for
+the <strong>swapper.exe</strong> process. We can then test how many pages were as
+expected and how many were incorrect (possibly due to smear) using the
+following python script:</p>
+<pre><code class="language-text">import sys
+import struct
+
+i = errors = success = 0
+with open(sys.argv[1]) as fd:
+     while 1:
+        i += 1
+        fd.seek(i * 0x1000)
+        data = fd.read(8)
+        if not data: break
+
+        unpacked_data = struct.unpack(&quot;, data)[0]
+        if unpacked_data != i:
+            errors += 1
+        else:
+            success += 1
+
+print &quot;Total errors: %s, Total success: %s&quot; % (errors, success)
+</code></pre>
+<p>When using the pagefile, Rekall could correctly recover all but 3691
+pages out of 202400 (error rate of 1.8%). However, without the pagefile,
+Rekall could only recover 119198 out of 202400 (41% error rate). We
+attribute most of the errors to acquisition smear in the case where the
+pagefile was used. However, this demonstrates that the pagefile is
+critical to collect and analyze - almost half the pages of interest were
+in the pagefile.</p>
+<h2 id="the-aff4-acquisition-plugin">The AFF4 acquisition plugin</h2>
+<p>Our goal in acquisition is to preserve as much of system state as
+possible for later analysis. As we have seen, from the point of view of
+the address translation process, the system state comprises of:</p>
+<ol>
+<li>The physical memory.</li>
+<li>The pagefile.</li>
+<li>Any mapped files.</li>
+</ol>
+<p>Previously, we used a dedicated imaging tool to acquire memory and the
+pagefile on the side. For example, the WinPmem 2.0.1 acquisition tool
+was written in C++ and acquired physical memory, while shelling out to
+the Sleuthkit's fcat program to parse the NTFS file system when
+acquiring the pagefile (The pagefile is locked during normal system
+operation and can not be opened via the normal system APIs).</p>
+<p>Quite independent of that, Rekall had for a long time the ability to
+perform live analysis: The raw physical memory device was used as a kind
+of memory image, and Rekall could perform triage live analysis without
+having to acquire memory first.</p>
+<p>We have realized that in order to best preserve system state, especially
+on utilized systems, we should combine the two approaches to get a
+better copy of system state! Rekall can start to acquire the physical
+memory, then analyze the running system to determine which files are
+mapped and should be acquired additionally. Rekall now even parses the
+NTFS file system directly, and therefore can acquire locked files
+without using the OS APIs (There is no need to shell out to the
+Sleuthkit).</p>
+<p>The final product is therefore an AFF4 volume containing physical memory
+as well as any mapped files and pagefile from the system. The AFF4
+imaging format provides us with the required features, such as
+compression, sparse images (Physical memory is often sparse) and the
+ability to store multiple data streams in the same image format.</p>
+<p>Now we can write a sophisticated memory acquisition tool right inside
+Rekall instead of having to rely on a dedicated imager. This is more
+powerful since we can leverage the triage and analysis capability in
+Rekall. It does come at a cost of increased complexity to the
+acquisition tool, and potentially increased footprint due to the larger
+executable size. However we believe this is a good trade off: Even if
+memory is forced to be swapped due to an increased footprint, we can
+just recover it from the pagefile anyway so we do not actually lose
+anything. We believe that when acquiring the pagefile and mapped files,
+demands on memory pressure and smaller tool footprint are less
+important. We will continue to maintain the old single program
+acquisition tool, which might be useful in some situations.</p>
+<p>Consider acquiring memory now from the command line:</p>
+<pre><code class="language-cmd">D:\AMD64&gt;winpmem_2.0.1.exe -l
+Driver Unloaded.
+CR3: 0x0000187000
+ 2 memory ranges:
+Start 0x00001000 - Length 0x0009E000
+Start 0x00100000 - Length 0x3FEF0000
+Memory access driver left loaded since you specified the -l flag.
+
+D:\AMD64&gt;rekal -f \\.\pmem aff4acquire c:\temp\image.aff4 --also_files
+Will use compression: https://github.com/google/snappy
+Imaging Physical Memory:
+ WinPmemAddressSpace: Wrote 0xc000000 (200 mb total) (11 Mb/s)
+...
+Wrote 1023 mb of Physical Memory to aff4://6567a47c-dd5d-4060-9a39-399fe735d959/PhysicalMemory
+Imaging pagefile C:\pagefile.sys
+ pagefile.sys: Wrote 0x20b5a000 (548 total) (22 Mb/s)
+Wrote pagefile.sys (1000 mb)
+Adding file C:\Windows\System32\ntdll.dll
+Adding file C:\Windows\SysWOW64\ntdll.dll
+Adding file C:\Windows\System32\smss.exe
+Adding file C:\Windows\System32\apisetschema.dll
+Adding file C:\Windows\System32\locale.nls
+Adding file C:\Windows\System32\en-US\cmd.exe.mui
+Adding file C:\Windows\Globalization\Sorting\SortDefault.nls
+Adding file C:\Windows\System32\kernel32.dll
+...
+</code></pre>
+<p>Lets examine the content of the AFF4 image using the aff4imager tool:</p>
+<pre><code class="language-bash">$ aff4imager -V image.aff4
+@prefix rdf:  .
+@prefix aff4:  .
+@prefix xsd:  .
+
+    aff4:chunk_size 32768 ;
+    aff4:chunks_per_segment 1024 ;
+    aff4:compression  ;
+    aff4:original_filename &quot;C:\\Program Files (x86)\\Miranda IM\\Plugins\\GG.dll&quot;^^xsd:string ;
+    aff4:size 316416 ;
+    aff4:stored  ;
+    a aff4:image .
+
+...
+
+    aff4:category  ;
+    aff4:stored  ;
+    a aff4:map .
+
+...
+
+    aff4:chunk_size 32768 ;
+    aff4:chunks_per_segment 1024 ;
+    aff4:compression  ;
+    aff4:original_filename &quot;C:\\pagefile.sys&quot;^^xsd:string ;
+    aff4:size 1380974592 ;
+    aff4:stored  ;
+    a aff4:image .
+</code></pre>
+<p>We can see an example of a file stream ("C:\Program Files
+(x86)\Miranda IM\Plugins\GG.dll"), the physical memory stream, and
+the pagefile are also acquired.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>In this blog post we discussed Rekall's advanced virtual address
+transition algorithms. To our knowledge, Rekall is the only open source
+memory analysis framework to support incorporating the pagefile and
+mapped files. We also discussed the new <strong>aff4acquire</strong> plugin which
+aims to simplify the process of memory acquisition and ensure that more
+relevant evidence is collected automatically during acquisition time, to
+complete subsequent analysis.</p>
+<p>We have also shared some test images, and examined some cases where
+address transition is particularly complex.</p>
+<p>We hope to convince you, the reader, that properly supporting the
+pagefile is critical for accurate memory analysis! In Rekall we choose
+to have a strong and solid foundation on top of which we can develop
+better memory analysis techniques. In the next blog post we will discuss
+how this foundation can be used in order to reliably analyze user space
+heap allocations.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

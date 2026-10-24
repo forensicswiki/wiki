@@ -1,0 +1,984 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Pmem suite of memory acquisition tools - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-pmem-memory-acquisition-suite" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pmem suite of memory acquisition tools
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/" class="md-tabs__link">
+          
+  
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tags/" class="md-tabs__link">
+          
+  
+  
+  Tags
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Community
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tags
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-pmem-memory-acquisition-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Pmem memory acquisition suite
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Pmem memory acquisition suite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#osxpmem-winpmem-linpmem-so-many-pmems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OSXPmem, WinPmem, LinPmem ... So many pmem's
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-aff4-anyway-and-why-are-you-forcing-me-to-use-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is AFF4 anyway, and why are you forcing me to use it
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#let-me-see-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Let me see examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adding files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-winpmem-acquisition-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Winpmem acquisition tool
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-osxpmem-acquisition-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The OSXPmem acquisition tool
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:linux" class="md-tag">Linux</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Pmem suite of memory acquisition tools</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on 2016-05-24.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>The recent Rekall Furka release updated the pmem suite of acquisition
+tools, so I thought this would be a good time to write a blog post about
+the new features and to recap the work we have been doing on reliable
+and robust memory acquisition for Linux, Mac OS X and Windows.</p>
+<h2 id="the-pmem-memory-acquisition-suite">The Pmem memory acquisition suite</h2>
+<p>The Pmem suite of memory acquisition tools are already quite well known
+as the best open source memory acquisition tools available, and in the
+case of Mac OS X, the only reliable memory acquisition solution available for
+the latest versions of the operating system. This blog post discusses
+some of the recent changes we made in the recently released pmem 2.1
+series of acquisition tools. The old Winpmem 1.6.2 tool is still
+available and it is perhaps the most stable and battle tested, but the
+new series offers many advantages, so it might be worth testing these
+with your own incident response procedures.</p>
+<p>While access to physical memory is different on each operating system,
+we tried to unify the userspace component as much as possible. This
+should make it easier to use because the same command line options are
+available on each operating system. Previous tools had completely
+different sets of options, but now most of the options are the same
+across all target OSs.</p>
+<h3 id="osxpmem-winpmem-linpmem-so-many-pmems">OSXPmem, WinPmem, LinPmem ... So many pmem's</h3>
+<p>The Pmem suite offers a complete memory acquisition solution and
+consists of a few different sub-components. It is sometimes a bit
+confusing when we talk about so many different things all called pmem.</p>
+<p>Here is a high level overview of the different components:</p>
+<p><img alt="pmem suite of memory acquisition tools 1" src="../assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_1.jpg" /></p>
+<p>We see that there are four main kernel based components to facilitate
+access to physical memory:</p>
+<ol>
+<li>On Mac OS X, the MacPmem memory driver provides direct access to physical
+   memory.</li>
+<li>On Windows, the WinPmem kernel driver provides physical memory access.</li>
+<li>On Linux, we mainly rely on the built in /proc/kcore device which is
+   often enabled. This provides raw physical memory access natively.</li>
+<li>Sometimes, however, on Linux, the kcore device is disabled. In that case
+   we also provide the pmem kernel driver which facilitates physical memory
+   access.</li>
+</ol>
+<p>All the kernel components enable access to physical memory, which we use
+to implement memory acquisition and live analysis. The memory
+acquisition tools are OSXPmem, WinPmem (2.1) and LinPmem are operating
+system specific acquisition tools. They all use the same unified AFF4
+imager framework and therefore all have similar command line arguments,
+and produce images in the same way.</p>
+<p>Finally, Rekall can use all kernel components directly when performing
+live analysis on all supported operating systems. Rekall also has a
+plugin called aff4acquire which uses this raw physical memory access to
+acquire a physical memory image, in a similar way to the standalone
+tools. Memory acquisition through Rekall is able to include additional
+data which can only be deduced from live analysis (e.g. it also captures
+all mapped files) but it requires running Rekall (with larger footprint
+and requires access to the profile repository).</p>
+<h3 id="what-is-aff4-anyway-and-why-are-you-forcing-me-to-use-it">What is AFF4 anyway, and why are you forcing me to use it</h3>
+<p>Because the pmem imagers use the unified AFF4 imager framework, the pmem
+acquisition tools always write AFF4 images. What does that mean?</p>
+<p>I know that many people are still using RAW or ELF images, mainly in
+order to interact with other tools that do not support AFF4 directly.
+Maybe users are not ready to commit to a new file format which is
+potentially not compatible with other tools?</p>
+<p><a href="../aff4/">AFF4 (Advanced Forensic Format 4)</a> is a concept,
+as well as a file format. The main features of AFF4 are that it defines
+containers, streams and metadata:</p>
+<ol>
+<li>A stream is an object which supports randomly seeking and reading in.
+   For example, a regular file on disk is a stream. AFF4 also defines other
+   stream formats.</li>
+<li>Similarly, a container is just something that contains streams. For
+   example, a regular filesystem directory is also an AFF4 container. By
+   default pmem will use a ZIP file as a container but it can easily use a
+   directory instead.</li>
+<li>Finally, AFF4 contains metadata about the image. This is something you
+   always want for memory acquisition - the more data the better! AFF4
+   stores metadata in RDF Turtle format by default, but Pmem also uses
+   YAML.</li>
+</ol>
+<p>The nice thing about AFF4 therefore, is that it is actually completely
+compatible with simpler file formats, such as RAW but at the same time,
+due to the additional metadata included, tools that understand AFF4 can
+make use of that automatically.</p>
+<p>So when we say we only write AFF4 images, we really mean that the images
+that are produced are written in a structured way, but these images can
+also be made to look like a RAW or ELF image to other tools.</p>
+<h3 id="let-me-see-examples">Let me see examples</h3>
+<p>Let's take a look at an example. In this example, I am acquiring memory
+from a Mac OS X system into a standard AFF4 ZIP container. This is the
+default output format:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_mobkl5agrujhhrhb5gqhqgbp.png" /></p>
+<p>In this example we specified:</p>
+<ul>
+<li>-o test.aff4 write output into this file.</li>
+<li>-t - output file will be truncated</li>
+<li>-c snappy : Use Snappy compression. This is much faster than the default zlib compression and
+  still pretty good compression.</li>
+</ul>
+<p>The resulting AFF4 file is stored in a ZipFile container. What does that
+look like?</p>
+<p>We can use osxpmem to show us some metadata about the image:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_ymnz3dtxtazb5vm6pjurx1ub.png" /></p>
+<p>The volume contains two streams:</p>
+<ul>
+<li>The first stream (ends with dev/pmem) is a map with a category of
+  physical memory. This is the actual memory image.</li>
+<li>The second stream is an aff4:image which stores bulk image data, divided
+  into compressed chunks.</li>
+</ul>
+<p>An AFF4 map is an efficient construct which allows use to store sparse
+images (with holes) such as memory images which usually have gaps for
+PCI DMA regions. We do not need to waste any space on sparse gaps. The
+Map itself is backed by a regular AFF4 image stream which uses
+compressed chunks to store the bulk data in the image. Hence we get both
+compression and sparse image.</p>
+<p>We can use the regular unzip command to inspect it (NOTE: The default
+unzip that comes with Mac OS X does not support ZIP64 very well so it reports
+the file as slightly corrupted. It is not, in fact corrupted at all and
+a proper unzip utility will support it well).</p>
+<p>We can see some members in the ZIP file:</p>
+<ul>
+<li>information.turtle contains RDF information about this AFF4 container.</li>
+<li>dev/pmem/idx stores the map transformation (very small)</li>
+<li>dev/pmem/data is the bulk data stream</li>
+<li>dev/pmem/data/00000XXXXX are the segments which store the compressed chunks</li>
+<li>dev/pmem/data/00000XXXXX/index are indexes for each segment</li>
+</ul>
+<p>This image works well with Rekall which supports AFF4 natively:</p>
+<p><a href="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_vtckn86s3bbdt5nwidvwif69.png">Rekall output on the image</a></p>
+<p>But, suppose I wanted to use another program with this image, so I
+really want RAW output.</p>
+<p>We could always export the memory image from the AFF4 volume into a raw
+file:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_airaqruezr9i6wnz2pjqadwk.png" /></p>
+<p>But this might be inconvenient. What if we wanted to acquire to RAW
+format in the first place? Pmem offers support for the following memory
+image formats:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_jzjjs9ezonb3ak5w4rghbxbs.png" /></p>
+<p>It is important to note that the --format option talks about the format
+of the memory stream (i.e. RAW) not the format of the container which is
+still an AFF4 Zip based file. In the following example, I will create a
+ZIP file with a huge RAW memory image in it.</p>
+<p>This is fine and it is very useful when you want to acquire a bunch of
+files off the same system (e.g. memory, pagefiles, drivers etc). In the
+end you just get a simple (but very large) ZIP file with all the files
+inside it - convenient for easy transport off the system. Note that even
+though the RAW image is stored in a ZIP file it is not compressed - so
+the ZIP file is still huge. This is because Rekall can use the ZIP file
+directly then without needing to unpack it first (You can not seek in a
+compressed archive member). The RAW image is just a single large
+uncompressed archive member.</p>
+<p>This is still not that useful for running other tools on the image - we
+will need to unzip the image first so we can point our tool at it.
+Remember that I mentioned above that a simple filesystem directory is
+also an AFF4 container? Why don't we write the image into a directory?</p>
+<p>In order to make pmem choose an AFF4 directory container you just
+specify a directory path. So you need to create a directory first:</p>
+<p><img alt="Rekall writing the image into an AFF4 directory container" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_kevbrwrw2mijoqtawlq6hmus.png" /></p>
+<p>Remember that AFF4 containers just store streams so it is exactly the
+same as the previous example, except that the files are written to a
+directory instead of a single Zip file. However, in this case, you will
+find the huge RAW physical memory file (dev%2fpmem) inside the directory - ready
+to be viewed with another tool:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_0nfw3supaeqtjim7g64mqxha.png" /></p>
+<p>Note also the metadata files which contain important information about
+the memory collected:</p>
+<p><img alt="screenshot" src="docs/assets/images/rekall-forensics-blog/pmem_suite_of_memory_acquisition_tools_snap_bxim7lgu5xxy1qsxdlwlwd6r.png" /></p>
+<p>Rekall, however, understands AFF4 volumes so it can use the metadata
+directly to bootstrap analysis (e.g. use the correct profile
+automatically). Note that when we use Rekall we should specify the path
+to the entire directory, not the path to the RAW image inside the
+directory (So Rekall understands we mean the AFF4 volume to be used).</p>
+<h3 id="adding-files">Adding files</h3>
+<p>We often only get one chance to acquire memory. We need to make sure
+that everything we might need in the analysis phase will end up in the
+image. For example, sometimes after analysis we see a mapped file that
+is of interest in the memory image. But trying to dump files from memory
+is not very reliable since many pages are missing - it would have been
+better to acquire these files in the first place.</p>
+<p>The nice thing about AFF4 containers is that they can store multiple
+streams - i.e. they can capture more than one file. The Pmem suite tries
+to acquire as many files as it can automatically. For example, in
+Windows the pagefile can be acquired, as well as all the drivers and the
+kernel image itself. In Linux, the contents of <em>/proc/kallsyms</em> is
+captured as well as the /boot/ partition.</p>
+<p>It is possible to include other files during acquisition. This can be
+done during the memory acquisition or later, by appending to the AFF4
+volume.</p>
+<p>Note that by default, when you specify the -i flag, pmem assumes you
+want to add files to an existing volume and does not acquire memory. You
+can force memory acquisition and file inclusion at the same time with
+the -m flag.</p>
+<h2 id="the-winpmem-acquisition-tool">The Winpmem acquisition tool</h2>
+<p>The driver component of Winpmem has been stable for many years now. Like
+the MacPmem driver, it uses advanced page table manipulation to bypass
+any OS restrictions (which have been presented at DFRWS 2013).
+So this release of winpmem reuses the same driver as Winpmem 1.6.2 - the
+only difference is in the userspace tool.</p>
+<h2 id="the-osxpmem-acquisition-tool">The OSXPmem acquisition tool</h2>
+<p>The Mac OS X counterpart of the pmem suite comes as a ZIP file. To use it you
+simply need to unzip it as root (note: You must be root when unzipping
+on order to ensure proper file permissions. The extracted files must be
+owned by root and only readable by root).</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
