@@ -105,6 +105,10 @@ community.
   parsing library, they share the same flaws. True evaluation demands using tools built completely
   independent to ensure validation is genuine rather than an echo chamber.
 
+## See Also
+
+* [Tool Testing](tool_testing.md)
+
 ## External Links
 
 * [Validation and verification of computer forensic software tools - Searching Function](https://www.sciencedirect.com/science/article/pii/S1742287609000358),
