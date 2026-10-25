@@ -55,10 +55,20 @@ mkdocs serve
 
 Step 3. Open your browser and visit <http://127.0.0.1:8000/your_doc_name>
 
-## Linking tags
+## Tags
+
+### Linking to a tag
+
+To link to a tag, e.g. the "Concept" tag:
+
+```text
+https://forensics.wiki/tags/#tag:concept
+```
+
+### Including a tag as content
 
 Forensics Wiki uses Material for MkDocs which supports generating a list of articles with a
-specific tag as following.
+specific tag as part of its content as following:
 
 ```html
 <!-- material/tags { include: ["File Formats"] } -->
