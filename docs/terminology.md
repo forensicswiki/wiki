@@ -201,6 +201,45 @@ The definition of artifact within computer forensics could be:
 Where digital archaeological roughly refers to computer forensics without the forensic (legal)
 context.
 
+## Binary, Executable, Object File and Source Code
+
+These terms trace the lifecycle of a software program from human-readable text to
+machine-executable code. In reverse engineering and malware analysis, these distinctions help
+examiners identify the compilation state and structural readiness of a file.
+
+A **binary** is a broad term with two meanings. Generally, a binary file is any file that contains
+data not formatted as plain text (such as an image, an encrypted log, or a database). Informally in
+digital forensics, "a binary" is often used as a catch-all noun for any compiled piece of code,
+including executables and shared libraries (`.dll` or `.so`), to contrast them against plaintext
+source code.
+
+An **executable** (or executable file) is a complete, fully linked program that an operating system
+can load and run (such as an `.exe` file in Windows or an ELF file in Linux). A linker combines one
+or more object files and system libraries, resolving all memory addresses and establishing a clear
+execution entry point.
+
+An **object file** is an intermediate product of the compilation process (typically with a `.o` or
+`.obj` extension). A compiler translates source code into machine language for a specific
+architecture, creating an object file. While it contains machine instructions, it cannot be run on
+its own because references to external functions, variables, or libraries have not yet been
+resolved.
+
+A **source code** file contains human-readable programming instructions written in a high-level
+language (such as C, C++, or Go). It cannot be directly processed by a computer's Central
+Processing Unit (CPU) and serves as the blueprint before compilation.
+
+### Overlap and differences
+
+Where these terms differ is their level of compilation, structural readiness, and context:
+
+* **binary** - The data-level format (non-text); colloquially used to describe any compiled
+  artifact encountered during an investigation.
+* **executable** - Machine-readable and complete; a fully functional program ready to be executed
+  by an operating system.
+* **object file** - Machine-readable but incomplete; isolated fragments of compiled code requiring
+  linking.
+* **source code** - Human-readable text; the uncompiled design logic.
+
 ## Code points and characters
 
 * A **code unit** is the smallest chunk of bit data, such as an 8-bit byte for UTF-8 or a 16-bit word
