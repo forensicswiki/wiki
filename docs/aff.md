@@ -14,7 +14,7 @@ implementation of AFF.
 
 ## Caution
 
-**AFF3 and AFFLIBv3 have been depreciated and it is recommended to use [AFF4](aff4.md).** AFF4
+**AFF and AFFLIBv3 have been depreciated and it is recommended to use [AFF4](aff4.md).** AFF4
 builds upon many of the concepts developed in AFF.
 
 ## AFF Background
