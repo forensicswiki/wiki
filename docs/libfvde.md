@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Disk Analysis
   - LGPL
   - Libyal
   - Open Source Software

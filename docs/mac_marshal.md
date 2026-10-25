@@ -2,7 +2,7 @@
 tags:
   - Commercial Software
   - Disk Analysis
-  - MacOS
+  - Mac OS
   - Tools
 ---
 Mac Marshal is a tool to analyze Mac OS X file system images. It scans a

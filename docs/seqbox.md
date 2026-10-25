@@ -1,6 +1,6 @@
 ---
 tags:
-  - Archive
+  - Archive Format
   - File Formats
 ---
 SeqBox (SBX) is a single file container/archive that can be

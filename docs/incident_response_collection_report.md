@@ -1,6 +1,6 @@
 ---
 tags:
-  - Open Source
+  - Open Source Software
   - Tools
 ---
 The **Incident Response Collection Report (IRCR)** is a script based incident

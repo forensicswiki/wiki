@@ -2,7 +2,7 @@
 tags:
   - Disk Analysis
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Timeline Analysis
   - Tools

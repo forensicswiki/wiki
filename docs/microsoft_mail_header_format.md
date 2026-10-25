@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Microsoft Mail is a Mail User Agent program included
 with all versions of [Windows Vista](windows_vista.md).

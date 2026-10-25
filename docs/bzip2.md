@@ -1,7 +1,7 @@
 ---
 tags:
   - AIX
-  - Archive
+  - Archive Format
   - File Formats
   - FreeBSD
   - Linux

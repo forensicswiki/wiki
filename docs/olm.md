@@ -2,7 +2,7 @@
 tags:
   - Database
   - File Formats
-  - MacOS
+  - Mac OS
 ---
 Outlook For Mac, or OLM, files are a proprietary file format used by Microsoft Outlook For Mac.
 Outlook for Mac as suggested by the name is supported in Macintosh operating system and is

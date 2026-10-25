@@ -1,6 +1,6 @@
 ---
 tags:
-  - Law
+  - Legal
 ---
 The legal information below is not legal advice. You should consult a
 lawyer if you want professional assurance that this information, and

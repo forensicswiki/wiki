@@ -1,6 +1,5 @@
 ---
 tags:
-  - Data Files
   - File Formats
   - Windows
 ---

@@ -1,8 +1,8 @@
 ---
 tags:
-  - Disk Image
+  - Disk Image Format
   - File Formats
-  - MacOS
+  - Mac OS
 ---
 DMG, technically Universal Disk Image Format (UDIF), is the proprietary
 Apple Disk Image file recognized &amp; primarily associated with the Mac OS X

@@ -2,7 +2,7 @@
 tags:
   - Articles that need to be expanded
   - File Formats
-  - MacOS
+  - Mac OS
   - Solaris
 ---
 The Basic Security Module (BSM) file format originates from the

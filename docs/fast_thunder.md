@@ -3,7 +3,7 @@ tags:
   - Android
   - Download Managers
   - iOS
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
   - Windows

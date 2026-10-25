@@ -5,7 +5,7 @@ tags:
   - Disk Encryption
   - Encryption
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Windows
 ---

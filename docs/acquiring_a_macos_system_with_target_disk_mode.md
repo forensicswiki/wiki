@@ -1,7 +1,7 @@
 ---
 tags:
   - Howtos
-  - MacOS
+  - Mac OS
 ---
 Make sure to [disable the disk arbitration daemon](disabling_macintosh_disk_arbitration_daemon.md)
 on the machine where you will do the acquisition. Alternatively use a FireWire

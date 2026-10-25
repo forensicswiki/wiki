@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Log Analysis
 ---
 Log files are used to maintain a record of activities, e.g. activities
 of the operating system, certain applications, etc.

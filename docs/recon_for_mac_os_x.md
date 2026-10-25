@@ -2,7 +2,7 @@
 tags:
   - Commercial Software
   - Disk Imaging
-  - MacOS
+  - Mac OS
   - Tools
 ---
 RECON for Mac OS X is a software tool developed by [SUMURI](sumuri_llc.md) to

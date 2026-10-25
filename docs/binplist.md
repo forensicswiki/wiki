@@ -3,7 +3,7 @@ tags:
   - Articles that need to be expanded
   - File Analysis
   - Tools
-  - MacOS
+  - Mac OS
 ---
 Python-based parser for [binary property list (plist)](property_list_(plist).md)
 files.

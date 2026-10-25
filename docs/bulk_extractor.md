@@ -5,7 +5,7 @@ tags:
   - Open Source Software
   - Windows
   - Linux
-  - MacOS
+  - Mac OS
 ---
 **bulk_extractor** is a computer forensic tool that scans a disk image,
 a file, or a directory of files and extracts useful information without

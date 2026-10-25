@@ -1,7 +1,7 @@
 ---
 tags:
   - Linux
-  - MacOS
+  - Mac OS
   - Open Source Software
   - Tools
 ---

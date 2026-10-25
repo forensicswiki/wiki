@@ -1,6 +1,6 @@
 ---
 tags:
-  - Archive
+  - Archive Format
   - Articles that need to be expanded
   - File Formats
 ---

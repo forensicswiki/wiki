@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Version 6 of Outlook Express running on
 [Microsoft Windows](windows.md) generates headers in

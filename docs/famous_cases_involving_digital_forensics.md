@@ -1,7 +1,7 @@
 ---
 tags:
   - Investigations
-  - Law
+  - Legal
 ---
 ## 2000 Michelle Theer
 

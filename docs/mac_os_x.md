@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - MacOS
+  - Mac OS
   - Operating Systems
 ---
 Apple Inc.'s Mac OS X (pronounced "OS Ten") is the operating system

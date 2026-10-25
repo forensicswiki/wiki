@@ -1,6 +1,6 @@
 ---
 tags:
-  - Law
+  - Legal
 ---
 A grab-bag collection of citations on legal issues.
 

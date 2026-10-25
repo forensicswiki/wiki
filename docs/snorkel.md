@@ -4,7 +4,7 @@ tags:
   - Tools
   - Windows
   - Linux
-  - MacOS
+  - Mac OS
   - FreeBSD
   - NetBSD
   - OpenBSD

@@ -1,9 +1,8 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Binary
   - File Formats
-  - MacOS
+  - Mac OS
   - Tools
 ---
 Binary plists are the files that Apple products use to store information. The

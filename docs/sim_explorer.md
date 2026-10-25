@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mobile device tools
+  - Mobile Device Tools
 ---
 **SIM Explorer** is an advanced SIM card analysis tool designed for
 reverse engineers, forensic detectives, or those who are learning about

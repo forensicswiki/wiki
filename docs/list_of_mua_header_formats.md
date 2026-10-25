@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 The following pages defines the headers added to each message by the
 mail user agent:

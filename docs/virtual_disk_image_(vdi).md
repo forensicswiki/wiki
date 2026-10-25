@@ -4,7 +4,7 @@ tags:
   - Disk Analysis
   - File Formats
   - Linux
-  - MacOS
+  - Mac OS
   - Virtual Disk
   - Windows
 ---

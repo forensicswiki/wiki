@@ -1,8 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Audio Conversion
-  - MacOS
+  - Mac OS
   - Tools
 ---
 **afconvert** is part of the [AFF](aff.md) toolset. This program

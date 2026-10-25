@@ -1,11 +1,11 @@
 ---
 tags:
-  - Archive
+  - Archive Format
   - Articles that need to be expanded
   - File Formats
   - FreeBSD
   - Linux
-  - MacOS
+  - Mac OS
   - NetBSD
   - OpenBSD
   - Windows

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mobile Devices
+  - Mobile
 ---
 The **T-Mobile Sidekick**, also known as the Hiptop for non T-Mobile
 customers, is a smartphone manufactured by Sharp.

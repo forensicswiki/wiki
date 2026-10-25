@@ -1,7 +1,7 @@
 ---
 tags:
   - Open Source Software
-  - Registry Analysis
+  - Windows Registry Analysis
   - Tools
   - Windows
 ---

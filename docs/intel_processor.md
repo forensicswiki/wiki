@@ -1,6 +1,6 @@
 ---
 tags:
-  - Micro processor
+  - Microprocessor
 ---
 ## Physical memory organization
 

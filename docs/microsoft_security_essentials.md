@@ -1,6 +1,6 @@
 ---
 tags:
-  - Anti Virus
+  - Antivirus
   - Applications
 ---
 ## Quarantine directory

@@ -1,7 +1,7 @@
 ---
 tags:
   - File Formats
-  - Archive
+  - Archive Format
   - Articles that need to be expanded
   - Windows
 ---

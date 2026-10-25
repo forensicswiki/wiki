@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Artifact Analysis
 ---
 ## Java WebStart Cache
 

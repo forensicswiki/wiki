@@ -1,6 +1,6 @@
 ---
 tags:
-  - Law
+  - Legal
 ---
 The principles of Subsidiarity and Proportionality more commonly used in
 law can also be applied to (forensic) analysis or investigations.

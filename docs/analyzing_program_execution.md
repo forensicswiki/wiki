@@ -4,7 +4,7 @@ tags:
   - File Analysis
   - File Formats
   - Linux
-  - MacOS
+  - Mac OS
   - Windows
 ---
 This article is intended to give a high-level overview of analyzing

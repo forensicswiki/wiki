@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - MacOS
+  - Mac OS
 ---
 The **Apple Partition Map** (**APM**).
 

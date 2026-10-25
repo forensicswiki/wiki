@@ -1,6 +1,6 @@
 ---
 tags:
-  - Email analysis
+  - Email Analysis
 ---
 Microsoft Office Outlook 2003 ( 11.5608.5606 )
 

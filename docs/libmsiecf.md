@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - Artifact Analysis
   - LGPL
   - Libyal
   - Tools

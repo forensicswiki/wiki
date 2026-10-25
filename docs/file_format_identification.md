@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis
+  - File Analysis
 ---
 File Format Identification is the process of figuring out the format of
 a sequence of bytes. Operating systems typically do this by file
