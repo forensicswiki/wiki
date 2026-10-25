@@ -5,21 +5,17 @@ tags:
   - Disk Image Format
   - Articles that need to be expanded
 ---
-The **Advanced Forensics Format** (**AFF**) is an extensible open format for
-the storage of [disk images](disk_image.md) and related forensic
-[metadata](metadata.md). It was originally developed by [Simson Garfinkel](simson_l_garfinkel.md)
-and Basis Technology. The last version of AFF is implemented in the
-AFFLIBv3 library, which can be found on [GitHub](https://github.com/simsong/AFFLIBv3).
+The Advanced Forensics Format (AFF) is an extensible open format for the storage of
+[disk images](disk_image.md) and related forensic [metadata](metadata.md). It was originally
+developed by [Simson Garfinkel](simson_l_garfinkel.md) and Basis Technology.
 
-[AFF4](aff4.md) builds upon many of the concepts developed in AFF. AFF4 was
-developed by [Michael Cohen](michael_cohen.md), Simson Garfinkel and Bradley
-Schatz. That version can be downloaded from [GitHub](https://github.com/Velocidex/c-aff4).
+The [AFFLIBv3 library](https://github.com/simsong/AFFLIBv3) is considered the reference
+implementation of AFF.
 
-**AFF3 and AFFLIBv3 have been depreciated and should not be used for new
-projects.**
+## Caution
 
-[The Sleuth Kit](the_sleuth_kit.md), Autopsy, OSFMount, [Xmount](xmount.md),
-[FTK Imager](ftk_imager.md) and [FTK](forensic_toolkit.md) support the AFFv3 image format.
+**AFF and AFFLIBv3 have been depreciated and it is recommended to use [AFF4](aff4.md).** AFF4
+builds upon many of the concepts developed in AFF.
 
 ## AFF Background
 
@@ -35,7 +31,7 @@ source license.
 After AFFLIB was published, [Joachim Metz](joachim_metz.md)
 published [libewf](libewf.md), an open source implementation of
 the EnCase Expert Witness format. Later, Guidance Software modified its
-format to allow single disk volumes larger than 4GiB. Together these two
+format to allow single disk volumes larger than 4 GiB. Together these two
 changes significantly decreased the need for AFF and AFFLIB.
 
 In 2009 Cohen, Garfinkel and Schatz published an article on AFF4, a new
@@ -104,5 +100,13 @@ encrypted images.
 
 ## External Links
 
-* [AFFLIBv3 on GitHub](https://github.com/sshock/AFFLIBv3)
-* [OSFMount - 3rd party tool for mounting AFF disk images with a drive letter](https://www.osforensics.com/tools/mount-disk-images.html)
+* [Advanced Forensic Format: an open, extensible format for disk imaging](https://cs.harvard.edu/malan/publications/aff.pdf),
+  by S. Garfinkel, D. Malan, K. Dubec, C. Stevens and C. Pham
+
+## Tools
+
+* [AFFLIBv3](https://github.com/sshock/AFFLIBv3)
+* [FTK Imager](ftk_imager.md) and [FTK](forensic_toolkit.md)
+* [PassMark: OSFMount](https://www.osforensics.com/tools/mount-disk-images.html)
+* [The Sleuth Kit](the_sleuth_kit.md)
+* [Xmount](xmount.md)
