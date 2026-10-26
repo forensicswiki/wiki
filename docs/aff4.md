@@ -1,46 +1,48 @@
 ---
 tags:
-  - Articles that need to be expanded
   - Disk Image Format
   - File Formats
 ---
 The Advanced Forensic Framework 4, or AFF4 was developed by [Michael Cohen](michael_cohen.md),
 [Simson Garfinkel](simson_l_garfinkel.md) and [Bradley Schatz](bradley_schatz.md).
 
-This page describes the basic design. See [LibAFF4](libaff4.md) for a
+This page describes the basic design of the file format. See [LibAFF4](libaff4.md) for a
 description of how to use the sample implementation, library and tools.
+
+AFF4 is the successor of [AFF](aff.md) and there are multiple known versions and variants:
+
+* [AFF4 1.0](https://github.com/aff4/Standard/blob/master/AFF4StandardSpecification-v1.0.pdf)
+* [AFF 1.0a](https://github.com/aff4/Standard/blob/master/inprogress/AFF4StandardSpecification-v1.0a.md)
+* [AFF4-L 1.0 alpha](https://github.com/aff4/Standard/blob/master/inprogress/AFF4-L-StandardSpecification-v1.0.md)
+* AFF4-L 2.1 draft, for which it is currently unclear where this is documented
+
+The [DFRWS](digital_forensic_research_workshop.md) started a working group in 2026 to advance
+standardization and adoption of the format.
 
 ## Why did we want to design yet another forensic file format?
 
-Traditional forensic file formats have a number of limitations which
-have been exposed over the years:
+Traditional forensic file formats have a number of limitations which have been exposed over the
+years:
 
-* Proprietary formats like EWF are difficult to implement and explain.
-  EWF is a fairly complex file format. Most of the details are reverse
-  engineered. Recovery from damaged EWF files is difficult as detailed
-  knowledge of the file format is required.
-* Simple file formats like dd are very large since they are
-  uncompressed. They also dont store metadata, signatures or have
-  cryptographic support.
-* Traditional file formats are designed to store a single stream. Often
-  in an investigation, however, multiple source of data need to be
-  acquired (sometimes simultaneously) and stored in the same evidence
-  volumes.
-* Traditional file formats just deal with data - there is no attempt to
-  build a universal evidence management system integrated within the
-  file specification.
+* Proprietary formats like EWF are difficult to implement and explain. EWF is a fairly complex file
+  format. Most of the details are reverse engineered. Recovery from damaged EWF files is difficult
+  as detailed knowledge of the file format is required.
+* Simple file formats like dd are very large since they are uncompressed. They also dont store
+  metadata, signatures or have cryptographic support.
+* Traditional file formats are designed to store a single stream. Often in an investigation,
+  however, multiple source of data need to be acquired (sometimes simultaneously) and stored in the
+  same evidence volumes.
+* Traditional file formats just deal with data - there is no attempt to build a universal evidence
+  management system integrated within the file specification.
 
-The previous AFF format made huge advancements in the field introducing
-excellent support for cryptography, digital signatures, compression and
-even the concepts of external referencing. It was time to gather up all
-the good things in AFF and redesign a new AFF4 specification.
+The previous AFF format made huge advancements in the field introducing excellent support for
+cryptography, digital signatures, compression and even the concepts of external referencing. It was
+time to gather up all the good things in AFF and redesign a new AFF4 specification.
 
-We wanted to use a well recognized, widely supported and open bit level
-format. One of the strengths of AFF was the use of segments within the
-file format itself. It because obvious that the only requirement we have
-from an underlying storage mechanism is the ability to store blobs of
-data by name, and retrieve them by that name. How these are actually
-stored is quite irrelevant to us.
+We wanted to use a well recognized, widely supported and open bit level format. One of the
+strengths of AFF was the use of segments within the file format itself. It because obvious that the
+only requirement we have from an underlying storage mechanism is the ability to store blobs of data
+by name, and retrieve them by that name. How these are actually stored is quite irrelevant to us.
 
 The sections below give a quick overview to some of the major ideas.
 
@@ -316,6 +318,12 @@ aff4:target_period=3
 
 ## See Also
 
+* [AFF](aff.md)
+
+## External Links
+
+* [AFF4 Standard Documents](https://github.com/aff4/Standard)
+* [Working Group to advance standardization and adoption of AFF4 and AFF4-L](https://github.com/dfrws/aff4-wg)
 * [Extending the Advanced Forensic Format to accommodate Multiple Data Sources, Logical Evidence,
   Arbitrary Information and Forensic Workflow](https://simson.net/clips/academic/2009.DFRWS.AFF4.pdf),
   by M. I. Cohen, Simson Garfinkel and Bradley Schatz, 2009
@@ -324,6 +332,7 @@ aff4:target_period=3
 * [Debunking the Cellebrite (MacQuisition) Advanced Forensics File Format Version 4 (AFF4) implementation](https://www.forensicxlab.com/blog/exhume-aff4#the-cellebritemacaquisition-divergence),
   February 3, 2026
 
-### Tools
+## Tools
 
+* [aff4tools](https://github.com/jbolas/aff4tools)
 * [c-aff4](https://github.com/Velocidex/c-aff4)
