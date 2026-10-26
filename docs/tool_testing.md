@@ -69,3 +69,14 @@ stable, and completely reproducible.
 
 * [Forensic tooling](forensic_tooling.md)
 * [Test data](test_data.md)
+
+## External Links
+
+* [Computer Forensics Tool Testing Program (CFTT)](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt),
+  by NIST
+* [Evaluating Digital Forensic Tools (DFTs)](https://napier-repository.worktribe.com/OutputFile/178563),
+  by Flavien Flandrin, Prof William J. Buchanan, Richard Macfarlane, Bruce Ramsay, Adrian Smales
+* [Validation and verification of computer forensic software tools - Searching Function](https://www.sciencedirect.com/science/article/pii/S1742287609000358),
+  by Yinghua Guo, Jill Slay, Jason Beckett, September 2009
+* [Testing digital forensic data processing tools](https://osdfir.blogspot.com/2020/09/testing-digital-forensic-data.html),
+  by Joachim Metz, September 25, 2020
