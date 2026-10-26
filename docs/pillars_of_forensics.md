@@ -78,3 +78,20 @@ easily be dismantled under cross-examination in court.
 
 Ultimately, tools are replaceable and change rapidly; however, the core methodologies and
 fundamental scientific concepts of digital forensics remain the enduring backbone of the industry.
+
+### The Danger of an Artifact-Centric Approach
+
+An artifact-centric approach occurs when an investigator focuses myopically on individual pieces of
+digital evidence-such as a specific Windows Registry key, browser history entry, or LNK file-in
+isolation from the rest of the system. While artifacts are critical clues, relying on them
+mechanically without anchoring them to fundamental concepts and methodologies creates profound
+risks.
+
+Malicious actors frequently exploit this tunnel vision through anti-forensic techniques,
+intentionally forging, modifying, or spoofing specific artifacts to mislead investigators.
+Furthermore, routine software updates can quietly alter how operating systems or applications write
+these traces, leading to false positives or misinterpreted timelines. Without evaluating the
+broader behavioral context and understanding the fundamental system mechanics behind how an
+artifact is generated, an investigator risks falling victim to confirmation bias, drawing flawed
+conclusions about user intent, and presenting findings that will fail to withstand rigorous
+cross-examination.
