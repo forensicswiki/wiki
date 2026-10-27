@@ -2,6 +2,8 @@ site_name: "Forensics Wiki"
 
 nav:
 - Home: index.md
+- Concepts:
+  - concepts.md
 - Community:
   - community.md
 - Contributions:
