@@ -1,23 +1,45 @@
 ---
 tags:
-  - No Category
+  - Quality Assurance
 ---
-Testing and validation are 2 important elements for forensics.
+Testing and validation in digital forensics form the foundation of scientific credibility and legal
+admissibility by ensuring that analytical tools and methodologies yield accurate, reliable, and
+repeatable results.
+
+As digital evidence becomes increasingly complex and volatile, investigators cannot blindly trust
+the software and hardware used to extract data. Through rigorous validation frameworks, such as
+those aligned with [ISO/IEC 17025 standards](https://www.gov.uk) or the
+[Daubert standard](https://envistaforensics.com), forensic professionals systematically confirm
+that an acquisition or analysis tool operates as intended without altering the underlying source
+media.  Ultimately, this proactive testing establishes known error rates, mitigates the risk of
+technical glitches in the courtroom, and guarantees that digital findings can withstand intense
+legal scrutiny.
+
+There various different types of testing and validation that applies to digital forensics, for
+example:
+
+* Artifact-Behavior and Parsing Testing
+* File and Data Format Compatibility Testing
+* Core Tooling &amp; Functionality Testing
+* Software Boundary &amp; Input Robustness Testing
+* Regression &amp; Version Update Testing
+* Temporal and Environmental Testing
+* Cross-tool Validation Testing
+
+## See Also
+
+* [Forensic corpora](forensic_corpora.md)
+* [Forensic tooling](forensic_tooling.md)
+* [Researching Artifacts](researching_artifacts.md)
+* [SOLVE-IT](solveit.md)
+* [Test Data](test_data.md)
+* [Tool Testing](tool_testing.md)
 
 ## External Links
 
-* [Computer Forensics Tool Testing Program (CFTT)](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt),
-  by NIST
 * [Working Group on Digital Evidence (SWGDE)](https://www.swgde.org/home)
-* [Evaluating Digital Forensic Tools (DFTs)](https://www.napier.ac.uk/page-not-found),
-  by Flavien Flandrin, Prof William J. Buchanan, Richard Macfarlane,
-  Bruce Ramsay, Adrian Smales,
-* [Validation and verification of computer forensic software tools - Searching Function](https://www.sciencedirect.com/science/article/pii/S1742287609000358),
-  by Yinghua Guo, Jill Slay, Jason Beckett, September 2009
 * [Forensic Science Regulator Guidance: Method Validation in Digital Forensics](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/921392/218_Method_Validation_in_Digital_Forensics_Issue_2_New_Base_Final.pdf),
   by Crown, 2020
-* [Testing digital forensic data processing tools](https://osdfir.blogspot.com/2020/09/testing-digital-forensic-data.html),
-  by Joachim Metz, September 25, 2020
 * [25 Days, 25 Questions: Part 4 - Lab And Tool Standards](https://www.forensicfocus.com/articles/25-days-25-questions-part-4-lab-and-tool-standards/),
   by Forensic Focus, November 2, 2020
 
