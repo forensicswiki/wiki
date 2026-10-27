@@ -56,7 +56,7 @@ Wiki Links
 
 * [Paraben SIM Card Seizure](paraben_forensics.md)
 * [SIM Explorer](sim_explorer.md)
-* [SIMcon](simcon.md)
+* [SIMcon](paraben_forensics.md)
 * [SIMIS](simis.md)
 
 External Links
