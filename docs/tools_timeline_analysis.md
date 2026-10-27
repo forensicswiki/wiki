@@ -39,7 +39,7 @@ record of every file with its MAC times; the companion `idifference.py`
 ([forensic disk differencing](forensic_disk_differencing.md)) compares two images of
 the same disk and produces a *timeline of changes* between them.
 
-* [Recon for Mac OS X](recon_for_mac_os_x.md)
+* [Recon for Mac OS X](sumuri_llc.md)
 
 RECON for Mac OS X is a commercial triage suite for [Mac OS X](mac_os_x.md) developed by
 [SUMURI](sumuri_llc.md) that automatically finds, parses and unifies important
@@ -103,7 +103,7 @@ in the [network forensics tools](tools_network_forensics.md) article.
 MailXaminer is a commercial Windows-based e-mail and messaging data analysis tool
 whose feature list includes timeline analysis of searches - chats, mails and more.
 
-* [PALADIN](paladin_forensic_suite_-_live_boot_ubuntu.md)
+* [PALADIN](sumuri_llc.md)
 
 PALADIN is a free, "live" Linux forensic toolkit from [SUMURI](sumuri_llc.md) that
 bundles 100+ open source tools in toolboxes that include timeline analysis, log
