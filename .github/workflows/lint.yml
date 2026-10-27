@@ -33,6 +33,20 @@ jobs:
     - name: Run non-ASCII check
       run: |
         tox -e check-nonascii
+  check-tags:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Python 3.14
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.14'
+    - name: Install tox
+      run: |
+        python -m pip install tox
+    - name: Run tag check
+      run: |
+        tox -e check-tags
   pymarkdown:
     runs-on: ubuntu-latest
     strategy:
