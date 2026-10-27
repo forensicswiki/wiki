@@ -4,10 +4,10 @@ tags:
 ---
 In digital forensics, the integrity of an investigation depends as much on the human analyst as it
 does on the underlying technology. While technical hurdles like encryption and data volatility
-frequently dominate industry discussions, cognitive and procedural pitfalls—specifically **observer
-and observation errors**, pose an equally severe threat to justice. An unverified assumption or a
-misread trace can cascade into flawed conclusions, compromised court admissibility, and wrongful
-accusations.
+frequently dominate industry discussions, cognitive and procedural pitfalls, specifically
+**observer and observation errors**, pose an equally severe threat to justice. An unverified
+assumption or a misread trace can cascade into flawed conclusions, compromised court admissibility,
+and wrongful accusations.
 
 Understanding how these errors occur and implementing structured mitigation strategies is vital to
 maintaining scientific validity in digital investigations.
@@ -21,7 +21,7 @@ maintaining scientific validity in digital investigations.
 * **Observer Errors (Cognitive &amp; Human-Driven):** These stem from the investigator's internal
   biases and cognitive limitations. **Confirmation bias** often causes an analyst to pursue a single,
   selective hypothesis-driven trace while ignoring exculpatory data. Furthermore, a critical observer
-  error is **confusing an observation with a conclusion**—such as seeing a URL in a browser history
+  error is **confusing an observation with a conclusion**, such as seeing a URL in a browser history
   record (observation) and immediately concluding the suspect intentionally navigated to that site
   (conclusion), ignoring possibilities like malware, redirects, or background scripts.
 

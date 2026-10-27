@@ -46,6 +46,12 @@ entities are the reliable way to escape them. This rule is enforced in CI by
 `check_escaping.py`; run `tox -e check-escaping` locally, or
 `python check_escaping.py --fix docs` to correct files automatically.
 
+Non-ASCII punctuation and whitespace must not be used in prose either: they
+slip in through copy-paste and break searchability and consistent rendering.
+This is enforced in CI by `check_nonascii.py`; run `tox -e check-nonascii`
+locally, or `python check_nonascii.py --fix docs` to correct files
+automatically.
+
 Limit inline HTML to tags that Markdown cannot render natively, such as `<sup>` or `<sub>`
 for superscripts and subscripts. Use standard Markdown syntax (bold, italics, lists, links,
 tables) for everything else; the topics table on the homepage is an existing exception.

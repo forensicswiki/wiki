@@ -208,13 +208,13 @@ machine-executable code. In reverse engineering and malware analysis, these dist
 examiners identify the compilation state and structural readiness of a file.
 
 A **binary** is a broad term with two meanings. Generally, a binary file is any file that contains
-data not formatted as plain text (such as an image, an encrypted log, or a database). Informally in
+data not formatted as plain text, such as an image, an encrypted log, or a database. Informally in
 digital forensics, "a binary" is often used as a catch-all noun for any compiled piece of code,
 including executables and shared libraries (`.dll` or `.so`), to contrast them against plaintext
 source code.
 
 An **executable** (or executable file) is a complete, fully linked program that an operating system
-can load and run (such as an `.exe` file in Windows or an ELF file in Linux). A linker combines one
+can load and run, such as an `.exe` file in Windows or an ELF file in Linux. A linker combines one
 or more object files and system libraries, resolving all memory addresses and establishing a clear
 execution entry point.
 
@@ -225,7 +225,7 @@ its own because references to external functions, variables, or libraries have n
 resolved.
 
 A **source code** file contains human-readable programming instructions written in a high-level
-language (such as C, C++, or Go). It cannot be directly processed by a computer's Central
+language, such as C, C++, or Go. It cannot be directly processed by a computer's Central
 Processing Unit (CPU) and serves as the blueprint before compilation.
 
 ### Overlap and differences
@@ -282,7 +282,7 @@ lifecycle of an investigation. It defines the strategic "how" to ensure that the
 repeatable, transparent, and legally defensible.
 
 Methods are generally rigid and scale across the entire macro-level workflow. They rely on
-validated, standardized models—such as the NIST Digital Forensics Process or ISO/IEC 27037, to
+validated, standardized models, such as the NIST Digital Forensics Process or ISO/IEC 27037, to
 govern the sequence of acquisition, examination, analysis, and reporting. The primary objective of
 a method is to preserve the integrity of the evidence and maintain a flawless chain of custody.
 
