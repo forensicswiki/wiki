@@ -57,7 +57,8 @@ the `inode` abstraction from other filesystems from a simple integer to
 a string which may contain type and id (e.g. 50-144-8). Some of the
 timestamps are also omitted from the tool's output (but may be found
 using the low level API). This extra layer of abstraction is good in the
-general case (e.g. autopsy works with all filesystems in the same way)
+general case (e.g. [Autopsy](autopsy_forensic_browser.md) works with all
+filesystems in the same way)
 but may actually be hiding some important forensic information in some
 cases. Its useful to have an implementation of NTFS parsing with no
 abstractions at all - to allow examiners to corroborate some of the low
