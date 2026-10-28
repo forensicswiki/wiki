@@ -34,8 +34,9 @@ Next, we want MkDocs to load all of the pages of the Forensics Wiki. MkDocs need
 able to run and load the Forensics Wiki pages.
 
 * It will need a `docs` directory which holds all of Forensics Wiki pages.
-* It will the `mkdocs.yml` configuration file. This is the configuration that tells MkDocs how to
-  structure the site such as the structure of the menus.
+* It will need the `mkdocs.yml` configuration file. This is the
+  configuration that tells MkDocs how to structure the site such as the
+  structure of the menus. See [Sidebar](#sidebar) for how to update it.
 
 Both of the previous items are located in the root directory of the repository. To run MkDocs
 development server follow the steps below:
@@ -54,6 +55,46 @@ mkdocs serve
 ```
 
 Step 3. Open your browser and visit <http://127.0.0.1:8000/your_doc_name>
+
+## Sidebar
+
+The site's sidebar (also called navigation) is not generated from the
+articles. It is explicitly defined in the `nav:` section of the
+`mkdocs.yml` configuration file in the root of the repository. The
+current navigation looks like:
+
+```yaml
+nav:
+- Home: index.md
+- Concepts:
+  - concepts.md
+- Community:
+  - community.md
+- Contributions:
+  - contributions_mediawiki.md
+- Tags:
+  - tags.md
+```
+
+To add an article to the sidebar, add its path (relative to `docs/`)
+to the matching section. For example, to add the Concepts article:
+
+```yaml
+- Concepts:
+  - concepts.md
+```
+
+A top-level entry with a single page, such as `- Home: index.md`,
+creates a sidebar link with the given label. A section may also list
+multiple pages under it, which are shown as sub-items.
+
+Note that `docs/index.md` does not define the sidebar. It merely hides
+the sidebar on the home page using its YAML front matter
+(`hide: navigation`).
+
+After making a change, run the development server as described in
+[Run MkDocs](#run-mkdocs) and check the sidebar in your browser.
+Pushing the change to the `main` branch deploys it to the website.
 
 ## Tags
 
