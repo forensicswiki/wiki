@@ -18,7 +18,7 @@ third party to achieve the exact same results.
 | --- | --- | --- | --- |
 | **Unit Tests** | Tests a single, isolated function or component of the codebase. | **Prevents data corruption** at the foundational level, ensuring algorithms (like hash calculators) work flawlessly. | **Guarantees deterministic outputs** for specific individual code inputs. |
 | **Integration Tests** | Tests how multiple software modules interact with each other. | **Ensures seamless data flow** between extraction modules and database storage without losing metadata. | **Standardizes internal behavior** when different subsystems process evidence concurrently. |
-| **End-to-End (E2E) Tests** | Simulates a complete user workflow from data ingestion to report generation. | **Validates the entire toolchain**, proving the software mirrors a real investigator’s workflow without error. | **Confirms the exact same report** is generated every time the identical raw evidence image is processed. |
+| **End-to-End (E2E) Tests** | Simulates a complete user workflow from data ingestion to report generation. | **Validates the entire toolchain**, proving the software mirrors a real investigator's workflow without error. | **Confirms the exact same report** is generated every time the identical raw evidence image is processed. |
 | **Performance Benchmarks** | Measures system responsiveness, throughput, and stability under heavy loads. | **Prevents crashes or timeouts** during massive data parses, which could otherwise result in incomplete evidence. | **Establishes baseline metrics**, ensuring the software behaves identically on varying hardware classes. |
 | **Deployment &amp; Integrity Tests** | Verifies the software installs correctly and its binaries have not been altered. | **Guarantees environment hygiene**, proving the forensic tool itself hasn't been tampered with or corrupted. | **Ensures software consistency** across different forensic workstations or field laptops. |
 
@@ -52,7 +52,7 @@ image.
 #### Deployment &amp; Integrity Testing: Verifying the Witness
 
 Before a tool is ever fired up at a crime scene, **deployment and integrity tests** verify that the
-installation is clean. By cross-checking cryptographic hashes of the tool’s own binaries against
+installation is clean. By cross-checking cryptographic hashes of the tool's own binaries against
 known-good baselines, these tests prove that the software itself has not been altered by malware or
 corrupted during distribution. This ensures that the environment is legally defensible from the
 moment the machine boots.
