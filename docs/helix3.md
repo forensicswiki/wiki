@@ -76,7 +76,7 @@ Open source forensic tools include:
 * [dc3dd](dc3dd.md)
 * [aimage](aimage.md)
 * [The Sleuth Kit](the_sleuth_kit.md) (3.0.1, with "light"
-  version of Autopsy, with [libewf](libewf.md)
+  version of [Autopsy](autopsy_forensic_browser.md), with [libewf](libewf.md)
 * [foremost](foremost.md)
 * [Volatility](volatility_framework.md)
 * Several tools for mobile phone forensics

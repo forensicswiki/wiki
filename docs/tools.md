@@ -156,7 +156,9 @@ AFD, and [EnCase](encase.md) file formats.
 Work to support segmented raw, [iLook](ilook.md), and other
 formats is ongoing.
 
-[Autopsy](https://www.sleuthkit.org/autopsy/desc.php)
+[Autopsy](autopsy_forensic_browser.md)
+A GUI-based program that allows you to efficiently analyze hard
+drives and smart phones.
 
 [Bulk Extractor](bulk_extractor.md)
 <https://github.com/simsong/bulk_extractor/wiki>

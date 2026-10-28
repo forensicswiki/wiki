@@ -5,8 +5,8 @@ tags:
   - File Formats
 ---
 SQLite databases are used by many programs including several forensics tools,
-e.g. Autopsy 3. SQLite 3 is current and older SQLite packages cannot use
-sqlite3 databases so use sqlite3 tools.
+e.g. [Autopsy 3](autopsy_forensic_browser.md). SQLite 3 is current and older
+SQLite packages cannot use sqlite3 databases so use sqlite3 tools.
 
 ## SQLite3
 

@@ -13,8 +13,8 @@ The Sleuth Kit, or TSK, is a collection of [UNIX](unix.md)-based command
 line tools that allow you to investigate a computer. The current focus of the
 tools is the file and volume systems and TSK supports multiple file systems.
 
-Autopsy is a front-end for TSK which allows browser-based access to the TSK
-tools.
+[Autopsy](autopsy_forensic_browser.md) is a front-end for TSK which allows
+browser-based access to the TSK tools.
 
 ## Features
 
@@ -82,6 +82,19 @@ Note that there are numerous known issues with the
 
 ## History
 
+### Owning organizations
+
+The Sleuth Kit is based on The Coroner's Toolkit (TCT) and TCTUTIL.
+In its early years, it was known as *The @stake Sleuth Kit* (TASK),
+developed with the assistance of atstake.
+
+Basis Technology, a company that develops digital forensic tools, was
+the company behind The Sleuth Kit for many years. Its successor,
+Sleuth Kit Labs, provides the primary development of The Sleuth Kit.
+The Sleuth Kit Labs team started when
+[Brian Carrier](brian_carrier.md) joined Basis Technology to build
+its digital forensics department.
+
 ### License Notes
 
 The Sleuth Kit uses a mix of various licenses. Its core library, libtsk,
@@ -102,6 +115,7 @@ be supported and SleutKit tools might incorrectly represent these
 
 ## See Also
 
+* [Autopsy](autopsy_forensic_browser.md)
 * [The Sleuth Kit How-To](the_sleuth_kit_howto.md)
 * [Body file](body_file.md)
 * [tsk-cp](tsk-cp.md)
@@ -110,3 +124,5 @@ be supported and SleutKit tools might incorrectly represent these
 ## External Links
 
 * [Autopsy website](http://www.sleuthkit.org/autopsy/desc.php)
+* [Sleuth Kit Labs](https://sleuthkitlabs.com/)
+* [History of The Sleuth Kit and Autopsy](https://www.sleuthkit.org/about.php)

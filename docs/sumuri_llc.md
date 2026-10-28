@@ -12,7 +12,9 @@ is based in Camden, Delaware, USA.
 
 * [PALADIN](paladin_forensic_suite_-_live_boot_ubuntu.md) -
   completely free forensics toolkit. Includes over 100 forensic tools,
-  and also includes Autopsy by Basis Technology.
+  and also includes [Autopsy](autopsy_forensic_browser.md) by Basis
+  Technology (now Sleuth Kit Labs), the company behind
+  [The Sleuth Kit](the_sleuth_kit.md) and Autopsy.
 
 ### Software
 
