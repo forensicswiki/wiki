@@ -3,4 +3,4 @@ tags:
   - Redirect
 ---
 
-_See: [Datamining for Forensics](datamining_for_forensics.md)_
+_See: [Data mining](data_mining.md)_

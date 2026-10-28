@@ -3,10 +3,20 @@ tags:
   - Articles that need to be expanded
   - Tools
 ---
-Right now this is just a list of resources that will be useful for
-people doing forensic data mining and machine learning.
+This page is a place-holder for data mining and machine learning, as
+applied to computer forensics. Right now it is a list of algorithms
+and resources that will be useful for people doing forensic data
+mining.
 
-## External Links
+## Algorithms
+
+* <https://en.wikipedia.org/wiki/DBSCAN> - DBScan clustering algorithm.
+* <https://en.wikipedia.org/wiki/Okapi_BM25> - Okapi BM25 - A ranking
+  function used by search engines.
+* <https://en.wikipedia.org/wiki/Soundex> - Soundex, for doing "sounds
+  like" searching.
+
+## Tools
 
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/) data mining toolkit -
   java, has programmatic and GUI interface.
