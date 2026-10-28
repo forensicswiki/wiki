@@ -5,11 +5,11 @@ tags:
 In digital forensics, a timeline is often the outline of the entire story. It ties together system
 actions, user behaviors, and security incidents into a cohesive chronological narrative. However,
 timestamp analysis is rarely as straightforward as sorting a list from oldest to newest. For a
-forensic analyst, understanding the underlying **mechanisms of date and time values—specifically
-their formats, accuracy, precision, and granularity—is critical to preventing misinterpretation and
-flawed conclusions**.
+forensic analyst, understanding the underlying **mechanisms of date and time values, specifically
+their formats, accuracy, precision, and granularity, is critical to preventing misinterpretation
+and flawed conclusions**.
 
-## Storage vs. Value Granularity: The Analyst’s Blindspot
+## Storage vs. Value Granularity: The Analyst's Blindspot
 
 When exploring temporal artifacts, analysts must establish a clear distinction between how a system
 *stores* time and the *actual resolution* of the data within it:
@@ -17,7 +17,7 @@ When exploring temporal artifacts, analysts must establish a clear distinction b
 * **Accuracy &amp; Precision:** **Accuracy** reflects how close a timestamp is to the actual, true
   time of the event. **Precision** refers to the consistency or closeness of agreement among a set
   of recorded results.
-* **Storage Granularity:** This is the upper bound of a timestamp format’s capacity based on its
+* **Storage Granularity:** This is the upper bound of a timestamp format's capacity based on its
   technical design. For example, a format might be capable of tracking time down to the nanosecond.
 * **Value Granularity:** Just because a format *can* store nanoseconds does not mean the
   operating system or application updates it at that frequency. For instance, a system might record
@@ -37,7 +37,7 @@ Used natively within the NTFS file system, a **FILETIME structure stores date an
 
 **Forensic Caveat:** While its *storage granularity* is incredibly high (100-ns intervals), its
 *value granularity* varies wildly. For example, the NTFS last access time historically has a value
-granularity of 1 hour—or may be entirely disabled via system configuration
+granularity of 1 hour, or may be entirely disabled via system configuration
 (`NtfsDisableLastAccessUpdate`). Furthermore, certain FILETIME values possess **overloaded
 semantics**; a value of `0` typically means the time is unset, while `{0xffffffff, 0xffffffff}`
 might be used to indicate a value should be preserved or carry a special meaning in specific
@@ -80,7 +80,7 @@ is essential for comparing disparate logs, it introduces analytic risks, such as
 ### Up-Sampling (Artificially High Granularity)
 
 When a tool forces a low-granularity timestamp (like a 1-day FAT file access date) into a
-microsecond timeline, it must infer a time—often padding it out to midnight (`00:00:00.000000`). If
+microsecond timeline, it must infer a time, often padding it out to midnight (`00:00:00.000000`). If
 an analyst searches a timeline for an event that happened at 14:30, a naive query will completely
 miss this FAT record, creating an **information underflow** condition where the analyst assumes no
 activity took place.

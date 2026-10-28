@@ -39,7 +39,7 @@ EMBF includes Mac OS editions of Elcomsoft forensic tools for mobile and cloud d
 
 [Mac Marshal](mac_marshal.md) by [ATC-NY](https://www.atcorp.com/)
 
-[Recon for Mac OS X](recon_for_mac_os_x.md) by [Sumuri, LLC](sumuri_llc.md)
+[Recon for Mac OS X](sumuri_llc.md)
 
 ### Windows-based Tools
 
@@ -246,7 +246,7 @@ P2 Enterprise Edition by [Paraben](paraben_forensics.md)
 
 [BackTrack Linux](backtrack.md)
 
-[Paladin Forensic Suite - Live Boot Ubuntu](paladin_forensic_suite_-_live_boot_ubuntu.md) ([Sumuri, LLC](sumuri_llc.md))
+[Paladin Forensic Suite - Live Boot Ubuntu (Sumuri, LLC)](sumuri_llc.md)
 <https://sumuri.com>
 
 Simplifies various forensics tasks in a forensically sound manner via
