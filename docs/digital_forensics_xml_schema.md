@@ -7,7 +7,7 @@ found during machine-level storage examinations.
 
 At the heart of this framework is the `<fileobject>` schema, a core component used to
 comprehensively document structural evidence about individual files across a system. Rather than
-just tracking file contents, this schema captures deeply granular filesystem artifacts—including
+just tracking file contents, this schema captures deeply granular filesystem artifacts, including
 structural flags, unique identification metrics, physical sector locations, cryptographic hashes,
 and timeline timestamps. Understanding how these system attributes intertwine allows digital
 investigators to meticulously reconstruct user activity and map out timeline lifecycles of both
