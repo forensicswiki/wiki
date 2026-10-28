@@ -3,14 +3,37 @@ tags:
   - Analysis Techniques
   - Memory Analysis
 ---
-
-Memory Analysis is the practice of determining information about running programs, the
+Memory analysis is the practice of determining information about running programs, the
 [operating system](operating_system.md), and the overall state of a computer from a
-[memory image](memory_imaging.md). Because memory analysis is highly dependent on
-the operating system, it has been divided into the following pages:
+[memory image](memory_imaging.md).
+
+While volatile memory acquisition provides a critical, real-time snapshot of running processes,
+network connections, and decrypted credentials, it remains just one piece of a comprehensive
+investigation. Overarching forensic methodologies must actively account for the inherent
+shortcomings of memory analysis, such as the risk of data smearing during live acquisition, the
+transient nature of volatile data, and anti-forensic techniques designed to evade detection.
+
+Relying solely on RAM analysis creates dangerous blind spots; therefore, sound investigative
+frameworks must seamlessly integrate memory artifacts with traditional disk forensics, network
+logs, and timeline analysis to ensure findings are defensible, validated, and holistic.
+
+Memory analysis, by its nature, is highly dependent on the operating system, most of its techniques
+are described on the per-platform pages:
 
 * [Linux Memory Analysis](linux_memory_analysis.md)
 * [Windows Memory Analysis](windows_memory_analysis.md)
+
+This article describes the techniques that apply across platforms:
+
+* reading [data types](#data-types) in memory
+* [framework-based](#memory-analysis-frameworks)
+* [OS independent](#os-independent-analysis) analysis
+* [encryption key](#encryption-keys) extraction
+* recovering [browser, e-mail and instant messenger](#browser-and-email-artifacts) artifacts from
+  memory.
+
+The tools used to apply these techniques are gathered in
+[Memory analysis tools](tools_memory_analysis.md).
 
 ## Data types
 
@@ -80,6 +103,23 @@ to store non-Unicode strings.** The typical size of char is 8-bits where the MSB
 The typical size of wchar_t varies per "platform", e.g. it is common to see wchar_t to be 32-bit of
 size on Linux with gcc and 16-bit of size on Windows with MSC.
 
+## Memory analysis frameworks
+
+Most memory analysis is done through a framework -
+[Volatility](volatility_framework.md) is the leading example - which
+pairs generic analysis plugins with **profiles** that describe the
+data structures of a specific operating system and version. Because a
+plugin is written against the profile rather than against one
+particular system, the same analysis can be applied to images of many
+operating systems, and the results - processes, handles, network
+connections, encryption keys - are comparable across systems.
+
+See also [Volatility Framework](volatility_framework.md), [Rekall
+profiles](rekall_profiles.md), [List of Volatility
+plugins](list_of_volatility_plugins.md) and [Memory analysis
+tools: memory analysis
+frameworks](tools_memory_analysis.md#memory-analysis-frameworks).
+
 ## OS-Independent Analysis
 
 At the IEEE Security and Privacy conference in May 2011, Brendan
@@ -92,14 +132,49 @@ instructions and behavior of application actions (listing processes,
 network connections, etc) and then automatically generate Volatility
 plugins that replicated this analysis.
 
+See also [Platform independent
+tools](tools_memory_analysis.md#platform-independent-tools).
+
 ## Encryption Keys
 
-Various types of encryption keys can be extracted during memory analysis.
+Various types of encryption keys can be extracted during memory
+analysis, including symmetric keys such as [AES](aes.md) keys,
+asymmetric keys such as RSA private and public keys, and passphrases
+for [TrueCrypt](truecrypt.md) volumes.
 
-* AESKeyFinder extracts 128-bit and 256-bit [AES](aes.md) keys and RSAKeyFinder and private and
-  public RSA keys from a memory capture.
-* cryptoscan.py which is a [plugin for the Volatility framework](list_of_volatility_plugins.md),
-  scans a memory image for [TrueCrypt](truecrypt.md) passphrases
+See also [List of Volatility
+plugins](list_of_volatility_plugins.md) and [Memory analysis
+tools: memory analysis
+frameworks](tools_memory_analysis.md#memory-analysis-frameworks).
+
+## Browser and email artifacts
+
+Web-mail and e-mail clients keep session state in memory - message
+bodies, attachments and account data - that may never be written to
+disk, and that can be recovered from a memory image even when the
+on-disk store is unavailable or corrupted.
+
+See also [Memory analysis tools: browser and email
+artifacts](tools_memory_analysis.md#browser-and-email-artifacts).
+
+## Instant messenger artifacts
+
+Instant messenger clients cache conversations, contacts and account
+information in memory, and those artifacts can be recovered from a
+memory image without contacting the messaging service.
+
+See also [Memory analysis tools: instant messenger
+artifacts](tools_memory_analysis.md#instant-messenger-artifacts).
+
+## Memory analysis support
+
+Executables extracted from memory are generally left in a state that
+cannot be executed, diffed, or hash-validated: their relocations are
+not yet applied, so they must be restored to their original state
+before comparison or verification is meaningful.
+
+See also [Memory analysis tools: memory
+support](tools_memory_analysis.md#memory-analysis-support).
 
 ## See Also
 
@@ -194,7 +269,3 @@ Various types of encryption keys can be extracted during memory analysis.
 * [Reverse Engineering Poison Ivy's Injected Code Fragments](https://volatility-labs.blogspot.com/2012/10/reverse-engineering-poison-ivys.html)
 * [TrueCrypt Master Key Extraction And Volume Identification](https://volatility-labs.blogspot.com/2014/01/truecrypt-master-key-extraction-and.html),
   by Michael Hale Ligh, January 14, 2014
-
-## Tools
-
-* [Legilimency, a Memory Research Platform for iOS](https://github.com/google/Legilimency/)
