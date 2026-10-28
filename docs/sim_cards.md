@@ -117,7 +117,7 @@ In general, some of this data can help an investigator determine:
 There are many software solutions that can help the examiner to acquire
 the information from the SIM card. Several products include:
 
-* Inside Out's [SIMCon](simcon.md)
+* Inside Out's [SIMCon](paraben_forensics.md)
 * SIM Content Controller
 * Paraben Forensics' [SIM Card Seizure](paraben_forensics.md)
 
@@ -246,7 +246,7 @@ of the Ki from the SIM card, and essentially SIM card duplication.
 ## See also
 
 * [SIM Card Forensics](sim_card_forensics.md)
-* [SIMCon](simcon.md)
+* [SIMCon](paraben_forensics.md)
 * [SIM Explorer](sim_explorer.md)
 
 ## External Links
