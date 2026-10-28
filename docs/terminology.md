@@ -99,6 +99,17 @@ finish. The [investigator](investigator.md) article defines the role:
 > identifying, extracting and considering evidence from digital media, such as computer hard
 > drives.
 
+## Attacker and Malicious actor
+
+An **"attacker"** acts as the technical, data-level equivalent of an *analyst*, representing the
+specific entity orchestrating a discrete, highly tactical intrusion or exploit thread at the
+micro-level. Typically used in the context of a concrete attack.
+
+In contrast, a **"malicious actor"** is a broader, macro-level concept analogous to an
+*investigator*; it encompasses the entire identity, strategic alignment, and overall narrative
+footprint of the hostile entity behind the campaign, spanning multiple combined attacks, human
+motivations, and systemic risks.
+
 ## Evidence, Fact, Findings and Traces
 
 These terms form a chain from residue to legal proof: *traces* are what activity leaves
