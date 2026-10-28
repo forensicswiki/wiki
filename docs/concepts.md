@@ -2,7 +2,12 @@
 tags:
   - Concept
 ---
-Various concepts central to digital forensics.
+This article contains various concepts central to digital forensics such as:
+
+* Legal &amp; Procedural Concepts
+* Storage &amp; Data Concepts
+* Operational &amp; Technical Concepts
+* Analysis Concepts
 
 ## Legal &amp; Procedural Concepts
 
@@ -41,6 +46,14 @@ Various concepts central to digital forensics.
 * Unallocated Space: "Empty" space on a hard drive. When you delete a file, the computer does not
   instantly erase it; it simply marks that file's location as unallocated (free to overwrite).
 
+### Data Recovery
+
+* [Data recovery](data_recovery.md) - restoring data that was deleted, made inaccessible by damage
+  to a file system, partition table or storage media, or that is on failing media; see also
+  [Tools: Data Recovery](tools_data_recovery.md).
+* [File carving](file_carving.md) - recovering files based on their content (headers, footers,
+  internal structure) rather than on file system metadata.
+
 ## Operational &amp; Technical Concepts
 
 * Forensic Imaging (Bit-by-Bit Copy): Unlike a standard file copy (like dragging a folder to a USB
@@ -55,14 +68,6 @@ Various concepts central to digital forensics.
   fingerprint. If even a single letter inside a file is altered, the hash value changes completely,
   alerting investigators that the evidence has been tampered with. See also: [hashing](hashing.md).
 * [Order of Volatility](digital_evidence.md#order-of-volatility)
-
-## Data recovery
-
-* [Data recovery](data_recovery.md) - restoring data that was deleted, made inaccessible by damage
-  to a file system, partition table or storage media, or that is on failing media; see also
-  [Tools: Data Recovery](tools_data_recovery.md).
-* [File carving](file_carving.md) - recovering files based on their content (headers, footers,
-  internal structure) rather than on file system metadata.
 
 ## Analysis Concepts
 
@@ -91,12 +96,15 @@ how a system was actively compromised to eradicate the adversary. In contrast to
 which is typically a post-incident, deep-dive methodology that prioritizes strict chain-of-custody
 documentation and absolute data preservation to ensure findings are legally defensible.
 
-* Threat hunting, in the context of intrusion analysis, is the proactive, hypothesis-driven practice
-  of searching through networks, endpoints, and datasets to detect malicious activity that has
-  evaded existing security controls. Unlike traditional reactive analysis, which triggers only after
-  an automated alert fires, hunting operates under the assumption that a breach has already occurred.
+#### Threat hunting
+
+Threat hunting, in the context of intrusion analysis, is the proactive, hypothesis-driven practice
+of searching through networks, endpoints, and datasets to detect malicious activity that has
+evaded existing security controls. Unlike traditional reactive analysis, which triggers only after
+an automated alert fires, hunting operates under the assumption that a breach has already occurred.
 
 ### Timeline Analysis
 
+* [date and time values](date_and_time_values.md)
 * [epoch](epoch.md)
 * [MAC(B) and MACE times](mac_times.md)
