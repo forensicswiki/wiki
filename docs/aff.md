@@ -6,8 +6,8 @@ tags:
   - Articles that need to be expanded
 ---
 The Advanced Forensics Format (AFF) is an extensible open format for the storage of
-[disk images](disk_image.md) and related forensic [metadata](metadata.md). It was originally
-developed by [Simson Garfinkel](simson_l_garfinkel.md) and Basis Technology.
+[disk images](disk_image.md) and associated [metadata](metadata.md). It was originally developed
+by [Simson Garfinkel](simson_l_garfinkel.md) and Basis Technology.
 
 The [AFFLIBv3 library](https://github.com/simsong/AFFLIBv3) is considered the reference
 implementation of AFF.
@@ -19,59 +19,52 @@ builds upon many of the concepts developed in AFF.
 
 ## AFF Background
 
-AFF was created to be an open and extensible file format to store disk
-images and associated metadata. The goal was to create a disk imaging
-format that would not lock users into a proprietary format that may
-limit how he or she may analyze it. An open standard enables
-investigators to quickly and efficiently use their preferred tools to
-solve crimes, gather intelligence, and resolve security incidents. The
-format was implemented in AFFLIB which was distributed with an open
-source license.
+AFF was created to be an open and extensible file format to store disk images and associated
+metadata. The goal was to create a disk imaging format that would not lock users into a proprietary
+format that may limit how he or she may analyze it. An open standard enables investigators to
+quickly and efficiently use their preferred tools to solve crimes, gather intelligence, and resolve
+security incidents. The format was implemented in AFFLIB which was distributed with an open source
+license.
 
-After AFFLIB was published, [Joachim Metz](joachim_metz.md)
-published [libewf](libewf.md), an open source implementation of
-the EnCase Expert Witness format. Later, Guidance Software modified its
-format to allow single disk volumes larger than 4 GiB. Together these two
-changes significantly decreased the need for AFF and AFFLIB.
+After AFFLIB was published, [Joachim Metz](joachim_metz.md) published [libewf](libewf.md), an open
+source implementation of the Expert Witness format (EWF). Later, Guidance Software modified EWF
+to allow single disk volumes larger than 4 GiB. Together these two changes significantly decreased
+the need for AFF and AFFLIB.
 
-In 2009 Cohen, Garfinkel and Schatz published an article on AFF4, a new
-file format that incorporated and expanded on the underlying AFF ideas.
-AFF4 provides for multiple data views within a single data archives and
-allows links between archives. As a result, AFF4 natively supports
-selective imaging, logical file volumes, hash-based imaging, and a
-variety of case-management scenarios.
+In 2009 Cohen, Garfinkel and Schatz published an article on AFF4, a new file format that
+incorporated and expanded on the underlying AFF ideas. AFF4 provides for multiple data views within
+a single data archives and allows links between archives. As a result, AFF4 natively supports
+selective imaging, logical file volumes, hash-based imaging, and a variety of case-management
+scenarios.
 
 ## AFFv3 Extensions
 
-The original AFF format is a single file that contains segments with
-drive data and metadata. Its contents can be compressed, but it can be
-quite large as the data on modern hard disks often reach 100GB in size.
-AFFv3 supported three file extensions --- AFF, AFD and AFM --- and
-provided a tool to easily convert between the variations.
+The original AFF format is a single file that contains segments with drive data and metadata. Its
+contents can be compressed, but it can be quite large as the data on modern hard disks often reach
+100GB in size. AFFv3 supported three file extensions: AFF, AFD and AFM, and provided a tool to
+easily convert between the variations.
 
-For ease of transfer, large AFF files can be broken into multiple AFD
-format files. The smaller AFD files can be readily moved around a FAT32
-file system which limits files to 2GB or stored on DVDs, which have
-similar size restrictions. The AFM format stores the metadata in an AFF
-file, and the disk data in a separate raw file. This format allows
-analysis tools that support the raw format to access the data, but
-without losing the metadata.
+For ease of transfer, large AFF files can be broken into multiple AFD format files. The smaller AFD
+files can be readily moved around a FAT32 file system which limits files to 2 GB or stored on DVDs,
+which have similar size restrictions. The AFM format stores the metadata in an AFF file, and the
+disk data in a separate raw file. This format allows analysis tools that support the raw format to
+access the data, but without losing the metadata.
 
 ### Compression and Encryption
 
-AFF supports two compression algorithms: zlib, which is fast and
-reasonably efficient, and LZMA, which is slower but dramatically more
-efficient. zlib is the same compression algorithm used by EnCase. As a
-result, AFF files compressed with zlib are roughly the same size as the
-equivalent EnCase file. AFF files can be recompressed using the LZMA
-algorithm. These files are anywhere from 1/2 to 1/10th the size of the
-original AFF/EnCase file.
+AFF supports two compression algorithms:
 
-AFF2.0 supports encryption of disk images. Unlike the password
-implemented by EnCase, encrypted images cannot be accessed without the
-necessary encryption key. FTK Imager/FTK added support for this
-encryption in version 3.0 and are able to create and access AFF
-encrypted images.
+* zlib, which is fast and reasonably efficient,
+* LZMA, which is slower but dramatically more efficient.
+
+zlib is the same compression algorithm used by EnCase. As a result, AFF files compressed with zlib
+are roughly the same size as the equivalent EnCase file. AFF files can be recompressed using the
+LZMA algorithm. These files are anywhere from 1/2 to 1/10th the size of the original AFF/EnCase
+file.
+
+AFF 2.0 supports encryption of disk images. Unlike the password implemented by EnCase, encrypted
+images cannot be accessed without the necessary encryption key. FTK Imager/FTK added support for
+this encryption in version 3.0 and are able to create and access AFF encrypted images.
 
 ### AFFLIBv3 Tools
 
@@ -86,11 +79,6 @@ encrypted images.
 * afstats
 * [afxml](afxml.md)
 * afsegment
-
-# See Also
-
-* [AFF Developers Guide](aff_developers_guide.md) --- A guide
-  for programmers on how to use the AFF
 
 ## See Also
 
