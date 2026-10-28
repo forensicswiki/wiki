@@ -2,6 +2,16 @@
 tags:
   - Digital Forensics XML
 ---
+Digital Forensics XML (DFXML) provides a structured, standardized way to record and exchange data
+found during machine-level storage examinations.
+
+At the heart of this framework is the `<fileobject>` schema, a core component used to
+comprehensively document structural evidence about individual files across a system. Rather than
+just tracking file contents, this schema captures deeply granular filesystem artifacts—including
+structural flags, unique identification metrics, physical sector locations, cryptographic hashes,
+and timeline timestamps. Understanding how these system attributes intertwine allows digital
+investigators to meticulously reconstruct user activity and map out timeline lifecycles of both
+active and deleted evidence.
 
 ## Schemas
 
@@ -41,7 +51,7 @@ Other objects can be embedded in a **fileobject** object:
 | `<orphan>YES</orphan>` | YES means that the file is an "orphan," without a name. |
 | `<filesize>3210</filesize>` | The size of the file content in bytes. |
 | `<unalloc>1</unalloc>` | A "1" means that the file was not allocated in the file system. This may mean that the file was deleted. |
-| `<used>1</used>` | Not sure what this means. |
+| `<used>1</used>` | See below. |
 | `<mtime>1114172320</mtime>` | The file's modification time, as a POSIX (time_t) timestamp (number of seconds since January 1, 1970 UTC). |
 | `<ctime>1195819392</ctime>` | The file's inode's creation time, as a POSIX (time_t) timestamp. |
 | `<atime>1195794000</atime>` | The file's access time, as a unix timestamp. |
@@ -50,6 +60,36 @@ Other objects can be embedded in a **fileobject** object:
 | `<hashdigest type='md5'>c27c0730b858bc60c8894300a98bba55</hashdigest>` | The file's MD5, as a hexadecimal hash. |
 | `<hashdigest type='sha1'>0277680d624e609f23aec9e4265c2d7d24bd3824</hashdigest>` | The file's SHA1, as a hexadecimal hash. |
 | `<partition>1</partition>` | The partition number in which the file was found. |
+
+### Used and alloc
+
+The `<used>` tag explicitly addresses whether a filesystem metadata structure contains populated
+attributes.
+
+The `<alloc>` tag defines active, *current* logical system ownership, whereas `<used>` acts as a
+physical history marker confirming that data was actually written inside that metadata slot at some
+point.
+
+Mapping these terms together provides investigators with a matrix to separate untouched space from
+active and deleted files:
+
+| State | used | alloc | Meaning |
+| --- | --- | --- | --- |
+| **Pristine Space** | **0** | **0** | Brand new, unallocated space that has never held any file details. |
+| **Active File** | **1** | **1** | A normal, live file system object with active data. |
+| **Deleted / Recoverable** | **1** | **0** | A deleted file. Current allocation is unallocated (`0`), but historic data remains populated (`1`) and is prime for recovery. |
+| **Corrupted Slot** | **0** | **1** | System anomaly. Allocated to a file, but the structure contains no valid metadata attributes. |
+
+> Note that the table above is not authorative, please check with the DFXML working group if
+> necessary.
+
+## Caution
+
+While DFXML is a highly adaptable framework for recording data state changes, forensic analysts and
+tool developers must account for known nuances and shortcomings in the format:
+
+* [Require DFXML be encoded as UTF-8](https://github.com/dfxml-working-group/dfxml_schema/issues/34)
+* [Clarify: "NTFS's "Inode" numbers are the MFT entry address."](https://github.com/dfxml-working-group/dfxml_schema/issues/45)
 
 ## Examples
 
@@ -234,7 +274,10 @@ ran application.
      <dir>\DEVICE\HARDDISKVOLUME1\PROGRAMDATA\MICROSOFT\SEARCH ENHANCEMENT PACK\SEANOTE</dir>
      <dir>\DEVICE\HARDDISKVOLUME1\PROGRAMDATA\MICROSOFT\SEARCH ENHANCEMENT PACK\SEARCH BOX EXTENSION</dir>
      <dir>\DEVICE\HARDDISKVOLUME1\PROGRAMDATA\MICROSOFT\SEARCH ENHANCEMENT PACK\SEARCH HELPER</dir>
+```
 
 ## External Links
 
 * [Project site](https://github.com/dfxml-working-group/dfxml_schema)
+* [Digital Forensics XML and the DFXML Toolset](https://simson.net/ref/2011/dfxml.pdf),
+  by Simson Garfinkel, September 3, 2011
