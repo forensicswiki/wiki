@@ -2,14 +2,11 @@ site_name: "Forensics Wiki"
 
 nav:
 - Home: index.md
-- Concepts:
-  - concepts.md
-- Community:
-  - community.md
+- Concepts: concepts.md
+- Community: community.md
 - Contributions:
   - contributions_mediawiki.md
-- Tags:
-  - tags.md
+- Tags: tags.md
 
 theme:
   name: material
