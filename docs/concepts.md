@@ -83,6 +83,7 @@ This article contains various concepts central to digital forensics such as:
   archive depending on the interpreter used). If a forensic analysis tool relies strictly on a
   single header validation technique, it will catalog only one side of the polyglot, leaving a
   hidden archive or script fully functional yet unparsed.
+* [Unicode](unicode.md)
 * [Unpaired surrogates](unpaired_surrogates.md)
 
 ### Intrusion Analysis
