@@ -33,6 +33,7 @@ This article contains various concepts central to digital forensics such as:
 
 * Allocated Space: Storage space currently reserved by the operating system for active files, e.g.
   your documents or photos.
+* File [paths](paths.md)
 * Host Protected Areas (HPA) and Device Configuration Overlays (DCO): These are hidden, reserved
   regions on hard drives or SSDs that sit outside the master boot record (MBR) or GUID partition
   table addresses. Standard operating systems and basic forensic imagers cannot see these zones.
