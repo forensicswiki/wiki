@@ -14,7 +14,7 @@ same visual glyph to be built using entirely different underlying code points. T
 while necessary for global computing, introduces a significant challenge for digital forensic
 investigations.
 
-### The Problem with Phonetic Symbols and Modifiers
+### Phonetic Symbols and Modifiers
 
 The Unicode standard includes a vast array of phonetic extensions and modifier characters designed
 to alter the sound or appearance of preceding letters. In a forensic context, these characters
@@ -27,11 +27,11 @@ investigator reviewing an export or a user viewing a file, the text looks normal
 forensic tool keyword indexes will completely miss these strings because their binary signatures do
 not match the target query.
 
-### The Normalization Chaos: NFC, NFD, and NFKD
+### Normalization: NFC, NFD, and NFKD
 
-The core of the Unicode vulnerability lies in how different systems store identical characters.
 Unicode allows the same visual character to be represented in multiple ways, leading to the
-creation of four standard normalization forms. Three of the most impactful in forensics are:
+creation of four standard normalization forms. Three of the most impactful in digital forensics
+are:
 
 * **NFC (Normalization Form Canonical Composition):** Characters are combined into a single
   precomposed character wherever possible. For example, the character `é` is stored as a single
@@ -45,10 +45,43 @@ creation of four standard normalization forms. Three of the most impactful in fo
   like `⁵` is normalized down to a standard `5`, and ligatures or stylistic fractions are broken
   into their literal parts.
 
-### The Forensic Impact
+### Legacy Encoding Translation
 
-When data moves across different operating systems or normalization boundaries, serious forensic
-blind spots emerge:
+#### Cross-Codepage Structural Convergence
+
+Cross-Codepage Structural Convergence refers to the phenomenon where entirely different legacy
+binary encodings or duplicate code page sequences map down to the exact same Unicode character,
+masking the true operational context of the original data.
+
+In multi-byte character sets (MBCs) such as Code Page 932 (Japanese Extended Shift-JIS), design
+choices introduced duplicate mappings where completely different raw byte sequences within the same
+code page, such as `0x81E0` (a standard JIS X 0208 character) and `0x8790` (an NEC special extension
+character), resolve to the exact same Unicode code point (`U+2252`).
+
+When automated processing attempts to parse disk images, log files, or database records without an
+explicitly defined parsing priority, the underlying binary divergence is erased. This internal
+convergence allows distinct data variants to visually merge, potentially obscuring the specific
+software subsystem or systemic origin of an artifact during cross-border timeline correlation.
+
+#### Windows "Best-Fit" Mapping
+
+The reverse of Cross-Codepage Structural Convergence occurs when modern Unicode strings are
+downsampled or converted into restrictive ANSI or legacy regional code pages via the Windows API.
+
+When an exact structural match does not exist, the legacy translation system applies an internal
+"Best-Fit" lookup table to map the unsupported Unicode character to its closest visual or semantic
+counterpart. Malicious actors actively exploit this quirk to execute argument injection and Web
+Application Firewall (WAF) bypasses; by inserting specific multi-byte characters or invalid
+trailing bytes, they can bypass string filters checking for dangerous command-line control
+characters. Once processed downstream by a localized application shell, the Windows API silently
+collapses these complex characters back into standard ASCII hyphens (`-`), slashes (`/`), or
+quotation marks (`"`), fundamentally mutating the executed command line string away from what was
+recorded in application layer logs.
+
+### Caution
+
+When data moves across different operating systems or normalization boundaries, serious blind spots
+emerge:
 
 * **Hash Inconsistency:** Because a file named `café.exe` on Windows (NFC) has a different byte
   sequence than `café.exe` on Mac OS (NFD), the binary hashes of the filenames, or logs containing
