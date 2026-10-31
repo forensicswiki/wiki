@@ -1,0 +1,958 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall profile repository and profile auto selection - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-rekall-public-repository" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall profile repository and profile auto selection
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rekall-public-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Rekall public repository
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternate-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternate Repositories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows profiles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repository-symlinks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repository Symlinks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-profile-do-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What profile do I need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-if-the-profile-repository-does-not-have-my-exact-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What if the profile repository does not have my exact version
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall profile repository and profile auto selection</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+<a href="../michael_cohen/">Michael Cohen</a> on 2014-02-20.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>The <a href="../rekall_profiles/">previous blog post</a> discussed how Rekall redesigned the profile
+format into a simple JSON data structure. The profile JSON file now
+becomes the complete information source about a specific kernel version - including
+global constants, struct definitions (via vtype definitions) and
+metadata (such as architecture, version etc).</p>
+<p>One important difference from the Volatility profiles, is that in
+Rekall, the profile is the actual json file itself, while in Volatility
+a profile name represents a specific class defined within the code base.
+So for example, with Rekall one can specify the profile as a path to a
+file (which may be compressed):</p>
+<pre><code class="language-bash">rekall -f OSX_image.dd --profile ./OSX_10.6.6_AMD.json.gz
+</code></pre>
+<h2 id="the-rekall-public-repository">The Rekall public repository</h2>
+<p>Since the profile file is just data, it can be hosted in a public
+repository. Rekall can simply download the required profile from the
+repository when required. This makes it much easier to distribute the
+code since we do not need to include vast quantities of unnecessary
+information embedded inside the program.</p>
+<p>Rekall provides a public repository located
+at <code>http://profiles.rekall.googlecode.com/git/</code>. The Rekall team
+collects profiles for the most common operating system versions, and we
+try to increase our coverage as much as possible.</p>
+<p>For example, we can see what Rekall is doing when loading a Mac OS X
+profile:</p>
+<pre><code class="language-bash">$ rekall -f memory_vm_10_7.dd.E01 --profile OSX/10.7.4_AMD -v pslist
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//OSX/10.7.4_AMD.gz
+INFO:root:Loaded profile OSX/10.7.4_AMD from URL:http://profiles.rekall.googlecode.com/git/
+DEBUG:root:Voting round
+DEBUG:root:Trying
+DEBUG:root:Failed instantiating MACHOCoreDump: Must stack on another address space
+...
+</code></pre>
+<p>Rekall contacts the default public profile repository to load the
+specified profile and continues running.</p>
+<h2 id="alternate-repositories">Alternate Repositories</h2>
+<p>Although it is very convenient to use the public repository, sometimes
+we can not or do not want to. For example, if we do not have adequate
+Internet access on the analysis system we might not be able to use the
+public repository.</p>
+<p>Since the profile repository is just a git repository, its easy to
+mirror it locally. The following will create a directory called
+rekall.profiles containing the most up to date version of the public
+repository:</p>
+<pre><code class="language-bash">$ git clone https://github.com/google/rekall-profiles rekall.profiles
+
+# It is possible to update the local mirror with the latest public profiles.
+$ cd rekall.profiles
+rekall.profiles$ git pull
+
+# Now we can tell Rekall to use the local repository
+$ rekall -f memory_vm_10_7.dd.E01 --profile_path full_path_to_rekall.profiles \
+   --profile OSX/10.7.4_AMD -v pslist
+</code></pre>
+<p>To save typing, it is possible to just change the local rekall
+configuration to point at the profile repository by default. Simply edit
+the <code>~/.rekallrc</code> file (Which is a configuration file in YAML format):</p>
+<pre><code class="language-text">profile_path:
+  - /home/scudette/projects/rekall.profiles
+  - http://profiles.rekall.googlecode.com/git/
+</code></pre>
+<p>The <code>profile_path</code> parameter specifies a list of paths to search for
+the specified profile in order. If we place the public repository in the
+second position, rekall will only attempt to contact the public
+repository if the required profile does not exist in the local mirror.</p>
+<p>This is useful if you are doing a lot of analysis for unusual Linux
+systems (i.e. ones with uncommon or custom compiled kernels). In that
+case you can put your private profiles in a local directory, but still
+fall back to the public repository for common profiles.</p>
+<h2 id="windows-profiles">Windows profiles</h2>
+<p>Putting the profile data in the public repository helps to reduce code
+footprint. While removing the embedded volatility profiles from the code
+base it because obvious that Volatility does not actually contain enough
+Windows kernel vtypes to cover all the different Windows releases out
+there.</p>
+<p>As described in the previous blog post, the profile contains information
+specific to a single build of the Windows kernel. Each time the Windows
+kernel source code is modified and rebuilt, a new profile should be
+generated. In reality, Microsoft rebuilds and redistributes the Windows
+kernel multiple times during a single marketed release, and even
+multiple times for different release markets. We know this because each
+time an executable is built, it contains a new GUID embedded in it.</p>
+<blockquote>
+<p><strong>Note:</strong>
+How does the Microsoft compiler generate debugging symbols?
+When an executable is built, the compiler places the debugging symbols
+in a separate file (with a <em>.pdb</em> extension). The final executable
+contains a special structure called an <code>RSDS</code> signature (This is not the
+official name since this is not exactly documented, but the string
+"RSDS" actually appears in the executable).
+The RSDS structure contains three critical pieces of information:</p>
+<ul>
+<li>The GUID - a random number unique to each built binary.</li>
+<li>The filename of the pdb file which goes with the binary.</li>
+<li>An <code>age</code>. This is a number usually single digit like 2 or 3.
+Microsoft typically does not ship the debugging information in order to
+save space on distribution media. Instead, they provide a public symbols
+server. One can access the debugging symbols for each built binary (if
+they are released of course), by simply providing the GUID, age and the
+filename of the pdb file.
+Of course the infrastructure that Microsoft provides is there to serve
+the Windows kernel debugger, but we can leverage this same
+infrastructure in Rekall. In a sense Rekall is emulating the Windows
+debugger to some extent when analyzing a Windows memory dump.</li>
+</ul>
+</blockquote>
+<p>You can check the exact kernel version running in a memory image using
+Rekall's RSDS scanner:</p>
+<pre><code class="language-bash">$ rekall -f win7.elf version_scan --name_regex krnl
+  Offset (P)   GUID/Version                     PDB
+-------------- -------------------------------- ------------------------------
+0x0000027bb5fc F8E2A8B5C9B74BF4A6E4A48F180099942 ntkrnlmp.pdb
+</code></pre>
+<p>Here we see that this image contains a specific version with the GUID
+F8E2A8B5C9B74BF4A6E4A48F180099942. We actually can check the GUIDs from
+the binary on disk for the Windows kernel.</p>
+<p>I was curious as to how many different kernel binaries exist in the
+wild? I began to collect GUIDs for various versions of Windows, generate
+profiles for these and put them in the profile repository. I have found
+approximately 200 profiles of the Windows kernel (ntoskrnl.exe and its
+variants) with different architectures (AMD64 and I386), versions and
+build numbers. For example Windows XP Service Pack 2 has a build number
+of 2600 but we found over 30 different versions in the wild.</p>
+<h3 id="repository-symlinks">Repository Symlinks</h3>
+<p>The profile repository contains a special type of profile definition
+which is a Symlink. For example, we define a profile
+called <code>Win7SP1x64</code> which contains:</p>
+<pre><code class="language-text">{
+  &quot;$METADATA&quot;: {
+    &quot;Type&quot;: &quot;Symlink&quot;,
+    &quot;Target&quot;: &quot;ntoskrnl.exe/AMD64/6.1.7601.17514/3844DBB920174967BE7AA4A2C20430FA2&quot;
+  }
+}
+</code></pre>
+<p>This just selects a representative profile from the many Windows 7
+Service Pack 1 profiles we have. This allows Rekall to be used in
+backwards compatibility mode:</p>
+<pre><code class="language-bash">$ rekall -f ~/images/win7.elf -v --profile Win7SP1x64 pslist
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//Win7SP1x64.gz
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//ntoskrnl.exe/AMD64/6.1.7601.17514/3844DBB920174967BE7AA4A2C20430FA2.gz
+INFO:root:Loaded profile ntoskrnl.exe/AMD64/6.1.7601.17514/3844DBB920174967BE7AA4A2C20430FA2 from URL:http://profiles.rekall.googlecode.com/git/
+INFO:root:Loaded profile Win7SP1x64 from URL:http://profiles.rekall.googlecode.com/git/
+...
+</code></pre>
+<p>We can see that first the Symlink profile is opened, followed by the
+real profile.</p>
+<h3 id="what-profile-do-i-need">What profile do I need</h3>
+<p>Have you even been given an image of a Windows version, but you don't
+know exactly which one it is supposed to be? Is it a 64 bit system or a
+32 bit system? Is it Windows 7 or Windows XP? Is it Service Pack 1 or 2?</p>
+<p>Volatility has the <code>imageident</code> plugin which load all the Windows
+profiles it knows about (about 20 different ones) and tries to fit them
+to the image. Its very slow and often does not work.</p>
+<p>The easier way is simply check the RSDS signature of the Windows kernel:</p>
+<pre><code class="language-bash">$ rekall -f win7.elf version_scan --name_regex krnl
+  Offset (P)   GUID/Version                     PDB
+-------------- -------------------------------- ------------------------------
+0x0000027bb5fc F8E2A8B5C9B74BF4A6E4A48F180099942 ntkrnlmp.pdb
+</code></pre>
+<p>The Rekall public repository organizes Windows profiles using two
+hierarchies, the first is by binary name, architecture and build
+version, for example:</p>
+<p>ntoskrnl.exe/I386/5.1.2600.1151/04FB9A156FF44ECCA6EBCAE9617D8DB73.gz</p>
+<p>However a more useful organization is by GUID (since the GUID is
+universally unique). If we know the GUID we can automatically access the
+correct profile without needing to know if it is Windows 7, WinXP or
+whatever:</p>
+<pre><code class="language-bash">$ rekall -f ~/images/win7.elf -v --profile GUID/F8E2A8B5C9B74BF4A6E4A48F180099942 pslist
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//GUID/F8E2A8B5C9B74BF4A6E4A48F180099942.gz
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//ntoskrnl.exe/AMD64/6.1.7600.16385/F8E2A8B5C9B74BF4A6E4A48F180099942.gz
+INFO:root:Loaded profile ntoskrnl.exe/AMD64/6.1.7600.16385/F8E2A8B5C9B74BF4A6E4A48F180099942 from URL:http://profiles.rekall.googlecode.com/git/
+INFO:root:Loaded profile GUID/F8E2A8B5C9B74BF4A6E4A48F180099942 from URL:http://profiles.rekall.googlecode.com/git/
+...
+</code></pre>
+<p>This method is actually extremely reliable since it will retrieve
+exactly the correct profile according to the RSDS header we find. Rekall
+uses this method by default to guess the required profile to use.
+Therefore normally users do not really need to provide the profile
+explicitly to Rekall:</p>
+<pre><code class="language-bash">$ rekall -f ~/images/win7.elf -v pslist
+DEBUG:root:Voting round
+DEBUG:root:Trying
+.....
+INFO:root:Autodetected physical address space Elf64CoreDump
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//pe.gz
+INFO:root:Loaded profile pe from URL:http://profiles.rekall.googlecode.com/git/
+DEBUG:root:Verifying profile GUID/F8E2A8B5C9B74BF4A6E4A48F180099942
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//GUID/F8E2A8B5C9B74BF4A6E4A48F180099942.gz
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//ntoskrnl.exe/AMD64/6.1.7600.16385/F8E2A8B5C9B74BF4A6E4A48F180099942.gz
+INFO:root:Loaded profile ntoskrnl.exe/AMD64/6.1.7600.16385/F8E2A8B5C9B74BF4A6E4A48F180099942 from URL:http://profiles.rekall.googlecode.com/git/
+INFO:root:Loaded profile GUID/F8E2A8B5C9B74BF4A6E4A48F180099942 from URL:http://profiles.rekall.googlecode.com/git/
+DEBUG:root:Found _EPROCESS @ 0x2818140 (DTB: 0x187000)
+</code></pre>
+<p>We can see that Rekall initially fetches the <code>pe</code> profile (so it can
+parse the <code>RSDS</code> header), when a hit is found, the profile repository is
+search by the GUID. This is found as a symlink to an actual profile from
+a Windows 7 version.</p>
+<h3 id="what-if-the-profile-repository-does-not-have-my-exact-version">What if the profile repository does not have my exact version</h3>
+<p>As mentioned above we are still building the repository up as a public
+service, and it may be that we do not have the profile for the exact
+version in your memory image. You will typically see something like
+this:</p>
+<pre><code class="language-bash">$ rekall -f ~/images/win7.elf -v pslist
+DEBUG:root:Opened url http://profiles.rekall.googlecode.com/git//GUID/F8E1A8B5C9B74BF4A6E4A48F180099942
+DEBUG:root:Could not find profile GUID/F8E1A8B5C9B74BF4A6E4A48F180099942 in http://profiles.rekall.googlecode.com/git/
+DEBUG:root:Could not find profile GUID/F8E1A8B5C9B74BF4A6E4A48F180099942 in None
+Traceback (most recent call last):
+  File &quot;/home/scudette/VirtualEnvs/Dev/bin/rekall&quot;, line 9, in
+    load_entry_point('rekall==1.0rc3', 'console_scripts', 'rekall')()
+  File &quot;/home/scudette/rekall/rekall/rekal.py&quot;, line 145, in main
+    flags = args.parse_args(argv=argv, user_session=user_session)
+  File &quot;/home/scudette/rekall/rekall/args.py&quot;, line 218, in parse_args
+    LoadProfileIntoSession(parser, argv, user_session)
+  File &quot;/home/scudette/rekall/rekall/args.py&quot;, line 194, in LoadProfileIntoSession
+    state.Set(arg, value)
+  File &quot;/home/scudette/rekall/rekall/session.py&quot;, line 169, in __exit__
+    self.session.UpdateFromConfigObject()
+  File &quot;/home/scudette/rekall/rekall/session.py&quot;, line 210, in UpdateFromConfigObject
+    self.profile = self.LoadProfile(profile_parameter)
+  File &quot;/home/scudette/rekall/rekall/session.py&quot;, line 464, in LoadProfile
+    filename)
+ValueError: Unable to load profile GUID/F8E1A8B5C9B74BF4A6E4A48F180099942 from any repository.
+</code></pre>
+<p>Although you could maybe substitute a generic profile
+(like <code>Win7SP1x64</code> as described above). This is really not recommended
+and will probably stop working at some point in the future (as Rekall
+uses more advanced analysis methods which depend on accurate profiles).</p>
+<p>The correct solution is to generate your own profile like this:</p>
+<pre><code class="language-text"># First find the GUID of the kernel in your image
+$ rekall -f win7.elf version_scan --name_regex krnl
+  Offset (P)   GUID/Version                     PDB
+-------------- -------------------------------- ------------------------------
+0x0000027bb5fc F8E2A8B5C9B74BF4A6E4A48F180099942 ntkrnlmp.pdb
+
+# Then fetch the GUID from Microsoft's symbol server.
+$ rekall fetch_pdb -D. --guid F8E2A8B5C9B74BF4A6E4A48F180099942 --filename ntkrnlmp.pdb
+Trying to fetch http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/F8E2A8B5C9B74BF4A6E4A48F180099942/ntkrnlmp.pd_
+Received 2675077 bytes
+Extracting cabinet: ntkrnlmp.pd_
+  extracting ntkrnlmp.pdb
+
+All done, no errors.
+
+# Now Generate the profile from the pdb file. You will need to provide the
+# approximate windows version.
+$ rekall parse_pdb -f ntkrnlmp.pdb --output F8E2A8B5C9B74BF4A6E4A48F180099942.json --win 6.1
+  Extracting OMAP Information 62%
+</code></pre>
+<p>Please send us that GUID so we can add it to our repository. If you have
+a local repository you can just add it to your own repository (under the
+GUID/ directory).</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Rekall has moved the profiles out of the code base</li>
+<li>Profiles are now stored in their own unique repository.</li>
+<li>Profiles are now much more accurate since they are exactly tailored to
+  the specific version of the kernel in the memory image, rather than
+  guessing approximate representative profiles by commercial release names
+  (e.g. Win7).</li>
+<li>Rekall also implements a robust profile auto-detection method. The user
+  rarely needs to explicitly provide the profile on the command line, and
+  detection is extremely fast and reliable.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

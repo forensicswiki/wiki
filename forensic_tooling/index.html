@@ -1,0 +1,820 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Forensic tooling - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#daubert-principles-in-digital-forensics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Forensic tooling
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#daubert-principles-in-digital-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Daubert Principles in Digital Forensics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics-of-a-digital-forensic-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Characteristics of a Digital Forensic Tool
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-criteria-for-evaluating-forensic-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Criteria for Evaluating Forensic Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Criteria for Evaluating Forensic Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parsing-and-formatting-robustness-known-error-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parsing and Formatting Robustness (Known Error Rates)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyst-transparency-peer-review-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst Transparency (Peer Review &amp; Testing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#independence-and-cross-tool-validation-general-acceptance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Independence and Cross-Tool Validation (General Acceptance)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:concept" class="md-tag">Concept</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Forensic tooling</h1>
+
+<p>The term (digital) forensics tool is widely used and <strong>abused</strong>. What makes a tool, mostly
+software, applicable for the purpose of digital forensics?</p>
+<p><strong>Software becomes applicable to digital forensics when it is engineered specifically to maintain
+legal admissibility and scientific integrity through strict data preservation, deterministic
+processing, and transparent methodology.</strong> Unlike standard IT administrative, data analysis or
+recovery utilities, a forensic tool must survive rigorous courtroom scrutiny. In many
+jurisdictions, this means satisfying the <strong>Daubert standard</strong>, proving that the tool's underlying
+science and methodology are reliable, verifiable, and generally accepted by the scientific
+community.</p>
+<p>Therefore, when evaluating a tool for Digital Forensics, examiners must look past marketing
+promises and evaluate software against core scientific, procedural, and legal criteria. <strong>A
+documented evaluation is part of what potentially makes a tool applicable for the purpose of
+digital forensics.</strong></p>
+<h2 id="daubert-principles-in-digital-forensics">Daubert Principles in Digital Forensics</h2>
+<p>To be admissible in a court of law under the <strong>Daubert standard</strong>, specifically <em>Daubert v. Merrell
+Dow Pharmaceuticals, Inc.</em>, the methodology and tools used by an expert witness are typically
+evaluated against five core principles:</p>
+<ul>
+<li><strong>Empirical Testing:</strong> Has the tool and its underlying theory been rigorously tested? If so,
+  where is this documented?</li>
+<li><strong>Peer Review and Publication:</strong> Have the tool's mechanics, algorithms, and parsing logic been
+  subjected to peer review or published in scientific literature?</li>
+<li><strong>Known or Potential Error Rate:</strong> What is the tool's margin of error or its handling capability
+  when encountering corrupted or non-standard data?</li>
+<li><strong>Existence of Standards and Controls:</strong> Does the tool adhere to established forensic standards
+  and maintain strict controls (like cryptographic hashing) to ensure data integrity?</li>
+<li><strong>General Acceptance:</strong> Is the tool widely accepted and utilized within the relevant digital
+  forensics community?</li>
+</ul>
+<h2 id="characteristics-of-a-digital-forensic-tool">Characteristics of a Digital Forensic Tool</h2>
+<p>To be classified as a legitimate forensic tool-whether its function is data acquisition, parsing,
+filtering, or deep artifact analysis, such software must possess specific core traits aligned with
+Daubert requirements:</p>
+<ul>
+<li><strong>Strict Data Preservation (Standards &amp; Controls):</strong> The tool must interact with evidence in a
+  non-destructive manner. For collection utilities, this means enforcing read-only operations via
+  write-blockers. For analysis and parsing software, this means ensuring that reading,
+  index-building, or rendering the evidence never alters the underlying raw data file or image.</li>
+<li><strong>Cryptographic Integrity &amp; Verification (Standards &amp; Controls):</strong> A forensic tool must natively
+  respect and verify cryptographic hashes (such as <strong>SHA-256</strong>). Analysis software must ensure that
+  any subsequent sub-extraction or data carving must be proven to leave the primary evidence footprint
+  untouched.</li>
+<li><strong>Determinism and Reproducibility (Empirical Testing):</strong> The tool must be <strong>deterministic</strong>.
+  Given the exact same data input and configurations, an analysis or parsing tool must always yield
+  the exact same output. This ensures <a href="../reproducibility/">reproducibility</a>, allowing a third-party
+  analyst using independent systems to test, verify, and duplicate the original findings.</li>
+<li><strong>Audit Logging and Transparency (Standards &amp; Controls):</strong> The tool must maintain an immutable,
+  <strong>record of its own actions</strong> and internal state transitions during processing. It must track
+  (log) performed analytical operations, configuration applied, and crucial <strong>data anomalies or
+  parsing failures</strong> encountered. This provides a clear, verifiable audit trail that accounts for
+  how the final results were derived.</li>
+</ul>
+<h2 id="key-criteria-for-evaluating-forensic-tools">Key Criteria for Evaluating Forensic Tools</h2>
+<p>When auditing a new commercial or open-source tool for deployment, one should measure its
+capabilities against the following benchmarks:</p>
+<table>
+<thead>
+<tr>
+<th>Evaluation Factor / Daubert Metric</th>
+<th>High-Quality Forensic Tool</th>
+<th>Low-Quality / Non-Forensic Utility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data Ingestion</strong> <em>(Standards &amp; Controls)</em></td>
+<td>Strictly read-only or validated write-blocked mapping.</td>
+<td>May write temp files, alter access dates, or drop errors.</td>
+</tr>
+<tr>
+<td><strong>Error Handling</strong> <em>(Known Error Rate)</em></td>
+<td>Preserves raw bytes via escaping or WTF-8; logs anomalies.</td>
+<td>Silently drops malformed strings or uses lossy substitution.</td>
+</tr>
+<tr>
+<td><strong>Processing Logic</strong> <em>(Peer Review / Testing)</em></td>
+<td>Fully documented, deterministic, and transparent to the analyst.</td>
+<td>Proprietary "black box" automation with hidden dependencies.</td>
+</tr>
+<tr>
+<td><strong>Validation Capability</strong> <em>(General Acceptance)</em></td>
+<td>Easily audited alongside independent tools via standardized outputs.</td>
+<td>Proprietary outputs lock data into a single vendor ecosystem.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="parsing-and-formatting-robustness-known-error-rates">Parsing and Formatting Robustness (Known Error Rates)</h3>
+<p>Modern operating systems and malicious actors generate highly irregular data. Tools must be
+evaluated on how they handle corrupted data, non-standard encoding, and deliberate anti-forensic
+anomalies like <a href="../unpaired_surrogates/">unpaired surrogates</a> (isolated 16-bit code units in
+UTF-16) or file name edge case. Failing to account for these can result in an unquantifiable
+<strong>error rate</strong>, jeopardizing legal admissibility.</p>
+<ul>
+<li><strong>Lossy vs. Lossless Handling:</strong> Examiners must evaluate if a tool uses <em>lossy substitution</em>
+  (replacing anomalies with standard placeholders like "?" or omitting them), which alters the raw
+  evidence bytes, risks losing evidence, and breaks reproducibility.</li>
+<li><strong>Preservation Strategy:</strong> Superior tools use <em>character escaping</em> (e.g., <code>\uD800</code>) or advanced
+  formats like <strong>WTF-8</strong> (Wobbly Transformation Format) to keep raw data intact, limiting potential
+  error rates even when tool interoperability is challenged.</li>
+</ul>
+<h3 id="analyst-transparency-peer-review-testing">Analyst Transparency (Peer Review &amp; Testing)</h3>
+<p>Many commercial suites operate as "black boxes," automating artifact extraction behind proprietary
+algorithms. To survive a Daubert challenge, a tool must provide absolute transparency regarding
+<em>how</em> it parses data so its methodology can be peer-reviewed. The analyst must be able to view the
+underlying raw hex or logic used to determine a timestamp, file boundary, or user action so they
+can confidently defend the scientific validity of the source under cross-examination.</p>
+<h3 id="independence-and-cross-tool-validation-general-acceptance">Independence and Cross-Tool Validation (General Acceptance)</h3>
+<p>Relying blindly on a single tool creates a single point of failure and fails the spirit of
+scientific testing. True validation requires <strong>cross-tool validation</strong> using independent platforms
+to verify critical findings, a core tenet of establishing <strong>general acceptance</strong> in the scientific
+community.</p>
+<ul>
+<li><strong>Parser Independence:</strong> If Tool A and Tool B rely on the exact same underlying open-source
+  parsing library, they share the same flaws. True evaluation demands using tools built completely
+  independent to ensure validation is genuine rather than an echo chamber.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../tool_testing/">Tool Testing</a></li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1742287609000358">Validation and verification of computer forensic software tools - Searching Function</a>,
+  by Yinghua Guo, Jill Slay, Jason Beckett, 2009</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

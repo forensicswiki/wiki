@@ -1,0 +1,1091 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall elf hacking - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#statically-compiling-the-binary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall elf hacking
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#statically-compiling-the-binary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statically compiling the binary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-tools-on-an-old-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building tools on an old system
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-a-mostly-static-binary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Building a mostly static binary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symbol-versioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symbol versioning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elf-parsing-with-rekall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ELF parsing with Rekall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symbol-versioning-in-elf-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symbol Versioning in ELF files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fixing-the-symbol-versioning-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixing the Symbol Versioning problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fixing the Symbol Versioning problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#one-last-twist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        One last twist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-moment-of-truth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The moment of truth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:linux" class="md-tag">Linux</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall elf hacking</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted on 2018-01-09.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>Imagine you are responding to an incident on an old Linux server. You
+log into the server, download your favorite Linux incident response tool
+(e.g. Linpmem, aff4imager), and start collecting evidence. Unfortunately
+the first thing you see is:</p>
+<p><img alt="elf hacking with rekall 1" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_1.png" /></p>
+<p>Argh! This system does not have the right library installed! Welcome to
+Linux's own unique version of DLL hell!</p>
+<p>This is sadly, a common scenario for Linux incident response.
+Unfortunately we responders, can not pick which system we will
+investigate. Some of the compromised systems we need to attend to are
+old (maybe thats is why we need to respond to them :). Some are very
+old! Other systems simply do not have required libraries installed and
+we are rarely allowed to install required libraries on production
+machines.</p>
+<p>In preparation to the next release of AFF4 imagers (including Linpmem,
+Winpmem and OSXPmem), I have been testing the imagers on old server
+software. I built an Ubuntu 10.04 (Lucid Lynx) system for testing. This
+distribution is really old and has been EOLed (end-of-life) in 2015,
+but I am sure some old servers are still running this.</p>
+<p><img alt="elf hacking with rekall 2" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_2.png" /></p>
+<p>Such an old distribution helps to illustrate the problem - if we can get
+our tools to work on such an old system, we should be able to get them
+to work anywhere. In the process I learned a lot about ELF and how Linux
+loads executables.</p>
+<p>In the rest of this post, I will be using this old system and trying to
+get the latest aff4imager tool to run on it. Note, that I am building
+and developing the binary on a modern Ubuntu 17.10 system.</p>
+<h2 id="statically-compiling-the-binary">Statically compiling the binary</h2>
+<p>As shown previously, just building the aff4 imager using the
+normal ./configure, make install commands will build a dynamically
+linked binary. The binary depends on a lot of libraries. How many? Let's
+take a look at the first screenfull of dependencies:</p>
+<p><img alt="elf hacking with rekall 3" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_3.png" /></p>
+<p>It is obviously not reasonable to ship such a tool for incident
+response. Even on a modern system this will require installing many
+dependencies. On servers and managed systems it may be against
+management policy to install so many additional packages.</p>
+<p>The first solution I thought of is to simply build a static binary. GCC
+has the -all-static flag which builds a completely static binary. That sounds like what we want:</p>
+<pre><code class="language-text">-all-static
+</code></pre>
+<p>If output-file is a program, then do not link it against any shared
+libraries at all.</p>
+<p>Since modern linux distributions do not ship any static libraries, we
+need to build every dependency from source statically. This is mostly a
+tedious exercise but it is possible to
+create a build environment with the static libraries installed into a
+separate prefix directory. Adding the -all-static flag to the final link
+step will produce a fully static binary.</p>
+<p><img alt="elf hacking with rekall 4" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_4.png" /></p>
+<p>Excellent! This built a static binary as confirmed by ldd and file.
+Unfortunately this binary crashes, even on the modern system it was
+built on. If we use GDB we can confirm that it crashes as soon as any
+pthread function is called. It seems that statically compiling pthread
+does not work at all.</p>
+<p>If we try to run this binary on the old system, it does not even get to
+start:</p>
+<p><img alt="elf hacking with rekall 5" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_5.png" /></p>
+<p>The program aborts immediately with "kernel too old" message. This was
+a bit surprising to me but it seems that static binaries do not
+typically run on old systems. The reason seems to be that glibc requires
+a minimum kernel version, and when we statically compile glibc into the
+binary, it refuses to work on older kernels. Additionally some functions
+simply do not work when statically compiled (i.e. pthread). For binaries
+which do not use threads, an all static build does work on modern enough
+kernel, but obviously it does not achieve the intended effect of being
+able to run on all systems since it introduces a minimum requirement on
+the running kernel.</p>
+<h2 id="building-tools-on-an-old-system">Building tools on an old system</h2>
+<p>A common workaround is to build the tools on an old system, and perhaps
+ship multiple versions of the tool. For example, we might build a static
+binary for Ubuntu 10.04. Ubuntu 10.10 ... all the way through to modern
+Ubuntu 17.10 systems.</p>
+<p>Obviously this is a lot of work in setting up a large build environment
+with all the different OS versions. In practice it is actually very
+difficult to achieve if not impossible. For example, the AFF4 library is
+written using modern C++11. The GCC versions shipped on such old systems
+as Ubuntu 10.04 do not support C++11 (The standard has not even been
+published when these systems were released!). Since GCC is intimately
+connected with glibc and libstdc++ it may not actually be possible to
+install a modern gcc without also upgrading glibc (and thereby losing
+compatibility with the old glibc which is the whole point of the
+exercise!).</p>
+<h2 id="building-a-mostly-static-binary">Building a mostly static binary</h2>
+<p>Ok, back to the drawing board. In the previous section we learned that
+we can not statically link glibc into the binary because glibc is tied
+to the kernel version. So we would like to still dynamically link to the
+local glibc, but not much more. Ideally we want to statically compile
+all the libraries which may or may not be present on the system, so we
+do not need to rely on them being installed. We use the same static
+build environment as described above (so we have static versions of all
+dependent libraries).</p>
+<p>Instead of specifying the "-all-static" flag as before we can specify
+the "-static-libgcc" and "-static-libstdc++" flags:</p>
+<pre><code class="language-text">-static-libstdc++
+</code></pre>
+<p>When the g++ program is used to link a C++ program, it will normally
+automatically link against libstdc++. If libstdc++ is available as a
+shared library, and the -static option is not used, then this will link
+against the shared version of libstdc++. That is normally fine. However,
+it is sometimes useful to freeze the version of libstdc++ used by the
+program without going all the way to a fully static link. The
+-static-libstdc++ option directs the g++ driver to link libstdc++
+statically, without necessarily linking other libraries statically.</p>
+<p>This is looking better. When we build our aff4imager with these flags we
+get a dynamically linked binary, but it has a very small set of
+dependencies - all of which are guaranteed to be present on any
+functional Linux system:</p>
+<p><img alt="elf hacking with rekall 6" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_6.png" /></p>
+<p>This is looking very promising! The binary works on a freshly installed
+modern Linux system since it links to libpthread dynamically, but does
+not require any external libraries to be installed. Lets try to run it
+on our old system:</p>
+<p><img alt="elf hacking with rekall 7" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_7.png" /></p>
+<p>Argh! What does this mean?</p>
+<h2 id="symbol-versioning">Symbol versioning</h2>
+<p>Modern systems bind binaries to specific versions of each library
+function exported, rather than to the whole library. This is
+called Symbol Versioning.</p>
+<p>The error reported by the old system indicates that the binary requires
+a particular version of GLIBC symbols (2.14) which is not available on
+this server. This puts a limit of the oldest system that we can run
+this binary on.</p>
+<p>Symbol versioning means that every symbol in the symbol table requires a
+particular version. You can see which version each symbol requires using
+the readelf program:</p>
+<p><img alt="elf hacking with rekall 8" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_8.png" /></p>
+<p>Before the binary is loaded, the loader makes sure it has all the
+libraries and their versions it needs. The readelf program can also
+report this:</p>
+<p><img alt="elf hacking with rekall 9" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_9.png" /></p>
+<h2 id="elf-parsing-with-rekall">ELF parsing with Rekall</h2>
+<p>To understand how the ELF file format implements symbol versioning we can use Rekall to implement
+an ELF parser.  The ELF parser is a pretty good example of Rekall's advanced type parser, so I will
+briefly describe it here. Readers already familiar with Rekall's parsing system, can skip to the
+next section.</p>
+<p>The Rekall parser is illustrated in the diagram below</p>
+<p><img alt="elf hacking with rekall 10" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_10.png" /></p>
+<p>The Address Space is a Rekall class responsible for representing the raw
+binary data. Rekall's binary parser interprets the raw binary data
+through the Struct Parser class. Rekall automatically generates a parser
+class to decode each struct from three sources of information:</p>
+<ol>
+<li>The struct definition is given as a pure JSON structure (This is
+   sometimes called the VTypes language). Typically this is automatically
+   produced from debugging symbols.</li>
+<li>The overlay. This python data structure may introduce callables
+   (lambdas) to dynamically calculate fields, offsets and sizes overlaying
+   on top of the struct definition.</li>
+<li>If more complex interfaces are required, the user can also specify a
+   class with additional methods which will be presented by the Struct
+   Parser class.</li>
+</ol>
+<p>The main emphasis of the Rekall binary parser is on readability. One
+should be able to look at the code and see how the data structures are
+constructed and related to one another.</p>
+<p>Let us examine a concrete example. The elf64_hdr represents the ELF
+header.</p>
+<p>The VType definition describes the struct name, its size, and each known
+field name, its relative offset within the struct as well as its type.
+This information is typically generated from debug symbols.</p>
+<pre><code class="language-text">&quot;elf64_hdr&quot;: [64, {
+    'e_ident': [0, ['array', 16, ['uint8_t']]],
+    'e_type': [16, ['uint16_t']],
+    'e_machine': [18, ['uint16_t']],
+    'e_version': [20, ['uint32_t']],
+    'e_entry': [24, ['uint64_t']],
+    'e_phoff': [32, ['uint64_t']],
+    'e_shoff': [40, ['uint64_t']],
+    'e_flags': [48, ['uint32_t']],
+    'e_ehsize': [52, ['uint16_t']],
+    'e_phentsize': [54, ['uint16_t']],
+    'e_phnum': [56, ['uint16_t']],
+    'e_shentsize': [58, ['uint16_t']],
+    'e_shnum': [60, ['uint16_t']],
+    'e_shstrndx': [62, ['uint16_t']],
+}],
+
+&quot;elf64_hdr&quot;: [None, {
+    'e_type': [None, ['Enumeration', {
+    &quot;choices&quot;: {
+    0: 'ET_NONE',
+    1: 'ET_REL',
+    2:'ET_EXEC',
+    3:'ET_DYN',
+    4:'ET_CORE',
+    0xff00:'ET_LOPROC',
+    0xffff:'ET_HIPROC'},
+    'target': 'uint8_t'}]],
+
+    'sections': lambda x: x.cast(&quot;Array&quot;,
+    offset=x.e_shoff,
+    target='elf64_shdr',
+    target_size=x.e_shentsize,
+    count=x.e_shnum),
+}],
+</code></pre>
+<p>Similarly, we can add additional "pseudo" fields to the struct. When the
+user accesses a field called "sections", Rekall will run the callable
+allow it to create and return a new object. In this example, we return
+the list of ELF sections - which is just an Array of elf64_shdr structs
+specified at offset e_shoff.</p>
+<pre><code class="language-text">class elf64_hdr(obj.Struct):
+def section_by_name(self, name):
+for section in self.sections:
+if section.name == name:
+return section
+</code></pre>
+<p>In this example we add the section_by_name() method to allow
+retrieving a section by its name.</p>
+<p>We can now parse an ELF file. Simply instantiate an address space using
+the file and then overlay the header at the start of the file (offset
+0). We can then use methods attached to the header object to navigate
+the file. In this case print all the section headers.</p>
+<p><img alt="elf hacking with rekall 11" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_11.png" /></p>
+<h2 id="symbol-versioning-in-elf-files">Symbol Versioning in ELF files</h2>
+<p>So how is symbol versioning implemented in ELF? There are two new
+sections defined: The ".gnu.version" (SHT_GNU_versym) and the
+".gnu.version_r" (SHT_GNU_verneed).</p>
+<p>Let's examine the SHT_GNU_verneed section first. Its name is always
+".gnu.version_r" and it consists of two different structs - the elf64_verneed struct
+is a linked list essentially naming the library files needed (e.g.
+libc.so.6). Each elf64_verneed struct is also linked to a second list
+of elf64_vernaux structs naming the versions of the library needed.</p>
+<p>This arrangement can be thought of as a quick index of all the
+requirements of all the symbols. The linker can just quickly look to see
+if it has all the required files and their symbols before it even needs
+to examine each symbol. The most important data is the "other" number
+which is a unique number referring to a specific filename + version
+pair.</p>
+<p><img alt="elf hacking with rekall 12" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_12.png" /></p>
+<p>The next important section is the SHT_GNU_versym section which always
+has the name ".gnu.version". This section holds an array of "other"
+numbers which line up with the binaries symbol table. This way each
+symbol may have and "other" number in its respective slot.</p>
+<p><img alt="elf hacking with rekall 13" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_13.png" /></p>
+<p>The "other" number in the versym array matches with the same "other"
+number in the verneed structure.</p>
+<p>We can write a couple of Rekall plugins to just print this data. Let's
+examine the verneed structure using the elf_versions_needed plugin:</p>
+<p><img alt="elf hacking with rekall 14" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_14.png" /></p>
+<p>Note the "other" number for each filename + version string combination.</p>
+<p>Lets now print the version of each symbol using
+the elf_versions_symbols plugin.</p>
+<p><img alt="elf hacking with rekall 15" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_15.png" /></p>
+<h2 id="fixing-the-symbol-versioning-problem">Fixing the Symbol Versioning problem</h2>
+<p>Ok so how do we use this to fix the original issue? While symbol
+versioning has its place, it prevents newer binaries from running on old
+systems (which do not have the required version of some functions).
+Often however the old system has some (older but working) version of the
+required method.</p>
+<p>If we can trick the system into loading the version it has instead of
+the version the binary requires, then the binary can be linked at
+runtime and would work. It will still invoke the old (possibly buggy)
+version of these functions, but that is what every other software on the
+system will be using anyway.</p>
+<p>Take for example the memcpy function which on the old system is
+available as memcpy@2.2.5. This function was replaced with a more
+optimized memcpy@2.14, because
+newer binaries require breaking backwards compatibility.
+This is discussed in an <a href="https://lwn.net/Articles/414467/">LWN article about the memcpy change</a>.
+Old binaries running on the old system still use (the possibly slower)
+memcpy@2.2.5, so if we make our binary use the old version instead of
+the new version it would be no worse than existing old binaries
+(certainly if we rebuilt our binary on the old system it would be using
+that same version anyway). We don't actually need these optimizations so
+it should be safe to just remove the versioning in most cases.</p>
+<p>Rekall also provides write support. Normally, Rekall operates off a read
+only image, so it is not useful, but if Rekall operates on a writable
+media (like live memory) and write support is enabled, then Rekall can
+modify the struct. In python this works by simply assigning to the
+struct field.</p>
+<p>So the goal is to modify the verneed index so it refers to acceptably
+old enough versions. The verneed section is an index of all the symbol
+versions and the loader checks these before even loading the symbol
+table.</p>
+<p>We can then also remove the "other" number in the versym array to remove
+versioning for each symbol. The tool was developed and uploaded to the
+contrib directory of the Rekall distribution. As can be seen after the
+modifications the needed versions are all reset to very early versions.</p>
+<p><img alt="elf hacking with rekall 16" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_16.png" /></p>
+<h3 id="one-last-twist">One last twist</h3>
+<p>Finally we try to run the binary on the old system and discover that the
+binary is trying to link a function called clock_gettime@GLIBC_2.17.
+That function simply does not exist on the old system and so fails to
+link (even when symbol versioning is removed).</p>
+<p>At this point we can either:</p>
+<ol>
+<li>Map the function to a different function</li>
+<li>Implement a simple wrapper around the function.</li>
+</ol>
+<p>By implementing a simple wrapper around the missing function and
+statically linking that into the binary we can be assured that our
+binary will only call functions which are already available on the old
+system. In this case we can implement clock_gettime() as a wrapper to
+the old gettimeofday().</p>
+<pre><code class="language-text">int clock_gettime(clockid_t clk_id, struct timespec \*tp) {
+struct timeval tv;
+clk_id++;
+
+int res = gettimeofday(&amp;tv, NULL);
+if (res == 0) {
+tp-&gt;tv_sec = tv.tv_sec;
+tp-&gt;tv_nsec = tv.tv_usec / 1000;
+}
+return res;
+}
+</code></pre>
+<h3 id="the-moment-of-truth">The moment of truth</h3>
+<p>By removing symbol versioning we can force our statically built imager
+to run on the old system. Although it is not often that one may need to
+respond to an old system, when the need arises it is imperative to have
+ready to use and tested tools.</p>
+<p><img alt="elf hacking with rekall 17" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_17.png" /></p>
+<h3 id="other-tools">Other tools</h3>
+<p>I wanted to see if this technique was useful for other tools. One of my
+other favourite IR tools is OSQuery which is distributed as a mostly
+statically built binary. I downloaded the pre-built Linux binary and
+checked its dependencies.</p>
+<p>There are a few more dependencies but nothing which can not be found on
+the system.</p>
+<p><img alt="elf hacking with rekall 18" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_18.png" /></p>
+<p>Again the binary requires a newer version of GLIBC and so will not run
+on the old system:</p>
+<p><img alt="elf hacking with rekall 19" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_19.png" /></p>
+<p>I applied the same Rekall script to remove symbol versioning. However,
+this time, the binary still fails to run because the
+function pthread_setname_np is not available on this system.</p>
+<p><img alt="elf hacking with rekall 20" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_20.png" /></p>
+<p>We could implement a wrapper function like before, but this will require
+rebuilding the binary and this takes some time. Reading up on the
+pthread_setname_np function it does not seem important (it justs sets
+the name of the thread for debugging). Therefore we can just re-route
+this function to some other safe function which is available on the
+system.</p>
+<p>Re-routing functions can be easily done by literally loading the binary
+in a hex editor and replacing "pthread_setname_np" with "close" inside
+the symbol
+table.</p>
+<p><img alt="elf hacking with rekall 21" src="../assets/images/rekall-forensics-blog/elf_hacking_with_rekall_21.png" /></p>
+<h3 id="external-links">External Links</h3>
+<ul>
+<li><a href="http://www.lightofdawn.org/wiki/wiki.cgi/NewAppsOnOldGlibc">Running new applications on old glibc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">Wikipedia: Executable and Linkable Format</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

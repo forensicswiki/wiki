@@ -1,0 +1,747 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall determining the profile of the operating system - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#first-idea-symbol-names" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall determining the profile of the operating system
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#first-idea-symbol-names" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First idea: symbol names
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-idea-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Second idea: symbols
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall determining the profile of the operating system</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, but was never posted given it was not
+finalized. Copied with permission for historical preservation.</p>
+</blockquote>
+<p>Providing a way to accurately determine the profile of a running operating system is at the core of
+Rekall's ability to analyze memory images.</p>
+<p>Trying to analyze an entire fleet of machines in an unattended way (such as via GRR) presents an
+additional challenge. Recovering from profile detection errors as we would do when manually
+analyzing an image is infeasible, because it's a manual debugging process that doesn't scale. A
+profile detection method that is robust is paramount to its succes.</p>
+<p>But how does profile detection really work on each operating system? At a glance:</p>
+<ul>
+<li>For Windows, to find the exact kernel version we use a unique identifier that's present in the
+  kernel image itself (the UUID). We scan physical memory to find PE headers that contain this UUID.
+  Fortunately, Windows publishes debug information for almost all of their kernels. We obtain symbol
+  data from Microsoft by UUID, store this information and we're done.</li>
+<li>On Mac OS X, there's a small enough number of versions of the XNU kernel that a certain string is
+  always present at unique locations, relative to the kernel start. We maintain</li>
+<li>Linux distributions publish new kernels every so often. Given the prevalence of many different
+  versions of several Linux distributions, thousands of kernels exist that can be widely used at one
+  time.</li>
+</ul>
+<p>As an example, take the kernel releases for anyone Ubuntu flavor.</p>
+<p>This iterative, repeated release of updated kernels means the differences between one version to
+the next may simply be a couple of lines added and removed to the code. This means that sometimes
+we deal with kernels that are almost exactly the same, except for a few differences.</p>
+<p>Up until now we only had one method of identifying Linux kernels. We scanned memory looking for a
+string called the linux_proc_banner (cat /proc/banner will show it to you) and we used it to decide
+which profile to choose. An example of an Ubuntu 14.04 (trusty) string: "Linux version
+3.13.0-71-generic (buildd@lgw01-09) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #114-Ubuntu SMP
+Tue Dec 1 02:34:22 UTC 2015". We take the 3.13.0-71-generic string to find the profile in our
+repository.</p>
+<p>The reality of this method is that it's insufficient. First of all, the string is not strictly tied
+to the contents of the kernel. I could take the kernel sources for this version, change the
+"3.13.0-71-generic" string to "9.99-9-99-generic" and it would virtually be the same. The
+generated profile would essentially be the same.</p>
+<p>The second problem is that even if you assume the version string won't be tampered with, version
+string clashes can happen. For example, Ubuntu trusty (14.04) and precise (12.04) use the same
+kernel version string but the kernels are actually different. Alinux-image-3.13.0-71-generic
+package exists both on trusty and precise, but they are different kernels.</p>
+<p>So we need a new, better method of identification.</p>
+<h2 id="first-idea-symbol-names">First idea: symbol names</h2>
+<p>The first idea was to use symbol names alone. Symbols are the public information exported by a
+binary program that help the linked how to glue a piece of code that requests usage of an external
+resource (for example a library function) to the code that holds it (the library). Symbols are
+identified by a name and have a value.</p>
+<p>We use these symbols profusely within Rekall, to access things like the head of the processes
+linked list or the list of loaded kernel modules by knowing their virtual address. Because each new
+kernel version changes code, there should be some symbols added and other removed here and there,
+correct?</p>
+<p>Not entirely. The fine granularity at which new kernel packages are released by different Linux
+distributions produce kernels that have the exact same symbol names... but at differet locations.</p>
+<p>So the presence of a set of symbol names alone does not uniquely identify a kernel:</p>
+<p>Here's the number of different profiles only by symbol. We use a function that orders all the
+symbol names for a profile and does a sha256 of it.</p>
+<pre><code class="language-text">ipdb&gt; symbols_hash = [(index.CalculateRawSymbolsHash(p[1]), p[0], p[1][&quot;$CONSTANTS&quot;]) for p in new_profile_candidates]
+ipdb&gt; len(set([x[0] for x in symbols_hash]))
+363
+
+( with filtering )
+ipdb&gt; symbols_hash_f = [(index.CalculateRawSymbolsHash({&quot;$CONSTANTS&quot;:index.FilterSymbols(p[1][&quot;$CONSTANTS&quot;])}), p[0], index.FilterSymbols(p[1][&quot;$CONSTANTS&quot;])) for p in new_profile_candidates]
+
+ipdb&gt; len(set([x[0] for x in symbols_hash_f]))
+336
+
+And here's the number of different profiles by symbol-offset combination
+
+ipdb&gt; symboloffsets_hash = [(profile_index.SymbolOffsetIndex.CalculateRawProfileHash(p[1]), p[0], p[1][&quot;$CONSTANTS&quot;]) for p in new_profile_candidates]
+
+ipdb&gt; len(set([x[0] for x in symboloffsets_hash]))
+396
+
+( with filtering )
+ipdb&gt; symboloffsets_hash_f = [(profile_index.LinuxSymbolOffsetIndex.CalculateRawProfileHash(p[1]), p[0], profile_index.LinuxSymbolOffsetIndex.FilterSymbols(p[1][&quot;$CONSTANTS&quot;])) for p in new_profile_candidates]
+ipdb&gt; len(set([x[0] for x in symboloffsets_hash_f]))
+381
+</code></pre>
+<p>First extract all hashes that are dupped on each:</p>
+<pre><code class="language-bash">awk '{print $1}' symbols_hash  | sort | uniq -c | grep -v &quot; 1 &quot; &gt; symbols_hash.dups
+awk '{print $1}' symboloffsetss_hash  | sort | uniq -c | grep -v &quot; 1 &quot; &gt; symboloffsetss_hash.dups
+</code></pre>
+<p>Then find the actual dupped profiles:</p>
+<pre><code class="language-bash">for i in `awk '{print $2}' symboloffsetss_hash.dups`; do grep $i symboloffsetss_hash; done | awk '{print $2}' &gt; symboloffsetss_hash.dups_profiles
+
+for i in `awk '{print $2}' symbols_hash.dups`; do grep $i symbols_hash; done | awk '{print $2}' &gt; symbols_hash.dups_profiles
+</code></pre>
+<p>And this is the list of profiles that are different by symbol-offset but not by symbol name (that
+is, they have exactly the same symbol names, but different offsets on these symbols):</p>
+<pre><code class="language-bash">$ grep -Fv -f  symboloffsetss_hash.dups_profiles symbols_hash.dups_profiles | sort | uniq
+./Linux/Ubuntu/12.04/x86_64/3.2.0-41-generic.gz
+./Linux/Ubuntu/12.04/x86_64/3.2.0-41-virtual.gz
+./Linux/Ubuntu/12.04/x86_64/3.2.0-43-generic.gz
+./Linux/Ubuntu/12.04/x86_64/3.2.0-43-virtual.gz
+...
+./Linux/Ubuntu/14.04/x86_64/3.19.0-39-generic.gz
+./Linux/Ubuntu/14.04/x86_64/3.19.0-39-lowlatency.gz
+</code></pre>
+<p>Taking an example:</p>
+<pre><code class="language-bash">$ grep -F ./Linux/Ubuntu/12.04/x86_64/3.2.0-41-generic.gz symbols_hash
+8b303725ea36d3be5e9fdf1b28118aafbf2a04c3cd4403afe3cc286dc4b39ed8        ./Linux/Ubuntu/12.04/x86_64/3.2.0-41-generic.gz
+
+$ grep 8b303725ea36d3be5e9fdf1b28118aafbf2a04c3cd4403afe3cc286dc4b39ed8 symbols_hash
+8b303725ea36d3be5e9fdf1b28118aafbf2a04c3cd4403afe3cc286dc4b39ed8        ./Linux/Ubuntu/12.04/x86_64/3.2.0-41-generic.gz
+8b303725ea36d3be5e9fdf1b28118aafbf2a04c3cd4403afe3cc286dc4b39ed8        ./Linux/Ubuntu/12.04/x86_64/3.2.0-43-generic.gz
+</code></pre>
+<p>Even if we take the source and filter by code symbols, that still holds true:</p>
+<pre><code class="language-bash">$ unzip 3.2.0-41-generic.zip
+$ unzip 3.2.0-43-generic.zip
+$ grep ' [tT] ' boot/System.map-3.2.0-41-generic | sort &gt; boot/System.map-3.2.0-41-generic.sorted.filtered
+$ grep ' [tT] ' boot/System.map-3.2.0-43-generic | sort &gt; boot/System.map-3.2.0-43-generic.sorted.filtered
+$ diff -u System.map-3.2.0-41-generic.sorted.filtered System.map-3.2.0-43-generic.sorted.filtered | wc -l
+48859
+</code></pre>
+<h2 id="second-idea-symbols">Second idea: symbols</h2>
+<p>So, we thought: how about we just add symbol value information. This way, instead of comparing just
+the presence of symbol names, we check their value. Would we be able to uniquely identify a set of
+known linux kernels by their symbols?</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

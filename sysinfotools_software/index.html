@@ -1,0 +1,1266 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Sysinfotools software - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#history" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sysinfotools software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        History
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#products" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Products
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nsf-merge-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NSF Merge Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NSF Merge Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pst-file-viewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PST File Viewer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PST File Viewer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ost-file-viewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OST File Viewer
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OST File Viewer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dbx-recovery-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DBX Recovery Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DBX Recovery Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dbx-to-pst-converter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DBX To PST Converter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DBX To PST Converter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-database-recovery-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SQL Database Recovery Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL Database Recovery Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bkf-recovery-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BKF Recovery Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="BKF Recovery Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ost-recovery-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OST Recovery Tool
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OST Recovery Tool">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-data-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Data Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fat-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAT Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ntfs-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NTFS Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photo-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Photo Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Services
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objective
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:commercial-software" class="md-tag">Commercial Software</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:data-recovery" class="md-tag">Data Recovery</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:email-analysis" class="md-tag">Email Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:file-analysis" class="md-tag">File Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:free-software" class="md-tag">Free Software</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:vendor" class="md-tag">Vendor</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Sysinfotools software</h1>
+
+<p>SysInfoTools Software is a global software franchise specializing in
+unique and challenging projects. The company combines its technical
+skills and experience, industry expertise, and transparent vivacious
+processes to deliver solutions which delight the customers all around
+the world.</p>
+<p>From inspiration to finished product, from concept to delivery, and from
+restoration to retrieval - SysInfoTools Software will support the
+application project all the way. Focused to developing cutting edge
+software applications, the company brought a wide range of exclusive
+hi-end software recovery products in the marketplace.</p>
+<p><strong>Note</strong>: SysInfoTools Software is a separate company from the
+similarly named <a href="../systools/">SysTools Software</a>.</p>
+<h2 id="history">History</h2>
+<p>Established in the year 2010 by Mr. Harish Bisht and Mrs. Sonika Rawat,
+SysInfoTools Software is one of the fastest growing Tech-firms involved
+in the art of exclusive software development. Providing millions of
+customers with a delight S-class and achieved pinnacle of success in
+short time duration has been a key goal of the company.</p>
+<p>SysInfoTools Software is recognized for its exceptional professional
+series of 70+ Windows System Utilities that takes users' experience to
+the next higher level of wonder and amazement with its advanced
+algorithm. The software tenement consists of whole bunch of top-end
+Windows software utilities in the field of Data Recovery, Email
+Management and Email Migration. The world class software engineering
+skills, industry expertise, and transparent process allow the company to
+build custom enterprise applications that delight our customers and
+truly meet their needs.</p>
+<p>SysInfoTools robust products and services are highly accredited both in
+domestic and international market owing to its user-friendly adaptable
+and easily operated operations and innate interface. The company is able
+to extend the expertise to manage, build and sprout the métier onshore
+and offshore, governed by well-equipped, state-of-the-art
+infrastructural facility clubbed with time-tested efforts of our <em>crème
+de la crème</em> professionals and technocrats.</p>
+<p>SysInfoTools software personally believes in grooming the entire work
+force all around with the latest tech updates and up-to-the-minute
+developments in the software industry.</p>
+<h2 id="products">Products</h2>
+<p>The products range from a variety of data recovery tools to password and
+file recovery tools each having its own specific range of
+functionalities and covers various needs and demands of the booming
+software world. Be it PDF management, email management or database
+recovery, these software products are so designed that they are feasible
+and easily adaptable to all range of our elite customers to easily
+operate and enjoy the benefits from them.</p>
+<ul>
+<li><a href="#nsf-merge-tool">NSF Merge Tool</a></li>
+<li><a href="#pst-file-viewer">PST File Viewer</a></li>
+<li><a href="#ost-file-viewer">OST File Viewer</a></li>
+<li><a href="#dbx-recovery-tool">DBX Recovery Tool</a></li>
+<li><a href="#dbx-to-pst-converter">DBX To PST Converter</a></li>
+<li><a href="#sql-database-recovery-tool">SQL Database Recovery Tool</a></li>
+<li><a href="#bkf-recovery-tool">BKF Recovery Tool</a></li>
+<li><a href="#ost-recovery-tool">OST Recovery Tool</a></li>
+<li><a href="#windows-data-recovery">Windows Data Recovery</a></li>
+<li><a href="#fat-recovery">FAT Recovery</a></li>
+<li><a href="#ntfs-recovery">NTFS Recovery</a></li>
+<li><a href="#photo-recovery">Photo Recovery</a></li>
+</ul>
+<h3 id="nsf-merge-tool">NSF Merge Tool</h3>
+<p><em>NSF Merge Tool</em> is an innovative application For <a href="https://en.wikipedia.org/wiki/IBM_Notes">IBM
+Notes</a> users. NSF Merge tool
+helps IBM users to merge two or more NSF files into one. This is one of
+the most easy to use software to merge multiple NSF files. Not only
+this, it allow users to join files too plus have the ability to
+consolidate unlimited Lotus Notes archive database files.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>NSF Merge Tool let users to consolidate unlimited archive database
+  files</li>
+<li>Allow users to merge as well as join Lotus Notes files</li>
+<li>Support merging of emails, archives, events and contacts</li>
+<li>Option to filter duplicate entries</li>
+<li>Compatible with all versions of IBM Lotus Notes</li>
+<li>Easy and simple user interface</li>
+</ul>
+<h3 id="pst-file-viewer">PST File Viewer</h3>
+<p><em>Free PST Viewer</em> Free PST Viewer is a freeware application to open,
+read and view PST files without the help of MS Outlook. This freeware
+tool is made by SysInfoTools Software to help users to open any type of
+MS Outlook PST files whether is is a Unicode, ANSI or corrupted
+files.<a href="https://www.sysinfotools.com/">2</a></p>
+<h4 id="features_1">Features</h4>
+<p>A freeware application to read and view PST file even without Microsoft
+Outlook. It also allows to open corrupted or inaccessible PST files</p>
+<h3 id="ost-file-viewer">OST File Viewer</h3>
+<p><em>Free OST Viewer</em> is a freeware application For <a href="../microsoft_outlook/">Microsoft
+Outlook</a> users. This freeware tool helps to open,
+view and read OST files even if they are corrupted and that too without
+the help of Microsoft Outlook.</p>
+<p>This freeware tool is one of the tools made by SysInfoTools Software to
+help open corrupt and inaccessible MS Outlook OST files without any
+problems. Anyone can download this freeware tool to view, open and read
+Outlook emails and other items like contacts, task, calendars and can
+even save them in HTML format.</p>
+<h4 id="features_2">Features</h4>
+<ul>
+<li>Open and view OST files even without the help of Microsoft Outlook</li>
+<li>Open and view OST files without requiring Exchange Server</li>
+<li>Read, open and view files even when they are inaccessible or corrupted</li>
+<li>Can read and view emails, tasks, calendars, notes, journal entries and
+  so on</li>
+<li>Three scanning modes to detect and view corrupt and inaccessible OST
+  files</li>
+<li>Exporting users data in HTML format</li>
+<li>Supports creation of Log file with flexible saving option</li>
+<li>Simple and highly interactive user interface</li>
+<li>Compatible with all versions of
+  <a href="../windows/">Microsoft Windows</a></li>
+</ul>
+<h3 id="dbx-recovery-tool">DBX Recovery Tool</h3>
+<p><em>DBX Recovery Tool</em> is a diverse tool to recover Outlook Express DBX
+files and help users to restore them to DBX, PST, EML and RTF formats.
+With its smart recovery algorithm, this recovery tool takes the user
+experience to a different level. DBX Recovery Tool, is one of the finest
+recovery software to recover and restore impaired, corrupt and
+inaccessible Outlook Express files in its original format. Not only
+this, it also let users in restoring these impaired files in EML, PST
+RTF and MSG formats. So this DBX Recovery Tool, is a one stop solution
+for any types of corruption issues and errors.</p>
+<h4 id="features_3">Features</h4>
+<ul>
+<li>Fastest scanning and recovery procedure</li>
+<li>Flexible saving options, which let users to save the recovered files
+  in different formats like PST, RTF, MSG And EML</li>
+<li>Advanced recovery algorithm, which help users in scanning and
+  recovering maximum files in no time</li>
+<li>Three recovery modes to restore files from different types of
+  corruption: Standard, Advanced and RAW recovery</li>
+<li>Fast &amp; accurate recovery</li>
+<li>Supports recovery of corrupted as well as deleted emails</li>
+<li>Supports recovery of corrupted as well as deleted emails</li>
+<li>Let users to preview recovered files even before the recovery process</li>
+<li>Simple and easy interface</li>
+<li>Highly compatible with all versions of Microsoft Windows</li>
+</ul>
+<h3 id="dbx-to-pst-converter">DBX To PST Converter</h3>
+<p><em>DBX To PST Converter</em> is a tool known to import Outlook Express DBX
+files to Outlook PST format. It is one of the fastest, reliable and
+accurate conversion tool to convert all your Outlook Express email
+messages. However, with its high end algorithm, this software let users
+to import all their mailbox items including their meta properties,
+attachments, internet headers and allow to save them in a new PST file.</p>
+<h4 id="features_4">Features</h4>
+<ul>
+<li>Let users to convert all of their Outlook Express emails to MS Outlook
+  PST format</li>
+<li>Allow users to do batch conversions</li>
+<li>Support encryption of new PST files with the help of its password
+  protection feature</li>
+<li>Let users to search a specific DBX file in their system with its
+  Search feature</li>
+<li>Preview Option to preview converted files</li>
+<li>Flexible saving option</li>
+<li>Option to create a single PST file by merging all your DBX files</li>
+<li>High compatibility with all former versions of MS Outlook Express and
+  MS Outlook</li>
+<li>This DBX to PST converter tool is also compatible with all major
+  versions or Microsoft Windows</li>
+<li>Simple and easy user interface</li>
+</ul>
+<h3 id="sql-database-recovery-tool">SQL Database Recovery Tool</h3>
+<p><em>SQL Database Recovery Tool</em> is one of the best tools to repair &amp;
+Recover Corrupt MS SQL database easily. A reliable Windows based
+recovery tool to perform MS SQL recovery and help users in restoring
+their recovered SQL data files in no time. This software, not only help
+users to recover SQL files but it also supports recovery of MDF as well
+as NDF files of SQL database. The smart algorithm loaded with simple GUI
+makes it easier for novice users to recover all their corrupt SQL
+database files in no time.</p>
+<h4 id="features_5">Features</h4>
+<ul>
+<li>Accurate and reliable recovery tool to recover corrupt SQL database</li>
+<li>Let users to recover file objects like views, tables, triggers,
+  defaults and so on</li>
+<li>Two recovery modes to handle different types of corruption: Standard
+  and Advanced</li>
+<li>Let users to save their recovered data either in SQL Server
+  compatible Script format or in SQL Server database format</li>
+<li>Can repair corrupt MDF and NDF files seamlessly</li>
+<li>SQL Server PAGE-compression and ROW-compression</li>
+<li>Allow users to preview recovered files even before recovery</li>
+<li>Support recovery of XML files, image files, BLOB and even large page
+  data</li>
+<li>Support more than 50+ types of data which let users restore any types
+  of file objects</li>
+<li>Highly compatible with all version of Microsoft Windows</li>
+</ul>
+<h3 id="bkf-recovery-tool">BKF Recovery Tool</h3>
+<p><em>BKF Recovery Tool</em> is one of the most user-friendly tools to recover
+corrupt backup files from your system. With an advanced recovery
+algorithm, this MS BKF Recovery tool can recover maximum possible data
+from your corrupt BKF files.</p>
+<h4 id="features_6">Features</h4>
+<ul>
+<li>Can recover backup files created by NT-Backup utility tool</li>
+<li>Can repair and recover MS BKF files of more than 1TB</li>
+<li>Advanced search option, which let users to search specific BKF files
+  in their system as well as in the recovered database</li>
+<li>Let users to scan as per their needs with the help of Range Scan</li>
+<li>Can resolve all corruption error messages</li>
+<li>Allow users to preview the status of their recovered files and folders
+  with the help of tree-structure preview</li>
+<li>BKF Recovery Tool allows its users to preview more than 200 file
+  formats</li>
+<li>Simple &amp; easy to use GUI</li>
+<li>Snapshot feature for saving and uploading them</li>
+<li>Compatible with all version of MS Windows</li>
+</ul>
+<h3 id="ost-recovery-tool">OST Recovery Tool</h3>
+<p><em>OST Recovery Tool</em> is one of the smartest recovery software to repair
+and restore corrupt Exchange OST files. In addition, it also lets users
+to save the repaired files in multiple formats like EML, PST, MBOX, MSG
+and in Outlook Express DBX format.</p>
+<h4 id="features_7">Features</h4>
+<ul>
+<li>Effectively repair and restore corrupt Outlook OST files</li>
+<li>Three different recovery modes: Standard, Advanced and Deep</li>
+<li>Lets users to save recovered files in different formats like PST, DBX,
+  MSG, MBOX and EML</li>
+<li>Support data encryption and data compression</li>
+<li>Can recover Emails, Contacts, Tasks, Calendars and Distribution groups</li>
+<li>Support both English and non-English characters</li>
+<li>Can recover all your data without any data loss</li>
+<li>Compatible with all versions of MS Outlook</li>
+<li>Support all versions of MS Windows Operating system</li>
+</ul>
+<h3 id="windows-data-recovery">Windows Data Recovery</h3>
+<p>SysInfoTools Software provides best Windows Data Recovery tool to
+recover all types of data and files from both internal and external
+hard drive containing FAT and NTFS file systems.</p>
+<h3 id="fat-recovery">FAT Recovery</h3>
+<p>SysInfoTools Software FAT Partition Recovery tool can restore
+everything from the FAT (all variants) partitions. It can successfully
+restore all types of data and files which you've lost due to accidental
+deletion/formatting and corruption.</p>
+<h3 id="ntfs-recovery">NTFS Recovery</h3>
+<p>SysInfoTools Software NTFS Partition Recovery tool can restore files,
+folders, photos, videos, office documents and much more from NTFS
+partitions.</p>
+<h3 id="photo-recovery">Photo Recovery</h3>
+<p>SysInfotool Photo Recovery tool can recover lost and deleted images,
+pictures and photos of digital camera. Also, it supports recovery of
+audio files and video files.</p>
+<h2 id="services">Services</h2>
+<p>SysInfoTools Software has core specialties in the area of data recovery
+from corrupted files, email management and email migration. Email
+Management mélange of utilities incorporates splitting, merging,
+compressing and upgrading email files, and email migration range
+includes conversion of multiple types of email files into other formats
+to facilitate easy migration from one email client to another. Being a
+customer oriented firm, the company has the full onus to benefit the
+customer with a wide range of software utilities fitly researched and
+developed at our sophisticated and classy labs.</p>
+<h2 id="objective">Objective</h2>
+<p>The prime focus of the company specializes in recovery and analysis of
+database with skills, knowledge, and products for diverse platform. As a
+reckoned firm, SysInfoTools is a brand name with niche expertise in
+extracting data from almost all types of devices. The privacy and
+integrity of customers' data and information is the top priority of the
+company as the recovered data is safely disposed after it is been given
+to the valuable customers. The file repair services are completely safe
+and secure as the company never associates in data sharing or data
+relocation.</p>
+<p>Software customization (to make a software tool tailor-made) and manual
+recovery services are available for all the respected customers. An
+opportunity is provided to explore all the features and functionalities
+of the software products via Demo version available for free download
+before purchasing fully-licensed version. 30 days money back guarantee
+is available for all the commercialware tools in case any of the tools
+does not meet the satisfactory output.</p>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.sysinfotools.com/">Official Website</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/bkf-recovery.php">BKF Recovery Tool</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/dbx-recovery.php">DBX Recovery Tool</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/dbx-to-pst-converter.php">DBX To PST Converter</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/merge-nsf-files.php">NSF Merge Tool</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/ost-file-viewer.php">OST File Viewer</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/ost-file-recovery.php">OST Recovery Tool</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/pst-file-viewer.php">PST File Viewer</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/ms-sql-database-recovery.php">SQL Database Recovery Tool</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/windows-data-recovery.php">Windows Data Recovery</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/fat-recovery.php">FAT Recovery</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/ntfs-recovery.php">NTFS Recovery</a></li>
+<li><a href="https://www.sysinfotools.com/recovery/photo-recovery.php">Photo Recovery</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

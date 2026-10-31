@@ -1,0 +1,1010 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../community/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Concepts - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#legal-procedural-concepts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Concepts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#legal-procedural-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legal &amp; Procedural Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#investigation-or-analysis-or-examination-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investigation (or Analysis or Examination) Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-data-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage &amp; Data Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Storage &amp; Data Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operational-technical-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational &amp; Technical Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysis Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-format-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Format Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intrusion-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intrusion Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intrusion Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#threat-hunting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Threat hunting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeline-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timeline Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#legal-procedural-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legal &amp; Procedural Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#investigation-or-analysis-or-examination-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investigation (or Analysis or Examination) Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-data-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage &amp; Data Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Storage &amp; Data Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Recovery
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operational-technical-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational &amp; Technical Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysis Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-format-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Format Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intrusion-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intrusion Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Intrusion Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#threat-hunting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Threat hunting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeline-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timeline Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:concept" class="md-tag">Concept</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Concepts</h1>
+
+<p>This article contains various concepts central to digital forensics such as:</p>
+<ul>
+<li>Legal &amp; Procedural Concepts</li>
+<li>Storage &amp; Data Concepts</li>
+<li>Operational &amp; Technical Concepts</li>
+<li>Analysis Concepts</li>
+</ul>
+<h2 id="legal-procedural-concepts">Legal &amp; Procedural Concepts</h2>
+<ul>
+<li><a href="../chain_of_custody/">Chain of custody</a></li>
+<li>Data Integrity: evidence must remain entirely unaltered throughout the investigation. To uphold
+  this, investigators typically work on a copy instead of the original device.</li>
+<li>Forensic Soundness: A standard or concept stating that tools and methods used during an
+  investigation must be scientifically validated, reliable, and independently verifiable.</li>
+<li><a href="../ipse_dixit/">Ipse Dixit</a> or why "because the tool/vendor/expert/artificial intelligence said
+  so" is not evidence.</li>
+<li>Hearsay, see: <a href="https://en.wikipedia.org/wiki/Hearsay">Wikipedia: Hearsay</a></li>
+<li><a href="../reproducibility/">Reproducibility</a></li>
+<li><a href="../traits_of_evidence/">Traits of evidence</a></li>
+</ul>
+<h2 id="investigation-or-analysis-or-examination-concepts">Investigation (or Analysis or Examination) Concepts</h2>
+<ul>
+<li><a href="../digital_evidence/">Digital evidence</a></li>
+<li><a href="../forensic_tooling/">(Digital) forensic tooling</a></li>
+<li><a href="../observation_errors/">Observation errors</a></li>
+<li><a href="../rethoric_of_proof/">Rhetoric of Proof</a></li>
+</ul>
+<h2 id="storage-data-concepts">Storage &amp; Data Concepts</h2>
+<ul>
+<li>Allocated Space: Storage space currently reserved by the operating system for active files, e.g.
+  your documents or photos.</li>
+<li>File <a href="../paths/">paths</a></li>
+<li>Host Protected Areas (HPA) and Device Configuration Overlays (DCO): These are hidden, reserved
+  regions on hard drives or SSDs that sit outside the master boot record (MBR) or GUID partition
+  table addresses. Standard operating systems and basic forensic imagers cannot see these zones.
+  Investigators must use specialized hardware or write-blockers that issue direct ATA commands to
+  unhide and image these areas, where data can easily be cached away from sight.</li>
+<li>Metadata: "data about data." This includes hidden file attributes like camera GPS coordinates on
+  a photo, original authors of a document, or exact file creation and modification timestamps.</li>
+<li>Slack Space: The leftover, unused space at the end of a fixed data cluster. If a file is smaller
+  than the space the computer allocates for it, fragments of old deleted data can often be found
+  trapped in this "slack" space.</li>
+<li>Unallocated Space: "Empty" space on a hard drive. When you delete a file, the computer does not
+  instantly erase it; it simply marks that file's location as unallocated (free to overwrite).</li>
+</ul>
+<h3 id="data-recovery">Data Recovery</h3>
+<ul>
+<li><a href="../data_recovery/">Data recovery</a> - restoring data that was deleted, made inaccessible by damage
+  to a file system, partition table or storage media, or that is on failing media; see also
+  <a href="../tools_data_recovery/">Tools: Data Recovery</a>.</li>
+<li><a href="../file_carving/">File carving</a> - recovering files based on their content (headers, footers,
+  internal structure) rather than on file system metadata.</li>
+</ul>
+<h2 id="operational-technical-concepts">Operational &amp; Technical Concepts</h2>
+<ul>
+<li>Forensic Imaging (Bit-by-Bit Copy): Unlike a standard file copy (like dragging a folder to a USB
+  drive), a forensic image is a complete, mathematical clone of every single bit on a storage
+  medium-including its deleted files, hidden partitions, and unallocated space.</li>
+<li>Write Blocking: A concept implemented via hardware or software that strictly prevents a computer
+  from writing data to a piece of evidence. When a suspect's drive is plugged into a "write blocker",
+  the investigator's computer can only read the data, ensuring the original device is completely
+  untouched. See also: <a href="../write_blockers/">write blockers</a>.</li>
+<li>Hashing (Cryptographic Verification): A process that passes a file or drive image through an
+  algorithm (like SHA-256) to generate a unique alphanumeric string. Think of it as a digital
+  fingerprint. If even a single letter inside a file is altered, the hash value changes completely,
+  alerting investigators that the evidence has been tampered with. See also: <a href="../hashing/">hashing</a>.</li>
+<li><a href="../digital_evidence/#order-of-volatility">Order of Volatility</a></li>
+</ul>
+<h2 id="analysis-concepts">Analysis Concepts</h2>
+<ul>
+<li><a href="../cell_site_analysis/">Cell Site Analysis (CSA)</a></li>
+</ul>
+<h3 id="data-format-analysis">Data Format Analysis</h3>
+<ul>
+<li><a href="../non_rendering_characters/">Non-rendering characters</a>, also referred to as non-printable
+  characters.</li>
+<li>Polyglot Files: A polyglot is a single file that is structurally valid as two or more distinct
+  file types simultaneously, such as a file that functions as both a valid JPG image and a valid ZIP
+  archive depending on the interpreter used). If a forensic analysis tool relies strictly on a
+  single header validation technique, it will catalog only one side of the polyglot, leaving a
+  hidden archive or script fully functional yet unparsed.</li>
+<li><a href="../unicode/">Unicode</a></li>
+<li><a href="../unpaired_surrogates/">Unpaired surrogates</a></li>
+</ul>
+<h3 id="intrusion-analysis">Intrusion Analysis</h3>
+<p>Digital forensics and intrusion analysis overlap significantly in their shared reliance on
+analyzing technical artifacts like system logs, memory captures, and network traffic to reconstruct
+a threat actor's timeline.</p>
+<p>They differ sharply in their primary objectives and operational contexts. Intrusion analysis
+operates near "real-time", focusing on rapid threat detection, live containment, and determining
+how a system was actively compromised to eradicate the adversary. In contrast to digital forensics,
+which is typically a post-incident, deep-dive methodology that prioritizes strict chain-of-custody
+documentation and absolute data preservation to ensure findings are legally defensible.</p>
+<h4 id="threat-hunting">Threat hunting</h4>
+<p>Threat hunting, in the context of intrusion analysis, is the proactive, hypothesis-driven practice
+of searching through networks, endpoints, and datasets to detect malicious activity that has
+evaded existing security controls. Unlike traditional reactive analysis, which triggers only after
+an automated alert fires, hunting operates under the assumption that a breach has already occurred.</p>
+<h3 id="timeline-analysis">Timeline Analysis</h3>
+<ul>
+<li><a href="../date_and_time_values/">date and time values</a></li>
+<li><a href="../epoch/">epoch</a></li>
+<li><a href="../mac_times/">MAC(B) and MACE times</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

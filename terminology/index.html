@@ -1,0 +1,1181 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Terminology - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#acquisition-and-imaging" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Terminology
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#acquisition-and-imaging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acquisition and imaging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-examination-and-investigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysis, Examination and Investigation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis, Examination and Investigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examination
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#investigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investigation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlap-and-differences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlap and differences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyst-examiner-and-investigator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst, Examiner and Investigator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analyst, Examiner and Investigator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analyst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyst
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#investigator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Investigator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attacker-and-malicious-actor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attacker and Malicious actor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evidence-fact-findings-and-traces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidence, Fact, Findings and Traces
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evidence, Fact, Findings and Traces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examiner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examiner
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forensicator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forensicator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlap-and-differences_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlap and differences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artifact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binary-executable-object-file-and-source-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binary, Executable, Object File and Source Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Binary, Executable, Object File and Source Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overlap-and-differences_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlap and differences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-points-and-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code points and characters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#digital-forensics-and-computer-forensics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Digital forensics and computer forensics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forensically-sound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forensically sound
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-and-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method and Technique
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Method and Technique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technique
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlap-and-differences_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overlap and differences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:concept" class="md-tag">Concept</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Terminology</h1>
+
+<p>Various terms widely used in connection to digital forensics.</p>
+<h2 id="acquisition-and-imaging">Acquisition and imaging</h2>
+<p><strong>Acquisition</strong> is the act of lawfully obtaining digital evidence. It is a stage of the
+<em>investigation</em>, see <a href="../concepts/">concepts</a>, and precedes the <em>examination</em> and <em>analysis</em>
+of the evidence.</p>
+<p><strong>Imaging</strong> is the creation of a bit-by-bit copy of the storage medium, so that the copy can
+be worked on without altering the original; see <a href="../disk_imaging/">disk imaging</a> and
+<a href="../memory_imaging/">memory imaging</a>.</p>
+<h2 id="analysis-examination-and-investigation">Analysis, Examination and Investigation</h2>
+<p><em>Analysis</em>, <em>examination</em> and <em>investigation</em> all describe work performed on digital evidence.
+They differ in scope, as described in the sections below; their usage throughout the wiki is
+prescribed by the <a href="https://github.com/forensicswiki/wiki/blob/main/style_guide.md">style guide</a>.</p>
+<h3 id="analysis">Analysis</h3>
+<p><em>Analysis</em> is the most technical and granular of the three terms: processing specific
+digital data to extract meaning from it. It is the default word for the sub-disciplines and
+techniques of the field.</p>
+<p>Analysis is also where tool quality matters most, <a href="../forensic_tooling/">forensic tooling</a>
+states that "an analysis or parsing tool must always yield the exact same output" for the same
+input. At the same time, analysis can be fast and reactive, in <a href="../concepts/">concepts</a> "Intrusion
+analysis operates near "real-time"", while digital forensics is "a post-incident, deep-dive
+methodology".</p>
+<h3 id="examination">Examination</h3>
+<p><em>Examination</em> is the middle of the three terms: the stage of the investigation where the
+evidence itself is inspected, between acquisition and reporting.</p>
+<p>Note that the word is also used in ordinary English in ways that are not defined here, such
+as a professional examination (e.g. a CFAP examination) or the cross-examination of a witness.
+<a href="../pillars_of_forensics/">Pillars of forensics</a> combines it with analysis as one stage of the
+methodology, "Examination &amp; Analysis": "Sifting through system logs, registries, and
+artifacts to reconstruct timelines and discover malicious activity".</p>
+<p>Examination is also the most court-facing of the three terms:</p>
+<ul>
+<li><a href="../computer_forensics/">Computer forensics</a> lists what is key to all forensics
+  examinations: maintaining integrity and authenticity, preventing contamination, proper
+  and comprehensive documentation, and a systematic, scientific methodology.</li>
+<li><a href="../incident_response/">Incident response</a> wants scripts that "provide the examiner with
+  a standard process to defend in court".</li>
+</ul>
+<h3 id="investigation">Investigation</h3>
+<p><em>Investigation</em> is the broadest of the three terms: it spans the case, from the question
+and the evidence to the legally defensible answer. It is the subject of
+<a href="../investigator/">investigator</a>.</p>
+<ul>
+<li>"evidence must remain entirely unaltered throughout the
+  [investigation]" (<a href="../concepts/">concepts</a>).</li>
+<li><a href="../traits_of_evidence/">Traits of evidence</a> separates "an intrusion assessment" from "a
+  rigorous forensic investigation".</li>
+<li><a href="../incident_response/">Incident response</a> notes that "the fluid nature of computer
+  investigations" makes the discipline "more of an art than a science".</li>
+</ul>
+<h3 id="overlap-and-differences">Overlap and differences</h3>
+<p>The words all name work done on digital evidence. Where the terms differ is scope, and they nest in
+one another: an <em>investigation</em> contains one or more <em>examinations</em>, and an <em>examination</em> contains
+many <em>analyses</em>.</p>
+<ul>
+<li><strong>analysis</strong> - the data-level work: interpreting specific artifacts and tool output. The
+  most technical and granular term.</li>
+<li><strong>examination</strong> - the inspection of the evidence itself, forensically sound, documented
+  and court-facing.</li>
+<li><strong>investigation</strong> - the whole case: scoping, acquisition, examination, analysis and
+  reporting, ending in a legally defensible answer.</li>
+</ul>
+<h2 id="analyst-examiner-and-investigator">Analyst, Examiner and Investigator</h2>
+<p><em>Analyst</em>, <em>examiner</em> and <em>investigator</em> all describe the people who perform that work on
+digital evidence. Each role matches the scope of the work described in the sections above.</p>
+<h3 id="analyst">Analyst</h3>
+<p>The <em>analyst</em> is the practitioner who analyzes digital data: someone who runs tools, performs
+experiments and interprets the technical findings. The term is predominantly used in analytical and
+technical articles.</p>
+<p><em>Analyst</em> is the preferred term for roles adjacent to digital forensics.</p>
+<h3 id="investigator">Investigator</h3>
+<p>The <em>investigator</em> is the individual who owns the forensic investigation from start to
+finish. The <a href="../investigator/">investigator</a> article defines the role:</p>
+<blockquote>
+<p>A computer forensics investigator is the individual responsible for the practice of
+identifying, extracting and considering evidence from digital media, such as computer hard
+drives.</p>
+</blockquote>
+<h2 id="attacker-and-malicious-actor">Attacker and Malicious actor</h2>
+<p>An <strong>"attacker"</strong> acts as the technical, data-level equivalent of an <em>analyst</em>, representing the
+specific entity orchestrating a discrete, highly tactical intrusion or exploit thread at the
+micro-level. Typically used in the context of a concrete attack.</p>
+<p>In contrast, a <strong>"malicious actor"</strong> is a broader, macro-level concept analogous to an
+<em>investigator</em>; it encompasses the entire identity, strategic alignment, and overall narrative
+footprint of the hostile entity behind the campaign, spanning multiple combined attacks, human
+motivations, and systemic risks.</p>
+<h2 id="evidence-fact-findings-and-traces">Evidence, Fact, Findings and Traces</h2>
+<p>These terms form a chain from residue to legal proof: <em>traces</em> are what activity leaves
+behind in digital media, a <em>finding</em> is the technical fact that <em>analysis</em> observes in
+them, a <em>fact</em> is a finding that the work has verified, and <em>evidence</em> is the material
+a court may admit.</p>
+<p>A <strong>trace</strong> is a mark or residue left behind by an action or a presence. The principle
+behind it is <a href="../locard%27s_exchange_principle/">Locard's exchange principle</a>; in the words
+of its <a href="https://en.wikipedia.org/wiki/Locard%27s_exchange_principle">Wikipedia entry</a>:</p>
+<blockquote>
+<p>Every contact leaves a trace.</p>
+</blockquote>
+<p>In digital media, traces are what <a href="../residual_data/">residual data</a> is: data
+"unintentionally left behind on computer media" - after deletion attempts, forgotten
+copies, or decommissioned media - and, at the limit, <a href="../remnant_data/">remnant data</a>:
+data still recoverable after new information has been written to it.
+<a href="../anti_forensic_techniques/">Anti-forensic techniques</a> target such traces: they aim to
+"negatively affect the existence, amount and/or quality" of the evidence.</p>
+<p>A <strong>finding</strong> is a technical fact observed during the work - a log entry, a registry
+modification, an unallocated file fragment or a timeline correlation. It is what <em>analysis</em>
+produces, but it is not legal proof. Per <a href="../traits_of_evidence/">traits of evidence</a>:</p>
+<blockquote>
+<p>A forensic <strong>finding</strong> is an empirical observation. It is a line in a firewall log, a
+Windows Registry key modification, an unallocated file fragment, or a timeline correlation
+discovered during an investigation. <strong>It is a technical fact, but it is not inherently a
+legal proof.</strong></p>
+</blockquote>
+<p>A <strong>fact</strong> is an established, verified state of affairs - a finding that the work has
+confirmed. <a href="../computer_forensics/">computer forensics</a> makes accuracy a professional
+duty: "Present facts accurately", and "Not withhold any findings as such actions may
+distort or misrepresent the facts". Per <a href="../ipse_dixit/">ipse Dixit</a>: the record must ensure
+that "justice relies on verifiable facts rather than assumptions". In court, <em>evidence</em>
+is tendered so that the <em>facts</em> of the case can be established from it.</p>
+<p><strong>Evidence</strong> (legal evidence) is a finding that has been made admissible: collected legally,
+authentic, unaltered, reliable and complete, so that it can be tendered as an exhibit in a
+court of law. Per <a href="../digital_evidence/">digital evidence</a>:</p>
+<blockquote>
+<p>Digital evidence is the collective term used to describe information or materials stored or
+transmitted in digital form that is to be tendered as an exhibit in a context of law, such
+as court.</p>
+</blockquote>
+<p>A finding and legal evidence do not coincide automatically - "those findings do not
+automatically qualify as evidence in a court of law" (<a href="../traits_of_evidence/">traits of
+evidence</a>). The traits a finding must exhibit to cross that
+threshold - admissibility, authenticity, integrity, reliability and completeness - are
+listed there. Per <a href="https://www.ietf.org/rfc/rfc3227.txt">RFC 3227</a>, evidence collected
+correctly "stands a much greater chance of being admissible in the event of a
+prosecution".</p>
+<h3 id="examiner">Examiner</h3>
+<p>The <em>examiner</em> performs the forensic <em>examination</em> of the evidence: the technical stage
+between acquisition and reporting where the "Examination &amp; Analysis" work happens.
+The duties listed in <a href="../computer_forensics/">computer forensics</a> apply to "All professionals
+involved in a forensics examination".</p>
+<p><em>Examiner</em> is also part of professional titles and organizations.</p>
+<h3 id="forensicator">Forensicator</h3>
+<p>The <em>forensicator</em> is informal jargon for <a href="../investigator/">a forensic investigator</a>:</p>
+<blockquote>
+<p>The vernacular of digital or computer <em>forensics investigator</em> is <em>forensicator</em>.</p>
+</blockquote>
+<h3 id="overlap-and-differences_1">Overlap and differences</h3>
+<p>Where the terms differ is mostly scope and context:</p>
+<ul>
+<li><strong>investigator</strong> - owns the whole investigation: scoping, acquisition, reporting and the
+  legal narrative. The broadest term in this wiki; also used for the field officer:
+  "law enforcement investigators in the field".</li>
+<li><strong>examiner</strong> - performs the <em>examination</em> of the evidence, i.e. the lab/technical stage.
+  Associated with credentials (EnCE) and trade bodies (ISFCE).</li>
+<li><strong>analyst</strong> - analyzes and interprets data and tool output. The most technical of the
+  three, and the term of choice for roles adjacent to forensics (incident response,
+  malware, memory forensics).</li>
+</ul>
+<h2 id="artifact">Artifact</h2>
+<p>The term artifact (or artefact) is widely used within computer forensics, though there is no
+official definition of this term.</p>
+<p>The definition closest to the meaning of the word within computer forensics is that of the word
+artifact within <a href="https://en.wikipedia.org/wiki/Artifact_(archaeology)">archaeology</a>. The term
+should not be confused with the word artifact used within
+<a href="https://en.wikipedia.org/wiki/Artifact_(software_development)">software development</a>.</p>
+<p>If archaeology defines an artifact as:</p>
+<blockquote>
+<p>something made or given shape by man, such as a tool or a work of art, esp an object of
+archaeological interest</p>
+</blockquote>
+<p>The definition of artifact within computer forensics could be:</p>
+<blockquote>
+<p>An object of digital archaeological interest.</p>
+</blockquote>
+<p>Where digital archaeological roughly refers to computer forensics without the forensic (legal)
+context.</p>
+<h2 id="binary-executable-object-file-and-source-code">Binary, Executable, Object File and Source Code</h2>
+<p>These terms trace the lifecycle of a software program from human-readable text to
+machine-executable code. In reverse engineering and malware analysis, these distinctions help
+examiners identify the compilation state and structural readiness of a file.</p>
+<p>A <strong>binary</strong> is a broad term with two meanings. Generally, a binary file is any file that contains
+data not formatted as plain text, such as an image, an encrypted log, or a database. Informally in
+digital forensics, "a binary" is often used as a catch-all noun for any compiled piece of code,
+including executables and shared libraries (<code>.dll</code> or <code>.so</code>), to contrast them against plaintext
+source code.</p>
+<p>An <strong>executable</strong> (or executable file) is a complete, fully linked program that an operating system
+can load and run, such as an <code>.exe</code> file in Windows or an ELF file in Linux. A linker combines one
+or more object files and system libraries, resolving all memory addresses and establishing a clear
+execution entry point.</p>
+<p>An <strong>object file</strong> is an intermediate product of the compilation process (typically with a <code>.o</code> or
+<code>.obj</code> extension). A compiler translates source code into machine language for a specific
+architecture, creating an object file. While it contains machine instructions, it cannot be run on
+its own because references to external functions, variables, or libraries have not yet been
+resolved.</p>
+<p>A <strong>source code</strong> file contains human-readable programming instructions written in a high-level
+language, such as C, C++, or Go. It cannot be directly processed by a computer's Central
+Processing Unit (CPU) and serves as the blueprint before compilation.</p>
+<h3 id="overlap-and-differences_2">Overlap and differences</h3>
+<p>Where these terms differ is their level of compilation, structural readiness, and context:</p>
+<ul>
+<li><strong>binary</strong> - The data-level format (non-text); colloquially used to describe any compiled
+  artifact encountered during an investigation.</li>
+<li><strong>executable</strong> - Machine-readable and complete; a fully functional program ready to be executed
+  by an operating system.</li>
+<li><strong>object file</strong> - Machine-readable but incomplete; isolated fragments of compiled code requiring
+  linking.</li>
+<li><strong>source code</strong> - Human-readable text; the uncompiled design logic.</li>
+</ul>
+<h2 id="code-points-and-characters">Code points and characters</h2>
+<ul>
+<li>A <strong>code unit</strong> is the smallest chunk of bit data, such as an 8-bit byte for UTF-8 or a 16-bit word
+  for UTF-16, that an encoding uses to represent text.</li>
+<li>A <strong>code point</strong> is a specific numerical value assigned to an abstract symbol by a character set
+  standard, such as Unicode. When written to a storage medium via an encoding like UTF-16, it is
+  mapped into one or more code units (e.g. a surrogate pair), acting as a data-level artifact or trace.</li>
+<li>A <strong>character</strong> is the abstract unit of textual information that humans actually perceive. A
+  character represents the interpreted, run-time (or "real-world") information reconstructed from
+  those underlying data structures.</li>
+</ul>
+<h2 id="digital-forensics-and-computer-forensics">Digital forensics and computer forensics</h2>
+<p>Both names are used in the field and in this wiki for the same discipline. This wiki
+canonicalizes <a href="../computer_forensics/">computer forensics</a>;
+<a href="../digital_forensics/">digital forensics</a> is a redirect to it.</p>
+<p><a href="../computer_forensics/">Computer forensics</a> is also distinguished from the more generic term
+<em>forensic computing</em>, which covers the analysis and study of all types of digital media and
+materials, of a computing or telecommunication nature. In a strict sense, computer forensics
+applies specifically to the evaluation of computers and their data storage or data processing
+devices.</p>
+<h2 id="forensically-sound">Forensically sound</h2>
+<p>Per <a href="https://link.springer.com/content/pdf/10.1007/978-0-387-84927-0_1.pdf">when is digital evidence forensically sound?</a>:</p>
+<blockquote>
+<p>The application of a transparent digital forensic process that preserves the original meaning of
+the data for production in a court of law.</p>
+</blockquote>
+<h2 id="method-and-technique">Method and Technique</h2>
+<p><em>Method</em> (or methodology) and <em>technique</em> describe how forensic tasks are structured and executed.
+They differ in abstraction, rigidity, and their relationship to legal admissibility.</p>
+<h3 id="method">Method</h3>
+<p>A <em>method</em> is the overarching, structured framework or standard operating procedure that guides the
+lifecycle of an investigation. It defines the strategic "how" to ensure that the entire process is
+repeatable, transparent, and legally defensible.</p>
+<p>Methods are generally rigid and scale across the entire macro-level workflow. They rely on
+validated, standardized models, such as the NIST Digital Forensics Process or ISO/IEC 27037, to
+govern the sequence of acquisition, examination, analysis, and reporting. The primary objective of
+a method is to preserve the integrity of the evidence and maintain a flawless chain of custody.</p>
+<h3 id="technique">Technique</h3>
+<p>A <em>technique</em> (specifically an <em>analysis technique</em>) is a discrete, highly tactical technical
+action or mechanism deployed to extract, parse, or interpret data from a specific digital artifact.</p>
+<p>Techniques operate at the micro-level and are highly flexible; practitioners select them
+dynamically based on the target operating system, hardware, or file types. Examples of techniques
+include file carving, reverse steganography, live memory extraction, and registry timeline
+correlation. A technique is executed <em>within</em> the boundaries prescribed by the broader forensic
+method.</p>
+<h3 id="overlap-and-differences_3">Overlap and differences</h3>
+<p>While both terms dictate how work is performed on a case, they exist at different tiers of
+execution. A <em>method</em> establishes the global rules of engagement to keep the investigation
+forensically sound, whereas a <em>technique</em> is the practical technical utility used to solve a
+data-level puzzle.</p>
+<ul>
+<li><strong>method</strong> - the strategic framework; a standardized, phased process designed to withstand legal
+  scrutiny and prevent data contamination.</li>
+<li><strong>technique</strong> - the tactical action; the specific tool-driven or manual mechanism used to examine
+  and decode abstract digital traces.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../anti_forensic_techniques/">Anti-forensic techniques</a></li>
+<li><a href="../computer_forensics/">Computer forensics</a></li>
+<li><a href="../concepts/">Concepts</a></li>
+<li><a href="../digital_evidence/">Digital evidence</a></li>
+<li><a href="../investigator/">Investigator</a></li>
+<li><a href="../ipse_dixit/">Ipse Dixit</a></li>
+<li><a href="../locard%27s_exchange_principle/">Locard's exchange principle</a></li>
+<li><a href="../remnant_data/">Remnant data</a></li>
+<li><a href="../residual_data/">Residual data</a></li>
+<li><a href="../rethoric_of_proof/">Rethoric of proof</a></li>
+<li><a href="../traits_of_evidence/">Traits of evidence</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

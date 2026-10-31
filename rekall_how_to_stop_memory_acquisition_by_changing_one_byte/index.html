@@ -1,0 +1,1086 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall how to stop memory acquisition by changing one byte - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-stop-memory-acquisition-by-changing-one-byte" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall how to stop memory acquisition by changing one byte
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-stop-memory-acquisition-by-changing-one-byte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to stop memory acquisition by changing one byte
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-stable-is-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How stable is this
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-imaging" class="md-tag">Memory Imaging</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall how to stop memory acquisition by changing one byte</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+<a href="../michael_cohen/">Michael Cohen</a> on 2014-03-10.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<h2 id="how-to-stop-memory-acquisition-by-changing-one-byte">How to stop memory acquisition by changing one byte</h2>
+<p>In a recent paper [published at DFRWS 2013], we
+examined memory acquisition in details and tested a bunch of tools.
+Memory acquisition tools have to achieve two tasks to be useful:</p>
+<ol>
+<li>They need to be able to map a region of physical memory into the virtual
+   address space, so it can be read by the tool.</li>
+<li>They need to know where in the physical address space it is safe to
+   read. Reading a DMA mapped region will typically crash the system
+   (BSOD).</li>
+</ol>
+<p>Since PCI devices are able to map DMA buffers into the physical address
+space, it is not safe to read these buffers. When a read operation
+occurs on the memory bus for these addresses, the device might become
+activated and cause a system crash or worse. The memory acquisition tool
+needs to be able to avoid these DMA mapped regions in order to safely
+acquire the memory.</p>
+<p>Let us see what occurs when one loads the memory acquisition driver.
+Since our goal is to play around with memory modification, we will
+enable write support for the winpmem acquisition tool (This example uses
+a Windows 7 AMD64 VM):</p>
+<p>In [2]:</p>
+<pre><code class="language-cmd">!c:/Users/mic/winpmem_write_1.5.5.exe -l -w
+</code></pre>
+<pre><code class="language-text">Enabling write mode.
+Driver Unloaded.
+Loaded Driver C:\Users\mic\AppData\Local\Temp\pmeE820.tmp.
+Write mode enabled! Hope you know what you are doing.
+CR3: 0x0000187000
+ 2 memory ranges:
+Start 0x00001000 - Length 0x0009E000
+Start 0x00100000 - Length 0x7CEF0000
+Acquisition mode PTE Remapping
+</code></pre>
+<p>We see that winpmem extracts its driver to a temporary location, and
+loads it into the kernel. It then reports the value of the Control
+Register CR3 (This is the kernel's Directory Table Base - or DTB).</p>
+<p>Next we see that the driver is reporting the ranges of physical memory
+available on this system. There are two ranges on this system with a gap
+in between. To understand why this is let's consider the boot process:</p>
+<ul>
+<li>When the system boots, the BIOS configures the initial physical memory
+  map. The RAM in the system is literally installed at various ranges in
+  the physical address space by the BIOS.</li>
+<li>The operating system is booted in Real mode, at which point a BIOS
+  service interrupt is issued to query this physical memory configuration.
+  It is only possible to issue this interrupt in Real mode.</li>
+<li>During the OS boot sequence, the processor is switched to protected mode
+  and the operating system continues booting.</li>
+<li>The OS configures PCI devices by talking to the PCI controller and
+  mapping each PCI device's DMA buffer (plug and play) into one of the
+  gaps in the physical address space. Note that these gaps may not
+  actually be backed by any RAM chips at all (which means that a write to
+  that location will simply not stick - reading it back will produce 0).</li>
+</ul>
+<p>The important thing to take from this is that the physical memory
+configuration is done by the machine BIOS on its own (independent of the
+running operating system). The OS kernel needs to live with whatever
+configuration the hardware boots with. The hardware will typically
+install some gaps in the physical address range so that PCI devices can
+be mapped inside them (Some PCI devices can only address 4GB so there
+must be sufficient space in the lower 4GB of physical address space for
+these.).</p>
+<p>Since the operating system can only query the physical memory map when
+running in real mode, but needs to use it to configure PCI devices while
+running in protected mode, there must be a data structure somewhere
+which keeps this information around. When WinPmem queries for this
+information, it can not be retrieved directly from the BIOS - since the
+machine is already running in protected mode.</p>
+<p>The usual way to get the physical memory ranges is to
+call <strong>MmGetPhysicalMemoryRanges()</strong>. This is the function API:</p>
+<p><strong>PPHYSICAL_MEMORY_DESCRIPTOR NTAPI MmGetPhysicalMemoryRanges(VOID);</strong></p>
+<p>We can get Rekall to disassemble this function for us. First we
+initialize the notebook, opening the winpmem driver to analyze the live
+system. Since Rekall uses exact profiles generated from accurate
+debugging information for the running system, it can resolve all
+debugging symbols directly. We therefore can simply disassemble the
+function by name:</p>
+<p>In [2]:</p>
+<pre><code class="language-text">from rekall import interactive
+interactive.ImportEnvironment(filename=r&quot;\\.\pmem&quot;)
+</code></pre>
+<pre><code class="language-text">Initializing Rekall session.
+Done!
+</code></pre>
+<p>In [3]:</p>
+<pre><code class="language-text">dis &quot;nt!MmGetPhysicalMemoryRanges&quot;
+</code></pre>
+<pre><code class="language-text">   Address      Rel Op Codes             Instruction                    Comment
+-------------- ---- -------------------- ------------------------------ -------
+------ nt!MmGetPhysicalMemoryRanges ------
+0xf80002cd9690    0 488bc4               MOV RAX, RSP
+0xf80002cd9693    3 48895808             MOV [RAX+0x8], RBX
+0xf80002cd9697    7 48896810             MOV [RAX+0x10], RBP
+0xf80002cd969b    B 48897018             MOV [RAX+0x18], RSI
+0xf80002cd969f    F 48897820             MOV [RAX+0x20], RDI
+0xf80002cd96a3   13 4154                 PUSH R12
+0xf80002cd96a5   15 4155                 PUSH R13
+0xf80002cd96a7   17 4157                 PUSH R15
+0xf80002cd96a9   19 4883ec20             SUB RSP, 0x20
+0xf80002cd96ad   1D 65488b1c2588010000   MOV RBX, [GS:0x188]
+0xf80002cd96b6   26 41bf11000000         MOV R15D, 0x11
+0xf80002cd96bc   2C 4533e4               XOR R12D, R12D
+0xf80002cd96bf   2F f6835904000020       TEST BYTE [RBX+0x459], 0x20
+0xf80002cd96c6   36 458d6ff0             LEA R13D, [R15-0x10]
+0xf80002cd96ca   3A 7405                 JZ 0xf80002cd96d1              nt!MmGetPhysicalMemoryRanges + 0x41
+0xf80002cd96cc   3C 418bfc               MOV EDI, R12D
+0xf80002cd96cf   3F eb2a                 JMP 0xf80002cd96fb             nt!MmGetPhysicalMemoryRanges + 0x6B
+0xf80002cd96d1   41 66ff8bc6010000       DEC WORD [RBX+0x1c6]
+0xf80002cd96d8   48 33c0                 XOR EAX, EAX
+0xf80002cd96da   4A f04c0fb13de5e4dcff   LOCK CMPXCHG [RIP-0x231b1b], R15 0x0 nt!MmDynamicMemoryLock
+0xf80002cd96e3   53 740c                 JZ 0xf80002cd96f1              nt!MmGetPhysicalMemoryRanges + 0x61
+0xf80002cd96e5   55 488d0ddce4dcff       LEA RCX, [RIP-0x231b24]        0x0 nt!MmDynamicMemoryLock
+0xf80002cd96ec   5C e83f00c3ff           CALL 0xf80002909730            nt!ExfAcquirePushLockShared
+0xf80002cd96f1   61 808b5904000020       OR BYTE [RBX+0x459], 0x20
+0xf80002cd96f8   68 418bfd               MOV EDI, R13D
+0xf80002cd96fb   6B 488b053679e3ff       MOV RAX, [RIP-0x1c86ca]        0xFFFFFA8001793FD0 nt!MmPhysicalMemoryBlock
+0xf80002cd9702   72 33c9                 XOR ECX, ECX
+0xf80002cd9704   74 41b84d6d5068         MOV R8D, 0x68506d4d
+0xf80002cd970a   7A 8b10                 MOV EDX, [RAX]
+0xf80002cd970c   7C 4103d5               ADD EDX, R13D
+0xf80002cd970f   7F c1e204               SHL EDX, 0x4
+0xf80002cd9712   82 e8f944d3ff           CALL 0xf80002a0dc10            nt!ExAllocatePoolWithTag
+0xf80002cd9717   87 488be8               MOV RBP, RAX
+0xf80002cd971a   8A 493bc4               CMP RAX, R12
+0xf80002cd971d   8D 7545                 JNZ 0xf80002cd9764             nt!MmGetPhysicalMemoryRanges + 0xD4
+0xf80002cd971f   8F 413bfd               CMP EDI, R13D
+0xf80002cd9722   92 7539                 JNZ 0xf80002cd975d             nt!MmGetPhysicalMemoryRanges + 0xCD
+0xf80002cd9724   94 498bc7               MOV RAX, R15
+0xf80002cd9727   97 f04c0fb12598e4dcff   LOCK CMPXCHG [RIP-0x231b68], R12 0x0 nt!MmDynamicMemoryLock
+0xf80002cd9730   A0 740c                 JZ 0xf80002cd973e              nt!MmGetPhysicalMemoryRanges + 0xAE
+0xf80002cd9732   A2 488d0d8fe4dcff       LEA RCX, [RIP-0x231b71]        0x0 nt!MmDynamicMemoryLock
+0xf80002cd9739   A9 e80655bfff           CALL 0xf800028cec44            nt!ExfReleasePushLockShared
+0xf80002cd973e   AE 80a359040000df       AND BYTE [RBX+0x459], 0xdf
+0xf80002cd9745   B5 664401abc6010000     ADD [RBX+0x1c6], R13W
+0xf80002cd974d   BD 750e                 JNZ 0xf80002cd975d             nt!MmGetPhysicalMemoryRanges + 0xCD
+0xf80002cd974f   BF 488d4350             LEA RAX, [RBX+0x50]
+</code></pre>
+<p>Note that Rekall is able to resolve the addresses back to the symbol
+names by using debugging information. This makes reading the disassembly
+much easier. We can see that this function essentially copies the data
+referred to from the symbol <strong>nt!MmPhysicalMemoryBlock</strong> into user
+space.</p>
+<p>Lets dump this memory:</p>
+<p>In [8]:</p>
+<pre><code class="language-text">dump &quot;nt!MmPhysicalMemoryBlock&quot;, rows=2
+</code></pre>
+<pre><code class="language-text">    Offset                           Hex                              Data       Comment
+-------------- ------------------------------------------------ ---------------- -------
+0xf80002b11038 d0 3f 79 01 80 fa ff ff 01 00 01 00 fe 3d 09 a1  .?y..........=.. nt!MmPhysicalMemoryBlock + 0
+0xf80002b11048 a0 a8 83 01 80 fa ff ff 70 6a 7b 01 80 fa ff ff  ........pj{..... nt!IoFileObjectType + 0
+</code></pre>
+<p>This appears to be an address, lets dump it:</p>
+<p>In [10]:</p>
+<pre><code class="language-text">dump 0xfa8001793fd0, rows=4
+</code></pre>
+<pre><code class="language-text">    Offset                           Hex                              Data       Comment
+-------------- ------------------------------------------------ ---------------- -------
+0xfa8001793fd0 02 00 00 00 00 00 00 00 8e cf 07 00 00 00 00 00  ................
+0xfa8001793fe0 01 00 00 00 00 00 00 00 9e 00 00 00 00 00 00 00  ................
+0xfa8001793ff0 00 01 00 00 00 00 00 00 f0 ce 07 00 00 00 00 00  ................
+0xfa8001794000 fe ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+</code></pre>
+<p>The data at this location contains a struct of
+type <strong>_PHYSICAL_MEMORY_DESCRIPTOR</strong> which is also the return value
+from the <strong>MmGetPhysicalMemoryRanges()</strong>call. We can use Rekall to
+simply construct this struct at this location and print out all its
+members.</p>
+<p>In [12]:</p>
+<pre><code class="language-text">memory_range = session.profile._PHYSICAL_MEMORY_DESCRIPTOR(0xfa8001793fd0)
+print memory_range
+</code></pre>
+<pre><code class="language-text">[_PHYSICAL_MEMORY_DESCRIPTOR _PHYSICAL_MEMORY_DESCRIPTOR] @ 0xFA8001793FD0
+  0x00 NumberOfRuns   [unsigned long:NumberOfRuns]: 0x00000002
+  0x08 NumberOfPages  [unsigned long long:NumberOfPages]: 0x0007CF8E
+  0x10 Run
+</code></pre>
+<p>In [13]:</p>
+<pre><code class="language-text">for r in memory_range.Run:
+    print r
+</code></pre>
+<pre><code class="language-text">[_PHYSICAL_MEMORY_RUN Run[0] ] @ 0xFA8001793FE0
+  0x00 BasePage   [unsigned long long:BasePage]: 0x00000001
+  0x08 PageCount  [unsigned long long:PageCount]: 0x0000009E
+
+[_PHYSICAL_MEMORY_RUN Run[1] ] @ 0xFA8001793FF0
+  0x00 BasePage   [unsigned long long:BasePage]: 0x00000100
+  0x08 PageCount  [unsigned long long:PageCount]: 0x0007CEF0
+</code></pre>
+<p>So what have we found?</p>
+<ul>
+<li>There is a symbol called <strong>nt!MmPhysicalMemoryBlock</strong> which is a pointer
+ to a <strong>_PHYSICAL_MEMORY_DESCRIPTOR</strong> struct.</li>
+<li>This struct contains the total number of runs, and a list of each run in
+ pages (0x1000 bytes long).</li>
+</ul>
+<p>Lets write a Rekall plugin for this:</p>
+<p>In [15]:</p>
+<pre><code class="language-text">from rekall.plugins.windows import common
+
+class WinPhysicalMap(common.WindowsCommandPlugin):
+    &quot;&quot;&quot;Prints the boot physical memory map.&quot;&quot;&quot;
+
+    __name = &quot;phys_map&quot;
+
+    def render(self, renderer):
+        renderer.table_header([
+                (&quot;Physical Start&quot;, &quot;phys&quot;, &quot;[addrpad]&quot;),
+                (&quot;Physical End&quot;, &quot;phys&quot;, &quot;[addrpad]&quot;),
+                (&quot;Number of Pages&quot;, &quot;pages&quot;, &quot;10&quot;),
+                ])
+
+        descriptor = self.profile.get_constant_object(
+            &quot;MmPhysicalMemoryBlock&quot;,
+            target=&quot;Pointer&quot;,
+            target_args=dict(
+                target=&quot;_PHYSICAL_MEMORY_DESCRIPTOR&quot;,
+                ))
+
+        for memory_range in descriptor.Run:
+            renderer.table_row(
+                memory_range.BasePage * 0x1000,
+                (memory_range.BasePage + memory_range.PageCount) * 0x1000,
+                memory_range.PageCount)
+</code></pre>
+<p>This plugin will be named <strong>phys_map</strong> and essentially creates a table
+with three columns. The memory descriptor is created directly from the
+profile, then we iterate over all the runs and output the start and end
+range into the table.</p>
+<p>In [16]:</p>
+<pre><code class="language-text">phys_map
+</code></pre>
+<pre><code class="language-text">Physical Start  Physical End  Number of Pages
+-------------- -------------- ---------------
+0x000000001000 0x00000009f000 158
+0x000000100000 0x00007cff0000 511728
+</code></pre>
+<p>So far, this is a pretty simple plugin. However, lets put on our black
+hat for a sec.</p>
+<p>In our DFRWS 2013 paper we pointed out that since most memory
+acquisition tools end up calling <strong>MmGetPhysicalMemoryRanges()</strong> (all
+the ones we tested at least), then by disabling this function we would
+be able to sabotage all memory acquisition tools. This turned out to be
+the case, however, by patching the running code in memory we would
+trigger Microsoft's <strong>Patch Guard</strong>. In our tests, we disabled Patch
+Guard to prove the point, but this is less practical in a real rootkit.</p>
+<p>In reality, a rootkit would like to be able to modify the underlying
+data structure behind the API call itself. This is much easier to do and
+wont modify any kernel code, thereby bypassing Patch Guard protections.</p>
+<p>To test this, we can do this directly from Rekall's interactive console.</p>
+<p>In [18]:</p>
+<pre><code class="language-text">descriptor = session.profile.get_constant_object(
+    &quot;MmPhysicalMemoryBlock&quot;,
+    target=&quot;Pointer&quot;,
+    target_args=dict(
+      target=&quot;_PHYSICAL_MEMORY_DESCRIPTOR&quot;,
+    )).dereference()
+
+print descriptor
+</code></pre>
+<pre><code class="language-text">[_PHYSICAL_MEMORY_DESCRIPTOR Pointer] @ 0xFA8001793FD0
+  0x00 NumberOfRuns   [unsigned long:NumberOfRuns]: 0x00000002
+  0x08 NumberOfPages  [unsigned long long:NumberOfPages]: 0x0007CF8E
+  0x10 Run
+</code></pre>
+<p>Since we loaded the memory driver with write support, we are able to
+directly modify each field in the struct. For this proof of concept we
+simply set the NumberOfRuns to 0, but a rootkit can get creative by
+modifying the runs to contain holes located in strategic regions. By
+specifically crafting a physical memory descriptor with a hole in it, we
+can cause memory acquisition tools to just skip over some region of the
+physical memory. The responders can then walk away thinking they have
+their evidence, but critical information is missing.</p>
+<p>In [19]:</p>
+<pre><code class="language-text">descriptor.NumberOfRuns = 0
+</code></pre>
+<p>Now we can repeat our <strong>phys_map</strong> plugin, but this time, no runs will
+be found:</p>
+<p>In [20]:</p>
+<pre><code class="language-text">phys_map
+</code></pre>
+<pre><code class="language-text">Physical Start  Physical End  Number of Pages
+-------------- -------------- ---------------
+</code></pre>
+<p>To unload the driver, we need to close any handles to it. We then try to
+acquire a memory image in the regular way.</p>
+<p>In [32]:</p>
+<pre><code class="language-text">session.physical_address_space.close()
+</code></pre>
+<p>In [2]:</p>
+<pre><code class="language-text">!c:/Users/mic/winpmem_write_1.5.5.exe test.raw
+</code></pre>
+<pre><code class="language-text">Driver Unloaded.
+Loaded Driver C:\Users\mic\AppData\Local\Temp\pme3879.tmp.
+Will generate a RAW image
+CR3: 0x0000187000
+ 0 memory ranges:
+Acquitision mode PTE Remapping
+
+Driver Unloaded.
+</code></pre>
+<p>This time, however, Winpmem reports no memory ranges available. The
+result image is also 0 bytes big:</p>
+<p>In [3]:</p>
+<pre><code class="language-text">!dir test.raw
+</code></pre>
+<pre><code class="language-text"> Volume in drive C has no label.
+ Volume Serial Number is 6438-7315
+
+ Directory of C:\Users\mic
+
+03/07/2014  12:02 AM                 0 test.raw
+               1 File(s)              0 bytes
+               0 Dir(s)   3,416,547,328 bytes free
+</code></pre>
+<p>At this point, running the dumpit program from
+Moonsols will cause the system to immediately reboot. (It seems that
+dumpit is unable to handle 0 memory ranges gracefully and crashes the
+kernel).</p>
+<h2 id="how-stable-is-this">How stable is this</h2>
+<p>We have just disabled a kernel function, but this might de-stabilize the
+system. What other functions in the kernel are
+calling <em>MmGetPhysicalMemoryRanges</em>?</p>
+<p>Lets find out by disassembling the entire kernel. First we need to find
+the range of memory addresses the kernel code is in. We use
+the <em>peinfo</em> plugin to show us the sections which are mapped into
+memory.</p>
+<p>In [2]:</p>
+<pre><code class="language-bash">peinfo &quot;nt&quot;
+</code></pre>
+<pre><code class="language-text">Attribute            Value
+---------------------- -----
+</code></pre>
+<pre><code class="language-text">Machine              IMAGE_FILE_MACHINE_AMD64
+TimeDateStamp        2009-07-13 23:40:48+0000
+Characteristics      IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE
+GUID/Age             F8E2A8B5C9B74BF4A6E4A48F180099942
+PDB                  ntkrnlmp.pdb
+MajorOperatingSystemVersion 6
+MinorOperatingSystemVersion 1
+MajorImageVersion    6
+MinorImageVersion    1
+MajorSubsystemVersion 6
+MinorSubsystemVersion 1
+
+Sections (Relative to 0xF8000261F000):
+Perm Name          VMA            Size
+---- -------- -------------- --------------
+xr-  .text    0x000000001000 0x00000019b800
+xr-  INITKDBG 0x00000019d000 0x000000003a00   These are Executable sections.
+xr-  POOLMI   0x0000001a1000 0x000000001c00
+xr-  POOLCODE 0x0000001a3000 0x000000003000
+xrw  RWEXEC   0x0000001a6000 0x000000000000
+-r-  .rdata   0x0000001a7000 0x00000003ca00
+-rw  .data    0x0000001e4000 0x00000000fc00
+-r-  .pdata   0x000000278000 0x00000002fa00
+-rw  ALMOSTRO 0x0000002a8000 0x000000000800
+-rw  SPINLOCK 0x0000002aa000 0x000000000a00
+xr-  PAGELK   0x0000002ac000 0x000000014c00
+xr-  PAGE     0x0000002c1000 0x000000232600
+xr-  PAGEKD   0x0000004f4000 0x000000004e00
+xr-  PAGEVRFY 0x0000004f9000 0x000000021600
+xr-  PAGEHDLS 0x00000051b000 0x000000002800
+xr-  PAGEBGFX 0x00000051e000 0x000000006800
+-rw  PAGEVRFB 0x000000525000 0x000000000000
+-r-  .edata   0x000000529000 0x000000010a00
+-rw  PAGEDATA 0x00000053a000 0x000000004c00
+-r-  PAGEVRFC 0x000000548000 0x000000002a00
+-rw  PAGEVRFD 0x00000054b000 0x000000001400
+xrw  INIT     0x00000054d000 0x000000056c00
+-r-  .rsrc    0x0000005a4000 0x000000035e00
+-r-  .reloc   0x0000005da000 0x000000002200
+
+Data Directories:
+-                                             VMA            Size
+---------------------------------------- -------------- --------------
+IMAGE_DIRECTORY_ENTRY_EXPORT             0xf80002b48000 0x000000010962
+IMAGE_DIRECTORY_ENTRY_IMPORT             0xf80002bc1cec 0x000000000078
+IMAGE_DIRECTORY_ENTRY_RESOURCE           0xf80002bc3000 0x000000035d34
+IMAGE_DIRECTORY_ENTRY_EXCEPTION          0xf80002897000 0x00000002f880
+IMAGE_DIRECTORY_ENTRY_SECURITY           0xf80002b5ec00 0x000000001c50
+IMAGE_DIRECTORY_ENTRY_BASERELOC          0xf80002bf9000 0x000000002078
+IMAGE_DIRECTORY_ENTRY_DEBUG              0xf800027bb5c0 0x000000000038
+IMAGE_DIRECTORY_ENTRY_COPYRIGHT          0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_GLOBALPTR          0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_TLS                0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG        0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT       0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_IAT                0xf800027c6000 0x000000000380
+IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT       0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR     0x000000000000 0x000000000000
+IMAGE_DIRECTORY_ENTRY_RESERVED           0x000000000000 0x000000000000
+
+Import Directory (Original):
+Name                                               Ord
+-------------------------------------------------- -----
+
+Export Directory:
+    Entry      Stat Ord   Name
+-------------- ---- ----- --------------------------------------------------
+0xf80002677794 M    0     ntoskrnl.exe!AlpcGetHeaderSize (nt!AlpcGetHeaderSize)
+0xf80002677760 M    1     ntoskrnl.exe!AlpcGetMessageAttribute (nt!AlpcGetMessageAttribute)
+0xf80002665eb0 M    2     ntoskrnl.exe!AlpcInitializeMessageAttribute (nt!AlpcInitializeMessageAttribute)
+0xf800026b5ac0 M    3     ntoskrnl.exe!CcCanIWrite (nt!CcCanIWrite)
+0xf8000262a244 M    4     ntoskrnl.exe!CcCoherencyFlushAndPurgeCache (nt!CcCoherencyFlushAndPurgeCache)
+... (Truncated)
+0xf80002b4d2ab M    2111  ntoskrnl.exe! (None)
+Version Information:
+key                  value
+-------------------- -----
+</code></pre>
+<p>Now instead of disassembling to the interactive notebook, we store it in
+a file. This does take a while but will produce a large text file
+containing the complete disassembly of the Windows kernel (With
+debugging symbols cross referenced).</p>
+<p>In [3]:</p>
+<pre><code class="language-text">dis offset=0xF8000261F000+0x1000, end=0xF8000261F000+0x525000, output=&quot;ntkrnl_amd64.dis&quot;
+</code></pre>
+<p>Now we can use our favourite editor (Emacs) to check all references
+to <strong>MmGetPhysicalMemoryRanges</strong>. We can see references from:</p>
+<ul>
+<li>nt!PfpMemoryRangesQuery - Part of ExpQuerySystemInformation.</li>
+<li>nt!IoFillDumpHeader - Called from crashdump facility.</li>
+<li>nt!IopGetPhysicalMemoryBlock - Called from crashdump facility.</li>
+</ul>
+<p>We can also check references to <strong>MmPhysicalMemoryBlock</strong>. Many of these functions appear related
+to the <a href="https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn613938(v=vs.85)">Hot-Add memory functionality</a>:</p>
+<ul>
+<li>nt!IoSetDumpRange</li>
+<li>nt!MiFindContiguousPages</li>
+<li>nt!MmIdentifyPhysicalMemory</li>
+<li>nt!MmReadProcessPageTables</li>
+<li>nt!MiAllocateMostlyContiguous</li>
+<li>nt!IoFillDumpHeader</li>
+<li>nt!MiReleaseAllMemory</li>
+<li>nt!MmDuplicateMemory</li>
+<li>nt!MiRemovePhysicalMemory</li>
+<li>nt!MmAddPhysicalMemory</li>
+<li>nt!MmGetNumberOfPhysicalPages - This seems to be called from Hibernation
+ code.</li>
+<li>nt!MiScanPagefileSpace</li>
+<li>nt!MmPerfSnapShotValidPhysicalMemory</li>
+<li>nt!MmGetPhysicalMemoryRanges</li>
+</ul>
+<p>Some testing remains to see how stable this modification is in practice.
+It appears that probably Hot Add memory will no longer work, and
+possibly hibernation will fail (Hibernation is an alternate way to
+capture memory images, as Rekall can also operate on hibernation files).
+Although the above suggests that crash dumps are affected, I have tried
+to produce a crashdump after this modification, but it still worked as
+expected (This is actually kind of interesting in itself).</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1006 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Rekall adding windows 10 support - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-object-manager" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rekall adding windows 10 support
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions Mediawiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-object-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Object Manager
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pool-scanning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pool Scanning
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:memory-analysis" class="md-tag">Memory Analysis</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:tools" class="md-tag">Tools</a>
+      
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:windows" class="md-tag">Windows</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Rekall adding windows 10 support</h1>
+
+<blockquote>
+<p>This article was copied from the Rekall Forensics blog, posted by
+<a href="../michael_cohen/">Michael Cohen</a> on 2015-06-10.
+Copied with permission for historical preservation.</p>
+</blockquote>
+<p>As is widely known, the new release of Windows 10 is imminent. Microsoft
+is advertising this release and urging customers to upgrade. This means
+that we should expect so see more and more Windows 10 machines that
+require Rekall's advanced memory analysis!</p>
+<p>Each time a new version of Windows is released, it's a little bit like
+Christmas for me - full of surprises, you never really know what you are
+going to get! Microsoft did not disappoint this time either. There are
+some differences in Windows 10 that require Rekall to vary its approach
+to certain analysis techniques. It has been fun to make Rekall work with
+Windows 10 and this post will cover some of the interesting differences
+between Windows 10 and earlier versions. I will also explain some of the
+changes we implemented in Rekall.</p>
+<p>To start off I installed Windows 10 preview
+(en_windows_10_pro_insider_preview_10074_x64_dvd_6651360.iso)
+on Virtual Box. Once the install was done, I downloaded Rekall from the
+release page and used winpmem_2.0.1.exe to acquire an AFF4 memory image
+together with the pagefile. So far, there were no surprises! Winpmem
+just worked out the box. I then continued to work on the image.</p>
+<p>When I ran Rekall on this image, the profile was not found in the
+profile repository but this is not really a problem. Recent versions of
+Rekall can just fetch their own profiles from the Microsoft Symbol
+server by themselves (you can see this if you specify the -v flag):</p>
+<pre><code class="language-bash">$ rekal -v -f ~/images/win10.aff4
+....
+DEBUG:root:Will detect profile using these Detectors: nt_index,osx,pe,rsds,ntfs,linux
+DEBUG:root:Opened url https://raw.githubusercontent.com/google/rekall-profiles/master/v1.0/inventory.gz
+DEBUG:root:Opened url http://profiles.rekall-forensic.com/v1.0/inventory.gz
+....
+DEBUG:root:Skipped profile nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61 from https://raw.githubusercontent.com/google/rekall-profiles/master (Not in inventory)
+DEBUG:root:Skipped profile nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61 from http://profiles.rekall-forensic.com (Not in inventory)
+DEBUG:root:Will build local profile nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61
+ Trying to fetch http://msdl.microsoft.com/download/symbols/ntoskrnl.pdb/2F35AA77F3484FE59775E55B7FF1EDE61/ntoskrnl.pd_
+ERROR:root:Error: HTTP Error 404: Not Found
+ Trying to fetch http://msdl.microsoft.com/download/symbols/ntkrnlpa.pdb/2F35AA77F3484FE59775E55B7FF1EDE61/ntkrnlpa.pd_
+ERROR:root:Error: HTTP Error 404: Not Found
+ Trying to fetch http://msdl.microsoft.com/download/symbols/ntkrpamp.pdb/2F35AA77F3484FE59775E55B7FF1EDE61/ntkrpamp.pd_
+ERROR:root:Error: HTTP Error 404: Not Found
+ Trying to fetch http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/2F35AA77F3484FE59775E55B7FF1EDE61/ntkrnlmp.pd_
+Extracting cabinet: /tmp/tmpo9ZU84/ntkrnlmp.pd_
+  extracting ntkrnlmp.pdb
+
+All done, no errors.
+DEBUG:root:Opened url https://raw.githubusercontent.com/google/rekall-profiles/master/v1.0/mspdb.gz
+DEBUG:root:Adding mspdb to local cache.
+INFO:root:Loaded profile mspdb from Local Cache Directory:/tmp/.rekall_cache
+WARNING:root:Profile nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61 fetched and built. Please consider reporting this profile to the Rekall team so we may add it to the public profile repository.
+DEBUG:root:Opened local file /tmp/.rekall_cache/v1.0/nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61.gz
+INFO:root:Loaded profile nt/GUID/2F35AA77F3484FE59775E55B7FF1EDE61 from Local Cache Directory:/tmp/.rekall_cache
+DEBUG:root:Found _EPROCESS @ 0x225AA40 (DTB: 0x1AA000)
+INFO:root:Detected ntkrnlmp.pdb with GUID 2F35AA77F3484FE59775E55B7FF1EDE61
+DEBUG:root:Detection method rsds worked at offset 0x21128d0
+
+----------------------------------------------------------------------------
+The Rekall Memory Forensic framework 1.3.2 (Dammastock).
+
+&quot;We can remember it for you wholesale!&quot;
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License.
+
+See http://www.rekall-forensic.com/docs/Manual/tutorial.html to get started.
+----------------------------------------------------------------------------
+[1] win10.aff4 00:45:18&gt;
+</code></pre>
+<h2 id="the-object-manager">The Object Manager</h2>
+<p>The most important difference from a Memory analysis perspective is that
+the Object Header's <code>TypeIndex</code> field is obfuscated. In order to
+understand how this impacts Rekall, I will summarize quickly how the
+Windows Object Manager works, and how we use this in Rekall.</p>
+<p>The Windows kernel manages <code>Objects</code> (Please do not confuse this with
+object oriented languages like C++ objects - kernel objects are not
+really Object Oriented in the same sense of the word). An object is just
+an entity that the kernel is responsible for managing (i.e. create,
+destroy etc). There are many kernel objects, such
+as <code>Process</code>, <code>Thread</code> etc. You can actually see the kernel objects by
+running the <code>object_types</code> plugin:</p>
+<pre><code class="language-bash">[1] win10.aff4 00:08:34&gt; object_types
+     Type      Index Number Objects        PoolType       Name
+-------------- ----- --------------- -------------------- ----
+0xe0003484c5b0     2              53 NonPagedPoolNx       Type
+0xe0003485ea80     3              45 PagedPool            Directory
+0xe0003485d630     4             160 PagedPool            SymbolicLink
+0xe00034860c20     5            1182 PagedPool            Token
+0xe00034872c40     6               9 NonPagedPoolNx       Job
+0xe00034865d70     7              46 NonPagedPoolNx       Process
+0xe00034856440     8             682 NonPagedPoolNx       Thread
+...
+</code></pre>
+<p>Overall there are 48 different types of objects the Windows 10 kernel
+manages (you can see above how many objects of each type are outstanding
+as well as some statistics - e.g. we can see that there are 46 processes
+currently running).</p>
+<p>The kernel has an array of <code>_OBJECT_TYPE</code> pointers located
+at <code>nt!ObTypeIndexTable</code>, which contains one pointer for each type (this
+is the meaning of the Index column above - it is just the index into
+this array.).</p>
+<p>When the kernel wants to allocate one of these object (e.g. create a new
+process) it calls the object manager to allocate a new object of the
+required type (e.g. an <code>_EPROCESS</code>) object. It's called the Object
+manager because it is responsible for tracking and managing different
+aspects of these objects. The object manager does this by adding
+additional headers before the allocated header.</p>
+<p><img alt="posts/2015-06-03-windows10/object_layout.png" src="../assets/images/rekall-forensics-blog/adding_rekall_windows_10_support_1.png" /></p>
+<p>Figure 1. Object layout in the kernel pool</p>
+<p>See more information in our workshop slides:
+<a href="https://docs.google.com/presentation/d/1savcvqRcMXpRyVrybWvbHGbJTgjInZcwLB5VokJdKa8/edit#slide=id.g26d988328_1_440">the workshop slide deck</a>.</p>
+<p>So when we have a pointer to an <code>_EPROCESS</code> struct we know that before
+that address there will be a an <code>_OBJECT_HEADER</code> struct, and before that
+there is a variable number of optional headers. Before the optional
+headers we find the <code>_POOL_HEADER</code>.</p>
+<p>The first sign of trouble was a failure of
+the <code>handles</code> and <code>object_tree</code> plugins which inspect the object
+manager's objects. Here is the output of<code>object_tree</code>:</p>
+<pre><code class="language-text">[1] win10.aff4 01:16:57&gt; object_tree
+_OBJECT_HEADER         Type         Name
+-------------- -------------------- ----
+0xc0018b625580 SymbolicLink           SystemRoot-&gt; \Device\BootDevice\Windows (2015-06-03 06:56:01+0000)
+0xc0018b6e52d0 SymbolicLink           Sessions-&gt;  (-)
+0xc0018b625330 Token                  ArcName
+0xe00035e54de0 WindowStation          EFSInitEvent
+0xe00034866d80 Timer                  PowerPort
+0xe000354a4580 TmTm                   MicrosoftMalwareProtectionControlPortWD
+0xc0018c065050 File                   LsaPerformance
+0xc0018b6b54a0 Type                   Driver
+</code></pre>
+<p>This is very weird. The Type of many objects is completely wrong! e.g.
+"Sessions" and "ArcName" should be of type <code>Directory</code>, while
+"PowerPort" should be an <code>ALPC Port</code>.</p>
+<p>Lets take a closer look at valid objects. First we list all processes - which
+works because Rekall can just follow the linked list of active processes
+from<code>nt!PsActiveProcessHead</code>. We then try to manually construct
+an <code>_OBJECT_HEADER</code> before one of the reported <code>_EPROCESS</code> structs:</p>
+<pre><code class="language-text">[1] win10.aff4 00:45:18&gt; pslist
+  _EPROCESS            Name          PID   PPID   Thds    Hnds    Sess  Wow64           Start                     Exit
+-------------- -------------------- ----- ------ ------ -------- ------ ------ ------------------------ ------------------------
+0xe0003486d680 System                   4      0     82        -      - False  2015-06-03 06:56:02+0000 -
+0xe00035e54040 smss.exe               260      4      2        -      - False  2015-06-03 06:56:02+0000 -
+0xe00035b84080 csrss.exe              332    324      9        -      0 False  2015-06-03 06:56:03+0000 -
+0xe0003489b280 wininit.exe            400    324      1        -      0 False  2015-06-03 06:56:03+0000 -
+0xe000348b5080 csrss.exe              408    392      9        -      1 False  2015-06-03 06:56:03+0000 -
+0xe0003697c080 winpmem_2.0.1.         468   3716      3        -      1 True   2015-06-03 06:57:45+0000 -
+0xe000360c8080 winlogon.exe           472    392      6        -      1 False  2015-06-03 06:56:03+0000 -
+0xe000360da080 services.exe           496    400     14        -      0 False  2015-06-03 06:56:03+0000 -
+....
+[1] win10.aff4 00:48:48&gt; a = session.profile._OBJECT_HEADER(0xe0003697c080 - session.profile.get_obj_size(&quot;_OBJECT_HEADER&quot;))
+[1] win10.aff4 00:50:12&gt; print a
+[_OBJECT_HEADER _OBJECT_HEADER] @ 0xE0003697C050
+  0x00 PointerCount          [long long:PointerCount]: 0x00037FF0
+  0x08 HandleCount           [long long:HandleCount]: 0x00000006
+  0x08 NextToFree
+  0x10 Lock                 [_EX_PUSH_LOCK Lock] @ 0xE0003697C060
+  0x18 TypeIndex             [unsigned char:TypeIndex]: 0x00000092
+  0x19 DbgRefTrace           [BitField(0-1):DbgRefTrace]: 0x00000000
+  0x19 DbgTracePermanent     [BitField(1-2):DbgTracePermanent]: 0x00000000
+  0x19 TraceFlags            [unsigned char:TraceFlags]: 0x00000000
+  0x1A InfoMask              [Flags:InfoMask]: 0x00000088 (QuotaInfo)
+  0x1B DefaultSecurityQuota  [BitField(5-6):DefaultSecurityQuota]: 0x00000000
+  0x1B DeletedInline         [BitField(7-8):DeletedInline]: 0x00000000
+  0x1B ExclusiveObject       [BitField(3-4):ExclusiveObject]: 0x00000000
+  0x1B Flags                 [unsigned char:Flags]: 0x00000000
+  0x1B KernelObject          [BitField(1-2):KernelObject]: 0x00000000
+  0x1B KernelOnlyAccess      [BitField(2-3):KernelOnlyAccess]: 0x00000000
+  0x1B NewObject             [BitField(0-1):NewObject]: 0x00000000
+  0x1B PermanentObject       [BitField(4-5):PermanentObject]: 0x00000000
+  0x1B SingleHandleEntry     [BitField(6-7):SingleHandleEntry]: 0x00000000
+  0x1C Spare                 [unsigned long:Spare]: 0x00000000
+  0x20 ObjectCreateInfo     &lt;_OBJECT_CREATE_INFORMATION Pointer to [0xE00035BAA480] (ObjectCreateInfo)&gt;
+  0x20 QuotaBlockCharged
+  0x28 SecurityDescriptor
+  0x30 Body                 [_QUAD Body] @ 0xE0003697C080
+</code></pre>
+<p>We can see that at offset 0x18, the <code>TypeIndex</code> field has a value of
+0x92 which is completely wrong! Since Windows 7,
+the<code>_OBJECT_HEADER.TypeIndex</code> is supposed to refer to the index of the
+relevant <code>_OBJECT_TYPE</code> struct in the global array
+at<code>nt!ObTypeIndexTable</code>. But we know there are only 48 different types
+so clearly 0x92 is nonsense.</p>
+<p>To work out what is happening, I reasoned that the functions in the
+object manager which allocate and free these objects will need to be
+able to go back to the object's <code>_OBJECT_TYPE</code> record, if only to
+increment/decrement the use count statistic we saw before. One of the
+functions seem promising:</p>
+<pre><code class="language-text">[1] win10.aff4 00:50:15&gt; dis &quot;nt!ObpRemoveObjectRoutine&quot;
+Address      Rel             Op Codes                Instruction           Comment
+------- -------------- -------------------- ------------------------------ -------
+------ nt!ObpRemoveObjectRoutine ------: 0xf801a628e7e0
+  0xf801a628e7e0            0x0 48895c2410           MOV [RSP+0x10], RBX
+  0xf801a628e7e5            0x5 48896c2418           MOV [RSP+0x18], RBP
+  0xf801a628e7ea            0xa 4889742420           MOV [RSP+0x20], RSI
+  0xf801a628e7ef            0xf 57                   PUSH RDI
+  0xf801a628e7f0           0x10 4883ec50             SUB RSP, 0x50
+  0xf801a628e7f4           0x14 488bd9               MOV RBX, RCX                   // RCX is object header.
+  0xf801a628e7f7           0x17 488d3de270fbff       LEA RDI, [RIP-0x48f1e]         0x0 nt!ObTypeIndexTable
+  0xf801a628e7fe           0x1e 488bc1               MOV RAX, RCX
+  0xf801a628e801           0x21 0fb6f2               MOVZX ESI, DL
+  0xf801a628e804           0x24 48c1e808             SHR RAX, 0x8                   // Shift address by 8
+  0xf801a628e808           0x28 0fb6c8               MOVZX ECX, AL
+  0xf801a628e80b           0x2b 0fb64318             MOVZX EAX, BYTE [RBX+0x18]     // _OBJECT_HEADER.TypeIndex
+  0xf801a628e80f           0x2f 4833c8               XOR RCX, RAX                   // XOR with object type
+  0xf801a628e812           0x32 0fb605136cfbff       MOVZX EAX, BYTE [RIP-0x493ed]  0x1dd4015af55 nt!ObHeaderCookie
+  0xf801a628e819           0x39 4833c8               XOR RCX, RAX                   // XOR with cookie
+  0xf801a628e81c           0x3c 488b3ccf             MOV RDI, [RDI+RCX*8]           // Dereference table.
+</code></pre>
+<p>This function accepts the address of the <code>_OBJECT_HEADER</code> in RCX it
+immediately shifts it right by 8 bits, and XORs it
+with <code>TypeIndex</code> field (at 0x18 from the start of the header). It then
+fetches a cookie from the symbol <code>nt!ObHeaderCookie</code> and XORs that as
+well.</p>
+<p>Let us use this example and work this by hand. First dump the cookie
+then calculate:</p>
+<pre><code class="language-text">[1] win10.aff4 01:15:59&gt; dump 'nt!ObHeaderCookie', length=1
+    Offset                                   Data                                                Comment
+-------------- ----------------------------------------------------------------- ----------------------------------------
+0xf801a624542c 55 af 15 40 dd 01 00 00 de 01 00 00 00 00 00 00  U..@............ nt!ObHeaderCookie
+[1] win10.aff4 01:16:10&gt; ((0xE0003697C050 &gt;&gt; 8) &amp; 0xFF) ^ 0x55 ^ 0x92
+                  Out&lt; 8&gt; 7
+</code></pre>
+<p>This is exactly the correct type for a Process (see the output
+of <code>object_types</code>). So the <code>_OBJECT_HEADER.TypeIndex</code> field is
+obfuscated. We can de-obfuscate the field automatically by adding an
+object <code>@property</code>:</p>
+<pre><code class="language-text">`class _OBJECT_HEADER(common._OBJECT_HEADER):
+    @property
+    def TypeIndex(self):
+        cookie = self.obj_profile.get_constant_object(&quot;ObHeaderCookie&quot;, target=&quot;byte&quot;).v()
+
+        # Windows 7 has no cookie.
+        if cookie == None:
+            return self.m(&quot;TypeIndex&quot;)
+
+        # Windows 10 xors the virtual address into this field so we need to use
+        # the virtual address to decode it.
+        vaddr = self.obj_offset
+
+        return ((vaddr &gt;&gt; 8) ^ cookie ^ int(self.m(&quot;TypeIndex&quot;))) &amp; 0xFF`
+</code></pre>
+<p>We simply retrieve the cookie using the profile (Rekall profiles have
+full symbol information) and then retrieve the
+original <code>TypeIndex</code> fields with the <strong>m()</strong> method. This automatically
+de-obfuscates the field whenever it is accessed. Now
+both <code>object_tree</code> and <code>handles</code> work correctly.</p>
+<p>We are not out of the woods yet! Alas, none of the pool scanning plugins
+like <code>psscan</code> work at all!</p>
+<h2 id="pool-scanning">Pool Scanning</h2>
+<p>One of the more popular techniques in memory analysis is pool scanning.
+This is essentially carving out common signatures of typical kernel pool
+allocations in the hope of finding hidden kernel objects (such as hidden
+processes or file objects).</p>
+<p>Each kernel pool allocation starts with the <code>_POOL_HEADER</code> struct, and
+these typically have a unique pool tag - a four byte sequence which
+identify the purpose of the allocation. The idea is to locate pool tags
+for the objects of interest and then recover the actual objects from the
+allocation. So for example to scan for processes:</p>
+<ol>
+<li>Scan the physical address space for the pool tag (since Windows 8 this is <code>Proc</code>).</li>
+<li>Verify other fields from the _POOL_HEADER (e.g. pool type and required allocation size).</li>
+<li>Now we need to search forward from the _POOL_HEADER to find the
+   _OBJECT_HEADER. Due to the variable number of optional headers, Rekall
+   simply attempts to instantiate an <code>_OBJECT_HEADER</code> at ever increasing
+   offsets and see if the struct "fits" (i.e. it is of the correct type and
+   has the right number of optional headers).</li>
+</ol>
+<p>There are some common limitations of pool scanning techniques. Pool tags
+are only used for debugging so attackers can easily manipulate them.
+Further, scanning the physical address space is much faster but provides
+no context - it is possible for attackers to "fake" kernel objects by
+simply having a pattern in data under their control which happens to
+look a bit like a process. Despite these shortcomings, scanning is still
+used frequently.</p>
+<p>The astute reader might have noticed the problem already!</p>
+<p>Since the pool scanner inspects the physical address space it is
+impossible to de-obfuscate the <code>TypeIndex</code> field since one must XOR the
+field with bits 8-16 of the <strong>virtual address</strong> of the <code>_OBJECT_HEADER</code>,
+but when finding it in the physical memory we have no idea where it is
+actually mapped in the kernel's address space.</p>
+<p>Here is an example to stress the point. Consider the same
+_OBJECT_HEADER we looked at before, only this time we check its
+physical address. First convert the virtual address to physical using
+the <code>vtop</code> plugin and then try to repeat the calculation with this
+physical address:</p>
+<pre><code class="language-text">[1] win10.aff4 01:24:37&gt; vtop 0xE0003697C050
+
+***************** 0xe0003697c050 *****************
+Virtual 0xe0003697c050 Page Directory 0x1aa000
+pml4e@ 0x1aae00 = 0x2f3863
+pdpte@ 0x2f3000 = 0x2f2863
+pde@ 0x2f2da0 = 0xd70e863
+pte@ 0xd70ebe0 = 0x8000000035f31963
+
+PTE Contains 0x8000000035f31963
+PTE Type: Valid
+[_MMPTE_HARDWARE Hard] @ 0x0D70EBE0
+  0x00 Accessed         [BitField(5-6):Accessed]: 0x00000001
+  0x00 CacheDisable     [BitField(4-5):CacheDisable]: 0x00000000
+  0x00 CopyOnWrite      [BitField(9-10):CopyOnWrite]: 0x00000000
+  0x00 Dirty            [BitField(6-7):Dirty]: 0x00000001
+  0x00 Dirty1           [BitField(1-2):Dirty1]: 0x00000001
+  0x00 Global           [BitField(8-9):Global]: 0x00000001
+  0x00 LargePage        [BitField(7-8):LargePage]: 0x00000000
+  0x00 NoExecute        [BitField(63-64):NoExecute]: 0x00000001
+  0x00 Owner            [BitField(2-3):Owner]: 0x00000000
+  0x00 PageFrameNumber  [BitField(12-48):PageFrameNumber]: 0x00035F31
+  0x00 SoftwareWsIndex  [BitField(52-63):SoftwareWsIndex]: 0x00000000
+  0x00 Unused           [BitField(10-11):Unused]: 0x00000000
+  0x00 Valid            [BitField(0-1):Valid]: 0x00000001
+  0x00 Write            [BitField(11-12):Write]: 0x00000001
+  0x00 WriteThrough     [BitField(3-4):WriteThrough]: 0x00000000
+  0x00 reserved1        [BitField(48-52):reserved1]: 0x00000000
+Physical Address 0x35f31050
+[1] win10.aff4 01:34:05&gt; ((0x35f31050 &gt;&gt; 8) &amp; 0xFF) ^ 0x55 ^ 0x92
+                 Out&lt; 13&gt; 215
+</code></pre>
+<p>We can not use the physical address of the <code>_OBJECT_HEADER</code> to
+de-obfuscate since bits 12-16 are random! The resulting object type is
+completely wrong.</p>
+<p>The solution involves ensuring that we find the virtual address for
+every physical address we scan through. Rekall implements two methods
+for finding where each physical page is mapped:</p>
+<ol>
+<li>The <code>ptov</code> plugin uses the PFN database to find the virtual address of
+   every physical frame. This is pretty fast.</li>
+<li>The <code>pas2vas</code> plugin takes the brute force approach of building a large
+   lookup table by iterating over all virtual addresses, and noting their
+   physical address. While building the initial lookup table takes some
+   time, looking it up is very fast.</li>
+</ol>
+<p>The solution we chose was to re-implement the <code>pas2vas</code> as a Rekall
+service. This allows the lookup map (which takes a few seconds to
+construct) to be globally cached and reused in general. Furthermore we
+can specify that the virtual address we seek is in the kernel address
+space:</p>
+<pre><code class="language-text">[1] win10.aff4 12:36:28&gt; resolver = session.GetParameter(&quot;physical_address_resolver&quot;)
+[1] win10.aff4 12:36:40&gt; resolver.PA2VA_for_DTB(0x35f31050, session.kernel_address_space.dtb)
+                 Out&lt;6 &gt; (246291520536656L, [_EPROCESS _EPROCESS] @ 0xE0003486D680 (pid=4))
+
+[1] win10.aff4 12:37:27&gt; pas2vas 0x35f31050
+   Physical       Virtual      Pid   Name
+-------------- -------------- ------ ----
+0x000035f31050 0xe0003697c050      0 Kernel
+0x000035f31050 0xe0003697c050      4 System
+</code></pre>
+<p>The lookup maps are cached in the <code>physical_address_resolver</code> object and
+then can be queried for a specific address space. In the example above
+we restrict the search to the kernel address space (which is also shared
+with the System process PID=4).</p>
+<p>If you just want to know which process owns any specific physical
+address, use the <code>pas2vas</code> plugin.</p>
+<p>Once the lookup maps are built, they can be very quickly used to resolve
+the virtual address and the <code>TypeIndex</code> field can be easily
+de-obfuscated. Lets see the process scan:</p>
+<pre><code class="language-text">[1] win10.aff4 12:39:05&gt; psscan
+- _EPROCESS (P)          Name          PID    Offset(V)     PPID       PDB       Stat       Time created             Time exited
+  -------------- -------------------- ----- -------------- ------ -------------- ---- ------------------------ ------------------------
+  0x000006fa4080 svchost.exe            804 0xe00036471080    496 0x00000713a000 EP   2015-06-03 06:56:05+0000
+  0x000007922680 SearchProtocol        3720 0xe000361b3680   2984 0x00001832a000 EP   2015-06-03 06:56:28+0000
+  0x00000874b680 ShellExperienc        2656 0xe00035fad680    572 0x000009aaa000 EP   2015-06-03 06:56:16+0000
+  0x000008a86680 WSHost.exe            2744 0xe0003604f680    572 0x000034ff1000 EP   2015-06-03 06:56:17+0000
+  0x000008bee080 svchost.exe            856 0xe000364ec080    496 0x000009022000 EP   2015-06-03 06:56:05+0000
+  0x000009027680 svchost.exe            880 0xe000364f5680    496 0x000008f38000 EP   2015-06-03 06:56:05+0000
+...
+</code></pre>
+<p>As we work more with Windows 10 we might find some more minor
+differences. We hope to have complete tested support for Windows 10 by
+the time it is officially released!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
