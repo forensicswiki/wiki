@@ -1,12 +1,13 @@
 site_name: "Forensics Wiki"
 
 nav:
-- Home: index.md
-- Concepts: concepts.md
-- Community: community.md
-- Contributions:
-  - contributions_mediawiki.md
-- Tags: tags.md
+- "Home": index.md
+- "Pillars of Forensics": pillars_of_forensics.md
+- "Concepts": concepts.md
+- "Community": community.md
+- "Contributions":
+  - "MediaWiki Contributions": contributions_mediawiki.md
+- "Tags": tags.md
 
 theme:
   name: material
