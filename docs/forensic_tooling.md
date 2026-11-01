@@ -105,6 +105,71 @@ community.
   parsing library, they share the same flaws. True evaluation demands using tools built completely
   independent to ensure validation is genuine rather than an echo chamber.
 
+## User-Creator Gap
+
+The "user-creator gap" describes the operational disconnect between the developers (creators) who
+write forensic software and the practitioners (users) who use it in the field.
+
+* Developers conceptualize in code, database structures, and optimization.
+* Practitioners conceptualize in chain of custody, legal admissibility, messy real-world data, and
+  tight investigative deadlines.
+
+> Note even if the creator is a practitioner some level of user-creator gap exists.
+
+When these two worlds fail to align, tools become over-engineered, difficult to navigate, or worse,
+they fail to surface critical evidence in a legally sound manner.
+
+To bridge this divide, the digital forensics community must look to user experience (UX), such as
+documenting **user journeys** and/or **use cases**.
+
+```text
+[Developer Mindset:] ◄─── (Gap: Misaligned Needs) ───► [Practitioner Mindset:]
+[Code & Parsing    ]                  ▲                [Laws & Case Logic    ]
+                                      │
+                        [Use Cases & User Journeys]
+```
+
+### Why User Journeys and/or Use Cases Matter
+
+Documenting how software is used in the context of digital forensics is a necessity.
+
+* **Aligning Software with Forensic Methodologies:** Every forensic investigation follows a
+  strict, standardized methodology, typically spanning collection, preservation, analysis, and
+  reporting. If a developer builds a tool without understanding this sequence, the tool might
+  inadvertently alter metadata during analysis, violating the core principle of data preservation.
+  User journeys map out these phase-by-step requirements, ensuring the software structurally
+  respects forensic integrity.
+* **Translating Technical Actions into Forensic Techniques:** A developer might build a brilliant
+  regular expression parser for carving deleted data. However, if the practitioner cannot easily
+  filter the results by specific timestamps or file headers, a core forensic technique, the feature
+  loses its investigative value. Use cases translate standard investigative procedures, e.g.,
+  "carving a corrupted SQLite database from an unallocated space", into concrete software
+  requirements.
+* **Reducing Operational Error:** In high-stakes legal environments, an intuitive user interface
+  (UI) reduces cognitive load. If a tool's interface is confusing, an investigator might
+  misinterpret a timestamp or miss an obfuscated artifact. Clearly defined user journeys force tool
+  creators to design intuitive, linear workflows that mirror actual examiner logic.
+
+### Mapping Tooling to the Investigative Lifecycle
+
+When developers build tools around documented user journeys, the software naturally aligns with
+standard digital forensic techniques:
+
+| Forensic Phase | Practitioner Technique / Need | How Tooling Aligns (Via Use Cases) |
+| --- | --- | --- |
+| **Preservation** | Maintaining strict write-blocking and bit-stream imaging. | Software flags and prevents accidental write operations on source media. |
+| **Analysis** | Correlating timelines across system logs, registry hives, and browser history. | UI provides a unified macro-timeline view rather than isolated artifact silos. |
+| **Reporting** | Presenting evidence that is understandable to non-technical juries and lawyers. | Export modules generate clean, verifiable executive summaries alongside raw hex data. |
+
+### Closing the Gap
+
+The future of reliable digital forensics relies on collaborative engineering. Tool creators must
+step out of the IDE and observe the high-pressure environment of a digital forensics lab.
+Conversely, practitioners must actively contribute to open-source requirements, bug tracking, and
+feedback loops. By anchoring tool development in **validated forensic methodologies and explicit
+user journeys**, the industry can ensure that the software used to fight crime is as precise and
+resilient as the investigators relying on it.
+
 ## See Also
 
 * [Tool Testing](tool_testing.md)
