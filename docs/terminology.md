@@ -2,7 +2,20 @@
 tags:
   - Concept
 ---
-Various terms widely used in connection to digital forensics.
+Various terms widely used in connection to computer forensics.
+
+* Acquisition and imaging
+* Analysis, Examination and Investigation
+* Analyst, Examiner and Investigator
+* Artifact
+* Attacker and Malicious actor
+* Binary, Executable, Object File and Source Code
+* Code points and characters
+* Computer forensics and digital forensics
+* Evidence, Fact, Findings and Traces
+* Forensically sound
+* Method and Technique
+* Remnant Data and Residual Data
 
 ## Acquisition and imaging
 
@@ -99,69 +112,6 @@ finish. The [investigator](investigator.md) article defines the role:
 > identifying, extracting and considering evidence from digital media, such as computer hard
 > drives.
 
-## Attacker and Malicious actor
-
-An **"attacker"** acts as the technical, data-level equivalent of an *analyst*, representing the
-specific entity orchestrating a discrete, highly tactical intrusion or exploit thread at the
-micro-level. Typically used in the context of a concrete attack.
-
-In contrast, a **"malicious actor"** is a broader, macro-level concept analogous to an
-*investigator*; it encompasses the entire identity, strategic alignment, and overall narrative
-footprint of the hostile entity behind the campaign, spanning multiple combined attacks, human
-motivations, and systemic risks.
-
-## Evidence, Fact, Findings and Traces
-
-These terms form a chain from residue to legal proof: *traces* are what activity leaves
-behind in digital media, a *finding* is the technical fact that *analysis* observes in
-them, a *fact* is a finding that the work has verified, and *evidence* is the material
-a court may admit.
-
-A **trace** is a mark or residue left behind by an action or a presence. The principle
-behind it is [Locard's exchange principle](locard's_exchange_principle.md); in the words
-of its [Wikipedia entry](https://en.wikipedia.org/wiki/Locard%27s_exchange_principle):
-
-> Every contact leaves a trace.
-
-In digital media, traces are what [residual data](residual_data.md) is: data
-"unintentionally left behind on computer media" - after deletion attempts, forgotten
-copies, or decommissioned media - and, at the limit, [remnant data](remnant_data.md):
-data still recoverable after new information has been written to it.
-[Anti-forensic techniques](anti_forensic_techniques.md) target such traces: they aim to
-"negatively affect the existence, amount and/or quality" of the evidence.
-
-A **finding** is a technical fact observed during the work - a log entry, a registry
-modification, an unallocated file fragment or a timeline correlation. It is what *analysis*
-produces, but it is not legal proof. Per [traits of evidence](traits_of_evidence.md):
-
-> A forensic **finding** is an empirical observation. It is a line in a firewall log, a
-> Windows Registry key modification, an unallocated file fragment, or a timeline correlation
-> discovered during an investigation. **It is a technical fact, but it is not inherently a
-> legal proof.**
-
-A **fact** is an established, verified state of affairs - a finding that the work has
-confirmed. [computer forensics](computer_forensics.md) makes accuracy a professional
-duty: "Present facts accurately", and "Not withhold any findings as such actions may
-distort or misrepresent the facts". Per [ipse Dixit](ipse_dixit.md): the record must ensure
-that "justice relies on verifiable facts rather than assumptions". In court, *evidence*
-is tendered so that the *facts* of the case can be established from it.
-
-**Evidence** (legal evidence) is a finding that has been made admissible: collected legally,
-authentic, unaltered, reliable and complete, so that it can be tendered as an exhibit in a
-court of law. Per [digital evidence](digital_evidence.md):
-
-> Digital evidence is the collective term used to describe information or materials stored or
-> transmitted in digital form that is to be tendered as an exhibit in a context of law, such
-> as court.
-
-A finding and legal evidence do not coincide automatically - "those findings do not
-automatically qualify as evidence in a court of law" ([traits of
-evidence](traits_of_evidence.md)). The traits a finding must exhibit to cross that
-threshold - admissibility, authenticity, integrity, reliability and completeness - are
-listed there. Per [RFC 3227](https://www.ietf.org/rfc/rfc3227.txt), evidence collected
-correctly "stands a much greater chance of being admissible in the event of a
-prosecution".
-
 ### Examiner
 
 The *examiner* performs the forensic *examination* of the evidence: the technical stage
@@ -211,6 +161,17 @@ The definition of artifact within computer forensics could be:
 
 Where digital archaeological roughly refers to computer forensics without the forensic (legal)
 context.
+
+## Attacker and Malicious actor
+
+An **"attacker"** acts as the technical, data-level equivalent of an *analyst*, representing the
+specific entity orchestrating a discrete, highly tactical intrusion or exploit thread at the
+micro-level. Typically used in the context of a concrete attack.
+
+In contrast, a **"malicious actor"** is a broader, macro-level concept analogous to an
+*investigator*; it encompasses the entire identity, strategic alignment, and overall narrative
+footprint of the hostile entity behind the campaign, spanning multiple combined attacks, human
+motivations, and systemic risks.
 
 ## Binary, Executable, Object File and Source Code
 
@@ -262,7 +223,7 @@ Where these terms differ is their level of compilation, structural readiness, an
   character represents the interpreted, run-time (or "real-world") information reconstructed from
   those underlying data structures.
 
-## Digital forensics and computer forensics
+## Computer forensics and digital forensics
 
 Both names are used in the field and in this wiki for the same discipline. This wiki
 canonicalizes [computer forensics](computer_forensics.md);
@@ -273,6 +234,57 @@ canonicalizes [computer forensics](computer_forensics.md);
 materials, of a computing or telecommunication nature. In a strict sense, computer forensics
 applies specifically to the evaluation of computers and their data storage or data processing
 devices.
+
+## Evidence, Fact, Findings and Traces
+
+These terms form a chain from residue to legal proof: *traces* are what activity leaves
+behind in digital media, a *finding* is the technical fact that *analysis* observes in
+them, a *fact* is a finding that the work has verified, and *evidence* is the material
+a court may admit.
+
+A **trace** is a mark or residue left behind by an action or a presence. The principle
+behind it is [Locard's exchange principle](locard's_exchange_principle.md); in the words
+of its [Wikipedia entry](https://en.wikipedia.org/wiki/Locard%27s_exchange_principle):
+
+> Every contact leaves a trace.
+
+In digital media, traces are what [residual data](residual_data.md) is: data
+"unintentionally left behind on computer media" - after deletion attempts, forgotten
+copies, or decommissioned media - and, at the limit, [remnant data](remnant_data.md):
+data still recoverable after new information has been written to it.
+[Anti-forensic techniques](anti_forensic_techniques.md) target such traces: they aim to
+"negatively affect the existence, amount and/or quality" of the evidence.
+
+A **finding** is a technical fact observed during the work - a log entry, a registry
+modification, an unallocated file fragment or a timeline correlation. It is what *analysis*
+produces, but it is not legal proof. Per [traits of evidence](traits_of_evidence.md):
+
+> A forensic **finding** is an empirical observation. It is a line in a firewall log, a
+> Windows Registry key modification, an unallocated file fragment, or a timeline correlation
+> discovered during an investigation. **It is a technical fact, but it is not inherently a
+> legal proof.**
+
+A **fact** is an established, verified state of affairs - a finding that the work has
+confirmed. [computer forensics](computer_forensics.md) makes accuracy a professional
+duty: "Present facts accurately", and "Not withhold any findings as such actions may
+distort or misrepresent the facts". Per [ipse Dixit](ipse_dixit.md): the record must ensure
+that "justice relies on verifiable facts rather than assumptions". In court, *evidence*
+is tendered so that the *facts* of the case can be established from it.
+
+**Evidence** (legal evidence) is a finding that has been made admissible: collected legally,
+authentic, unaltered, reliable and complete, so that it can be tendered as an exhibit in a
+court of law. Per [digital evidence](digital_evidence.md):
+
+> Digital evidence is the collective term used to describe information or materials stored or
+> transmitted in digital form that is to be tendered as an exhibit in a context of law, such
+> as court.
+
+A finding and legal evidence do not coincide automatically - "those findings do not automatically
+qualify as evidence in a court of law" ([traits of evidence](traits_of_evidence.md)). The traits a
+finding must exhibit to cross that threshold - admissibility, authenticity, integrity, reliability
+and completeness - are listed there. Per [RFC 3227](https://www.ietf.org/rfc/rfc3227.txt), evidence
+collected correctly "stands a much greater chance of being admissible in the event of a
+prosecution".
 
 ## Forensically sound
 
@@ -319,6 +331,59 @@ data-level puzzle.
   scrutiny and prevent data contamination.
 * **technique** - the tactical action; the specific tool-driven or manual mechanism used to examine
   and decode abstract digital traces.
+
+## Remnant Data and Residual Data
+
+Both Remnant Data and Residual Data describe the artifacts and traces left behind on a storage
+medium or in volatile memory, after data has been deleted, modified, or supposedly cleared. They
+form a continuum of data persistence, ranging from orphaned logical file structures to physical
+magnetic, electrical, or thermal anomalies on the media and memory chips.
+
+### Remnant Data
+
+Remnant data represents the limit of data persistence at the physical or hardware level. It is data
+that remains recoverable on a storage medium or inside memory chips even after new information has
+been written to those same sectors, or after the media has undergone logical sanitization, such as
+formatting or power cycling.
+
+* **In Non-Volatile Storage:** Reconstructing remnant data typically requires specialized
+  laboratory techniques, such as magnetic force microscopy or low-level signal analysis, to detect
+  the subtle physical variations or electrical wear characteristics left by previous write cycles.
+* **In Volatile Memory (RAM):** It manifests as physical state retention caused by electrical or
+  thermal phenomena, such as "data remanence" after a computer is powered down. Techniques like a
+  **cold-boot attack** exploit this physical vulnerability by freezing RAM chips to slow down the
+  decay of electrons, allowing cryptographic keys or sensitive data to be physically read even after
+  a system reset.
+
+### Residual Data
+
+Residual data is data unintentionally left behind on computer media or within active system memory.
+It exists primarily at the logical, architectural, or file system level, remaining after deletion
+attempts, forgotten copies, or the decommissioning of media.
+
+* **In Non-Volatile Storage:** Residual data occurs because standard operating system deletion
+  routines typically remove only the metadata pointers (such as directory entries), leaving the
+  underlying data clusters intact in unallocated space or file slack until they are explicitly
+  overwritten by new data.
+* **In Volatile Memory (RAM):** It exists as active data blocks left intact in unallocated system
+  memory. When a program closes or terminates, the operating system reclaims its assigned RAM space
+  and flags it as free, but does not wipe the actual contents. This data remains logically accessible
+  as residual artifacts in memory dumps or pagefiles until another application overwrites those
+  specific memory addresses.
+
+### Overlap and differences
+
+Both terms refer to unauthorized or unintended data that survives past its planned lifecycle,
+serving as the foundational material for *traces*. Where they differ is their depth within the
+storage hierarchy, their mechanism of survival, and the complexity required to recover them:
+
+* **remnant data**: Data that persists at the physical level. It is the data still recoverable
+  *after* overwriting, physical degradation, or loss of power has occurred. It requires advanced
+  hardware-level analysis or physical manipulation (like freezing RAM chips) to extract.
+* **residual data**: Data left behind at the logical level. The file system pointers or memory
+  allocation maps are removed, but the underlying data blocks remain fully intact in unallocated
+  space or uninitialized RAM buffers. It is readily recoverable using standard software, file
+  carving tools, or volatile memory analysis frameworks.
 
 ## See Also
 
