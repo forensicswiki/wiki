@@ -292,6 +292,11 @@ tags:
 
 > Note that tags are formatted in [YAML](https://www.mkdocs.org/user-guide/writing-your-docs/#yaml-style-meta-data)
 
+Only tags registered in `scripts/allowed_tags.yml` may be used: an unregistered tag would create a
+stray tag page and split related articles over near-duplicates. This registry is enforced in CI by
+`check_tags.py` - run `tox -e check-tags` locally, or `python check_tags.py --list docs` to
+inspect how often each registered tag is used.
+
 ### Tag guidelines
 
 Tags should describe the content of the article and should be applied uniformly across all the
@@ -503,3 +508,13 @@ tags:
   - Windows
 ---
 ```
+
+### Registering a new tag
+
+Before using a tag that is not in the tables above (or in `scripts/allowed_tags.yml`), check that
+no registered tag already covers the same idea; near-duplicate tags split related articles. If a
+genuinely new tag is needed:
+
+1. add it to `scripts/allowed_tags.yml` (keep the list sorted),
+2. add a row describing it to the tag tables above, and
+3. run `python scripts/check_tags.py --check docs` to confirm the registry is complete.

@@ -1,0 +1,137 @@
+# Registered tags for Forensics Wiki article front matter.
+#
+# Articles may only use tags listed here. The tag tables in style_guide.md
+# carry the descriptions of the registered tags; this file is the
+# machine-readable registry, enforced in CI by scripts/check_tags.py.
+#
+# To register a new tag:
+#   1. add it below (keep the list sorted),
+#   2. add its description to the tag tables in style_guide.md, and
+#   3. check that no article uses a near-duplicate that should be merged,
+#      then run 'python scripts/check_tags.py --check docs'.
+#
+# Supported format: a single 'tags:' key holding a block list of plain
+# strings, plus blank lines and '#' comments.
+tags:
+  - AIX
+  - Active Directory
+  - Analysis
+  - Analysis Techniques
+  - Android
+  - Anti-Forensics
+  - Antivirus
+  - Applications
+  - Archive Format
+  - Articles that need to be expanded
+  - Artifact Analysis
+  - Audio Format
+  - Bibliographies
+  - Binary Analysis
+  - BlackberryOS
+  - Books
+  - ChromeOS
+  - Cloud Forensics
+  - Commercial Hardware
+  - Commercial Software
+  - Computer Bus
+  - Concept
+  - Conferences
+  - Cryptography
+  - Data Carving
+  - Data Recovery
+  - Database
+  - Database File Formats
+  - Debugging
+  - Desktop Environments
+  - Desktop Search
+  - Digital Forensics XML
+  - Disassembler
+  - Disassembly
+  - Discontinued
+  - Disk Analysis
+  - Disk Encryption
+  - Disk Image Format
+  - Disk Imaging
+  - Download Managers
+  - Email Analysis
+  - Encryption
+  - Executable File Format
+  - File Analysis
+  - File Formats
+  - File Systems
+  - Free Software
+  - FreeBSD
+  - GPL
+  - Gaming
+  - Hard Drives
+  - Hardware
+  - Hashing
+  - Howtos
+  - Incident Response
+  - Investigations
+  - Knowledge Base
+  - LGPL
+  - Legal
+  - Libyal
+  - Linux
+  - Live Analysis
+  - Live CD
+  - Live Forensics
+  - Log Analysis
+  - Mac OS
+  - Malware
+  - Memory
+  - Memory Analysis
+  - Memory Imaging
+  - Microprocessor
+  - Mobile
+  - Mobile Device Tools
+  - Mobile Forensics
+  - Mobile Operating Systems
+  - NetBSD
+  - Network Analysis
+  - Network Forensics
+  - No Category
+  - Null Byte Hashes
+  - Online File Storage
+  - Open Source Software
+  - OpenBSD
+  - Operating Systems
+  - Organization
+  - Papers
+  - People
+  - Personal Devices
+  - Photo
+  - Preservation
+  - Programming
+  - Public Domain Software
+  - Publications
+  - Quality Assurance
+  - Redirect
+  - Research
+  - Reversing
+  - SIM
+  - Secure Deletion
+  - Security Software
+  - Software
+  - Solaris
+  - System Analysis
+  - System Monitoring
+  - Text
+  - Threat Intelligence
+  - Timeline Analysis
+  - Tools
+  - Training
+  - Vendor
+  - Virtual Disk
+  - Virtualization
+  - Volume Systems
+  - Web Browsers
+  - Websites
+  - Windows
+  - Windows Mobile
+  - Windows Registry Analysis
+  - Wireless
+  - Write Blocker
+  - XML-based format
+  - iOS
