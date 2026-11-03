@@ -13,7 +13,7 @@ often blur the lines between the field's three core pillars (or layers):
 Understanding the distinction between these pillars is what separates a digital forensic specialist
 from someone who knows how to run a software program.
 
-### Concepts and Fundamentals: The "Why" and "What"
+## Concepts and Fundamentals: The "Why" and "What"
 
 **Concepts and fundamentals** represent the theoretical core and scientific laws of the discipline.
 They dictate *what* digital evidence is and *why* it behaves the way it does.
@@ -27,11 +27,15 @@ Without a firm grasp of fundamentals, an investigator cannot interpret what they
 instance, knowing that a file was deleted is a tool output; understanding how the underlying file
 system marks clusters as unallocated to allow data recovery is a concept.
 
-### Methodologies: The "How"
+## Methodologies and Techniques: The "How"
 
-If fundamentals provide the theory, **methodologies** provide the standardized, repeatable roadmap.
-Methodologies are the structured processes that ensure an investigation is legally admissible,
-scientifically sound, and thorough.
+If fundamentals provide the theory, **methodologies and techniques** provide the standardized,
+repeatable roadmap.
+
+* Methodologies are the structured processes that ensure an investigation is legally admissible,
+  scientifically sound, and thorough.
+* Techniques are the specific actions, and procedural steps used to extract, analyze, and document
+  the actual data.
 
 While distinct organizations use slightly different terminology, the core forensic methodology
 universally follows a rigid lifecycle:
@@ -47,7 +51,7 @@ universally follows a rigid lifecycle:
 Methodology keeps an investigator objective. It dictates *how* to approach a digital crime scene
 systematically, ensuring no steps are skipped and the evidence remains untainted.
 
-### Tools: The Intermediaries
+## Tools: The Intermediaries
 
 **Tools** are the tangible software applications and hardware devices used to execute the
 methodology. They automate complex tasks, parse massive datasets, and extract raw data into
@@ -56,7 +60,7 @@ human-readable formats.
 Hardware write-blockers are another crucial tool category, physically preventing a workstation from
 writing data to an evidence drive during acquisition.
 
-### The Interdependence
+## The Interdependence
 
 To illustrate how these three components interact, consider a standard investigation into a data
 breach:
@@ -67,7 +71,7 @@ breach:
 | **Methodology** | The operational framework dictating the order of operations. | Standard Operating Procedures (SOPs) requiring live memory capture *before* pulling a computer's plug. |
 | **Tool** | The instrument used to perform the technical action. | Deploying an open-source tool like to capture and analyze physical memory (RAM). |
 
-### The Danger of a Tool-Centric Approach
+## The Danger of a Tool-Centric Approach
 
 A common pitfall in modern cybersecurity is over-relying on tools. Software can fail, misinterpret
 artifacts, or generate false positives. If an investigator relies solely on clicking a button in a
@@ -79,7 +83,7 @@ easily be dismantled under cross-examination in court.
 Ultimately, tools are replaceable and change rapidly; however, the core methodologies and
 fundamental scientific concepts of digital forensics remain the enduring backbone of the industry.
 
-### The Danger of an Artifact-Centric Approach
+## The Danger of an Artifact-Centric Approach
 
 An artifact-centric approach occurs when an investigator focuses myopically on individual pieces of
 digital evidence-such as a specific Windows Registry key, browser history entry, or LNK file-in
@@ -95,3 +99,9 @@ broader behavioral context and understanding the fundamental system mechanics be
 artifact is generated, an investigator risks falling victim to confirmation bias, drawing flawed
 conclusions about user intent, and presenting findings that will fail to withstand rigorous
 cross-examination.
+
+## See Also
+
+* [Observation and Observer Errors](observation_errors.md)
+* [Researching Artifacts](researching_artifacts.md)
+* [Tool Testing](tool_testing.md)
