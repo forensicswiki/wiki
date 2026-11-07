@@ -73,6 +73,8 @@ This article contains various concepts central to digital forensics such as:
 ## Analysis Concepts
 
 * [Cell Site Analysis (CSA)](cell_site_analysis.md)
+* [Argumentation Frameworks](argumentation_frameworks.md)
+* [Toulmin Method](toulmin_method.md)
 
 ### Data Format Analysis
 
