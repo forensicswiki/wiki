@@ -94,7 +94,7 @@ Forensic Challenge datasets and results are available via the
 
 ## See Also
 
-* [CASE Ontology](case_onthology.md)
+* [CASE Ontology](case_ontology.md)
 * [SOLVE-IT](solveit.md)
 
 ## External Links
