@@ -20,22 +20,22 @@ reconstruction" of digital crimes.
 The Toulmin model deconstructs an argument into 6 core components. In a digital forensic context,
 these map directly to the journey from binary data to an expert opinion:
 
-1. **The Claim (\\(C\\)):** The ultimate conclusion or hypothesis the investigator seeks to
+1. **The Claim (C):** The ultimate conclusion or hypothesis the investigator seeks to
    establish as true or false, e.g., *"The suspect manually downloaded the contraband file at
    14:23"*.
-2. **The Ground/Data (\\(G\\)):** The factual, verifiable digital evidence collected during the
+2. **The Ground/Data (G):** The factual, verifiable digital evidence collected during the
    acquisition phase, e.g., *A specific entry in the Master File Table (MFT) showing a file
    creation timestamp and a corresponding browser history entry*.
-3. **The Warrant (\\(W\\)):** The logical bridge or inferential leap that explains why the Ground
+3. **The Warrant (W):** The logical bridge or inferential leap that explains why the Ground
    supports the Claim, e.g., *"When a file is manually downloaded via this browser, the application
    predictably logs a history event and updates the MFT file creation timestamp"*.
-4. **The Backing (\\(B\\)):** The authority or scientific validation that gives credibility to the
+4. **The Backing (B):** The authority or scientific validation that gives credibility to the
    Warrant, e.g., *Peer-reviewed file system specifications, software documentation, or empirical
    testing results published by forensic bodies*.
-5. **The Qualifier (\\(Q\\)):** Words or phrases indicating the degree of certainty regarding the
+5. **The Qualifier (Q):** Words or phrases indicating the degree of certainty regarding the
    claim, e.g., *"Presumably," "Highly likely," or "Conclusively"*, ensuring the investigator does
    not overstate their findings.
-6. **The Rebuttal (\\(R\\)):** The acknowledgment of counter-arguments or exceptional circumstances
+6. **The Rebuttal (R):** The acknowledgment of counter-arguments or exceptional circumstances
    where the warrant might fail, e.g., *"Unless automated malware or a remote access Trojan was
    manipulating the file system at that precise moment"*.
 
@@ -81,26 +81,26 @@ external USB drive prior to resigning.
 Applying the Toulmin framework forces the examiner to break down their technical findings into a
 logically sound narrative:
 
-* **The Claim (\\(C\\)):** The user manually exfiltrated the directory `\Project_X` to an
+* **The Claim (C):** The user manually exfiltrated the directory `\Project_X` to an
   unauthorized Kingston USB drive (Serial: `KS123456`) on 2026-10-15 at 14:15:00 UTC.
-* **The Ground/Data (\\(G\\)):**
+* **The Ground/Data (G):**
   * Windows Registry `USBSTOR` keys matching vendor id `Kingston` and serial `KS123456` with a
     first connect timestamp matching the incident window.
   * LNK shortcuts in the user's `Recent` folder pointing to target files residing on volume `E:\`
     (the letter assigned to the Kingston drive).
   * Shellbags entries parsing user interaction and folder traversal of `E:\Project_X` at 14:15:22
     UTC.
-* **The Warrant (\\(W\\)):** System Registry entries track unique hardware GUIDs. While LNK files
+* **The Warrant (W):** System Registry entries track unique hardware GUIDs. While LNK files
   and Shellbags frequently record user-driven GUI interactions (such as double-clicking to open a
   folder), identical artifact footprints can also be programmatically generated via scripts,
   automated file syncing utilities, or malicious code. The temporal convergence of these distinct
   artifacts establishes file system interaction on the removable storage media, though the exact
   method of generation requires careful isolation.
-* **The Backing (\\(B\\)):** Microsoft Developer Network (MSDN) documentation on shell artifact
+* **The Backing (B):** Microsoft Developer Network (MSDN) documentation on shell artifact
   persistence; peer-reviewed research from the *Journal of Digital Investigation* validating Windows
   Shellbag behavior during file transfers.
-* **The Qualifier (\\(Q\\)):** Highly probable.
-* **The Rebuttal (\\(R\\)):** Unless an automated synchronization script or backup utility was
+* **The Qualifier (Q):** Highly probable.
+* **The Rebuttal (R):** Unless an automated synchronization script or backup utility was
   configured to automatically mirror the `Recent` folder activity to any newly attached storage
   medium without user intervention.
 
