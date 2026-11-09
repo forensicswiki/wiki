@@ -41,4 +41,5 @@ ensuring faster and more reliable cyber-investigations.
 ## External Links
 
 * [Website](https://caseontology.org/)
+* [GitHub organization](https://github.com/casework)
 * [GitHub repositories](https://caseontology.org/resources/github_repos.html)
