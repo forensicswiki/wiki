@@ -79,7 +79,7 @@ The file information - version 17 is 68 bytes of size and consists of:
 | 0x0070 | 4 | DWORD | The number of entries in section D. |
 | 0x0074 | 4 | DWORD | Length of section D. |
 | 0x0078 | 8 | FILETIME | Latest execution time (or run time) of executable (FILETIME) |
-| 0x0080 | 16 | ? | Unknown ? Possibly structured as 4 DWORD. Observed values: /0x00000000 0x00000000 0x00000000 0x00000000/, /0x47868c00 0x00000000 0x47860c00 0x00000000/ (don't exclude the possibility here that this is remnant data) |
+| 0x0080 | 16 | ? | Unknown ? Possibly structured as 4 DWORD. Observed values: /0x00000000 0x00000000 0x00000000 0x00000000/, /0x47868c00 0x00000000 0x47860c00 0x00000000/ (don't exclude the possibility here that this is residual data) |
 | 0x0090 | 4 | DWORD | Execution counter (or run count) |
 | 0x0094 | 4 | DWORD? | Unknown ? Observed values: 1, 2, 3, 4, 5, 6 (XP) |
 
@@ -184,7 +184,7 @@ UTF-16 little-endian formatted strings with end-of-string characters
 (U+0000).
 
 At the end of the section there seems to be alignment padding that can
-contain remnant values.
+contain residual values.
 
 ## Section D - Volumes information (block)
 
@@ -269,7 +269,7 @@ A directory string is stored in the following structure:
 | | 0x0002 | | USTR | The directory name as a Unicode (UTF-16 little-endian string) terminated by an end-of-string character (U+0000) |
 
 In version 26 and 30 data trailing the directory strings section has
-been seen. It is currently assumed that this is unused remnant data.
+been seen. It is currently assumed that this is unused residual data.
 
 ## See Also
 

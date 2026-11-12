@@ -198,7 +198,7 @@ to redesign how profiles work:
   too, as explained in a future blog post), the ZIP file contains a number
   of different types of data. The Zip file contains the vtype description
   of all the structs using in the kernel, but also it contains the offsets
-  of global symbols (e.g the kernel system map). For analysing these we
+  of global symbols (e.g the kernel system map). For analyzing these we
   need both symbols and constants to represent the kernel version.
 
 In Rekall, the profile is a simple data structure (using strings, dict,

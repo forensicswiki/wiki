@@ -15,19 +15,22 @@ This article contains various concepts central to digital forensics such as:
 * Data Integrity: evidence must remain entirely unaltered throughout the investigation. To uphold
   this, investigators typically work on a copy instead of the original device.
 * Forensic Soundness: A standard or concept stating that tools and methods used during an
-  investigation must be scientifically validated, reliable, and independently verifiable.
+  investigation must be scientifically validated, reliable, and independently verifiable. The
+  phrase is also used in [Terminology](terminology.md#forensically-sound), where
+  *forensically sound* means a transparent forensic process that preserves the original meaning
+  of the data for production in a court of law.
 * [Ipse Dixit](ipse_dixit.md) or why "because the tool/vendor/expert/artificial intelligence said
   so" is not evidence.
 * Hearsay, see: [Wikipedia: Hearsay](https://en.wikipedia.org/wiki/Hearsay)
 * [Reproducibility](reproducibility.md)
 * [Traits of evidence](traits_of_evidence.md)
 
-## Investigation (or Analysis or Examination) Concepts
+## Case-level concepts
 
 * [Digital evidence](digital_evidence.md)
 * [(Digital) forensic tooling](forensic_tooling.md)
 * [Observation errors](observation_errors.md)
-* [Rhetoric of Proof](rethoric_of_proof.md)
+* [Rhetoric of Proof](rhetoric_of_proof.md)
 
 ## Storage &amp; Data Concepts
 
@@ -92,11 +95,11 @@ This article contains various concepts central to digital forensics such as:
 
 Digital forensics and intrusion analysis overlap significantly in their shared reliance on
 analyzing technical artifacts like system logs, memory captures, and network traffic to reconstruct
-a threat actor's timeline.
+a malicious actor's timeline.
 
 They differ sharply in their primary objectives and operational contexts. Intrusion analysis
 operates near "real-time", focusing on rapid threat detection, live containment, and determining
-how a system was actively compromised to eradicate the adversary. In contrast to digital forensics,
+how a system was actively compromised to counter the malicious actor. In contrast to digital forensics,
 which is typically a post-incident, deep-dive methodology that prioritizes strict chain-of-custody
 documentation and absolute data preservation to ensure findings are legally defensible.
 

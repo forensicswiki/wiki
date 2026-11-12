@@ -13,7 +13,7 @@ The software's goal is to allow for the deletion or modification of
 Take for example the "Timestomp MACE Values" screenshot displaying a
 command prompt window displaying the MACE values for a document file
 titled "text.txt". There are (4) four date time and date stamps
-displayed that are useful to Forensic Examiners in reconstructing when
+displayed that are useful to Forensic Analysts in reconstructing when
 data was last modified, accessed, created, or entered into the
 [NTFS](new_technology_file_system_(ntfs).md) Master File Table by the operating system or
 manually by the user.
@@ -25,7 +25,7 @@ application, the modified date and timestamp can be completely
 changed (i.e., evidenced by the "Timestomp MACE Change" screenshot). If
 I were to change it, along with the other entries to more believable
 dates and times, then the validity of the document falls into question
-as does its ability to completely slip by an examiner's watchful eye if
+as does its ability to completely slip by an analyst's watchful eye if
 looking for modified files in an entirely different year or date span.
 
 <!-- pyml disable-next-line line-length -->
@@ -38,7 +38,7 @@ the aforementioned change exactly.
 Note: Although this program is designed to frustrate forensic analysis,
 it should be noted that its use can be easily detected. Because the
 program can delete all timestamp information, the lack of timestamp
-values would lead an examiner to the conclusion that something is amiss
+values would lead an analyst to the conclusion that something is amiss
 on the system. Microsoft-based [Windows](windows.md) operating
 system record at least some timestamp information. The total absence of
 such is a dead giveaway that a user has tried to hide something. On the

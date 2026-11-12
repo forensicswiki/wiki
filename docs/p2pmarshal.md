@@ -6,7 +6,7 @@ tags:
   - Tools
   - Windows
 ---
-P2P Marshal is a program that helps an investigator discover and analyze
+P2P Marshal is a program that helps an analyst discover and analyze
 file sharing software on a disk.
 
 The Forensic Edition of P2P Marshal operates on a logically mounted
@@ -24,7 +24,7 @@ numbers, total runtime, and other parameters tracked by the client. P2P
 Marshal displays the information either on a per-user basis or for all
 users. It also provides an extensive search capability, produces
 customizable summary reports in PDF, HTML, and RTF formats, and
-maintains an audit log of all actions performed by the investigator.
+maintains an audit log of all actions performed by the analyst.
 
 The Forensic Edition must be installed on a computer; the Field Edition
 runs from a USB drive.

@@ -8,11 +8,11 @@ range of high penetration forensic tools.
 
 The wide variety of useful Linux utilities exist for desktop computers
 can also be used on Linux-based PDAs. These utilities can often be used
-as a part of the forensics investigation process.
+as a part of the forensic investigation process.
 
 Software for Linux systems are not only targets at personal computers,
 desktops, laptops etc, but also server based tools exist for both
-accessing, monitoring and analysing servers.
+accessing, monitoring and analyzing servers.
 
 ## Specialist Software
 

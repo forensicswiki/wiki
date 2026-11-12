@@ -78,7 +78,7 @@ It is possible to detect network-enabled hidden operating systems by
 matching downloaded content (from a network dump) with data on a
 possible decoy system.
 
-An investigator can also detect boot times by searching network dumps for
+An analyst can also detect boot times by searching network dumps for
 IP packets with low IDs (only if [Windows](windows.md) system is
 permanently connected to a LAN) and [TCP timestamps](tcp_timestamps.md).
 

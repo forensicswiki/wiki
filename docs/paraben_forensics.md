@@ -138,7 +138,7 @@ Email Examiner is a commercial product for reading email archives from:
 ### SIMCon
 
 SIMCon is software that securely images all files on a [SIM Card](sim_cards.md) with a standard
-PC-SC smart card reader, either serial or [USB](usb.md). After imaging, the forensic investigator
+PC-SC smart card reader, either serial or [USB](usb.md). After imaging, the forensic analyst
 can then analyze the contents of the card. Specific information regarding stored numbers, call
 history, and text messages are available.
 

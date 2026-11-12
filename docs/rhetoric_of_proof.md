@@ -14,7 +14,7 @@ argument-rooted in data-is what separates a simple tool-operator from a true for
 ## The Investigator Mindset
 
 The investigator mindset is anchored in **objectivity, skepticism, and meticulous curiosity**. A
-digital forensic examiner must approach every case without a preconceived conclusion. Instead of
+digital forensic investigator must approach every case without a preconceived conclusion. Instead of
 searching for evidence to prove a specific theory, the investigator lets the evidence guide the
 theory.
 

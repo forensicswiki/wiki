@@ -14,7 +14,7 @@ extra capabilities.
 Mozilla Firefox can be used in anonymous browsing (see [The Onion
 Router](the_onion_router.md). However, it is known that Firefox
 reveals computer's uptime in TLS (SSL) "Client Hello" packets allowing
-investigator correlate anonymous and non-anonymous traffic
+an analyst to correlate anonymous and non-anonymous traffic
 [1](https://archives.seul.org/or/talk/Apr-2008/msg00050.html).
 
 This bug affects Firefox 2 (all versions) and Firefox 3 Beta3.

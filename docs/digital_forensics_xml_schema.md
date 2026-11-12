@@ -10,7 +10,7 @@ comprehensively document structural evidence about individual files across a sys
 just tracking file contents, this schema captures deeply granular filesystem artifacts, including
 structural flags, unique identification metrics, physical sector locations, cryptographic hashes,
 and timeline timestamps. Understanding how these system attributes intertwine allows digital
-investigators to meticulously reconstruct user activity and map out timeline lifecycles of both
+analysts to meticulously reconstruct user activity and map out timeline lifecycles of both
 active and deleted evidence.
 
 ## Schemas
@@ -70,7 +70,7 @@ The `<alloc>` tag defines active, *current* logical system ownership, whereas `<
 physical history marker confirming that data was actually written inside that metadata slot at some
 point.
 
-Mapping these terms together provides investigators with a matrix to separate untouched space from
+Mapping these terms together provides analysts with a matrix to separate untouched space from
 active and deleted files:
 
 | State | used | alloc | Meaning |

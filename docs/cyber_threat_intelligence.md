@@ -23,11 +23,10 @@ TTP, in the context of cyber threat intelligence, is short for Tactics,
 Techniques and Procedures also sometimes referred to as Tools,
 Techniques, Procedures.
 
-TTPs are representations of the behavior or modus operandi of cyber
-adversaries. It is a term taken from the traditional military sphere and
-is used to characterize what an adversary does and how they do it in
-increasing levels of
-detail. [3](https://stixproject.github.io/about/STIX_Whitepaper_v1.1.pdf)
+TTPs are representations of the behavior or modus operandi of a
+malicious actor. It is a term taken from the traditional military sphere
+and is used to characterize what a malicious actor does and how they do
+it in increasing levels of detail. [3](https://stixproject.github.io/about/STIX_Whitepaper_v1.1.pdf)
 
 Note that the abbreviation TTP is highly ambiguous, e.g. in another
 context it can mean Trusted Third Party.

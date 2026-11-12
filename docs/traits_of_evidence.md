@@ -48,7 +48,7 @@ The transition from a finding to legal evidence fails if any of the core traits 
    to prove culpability.
 
 Ultimately, digital forensics is as much a legal discipline as it is a technical one. Analysts do
-not just solve technical riddles; they build [legally resilient narratives](rethoric_of_proof.md).
+not just solve technical riddles; they build [legally resilient narratives](rhetoric_of_proof.md).
 Understanding that findings are merely raw material, and that strict adherence to evidentiary traits
 is what transforms them into legal evidence, is what separates an intrusion assessment from a
 rigorous forensic investigation.

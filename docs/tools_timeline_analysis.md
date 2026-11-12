@@ -33,7 +33,7 @@ The [body file](body_file.md) output of `fls` can be used as the input of the
 
 * [fiwalk](fiwalk.md)
 
-fiwalk is a batch forensics analysis program built on [The Sleuth Kit](the_sleuth_kit.md).
+fiwalk is a batch forensic analysis program built on [The Sleuth Kit](the_sleuth_kit.md).
 It walks a disk image and outputs a [Digital Forensics XML](digital_forensics_xml_schema.md)
 record of every file with its MAC times; the companion `idifference.py`
 ([forensic disk differencing](forensic_disk_differencing.md)) compares two images of

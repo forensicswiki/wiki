@@ -4,12 +4,12 @@ tags:
 ---
 **Email Headers** are lines of [metadata](metadata.md) attached to each
 email that contain lots of useful information for a forensic
-investigator. However, email headers can be easily forged, so they should never
+analyst. However, email headers can be easily forged, so they should never
 be used as the only source of information.
 
 ## Making Sense of Headers
 
-There is no single way to make sense of email headers. Some examiners
+There is no single way to make sense of email headers. Some analysts
 favor reading from the bottom up, some favor reading from the top down.
 Because information in the headers can be put there by the user's
 Mail User Agent (MUA), a server in transit, or the
@@ -27,7 +27,7 @@ Every MUA sets up the headers for a
 message slightly differently. Although some headers are required under
 the applicable [RFC](http://www.faqs.org/rfcs/rfc2822.html), their
 format and ordering can vary by client. Almost all clients, however, add
-their headers in a fixed format and order. The examiner can use the
+their headers in a fixed format and order. The analyst can use the
 format and order for each client to show that messages were forged, but
 not that they were legitimate. For example, if a message purports to be
 from [Apple Mail](apple_mail.md) but the order or the headers do
@@ -60,7 +60,7 @@ pages for those programs](list_of_mua_header_formats.md).
 
 Some email programs allow users to sign messages. This gives the recipient some
 assurance that the sender given in the message really sent the message.
-Obviously these headers can be used by an examiner for the same purpose.
+Obviously these headers can be used by an analyst for the same purpose.
 
 ## Sample Header
 

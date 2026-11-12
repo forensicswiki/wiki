@@ -62,7 +62,7 @@ accessed via their built in Webserver using the myTomTom program (a
 replacement for TomTomHome). They cannot currently by examined
 forensically.
 
-Another tool for forensically analysing TomToms is
+Another tool for forensically analyzing TomToms is
 [TomTology](https://www.forensicnavigation.com/). This will retrieve all
 journey details from both live and unallocated space. It will tell you
 which is the home, favourites and recent destinations and will also tell

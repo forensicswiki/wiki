@@ -13,7 +13,7 @@ jurisdictions, this means satisfying the **Daubert standard**, proving that the 
 science and methodology are reliable, verifiable, and generally accepted by the scientific
 community.
 
-Therefore, when evaluating a tool for Digital Forensics, examiners must look past marketing
+Therefore, when evaluating a tool for Digital Forensics, analysts must look past marketing
 promises and evaluate software against core scientific, procedural, and legal criteria. **A
 documented evaluation is part of what potentially makes a tool applicable for the purpose of
 digital forensics.**
@@ -79,7 +79,7 @@ anomalies like [unpaired surrogates](unpaired_surrogates.md) (isolated 16-bit co
 UTF-16) or file name edge case. Failing to account for these can result in an unquantifiable
 **error rate**, jeopardizing legal admissibility.
 
-* **Lossy vs. Lossless Handling:** Examiners must evaluate if a tool uses *lossy substitution*
+* **Lossy vs. Lossless Handling:** Analysts must evaluate if a tool uses *lossy substitution*
   (replacing anomalies with standard placeholders like "?" or omitting them), which alters the raw
   evidence bytes, risks losing evidence, and breaks reproducibility.
 * **Preservation Strategy:** Superior tools use *character escaping* (e.g., `\uD800`) or advanced
@@ -146,9 +146,9 @@ Documenting how software is used in the context of digital forensics is a necess
   "carving a corrupted SQLite database from an unallocated space", into concrete software
   requirements.
 * **Reducing Operational Error:** In high-stakes legal environments, an intuitive user interface
-  (UI) reduces cognitive load. If a tool's interface is confusing, an investigator might
+  (UI) reduces cognitive load. If a tool's interface is confusing, an analyst might
   misinterpret a timestamp or miss an obfuscated artifact. Clearly defined user journeys force tool
-  creators to design intuitive, linear workflows that mirror actual examiner logic.
+  creators to design intuitive, linear workflows that mirror actual analyst logic.
 
 ### Mapping Tooling to the Investigative Lifecycle
 

@@ -52,7 +52,7 @@ least 8 consecutive characters found within the source file. The "8" can be
 replaced with any other number you choose to specify.
 
 When using strings on a suspicious process memory dump obtained during a
-digital forensics investigation, the following strings can be found:
+digital forensic investigation, the following strings can be found:
 
 ```text
 ...

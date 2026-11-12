@@ -12,7 +12,7 @@ workflows.
 
 ### The Core Problem CASE Solves
 
-Digital forensics investigators routinely handle data from diverse tools. Each tool generates
+Digital forensics analysts routinely handle data from diverse tools. Each tool generates
 reports in proprietary formats. This fragmentation creates severe bottlenecks:
 
 * Data silos prevent tools from sharing information seamlessly.

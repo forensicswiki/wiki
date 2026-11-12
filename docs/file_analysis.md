@@ -28,7 +28,7 @@ features corroborate it.
 
 Determining the actual type of a file from its content - magic numbers,
 headers and footers, internal structure - rather than from the name or
-extension it carries, which its creator (or an adversary) supplied. This
+extension it carries, which its creator (or an attacker) supplied. This
 is the foundation for all further analysis of an unknown file, and must
 work even when the file system metadata is missing or unreliable.
 
