@@ -1,7 +1,6 @@
 ---
 tags:
   - Network Analysis
-  - GPL
   - Linux
   - Tools
 ---

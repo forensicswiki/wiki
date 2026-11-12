@@ -1,6 +1,5 @@
 ---
 tags:
-  - GPL
   - Linux
   - Live CD
   - Operating Systems

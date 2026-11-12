@@ -3,7 +3,6 @@ tags:
   - FreeBSD
   - NetBSD
   - OpenBSD
-  - LGPL
   - Linux
   - Mac OS
   - Tools

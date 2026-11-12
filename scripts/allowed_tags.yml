@@ -5,10 +5,11 @@
 # machine-readable registry, enforced in CI by scripts/check_tags.py.
 #
 # To register a new tag:
-#   1. add it below (keep the list sorted),
-#   2. add its description to the tag tables in style_guide.md, and
-#   3. check that no article uses a near-duplicate that should be merged,
-#      then run 'python scripts/check_tags.py --check docs'.
+#
+# 1. add it below (keep the list sorted),
+# 2. add its description to the tag tables in style_guide.md, and
+# 3. check that no article uses a near-duplicate that should be merged,
+#    then run 'python scripts/check_tags.py --check docs'.
 #
 # Supported format: a single 'tags:' key holding a block list of plain
 # strings, plus blank lines and '#' comments.
@@ -61,7 +62,6 @@ tags:
   - File Systems
   - Free Software
   - FreeBSD
-  - GPL
   - Gaming
   - Hard Drives
   - Hardware
@@ -70,7 +70,6 @@ tags:
   - Incident Response
   - Investigations
   - Knowledge Base
-  - LGPL
   - Legal
   - Libyal
   - Linux

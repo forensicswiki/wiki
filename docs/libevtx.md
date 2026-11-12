@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Log Analysis
-  - LGPL
   - Tools
 ---
 The **libevtx** package contains a library and applications to read

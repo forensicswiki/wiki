@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Disk Encryption
-  - LGPL
   - Tools
 ---
 The **libluksde** package contains a library and applications to read

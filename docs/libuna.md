@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Analysis
-  - LGPL
   - Tools
 ---
 The **libuna** package contains a library and application to read and
