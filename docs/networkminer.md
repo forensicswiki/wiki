@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) is a Network
 Forensic Analysis Tool (NFAT) for Windows.

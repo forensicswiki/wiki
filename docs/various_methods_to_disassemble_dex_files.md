@@ -2,8 +2,7 @@
 tags:
   - Howtos
   - Android
-  - Reversing
-  - Disassembly
+  - Reverse Engineering
 ---
 This how-to documents various methods and tools in disassembling DEX files for
 the Android OS. An example "Hello Android" APK file developed from the Android

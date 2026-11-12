@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
   - Tools
 ---
 Network forensics tooling for capturing, analyzing, and reconstructing

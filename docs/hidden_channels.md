@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **Hidden channels** (covert channels) are communication channels that
 transmit information without the authorization or knowledge of the

@@ -4,7 +4,7 @@ tags:
   - FreeBSD
   - Linux
   - NetBSD
-  - Network Forensics
+  - Network Analysis
   - OpenBSD
   - Tools
 ---

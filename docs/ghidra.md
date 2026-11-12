@@ -1,8 +1,7 @@
 ---
 tags:
-  - Disassembler
+  - Reverse Engineering
   - Open Source Software
-  - Reversing
   - Tools
 ---
 Ghidra is a software reverse engineering (SRE) framework created and

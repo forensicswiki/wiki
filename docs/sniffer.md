@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **Sniffer** (network sniffer) is a tool that can intercept, log and
 sometimes parse traffic passing over a network or part of a network.

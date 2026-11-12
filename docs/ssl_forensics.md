@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **SSL (TLS) forensics** is the process of capturing information
 exchanged through SSL (TLS) connections and trying to make sense of it

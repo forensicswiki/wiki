@@ -27,7 +27,6 @@ tags:
   - Artifact Analysis
   - Audio Format
   - Bibliographies
-  - Binary Analysis
   - BlackberryOS
   - Books
   - ChromeOS
@@ -46,8 +45,6 @@ tags:
   - Desktop Environments
   - Desktop Search
   - Digital Forensics XML
-  - Disassembler
-  - Disassembly
   - Discontinued
   - Disk Analysis
   - Disk Encryption
@@ -75,7 +72,6 @@ tags:
   - Linux
   - Live Analysis
   - Live CD
-  - Live Forensics
   - Log Analysis
   - Mac OS
   - Malware
@@ -89,7 +85,6 @@ tags:
   - Mobile Operating Systems
   - NetBSD
   - Network Analysis
-  - Network Forensics
   - No Category
   - Null Byte Hashes
   - Online File Storage
@@ -108,7 +103,7 @@ tags:
   - Quality Assurance
   - Redirect
   - Research
-  - Reversing
+  - Reverse Engineering
   - SIM
   - Secure Deletion
   - Security Software
@@ -132,5 +127,5 @@ tags:
   - Windows Registry Analysis
   - Wireless
   - Write Blocker
-  - XML-based format
+  - XML Format
   - iOS

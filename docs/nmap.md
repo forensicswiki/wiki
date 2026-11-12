@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **Nmap** (Network Mapper) is a network security scanner.
 

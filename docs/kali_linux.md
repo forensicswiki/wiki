@@ -1,12 +1,11 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
   - Tools
   - Linux
   - Live CD
   - Disk Analysis
 ---
-
 Kali Linux is an open source project that is maintained and funded by Offensive
 Security, a provider of world-class information security training and
 penetration testing services. In addition to Kali Linux,

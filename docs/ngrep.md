@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **Ngrep** is a tool that provides GNU grep's features
 applying them to the network layer.
