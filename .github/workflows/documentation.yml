@@ -1,19 +1,18 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Publish docs to GitHub Pages
-
+# Build wiki with mkdocs and deploy.
+name: deploy
 on:
   push:
     branches:
-      - main
-
+    - main
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - run: pip install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
-      - run: mkdocs gh-deploy --force
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+    - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+      with:
+        python-version: 3.14
+    - run: pip install mkdocs-material mkdocs-redirects mkdocs-title-casing-plugin
+    - run: mkdocs gh-deploy --force
