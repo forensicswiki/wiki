@@ -1,7 +1,7 @@
 ---
 tags:
   - Commercial Software
-  - Network Forensics
+  - Network Analysis
   - Open Source Software
 ---
 **OSSEC HIDS** is an open source host-based intrusion detection system.

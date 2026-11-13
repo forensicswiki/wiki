@@ -1,7 +1,7 @@
 ---
 tags:
   - Anti-Forensics
-  - Network Forensics
+  - Network Analysis
 ---
 **Proxy server** is a server which services the requests of its clients
 by forwarding requests to other servers.

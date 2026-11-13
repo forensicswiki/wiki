@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **OS fingerprinting** is the process of determining the [operating
 system](operating_system.md) used by a host on a network.

@@ -1,7 +1,7 @@
 ---
 tags:
   - Debugging
-  - Binary Analysis
+  - Reverse Engineering
   - Commercial Software
   - Tools
 ---

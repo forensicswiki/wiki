@@ -2,7 +2,7 @@
 tags:
   - File Formats
   - Windows
-  - XML-based format
+  - XML Format
 ---
 The Windows XML Event Log (EVTX) format was introduced in [Windows Vista](windows.md)
 as a replacement for the [Windows Event Log (evt)](windows_event_log_(evt).md) format.

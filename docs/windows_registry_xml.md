@@ -1,7 +1,7 @@
 ---
 tags:
   - File Formats
-  - XML-based format
+  - XML Format
   - Windows
 ---
 Microsoft's .reg format for representing Windows Registry entries has many

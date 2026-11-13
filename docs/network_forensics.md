@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 Network forensics is the process of identifying, capturing, and preserving volatile data
 transmitted across a network to reconstruct events, establish timelines, and uncover actionable

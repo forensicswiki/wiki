@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Network Forensics
+  - Network Analysis
 ---
 **Intrusion detection** is the process of identifying attacks,
 malware, and policy violations by matching network traffic and host

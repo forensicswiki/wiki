@@ -1,7 +1,7 @@
 ---
 tags:
   - Anti-Forensics
-  - Network Forensics
+  - Network Analysis
 ---
 Tor (The Onion Router) is an implementation of second-generation
 onion routing.

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 **NAT detection** is the process of determining hosts running Network Address
 Translators.

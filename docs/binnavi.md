@@ -2,7 +2,7 @@
 tags:
   - Debugging
   - Tools
-  - Binary Analysis
+  - Reverse Engineering
   - Open Source Software
   - Articles that need to be expanded
 ---

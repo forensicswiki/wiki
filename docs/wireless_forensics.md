@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Network Forensics
+  - Network Analysis
 ---
 **Wireless forensics** is the process of capturing information that
 moves over a wireless network and trying to make sense of it in some

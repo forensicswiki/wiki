@@ -1,7 +1,7 @@
 ---
 tags:
   - Linux
-  - Network Forensics
+  - Network Analysis
   - Tools
   - Windows
 ---

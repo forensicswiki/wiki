@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Network Forensics
+  - Network Analysis
 ---
 **Session reconstruction** is the process of rebuilding complete user
 sessions from captured network traffic by recovering the

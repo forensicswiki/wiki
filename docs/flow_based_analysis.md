@@ -1,7 +1,7 @@
 ---
 tags:
   - Articles that need to be expanded
-  - Network Forensics
+  - Network Analysis
 ---
 **Flow-based analysis** is the process of analyzing network traffic
 as compact, structured metadata records ("flows") instead of full

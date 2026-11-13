@@ -1,6 +1,6 @@
 ---
 tags:
-  - Network Forensics
+  - Network Analysis
 ---
 tcpdump is a common packet [sniffer](sniffer.md)
 

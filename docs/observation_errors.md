@@ -29,10 +29,10 @@ maintaining scientific validity in digital investigations.
 
 When observer and observation errors go unchecked, they break down the structural wall between
 objective science and subjective speculation. In court environments governed by strict
-admissibility guidelines like the [Daubert standard](https://cornell.edu)) or local equivalent
-legislation, an investigative report that omits technical limitations or lacks data traceability
-will be quickly dismantled by the defense. A single misaligned timeline or an undocumented gap in
-the chain of custody can introduce reasonable doubt, rendering key findings entirely inadmissible.
+admissibility guidelines like the Daubert standard or local equivalent legislation, an
+investigative report that omits technical limitations or lacks data traceability will be quickly
+dismantled by the defense. A single misaligned timeline or an undocumented gap in the chain of
+custody can introduce reasonable doubt, rendering key findings entirely inadmissible.
 
 ### Measures to Mitigate Impact
 

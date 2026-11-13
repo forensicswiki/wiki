@@ -1,7 +1,7 @@
 ---
 tags:
   - Commercial Software
-  - Live Forensics
+  - Live Analysis
   - Tools
   - Windows
 ---

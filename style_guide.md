@@ -64,7 +64,7 @@ example:
 
 ```yaml
 tags:
-  - Network Forensics
+  - Network Analysis
 ```
 
 The tags list holds the topic tags. Articles that still need work also list "Articles that need to
@@ -320,7 +320,6 @@ See examples below the table.
 | Artifact Analysis | Forensic analysis of operating system and application artifacts. |
 | Audio Format | Audio file formats and audio data. |
 | Bibliographies | Bibliographies of the literature on a digital forensics topic. |
-| Binary Analysis | Analysis of binary code and compiled programs. |
 | BlackberryOS | Operating systems for BlackBerry devices. |
 | Books | Books on digital forensics and lists of books. |
 | ChromeOS | Chrome OS, the operating system from Google. |
@@ -338,7 +337,6 @@ See examples below the table.
 | Debugging | Debugging techniques and tools relevant to forensics. |
 | Desktop Environments | Desktop environments and their forensic artifacts. |
 | Desktop Search | Desktop search tools and their indices. |
-| Disassembly | Reading and interpreting disassembled code. |
 | Discontinued | Tools and software that have been abandoned, deprecated, or discontinued. |
 | Disk Analysis | Forensic analysis of disk storage media. |
 | Disk Encryption | Encryption of disks and volumes, e.g. BitLocker, FileVault, and LUKS. |
@@ -364,7 +362,6 @@ See examples below the table.
 | Linux | The Linux family of operating systems. |
 | Live Analysis | Analysis of a case performed on a running system. |
 | Live CD | Bootable live media used for forensic analysis. |
-| Live Forensics | Acquisition of evidence from a running system. |
 | Log Analysis | Forensic analysis of log files. |
 | Mac OS | Apple's Mac OS operating system. |
 | Malware | Malware and its forensic analysis. |
@@ -378,7 +375,6 @@ See examples below the table.
 | Mobile Operating Systems | Operating systems for mobile devices. |
 | NetBSD | The NetBSD operating system. |
 | Network Analysis | Forensic analysis of network traffic and protocols. |
-| Network Forensics | Detection, capture, and analysis of network activity. |
 | No Category | Process tag marking articles that have not been categorized. |
 | Null Byte Hashes | Recorded MD5 and SHA-1 hashes of sequences of null bytes. |
 | Online File Storage | Cloud file storage services and their forensic aspects. |
@@ -397,7 +393,7 @@ See examples below the table.
 | Quality Assurance | Ensuring the accuracy and quality of forensic work. |
 | Redirect | Redirect pages that point to the canonical article. |
 | Research | Academic research and research projects in digital forensics. |
-| Reversing | Reverse engineering of programs and protocols. |
+| Reverse Engineering | Reverse engineering of programs and protocols. |
 | SIM | SIM cards and cellular subscriber data. |
 | Secure Deletion | Sanitizing media so that stored data cannot be recovered. |
 | Security Software | Security software, including antivirus and host protection. |
@@ -421,7 +417,7 @@ See examples below the table.
 | Windows Registry Analysis | Forensic analysis of the Windows Registry. |
 | Wireless | Wireless communication and wireless forensics. |
 | Write Blocker | Hardware and software write blockers. |
-| XML-based format | XML-based file formats and specifications. |
+| XML Format | XML-based file formats and specifications. |
 | iOS | Apple's iOS operating system for iPhone and iPad. |
 
 Special purpose tags, including some inherited from MediaWiki times.
@@ -430,7 +426,6 @@ Special purpose tags, including some inherited from MediaWiki times.
 | --- | --- |
 | Active Directory | Microsoft's directory service for users, computers, and permissions. |
 | Digital Forensics XML | The DFXL standard for exchanging forensic data. |
-| Disassembler | Tools that disassemble compiled programs. |
 | Download Managers | Download manager software and its forensic artifacts. |
 | Libyal | The libyal set of open-source parser libraries. |
 
