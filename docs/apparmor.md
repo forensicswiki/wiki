@@ -3,7 +3,6 @@ tags:
   - Articles that need to be expanded
   - Linux
   - Open Source Software
-  - Security Software
   - Tools
 ---
 AppArmor, found in Suse and [Ubuntu](ubuntu.md) Linux, is a system for letting

@@ -313,7 +313,6 @@ See examples below the table.
 | Analysis Techniques | General forensic analysis techniques - discrete, tactical actions used to extract, parse, or interpret data from specific digital artifacts. |
 | Android | The Android operating system for mobile devices and tablets. |
 | Anti-Forensics | Techniques and tools to hide, destroy, or defeat forensic analysis. |
-| Antivirus | Antivirus and anti-malware software. |
 | Applications | Applications and the forensic artifacts they produce. |
 | Archive Format | Archived and compressed file formats, e.g. ZIP, RAR, and tar. |
 | Articles that need to be expanded | Process tag marking articles that still need work. |
@@ -396,11 +395,9 @@ See examples below the table.
 | Reverse Engineering | Reverse engineering of programs and protocols. |
 | SIM | SIM cards and cellular subscriber data. |
 | Secure Deletion | Sanitizing media so that stored data cannot be recovered. |
-| Security Software | Security software, including antivirus and host protection. |
 | Software | Software in general, where no more specific software tag applies. |
 | Solaris | The Solaris operating system. |
 | System Analysis | Forensic analysis of whole operating systems. |
-| System Monitoring | Monitoring of running systems and their activity. |
 | Text | Text-based file formats and textual evidence. |
 | Threat Intelligence | Cyber threat intelligence and its forensic use. |
 | Timeline Analysis | Building and analyzing timelines from forensic artifacts. |
