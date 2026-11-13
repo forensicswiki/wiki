@@ -1,0 +1,789 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Toulmin method - Forensics Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-6-components-of-a-toulmin-argument" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Forensics Wiki" class="md-header__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Forensics Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Toulmin method
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pillars_of_forensics/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Pillars of Forensics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Concepts
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contributions_mediawiki/" class="md-tabs__link">
+          
+  
+  
+  Contributions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Forensics Wiki" class="md-nav__button md-logo" aria-label="Forensics Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Forensics Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pillars_of_forensics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pillars of Forensics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contributions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributions_mediawiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MediaWiki Contributions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-6-components-of-a-toulmin-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The 6 components of a Toulmin Argument
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-using-a-toulmin-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefits of using a Toulmin Argument
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-an-insider-threat-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example: An Insider Threat Case Study
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#external-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../tags/#tag:concept" class="md-tag">Concept</a>
+      
+    
+  </nav>
+
+
+
+  <h1>Toulmin method</h1>
+
+<p>In the rapidly evolving landscape of digital forensics, practitioners often struggle to bridge the
+gap between technical data extraction and the courtroom presentation of facts. Digital forensics
+related articles are often is dominated by a "push-button" (or tool-centric) approach, where tool
+outputs are treated as definitive, unchallengeable truths.</p>
+<p>To move away from ad-hoc analysis and subjective interpretations, researchers have increasingly
+advocated for <strong>Structured Argumentation (SA)</strong>. Chief among these approaches is the adaptation of
+the <strong>Toulmin Model of Argumentation</strong>, a framework originally introduced by philosopher Stephen
+Toulmin in 1958. In their seminal research, <em>"Towards Sound Forensic Arguments: Structured
+Argumentation Applied to Digital Forensics Practice,"</em> scholars Virginia N. L. Franqueira and
+Graeme Horsman proposed the Toulmin method as a practical mechanism for the "logical
+reconstruction" of digital crimes.</p>
+<h2 id="the-6-components-of-a-toulmin-argument">The 6 components of a Toulmin Argument</h2>
+<p>The Toulmin model deconstructs an argument into 6 core components. In a digital forensic context,
+these map directly to the journey from binary data to an expert opinion:</p>
+<ol>
+<li><strong>The Claim (C):</strong> The ultimate conclusion or hypothesis the investigator seeks to
+   establish as true or false, e.g., <em>"The suspect manually downloaded the contraband file at
+   14:23"</em>.</li>
+<li><strong>The Ground/Data (G):</strong> The factual, verifiable digital evidence collected during the
+   acquisition phase, e.g., <em>A specific entry in the Master File Table (MFT) showing a file
+   creation timestamp and a corresponding browser history entry</em>.</li>
+<li><strong>The Warrant (W):</strong> The logical bridge or inferential leap that explains why the Ground
+   supports the Claim, e.g., <em>"When a file is manually downloaded via this browser, the application
+   predictably logs a history event and updates the MFT file creation timestamp"</em>.</li>
+<li><strong>The Backing (B):</strong> The authority or scientific validation that gives credibility to the
+   Warrant, e.g., <em>Peer-reviewed file system specifications, software documentation, or empirical
+   testing results published by forensic bodies</em>.</li>
+<li><strong>The Qualifier (Q):</strong> Words or phrases indicating the degree of certainty regarding the
+   claim, e.g., <em>"Presumably," "Highly likely," or "Conclusively"</em>, ensuring the investigator does
+   not overstate their findings.</li>
+<li><strong>The Rebuttal (R):</strong> The acknowledgment of counter-arguments or exceptional circumstances
+   where the warrant might fail, e.g., <em>"Unless automated malware or a remote access Trojan was
+   manipulating the file system at that precise moment"</em>.</li>
+</ol>
+<pre><code class="language-text">[ Ground / Data ] -------------------------&gt; [ Qualifier ] ---&gt; [ Claim ]
+         |                                         ^
+         v                                         |
+    [ Warrant ]                              [ Rebuttal ]
+         |
+         v
+    [ Backing ]
+</code></pre>
+<h2 id="benefits-of-using-a-toulmin-argument">Benefits of using a Toulmin Argument</h2>
+<p>Implementing this framework solves 2 of the most pervasive issues in modern digital forensics:
+<strong>hidden assumptions</strong> and <strong>the lack of falsifiability</strong>.</p>
+<ul>
+<li><strong>Exposing the "Inferential Leap":</strong> Investigators often jump directly from Data to Claim without
+  formally stating their Warrant. By forcing practitioners to state <em>why</em> a piece of metadata means
+  a user took an action, the Toulmin model exposes flawed technical logic before it reaches a
+  courtroom.</li>
+<li><strong>Mitigating Cognitive Bias:</strong> Cognitive and confirmation biases present major risks in forensic
+  analysis. By mandating the inclusion of a <strong>Rebuttal</strong>, the Toulmin model embeds a defense-minded
+  verification process directly into the reporting phase, forcing the investigator to actively
+  consider alternative hypotheses.</li>
+<li><strong>Bridging the Communication Gap:</strong> Triaging vast amounts of data creates backlogs for
+  prosecutors and courts. Toulmin's structured format translates highly technical binary artifacts
+  into clear, accessible, and logically sequential summaries that judges and juries can easily
+  follow without sacrificing scientific rigor.</li>
+</ul>
+<p>As digital forensic science faces stricter standards for admissibility, relying solely on automated
+tool outputs is no longer sufficient. Applying Toulmin's structured argumentation ensures that the
+interpretation of digital evidence is as sound, defensible, and transparent as the forensic
+software used to acquire it.</p>
+<h2 id="example-an-insider-threat-case-study">Example: An Insider Threat Case Study</h2>
+<p>To see the model in action, consider a scenario involving suspected <strong>intellectual property (IP)
+theft</strong>. An engineer is accused of copying a proprietary source code repository to an unapproved
+external USB drive prior to resigning.</p>
+<p>Applying the Toulmin framework forces the examiner to break down their technical findings into a
+logically sound narrative:</p>
+<ul>
+<li><strong>The Claim (C):</strong> The user manually exfiltrated the directory <code>\Project_X</code> to an
+  unauthorized Kingston USB drive (Serial: <code>KS123456</code>) on 2026-10-15 at 14:15:00 UTC.</li>
+<li><strong>The Ground/Data (G):</strong></li>
+<li>Windows Registry <code>USBSTOR</code> keys matching vendor id <code>Kingston</code> and serial <code>KS123456</code> with a
+    first connect timestamp matching the incident window.</li>
+<li>LNK shortcuts in the user's <code>Recent</code> folder pointing to target files residing on volume <code>E:\</code>
+    (the letter assigned to the Kingston drive).</li>
+<li>Shellbags entries parsing user interaction and folder traversal of <code>E:\Project_X</code> at 14:15:22
+    UTC.</li>
+<li><strong>The Warrant (W):</strong> System Registry entries track unique hardware GUIDs. While LNK files
+  and Shellbags frequently record user-driven GUI interactions (such as double-clicking to open a
+  folder), identical artifact footprints can also be programmatically generated via scripts,
+  automated file syncing utilities, or malicious code. The temporal convergence of these distinct
+  artifacts establishes file system interaction on the removable storage media, though the exact
+  method of generation requires careful isolation.</li>
+<li><strong>The Backing (B):</strong> Microsoft Developer Network (MSDN) documentation on shell artifact
+  persistence; peer-reviewed research from the <em>Journal of Digital Investigation</em> validating Windows
+  Shellbag behavior during file transfers.</li>
+<li><strong>The Qualifier (Q):</strong> Highly probable.</li>
+<li><strong>The Rebuttal (R):</strong> Unless an automated synchronization script or backup utility was
+  configured to automatically mirror the <code>Recent</code> folder activity to any newly attached storage
+  medium without user intervention.</li>
+</ul>
+<h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S2666281720300184">Towards Sound Forensic Arguments: Structured Argumentation Applied to Digital Forensics Practice</a>,
+  by Virginia N.L. Franqueira and Graeme Horsman, 2020</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
