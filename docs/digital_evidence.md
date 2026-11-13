@@ -65,7 +65,7 @@ jury.
 ## See Also
 
 * [Chain of custody](chain_of_custody.md)
-* [Rethoric of proof](rethoric_of_proof.md)
+* [Rhetoric of proof](rhetoric_of_proof.md)
 * [Traits of evidence](traits_of_evidence.md)
 
 ## External Links

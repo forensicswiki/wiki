@@ -8,7 +8,7 @@ from digital media such as computer hard drives.
 [Digital evidence](digital_evidence.md) is both fragile and volatile and requires the attention of
 a certified specialist to ensure that materials of evidentiary value can be effectively isolated
 and extracted in a scientific manner that will bear the scrutiny of a court of law. Also see:
-[Rethoric of proof](rethoric_of_proof.md).
+[Rhetoric of proof](rhetoric_of_proof.md).
 
 Computer forensics is not to be confused with the more generic term of 'forensic computing', which
 refers to the analysis and study of all types of digital media and materials - whether they be of a
@@ -28,9 +28,9 @@ Most legal systems apply a form of a
 proof is the imperative on a party in a trial to produce the evidence that will shift the
 conclusion away from the default position to one's own position.
 
-## Forensics examinations
+## Forensic examinations
 
-The following aspects are key to all forensics examinations:
+The following aspects are key to all forensic examinations:
 
 1. Maintaining data integrity as well as data authenticity;
 2. Preventing contamination of data;
@@ -39,7 +39,7 @@ The following aspects are key to all forensics examinations:
 
 ## Forensic profession
 
-All professionals involved in a forensics examination have both an ethical and a professional
+All professionals involved in a forensic examination have both an ethical and a professional
 responsibility to:
 
 * Maintain their objectivity.
@@ -49,7 +49,7 @@ responsibility to:
 
 ## See Also
 
-* [Concepts](concept.md)
+* [Concepts](concepts.md)
 * [Digital evidence](digital_evidence.md)
 * [Pillars of (computer/digital) forensics](pillars_of_forensics.md)
 * [Terminology](terminology.md)

@@ -61,7 +61,7 @@ the unpaired surrogate with a standard Unicode Replacement Character (U+FFFD) or
 This satisfies the parser, but it **alters the data**. Replacing raw hex bytes with a generic
 placeholder breaks forensic reproducibility. If an analyst needs to extract exact cryptographic
 hashes or trace a hyper-specific anti-forensic pattern, sanitization effectively destroys the
-unique digital signature left by the threat actor.
+unique digital signature left by the malicious actor.
 
 ### Character Escaping vs. Search Syntax Fragmentation
 

@@ -76,7 +76,7 @@ Additional Features - Advanced Edition (Annual Licence)
 
 ILooKIX v9 has an intuitive interface, comprehensive processing and
 stability in the face of ever-growing volumes of data. It is full of
-features designed to aid the investigator, from the ability to use
+features designed to aid the analyst, from the ability to use
 'one-click' processing options to the comprehensive property sheets
 associated with each object. ILooKIX v9 runs perfectly on a Virtual
 Machine and each ILooKIX licence permits up to 3 instances on the same

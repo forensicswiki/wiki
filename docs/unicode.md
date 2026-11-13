@@ -23,7 +23,7 @@ different underlying byte sequences.
 
 For example, a malicious actor can replace a standard Latin "e" with a Cyrillic "е" or append a
 combining phonetic modifier, like a superscript letter or diacritic, to a character. To an
-investigator reviewing an export or a user viewing a file, the text looks normal. However, standard
+analyst reviewing an export or a user viewing a file, the text looks normal. However, standard
 forensic tool keyword indexes will completely miss these strings because their binary signatures do
 not match the target query.
 
@@ -86,7 +86,7 @@ emerge:
 * **Hash Inconsistency:** Because a file named `café.exe` on Windows (NFC) has a different byte
   sequence than `café.exe` on Mac OS (NFD), the binary hashes of the filenames, or logs containing
   them, will not match.
-* **Keyword Search Bypasses:** If an investigator searches a disk image for the keyword `password`,
+* **Keyword Search Bypasses:** If an analyst searches a disk image for the keyword `password`,
   but the malicious actor used an NFKD compatibility character or split the characters using NFD
   decompositions interleaved with invisible modifiers, standard text string searches will return
   zero results.
@@ -96,9 +96,9 @@ emerge:
 
 ### Conclusion
 
-For digital forensic examiners, assuming that text is static is a critical mistake. To counter
+For digital forensic analysts, assuming that text is static is a critical mistake. To counter
 Unicode-based obfuscation, modern forensic workflows must implement **normalization-aware string
-searching**. Examiners should ensure their tools normalize all extracted text to a unified form
+searching**. Analysts should ensure their tools normalize all extracted text to a unified form
 (typically NFC or NFKD) before running keyword lists, and closely inspect strings for unexpected
 phonetic modifiers or hidden byte arrays when analyzing high-value artifacts.
 

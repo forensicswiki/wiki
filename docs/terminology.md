@@ -58,7 +58,7 @@ artifacts to reconstruct timelines and discover malicious activity".
 
 Examination is also the most court-facing of the three terms:
 
-* [Computer forensics](computer_forensics.md) lists what is key to all forensics
+* [Computer forensics](computer_forensics.md) lists what is key to all forensic
   examinations: maintaining integrity and authenticity, preventing contamination, proper
   and comprehensive documentation, and a systematic, scientific methodology.
 * [Incident response](incident_response.md) wants scripts that "provide the examiner with
@@ -117,7 +117,7 @@ finish. The [investigator](investigator.md) article defines the role:
 The *examiner* performs the forensic *examination* of the evidence: the technical stage
 between acquisition and reporting where the "Examination &amp; Analysis" work happens.
 The duties listed in [computer forensics](computer_forensics.md) apply to "All professionals
-involved in a forensics examination".
+involved in a forensic examination".
 
 *Examiner* is also part of professional titles and organizations.
 
@@ -396,5 +396,5 @@ storage hierarchy, their mechanism of survival, and the complexity required to r
 * [Locard's exchange principle](locard's_exchange_principle.md)
 * [Remnant data](remnant_data.md)
 * [Residual data](residual_data.md)
-* [Rethoric of proof](rethoric_of_proof.md)
+* [Rhetoric of proof](rhetoric_of_proof.md)
 * [Traits of evidence](traits_of_evidence.md)

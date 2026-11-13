@@ -13,7 +13,7 @@ reserved for recovering data from damaged media, while the recovery of deleted o
 corrupted data from healthy media is a forensic activity.
 
 More fundamentally, data recovery is **a process of inference** rather than a direct reading of the
-media: the investigator reconstructs what once existed from incomplete evidence - partially
+media: the analyst reconstructs what once existed from incomplete traces - partially
 overwritten directory entries, remnants of file headers, sectors that still hold older data. Every
 recovered artifact is therefore a hypothesis, whose reliability grows the more independent
 observed evidence corroborates it.

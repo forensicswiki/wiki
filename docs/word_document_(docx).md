@@ -10,8 +10,8 @@ by earlier versions of Microsoft Office.
 ## Container Format
 
 DOCX is written in an XML format, which consists of a [ZIP archive](zip.md)
-file containing [XML](xml.md) and binaries. Content can be analysed without
-modification by unzipping the file (e.g. in WinZIP) and analysing the contents
+file containing [XML](xml.md) and binaries. Content can be analyzed without
+modification by unzipping the file (e.g. in WinZIP) and analyzing the contents
 of the archive.
 
 The file _rels/.rels contains information about the structure of the
@@ -46,7 +46,7 @@ compliance with the standard.
 For most purposes OOXML may be considered a subset of DOCX (DOCX
 contains additional features, like OLE serialization).
 
-Documentation on OOXML may provide a guide to analysing a DOCX file.
+Documentation on OOXML may provide a guide to analyzing a DOCX file.
 
 ## Metadata
 

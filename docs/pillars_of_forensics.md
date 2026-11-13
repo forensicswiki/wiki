@@ -6,7 +6,7 @@ In the rapidly evolving landscape of cybersecurity, digital forensics serves as 
 incident response and legal accountability. However, newcomers and seasoned IT professionals alike
 often blur the lines between the field's three core pillars (or layers):
 
-* [concepts/fundamentals](concept.md)
+* [Concepts](concepts.md)
 * methodologies
 * [tools](forensic_tooling.md)
 

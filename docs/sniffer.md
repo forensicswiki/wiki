@@ -61,7 +61,7 @@ Some sniffing programs cannot handle IP fragmentation correctly.
 
 It is possible to cheat some TCP reassemblers by sending TCP packets
 with low IP TTL values (this TCP packet may not reach the destination
-host, but will be analysed by a network sniffer). This will break the
+host, but will be analyzed by a network sniffer). This will break the
 resulting TCP stream.
 
 * [Encryption](encryption.md): [VPN](vpn.md) tunnels,

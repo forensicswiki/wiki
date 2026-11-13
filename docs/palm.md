@@ -178,7 +178,7 @@ built-in capabilities for performing MD5 hashing, data carving, deleted
 file recovery, and many other functions.
 
 Although traditionally relegated to the realm of desktop computer
-forensics investigations, EnCase does support the acquisition and
+forensic investigations, EnCase does support the acquisition and
 analysis of a limited number of Palm devices.
 
 ### Paraben

@@ -33,7 +33,7 @@ ssdeep,1.1--blocksize:hash:hash,filename
 ### Truncated Files
 
 The program can be used to associate two files where one is a truncated
-version of the other. In this example, the examiner has a file
+version of the other. In this example, the analyst has a file
 `all-the-kings-men.avi`. She computes a fuzzy hash of his file:
 
 ```bash
@@ -47,7 +47,7 @@ ssdeep,1.0--blocksize:hash:hash,filename
 12582912:fgQl/nUjQAbaBQvHf8yLr5CHJu3dyh YJ27TuXyphJs3wHC6 rEfAV wDrw6C/AT:fPl8cdAUyLr5CHJu3dyh8uzwHC6 reAS,"all-the-kings-men.avi"
 ```
 
-The examiner then creates a second file that contains the first 29% of
+The analyst then creates a second file that contains the first 29% of
 the original. This simulates recovering a partial file in some manner.
 
 ```bash
@@ -60,7 +60,7 @@ $ ls -lsh partial.avi
 -rw-r--r-- 1 jvalenti users 200M Oct 6 06:40 partial.avi
 ```
 
-The examiner can then use the matching mode of ssdeep, the `-m` option,
+The analyst can then use the matching mode of ssdeep, the `-m` option,
 to read the known signature generated above and match it against the
 partial file.
 
@@ -74,7 +74,7 @@ The files are associated!
 ### Source Code Reuse
 
 The source code for ssdeep was originally obtained from another open
-source project called [md5deep](md5deep.md). An examiner with
+source project called [md5deep](md5deep.md). An analyst with
 access to both source code directory trees could use ssdeep to find any
 similarities between the two. In this example we have two folders,
 `ssdeep-1.1` and `md5deep-1.12`. First we record the fuzzy hashes, with
@@ -95,9 +95,9 @@ ssdeep-1.1\helpers.c matches md5deep-1.12\helpers.c (57)
 
 Those matches indicate source code reuse! A manual examination of the
 files in question is required to tell exactly what kind of copying
-occurred, but we've saved the examiner a lot of work.
+occurred, but we've saved the analyst a lot of work.
 
-An advanced examiner can accomplish this matching with just one command
+An advanced analyst can accomplish this matching with just one command
 line, but it will also include all of the matches internal to each
 directory.
 

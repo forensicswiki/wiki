@@ -185,7 +185,7 @@ while collecting, processing, and presenting digital evidence in
 criminal proceedings. The courses intended for
 [LAW ENFORCEMENT](https://insig2-and-zyberglobal.learnworlds.com/pages/law-enforcement)
 officials cover procedures, techniques, and tools used in digital
-forensics analysis and how they can apply them in their forensic
+forensic analysis and how they can apply them in their forensic
 investigations. For the various industry professionals working in the
 [PRIVATE SECTOR](https://insig2-and-zyberglobal.learnworlds.com/pages/business),
 tailored courses help them understand the value and the need for digital

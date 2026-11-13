@@ -2,7 +2,7 @@
 tags:
   - Articles that need to be expanded
 ---
-Using a Graphical Processing Unit (GPU) for forensics analysis
+Using a Graphical Processing Unit (GPU) for forensic analysis
 attempts to make use of the significant, parallel processing power
 available on these high cards for a different purpose than their
 original intent. The idea of forensic analysis on a GPU was first

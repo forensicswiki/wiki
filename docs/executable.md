@@ -12,9 +12,10 @@ tags:
   - Windows
 ---
 An executable file is used to perform tasks according to encoded
-instructions. Executable files are sometimes also referred to as
-binaries which technically can be considered a sub class of executable
-files.
+instructions. Executable files are sometimes informally referred to as
+binaries. In that colloquial usage the binary is the broader term for
+any compiled piece of code in contrast to plaintext source code; see
+[Terminology](terminology.md).
 
 There are multiple families of executable files:
 

@@ -3,10 +3,11 @@ tags:
   - Articles that need to be expanded
 ---
 Residual Data is data that is unintentionally left behind on computer
-media. In forensic usage, remnant data is typically left behind after
-attempts have been made to delete the data, after the data has been
-forgotten, or after the media on which the data resides has been
-decommissioned.
+media or in active system memory. In forensic usage, residual data is
+typically left behind after attempts have been made to delete the data,
+after the data has been forgotten, or after the media on which the data
+resides has been decommissioned. Data that remains recoverable after
+new information has been written to the media is [remnant data](remnant_data.md).
 
 Residual data appears at all levels of modern computer systems:
 

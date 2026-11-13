@@ -11,7 +11,7 @@ tags:
 
 Memory analysis has come a long way in the last few years.
 
-There has been a large focus on analysing popular operating system
+There has been a large focus on analyzing popular operating system
 kernels such as Windows, Linux and Mac OS X. We have been able to
 reconstruct important system information, such as processes, threads,
 mutexes etc. However, progress has been slower with analysis of
