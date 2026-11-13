@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Email Analysis
-  - LGPL
   - Tools
 ---
 The **libnsfdb** package contains a library and applications to read the

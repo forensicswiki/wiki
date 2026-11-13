@@ -432,8 +432,6 @@ Special purpose tags, including some inherited from MediaWiki times.
 | Digital Forensics XML | The DFXL standard for exchanging forensic data. |
 | Disassembler | Tools that disassemble compiled programs. |
 | Download Managers | Download manager software and its forensic artifacts. |
-| GPL | The GNU General Public License (GPL) for software. |
-| LGPL | The GNU Lesser General Public License for software libraries. |
 | Libyal | The libyal set of open-source parser libraries. |
 
 ### Tagging examples

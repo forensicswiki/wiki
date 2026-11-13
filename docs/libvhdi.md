@@ -1,7 +1,6 @@
 ---
 tags:
   - Disk Imaging
-  - LGPL
   - Libyal
   - Tools
 ---

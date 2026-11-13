@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Analysis
-  - LGPL
   - Tools
 ---
 The **libolecf** package contains a library and applications to read the

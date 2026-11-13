@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Log Analysis
-  - LGPL
   - Tools
 ---
 The **libevt** package contains a library and applications to read

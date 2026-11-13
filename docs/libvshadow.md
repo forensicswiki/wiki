@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Disk Analysis
-  - LGPL
   - Tools
 ---
 The **libvshadow** package contains a library and applications to read

@@ -1,7 +1,6 @@
 ---
 tags:
   - Artifact Analysis
-  - LGPL
   - Libyal
   - Open Source Software
   - Tools

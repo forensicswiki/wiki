@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Email Analysis
-  - LGPL
   - Tools
 ---
 The **libpff** package contains a library and tools to read the

@@ -1,7 +1,6 @@
 ---
 tags:
   - Binary Analysis
-  - LGPL
   - Libyal
   - Open Source Software
   - Tools

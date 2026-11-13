@@ -2,7 +2,6 @@
 tags:
   - Libyal
   - Windows Registry Analysis
-  - LGPL
   - Tools
 ---
 The **libregf** package contains a library and applications to read the
