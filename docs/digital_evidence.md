@@ -62,6 +62,46 @@ To be legally defensible in a court of law, computer evidence must satisfy
 contextually complete, reliable in its forensic handling, and easily believable to a judge and/or
 jury.
 
+## Inculpatory vs. Exculpatory Evidence
+
+In digital forensics, investigators uncover electronic artifacts that can either confirm a
+suspect's involvement in an offense or point toward their innocence. Balancing these findings is
+critical to an objective investigation.
+
+### Inculpatory Evidence
+
+**Inculpatory evidence** is digital information that tends to prove a person's guilt or establish
+their direct involvement in an unlawful act.
+
+Common examples include:
+
+* Incriminating emails, text messages, or chat logs discussing a crime
+* User-produced documents detailing attack plans or malicious scripts
+* Browsing history showing searches for how to bypass security controls or delete system logs
+* System artifacts proving a specific user account was logged in and active during the incident
+  window
+
+### Exculpatory Evidence
+
+**Exculpatory evidence** is digital information that tends to excuse, justify, or clear a suspect
+of fault, supporting their innocence.
+
+Common examples include:
+
+* System logs or geolocation data proving the user was physically or digitally elsewhere when the
+  action occurred
+* File access timestamps or metadata showing someone else had access to the machine during the
+  relevant timeframe
+* Deleted files or communications indicating an alternative actor or lack of criminal intent
+* Evidence that a computer or account was compromised by an external party
+
+### Role of the Forensic Examiner
+
+An objective digital forensic examiner does not search merely to confirm a pre-existing theory of
+guilt. Every digital trace must be tested and evaluated as both a potential inculpatory and
+exculpatory source, as overlooking exculpatory artifacts compromises the integrity of the
+investigation and can lead to wrongful accusations.
+
 ## See Also
 
 * [Chain of custody](chain_of_custody.md)
@@ -70,7 +110,8 @@ jury.
 
 ## External Links
 
-* [IETF RFC 3227, Guidelines for evidence collection and archiving](https://www.ietf.org/rfc/rfc3227.txt),
+* [IETF RFC 3227, Guidelines for evidence collection and
+archiving](https://www.ietf.org/rfc/rfc3227.txt),
   by The Internet Society, 2002
 * [ISO/IEC 27037:2012 - Information technology -- Security techniques -- Guidelines for
   identification, collection, acquisition and preservation of digital

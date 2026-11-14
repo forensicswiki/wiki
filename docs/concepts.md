@@ -14,9 +14,10 @@ This article contains various concepts central to digital forensics such as:
 * [Chain of custody](chain_of_custody.md)
 * Data Integrity: evidence must remain entirely unaltered throughout the investigation. To uphold
   this, investigators typically work on a copy instead of the original device.
+* [Risks in Evidentiary Domains](evidentiary_risks.md)
 * Forensic Soundness: A standard or concept stating that tools and methods used during an
   investigation must be scientifically validated, reliable, and independently verifiable. The
-  phrase is also used in [Terminology](terminology.md#forensically-sound), where
+  phrase is also used in [terminology](terminology.md#forensically-sound), where
   *forensically sound* means a transparent forensic process that preserves the original meaning
   of the data for production in a court of law.
 * [Ipse Dixit](ipse_dixit.md) or why "because the tool/vendor/expert/artificial intelligence said
