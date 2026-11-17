@@ -12,18 +12,8 @@ forensic examiners outpaces supply, the training ecosystem has fractured into sp
 
 When measured against the [The Pillars of Forensics](pillars_of_forensics.md) a troubling pattern
 emerges. Modern training increasingly produces skilled operators rather than true forensic
-scientists. Across the industry, this imbalance creates four systemic gaps and severe operational
+scientists. Across the industry, this imbalance creates 4 systemic gaps and severe operational
 risks.
-
-## How Major Forensics Certifications Compare
-
-| Program / Certification | Primary Focus &amp; Audience | Pillar Alignment | Core Strengths | Key Blind Spots &amp; Risks |
-| --- | --- | --- | --- | --- |
-| **SANS / GIAC** *(GCFE, GCFA, GNFA)* | **Enterprise DFIR &amp; Threat Hunting** (Corporate SOCs, incident responders, consultants) | **Artifact- &amp; Workflow-Heavy.** Some operating system internals and open-source CLI tools; lighter on legal/lab standards. | Focus on speed-to-triage, modern intrusion tracking, and memory/timeline analysis. | Encourages **artifact-centric** tunnel vision; minimal emphasis on peer review, hex validation, or courtroom testimony. |
-| **IACIS** *(CFCE)* | **Law Enforcement &amp; Legal Forensics** (Police labs, government examiners, expert witnesses) | **Concept- &amp; Methodology-First.** Requires manual hex-level file system parsing before touching automated tools. | Gold standard for courtroom defensibility; includes a multi-month peer-reviewed practical phase. | Slower to adapt to modern cloud intrusions, enterprise-scale triage, and volatile memory threats. |
-| **ISFCE** *(CCE)* | **Civil Litigation &amp; Private Forensics** (e-Discovery specialists, private investigators) | **Methodology- &amp; Reporting-Heavy.** Strictly vendor-neutral; graded heavily on formal forensic report writing. | Tests end-to-end evidence handling, chain of custody, and defensible written communication. | Broad generalist scope lacks deep specialization in modern enterprise attack TTPs or mobile extraction. |
-| **Vendor Certs** *(EnCE, ACE, Cellebrite CCPA, Magnet)* | **Platform-Specific Execution** (Labs standardized on EnCase, FTK, UFED, or AXIOM) | **Tool-Centric.** Built around mastering a specific commercial suite's UI, parsers, and workflows. | Immediate operational productivity on licensed hardware/software; crucial for mobile extraction. | High risk of **tool-centric** dependency; examiners often cannot explain *how* the tool parsed the data. |
-| **EC-Council** *(CHFI)* | **Entry-Level Generalists** (IT auditors, junior analysts, compliance teams) | **Survey-Level.** Broad overview of tools and basic concepts with shallow practical testing. | Accessible entry point for non-specialists needing baseline vocabulary. | Lacks deep hands-on rigor; widely viewed by practitioners as insufficient for complex casework or testimony. |
 
 ## Systemic Gaps and Operational Risks
 
@@ -84,7 +74,7 @@ capture-the-flag (CTF) style labs where a single hidden answer exists.
   to find "smoking guns" rather than systematically disproving alternative explanations, observer
   bias creeps into every layer of analysis.
 
-## Closing the Gap: Rebuilding the Foundation
+### Closing the Gap: Rebuilding the Foundation
 
 Tools will change every few years, and operating systems will continue to evolve. Sustainable
 competence in digital forensics requires rebalancing training around all three pillars:
@@ -96,6 +86,19 @@ competence in digital forensics requires rebalancing training around all three p
    from minute one.
 3. **Treat Tools as Assistants, Not Authorities:** Use software to accelerate discovery, but rely
    on foundational knowledge and corroborating artifacts to prove what actually happened.
+
+### How Major Certifications Compare
+
+Note that the following table is a high-level point in time assessment and is intended mostly for
+awareness purposes.
+
+| Program / Certification | Primary Focus &amp; Audience | Pillar Alignment | Core Strengths | Key Blind Spots &amp; Risks |
+| --- | --- | --- | --- | --- |
+| **SANS / GIAC** *(GCFE, GCFA, GNFA)* | **Enterprise DFIR &amp; Threat Hunting** (Corporate SOCs, incident responders, consultants) | **Artifact- &amp; Workflow-Heavy.** Some operating system internals and open-source CLI tools; lighter on legal/lab standards. | Focus on speed-to-triage, modern intrusion tracking, and memory/timeline analysis. | Encourages **artifact-centric** tunnel vision; minimal emphasis on peer review, hex validation, or courtroom testimony. |
+| **IACIS** *(CFCE)* | **Law Enforcement &amp; Legal Forensics** (Police labs, government examiners, expert witnesses) | **Concept- &amp; Methodology-First.** Requires manual hex-level file system parsing before touching automated tools. | Gold standard for courtroom defensibility; includes a multi-month peer-reviewed practical phase. | Slower to adapt to modern cloud intrusions, enterprise-scale triage, and volatile memory threats. |
+| **ISFCE** *(CCE)* | **Civil Litigation &amp; Private Forensics** (e-Discovery specialists, private investigators) | **Methodology- &amp; Reporting-Heavy.** Strictly vendor-neutral; graded heavily on formal forensic report writing. | Tests end-to-end evidence handling, chain of custody, and defensible written communication. | Broad generalist scope lacks deep specialization in modern enterprise attack TTPs or mobile extraction. |
+| **Vendor Certs** *(EnCE, ACE, Cellebrite CCPA, Magnet)* | **Platform-Specific Execution** (Labs standardized on EnCase, FTK, UFED, or AXIOM) | **Tool-Centric.** Built around mastering a specific commercial suite's UI, parsers, and workflows. | Immediate operational productivity on licensed hardware/software; crucial for mobile extraction. | High risk of **tool-centric** dependency; examiners often cannot explain *how* the tool parsed the data. |
+| **EC-Council** *(CHFI)* | **Entry-Level Generalists** (IT auditors, junior analysts, compliance teams) | **Survey-Level.** Broad overview of tools and basic concepts with shallow practical testing. | Accessible entry point for non-specialists needing baseline vocabulary. | Lacks deep hands-on rigor; widely viewed by practitioners as insufficient for complex casework or testimony. |
 
 ## Training Providers
 
