@@ -47,6 +47,30 @@ are:
 
 ### Legacy Encoding Translation
 
+#### Asymmetric Case Expansion
+
+Asymmetric case expansion occurs when character case-conversion routines operate on legacy
+single-byte code (SBC) pages that lack a one-to-one mapping between lowercase and uppercase
+glyphs, silently mutating and lengthening the underlying byte sequence.
+
+In restrictive legacy encodings such as Windows-1252, the character set includes a single-byte
+representation for the lowercase German sharp 's' (`ß`), but contains no corresponding single-byte
+code point for an uppercase equivalent. When an application converts a Windows-1252 string to
+uppercase, often as a standard preprocessing step for normalization, indexing, or regex matching,
+the translation engine resolves `ß` into two standard ASCII characters (`SS`), altering both the
+visual composition and the byte length of the string.
+
+For digital forensic analysts, these length-altering transformations create significant
+discrepancies between raw artifacts and processed records:
+
+* **Byte-Offset and Signature Drift:** Expanding a single byte (`0xDF` in Windows-1252) into two
+  ASCII bytes (`0x53 0x53`) shifts the byte offsets of all subsequent characters in the string. This
+  breaks fixed-offset parsers and causes raw network captures, such as multipart HTTP POST payloads
+  or regional CSV imports, to diverge in length and binary hash from downstream application logs.
+* **Filter Evasion and Memory Anomalies:** Because downstream string transformations unexpectedly
+  expand the payload, input validation checks performed prior to case conversion may evaluate a
+  shorter, benign-looking string before it mutates into a longer sequence.
+
 #### Cross-Codepage Structural Convergence
 
 Cross-Codepage Structural Convergence refers to the phenomenon where entirely different legacy
