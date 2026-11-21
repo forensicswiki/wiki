@@ -25,6 +25,14 @@ procedural vulnerabilities:
   time-zone normalization can alter metadata, compromising the legal integrity of primary evidence.
 * **Scope and Granularity Collapse:** Human fatigue during manual review of hundreds of terrabytes
   of logs can cause analysts to overlook rare anomalies, edge cases, or sub-second event intervals.
+* **Tool &amp; MCP Poisoning:** Compromised tool definitions or server descriptions in MCP
+  integrations can hijack agent behavior and misrepresent evidence.
+* **RAG &amp; Memory Poisoning:** Injecting fabricated artifacts into RAG indices or memory
+  corrupts context, causing the system to cite tainted records as history.
+* **Excessive Agency &amp; Cascading Failures:** Overly broad agent permissions risk altering
+  primary artifacts, while upstream triage errors can propagate downstream.
+* **Model Drift &amp; Lack of Provenance:** Silent updates and unpinned parameters break analytical
+  reproducibility and *Daubert* / Rule 702 scrutiny.
 
 ## AI-Assisted &amp; Harness Infrastructure Risks
 
@@ -53,23 +61,29 @@ rigor:
 
 | Risk Category | Mechanism in LLMs | Evidentiary Impact |
 | --- | --- | --- |
+| **Algorithmic Bias** | Skewed pre-training distributions and alignment priors encode systemic prejudices into classification and anomaly scoring. | Disproportionately flagging specific dialects, demographics, or benign user behaviors as malicious indicators of compromise. |
 | **Conceptual Conflation** | High-dimensional vector collapse merges distinct domain-specific terms into overlapping semantic neighborhoods. | Blurring strict statutory definitions or confusing technical artifacts (e.g., conflating an attacker's persistence mechanism with routine system uptime). |
-| **Hallucination &amp; Fabricated Provenance** | Probabilistic token generation optimizes for syntactic plausibility rather than factual truth. | Generating non-existent Windows Event IDs, fabricated file hashes, or fictitious case law to justify an investigative claim. |
-| **Epistemic Overclaiming** | Reinforcement learning from human feedback (RLHF) alignment penalizes hesitation and rewards confident, authoritative prose. | Presenting low-confidence correlations or weak circumstantial inferences as definitive, court-ready proof. |
-| **Narrative Smoothing** | Autoregressive models bridge gaps by inserting the most statistically probable sequence of events. | Fabricating intermediate lateral movement steps or assuming unrecorded user intent to make sparse log timelines read like a cohesive story. |
+| **Confabulation &amp; Narrative Smoothing** | Autoregressive next-token prediction blends grounded input context with statistically probable associations to bridge missing data without tracking provenance. | Weaving verified forensic artifacts (e.g., valid timestamps or IP addresses) with fabricated lateral movement steps or unrecorded user intent, making false conclusions harder to detect. |
 | **Context Exhaustion &amp; Compression** | Fixed token limits trigger automated summarization algorithms during long-session analysis. | Truncating raw evidentiary data and dropping critical temporal or anomaly details required for comprehensive reconstruction. |
+| **Epistemic Overclaiming** | Reinforcement learning from human feedback (RLHF) alignment penalizes hesitation and rewards confident, authoritative prose. | Presenting low-confidence correlations or weak circumstantial inferences as definitive, court-ready proof. |
+| **Hallucination &amp; Fabricated Provenance** | Probabilistic token generation optimizes for syntactic plausibility rather than factual truth. | Generating non-existent Windows Event IDs, fabricated file hashes, or fictitious case law to justify an investigative claim. |
+| **Reasoning Theater** | Post-training optimization produces plausible, step-by-step rationales that do not faithfully reflect the model's underlying computation. | Creating an illusion of transparent, reproducible logic that masks flawed probabilistic leaps and fails *Daubert* or Federal Rule of Evidence 702 scrutiny. |
+| **Sycophancy** | Alignment tuning prioritizes agreement with user framing and implied beliefs over objective analytical neutrality. | Amplifying investigator confirmation bias by validating leading hypotheses and suppressing exculpatory artifacts in the evidence set. |
 
 ## Conclusion
 
-While traditional evidentiary risks stem primarily from human oversight and deterministic parser
-errors, AI-assisted workflows introduce **persuasive, silent failures**, such as conceptual
-conflation and epistemic overclaiming, that pass superficial human review. Maintaining admissibility
-and evidentiary integrity requires pairing AI tooling with strict deterministic gates, immutable
-audit logs, structured argumentation frameworks (such as Analysis of Competing Hypotheses), and
-mandatory manual verification of every generated assertion.
+Unlike traditional risks from human error and deterministic parsers, AI-assisted workflows
+introduce silent failures, such as confabulation, sycophancy, and unfaithful reasoning, that evade
+casual review. Preserving evidentiary integrity demands strict deterministic gates, pinned model
+provenance, immutable logs, and mandatory manual verification of all generated claims.
 
 ## See Also
 
 * [Digital evidence](digital_evidence.md)
 * [Observation errors](observation_errors.md)
 * [Rhetoric of Proof](rhetoric_of_proof.md)
+
+## External Links
+
+* [AI Security &amp; Safety Glossary: Confabulation](https://aisecurityandsafety.org/en/glossary/confabulation/)
+* [AI Security &amp; Safety Glossary: Hallucination](https://aisecurityandsafety.org/en/glossary/hallucination/)
